@@ -1,65 +1,241 @@
-import Image from "next/image";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import CountryCard from "@/components/CountryCard";
+import NewsletterForm from "@/components/NewsletterForm";
+import { countries } from "@/lib/countries";
+import {
+  Globe,
+  BookOpen,
+  Shield,
+  TrendingUp,
+  MapPin,
+  Plane,
+} from "lucide-react";
 
 export default function Home() {
+  const phase1 = countries.filter((c) => c.phase === 1);
+  const phase2 = countries.filter((c) => c.phase === 2);
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+    <>
+      <Header />
+      <main>
+        {/* ===== ヒーロー ===== */}
+        <section className="relative overflow-hidden bg-gradient-to-br from-ocean-900 via-ocean-800 to-ocean-700 text-white">
+          {/* 背景の装飾 */}
+          <div className="absolute inset-0 opacity-10">
+            <div className="absolute top-20 left-10 text-8xl">🌏</div>
+            <div className="absolute top-40 right-20 text-6xl">✈️</div>
+            <div className="absolute bottom-20 left-1/3 text-7xl">🏠</div>
+          </div>
+
+          <div className="relative max-w-6xl mx-auto px-4 py-24 md:py-36">
+            <div className="max-w-2xl">
+              <p className="text-ocean-300 text-sm font-medium tracking-widest uppercase mb-4">
+                海外在住日本人のためのメディア
+              </p>
+              <h1 className="heading-editorial text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+                その国で暮らす
+                <br />
+                <span className="text-ocean-300">リアル</span>を、
+                <br />
+                深く届ける。
+              </h1>
+              <p className="text-lg text-ocean-200 leading-relaxed mb-10 max-w-lg">
+                ビザ、税金、保険、住居、医療——
+                <br />
+                国ごとに異なる「暮らしの実務」を、
+                <br />
+                在住者の視点で丁寧に解説します。
+              </p>
+
+              {/* 国フラグ一覧 */}
+              <div className="flex flex-wrap gap-3">
+                {phase1.map((c) => (
+                  <a
+                    key={c.code}
+                    href={`/${c.code}`}
+                    className="flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full text-sm transition-colors"
+                  >
+                    <span className="text-xl">{c.flag}</span>
+                    {c.name}
+                  </a>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          {/* 波形の区切り */}
+          <div className="absolute bottom-0 left-0 right-0">
+            <svg
+              viewBox="0 0 1440 80"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-full"
             >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
+              <path
+                d="M0 40C360 80 720 0 1080 40C1260 60 1380 60 1440 40V80H0V40Z"
+                fill="#fafaf9"
+              />
+            </svg>
+          </div>
+        </section>
+
+        {/* ===== Kaigaijinとは ===== */}
+        <section className="py-20 md:py-28">
+          <div className="max-w-6xl mx-auto px-4">
+            <div className="max-w-2xl mx-auto text-center mb-16">
+              <h2 className="heading-editorial text-3xl md:text-4xl font-bold mb-6 line-accent mx-auto w-fit">
+                国別に深い、だから役に立つ
+              </h2>
+              <p className="text-stone-500 leading-relaxed mt-8">
+                海外在住日本人は世界に約129万人。
+                <br />
+                でも国ごとの「暮らしの実務」をまとめた日本語メディアは、ほとんどありません。
+                <br />
+                Kaigaijinは、その空白を埋めるために生まれました。
+              </p>
+            </div>
+
+            {/* 特徴グリッド */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              {[
+                {
+                  icon: Globe,
+                  title: "国別に特化",
+                  desc: "シンガポール、タイ、UAE…それぞれの国に特化した深い情報。広く浅いメディアとは一線を画します。",
+                },
+                {
+                  icon: BookOpen,
+                  title: "実務に直結",
+                  desc: "ビザの取り方、確定申告の仕方、保険の選び方。生活に直結する実務情報を分かりやすく。",
+                },
+                {
+                  icon: Shield,
+                  title: "在住者の視点",
+                  desc: "観光ガイドではなく、実際にその国で暮らす人のための情報。現地の空気感が伝わるコンテンツを。",
+                },
+              ].map(({ icon: Icon, title, desc }) => (
+                <div
+                  key={title}
+                  className="bg-white rounded-2xl border border-stone-200 p-8"
+                >
+                  <div className="w-12 h-12 bg-ocean-50 rounded-xl flex items-center justify-center mb-5">
+                    <Icon className="text-ocean-600" size={24} />
+                  </div>
+                  <h3 className="heading-editorial text-lg font-bold mb-3">
+                    {title}
+                  </h3>
+                  <p className="text-sm text-stone-500 leading-relaxed">
+                    {desc}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ===== 国別ガイド ===== */}
+        <section id="countries" className="py-20 md:py-28 bg-sand-50">
+          <div className="max-w-6xl mx-auto px-4">
+            {/* Phase 1 */}
+            <div className="mb-16">
+              <div className="flex items-center gap-3 mb-2">
+                <MapPin className="text-ocean-600" size={20} />
+                <span className="text-xs font-semibold text-ocean-600 tracking-widest uppercase">
+                  注力エリア
+                </span>
+              </div>
+              <h2 className="heading-editorial text-3xl md:text-4xl font-bold mb-8">
+                まずはここから
+              </h2>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                {phase1.map((c) => (
+                  <CountryCard key={c.code} country={c} />
+                ))}
+              </div>
+            </div>
+
+            {/* Phase 2 */}
+            <div>
+              <div className="flex items-center gap-3 mb-2">
+                <Plane className="text-sand-600" size={20} />
+                <span className="text-xs font-semibold text-sand-600 tracking-widest uppercase">
+                  拡大予定
+                </span>
+              </div>
+              <h2 className="heading-editorial text-2xl font-bold mb-8">
+                次のエリア
+              </h2>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                {phase2.map((c) => (
+                  <CountryCard key={c.code} country={c} />
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ===== 数字で見る ===== */}
+        <section className="py-20 md:py-28">
+          <div className="max-w-6xl mx-auto px-4">
+            <h2 className="heading-editorial text-3xl md:text-4xl font-bold text-center mb-16">
+              海外在住日本人のリアル
+            </h2>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+              {[
+                {
+                  number: "129万人",
+                  label: "海外在住日本人",
+                  icon: Globe,
+                },
+                {
+                  number: "34.8万人",
+                  label: "アジア在住",
+                  icon: MapPin,
+                },
+                {
+                  number: "年3-5%",
+                  label: "増加率",
+                  icon: TrendingUp,
+                },
+                {
+                  number: "6カ国+",
+                  label: "カバー予定",
+                  icon: Plane,
+                },
+              ].map(({ number, label, icon: Icon }) => (
+                <div key={label} className="text-center">
+                  <Icon
+                    className="mx-auto text-ocean-400 mb-3"
+                    size={28}
+                  />
+                  <p className="heading-editorial text-3xl md:text-4xl font-bold text-ocean-800">
+                    {number}
+                  </p>
+                  <p className="text-sm text-stone-500 mt-1">{label}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ===== ニュースレター ===== */}
+        <section className="py-20 md:py-28 bg-ocean-900 text-white">
+          <div className="max-w-2xl mx-auto px-4 text-center">
+            <h2 className="heading-editorial text-3xl md:text-4xl font-bold mb-4">
+              新着記事をお届け
+            </h2>
+            <p className="text-ocean-300 mb-10">
+              国別の最新生活情報を、メールでお届けします。
+              <br />
+              配信頻度は月1〜2回。いつでも解除できます。
+            </p>
+            <NewsletterForm />
+          </div>
+        </section>
       </main>
-    </div>
+      <Footer />
+    </>
   );
 }

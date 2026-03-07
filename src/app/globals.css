@@ -1,26 +1,81 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --font-serif: "Noto Serif JP", serif;
+  --font-sans: "Noto Sans JP", sans-serif;
+
+  --color-ocean-50: #eff8ff;
+  --color-ocean-100: #dbeefe;
+  --color-ocean-200: #bfdffd;
+  --color-ocean-300: #93c9fc;
+  --color-ocean-400: #60abf8;
+  --color-ocean-500: #3b8af3;
+  --color-ocean-600: #256ce8;
+  --color-ocean-700: #1d57d5;
+  --color-ocean-800: #1e47ad;
+  --color-ocean-900: #1e3f88;
+
+  --color-sand-50: #faf8f5;
+  --color-sand-100: #f3efe8;
+  --color-sand-200: #e6ddd0;
+  --color-sand-300: #d5c6b0;
+  --color-sand-400: #c2a98e;
+  --color-sand-500: #b49374;
+  --color-sand-600: #a78068;
+  --color-sand-700: #8b6957;
+  --color-sand-800: #72574a;
+  --color-sand-900: #5e4940;
+
+  --color-sunset-400: #fb923c;
+  --color-sunset-500: #f97316;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* エディトリアル風のタイポグラフィ */
+.heading-editorial {
+  font-family: var(--font-serif);
+  letter-spacing: 0.02em;
+  line-height: 1.4;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* 横線デコレーション */
+.line-accent::after {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 2px;
+  background: var(--color-ocean-600);
+  margin-top: 16px;
+}
+
+/* スクロールで表示するアニメーション */
+@keyframes reveal-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.animate-reveal {
+  animation: reveal-up 0.7s ease-out both;
+}
+
+/* 国カード ホバー */
+.country-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.country-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
+}
+
+/* グラデーションテキスト */
+.text-gradient {
+  background: linear-gradient(135deg, var(--color-ocean-700), var(--color-ocean-500));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
