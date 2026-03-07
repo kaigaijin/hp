@@ -5,7 +5,7 @@ import { ArrowRight, Users } from "lucide-react";
 export default function CountryCard({ country }: { country: Country }) {
   return (
     <Link href={`/${country.code}`}>
-      <article className="country-card bg-white rounded-2xl border border-stone-200 p-6 h-full flex flex-col">
+      <article className="country-card bg-white dark:bg-stone-800 rounded-2xl border border-stone-200 dark:border-stone-700 p-6 h-full flex flex-col">
         {/* 国旗 + 名前 */}
         <div className="flex items-start justify-between mb-4">
           <div>
@@ -15,14 +15,14 @@ export default function CountryCard({ country }: { country: Country }) {
             </h3>
             <p className="text-xs text-stone-400 mt-0.5">{country.nameEn}</p>
           </div>
-          <div className="flex items-center gap-1 text-xs text-stone-400 bg-stone-100 px-2 py-1 rounded-full">
+          <div className="flex items-center gap-1 text-xs text-stone-400 bg-stone-100 dark:bg-stone-700 px-2 py-1 rounded-full">
             <Users size={12} />
             {country.population}
           </div>
         </div>
 
         {/* タグライン */}
-        <p className="text-sm text-stone-500 mb-4 italic">
+        <p className="text-sm text-stone-500 dark:text-stone-400 mb-4 italic">
           {country.tagline}
         </p>
 
@@ -31,7 +31,7 @@ export default function CountryCard({ country }: { country: Country }) {
           {country.topics.map((topic) => (
             <span
               key={topic}
-              className="text-xs bg-ocean-50 text-ocean-700 px-2 py-0.5 rounded-full"
+              className="text-xs bg-ocean-50 dark:bg-ocean-900/30 text-ocean-700 dark:text-ocean-300 px-2 py-0.5 rounded-full"
             >
               {topic}
             </span>
@@ -39,7 +39,7 @@ export default function CountryCard({ country }: { country: Country }) {
         </div>
 
         {/* CTA */}
-        <div className="mt-auto flex items-center gap-1 text-sm font-medium text-ocean-600 group">
+        <div className="mt-auto flex items-center gap-1 text-sm font-medium text-ocean-600 dark:text-ocean-400 group">
           記事を読む
           <ArrowRight
             size={14}

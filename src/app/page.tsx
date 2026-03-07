@@ -1,7 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CountryCard from "@/components/CountryCard";
-import NewsletterForm from "@/components/NewsletterForm";
 import { countries } from "@/lib/countries";
 import {
   Globe,
@@ -75,7 +74,7 @@ export default function Home() {
             >
               <path
                 d="M0 40C360 80 720 0 1080 40C1260 60 1380 60 1440 40V80H0V40Z"
-                fill="#fafaf9"
+                className="fill-stone-50 dark:fill-stone-900"
               />
             </svg>
           </div>
@@ -88,7 +87,7 @@ export default function Home() {
               <h2 className="heading-editorial text-3xl md:text-4xl font-bold mb-6 line-accent mx-auto w-fit">
                 国別に深い、だから役に立つ
               </h2>
-              <p className="text-stone-500 leading-relaxed mt-8">
+              <p className="text-stone-500 dark:text-stone-400 leading-relaxed mt-8">
                 海外在住日本人は世界に約129万人。
                 <br />
                 でも国ごとの「暮らしの実務」をまとめた日本語メディアは、ほとんどありません。
@@ -118,15 +117,15 @@ export default function Home() {
               ].map(({ icon: Icon, title, desc }) => (
                 <div
                   key={title}
-                  className="bg-white rounded-2xl border border-stone-200 p-8"
+                  className="bg-white dark:bg-stone-800 rounded-2xl border border-stone-200 dark:border-stone-700 p-8"
                 >
-                  <div className="w-12 h-12 bg-ocean-50 rounded-xl flex items-center justify-center mb-5">
-                    <Icon className="text-ocean-600" size={24} />
+                  <div className="w-12 h-12 bg-ocean-50 dark:bg-ocean-900/30 rounded-xl flex items-center justify-center mb-5">
+                    <Icon className="text-ocean-600 dark:text-ocean-400" size={24} />
                   </div>
                   <h3 className="heading-editorial text-lg font-bold mb-3">
                     {title}
                   </h3>
-                  <p className="text-sm text-stone-500 leading-relaxed">
+                  <p className="text-sm text-stone-500 dark:text-stone-400 leading-relaxed">
                     {desc}
                   </p>
                 </div>
@@ -136,13 +135,13 @@ export default function Home() {
         </section>
 
         {/* ===== 国別ガイド ===== */}
-        <section id="countries" className="py-20 md:py-28 bg-sand-50">
+        <section id="countries" className="py-20 md:py-28 bg-sand-50 dark:bg-stone-800/50">
           <div className="max-w-6xl mx-auto px-4">
             {/* Phase 1 */}
             <div className="mb-16">
               <div className="flex items-center gap-3 mb-2">
-                <MapPin className="text-ocean-600" size={20} />
-                <span className="text-xs font-semibold text-ocean-600 tracking-widest uppercase">
+                <MapPin className="text-ocean-600 dark:text-ocean-400" size={20} />
+                <span className="text-xs font-semibold text-ocean-600 dark:text-ocean-400 tracking-widest uppercase">
                   注力エリア
                 </span>
               </div>
@@ -159,8 +158,8 @@ export default function Home() {
             {/* Phase 2 */}
             <div>
               <div className="flex items-center gap-3 mb-2">
-                <Plane className="text-sand-600" size={20} />
-                <span className="text-xs font-semibold text-sand-600 tracking-widest uppercase">
+                <Plane className="text-sand-600 dark:text-sand-400" size={20} />
+                <span className="text-xs font-semibold text-sand-600 dark:text-sand-400 tracking-widest uppercase">
                   拡大予定
                 </span>
               </div>
@@ -210,28 +209,13 @@ export default function Home() {
                     className="mx-auto text-ocean-400 mb-3"
                     size={28}
                   />
-                  <p className="heading-editorial text-3xl md:text-4xl font-bold text-ocean-800">
+                  <p className="heading-editorial text-3xl md:text-4xl font-bold text-ocean-800 dark:text-ocean-300">
                     {number}
                   </p>
-                  <p className="text-sm text-stone-500 mt-1">{label}</p>
+                  <p className="text-sm text-stone-500 dark:text-stone-400 mt-1">{label}</p>
                 </div>
               ))}
             </div>
-          </div>
-        </section>
-
-        {/* ===== ニュースレター ===== */}
-        <section className="py-20 md:py-28 bg-ocean-900 text-white">
-          <div className="max-w-2xl mx-auto px-4 text-center">
-            <h2 className="heading-editorial text-3xl md:text-4xl font-bold mb-4">
-              新着記事をお届け
-            </h2>
-            <p className="text-ocean-300 mb-10">
-              国別の最新生活情報を、メールでお届けします。
-              <br />
-              配信頻度は月1〜2回。いつでも解除できます。
-            </p>
-            <NewsletterForm />
           </div>
         </section>
       </main>

@@ -48,30 +48,30 @@ export default async function ArticlePage({
         <article className="max-w-3xl mx-auto px-4">
           {/* パンくず */}
           <nav className="flex items-center gap-2 text-sm text-stone-400 mb-8">
-            <Link href="/" className="hover:text-ocean-600 transition-colors">
+            <Link href="/" className="hover:text-ocean-600 dark:hover:text-ocean-400 transition-colors">
               Kaigaijin
             </Link>
             <span>/</span>
             <Link
               href={`/${code}`}
-              className="hover:text-ocean-600 transition-colors"
+              className="hover:text-ocean-600 dark:hover:text-ocean-400 transition-colors"
             >
               {country.flag} {country.name}
             </Link>
             <span>/</span>
-            <span className="text-stone-600">{article.meta.title}</span>
+            <span className="text-stone-600 dark:text-stone-300">{article.meta.title}</span>
           </nav>
 
           {/* ヘッダー */}
           <header className="mb-12">
-            <div className="flex items-center gap-2 text-sm text-ocean-600 font-medium mb-3">
+            <div className="flex items-center gap-2 text-sm text-ocean-600 dark:text-ocean-400 font-medium mb-3">
               <Tag size={14} />
               {article.meta.category}
             </div>
             <h1 className="heading-editorial text-3xl md:text-4xl font-bold leading-tight mb-4">
               {article.meta.title}
             </h1>
-            <p className="text-lg text-stone-500 leading-relaxed mb-4">
+            <p className="text-lg text-stone-500 dark:text-stone-400 leading-relaxed mb-4">
               {article.meta.description}
             </p>
             <div className="flex items-center gap-4 text-sm text-stone-400">
@@ -83,26 +83,26 @@ export default async function ArticlePage({
                 {article.meta.tags.map((tag) => (
                   <span
                     key={tag}
-                    className="bg-stone-100 text-stone-500 px-2 py-0.5 rounded-full text-xs"
+                    className="bg-stone-100 dark:bg-stone-800 text-stone-500 dark:text-stone-400 px-2 py-0.5 rounded-full text-xs"
                   >
                     {tag}
                   </span>
                 ))}
               </div>
             </div>
-            <hr className="mt-8 border-stone-200" />
+            <hr className="mt-8 border-stone-200 dark:border-stone-700" />
           </header>
 
           {/* 本文 */}
-          <div className="prose prose-stone prose-lg max-w-none prose-headings:heading-editorial prose-a:text-ocean-600 prose-a:no-underline hover:prose-a:underline">
+          <div className="prose prose-stone dark:prose-invert prose-lg max-w-none prose-headings:heading-editorial prose-a:text-ocean-600 dark:prose-a:text-ocean-400 prose-a:no-underline hover:prose-a:underline">
             <MDXRemote source={article.content} />
           </div>
 
           {/* 戻るリンク */}
-          <div className="mt-16 pt-8 border-t border-stone-200">
+          <div className="mt-16 pt-8 border-t border-stone-200 dark:border-stone-700">
             <Link
               href={`/${code}`}
-              className="inline-flex items-center gap-2 text-ocean-600 hover:text-ocean-800 font-medium transition-colors"
+              className="inline-flex items-center gap-2 text-ocean-600 dark:text-ocean-400 hover:text-ocean-800 dark:hover:text-ocean-300 font-medium transition-colors"
             >
               <ArrowLeft size={16} />
               {country.name}の記事一覧に戻る

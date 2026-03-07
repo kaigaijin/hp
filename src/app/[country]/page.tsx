@@ -15,7 +15,6 @@ export function generateMetadata({
 }: {
   params: Promise<{ country: string }>;
 }) {
-  // generateMetadata is async in Next.js 15+
   return params.then(({ country: code }) => {
     const country = getCountry(code);
     if (!country) return {};
@@ -88,17 +87,16 @@ export default async function CountryPage({
                       href={`/${code}/${article.slug}`}
                       className="group"
                     >
-                      <article className="bg-white rounded-2xl border border-stone-200 p-6 h-full flex flex-col country-card">
-                        {/* カテゴリ */}
-                        <div className="flex items-center gap-2 text-xs text-ocean-600 font-medium mb-3">
+                      <article className="bg-white dark:bg-stone-800 rounded-2xl border border-stone-200 dark:border-stone-700 p-6 h-full flex flex-col country-card">
+                        <div className="flex items-center gap-2 text-xs text-ocean-600 dark:text-ocean-400 font-medium mb-3">
                           <Tag size={12} />
                           {article.category}
                         </div>
 
-                        <h3 className="heading-editorial text-lg font-bold mb-2 group-hover:text-ocean-700 transition-colors">
+                        <h3 className="heading-editorial text-lg font-bold mb-2 group-hover:text-ocean-700 dark:group-hover:text-ocean-400 transition-colors">
                           {article.title}
                         </h3>
-                        <p className="text-sm text-stone-500 leading-relaxed mb-4 flex-1">
+                        <p className="text-sm text-stone-500 dark:text-stone-400 leading-relaxed mb-4 flex-1">
                           {article.description}
                         </p>
 
@@ -107,7 +105,7 @@ export default async function CountryPage({
                             <Calendar size={12} />
                             {article.date}
                           </div>
-                          <span className="flex items-center gap-1 text-ocean-600 font-medium group-hover:gap-2 transition-all">
+                          <span className="flex items-center gap-1 text-ocean-600 dark:text-ocean-400 font-medium group-hover:gap-2 transition-all">
                             続きを読む
                             <ArrowRight size={12} />
                           </span>
@@ -118,15 +116,14 @@ export default async function CountryPage({
                 </div>
               </>
             ) : (
-              /* 記事なし — Coming Soon */
               <div className="text-center py-16">
                 <span className="text-6xl mb-6 block">{country.flag}</span>
                 <h2 className="heading-editorial text-2xl font-bold mb-4">
                   {country.name}の記事を準備中
                 </h2>
-                <p className="text-stone-500 max-w-md mx-auto mb-8">
+                <p className="text-stone-500 dark:text-stone-400 max-w-md mx-auto mb-8">
                   {country.name}
-                  での生活に役立つ記事を鋭意執筆中です。公開時にお知らせを受け取りたい方は、トップページからメールアドレスをご登録ください。
+                  での生活に役立つ記事を鋭意執筆中です。
                 </p>
                 <Link
                   href="/"

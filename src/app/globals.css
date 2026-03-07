@@ -30,6 +30,8 @@
   --color-sunset-500: #f97316;
 }
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 /* エディトリアル風のタイポグラフィ */
 .heading-editorial {
   font-family: var(--font-serif);
@@ -71,10 +73,19 @@
   transform: translateY(-4px);
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
 }
+.dark .country-card:hover {
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
+}
 
 /* グラデーションテキスト */
 .text-gradient {
   background: linear-gradient(135deg, var(--color-ocean-700), var(--color-ocean-500));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.dark .text-gradient {
+  background: linear-gradient(135deg, var(--color-ocean-400), var(--color-ocean-300));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
