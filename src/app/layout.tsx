@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 export const metadata: Metadata = {
   title: "Kaigaijin | 海外在住日本人のための国別生活ガイド",
@@ -41,6 +42,7 @@ export default function RootLayout({
         />
       </head>
       <body className="font-sans antialiased bg-stone-50 dark:bg-stone-900 text-stone-800 dark:text-stone-200 transition-colors">
+        <GoogleAnalytics />
         {children}
       </body>
     </html>
