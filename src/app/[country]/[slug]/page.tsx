@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import { getCountry, countries } from "@/lib/countries";
 import { getArticle, getArticlesByCountry } from "@/lib/articles";
 import { ArrowLeft, Calendar, Tag } from "lucide-react";
+import Comments from "@/components/Comments";
 
 export function generateStaticParams() {
   return countries.flatMap((c) =>
@@ -97,6 +98,9 @@ export default async function ArticlePage({
           <div className="prose prose-stone dark:prose-invert prose-lg max-w-none prose-headings:heading-editorial prose-a:text-ocean-600 dark:prose-a:text-ocean-400 prose-a:no-underline hover:prose-a:underline">
             <MDXRemote source={article.content} />
           </div>
+
+          {/* コメント */}
+          <Comments project="kaigaijin" articleSlug={`${code}/${slug}`} />
 
           {/* 戻るリンク */}
           <div className="mt-16 pt-8 border-t border-stone-200 dark:border-stone-700">
