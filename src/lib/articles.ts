@@ -16,6 +16,7 @@ export type ArticleMeta = {
   title: string;
   description: string;
   date: string;
+  lastModified?: string;
   country: string;
   category: string;
   tags: string[];
@@ -37,6 +38,7 @@ export function getArticlesByCountry(countryCode: string): ArticleMeta[] {
         title: data.title ?? "",
         description: data.description ?? "",
         date: data.date ?? "",
+        lastModified: data.lastModified ?? undefined,
         country: countryCode,
         category: data.category ?? "",
         tags: data.tags ?? [],
@@ -63,6 +65,7 @@ export function getArticle(countryCode: string, slug: string) {
       title: data.title ?? "",
       description: data.description ?? "",
       date: data.date ?? "",
+      lastModified: data.lastModified ?? undefined,
       country: countryCode,
       category: data.category ?? "",
       tags: data.tags ?? [],

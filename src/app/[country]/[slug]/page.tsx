@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { MDXRemote } from "next-mdx-remote/rsc";
+import remarkGfm from "remark-gfm";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { getCountry, countries } from "@/lib/countries";
@@ -29,6 +30,13 @@ export async function generateMetadata({
   return {
     title: `${article.meta.title} | ${country?.name ?? ""} | Kaigaijin`,
     description: article.meta.description,
+    openGraph: {
+      title: `${article.meta.title} | ${country?.name ?? ""} | Kaigaijin`,
+      description: article.meta.description,
+      type: "article",
+      publishedTime: article.meta.date,
+      modifiedTime: article.meta.lastModified || article.meta.date,
+    },
   };
 }
 
@@ -42,8 +50,68 @@ export default async function ArticlePage({
   const article = getArticle(code, slug);
   if (!country || !article) notFound();
 
+  const baseUrl = "https://kaigaijin.com";
+
+  const jsonLdArticle = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: article.meta.title,
+    description: article.meta.description,
+    datePublished: article.meta.date,
+    dateModified: article.meta.lastModified || article.meta.date,
+    url: `${baseUrl}/${code}/${slug}`,
+    author: {
+      "@type": "Organization",
+      name: "Kaigaijin",
+      url: baseUrl,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Kaigaijin",
+      url: baseUrl,
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `${baseUrl}/${code}/${slug}`,
+    },
+    ...(article.meta.tags.length > 0 ? { keywords: article.meta.tags.join(", ") } : {}),
+  };
+
+  const jsonLdBreadcrumb = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "トップ",
+        item: baseUrl,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: country.name,
+        item: `${baseUrl}/${code}`,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: article.meta.title,
+        item: `${baseUrl}/${code}/${slug}`,
+      },
+    ],
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdArticle) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdBreadcrumb) }}
+      />
       <Header />
       <main className="py-12 md:py-20">
         <article className="max-w-3xl mx-auto px-4">
@@ -79,6 +147,9 @@ export default async function ArticlePage({
               <div className="flex items-center gap-1">
                 <Calendar size={14} />
                 {article.meta.date}
+                {article.meta.lastModified && article.meta.lastModified !== article.meta.date && (
+                  <span>（更新: {article.meta.lastModified}）</span>
+                )}
               </div>
               <div className="flex gap-2">
                 {article.meta.tags.map((tag) => (
@@ -96,7 +167,7 @@ export default async function ArticlePage({
 
           {/* 本文 */}
           <div className="prose prose-stone dark:prose-invert prose-lg max-w-none prose-headings:heading-editorial prose-a:text-ocean-600 dark:prose-a:text-ocean-400 prose-a:no-underline hover:prose-a:underline">
-            <MDXRemote source={article.content} />
+            <MDXRemote source={article.content} options={{ mdxOptions: { remarkPlugins: [remarkGfm] } }} />
           </div>
 
           {/* コメント */}
