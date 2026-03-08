@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "source": [
+      "https://wise.com/sg/blog/foreigner-open-bank-account-in-singapore",
+      "https://osome.com/sg/guides/foreigner-open-bank-account-in-singapore/",
+      "https://www.dbs.com.sg/personal/deposits/for-foreigners/new-to-singapore",
+      "https://www.uob.com.sg/personal/finlit/articles/foreigner-open-bank-account-in-singapore.page",
+      "https://wise.com/us/pricing/"
+    ],
+    "lastVerified": "2026-03-08",
+    "notes": "2025〜2026年時点の情報。口座開設要件・手数料は変更される可能性あり"
+  },
+  "data": {
+    "localBanks": [
+      {
+        "name": "DBS Bank",
+        "nameJa": "DBS銀行",
+        "type": "ローカル大手",
+        "description": "シンガポール最大の銀行。東南アジアで最大規模",
+        "foreignerAccountOpening": {
+          "withWorkPass": true,
+          "withoutWorkPass": true,
+          "minimumDepositWithoutPass": 350000,
+          "minimumDepositWithPass": 0,
+          "note": "就労パスなしの場合はDBS Treasures（富裕層向け口座）のみ。SGD 350,000の最低預入額"
+        },
+        "onlineOpening": true,
+        "branches": "多数",
+        "website": "https://www.dbs.com.sg/",
+        "features": [
+          "DBS Digibank（アプリ）",
+          "PayLah!（QR決済）",
+          "マルチカレンシー口座"
+        ]
+      },
+      {
+        "name": "OCBC Bank",
+        "nameJa": "OCBC銀行",
+        "type": "ローカル大手",
+        "description": "シンガポール第2位の銀行",
+        "foreignerAccountOpening": {
+          "withWorkPass": true,
+          "withoutWorkPass": true,
+          "minimumDepositWithoutPass": 200000,
+          "minimumDepositWithPass": 0,
+          "note": "就労パスなしの場合はPremier Banking口座。SGD 200,000の最低預入額",
+          "estimated": true
+        },
+        "onlineOpening": true,
+        "branches": "多数",
+        "website": "https://www.ocbc.com/",
+        "features": [
+          "OCBC Digital（アプリ）",
+          "360 Account",
+          "マルチカレンシー口座"
+        ]
+      },
+      {
+        "name": "UOB",
+        "nameJa": "UOB銀行",
+        "type": "ローカル大手",
+        "description": "シンガポール第3位の銀行",
+        "foreignerAccountOpening": {
+          "withWorkPass": true,
+          "withoutWorkPass": true,
+          "minimumDepositWithoutPass": 100000,
+          "minimumDepositWithPass": 0,
+          "note": "就労パスなしでもSGD 100,000でPrivilege Banking口座開設可能。3行の中で最もハードルが低い"
+        },
+        "onlineOpening": true,
+        "branches": "多数",
+        "website": "https://www.uob.com.sg/",
+        "features": [
+          "UOB TMRW（アプリ）",
+          "UOB One Account",
+          "マルチカレンシー口座"
+        ]
+      }
+    ],
+    "japaneseBanks": [
+      {
+        "name": "MUFG Bank（三菱UFJ銀行）",
+        "type": "日系銀行",
+        "services": "法人向けが中心。個人向け口座は基本的に扱わない",
+        "website": "https://www.bk.mufg.jp/global/globalnetwork/asiaoceania/singapore.html",
+        "note": "シンガポール拠点あり。法人・富裕層向け"
+      },
+      {
+        "name": "SMBC（三井住友銀行）",
+        "type": "日系銀行",
+        "services": "法人向けが中心",
+        "website": "https://www.smbc.co.jp/global/singapore/",
+        "note": "シンガポール拠点あり。法人取引が主力"
+      },
+      {
+        "name": "Mizuho Bank（みずほ銀行）",
+        "type": "日系銀行",
+        "services": "法人向けが中心",
+        "website": "https://www.mizuhogroup.com/",
+        "note": "シンガポール拠点あり。個人口座は非対応"
+      }
+    ],
+    "requiredDocuments": {
+      "withWorkPass": [
+        "パスポート原本",
+        "就労パス（EP / S Pass / DP等）原本",
+        "シンガポールの住所証明（公共料金請求書、賃貸契約書等）",
+        "初回入金（口座タイプにより異なる）"
+      ],
+      "withoutWorkPass": [
+        "パスポート原本",
+        "母国の住所証明",
+        "所得証明 or 資産証明",
+        "最低預入額（SGD 100,000〜350,000。銀行による）"
+      ],
+      "note": "銀行・口座タイプにより追加書類が求められる場合あり。事前に銀行のWebサイトで確認推奨"
+    },
+    "remittanceServices": [
+      {
+        "name": "Wise（旧TransferWise）",
+        "type": "オンライン送金サービス",
+        "feeStructure": "固定手数料 + 送金額の0.4〜0.6%程度（通貨ペアにより変動）",
+        "exchangeRate": "ミッドマーケットレート（実勢レート）",
+        "transferTime": "即日〜2営業日",
+        "maxAmount": "1億5,000万円相当（SGD→JPY）",
+        "website": "https://wise.com/",
+        "pros": [
+          "手数料が安い",
+          "透明な為替レート",
+          "アプリで完結",
+          "マルチカレンシー口座あり"
+        ],
+        "cons": [
+          "大口送金は本人確認に時間がかかる場合あり"
+        ],
+        "note": "シンガポール在住日本人に最も人気の送金手段"
+      },
+      {
+        "name": "OFX",
+        "type": "オンライン送金サービス",
+        "feeStructure": "送金手数料無料（為替レートにマークアップを含む）",
+        "exchangeRate": "マークアップあり（変動）",
+        "transferTime": "1〜3営業日",
+        "maxAmount": "上限なし（大口送金向き）",
+        "website": "https://www.ofx.com/",
+        "pros": [
+          "大口送金に強い",
+          "送金手数料無料",
+          "専任担当者がつく場合あり"
+        ],
+        "cons": [
+          "為替マークアップが不透明",
+          "少額送金は割高"
+        ],
+        "note": "SGD 10,000以上の大口送金で競争力あり"
+      },
+      {
+        "name": "銀行送金（電信送金 / T/T）",
+        "type": "銀行間送金",
+        "feeStructure": "送金手数料SGD 20〜35 + 中継銀行手数料 + 受取銀行手数料",
+        "exchangeRate": "銀行独自レート（マークアップ大きめ）",
+        "transferTime": "2〜5営業日",
+        "maxAmount": "銀行の限度額による",
+        "website": null,
+        "pros": [
+          "信頼性が高い",
+          "企業取引に適している"
+        ],
+        "cons": [
+          "手数料が高い",
+          "為替レートが不利",
+          "手続きが煩雑"
+        ],
+        "note": "Wise等のオンラインサービスに比べて割高。緊急 or 大口 or 会社経費の場合に使うことが多い",
+        "estimated": true
+      }
+    ],
+    "tips": [
+      "シンガポール到着後、まずローカル銀行（DBS, OCBC, UOB）で普通預金口座を開設するのが基本",
+      "就労パスがあれば最低預入額なしで口座開設可能",
+      "PayNow（電話番号やNRIC紐づけの即時送金）が日常の支払いに便利",
+      "日本への送金はWiseが手数料・レートともに有利なケースが多い",
+      "マルチカレンシー口座を開設しておくとSGD以外の通貨も保有可能"
+    ]
+  }
+}

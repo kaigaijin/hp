@@ -1,0 +1,231 @@
+{
+  "meta": {
+    "source": [
+      "https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/individual-income-tax-rates",
+      "https://www.cpf.gov.sg/employer/infohub/news/cpf-related-announcements/new-contribution-rates",
+      "https://www.iras.gov.sg/taxes/stamp-duty/for-property/buying-or-acquiring-property/additional-buyer's-stamp-duty-(absd)",
+      "https://www.iras.gov.sg/media/docs/default-source/uploadedfiles/pdf/singapore-japan-dta-(ratified)-(14-july-2010).pdf"
+    ],
+    "lastVerified": "2026-03-08",
+    "notes": "YA2026（2025年所得分）の税率。CPFは2026年1月改定。GST 9%は2024年1月から適用"
+  },
+  "data": {
+    "incomeTax": {
+      "assessmentYear": "YA2026",
+      "incomeYear": 2025,
+      "residencyRule": "暦年183日以上シンガポールに滞在 or 就労した場合は税務居住者",
+      "residentRates": [
+        {
+          "chargeableIncome": "0 - 20,000",
+          "rate": 0,
+          "grossTax": 0
+        },
+        {
+          "chargeableIncome": "20,001 - 30,000",
+          "rate": 2,
+          "grossTax": 200
+        },
+        {
+          "chargeableIncome": "30,001 - 40,000",
+          "rate": 3.5,
+          "grossTax": 550
+        },
+        {
+          "chargeableIncome": "40,001 - 80,000",
+          "rate": 7,
+          "grossTax": 3350
+        },
+        {
+          "chargeableIncome": "80,001 - 120,000",
+          "rate": 11.5,
+          "grossTax": 7950
+        },
+        {
+          "chargeableIncome": "120,001 - 160,000",
+          "rate": 15,
+          "grossTax": 13950
+        },
+        {
+          "chargeableIncome": "160,001 - 200,000",
+          "rate": 18,
+          "grossTax": 21150
+        },
+        {
+          "chargeableIncome": "200,001 - 240,000",
+          "rate": 19,
+          "grossTax": 28750
+        },
+        {
+          "chargeableIncome": "240,001 - 280,000",
+          "rate": 19.5,
+          "grossTax": 36550
+        },
+        {
+          "chargeableIncome": "280,001 - 320,000",
+          "rate": 20,
+          "grossTax": 44550
+        },
+        {
+          "chargeableIncome": "320,001 - 500,000",
+          "rate": 22,
+          "grossTax": 84150
+        },
+        {
+          "chargeableIncome": "500,001 - 1,000,000",
+          "rate": 23,
+          "grossTax": 199150
+        },
+        {
+          "chargeableIncome": "1,000,001以上",
+          "rate": 24,
+          "grossTax": null
+        }
+      ],
+      "nonResidentRate": {
+        "employment": "15% or 居住者税率のいずれか高い方",
+        "other": "24%（フラット）",
+        "note": "183日未満の滞在者は非居住者扱い"
+      },
+      "taxRebate": {
+        "ya2026": {
+          "rate": 60,
+          "cap": 200,
+          "note": "税額の60%、最大SGD 200のリベート。自動適用"
+        }
+      },
+      "filingDeadline": "4月15日（紙）/ 4月18日（電子）",
+      "note": "キャピタルゲイン税・相続税・贈与税はなし。配当所得は個人レベルでは非課税（ワンティア制度）"
+    },
+    "gst": {
+      "rate": 9,
+      "effectiveDate": "2024-01-01",
+      "previousRate": 8,
+      "note": "ほぼ全ての商品・サービスに適用。一部の金融サービス・不動産取引は免除"
+    },
+    "cpf": {
+      "label": "Central Provident Fund（中央積立基金）",
+      "effectiveDate": "2026-01-01",
+      "applicableTo": "シンガポール市民およびPR（外国人は対象外）",
+      "owCeiling": 8000,
+      "owCeilingNote": "月額通常賃金（OW）の上限。2026年1月からSGD 7,400 → SGD 8,000に引き上げ",
+      "annualCeiling": 102000,
+      "rates": [
+        {
+          "ageGroup": "55歳以下",
+          "employer": 17,
+          "employee": 20,
+          "total": 37
+        },
+        {
+          "ageGroup": "55歳超〜60歳",
+          "employer": 16,
+          "employee": 18,
+          "total": 34,
+          "note": "2026年1月改定（+1.5%: 雇用主+0.5%, 従業員+1%）"
+        },
+        {
+          "ageGroup": "60歳超〜65歳",
+          "employer": 12.5,
+          "employee": 12.5,
+          "total": 25,
+          "note": "2026年1月改定（+1.5%: 雇用主+0.5%, 従業員+1%）"
+        },
+        {
+          "ageGroup": "65歳超〜70歳",
+          "employer": 9,
+          "employee": 7.5,
+          "total": 16.5
+        },
+        {
+          "ageGroup": "70歳超",
+          "employer": 7.5,
+          "employee": 5,
+          "total": 12.5
+        }
+      ],
+      "note": "月額賃金SGD 750以下の場合は別の低率テーブルが適用。外国人（EP/S Pass/WP保持者）はCPF拠出義務なし"
+    },
+    "propertyTax": {
+      "absd": {
+        "label": "Additional Buyer's Stamp Duty（追加購入者印紙税）",
+        "effectiveDate": "2023-04-27",
+        "rates": {
+          "singaporeCitizen": {
+            "first": 0,
+            "second": 20,
+            "thirdAndSubsequent": 30
+          },
+          "permanentResident": {
+            "first": 5,
+            "second": 30,
+            "thirdAndSubsequent": 35
+          },
+          "foreigner": {
+            "any": 60,
+            "note": "外国人は何件目でも60%。FTA締結国の国民は優遇あり"
+          },
+          "entity": {
+            "any": 65
+          }
+        },
+        "note": "住宅用不動産が対象。日本はシンガポールとFTAを締結しているが、ABSD優遇の対象国リストには含まれない"
+      },
+      "bsd": {
+        "label": "Buyer's Stamp Duty（購入者印紙税）",
+        "rates": [
+          {
+            "portion": "最初のSGD 180,000",
+            "rate": 1
+          },
+          {
+            "portion": "次のSGD 180,000",
+            "rate": 2
+          },
+          {
+            "portion": "次のSGD 640,000",
+            "rate": 3
+          },
+          {
+            "portion": "次のSGD 500,000",
+            "rate": 4
+          },
+          {
+            "portion": "次のSGD 1,500,000",
+            "rate": 5
+          },
+          {
+            "portion": "SGD 3,000,000超",
+            "rate": 6
+          }
+        ]
+      }
+    },
+    "doubleTaxTreaty": {
+      "withJapan": true,
+      "signedDate": "1994",
+      "effectiveDate": "1995",
+      "protocolDate": "2010-07-14",
+      "mliEffective": "2019-04-01",
+      "reliefMethod": "外国税額控除（Foreign Tax Credit）",
+      "coveredIncome": [
+        "事業所得",
+        "配当",
+        "利子",
+        "ロイヤルティ",
+        "キャピタルゲイン",
+        "給与所得",
+        "役員報酬",
+        "年金",
+        "政府職員の報酬"
+      ],
+      "sourceUrl": "https://www.iras.gov.sg/media/docs/default-source/uploadedfiles/pdf/singapore-japan-dta-(ratified)-(14-july-2010).pdf",
+      "note": "日本・シンガポール間の二重課税防止条約が有効。両国の居住者は相手国で支払った税額を控除可能"
+    },
+    "noTaxOn": [
+      "キャピタルゲイン（資産売却益）",
+      "相続",
+      "贈与",
+      "海外源泉所得（シンガポールに送金しない限り）"
+    ]
+  }
+}

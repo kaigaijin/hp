@@ -1,0 +1,347 @@
+{
+  "meta": {
+    "source": [
+      "https://www.99.co/singapore/insider/hdb-rental-prices-singapore/",
+      "https://rentify.sg/how-much-does-it-cost-to-rent-a-condo-in-singapore-2025-guide/",
+      "https://bambooroutes.com/blogs/news/singapore-rents",
+      "https://eservice.ura.gov.sg/property-market-information/pmiResidentialRentalSearch"
+    ],
+    "lastVerified": "2026-03-08",
+    "notes": "2026年初頭の家賃相場。エリア・築年数・階数・設備で大きく変動する。日本人が多く住むエリアを中心に記載"
+  },
+  "data": {
+    "japanesePopularAreas": [
+      {
+        "area": "Orchard / River Valley",
+        "areaJa": "オーチャード / リバーバレー",
+        "district": "D9 / D10",
+        "region": "CCR",
+        "description": "高島屋・伊勢丹等の日系デパートが集中。日本食レストラン多数。駐在員に最も人気",
+        "condo": {
+          "oneBedroom": {
+            "min": 3500,
+            "max": 6000
+          },
+          "twoBedroom": {
+            "min": 5000,
+            "max": 9000
+          },
+          "threeBedroom": {
+            "min": 7000,
+            "max": 15000
+          }
+        },
+        "nearbySchools": [
+          "シンガポール日本人学校（バス通学圏内）"
+        ],
+        "nearbyMRT": [
+          "Orchard",
+          "Somerset",
+          "Great World"
+        ],
+        "estimated": true
+      },
+      {
+        "area": "Holland Village / Buona Vista",
+        "areaJa": "ホーランドビレッジ / ブオナビスタ",
+        "district": "D10 / D5",
+        "region": "RCR",
+        "description": "欧米系・日本人駐在員に人気のカフェ街。落ち着いた住環境。ワンノースのテック企業に近い",
+        "condo": {
+          "oneBedroom": {
+            "min": 2800,
+            "max": 4200
+          },
+          "twoBedroom": {
+            "min": 4000,
+            "max": 6500
+          },
+          "threeBedroom": {
+            "min": 5500,
+            "max": 9000
+          }
+        },
+        "nearbySchools": [
+          "日本人学校クレメンティ校（徒歩圏内あり）"
+        ],
+        "nearbyMRT": [
+          "Holland Village",
+          "Buona Vista"
+        ],
+        "estimated": true
+      },
+      {
+        "area": "Novena / Newton",
+        "areaJa": "ノベナ / ニュートン",
+        "district": "D11",
+        "region": "RCR",
+        "description": "医療施設が集中（ノベナメディカルセンター等）。市内中心部へのアクセス良好",
+        "condo": {
+          "oneBedroom": {
+            "min": 2800,
+            "max": 4500
+          },
+          "twoBedroom": {
+            "min": 4000,
+            "max": 6500
+          },
+          "threeBedroom": {
+            "min": 5500,
+            "max": 9500
+          }
+        },
+        "nearbySchools": [],
+        "nearbyMRT": [
+          "Novena",
+          "Newton"
+        ],
+        "estimated": true
+      },
+      {
+        "area": "Clementi / West Coast",
+        "areaJa": "クレメンティ / ウエストコースト",
+        "district": "D5",
+        "region": "RCR / OCR",
+        "description": "日本人学校クレメンティ校・中学校の最寄り。NUSに近い。比較的リーズナブル",
+        "condo": {
+          "oneBedroom": {
+            "min": 2200,
+            "max": 3200
+          },
+          "twoBedroom": {
+            "min": 3200,
+            "max": 5000
+          },
+          "threeBedroom": {
+            "min": 4200,
+            "max": 7000
+          }
+        },
+        "nearbySchools": [
+          "日本人学校クレメンティ校",
+          "日本人学校中学部（West Coast）"
+        ],
+        "nearbyMRT": [
+          "Clementi",
+          "Dover"
+        ],
+        "estimated": true
+      },
+      {
+        "area": "Tanjong Pagar / CBD",
+        "areaJa": "タンジョンパガー / CBD",
+        "district": "D1 / D2",
+        "region": "CCR",
+        "description": "金融街・ビジネス中心地。単身者・カップルに人気。マリーナベイビューの物件あり",
+        "condo": {
+          "oneBedroom": {
+            "min": 3200,
+            "max": 5500
+          },
+          "twoBedroom": {
+            "min": 5000,
+            "max": 8000
+          },
+          "threeBedroom": {
+            "min": 7000,
+            "max": 12000
+          }
+        },
+        "nearbySchools": [],
+        "nearbyMRT": [
+          "Tanjong Pagar",
+          "Maxwell",
+          "Shenton Way"
+        ],
+        "estimated": true
+      },
+      {
+        "area": "East Coast / Marine Parade",
+        "areaJa": "イーストコースト / マリンパレード",
+        "district": "D15",
+        "region": "RCR",
+        "description": "ビーチ沿いの人気エリア。チャンギ空港へのアクセス良好。食文化が豊か",
+        "condo": {
+          "oneBedroom": {
+            "min": 2500,
+            "max": 3800
+          },
+          "twoBedroom": {
+            "min": 3500,
+            "max": 5500
+          },
+          "threeBedroom": {
+            "min": 4500,
+            "max": 7500
+          }
+        },
+        "nearbySchools": [
+          "日本人学校チャンギ校（バス通学圏内）"
+        ],
+        "nearbyMRT": [
+          "Katong Park (TEL)",
+          "Marine Parade (TEL)"
+        ],
+        "estimated": true
+      }
+    ],
+    "propertyTypes": {
+      "hdb": {
+        "nameJa": "HDB（公団住宅）",
+        "description": "シンガポール政府が建設した公共住宅。国民の約80%が居住。外国人は賃貸のみ可能（購入不可）",
+        "foreignerEligibility": "賃貸のみ。オーナーがHDBの承認を得る必要あり",
+        "rentalRange": {
+          "threeRoom": {
+            "min": 2200,
+            "max": 3200,
+            "note": "2LDK相当"
+          },
+          "fourRoom": {
+            "min": 2500,
+            "max": 3800,
+            "note": "3LDK相当"
+          },
+          "fiveRoom": {
+            "min": 3000,
+            "max": 4500,
+            "note": "4LDK相当"
+          },
+          "executive": {
+            "min": 3500,
+            "max": 5000,
+            "note": "広め。古い物件が多い"
+          }
+        },
+        "pros": [
+          "家賃が安い",
+          "広い",
+          "ホーカーセンターが近い"
+        ],
+        "cons": [
+          "プール・ジム等の共用施設なし",
+          "築年数が古い物件が多い",
+          "設備は物件による"
+        ],
+        "estimated": true
+      },
+      "condo": {
+        "nameJa": "コンドミニアム",
+        "description": "民間集合住宅。プール、ジム、BBQピット等の共用施設付き。駐在員に最も人気",
+        "foreignerEligibility": "賃貸・購入ともに可能（ただし購入時はABSD 60%）",
+        "facilities": [
+          "プール",
+          "ジム",
+          "テニスコート",
+          "BBQピット",
+          "プレイグラウンド",
+          "セキュリティ"
+        ],
+        "pros": [
+          "共用施設が充実",
+          "セキュリティが高い",
+          "物件の質が一定"
+        ],
+        "cons": [
+          "家賃が高い",
+          "面積はHDBより狭い場合が多い"
+        ]
+      },
+      "landed": {
+        "nameJa": "ランデッドプロパティ（戸建て住宅）",
+        "description": "テラスハウス・セミデタッチ・バンガロー。外国人が購入するにはSLA（Singapore Land Authority）の承認が必要",
+        "foreignerEligibility": "賃貸可能。購入はSentosa Coveの一部を除き原則SLA承認が必要",
+        "types": [
+          {
+            "type": "テラスハウス",
+            "rentalRange": {
+              "min": 5000,
+              "max": 10000
+            }
+          },
+          {
+            "type": "セミデタッチ",
+            "rentalRange": {
+              "min": 8000,
+              "max": 15000
+            }
+          },
+          {
+            "type": "バンガロー",
+            "rentalRange": {
+              "min": 12000,
+              "max": 30000
+            }
+          }
+        ],
+        "estimated": true
+      },
+      "servicedApartment": {
+        "nameJa": "サービスアパートメント",
+        "description": "家具付き・清掃付きの短中期滞在向け住居。赴任直後の仮住まいに利用されることが多い",
+        "foreignerEligibility": "誰でも利用可",
+        "rentalRange": {
+          "studio": {
+            "min": 4000,
+            "max": 7000
+          },
+          "oneBedroom": {
+            "min": 5000,
+            "max": 10000
+          },
+          "twoBedroom": {
+            "min": 7000,
+            "max": 15000
+          }
+        },
+        "majorProviders": [
+          "Ascott",
+          "Somerset",
+          "Fraser Residence",
+          "Oakwood"
+        ],
+        "estimated": true
+      }
+    },
+    "contractTerms": {
+      "typicalLease": "2年（1年契約は交渉次第。短期は家賃が割高になることが多い）",
+      "securityDeposit": "2ヶ月分（2年契約）/ 1ヶ月分（1年契約）",
+      "agentFee": {
+        "tenant": "1ヶ月分（2年契約の場合。1年契約の場合は0.5ヶ月分）",
+        "landlord": "1ヶ月分",
+        "note": "テナントがエージェントを起用する場合のみ発生"
+      },
+      "stampDuty": "賃料に応じた印紙税。年間賃料SGD 1以上で0.4%",
+      "diplomaticClause": "通常14〜18ヶ月後に有効。海外転勤・帰国時に2ヶ月前通知で解約可能",
+      "earlyTermination": "ディプロマティック条項の適用前に退去する場合はペナルティあり（通常残期間の家賃等）",
+      "minorRepairs": "SGD 150以下の軽微な修繕はテナント負担が一般的"
+    },
+    "japaneseRealEstateAgents": [
+      {
+        "name": "Tokio Property Services",
+        "website": "https://www.tokioproperty.com.sg/",
+        "languages": [
+          "日本語",
+          "英語"
+        ],
+        "note": "日本語対応の不動産仲介。賃貸・売買"
+      },
+      {
+        "name": "Sora Realty（PropNex系列）",
+        "website": null,
+        "languages": [
+          "日本語",
+          "英語"
+        ],
+        "note": "日本人エージェントが在籍",
+        "estimated": true
+      }
+    ],
+    "tips": [
+      "日本人学校の通学バスルートを確認してからエリアを決めると良い",
+      "コンドミニアムは内覧時にプール・ジム・BBQピット等の共用施設も確認",
+      "家具付き（Fully Furnished）と家具なし（Partially Furnished / Unfurnished）で家賃が異なる",
+      "ディプロマティック条項の有無を必ず確認。駐在員は帰国の可能性があるため重要",
+      "HDBは広さの割に安いが、共用施設がないのと築年数に注意"
+    ]
+  }
+}

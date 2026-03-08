@@ -1,0 +1,364 @@
+{
+  "meta": {
+    "source": [
+      "https://www.numbeo.com/cost-of-living/in/Singapore",
+      "https://www.pilotoasia.com/guide/cost-of-living-in-singapore",
+      "https://bambooroutes.com/blogs/news/singapore-rents",
+      "https://rentify.sg/how-much-does-it-cost-to-rent-a-condo-in-singapore-2025-guide/"
+    ],
+    "lastVerified": "2026-03-08",
+    "notes": "2026年初頭時点の相場。家賃は地域・物件タイプ・築年数で大きく変動する。全てSGD表記、1 SGD ≒ 110円で概算"
+  },
+  "data": {
+    "rent": {
+      "note": "月額。2026年初頭の相場。仲介手数料は通常1ヶ月分（2年契約）",
+      "condo": {
+        "ccr": {
+          "label": "中心部（CCR: Orchard, Tanjong Pagar, Marina Bay等）",
+          "studio": {
+            "min": 2800,
+            "max": 4500
+          },
+          "oneBedroom": {
+            "min": 3500,
+            "max": 6000
+          },
+          "twoBedroom": {
+            "min": 5000,
+            "max": 9000
+          },
+          "threeBedroom": {
+            "min": 7000,
+            "max": 15000
+          }
+        },
+        "rcr": {
+          "label": "準中心部（RCR: Novena, Queenstown, Geylang等）",
+          "studio": {
+            "min": 2200,
+            "max": 3200
+          },
+          "oneBedroom": {
+            "min": 2800,
+            "max": 4500
+          },
+          "twoBedroom": {
+            "min": 4000,
+            "max": 6500
+          },
+          "threeBedroom": {
+            "min": 5500,
+            "max": 9000
+          }
+        },
+        "ocr": {
+          "label": "郊外（OCR: Jurong East, Tampines, Woodlands等）",
+          "studio": {
+            "min": 1800,
+            "max": 2500
+          },
+          "oneBedroom": {
+            "min": 2200,
+            "max": 3200
+          },
+          "twoBedroom": {
+            "min": 3000,
+            "max": 4500
+          },
+          "threeBedroom": {
+            "min": 3800,
+            "max": 6000
+          }
+        },
+        "estimated": true
+      },
+      "hdb": {
+        "note": "外国人はHDB賃貸可能（購入は不可）。PRは中古HDB購入可",
+        "threeBedroom": {
+          "min": 2500,
+          "max": 3500
+        },
+        "fourBedroom": {
+          "min": 2800,
+          "max": 4000
+        },
+        "fiveBedroom": {
+          "min": 3200,
+          "max": 4500
+        },
+        "estimated": true
+      },
+      "landed": {
+        "note": "テラスハウス・セミデタッチ・バンガロー。外国人はSLA承認が必要",
+        "terraceHouse": {
+          "min": 5000,
+          "max": 10000
+        },
+        "semiDetached": {
+          "min": 8000,
+          "max": 15000
+        },
+        "bungalow": {
+          "min": 12000,
+          "max": 30000
+        },
+        "estimated": true
+      }
+    },
+    "food": {
+      "hawkerCenter": {
+        "label": "ホーカーセンター（屋台村）",
+        "perMeal": {
+          "min": 4,
+          "max": 8
+        },
+        "note": "チキンライス、ラクサ、チャークイティオ等。ドリンク別SGD 1〜2"
+      },
+      "foodCourt": {
+        "label": "フードコート（商業施設内）",
+        "perMeal": {
+          "min": 6,
+          "max": 12
+        }
+      },
+      "casualRestaurant": {
+        "label": "カジュアルレストラン",
+        "perMeal": {
+          "min": 15,
+          "max": 30
+        },
+        "note": "サービス料10% + GST 9%が加算されることが多い"
+      },
+      "midRangeRestaurant": {
+        "label": "中級レストラン（2人分ディナー）",
+        "perMeal": {
+          "min": 80,
+          "max": 150
+        }
+      },
+      "fineRestaurant": {
+        "label": "高級レストラン（2人分ディナー）",
+        "perMeal": {
+          "min": 200,
+          "max": 500
+        }
+      },
+      "japaneseRestaurant": {
+        "label": "日本食レストラン（ランチ）",
+        "perMeal": {
+          "min": 15,
+          "max": 35
+        },
+        "note": "ラーメン約SGD 15〜20、定食SGD 18〜30",
+        "estimated": true
+      },
+      "supermarket": {
+        "label": "スーパーマーケット（月額目安・1人分）",
+        "monthlyEstimate": {
+          "min": 300,
+          "max": 600
+        },
+        "items": [
+          {
+            "item": "牛乳 1L",
+            "price": 3.5
+          },
+          {
+            "item": "食パン 1斤",
+            "price": 3.0
+          },
+          {
+            "item": "卵 12個",
+            "price": 3.5
+          },
+          {
+            "item": "鶏むね肉 1kg",
+            "price": 10.0
+          },
+          {
+            "item": "米 5kg",
+            "price": 12.0
+          },
+          {
+            "item": "りんご 1kg",
+            "price": 5.0
+          },
+          {
+            "item": "ミネラルウォーター 1.5L",
+            "price": 1.5
+          }
+        ],
+        "note": "FairPrice, Cold Storage, Donki, 明治屋等。日本食材は割高",
+        "estimated": true
+      }
+    },
+    "transport": {
+      "mrt": {
+        "label": "MRT（地下鉄）",
+        "perTrip": {
+          "min": 1.0,
+          "max": 2.5
+        },
+        "note": "距離制運賃。EZリンクカード / NETS FlashPay / コンタクトレス決済"
+      },
+      "bus": {
+        "label": "バス",
+        "perTrip": {
+          "min": 1.0,
+          "max": 2.2
+        },
+        "note": "距離制運賃。MRTと乗り継ぎ割引あり"
+      },
+      "monthlyPass": {
+        "label": "月間パス（公共交通）",
+        "estimate": {
+          "min": 50,
+          "max": 100
+        },
+        "note": "通勤頻度による。片道SGD 1.5の往復×22日で約SGD 66"
+      },
+      "taxi": {
+        "label": "タクシー",
+        "baseFare": 3.9,
+        "perKm": 0.75,
+        "note": "ピーク時間帯・深夜は25〜50%割増。ERP（電子道路課金）別途"
+      },
+      "grab": {
+        "label": "Grab（配車アプリ）",
+        "baseFare": 4.0,
+        "perKm": 0.83,
+        "note": "GrabCar Economy基準。需要に応じて変動料金。GrabPay対応",
+        "estimated": true
+      },
+      "carOwnership": {
+        "label": "自家用車",
+        "note": "COE（車両購入権）SGD 80,000〜120,000 + 車両代 + 維持費。シンガポールでの車所有は非常に高額",
+        "estimated": true
+      }
+    },
+    "utilities": {
+      "label": "光熱費（月額）",
+      "electricity": {
+        "min": 80,
+        "max": 200,
+        "note": "エアコン使用頻度で大きく変動"
+      },
+      "water": {
+        "min": 20,
+        "max": 50
+      },
+      "gas": {
+        "min": 20,
+        "max": 40
+      },
+      "total": {
+        "min": 150,
+        "max": 300
+      },
+      "note": "コンドミニアムは管理費に水道代が含まれる場合あり"
+    },
+    "communication": {
+      "mobile": {
+        "label": "携帯電話（月額）",
+        "simOnly": {
+          "min": 10,
+          "max": 30,
+          "note": "SIMのみプラン。Singtel, StarHub, M1, MVNOあり"
+        },
+        "withDevice": {
+          "min": 50,
+          "max": 100,
+          "note": "端末込み2年契約"
+        }
+      },
+      "internet": {
+        "label": "固定インターネット（月額）",
+        "fiberBroadband": {
+          "min": 30,
+          "max": 60,
+          "note": "1Gbps光回線が主流"
+        }
+      }
+    },
+    "education": {
+      "label": "教育費（年額目安）",
+      "japaneseSchool": {
+        "min": 9000,
+        "max": 10000,
+        "note": "月額SGD 750〜830。入学金・寄付金別途"
+      },
+      "internationalSchool": {
+        "min": 25000,
+        "max": 58000,
+        "note": "学校・学年により大きく異なる"
+      },
+      "localSchool": {
+        "min": 750,
+        "max": 9000,
+        "note": "外国人は月額SGD 825（ASEAN）〜SGD 1,600（非ASEAN）",
+        "estimated": true
+      }
+    },
+    "healthcare": {
+      "label": "医療費（1回あたり目安）",
+      "gpClinic": {
+        "min": 30,
+        "max": 80,
+        "note": "一般クリニック。薬代込み"
+      },
+      "specialistClinic": {
+        "min": 100,
+        "max": 350,
+        "note": "専門医。紹介状推奨"
+      },
+      "dentalCheckup": {
+        "min": 80,
+        "max": 200,
+        "note": "検診+クリーニング"
+      },
+      "note": "日本語対応クリニックは割高傾向。詳細はhealthcare.json参照"
+    },
+    "monthlySummary": {
+      "single": {
+        "label": "単身者の月額生活費目安",
+        "budget": {
+          "min": 2500,
+          "max": 4000,
+          "note": "家賃込み。HDB or 郊外コンドシェア"
+        },
+        "comfortable": {
+          "min": 5000,
+          "max": 8000,
+          "note": "家賃込み。市内コンド1BR"
+        }
+      },
+      "couple": {
+        "label": "カップルの月額生活費目安",
+        "budget": {
+          "min": 4000,
+          "max": 6000,
+          "note": "家賃込み"
+        },
+        "comfortable": {
+          "min": 7000,
+          "max": 12000,
+          "note": "家賃込み"
+        }
+      },
+      "familyWithChildren": {
+        "label": "子ども1人の家族の月額生活費目安",
+        "budget": {
+          "min": 7000,
+          "max": 10000,
+          "note": "日本人学校。家賃込み"
+        },
+        "comfortable": {
+          "min": 12000,
+          "max": 20000,
+          "note": "インター。家賃込み"
+        },
+        "estimated": true
+      }
+    }
+  }
+}

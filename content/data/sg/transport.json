@@ -1,0 +1,348 @@
+{
+  "meta": {
+    "source": [
+      "https://www.lta.gov.sg/content/ltagov/en/getting_around/public_transport/rail_network.html",
+      "https://www.lta.gov.sg/content/ltagov/en/map/fare-calculator.html",
+      "https://en.wikipedia.org/wiki/EZ-Link",
+      "https://sg.trip.com/guide/transport/singapore-mrt-map.html"
+    ],
+    "lastVerified": "2026-03-08",
+    "notes": "2026年3月時点の路線情報。Thomson-East Coast Lineは段階的に延伸中"
+  },
+  "data": {
+    "mrt": {
+      "label": "MRT（Mass Rapid Transit）",
+      "totalStations": "160以上",
+      "lines": [
+        {
+          "name": "North-South Line（NSL）",
+          "nameJa": "南北線",
+          "color": "赤",
+          "code": "NS",
+          "operator": "SMRT",
+          "openedYear": 1987,
+          "stations": 27,
+          "keyStations": [
+            "Jurong East",
+            "Orchard",
+            "City Hall",
+            "Raffles Place",
+            "Marina Bay",
+            "Woodlands"
+          ],
+          "description": "南のMarina South PierからOrchardを経由して北のWoodlandsまで"
+        },
+        {
+          "name": "East-West Line（EWL）",
+          "nameJa": "東西線",
+          "color": "緑",
+          "code": "EW",
+          "operator": "SMRT",
+          "openedYear": 1987,
+          "stations": 35,
+          "keyStations": [
+            "Changi Airport",
+            "Tampines",
+            "Bugis",
+            "City Hall",
+            "Buona Vista",
+            "Jurong East",
+            "Tuas Link"
+          ],
+          "description": "東のチャンギ空港から西のTuas Linkまで。チャンギ空港へのアクセスに便利"
+        },
+        {
+          "name": "North East Line（NEL）",
+          "nameJa": "北東線",
+          "color": "紫",
+          "code": "NE",
+          "operator": "SBS Transit",
+          "openedYear": 2003,
+          "stations": 16,
+          "keyStations": [
+            "HarbourFront",
+            "Chinatown",
+            "Dhoby Ghaut",
+            "Serangoon",
+            "Punggol"
+          ],
+          "description": "南西のHarbourFrontから北東のPunggolまで"
+        },
+        {
+          "name": "Circle Line（CCL）",
+          "nameJa": "環状線",
+          "color": "オレンジ",
+          "code": "CC",
+          "operator": "SMRT",
+          "openedYear": 2009,
+          "stations": 33,
+          "keyStations": [
+            "Dhoby Ghaut",
+            "Bayfront",
+            "Holland Village",
+            "Buona Vista",
+            "one-north",
+            "Botanic Gardens"
+          ],
+          "description": "市内中心部を環状に結ぶ"
+        },
+        {
+          "name": "Downtown Line（DTL）",
+          "nameJa": "ダウンタウン線",
+          "color": "青",
+          "code": "DT",
+          "operator": "SBS Transit",
+          "openedYear": 2013,
+          "stations": 36,
+          "keyStations": [
+            "Bukit Panjang",
+            "Beauty World",
+            "Botanic Gardens",
+            "Newton",
+            "Bugis",
+            "Bayfront",
+            "Expo"
+          ],
+          "description": "北西のBukit Panjangから東のExpoまで"
+        },
+        {
+          "name": "Thomson-East Coast Line（TEL）",
+          "nameJa": "トムソン・イーストコースト線",
+          "color": "茶",
+          "code": "TE",
+          "operator": "SMRT",
+          "openedYear": 2020,
+          "stations": 32,
+          "keyStations": [
+            "Woodlands North",
+            "Orchard",
+            "Great World",
+            "Marina Bay",
+            "Katong Park",
+            "Bayshore"
+          ],
+          "description": "北のWoodlands Northから東海岸沿いにSungei Bedokまで。段階的に延伸中",
+          "note": "一部区間は2026年以降に開業予定"
+        }
+      ],
+      "lrt": [
+        {
+          "name": "Bukit Panjang LRT",
+          "operator": "SMRT",
+          "stations": 14
+        },
+        {
+          "name": "Sengkang LRT",
+          "operator": "SBS Transit",
+          "stations": 14
+        },
+        {
+          "name": "Punggol LRT",
+          "operator": "SBS Transit",
+          "stations": 15
+        }
+      ]
+    },
+    "fares": {
+      "system": "距離制運賃",
+      "paymentMethods": [
+        {
+          "name": "EZ-Link Card",
+          "nameJa": "EZリンクカード",
+          "cost": 10,
+          "storedValue": 5,
+          "note": "カード代SGD 5 + 初期チャージSGD 5。MRT駅のチケットオフィスやコンビニで購入可能",
+          "topUpLocations": [
+            "MRT駅の券売機",
+            "コンビニ（7-Eleven等）",
+            "EZ-Linkアプリ"
+          ],
+          "minimumTopUp": 10
+        },
+        {
+          "name": "NETS FlashPay",
+          "nameJa": "NETS FlashPay",
+          "cost": 10,
+          "note": "機能はEZ-Linkとほぼ同じ"
+        },
+        {
+          "name": "SimplyGo（コンタクトレス決済）",
+          "nameJa": "コンタクトレス決済",
+          "cost": 0,
+          "note": "Visa / Mastercard / Amex等のクレジットカード・デビットカードでタッチ乗車可能。Apple Pay / Google Pay対応"
+        },
+        {
+          "name": "Singapore Tourist Pass（STP）",
+          "nameJa": "ツーリストパス",
+          "options": [
+            {
+              "duration": "1日",
+              "price": 22,
+              "note": "デポジットSGD 10含む（返却で返金）"
+            },
+            {
+              "duration": "2日",
+              "price": 29,
+              "note": "デポジットSGD 10含む"
+            },
+            {
+              "duration": "3日",
+              "price": 34,
+              "note": "デポジットSGD 10含む"
+            }
+          ],
+          "note": "MRT・バス乗り放題。観光客向け"
+        }
+      ],
+      "adultFares": {
+        "minimum": 0.99,
+        "maximum": 2.44,
+        "note": "EZ-Link / コンタクトレス利用時の目安。距離に応じて変動"
+      },
+      "concessionFares": {
+        "child": {
+          "note": "7歳未満は無料。7〜12歳は子ども料金"
+        },
+        "student": {
+          "note": "学生コンセッションカードで割引"
+        },
+        "senior": {
+          "note": "60歳以上はシニアコンセッション"
+        }
+      },
+      "transferDiscount": "MRT → バスの乗り継ぎは追加乗車料金なし（2時間以内・最大5回乗り換えまで）"
+    },
+    "bus": {
+      "label": "バス",
+      "operators": [
+        "SBS Transit",
+        "Go-Ahead Singapore",
+        "Tower Transit"
+      ],
+      "fareSystem": "距離制。MRTと同じ支払い方法",
+      "adultFare": {
+        "min": 1.0,
+        "max": 2.2
+      },
+      "operatingHours": "概ね5:30〜24:00（路線により異なる）",
+      "nightBus": {
+        "name": "Nite Owl Bus",
+        "fare": "フラットレート（通常運賃より割高）",
+        "note": "金曜・土曜の深夜に運行。路線限定"
+      },
+      "apps": [
+        "SG BusLeh",
+        "MyTransport.SG",
+        "Google Maps"
+      ]
+    },
+    "taxi": {
+      "label": "タクシー",
+      "operators": [
+        "ComfortDelGro",
+        "SMRT Taxis",
+        "Prime Taxi",
+        "Trans-Cab"
+      ],
+      "baseFare": 3.9,
+      "perKm": {
+        "first10km": 0.75,
+        "after10km": 0.73
+      },
+      "surcharges": [
+        {
+          "type": "ピーク時間帯（6:00-9:30, 18:00-24:00）",
+          "rate": "25%割増"
+        },
+        {
+          "type": "深夜（24:00-6:00）",
+          "rate": "50%割増"
+        },
+        {
+          "type": "CBD（市内中心部）",
+          "rate": "SGD 3.0"
+        },
+        {
+          "type": "空港ピックアップ",
+          "rate": "SGD 3〜5"
+        },
+        {
+          "type": "ERP（電子道路課金）",
+          "rate": "実費"
+        },
+        {
+          "type": "電話予約",
+          "rate": "SGD 2.50〜3.50"
+        }
+      ],
+      "note": "メーター制。チップ不要"
+    },
+    "grab": {
+      "label": "Grab（配車アプリ）",
+      "types": [
+        {
+          "type": "GrabCar Economy",
+          "description": "標準的な配車。ダイナミックプライシング"
+        },
+        {
+          "type": "GrabCar Premium",
+          "description": "上位車種"
+        },
+        {
+          "type": "GrabCar 6-Seater",
+          "description": "大人数向け"
+        },
+        {
+          "type": "GrabTaxi",
+          "description": "タクシーを配車。メーター運賃 + 予約料"
+        },
+        {
+          "type": "GrabShare",
+          "description": "相乗り。安い"
+        }
+      ],
+      "paymentMethods": [
+        "GrabPay",
+        "クレジットカード",
+        "現金"
+      ],
+      "note": "シンガポールで最も使われている配車アプリ。GoJekも利用可能",
+      "estimatedFare": {
+        "cbdToOrchard": {
+          "min": 10,
+          "max": 18,
+          "note": "約5km"
+        },
+        "cbdToChangiAirport": {
+          "min": 25,
+          "max": 45,
+          "note": "約20km"
+        },
+        "orchardToJurongEast": {
+          "min": 18,
+          "max": 30,
+          "note": "約15km"
+        },
+        "estimated": true
+      }
+    },
+    "otherTransport": {
+      "bicycle": {
+        "label": "自転車シェア",
+        "providers": [
+          "Anywheel",
+          "SG Bike"
+        ],
+        "note": "PCN（Park Connector Network）が充実。通勤にも使える"
+      },
+      "ferry": {
+        "label": "フェリー",
+        "routes": [
+          "HarbourFront → Sentosa",
+          "Changi Point → Pulau Ubin"
+        ],
+        "note": "観光・レジャー用途が主"
+      }
+    }
+  }
+}

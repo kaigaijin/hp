@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "source": [
+      "https://www.mom.gov.sg/passes-and-permits",
+      "https://www.ica.gov.sg/reside/LTVP",
+      "https://www.pilotoasia.com/guide/singapore-employment-pass",
+      "https://slasify.com/en/blog/singapore-work-visas-2026-guide"
+    ],
+    "lastVerified": "2026-03-08",
+    "notes": "2025年1月改定のEP/S Pass給与要件を反映。S Passは2025年9月に再改定あり。"
+  },
+  "data": {
+    "visaTypes": [
+      {
+        "id": "ep",
+        "name": "Employment Pass（EP）",
+        "nameJa": "エンプロイメントパス",
+        "category": "就労",
+        "targetAudience": "専門職・管理職・エグゼクティブ",
+        "minimumSalary": {
+          "general": 5600,
+          "financialServices": 6200,
+          "currency": "SGD",
+          "effectiveDate": "2025-01-01",
+          "note": "年齢に応じて上昇。45歳以上は一般SGD 10,700 / 金融SGD 11,800"
+        },
+        "validity": "最長2年（初回）/ 最長3年（更新）",
+        "renewable": true,
+        "additionalRequirements": "COMPASS（40点以上）が必要。SGD 22,500/月以上は免除",
+        "dpEligible": true,
+        "dpMinimumSalary": 6000
+      },
+      {
+        "id": "s-pass",
+        "name": "S Pass",
+        "nameJa": "Sパス",
+        "category": "就労",
+        "targetAudience": "中技能の外国人労働者（技術者・専門スタッフ等）",
+        "minimumSalary": {
+          "general": 3300,
+          "financialServices": 3800,
+          "currency": "SGD",
+          "effectiveDate": "2025-09-01",
+          "note": "年齢に応じて上昇。40代半ばで一般SGD 4,800 / 金融SGD 5,650。2026年7月から一般SGD 3,600 / 金融SGD 4,000に引き上げ"
+        },
+        "validity": "最長2年（初回）/ 最長3年（更新）",
+        "renewable": true,
+        "additionalRequirements": "企業の外国人比率上限（DRC）あり。レビー（SGD 650/月）が必要",
+        "dpEligible": true,
+        "dpMinimumSalary": 6000
+      },
+      {
+        "id": "work-permit",
+        "name": "Work Permit（WP）",
+        "nameJa": "ワークパーミット",
+        "category": "就労",
+        "targetAudience": "半技能・非技能労働者（建設、製造、サービス、家事労働者等）",
+        "minimumSalary": {
+          "general": null,
+          "currency": "SGD",
+          "note": "MOMによる最低給与の定めなし。実態としてSGD 1,600〜2,000/月程度"
+        },
+        "validity": "最長2年（業種・国籍により異なる）",
+        "renewable": true,
+        "additionalRequirements": "出身国の制限あり。企業のDRC・レビーあり。家事労働者は別枠",
+        "dpEligible": false,
+        "dpMinimumSalary": null
+      },
+      {
+        "id": "one-pass",
+        "name": "Overseas Networks & Expertise Pass（ONE Pass）",
+        "nameJa": "ONEパス",
+        "category": "就労（トップ人材）",
+        "targetAudience": "世界トップクラスの人材（ビジネス・芸術・スポーツ・学術・研究）",
+        "minimumSalary": {
+          "general": 30000,
+          "currency": "SGD",
+          "note": "月額固定給与SGD 30,000以上。または顕著な実績があること"
+        },
+        "validity": "5年",
+        "renewable": true,
+        "additionalRequirements": "COMPASS免除。配偶者も就労可能。複数企業での兼業可能",
+        "dpEligible": true,
+        "dpMinimumSalary": null
+      },
+      {
+        "id": "pep",
+        "name": "Personalised Employment Pass（PEP）",
+        "nameJa": "パーソナライズド・エンプロイメントパス",
+        "category": "就労（高所得者）",
+        "targetAudience": "高所得のEP保持者または海外の高所得専門家",
+        "minimumSalary": {
+          "general": 22500,
+          "currency": "SGD",
+          "note": "PEP保持中の最低給与要件。申請時は現EP保持者SGD 12,000/月以上、海外からはSGD 18,000/月以上"
+        },
+        "validity": "3年（更新不可）",
+        "renewable": false,
+        "additionalRequirements": "特定の雇用主に紐づかない。年間6ヶ月以上の雇用が必要。COMPASS免除",
+        "dpEligible": true,
+        "dpMinimumSalary": 6000
+      },
+      {
+        "id": "entrepass",
+        "name": "EntrePass",
+        "nameJa": "アントレパス",
+        "category": "起業",
+        "targetAudience": "シンガポールで起業する外国人起業家",
+        "minimumSalary": {
+          "general": null,
+          "currency": "SGD",
+          "note": "最低給与要件なし。ただし事業の革新性・投資実績・知的財産等の基準を満たす必要あり"
+        },
+        "validity": "1年（初回）/ 更新可能",
+        "renewable": true,
+        "additionalRequirements": "ACRAに会社を登録済み or 登録予定であること。VC投資、特許、政府機関との連携等の要件あり",
+        "dpEligible": true,
+        "dpMinimumSalary": 6000
+      },
+      {
+        "id": "dp",
+        "name": "Dependant's Pass（DP）",
+        "nameJa": "ディペンダントパス（家族帯同）",
+        "category": "帯同",
+        "targetAudience": "EP / S Pass / EntrePass / PEP保持者の配偶者・21歳未満の子ども",
+        "minimumSalary": {
+          "general": null,
+          "currency": "SGD",
+          "note": "スポンサー（就労ビザ保持者）の月額固定給与がSGD 6,000以上であること"
+        },
+        "validity": "スポンサーのパスに準拠",
+        "renewable": true,
+        "additionalRequirements": "就労にはLOC（Letter of Consent）が必要",
+        "dpEligible": false,
+        "dpMinimumSalary": null
+      },
+      {
+        "id": "ltvp",
+        "name": "Long-Term Visit Pass（LTVP）",
+        "nameJa": "長期滞在パス",
+        "category": "帯同・長期滞在",
+        "targetAudience": "シンガポール市民/PRの外国人配偶者、EP/S Pass保持者のコモンローパートナー・継子・障害のある21歳以上の子ども・親等",
+        "minimumSalary": {
+          "general": null,
+          "currency": "SGD",
+          "note": "ICA発行とMOM発行の2種類あり。MOM発行はスポンサーの給与要件あり"
+        },
+        "validity": "1〜5年（個別審査）",
+        "renewable": true,
+        "additionalRequirements": "就労にはLOC（Letter of Consent）が必要。処理期間は通常6週間",
+        "dpEligible": false,
+        "dpMinimumSalary": null
+      },
+      {
+        "id": "student-pass",
+        "name": "Student's Pass（STP）",
+        "nameJa": "学生パス",
+        "category": "留学",
+        "targetAudience": "シンガポールの教育機関にフルタイムで在籍する留学生",
+        "minimumSalary": {
+          "general": null,
+          "currency": "SGD",
+          "note": "給与要件なし"
+        },
+        "validity": "就学期間に準拠",
+        "renewable": true,
+        "additionalRequirements": "就労は原則不可（一部インターンシップ等は例外）。ICAが発行",
+        "dpEligible": false,
+        "dpMinimumSalary": null
+      },
+      {
+        "id": "tep",
+        "name": "Training Employment Pass（TEP）",
+        "nameJa": "トレーニング・エンプロイメントパス",
+        "category": "研修",
+        "targetAudience": "シンガポールで実務研修を受ける外国人専門家",
+        "minimumSalary": {
+          "general": 3000,
+          "currency": "SGD",
+          "note": "月額手当SGD 3,000以上"
+        },
+        "validity": "最長3ヶ月",
+        "renewable": false,
+        "additionalRequirements": "研修目的のみ。正規雇用には切り替えが必要",
+        "dpEligible": false,
+        "dpMinimumSalary": null
+      }
+    ]
+  }
+}

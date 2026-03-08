@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "source": [
+      "https://www.sjs.edu.sg/en/admission/",
+      "https://www.sjs.edu.sg/en/campus/",
+      "https://www.uwcsea.edu.sg/admissions/fees",
+      "https://www.tutopiya.com/blog/international-school-fees/international-schools-singapore-fees/"
+    ],
+    "lastVerified": "2026-03-08",
+    "notes": "学費は2025〜2026年度の参考値。各校の公式サイトで最新情報を確認すること"
+  },
+  "data": {
+    "japaneseSchool": {
+      "name": "シンガポール日本人学校（The Japanese School Singapore）",
+      "nameEn": "The Japanese School Singapore",
+      "website": "https://www.sjs.edu.sg/",
+      "campuses": [
+        {
+          "name": "チャンギ校（小学部）",
+          "nameEn": "Changi Campus (Primary)",
+          "address": "11 Loyang View, Singapore 507653",
+          "grades": "小学1〜6年",
+          "note": "東部エリア。スクールバスあり"
+        },
+        {
+          "name": "クレメンティ校（小学部）",
+          "nameEn": "Clementi Campus (Primary)",
+          "address": "95 Clementi Road, Singapore 129782",
+          "grades": "小学1〜6年",
+          "note": "西部エリア。クレメンティ駅徒歩圏内"
+        },
+        {
+          "name": "ウエストコースト校（中学部）",
+          "nameEn": "West Coast Campus (Secondary)",
+          "address": "201 West Coast Road, Singapore 127383",
+          "grades": "中学1〜3年",
+          "note": "小学部卒業後はウエストコースト校へ進学"
+        }
+      ],
+      "fees": {
+        "applicationFee": 3924,
+        "campusDevelopmentFee": 2725,
+        "donationPerFamily": 3000,
+        "monthlyTuition": {
+          "primary": 747,
+          "secondary": 823,
+          "note": "参考値。GST別途の可能性あり"
+        },
+        "annualEstimate": {
+          "primary": {
+            "min": 9000,
+            "max": 10000
+          },
+          "secondary": {
+            "min": 10000,
+            "max": 11000
+          }
+        },
+        "note": "入学金・寄付金は初年度のみ。月額授業料は年度により改定の可能性あり"
+      },
+      "curriculum": "日本の学習指導要領に準拠",
+      "language": "日本語（英語の授業あり）",
+      "note": "高校部はないため、中学卒業後はインターナショナルスクール or 日本の高校（帰国子女枠等）へ"
+    },
+    "internationalSchools": [
+      {
+        "name": "UWC South East Asia（UWCSEA）",
+        "nameJa": "UWC東南アジア",
+        "campuses": [
+          "Dover Campus",
+          "East Campus (Tampines)"
+        ],
+        "curriculum": "IB（International Baccalaureate）",
+        "annualFees": {
+          "k1ToG1": 47031,
+          "g2ToG5": 48500,
+          "g6ToG8": 52000,
+          "g9ToG10": 55000,
+          "g11ToG12": 57774,
+          "estimated": true
+        },
+        "applicationFee": 627,
+        "enrollmentFee": 4992,
+        "website": "https://www.uwcsea.edu.sg/",
+        "note": "世界的に評価の高いIB校。入学競争率が非常に高い"
+      },
+      {
+        "name": "Singapore American School（SAS）",
+        "nameJa": "シンガポールアメリカンスクール",
+        "campuses": [
+          "Woodlands"
+        ],
+        "curriculum": "アメリカ式カリキュラム / AP",
+        "annualFees": {
+          "elementary": {
+            "min": 38000,
+            "max": 42000
+          },
+          "middle": {
+            "min": 42000,
+            "max": 46000
+          },
+          "high": {
+            "min": 46000,
+            "max": 50000
+          }
+        },
+        "website": "https://www.sas.edu.sg/",
+        "note": "北部Woodlandsに広大なキャンパス。アメリカ系駐在員に人気",
+        "estimated": true
+      },
+      {
+        "name": "Tanglin Trust School",
+        "nameJa": "タングリントラストスクール",
+        "campuses": [
+          "Portsdown Road"
+        ],
+        "curriculum": "イギリス式 / IGCSE / IB",
+        "annualFees": {
+          "primary": {
+            "min": 38000,
+            "max": 48000
+          },
+          "secondary": {
+            "min": 43000,
+            "max": 52000
+          }
+        },
+        "capitalLevy": 3750,
+        "website": "https://www.tts.edu.sg/",
+        "note": "英国系。歴史が長い。中心部に近い",
+        "estimated": true
+      },
+      {
+        "name": "Canadian International School（CIS）",
+        "nameJa": "カナディアンインターナショナルスクール",
+        "campuses": [
+          "Lakeside Campus",
+          "Tanjong Katong Campus"
+        ],
+        "curriculum": "IB",
+        "annualFees": {
+          "elementary": {
+            "min": 30000,
+            "max": 36000
+          },
+          "secondary": {
+            "min": 35000,
+            "max": 42000
+          }
+        },
+        "website": "https://www.cis.edu.sg/",
+        "note": "IB校。日本人も比較的多い",
+        "estimated": true
+      },
+      {
+        "name": "Australian International School（AIS）",
+        "nameJa": "オーストラリアンインターナショナルスクール",
+        "campuses": [
+          "Lorong Chuan"
+        ],
+        "curriculum": "IB / オーストラリア式",
+        "annualFees": {
+          "primary": {
+            "min": 28000,
+            "max": 35000
+          },
+          "secondary": {
+            "min": 33000,
+            "max": 40000
+          }
+        },
+        "website": "https://www.ais.com.sg/",
+        "note": "IBとオーストラリアのカリキュラムを併用",
+        "estimated": true
+      },
+      {
+        "name": "Overseas Family School（OFS）",
+        "nameJa": "オーバーシーズファミリースクール",
+        "campuses": [
+          "Pasir Ris"
+        ],
+        "curriculum": "IB",
+        "annualFees": {
+          "primary": {
+            "min": 25000,
+            "max": 32000
+          },
+          "secondary": {
+            "min": 30000,
+            "max": 38000
+          }
+        },
+        "website": "https://www.ofs.edu.sg/",
+        "note": "日本語母語プログラムあり。日本人生徒が多い",
+        "estimated": true
+      }
+    ],
+    "localSchools": {
+      "description": "シンガポールの公立学校（MOE School）",
+      "foreignerEligibility": "入学可能だが、シンガポール市民・PR優先。空きがある場合のみ外国人枠あり",
+      "monthlyFees": {
+        "asean": 825,
+        "nonAsean": 1600,
+        "note": "日本人は非ASEAN枠。月額SGD 1,600（2025年時点）"
+      },
+      "curriculum": "シンガポール教育省（MOE）カリキュラム。英語が主な使用言語",
+      "note": "学力レベルが非常に高い。PSLEやOレベル等の国家試験あり。日本語での学習サポートはない"
+    },
+    "tips": [
+      "日本人学校は高校がないため、中学卒業後の進路を早めに検討しておく",
+      "インターナショナルスクールは空き待ちが長いことがあるため、渡航前から申し込みを開始するのが望ましい",
+      "会社の教育手当（Education Allowance）の有無と上限額を確認してから学校を選ぶ",
+      "OFS（Overseas Family School）は日本語母語プログラムがあり、日本語を維持したい家庭に人気",
+      "シンガポールの公立学校は学力水準が世界トップクラスだが、外国人の入学枠は限定的"
+    ]
+  }
+}

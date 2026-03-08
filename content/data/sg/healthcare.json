@@ -1,0 +1,233 @@
+{
+  "meta": {
+    "source": [
+      "https://www.nipponmedicalcare.com.sg/",
+      "https://www.japan-green.com.sg/",
+      "https://rafflesj-clinic.com/",
+      "https://www.pilotoasia.com/guide/healthcare-in-singapore",
+      "https://www.moh.gov.sg/managing-expenses/bills-and-fee-benchmarks/"
+    ],
+    "lastVerified": "2026-03-08",
+    "notes": "日本語対応クリニックの情報は各クリニック公式サイトより。医療費は2025〜2026年時点の目安"
+  },
+  "data": {
+    "japaneseClinics": [
+      {
+        "name": "日本メディカルケア（Nippon Medical Care）",
+        "nameEn": "Nippon Medical Care",
+        "area": "Tanglin / Orchard",
+        "address": "6A Napier Road, #03-31 Annexe Block, Gleneagles Hospital, Singapore 258500",
+        "phone": "+65-6474-7707",
+        "languages": [
+          "日本語",
+          "英語"
+        ],
+        "website": "https://www.nipponmedicalcare.com.sg/",
+        "services": [
+          "内科",
+          "小児科",
+          "婦人科",
+          "健康診断",
+          "予防接種"
+        ],
+        "note": "グレニーグルス病院内。日本人医師・看護師常駐"
+      },
+      {
+        "name": "ジャパングリーンクリニック（Japan Green Clinic）",
+        "nameEn": "Japan Green Clinic",
+        "area": "Orchard",
+        "address": "290 Orchard Road, #10-01 Paragon Medical Centre, Singapore 238859",
+        "phone": "+65-6734-8871",
+        "languages": [
+          "日本語",
+          "英語"
+        ],
+        "website": "https://www.japan-green.com.sg/",
+        "services": [
+          "内科",
+          "外科",
+          "小児科",
+          "皮膚科",
+          "健康診断"
+        ],
+        "note": "パラゴン内。JGHデンタルクリニック（歯科）も併設"
+      },
+      {
+        "name": "ラッフルズジャパニーズクリニック（Raffles Japanese Clinic）",
+        "nameEn": "Raffles Japanese Clinic",
+        "area": "Bugis / Orchard",
+        "branches": [
+          {
+            "branchName": "ラッフルズホスピタル本院",
+            "address": "585 North Bridge Road, Raffles Hospital, Singapore 188770",
+            "phone": "+65-6311-1190"
+          },
+          {
+            "branchName": "Shaw Centre",
+            "address": "1 Scotts Road, #10-00 Shaw Centre, Singapore 228208",
+            "phone": "+65-6738-6550"
+          }
+        ],
+        "languages": [
+          "日本語",
+          "英語"
+        ],
+        "website": "https://rafflesj-clinic.com/",
+        "services": [
+          "内科",
+          "小児科",
+          "婦人科",
+          "眼科",
+          "耳鼻咽喉科",
+          "皮膚科",
+          "歯科",
+          "健康診断",
+          "人間ドック"
+        ],
+        "note": "ラッフルズメディカルグループ傘下。日本人医師・看護師・薬剤師常駐。最も規模が大きい"
+      },
+      {
+        "name": "日本人会クリニック（JAS Clinic）",
+        "nameEn": "JAS Clinic",
+        "area": "Adam Road",
+        "address": "120 Adam Road, Singapore Japanese Association, Singapore 289899",
+        "phone": "+65-6467-0070",
+        "languages": [
+          "日本語",
+          "英語"
+        ],
+        "website": "https://www.jas.org.sg/",
+        "services": [
+          "内科",
+          "健康診断"
+        ],
+        "note": "シンガポール日本人会内。会員でなくても利用可",
+        "estimated": true
+      },
+      {
+        "name": "ニホンプレミアムクリニック（Nihon Premium Clinic）",
+        "nameEn": "Nihon Premium Clinic",
+        "area": "Novena",
+        "address": "10 Sinaran Drive, #09-30 Novena Medical Centre, Singapore 307506",
+        "phone": "+65-6397-2220",
+        "languages": [
+          "日本語",
+          "英語"
+        ],
+        "website": "https://novenamedicalcenter.com/our-clinics/nihon-premium-clinic/",
+        "services": [
+          "内科",
+          "健康診断"
+        ],
+        "estimated": true
+      }
+    ],
+    "medicalCosts": {
+      "note": "外国人は公立病院の補助対象外。民間クリニック・病院の費用目安",
+      "gpConsultation": {
+        "label": "一般クリニック（GP）診察",
+        "range": {
+          "min": 30,
+          "max": 80
+        },
+        "note": "薬代込み。日本語対応クリニックはSGD 80〜150程度"
+      },
+      "japaneseClinicConsultation": {
+        "label": "日本語対応クリニック診察",
+        "range": {
+          "min": 80,
+          "max": 200
+        },
+        "note": "薬代・検査費別途の場合あり",
+        "estimated": true
+      },
+      "specialistConsultation": {
+        "label": "専門医（Specialist）初診",
+        "range": {
+          "min": 100,
+          "max": 350
+        },
+        "note": "専門分野により大きく異なる"
+      },
+      "emergencyRoom": {
+        "label": "救急外来（A&E）",
+        "range": {
+          "min": 120,
+          "max": 500
+        },
+        "note": "民間病院。公立病院は外国人でも比較的安い"
+      },
+      "hospitalStay": {
+        "label": "入院（1泊）",
+        "publicHospital": {
+          "min": 200,
+          "max": 800,
+          "note": "C or B2クラス病室"
+        },
+        "privateHospital": {
+          "min": 1000,
+          "max": 3000,
+          "note": "個室"
+        }
+      },
+      "dentalCheckup": {
+        "label": "歯科検診 + クリーニング",
+        "range": {
+          "min": 80,
+          "max": 250
+        }
+      },
+      "dentalFilling": {
+        "label": "歯科治療（虫歯充填）",
+        "range": {
+          "min": 100,
+          "max": 300
+        }
+      }
+    },
+    "insurance": {
+      "medishieldLife": {
+        "name": "MediShield Life",
+        "description": "シンガポール市民・PRが自動加入する基本医療保険。入院・手術・外来治療（一部）をカバー",
+        "eligibility": "シンガポール市民・PR",
+        "note": "外国人（EP/S Pass保持者）は対象外"
+      },
+      "integratedShieldPlan": {
+        "name": "Integrated Shield Plan（IP）",
+        "description": "MediShield Lifeを拡張する民間保険。より高い補償額・民間病院での入院をカバー",
+        "eligibility": "シンガポール市民・PR",
+        "providers": [
+          "AIA",
+          "Great Eastern",
+          "NTUC Income",
+          "Prudential",
+          "Singlife",
+          "Raffles Health Insurance"
+        ],
+        "note": "外国人はIPの代わりに民間の国際医療保険に加入するのが一般的"
+      },
+      "privateInsurance": {
+        "name": "民間医療保険（International Health Insurance）",
+        "description": "駐在員・外国人向けの国際医療保険。入院・外来・歯科・出産等を幅広くカバー",
+        "majorProviders": [
+          "Allianz",
+          "AXA",
+          "Bupa",
+          "Cigna",
+          "AIA"
+        ],
+        "monthlyPremiumEstimate": {
+          "min": 200,
+          "max": 800,
+          "note": "年齢・カバー範囲により大きく異なる"
+        },
+        "note": "会社が提供するグループ保険がある場合はそれを利用。個人加入の場合は年齢が若いうちに入るのが有利",
+        "estimated": true
+      }
+    },
+    "emergencyContacts": {
+      "ambulance": "995",
+      "note": "緊急でない医療相談は最寄りのGP or クリニックへ"
+    }
+  }
+}
