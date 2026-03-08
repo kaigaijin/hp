@@ -1,0 +1,11 @@
+[
+  { "country_code": "sg", "name": "North-South Line", "name_ja": "南北線", "code": "NS", "color": "red", "operator": "SMRT", "opened_year": 1987, "stations": 27, "type": "mrt", "last_verified": "2026-03-08" },
+  { "country_code": "sg", "name": "East-West Line", "name_ja": "東西線", "code": "EW", "color": "green", "operator": "SMRT", "opened_year": 1987, "stations": 35, "type": "mrt", "last_verified": "2026-03-08" },
+  { "country_code": "sg", "name": "North East Line", "name_ja": "北東線", "code": "NE", "color": "purple", "operator": "SBS Transit", "opened_year": 2003, "stations": 16, "type": "mrt", "last_verified": "2026-03-08" },
+  { "country_code": "sg", "name": "Circle Line", "name_ja": "環状線", "code": "CC", "color": "orange", "operator": "SMRT", "opened_year": 2009, "stations": 33, "type": "mrt", "last_verified": "2026-03-08" },
+  { "country_code": "sg", "name": "Downtown Line", "name_ja": "ダウンタウン線", "code": "DT", "color": "blue", "operator": "SBS Transit", "opened_year": 2013, "stations": 36, "type": "mrt", "last_verified": "2026-03-08" },
+  { "country_code": "sg", "name": "Thomson-East Coast Line", "name_ja": "トムソン・イーストコースト線", "code": "TE", "color": "brown", "operator": "SMRT", "opened_year": 2020, "stations": 32, "type": "mrt", "note": "段階的に延伸中。一部区間は2026年以降開業予定", "last_verified": "2026-03-08" },
+  { "country_code": "sg", "name": "Bukit Panjang LRT", "name_ja": "ブキパンジャンLRT", "code": "BP", "color": "grey", "operator": "SMRT", "opened_year": 1999, "stations": 14, "type": "lrt", "last_verified": "2026-03-08" },
+  { "country_code": "sg", "name": "Sengkang LRT", "name_ja": "センカンLRT", "code": "SK", "color": "grey", "operator": "SBS Transit", "opened_year": 2003, "stations": 14, "type": "lrt", "last_verified": "2026-03-08" },
+  { "country_code": "sg", "name": "Punggol LRT", "name_ja": "プンゴルLRT", "code": "PG", "color": "grey", "operator": "SBS Transit", "opened_year": 2005, "stations": 15, "type": "lrt", "last_verified": "2026-03-08" }
+]
