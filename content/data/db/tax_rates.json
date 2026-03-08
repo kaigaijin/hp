@@ -1,0 +1,19 @@
+[
+  { "country_code": "sg", "type": "income_tax", "assessment_year": "YA2026", "bracket_sgd": "0-20000", "rate_pct": 0, "cumulative_tax_sgd": 0, "last_verified": "2026-03-08" },
+  { "country_code": "sg", "type": "income_tax", "assessment_year": "YA2026", "bracket_sgd": "20001-30000", "rate_pct": 2, "cumulative_tax_sgd": 200, "last_verified": "2026-03-08" },
+  { "country_code": "sg", "type": "income_tax", "assessment_year": "YA2026", "bracket_sgd": "30001-40000", "rate_pct": 3.5, "cumulative_tax_sgd": 550, "last_verified": "2026-03-08" },
+  { "country_code": "sg", "type": "income_tax", "assessment_year": "YA2026", "bracket_sgd": "40001-80000", "rate_pct": 7, "cumulative_tax_sgd": 3350, "last_verified": "2026-03-08" },
+  { "country_code": "sg", "type": "income_tax", "assessment_year": "YA2026", "bracket_sgd": "80001-120000", "rate_pct": 11.5, "cumulative_tax_sgd": 7950, "last_verified": "2026-03-08" },
+  { "country_code": "sg", "type": "income_tax", "assessment_year": "YA2026", "bracket_sgd": "120001-160000", "rate_pct": 15, "cumulative_tax_sgd": 13950, "last_verified": "2026-03-08" },
+  { "country_code": "sg", "type": "income_tax", "assessment_year": "YA2026", "bracket_sgd": "160001-200000", "rate_pct": 18, "cumulative_tax_sgd": 21150, "last_verified": "2026-03-08" },
+  { "country_code": "sg", "type": "income_tax", "assessment_year": "YA2026", "bracket_sgd": "200001-240000", "rate_pct": 19, "cumulative_tax_sgd": 28750, "last_verified": "2026-03-08" },
+  { "country_code": "sg", "type": "income_tax", "assessment_year": "YA2026", "bracket_sgd": "240001-280000", "rate_pct": 19.5, "cumulative_tax_sgd": 36550, "last_verified": "2026-03-08" },
+  { "country_code": "sg", "type": "income_tax", "assessment_year": "YA2026", "bracket_sgd": "280001-320000", "rate_pct": 20, "cumulative_tax_sgd": 44550, "last_verified": "2026-03-08" },
+  { "country_code": "sg", "type": "income_tax", "assessment_year": "YA2026", "bracket_sgd": "320001-500000", "rate_pct": 22, "cumulative_tax_sgd": 84150, "last_verified": "2026-03-08" },
+  { "country_code": "sg", "type": "income_tax", "assessment_year": "YA2026", "bracket_sgd": "500001-1000000", "rate_pct": 23, "cumulative_tax_sgd": 199150, "last_verified": "2026-03-08" },
+  { "country_code": "sg", "type": "income_tax", "assessment_year": "YA2026", "bracket_sgd": "1000001+", "rate_pct": 24, "cumulative_tax_sgd": null, "last_verified": "2026-03-08" },
+  { "country_code": "sg", "type": "gst", "assessment_year": null, "bracket_sgd": null, "rate_pct": 9, "cumulative_tax_sgd": null, "effective_date": "2024-01-01", "last_verified": "2026-03-08" },
+  { "country_code": "sg", "type": "absd_foreigner", "assessment_year": null, "bracket_sgd": "any", "rate_pct": 60, "cumulative_tax_sgd": null, "effective_date": "2023-04-27", "last_verified": "2026-03-08" },
+  { "country_code": "sg", "type": "absd_pr_first", "assessment_year": null, "bracket_sgd": "1st", "rate_pct": 5, "cumulative_tax_sgd": null, "effective_date": "2023-04-27", "last_verified": "2026-03-08" },
+  { "country_code": "sg", "type": "absd_citizen_second", "assessment_year": null, "bracket_sgd": "2nd", "rate_pct": 20, "cumulative_tax_sgd": null, "effective_date": "2023-04-27", "last_verified": "2026-03-08" }
+]
