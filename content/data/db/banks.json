@@ -1,0 +1,7 @@
+[
+  { "country_code": "sg", "name": "DBS Bank", "name_ja": "DBS銀行", "headquarters": "sg", "foreigner_with_pass": true, "foreigner_without_pass": true, "min_deposit_without_pass_sgd": 350000, "online_opening": true, "website": "https://www.dbs.com.sg/", "last_verified": "2026-03-08" },
+  { "country_code": "sg", "name": "UOB", "name_ja": "UOB銀行", "headquarters": "sg", "foreigner_with_pass": true, "foreigner_without_pass": true, "min_deposit_without_pass_sgd": 100000, "online_opening": true, "website": "https://www.uob.com.sg/", "last_verified": "2026-03-08" },
+  { "country_code": "sg", "name": "MUFG Bank", "name_ja": "三菱UFJ銀行", "headquarters": "jp", "foreigner_with_pass": false, "foreigner_without_pass": false, "min_deposit_without_pass_sgd": null, "online_opening": false, "website": "https://www.bk.mufg.jp/global/globalnetwork/asiaoceania/singapore.html", "note": "法人向けが中心。個人口座は基本非対応", "last_verified": "2026-03-08" },
+  { "country_code": "sg", "name": "SMBC", "name_ja": "三井住友銀行", "headquarters": "jp", "foreigner_with_pass": false, "foreigner_without_pass": false, "min_deposit_without_pass_sgd": null, "online_opening": false, "website": "https://www.smbc.co.jp/global/singapore/", "note": "法人向けが中心", "last_verified": "2026-03-08" },
+  { "country_code": "sg", "name": "Mizuho Bank", "name_ja": "みずほ銀行", "headquarters": "jp", "foreigner_with_pass": false, "foreigner_without_pass": false, "min_deposit_without_pass_sgd": null, "online_opening": false, "website": "https://www.mizuhogroup.com/", "note": "法人向けが中心。個人口座は非対応", "last_verified": "2026-03-08" }
+]
