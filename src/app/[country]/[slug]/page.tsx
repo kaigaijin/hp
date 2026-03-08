@@ -1,7 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { MDXRemote } from "next-mdx-remote/rsc";
-import remarkGfm from "remark-gfm";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { getCountry, countries } from "@/lib/countries";
@@ -167,7 +166,7 @@ export default async function ArticlePage({
 
           {/* 本文 */}
           <div className="prose prose-stone dark:prose-invert prose-lg max-w-none prose-headings:heading-editorial prose-a:text-ocean-600 dark:prose-a:text-ocean-400 prose-a:no-underline hover:prose-a:underline">
-            <MDXRemote source={article.content} options={{ mdxOptions: { remarkPlugins: [remarkGfm] } }} />
+            <MDXRemote source={article.content} />
           </div>
 
           {/* コメント */}
