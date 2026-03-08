@@ -4,6 +4,13 @@ import matter from "gray-matter";
 
 const contentDir = path.join(process.cwd(), "content");
 
+// 公開済みかどうか（dateが今日以前ならtrue）
+function isPublished(date: string): boolean {
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  return new Date(date) <= today;
+}
+
 export type ArticleMeta = {
   slug: string;
   title: string;
@@ -36,6 +43,7 @@ export function getArticlesByCountry(countryCode: string): ArticleMeta[] {
         coverImage: data.coverImage,
       };
     })
+    .filter((a) => isPublished(a.date))
     .sort((a, b) => (a.date > b.date ? -1 : 1));
 }
 
@@ -45,6 +53,10 @@ export function getArticle(countryCode: string, slug: string) {
 
   const raw = fs.readFileSync(filePath, "utf-8");
   const { data, content } = matter(raw);
+
+  // 未公開記事はnullを返す
+  if (!isPublished(data.date ?? "")) return null;
+
   return {
     meta: {
       slug,
