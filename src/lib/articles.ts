@@ -7,7 +7,7 @@ const contentDir = path.join(process.cwd(), "content");
 // 公開済みかどうか（dateが今日以前ならtrue）
 function isPublished(date: string): boolean {
   const today = new Date();
-  today.setHours(0, 0, 0, 0);
+  today.setHours(23, 59, 59, 999);
   return new Date(date) <= today;
 }
 
