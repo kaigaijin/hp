@@ -3,7 +3,11 @@ import "./globals.css";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 export const metadata: Metadata = {
-  title: "Kaigaijin | 海外在住日本人のための国別生活ガイド",
+  metadataBase: new URL("https://kaigaijin.jp"),
+  title: {
+    default: "Kaigaijin | 海外在住日本人のための国別生活ガイド",
+    template: "%s | Kaigaijin",
+  },
   description:
     "シンガポール、タイ、UAE、ベトナム…国別に深い生活情報を届ける、海外在住日本人のためのメディア。ビザ・保険・住居・税金・医療、現地で本当に必要な情報を。",
   openGraph: {
@@ -12,6 +16,11 @@ export const metadata: Metadata = {
       "国別に深い生活情報を届ける、海外在住日本人のためのメディア。",
     type: "website",
     locale: "ja_JP",
+    url: "https://kaigaijin.jp",
+    siteName: "Kaigaijin",
+  },
+  twitter: {
+    card: "summary_large_image",
   },
 };
 
