@@ -7,6 +7,10 @@ import { getCountry, countries } from "@/lib/countries";
 import { getArticle, getArticlesByCountry } from "@/lib/articles";
 import { ArrowLeft, Calendar, Tag } from "lucide-react";
 import Comments from "@/components/Comments";
+import { BarChartMDX, LineChartMDX, PieChartMDX } from "@/components/charts";
+import remarkGfm from "remark-gfm";
+
+const mdxComponents = { BarChart: BarChartMDX, LineChart: LineChartMDX, PieChart: PieChartMDX };
 
 export function generateStaticParams() {
   return countries.flatMap((c) =>
@@ -166,7 +170,7 @@ export default async function ArticlePage({
 
           {/* 本文 */}
           <div className="prose prose-stone dark:prose-invert prose-lg max-w-none prose-headings:heading-editorial prose-a:text-ocean-600 dark:prose-a:text-ocean-400 prose-a:no-underline hover:prose-a:underline">
-            <MDXRemote source={article.content} />
+            <MDXRemote source={article.content} components={mdxComponents} options={{ mdxOptions: { remarkPlugins: [remarkGfm] } }} />
           </div>
 
           {/* コメント */}
