@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import AdvertiseForm from "@/components/AdvertiseForm";
+import ContactForm from "@/components/ContactForm";
+import Link from "next/link";
 import {
   Users,
   Target,
@@ -116,13 +117,13 @@ export default function AdvertisePage() {
                 <br />
                 御社のサービスを、まさにそれを必要としている読者に届けます。
               </p>
-              <a
-                href="#contact"
+              <Link
+                href="/contact"
                 className="inline-flex items-center gap-2 bg-white text-ocean-800 font-semibold px-8 py-4 rounded-full hover:bg-ocean-50 transition-colors"
               >
                 <Mail size={18} />
                 お問い合わせはこちら
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -295,7 +296,7 @@ export default function AdvertisePage() {
                 通常2営業日以内にご返信いたします。
               </p>
             </div>
-            <AdvertiseForm />
+            <ContactForm />
           </div>
         </section>
       </main>
