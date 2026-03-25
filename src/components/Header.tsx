@@ -39,6 +39,12 @@ export default function Header() {
           >
             国一覧
           </Link>
+          <Link
+            href="/contact"
+            className="hover:text-ocean-700 dark:hover:text-ocean-400 transition-colors"
+          >
+            お問い合わせ
+          </Link>
           <ThemeToggle />
         </nav>
 
@@ -64,11 +70,18 @@ export default function Header() {
                 key={c.code}
                 href={`/${c.code}`}
                 onClick={() => setOpen(false)}
-                className="py-2 border-b border-stone-100 dark:border-stone-800 last:border-0"
+                className="py-2 border-b border-stone-100 dark:border-stone-800"
               >
                 {c.flag} {c.name}
               </Link>
             ))}
+            <Link
+              href="/contact"
+              onClick={() => setOpen(false)}
+              className="py-2 text-ocean-600 dark:text-ocean-400 font-semibold"
+            >
+              お問い合わせ
+            </Link>
           </div>
         </nav>
       )}

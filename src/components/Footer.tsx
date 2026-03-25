@@ -53,6 +53,9 @@ export default function Footer() {
               <Link href="/contact" className="hover:text-white transition-colors">
                 お問い合わせ
               </Link>
+              <Link href="/advertise" className="hover:text-white transition-colors">
+                広告掲載について
+              </Link>
               <Link href="/privacy" className="hover:text-white transition-colors">
                 プライバシーポリシー
               </Link>

@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 @theme {
   --font-serif: "Noto Serif JP", serif;
@@ -75,6 +76,222 @@
 }
 .dark .country-card:hover {
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
+}
+
+/* ===== 記事本文スタイル ===== */
+
+/* 本文: 読みやすいフォントサイズ・行間 */
+.prose {
+  font-size: 1.0625rem;
+  line-height: 1.9;
+  letter-spacing: 0.01em;
+}
+
+/* 見出し */
+.prose h2 {
+  margin-top: 2.5em;
+  margin-bottom: 0.8em;
+  padding-bottom: 0.4em;
+  border-bottom: 2px solid var(--color-ocean-200);
+  font-size: 1.625rem;
+}
+.prose h3 {
+  margin-top: 2em;
+  margin-bottom: 0.6em;
+  padding-left: 0.75em;
+  border-left: 3px solid var(--color-ocean-500);
+  font-size: 1.3rem;
+}
+.prose h4 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-size: 1.1rem;
+}
+.dark .prose h2 {
+  border-bottom-color: #374151;
+}
+.dark .prose h3 {
+  border-left-color: var(--color-ocean-400);
+}
+
+/* 段落 */
+.prose p {
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+}
+
+/* 強調 */
+.prose strong {
+  color: var(--color-ocean-800);
+  font-weight: 700;
+}
+.dark .prose strong {
+  color: var(--color-ocean-300);
+}
+
+/* リンク */
+.prose a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: color 0.15s ease;
+}
+
+/* リスト */
+.prose ul {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-left: 1.25em;
+}
+.prose ul li {
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+  padding-left: 0.25em;
+}
+.prose ul li::marker {
+  color: var(--color-ocean-400);
+}
+.prose ol {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-left: 1.25em;
+}
+.prose ol li {
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+  padding-left: 0.25em;
+}
+.prose ol li::marker {
+  color: var(--color-ocean-600);
+  font-weight: 600;
+}
+
+/* 引用 */
+.prose blockquote {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  padding: 1em 1.25em;
+  border-left: 4px solid var(--color-ocean-400);
+  background-color: var(--color-ocean-50);
+  border-radius: 0 8px 8px 0;
+  font-style: normal;
+  color: #44403c;
+}
+.prose blockquote p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.dark .prose blockquote {
+  background-color: rgba(37, 108, 232, 0.08);
+  border-left-color: var(--color-ocean-500);
+  color: #d6d3d1;
+}
+
+/* 水平線 */
+.prose hr {
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--color-ocean-200), transparent);
+}
+.dark .prose hr {
+  background: linear-gradient(to right, transparent, #374151, transparent);
+}
+
+/* テーブル */
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  font-size: 0.95rem;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #e5e7eb;
+}
+.prose thead {
+  background-color: var(--color-ocean-50);
+  border-bottom: 2px solid var(--color-ocean-200);
+}
+.prose thead th {
+  padding: 0.75em 1em;
+  text-align: left;
+  font-weight: 700;
+  color: var(--color-ocean-800);
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+.prose tbody td {
+  padding: 0.75em 1em;
+  border-bottom: 1px solid #e5e7eb;
+  vertical-align: top;
+}
+.prose tbody tr:last-child td {
+  border-bottom: none;
+}
+.prose tbody tr:nth-child(even) {
+  background-color: #f9fafb;
+}
+.prose tbody tr:hover {
+  background-color: var(--color-ocean-50);
+}
+.dark .prose table {
+  border-color: #374151;
+}
+.dark .prose thead {
+  background-color: rgba(37, 108, 232, 0.1);
+  border-bottom-color: #374151;
+}
+.dark .prose thead th {
+  color: var(--color-ocean-300);
+}
+.dark .prose tbody td {
+  border-bottom-color: #374151;
+}
+.dark .prose tbody tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.03);
+}
+.dark .prose tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* テーブル横スクロール（モバイル） */
+.prose .table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* コード（インライン） */
+.prose code:not(pre code) {
+  padding: 0.15em 0.4em;
+  background-color: #f3f4f6;
+  border-radius: 4px;
+  font-size: 0.875em;
+  font-weight: 500;
+  color: var(--color-ocean-700);
+}
+.dark .prose code:not(pre code) {
+  background-color: #1f2937;
+  color: var(--color-ocean-300);
+}
+
+/* 画像 */
+.prose img {
+  border-radius: 8px;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+/* 注釈（小さいテキスト） */
+.prose small,
+.prose .note {
+  font-size: 0.875rem;
+  color: #78716c;
+  line-height: 1.6;
+}
+.dark .prose small,
+.dark .prose .note {
+  color: #a8a29e;
 }
 
 /* グラデーションテキスト */
