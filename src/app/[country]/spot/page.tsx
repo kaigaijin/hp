@@ -3,7 +3,7 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { getCountry, countries } from "@/lib/countries";
-import { categories, getCategoryCounts } from "@/lib/directory";
+import { categories, getCategoryCounts, type Spot, getAllSpots } from "@/lib/directory";
 import {
   UtensilsCrossed,
   Stethoscope,
@@ -11,21 +11,56 @@ import {
   Building2,
   ShoppingCart,
   GraduationCap,
-  ArrowRight,
+  Coffee,
+  Beer,
+  SmilePlus,
+  Pill,
+  Sparkles,
+  Dumbbell,
+  Calculator,
+  Scale,
+  Shield,
+  Truck,
+  Plane,
+  Laptop,
+  PawPrint,
+  Car,
+  SprayCan,
+  Wrench,
   MapPin,
+  Search,
+  ChevronRight,
+  Phone,
+  Globe,
 } from "lucide-react";
 
-const iconMap: Record<string, React.ReactNode> = {
-  UtensilsCrossed: <UtensilsCrossed size={28} />,
-  Stethoscope: <Stethoscope size={28} />,
-  Scissors: <Scissors size={28} />,
-  Building2: <Building2 size={28} />,
-  ShoppingCart: <ShoppingCart size={28} />,
-  GraduationCap: <GraduationCap size={28} />,
+const iconMap: Record<string, (size: number) => React.ReactNode> = {
+  UtensilsCrossed: (s) => <UtensilsCrossed size={s} />,
+  Coffee: (s) => <Coffee size={s} />,
+  Beer: (s) => <Beer size={s} />,
+  Stethoscope: (s) => <Stethoscope size={s} />,
+  SmilePlus: (s) => <SmilePlus size={s} />,
+  Pill: (s) => <Pill size={s} />,
+  Scissors: (s) => <Scissors size={s} />,
+  Sparkles: (s) => <Sparkles size={s} />,
+  Dumbbell: (s) => <Dumbbell size={s} />,
+  Building2: (s) => <Building2 size={s} />,
+  ShoppingCart: (s) => <ShoppingCart size={s} />,
+  GraduationCap: (s) => <GraduationCap size={s} />,
+  Calculator: (s) => <Calculator size={s} />,
+  Scale: (s) => <Scale size={s} />,
+  Shield: (s) => <Shield size={s} />,
+  Truck: (s) => <Truck size={s} />,
+  Plane: (s) => <Plane size={s} />,
+  Laptop: (s) => <Laptop size={s} />,
+  PawPrint: (s) => <PawPrint size={s} />,
+  Car: (s) => <Car size={s} />,
+  SprayCan: (s) => <SprayCan size={s} />,
+  Wrench: (s) => <Wrench size={s} />,
 };
 
 export function generateStaticParams() {
-  return countries.filter((c) => c.phase === 1).map((c) => ({ country: c.code }));
+  return countries.map((c) => ({ country: c.code }));
 }
 
 export function generateMetadata({
@@ -63,93 +98,169 @@ export default async function SpotIndexPage({
   const counts = getCategoryCounts(code);
   const totalSpots = Object.values(counts).reduce((a, b) => a + b, 0);
 
+  // スポットがあるカテゴリのみ表示、件数順
+  const activeCategories = categories
+    .filter((cat) => (counts[cat.slug] ?? 0) > 0)
+    .sort((a, b) => (counts[b.slug] ?? 0) - (counts[a.slug] ?? 0));
+
+  // まだスポットがないカテゴリ
+  const emptyCategories = categories.filter(
+    (cat) => (counts[cat.slug] ?? 0) === 0,
+  );
+
+  // 最近追加されたスポット（各カテゴリから最大1件）
+  const allSpots = getAllSpots(code);
+  const recentSpots = allSpots.slice(0, 6);
+
   return (
     <>
       <Header />
-      <main>
-        {/* ヒーロー */}
-        <section className="bg-gradient-to-br from-ocean-800 to-ocean-600 text-white py-16 md:py-24">
-          <div className="max-w-6xl mx-auto px-4">
-            <div className="flex items-center gap-3 mb-4">
-              <MapPin size={24} className="text-ocean-300" />
+      <main className="bg-stone-100 dark:bg-stone-900 min-h-screen">
+        {/* コンパクトヘッダー */}
+        <div className="bg-white dark:bg-stone-800 border-b border-stone-200 dark:border-stone-700">
+          <div className="max-w-6xl mx-auto px-4 py-6">
+            <nav className="flex items-center gap-1.5 text-xs text-stone-400 mb-3">
+              <Link href="/" className="hover:text-ocean-600 transition-colors">
+                トップ
+              </Link>
+              <ChevronRight size={12} />
               <Link
                 href={`/${code}`}
-                className="text-ocean-300 hover:text-white transition-colors text-sm"
+                className="hover:text-ocean-600 transition-colors"
               >
                 {country.flag} {country.name}
               </Link>
+              <ChevronRight size={12} />
+              <span className="text-stone-600 dark:text-stone-300">スポット</span>
+            </nav>
+            <div className="flex items-center justify-between">
+              <div>
+                <h1 className="text-2xl font-bold text-stone-800 dark:text-stone-100">
+                  {country.flag} {country.name}のスポット
+                </h1>
+                <p className="text-sm text-stone-500 dark:text-stone-400 mt-1">
+                  {totalSpots}件のスポットを{activeCategories.length}
+                  カテゴリで掲載中
+                </p>
+              </div>
+              <Link
+                href="/contact"
+                className="hidden sm:inline-flex items-center gap-1.5 text-xs text-ocean-600 dark:text-ocean-400 hover:underline border border-ocean-200 dark:border-ocean-800 rounded-lg px-3 py-1.5"
+              >
+                掲載リクエスト
+              </Link>
             </div>
-            <h1 className="heading-editorial text-3xl md:text-4xl font-bold mb-3">
-              {country.name}のスポットを探す
-            </h1>
-            <p className="text-ocean-200 text-lg">
-              日本人に人気のレストラン・クリニック・美容室など、
-              {totalSpots > 0 ? `${totalSpots}件` : ""}
-              のスポットをカテゴリ別にご紹介
-            </p>
           </div>
-        </section>
+        </div>
 
-        {/* カテゴリ一覧 */}
-        <section className="py-12 md:py-20">
-          <div className="max-w-6xl mx-auto px-4">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {categories.map((cat) => {
+        <div className="max-w-6xl mx-auto px-4 py-8">
+          {/* カテゴリグリッド */}
+          <section>
+            <h2 className="text-sm font-semibold text-stone-500 dark:text-stone-400 uppercase tracking-wider mb-4">
+              カテゴリから探す
+            </h2>
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+              {activeCategories.map((cat) => {
                 const count = counts[cat.slug] ?? 0;
+                const renderIcon = iconMap[cat.icon];
                 return (
                   <Link
                     key={cat.slug}
                     href={`/${code}/spot/${cat.slug}`}
-                    className="group"
+                    className="group bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 p-4 hover:border-ocean-400 dark:hover:border-ocean-500 hover:shadow-md transition-all"
                   >
-                    <div className="bg-white dark:bg-stone-800 rounded-2xl border border-stone-200 dark:border-stone-700 p-6 h-full flex flex-col country-card">
-                      <div className="flex items-center gap-4 mb-4">
-                        <div className="w-14 h-14 bg-ocean-50 dark:bg-ocean-900/30 rounded-xl flex items-center justify-center text-ocean-600 dark:text-ocean-400">
-                          {iconMap[cat.icon]}
-                        </div>
-                        <div>
-                          <h2 className="heading-editorial text-lg font-bold group-hover:text-ocean-700 dark:group-hover:text-ocean-400 transition-colors">
-                            {cat.name}
-                          </h2>
-                          {count > 0 && (
-                            <span className="text-sm text-stone-400">
-                              {count}件
-                            </span>
-                          )}
-                        </div>
+                    <div className="flex items-center gap-3">
+                      <div className="w-10 h-10 bg-stone-50 dark:bg-stone-700 rounded-lg flex items-center justify-center text-ocean-600 dark:text-ocean-400 group-hover:bg-ocean-50 dark:group-hover:bg-ocean-900/30 transition-colors">
+                        {renderIcon?.(20)}
                       </div>
-                      <p className="text-sm text-stone-500 dark:text-stone-400 leading-relaxed flex-1">
-                        {cat.description}
-                      </p>
-                      <div className="mt-4 flex items-center gap-1 text-sm text-ocean-600 dark:text-ocean-400 font-medium group-hover:gap-2 transition-all">
-                        一覧を見る
-                        <ArrowRight size={14} />
+                      <div className="min-w-0">
+                        <p className="text-sm font-semibold text-stone-700 dark:text-stone-200 truncate group-hover:text-ocean-700 dark:group-hover:text-ocean-400 transition-colors">
+                          {cat.name}
+                        </p>
+                        <p className="text-xs text-stone-400">{count}件</p>
                       </div>
                     </div>
                   </Link>
                 );
               })}
             </div>
-          </div>
-        </section>
 
-        {/* CTA */}
-        <section className="py-12 bg-stone-100 dark:bg-stone-800/50">
-          <div className="max-w-6xl mx-auto px-4 text-center">
-            <h2 className="heading-editorial text-xl font-bold mb-3">
-              掲載リクエスト・情報修正
-            </h2>
-            <p className="text-stone-500 dark:text-stone-400 mb-6 max-w-lg mx-auto text-sm">
-              掲載されていないスポットの追加や、掲載情報の修正をご希望の方はお気軽にご連絡ください。
+            {/* まだスポットがないカテゴリ */}
+            {emptyCategories.length > 0 && (
+              <div className="mt-4">
+                <div className="flex flex-wrap gap-2">
+                  {emptyCategories.map((cat) => (
+                    <span
+                      key={cat.slug}
+                      className="text-xs text-stone-400 dark:text-stone-500 bg-stone-200/50 dark:bg-stone-800 rounded-full px-3 py-1"
+                    >
+                      {cat.name}（準備中）
+                    </span>
+                  ))}
+                </div>
+              </div>
+            )}
+          </section>
+
+          {/* ピックアップスポット */}
+          {recentSpots.length > 0 && (
+            <section className="mt-10">
+              <h2 className="text-sm font-semibold text-stone-500 dark:text-stone-400 uppercase tracking-wider mb-4">
+                ピックアップ
+              </h2>
+              <div className="space-y-2">
+                {recentSpots.map((spot) => (
+                  <Link
+                    key={`${spot.category}-${spot.slug}`}
+                    href={`/${code}/spot/${spot.category}/${spot.slug}`}
+                    className="group flex items-center gap-4 bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 px-4 py-3 hover:border-ocean-400 dark:hover:border-ocean-500 hover:shadow-sm transition-all"
+                  >
+                    <div className="flex-1 min-w-0">
+                      <div className="flex items-center gap-2">
+                        <p className="text-sm font-semibold text-stone-700 dark:text-stone-200 truncate group-hover:text-ocean-700 dark:group-hover:text-ocean-400 transition-colors">
+                          {spot.name_ja ?? spot.name}
+                        </p>
+                        {spot.name_ja && (
+                          <span className="text-xs text-stone-400 hidden sm:inline truncate">
+                            {spot.name}
+                          </span>
+                        )}
+                      </div>
+                      <div className="flex items-center gap-3 mt-1">
+                        <span className="inline-flex items-center gap-1 text-xs text-stone-400">
+                          <MapPin size={10} />
+                          {spot.area}
+                        </span>
+                        <span className="text-xs text-ocean-600 dark:text-ocean-400 bg-ocean-50 dark:bg-ocean-900/30 px-1.5 py-0.5 rounded">
+                          {categories.find((c) => c.slug === spot.category)
+                            ?.name ?? spot.category}
+                        </span>
+                      </div>
+                    </div>
+                    <ChevronRight
+                      size={16}
+                      className="text-stone-300 dark:text-stone-600 group-hover:text-ocean-500 shrink-0"
+                    />
+                  </Link>
+                ))}
+              </div>
+            </section>
+          )}
+
+          {/* フッターCTA */}
+          <section className="mt-10 bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 p-6 text-center">
+            <p className="text-sm text-stone-600 dark:text-stone-400">
+              掲載されていないスポットや情報の修正は
+              <Link
+                href="/contact"
+                className="text-ocean-600 dark:text-ocean-400 hover:underline font-medium ml-1"
+              >
+                こちら
+              </Link>
+              からお知らせください（無料）
             </p>
-            <Link
-              href="/contact"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-ocean-600 text-white rounded-xl hover:bg-ocean-700 transition-colors font-medium text-sm"
-            >
-              お問い合わせ
-            </Link>
-          </div>
-        </section>
+          </section>
+        </div>
       </main>
       <Footer />
     </>

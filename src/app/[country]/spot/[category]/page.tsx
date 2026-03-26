@@ -4,11 +4,16 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { getCountry, countries } from "@/lib/countries";
 import { categories, getCategory, getSpotsByCategory } from "@/lib/directory";
-import { MapPin, Phone, Globe, Tag, ChevronRight } from "lucide-react";
+import {
+  MapPin,
+  Phone,
+  Globe,
+  ChevronRight,
+  ExternalLink,
+} from "lucide-react";
 
 export function generateStaticParams() {
-  const phase1Countries = countries.filter((c) => c.phase === 1);
-  return phase1Countries.flatMap((c) =>
+  return countries.flatMap((c) =>
     categories.map((cat) => ({ country: c.code, category: cat.slug })),
   );
 }
@@ -55,150 +60,171 @@ export default async function CategoryPage({
   return (
     <>
       <Header />
-      <main>
-        {/* パンくず + ヒーロー */}
-        <section className="bg-gradient-to-br from-ocean-800 to-ocean-600 text-white py-14 md:py-20">
-          <div className="max-w-6xl mx-auto px-4">
-            {/* パンくず */}
-            <nav className="flex items-center gap-1.5 text-sm text-ocean-300 mb-6">
-              <Link href={`/${code}`} className="hover:text-white transition-colors">
+      <main className="bg-stone-100 dark:bg-stone-900 min-h-screen">
+        {/* コンパクトヘッダー */}
+        <div className="bg-white dark:bg-stone-800 border-b border-stone-200 dark:border-stone-700">
+          <div className="max-w-6xl mx-auto px-4 py-5">
+            <nav className="flex items-center gap-1.5 text-xs text-stone-400 mb-3">
+              <Link
+                href="/"
+                className="hover:text-ocean-600 transition-colors"
+              >
+                トップ
+              </Link>
+              <ChevronRight size={12} />
+              <Link
+                href={`/${code}`}
+                className="hover:text-ocean-600 transition-colors"
+              >
                 {country.flag} {country.name}
               </Link>
-              <ChevronRight size={14} />
-              <Link href={`/${code}/spot`} className="hover:text-white transition-colors">
+              <ChevronRight size={12} />
+              <Link
+                href={`/${code}/spot`}
+                className="hover:text-ocean-600 transition-colors"
+              >
                 スポット
               </Link>
-              <ChevronRight size={14} />
-              <span className="text-white">{category.name}</span>
+              <ChevronRight size={12} />
+              <span className="text-stone-600 dark:text-stone-300">
+                {category.name}
+              </span>
             </nav>
-
-            <h1 className="heading-editorial text-3xl md:text-4xl font-bold mb-3">
+            <h1 className="text-xl font-bold text-stone-800 dark:text-stone-100">
               {country.name}の{category.name}
             </h1>
-            <p className="text-ocean-200">
+            <p className="text-sm text-stone-500 dark:text-stone-400 mt-1">
               {spots.length > 0
                 ? `${spots.length}件のスポットを掲載中`
                 : "スポット情報を準備中です"}
             </p>
+          </div>
 
-            {/* エリアフィルタ（将来拡張用、現在は表示のみ） */}
-            {areas.length > 1 && (
-              <div className="flex flex-wrap gap-2 mt-6">
+          {/* エリアタブ */}
+          {areas.length > 1 && (
+            <div className="max-w-6xl mx-auto px-4 border-t border-stone-100 dark:border-stone-700">
+              <div className="flex gap-1 overflow-x-auto py-2 scrollbar-hide">
+                <span className="shrink-0 text-xs font-medium text-ocean-600 dark:text-ocean-400 bg-ocean-50 dark:bg-ocean-900/30 px-3 py-1.5 rounded-full">
+                  すべて（{spots.length}）
+                </span>
                 {areas.map((area) => (
                   <span
                     key={area}
-                    className="text-xs bg-white/10 px-3 py-1 rounded-full"
+                    className="shrink-0 text-xs text-stone-500 dark:text-stone-400 bg-stone-50 dark:bg-stone-700 px-3 py-1.5 rounded-full"
                   >
                     {area}（{spots.filter((s) => s.area === area).length}）
                   </span>
                 ))}
               </div>
-            )}
-          </div>
-        </section>
+            </div>
+          )}
+        </div>
 
-        {/* スポット一覧 */}
-        <section className="py-12 md:py-20">
-          <div className="max-w-6xl mx-auto px-4">
-            {spots.length > 0 ? (
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {spots.map((spot) => (
-                  <Link
-                    key={spot.slug}
-                    href={`/${code}/spot/${catSlug}/${spot.slug}`}
-                    className="group"
-                  >
-                    <article className="bg-white dark:bg-stone-800 rounded-2xl border border-stone-200 dark:border-stone-700 p-6 h-full flex flex-col country-card">
-                      <h2 className="heading-editorial text-lg font-bold mb-1 group-hover:text-ocean-700 dark:group-hover:text-ocean-400 transition-colors">
-                        {spot.name_ja ?? spot.name}
-                      </h2>
-                      {spot.name_ja && (
-                        <p className="text-xs text-stone-400 mb-3">
-                          {spot.name}
-                        </p>
-                      )}
-
-                      <div className="flex items-start gap-2 text-sm text-stone-500 dark:text-stone-400 mb-2">
-                        <MapPin
-                          size={14}
-                          className="mt-0.5 shrink-0 text-ocean-500"
-                        />
-                        <span>{spot.area}</span>
+        {/* スポットリスト */}
+        <div className="max-w-6xl mx-auto px-4 py-6">
+          {spots.length > 0 ? (
+            <div className="space-y-3">
+              {spots.map((spot, i) => (
+                <Link
+                  key={spot.slug}
+                  href={`/${code}/spot/${catSlug}/${spot.slug}`}
+                  className="group block"
+                >
+                  <article className="bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 hover:border-ocean-400 dark:hover:border-ocean-500 hover:shadow-md transition-all">
+                    <div className="p-4 sm:p-5">
+                      {/* 上段: 店名 + エリア */}
+                      <div className="flex items-start justify-between gap-3 mb-2">
+                        <div className="min-w-0">
+                          <div className="flex items-center gap-2">
+                            <span className="text-xs font-semibold text-ocean-600 dark:text-ocean-400">
+                              {i + 1}
+                            </span>
+                            <h2 className="text-base font-bold text-stone-800 dark:text-stone-100 truncate group-hover:text-ocean-700 dark:group-hover:text-ocean-400 transition-colors">
+                              {spot.name_ja ?? spot.name}
+                            </h2>
+                          </div>
+                          {spot.name_ja && (
+                            <p className="text-xs text-stone-400 mt-0.5 ml-5">
+                              {spot.name}
+                            </p>
+                          )}
+                        </div>
+                        <span className="shrink-0 inline-flex items-center gap-1 text-xs text-stone-400 bg-stone-50 dark:bg-stone-700 px-2 py-1 rounded">
+                          <MapPin size={10} />
+                          {spot.area}
+                        </span>
                       </div>
 
-                      <p className="text-sm text-stone-600 dark:text-stone-300 leading-relaxed mb-4 flex-1">
+                      {/* 説明文 */}
+                      <p className="text-sm text-stone-600 dark:text-stone-300 leading-relaxed mb-3 ml-5 line-clamp-2">
                         {spot.description}
                       </p>
 
-                      {/* タグ */}
-                      {spot.tags.length > 0 && (
-                        <div className="flex flex-wrap gap-1.5 mb-3">
-                          {spot.tags.map((tag) => (
+                      {/* 下段: タグ + 連絡先 */}
+                      <div className="flex items-center justify-between gap-4 ml-5">
+                        {/* タグ */}
+                        <div className="flex flex-wrap gap-1.5 min-w-0">
+                          {spot.tags.slice(0, 4).map((tag) => (
                             <span
                               key={tag}
-                              className="inline-flex items-center gap-1 text-xs bg-ocean-50 dark:bg-ocean-900/30 text-ocean-700 dark:text-ocean-400 px-2 py-0.5 rounded-full"
+                              className="text-xs text-stone-500 dark:text-stone-400 bg-stone-50 dark:bg-stone-700 px-2 py-0.5 rounded"
                             >
-                              <Tag size={10} />
                               {tag}
                             </span>
                           ))}
                         </div>
-                      )}
 
-                      {/* コンタクト情報 */}
-                      <div className="flex items-center gap-4 text-xs text-stone-400 pt-3 border-t border-stone-100 dark:border-stone-700">
-                        {spot.phone && (
-                          <span className="flex items-center gap-1">
-                            <Phone size={10} />
-                            {spot.phone}
-                          </span>
-                        )}
-                        {spot.website && (
-                          <span className="flex items-center gap-1">
-                            <Globe size={10} />
-                            公式サイト
-                          </span>
-                        )}
+                        {/* 連絡先 */}
+                        <div className="flex items-center gap-3 shrink-0">
+                          {spot.phone && (
+                            <span className="hidden sm:flex items-center gap-1 text-xs text-stone-400">
+                              <Phone size={10} />
+                              {spot.phone}
+                            </span>
+                          )}
+                          {spot.website && (
+                            <span className="flex items-center gap-1 text-xs text-ocean-500">
+                              <Globe size={10} />
+                              Web
+                            </span>
+                          )}
+                        </div>
                       </div>
-                    </article>
-                  </Link>
-                ))}
-              </div>
-            ) : (
-              <div className="text-center py-16">
-                <h2 className="heading-editorial text-xl font-bold mb-3">
-                  スポット情報を準備中
-                </h2>
-                <p className="text-stone-500 dark:text-stone-400 mb-6">
-                  {country.name}の{category.name}
-                  情報を順次追加しています。
-                </p>
-                <Link
-                  href={`/${code}/spot`}
-                  className="inline-flex items-center gap-2 px-6 py-3 bg-ocean-600 text-white rounded-xl hover:bg-ocean-700 transition-colors font-medium text-sm"
-                >
-                  カテゴリ一覧に戻る
+                    </div>
+                  </article>
                 </Link>
-              </div>
-            )}
-          </div>
-        </section>
-
-        {/* CTA */}
-        <section className="py-10 bg-stone-100 dark:bg-stone-800/50">
-          <div className="max-w-6xl mx-auto px-4 text-center">
-            <p className="text-sm text-stone-500 dark:text-stone-400 mb-4">
-              掲載されていないスポットや情報の修正は
+              ))}
+            </div>
+          ) : (
+            <div className="text-center py-20 bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700">
+              <p className="text-stone-500 dark:text-stone-400 mb-4">
+                {country.name}の{category.name}情報を順次追加しています。
+              </p>
               <Link
-                href="/contact"
-                className="text-ocean-600 dark:text-ocean-400 hover:underline ml-1"
+                href={`/${code}/spot`}
+                className="text-sm text-ocean-600 dark:text-ocean-400 hover:underline"
               >
-                こちら
+                ← カテゴリ一覧に戻る
               </Link>
-              からお知らせください
-            </p>
+            </div>
+          )}
+
+          {/* フッター */}
+          <div className="mt-8 flex items-center justify-between">
+            <Link
+              href={`/${code}/spot`}
+              className="text-sm text-ocean-600 dark:text-ocean-400 hover:underline"
+            >
+              ← カテゴリ一覧
+            </Link>
+            <Link
+              href="/contact"
+              className="text-xs text-stone-400 hover:text-ocean-600 transition-colors"
+            >
+              情報の修正・掲載リクエスト
+            </Link>
           </div>
-        </section>
+        </div>
       </main>
       <Footer />
     </>
