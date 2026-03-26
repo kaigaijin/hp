@@ -13,7 +13,7 @@ function sendCommentNotification(project: string, slug: string, author: string, 
     from: "Kaigaijin <noreply@kaigaijin.jp>",
     to: [to],
     subject: `[コメント] ${project} - ${slug}`,
-    text: `新しいコメントが投稿されました。\n\nプロジェクト: ${project}\n記事: ${slug}\n投稿者: ${author}\n\n${content}\n\n※即時公開されています。問題がある場合は削除してください。`,
+    text: `新しいコメントが投稿されました。\n\nプロジェクト: ${project}\n記事: ${slug}\n投稿者: ${author}\n\n${content}\n\nURL: https://kaigaijin.jp/${slug}\n\n※即時公開されています。問題がある場合は削除してください。`,
   }).catch(() => {});
 }
 

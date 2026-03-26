@@ -15,7 +15,10 @@ const VALID_REPORT_TYPES = ["visited", "closed", "correction"] as const;
 function sendNotification(
   spotName: string,
   reportType: string,
-  comment: string | null
+  comment: string | null,
+  country: string,
+  category: string,
+  spotSlug: string
 ) {
   const key = process.env.RESEND_API_KEY;
   const to = process.env.INQUIRY_NOTIFICATION_EMAIL;
@@ -26,7 +29,7 @@ function sendNotification(
       from: "Kaigaijin <noreply@kaigaijin.jp>",
       to: [to],
       subject: `[スポット報告] ${spotName} - ${reportType}`,
-      text: `スポット情報の報告がありました。\n\nスポット: ${spotName}\n報告タイプ: ${reportType}\nコメント: ${comment ?? "なし"}\n\n※確認後、スポットデータを更新してください。`,
+      text: `スポット情報の報告がありました。\n\nスポット: ${spotName}\n報告タイプ: ${reportType}\nコメント: ${comment ?? "なし"}\n\nURL: https://kaigaijin.jp/${country}/spot/${category}/${spotSlug}\n\n※確認後、スポットデータを更新してください。`,
     })
     .catch(() => {});
 }
@@ -88,7 +91,7 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    sendNotification(spot_name, report_type, comment?.trim() || null);
+    sendNotification(spot_name, report_type, comment?.trim() || null, country, category, spot_slug);
 
     return NextResponse.json({ success: true }, { status: 201 });
   } catch {
