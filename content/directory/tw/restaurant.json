@@ -232,25 +232,6 @@
     "source": "website"
   },
   {
-    "slug": "okami-ramen-taipei",
-    "name": "Okami Ramen",
-    "name_ja": "大上拉麺",
-    "area": "Zhongshan",
-    "address": "No. 18, Lane 83, Section 1, Zhongshan North Road, Zhongshan District, Taipei",
-    "phone": "+886225218698",
-    "website": "https://www.facebook.com/okami.ramen/",
-    "description": "日本人店主が営むつけ麺・ラーメン専門店。濃厚な魚介豚骨つけ麺が人気。中山エリアの林森北路近くで日本人駐在員にも愛される。",
-    "tags": [
-      "ラーメン",
-      "つけ麺",
-      "日本人経営"
-    ],
-    "hours": "11:30〜14:30 / 17:30〜21:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "sns"
-  },
-  {
     "slug": "toritama-taipei",
     "name": "Toritama",
     "name_ja": "鳥玉",
@@ -270,7 +251,7 @@
     "source": "sns"
   },
   {
-    "slug": "santouka-taipei-station",
+    "slug": "santouka-taipei",
     "name": "Santouka Taipei Station",
     "name_ja": "山頭火 台北駅店",
     "area": "Zhongzheng",
@@ -288,5 +269,24 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "okami-ramen",
+    "name": "Okami Ramen",
+    "name_ja": "大上拉麺",
+    "area": "Zhongshan",
+    "address": "No. 18, Lane 83, Section 1, Zhongshan North Road, Zhongshan District, Taipei",
+    "phone": "+886225218698",
+    "website": "https://www.facebook.com/okami.ramen/",
+    "description": "日本人店主が営むつけ麺・ラーメン専門店。濃厚な魚介豚骨つけ麺が人気。中山エリアの林森北路近くで日本人駐在員にも愛される。",
+    "tags": [
+      "ラーメン",
+      "つけ麺",
+      "日本人経営"
+    ],
+    "hours": "11:30〜14:30 / 17:30〜21:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "sns"
   }
 ]

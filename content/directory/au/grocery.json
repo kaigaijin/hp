@@ -52,5 +52,62 @@
     "last_verified": "2026-03-26",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "fuji-mart-sydney",
+    "name": "Fuji Mart",
+    "name_ja": "フジマート",
+    "area": "Chatswood",
+    "address": "Chatswood NSW 2067",
+    "phone": null,
+    "website": null,
+    "description": "シドニー北部チャッツウッドの日本食材店。日本の調味料、お菓子、飲料、冷凍食品を取り扱い、北部在住の日本人に重宝される。",
+    "tags": [
+      "日本食材",
+      "調味料",
+      "菓子"
+    ],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "maruyu-melbourne",
+    "name": "Maruyu Supermarket",
+    "name_ja": "まるゆう",
+    "area": "Richmond",
+    "address": "221-223 Victoria Street, Richmond VIC 3121",
+    "phone": "+61394270911",
+    "website": null,
+    "description": "リッチモンドの日本食材スーパー。生鮮食品、調味料、お菓子、日本酒を取り扱い。Victoria Street沿いのアジア食材街に位置。",
+    "tags": [
+      "日本食材スーパー",
+      "生鮮食品",
+      "日本酒"
+    ],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "suzuran-food-sydney",
+    "name": "Suzuran Japanese Supermarket",
+    "name_ja": "すずらん",
+    "area": "Neutral Bay",
+    "address": "Neutral Bay NSW 2089",
+    "phone": null,
+    "website": null,
+    "description": "シドニー北部の日本食材スーパー。手作り弁当・惣菜のテイクアウトも人気。日本のコンビニのような手軽さが特徴。",
+    "tags": [
+      "日本食材",
+      "弁当・惣菜",
+      "テイクアウト"
+    ],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
   }
 ]

@@ -78,5 +78,62 @@
     "last_verified": "2026-03-26",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "town-medical-central",
+    "name": "Town Medical & Dental",
+    "name_ja": "タウンメディカル",
+    "area": "Central",
+    "address": "Central, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "セントラルの総合クリニック。日本語通訳サービスを利用可能。一般内科・小児科に対応。予約制。",
+    "tags": [
+      "日本語通訳可",
+      "内科",
+      "小児科"
+    ],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "matilda-hospital",
+    "name": "Matilda International Hospital",
+    "name_ja": "マチルダ国際病院",
+    "area": "The Peak",
+    "address": "41 Mount Kellett Road, The Peak, Hong Kong",
+    "phone": "+85228490400",
+    "website": "https://www.matilda.org/",
+    "description": "ザ・ピークに位置する国際病院。多言語対応で日本語通訳も手配可能。入院設備完備の総合医療施設。",
+    "tags": [
+      "国際病院",
+      "日本語通訳手配可",
+      "入院設備"
+    ],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "quality-healthcare-admiralty",
+    "name": "Quality HealthCare Admiralty",
+    "name_ja": "クオリティヘルスケア 金鐘",
+    "area": "Admiralty",
+    "address": "Admiralty, Hong Kong",
+    "phone": null,
+    "website": "https://www.qhms.com/",
+    "description": "香港最大級の医療グループ。複数の診療所で日本語対応が可能。企業の健康診断プログラムにも対応。",
+    "tags": [
+      "医療グループ",
+      "日本語対応可",
+      "健康診断"
+    ],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
   }
 ]

@@ -74,5 +74,62 @@
     "last_verified": "2026-03-26",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "dym-medical-center-d7",
+    "name": "DYM Medical Center District 7",
+    "name_ja": "DYMメディカルセンター 7区",
+    "area": "District 7",
+    "address": "71 Hoang Van Thai, Tan My, District 7, Ho Chi Minh City",
+    "phone": "+842877710170",
+    "website": "https://jp-dymmedicalcenter.com.vn/",
+    "description": "DYMメディカルセンターの7区分院。日本人医師・スタッフ常駐。内科、小児科、皮膚科、歯科にも対応。",
+    "tags": [
+      "日本語対応",
+      "日本人医師",
+      "歯科対応"
+    ],
+    "hours": "8:00〜18:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "sakura-medical-hanoi",
+    "name": "Sakura Medical Clinic Hanoi",
+    "name_ja": "さくらメディカル ハノイ",
+    "area": "Hoan Kiem, Hanoi",
+    "address": "Hoan Kiem, Hanoi",
+    "phone": null,
+    "website": null,
+    "description": "ハノイのホアンキエム区にある日系クリニック。日本語対応で内科・小児科の診療を提供。予約制。",
+    "tags": [
+      "日本語対応",
+      "内科",
+      "小児科"
+    ],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "family-medical-practice-hcmc",
+    "name": "Family Medical Practice",
+    "name_ja": "ファミリーメディカルプラクティス",
+    "area": "District 1",
+    "address": "34 Le Duan, District 1, Ho Chi Minh City",
+    "phone": "+842838227848",
+    "website": "https://www.vietnammedicalpractice.com/",
+    "description": "ホーチミンの国際クリニック。多言語対応で日本語通訳手配可能。24時間緊急対応あり。内科から歯科まで幅広い診療科目。",
+    "tags": [
+      "国際クリニック",
+      "日本語通訳手配可",
+      "24時間緊急対応"
+    ],
+    "hours": "24時間",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
   }
 ]

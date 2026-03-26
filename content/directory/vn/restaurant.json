@@ -148,5 +148,140 @@
     "last_verified": "2026-03-26",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "yazawa-saigon",
+    "name": "Yakiniku Yazawa Saigon",
+    "name_ja": "焼肉矢澤 サイゴン",
+    "area": "District 3",
+    "address": "219 Dien Bien Phu, Vo Thi Sau, District 3, Ho Chi Minh City",
+    "phone": "+842862754129",
+    "website": "https://yazawameat.vn/",
+    "description": "東京発のA5和牛焼肉の名店。おまかせコースで最高品質の和牛を提供。完全予約制で、ホーチミンの特別な食事に最適。",
+    "tags": [
+      "A5和牛",
+      "焼肉",
+      "おまかせ",
+      "要予約"
+    ],
+    "hours": "17:00〜23:30",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "sorae-restaurant",
+    "name": "Sorae Restaurant & Lounge",
+    "name_ja": "ソラエ",
+    "area": "District 1",
+    "address": "24-25th Floor, AB Tower, 76A Le Lai Street, District 1, Ho Chi Minh City",
+    "phone": "+842838272372",
+    "website": "https://www.soraesushi.com/",
+    "description": "ホーチミンの高層ビル24-25階に位置する日本料理レストラン＆ラウンジ。寿司、刺身、焼き鳥に加え、ワインバー＆ウイスキーバーも併設。",
+    "tags": [
+      "高層階",
+      "寿司",
+      "ラウンジ",
+      "眺望"
+    ],
+    "hours": "11:30〜14:00 / 17:30〜23:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "torisho-izakaya-hcmc",
+    "name": "Torisho Izakaya",
+    "name_ja": "鳥匠 居酒屋",
+    "area": "District 1",
+    "address": "Le Thanh Ton, Ben Nghe, District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "ホーチミンのジャパンタウンにある焼き鳥居酒屋。焼き鳥が名物で、寿司、刺身、うどん、ラーメンも提供。カジュアルな雰囲気。",
+    "tags": [
+      "焼き鳥",
+      "居酒屋",
+      "ジャパンタウン"
+    ],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "ootoya-hcmc",
+    "name": "Ootoya",
+    "name_ja": "大戸屋",
+    "area": "District 1",
+    "address": "District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "日本発の定食チェーン。栄養バランスの取れた日本の家庭料理を手頃な価格で提供。サバ味噌煮、チキン南蛮など定番メニューが揃う。",
+    "tags": [
+      "定食",
+      "日本発チェーン",
+      "カジュアル"
+    ],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "fujiro-hcmc",
+    "name": "Fujiro",
+    "name_ja": "ふじろう",
+    "area": "District 1",
+    "address": "District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "とんかつ専門店。120,000〜180,000 VNDの手頃なセットメニューが人気。サクサクの衣と柔らかい肉が特徴の本格とんかつを提供。",
+    "tags": [
+      "とんかつ",
+      "カジュアル",
+      "リーズナブル"
+    ],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "gyu-shige-hcmc",
+    "name": "Gyu Shige",
+    "name_ja": "牛繁",
+    "area": "District 1",
+    "address": "District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "アジア展開する焼肉チェーン。伝統的な焼肉スタイルで牛肉・豚肉・海鮮を提供。リーズナブルな価格で日本式焼肉を楽しめる。",
+    "tags": [
+      "焼肉",
+      "チェーン",
+      "リーズナブル"
+    ],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "marukame-udon-hcmc",
+    "name": "Marukame Udon",
+    "name_ja": "丸亀製麺",
+    "area": "District 1",
+    "address": "District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "日本発のセルフうどんチェーン。打ちたて・茹でたてのうどんを手頃な価格で提供。天ぷら、おにぎりなどサイドメニューも充実。",
+    "tags": [
+      "うどん",
+      "日本発チェーン",
+      "セルフサービス"
+    ],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
   }
 ]

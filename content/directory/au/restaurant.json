@@ -150,5 +150,100 @@
     "last_verified": "2026-03-26",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "r-by-raita-noda",
+    "name": "R by Raita Noda",
+    "name_ja": "R バイ ライタ ノダ",
+    "area": "Redfern",
+    "address": "Cleveland Street, Redfern NSW 2016",
+    "phone": null,
+    "website": null,
+    "description": "野田雷太シェフの最新プロジェクト。2025年オープン。日本料理の技法をオーストラリアの食材で表現する革新的なコース料理を提供。",
+    "tags": [
+      "日本人シェフ",
+      "コース",
+      "予約推奨"
+    ],
+    "hours": "要確認（予約制）",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "aori-sydney",
+    "name": "Aori",
+    "name_ja": "アオリ",
+    "area": "Sydney CBD",
+    "address": "King Street Wharf, Sydney NSW 2000",
+    "phone": null,
+    "website": null,
+    "description": "2026年オープンのウォーターフロント日本料理レストラン。240席の大型店舗で寿司、刺身、炉端焼きを提供。",
+    "tags": [
+      "寿司",
+      "炉端焼き",
+      "ウォーターフロント"
+    ],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "prefecture-48-sydney",
+    "name": "Prefecture 48",
+    "name_ja": "プリフェクチャー48",
+    "area": "Darling Harbour",
+    "address": "Darling Harbour, Sydney NSW 2000",
+    "phone": null,
+    "website": "https://www.p48.com.au/",
+    "description": "日本の47都道府県+オーストラリアをテーマにした日本食文化の複合施設。寿司、ラーメン、居酒屋など複数のコンセプトが集結。",
+    "tags": [
+      "日本食複合施設",
+      "寿司",
+      "ラーメン"
+    ],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "okami-melbourne",
+    "name": "Okami Japanese Restaurant",
+    "name_ja": "おかみ",
+    "area": "South Melbourne",
+    "address": "322 Clarendon Street, South Melbourne VIC 3205",
+    "phone": "+61396860199",
+    "website": "https://www.okamirestaurant.com.au/",
+    "description": "メルボルンで人気の食べ放題日本料理チェーン。寿司・刺身・天ぷら・焼き物が食べ放題。リーズナブルな価格で本格日本食を提供。",
+    "tags": [
+      "食べ放題",
+      "カジュアル",
+      "チェーン"
+    ],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "komeyui-melbourne",
+    "name": "Komeyui",
+    "name_ja": "米結",
+    "area": "Melbourne CBD",
+    "address": "367 Little Collins Street, Melbourne VIC 3000",
+    "phone": "+61396704468",
+    "website": "https://komeyui.com.au/mel/",
+    "description": "メルボルンCBDの本格おまかせ寿司・日本料理店。木曜〜日曜のみ営業の完全予約制で、親密な空間で丁寧な鮨体験を提供。",
+    "tags": [
+      "おまかせ",
+      "要予約",
+      "日本人シェフ"
+    ],
+    "hours": "要確認（予約制）",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
   }
 ]

@@ -93,5 +93,100 @@
     "last_verified": "2026-03-26",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "sakaba-sasuke-hcmc",
+    "name": "Sakaba Sasuke",
+    "name_ja": "酒場サスケ",
+    "area": "District 1",
+    "address": "District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "ホーチミンの居酒屋。オープンキッチンを備え、地元のアクセントを加えた居酒屋スタイルの料理を提供。カジュアルな雰囲気で飲み会に最適。",
+    "tags": [
+      "居酒屋",
+      "オープンキッチン",
+      "カジュアル"
+    ],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "tsubaki-izakaya-hanoi",
+    "name": "Tsubaki Izakaya",
+    "name_ja": "椿 居酒屋",
+    "area": "Ba Dinh, Hanoi",
+    "address": "Ba Dinh, Hanoi",
+    "phone": null,
+    "website": null,
+    "description": "ハノイのバーディン区にある居酒屋。日本人駐在員に人気で、焼き鳥、刺身、日本酒を楽しめる。アットホームな雰囲気。",
+    "tags": [
+      "居酒屋",
+      "焼き鳥",
+      "日本酒"
+    ],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sumibiya-hcmc",
+    "name": "Sumibiya",
+    "name_ja": "炭火屋",
+    "area": "District 1",
+    "address": "Le Thanh Ton, Ben Nghe, District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "ジャパンタウンにある炭火焼き居酒屋。備長炭で焼き上げる焼き鳥と焼き物が名物。日本のビール、日本酒も充実。",
+    "tags": [
+      "居酒屋",
+      "炭火焼き",
+      "ジャパンタウン"
+    ],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "ebisu-izakaya-hcmc",
+    "name": "Ebisu Izakaya",
+    "name_ja": "恵比寿 居酒屋",
+    "area": "District 1",
+    "address": "Le Thanh Ton, Ben Nghe, District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "ジャパンタウンの居酒屋。刺身、焼き物、揚げ物の定番メニューに加え、日本酒・焼酎の品揃えが充実。日本人駐在員のリピーターが多い。",
+    "tags": [
+      "居酒屋",
+      "ジャパンタウン",
+      "日本酒"
+    ],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "yazawa-hanoi",
+    "name": "Yazawa Hanoi",
+    "name_ja": "矢澤 ハノイ",
+    "area": "Ba Dinh, Hanoi",
+    "address": "Ba Dinh, Hanoi",
+    "phone": null,
+    "website": "https://yazawameat-hanoi.vn/",
+    "description": "東京発の焼肉矢澤のハノイ店。A5和牛を中心としたプレミアム焼肉を提供。ハノイの特別なディナーに。",
+    "tags": [
+      "A5和牛",
+      "焼肉",
+      "高級"
+    ],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
   }
 ]

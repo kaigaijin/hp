@@ -57,5 +57,62 @@
     "last_verified": "2026-03-26",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "ntu-hospital",
+    "name": "National Taiwan University Hospital",
+    "name_ja": "台大病院",
+    "area": "Zhongzheng",
+    "address": "No. 7, Zhongshan South Road, Zhongzheng District, Taipei",
+    "phone": "+886223123456",
+    "website": "https://www.ntuh.gov.tw/",
+    "description": "台湾最大の総合病院。国際医療部で日本語通訳サービスを提供。高度な医療技術と設備を備え複雑な症例にも対応。",
+    "tags": [
+      "総合病院",
+      "日本語通訳",
+      "高度医療"
+    ],
+    "hours": "月〜金 8:30〜17:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "cathay-general-hospital",
+    "name": "Cathay General Hospital",
+    "name_ja": "国泰総合病院",
+    "area": "Da'an",
+    "address": "No. 280, Section 4, Ren'ai Road, Da'an District, Taipei",
+    "phone": "+886227082121",
+    "website": "https://www.cgh.org.tw/",
+    "description": "台北の大手私立総合病院。国際医療センターで日本語対応可能。MRT忠孝敦化駅近く。",
+    "tags": [
+      "総合病院",
+      "日本語対応可",
+      "全科対応"
+    ],
+    "hours": "月〜金 8:00〜17:00 / 土 8:00〜12:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "taipei-medical-university-hospital",
+    "name": "Taipei Medical University Hospital",
+    "name_ja": "台北医学大学附設病院",
+    "area": "Xinyi",
+    "address": "No. 252, Wuxing Street, Xinyi District, Taipei",
+    "phone": "+886227372181",
+    "website": "https://www.tmuh.org.tw/",
+    "description": "台北医学大学附設の総合病院。国際医療サービスで日本語対応可能。健康診断パッケージも充実。",
+    "tags": [
+      "大学病院",
+      "日本語対応可",
+      "健康診断"
+    ],
+    "hours": "月〜金 8:30〜17:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
   }
 ]

@@ -55,5 +55,62 @@
     "last_verified": "2026-03-26",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "japanese-medical-centre-sydney",
+    "name": "Japanese Medical Centre Sydney",
+    "name_ja": "シドニー日本人メディカルセンター",
+    "area": "Sydney CBD",
+    "address": "Level 4, 50 York Street, Sydney NSW 2000",
+    "phone": "+886",
+    "website": null,
+    "description": "シドニーCBDのTown Hall Clinic内に設置された日本人向け医療サービス。日本語通訳常駐で予約から薬の受け取りまで日本語対応。",
+    "tags": [
+      "日本語対応",
+      "通訳常駐",
+      "GP"
+    ],
+    "hours": "月〜金 9:00〜18:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "shibata-dental-melbourne",
+    "name": "Shibata Dental",
+    "name_ja": "柴田歯科医院",
+    "area": "Melbourne",
+    "address": "Melbourne, VIC",
+    "phone": null,
+    "website": null,
+    "description": "メルボルンの日本人歯科医師によるクリニック。日本語での診察・治療が可能。一般歯科・矯正・インプラントに対応。",
+    "tags": [
+      "日本語対応",
+      "日本人歯科医師",
+      "一般歯科"
+    ],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "everglow-dental-melbourne",
+    "name": "EverGlow Dental",
+    "name_ja": "エバーグローデンタル",
+    "area": "Melbourne",
+    "address": "Melbourne, VIC",
+    "phone": null,
+    "website": "https://www.facebook.com/drdaiando/",
+    "description": "安藤大医師が率いるメルボルンの歯科クリニック。日本とオーストラリアの歯科医師資格を持ち、日本語での診療に対応。",
+    "tags": [
+      "日本語対応",
+      "日豪両資格",
+      "歯科"
+    ],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "sns"
   }
 ]
