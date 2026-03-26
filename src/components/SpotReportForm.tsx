@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
-import { CheckCircle, XCircle, Pencil, Send, Loader2, ThumbsUp } from "lucide-react";
+import { CheckCircle, XCircle, Pencil, Send, Loader2, ThumbsUp, ChevronDown, ChevronUp } from "lucide-react";
 
 type ReportType = "visited" | "closed" | "correction";
 
@@ -16,13 +16,14 @@ export default function SpotReportForm({
   spotSlug: string;
   spotName: string;
 }) {
-  const [selected, setSelected] = useState<ReportType | null>(null);
+  const [reportType, setReportType] = useState<ReportType | null>(null);
   const [comment, setComment] = useState("");
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState("");
   const [visitedCount, setVisitedCount] = useState(0);
   const [visitComments, setVisitComments] = useState<{ comment: string; created_at: string }[]>([]);
+  const [showAllComments, setShowAllComments] = useState(false);
 
   const fetchData = useCallback(async () => {
     try {
@@ -66,10 +67,15 @@ export default function SpotReportForm({
               ...prev,
             ]);
           }
+          setComment("");
+          setSubmitted(true);
+          setTimeout(() => setSubmitted(false), 3000);
+        } else {
+          setComment("");
+          setReportType(null);
+          setSubmitted(true);
+          setTimeout(() => setSubmitted(false), 3000);
         }
-        setSubmitted(true);
-        setComment("");
-        setSelected(null);
       } else {
         const data = await res.json();
         setError(data.error || "送信に失敗しました");
@@ -81,152 +87,171 @@ export default function SpotReportForm({
     }
   }
 
-  if (submitted) {
-    return (
-      <div className="bg-green-50 dark:bg-green-900/20 rounded-xl border border-green-200 dark:border-green-800 p-5 text-center">
-        <CheckCircle size={24} className="text-green-600 dark:text-green-400 mx-auto mb-2" />
-        <p className="text-sm font-medium text-green-700 dark:text-green-300">
-          ありがとうございます!
-        </p>
-        <p className="text-xs text-green-600/70 dark:text-green-400/70 mt-1">
-          確認後、スポット情報に反映されます
-        </p>
-      </div>
-    );
-  }
+  const visibleComments = showAllComments ? visitComments : visitComments.slice(0, 3);
 
   return (
     <div className="bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700">
-      {/* ヘッダー: 質問形式で行動を促す */}
-      <div className="px-5 py-4">
-        <p className="text-sm font-semibold text-stone-700 dark:text-stone-200">
-          この情報は正確ですか?
-        </p>
-        <p className="text-xs text-stone-400 mt-0.5">
-          実際に行った方の情報が、他の日本人の助けになります
-        </p>
-      </div>
-
-      {/* 3つのアクションボタン: 常に表示 */}
-      <div className="px-5 pb-4 flex flex-wrap gap-2">
-        <button
-          type="button"
-          onClick={() => setSelected(selected === "visited" ? null : "visited")}
-          disabled={submitting}
-          className={`inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full text-sm font-medium transition-all border ${
-            selected === "visited"
-              ? "border-green-400 dark:border-green-600 text-green-700 dark:text-green-400 bg-green-50 dark:bg-green-900/30"
-              : submitting
-              ? "opacity-50 cursor-not-allowed border-stone-200 dark:border-stone-600 text-stone-400"
-              : "border-green-200 dark:border-green-800 text-green-700 dark:text-green-400 bg-green-50 dark:bg-green-900/20 hover:bg-green-100 dark:hover:bg-green-900/40 hover:border-green-300 active:scale-95"
-          }`}
-        >
-          <ThumbsUp size={14} />
-          行ってきた
-          {visitedCount > 0 && (
-            <span className="ml-0.5 text-xs opacity-70">{visitedCount}</span>
-          )}
-        </button>
-
-        <button
-          type="button"
-          onClick={() => setSelected(selected === "closed" ? null : "closed")}
-          disabled={submitting}
-          className={`inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full text-sm font-medium transition-all border ${
-            selected === "closed"
-              ? "border-red-400 dark:border-red-600 text-red-700 dark:text-red-400 bg-red-50 dark:bg-red-900/30"
-              : submitting
-              ? "opacity-50 cursor-not-allowed border-stone-200 dark:border-stone-600 text-stone-400"
-              : "border-stone-200 dark:border-stone-600 text-stone-600 dark:text-stone-400 hover:border-red-300 hover:text-red-600 dark:hover:text-red-400 hover:bg-red-50 dark:hover:bg-red-900/20 active:scale-95"
-          }`}
-        >
-          <XCircle size={14} />
-          閉店していた
-        </button>
-
-        <button
-          type="button"
-          onClick={() => setSelected(selected === "correction" ? null : "correction")}
-          disabled={submitting}
-          className={`inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full text-sm font-medium transition-all border ${
-            selected === "correction"
-              ? "border-ocean-400 dark:border-ocean-600 text-ocean-700 dark:text-ocean-400 bg-ocean-50 dark:bg-ocean-900/30"
-              : submitting
-              ? "opacity-50 cursor-not-allowed border-stone-200 dark:border-stone-600 text-stone-400"
-              : "border-stone-200 dark:border-stone-600 text-stone-600 dark:text-stone-400 hover:border-ocean-300 hover:text-ocean-600 dark:hover:text-ocean-400 hover:bg-ocean-50 dark:hover:bg-ocean-900/20 active:scale-95"
-          }`}
-        >
-          <Pencil size={14} />
-          情報を修正
-        </button>
-      </div>
-
-      {/* 訪問者コメント一覧 */}
-      {visitComments.length > 0 && (
-        <div className="px-5 pb-4 space-y-2">
-          <p className="text-xs font-medium text-stone-400 dark:text-stone-500">
-            訪問者の声
-          </p>
-          {visitComments.map((vc, i) => (
-            <div key={i} className="flex gap-2 items-start">
-              <ThumbsUp size={12} className="text-green-500 shrink-0 mt-0.5" />
-              <div>
-                <p className="text-sm text-stone-600 dark:text-stone-300">{vc.comment}</p>
-                <p className="text-xs text-stone-400 mt-0.5">
-                  {new Date(vc.created_at).toLocaleDateString("ja-JP", { year: "numeric", month: "short", day: "numeric" })}
-                </p>
-              </div>
-            </div>
-          ))}
+      {/* 行ってきたセクション */}
+      <div className="p-5">
+        <div className="flex items-center justify-between mb-3">
+          <div className="flex items-center gap-2">
+            <ThumbsUp size={16} className="text-green-600 dark:text-green-400" />
+            <span className="text-sm font-semibold text-stone-700 dark:text-stone-200">
+              行ってきた
+            </span>
+            {visitedCount > 0 && (
+              <span className="text-xs text-green-600 dark:text-green-400 bg-green-50 dark:bg-green-900/30 px-2 py-0.5 rounded-full font-medium">
+                {visitedCount}人
+              </span>
+            )}
+          </div>
         </div>
-      )}
 
-      {/* 展開エリア: いずれかを選んだときコメント欄を表示 */}
-      {selected && (
+        {/* コメント入力 + 送信（常時表示） */}
         <form
           onSubmit={(e) => {
             e.preventDefault();
-            handleSubmit(selected, comment);
+            handleSubmit("visited", comment);
           }}
-          className="px-5 pb-5 pt-2 border-t border-stone-100 dark:border-stone-700 space-y-3"
+          className="flex gap-2"
         >
-          <textarea
+          <input
+            type="text"
             value={comment}
             onChange={(e) => setComment(e.target.value)}
-            placeholder={
-              selected === "visited"
-                ? "訪問日や気づいたことがあれば（任意）"
-                : selected === "closed"
-                ? "閉店の状況を教えてください（移転先がわかれば記載）"
-                : "修正内容を記載してください（住所・電話番号・営業時間など）"
-            }
-            maxLength={1000}
-            rows={2}
-            required={selected === "correction"}
-            className="w-full px-3 py-2 rounded-lg border border-stone-300 dark:border-stone-600 bg-stone-50 dark:bg-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-ocean-500 resize-y placeholder:text-stone-400"
+            placeholder="ひとことメモ（任意）"
+            maxLength={200}
+            disabled={submitting}
+            className="flex-1 px-3 py-2 rounded-lg border border-stone-200 dark:border-stone-600 bg-stone-50 dark:bg-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-green-500 placeholder:text-stone-400 disabled:opacity-50"
           />
-          {error && (
-            <p className="text-xs text-red-600 dark:text-red-400">{error}</p>
-          )}
-          <div className="flex items-center gap-2">
-            <button
-              type="submit"
-              disabled={submitting || (selected === "correction" && !comment.trim())}
-              className="inline-flex items-center gap-1.5 px-4 py-2 bg-ocean-600 text-white text-sm font-medium rounded-lg hover:bg-ocean-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
-            >
-              {submitting ? <Loader2 size={14} className="animate-spin" /> : <Send size={14} />}
-              送信
-            </button>
+          <button
+            type="submit"
+            disabled={submitting}
+            className="inline-flex items-center gap-1.5 px-4 py-2 bg-green-600 text-white text-sm font-medium rounded-lg hover:bg-green-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors shrink-0 active:scale-95"
+          >
+            {submitting ? <Loader2 size={14} className="animate-spin" /> : <ThumbsUp size={14} />}
+            送信
+          </button>
+        </form>
+
+        {/* 送信完了メッセージ */}
+        {submitted && !reportType && (
+          <p className="text-xs text-green-600 dark:text-green-400 mt-2 flex items-center gap-1">
+            <CheckCircle size={12} />
+            送信しました!
+          </p>
+        )}
+
+        {/* 訪問者コメント一覧 */}
+        {visitComments.length > 0 && (
+          <div className="mt-3 space-y-1.5">
+            {visibleComments.map((vc, i) => (
+              <div key={i} className="flex gap-2 items-baseline text-sm">
+                <span className="text-green-500 shrink-0">·</span>
+                <span className="text-stone-600 dark:text-stone-300">{vc.comment}</span>
+                <span className="text-xs text-stone-400 shrink-0">
+                  {new Date(vc.created_at).toLocaleDateString("ja-JP", { month: "short", day: "numeric" })}
+                </span>
+              </div>
+            ))}
+            {visitComments.length > 3 && (
+              <button
+                type="button"
+                onClick={() => setShowAllComments(!showAllComments)}
+                className="flex items-center gap-1 text-xs text-ocean-600 dark:text-ocean-400 hover:underline mt-1"
+              >
+                {showAllComments ? (
+                  <>
+                    <ChevronUp size={12} />
+                    閉じる
+                  </>
+                ) : (
+                  <>
+                    <ChevronDown size={12} />
+                    他{visitComments.length - 3}件を見る
+                  </>
+                )}
+              </button>
+            )}
+          </div>
+        )}
+      </div>
+
+      {/* 閉店・修正の報告 */}
+      <div className="px-5 pb-4 pt-2 border-t border-stone-100 dark:border-stone-700">
+        {!reportType ? (
+          <div className="flex gap-2">
             <button
               type="button"
-              onClick={() => { setSelected(null); setComment(""); setError(""); }}
-              className="text-xs text-stone-400 hover:text-stone-600 transition-colors"
+              onClick={() => setReportType("closed")}
+              className="inline-flex items-center gap-1 text-xs text-stone-400 hover:text-red-500 transition-colors"
             >
-              やめる
+              <XCircle size={12} />
+              閉店を報告
+            </button>
+            <span className="text-stone-300 dark:text-stone-600">|</span>
+            <button
+              type="button"
+              onClick={() => setReportType("correction")}
+              className="inline-flex items-center gap-1 text-xs text-stone-400 hover:text-ocean-500 transition-colors"
+            >
+              <Pencil size={12} />
+              情報の修正
             </button>
           </div>
-        </form>
-      )}
+        ) : (
+          <form
+            onSubmit={(e) => {
+              e.preventDefault();
+              handleSubmit(reportType, comment);
+            }}
+            className="space-y-2"
+          >
+            <p className="text-xs font-medium text-stone-500 dark:text-stone-400">
+              {reportType === "closed" ? "閉店を報告" : "情報の修正"}
+            </p>
+            <textarea
+              value={comment}
+              onChange={(e) => setComment(e.target.value)}
+              placeholder={
+                reportType === "closed"
+                  ? "閉店の状況を教えてください（移転先がわかれば記載）"
+                  : "修正内容を記載してください（住所・電話番号・営業時間など）"
+              }
+              maxLength={1000}
+              rows={2}
+              required={reportType === "correction"}
+              className="w-full px-3 py-2 rounded-lg border border-stone-300 dark:border-stone-600 bg-stone-50 dark:bg-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-ocean-500 resize-y placeholder:text-stone-400"
+            />
+            {error && (
+              <p className="text-xs text-red-600 dark:text-red-400">{error}</p>
+            )}
+            {submitted && reportType && (
+              <p className="text-xs text-green-600 dark:text-green-400 flex items-center gap-1">
+                <CheckCircle size={12} />
+                送信しました!
+              </p>
+            )}
+            <div className="flex items-center gap-2">
+              <button
+                type="submit"
+                disabled={submitting || (reportType === "correction" && !comment.trim())}
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-ocean-600 text-white text-xs font-medium rounded-lg hover:bg-ocean-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+              >
+                {submitting ? <Loader2 size={12} className="animate-spin" /> : <Send size={12} />}
+                送信
+              </button>
+              <button
+                type="button"
+                onClick={() => { setReportType(null); setComment(""); setError(""); }}
+                className="text-xs text-stone-400 hover:text-stone-600 transition-colors"
+              >
+                やめる
+              </button>
+            </div>
+          </form>
+        )}
+      </div>
     </div>
   );
 }
