@@ -95,7 +95,7 @@ export default function SpotReportForm({
       <div className="p-5">
         <div className="flex items-center justify-between mb-3">
           <div className="flex items-center gap-2">
-            <ThumbsUp size={16} className="text-green-600 dark:text-green-400" />
+            <ThumbsUp size={16} className="text-stone-400 dark:text-stone-500" />
             <span className="text-sm font-semibold text-stone-700 dark:text-stone-200">
               行ってきた
             </span>
@@ -127,7 +127,7 @@ export default function SpotReportForm({
           <button
             type="submit"
             disabled={submitting}
-            className="inline-flex items-center gap-1.5 px-4 py-2 bg-green-600 text-white text-sm font-medium rounded-lg hover:bg-green-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors shrink-0 active:scale-95"
+            className="inline-flex items-center gap-1.5 px-4 py-2 bg-stone-700 dark:bg-stone-600 text-white text-sm font-medium rounded-lg hover:bg-stone-800 dark:hover:bg-stone-500 disabled:opacity-50 disabled:cursor-not-allowed transition-colors shrink-0 active:scale-95"
           >
             {submitting ? <Loader2 size={14} className="animate-spin" /> : <ThumbsUp size={14} />}
             送信
