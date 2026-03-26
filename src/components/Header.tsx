@@ -7,9 +7,9 @@ import { countries } from "@/lib/countries";
 import ThemeToggle from "./ThemeToggle";
 
 const phaseLabel: Record<number, string> = {
-  1: "東南アジア",
-  2: "東アジア",
-  3: "その他",
+  1: "公開中",
+  2: "近日公開",
+  3: "準備中",
 };
 
 export default function Header() {
