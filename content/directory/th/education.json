@@ -8,9 +8,16 @@
     "phone": "+6623147334",
     "website": "https://www.tjas.ac.th/",
     "description": "世界でも歴史のある日本人学校のひとつ。小学部と中学部で構成され、日本の学習指導要領に基づいた教育を実施。在バンコク日本人駐在員の子どもが多く通い、日本への帰国後もスムーズに学校生活に戻れる環境を提供。",
-    "tags": ["日本語教育", "小学校", "中学校", "日本人学校"],
-    "hours": "",
-    "last_verified": "2026-03-26"
+    "tags": [
+      "日本語教育",
+      "小学校",
+      "中学校",
+      "日本人学校"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "oisca-bangkok-kindergarten",
@@ -21,9 +28,16 @@
     "phone": "+6623818721",
     "website": "http://www.oisca-youchien.com/bangkok/",
     "description": "2008年開園の日本語幼稚園。日本人教諭による日本語での幼児教育を実施し、小川が流れる広い園庭が特徴。インターナショナル部も併設しており、英語教育との両立も可能。自然とのふれあいを大切にした保育方針。",
-    "tags": ["日本語教育", "幼稚園", "インター併設", "園庭あり"],
-    "hours": "",
-    "last_verified": "2026-03-26"
+    "tags": [
+      "日本語教育",
+      "幼稚園",
+      "インター併設",
+      "園庭あり"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "kids-academy-international",
@@ -34,9 +48,16 @@
     "phone": "+6627143636",
     "website": "http://www.kidsacademy.ac.th/",
     "description": "タイ初の日英バイリンガル幼稚園として2005年に開設。日本人教諭と英語ネイティブ教諭が交互にクラスを担当し、自然な形で二言語を習得できる。日本人園児の割合は約40%。1歳半から入園可能。",
-    "tags": ["日本語教育", "英語教育", "バイリンガル", "幼稚園"],
-    "hours": "",
-    "last_verified": "2026-03-26"
+    "tags": [
+      "日本語教育",
+      "英語教育",
+      "バイリンガル",
+      "幼稚園"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "asb-japanese-section",
@@ -47,8 +68,54 @@
     "phone": "+6626208600",
     "website": "https://asb.ac.th/",
     "description": "米国式インターナショナルスクールASBに併設された日本人幼稚園。日本人の先生が担任につき、日本語・日本文化を大切にした保育を受けられる。高等部まであるインター校との連携により、進学の選択肢が広い。",
-    "tags": ["日本語教育", "幼稚園", "インターナショナルスクール併設"],
-    "hours": "",
-    "last_verified": "2026-03-26"
+    "tags": [
+      "日本語教育",
+      "幼稚園",
+      "インターナショナルスクール併設"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "melodies-international-kindergarten",
+    "name": "Melodies International Kindergarten and Nursery",
+    "name_ja": "メロディー幼稚園",
+    "area": "Phra Khanong",
+    "address": "55 Soi 38, Sukhumvit Road, Prakanong, Bangkok 10110",
+    "phone": "+6627121680",
+    "website": "https://melodieskinder.com/en/",
+    "description": "1981年設立のタイ最大級の日本語幼稚園。卒園生は4,000人以上。日本部・インター部・ナーサリーがあり、日本の幼稚園教育要領に沿った保育を実施。タイ教育省の認可を受けている。",
+    "tags": [
+      "日本語教育",
+      "幼稚園",
+      "インター併設",
+      "歴史あり"
+    ],
+    "hours": "月-金 9:00-16:00",
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "kirakira-kids-kindergarten",
+    "name": "Kirakira Kids International Kindergarten",
+    "name_ja": "キラキラキッズ・インターナショナル幼稚園",
+    "area": "Ekkamai",
+    "address": "81 Sukhumvit 61, Khlong Tan Nuea, Watthana, Bangkok",
+    "phone": "+6623815417",
+    "website": "https://www.kirakirakids.ac.th/",
+    "description": "2006年設立の日英バイリンガル幼稚園。スクンビットソイ61に位置し、日本語と英語の両方で保育を提供。日本人教諭と英語ネイティブ教諭がバランスよく配置されている。",
+    "tags": [
+      "日本語教育",
+      "英語教育",
+      "バイリンガル",
+      "幼稚園"
+    ],
+    "hours": "要確認",
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   }
 ]

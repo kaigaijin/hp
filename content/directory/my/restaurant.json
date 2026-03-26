@@ -8,9 +8,16 @@
     "phone": "+60321664263",
     "website": "https://www.ozeki.com.my/",
     "description": "KLCC近くにある老舗日本料理店。日本人駐在員やローカルから長年愛されている定食・寿司・刺身の人気店。ランチセットがお手頃で、本格的な和食が楽しめる。",
-    "tags": ["日本語対応", "ランチセット", "寿司", "定食"],
+    "tags": [
+      "日本語対応",
+      "ランチセット",
+      "寿司",
+      "定食"
+    ],
     "hours": "12:00-14:30, 18:30-23:00",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "sushi-hibiki",
@@ -21,9 +28,16 @@
     "phone": "+60323830272",
     "website": "https://hibiki4s.me/",
     "description": "Four Seasons Place内にある本格おまかせ寿司店。日本人シェフが季節の食材を使い、カウンターで握る江戸前寿司が評判。完全予約制のため事前予約が必須。",
-    "tags": ["おまかせ", "寿司", "予約必須", "高級"],
+    "tags": [
+      "おまかせ",
+      "寿司",
+      "予約必須",
+      "高級"
+    ],
     "hours": "火-金 18:00-22:00, 土日 12:30-14:30 & 18:00-22:00（月曜定休）",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "rakuzen-publika",
@@ -34,9 +48,16 @@
     "phone": "+60364110822",
     "website": "https://www.superdining.com.my/",
     "description": "KL市内に複数店舗を展開する人気日本料理チェーン。刺身・寿司・天ぷら・焼き物など幅広いメニューが揃い、家族連れや日本人駐在員に親しまれている。",
-    "tags": ["寿司", "刺身", "天ぷら", "ファミリー向け"],
+    "tags": [
+      "寿司",
+      "刺身",
+      "天ぷら",
+      "ファミリー向け"
+    ],
     "hours": "11:30-15:00, 18:00-22:00",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "sushi-zanmai-mont-kiara",
@@ -47,9 +68,16 @@
     "phone": "+60362018010",
     "website": "https://www.supersushi.com.my/",
     "description": "マレーシア全土に展開する回転寿司・日本料理チェーン。手頃な価格で寿司・刺身・丼物が楽しめる。Mont Kiara店は日本人居住者が多いエリアにあり、普段使いに便利。",
-    "tags": ["寿司", "回転寿司", "リーズナブル", "ファミリー向け"],
+    "tags": [
+      "寿司",
+      "回転寿司",
+      "リーズナブル",
+      "ファミリー向け"
+    ],
     "hours": "10:00-22:00",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "menya-musashi",
@@ -60,9 +88,15 @@
     "phone": "+60321817199",
     "website": "http://sushitrain.com.my/adstmin/menya-musashi/",
     "description": "東京発の人気つけ麺・ラーメン店のマレーシア支店。濃厚な豚骨魚介スープのつけ麺が看板メニュー。日本と同じクオリティのラーメンがKLで食べられると評判。",
-    "tags": ["ラーメン", "つけ麺", "カジュアル"],
+    "tags": [
+      "ラーメン",
+      "つけ麺",
+      "カジュアル"
+    ],
     "hours": "11:00-22:00",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "ichiban-boshi-publika",
@@ -70,11 +104,153 @@
     "name_ja": "一番星",
     "area": "Solaris Dutamas",
     "address": "Level G3, C4, Solaris Dutamas, No. 1, Jalan Dutamas 1, 50480 Kuala Lumpur",
-    "phone": "",
-    "website": "",
+    "phone": null,
+    "website": null,
     "description": "シンガポール発の日本料理チェーン。定食・丼物・うどん・寿司を中心に、バランスの良い和食メニューを提供。ランチタイムはビジネスマンや在住日本人で賑わう。",
-    "tags": ["定食", "丼物", "うどん", "カジュアル"],
+    "tags": [
+      "定食",
+      "丼物",
+      "うどん",
+      "カジュアル"
+    ],
     "hours": "10:00-22:00",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "iketeru-hilton-kl",
+    "name": "Iketeru",
+    "name_ja": "池輝",
+    "area": "KL Sentral",
+    "address": "8th Floor, Hilton Kuala Lumpur, 3 Jalan Stesen Sentral, 50470 Kuala Lumpur",
+    "phone": "+60322642264",
+    "website": "https://www.hilton.com/en/hotels/kulhitw-hilton-kuala-lumpur/dining/iketeru/",
+    "description": "ヒルトンKL内にある高級日本料理レストラン。Chef Tokuhisa Naotakaが季節の食材を使ったコース料理を提供。プールサイドの緑に囲まれた静かな空間で、接待や特別な日のディナーに最適。",
+    "tags": ["高級", "コース", "ホテルレストラン", "予約推奨"],
+    "hours": "12:00-14:30, 18:30-22:30",
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "zipangu-shangri-la",
+    "name": "Zipangu",
+    "name_ja": "ジパング",
+    "area": "KLCC",
+    "address": "Level 1, Shangri-La Hotel, 11 Jalan Sultan Ismail, 50250 Kuala Lumpur",
+    "phone": "+60327862378",
+    "website": "https://www.shangri-la.com/restaurants-bars/kualalumpur/shangrila/zipangu/",
+    "description": "シャングリ・ラ ホテル内にある高級日本料理レストラン。日本人ヘッドシェフが伝統的な和食に革新的なアレンジを加えた料理を提供。プレミアム寿司・刺身・鉄板焼き・鍋・弁当セットなど幅広いメニュー。",
+    "tags": ["高級", "寿司", "鉄板焼き", "ホテルレストラン"],
+    "hours": "11:30-14:30, 18:30-22:30",
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "kampachi-eq",
+    "name": "Kampachi",
+    "name_ja": "甘八",
+    "area": "Bukit Bintang",
+    "address": "EQ Kuala Lumpur, 27 Jalan Sultan Ismail, 50250 Kuala Lumpur",
+    "phone": "+60327897722",
+    "website": "https://www.eqkualalumpur.equatorial.com/dining/kampachi/",
+    "description": "1974年創業のマレーシア日本料理のパイオニア。東京・大阪の魚市場から毎週直送される最高品質の食材を使用。200年物の無塗装檜カウンターでのおまかせ寿司が名物。Time Out誌で9回のBest Japanese Restaurant受賞歴。",
+    "tags": ["高級", "おまかせ", "寿司", "老舗"],
+    "hours": "要確認",
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "nobu-kuala-lumpur",
+    "name": "Nobu Kuala Lumpur",
+    "name_ja": "ノブ クアラルンプール",
+    "area": "KLCC",
+    "address": "L4A-05, Level 4A, Shoppes at Four Seasons Place, No. 145 Jalan Ampang, 50450 Kuala Lumpur",
+    "phone": "+60323800028",
+    "website": "https://noburestaurants.com/kuala-lumpur/home",
+    "description": "松久信幸シェフが手掛ける世界的日本料理レストランのKL店。和食とペルー料理を融合させた独創的なメニューが特徴。世界29カ国以上に展開するグローバルブランド。",
+    "tags": ["高級", "フュージョン", "おまかせ", "予約推奨"],
+    "hours": "毎日 11:45-14:00, 18:00-22:00",
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "hokkaido-ramen-santouka",
+    "name": "Hokkaido Ramen Santouka",
+    "name_ja": "北海道ラーメン山頭火",
+    "area": "Bukit Bintang",
+    "address": "Lot 6.24.03, Level 6 Tokyo Street, Pavilion KL, 168 Jalan Bukit Bintang, 55100 Kuala Lumpur",
+    "phone": "+60321438878",
+    "website": "https://www.santouka.co.jp/en/shop-foreign/malaysia/foreign06-001",
+    "description": "1988年北海道旭川創業のラーメンチェーン。看板メニューの特選トロ肉ラーメン（豚頬肉ラーメン）はクリーミーな塩豚骨スープが特徴。Pavilion KLのTokyo Streetで本格ラーメンが楽しめる。",
+    "tags": ["ラーメン", "塩豚骨", "カジュアル"],
+    "hours": "10:00-22:00",
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "ippudo-pavilion",
+    "name": "Ippudo",
+    "name_ja": "一風堂",
+    "area": "Bukit Bintang",
+    "address": "Lot C4.07.00, Connection Level 4, Pavilion KL, Jalan Bukit Bintang, 55100 Kuala Lumpur",
+    "phone": "+60321106233",
+    "website": "https://www.ippudo.com.my/",
+    "description": "博多発の世界的ラーメンチェーン。看板の白丸・赤丸豚骨ラーメンは、臭みのないすっきりとしたスープが特徴。Pavilion KLで本場の博多ラーメンが味わえる。",
+    "tags": ["ラーメン", "豚骨", "カジュアル"],
+    "hours": "月-日 11:00-22:00",
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "sushi-azabu-isetan",
+    "name": "Sushi Azabu",
+    "name_ja": "鮨麻布",
+    "area": "Bukit Bintang",
+    "address": "Level 4, The Table, ISETAN The Japan Store, Lot 10, 50 Jalan Sultan Ismail, 50250 Kuala Lumpur",
+    "phone": "+60321192624",
+    "website": "https://isetankl.com.my/pages/sushi-azabu",
+    "description": "ミシュラン星付きブランドの高級おまかせ寿司店。豊洲から直送される新鮮な魚介を使い、カウンター越しに職人の技を間近で楽しめる。特別な日のディナーに最適。",
+    "tags": ["おまかせ", "寿司", "高級", "ミシュラン"],
+    "hours": "要確認",
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "tonkatsu-ma-maison",
+    "name": "Tonkatsu by Ma Maison",
+    "name_ja": "とんかつ マ・メゾン",
+    "area": "Solaris Dutamas",
+    "address": "Lot 56 & 57, Level UG, Publika, Solaris Dutamas, Jalan Dutamas 1, 50480 Kuala Lumpur",
+    "phone": "+60362119399",
+    "website": "https://mamaison.com.my/",
+    "description": "シンガポール発の日本式とんかつ専門店。サクサクの衣とジューシーな豚肉が特徴で、定食スタイルでキャベツ・ご飯・味噌汁がおかわり自由。KL市内に複数店舗あり。",
+    "tags": ["とんかつ", "定食", "カジュアル"],
+    "hours": "要確認",
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "yakiniku-toraji-isetan",
+    "name": "Yakiniku Toraji",
+    "name_ja": "焼肉トラジ",
+    "area": "Bukit Bintang",
+    "address": "4th Floor, ISETAN The Japan Store, Lot 10, 50 Jalan Sultan Ismail, 50250 Kuala Lumpur",
+    "phone": "+60321192626",
+    "website": "https://isetankl.com.my/",
+    "description": "東京発の高級焼肉チェーン・トラジのKL店。ダイヤモンドカットで提供されるプレミアムビーフが看板メニュー。ISETAN The Japan Store内で上質な焼肉を楽しめる。",
+    "tags": ["焼肉", "和牛", "高級", "予約推奨"],
+    "hours": "11:00-15:00, 18:00-23:00",
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   }
 ]

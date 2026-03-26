@@ -5,12 +5,19 @@
     "name_ja": "サミティヴェート病院スクンビット",
     "area": "Sukhumvit",
     "address": "133 Sukhumvit 49, Klongtan Nua, Vadhana, Bangkok 10110",
-    "phone": "+66202221222",
+    "phone": "+6620222222",
     "website": "https://samitivej-jp.com/sukhumvit/",
     "description": "バンコクで最も日本人に利用されている総合病院。約25名の日本語通訳が常駐し、年間約13万人の日本人患者を受け入れている。日本人相談窓口は毎日7:00-20:00で対応。24時間日本語電話対応あり。",
-    "tags": ["日本語対応", "24時間", "総合病院", "日本人通訳常駐"],
+    "tags": [
+      "日本語対応",
+      "24時間",
+      "総合病院",
+      "日本人通訳常駐"
+    ],
     "hours": "24時間（日本人相談窓口: 7:00-20:00）",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "bangkok-hospital-jms",
@@ -21,21 +28,74 @@
     "phone": "+6623103257",
     "website": "https://www.bangkokhospital.com/en/bangkok/center-clinic/international-medical-service/japanese-medical-services/overview",
     "description": "1977年設立のバンコク最古の日本人向け医療サービス。日本の医学部を卒業したタイ人医師が設立し、日本人医師・日本人コーディネーター・日本語通訳がサポート。I棟2階にJMS専用クリニックがある。",
-    "tags": ["日本語対応", "総合病院", "日本人医師", "歴史あり"],
+    "tags": [
+      "日本語対応",
+      "総合病院",
+      "日本人医師",
+      "歴史あり"
+    ],
     "hours": "JMSクリニック: 毎日 7:00-16:00（病院は24時間）",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "dym-international-clinic",
     "name": "DYM International Clinic",
     "name_ja": "DYMインターナショナルクリニック",
-    "area": "Sukhumvit",
-    "address": "RQ49 Mall 4F, Unit 541, 139 Soi Sukhumvit 49, Klongton-Nua, Wattana, Bangkok 10110",
+    "area": "Phrom Phong",
+    "address": "593/10 Sukhumvit Road, Klongton-Nua, Wattana, Bangkok 10110",
     "phone": "+6621071039",
     "website": "https://dymclinic.com/",
-    "description": "2013年設立のタイ初の日系企業運営クリニック。予約から診察、会計まですべて日本語で対応可能。一般内科・小児科・皮膚科・歯科など幅広い診療科目をカバー。BTSトンロー駅から徒歩圏内。",
-    "tags": ["日本語対応", "日系クリニック", "予約可", "土日祝営業"],
-    "hours": "9:00-18:00（土日祝も営業）",
-    "last_verified": "2026-03-26"
+    "description": "2013年設立のタイ初の日系企業運営クリニック。予約から診察、会計まですべて日本語で対応可能。一般内科・小児科・皮膚科・歯科など幅広い診療科目をカバー。トンロー院（RQ49 Mall 4F）もあり。",
+    "tags": [
+      "日本語対応",
+      "日系クリニック",
+      "予約可",
+      "土日祝営業"
+    ],
+    "hours": "平日 8:00-20:00 / 土日祝 8:00-17:00",
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "sakura-cross-clinic",
+    "name": "Sakura Cross Clinic",
+    "name_ja": "サクラクロスクリニック",
+    "area": "Phrom Phong",
+    "address": "622 Emporium Tower, 18th Floor, Sukhumvit Road, Klongton, Klongtoey, Bangkok 10110",
+    "phone": "+6622591817",
+    "website": "https://www.sakuracross.jp/",
+    "description": "桜十字病院グループのバンコククリニック。内科・小児科・皮膚科・消化器科・産婦人科・心療内科と幅広い診療科目に対応。BTSプロンポン駅直結のエンポリアムタワー18階に位置し、日本語で受診可能。",
+    "tags": [
+      "日本語対応",
+      "日系クリニック",
+      "駅直結"
+    ],
+    "hours": "9:00-18:00（受付17:45まで、タイ祝日休診）",
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "bumrungrad-international-hospital",
+    "name": "Bumrungrad International Hospital",
+    "name_ja": "バムルンラード国際病院",
+    "area": "Sukhumvit",
+    "address": "33 Sukhumvit 3 (Soi Nana Nua), Wattana, Bangkok 10110",
+    "phone": "+6620668888",
+    "website": "https://www.bumrungrad.com/en",
+    "description": "世界水準の医療を提供する大規模国際病院。190カ国以上から患者を受け入れ、日本語を含む30以上の言語で通訳サービスを提供。200名以上のプロフェッショナル通訳が在籍し、日本語での受診が可能。",
+    "tags": [
+      "日本語対応",
+      "24時間",
+      "総合病院",
+      "国際病院"
+    ],
+    "hours": "24時間",
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   }
 ]

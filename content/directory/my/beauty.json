@@ -8,9 +8,17 @@
     "phone": "+60362012776",
     "website": "https://www.number76.com/",
     "description": "東京・上海にも展開する日系ヘアサロン。日本人スタイリストが在籍し、日本のトレンドを取り入れたカット・カラー・パーマが受けられる。KL在住日本人に最も知名度の高いサロンの一つ。",
-    "tags": ["日本人スタイリスト", "カット", "カラー", "パーマ", "予約可"],
+    "tags": [
+      "日本人スタイリスト",
+      "カット",
+      "カラー",
+      "パーマ",
+      "予約可"
+    ],
     "hours": "日-水・金-土 10:00-20:00, 木 10:00-17:00",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "number76-mont-kiara",
@@ -21,9 +29,16 @@
     "phone": "+60362013776",
     "website": "https://www.number76.com/",
     "description": "日本人居住者が多いモントキアラエリアにあるNumber76の支店。日本人スタイリストによる丁寧なカウンセリングと施術が特徴。子連れでも通いやすい雰囲気。",
-    "tags": ["日本人スタイリスト", "カット", "カラー", "予約可"],
+    "tags": [
+      "日本人スタイリスト",
+      "カット",
+      "カラー",
+      "予約可"
+    ],
     "hours": "日-水・金-土 10:00-20:00, 木 10:00-17:00",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "switch-hair-salon",
@@ -34,9 +49,16 @@
     "phone": "+60326022702",
     "website": "https://www.therowkl.com/switchhairsalon",
     "description": "The Rowのおしゃれなエリアにある日系ヘアサロン。日本人スタイリストが日本のヘアケア技術とトレンドを提供。日本から輸入したヘアケア製品も販売している。",
-    "tags": ["日本人スタイリスト", "カット", "カラー", "ヘアケア製品"],
+    "tags": [
+      "日本人スタイリスト",
+      "カット",
+      "カラー",
+      "ヘアケア製品"
+    ],
     "hours": "火-日 10:30-19:30（月曜定休）",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "8eight8-hair-salon",
@@ -44,11 +66,18 @@
     "name_ja": "エイトエイト ヘア＆ビューティーサロン（旧シャルドン東京）",
     "area": "Petaling Jaya",
     "address": "39G, Block C, Jaya One, Jalan Universiti, 46200 Petaling Jaya",
-    "phone": "",
+    "phone": null,
     "website": "https://www.chardontokyo.com/",
     "description": "旧シャルドン東京から名称変更した日系ヘアサロン。国際経験豊富な日本人スタイリストがカット・カラー・トリートメントなどフルサービスを提供。PJエリアで日本品質のヘアケアが受けられる。",
-    "tags": ["日本人スタイリスト", "カット", "カラー", "トリートメント"],
+    "tags": [
+      "日本人スタイリスト",
+      "カット",
+      "カラー",
+      "トリートメント"
+    ],
     "hours": "10:30-20:00",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   }
 ]

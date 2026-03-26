@@ -8,9 +8,17 @@
     "phone": "+6567711111",
     "website": "https://www.meidi-ya.com.sg/",
     "description": "15年以上シンガポールの日本人コミュニティに愛されている老舗日系スーパー。日本から直輸入した生鮮食品・調味料・酒類・日用品を幅広く取り揃える。寿司や弁当などの惣菜コーナーも充実。Great World CityとMillenia Walkに店舗あり。",
-    "tags": ["日本食材", "生鮮食品", "惣菜", "酒類", "日用品"],
+    "tags": [
+      "日本食材",
+      "生鮮食品",
+      "惣菜",
+      "酒類",
+      "日用品"
+    ],
     "hours": "10:00-22:00",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "don-don-donki",
@@ -21,9 +29,17 @@
     "phone": "+6568344311",
     "website": "https://www.dondondonki.com/sg/",
     "description": "日本のドン・キホーテのシンガポール版。納豆・ふりかけ・カップ麺・日本酒から生鮮食品まで、手頃な価格で幅広い日本の食材・雑貨が手に入る。シンガポール国内に9店舗以上を展開し、多くの店舗が深夜または24時間営業。",
-    "tags": ["日本食材", "生鮮食品", "雑貨", "24時間営業", "複数店舗"],
+    "tags": [
+      "日本食材",
+      "生鮮食品",
+      "雑貨",
+      "24時間営業",
+      "複数店舗"
+    ],
     "hours": "24時間営業（Orchard Central店）",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "iroha-mart",
@@ -31,12 +47,19 @@
     "name_ja": "いろはマート",
     "area": "Orchard",
     "address": "68 Orchard Road, #B2-17/18 Plaza Singapura, Singapore 238839",
-    "phone": "",
-    "website": "",
+    "phone": null,
+    "website": null,
     "description": "日本全国47都道府県から厳選した食品・お菓子・飲料を取り揃える日本食材専門店。一般的なスーパーでは手に入らないご当地スナック・伝統菓子・食パン・日本酒などが充実。Plaza SingapuraとChinatown Pointに店舗あり。",
-    "tags": ["日本食材", "ご当地グルメ", "お菓子", "日本酒"],
+    "tags": [
+      "日本食材",
+      "ご当地グルメ",
+      "お菓子",
+      "日本酒"
+    ],
     "hours": "10:00-22:00",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "kuriya-japanese-market",
@@ -47,8 +70,15 @@
     "phone": "+6563858347",
     "website": "https://www.kuriyajapanesemarket.com.sg/",
     "description": "週3回日本から空輸される新鮮な旬の鮮魚が看板商品の日本食マーケット。刺身用の魚介類、日本産の食料品、冷凍食品、日本酒も豊富に取り揃える。Great World City・Causeway Point・Tampinesなど複数店舗を展開。",
-    "tags": ["日本食材", "鮮魚", "空輸", "複数店舗"],
+    "tags": [
+      "日本食材",
+      "鮮魚",
+      "空輸",
+      "複数店舗"
+    ],
     "hours": "10:00-22:00",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   }
 ]

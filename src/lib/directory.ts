@@ -148,6 +148,12 @@ export function getCategory(slug: string): CategoryDef | undefined {
   return categories.find((c) => c.slug === slug);
 }
 
+// 確認ステータス
+export type SpotStatus = "unverified" | "verified" | "reported_closed";
+
+// 情報ソース
+export type SpotSource = "website" | "google_maps" | "sns" | "user_report";
+
 // スポットデータ
 export type Spot = {
   slug: string;
@@ -155,11 +161,36 @@ export type Spot = {
   name_ja?: string;
   area: string;
   address: string;
-  phone?: string;
-  website?: string;
+  phone?: string | null;
+  website?: string | null;
   description: string;
   tags: string[];
-  hours?: string;
+  hours?: string | null;
+  status?: SpotStatus;
+  source?: SpotSource;
+  last_verified?: string;
+};
+
+// ステータスの表示情報
+export const statusConfig: Record<
+  SpotStatus,
+  { label: string; note: string; color: string }
+> = {
+  unverified: {
+    label: "未確認",
+    note: "Web上の情報です。最新情報は公式サイトをご確認ください",
+    color: "amber",
+  },
+  verified: {
+    label: "確認済み",
+    note: "",
+    color: "green",
+  },
+  reported_closed: {
+    label: "閉店の可能性あり",
+    note: "訪問前に公式サイトをご確認ください",
+    color: "red",
+  },
 };
 
 const directoryDir = path.join(process.cwd(), "content", "directory");

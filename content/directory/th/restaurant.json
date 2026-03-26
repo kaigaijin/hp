@@ -8,9 +8,15 @@
     "phone": "+6622372266",
     "website": "https://www.facebook.com/MisatoBangkok/",
     "description": "1989年創業のシーロムにある老舗日本料理店。日本人オーナーが経営し、おしぼりの提供など日本式のサービスが光る。ランチセットは300〜400バーツとリーズナブルで、駐在員のランチスポットとして根強い人気。",
-    "tags": ["日本語対応", "ランチ", "老舗"],
-    "hours": "",
-    "last_verified": "2026-03-26"
+    "tags": [
+      "日本語対応",
+      "ランチ",
+      "老舗"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "torihada-surawong",
@@ -21,9 +27,15 @@
     "phone": "+6626345860",
     "website": "https://www.facebook.com/Torihada.Surawong/",
     "description": "バンコクで本格的な焼き鳥を楽しめる日本人経営の人気店。日本産の鶏を使用し、炭火で丁寧に焼き上げる。プロンポンにも支店あり。カウンター席で焼き上がりを眺めながら食べるのがおすすめ。",
-    "tags": ["日本語対応", "焼き鳥", "予約推奨"],
+    "tags": [
+      "日本語対応",
+      "焼き鳥",
+      "予約推奨"
+    ],
     "hours": "17:00-23:30（月曜定休）",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "suikin-silom",
@@ -34,9 +46,16 @@
     "phone": "+66982578779",
     "website": "https://www.facebook.com/SuikinRestaurant/",
     "description": "Crowne Plaza Bangkok 22階にある高級割烹。自家製豆腐や新鮮な刺身が名物で、着物姿のスタッフによるおもてなしが特徴。接待や記念日のディナーに最適な落ち着いた空間。",
-    "tags": ["日本語対応", "高級", "接待向き", "予約推奨"],
+    "tags": [
+      "日本語対応",
+      "高級",
+      "接待向き",
+      "予約推奨"
+    ],
     "hours": "月-金 11:30-14:00, 17:30-21:30 / 土日祝 11:00-15:00, 17:30-21:30",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "okinawa-kinjo",
@@ -47,9 +66,15 @@
     "phone": "+6627110536",
     "website": "http://www.kinjo.co.th/",
     "description": "BTSプラカノン駅から徒歩4分にある沖縄料理専門店。ソーキそば、ゴーヤーチャンプルー、ラフテーなど本場の沖縄料理をバンコクで味わえる。タイ人にも人気で、深夜まで営業しているのが嬉しい。",
-    "tags": ["日本語対応", "沖縄料理", "深夜営業"],
+    "tags": [
+      "日本語対応",
+      "沖縄料理",
+      "深夜営業"
+    ],
     "hours": "11:30-24:00（ラストオーダー 23:00）",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "aoi-silom",
@@ -60,9 +85,16 @@
     "phone": "+6622352321",
     "website": "http://www.aoi-bkk.com/",
     "description": "1988年創業のバンコクを代表する日本料理店。新鮮な刺身が評判で、バンコク屈指の品質。サイアムパラゴンやエンポリアムにも支店があり、どの店舗も安定した味を提供。うどんすきも人気メニュー。",
-    "tags": ["日本語対応", "老舗", "刺身", "複数店舗"],
+    "tags": [
+      "日本語対応",
+      "老舗",
+      "刺身",
+      "複数店舗"
+    ],
     "hours": "11:00-14:30, 17:30-22:00",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "ramen-tei-phrom-phong",
@@ -71,10 +103,56 @@
     "area": "Phrom Phong",
     "address": "593 23-24 Soi Sukhumvit 33/1, Khlong Tan Nuea, Watthana, Bangkok 10110",
     "phone": "+6626620050",
-    "website": "",
+    "website": null,
     "description": "プロンポン駅近くにある日本人駐在員御用達のラーメン店。ラーメンだけでなく餃子、麻婆豆腐、チャーハンなどB級グルメが充実。シーロムにも支店あり。手頃な価格で気軽に日本の味を楽しめる。",
-    "tags": ["日本語対応", "ラーメン", "複数店舗"],
+    "tags": [
+      "日本語対応",
+      "ラーメン",
+      "複数店舗"
+    ],
     "hours": "10:30-22:30",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "yankii-robatayaki-sukhumvit24",
+    "name": "Yankii Robatayaki & Bar",
+    "name_ja": "",
+    "area": "Phrom Phong",
+    "address": "12 Sukhumvit 24 Alley, Khlong Tan, Khlong Toei, Bangkok 10110",
+    "phone": "+66616354942",
+    "website": "https://yankiirestaurant.com/",
+    "description": "Skyview Hotel 1階にある炉端焼きとバーの複合店。ロバタスタイルの炭火焼き料理と寿司バーを提供。カラオケルームも完備しており、夜の食事と娯楽を一度に楽しめる。BTSプロンポン駅から徒歩圏内。",
+    "tags": [
+      "日本語対応",
+      "炉端焼き",
+      "バー",
+      "カラオケ"
+    ],
+    "hours": "18:00-1:00",
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "sushi-yorokobu-thonglor",
+    "name": "Sushi Yorokobu Bkk",
+    "name_ja": "鮨 よろこぶ",
+    "area": "Thonglor",
+    "address": "Soi Thonglor 10, Watthana, Bangkok 10110",
+    "phone": "+66988998740",
+    "website": "https://www.sushi-yorokobu-bkk.com",
+    "description": "トンローにあるおまかせ寿司専門店。東京・豊洲市場から直送のプレミアム鮮魚を使った本格江戸前寿司を提供。季節に合わせたおまかせコースが中心で、予約制。",
+    "tags": [
+      "日本語対応",
+      "寿司",
+      "おまかせ",
+      "予約必須"
+    ],
+    "hours": "ランチ 12:00-14:00 / ディナー 17:30-22:00",
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   }
 ]

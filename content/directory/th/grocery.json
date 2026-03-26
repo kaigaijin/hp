@@ -8,9 +8,16 @@
     "phone": "+6622580697",
     "website": "https://www.ufmfujisuper.com/",
     "description": "1985年にタイ初の日系スーパーとしてオープンした老舗。日本の食材・調味料・日用品が幅広く揃い、惣菜・弁当コーナーも充実。BTSプロンポン駅から徒歩約4分。バンコク在住日本人の生活に欠かせない存在。",
-    "tags": ["日本語対応", "日本食材", "惣菜", "老舗"],
+    "tags": [
+      "日本語対応",
+      "日本食材",
+      "惣菜",
+      "老舗"
+    ],
     "hours": "8:00-22:00",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "fuji-super-branch4",
@@ -21,9 +28,15 @@
     "phone": "+6622041300",
     "website": "https://www.ufmfujisuper.com/",
     "description": "スクンビットソイ49のCity Resortビル1階にある支店。日本人居住者が多いエリアに立地し、駐車場も広い。品揃えは1号店に匹敵し、生鮮食品や日本直送の商品が充実。",
-    "tags": ["日本語対応", "日本食材", "駐車場あり"],
+    "tags": [
+      "日本語対応",
+      "日本食材",
+      "駐車場あり"
+    ],
     "hours": "8:00-22:00",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "fuji-super-branch5",
@@ -34,9 +47,15 @@
     "phone": "+6622585981",
     "website": "https://www.ufmfujisuper.com/",
     "description": "2023年にオープンしたスクンビット偶数側初の支店。Staybridge Suites Bangkok Sukhumvitの地下に位置し、ソイ24周辺の日本人居住者にとって待望の出店。新しい店舗で買い物環境が快適。",
-    "tags": ["日本語対応", "日本食材", "新店舗"],
+    "tags": [
+      "日本語対応",
+      "日本食材",
+      "新店舗"
+    ],
     "hours": "8:00-22:00",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "don-don-donki-thonglor",
@@ -44,12 +63,18 @@
     "name_ja": "ドン・ドン・ドンキ トンロー店",
     "area": "Thonglor",
     "address": "107 Soi Sukhumvit 63, Khlong Tan Nuea, Watthana, Bangkok 10110",
-    "phone": "",
+    "phone": null,
     "website": "https://www.donkimallthonglor.com/",
     "description": "日本のドン・キホーテのタイ店舗。DONKI Mall Thonglor内に出店し、日本の食品・菓子・化粧品・日用品が豊富。24時間営業で深夜の買い物にも便利。BTSトンロー駅から徒歩圏内。",
-    "tags": ["日本食材", "24時間営業", "日用品"],
+    "tags": [
+      "日本食材",
+      "24時間営業",
+      "日用品"
+    ],
     "hours": "24時間",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "maxvalu-tanjai-rain-hill",
@@ -60,8 +85,33 @@
     "phone": "+6622617206",
     "website": "https://www.aeonthailand.co.th/",
     "description": "日本のイオングループが運営するスーパーマーケット。日本式の品質管理で生鮮食品が新鮮。日本の食品・弁当・惣菜も取り扱い、24時間営業で利便性が高い。スクンビットソイ47のRain Hill内に立地。",
-    "tags": ["日本食材", "24時間営業", "イオングループ"],
+    "tags": [
+      "日本食材",
+      "24時間営業",
+      "イオングループ"
+    ],
     "hours": "24時間",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "matsumoto-kiyoshi-thailand",
+    "name": "Matsumoto Kiyoshi Thailand",
+    "name_ja": "マツモトキヨシ タイランド",
+    "area": "Bangkok",
+    "address": "CentralPlaza Ladprao, Bangkok (本店)",
+    "phone": null,
+    "website": "https://www.matsumotokiyoshi.co.th/en/",
+    "description": "日本最大手のドラッグストアチェーンのタイ法人。タイ国内に30店舗以上を展開し、日本直輸入の化粧品・スキンケア・日用品・ヘルスケア商品など約3,000品目を取り扱い。Topsスーパー内のミニショップも展開。",
+    "tags": [
+      "日本ブランド",
+      "化粧品",
+      "日用品"
+    ],
+    "hours": "店舗により異なる",
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   }
 ]

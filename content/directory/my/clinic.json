@@ -8,9 +8,17 @@
     "phone": "+60362115919",
     "website": "https://my.hibariclinic.com/en/",
     "description": "KL最大級の日系クリニック。全ブランチに日本語通訳が常駐し、電話受付・受付・会計・薬局まで日本語対応。内科・小児科・婦人科・皮膚科・歯科（別フロア）と幅広く対応。日本の保険や海外旅行保険のキャッシュレス診療にも対応している。",
-    "tags": ["日本語対応", "保険キャッシュレス", "小児科", "婦人科", "予約優先"],
+    "tags": [
+      "日本語対応",
+      "保険キャッシュレス",
+      "小児科",
+      "婦人科",
+      "予約優先"
+    ],
     "hours": "毎日（祝日含む）9:00-13:00, 14:00-22:00（最終受付: 平日21:00, 土日祝17:00）",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "hibari-clinic-bukit-bintang",
@@ -21,9 +29,16 @@
     "phone": "+60327412036",
     "website": "https://my.hibariclinic.com/en/locations/bukit-bintang/",
     "description": "ひばりクリニックのブキビンタン支店。日本語通訳が常駐し、内科・小児科・皮膚科・予防接種などに対応。祝日も含め毎日営業しているため、急な体調不良にも安心。",
-    "tags": ["日本語対応", "保険キャッシュレス", "毎日営業", "予約優先"],
+    "tags": [
+      "日本語対応",
+      "保険キャッシュレス",
+      "毎日営業",
+      "予約優先"
+    ],
     "hours": "毎日（祝日含む）11:00-20:00（最終受付 19:00）",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "nozomi-clinic",
@@ -34,9 +49,15 @@
     "phone": "+60364111234",
     "website": "https://www.nozomiclinic.com.my/",
     "description": "モントキアラにある日系総合診療クリニック。日本語対応スタッフが在籍し、内科・小児科を中心に在マレーシア日本人の健康をサポート。土日祝も診療しており、駐在員家族に利用されている。",
-    "tags": ["日本語対応", "総合診療", "土日祝診療"],
+    "tags": [
+      "日本語対応",
+      "総合診療",
+      "土日祝診療"
+    ],
     "hours": "月-金 9:00-13:00, 14:00-18:00（最終受付17:30）/ 土日祝 9:00-13:00, 14:00-17:00（最終受付16:30）",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "pantai-hospital-kuala-lumpur",
@@ -47,8 +68,75 @@
     "phone": "+60322960888",
     "website": "https://www.pantai.com.my/kuala-lumpur",
     "description": "KLの大手私立総合病院。日本語通訳サービスがあり、日本人駐在員の利用も多い。救急対応・入院設備を備えた総合病院のため、クリニックでは対応できない重症時にも安心。",
-    "tags": ["日本語通訳あり", "総合病院", "救急対応", "入院可"],
+    "tags": [
+      "日本語通訳あり",
+      "総合病院",
+      "救急対応",
+      "入院可"
+    ],
     "hours": "24時間（外来は診療科により異なる）",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "hibari-clinic-penang",
+    "name": "Hibari Clinic Penang",
+    "name_ja": "ひばりクリニック ペナン",
+    "area": "George Town (Penang)",
+    "address": "163D-2-17A, Level 2, Gurney Paragon Mall, Jalan Kelawai, 10250 George Town, Penang",
+    "phone": "+60422991111",
+    "website": "https://my.hibariclinic.com/en/",
+    "description": "ひばりクリニックのペナン支店。ガーニーパラゴンモール内にあり、日本語通訳が常駐。ペナン在住の日本人が安心して受診できる日系クリニック。内科・小児科などに対応。",
+    "tags": ["日本語対応", "保険キャッシュレス", "ペナン"],
+    "hours": "要確認",
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "aoi-family-clinic",
+    "name": "AOI Family Clinic",
+    "name_ja": "あおいファミリークリニック",
+    "area": "Ara Damansara",
+    "address": "C-G-03, Capital 3, Oasis Square, No. 2 Jalan PJU 1A/7A, Ara Damansara, 47301 Petaling Jaya, Selangor",
+    "phone": "+60123926961",
+    "website": "https://www.facebook.com/aoifamilyclinic/",
+    "description": "Ara Damansaraにあるファミリークリニック。日本語通訳対応あり。一般診療を提供し、ペタリンジャヤ方面の日本人在住者に利用されている。",
+    "tags": ["日本語対応", "ファミリークリニック", "一般診療"],
+    "hours": "要確認",
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "mahameru-international-medical-centre",
+    "name": "Mahameru International Medical Centre",
+    "name_ja": "マハメル国際メディカルセンター",
+    "area": "Bangsar",
+    "address": "107 & 109 Jalan Maarof, Bangsar, 59000 Kuala Lumpur",
+    "phone": "+60322870988",
+    "website": "https://www.mahameru.com.my/",
+    "description": "バンサーにある国際メディカルセンター。総合内科・歯科を含む幅広い診療科を備える。日本人駐在員の利用も多く、バンサーエリアの在住者に便利な立地。",
+    "tags": ["総合医療", "歯科", "国際対応"],
+    "hours": "要確認",
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "sunway-medical-centre",
+    "name": "Sunway Medical Centre",
+    "name_ja": "サンウェイメディカルセンター",
+    "area": "Sunway",
+    "address": "5, Jalan Lagoon Selatan, Bandar Sunway, 47500 Subang Jaya, Selangor",
+    "phone": "+60374919191",
+    "website": "https://www.sunwaymedical.com/",
+    "description": "マレーシア有数の大型私立病院。国際患者センターを設置しており、日本語対応の通訳サービスを提供。高度な専門医療・手術・入院に対応可能で、重症時の受け入れ先として安心。",
+    "tags": ["総合病院", "国際患者センター", "入院可", "手術対応"],
+    "hours": "24時間（外来は診療科により異なる）",
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   }
 ]

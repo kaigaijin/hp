@@ -10,6 +10,9 @@ import {
   Globe,
   ChevronRight,
   ExternalLink,
+  AlertTriangle,
+  CheckCircle2,
+  Info,
 } from "lucide-react";
 
 export function generateStaticParams() {
@@ -174,8 +177,26 @@ export default async function CategoryPage({
                           ))}
                         </div>
 
-                        {/* 連絡先 */}
+                        {/* ステータス + 連絡先 */}
                         <div className="flex items-center gap-3 shrink-0">
+                          {spot.status === "reported_closed" && (
+                            <span className="hidden sm:flex items-center gap-1 text-xs text-red-500">
+                              <AlertTriangle size={10} />
+                              閉店の可能性
+                            </span>
+                          )}
+                          {(!spot.status || spot.status === "unverified") && (
+                            <span className="hidden sm:flex items-center gap-1 text-xs text-amber-500">
+                              <Info size={10} />
+                              未確認
+                            </span>
+                          )}
+                          {spot.status === "verified" && (
+                            <span className="hidden sm:flex items-center gap-1 text-xs text-green-500">
+                              <CheckCircle2 size={10} />
+                              確認済み
+                            </span>
+                          )}
                           {spot.phone && (
                             <span className="hidden sm:flex items-center gap-1 text-xs text-stone-400">
                               <Phone size={10} />

@@ -10,6 +10,8 @@ import {
   getSpotsByCategory,
 } from "@/lib/directory";
 import { getArticlesByCountry } from "@/lib/articles";
+import { statusConfig } from "@/lib/directory";
+import SpotReportForm from "@/components/SpotReportForm";
 import {
   MapPin,
   Phone,
@@ -19,6 +21,9 @@ import {
   ExternalLink,
   ArrowRight,
   Calendar,
+  AlertTriangle,
+  CheckCircle2,
+  Info,
 } from "lucide-react";
 import type { Metadata } from "next";
 
@@ -79,6 +84,7 @@ export default async function SpotDetailPage({
   if (!country || !category || !spot) notFound();
 
   const displayName = spot.name_ja ?? spot.name;
+  const spotStatus = spot.status ?? "unverified";
 
   // 同じカテゴリの他のスポット
   const sameCategory = getSpotsByCategory(code, catSlug)
@@ -189,7 +195,7 @@ export default async function SpotDetailPage({
             <h1 className="text-2xl font-bold text-stone-800 dark:text-stone-100">
               {displayName}
             </h1>
-            <div className="flex items-center gap-3 mt-2">
+            <div className="flex items-center gap-3 mt-2 flex-wrap">
               {spot.name_ja && (
                 <span className="text-sm text-stone-400">{spot.name}</span>
               )}
@@ -200,6 +206,19 @@ export default async function SpotDetailPage({
               <span className="text-xs text-ocean-600 dark:text-ocean-400 bg-ocean-50 dark:bg-ocean-900/30 px-2 py-0.5 rounded">
                 {category.name}
               </span>
+              {/* ステータスバッジ */}
+              {spotStatus === "verified" && (
+                <span className="inline-flex items-center gap-1 text-xs text-green-700 dark:text-green-400 bg-green-50 dark:bg-green-900/30 px-2 py-0.5 rounded">
+                  <CheckCircle2 size={10} />
+                  確認済み{spot.last_verified ? `（${spot.last_verified}）` : ""}
+                </span>
+              )}
+              {spotStatus === "reported_closed" && (
+                <span className="inline-flex items-center gap-1 text-xs text-red-700 dark:text-red-400 bg-red-50 dark:bg-red-900/30 px-2 py-0.5 rounded">
+                  <AlertTriangle size={10} />
+                  閉店の可能性あり
+                </span>
+              )}
             </div>
           </div>
         </div>
@@ -208,6 +227,24 @@ export default async function SpotDetailPage({
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
             {/* メインカラム */}
             <div className="lg:col-span-2 space-y-4">
+              {/* 未確認バナー */}
+              {spotStatus === "unverified" && (
+                <div className="flex items-start gap-3 bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 rounded-xl px-4 py-3">
+                  <Info size={16} className="text-amber-600 dark:text-amber-400 shrink-0 mt-0.5" />
+                  <p className="text-xs text-amber-700 dark:text-amber-300">
+                    この情報はWeb上の情報を元に掲載しています。最新情報は公式サイトをご確認ください。実際に訪問された方は、ページ下部から情報の更新にご協力ください。
+                  </p>
+                </div>
+              )}
+              {spotStatus === "reported_closed" && (
+                <div className="flex items-start gap-3 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-xl px-4 py-3">
+                  <AlertTriangle size={16} className="text-red-600 dark:text-red-400 shrink-0 mt-0.5" />
+                  <p className="text-xs text-red-700 dark:text-red-300">
+                    このスポットは閉店の可能性があるとの報告を受けています。訪問前に公式サイトや電話で営業状況をご確認ください。
+                  </p>
+                </div>
+              )}
+
               {/* アクションバー（モバイル向け） */}
               <div className="flex gap-2 lg:hidden">
                 {spot.phone && (
@@ -268,6 +305,14 @@ export default async function SpotDetailPage({
                   title={`${displayName}の地図`}
                 />
               </div>
+
+              {/* 情報更新フォーム */}
+              <SpotReportForm
+                country={code}
+                category={catSlug}
+                spotSlug={slug}
+                spotName={displayName}
+              />
 
               {/* 同じカテゴリのスポット */}
               {sameCategory.length > 0 && (

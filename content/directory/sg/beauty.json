@@ -8,9 +8,16 @@
     "phone": "+6562353845",
     "website": "https://aube-sg.com/jp/",
     "description": "日本人スタイリストによる日本品質の施術をリーズナブルな価格で提供する美容室。Wheelock Place・Marina Square・Somerset（Cineleisure）・Clarke Quay Centralの4店舗を展開。カット・カラー・パーマ・トリートメントに対応。",
-    "tags": ["日本語対応", "日本人スタイリスト", "複数店舗", "予約可"],
+    "tags": [
+      "日本語対応",
+      "日本人スタイリスト",
+      "複数店舗",
+      "予約可"
+    ],
     "hours": "10:00-20:00（毎日営業、最終受付19:00）",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "covo",
@@ -21,9 +28,17 @@
     "phone": "+6562259706",
     "website": "https://www.covosg.com/",
     "description": "East Coast・Tanjong Pagar・Boat Quay・Orchardの4店舗を展開する日系ヘアサロン。ロング料金なし。TOKIOインカラミやケラチントリートメントなど、髪質改善メニューが充実。日本語での電話予約可能。",
-    "tags": ["日本語対応", "日本人スタイリスト", "複数店舗", "ロング料金なし", "予約可"],
+    "tags": [
+      "日本語対応",
+      "日本人スタイリスト",
+      "複数店舗",
+      "ロング料金なし",
+      "予約可"
+    ],
     "hours": "平日 10:00-20:00 / 週末 10:00-19:00",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "hair-studio-flamingo",
@@ -34,9 +49,15 @@
     "phone": "+6587262116",
     "website": "https://www.hairstudioflamingo.com/",
     "description": "Tanjong PagarとTiong Bahruに2店舗を展開する日系美容室。シンガポールの高温多湿な気候でも扱いやすいヘアスタイルを提案。グリーンを取り入れたナチュラルな店内でリラックスできる空間。",
-    "tags": ["日本語対応", "日本人スタイリスト", "予約可"],
+    "tags": [
+      "日本語対応",
+      "日本人スタイリスト",
+      "予約可"
+    ],
     "hours": "10:00-20:30（毎日営業）",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "colors-hair-salon",
@@ -44,11 +65,18 @@
     "name_ja": "カラーズ",
     "area": "Clarke Quay",
     "address": "2 Havelock Road, #03-05/06 Havelock 2, Singapore 059763",
-    "phone": "",
+    "phone": null,
     "website": "https://colors-sg.com/",
     "description": "ビザジズム（顔型診断）を取り入れ、一人ひとりの個性に合わせたカット・カラーを提案する日系ヘアサロン。縮毛矯正や髪質改善トリートメントが得意。オーガニックヘナやアンモニアフリーカラーなど髪に優しい選択肢も豊富。",
-    "tags": ["日本語対応", "日本人スタイリスト", "髪質改善", "オーガニック対応"],
+    "tags": [
+      "日本語対応",
+      "日本人スタイリスト",
+      "髪質改善",
+      "オーガニック対応"
+    ],
     "hours": "10:00-20:00（毎日営業）",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   }
 ]

@@ -4,13 +4,19 @@
     "name": "Cuu's hair",
     "name_ja": "クーズヘア",
     "area": "Thonglor",
-    "address": "2F, Penny's Balcony, Soi Thonglor 16, Khlong Tan Nuea, Watthana, Bangkok",
+    "address": "2nd floor Room No.10A, Penny's Balcony, Soi Thonglor 16, Sukhumvit Rd 55, Khlong Tan Nuea, Wattana, Bangkok 10110",
     "phone": "+6620650909",
     "website": "https://cuushair.com",
-    "description": "2020年9月オープンのトンローにある日系ヘアサロン。日本人スタイリストが常駐し、言葉の不安なくカットやカラーの相談ができる。オーガニックトリートメントが人気メニュー。日本人・タイ人どちらにも支持されている。",
-    "tags": ["日本語対応", "予約可", "日本人スタイリスト"],
-    "hours": "月-金 9:00-20:00 / 土日祝 10:00-20:00（水曜・第2第4木曜定休）",
-    "last_verified": "2026-03-26"
+    "description": "2020年9月オープンのトンローにある日系ヘアサロン。日本人スタイリストが常駐し、言葉の不安なくカットやカラーの相談ができる。オーガニックトリートメントが充実。",
+    "tags": [
+      "日本語対応",
+      "予約可",
+      "日本人スタイリスト"
+    ],
+    "hours": "月金土日 9:00-20:00 / 火 9:00-18:00 / 木 9:00-17:00（水曜・第2第4木曜定休）",
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "yams-sukhumvit49",
@@ -19,23 +25,133 @@
     "area": "Sukhumvit",
     "address": "2F, Prime Mansion, Soi Sukhumvit 49/11, Khlong Tan Nuea, Watthana, Bangkok 10110",
     "phone": "+6621634973",
-    "website": "",
+    "website": null,
     "description": "「親子で通える」がコンセプトの日系美容院。キッズスペース・授乳スペース完備で、専任ベビーシッターも常駐。子連れのお母さんが安心してヘアケアを受けられる環境が整っている。ヘッドスパも好評。",
-    "tags": ["日本語対応", "予約可", "キッズスペース", "子連れ歓迎"],
+    "tags": [
+      "日本語対応",
+      "予約可",
+      "キッズスペース",
+      "子連れ歓迎"
+    ],
     "hours": "9:00-18:00（水曜・第2第4木曜定休）",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "balcony-thonglor",
     "name": "THE BALCONY",
     "name_ja": "ザ・バルコニー",
     "area": "Thonglor",
-    "address": "14 Soi Sukhumvit 47, Khwaeng Khlong Tan Nuea, Khet Watthana, Bangkok 10110",
+    "address": "14/1 Sukhumvit 47, Khwaeng Khlong Tan Nuea, Khet Watthana, Bangkok 10110",
     "phone": "+6621157714",
     "website": "https://balcony-hair.tokyo/",
-    "description": "「はちみつトリートメント」と「透けるカラー」が人気の日本人美容院。バンコクの水質やUVによる髪のダメージケアに特化したメニューが充実。BTSトンローから徒歩約10分。プラカノンにも支店あり。",
-    "tags": ["日本語対応", "予約可", "トリートメント", "複数店舗"],
+    "description": "「はちみつトリートメント」と「透けるカラー」が特徴の日本人美容院。バンコクの水質やUVによる髪のダメージケアに特化したメニューが充実。プラカノンにも支店あり。",
+    "tags": [
+      "日本語対応",
+      "予約可",
+      "トリートメント",
+      "複数店舗"
+    ],
     "hours": "9:00-18:00（火曜・第3水曜定休）",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "hair-atelier-ador-thonglor",
+    "name": "Hair Atelier ADOR",
+    "name_ja": "ヘアアトリエ アドール",
+    "area": "Thonglor",
+    "address": "822/231 Soi Sukhumvit 55 (Thonglor), Klongton-Nua, Wattana, Bangkok 10110",
+    "phone": "+66840448900",
+    "website": "https://a-dor.net/",
+    "description": "トンローにある日系ヘアサロン。日本人スタイリストが在籍し、カット・カラー・パーマからヘッドスパまで対応。LINE・フォーム・電話で予約可能。",
+    "tags": [
+      "日本語対応",
+      "予約可",
+      "日本人スタイリスト"
+    ],
+    "hours": "10:00-19:00（水曜定休）",
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "uru-salon-sukhumvit43",
+    "name": "URU SALON",
+    "name_ja": "ウルサロン",
+    "area": "Phrom Phong",
+    "address": "11/3 Soi Sukhumvit 43, Bangkok",
+    "phone": "+66800049066",
+    "website": "https://uru-salon.com/",
+    "description": "スクンビットソイ43にある日系ヘアサロン。「ヘアクリニック」をコンセプトに、髪のダメージや悩みに寄り添った施術を提供。LINE(@urusalon)または電話で予約可能。現金のみ。",
+    "tags": [
+      "日本語対応",
+      "予約可",
+      "ヘアクリニック"
+    ],
+    "hours": "9:00-18:00（火曜定休）",
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "neve-hair-salon-phrom-phong",
+    "name": "neve hair salon",
+    "name_ja": "ネーブ ヘアサロン",
+    "area": "Phrom Phong",
+    "address": "2nd Floor 595/3-4 Sukhumvit 33/1, Sukhumvit Rd, Klongton Nua, Watthana, Bangkok 10110",
+    "phone": "+66902796900",
+    "website": "https://neve-hair.com/",
+    "description": "BTSプロンポン駅から徒歩3分の日系美容院。フジスーパー近く、Watts向かいに位置。カット最終受付17:00、パーマ・カラー最終受付16:00。",
+    "tags": [
+      "日本語対応",
+      "予約可",
+      "駅近"
+    ],
+    "hours": "9:00-18:00（日曜・月曜定休）",
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "106hair-base-sukhumvit39",
+    "name": "106 HAIR STUDIO BASE",
+    "name_ja": "106ヘアスタジオ ベース",
+    "area": "Phrom Phong",
+    "address": "Soi Sukhumvit 39, Bangkok",
+    "phone": "+6626627106",
+    "website": "https://106.co.th/",
+    "description": "スクンビットソイ39にある日系ヘアサロン。シーロム（ANNEX ReMAKE）、トンロー（lilac by 106hair）にも店舗展開。LINE・アプリ・Webから予約可能。",
+    "tags": [
+      "日本語対応",
+      "予約可",
+      "複数店舗"
+    ],
+    "hours": "要確認",
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "akru-asoke",
+    "name": "akru",
+    "name_ja": "アクル",
+    "area": "Asoke",
+    "address": "399 Interchange Bld., UL FL., Sukhumvit Rd, Khlong Toei Nuea, Bangkok",
+    "phone": "+6626112511",
+    "website": "https://akru-bkk.com/",
+    "description": "アソーク・ルンピニ・チットロムの3店舗を展開する日系ヘアサロン。年中無休で、平日は20時まで営業。LINE・電話で予約可能。",
+    "tags": [
+      "日本語対応",
+      "予約可",
+      "複数店舗",
+      "年中無休"
+    ],
+    "hours": "月-金 10:00-20:00 / 土日 10:00-19:00",
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   }
 ]
