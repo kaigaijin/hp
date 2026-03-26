@@ -36,7 +36,12 @@ function sendNotification(
       subject: `[${label}] ${company || name} — Kaigaijin`,
       text: `Kaigaijinにお問い合わせがありました。\n\n種別: ${label}\n氏名: ${name}\n会社名: ${company || "未入力"}\nメール: ${email}\n\n--- メッセージ ---\n${message}\n\n※ Supabase inquiries テーブルにも保存済みです。`,
     })
-    .catch(() => {});
+    .then((result) => {
+      console.log("[Resend] 送信成功:", JSON.stringify(result));
+    })
+    .catch((err) => {
+      console.error("[Resend] 送信失敗:", err);
+    });
 }
 
 export async function POST(req: NextRequest) {
