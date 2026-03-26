@@ -73,5 +73,50 @@
     "last_verified": "2026-03-26",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "nihon-premium-dental",
+    "name": "Nihon Premium Clinic (Dental)",
+    "name_ja": "ニホンプレミアムクリニック（歯科）",
+    "area": "Novena",
+    "address": "10 Sinaran Drive, Novena Medical Centre, Singapore 307506",
+    "phone": "+6563976861",
+    "website": "https://nihonpremiumclinic.com/",
+    "description": "Nihon Premium Clinicに併設された歯科部門。日本語対応スタッフが在籍し、一般歯科・予防歯科に対応。Novena Medical Centre内にあり、医科と歯科を同じ施設で受診できる。",
+    "tags": ["日本語対応", "医科併設", "一般歯科", "予防歯科"],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "atria-city-dental-japanese",
+    "name": "Atria City Dental Group",
+    "name_ja": "アトリアシティデンタルグループ",
+    "area": "Orchard",
+    "address": "391B Orchard Road, #08-08 Ngee Ann City Tower B, Singapore 238874",
+    "phone": null,
+    "website": null,
+    "description": "Ngee Ann City Tower B内にある歯科クリニック。日本人歯科医が在籍しており、日本語での歯科診療が可能。Orchard MRT駅から徒歩圏内の便利な立地。",
+    "tags": ["日本語対応", "日本人歯科医", "一般歯科"],
+    "hours": "月〜金: 9:00-18:00 / 土: 8:30-13:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "cotovia-dental",
+    "name": "Cotovia Dental Clinic",
+    "name_ja": "ことびあデンタルクリニック",
+    "area": "River Valley",
+    "address": "207 River Valley Road, UE Square, Singapore 238275",
+    "phone": "+6565179570",
+    "website": "https://cotoviaclinic.sg/",
+    "description": "ことびあクリニック併設の歯科。日本語対応で年中無休。LINEでの予約・相談が可能。一般歯科・予防歯科に対応し、オンラインでの事前相談も可能。",
+    "tags": ["日本語対応", "年中無休", "LINE対応"],
+    "hours": "9:30-17:30（年中無休）",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
   }
 ]

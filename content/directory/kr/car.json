@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "lotte-rent-a-car-seoul",
+    "name": "Lotte Rent-A-Car",
+    "name_ja": "ロッテレンタカー",
+    "area": "Seoul",
+    "address": "ソウル市内および空港に複数拠点",
+    "phone": null,
+    "website": "https://www.lotterentacar.net/",
+    "description": "韓国最大手のレンタカー会社。仁川空港・金浦空港・ソウル市内に多数の営業所。日本語対応の予約サイトがあり、外国人でも国際免許証で利用可能。ナビは日本語設定可能な車種あり。",
+    "tags": ["レンタカー", "日本語サイト", "空港対応", "大手"],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "welcome-to-korea-car-service",
+    "name": "Welcome to Korea Car Service",
+    "name_ja": "ウェルカムトゥコリア カーサービス",
+    "area": "Seoul",
+    "address": "Seoul",
+    "phone": null,
+    "website": "https://www.welcome-to-korea.com/",
+    "description": "運転手付きチャーター車サービス。空港送迎、市内観光、ビジネス利用に対応。英語・日本語対応のドライバーを手配可能。韓国での運転に不安がある方や接待時の車手配に便利。",
+    "tags": ["チャーター", "運転手付き", "空港送迎", "日本語対応"],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sk-rent-a-car-seoul",
+    "name": "SK Rent-A-Car",
+    "name_ja": "SKレンタカー",
+    "area": "Seoul",
+    "address": "ソウル市内および空港に複数拠点",
+    "phone": null,
+    "website": null,
+    "description": "韓国の大手レンタカー会社。仁川・金浦空港でのピックアップ・ドロップオフに対応。英語対応スタッフが在籍し、国際免許証での利用が可能。法人契約も対応。",
+    "tags": ["レンタカー", "空港対応", "英語対応"],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  }
+]

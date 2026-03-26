@@ -88,5 +88,50 @@
     "last_verified": "2026-03-26",
     "status": "verified",
     "source": "website"
+  },
+  {
+    "slug": "daiso-japan-plaza-singapura",
+    "name": "Daiso Japan",
+    "name_ja": "ダイソー",
+    "area": "Orchard",
+    "address": "68 Orchard Road, #05-01 Plaza Singapura, Singapore 238839",
+    "phone": null,
+    "website": "https://www.daisosg.com/",
+    "description": "日本の100円ショップ・ダイソーのシンガポール店。日本製の文具・キッチン用品・収納グッズ・お菓子・弁当箱など幅広い雑貨を均一価格で販売。シンガポール国内に50店舗以上を展開。",
+    "tags": ["日本雑貨", "キッチン用品", "文具", "均一価格", "複数店舗"],
+    "hours": "10:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "tokyu-hands-nex",
+    "name": "Tokyu Hands",
+    "name_ja": "東急ハンズ",
+    "area": "Serangoon",
+    "address": "23 Serangoon Central, #03-01, NEX, Singapore 556083",
+    "phone": null,
+    "website": "https://www.tokyuhandsonline.sg/",
+    "description": "日本のライフスタイル雑貨チェーン。文具・コスメ・キッチングッズ・旅行用品・DIY用品など、日本のクリエイティブな製品を豊富に取り揃える。NEX・Suntec Cityなどに出店。",
+    "tags": ["日本雑貨", "文具", "コスメ", "DIY", "複数店舗"],
+    "hours": "10:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "japan-home",
+    "name": "Japan Home",
+    "name_ja": "ジャパンホーム",
+    "area": "Clementi",
+    "address": "3155 Commonwealth Ave West, #02-29/30/31, Clementi Mall, Singapore 129588",
+    "phone": null,
+    "website": null,
+    "description": "日本製・アジア製の日用品・キッチン用品・収納用品・文具などを取り扱うリテールチェーン。シンガポール全土に40店舗以上を展開し、手頃な価格で日本の生活雑貨が手に入る。",
+    "tags": ["日用品", "キッチン用品", "収納", "均一価格", "複数店舗"],
+    "hours": "10:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
   }
 ]

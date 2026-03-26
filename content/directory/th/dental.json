@@ -56,5 +56,50 @@
     "last_verified": "2026-03-26",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "pacific-dental-thonglor",
+    "name": "Pacific Dental Care",
+    "name_ja": "パシフィック デンタルケア",
+    "area": "Thonglor",
+    "address": "Soi Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "トンロー地区にある歯科クリニック。日本語対応スタッフが在籍し、一般歯科・審美歯科・矯正歯科に対応。日本人患者の受け入れ実績が豊富で、海外旅行保険の手続きサポートも行う。",
+    "tags": ["日本語対応", "審美歯科", "保険対応"],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "samitivej-dental-center",
+    "name": "Samitivej Dental Center",
+    "name_ja": "サミティヴェート デンタルセンター",
+    "area": "Sukhumvit",
+    "address": "133 Sukhumvit 49, Klongtan Nua, Vadhana, Bangkok 10110",
+    "phone": "+6620222222",
+    "website": "https://samitivej-jp.com/sukhumvit/",
+    "description": "サミティヴェート病院内の歯科センター。日本語通訳が常駐する病院の一部として、安心して歯科治療を受けられる。一般歯科から口腔外科、矯正歯科まで幅広く対応。",
+    "tags": ["日本語対応", "病院内歯科", "口腔外科"],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "dym-dental-clinic",
+    "name": "DYM Dental Clinic",
+    "name_ja": "DYMデンタルクリニック",
+    "area": "Phrom Phong",
+    "address": "593/10 Sukhumvit Road, Klongton-Nua, Wattana, Bangkok 10110",
+    "phone": "+6621071039",
+    "website": "https://dymclinic.com/",
+    "description": "DYMインターナショナルクリニック内の歯科部門。予約から治療まですべて日本語で対応。虫歯治療、歯周病治療、クリーニング、ホワイトニングに対応。トンロー院にも歯科あり。",
+    "tags": ["日本語対応", "日系クリニック", "ホワイトニング"],
+    "hours": "平日 8:00-20:00 / 土日祝 8:00-17:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
   }
 ]

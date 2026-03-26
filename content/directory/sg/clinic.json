@@ -103,5 +103,50 @@
     "last_verified": "2026-03-26",
     "status": "verified",
     "source": "website"
+  },
+  {
+    "slug": "raffles-japanese-clinic-river-valley",
+    "name": "Raffles Japanese Clinic (River Valley)",
+    "name_ja": "ラッフルズジャパニーズクリニック（リバーバレー）",
+    "area": "River Valley",
+    "address": "177 River Valley Road, #B1-07 Liang Court Shopping Centre, Singapore 179030",
+    "phone": "+6563111190",
+    "website": "https://rafflesj-clinic.com/",
+    "description": "ラッフルズジャパニーズクリニックのリバーバレー分院。畑正子医師・畑茂医師が在籍し、日本語での診療を提供。River Valleyエリアの日本人居住者に便利な立地。",
+    "tags": ["日本語対応", "日本人医師", "予約可"],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "japan-clinic-and-surgery",
+    "name": "Japan Clinic And Surgery",
+    "name_ja": "ジャパンクリニック&サージェリー",
+    "area": "Kallang",
+    "address": "Block 53, Geylang Bahru, #01-3537, Singapore 330053",
+    "phone": null,
+    "website": null,
+    "description": "カラン地区にある日系クリニック。一般診療を提供。日本人コミュニティに利用されている。",
+    "tags": ["日本語対応", "一般診療"],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "tokyo-garden-clinic",
+    "name": "Tokyo Garden Medical Aesthetic Clinic",
+    "name_ja": "東京ガーデン メディカルエステティッククリニック",
+    "area": "Orchard",
+    "address": "290 Orchard Road, #14-08 Paragon, Singapore 238859",
+    "phone": null,
+    "website": "https://tokyogarden-clinic.com/",
+    "description": "日本式メディカルエステティッククリニック。美容皮膚科・レーザー治療・ボトックス・フィラーなどの美容医療を提供。日本のスキンケア技術を取り入れた施術が特徴。",
+    "tags": ["美容医療", "皮膚科", "レーザー治療"],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
   }
 ]

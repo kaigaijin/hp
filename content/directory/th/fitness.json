@@ -38,5 +38,50 @@
     "last_verified": "2026-03-26",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "ingram-muay-thai-gym",
+    "name": "Ingram Muay Thai Gym",
+    "name_ja": "イングラム ムエタイジム",
+    "area": "Sukhumvit",
+    "address": "Bangkok, Thailand",
+    "phone": null,
+    "website": "https://ingrampromotion.com/",
+    "description": "バンコク室内最大級のムエタイジム。日本人トレーナーが在籍し、初心者から上級者まで対応。本格的なムエタイトレーニングを日本語で受けられる。ダイエットや体力づくりにも最適。",
+    "tags": ["日本語対応", "ムエタイ", "日本人トレーナー"],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "anytime-fitness-sukhumvit",
+    "name": "Anytime Fitness Sukhumvit",
+    "name_ja": "エニタイムフィットネス スクンビット",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Bangkok 10110",
+    "phone": null,
+    "website": "https://www.anytimefitness.co.th/",
+    "description": "24時間365日利用可能なグローバルフィットネスチェーン。世界28カ国・4,500以上の店舗で追加料金なしで利用可能。バンコク市内にも多数店舗があり、日本と同じ会員カードで入れる。",
+    "tags": ["24時間", "フィットネス", "グローバルチェーン"],
+    "hours": "24時間",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "vons-fitness-asoke",
+    "name": "VonsFitness247 Asoke",
+    "name_ja": "ヴォンズフィットネス247 アソーク",
+    "area": "Asoke",
+    "address": "Asoke area, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "アソークの24時間営業ジム。日本人パーソナルトレーナーのあき大野氏が利用・紹介する隠れ家的なジム。マシンとフリーウェイトが充実し、混雑が少なく集中してトレーニングできる環境。",
+    "tags": ["24時間", "フィットネス", "隠れ家"],
+    "hours": "24時間",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]
