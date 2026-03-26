@@ -49,7 +49,7 @@ export default function ContactForm() {
           送信しました
         </h3>
         <p className="text-stone-500 dark:text-stone-400">
-          2営業日以内にご返信いたします。
+          お問い合わせを受け付けました。内容を確認次第、ご連絡いたします。
         </p>
       </div>
     );

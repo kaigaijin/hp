@@ -293,7 +293,7 @@ export default function AdvertisePage() {
               <p className="text-stone-500 dark:text-stone-400 leading-relaxed mt-8">
                 広告掲載に関するご質問・ご相談はお気軽にどうぞ。
                 <br />
-                通常2営業日以内にご返信いたします。
+                内容を確認次第、ご連絡いたします。
               </p>
             </div>
             <ContactForm />
