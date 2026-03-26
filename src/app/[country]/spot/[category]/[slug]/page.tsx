@@ -9,7 +9,6 @@ import {
   getSpot,
   getSpotsByCategory,
 } from "@/lib/directory";
-import { getArticlesByCountry } from "@/lib/articles";
 import { statusConfig } from "@/lib/directory";
 import SpotReportForm from "@/components/SpotReportForm";
 import {
@@ -19,8 +18,6 @@ import {
   Clock,
   ChevronRight,
   ExternalLink,
-  ArrowRight,
-  Calendar,
   AlertTriangle,
   CheckCircle2,
   Info,
@@ -90,9 +87,6 @@ export default async function SpotDetailPage({
   const sameCategory = getSpotsByCategory(code, catSlug)
     .filter((s) => s.slug !== slug)
     .slice(0, 5);
-
-  // 関連記事
-  const relatedArticles = getArticlesByCountry(code).slice(0, 3);
 
   // JSON-LD 構造化データ（LocalBusiness）
   const jsonLd = {
@@ -353,38 +347,6 @@ export default async function SpotDetailPage({
                 </div>
               )}
 
-              {/* 関連記事 */}
-              {relatedArticles.length > 0 && (
-                <div className="bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700">
-                  <div className="px-5 py-3 border-b border-stone-100 dark:border-stone-700">
-                    <h2 className="text-sm font-semibold text-stone-700 dark:text-stone-200">
-                      {country.name}の関連記事
-                    </h2>
-                  </div>
-                  <div className="divide-y divide-stone-100 dark:divide-stone-700">
-                    {relatedArticles.map((article) => (
-                      <Link
-                        key={article.slug}
-                        href={`/${code}/${article.slug}`}
-                        className="flex items-center gap-3 px-5 py-3 hover:bg-stone-50 dark:hover:bg-stone-700/50 transition-colors group"
-                      >
-                        <div className="flex-1 min-w-0">
-                          <p className="text-sm font-medium text-stone-700 dark:text-stone-200 truncate group-hover:text-ocean-700 dark:group-hover:text-ocean-400 transition-colors">
-                            {article.title}
-                          </p>
-                          <span className="text-xs text-stone-400">
-                            {article.category}
-                          </span>
-                        </div>
-                        <ArrowRight
-                          size={14}
-                          className="text-stone-300 dark:text-stone-600 shrink-0"
-                        />
-                      </Link>
-                    ))}
-                  </div>
-                </div>
-              )}
             </div>
 
             {/* サイドバー */}
