@@ -34,6 +34,40 @@ function sendNotification(
     .catch(() => {});
 }
 
+export async function GET(req: NextRequest) {
+  const country = req.nextUrl.searchParams.get("country");
+  const category = req.nextUrl.searchParams.get("category");
+  const slug = req.nextUrl.searchParams.get("slug");
+
+  if (!country || !category || !slug) {
+    return NextResponse.json({ visited: 0 }, { status: 400 });
+  }
+
+  const res = await fetch(
+    `${SUPABASE_URL}/rest/v1/spot_reports?country=eq.${encodeURIComponent(country)}&category=eq.${encodeURIComponent(category)}&spot_slug=eq.${encodeURIComponent(slug)}&report_type=eq.visited&select=id,comment,created_at&order=created_at.desc`,
+    {
+      headers: {
+        apikey: SUPABASE_KEY,
+        Authorization: `Bearer ${SUPABASE_KEY}`,
+      },
+      next: { revalidate: 30 },
+    }
+  );
+
+  if (!res.ok) {
+    return NextResponse.json({ visited: 0, comments: [] });
+  }
+
+  const data = await res.json();
+  const comments = data
+    .filter((r: { comment: string | null }) => r.comment)
+    .map((r: { comment: string; created_at: string }) => ({
+      comment: r.comment,
+      created_at: r.created_at,
+    }));
+  return NextResponse.json({ visited: data.length, comments });
+}
+
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { CheckCircle, XCircle, Pencil, Send, Loader2, ThumbsUp } from "lucide-react";
 
 type ReportType = "visited" | "closed" | "correction";
@@ -21,6 +21,25 @@ export default function SpotReportForm({
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState("");
+  const [visitedCount, setVisitedCount] = useState(0);
+  const [visitComments, setVisitComments] = useState<{ comment: string; created_at: string }[]>([]);
+
+  const fetchData = useCallback(async () => {
+    try {
+      const res = await fetch(
+        `/api/spot-reports?country=${country}&category=${category}&slug=${spotSlug}`
+      );
+      if (res.ok) {
+        const data = await res.json();
+        setVisitedCount(data.visited);
+        setVisitComments(data.comments ?? []);
+      }
+    } catch {}
+  }, [country, category, spotSlug]);
+
+  useEffect(() => {
+    fetchData();
+  }, [fetchData]);
 
   async function handleSubmit(type: ReportType, body?: string) {
     setSubmitting(true);
@@ -39,6 +58,15 @@ export default function SpotReportForm({
         }),
       });
       if (res.ok) {
+        if (type === "visited") {
+          setVisitedCount((c) => c + 1);
+          if (body?.trim()) {
+            setVisitComments((prev) => [
+              { comment: body.trim(), created_at: new Date().toISOString() },
+              ...prev,
+            ]);
+          }
+        }
         setSubmitted(true);
         setComment("");
         setSelected(null);
@@ -83,23 +111,21 @@ export default function SpotReportForm({
       <div className="px-5 pb-4 flex flex-wrap gap-2">
         <button
           type="button"
-          onClick={() => {
-            if (selected === "visited") {
-              setSelected(null);
-            } else {
-              setSelected(null);
-              handleSubmit("visited");
-            }
-          }}
+          onClick={() => setSelected(selected === "visited" ? null : "visited")}
           disabled={submitting}
           className={`inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full text-sm font-medium transition-all border ${
-            submitting
+            selected === "visited"
+              ? "border-green-400 dark:border-green-600 text-green-700 dark:text-green-400 bg-green-50 dark:bg-green-900/30"
+              : submitting
               ? "opacity-50 cursor-not-allowed border-stone-200 dark:border-stone-600 text-stone-400"
               : "border-green-200 dark:border-green-800 text-green-700 dark:text-green-400 bg-green-50 dark:bg-green-900/20 hover:bg-green-100 dark:hover:bg-green-900/40 hover:border-green-300 active:scale-95"
           }`}
         >
           <ThumbsUp size={14} />
           行ってきた
+          {visitedCount > 0 && (
+            <span className="ml-0.5 text-xs opacity-70">{visitedCount}</span>
+          )}
         </button>
 
         <button
@@ -135,7 +161,27 @@ export default function SpotReportForm({
         </button>
       </div>
 
-      {/* 展開エリア: 閉店・修正を選んだときだけコメント欄を表示 */}
+      {/* 訪問者コメント一覧 */}
+      {visitComments.length > 0 && (
+        <div className="px-5 pb-4 space-y-2">
+          <p className="text-xs font-medium text-stone-400 dark:text-stone-500">
+            訪問者の声
+          </p>
+          {visitComments.map((vc, i) => (
+            <div key={i} className="flex gap-2 items-start">
+              <ThumbsUp size={12} className="text-green-500 shrink-0 mt-0.5" />
+              <div>
+                <p className="text-sm text-stone-600 dark:text-stone-300">{vc.comment}</p>
+                <p className="text-xs text-stone-400 mt-0.5">
+                  {new Date(vc.created_at).toLocaleDateString("ja-JP", { year: "numeric", month: "short", day: "numeric" })}
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+
+      {/* 展開エリア: いずれかを選んだときコメント欄を表示 */}
       {selected && (
         <form
           onSubmit={(e) => {
@@ -148,7 +194,9 @@ export default function SpotReportForm({
             value={comment}
             onChange={(e) => setComment(e.target.value)}
             placeholder={
-              selected === "closed"
+              selected === "visited"
+                ? "訪問日や気づいたことがあれば（任意）"
+                : selected === "closed"
                 ? "閉店の状況を教えてください（移転先がわかれば記載）"
                 : "修正内容を記載してください（住所・電話番号・営業時間など）"
             }
