@@ -14,6 +14,7 @@ import {
 export default function Home() {
   const phase1 = countries.filter((c) => c.phase === 1);
   const phase2 = countries.filter((c) => c.phase === 2);
+  const phase3 = countries.filter((c) => c.phase === 3);
 
   return (
     <>
@@ -156,7 +157,7 @@ export default function Home() {
             </div>
 
             {/* Phase 2 */}
-            <div>
+            <div className="mb-16">
               <div className="flex items-center gap-3 mb-2">
                 <Plane className="text-sand-600 dark:text-sand-400" size={20} />
                 <span className="text-xs font-semibold text-sand-600 dark:text-sand-400 tracking-widest uppercase">
@@ -168,6 +169,24 @@ export default function Home() {
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {phase2.map((c) => (
+                  <CountryCard key={c.code} country={c} />
+                ))}
+              </div>
+            </div>
+
+            {/* Phase 3 */}
+            <div>
+              <div className="flex items-center gap-3 mb-2">
+                <Globe className="text-stone-400 dark:text-stone-500" size={20} />
+                <span className="text-xs font-semibold text-stone-400 dark:text-stone-500 tracking-widest uppercase">
+                  準備中
+                </span>
+              </div>
+              <h2 className="heading-editorial text-2xl font-bold mb-8">
+                そのあとのエリア
+              </h2>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                {phase3.map((c) => (
                   <CountryCard key={c.code} country={c} />
                 ))}
               </div>
@@ -199,7 +218,7 @@ export default function Home() {
                   icon: TrendingUp,
                 },
                 {
-                  number: "6カ国+",
+                  number: "9カ国+",
                   label: "カバー予定",
                   icon: Plane,
                 },
