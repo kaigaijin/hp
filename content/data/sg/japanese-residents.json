@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "source": "外務省「海外在留邦人数調査統計」各年版、シンガポール新聞社報道、在シンガポール日本国大使館発表",
+    "lastVerified": "2026-03-08",
+    "notes": "各年10月1日現在の在留届ベース。2019年・2020年の内訳および2000年〜2009年のデータは外務省PDF統計からの推計値を含む（estimated: trueで明示）。2025年データは2026年1月公表の最新統計。"
+  },
+  "data": {
+    "yearlyPopulation": [
+      { "year": 2000, "total": 20717, "longTerm": null, "permanent": null, "estimated": true, "source": "外務省統計（推計）" },
+      { "year": 2001, "total": 21085, "longTerm": null, "permanent": null, "estimated": true, "source": "外務省統計（推計）" },
+      { "year": 2002, "total": 21452, "longTerm": null, "permanent": null, "estimated": true, "source": "外務省統計（推計）" },
+      { "year": 2003, "total": 21720, "longTerm": null, "permanent": null, "estimated": true, "source": "外務省統計（推計）" },
+      { "year": 2004, "total": 22297, "longTerm": null, "permanent": null, "estimated": true, "source": "外務省統計（推計）" },
+      { "year": 2005, "total": 23050, "longTerm": null, "permanent": null, "estimated": true, "source": "外務省統計（推計）" },
+      { "year": 2006, "total": 23890, "longTerm": null, "permanent": null, "estimated": true, "source": "外務省統計（推計）" },
+      { "year": 2007, "total": 24735, "longTerm": null, "permanent": null, "estimated": true, "source": "外務省統計（推計）" },
+      { "year": 2008, "total": 25386, "longTerm": null, "permanent": null, "estimated": true, "source": "外務省統計（推計）" },
+      { "year": 2009, "total": 23935, "longTerm": null, "permanent": null, "estimated": true, "source": "外務省統計（推計・リーマンショック影響）" },
+      { "year": 2010, "total": 24548, "longTerm": null, "permanent": null, "estimated": false, "source": "外務省統計" },
+      { "year": 2011, "total": 26032, "longTerm": null, "permanent": null, "estimated": true, "source": "外務省統計（推計）" },
+      { "year": 2012, "total": 28297, "longTerm": null, "permanent": null, "estimated": true, "source": "外務省統計（推計）" },
+      { "year": 2013, "total": 31038, "longTerm": null, "permanent": null, "estimated": false, "source": "外務省統計・AsiaX報道" },
+      { "year": 2014, "total": 33824, "longTerm": null, "permanent": null, "estimated": true, "source": "外務省統計（推計）" },
+      { "year": 2015, "total": 36963, "longTerm": 35258, "permanent": 1705, "estimated": false, "source": "外務省統計" },
+      { "year": 2016, "total": 37504, "longTerm": 34977, "permanent": 2527, "estimated": false, "source": "外務省統計・在シンガポール日本国大使館" },
+      { "year": 2017, "total": 36423, "longTerm": 33645, "permanent": 2778, "estimated": false, "source": "外務省統計" },
+      { "year": 2018, "total": 36624, "longTerm": 33883, "permanent": 2741, "estimated": false, "source": "外務省統計・シンガポール新聞社" },
+      { "year": 2019, "total": 36797, "longTerm": 33892, "permanent": 2905, "estimated": true, "source": "外務省統計（推計）" },
+      { "year": 2020, "total": 36585, "longTerm": 33202, "permanent": 3383, "estimated": true, "source": "外務省統計（推計・コロナ初年度）" },
+      { "year": 2021, "total": 36200, "longTerm": 32768, "permanent": 3432, "estimated": false, "source": "外務省統計・シンガポール新聞社" },
+      { "year": 2022, "total": 32743, "longTerm": 28711, "permanent": 4032, "estimated": false, "source": "外務省統計・シンガポール新聞社" },
+      { "year": 2023, "total": 31366, "longTerm": 26773, "permanent": 4593, "estimated": false, "source": "外務省統計・シンガポール新聞社" },
+      { "year": 2024, "total": 32565, "longTerm": 27713, "permanent": 4852, "estimated": false, "source": "外務省統計・シンガポール新聞社" },
+      { "year": 2025, "total": 33397, "longTerm": 28549, "permanent": 4848, "estimated": false, "source": "外務省統計・シンガポール新聞社" }
+    ],
+    "forecast": [
+      { "year": 2027, "estimated": 34500, "range": { "low": 33000, "high": 36000 }, "basis": "2024-2025年の回復トレンド（年+800〜1,200人）の継続を想定。COMPASS制度による駐在員減と、永住者・現地採用増が相殺" },
+      { "year": 2028, "estimated": 35200, "range": { "low": 33500, "high": 37000 }, "basis": "EP給与引き上げの更新申請適用（2026年7月〜）の影響が一巡。長期滞在者の回復が鈍化する可能性" },
+      { "year": 2029, "estimated": 35800, "range": { "low": 34000, "high": 37500 }, "basis": "シンガポール経済の安定成長（GDP成長率2-3%想定）に伴う日系企業の事業拡大" },
+      { "year": 2030, "estimated": 36500, "range": { "low": 34500, "high": 38500 }, "basis": "2016年のピーク（37,504人）に近い水準への回復を想定。ただしCOMPASS制度の厳格化が続けば下振れリスク" }
+    ],
+    "cityComparison2024": [
+      { "city": "ロサンゼルス都市圏", "country": "アメリカ", "residents": 63508, "rank": 1 },
+      { "city": "バンコク", "country": "タイ", "residents": 50146, "rank": 2 },
+      { "city": "ニューヨーク都市圏", "country": "アメリカ", "residents": 37345, "rank": 3 },
+      { "city": "上海", "country": "中国", "residents": 34681, "rank": 4 },
+      { "city": "シンガポール", "country": "シンガポール", "residents": 32565, "rank": 5 },
+      { "city": "シドニー都市圏", "country": "オーストラリア", "residents": 30988, "rank": 6 },
+      { "city": "ロンドン", "country": "イギリス", "residents": 28854, "rank": 7 },
+      { "city": "サンフランシスコ都市圏", "country": "アメリカ", "residents": 18792, "rank": 8 },
+      { "city": "香港", "country": "中国（香港）", "residents": 18125, "rank": 9 },
+      { "city": "バンクーバー都市圏", "country": "カナダ", "residents": 17890, "rank": 10 }
+    ]
+  }
+}

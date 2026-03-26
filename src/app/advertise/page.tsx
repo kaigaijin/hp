@@ -150,9 +150,9 @@ export default function AdvertisePage() {
                 なぜKaigaijinなのか
               </h2>
               <p className="text-stone-500 dark:text-stone-400 leading-relaxed mt-8">
-                海外在住日本人に日本語でリーチできるメディアは、ほとんど存在しません。
+                海外在住日本人は約129万人。国ごとの生活情報を日本語で深く発信するメディアはKaigaijinだけです。
                 <br />
-                Kaigaijinは、その空白を埋める国内唯一の国別特化メディアです。
+                御社のサービスを、まさにそれを必要としている読者に届けます。
               </p>
             </div>
 

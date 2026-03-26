@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "source": [
+      "https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility",
+      "https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility/compass-c1-salary-benchmarks"
+    ],
+    "lastVerified": "2026-03-08",
+    "notes": "2025年1月1日改定の最低給与要件を反映。COMPASS制度は2024年9月から全EP新規申請に適用。更新申請は2026年1月1日から新基準適用。"
+  },
+  "data": {
+    "minimumSalary": {
+      "general": {
+        "amount": 5600,
+        "currency": "SGD",
+        "jpyEquivalent": 616000,
+        "effectiveDate": "2025-01-01",
+        "note": "年齢が上がるほど要件額も上昇。45歳以上はSGD 10,700/月"
+      },
+      "financialServices": {
+        "amount": 6200,
+        "currency": "SGD",
+        "jpyEquivalent": 682000,
+        "effectiveDate": "2025-01-01",
+        "note": "年齢が上がるほど要件額も上昇。45歳以上はSGD 11,800/月"
+      },
+      "ageBased": [
+        { "ageRange": "20代", "general": 5600, "financialServices": 6200, "estimated": true },
+        { "ageRange": "30代前半", "general": 6500, "financialServices": 7200, "estimated": true },
+        { "ageRange": "30代後半", "general": 7500, "financialServices": 8300, "estimated": true },
+        { "ageRange": "40代前半", "general": 9200, "financialServices": 10200, "estimated": true },
+        { "ageRange": "45歳以上", "general": 10700, "financialServices": 11800 }
+      ]
+    },
+    "compassExemption": {
+      "salaryThreshold": 22500,
+      "currency": "SGD",
+      "note": "月額固定給与SGD 22,500以上の場合、COMPASSは免除"
+    },
+    "compass": {
+      "passingScore": 40,
+      "maxScore": 90,
+      "effectiveDate": "2024-09-01",
+      "criteria": [
+        {
+          "id": "C1",
+          "name": "給与（Salary）",
+          "description": "同業種・年齢帯の現地PMET給与中央値との比較",
+          "maxPoints": 20,
+          "scoring": [
+            { "points": 0, "condition": "65パーセンタイル未満" },
+            { "points": 10, "condition": "65パーセンタイル以上" },
+            { "points": 20, "condition": "90パーセンタイル以上" }
+          ]
+        },
+        {
+          "id": "C2",
+          "name": "学歴（Qualifications）",
+          "description": "候補者の学歴・大学ランキング等",
+          "maxPoints": 20,
+          "scoring": [
+            { "points": 0, "condition": "学位なし、またはランク外の教育機関" },
+            { "points": 10, "condition": "学位保持者" },
+            { "points": 20, "condition": "トップティア教育機関の学位" }
+          ]
+        },
+        {
+          "id": "C3",
+          "name": "多様性（Diversity）",
+          "description": "企業内の国籍バランス。候補者の国籍が企業のPMETに占める割合",
+          "maxPoints": 20,
+          "scoring": [
+            { "points": 0, "condition": "候補者の国籍がPMETの50%以上" },
+            { "points": 10, "condition": "候補者の国籍がPMETの25〜50%" },
+            { "points": 20, "condition": "候補者の国籍がPMETの25%未満" }
+          ]
+        },
+        {
+          "id": "C4",
+          "name": "地元雇用支援（Support for Local Employment）",
+          "description": "企業のPMETにおけるシンガポール人・PR比率",
+          "maxPoints": 20,
+          "scoring": [
+            { "points": 0, "condition": "同業種ベンチマークの50パーセンタイル未満" },
+            { "points": 10, "condition": "50パーセンタイル以上" },
+            { "points": 20, "condition": "75パーセンタイル以上" }
+          ]
+        },
+        {
+          "id": "C5",
+          "name": "ボーナスA（Skills Bonus）",
+          "description": "MOMが定める人材不足職種リスト（Shortage Occupation List）に該当する場合",
+          "maxPoints": 10,
+          "scoring": [
+            { "points": 0, "condition": "対象外" },
+            { "points": 10, "condition": "SOLに該当する職種" }
+          ]
+        },
+        {
+          "id": "C6",
+          "name": "ボーナスB（Strategic Economic Priorities Bonus）",
+          "description": "EDBやEnterprise SG等の政府機関パートナーシップがある企業",
+          "maxPoints": 10,
+          "scoring": [
+            { "points": 0, "condition": "対象外" },
+            { "points": 10, "condition": "対象パートナーシップあり" }
+          ]
+        }
+      ],
+      "note": "C5とC6のボーナスは片方のみ加点可能（最大10点）。2026年1月から業種別給与ベンチマーク・学歴リストが更新"
+    },
+    "processingTime": {
+      "standard": "3〜8週間",
+      "withAdditionalDocuments": "2〜3ヶ月",
+      "note": "追加書類を求められるケースが多い"
+    },
+    "validity": {
+      "initial": "最長2年",
+      "renewal": "最長3年"
+    },
+    "dependantPass": {
+      "minimumSalary": 6000,
+      "currency": "SGD",
+      "jpyEquivalent": 660000,
+      "eligibleDependants": ["配偶者（法的婚姻）", "21歳未満の未婚の子ども（養子含む）"],
+      "note": "EP・S Pass保持者ともに月額固定給与SGD 6,000以上で申請可能"
+    },
+    "requiredDocuments": [
+      {
+        "document": "パスポート",
+        "detail": "残存有効期間6ヶ月以上"
+      },
+      {
+        "document": "学歴証明書",
+        "detail": "英文。大学の卒業証明書・成績証明書"
+      },
+      {
+        "document": "職務経歴書（CV/Resume）",
+        "detail": "英文。職歴・スキルを詳細に記載"
+      },
+      {
+        "document": "雇用契約書",
+        "detail": "職位・給与・勤務条件が明記されたもの"
+      },
+      {
+        "document": "企業の事業内容説明",
+        "detail": "ACRAの登記情報、事業概要等"
+      },
+      {
+        "document": "COMPASS自己評価シート",
+        "detail": "MOMのSelf-Assessment Toolで事前確認可能"
+      },
+      {
+        "document": "写真",
+        "detail": "パスポートサイズのカラー写真"
+      }
+    ],
+    "rejection": {
+      "appealProcess": "アピールレターを提出して再審査を求めることが可能",
+      "appealDeadline": "却下通知から3ヶ月以内",
+      "note": "却下理由を確認し、不足点を補強して再申請するのが一般的"
+    }
+  }
+}

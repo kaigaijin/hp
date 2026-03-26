@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "source": [
+      "https://worldpopulationreview.com/countries/singapore",
+      "https://www.statista.com/statistics/1080637/japan-number-japanese-residents-singapore/",
+      "https://www.mom.gov.sg/newsroom/press-releases/2025/0616-public-holidays-for-2026",
+      "https://www.timeanddate.com/holidays/singapore/2026",
+      "https://en.wikipedia.org/wiki/Demographics_of_Singapore"
+    ],
+    "lastVerified": "2026-03-08",
+    "notes": "人口は2025年6月時点。在住日本人数は2023年10月時点（外務省統計）。2024年以降の最新値は未公表"
+  },
+  "data": {
+    "basicInfo": {
+      "officialName": "シンガポール共和国（Republic of Singapore）",
+      "capital": "シンガポール（都市国家のため首都＝国全体）",
+      "area": {
+        "value": 733.1,
+        "unit": "km²",
+        "note": "埋め立てにより年々増加。東京23区（627 km²）より若干広い"
+      },
+      "population": {
+        "total": 6110000,
+        "year": 2025,
+        "note": "2025年6月時点。うち市民・PRが約410万人、外国人労働者等が約200万人"
+      },
+      "populationDensity": {
+        "value": 8437,
+        "unit": "人/km²"
+      },
+      "officialLanguages": ["英語", "マレー語", "中国語（標準中国語）", "タミル語"],
+      "businessLanguage": "英語",
+      "nationalLanguage": "マレー語（国歌・軍の号令等）",
+      "currency": {
+        "name": "シンガポールドル（Singapore Dollar）",
+        "code": "SGD",
+        "symbol": "S$",
+        "jpyRate": 110,
+        "jpyRateNote": "2026年3月時点の概算。変動あり"
+      },
+      "timeDifference": {
+        "fromJapan": -1,
+        "note": "日本より1時間遅い（UTC+8）。サマータイムなし"
+      },
+      "electricalPlug": {
+        "type": "BFタイプ（3ピン角型）",
+        "voltage": "230V / 50Hz",
+        "note": "日本の家電はそのままでは使えない。変換プラグと変圧器が必要な場合あり"
+      },
+      "drivingSide": "左側通行（日本と同じ）"
+    },
+    "japaneseResidents": {
+      "count": 31370,
+      "year": 2023,
+      "source": "外務省「海外在留邦人数調査統計」",
+      "note": "2017年のピーク（約37,500人）から減少傾向。2024年以降の最新値は未公表",
+      "estimated": false
+    },
+    "climate": {
+      "type": "熱帯雨林気候（ケッペン Af）",
+      "description": "年間を通じて高温多湿。四季はなく、乾季（2〜4月）と雨季（11〜1月）がある",
+      "monthlyAverage": [
+        { "month": 1, "tempHigh": 30, "tempLow": 24, "rainfall": 234 },
+        { "month": 2, "tempHigh": 31, "tempLow": 24, "rainfall": 113 },
+        { "month": 3, "tempHigh": 32, "tempLow": 24, "rainfall": 174 },
+        { "month": 4, "tempHigh": 32, "tempLow": 25, "rainfall": 178 },
+        { "month": 5, "tempHigh": 32, "tempLow": 25, "rainfall": 172 },
+        { "month": 6, "tempHigh": 31, "tempLow": 25, "rainfall": 162 },
+        { "month": 7, "tempHigh": 31, "tempLow": 25, "rainfall": 159 },
+        { "month": 8, "tempHigh": 31, "tempLow": 25, "rainfall": 176 },
+        { "month": 9, "tempHigh": 31, "tempLow": 24, "rainfall": 170 },
+        { "month": 10, "tempHigh": 31, "tempLow": 24, "rainfall": 197 },
+        { "month": 11, "tempHigh": 31, "tempLow": 24, "rainfall": 254 },
+        { "month": 12, "tempHigh": 30, "tempLow": 24, "rainfall": 289 }
+      ],
+      "temperatureUnit": "℃",
+      "rainfallUnit": "mm",
+      "note": "年間平均気温27℃前後。湿度は常に80%前後"
+    },
+    "publicHolidays2026": [
+      { "date": "2026-01-01", "day": "木", "name": "New Year's Day", "nameJa": "元旦" },
+      { "date": "2026-02-17", "day": "火", "name": "Chinese New Year", "nameJa": "旧正月（1日目）" },
+      { "date": "2026-02-18", "day": "水", "name": "Chinese New Year", "nameJa": "旧正月（2日目）" },
+      { "date": "2026-03-31", "day": "火", "name": "Hari Raya Puasa", "nameJa": "ハリラヤプアサ（断食明け大祭）" },
+      { "date": "2026-04-03", "day": "金", "name": "Good Friday", "nameJa": "聖金曜日" },
+      { "date": "2026-05-01", "day": "金", "name": "Labour Day", "nameJa": "メーデー" },
+      { "date": "2026-05-31", "day": "日", "name": "Vesak Day", "nameJa": "ウェーサーカ祭（仏誕節）" },
+      { "date": "2026-06-01", "day": "月", "name": "Vesak Day (in lieu)", "nameJa": "ウェーサーカ祭（振替休日）" },
+      { "date": "2026-06-27", "day": "土", "name": "Hari Raya Haji", "nameJa": "ハリラヤハジ（犠牲祭）" },
+      { "date": "2026-08-09", "day": "日", "name": "National Day", "nameJa": "ナショナルデー（建国記念日）" },
+      { "date": "2026-08-10", "day": "月", "name": "National Day (in lieu)", "nameJa": "ナショナルデー（振替休日）" },
+      { "date": "2026-11-08", "day": "日", "name": "Deepavali", "nameJa": "ディーパバリ（ヒンドゥー光の祭典）" },
+      { "date": "2026-11-09", "day": "月", "name": "Deepavali (in lieu)", "nameJa": "ディーパバリ（振替休日）" },
+      { "date": "2026-12-25", "day": "金", "name": "Christmas Day", "nameJa": "クリスマス" }
+    ],
+    "publicHolidaysNote": "祝日が日曜に当たる場合、翌月曜が振替休日。2026年はVesak Day, National Day, Deepavaliが日曜のため振替あり。年間11日の法定祝日",
+    "emergencyContacts": {
+      "police": "999",
+      "ambulance": "995",
+      "fire": "995",
+      "nonEmergencyPolice": "1800-255-0000",
+      "japaneseEmbassy": {
+        "name": "在シンガポール日本国大使館",
+        "nameEn": "Embassy of Japan in Singapore",
+        "address": "16 Nassim Road, Singapore 258390",
+        "phone": "+65-6235-8855",
+        "emergencyPhone": "+65-6235-8855",
+        "website": "https://www.sg.emb-japan.go.jp/itprtop_ja/index.html",
+        "consulateHours": "月〜金 8:30-12:00, 13:30-17:15",
+        "note": "パスポート紛失・事件事故・在留届等"
+      }
+    },
+    "usefulLinks": [
+      {
+        "name": "在シンガポール日本国大使館",
+        "url": "https://www.sg.emb-japan.go.jp/itprtop_ja/index.html"
+      },
+      {
+        "name": "シンガポール日本人会（JAS）",
+        "url": "https://www.jas.org.sg/"
+      },
+      {
+        "name": "シンガポール人材開発省（MOM）",
+        "url": "https://www.mom.gov.sg/"
+      },
+      {
+        "name": "シンガポール入国管理局（ICA）",
+        "url": "https://www.ica.gov.sg/"
+      },
+      {
+        "name": "シンガポール内国歳入庁（IRAS）",
+        "url": "https://www.iras.gov.sg/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "source": "外務省 海外在留邦人数調査統計（各年版）",
+    "lastVerified": "2026-03-08",
+    "notes": "各年10月1日時点の数値。永住者・長期滞在者の内訳は一部推計値を含む（2000〜2009年の内訳は外務省統計の公開データに基づくが、一部年度は概数）。2027〜2030年の予測値は、過去のトレンド・日系企業動向・ビザ制度変更等を踏まえた独自推計。"
+  },
+  "data": {
+    "yearlyPopulation": [
+      { "year": 2000, "total": 21154, "longTerm": 20051, "permanent": 1103 },
+      { "year": 2001, "total": 22731, "longTerm": 21568, "permanent": 1163 },
+      { "year": 2002, "total": 25329, "longTerm": 24096, "permanent": 1233 },
+      { "year": 2003, "total": 28776, "longTerm": 27468, "permanent": 1308 },
+      { "year": 2004, "total": 32442, "longTerm": 31054, "permanent": 1388 },
+      { "year": 2005, "total": 36327, "longTerm": 34862, "permanent": 1465 },
+      { "year": 2006, "total": 40249, "longTerm": 38714, "permanent": 1535 },
+      { "year": 2007, "total": 42736, "longTerm": 41131, "permanent": 1605 },
+      { "year": 2008, "total": 44114, "longTerm": 42459, "permanent": 1655 },
+      { "year": 2009, "total": 45805, "longTerm": 44091, "permanent": 1714 },
+      { "year": 2010, "total": 47251, "longTerm": 45497, "permanent": 1754 },
+      { "year": 2011, "total": 49983, "longTerm": 48165, "permanent": 1818 },
+      { "year": 2012, "total": 55634, "longTerm": 53750, "permanent": 1884 },
+      { "year": 2013, "total": 59270, "longTerm": 57312, "permanent": 1958 },
+      { "year": 2014, "total": 64285, "longTerm": 62237, "permanent": 2048 },
+      { "year": 2015, "total": 67424, "longTerm": 65258, "permanent": 2166 },
+      { "year": 2016, "total": 70337, "longTerm": 68027, "permanent": 2310 },
+      { "year": 2017, "total": 72754, "longTerm": 70356, "permanent": 2398 },
+      { "year": 2018, "total": 75647, "longTerm": 73145, "permanent": 2502 },
+      { "year": 2019, "total": 79123, "longTerm": 76569, "permanent": 2554 },
+      { "year": 2020, "total": 81187, "longTerm": 79359, "permanent": 1828 },
+      { "year": 2021, "total": 82574, "longTerm": 80636, "permanent": 1938 },
+      { "year": 2022, "total": 78431, "longTerm": 76243, "permanent": 2188 },
+      { "year": 2023, "total": 72308, "longTerm": 69908, "permanent": 2400 },
+      { "year": 2024, "total": 70421, "longTerm": 67867, "permanent": 2554 }
+    ],
+    "byCity2024": [
+      { "city": "バンコク", "total": 50146, "share": 0.712 },
+      { "city": "チョンブリ（シラチャ）", "total": 5571, "share": 0.079 },
+      { "city": "チェンマイ", "total": 3200, "share": 0.045 },
+      { "city": "その他", "total": 11504, "share": 0.164 }
+    ],
+    "worldCityRanking2024": [
+      { "rank": 1, "city": "ロサンゼルス都市圏", "country": "アメリカ", "total": 63508 },
+      { "rank": 2, "city": "バンコク", "country": "タイ", "total": 50146 },
+      { "rank": 3, "city": "ニューヨーク都市圏", "country": "アメリカ", "total": 37345 },
+      { "rank": 4, "city": "シンガポール", "country": "シンガポール", "total": 35982 },
+      { "rank": 5, "city": "上海", "country": "中国", "total": 34681 }
+    ],
+    "forecast": [
+      { "year": 2025, "estimated": 69000, "basis": "2022年以降の年平均3〜4%減少トレンドの継続。駐在員の帰任・在留届未更新者の整理が続く" },
+      { "year": 2026, "estimated": 68000, "basis": "減少ペースの鈍化。EEC関連の新規進出と退職移住者の増加が下支え" },
+      { "year": 2027, "estimated": 67500, "basis": "日系企業のタイ投資は底堅いが、ベトナム・インドへの分散が進む。タイランドプリビレッジ新制度が一定の流入を生む" },
+      { "year": 2028, "estimated": 67000, "basis": "3空港高速鉄道開業予定。EEC地域への企業進出が再加速する可能性" },
+      { "year": 2029, "estimated": 67000, "basis": "減少トレンドが底打ちし横ばいに。デジタルノマド・リタイア層の新規流入と駐在員減少が拮抗" },
+      { "year": 2030, "estimated": 67500, "basis": "大阪IR開業によるアジア観光・サービス業の活性化波及。EEC本格稼働による増加要因" }
+    ]
+  }
+}

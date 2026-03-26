@@ -89,11 +89,9 @@ export default function Home() {
                 国別に深い、だから役に立つ
               </h2>
               <p className="text-stone-500 dark:text-stone-400 leading-relaxed mt-8">
-                海外在住日本人は世界に約129万人。
+                住居、医療、ビザ、税金、銀行——海外で暮らすと「日本語で読める実務情報」が足りないことに気づく。
                 <br />
-                でも国ごとの「暮らしの実務」をまとめた日本語メディアは、ほとんどありません。
-                <br />
-                Kaigaijinは、その空白を埋めるために生まれました。
+                Kaigaijinは、国ごとの生活情報を日本語でまとめたメディアです。
               </p>
             </div>
 
