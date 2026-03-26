@@ -310,9 +310,9 @@ export default async function SpotDetailPage({
 
               {/* 同じカテゴリのスポット */}
               {sameCategory.length > 0 && (
-                <div className="bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700">
-                  <div className="px-5 py-3 border-b border-stone-100 dark:border-stone-700 flex items-center justify-between">
-                    <h2 className="text-sm font-semibold text-stone-700 dark:text-stone-200">
+                <div className="mt-4 pt-6 border-t border-stone-300 dark:border-stone-600">
+                  <div className="flex items-center justify-between mb-3">
+                    <h2 className="text-xs font-medium text-stone-400 dark:text-stone-500 uppercase tracking-wider">
                       {category.name}の他のスポット
                     </h2>
                     <Link
@@ -322,25 +322,15 @@ export default async function SpotDetailPage({
                       すべて見る
                     </Link>
                   </div>
-                  <div className="divide-y divide-stone-100 dark:divide-stone-700">
+                  <div className="flex flex-wrap gap-2">
                     {sameCategory.map((s) => (
                       <Link
                         key={s.slug}
                         href={`/${code}/spot/${catSlug}/${s.slug}`}
-                        className="flex items-center gap-3 px-5 py-3 hover:bg-stone-50 dark:hover:bg-stone-700/50 transition-colors group"
+                        className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-stone-200 dark:border-stone-600 text-sm text-stone-600 dark:text-stone-400 hover:border-ocean-400 hover:text-ocean-600 dark:hover:text-ocean-400 transition-colors"
                       >
-                        <div className="flex-1 min-w-0">
-                          <p className="text-sm font-medium text-stone-700 dark:text-stone-200 truncate group-hover:text-ocean-700 dark:group-hover:text-ocean-400 transition-colors">
-                            {s.name_ja ?? s.name}
-                          </p>
-                          <span className="text-xs text-stone-400">
-                            {s.area}
-                          </span>
-                        </div>
-                        <ChevronRight
-                          size={14}
-                          className="text-stone-300 dark:text-stone-600 shrink-0"
-                        />
+                        {s.name_ja ?? s.name}
+                        <span className="text-xs text-stone-400">· {s.area}</span>
                       </Link>
                     ))}
                   </div>
