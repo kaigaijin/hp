@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "source": [
+      "https://www.domain.com.au/research/rental-report/",
+      "https://sqmresearch.com.au/weekly-rents.php",
+      "https://www.realestate.com.au/"
+    ],
+    "lastVerified": "2026-03-26",
+    "notes": "2026年初頭のオーストラリア主要都市家賃相場。オーストラリアは週払いが標準。月額=週額×52÷12で換算。空室率約1%で競争が激しい市場"
+  },
+  "data": {
+    "japanesePopularAreas": {
+      "sydney": [
+        {
+          "area": "Sydney CBD",
+          "areaJa": "シドニーCBD",
+          "city": "Sydney",
+          "description": "市中心部。通勤時間ゼロだが家賃は最高水準。単身者・カップル向け",
+          "rent": {
+            "oneBedroom": { "aud_week": 850 },
+            "twoBedroom": { "aud_week": 1300 },
+            "threeBedroom": { "aud_week": 1800 }
+          },
+          "features": ["利便性最高"],
+          "nearbyFacilities": ["Town Hall駅", "Circular Quay", "各種ショッピング"],
+          "estimated": true
+        },
+        {
+          "area": "North Sydney",
+          "areaJa": "ノースシドニー",
+          "city": "Sydney",
+          "description": "CBDの対岸。日系企業のオフィスが多く、通勤至便。ハーバーブリッジの北側に位置し、眺望の良い物件が多い",
+          "rent": {
+            "oneBedroom": { "aud_week": 750 },
+            "twoBedroom": { "aud_week": 950 },
+            "threeBedroom": { "aud_week": 1400 }
+          },
+          "features": ["日系企業多い"],
+          "nearbyFacilities": ["North Sydney駅", "ハーバーブリッジ徒歩圏"],
+          "estimated": true
+        },
+        {
+          "area": "Chatswood",
+          "areaJa": "チャッツウッド",
+          "city": "Sydney",
+          "description": "シドニー最大の日本人コミュニティ。日本食レストラン・アジア系スーパーが充実。駅前にショッピングセンターあり。通勤にも便利",
+          "rent": {
+            "oneBedroom": { "aud_week": 700 },
+            "twoBedroom": { "aud_week": 900 },
+            "threeBedroom": { "aud_week": 1250 }
+          },
+          "features": ["日本人多い", "アジア系スーパー"],
+          "nearbyFacilities": ["Chatswood Chase", "Westfield Chatswood", "日本食レストラン多数"],
+          "estimated": true
+        },
+        {
+          "area": "Neutral Bay",
+          "areaJa": "ニュートラルベイ",
+          "city": "Sydney",
+          "description": "ハーバーブリッジの北側、閑静な住宅街。CBDへはバスまたはフェリーでアクセス。家賃はノースショアエリアの中ではやや抑えめ",
+          "rent": {
+            "oneBedroom": { "aud_week": 650 },
+            "twoBedroom": { "aud_week": 900 },
+            "threeBedroom": { "aud_week": 1500 }
+          },
+          "features": ["落ち着いた住宅地"],
+          "nearbyFacilities": ["フェリー乗り場", "Military Road商店街"],
+          "estimated": true
+        },
+        {
+          "area": "Crows Nest",
+          "areaJa": "クロウズネスト",
+          "city": "Sydney",
+          "description": "ノースシドニーの隣。カフェ・レストランが並ぶ落ち着いた住宅街。日本語対応不動産のJapan Property Consultantsが所在",
+          "rent": {
+            "oneBedroom": { "aud_week": 760 },
+            "twoBedroom": { "aud_week": 1020 },
+            "threeBedroom": { "aud_week": 1350 }
+          },
+          "features": ["JP Consultants事務所あり"],
+          "nearbyFacilities": ["カフェ・レストラン街", "Japan Property Consultants"],
+          "estimated": true
+        }
+      ],
+      "melbourne": [
+        {
+          "area": "Melbourne CBD",
+          "areaJa": "メルボルンCBD",
+          "city": "Melbourne",
+          "description": "市中心部。トラム無料区間内で移動が便利。1ベッドルームの家賃はシドニーCBDより大幅に安い",
+          "rent": {
+            "oneBedroom": { "min_aud_week": 450, "max_aud_week": 550 }
+          },
+          "features": ["利便性最高"],
+          "nearbyFacilities": ["Flinders Street駅", "トラム無料区間", "QV Melbourne"],
+          "estimated": true
+        },
+        {
+          "area": "Caulfield",
+          "areaJa": "コーフィールド",
+          "city": "Melbourne",
+          "description": "メルボルン日本人学校の最寄りエリア。家族帯同の駐在員に人気",
+          "rent": {
+            "threeBedroom": { "min_aud_week": 600, "max_aud_week": 800 }
+          },
+          "features": ["日本人学校近く"],
+          "nearbyFacilities": ["メルボルン日本人学校", "Caulfield Racecourse", "Monash大学近く"],
+          "estimated": true
+        },
+        {
+          "area": "Brighton",
+          "areaJa": "ブライトン",
+          "city": "Melbourne",
+          "description": "ビーチ沿いの高級住宅街。治安が良く、子育て環境として人気。高所得日本人家庭が多い",
+          "rent": {
+            "threeBedroom": { "min_aud_week": 700, "max_aud_week": 1000 }
+          },
+          "features": ["高所得日本人家庭"],
+          "nearbyFacilities": ["Brighton Beach", "Church Street商店街"],
+          "estimated": true
+        }
+      ]
+    },
+    "propertyTypes": {
+      "apartment": {
+        "nameJa": "アパートメント（マンション）",
+        "description": "日本でいうマンション。高層・中層の集合住宅。プール・ジム等の共用施設付きの物件もある",
+        "rentRange_aud_week": { "min": 500, "max": 1300 },
+        "estimated": true
+      },
+      "unit": {
+        "nameJa": "ユニット",
+        "description": "低層の集合住宅。アパートメントより小規模で、タウンハウス風の物件もある",
+        "rentRange_aud_week": { "min": 450, "max": 900 },
+        "estimated": true
+      },
+      "houseShare": {
+        "nameJa": "ハウスシェア（シェアハウス）",
+        "description": "一軒家やアパートメントの一室を借りる形態。ワーホリ・留学生に一般的。光熱費込みの場合が多い",
+        "rentRange_aud_week": { "min": 200, "max": 600 },
+        "estimated": true
+      },
+      "servicedApartment": {
+        "nameJa": "サービスアパートメント",
+        "description": "家具付き・清掃サービス付きの短中期滞在向け住居。赴任直後の仮住まいに利用されることが多い",
+        "rentRange_aud_week": { "min": 800, "max": 1500 },
+        "note": "上限はさらに高い物件もある",
+        "estimated": true
+      }
+    },
+    "shareHouse": {
+      "sydney": { "min_aud_week": 200, "max_aud_week": 600 },
+      "melbourne": { "min_aud_week": 200, "max_aud_week": 350 },
+      "note": "ワーホリ・留学生はシェアハウスが一般的。光熱費込みの場合が多い"
+    },
+    "contractTerms": {
+      "paymentFrequency": "週払いまたは隔週払いが標準（月払いではない）",
+      "typicalLease": "6ヶ月または12ヶ月のFixed-term（固定期間契約）",
+      "bond": "最大4週分の家賃（州によって上限が異なる）。州の管理機関に預託される",
+      "breakLeasePenalty": {
+        "nsw": "前半は6週分、後半は4週分のペナルティ",
+        "note": "州によって異なる。契約書で確認が必要"
+      },
+      "vacancyRate": "約1%（1物件に数十件の申込が入るほど競争が激しい）",
+      "furnished": "Unfurnished（家具なし）が一般的。冷蔵庫・洗濯機も付いていない物件がある",
+      "utilities": "電気・ガス・水道は基本的に別途。インターネットもテナントが契約"
+    },
+    "japaneseRealEstateAgents": [
+      {
+        "name": "Japan Property Consultants",
+        "area": "Crows Nest, Sydney",
+        "phone": "02-9437-3140",
+        "languages": ["日本語", "英語"],
+        "note": "シドニーの日本語対応不動産エージェント"
+      }
+    ],
+    "tips": [
+      "家賃は週払いまたは隔週払いが標準。月額と混同しないこと",
+      "空室率約1%のため、内覧後すぐに申し込みを入れないと他の人に取られる",
+      "家具なし（Unfurnished）が一般的。IKEA・Gumtree（中古売買サイト）で調達する人が多い",
+      "公共交通はOpalカード（シドニー）・Mykiカード（メルボルン）で統一",
+      "水不足の国なので、庭の水やりや洗車に制限がかかることがある"
+    ]
+  }
+}

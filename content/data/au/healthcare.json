@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "source": [
+      "https://www.servicesaustralia.gov.au/medicare",
+      "https://www.health.gov.au/topics/private-health-insurance",
+      "https://www.privatehealth.gov.au/"
+    ],
+    "lastVerified": "2026-03-26",
+    "notes": "オーストラリアの医療費相場・日本語対応医療機関。外国人はMedicare対象外のため全額自費または民間保険が必要"
+  },
+  "data": {
+    "emergencyNumbers": {
+      "ambulancePoliceFireUnified": "000",
+      "note": "救急・警察・消防すべて000。オペレーターが振り分ける"
+    },
+    "medicalCosts": {
+      "gpConsultation": { "min_aud": 80, "max_aud": 120, "note": "一般医（GP）診察。Medicare無しの場合の自費料金" },
+      "specialistConsultation": { "min_aud": 200, "max_aud": 500, "note": "専門医初診。分野・医師により大きく異なる。500AUD以上になるケースもある" },
+      "estimated": true
+    },
+    "insuranceSystem": {
+      "medicare": {
+        "foreignerEligible": false,
+        "reciprocalWithJapan": false,
+        "note": "Medicare（国民皆保険）は市民権・永住権保持者が対象。外国人は対象外。日本との相互協定なし"
+      },
+      "oshc": {
+        "fullName": "Overseas Student Health Cover",
+        "mandatory": true,
+        "mandatoryFor": "学生ビザ（subclass 500）保持者",
+        "note": "学生ビザの条件として加入が義務。ビザ期間全体をカバーする必要がある"
+      },
+      "ovhc": {
+        "fullName": "Overseas Visitors Health Cover",
+        "mandatory": false,
+        "mandatoryNote": "法的義務ではないが、就労ビザ（subclass 482等）ではビザ条件として加入が求められる場合がある",
+        "recommendedFor": "就労ビザ（subclass 482等）・ワーキングホリデービザ保持者",
+        "note": "Medicare対象外の外国人にとって事実上必須。GP・入院・救急をカバー"
+      }
+    },
+    "japaneseClinics": [
+      {
+        "name": "タウンホールクリニック（Town Hall Clinic）",
+        "city": "Sydney",
+        "address": "Level 4, 50 York St, Sydney",
+        "phone": "1800-355-855",
+        "languages": ["日本語", "英語"],
+        "note": "シドニーCBD。日本語対応あり。フリーダイヤルで予約可能"
+      },
+      {
+        "name": "Observatory Tower Medical Centre",
+        "city": "Sydney",
+        "address": "168 Kent St, Sydney",
+        "phone": "02-9252-8888",
+        "languages": ["日本語", "英語"],
+        "note": "シドニーCBD。日本語対応の医師が在籍"
+      },
+      {
+        "name": "Paramount Medical Clinic",
+        "city": "Melbourne",
+        "address": "108 Bourke St, Melbourne",
+        "languages": ["日本語", "英語"],
+        "note": "メルボルン。日本語対応あり"
+      }
+    ]
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "source": [
+      "https://poste-vn.com/lifetips/vietnam-houserent-420",
+      "https://chuwa-fudosan.com/blog/2025/10/09/hanoi-rental-home-fee/",
+      "https://aodaihousing.com/ja/news/4912",
+      "https://vietnamhouse.jp/blog/house/important-point-housing"
+    ],
+    "lastVerified": "2026-03-26",
+    "notes": "2026年初頭のベトナム家賃相場。ホーチミン・ハノイの日本人が多いエリアを中心に記載。家賃はUSD表記（ベトナムの外国人向け賃貸はUSD建てが一般的）"
+  },
+  "data": {
+    "japanesePopularAreas": {
+      "hochiminh": [
+        {
+          "area": "District 1",
+          "areaJa": "1区",
+          "description": "ビジネス中心地。高級サービスアパート・コンドミニアムが豊富。日系企業が集中",
+          "rent_usd": {
+            "oneBedroom": { "min": 800, "max": 1500 },
+            "twoBedroom": { "min": 1200, "max": 2000 },
+            "threeBedroom": { "min": 1500, "max": 2500 }
+          },
+          "estimated": true
+        },
+        {
+          "area": "Thao Dien (Thu Duc City, former District 2)",
+          "areaJa": "タオディエン（トゥドゥック市・旧2区）",
+          "description": "欧米系・外国人向け高級住宅エリア。ヴィラ多い。国際学校が複数ある",
+          "rent_usd": {
+            "oneBedroom": { "min": 700, "max": 1200 },
+            "twoBedroom": { "min": 800, "max": 1500 },
+            "threeBedroom": { "min": 1200, "max": 2000 }
+          },
+          "estimated": true
+        },
+        {
+          "area": "District 7 / Phu My Hung",
+          "areaJa": "7区 / フーミーフン",
+          "description": "台湾系デベロッパー開発のニュータウン。日本人学校あり。ファミリー向け文教地区",
+          "rent_usd": {
+            "oneBedroom": { "min": 700, "max": 1000 },
+            "twoBedroom": { "min": 1000, "max": 1500 },
+            "threeBedroom": { "min": 1200, "max": 2000 }
+          },
+          "estimated": true
+        },
+        {
+          "area": "Binh Thanh District",
+          "areaJa": "ビンタン区",
+          "description": "1区の隣でアクセス良好かつリーズナブル。単身駐在員に人気。新しいサービスアパート増加中",
+          "rent_usd": {
+            "oneBedroom": { "min": 500, "max": 900 },
+            "twoBedroom": { "min": 700, "max": 1200 },
+            "threeBedroom": { "min": 1000, "max": 1500 }
+          },
+          "estimated": true
+        }
+      ],
+      "hanoi": [
+        {
+          "area": "Hai Ba Trung District",
+          "areaJa": "ハイバーチュン区",
+          "description": "日本人街（キムマー通り付近）。日本食レストラン・日系店舗多数",
+          "rent_usd": {
+            "oneBedroom": { "min": 600, "max": 900 },
+            "twoBedroom": { "min": 700, "max": 1200 },
+            "threeBedroom": { "min": 1200, "max": 1800 }
+          },
+          "estimated": true
+        },
+        {
+          "area": "Tay Ho District (West Lake)",
+          "areaJa": "タイホー区（西湖周辺）",
+          "description": "欧米人・日本人ファミリーに人気。湖畔のレストラン・カフェが充実",
+          "rent_usd": {
+            "oneBedroom": { "min": 500, "max": 900 },
+            "twoBedroom": { "min": 700, "max": 1200 },
+            "threeBedroom": { "min": 1000, "max": 1800 }
+          },
+          "estimated": true
+        },
+        {
+          "area": "Ba Dinh District",
+          "areaJa": "バーディン区",
+          "description": "政府機関・大使館集中。高級エリア",
+          "rent_usd": {
+            "oneBedroom": { "min": 800, "max": 1200 },
+            "twoBedroom": { "min": 1200, "max": 2000 },
+            "threeBedroom": { "min": 1800, "max": 2500 }
+          },
+          "estimated": true
+        }
+      ]
+    },
+    "propertyTypes": {
+      "serviceApartment": {
+        "nameJa": "サービスアパートメント",
+        "description": "家具家電完備、清掃・リネン交換サービス付き。Wi-Fi・水道費込みが多い。単身駐在員に最適",
+        "rentRange_usd": { "min": 500, "max": 1500 },
+        "estimated": true
+      },
+      "condo": {
+        "nameJa": "コンドミニアム（マンション）",
+        "description": "プール・ジム等の共用施設付き高層マンション。家具付き/無し選択可。ファミリー向け",
+        "rentRange_usd": { "min": 500, "max": 2000 },
+        "estimated": true
+      },
+      "villa": {
+        "nameJa": "ヴィラ（一戸建て）",
+        "description": "2区タオディエンや7区フーミーフンに多い。庭付き。ファミリー・役員クラス向け",
+        "rentRange_usd": { "min": 1500, "max": 3000 },
+        "estimated": true
+      },
+      "localApartment": {
+        "nameJa": "ローカルアパート",
+        "description": "ローカル向け物件。サービス少ないが格安。現地採用・長期滞在者向け",
+        "rentRange_usd": { "min": 300, "max": 500 },
+        "estimated": true
+      }
+    },
+    "contractTerms": {
+      "typicalLease": "1年",
+      "securityDeposit": "家賃1〜2ヶ月分。礼金なし",
+      "payment": "月払いまたは3ヶ月・6ヶ月前払い（前払いで値引き交渉可）",
+      "agentFee": "日系不動産会社は無料のところが多い（貸主側から徴収）",
+      "earlyTermination": "デポジット没収が一般的",
+      "residencyReport": "貸主が所轄公安に外国人居住者の届出を行う義務あり（都市部は入居後12時間以内）",
+      "requiredDocuments": "パスポート、ビザ/労働許可証"
+    },
+    "japaneseRealEstateAgents": [
+      {
+        "name": "ベトナムハウス",
+        "website": "https://vietnamhouse.jp/",
+        "locations": ["ホーチミン", "ハノイ"],
+        "note": "2011年設立。ホーチミン最大級の物件数。日本人スタッフ在籍。仲介手数料無料"
+      },
+      {
+        "name": "中和不動産",
+        "website": "https://chuwa-fudosan.com/",
+        "locations": ["ハノイ", "ホーチミン"],
+        "note": "全て日本語対応。仲介手数料無料"
+      },
+      {
+        "name": "スターツインターナショナルベトナム",
+        "website": "https://kaigai.starts.co.jp/vietnam",
+        "locations": ["ハノイ", "ホーチミン"],
+        "note": "日本のスターツグループ。法人契約に強い"
+      },
+      {
+        "name": "アオザイハウジング",
+        "website": "https://aodaihousing.com/",
+        "locations": ["ホーチミン"],
+        "note": "駐在員向け特化。高級コンド・サービスアパート中心"
+      }
+    ]
+  }
+}

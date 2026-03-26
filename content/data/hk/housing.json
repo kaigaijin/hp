@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "source": [
+      "https://www.able-hk.com/",
+      "https://www.starts.co.jp/kaigai/hongkong/",
+      "https://www.connex-hk.com/",
+      "https://www.sanpo-hk.com/"
+    ],
+    "lastVerified": "2026-03-26",
+    "notes": "2026年初頭の香港家賃相場。エリア・築年数・階数・面積で大きく変動する。面積はsq.ft表記が標準（1 sq.ft = 0.093m2）。世界で最も家賃が高い都市の一つ"
+  },
+  "data": {
+    "japanesePopularAreas": [
+      {
+        "area": "Tai Koo",
+        "areaJa": "太古（タイクー）",
+        "region": "Hong Kong Island",
+        "regionJa": "香港島",
+        "mtrStation": "Tai Koo",
+        "description": "香港島で最も日本人が多いエリア。日系スーパー・日本食レストランが集まるTaikoo Shing（太古城）が中心。イオン（AEON）が入居する商業施設あり",
+        "rent": {
+          "oneBedroom": { "min_hkd": 24000, "max_hkd": 29500 },
+          "twoBedroom": { "min_hkd": 24000, "max_hkd": 29500 }
+        },
+        "nearbyFacilities": ["AEON太古城店", "太古城センター", "日本食レストラン"],
+        "estimated": true
+      },
+      {
+        "area": "Mid-Levels",
+        "areaJa": "ミッドレベル",
+        "region": "Hong Kong Island",
+        "regionJa": "香港島",
+        "mtrStation": "Central（バス・ミニバスでアクセス）",
+        "description": "セントラルの山手側。高級住宅街で欧米系駐在員も多い。ビクトリアハーバーを見下ろす眺望が魅力だが家賃は香港でも最高水準",
+        "rent": {
+          "twoBedroom": { "min_hkd": 45000, "max_hkd": 70000 }
+        },
+        "nearbyFacilities": ["セントラルまでエスカレーター", "各国レストラン", "インターナショナルスクール"],
+        "estimated": true
+      },
+      {
+        "area": "Hung Hom",
+        "areaJa": "紅磡（ホンハム）",
+        "region": "Kowloon",
+        "regionJa": "九龍",
+        "mtrStation": "Hung Hom",
+        "description": "現在、最も日本人が多く住む九龍側のエリア。Harbour Front Landmark等の大型マンションに日本人コミュニティが形成されている。家賃は九龍の中では手頃",
+        "rent": {
+          "oneBedroom": { "min_hkd": 17500, "max_hkd": 24500 },
+          "twoBedroom": { "min_hkd": 17500, "max_hkd": 24500 }
+        },
+        "nearbyFacilities": ["Harbour Front Landmark", "紅磡駅（東鉄線）", "尖沙咀まで1駅"],
+        "estimated": true
+      },
+      {
+        "area": "Tsim Sha Tsui",
+        "areaJa": "尖沙咀（チムサーチョイ）",
+        "region": "Kowloon",
+        "regionJa": "九龍",
+        "mtrStation": "Tsim Sha Tsui",
+        "description": "九龍半島の南端。ビクトリアハーバーに面した観光・商業エリア。買い物・外食の利便性が高いが、家賃も高め",
+        "rent": {
+          "twoBedroom": { "min_hkd": 23000, "max_hkd": 40000 }
+        },
+        "nearbyFacilities": ["ハーバーシティ", "ビクトリアハーバー", "スターフェリー"],
+        "estimated": true
+      },
+      {
+        "area": "Kowloon Station",
+        "areaJa": "九龍駅",
+        "region": "Kowloon",
+        "regionJa": "九龍",
+        "mtrStation": "Kowloon",
+        "description": "エアポートエクスプレス直結の再開発エリア。Elements（ショッピングモール）直結のICCタワー付近に高級マンションが集中。空港アクセスが非常に良い",
+        "rent": {
+          "twoBedroom": { "min_hkd": 31000, "max_hkd": 64000 }
+        },
+        "nearbyFacilities": ["Elementsモール", "ICC", "エアポートエクスプレス"],
+        "estimated": true
+      },
+      {
+        "area": "Sha Tin",
+        "areaJa": "沙田（シャティン）",
+        "region": "New Territories",
+        "regionJa": "新界",
+        "mtrStation": "Sha Tin",
+        "description": "日本人学校（大埔校）への通学が便利なエリア。ニュータウンプラザ等の大型商業施設があり生活利便性が高い。家族向けの広い物件が比較的手頃に見つかる",
+        "rent": {
+          "threeBedroom": { "min_hkd": 32000, "max_hkd": 38000 }
+        },
+        "nearbyFacilities": ["ニュータウンプラザ", "日本人学校（大埔校）", "沙田公園"],
+        "estimated": true
+      },
+      {
+        "area": "Discovery Bay",
+        "areaJa": "ディスカバリーベイ（愉景湾）",
+        "region": "Lantau Island",
+        "regionJa": "ランタオ島",
+        "mtrStation": "なし（フェリー・バスでアクセス）",
+        "description": "ランタオ島のリゾート型住宅地。外国人家族に人気。車の進入が制限されたクリーンな環境。ビーチ・プール・ゴルフ場がある。通勤はフェリーでセントラルまで約25分",
+        "rent": {},
+        "nearbyFacilities": ["ビーチ", "ゴルフ場", "DBプラザ", "フェリーターミナル"],
+        "estimated": true
+      }
+    ],
+    "propertyTypes": {
+      "apartment": {
+        "nameJa": "マンション（一般集合住宅）",
+        "description": "香港で最も一般的な住居タイプ。高層が標準。タワーマンションが多い",
+        "pros": ["物件数が豊富", "MTR駅近が多い", "管理費に共用施設が含まれることが多い"],
+        "cons": ["面積が狭い", "築年数が古い物件も多い"]
+      },
+      "serviceApartment": {
+        "nameJa": "サービスアパートメント",
+        "description": "家具付き・清掃付きの短中期滞在向け住居。赴任直後のつなぎに利用されることが多い",
+        "pros": ["すぐ入居可能", "家具・家電完備", "清掃・リネンサービス付き"],
+        "cons": ["割高", "物件数が少ない"]
+      },
+      "villageHouse": {
+        "nameJa": "ヴィレッジハウス（村屋）",
+        "description": "新界エリアに多い低層住宅（3階建てが標準）。広い面積が確保できるが、交通の便が悪い場所が多い",
+        "pros": ["面積が広い", "家賃が比較的安い", "ペット可の物件が多い"],
+        "cons": ["交通の便が悪いことが多い", "管理が行き届かない物件がある", "虫・湿気の問題"]
+      }
+    },
+    "contractTerms": {
+      "typicalLease": "2年（1年目は途中解約不可。Break Clauseにより2年目から解約可能が一般的）",
+      "securityDeposit": "2ヶ月分",
+      "keyMoney": "なし（礼金の習慣がない）",
+      "agentFee": "0.5〜1ヶ月分（テナント側負担）",
+      "stampDuty": "印紙税あり（オーナーとテナントで折半が一般的）",
+      "areaUnit": "sq.ft（1 sq.ft = 0.093m2）",
+      "furnished": "家具付き（Fully Furnished）と家具なし（Unfurnished）の両方がある。日本と異なり選択肢がある",
+      "breakClause": "2年契約の場合、1年経過後に2ヶ月前の書面通知で解約可能（Break Clause）。1年目の途中解約は原則不可"
+    },
+    "japaneseRealEstateAgents": [
+      {
+        "name": "エイブル香港",
+        "languages": ["日本語", "英語", "広東語"],
+        "note": "日本のエイブルグループ。日本語対応で物件探しから契約までサポート"
+      },
+      {
+        "name": "スターツ香港",
+        "languages": ["日本語", "英語", "広東語"],
+        "note": "日本のスターツグループ。法人契約の実績が豊富"
+      },
+      {
+        "name": "コネクス不動産",
+        "languages": ["日本語", "英語", "広東語"],
+        "note": "香港に特化した日系不動産会社"
+      },
+      {
+        "name": "三宝不動産",
+        "languages": ["日本語", "英語", "広東語"],
+        "note": "香港の日系不動産会社。日本人駐在員向けの物件紹介に強い"
+      }
+    ],
+    "tips": [
+      "面積はsq.ft表記。日本のm2に換算するには0.093を掛ける（500 sq.ft ≒ 46.5m2）",
+      "2年契約の1年目は途中解約不可。Break Clauseの条件を契約前に必ず確認する",
+      "保証金2ヶ月分は退去時にクリーニング費等を差し引いて返却される。入居時に物件の状態を写真に残しておく",
+      "日本人学校は大埔（新界）にあるため、子連れ家族は沙田・大埔エリアが通学に便利",
+      "夏場（5〜9月）は高温多湿で、低層階はカビ・結露がひどいことがある。階数と換気を確認する"
+    ]
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "source": [
+      "https://bambooroutes.com/blogs/news/bangkok-rents",
+      "https://bangkokresidential.com/bangkok-rental-market-2025-trends-prices-yields",
+      "https://www.dlife.co.jp/blog/property-ranking/",
+      "https://bangkokfudosan.jp/column/943/"
+    ],
+    "lastVerified": "2026-03-26",
+    "notes": "2026年初頭のバンコク家賃相場。エリア・築年数・階数・設備で大きく変動する。日本人が多く住むスクンビットエリアを中心に記載"
+  },
+  "data": {
+    "japanesePopularAreas": [
+      {
+        "area": "Phrom Phong (Sukhumvit Soi 24-39)",
+        "areaJa": "プロンポン（スクンビット・ソイ24〜39）",
+        "btsStation": "Phrom Phong",
+        "description": "日本人駐在員が最も多く住むエリア。エンポリアム、日本食レストラン、日系スーパー（フジスーパー1号店・2号店）が集中。日本人率が非常に高いアパートもある",
+        "condo": {
+          "oneBedroom": { "min": 20000, "max": 40000 },
+          "twoBedroom": { "min": 40000, "max": 80000 },
+          "threeBedroom": { "min": 60000, "max": 120000 }
+        },
+        "serviceApartment": {
+          "oneBedroom": { "min": 35000, "max": 60000 },
+          "twoBedroom": { "min": 55000, "max": 100000 }
+        },
+        "nearbyFacilities": ["フジスーパー1号店・2号店", "エンポリアム", "サミティヴェート病院", "日本人学校バスルート"],
+        "estimated": true
+      },
+      {
+        "area": "Thonglor (Sukhumvit Soi 55)",
+        "areaJa": "トンロー（スクンビット・ソイ55）",
+        "btsStation": "Thong Lo",
+        "description": "若い日本人駐在員・単身者に人気のおしゃれエリア。カフェ・レストランが多く、ナイトライフも充実。プロンポンよりやや安め",
+        "condo": {
+          "oneBedroom": { "min": 15000, "max": 35000 },
+          "twoBedroom": { "min": 30000, "max": 65000 },
+          "threeBedroom": { "min": 50000, "max": 100000 }
+        },
+        "serviceApartment": {
+          "oneBedroom": { "min": 30000, "max": 55000 },
+          "twoBedroom": { "min": 50000, "max": 90000 }
+        },
+        "nearbyFacilities": ["日本村（J-Avenue内）", "ドンキモール", "トンローのカフェ・レストラン街"],
+        "estimated": true
+      },
+      {
+        "area": "Asoke (Sukhumvit Soi 19-23)",
+        "areaJa": "アソーク（スクンビット・ソイ19〜23）",
+        "btsStation": "Asok",
+        "mrtStation": "Sukhumvit",
+        "description": "BTS・MRTの乗換駅で交通の要所。ターミナル21、ロビンソン等の商業施設が集中。オフィス街にも近い",
+        "condo": {
+          "oneBedroom": { "min": 20000, "max": 45000 },
+          "twoBedroom": { "min": 40000, "max": 80000 },
+          "threeBedroom": { "min": 60000, "max": 120000 }
+        },
+        "nearbyFacilities": ["ターミナル21", "バムルンラード病院", "ロビンソン", "日本人学校バスルート"],
+        "estimated": true
+      },
+      {
+        "area": "Ekkamai (Sukhumvit Soi 63)",
+        "areaJa": "エカマイ（スクンビット・ソイ63）",
+        "btsStation": "Ekkamai",
+        "description": "トンローの隣。ローカル感とおしゃれさが共存。家賃はプロンポン・アソークより安め。東バスターミナルがあり地方へのアクセス良好",
+        "condo": {
+          "oneBedroom": { "min": 14000, "max": 30000 },
+          "twoBedroom": { "min": 28000, "max": 55000 },
+          "threeBedroom": { "min": 45000, "max": 80000 }
+        },
+        "nearbyFacilities": ["ゲートウェイエカマイ", "東バスターミナル"],
+        "estimated": true
+      },
+      {
+        "area": "Silom-Sathorn",
+        "areaJa": "シーロム・サトーン",
+        "btsStation": "Sala Daeng / Chong Nonsi",
+        "mrtStation": "Silom / Lumphini",
+        "description": "金融街・大使館エリア。単身の現地採用者やビジネスパーソンに人気。ルンピニ公園が近く緑が多い",
+        "condo": {
+          "oneBedroom": { "min": 20000, "max": 45000 },
+          "twoBedroom": { "min": 40000, "max": 80000 },
+          "threeBedroom": { "min": 60000, "max": 120000 }
+        },
+        "nearbyFacilities": ["ルンピニ公園", "各国大使館", "BNH病院"],
+        "estimated": true
+      },
+      {
+        "area": "Ari",
+        "areaJa": "アーリー",
+        "btsStation": "Ari",
+        "description": "ローカル感が強く物価も安め。カフェ文化が発達。スクンビットの喧騒から離れたい人に人気。最近は日本人も増加傾向",
+        "condo": {
+          "oneBedroom": { "min": 12000, "max": 25000 },
+          "twoBedroom": { "min": 22000, "max": 45000 }
+        },
+        "nearbyFacilities": ["カフェ・ローカルレストラン", "ラプラオ方面へのアクセス"],
+        "estimated": true
+      }
+    ],
+    "propertyTypes": {
+      "condo": {
+        "nameJa": "コンドミニアム",
+        "description": "個人所有の分譲マンション。各部屋のオーナーが異なるため、部屋ごとに内装・家具が異なる",
+        "foreignerEligibility": "賃貸可能。購入も建物全体の49%まで外国人名義で可能",
+        "pros": ["比較的安い", "プール・ジム付きが多い", "駅近物件が豊富"],
+        "cons": ["家具・内装がオーナー次第", "トラブル時の対応がオーナー依存", "管理の質にばらつき"]
+      },
+      "serviceApartment": {
+        "nameJa": "サービスアパートメント",
+        "description": "ホテルライクな管理運営の賃貸住宅。フロント・清掃・リネン交換等のサービス付き。法人契約の駐在員に最も人気",
+        "foreignerEligibility": "賃貸可能",
+        "pros": ["管理が統一されている", "トラブル時の対応が早い", "清掃・リネンサービス付き", "法人契約しやすい"],
+        "cons": ["コンドミニアムより割高", "内装の自由度が低い"]
+      },
+      "apartment": {
+        "nameJa": "アパートメント",
+        "description": "建物全体を一人のオーナーが所有する賃貸専用物件。管理の質が均一。サービスアパートに近いがサービス内容は物件による",
+        "foreignerEligibility": "賃貸可能",
+        "pros": ["管理が統一されている", "オーナーと直接交渉しやすい"],
+        "cons": ["コンドミニアムより割高な場合がある", "築年数が古い物件もある"]
+      }
+    },
+    "contractTerms": {
+      "typicalLease": "1年（最低契約期間。短期は交渉次第だが家賃が割高になる）",
+      "securityDeposit": "2ヶ月分が標準",
+      "advanceRent": "入居時に初月の家賃を前払い",
+      "agentFee": "テナント側の手数料は通常なし（オーナーがエージェントに支払う）",
+      "utilities": "電気・水道は別途。電気代はコンドミニアムの場合、電力公社より割高な独自レート（6〜8バーツ/ユニット）のことがある",
+      "earlyTermination": "違約金あり。通常は残期間の家賃またはデポジット没収",
+      "furnished": "バンコクの賃貸は家具付き（Fully Furnished）が一般的"
+    },
+    "japaneseRealEstateAgents": [
+      {
+        "name": "ディアライフ by RENOSY",
+        "website": "https://www.dlife.co.jp/",
+        "languages": ["日本語", "英語", "タイ語"],
+        "note": "日本語対応の大手。物件数が豊富"
+      },
+      {
+        "name": "スターツバンコク",
+        "website": "https://kaigai.starts.co.jp/thailand",
+        "languages": ["日本語", "英語", "タイ語"],
+        "note": "日本のスターツグループ。仲介手数料無料"
+      },
+      {
+        "name": "石川商事",
+        "website": "https://ishikawashoji.com/",
+        "languages": ["日本語", "英語", "タイ語"],
+        "note": "仲介手数料無料。写真・動画が豊富"
+      },
+      {
+        "name": "バンコク不動産",
+        "website": "https://bangkokfudosan.jp/",
+        "languages": ["日本語", "英語", "タイ語"],
+        "note": "賃貸・売買対応"
+      }
+    ],
+    "tips": [
+      "バンコクの賃貸は基本的に家具付き。日本のように家具を買い揃える必要がない",
+      "電気代はコンドミニアムの場合、管理会社の独自レートが適用されることがある（電力公社の倍近い場合も）",
+      "BTS・MRT駅から徒歩圏内かどうかで家賃が大きく変わる",
+      "日本人学校のバスルートを確認してからエリアを決めると良い（家族帯同の場合）",
+      "契約前に必ず現地内覧する。写真と実物が大きく異なることがある"
+    ]
+  }
+}

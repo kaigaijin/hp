@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "source": [
+      "https://www.ouchikorea.com/",
+      "https://www.able-seoul.com/",
+      "https://starts-seoul.com/",
+      "https://seoulroomnavi.com/"
+    ],
+    "lastVerified": "2026-03-26",
+    "notes": "2026年初頭のソウル家賃相場。エリア・築年数・階数・設備で大きく変動する。日本人が多く住む二村洞・麻浦区を中心に記載。韓国の賃貸はチョンセ（全貸）とウォルセ（月貸）の2方式がある。外国人の9割以上がウォルセ方式"
+  },
+  "data": {
+    "rentalSystems": {
+      "jeonse": {
+        "nameKo": "전세（チョンセ）",
+        "nameJa": "チョンセ（全貸）",
+        "description": "高額の保証金を預け、月家賃を支払わない韓国独自の制度。オーナーが保証金を運用して利益を得る仕組み",
+        "foreignerUsageRate": "1割未満。保証金が高額で外国人には非現実的なケースが多い",
+        "estimated": true
+      },
+      "wolse": {
+        "nameKo": "월세（ウォルセ）",
+        "nameJa": "ウォルセ（月貸）",
+        "description": "保証金＋月家賃を支払う方式。日本の賃貸に近い。外国人の9割以上がこの方式",
+        "foreignerUsageRate": "9割以上",
+        "estimated": true
+      },
+      "halfJeonse": {
+        "nameKo": "반전세（パンチョンセ）",
+        "nameJa": "半チョンセ",
+        "description": "チョンセとウォルセの中間方式。保証金を多めに預けて月家賃を抑える",
+        "foreignerNote": "保証金を多く用意できるなら月家賃を下げる選択肢になる",
+        "estimated": true
+      }
+    },
+    "japanesePopularAreas": [
+      {
+        "area": "Itaewon-dong / Yongsan-gu",
+        "areaJa": "二村洞・龍山区",
+        "nickname": "リトルトーキョー",
+        "description": "日本人在住者が最も多いエリア。日本食レストラン・日系スーパーが集中。日本人学校（ソウル日本人学校は麻浦区）へのアクセスも良い",
+        "wolse": {
+          "oneRoom": { "deposit_krw": 5000000, "deposit_max_krw": 10000000, "monthly_min_krw": 860000, "monthly_max_krw": 860000 },
+          "apartment3LDK": { "deposit_min_krw": 20000000, "deposit_max_krw": 100000000, "monthly_min_krw": 2000000, "monthly_max_krw": 3000000 }
+        },
+        "nearbyFacilities": ["日本食レストラン街", "日系スーパー", "龍山駅（KTX停車）"],
+        "estimated": true
+      },
+      {
+        "area": "Mapo-gu",
+        "areaJa": "麻浦区",
+        "description": "ソウル日本人学校（幼稚部〜中学部）が所在するエリア。弘大（ホンデ）エリアに近く、若者文化が活発。家賃は龍山区よりやや安め",
+        "wolse": {
+          "oneRoom": { "deposit_krw": 5000000, "deposit_max_krw": 10000000, "monthly_min_krw": 510000, "monthly_max_krw": 510000 },
+          "apartment3LDK": { "deposit_krw": 30000000, "monthly_krw": 2500000 }
+        },
+        "nearbyFacilities": ["ソウル日本人学校", "弘大エリア", "麻浦区役所"],
+        "estimated": true
+      },
+      {
+        "area": "Gangnam-gu",
+        "areaJa": "江南区",
+        "description": "ソウルで最も家賃が高いエリア。IT企業・外資系企業のオフィスが集中。交通の便は良いが生活コストが高い",
+        "wolse": {
+          "oneRoom": { "deposit_krw": 5000000, "deposit_max_krw": 10000000, "monthly_min_krw": 1030000, "monthly_max_krw": 1030000 }
+        },
+        "nearbyFacilities": ["COEX", "江南駅商圏", "テヘラン路（IT企業集中）"],
+        "estimated": true
+      },
+      {
+        "area": "Sinchon",
+        "areaJa": "新村",
+        "description": "延世大学・梨花女子大学・西江大学が集中する学生街。留学生向けの手頃な物件が多い。飲食店・カフェが充実",
+        "wolse": {
+          "oneRoom": { "monthly_min_krw": 450000, "monthly_max_krw": 550000 }
+        },
+        "nearbyFacilities": ["延世大学", "梨花女子大学", "新村駅商業エリア"],
+        "estimated": true
+      },
+      {
+        "area": "Hongdae",
+        "areaJa": "弘大（ホンデ）",
+        "description": "若者文化の中心地。アート・音楽・カフェが集まる。家賃は幅広く、人気エリアのため高め物件も多い",
+        "wolse": {
+          "oneRoom": { "monthly_min_krw": 550000, "monthly_max_krw": 1500000 }
+        },
+        "nearbyFacilities": ["弘大入口駅", "ホンデ商業エリア", "麻浦区役所近く"],
+        "estimated": true
+      }
+    ],
+    "propertyTypes": {
+      "apartment": {
+        "nameKo": "아파트（アパトゥ）",
+        "nameJa": "アパート（日本のマンション相当）",
+        "description": "韓国の「アパート」は日本のマンションに相当する大規模集合住宅。管理組合・警備員・地下駐車場が整備されている。韓国人に最も人気の住居タイプ",
+        "monthlyRent": { "min_krw": 2000000, "max_krw": 3500000 },
+        "foreignerEligibility": "賃貸可能。購入も可能（ただし外国人土地法に基づく届出が必要）"
+      },
+      "officetel": {
+        "nameKo": "오피스텔（オフィステル）",
+        "nameJa": "オフィステル",
+        "description": "オフィスとホテルを合わせた造語。ワンルーム〜1LDK程度の小型住居。単身者・カップル向け。セキュリティが良く、駅近物件が多い",
+        "monthlyRent": { "min_krw": 500000, "max_krw": 1000000 },
+        "foreignerEligibility": "賃貸可能"
+      },
+      "villa": {
+        "nameKo": "빌라（ビラ）",
+        "nameJa": "ビラ（低層集合住宅）",
+        "description": "4〜5階建ての低層集合住宅。アパートより安いが、エレベーターなし・管理人不在の物件が多い",
+        "monthlyRent": { "min_krw": 300000, "max_krw": 600000 },
+        "foreignerEligibility": "賃貸可能"
+      },
+      "oneRoom": {
+        "nameKo": "원룸（ウォンルム）",
+        "nameJa": "ワンルーム",
+        "description": "日本のワンルームとほぼ同じ。キッチン・バス・トイレが一体化した小型住居。学生・単身者向け",
+        "foreignerEligibility": "賃貸可能"
+      },
+      "goshiwon": {
+        "nameKo": "고시원（コシウォン）",
+        "nameJa": "コシウォン",
+        "description": "3〜5畳程度の極小個室。元は公務員試験受験生向けの勉強部屋。保証金不要・月30〜50万KRW程度で最も安い。キッチン・シャワーは共用が多い",
+        "monthlyRent": { "min_krw": 300000, "max_krw": 500000 },
+        "foreignerEligibility": "賃貸可能"
+      }
+    },
+    "contractTerms": {
+      "typicalLease": "2年が基本（住宅賃貸借保護法により2年未満の契約でも借主は2年間の居住を主張できる）",
+      "deposit": "ワンルーム: 500万〜1,000万KRW、アパート: 2,000万〜1億KRW以上（物件による）",
+      "agentFee": "仲介手数料は法定上限あり。取引額に応じて0.3〜0.9%程度",
+      "managementFee": {
+        "min_krw": 50000,
+        "max_krw": 150000,
+        "note": "管理費（관리비）は別途。物件の規模・設備により変動"
+      },
+      "utilities": "電気・ガス・水道・インターネットは別途。管理費（관리비）が別途かかる物件が多い",
+      "furnished": "家具なしが一般的。オフィステルは家具付きの場合がある",
+      "confirmationDate": "確定日字（확정일자）を区役所で取得すること。保証金返還の優先権を得るために必須",
+      "foreignerRegistration": "契約後14日以内に出入国管理事務所で外国人登録の住所変更届が必要"
+    },
+    "japaneseRealEstateAgents": [
+      {
+        "name": "エイブルソウル",
+        "website": "https://www.able-seoul.com/",
+        "languages": ["日本語", "韓国語"],
+        "note": "日本のエイブルのソウル支店。日本語対応"
+      },
+      {
+        "name": "スターツソウル",
+        "website": "https://starts-seoul.com/",
+        "languages": ["日本語", "韓国語"],
+        "note": "日本のスターツグループ。法人契約に強い"
+      },
+      {
+        "name": "おうちコリア",
+        "website": "https://www.ouchikorea.com/",
+        "languages": ["日本語", "韓国語"],
+        "note": "韓国留学・ワーホリ向けの物件紹介に強い"
+      },
+      {
+        "name": "ソウル部屋ナビ",
+        "website": "https://seoulroomnavi.com/",
+        "languages": ["日本語", "韓国語"],
+        "note": "ソウルのワンルーム・オフィステル中心"
+      },
+      {
+        "name": "HEARTSTAY",
+        "languages": ["日本語", "韓国語"],
+        "note": "短期〜中期滞在向け"
+      }
+    ],
+    "tips": [
+      "韓国の「アパート」は日本のマンション相当。日本の「アパート」に近いのは「ビラ」",
+      "チョンセは外国人にはほぼ使えない。ウォルセ（保証金＋月家賃）で探すのが現実的",
+      "保証金は退去時に全額返還されるが、返還トラブルが多い。契約書と振込記録を必ず保管する",
+      "確定日字（확정일자）を区役所で取得すると、保証金返還の優先権が得られる。必ず取得する",
+      "冬の暖房費（オンドル）が高額になることがある。月5万〜10万KRW程度の追加を見込む",
+      "不動産仲介手数料は法定上限があり、日本より安い",
+      "管理費（관리비）は月5万〜15万KRW程度で別途かかる。契約前に確認する",
+      "契約時に外国人登録証（외국인등록증）が必要。入国後すぐに取得手続きを進める"
+    ]
+  }
+}

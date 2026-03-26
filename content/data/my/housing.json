@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "source": [
+      "https://www.propertyguru.com.my/",
+      "https://kaigai.starts.co.jp/malaysia",
+      "https://www.iproperty.com.my/"
+    ],
+    "lastVerified": "2026-03-26",
+    "notes": "2026年初頭のKL家賃相場。エリア・築年数・設備・階数で大きく変動する。日本人が多く住むモントキアラを中心に記載。家賃はコンドミニアム基準"
+  },
+  "data": {
+    "japanesePopularAreas": [
+      {
+        "area": "Mont Kiara",
+        "areaJa": "モントキアラ",
+        "description": "日本人が最も多く住むエリア。日本食スーパー（ジャヤグロサー等）、日本食レストランが集中。日本人学校（JSKL）への通学バスルートが充実",
+        "condo": {
+          "twoBedroom": { "min_myr": 3500, "max_myr": 5500 },
+          "threeBedroom": { "min_myr": 5000, "max_myr": 8000 }
+        },
+        "nearbyFacilities": ["日本食スーパー", "日本人学校バスルート", "1モントキアラ（商業施設）", "パブリカ"],
+        "estimated": true
+      },
+      {
+        "area": "KLCC",
+        "areaJa": "KLCC周辺",
+        "description": "ペトロナスツインタワー至近の都心エリア。高級コンドミニアムが多く、交通の便が良い。KLCC公園が隣接し緑も多い",
+        "condo": {
+          "twoBedroom": { "min_myr": 4000, "max_myr": 7000 },
+          "threeBedroom": { "min_myr": 6000, "max_myr": 10000 }
+        },
+        "nearbyFacilities": ["スリアKLCC", "KLCC公園", "コンベンションセンター", "LRT駅直結"],
+        "estimated": true
+      },
+      {
+        "area": "Bangsar",
+        "areaJa": "バンサー",
+        "description": "カフェ・レストランが多いおしゃれエリア。欧米系駐在員も多く住む。バンサーヴィレッジやバンサーショッピングセンターが生活の中心",
+        "condo": {
+          "twoBedroom": { "min_myr": 3500, "max_myr": 5000 },
+          "threeBedroom": { "min_myr": 5000, "max_myr": 7500 }
+        },
+        "nearbyFacilities": ["バンサーヴィレッジ", "バンサーショッピングセンター", "カフェ・レストラン街", "LRT Bangsar駅"],
+        "estimated": true
+      },
+      {
+        "area": "Desa ParkCity",
+        "areaJa": "デサパークシティ",
+        "description": "計画都市で街並みが整備されている。インターナショナルスクールが隣接し、ファミリー層に人気。ペットフレンドリーな公園も",
+        "condo": {
+          "twoBedroom": { "min_myr": 3500, "max_myr": 5500 },
+          "threeBedroom": { "min_myr": 5000, "max_myr": 7000 }
+        },
+        "nearbyFacilities": ["ザ・ウォーターフロント", "インター校隣接", "セントラルパーク", "ペットフレンドリー公園"],
+        "estimated": true
+      },
+      {
+        "area": "Ampang Hilir",
+        "areaJa": "アンパンヒリル",
+        "description": "各国大使館が集中するエリア。高級住宅街で治安が良い。グレートイースタンモール等の商業施設あり",
+        "condo": {
+          "twoBedroom": { "min_myr": 4000, "max_myr": 7000 },
+          "threeBedroom": { "min_myr": 6000, "max_myr": 10000 }
+        },
+        "nearbyFacilities": ["各国大使館", "グレートイースタンモール", "高級住宅街"],
+        "estimated": true
+      }
+    ],
+    "propertyTypes": {
+      "condominium": {
+        "nameJa": "コンドミニアム",
+        "description": "最も人気の物件タイプ。プール・ジム・24時間セキュリティが標準装備。家具付きが一般的",
+        "priceRange_myr": { "min": 2000, "max": 10000 },
+        "pros": ["プール・ジム・セキュリティ付き", "家具付きが多い", "物件数が豊富"],
+        "cons": ["管理費が別途かかる", "オーナーにより内装・家具の質が異なる"]
+      },
+      "serviceResidence": {
+        "nameJa": "サービスレジデンス",
+        "description": "ホテルライクな管理運営。フロント・清掃サービス付き。短期〜中期滞在にも対応",
+        "priceRange_myr": { "min": 3000, "max": 8000 },
+        "pros": ["管理が統一されている", "清掃・フロントサービス付き", "短期契約に対応するものもある"],
+        "cons": ["コンドミニアムより割高", "内装の自由度が低い"]
+      },
+      "terraceHouse": {
+        "nameJa": "テラスハウス（長屋式戸建て）",
+        "description": "壁を共有する連棟式の戸建て住宅。庭付きが多く、ファミリーに人気",
+        "priceRange_myr": { "min": 2500, "max": 6000 },
+        "pros": ["庭付きが多い", "コンドミニアムより広い", "プライバシーが高い"],
+        "cons": ["セキュリティはゲーテッドコミュニティ以外は自己管理", "駅から遠い物件が多い"]
+      },
+      "bungalow": {
+        "nameJa": "バンガロー（独立戸建て）",
+        "description": "完全独立の戸建て住宅。最も広く、プライバシーが高い。駐在員の役員クラスに多い",
+        "priceRange_myr": { "min": 5000, "max": 15000 },
+        "pros": ["広い", "プライバシーが高い", "庭・駐車場付き"],
+        "cons": ["高い", "セキュリティは自己管理の場合が多い", "メンテナンス負担が大きい"]
+      }
+    },
+    "contractTerms": {
+      "typicalLease": "1年（最低契約期間）",
+      "securityDeposit": "2ヶ月分が標準",
+      "utilityDeposit": "0.5ヶ月分",
+      "stampingFee_myr": { "min": 200, "max": 400 },
+      "agentFee": "テナント側は通常無料（オーナーがエージェントに支払う）",
+      "furnished": "家具付き（Fully Furnished）が一般的",
+      "earlyTermination": "違約金あり。通常はデポジット没収"
+    },
+    "japaneseRealEstateAgents": [
+      {
+        "name": "スターツインターナショナルマレーシア",
+        "phone": "+60-3-2386-7818",
+        "languages": ["日本語", "英語", "マレー語"],
+        "note": "日本のスターツグループ。日本語で丁寧に対応"
+      },
+      {
+        "name": "KL不動産",
+        "languages": ["日本語", "英語", "マレー語"],
+        "note": "KL特化の日系不動産"
+      },
+      {
+        "name": "コスモスプラン（アパマンショップKL）",
+        "languages": ["日本語", "英語", "マレー語"],
+        "note": "アパマンショップのKL拠点"
+      },
+      {
+        "name": "エリッツインターナショナル",
+        "languages": ["日本語", "英語", "マレー語"],
+        "note": "日系不動産。賃貸仲介対応"
+      }
+    ],
+    "tips": [
+      "マレーシアのコンドミニアムはプール・ジム・24時間セキュリティが標準。日本では高級物件の設備がRM3,500（約14万円）クラスから付いてくる",
+      "渋滞が激しいため、勤務先・学校への距離を最優先で考える。MRT/LRT駅近物件が理想だが、モントキアラ等は車社会前提のエリア",
+      "電気代・水道代は別途。エアコンの使用頻度で電気代が大きく変わる（月MYR 200〜500程度）",
+      "家族帯同の場合、日本人学校（JSKL）のバスルートを確認してからエリアを決めると良い",
+      "Stamping Fee（印紙税）はテナント負担が一般的。RM200〜400程度"
+    ]
+  }
+}

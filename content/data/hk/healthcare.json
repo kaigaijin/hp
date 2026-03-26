@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "source": [
+      "https://www.ha.org.hk/visitor/ha_visitor_index.asp?Content_ID=10045",
+      "https://www.hk.emb-japan.go.jp/itprtop_ja/index.html"
+    ],
+    "lastVerified": "2026-03-26",
+    "notes": "公立病院の料金は香港ID保有者向け。2026年1月改定後の料金。私立医療費は目安であり、医療機関・症状により大きく変動する"
+  },
+  "data": {
+    "japaneseClinics": [
+      {
+        "name": "ロンドン医療センター（London Medical Clinic）",
+        "nameEn": "London Medical Clinic",
+        "area": "Causeway Bay（銅鑼湾）",
+        "phone": "+85225255025",
+        "languages": ["日本語", "英語", "広東語"],
+        "services": ["内科", "小児科", "健康診断", "予防接種"],
+        "note": "日本人医師常駐。香港の日本人コミュニティで最も知名度が高い日系クリニック"
+      },
+      {
+        "name": "DYMヘルスケア香港（DYM Health Care Hong Kong）",
+        "nameEn": "DYM Health Care Hong Kong",
+        "area": "Tsim Sha Tsui（尖沙咀）/ Central（セントラル）",
+        "languages": ["日本語", "英語", "広東語"],
+        "services": ["内科", "健康診断"],
+        "note": "日本人スタッフ在籍。尖沙咀とセントラルに拠点あり"
+      }
+    ],
+    "medicalCosts": {
+      "public": {
+        "note": "香港ID保有者向けの料金。2026年1月改定後",
+        "emergency": {
+          "label": "救急外来（A&E）",
+          "fee_hkd": 400
+        },
+        "generalOutpatient": {
+          "label": "一般外来（GOPC）初診",
+          "fee_hkd": 150
+        },
+        "specialistOutpatient": {
+          "label": "専門外来（SOPC）",
+          "fee_hkd": 250
+        },
+        "inpatientPerDay": {
+          "label": "入院（1日あたり）",
+          "fee_hkd": 300
+        }
+      },
+      "private": {
+        "note": "私立医療機関の費用目安。医療機関・症状により大きく異なる",
+        "gpConsultation": {
+          "label": "一般診察（GP）",
+          "range": {
+            "min_hkd": 400,
+            "max_hkd": 1000
+          }
+        },
+        "specialistConsultation": {
+          "label": "専門医",
+          "range": {
+            "min_hkd": 800,
+            "max_hkd": 2000
+          },
+          "note": "症状・専門分野により上限なし"
+        },
+        "dental": {
+          "label": "歯科",
+          "range": {
+            "min_hkd": 600,
+            "max_hkd": 1500
+          }
+        },
+        "inpatientPerNight": {
+          "label": "入院（1泊あたり）",
+          "range": {
+            "min_hkd": 3000,
+            "max_hkd": 10000
+          },
+          "note": "個室の場合。病室タイプにより変動"
+        },
+        "estimated": true
+      }
+    },
+    "insurance": {
+      "overview": "香港には日本の国民健康保険に相当する制度がない。公立病院は香港ID保有者に補助があるが、外国人の日常的な医療は会社の保険または民間保険が頼り",
+      "companyInsurance": {
+        "description": "駐在員・現地採用ともに、雇用主が医療保険を提供するのが香港では一般的。グループ保険の内容確認が最重要",
+        "checkPoints": [
+          "外来・入院のカバー範囲と上限額",
+          "歯科・眼科のカバーの有無",
+          "家族（配偶者・子供）のカバーの有無",
+          "日本への一時帰国時の受診カバー",
+          "中国本土での受診カバー"
+        ]
+      },
+      "privateInsurance": {
+        "description": "会社の保険が不十分な場合や個人事業主の場合は、民間の国際医療保険に加入する",
+        "note": "Bupa、AXA、Cigna等が香港で利用可能"
+      }
+    },
+    "emergencyContacts": {
+      "emergencyNumber": "999",
+      "note": "999は警察・消防・救急の統合番号",
+      "japaneseConsulate": {
+        "name": "在香港日本国総領事館",
+        "phone": "+85225221184"
+      }
+    }
+  }
+}

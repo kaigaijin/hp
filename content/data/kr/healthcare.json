@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "source": [
+      "https://www.nhis.or.kr/",
+      "https://www.esclinic.co.kr/",
+      "https://www.severance.healthcare/",
+      "https://www.samsunghospital.com/",
+      "https://www.kr.emb-japan.go.jp/itprtop_ja/index.html"
+    ],
+    "lastVerified": "2026-03-26",
+    "notes": "韓国の医療制度・費用・日本語対応医療機関。6ヶ月以上滞在の外国人は国民健康保険（NHI）に自動加入。自己負担率は医療機関の種類により異なる"
+  },
+  "data": {
+    "emergencyNumbers": {
+      "fireAndAmbulance": "119",
+      "police": "112",
+      "medicalInterpreter": {
+        "number": "1339",
+        "note": "外国人向け医療通訳サービス。24時間対応。日本語通訳を依頼可能"
+      },
+      "japaneseEmbassy": {
+        "name": "在韓国日本大使館",
+        "phone": "+82-2-2170-5200",
+        "note": "緊急時の邦人保護・医療相談"
+      }
+    },
+    "insuranceSystem": {
+      "mandatory": true,
+      "mandatoryDescription": "6ヶ月以上滞在する外国人は国民健康保険（NHI）に自動加入",
+      "monthlyPremium": { "min_krw": 100000, "max_krw": 130000, "note": "外国人の月額保険料目安。所得・財産により変動" },
+      "copayRates": {
+        "clinic": { "rate_pct": 30, "note": "クリニック・医院（의원）" },
+        "generalHospital": { "min_pct": 45, "max_pct": 50, "note": "総合病院" },
+        "tertiaryHospital": { "rate_pct": 60, "note": "上級総合病院（大学病院等）" }
+      },
+      "foreignerNote": "6ヶ月未満の滞在者は加入不可。海外旅行保険や民間保険でカバーする必要がある",
+      "visaImpact": "保険料を未納するとビザ更新に影響する場合がある。滞納に注意",
+      "estimated": true
+    },
+    "medicalCosts": {
+      "clinicWithNHI": { "min_krw": 5000, "max_krw": 15000, "note": "NHI加入者のクリニック診察（自己負担30%適用後）" },
+      "clinicWithoutNHI": { "min_krw": 15000, "max_krw": 30000, "note": "NHI未加入者のクリニック診察（全額自己負担）" },
+      "generalHospitalWithNHI": { "min_krw": 20000, "max_krw": 60000, "note": "NHI加入者の総合病院診察（自己負担45〜50%適用後）" },
+      "generalHospitalWithoutNHI": { "min_krw": 50000, "max_krw": 100000, "note": "NHI未加入者の総合病院診察（全額自己負担）" },
+      "emergencyPublic": { "approx_krw": 13000, "note": "公立病院の救急受診。NHI加入者の場合の自己負担目安" },
+      "estimated": true
+    },
+    "japaneseClinicSeoul": [
+      {
+        "name": "エスクリニック（S Clinic）",
+        "website": "https://www.esclinic.co.kr/",
+        "area": "二村洞（龍山区）",
+        "languages": ["日本語", "韓国語"],
+        "note": "二村洞の日本人街に位置。日本語対応の総合クリニック"
+      },
+      {
+        "name": "クライン整形外科",
+        "area": "江南区",
+        "phone": "+82-2-555-9392",
+        "languages": ["日本語", "韓国語"],
+        "note": "日本語対応の整形外科クリニック"
+      },
+      {
+        "name": "ソウル日本人クリニック",
+        "area": "江南区",
+        "phone": "+82-2-539-4333",
+        "languages": ["日本語", "韓国語"],
+        "note": "外国人専用医療機関。日本語で受診可能"
+      }
+    ],
+    "japaneseSupportHospitals": [
+      {
+        "name": "セブランス病院（延世大学医療院）",
+        "website": "https://www.severance.healthcare/",
+        "area": "西大門区",
+        "japaneseSupport": true,
+        "note": "国際診療センターに日本語コーディネーター在籍。韓国を代表する大学病院の一つ"
+      },
+      {
+        "name": "サムスンソウル病院",
+        "website": "https://www.samsunghospital.com/",
+        "area": "江南区",
+        "japaneseSupport": true,
+        "note": "国際医療センターに日本語対応スタッフ在籍。高度医療に対応"
+      },
+      {
+        "name": "ソウル大学病院",
+        "area": "鍾路区",
+        "japaneseSupport": true,
+        "note": "国際診療センターで日本語サポートあり。韓国最高峰の大学病院"
+      }
+    ]
+  }
+}

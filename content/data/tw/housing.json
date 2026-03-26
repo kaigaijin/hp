@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "source": [
+      "https://www.591.com.tw/",
+      "https://able-taiwan.com/",
+      "https://starts-tw.com/",
+      "https://www.livable.co.jp/corp/network/taipei.html",
+      "https://www.papago-taiwanroom.com/",
+      "https://taiwan-chintai.com/"
+    ],
+    "lastVerified": "2026-03-26",
+    "notes": "2026年初頭の台北市家賃相場。エリア・築年数・階数・設備で大きく変動する。日本人が多く住む中山区・大安区・天母エリアを中心に記載"
+  },
+  "data": {
+    "japanesePopularAreas": [
+      {
+        "area": "Zhongshan District",
+        "areaJa": "中山区",
+        "description": "日本人在住者が最も多いエリア。日本食レストラン・日系スーパー・日本語対応の不動産会社が集中。MRT中山駅・松江南京駅が最寄り",
+        "rent": {
+          "studio": { "min_twd": 12000, "max_twd": 25000 },
+          "oneLDK": { "min_twd": 18000, "max_twd": 30000 },
+          "twoLDK": { "min_twd": 25000, "max_twd": 40000 }
+        },
+        "nearbyFacilities": ["日系飲食店多数", "三越百貨店", "日系スーパー"],
+        "estimated": true
+      },
+      {
+        "area": "Da'an District",
+        "areaJa": "大安区",
+        "description": "台湾大学・師範大学がある文教地区。MRT大安駅・東門駅が最寄り。永康街（グルメ街）が人気",
+        "rent": {
+          "studio": { "min_twd": 12000, "max_twd": 20000 },
+          "oneLDK": { "min_twd": 16000, "max_twd": 25000 },
+          "twoLDK": { "min_twd": 25000, "max_twd": 35000 }
+        },
+        "nearbyFacilities": ["台湾大学", "永康街", "大安森林公園"],
+        "estimated": true
+      },
+      {
+        "area": "Xinyi District",
+        "areaJa": "信義区",
+        "description": "台北101周辺の商業地区。台北市内で最も家賃が高いエリア。MRT市政府駅・台北101/世貿駅が最寄り",
+        "rent": {
+          "studio": { "min_twd": 15000, "max_twd": 25000 },
+          "oneLDK": { "min_twd": 20000, "max_twd": 35000 },
+          "twoLDK": { "min_twd": 30000, "max_twd": 50000 }
+        },
+        "nearbyFacilities": ["台北101", "信義商圏（百貨店街）", "ATT 4 FUN"],
+        "estimated": true
+      },
+      {
+        "area": "Tianmu (Shilin District)",
+        "areaJa": "天母（士林区）",
+        "description": "台北日本人学校があるファミリーエリア。外国人居住者が多く、インターナショナルな雰囲気。陽明山に近く自然環境が良い",
+        "rent": {
+          "studio": { "min_twd": 15000, "max_twd": 25000 },
+          "oneLDK": { "min_twd": 20000, "max_twd": 30000 },
+          "twoLDK": { "min_twd": 30000, "max_twd": 45000 }
+        },
+        "nearbyFacilities": ["台北日本人学校", "天母SOGO", "陽明山"],
+        "estimated": true
+      },
+      {
+        "area": "Zhongzheng District",
+        "areaJa": "中正区",
+        "description": "官庁街。台北駅・MRT中正紀念堂駅が最寄り。交通の便が非常に良い。総統府や中正紀念堂がある行政の中心地",
+        "rent": {
+          "studio": { "min_twd": 10000, "max_twd": 20000 },
+          "oneLDK": { "min_twd": 15000, "max_twd": 25000 },
+          "twoLDK": { "min_twd": 25000, "max_twd": 35000 }
+        },
+        "nearbyFacilities": ["台北駅", "中正紀念堂", "総統府"],
+        "estimated": true
+      }
+    ],
+    "propertyTypes": {
+      "duLiTaoFang": {
+        "nameJa": "獨立套房（ワンルーム）",
+        "description": "一人暮らし向けのワンルーム。専用のキッチン・バスルーム付き",
+        "rentRange": { "min_twd": 10000, "max_twd": 25000 }
+      },
+      "fenZuTaoFang": {
+        "nameJa": "分租套房（シェア個室＋専用バスルーム）",
+        "description": "シェアハウスの一室で専用バスルーム付き。キッチン・リビングは共用",
+        "rentRange": { "min_twd": 8000, "max_twd": 15000 }
+      },
+      "yaFang": {
+        "nameJa": "雅房（シェア個室のみ）",
+        "description": "シェアハウスの一室。バスルーム・キッチンは全て共用。最も安い",
+        "rentRange": { "min_twd": 6000, "max_twd": 10000 }
+      },
+      "zhengCengZhuJia": {
+        "nameJa": "整層住家（フロア貸し）",
+        "description": "1フロアまるごと賃貸。家族向け。2LDK以上が一般的",
+        "rentRange": { "min_twd": 20000, "max_twd": 50000 }
+      },
+      "daLou": {
+        "nameJa": "大樓（高層マンション）",
+        "description": "エレベーター・管理人付きの高層集合住宅。管理費が別途かかる"
+      },
+      "gongYu": {
+        "nameJa": "公寓（低層アパート）",
+        "description": "エレベーターなしの5階建て以下の集合住宅。管理費が安いか無料。家賃は大樓の7〜8割程度"
+      }
+    },
+    "contractTerms": {
+      "typicalLease": "1年（短期は交渉次第）",
+      "securityDeposit": "2ヶ月分が標準。退去時全額返金（日本より判定基準が緩い）",
+      "keyMoney": "なし（礼金の習慣なし）",
+      "agentFee": "家賃の0.5〜1ヶ月分（仲介手数料）",
+      "furnished": "家具付き（Furnished）が多い。特に獨立套房・分租套房はほぼ家具付き"
+    },
+    "japaneseRealEstateAgents": [
+      {
+        "name": "エイブル台湾",
+        "languages": ["日本語", "中国語"],
+        "note": "日本のエイブルの台湾法人。日本語で物件探し・契約が可能"
+      },
+      {
+        "name": "スターツ台湾",
+        "phone": "+886225110508",
+        "languages": ["日本語", "中国語"],
+        "note": "日本のスターツグループ。法人契約に強い"
+      },
+      {
+        "name": "東急リバブル台北",
+        "languages": ["日本語", "中国語"],
+        "note": "東急リバブルの台北拠点。日本人駐在員向けサービス"
+      },
+      {
+        "name": "PAPAGO お部屋探し支援室",
+        "languages": ["日本語", "中国語"],
+        "note": "台湾在住日本人向けの不動産仲介・生活サポートサービス"
+      },
+      {
+        "name": "台湾賃貸ドットコム",
+        "languages": ["日本語", "中国語"],
+        "note": "台湾の賃貸物件を日本語で検索・相談できるポータルサイト"
+      }
+    ],
+    "tips": [
+      "台湾の賃貸は礼金の習慣がない。敷金2ヶ月＋仲介手数料0.5〜1ヶ月分が初期費用の目安",
+      "公寓（エレベーターなし）は大樓（高層マンション）より家賃が7〜8割程度に安くなる",
+      "591房屋交易網（591.com.tw）が台湾最大の物件ポータルサイト",
+      "天母エリアは台北日本人学校があり、家族帯同の駐在員に人気",
+      "台湾の住所は「路」「街」「巷」「弄」の階層構造。慣れるまでわかりにくいが、Google Mapで確認すれば問題ない",
+      "敷金は退去時に全額返金が基本。日本のように原状回復費用で大幅に差し引かれることは少ない"
+    ]
+  }
+}

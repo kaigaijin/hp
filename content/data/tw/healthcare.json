@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "source": [
+      "https://www.nhi.gov.tw/",
+      "https://www.taianclinic.com/",
+      "https://www.taipei101clinic.com/",
+      "https://www.koryu.or.jp/"
+    ],
+    "lastVerified": "2026-03-26",
+    "notes": "台湾の医療費相場・日本語対応医療機関。全民健康保険（NHI）加入者と未加入者で費用が大きく異なる。NHIは治療費の約65%をカバー"
+  },
+  "data": {
+    "emergencyNumbers": {
+      "ambulanceAndFire": "119",
+      "police": "110"
+    },
+    "diplomaticMission": {
+      "name": "日本台湾交流協会",
+      "nameEn": "Japan-Taiwan Exchange Association",
+      "note": "日台間に正式な国交がないため、大使館に相当する機関"
+    },
+    "medicalCosts": {
+      "nhiClinic": { "min_twd": 50, "max_twd": 150, "note": "NHI加入者のクリニック受診（自己負担額）" },
+      "nhiDistrictHospital": { "min_twd": 80, "max_twd": 240, "note": "NHI加入者の地区病院受診（自己負担額）" },
+      "nhiMedicalCenter": { "min_twd": 210, "max_twd": 420, "note": "NHI加入者の医学中心（大学病院級）受診（自己負担額）" },
+      "nhiEmergency": { "min_twd": 150, "max_twd": 450, "note": "NHI加入者の救急受診（自己負担額）" },
+      "uninsuredClinic": { "min_twd": 1000, "max_twd": 2000, "note": "NHI未加入者のクリニック受診（全額自費）" },
+      "uninsuredDistrictHospital": { "min_twd": 2000, "max_twd": 5000, "note": "NHI未加入者の地区病院受診（全額自費）" },
+      "uninsuredMedicalCenter": { "min_twd": 5000, "max_twd": 15000, "note": "NHI未加入者の医学中心受診（全額自費）" },
+      "uninsuredEmergency": { "min_twd": 3000, "max_twd": 10000, "note": "NHI未加入者の救急受診（全額自費）" },
+      "estimated": true
+    },
+    "insuranceSystem": {
+      "name": "全民健康保険（NHI）",
+      "mandatory": true,
+      "mandatoryDescription": "台湾で就労する外国人は雇用開始日から加入義務。留学生等は居留証取得＋6ヶ月連続滞在後に加入義務",
+      "monthlyPremium_twd": 826,
+      "monthlyPremiumNote": "被雇用者の場合。雇用主が約60%、被雇用者が約30%、政府が約10%を負担",
+      "coverageRate": "治療費の約65%をカバー",
+      "coverageScope": "外来・入院・手術・処方薬・検査・リハビリ・歯科（基本）・漢方。家族も加入可能",
+      "familyCoverage": "就労者の配偶者・子供は即加入可能",
+      "penaltyForNonEnrollment": {
+        "min_twd": 3000,
+        "max_twd": 15000,
+        "note": "加入義務がある者がNHIに未加入の場合の罰則金"
+      },
+      "estimated": true
+    },
+    "japaneseClinicsTaipei": [
+      {
+        "name": "台安医院（日本人特別外来）",
+        "area": "松山区",
+        "languages": ["日本語", "中国語", "英語"],
+        "note": "日本人特別外来あり。日本語通訳が常駐。総合病院なので検査・入院にも対応。全て日本語で完結する"
+      },
+      {
+        "name": "台北101クリニック（台北日本クリニック）",
+        "area": "信義区",
+        "phone": "+886967350119",
+        "languages": ["日本語", "中国語", "英語"],
+        "operatingHours": "朝8時〜夜10時、年中無休",
+        "lineConsultation": true,
+        "lineConsultationNote": "LINE 24時間相談対応",
+        "note": "日本資本のクリニック。年中無休。一般内科・小児科・健康診断に対応"
+      },
+      {
+        "name": "輝雄診所",
+        "area": "中山区",
+        "languages": ["日本語", "中国語"],
+        "note": "健康診断・人間ドックに特化。日本語対応可能"
+      },
+      {
+        "name": "東杏クリニック",
+        "area": "中山区",
+        "languages": ["日本語", "中国語"],
+        "note": "日本語対応の一般内科クリニック"
+      }
+    ]
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "source": [
+      "https://sandsofwealth.com/blogs/news/dubai-rents",
+      "https://www.dda-realestate.com/posts/dubai-rent-prices-2025-average-apartment-rental-costs-in-dubai",
+      "https://www.digitaldubai.ai/dubai-updates/how-to-rent-apartment-dubai-2026",
+      "https://dmcc.ae/blog/cost-of-living-in-dubai-for-expats"
+    ],
+    "lastVerified": "2026-03-26",
+    "notes": "2026年初頭のドバイ家賃相場。エリア・物件グレード・階数・眺望で大きく変動する。年間賃料で表記（ドバイの慣行に合わせる）"
+  },
+  "data": {
+    "japanesePopularAreas": [
+      {
+        "area": "Dubai Marina",
+        "areaJa": "ドバイマリーナ",
+        "description": "ウォーターフロントの高層マンション群。レストラン・カフェ・ビーチが徒歩圏内。メトロ・トラムのアクセスも良好。若い駐在員・単身者に人気",
+        "annualRent": {
+          "studio": { "min_aed": 60000, "max_aed": 90000 },
+          "oneBedroom": { "min_aed": 85000, "max_aed": 140000 },
+          "twoBedroom": { "min_aed": 130000, "max_aed": 220000 }
+        },
+        "nearbyFacilities": ["ドバイマリーナモール", "JBRビーチ", "メトロ・トラム"],
+        "estimated": true
+      },
+      {
+        "area": "Downtown Dubai",
+        "areaJa": "ダウンタウン・ドバイ",
+        "description": "ブルジュ・ハリファ、ドバイモールの足元。ドバイの中心地。高級物件が多く家賃も最高水準",
+        "annualRent": {
+          "studio": { "min_aed": 65000, "max_aed": 110000 },
+          "oneBedroom": { "min_aed": 100000, "max_aed": 180000 },
+          "twoBedroom": { "min_aed": 160000, "max_aed": 300000 }
+        },
+        "nearbyFacilities": ["ドバイモール", "ブルジュ・ハリファ", "ドバイオペラ"],
+        "estimated": true
+      },
+      {
+        "area": "JBR (Jumeirah Beach Residence)",
+        "areaJa": "JBR（ジュメイラ・ビーチ・レジデンス）",
+        "description": "ビーチフロントの大規模レジデンス。レストラン・ショップが1階に並ぶ。ビーチ好きの家族・カップルに人気",
+        "annualRent": {
+          "studio": { "min_aed": 65000, "max_aed": 100000 },
+          "oneBedroom": { "min_aed": 90000, "max_aed": 150000 },
+          "twoBedroom": { "min_aed": 140000, "max_aed": 230000 }
+        },
+        "nearbyFacilities": ["ザ・ビーチ", "アイン・ドバイ（観覧車）", "トラム"],
+        "estimated": true
+      },
+      {
+        "area": "Al Barsha",
+        "areaJa": "アル・バルシャ",
+        "description": "モール・オブ・ジ・エミレーツに近い。日系企業へのアクセスが良く、日本人学校（ドバイ日本人学校）も近い。家族連れの日本人に人気",
+        "annualRent": {
+          "studio": { "min_aed": 35000, "max_aed": 55000 },
+          "oneBedroom": { "min_aed": 50000, "max_aed": 80000 },
+          "twoBedroom": { "min_aed": 75000, "max_aed": 120000 }
+        },
+        "nearbyFacilities": ["モール・オブ・ジ・エミレーツ", "ドバイ日本人学校", "メトロ"],
+        "estimated": true
+      },
+      {
+        "area": "Business Bay",
+        "areaJa": "ビジネスベイ",
+        "description": "ダウンタウンに隣接するビジネス・居住エリア。新しいタワーが多く、ダウンタウンより手頃。メトロアクセスあり",
+        "annualRent": {
+          "studio": { "min_aed": 50000, "max_aed": 75000 },
+          "oneBedroom": { "min_aed": 70000, "max_aed": 120000 },
+          "twoBedroom": { "min_aed": 110000, "max_aed": 180000 }
+        },
+        "nearbyFacilities": ["ドバイ運河", "ダウンタウン徒歩圏内", "メトロ"],
+        "estimated": true
+      },
+      {
+        "area": "JVC (Jumeirah Village Circle)",
+        "areaJa": "JVC（ジュメイラ・ビレッジ・サークル）",
+        "description": "コスパ重視の家族向けエリア。新築物件が増加中。中心部からはやや遠いが家賃が手頃",
+        "annualRent": {
+          "studio": { "min_aed": 35000, "max_aed": 55000 },
+          "oneBedroom": { "min_aed": 50000, "max_aed": 80000 },
+          "twoBedroom": { "min_aed": 75000, "max_aed": 120000 }
+        },
+        "nearbyFacilities": ["コミュニティパーク", "ショッピングモール"],
+        "estimated": true
+      },
+      {
+        "area": "Dubai Hills Estate",
+        "areaJa": "ドバイヒルズ・エステート",
+        "description": "EMAAr開発の大規模計画都市。ゴルフコース・公園・ドバイヒルズモールあり。ゲーテッドコミュニティで安全。家族に人気",
+        "annualRent": {
+          "twoBedroom_apartment": { "min_aed": 100000, "max_aed": 160000 },
+          "threeBedroom_villa": { "min_aed": 200000, "max_aed": 350000 }
+        },
+        "nearbyFacilities": ["ドバイヒルズモール", "ゴルフコース", "インターナショナルスクール"],
+        "estimated": true
+      }
+    ],
+    "propertyTypes": {
+      "apartment": {
+        "nameJa": "アパートメント",
+        "description": "タワー型の集合住宅。プール・ジム・パーキング付きが標準。ドバイで最も一般的な住居形態",
+        "foreignerEligibility": "賃貸・購入ともに可能（フリーホールドエリア）",
+        "pros": ["セキュリティ完備", "共用施設が充実", "メンテナンスが楽"],
+        "cons": ["面積はヴィラより狭い", "エリアにより騒音がある"]
+      },
+      "villa": {
+        "nameJa": "ヴィラ（戸建て住宅）",
+        "description": "ゲーテッドコミュニティ内の戸建て住宅。庭・プライベートプール付きが多い。家族向け",
+        "foreignerEligibility": "賃貸・購入ともに可能（フリーホールドエリア）",
+        "pros": ["広い", "庭・プライベートプールあり", "子育て環境が良い"],
+        "cons": ["家賃が高い", "中心部から遠い", "維持費（冷房・庭手入れ）がかかる"]
+      },
+      "servicedApartment": {
+        "nameJa": "サービスアパートメント",
+        "description": "ホテルライクな管理の家具付き住居。清掃・リネン交換付き。赴任直後の仮住まいに利用されることが多い",
+        "foreignerEligibility": "賃貸可能",
+        "pros": ["すぐ入居可能", "管理が楽", "短期契約可能な場合あり"],
+        "cons": ["家賃が最も高い", "自由度が低い"]
+      }
+    },
+    "contractTerms": {
+      "typicalLease": "1年（ドバイ標準）",
+      "securityDeposit": "家賃の5%（家具なし）〜10%（家具付き）",
+      "paymentMethod": "小切手払いが主流。1枚（年一括）〜12枚（月払い）。2024年の法改正で月払いが推奨されるようになったが、小切手枚数が少ないほど家賃交渉で有利",
+      "ejariRegistration": "全ての賃貸契約はEjari（ドバイ不動産規制庁のシステム）に登録が必須。費用AED 220〜250。未登録の契約は法的に無効",
+      "dewaDeposit": "DEWA（電気・水道）開設時にAED 2,000のデポジットが必要",
+      "agentFee": "通常は家賃の5%（テナント負担）",
+      "rentIncrease": "更新時のみ。90日前通知が必要。RERA Rental Indexに基づく上限あり",
+      "evictionNotice": "オーナーは12ヶ月前に通知が必要（正当事由あり）",
+      "earlyTermination": "契約に明記されていない限り、原則として中途解約はペナルティあり"
+    },
+    "japaneseRealEstateAgents": [
+      {
+        "name": "スターツドバイ",
+        "website": "https://kaigai.starts.co.jp/dubai",
+        "phone": "+971-506078594",
+        "languages": ["日本語", "英語", "アラビア語"],
+        "note": "日本のスターツグループ。賃貸・生活サポート対応"
+      },
+      {
+        "name": "EXCEED REAL ESTATE",
+        "website": "https://exceed-realestate.jp/",
+        "languages": ["日本語", "英語"],
+        "note": "ドバイ在住の日本人エージェント。2000件以上の物件から紹介"
+      },
+      {
+        "name": "Apex Capital Real Estate",
+        "website": "https://apexcapitaldubai.com/jp/",
+        "languages": ["日本語", "英語", "アラビア語"],
+        "note": "15年以上の実績。物件販売・賃貸・ビザ申請・銀行口座開設までワンストップ対応"
+      }
+    ],
+    "tips": [
+      "ドバイの家賃は年額で提示される。月額に換算するときは12で割る",
+      "小切手払いが主流。銀行口座がないと小切手が切れないため、口座開設を先に済ませる",
+      "夏（6〜9月）の冷房費は月AED 500〜1,500かかる。DEWA代込みの物件かどうか確認する",
+      "Ejari登録がないとビザ更新・子供の学校登録等に支障が出る。必ず登録を確認する",
+      "日本人学校はアル・クオズ地区にある。通学を考えるならアル・バルシャ周辺が便利",
+      "契約前にRERA Rental Indexで適正家賃を確認できる（ドバイ不動産規制庁のウェブサイト）"
+    ]
+  }
+}

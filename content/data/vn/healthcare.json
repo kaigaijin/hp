@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "source": [
+      "https://goodmorning-hoian.com/en/vietnam-healthcare-costs/",
+      "https://lotus-clinic.com/",
+      "https://wkvetter.com/?p=17022",
+      "https://wkvetter.com/?p=17162"
+    ],
+    "lastVerified": "2026-03-26",
+    "notes": "ベトナムの医療費相場・日本語対応医療機関。私立病院と国際クリニックで料金体系が大きく異なる"
+  },
+  "data": {
+    "emergencyNumbers": {
+      "ambulance": "115",
+      "police": "113",
+      "fire": "114",
+      "unified": "112",
+      "note": "115番（救急車）はほとんど機能していない。日系クリニックまたは国際病院に直接連絡するのが現実的",
+      "japanEmbassyHanoi": "024-3846-3000",
+      "japanConsulateHCMC": "028-3933-3510"
+    },
+    "medicalCosts": {
+      "gpConsultation_international": { "min_vnd": 900000, "max_vnd": 1600000, "min_usd": 35, "max_usd": 60, "note": "国際クリニックでのGP初診" },
+      "gpConsultation_private": { "min_vnd": 200000, "max_vnd": 700000, "min_usd": 8, "max_usd": 27, "note": "ローカル私立病院でのGP初診" },
+      "specialistConsultation": { "min_vnd": 1000000, "max_vnd": 2900000, "min_usd": 40, "max_usd": 110, "note": "国際クリニック専門医" },
+      "emergencyRoom": { "min_vnd": 500000, "max_vnd": 1800000, "min_usd": 20, "max_usd": 70, "note": "救急外来" },
+      "hospitalStayShared": { "min_vnd": 800000, "max_vnd": 2000000, "min_usd": 30, "max_usd": 75, "note": "入院1泊・共有部屋" },
+      "hospitalStayPrivate": { "min_vnd": 3000000, "max_vnd": 23000000, "min_usd": 115, "max_usd": 875, "note": "入院1泊・個室。施設グレードにより大きく変動" },
+      "estimated": true
+    },
+    "japaneseClinics": {
+      "hochiminh": [
+        {
+          "name": "ロータスクリニック",
+          "website": "https://lotus-clinic.com/",
+          "area": "1区",
+          "note": "ベトナム初の日系クリニック。日本人医師・看護師常駐。海外旅行保険キャッシュレス対応"
+        },
+        {
+          "name": "DYMメディカルセンター（1区院）",
+          "area": "1区",
+          "note": "日本人医師（内科全般）常駐。日本人受付あり"
+        },
+        {
+          "name": "DYMメディカルセンター（7区院）",
+          "area": "7区フーミーフン",
+          "note": "ファミリー向け"
+        }
+      ],
+      "hanoi": [
+        {
+          "name": "さくらクリニック",
+          "note": "ハノイ初の日系クリニック。日本人医師2名（内科）、日本人歯科医1名。MRI・CT等の先進設備"
+        },
+        {
+          "name": "ロータスクリニック（ハノイ）",
+          "note": "日本人医師・看護師常駐。全て日本語対応"
+        },
+        {
+          "name": "DYMメディカルセンター（ハノイ院）",
+          "area": "カウザイエリア",
+          "note": "日本人医師着任済み"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "source": [
+      "https://ja.sakura-mdc.com/",
+      "https://portgg.com/media/lifestyle/hospitals-in-dubai/",
+      "https://www.allocationassist.com/how-dubai-healthcare-system-work-for-expats/",
+      "https://www.pacificprime.com/blog/dubai-doctor-visit-cost.html"
+    ],
+    "lastVerified": "2026-03-26",
+    "notes": "ドバイの医療費相場・日本語対応医療機関。私立病院の費用は施設・医師により大きく異なる"
+  },
+  "data": {
+    "emergencyNumbers": {
+      "ambulance": "998",
+      "police": "999",
+      "fire": "997",
+      "dhaHotline": "800-342"
+    },
+    "medicalCosts": {
+      "gpConsultation": { "min_aed": 300, "max_aed": 500, "note": "一般医（GP）初診" },
+      "specialistConsultation": { "min_aed": 500, "max_aed": 1500, "note": "専門医初診。循環器・整形外科等は高額" },
+      "emergencyRoom": { "min_aed": 500, "max_aed": 1500, "note": "救急外来。重症度により変動" },
+      "hospitalStayPerNight": { "min_aed": 1000, "max_aed": 6000, "note": "入院1泊。個室・設備レベルで大きく異なる" },
+      "dentalCheckup": { "min_aed": 300, "max_aed": 600, "note": "歯科検診＋クリーニング" },
+      "estimated": true
+    },
+    "insuranceSystem": {
+      "mandatory": true,
+      "mandatoryDescription": "ビザを持つ全居住者（外国人含む）に健康保険加入が義務",
+      "employerObligation": "雇用主は従業員の保険を手配する義務がある。家族の保険は義務ではない（雇用条件による）",
+      "minimumPlan": {
+        "name": "Essential Benefits Plan (EBP)",
+        "annualPremium": { "min_aed": 500, "max_aed": 1500, "note": "年間保険料目安" },
+        "copay": { "min_aed": 30, "max_aed": 100, "note": "外来1回あたり" },
+        "annualCopayLimit_aed": 1500,
+        "dentalCoverage_aed": 500,
+        "note": "年間自己負担AED 1,500に達した後は保険が100%カバー"
+      },
+      "estimated": true
+    },
+    "japaneseClinicsDubai": [
+      {
+        "name": "さくらクリニック（SAKURA Medical and Dental Clinic）",
+        "website": "https://ja.sakura-mdc.com/",
+        "phone": "04-445-2875",
+        "area": "ドバイ・ヘルスケアシティ",
+        "address": "Room 4005, Block B, Building No.64 Al-Razi, Dubai Healthcare City",
+        "nearestMetro": "Healthcare City（グリーンライン）徒歩5分",
+        "departments": ["一般内科", "循環器内科", "産婦人科", "皮膚科", "歯科", "健康診断", "予防接種"],
+        "languages": ["日本語", "英語"],
+        "note": "ドバイ初の日本人経営クリニック。開院13年以上。日系保険・海外旅行保険のキャッシュレス対応あり"
+      },
+      {
+        "name": "アメリカンウェルネスセンター（American Wellness Center）",
+        "area": "ドバイ・ヘルスケアシティ",
+        "languages": ["日本語", "英語"],
+        "note": "日本人医師3名在籍。患者の8〜9割がドバイ・周辺諸国在住の日本人"
+      }
+    ],
+    "majorHospitals": [
+      {
+        "name": "アメリカン・ホスピタル・ドバイ（American Hospital Dubai）",
+        "note": "中東初のJCI認定病院。総合診療。日本語対応なし",
+        "japaneseSupport": false
+      },
+      {
+        "name": "メディクリニック・シティ・ホスピタル（Mediclinic City Hospital）",
+        "note": "ドバイ・ヘルスケアシティ内。専門医が豊富。日本語対応なし",
+        "japaneseSupport": false
+      },
+      {
+        "name": "キングス・カレッジ・ホスピタル・ドバイ（King's College Hospital Dubai）",
+        "note": "ロンドンの名門病院のドバイ分院。日本語対応なし",
+        "japaneseSupport": false
+      }
+    ]
+  }
+}

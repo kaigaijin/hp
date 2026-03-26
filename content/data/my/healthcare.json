@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "source": [
+      "https://www.hibari-clinic.com/",
+      "https://www.my.emb-japan.go.jp/itprtop_ja/index.html",
+      "https://www.moh.gov.my/"
+    ],
+    "lastVerified": "2026-03-26",
+    "notes": "マレーシアの医療費相場・日本語対応医療機関。外国人は実質私立病院を利用。医療ツーリズムの拠点として私立病院の質が高い"
+  },
+  "data": {
+    "emergencyNumbers": {
+      "unified": "999",
+      "note": "999は警察・消防・救急共通の緊急番号",
+      "japanEmbassy": "+60-3-2177-2600"
+    },
+    "medicalSystem": {
+      "public": {
+        "description": "公立病院は外国人に「外国人料金」が適用される（国民料金の24〜100倍）。設備は整っているが待ち時間が長く、英語が通じにくい場合がある",
+        "foreignerPricing": "国民料金の24〜100倍",
+        "note": "外国人は実質的に私立病院を利用するのが一般的"
+      },
+      "private": {
+        "description": "国籍問わず同一料金。設備・サービスともに質が高く、医療ツーリズムの拠点としても有名。英語が通じる",
+        "note": "日本の医療費と比較して1/3〜1/2程度"
+      }
+    },
+    "medicalCosts": {
+      "gpConsultation": { "min_myr": 100, "max_myr": 300, "note": "私立病院でのGP（一般医）診察" },
+      "specialistConsultation": { "min_myr": 150, "max_myr": 500, "note": "私立病院での専門医診察" },
+      "emergencyRoom": { "min_myr": 200, "max_myr": 500, "note": "救急外来。処置内容により追加費用あり" },
+      "hospitalStay": { "min_myr": 300, "max_myr": 1000, "note": "入院1泊。部屋のグレードにより変動" },
+      "appendectomy": { "min_myr": 8000, "max_myr": 15000, "note": "虫垂炎手術（入院費込み）" },
+      "estimated": true
+    },
+    "japaneseClinics": {
+      "kl": [
+        {
+          "name": "ひばりクリニック（モントキアラ院）",
+          "website": "https://www.hibari-clinic.com/",
+          "phone": "+60-3-6211-5919",
+          "area": "モントキアラ",
+          "note": "日本人医師常駐。内科・小児科・皮膚科等。海外旅行保険キャッシュレス対応"
+        },
+        {
+          "name": "ひばりクリニック（バンサー院）",
+          "website": "https://www.hibari-clinic.com/",
+          "area": "バンサー",
+          "note": "モントキアラ院と同じ運営。日本人医師常駐"
+        },
+        {
+          "name": "Kato Dental & Medical Clinic",
+          "area": "アンパン",
+          "note": "日本人医師・歯科医。医科・歯科の両方を受診できる"
+        }
+      ]
+    }
+  }
+}
