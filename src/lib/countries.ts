@@ -41,16 +41,6 @@ export const countries: Country[] = [
     topics: ["MM2Hビザ", "KL生活", "教育移住", "不動産投資", "医療"],
   },
   {
-    code: "au",
-    name: "オーストラリア",
-    nameEn: "Australia",
-    flag: "🇦🇺",
-    tagline: "南半球のゆとりある生活",
-    population: "約9.9万人",
-    phase: 2,
-    topics: ["永住権・PR", "ワーホリ後の定住", "不動産", "年金・スーパー", "医療制度"],
-  },
-  {
     code: "kr",
     name: "韓国",
     nameEn: "South Korea",
@@ -79,6 +69,16 @@ export const countries: Country[] = [
     population: "約2.3万人",
     phase: 2,
     topics: ["就労ビザ", "住居・家賃事情", "税制・MPF", "医療・保険", "広東語・英語"],
+  },
+  {
+    code: "au",
+    name: "オーストラリア",
+    nameEn: "Australia",
+    flag: "🇦🇺",
+    tagline: "南半球のゆとりある生活",
+    population: "約9.9万人",
+    phase: 3,
+    topics: ["永住権・PR", "ワーホリ後の定住", "不動産", "年金・スーパー", "医療制度"],
   },
   {
     code: "ae",
