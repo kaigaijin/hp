@@ -8,9 +8,16 @@
     "phone": "+6620220908",
     "website": "https://his-bkk.com/",
     "description": "1997年設立の日系大手旅行会社のタイ法人。タイ国内旅行・バンコク発海外旅行・業務渡航・航空券手配など幅広く対応。日本語で予約・相談が可能。",
-    "tags": ["日本語対応", "旅行代理店", "航空券", "ツアー"],
+    "tags": [
+      "日本語対応",
+      "旅行代理店",
+      "航空券",
+      "ツアー"
+    ],
     "hours": "9:30-13:00, 14:00-17:30（年中無休）",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "jtb-thailand",
@@ -21,8 +28,15 @@
     "phone": "+6622300499",
     "website": "https://th.jtbtrip.com/pages/about-jtb",
     "description": "日本最大手の旅行会社JTBのタイ法人。タイ国内旅行・海外旅行・法人向け出張手配を提供。プーケットにも支店あり。",
-    "tags": ["日本語対応", "旅行代理店", "航空券", "法人対応"],
+    "tags": [
+      "日本語対応",
+      "旅行代理店",
+      "航空券",
+      "法人対応"
+    ],
     "hours": "月-金 9:00-18:00（土日祝休み）",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   }
 ]

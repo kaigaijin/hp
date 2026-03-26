@@ -8,9 +8,15 @@
     "phone": "",
     "website": "https://www.europcar.com/en-us/places/car-rental-malaysia/kuala-lumpur",
     "description": "世界的レンタカーチェーン。KLIA空港・市内に複数の営業所があり、短期から長期まで柔軟にレンタル可能。片道レンタルにも対応。英語でスムーズに手続きできる。",
-    "tags": ["レンタカー", "空港", "片道レンタル"],
+    "tags": [
+      "レンタカー",
+      "空港",
+      "片道レンタル"
+    ],
     "hours": "営業所により異なる",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "hertz-kuala-lumpur",
@@ -21,9 +27,15 @@
     "phone": "",
     "website": "https://www.hertz.com/us/en/location/malaysia/kulc60",
     "description": "グローバルレンタカーチェーン。KLダウンタウン・KLIA空港に営業所あり。セダンからSUVまで幅広い車種を取り揃え、国際免許証での利用も可能。",
-    "tags": ["レンタカー", "空港", "国際免許対応"],
+    "tags": [
+      "レンタカー",
+      "空港",
+      "国際免許対応"
+    ],
     "hours": "営業所により異なる",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "flux-car-subscription",
@@ -34,8 +46,14 @@
     "phone": "",
     "website": "https://driveflux.com/",
     "description": "エクスパット向けのカーサブスクリプションサービス。月額制で保険・メンテナンス込みの車両利用が可能。駐在員が車を購入せずに利用できる便利なオプション。1ヶ月から5年までの柔軟なプランあり。",
-    "tags": ["カーサブスクリプション", "月額制", "エクスパット向け"],
+    "tags": [
+      "カーサブスクリプション",
+      "月額制",
+      "エクスパット向け"
+    ],
     "hours": "要確認",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   }
 ]

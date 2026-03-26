@@ -8,10 +8,16 @@
     "phone": "+8223082010",
     "website": "http://www.sjs.or.kr/",
     "description": "1972年創立のソウル唯一の日本人学校。幼稚部・小学部・中学部を設置し、日本政府派遣教員による日本のカリキュラムに基づいた教育を実施。全学年で韓国語と英会話の授業もある。デジタルメディアシティ内に位置。",
-    "tags": ["日本人学校", "幼稚園", "小学校", "中学校"],
+    "tags": [
+      "日本人学校",
+      "幼稚園",
+      "小学校",
+      "中学校"
+    ],
     "hours": null,
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "last_verified": "2026-03-26"
   },
   {
     "slug": "bundang-nihongo-hoshukou",
@@ -22,10 +28,15 @@
     "phone": null,
     "website": "https://bundang-nihongo.wixsite.com/nihongo",
     "description": "京畿道城南市にある日本語補習授業校。両親のどちらかが日本人で日本語を母国語とする子どもが対象。週末に日本語での学習指導を行っている。",
-    "tags": ["補習校", "日本語教育", "週末"],
+    "tags": [
+      "補習校",
+      "日本語教育",
+      "週末"
+    ],
     "hours": null,
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "last_verified": "2026-03-26"
   },
   {
     "slug": "jisa-nihongo-gakuin",
@@ -36,10 +47,14 @@
     "phone": null,
     "website": null,
     "description": "韓国で最初にできた日本語学校として知られる老舗。会話クラスやビジネスクラスなどさまざまなクラスが開講しており、日本人講師も多数在籍。韓国人向けだが、日本語教育の場として日本人コミュニティとの接点にもなっている。",
-    "tags": ["日本語学校", "老舗"],
+    "tags": [
+      "日本語学校",
+      "老舗"
+    ],
     "hours": null,
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "last_verified": "2026-03-26"
   },
   {
     "slug": "morning-edu",
@@ -50,10 +65,15 @@
     "phone": null,
     "website": null,
     "description": "江南にある語学院で、日本の大学進学を専門とした日本語教育を実施。EJU（日本留学試験）や小論文、面接対策など、日本の有名大学への合格実績が多数ある。",
-    "tags": ["日本語学校", "大学進学", "EJU対策"],
+    "tags": [
+      "日本語学校",
+      "大学進学",
+      "EJU対策"
+    ],
     "hours": null,
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "last_verified": "2026-03-26"
   },
   {
     "slug": "hanil-language-institute",
@@ -64,10 +84,15 @@
     "phone": null,
     "website": null,
     "description": "日本語のほか英語・中国語のレッスンも提供する語学学校。日本留学試験対策も行っている。韓国語が不安な日本人にとって、韓国語学習の場としても活用可能。",
-    "tags": ["語学学校", "日本語", "韓国語"],
+    "tags": [
+      "語学学校",
+      "日本語",
+      "韓国語"
+    ],
     "hours": null,
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "last_verified": "2026-03-26"
   },
   {
     "slug": "seoul-national-university-klec",
@@ -78,9 +103,14 @@
     "phone": null,
     "website": "https://lei.snu.ac.kr/mobile/jp/klec/main/main.jsp",
     "description": "ソウル大学校が運営する韓国語教育機関。日本語のウェブサイトがあり、日本人留学生の受け入れ実績も豊富。体系的な韓国語プログラムを提供している。",
-    "tags": ["韓国語学校", "大学付属", "日本語サイトあり"],
+    "tags": [
+      "韓国語学校",
+      "大学付属",
+      "日本語サイトあり"
+    ],
     "hours": null,
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "last_verified": "2026-03-26"
   }
 ]

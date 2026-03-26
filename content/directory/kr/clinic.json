@@ -8,10 +8,15 @@
     "phone": "+8222585747",
     "website": "https://www.cmcseoul.or.kr/",
     "description": "韓国の大型総合病院。国際医療センターに日本人専用電話窓口があり、日本語での受付・診察のサポートが受けられる。平日8:00〜17:00対応。",
-    "tags": ["日本語対応", "総合病院", "国際医療センター"],
+    "tags": [
+      "日本語対応",
+      "総合病院",
+      "国際医療センター"
+    ],
     "hours": "日本語窓口: 平日 8:00〜17:00",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "last_verified": "2026-03-26"
   },
   {
     "slug": "yonsei-severance-hospital",
@@ -22,10 +27,15 @@
     "phone": "+8222285801",
     "website": "https://severance.healthcare/",
     "description": "韓国を代表する大学病院の一つ。国際診療センターで日本語対応スタッフが常駐しており、受付から診察まで日本語でサポートしてくれる。",
-    "tags": ["日本語対応", "総合病院", "国際医療センター"],
+    "tags": [
+      "日本語対応",
+      "総合病院",
+      "国際医療センター"
+    ],
     "hours": "日本語窓口: 平日 8:30〜17:30",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "last_verified": "2026-03-26"
   },
   {
     "slug": "seoul-asan-medical-center",
@@ -36,10 +46,15 @@
     "phone": "+8230107944",
     "website": "https://www.amc.seoul.kr/",
     "description": "韓国最大級の総合病院。国際診療センターに日本語窓口があり、高度医療も受けられる。蚕室駅から徒歩10分。",
-    "tags": ["日本語対応", "総合病院", "国際医療センター"],
+    "tags": [
+      "日本語対応",
+      "総合病院",
+      "国際医療センター"
+    ],
     "hours": "日本語窓口: 平日 8:30〜17:30",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "last_verified": "2026-03-26"
   },
   {
     "slug": "konkuk-university-hospital",
@@ -50,10 +65,15 @@
     "phone": "+8220307225",
     "website": "https://www.kuh.ac.kr/",
     "description": "建国大学校付属の総合病院。国際クリニックで日本語対応が可能。建大入口駅から直結でアクセスしやすい。",
-    "tags": ["日本語対応", "総合病院", "国際クリニック"],
+    "tags": [
+      "日本語対応",
+      "総合病院",
+      "国際クリニック"
+    ],
     "hours": "日本語窓口: 平日 8:30〜17:30",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "last_verified": "2026-03-26"
   },
   {
     "slug": "soonchunhyang-university-hospital",
@@ -64,10 +84,15 @@
     "phone": "+8227099058",
     "website": "https://www.schmc.ac.kr/",
     "description": "龍山エリアにある大学病院。国際クリニックセンターで日本語対応可能。漢南駅から徒歩5〜7分。",
-    "tags": ["日本語対応", "総合病院", "国際クリニック"],
+    "tags": [
+      "日本語対応",
+      "総合病院",
+      "国際クリニック"
+    ],
     "hours": "日本語窓口: 平日 9:00〜11:30, 13:30〜16:30 / 土 9:00〜11:30",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "last_verified": "2026-03-26"
   },
   {
     "slug": "h-plus-yangji-hospital",
@@ -78,10 +103,15 @@
     "phone": "+82704665936",
     "website": "https://www.newyjh.com/",
     "description": "外国人患者の受け入れに積極的な総合病院。日本語ホットラインがあり、一般内科から専門診療まで幅広く対応。新林駅から徒歩5分。",
-    "tags": ["日本語対応", "総合病院", "国際医療センター"],
+    "tags": [
+      "日本語対応",
+      "総合病院",
+      "国際医療センター"
+    ],
     "hours": "日本語窓口: 平日（木除く）8:30〜12:00, 13:30〜17:00 / 土 8:30〜11:30",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "last_verified": "2026-03-26"
   },
   {
     "slug": "lohas-medical-clinic",
@@ -92,9 +122,54 @@
     "phone": "+8227907470",
     "website": null,
     "description": "二村の日本人街にある日本語対応のクリニック。内科・家庭医学科・産婦人科・小児科・皮膚科・耳鼻咽喉科と幅広い診療科目に対応。日本人駐在員とその家族に利用されている。",
-    "tags": ["日本語対応", "内科", "小児科", "皮膚科"],
+    "tags": [
+      "日本語対応",
+      "内科",
+      "小児科",
+      "皮膚科"
+    ],
     "hours": "平日 9:00〜13:00, 14:00〜18:00 / 土 9:00〜14:00",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "last_verified": "2026-03-26"
+  },
+  {
+    "slug": "jaseng-hospital-gangnam",
+    "name": "Jaseng Hospital of Korean Medicine",
+    "name_ja": "自生韓方病院 江南本院",
+    "area": "Gangnam-gu (Nonhyeon)",
+    "address": "536 Gangnam-daero, Gangnam-gu, Seoul",
+    "phone": "+8232182219",
+    "website": "https://www.jaseng.jp/",
+    "description": "西洋医学と東洋医学（韓方）を融合した治療を提供する韓方病院。椎間板ヘルニアなど脊椎疾患の非手術治療で国際的に注目されている。日本語対応スタッフ常駐。論峴駅2番出口から徒歩1分。",
+    "tags": [
+      "日本語対応",
+      "韓方",
+      "脊椎治療",
+      "鍼治療"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-26"
+  },
+  {
+    "slug": "oracle-dermatology-cheongdam",
+    "name": "Oracle Dermatology Cheongdam",
+    "name_ja": "チョンダムオラクル皮膚科",
+    "area": "Gangnam-gu (Cheongdam)",
+    "address": "612 Seonneung-ro, Gangnam-gu, Seoul, Hanil Building 1F/2F/4F",
+    "phone": "+821020638974",
+    "website": "http://jp.cdoracleclinic.com/",
+    "description": "清潭洞にある美容皮膚科クリニック。日本人通訳が常駐し、LINEでの日本語相談にも対応。ボトックス、ヒアルロン酸、レーザー治療など幅広い美容皮膚科メニューを提供。日本にも系列クリニックあり。",
+    "tags": [
+      "日本語対応",
+      "美容皮膚科",
+      "日本人通訳"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-26"
   }
 ]

@@ -8,9 +8,16 @@
     "phone": "+60320596188",
     "website": "https://www.tokiomarine.com/my/en/life.html",
     "description": "日系大手保険会社・東京海上のマレーシア生命保険法人。1957年からマレーシアで事業展開しており、生命保険・医療保険・年金プランなどを提供。日系企業の駐在員向け団体保険の実績も豊富。",
-    "tags": ["日系", "生命保険", "医療保険", "法人対応"],
+    "tags": [
+      "日系",
+      "生命保険",
+      "医療保険",
+      "法人対応"
+    ],
     "hours": "月-金 8:30-17:30",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "tokio-marine-general-insurance",
@@ -21,9 +28,16 @@
     "phone": "+60327898800",
     "website": "https://www.tokiomarine.com/my/en/non-life.html",
     "description": "東京海上グループのマレーシア損害保険法人。自動車保険・火災保険・賠償責任保険・旅行保険などを提供。マレーシア国内に19支店を展開する大手保険会社。",
-    "tags": ["日系", "損害保険", "自動車保険", "火災保険"],
+    "tags": [
+      "日系",
+      "損害保険",
+      "自動車保険",
+      "火災保険"
+    ],
     "hours": "月-金 8:30-17:30",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "msig-insurance-malaysia",
@@ -34,9 +48,16 @@
     "phone": "+60180088674",
     "website": "https://www.msig.com.my/",
     "description": "三井住友海上グループのマレーシア損害保険法人。自動車保険・火災保険・旅行保険・賠償責任保険などを提供。日系企業および個人向けの保険ソリューションに強みを持つ。",
-    "tags": ["日系", "損害保険", "自動車保険", "旅行保険"],
+    "tags": [
+      "日系",
+      "損害保険",
+      "自動車保険",
+      "旅行保険"
+    ],
     "hours": "月-金 9:00-16:00",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "berjaya-sompo-insurance",
@@ -47,8 +68,15 @@
     "phone": "+60321707300",
     "website": "https://www.berjayasompo.com.my/",
     "description": "日本の損保ジャパンとマレーシアのベルジャヤグループの合弁保険会社。自動車保険・火災保険・旅行保険・医療保険など幅広い保険商品を提供。オンライン見積もり・申し込みにも対応。",
-    "tags": ["日系", "損害保険", "自動車保険", "オンライン対応"],
+    "tags": [
+      "日系",
+      "損害保険",
+      "自動車保険",
+      "オンライン対応"
+    ],
     "hours": "月-金 8:30-17:00",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   }
 ]

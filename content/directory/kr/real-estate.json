@@ -8,10 +8,15 @@
     "phone": "+8227798170",
     "website": "https://kaigai.starts.co.jp/korea",
     "description": "2001年設立の日系不動産会社。住宅・オフィス・倉庫の仲介からコンサルティングまで、日本語で対応。初めての韓国赴任でも日本国内から相談可能。江南駅から徒歩約10分。",
-    "tags": ["日本語対応", "日系企業", "駐在員向け"],
+    "tags": [
+      "日本語対応",
+      "日系企業",
+      "駐在員向け"
+    ],
     "hours": "9:00〜18:00（日・韓国祝日休）",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "last_verified": "2026-03-26"
   },
   {
     "slug": "able-network-seoul",
@@ -22,10 +27,15 @@
     "phone": "+82707666960",
     "website": "https://able-nw.com/seoul/",
     "description": "日本の不動産仲介大手「エイブル」のソウル店。賃貸仲介だけでなく、家電・家具のレンタルなど駐在員向けの総合生活サポートも提供。日本語対応。",
-    "tags": ["日本語対応", "日系企業", "駐在員向け"],
+    "tags": [
+      "日本語対応",
+      "日系企業",
+      "駐在員向け"
+    ],
     "hours": "9:00〜18:00（土日・韓国祝日休）",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "last_verified": "2026-03-26"
   },
   {
     "slug": "myagent-seoul",
@@ -36,10 +46,15 @@
     "phone": "+821086855963",
     "website": null,
     "description": "二村駅近くにある日本人向け不動産仲介会社。家族連れの駐在員から単身赴任、長期出張者のウィークリー・マンスリー利用まで幅広く対応。日本人学校やインターナショナルスクール周辺の物件に強い。",
-    "tags": ["日本語対応", "駐在員向け", "二村エリア"],
+    "tags": [
+      "日本語対応",
+      "駐在員向け",
+      "二村エリア"
+    ],
     "hours": null,
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "last_verified": "2026-03-26"
   },
   {
     "slug": "ouchi-korea",
@@ -50,10 +65,15 @@
     "phone": null,
     "website": "https://www.owchikorea.com/",
     "description": "韓国留学・ワーホリ・現地採用の若い日本人に人気の不動産情報サイト。日本人スタッフが語学堂留学や大学留学の経験者で、生活全般の相談にも対応。梨大駅から徒歩7分。",
-    "tags": ["日本語対応", "留学生向け", "ワーホリ向け"],
+    "tags": [
+      "日本語対応",
+      "留学生向け",
+      "ワーホリ向け"
+    ],
     "hours": "月〜土 10:00〜18:00（日・年末年始・韓国祝日休）",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "last_verified": "2026-03-26"
   },
   {
     "slug": "seoul-heyanavi",
@@ -64,9 +84,14 @@
     "phone": null,
     "website": "https://seoul-heyanavi.com/",
     "description": "韓国ソウルの賃貸物件を日本語で検索できる不動産情報サイト。韓国留学や駐在向けの物件情報を提供し、チョンセ・ウォルセなど韓国独自の賃貸制度についても日本語で解説している。",
-    "tags": ["日本語対応", "留学生向け", "オンライン"],
+    "tags": [
+      "日本語対応",
+      "留学生向け",
+      "オンライン"
+    ],
     "hours": null,
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "last_verified": "2026-03-26"
   }
 ]

@@ -8,9 +8,16 @@
     "phone": "+85225252083",
     "website": "https://www.able-nw.com/hongkong/",
     "description": "日本の大手不動産チェーン・エイブルの香港店。香港日系不動産で物件数No.1を誇る。日本人スタッフが常駐し、物件探しから契約まで全て日本語対応。MTR中環駅G出口徒歩5分。",
-    "tags": ["日本語対応", "日本人スタッフ常駐", "賃貸", "物件数No.1"],
+    "tags": [
+      "日本語対応",
+      "日本人スタッフ常駐",
+      "賃貸",
+      "物件数No.1"
+    ],
     "hours": "香港時間 9:30〜18:30（土日祝は要予約）",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "starts-hong-kong",
@@ -21,9 +28,15 @@
     "phone": "+85228360760",
     "website": "https://kaigai.starts.co.jp/hongkong",
     "description": "日本のスターツグループの香港拠点。40年以上の海外不動産サービスの実績を持ち、日本語で賃貸住宅・サービスアパートメント・オフィスの物件探しをサポート。",
-    "tags": ["日本語対応", "賃貸", "オフィス"],
+    "tags": [
+      "日本語対応",
+      "賃貸",
+      "オフィス"
+    ],
     "hours": "香港時間 9:30〜18:30",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   },
   {
     "slug": "conext-real-estate",
@@ -34,8 +47,15 @@
     "phone": "+85223664800",
     "website": "https://conext-hk.com/",
     "description": "香港の日本人向け不動産仲介会社。マンション・サービスアパートメントの賃貸から売買まで、日本語で完全サポート。契約後のアフターフォローにも対応。年中無休。",
-    "tags": ["日本語対応", "賃貸", "売買", "年中無休"],
+    "tags": [
+      "日本語対応",
+      "賃貸",
+      "売買",
+      "年中無休"
+    ],
     "hours": "9:00〜18:00（年中無休）",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "status": "unverified",
+    "source": "website"
   }
 ]
