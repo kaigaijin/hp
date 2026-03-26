@@ -73,6 +73,12 @@ export default function Header() {
           >
             お問い合わせ
           </Link>
+          <Link
+            href="/sg/spot"
+            className="hover:text-ocean-700 dark:hover:text-ocean-400 transition-colors"
+          >
+            スポット検索
+          </Link>
           <ThemeToggle />
         </nav>
 
@@ -120,6 +126,13 @@ export default function Header() {
               className="py-2 mt-2 text-ocean-600 dark:text-ocean-400 font-semibold"
             >
               お問い合わせ
+            </Link>
+            <Link
+              href="/sg/spot"
+              onClick={() => setOpen(false)}
+              className="py-2 text-ocean-600 dark:text-ocean-400 font-semibold"
+            >
+              スポット検索
             </Link>
           </div>
         </nav>

@@ -1,0 +1,80 @@
+[
+  {
+    "slug": "sushi-sakuta",
+    "name": "Sushi Sakuta",
+    "name_ja": "鮨さくた",
+    "area": "Marina Centre",
+    "address": "9 Raffles Boulevard, Millenia Walk, #01-06/07/08, Singapore 039596",
+    "phone": "+6598369302",
+    "website": "https://www.sushi-sakuta.com/",
+    "description": "ミシュラン二つ星を獲得した江戸前鮨の名店。オーナーシェフの作田義雄氏が握る鮨は、豊洲市場から毎日空輸される最高級のネタを使用。ランチS$350++〜、ディナーS$500++〜のおまかせコースを提供。",
+    "tags": ["ミシュラン二つ星", "おまかせ", "要予約", "高級"],
+    "hours": "ランチ・ディナー（要予約）",
+    "last_verified": "2026-03-26"
+  },
+  {
+    "slug": "shoukouwa",
+    "name": "Shoukouwa",
+    "name_ja": "翔くわ",
+    "area": "Raffles Place",
+    "address": "1 Fullerton Road, #02-02A One Fullerton, Singapore 049213",
+    "phone": "+6564239939",
+    "website": "https://www.shoukouwa.com.sg/",
+    "description": "豊洲市場から毎日空輸される新鮮な食材を使った本格江戸前鮨のおまかせレストラン。カウンター8席の親密な空間で、職人の技を間近で楽しめる。",
+    "tags": ["おまかせ", "要予約", "高級"],
+    "hours": "火〜土: ランチ 12:30-15:00, ディナー 18:00-20:00 / 20:15-22:30（日月休）",
+    "last_verified": "2026-03-26"
+  },
+  {
+    "slug": "shinji-by-kanesaka",
+    "name": "Shinji by Kanesaka",
+    "name_ja": "すし道 真次",
+    "area": "Orchard",
+    "address": "The St. Regis Singapore, Lobby, 29 Tanglin Road, Singapore 247911",
+    "phone": "+6568848239",
+    "website": "https://shinjibykanesaka.com/",
+    "description": "銀座かねさかの海外店として15年以上の歴史を持つ江戸前鮨の名店。ミシュラン一つ星。ネイティブの職人チームが丁寧に握るおまかせコースを提供。",
+    "tags": ["ミシュラン一つ星", "おまかせ", "要予約", "高級"],
+    "hours": "月〜土: ランチ 12:00-15:00, ディナー 18:00-22:30（日曜休）",
+    "last_verified": "2026-03-26"
+  },
+  {
+    "slug": "tajimaya-yakiniku",
+    "name": "Tajimaya Yakiniku",
+    "name_ja": "但馬屋",
+    "area": "HarbourFront",
+    "address": "1 Harbourfront Walk, #01-102/103 VivoCity, Singapore 098585",
+    "phone": "+6531258831",
+    "website": "https://www.tajimaya.com.sg/",
+    "description": "上質な和牛を無煙ロースターで楽しめる本格焼肉レストラン。VivoCity店とGreat World City店を展開。プレミアムな部位の食べ比べや日本酒のペアリングが人気。",
+    "tags": ["焼肉", "和牛", "予約可", "家族向け"],
+    "hours": "月〜木: 11:30-15:00, 17:30-22:00 / 金〜日・祝: 11:30-22:00",
+    "last_verified": "2026-03-26"
+  },
+  {
+    "slug": "ippudo",
+    "name": "Ippudo",
+    "name_ja": "一風堂",
+    "area": "Robertson Quay",
+    "address": "207 River Valley Road, UE Square, #01-55/56, Singapore 238275",
+    "phone": "+6562352547",
+    "website": "https://stores.ippudo.com/en_sg/singapore/singapore",
+    "description": "博多発祥の人気とんこつラーメンチェーン。シンガポール国内に複数店舗を展開。看板メニューの白丸・赤丸をはじめ、シンガポール限定メニューも提供。気軽に本格的な日本のラーメンが楽しめる。",
+    "tags": ["ラーメン", "カジュアル", "複数店舗", "予約不要"],
+    "hours": "月〜木: 11:30-15:00, 17:30-24:00 / 金: 11:30-15:00, 17:30-26:00 / 土: 11:30-24:00 / 日祝: 11:30-23:00",
+    "last_verified": "2026-03-26"
+  },
+  {
+    "slug": "ichiban-boshi",
+    "name": "Ichiban Boshi",
+    "name_ja": "一番星",
+    "area": "Orchard",
+    "address": "176 Orchard Road, The Centrepoint, #01-49/52, Singapore 238843",
+    "phone": "+6567377232",
+    "website": "https://www.ichibanboshi.com.sg/",
+    "description": "シンガポール国内に15店舗以上を展開する日本食レストランチェーン。丼、定食、うどん、寿司など幅広いメニューを手頃な価格で提供。日常使いの和食として在住日本人にも人気。",
+    "tags": ["定食", "カジュアル", "複数店舗", "家族向け", "予約不要"],
+    "hours": "11:00-21:30",
+    "last_verified": "2026-03-26"
+  }
+]

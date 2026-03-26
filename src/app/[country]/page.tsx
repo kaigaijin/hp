@@ -4,7 +4,8 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { getCountry, countries } from "@/lib/countries";
 import { getArticlesByCountry } from "@/lib/articles";
-import { ArrowRight, Calendar, Tag } from "lucide-react";
+import { ArrowRight, Calendar, Tag, MapPin } from "lucide-react";
+import { getCategoryCounts } from "@/lib/directory";
 
 export function generateStaticParams() {
   return countries.map((c) => ({ country: c.code }));
@@ -35,6 +36,8 @@ export default async function CountryPage({
   if (!country) notFound();
 
   const articles = getArticlesByCountry(code);
+  const categoryCounts = getCategoryCounts(code);
+  const totalSpots = Object.values(categoryCounts).reduce((a, b) => a + b, 0);
 
   return (
     <>
@@ -71,6 +74,30 @@ export default async function CountryPage({
             </div>
           </div>
         </section>
+
+        {/* スポット検索セクション */}
+        {totalSpots > 0 && (
+          <section className="py-10 bg-ocean-50/50 dark:bg-ocean-900/10">
+            <div className="max-w-6xl mx-auto px-4">
+              <Link href={`/${code}/spot`} className="group block">
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-3">
+                    <MapPin size={20} className="text-ocean-600 dark:text-ocean-400" />
+                    <div>
+                      <h2 className="heading-editorial text-lg font-bold group-hover:text-ocean-700 dark:group-hover:text-ocean-400 transition-colors">
+                        {country.name}のスポットを探す
+                      </h2>
+                      <p className="text-sm text-stone-500 dark:text-stone-400">
+                        レストラン・クリニック・美容室など{totalSpots}件のスポットを掲載中
+                      </p>
+                    </div>
+                  </div>
+                  <ArrowRight size={20} className="text-ocean-600 dark:text-ocean-400 group-hover:translate-x-1 transition-transform" />
+                </div>
+              </Link>
+            </div>
+          </section>
+        )}
 
         {/* 記事一覧 */}
         <section className="py-16 md:py-24">
