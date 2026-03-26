@@ -6,7 +6,7 @@ const SUPABASE_KEY = process.env.INQUIRY_SUPABASE_ANON_KEY || process.env.NEXT_P
 
 function sendCommentNotification(project: string, slug: string, author: string, content: string) {
   const key = process.env.RESEND_API_KEY;
-  const to = process.env.COMMENT_NOTIFICATION_EMAIL;
+  const to = process.env.COMMENT_NOTIFICATION_EMAIL || process.env.INQUIRY_NOTIFICATION_EMAIL;
   if (!key || !to) return;
   const resend = new Resend(key);
   resend.emails.send({
