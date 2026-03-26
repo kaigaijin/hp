@@ -13,7 +13,7 @@ function sendCommentNotification(project: string, slug: string, author: string, 
     from: "Kaigaijin <noreply@kaigaijin.jp>",
     to: [to],
     subject: `[コメント] ${project} - ${slug}`,
-    text: `新しいコメントが投稿されました。\n\nプロジェクト: ${project}\n記事: ${slug}\n投稿者: ${author}\n\n${content}\n\n※承認前のコメントです。`,
+    text: `新しいコメントが投稿されました。\n\nプロジェクト: ${project}\n記事: ${slug}\n投稿者: ${author}\n\n${content}\n\n※即時公開されています。問題がある場合は削除してください。`,
   }).catch(() => {});
 }
 
@@ -26,7 +26,7 @@ export async function GET(req: NextRequest) {
   }
 
   const res = await fetch(
-    `${SUPABASE_URL}/rest/v1/comments?project=eq.${encodeURIComponent(project)}&article_slug=eq.${encodeURIComponent(slug)}&approved=eq.true&order=created_at.asc&select=id,author_name,content,created_at`,
+    `${SUPABASE_URL}/rest/v1/comments?project=eq.${encodeURIComponent(project)}&article_slug=eq.${encodeURIComponent(slug)}&order=created_at.asc&select=id,author_name,content,created_at`,
     {
       headers: {
         apikey: SUPABASE_KEY,
@@ -69,6 +69,7 @@ export async function POST(req: NextRequest) {
         article_slug,
         author_name: author_name.trim(),
         content: content.trim(),
+        approved: true,
       }),
     });
 
