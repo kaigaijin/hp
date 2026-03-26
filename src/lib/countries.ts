@@ -31,13 +31,23 @@ export const countries: Country[] = [
     topics: ["リタイアメントビザ", "バンコク生活", "医療ツーリズム", "不動産", "タイ語"],
   },
   {
+    code: "my",
+    name: "マレーシア",
+    nameEn: "Malaysia",
+    flag: "🇲🇾",
+    tagline: "多文化が交差する暮らし",
+    population: "約2.1万人",
+    phase: 1,
+    topics: ["MM2Hビザ", "KL生活", "教育移住", "不動産投資", "医療"],
+  },
+  {
     code: "au",
     name: "オーストラリア",
     nameEn: "Australia",
     flag: "🇦🇺",
     tagline: "南半球のゆとりある生活",
     population: "約9.9万人",
-    phase: 1,
+    phase: 2,
     topics: ["永住権・PR", "ワーホリ後の定住", "不動産", "年金・スーパー", "医療制度"],
   },
   {
@@ -89,16 +99,6 @@ export const countries: Country[] = [
     population: "約1.9万人",
     phase: 3,
     topics: ["労働許可証", "ハノイvsホーチミン", "駐在生活", "食文化", "医療事情"],
-  },
-  {
-    code: "my",
-    name: "マレーシア",
-    nameEn: "Malaysia",
-    flag: "🇲🇾",
-    tagline: "多文化が交差する暮らし",
-    population: "約2.1万人",
-    phase: 3,
-    topics: ["MM2Hビザ", "KL生活", "教育移住", "不動産投資", "医療"],
   },
 ];
 
