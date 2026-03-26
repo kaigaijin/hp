@@ -10,7 +10,7 @@ function sendCommentNotification(project: string, slug: string, author: string, 
   if (!key || !to) return;
   const resend = new Resend(key);
   resend.emails.send({
-    from: "Kaigaijin <noreply@kaigaijin.com>",
+    from: "Kaigaijin <noreply@kaigaijin.jp>",
     to: [to],
     subject: `[コメント] ${project} - ${slug}`,
     text: `新しいコメントが投稿されました。\n\nプロジェクト: ${project}\n記事: ${slug}\n投稿者: ${author}\n\n${content}\n\n※承認前のコメントです。`,

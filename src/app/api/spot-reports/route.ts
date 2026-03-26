@@ -23,7 +23,7 @@ function sendNotification(
   const resend = new Resend(key);
   resend.emails
     .send({
-      from: "Kaigaijin <noreply@kaigaijin.com>",
+      from: "Kaigaijin <noreply@kaigaijin.jp>",
       to: [to],
       subject: `[スポット報告] ${spotName} - ${reportType}`,
       text: `スポット情報の報告がありました。\n\nスポット: ${spotName}\n報告タイプ: ${reportType}\nコメント: ${comment ?? "なし"}\n\n※確認後、スポットデータを更新してください。`,
