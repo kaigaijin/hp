@@ -1448,5 +1448,404 @@
     "status": "unverified",
     "source": "google_maps",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ichiran-taipei-flagship",
+    "name": "Ichiran Taipei Flagship",
+    "name_ja": "一蘭 台湾台北本店",
+    "area": "Xinyi",
+    "address": "97 Songren Road, Xinyi District, Taipei",
+    "phone": "+886227298122",
+    "website": "https://en.ichiran.com/shop/oversea/taiwan/taipei-honten/",
+    "description": "博多一蘭の台北旗艦店。24時間営業で、一蘭独自の味集中カウンターで一人でもゆっくりラーメンを楽しめる。台湾上陸時は240時間の行列が話題に。",
+    "tags": [
+      "ラーメン",
+      "日本発チェーン",
+      "24時間営業"
+    ],
+    "hours": "24時間営業",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "sushiro-taipei-yongchun",
+    "name": "Sushiro Taipei Yongchun",
+    "name_ja": "スシロー 台北永春店",
+    "area": "Xinyi",
+    "address": "No. 297-1, Section 5, Zhongxiao East Road, Xinyi District, Taipei",
+    "phone": "+886227651536",
+    "website": "http://www.sushiro.com.tw/",
+    "description": "日本の大手回転寿司チェーンの永春店。リーズナブルな価格で新鮮なネタの寿司を提供。季節限定メニューも人気。",
+    "tags": [
+      "回転寿司",
+      "日本発チェーン",
+      "コスパ"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "sushiro-taipei-station",
+    "name": "Sushiro Taipei Station",
+    "name_ja": "スシロー 台北車站店",
+    "area": "Zhongzheng",
+    "address": "No. 8, Guanqian Road, Zhongzheng District, Taipei",
+    "phone": null,
+    "website": "http://www.sushiro.com.tw/",
+    "description": "台北駅前の館前路にあるスシロー旗艦店。駅近の好立地で観光客にも利用しやすい。",
+    "tags": [
+      "回転寿司",
+      "日本発チェーン",
+      "駅近"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "yakiniku-like-daan-anhe",
+    "name": "Yakiniku Like Da'an Anhe",
+    "name_ja": "焼肉ライク 大安安和店",
+    "area": "Da'an",
+    "address": "No. 29, Section 2, Anhe Road, Da'an District, Taipei",
+    "phone": null,
+    "website": "https://dining-innovation.com.sg/yakinikulike/",
+    "description": "一人焼肉専門チェーンの大安安和店。タブレット注文で気軽に一人焼肉が楽しめる。ランチにも便利。",
+    "tags": [
+      "焼肉",
+      "一人焼肉",
+      "日本発チェーン"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "yakiniku-like-dunhua",
+    "name": "Yakiniku Like Dunhua",
+    "name_ja": "焼肉ライク 敦化店",
+    "area": "Da'an",
+    "address": "No. 20, Lane 81, Section 2, Dunhua South Road, Da'an District, Taipei",
+    "phone": null,
+    "website": "https://dining-innovation.com.sg/yakinikulike/",
+    "description": "焼肉ライクの敦化南路店。サクッと一人焼肉を楽しみたいビジネスマンに人気のランチスポット。",
+    "tags": [
+      "焼肉",
+      "一人焼肉",
+      "日本発チェーン"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "yakiniku-like-wanhua",
+    "name": "Yakiniku Like Wanhua",
+    "name_ja": "焼肉ライク 萬華店",
+    "area": "Wanhua",
+    "address": "No. 42, Lane 25, Kangding Road, Wanhua District, Taipei",
+    "phone": null,
+    "website": "https://dining-innovation.com.sg/yakinikulike/",
+    "description": "焼肉ライクの萬華区店。西門町エリアに近く、ショッピングの合間に一人焼肉が楽しめる。",
+    "tags": [
+      "焼肉",
+      "一人焼肉",
+      "日本発チェーン"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "yakiniku-like-fuxing",
+    "name": "Yakiniku Like Fuxing",
+    "name_ja": "焼肉ライク 復興店",
+    "area": "Da'an",
+    "address": "No. 45, Lane 107, Section 1, Fuxing South Road, Da'an District, Taipei",
+    "phone": null,
+    "website": "https://dining-innovation.com.sg/yakinikulike/",
+    "description": "焼肉ライクの復興南路店。忠孝復興駅から近く、アクセス良好。",
+    "tags": [
+      "焼肉",
+      "一人焼肉",
+      "日本発チェーン"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "yakiniku-like-shuangcheng",
+    "name": "Yakiniku Like Shuangcheng",
+    "name_ja": "焼肉ライク 雙城店",
+    "area": "Zhongshan",
+    "address": "No. 2, Lane 32, Shuangcheng Street, Zhongshan District, Taipei",
+    "phone": null,
+    "website": "https://dining-innovation.com.sg/yakinikulike/",
+    "description": "焼肉ライクの雙城店。中山エリアの住宅街に位置し、地元の日本人にも人気。",
+    "tags": [
+      "焼肉",
+      "一人焼肉",
+      "日本発チェーン"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "yakiniku-like-songshou",
+    "name": "Yakiniku Like Songshou",
+    "name_ja": "焼肉ライク 松壽店",
+    "area": "Xinyi",
+    "address": "2F, No. 20, Songshou Road, Xinyi District, Taipei",
+    "phone": null,
+    "website": "https://dining-innovation.com.sg/yakinikulike/",
+    "description": "焼肉ライクの信義区松壽店。信義ショッピングエリアの中心に位置。",
+    "tags": [
+      "焼肉",
+      "一人焼肉",
+      "日本発チェーン"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "coco-ichibanya-hankou",
+    "name": "CoCo Ichibanya Hankou",
+    "name_ja": "CoCo壱番屋 漢口店",
+    "area": "Zhongzheng",
+    "address": "B1, No. 19, Section 1, Hankou Street, Zhongzheng District, Taipei",
+    "phone": null,
+    "website": "https://www.ichibanya.co.jp/",
+    "description": "日本最大のカレーチェーンの漢口街店。辛さ・ご飯量・トッピングを自在にカスタマイズできる日本のカレーを提供。",
+    "tags": [
+      "カレー",
+      "日本発チェーン",
+      "カスタマイズ"
+    ],
+    "hours": "毎日 11:00〜21:30",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "coco-ichibanya-nanjing-east",
+    "name": "CoCo Ichibanya Nanjing East Road",
+    "name_ja": "CoCo壱番屋 南京東路店",
+    "area": "Zhongshan",
+    "address": "2F, No. 259, Section 3, Nanjing East Road, Zhongshan District, Taipei",
+    "phone": "+886225462236",
+    "website": "https://www.ichibanya.co.jp/",
+    "description": "CoCo壱番屋の南京東路店。ランチタイムはビジネスマンで賑わう。ベジタリアンカレーオプションもあり。",
+    "tags": [
+      "カレー",
+      "日本発チェーン",
+      "ランチ"
+    ],
+    "hours": "毎日 11:00〜21:30",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "kura-sushi-songjiang-nanjing",
+    "name": "Kura Sushi Songjiang Nanjing",
+    "name_ja": "くら寿司 松江南京店",
+    "area": "Zhongshan",
+    "address": "B1, No. 101, Section 2, Nanjing East Road, Zhongshan District, Taipei",
+    "phone": null,
+    "website": "https://www.kurasushi.tw/",
+    "description": "くら寿司の松江南京駅直結店。ビッくらポンのガチャポンゲームが子連れに人気。リーズナブルな価格で寿司を楽しめる。",
+    "tags": [
+      "回転寿司",
+      "日本発チェーン",
+      "駅直結"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "genki-sushi-songshan",
+    "name": "Genki Sushi Songshan",
+    "name_ja": "元気寿司 松山店",
+    "area": "Songshan",
+    "address": "No. 140, Section 3, Minquan East Road, Songshan District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "日本の回転寿司チェーン。新幹線型のレーンで寿司が届くシステムが特徴的。手頃な価格で楽しめる。",
+    "tags": [
+      "回転寿司",
+      "日本発チェーン"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "ichiran-taichung",
+    "name": "Ichiran Taichung",
+    "name_ja": "一蘭 台中店",
+    "area": "Taichung",
+    "address": "No. 2, Chaofu Road, Xitun District, Taichung",
+    "phone": null,
+    "website": "https://en.ichiran.com/shop/oversea/taiwan/",
+    "description": "一蘭の台中支店。味集中カウンターで一人ラーメンを楽しめる。台北まで行かずに一蘭を味わえる。",
+    "tags": [
+      "ラーメン",
+      "日本発チェーン",
+      "味集中カウンター"
+    ],
+    "hours": "24時間営業",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "menya-itto-zhongshan",
+    "name": "Menya Itto Zhongshan",
+    "name_ja": "麺屋一燈 中山",
+    "area": "Zhongshan",
+    "address": "Zhongshan District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "東京のミシュランビブグルマン獲得ラーメン店の台北出店。濃厚な魚介豚骨つけ麺が看板メニュー。",
+    "tags": [
+      "ラーメン",
+      "つけ麺",
+      "ミシュラン"
+    ],
+    "hours": "11:30〜14:30 / 17:30〜21:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sukiya-zhongshan",
+    "name": "Sukiya Zhongshan",
+    "name_ja": "すき家 中山店",
+    "area": "Zhongshan",
+    "address": "Zhongshan District, Taipei",
+    "phone": null,
+    "website": "https://www.sukiya.com.tw/",
+    "description": "日本の牛丼チェーンすき家の中山エリア店。牛丼・カレー・定食をリーズナブルに提供。24時間営業で深夜の食事にも便利。",
+    "tags": [
+      "牛丼",
+      "日本発チェーン",
+      "24時間営業"
+    ],
+    "hours": "24時間営業",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "yoshinoya-zhongshan",
+    "name": "Yoshinoya Zhongshan",
+    "name_ja": "吉野家 中山店",
+    "area": "Zhongshan",
+    "address": "Zhongshan District, Taipei",
+    "phone": null,
+    "website": "https://www.yoshinoya.com.tw/",
+    "description": "日本の牛丼チェーン吉野家の中山エリア店。早い・安い・うまいの三拍子で忙しい日のランチに最適。",
+    "tags": [
+      "牛丼",
+      "日本発チェーン",
+      "ファストフード"
+    ],
+    "hours": "毎日 7:00〜23:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "matsuya-zhongshan",
+    "name": "Matsuya Zhongshan",
+    "name_ja": "松屋 中山店",
+    "area": "Zhongshan",
+    "address": "Zhongshan District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "日本三大牛丼チェーンの一つ松屋の台北店。牛丼に加え定食メニューも充実。味噌汁が無料で付くのが嬉しい。",
+    "tags": [
+      "牛丼",
+      "日本発チェーン",
+      "定食"
+    ],
+    "hours": "毎日 7:00〜23:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "chu-yu-regent-taipei",
+    "name": "Chu Yu Japanese Cuisine",
+    "name_ja": "中庸 日本料理",
+    "area": "Zhongshan",
+    "address": "B2F, Regent Taipei, No. 3, Lane 39, Section 2, Zhongshan North Road, Zhongshan District, Taipei",
+    "phone": null,
+    "website": "https://autoreserve.com/en/restaurants/4a1z8oMAchBQi1TfHcze",
+    "description": "リージェント台北ホテル内のミシュラン一つ星日本料理レストラン。季節の食材を活かした懐石コースを提供。",
+    "tags": [
+      "ミシュラン",
+      "懐石",
+      "ホテル内",
+      "高級"
+    ],
+    "hours": "ランチ 12:00〜14:30 / ディナー 18:00〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "tou-tou-an-zhongshan",
+    "name": "Tou Tou An",
+    "name_ja": "陶陶庵",
+    "area": "Zhongshan",
+    "address": "No. 18, Alley 2, Lane 410, Minzu East Road, Zhongshan District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "中山区の隠れ家的な懐石料理店。少人数・カップル向けの落ち着いた空間で、多品数の懐石コースを楽しめる。",
+    "tags": [
+      "懐石",
+      "隠れ家",
+      "コース料理"
+    ],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "yakiniku-like-chengde",
+    "name": "Yakiniku Like Chengde",
+    "name_ja": "焼肉ライク 承德店",
+    "area": "Datong",
+    "address": "1F, No. 1, Section 1, Chengde Road, Datong District, Taipei",
+    "phone": null,
+    "website": "https://dining-innovation.com.sg/yakinikulike/",
+    "description": "焼肉ライクの承德路店。台北駅近くで一人焼肉が楽しめる。",
+    "tags": [
+      "焼肉",
+      "一人焼肉",
+      "日本発チェーン"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
   }
 ]

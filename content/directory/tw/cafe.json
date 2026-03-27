@@ -263,5 +263,138 @@
     "status": "unverified",
     "source": "google_maps",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "komeda-coffee-xinyi",
+    "name": "Komeda's Coffee Xinyi",
+    "name_ja": "コメダ珈琲 信義店",
+    "area": "Xinyi",
+    "address": "Xinyi District, Taipei",
+    "phone": null,
+    "website": "https://www.komeda.com.tw/",
+    "description": "コメダ珈琲の信義区店。名古屋式モーニングサービスで、ドリンク注文時にトーストとゆで卵が無料。シロノワールも人気。",
+    "tags": [
+      "喫茶店",
+      "モーニング",
+      "日本発チェーン"
+    ],
+    "hours": "7:30〜21:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "komeda-coffee-daan",
+    "name": "Komeda's Coffee Da'an",
+    "name_ja": "コメダ珈琲 大安店",
+    "area": "Da'an",
+    "address": "Da'an District, Taipei",
+    "phone": null,
+    "website": "https://www.komeda.com.tw/",
+    "description": "コメダ珈琲の大安区店。ゆったりしたソファ席と落ち着いた空間で、日本の喫茶店文化を楽しめる。",
+    "tags": [
+      "喫茶店",
+      "モーニング",
+      "日本発チェーン"
+    ],
+    "hours": "7:30〜21:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "mister-donut-xinyi",
+    "name": "Mister Donut Xinyi",
+    "name_ja": "ミスタードーナツ 信義",
+    "area": "Xinyi",
+    "address": "Xinyi District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "日本式ドーナツチェーンの信義区店。ポンデリング・オールドファッション・フレンチクルーラーなど日本のレシピで作る定番ドーナツを提供。",
+    "tags": [
+      "ドーナツ",
+      "日本発チェーン",
+      "カジュアル"
+    ],
+    "hours": "毎日 8:00〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "mister-donut-daan",
+    "name": "Mister Donut Da'an",
+    "name_ja": "ミスタードーナツ 大安",
+    "area": "Da'an",
+    "address": "Da'an District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "ミスタードーナツの大安区店。台湾限定フレーバーのドーナツもラインナップ。テイクアウトにも対応。",
+    "tags": [
+      "ドーナツ",
+      "日本発チェーン",
+      "テイクアウト"
+    ],
+    "hours": "毎日 8:00〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sarutahiko-coffee-xinyi",
+    "name": "Sarutahiko Coffee Xinyi",
+    "name_ja": "猿田彦珈琲 信義店",
+    "area": "Xinyi",
+    "address": "Xinyi District, Taipei",
+    "phone": null,
+    "website": "https://www.sarutahiko.co/",
+    "description": "東京恵比寿発のスペシャルティコーヒー店の信義区店。自家焙煎のこだわりコーヒーとスイーツを提供。",
+    "tags": [
+      "スペシャルティコーヒー",
+      "東京発",
+      "自家焙煎"
+    ],
+    "hours": "8:00〜21:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "tsujiri-zhongshan",
+    "name": "Tsujiri Zhongshan",
+    "name_ja": "辻利 中山",
+    "area": "Zhongshan",
+    "address": "Zhongshan District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "京都発の抹茶専門カフェの中山エリア店。本格宇治抹茶を使ったラテ・ソフトクリーム・パフェが楽しめる。",
+    "tags": [
+      "抹茶",
+      "京都発",
+      "スイーツ"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "doutor-coffee-xinyi",
+    "name": "Doutor Coffee Xinyi",
+    "name_ja": "ドトールコーヒー 信義",
+    "area": "Xinyi",
+    "address": "Xinyi District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "日本の老舗コーヒーチェーンの信義区店。手頃な価格でコーヒーとモーニングセットが楽しめる。",
+    "tags": [
+      "カフェ",
+      "日本発チェーン",
+      "モーニング"
+    ],
+    "hours": "毎日 7:00〜21:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
   }
 ]

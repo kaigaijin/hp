@@ -372,5 +372,201 @@
     "status": "unverified",
     "source": "google_maps",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sumire-yakitori-robertson",
+    "name": "Sumire Yakitori House",
+    "name_ja": "すみれ焼き鳥",
+    "area": "Robertson Quay",
+    "address": "11 Unity Street, #01-10/11, Robertson Walk, Singapore 237995",
+    "phone": "+6568367243",
+    "website": null,
+    "description": "Robertson Quayの焼き鳥専門居酒屋。備長炭で焼き上げる本格焼き鳥と日本酒・焼酎が充実。カウンター席で職人の焼き技を見ながら楽しめる。",
+    "tags": [
+      "焼き鳥",
+      "居酒屋",
+      "日本酒",
+      "カウンター席"
+    ],
+    "hours": "毎日 17:30-23:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "akanoya-robatayaki",
+    "name": "Akanoya Robatayaki",
+    "name_ja": "茜屋 炉端焼き",
+    "area": "Boat Quay",
+    "address": "69 Boat Quay, Singapore 049857",
+    "phone": "+6563364498",
+    "website": null,
+    "description": "ボートキーの炉端焼き居酒屋。新鮮な魚介類や肉を目の前の炭火で焼き上げる炉端焼きスタイル。日本酒・焼酎の品揃えも充実。川沿いの雰囲気ある立地。",
+    "tags": [
+      "炉端焼き",
+      "居酒屋",
+      "日本酒",
+      "川沿い"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sake-labo-duxton",
+    "name": "SAKE LABO",
+    "name_ja": "酒ラボ",
+    "area": "Duxton",
+    "address": "73 Duxton Road, Singapore 089533",
+    "phone": null,
+    "website": null,
+    "description": "Duxton Roadにある日本酒バー。厳選した日本酒とペアリングの和食小皿を提供。飲み比べセットが楽しめる大人の空間。",
+    "tags": [
+      "日本酒バー",
+      "ペアリング",
+      "バー"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "tomo-tokyo-clarke-quay",
+    "name": "Tomo Tokyo",
+    "name_ja": "トモトーキョー",
+    "area": "Clarke Quay",
+    "address": "3A River Valley Road, #01-04 Block A, Clarke Quay, Singapore 179020",
+    "phone": null,
+    "website": "https://tomotokyo.com.sg/",
+    "description": "クラークキーの川沿いに位置するモダンフュージョン居酒屋。炭火焼き・刺身・にぎり寿司・ジャパニーズタパスなど、伝統的な居酒屋料理を現代的にアレンジ。",
+    "tags": [
+      "居酒屋",
+      "フュージョン",
+      "炭火焼き",
+      "テラス席"
+    ],
+    "hours": "日〜木: 12:00-15:00, 17:00-23:00 / 金土: 12:00-15:00, 17:00-25:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "shinya-izakaya-boat-quay",
+    "name": "Shinya Izakaya",
+    "name_ja": "深夜の居酒屋",
+    "area": "Boat Quay",
+    "address": "79 Boat Quay, Singapore 049867",
+    "phone": "+6596823826",
+    "website": "https://www.shinyaizakaya.com/",
+    "description": "ボートキーの深夜営業居酒屋。毎日3時まで営業。串焼き・揚げ物・刺身などの居酒屋メニューを提供。深夜の飲みに最適。",
+    "tags": [
+      "居酒屋",
+      "深夜営業",
+      "串焼き"
+    ],
+    "hours": "毎日〜3:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "shako-ba-boat-quay",
+    "name": "Shako-Ba",
+    "name_ja": "シャコバ",
+    "area": "Boat Quay",
+    "address": "Boat Quay, Singapore",
+    "phone": null,
+    "website": null,
+    "description": "ボートキーのショップハウス2階に隠れた居酒屋バー。ネオンライトと遊び心のある空間で、日本酒・焼酎・カクテルと居酒屋料理を楽しめる。ショットボタンが名物。",
+    "tags": [
+      "バー",
+      "居酒屋",
+      "隠れ家",
+      "ネオン"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "izakaya-shindo-clarke-quay",
+    "name": "Izakaya Shindo",
+    "name_ja": "居酒屋しんどう",
+    "area": "Clarke Quay",
+    "address": "Clarke Quay, Singapore",
+    "phone": null,
+    "website": null,
+    "description": "クラークキーにある本格居酒屋。日本の居酒屋の雰囲気を忠実に再現。焼き鳥・刺身・枝豆など定番の居酒屋メニューと日本酒を提供。",
+    "tags": [
+      "居酒屋",
+      "焼き鳥",
+      "日本酒"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "himonoya-robertson-walk",
+    "name": "Himonoya",
+    "name_ja": "ひもの屋",
+    "area": "Robertson Quay",
+    "address": "11 Unity Street, #02-14, Robertson Walk, Singapore 237995",
+    "phone": null,
+    "website": "https://www.singaporehimonoya.com/",
+    "description": "干物（ひもの）を専門とするユニークな日本料理居酒屋。厳選された干物を炭火で焼き上げ、日本酒とともに提供。Robertson Walk内。",
+    "tags": [
+      "居酒屋",
+      "干物",
+      "炭火焼き",
+      "日本酒"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "shin-minori-robertson-quay",
+    "name": "Shin Minori",
+    "name_ja": "新みのり",
+    "area": "Robertson Quay",
+    "address": "Robertson Quay, Singapore",
+    "phone": null,
+    "website": null,
+    "description": "Robertson Quayで長年営業を続ける日本食ビュッフェレストラン。寿司・刺身・焼き物・天ぷらなどの和食ビュッフェが人気。家族連れにも対応。",
+    "tags": [
+      "ビュッフェ",
+      "日本料理",
+      "家族向け"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "tanuki-raw-orchard-central",
+    "name": "Tanuki Raw",
+    "name_ja": "タヌキロー",
+    "area": "Somerset",
+    "address": "181 Orchard Road, Orchard Central, Singapore 238896",
+    "phone": null,
+    "website": "https://tanukiraw.com/",
+    "description": "カジュアルジャパニーズダイニング。寿司・丼ぶり・ブランチメニューをスタイリッシュに提供。若者に人気のモダンな和食レストラン。",
+    "tags": [
+      "モダン和食",
+      "丼",
+      "寿司",
+      "カジュアル"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
   }
 ]

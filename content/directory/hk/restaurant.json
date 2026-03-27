@@ -1078,5 +1078,345 @@
     "status": "unverified",
     "source": "google_maps",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "nobu-hong-kong-regent",
+    "name": "Nobu Hong Kong",
+    "name_ja": "ノブ 香港",
+    "area": "Tsim Sha Tsui",
+    "address": "2F, Regent Hong Kong, 18 Salisbury Road, Kowloon, Hong Kong",
+    "phone": "+85223132313",
+    "website": "https://noburestaurants.com/hong-kong/",
+    "description": "マツヒサ・ノブの香港レストラン。リージェントホテル2階に位置し、ビクトリアハーバーを望む絶景と共に新日本料理を提供。",
+    "tags": [
+      "高級",
+      "新日本料理",
+      "ホテル内",
+      "ハーバービュー"
+    ],
+    "hours": "ランチ 12:00〜14:30 / ディナー 18:00〜23:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "aqua-tst",
+    "name": "Aqua Hong Kong",
+    "name_ja": "アクア 香港",
+    "area": "Tsim Sha Tsui",
+    "address": "29-30/F, One Peking, 1 Peking Road, Tsim Sha Tsui, Hong Kong",
+    "phone": "+85234272288",
+    "website": "https://aqua.com.hk/",
+    "description": "尖沙咀の高層ビル最上階にあるイタリアン＆日本料理レストラン。寿司・刺身とイタリアンを同時に楽しめる。ビクトリアハーバーの夜景が圧巻。",
+    "tags": [
+      "日本料理",
+      "イタリアン",
+      "夜景",
+      "高級"
+    ],
+    "hours": "毎日 12:00〜翌3:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "sushiro-hk-sheung-wan",
+    "name": "Sushiro Sheung Wan",
+    "name_ja": "スシロー 上環店",
+    "area": "Sheung Wan",
+    "address": "Infinitus Plaza, Sheung Wan, Hong Kong",
+    "phone": null,
+    "website": "https://sushirohk.com.hk/",
+    "description": "スシローの上環店。リーズナブルな価格で日本直送の新鮮ネタの回転寿司を楽しめる。",
+    "tags": [
+      "回転寿司",
+      "日本発チェーン",
+      "コスパ"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "sushiro-hk-mong-kok",
+    "name": "Sushiro Mong Kok",
+    "name_ja": "スシロー 旺角店",
+    "area": "Mong Kok",
+    "address": "Mong Kok, Hong Kong",
+    "phone": null,
+    "website": "https://sushirohk.com.hk/",
+    "description": "スシローの旺角店。賑やかなショッピングエリアで手軽に日本の回転寿司が楽しめる。",
+    "tags": [
+      "回転寿司",
+      "日本発チェーン",
+      "コスパ"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "sushiro-hk-hung-hom",
+    "name": "Sushiro Hung Hom",
+    "name_ja": "スシロー 紅磡店",
+    "area": "Hung Hom",
+    "address": "The Whampoa, Hung Hom, Hong Kong",
+    "phone": null,
+    "website": "https://sushirohk.com.hk/",
+    "description": "スシローの紅磡ワンポア店。家族連れにも人気の広々とした店舗。",
+    "tags": [
+      "回転寿司",
+      "日本発チェーン"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "genki-sushi-hk-mong-kok",
+    "name": "Genki Sushi Mong Kok",
+    "name_ja": "元気寿司 旺角店",
+    "area": "Mong Kok",
+    "address": "Mong Kok, Hong Kong",
+    "phone": null,
+    "website": "https://order.genkisushi.com.hk/",
+    "description": "元気寿司の旺角店。新幹線型レーンで寿司が届く楽しいシステム。香港で70店舗以上を展開する人気チェーン。",
+    "tags": [
+      "回転寿司",
+      "日本発チェーン",
+      "コスパ"
+    ],
+    "hours": "毎日 11:00〜22:30",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "genki-sushi-hk-sha-tin",
+    "name": "Genki Sushi Sha Tin",
+    "name_ja": "元気寿司 沙田店",
+    "area": "Sha Tin",
+    "address": "Sha Tin, New Territories, Hong Kong",
+    "phone": null,
+    "website": "https://order.genkisushi.com.hk/",
+    "description": "元気寿司の沙田店。新界エリアでもリーズナブルな日本の寿司を楽しめる。",
+    "tags": [
+      "回転寿司",
+      "日本発チェーン"
+    ],
+    "hours": "毎日 11:00〜22:30",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "genki-sushi-hk-north-point",
+    "name": "Genki Sushi North Point",
+    "name_ja": "元気寿司 北角店",
+    "area": "North Point",
+    "address": "North Point, Hong Kong",
+    "phone": null,
+    "website": "https://order.genkisushi.com.hk/",
+    "description": "元気寿司の北角店。東区エリアの日本食好きに親しまれている店舗。",
+    "tags": [
+      "回転寿司",
+      "日本発チェーン"
+    ],
+    "hours": "毎日 11:00〜22:30",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "yoshinoya-hk-causeway-bay",
+    "name": "Yoshinoya Causeway Bay",
+    "name_ja": "吉野家 銅鑼湾店",
+    "area": "Causeway Bay",
+    "address": "Kyoto Plaza, 491-499 Lockhart Road, Causeway Bay, Hong Kong",
+    "phone": null,
+    "website": "https://www.yoshinoya.com.hk/",
+    "description": "吉野家の銅鑼湾店。1991年から香港で展開する牛丼チェーン。牛丼・チキン丼・カレーなどを手軽に楽しめる。",
+    "tags": [
+      "牛丼",
+      "日本発チェーン",
+      "ファストフード"
+    ],
+    "hours": "毎日 7:00〜23:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "yoshinoya-hk-mong-kok",
+    "name": "Yoshinoya Mong Kok",
+    "name_ja": "吉野家 旺角店",
+    "area": "Mong Kok",
+    "address": "Shop 12-13, G/F, The Concord Building, 60-102 Soy Street, Mong Kok, Hong Kong",
+    "phone": null,
+    "website": "https://www.yoshinoya.com.hk/",
+    "description": "吉野家の旺角店。朝食から夜まで営業で、ショッピングの合間に気軽に日本の牛丼が食べられる。",
+    "tags": [
+      "牛丼",
+      "日本発チェーン",
+      "ファストフード"
+    ],
+    "hours": "毎日 7:00〜23:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "yoshinoya-hk-sheung-wan",
+    "name": "Yoshinoya Sheung Wan",
+    "name_ja": "吉野家 上環店",
+    "area": "Sheung Wan",
+    "address": "Shun Tak Centre, Sheung Wan, Hong Kong",
+    "phone": null,
+    "website": "https://www.yoshinoya.com.hk/",
+    "description": "吉野家の上環信徳中心店。マカオフェリーターミナル近くで移動前後の食事に便利。",
+    "tags": [
+      "牛丼",
+      "日本発チェーン",
+      "ファストフード"
+    ],
+    "hours": "毎日 7:00〜23:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "yoshinoya-hk-central",
+    "name": "Yoshinoya Central",
+    "name_ja": "吉野家 中環店",
+    "area": "Central",
+    "address": "Grand Building, Central, Hong Kong",
+    "phone": null,
+    "website": "https://www.yoshinoya.com.hk/",
+    "description": "吉野家のセントラル店。ビジネス街のランチタイムに手軽な日本の牛丼を提供。",
+    "tags": [
+      "牛丼",
+      "日本発チェーン",
+      "ファストフード"
+    ],
+    "hours": "毎日 7:00〜23:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "marugame-udon-hk-sha-tin",
+    "name": "Marugame Seimen Sha Tin",
+    "name_ja": "丸亀製麺 沙田店",
+    "area": "Sha Tin",
+    "address": "Shop A136, 1/F, New Town Plaza Phase III, 2-8 Sha Tin Centre Street, Sha Tin, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "丸亀製麺の沙田ニュータウンプラザ店。目の前で打ちたてのうどんを提供する本格セルフ式うどん。",
+    "tags": [
+      "うどん",
+      "日本発チェーン",
+      "セルフサービス"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "marugame-udon-hk-tko",
+    "name": "Marugame Seimen Tseung Kwan O",
+    "name_ja": "丸亀製麺 将軍澳店",
+    "area": "Tseung Kwan O",
+    "address": "Shop L1-021, 1/F, TKO Plaza, 1 Tong Tak Street, Tseung Kwan O, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "丸亀製麺の将軍澳店。目の前で生地から打つ本格讃岐うどんを手頃な価格で提供。",
+    "tags": [
+      "うどん",
+      "日本発チェーン",
+      "セルフサービス"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "mugen-ramen-wan-chai",
+    "name": "Mugen Ramen Wan Chai",
+    "name_ja": "無限ラーメン 湾仔",
+    "area": "Wan Chai",
+    "address": "G/F, 130 Queen's Road East, Wan Chai, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "大阪発の牛骨ラーメンチェーンの香港初出店。濃厚な牛骨スープのラーメンが看板。2025年オープン。",
+    "tags": [
+      "ラーメン",
+      "大阪発",
+      "牛骨"
+    ],
+    "hours": "毎日 11:30〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "sns"
+  },
+  {
+    "slug": "chiikawa-ramen-mong-kok",
+    "name": "Chiikawa Ramen Buta Mong Kok",
+    "name_ja": "ちいかわラーメン豚 旺角",
+    "area": "Mong Kok",
+    "address": "12/F, Langham Place, 8 Argyle Street, Mong Kok, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "日本の人気漫画「ちいかわ」とコラボしたラーメン店。本格的なラーメンとキャラクターグッズを楽しめる。家族連れに人気。",
+    "tags": [
+      "ラーメン",
+      "キャラクターコラボ",
+      "家族向け"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "sns"
+  },
+  {
+    "slug": "mikasaya-causeway-bay",
+    "name": "Mikasaya",
+    "name_ja": "三笠屋",
+    "area": "Causeway Bay",
+    "address": "Causeway Bay, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "尖沙咀から銅鑼湾に移転したおまかせ寿司レストラン。ランチHKD780、ディナーHKD980のおまかせコースを提供。コスパの良い本格寿司。",
+    "tags": [
+      "寿司",
+      "おまかせ",
+      "コスパ"
+    ],
+    "hours": "ランチ 12:00〜14:30 / ディナー 18:00〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sushiro-hk-san-po-kong",
+    "name": "Sushiro San Po Kong",
+    "name_ja": "スシロー 新蒲崗店",
+    "area": "San Po Kong",
+    "address": "Mikiki, San Po Kong, Hong Kong",
+    "phone": null,
+    "website": "https://sushirohk.com.hk/",
+    "description": "スシローの新蒲崗ミキキ店。住宅街に位置し、家族連れの週末利用が多い。",
+    "tags": [
+      "回転寿司",
+      "日本発チェーン"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
   }
 ]

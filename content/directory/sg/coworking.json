@@ -198,5 +198,66 @@
     "status": "unverified",
     "source": "website",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "wework-asia-square",
+    "name": "WeWork (Asia Square Tower 1)",
+    "name_ja": "ウィーワーク アジアスクエア",
+    "area": "Marina Bay",
+    "address": "8 Marina View, Asia Square Tower 1, Singapore 018960",
+    "phone": null,
+    "website": "https://www.wework.com/buildings/asia-square-tower-1--singapore",
+    "description": "WeWorkのAsia Square Tower 1拠点。Marina Bay地区のCBDに位置し、日系企業の利用も多い。プライベートオフィス・ホットデスク・会議室を提供。",
+    "tags": [
+      "コワーキング",
+      "プライベートオフィス",
+      "ホットデスク",
+      "CBD"
+    ],
+    "hours": "24時間アクセス可能（受付: 月〜金 9:00-18:00）",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "the-great-room-one-george-street",
+    "name": "The Great Room (One George Street)",
+    "name_ja": "ザ・グレートルーム ワンジョージストリート",
+    "area": "Raffles Place",
+    "address": "1 George Street, #10-01, Singapore 049145",
+    "phone": null,
+    "website": "https://www.thegreatroomoffices.com/",
+    "description": "ホスピタリティ重視の高級コワーキングスペースのOne George Street拠点。Raffles Place MRT駅直結。",
+    "tags": [
+      "コワーキング",
+      "プライベートオフィス",
+      "CBD",
+      "高級",
+      "駅直結"
+    ],
+    "hours": "24時間アクセス可能（受付: 月〜金 9:00-18:00）",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "compass-offices-mbfc",
+    "name": "Compass Offices (MBFC Tower 2)",
+    "name_ja": "コンパスオフィス MBFC",
+    "area": "Marina Bay",
+    "address": "10 Marina Boulevard, #22-01, Marina Bay Financial Centre Tower 2, Singapore 018983",
+    "phone": null,
+    "website": "https://www.compassoffices.com/",
+    "description": "アジア太平洋に展開するフレキシブルオフィス。MBFC Tower 2の22階。プライベートオフィス・コワーキング・バーチャルオフィスを提供。",
+    "tags": [
+      "コワーキング",
+      "プライベートオフィス",
+      "バーチャルオフィス",
+      "CBD"
+    ],
+    "hours": "24時間アクセス可能（受付: 月〜金 8:30-18:00）",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
   }
 ]

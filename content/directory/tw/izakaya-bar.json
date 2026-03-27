@@ -397,5 +397,157 @@
     "status": "unverified",
     "source": "google_maps",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "inamachiya-zhongshan",
+    "name": "Inamachiya",
+    "name_ja": "稲町家",
+    "area": "Zhongshan",
+    "address": "Zhongshan District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "中山区ビジネス街で最も注目の居酒屋。昭和レトロスタイルの新ブランドも展開し、独自の世界観が話題。",
+    "tags": [
+      "居酒屋",
+      "昭和レトロ",
+      "創作和食"
+    ],
+    "hours": "18:00〜翌1:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "kite-garden-zhongshan",
+    "name": "Kite Garden",
+    "name_ja": "カイトガーデン",
+    "area": "Zhongshan",
+    "address": "Jinzhou Street area, Zhongshan District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "錦州街の路地裏に隠れた新しい居酒屋。洗練された空間で日本酒と季節の一品料理を提供。",
+    "tags": [
+      "居酒屋",
+      "隠れ家",
+      "日本酒"
+    ],
+    "hours": "18:00〜24:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "gyu-kaku-taipei-xinyi",
+    "name": "Gyu-Kaku Taipei Xinyi",
+    "name_ja": "牛角 台北信義",
+    "area": "Xinyi",
+    "address": "Xinyi District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "日本の焼肉チェーン牛角の信義エリア店。食べ放題コースが人気。友人や家族での食事に。",
+    "tags": [
+      "焼肉",
+      "食べ放題",
+      "日本発チェーン"
+    ],
+    "hours": "11:30〜24:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "gyu-kaku-taipei-daan",
+    "name": "Gyu-Kaku Taipei Da'an",
+    "name_ja": "牛角 台北大安",
+    "area": "Da'an",
+    "address": "Da'an District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "牛角の大安区店。食べ放題プランと単品の両方に対応。日本のビールも充実。",
+    "tags": [
+      "焼肉",
+      "食べ放題",
+      "日本発チェーン"
+    ],
+    "hours": "11:30〜24:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "kanpai-xinyi",
+    "name": "Kanpai Xinyi",
+    "name_ja": "乾杯 信義店",
+    "area": "Xinyi",
+    "address": "Xinyi District, Taipei",
+    "phone": null,
+    "website": "https://www.kanpai.com.tw/",
+    "description": "台北で人気の日式焼肉チェーンの信義店。スタッフの掛け声や誕生日サプライズの演出で活気のある雰囲気。",
+    "tags": [
+      "焼肉",
+      "日式",
+      "エンターテイメント"
+    ],
+    "hours": "17:30〜24:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "kanpai-zhongshan",
+    "name": "Kanpai Zhongshan",
+    "name_ja": "乾杯 中山店",
+    "area": "Zhongshan",
+    "address": "Zhongshan District, Taipei",
+    "phone": null,
+    "website": "https://www.kanpai.com.tw/",
+    "description": "乾杯の中山エリア店。カジュアルに上質焼肉と日本のビール・ハイボールを楽しめる。",
+    "tags": [
+      "焼肉",
+      "日式",
+      "カジュアル"
+    ],
+    "hours": "17:30〜24:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "izakaya-yoshi-linsen",
+    "name": "Izakaya Yoshi",
+    "name_ja": "居酒屋よし 林森",
+    "area": "Zhongshan",
+    "address": "Near Linsen North Road, Zhongshan District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "林森北路エリアの老舗居酒屋。日本人駐在員に長年愛される定番店。焼き鳥・刺身・おでんなど昔ながらの居酒屋メニューが揃う。",
+    "tags": [
+      "居酒屋",
+      "日本人駐在員",
+      "林森北路"
+    ],
+    "hours": "18:00〜翌2:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "izakaya-matsuri-zhongshan",
+    "name": "Izakaya Matsuri",
+    "name_ja": "居酒屋まつり 中山",
+    "area": "Zhongshan",
+    "address": "Zhongshan District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "中山エリアの賑やかな居酒屋。お祭りをテーマにした内装で、日本酒・焼き物・揚げ物を楽しめる。",
+    "tags": [
+      "居酒屋",
+      "日本酒",
+      "中山"
+    ],
+    "hours": "18:00〜翌1:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
   }
 ]

@@ -1779,5 +1779,667 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "ippudo-westgate",
+    "name": "Ippudo (Westgate)",
+    "name_ja": "一風堂 ウエストゲート店",
+    "area": "Jurong East",
+    "address": "3 Gateway Drive, #01-14, Westgate, Singapore 608532",
+    "phone": null,
+    "website": "https://stores.ippudo.com/en_sg/singapore/singapore",
+    "description": "博多発の人気とんこつラーメンチェーンのWestgate店。白丸・赤丸をはじめ多彩なラーメンメニュー。西部エリアでの和食に便利。",
+    "tags": [
+      "ラーメン",
+      "カジュアル",
+      "複数店舗"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "next-shikaku-westgate",
+    "name": "NEXT SHIKAKU",
+    "name_ja": "ネクスト四角",
+    "area": "Jurong East",
+    "address": "3 Gateway Drive, Westgate, Singapore 608532",
+    "phone": null,
+    "website": null,
+    "description": "大阪発のシンガポール初の牡蠣ラーメン専門店。澄んだ牡蠣スープのラーメンと炙り肉寿司が名物。Westgate内。",
+    "tags": [
+      "ラーメン",
+      "牡蠣",
+      "肉寿司"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "tomi-sushi-pasir-ris",
+    "name": "Tomi Sushi",
+    "name_ja": "富寿し",
+    "area": "Pasir Ris",
+    "address": "1 Pasir Ris Close, #02-305, Singapore 519599",
+    "phone": null,
+    "website": "https://www.tomisushi.asia/pasir-ris/",
+    "description": "新潟発の寿司レストランのシンガポール東部店。本格的な日本の寿司を和の雰囲気の中で提供。パシリスのダウンタウンイースト内。",
+    "tags": [
+      "寿司",
+      "カジュアル",
+      "新潟"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "tokyo-shokudo-tampines",
+    "name": "Tokyo Shokudo (Tampines Mall)",
+    "name_ja": "東京食堂 タンピネスモール店",
+    "area": "Tampines",
+    "address": "4 Tampines Central 5, Tampines Mall, Singapore 529510",
+    "phone": null,
+    "website": null,
+    "description": "ハラル認証の日本式食堂。天ぷら・ラーメン・丼を提供。シンガポール国内に7店舗以上を展開。ムスリムの方も安心して和食を楽しめる。",
+    "tags": [
+      "ハラル",
+      "天ぷら",
+      "ラーメン",
+      "カジュアル",
+      "複数店舗"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "sns",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "warabimochi-kamakura-jem",
+    "name": "Warabimochi Kamakura (JEM)",
+    "name_ja": "わらび餅 鎌倉 JEM店",
+    "area": "Jurong East",
+    "address": "50 Jurong Gateway Road, #01-15, JEM, Singapore 608549",
+    "phone": null,
+    "website": null,
+    "description": "鎌倉発のわらび餅専門チェーン。もちもちのわらび餅にきな粉や抹茶をかけて楽しめる。テイクアウトにも対応。JEM内の人気スイーツ店。",
+    "tags": [
+      "わらび餅",
+      "スイーツ",
+      "テイクアウト"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "loca-niru-sg",
+    "name": "Loca Niru",
+    "name_ja": "ロカニル",
+    "area": "Stevens",
+    "address": "House of Tan Yeok Nee, Singapore",
+    "phone": null,
+    "website": null,
+    "description": "2025年11月オープン。140年の歴史を持つTan Yeok Nee邸宅の2階に開業したファインダイニング。日本の感性・フランスの技法・東南アジアの食材を融合。",
+    "tags": [
+      "ファインダイニング",
+      "フュージョン",
+      "要予約",
+      "高級"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ryokudo-far-east-square",
+    "name": "Ryokudo",
+    "name_ja": "緑道",
+    "area": "Telok Ayer",
+    "address": "Far East Square, Singapore",
+    "phone": null,
+    "website": null,
+    "description": "日本式の丼ぶり専門店の海外1号店。Far East Square内。こだわりの丼ぶりメニューを提供。2025年オープン。",
+    "tags": [
+      "丼",
+      "カジュアル"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sushi-ayumu-sg",
+    "name": "Sushi Ayumu",
+    "name_ja": "鮨歩",
+    "area": "Orchard",
+    "address": "Orchard Road, Singapore",
+    "phone": null,
+    "website": null,
+    "description": "シェフ石橋正彦氏が手掛ける本格江戸前鮨。季節のプレミアム食材を使った洗練されたおまかせコースを提供。親密な雰囲気が特徴。",
+    "tags": [
+      "おまかせ",
+      "寿司",
+      "高級",
+      "要予約"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ki-su-shoujin-omakase",
+    "name": "Ki Su Shoujin Omakase",
+    "name_ja": "木素精進おまかせ",
+    "area": "CBD",
+    "address": "Singapore CBD",
+    "phone": null,
+    "website": "https://www.kisu.com.sg/",
+    "description": "世界初のファインダイニング植物性おまかせレストラン。日本の精進料理の伝統を現代的に解釈。肉・魚を一切使わない多品目コースを提供。",
+    "tags": [
+      "おまかせ",
+      "精進料理",
+      "ファインダイニング",
+      "ベジタリアン"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "an-omakase-sg",
+    "name": "An Omakase",
+    "name_ja": "庵おまかせ",
+    "area": "CBD",
+    "address": "Singapore",
+    "phone": null,
+    "website": "https://www.anomakase.com/",
+    "description": "モダンエッジの和食おまかせレストラン。伝統を再構築した革新的なコース料理を提供。",
+    "tags": [
+      "おまかせ",
+      "モダン和食",
+      "要予約"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "tonkatsu-ma-maison-sg",
+    "name": "Tonkatsu by Ma Maison",
+    "name_ja": "とんかつ マ・メゾン",
+    "area": "Orchard",
+    "address": "333A Orchard Road, Mandarin Gallery, Singapore",
+    "phone": null,
+    "website": "https://mamaison.com.sg/",
+    "description": "サクサクの衣とジューシーな豚肉が特徴のとんかつ専門チェーン。キャベツ・ご飯・味噌汁がおかわり自由。シンガポール国内に複数店舗を展開。",
+    "tags": [
+      "とんかつ",
+      "定食",
+      "カジュアル",
+      "複数店舗"
+    ],
+    "hours": "月〜金: 11:00-15:00, 17:00-22:00 / 土日: 11:00-22:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sushi-katori",
+    "name": "Sushi Katori",
+    "name_ja": "鮨かとり",
+    "area": "Tanjong Pagar",
+    "address": "21 Tanjong Pagar Road, #01-03, Singapore 088444",
+    "phone": null,
+    "website": "https://sushikatori.com/",
+    "description": "ミシュランガイド掲載の江戸前鮨おまかせレストラン。シェフ香取竜太氏が日本から空輸した食材を使い、カウンターで握る。",
+    "tags": [
+      "おまかせ",
+      "寿司",
+      "ミシュラン掲載",
+      "要予約"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sushi-muni",
+    "name": "Sushi Muni",
+    "name_ja": "鮨無二",
+    "area": "Tanjong Pagar",
+    "address": "10 Anson Road, International Plaza #02-28, Singapore 079903",
+    "phone": null,
+    "website": null,
+    "description": "10席のみの江戸前鮨おまかせレストラン。ウェットエイジングした魚を使った独自のスタイル。ランチおまかせS$68++から。",
+    "tags": [
+      "おまかせ",
+      "寿司",
+      "コスパ良",
+      "要予約"
+    ],
+    "hours": "月: 18:00-22:00 / 火〜土: 11:30-15:00, 18:00-22:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "mizuya-orchid-hotel",
+    "name": "Mizuya",
+    "name_ja": "水谷",
+    "area": "Tanjong Pagar",
+    "address": "1 Tras Link, #01-12, Orchid Hotel, Singapore 078867",
+    "phone": "+6598534470",
+    "website": "https://mizuya.sg/",
+    "description": "Orchid Hotel内のおまかせ日本料理レストラン。手頃な価格からコースを提供。ランチのウォークインおまかせが人気。",
+    "tags": [
+      "おまかせ",
+      "日本料理",
+      "コスパ良"
+    ],
+    "hours": "月〜土: 12:00-14:30, 18:30-22:30（日休）",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "shin-katsu-tanjong-pagar",
+    "name": "Shin Katsu",
+    "name_ja": "新かつ",
+    "area": "Tanjong Pagar",
+    "address": "84/86 Tanjong Pagar Road, Singapore 088505",
+    "phone": "+6588258311",
+    "website": "https://shinkatsu.co/",
+    "description": "Ma Maison元ヘッドシェフが手掛けるとんかつ専門店。マンガリッツァ豚など世界各地の厳選豚肉を使用。炭火で炊いたご飯も特徴。",
+    "tags": [
+      "とんかつ",
+      "専門店",
+      "カジュアル"
+    ],
+    "hours": "毎日 11:30-15:00, 17:00-22:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sapoto-amara-hotel",
+    "name": "Sapoto",
+    "name_ja": "サポート",
+    "area": "Tanjong Pagar",
+    "address": "165 Tanjong Pagar Road, #02-26, Amara Hotel, Singapore 088539",
+    "phone": "+6588238831",
+    "website": "https://www.sapoto.sg/",
+    "description": "Amara Hotel内の焼き鳥おまかせレストラン。ランチおまかせS$48++からと手頃。",
+    "tags": [
+      "焼き鳥",
+      "おまかせ",
+      "コスパ良",
+      "要予約"
+    ],
+    "hours": "火〜日: 18:00-22:30（月休）",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "enishi-ramen-sg",
+    "name": "Enishi Ramen",
+    "name_ja": "えにしラーメン",
+    "area": "Tanjong Pagar",
+    "address": "10 Anson Road, #02-85A, International Plaza, Singapore 079903",
+    "phone": null,
+    "website": "https://enishi-sg.com/",
+    "description": "神戸発のミシュランビブグルマン受賞ラーメン店。全材料を日本から直輸入。担々麺の限定提供が人気。",
+    "tags": [
+      "ラーメン",
+      "ミシュランビブグルマン",
+      "カジュアル"
+    ],
+    "hours": "毎日 11:00-15:00, 18:00-21:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sanpoutei-ramen-paragon",
+    "name": "Sanpoutei Ramen (Paragon)",
+    "name_ja": "三宝亭ラーメン パラゴン店",
+    "area": "Orchard",
+    "address": "290 Orchard Road, #B1-47, Paragon, Singapore 238859",
+    "phone": null,
+    "website": null,
+    "description": "新潟発の老舗ラーメン店。2025年にParagonに3号店をオープン。看板の醤油ラーメンに加え、限定つけ麺も提供。",
+    "tags": [
+      "ラーメン",
+      "つけ麺",
+      "醤油",
+      "カジュアル"
+    ],
+    "hours": "日〜木: 11:30-21:30 / 金土: 11:30-22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "tsuta-pacific-plaza",
+    "name": "Tsuta (Pacific Plaza)",
+    "name_ja": "蔦 パシフィックプラザ店",
+    "area": "Orchard",
+    "address": "9 Scotts Road, #01-01, Pacific Plaza, Singapore 228210",
+    "phone": null,
+    "website": "https://www.tsuta.com/",
+    "description": "世界初のミシュラン星付きラーメン店。MSG不使用で天然素材にこだわったスープが特徴。醤油そばが看板。",
+    "tags": [
+      "ラーメン",
+      "ミシュラン",
+      "カジュアル",
+      "複数店舗"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "nantsuttei-orchard-central",
+    "name": "Nantsuttei",
+    "name_ja": "南燈亭",
+    "area": "Somerset",
+    "address": "181 Orchard Road, #07-12/13, Orchard Central, Singapore 238896",
+    "phone": "+6563377166",
+    "website": null,
+    "description": "東京発の人気ラーメン店。黒マー油のとんこつ醤油ラーメンが看板。S$10.80++からと手頃。",
+    "tags": [
+      "ラーメン",
+      "とんこつ",
+      "黒マー油",
+      "カジュアル"
+    ],
+    "hours": "毎日 11:00-22:30",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "menya-kokoro-plaza-singapura",
+    "name": "Menya Kokoro (Plaza Singapura)",
+    "name_ja": "麺屋こころ プラザシンガプーラ店",
+    "area": "Orchard",
+    "address": "68 Orchard Road, #B2-53, Plaza Singapura, Singapore 238839",
+    "phone": null,
+    "website": "https://www.menya-kokoro.com/",
+    "description": "東京発のまぜそば専門チェーン。汁なしの台湾まぜそばが看板。3店舗展開。",
+    "tags": [
+      "まぜそば",
+      "ラーメン",
+      "カジュアル",
+      "複数店舗"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "torikami-duxton",
+    "name": "Torikami",
+    "name_ja": "鳥神",
+    "area": "Duxton",
+    "address": "34/35 Duxton Road, Singapore 089498",
+    "phone": "+6590221423",
+    "website": "https://www.sgtorikami.com/",
+    "description": "2025年オープンの焼き鳥おまかせ。日本最難関の焼き鳥店で修業したシェフが一本一本丁寧に焼き上げる。",
+    "tags": [
+      "焼き鳥",
+      "おまかせ",
+      "要予約"
+    ],
+    "hours": "月〜日: 17:00-23:00（木休）",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "aburiya-robertson-quay",
+    "name": "Aburiya",
+    "name_ja": "あぶりや",
+    "area": "Robertson Quay",
+    "address": "60 Robertson Quay, #01-03, The Quayside, Singapore 238252",
+    "phone": "+6567354862",
+    "website": "https://www.aburiya.com.sg/",
+    "description": "プレミアム和牛焼肉の専門店。Robertson Quayの川沿い。最高品質の和牛を炭火で楽しめる。",
+    "tags": [
+      "焼肉",
+      "和牛",
+      "予約推奨"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "hanare-takashimaya",
+    "name": "Hanare by Takayama",
+    "name_ja": "はなれ 高山",
+    "area": "Orchard",
+    "address": "391 Orchard Road, #03-07, Takashimaya, Singapore 238872",
+    "phone": "+6582989369",
+    "website": "https://hanare.com.sg/",
+    "description": "シンガポール唯一の釜飯専門レストラン。季節の食材を使った釜飯を一つずつ炊き上げる。",
+    "tags": [
+      "釜飯",
+      "和食",
+      "予約可"
+    ],
+    "hours": "毎日 11:30-22:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sushi-masa-kisetsu",
+    "name": "Sushi Masa by Ki-setsu",
+    "name_ja": "鮨まさ 季節",
+    "area": "Somerset",
+    "address": "5 Koek Road, #06-03, Cuppage Plaza, Singapore 228796",
+    "phone": "+6597525851",
+    "website": "https://kisetsu.com.sg/",
+    "description": "8席限定のおまかせ鮨。季節のネタを使った繊細なコース。",
+    "tags": [
+      "おまかせ",
+      "寿司",
+      "要予約",
+      "高級"
+    ],
+    "hours": "火〜土: 19:00-（月休）",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ishinomaki-grill-sake",
+    "name": "Ishinomaki Grill & Sake",
+    "name_ja": "石巻グリル＆酒",
+    "area": "Orchard",
+    "address": "390 Orchard Road, #B1-02/02A/03, Palais Renaissance, Singapore 238871",
+    "phone": null,
+    "website": "https://ishinomaki.com.sg/",
+    "description": "炉端焼き・鉄板焼き・刺身と厳選日本酒のペアリングが楽しめる。",
+    "tags": [
+      "炉端焼き",
+      "鉄板焼き",
+      "日本酒",
+      "予約可"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ginkyo-holland-village",
+    "name": "Ginkyo by Kinki",
+    "name_ja": "銀杏 by Kinki",
+    "area": "Holland Village",
+    "address": "7 Holland Village Way, #03-01 to 04, One Holland Village, Singapore 275748",
+    "phone": "+6593377451",
+    "website": "https://www.ginkyo.sg/",
+    "description": "モダンジャパニーズビストロ。伝統的な和食に現代的アレンジを加えた料理とカクテル。",
+    "tags": [
+      "モダン和食",
+      "ビストロ",
+      "カクテル",
+      "予約可"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "lilyan-soba-boat-quay",
+    "name": "LILYAN",
+    "name_ja": "リリアン",
+    "area": "Boat Quay",
+    "address": "38 Circular Road, Singapore 049394",
+    "phone": null,
+    "website": null,
+    "description": "東京で有名な蕎麦店の海外1号店。100%蕎麦粉の十割蕎麦を毎日手打ちで提供。S$12++から。",
+    "tags": [
+      "蕎麦",
+      "手打ち",
+      "カジュアル"
+    ],
+    "hours": "日〜木: 11:00-21:30 / 金土: 11:00-22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "kyo-komachi-vivocity",
+    "name": "Kyo Komachi",
+    "name_ja": "京小町",
+    "area": "HarbourFront",
+    "address": "1 Harbourfront Walk, #01-99, VivoCity, Singapore 098585",
+    "phone": "+6562584241",
+    "website": null,
+    "description": "群馬県のひもかわうどん専門店。幅広の平打ちうどんがTikTokで話題。カレーうどん等も充実。",
+    "tags": [
+      "うどん",
+      "ひもかわ",
+      "カジュアル"
+    ],
+    "hours": "毎日 11:00-22:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ajiya-okonomiyaki",
+    "name": "Ajiya Okonomiyaki Restaurant",
+    "name_ja": "味家お好み焼き",
+    "area": "Beauty World",
+    "address": "104 Jalan Jurong Kechil, Singapore 598603",
+    "phone": "+6564633461",
+    "website": null,
+    "description": "大阪スタイルのDIYお好み焼き専門店。鉄板で自分で焼くスタイル。シンガポールでは珍しい専門レストラン。",
+    "tags": [
+      "お好み焼き",
+      "DIY",
+      "カジュアル"
+    ],
+    "hours": "火〜日: 12:00-14:30, 17:30-21:30",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "yorimichi-yakitori",
+    "name": "Yorimichi Yakitori",
+    "name_ja": "寄り道焼き鳥",
+    "area": "Beach Road",
+    "address": "6001 Beach Road, #01-02, Golden Mile Tower, Singapore 199589",
+    "phone": null,
+    "website": null,
+    "description": "Golden Mile Tower内の隠れ家的焼き鳥居酒屋。昭和風の空間で炭火焼き鳥と日本酒を楽しめる。",
+    "tags": [
+      "焼き鳥",
+      "居酒屋",
+      "隠れ家"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "bincho-tiong-bahru",
+    "name": "Bincho at Hua Bee",
+    "name_ja": "備長",
+    "area": "Tiong Bahru",
+    "address": "78 Moh Guan Terrace, #01-19, Singapore 162078",
+    "phone": null,
+    "website": "https://bincho.com.sg/",
+    "description": "大阪の焼き鳥屋に着想を得たスピークイージースタイルの焼き鳥バー。90年以上の歴史を持つコーヒーショップ内。",
+    "tags": [
+      "焼き鳥",
+      "スピークイージー",
+      "バー"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "kan-sushi-robertson-quay",
+    "name": "Kan Sushi (Robertson Quay)",
+    "name_ja": "燗 鮨 ロバートソンキー店",
+    "area": "Robertson Quay",
+    "address": "Robertson Quay, Singapore",
+    "phone": null,
+    "website": "https://kansushi.group/pages/kan-sushi-robertson-quay",
+    "description": "週3回日本から空輸される魚介を使ったプレミアムおまかせと海鮮丼を提供。",
+    "tags": [
+      "寿司",
+      "おまかせ",
+      "海鮮丼",
+      "予約可"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "yakitori-one-suntec",
+    "name": "Yakitori One",
+    "name_ja": "鳥萬",
+    "area": "Suntec City",
+    "address": "Suntec City, Singapore",
+    "phone": null,
+    "website": null,
+    "description": "北京で人気の焼き鳥レストランの海外初出店。鶏の各部位を使った焼き鳥。2025年オープン。",
+    "tags": [
+      "焼き鳥",
+      "専門店",
+      "予約可"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

@@ -8,7 +8,12 @@
     "phone": "+6565926100",
     "website": "https://www.tokiomarine.com/asia/en/get-in-touch.html",
     "description": "日本最大手の損害保険会社のシンガポール法人。自動車保険・住宅保険・旅行保険・傷害保険・法人向け保険を提供。日本語対応可能なスタッフが在籍。",
-    "tags": ["日本語対応", "損害保険", "自動車保険", "法人保険"],
+    "tags": [
+      "日本語対応",
+      "損害保険",
+      "自動車保険",
+      "法人保険"
+    ],
     "hours": "月〜金: 8:45-17:45（土日祝休）",
     "last_verified": "2026-03-26",
     "status": "verified",
@@ -23,7 +28,12 @@
     "phone": "+6564616555",
     "website": "https://www.sompo.com.sg/",
     "description": "損保ジャパンのシンガポール法人。法人・個人向けの損害保険を提供。自動車保険・火災保険・傷害保険・賠償責任保険など幅広い商品ラインナップ。日本語でのサポート可能。",
-    "tags": ["日本語対応", "損害保険", "自動車保険", "法人保険"],
+    "tags": [
+      "日本語対応",
+      "損害保険",
+      "自動車保険",
+      "法人保険"
+    ],
     "hours": "月〜金: 8:30-17:30（土日祝休）",
     "last_verified": "2026-03-26",
     "status": "verified",
@@ -38,7 +48,12 @@
     "phone": "+6564382850",
     "website": "https://www.nissay.co.jp/global/",
     "description": "日本最大の生命保険会社のシンガポール拠点。アジア太平洋地域の生命保険・資産運用事業を展開。日系企業の駐在員向け福利厚生プランの設計・管理にも対応。",
-    "tags": ["日本語対応", "生命保険", "資産運用", "法人対応"],
+    "tags": [
+      "日本語対応",
+      "生命保険",
+      "資産運用",
+      "法人対応"
+    ],
     "hours": "月〜金: 9:00-18:00（土日祝休）",
     "last_verified": "2026-03-26",
     "status": "unverified",
@@ -53,7 +68,12 @@
     "phone": "+6562209644",
     "website": "https://www.ms-ins.com/english/",
     "description": "三井住友海上のシンガポール法人。法人向け損害保険（火災・賠償責任・貨物・労災）を中心に、駐在員向けの各種保険も取り扱い。日本語での相談可能。",
-    "tags": ["日本語対応", "損害保険", "法人保険", "駐在員向け"],
+    "tags": [
+      "日本語対応",
+      "損害保険",
+      "法人保険",
+      "駐在員向け"
+    ],
     "hours": "月〜金: 9:00-17:30（土日祝休）",
     "last_verified": "2026-03-26",
     "status": "unverified",
@@ -68,7 +88,12 @@
     "phone": "+6562213331",
     "website": "https://www.aioinissaydowa.com.sg/",
     "description": "MS&ADインシュアランスグループの一員であるあいおいニッセイ同和損保のシンガポール法人。法人向け損害保険（火災・賠償責任・貨物・自動車）を中心に、日系企業の駐在員向けの各種保険も取り扱い。",
-    "tags": ["日本語対応", "損害保険", "法人保険", "駐在員向け"],
+    "tags": [
+      "日本語対応",
+      "損害保険",
+      "法人保険",
+      "駐在員向け"
+    ],
     "hours": "月〜金: 9:00-17:30（土日祝休）",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -83,8 +108,52 @@
     "phone": null,
     "website": "https://www.kyoritsu-ins.co.jp/english/",
     "description": "日系保険ブローカー共立のシンガポール法人。2011年設立。日系企業向けに損害保険のブローカーサービスを提供。保険の設計・手配・クレーム対応まで日本語でワンストップサポート。",
-    "tags": ["日本語対応", "保険ブローカー", "法人保険"],
+    "tags": [
+      "日本語対応",
+      "保険ブローカー",
+      "法人保険"
+    ],
     "hours": "月〜金: 9:00-17:30（土日祝休）",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "taiyo-life-singapore",
+    "name": "T&D Financial Life Insurance (Singapore)",
+    "name_ja": "大同生命（T&D） シンガポール",
+    "area": "Raffles Place",
+    "address": "1 Raffles Place, #14-02, One Raffles Place Tower 2, Singapore 048616",
+    "phone": null,
+    "website": "https://www.td-holdings.co.jp/en/",
+    "description": "T&Dホールディングスグループ（大同生命・太陽生命）のシンガポール拠点。日系企業・駐在員向けの生命保険・団体保険を提供。",
+    "tags": [
+      "日本語対応",
+      "生命保険",
+      "法人対応",
+      "福利厚生"
+    ],
+    "hours": "月〜金: 9:00-18:00（土日祝休）",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "marsh-japan-desk-singapore",
+    "name": "Marsh (Japan Practice Singapore)",
+    "name_ja": "マーシュ ジャパンプラクティス シンガポール",
+    "area": "Raffles Place",
+    "address": "1 Raffles Quay, #25-00, One Raffles Quay North Tower, Singapore 048583",
+    "phone": null,
+    "website": "https://www.marsh.com/",
+    "description": "世界最大の保険ブローカーMarshのシンガポール拠点内Japan Practice。日系企業向けに損害保険・リスクコンサルティングを日本語で提供。",
+    "tags": [
+      "日本語対応",
+      "保険ブローカー",
+      "リスクコンサルティング",
+      "法人対応"
+    ],
+    "hours": "月〜金: 9:00-18:00（土日祝休）",
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "website"

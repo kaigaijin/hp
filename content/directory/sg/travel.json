@@ -117,5 +117,66 @@
     "status": "unverified",
     "source": "google_maps",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "iace-travel-singapore",
+    "name": "IACE Travel Singapore",
+    "name_ja": "アイエスイー・トラベル シンガポール",
+    "area": "Orchard",
+    "address": "14 Scotts Road, #02-54, Far East Plaza, Singapore 228213",
+    "phone": "+6567329122",
+    "website": "https://www.iace-singapore.com/",
+    "description": "日系の旅行代理店。日本への一時帰国航空券・アジア各国への旅行・ホテル予約を日本語で対応。法人出張にも対応。",
+    "tags": [
+      "日本語対応",
+      "航空券",
+      "ツアー",
+      "ホテル予約",
+      "法人出張"
+    ],
+    "hours": "月〜金: 9:00-18:00 / 土: 9:00-13:00（日祝休）",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "japan-airlines-sg",
+    "name": "Japan Airlines (Singapore Office)",
+    "name_ja": "日本航空 シンガポール支店",
+    "area": "Orchard",
+    "address": "1 Scotts Road, #21-08, Shaw Centre, Singapore 228208",
+    "phone": "+6562210522",
+    "website": "https://www.jal.co.jp/",
+    "description": "日本航空のシンガポール支店。シンガポール⇔日本の直行便（成田・羽田）を運航。航空券の予約・変更・マイレージに日本語で対応。",
+    "tags": [
+      "日本語対応",
+      "航空会社",
+      "直行便",
+      "マイレージ"
+    ],
+    "hours": "月〜金: 9:00-17:30（土日祝休）",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "ana-singapore-office",
+    "name": "All Nippon Airways (Singapore Office)",
+    "name_ja": "全日本空輸 シンガポール支店",
+    "area": "Orchard",
+    "address": "1 Scotts Road, Shaw Centre, Singapore 228208",
+    "phone": "+6568731722",
+    "website": "https://www.ana.co.jp/",
+    "description": "ANAのシンガポール支店。シンガポール⇔日本の直行便（羽田・成田）を運航。航空券の予約・変更・マイレージに日本語で対応。",
+    "tags": [
+      "日本語対応",
+      "航空会社",
+      "直行便",
+      "マイレージ"
+    ],
+    "hours": "月〜金: 9:00-17:30（土日祝休）",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
   }
 ]

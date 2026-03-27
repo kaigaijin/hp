@@ -8,7 +8,12 @@
     "phone": "+6565954640",
     "website": "https://www.yamatosingapore.com/",
     "description": "クロネコヤマトのシンガポール法人。国内引越し・海外引越し・国際宅配便・貨物輸送をワンストップで提供。日本語での引越し相談・見積もりが可能。丁寧な梱包と配送が日本人に好評。",
-    "tags": ["日本語対応", "国内引越し", "海外引越し", "国際宅配便"],
+    "tags": [
+      "日本語対応",
+      "国内引越し",
+      "海外引越し",
+      "国際宅配便"
+    ],
     "hours": "月〜金: 9:00-18:00（土日祝休）",
     "last_verified": "2026-03-26",
     "status": "verified",
@@ -23,7 +28,12 @@
     "phone": "+6565658177",
     "website": "https://www.nipponexpress.com/moving/sg-en/",
     "description": "日本通運のシンガポール法人。海外引越しのドアツードアサービスを提供。シンガポールから日本、日本からシンガポール、シンガポールから第三国への引越しに対応。全工程を日通が一貫管理。",
-    "tags": ["日本語対応", "海外引越し", "ドアツードア", "法人対応"],
+    "tags": [
+      "日本語対応",
+      "海外引越し",
+      "ドアツードア",
+      "法人対応"
+    ],
     "hours": "月〜金: 9:00-18:00（土日祝休）",
     "last_verified": "2026-03-26",
     "status": "verified",
@@ -38,7 +48,12 @@
     "phone": "+6568619488",
     "website": "https://www.crownrelo.com/japan/en-jp",
     "description": "世界60カ国以上に拠点を持つ国際引越し・リロケーション会社。日本語対応チームがあり、引越し計画・梱包・輸送・現地での開梱まで一貫サポート。法人契約での一括管理にも対応。",
-    "tags": ["日本語対応", "国際引越し", "リロケーション", "法人対応"],
+    "tags": [
+      "日本語対応",
+      "国際引越し",
+      "リロケーション",
+      "法人対応"
+    ],
     "hours": "月〜金: 8:30-17:30（土日祝休）",
     "last_verified": "2026-03-26",
     "status": "unverified",
@@ -53,7 +68,12 @@
     "phone": "+6562618116",
     "website": "https://asiantigersgroup.com/singapore/",
     "description": "45年以上の実績を持つ国際引越し・リロケーション会社。年間16,000以上の家族の引越しを手がける。国際引越し・国内引越し・荷物保管・保険を提供。日系企業の法人契約にも対応。",
-    "tags": ["国際引越し", "リロケーション", "法人対応", "保管サービス"],
+    "tags": [
+      "国際引越し",
+      "リロケーション",
+      "法人対応",
+      "保管サービス"
+    ],
     "hours": "月〜金: 8:30-17:30（土日祝休）",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -68,8 +88,72 @@
     "phone": "+6567561551",
     "website": "https://www.santaferelo.com/",
     "description": "世界48カ国に拠点を持つ国際リロケーション・引越し会社。日本語対応スタッフが在籍し、シンガポール⇔日本の引越しをワンストップでサポート。荷造り・輸送・通関・配送まで一貫対応。法人リロケーションの実績も豊富。",
-    "tags": ["日本語対応", "国際引越し", "リロケーション", "法人対応"],
+    "tags": [
+      "日本語対応",
+      "国際引越し",
+      "リロケーション",
+      "法人対応"
+    ],
     "hours": "月〜金: 8:30-17:30（土日祝休）",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "allied-moving-singapore",
+    "name": "Allied Moving Services Singapore",
+    "name_ja": "アライドムービングサービス",
+    "area": "Shenton Way",
+    "address": "4 Shenton Way, #29-02, SGX Centre 2, Singapore 068807",
+    "phone": "+6568624700",
+    "website": "https://www.allied.com/sg/",
+    "description": "世界40カ国以上に600拠点を持つ国際引越し会社のシンガポール法人。国際引越し・国内引越し・荷物保管に対応。年間50,000件以上の引越し実績。",
+    "tags": [
+      "国際引越し",
+      "リロケーション",
+      "法人対応",
+      "保管サービス"
+    ],
+    "hours": "月〜金: 9:00-18:00（土日祝休）",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "sagawa-express-singapore",
+    "name": "Sagawa Express Singapore",
+    "name_ja": "佐川急便 シンガポール",
+    "area": "Changi",
+    "address": "30 Loyang Way, #01-07, Singapore 508769",
+    "phone": "+6565462833",
+    "website": "https://www.sagawa-exp.co.jp/english/",
+    "description": "佐川急便のシンガポール法人。国際宅配便・小口貨物輸送を提供。日本への荷物発送に対応。",
+    "tags": [
+      "日本語対応",
+      "国際宅配便",
+      "貨物輸送",
+      "法人対応"
+    ],
+    "hours": "月〜金: 9:00-18:00（土日祝休）",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "classic-moving-singapore",
+    "name": "Classic Moving",
+    "name_ja": "クラシックムービング",
+    "area": "Changi",
+    "address": "Singapore",
+    "phone": null,
+    "website": "https://classicmoving.asia/",
+    "description": "シンガポール⇔日本の引越しに対応する国際引越し会社。東京・大阪・京都・名古屋・横浜など日本の主要都市へのドアツードアサービスを提供。",
+    "tags": [
+      "国際引越し",
+      "ドアツードア",
+      "日本特化"
+    ],
+    "hours": "月〜金: 9:00-18:00（土日祝休）",
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "website"

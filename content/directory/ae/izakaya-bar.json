@@ -301,5 +301,81 @@
     "status": "unverified",
     "source": "google_maps",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "roka-difc-bar",
+    "name": "ROKA DIFC Bar",
+    "name_ja": "ロカ DIFC バー",
+    "area": "DIFC",
+    "address": "DIFC, Dubai",
+    "phone": null,
+    "website": "https://www.rokarestaurant.com/",
+    "description": "ロンドン発のROKAのDIFC店併設バー。日本のウイスキーカクテルとロバタヤキのおつまみを提供。",
+    "tags": [
+      "バー",
+      "炉端焼き",
+      "カクテル"
+    ],
+    "hours": "18:00〜翌2:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "zuma-dubai-bar",
+    "name": "Zuma Dubai Bar",
+    "name_ja": "ズマ ドバイ バー",
+    "area": "DIFC",
+    "address": "Podium Level, Gate Village 06, DIFC, Dubai",
+    "phone": null,
+    "website": "https://www.zumarestaurant.com/en/dubai",
+    "description": "World's 50 Best Restaurants MENA 2位のZuma併設バー。日本のカクテルと居酒屋スタイルのおつまみを洗練された空間で。",
+    "tags": [
+      "バー",
+      "カクテル",
+      "高級"
+    ],
+    "hours": "18:00〜翌3:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "3fils-bar-jumeirah",
+    "name": "3Fils Bar",
+    "name_ja": "3フィルス バー",
+    "area": "Jumeirah",
+    "address": "Jumeirah Fishing Harbour, Dubai",
+    "phone": null,
+    "website": "https://3fils.com/",
+    "description": "ジュメイラ漁港の人気レストラン3Filsのバーエリア。カジュアルにカクテルと寿司を楽しめる。",
+    "tags": [
+      "バー",
+      "カクテル",
+      "漁港"
+    ],
+    "hours": "17:00〜翌1:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "netsu-dubai-izakaya",
+    "name": "Netsu Izakaya",
+    "name_ja": "熱 居酒屋 ドバイ",
+    "area": "Palm Jumeirah",
+    "address": "Palm Jumeirah, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "パームジュメイラの高級居酒屋。炭火焼きと日本酒ペアリングが特徴。ビーチリゾートの雰囲気。",
+    "tags": [
+      "居酒屋",
+      "炭火焼き",
+      "リゾート"
+    ],
+    "hours": "18:00〜23:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
   }
 ]

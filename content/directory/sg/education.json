@@ -255,5 +255,64 @@
     "status": "unverified",
     "source": "google_maps",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "waseda-shibuya-singapore",
+    "name": "Waseda Shibuya Senior High School (Singapore)",
+    "name_ja": "早稲田大学系属 早稲田渋谷シンガポール校",
+    "area": "West Coast",
+    "address": "57 West Coast Road, Singapore 127366",
+    "phone": "+6567732673",
+    "website": "https://www.waseda-shibuya.edu.sg/",
+    "description": "早稲田大学の系属校としてシンガポールに設立された日本の高等学校。文部科学省認定の在外教育施設。卒業生の多くが早稲田大学に推薦入学。",
+    "tags": [
+      "高等学校",
+      "早稲田大学系属",
+      "文部科学省認定",
+      "全日制"
+    ],
+    "hours": "学校の授業時間による",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "ena-singapore",
+    "name": "ena Singapore",
+    "name_ja": "エナシンガポール",
+    "area": "Orchard",
+    "address": "19 Tanglin Road, #04-05/06, Tanglin Shopping Centre, Singapore 247909",
+    "phone": "+6567365400",
+    "website": "https://www.ena-sg.com/",
+    "description": "日本の大手進学塾「ena」のシンガポール校。帰国子女入試・国内中学受験・高校受験対策を提供。",
+    "tags": [
+      "進学塾",
+      "帰国子女入試",
+      "中学受験",
+      "高校受験"
+    ],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "nichinoken-singapore",
+    "name": "Nichinoken Singapore",
+    "name_ja": "日能研 シンガポール",
+    "area": "Orchard",
+    "address": "19 Tanglin Road, Tanglin Shopping Centre, Singapore 247909",
+    "phone": null,
+    "website": "https://www.nichinoken.co.jp/",
+    "description": "日本の大手中学受験塾「日能研」のシンガポール教室。日本の中学受験に特化したカリキュラムで小学生向けに授業を提供。",
+    "tags": [
+      "中学受験塾",
+      "日本語対応",
+      "帰国子女向け"
+    ],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
   }
 ]

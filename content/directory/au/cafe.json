@@ -207,5 +207,61 @@
     "status": "unverified",
     "source": "google_maps",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "azuki-bakery-wolli-creek",
+    "name": "Azuki Bakery Wolli Creek",
+    "name_ja": "あずきベーカリー ウォリクリーク",
+    "area": "Wolli Creek",
+    "address": "Wolli Creek, NSW 2205",
+    "phone": null,
+    "website": "https://azukibakery.com.au/",
+    "description": "あずきベーカリーの2号店。日本風のケーキ・ペストリー・パンとコーヒーを提供。Newtown本店と同じクオリティ。",
+    "tags": [
+      "ベーカリー",
+      "カフェ",
+      "日本風スイーツ"
+    ],
+    "hours": "水〜日 9:00〜17:00（月火休）",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "tsujiri-chatswood",
+    "name": "Tsujiri Chatswood",
+    "name_ja": "辻利 チャッツウッド",
+    "area": "Chatswood",
+    "address": "Chatswood, NSW",
+    "phone": null,
+    "website": "https://www.tsujiri.com.au/",
+    "description": "京都発の抹茶専門カフェのチャッツウッド店。宇治抹茶ラテ・抹茶ソフトクリームが人気。",
+    "tags": [
+      "抹茶",
+      "京都発",
+      "ソフトクリーム"
+    ],
+    "hours": "毎日 10:00〜21:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "keki-modern-cakes-cbd",
+    "name": "Keki Modern Cakes CBD",
+    "name_ja": "ケキ CBD",
+    "area": "Melbourne CBD",
+    "address": "Melbourne CBD, VIC",
+    "phone": null,
+    "website": "https://kekicakes.com.au/",
+    "description": "日本式スフレパンケーキの別店舗。ふわふわの食感が人気。テイクアウトも可能。",
+    "tags": [
+      "スフレパンケーキ",
+      "日本式ケーキ"
+    ],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
   }
 ]

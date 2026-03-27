@@ -284,5 +284,66 @@
     "status": "unverified",
     "source": "google_maps",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "don-don-donki-great-world",
+    "name": "Don Don Donki (Great World)",
+    "name_ja": "ドン・ドン・ドンキ グレートワールド",
+    "area": "River Valley",
+    "address": "1 Kim Seng Promenade, #B1-122/123, Great World, Singapore 237994",
+    "phone": null,
+    "website": "https://www.dondondonki.com/sg/",
+    "description": "ドン・キホーテのシンガポール版・Great World店。日本の食材・生鮮食品・惣菜・お菓子・日用品を幅広く取り揃え。深夜営業。",
+    "tags": [
+      "日本食材",
+      "生鮮食品",
+      "雑貨",
+      "深夜営業"
+    ],
+    "hours": "毎日 9:00-25:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "don-don-donki-jewel",
+    "name": "Don Don Donki (Jewel Changi Airport)",
+    "name_ja": "ドン・ドン・ドンキ ジュエル・チャンギ",
+    "area": "Changi",
+    "address": "78 Airport Boulevard, #B2-234/235, Jewel Changi Airport, Singapore 819666",
+    "phone": null,
+    "website": "https://www.dondondonki.com/sg/",
+    "description": "ドン・ドン・ドンキのJewel Changi Airport店。一時帰国前の日本食材の買い出しやお土産購入に便利。深夜営業で遅い便の利用時にも対応。",
+    "tags": [
+      "日本食材",
+      "生鮮食品",
+      "雑貨",
+      "深夜営業",
+      "空港"
+    ],
+    "hours": "毎日 10:00-25:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "kuriya-great-world",
+    "name": "Kuriya Japanese Market (Great World)",
+    "name_ja": "くりや グレートワールド",
+    "area": "River Valley",
+    "address": "1 Kim Seng Promenade, #B1-140, Great World, Singapore 237994",
+    "phone": "+6563858347",
+    "website": "https://www.kuriyajapanesemarket.com.sg/",
+    "description": "日本食マーケット「くりや」のGreat World店。週3回日本から空輸される新鮮な鮮魚・刺身が看板商品。日本酒も豊富。",
+    "tags": [
+      "日本食材",
+      "鮮魚",
+      "空輸",
+      "日本酒"
+    ],
+    "hours": "10:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
   }
 ]

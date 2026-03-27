@@ -361,5 +361,157 @@
     "status": "unverified",
     "source": "google_maps",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "tori-izakaya-wan-chai",
+    "name": "Tori Izakaya",
+    "name_ja": "鳥居酒屋",
+    "area": "Wan Chai",
+    "address": "Wan Chai, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "湾仔の焼き鳥居酒屋。備長炭で焼く本格焼き鳥とビール・日本酒を提供。カジュアルな雰囲気。",
+    "tags": [
+      "焼き鳥",
+      "居酒屋",
+      "湾仔"
+    ],
+    "hours": "17:30〜23:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "zoku-wan-chai",
+    "name": "Zoku Wan Chai",
+    "name_ja": "ゾク 湾仔",
+    "area": "Wan Chai",
+    "address": "The Hari Hong Kong, 330 Lockhart Road, Wan Chai, Hong Kong",
+    "phone": null,
+    "website": "https://www.thehari.com/hong-kong/the-hari-hotel-hong-kong-eat-drink/zoku/",
+    "description": "The Hariホテル内の日本料理レストラン。居酒屋スタイルのシェアリングメニューとカクテルを洗練された空間で提供。",
+    "tags": [
+      "居酒屋",
+      "ホテル内",
+      "カクテル"
+    ],
+    "hours": "18:00〜23:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "genki-ippai-tst-bar",
+    "name": "Genki Ippai Bar",
+    "name_ja": "元気いっぱい バー",
+    "area": "Tsim Sha Tsui",
+    "address": "Shop 406, 4/F, Mira Place One, 132 Nathan Road, Tsim Sha Tsui, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "尖沙咀の長年愛される焼き鳥居酒屋。手頃な価格で高品質な焼き鳥を安定的に提供。日本酒も充実。",
+    "tags": [
+      "焼き鳥",
+      "居酒屋",
+      "コスパ"
+    ],
+    "hours": "12:00〜14:30 / 18:00〜23:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "gyu-kaku-hk-causeway-bay",
+    "name": "Gyu-Kaku Causeway Bay",
+    "name_ja": "牛角 銅鑼湾",
+    "area": "Causeway Bay",
+    "address": "Causeway Bay, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "日本の焼肉チェーン牛角の銅鑼湾店。食べ放題コースとアラカルトの両方に対応。",
+    "tags": [
+      "焼肉",
+      "食べ放題",
+      "日本発チェーン"
+    ],
+    "hours": "11:30〜24:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "gyu-kaku-hk-mong-kok",
+    "name": "Gyu-Kaku Mong Kok",
+    "name_ja": "牛角 旺角",
+    "area": "Mong Kok",
+    "address": "Mong Kok, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "牛角の旺角店。賑やかなエリアで日本式焼肉を楽しめる。食べ放題プランが人気。",
+    "tags": [
+      "焼肉",
+      "食べ放題",
+      "日本発チェーン"
+    ],
+    "hours": "11:30〜24:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "yakiniku-like-hk-causeway-bay",
+    "name": "Yakiniku Like Causeway Bay",
+    "name_ja": "焼肉ライク 銅鑼湾",
+    "area": "Causeway Bay",
+    "address": "Causeway Bay, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "一人焼肉専門チェーンの銅鑼湾店。タブレット注文で気軽に一人焼肉が楽しめる。",
+    "tags": [
+      "焼肉",
+      "一人焼肉",
+      "日本発チェーン"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "izakaya-yardbird-sheung-wan",
+    "name": "Yardbird",
+    "name_ja": "ヤードバード",
+    "area": "Sheung Wan",
+    "address": "33-35 Bridges Street, Sheung Wan, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "上環の焼き鳥バー。備長炭で焼く創作焼き鳥とカクテルが人気。予約不可で行列ができる有名店。",
+    "tags": [
+      "焼き鳥",
+      "バー",
+      "予約不可"
+    ],
+    "hours": "18:00〜24:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sukiya-hk-mong-kok",
+    "name": "Sukiya Mong Kok",
+    "name_ja": "すき家 旺角",
+    "area": "Mong Kok",
+    "address": "Mong Kok, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "日本のすき家の旺角店。牛丼・カレー・うどんなどを手頃な価格で楽しめる。",
+    "tags": [
+      "牛丼",
+      "日本発チェーン",
+      "ファストフード"
+    ],
+    "hours": "24時間営業",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
   }
 ]

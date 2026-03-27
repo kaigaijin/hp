@@ -233,5 +233,50 @@
     "status": "unverified",
     "source": "google_maps",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "villa-market-sukhumvit",
+    "name": "Villa Market",
+    "name_ja": "ヴィラマーケット",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Bangkok（市内に複数店舗）",
+    "phone": null,
+    "website": "https://www.villamarket.com/",
+    "description": "タイの輸入食品に強いプレミアムスーパーマーケットチェーン。日本食材・欧米食材が充実し、スクンビット沿いに複数店舗を展開。フジスーパーが遠い場合の代替として便利。ワインのセレクションも豊富。",
+    "tags": ["輸入食材", "日本食材", "プレミアム", "チェーン"],
+    "hours": "店舗により異なる",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "maxvalu-tanjai-sukhumvit49",
+    "name": "MaxValu Tanjai Sukhumvit 49",
+    "name_ja": "マックスバリュ タンジャイ スクンビット49店",
+    "area": "Phrom Phong",
+    "address": "Soi Sukhumvit 49, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": "https://www.aeonthailand.co.th/",
+    "description": "イオングループが運営するスーパーマーケット。フジスーパー4号店近くに位置し、日本の食品・弁当・惣菜も取り扱い。24時間営業で深夜の買い物にも対応。",
+    "tags": ["日本食材", "24時間営業", "イオングループ"],
+    "hours": "24時間",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "don-don-donki-mrt-rama9",
+    "name": "Don Don Donki (CentralPlaza Grand Rama 9)",
+    "name_ja": "ドン・ドン・ドンキ セントラルプラザ グランド ラマ9店",
+    "area": "Rama 9",
+    "address": "CentralPlaza Grand Rama 9, 9/9 Rama IX Rd, Huai Khwang, Bangkok 10310",
+    "phone": null,
+    "website": null,
+    "description": "ドン・キホーテのタイ店舗。CentralPlaza Grand Rama 9内に出店し、日本の食品・菓子・化粧品・日用品が豊富。MRTプラーム9駅直結でラマ9エリアの日本人駐在員に便利。",
+    "tags": ["日本食材", "日用品", "駅直結"],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]
