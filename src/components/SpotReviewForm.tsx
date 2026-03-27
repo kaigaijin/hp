@@ -119,26 +119,32 @@ export default function SpotReviewForm({
         }),
       });
       if (res.ok) {
-        // ローカルに反映
-        setReviews((prev) => [
-          {
-            id: crypto.randomUUID(),
-            reviewer_name: reviewerName,
-            reviewer_id: user ? user.id : getLocalReviewerId(),
-            rating,
-            comment: comment.trim() || null,
-            created_at: new Date().toISOString(),
-          },
-          ...prev,
-        ]);
+        // ローカルに即反映（APIキャッシュに依存しない）
+        const newReview: ReviewDisplay = {
+          id: crypto.randomUUID(),
+          reviewer_name: reviewerName,
+          reviewer_id: user ? user.id : getLocalReviewerId(),
+          rating,
+          comment: comment.trim() || null,
+          created_at: new Date().toISOString(),
+        };
+        const updatedReviews = [newReview, ...reviews];
+        setReviews(updatedReviews);
+        // スコアもローカルで再計算
+        const totalRating = updatedReviews.reduce((sum, r) => sum + r.rating, 0);
+        const avg = totalRating / updatedReviews.length;
+        setScore({
+          raw_average: avg,
+          weighted_score: avg,
+          review_count: updatedReviews.length,
+          display: updatedReviews.length >= 1,
+        });
         setComment("");
         setRating(0);
         setShowForm(false);
         setSubmitted(true);
         setAlreadyReviewed(true);
         setTimeout(() => setSubmitted(false), 3000);
-        // スコアを再取得
-        fetchData();
       } else if (res.status === 409) {
         setError("このスポットには既にレビューを投稿済みです");
         setAlreadyReviewed(true);
@@ -239,18 +245,16 @@ export default function SpotReviewForm({
             </div>
 
             {/* 投稿者名表示 */}
-            <div>
-              <label className="text-xs text-stone-500 dark:text-stone-400 mb-1 block">
-                表示名
-              </label>
-              <p className="px-3 py-2 rounded-lg bg-stone-50 dark:bg-stone-900 text-sm text-stone-600 dark:text-stone-300 border border-stone-200 dark:border-stone-600">
+            <div className="flex items-center gap-2">
+              <span className="text-xs text-stone-400 dark:text-stone-500">投稿者:</span>
+              <span className="text-sm font-medium text-stone-600 dark:text-stone-300">
                 {reviewerName}
-                {!user && (
-                  <span className="ml-2 text-xs text-stone-400">
-                    （ログインするとニックネームで投稿できます）
-                  </span>
-                )}
-              </p>
+              </span>
+              {!user && (
+                <span className="text-xs text-stone-400">
+                  （ログインするとニックネームで投稿）
+                </span>
+              )}
             </div>
 
             {/* コメント */}
