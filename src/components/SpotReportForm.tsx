@@ -5,6 +5,21 @@ import { CheckCircle, XCircle, Pencil, Send, Loader2, ThumbsUp, ChevronDown, Che
 
 type ReportType = "visited" | "closed" | "correction";
 
+// スポットごとの「行った」済みフラグをlocalStorageで管理
+function getVisitedKey(country: string, category: string, slug: string) {
+  return `kaigaijin_visited_${country}_${category}_${slug}`;
+}
+
+function hasVisited(country: string, category: string, slug: string): boolean {
+  if (typeof window === "undefined") return false;
+  return localStorage.getItem(getVisitedKey(country, category, slug)) === "1";
+}
+
+function markVisited(country: string, category: string, slug: string) {
+  if (typeof window === "undefined") return;
+  localStorage.setItem(getVisitedKey(country, category, slug), "1");
+}
+
 export default function SpotReportForm({
   country,
   category,
@@ -22,6 +37,7 @@ export default function SpotReportForm({
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState("");
   const [visitedCount, setVisitedCount] = useState(0);
+  const [alreadyVisited, setAlreadyVisited] = useState(false);
   const [visitComments, setVisitComments] = useState<{ comment: string; created_at: string }[]>([]);
   const [showAllComments, setShowAllComments] = useState(false);
 
@@ -40,7 +56,8 @@ export default function SpotReportForm({
 
   useEffect(() => {
     fetchData();
-  }, [fetchData]);
+    setAlreadyVisited(hasVisited(country, category, spotSlug));
+  }, [fetchData, country, category, spotSlug]);
 
   async function handleSubmit(type: ReportType, body?: string) {
     setSubmitting(true);
@@ -67,6 +84,8 @@ export default function SpotReportForm({
               ...prev,
             ]);
           }
+          markVisited(country, category, spotSlug);
+          setAlreadyVisited(true);
           setComment("");
           setSubmitted(true);
           setTimeout(() => setSubmitted(false), 3000);
@@ -91,13 +110,13 @@ export default function SpotReportForm({
 
   return (
     <div className="bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700">
-      {/* 行ってきたセクション */}
+      {/* 行ったセクション */}
       <div className="p-5">
         <div className="flex items-center justify-between mb-3">
           <div className="flex items-center gap-2">
             <ThumbsUp size={16} className="text-stone-400 dark:text-stone-500" />
             <span className="text-sm font-semibold text-stone-700 dark:text-stone-200">
-              行ってきた
+              行った
             </span>
             {visitedCount > 0 && (
               <span className="text-xs text-green-600 dark:text-green-400 bg-green-50 dark:bg-green-900/30 px-2 py-0.5 rounded-full font-medium">
@@ -107,32 +126,40 @@ export default function SpotReportForm({
           </div>
         </div>
 
-        {/* コメント入力 + 送信（常時表示） */}
-        <form
-          onSubmit={(e) => {
-            e.preventDefault();
-            handleSubmit("visited", comment);
-          }}
-          className="flex gap-2"
-        >
-          <input
-            type="text"
-            value={comment}
-            onChange={(e) => setComment(e.target.value)}
-            placeholder="ひとことメモ（任意）"
-            maxLength={200}
-            disabled={submitting}
-            className="flex-1 px-3 py-2 rounded-lg border border-stone-200 dark:border-stone-600 bg-stone-50 dark:bg-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-green-500 placeholder:text-stone-400 disabled:opacity-50"
-          />
-          <button
-            type="submit"
-            disabled={submitting}
-            className="inline-flex items-center gap-1.5 px-4 py-2 bg-stone-700 dark:bg-stone-600 text-white text-sm font-medium rounded-lg hover:bg-stone-800 dark:hover:bg-stone-500 disabled:opacity-50 disabled:cursor-not-allowed transition-colors shrink-0 active:scale-95"
+        {alreadyVisited ? (
+          /* 送信済み */
+          <p className="flex items-center gap-2 px-4 py-2.5 text-stone-400 dark:text-stone-500 text-sm rounded-lg border border-stone-200 dark:border-stone-700">
+            <CheckCircle size={14} />
+            送信済み
+          </p>
+        ) : (
+          /* コメント入力 + 送信 */
+          <form
+            onSubmit={(e) => {
+              e.preventDefault();
+              handleSubmit("visited", comment);
+            }}
+            className="flex gap-2"
           >
-            {submitting ? <Loader2 size={14} className="animate-spin" /> : <ThumbsUp size={14} />}
-            送信
-          </button>
-        </form>
+            <input
+              type="text"
+              value={comment}
+              onChange={(e) => setComment(e.target.value)}
+              placeholder="ひとことメモ（任意）"
+              maxLength={200}
+              disabled={submitting}
+              className="flex-1 px-3 py-2 rounded-lg border border-stone-200 dark:border-stone-600 bg-stone-50 dark:bg-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-green-500 placeholder:text-stone-400 disabled:opacity-50"
+            />
+            <button
+              type="submit"
+              disabled={submitting}
+              className="inline-flex items-center gap-1.5 px-4 py-2 bg-stone-700 dark:bg-stone-600 text-white text-sm font-medium rounded-lg hover:bg-stone-800 dark:hover:bg-stone-500 disabled:opacity-50 disabled:cursor-not-allowed transition-colors shrink-0 active:scale-95"
+            >
+              {submitting ? <Loader2 size={14} className="animate-spin" /> : <ThumbsUp size={14} />}
+              行った
+            </button>
+          </form>
+        )}
 
         {/* 送信完了メッセージ */}
         {submitted && !reportType && (

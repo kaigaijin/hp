@@ -452,7 +452,7 @@ export default async function SpotDetailPage({
                 </div>
               </div>
 
-              {/* 行ってきたセクション（デスクトップ） */}
+              {/* 行ったセクション（デスクトップ） */}
               <div className="hidden lg:block">
                 <SpotReportForm
                   country={code}
