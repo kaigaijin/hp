@@ -39,6 +39,7 @@ function saveName(name: string) {
 
 type ReviewDisplay = {
   id: string;
+  reviewer_id?: string;
   reviewer_name: string;
   rating: number;
   comment: string | null;
@@ -60,9 +61,9 @@ export default function SpotReviewForm({
   const [reviews, setReviews] = useState<ReviewDisplay[]>([]);
   const [showAllReviews, setShowAllReviews] = useState(false);
   const [showForm, setShowForm] = useState(false);
+  const [alreadyReviewed, setAlreadyReviewed] = useState(false);
 
   // フォーム
-  const [name, setName] = useState("");
   const [rating, setRating] = useState(0);
   const [hoverRating, setHoverRating] = useState(0);
   const [comment, setComment] = useState("");
@@ -79,6 +80,12 @@ export default function SpotReviewForm({
         const data = await res.json();
         setScore(data.score);
         setReviews(data.reviews ?? []);
+        // 投稿済みチェック
+        const myId = getReviewerId();
+        const hasReviewed = (data.reviews ?? []).some(
+          (r: ReviewDisplay) => r.reviewer_id === myId
+        );
+        setAlreadyReviewed(hasReviewed);
       }
     } catch {}
   }, [country, category, spotSlug]);
@@ -87,18 +94,11 @@ export default function SpotReviewForm({
     fetchData();
   }, [fetchData]);
 
-  useEffect(() => {
-    setName(getSavedName());
-  }, []);
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (rating === 0) {
       setError("評価を選択してください");
-      return;
-    }
-    if (!name.trim()) {
-      setError("表示名を入力してください");
       return;
     }
 
@@ -113,18 +113,18 @@ export default function SpotReviewForm({
           category,
           spot_slug: spotSlug,
           reviewer_id: getReviewerId(),
-          reviewer_name: name.trim(),
+          reviewer_name: getSavedName() || "匿名",
           rating,
           comment: comment.trim() || null,
         }),
       });
       if (res.ok) {
-        saveName(name.trim());
+        const displayedName = getSavedName() || "匿名";
         // ローカルに反映
         setReviews((prev) => [
           {
             id: crypto.randomUUID(),
-            reviewer_name: name.trim(),
+            reviewer_name: displayedName,
             rating,
             comment: comment.trim() || null,
             created_at: new Date().toISOString(),
@@ -135,6 +135,7 @@ export default function SpotReviewForm({
         setRating(0);
         setShowForm(false);
         setSubmitted(true);
+        setAlreadyReviewed(true);
         setTimeout(() => setSubmitted(false), 3000);
         // スコアを再取得
         fetchData();
@@ -166,16 +167,23 @@ export default function SpotReviewForm({
 
         <SpotScoreDisplay score={score} />
 
-        {/* レビューを書くボタン */}
-        {!showForm && (
-          <button
-            type="button"
-            onClick={() => setShowForm(true)}
-            className="mt-3 w-full flex items-center justify-center gap-2 px-4 py-2.5 bg-amber-50 dark:bg-amber-900/20 text-amber-700 dark:text-amber-300 text-sm font-medium rounded-lg hover:bg-amber-100 dark:hover:bg-amber-900/30 transition-colors border border-amber-200 dark:border-amber-800"
-          >
-            <Star size={14} />
-            レビューを書く
-          </button>
+        {/* レビューを書くボタン / 投稿済み表示 */}
+        {!showForm && !submitted && (
+          alreadyReviewed ? (
+            <p className="mt-3 w-full flex items-center justify-center gap-2 px-4 py-2.5 text-stone-400 dark:text-stone-500 text-sm rounded-lg border border-stone-200 dark:border-stone-700">
+              <CheckCircle size={14} />
+              レビュー投稿済み
+            </p>
+          ) : (
+            <button
+              type="button"
+              onClick={() => setShowForm(true)}
+              className="mt-3 w-full flex items-center justify-center gap-2 px-4 py-2.5 bg-amber-50 dark:bg-amber-900/20 text-amber-700 dark:text-amber-300 text-sm font-medium rounded-lg hover:bg-amber-100 dark:hover:bg-amber-900/30 transition-colors border border-amber-200 dark:border-amber-800"
+            >
+              <Star size={14} />
+              レビューを書く
+            </button>
+          )
         )}
 
         {submitted && (
@@ -224,22 +232,6 @@ export default function SpotReviewForm({
                   </span>
                 )}
               </div>
-            </div>
-
-            {/* 表示名 */}
-            <div>
-              <label className="text-xs text-stone-500 dark:text-stone-400 mb-1 block">
-                表示名
-              </label>
-              <input
-                type="text"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-                placeholder="ニックネーム"
-                maxLength={50}
-                required
-                className="w-full px-3 py-2 rounded-lg border border-stone-200 dark:border-stone-600 bg-stone-50 dark:bg-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-amber-500 placeholder:text-stone-400"
-              />
             </div>
 
             {/* コメント */}

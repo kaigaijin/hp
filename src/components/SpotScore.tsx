@@ -47,17 +47,32 @@ export default function SpotScore({
   score: SpotScoreType | null;
   compact?: boolean;
 }) {
-  // データなし or ローディング中
-  if (!score) {
-    return null;
+  // デフォルト: 2.5星（レビューが溜まるまで中間値を表示）
+  const DEFAULT_SCORE = 2.5;
+
+  // データなし or レビュー0件 → デフォルト2.5星
+  if (!score || score.review_count === 0) {
+    if (compact) {
+      return (
+        <div className="flex items-center gap-1.5">
+          <StarRating score={DEFAULT_SCORE} size={12} />
+          <span className="text-xs text-stone-400">—</span>
+        </div>
+      );
+    }
+    return (
+      <div className="flex items-center gap-3">
+        <StarRating score={DEFAULT_SCORE} size={16} />
+        <span className="text-xs text-stone-400">レビューはまだありません</span>
+      </div>
+    );
   }
 
-  // レビュー数不足
+  // レビュー数不足（1件以上あるが表示基準未達）
   if (!score.display) {
-    if (score.review_count === 0) return null;
     return (
       <div className="flex items-center gap-2">
-        <StarRating score={0} size={compact ? 12 : 14} />
+        <StarRating score={DEFAULT_SCORE} size={compact ? 12 : 14} />
         <span className="text-xs text-stone-400">
           評価準備中（{score.review_count}件）
         </span>

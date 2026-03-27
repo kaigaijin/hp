@@ -107,6 +107,7 @@ export async function GET(req: NextRequest) {
     score,
     reviews: spotReviews.map((r) => ({
       id: r.id,
+      reviewer_id: r.reviewer_id,
       reviewer_name: r.reviewer_name,
       rating: r.rating,
       comment: r.comment,
@@ -157,6 +158,26 @@ export async function POST(req: NextRequest) {
         { error: "コメントは2000文字以内で入力してください" },
         { status: 400 }
       );
+    }
+
+    // 同一reviewer_idで同一スポットへの重複投稿チェック
+    const dupRes = await fetch(
+      `${SUPABASE_URL}/rest/v1/spot_reviews?reviewer_id=eq.${encodeURIComponent(reviewer_id)}&spot_country=eq.${encodeURIComponent(country)}&spot_category=eq.${encodeURIComponent(category)}&spot_slug=eq.${encodeURIComponent(spot_slug)}&select=id&limit=1`,
+      {
+        headers: {
+          apikey: SUPABASE_KEY,
+          Authorization: `Bearer ${SUPABASE_KEY}`,
+        },
+      }
+    );
+    if (dupRes.ok) {
+      const existing = await dupRes.json();
+      if (existing.length > 0) {
+        return NextResponse.json(
+          { error: "このスポットには既にレビューを投稿済みです" },
+          { status: 409 }
+        );
+      }
     }
 
     const res = await fetch(`${SUPABASE_URL}/rest/v1/spot_reviews`, {
