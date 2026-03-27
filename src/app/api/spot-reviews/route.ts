@@ -72,7 +72,7 @@ export async function GET(req: NextRequest) {
         apikey: SUPABASE_KEY,
         Authorization: `Bearer ${SUPABASE_KEY}`,
       },
-      next: { revalidate: 60 },
+      cache: "no-store",
     }
   );
 
@@ -102,7 +102,7 @@ export async function GET(req: NextRequest) {
         apikey: SUPABASE_KEY,
         Authorization: `Bearer ${SUPABASE_KEY}`,
       },
-      next: { revalidate: 300 },
+      cache: "no-store",
     }
   );
 
