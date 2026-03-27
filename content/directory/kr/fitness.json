@@ -8,7 +8,12 @@
     "phone": null,
     "website": null,
     "description": "梨泰院にあるフィットネス＆ピラティススタジオ。バイリンガル（英語・韓国語）スタッフが常駐し、全パーソナルトレーナーが10年以上の経験を持つ。外国人利用者が多く通いやすい。",
-    "tags": ["フィットネス", "ピラティス", "英語対応", "パーソナルトレーニング"],
+    "tags": [
+      "フィットネス",
+      "ピラティス",
+      "英語対応",
+      "パーソナルトレーニング"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "website",
@@ -23,7 +28,11 @@
     "phone": null,
     "website": null,
     "description": "ソウル市内に複数店舗を展開するフィットネスチェーン。江南店のほか市庁、瑞草、九老、龍山にも拠点あり。マシンジム、グループレッスン、パーソナルトレーニングを提供。",
-    "tags": ["フィットネス", "チェーン", "マシンジム"],
+    "tags": [
+      "フィットネス",
+      "チェーン",
+      "マシンジム"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "website",
@@ -38,7 +47,30 @@
     "phone": null,
     "website": null,
     "description": "ソウル・仁川に82店舗を展開する24時間フィットネスチェーン。月額制で全店舗利用可能。マシンジム中心で、日本のエニタイムフィットネスに似たコンセプト。外国人会員も多い。",
-    "tags": ["24時間", "フィットネス", "チェーン"],
+    "tags": [
+      "24時間",
+      "フィットネス",
+      "チェーン"
+    ],
+    "hours": "24時間",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "anytime-fitness-itaewon",
+    "name": "Anytime Fitness Itaewon",
+    "name_ja": "エニタイムフィットネス 梨泰院",
+    "area": "Yongsan-gu",
+    "address": "Itaewon-ro, Yongsan-gu, Seoul",
+    "phone": null,
+    "website": "https://www.anytimefitness.co.kr/",
+    "description": "24時間営業のフィットネスチェーン。梨泰院エリアで外国人利用者も多い。英語対応可。全世界の店舗を利用可能。",
+    "tags": [
+      "24時間",
+      "フィットネス",
+      "英語対応"
+    ],
     "hours": "24時間",
     "status": "unverified",
     "source": "website",

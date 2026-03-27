@@ -331,7 +331,12 @@
     "phone": null,
     "website": null,
     "description": "二村の「リトル・トーキョー」にある本格居酒屋。テーブル3席とカウンター7席のみの小さな店で、刺身、アジフライ、メンチカツ、焼き鳥など正統派の居酒屋料理を提供。日本酒や焼酎も充実。",
-    "tags": ["居酒屋", "刺身", "焼き鳥", "日本酒"],
+    "tags": [
+      "居酒屋",
+      "刺身",
+      "焼き鳥",
+      "日本酒"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
@@ -346,7 +351,12 @@
     "phone": null,
     "website": null,
     "description": "二村にあるモダンな日本風居酒屋。ミニマルな内装で、カジュアルなディナーからフォーマルな会食まで対応。刺身、蟹の天ぷら、鮑パスタ、ビーフタルタルなど和洋折衷メニューが特徴。",
-    "tags": ["居酒屋", "モダン", "刺身", "創作料理"],
+    "tags": [
+      "居酒屋",
+      "モダン",
+      "刺身",
+      "創作料理"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
@@ -361,7 +371,12 @@
     "phone": null,
     "website": "http://www.sushiro.co.kr/",
     "description": "日本最大手の回転寿司チェーン「スシロー」の仁川店。約60種類の寿司ネタを1皿1,700ウォン均一で提供。タッチパネルは日本語対応しているため注文しやすい。",
-    "tags": ["寿司", "回転寿司", "チェーン", "日本語対応"],
+    "tags": [
+      "寿司",
+      "回転寿司",
+      "チェーン",
+      "日本語対応"
+    ],
     "hours": "11:00-22:00",
     "status": "unverified",
     "source": "website",
@@ -376,7 +391,11 @@
     "phone": null,
     "website": null,
     "description": "日本のカレーチェーン「CoCo壱番屋」の弘大店。ごはんの量やスパイスレベルを自由にカスタマイズできるのが魅力。韓国限定メニューも提供しており、日本のカレーが恋しくなった時に便利。",
-    "tags": ["カレー", "チェーン", "日本語メニュー"],
+    "tags": [
+      "カレー",
+      "チェーン",
+      "日本語メニュー"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
@@ -391,7 +410,11 @@
     "phone": null,
     "website": null,
     "description": "博多発の豚骨ラーメンチェーン「一風堂」の江南店。白丸・赤丸の定番メニューに加え、韓国限定の辛味メニューも提供。濃厚な豚骨スープが恋しい時の定番。",
-    "tags": ["ラーメン", "豚骨", "チェーン"],
+    "tags": [
+      "ラーメン",
+      "豚骨",
+      "チェーン"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
@@ -406,7 +429,11 @@
     "phone": null,
     "website": null,
     "description": "手打ちうどんを提供する江南エリアの日本式うどん店。讃岐スタイルのコシのある麺と出汁が効いたスープが特徴。天ぷらうどんやカレーうどんなど定番メニューが揃う。",
-    "tags": ["うどん", "手打ち", "天ぷら"],
+    "tags": [
+      "うどん",
+      "手打ち",
+      "天ぷら"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
@@ -421,7 +448,12 @@
     "phone": null,
     "website": null,
     "description": "梨泰院にある本格日本料理店。落ち着いた和風の空間で、寿司・刺身・天ぷら・焼き物を提供。日本酒のセレクションが豊富で、接待や特別な食事に利用されている。",
-    "tags": ["日本料理", "寿司", "日本酒", "接待向き"],
+    "tags": [
+      "日本料理",
+      "寿司",
+      "日本酒",
+      "接待向き"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
@@ -436,7 +468,11 @@
     "phone": null,
     "website": null,
     "description": "二村の日本人街にはとんかつ・カツ丼を提供する店が複数集まるエリアがある。サクサクの衣と柔らかい豚肉の日本式とんかつが手頃な価格で楽しめる。ランチの選択肢として人気。",
-    "tags": ["とんかつ", "定食", "日本人街"],
+    "tags": [
+      "とんかつ",
+      "定食",
+      "日本人街"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
@@ -451,7 +487,11 @@
     "phone": null,
     "website": null,
     "description": "日本発の回転寿司チェーン。高速レーンで注文した寿司が届くシステムが特徴。新鮮なネタを手頃な価格で提供し、ファミリーでの利用にも適している。",
-    "tags": ["寿司", "回転寿司", "チェーン"],
+    "tags": [
+      "寿司",
+      "回転寿司",
+      "チェーン"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
@@ -466,8 +506,88 @@
     "phone": null,
     "website": null,
     "description": "日本の牛丼チェーン「松屋」のソウル店。牛めし、カレー、定食など手頃な日本のファストフードを提供。一人でも気軽に入れる雰囲気で、日本の味が恋しい時に便利。",
-    "tags": ["牛丼", "定食", "チェーン"],
+    "tags": [
+      "牛丼",
+      "定食",
+      "チェーン"
+    ],
     "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "cochon-tonkatsu-seoul",
+    "name": "Cochon Tonkatsu",
+    "name_ja": "コション とんかつ",
+    "area": "Mapo-gu",
+    "address": "2F, 94 Wausan-ro, Mapo-gu, Seoul",
+    "phone": null,
+    "website": null,
+    "description": "格安のとんかつ専門店。3,000ウォンからとんかつセットが楽しめる。キャベツ、ごはん、味噌汁付き。",
+    "tags": [
+      "とんかつ",
+      "格安",
+      "カジュアル"
+    ],
+    "hours": "毎日 11:00-21:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ariake-shilla-seoul",
+    "name": "Ariake - The Shilla Seoul",
+    "name_ja": "有明 新羅ホテル ソウル",
+    "area": "Jung-gu",
+    "address": "The Shilla Seoul, 249 Dongho-ro, Jung-gu, Seoul",
+    "phone": "+8227992285",
+    "website": "https://www.shilla.net/seoul/dining/viewDining.do?contId=ARI",
+    "description": "新羅ホテル内の高級日本料理レストラン。厳選された食材を使用した寿司・刺身・会席料理を提供。ホテルならではの上質なサービス。",
+    "tags": [
+      "高級",
+      "おまかせ",
+      "ホテル内"
+    ],
+    "hours": "毎日 12:00-14:30, 18:00-22:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sushi-kaisin-seoul",
+    "name": "Sushi Kaisin",
+    "name_ja": "鮨 海心",
+    "area": "Gangnam-gu",
+    "address": "Gangnam-gu, Seoul",
+    "phone": null,
+    "website": null,
+    "description": "おまかせスタイルの寿司店。韓国産と日本輸入の魚を使い、伝統的な江戸前寿司をモダンにアレンジ。",
+    "tags": [
+      "おまかせ",
+      "寿司",
+      "モダン"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ramen-bari-uma-seoul",
+    "name": "Bari-Uma Ramen Seoul",
+    "name_ja": "バリウマラーメン ソウル",
+    "area": "Gangnam-gu",
+    "address": "Gangnam-gu, Seoul",
+    "phone": null,
+    "website": null,
+    "description": "マレーシア発のラーメンチェーンのソウル店。濃厚豚骨スープと自家製麺が特徴。辛味噌トッピングが人気。",
+    "tags": [
+      "ラーメン",
+      "豚骨",
+      "チェーン"
+    ],
+    "hours": "毎日 11:00-22:00",
     "status": "unverified",
     "source": "google_maps",
     "last_verified": "2026-03-27"

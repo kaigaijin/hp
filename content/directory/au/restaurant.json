@@ -245,5 +245,175 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "kisume-melbourne",
+    "name": "Kisume",
+    "name_ja": "キスメ",
+    "area": "Melbourne CBD",
+    "address": "175 Flinders Lane, Melbourne VIC 3000",
+    "phone": "+61396000900",
+    "website": "https://kisume.com.au/",
+    "description": "メルボルンの高級日本料理レストラン。3フロア構成で、地下にバー、1階にカウンターと個室、2階にダイニングを備える。",
+    "tags": [
+      "高級",
+      "寿司",
+      "モダン"
+    ],
+    "hours": "火〜土 12:00-15:00, 17:30-22:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "kenzan-melbourne",
+    "name": "Kenzan",
+    "name_ja": "建山",
+    "area": "Melbourne CBD",
+    "address": "56 Flinders Lane, Melbourne VIC 3000",
+    "phone": "+61396547888",
+    "website": "https://kenzan.com.au/",
+    "description": "メルボルンで30年以上の歴史を持つ本格日本料理店。おまかせコースと鉄板焼きが人気。日本人シェフが在籍。",
+    "tags": [
+      "おまかせ",
+      "鉄板焼き",
+      "老舗"
+    ],
+    "hours": "火〜金 12:00-14:30, 18:00-22:00 / 土 18:00-22:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "toko-sydney",
+    "name": "Toko Sydney",
+    "name_ja": "トコ シドニー",
+    "area": "Surry Hills",
+    "address": "490 Crown Street, Surry Hills NSW 2010",
+    "phone": "+61293575100",
+    "website": "https://www.toko-sydney.com/",
+    "description": "サリーヒルズの人気日本料理店。モダン居酒屋スタイルで、寿司、刺身、焼き鳥を提供。カクテルバーも併設。",
+    "tags": [
+      "モダン居酒屋",
+      "カクテル",
+      "カジュアル"
+    ],
+    "hours": "月〜木 17:30-22:00 / 金 12:00-15:00, 17:30-23:00 / 土 17:30-23:00 / 日 17:30-22:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sokyo-sydney",
+    "name": "Sokyo",
+    "name_ja": "ソキョウ",
+    "area": "Pyrmont",
+    "address": "The Darling at The Star, 80 Pyrmont Street, Pyrmont NSW 2009",
+    "phone": "+61291771799",
+    "website": null,
+    "description": "The Star内の高級日本料理レストラン。寿司、天ぷら、炉端焼きを中心としたコンテンポラリー日本料理を提供。",
+    "tags": [
+      "高級",
+      "寿司",
+      "ホテル内"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "umu-sydney",
+    "name": "UMU",
+    "name_ja": "ウム",
+    "area": "Sydney CBD",
+    "address": "Level 3, 388 George Street, Sydney NSW 2000",
+    "phone": null,
+    "website": null,
+    "description": "シドニーCBDの日本料理レストラン。おまかせコースを中心に、旬の食材を使った本格的な日本料理を提供。",
+    "tags": [
+      "おまかせ",
+      "高級"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "harajuku-gyoza-sydney",
+    "name": "Harajuku Gyoza",
+    "name_ja": "原宿ギョーザ",
+    "area": "Sydney CBD",
+    "address": "Shop 3, 505 George Street, Sydney NSW 2000",
+    "phone": "+61292832665",
+    "website": "https://harajukugyoza.com/",
+    "description": "餃子とビールの専門店。オーストラリア国内で複数店舗展開。パリパリの焼き餃子と水餃子がメイン。カジュアルな雰囲気。",
+    "tags": [
+      "餃子",
+      "ビール",
+      "カジュアル"
+    ],
+    "hours": "毎日 11:30-22:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ippudo-sydney",
+    "name": "Ippudo Sydney",
+    "name_ja": "一風堂 シドニー",
+    "area": "Sydney CBD",
+    "address": "Ground Floor, Westfield Sydney, Pitt Street Mall, Sydney NSW 2000",
+    "phone": "+61292330803",
+    "website": "https://www.ippudo.com.au/",
+    "description": "博多発の豚骨ラーメン専門チェーン。赤丸・白丸など定番メニューに加え、オーストラリア限定メニューも提供。",
+    "tags": [
+      "ラーメン",
+      "チェーン",
+      "豚骨"
+    ],
+    "hours": "毎日 11:00-22:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ajisen-ramen-sydney",
+    "name": "Ajisen Ramen Sydney",
+    "name_ja": "味千ラーメン シドニー",
+    "area": "Sydney CBD",
+    "address": "Shop 4, 461 George Street, Sydney NSW 2000",
+    "phone": "+61292233233",
+    "website": "https://ajisenramensydney.com.au/",
+    "description": "熊本発のラーメンチェーン。こってり豚骨ラーメンが定番。世界800店舗以上を展開するグローバルチェーン。",
+    "tags": [
+      "ラーメン",
+      "チェーン",
+      "豚骨"
+    ],
+    "hours": "毎日 11:00-22:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ichibanboshi-sydney",
+    "name": "Ichibanboshi Sydney",
+    "name_ja": "一番星 シドニー",
+    "area": "Sydney CBD",
+    "address": "504 George Street, Sydney NSW 2000",
+    "phone": "+61292115522",
+    "website": "https://ichibanboshi.com.au/",
+    "description": "手打ちラーメンにこだわるシドニーの日本料理チェーン。豚骨、味噌、醤油ラーメンのほか、餃子や定食も充実。",
+    "tags": [
+      "ラーメン",
+      "手打ち",
+      "定食"
+    ],
+    "hours": "毎日 11:30-21:30",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
   }
 ]

@@ -130,5 +130,43 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "sns"
+  },
+  {
+    "slug": "shinjuku-shochu-bar-taipei",
+    "name": "Shinjuku Shochu Bar",
+    "name_ja": "新宿焼酎バー 台北",
+    "area": "Da'an",
+    "address": "Da'an District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "焼酎と日本酒を中心にした居酒屋バー。日本各地の焼酎を100種類以上取り揃え。居酒屋スタイルのおつまみも充実。",
+    "tags": [
+      "焼酎",
+      "日本酒",
+      "バー"
+    ],
+    "hours": "毎日 18:00-25:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "tairyou-izakaya-taipei",
+    "name": "Tairyou Izakaya",
+    "name_ja": "大漁居酒屋 台北",
+    "area": "Zhongshan",
+    "address": "Zhongshan District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "新鮮な海鮮をメインとした居酒屋。刺身盛り合わせ、焼き魚、煮魚など魚料理が充実。日本酒との組み合わせが人気。",
+    "tags": [
+      "海鮮",
+      "居酒屋",
+      "日本酒"
+    ],
+    "hours": "毎日 17:30-24:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

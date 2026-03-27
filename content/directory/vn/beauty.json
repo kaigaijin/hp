@@ -111,5 +111,43 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "google_maps"
+  },
+  {
+    "slug": "atelier-fine-hcmc",
+    "name": "Atelier Fine Hair Salon",
+    "name_ja": "アトリエファイン ホーチミン",
+    "area": "District 1",
+    "address": "92-94 Nam Ky Khoi Nghia Street, District 1, Ho Chi Minh City",
+    "phone": "+842839140407",
+    "website": "https://atelierfine.vn/",
+    "description": "日本人オーナーが運営するヘアサロン。日本のカット技術を提供。トリートメントメニューも充実。",
+    "tags": [
+      "日本人経営",
+      "ヘアカット",
+      "トリートメント"
+    ],
+    "hours": "火〜日 9:30-20:00（月曜・第3火曜休）",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "terrace-salon-hcmc",
+    "name": "TERRACE Hair Salon",
+    "name_ja": "テラス ヘアサロン ホーチミン",
+    "area": "Binh Thanh",
+    "address": "40/25 Pham Viet Chanh Street, Ward 19, Binh Thanh District, Ho Chi Minh City",
+    "phone": null,
+    "website": "https://terrace.com.vn/en/top/",
+    "description": "日本品質のヘアサロン。ストレートパーマとトリートメントを専門とし、最新の日本技術を使用。",
+    "tags": [
+      "日本品質",
+      "ストレートパーマ",
+      "トリートメント"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
   }
 ]

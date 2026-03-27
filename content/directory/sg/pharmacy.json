@@ -8,7 +8,13 @@
     "phone": "+6562668141",
     "website": "https://www.welcia.com.sg/",
     "description": "日本最大のドラッグストアチェーン「ウエルシア」のシンガポール旗艦店。日本の化粧品・スキンケア・ヘルスケア製品を豊富に取り揃える。調剤薬局も併設。シンガポール国内に複数店舗を展開。",
-    "tags": ["日本製品", "化粧品", "ヘルスケア", "調剤薬局", "複数店舗"],
+    "tags": [
+      "日本製品",
+      "化粧品",
+      "ヘルスケア",
+      "調剤薬局",
+      "複数店舗"
+    ],
     "hours": "月〜日: 10:00-22:00",
     "last_verified": "2026-03-26",
     "status": "verified",
@@ -23,7 +29,12 @@
     "phone": "+6562668141",
     "website": "https://www.welcia.com.sg/",
     "description": "ウエルシアのBedok Mall店。東部エリアの日本人居住者にとって便利な立地。日本の化粧品・サプリメント・日用品・ヘアケア製品を取り扱い。",
-    "tags": ["日本製品", "化粧品", "ヘルスケア", "東部エリア"],
+    "tags": [
+      "日本製品",
+      "化粧品",
+      "ヘルスケア",
+      "東部エリア"
+    ],
     "hours": "10:00-22:00",
     "last_verified": "2026-03-26",
     "status": "verified",
@@ -38,10 +49,35 @@
     "phone": "+6568344311",
     "website": "https://www.dondondonki.com/sg/",
     "description": "ドンキホーテのシンガポール版。日本の市販薬（風邪薬・胃腸薬・目薬・湿布など）、日用品、化粧品、ヘアケア製品を手頃な価格で販売。24時間営業の店舗もあり、急な体調不良時にも便利。",
-    "tags": ["日本の市販薬", "日用品", "化粧品", "24時間営業", "複数店舗"],
+    "tags": [
+      "日本の市販薬",
+      "日用品",
+      "化粧品",
+      "24時間営業",
+      "複数店舗"
+    ],
     "hours": "24時間営業（Orchard Central店）",
     "last_verified": "2026-03-26",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "matsumoto-kiyoshi-sg",
+    "name": "Matsumoto Kiyoshi Singapore",
+    "name_ja": "マツモトキヨシ シンガポール",
+    "area": "Orchard",
+    "address": "Ion Orchard, 2 Orchard Turn, Singapore 238801",
+    "phone": null,
+    "website": null,
+    "description": "日本最大級のドラッグストアチェーン。日本の化粧品、医薬品、サプリメントを取り揃え。シンガポール内複数店舗展開。",
+    "tags": [
+      "ドラッグストア",
+      "日本チェーン",
+      "化粧品"
+    ],
+    "hours": "毎日 10:00-22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

@@ -8,7 +8,12 @@
     "phone": "+6566361562",
     "website": "https://www.lava-yoga-global.com/",
     "description": "日本No.1のホットヨガスタジオLAVAのシンガポール店。Great WorldとClarke Quayの2店舗を展開。ヒノキの床材を使用したスタジオでホットヨガ・リフォーマーピラティス・キックボクシングなどを提供。日本の「おもてなし」を大切にした接客。",
-    "tags": ["日本発", "ホットヨガ", "ピラティス", "女性専用（ヨガ）"],
+    "tags": [
+      "日本発",
+      "ホットヨガ",
+      "ピラティス",
+      "女性専用（ヨガ）"
+    ],
     "hours": "平日: 8:00-21:00 / 週末: 9:00-16:00",
     "last_verified": "2026-03-26",
     "status": "verified",
@@ -23,7 +28,12 @@
     "phone": "+6590906978",
     "website": "https://www.lava-yoga-global.com/",
     "description": "LAVAのClarke Quay店。ホットヨガに加え、男女共用のEMSトレーニングやキックボクシングも提供。20分前到着推奨。",
-    "tags": ["日本発", "ホットヨガ", "EMS", "キックボクシング"],
+    "tags": [
+      "日本発",
+      "ホットヨガ",
+      "EMS",
+      "キックボクシング"
+    ],
     "hours": "平日: 8:00-21:00 / 週末: 9:00-16:00",
     "last_verified": "2026-03-26",
     "status": "verified",
@@ -38,10 +48,34 @@
     "phone": "+6565709922",
     "website": "https://www.anytimefitness.sg/",
     "description": "日本発の24時間フィットネスジム。Robertson Quay店は日本人駐在員が多く住むエリアに位置。世界5,000以上の店舗で相互利用可能。マシン・フリーウエイト・パーソナルトレーニングに対応。",
-    "tags": ["24時間営業", "日本発", "パーソナルトレーニング", "相互利用可能"],
+    "tags": [
+      "24時間営業",
+      "日本発",
+      "パーソナルトレーニング",
+      "相互利用可能"
+    ],
     "hours": "24時間営業",
     "last_verified": "2026-03-26",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "lava-hot-yoga-orchard",
+    "name": "LAVA Hot Yoga Orchard",
+    "name_ja": "LAVA ホットヨガ オーチャード",
+    "area": "Orchard",
+    "address": "Orchard Road, Singapore",
+    "phone": null,
+    "website": null,
+    "description": "日本最大級のホットヨガスタジオのシンガポール店。日本語対応のインストラクターも在籍。",
+    "tags": [
+      "ホットヨガ",
+      "日本チェーン",
+      "日本語対応"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

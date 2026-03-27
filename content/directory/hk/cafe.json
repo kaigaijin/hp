@@ -93,5 +93,24 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "sns"
+  },
+  {
+    "slug": "via-tokyo-hk",
+    "name": "Via Tokyo",
+    "name_ja": "ヴィアトーキョー",
+    "area": "Causeway Bay",
+    "address": "Causeway Bay, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "日本式かき氷とデザートの専門店。ふわふわのかき氷に抹茶やフルーツのトッピング。行列ができる人気店。",
+    "tags": [
+      "かき氷",
+      "デザート",
+      "抹茶"
+    ],
+    "hours": "毎日 12:00-22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

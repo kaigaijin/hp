@@ -247,5 +247,119 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "google_maps"
+  },
+  {
+    "slug": "fujiya-downtown-dubai",
+    "name": "Fujiya Downtown Dubai",
+    "name_ja": "藤家 ダウンタウン ドバイ",
+    "area": "Downtown Dubai",
+    "address": "Swissotel, Al Mustaqbal Street, Downtown Dubai, Dubai",
+    "phone": "+97145477171",
+    "website": "https://fujiya.ae/",
+    "description": "日本の居酒屋文化を体現するレストラン。日本直輸入の食材を使用し、焼き鳥、天ぷら、しゃぶしゃぶ、和牛BBQを提供。",
+    "tags": [
+      "居酒屋",
+      "焼き鳥",
+      "和牛"
+    ],
+    "hours": "毎日 12:00-15:00, 18:00-23:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "fujiya-garhoud",
+    "name": "Fujiya Garhoud",
+    "name_ja": "藤家 ガルフード",
+    "area": "Garhoud",
+    "address": "Millennium Airport Hotel, Casablanca Street, Garhoud, Dubai",
+    "phone": null,
+    "website": "https://fujiya.ae/",
+    "description": "ミレニアムエアポートホテル内の日本式居酒屋。刺身、天ぷら、焼き鳥など伝統的な日本料理を提供。空港エリアのアクセスが便利。",
+    "tags": [
+      "居酒屋",
+      "ホテル内",
+      "空港近く"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "kimuraya-downtown",
+    "name": "Kimura-ya Downtown Dubai",
+    "name_ja": "木村屋 ダウンタウン",
+    "area": "Business Bay",
+    "address": "Anantara Downtown Dubai, Business Bay, Dubai",
+    "phone": null,
+    "website": "https://kimurayadubai.com/",
+    "description": "日本で200店舗以上を展開するレストランチェーンのUAE進出店。アナンタラホテル内で本格日本料理と和牛BBQを提供。",
+    "tags": [
+      "日本チェーン",
+      "和牛",
+      "ホテル内"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "kimuraya-jbr",
+    "name": "Kimura-ya JBR Marina",
+    "name_ja": "木村屋 JBRマリーナ",
+    "area": "JBR",
+    "address": "Ground Floor, Habtoor Grand Resort, JBR, Dubai",
+    "phone": "+97156671079",
+    "website": "https://kimurayadubai.com/",
+    "description": "木村屋の2号店。ハブトゥールグランドリゾートのプールサイドエリアに位置し、日本式BBQのUnlimited Japaneseが人気。",
+    "tags": [
+      "日本チェーン",
+      "BBQ",
+      "ビーチリゾート"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ram-and-roll-dubai",
+    "name": "Ram & Roll",
+    "name_ja": "ラム＆ロール",
+    "area": "Downtown Dubai",
+    "address": "Kempinski The Boulevard, Sheikh Mohammed bin Rashid Blvd, Downtown Dubai, Dubai",
+    "phone": "+97144308222",
+    "website": "https://ramnroll.co/",
+    "description": "2025年オープンのモダン日本料理レストラン。手作りラーメン、ハンドロール寿司、居酒屋スタイルの料理を提供。エネルギッシュな雰囲気。",
+    "tags": [
+      "ラーメン",
+      "ハンドロール",
+      "モダン"
+    ],
+    "hours": "月〜木 12:00-25:00 / 金〜日 12:00-26:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "daikan-izakaya-citywalk",
+    "name": "Daikan Izakaya",
+    "name_ja": "大観 居酒屋",
+    "area": "City Walk",
+    "address": "City Walk, C2 District, Al Safa, Dubai",
+    "phone": "+97152703869",
+    "website": "https://daikan.ae/",
+    "description": "City Walkにあるスタイリッシュな居酒屋。カジュアルな雰囲気で本格的な日本の味を楽しめる。コスパの良さが評価されている。",
+    "tags": [
+      "居酒屋",
+      "カジュアル",
+      "コスパ良"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
   }
 ]

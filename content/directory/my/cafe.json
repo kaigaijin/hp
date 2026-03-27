@@ -28,7 +28,11 @@
     "phone": null,
     "website": "https://www.nikonekomatcha.com/",
     "description": "マレーシア発の本格抹茶ブランド。バンサー・チャイナタウンに続くモントキアラ店。抹茶ラテの黄金比率にこだわり、KLの抹茶カフェの最強格として定評あり。METタワーのロビーに位置。",
-    "tags": ["抹茶", "カフェ", "ラテ"],
+    "tags": [
+      "抹茶",
+      "カフェ",
+      "ラテ"
+    ],
     "hours": "毎日 10:00-18:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -43,7 +47,12 @@
     "phone": null,
     "website": null,
     "description": "北海道発の抹茶スイーツ専門店。京都産の本格抹茶を使ったおばんやき・わらび餅・パフェなどを提供。TRX内に出店。",
-    "tags": ["抹茶", "スイーツ", "おばんやき", "わらび餅"],
+    "tags": [
+      "抹茶",
+      "スイーツ",
+      "おばんやき",
+      "わらび餅"
+    ],
     "hours": "毎日 10:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -58,7 +67,12 @@
     "phone": null,
     "website": null,
     "description": "日本の木製トレーと畳風の空間が特徴の抹茶デザートカフェ。抹茶アイスクリーム・餅・クレープケーキ・ドリンクなど抹茶メニューが充実。Pavilion KL・The Gardens Mall・163 Retail Parkなど複数店舗を展開。",
-    "tags": ["抹茶", "スイーツ", "アイスクリーム", "複数店舗"],
+    "tags": [
+      "抹茶",
+      "スイーツ",
+      "アイスクリーム",
+      "複数店舗"
+    ],
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -73,7 +87,12 @@
     "phone": null,
     "website": null,
     "description": "マレーシア初の砂糖不使用・乳製品不使用の抹茶カフェ。最高級セレモニーグレードの抹茶を使用した抹茶ラテやスイーツを提供。ヘルシー志向の抹茶好きに人気。",
-    "tags": ["抹茶", "カフェ", "砂糖不使用", "ヘルシー"],
+    "tags": [
+      "抹茶",
+      "カフェ",
+      "砂糖不使用",
+      "ヘルシー"
+    ],
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -88,10 +107,48 @@
     "phone": null,
     "website": null,
     "description": "日本式かき氷（かきごおり）専門カフェ。口の中でふわっと溶けるかき氷を、抹茶・ほうじ茶・フルーツなど多彩なフレーバーで提供。プレミアムな素材を使った手作りのデザート。",
-    "tags": ["かき氷", "スイーツ", "抹茶"],
+    "tags": [
+      "かき氷",
+      "スイーツ",
+      "抹茶"
+    ],
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "google_maps"
+  },
+  {
+    "slug": "tsujiri-pavilion-kl",
+    "name": "Tsujiri Pavilion KL",
+    "name_ja": "辻利 パビリオンKL",
+    "area": "Bukit Bintang",
+    "address": "Pavilion Kuala Lumpur, Bukit Bintang, Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "京都発の抹茶専門カフェ。宇治抹茶ラテ、ソフトクリーム、パフェが人気。パビリオン店。",
+    "tags": [
+      "抹茶",
+      "京都",
+      "ソフトクリーム"
+    ],
+    "hours": "毎日 10:00-22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "matcha-hero-kyoto-pavilion",
+    "name": "Matcha Hero Kyoto",
+    "name_ja": "抹茶ヒーロー京都",
+    "area": "Bukit Bintang",
+    "address": "Lot 6.16.00, Level 6, Pavilion Kuala Lumpur, 168, Jalan Bukit Bintang, 55100 Kuala Lumpur",
+    "phone": "+60111551513",
+    "website": "https://www.facebook.com/matchaherokyoto/",
+    "description": "京都発の抹茶専門店。Pavilion KLのTokyo Street内にあり、最高品質の抹茶を使ったドリンク・アイスクリーム・クッキーなどを提供。抹茶の濃さを選べるのが特徴。",
+    "tags": ["抹茶", "スイーツ", "アイスクリーム", "京都"],
+    "hours": "毎日 10:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
   }
 ]

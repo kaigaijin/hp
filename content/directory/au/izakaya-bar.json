@@ -151,5 +151,43 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "google_maps"
+  },
+  {
+    "slug": "toko-surry-hills-bar",
+    "name": "Toko Bar",
+    "name_ja": "トコ バー",
+    "area": "Surry Hills",
+    "address": "490 Crown Street, Surry Hills NSW 2010",
+    "phone": "+61293575100",
+    "website": "https://www.toko-sydney.com/",
+    "description": "日本料理店Tokoに併設されたカクテルバー。日本のウイスキー、日本酒、オリジナルカクテルを提供。",
+    "tags": [
+      "カクテル",
+      "日本ウイスキー",
+      "バー"
+    ],
+    "hours": "月〜木 17:30-24:00 / 金土 17:30-26:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "bancho-bar-sydney",
+    "name": "Bancho Bar",
+    "name_ja": "番町バー",
+    "area": "Sydney CBD",
+    "address": "23 York Street, Sydney NSW 2000",
+    "phone": null,
+    "website": null,
+    "description": "シドニーCBDの日本スタイルバー。日本のウイスキーを中心としたカクテルと居酒屋スタイルのおつまみを提供。隠れ家的な雰囲気。",
+    "tags": [
+      "バー",
+      "ウイスキー",
+      "隠れ家"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

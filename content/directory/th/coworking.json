@@ -47,7 +47,12 @@
     "phone": null,
     "website": "https://www.regus.com/ja-jp/thailand/bangkok/coworking",
     "description": "世界最大のフレキシブルオフィスプロバイダー。バンコク市内に複数拠点を展開。ホットデスク、専用デスク、プライベートオフィス、会議室を提供。日本語対応の予約サイトあり。",
-    "tags": ["コワーキング", "会議室", "世界展開", "日本語サイト"],
+    "tags": [
+      "コワーキング",
+      "会議室",
+      "世界展開",
+      "日本語サイト"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "website",
@@ -62,7 +67,11 @@
     "phone": null,
     "website": "https://www.justcoglobal.com/",
     "description": "シンガポール発のコワーキングスペースチェーン。バンコク市内にも複数拠点。広々としたオープンスペースとプライベートオフィスを提供。ネットワーキングイベントも定期的に開催。",
-    "tags": ["コワーキング", "国際チェーン", "ネットワーキング"],
+    "tags": [
+      "コワーキング",
+      "国際チェーン",
+      "ネットワーキング"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "website",
@@ -77,10 +86,33 @@
     "phone": null,
     "website": "https://www.wework.com/",
     "description": "世界的なコワーキングスペースのバンコク拠点。プレンチット駅近くに位置し、高速Wi-Fi、会議室、ラウンジ、カフェを完備。国際的なビジネスコミュニティが集まる。月額利用・デイパスあり。",
-    "tags": ["コワーキング", "会議室", "国際チェーン"],
+    "tags": [
+      "コワーキング",
+      "会議室",
+      "国際チェーン"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "spaces-sukhumvit-thonglor",
+    "name": "Spaces Thonglor",
+    "name_ja": "スペーシーズ トンロー",
+    "area": "Thonglor",
+    "address": "Thonglor, Sukhumvit, Bangkok",
+    "phone": null,
+    "website": null,
+    "description": "トンローのコワーキングスペース。日本人駐在員も多数利用。会議室、個室オフィス、ホットデスクを完備。",
+    "tags": [
+      "コワーキング",
+      "会議室",
+      "トンロー"
+    ],
+    "hours": "月〜金 8:30-18:00",
+    "status": "unverified",
+    "source": "google_maps",
     "last_verified": "2026-03-27"
   }
 ]

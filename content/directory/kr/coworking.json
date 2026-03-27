@@ -8,7 +8,12 @@
     "phone": null,
     "website": null,
     "description": "宣陵駅から徒歩1分のプレミアムコワーキングスペース。多言語対応スタッフ（英語・スペイン語・韓国語）が常駐。毎朝の朝食・終日スナック・コーヒー紅茶が無料。月額$210 USDでコワーキング利用可能。",
-    "tags": ["コワーキング", "多言語対応", "朝食付き", "駅近"],
+    "tags": [
+      "コワーキング",
+      "多言語対応",
+      "朝食付き",
+      "駅近"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "website",
@@ -23,7 +28,11 @@
     "phone": null,
     "website": "https://www.wework.com/",
     "description": "WeWorkのソウル初拠点。スタートアップから多国籍企業まで利用する国際的なコワーキングスペース。会議室、電話ブース、ラウンジ、カフェを完備。日本語の予約サイトあり。",
-    "tags": ["コワーキング", "国際チェーン", "会議室"],
+    "tags": [
+      "コワーキング",
+      "国際チェーン",
+      "会議室"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "website",
@@ -38,7 +47,12 @@
     "phone": null,
     "website": null,
     "description": "ソウルで最も英語フレンドリーなコワーキングスペースの一つ。アメリカ、イギリス、フランス、ロシア、スウェーデン、シンガポール出身のデジタルノマドが集まる。デイパス$10、月額$150。",
-    "tags": ["コワーキング", "英語対応", "デイパス可", "国際的"],
+    "tags": [
+      "コワーキング",
+      "英語対応",
+      "デイパス可",
+      "国際的"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "website",
@@ -53,8 +67,32 @@
     "phone": null,
     "website": null,
     "description": "龍山区にある外国人起業家支援センター。無料のコワーキングスペースを提供し、韓国でのビジネス立ち上げをサポート。英語対応スタッフが常駐し、ビザ・法人設立の相談も可能。",
-    "tags": ["コワーキング", "無料", "起業支援", "英語対応"],
+    "tags": [
+      "コワーキング",
+      "無料",
+      "起業支援",
+      "英語対応"
+    ],
     "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "fastfive-gangnam",
+    "name": "FastFive Gangnam",
+    "name_ja": "ファストファイブ 江南",
+    "area": "Gangnam-gu",
+    "address": "Gangnam-gu, Seoul",
+    "phone": null,
+    "website": "https://www.fastfive.co.kr/",
+    "description": "韓国最大級のコワーキングスペースチェーン。江南エリアに複数拠点。英語・日本語対応スタッフ在籍の拠点あり。",
+    "tags": [
+      "コワーキング",
+      "江南",
+      "個室あり"
+    ],
+    "hours": "24時間利用可",
     "status": "unverified",
     "source": "website",
     "last_verified": "2026-03-27"

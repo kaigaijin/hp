@@ -189,5 +189,119 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "zuma-hong-kong",
+    "name": "Zuma Hong Kong",
+    "name_ja": "ズマ 香港",
+    "area": "Central",
+    "address": "5-6/F, Landmark, 15 Queen's Road Central, Hong Kong",
+    "phone": "+85236576388",
+    "website": "https://www.zumarestaurant.com/en/hong-kong",
+    "description": "ランドマーク内のコンテンポラリー日本料理レストラン。炉端焼き、寿司バー、メインダイニングの3セクション構成。",
+    "tags": [
+      "高級",
+      "炉端焼き",
+      "寿司"
+    ],
+    "hours": "毎日 12:00-14:30, 18:00-23:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sushi-saito-hk",
+    "name": "Sushi Saito Hong Kong",
+    "name_ja": "鮨 さいとう 香港",
+    "area": "Central",
+    "address": "Four Seasons Hotel, 8 Finance Street, Central, Hong Kong",
+    "phone": "+85231968882",
+    "website": null,
+    "description": "東京で三つ星を獲得した鮨さいとうの香港店。フォーシーズンズホテル内で本格江戸前寿司を提供。完全予約制。",
+    "tags": [
+      "おまかせ",
+      "高級",
+      "完全予約制"
+    ],
+    "hours": "要予約",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "gyumon-tst",
+    "name": "Gyumon",
+    "name_ja": "牛門",
+    "area": "Tsim Sha Tsui",
+    "address": "18 Hanoi Road, Tsim Sha Tsui, Kowloon, Hong Kong",
+    "phone": "+85223668698",
+    "website": null,
+    "description": "尖沙咀の和牛焼肉レストラン。A5和牛を炭火で楽しめる本格焼肉店。コース料理と単品メニューを提供。",
+    "tags": [
+      "焼肉",
+      "A5和牛",
+      "炭火"
+    ],
+    "hours": "毎日 18:00-23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ramen-nagi-hk",
+    "name": "Ramen Nagi Hong Kong",
+    "name_ja": "ラーメン凪 香港",
+    "area": "Causeway Bay",
+    "address": "G/F, 14 Percival Street, Causeway Bay, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "東京発の人気ラーメン店。煮干しラーメンが看板メニュー。濃厚な魚介系スープが特徴。",
+    "tags": [
+      "ラーメン",
+      "煮干し",
+      "東京発"
+    ],
+    "hours": "毎日 11:00-22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "toritama-hk",
+    "name": "Toritama Hong Kong",
+    "name_ja": "鳥玉 香港",
+    "area": "Central",
+    "address": "G/F, 22 Peel Street, Central, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "親子丼と鳥料理の専門店。ふわとろの親子丼が人気。こぢんまりとした店内でカウンター席中心。",
+    "tags": [
+      "親子丼",
+      "鳥料理",
+      "カジュアル"
+    ],
+    "hours": "毎日 11:30-21:30",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "gonpachi-hk",
+    "name": "Gonpachi Hong Kong",
+    "name_ja": "権八 香港",
+    "area": "Central",
+    "address": "Central, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "東京西麻布の人気居酒屋の香港店。串焼き、蕎麦、天ぷらを提供。映画「キル・ビル」のモデルとなった店として知られる。",
+    "tags": [
+      "居酒屋",
+      "串焼き",
+      "蕎麦"
+    ],
+    "hours": "毎日 11:30-23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

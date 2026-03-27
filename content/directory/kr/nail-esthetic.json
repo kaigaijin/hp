@@ -8,7 +8,12 @@
     "phone": null,
     "website": null,
     "description": "日本人ネイリスト・ミホさんが経営する明洞のネイルサロン。JNECネイリスト技能検定1級と韓国国家ネイル資格の両方を保持。10年以上の施術経験を活かし、日本品質のネイルをソウルで提供。",
-    "tags": ["日本人経営", "ネイル", "JNECネイリスト", "明洞"],
+    "tags": [
+      "日本人経営",
+      "ネイル",
+      "JNECネイリスト",
+      "明洞"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
@@ -23,7 +28,11 @@
     "phone": null,
     "website": "https://www.instagram.com/nnail_n/",
     "description": "日本人ネイリストが韓国で15年以上活動するネイルサロン。日本製と韓国製のジェルを併用し、ポップからゴージャスまで幅広いデザインに対応。日本語での施術・相談が可能。",
-    "tags": ["日本人施術", "ネイル", "日本語対応"],
+    "tags": [
+      "日本人施術",
+      "ネイル",
+      "日本語対応"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "sns",
@@ -38,10 +47,33 @@
     "phone": null,
     "website": null,
     "description": "江南エリアにある日本語対応のネイルサロン。韓国トレンドの最新ネイルデザインを日本語で相談しながら施術してもらえる。ジェルネイル・マニキュア・フットネイルに対応。",
-    "tags": ["日本語対応", "ネイル", "韓国トレンド"],
+    "tags": [
+      "日本語対応",
+      "ネイル",
+      "韓国トレンド"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "unistella-nail-gangnam",
+    "name": "Unistella Nail",
+    "name_ja": "ユニステラネイル 江南",
+    "area": "Gangnam-gu",
+    "address": "Gangnam-gu, Seoul",
+    "phone": null,
+    "website": "https://www.instagram.com/unabornnail/",
+    "description": "韓国で人気のネイルサロン。アートネイルやジェルネイルのデザインが豊富。日本人観光客にも利用されている。",
+    "tags": [
+      "ネイル",
+      "アートネイル",
+      "江南"
+    ],
+    "hours": "毎日 10:00-20:00",
+    "status": "unverified",
+    "source": "sns",
     "last_verified": "2026-03-27"
   }
 ]

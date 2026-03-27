@@ -288,5 +288,138 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "sns"
+  },
+  {
+    "slug": "ramen-nagi-zhongshan",
+    "name": "Ramen Nagi Zhongshan",
+    "name_ja": "ラーメン凪 中山",
+    "area": "Zhongshan",
+    "address": "No. 38, Section 1, Zhongshan N Road, Zhongshan District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "東京発の人気ラーメン店。濃厚な煮干しラーメンが看板メニュー。台北に複数店舗展開。",
+    "tags": [
+      "ラーメン",
+      "煮干し",
+      "東京発"
+    ],
+    "hours": "毎日 11:30-21:30",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "katsumasa-taipei",
+    "name": "Katsumasa",
+    "name_ja": "勝政",
+    "area": "Xinyi",
+    "address": "Xinyi District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "台北で最高品質のとんかつを提供する日本チェーン。サクサクの衣と柔らかい豚肉が特徴。市内に複数店舗展開。",
+    "tags": [
+      "とんかつ",
+      "日本チェーン",
+      "カジュアル"
+    ],
+    "hours": "毎日 11:00-21:30",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "yamatoya-ramen-taipei",
+    "name": "Yamatoya Ramen",
+    "name_ja": "山登屋ラーメン",
+    "area": "Da'an",
+    "address": "Da'an District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "家系ラーメンの台北店。濃厚豚骨醤油スープにほうれん草とのりをトッピング。日本の横浜家系ラーメンの味を再現。",
+    "tags": [
+      "ラーメン",
+      "家系",
+      "濃厚"
+    ],
+    "hours": "毎日 11:30-21:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "marugame-udon-taipei",
+    "name": "Marugame Udon Taipei",
+    "name_ja": "丸亀製麺 台北",
+    "area": "Xinyi",
+    "address": "Shin Kong Mitsukoshi A11, Xinyi District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "讃岐うどんチェーン。店内で打つ自家製麺とだしが特徴。天ぷらやおにぎりのサイドメニューも充実。",
+    "tags": [
+      "うどん",
+      "日本チェーン",
+      "カジュアル"
+    ],
+    "hours": "毎日 11:00-21:30",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sukiyabashi-jiro-taipei",
+    "name": "Sushi Amane Taipei",
+    "name_ja": "鮨 あまね 台北",
+    "area": "Zhongshan",
+    "address": "Zhongshan District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "日本人寿司職人によるおまかせ寿司。カウンター席のみの小さな店で、旬の食材を使った江戸前寿司を提供。",
+    "tags": [
+      "おまかせ",
+      "寿司",
+      "カウンター"
+    ],
+    "hours": "要予約",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "yakiniku-like-taipei",
+    "name": "Yakiniku Like Taipei",
+    "name_ja": "焼肉ライク 台北",
+    "area": "Zhongshan",
+    "address": "Zhongshan District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "東京発の一人焼肉専門チェーン。カウンター席で一人でも気軽に焼肉を楽しめる。セットメニューがリーズナブル。",
+    "tags": [
+      "焼肉",
+      "一人OK",
+      "チェーン"
+    ],
+    "hours": "毎日 11:00-22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "afuri-ramen-taipei",
+    "name": "AFURI Ramen Taipei",
+    "name_ja": "阿夫利ラーメン 台北",
+    "area": "Da'an",
+    "address": "Da'an District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "東京発の柚子塩ラーメン専門店。透明な鶏清湯に柚子の香りが特徴。さっぱり系ラーメンの人気店。",
+    "tags": [
+      "ラーメン",
+      "柚子塩",
+      "東京発"
+    ],
+    "hours": "毎日 11:00-21:30",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

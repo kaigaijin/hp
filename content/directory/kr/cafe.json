@@ -102,7 +102,11 @@
     "phone": null,
     "website": null,
     "description": "日本でも人気のブルーボトルコーヒーのソウル店。三清洞の韓屋エリアにあり、伝統的な街並みの中でスペシャルティコーヒーを楽しめる。日本人観光客・在住者にも馴染みのあるブランド。",
-    "tags": ["カフェ", "コーヒー", "韓屋エリア"],
+    "tags": [
+      "カフェ",
+      "コーヒー",
+      "韓屋エリア"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
@@ -117,7 +121,11 @@
     "phone": null,
     "website": null,
     "description": "二村のリトル・トーキョーには日本式のパン屋が複数集まっている。あんぱん、メロンパン、クリームパンなど日本の定番パンが手に入る。日本のコンビニパンに近い味を求める在住者に人気。",
-    "tags": ["ベーカリー", "日本式パン", "日本人街"],
+    "tags": [
+      "ベーカリー",
+      "日本式パン",
+      "日本人街"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
@@ -132,8 +140,31 @@
     "phone": null,
     "website": null,
     "description": "済州島の緑茶ブランド「オソルロック」のティーハウス。日本の抹茶文化と通じる韓国の緑茶文化を体験できる。抹茶ラテ、緑茶ティラミスなど日本人の口に合うメニューが揃う。",
-    "tags": ["カフェ", "緑茶", "抹茶"],
+    "tags": [
+      "カフェ",
+      "緑茶",
+      "抹茶"
+    ],
     "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "komeda-coffee-seoul",
+    "name": "Komeda's Coffee Seoul",
+    "name_ja": "コメダ珈琲 ソウル",
+    "area": "Gangnam-gu",
+    "address": "Gangnam-gu, Seoul",
+    "phone": null,
+    "website": null,
+    "description": "名古屋発の喫茶店チェーン。モーニングセット、シロノワール、小倉トーストなど名古屋の喫茶文化を体験できる。",
+    "tags": [
+      "喫茶店",
+      "日本チェーン",
+      "モーニング"
+    ],
+    "hours": "毎日 7:00-22:00",
     "status": "unverified",
     "source": "google_maps",
     "last_verified": "2026-03-27"
