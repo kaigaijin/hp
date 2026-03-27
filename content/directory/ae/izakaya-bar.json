@@ -377,5 +377,62 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "google_maps"
+  },
+  {
+    "slug": "daikan-citywalk-bar",
+    "name": "Daikan Izakaya City Walk",
+    "name_ja": "大観居酒屋 シティウォーク",
+    "area": "Al Wasl",
+    "address": "City Walk, Al Wasl, Dubai",
+    "phone": null,
+    "website": "https://daikan.ae/",
+    "description": "Daikanブランドの居酒屋スタイル店。シティウォーク内でカジュアルに日本のラーメンと居酒屋料理を楽しめる。",
+    "tags": [
+      "居酒屋",
+      "ラーメン",
+      "シティウォーク"
+    ],
+    "hours": "12:00〜24:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "kimuraya-downtown-bar",
+    "name": "Kimuraya Downtown Bar",
+    "name_ja": "木村屋 ダウンタウン バー",
+    "area": "Downtown Dubai",
+    "address": "Downtown Dubai",
+    "phone": null,
+    "website": "https://kimurayadubai.com/",
+    "description": "木村屋ダウンタウン店の居酒屋エリア。日本直輸入の食材で焼き鳥・天ぷらと日本酒を楽しめる。",
+    "tags": [
+      "居酒屋",
+      "日本酒",
+      "日本食材"
+    ],
+    "hours": "17:00〜翌1:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "fujiya-downtown-izakaya",
+    "name": "Fujiya Downtown Izakaya",
+    "name_ja": "藤家 ダウンタウン 居酒屋",
+    "area": "Downtown Dubai",
+    "address": "Downtown Dubai",
+    "phone": null,
+    "website": "https://fujiya.ae/",
+    "description": "藤家ダウンタウン店の居酒屋エリア。日本人シェフによる本格和食と日本酒を提供。",
+    "tags": [
+      "居酒屋",
+      "日本人シェフ",
+      "日本酒"
+    ],
+    "hours": "17:00〜翌1:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
   }
 ]

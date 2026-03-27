@@ -236,5 +236,50 @@
     "status": "unverified",
     "source": "google_maps",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ki-dental-clinic-thonglor",
+    "name": "KI Dental Clinic",
+    "name_ja": "敬愛歯科",
+    "area": "Thonglor",
+    "address": "283/29-30 Home Place Bldg., 2F, Soi Thonglor 13, Soi Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": "+66659147955",
+    "website": "https://ki-dentalclinic.com/",
+    "description": "トンローのソイ13にある歯科クリニック。日本語通訳が常駐し、カウンセリングから治療まで日本語で対応可能。一般歯科・審美歯科・矯正歯科に対応。Home Placeビル2階に位置。",
+    "tags": ["日本語対応", "日本語通訳常駐", "審美歯科"],
+    "hours": "月火金 10:00-20:00 / 土 9:00-20:00 / 日 9:00-18:00（水木休診）",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "keishikai-dental-clinic-bangkok",
+    "name": "Keishikai Dental Clinic Bangkok",
+    "name_ja": "恵歯会デンタルクリニック バンコク",
+    "area": "Bangkok",
+    "address": "Bangkok, Thailand",
+    "phone": null,
+    "website": "http://www.keishikai.net/",
+    "description": "日本の歯科医師が開設したバンコクの歯科クリニック。一般歯科・予防歯科・審美歯科に対応。日本語でのカウンセリングが可能で、日本水準の治療を提供。",
+    "tags": ["日本語対応", "日本人歯科医師", "予防歯科"],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "bangkok-dental-hospital-thonglor",
+    "name": "Bangkok Dental Hospital",
+    "name_ja": "バンコク デンタルホスピタル",
+    "area": "Thonglor",
+    "address": "Soi Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "トンローに位置する歯科専門病院。一般歯科からインプラント・矯正・口腔外科まで幅広い歯科治療を提供。日本語通訳サービスがあり、外国人患者の受け入れ体制が整っている。",
+    "tags": ["日本語対応", "歯科専門病院", "インプラント", "矯正歯科"],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
   }
 ]

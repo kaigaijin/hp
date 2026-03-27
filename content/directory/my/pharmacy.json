@@ -157,5 +157,35 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "google_maps"
+  },
+  {
+    "slug": "alpro-sugi-pavilion",
+    "name": "Alpro Sugi Pharmacy (Pavilion KL)",
+    "name_ja": "アルプロスギ薬局 パビリオンKL店",
+    "area": "Bukit Bintang",
+    "address": "Pavilion KL, 168 Jalan Bukit Bintang, 55100 Kuala Lumpur",
+    "phone": null,
+    "website": "https://www.alpropharmacy.com/",
+    "description": "日本のスギ薬局とアルプロの合弁による日本式ドラッグストアのPavilion KL店。日本直輸入のヘルスケア・ビューティー・ベビーケア製品を販売。AI肌診断サービスも提供。",
+    "tags": ["日本式ドラッグストア", "日本製品", "ヘルスケア", "コスメ"],
+    "hours": "10:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "watsons-mont-kiara",
+    "name": "Watsons Mont Kiara",
+    "name_ja": "ワトソンズ モントキアラ",
+    "area": "Mont Kiara",
+    "address": "163 Retail Park, Mont Kiara, 50480 Kuala Lumpur",
+    "phone": null,
+    "website": "https://www.watsons.com.my/",
+    "description": "マレーシア最大手ドラッグストアチェーンのモントキアラ店。日本製のスキンケア・サプリメント・日用品も取り扱い。モントキアラ在住の日本人が日常的に利用しやすい立地。",
+    "tags": ["ドラッグストア", "コスメ", "サプリメント", "チェーン"],
+    "hours": "10:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
   }
 ]

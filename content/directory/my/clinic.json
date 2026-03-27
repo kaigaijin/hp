@@ -273,5 +273,50 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "prince-court-medical-centre",
+    "name": "Prince Court Medical Centre",
+    "name_ja": "プリンスコートメディカルセンター",
+    "area": "KLCC",
+    "address": "39, Jalan Kia Peng, 50450 Kuala Lumpur",
+    "phone": "+60321600000",
+    "website": "https://www.princecourt.com/",
+    "description": "KLCC近くの大型私立総合病院。国際患者サービス部門を備え、多言語対応スタッフが在籍。ことびあクリニックが院内に併設されており、日本語での受診が可能。救急・入院・手術対応可能。",
+    "tags": ["総合病院", "国際患者サービス", "救急対応", "入院可"],
+    "hours": "24時間（外来は診療科により異なる）",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "cotovia-clinic-mont-kiara",
+    "name": "Cotovia Clinic (Plaza Mont Kiara)",
+    "name_ja": "ことびあクリニック プラザモントキアラ",
+    "area": "Mont Kiara",
+    "address": "Plaza Mont Kiara, 2 Jalan Kiara, Mont Kiara, 50480 Kuala Lumpur",
+    "phone": null,
+    "website": "https://cotoviaclinic.my/",
+    "description": "ことびあクリニックのモントキアラ拠点。24時間日本語LINE対応で、海外旅行保険のキャッシュレス診療に対応。モントキアラ在住の日本人ファミリーに便利な立地。",
+    "tags": ["日本語対応", "24時間LINE対応", "保険キャッシュレス"],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "cotovia-clinic-park-city",
+    "name": "Cotovia Clinic (Park City Medical Centre)",
+    "name_ja": "ことびあクリニック パークシティメディカルセンター",
+    "area": "Desa Park City",
+    "address": "Park City Medical Centre, No. 2, Jalan Intisari Perdana, Desa ParkCity, 52200 Kuala Lumpur",
+    "phone": null,
+    "website": "https://cotoviaclinic.my/",
+    "description": "ことびあクリニックのデサパークシティ拠点。Park City Medical Centre内に位置し、24時間日本語LINE対応。海外旅行保険のキャッシュレス診療に対応。",
+    "tags": ["日本語対応", "24時間LINE対応", "保険キャッシュレス"],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
   }
 ]

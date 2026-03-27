@@ -315,5 +315,50 @@
     "status": "unverified",
     "source": "google_maps",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "kota-kinabalu-japanese-school",
+    "name": "Kota Kinabalu Japanese School",
+    "name_ja": "コタキナバル日本人学校",
+    "area": "Kota Kinabalu (Sabah)",
+    "address": "Kota Kinabalu, Sabah",
+    "phone": null,
+    "website": null,
+    "description": "コタキナバルにある日本人学校。小学部・中学部を設置し、日本の学習指導要領に準拠した教育を実施。サバ州在住の日本人家族の子弟が通学。",
+    "tags": ["小学校", "中学校", "日本語教育", "日本のカリキュラム", "サバ"],
+    "hours": "月-金 8:00-16:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "a-to-z-language-centre",
+    "name": "A to Z Language Centre",
+    "name_ja": "A to Z ランゲージセンター",
+    "area": "Kuala Lumpur",
+    "address": "Kuala Lumpur",
+    "phone": null,
+    "website": "https://atozlanguage.com/",
+    "description": "KLにある語学学校。日本語・英語・中国語・マレー語など多言語のコースを提供。グループレッスン・プライベートレッスンに対応。企業向けの語学研修も実施。",
+    "tags": ["語学学校", "日本語", "英語", "多言語対応"],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "kumon-subang-jaya",
+    "name": "Kumon Subang Jaya",
+    "name_ja": "公文式 スバンジャヤ教室",
+    "area": "Subang Jaya",
+    "address": "Subang Jaya, Selangor",
+    "phone": null,
+    "website": "https://my.kumonglobal.com/",
+    "description": "公文式のスバンジャヤ教室。算数・英語のプログラムを提供。スバンジャヤ在住の日本人ファミリーに便利。自学自習スタイルで個々のペースで学べる。",
+    "tags": ["学習塾", "算数", "英語", "日本式教育"],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
   }
 ]

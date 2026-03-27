@@ -471,5 +471,62 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "google_maps"
+  },
+  {
+    "slug": "supernormal-melbourne-bar",
+    "name": "Supernormal Bar",
+    "name_ja": "スーパーノーマル バー",
+    "area": "Melbourne CBD",
+    "address": "Flinders Lane, Melbourne VIC 3000",
+    "phone": null,
+    "website": null,
+    "description": "メルボルンCBDの人気アジアンダイニングのバーエリア。日本のウイスキーカクテルと居酒屋スタイルのおつまみ。",
+    "tags": [
+      "バー",
+      "カクテル",
+      "アジアン"
+    ],
+    "hours": "17:00〜翌1:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "kinoya-sydney-bar",
+    "name": "Kinoya Bar",
+    "name_ja": "キノヤ バー",
+    "area": "Barangaroo",
+    "address": "King Street Wharf, Sydney NSW",
+    "phone": null,
+    "website": "https://kinoya.com.au/",
+    "description": "キノヤ併設のバーエリア。ラーメンと焼き鳥に加え、日本のビール・焼酎・日本酒を楽しめる。",
+    "tags": [
+      "バー",
+      "ラーメン",
+      "焼き鳥"
+    ],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "sake-restaurant-rocks-bar",
+    "name": "SAKE Restaurant Bar The Rocks",
+    "name_ja": "SAKE バー ロックス",
+    "area": "The Rocks",
+    "address": "The Rocks, Sydney, NSW",
+    "phone": null,
+    "website": null,
+    "description": "ロックスのSAKEレストラン併設バー。日本酒・ウイスキー・カクテルとおまかせメニューを提供。",
+    "tags": [
+      "日本酒",
+      "バー",
+      "ロックス"
+    ],
+    "hours": "17:00〜翌1:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
   }
 ]

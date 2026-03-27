@@ -1418,5 +1418,245 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "honjo-sheung-wan",
+    "name": "Honjo",
+    "name_ja": "本所",
+    "area": "Sheung Wan",
+    "address": "1/F, 77-91 Queen's Road West, Sheung Wan, Hong Kong",
+    "phone": null,
+    "website": "https://honjo.hk/",
+    "description": "上環のモダン日本料理レストラン。天ぷら・刺身・寿司と充実したドリンクメニュー。洗練された空間。",
+    "tags": [
+      "日本料理",
+      "天ぷら",
+      "モダン"
+    ],
+    "hours": "12:00〜14:30 / 18:00〜23:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "torikaze-central",
+    "name": "Torikaze",
+    "name_ja": "鳥風",
+    "area": "Central",
+    "address": "Central, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "2025年秋オープンのセントラルの焼き鳥おまかせレストラン。香港産の三黄鶏と日本直送の希少部位を使用。おまかせHKD780。",
+    "tags": [
+      "焼き鳥",
+      "おまかせ",
+      "2025年オープン"
+    ],
+    "hours": "18:00〜23:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "sns"
+  },
+  {
+    "slug": "minato-wan-chai",
+    "name": "MINATO",
+    "name_ja": "みなと",
+    "area": "Wan Chai",
+    "address": "Great Eagle Centre, Harbour Road, Wan Chai, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "湾仔のグレートイーグルセンター内の日本料理レストラン。ウニと黒トリュフの焼きライスや鉄板焼き和牛が人気。",
+    "tags": [
+      "日本料理",
+      "鉄板焼き",
+      "ウニ"
+    ],
+    "hours": "12:00〜14:30 / 18:00〜22:30",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "tsukemen-gyorai-hk",
+    "name": "Tsukemen Gyorai",
+    "name_ja": "つけ麺 魚雷",
+    "area": "Central",
+    "address": "Central, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "熊本発のつけ麺専門店の香港初出店。濃厚でありながら爽やかなバランスのつけ汁が特徴。2025年オープン。",
+    "tags": [
+      "つけ麺",
+      "熊本発",
+      "2025年オープン"
+    ],
+    "hours": "11:30〜21:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "sns"
+  },
+  {
+    "slug": "genki-sushi-hk-kwai-fong",
+    "name": "Genki Sushi Kwai Fong",
+    "name_ja": "元気寿司 葵芳店",
+    "area": "Kwai Fong",
+    "address": "Kwai Fong, New Territories, Hong Kong",
+    "phone": null,
+    "website": "https://order.genkisushi.com.hk/",
+    "description": "元気寿司の葵芳店。新界エリアでもリーズナブルな回転寿司を提供。",
+    "tags": [
+      "回転寿司",
+      "日本発チェーン"
+    ],
+    "hours": "毎日 11:00〜22:30",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "genki-sushi-hk-tseung-kwan-o",
+    "name": "Genki Sushi Tseung Kwan O",
+    "name_ja": "元気寿司 将軍澳",
+    "area": "Tseung Kwan O",
+    "address": "Tseung Kwan O, New Territories, Hong Kong",
+    "phone": null,
+    "website": "https://order.genkisushi.com.hk/",
+    "description": "元気寿司の将軍澳店。ファミリー向けのショッピングモール内に位置。",
+    "tags": [
+      "回転寿司",
+      "日本発チェーン"
+    ],
+    "hours": "毎日 11:00〜22:30",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "sushiro-hk-tuen-mun",
+    "name": "Sushiro Tuen Mun",
+    "name_ja": "スシロー 屯門店",
+    "area": "Tuen Mun",
+    "address": "Tuen Mun Town Plaza, Phase 1, Tuen Mun, Hong Kong",
+    "phone": null,
+    "website": "https://sushirohk.com.hk/",
+    "description": "スシローの屯門店。新界エリアの大型ショッピングモール内で手軽に回転寿司を楽しめる。",
+    "tags": [
+      "回転寿司",
+      "日本発チェーン"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "sushiro-hk-yuen-long",
+    "name": "Sushiro Yuen Long",
+    "name_ja": "スシロー 元朗店",
+    "area": "Yuen Long",
+    "address": "Yuen Long Plaza, Yuen Long, Hong Kong",
+    "phone": null,
+    "website": "https://sushirohk.com.hk/",
+    "description": "スシローの元朗店。新界北西部で日本の回転寿司チェーンを楽しめる。",
+    "tags": [
+      "回転寿司",
+      "日本発チェーン"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "nanas-green-tea-hk-kai-tak",
+    "name": "Nana's Green Tea Kai Tak",
+    "name_ja": "ナナズグリーンティー 啓徳",
+    "area": "Kai Tak",
+    "address": "AIRSIDE Mall, Kai Tak, Hong Kong",
+    "phone": null,
+    "website": "https://www.nanasgreentea.com/",
+    "description": "日本最大の抹茶カフェチェーンの香港初出店。AIRSIDEモール内。抹茶ラテ・抹茶パフェ・丼ぶりメニューを提供。",
+    "tags": [
+      "抹茶カフェ",
+      "日本発チェーン",
+      "丼ぶり"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "sns"
+  },
+  {
+    "slug": "nanas-green-tea-hk-southside",
+    "name": "Nana's Green Tea Southside",
+    "name_ja": "ナナズグリーンティー サウスサイド",
+    "area": "Wong Chuk Hang",
+    "address": "THE SOUTHSIDE, Wong Chuk Hang, Hong Kong",
+    "phone": null,
+    "website": "https://www.nanasgreentea.com/",
+    "description": "ナナズグリーンティーの香港2号店。黄竹坑のTHE SOUTHSIDE内。抹茶白玉パフェや抹茶チョコクランチフラッペが人気。",
+    "tags": [
+      "抹茶カフェ",
+      "日本発チェーン"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "sns"
+  },
+  {
+    "slug": "matcha-tokyo-hk",
+    "name": "The Matcha Tokyo HK",
+    "name_ja": "ザ・マッチャ東京 香港",
+    "area": "Central",
+    "address": "Central, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "東京発のオーガニック抹茶専門店。抹茶ソフトクリーム・抹茶もちクロッフル・スペシャルティドリンクが人気。",
+    "tags": [
+      "抹茶",
+      "東京発",
+      "オーガニック"
+    ],
+    "hours": "毎日 10:00〜21:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "pepper-lunch-hk-mong-kok",
+    "name": "Pepper Lunch Mong Kok",
+    "name_ja": "ペッパーランチ 旺角",
+    "area": "Mong Kok",
+    "address": "Mong Kok, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "ペッパーランチの旺角店。熱々の鉄板でビーフペッパーライスを提供。",
+    "tags": [
+      "鉄板",
+      "日本発チェーン"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sukiya-hk-sheung-wan",
+    "name": "Sukiya Sheung Wan",
+    "name_ja": "すき家 上環",
+    "area": "Sheung Wan",
+    "address": "Sheung Wan, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "すき家の上環店。手頃な価格の牛丼・カレーで手軽にランチ。",
+    "tags": [
+      "牛丼",
+      "日本発チェーン"
+    ],
+    "hours": "24時間営業",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
   }
 ]

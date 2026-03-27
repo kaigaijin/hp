@@ -202,5 +202,50 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "google_maps"
+  },
+  {
+    "slug": "hartamas-real-estate",
+    "name": "Hartamas Real Estate",
+    "name_ja": "ハルタマス リアルエステート",
+    "area": "Kuala Lumpur",
+    "address": "Kuala Lumpur",
+    "phone": null,
+    "website": "https://www.hartamas.com/",
+    "description": "KL・セランゴール地区を中心に展開する不動産エージェント。高級コンドミニアム・バンガローの賃貸・売買を専門とし、エクスパット向けの物件紹介に強み。地域密着型のサービスでアフターサポートも充実。",
+    "tags": ["賃貸", "売買", "高級物件", "エクスパット向け"],
+    "hours": "月-金 9:00-18:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "iqi-global-kl",
+    "name": "IQI Global",
+    "name_ja": "IQIグローバル",
+    "area": "Kuala Lumpur",
+    "address": "Kuala Lumpur",
+    "phone": null,
+    "website": "https://www.iqiglobal.com/",
+    "description": "マレーシア発のグローバル不動産テック企業。30カ国以上で6万人以上のエージェントを擁する。マレーシア国内外の物件情報を提供し、外国人のマレーシア不動産購入をサポート。テクノロジーを活用した先進的なマーケティングが特徴。",
+    "tags": ["賃貸", "売買", "不動産テック", "グローバル"],
+    "hours": "月-金 9:00-18:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "propertyguru-malaysia",
+    "name": "PropertyGuru Malaysia",
+    "name_ja": "プロパティグル マレーシア",
+    "area": "Kuala Lumpur",
+    "address": "Kuala Lumpur（オンラインプラットフォーム）",
+    "phone": null,
+    "website": "https://www.propertyguru.com.my/",
+    "description": "マレーシア最大の不動産ポータルサイト。賃貸・売買物件をエリア・価格帯・物件タイプで検索可能。エージェントに直接問い合わせができ、物件の相場感を把握するのに便利。英語対応。",
+    "tags": ["不動産ポータル", "賃貸", "売買", "オンライン検索"],
+    "hours": "24時間（オンラインプラットフォーム）",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
   }
 ]

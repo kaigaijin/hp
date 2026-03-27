@@ -137,5 +137,50 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "localservice-my",
+    "name": "LocalService.my",
+    "name_ja": "ローカルサービス・マイ",
+    "area": "Kuala Lumpur",
+    "address": "Kuala Lumpur（オンラインプラットフォーム）",
+    "phone": null,
+    "website": "https://localservice.my/",
+    "description": "マレーシアのホームサービスマッチングプラットフォーム。配管工・電気工事・エアコン修理・ハンディマンなどの専門業者をオンラインで検索・予約可能。KL・セランゴール地区をカバー。",
+    "tags": ["ホームサービス", "配管", "電気工事", "オンラインプラットフォーム"],
+    "hours": "24時間（オンライン予約）",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "spacereno-handyman",
+    "name": "SpaceReno Handyman Services",
+    "name_ja": "スペースリノ ハンディマンサービス",
+    "area": "Kuala Lumpur",
+    "address": "Kuala Lumpur（出張サービス）",
+    "phone": null,
+    "website": "https://spacereno.com/handyman-services/",
+    "description": "KL・セランゴール地区のハンディマン・リノベーションサービス。塗装・配管・電気工事・タイル・床張りなど住宅修繕全般に対応。リノベーション相談も可能。",
+    "tags": ["ハンディマン", "リノベーション", "配管", "塗装"],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "hello-handyman-kl",
+    "name": "Hello Handyman",
+    "name_ja": "ハローハンディマン",
+    "area": "Kuala Lumpur",
+    "address": "Kuala Lumpur（出張サービス）",
+    "phone": null,
+    "website": "https://hellohandyman.com.my/",
+    "description": "KL・セランゴール地区の住宅修理サービス。「No job is too small」をモットーに、配管・電気・エアコン・ドア修理・家具組み立てなど小さな修繕から対応。コンドミニアムの細かい修繕に便利。",
+    "tags": ["ハンディマン", "配管", "電気工事", "小修繕対応"],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
   }
 ]

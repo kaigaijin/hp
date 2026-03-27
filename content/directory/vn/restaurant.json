@@ -964,5 +964,420 @@
     "status": "unverified",
     "source": "google_maps",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "yuugatei-mutsumian-hcmc",
+    "name": "Yuugatei Mutsumian",
+    "name_ja": "遊雅亭 睦庵",
+    "area": "District 1",
+    "address": "15/7 Le Thanh Ton, Ben Nghe, District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "レタントン通りの路地裏にある鰻の名店。炭火で丁寧に焼き上げる本格的な鰻重が看板メニュー。日本人駐在員の間で評価が高い。",
+    "tags": [
+      "鰻",
+      "炭火焼き",
+      "ジャパンタウン"
+    ],
+    "hours": "11:00〜14:00 / 17:00〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "robata-an-hcmc",
+    "name": "Robata AN",
+    "name_ja": "炉端 AN",
+    "area": "District 1",
+    "address": "Le Thanh Ton, Ben Nghe, District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": "https://www.facebook.com/RobataDiningAn/",
+    "description": "レタントン通りの炉端焼きダイニング。炭火で焼く魚介と肉料理が自慢。居酒屋スタイルで日本酒と楽しめる。",
+    "tags": [
+      "炉端焼き",
+      "居酒屋",
+      "ジャパンタウン"
+    ],
+    "hours": "17:00〜23:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "sns"
+  },
+  {
+    "slug": "shamoji-thao-dien",
+    "name": "Shamoji Robata Yaki",
+    "name_ja": "しゃもじ 炉端焼き",
+    "area": "Thao Dien",
+    "address": "59 Xuan Thuy, Thao Dien, District 2, Ho Chi Minh City",
+    "phone": "+841900066890",
+    "website": null,
+    "description": "タオディエンの人気日本式炉端焼きレストラン。カジュアルで温かい雰囲気。4.1/5の高評価。",
+    "tags": [
+      "炉端焼き",
+      "タオディエン",
+      "カジュアル"
+    ],
+    "hours": "17:00〜23:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "omakase-tiger-thao-dien",
+    "name": "Omakase Tiger Thao Dien",
+    "name_ja": "おまかせタイガー タオディエン",
+    "area": "Thao Dien",
+    "address": "48A Tran Ngoc Dien, An Khanh, Thu Duc, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "タオディエンの高評価おまかせ寿司レストラン。フエ様式の家屋を改装した空間で、厳選食材のおまかせコースを提供。4.9/5の評価。",
+    "tags": [
+      "おまかせ",
+      "寿司",
+      "タオディエン",
+      "高評価"
+    ],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "ikemen-udon-thao-dien",
+    "name": "IKEMEN UDON & IZAKAYA",
+    "name_ja": "イケメン うどん＆居酒屋",
+    "area": "Thao Dien",
+    "address": "10 Song Hanh, An Phu An Khanh, Thu Duc, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "タオディエンのうどん＆居酒屋。本格的な讃岐うどんと居酒屋メニューを提供。カジュアルで居心地の良い空間。",
+    "tags": [
+      "うどん",
+      "居酒屋",
+      "タオディエン"
+    ],
+    "hours": "11:00〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "tokachiya-ramen-hanoi",
+    "name": "Tokachiya Ramen",
+    "name_ja": "十勝屋ラーメン",
+    "area": "Ba Dinh, Hanoi",
+    "address": "Kim Ma, Ba Dinh, Hanoi",
+    "phone": null,
+    "website": null,
+    "description": "ハノイ・キンマ通りのラーメン店。白を基調としたミニマルな空間に和風ランタンの温かい照明。本格的なラーメンを提供。",
+    "tags": [
+      "ラーメン",
+      "キンマ通り",
+      "ミニマル"
+    ],
+    "hours": "11:00〜14:00 / 17:00〜21:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "oyama-ramen-hanoi",
+    "name": "Ramen & Butadon OYAMA Kim Ma",
+    "name_ja": "ラーメン＆豚丼 おやま キンマ",
+    "area": "Ba Dinh, Hanoi",
+    "address": "Kim Ma, Ba Dinh, Hanoi",
+    "phone": null,
+    "website": null,
+    "description": "ハノイで最高のラーメン店の一つ。坦々ラーメンとチャーシューラーメンが絶品。小さな店舗ながら日本の食堂の雰囲気を再現。",
+    "tags": [
+      "ラーメン",
+      "豚丼",
+      "キンマ通り"
+    ],
+    "hours": "11:00〜14:00 / 17:00〜21:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "neko-ramen-hanoi",
+    "name": "Neko Ramen Kim Ma",
+    "name_ja": "ネコラーメン キンマ",
+    "area": "Ba Dinh, Hanoi",
+    "address": "Kim Ma Thuong, Ba Dinh, Hanoi",
+    "phone": null,
+    "website": null,
+    "description": "ハノイ・キンマ通り上部のラーメン店。多彩なラーメンメニューを提供。グループ利用にも適した広い店内。",
+    "tags": [
+      "ラーメン",
+      "キンマ通り",
+      "グループ向け"
+    ],
+    "hours": "10:30〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "kanpai-thao-dien",
+    "name": "Kanpai Thao Dien",
+    "name_ja": "乾杯 タオディエン",
+    "area": "Thao Dien",
+    "address": "44b Ngo Quang Huy, Thao Dien, District 2, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "タオディエンの日本料理レストラン。新鮮な寿司・刺身を中心に提供。タオディエンの日本人在住者に人気。",
+    "tags": [
+      "寿司",
+      "刺身",
+      "タオディエン"
+    ],
+    "hours": "11:00〜14:00 / 17:00〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "tama-river-thao-dien",
+    "name": "Tama River",
+    "name_ja": "多摩川 タオディエン",
+    "area": "Thao Dien",
+    "address": "14E1 Thao Dien Street, Thao Dien, District 2, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "タオディエンの日本料理レストラン。高品質な寿司とラーメンを提供。落ち着いた雰囲気で食事を楽しめる。",
+    "tags": [
+      "寿司",
+      "ラーメン",
+      "タオディエン"
+    ],
+    "hours": "11:00〜14:00 / 17:00〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "ramen-shin-d1-hcmc",
+    "name": "Ramen Shin District 1",
+    "name_ja": "ラーメン真 1区",
+    "area": "District 1",
+    "address": "District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "ホーチミン1区のラーメン店。豚骨・味噌・醤油の各種ラーメンを提供。日本人経営で本格的な味。",
+    "tags": [
+      "ラーメン",
+      "日本人経営"
+    ],
+    "hours": "11:00〜14:00 / 17:00〜21:30",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "ippudo-d7-hcmc",
+    "name": "Ippudo District 7",
+    "name_ja": "一風堂 7区店",
+    "area": "District 7",
+    "address": "District 7, Ho Chi Minh City",
+    "phone": null,
+    "website": "https://www.facebook.com/ippudovietnam/",
+    "description": "一風堂のホーチミン7区店（SCビボシティ内）。フーミーフン地区の日本人在住者に人気。",
+    "tags": [
+      "ラーメン",
+      "日本発チェーン",
+      "フーミーフン"
+    ],
+    "hours": "毎日 11:00〜21:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "marukame-udon-d1-hcmc",
+    "name": "Marukame Udon District 1",
+    "name_ja": "丸亀製麺 1区",
+    "area": "District 1",
+    "address": "Le Thanh Ton, District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "丸亀製麺のホーチミン1区店。レタントン通りで本格讃岐うどんをセルフサービスで提供。",
+    "tags": [
+      "うどん",
+      "日本発チェーン",
+      "レタントン"
+    ],
+    "hours": "毎日 10:00〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sushi-dining-aoi-d1",
+    "name": "Sushi Dining Aoi District 1",
+    "name_ja": "寿司ダイニング葵 1区",
+    "area": "District 1",
+    "address": "District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "ホーチミン1区の本格寿司ダイニング。日本人シェフが握る新鮮な寿司と刺身を提供。コースメニューも。",
+    "tags": [
+      "寿司",
+      "日本人シェフ",
+      "コース"
+    ],
+    "hours": "11:30〜14:00 / 17:30〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "coco-ichibanya-d1-hcmc",
+    "name": "CoCo Ichibanya District 1 HCMC",
+    "name_ja": "CoCo壱番屋 1区",
+    "area": "District 1",
+    "address": "District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "CoCo壱番屋のホーチミン1区店。辛さ・ご飯量・トッピングをカスタマイズできる日本のカレーチェーン。",
+    "tags": [
+      "カレー",
+      "日本発チェーン",
+      "カスタマイズ"
+    ],
+    "hours": "毎日 10:00〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sukiya-d1-hcmc",
+    "name": "Sukiya District 1 HCMC",
+    "name_ja": "すき家 1区",
+    "area": "District 1",
+    "address": "District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "すき家のホーチミン1区店。牛丼・カレー・うどんを手頃な価格で提供。",
+    "tags": [
+      "牛丼",
+      "日本発チェーン"
+    ],
+    "hours": "毎日 7:00〜23:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "yoshinoya-d1-hcmc",
+    "name": "Yoshinoya District 1 HCMC",
+    "name_ja": "吉野家 1区",
+    "area": "District 1",
+    "address": "District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "吉野家のホーチミン1区店。日本の牛丼チェーンで手頃にランチ。",
+    "tags": [
+      "牛丼",
+      "日本発チェーン"
+    ],
+    "hours": "毎日 7:00〜23:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "pepper-lunch-d1-hcmc",
+    "name": "Pepper Lunch District 1",
+    "name_ja": "ペッパーランチ 1区",
+    "area": "District 1",
+    "address": "District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "ペッパーランチの1区店。熱々の鉄板でビーフペッパーライスを提供。",
+    "tags": [
+      "鉄板",
+      "日本発チェーン"
+    ],
+    "hours": "毎日 10:00〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "gyu-kaku-d1-hcmc",
+    "name": "Gyu-Kaku District 1 HCMC",
+    "name_ja": "牛角 1区",
+    "area": "District 1",
+    "address": "District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "牛角のホーチミン1区店。食べ放題コースで日本式焼肉を楽しめる。",
+    "tags": [
+      "焼肉",
+      "食べ放題",
+      "日本発チェーン"
+    ],
+    "hours": "11:00〜23:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "katsuya-d1-hcmc",
+    "name": "Katsuya District 1 HCMC",
+    "name_ja": "かつや 1区",
+    "area": "District 1",
+    "address": "District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "かつやのホーチミン1区店。サクサクのとんかつ定食をリーズナブルに提供する日本のチェーン。",
+    "tags": [
+      "とんかつ",
+      "日本発チェーン",
+      "定食"
+    ],
+    "hours": "毎日 10:00〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "ippudo-hanoi-rest",
+    "name": "Ippudo Hanoi",
+    "name_ja": "一風堂 ハノイ",
+    "area": "Hoan Kiem, Hanoi",
+    "address": "Hoan Kiem, Hanoi",
+    "phone": null,
+    "website": "https://www.facebook.com/ippudovietnam/",
+    "description": "一風堂のハノイ店。濃厚な博多豚骨ラーメンをハノイでも楽しめる。",
+    "tags": [
+      "ラーメン",
+      "日本発チェーン",
+      "豚骨"
+    ],
+    "hours": "毎日 11:00〜21:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "ootoya-d1-hcmc",
+    "name": "Ootoya District 1 HCMC",
+    "name_ja": "大戸屋 1区",
+    "area": "District 1",
+    "address": "District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "大戸屋のホーチミン1区店。手作りの家庭料理を定食スタイルで提供する日本のチェーン。",
+    "tags": [
+      "定食",
+      "日本発チェーン",
+      "家庭料理"
+    ],
+    "hours": "毎日 10:00〜22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
   }
 ]
