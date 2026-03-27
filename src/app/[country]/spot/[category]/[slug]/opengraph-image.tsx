@@ -1,24 +1,14 @@
 import { ImageResponse } from "next/og";
-import { countries } from "@/lib/countries";
 import { getCountry } from "@/lib/countries";
-import { categories, getCategory, getSpot, getSpotsByCategory } from "@/lib/directory";
+import { getCategory, getSpot } from "@/lib/directory";
 
 export const alt = "Kaigaijin スポット";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
-export function generateStaticParams() {
-  const params: { country: string; category: string; slug: string }[] = [];
-  for (const c of countries) {
-    for (const cat of categories) {
-      const spots = getSpotsByCategory(c.code, cat.slug);
-      for (const spot of spots) {
-        params.push({ country: c.code, category: cat.slug, slug: spot.slug });
-      }
-    }
-  }
-  return params;
-}
+// オンデマンド生成（ビルド時間短縮のためgenerateStaticParamsを使わない）
+export const dynamic = "force-static";
+export const dynamicParams = true;
 
 export default async function OgImage({
   params,
