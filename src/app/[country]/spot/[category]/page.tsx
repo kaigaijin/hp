@@ -96,10 +96,10 @@ export function generateMetadata({
     if (group) {
       return {
         title: `${country.name}の${group.name}`,
-        description: `${country.name}で日本人におすすめの${group.name}をカテゴリ別に探せるKAIマップ。`,
+        description: `${country.name}で日本人におすすめの${group.name}をカテゴリ別に探せるKAIスポット。`,
         openGraph: {
-          title: `${country.name}の${group.name} | KAIマップ`,
-          description: `${country.name}の${group.name}をカテゴリ別に探せるKAIマップ。`,
+          title: `${country.name}の${group.name} | KAIスポット`,
+          description: `${country.name}の${group.name}をカテゴリ別に探せるKAIスポット。`,
           type: "website",
           locale: "ja_JP",
           url: `https://kaigaijin.jp/${code}/spot/${slug}`,
@@ -175,7 +175,7 @@ export default async function CategoryPage({
                   href={`/${code}/spot`}
                   className="hover:text-ocean-600 transition-colors"
                 >
-                  KAIマップ
+                  KAIスポット
                 </Link>
                 <ChevronRight size={12} />
                 <span className="text-stone-600 dark:text-stone-300">
@@ -318,7 +318,7 @@ export default async function CategoryPage({
                 href={`/${code}/spot`}
                 className="hover:text-ocean-600 transition-colors"
               >
-                KAIマップ
+                KAIスポット
               </Link>
               {parentGroup && (
                 <>

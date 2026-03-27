@@ -118,11 +118,11 @@ export default async function CountryPage({
           </div>
         </section>
 
-        {/* KAIマップ + 記事 を統合した2カラムレイアウト */}
+        {/* KAIスポット + 記事 を統合した2カラムレイアウト */}
         <section className="py-12 md:py-16">
           <div className="max-w-6xl mx-auto px-4">
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-              {/* 左カラム: KAIマップ */}
+              {/* 左カラム: KAIスポット */}
               {totalSpots > 0 && (
                 <div className="lg:col-span-1">
                   <div className="sticky top-24">
@@ -135,7 +135,7 @@ export default async function CountryPage({
                         className="text-ocean-600 dark:text-ocean-400"
                       />
                       <h2 className="heading-editorial text-xl font-bold group-hover:text-ocean-700 dark:group-hover:text-ocean-400 transition-colors">
-                        KAIマップ
+                        KAIスポット
                       </h2>
                       <span className="text-xs text-stone-400 dark:text-stone-500 ml-1">
                         {totalSpots}件
@@ -192,7 +192,7 @@ export default async function CountryPage({
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                       {articles.map((article) => {
-                        // 記事カテゴリに対応するKAIマップグループを取得
+                        // 記事カテゴリに対応するKAIスポットグループを取得
                         const relatedGroups =
                           articleCategoryMap[article.category] ?? [];
                         const relatedGroup = relatedGroups[0]
@@ -230,12 +230,12 @@ export default async function CountryPage({
                                 {article.date}
                               </div>
                               <div className="flex items-center gap-3">
-                                {/* 関連KAIマップへのリンク */}
+                                {/* 関連KAIスポットへのリンク */}
                                 {relatedGroup && (
                                   <Link
                                     href={`/${code}/spot/${relatedGroup.slug}`}
                                     className="flex items-center gap-1 text-xs text-stone-400 hover:text-ocean-600 dark:hover:text-ocean-400 transition-colors"
-                                    title={`${relatedGroup.name}のKAIマップ`}
+                                    title={`${relatedGroup.name}のKAIスポット`}
                                   >
                                     <MapPin size={11} />
                                     {relatedGroup.name}

@@ -84,11 +84,11 @@ export function generateMetadata({
     const country = getCountry(code);
     if (!country) return {};
     return {
-      title: `${country.name}のKAIマップ — 日本人向けスポット一覧`,
-      description: `${country.name}で日本人に便利なレストラン・クリニック・美容室・不動産など、カテゴリ別に探せるKAIマップ。`,
+      title: `${country.name}のKAIスポット — 日本人向けスポット一覧`,
+      description: `${country.name}で日本人に便利なレストラン・クリニック・美容室・不動産など、カテゴリ別に探せるKAIスポット。`,
       openGraph: {
-        title: `${country.name}のKAIマップ | Kaigaijin`,
-        description: `${country.name}で日本人に便利なスポットをカテゴリ別に探せるKAIマップ。`,
+        title: `${country.name}のKAIスポット | Kaigaijin`,
+        description: `${country.name}で日本人に便利なスポットをカテゴリ別に探せるKAIスポット。`,
         type: "website",
         locale: "ja_JP",
         url: `https://kaigaijin.jp/${code}/spot`,
@@ -159,12 +159,12 @@ export default async function SpotIndexPage({
                 {country.flag} {country.name}
               </Link>
               <ChevronRight size={12} />
-              <span className="text-stone-600 dark:text-stone-300">KAIマップ</span>
+              <span className="text-stone-600 dark:text-stone-300">KAIスポット</span>
             </nav>
             <div className="flex items-center justify-between">
               <div>
                 <h1 className="text-2xl font-bold text-stone-800 dark:text-stone-100">
-                  {country.flag} {country.name}のKAIマップ
+                  {country.flag} {country.name}のKAIスポット
                 </h1>
                 <p className="text-sm text-stone-500 dark:text-stone-400 mt-1">
                   {totalSpots}件を掲載中

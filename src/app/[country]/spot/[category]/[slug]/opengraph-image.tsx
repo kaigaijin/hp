@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 import { getCountry } from "@/lib/countries";
 import { getCategory, getSpot } from "@/lib/directory";
 
-export const alt = "KAIマップ | Kaigaijin";
+export const alt = "KAIスポット | Kaigaijin";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 

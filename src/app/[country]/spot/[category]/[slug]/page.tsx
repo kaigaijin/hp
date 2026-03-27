@@ -154,7 +154,7 @@ export default async function SpotDetailPage({
       {
         "@type": "ListItem",
         position: 3,
-        name: "KAIマップ",
+        name: "KAIスポット",
         item: `https://kaigaijin.jp/${code}/spot`,
       },
       {
@@ -206,7 +206,7 @@ export default async function SpotDetailPage({
                 href={`/${code}/spot`}
                 className="hover:text-ocean-600 transition-colors"
               >
-                KAIマップ
+                KAIスポット
               </Link>
               <ChevronRight size={12} />
               <Link
