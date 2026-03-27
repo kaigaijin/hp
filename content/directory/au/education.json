@@ -167,5 +167,62 @@
     "status": "unverified",
     "source": "google_maps",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "nsw-japanese-school",
+    "name": "NSW Japanese School Inc.",
+    "name_ja": "NSW日本語補習校",
+    "area": "Ashfield",
+    "address": "Ashfield, Sydney NSW",
+    "phone": null,
+    "website": "https://www.nswjapaneseschool.org/",
+    "description": "シドニー西部の日本語補習校。毎週土曜日に日本の教科書を使った国語・算数の授業を実施。幼稚部から中学部まで対応。",
+    "tags": [
+      "補習校",
+      "土曜校",
+      "日本語教育"
+    ],
+    "hours": "土曜日",
+    "status": "unverified",
+    "last_verified": "2026-03-27",
+    "source": "website"
+  },
+  {
+    "slug": "misj-melbourne",
+    "name": "Melbourne International School of Japanese",
+    "name_ja": "メルボルン国際日本語学校",
+    "area": "Melbourne",
+    "address": "Melbourne, VIC",
+    "phone": null,
+    "website": "https://misj.org.au/",
+    "description": "メルボルンの日本語補習校。現地校・インターに通う日本人子弟に日本の教科書を使った授業を提供。",
+    "tags": [
+      "補習校",
+      "日本語教育",
+      "国際"
+    ],
+    "hours": "土曜日",
+    "status": "unverified",
+    "last_verified": "2026-03-27",
+    "source": "website"
+  },
+  {
+    "slug": "jsc-melbourne",
+    "name": "The Japanese Saturday College of Melbourne",
+    "name_ja": "メルボルン日本語土曜学校",
+    "area": "Melbourne",
+    "address": "Melbourne, VIC",
+    "phone": null,
+    "website": "https://www.jsc-mel.com/",
+    "description": "メルボルンの日本語土曜学校。毎週土曜日に日本の文科省カリキュラムに基づいた国語・算数の授業を実施。",
+    "tags": [
+      "補習校",
+      "土曜校",
+      "文科省カリキュラム"
+    ],
+    "hours": "土曜日",
+    "status": "unverified",
+    "last_verified": "2026-03-27",
+    "source": "website"
   }
 ]

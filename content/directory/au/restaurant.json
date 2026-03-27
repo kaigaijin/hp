@@ -1998,5 +1998,157 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "google_maps"
+  },
+  {
+    "slug": "sushi-on-melbourne",
+    "name": "Sushi On",
+    "name_ja": "鮨おん",
+    "area": "Melbourne East",
+    "address": "Melbourne, VIC",
+    "phone": null,
+    "website": null,
+    "description": "2026年Good Food Guide二つ帽子獲得のおまかせ寿司レストラン。22コース（寿司14貫含む）のおまかせディナー（$245/人）を提供。完全予約制。",
+    "tags": [
+      "おまかせ",
+      "要予約",
+      "高級"
+    ],
+    "hours": "要確認（予約制）",
+    "status": "unverified",
+    "last_verified": "2026-03-27",
+    "source": "website"
+  },
+  {
+    "slug": "sake-restaurant-rocks-sydney",
+    "name": "SAKE Restaurant & Bar The Rocks",
+    "name_ja": "SAKE レストラン ロックス",
+    "area": "The Rocks",
+    "address": "12 Argyle Street, The Rocks NSW 2000",
+    "phone": "+61292590020",
+    "website": "https://sakerestaurant.com.au/",
+    "description": "ロックスのモダン日本料理レストラン。おまかせコース、寿司、刺身から和牛まで幅広いメニュー。バー併設。",
+    "tags": [
+      "モダン日本料理",
+      "おまかせ",
+      "バー併設"
+    ],
+    "hours": "要確認",
+    "status": "unverified",
+    "last_verified": "2026-03-27",
+    "source": "website"
+  },
+  {
+    "slug": "sake-restaurant-double-bay",
+    "name": "SAKE Restaurant & Bar Double Bay",
+    "name_ja": "SAKE レストラン ダブルベイ",
+    "area": "Double Bay",
+    "address": "Double Bay, NSW",
+    "phone": null,
+    "website": "https://sakerestaurant.com.au/",
+    "description": "ダブルベイのSAKEレストラン。洗練された空間でモダン日本料理を提供。おまかせコースが人気。",
+    "tags": [
+      "モダン日本料理",
+      "おまかせ",
+      "高級"
+    ],
+    "hours": "要確認",
+    "status": "unverified",
+    "last_verified": "2026-03-27",
+    "source": "website"
+  },
+  {
+    "slug": "tamura-fitzroy",
+    "name": "Izakaya by Tamura",
+    "name_ja": "居酒屋 たむら",
+    "area": "Fitzroy",
+    "address": "Fitzroy, Melbourne VIC",
+    "phone": null,
+    "website": null,
+    "description": "フィッツロイの居酒屋。田村シェフの手がけるラーメンは「メルボルン最高」との評価も。日本酒バーTamura Sake Barと姉妹店。",
+    "tags": [
+      "居酒屋",
+      "ラーメン",
+      "日本酒"
+    ],
+    "hours": "要確認",
+    "status": "unverified",
+    "last_verified": "2026-03-27",
+    "source": "website"
+  },
+  {
+    "slug": "bincho-boss-melbourne",
+    "name": "Bincho Boss",
+    "name_ja": "備長ボス",
+    "area": "Melbourne CBD",
+    "address": "Melbourne CBD, VIC",
+    "phone": null,
+    "website": null,
+    "description": "備長炭グリルを中心とした居酒屋。高品質な日本産備長炭で焼き上げる串焼きとおつまみが絶品。ドリンクとの相性を意識したメニュー構成。",
+    "tags": [
+      "居酒屋",
+      "備長炭",
+      "串焼き"
+    ],
+    "hours": "要確認",
+    "status": "unverified",
+    "last_verified": "2026-03-27",
+    "source": "website"
+  },
+  {
+    "slug": "hakatamon-ramen-haymarket",
+    "name": "Hakatamon Ramen",
+    "name_ja": "博多門ラーメン",
+    "area": "Haymarket",
+    "address": "Haymarket, Sydney NSW 2000",
+    "phone": null,
+    "website": null,
+    "description": "ヘイマーケットの博多豚骨ラーメン専門店。東京で修行したHide Tsuboiシェフが率いる。濃厚な豚骨スープと細麺が特徴。",
+    "tags": [
+      "ラーメン",
+      "豚骨",
+      "博多式"
+    ],
+    "hours": "要確認",
+    "status": "unverified",
+    "last_verified": "2026-03-27",
+    "source": "website"
+  },
+  {
+    "slug": "ippudo-melbourne",
+    "name": "Ippudo Melbourne",
+    "name_ja": "一風堂 メルボルン",
+    "area": "Melbourne CBD",
+    "address": "Emporium Melbourne, 287 Lonsdale Street, Melbourne VIC 3000",
+    "phone": null,
+    "website": "https://www.ippudo.com.au/",
+    "description": "博多発の豚骨ラーメンチェーンのメルボルン店。Emporium内。定番の豚骨ラーメンに加えメルボルン限定メニューも。",
+    "tags": [
+      "ラーメン",
+      "日本発チェーン",
+      "豚骨"
+    ],
+    "hours": "毎日 11:30〜21:30",
+    "status": "unverified",
+    "last_verified": "2026-03-27",
+    "source": "website"
+  },
+  {
+    "slug": "gyu-kaku-sydney-chatswood",
+    "name": "Gyu-Kaku Chatswood",
+    "name_ja": "牛角 チャッツウッド",
+    "area": "Chatswood",
+    "address": "Chatswood, NSW",
+    "phone": null,
+    "website": null,
+    "description": "日本の焼肉チェーン牛角のチャッツウッド店。食べ放題コースとアラカルトの両方に対応。日本式焼肉を楽しめる。",
+    "tags": [
+      "焼肉",
+      "食べ放題",
+      "日本発チェーン"
+    ],
+    "hours": "11:30〜22:00",
+    "status": "unverified",
+    "last_verified": "2026-03-27",
+    "source": "google_maps"
   }
 ]

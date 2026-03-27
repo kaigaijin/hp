@@ -93,5 +93,43 @@
     "status": "unverified",
     "source": "google_maps",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "oishi-property-sydney",
+    "name": "Oishi Property",
+    "name_ja": "オオイシ プロパティ",
+    "area": "Sydney",
+    "address": "Sydney, NSW",
+    "phone": null,
+    "website": null,
+    "description": "シドニーの日本語対応不動産エージェント。日本人駐在員向けの賃貸物件紹介・契約サポートを日本語で提供。",
+    "tags": [
+      "日本語対応",
+      "賃貸",
+      "駐在員向け"
+    ],
+    "hours": "要確認",
+    "status": "unverified",
+    "last_verified": "2026-03-27",
+    "source": "google_maps"
+  },
+  {
+    "slug": "jpd-real-estate-melbourne",
+    "name": "JPD Real Estate Melbourne",
+    "name_ja": "JPD不動産 メルボルン",
+    "area": "Melbourne",
+    "address": "Melbourne, VIC",
+    "phone": null,
+    "website": null,
+    "description": "メルボルンの日本語対応不動産エージェント。賃貸・売買の物件紹介を日本語で提供。日本人居住者の多いエリアに詳しい。",
+    "tags": [
+      "日本語対応",
+      "賃貸",
+      "売買"
+    ],
+    "hours": "要確認",
+    "status": "unverified",
+    "last_verified": "2026-03-27",
+    "source": "google_maps"
   }
 ]

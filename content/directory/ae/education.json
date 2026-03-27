@@ -110,5 +110,50 @@
     "status": "unverified",
     "source": "google_maps",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "japan-foundation-abu-dhabi",
+    "name": "Japan Foundation Abu Dhabi",
+    "name_ja": "国際交流基金 アブダビ",
+    "area": "Abu Dhabi",
+    "address": "Abu Dhabi, UAE",
+    "phone": null,
+    "website": "https://www.jpf.go.jp/",
+    "description": "日本の国際交流基金のUAE拠点。日本語教育支援、文化交流イベント、日本語能力試験(JLPT)の実施などを行う。",
+    "tags": ["日本語教育", "文化交流", "JLPT"],
+    "hours": "平日 9:00-17:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "kumon-abu-dhabi",
+    "name": "Kumon Abu Dhabi",
+    "name_ja": "公文 アブダビ",
+    "area": "Abu Dhabi",
+    "address": "Abu Dhabi, UAE",
+    "phone": null,
+    "website": "https://www.kumon.ae/",
+    "description": "日本発の学習塾。算数・英語の自学自習プログラムを提供。アブダビ在住の日本人家族にも利用されている。",
+    "tags": ["学習塾", "日本式教育", "算数・英語"],
+    "hours": "平日 14:00-19:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "brighton-college-abu-dhabi",
+    "name": "Brighton College Abu Dhabi",
+    "name_ja": "ブライトン・カレッジ アブダビ",
+    "area": "Abu Dhabi",
+    "address": "Abu Dhabi, UAE",
+    "phone": null,
+    "website": "https://www.brightoncollegeabudhabi.ae/",
+    "description": "英国系インターナショナルスクール。日本人駐在員の子女も多数在籍。英国式カリキュラムで幼稚園から高校まで対応。",
+    "tags": ["インターナショナルスクール", "英国式", "駐在員利用多"],
+    "hours": "平日 7:30-15:30",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
   }
 ]

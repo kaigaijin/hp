@@ -204,5 +204,100 @@
     "status": "unverified",
     "source": "google_maps",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "worldciti-medical-dental",
+    "name": "Worldciti Medical & Dental",
+    "name_ja": "ワールドシティ メディカル&デンタル",
+    "area": "Sydney CBD",
+    "address": "Level 1 & 2, 722 George Street, Sydney NSW 2000",
+    "phone": "+61292810348",
+    "website": null,
+    "description": "シドニーCBDの総合医療・歯科センター。日本語対応スタッフが在籍。GP・歯科に加え、各種専門医への紹介も対応。",
+    "tags": [
+      "日本語対応",
+      "GP",
+      "歯科"
+    ],
+    "hours": "要確認",
+    "status": "unverified",
+    "last_verified": "2026-03-27",
+    "source": "website"
+  },
+  {
+    "slug": "northbridge-medical-practice",
+    "name": "Northbridge Medical Practice",
+    "name_ja": "ノースブリッジ メディカルプラクティス",
+    "area": "Northbridge",
+    "address": "Northbridge, NSW",
+    "phone": null,
+    "website": null,
+    "description": "ノースブリッジのGPクリニック。日本人医師Dr. Yasuhiro Toriiが在籍し、日本語での診察が可能。シドニー北部の日本人在住者に便利。",
+    "tags": [
+      "日本人医師",
+      "GP",
+      "日本語対応"
+    ],
+    "hours": "要確認",
+    "status": "unverified",
+    "last_verified": "2026-03-27",
+    "source": "website"
+  },
+  {
+    "slug": "sakura-family-clinic-brisbane",
+    "name": "Sakura Family Clinic",
+    "name_ja": "さくらファミリークリニック",
+    "area": "Brisbane",
+    "address": "Brisbane, QLD",
+    "phone": null,
+    "website": null,
+    "description": "ブリスベンの日本語対応ファミリークリニック。オンライン診療（テレヘルス）も提供し、他州からの相談にも対応。",
+    "tags": [
+      "日本語対応",
+      "ファミリークリニック",
+      "テレヘルス"
+    ],
+    "hours": "要確認",
+    "status": "unverified",
+    "last_verified": "2026-03-27",
+    "source": "website"
+  },
+  {
+    "slug": "dr-celina-rappaport-sydney",
+    "name": "Dr. Celina Rappaport",
+    "name_ja": "セリーナ・ラパポート医師",
+    "area": "Sydney",
+    "address": "Sydney, NSW",
+    "phone": null,
+    "website": null,
+    "description": "シドニーの日本語対応GP。日本語での診察が可能。一般内科・小児科に対応。",
+    "tags": [
+      "日本語対応",
+      "GP",
+      "一般内科"
+    ],
+    "hours": "要確認",
+    "status": "unverified",
+    "last_verified": "2026-03-27",
+    "source": "website"
+  },
+  {
+    "slug": "everglow-dental-oakleigh",
+    "name": "EverGlow Dental Oakleigh",
+    "name_ja": "エバーグローデンタル オークレー",
+    "area": "Oakleigh",
+    "address": "Hughesdale, Oakleigh VIC",
+    "phone": null,
+    "website": "https://www.facebook.com/drdaiando/",
+    "description": "2025年1月オープン。日本とオーストラリアの歯科医師資格を持つ安藤大医師が率いるクリニック。26年以上の経験。日本語での相談が可能。Oakleigh駅から徒歩4分。",
+    "tags": [
+      "日本語対応",
+      "日豪両資格",
+      "歯科"
+    ],
+    "hours": "要確認",
+    "status": "unverified",
+    "last_verified": "2026-03-27",
+    "source": "sns"
   }
 ]

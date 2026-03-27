@@ -551,5 +551,101 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "google_maps"
+  },
+  {
+    "slug": "birdie-yakitori-central",
+    "name": "Birdie",
+    "name_ja": "バーディー",
+    "area": "Central",
+    "address": "Central, Hong Kong",
+    "phone": null,
+    "website": "https://www.298hk.com/birdie",
+    "description": "セントラルの焼き鳥レストラン。カジュアルな雰囲気で本格焼き鳥とドリンクを楽しめる。",
+    "tags": [
+      "焼き鳥",
+      "カジュアル",
+      "セントラル"
+    ],
+    "hours": "要確認",
+    "status": "unverified",
+    "last_verified": "2026-03-27",
+    "source": "website"
+  },
+  {
+    "slug": "sake-central-hk",
+    "name": "Sake Central",
+    "name_ja": "サケセントラル",
+    "area": "Central",
+    "address": "Central, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "日本酒の啓蒙と普及を目的としたバー。100種以上の日本酒を取り揃え、利き酒セットやペアリングコースを提供。日本酒の初心者にも優しい説明が好評。",
+    "tags": [
+      "日本酒",
+      "バー",
+      "利き酒",
+      "啓蒙"
+    ],
+    "hours": "要確認",
+    "status": "unverified",
+    "last_verified": "2026-03-27",
+    "source": "website"
+  },
+  {
+    "slug": "bar-de-eric-hk",
+    "name": "Bar de Eric",
+    "name_ja": "バー・ド・エリック",
+    "area": "Wan Chai",
+    "address": "Wan Chai, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "湾仔の日本人バーテンダーが経営するカクテルバー。ジャパニーズウイスキーのコレクションが充実。落ち着いた雰囲気で一杯を楽しめる。",
+    "tags": [
+      "バー",
+      "日本人バーテンダー",
+      "ウイスキー"
+    ],
+    "hours": "18:00〜翌2:00",
+    "status": "unverified",
+    "last_verified": "2026-03-27",
+    "source": "website"
+  },
+  {
+    "slug": "tsubaki-izakaya-hk",
+    "name": "Tsubaki Izakaya",
+    "name_ja": "椿 居酒屋",
+    "area": "Tsim Sha Tsui",
+    "address": "Tsim Sha Tsui, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "尖沙咀のカジュアル居酒屋。おでん・焼き鳥・刺身などの定番メニューを手頃な価格で提供。日本人駐在員に人気。",
+    "tags": [
+      "居酒屋",
+      "おでん",
+      "カジュアル"
+    ],
+    "hours": "17:30〜23:30",
+    "status": "unverified",
+    "last_verified": "2026-03-27",
+    "source": "google_maps"
+  },
+  {
+    "slug": "torafuku-hk",
+    "name": "Torafuku",
+    "name_ja": "虎ふく",
+    "area": "Wan Chai",
+    "address": "Wan Chai, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "湾仔の日本式居酒屋。串カツ・唐揚げ・枝豆など大衆居酒屋メニューを提供。ビールと焼酎が充実。",
+    "tags": [
+      "居酒屋",
+      "串カツ",
+      "大衆"
+    ],
+    "hours": "17:00〜24:00",
+    "status": "unverified",
+    "last_verified": "2026-03-27",
+    "source": "google_maps"
   }
 ]

@@ -93,5 +93,35 @@
     "status": "unverified",
     "source": "google_maps",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "property-finder-japan-desk",
+    "name": "Property Finder Japan Desk",
+    "name_ja": "プロパティファインダー ジャパンデスク",
+    "area": "Dubai",
+    "address": "Dubai, UAE",
+    "phone": null,
+    "website": "https://www.propertyfinder.ae/",
+    "description": "UAE最大の不動産ポータルサイト。日本語対応エージェントの紹介も行っている。賃貸・売買物件の検索が可能。",
+    "tags": ["不動産ポータル", "物件検索", "日本語対応"],
+    "hours": "平日 9:00-18:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "savills-japan-desk-dubai",
+    "name": "Savills Japan Desk Dubai",
+    "name_ja": "サヴィルズ ジャパンデスク ドバイ",
+    "area": "Dubai",
+    "address": "Dubai, UAE",
+    "phone": null,
+    "website": "https://www.savills.co.jp/",
+    "description": "英国系大手不動産会社のドバイ拠点。日本語対応可能な国際不動産チームが、投資・賃貸・売買をサポート。",
+    "tags": ["国際不動産", "日本語対応", "投資物件"],
+    "hours": "平日 9:00-18:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
   }
 ]

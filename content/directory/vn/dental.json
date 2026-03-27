@@ -133,5 +133,50 @@
     "status": "unverified",
     "source": "google_maps",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "east-rose-dental-d1",
+    "name": "East Rose Dental District 1",
+    "name_ja": "イーストローズデンタル 1区",
+    "area": "District 1",
+    "address": "30-36 Phan Boi Chau, Ben Thanh Ward, District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": "https://eastrosedental.com/",
+    "description": "ベンタイン市場東門前の歯科クリニック。ハーバード出身のチーフデンティストが率い、日本語スタッフが在籍。インプラント・審美歯科に強み。",
+    "tags": ["歯科", "日本語スタッフ", "インプラント"],
+    "hours": "平日 8:00-18:00 / 土 8:00-16:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "east-rose-dental-d2",
+    "name": "East Rose Dental District 2",
+    "name_ja": "イーストローズデンタル 2区",
+    "area": "Thu Duc",
+    "address": "166 Dong Van Cong, Thanh My Loi, Thu Duc City, Ho Chi Minh City",
+    "phone": null,
+    "website": "https://eastrosedental.com/",
+    "description": "イーストローズデンタルの2区(トゥドゥック)店。Vista Verde近く。日本語スタッフ在籍で外国人患者にも安心。",
+    "tags": ["歯科", "日本語スタッフ", "トゥドゥック"],
+    "hours": "平日 8:00-18:00 / 土 8:00-16:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "tu-du-japanese-dental",
+    "name": "Tu Du Hospital Japanese Dental Clinic",
+    "name_ja": "トゥドゥ病院 日本式歯科",
+    "area": "District 1",
+    "address": "Tu Du Hospital, District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "トゥドゥ病院内に開設された日本式基準の歯科クリニック。マタニティ歯科を専門とし、日本の厳格な医療基準に準拠。",
+    "tags": ["歯科", "日本式基準", "マタニティ歯科"],
+    "hours": "平日 8:00-17:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
   }
 ]

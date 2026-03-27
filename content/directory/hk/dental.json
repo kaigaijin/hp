@@ -170,5 +170,62 @@
     "status": "unverified",
     "source": "google_maps",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "dr-lisa-cham-dental",
+    "name": "Dr. Lisa Cham Dental Clinic",
+    "name_ja": "リサ・チャム歯科",
+    "area": "Central",
+    "address": "Central, Hong Kong",
+    "phone": null,
+    "website": "https://clinichongkong.com/",
+    "description": "日本語対応の歯科医師Dr. Lisa Chamによるクリニック。一般歯科・審美歯科に対応。日本人在住者の利用実績豊富。",
+    "tags": [
+      "日本語対応",
+      "一般歯科",
+      "審美歯科"
+    ],
+    "hours": "要確認",
+    "status": "unverified",
+    "last_verified": "2026-03-27",
+    "source": "website"
+  },
+  {
+    "slug": "central-dental-plaza",
+    "name": "Central Dental Plaza",
+    "name_ja": "セントラルデンタルプラザ",
+    "area": "Central",
+    "address": "Central, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "セントラルの多言語対応歯科クリニック。日本語での予約・相談が可能。一般歯科・矯正・インプラントに対応。",
+    "tags": [
+      "多言語対応",
+      "一般歯科",
+      "矯正"
+    ],
+    "hours": "月〜金 9:00〜18:00 / 土 9:00〜13:00",
+    "status": "unverified",
+    "last_verified": "2026-03-27",
+    "source": "google_maps"
+  },
+  {
+    "slug": "quality-dental-tst",
+    "name": "Quality Dental TST",
+    "name_ja": "クオリティデンタル 尖沙咀",
+    "area": "Tsim Sha Tsui",
+    "address": "Tsim Sha Tsui, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "尖沙咀の歯科クリニック。外国人患者対応に慣れており、日本人患者の受け入れ実績あり。一般歯科・ホワイトニング。",
+    "tags": [
+      "歯科",
+      "ホワイトニング",
+      "外国人対応"
+    ],
+    "hours": "月〜土 9:00〜18:00",
+    "status": "unverified",
+    "last_verified": "2026-03-27",
+    "source": "google_maps"
   }
 ]

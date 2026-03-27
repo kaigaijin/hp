@@ -211,5 +211,102 @@
     "status": "unverified",
     "source": "google_maps",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "kenta-clinic-hunghom",
+    "name": "Kenta Clinic",
+    "name_ja": "健太診療所",
+    "area": "Hung Hom",
+    "address": "Shop 1B, G/F, Tak Hong Street, Site 12, Whampoa Garden, Hunghom, Kowloon, Hong Kong",
+    "phone": "+85221528579",
+    "website": "https://kentaclinic.com/",
+    "description": "紅磡・黄埔花園のファミリークリニック。日本のクリニック文化を参考に設立。内科・小児科・皮膚科・精神科に対応。日本語スタッフ在籍。",
+    "tags": [
+      "日本語対応",
+      "内科",
+      "小児科",
+      "ファミリークリニック"
+    ],
+    "hours": "要確認",
+    "status": "unverified",
+    "last_verified": "2026-03-27",
+    "source": "website"
+  },
+  {
+    "slug": "central-imed-clinic",
+    "name": "Central iMed Clinic",
+    "name_ja": "セントラルiMedクリニック",
+    "area": "Central",
+    "address": "Central, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "24時間日本語受付対応のクリニック。内科・小児科・皮膚科に対応。日本人在住者・旅行者の利用が多い。",
+    "tags": [
+      "日本語対応",
+      "24時間受付",
+      "内科"
+    ],
+    "hours": "24時間受付",
+    "status": "unverified",
+    "last_verified": "2026-03-27",
+    "source": "website"
+  },
+  {
+    "slug": "tst-imed-clinic",
+    "name": "TST iMed Clinic",
+    "name_ja": "尖沙咀iMedクリニック",
+    "area": "Tsim Sha Tsui",
+    "address": "Tsim Sha Tsui, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "24時間日本語受付対応のクリニック。尖沙咀エリアで内科・小児科などに対応。海外旅行保険のキャッシュレス対応も。",
+    "tags": [
+      "日本語対応",
+      "24時間受付",
+      "キャッシュレス保険"
+    ],
+    "hours": "24時間受付",
+    "status": "unverified",
+    "last_verified": "2026-03-27",
+    "source": "website"
+  },
+  {
+    "slug": "emchk-hk",
+    "name": "Emergency Medical Centre Hong Kong",
+    "name_ja": "香港急症中心",
+    "area": "Various",
+    "address": "Hong Kong (複数拠点)",
+    "phone": null,
+    "website": "https://www.emchk.com/jp/",
+    "description": "24時間対応の救急医療センター。日本語ウェブサイトを完備し、日本人患者の受け入れに対応。急な体調不良時の駆け込み先として。",
+    "tags": [
+      "救急",
+      "24時間",
+      "日本語ウェブ"
+    ],
+    "hours": "24時間",
+    "status": "unverified",
+    "last_verified": "2026-03-27",
+    "source": "website"
+  },
+  {
+    "slug": "dr-helen-chan-hk",
+    "name": "Dr. Helen Chan Clinic",
+    "name_ja": "ヘレン・チャン医師クリニック",
+    "area": "Central",
+    "address": "Central, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "日本語が話せるDr. Helen Chanによるクリニック。内科・小児科・アレルギー科に対応。日本人在住者に長年利用されている。",
+    "tags": [
+      "日本語対応",
+      "内科",
+      "小児科",
+      "アレルギー科"
+    ],
+    "hours": "要確認",
+    "status": "unverified",
+    "last_verified": "2026-03-27",
+    "source": "website"
   }
 ]
