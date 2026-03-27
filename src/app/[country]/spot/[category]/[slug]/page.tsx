@@ -12,6 +12,7 @@ import {
 import { statusConfig } from "@/lib/directory";
 import SpotReportForm from "@/components/SpotReportForm";
 import SpotReviewForm from "@/components/SpotReviewForm";
+import SpotDetailTabs from "@/components/SpotDetailTabs";
 import {
   MapPin,
   Phone,
@@ -88,26 +89,6 @@ export default async function SpotDetailPage({
   const sameCategory = getSpotsByCategory(code, catSlug)
     .filter((s) => s.slug !== slug)
     .slice(0, 5);
-
-  // メニューをカテゴリ別にグループ化
-  const menuByCategory: Record<string, typeof spot.menu> = {};
-  if (spot.menu && spot.menu.length > 0) {
-    for (const item of spot.menu) {
-      const cat = item.category ?? "その他";
-      if (!menuByCategory[cat]) menuByCategory[cat] = [];
-      menuByCategory[cat]!.push(item);
-    }
-  }
-
-  // 詳細情報の有無チェック
-  const hasDetailInfo =
-    spot.price_range ||
-    (spot.payment && spot.payment.length > 0) ||
-    spot.seats != null ||
-    spot.parking ||
-    spot.reservation ||
-    spot.smoking ||
-    (spot.languages && spot.languages.length > 0);
 
   // JSON-LD 構造化データ（LocalBusiness）
   const jsonLd = {
@@ -285,222 +266,37 @@ export default async function SpotDetailPage({
                 )}
               </div>
 
-              {/* 概要 */}
-              <div className="bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 p-5">
-                <p className="text-stone-600 dark:text-stone-300 leading-relaxed">
-                  {spot.description}
-                </p>
-                {spot.tags.length > 0 && (
-                  <div className="flex flex-wrap gap-1.5 mt-4 pt-4 border-t border-stone-100 dark:border-stone-700">
-                    {spot.tags.map((tag) => (
-                      <span
-                        key={tag}
-                        className="text-xs text-stone-500 dark:text-stone-400 bg-stone-50 dark:bg-stone-700 px-2.5 py-1 rounded"
-                      >
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
-                )}
-              </div>
-
-              {/* メニューセクション */}
-              {spot.menu && spot.menu.length > 0 && (
-                <div className="bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 overflow-hidden">
-                  <div className="px-5 py-3 border-b border-stone-100 dark:border-stone-700 flex items-center gap-2">
-                    <UtensilsCrossed size={14} className="text-stone-400" />
-                    <h2 className="text-sm font-semibold text-stone-700 dark:text-stone-200">
-                      メニュー
-                    </h2>
-                  </div>
-                  <div className="divide-y divide-stone-100 dark:divide-stone-700">
-                    {Object.entries(menuByCategory).map(
-                      ([catName, items]) => (
-                        <div key={catName}>
-                          {Object.keys(menuByCategory).length > 1 && (
-                            <div className="px-5 py-2 bg-stone-50 dark:bg-stone-700/50">
-                              <p className="text-xs font-medium text-stone-500 dark:text-stone-400 uppercase tracking-wider">
-                                {catName}
-                              </p>
-                            </div>
-                          )}
-                          <table className="w-full">
-                            <tbody>
-                              {items!.map((item, i) => (
-                                <tr
-                                  key={i}
-                                  className="border-b border-stone-50 dark:border-stone-700/50 last:border-b-0"
-                                >
-                                  <td className="px-5 py-2.5">
-                                    <p className="text-sm text-stone-700 dark:text-stone-200">
-                                      {item.name}
-                                    </p>
-                                    {item.description && (
-                                      <p className="text-xs text-stone-400 mt-0.5">
-                                        {item.description}
-                                      </p>
-                                    )}
-                                  </td>
-                                  <td className="px-5 py-2.5 text-right whitespace-nowrap">
-                                    {item.price && (
-                                      <span className="text-sm font-medium text-stone-600 dark:text-stone-300">
-                                        {item.price}
-                                      </span>
-                                    )}
-                                  </td>
-                                </tr>
-                              ))}
-                            </tbody>
-                          </table>
-                        </div>
-                      )
-                    )}
-                  </div>
+              {/* タグ */}
+              {spot.tags.length > 0 && (
+                <div className="flex flex-wrap gap-1.5">
+                  {spot.tags.map((tag) => (
+                    <span
+                      key={tag}
+                      className="text-xs text-stone-500 dark:text-stone-400 bg-white dark:bg-stone-800 border border-stone-200 dark:border-stone-700 px-2.5 py-1 rounded"
+                    >
+                      {tag}
+                    </span>
+                  ))}
                 </div>
               )}
 
-              {/* 詳細情報セクション */}
-              {hasDetailInfo && (
-                <div className="bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 overflow-hidden">
-                  <div className="px-5 py-3 border-b border-stone-100 dark:border-stone-700">
-                    <h2 className="text-sm font-semibold text-stone-700 dark:text-stone-200">
-                      詳細情報
-                    </h2>
-                  </div>
-                  <div className="p-5 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    {spot.price_range && (
-                      <div className="flex items-start gap-2.5">
-                        <DollarSign
-                          size={14}
-                          className="text-stone-400 mt-0.5 shrink-0"
-                        />
-                        <div>
-                          <dt className="text-xs text-stone-400 mb-0.5">
-                            価格帯
-                          </dt>
-                          <dd className="text-sm text-stone-700 dark:text-stone-300">
-                            {spot.price_range}
-                          </dd>
-                        </div>
-                      </div>
-                    )}
-                    {spot.payment && spot.payment.length > 0 && (
-                      <div className="flex items-start gap-2.5">
-                        <CreditCard
-                          size={14}
-                          className="text-stone-400 mt-0.5 shrink-0"
-                        />
-                        <div>
-                          <dt className="text-xs text-stone-400 mb-0.5">
-                            支払い方法
-                          </dt>
-                          <dd className="text-sm text-stone-700 dark:text-stone-300">
-                            {spot.payment.join(", ")}
-                          </dd>
-                        </div>
-                      </div>
-                    )}
-                    {spot.seats != null && (
-                      <div className="flex items-start gap-2.5">
-                        <Armchair
-                          size={14}
-                          className="text-stone-400 mt-0.5 shrink-0"
-                        />
-                        <div>
-                          <dt className="text-xs text-stone-400 mb-0.5">
-                            席数
-                          </dt>
-                          <dd className="text-sm text-stone-700 dark:text-stone-300">
-                            {spot.seats}席
-                          </dd>
-                        </div>
-                      </div>
-                    )}
-                    {spot.parking && (
-                      <div className="flex items-start gap-2.5">
-                        <CarFront
-                          size={14}
-                          className="text-stone-400 mt-0.5 shrink-0"
-                        />
-                        <div>
-                          <dt className="text-xs text-stone-400 mb-0.5">
-                            駐車場
-                          </dt>
-                          <dd className="text-sm text-stone-700 dark:text-stone-300">
-                            {spot.parking}
-                          </dd>
-                        </div>
-                      </div>
-                    )}
-                    {spot.reservation && (
-                      <div className="flex items-start gap-2.5">
-                        <CalendarCheck
-                          size={14}
-                          className="text-stone-400 mt-0.5 shrink-0"
-                        />
-                        <div>
-                          <dt className="text-xs text-stone-400 mb-0.5">
-                            予約
-                          </dt>
-                          <dd className="text-sm text-stone-700 dark:text-stone-300">
-                            {spot.reservation}
-                          </dd>
-                        </div>
-                      </div>
-                    )}
-                    {spot.smoking && (
-                      <div className="flex items-start gap-2.5">
-                        <Cigarette
-                          size={14}
-                          className="text-stone-400 mt-0.5 shrink-0"
-                        />
-                        <div>
-                          <dt className="text-xs text-stone-400 mb-0.5">
-                            喫煙
-                          </dt>
-                          <dd className="text-sm text-stone-700 dark:text-stone-300">
-                            {spot.smoking}
-                          </dd>
-                        </div>
-                      </div>
-                    )}
-                    {spot.languages && spot.languages.length > 0 && (
-                      <div className="flex items-start gap-2.5">
-                        <Languages
-                          size={14}
-                          className="text-stone-400 mt-0.5 shrink-0"
-                        />
-                        <div>
-                          <dt className="text-xs text-stone-400 mb-0.5">
-                            対応言語
-                          </dt>
-                          <dd className="text-sm text-stone-700 dark:text-stone-300">
-                            {spot.languages.join(", ")}
-                          </dd>
-                        </div>
-                      </div>
-                    )}
-                  </div>
-                </div>
-              )}
-
-              {/* 地図 */}
-              <div className="bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 overflow-hidden">
-                <div className="px-5 py-3 border-b border-stone-100 dark:border-stone-700">
-                  <h2 className="text-sm font-semibold text-stone-700 dark:text-stone-200">
-                    地図
-                  </h2>
-                </div>
-                <iframe
-                  width="100%"
-                  height="280"
-                  style={{ border: 0 }}
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  src={`https://www.google.com/maps?q=${encodeURIComponent(spot.name + " " + spot.address)}&output=embed`}
-                  title={`${displayName}の地図`}
-                />
-              </div>
+              {/* タブUI: 概要・写真・メニュー・料金詳細 */}
+              <SpotDetailTabs
+                spot={spot}
+                displayName={displayName}
+                overviewContent={null}
+                mapEmbed={
+                  <iframe
+                    width="100%"
+                    height="280"
+                    style={{ border: 0 }}
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    src={`https://www.google.com/maps?q=${encodeURIComponent(spot.name + " " + spot.address)}&output=embed`}
+                    title={`${displayName}の地図`}
+                  />
+                }
+              />
 
               {/* レビュー（モバイル） */}
               <div className="lg:hidden">
