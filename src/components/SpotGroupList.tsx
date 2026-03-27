@@ -67,7 +67,7 @@ export default function SpotGroupList({
               onClick={() => setActiveFilter(null)}
               className={`shrink-0 text-xs font-medium px-3 py-1.5 rounded-full transition-colors ${
                 activeFilter === null
-                  ? "text-ocean-600 dark:text-ocean-400 bg-ocean-50 dark:bg-ocean-900/30"
+                  ? (theme?.filterActive ?? "text-ocean-600 dark:text-ocean-400 bg-ocean-50 dark:bg-ocean-900/30")
                   : "text-stone-500 dark:text-stone-400 bg-stone-50 dark:bg-stone-700 hover:bg-stone-100 dark:hover:bg-stone-600"
               }`}
             >
@@ -81,7 +81,7 @@ export default function SpotGroupList({
                 }
                 className={`shrink-0 text-xs font-medium px-3 py-1.5 rounded-full transition-colors ${
                   activeFilter === cat.slug
-                    ? "text-ocean-600 dark:text-ocean-400 bg-ocean-50 dark:bg-ocean-900/30"
+                    ? (theme?.filterActive ?? "text-ocean-600 dark:text-ocean-400 bg-ocean-50 dark:bg-ocean-900/30")
                     : "text-stone-500 dark:text-stone-400 bg-stone-50 dark:bg-stone-700 hover:bg-stone-100 dark:hover:bg-stone-600"
                 }`}
               >
@@ -102,15 +102,15 @@ export default function SpotGroupList({
                 href={`/${countryCode}/spot/${spot.categorySlug}/${spot.slug}`}
                 className="group block"
               >
-                <article className="bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 hover:border-ocean-400 dark:hover:border-ocean-500 hover:shadow-md transition-all">
+                <article className={`bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 ${theme?.hoverBorder ?? "hover:border-ocean-400 dark:hover:border-ocean-500"} hover:shadow-md transition-all`}>
                   <div className="p-4 sm:p-5">
                     <div className="flex items-start justify-between gap-3 mb-2">
                       <div className="min-w-0">
                         <div className="flex items-center gap-2">
-                          <span className="text-xs font-semibold text-ocean-600 dark:text-ocean-400">
+                          <span className={`text-xs font-semibold ${theme?.numberText ?? "text-ocean-600 dark:text-ocean-400"}`}>
                             {i + 1}
                           </span>
-                          <h2 className="text-base font-bold text-stone-800 dark:text-stone-100 truncate group-hover:text-ocean-700 dark:group-hover:text-ocean-400 transition-colors">
+                          <h2 className={`text-base font-bold text-stone-800 dark:text-stone-100 truncate ${theme?.accentHover ?? "group-hover:text-ocean-700 dark:group-hover:text-ocean-400"} transition-colors`}>
                             {spot.name_ja ?? spot.name}
                           </h2>
                         </div>
@@ -123,7 +123,7 @@ export default function SpotGroupList({
                       <div className="flex items-center gap-2 shrink-0">
                         {/* 中分類ラベル（フィルター未選択時のみ表示） */}
                         {!activeFilter && (
-                          <span className="text-xs text-ocean-600 dark:text-ocean-400 bg-ocean-50 dark:bg-ocean-900/30 px-2 py-0.5 rounded">
+                          <span className={`text-xs ${theme?.badgeText ?? "text-ocean-600 dark:text-ocean-400"} ${theme?.badgeBg ?? "bg-ocean-50 dark:bg-ocean-900/30"} px-2 py-0.5 rounded`}>
                             {spot.categoryName}
                           </span>
                         )}
@@ -176,7 +176,7 @@ export default function SpotGroupList({
                           </span>
                         )}
                         {spot.website && (
-                          <span className="flex items-center gap-1 text-xs text-ocean-500">
+                          <span className={`flex items-center gap-1 text-xs ${theme?.badgeText ?? "text-ocean-500"}`}>
                             <Globe size={10} />
                             Web
                           </span>

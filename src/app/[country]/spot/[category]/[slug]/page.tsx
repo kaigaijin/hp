@@ -10,6 +10,7 @@ import {
   getSpotsByCategory,
 } from "@/lib/directory";
 import { statusConfig } from "@/lib/directory";
+import { getCategoryTheme } from "@/lib/group-theme";
 import SpotReportForm from "@/components/SpotReportForm";
 import SpotReviewForm from "@/components/SpotReviewForm";
 import SpotDetailTabs from "@/components/SpotDetailTabs";
@@ -84,6 +85,7 @@ export default async function SpotDetailPage({
 
   const displayName = spot.name_ja ?? spot.name;
   const spotStatus = spot.status ?? "unverified";
+  const theme = getCategoryTheme(catSlug);
 
   // 同じカテゴリの他のスポット
   const sameCategory = getSpotsByCategory(code, catSlug)
@@ -200,7 +202,7 @@ export default async function SpotDetailPage({
                 <MapPin size={10} />
                 {spot.area}
               </span>
-              <span className="text-xs text-ocean-600 dark:text-ocean-400 bg-ocean-50 dark:bg-ocean-900/30 px-2 py-0.5 rounded">
+              <span className={`text-xs ${theme.badgeText} ${theme.badgeBg} px-2 py-0.5 rounded`}>
                 {category.name}
               </span>
               {/* ステータスバッジ */}
@@ -247,7 +249,7 @@ export default async function SpotDetailPage({
                 {spot.phone && (
                   <a
                     href={`tel:${spot.phone}`}
-                    className="flex-1 flex items-center justify-center gap-2 bg-ocean-600 text-white rounded-xl py-3 font-medium text-sm hover:bg-ocean-700 transition-colors"
+                    className={`flex-1 flex items-center justify-center gap-2 ${theme.ctaBg} text-white rounded-xl py-3 font-medium text-sm ${theme.ctaHover} transition-colors`}
                   >
                     <Phone size={16} />
                     電話する
@@ -280,6 +282,14 @@ export default async function SpotDetailPage({
                 </div>
               )}
 
+              {/* レビュー（目立つ位置に配置） */}
+              <SpotReviewForm
+                country={code}
+                category={catSlug}
+                spotSlug={slug}
+                spotName={displayName}
+              />
+
               {/* タブUI: 概要・写真・メニュー・料金詳細 */}
               <SpotDetailTabs
                 spot={spot}
@@ -297,16 +307,6 @@ export default async function SpotDetailPage({
                   />
                 }
               />
-
-              {/* レビュー（モバイル） */}
-              <div className="lg:hidden">
-                <SpotReviewForm
-                  country={code}
-                  category={catSlug}
-                  spotSlug={slug}
-                  spotName={displayName}
-                />
-              </div>
 
               {/* 情報更新フォーム（モバイル） */}
               <div className="lg:hidden">
@@ -327,7 +327,7 @@ export default async function SpotDetailPage({
                     </h2>
                     <Link
                       href={`/${code}/spot/${catSlug}`}
-                      className="text-xs text-ocean-600 dark:text-ocean-400 hover:underline"
+                      className={`text-xs ${theme.accent} hover:underline`}
                     >
                       すべて見る
                     </Link>
@@ -337,7 +337,7 @@ export default async function SpotDetailPage({
                       <Link
                         key={s.slug}
                         href={`/${code}/spot/${catSlug}/${s.slug}`}
-                        className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-stone-200 dark:border-stone-600 text-sm text-stone-600 dark:text-stone-400 hover:border-ocean-400 hover:text-ocean-600 dark:hover:text-ocean-400 transition-colors"
+                        className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-stone-200 dark:border-stone-600 text-sm text-stone-600 dark:text-stone-400 ${theme.hoverBorder} transition-colors`}
                       >
                         {s.name_ja ?? s.name}
                         <span className="text-xs text-stone-400">· {s.area}</span>
@@ -433,7 +433,7 @@ export default async function SpotDetailPage({
                       href={spot.website}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center justify-center gap-2 w-full bg-ocean-600 text-white rounded-lg py-2.5 text-sm font-medium hover:bg-ocean-700 transition-colors"
+                      className={`flex items-center justify-center gap-2 w-full ${theme.ctaBg} text-white rounded-lg py-2.5 text-sm font-medium ${theme.ctaHover} transition-colors`}
                     >
                       <ExternalLink size={14} />
                       公式サイトを見る
@@ -452,16 +452,6 @@ export default async function SpotDetailPage({
                 </div>
               </div>
 
-              {/* レビュー（デスクトップ） */}
-              <div className="hidden lg:block">
-                <SpotReviewForm
-                  country={code}
-                  category={catSlug}
-                  spotSlug={slug}
-                  spotName={displayName}
-                />
-              </div>
-
               {/* 行ってきたセクション（デスクトップ） */}
               <div className="hidden lg:block">
                 <SpotReportForm
@@ -478,7 +468,7 @@ export default async function SpotDetailPage({
           <div className="mt-8">
             <Link
               href={`/${code}/spot/${catSlug}`}
-              className="text-sm text-ocean-600 dark:text-ocean-400 hover:underline"
+              className={`text-sm ${theme.accent} hover:underline`}
             >
               ← {category.name}の一覧に戻る
             </Link>
