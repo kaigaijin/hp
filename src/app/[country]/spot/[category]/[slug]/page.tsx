@@ -11,6 +11,7 @@ import {
 } from "@/lib/directory";
 import { statusConfig } from "@/lib/directory";
 import SpotReportForm from "@/components/SpotReportForm";
+import SpotReviewForm from "@/components/SpotReviewForm";
 import {
   MapPin,
   Phone,
@@ -509,6 +510,16 @@ export default async function SpotDetailPage({
                 />
               </div>
 
+              {/* レビュー（モバイル） */}
+              <div className="lg:hidden">
+                <SpotReviewForm
+                  country={code}
+                  category={catSlug}
+                  spotSlug={slug}
+                  spotName={displayName}
+                />
+              </div>
+
               {/* 情報更新フォーム（モバイル） */}
               <div className="lg:hidden">
                 <SpotReportForm
@@ -651,6 +662,16 @@ export default async function SpotDetailPage({
                     </a>
                   )}
                 </div>
+              </div>
+
+              {/* レビュー（デスクトップ） */}
+              <div className="hidden lg:block">
+                <SpotReviewForm
+                  country={code}
+                  category={catSlug}
+                  spotSlug={slug}
+                  spotName={displayName}
+                />
               </div>
 
               {/* 行ってきたセクション（デスクトップ） */}
