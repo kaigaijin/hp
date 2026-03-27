@@ -5,6 +5,7 @@ import { useState } from "react";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { countries } from "@/lib/countries";
 import ThemeToggle from "./ThemeToggle";
+import UserMenu from "./UserMenu";
 
 const phaseLabel: Record<number, string> = {
   1: "公開中",
@@ -80,10 +81,12 @@ export default function Header() {
             スポット検索
           </Link>
           <ThemeToggle />
+          <UserMenu />
         </nav>
 
         {/* モバイル */}
         <div className="flex items-center gap-2 md:hidden">
+          <UserMenu />
           <ThemeToggle />
           <button
             onClick={() => setOpen(!open)}
