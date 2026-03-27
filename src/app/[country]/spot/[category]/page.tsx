@@ -11,6 +11,7 @@ import {
   getSpotsByCategory,
   getCategoryCounts,
 } from "@/lib/directory";
+import SpotGroupList from "@/components/SpotGroupList";
 import {
   UtensilsCrossed,
   Coffee,
@@ -151,6 +152,28 @@ export default async function CategoryPage({
       })
       .filter((c): c is NonNullable<typeof c> => c !== null);
 
+    // 全子カテゴリのスポットを集約
+    const groupSpots = group.categories.flatMap((catSlug) => {
+      const cat = categories.find((c) => c.slug === catSlug);
+      return getSpotsByCategory(code, catSlug).map((spot) => ({
+        slug: spot.slug,
+        name: spot.name,
+        name_ja: spot.name_ja,
+        area: spot.area,
+        description: spot.description,
+        tags: spot.tags,
+        phone: spot.phone,
+        website: spot.website,
+        status: spot.status,
+        categorySlug: catSlug,
+        categoryName: cat?.name ?? catSlug,
+      }));
+    });
+
+    const subCategories = childCategories
+      .filter((c) => c.count > 0)
+      .map((c) => ({ slug: c.slug, name: c.name, count: c.count }));
+
     const renderGroupIcon = iconMap[group.icon];
 
     return (
@@ -196,69 +219,18 @@ export default async function CategoryPage({
                 </div>
               </div>
             </div>
+
+            {/* 中分類フィルター + スポット一覧（クライアントコンポーネント） */}
+            <SpotGroupList
+              spots={groupSpots}
+              subCategories={subCategories}
+              countryCode={code}
+            />
           </div>
 
+          {/* フッター */}
           <div className="max-w-6xl mx-auto px-4 py-6">
-            <div className="space-y-2">
-              {childCategories.map((cat) => {
-                const hasSpots = cat.count > 0;
-                const renderCatIcon = iconMap[cat.icon];
-
-                if (hasSpots) {
-                  return (
-                    <Link
-                      key={cat.slug}
-                      href={`/${code}/spot/${cat.slug}`}
-                      className="group flex items-center gap-4 bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 px-4 py-4 hover:border-ocean-400 dark:hover:border-ocean-500 hover:shadow-md transition-all"
-                    >
-                      <div className="w-10 h-10 bg-stone-50 dark:bg-stone-700 rounded-lg flex items-center justify-center text-ocean-600 dark:text-ocean-400 group-hover:bg-ocean-50 dark:group-hover:bg-ocean-900/30 transition-colors">
-                        {renderCatIcon?.(18)}
-                      </div>
-                      <div className="flex-1 min-w-0">
-                        <p className="text-sm font-semibold text-stone-700 dark:text-stone-200 group-hover:text-ocean-600 dark:group-hover:text-ocean-400 transition-colors">
-                          {cat.name}
-                        </p>
-                        <p className="text-xs text-stone-400 mt-0.5">
-                          {cat.description}
-                        </p>
-                      </div>
-                      <span className="text-sm text-stone-400 tabular-nums">
-                        {cat.count}件
-                      </span>
-                      <ChevronRight
-                        size={16}
-                        className="text-stone-300 dark:text-stone-600 group-hover:text-ocean-500"
-                      />
-                    </Link>
-                  );
-                }
-
-                return (
-                  <div
-                    key={cat.slug}
-                    className="flex items-center gap-4 bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 px-4 py-4 opacity-50"
-                  >
-                    <div className="w-10 h-10 bg-stone-50 dark:bg-stone-700 rounded-lg flex items-center justify-center text-stone-400">
-                      {renderCatIcon?.(18)}
-                    </div>
-                    <div className="flex-1 min-w-0">
-                      <p className="text-sm font-semibold text-stone-400 dark:text-stone-500">
-                        {cat.name}
-                      </p>
-                      <p className="text-xs text-stone-300 dark:text-stone-600 mt-0.5">
-                        {cat.description}
-                      </p>
-                    </div>
-                    <span className="text-xs text-stone-300 dark:text-stone-600">
-                      準備中
-                    </span>
-                  </div>
-                );
-              })}
-            </div>
-
-            {/* フッター */}
-            <div className="mt-8 flex items-center justify-between">
+            <div className="flex items-center justify-between">
               <Link
                 href={`/${code}/spot`}
                 className="text-sm text-ocean-600 dark:text-ocean-400 hover:underline"
