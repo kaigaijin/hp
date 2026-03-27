@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { Resend } from "resend";
 import {
   calcSpotScore,
   aggregateReviewerStats,
@@ -14,6 +15,29 @@ const SUPABASE_KEY =
   process.env.INQUIRY_SUPABASE_ANON_KEY ||
   process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ||
   "";
+
+function sendReviewNotification(
+  country: string,
+  category: string,
+  spotSlug: string,
+  reviewerName: string,
+  rating: number,
+  comment: string | null
+) {
+  const key = process.env.RESEND_API_KEY;
+  const to = process.env.INQUIRY_NOTIFICATION_EMAIL;
+  if (!key || !to) return;
+  const resend = new Resend(key);
+  const stars = "★".repeat(rating) + "☆".repeat(5 - rating);
+  resend.emails
+    .send({
+      from: "Kaigaijin <noreply@kaigaijin.jp>",
+      to: [to],
+      subject: `[レビュー] ${country}/${category}/${spotSlug} — ${stars}`,
+      text: `新しいレビューが投稿されました。\n\n投稿者: ${reviewerName}\n評価: ${stars}（${rating}/5）\nコメント: ${comment ?? "なし"}\n\nURL: https://kaigaijin.jp/${country}/spot/${category}/${spotSlug}\n\n※ Supabase spot_reviews テーブルにも保存済みです。`,
+    })
+    .catch(() => {});
+}
 
 type ReviewRow = {
   id: string;
@@ -205,6 +229,8 @@ export async function POST(req: NextRequest) {
         { status: 500 }
       );
     }
+
+    sendReviewNotification(country, category, spot_slug, reviewer_name.trim(), ratingNum, comment?.trim() || null);
 
     return NextResponse.json({ success: true }, { status: 201 });
   } catch {
