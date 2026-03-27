@@ -23,18 +23,30 @@ export type ArticleMeta = {
   coverImage?: string;
 };
 
+// content/{country}/{date}/*.mdx を再帰的に収集
+function collectMdxFiles(dir: string): string[] {
+  if (!fs.existsSync(dir)) return [];
+  const results: string[] = [];
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    if (entry.isDirectory()) {
+      results.push(...collectMdxFiles(path.join(dir, entry.name)));
+    } else if (entry.name.endsWith(".mdx")) {
+      results.push(path.join(dir, entry.name));
+    }
+  }
+  return results;
+}
+
 export function getArticlesByCountry(countryCode: string): ArticleMeta[] {
   const dir = path.join(contentDir, countryCode);
-  if (!fs.existsSync(dir)) return [];
+  const files = collectMdxFiles(dir);
 
-  return fs
-    .readdirSync(dir)
-    .filter((f) => f.endsWith(".mdx"))
-    .map((filename) => {
-      const raw = fs.readFileSync(path.join(dir, filename), "utf-8");
+  return files
+    .map((filePath) => {
+      const raw = fs.readFileSync(filePath, "utf-8");
       const { data } = matter(raw);
       return {
-        slug: filename.replace(".mdx", ""),
+        slug: path.basename(filePath).replace(".mdx", ""),
         title: data.title ?? "",
         description: data.description ?? "",
         date: data.date ?? "",
@@ -49,9 +61,16 @@ export function getArticlesByCountry(countryCode: string): ArticleMeta[] {
     .sort((a, b) => (a.date > b.date ? -1 : 1));
 }
 
+// slug からファイルパスを検索（日付フォルダを走査）
+function findArticleFile(countryCode: string, slug: string): string | null {
+  const dir = path.join(contentDir, countryCode);
+  const files = collectMdxFiles(dir);
+  return files.find((f) => path.basename(f) === `${slug}.mdx`) ?? null;
+}
+
 export function getArticle(countryCode: string, slug: string) {
-  const filePath = path.join(contentDir, countryCode, `${slug}.mdx`);
-  if (!fs.existsSync(filePath)) return null;
+  const filePath = findArticleFile(countryCode, slug);
+  if (!filePath) return null;
 
   const raw = fs.readFileSync(filePath, "utf-8");
   const { data, content } = matter(raw);
