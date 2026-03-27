@@ -52,7 +52,7 @@ export const categoryGroups: CategoryGroup[] = [
     slug: "professional",
     name: "士業・専門サービス",
     icon: "Briefcase",
-    categories: ["accounting", "legal", "insurance"],
+    categories: ["accounting", "legal", "insurance", "bank"],
   },
   {
     slug: "lifestyle",
@@ -152,6 +152,12 @@ export const categories: CategoryDef[] = [
     name: "保険",
     icon: "Shield",
     description: "日本語対応の保険代理店、医療保険・生命保険",
+  },
+  {
+    slug: "bank",
+    name: "銀行",
+    icon: "Landmark",
+    description: "日本語対応の銀行、外国人口座開設対応の銀行",
   },
   {
     slug: "moving",

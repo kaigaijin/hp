@@ -16,7 +16,7 @@
     ],
     "hours": "平日: 8:00-21:00 / 週末: 9:00-16:00",
     "last_verified": "2026-03-26",
-    "status": "verified",
+    "status": "unverified",
     "source": "website"
   },
   {
@@ -36,7 +36,7 @@
     ],
     "hours": "平日: 8:00-21:00 / 週末: 9:00-16:00",
     "last_verified": "2026-03-26",
-    "status": "verified",
+    "status": "unverified",
     "source": "website"
   },
   {
@@ -228,7 +228,12 @@
     "phone": null,
     "website": "https://www.anytimefitness.sg/",
     "description": "日本発の24時間フィットネスジムのOrchard Central店。Orchardエリアの中心部に位置し、ショッピング帰りにも利用しやすい。",
-    "tags": ["24時間営業", "日本発", "パーソナルトレーニング", "Orchard"],
+    "tags": [
+      "24時間営業",
+      "日本発",
+      "パーソナルトレーニング",
+      "Orchard"
+    ],
     "hours": "24時間営業",
     "status": "unverified",
     "source": "website",
@@ -243,7 +248,11 @@
     "phone": null,
     "website": "https://www.anytimefitness.sg/",
     "description": "日本発の24時間フィットネスジムのBukit Timah店。日本人駐在家族が多く住むエリアに位置。",
-    "tags": ["24時間営業", "日本発", "パーソナルトレーニング"],
+    "tags": [
+      "24時間営業",
+      "日本発",
+      "パーソナルトレーニング"
+    ],
     "hours": "24時間営業",
     "status": "unverified",
     "source": "website",
@@ -258,7 +267,12 @@
     "phone": null,
     "website": "https://www.anytimefitness.sg/",
     "description": "日本発の24時間フィットネスジムのNovena店。Novena MRT駅直結のモール内。日系クリニックが集まるエリアに位置。",
-    "tags": ["24時間営業", "日本発", "パーソナルトレーニング", "駅直結"],
+    "tags": [
+      "24時間営業",
+      "日本発",
+      "パーソナルトレーニング",
+      "駅直結"
+    ],
     "hours": "24時間営業",
     "status": "unverified",
     "source": "website",
@@ -273,7 +287,11 @@
     "phone": null,
     "website": "https://www.anytimefitness.sg/",
     "description": "日本発の24時間フィットネスジムのRiver Valley店。日本人駐在家族が多く住むRiver Valleyエリアに位置。",
-    "tags": ["24時間営業", "日本発", "パーソナルトレーニング"],
+    "tags": [
+      "24時間営業",
+      "日本発",
+      "パーソナルトレーニング"
+    ],
     "hours": "24時間営業",
     "status": "unverified",
     "source": "website",
@@ -288,7 +306,12 @@
     "phone": null,
     "website": "https://www.anytimefitness.sg/",
     "description": "日本発の24時間フィットネスジムのJurong East店。西部エリアの居住者に便利な立地。",
-    "tags": ["24時間営業", "日本発", "パーソナルトレーニング", "西部"],
+    "tags": [
+      "24時間営業",
+      "日本発",
+      "パーソナルトレーニング",
+      "西部"
+    ],
     "hours": "24時間営業",
     "status": "unverified",
     "source": "website",
@@ -303,7 +326,12 @@
     "phone": null,
     "website": "https://www.anytimefitness.sg/",
     "description": "日本発の24時間フィットネスジムのTelok Ayer店。CBDの日本食レストラン街に近い立地。",
-    "tags": ["24時間営業", "日本発", "パーソナルトレーニング", "CBD"],
+    "tags": [
+      "24時間営業",
+      "日本発",
+      "パーソナルトレーニング",
+      "CBD"
+    ],
     "hours": "24時間営業",
     "status": "unverified",
     "source": "website",
@@ -318,7 +346,12 @@
     "phone": null,
     "website": "https://www.curves.com.sg/",
     "description": "日本発の女性専用30分フィットネスジムのNovena店。サーキットトレーニング形式で予約不要。Novena MRT駅至近。",
-    "tags": ["女性専用", "日本発", "30分フィットネス", "予約不要"],
+    "tags": [
+      "女性専用",
+      "日本発",
+      "30分フィットネス",
+      "予約不要"
+    ],
     "hours": "要確認",
     "status": "unverified",
     "source": "website",
@@ -333,7 +366,12 @@
     "phone": null,
     "website": "https://www.pure-360.com.sg/en/",
     "description": "アジア最大級のヨガスタジオチェーン。週1,600以上のクラスを提供。日本人を含む20名以上のインストラクターが在籍。ヨガ・ピラティス・瞑想など多彩なプログラム。",
-    "tags": ["ヨガ", "ピラティス", "瞑想", "大型スタジオ"],
+    "tags": [
+      "ヨガ",
+      "ピラティス",
+      "瞑想",
+      "大型スタジオ"
+    ],
     "hours": "要確認",
     "status": "unverified",
     "source": "website",
@@ -348,7 +386,12 @@
     "phone": null,
     "website": "https://www.yogamovement.com/",
     "description": "シンガポール発のヨガスタジオチェーン。初心者からアドバンスまで多彩なクラスを提供。アプリで簡単に予約可能。日本人利用者も多い。シンガポール国内に複数拠点を展開。",
-    "tags": ["ヨガ", "初心者歓迎", "アプリ予約", "複数店舗"],
+    "tags": [
+      "ヨガ",
+      "初心者歓迎",
+      "アプリ予約",
+      "複数店舗"
+    ],
     "hours": "要確認",
     "status": "unverified",
     "source": "website",
@@ -363,7 +406,12 @@
     "phone": null,
     "website": "https://www.anytimefitness.sg/",
     "description": "日本発の24時間フィットネスジムのMarine Parade店。東部エリアの日本人居住者が多いエリアに位置。Parkway Parade内。",
-    "tags": ["24時間営業", "日本発", "パーソナルトレーニング", "東部"],
+    "tags": [
+      "24時間営業",
+      "日本発",
+      "パーソナルトレーニング",
+      "東部"
+    ],
     "hours": "24時間営業",
     "status": "unverified",
     "source": "website",
