@@ -1343,25 +1343,6 @@
     "source": "google_maps"
   },
   {
-    "slug": "ippudo-hanoi-rest",
-    "name": "Ippudo Hanoi",
-    "name_ja": "一風堂 ハノイ",
-    "area": "Hoan Kiem, Hanoi",
-    "address": "Hoan Kiem, Hanoi",
-    "phone": null,
-    "website": "https://www.facebook.com/ippudovietnam/",
-    "description": "一風堂のハノイ店。濃厚な博多豚骨ラーメンをハノイでも楽しめる。",
-    "tags": [
-      "ラーメン",
-      "日本発チェーン",
-      "豚骨"
-    ],
-    "hours": "毎日 11:00〜21:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website"
-  },
-  {
     "slug": "ootoya-d1-hcmc",
     "name": "Ootoya District 1 HCMC",
     "name_ja": "大戸屋 1区",
@@ -1393,43 +1374,6 @@
       "寿司",
       "チェーン",
       "フーミーフン"
-    ],
-    "hours": "毎日 10:00〜22:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "ootoya-hanoi-rest",
-    "name": "Ootoya Hanoi",
-    "name_ja": "大戸屋 ハノイ",
-    "area": "Ba Dinh, Hanoi",
-    "address": "Ba Dinh, Hanoi",
-    "phone": null,
-    "website": null,
-    "description": "大戸屋のハノイ店。手作りの家庭料理を定食スタイルで提供。キンマ通りエリア。",
-    "tags": [
-      "定食",
-      "日本発チェーン",
-      "家庭料理"
-    ],
-    "hours": "毎日 10:00〜22:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "marukame-udon-hanoi-rest",
-    "name": "Marukame Udon Hanoi",
-    "name_ja": "丸亀製麺 ハノイ",
-    "area": "Hoan Kiem, Hanoi",
-    "address": "Hoan Kiem, Hanoi",
-    "phone": null,
-    "website": null,
-    "description": "丸亀製麺のハノイ店。目の前で打つ讃岐うどんをセルフサービスで提供。",
-    "tags": [
-      "うどん",
-      "日本発チェーン"
     ],
     "hours": "毎日 10:00〜22:00",
     "last_verified": "2026-03-27",
@@ -1482,7 +1426,11 @@
     "phone": null,
     "website": null,
     "description": "満月の2号店。タイバンルンのジャパンタウン内に位置し、焼酎バーと居酒屋料理を提供。石造りのカウンターとダークウッドのインテリアが特徴。",
-    "tags": ["居酒屋", "焼酎", "ジャパンタウン"],
+    "tags": [
+      "居酒屋",
+      "焼酎",
+      "ジャパンタウン"
+    ],
     "hours": "17:00〜24:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1497,7 +1445,11 @@
     "phone": null,
     "website": null,
     "description": "ホーチミンのジャパンタウンにある居酒屋。日本人シェフが手がける創作和食と焼き鳥が人気。カジュアルな雰囲気。",
-    "tags": ["居酒屋", "創作和食", "焼き鳥"],
+    "tags": [
+      "居酒屋",
+      "創作和食",
+      "焼き鳥"
+    ],
     "hours": "17:00〜23:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1512,7 +1464,11 @@
     "phone": null,
     "website": null,
     "description": "ジャパンタウンの隠れ家居酒屋。日本人オーナーが経営し、新鮮な刺身と日本酒が楽しめる。地元の日本人コミュニティに人気。",
-    "tags": ["居酒屋", "日本人経営", "刺身"],
+    "tags": [
+      "居酒屋",
+      "日本人経営",
+      "刺身"
+    ],
     "hours": "17:30〜23:30",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1527,7 +1483,11 @@
     "phone": null,
     "website": null,
     "description": "ホーチミンのクラフト日本酒専門店。厳選された日本全国の地酒を提供。おまかせの酒と料理のペアリングが楽しめる。",
-    "tags": ["日本酒専門", "クラフト酒", "ペアリング"],
+    "tags": [
+      "日本酒専門",
+      "クラフト酒",
+      "ペアリング"
+    ],
     "hours": "17:00〜24:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1542,7 +1502,11 @@
     "phone": null,
     "website": null,
     "description": "レタントン通りの居酒屋。焼き鳥・焼きとん・串焼きを中心に提供。日本の大衆居酒屋の雰囲気を再現。",
-    "tags": ["居酒屋", "焼き鳥", "大衆酒場"],
+    "tags": [
+      "居酒屋",
+      "焼き鳥",
+      "大衆酒場"
+    ],
     "hours": "17:00〜23:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1557,38 +1521,639 @@
     "phone": null,
     "website": null,
     "description": "ラーメン新の7区店。豚骨ラーメン・味噌ラーメンを提供。フーミーフン地区の日本人居住エリアに近い。",
-    "tags": ["ラーメン", "豚骨", "7区"],
+    "tags": [
+      "ラーメン",
+      "豚骨",
+      "7区"
+    ],
     "hours": "11:00〜14:00 / 17:00〜22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "google_maps"
   },
   {
-    "slug": "oyama-ramen-hanoi-rest",
-    "name": "Oyama Ramen Hanoi",
-    "name_ja": "おやまラーメン ハノイ",
-    "area": "Cau Giay",
-    "address": "Cau Giay, Hanoi",
+    "slug": "sharaku-d1-hcmc",
+    "name": "Sharaku Restaurant",
+    "name_ja": "写楽",
+    "area": "District 1",
+    "address": "2F, Sotetsu Grand Fresa Saigon, 8 Ly Tu Trong, Ben Nghe, District 1, Ho Chi Minh City",
+    "phone": "+842871096208",
+    "website": "https://sharaku-vn.com/en/homepage/",
+    "description": "東京・銀座の「花蝶」の姉妹店。寿司・鉄板焼き・天ぷらの3業態を専門の日本人シェフが監修。ソテツグランフレッサホテル内。",
+    "tags": [
+      "銀座発",
+      "寿司",
+      "鉄板焼き"
+    ],
+    "hours": "6:30-10:00 / 11:00-14:30 / 17:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "sorae-d1-hcmc",
+    "name": "Sorae Sushi & Lounge",
+    "name_ja": "空 寿司＆ラウンジ",
+    "area": "District 1",
+    "address": "Level 51, Bitexco Financial Tower, 36 Ho Tung Mau, Ben Nghe, District 1, Ho Chi Minh City",
+    "phone": "+842838272372",
+    "website": "https://www.soraesushi.com/",
+    "description": "ビテクスコ・フィナンシャルタワー51階の日本料理レストラン。ホーチミン市街を一望する絶景と共に寿司・刺身・焼き物を提供。",
+    "tags": [
+      "高層レストラン",
+      "寿司",
+      "景色"
+    ],
+    "hours": "11:00-14:00 / 17:00-23:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "genki-sushi-saigon-centre",
+    "name": "Genki Sushi Saigon Centre",
+    "name_ja": "元気寿司 サイゴンセンター",
+    "area": "District 1",
+    "address": "Saigon Centre, 67 Le Loi, Ben Thanh, District 1, Ho Chi Minh City",
     "phone": null,
     "website": null,
-    "description": "ハノイの本格ラーメン店。濃厚豚骨ラーメンと辛味噌ラーメンが看板メニュー。日本人経営。",
-    "tags": ["ラーメン", "豚骨", "日本人経営"],
-    "hours": "11:00〜14:00 / 17:00〜22:00",
+    "description": "日本の回転寿司チェーン元気寿司のベトナム1号店。タッチパネル注文で新鮮な寿司が楽しめる。サイゴンセンター内。",
+    "tags": [
+      "回転寿司",
+      "日本チェーン",
+      "モール内"
+    ],
+    "hours": "毎日 10:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "google_maps"
   },
   {
-    "slug": "neko-ramen-hanoi-rest",
-    "name": "Neko Ramen Hanoi",
-    "name_ja": "ネコラーメン ハノイ",
-    "area": "Cau Giay",
-    "address": "Cau Giay, Hanoi",
+    "slug": "genki-sushi-crescent-mall",
+    "name": "Genki Sushi Crescent Mall",
+    "name_ja": "元気寿司 クレセントモール",
+    "area": "District 7",
+    "address": "4F-22, Crescent Mall, District 7, Ho Chi Minh City",
     "phone": null,
     "website": null,
-    "description": "ハノイのラーメン専門店。つけ麺と豚骨魚介ラーメンが人気。日本人好みの味で在住者のリピーターが多い。",
-    "tags": ["ラーメン", "つけ麺", "日本人利用多"],
-    "hours": "11:00〜14:00 / 17:00〜22:00",
+    "description": "元気寿司のベトナム2号店。7区のクレセントモール内でカジュアルに回転寿司を楽しめる。",
+    "tags": [
+      "回転寿司",
+      "日本チェーン",
+      "モール内"
+    ],
+    "hours": "毎日 10:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "the-sake-nguyen-hue",
+    "name": "The Sake",
+    "name_ja": "ザ・サケ",
+    "area": "District 1",
+    "address": "75-77 Nguyen Hue, Ben Nghe, District 1, Ho Chi Minh City",
+    "phone": "+840772757779",
+    "website": "https://thesake.vn/",
+    "description": "グエンフエ通り沿いの日本酒居酒屋。The Gangsチームが手がける新コンセプト。飲み放題プランもあり。2025年オープン。",
+    "tags": [
+      "日本酒",
+      "居酒屋",
+      "グエンフエ"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "kappou-hanoi-tay-ho",
+    "name": "Kappou Hanoi",
+    "name_ja": "割烹 ハノイ",
+    "area": "Tay Ho, Hanoi",
+    "address": "15A Nguyen Dinh Thi, Tay Ho, Hanoi",
+    "phone": "+842473016988",
+    "website": "https://kappouhanoi.com/en/home/",
+    "description": "2018年創業、ハノイのおまかせダイニングの先駆け。日本の伝統的な割烹スタイルで季節の食材を使ったコース料理を提供。カウンター席で料理人の技を間近に。",
+    "tags": [
+      "おまかせ",
+      "割烹",
+      "カウンター"
+    ],
+    "hours": "18:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "nagisa-hanoi-linh-lang",
+    "name": "Nagisa Japanese Restaurant",
+    "name_ja": "なぎさ",
+    "area": "Ba Dinh, Hanoi",
+    "address": "No. 8, Lane 71, Linh Lang, Ba Dinh, Hanoi",
+    "phone": null,
+    "website": null,
+    "description": "ハノイ・リンラン通りの日本料理レストラン。寿司、刺身、天ぷら、鍋料理を提供。ベトナム人・日本人双方から高評価。",
+    "tags": [
+      "日本料理",
+      "リンラン通り",
+      "鍋料理"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "kiraku-hanoi-hai-ba-trung",
+    "name": "Kiraku Japanese Restaurant",
+    "name_ja": "きらく",
+    "area": "Hai Ba Trung, Hanoi",
+    "address": "85 Trieu Viet Vuong, Hai Ba Trung, Hanoi",
+    "phone": "+84947286287",
+    "website": null,
+    "description": "ハノイ・ハイバーチュン区の日本料理レストラン。新鮮な刺身セット（サーモン・タコ・エビ・いくら等日本直輸入）が人気。8:00〜24:00の長時間営業。",
+    "tags": [
+      "日本料理",
+      "刺身",
+      "長時間営業"
+    ],
+    "hours": "8:00-24:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "nhan-sushi-kim-ma",
+    "name": "Nhan Sushi Kim Ma",
+    "name_ja": "ニャン寿司 キンマ",
+    "area": "Ba Dinh, Hanoi",
+    "address": "290 Kim Ma, Ba Dinh, Hanoi",
+    "phone": "+84702098686",
+    "website": "https://nhansushihanoi.com.vn/",
+    "description": "ハノイで急成長中の寿司チェーン。本格的な調理法と新鮮な食材で日本人客からも高評価。キンマ店。3店舗展開。",
+    "tags": [
+      "寿司",
+      "チェーン",
+      "キンマ通り"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "nhan-sushi-trieu-viet-vuong",
+    "name": "Nhan Sushi Trieu Viet Vuong",
+    "name_ja": "ニャン寿司 チュウヴィエットヴオン",
+    "area": "Hai Ba Trung, Hanoi",
+    "address": "101 Trieu Viet Vuong, Hai Ba Trung, Hanoi",
+    "phone": "+842466758888",
+    "website": "https://nhansushihanoi.com.vn/",
+    "description": "ニャン寿司のハノイ本店。寿司、刺身、天ぷらを手頃な価格で提供。ベトナム人と日本人の両方に愛される。",
+    "tags": [
+      "寿司",
+      "本店",
+      "手頃な価格"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "shamoji-robata-tong-dan",
+    "name": "Shamoji Robata Yaki Tong Dan",
+    "name_ja": "しゃもじ炉端焼き トンダン",
+    "area": "Hoan Kiem, Hanoi",
+    "address": "25 Tong Dan, Hoan Kiem, Hanoi",
+    "phone": null,
+    "website": "https://shamojirobatayaki.vn/",
+    "description": "ハノイ旧市街近くの炉端焼きレストラン。ランチセットがコスパ良好。ハノイに3店舗展開。",
+    "tags": [
+      "炉端焼き",
+      "ランチセット",
+      "旧市街近く"
+    ],
+    "hours": "11:00-14:00 / 17:30-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "shamoji-robata-trung-hoa",
+    "name": "Shamoji Robata Yaki Trung Hoa",
+    "name_ja": "しゃもじ炉端焼き チュンホア",
+    "area": "Cau Giay, Hanoi",
+    "address": "118 Trung Hoa, Cau Giay, Hanoi",
+    "phone": null,
+    "website": "https://shamojirobatayaki.vn/",
+    "description": "しゃもじ炉端焼きのチュンホア店。カウガイ区のオフィスエリアでランチ利用も多い。",
+    "tags": [
+      "炉端焼き",
+      "ランチ",
+      "カウガイ"
+    ],
+    "hours": "11:00-14:00 / 17:30-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "sushi-dining-aoi-d3",
+    "name": "Sushi Dining Aoi District 3",
+    "name_ja": "寿司ダイニング葵 3区",
+    "area": "District 3",
+    "address": "District 3, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "寿司ダイニング葵の3区店。新鮮な寿司・刺身をメインに、焼き物・天ぷらなどのコースも提供。日本人駐在員に人気。",
+    "tags": [
+      "寿司",
+      "刺身",
+      "コース"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "tingara-danang",
+    "name": "Tingara InterContinental Da Nang",
+    "name_ja": "てぃんがーら ダナン",
+    "area": "Da Nang",
+    "address": "InterContinental Danang Sun Peninsula Resort, Bai Bac, Son Tra, Da Nang",
+    "phone": null,
+    "website": "https://www.danang.intercontinental.com/dining/tingara/",
+    "description": "インターコンチネンタル・ダナン内の懐石料理レストラン。マグロ刺身やうなぎ寿司など日本直輸入の食材を使用。ダナンで数少ない本格和食。",
+    "tags": [
+      "懐石",
+      "ホテルレストラン",
+      "ダナン"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "ramen-yushoken-danang",
+    "name": "Ramen Yushoken Da Nang",
+    "name_ja": "ラーメン雄翔軒 ダナン",
+    "area": "Da Nang",
+    "address": "Da Nang, Vietnam",
+    "phone": null,
+    "website": null,
+    "description": "ダナンの人気ラーメン店。12時間煮込んだ豚骨スープが自慢。濃厚な豚骨ラーメンを提供。",
+    "tags": [
+      "ラーメン",
+      "豚骨",
+      "ダナン"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "ootoya-d7-hcmc",
+    "name": "Ootoya District 7",
+    "name_ja": "大戸屋 7区",
+    "area": "District 7",
+    "address": "District 7, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "日本の定食チェーン大戸屋の7区店。手作り定食を中心に、バランスの良い和食を手頃な価格で提供。",
+    "tags": [
+      "定食",
+      "日本チェーン",
+      "7区"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "tamaya-hanoi-hoan-kiem",
+    "name": "Tamaya Hoan Kiem",
+    "name_ja": "たまや ホアンキエム",
+    "area": "Hoan Kiem, Hanoi",
+    "address": "Hoan Kiem, Hanoi",
+    "phone": null,
+    "website": null,
+    "description": "ハノイ旧市街エリアの和食レストラン。寿司、刺身、天ぷら、うどんなど幅広い和食メニューを提供。",
+    "tags": [
+      "和食",
+      "旧市街",
+      "幅広いメニュー"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "isushi-d7-hcmc",
+    "name": "iSushi District 7",
+    "name_ja": "アイスシ 7区",
+    "area": "District 7",
+    "address": "District 7, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "回転寿司チェーンiSushiの7区店。手頃な価格で寿司食べ放題プランを提供。ファミリーに人気。",
+    "tags": [
+      "回転寿司",
+      "食べ放題",
+      "ファミリー"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sushi-hokkaido-sachi-d7",
+    "name": "Sushi Hokkaido Sachi District 7",
+    "name_ja": "すし北海道サチ 7区",
+    "area": "District 7",
+    "address": "District 7, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "北海道をテーマにした寿司チェーンの7区店。サーモン刺身、いくら丼、北海道風海鮮料理を提供。",
+    "tags": [
+      "寿司",
+      "北海道テーマ",
+      "海鮮"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "gyu-kaku-d7-hcmc",
+    "name": "Gyu-Kaku District 7",
+    "name_ja": "牛角 7区",
+    "area": "District 7",
+    "address": "District 7, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "日本式焼肉チェーン牛角の7区店。食べ放題コースで焼肉を楽しめる。フーミーフン地区。",
+    "tags": [
+      "焼肉",
+      "食べ放題",
+      "日本チェーン"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "ippudo-hanoi-royal-city",
+    "name": "IPPUDO Hanoi Royal City",
+    "name_ja": "一風堂 ハノイ ロイヤルシティ",
+    "area": "Thanh Xuan, Hanoi",
+    "address": "Royal City, 72A Nguyen Trai, Thanh Xuan, Hanoi",
+    "phone": null,
+    "website": null,
+    "description": "一風堂のハノイ・ロイヤルシティ店。濃厚な豚骨ラーメンを提供。ハノイの大型モール内でアクセス良好。",
+    "tags": [
+      "ラーメン",
+      "日本チェーン",
+      "モール内"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "marukame-udon-hanoi-lotte",
+    "name": "Marukame Udon Lotte Hanoi",
+    "name_ja": "丸亀製麺 ハノイ ロッテ",
+    "area": "Ba Dinh, Hanoi",
+    "address": "Lotte Center Hanoi, 54 Lieu Giai, Ba Dinh, Hanoi",
+    "phone": null,
+    "website": null,
+    "description": "丸亀製麺のハノイ・ロッテセンター店。打ちたてうどんと天ぷらを手頃な価格で提供。",
+    "tags": [
+      "うどん",
+      "日本チェーン",
+      "ロッテセンター"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sushi-tei-d1-hcmc",
+    "name": "Sushi Tei District 1",
+    "name_ja": "スシテイ 1区",
+    "area": "District 1",
+    "address": "District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "シンガポール発の寿司チェーンSushi Teiの1区店。手頃な価格で寿司、刺身、うどん、天ぷらを提供。",
+    "tags": [
+      "寿司",
+      "チェーン",
+      "手頃な価格"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "yakiniku-shiki-d1-hcmc",
+    "name": "Yakiniku Shiki District 1",
+    "name_ja": "焼肉四季 1区",
+    "area": "District 1",
+    "address": "District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "1区の日本式焼肉店。上質な肉と日本のタレで焼肉を楽しめる。日本人駐在員にも人気。",
+    "tags": [
+      "焼肉",
+      "日本式",
+      "駐在員人気"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "oedo-alley-d1-hcmc",
+    "name": "Oedo Alley District 1",
+    "name_ja": "大江戸横丁 1区",
+    "area": "District 1",
+    "address": "District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "日本の横丁をテーマにした飲食施設。複数のカウンターで寿司、ラーメン、焼き鳥、おでんなどを提供。",
+    "tags": [
+      "横丁スタイル",
+      "複合飲食",
+      "日本テーマ"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "fujiro-d1-hcmc",
+    "name": "Fujiro District 1",
+    "name_ja": "ふじろう 1区",
+    "area": "District 1",
+    "address": "District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "レタントン通りの日本料理レストラン。刺身・寿司・焼き物のコースが充実。日本人オーナーが運営。",
+    "tags": [
+      "日本料理",
+      "コース",
+      "日本人経営"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sake-central-saigon",
+    "name": "Sake Central Saigon",
+    "name_ja": "サケセントラル サイゴン",
+    "area": "District 1",
+    "address": "1F, 59 Dong Du, District 1, Ho Chi Minh City",
+    "phone": "+842839390022",
+    "website": "http://sakecentralsaigon.com/",
+    "description": "ホーチミン随一の日本酒専門バー＆レストラン。厳選された日本酒のペアリングコースが人気。月〜土18時開店、要予約。",
+    "tags": [
+      "日本酒",
+      "ペアリング",
+      "要予約"
+    ],
+    "hours": "月〜土 18:00〜",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "tokachiya-ramen-d1-hcmc",
+    "name": "Tokachiya Ramen District 1",
+    "name_ja": "十勝屋ラーメン 1区",
+    "area": "District 1",
+    "address": "District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "北海道・十勝地方の味を再現したラーメン店。味噌ラーメンが看板メニュー。",
+    "tags": [
+      "ラーメン",
+      "味噌",
+      "北海道"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "gyu-shige-d1-hcmc",
+    "name": "Gyu Shige District 1",
+    "name_ja": "牛繁 1区",
+    "area": "District 1",
+    "address": "District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "日本式焼肉チェーン牛繁の1区店。リーズナブルな価格でカルビ・ハラミ・タンなどを楽しめる。",
+    "tags": [
+      "焼肉",
+      "日本チェーン",
+      "リーズナブル"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "minori-restaurant-hanoi-lotte",
+    "name": "Minori Restaurant Lotte Hanoi",
+    "name_ja": "みのり ロッテハノイ",
+    "area": "Ba Dinh, Hanoi",
+    "address": "Lotte Hotel Hanoi, 54 Lieu Giai, Ba Dinh, Hanoi",
+    "phone": null,
+    "website": null,
+    "description": "ロッテホテルハノイ内の本格和食レストラン。寿司カウンター、鉄板焼き、個室を備える。ビジネスディナーに最適。",
+    "tags": [
+      "ホテル和食",
+      "鉄板焼き",
+      "個室"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "asahi-sushi-hanoi-d1",
+    "name": "Asahi Sushi Hanoi",
+    "name_ja": "旭寿司 ハノイ",
+    "area": "Hoan Kiem, Hanoi",
+    "address": "Hoan Kiem, Hanoi",
+    "phone": null,
+    "website": null,
+    "description": "ハノイ旧市街の寿司レストラン。日本から空輸した食材を使った握り寿司とちらし寿司が人気。",
+    "tags": [
+      "寿司",
+      "食材直送",
+      "旧市街"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "hatoyama-d7-hcmc",
+    "name": "Hatoyama District 7",
+    "name_ja": "鳩山 7区",
+    "area": "District 7",
+    "address": "District 7, Ho Chi Minh City",
+    "phone": null,
+    "website": "https://hatoyama.vn/en/",
+    "description": "鳩山のホーチミン7区店。フーミーフン地区で日本直送食材を使った和食を提供。ランチ営業あり。",
+    "tags": [
+      "日本料理",
+      "食材直送",
+      "7区"
+    ],
+    "hours": "10:30-14:00 / 17:30-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "sumo-bbq-d1-hcmc",
+    "name": "Sumo BBQ District 1",
+    "name_ja": "スモーBBQ 1区",
+    "area": "District 1",
+    "address": "District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "日本式焼肉＆鍋のビュッフェレストラン。テーブルで焼肉や鍋をオーダーするスタイル。ファミリーやグループに人気。",
+    "tags": [
+      "焼肉ビュッフェ",
+      "鍋",
+      "ファミリー"
+    ],
+    "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "google_maps"

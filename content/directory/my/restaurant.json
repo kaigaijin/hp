@@ -3652,5 +3652,590 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "kani-kawa-avenue-k",
+    "name": "Kani Kawa",
+    "name_ja": "蟹川",
+    "area": "Bukit Bintang",
+    "address": "L2-6A, Level 2, Avenue K, 156 Jalan Ampang, 50450 Kuala Lumpur",
+    "phone": "+60102646881",
+    "website": null,
+    "description": "豊洲市場から直送のシーフードを使った日本食ビュッフェ。ズワイガニ、タラバガニ、毛ガニ、刺身、和牛を食べ放題で提供。テーブルにBBQステーション付き。",
+    "tags": [
+      "ビュッフェ",
+      "カニ",
+      "和牛",
+      "食べ放題"
+    ],
+    "hours": "11:00-15:00, 18:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "gyoza-izakaya-dandadan-mont-kiara",
+    "name": "Gyoza Izakaya DanDaDan",
+    "name_ja": "餃子居酒屋 ダンダダン",
+    "area": "Mont Kiara",
+    "address": "1 Mont Kiara, 1 Jalan Kiara, Mont Kiara, 50480 Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "東京発の餃子居酒屋チェーン。マレーシア初進出。手作り餃子と居酒屋メニューを提供。A&Wの隣、正面入口前。",
+    "tags": [
+      "餃子",
+      "居酒屋",
+      "チェーン",
+      "東京発"
+    ],
+    "hours": "12:00-21:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "miraku-japanese-restaurant-g-hotel-penang",
+    "name": "Miraku Japanese Restaurant",
+    "name_ja": "美楽 日本料理",
+    "area": "Georgetown, Penang",
+    "address": "G Hotel Gurney, 168A Persiaran Gurney, 10250 George Town, Penang",
+    "phone": null,
+    "website": null,
+    "description": "Gホテルガーニー内の高級日本料理レストラン。寿司、刺身、天ぷら、鉄板焼きなど本格的な和食を提供。",
+    "tags": [
+      "ホテルダイニング",
+      "寿司",
+      "鉄板焼き",
+      "高級"
+    ],
+    "hours": "12:00-14:30, 18:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "sushi-tei-gurney-plaza-penang",
+    "name": "Sushi Tei Gurney Plaza Penang",
+    "name_ja": "寿司亭 ガーニープラザ ペナン店",
+    "area": "Georgetown, Penang",
+    "address": "#02-02, Plaza Gurney, 170 Persiaran Gurney, 10250 George Town, Penang",
+    "phone": null,
+    "website": null,
+    "description": "シンガポール発の寿司チェーン。海鮮ラーメン、うな重、刺身盛り合わせなど幅広い日本食メニューを提供。",
+    "tags": [
+      "寿司",
+      "チェーン",
+      "ペナン"
+    ],
+    "hours": "11:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "don-house-japanese-jb",
+    "name": "Don House Japanese Restaurant",
+    "name_ja": "丼ハウス",
+    "area": "Mount Austin, Johor Bahru",
+    "address": "28 Jalan Austin Heights 8/2, Taman Mount Austin, 81100 Johor Bahru",
+    "phone": null,
+    "website": null,
+    "description": "JBのマウントオースティンにある日本食レストラン。ラーメン、丼ぶり、定食など多彩なメニュー。地元で人気の日本料理店。",
+    "tags": [
+      "丼",
+      "ラーメン",
+      "定食",
+      "JB"
+    ],
+    "hours": "11:30-15:00, 17:30-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sushi-zanmai-gurney-paragon-penang",
+    "name": "Sushi Zanmai Gurney Paragon Penang",
+    "name_ja": "寿司三昧 ガーニーパラゴン ペナン店",
+    "area": "Georgetown, Penang",
+    "address": "163D-6-36, Persiaran Gurney, Level 6, 10250 George Town, Penang",
+    "phone": null,
+    "website": null,
+    "description": "マレーシア最大の日本食チェーン。寿司、刺身、天ぷら、うどんなど幅広いメニュー。回転寿司スタイルも一部あり。",
+    "tags": [
+      "寿司",
+      "チェーン",
+      "ペナン"
+    ],
+    "hours": "10:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "ippudo-gurney-plaza-penang",
+    "name": "Ippudo Gurney Plaza Penang",
+    "name_ja": "一風堂 ガーニープラザ ペナン店",
+    "area": "Georgetown, Penang",
+    "address": "Gurney Plaza, 170 Persiaran Gurney, 10250 George Town, Penang",
+    "phone": null,
+    "website": null,
+    "description": "博多豚骨ラーメンの有名チェーン。白丸元味と赤丸新味が看板メニュー。ペナン唯一の一風堂。",
+    "tags": [
+      "ラーメン",
+      "豚骨",
+      "チェーン",
+      "ペナン"
+    ],
+    "hours": "11:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "ozeki-tokyo-cuisine-subang",
+    "name": "Ozeki Tokyo Cuisine Subang",
+    "name_ja": "大関 東京キュイジーヌ スバン店",
+    "area": "Subang Jaya",
+    "address": "19-G, Jalan USJ 10/1, Taipan USJ, 47620 Subang Jaya, Selangor",
+    "phone": null,
+    "website": null,
+    "description": "スバンジャヤの老舗日本食レストラン。寿司、刺身、天ぷら、鉄板焼きなど幅広い日本料理を提供。ファミリー向けの落ち着いた空間。",
+    "tags": [
+      "総合日本食",
+      "老舗",
+      "ファミリー向け"
+    ],
+    "hours": "11:30-14:30, 17:30-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "robata-sushi-grill-subang",
+    "name": "Robata Sushi & Grill",
+    "name_ja": "炉端 寿司＆グリル",
+    "area": "Subang Jaya",
+    "address": "Lot G-16, Ground Level, Jalan SS16/1, Subang Jaya, Selangor",
+    "phone": null,
+    "website": null,
+    "description": "炉端焼きと寿司を中心とした日本食レストラン。炭火で焼き上げる海鮮と肉の串焼きが人気。",
+    "tags": [
+      "炉端焼き",
+      "寿司",
+      "炭火焼き"
+    ],
+    "hours": "12:00-15:00, 18:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "hanarei-sunway-pyramid",
+    "name": "Hanarei Sunway Pyramid",
+    "name_ja": "花嶺 サンウェイピラミッド店",
+    "area": "Subang Jaya",
+    "address": "G1.PT.09, The Link, Sunway Pyramid, 3 Jalan PJS 11/15, Bandar Sunway, 47500 Subang Jaya, Selangor",
+    "phone": null,
+    "website": null,
+    "description": "おまかせ寿司とカジュアル日本食を提供するレストラン。サンウェイピラミッド内のアクセス便利な立地。",
+    "tags": [
+      "寿司",
+      "おまかせ",
+      "ショッピングモール"
+    ],
+    "hours": "11:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sakuragawa-yappari-samurai-bangsar",
+    "name": "Sakuragawa By Yappari Samurai",
+    "name_ja": "桜川 by やっぱりサムライ",
+    "area": "Bangsar",
+    "address": "19-2, Jalan Telawi 2, Bangsar Baru, 59100 Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "バンサーのカジュアルな日本食レストラン。定食、丼ぶり、うどんなど日本の家庭料理をベースにしたメニューを提供。",
+    "tags": [
+      "定食",
+      "丼",
+      "家庭料理",
+      "カジュアル"
+    ],
+    "hours": "11:30-14:30, 17:30-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "chipta-11a-jb-restaurant",
+    "name": "Chipta 11a",
+    "name_ja": "Chipta 11a",
+    "area": "Johor Bahru",
+    "address": "11A Jalan Dhoby, 80000 Johor Bahru, Johor",
+    "phone": null,
+    "website": null,
+    "description": "サバ州出身のシェフがマレーシアのルーツと日本料理の技法を融合させたモダンレストラン。おまかせスタイルで提供。",
+    "tags": [
+      "フュージョン",
+      "おまかせ",
+      "モダン",
+      "JB"
+    ],
+    "hours": "18:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "kazuma-japanese-concorde-kl",
+    "name": "Kazuma Japanese Restaurant",
+    "name_ja": "数馬",
+    "area": "Bukit Bintang",
+    "address": "Concorde Hotel Kuala Lumpur, 2 Jalan Sultan Ismail, 50250 Kuala Lumpur",
+    "phone": null,
+    "website": "https://kualalumpur.concordehotelsresorts.com/dining/kazuma-japanese-restaurant",
+    "description": "コンコルドホテルKL内の日本料理レストラン。鉄板焼き、寿司、刺身、天ぷらなど本格的な日本料理を提供。",
+    "tags": [
+      "ホテルダイニング",
+      "鉄板焼き",
+      "寿司"
+    ],
+    "hours": "12:00-14:30, 18:30-22:30",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "kura-revolving-sushi-trx-restaurant",
+    "name": "Kura Revolving Sushi TRX",
+    "name_ja": "くら寿司 TRX店",
+    "area": "TRX",
+    "address": "TRX Exchange Mall, Jalan Tun Razak, 55188 Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "日本最大手の回転寿司チェーン。タッチパネル注文と新幹線レーンで寿司が届くシステム。マレーシア初進出。",
+    "tags": [
+      "回転寿司",
+      "チェーン",
+      "テクノロジー"
+    ],
+    "hours": "11:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "ramen-jin-subang-jaya-restaurant",
+    "name": "Ramen Jin",
+    "name_ja": "ラーメン仁",
+    "area": "Subang Jaya",
+    "address": "SS15, Subang Jaya, 47500, Selangor",
+    "phone": null,
+    "website": null,
+    "description": "SS15にあるラーメン専門店。濃厚豚骨ラーメン、味噌ラーメン、つけ麺を提供。地元で人気のラーメン店。",
+    "tags": [
+      "ラーメン",
+      "豚骨",
+      "つけ麺"
+    ],
+    "hours": "11:00-21:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "tori-tama-chicken-ramen-kl-restaurant",
+    "name": "Tori Tama Chicken Ramen",
+    "name_ja": "鶏玉ラーメン",
+    "area": "Bukit Bintang",
+    "address": "Lot 4.23.00, Level 4, Pavilion Kuala Lumpur, 168 Jalan Bukit Bintang, 55100 Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "鶏白湯ラーメン専門店。濃厚な鶏スープと自家製麺が特徴。親子丼やチキンカツなどのサイドメニューも充実。",
+    "tags": [
+      "ラーメン",
+      "鶏白湯",
+      "自家製麺"
+    ],
+    "hours": "10:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "ishin-japanese-dining-old-klang-road-restaurant",
+    "name": "Ishin Japanese Dining",
+    "name_ja": "維新",
+    "area": "Old Klang Road",
+    "address": "202 Jalan Klang Lama, 58100 Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "オールドクランロードの本格日本料理店。刺身、寿司、焼き物、鍋物など伝統的な和食を提供。宴会にも対応。",
+    "tags": [
+      "日本料理",
+      "刺身",
+      "寿司",
+      "宴会"
+    ],
+    "hours": "12:00-14:30, 18:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "kenshin-japanese-restaurant-kl-restaurant",
+    "name": "Kenshin Japanese Restaurant",
+    "name_ja": "剣心",
+    "area": "Bangsar South",
+    "address": "Bangsar South, 59200 Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "バンサーサウスの日本食レストラン。おまかせコースから定食まで幅広い価格帯で提供。ビジネスランチに人気。",
+    "tags": [
+      "おまかせ",
+      "定食",
+      "ビジネスランチ"
+    ],
+    "hours": "11:30-14:30, 18:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "hachi-japanese-restaurant-klcc-restaurant",
+    "name": "Hachi Japanese Restaurant KLCC",
+    "name_ja": "八 KLCC店",
+    "area": "KLCC",
+    "address": "Suria KLCC, Lot 402-403, Level 4, 50088 Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "KLCC内の日本料理レストラン。寿司、刺身、天ぷら、鉄板焼きなど幅広いメニュー。ツインタワーの眺望も楽しめる。",
+    "tags": [
+      "日本料理",
+      "寿司",
+      "鉄板焼き",
+      "KLCC"
+    ],
+    "hours": "11:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sushi-oribe-kl-restaurant",
+    "name": "Sushi Oribe",
+    "name_ja": "鮨織部",
+    "area": "Bukit Bintang",
+    "address": "Jalan Bukit Bintang, 55100 Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "カウンター席のおまかせ寿司店。日本から空輸されるネタを使い、職人が目の前で握る本格江戸前鮨。",
+    "tags": [
+      "おまかせ",
+      "寿司",
+      "江戸前",
+      "カウンター"
+    ],
+    "hours": "12:00-14:30, 18:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "hinata-japanese-restaurant-mont-kiara-restaurant",
+    "name": "Hinata Japanese Restaurant",
+    "name_ja": "日向 日本料理",
+    "area": "Mont Kiara",
+    "address": "Mont Kiara, 50480 Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "モンキアラの日本食レストラン。新鮮な刺身と寿司が人気。日本人コミュニティに親しまれている。",
+    "tags": [
+      "日本料理",
+      "刺身",
+      "寿司",
+      "モンキアラ"
+    ],
+    "hours": "11:30-14:30, 18:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "teppan-by-chef-yonemura-kl-restaurant",
+    "name": "Teppan by Chef Yonemura",
+    "name_ja": "鉄板 by シェフ米村",
+    "area": "Bukit Bintang",
+    "address": "Bukit Bintang, 55100 Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "京都の名料理人・米村昌泰シェフがプロデュースする鉄板焼きレストラン。厳選素材を目の前で調理。",
+    "tags": [
+      "鉄板焼き",
+      "高級",
+      "シェフプロデュース"
+    ],
+    "hours": "12:00-14:30, 18:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sushi-masa-hartamas-restaurant",
+    "name": "Sushi Masa Hartamas",
+    "name_ja": "寿司政 ハルタマス店",
+    "area": "Sri Hartamas",
+    "address": "Taman Sri Hartamas, 50480 Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "ハルタマスの寿司レストラン。新鮮なネタを使った握り寿司と刺身が人気。カウンター席で職人の技を間近に。",
+    "tags": [
+      "寿司",
+      "カウンター",
+      "ハルタマス"
+    ],
+    "hours": "12:00-14:30, 18:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "mugaru-ramen-mont-kiara-restaurant",
+    "name": "Mugaru Ramen",
+    "name_ja": "ムガル ラーメン",
+    "area": "Mont Kiara",
+    "address": "1 Mont Kiara, 1 Jalan Kiara, Mont Kiara, 50480 Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "モンキアラのラーメン専門店。濃厚な豚骨スープと自家製麺が特徴。味玉、チャーシューなどトッピングも充実。",
+    "tags": [
+      "ラーメン",
+      "豚骨",
+      "自家製麺",
+      "モンキアラ"
+    ],
+    "hours": "11:00-21:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "hajime-tonkatsu-mont-kiara-restaurant",
+    "name": "Hajime Tonkatsu",
+    "name_ja": "はじめとんかつ",
+    "area": "Mont Kiara",
+    "address": "Mont Kiara, 50480 Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "モンキアラのとんかつ専門店。衣はサクサク、中はジューシーなとんかつを提供。キャベツとご飯おかわり自由。",
+    "tags": [
+      "とんかつ",
+      "専門店",
+      "おかわり自由"
+    ],
+    "hours": "11:30-14:30, 17:30-21:30",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "mizu-japanese-restaurant-hartamas-restaurant",
+    "name": "Mizu Japanese Restaurant",
+    "name_ja": "水 日本料理",
+    "area": "Sri Hartamas",
+    "address": "Taman Sri Hartamas, 50480 Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "ハルタマスの日本食レストラン。寿司、刺身、焼き物、鍋物など幅広いメニュー。落ち着いた雰囲気でファミリーにも人気。",
+    "tags": [
+      "日本料理",
+      "寿司",
+      "鍋物",
+      "ファミリー"
+    ],
+    "hours": "11:30-14:30, 18:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "nippori-japanese-curry-mont-kiara-restaurant",
+    "name": "Nippori Japanese Curry",
+    "name_ja": "日暮里カレー",
+    "area": "Mont Kiara",
+    "address": "Mont Kiara, 50480 Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "日本式カレー専門店。チキンカツカレー、エビフライカレー、野菜カレーなど日本のカレーハウススタイルのメニュー。",
+    "tags": [
+      "カレー",
+      "カツカレー",
+      "専門店"
+    ],
+    "hours": "11:00-21:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "ichikokudo-ramen-mont-kiara-restaurant",
+    "name": "Ichikokudo Ramen Mont Kiara",
+    "name_ja": "一石道ラーメン モンキアラ店",
+    "area": "Mont Kiara",
+    "address": "Mont Kiara, 50480 Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "北海道スタイルのラーメンチェーン。味噌、塩、醤油の定番ラーメンに加え、つけ麺も提供。モンキアラの日本人に人気。",
+    "tags": [
+      "ラーメン",
+      "北海道",
+      "味噌ラーメン",
+      "チェーン"
+    ],
+    "hours": "11:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "momotaro-ramen-hartamas-restaurant",
+    "name": "Momotaro Ramen Hartamas",
+    "name_ja": "桃太郎ラーメン ハルタマス店",
+    "area": "Sri Hartamas",
+    "address": "Taman Sri Hartamas, 50480 Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "ハルタマスのラーメン専門店。豚骨ベースの濃厚スープと手作りチャーシューが特徴。替え玉無料サービスあり。",
+    "tags": [
+      "ラーメン",
+      "豚骨",
+      "替え玉無料"
+    ],
+    "hours": "11:30-14:30, 17:30-21:30",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "nihon-kai-japanese-bangsar-restaurant",
+    "name": "Nihon Kai Japanese Restaurant",
+    "name_ja": "日本海",
+    "area": "Bangsar",
+    "address": "Bangsar, 59100 Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "バンサーの老舗日本食レストラン。刺身、焼き魚、天ぷらなど伝統的な日本料理を提供。日本人駐在員の利用が多い。",
+    "tags": [
+      "日本料理",
+      "老舗",
+      "刺身",
+      "天ぷら"
+    ],
+    "hours": "12:00-14:30, 18:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
   }
 ]

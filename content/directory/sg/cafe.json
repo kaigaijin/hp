@@ -1769,25 +1769,6 @@
     "source": "google_maps"
   },
   {
-    "slug": "kora-bakehouse-tanjong-pagar-2",
-    "name": "Kora Bakehouse",
-    "name_ja": "コラベイクハウス",
-    "area": "Tanjong Pagar",
-    "address": "20 Collyer Quay, #01-03, International Plaza, Singapore 049319",
-    "phone": null,
-    "website": null,
-    "description": "日本のパン職人がシンガポールで手がける本格ベーカリー。食パン、クロワッサン、フォカッチャなど毎朝焼きたてを提供。",
-    "tags": [
-      "ベーカリー",
-      "日本人シェフ",
-      "焼きたて"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
     "slug": "108-matcha-saro-changi",
     "name": "108 Matcha Saro",
     "name_ja": "108抹茶茶廊",
@@ -1806,5 +1787,216 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "creamie-sippies-matcha-mill-keong-saik",
+    "name": "Creamie Sippies Matcha Mill",
+    "name_ja": "Creamie Sippies 抹茶ミル",
+    "area": "Keong Saik",
+    "address": "21 Keong Saik Road, Singapore 089128",
+    "phone": null,
+    "website": null,
+    "description": "シンガポール初の抹茶石臼挽きカフェ。目の前で挽いた新鮮な抹茶を使ったドリンクやデザートを提供。ドリンクS$4.50から。",
+    "tags": [
+      "抹茶",
+      "石臼挽き",
+      "カフェ"
+    ],
+    "hours": "10:00-20:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "2050-coffee-beach-road",
+    "name": "2050 Coffee Beach Road",
+    "name_ja": "2050コーヒー ビーチロード店",
+    "area": "Beach Road",
+    "address": "371 Beach Road, Singapore 199597",
+    "phone": null,
+    "website": null,
+    "description": "京都発のコーヒーカフェ。タップから注ぐアイス抹茶ラテが話題に。近未来的な店内デザインが特徴。",
+    "tags": [
+      "抹茶",
+      "コーヒー",
+      "京都発"
+    ],
+    "hours": "9:00-18:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "kurasu-neil-road-cafe",
+    "name": "Kurasu Neil Road",
+    "name_ja": "Kurasu ニールロード店",
+    "area": "Tanjong Pagar",
+    "address": "65 Neil Road, Singapore 088897",
+    "phone": null,
+    "website": null,
+    "description": "京都発のスペシャルティコーヒーロースター。日本のコーヒー文化を発信。抹茶ラテやほうじ茶も提供。",
+    "tags": [
+      "コーヒー",
+      "京都発",
+      "抹茶"
+    ],
+    "hours": "8:00-17:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "maru-mochi-ion-orchard-cafe",
+    "name": "Maru Mochi ION Orchard",
+    "name_ja": "まるもち IONオーチャード店",
+    "area": "Orchard",
+    "address": "2 Orchard Turn, #B4-06, ION Orchard, Singapore 238801",
+    "phone": null,
+    "website": null,
+    "description": "もちもちの大福と和スイーツの専門店。季節限定のフレーバーも人気。手土産にも最適。",
+    "tags": [
+      "大福",
+      "もち",
+      "和スイーツ",
+      "手土産"
+    ],
+    "hours": "10:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "kyo-kohee-robinson-cafe",
+    "name": "Kyo Kohee Robinson",
+    "name_ja": "京珈琲 ロビンソン店",
+    "area": "CBD",
+    "address": "77 Robinson Road, #01-02, Singapore 068896",
+    "phone": null,
+    "website": null,
+    "description": "京都をテーマにしたコーヒーカフェ。抹茶や焙じ茶を使ったドリンクとともに、日本の焼き菓子も提供。",
+    "tags": [
+      "コーヒー",
+      "抹茶",
+      "京都テーマ"
+    ],
+    "hours": "8:00-17:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "kora-bakehouse-international-plaza-cafe",
+    "name": "Kora Bakehouse International Plaza",
+    "name_ja": "Kora ベイクハウス インターナショナルプラザ店",
+    "area": "Tanjong Pagar",
+    "address": "10 Anson Road, #01-63, International Plaza, Singapore 079903",
+    "phone": null,
+    "website": null,
+    "description": "抹茶ドリンクと焼き菓子の専門カフェ。タンジョンパガーのインターナショナルプラザ内。",
+    "tags": [
+      "抹茶",
+      "ベーカリー",
+      "焼き菓子"
+    ],
+    "hours": "8:00-18:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "fine-dining-bakery-tanjong-pagar",
+    "name": "Fine Dining Bakery",
+    "name_ja": "ファインダイニングベーカリー",
+    "area": "Tanjong Pagar",
+    "address": "5 Wallich Street, #01-14, Guoco Tower, Singapore 078882",
+    "phone": null,
+    "website": null,
+    "description": "日本のパン職人が手がけるプレミアムベーカリー。高級食パン、クロワッサン、あんぱんなど日本式の繊細なパンを提供。",
+    "tags": [
+      "ベーカリー",
+      "食パン",
+      "あんぱん"
+    ],
+    "hours": "8:00-20:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "ghost-kakigori-sg-cafe",
+    "name": "Ghost Kakigori",
+    "name_ja": "ゴースト かき氷",
+    "area": "Tanjong Pagar",
+    "address": "12 Tanjong Pagar Road, Singapore 088444",
+    "phone": null,
+    "website": null,
+    "description": "日本式ふわふわかき氷の専門店。抹茶、いちご、きなこなどの定番フレーバーに加え季節限定メニューも人気。",
+    "tags": [
+      "かき氷",
+      "抹茶",
+      "スイーツ"
+    ],
+    "hours": "12:00-21:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "gokoku-japanese-bakery-changi-city-point",
+    "name": "Gokoku Japanese Bakery Changi City Point",
+    "name_ja": "五穀ベーカリー チャンギシティポイント店",
+    "area": "Changi",
+    "address": "5 Changi Business Park Central 1, #01-30, Changi City Point, Singapore 486038",
+    "phone": null,
+    "website": null,
+    "description": "日本の製パン技術を活かしたベーカリーチェーン。もちもち食感のパンや和風フィリングのパンが人気。",
+    "tags": [
+      "ベーカリー",
+      "日本式パン",
+      "チェーン"
+    ],
+    "hours": "8:00-21:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "shio-and-pepe-sg",
+    "name": "Shio & Pepe",
+    "name_ja": "塩とペペ",
+    "area": "Orchard",
+    "address": "181 Orchard Road, #02-20, Orchard Central, Singapore 238896",
+    "phone": null,
+    "website": null,
+    "description": "日本の塩スイーツと抹茶を融合したカフェ。塩キャラメルクロワッサン、塩抹茶ラテなどユニークなメニューを提供。",
+    "tags": [
+      "抹茶",
+      "スイーツ",
+      "塩スイーツ"
+    ],
+    "hours": "10:00-21:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "nana-green-tea-vivocity-cafe",
+    "name": "Nana's Green Tea VivoCity",
+    "name_ja": "ナナズグリーンティー ビボシティ店",
+    "area": "HarbourFront",
+    "address": "1 Harbourfront Walk, #01-167, VivoCity, Singapore 098585",
+    "phone": null,
+    "website": null,
+    "description": "京都発の抹茶カフェチェーン。抹茶ラテ、抹茶パフェ、抹茶白玉ぜんざいなど豊富な抹茶メニューを提供。丼やパスタなどフードメニューも充実。",
+    "tags": [
+      "抹茶",
+      "カフェ",
+      "チェーン",
+      "京都発"
+    ],
+    "hours": "11:00-21:30",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
   }
 ]

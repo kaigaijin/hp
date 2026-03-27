@@ -444,7 +444,11 @@
     "phone": null,
     "website": "https://www.kimaizakaya.com/",
     "description": "JLTの隠れ家的居酒屋バー。東京の下町居酒屋の雰囲気を再現し、日本のコンフォートフードとカクテルを提供。",
-    "tags": ["居酒屋", "隠れ家", "カクテル"],
+    "tags": [
+      "居酒屋",
+      "隠れ家",
+      "カクテル"
+    ],
     "hours": "17:00〜翌1:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -459,7 +463,11 @@
     "phone": null,
     "website": null,
     "description": "ダウンタウンの日本料理レストラン併設バー。日本のウイスキーやカクテルを提供。寿司や小皿料理と合わせて楽しめる。",
-    "tags": ["バー", "ウイスキー", "カクテル"],
+    "tags": [
+      "バー",
+      "ウイスキー",
+      "カクテル"
+    ],
     "hours": "18:00〜翌2:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -474,7 +482,11 @@
     "phone": null,
     "website": null,
     "description": "DIFCの日本料理レストラン併設バー。ロバタヤキとカクテルを楽しめるモダンな空間。DJイベントも開催。",
-    "tags": ["バー", "炉端焼き", "DJイベント"],
+    "tags": [
+      "バー",
+      "炉端焼き",
+      "DJイベント"
+    ],
     "hours": "18:00〜翌2:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -489,7 +501,11 @@
     "phone": null,
     "website": null,
     "description": "DIFCの日本料理レストラン併設バー。ロバタ焼きと和テイストのカクテルを提供。ナイトライフスポットとしても人気。",
-    "tags": ["バー", "日本酒", "ナイトライフ"],
+    "tags": [
+      "バー",
+      "日本酒",
+      "ナイトライフ"
+    ],
     "hours": "18:00〜翌2:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -504,8 +520,506 @@
     "phone": null,
     "website": null,
     "description": "ロンドン発の高級和食レストランSumosanのDIFC店併設バー。日本のウイスキーとカクテルを洗練された空間で楽しめる。",
-    "tags": ["バー", "高級", "ウイスキー"],
+    "tags": [
+      "バー",
+      "高級",
+      "ウイスキー"
+    ],
     "hours": "18:00〜翌2:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "honeycomb-hifi-business-bay",
+    "name": "Honeycomb Hi-Fi",
+    "name_ja": "ハニカム ハイファイ",
+    "area": "Business Bay",
+    "address": "Pullman Dubai Downtown, Marasi Drive, Business Bay, Level 2, Dubai",
+    "phone": "+97144126666",
+    "website": "https://www.honeycombhifi.com/",
+    "description": "中東初のリスニングバー＆居酒屋。レコードショップを抜けた先にある隠れ家的な空間で、ヴァイナルサウンドと居酒屋料理を楽しめる。",
+    "tags": [
+      "リスニングバー",
+      "居酒屋",
+      "隠れ家"
+    ],
+    "hours": "日〜木 19:30-26:00 / 金土 19:30-27:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "izakaya-jw-marriott-bar",
+    "name": "Izakaya Bar at JW Marriott Marquis",
+    "name_ja": "居酒屋バー JWマリオット・マーキス",
+    "area": "Business Bay",
+    "address": "JW Marriott Marquis Hotel Dubai, Business Bay, Dubai",
+    "phone": null,
+    "website": "https://www.marriott.com/en-us/dining/restaurant-bar/dxbjw-jw-marriott-marquis-hotel-dubai/5278311-izakaya.mi",
+    "description": "JWマリオット・マーキスホテル内の居酒屋バー。日本酒、ウイスキー、カクテルとともに串焼き、枝豆、天ぷらなど居酒屋料理を提供。",
+    "tags": [
+      "居酒屋",
+      "ホテル内",
+      "日本酒"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "niri-bar-abu-dhabi",
+    "name": "NIRI Highball Bar",
+    "name_ja": "ニリ ハイボールバー",
+    "area": "Saadiyat Island",
+    "address": "Mamsha Al Saadiyat, Saadiyat Island, Abu Dhabi",
+    "phone": "+97125468886",
+    "website": "https://www.nirirestaurant.com/",
+    "description": "NIRI Restaurant内のハイボールバー。焼き鳥とハイボールの組み合わせが人気。ビーチフロントテラスでカジュアルに楽しめる。",
+    "tags": [
+      "ハイボール",
+      "焼き鳥",
+      "ビーチ"
+    ],
+    "hours": "日〜木 12:00-23:00 / 金土 12:00-24:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "soon-izakaya-bar",
+    "name": "SOON Izakaya Bar",
+    "name_ja": "スーン イザカヤ バー",
+    "area": "JLT",
+    "address": "Armada Tower 2, Cluster P, JLT, Dubai",
+    "phone": "+971554340575",
+    "website": "https://soondxb.com/",
+    "description": "SOON Izakayaのバーエリア。ミクソロジーカクテルと日本酒を中心に、80年代の美学とカラオケ文化を融合した空間。DJイベントも開催。",
+    "tags": [
+      "カクテル",
+      "カラオケ",
+      "DJイベント"
+    ],
+    "hours": "月〜木 12:00-25:00 / 金 12:00-27:00 / 土 17:00-27:00 / 日 17:00-25:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "virgin-izakaya-bar",
+    "name": "Virgin Izakaya Bar",
+    "name_ja": "ヴァージン イザカヤ バー",
+    "area": "Bluewaters Island",
+    "address": "Waters Wharf, Bluewaters Island, Dubai",
+    "phone": "+97145898689",
+    "website": "https://www.virginizakaya-dxb.com/",
+    "description": "Bluewaters Islandの居酒屋バーエリア。レアな日本酒やワイン、創作カクテルを楽しめる。ウォーターフロントの雰囲気が良い。",
+    "tags": [
+      "バー",
+      "日本酒",
+      "ウォーターフロント"
+    ],
+    "hours": "毎日（26:00まで営業）",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "ikigai-marina-bar",
+    "name": "IKIGAI Bar Dubai Marina",
+    "name_ja": "イキガイ バー マリーナ",
+    "area": "Dubai Marina",
+    "address": "1st Floor, Millennium Place Marina Hotel, Al Marsa Street, Dubai Marina, Dubai",
+    "phone": "+97145508114",
+    "website": "https://www.ikigaidubai.ae/",
+    "description": "IKIGAI Dubaiのバーエリア。居酒屋ブランチが人気で、カクテルとパンアジアン料理を組み合わせた独自のスタイル。",
+    "tags": [
+      "バー",
+      "ブランチ",
+      "カクテル"
+    ],
+    "hours": "毎日 17:00-25:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "reif-izakaya-al-wasl",
+    "name": "Reif Izakaya Bar Al Wasl",
+    "name_ja": "レイフ 居酒屋バー アルワスル",
+    "area": "Al Wasl",
+    "address": "Unit 70, Dar Wasl Mall, Al Wasl Road, Dubai",
+    "phone": "+97142555142",
+    "website": "https://www.reifkushiyaki.com/",
+    "description": "Reif Japanese Kushiyakiのバーエリア。串焼きとビール・日本酒のペアリングが人気。ミシュランガイド掲載店の居酒屋使い。",
+    "tags": [
+      "串焼き",
+      "日本酒",
+      "ミシュラン"
+    ],
+    "hours": "月〜木 12:00-24:00 / 金 12:00-25:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "daikan-izakaya-al-wasl",
+    "name": "Daikan Izakaya Al Wasl",
+    "name_ja": "大観居酒屋 アルワスル",
+    "area": "Al Wasl",
+    "address": "Dar Wasl Mall, Al Wasl Road, Dubai",
+    "phone": null,
+    "website": "https://daikan.ae/",
+    "description": "Daikanブランドのアルワスル店。東京の裏通りを再現した居酒屋空間で、ラーメン、唐揚げ、日本酒を楽しめる。",
+    "tags": [
+      "居酒屋",
+      "ラーメン",
+      "カジュアル"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "kinoya-izakaya-szr",
+    "name": "Kinoya Izakaya SZR",
+    "name_ja": "キノヤ居酒屋 SZR",
+    "area": "Sheikh Zayed Road",
+    "address": "The Onyx Tower 2, Sheikh Zayed Road, Dubai",
+    "phone": "+97142202920",
+    "website": "https://kinoya.com/",
+    "description": "Kinoyaの居酒屋バーエリア。仕事帰りにおつまみとドリンクを楽しむ居酒屋スタイルが人気。深夜1時まで営業。",
+    "tags": [
+      "居酒屋",
+      "ラーメン",
+      "深夜営業"
+    ],
+    "hours": "火〜日 12:00-25:00（月曜休）",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "akabeko-bar-palm",
+    "name": "Akabeko Bar Palm Jumeirah",
+    "name_ja": "赤べこバー パームジュメイラ",
+    "area": "Palm Jumeirah",
+    "address": "Voco Dubai The Palm, G01, Palm Jumeirah West Beach, Dubai",
+    "phone": "+971505618288",
+    "website": "https://akabeko.ae/",
+    "description": "A5和牛焼肉店Akabekoのバーエリア。焼肉のあとに日本酒やウイスキーを楽しめる。",
+    "tags": [
+      "バー",
+      "A5和牛",
+      "日本酒"
+    ],
+    "hours": "火水 12:00-16:00, 18:00-23:00 / 木〜日 12:00-16:00, 18:00-25:30（月曜休）",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "daikan-izakaya-abu-dhabi-bar",
+    "name": "Daikan Izakaya Abu Dhabi",
+    "name_ja": "大観居酒屋 アブダビ",
+    "area": "Al Maryah Island",
+    "address": "The Galleria Al Maryah Island, Abu Dhabi",
+    "phone": null,
+    "website": "https://daikan.ae/",
+    "description": "Daikanのアブダビ店。東京の賑やかなバックストリートを再現した居酒屋空間で、ラーメン、唐揚げ、日本酒を手頃に楽しめる。",
+    "tags": [
+      "居酒屋",
+      "ラーメン",
+      "アブダビ"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "mimi-kakushi-bar",
+    "name": "Mimi Kakushi Bar",
+    "name_ja": "ミミカクシ バー",
+    "area": "Jumeirah",
+    "address": "Four Seasons Resort, 23 A Street, Jumeirah 2, Dubai",
+    "phone": "+97143794811",
+    "website": "https://mimikakushi.ae/",
+    "description": "Four Seasons内のミミカクシ併設バー。日本のスピークイージーを彷彿とさせる空間で、日本酒、焼酎、創作カクテルを提供。",
+    "tags": [
+      "バー",
+      "スピークイージー",
+      "カクテル"
+    ],
+    "hours": "毎日 18:00-25:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "takahisa-bar-bluewaters",
+    "name": "TakaHisa Bar Bluewaters",
+    "name_ja": "タカヒサ バー ブルーウォーターズ",
+    "area": "Bluewaters Island",
+    "address": "Banyan Tree Dubai, 1st Floor, Bluewaters Island, Dubai",
+    "phone": "+97145566688",
+    "website": "https://takahisa.ae/",
+    "description": "ミシュランガイド掲載のTakaHisa併設バー。おまかせの前後に日本酒やカクテルを楽しめる。",
+    "tags": [
+      "バー",
+      "ミシュラン",
+      "日本酒"
+    ],
+    "hours": "毎日 12:00-26:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "umi-kei-izakaya",
+    "name": "Umi Kei Izakaya",
+    "name_ja": "ウミケイ 居酒屋",
+    "area": "Umm Suqeim",
+    "address": "Ground Floor, Jumeirah Marsa Al Arab, Umm Suqeim 3, Dubai",
+    "phone": "+971800323232",
+    "website": "https://www.jumeirah.com/en/stay/dubai/jumeirah-marsa-al-arab/dining/marsa-al-arab-umi-kei",
+    "description": "ジュメイラ・マルサ・アル・アラブ内の居酒屋。和牛サンド、深夜ラーメンクラブ（22時〜）を提供。シアトリカルな演出の料理が特徴。",
+    "tags": [
+      "居酒屋",
+      "ホテル内",
+      "深夜ラーメン"
+    ],
+    "hours": "毎日 18:30-23:30",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "gohan-izakaya-emirates-towers",
+    "name": "Gohan Izakaya",
+    "name_ja": "ゴハン 居酒屋",
+    "area": "DIFC",
+    "address": "1st Floor, Jumeirah Emirates Towers, Sheikh Zayed Road, Dubai",
+    "phone": null,
+    "website": "https://gohan.ae/",
+    "description": "エミレーツタワーズのスピークイージースタイル居酒屋。寿司、串焼き、小皿料理とカクテルを暗めの落ち着いた空間で楽しめる。",
+    "tags": [
+      "スピークイージー",
+      "居酒屋",
+      "カクテル"
+    ],
+    "hours": "毎日 19:00-翌2:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "dragonfly-bar-business-bay",
+    "name": "Dragonfly Bar",
+    "name_ja": "ドラゴンフライ バー",
+    "area": "Business Bay",
+    "address": "The Lana Promenade, Dorchester Collection, Marasi Drive, Business Bay, Dubai",
+    "phone": "+97148348278",
+    "website": "https://www.dragonfly-dxb.com/",
+    "description": "ザ・ラナ内の日本酒・ウイスキーバー。日本酒ペアリングメニューが充実。週末はDJイベントも開催。",
+    "tags": [
+      "日本酒バー",
+      "ウイスキー",
+      "DJイベント"
+    ],
+    "hours": "毎日 18:00-翌2:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "saikindo-four-seasons-abu-dhabi",
+    "name": "Saikindō",
+    "name_ja": "サイキンドウ",
+    "area": "Abu Dhabi",
+    "address": "Four Seasons Hotel, Al Maryah Island, Abu Dhabi",
+    "phone": null,
+    "website": "https://www.barsaikindo.com/",
+    "description": "フォーシーズンズ・アブダビのリスニングバー。ヴィンテージレコードとOjasサウンドシステムで音楽を楽しみながら、居酒屋スタイルの料理と日本のウイスキー・カクテルを提供。2025年11月オープン。",
+    "tags": [
+      "リスニングバー",
+      "居酒屋",
+      "ウイスキー"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "goldfish-bar-al-wasl",
+    "name": "Goldfish Bar",
+    "name_ja": "ゴールドフィッシュ バー",
+    "area": "Al Wasl",
+    "address": "The Galleria, 403 Al Wasl Road, Jumeirah 1, Dubai",
+    "phone": "+97148864966",
+    "website": "https://goldfishsushiyakitori.com/",
+    "description": "ゴールドフィッシュ併設のバーエリア。日本酒・焼酎・日本のウイスキーを中心にカクテルも提供。焼き鳥をつまみに一杯楽しめる。",
+    "tags": [
+      "バー",
+      "焼き鳥",
+      "日本酒"
+    ],
+    "hours": "毎日 17:00-翌1:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "ken-kamatsuda-bar",
+    "name": "KEN by Kamatsuda Bar",
+    "name_ja": "KEN by 鎌田 バー",
+    "area": "Downtown Dubai",
+    "address": "M Floor, The Dubai EDITION, Dubai Fountain St, Downtown Dubai",
+    "phone": "+97158556257",
+    "website": "https://kenbykamatsuda.ae/",
+    "description": "KEN by Kamatsuda併設のバー。希少な日本のウイスキーと日本酒を取り揃え。和牛タルタルなどのバーフードも充実。",
+    "tags": [
+      "ウイスキーバー",
+      "日本酒",
+      "和牛"
+    ],
+    "hours": "毎日 18:00-25:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "robataya-izakaya-bluewaters",
+    "name": "Robata Izakaya",
+    "name_ja": "ロバタ 居酒屋",
+    "area": "Bluewaters Island",
+    "address": "Julius Tower, Caesars Palace, Bluewaters Island, Dubai",
+    "phone": "+97144466689",
+    "website": "https://robataya.ae/",
+    "description": "シーザーズ・パレス内の炉端焼き居酒屋。囲炉裏を囲んで炭火焼き料理と日本酒を楽しめる。深夜2時まで営業。",
+    "tags": [
+      "炉端焼き",
+      "居酒屋",
+      "深夜営業"
+    ],
+    "hours": "毎日 10:00-翌2:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "konjiki-bar-difc",
+    "name": "Konjiki Bar",
+    "name_ja": "金色バー",
+    "area": "DIFC",
+    "address": "DIFC, Dubai",
+    "phone": null,
+    "website": "https://konjiki.ae/",
+    "description": "金色不如帰併設のバー。ラーメンに合う日本酒やビールを提供。ミシュラン星のラーメンと共に楽しむ新しいスタイル。",
+    "tags": [
+      "ラーメンバー",
+      "日本酒",
+      "ミシュラン"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "clay-bar-bluewaters",
+    "name": "CLAY Bar",
+    "name_ja": "クレイ バー",
+    "area": "Bluewaters Island",
+    "address": "15a Blue Waters Island Street, G Floor, Bluewaters, Dubai",
+    "phone": "+97144225600",
+    "website": "https://www.claydubai.com/",
+    "description": "ブルーウォーターズのCLAY併設バー。日本酒・ピスコサワー・ニッケイカクテルを提供。アインドバイを眺めながらの一杯が楽しめる。",
+    "tags": [
+      "カクテルバー",
+      "ニッケイ",
+      "ビュー"
+    ],
+    "hours": "毎日 17:00-翌1:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "nazcaa-bar-downtown",
+    "name": "Nazcaa Bar",
+    "name_ja": "ナスカ バー",
+    "area": "Downtown Dubai",
+    "address": "Level 12, Address Dubai Mall, Sheikh Mohammed bin Rashid Blvd, Downtown Dubai",
+    "phone": "+97145424200",
+    "website": "https://nazcaa.com/",
+    "description": "ナスカのバーエリア。ブルジュ・ハリファを望むテラスで日本酒・ピスコベースのカクテルを提供。",
+    "tags": [
+      "カクテルバー",
+      "テラス",
+      "ブルジュハリファビュー"
+    ],
+    "hours": "毎日 17:00-翌1:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "sake-bar-difc",
+    "name": "Sake Bar DIFC",
+    "name_ja": "酒バー DIFC",
+    "area": "DIFC",
+    "address": "DIFC, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "DIFC地区の日本酒バー。全国各地の銘酒を取り揃え、おちょこサイズの利き酒セットも提供。おつまみメニューも充実。",
+    "tags": [
+      "日本酒バー",
+      "利き酒",
+      "DIFC"
+    ],
+    "hours": "毎日 18:00-翌2:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "izakaya-des-arts-al-quoz",
+    "name": "Izakaya des Arts Al Quoz",
+    "name_ja": "居酒屋デザール アルクオーズ",
+    "area": "Al Quoz",
+    "address": "Al Quoz, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "アルクオーズのアートディストリクト近くの居酒屋。日本酒とクラフトビール、創作和食の小皿料理を提供。アート鑑賞後の一杯に。",
+    "tags": [
+      "居酒屋",
+      "アートディストリクト",
+      "クラフトビール"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "niri-bar-saadiyat",
+    "name": "NIRI Bar Saadiyat",
+    "name_ja": "ニリ バー サディヤット",
+    "area": "Saadiyat Island",
+    "address": "Mamsha Al Saadiyat, Saadiyat Island, Abu Dhabi",
+    "phone": null,
+    "website": null,
+    "description": "NIRIレストラン併設のカクテルラウンジ。ビーチフロントで日本酒カクテルとおつまみを楽しめる。サンセットタイムが人気。",
+    "tags": [
+      "カクテルラウンジ",
+      "ビーチフロント",
+      "サンセット"
+    ],
+    "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "google_maps"

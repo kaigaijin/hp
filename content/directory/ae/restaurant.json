@@ -1050,25 +1050,6 @@
     "source": "google_maps"
   },
   {
-    "slug": "wakame-dubai-marina-rest",
-    "name": "Wakame Dubai Marina",
-    "name_ja": "わかめ ドバイマリーナ",
-    "area": "Dubai Marina",
-    "address": "Dubai Marina, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "ドバイマリーナの日本・タイ・韓国料理を融合したアジアンレストラン。寿司・刺身も充実。マリーナの景色を楽しめる。",
-    "tags": [
-      "アジアンフュージョン",
-      "マリーナビュー",
-      "寿司"
-    ],
-    "hours": "12:00〜翌1:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
     "slug": "marugame-udon-dubai-mall",
     "name": "Marugame Udon Dubai Mall",
     "name_ja": "丸亀製麺 ドバイモール",
@@ -1125,25 +1106,6 @@
     "source": "google_maps"
   },
   {
-    "slug": "miyako-hyatt-dubai-rest",
-    "name": "Miyako Hyatt Dubai",
-    "name_ja": "都 ハイアットドバイ",
-    "area": "Deira",
-    "address": "Hyatt Regency Dubai, Deira, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "ハイアットリージェンシー内の日本料理レストラン。伝統的な日本料理と鉄板焼きを提供。デイラ地区。",
-    "tags": [
-      "日本料理",
-      "ホテル内",
-      "鉄板焼き"
-    ],
-    "hours": "12:00〜15:00 / 18:00〜23:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
     "slug": "tresind-studio-difc",
     "name": "Tresind Studio",
     "name_ja": "トレシンドスタジオ",
@@ -1161,44 +1123,6 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "google_maps"
-  },
-  {
-    "slug": "kimuraya-jbr-rest",
-    "name": "Kimuraya JBR",
-    "name_ja": "木村屋 JBR",
-    "area": "JBR",
-    "address": "JBR, Dubai",
-    "phone": null,
-    "website": "https://kimurayadubai.com/",
-    "description": "木村屋のJBR店。日本から直輸入の食材を使った本格日本料理。ビーチエリアの日本食。",
-    "tags": [
-      "日本料理",
-      "日本食材",
-      "JBR"
-    ],
-    "hours": "12:00〜23:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "fujiya-garhoud-rest",
-    "name": "Fujiya Garhoud",
-    "name_ja": "藤家 ガルフード",
-    "area": "Garhoud",
-    "address": "Millennium Airport Hotel, Casablanca Street, Garhoud, Dubai",
-    "phone": null,
-    "website": "https://fujiya.ae/",
-    "description": "藤家のガルフード本店。日本直輸入の食材で寿司・刺身・天ぷらを提供。空港近くのロケーション。",
-    "tags": [
-      "日本料理",
-      "日本食材",
-      "空港近く"
-    ],
-    "hours": "12:00〜15:00 / 18:00〜23:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website"
   },
   {
     "slug": "origami-sushi-dubai-mall",
@@ -1228,7 +1152,11 @@
     "phone": "+97124015900",
     "website": "https://www.zumarestaurant.com/en/abu-dhabi",
     "description": "ドバイでも人気のZumaのアブダビ店。The Galleria内に位置し、寿司・刺身・炉端焼きなどコンテンポラリー日本料理を提供。ミシュランガイド掲載。",
-    "tags": ["高級", "炉端焼き", "寿司"],
+    "tags": [
+      "高級",
+      "炉端焼き",
+      "寿司"
+    ],
     "hours": "月〜木 12:00-15:30, 19:00-24:00 / 金土 12:00-15:30, 19:00-25:00 / 日 12:30-16:00, 19:00-24:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1243,7 +1171,11 @@
     "phone": "+97126723333",
     "website": "https://www.99sushibar.com/",
     "description": "Four Seasons Hotel内の高級寿司レストラン。スペイン発のブランドで、厳選素材を使った創作寿司とおまかせコースが特徴。ミシュランガイド掲載。",
-    "tags": ["高級", "寿司", "ミシュラン"],
+    "tags": [
+      "高級",
+      "寿司",
+      "ミシュラン"
+    ],
     "hours": "毎日 12:30-15:30, 19:00-23:30",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1258,7 +1190,11 @@
     "phone": "+97128869995",
     "website": "https://otoroabudhabi.com/",
     "description": "Al Qana内のモダンジャパニーズレストラン。新鮮な寿司・刺身が評価されミシュランガイドに掲載。マリーナビューのロケーション。",
-    "tags": ["寿司", "ミシュラン", "マリーナビュー"],
+    "tags": [
+      "寿司",
+      "ミシュラン",
+      "マリーナビュー"
+    ],
     "hours": "毎日 12:00-23:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1273,7 +1209,11 @@
     "phone": "+971586911981",
     "website": "https://www.kaizu.ae/",
     "description": "アブダビの本格日本料理レストラン。寿司、刺身、鉄板焼き、ロバタグリルなど幅広いメニューを提供。店名は日本の海津市に由来。",
-    "tags": ["日本料理", "寿司", "鉄板焼き"],
+    "tags": [
+      "日本料理",
+      "寿司",
+      "鉄板焼き"
+    ],
     "hours": "毎日 13:00-23:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1288,7 +1228,11 @@
     "phone": "+97122358680",
     "website": "https://daikan.ae/",
     "description": "Yas Bay Waterfrontのラーメン＆居酒屋。豚骨ラーメン、担々麺、串焼きなどを提供。ドバイの人気店Daikanのアブダビ進出店。",
-    "tags": ["ラーメン", "居酒屋", "ヤス島"],
+    "tags": [
+      "ラーメン",
+      "居酒屋",
+      "ヤス島"
+    ],
     "hours": "月〜木 12:00-24:00 / 金土 12:00-25:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1303,7 +1247,11 @@
     "phone": null,
     "website": "https://www.slrpramen.com/",
     "description": "3Filsが手がけるラーメン＆ハンドロールバー。ドバイモールThe District内に位置し、本格ラーメン、串焼き、手巻き寿司を提供。カジュアルな雰囲気。",
-    "tags": ["ラーメン", "手巻き寿司", "カジュアル"],
+    "tags": [
+      "ラーメン",
+      "手巻き寿司",
+      "カジュアル"
+    ],
     "hours": "毎日 10:00-24:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1318,7 +1266,11 @@
     "phone": null,
     "website": "https://osakanikkei.com/",
     "description": "ペルー発の日系ペルー料理（ニッケイ）レストランのドバイ店。ティラディート、キヌアロール、柚子やルクマを使ったデザートなど和ペルー融合料理を高層階から提供。",
-    "tags": ["ニッケイ", "フュージョン", "高層階"],
+    "tags": [
+      "ニッケイ",
+      "フュージョン",
+      "高層階"
+    ],
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1333,7 +1285,11 @@
     "phone": null,
     "website": null,
     "description": "2026年オープンの手巻き寿司専門店。JW Marriott Marquis内で、新鮮な素材を使ったハンドロール寿司を提供。ハイエナジーなダイニング体験。",
-    "tags": ["手巻き寿司", "カジュアル", "新規オープン"],
+    "tags": [
+      "手巻き寿司",
+      "カジュアル",
+      "新規オープン"
+    ],
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1348,7 +1304,11 @@
     "phone": null,
     "website": "https://hikinikutocome.com/en/",
     "description": "東京発のカルトバーガーステーキ店のドバイ1号店。毎日挽きたての肉を炭火で焼き上げ、炊きたてご飯と共に提供。Kokoroチームが運営。",
-    "tags": ["ハンバーグ", "炭火焼き", "東京発"],
+    "tags": [
+      "ハンバーグ",
+      "炭火焼き",
+      "東京発"
+    ],
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1363,10 +1323,1344 @@
     "phone": null,
     "website": "https://eatkokoro.xyz/",
     "description": "UAE初のハンドロールバー。Alserkal Avenue内で、シェフが目の前で手巻き寿司を握るカウンタースタイル。Gault & Millau推薦。",
-    "tags": ["手巻き寿司", "カウンター", "アルサーカル"],
+    "tags": [
+      "手巻き寿司",
+      "カウンター",
+      "アルサーカル"
+    ],
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "niri-abu-dhabi",
+    "name": "NIRI Restaurant & Bar",
+    "name_ja": "ニリ レストラン＆バー",
+    "area": "Saadiyat Island",
+    "address": "Mamsha Al Saadiyat, Saadiyat Island, Abu Dhabi",
+    "phone": "+97125468886",
+    "website": "https://www.nirirestaurant.com/",
+    "description": "サディヤット島のビーチフロントに位置する日本料理レストラン。寿司カウンターと炉端焼きを備え、日本から空輸された旬の食材を使用。ミシュランガイド掲載。",
+    "tags": [
+      "寿司",
+      "炉端焼き",
+      "ビーチフロント"
+    ],
+    "hours": "日〜木 12:00-23:00 / 金土 12:00-24:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "strawfire-abu-dhabi",
+    "name": "Strawfire by Ross Shonhan",
+    "name_ja": "ストローファイア by ロス・ショーンハン",
+    "area": "Corniche",
+    "address": "Emirates Palace Mandarin Oriental, West Corniche Road, Abu Dhabi",
+    "phone": null,
+    "website": "https://www.mandarinoriental.com/en/abu-dhabi/emirates-palace/dine/strawfire-by-ross-shonhan",
+    "description": "高知の藁焼き（Warayaki）の技法をベースにした日本料理レストラン。Nobu DallasやZuma Londonで経験を積んだRoss Shonhanシェフが監修。",
+    "tags": [
+      "高級",
+      "藁焼き",
+      "ホテル内"
+    ],
+    "hours": "毎日 18:00-24:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "japanos-jbr",
+    "name": "Japanos JBR",
+    "name_ja": "ジャパノス JBR",
+    "area": "JBR",
+    "address": "Murjan 5, G04, JBR, Dubai",
+    "phone": "+97145549808",
+    "website": "https://japanosdubai.com/",
+    "description": "JBRのカジュアル日本料理店。無制限寿司プロモーションが人気。ラーメン、弁当、寿司を手頃な価格で提供。",
+    "tags": [
+      "カジュアル",
+      "寿司",
+      "食べ放題あり"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "sushiart-jbr",
+    "name": "SushiArt JBR",
+    "name_ja": "スシアート JBR",
+    "area": "JBR",
+    "address": "Unit 2204, The Beach, Jumeirah Beach Residence, Dubai",
+    "phone": "+971800220",
+    "website": "https://www.sushiart.ae/",
+    "description": "ビーチフロントの寿司レストラン。テイクアウト用のブラックボックスセットとアーティスティックな盛り付けが特徴。ミニマルなインテリア。",
+    "tags": [
+      "寿司",
+      "ビーチ",
+      "テイクアウト"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "akiba-dori-dubai-hills",
+    "name": "Akiba Dori Dubai Hills",
+    "name_ja": "アキバドーリ ドバイヒルズ",
+    "area": "Dubai Hills",
+    "address": "Dubai Hills Mall, Dubai Hills, Dubai",
+    "phone": null,
+    "website": "https://www.akibadori.com/",
+    "description": "日本のストリートフードをコンセプトにしたフードホール。たこ焼き、ラーメン、餃子、唐揚げなどカジュアルな日本食を提供。",
+    "tags": [
+      "ストリートフード",
+      "カジュアル",
+      "フードホール"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "akiba-dori-d3",
+    "name": "Akiba Dori Dubai Design District",
+    "name_ja": "アキバドーリ D3",
+    "area": "Dubai Design District",
+    "address": "Dubai Design District (d3), Dubai",
+    "phone": null,
+    "website": "https://www.akibadori.com/",
+    "description": "デザイン地区のアキバドーリ。日本のストリートフードをモダンな空間で楽しめる。ランチタイムに周辺オフィスワーカーに人気。",
+    "tags": [
+      "ストリートフード",
+      "カジュアル",
+      "ランチ"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "izakaya-jw-marriott-marquis",
+    "name": "Izakaya at JW Marriott Marquis",
+    "name_ja": "居酒屋 JWマリオット・マーキス",
+    "area": "Business Bay",
+    "address": "JW Marriott Marquis Hotel Dubai, Business Bay, Dubai",
+    "phone": null,
+    "website": "https://www.marriott.com/en-us/dining/restaurant-bar/dxbjw-jw-marriott-marquis-hotel-dubai/5278311-izakaya.mi",
+    "description": "JWマリオット・マーキスホテル内の日本料理レストラン。ホテルダイニングならではの上質なサービスで和食を提供。",
+    "tags": [
+      "ホテル内",
+      "日本料理",
+      "ビジネスベイ"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "yo-sushi-dubai-marina",
+    "name": "YO! Sushi Dubai Marina Mall",
+    "name_ja": "YO! スシ マリーナモール",
+    "area": "Dubai Marina",
+    "address": "Marina Mall, Dubai Marina, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "回転寿司スタイルの英国発チェーン。コンベアベルトで寿司が流れてくるカジュアルなスタイル。ファミリー利用にも適している。",
+    "tags": [
+      "回転寿司",
+      "チェーン",
+      "カジュアル"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "zeta-seventy-seven-jbr",
+    "name": "ZETA Seventy Seven",
+    "name_ja": "ゼータ セブンティセブン",
+    "area": "JBR",
+    "address": "77th Floor, Address Beach Resort, JBR, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "アドレス・ビーチリゾート77階のアジアンフュージョンレストラン。寿司セットや刺身を高層階からのパノラマビューとともに楽しめる。",
+    "tags": [
+      "高層階",
+      "アジアンフュージョン",
+      "寿司"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sushi-samba-atlantis",
+    "name": "SUSHISAMBA Atlantis The Royal",
+    "name_ja": "スシサンバ アトランティス・ザ・ロイヤル",
+    "area": "Palm Jumeirah",
+    "address": "Atlantis The Royal, Crescent Road, Palm Jumeirah, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "日本・ブラジル・ペルーのフュージョン料理。アトランティス・ザ・ロイヤル内で寿司、ティラディート、ロバタヤキを提供。",
+    "tags": [
+      "フュージョン",
+      "高級",
+      "パームジュメイラ"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sexyfish-dubai",
+    "name": "Sexy Fish Dubai",
+    "name_ja": "セクシーフィッシュ ドバイ",
+    "area": "DIFC",
+    "address": "Innovation One Building, 11th Floor, DIFC, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "ロンドン発のコンテンポラリー日本料理レストラン。DIFC 11階に位置し、インパクトのあるインテリアと創作和食を提供。",
+    "tags": [
+      "高級",
+      "ロンドン発",
+      "DIFC"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "zuma-beachhouse-jumeirah",
+    "name": "Zuma Dubai Beachhouse",
+    "name_ja": "ズマ ドバイ ビーチハウス",
+    "area": "Jumeirah",
+    "address": "Jumeirah 1, Dubai",
+    "phone": null,
+    "website": "https://www.zumarestaurant.com/",
+    "description": "Zumaブランドのビーチコンセプト店。プールサイドのデイベッドとDJ、ビーチアクセスを備え、Zuma料理をカジュアルに楽しめる。",
+    "tags": [
+      "ビーチ",
+      "プール",
+      "カジュアル"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "hisaya-jlt",
+    "name": "Hisaya JLT",
+    "name_ja": "久家 JLT",
+    "area": "JLT",
+    "address": "Jumeirah Lake Towers, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "JLTエリアの日本料理レストラン。手頃な価格で寿司、刺身、天ぷら、丼物を提供。ランチセットが人気。",
+    "tags": [
+      "カジュアル",
+      "ランチ",
+      "手頃"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "99-sushi-bar-difc",
+    "name": "99 Sushi Bar DIFC",
+    "name_ja": "99スシバー DIFC",
+    "area": "DIFC",
+    "address": "DIFC, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "マドリード発の高級寿司レストラン。フォアグラ握り、アラスカンキングクラブ、トロタルタルなど創作寿司を提供。エレガントな空間。",
+    "tags": [
+      "高級",
+      "寿司",
+      "マドリード発"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "kaizu-abu-dhabi-restaurant",
+    "name": "Kaizu Abu Dhabi",
+    "name_ja": "海図 アブダビ",
+    "area": "Yas Island",
+    "address": "Yas Island, Abu Dhabi",
+    "phone": null,
+    "website": null,
+    "description": "ヤス島の日本料理レストラン。寿司、刺身、天ぷらに加え、日本酒のセレクションも豊富。",
+    "tags": [
+      "日本料理",
+      "ヤス島",
+      "日本酒"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "daikan-ramen-abu-dhabi",
+    "name": "Daikan Ramen Abu Dhabi",
+    "name_ja": "大観ラーメン アブダビ",
+    "area": "Al Maryah Island",
+    "address": "The Galleria Al Maryah Island, Abu Dhabi",
+    "phone": null,
+    "website": "https://daikan.ae/",
+    "description": "Daikanブランドのアブダビ店。濃厚豚骨ラーメンや味噌ラーメンなど本格的なラーメンを提供。東京のバックストリートを再現した空間。",
+    "tags": [
+      "ラーメン",
+      "カジュアル",
+      "アブダビ"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "slrp-ramen-dubai",
+    "name": "SLRP Ramen Dubai",
+    "name_ja": "SLRP ラーメン ドバイ",
+    "area": "Downtown Dubai",
+    "address": "The Dubai Mall, Downtown Dubai, Dubai",
+    "phone": null,
+    "website": "https://www.slrpramen.com/",
+    "description": "3Filsが手がけるラーメン＆ハンドロールバー。カジュアルにラーメンとハンドロール寿司を楽しめる。ドバイモール内。",
+    "tags": [
+      "ラーメン",
+      "ハンドロール",
+      "モール内"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "kokoro-hand-roll-dubai",
+    "name": "Kokoro Hand Roll Bar",
+    "name_ja": "ココロ ハンドロールバー",
+    "area": "DIFC",
+    "address": "DIFC, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "DIFCのハンドロール（手巻き寿司）専門バー。目の前で巻くカウンタースタイルで新鮮なネタを楽しめる。",
+    "tags": [
+      "手巻き寿司",
+      "カウンター",
+      "DIFC"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "osaka-nikkei-downtown",
+    "name": "Osaka Nikkei Dubai",
+    "name_ja": "オオサカ ニッケイ ドバイ",
+    "area": "Downtown Dubai",
+    "address": "Mandarin Oriental, Downtown Dubai, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "マンダリンオリエンタル内の日本×ペルーのNikkeiレストラン。ティラディート、キヌアロール、柚子味噌デザートなど独創的なメニュー。",
+    "tags": [
+      "ニッケイ",
+      "高級",
+      "ホテル内"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "hikiniku-to-come-al-quoz",
+    "name": "Hikiniku To Come",
+    "name_ja": "挽肉と米",
+    "area": "Al Quoz",
+    "address": "Al Quoz, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "東京で行列のできるハンバーグステーキの名店。炭火焼きハンバーグと炊きたてご飯の組み合わせが名物。2026年ドバイ初出店。",
+    "tags": [
+      "ハンバーグ",
+      "東京発",
+      "新店"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "reif-dubai-hills",
+    "name": "Reif Japanese Kushiyaki Dubai Hills",
+    "name_ja": "レイフ ジャパニーズ 串焼 ドバイヒルズ",
+    "area": "Dubai Hills",
+    "address": "Dubai Hills Mall, Dubai Hills, Dubai",
+    "phone": null,
+    "website": "https://www.reifkushiyaki.com/",
+    "description": "串焼きとラーメンの人気店Reifのドバイヒルズ店。ミシュランガイド掲載。カジュアルな雰囲気で本格日本料理を楽しめる。",
+    "tags": [
+      "串焼き",
+      "ラーメン",
+      "ミシュラン"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "reif-downtown-dubai",
+    "name": "Reif Japanese Kushiyaki Downtown",
+    "name_ja": "レイフ ジャパニーズ 串焼 ダウンタウン",
+    "area": "Downtown Dubai",
+    "address": "Downtown Dubai, Dubai",
+    "phone": null,
+    "website": "https://www.reifkushiyaki.com/",
+    "description": "Reifのダウンタウン店。串焼き、ラーメン、鶏料理を中心にカジュアルに和食を楽しめる。ミシュランガイド掲載。",
+    "tags": [
+      "串焼き",
+      "ラーメン",
+      "カジュアル"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "kigo-restaurant-difc",
+    "name": "Kigo DIFC",
+    "name_ja": "季語 DIFC",
+    "area": "DIFC",
+    "address": "DIFC, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "DIFCの日本料理レストラン。季節の食材を活かした会席風のコース料理が特徴。落ち着いた空間で本格和食を提供。",
+    "tags": [
+      "会席",
+      "コース",
+      "DIFC"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "tsuki-restaurant-dubai",
+    "name": "Tsuki Dubai",
+    "name_ja": "月 ドバイ",
+    "area": "Business Bay",
+    "address": "Business Bay, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "ビジネスベイの日本料理レストラン。寿司、天ぷら、焼き物のほか、ウイスキーや日本酒のバーも併設。",
+    "tags": [
+      "日本料理",
+      "バー併設",
+      "ビジネスベイ"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "kazoku-japanese-dubai",
+    "name": "Kazoku Dubai",
+    "name_ja": "家族 ドバイ",
+    "area": "Al Barsha",
+    "address": "Al Barsha, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "アルバルシャの家族向け日本料理店。寿司、ラーメン、カレーライスなど幅広いメニューを手頃な価格で提供。",
+    "tags": [
+      "ファミリー",
+      "カジュアル",
+      "手頃"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "miyako-hyatt-regency",
+    "name": "Miyako at Hyatt Regency Dubai",
+    "name_ja": "都 ハイアットリージェンシー",
+    "area": "Deira",
+    "address": "Hyatt Regency Dubai, Deira Corniche, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "ハイアットリージェンシー内の日本料理レストラン。鉄板焼き、寿司、天ぷらを提供。デイラ地区の老舗ホテルダイニング。",
+    "tags": [
+      "ホテル内",
+      "鉄板焼き",
+      "寿司"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "tomo-raffles-difc",
+    "name": "TOMO at Raffles Dubai",
+    "name_ja": "トモ ラッフルズドバイ",
+    "area": "DIFC",
+    "address": "Raffles Dubai, Sheikh Rashid Road, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "ラッフルズホテル内の日本料理レストラン。ドバイの夜景を望む高層階で本格的な和食と日本酒を楽しめる。",
+    "tags": [
+      "高級",
+      "夜景",
+      "ホテル内"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "uchi-difc-restaurant",
+    "name": "UCHI DIFC",
+    "name_ja": "うち DIFC",
+    "area": "DIFC",
+    "address": "DIFC, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "テキサス・オースティン発のコンテンポラリー日本料理。DIFCで独創的な和食のテイスティングメニューを提供。",
+    "tags": [
+      "コンテンポラリー",
+      "オースティン発",
+      "DIFC"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "hoseki-omakase-dubai",
+    "name": "Hoseki Dubai",
+    "name_ja": "宝石 ドバイ",
+    "area": "Bulgari Resort",
+    "address": "Bulgari Resort Dubai, Jumeirah Bay Island, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "ブルガリリゾート内のおまかせ寿司レストラン。わずか8席のカウンターで日本から空輸された食材を使う極上のおまかせ体験。要予約。",
+    "tags": [
+      "おまかせ",
+      "高級",
+      "要予約"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "kisu-dubai-restaurant",
+    "name": "KISU Dubai",
+    "name_ja": "キス ドバイ",
+    "area": "Palm Jumeirah",
+    "address": "Five Palm Jumeirah, Palm Jumeirah, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "パームジュメイラのFive Hotel内の日本料理レストラン。寿司、ロバタ、黒鱈の西京焼きなどを提供。テラス席からのシービューが人気。",
+    "tags": [
+      "シービュー",
+      "寿司",
+      "ロバタ"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "ram-and-roll-business-bay",
+    "name": "Ram & Roll Business Bay",
+    "name_ja": "ラム＆ロール ビジネスベイ",
+    "area": "Business Bay",
+    "address": "Business Bay, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "ラーメン＆ハンドロール寿司の人気店。カジュアルな空間で濃厚ラーメンと新鮮な手巻き寿司を楽しめる。",
+    "tags": [
+      "ラーメン",
+      "手巻き寿司",
+      "カジュアル"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "wakame-jbr",
+    "name": "Wakame JBR",
+    "name_ja": "ワカメ JBR",
+    "area": "JBR",
+    "address": "Sofitel Dubai Jumeirah Beach, JBR, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "ソフィテルJBR内のパンアジアンレストラン。日本料理を中心にタイ・中華料理も提供。海沿いのテラス席が人気。",
+    "tags": [
+      "パンアジアン",
+      "シーフード",
+      "テラス"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "itsu-marina-walk",
+    "name": "Itsu Marina Walk",
+    "name_ja": "イツ マリーナウォーク",
+    "area": "Dubai Marina",
+    "address": "Marina Walk, Dubai Marina, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "英国発のヘルシー日本食チェーン。寿司、餃子、カレー、味噌汁などを手頃な価格で提供。食べ放題プランあり。",
+    "tags": [
+      "チェーン",
+      "カジュアル",
+      "食べ放題"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "otoro-saadiyat-abu-dhabi",
+    "name": "Otoro Abu Dhabi",
+    "name_ja": "大トロ アブダビ",
+    "area": "Saadiyat Island",
+    "address": "Saadiyat Island, Abu Dhabi",
+    "phone": null,
+    "website": null,
+    "description": "サディヤット島の日本料理レストラン。おまかせ寿司と炉端焼きを提供。アートディストリクトに近い好立地。",
+    "tags": [
+      "寿司",
+      "おまかせ",
+      "サディヤット"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "netsu-mandarin-oriental",
+    "name": "Netsu at Mandarin Oriental Jumeira",
+    "name_ja": "熱 マンダリンオリエンタル ジュメイラ",
+    "area": "Jumeirah",
+    "address": "Mandarin Oriental Jumeira, Jumeirah 1, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "Ross Shonhanシェフ監修の日本料理レストラン。炭火グリルを中心に、日本の食材と技法を活かした料理を提供。マンダリンオリエンタル内。",
+    "tags": [
+      "炭火焼き",
+      "高級",
+      "ホテル内"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "goldfish-sushi-yakitori",
+    "name": "Goldfish Sushi & Yakitori",
+    "name_ja": "ゴールドフィッシュ 寿司&焼き鳥",
+    "area": "Al Wasl",
+    "address": "The Galleria, 403 Al Wasl Road, Jumeirah 1, Dubai",
+    "phone": "+97148864966",
+    "website": "https://goldfishsushiyakitori.com/",
+    "description": "ミシュランガイド掲載の日本料理店。シェフ・アクマル・アヌアル氏による創作寿司、焼き鳥、和牛フォアグラスライダーなどを提供。遊び心あるプレゼンテーションが特徴。",
+    "tags": [
+      "ミシュランガイド掲載",
+      "創作寿司",
+      "焼き鳥"
+    ],
+    "hours": "毎日 12:00-24:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "dragonfly-business-bay",
+    "name": "Dragonfly Dubai",
+    "name_ja": "ドラゴンフライ ドバイ",
+    "area": "Business Bay",
+    "address": "The Lana Promenade, Dorchester Collection, Marasi Drive, Business Bay, Dubai",
+    "phone": "+97148348278",
+    "website": "https://www.dragonfly-dxb.com/",
+    "description": "ザ・ラナ・ドーチェスター内の日本料理レストラン。日本酒ペアリングと和食をモダンな空間で提供。ライブDJ付きのイブニングも。",
+    "tags": [
+      "ホテルレストラン",
+      "日本酒ペアリング",
+      "モダン和食"
+    ],
+    "hours": "毎日 18:00-翌2:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "ken-by-kamatsuda-downtown",
+    "name": "KEN by Kamatsuda",
+    "name_ja": "KEN by 鎌田",
+    "area": "Downtown Dubai",
+    "address": "M Floor, The Dubai EDITION, Dubai Fountain St, Downtown Dubai",
+    "phone": "+97158556257",
+    "website": "https://kenbykamatsuda.ae/",
+    "description": "ザ・ドバイ・エディション内の和牛専門レストラン。徳島産阿波和牛を使ったおまかせコースを提供。日本で修行した料理長が監修。",
+    "tags": [
+      "和牛専門",
+      "おまかせ",
+      "ホテルレストラン"
+    ],
+    "hours": "毎日 18:00-25:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "clay-bluewaters",
+    "name": "CLAY Dubai",
+    "name_ja": "クレイ ドバイ",
+    "area": "Bluewaters Island",
+    "address": "15a Blue Waters Island Street, G Floor, Bluewaters, Dubai",
+    "phone": "+97144225600",
+    "website": "https://www.claydubai.com/",
+    "description": "ブルーウォーターズ島の日系ペルー料理（ニッケイ）レストラン。アインドバイ観覧車近くのロケーションで、ティラディート、巻き寿司、セビーチェなどを提供。",
+    "tags": [
+      "ニッケイ料理",
+      "日系ペルー",
+      "ブルーウォーターズ"
+    ],
+    "hours": "毎日 12:00-24:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "nazcaa-address-dubai-mall",
+    "name": "Nazcaa",
+    "name_ja": "ナスカ",
+    "area": "Downtown Dubai",
+    "address": "Level 12, Address Dubai Mall, Sheikh Mohammed bin Rashid Blvd, Downtown Dubai",
+    "phone": "+97145424200",
+    "website": "https://nazcaa.com/",
+    "description": "アドレス・ドバイモール12階のニッケイ料理レストラン。ブルジュ・ハリファとドバイ・ファウンテンを一望するテラス席が人気。日本とペルーの融合料理。",
+    "tags": [
+      "ニッケイ料理",
+      "ブルジュハリファビュー",
+      "テラス"
+    ],
+    "hours": "毎日 12:00-24:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "umi-kei-marsa-al-arab",
+    "name": "Umi Kei",
+    "name_ja": "ウミ ケイ",
+    "area": "Umm Suqeim",
+    "address": "Ground Floor, Jumeirah Marsa Al Arab, Umm Suqeim 3, Dubai",
+    "phone": "+971800323232",
+    "website": "https://www.jumeirah.com/en/stay/dubai/jumeirah-marsa-al-arab/dining/marsa-al-arab-umi-kei",
+    "description": "ジュメイラ・マルサ・アル・アラブ内の居酒屋スタイルレストラン。和牛サンド、深夜ラーメンクラブ（22時〜）、シアター感のある料理演出が特徴。",
+    "tags": [
+      "居酒屋スタイル",
+      "ホテルレストラン",
+      "深夜ラーメン"
+    ],
+    "hours": "毎日 18:30-23:30",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "konjiki-hototogisu-dubai",
+    "name": "Konjiki Hototogisu Dubai",
+    "name_ja": "金色不如帰 ドバイ",
+    "area": "DIFC",
+    "address": "DIFC, Dubai",
+    "phone": null,
+    "website": "https://konjiki.ae/",
+    "description": "東京・新宿発のミシュラン星付きラーメン店。2006年に渋谷の8席の店から始まり、蛤出汁の特製ラーメンが看板メニュー。ドバイ初進出。",
+    "tags": [
+      "ラーメン",
+      "ミシュラン星",
+      "東京発"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "robata-caesars-bluewaters",
+    "name": "Robata",
+    "name_ja": "ロバタ",
+    "area": "Bluewaters Island",
+    "address": "Julius Tower, Caesars Palace, Bluewaters Island, Dubai",
+    "phone": "+97144466689",
+    "website": "https://robataya.ae/",
+    "description": "シーザーズ・パレス内の炉端焼きレストラン。炭火と囲炉裏を使った伝統的な炉端焼きスタイルで肉・魚介を提供。",
+    "tags": [
+      "炉端焼き",
+      "ホテルレストラン",
+      "ブルーウォーターズ"
+    ],
+    "hours": "毎日 10:00-翌2:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "gohan-emirates-towers",
+    "name": "Gohan Emirates Towers",
+    "name_ja": "ゴハン エミレーツタワーズ",
+    "area": "DIFC",
+    "address": "1st Floor, Jumeirah Emirates Towers, Sheikh Zayed Road, Dubai",
+    "phone": null,
+    "website": "https://gohan.ae/",
+    "description": "スピークイージースタイルの和食レストラン。La Cantineチームが手がける隠れ家的な空間で、寿司・焼き物・串焼きを提供。食べ放題寿司ナイトも開催。",
+    "tags": [
+      "スピークイージー",
+      "寿司",
+      "串焼き"
+    ],
+    "hours": "毎日 19:00-翌2:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "gohan-bluewaters",
+    "name": "Gohan Bluewaters",
+    "name_ja": "ゴハン ブルーウォーターズ",
+    "area": "Bluewaters Island",
+    "address": "Delano Dubai, Bluewaters Island, Dubai",
+    "phone": null,
+    "website": "https://gohan.ae/",
+    "description": "デラノ・ドバイ内のゴハン2号店。ウォーターフロントのテラス席で寿司、炉端焼き、和食を楽しめる。",
+    "tags": [
+      "ホテルレストラン",
+      "テラス",
+      "炉端焼き"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "99-sushi-bar-palm",
+    "name": "99 Sushi Bar & Restaurant Palm Jumeirah",
+    "name_ja": "99寿司バー パームジュメイラ",
+    "area": "Palm Jumeirah",
+    "address": "Five Palm Jumeirah Dubai, Palm Jumeirah, Dubai",
+    "phone": null,
+    "website": "https://99sushibar.com/",
+    "description": "スペイン発のハイエンド寿司レストラン。おまかせコース、ニギリ、巻き寿司を提供。パームジュメイラの海を望むロケーション。",
+    "tags": [
+      "高級寿司",
+      "おまかせ",
+      "パームジュメイラ"
+    ],
+    "hours": "毎日 13:00-翌1:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "mogiya-al-seef",
+    "name": "Mogiya Authentic Japanese Restaurant",
+    "name_ja": "もぎや",
+    "area": "Al Seef",
+    "address": "Al Seef St, Bur Dubai, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "バール・ドバイのアル・シーフ地区にある本格和食レストラン。寿司、刺身、天ぷら、うどんなどの定番和食を提供。日本人客も多い。",
+    "tags": [
+      "本格和食",
+      "バール・ドバイ",
+      "アル・シーフ"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "neo-temaki-jw-marriott",
+    "name": "Neo Temaki",
+    "name_ja": "ネオ手巻き",
+    "area": "Business Bay",
+    "address": "JW Marriott Marquis Hotel, Business Bay, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "JWマリオット・マーキス内の手巻き寿司専門店。Sole DXBでのポップアップが好評を博し、常設店として2026年にオープン。エネルギッシュな雰囲気。",
+    "tags": [
+      "手巻き寿司",
+      "ホテルレストラン",
+      "2026年オープン"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "osaka-nikkei-mandarin-oriental",
+    "name": "Osaka Nikkei Mandarin Oriental",
+    "name_ja": "大阪ニッケイ マンダリンオリエンタル",
+    "area": "Downtown Dubai",
+    "address": "Mandarin Oriental, Downtown Dubai",
+    "phone": null,
+    "website": null,
+    "description": "マンダリン・オリエンタル内の日系ペルー料理レストラン。ティラディート、キヌアロール、アンデス風アレンジの寿司を提供。2026年オープン。",
+    "tags": [
+      "ニッケイ料理",
+      "ホテルレストラン",
+      "2026年オープン"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "niri-saadiyat-abu-dhabi",
+    "name": "NIRI Saadiyat",
+    "name_ja": "ニリ サディヤット",
+    "area": "Saadiyat Island",
+    "address": "Mamsha Al Saadiyat, Saadiyat Island, Abu Dhabi",
+    "phone": null,
+    "website": null,
+    "description": "サディヤット島のビーチフロントに位置する和食レストラン。寿司バー、炉端焼き、カクテルラウンジを併設。ミシュランセレクテッド。",
+    "tags": [
+      "ミシュランセレクテッド",
+      "ビーチフロント",
+      "炉端焼き"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "strawfire-emirates-palace",
+    "name": "Strawfire by Ross Shonhan",
+    "name_ja": "ストローファイア by ロス・ションハン",
+    "area": "Abu Dhabi",
+    "address": "Emirates Palace Mandarin Oriental, Abu Dhabi",
+    "phone": null,
+    "website": "https://www.mandarinoriental.com/en/abu-dhabi/emirates-palace/dine/strawfire-by-ross-shonhan",
+    "description": "エミレーツ・パレス内の藁焼きレストラン。高知県発祥の藁焼き（わらやき）技法で調理する和食。鯛焼きデザートも人気。",
+    "tags": [
+      "藁焼き",
+      "ホテルレストラン",
+      "エミレーツパレス"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "otoro-al-qana-abu-dhabi",
+    "name": "OTORO Al Qana",
+    "name_ja": "オトロ アルカナ",
+    "area": "Abu Dhabi",
+    "address": "Al Qana Marina, Abu Dhabi",
+    "phone": null,
+    "website": null,
+    "description": "アル・カナ・マリーナの日本料理レストラン。炙りオトロ握り、マグロタルタル柚子トリュフドレッシングが看板メニュー。シンガポール出身のシェフが手がける。",
+    "tags": [
+      "寿司",
+      "マリーナ",
+      "アブダビ"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "kaizu-al-qana-abu-dhabi",
+    "name": "Kaizu Al Qana",
+    "name_ja": "カイズ アルカナ",
+    "area": "Abu Dhabi",
+    "address": "Al Qana, Abu Dhabi",
+    "phone": null,
+    "website": null,
+    "description": "アブダビのアル・カナ地区にある和食レストラン。寿司、刺身、焼き物を提供。ウォーターフロントのロケーション。",
+    "tags": [
+      "和食",
+      "アルカナ",
+      "ウォーターフロント"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sushi-counter-jlt",
+    "name": "Sushi Counter JLT",
+    "name_ja": "スシカウンター JLT",
+    "area": "JLT",
+    "address": "Jumeirah Lake Towers, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "JLTのカジュアル寿司レストラン。テイクアウトやデリバリーにも対応し、新鮮なネタの握り寿司や巻き寿司を手頃な価格で提供。",
+    "tags": [
+      "寿司",
+      "カジュアル",
+      "テイクアウト"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "kigo-business-bay",
+    "name": "KIGO Business Bay",
+    "name_ja": "キゴ ビジネスベイ",
+    "area": "Business Bay",
+    "address": "Business Bay, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "ビジネスベイの和食レストラン。寿司、刺身、焼き物をモダンな空間で提供。ランチセットも人気。",
+    "tags": [
+      "和食",
+      "モダン",
+      "ランチ"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "hisaya-downtown-dubai",
+    "name": "Hisaya Downtown",
+    "name_ja": "ヒサヤ ダウンタウン",
+    "area": "Downtown Dubai",
+    "address": "Downtown Dubai, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "ダウンタウンの和食レストラン。おまかせコースと単品メニューの両方を提供。静かな雰囲気で食事を楽しめる。",
+    "tags": [
+      "和食",
+      "おまかせ",
+      "ダウンタウン"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "nobu-the-link-dubai",
+    "name": "Nobu The Link",
+    "name_ja": "ノブ ザ・リンク",
+    "area": "DIFC",
+    "address": "The Link, One Za'abeel, DIFC, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "Nobuの2号店。初代ドバイ店に続き2026年にオープン。ノブ・マツヒサ氏の代表的な和食・ペルー融合料理を近未来的なデザイン空間で提供。ライブエンターテインメント付き。",
+    "tags": [
+      "Nobu",
+      "ニッケイ料理",
+      "2026年オープン"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "akiba-dori-dubai-mall",
+    "name": "Akiba Dori Dubai Mall",
+    "name_ja": "秋葉通り ドバイモール",
+    "area": "Downtown Dubai",
+    "address": "The Dubai Mall, Downtown Dubai, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "秋葉原をテーマにした日本式ストリートフード店。たこ焼き、焼きそば、カツカレーなどのカジュアルな日本食を提供。ドバイモール内。",
+    "tags": [
+      "ストリートフード",
+      "カジュアル",
+      "モール内"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "yo-sushi-dubai-mall",
+    "name": "YO! Sushi Dubai Mall",
+    "name_ja": "ヨー!寿司 ドバイモール",
+    "area": "Downtown Dubai",
+    "address": "The Dubai Mall, Downtown Dubai, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "イギリス発の回転寿司チェーン。カラフルな皿で寿司、刺身、枝豆、餃子などを提供。カジュアルにファミリーで楽しめる。",
+    "tags": [
+      "回転寿司",
+      "チェーン",
+      "ファミリー"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "kokoro-alserkal",
+    "name": "Kokoro Hand Roll Bar Alserkal",
+    "name_ja": "ココロ ハンドロールバー アルサーカル",
+    "area": "Al Quoz",
+    "address": "Alserkal Avenue, Al Quoz Industrial Area, Dubai",
+    "phone": null,
+    "website": "https://eatkokoro.xyz/",
+    "description": "UAE初のハンドロール（手巻き寿司）専門バー。テキサス発のコンセプトがドバイに上陸。アルサーカルのアートディストリクトに位置。カウンター席で握りたての手巻きを提供。",
+    "tags": [
+      "手巻き寿司専門",
+      "テキサス発",
+      "アルサーカル"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "itsu-jbr",
+    "name": "itsu JBR",
+    "name_ja": "イツ JBR",
+    "area": "JBR",
+    "address": "The Walk, Jumeirah Beach Residence, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "ロンドン発の和食ファストカジュアルチェーン。寿司ボウル、餃子、味噌汁、枝豆などをテイクアウト中心で提供。JBRビーチ沿い。",
+    "tags": [
+      "ファストカジュアル",
+      "テイクアウト",
+      "ロンドン発"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "coco-ichibanya-dubai-mall",
+    "name": "CoCo Ichibanya Dubai Mall",
+    "name_ja": "CoCo壱番屋 ドバイモール",
+    "area": "Downtown Dubai",
+    "address": "The Dubai Mall, Downtown Dubai, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "日本発のカレーチェーンCoCo壱番屋のドバイモール店。辛さ・トッピングをカスタマイズできる日本式カレーライスを提供。",
+    "tags": [
+      "カレー",
+      "日本チェーン",
+      "モール内"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "marugame-udon-jbr",
+    "name": "Marugame Udon JBR",
+    "name_ja": "丸亀製麺 JBR",
+    "area": "JBR",
+    "address": "Jumeirah Beach Residence, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "讃岐うどんチェーン丸亀製麺のJBR店。目の前で打つ自家製うどんと天ぷらを手頃な価格で提供。",
+    "tags": [
+      "うどん",
+      "日本チェーン",
+      "JBR"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "pepper-lunch-dubai-mall",
+    "name": "Pepper Lunch Dubai Mall",
+    "name_ja": "ペッパーランチ ドバイモール",
+    "area": "Downtown Dubai",
+    "address": "The Dubai Mall, Downtown Dubai, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "日本発の鉄板ステーキチェーンのドバイモール店。熱々の鉄板で提供されるビーフペッパーライスが人気。",
+    "tags": [
+      "鉄板焼き",
+      "日本チェーン",
+      "モール内"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sushiart-dubai-marina",
+    "name": "SushiArt Dubai Marina",
+    "name_ja": "スシアート ドバイマリーナ",
+    "area": "Dubai Marina",
+    "address": "Dubai Marina Mall, Dubai Marina, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "ドバイマリーナモール内の寿司レストラン。創作巻き寿司、ポケボウル、弁当箱を提供。テイクアウト・デリバリーにも対応。",
+    "tags": [
+      "寿司",
+      "カジュアル",
+      "マリーナ"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "japanos-dubai-marina",
+    "name": "Japanos Dubai Marina",
+    "name_ja": "ジャパノス ドバイマリーナ",
+    "area": "Dubai Marina",
+    "address": "Dubai Marina, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "ドバイマリーナの日本料理レストラン。寿司、焼き鳥、ラーメンをカジュアルな雰囲気で提供。マリーナビューのテラス席あり。",
+    "tags": [
+      "カジュアル和食",
+      "マリーナビュー",
+      "テラス"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "slrp-ramen-business-bay",
+    "name": "SLRP Business Bay",
+    "name_ja": "SLRP ビジネスベイ",
+    "area": "Business Bay",
+    "address": "Business Bay, Dubai",
+    "phone": null,
+    "website": "https://www.slrpramen.com/",
+    "description": "3Filsが手がけるラーメン＆ハンドロールバーのビジネスベイ店。豚骨・味噌・醤油ラーメンに加え、手巻き寿司バーも併設。",
+    "tags": [
+      "ラーメン",
+      "手巻き寿司",
+      "3Fils系列"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "kura-sushi-dubai-mall",
+    "name": "Kura Sushi Dubai Mall",
+    "name_ja": "くら寿司 ドバイモール",
+    "area": "Downtown Dubai",
+    "address": "The Dubai Mall, Downtown Dubai, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "日本の大手回転寿司チェーンくら寿司のドバイモール店。タッチパネル注文とレーンで流れてくる寿司を楽しめる。ファミリーに人気。",
+    "tags": [
+      "回転寿司",
+      "日本チェーン",
+      "ファミリー"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "ippudo-dubai-hills",
+    "name": "IPPUDO Dubai Hills",
+    "name_ja": "一風堂 ドバイヒルズ",
+    "area": "Dubai Hills",
+    "address": "Dubai Hills Mall, Dubai Hills, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "博多ラーメン一風堂のドバイヒルズモール店。赤丸・白丸の定番豚骨ラーメンを提供。餃子やビールも楽しめる。",
+    "tags": [
+      "ラーメン",
+      "日本チェーン",
+      "モール内"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sukiya-abu-dhabi",
+    "name": "Sukiya Abu Dhabi",
+    "name_ja": "すき家 アブダビ",
+    "area": "Abu Dhabi",
+    "address": "Abu Dhabi, UAE",
+    "phone": null,
+    "website": null,
+    "description": "日本の牛丼チェーンすき家のアブダビ店。手頃な価格で牛丼・カレー・うどんなどを提供。",
+    "tags": [
+      "牛丼",
+      "日本チェーン",
+      "アブダビ"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
   }
 ]

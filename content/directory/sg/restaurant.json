@@ -5557,5 +5557,578 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "google_maps"
+  },
+  {
+    "slug": "idaten-udon-jurong-point",
+    "name": "Idaten Udon Jurong Point",
+    "name_ja": "韋駄天うどん ジュロンポイント店",
+    "area": "Jurong East",
+    "address": "1 Jurong West Central 2, #B1-72/73, Jurong Point, Singapore 648886",
+    "phone": null,
+    "website": "https://www.idatenudon.com.sg/",
+    "description": "セルフサービス方式のうどん専門チェーン。日本の讃岐スタイルのうどんをリーズナブルな価格で提供。天ぷらなどのサイドメニューも充実。",
+    "tags": [
+      "うどん",
+      "セルフサービス",
+      "チェーン"
+    ],
+    "hours": "11:00-21:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "idaten-udon-nex",
+    "name": "Idaten Udon NEX",
+    "name_ja": "韋駄天うどん NEX店",
+    "area": "Serangoon",
+    "address": "23 Serangoon Central, #B2-42/43, NEX, Singapore 556083",
+    "phone": null,
+    "website": "https://www.idatenudon.com.sg/",
+    "description": "セルフサービス方式のうどん専門チェーン。好みのうどんとトッピングを選んで自分だけの一杯を作れるDIYスタイルが特徴。",
+    "tags": [
+      "うどん",
+      "セルフサービス",
+      "チェーン"
+    ],
+    "hours": "11:00-21:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "seiwaa-okonomiyaki-dunlop",
+    "name": "Seiwaa Okonomiyaki & Teppanyaki Restaurant",
+    "name_ja": "聖和 お好み焼き＆鉄板焼きレストラン",
+    "area": "Little India",
+    "address": "72 Dunlop Street, Singapore 209400",
+    "phone": "+6562916084",
+    "website": null,
+    "description": "DIYスタイルのお好み焼き・たこ焼き・鉄板焼きレストラン。テーブルに設置された鉄板で自分で焼いて楽しめる。サンバルやトムヤム味のお好み焼きなど独自メニューも人気。",
+    "tags": [
+      "お好み焼き",
+      "鉄板焼き",
+      "たこ焼き",
+      "DIY"
+    ],
+    "hours": "11:00-15:00, 17:00-23:00（日曜定休）",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "hey-yakiniku-bugis-junction",
+    "name": "Hey! Yakiniku",
+    "name_ja": "Hey! 焼肉",
+    "area": "Bugis",
+    "address": "80 Middle Rd, #01-92/96, Bugis Junction, Singapore 188966",
+    "phone": null,
+    "website": "https://heyyakiniku.sg/",
+    "description": "無煙グリルを備えた焼肉レストラン。GST・サービスチャージなしの明朗会計が特徴。セットメニューはS$8.90からとリーズナブル。",
+    "tags": [
+      "焼肉",
+      "無煙グリル",
+      "リーズナブル"
+    ],
+    "hours": "11:30-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "tengoku-yakiniku-bugis",
+    "name": "Tengoku Yakiniku",
+    "name_ja": "天国焼肉",
+    "area": "Bugis",
+    "address": "112 Middle Road, #01-00A Midland House, Singapore 188970",
+    "phone": null,
+    "website": "https://www.tengoku.sg/",
+    "description": "宮崎和牛を使った本格焼肉レストラン。日本酒バーも併設しており、豊富な日本酒と焼肉のペアリングを楽しめる。",
+    "tags": [
+      "焼肉",
+      "和牛",
+      "日本酒バー"
+    ],
+    "hours": "17:00-23:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "nolita-japanese-spaghetti-house",
+    "name": "Nolita Japanese Spaghetti House",
+    "name_ja": "ノリータ ジャパニーズスパゲッティハウス",
+    "area": "Thomson",
+    "address": "301 Upper Thomson Road, #01-120, Thomson Plaza, Singapore 574408",
+    "phone": null,
+    "website": null,
+    "description": "人気チラシ丼レストラン「Omoté」が手がけるカジュアルな和風パスタ専門店。2026年オープンの新コンセプト。",
+    "tags": [
+      "和風パスタ",
+      "カジュアル"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "tokyo-soba-sg",
+    "name": "Tokyo Soba",
+    "name_ja": "東京そば",
+    "area": "CBD",
+    "address": "9 Raffles Place, #B1-14, Republic Plaza, Singapore 048619",
+    "phone": null,
+    "website": "https://www.tokyo-soba.com/",
+    "description": "東京の伝統的な蕎麦を提供する専門店。CBD内のオフィスワーカーに人気のランチスポット。温・冷の蕎麦メニューが揃う。",
+    "tags": [
+      "蕎麦",
+      "ランチ",
+      "CBD"
+    ],
+    "hours": "11:00-15:00, 17:30-21:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "kuroki-sg",
+    "name": "Kuroki",
+    "name_ja": "黒木",
+    "area": "Orchard",
+    "address": "1 Scotts Road, #02-12, Shaw Centre, Singapore 228208",
+    "phone": null,
+    "website": "https://kuroki.com.sg/",
+    "description": "和牛焼肉専門のレストラン。A5ランクの和牛をはじめとする厳選肉を炭火で焼き上げる。コース料理も提供。",
+    "tags": [
+      "焼肉",
+      "和牛",
+      "炭火焼",
+      "高級"
+    ],
+    "hours": "12:00-14:30, 18:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "udon-kamon-sg",
+    "name": "Udon Kamon",
+    "name_ja": "うどん家紋",
+    "area": "Tanjong Pagar",
+    "address": "47 Tanjong Pagar Road, Singapore 088469",
+    "phone": null,
+    "website": null,
+    "description": "手打ちうどんの専門店。コシのある讃岐うどんを提供。かけうどん、ぶっかけうどんなどメニューが豊富。",
+    "tags": [
+      "うどん",
+      "手打ち",
+      "讃岐うどん"
+    ],
+    "hours": "11:30-14:30, 18:00-21:30",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sushi-yujo-tanjong-pagar-restaurant",
+    "name": "Sushi Yujo",
+    "name_ja": "鮨友情",
+    "area": "Tanjong Pagar",
+    "address": "5 Wallich Street, #01-13, Guoco Tower, Singapore 078882",
+    "phone": null,
+    "website": "https://www.sushiyujo.sg/",
+    "description": "2022年開業のモダンなおまかせレストラン。ランチS$68〜、ディナーS$148〜と、ビジネス街で比較的手頃なおまかせ体験を提供。",
+    "tags": [
+      "おまかせ",
+      "寿司",
+      "モダン"
+    ],
+    "hours": "12:00-14:30, 18:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "takayama-kappo-tanjong-pagar",
+    "name": "Takayama",
+    "name_ja": "高山",
+    "area": "Tanjong Pagar",
+    "address": "22 Cross Street, #01-58/60, Singapore 048421",
+    "phone": null,
+    "website": "https://takayama.com.sg/",
+    "description": "割烹スタイルのおまかせレストラン。タンジョンパガーMRT駅から徒歩8分。カウンター席で職人の技を間近で楽しめる。",
+    "tags": [
+      "割烹",
+      "おまかせ",
+      "カウンター"
+    ],
+    "hours": "12:00-14:30, 18:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "miyu-omakase-dempsey",
+    "name": "MIYU",
+    "name_ja": "MIYU",
+    "area": "Dempsey Hill",
+    "address": "13 Dempsey Road, Singapore 249674",
+    "phone": null,
+    "website": "https://miyu.sg/",
+    "description": "デンプシーヒルに位置する日本料理おまかせレストラン。緑に囲まれた落ち着いた空間で、季節の食材を使ったコースを提供。",
+    "tags": [
+      "おまかせ",
+      "デンプシー",
+      "高級"
+    ],
+    "hours": "12:00-14:30, 18:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "yaki-yaki-bo-nex",
+    "name": "Yaki Yaki Bo NEX",
+    "name_ja": "焼き焼きぼー NEX店",
+    "area": "Serangoon",
+    "address": "23 Serangoon Central, #B2-K11, NEX, Singapore 556083",
+    "phone": null,
+    "website": "https://res.com.sg/brands/yaki-yaki-bo/",
+    "description": "お好み焼き・たこ焼き専門店。和ジョイ日本食街内にあり、5種類のお好み焼きと焼きそばなどを提供。",
+    "tags": [
+      "お好み焼き",
+      "たこ焼き",
+      "焼きそば"
+    ],
+    "hours": "11:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "teppan-works-tras-street",
+    "name": "Teppan Works",
+    "name_ja": "鉄板ワークス",
+    "area": "Tanjong Pagar",
+    "address": "42 Tras Street, Singapore 078981",
+    "phone": null,
+    "website": null,
+    "description": "鉄板焼きスタイルのカジュアルダイニング。ステーキやシーフードを目の前の鉄板で焼き上げる。",
+    "tags": [
+      "鉄板焼き",
+      "ステーキ",
+      "カジュアル"
+    ],
+    "hours": "12:00-23:30",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "misato-centrepoint",
+    "name": "Misato",
+    "name_ja": "美里",
+    "area": "Orchard",
+    "address": "176 Orchard Road, The Centrepoint, #01-33E, Singapore 238843",
+    "phone": null,
+    "website": null,
+    "description": "オーチャードの老舗日本料理レストラン。定食メニューが充実しており、リーズナブルな価格で本格的な和食を楽しめる。",
+    "tags": [
+      "定食",
+      "カジュアル",
+      "リーズナブル"
+    ],
+    "hours": "12:00-15:00, 18:00-22:00（月曜定休）",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "umai-artisanal-udon-bar",
+    "name": "Umai Artisanal Udon Bar",
+    "name_ja": "旨い うどんバー",
+    "area": "Millenia Walk",
+    "address": "9 Raffles Boulevard, #01-43, Millenia Walk, Singapore 039596",
+    "phone": null,
+    "website": null,
+    "description": "25種類のうどんメニューを揃えるうどん専門バー。ひもかわうどんや創作うどんなどフュージョン系メニューも充実。",
+    "tags": [
+      "うどん",
+      "フュージョン",
+      "ひもかわうどん"
+    ],
+    "hours": "11:30-14:30, 17:30-21:30",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "fu-men-udon-donburi",
+    "name": "Fu-Men Japanese Udon & Donburi",
+    "name_ja": "麩麺",
+    "area": "Bugis",
+    "address": "787 North Bridge Road, Singapore 198755",
+    "phone": null,
+    "website": null,
+    "description": "ハラール認証を取得した日本式うどん・丼ぶり専門店。ムスリムの方も安心して利用できる。",
+    "tags": [
+      "うどん",
+      "丼",
+      "ハラール"
+    ],
+    "hours": "11:00-21:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "reiwa-soba-sg",
+    "name": "Reiwa Soba",
+    "name_ja": "令和そば",
+    "area": "Tanjong Pagar",
+    "address": "7 Wallich Street, #01-02, Tanjong Pagar Centre, Singapore 078884",
+    "phone": null,
+    "website": null,
+    "description": "蕎麦専門店。世界基準のつけ汁にこだわり、様々な味覚に合うそばを追求している。",
+    "tags": [
+      "蕎麦",
+      "つけそば"
+    ],
+    "hours": "11:30-14:30, 17:30-21:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "ono-ramen-north-bridge",
+    "name": "Ono Ramen",
+    "name_ja": "Ono Ramen",
+    "area": "Bugis",
+    "address": "787 North Bridge Road, #01-01, Singapore 198755",
+    "phone": null,
+    "website": null,
+    "description": "ハラール対応のラーメン店。インドネシアと日本の味を融合させたユニークなラーメンを提供。太刀魚ラーメンが看板メニュー。",
+    "tags": [
+      "ラーメン",
+      "ハラール",
+      "フュージョン"
+    ],
+    "hours": "11:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "nagi-ramen-siam-square-sg",
+    "name": "Ramen Nagi",
+    "name_ja": "ラーメン凪",
+    "area": "Orchard",
+    "address": "181 Orchard Road, #04-01, Orchard Central, Singapore 238896",
+    "phone": null,
+    "website": null,
+    "description": "福岡発のラーメンチェーン。麺の硬さ、スープの濃さ、ニンニクの量などを自由にカスタマイズ可能。イカ墨のブラックキングが名物。",
+    "tags": [
+      "ラーメン",
+      "カスタマイズ",
+      "豚骨"
+    ],
+    "hours": "11:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "idaten-udon-changi-city-point",
+    "name": "Idaten Udon Changi City Point",
+    "name_ja": "韋駄天うどん チャンギシティポイント店",
+    "area": "Changi",
+    "address": "5 Changi Business Park Central 1, #B1-12/13, Changi City Point, Singapore 486038",
+    "phone": "+6566361736",
+    "website": "https://www.idatenudon.com.sg/",
+    "description": "セルフサービス方式のうどんチェーン。チャンギビジネスパーク内にあり、オフィスワーカーのランチに便利。S$6.90から。",
+    "tags": [
+      "うどん",
+      "セルフサービス",
+      "チェーン"
+    ],
+    "hours": "11:00-21:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "hakumai-sushi-omakase-tanjong-pagar",
+    "name": "Hakumai Sushi and Omakase",
+    "name_ja": "白米寿司",
+    "area": "Tanjong Pagar",
+    "address": "7 Wallich Street, #01-01, Tanjong Pagar Centre, Singapore 078884",
+    "phone": null,
+    "website": null,
+    "description": "タンジョンパガーセンターにある寿司・おまかせレストラン。新鮮なネタを使った寿司をカウンターで提供。",
+    "tags": [
+      "寿司",
+      "おまかせ",
+      "カウンター"
+    ],
+    "hours": "12:00-14:30, 18:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "ginza-sushi-ichi-palais-renaissance",
+    "name": "Ginza Sushi Ichi",
+    "name_ja": "銀座鮨一",
+    "area": "Orchard",
+    "address": "390 Orchard Road, #02-04, Palais Renaissance, Singapore 238871",
+    "phone": "+6562354808",
+    "website": null,
+    "description": "東京銀座に本店を構えるミシュラン一つ星の江戸前鮨店。日本から空輸される厳選ネタを使ったおまかせコースを提供。",
+    "tags": [
+      "ミシュラン一つ星",
+      "おまかせ",
+      "江戸前鮨",
+      "高級"
+    ],
+    "hours": "12:00-15:00, 18:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "aburi-en-guoco-tower",
+    "name": "Aburi-EN Guoco Tower",
+    "name_ja": "炙りEN グオコタワー店",
+    "area": "Tanjong Pagar",
+    "address": "5 Wallich Street, #B1-07, Guoco Tower, Singapore 078882",
+    "phone": null,
+    "website": null,
+    "description": "炙り丼ぶりの専門チェーン。サーモンやうなぎなど様々な炙り丼をリーズナブルな価格で提供。ビジネスランチに人気。",
+    "tags": [
+      "丼",
+      "炙り",
+      "チェーン",
+      "ランチ"
+    ],
+    "hours": "11:00-21:30",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "tamoya-udon-plaza-singapura",
+    "name": "Tamoya Udon & Tempura Plaza Singapura",
+    "name_ja": "田もやうどん プラザシンガプーラ店",
+    "area": "Dhoby Ghaut",
+    "address": "68 Orchard Road, #B2-59, Plaza Singapura, Singapore 238839",
+    "phone": null,
+    "website": null,
+    "description": "讃岐うどんチャンピオンの黒河田基氏が監修するうどん専門チェーン。日本から輸入した3種の小麦粉をブレンドしたコシのあるうどん。",
+    "tags": [
+      "うどん",
+      "讃岐",
+      "天ぷら",
+      "チェーン"
+    ],
+    "hours": "11:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "rappu-duxton-road",
+    "name": "Rappu",
+    "name_ja": "Rappu",
+    "area": "Tanjong Pagar",
+    "address": "52 Duxton Road, Singapore 089516",
+    "phone": null,
+    "website": null,
+    "description": "手巻き寿司（ハンドロール）専門のカジュアルレストラン。S$6.50からの手頃な価格で新鮮な手巻き寿司を提供。刺身やホットディッシュも。",
+    "tags": [
+      "手巻き寿司",
+      "カジュアル",
+      "リーズナブル"
+    ],
+    "hours": "12:00-14:30, 18:00-22:30",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "kyoto-ramen-hachiken-sg",
+    "name": "Kyoto Ramen Hachiken",
+    "name_ja": "京都ラーメン八兼",
+    "area": "Tanjong Pagar",
+    "address": "100 Tras Street, #01-09, 100AM, Singapore 079027",
+    "phone": null,
+    "website": null,
+    "description": "京都スタイルのラーメン専門店。あっさりとした醤油ベースのスープが特徴で、背脂チャッチャ系のラーメンを提供。",
+    "tags": [
+      "ラーメン",
+      "京都ラーメン",
+      "醤油"
+    ],
+    "hours": "11:00-21:30",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "kajiken-paya-lebar-quarter",
+    "name": "Kajiken Paya Lebar Quarter",
+    "name_ja": "梶研 パヤレバークォーター店",
+    "area": "Paya Lebar",
+    "address": "10 Paya Lebar Road, #B1-10, Paya Lebar Quarter, Singapore 409057",
+    "phone": null,
+    "website": null,
+    "description": "名古屋発の台湾まぜそば専門チェーン。極太麺に特製肉味噌ダレを絡めて食べるスタイルが人気。",
+    "tags": [
+      "まぜそば",
+      "台湾まぜそば",
+      "チェーン"
+    ],
+    "hours": "11:00-21:30",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "menya-kokoro-orchard-central",
+    "name": "Menya Kokoro Orchard Central",
+    "name_ja": "麺屋こころ オーチャードセントラル店",
+    "area": "Orchard",
+    "address": "181 Orchard Road, #B2-07, Orchard Central, Singapore 238896",
+    "phone": null,
+    "website": null,
+    "description": "東京発の台湾まぜそば専門チェーン。もちもちの極太麺と特製肉味噌ダレの組み合わせが看板メニュー。",
+    "tags": [
+      "まぜそば",
+      "台湾まぜそば",
+      "チェーン"
+    ],
+    "hours": "11:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "ichikokudo-ramen-orchard-central",
+    "name": "Ichikokudo Ramen Orchard Central",
+    "name_ja": "一石道ラーメン オーチャードセントラル店",
+    "area": "Orchard",
+    "address": "181 Orchard Road, #B2-01, Orchard Central, Singapore 238896",
+    "phone": null,
+    "website": null,
+    "description": "北海道スタイルのラーメンチェーン。味噌、塩、醤油の定番ラーメンに加え、つけ麺も提供。",
+    "tags": [
+      "ラーメン",
+      "北海道",
+      "味噌ラーメン"
+    ],
+    "hours": "11:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
   }
 ]

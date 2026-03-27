@@ -326,7 +326,11 @@
     "phone": null,
     "website": "https://kurasu.kyoto/",
     "description": "京都発のスペシャルティコーヒー店の中東初出店。京都直送の豆を使ったドリップコーヒーとダーティ抹茶ラテが人気。ミニマルな日本式空間。",
-    "tags": ["京都発", "スペシャルティコーヒー", "抹茶"],
+    "tags": [
+      "京都発",
+      "スペシャルティコーヒー",
+      "抹茶"
+    ],
     "hours": "月〜木 9:00-22:00 / 金〜日 9:00-23:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -341,7 +345,11 @@
     "phone": "+97142222811",
     "website": "https://megumimatcha.com/",
     "description": "ドバイ初の抹茶専門店。日本人オーナーが運営し、京都の茶園から直接仕入れた本格的な茶道抹茶を提供。月例の抹茶ワークショップも開催。",
-    "tags": ["抹茶専門", "日本人経営", "ワークショップ"],
+    "tags": [
+      "抹茶専門",
+      "日本人経営",
+      "ワークショップ"
+    ],
     "hours": "平日 8:00-21:00 / 週末 8:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -356,7 +364,11 @@
     "phone": null,
     "website": "https://matcha-vibes.com/",
     "description": "2024年オープンの抹茶カフェ。日本産プレミアム抹茶とオーガニックフードを提供。抹茶セレモニーやブレンド体験ワークショップも実施。",
-    "tags": ["抹茶", "オーガニック", "ワークショップ"],
+    "tags": [
+      "抹茶",
+      "オーガニック",
+      "ワークショップ"
+    ],
     "hours": "毎日 9:00-23:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -371,7 +383,11 @@
     "phone": "+971542523905",
     "website": "https://www.slrpramen.com/",
     "description": "3Filsが手がけるラーメン＆ハンドロールバーのアブダビ店。カジュアルにラーメンとハンドロール寿司を楽しめる。",
-    "tags": ["ラーメン", "ハンドロール", "カジュアル"],
+    "tags": [
+      "ラーメン",
+      "ハンドロール",
+      "カジュアル"
+    ],
     "hours": "毎日 10:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -386,7 +402,11 @@
     "phone": null,
     "website": "https://yamanoteatelier.com/",
     "description": "日本式ベーカリーカフェのアブダビ・ハリディヤ店。あんぱん・メロンパン・食パンなど日本のパンとコーヒーを提供。",
-    "tags": ["ベーカリー", "日本式パン", "アブダビ"],
+    "tags": [
+      "ベーカリー",
+      "日本式パン",
+      "アブダビ"
+    ],
     "hours": "毎日 7:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -401,7 +421,11 @@
     "phone": null,
     "website": "https://yamanoteatelier.com/",
     "description": "日本式ベーカリーカフェのヤスモール店。ショッピングの合間にパンとコーヒーが楽しめる。",
-    "tags": ["ベーカリー", "日本式パン", "ヤス島"],
+    "tags": [
+      "ベーカリー",
+      "日本式パン",
+      "ヤス島"
+    ],
     "hours": "毎日 10:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -416,10 +440,393 @@
     "phone": null,
     "website": "https://yamanoteatelier.com/",
     "description": "日本式ベーカリーカフェのフジャイラ店。UAE北部で日本のパンが楽しめる貴重な店舗。",
-    "tags": ["ベーカリー", "日本式パン", "フジャイラ"],
+    "tags": [
+      "ベーカリー",
+      "日本式パン",
+      "フジャイラ"
+    ],
     "hours": "毎日 7:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "the-matcha-tokyo-jbr",
+    "name": "The Matcha Tokyo JBR",
+    "name_ja": "ザ・マッチャ・トーキョー JBR",
+    "area": "JBR",
+    "address": "The Beach, Jumeirah Beach Residence, Dubai",
+    "phone": "+97148347390",
+    "website": "https://thematchatokyo.ae/",
+    "description": "東京発の抹茶専門カフェ。京都宇治産100%オーガニック抹茶を使用。抹茶ラテとコーヒー抹茶ラテが人気。ビーチフロントのキオスク。",
+    "tags": [
+      "抹茶専門",
+      "東京発",
+      "オーガニック"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "cafe-kitsune-al-wasl",
+    "name": "Café Kitsuné Dubai",
+    "name_ja": "カフェキツネ ドバイ",
+    "area": "Al Safa",
+    "address": "H Residence, Al Wasl Road, Al Safa 1, Dubai",
+    "phone": "+97142322398",
+    "website": "https://maisonkitsune.com/",
+    "description": "パリ発のフレンチ×日本のカフェ。抹茶ラテとスペシャルティコーヒーが人気。ミニマルな日本風インテリアとフランスのエレガンスが融合。",
+    "tags": [
+      "パリ発",
+      "抹茶",
+      "スペシャルティコーヒー"
+    ],
+    "hours": "毎日 8:00-23:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "cult-matcha-al-quoz",
+    "name": "Cult Matcha by TRIO",
+    "name_ja": "カルトマッチャ by TRIO",
+    "area": "Al Quoz",
+    "address": "KAVE, Alserkal Avenue, Al Quoz Industrial Area 3, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "アルサーカルアベニュー内の抹茶専門ドライブスルーカフェ。オリジナルマッチャ（30AED）やマーブルブルーベリーが人気。TRIO最新コンセプト。",
+    "tags": [
+      "抹茶",
+      "ドライブスルー",
+      "アルサーカル"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "anko-patisserie-abu-dhabi",
+    "name": "Anko Japanese Patisserie & Cafe",
+    "name_ja": "あんこ ジャパニーズパティスリー＆カフェ",
+    "area": "Saadiyat Island",
+    "address": "Rooftop, teamLab Phenomena, Saadiyat Cultural District, Abu Dhabi",
+    "phone": "+971600565566",
+    "website": "https://www.teamlababudhabi.com/en/explore/anko",
+    "description": "teamLab Phenomena屋上の日本式パティスリーカフェ。和菓子（wagashi）、洋菓子、押し花アートに囲まれたミニマルな白い空間。チケットなしで入場可。",
+    "tags": [
+      "和菓子",
+      "パティスリー",
+      "teamLab"
+    ],
+    "hours": "毎日 10:00-18:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "slrp-cafe-dubai-mall",
+    "name": "SLRP Dubai Mall",
+    "name_ja": "SLRP ドバイモール",
+    "area": "Downtown Dubai",
+    "address": "The Dubai Mall, Downtown Dubai, Dubai",
+    "phone": null,
+    "website": "https://www.slrpramen.com/",
+    "description": "3Fils系列のラーメン＆ハンドロールバー。ランチタイムのカジュアル利用にも最適。ドバイモール内でアクセス良好。",
+    "tags": [
+      "ラーメン",
+      "ハンドロール",
+      "モール内"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "yamanote-atelier-barsha",
+    "name": "Yamanote Atelier Al Barsha",
+    "name_ja": "ヤマノテアトリエ アルバルシャ",
+    "area": "Al Barsha",
+    "address": "Al Barsha, Dubai",
+    "phone": null,
+    "website": "https://yamanoteatelier.com/",
+    "description": "日本式ベーカリーカフェのアルバルシャ店。あんぱん・メロンパン・食パンなど日本のパンを提供。住宅街で地元住民に人気。",
+    "tags": [
+      "ベーカリー",
+      "日本式パン",
+      "住宅街"
+    ],
+    "hours": "毎日 7:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "yamanote-atelier-al-nahda",
+    "name": "Yamanote Atelier Al Nahda",
+    "name_ja": "ヤマノテアトリエ アルナーダ",
+    "area": "Al Nahda",
+    "address": "Al Nahda, Dubai",
+    "phone": null,
+    "website": "https://yamanoteatelier.com/",
+    "description": "日本式ベーカリーカフェのアルナーダ店。シャルジャとの境界近くに位置し、北部ドバイ住民向けの日本のパンスポット。",
+    "tags": [
+      "ベーカリー",
+      "日本式パン"
+    ],
+    "hours": "毎日 7:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "yamanote-atelier-jvc",
+    "name": "Yamanote Atelier JVC",
+    "name_ja": "ヤマノテアトリエ JVC",
+    "area": "JVC",
+    "address": "Jumeirah Village Circle, Dubai",
+    "phone": null,
+    "website": "https://yamanoteatelier.com/",
+    "description": "日本式ベーカリーカフェのJVC店。ファミリー層が多い新興住宅地で朝食やカフェに利用される。",
+    "tags": [
+      "ベーカリー",
+      "日本式パン",
+      "JVC"
+    ],
+    "hours": "毎日 7:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "cha-club-dubai-mall",
+    "name": "The Cha Club Dubai Mall",
+    "name_ja": "ザ・チャクラブ ドバイモール",
+    "area": "Downtown Dubai",
+    "address": "The Dubai Mall, Downtown Dubai, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "ドバイモール内の日本茶カフェ。ピスタチオ抹茶やクッキー、抹茶スイーツが人気。ショッピング休憩に最適。",
+    "tags": [
+      "抹茶",
+      "日本茶",
+      "モール内"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "yamanote-atelier-sharjah",
+    "name": "Yamanote Atelier Sharjah",
+    "name_ja": "ヤマノテアトリエ シャルジャ",
+    "area": "Sharjah",
+    "address": "Sharjah, UAE",
+    "phone": null,
+    "website": "https://yamanoteatelier.com/",
+    "description": "日本式ベーカリーカフェのシャルジャ店。UAEの隣接首長国シャルジャで日本のパンとコーヒーが楽しめる。",
+    "tags": [
+      "ベーカリー",
+      "日本式パン",
+      "シャルジャ"
+    ],
+    "hours": "毎日 7:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "the-edit-alserkal",
+    "name": "The Edit Alserkal",
+    "name_ja": "ジ・エディット アルサーカル",
+    "area": "Al Quoz",
+    "address": "Alserkal Avenue, Al Quoz Industrial Area 3, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "アルサーカルアベニュー内の女性主導コンセプトストア。専用の抹茶バーで本格的な抹茶ドリンクを提供。セレクトショップとカフェの融合空間。",
+    "tags": [
+      "抹茶バー",
+      "コンセプトストア",
+      "アルサーカル"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "nette-matcha-padel",
+    "name": "Nette Matcha",
+    "name_ja": "ネッテ マッチャ",
+    "area": "Dubai",
+    "address": "Matcha Club Padel, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "パデルテニス施設Matcha Club内のカフェ。グリーン抹茶ミルクシェイク（抹茶・バニラアイス・アーモンドミルク）が人気。スポーツ後のリフレッシュに。",
+    "tags": [
+      "抹茶",
+      "スポーツカフェ",
+      "ミルクシェイク"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "clarity-tea-dubai",
+    "name": "Clarity Tea",
+    "name_ja": "クラリティ ティー",
+    "area": "Dubai",
+    "address": "Dubai, UAE",
+    "phone": null,
+    "website": "https://myclaritytea.com/",
+    "description": "UAE発の本格抹茶・ウーロン茶ブランド。オンライン販売に加え、ポップアップカフェも展開。高品質な日本産抹茶を使用したドリンクを提供。",
+    "tags": [
+      "抹茶",
+      "お茶専門",
+      "UAE発"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "soo-matcha-abu-dhabi",
+    "name": "Soo Matcha",
+    "name_ja": "スー マッチャ",
+    "area": "Abu Dhabi",
+    "address": "Abu Dhabi, UAE",
+    "phone": null,
+    "website": null,
+    "description": "アブダビ初の抹茶専門カフェ。抹茶ラテ、抹茶ケーキ、抹茶ティラミスなど多彩な抹茶メニューを提供。",
+    "tags": [
+      "抹茶専門",
+      "アブダビ初",
+      "スイーツ"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "the-matcha-tokyo-dubai-mall",
+    "name": "The Matcha Tokyo Dubai Mall",
+    "name_ja": "ザ・マッチャ・トーキョー ドバイモール",
+    "area": "Downtown Dubai",
+    "address": "The Dubai Mall, Downtown Dubai, Dubai",
+    "phone": null,
+    "website": "https://thematchatokyo.ae/",
+    "description": "東京発の抹茶専門カフェのドバイモール店。京都宇治産100%オーガニック抹茶を使用したラテやスイーツを提供。ショッピング休憩に最適。",
+    "tags": [
+      "抹茶専門",
+      "東京発",
+      "モール内"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "yamanote-atelier-city-walk",
+    "name": "Yamanote Atelier City Walk",
+    "name_ja": "ヤマノテアトリエ シティウォーク",
+    "area": "City Walk",
+    "address": "City Walk, Al Safa Street, Dubai",
+    "phone": null,
+    "website": "https://yamanoteatelier.com/",
+    "description": "日本式ベーカリーカフェのシティウォーク店。ショッピングの合間にあんぱん・メロンパン・食パンなど日本のパンとコーヒーを楽しめる。",
+    "tags": [
+      "ベーカリー",
+      "日本式パン",
+      "シティウォーク"
+    ],
+    "hours": "毎日 7:00-23:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "yamanote-atelier-dubai-hills",
+    "name": "Yamanote Atelier Dubai Hills",
+    "name_ja": "ヤマノテアトリエ ドバイヒルズ",
+    "area": "Dubai Hills",
+    "address": "Dubai Hills Mall, Dubai Hills, Dubai",
+    "phone": null,
+    "website": "https://yamanoteatelier.com/",
+    "description": "日本式ベーカリーカフェのドバイヒルズモール店。焼きたてのパンとコーヒーで朝食やランチを楽しめる。",
+    "tags": [
+      "ベーカリー",
+      "日本式パン",
+      "モール内"
+    ],
+    "hours": "毎日 7:00-23:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "slrp-cafe-jlt",
+    "name": "SLRP Cafe JLT",
+    "name_ja": "SLRP カフェ JLT",
+    "area": "JLT",
+    "address": "Jumeirah Lake Towers, Dubai",
+    "phone": null,
+    "website": "https://www.slrpramen.com/",
+    "description": "3Filsが手がけるラーメン店のカフェ的利用。ランチタイムにカジュアルにラーメンと一品料理を楽しめる。",
+    "tags": [
+      "ラーメン",
+      "カジュアル",
+      "ランチ"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "the-matcha-tokyo-marina",
+    "name": "The Matcha Tokyo Marina",
+    "name_ja": "ザ・マッチャ・トーキョー マリーナ",
+    "area": "Dubai Marina",
+    "address": "Dubai Marina, Dubai",
+    "phone": null,
+    "website": "https://thematchatokyo.ae/",
+    "description": "東京発の抹茶専門ブランドのマリーナ店。抹茶ラテ・抹茶コーヒーラテが人気。テイクアウト向けのキオスクスタイル。",
+    "tags": [
+      "抹茶専門",
+      "テイクアウト",
+      "マリーナ"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "anko-cafe-saadiyat",
+    "name": "Anko Cafe Saadiyat",
+    "name_ja": "あんこカフェ サディヤット",
+    "area": "Saadiyat Island",
+    "address": "Saadiyat Cultural District, Abu Dhabi",
+    "phone": null,
+    "website": null,
+    "description": "サディヤット島の文化地区にある日本式カフェ。和菓子とオーガニック抹茶が楽しめる。アート施設巡りの合間に。",
+    "tags": [
+      "和菓子",
+      "抹茶",
+      "文化地区"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
   }
 ]

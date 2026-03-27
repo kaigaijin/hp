@@ -1128,5 +1128,202 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "kuma-no-yakitori-izakaya-sukhumvit47",
+    "name": "Kuma no Yakitori Bar",
+    "name_ja": "熊の焼鳥バー",
+    "area": "Phrom Phong",
+    "address": "Rainhill, L1-06, 777 Sukhumvit 47, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "大阪発のプレミアム焼鳥居酒屋。おまかせコースのみの予約制で、希少部位を備長炭で焼き上げる。日本酒のセレクションも充実。",
+    "tags": [
+      "焼鳥",
+      "おまかせ",
+      "備長炭",
+      "要予約"
+    ],
+    "hours": "17:00-23:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "jua-izakaya-charoen-krung",
+    "name": "JUA Izakaya",
+    "name_ja": "JUA 居酒屋",
+    "area": "Bang Rak",
+    "address": "672/49 Charoen Krung Road, Bang Rak, Bangkok 10500",
+    "phone": null,
+    "website": "https://www.juabkk.com/",
+    "description": "チャルンクルン通りのモダン居酒屋。炭火焼きチキンとクラフトカクテルが人気。バンコクのトップレストランに選出された実力派。",
+    "tags": [
+      "居酒屋",
+      "炭火焼き",
+      "カクテル",
+      "モダン"
+    ],
+    "hours": "17:30-23:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "sasaya-izakaya-silom",
+    "name": "Sasaya Izakaya",
+    "name_ja": "笹家 居酒屋",
+    "area": "Silom",
+    "address": "132/15 Silom Soi 6, Suriyawongse, Bang Rak, Bangkok 10500",
+    "phone": null,
+    "website": null,
+    "description": "シーロムソイ6の老舗居酒屋。日本人駐在員に長年親しまれている。日本の家庭料理と豊富な日本酒メニューが魅力。",
+    "tags": [
+      "居酒屋",
+      "老舗",
+      "日本酒",
+      "家庭料理"
+    ],
+    "hours": "17:00-23:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "yokocho-izakaya-asoke-bar",
+    "name": "Yokocho Izakaya & Bar",
+    "name_ja": "横丁 居酒屋＆バー",
+    "area": "Asoke",
+    "address": "Soi Sukhumvit 19, Khlong Toei Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "日本の横丁をコンセプトにした居酒屋バー。焼き鳥、おでん、枝豆などの定番おつまみとビール・酎ハイが楽しめる。",
+    "tags": [
+      "居酒屋",
+      "横丁",
+      "焼き鳥",
+      "おでん"
+    ],
+    "hours": "17:00-00:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "kin-no-donburi-nihonmachi-izakaya",
+    "name": "Kin no Donburi",
+    "name_ja": "金の丼",
+    "area": "Phrom Phong",
+    "address": "Nihonmachi, Soi Sukhumvit 26, Khlong Tan, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "日本町内の丼ぶり居酒屋。海鮮丼や牛丼などの丼メニューに加え、おつまみと日本酒も提供する居酒屋スタイル。",
+    "tags": [
+      "丼",
+      "居酒屋",
+      "日本町"
+    ],
+    "hours": "11:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "izakaya-zengo-sukhumvit-bar",
+    "name": "Izakaya Zengo",
+    "name_ja": "居酒屋ぜんご",
+    "area": "Sukhumvit",
+    "address": "Soi Sukhumvit 33/1, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "スクンビットの隠れ家居酒屋。日本人シェフが作る本格的な一品料理と、厳選された日本酒・焼酎のペアリングが楽しめる。",
+    "tags": [
+      "居酒屋",
+      "隠れ家",
+      "日本酒",
+      "一品料理"
+    ],
+    "hours": "17:30-23:30",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sake-bar-niji-thonglor-bar",
+    "name": "Sake Bar Niji",
+    "name_ja": "酒バー虹",
+    "area": "Thonglor",
+    "address": "Thonglor Soi 13, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "トンロー地区の日本酒専門バー。全国各地の地酒を取り揃え、日本酒ソムリエが好みに合わせたペアリングを提案。",
+    "tags": [
+      "日本酒バー",
+      "地酒",
+      "ペアリング"
+    ],
+    "hours": "18:00-01:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "izakaya-aoki-phrom-phong-bar",
+    "name": "Izakaya Aoki",
+    "name_ja": "居酒屋あおき",
+    "area": "Phrom Phong",
+    "address": "Soi Sukhumvit 24, Khlong Tan, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "プロンポンの日本人街にある家庭的な居酒屋。おでん、焼き魚、煮物など和食の定番メニューと日本酒を提供。",
+    "tags": [
+      "居酒屋",
+      "家庭的",
+      "おでん",
+      "日本酒"
+    ],
+    "hours": "17:00-23:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "kushiyaki-daruma-ekkamai-bar",
+    "name": "Kushiyaki Daruma Ekkamai",
+    "name_ja": "串焼きだるま エカマイ店",
+    "area": "Ekkamai",
+    "address": "Ekkamai Soi 5, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "エカマイの串焼き居酒屋。豚バラ、ネギマ、つくねなどの串焼きメニューが豊富。深夜まで営業。",
+    "tags": [
+      "串焼き",
+      "居酒屋",
+      "深夜営業"
+    ],
+    "hours": "17:00-01:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "bar-026-nihonmachi-bar",
+    "name": "Bar 026",
+    "name_ja": "バー026",
+    "area": "Phrom Phong",
+    "address": "Nihonmachi, Soi Sukhumvit 26, Khlong Tan, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "日本町内のオーセンティックバー。日本のウイスキーとクラフトカクテルを提供。落ち着いた大人の空間。",
+    "tags": [
+      "バー",
+      "ウイスキー",
+      "カクテル",
+      "日本町"
+    ],
+    "hours": "19:00-02:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
   }
 ]
