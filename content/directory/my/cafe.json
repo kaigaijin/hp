@@ -145,7 +145,12 @@
     "phone": "+60111551513",
     "website": "https://www.facebook.com/matchaherokyoto/",
     "description": "京都発の抹茶専門店。Pavilion KLのTokyo Street内にあり、最高品質の抹茶を使ったドリンク・アイスクリーム・クッキーなどを提供。抹茶の濃さを選べるのが特徴。",
-    "tags": ["抹茶", "スイーツ", "アイスクリーム", "京都"],
+    "tags": [
+      "抹茶",
+      "スイーツ",
+      "アイスクリーム",
+      "京都"
+    ],
     "hours": "毎日 10:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -160,7 +165,11 @@
     "phone": null,
     "website": "https://www.nikonekomatcha.com/",
     "description": "マレーシア発の本格抹茶ブランドNiko Nekoのチャイナタウン店。2020年にオープンした2号店で、京都・和束町産の抹茶を使用。抹茶ラテ・抹茶ティラミス・抹茶パフェが楽しめる。",
-    "tags": ["抹茶", "カフェ", "ラテ"],
+    "tags": [
+      "抹茶",
+      "カフェ",
+      "ラテ"
+    ],
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -175,7 +184,11 @@
     "phone": "+60362063277",
     "website": "https://bakerycafehachi.com/",
     "description": "1 Mont Kiara内にある日本式ベーカリーカフェ。日本式のパン・菓子パン・サンドイッチを毎日焼きたてで提供。和の雰囲気を感じるモダンな店内。",
-    "tags": ["ベーカリー", "カフェ", "日本式パン"],
+    "tags": [
+      "ベーカリー",
+      "カフェ",
+      "日本式パン"
+    ],
     "hours": "毎日 8:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -190,7 +203,12 @@
     "phone": null,
     "website": "https://www.komugi.com.my/",
     "description": "日本の製パン技術とヨーロッパのベーキングを融合させたベーカリーカフェ。手作りのペストリー・ケーキ・クロワッサンが人気。KL市内に複数店舗を展開。",
-    "tags": ["ベーカリー", "カフェ", "ペストリー", "複数店舗"],
+    "tags": [
+      "ベーカリー",
+      "カフェ",
+      "ペストリー",
+      "複数店舗"
+    ],
     "hours": "毎日 10:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -205,10 +223,52 @@
     "phone": null,
     "website": null,
     "description": "1998年創業の日本人オーナーによるベーカリー。伊勢丹KLCC内に出店し、日本の製パン技術とマレーシアのフレーバーを融合させたパンを提供。人気商品は早い時間に売り切れることが多い。",
-    "tags": ["ベーカリー", "日本人経営", "伊勢丹内"],
+    "tags": [
+      "ベーカリー",
+      "日本人経営",
+      "伊勢丹内"
+    ],
     "hours": "10:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "google_maps"
+  },
+  {
+    "slug": "niko-neko-matcha-bangsar",
+    "name": "Niko Neko Matcha (Bangsar)",
+    "name_ja": "ニコネコ抹茶 バンサー店",
+    "area": "Bangsar",
+    "address": "Bangsar, Kuala Lumpur",
+    "phone": null,
+    "website": "https://www.nikonekomatcha.com/",
+    "description": "マレーシア発の本格抹茶ブランドのバンサー店。抹茶ラテの黄金比率にこだわりKL最強格の抹茶カフェ。Mont Kiara・チャイナタウン店もあり。",
+    "tags": [
+      "抹茶",
+      "カフェ",
+      "ラテ"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "108-matcha-saro-pavilion",
+    "name": "108 Matcha Saro (Pavilion)",
+    "name_ja": "108抹茶茶廊 パビリオン店",
+    "area": "Bukit Bintang",
+    "address": "Pavilion KL, 168 Jalan Bukit Bintang, 55100 Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "北海道発の抹茶スイーツ専門店のパビリオンKL店。京都産抹茶を使ったおばんやき・わらび餅・パフェなどを提供。TRX店もあり。",
+    "tags": [
+      "抹茶",
+      "スイーツ",
+      "おばんやき"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

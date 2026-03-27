@@ -68,7 +68,12 @@
     "phone": "+60364117050",
     "website": "https://shakariki432.com/en/brand-en/malaysia-en/",
     "description": "大阪発の人気居酒屋チェーンのマレーシア店。パブリカ店とDesa Sri Hartamasの酒ダイニング店の2店舗を展開。串焼き・炉端焼きを中心としたメニューと日本酒・焼酎が楽しめる。",
-    "tags": ["居酒屋", "大阪スタイル", "串焼き", "日本酒"],
+    "tags": [
+      "居酒屋",
+      "大阪スタイル",
+      "串焼き",
+      "日本酒"
+    ],
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -83,7 +88,12 @@
     "phone": null,
     "website": null,
     "description": "モントキアラにある日本式居酒屋。各テーブルにミニグリルが設置され、海鮮や串焼きを自分で焼きながら楽しめるスタイル。輸入海鮮を使った料理とドリンクが豊富。",
-    "tags": ["居酒屋", "グリル", "海鮮", "予約可"],
+    "tags": [
+      "居酒屋",
+      "グリル",
+      "海鮮",
+      "予約可"
+    ],
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -98,7 +108,11 @@
     "phone": null,
     "website": null,
     "description": "焼き鳥を中心とした居酒屋。鶏・牛・ホルモンの串焼きを職人が丁寧に焼き上げる。日本式居酒屋の雰囲気を楽しめる。",
-    "tags": ["居酒屋", "焼き鳥", "串焼き"],
+    "tags": [
+      "居酒屋",
+      "焼き鳥",
+      "串焼き"
+    ],
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -113,7 +127,11 @@
     "phone": null,
     "website": null,
     "description": "日本酒と居酒屋料理を中心に提供するバー&居酒屋。小皿料理と日本酒・焼酎のペアリングが楽しめる活気ある空間。",
-    "tags": ["居酒屋", "日本酒バー", "小皿料理"],
+    "tags": [
+      "居酒屋",
+      "日本酒バー",
+      "小皿料理"
+    ],
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -128,7 +146,10 @@
     "phone": null,
     "website": "https://www.facebook.com/ikkyu.izakaya/",
     "description": "ブキビンタンエリアにある居酒屋レストラン&バー。日本式の居酒屋メニューとドリンクを提供。",
-    "tags": ["居酒屋", "バー"],
+    "tags": [
+      "居酒屋",
+      "バー"
+    ],
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -143,7 +164,12 @@
     "phone": "+60125049143",
     "website": "https://www.facebook.com/people/KAPPA-Kaisen-Izakaya/61570881209944/",
     "description": "ダマンサラハイツにある海鮮居酒屋。新鮮な魚介を使った寿司・刺身・海鮮焼きが楽しめる。2025年オープンの新店舗で、手頃な価格の本格日本料理が評判。月曜定休。",
-    "tags": ["居酒屋", "海鮮", "寿司", "刺身"],
+    "tags": [
+      "居酒屋",
+      "海鮮",
+      "寿司",
+      "刺身"
+    ],
     "hours": "17:00-23:00（月曜定休）",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -158,7 +184,12 @@
     "phone": "+60146774687",
     "website": "https://www.facebook.com/shoshinizakaya/",
     "description": "2階建ての日本料理店。1階は寿司バーで職人が握る新鮮な寿司を提供、2階は居酒屋スタイルで日本のタパス・焼き物・プレミアム日本酒が楽しめる。TTDI地区で本格的な和食体験ができる。",
-    "tags": ["居酒屋", "寿司バー", "日本酒", "TTDI"],
+    "tags": [
+      "居酒屋",
+      "寿司バー",
+      "日本酒",
+      "TTDI"
+    ],
     "hours": "1F: 12:00-22:00, 2F: 16:00-24:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -173,10 +204,71 @@
     "phone": null,
     "website": "https://izakayagroup.com/yakitori-kakusu-restaurant/",
     "description": "2017年からKL・PJで複数の居酒屋を展開するIzakaya Groupの焼き鳥専門店。職人が一本一本丁寧に焼き上げる焼き鳥が看板メニュー。",
-    "tags": ["焼き鳥", "居酒屋", "専門店"],
+    "tags": [
+      "焼き鳥",
+      "居酒屋",
+      "専門店"
+    ],
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "shakariki-sake-dining",
+    "name": "Shakariki Sake Dining",
+    "name_ja": "しゃかりき酒ダイニング",
+    "area": "Desa Sri Hartamas",
+    "address": "Desa Sri Hartamas, Kuala Lumpur",
+    "phone": null,
+    "website": "https://shakariki432.com/en/brand-en/malaysia-en/",
+    "description": "大阪発の居酒屋チェーン・しゃかりきの酒ダイニング業態。Publika店とは別のDesa Sri Hartamas店舗。日本酒・焼酎と和食を楽しめる。",
+    "tags": [
+      "居酒屋",
+      "日本酒",
+      "大阪スタイル"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sake-bar-hanzo",
+    "name": "Sake Bar Hanzo",
+    "name_ja": "酒バー半蔵",
+    "area": "Bukit Bintang",
+    "address": "Bukit Bintang, Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "日本酒を中心としたバー。厳選された日本酒と居酒屋料理のペアリングが楽しめる。日本酒に詳しいスタッフがおすすめを提案。",
+    "tags": [
+      "日本酒バー",
+      "居酒屋",
+      "ペアリング"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "robataya-izakaya-trx",
+    "name": "Robataya Izakaya (TRX)",
+    "name_ja": "ロバタヤ居酒屋 TRX店",
+    "area": "TRX",
+    "address": "The Exchange TRX, Kuala Lumpur",
+    "phone": null,
+    "website": "https://www.robatayaizakaya.com/",
+    "description": "炉端焼きスタイルの居酒屋のTRXモール店。Publika店に続く2店舗目。新鮮な魚介や肉の炭火焼きが楽しめる。",
+    "tags": [
+      "居酒屋",
+      "炉端焼き",
+      "TRX"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
   }
 ]

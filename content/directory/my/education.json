@@ -68,7 +68,11 @@
     "phone": null,
     "website": "https://www.teikyomy.com/",
     "description": "帝京大学グループのマレーシア校。日本留学のための予備教育課程と日本語専門課程を提供。マレーシアから日本の大学への進学を目指す学生をサポート。",
-    "tags": ["日本語教育", "留学準備", "大学予備課程"],
+    "tags": [
+      "日本語教育",
+      "留学準備",
+      "大学予備課程"
+    ],
     "hours": "要確認",
     "last_verified": "2026-03-26",
     "status": "unverified",
@@ -83,7 +87,11 @@
     "phone": null,
     "website": "https://www.jfkl.org.my/",
     "description": "日本政府の国際交流基金のKL事務所。日本語教育支援・日本語能力試験（JLPT）の実施・文化交流プログラムを運営。日本語学習のリソースやイベント情報が得られる。",
-    "tags": ["日本語教育", "文化交流", "JLPT"],
+    "tags": [
+      "日本語教育",
+      "文化交流",
+      "JLPT"
+    ],
     "hours": "要確認",
     "last_verified": "2026-03-26",
     "status": "unverified",
@@ -98,7 +106,12 @@
     "phone": "+60123034034",
     "website": "https://my.kumonglobal.com/",
     "description": "日本発の学習塾・公文式のモントキアラ教室。算数・英語のプログラムを提供。日本人の子どもの学習習慣維持に活用されている。自学自習スタイルで個々のペースで学べる。",
-    "tags": ["学習塾", "算数", "英語", "日本式教育"],
+    "tags": [
+      "学習塾",
+      "算数",
+      "英語",
+      "日本式教育"
+    ],
     "hours": "要確認",
     "last_verified": "2026-03-26",
     "status": "unverified",
@@ -113,7 +126,12 @@
     "phone": "+60362032129",
     "website": "https://my.kumonglobal.com/",
     "description": "公文式のビスタキアラ教室。日本語プログラムも提供しており、海外在住の日本人の子どもの日本語力維持に利用されている。モントキアラエリアから近くアクセスしやすい。",
-    "tags": ["学習塾", "日本語", "算数", "日本式教育"],
+    "tags": [
+      "学習塾",
+      "日本語",
+      "算数",
+      "日本式教育"
+    ],
     "hours": "要確認",
     "last_verified": "2026-03-26",
     "status": "unverified",
@@ -128,7 +146,12 @@
     "phone": "+60322742274",
     "website": "https://www.jckl.org.my/",
     "description": "KL在住日本人のコミュニティ拠点。図書室・レストラン・多目的ホールなどを備え、日本語教室・文化イベント・サークル活動などを運営。子どもの日本語補習や行事（夏祭り・餅つき等）も実施。",
-    "tags": ["日本人会", "コミュニティ", "図書室", "文化活動"],
+    "tags": [
+      "日本人会",
+      "コミュニティ",
+      "図書室",
+      "文化活動"
+    ],
     "hours": "要確認",
     "last_verified": "2026-03-26",
     "status": "unverified",
@@ -143,7 +166,12 @@
     "phone": "+60321442060",
     "website": "https://www.icls.com.my/",
     "description": "ブキビンタンにある語学学校。日本語コースのほか英語・中国語・韓国語・マレー語コースを提供。グループ・プライベートレッスンに対応。AirAsia Bukit Bintangモノレール駅近く。",
-    "tags": ["語学学校", "日本語", "英語", "多言語対応"],
+    "tags": [
+      "語学学校",
+      "日本語",
+      "英語",
+      "多言語対応"
+    ],
     "hours": "月-金 9:30-21:00, 土 10:00-16:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -158,7 +186,11 @@
     "phone": null,
     "website": null,
     "description": "バンダーサンウェイにある日本語教育機関。10歳以上の子どもから大人まで対象のコースを提供。日本語能力試験（JLPT）対策にも対応。",
-    "tags": ["日本語教育", "JLPT対策", "子ども向け"],
+    "tags": [
+      "日本語教育",
+      "JLPT対策",
+      "子ども向け"
+    ],
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -173,10 +205,115 @@
     "phone": "+60448991560",
     "website": "https://www.penangjs.com/",
     "description": "ペナンにある日本人学校。小学部・中学部を設置し、日本の学習指導要領に準拠した教育を実施。ペナン在住の日本人家族の子弟が通学。",
-    "tags": ["小学校", "中学校", "日本語教育", "日本のカリキュラム", "ペナン"],
+    "tags": [
+      "小学校",
+      "中学校",
+      "日本語教育",
+      "日本のカリキュラム",
+      "ペナン"
+    ],
     "hours": "月-金 8:00-16:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "ena-japanese-language-school",
+    "name": "ENA Japanese Language School",
+    "name_ja": "ENAジャパニーズランゲージスクール",
+    "area": "Kuala Lumpur",
+    "address": "Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "KL市内で日本語コースを提供する語学学校。初心者から上級者まで対応し、ビジネス日本語コースも開講。JLPT対策にも対応。",
+    "tags": [
+      "日本語教育",
+      "語学学校",
+      "JLPT対策"
+    ],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "gakken-classroom-mont-kiara",
+    "name": "Gakken Classroom Mont Kiara",
+    "name_ja": "学研教室 モントキアラ",
+    "area": "Mont Kiara",
+    "address": "Mont Kiara, Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "日本の学研が運営する学習教室。算数・国語を中心とした自学自習プログラムを提供。海外在住の日本人の子どもの学力維持に活用されている。",
+    "tags": [
+      "学習塾",
+      "算数",
+      "国語",
+      "日本式教育"
+    ],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "johor-japanese-school",
+    "name": "Johor Japanese School",
+    "name_ja": "ジョホール日本人学校",
+    "area": "Johor Bahru",
+    "address": "Johor Bahru, Johor",
+    "phone": null,
+    "website": null,
+    "description": "ジョホールバルにある日本人学校。小学部・中学部を設置し、日本の学習指導要領に準拠した教育を実施。南部マレーシア在住の日本人家族の子弟が通学。",
+    "tags": [
+      "小学校",
+      "中学校",
+      "日本語教育",
+      "日本のカリキュラム",
+      "ジョホール"
+    ],
+    "hours": "月-金 8:00-16:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "kumon-desa-park-city",
+    "name": "Kumon Desa Park City",
+    "name_ja": "公文式 デサパークシティ教室",
+    "area": "Desa Park City",
+    "address": "Plaza Arkadia, Desa Park City, 52200 Kuala Lumpur",
+    "phone": null,
+    "website": "https://my.kumonglobal.com/",
+    "description": "公文式のデサパークシティ教室。日本人の子どもの学習習慣維持に活用されている。デサパークシティ在住の日本人ファミリーに便利。",
+    "tags": [
+      "学習塾",
+      "算数",
+      "英語",
+      "日本式教育"
+    ],
+    "hours": "要確認",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "yamaha-music-school-kl",
+    "name": "Yamaha Music School Kuala Lumpur",
+    "name_ja": "ヤマハ音楽教室 KL",
+    "area": "Kuala Lumpur",
+    "address": "Kuala Lumpur (複数拠点)",
+    "phone": null,
+    "website": null,
+    "description": "日本のヤマハ音楽教室のKL校。幼児からのグループレッスン・ピアノ個人レッスンを提供。日本式の音楽教育メソッドを採用。",
+    "tags": [
+      "音楽教室",
+      "ピアノ",
+      "幼児教育"
+    ],
+    "hours": "要確認",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

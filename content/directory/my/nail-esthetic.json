@@ -67,7 +67,11 @@
     "phone": null,
     "website": null,
     "description": "モントキアラにあるネイルサロン。日本式のジェルネイル技術を採用し、丁寧な施術が特徴。日本人在住者の利用が多い。",
-    "tags": ["ネイル", "ジェルネイル", "日本式"],
+    "tags": [
+      "ネイル",
+      "ジェルネイル",
+      "日本式"
+    ],
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -82,10 +86,52 @@
     "phone": null,
     "website": null,
     "description": "バンサーエリアにある日系ビューティーサロン。ネイル・まつげエクステ・フェイシャルエステを提供。日本の美容技術を取り入れた施術が特徴。",
-    "tags": ["ネイル", "まつげエクステ", "フェイシャル"],
+    "tags": [
+      "ネイル",
+      "まつげエクステ",
+      "フェイシャル"
+    ],
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "google_maps"
+  },
+  {
+    "slug": "haru-nail-publika",
+    "name": "Haru Nail & Eyelash (Publika)",
+    "name_ja": "ハル ネイル＆まつげ パブリカ",
+    "area": "Solaris Dutamas",
+    "address": "D3-G4-3, Solaris Dutamas, Jalan Dutamas 1, 50480 Kuala Lumpur",
+    "phone": "+60362065128",
+    "website": "https://haru-salon.com/",
+    "description": "東京から進出した日系ネイル＆まつげエクステサロン。日本の技術と製品を使用した高品質なサービスが特徴。",
+    "tags": [
+      "ネイル",
+      "まつげエクステ",
+      "日本製品"
+    ],
+    "hours": "要確認",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "tokyo-nail-bangsar",
+    "name": "Tokyo Nail (Bangsar)",
+    "name_ja": "東京ネイル バンサー店",
+    "area": "Bangsar",
+    "address": "Bangsar, Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "日本スタイルのネイルサロン。バンサーエリアで日本の技術によるジェルネイル・アートネイルを提供。",
+    "tags": [
+      "ネイル",
+      "日本スタイル",
+      "ジェル"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

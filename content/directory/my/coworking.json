@@ -85,7 +85,11 @@
     "phone": null,
     "website": "https://www.commonground.work/",
     "description": "マレーシア最大手のコワーキングブランドのバンサーサウス拠点。高層階からの眺望が魅力。プライベートオフィス・ホットデスク・会議室を完備。KL Sentral・Mid Valleyへのアクセスも良好。",
-    "tags": ["コワーキング", "プライベートオフィス", "眺望"],
+    "tags": [
+      "コワーキング",
+      "プライベートオフィス",
+      "眺望"
+    ],
     "hours": "月-金 9:00-18:00（メンバーは24時間アクセス可）",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -100,7 +104,11 @@
     "phone": null,
     "website": "https://www.komunecowork.com/",
     "description": "Mujiに着想を得たミニマルなデザインが特徴のコワーキングスペース。KLCC・バンサーサウスに展開。フレキシブルデスク・プライベートオフィス・イベントスペースを提供。",
-    "tags": ["コワーキング", "ミニマルデザイン", "プライベートオフィス"],
+    "tags": [
+      "コワーキング",
+      "ミニマルデザイン",
+      "プライベートオフィス"
+    ],
     "hours": "月-金 9:00-18:00（メンバーは24時間アクセス可）",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -115,7 +123,11 @@
     "phone": null,
     "website": "https://www.wework.com/l/coworking-space/kuala-lumpur",
     "description": "WeWorkのKL Eco City拠点。Abdullah Hukum LRT駅直結のアクセスの良さが特徴。プライベートオフィス・共有デスク・会議室を完備。グローバルメンバーシップで世界中のWeWorkが利用可能。",
-    "tags": ["コワーキング", "グローバルアクセス", "駅直結"],
+    "tags": [
+      "コワーキング",
+      "グローバルアクセス",
+      "駅直結"
+    ],
     "hours": "24時間メンバーアクセス",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -130,7 +142,11 @@
     "phone": null,
     "website": "https://colony.work/",
     "description": "ColonyのKL Eco City拠点。Abdullah Hukum LRT駅上のEco Cityモールの上に位置し、交通アクセスが良好。コワーキングデスク・プライベートオフィス・会議室・イベントスペースを完備。",
-    "tags": ["コワーキング", "プライベートオフィス", "駅直結"],
+    "tags": [
+      "コワーキング",
+      "プライベートオフィス",
+      "駅直結"
+    ],
     "hours": "月-金 9:00-18:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -145,7 +161,11 @@
     "phone": null,
     "website": "https://worq.space/",
     "description": "マレーシア発のコワーキングブランド。バンサー・バンサーサウス・サンウェイプトラ・KL Sentralに展開。ホットデスク・プライベートオフィス・会議室を提供。スタートアップ支援コミュニティが充実。",
-    "tags": ["コワーキング", "スタートアップ支援", "複数拠点"],
+    "tags": [
+      "コワーキング",
+      "スタートアップ支援",
+      "複数拠点"
+    ],
     "hours": "月-金 9:00-18:00（メンバーは24時間アクセス可）",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -160,7 +180,12 @@
     "phone": null,
     "website": "https://colony.work/colony-the-met/",
     "description": "Colonyのモントキアラ拠点。The MET Corporate Towers内に位置し、ホスピタリティを意識したラグジュアリーなコワーキング空間。イベントスペース・コワーキングオフィスを完備。",
-    "tags": ["コワーキング", "プライベートオフィス", "イベントスペース", "ラグジュアリー"],
+    "tags": [
+      "コワーキング",
+      "プライベートオフィス",
+      "イベントスペース",
+      "ラグジュアリー"
+    ],
     "hours": "月-金 9:00-18:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -175,7 +200,11 @@
     "phone": null,
     "website": "https://www.davincimeetingrooms.com/",
     "description": "ソラリス モントキアラ内のフレキシブルコワーキングスペース。高速WiFi・コピー機・プリンターなどのオフィスツールを完備。時間単位での利用が可能。",
-    "tags": ["コワーキング", "会議室", "フレキシブル"],
+    "tags": [
+      "コワーキング",
+      "会議室",
+      "フレキシブル"
+    ],
     "hours": "月-金 9:00-18:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -190,10 +219,33 @@
     "phone": null,
     "website": "https://www.hq.com/",
     "description": "Plaza Mont Kiara 15階にあるコワーキングスペース。プライベートオフィス・バーチャルオフィス・会議室を提供。モントキアラの国際コミュニティに近い立地。",
-    "tags": ["コワーキング", "バーチャルオフィス", "会議室"],
+    "tags": [
+      "コワーキング",
+      "バーチャルオフィス",
+      "会議室"
+    ],
     "hours": "月-金 9:00-18:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "wework-trx",
+    "name": "WeWork TRX",
+    "name_ja": "WeWork TRX",
+    "area": "TRX",
+    "address": "The Exchange TRX, Kuala Lumpur",
+    "phone": null,
+    "website": "https://www.wework.com/",
+    "description": "WeWorkのTRXモール拠点。KL最新のビジネスエリアに位置し、プライベートオフィス・ホットデスク・会議室を完備。",
+    "tags": [
+      "コワーキング",
+      "プライベートオフィス",
+      "TRX"
+    ],
+    "hours": "24時間メンバーアクセス",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
   }
 ]

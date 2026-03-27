@@ -554,7 +554,12 @@
     "phone": "+60321441077",
     "website": "https://fukuya.com.my/",
     "description": "Jalan Delimaにある本格日本料理レストラン。新鮮な食材を使った寿司・刺身・天ぷら・鉄板焼き・懐石料理を提供。日本人シェフが腕を振るう本格和食が楽しめる。",
-    "tags": ["日本料理", "懐石", "寿司", "高級"],
+    "tags": [
+      "日本料理",
+      "懐石",
+      "寿司",
+      "高級"
+    ],
     "hours": "要確認",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -569,7 +574,12 @@
     "phone": "+60321810211",
     "website": "https://sakana.my/",
     "description": "Suria KLCCにあるカジュアルジャパニーズダイニング。新鮮な食材とハラル認証のみりん・酢を使用。寿司・刺身・丼物・焼き物を提供。テラス席とエアコン席あり。",
-    "tags": ["日本料理", "カジュアル", "ハラル対応", "KLCC"],
+    "tags": [
+      "日本料理",
+      "カジュアル",
+      "ハラル対応",
+      "KLCC"
+    ],
     "hours": "毎日 10:00-23:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -584,7 +594,12 @@
     "phone": null,
     "website": "https://kualalumpur.intercontinental.com/dining/tatsu-japanese-cuisine",
     "description": "インターコンチネンタルKL内の高級日本料理レストラン。おまかせコース・鉄板焼き・寿司を提供。洗練された和のインテリアで接待や特別な日のディナーに最適。",
-    "tags": ["高級", "おまかせ", "鉄板焼き", "ホテルレストラン"],
+    "tags": [
+      "高級",
+      "おまかせ",
+      "鉄板焼き",
+      "ホテルレストラン"
+    ],
     "hours": "要確認",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -599,7 +614,12 @@
     "phone": null,
     "website": null,
     "description": "東京出身の大塚賢司シェフが率いるおまかせ寿司レストラン。丁寧に仕込まれた江戸前寿司をカウンターで提供。マルチコースのおまかせが評判。",
-    "tags": ["おまかせ", "寿司", "高級", "予約推奨"],
+    "tags": [
+      "おまかせ",
+      "寿司",
+      "高級",
+      "予約推奨"
+    ],
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -614,10 +634,303 @@
     "phone": null,
     "website": null,
     "description": "Imperial Lexis KLの52階に位置する日本料理レストラン。KLのスカイラインを一望しながら、本格的な和食コース・寿司・天ぷら・刺身が楽しめる。",
-    "tags": ["日本料理", "高層レストラン", "眺望", "高級"],
+    "tags": [
+      "日本料理",
+      "高層レストラン",
+      "眺望",
+      "高級"
+    ],
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "google_maps"
+  },
+  {
+    "slug": "coco-ichibanya-pavilion-kl",
+    "name": "CoCo Ichibanya (Pavilion KL)",
+    "name_ja": "CoCo壱番屋 パビリオンKL店",
+    "area": "Bukit Bintang",
+    "address": "Lot 1.52.00, Level 1, Pavilion Kuala Lumpur, 168 Jalan Bukit Bintang, 55100 Kuala Lumpur",
+    "phone": null,
+    "website": "https://www.ichibanya.co.jp/english/",
+    "description": "日本最大のカレーチェーン・CoCo壱番屋のパビリオンKL店。辛さ・ご飯の量・トッピングを自由にカスタマイズ可能。",
+    "tags": [
+      "カレー",
+      "カジュアル",
+      "カスタマイズ可"
+    ],
+    "hours": "毎日 10:00-22:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "genki-sushi-suria-klcc",
+    "name": "Genki Sushi (Suria KLCC)",
+    "name_ja": "元気寿司 スリアKLCC店",
+    "area": "KLCC",
+    "address": "Suria KLCC, Kuala Lumpur",
+    "phone": null,
+    "website": "https://www.genkisushi.com.my/",
+    "description": "新幹線型の高速レーンで寿司が届く回転寿司チェーン。手頃な価格で新鮮な寿司が楽しめる。Sunway Pyramid・Lot 10にも出店。",
+    "tags": [
+      "回転寿司",
+      "カジュアル",
+      "複数店舗"
+    ],
+    "hours": "毎日 10:00-22:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "kampai-klcc",
+    "name": "Kampai KLCC",
+    "name_ja": "乾杯 KLCC",
+    "area": "KLCC",
+    "address": "ISETAN The Japan Store, Lot 10, Kuala Lumpur",
+    "phone": null,
+    "website": "https://www.kampaiklcc.com/",
+    "description": "マレーシア初の鉄板焼きおまかせを提供する日本料理レストラン。A5宮崎和牛と北海道直送の食材を使用。鉄板焼き・焼肉・寿司の3種類のおまかせコースを提供。",
+    "tags": [
+      "鉄板焼き",
+      "おまかせ",
+      "A5和牛",
+      "高級"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "gyutaro-yakiniku-kl",
+    "name": "Gyutaro Yakiniku",
+    "name_ja": "牛太郎焼肉",
+    "area": "Bukit Bintang",
+    "address": "Bukit Bintang, Kuala Lumpur",
+    "phone": null,
+    "website": "https://www.gyutaroyakiniku.com/",
+    "description": "近江姫・飛騨七里・宮崎の3大和牛ブランドを厳選した焼肉専門店。モダンなスタイルで最高品質の和牛を提供。",
+    "tags": [
+      "焼肉",
+      "和牛",
+      "高級",
+      "モダン"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "mo-mo-paradise-kl",
+    "name": "Mo-Mo Paradise",
+    "name_ja": "もーもーパラダイス",
+    "area": "Bukit Bintang",
+    "address": "Pavilion KL, 168 Jalan Bukit Bintang, 55100 Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "しゃぶしゃぶ・すき焼きの食べ放題チェーン。100分の時間制限で新鮮な肉・野菜・うどんをセルフサービスで楽しめる。",
+    "tags": [
+      "しゃぶしゃぶ",
+      "すき焼き",
+      "食べ放題",
+      "チェーン"
+    ],
+    "hours": "毎日 11:00-22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "seirock-ya-ramen-uptown",
+    "name": "Seirock-Ya Ramen (Uptown)",
+    "name_ja": "せいろくや ラーメン アップタウン店",
+    "area": "Damansara Uptown",
+    "address": "Damansara Uptown, Petaling Jaya, Selangor",
+    "phone": null,
+    "website": "https://www.seirock-ya.com.my/",
+    "description": "東京・池袋発のラーメン店のマレーシア第1号店。濃厚豚骨ラーメンが看板メニュー。Nu Sentral店もあり。",
+    "tags": [
+      "ラーメン",
+      "豚骨",
+      "カジュアル"
+    ],
+    "hours": "毎日 11:00-22:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "maruki-ramen-linc-kl",
+    "name": "Maruki Ramen (The LINC KL)",
+    "name_ja": "丸鬼ラーメン ザ・リンクKL店",
+    "area": "KLCC",
+    "address": "The LINC KL, Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "KLで人気のラーメン店。The LINC KL・The Grange @Ampwalkに店舗を展開。濃厚なスープと本格的な日本のラーメンが楽しめる。",
+    "tags": [
+      "ラーメン",
+      "カジュアル"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "menya-hanabi-sri-petaling",
+    "name": "Menya Hanabi",
+    "name_ja": "麺屋花火",
+    "area": "Sri Petaling",
+    "address": "No 16, Jalan Radin Bagus 6, Sri Petaling, 57000 Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "名古屋発の台湾まぜそば専門店のマレーシア店。Sri Petaling・Kota Kemuning・Desa Park Cityの3店舗を展開。濃厚な台湾まぜそばが看板メニュー。",
+    "tags": [
+      "台湾まぜそば",
+      "ラーメン",
+      "複数店舗"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "mitsuyado-seimen-pavilion",
+    "name": "Mitsuyado Seimen",
+    "name_ja": "三ツ矢堂製麺",
+    "area": "Bukit Bintang",
+    "address": "Pavilion KL, 168 Jalan Bukit Bintang, 55100 Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "つけ麺をメインに提供する日本のラーメンチェーン。Pavilion KL・Jaya Shopping Centre・MyTownに出店。濃厚な魚介豚骨スープのつけ麺が人気。",
+    "tags": [
+      "つけ麺",
+      "ラーメン",
+      "複数店舗"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "kagura-tokyo-chicken-ramen",
+    "name": "Kagura Tokyo Chicken Ramen",
+    "name_ja": "神楽東京チキンラーメン",
+    "area": "Bukit Bintang",
+    "address": "Lot 10, Unit P1-20 Level 4 J's Gate Dining, Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "Lot 10のJ's Gate Dining内にある鶏白湯ラーメン専門店。東京発の濃厚鶏白湯スープが特徴。",
+    "tags": [
+      "ラーメン",
+      "鶏白湯",
+      "カジュアル"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "kodawari-menya-mont-kiara",
+    "name": "Kodawari Menya",
+    "name_ja": "こだわり麺屋",
+    "area": "Mont Kiara",
+    "address": "L1-21A, 1 Mont Kiara, Jalan Kiara, Mont Kiara, 50480 Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "モントキアラの1 Mont Kiaraモール内にあるラーメン店。こだわりの製麺とスープで本格的な日本のラーメンを提供。",
+    "tags": [
+      "ラーメン",
+      "カジュアル"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "marutama-ramen-fahrenheit88",
+    "name": "Marutama Ramen (Fahrenheit88)",
+    "name_ja": "まる玉ラーメン ファーレンハイト88店",
+    "area": "Bukit Bintang",
+    "address": "Fahrenheit88, 179 Jalan Bukit Bintang, 55100 Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "シンガポール発の鶏白湯ラーメン店のKL店。クリーミーな鶏白湯スープが看板メニュー。Fahrenheit88内で本格ラーメンが楽しめる。",
+    "tags": [
+      "ラーメン",
+      "鶏白湯",
+      "カジュアル"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "the-tokyo-restaurant-isetan",
+    "name": "The Tokyo Restaurant",
+    "name_ja": "ザ・トーキョー・レストラン",
+    "area": "Bukit Bintang",
+    "address": "Level 4, ISETAN The Japan Store, Lot 10, 50 Jalan Sultan Ismail, 50250 Kuala Lumpur",
+    "phone": null,
+    "website": "https://isetankl.com.my/pages/the-tokyo-restaurant",
+    "description": "ISETAN The Japan Store 4階にある日本料理レストラン。鮨・天ぷら・焼き物・定食など幅広い和食メニューを提供。日本人シェフが監修。",
+    "tags": [
+      "日本料理",
+      "定食",
+      "寿司",
+      "天ぷら"
+    ],
+    "hours": "毎日 11:00-22:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "bankara-ramen-tropicana",
+    "name": "Bankara Ramen (Tropicana Gardens)",
+    "name_ja": "ばんから トロピカーナガーデンズ店",
+    "area": "Tropicana",
+    "address": "Tropicana Gardens Mall, Kota Damansara, Selangor",
+    "phone": null,
+    "website": "http://www.bankaramalaysia.com/",
+    "description": "東京・池袋発の濃厚豚骨ラーメンチェーン・ばんからのトロピカーナガーデンズ店。Avenue K・Mid Valleyに続く3店舗目。",
+    "tags": [
+      "ラーメン",
+      "豚骨",
+      "カジュアル"
+    ],
+    "hours": "毎日 11:00-22:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "yakiniku-tenshin-kl",
+    "name": "Yakiniku Tenshin",
+    "name_ja": "焼肉天神",
+    "area": "Bukit Bintang",
+    "address": "Bukit Bintang, Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "A5和牛のおまかせ焼肉レストラン。TenビュッフェRM298++・ShinビュッフェRM478++の2コース。ホタテ鉄板焼きやキングプラウンチーズ焼きなど豪華メニュー。",
+    "tags": [
+      "焼肉",
+      "A5和牛",
+      "ビュッフェ",
+      "高級"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]
