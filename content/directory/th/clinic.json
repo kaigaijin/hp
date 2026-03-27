@@ -279,7 +279,12 @@
     "phone": null,
     "website": "https://blez-clinic.com/",
     "description": "ブレズグループが2015年からアソークで運営する内科クリニック。日本人スタッフが常駐し、健康診断・メディカルチェック・STI検査・各種証明書発行に対応。薬局併設でワンストップ。",
-    "tags": ["日本語対応", "日本人スタッフ", "健康診断", "薬局併設"],
+    "tags": [
+      "日本語対応",
+      "日本人スタッフ",
+      "健康診断",
+      "薬局併設"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "website",
@@ -294,7 +299,11 @@
     "phone": null,
     "website": "https://blez-clinic.com/",
     "description": "ブレズグループのプロンポン院。内科一般・健康診断・メディカルチェックに対応。日本語でのカウンセリングが可能で、フジスーパー近くの便利な立地。",
-    "tags": ["日本語対応", "内科", "健康診断"],
+    "tags": [
+      "日本語対応",
+      "内科",
+      "健康診断"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "website",
@@ -309,7 +318,12 @@
     "phone": "+6623103257",
     "website": "https://www.bangkokhospital.com/ja/center-clinic/international-medical-service/japanese-medical-services/overview",
     "description": "バンコク病院内のW棟2階にある日本人専門クリニック（JMS）。1977年設立で48年の歴史。毎日7:00-16:00で一般内科診療を実施。日本語メールでの問い合わせにも対応。",
-    "tags": ["日本語対応", "日本人専門", "内科", "歴史あり"],
+    "tags": [
+      "日本語対応",
+      "日本人専門",
+      "内科",
+      "歴史あり"
+    ],
     "hours": "毎日 7:00-16:00",
     "status": "unverified",
     "source": "website",
@@ -324,7 +338,11 @@
     "phone": null,
     "website": "https://bibi-beauty.com/",
     "description": "日本人患者向けの設備と環境を備えた美容皮膚科クリニック。日本語対応スタッフが在籍し、レーザー治療・ボトックス・ヒアルロン酸注入・スキンケアなど幅広い美容皮膚科メニューを提供。",
-    "tags": ["日本語対応", "美容皮膚科", "レーザー治療"],
+    "tags": [
+      "日本語対応",
+      "美容皮膚科",
+      "レーザー治療"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "website",
@@ -339,7 +357,11 @@
     "phone": null,
     "website": "https://jennyfocus.com/",
     "description": "2023年オープンの医療脱毛クリニック。医療ダイオードレーザーを使用し、濃い毛から細い毛まで幅広い毛質・肌質に対応。日本語ができるタイ人スタッフが在籍。まつげエクステも提供。",
-    "tags": ["日本語対応", "医療脱毛", "レーザー"],
+    "tags": [
+      "日本語対応",
+      "医療脱毛",
+      "レーザー"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "website",
@@ -354,10 +376,111 @@
     "phone": null,
     "website": null,
     "description": "日本の医療水準を提供する総合クリニック。内科・皮膚科・アレルギー科の診療に対応。日本人医師による診察が受けられ、日本語でのカウンセリングが可能。健康診断にも対応。",
-    "tags": ["日本語対応", "日本人医師", "内科", "健康診断"],
+    "tags": [
+      "日本語対応",
+      "日本人医師",
+      "内科",
+      "健康診断"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "jgreen-clinic-thonglor",
+    "name": "J-GREEN Clinic Thonglor",
+    "name_ja": "Jグリーンクリニック トンロー",
+    "area": "Thonglor",
+    "address": "Soi Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "日本語で受診可能な内科クリニックのトンロー院。風邪、胃腸炎、アレルギーなど日常的な体調不良に対応。予約制で待ち時間が少ない。",
+    "tags": [
+      "日本語対応",
+      "内科",
+      "予約制"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "doctor-a-clinic-bangkok",
+    "name": "Doctor A Health Clinic",
+    "name_ja": "ドクターAヘルスクリニック",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "スクンビットエリアにある日本語対応のクリニック。一般内科の診療に加えて、健康診断やワクチン接種にも対応。日本人スタッフが予約から受付まで日本語でサポート。",
+    "tags": [
+      "日本語対応",
+      "内科",
+      "健康診断",
+      "ワクチン"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "samitivej-srinakarin-hospital",
+    "name": "Samitivej Srinakarin Hospital",
+    "name_ja": "サミティヴェート病院 シーナカリン",
+    "area": "Srinakarin",
+    "address": "488 Srinakarin Road, Suanluang, Bangkok 10250",
+    "phone": "+6620222222",
+    "website": "https://samitivej-jp.com/srinakarin/",
+    "description": "サミティヴェートグループのシーナカリン分院。日本語通訳サービスがあり、バンコク東部・南部の日本人居住者の医療ニーズに対応。内科から専門科まで幅広い診療科目を設置。",
+    "tags": [
+      "日本語対応",
+      "総合病院",
+      "日本語通訳"
+    ],
+    "hours": "24時間",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "blez-clinic-thonglor",
+    "name": "BLEZ Clinic Thonglor",
+    "name_ja": "ブレズクリニック トンロー",
+    "area": "Thonglor",
+    "address": "RQ49 Mall 4F, Soi Sukhumvit 49, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": "https://blez-clinic.com/",
+    "description": "ブレズグループのトンロー院。RQ49モール4階に位置し、DYMインターナショナルクリニックのトンロー分院としても機能。日本人スタッフ常駐で日本語対応。",
+    "tags": [
+      "日本語対応",
+      "日本人スタッフ",
+      "内科"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "kluay-nam-thai-hospital",
+    "name": "Kluaynamthai Hospital",
+    "name_ja": "クルアイナムタイ病院",
+    "area": "Sukhumvit",
+    "address": "44 Soi Sukhumvit 8, Khlong Toei, Bangkok 10110",
+    "phone": "+6623921111",
+    "website": null,
+    "description": "スクンビットソイ8近くにある総合病院。日本語通訳サービスを設け、日本人患者の受け入れ体制を整備。費用がバムルンラードやサミティヴェートより安めで、日本人利用者も増えている。",
+    "tags": [
+      "日本語対応",
+      "総合病院",
+      "リーズナブル"
+    ],
+    "hours": "24時間",
+    "status": "unverified",
+    "source": "website",
     "last_verified": "2026-03-27"
   }
 ]

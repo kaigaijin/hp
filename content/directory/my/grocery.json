@@ -369,7 +369,11 @@
     "phone": null,
     "website": "https://shojikiya.com.my/",
     "description": "日本食品専門店・正直屋のMid Valley Megamall店。1,000種類以上の日本直輸入商品を販売。KL南部の在住者に便利。",
-    "tags": ["日本食品", "お菓子", "調味料"],
+    "tags": [
+      "日本食品",
+      "お菓子",
+      "調味料"
+    ],
     "hours": "10:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -384,10 +388,211 @@
     "phone": null,
     "website": "https://www.dondondonki.com/my/",
     "description": "ドンキの1 Utama店。日本直輸入のお菓子・食品・飲料・日用品・コスメを販売。PJ・ダマンサラエリアの在住者に便利。",
-    "tags": ["日本食品", "お菓子", "コスメ", "日用品"],
+    "tags": [
+      "日本食品",
+      "お菓子",
+      "コスメ",
+      "日用品"
+    ],
     "hours": "10:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "don-don-donki-sunway-velocity",
+    "name": "Jonetz by Don Don Donki Sunway Velocity",
+    "name_ja": "ドン・ドン・ドンキ サンウェイベロシティ店",
+    "area": "Cheras",
+    "address": "Sunway Velocity Mall, Jalan Peel, 55100 Kuala Lumpur",
+    "phone": null,
+    "website": "https://www.dondondonki.com/my/",
+    "description": "Sunway Velocity Mall内のドンキ。日本の食品・菓子・化粧品・日用品を販売。チェラスエリアの日本人在住者に便利。",
+    "tags": [
+      "日本食品",
+      "お菓子",
+      "コスメ",
+      "日用品"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "don-don-donki-nu-sentral",
+    "name": "Jonetz by Don Don Donki NU Sentral",
+    "name_ja": "ドン・ドン・ドンキ NUセントラル店",
+    "area": "KL Sentral",
+    "address": "NU Sentral, 201 Jalan Tun Sambanthan, 50470 Kuala Lumpur",
+    "phone": null,
+    "website": "https://www.dondondonki.com/my/",
+    "description": "KLセントラル駅直結のNU Sentral内のドンキ。交通の要所にあり、通勤途中の買い物に便利。日本の食品・菓子・日用品が揃う。",
+    "tags": [
+      "日本食品",
+      "駅直結",
+      "日用品"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "shojikiya-1-utama",
+    "name": "Shojikiya 1 Utama",
+    "name_ja": "正直屋 1ウタマ店",
+    "area": "Petaling Jaya",
+    "address": "1 Utama Shopping Centre, 47800 Petaling Jaya, Selangor",
+    "phone": null,
+    "website": null,
+    "description": "マレーシア最大の日本食品専門チェーン「正直屋」の1ウタマ店。1000以上の日本直輸入食品を取り揃え、調味料・菓子・ベビーフードまで幅広い品揃え。",
+    "tags": [
+      "日本食品",
+      "調味料",
+      "お菓子",
+      "チェーン"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "shojikiya-bangsar",
+    "name": "Shojikiya Bangsar Village",
+    "name_ja": "正直屋 バンサーヴィレッジ店",
+    "area": "Bangsar",
+    "address": "Bangsar Village, Jalan Telawi 1, Bangsar, 59100 Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "日本食品専門チェーン「正直屋」のバンサー店。バンサーエリアの日本人在住者に便利。調理調味料から菓子まで日本食品が充実。",
+    "tags": [
+      "日本食品",
+      "調味料",
+      "バンサー"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "isetan-klcc",
+    "name": "Isetan KLCC",
+    "name_ja": "伊勢丹 KLCC",
+    "area": "KLCC",
+    "address": "Suria KLCC, 50450 Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "KLCC・スリアKLCC内の伊勢丹。地下の食品フロアで日本食材・弁当・総菜が手に入る。KL中心部で日本食品を調達できる便利な選択肢。",
+    "tags": [
+      "百貨店",
+      "日本食材",
+      "弁当",
+      "KLCC"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "aeon-maxvalu-desa-park-city",
+    "name": "AEON MaxValu Desa Park City",
+    "name_ja": "イオンマックスバリュ デサパークシティ",
+    "area": "Desa Park City",
+    "address": "Desa Park City, Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "イオングループのスーパーマーケット。日本品質の品質管理で生鮮食品が新鮮。日本の食品・弁当・惣菜も取り扱い。",
+    "tags": [
+      "日本食材",
+      "イオングループ",
+      "スーパーマーケット"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "daiso-japan-kl",
+    "name": "Daiso Japan KL",
+    "name_ja": "ダイソー KL",
+    "area": "Kuala Lumpur",
+    "address": "Kuala Lumpur（市内に複数店舗）",
+    "phone": null,
+    "website": null,
+    "description": "日本の100円ショップ「ダイソー」のマレーシア展開。RM5.90均一で、日本製の日用品・キッチン用品・文房具・化粧品小物が手に入る。KL市内に多数店舗展開。",
+    "tags": [
+      "日用品",
+      "均一価格",
+      "日本ブランド",
+      "チェーン"
+    ],
+    "hours": "店舗により異なる",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "matsumoto-kiyoshi-pavilion-kl",
+    "name": "Matsumoto Kiyoshi Pavilion KL",
+    "name_ja": "マツモトキヨシ パビリオンKL",
+    "area": "Bukit Bintang",
+    "address": "Pavilion Kuala Lumpur, 168, Jalan Bukit Bintang, 55100 Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "日本最大手のドラッグストア「マツモトキヨシ」のパビリオンKL店。日本直輸入の化粧品・スキンケア・日用品・ヘルスケア商品を取り揃え。",
+    "tags": [
+      "ドラッグストア",
+      "日本ブランド",
+      "化粧品",
+      "日用品"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "shojikiya-sunway-pyramid",
+    "name": "Shojikiya Sunway Pyramid",
+    "name_ja": "正直屋 サンウェイピラミッド店",
+    "area": "Subang Jaya",
+    "address": "Sunway Pyramid, 3 Jalan PJS 11/15, Bandar Sunway, 47500 Subang Jaya, Selangor",
+    "phone": null,
+    "website": null,
+    "description": "日本食品専門チェーン「正直屋」のサンウェイピラミッド店。スバンジャヤ・サンウェイエリアの日本人在住者に便利な立地。",
+    "tags": [
+      "日本食品",
+      "調味料",
+      "お菓子",
+      "チェーン"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "don-don-donki-ioi-city-mall",
+    "name": "Jonetz by Don Don Donki IOI City Mall",
+    "name_ja": "ドン・ドン・ドンキ IOIシティモール店",
+    "area": "Putrajaya",
+    "address": "IOI City Mall, Lebuh IRC, IOI Resort City, 62502 Putrajaya",
+    "phone": null,
+    "website": "https://www.dondondonki.com/my/",
+    "description": "プトラジャヤのIOI City Mall内のドンキ。日本の食品・菓子・化粧品・日用品を販売。KL南部・プトラジャヤの日本人在住者に便利。",
+    "tags": [
+      "日本食品",
+      "お菓子",
+      "日用品"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

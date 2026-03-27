@@ -108,7 +108,13 @@
     "phone": null,
     "website": "https://www.tmi.gr.jp/english/global/malaysia.html",
     "description": "日本の大手法律事務所TMI総合法律事務所のマレーシアデスク。日本企業のマレーシア進出・M&A・企業法務・知的財産・紛争解決などをサポート。現地法律事務所との連携で包括的な法的支援を提供。",
-    "tags": ["日本語対応", "法律事務所", "企業法務", "M&A", "日系"],
+    "tags": [
+      "日本語対応",
+      "法律事務所",
+      "企業法務",
+      "M&A",
+      "日系"
+    ],
     "hours": "月-金 9:00-18:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -123,7 +129,13 @@
     "phone": null,
     "website": "https://www.nishimura.com/en/offices",
     "description": "日本最大級の法律事務所・西村あさひの東南アジアプラクティス。マレーシアの提携先事務所を通じて、日本企業のM&A・プロジェクトファイナンス・規制対応などをサポート。",
-    "tags": ["日本語対応", "法律事務所", "M&A", "プロジェクトファイナンス", "日系"],
+    "tags": [
+      "日本語対応",
+      "法律事務所",
+      "M&A",
+      "プロジェクトファイナンス",
+      "日系"
+    ],
     "hours": "月-金 9:00-18:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -138,7 +150,13 @@
     "phone": null,
     "website": "https://www.amt-law.com/en/",
     "description": "日本の四大法律事務所の一つ。東南アジアの提携先事務所を通じて、日本企業のマレーシアでのM&A・合弁事業・規制対応・紛争解決などをサポート。日本語で一貫した法的支援を提供。",
-    "tags": ["日本語対応", "法律事務所", "M&A", "企業法務", "日系"],
+    "tags": [
+      "日本語対応",
+      "法律事務所",
+      "M&A",
+      "企業法務",
+      "日系"
+    ],
     "hours": "月-金 9:00-18:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -153,7 +171,13 @@
     "phone": null,
     "website": "https://www.noandt.com/en/",
     "description": "日本最大級の法律事務所の一つ。東南アジアの提携先事務所を通じて、日本企業のマレーシアでの事業展開・M&A・ファイナンス・知的財産などを日本語でサポート。",
-    "tags": ["日本語対応", "法律事務所", "M&A", "ファイナンス", "日系"],
+    "tags": [
+      "日本語対応",
+      "法律事務所",
+      "M&A",
+      "ファイナンス",
+      "日系"
+    ],
     "hours": "月-金 9:00-18:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -168,7 +192,13 @@
     "phone": null,
     "website": "https://www.mhmjapan.com/en/",
     "description": "日本の五大法律事務所の一つ。東南アジアの提携先事務所を通じて、日本企業のマレーシアでのM&A・合弁事業・規制対応・紛争解決などを日本語でサポート。",
-    "tags": ["日本語対応", "法律事務所", "M&A", "企業法務", "日系"],
+    "tags": [
+      "日本語対応",
+      "法律事務所",
+      "M&A",
+      "企業法務",
+      "日系"
+    ],
     "hours": "月-金 9:00-18:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -183,7 +213,13 @@
     "phone": "+60321148000",
     "website": "https://www.christopherleeong.com/",
     "description": "ASEAN最大級の法律ネットワーク・ラジャ＆タン アジアのマレーシアメンバーファーム。企業法務・M&A・不動産・知的財産・紛争解決に対応。日本企業のマレーシア進出支援実績あり。",
-    "tags": ["法律事務所", "企業法務", "M&A", "不動産", "ASEAN対応"],
+    "tags": [
+      "法律事務所",
+      "企業法務",
+      "M&A",
+      "不動産",
+      "ASEAN対応"
+    ],
     "hours": "月-金 9:00-18:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -198,10 +234,76 @@
     "phone": "+60322881515",
     "website": "https://www.skrine.com/",
     "description": "マレーシアの老舗大手法律事務所。企業法務・M&A・銀行・金融・不動産・知的財産・訴訟に対応。日本企業のマレーシアでの事業展開サポートに豊富な実績を持つ。",
-    "tags": ["法律事務所", "企業法務", "M&A", "金融", "知的財産"],
+    "tags": [
+      "法律事務所",
+      "企業法務",
+      "M&A",
+      "金融",
+      "知的財産"
+    ],
     "hours": "月-金 9:00-18:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "baker-mckenzie-wong-leow",
+    "name": "Baker McKenzie Wong & Leow",
+    "name_ja": "ベーカーマッケンジー ウォン&リョウ",
+    "area": "Kuala Lumpur",
+    "address": "Level 21, The Gardens South Tower, Mid Valley City, Lingkaran Syed Putra, 59200 Kuala Lumpur",
+    "phone": null,
+    "website": "https://www.bakermckenzie.com/en/locations/asia-pacific/malaysia",
+    "description": "国際法律事務所Baker McKenzieのマレーシアメンバーファーム。M&A・企業法務・知的財産・労務・紛争解決など幅広い法務をサポート。日系企業の利用実績が豊富。",
+    "tags": [
+      "国際法律事務所",
+      "M&A",
+      "企業法務",
+      "知的財産"
+    ],
+    "hours": "月-金 9:00-18:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "azmi-associates",
+    "name": "Azmi & Associates",
+    "name_ja": "アズミ＆アソシエイツ",
+    "area": "Kuala Lumpur",
+    "address": "14th Floor, Menara Keck Seng, 203 Jalan Bukit Bintang, 55100 Kuala Lumpur",
+    "phone": null,
+    "website": "https://www.azmilaw.com/",
+    "description": "KLの法律事務所。日本企業のマレーシア進出支援に実績があり、会社法・労働法・知的財産・不動産取引などを幅広くカバー。",
+    "tags": [
+      "法律事務所",
+      "企業法務",
+      "不動産",
+      "労働法"
+    ],
+    "hours": "月-金 9:00-18:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "christopher-lee-ong",
+    "name": "Christopher & Lee Ong (a member firm of Rajah & Tann Asia)",
+    "name_ja": "クリストファー＆リーオン",
+    "area": "Kuala Lumpur",
+    "address": "Level 22, Axiata Tower, 9 Jalan Stesen Sentral 5, 50470 Kuala Lumpur",
+    "phone": null,
+    "website": "https://www.christopherleeong.com/",
+    "description": "Rajah & Tann Asiaのマレーシアメンバーファーム。ASEAN全域対応のネットワークを活かし、M&A・企業法務・紛争解決・知的財産を提供。日系企業の利用実績あり。",
+    "tags": [
+      "法律事務所",
+      "ASEAN対応",
+      "M&A",
+      "企業法務"
+    ],
+    "hours": "月-金 9:00-18:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
   }
 ]

@@ -348,7 +348,12 @@
     "phone": "+60320112828",
     "website": "https://www.facebook.com/aizuhairstyle/",
     "description": "日本国外初出店の日系ヘアサロン。各スタイリストが日本で研修を受けてから勤務しており、日本のトレンドを取り入れたカット・カラー・パーマを提供。",
-    "tags": ["日本人スタイリスト", "カット", "カラー", "パーマ"],
+    "tags": [
+      "日本人スタイリスト",
+      "カット",
+      "カラー",
+      "パーマ"
+    ],
     "hours": "月-土 10:00-20:00, 日 10:00-19:30",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -363,7 +368,12 @@
     "phone": "+60377337888",
     "website": "https://www.facebook.com/aizuhairstyle/",
     "description": "アイズヘアスタイルのPJ店。日本で研修を受けたスタイリストが在籍。Damansara・PJエリアの日本人在住者に便利な立地。",
-    "tags": ["日本人スタイリスト", "カット", "カラー", "パーマ"],
+    "tags": [
+      "日本人スタイリスト",
+      "カット",
+      "カラー",
+      "パーマ"
+    ],
     "hours": "月-土 10:00-20:00, 日 10:00-19:30",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -378,10 +388,213 @@
     "phone": null,
     "website": "https://www.mirokuhairsalon.com/",
     "description": "日本人スタイリストが在籍するミロクヘアサロンのチェラス店。バンサー店に続く2店舗目。カット・カラー・縮毛矯正・パーマなど日本のトレンドを反映した施術を提供。",
-    "tags": ["日本人スタイリスト", "カット", "カラー", "縮毛矯正"],
+    "tags": [
+      "日本人スタイリスト",
+      "カット",
+      "カラー",
+      "縮毛矯正"
+    ],
     "hours": "月-土 10:30-20:30, 日 10:30-19:30",
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "number76-mid-valley",
+    "name": "Number76 Hair Salon Mid Valley",
+    "name_ja": "ナンバー76 ミッドバレー店",
+    "area": "Mid Valley",
+    "address": "Mid Valley Megamall, Lingkaran Syed Putra, Mid Valley City, 59200 Kuala Lumpur",
+    "phone": null,
+    "website": "https://malaysia.number76.com/",
+    "description": "日系ヘアサロンNumber76のミッドバレー店。日本人スタイリストが在籍し、日本のトレンドを取り入れたカット・カラー・パーマを提供。",
+    "tags": [
+      "日本人スタイリスト",
+      "カット",
+      "カラー",
+      "予約可"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "number76-bukit-bintang",
+    "name": "Number76 Hair Salon Bukit Bintang",
+    "name_ja": "ナンバー76 ブキビンタン店",
+    "area": "Bukit Bintang",
+    "address": "Bukit Bintang, Kuala Lumpur",
+    "phone": null,
+    "website": "https://malaysia.number76.com/",
+    "description": "日系ヘアサロンNumber76のブキビンタン店。KL中心部でアクセス良好。日本人スタイリストによるカット・カラー・トリートメントを提供。",
+    "tags": [
+      "日本人スタイリスト",
+      "カット",
+      "カラー",
+      "予約可",
+      "駅近"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "number76-johor-bahru",
+    "name": "Number76 Hair Salon Johor Bahru",
+    "name_ja": "ナンバー76 ジョホールバル店",
+    "area": "Johor Bahru",
+    "address": "Johor Bahru, Johor",
+    "phone": null,
+    "website": "https://malaysia.number76.com/",
+    "description": "日系ヘアサロンNumber76のジョホールバル店。シンガポールからも近く、日本品質のヘアサービスをJBで受けられる。",
+    "tags": [
+      "日本人スタイリスト",
+      "カット",
+      "カラー",
+      "予約可"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "aizu-hair-style-mid-valley",
+    "name": "Aizu Hair Style Mid Valley",
+    "name_ja": "会津ヘアスタイル ミッドバレー店",
+    "area": "Mid Valley",
+    "address": "Mid Valley Megamall, Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "日本人スタイリストが在籍する日系ヘアサロンのミッドバレー店。パーマ・カラー・ヘアケアに定評がある。",
+    "tags": [
+      "日本人スタイリスト",
+      "パーマ",
+      "カラー",
+      "予約可"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "aube-international-mid-valley",
+    "name": "Aube International Mid Valley",
+    "name_ja": "オーブ インターナショナル ミッドバレー店",
+    "area": "Mid Valley",
+    "address": "Mid Valley Megamall, Kuala Lumpur",
+    "phone": null,
+    "website": "https://aube-my.com/",
+    "description": "日本国内250店舗以上を展開する大手日系ヘアサロンのミッドバレー店。最新の機器とトリートメント技術で高品質な施術を提供。",
+    "tags": [
+      "日本人スタイリスト",
+      "大手チェーン",
+      "トリートメント",
+      "予約可"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "miroku-hair-salon-pj",
+    "name": "Miroku Hair Salon PJ",
+    "name_ja": "みろく ヘアサロン PJ",
+    "area": "Petaling Jaya",
+    "address": "Petaling Jaya, Selangor",
+    "phone": null,
+    "website": "https://www.mirokuhairsalon.com/",
+    "description": "受賞歴のある日系ヘアサロンのPJ店。ヘアカット・カラー・スカルプトリートメント・ヘアタトゥーなど幅広いサービスを提供。",
+    "tags": [
+      "日本人スタイリスト",
+      "カラー",
+      "スカルプケア",
+      "受賞歴"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "wave-salon-penang",
+    "name": "Wave Salon Penang",
+    "name_ja": "ウェーブサロン ペナン",
+    "area": "Penang",
+    "address": "Karpal Singh Drive, Penang",
+    "phone": null,
+    "website": null,
+    "description": "ペナンにあるウェーブパーム技術に定評のあるヘアサロン。ナチュラルで流れるようなヘアスタイルが得意。",
+    "tags": [
+      "パーマ",
+      "ウェーブ",
+      "ペナン"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "nine-percent-jb",
+    "name": "Nine Percent JB",
+    "name_ja": "ナインパーセント JB",
+    "area": "Johor Bahru",
+    "address": "Johor Bahru, Johor",
+    "phone": null,
+    "website": null,
+    "description": "ジョホールバルのトップヘアサロン。パーマとカラーリングに定評があり、髪の健康を重視した施術が特徴。",
+    "tags": [
+      "パーマ",
+      "カラー",
+      "髪質ケア"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "76style-1-utama",
+    "name": "76Style 1 Utama",
+    "name_ja": "76スタイル 1ウタマ店",
+    "area": "Petaling Jaya",
+    "address": "1 Utama Shopping Centre, 47800 Petaling Jaya, Selangor",
+    "phone": null,
+    "website": "https://malaysia.number76.com/",
+    "description": "Number76グループのカジュアルライン「76Style」の1ウタマ店。日本品質のカラーリングをよりリーズナブルな価格で提供。",
+    "tags": [
+      "カラー",
+      "リーズナブル",
+      "Number76系列"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "wasabi-salon-bangsar",
+    "name": "Wasabi Salon Bangsar",
+    "name_ja": "わさびサロン バンサー",
+    "area": "Bangsar",
+    "address": "Bangsar, Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "バンサーにある日系ヘアサロン。日本人スタイリストが在籍し、日本のトレンドスタイルを提供。バンサーエリアの在住者に便利な立地。",
+    "tags": [
+      "日本人スタイリスト",
+      "カット",
+      "カラー",
+      "バンサー"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

@@ -262,7 +262,12 @@
     "phone": "+6620561035",
     "website": "https://aikb35.ac.th/",
     "description": "エムクオーティエ近くに位置するトリリンガル（日本語・英語・タイ語）幼稚園。日本語バイリンガルクラス（英語50%・日本語50%）とインターナショナルプログラムの2コースを提供。ネイティブ教員が各言語を担当。",
-    "tags": ["日本語教育", "英語教育", "トリリンガル", "幼稚園"],
+    "tags": [
+      "日本語教育",
+      "英語教育",
+      "トリリンガル",
+      "幼稚園"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "website",
@@ -277,7 +282,12 @@
     "phone": null,
     "website": null,
     "description": "日本の個別指導塾「ena」のバンコク教室。帰国子女入試・日本の中学受験を目指す小中学生向けに、日本と同じカリキュラムで個別指導を提供。駐在員の子どもの学力維持・受験対策に対応。",
-    "tags": ["学習塾", "個別指導", "帰国子女", "中学受験"],
+    "tags": [
+      "学習塾",
+      "個別指導",
+      "帰国子女",
+      "中学受験"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
@@ -292,7 +302,12 @@
     "phone": null,
     "website": null,
     "description": "バンコク在住の幼児〜小学4年生を対象としたマンツーマンオンラインレッスン。国語と算数の基礎力に特化し、日本語力の維持・向上をサポート。2025年10月から算数レッスンも開始。",
-    "tags": ["日本語教育", "オンライン", "マンツーマン", "幼児〜小学生"],
+    "tags": [
+      "日本語教育",
+      "オンライン",
+      "マンツーマン",
+      "幼児〜小学生"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "website",
@@ -307,7 +322,12 @@
     "phone": null,
     "website": null,
     "description": "日本の進学塾「早稲田アカデミー」のバンコク教室。中学受験・高校受験を目指す小中学生を対象に、日本と同じカリキュラムで指導。帰国子女入試対策にも対応。",
-    "tags": ["学習塾", "中学受験", "高校受験", "帰国子女"],
+    "tags": [
+      "学習塾",
+      "中学受験",
+      "高校受験",
+      "帰国子女"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
@@ -322,7 +342,12 @@
     "phone": null,
     "website": null,
     "description": "バンコク在住の日本人幼児〜小学生向けの日本語教育サービス。日本の学校カリキュラムに沿った国語・算数の学習指導を提供。日本語力の維持・向上をサポート。",
-    "tags": ["日本語教育", "幼児〜小学生", "国語", "算数"],
+    "tags": [
+      "日本語教育",
+      "幼児〜小学生",
+      "国語",
+      "算数"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
@@ -337,10 +362,112 @@
     "phone": null,
     "website": null,
     "description": "泰日経済技術振興協会が運営する語学センター。タイ語・日本語・英語のクラスを提供。バンコク在住の日本人向けにタイ語コースが充実しており、初級者から上級者まで対応。",
-    "tags": ["語学学校", "タイ語", "日本語", "英語"],
+    "tags": [
+      "語学学校",
+      "タイ語",
+      "日本語",
+      "英語"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "four-c-language-school-bangkok",
+    "name": "Four C Language School",
+    "name_ja": "フォーシー語学学校",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "バンコクにある日本人向けタイ語学校。初心者から上級者まで対応し、日本語で文法解説を行うレッスンが特徴。ビザ取得用のEDビザ対応コースもあり。",
+    "tags": [
+      "語学学校",
+      "タイ語",
+      "EDビザ対応"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "yokomine-kindergarten-bangkok",
+    "name": "Yokomine Kindergarten Bangkok",
+    "name_ja": "ヨコミネ式幼稚園 バンコク",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "横峯吉文氏が考案した「ヨコミネ式教育法」を導入した幼稚園。自立心と学力の基礎を育む独自の教育カリキュラムを実施。日本人園児が多く在籍。",
+    "tags": [
+      "幼稚園",
+      "ヨコミネ式",
+      "日本語教育"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "nichinoken-sriracha",
+    "name": "Nichinoken Sriracha",
+    "name_ja": "日能研 シラチャ校",
+    "area": "Sriracha",
+    "address": "Sriracha, Chonburi",
+    "phone": null,
+    "website": null,
+    "description": "日本の中学受験塾「日能研」のシラチャ教室。シラチャの日本人駐在員の子ども向けに、日本と同じカリキュラムで中学受験対策の指導を行う。",
+    "tags": [
+      "学習塾",
+      "中学受験",
+      "帰国子女",
+      "シラチャ"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "flappy-international-preschool",
+    "name": "Flappy International Preschool",
+    "name_ja": "フラッピー インターナショナルプリスクール",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "日本人が運営するインターナショナルプリスクール。英語と日本語のバイリンガル環境で、1歳半から入園可能。少人数制のきめ細かい保育が特徴。",
+    "tags": [
+      "プリスクール",
+      "バイリンガル",
+      "少人数制"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "brain-kids-international-school",
+    "name": "Brain Kids International School",
+    "name_ja": "ブレインキッズ インターナショナルスクール",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "スクンビットエリアにある日英バイリンガルスクール。幼稚園部と小学部を設置し、日本語と英語のバイリンガル教育を実施。日本人家庭の子どもの国際教育に対応。",
+    "tags": [
+      "バイリンガル",
+      "日本語教育",
+      "英語教育",
+      "幼稚園"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
     "last_verified": "2026-03-27"
   }
 ]

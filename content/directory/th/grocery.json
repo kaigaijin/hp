@@ -123,7 +123,11 @@
     "phone": null,
     "website": "https://www.ufmfujisuper.com/",
     "description": "フジスーパーの2号店。ソイ39に位置し、1号店よりも売場面積が広い。日本の食材・調味料・日用品に加え、惣菜・弁当コーナーも充実。日本人居住エリアのど真ん中にある便利な立地。",
-    "tags": ["日本語対応", "日本食材", "惣菜"],
+    "tags": [
+      "日本語対応",
+      "日本食材",
+      "惣菜"
+    ],
     "hours": "8:00-22:00",
     "status": "unverified",
     "source": "website",
@@ -138,7 +142,11 @@
     "phone": null,
     "website": "https://www.ufmfujisuper.com/",
     "description": "フジスーパーの3号店。ソイ39沿いに2号店と近接して立地。生鮮食品の品揃えが良く、日本直送の魚介類や野菜が手に入る。バンコク在住日本人の日常の買い物に欠かせない。",
-    "tags": ["日本語対応", "日本食材", "生鮮食品"],
+    "tags": [
+      "日本語対応",
+      "日本食材",
+      "生鮮食品"
+    ],
     "hours": "8:00-22:00",
     "status": "unverified",
     "source": "website",
@@ -153,7 +161,11 @@
     "phone": null,
     "website": null,
     "description": "Gateway Ekamai内にあるドン・キホーテのタイ店舗。日本の食品・菓子・化粧品・日用品が豊富。BTSエカマイ駅直結でアクセス良好。トンロー店に比べてやや混雑が少ない。",
-    "tags": ["日本食材", "日用品", "駅直結"],
+    "tags": [
+      "日本食材",
+      "日用品",
+      "駅直結"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
@@ -168,7 +180,12 @@
     "phone": null,
     "website": "https://www.siamtakashimaya.co.th/",
     "description": "ICONSIAMに入居する日本の百貨店「高島屋」のタイ1号店。日本食材の品揃えが充実しており、地下食品フロアでは日本の弁当・惣菜・菓子・調味料が手に入る。日本語案内デスクあり。",
-    "tags": ["日本語対応", "百貨店", "日本食材", "高級"],
+    "tags": [
+      "日本語対応",
+      "百貨店",
+      "日本食材",
+      "高級"
+    ],
     "hours": "10:00-22:00",
     "status": "unverified",
     "source": "website",
@@ -183,7 +200,10 @@
     "phone": null,
     "website": null,
     "description": "タイ大手スーパーチェーン「Tops」の一部店舗に設置された日本食品コーナー。マツモトキヨシのミニショップが併設された店舗もあり。フジスーパーが遠い場合の代替として便利。",
-    "tags": ["日本食材", "チェーン"],
+    "tags": [
+      "日本食材",
+      "チェーン"
+    ],
     "hours": "店舗により異なる",
     "status": "unverified",
     "source": "google_maps",
@@ -198,7 +218,12 @@
     "phone": null,
     "website": null,
     "description": "日本のツルハグループのタイ1号店。バンコク都内に14店舗以上を展開。日本製の医薬品・化粧品・日用品が充実。BTSエカマイ駅直結のGateway Ekamai内に位置。",
-    "tags": ["日本ブランド", "ドラッグストア", "日用品", "駅直結"],
+    "tags": [
+      "日本ブランド",
+      "ドラッグストア",
+      "日用品",
+      "駅直結"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "website",
@@ -213,7 +238,11 @@
     "phone": null,
     "website": null,
     "description": "タイの業務用スーパー「Makro」の一部店舗にある日本食品コーナー。業務用サイズの日本食材・調味料・冷凍食品が手に入る。自炊派の日本人に人気。ECサイト「まこーる」で全国配送にも対応。",
-    "tags": ["日本食材", "業務用", "ECサイトあり"],
+    "tags": [
+      "日本食材",
+      "業務用",
+      "ECサイトあり"
+    ],
     "hours": "店舗により異なる",
     "status": "unverified",
     "source": "website",
@@ -228,7 +257,11 @@
     "phone": null,
     "website": null,
     "description": "サイアムパラゴン内にあるドン・キホーテのタイ店舗。日本の食品・菓子・化粧品・日用品が豊富。BTSサイアム駅直結でアクセス良好。観光客にも在住者にも便利な立地。",
-    "tags": ["日本食材", "日用品", "駅直結"],
+    "tags": [
+      "日本食材",
+      "日用品",
+      "駅直結"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
@@ -243,7 +276,12 @@
     "phone": null,
     "website": "https://www.villamarket.com/",
     "description": "タイの輸入食品に強いプレミアムスーパーマーケットチェーン。日本食材・欧米食材が充実し、スクンビット沿いに複数店舗を展開。フジスーパーが遠い場合の代替として便利。ワインのセレクションも豊富。",
-    "tags": ["輸入食材", "日本食材", "プレミアム", "チェーン"],
+    "tags": [
+      "輸入食材",
+      "日本食材",
+      "プレミアム",
+      "チェーン"
+    ],
     "hours": "店舗により異なる",
     "status": "unverified",
     "source": "website",
@@ -258,7 +296,11 @@
     "phone": null,
     "website": "https://www.aeonthailand.co.th/",
     "description": "イオングループが運営するスーパーマーケット。フジスーパー4号店近くに位置し、日本の食品・弁当・惣菜も取り扱い。24時間営業で深夜の買い物にも対応。",
-    "tags": ["日本食材", "24時間営業", "イオングループ"],
+    "tags": [
+      "日本食材",
+      "24時間営業",
+      "イオングループ"
+    ],
     "hours": "24時間",
     "status": "unverified",
     "source": "google_maps",
@@ -273,7 +315,11 @@
     "phone": null,
     "website": null,
     "description": "ドン・キホーテのタイ店舗。CentralPlaza Grand Rama 9内に出店し、日本の食品・菓子・化粧品・日用品が豊富。MRTプラーム9駅直結でラマ9エリアの日本人駐在員に便利。",
-    "tags": ["日本食材", "日用品", "駅直結"],
+    "tags": [
+      "日本食材",
+      "日用品",
+      "駅直結"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
@@ -288,7 +334,11 @@
     "phone": null,
     "website": null,
     "description": "ドン・キホーテのタイ8号店。バンコク東部のファッションアイランド内に出店。日本の食品・菓子・化粧品・日用品が豊富。バンコク東部の日本人居住者に便利。",
-    "tags": ["日本食材", "日用品", "チェーン"],
+    "tags": [
+      "日本食材",
+      "日用品",
+      "チェーン"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "website",
@@ -303,7 +353,12 @@
     "phone": null,
     "website": null,
     "description": "The Mall Groupが運営するプレミアムスーパーマーケット。エンポリアム内に位置し、日本食材を含む輸入食品の品揃えが充実。BTSプロンポン駅直結でアクセス良好。日本人在住者にも利用者が多い。",
-    "tags": ["輸入食材", "日本食材", "プレミアム", "駅直結"],
+    "tags": [
+      "輸入食材",
+      "日本食材",
+      "プレミアム",
+      "駅直結"
+    ],
     "hours": "10:00-22:00",
     "status": "unverified",
     "source": "google_maps",
@@ -318,8 +373,148 @@
     "phone": null,
     "website": null,
     "description": "日本のツルハグループのドンキモールトンロー店。日本製の医薬品・化粧品・サプリメント・日用品が充実。ドンキモール内に位置し、ドン・ドン・ドンキと合わせて利用しやすい。",
-    "tags": ["日本ブランド", "ドラッグストア", "日用品"],
+    "tags": [
+      "日本ブランド",
+      "ドラッグストア",
+      "日用品"
+    ],
     "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "don-don-donki-mega-bangna",
+    "name": "Don Don Donki (Mega Bangna)",
+    "name_ja": "ドン・ドン・ドンキ メガバンナー店",
+    "area": "Bangna",
+    "address": "Mega Bangna, 39 Bangna-Trad Road, Bangkaew, Bangplee, Samut Prakan 10540",
+    "phone": null,
+    "website": null,
+    "description": "メガバンナー内のドン・キホーテのタイ店舗。日本の食品・菓子・化粧品・日用品が豊富。バンナーエリアの日本人居住者や工業団地勤務の駐在員に便利。",
+    "tags": [
+      "日本食材",
+      "日用品",
+      "チェーン"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "mitsukoshi-one-bangkok",
+    "name": "Mitsukoshi (One Bangkok)",
+    "name_ja": "三越 One Bangkok",
+    "area": "Lumpini",
+    "address": "One Bangkok, Wireless Road, Lumpini, Pathum Wan, Bangkok 10330",
+    "phone": null,
+    "website": "https://www.onebangkokmitsukoshi.com/",
+    "description": "日本の百貨店「三越」のタイ初出店。One Bangkok内に位置し、季節のフルーツ・野菜・日本産和牛・魚介類・日本の調味料など高品質な日本食品を取り扱い。日本の食文化を体験できる。",
+    "tags": [
+      "百貨店",
+      "日本食材",
+      "高級",
+      "プレミアム"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "rimping-supermarket-chiang-mai",
+    "name": "Rimping Supermarket",
+    "name_ja": "リムピン スーパーマーケット",
+    "area": "Chiang Mai",
+    "address": "Chiang Mai, Thailand（市内に複数店舗）",
+    "phone": null,
+    "website": null,
+    "description": "チェンマイのローカルプレミアムスーパーマーケットチェーン。市内に6店舗を展開し、日本食材を含む輸入食品の品揃えが充実。チェンマイ在住の日本人が日本食材を調達する際の主要な選択肢。",
+    "tags": [
+      "輸入食材",
+      "日本食材",
+      "チェンマイ",
+      "チェーン"
+    ],
+    "hours": "店舗により異なる",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "maxvalu-tanjai-sukhumvit24",
+    "name": "MaxValu Tanjai Sukhumvit 24",
+    "name_ja": "マックスバリュ タンジャイ スクンビット24店",
+    "area": "Phrom Phong",
+    "address": "Soi Sukhumvit 24, Khlong Tan, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": "https://www.aeonthailand.co.th/",
+    "description": "イオングループのスーパーマーケット。スクンビット偶数側に位置し、フジスーパー5号店と近接。日本の食品・弁当・惣菜も取り扱い、24時間営業。",
+    "tags": [
+      "日本食材",
+      "24時間営業",
+      "イオングループ"
+    ],
+    "hours": "24時間",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "don-don-donki-central-world",
+    "name": "Don Don Donki (CentralWorld)",
+    "name_ja": "ドン・ドン・ドンキ セントラルワールド店",
+    "area": "Siam",
+    "address": "CentralWorld, Ratchadamri Road, Pathum Wan, Bangkok 10330",
+    "phone": null,
+    "website": null,
+    "description": "セントラルワールド内のドン・キホーテのタイ店舗。日本の食品・菓子・化粧品・日用品が豊富。BTSチットロム駅近くでアクセス良好。",
+    "tags": [
+      "日本食材",
+      "日用品",
+      "駅近"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "lawson-108-bangkok",
+    "name": "Lawson 108",
+    "name_ja": "ローソン108",
+    "area": "Bangkok",
+    "address": "バンコク市内（複数店舗）",
+    "phone": null,
+    "website": null,
+    "description": "日本のコンビニチェーン「ローソン」のタイ展開。日本式のおにぎり・サンドイッチ・ホットスナックなどを提供。日本のコンビニ品質の商品が手軽に手に入る。",
+    "tags": [
+      "コンビニ",
+      "日本式",
+      "おにぎり"
+    ],
+    "hours": "24時間",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "daiso-japan-bangkok",
+    "name": "Daiso Japan Bangkok",
+    "name_ja": "ダイソー バンコク",
+    "area": "Bangkok",
+    "address": "バンコク市内各ショッピングモール（多数店舗あり）",
+    "phone": null,
+    "website": null,
+    "description": "日本の100円ショップ「ダイソー」のタイ展開。タイでは60バーツ均一で、日本製の日用品・キッチン用品・文房具・化粧品小物が手に入る。バンコク市内に多数店舗を展開。",
+    "tags": [
+      "日用品",
+      "均一価格",
+      "日本ブランド",
+      "チェーン"
+    ],
+    "hours": "店舗により異なる",
     "status": "unverified",
     "source": "google_maps",
     "last_verified": "2026-03-27"

@@ -325,7 +325,13 @@
     "phone": null,
     "website": null,
     "description": "コタキナバルにある日本人学校。小学部・中学部を設置し、日本の学習指導要領に準拠した教育を実施。サバ州在住の日本人家族の子弟が通学。",
-    "tags": ["小学校", "中学校", "日本語教育", "日本のカリキュラム", "サバ"],
+    "tags": [
+      "小学校",
+      "中学校",
+      "日本語教育",
+      "日本のカリキュラム",
+      "サバ"
+    ],
     "hours": "月-金 8:00-16:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -340,7 +346,12 @@
     "phone": null,
     "website": "https://atozlanguage.com/",
     "description": "KLにある語学学校。日本語・英語・中国語・マレー語など多言語のコースを提供。グループレッスン・プライベートレッスンに対応。企業向けの語学研修も実施。",
-    "tags": ["語学学校", "日本語", "英語", "多言語対応"],
+    "tags": [
+      "語学学校",
+      "日本語",
+      "英語",
+      "多言語対応"
+    ],
     "hours": "要確認",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -355,10 +366,151 @@
     "phone": null,
     "website": "https://my.kumonglobal.com/",
     "description": "公文式のスバンジャヤ教室。算数・英語のプログラムを提供。スバンジャヤ在住の日本人ファミリーに便利。自学自習スタイルで個々のペースで学べる。",
-    "tags": ["学習塾", "算数", "英語", "日本式教育"],
+    "tags": [
+      "学習塾",
+      "算数",
+      "英語",
+      "日本式教育"
+    ],
     "hours": "要確認",
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "nichinoken-kuala-lumpur",
+    "name": "Nichinoken Kuala Lumpur",
+    "name_ja": "日能研 クアラルンプール校",
+    "area": "Kuala Lumpur",
+    "address": "Kuala Lumpur, Malaysia",
+    "phone": null,
+    "website": null,
+    "description": "日本の中学受験塾「日能研」のKL教室。帰国子女入試や日本の中学受験を目指す小学生を対象に、日本と同じカリキュラムで指導。",
+    "tags": [
+      "学習塾",
+      "中学受験",
+      "帰国子女"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sapix-kuala-lumpur",
+    "name": "SAPIX Kuala Lumpur",
+    "name_ja": "SAPIX クアラルンプール校",
+    "area": "Kuala Lumpur",
+    "address": "Kuala Lumpur, Malaysia",
+    "phone": null,
+    "website": null,
+    "description": "日本の中学受験塾「SAPIX」のKL教室。中学受験を目指す小学生向けに、日本と同じ教材・カリキュラムで授業を実施。",
+    "tags": [
+      "学習塾",
+      "中学受験",
+      "帰国子女"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "mikasano-academic-centre",
+    "name": "Mikasano Academic Centre",
+    "name_ja": "三笠野アカデミックセンター",
+    "area": "Kuala Lumpur",
+    "address": "Kuala Lumpur, Malaysia",
+    "phone": null,
+    "website": null,
+    "description": "KLにある日本語教育センター。日本語コースを提供し、日本語能力試験（JLPT）対策にも対応。個別指導とグループレッスンを実施。",
+    "tags": [
+      "日本語教育",
+      "JLPT対策",
+      "語学学校"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "waseda-academy-kuala-lumpur",
+    "name": "Waseda Academy Kuala Lumpur",
+    "name_ja": "早稲田アカデミー KL校",
+    "area": "Kuala Lumpur",
+    "address": "Kuala Lumpur, Malaysia",
+    "phone": null,
+    "website": null,
+    "description": "日本の進学塾「早稲田アカデミー」のKL教室。中学受験・高校受験を目指す小中学生向けに、日本と同じカリキュラムで指導。",
+    "tags": [
+      "学習塾",
+      "中学受験",
+      "高校受験",
+      "帰国子女"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "kumon-mont-kiara-2",
+    "name": "Kumon Mont Kiara 2",
+    "name_ja": "公文 モントキアラ2教室",
+    "area": "Mont Kiara",
+    "address": "Mont Kiara, Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "公文のモントキアラ第2教室。算数・数学・国語・英語の自学自習方式で、子どもの学力に合わせた個別進度学習を提供。日本語対応のスタッフが在籍。",
+    "tags": [
+      "学習塾",
+      "自学自習",
+      "算数",
+      "国語"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "penang-japanese-kindergarten",
+    "name": "Penang Japanese Kindergarten",
+    "name_ja": "ペナン日本人幼稚園",
+    "area": "Penang",
+    "address": "Penang, Malaysia",
+    "phone": null,
+    "website": null,
+    "description": "ペナンにある日本人幼稚園。日本語による保育・教育を提供し、ペナンの日本人コミュニティの幼児教育ニーズに対応。日本の行事や文化活動も実施。",
+    "tags": [
+      "幼稚園",
+      "日本語保育",
+      "ペナン"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "icls-subang",
+    "name": "ICLS Subang",
+    "name_ja": "ICLS スバン校",
+    "area": "Subang Jaya",
+    "address": "Subang Jaya, Selangor",
+    "phone": null,
+    "website": "https://www.icls.com.my/",
+    "description": "1990年設立の語学学校ICLSのスバン校。日本語・英語・マレー語・中国語のコースを提供。日本人向けのマレー語コースも充実。",
+    "tags": [
+      "語学学校",
+      "マレー語",
+      "日本語",
+      "英語"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
   }
 ]

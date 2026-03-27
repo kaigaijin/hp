@@ -201,7 +201,12 @@
     "phone": "+6623103000",
     "website": "https://www.bangkokhospital.com/ja/center-clinic/dental-care/bangkok-hospital-dental-center/overview",
     "description": "バンコク病院内の歯科センター。経験豊富な専門医が在籍し、一般歯科からインプラント・矯正・口腔外科まで幅広く対応。日本語通訳サービスあり。JMS（日本人専門クリニック）と連携。",
-    "tags": ["日本語対応", "病院内歯科", "インプラント", "矯正歯科"],
+    "tags": [
+      "日本語対応",
+      "病院内歯科",
+      "インプラント",
+      "矯正歯科"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "website",
@@ -216,7 +221,12 @@
     "phone": "+6620668888",
     "website": "https://www.bumrungrad.com/en",
     "description": "バムルンラード国際病院内の歯科センター。最新の歯科設備を導入し、一般歯科・審美歯科・インプラント・矯正歯科に対応。日本語通訳サービスが利用可能。",
-    "tags": ["日本語対応", "国際病院", "審美歯科", "インプラント"],
+    "tags": [
+      "日本語対応",
+      "国際病院",
+      "審美歯科",
+      "インプラント"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "website",
@@ -231,7 +241,11 @@
     "phone": null,
     "website": null,
     "description": "スクンビットエリアにある審美歯科・一般歯科クリニック。セラミッククラウン・ベニア・ホワイトニングに定評があり、日本人利用者も多い。英語対応で予約可能。",
-    "tags": ["審美歯科", "セラミック", "ホワイトニング"],
+    "tags": [
+      "審美歯科",
+      "セラミック",
+      "ホワイトニング"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
@@ -246,7 +260,11 @@
     "phone": "+66659147955",
     "website": "https://ki-dentalclinic.com/",
     "description": "トンローのソイ13にある歯科クリニック。日本語通訳が常駐し、カウンセリングから治療まで日本語で対応可能。一般歯科・審美歯科・矯正歯科に対応。Home Placeビル2階に位置。",
-    "tags": ["日本語対応", "日本語通訳常駐", "審美歯科"],
+    "tags": [
+      "日本語対応",
+      "日本語通訳常駐",
+      "審美歯科"
+    ],
     "hours": "月火金 10:00-20:00 / 土 9:00-20:00 / 日 9:00-18:00（水木休診）",
     "status": "unverified",
     "source": "website",
@@ -261,7 +279,11 @@
     "phone": null,
     "website": "http://www.keishikai.net/",
     "description": "日本の歯科医師が開設したバンコクの歯科クリニック。一般歯科・予防歯科・審美歯科に対応。日本語でのカウンセリングが可能で、日本水準の治療を提供。",
-    "tags": ["日本語対応", "日本人歯科医師", "予防歯科"],
+    "tags": [
+      "日本語対応",
+      "日本人歯科医師",
+      "予防歯科"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "website",
@@ -276,7 +298,109 @@
     "phone": null,
     "website": null,
     "description": "トンローに位置する歯科専門病院。一般歯科からインプラント・矯正・口腔外科まで幅広い歯科治療を提供。日本語通訳サービスがあり、外国人患者の受け入れ体制が整っている。",
-    "tags": ["日本語対応", "歯科専門病院", "インプラント", "矯正歯科"],
+    "tags": [
+      "日本語対応",
+      "歯科専門病院",
+      "インプラント",
+      "矯正歯科"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "bidc-dental-center",
+    "name": "Bangkok International Dental Center (BIDC)",
+    "name_ja": "バンコク国際デンタルセンター",
+    "area": "Ratchathewi",
+    "address": "157 Ratchatewi, Bangkok 10400",
+    "phone": "+6626922772",
+    "website": "https://bangkokdentalcenter.com/",
+    "description": "タイ初のJCI認証取得歯科センター。70名以上の専門歯科医が在籍し、インプラント・矯正・審美歯科など幅広い歯科治療を提供。日本語通訳サービスあり。",
+    "tags": [
+      "JCI認証",
+      "インプラント",
+      "矯正歯科",
+      "日本語対応"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "thantakit-dental-center",
+    "name": "Thantakit International Dental Center",
+    "name_ja": "タンタキット国際デンタルセンター",
+    "area": "Phaya Thai",
+    "address": "Bangkok, Thailand",
+    "phone": null,
+    "website": "https://www.thantakit.com/",
+    "description": "1945年設立のタイ最古の歯科クリニック。最新の歯科技術と設備を導入し、インプラント・矯正・審美歯科に対応。日本語サポートあり。外国人患者の受け入れ実績が豊富。",
+    "tags": [
+      "老舗",
+      "インプラント",
+      "審美歯科",
+      "日本語対応"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "smile-signature-dental-sukhumvit",
+    "name": "Smile Signature Dental Clinic",
+    "name_ja": "スマイルシグネチャー デンタルクリニック",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "スクンビットエリアにある歯科クリニック。ホワイトニング・セラミック・インビザラインなどの審美歯科に力を入れている。日本人利用者も多い。",
+    "tags": [
+      "審美歯科",
+      "ホワイトニング",
+      "インビザライン"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "fuji-jdc-dental-citi-resort39",
+    "name": "Fuji JDC Dental Clinic Citi Resort 39",
+    "name_ja": "富士JDC歯科医院 Citi Resort 39院",
+    "area": "Phrom Phong",
+    "address": "Citi Resort 39, Soi Sukhumvit 39, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": "https://fujijdc.com/",
+    "description": "富士JDC歯科医院の2号院。スクンビットソイ39のCiti Resortビル内に位置し、プロンポン駅前院と同じく日本人スタッフ常駐で安心の歯科治療を提供。",
+    "tags": [
+      "日本語対応",
+      "日本人スタッフ",
+      "複数院"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "medpark-dental-center",
+    "name": "MedPark Hospital Dental Center",
+    "name_ja": "メドパーク病院 デンタルセンター",
+    "area": "Khlong Toei",
+    "address": "3333 Rama IV Road, Khlong Tan, Khlong Toei, Bangkok 10110",
+    "phone": "+6620233333",
+    "website": "https://www.medparkhospital.com/",
+    "description": "2020年開業のメドパーク病院内の歯科センター。最新の歯科設備を導入し、一般歯科・審美歯科・インプラントに対応。日本語通訳サービスが利用可能。",
+    "tags": [
+      "日本語対応",
+      "最新設備",
+      "病院内歯科"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "website",
