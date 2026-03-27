@@ -5,19 +5,16 @@ import { CheckCircle, XCircle, Pencil, Send, Loader2, ThumbsUp, ChevronDown, Che
 
 type ReportType = "visited" | "closed" | "correction";
 
-// スポットごとの「行った」済みフラグをlocalStorageで管理
-function getVisitedKey(country: string, category: string, slug: string) {
-  return `kaigaijin_visited_${country}_${category}_${slug}`;
-}
-
-function hasVisited(country: string, category: string, slug: string): boolean {
-  if (typeof window === "undefined") return false;
-  return localStorage.getItem(getVisitedKey(country, category, slug)) === "1";
-}
-
-function markVisited(country: string, category: string, slug: string) {
-  if (typeof window === "undefined") return;
-  localStorage.setItem(getVisitedKey(country, category, slug), "1");
+// ブラウザ固有の訪問者IDを生成・永続化
+function getVisitorId(): string {
+  if (typeof window === "undefined") return "";
+  const key = "kaigaijin_visitor_id";
+  let id = localStorage.getItem(key);
+  if (!id) {
+    id = crypto.randomUUID();
+    localStorage.setItem(key, id);
+  }
+  return id;
 }
 
 export default function SpotReportForm({
@@ -43,21 +40,22 @@ export default function SpotReportForm({
 
   const fetchData = useCallback(async () => {
     try {
+      const vid = getVisitorId();
       const res = await fetch(
-        `/api/spot-reports?country=${country}&category=${category}&slug=${spotSlug}`
+        `/api/spot-reports?country=${country}&category=${category}&slug=${spotSlug}${vid ? `&visitor_id=${vid}` : ""}`
       );
       if (res.ok) {
         const data = await res.json();
         setVisitedCount(data.visited);
         setVisitComments(data.comments ?? []);
+        setAlreadyVisited(data.already_visited ?? false);
       }
     } catch {}
   }, [country, category, spotSlug]);
 
   useEffect(() => {
     fetchData();
-    setAlreadyVisited(hasVisited(country, category, spotSlug));
-  }, [fetchData, country, category, spotSlug]);
+  }, [fetchData]);
 
   async function handleSubmit(type: ReportType, body?: string) {
     setSubmitting(true);
@@ -73,6 +71,7 @@ export default function SpotReportForm({
           spot_name: spotName,
           report_type: type,
           comment: body?.trim() || null,
+          visitor_id: getVisitorId() || null,
         }),
       });
       if (res.ok) {
@@ -84,7 +83,6 @@ export default function SpotReportForm({
               ...prev,
             ]);
           }
-          markVisited(country, category, spotSlug);
           setAlreadyVisited(true);
           setComment("");
           setSubmitted(true);

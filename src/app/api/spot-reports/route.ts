@@ -38,40 +38,44 @@ export async function GET(req: NextRequest) {
   const country = req.nextUrl.searchParams.get("country");
   const category = req.nextUrl.searchParams.get("category");
   const slug = req.nextUrl.searchParams.get("slug");
+  const visitorId = req.nextUrl.searchParams.get("visitor_id");
 
   if (!country || !category || !slug) {
     return NextResponse.json({ visited: 0 }, { status: 400 });
   }
 
   const res = await fetch(
-    `${SUPABASE_URL}/rest/v1/spot_reports?country=eq.${encodeURIComponent(country)}&category=eq.${encodeURIComponent(category)}&spot_slug=eq.${encodeURIComponent(slug)}&report_type=eq.visited&select=id,comment,created_at&order=created_at.desc`,
+    `${SUPABASE_URL}/rest/v1/spot_reports?country=eq.${encodeURIComponent(country)}&category=eq.${encodeURIComponent(category)}&spot_slug=eq.${encodeURIComponent(slug)}&report_type=eq.visited&select=id,visitor_id,comment,created_at&order=created_at.desc`,
     {
       headers: {
         apikey: SUPABASE_KEY,
         Authorization: `Bearer ${SUPABASE_KEY}`,
       },
-      next: { revalidate: 30 },
+      cache: "no-store",
     }
   );
 
   if (!res.ok) {
-    return NextResponse.json({ visited: 0, comments: [] });
+    return NextResponse.json({ visited: 0, comments: [], already_visited: false });
   }
 
-  const data = await res.json();
+  const data: { id: string; visitor_id: string | null; comment: string | null; created_at: string }[] = await res.json();
   const comments = data
-    .filter((r: { comment: string | null }) => r.comment)
-    .map((r: { comment: string; created_at: string }) => ({
-      comment: r.comment,
+    .filter((r) => r.comment)
+    .map((r) => ({
+      comment: r.comment!,
       created_at: r.created_at,
     }));
-  return NextResponse.json({ visited: data.length, comments });
+  const alreadyVisited = visitorId
+    ? data.some((r) => r.visitor_id === visitorId)
+    : false;
+  return NextResponse.json({ visited: data.length, comments, already_visited: alreadyVisited });
 }
 
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-    const { country, category, spot_slug, spot_name, report_type, comment } =
+    const { country, category, spot_slug, spot_name, report_type, comment, visitor_id } =
       body;
 
     if (!country || !category || !spot_slug || !spot_name || !report_type) {
@@ -114,6 +118,7 @@ export async function POST(req: NextRequest) {
         spot_name,
         report_type,
         comment: comment?.trim() || null,
+        visitor_id: visitor_id || null,
         status: "pending",
       }),
     });
