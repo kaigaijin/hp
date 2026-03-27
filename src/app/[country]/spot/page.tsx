@@ -136,8 +136,21 @@ export default async function SpotIndexPage({
     (cat) => (counts[cat.slug] ?? 0) === 0
   );
 
-  // ピックアップスポット
-  const recentSpots = allSpots.slice(0, 6);
+  // ピックアップスポット（各グループから1件ずつ選んでバランスよく表示）
+  const recentSpots: typeof allSpots = [];
+  for (const group of categoryGroups) {
+    const groupSpot = allSpots.find(
+      (s) => group.categories.includes(s.category) && !recentSpots.some((r) => r.slug === s.slug)
+    );
+    if (groupSpot) recentSpots.push(groupSpot);
+  }
+  // 7グループ未満の場合は残りから補充
+  if (recentSpots.length < 7) {
+    for (const s of allSpots) {
+      if (recentSpots.length >= 7) break;
+      if (!recentSpots.some((r) => r.slug === s.slug)) recentSpots.push(s);
+    }
+  }
 
   return (
     <>
