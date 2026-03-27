@@ -1161,5 +1161,62 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "google_maps"
+  },
+  {
+    "slug": "kimuraya-jbr-rest",
+    "name": "Kimuraya JBR",
+    "name_ja": "木村屋 JBR",
+    "area": "JBR",
+    "address": "JBR, Dubai",
+    "phone": null,
+    "website": "https://kimurayadubai.com/",
+    "description": "木村屋のJBR店。日本から直輸入の食材を使った本格日本料理。ビーチエリアの日本食。",
+    "tags": [
+      "日本料理",
+      "日本食材",
+      "JBR"
+    ],
+    "hours": "12:00〜23:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "fujiya-garhoud-rest",
+    "name": "Fujiya Garhoud",
+    "name_ja": "藤家 ガルフード",
+    "area": "Garhoud",
+    "address": "Millennium Airport Hotel, Casablanca Street, Garhoud, Dubai",
+    "phone": null,
+    "website": "https://fujiya.ae/",
+    "description": "藤家のガルフード本店。日本直輸入の食材で寿司・刺身・天ぷらを提供。空港近くのロケーション。",
+    "tags": [
+      "日本料理",
+      "日本食材",
+      "空港近く"
+    ],
+    "hours": "12:00〜15:00 / 18:00〜23:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "origami-sushi-dubai-mall",
+    "name": "Origami Sushi Dubai Mall",
+    "name_ja": "折紙寿司 ドバイモール",
+    "area": "Downtown Dubai",
+    "address": "Dubai Mall, Downtown Dubai",
+    "phone": null,
+    "website": null,
+    "description": "ドバイモール内の寿司レストラン。カジュアルに寿司・巻き物を楽しめる。",
+    "tags": [
+      "寿司",
+      "ドバイモール",
+      "カジュアル"
+    ],
+    "hours": "毎日 10:00〜24:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
   }
 ]

@@ -549,5 +549,81 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "google_maps"
+  },
+  {
+    "slug": "kanpai-daan",
+    "name": "Kanpai Da'an",
+    "name_ja": "乾杯 大安",
+    "area": "Da'an",
+    "address": "Da'an District, Taipei",
+    "phone": null,
+    "website": "https://www.kanpai.com.tw/",
+    "description": "乾杯焼肉の大安区店。上質な肉と活気ある雰囲気で日式焼肉を楽しめる。",
+    "tags": [
+      "焼肉",
+      "日式",
+      "活気"
+    ],
+    "hours": "17:30〜24:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "watami-taipei-xinyi",
+    "name": "Watami Taipei Xinyi",
+    "name_ja": "和民 台北信義",
+    "area": "Xinyi",
+    "address": "Xinyi District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "和民の信義区店。飲み放題プランと豊富な料理メニューが特徴。駐在員の宴会にも。",
+    "tags": [
+      "居酒屋",
+      "日本発チェーン",
+      "飲み放題"
+    ],
+    "hours": "17:00〜翌2:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "izakaya-akira-linsen",
+    "name": "Izakaya Akira",
+    "name_ja": "居酒屋あきら",
+    "area": "Zhongshan",
+    "address": "Near Linsen North Road, Zhongshan District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "林森北路の日本人経営居酒屋。新鮮な刺身と焼き物が自慢。日本語メニューあり。",
+    "tags": [
+      "居酒屋",
+      "日本人経営",
+      "林森北路"
+    ],
+    "hours": "18:00〜翌2:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "toraji-yakiniku-daan",
+    "name": "Toraji Yakiniku Da'an",
+    "name_ja": "叙々苑 大安",
+    "area": "Da'an",
+    "address": "Da'an District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "東京の高級焼肉チェーンの大安区店。上質な和牛と洗練されたサービスが特徴。",
+    "tags": [
+      "焼肉",
+      "高級",
+      "和牛"
+    ],
+    "hours": "11:30〜14:30 / 17:00〜23:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
   }
 ]
