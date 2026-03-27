@@ -3,22 +3,83 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { getCountry, countries } from "@/lib/countries";
-import { categories, getCategory, getSpotsByCategory } from "@/lib/directory";
 import {
+  categories,
+  categoryGroups,
+  getCategory,
+  getCategoryGroup,
+  getSpotsByCategory,
+  getCategoryCounts,
+} from "@/lib/directory";
+import {
+  UtensilsCrossed,
+  Coffee,
+  Beer,
+  Stethoscope,
+  SmilePlus,
+  Pill,
+  Scissors,
+  Sparkles,
+  Dumbbell,
+  Building2,
+  ShoppingCart,
+  GraduationCap,
+  Calculator,
+  Scale,
+  Shield,
+  Truck,
+  Plane,
+  Laptop,
+  PawPrint,
+  Car,
+  SprayCan,
+  Wrench,
+  Briefcase,
+  Compass,
   MapPin,
   Phone,
   Globe,
   ChevronRight,
-  ExternalLink,
   AlertTriangle,
   CheckCircle2,
   Info,
 } from "lucide-react";
 
+const iconMap: Record<string, (size: number) => React.ReactNode> = {
+  UtensilsCrossed: (s) => <UtensilsCrossed size={s} />,
+  Coffee: (s) => <Coffee size={s} />,
+  Beer: (s) => <Beer size={s} />,
+  Stethoscope: (s) => <Stethoscope size={s} />,
+  SmilePlus: (s) => <SmilePlus size={s} />,
+  Pill: (s) => <Pill size={s} />,
+  Scissors: (s) => <Scissors size={s} />,
+  Sparkles: (s) => <Sparkles size={s} />,
+  Dumbbell: (s) => <Dumbbell size={s} />,
+  Building2: (s) => <Building2 size={s} />,
+  ShoppingCart: (s) => <ShoppingCart size={s} />,
+  GraduationCap: (s) => <GraduationCap size={s} />,
+  Calculator: (s) => <Calculator size={s} />,
+  Scale: (s) => <Scale size={s} />,
+  Shield: (s) => <Shield size={s} />,
+  Truck: (s) => <Truck size={s} />,
+  Plane: (s) => <Plane size={s} />,
+  Laptop: (s) => <Laptop size={s} />,
+  PawPrint: (s) => <PawPrint size={s} />,
+  Car: (s) => <Car size={s} />,
+  SprayCan: (s) => <SprayCan size={s} />,
+  Wrench: (s) => <Wrench size={s} />,
+  Briefcase: (s) => <Briefcase size={s} />,
+  Compass: (s) => <Compass size={s} />,
+};
+
 export function generateStaticParams() {
-  return countries.flatMap((c) =>
+  const categoryParams = countries.flatMap((c) =>
     categories.map((cat) => ({ country: c.code, category: cat.slug })),
   );
+  const groupParams = countries.flatMap((c) =>
+    categoryGroups.map((g) => ({ country: c.code, category: g.slug })),
+  );
+  return [...categoryParams, ...groupParams];
 }
 
 export function generateMetadata({
@@ -26,19 +87,39 @@ export function generateMetadata({
 }: {
   params: Promise<{ country: string; category: string }>;
 }) {
-  return params.then(({ country: code, category: catSlug }) => {
+  return params.then(({ country: code, category: slug }) => {
     const country = getCountry(code);
-    const category = getCategory(catSlug);
-    if (!country || !category) return {};
+    if (!country) return {};
+
+    // グループの場合
+    const group = getCategoryGroup(slug);
+    if (group) {
+      return {
+        title: `${country.name}の${group.name}`,
+        description: `${country.name}で日本人におすすめの${group.name}をカテゴリ別に探せるKAIマップ。`,
+        openGraph: {
+          title: `${country.name}の${group.name} | KAIマップ`,
+          description: `${country.name}の${group.name}をカテゴリ別に探せるKAIマップ。`,
+          type: "website",
+          locale: "ja_JP",
+          url: `https://kaigaijin.jp/${code}/spot/${slug}`,
+          siteName: "Kaigaijin",
+        },
+      };
+    }
+
+    // カテゴリの場合
+    const category = getCategory(slug);
+    if (!category) return {};
     return {
       title: `${country.name}の${category.name}`,
       description: `${country.name}で日本人におすすめの${category.name}を一覧で紹介。住所・電話番号・営業時間など詳細情報つき。`,
       openGraph: {
         title: `${country.name}の${category.name} | Kaigaijin`,
-        description: `${country.name}の${category.name}を探すなら。日本語対応スポットを中心にご紹介。`,
+        description: `${country.name}の${category.name}を探すなら。日本語対応の場所を中心にご紹介。`,
         type: "website",
         locale: "ja_JP",
-        url: `https://kaigaijin.jp/${code}/spot/${catSlug}`,
+        url: `https://kaigaijin.jp/${code}/spot/${slug}`,
         siteName: "Kaigaijin",
       },
     };
@@ -50,15 +131,166 @@ export default async function CategoryPage({
 }: {
   params: Promise<{ country: string; category: string }>;
 }) {
-  const { country: code, category: catSlug } = await params;
+  const { country: code, category: slug } = await params;
   const country = getCountry(code);
-  const category = getCategory(catSlug);
-  if (!country || !category) notFound();
+  if (!country) notFound();
 
+  // グループスラッグの場合 → サブカテゴリ一覧を表示
+  const group = getCategoryGroup(slug);
+  if (group) {
+    const counts = getCategoryCounts(code);
+    const groupTotal = group.categories.reduce(
+      (sum, cat) => sum + (counts[cat] ?? 0),
+      0,
+    );
+    const childCategories = group.categories
+      .map((catSlug) => {
+        const cat = categories.find((c) => c.slug === catSlug);
+        if (!cat) return null;
+        return { ...cat, count: counts[cat.slug] ?? 0 };
+      })
+      .filter((c): c is NonNullable<typeof c> => c !== null);
+
+    const renderGroupIcon = iconMap[group.icon];
+
+    return (
+      <>
+        <Header />
+        <main className="bg-stone-100 dark:bg-stone-900 min-h-screen">
+          <div className="bg-white dark:bg-stone-800 border-b border-stone-200 dark:border-stone-700">
+            <div className="max-w-6xl mx-auto px-4 py-5">
+              <nav className="flex items-center gap-1.5 text-xs text-stone-400 mb-3">
+                <Link href="/" className="hover:text-ocean-600 transition-colors">
+                  トップ
+                </Link>
+                <ChevronRight size={12} />
+                <Link
+                  href={`/${code}`}
+                  className="hover:text-ocean-600 transition-colors"
+                >
+                  {country.flag} {country.name}
+                </Link>
+                <ChevronRight size={12} />
+                <Link
+                  href={`/${code}/spot`}
+                  className="hover:text-ocean-600 transition-colors"
+                >
+                  KAIマップ
+                </Link>
+                <ChevronRight size={12} />
+                <span className="text-stone-600 dark:text-stone-300">
+                  {group.name}
+                </span>
+              </nav>
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 bg-stone-50 dark:bg-stone-700 rounded-xl flex items-center justify-center text-ocean-600 dark:text-ocean-400">
+                  {renderGroupIcon?.(20)}
+                </div>
+                <div>
+                  <h1 className="text-xl font-bold text-stone-800 dark:text-stone-100">
+                    {country.name}の{group.name}
+                  </h1>
+                  <p className="text-sm text-stone-500 dark:text-stone-400 mt-0.5">
+                    {groupTotal}件を掲載中
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="max-w-6xl mx-auto px-4 py-6">
+            <div className="space-y-2">
+              {childCategories.map((cat) => {
+                const hasSpots = cat.count > 0;
+                const renderCatIcon = iconMap[cat.icon];
+
+                if (hasSpots) {
+                  return (
+                    <Link
+                      key={cat.slug}
+                      href={`/${code}/spot/${cat.slug}`}
+                      className="group flex items-center gap-4 bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 px-4 py-4 hover:border-ocean-400 dark:hover:border-ocean-500 hover:shadow-md transition-all"
+                    >
+                      <div className="w-10 h-10 bg-stone-50 dark:bg-stone-700 rounded-lg flex items-center justify-center text-ocean-600 dark:text-ocean-400 group-hover:bg-ocean-50 dark:group-hover:bg-ocean-900/30 transition-colors">
+                        {renderCatIcon?.(18)}
+                      </div>
+                      <div className="flex-1 min-w-0">
+                        <p className="text-sm font-semibold text-stone-700 dark:text-stone-200 group-hover:text-ocean-600 dark:group-hover:text-ocean-400 transition-colors">
+                          {cat.name}
+                        </p>
+                        <p className="text-xs text-stone-400 mt-0.5">
+                          {cat.description}
+                        </p>
+                      </div>
+                      <span className="text-sm text-stone-400 tabular-nums">
+                        {cat.count}件
+                      </span>
+                      <ChevronRight
+                        size={16}
+                        className="text-stone-300 dark:text-stone-600 group-hover:text-ocean-500"
+                      />
+                    </Link>
+                  );
+                }
+
+                return (
+                  <div
+                    key={cat.slug}
+                    className="flex items-center gap-4 bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 px-4 py-4 opacity-50"
+                  >
+                    <div className="w-10 h-10 bg-stone-50 dark:bg-stone-700 rounded-lg flex items-center justify-center text-stone-400">
+                      {renderCatIcon?.(18)}
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <p className="text-sm font-semibold text-stone-400 dark:text-stone-500">
+                        {cat.name}
+                      </p>
+                      <p className="text-xs text-stone-300 dark:text-stone-600 mt-0.5">
+                        {cat.description}
+                      </p>
+                    </div>
+                    <span className="text-xs text-stone-300 dark:text-stone-600">
+                      準備中
+                    </span>
+                  </div>
+                );
+              })}
+            </div>
+
+            {/* フッター */}
+            <div className="mt-8 flex items-center justify-between">
+              <Link
+                href={`/${code}/spot`}
+                className="text-sm text-ocean-600 dark:text-ocean-400 hover:underline"
+              >
+                ← カテゴリ一覧
+              </Link>
+              <Link
+                href="/contact"
+                className="text-xs text-stone-400 hover:text-ocean-600 transition-colors"
+              >
+                情報の修正・掲載リクエスト
+              </Link>
+            </div>
+          </div>
+        </main>
+        <Footer />
+      </>
+    );
+  }
+
+  // カテゴリスラッグの場合 → 従来のスポット一覧
+  const category = getCategory(slug);
+  if (!category) notFound();
+
+  const catSlug = slug;
   const spots = getSpotsByCategory(code, catSlug);
-
-  // エリア別に集計
   const areas = [...new Set(spots.map((s) => s.area))].sort();
+
+  // このカテゴリが属するグループを取得（パンくず用）
+  const parentGroup = categoryGroups.find((g) =>
+    g.categories.includes(catSlug),
+  );
 
   return (
     <>
@@ -86,8 +318,19 @@ export default async function CategoryPage({
                 href={`/${code}/spot`}
                 className="hover:text-ocean-600 transition-colors"
               >
-                スポット
+                KAIマップ
               </Link>
+              {parentGroup && (
+                <>
+                  <ChevronRight size={12} />
+                  <Link
+                    href={`/${code}/spot/${parentGroup.slug}`}
+                    className="hover:text-ocean-600 transition-colors"
+                  >
+                    {parentGroup.name}
+                  </Link>
+                </>
+              )}
               <ChevronRight size={12} />
               <span className="text-stone-600 dark:text-stone-300">
                 {category.name}
@@ -98,8 +341,8 @@ export default async function CategoryPage({
             </h1>
             <p className="text-sm text-stone-500 dark:text-stone-400 mt-1">
               {spots.length > 0
-                ? `${spots.length}件のスポットを掲載中`
-                : "スポット情報を準備中です"}
+                ? `${spots.length}件を掲載中`
+                : "情報を準備中です"}
             </p>
           </div>
 
@@ -233,10 +476,10 @@ export default async function CategoryPage({
           {/* フッター */}
           <div className="mt-8 flex items-center justify-between">
             <Link
-              href={`/${code}/spot`}
+              href={parentGroup ? `/${code}/spot/${parentGroup.slug}` : `/${code}/spot`}
               className="text-sm text-ocean-600 dark:text-ocean-400 hover:underline"
             >
-              ← カテゴリ一覧
+              ← {parentGroup ? parentGroup.name : "カテゴリ一覧"}
             </Link>
             <Link
               href="/contact"

@@ -201,6 +201,10 @@ export function getCategory(slug: string): CategoryDef | undefined {
   return categories.find((c) => c.slug === slug);
 }
 
+export function getCategoryGroup(slug: string): CategoryGroup | undefined {
+  return categoryGroups.find((g) => g.slug === slug);
+}
+
 // 確認ステータス
 export type SpotStatus = "unverified" | "verified" | "reported_closed";
 

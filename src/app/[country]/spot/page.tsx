@@ -84,11 +84,11 @@ export function generateMetadata({
     const country = getCountry(code);
     if (!country) return {};
     return {
-      title: `${country.name}の日本人向けスポット一覧`,
-      description: `${country.name}で日本人に人気のレストラン・クリニック・美容室・不動産など、カテゴリ別に探せるスポットガイド。`,
+      title: `${country.name}のKAIマップ — 日本人向けスポット一覧`,
+      description: `${country.name}で日本人に便利なレストラン・クリニック・美容室・不動産など、カテゴリ別に探せるKAIマップ。`,
       openGraph: {
-        title: `${country.name}の日本人向けスポット一覧 | Kaigaijin`,
-        description: `${country.name}で日本人に人気のスポットをカテゴリ別に探せます。`,
+        title: `${country.name}のKAIマップ | Kaigaijin`,
+        description: `${country.name}で日本人に便利なスポットをカテゴリ別に探せるKAIマップ。`,
         type: "website",
         locale: "ja_JP",
         url: `https://kaigaijin.jp/${code}/spot`,
@@ -123,18 +123,6 @@ export default async function SpotIndexPage({
     description: spot.description,
     tags: spot.tags,
   }));
-
-  // スポットがあるカテゴリのslugセット
-  const activeCategorySlugs = new Set(
-    categories
-      .filter((cat) => (counts[cat.slug] ?? 0) > 0)
-      .map((cat) => cat.slug)
-  );
-
-  // まだスポットがないカテゴリ
-  const emptyCategories = categories.filter(
-    (cat) => (counts[cat.slug] ?? 0) === 0
-  );
 
   // ピックアップスポット（各グループから1件ずつ選んでバランスよく表示）
   const recentSpots: typeof allSpots = [];
@@ -171,15 +159,15 @@ export default async function SpotIndexPage({
                 {country.flag} {country.name}
               </Link>
               <ChevronRight size={12} />
-              <span className="text-stone-600 dark:text-stone-300">スポット</span>
+              <span className="text-stone-600 dark:text-stone-300">KAIマップ</span>
             </nav>
             <div className="flex items-center justify-between">
               <div>
                 <h1 className="text-2xl font-bold text-stone-800 dark:text-stone-100">
-                  {country.flag} {country.name}のスポット
+                  {country.flag} {country.name}のKAIマップ
                 </h1>
                 <p className="text-sm text-stone-500 dark:text-stone-400 mt-1">
-                  {totalSpots}件のスポットを掲載中
+                  {totalSpots}件を掲載中
                 </p>
               </div>
               <Link
@@ -203,113 +191,30 @@ export default async function SpotIndexPage({
             <h2 className="text-sm font-semibold text-stone-500 dark:text-stone-400 uppercase tracking-wider mb-4">
               カテゴリから探す
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
               {categoryGroups.map((group) => {
                 const groupCount = groupCounts[group.slug] ?? 0;
                 const renderGroupIcon = iconMap[group.icon];
-                const childCategories = group.categories
-                  .map((slug) => {
-                    const cat = categories.find((c) => c.slug === slug);
-                    if (!cat) return null;
-                    return { ...cat, count: counts[cat.slug] ?? 0 };
-                  })
-                  .filter(
-                    (c): c is NonNullable<typeof c> => c !== null
-                  );
 
                 return (
-                  <div
+                  <Link
                     key={group.slug}
-                    className="bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 overflow-hidden"
+                    href={`/${code}/spot/${group.slug}`}
+                    className="group bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 p-4 hover:border-ocean-400 dark:hover:border-ocean-500 hover:shadow-md transition-all text-center"
                   >
-                    {/* グループヘッダー */}
-                    <div className="flex items-center gap-3 px-4 py-3 border-b border-stone-100 dark:border-stone-700">
-                      <div className="w-9 h-9 bg-stone-50 dark:bg-stone-700 rounded-lg flex items-center justify-center text-ocean-600 dark:text-ocean-400">
-                        {renderGroupIcon?.(18)}
-                      </div>
-                      <div>
-                        <p className="text-sm font-semibold text-stone-700 dark:text-stone-200">
-                          {group.name}
-                        </p>
-                        <p className="text-xs text-stone-400">
-                          {groupCount}件
-                        </p>
-                      </div>
+                    <div className="w-12 h-12 mx-auto bg-stone-50 dark:bg-stone-700 rounded-xl flex items-center justify-center text-ocean-600 dark:text-ocean-400 group-hover:bg-ocean-50 dark:group-hover:bg-ocean-900/30 transition-colors mb-3">
+                      {renderGroupIcon?.(22)}
                     </div>
-
-                    {/* 子カテゴリリスト */}
-                    <div className="divide-y divide-stone-50 dark:divide-stone-700">
-                      {childCategories.map((cat) => {
-                        const hasSpots = activeCategorySlugs.has(cat.slug);
-                        const renderCatIcon = iconMap[cat.icon];
-                        if (hasSpots) {
-                          return (
-                            <Link
-                              key={cat.slug}
-                              href={`/${code}/spot/${cat.slug}`}
-                              className="flex items-center gap-3 px-4 py-2.5 hover:bg-stone-50 dark:hover:bg-stone-700/50 transition-colors"
-                            >
-                              <span className="text-stone-400 dark:text-stone-500">
-                                {renderCatIcon?.(14)}
-                              </span>
-                              <span className="flex-1 text-sm text-stone-600 dark:text-stone-300 hover:text-ocean-600 dark:hover:text-ocean-400 transition-colors">
-                                {cat.name}
-                              </span>
-                              <span className="text-xs text-stone-400 tabular-nums">
-                                {cat.count}件
-                              </span>
-                              <ChevronRight
-                                size={14}
-                                className="text-stone-300 dark:text-stone-600"
-                              />
-                            </Link>
-                          );
-                        }
-                        return (
-                          <div
-                            key={cat.slug}
-                            className="flex items-center gap-3 px-4 py-2.5 opacity-50"
-                          >
-                            <span className="text-stone-400 dark:text-stone-500">
-                              {renderCatIcon?.(14)}
-                            </span>
-                            <span className="flex-1 text-sm text-stone-400 dark:text-stone-500">
-                              {cat.name}
-                            </span>
-                            <span className="text-xs text-stone-300 dark:text-stone-600">
-                              準備中
-                            </span>
-                          </div>
-                        );
-                      })}
-                    </div>
-                  </div>
+                    <p className="text-sm font-semibold text-stone-700 dark:text-stone-200 group-hover:text-ocean-600 dark:group-hover:text-ocean-400 transition-colors">
+                      {group.name}
+                    </p>
+                    <p className="text-xs text-stone-400 mt-1">
+                      {groupCount}件
+                    </p>
+                  </Link>
                 );
               })}
             </div>
-
-            {/* まだスポットがないカテゴリ（グループに属さないもの） */}
-            {emptyCategories.length > 0 && (
-              <div className="mt-4">
-                <div className="flex flex-wrap gap-2">
-                  {emptyCategories
-                    .filter(
-                      (cat) =>
-                        !categoryGroups.some((g) =>
-                          g.categories.includes(cat.slug)
-                        )
-                    )
-                    .map((cat) => (
-                      <span
-                        key={cat.slug}
-                        className="text-xs text-stone-400 dark:text-stone-500 bg-stone-200/50 dark:bg-stone-800 rounded-full px-3 py-1"
-                      >
-                        {cat.name}（準備中）
-                      </span>
-                    ))}
-                </div>
-              </div>
-            )}
           </section>
 
           {/* ピックアップスポット */}
@@ -360,7 +265,7 @@ export default async function SpotIndexPage({
           {/* フッターCTA */}
           <section className="mt-10 bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 p-6 text-center">
             <p className="text-sm text-stone-600 dark:text-stone-400">
-              掲載されていないスポットや情報の修正は
+              掲載されていない場所や情報の修正は
               <Link
                 href="/contact"
                 className="text-ocean-600 dark:text-ocean-400 hover:underline font-medium ml-1"

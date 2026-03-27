@@ -154,7 +154,7 @@ export default async function SpotDetailPage({
       {
         "@type": "ListItem",
         position: 3,
-        name: "スポット",
+        name: "KAIマップ",
         item: `https://kaigaijin.jp/${code}/spot`,
       },
       {
@@ -206,7 +206,7 @@ export default async function SpotDetailPage({
                 href={`/${code}/spot`}
                 className="hover:text-ocean-600 transition-colors"
               >
-                スポット
+                KAIマップ
               </Link>
               <ChevronRight size={12} />
               <Link
@@ -264,7 +264,7 @@ export default async function SpotDetailPage({
                 <div className="flex items-start gap-3 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-xl px-4 py-3">
                   <AlertTriangle size={16} className="text-red-600 dark:text-red-400 shrink-0 mt-0.5" />
                   <p className="text-xs text-red-700 dark:text-red-300">
-                    このスポットは閉店の可能性があるとの報告を受けています。訪問前に公式サイトや電話で営業状況をご確認ください。
+                    閉店の可能性があるとの報告を受けています。訪問前に公式サイトや電話で営業状況をご確認ください。
                   </p>
                 </div>
               )}
@@ -535,7 +535,7 @@ export default async function SpotDetailPage({
                 <div className="mt-4 pt-6 border-t border-stone-300 dark:border-stone-600">
                   <div className="flex items-center justify-between mb-3">
                     <h2 className="text-xs font-medium text-stone-400 dark:text-stone-500 uppercase tracking-wider">
-                      {category.name}の他のスポット
+                      {category.name}の他の場所
                     </h2>
                     <Link
                       href={`/${code}/spot/${catSlug}`}

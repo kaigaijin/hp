@@ -78,7 +78,7 @@ export default function Header() {
             href="/sg/spot"
             className="hover:text-ocean-700 dark:hover:text-ocean-400 transition-colors"
           >
-            スポット検索
+            KAIマップ
           </Link>
           <ThemeToggle />
           <UserMenu />
@@ -135,7 +135,7 @@ export default function Header() {
               onClick={() => setOpen(false)}
               className="py-2 text-ocean-600 dark:text-ocean-400 font-semibold"
             >
-              スポット検索
+              KAIマップ
             </Link>
           </div>
         </nav>

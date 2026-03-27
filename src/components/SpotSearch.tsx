@@ -50,7 +50,7 @@ export default function SpotSearch({
           type="text"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="スポット名・エリア・キーワードで検索"
+          placeholder="名前・エリア・キーワードで検索"
           className="w-full pl-9 pr-9 py-2.5 rounded-xl border border-stone-200 dark:border-stone-600 bg-white dark:bg-stone-800 text-sm focus:outline-none focus:ring-2 focus:ring-ocean-500 placeholder:text-stone-400"
         />
         {query && (
@@ -95,7 +95,7 @@ export default function SpotSearch({
       {query.length >= 2 && results.length === 0 && (
         <div className="absolute top-full left-0 right-0 mt-1 bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 shadow-lg z-50 px-4 py-6 text-center">
           <p className="text-sm text-stone-500">
-            「{query}」に一致するスポットが見つかりませんでした
+            「{query}」に一致する結果が見つかりませんでした
           </p>
         </div>
       )}
