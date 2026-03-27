@@ -35,12 +35,16 @@ import type { Metadata } from "next";
 
 type Params = { country: string; category: string; slug: string };
 
+// スポット数が多いためビルド時は主要ページのみ静的生成し、残りはオンデマンド生成
+export const dynamicParams = true;
+
 export function generateStaticParams() {
+  // ビルドサイズ制限のため、各国・各カテゴリ上位10件のみ事前生成
   const params: Params[] = [];
   for (const c of countries) {
     for (const cat of categories) {
       const spots = getSpotsByCategory(c.code, cat.slug);
-      for (const spot of spots) {
+      for (const spot of spots.slice(0, 10)) {
         params.push({
           country: c.code,
           category: cat.slug,
