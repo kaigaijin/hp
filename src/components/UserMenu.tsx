@@ -1,129 +1,258 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import { LogIn, LogOut, User, X } from "lucide-react";
+import { LogIn, LogOut, X, Loader2 } from "lucide-react";
+import { useAuth } from "@/components/AuthProvider";
 
-// ニックネームをlocalStorageで管理
-function getSavedNickname(): string | null {
-  if (typeof window === "undefined") return null;
-  return localStorage.getItem("kaigaijin_nickname") || null;
-}
-
-function saveNickname(name: string) {
-  if (typeof window !== "undefined") {
-    localStorage.setItem("kaigaijin_nickname", name);
-  }
-}
-
-function clearNickname() {
-  if (typeof window !== "undefined") {
-    localStorage.removeItem("kaigaijin_nickname");
-  }
-}
+type FormMode = "login" | "signup";
 
 export default function UserMenu() {
-  const [nickname, setNickname] = useState<string | null>(null);
+  const { user, loading, signIn, signUp, signOut, displayName } = useAuth();
   const [open, setOpen] = useState(false);
-  const [showInput, setShowInput] = useState(false);
-  const [inputValue, setInputValue] = useState("");
+  const [showForm, setShowForm] = useState(false);
+  const [formMode, setFormMode] = useState<FormMode>("login");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [nickname, setNickname] = useState("");
+  const [error, setError] = useState("");
+  const [submitting, setSubmitting] = useState(false);
+  const [signUpSuccess, setSignUpSuccess] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    setNickname(getSavedNickname());
-  }, []);
 
   // 外側クリックで閉じる
   useEffect(() => {
     function handleClick(e: MouseEvent) {
       if (ref.current && !ref.current.contains(e.target as Node)) {
         setOpen(false);
-        setShowInput(false);
+        setShowForm(false);
+        setSignUpSuccess(false);
       }
     }
     document.addEventListener("mousedown", handleClick);
     return () => document.removeEventListener("mousedown", handleClick);
   }, []);
 
-  function handleSetNickname(e: React.FormEvent) {
-    e.preventDefault();
-    const trimmed = inputValue.trim();
-    if (!trimmed) return;
-    saveNickname(trimmed);
-    // レビュー用のnameも同期
-    localStorage.setItem("kaigaijin_reviewer_name", trimmed);
-    setNickname(trimmed);
-    setShowInput(false);
-    setInputValue("");
+  function resetForm() {
+    setEmail("");
+    setPassword("");
+    setNickname("");
+    setError("");
+    setSubmitting(false);
+    setSignUpSuccess(false);
   }
 
-  function handleLogout() {
-    clearNickname();
-    setNickname(null);
-    setOpen(false);
+  async function handleLogin(e: React.FormEvent) {
+    e.preventDefault();
+    if (!email.trim() || !password) return;
+    setSubmitting(true);
+    setError("");
+    const result = await signIn(email.trim(), password);
+    setSubmitting(false);
+    if (result.error) {
+      setError("メールアドレスまたはパスワードが正しくありません");
+    } else {
+      setShowForm(false);
+      resetForm();
+    }
+  }
+
+  async function handleSignUp(e: React.FormEvent) {
+    e.preventDefault();
+    if (!email.trim() || !password || !nickname.trim()) return;
+    if (password.length < 6) {
+      setError("パスワードは6文字以上で入力してください");
+      return;
+    }
+    setSubmitting(true);
+    setError("");
+    const result = await signUp(email.trim(), password, nickname.trim());
+    setSubmitting(false);
+    if (result.error) {
+      if (result.error.includes("already registered")) {
+        setError("このメールアドレスは既に登録されています");
+      } else {
+        setError("登録に失敗しました。入力内容を確認してください");
+      }
+    } else {
+      setSignUpSuccess(true);
+    }
+  }
+
+  if (loading) {
+    return (
+      <div className="w-7 h-7 flex items-center justify-center">
+        <Loader2 size={14} className="animate-spin text-stone-400" />
+      </div>
+    );
   }
 
   // 未ログイン
-  if (!nickname) {
+  if (!user) {
     return (
       <div ref={ref} className="relative">
         <button
-          onClick={() => setShowInput(!showInput)}
+          onClick={() => {
+            setShowForm(!showForm);
+            setFormMode("login");
+            resetForm();
+          }}
           className="inline-flex items-center gap-1.5 text-sm text-stone-500 dark:text-stone-400 hover:text-ocean-600 dark:hover:text-ocean-400 transition-colors"
-          title="ニックネームを設定"
+          title="ログイン"
         >
           <LogIn size={16} />
           <span className="hidden sm:inline">ログイン</span>
         </button>
 
-        {showInput && (
-          <div className="absolute right-0 top-full mt-2 w-64 bg-white dark:bg-stone-800 rounded-xl shadow-lg border border-stone-200 dark:border-stone-700 p-4 z-50">
+        {showForm && (
+          <div className="absolute right-0 top-full mt-2 w-72 bg-white dark:bg-stone-800 rounded-xl shadow-lg border border-stone-200 dark:border-stone-700 p-4 z-50">
             <div className="flex items-center justify-between mb-3">
               <p className="text-sm font-medium text-stone-700 dark:text-stone-200">
-                ニックネームを入力
+                {formMode === "login" ? "ログイン" : "新規登録"}
               </p>
               <button
-                onClick={() => setShowInput(false)}
+                onClick={() => {
+                  setShowForm(false);
+                  resetForm();
+                }}
                 className="text-stone-400 hover:text-stone-600 dark:hover:text-stone-300"
               >
                 <X size={14} />
               </button>
             </div>
-            <form onSubmit={handleSetNickname} className="space-y-2">
-              <input
-                type="text"
-                value={inputValue}
-                onChange={(e) => setInputValue(e.target.value)}
-                placeholder="例: りゅう"
-                maxLength={30}
-                autoFocus
-                className="w-full px-3 py-2 rounded-lg border border-stone-200 dark:border-stone-600 bg-stone-50 dark:bg-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-ocean-500 placeholder:text-stone-400"
-              />
-              <button
-                type="submit"
-                disabled={!inputValue.trim()}
-                className="w-full px-3 py-2 bg-ocean-600 text-white text-sm font-medium rounded-lg hover:bg-ocean-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
-              >
-                設定する
-              </button>
-            </form>
-            <p className="text-xs text-stone-400 mt-2">
-              レビュー投稿時の表示名になります
-            </p>
+
+            {signUpSuccess ? (
+              <div className="text-sm text-stone-600 dark:text-stone-300 space-y-2">
+                <p className="text-green-600 dark:text-green-400 font-medium">
+                  登録メールを送信しました
+                </p>
+                <p className="text-xs text-stone-500 dark:text-stone-400">
+                  メール内のリンクをクリックして登録を完了してください。
+                </p>
+                <button
+                  onClick={() => {
+                    setFormMode("login");
+                    setSignUpSuccess(false);
+                    resetForm();
+                  }}
+                  className="text-xs text-ocean-600 dark:text-ocean-400 hover:underline"
+                >
+                  ログインに戻る
+                </button>
+              </div>
+            ) : formMode === "login" ? (
+              <form onSubmit={handleLogin} className="space-y-2">
+                <input
+                  type="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder="メールアドレス"
+                  required
+                  autoFocus
+                  className="w-full px-3 py-2 rounded-lg border border-stone-200 dark:border-stone-600 bg-stone-50 dark:bg-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-ocean-500 placeholder:text-stone-400"
+                />
+                <input
+                  type="password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  placeholder="パスワード"
+                  required
+                  className="w-full px-3 py-2 rounded-lg border border-stone-200 dark:border-stone-600 bg-stone-50 dark:bg-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-ocean-500 placeholder:text-stone-400"
+                />
+                {error && (
+                  <p className="text-xs text-red-600 dark:text-red-400">{error}</p>
+                )}
+                <button
+                  type="submit"
+                  disabled={submitting || !email.trim() || !password}
+                  className="w-full px-3 py-2 bg-ocean-600 text-white text-sm font-medium rounded-lg hover:bg-ocean-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors flex items-center justify-center gap-1.5"
+                >
+                  {submitting && <Loader2 size={14} className="animate-spin" />}
+                  ログイン
+                </button>
+                <p className="text-xs text-stone-400 text-center pt-1">
+                  アカウントをお持ちでない方は{" "}
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setFormMode("signup");
+                      setError("");
+                    }}
+                    className="text-ocean-600 dark:text-ocean-400 hover:underline"
+                  >
+                    新規登録
+                  </button>
+                </p>
+              </form>
+            ) : (
+              <form onSubmit={handleSignUp} className="space-y-2">
+                <input
+                  type="text"
+                  value={nickname}
+                  onChange={(e) => setNickname(e.target.value)}
+                  placeholder="ニックネーム"
+                  required
+                  maxLength={30}
+                  autoFocus
+                  className="w-full px-3 py-2 rounded-lg border border-stone-200 dark:border-stone-600 bg-stone-50 dark:bg-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-ocean-500 placeholder:text-stone-400"
+                />
+                <input
+                  type="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder="メールアドレス"
+                  required
+                  className="w-full px-3 py-2 rounded-lg border border-stone-200 dark:border-stone-600 bg-stone-50 dark:bg-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-ocean-500 placeholder:text-stone-400"
+                />
+                <input
+                  type="password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  placeholder="パスワード（6文字以上）"
+                  required
+                  minLength={6}
+                  className="w-full px-3 py-2 rounded-lg border border-stone-200 dark:border-stone-600 bg-stone-50 dark:bg-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-ocean-500 placeholder:text-stone-400"
+                />
+                {error && (
+                  <p className="text-xs text-red-600 dark:text-red-400">{error}</p>
+                )}
+                <button
+                  type="submit"
+                  disabled={submitting || !email.trim() || !password || !nickname.trim()}
+                  className="w-full px-3 py-2 bg-ocean-600 text-white text-sm font-medium rounded-lg hover:bg-ocean-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors flex items-center justify-center gap-1.5"
+                >
+                  {submitting && <Loader2 size={14} className="animate-spin" />}
+                  登録する
+                </button>
+                <p className="text-xs text-stone-400 text-center pt-1">
+                  アカウントをお持ちの方は{" "}
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setFormMode("login");
+                      setError("");
+                    }}
+                    className="text-ocean-600 dark:text-ocean-400 hover:underline"
+                  >
+                    ログイン
+                  </button>
+                </p>
+              </form>
+            )}
           </div>
         )}
       </div>
     );
   }
 
-  // ログイン中
-  const initials = nickname.slice(0, 1);
+  // ログイン済み
+  const initials = (displayName ?? "?").slice(0, 1);
 
   return (
     <div ref={ref} className="relative">
       <button
         onClick={() => setOpen(!open)}
         className="flex items-center gap-1.5 hover:opacity-80 transition-opacity"
-        title={nickname}
+        title={displayName ?? undefined}
       >
         <div className="w-7 h-7 rounded-full bg-ocean-100 dark:bg-ocean-900 flex items-center justify-center">
           <span className="text-xs font-medium text-ocean-700 dark:text-ocean-300">
@@ -136,21 +265,14 @@ export default function UserMenu() {
         <div className="absolute right-0 top-full mt-2 w-56 bg-white dark:bg-stone-800 rounded-xl shadow-lg border border-stone-200 dark:border-stone-700 py-2 z-50">
           <div className="px-4 py-2 border-b border-stone-100 dark:border-stone-700">
             <p className="text-sm font-medium text-stone-700 dark:text-stone-200 truncate">
-              {nickname}
+              {displayName}
             </p>
           </div>
           <button
             onClick={() => {
+              signOut();
               setOpen(false);
-              setShowInput(true);
             }}
-            className="w-full flex items-center gap-2 px-4 py-2 text-sm text-stone-600 dark:text-stone-400 hover:bg-stone-50 dark:hover:bg-stone-700 transition-colors"
-          >
-            <User size={14} />
-            名前を変更
-          </button>
-          <button
-            onClick={handleLogout}
             className="w-full flex items-center gap-2 px-4 py-2 text-sm text-stone-600 dark:text-stone-400 hover:bg-stone-50 dark:hover:bg-stone-700 transition-colors"
           >
             <LogOut size={14} />

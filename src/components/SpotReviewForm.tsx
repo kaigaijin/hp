@@ -11,10 +11,11 @@ import {
   MessageSquare,
 } from "lucide-react";
 import SpotScoreDisplay, { StarRating } from "@/components/SpotScore";
+import { useAuth } from "@/components/AuthProvider";
 import type { SpotScore } from "@/lib/review-score";
 
-// reviewer_id をブラウザごとに生成・永続化
-function getReviewerId(): string {
+// reviewer_id をブラウザごとに生成・永続化（未ログインユーザー用）
+function getLocalReviewerId(): string {
   if (typeof window === "undefined") return "";
   const key = "kaigaijin_reviewer_id";
   let id = localStorage.getItem(key);
@@ -23,18 +24,6 @@ function getReviewerId(): string {
     localStorage.setItem(key, id);
   }
   return id;
-}
-
-// reviewer_name を永続化
-function getSavedName(): string {
-  if (typeof window === "undefined") return "";
-  return localStorage.getItem("kaigaijin_reviewer_name") ?? "";
-}
-
-function saveName(name: string) {
-  if (typeof window !== "undefined") {
-    localStorage.setItem("kaigaijin_reviewer_name", name);
-  }
 }
 
 type ReviewDisplay = {
@@ -57,6 +46,7 @@ export default function SpotReviewForm({
   spotSlug: string;
   spotName: string;
 }) {
+  const { user, displayName } = useAuth();
   const [score, setScore] = useState<SpotScore | null>(null);
   const [reviews, setReviews] = useState<ReviewDisplay[]>([]);
   const [showAllReviews, setShowAllReviews] = useState(false);
@@ -80,12 +70,6 @@ export default function SpotReviewForm({
         const data = await res.json();
         setScore(data.score);
         setReviews(data.reviews ?? []);
-        // 投稿済みチェック
-        const myId = getReviewerId();
-        const hasReviewed = (data.reviews ?? []).some(
-          (r: ReviewDisplay) => r.reviewer_id === myId
-        );
-        setAlreadyReviewed(hasReviewed);
       }
     } catch {}
   }, [country, category, spotSlug]);
@@ -94,6 +78,22 @@ export default function SpotReviewForm({
     fetchData();
   }, [fetchData]);
 
+  // 投稿済み判定（user変更時にも再判定）
+  useEffect(() => {
+    if (reviews.length === 0) {
+      setAlreadyReviewed(false);
+      return;
+    }
+    const myId = user ? user.id : getLocalReviewerId();
+    if (!myId) {
+      setAlreadyReviewed(false);
+      return;
+    }
+    setAlreadyReviewed(reviews.some((r) => r.reviewer_id === myId));
+  }, [reviews, user]);
+
+  // 表示名（ログイン中: ニックネーム、未ログイン: 匿名）
+  const reviewerName = user ? (displayName ?? "匿名") : "匿名";
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -112,19 +112,19 @@ export default function SpotReviewForm({
           country,
           category,
           spot_slug: spotSlug,
-          reviewer_id: getReviewerId(),
-          reviewer_name: getSavedName() || "匿名",
+          reviewer_id: user ? user.id : getLocalReviewerId(),
+          reviewer_name: reviewerName,
           rating,
           comment: comment.trim() || null,
         }),
       });
       if (res.ok) {
-        const displayedName = getSavedName() || "匿名";
         // ローカルに反映
         setReviews((prev) => [
           {
             id: crypto.randomUUID(),
-            reviewer_name: displayedName,
+            reviewer_name: reviewerName,
+            reviewer_id: user ? user.id : getLocalReviewerId(),
             rating,
             comment: comment.trim() || null,
             created_at: new Date().toISOString(),
@@ -139,6 +139,10 @@ export default function SpotReviewForm({
         setTimeout(() => setSubmitted(false), 3000);
         // スコアを再取得
         fetchData();
+      } else if (res.status === 409) {
+        setError("このスポットには既にレビューを投稿済みです");
+        setAlreadyReviewed(true);
+        setShowForm(false);
       } else {
         const data = await res.json();
         setError(data.error || "送信に失敗しました");
@@ -232,6 +236,21 @@ export default function SpotReviewForm({
                   </span>
                 )}
               </div>
+            </div>
+
+            {/* 投稿者名表示 */}
+            <div>
+              <label className="text-xs text-stone-500 dark:text-stone-400 mb-1 block">
+                表示名
+              </label>
+              <p className="px-3 py-2 rounded-lg bg-stone-50 dark:bg-stone-900 text-sm text-stone-600 dark:text-stone-300 border border-stone-200 dark:border-stone-600">
+                {reviewerName}
+                {!user && (
+                  <span className="ml-2 text-xs text-stone-400">
+                    （ログインするとニックネームで投稿できます）
+                  </span>
+                )}
+              </p>
             </div>
 
             {/* コメント */}

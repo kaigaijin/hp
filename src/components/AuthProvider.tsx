@@ -13,16 +13,18 @@ import type { User } from "@supabase/supabase-js";
 type AuthContextType = {
   user: User | null;
   loading: boolean;
-  signInWithGoogle: () => Promise<void>;
+  signIn: (email: string, password: string) => Promise<{ error: string | null }>;
+  signUp: (email: string, password: string, nickname: string) => Promise<{ error: string | null }>;
   signOut: () => Promise<void>;
-  /** ログイン中ならユーザー名、未ログインならnull */
+  /** ログイン中ならニックネーム、未ログインならnull */
   displayName: string | null;
 };
 
 const AuthContext = createContext<AuthContextType>({
   user: null,
   loading: true,
-  signInWithGoogle: async () => {},
+  signIn: async () => ({ error: null }),
+  signUp: async () => ({ error: null }),
   signOut: async () => {},
   displayName: null,
 });
@@ -56,13 +58,31 @@ export default function AuthProvider({
     return () => subscription.unsubscribe();
   }, []);
 
-  const signInWithGoogle = useCallback(async () => {
-    await supabase.auth.signInWithOAuth({
-      provider: "google",
+  const signIn = useCallback(async (email: string, password: string) => {
+    const { error } = await supabase.auth.signInWithPassword({
+      email,
+      password,
+    });
+    if (error) {
+      return { error: error.message };
+    }
+    return { error: null };
+  }, []);
+
+  const signUp = useCallback(async (email: string, password: string, nickname: string) => {
+    const { error } = await supabase.auth.signUp({
+      email,
+      password,
       options: {
-        redirectTo: window.location.href,
+        data: {
+          nickname,
+        },
       },
     });
+    if (error) {
+      return { error: error.message };
+    }
+    return { error: null };
   }, []);
 
   const signOut = useCallback(async () => {
@@ -70,14 +90,13 @@ export default function AuthProvider({
   }, []);
 
   const displayName =
-    user?.user_metadata?.full_name ??
-    user?.user_metadata?.name ??
+    user?.user_metadata?.nickname ??
     user?.email ??
     null;
 
   return (
     <AuthContext.Provider
-      value={{ user, loading, signInWithGoogle, signOut, displayName }}
+      value={{ user, loading, signIn, signUp, signOut, displayName }}
     >
       {children}
     </AuthContext.Provider>
