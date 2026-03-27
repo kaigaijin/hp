@@ -3,6 +3,7 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SpotSearch from "@/components/SpotSearch";
+import SpotPickup from "@/components/SpotPickup";
 import { getCountry, countries } from "@/lib/countries";
 import {
   categories,
@@ -35,7 +36,6 @@ import {
   Car,
   SprayCan,
   Wrench,
-  MapPin,
   Search,
   ChevronRight,
   Phone,
@@ -124,21 +124,17 @@ export default async function SpotIndexPage({
     tags: spot.tags,
   }));
 
-  // ピックアップスポット（各グループから1件ずつ選んでバランスよく表示）
-  const recentSpots: typeof allSpots = [];
-  for (const group of categoryGroups) {
-    const groupSpot = allSpots.find(
-      (s) => group.categories.includes(s.category) && !recentSpots.some((r) => r.slug === s.slug)
-    );
-    if (groupSpot) recentSpots.push(groupSpot);
-  }
-  // 7グループ未満の場合は残りから補充
-  if (recentSpots.length < 7) {
-    for (const s of allSpots) {
-      if (recentSpots.length >= 7) break;
-      if (!recentSpots.some((r) => r.slug === s.slug)) recentSpots.push(s);
-    }
-  }
+  // ピックアップ用データ（クライアントコンポーネントでランダム表示）
+  const pickupSpots = allSpots.map((s) => ({
+    slug: s.slug,
+    name: s.name,
+    name_ja: s.name_ja,
+    area: s.area,
+    category: s.category,
+    categoryName: getCategory(s.category)?.name ?? s.category,
+    tags: s.tags,
+    group: categoryGroups.find((g) => g.categories.includes(s.category))?.slug ?? "",
+  }));
 
   return (
     <>
@@ -217,50 +213,12 @@ export default async function SpotIndexPage({
             </div>
           </section>
 
-          {/* ピックアップスポット */}
-          {recentSpots.length > 0 && (
-            <section className="mt-10">
-              <h2 className="text-sm font-semibold text-stone-500 dark:text-stone-400 uppercase tracking-wider mb-4">
-                ピックアップ
-              </h2>
-              <div className="space-y-2">
-                {recentSpots.map((spot) => (
-                  <Link
-                    key={`${spot.category}-${spot.slug}`}
-                    href={`/${code}/spot/${spot.category}/${spot.slug}`}
-                    className="group flex items-center gap-4 bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 px-4 py-3 hover:border-ocean-400 dark:hover:border-ocean-500 hover:shadow-sm transition-all"
-                  >
-                    <div className="flex-1 min-w-0">
-                      <div className="flex items-center gap-2">
-                        <p className="text-sm font-semibold text-stone-700 dark:text-stone-200 truncate group-hover:text-ocean-700 dark:group-hover:text-ocean-400 transition-colors">
-                          {spot.name_ja ?? spot.name}
-                        </p>
-                        {spot.name_ja && (
-                          <span className="text-xs text-stone-400 hidden sm:inline truncate">
-                            {spot.name}
-                          </span>
-                        )}
-                      </div>
-                      <div className="flex items-center gap-3 mt-1">
-                        <span className="inline-flex items-center gap-1 text-xs text-stone-400">
-                          <MapPin size={10} />
-                          {spot.area}
-                        </span>
-                        <span className="text-xs text-ocean-600 dark:text-ocean-400 bg-ocean-50 dark:bg-ocean-900/30 px-1.5 py-0.5 rounded">
-                          {categories.find((c) => c.slug === spot.category)
-                            ?.name ?? spot.category}
-                        </span>
-                      </div>
-                    </div>
-                    <ChevronRight
-                      size={16}
-                      className="text-stone-300 dark:text-stone-600 group-hover:text-ocean-500 shrink-0"
-                    />
-                  </Link>
-                ))}
-              </div>
-            </section>
-          )}
+          {/* ピックアップスポット（クライアントサイドでランダム表示） */}
+          <SpotPickup
+            spots={pickupSpots}
+            countryCode={code}
+            groups={categoryGroups.map((g) => g.slug)}
+          />
 
           {/* フッターCTA */}
           <section className="mt-10 bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 p-6 text-center">
