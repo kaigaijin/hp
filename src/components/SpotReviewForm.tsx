@@ -124,6 +124,7 @@ export default function SpotReviewForm({
         setShowForm(false);
         setSubmitted(true);
         setAlreadyReviewed(true);
+        fetchData();
         setTimeout(() => setSubmitted(false), 3000);
       } else if (res.status === 409) {
         setError("このスポットには既にレビューを投稿済みです");
