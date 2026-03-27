@@ -114,25 +114,6 @@
     "source": "website"
   },
   {
-    "slug": "nana-s-green-tea-melbourne-2",
-    "name": "Nana's Green Tea Emporium",
-    "name_ja": "ナナズグリーンティー エンポリアム",
-    "area": "South Melbourne",
-    "address": "Level 2, Emporium Melbourne, 287 Lonsdale Street, Melbourne VIC 3000",
-    "phone": null,
-    "website": null,
-    "description": "日本発の抹茶カフェチェーン。抹茶ラテ、抹茶パフェ、和風丼ぶりなどを提供。エンポリアム店。",
-    "tags": [
-      "抹茶",
-      "カフェ",
-      "日本チェーン"
-    ],
-    "hours": "毎日 10:00-21:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
     "slug": "tsujiri-melbourne",
     "name": "Tsujiri Melbourne",
     "name_ja": "辻利 メルボルン",
@@ -432,6 +413,196 @@
     "hours": "要確認",
     "status": "unverified",
     "last_verified": "2026-03-27",
+    "source": "website"
+  },
+  {
+    "slug": "issho-cafe-haymarket",
+    "name": "Issho Cafe",
+    "name_ja": "一緒カフェ",
+    "area": "Haymarket",
+    "address": "Shop 3/710 George Street, Haymarket NSW 2000",
+    "phone": null,
+    "website": null,
+    "description": "ヘイマーケットの日本式抹茶＆デザートカフェ。ピンク抹茶スフレパンケーキ、抹茶フレンチトースト、抹茶クレープケーキなど16種の抹茶メニュー。毎日8:00〜23:30営業。",
+    "tags": [
+      "抹茶",
+      "スフレパンケーキ",
+      "デザート"
+    ],
+    "hours": "毎日 8:00〜23:30",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "matcha-kobo-melbourne",
+    "name": "Matcha Kobo",
+    "name_ja": "抹茶工房",
+    "area": "Melbourne CBD",
+    "address": "Level 2/258 Lonsdale Street, Melbourne VIC 3000",
+    "phone": "+61437284029",
+    "website": null,
+    "description": "メルボルンCBDの石臼挽き抹茶カフェ。愛知県産の石臼4台で茶道用グレード抹茶をその場で挽いて提供。90席。クレープケーキやほうじ茶タルトも。",
+    "tags": [
+      "抹茶",
+      "石臼挽き",
+      "専門店"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "cafe-cre-asion-sydney",
+    "name": "Cafe Cre Asion",
+    "name_ja": "カフェ クレアシオン",
+    "area": "Sydney CBD",
+    "address": "101/21 Alberta Street, Sydney NSW 2000",
+    "phone": null,
+    "website": "https://www.creasion.com.au/",
+    "description": "2011年創業のシドニーCBDの日本式抹茶カフェ。8席の小さなティーハウスで抹茶ラテ・抹茶フォンダン・手作りマカロンを提供。",
+    "tags": [
+      "抹茶",
+      "パティスリー",
+      "マカロン"
+    ],
+    "hours": "月〜金 7:00〜16:00 / 土 8:30〜16:00（日曜休）",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "moon-and-back-sydney",
+    "name": "Moon & Back",
+    "name_ja": "ムーンアンドバック",
+    "area": "Sydney",
+    "address": "Sydney, NSW",
+    "phone": null,
+    "website": null,
+    "description": "シドニーの日本式カフェ。宇治抹茶ラテ（ホットミルクで泡立て抹茶クリームトッピング）と団子が人気。手作りの陶器のマグカップで提供。",
+    "tags": [
+      "抹茶",
+      "団子",
+      "陶器"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "tento-cafe-sydney",
+    "name": "TenTo",
+    "name_ja": "テント",
+    "area": "Sydney",
+    "address": "Sydney, NSW",
+    "phone": null,
+    "website": null,
+    "description": "シドニーの日本式カフェ。手作りの粘土マグカップで提供される抹茶ラテがシドニーで最も美味しいと評判。丁寧なドリンク作り。",
+    "tags": [
+      "抹茶ラテ",
+      "手作り陶器",
+      "カフェ"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "toris-melbourne-cafe",
+    "name": "Tori's Melbourne",
+    "name_ja": "トリズ メルボルン カフェ",
+    "area": "Melbourne CBD",
+    "address": "Melbourne CBD, VIC 3000",
+    "phone": null,
+    "website": null,
+    "description": "日本から直輸入した抹茶を使用したカフェ。抹茶バスクチーズケーキと抹茶マドレーヌが名物。注文ごとに抹茶をフレッシュに混ぜるため鮮やかな色と風味。",
+    "tags": [
+      "抹茶",
+      "バスクチーズケーキ",
+      "日本直輸入"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "percent-arabica-sydney",
+    "name": "% Arabica Sydney",
+    "name_ja": "アラビカ シドニー",
+    "area": "Sydney CBD",
+    "address": "Sydney CBD, NSW 2000",
+    "phone": null,
+    "website": "https://arabica.coffee/",
+    "description": "京都発のスペシャルティコーヒーのシドニー店。シンプルで洗練されたメニューとミニマルな空間。こだわりのラテアート。",
+    "tags": [
+      "スペシャルティコーヒー",
+      "京都発",
+      "ラテアート"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "ima-project-collingwood",
+    "name": "ima Project Cafe",
+    "name_ja": "いまプロジェクト カフェ",
+    "area": "Collingwood",
+    "address": "Collingwood, VIC 3066",
+    "phone": null,
+    "website": "https://www.imaproject.co/",
+    "description": "コリングウッドの日本風カフェ＆文化空間。サステナブルに配慮した日本食材とドリンクを提供。ワークショップやイベントも開催。",
+    "tags": [
+      "カフェ",
+      "サステナブル",
+      "文化空間"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "matcha-mate-melbourne-cafe",
+    "name": "Matcha Mate Melbourne",
+    "name_ja": "マッチャメイト メルボルン カフェ",
+    "area": "Melbourne CBD",
+    "address": "Melbourne CBD, VIC 3000",
+    "phone": null,
+    "website": null,
+    "description": "メルボルンCBDの抹茶専門カフェ。伝統的な抹茶ドリンクからクリエイティブな抹茶ドリンクまで幅広く提供。",
+    "tags": [
+      "抹茶",
+      "専門店",
+      "カフェ"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "nimbo-melbourne-cafe",
+    "name": "Nimbo Melbourne",
+    "name_ja": "ニンボ メルボルン カフェ",
+    "area": "Melbourne CBD",
+    "address": "Hardware Street, Melbourne CBD, VIC 3000",
+    "phone": null,
+    "website": null,
+    "description": "メルボルンCBDの日本風カフェ＆デザートバー。八女産抹茶を使ったラテやスムージー、トースト、ビンスー（かき氷）を提供。",
+    "tags": [
+      "抹茶",
+      "デザートバー",
+      "かき氷"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
     "source": "website"
   }
 ]
