@@ -625,5 +625,143 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "google_maps"
+  },
+  {
+    "slug": "bar-nine-linsen",
+    "name": "BAR NiNE",
+    "name_ja": "バーナイン",
+    "area": "Zhongshan",
+    "address": "No. 9, Lane 107, Linsen North Road, Zhongshan District, Taipei",
+    "phone": "+886225633057",
+    "website": "http://bar-9.net/",
+    "description": "林森北路六條通のトーキングバー。スタッフのほとんどが日本語を話し、一人でも気軽に飲める。日本のウイスキー・焼酎も充実。",
+    "tags": [
+      "バー",
+      "日本語対応",
+      "林森北路",
+      "一人飲み"
+    ],
+    "hours": "20:00〜翌2:00（日曜定休）",
+    "status": "unverified",
+    "last_verified": "2026-03-27",
+    "source": "website"
+  },
+  {
+    "slug": "subaruke-izakaya-zhongshan",
+    "name": "Subaruke Izakaya",
+    "name_ja": "昴家",
+    "area": "Zhongshan",
+    "address": "Near Linsen North Road, Zhongshan District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "林森北路エリアの居酒屋。在台日本人に人気で、日本人好みのメニューが揃う。焼き鳥・刺身・おでん・一品料理を提供。",
+    "tags": [
+      "居酒屋",
+      "日本人向け",
+      "林森北路"
+    ],
+    "hours": "18:00〜翌1:00",
+    "status": "unverified",
+    "last_verified": "2026-03-27",
+    "source": "google_maps"
+  },
+  {
+    "slug": "japanese-bar-7th-linsen",
+    "name": "Japanese BAR 7th",
+    "name_ja": "ジャパニーズバー セブンス",
+    "area": "Zhongshan",
+    "address": "Near Linsen North Road, Zhongshan District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "林森北路にある日本人と台湾人の共同経営によるラウンジバー。隠れ家的な雰囲気で、ウイスキーやカクテルを楽しめる。",
+    "tags": [
+      "バー",
+      "ラウンジ",
+      "林森北路",
+      "隠れ家"
+    ],
+    "hours": "20:00〜翌3:00",
+    "status": "unverified",
+    "last_verified": "2026-03-27",
+    "source": "google_maps"
+  },
+  {
+    "slug": "gyu-kaku-taichung",
+    "name": "Gyu-Kaku Taichung",
+    "name_ja": "牛角 台中",
+    "area": "Taichung",
+    "address": "Xitun District, Taichung",
+    "phone": null,
+    "website": null,
+    "description": "日本の焼肉チェーン牛角の台中店。食べ放題コースとアラカルト両方に対応。台中でも日本品質の焼肉が楽しめる。",
+    "tags": [
+      "焼肉",
+      "食べ放題",
+      "日本発チェーン",
+      "台中"
+    ],
+    "hours": "11:30〜24:00",
+    "status": "unverified",
+    "last_verified": "2026-03-27",
+    "source": "google_maps"
+  },
+  {
+    "slug": "gyu-kaku-kaohsiung",
+    "name": "Gyu-Kaku Kaohsiung",
+    "name_ja": "牛角 高雄",
+    "area": "Kaohsiung",
+    "address": "Qianjin District, Kaohsiung",
+    "phone": null,
+    "website": null,
+    "description": "牛角の高雄店。食べ放題プランが人気。南台湾でも日本式焼肉を堪能できる。",
+    "tags": [
+      "焼肉",
+      "食べ放題",
+      "日本発チェーン",
+      "高雄"
+    ],
+    "hours": "11:30〜24:00",
+    "status": "unverified",
+    "last_verified": "2026-03-27",
+    "source": "google_maps"
+  },
+  {
+    "slug": "kanpai-taichung",
+    "name": "Kanpai Taichung",
+    "name_ja": "乾杯 台中",
+    "area": "Taichung",
+    "address": "Xitun District, Taichung",
+    "phone": null,
+    "website": "https://www.kanpai.com.tw/",
+    "description": "台湾の人気日式焼肉チェーン乾杯の台中店。活気のある雰囲気と上質な肉が特徴。誕生日サプライズの演出でも知られる。",
+    "tags": [
+      "焼肉",
+      "日式",
+      "台中",
+      "エンターテイメント"
+    ],
+    "hours": "17:30〜24:00",
+    "status": "unverified",
+    "last_verified": "2026-03-27",
+    "source": "website"
+  },
+  {
+    "slug": "kanpai-kaohsiung",
+    "name": "Kanpai Kaohsiung",
+    "name_ja": "乾杯 高雄",
+    "area": "Kaohsiung",
+    "address": "Qianjin District, Kaohsiung",
+    "phone": null,
+    "website": "https://www.kanpai.com.tw/",
+    "description": "乾杯焼肉の高雄店。南台湾でも乾杯のスタイルの焼肉と盛り上がる雰囲気を楽しめる。",
+    "tags": [
+      "焼肉",
+      "日式",
+      "高雄"
+    ],
+    "hours": "17:30〜24:00",
+    "status": "unverified",
+    "last_verified": "2026-03-27",
+    "source": "website"
   }
 ]

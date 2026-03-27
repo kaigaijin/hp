@@ -678,5 +678,510 @@
     "status": "unverified",
     "source": "google_maps",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "tsujiri-mid-valley",
+    "name": "Tsujiri (Mid Valley)",
+    "name_ja": "辻利 ミッドバレー店",
+    "area": "Mid Valley",
+    "address": "Mid Valley Megamall, 59200 Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "京都発の抹茶専門カフェ「辻利」のミッドバレー店。宇治抹茶ラテ・ソフトクリーム・パフェを提供。",
+    "tags": [
+      "抹茶",
+      "京都",
+      "ソフトクリーム"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "tsujiri-sunway-pyramid",
+    "name": "Tsujiri (Sunway Pyramid)",
+    "name_ja": "辻利 サンウェイピラミッド店",
+    "area": "Subang Jaya",
+    "address": "Sunway Pyramid, 3, Jalan PJS 11/15, Bandar Sunway, 47500 Subang Jaya, Selangor",
+    "phone": null,
+    "website": null,
+    "description": "京都発の抹茶専門カフェ「辻利」のサンウェイピラミッド店。宇治抹茶ドリンクとスイーツを提供。",
+    "tags": [
+      "抹茶",
+      "京都",
+      "ソフトクリーム"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "108-matcha-saro-mid-valley",
+    "name": "108 Matcha Saro (Mid Valley)",
+    "name_ja": "108抹茶茶廊 ミッドバレー店",
+    "area": "Mid Valley",
+    "address": "Mid Valley Megamall, 59200 Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "北海道発の抹茶スイーツ専門店のミッドバレー店。京都産抹茶を使ったおばんやき・わらび餅・パフェを提供。",
+    "tags": [
+      "抹茶",
+      "スイーツ",
+      "おばんやき",
+      "北海道発"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "108-matcha-saro-sunway-pyramid",
+    "name": "108 Matcha Saro (Sunway Pyramid)",
+    "name_ja": "108抹茶茶廊 サンウェイピラミッド店",
+    "area": "Subang Jaya",
+    "address": "Sunway Pyramid, 3, Jalan PJS 11/15, Bandar Sunway, 47500 Subang Jaya, Selangor",
+    "phone": null,
+    "website": null,
+    "description": "北海道発の抹茶スイーツ専門店のサンウェイピラミッド店。京都産抹茶を使ったスイーツを提供。",
+    "tags": [
+      "抹茶",
+      "スイーツ",
+      "北海道発"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "komugi-trx",
+    "name": "Komugi (TRX)",
+    "name_ja": "こむぎ TRX店",
+    "area": "TRX",
+    "address": "The Exchange TRX, Persiaran TRX, Imbi, 55188 Kuala Lumpur",
+    "phone": null,
+    "website": "https://www.komugi.com.my/",
+    "description": "日本式ベーカリーカフェ「こむぎ」のTRX店。焼きたてのパンやスイーツ、コーヒーを提供。TRXモールでのショッピング中の休憩に。",
+    "tags": [
+      "ベーカリー",
+      "カフェ",
+      "日本式パン",
+      "TRX"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "komugi-sunway-pyramid",
+    "name": "Komugi (Sunway Pyramid)",
+    "name_ja": "こむぎ サンウェイピラミッド店",
+    "area": "Subang Jaya",
+    "address": "Sunway Pyramid, 3, Jalan PJS 11/15, Bandar Sunway, 47500 Subang Jaya, Selangor",
+    "phone": null,
+    "website": "https://www.komugi.com.my/",
+    "description": "日本式ベーカリーカフェ「こむぎ」のサンウェイピラミッド店。焼きたてパン・ケーキ・コーヒーを提供。",
+    "tags": [
+      "ベーカリー",
+      "カフェ",
+      "日本式パン"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "tealive-matcha-series",
+    "name": "Tealive Matcha Series",
+    "name_ja": "ティーライブ 抹茶シリーズ",
+    "area": "Various",
+    "address": "Kuala Lumpur, Malaysia（複数店舗）",
+    "phone": null,
+    "website": "https://www.tealive.com.my/",
+    "description": "マレーシア最大のティーチェーン「Tealive」の抹茶メニューシリーズ。日本産の抹茶を使ったラテ・フラッペ・スイーツを手頃な価格で提供。KL市内に多数店舗。",
+    "tags": [
+      "抹茶",
+      "ティーチェーン",
+      "リーズナブル"
+    ],
+    "hours": "店舗により異なる",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "gram-pancakes-1-utama",
+    "name": "Gram Pancakes (1 Utama)",
+    "name_ja": "グラム パンケーキ 1ウタマ店",
+    "area": "Petaling Jaya",
+    "address": "1 Utama Shopping Centre, 1 Lebuh Bandar Utama, 47800 Petaling Jaya, Selangor",
+    "phone": null,
+    "website": null,
+    "description": "大阪発のプレミアムパンケーキ専門店の1ウタマ店。限定のふわふわスフレパンケーキが看板。",
+    "tags": [
+      "パンケーキ",
+      "スイーツ",
+      "大阪発"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "uncle-tetsu-cheesecake-kl",
+    "name": "Uncle Tetsu Cheesecake KL",
+    "name_ja": "てつおじさんのチーズケーキ KL",
+    "area": "Bukit Bintang",
+    "address": "Lot 1.18a, Level 1, Pavilion Kuala Lumpur, 168 Jalan Bukit Bintang, 55100 Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "福岡発のスフレチーズケーキ専門店「てつおじさんのチーズケーキ」のマレーシア店。ふわふわのスフレチーズケーキが看板。テイクアウトが中心。",
+    "tags": [
+      "チーズケーキ",
+      "スイーツ",
+      "福岡発",
+      "テイクアウト"
+    ],
+    "hours": "毎日 10:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "donq-bakery-isetan-klcc",
+    "name": "DONQ Bakery (Isetan KLCC)",
+    "name_ja": "ドンク ベーカリー 伊勢丹KLCC店",
+    "area": "KLCC",
+    "address": "Isetan KLCC, Suria KLCC, Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "1905年創業の日本の老舗ベーカリー「ドンク」の伊勢丹KLCC店。フランスパンと日本式のパンを融合させた商品が特徴。クロワッサン・食パン・菓子パンが揃う。",
+    "tags": [
+      "ベーカリー",
+      "老舗",
+      "日本式パン",
+      "伊勢丹内"
+    ],
+    "hours": "毎日 10:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "hoshino-coffee-pavilion-kl",
+    "name": "Hoshino Coffee (Pavilion KL)",
+    "name_ja": "星乃珈琲 パビリオンKL店",
+    "area": "Bukit Bintang",
+    "address": "Pavilion Kuala Lumpur, 168 Jalan Bukit Bintang, 55100 Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "日本の喫茶店チェーン「星乃珈琲」のマレーシア店。ハンドドリップコーヒーとスフレパンケーキが看板メニュー。落ち着いた喫茶店スタイルの空間。",
+    "tags": [
+      "コーヒー",
+      "パンケーキ",
+      "喫茶店",
+      "チェーン"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "hoshino-coffee-1-utama",
+    "name": "Hoshino Coffee (1 Utama)",
+    "name_ja": "星乃珈琲 1ウタマ店",
+    "area": "Petaling Jaya",
+    "address": "1 Utama Shopping Centre, 1 Lebuh Bandar Utama, 47800 Petaling Jaya, Selangor",
+    "phone": null,
+    "website": null,
+    "description": "日本の喫茶店チェーン「星乃珈琲」の1ウタマ店。ハンドドリップコーヒーとスフレパンケーキを提供。",
+    "tags": [
+      "コーヒー",
+      "パンケーキ",
+      "喫茶店"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "kyo-roll-en-pavilion-kl",
+    "name": "Kyo Roll En (Pavilion KL)",
+    "name_ja": "京ロール園 パビリオンKL店",
+    "area": "Bukit Bintang",
+    "address": "Pavilion Kuala Lumpur, 168 Jalan Bukit Bintang, 55100 Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "京都発のロールケーキ・スイーツ専門店。抹茶ロールケーキ・わらび餅・大福など和スイーツを提供。手土産にも人気。",
+    "tags": [
+      "ロールケーキ",
+      "和スイーツ",
+      "抹茶",
+      "京都発"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "tokyo-banana-pavilion-kl",
+    "name": "Tokyo Banana (Pavilion KL)",
+    "name_ja": "東京ばな奈 パビリオンKL店",
+    "area": "Bukit Bintang",
+    "address": "Pavilion Kuala Lumpur, 168 Jalan Bukit Bintang, 55100 Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "東京土産の定番「東京ばな奈」のマレーシア常設店。バナナカスタードケーキをはじめ、限定フレーバーも販売。手土産に最適。",
+    "tags": [
+      "スイーツ",
+      "お菓子",
+      "東京土産",
+      "テイクアウト"
+    ],
+    "hours": "毎日 10:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "shojikiya-pavilion-kl",
+    "name": "Shojikiya (Pavilion KL)",
+    "name_ja": "正直屋 パビリオンKL店",
+    "area": "Bukit Bintang",
+    "address": "Pavilion Kuala Lumpur, 168 Jalan Bukit Bintang, 55100 Kuala Lumpur",
+    "phone": null,
+    "website": "https://www.shojikiya.com.my/",
+    "description": "日本の食品・菓子・調味料を販売するセレクトショップ。日本直輸入の抹茶菓子・せんべい・ラーメン・カレーなどを購入できる。カフェコーナーもあり。",
+    "tags": [
+      "日本食品",
+      "お菓子",
+      "セレクトショップ"
+    ],
+    "hours": "毎日 10:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "maccha-iki-mid-valley",
+    "name": "Maccha Iki (Mid Valley)",
+    "name_ja": "抹茶粋 ミッドバレー店",
+    "area": "Mid Valley",
+    "address": "Mid Valley Megamall, 59200 Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "日本風の空間で抹茶デザートが楽しめるカフェのミッドバレー店。抹茶アイスクリーム・餅・ドリンクなど抹茶メニューが充実。",
+    "tags": [
+      "抹茶",
+      "スイーツ",
+      "アイスクリーム"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "matcha-hero-kyoto-trx",
+    "name": "Matcha Hero Kyoto (TRX)",
+    "name_ja": "抹茶ヒーロー京都 TRX店",
+    "area": "TRX",
+    "address": "The Exchange TRX, Persiaran TRX, Imbi, 55188 Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "京都発の抹茶専門店のTRX店。最高品質の抹茶を使ったドリンク・アイスクリーム・スイーツを提供。抹茶の濃さを選べる。",
+    "tags": [
+      "抹茶",
+      "スイーツ",
+      "京都",
+      "TRX"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "kakiyuki-sunway-pyramid",
+    "name": "Kakiyuki (Sunway Pyramid)",
+    "name_ja": "かき雪 サンウェイピラミッド店",
+    "area": "Subang Jaya",
+    "address": "Sunway Pyramid, 3, Jalan PJS 11/15, Bandar Sunway, 47500 Subang Jaya, Selangor",
+    "phone": null,
+    "website": null,
+    "description": "日本式かき氷専門カフェのサンウェイピラミッド店。ふわふわのかき氷を抹茶・ほうじ茶・フルーツなど多彩なフレーバーで提供。",
+    "tags": [
+      "かき氷",
+      "スイーツ",
+      "抹茶"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "niko-neko-matcha-trx",
+    "name": "Niko Neko Matcha (TRX)",
+    "name_ja": "ニコネコ抹茶 TRX店",
+    "area": "TRX",
+    "address": "The Exchange TRX, Persiaran TRX, Imbi, 55188 Kuala Lumpur",
+    "phone": null,
+    "website": "https://www.nikonekomatcha.com/",
+    "description": "マレーシア発の本格抹茶ブランドのTRX店。京都・和束町産の抹茶を使用した抹茶ラテが看板メニュー。",
+    "tags": [
+      "抹茶",
+      "カフェ",
+      "ラテ",
+      "TRX"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "pablo-cheese-tart-1-utama",
+    "name": "Pablo Cheese Tart (1 Utama)",
+    "name_ja": "パブロ チーズタルト 1ウタマ店",
+    "area": "Petaling Jaya",
+    "address": "1 Utama Shopping Centre, 1 Lebuh Bandar Utama, 47800 Petaling Jaya, Selangor",
+    "phone": null,
+    "website": null,
+    "description": "大阪発の焼きたてチーズタルト専門店の1ウタマ店。とろっとした「レア」としっかり「ミディアム」の2種類から選べる。",
+    "tags": [
+      "チーズタルト",
+      "スイーツ",
+      "大阪発"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "kurimu-cream-puff-kl",
+    "name": "Kurimu",
+    "name_ja": "クリーム",
+    "area": "Various",
+    "address": "Kuala Lumpur, Malaysia（複数店舗）",
+    "phone": null,
+    "website": null,
+    "description": "日本式シュークリーム専門店。注文後にクリームを詰めるため、サクサクのシューとたっぷりのカスタードクリームが楽しめる。抹茶味も人気。",
+    "tags": [
+      "シュークリーム",
+      "スイーツ",
+      "テイクアウト"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "melon-de-melon-pavilion-kl",
+    "name": "Melon de Melon (Pavilion KL)",
+    "name_ja": "メロン・デ・メロン パビリオンKL店",
+    "area": "Bukit Bintang",
+    "address": "Pavilion Kuala Lumpur, 168 Jalan Bukit Bintang, 55100 Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "日本のメロンパン専門店のマレーシア店。焼きたてのサクサクメロンパンを提供。抹茶・チョコレート・クリームなど多彩なフレーバー。",
+    "tags": [
+      "メロンパン",
+      "ベーカリー",
+      "テイクアウト"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sun-moulin-bakery-mont-kiara",
+    "name": "Sun Moulin Bakery (Mont Kiara)",
+    "name_ja": "サンムーラン ベーカリー モントキアラ店",
+    "area": "Mont Kiara",
+    "address": "Mont Kiara, Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "日本人オーナーによるベーカリーのモントキアラ店。日本の製パン技術を活かしたパンを毎日焼きたてで提供。食パン・カレーパン・あんパンなど定番の日本のパンが揃う。",
+    "tags": [
+      "ベーカリー",
+      "日本人経営",
+      "日本式パン"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "bakery-hachi-publika",
+    "name": "Bakery Cafe HACHI (Publika)",
+    "name_ja": "ベーカリーカフェ八 パブリカ店",
+    "area": "Solaris Dutamas",
+    "address": "Publika, Solaris Dutamas, Jalan Dutamas 1, 50480 Kuala Lumpur",
+    "phone": null,
+    "website": "https://bakerycafehachi.com/",
+    "description": "日本式ベーカリーカフェ「八」のパブリカ店。日本式のパン・菓子パン・サンドイッチを焼きたてで提供。カフェスペースでコーヒーとともに楽しめる。",
+    "tags": [
+      "ベーカリー",
+      "カフェ",
+      "日本式パン"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "hokkaido-baked-cheese-tart-kl",
+    "name": "Hokkaido Baked Cheese Tart",
+    "name_ja": "北海道ベイクドチーズタルト",
+    "area": "Various",
+    "address": "Kuala Lumpur, Malaysia（複数店舗）",
+    "phone": null,
+    "website": "https://www.hbct.com.my/",
+    "description": "北海道産クリームチーズを使ったベイクドチーズタルト専門店。焼きたてのチーズタルトはサクサクの生地ととろけるチーズが特徴。KL市内に複数店舗を展開。",
+    "tags": [
+      "チーズタルト",
+      "スイーツ",
+      "北海道",
+      "テイクアウト"
+    ],
+    "hours": "店舗により異なる",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "matchaya-kl",
+    "name": "Matchaya KL",
+    "name_ja": "マッチャヤ KL",
+    "area": "Bangsar",
+    "address": "Bangsar, Kuala Lumpur",
+    "phone": null,
+    "website": null,
+    "description": "バンサーにある抹茶カフェ。宇治産の抹茶を使ったラテ・パフェ・ティラミスを提供。ミニマルな和モダンの空間で抹茶を楽しめる。",
+    "tags": [
+      "抹茶",
+      "カフェ",
+      "パフェ",
+      "バンサー"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
   }
 ]

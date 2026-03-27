@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
-import AuthProvider from "@/components/AuthProvider";
+
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://kaigaijin.jp"),
@@ -53,9 +53,7 @@ export default function RootLayout({
       </head>
       <body className="font-sans antialiased bg-stone-50 dark:bg-stone-900 text-stone-800 dark:text-stone-200 transition-colors">
         <GoogleAnalytics />
-        <AuthProvider>
-          {children}
-        </AuthProvider>
+        {children}
       </body>
     </html>
   );
