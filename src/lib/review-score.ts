@@ -1,22 +1,26 @@
-// 食べログ風 重み付きレビュースコアリング
+// スポットレビュー スコアリングアルゴリズム
 //
-// 特徴:
-// - レビュアーの信頼度（レビュー数・文章量・一貫性・アカウント年齢）で重み付け
-// - ベイズ平均で少数レビューの偏りを抑制
-// - 最低レビュー数に達するまでスコア非表示
-// - やらせレビュー（新規アカウント・極端評価）の影響を自動抑制
+// 設計思想:
+// - ベースライン 2.50 から始まる（レビュー0件 = 2.50）
+// - レビューが増えるほどスコアが動くが、極端な値（1.0や5.0付近）には到達しにくい
+// - レビュアーの信頼度（レビュー数・コメント品質・一貫性・アカウント年齢）で影響度を調整
+// - 2.5付近は動きやすく、端に近づくほど抵抗が増す（tanh圧縮）
 
 // --- 設定 ---
 
-// スコアを表示する最低レビュー数
-export const MIN_REVIEWS_FOR_SCORE = 5;
+// ベースラインスコア（レビューがない状態）
+const BASELINE = 2.5;
 
-// ベイズ平均の事前分布（全スポットの平均に収束する重み）
-// この数が大きいほど、少数レビューのスポットは全体平均に引き寄せられる
-const BAYESIAN_CONFIDENCE = 10;
+// ベイズ平均の信頼度パラメータ
+// 大きいほどベースラインへの引力が強い（少数レビューでスコアが極端にならない）
+const BAYESIAN_CONFIDENCE = 5;
 
-// 全体平均のデフォルト値（十分なデータが溜まったら実測値に更新する）
-const GLOBAL_MEAN = 3.0;
+// tanh圧縮の感度パラメータ
+// 小さいほど中央付近で動きやすく端で詰まる。大きいほどリニアに近づく
+const COMPRESSION_K = 1.8;
+
+// スコアを表示する最低レビュー数（1件から表示）
+export const MIN_REVIEWS_FOR_SCORE = 1;
 
 // --- 型定義 ---
 
@@ -41,7 +45,7 @@ export type ReviewerStats = {
 
 export type SpotScore = {
   raw_average: number; // 単純平均
-  weighted_score: number; // 重み付きスコア（表示用）
+  weighted_score: number; // 最終スコア（表示用）
   review_count: number;
   display: boolean; // スコア表示可能か
 };
@@ -51,11 +55,8 @@ export type SpotScore = {
 /**
  * レビュアーの信頼度スコアを算出する（0.1 〜 1.0）
  *
- * 4つの要素で構成:
- * 1. レビュー数（多いほど信頼）→ 対数スケールで頭打ち
- * 2. コメント品質（長く丁寧なほど信頼）→ 50文字で0.5、200文字で1.0
- * 3. 評価の一貫性（全部5点みたいな人は信頼度低い）→ 標準偏差で判定
- * 4. アカウント年齢（古いほど信頼）→ 30日で0.5、180日で1.0
+ * 信頼度が高いレビュアーほどスコアへの影響が大きい
+ * 新規アカウントで1件だけ星5を付けても影響は小さい
  */
 export function calcReviewerTrust(stats: ReviewerStats): number {
   const w1 = calcCountWeight(stats.total_reviews);
@@ -63,7 +64,7 @@ export function calcReviewerTrust(stats: ReviewerStats): number {
   const w3 = calcConsistencyWeight(stats.rating_stddev);
   const w4 = calcAccountAgeWeight(stats.first_review_at);
 
-  // 各要素の合成（重みの比率: レビュー数30%, コメント品質25%, 一貫性25%, 年齢20%）
+  // 各要素の合成（レビュー数30%, コメント品質25%, 一貫性25%, 年齢20%）
   const trust = w1 * 0.3 + w2 * 0.25 + w3 * 0.25 + w4 * 0.2;
 
   // 最低0.1は保証（完全に無視はしない）
@@ -76,7 +77,6 @@ export function calcReviewerTrust(stats: ReviewerStats): number {
  */
 function calcCountWeight(count: number): number {
   if (count <= 0) return 0;
-  // log(1+count) / log(51) で 50件で約1.0に到達
   return Math.min(1.0, Math.log(1 + count) / Math.log(51));
 }
 
@@ -86,71 +86,77 @@ function calcCountWeight(count: number): number {
  */
 function calcCommentQualityWeight(avgLength: number): number {
   if (avgLength <= 0) return 0.1;
-  // 200文字で1.0に到達する曲線
   return Math.min(1.0, 0.1 + 0.9 * (avgLength / 200));
 }
 
 /**
  * 評価の一貫性（標準偏差）による重み
- * 全部同じ評価（stddev=0）の人は重み低い → やらせ対策
- * 適度にばらつきがある（stddev=0.8〜1.2）人が最も信頼度高い
- *
- * stddev 0.0: 0.3（全部同じ点数 → 怪しい）
- * stddev 0.5: 0.7
- * stddev 0.8〜1.2: 1.0（自然なばらつき）
- * stddev 2.0+: 0.6（極端すぎ）
+ * 全部同じ評価（stddev=0）→ 0.3（怪しい）
+ * 自然なばらつき（stddev=0.8〜1.2）→ 1.0
+ * 極端（stddev=2.0+）→ 0.6
  */
 function calcConsistencyWeight(stddev: number): number {
-  // レビュー1件（stddev計算不能）の場合はデフォルト
   if (isNaN(stddev)) return 0.5;
-
-  // 正規分布的に0.8〜1.2が最も自然
   if (stddev >= 0.8 && stddev <= 1.2) return 1.0;
   if (stddev < 0.8) {
-    // 低すぎ（全部同じ点数寄り）
     return 0.3 + (stddev / 0.8) * 0.7;
   }
-  // 高すぎ（1と5を交互に付けるような人）
   return Math.max(0.4, 1.0 - (stddev - 1.2) * 0.3);
 }
 
 /**
  * アカウント年齢による重み
- * 0日: 0.1, 7日: 0.2, 30日: 0.5, 180日以上: 1.0
+ * 0日: 0.1, 30日: 0.5, 180日以上: 1.0
  */
 function calcAccountAgeWeight(firstReviewAt: string): number {
   const ageMs = Date.now() - new Date(firstReviewAt).getTime();
   const ageDays = ageMs / (1000 * 60 * 60 * 24);
   if (ageDays <= 0) return 0.1;
-  // 180日で1.0に到達
   return Math.min(1.0, 0.1 + 0.9 * (ageDays / 180));
+}
+
+// --- tanh圧縮 ---
+
+/**
+ * スコアを2.5中心でtanh圧縮する
+ *
+ * 2.5付近は動きやすく、1.0や5.0に近づくほど抵抗が増す
+ *
+ * 例（COMPRESSION_K = 1.8）:
+ *   入力 2.5 → 出力 2.50（ベースライン）
+ *   入力 3.0 → 出力 3.17（+0.5の入力で+0.67の出力、動きやすい）
+ *   入力 4.0 → 出力 4.04（+1.5の入力で+1.54、まだ動く）
+ *   入力 4.5 → 出力 4.40（+2.0の入力で+1.90、やや鈍化）
+ *   入力 5.0 → 出力 4.65（+2.5の入力で+2.15、到達困難）
+ *   入力 1.0 → 出力 1.15（-1.5の入力で-1.35、低評価側も同様）
+ */
+function compressScore(rawScore: number): number {
+  const delta = rawScore - BASELINE;
+  // tanh(delta / k) は -1〜+1 の範囲
+  // 2.5 + 2.5 * tanh(...) で 0.0〜5.0 の範囲にマッピング
+  const compressed = BASELINE + BASELINE * Math.tanh(delta / COMPRESSION_K);
+  return Math.max(1.0, Math.min(5.0, compressed));
 }
 
 // --- スポットスコアの計算 ---
 
 /**
- * スポットの重み付きスコアを算出する
+ * スポットの最終スコアを算出する
  *
- * アルゴリズム:
  * 1. 各レビューにレビュアーの信頼度で重みを付ける
- * 2. 重み付き平均を算出
- * 3. ベイズ平均で全体平均方向に補正（レビューが少ないほど補正が強い）
- *
- * @param reviews - このスポットの全レビュー
- * @param reviewerStatsMap - レビュアーIDをキーとしたレビュアー統計情報
- * @param globalMean - 全スポットの平均スコア（省略時はデフォルト3.0）
+ * 2. ベイズ平均でベースライン（2.5）方向に補正
+ * 3. tanh圧縮で極端な値を抑制
  */
 export function calcSpotScore(
   reviews: Review[],
   reviewerStatsMap: Map<string, ReviewerStats>,
-  globalMean: number = GLOBAL_MEAN
 ): SpotScore {
   const count = reviews.length;
 
   if (count === 0) {
     return {
       raw_average: 0,
-      weighted_score: 0,
+      weighted_score: BASELINE,
       review_count: 0,
       display: false,
     };
@@ -165,22 +171,59 @@ export function calcSpotScore(
 
   for (const review of reviews) {
     const stats = reviewerStatsMap.get(review.reviewer_id);
-    const trust = stats ? calcReviewerTrust(stats) : 0.1; // 統計なし = 最低信頼度
+    const trust = stats ? calcReviewerTrust(stats) : 0.1;
     weightedSum += review.rating * trust;
     totalWeight += trust;
   }
 
-  const weightedAvg = totalWeight > 0 ? weightedSum / totalWeight : rawAvg;
-
-  // ベイズ平均: (C × μ + Σ(wi × ri)) / (C + Σwi)
-  // C = BAYESIAN_CONFIDENCE, μ = globalMean
+  // ベイズ平均: (C × baseline + Σ(wi × ri)) / (C + Σwi)
+  // レビューが少ないほどベースライン（2.5）に引き寄せられる
   const bayesianScore =
-    (BAYESIAN_CONFIDENCE * globalMean + weightedSum) /
+    (BAYESIAN_CONFIDENCE * BASELINE + weightedSum) /
     (BAYESIAN_CONFIDENCE + totalWeight);
+
+  // tanh圧縮で極端な値を抑制
+  const finalScore = compressScore(bayesianScore);
 
   return {
     raw_average: round2(rawAvg),
-    weighted_score: round2(bayesianScore),
+    weighted_score: round2(finalScore),
+    review_count: count,
+    display: count >= MIN_REVIEWS_FOR_SCORE,
+  };
+}
+
+// --- 簡易スコア計算（クライアント用） ---
+
+/**
+ * クライアント側でレビュー投稿後にローカルで即座にスコアを計算する
+ * サーバー側の完全なアルゴリズムの簡易版（レビュアー信頼度なし）
+ */
+export function calcLocalScore(ratings: number[]): SpotScore {
+  const count = ratings.length;
+  if (count === 0) {
+    return {
+      raw_average: 0,
+      weighted_score: BASELINE,
+      review_count: 0,
+      display: false,
+    };
+  }
+
+  const rawAvg = ratings.reduce((sum, r) => sum + r, 0) / count;
+
+  // 全員trust=0.1（新規）として簡易計算
+  const totalWeight = count * 0.1;
+  const weightedSum = ratings.reduce((sum, r) => sum + r * 0.1, 0);
+  const bayesianScore =
+    (BAYESIAN_CONFIDENCE * BASELINE + weightedSum) /
+    (BAYESIAN_CONFIDENCE + totalWeight);
+
+  const finalScore = compressScore(bayesianScore);
+
+  return {
+    raw_average: round2(rawAvg),
+    weighted_score: round2(finalScore),
     review_count: count,
     display: count >= MIN_REVIEWS_FOR_SCORE,
   };
@@ -188,10 +231,6 @@ export function calcSpotScore(
 
 // --- ランキング ---
 
-/**
- * 複数スポットのスコアをランキング順にソート
- * displayがtrueのスポットのみランキング対象
- */
 export function rankSpots(
   scores: Array<{ slug: string; score: SpotScore }>
 ): Array<{ slug: string; score: SpotScore; rank: number }> {
@@ -205,21 +244,19 @@ export function rankSpots(
 // --- スコアの表示ラベル ---
 
 /**
- * スコアに応じた表示ラベル（食べログの3.5超えたら信頼できる、のような基準）
+ * スコアに応じた表示ラベル
  *
- * 4.5〜5.0: 最高評価
- * 4.0〜4.4: 高評価
+ * 4.0〜5.0: 高評価
  * 3.5〜3.9: おすすめ
  * 3.0〜3.4: 標準
- * 2.5〜2.9: やや低評価
+ * 2.5〜2.9: —（ベースライン付近はラベルなし）
  * 〜2.4:    低評価
  */
 export function getScoreLabel(score: number): string {
-  if (score >= 4.5) return "最高評価";
   if (score >= 4.0) return "高評価";
   if (score >= 3.5) return "おすすめ";
   if (score >= 3.0) return "標準";
-  if (score >= 2.5) return "やや低評価";
+  if (score >= 2.5) return "";
   return "低評価";
 }
 
@@ -240,10 +277,6 @@ function round2(n: number): number {
 
 // --- レビュアー統計の集計 ---
 
-/**
- * レビュー一覧からレビュアーごとの統計情報を集計する
- * Supabaseから全レビューを取得した後に使う
- */
 export function aggregateReviewerStats(
   allReviews: Review[]
 ): Map<string, ReviewerStats> {
@@ -263,13 +296,11 @@ export function aggregateReviewerStats(
     const avgCommentLength =
       commentLengths.reduce((a, b) => a + b, 0) / commentLengths.length;
 
-    // 標準偏差
     const mean = ratings.reduce((a, b) => a + b, 0) / ratings.length;
     const variance =
       ratings.reduce((sum, r) => sum + (r - mean) ** 2, 0) / ratings.length;
     const stddev = Math.sqrt(variance);
 
-    // 最初のレビュー日
     const sorted = reviews.sort(
       (a, b) =>
         new Date(a.created_at).getTime() - new Date(b.created_at).getTime()
@@ -289,12 +320,8 @@ export function aggregateReviewerStats(
 
 // --- 全体平均の算出 ---
 
-/**
- * 全スポットの加重平均を算出する（ベイズ平均のglobalMeanに使う）
- * 定期的に再計算してキャッシュするのが望ましい
- */
 export function calcGlobalMean(allReviews: Review[]): number {
-  if (allReviews.length === 0) return GLOBAL_MEAN;
+  if (allReviews.length === 0) return BASELINE;
   const sum = allReviews.reduce((s, r) => s + r.rating, 0);
   return round2(sum / allReviews.length);
 }
