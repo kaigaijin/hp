@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 import SpotScoreDisplay, { StarRating } from "@/components/SpotScore";
 import { useAuth } from "@/components/AuthProvider";
-import { calcLocalScore, type SpotScore } from "@/lib/review-score";
+import type { SpotScore } from "@/lib/review-score";
 
 // reviewer_id をブラウザごとに生成・永続化（未ログインユーザー用）
 function getLocalReviewerId(): string {
@@ -119,19 +119,6 @@ export default function SpotReviewForm({
         }),
       });
       if (res.ok) {
-        // ローカルに即反映（APIキャッシュに依存しない）
-        const newReview: ReviewDisplay = {
-          id: crypto.randomUUID(),
-          reviewer_name: reviewerName,
-          reviewer_id: user ? user.id : getLocalReviewerId(),
-          rating,
-          comment: comment.trim() || null,
-          created_at: new Date().toISOString(),
-        };
-        const updatedReviews = [newReview, ...reviews];
-        setReviews(updatedReviews);
-        // スコアもローカルで再計算（サーバー側アルゴリズムの簡易版）
-        setScore(calcLocalScore(updatedReviews.map((r) => r.rating)));
         setComment("");
         setRating(0);
         setShowForm(false);
