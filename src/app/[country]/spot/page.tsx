@@ -13,6 +13,7 @@ import {
   getAllSpots,
   getCategory,
 } from "@/lib/directory";
+import { getGroupTheme } from "@/lib/group-theme";
 import {
   UtensilsCrossed,
   Stethoscope,
@@ -191,17 +192,18 @@ export default async function SpotIndexPage({
               {categoryGroups.map((group) => {
                 const groupCount = groupCounts[group.slug] ?? 0;
                 const renderGroupIcon = iconMap[group.icon];
+                const theme = getGroupTheme(group.slug);
 
                 return (
                   <Link
                     key={group.slug}
                     href={`/${code}/spot/${group.slug}`}
-                    className="group bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 p-4 hover:border-ocean-400 dark:hover:border-ocean-500 hover:shadow-md transition-all text-center"
+                    className={`group bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 border-t-2 ${theme.topBorder} p-4 ${theme.hoverBorder} hover:shadow-md transition-all text-center`}
                   >
-                    <div className="w-12 h-12 mx-auto bg-stone-50 dark:bg-stone-700 rounded-xl flex items-center justify-center text-ocean-600 dark:text-ocean-400 group-hover:bg-ocean-50 dark:group-hover:bg-ocean-900/30 transition-colors mb-3">
+                    <div className={`w-12 h-12 mx-auto ${theme.iconBg} rounded-xl flex items-center justify-center ${theme.iconText} ${theme.iconBgActive} transition-colors mb-3`}>
                       {renderGroupIcon?.(22)}
                     </div>
-                    <p className="text-sm font-semibold text-stone-700 dark:text-stone-200 group-hover:text-ocean-600 dark:group-hover:text-ocean-400 transition-colors">
+                    <p className={`text-sm font-semibold text-stone-700 dark:text-stone-200 ${theme.accentHover} transition-colors`}>
                       {group.name}
                     </p>
                     <p className="text-xs text-stone-400 mt-1">
@@ -218,6 +220,12 @@ export default async function SpotIndexPage({
             spots={pickupSpots}
             countryCode={code}
             groups={categoryGroups.map((g) => g.slug)}
+            groupThemes={Object.fromEntries(
+              categoryGroups.map((g) => {
+                const t = getGroupTheme(g.slug);
+                return [g.slug, { badgeBg: t.badgeBg, badgeText: t.badgeText, hoverBorder: t.hoverBorder, accentHover: t.accentHover }];
+              }),
+            )}
           />
 
           {/* フッターCTA */}

@@ -12,6 +12,7 @@ import {
   getCategoryCounts,
 } from "@/lib/directory";
 import SpotGroupList from "@/components/SpotGroupList";
+import { getGroupTheme, getCategoryTheme, type GroupTheme } from "@/lib/group-theme";
 import {
   UtensilsCrossed,
   Coffee,
@@ -175,6 +176,7 @@ export default async function CategoryPage({
       .map((c) => ({ slug: c.slug, name: c.name, count: c.count }));
 
     const renderGroupIcon = iconMap[group.icon];
+    const theme = getGroupTheme(group.slug);
 
     return (
       <>
@@ -206,7 +208,7 @@ export default async function CategoryPage({
                 </span>
               </nav>
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 bg-stone-50 dark:bg-stone-700 rounded-xl flex items-center justify-center text-ocean-600 dark:text-ocean-400">
+                <div className={`w-10 h-10 ${theme.iconBg} rounded-xl flex items-center justify-center ${theme.iconText}`}>
                   {renderGroupIcon?.(20)}
                 </div>
                 <div>
@@ -225,6 +227,14 @@ export default async function CategoryPage({
               spots={groupSpots}
               subCategories={subCategories}
               countryCode={code}
+              theme={{
+                filterActive: theme.filterActive,
+                hoverBorder: theme.hoverBorder,
+                numberText: theme.numberText,
+                accentHover: theme.accentHover,
+                badgeBg: theme.badgeBg,
+                badgeText: theme.badgeText,
+              }}
             />
           </div>
 
@@ -233,13 +243,13 @@ export default async function CategoryPage({
             <div className="flex items-center justify-between">
               <Link
                 href={`/${code}/spot`}
-                className="text-sm text-ocean-600 dark:text-ocean-400 hover:underline"
+                className={`text-sm ${theme.accent} hover:underline`}
               >
                 ← カテゴリ一覧
               </Link>
               <Link
                 href="/contact"
-                className="text-xs text-stone-400 hover:text-ocean-600 transition-colors"
+                className="text-xs text-stone-400 hover:text-stone-600 transition-colors"
               >
                 情報の修正・掲載リクエスト
               </Link>
@@ -258,6 +268,7 @@ export default async function CategoryPage({
   const catSlug = slug;
   const spots = getSpotsByCategory(code, catSlug);
   const areas = [...new Set(spots.map((s) => s.area))].sort();
+  const catTheme = getCategoryTheme(catSlug);
 
   // このカテゴリが属するグループを取得（パンくず用）
   const parentGroup = categoryGroups.find((g) =>
@@ -322,7 +333,7 @@ export default async function CategoryPage({
           {areas.length > 1 && (
             <div className="max-w-6xl mx-auto px-4 border-t border-stone-100 dark:border-stone-700">
               <div className="flex gap-1 overflow-x-auto py-2 scrollbar-hide">
-                <span className="shrink-0 text-xs font-medium text-ocean-600 dark:text-ocean-400 bg-ocean-50 dark:bg-ocean-900/30 px-3 py-1.5 rounded-full">
+                <span className={`shrink-0 text-xs font-medium ${catTheme.filterActive} px-3 py-1.5 rounded-full`}>
                   すべて（{spots.length}）
                 </span>
                 {areas.map((area) => (
@@ -348,16 +359,16 @@ export default async function CategoryPage({
                   href={`/${code}/spot/${catSlug}/${spot.slug}`}
                   className="group block"
                 >
-                  <article className="bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 hover:border-ocean-400 dark:hover:border-ocean-500 hover:shadow-md transition-all">
+                  <article className={`bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 ${catTheme.hoverBorder} hover:shadow-md transition-all`}>
                     <div className="p-4 sm:p-5">
                       {/* 上段: 店名 + エリア */}
                       <div className="flex items-start justify-between gap-3 mb-2">
                         <div className="min-w-0">
                           <div className="flex items-center gap-2">
-                            <span className="text-xs font-semibold text-ocean-600 dark:text-ocean-400">
+                            <span className={`text-xs font-semibold ${catTheme.numberText}`}>
                               {i + 1}
                             </span>
-                            <h2 className="text-base font-bold text-stone-800 dark:text-stone-100 truncate group-hover:text-ocean-700 dark:group-hover:text-ocean-400 transition-colors">
+                            <h2 className={`text-base font-bold text-stone-800 dark:text-stone-100 truncate ${catTheme.accentHover} transition-colors`}>
                               {spot.name_ja ?? spot.name}
                             </h2>
                           </div>
@@ -419,7 +430,7 @@ export default async function CategoryPage({
                             </span>
                           )}
                           {spot.website && (
-                            <span className="flex items-center gap-1 text-xs text-ocean-500">
+                            <span className={`flex items-center gap-1 text-xs ${catTheme.accent}`}>
                               <Globe size={10} />
                               Web
                             </span>
@@ -438,7 +449,7 @@ export default async function CategoryPage({
               </p>
               <Link
                 href={`/${code}/spot`}
-                className="text-sm text-ocean-600 dark:text-ocean-400 hover:underline"
+                className={`text-sm ${catTheme.accent} hover:underline`}
               >
                 ← カテゴリ一覧に戻る
               </Link>
@@ -449,13 +460,13 @@ export default async function CategoryPage({
           <div className="mt-8 flex items-center justify-between">
             <Link
               href={parentGroup ? `/${code}/spot/${parentGroup.slug}` : `/${code}/spot`}
-              className="text-sm text-ocean-600 dark:text-ocean-400 hover:underline"
+              className={`text-sm ${catTheme.accent} hover:underline`}
             >
               ← {parentGroup ? parentGroup.name : "カテゴリ一覧"}
             </Link>
             <Link
               href="/contact"
-              className="text-xs text-stone-400 hover:text-ocean-600 transition-colors"
+              className="text-xs text-stone-400 hover:text-stone-600 transition-colors"
             >
               情報の修正・掲載リクエスト
             </Link>

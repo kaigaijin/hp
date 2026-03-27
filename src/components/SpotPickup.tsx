@@ -32,14 +32,23 @@ function pickFromGroup(
   return spots[Math.floor(Math.random() * spots.length)];
 }
 
+type PickupGroupTheme = {
+  badgeBg: string;
+  badgeText: string;
+  hoverBorder: string;
+  accentHover: string;
+};
+
 export default function SpotPickup({
   spots,
   countryCode,
   groups,
+  groupThemes,
 }: {
   spots: PickupSpot[];
   countryCode: string;
   groups: string[]; // グループslugの配列（表示順）
+  groupThemes?: Record<string, PickupGroupTheme>;
 }) {
   const [picked, setPicked] = useState<PickupSpot[]>([]);
 
@@ -77,39 +86,42 @@ export default function SpotPickup({
         ピックアップ
       </h2>
       <div className="space-y-2">
-        {picked.map((spot) => (
-          <Link
-            key={`${spot.category}-${spot.slug}`}
-            href={`/${countryCode}/spot/${spot.category}/${spot.slug}`}
-            className="group flex items-center gap-4 bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 px-4 py-3 hover:border-ocean-400 dark:hover:border-ocean-500 hover:shadow-sm transition-all"
-          >
-            <div className="flex-1 min-w-0">
-              <div className="flex items-center gap-2">
-                <p className="text-sm font-semibold text-stone-700 dark:text-stone-200 truncate group-hover:text-ocean-700 dark:group-hover:text-ocean-400 transition-colors">
-                  {spot.name_ja ?? spot.name}
-                </p>
-                {spot.name_ja && (
-                  <span className="text-xs text-stone-400 hidden sm:inline truncate">
-                    {spot.name}
+        {picked.map((spot) => {
+          const t = groupThemes?.[spot.group];
+          return (
+            <Link
+              key={`${spot.category}-${spot.slug}`}
+              href={`/${countryCode}/spot/${spot.category}/${spot.slug}`}
+              className={`group flex items-center gap-4 bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 px-4 py-3 ${t?.hoverBorder ?? "hover:border-ocean-400 dark:hover:border-ocean-500"} hover:shadow-sm transition-all`}
+            >
+              <div className="flex-1 min-w-0">
+                <div className="flex items-center gap-2">
+                  <p className={`text-sm font-semibold text-stone-700 dark:text-stone-200 truncate ${t?.accentHover ?? "group-hover:text-ocean-700 dark:group-hover:text-ocean-400"} transition-colors`}>
+                    {spot.name_ja ?? spot.name}
+                  </p>
+                  {spot.name_ja && (
+                    <span className="text-xs text-stone-400 hidden sm:inline truncate">
+                      {spot.name}
+                    </span>
+                  )}
+                </div>
+                <div className="flex items-center gap-3 mt-1">
+                  <span className="inline-flex items-center gap-1 text-xs text-stone-400">
+                    <MapPin size={10} />
+                    {spot.area}
                   </span>
-                )}
+                  <span className={`text-xs ${t?.badgeText ?? "text-ocean-600 dark:text-ocean-400"} ${t?.badgeBg ?? "bg-ocean-50 dark:bg-ocean-900/30"} px-1.5 py-0.5 rounded`}>
+                    {spot.categoryName}
+                  </span>
+                </div>
               </div>
-              <div className="flex items-center gap-3 mt-1">
-                <span className="inline-flex items-center gap-1 text-xs text-stone-400">
-                  <MapPin size={10} />
-                  {spot.area}
-                </span>
-                <span className="text-xs text-ocean-600 dark:text-ocean-400 bg-ocean-50 dark:bg-ocean-900/30 px-1.5 py-0.5 rounded">
-                  {spot.categoryName}
-                </span>
-              </div>
-            </div>
-            <ChevronRight
-              size={16}
-              className="text-stone-300 dark:text-stone-600 group-hover:text-ocean-500 transition-colors shrink-0"
-            />
-          </Link>
-        ))}
+              <ChevronRight
+                size={16}
+                className="text-stone-300 dark:text-stone-600 group-hover:text-stone-500 transition-colors shrink-0"
+              />
+            </Link>
+          );
+        })}
       </div>
     </section>
   );

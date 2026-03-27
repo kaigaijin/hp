@@ -31,14 +31,25 @@ type SubCategory = {
   count: number;
 };
 
+type SpotGroupTheme = {
+  filterActive: string;
+  hoverBorder: string;
+  numberText: string;
+  accentHover: string;
+  badgeBg: string;
+  badgeText: string;
+};
+
 export default function SpotGroupList({
   spots,
   subCategories,
   countryCode,
+  theme,
 }: {
   spots: SpotItem[];
   subCategories: SubCategory[];
   countryCode: string;
+  theme?: SpotGroupTheme;
 }) {
   const [activeFilter, setActiveFilter] = useState<string | null>(null);
 
