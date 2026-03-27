@@ -206,5 +206,176 @@
     "status": "unverified",
     "source": "google_maps",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "busker-hair-seoul",
+    "name": "Busker Hair",
+    "name_ja": "バスカーヘア",
+    "area": "Seongbuk-gu",
+    "address": "Seongbuk-gu, Seoul",
+    "phone": "+82029662990",
+    "website": "https://www.instagram.com/buskerhair_jp/",
+    "description": "日本人スタイリストが在籍するヘアサロン。予約から施術まで全て日本語で対応可能。LINE（tomtomtom410）でも予約できる。日本人の髪質を理解したカットが好評。",
+    "tags": [
+      "日本人スタイリスト",
+      "日本語対応",
+      "LINE予約"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "sns",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "noir-hair-hannam",
+    "name": "Noir Hair Salon",
+    "name_ja": "ノワール",
+    "area": "Gangnam-gu (Nonhyeon)",
+    "address": "8 Nonhyeon-ro 155-gil, Gangnam-gu, Seoul, B1",
+    "phone": "+82050713657067",
+    "website": "https://www.instagram.com/ree2419",
+    "description": "日本人が店長を務めるヘアサロン。全ての施術を日本語で対応可能。韓国トレンドのブリーチカラーが得意。留学生向けの割引あり。",
+    "tags": [
+      "日本人店長",
+      "日本語対応",
+      "ブリーチカラー"
+    ],
+    "hours": "11:00〜20:00",
+    "status": "unverified",
+    "source": "sns",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "rarapm-cheongdam",
+    "name": "RaRa:PM Cheongdam",
+    "name_ja": "ララピーエム 清潭洞",
+    "area": "Gangnam-gu (Cheongdam)",
+    "address": "100-26 Cheongdam-dong, Gangnam-gu, Seoul",
+    "phone": null,
+    "website": "https://www.instagram.com/rarapm_official",
+    "description": "清潭洞にある有名ヘアサロン。韓国トップスターのスタイリングも手がける。日本語での事前相談が可能で、KakaoTalk（@lala0625）やLINEで予約できる。",
+    "tags": [
+      "日本語対応",
+      "有名サロン",
+      "清潭洞"
+    ],
+    "hours": "10:00〜18:00（火・水定休）",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "laulea-ray-sinsa",
+    "name": "Laulea Ray",
+    "name_ja": "ラウレアレイ",
+    "area": "Gangnam-gu (Sinsa)",
+    "address": "Sinsa-dong, Gangnam-gu, Seoul",
+    "phone": null,
+    "website": "https://www.instagram.com/laulea_ray/",
+    "description": "日韓カップルが運営する日本語対応美容室。カット・カラー・パーマなど全施術を日本語で対応。KakaoTalkやLINE（chamos98）で予約可能。",
+    "tags": [
+      "日本語対応",
+      "日本人経営",
+      "LINE予約"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "sns",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "mezon-de-hair-myeongdong-detail",
+    "name": "Maison de Hair Myeongdong",
+    "name_ja": "メゾンドヘアー 明洞",
+    "area": "Jung-gu (Myeongdong)",
+    "address": "Myeongdong, Jung-gu, Seoul",
+    "phone": null,
+    "website": "https://seoulshin.com/",
+    "description": "明洞エリアのカラーが得意な美容室。日本で5年・韓国で10年以上の経験を持つスタイリストが在籍。日本語対応可能で、韓国トレンドのカラーリングが人気。",
+    "tags": [
+      "日本語対応",
+      "カラー",
+      "明洞"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "soonsoo-hair-cheongdam",
+    "name": "Soonsoo Hair Cheongdam",
+    "name_ja": "スンス ヘア 清潭洞",
+    "area": "Gangnam-gu (Cheongdam)",
+    "address": "Cheongdam-dong, Gangnam-gu, Seoul",
+    "phone": null,
+    "website": "https://creatrip.com/en/blog/14136",
+    "description": "清潭洞にある高級ヘアサロン。韓国芸能人御用達のサロンで、外国人向けの英語・日本語対応も可能。韓国スタイルのカット・パーマ・カラーが人気。",
+    "tags": [
+      "韓国スタイル",
+      "清潭洞",
+      "高級"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "juno-hair-hongdae",
+    "name": "JUNO Hair Hongdae",
+    "name_ja": "ジュノヘア 弘大店",
+    "area": "Mapo-gu (Hongdae)",
+    "address": "Mapo-gu, Seoul",
+    "phone": null,
+    "website": "https://www.junohair.com",
+    "description": "韓国大手ヘアサロンチェーンの弘大店。外国人対応に慣れたスタイリストが在籍し、日本語メニュー表もある。韓国アイドル風ヘアスタイルが得意。",
+    "tags": [
+      "韓国スタイル",
+      "弘大",
+      "チェーン"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ashdo-hair-detail",
+    "name": "ASHDO Hair Seoul",
+    "name_ja": "アシュド ヘア",
+    "area": "Yongsan-gu",
+    "address": "Yongsan-gu, Seoul",
+    "phone": null,
+    "website": "https://ashdo.jp/",
+    "description": "ソウルで最も歴史の長い日本人スタイリストの美容室。日本人の髪質に合わせたカット・カラー技術に定評がある。完全予約制で丁寧な施術を提供。",
+    "tags": [
+      "日本人スタイリスト",
+      "老舗",
+      "完全予約制"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "soonsiki-hair-hongdae",
+    "name": "SOONSIKI Hair Hongdae",
+    "name_ja": "スンシキ ヘア 弘大店",
+    "area": "Mapo-gu (Hongdae)",
+    "address": "Mapo-gu, Seoul",
+    "phone": null,
+    "website": "https://creatrip.com/en/blog/4318",
+    "description": "弘大エリアのトレンドヘアサロン。若い世代に人気のスタイルが得意で、外国人観光客にも多数利用されている。日本語での簡単な対応も可能。",
+    "tags": [
+      "トレンド",
+      "弘大",
+      "外国人対応"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
   }
 ]

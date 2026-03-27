@@ -11,6 +11,7 @@ import {
   MessageSquare,
 } from "lucide-react";
 import SpotScoreDisplay, { StarRating } from "@/components/SpotScore";
+import { useAuth } from "@/components/AuthProvider";
 import type { SpotScore } from "@/lib/review-score";
 
 // reviewer_id をブラウザごとに生成・永続化
@@ -56,6 +57,8 @@ export default function SpotReviewForm({
   spotSlug: string;
   spotName: string;
 }) {
+  const { user, displayName: authDisplayName } = useAuth();
+
   const [score, setScore] = useState<SpotScore | null>(null);
   const [reviews, setReviews] = useState<ReviewDisplay[]>([]);
   const [showAllReviews, setShowAllReviews] = useState(false);
@@ -88,8 +91,13 @@ export default function SpotReviewForm({
   }, [fetchData]);
 
   useEffect(() => {
-    setName(getSavedName());
-  }, []);
+    // ログイン中ならGoogleアカウント名を優先、未ログインならlocalStorageの保存名
+    if (authDisplayName) {
+      setName(authDisplayName);
+    } else {
+      setName(getSavedName());
+    }
+  }, [authDisplayName]);
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -112,7 +120,7 @@ export default function SpotReviewForm({
           country,
           category,
           spot_slug: spotSlug,
-          reviewer_id: getReviewerId(),
+          reviewer_id: user?.id ?? getReviewerId(),
           reviewer_name: name.trim(),
           rating,
           comment: comment.trim() || null,
