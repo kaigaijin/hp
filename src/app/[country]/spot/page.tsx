@@ -2,8 +2,16 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import SpotSearch from "@/components/SpotSearch";
 import { getCountry, countries } from "@/lib/countries";
-import { categories, getCategoryCounts, type Spot, getAllSpots } from "@/lib/directory";
+import {
+  categories,
+  categoryGroups,
+  getCategoryCounts,
+  getGroupCounts,
+  getAllSpots,
+  getCategory,
+} from "@/lib/directory";
 import {
   UtensilsCrossed,
   Stethoscope,
@@ -32,6 +40,8 @@ import {
   ChevronRight,
   Phone,
   Globe,
+  Briefcase,
+  Compass,
 } from "lucide-react";
 
 const iconMap: Record<string, (size: number) => React.ReactNode> = {
@@ -57,6 +67,8 @@ const iconMap: Record<string, (size: number) => React.ReactNode> = {
   Car: (s) => <Car size={s} />,
   SprayCan: (s) => <SprayCan size={s} />,
   Wrench: (s) => <Wrench size={s} />,
+  Briefcase: (s) => <Briefcase size={s} />,
+  Compass: (s) => <Compass size={s} />,
 };
 
 export function generateStaticParams() {
@@ -96,20 +108,35 @@ export default async function SpotIndexPage({
   if (!country) notFound();
 
   const counts = getCategoryCounts(code);
+  const groupCounts = getGroupCounts(code);
   const totalSpots = Object.values(counts).reduce((a, b) => a + b, 0);
 
-  // スポットがあるカテゴリのみ表示、件数順
-  const activeCategories = categories
-    .filter((cat) => (counts[cat.slug] ?? 0) > 0)
-    .sort((a, b) => (counts[b.slug] ?? 0) - (counts[a.slug] ?? 0));
+  // 全スポットデータを検索用に整形
+  const allSpots = getAllSpots(code);
+  const searchableSpots = allSpots.map((spot) => ({
+    slug: spot.slug,
+    name: spot.name,
+    name_ja: spot.name_ja,
+    area: spot.area,
+    category: spot.category,
+    categoryName: getCategory(spot.category)?.name ?? spot.category,
+    description: spot.description,
+    tags: spot.tags,
+  }));
+
+  // スポットがあるカテゴリのslugセット
+  const activeCategorySlugs = new Set(
+    categories
+      .filter((cat) => (counts[cat.slug] ?? 0) > 0)
+      .map((cat) => cat.slug)
+  );
 
   // まだスポットがないカテゴリ
   const emptyCategories = categories.filter(
-    (cat) => (counts[cat.slug] ?? 0) === 0,
+    (cat) => (counts[cat.slug] ?? 0) === 0
   );
 
-  // 最近追加されたスポット（各カテゴリから最大1件）
-  const allSpots = getAllSpots(code);
+  // ピックアップスポット
   const recentSpots = allSpots.slice(0, 6);
 
   return (
@@ -139,8 +166,7 @@ export default async function SpotIndexPage({
                   {country.flag} {country.name}のスポット
                 </h1>
                 <p className="text-sm text-stone-500 dark:text-stone-400 mt-1">
-                  {totalSpots}件のスポットを{activeCategories.length}
-                  カテゴリで掲載中
+                  {totalSpots}件のスポットを掲載中
                 </p>
               </div>
               <Link
@@ -154,49 +180,120 @@ export default async function SpotIndexPage({
         </div>
 
         <div className="max-w-6xl mx-auto px-4 py-8">
-          {/* カテゴリグリッド */}
+          {/* 検索窓 */}
+          <div className="mb-6">
+            <SpotSearch spots={searchableSpots} countryCode={code} />
+          </div>
+
+          {/* カテゴリグループグリッド */}
           <section>
             <h2 className="text-sm font-semibold text-stone-500 dark:text-stone-400 uppercase tracking-wider mb-4">
               カテゴリから探す
             </h2>
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
-              {activeCategories.map((cat) => {
-                const count = counts[cat.slug] ?? 0;
-                const renderIcon = iconMap[cat.icon];
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {categoryGroups.map((group) => {
+                const groupCount = groupCounts[group.slug] ?? 0;
+                const renderGroupIcon = iconMap[group.icon];
+                const childCategories = group.categories
+                  .map((slug) => {
+                    const cat = categories.find((c) => c.slug === slug);
+                    if (!cat) return null;
+                    return { ...cat, count: counts[cat.slug] ?? 0 };
+                  })
+                  .filter(
+                    (c): c is NonNullable<typeof c> => c !== null
+                  );
+
                 return (
-                  <Link
-                    key={cat.slug}
-                    href={`/${code}/spot/${cat.slug}`}
-                    className="group bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 p-4 hover:border-ocean-400 dark:hover:border-ocean-500 hover:shadow-md transition-all"
+                  <div
+                    key={group.slug}
+                    className="bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 overflow-hidden"
                   >
-                    <div className="flex items-center gap-3">
-                      <div className="w-10 h-10 bg-stone-50 dark:bg-stone-700 rounded-lg flex items-center justify-center text-ocean-600 dark:text-ocean-400 group-hover:bg-ocean-50 dark:group-hover:bg-ocean-900/30 transition-colors">
-                        {renderIcon?.(20)}
+                    {/* グループヘッダー */}
+                    <div className="flex items-center gap-3 px-4 py-3 border-b border-stone-100 dark:border-stone-700">
+                      <div className="w-9 h-9 bg-stone-50 dark:bg-stone-700 rounded-lg flex items-center justify-center text-ocean-600 dark:text-ocean-400">
+                        {renderGroupIcon?.(18)}
                       </div>
-                      <div className="min-w-0">
-                        <p className="text-sm font-semibold text-stone-700 dark:text-stone-200 truncate group-hover:text-ocean-700 dark:group-hover:text-ocean-400 transition-colors">
-                          {cat.name}
+                      <div>
+                        <p className="text-sm font-semibold text-stone-700 dark:text-stone-200">
+                          {group.name}
                         </p>
-                        <p className="text-xs text-stone-400">{count}件</p>
+                        <p className="text-xs text-stone-400">
+                          {groupCount}件
+                        </p>
                       </div>
                     </div>
-                  </Link>
+
+                    {/* 子カテゴリリスト */}
+                    <div className="divide-y divide-stone-50 dark:divide-stone-700">
+                      {childCategories.map((cat) => {
+                        const hasSpots = activeCategorySlugs.has(cat.slug);
+                        const renderCatIcon = iconMap[cat.icon];
+                        if (hasSpots) {
+                          return (
+                            <Link
+                              key={cat.slug}
+                              href={`/${code}/spot/${cat.slug}`}
+                              className="flex items-center gap-3 px-4 py-2.5 hover:bg-stone-50 dark:hover:bg-stone-700/50 transition-colors"
+                            >
+                              <span className="text-stone-400 dark:text-stone-500">
+                                {renderCatIcon?.(14)}
+                              </span>
+                              <span className="flex-1 text-sm text-stone-600 dark:text-stone-300 hover:text-ocean-600 dark:hover:text-ocean-400 transition-colors">
+                                {cat.name}
+                              </span>
+                              <span className="text-xs text-stone-400 tabular-nums">
+                                {cat.count}件
+                              </span>
+                              <ChevronRight
+                                size={14}
+                                className="text-stone-300 dark:text-stone-600"
+                              />
+                            </Link>
+                          );
+                        }
+                        return (
+                          <div
+                            key={cat.slug}
+                            className="flex items-center gap-3 px-4 py-2.5 opacity-50"
+                          >
+                            <span className="text-stone-400 dark:text-stone-500">
+                              {renderCatIcon?.(14)}
+                            </span>
+                            <span className="flex-1 text-sm text-stone-400 dark:text-stone-500">
+                              {cat.name}
+                            </span>
+                            <span className="text-xs text-stone-300 dark:text-stone-600">
+                              準備中
+                            </span>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
                 );
               })}
             </div>
 
-            {/* まだスポットがないカテゴリ */}
+            {/* まだスポットがないカテゴリ（グループに属さないもの） */}
             {emptyCategories.length > 0 && (
               <div className="mt-4">
                 <div className="flex flex-wrap gap-2">
-                  {emptyCategories.map((cat) => (
-                    <span
-                      key={cat.slug}
-                      className="text-xs text-stone-400 dark:text-stone-500 bg-stone-200/50 dark:bg-stone-800 rounded-full px-3 py-1"
-                    >
-                      {cat.name}（準備中）
-                    </span>
-                  ))}
+                  {emptyCategories
+                    .filter(
+                      (cat) =>
+                        !categoryGroups.some((g) =>
+                          g.categories.includes(cat.slug)
+                        )
+                    )
+                    .map((cat) => (
+                      <span
+                        key={cat.slug}
+                        className="text-xs text-stone-400 dark:text-stone-500 bg-stone-200/50 dark:bg-stone-800 rounded-full px-3 py-1"
+                      >
+                        {cat.name}（準備中）
+                      </span>
+                    ))}
                 </div>
               </div>
             )}

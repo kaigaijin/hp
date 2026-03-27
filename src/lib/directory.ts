@@ -9,6 +9,59 @@ export type CategoryDef = {
   description: string;
 };
 
+// カテゴリグループ定義
+export type CategoryGroup = {
+  slug: string;
+  name: string;
+  icon: string;
+  categories: string[]; // 子カテゴリのslug配列
+};
+
+export const categoryGroups: CategoryGroup[] = [
+  {
+    slug: "gourmet",
+    name: "グルメ",
+    icon: "UtensilsCrossed",
+    categories: ["restaurant", "cafe", "izakaya-bar", "grocery"],
+  },
+  {
+    slug: "medical",
+    name: "医療",
+    icon: "Stethoscope",
+    categories: ["clinic", "dental", "pharmacy"],
+  },
+  {
+    slug: "beauty-health",
+    name: "美容・健康",
+    icon: "Scissors",
+    categories: ["beauty", "nail-esthetic", "fitness"],
+  },
+  {
+    slug: "housing",
+    name: "住まい・暮らし",
+    icon: "Building2",
+    categories: ["real-estate", "moving", "cleaning", "repair"],
+  },
+  {
+    slug: "education",
+    name: "教育",
+    icon: "GraduationCap",
+    categories: ["education"],
+  },
+  {
+    slug: "professional",
+    name: "士業・専門サービス",
+    icon: "Briefcase",
+    categories: ["accounting", "legal", "insurance"],
+  },
+  {
+    slug: "lifestyle",
+    name: "その他サービス",
+    icon: "Compass",
+    categories: ["travel", "coworking", "pet", "car"],
+  },
+];
+
 export const categories: CategoryDef[] = [
   {
     slug: "restaurant",
@@ -154,6 +207,14 @@ export type SpotStatus = "unverified" | "verified" | "reported_closed";
 // 情報ソース
 export type SpotSource = "website" | "google_maps" | "sns" | "user_report";
 
+// メニュー項目
+export type MenuItem = {
+  name: string;
+  price?: string; // 表示用価格（例: "SGD 15"）
+  description?: string;
+  category?: string; // メニューカテゴリ（例: "ランチ", "ドリンク"）
+};
+
 // スポットデータ
 export type Spot = {
   slug: string;
@@ -169,6 +230,16 @@ export type Spot = {
   status?: SpotStatus;
   source?: SpotSource;
   last_verified?: string;
+
+  // 食べログ風拡張フィールド（すべてオプショナル）
+  menu?: MenuItem[]; // メニュー
+  price_range?: string; // 価格帯（例: "¥1,000〜¥3,000"）
+  payment?: string[]; // 支払い方法（例: ["現金", "VISA", "Mastercard", "PayPay"]）
+  seats?: number | null; // 席数
+  parking?: string | null; // 駐車場情報
+  reservation?: string | null; // 予約情報（例: "電話予約可", "予約不要"）
+  smoking?: string | null; // 喫煙情報
+  languages?: string[]; // 対応言語
 };
 
 // ステータスの表示情報
@@ -229,6 +300,19 @@ export function getCategoryCounts(
     counts[cat.slug] = spots.length;
   }
   return counts;
+}
+
+// 国ごとのグループ別スポット数を取得
+export function getGroupCounts(countryCode: string): Record<string, number> {
+  const catCounts = getCategoryCounts(countryCode);
+  const groupCounts: Record<string, number> = {};
+  for (const group of categoryGroups) {
+    groupCounts[group.slug] = group.categories.reduce(
+      (sum, cat) => sum + (catCounts[cat] ?? 0),
+      0
+    );
+  }
+  return groupCounts;
 }
 
 // 国ごとの全スポットを取得（sitemap用）
