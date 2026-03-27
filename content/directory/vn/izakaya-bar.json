@@ -321,5 +321,62 @@
     "status": "unverified",
     "source": "google_maps",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "izakaya-kenta-hcmc",
+    "name": "Izakaya Kenta",
+    "name_ja": "居酒屋けんた",
+    "area": "District 1",
+    "address": "Thai Van Lung, District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "タイバンルン通りの居酒屋。日本人マスターが切り盛りする小さな店。手作り料理と日本酒が自慢。",
+    "tags": [
+      "居酒屋",
+      "日本人経営",
+      "タイバンルン"
+    ],
+    "hours": "17:00〜23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "yakiniku-house-hcmc",
+    "name": "Yakiniku House HCMC",
+    "name_ja": "焼肉ハウス ホーチミン",
+    "area": "District 1",
+    "address": "District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "日本式焼肉居酒屋。和牛・カルビ・ハラミなど豊富な肉メニュー。食べ放題プランあり。",
+    "tags": [
+      "焼肉",
+      "居酒屋",
+      "食べ放題"
+    ],
+    "hours": "11:30〜23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sake-bar-hanoi",
+    "name": "Sake Bar Hanoi",
+    "name_ja": "酒バー ハノイ",
+    "area": "Ba Dinh",
+    "address": "Ba Dinh, Hanoi",
+    "phone": null,
+    "website": null,
+    "description": "ハノイの日本酒バー。全国各地の地酒を取り揃え。日本人駐在員の憩いの場。",
+    "tags": [
+      "日本酒",
+      "バー",
+      "駐在員"
+    ],
+    "hours": "18:00〜翌1:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

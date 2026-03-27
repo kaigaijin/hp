@@ -188,5 +188,42 @@
     "status": "unverified",
     "source": "google_maps",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "hanoi-french-hospital",
+    "name": "Hanoi French Hospital",
+    "name_ja": "ハノイフランス病院",
+    "area": "Ba Dinh",
+    "address": "1 Phuong Mai, Dong Da, Hanoi",
+    "phone": null,
+    "website": null,
+    "description": "ハノイの国際病院。日本語通訳サービスあり。各科専門医が在籍し、外国人対応に慣れている。",
+    "tags": [
+      "国際病院",
+      "日本語通訳",
+      "外国人対応"
+    ],
+    "hours": "24時間（救急）/ 外来 8:00〜17:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "columbia-asia-hanoi",
+    "name": "Columbia Asia Hanoi",
+    "name_ja": "コロンビアアジア ハノイ",
+    "area": "Cau Giay",
+    "address": "Cau Giay, Hanoi",
+    "phone": null,
+    "website": null,
+    "description": "マレーシア系の国際クリニック。日本語通訳サービスあり。一般診療・専門外来に対応。",
+    "tags": [
+      "国際クリニック",
+      "日本語通訳"
+    ],
+    "hours": "平日 8:00〜17:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

@@ -220,5 +220,41 @@
     "status": "unverified",
     "source": "google_maps",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "asian-grocery-melbourne",
+    "name": "Asian Grocery Melbourne CBD",
+    "name_ja": "アジアングロサリー メルボルンCBD",
+    "area": "Melbourne CBD",
+    "address": "Melbourne CBD, VIC",
+    "phone": null,
+    "website": null,
+    "description": "メルボルンCBDのアジア食材店。日本食材の品揃えが充実。味噌・醤油・だし・麺類が手に入る。",
+    "tags": [
+      "日本食材",
+      "アジア食材"
+    ],
+    "hours": "毎日 9:00〜21:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "fuji-mart-gold-coast",
+    "name": "Fuji Mart Gold Coast",
+    "name_ja": "フジマート ゴールドコースト",
+    "area": "Gold Coast",
+    "address": "Gold Coast, QLD",
+    "phone": null,
+    "website": "https://www.junpacific.com/",
+    "description": "フジマートのゴールドコースト店。クイーンズランドで日本食材が手に入る。",
+    "tags": [
+      "日本食材",
+      "専門店"
+    ],
+    "hours": "月〜土 10:00〜18:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
   }
 ]

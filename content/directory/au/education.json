@@ -130,5 +130,42 @@
     "status": "unverified",
     "source": "website",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "gold-coast-japanese-school",
+    "name": "Gold Coast Japanese Saturday School",
+    "name_ja": "ゴールドコースト日本語補習校",
+    "area": "Gold Coast",
+    "address": "Gold Coast, QLD",
+    "phone": null,
+    "website": null,
+    "description": "ゴールドコーストの日本語補習校。現地校に通う日本人子弟向けに土曜日に授業を提供。",
+    "tags": [
+      "補習校",
+      "日本語教育",
+      "土曜授業"
+    ],
+    "hours": "土曜 9:00〜12:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "canberra-japanese-school",
+    "name": "Canberra Japanese Saturday School",
+    "name_ja": "キャンベラ日本語補習校",
+    "area": "Canberra",
+    "address": "Canberra, ACT",
+    "phone": null,
+    "website": null,
+    "description": "キャンベラの日本語補習校。外交官・公務員の子弟も多く通う。",
+    "tags": [
+      "補習校",
+      "日本語教育"
+    ],
+    "hours": "土曜 9:00〜12:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

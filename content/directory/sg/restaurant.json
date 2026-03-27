@@ -122,7 +122,7 @@
   {
     "slug": "fat-cow",
     "name": "Fat Cow",
-    "name_ja": "",
+    "name_ja": "Fat Cow",
     "area": "Orchard",
     "address": "Camden Medical Centre, #01-01/02, 1 Orchard Boulevard, Singapore 248649",
     "phone": "+6567350308",
@@ -142,7 +142,7 @@
   {
     "slug": "omakase-at-stevens",
     "name": "Omakase @ Stevens",
-    "name_ja": "",
+    "name_ja": "Omakase @ Stevens",
     "area": "Stevens",
     "address": "30 Stevens Road, #01-03, Singapore 257840",
     "phone": "+6567358282",
@@ -262,7 +262,7 @@
   {
     "slug": "the-public-izakaya",
     "name": "The Public Izakaya",
-    "name_ja": "",
+    "name_ja": "The Public Izakaya",
     "area": "Tanjong Pagar",
     "address": "100 Tras Street, #01-09, 100AM Mall, Singapore 079027",
     "phone": "+6566049622",
@@ -1175,7 +1175,12 @@
     "phone": "+6562213308",
     "website": "https://www.monstercurry.com.sg/",
     "description": "ENグループが運営する日本式カレーチェーン・モンスターカレーのVivoCity店。ボリューム満点のカツカレーやオムカレーが人気。家族連れにも便利な立地。",
-    "tags": ["カレー", "カジュアル", "家族向け", "ENグループ"],
+    "tags": [
+      "カレー",
+      "カジュアル",
+      "家族向け",
+      "ENグループ"
+    ],
     "hours": "毎日 11:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1190,7 +1195,12 @@
     "phone": "+6562661708",
     "website": "https://www.monstercurry.com.sg/",
     "description": "モンスターカレーのBugis Junction店。MRT Bugis駅直結でアクセス良好。日本式カレーを手軽に楽しめる。",
-    "tags": ["カレー", "カジュアル", "駅直結", "ENグループ"],
+    "tags": [
+      "カレー",
+      "カジュアル",
+      "駅直結",
+      "ENグループ"
+    ],
     "hours": "毎日 11:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1205,7 +1215,11 @@
     "phone": null,
     "website": "https://www.monstercurry.com.sg/",
     "description": "モンスターカレーのChinatown Point店。MRT Chinatown駅近く。",
-    "tags": ["カレー", "カジュアル", "ENグループ"],
+    "tags": [
+      "カレー",
+      "カジュアル",
+      "ENグループ"
+    ],
     "hours": "毎日 11:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1220,7 +1234,12 @@
     "phone": null,
     "website": "https://www.monstercurry.com.sg/",
     "description": "モンスターカレーのJurong Point店。西部エリアに住む日本人にも便利。",
-    "tags": ["カレー", "カジュアル", "家族向け", "ENグループ"],
+    "tags": [
+      "カレー",
+      "カジュアル",
+      "家族向け",
+      "ENグループ"
+    ],
     "hours": "毎日 11:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1235,7 +1254,12 @@
     "phone": null,
     "website": "https://www.monstercurry.com.sg/",
     "description": "モンスターカレーのNEX Serangoon店。MRT Serangoon駅直結。",
-    "tags": ["カレー", "カジュアル", "駅直結", "ENグループ"],
+    "tags": [
+      "カレー",
+      "カジュアル",
+      "駅直結",
+      "ENグループ"
+    ],
     "hours": "毎日 11:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1250,7 +1274,12 @@
     "phone": null,
     "website": "https://www.monstercurry.com.sg/",
     "description": "モンスターカレーのNorthpoint City店。北部Yishunエリア。",
-    "tags": ["カレー", "カジュアル", "家族向け", "ENグループ"],
+    "tags": [
+      "カレー",
+      "カジュアル",
+      "家族向け",
+      "ENグループ"
+    ],
     "hours": "毎日 11:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1265,7 +1294,11 @@
     "phone": null,
     "website": "https://www.monstercurry.com.sg/",
     "description": "モンスターカレーのNovena Square店。日本人が多く住むエリアに位置。MRT Novena駅近く。",
-    "tags": ["カレー", "カジュアル", "ENグループ"],
+    "tags": [
+      "カレー",
+      "カジュアル",
+      "ENグループ"
+    ],
     "hours": "毎日 11:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1280,7 +1313,11 @@
     "phone": null,
     "website": "https://www.monstercurry.com.sg/",
     "description": "モンスターカレーの100AM店。MRT Tanjong Pagar駅近く、CBD勤務の日本人に便利。",
-    "tags": ["カレー", "カジュアル", "ENグループ"],
+    "tags": [
+      "カレー",
+      "カジュアル",
+      "ENグループ"
+    ],
     "hours": "毎日 11:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1295,7 +1332,11 @@
     "phone": "+6569702987",
     "website": "https://www.monstercurry.com.sg/",
     "description": "モンスターカレーのPaya Lebar Square店。MRT Paya Lebar駅近く。",
-    "tags": ["カレー", "カジュアル", "ENグループ"],
+    "tags": [
+      "カレー",
+      "カジュアル",
+      "ENグループ"
+    ],
     "hours": "毎日 11:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1310,7 +1351,12 @@
     "phone": "+6569370488",
     "website": "https://www.monstercurry.com.sg/",
     "description": "モンスターカレーのTampines 1店。東部在住の日本人に便利。",
-    "tags": ["カレー", "カジュアル", "家族向け", "ENグループ"],
+    "tags": [
+      "カレー",
+      "カジュアル",
+      "家族向け",
+      "ENグループ"
+    ],
     "hours": "毎日 11:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1325,7 +1371,12 @@
     "phone": "+6562458879",
     "website": "https://www.monstercurry.com.sg/",
     "description": "モンスターカレーのWaterway Point店。Punggolエリア。",
-    "tags": ["カレー", "カジュアル", "家族向け", "ENグループ"],
+    "tags": [
+      "カレー",
+      "カジュアル",
+      "家族向け",
+      "ENグループ"
+    ],
     "hours": "毎日 11:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1340,7 +1391,12 @@
     "phone": "+6562468018",
     "website": "https://www.monstercurry.com.sg/",
     "description": "モンスターカレーのJewel Changi Airport店。空港利用時にも便利。",
-    "tags": ["カレー", "カジュアル", "空港", "ENグループ"],
+    "tags": [
+      "カレー",
+      "カジュアル",
+      "空港",
+      "ENグループ"
+    ],
     "hours": "毎日 11:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1355,7 +1411,12 @@
     "phone": null,
     "website": "https://aburi-en.com/",
     "description": "ENグループが展開する炙り丼専門店。炙りサーモン丼やうな丼など、炭火で炙った具材をのせた丼ものを提供。シンガポール国内14店舗以上を展開する人気チェーン。",
-    "tags": ["丼もの", "炙り", "カジュアル", "ENグループ"],
+    "tags": [
+      "丼もの",
+      "炙り",
+      "カジュアル",
+      "ENグループ"
+    ],
     "hours": "毎日 11:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1370,7 +1431,12 @@
     "phone": null,
     "website": "https://aburi-en.com/",
     "description": "Aburi-ENのJewel Changi Airport店。空港到着後や出発前に日本式の炙り丼を手軽に楽しめる。",
-    "tags": ["丼もの", "炙り", "空港", "ENグループ"],
+    "tags": [
+      "丼もの",
+      "炙り",
+      "空港",
+      "ENグループ"
+    ],
     "hours": "毎日 11:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1385,7 +1451,11 @@
     "phone": null,
     "website": "https://aburi-en.com/",
     "description": "Aburi-ENのVivoCity店。セントーサ島へのアクセスにも便利なエリア。",
-    "tags": ["丼もの", "炙り", "ENグループ"],
+    "tags": [
+      "丼もの",
+      "炙り",
+      "ENグループ"
+    ],
     "hours": "毎日 11:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1400,7 +1470,11 @@
     "phone": null,
     "website": "https://aburi-en.com/",
     "description": "Aburi-ENのSuntec City店。MRT Promenade駅近くのオフィス街にあり、ランチ利用に便利。",
-    "tags": ["丼もの", "炙り", "ENグループ"],
+    "tags": [
+      "丼もの",
+      "炙り",
+      "ENグループ"
+    ],
     "hours": "毎日 11:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1415,7 +1489,12 @@
     "phone": null,
     "website": "https://aburi-en.com/",
     "description": "Aburi-ENのJunction 8店。日本人が多く住むBishanエリアに位置。MRT Bishan駅直結。",
-    "tags": ["丼もの", "炙り", "駅直結", "ENグループ"],
+    "tags": [
+      "丼もの",
+      "炙り",
+      "駅直結",
+      "ENグループ"
+    ],
     "hours": "毎日 11:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1430,7 +1509,13 @@
     "phone": null,
     "website": "https://tamago-en.com/",
     "description": "ENグループが展開するたまご料理専門レストラン。ふわふわのスフレオムレツやたまご丼、オムライスなど、たまごを使った多彩な日本料理を提供。朝食から利用可能。",
-    "tags": ["たまご料理", "オムレツ", "朝食", "カジュアル", "ENグループ"],
+    "tags": [
+      "たまご料理",
+      "オムレツ",
+      "朝食",
+      "カジュアル",
+      "ENグループ"
+    ],
     "hours": "毎日 11:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1445,7 +1530,11 @@
     "phone": null,
     "website": "https://tamago-en.com/",
     "description": "Tamago-ENのVivoCity店。たまごを主役にした日本料理を提供。",
-    "tags": ["たまご料理", "カジュアル", "ENグループ"],
+    "tags": [
+      "たまご料理",
+      "カジュアル",
+      "ENグループ"
+    ],
     "hours": "毎日 11:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1460,7 +1549,11 @@
     "phone": null,
     "website": "https://tamago-en.com/",
     "description": "Tamago-ENのSuntec City店。オフィス街のランチに便利。",
-    "tags": ["たまご料理", "カジュアル", "ENグループ"],
+    "tags": [
+      "たまご料理",
+      "カジュアル",
+      "ENグループ"
+    ],
     "hours": "毎日 11:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1475,7 +1568,12 @@
     "phone": null,
     "website": "https://tamago-en.com/",
     "description": "Tamago-ENのPlaza Singapura店。MRT Dhoby Ghaut駅直結。",
-    "tags": ["たまご料理", "カジュアル", "駅直結", "ENグループ"],
+    "tags": [
+      "たまご料理",
+      "カジュアル",
+      "駅直結",
+      "ENグループ"
+    ],
     "hours": "毎日 11:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1490,7 +1588,11 @@
     "phone": null,
     "website": "https://tempuramakino.com.sg/",
     "description": "ENグループの天ぷら専門店（旧Tempura Makino）。揚げたての天ぷらを天丼やコースで提供。シンガポール国内4店舗展開。",
-    "tags": ["天ぷら", "天丼", "ENグループ"],
+    "tags": [
+      "天ぷら",
+      "天丼",
+      "ENグループ"
+    ],
     "hours": "毎日 11:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1505,7 +1607,11 @@
     "phone": null,
     "website": "https://tempuramakino.com.sg/",
     "description": "Tempura-ENのSuntec City店。揚げたて天ぷらをランチで手軽に楽しめる。",
-    "tags": ["天ぷら", "天丼", "ENグループ"],
+    "tags": [
+      "天ぷら",
+      "天丼",
+      "ENグループ"
+    ],
     "hours": "毎日 11:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1520,7 +1626,12 @@
     "phone": null,
     "website": "https://tempuramakino.com.sg/",
     "description": "Tempura-ENのJewel Changi Airport店。空港利用時に揚げたての天ぷらを楽しめる。",
-    "tags": ["天ぷら", "天丼", "空港", "ENグループ"],
+    "tags": [
+      "天ぷら",
+      "天丼",
+      "空港",
+      "ENグループ"
+    ],
     "hours": "毎日 11:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1535,7 +1646,13 @@
     "phone": null,
     "website": "https://monsterplanet.com.sg/",
     "description": "ENグループの大盛りカレー＆洋食店。35cm・41cmの巨大プレートが名物。14種類の野菜とスパイスで作るカレーに加え、パスタやグラタン等も提供。",
-    "tags": ["カレー", "洋食", "大盛り", "カジュアル", "ENグループ"],
+    "tags": [
+      "カレー",
+      "洋食",
+      "大盛り",
+      "カジュアル",
+      "ENグループ"
+    ],
     "hours": "毎日 11:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1550,7 +1667,13 @@
     "phone": null,
     "website": "https://monsterplanet.com.sg/",
     "description": "Monster PlanetのCauseway Point店。北部Woodlandsエリア。",
-    "tags": ["カレー", "洋食", "大盛り", "カジュアル", "ENグループ"],
+    "tags": [
+      "カレー",
+      "洋食",
+      "大盛り",
+      "カジュアル",
+      "ENグループ"
+    ],
     "hours": "毎日 11:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1565,7 +1688,13 @@
     "phone": null,
     "website": "https://monsterplanet.com.sg/",
     "description": "Monster PlanetのPaya Lebar Square店。MRT Paya Lebar駅近く。",
-    "tags": ["カレー", "洋食", "大盛り", "カジュアル", "ENグループ"],
+    "tags": [
+      "カレー",
+      "洋食",
+      "大盛り",
+      "カジュアル",
+      "ENグループ"
+    ],
     "hours": "毎日 11:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1580,7 +1709,13 @@
     "phone": null,
     "website": "https://monsterplanet.com.sg/",
     "description": "Monster PlanetのThe Centrepoint店。オーチャードエリア。",
-    "tags": ["カレー", "洋食", "大盛り", "カジュアル", "ENグループ"],
+    "tags": [
+      "カレー",
+      "洋食",
+      "大盛り",
+      "カジュアル",
+      "ENグループ"
+    ],
     "hours": "毎日 11:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1595,7 +1730,12 @@
     "phone": null,
     "website": "https://engroup.com.sg/brands/enchanko/",
     "description": "ENグループが展開するちゃんこ鍋専門店。力士の食事として知られるちゃんこ鍋を、たっぷりの野菜とタンパク質で楽しめる。ヘルシー志向の方にも対応。",
-    "tags": ["鍋", "ちゃんこ", "ヘルシー", "ENグループ"],
+    "tags": [
+      "鍋",
+      "ちゃんこ",
+      "ヘルシー",
+      "ENグループ"
+    ],
     "hours": "毎日 11:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1610,7 +1750,11 @@
     "phone": "+6569709101",
     "website": "https://churasushibar.com.sg/",
     "description": "ENグループ初の寿司業態。沖縄の「美ら（ちゅら）」をコンセプトに、寿司と日本酒カクテルを提供。カウンター席で職人の握りを間近で楽しめる。",
-    "tags": ["寿司", "カクテル", "ENグループ"],
+    "tags": [
+      "寿司",
+      "カクテル",
+      "ENグループ"
+    ],
     "hours": "毎日 11:00-16:00, 17:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -1625,7 +1769,12 @@
     "phone": null,
     "website": "https://engroup.com.sg/brands/en-dining/",
     "description": "ENグループの原点となるブランド。2001年にMohamed Sultan Roadでオープン。プレミアムな日本料理のアラカルトビュッフェを手頃な価格で提供。沖縄料理も楽しめる。",
-    "tags": ["ビュッフェ", "日本料理", "沖縄料理", "ENグループ"],
+    "tags": [
+      "ビュッフェ",
+      "日本料理",
+      "沖縄料理",
+      "ENグループ"
+    ],
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",

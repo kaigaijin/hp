@@ -2,7 +2,7 @@
   {
     "slug": "the-hive-thonglor",
     "name": "the Hive Thonglor",
-    "name_ja": "",
+    "name_ja": "the Hive Thonglor",
     "area": "Thonglor",
     "address": "46/9 Soi Sukhumvit 49, Klong Ton Nua Sub-District, Wattana District, Bangkok",
     "phone": "+6626626062",
@@ -21,7 +21,7 @@
   {
     "slug": "true-digital-park",
     "name": "True Digital Park",
-    "name_ja": "",
+    "name_ja": "True Digital Park",
     "area": "Phra Khanong",
     "address": "101 Sukhumvit Road, Phra Khanong District, Bangkok 10260",
     "phone": "+6620091101",
@@ -124,7 +124,12 @@
     "phone": null,
     "website": "http://www.shinei-office.com/",
     "description": "アソーク駅徒歩5分の日系サービスオフィス・コワーキングスペース。スタッフが日本語・英語・タイ語に対応し、見積もりや契約も希望の言語で対応可能。法人登記にも利用可。",
-    "tags": ["日本語対応", "コワーキング", "サービスオフィス", "法人登記可"],
+    "tags": [
+      "日本語対応",
+      "コワーキング",
+      "サービスオフィス",
+      "法人登記可"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "website",
@@ -139,7 +144,11 @@
     "phone": null,
     "website": null,
     "description": "日タイビジネス連携のためのコ・クリエイティブワークスペース。BTSアソーク駅とBTSプロンポン駅の間に位置。語学スクール・翻訳センターも併設し、タイ進出企業の短期拠点としても利用可能。2025年にリノベーション済み。",
-    "tags": ["コワーキング", "日タイビジネス", "翻訳センター併設"],
+    "tags": [
+      "コワーキング",
+      "日タイビジネス",
+      "翻訳センター併設"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "website",

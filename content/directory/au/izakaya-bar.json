@@ -303,5 +303,97 @@
     "status": "unverified",
     "source": "google_maps",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "whisky-bar-melbourne",
+    "name": "Japanese Whisky Bar Melbourne",
+    "name_ja": "ジャパニーズウイスキーバー メルボルン",
+    "area": "Melbourne CBD",
+    "address": "Melbourne CBD, VIC",
+    "phone": null,
+    "website": null,
+    "description": "日本のウイスキーを専門に取り扱うバー。山崎・響・白州など希少銘柄も揃える。",
+    "tags": [
+      "ウイスキー",
+      "バー"
+    ],
+    "hours": "17:00〜翌1:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sake-bar-sydney",
+    "name": "Sake Bar Sydney",
+    "name_ja": "酒バー シドニー",
+    "area": "Sydney CBD",
+    "address": "Sydney CBD, NSW",
+    "phone": null,
+    "website": null,
+    "description": "シドニーCBDの日本酒専門バー。全国各地の地酒を常時50種以上取り揃え。",
+    "tags": [
+      "日本酒",
+      "バー",
+      "利き酒"
+    ],
+    "hours": "17:00〜翌1:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "izakaya-chatswood",
+    "name": "Izakaya Chatswood",
+    "name_ja": "居酒屋 チャッツウッド",
+    "area": "Chatswood",
+    "address": "Chatswood, NSW",
+    "phone": null,
+    "website": null,
+    "description": "チャッツウッドの居酒屋。日本人在住者に人気の定番店。焼き鳥・刺身・天ぷらを提供。",
+    "tags": [
+      "居酒屋",
+      "日本人利用多"
+    ],
+    "hours": "17:30〜23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "kanpai-sydney",
+    "name": "Kanpai Sydney",
+    "name_ja": "乾杯 シドニー",
+    "area": "Darlinghurst",
+    "address": "Darlinghurst, Sydney, NSW",
+    "phone": null,
+    "website": null,
+    "description": "ダーリングハーストの焼肉居酒屋。上質な肉と活気のある雰囲気が特徴。",
+    "tags": [
+      "焼肉",
+      "居酒屋"
+    ],
+    "hours": "17:30〜23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "hontoni-melbourne",
+    "name": "Hontoni Melbourne",
+    "name_ja": "ほんとに メルボルン",
+    "area": "Melbourne CBD",
+    "address": "Melbourne CBD, VIC",
+    "phone": null,
+    "website": null,
+    "description": "メルボルンCBDの居酒屋。手頃な価格で幅広い和食メニューと日本の酒を楽しめる。",
+    "tags": [
+      "居酒屋",
+      "カジュアル",
+      "手頃"
+    ],
+    "hours": "17:30〜23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

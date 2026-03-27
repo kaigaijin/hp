@@ -267,5 +267,50 @@
     "status": "unverified",
     "source": "google_maps",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "my-bakery-phrom-phong",
+    "name": "MY BAKERY",
+    "name_ja": "マイベーカリー",
+    "area": "Phrom Phong",
+    "address": "Sukhumvit Rd, Khlong Toei Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "2023年に一度閉店し、2025年8月11日に復活オープンした日本式ベーカリー。100%ミルクで仕込むミルクブレッドが看板商品。ソーセージパン、クリームパン、あんパンなど日本のパンが充実。BTSプロンポン駅近く。",
+    "tags": ["ベーカリー", "日本式パン", "食パン"],
+    "hours": "7:00-19:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "holey-mothership-bakery-phra-khanong",
+    "name": "Holey Mothership Bakery & Cafe",
+    "name_ja": "ホーリー マザーシップ ベーカリー&カフェ",
+    "area": "Phra Khanong",
+    "address": "Phra Khanong, Bangkok 10260",
+    "phone": null,
+    "website": null,
+    "description": "プラカノンにある焼きたてパンとコーヒーが楽しめるベーカリーカフェ。日本人在住者の間で口コミ評価が高く、クロワッサンやサワードウブレッドが看板商品。朝食やブランチに最適。",
+    "tags": ["ベーカリー", "カフェ", "ブランチ"],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "tsujiri-bangkok",
+    "name": "Tsujiri",
+    "name_ja": "辻利",
+    "area": "Bangkok",
+    "address": "バンコク市内各ショッピングモール（複数店舗あり）",
+    "phone": null,
+    "website": null,
+    "description": "京都・宇治発の老舗抹茶ブランド「辻利」のタイ展開。抹茶ラテ、抹茶ソフトクリーム、抹茶パフェなど本格的な宇治抹茶を使ったメニューを提供。バンコク市内に複数店舗を展開。",
+    "tags": ["抹茶", "カフェ", "京都発", "チェーン"],
+    "hours": "店舗により異なる",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]
