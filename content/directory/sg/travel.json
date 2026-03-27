@@ -8,7 +8,12 @@
     "phone": "+6562221230",
     "website": "https://his.com.sg/",
     "description": "日本の大手旅行会社HISのシンガポール支店。日本への一時帰国チケット、アジア各国へのツアー、ホテル予約などを日本語で対応。ウォークインでの相談も可能（要事前予約推奨）。",
-    "tags": ["日本語対応", "航空券", "ツアー", "ホテル予約"],
+    "tags": [
+      "日本語対応",
+      "航空券",
+      "ツアー",
+      "ホテル予約"
+    ],
     "hours": "火〜土: 10:00-19:00（月日休）",
     "last_verified": "2026-03-26",
     "status": "verified",
@@ -23,7 +28,13 @@
     "phone": "+6565950600",
     "website": "https://sg.jtbtrip.com/",
     "description": "1912年創業の日本最大の旅行会社JTBのシンガポール支店。個人旅行・団体旅行・法人出張手配・MICE・訪日ツアーなど幅広い旅行サービスを日本語で提供。",
-    "tags": ["日本語対応", "航空券", "ツアー", "法人出張", "MICE"],
+    "tags": [
+      "日本語対応",
+      "航空券",
+      "ツアー",
+      "法人出張",
+      "MICE"
+    ],
     "hours": "月〜金: 9:00-18:00 / 土: 9:00-13:00（日祝休）",
     "last_verified": "2026-03-26",
     "status": "verified",
@@ -38,10 +49,73 @@
     "phone": "+6564387010",
     "website": "https://www.jal.co.jp/vacations/en-sg/",
     "description": "JALグループの旅行会社。日本各地へのバケーションパッケージを提供。航空券+ホテルのセットプランが手頃で、日本への一時帰国や旅行に便利。",
-    "tags": ["日本語対応", "航空券", "パッケージツアー", "訪日旅行"],
+    "tags": [
+      "日本語対応",
+      "航空券",
+      "パッケージツアー",
+      "訪日旅行"
+    ],
     "hours": "月〜金: 9:00-17:30（土日祝休）",
     "last_verified": "2026-03-26",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "follow-me-japan-sg",
+    "name": "Follow Me Japan",
+    "name_ja": "フォローミージャパン",
+    "area": "CBD",
+    "address": "Singapore",
+    "phone": null,
+    "website": "https://www.followmejapan.com.sg/",
+    "description": "シンガポール拠点の日本旅行専門エージェント。フライ&ドライブ、コーチツアー、プライベートツアーなど、日本各地へのオーダーメイド旅行を企画。シンガポール在住者の一時帰国ついでの国内旅行にも対応。",
+    "tags": [
+      "日本旅行専門",
+      "オーダーメイド",
+      "フライ&ドライブ"
+    ],
+    "hours": "月〜金: 9:00-18:00（土日祝休）",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "panda-travel-singapore",
+    "name": "Panda Travel (PANDA BUS)",
+    "name_ja": "パンダトラベル（パンダバス）",
+    "area": "CBD",
+    "address": "Singapore",
+    "phone": null,
+    "website": "https://www.pandabus.com/",
+    "description": "1978年設立の日本人向け旅行会社。シンガポール・タイ・香港・インドネシアなどアジア各国に拠点を持つ。シンガポール発の日帰りツアー・送迎・ホテル手配を日本語で提供。日本人旅行者向けのオプショナルツアーが充実。",
+    "tags": [
+      "日本語対応",
+      "ツアー",
+      "送迎",
+      "ホテル予約"
+    ],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "ana-sales-singapore",
+    "name": "ANA Sales Singapore",
+    "name_ja": "ANAセールス シンガポール",
+    "area": "Singapore",
+    "address": "Singapore",
+    "phone": null,
+    "website": null,
+    "description": "ANAグループの旅行会社。日本への一時帰国チケットやパッケージツアーを日本語で手配。ANA便を利用した訪日旅行プランが充実。",
+    "tags": [
+      "日本語対応",
+      "航空券",
+      "パッケージツアー"
+    ],
+    "hours": "月〜金: 9:00-18:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

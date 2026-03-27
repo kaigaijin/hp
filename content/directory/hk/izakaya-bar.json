@@ -171,5 +171,138 @@
     "status": "unverified",
     "source": "sns",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "chaco-bar-hk",
+    "name": "Chaco Bar Hong Kong",
+    "name_ja": "チャコバー 香港",
+    "area": "Central",
+    "address": "Central, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "炭火焼き鳥専門のバー。手頃な価格で本格的な焼き鳥とドリンクが楽しめる。カジュアルな雰囲気。",
+    "tags": [
+      "焼き鳥",
+      "バー",
+      "カジュアル"
+    ],
+    "hours": "18:00〜24:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sake-bar-ginn-hk",
+    "name": "Sake Bar GINN",
+    "name_ja": "酒バーGINN",
+    "area": "Central",
+    "address": "Central, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "日本酒を専門に取り扱うバー。全国各地の地酒を常時多数取り揃え。利き酒セットで飲み比べも。",
+    "tags": [
+      "日本酒",
+      "バー",
+      "利き酒"
+    ],
+    "hours": "18:00〜翌1:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "izakaya-uoharu-hk",
+    "name": "Uoharu Hong Kong",
+    "name_ja": "魚治 香港",
+    "area": "Central",
+    "address": "Central, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "東京・恵比寿の人気居酒屋の香港店。新鮮な刺身と炭火焼きが自慢。日本酒の品揃えも豊富。",
+    "tags": [
+      "居酒屋",
+      "刺身",
+      "東京発"
+    ],
+    "hours": "12:00〜14:30 / 18:00〜23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "robataya-hk",
+    "name": "Robataya Hong Kong",
+    "name_ja": "炉端焼 香港",
+    "area": "Wan Chai",
+    "address": "Wan Chai, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "日本式の炉端焼き居酒屋。長い木の棒でカウンター越しに料理を渡すスタイルが特徴。炭火で焼く魚介と野菜が絶品。",
+    "tags": [
+      "炉端焼き",
+      "居酒屋",
+      "炭火焼"
+    ],
+    "hours": "18:00〜23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "yakiniku-jumbo-hk",
+    "name": "Yakiniku Jumbo Hong Kong",
+    "name_ja": "焼肉ジャンボ 香港",
+    "area": "Central",
+    "address": "Central, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "東京発の高級焼肉店。A5和牛を中心とした厳選肉を提供。ワインリストも充実。",
+    "tags": [
+      "焼肉",
+      "高級",
+      "和牛"
+    ],
+    "hours": "17:30〜23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "toridoll-hk",
+    "name": "Toridoll Hong Kong",
+    "name_ja": "トリドール 香港",
+    "area": "Wan Chai",
+    "address": "Wan Chai, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "丸亀製麺の親会社が展開する居酒屋。うどんに加え焼き鳥・天ぷら・おでんなど幅広いメニュー。",
+    "tags": [
+      "居酒屋",
+      "うどん",
+      "チェーン"
+    ],
+    "hours": "11:30〜23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sake-bar-futago-hk",
+    "name": "Sake Bar Futago",
+    "name_ja": "酒場ふたご",
+    "area": "Tsim Sha Tsui",
+    "address": "Tsim Sha Tsui, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "大阪発の大衆酒場。ホルモンや串焼きをワイワイ楽しめる。活気のある雰囲気が大阪そのもの。",
+    "tags": [
+      "大衆酒場",
+      "ホルモン",
+      "大阪発"
+    ],
+    "hours": "17:00〜24:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

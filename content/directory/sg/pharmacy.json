@@ -79,5 +79,65 @@
     "status": "unverified",
     "source": "google_maps",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "welcia-jem",
+    "name": "Welcia (JEM)",
+    "name_ja": "ウエルシア JEM",
+    "area": "Jurong East",
+    "address": "50 Jurong Gateway Road, #B1-43/44, JEM, Singapore 608549",
+    "phone": "+6562668141",
+    "website": "https://www.welcia.com.sg/",
+    "description": "日本最大のドラッグストアチェーン「ウエルシア」の西部エリア店。日本の化粧品・スキンケア・市販薬・サプリメント・日用品を取り揃える。Jurong East MRT駅直結で西部在住の日本人に便利な立地。",
+    "tags": [
+      "日本製品",
+      "化粧品",
+      "ヘルスケア",
+      "市販薬",
+      "西部エリア"
+    ],
+    "hours": "10:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "ainz-tulpe-sg",
+    "name": "Ainz&Tulpe",
+    "name_ja": "アインズ&トルペ",
+    "area": "Orchard",
+    "address": "391 Orchard Road, #B1-38, Takashimaya Shopping Centre, Singapore 238872",
+    "phone": null,
+    "website": null,
+    "description": "日本のドラッグストア「アインズ&トルペ」のシンガポール店。日本の化粧品・スキンケア・ヘアケア・サプリメント・市販薬を取り揃える。バラエティ豊かな日本コスメが充実。",
+    "tags": [
+      "ドラッグストア",
+      "日本チェーン",
+      "化粧品",
+      "市販薬"
+    ],
+    "hours": "10:00-21:30",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "welcia-suntec-city",
+    "name": "Welcia (Suntec City)",
+    "name_ja": "ウエルシア サンテックシティ店",
+    "area": "Suntec City",
+    "address": "3 Temasek Boulevard, Suntec City, Singapore 038983",
+    "phone": null,
+    "website": "https://www.welcia.com.sg/",
+    "description": "ウエルシアのSuntec City店。日本の化粧品・ヘルスケア製品を豊富に取り揃え。CBDエリアからのアクセスが良い。",
+    "tags": [
+      "日本製品",
+      "化粧品",
+      "ヘルスケア"
+    ],
+    "hours": "10:00-22:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
   }
 ]

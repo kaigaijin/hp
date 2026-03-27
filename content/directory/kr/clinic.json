@@ -181,7 +181,12 @@
     "phone": "+8234101011",
     "website": "https://www.samsunghospital.com/",
     "description": "韓国を代表する大型総合病院。国際診療センターに日本語コーディネーターが在籍し、受付から診察・検査・入院まで日本語でサポート。高度医療・健康診断（人間ドック）にも対応。",
-    "tags": ["日本語対応", "総合病院", "人間ドック", "高度医療"],
+    "tags": [
+      "日本語対応",
+      "総合病院",
+      "人間ドック",
+      "高度医療"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "website",
@@ -196,7 +201,90 @@
     "phone": "+8222228800",
     "website": "https://gs.severance.healthcare/",
     "description": "延世大学校の江南キャンパスにある総合病院。国際診療センターで日本語対応可能。健康診断センターは外国人にも人気が高く、検査結果を日本語で説明してもらえる。",
-    "tags": ["日本語対応", "総合病院", "健康診断"],
+    "tags": [
+      "日本語対応",
+      "総合病院",
+      "健康診断"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "seoul-national-university-hospital",
+    "name": "Seoul National University Hospital",
+    "name_ja": "ソウル大学校病院 国際診療センター",
+    "area": "Jongno-gu",
+    "address": "101 Daehak-ro, Jongno-gu, Seoul 03080",
+    "phone": "+8220722114",
+    "website": "https://www.snuh.org/",
+    "description": "韓国最高峰の大学病院。国際診療センターで日本語対応可能。高度な専門医療を受けられ、がん治療や臓器移植など難度の高い手術にも対応。",
+    "tags": [
+      "日本語対応",
+      "総合病院",
+      "大学病院",
+      "高度医療"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "inha-university-hospital-ichon",
+    "name": "Ichon Japanese Clinic Area",
+    "name_ja": "二村日本人向けクリニックエリア",
+    "area": "Yongsan-gu (Ichon)",
+    "address": "Ichon-dong, Yongsan-gu, Seoul",
+    "phone": null,
+    "website": null,
+    "description": "二村のリトルトーキョーには日本語対応の小規模クリニックが複数集まっている。内科、小児科、皮膚科など日常的な診療を日本語で受けられる。ロハスクリニック以外にも選択肢がある。",
+    "tags": [
+      "日本語対応",
+      "内科",
+      "小児科",
+      "二村"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "kyunghee-university-hospital-gangdong",
+    "name": "Kyung Hee University Hospital at Gangdong",
+    "name_ja": "慶熙大学校病院 江東",
+    "area": "Gangdong-gu",
+    "address": "892 Dongnam-ro, Gangdong-gu, Seoul",
+    "phone": "+8224406000",
+    "website": "https://www.khnmc.or.kr/",
+    "description": "韓方（韓国伝統医学）と西洋医学を融合した治療を提供する大学病院。国際診療部門で日本語対応可能。韓方治療（鍼、漢方薬）に興味がある方に。",
+    "tags": [
+      "日本語対応",
+      "総合病院",
+      "韓方",
+      "大学病院"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "wooridul-spine-hospital",
+    "name": "Wooridul Spine Hospital",
+    "name_ja": "ウリドゥル脊椎病院",
+    "area": "Gangnam-gu",
+    "address": "Gangnam-gu, Seoul",
+    "phone": null,
+    "website": "https://www.wooridul.co.kr/",
+    "description": "脊椎・関節の専門病院。日本語対応の国際患者サービスあり。最小侵襲の脊椎手術で世界的に有名。腰痛・ヘルニアの治療で日本人患者も多い。",
+    "tags": [
+      "日本語対応",
+      "脊椎専門",
+      "関節"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "website",

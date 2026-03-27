@@ -163,7 +163,11 @@
     "phone": null,
     "website": null,
     "description": "新村エリアにある日本式居酒屋。串焼き、枝豆、出汁巻き卵など定番の居酒屋メニューを提供。大学生街にあるため活気のある雰囲気で、リーズナブルな価格設定が魅力。",
-    "tags": ["居酒屋", "串焼き", "リーズナブル"],
+    "tags": [
+      "居酒屋",
+      "串焼き",
+      "リーズナブル"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
@@ -178,7 +182,182 @@
     "phone": null,
     "website": null,
     "description": "江南エリアにある本格日本式居酒屋。焼き鳥、刺身、おでんなど日本の居酒屋定番メニューが揃う。日本酒やハイボールの品揃えも充実しており、仕事帰りの一杯に最適。",
-    "tags": ["居酒屋", "焼き鳥", "日本酒"],
+    "tags": [
+      "居酒屋",
+      "焼き鳥",
+      "日本酒"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ichon-izakaya-yokocho",
+    "name": "Ichon Izakaya Yokocho",
+    "name_ja": "二村居酒屋横丁",
+    "area": "Yongsan-gu (Ichon)",
+    "address": "Ichon-dong, Yongsan-gu, Seoul",
+    "phone": null,
+    "website": null,
+    "description": "二村のリトルトーキョーにある居酒屋が集まる横丁。複数の小さな居酒屋が軒を連ね、焼き鳥、おでん、もつ焼きなどを楽しめる。日本の横丁文化を韓国で体験できる。",
+    "tags": [
+      "居酒屋",
+      "横丁",
+      "二村"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "izakaya-tako-gangnam",
+    "name": "Izakaya Tako",
+    "name_ja": "居酒屋 蛸",
+    "area": "Gangnam-gu",
+    "address": "Gangnam-gu, Seoul",
+    "phone": null,
+    "website": null,
+    "description": "江南エリアにある海鮮居酒屋。新鮮な刺身やたこ料理が名物。日本酒やハイボールとの相性が抜群。カウンター席で板前の技を眺めながら食事できる。",
+    "tags": [
+      "居酒屋",
+      "海鮮",
+      "刺身"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "izakaya-sakura-hongdae",
+    "name": "Izakaya Sakura Hongdae",
+    "name_ja": "居酒屋さくら 弘大",
+    "area": "Mapo-gu (Hongdae)",
+    "address": "Mapo-gu, Seoul",
+    "phone": null,
+    "website": null,
+    "description": "弘大エリアにある日本式居酒屋。焼き鳥、枝豆、唐揚げなど定番のおつまみメニューが揃う。大学生街にあるため価格もリーズナブル。",
+    "tags": [
+      "居酒屋",
+      "焼き鳥",
+      "リーズナブル"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "kushikatsu-tanaka-seoul",
+    "name": "Kushikatsu Tanaka Seoul",
+    "name_ja": "串カツ田中 ソウル",
+    "area": "Gangnam-gu",
+    "address": "Gangnam-gu, Seoul",
+    "phone": null,
+    "website": null,
+    "description": "大阪名物の串カツチェーン「串カツ田中」のソウル店。ソースの二度漬け禁止のルールも日本と同じ。大阪の下町文化を体験できるカジュアルな居酒屋。",
+    "tags": [
+      "串カツ",
+      "大阪",
+      "チェーン"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ichon-oden-bar",
+    "name": "Ichon Oden Bar",
+    "name_ja": "二村おでんバー",
+    "area": "Yongsan-gu (Ichon)",
+    "address": "Ichon-dong, Yongsan-gu, Seoul",
+    "phone": null,
+    "website": null,
+    "description": "二村の日本人街にあるおでん専門の小さなバー。出汁の効いた関東風おでんと日本酒を楽しめる。冬の寒い時期に特に人気。",
+    "tags": [
+      "おでん",
+      "バー",
+      "二村"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "izakaya-torikizoku-seoul",
+    "name": "Torikizoku Seoul",
+    "name_ja": "鳥貴族 ソウル",
+    "area": "Seoul",
+    "address": "Seoul",
+    "phone": null,
+    "website": null,
+    "description": "日本の焼き鳥均一価格チェーン「鳥貴族」のソウル店。全品均一価格の焼き鳥と酎ハイが楽しめる。日本の居酒屋チェーンの雰囲気をそのまま再現。",
+    "tags": [
+      "焼き鳥",
+      "均一価格",
+      "チェーン"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "toraji-yakiniku-seoul",
+    "name": "Toraji Seoul",
+    "name_ja": "叙々苑 ソウル",
+    "area": "Gangnam-gu",
+    "address": "Gangnam-gu, Seoul",
+    "phone": null,
+    "website": null,
+    "description": "日本の高級焼肉チェーンのソウル店。上質な和牛を使った焼肉コースを提供。接待や特別な食事に利用される。落ち着いた個室も完備。",
+    "tags": [
+      "焼肉",
+      "高級",
+      "接待向き"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "izakaya-natsume-gangnam",
+    "name": "Izakaya Natsume",
+    "name_ja": "居酒屋 なつめ",
+    "area": "Gangnam-gu",
+    "address": "Gangnam-gu, Seoul",
+    "phone": null,
+    "website": null,
+    "description": "江南にある本格日本式居酒屋。おでん、焼き鳥、刺身、煮物など季節の料理を提供。日本酒の品揃えが豊富で、日本の居酒屋の雰囲気を韓国で楽しめる。",
+    "tags": [
+      "居酒屋",
+      "おでん",
+      "日本酒"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "izakaya-tsubaki-itaewon",
+    "name": "Izakaya Tsubaki",
+    "name_ja": "居酒屋 椿",
+    "area": "Yongsan-gu (Itaewon)",
+    "address": "Itaewon, Yongsan-gu, Seoul",
+    "phone": null,
+    "website": null,
+    "description": "梨泰院の路地裏にある隠れ家的居酒屋。日本人オーナーが経営し、串焼き、おばんざい、日本酒を提供。外国人居住者が多いエリアで、英語・日本語・韓国語に対応。",
+    "tags": [
+      "居酒屋",
+      "隠れ家",
+      "串焼き"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",

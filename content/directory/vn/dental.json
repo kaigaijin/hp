@@ -57,5 +57,62 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "elite-dental-hcmc",
+    "name": "Elite Dental HCMC",
+    "name_ja": "エリートデンタル ホーチミン",
+    "area": "District 1",
+    "address": "District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "ホーチミンの国際歯科クリニック。外国人患者対応に慣れており、英語・日本語サポートあり。",
+    "tags": [
+      "歯科",
+      "国際クリニック",
+      "外国人対応"
+    ],
+    "hours": "平日 8:30〜18:00 / 土 8:30〜12:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sakura-dental-hcmc",
+    "name": "Sakura Dental Clinic HCMC",
+    "name_ja": "さくら歯科 ホーチミン",
+    "area": "District 1",
+    "address": "District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "日本語対応の歯科クリニック。日本人歯科衛生士が在籍し、日本式の丁寧な治療を提供。",
+    "tags": [
+      "歯科",
+      "日本語対応",
+      "日本人スタッフ"
+    ],
+    "hours": "平日 8:30〜17:30",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "nha-khoa-kim-hcmc",
+    "name": "Nha Khoa Kim HCMC",
+    "name_ja": "キム歯科 ホーチミン",
+    "area": "District 1",
+    "address": "District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "ホーチミンの大手歯科チェーン。外国人患者対応に慣れており、最新設備を完備。",
+    "tags": [
+      "歯科",
+      "チェーン",
+      "外国人対応"
+    ],
+    "hours": "平日 8:00〜20:00 / 土 8:00〜17:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

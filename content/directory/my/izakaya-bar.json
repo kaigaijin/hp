@@ -133,5 +133,50 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "sns"
+  },
+  {
+    "slug": "kappa-kaisen-izakaya",
+    "name": "Kappa Kaisen Izakaya",
+    "name_ja": "河童海鮮居酒屋",
+    "area": "Damansara Heights",
+    "address": "54-1F, 54, Jalan Medan Setia 2, Bukit Damansara, 50490 Kuala Lumpur",
+    "phone": "+60125049143",
+    "website": "https://www.facebook.com/people/KAPPA-Kaisen-Izakaya/61570881209944/",
+    "description": "ダマンサラハイツにある海鮮居酒屋。新鮮な魚介を使った寿司・刺身・海鮮焼きが楽しめる。2025年オープンの新店舗で、手頃な価格の本格日本料理が評判。月曜定休。",
+    "tags": ["居酒屋", "海鮮", "寿司", "刺身"],
+    "hours": "17:00-23:00（月曜定休）",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "sho-shin-izakaya",
+    "name": "Sho Shin Izakaya",
+    "name_ja": "初心居酒屋",
+    "area": "Taman Tun Dr Ismail",
+    "address": "No. 118, Jalan Burhanuddin Helmi, Taman Tun Dr Ismail, 60000 Kuala Lumpur",
+    "phone": "+60146774687",
+    "website": "https://www.facebook.com/shoshinizakaya/",
+    "description": "2階建ての日本料理店。1階は寿司バーで職人が握る新鮮な寿司を提供、2階は居酒屋スタイルで日本のタパス・焼き物・プレミアム日本酒が楽しめる。TTDI地区で本格的な和食体験ができる。",
+    "tags": ["居酒屋", "寿司バー", "日本酒", "TTDI"],
+    "hours": "1F: 12:00-22:00, 2F: 16:00-24:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "sns"
+  },
+  {
+    "slug": "yakitori-kakusu",
+    "name": "Yakitori Kakusu",
+    "name_ja": "焼き鳥かくす",
+    "area": "Bukit Bintang",
+    "address": "Bukit Bintang, Kuala Lumpur",
+    "phone": null,
+    "website": "https://izakayagroup.com/yakitori-kakusu-restaurant/",
+    "description": "2017年からKL・PJで複数の居酒屋を展開するIzakaya Groupの焼き鳥専門店。職人が一本一本丁寧に焼き上げる焼き鳥が看板メニュー。",
+    "tags": ["焼き鳥", "居酒屋", "専門店"],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
   }
 ]

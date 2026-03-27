@@ -74,5 +74,42 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "kumon-taipei-zhongshan",
+    "name": "Kumon Taipei Zhongshan",
+    "name_ja": "公文 台北中山教室",
+    "area": "Zhongshan",
+    "address": "Zhongshan District, Taipei",
+    "phone": null,
+    "website": "https://www.kumon.com.tw/",
+    "description": "日本発の学習塾。算数・国語・英語の自学自習プログラムを提供。台湾全土に教室を展開。",
+    "tags": [
+      "学習塾",
+      "日本式教育",
+      "自学自習"
+    ],
+    "hours": "平日 14:00〜20:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "novastar-japanese-school",
+    "name": "NovaStar Japanese Language Center",
+    "name_ja": "日本語センター",
+    "area": "Da'an",
+    "address": "Da'an District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "日本語教育を提供する語学学校。ビジネス日本語から日常会話まで幅広いコースを用意。日本人講師も在籍。",
+    "tags": [
+      "日本語学校",
+      "語学学校"
+    ],
+    "hours": "平日 9:00〜21:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

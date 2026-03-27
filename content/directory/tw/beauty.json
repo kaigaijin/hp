@@ -129,5 +129,117 @@
     "status": "unverified",
     "source": "google_maps",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "perfect-hair-zhongshan",
+    "name": "Perfect Hair Salon Zhongshan",
+    "name_ja": "パーフェクトヘアサロン 中山",
+    "area": "Zhongshan",
+    "address": "Zhongshan District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "日本ブランドの薬剤を使用した日式ヘアサロン。カット・カラー・パーマなど日本式の丁寧な施術が特徴。中山エリア。",
+    "tags": [
+      "日式ヘアサロン",
+      "日本製品使用"
+    ],
+    "hours": "10:00〜20:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "crea-hair-xinyi",
+    "name": "CRE.a Hair Salon Xinyi",
+    "name_ja": "CRE.aヘアサロン 信義",
+    "area": "Xinyi",
+    "address": "Xinyi District, Taipei",
+    "phone": null,
+    "website": "https://www.klook.com/en-US/activity/67702-crea-hair-salon-taipei/",
+    "description": "日本ブランドの薬剤を使用し、高品質なヘアケアサービスを提供。カット・カラー・トリートメントに対応。信義エリア。",
+    "tags": [
+      "日式ヘアサロン",
+      "日本製品使用"
+    ],
+    "hours": "10:00〜20:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "hana-nail-taipei",
+    "name": "Hana Nail Taipei",
+    "name_ja": "花ネイル 台北",
+    "area": "Da'an",
+    "address": "Da'an District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "日式ジェルネイルを提供するネイルサロン。日本のトレンドデザインを取り入れた繊細な施術が特徴。完全予約制。",
+    "tags": [
+      "ネイル",
+      "日式",
+      "要予約"
+    ],
+    "hours": "10:00〜20:00（要予約）",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "uka-nail-taipei",
+    "name": "uka Nail Taipei",
+    "name_ja": "uka ネイル 台北",
+    "area": "Xinyi",
+    "address": "Xinyi District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "東京発のネイル&ヘアケアブランド。トータルビューティーサロンとしてネイル・ヘアケア・ハンドケアを提供。",
+    "tags": [
+      "ネイル",
+      "ヘアケア",
+      "東京発"
+    ],
+    "hours": "10:00〜21:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "shiseido-beauty-salon-taipei",
+    "name": "Shiseido Beauty Salon Taipei",
+    "name_ja": "資生堂ビューティーサロン 台北",
+    "area": "Xinyi",
+    "address": "Xinyi District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "資生堂直営のビューティーサロン。フェイシャルエステ・メイクアップサービスを提供。日本品質のスキンケア。",
+    "tags": [
+      "エステ",
+      "メイクアップ",
+      "資生堂"
+    ],
+    "hours": "10:00〜21:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "muji-beauty-taipei",
+    "name": "MUJI Beauty Lab Taipei",
+    "name_ja": "無印良品 ビューティーラボ 台北",
+    "area": "Xinyi",
+    "address": "Xinyi District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "無印良品のビューティーコーナー。肌診断やスキンケアカウンセリングを提供。無印良品のコスメ全ラインナップが試せる。",
+    "tags": [
+      "スキンケア",
+      "無印良品",
+      "カウンセリング"
+    ],
+    "hours": "11:00〜21:30",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

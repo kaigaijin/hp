@@ -8,7 +8,12 @@
     "phone": "+6583179086",
     "website": "https://www.kinohanasg.com/",
     "description": "日本のジェルネイル技術と製品を使用するネイルサロン。400色以上のカラーとデザインから選べる。保存建築のショップハウスを改装したヴィンテージテーマの空間で施術を受けられる。",
-    "tags": ["日本式ネイル", "ジェルネイル", "ネイルアート", "予約可"],
+    "tags": [
+      "日本式ネイル",
+      "ジェルネイル",
+      "ネイルアート",
+      "予約可"
+    ],
     "hours": "要確認",
     "last_verified": "2026-03-26",
     "status": "unverified",
@@ -23,7 +28,13 @@
     "phone": "+6567021893",
     "website": "https://kimiyo-g.com/",
     "description": "日本式ジェルネイル・まつげエクステ・ワックス脱毛・フェイシャルトリートメントを提供。Orchard GatewayとEastpoint Mallの2店舗展開。プレミアム日本ブランドのジェルを使用。",
-    "tags": ["日本式ネイル", "まつげエクステ", "フェイシャル", "脱毛", "複数店舗"],
+    "tags": [
+      "日本式ネイル",
+      "まつげエクステ",
+      "フェイシャル",
+      "脱毛",
+      "複数店舗"
+    ],
     "hours": "平日: 11:00-21:00 / 週末・祝日: 11:00-20:00",
     "last_verified": "2026-03-26",
     "status": "verified",
@@ -38,7 +49,13 @@
     "phone": "+6598348515",
     "website": "https://www.nook-salon.com/",
     "description": "Duxton Hillの日系サロン。ネイル・まつげエクステ・ヘッドスパを同一サロンで提供。日本人オーナーが品質を管理し、丁寧な施術が特徴。落ち着いた木のインテリアでリラックスできる空間。",
-    "tags": ["日本語対応", "ネイル", "まつげ", "ヘッドスパ", "予約可"],
+    "tags": [
+      "日本語対応",
+      "ネイル",
+      "まつげ",
+      "ヘッドスパ",
+      "予約可"
+    ],
     "hours": "月〜金: 10:00-20:00 / 土日: 10:00-18:00",
     "last_verified": "2026-03-26",
     "status": "unverified",
@@ -53,10 +70,93 @@
     "phone": "+6564698080",
     "website": "https://www.ikedaspa.com/",
     "description": "シンガポール初の日本式スパ。温泉風呂・岩盤浴・マッサージ・フェイシャルなど、総合的なリラクゼーションを提供。40以上のスパアワードを受賞した実力派。初回温泉風呂無料キャンペーンあり。",
-    "tags": ["日本式スパ", "温泉", "岩盤浴", "マッサージ", "フェイシャル"],
+    "tags": [
+      "日本式スパ",
+      "温泉",
+      "岩盤浴",
+      "マッサージ",
+      "フェイシャル"
+    ],
     "hours": "13:30-22:30（毎日営業）",
     "last_verified": "2026-03-26",
     "status": "verified",
     "source": "website"
+  },
+  {
+    "slug": "kjstudio-outram",
+    "name": "KJStudio (Outram Park)",
+    "name_ja": "KJスタジオ アウトラムパーク",
+    "area": "Outram Park",
+    "address": "43A Keong Saik Road, Singapore 089147",
+    "phone": "+6562216209",
+    "website": "https://kjs.covosg.com/",
+    "description": "10年以上の経験を持つ日本人アイリストが在籍する日系まつげエクステ専門サロン。シンガポール唯一のLynk-Gelメソッドを提供。Outram Park・Katong・Orchardの3店舗を展開。",
+    "tags": [
+      "日本式まつげエクステ",
+      "日本人アイリスト",
+      "Lynk-Gel",
+      "複数店舗"
+    ],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "eye-studio-tokyo",
+    "name": "Eye Studio Tokyo",
+    "name_ja": "アイスタジオ東京",
+    "area": "Clarke Quay",
+    "address": "6 Eu Tong Sen Street, #03-81, Clarke Quay Central, Singapore 059817",
+    "phone": "+6592986774",
+    "website": "http://eyestudio-tokyo.com/",
+    "description": "日本人スタッフによるまつげエクステ専門サロン。全サービスを日本から渡星した経験豊富なアイリストが施術。シングルラッシュ・ボリュームラッシュ・まつげパーマに対応。Clarke Quay Central内。",
+    "tags": [
+      "日本式まつげエクステ",
+      "日本人アイリスト",
+      "まつげパーマ"
+    ],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "kjstudio-orchard",
+    "name": "KJStudio (Orchard)",
+    "name_ja": "KJスタジオ オーチャード",
+    "area": "Orchard",
+    "address": "583 Orchard Road, #B1-18, Forum The Shopping Mall, Singapore 238884",
+    "phone": null,
+    "website": "https://kjs.covosg.com/",
+    "description": "日系まつげエクステ専門サロンKJStudioのOrchard店。Forum The Shopping Mall内に位置し、ショッピングのついでに利用しやすい立地。日本人アイリストによるまつげエクステ・リフトを提供。",
+    "tags": [
+      "日本式まつげエクステ",
+      "日本人アイリスト",
+      "Orchard"
+    ],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "kimiyo-g-eastpoint",
+    "name": "Kimiyo-G Beauty (Eastpoint Mall)",
+    "name_ja": "キミヨジービューティー イーストポイント店",
+    "area": "Simei",
+    "address": "3 Simei Street 6, Eastpoint Mall, Singapore 528833",
+    "phone": null,
+    "website": "https://kimiyo-g.com/",
+    "description": "日本式ネイル・まつげエクステサロンのイーストポイント店。Orchard Gatewayとは別の東部エリアの店舗。",
+    "tags": [
+      "日本式ネイル",
+      "まつげエクステ",
+      "東部エリア"
+    ],
+    "hours": "平日: 11:00-21:00 / 週末: 11:00-20:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
   }
 ]

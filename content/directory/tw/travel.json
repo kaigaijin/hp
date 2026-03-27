@@ -37,5 +37,43 @@
     "last_verified": "2026-03-26",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "jtb-taipei",
+    "name": "JTB Taiwan",
+    "name_ja": "JTB台湾",
+    "area": "Zhongshan",
+    "address": "Zhongshan District, Taipei",
+    "phone": null,
+    "website": "https://www.jtb.com.tw/",
+    "description": "日本最大の旅行代理店の台湾法人。日本行きの航空券・ツアー・ホテル予約を日本語で対応。",
+    "tags": [
+      "旅行代理店",
+      "日系",
+      "日本語対応"
+    ],
+    "hours": "平日 9:00〜18:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "kintetsu-travel-taipei",
+    "name": "Kintetsu International Express Taipei",
+    "name_ja": "近畿日本ツーリスト 台北",
+    "area": "Zhongshan",
+    "address": "Zhongshan District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "日系旅行代理店。日本への渡航手配・ビザ取得サポート・法人出張手配など幅広いサービスを提供。",
+    "tags": [
+      "旅行代理店",
+      "日系",
+      "法人対応"
+    ],
+    "hours": "平日 9:00〜18:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

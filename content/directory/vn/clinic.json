@@ -131,5 +131,62 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "sakura-dental-hanoi",
+    "name": "Sakura Dental Clinic Hanoi",
+    "name_ja": "さくら歯科 ハノイ",
+    "area": "Ba Dinh",
+    "address": "Ba Dinh, Hanoi",
+    "phone": null,
+    "website": null,
+    "description": "ハノイの日本語対応歯科クリニック。一般歯科・矯正・インプラントに対応。日本人スタッフ在籍。",
+    "tags": [
+      "歯科",
+      "日本語対応",
+      "日本人スタッフ"
+    ],
+    "hours": "平日 8:30〜17:30",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "raffles-medical-hcmc",
+    "name": "Raffles Medical HCMC",
+    "name_ja": "ラッフルズメディカル ホーチミン",
+    "area": "District 1",
+    "address": "District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "シンガポール系の国際クリニック。日本語通訳サービスあり。一般内科・健康診断に対応。",
+    "tags": [
+      "国際クリニック",
+      "日本語通訳",
+      "健康診断"
+    ],
+    "hours": "平日 8:00〜17:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "vinmec-international-hcmc",
+    "name": "Vinmec International Hospital HCMC",
+    "name_ja": "ビンメック国際病院 ホーチミン",
+    "area": "District 9",
+    "address": "District 9, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "ベトナム最大級の国際病院グループ。日本語通訳サービスあり。最新の医療設備を完備。",
+    "tags": [
+      "国際病院",
+      "日本語通訳",
+      "最新設備"
+    ],
+    "hours": "24時間（救急）/ 外来 7:00〜17:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

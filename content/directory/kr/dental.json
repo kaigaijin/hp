@@ -86,10 +86,72 @@
     "phone": "+8222282271",
     "website": "https://dental.severance.healthcare/",
     "description": "韓国トップクラスの大学歯科病院。国際診療部門で日本語対応可能。一般歯科から口腔外科、矯正歯科、インプラントまで高度な歯科治療を提供。保険対応の相談も可能。",
-    "tags": ["日本語対応", "大学病院", "矯正歯科", "口腔外科"],
+    "tags": [
+      "日本語対応",
+      "大学病院",
+      "矯正歯科",
+      "口腔外科"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "yonsei-famille-dental",
+    "name": "Yonsei Famille Dental Clinic",
+    "name_ja": "ヨンセファミーユ歯科医院",
+    "area": "Gangnam-gu",
+    "address": "Gangnam-gu, Seoul",
+    "phone": null,
+    "website": "https://familledental.com/",
+    "description": "受付、コーディネーター、医師が流暢な日本語と英語を話す歯科クリニック。一般歯科から矯正、インプラント、ホワイトニングまで幅広く対応。外国人患者の受け入れ実績が豊富。",
+    "tags": [
+      "日本語対応",
+      "矯正",
+      "インプラント"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "seoul-jeseng-dental-gangnam",
+    "name": "Seoul Jeseng International Dental",
+    "name_ja": "ソウルジェセン国際歯科",
+    "area": "Gangnam-gu",
+    "address": "Gangnam-gu, Seoul",
+    "phone": null,
+    "website": "http://en.seouljeseng.com/",
+    "description": "外国人専門の歯科クリニック。英語・日本語での診療に対応。一般歯科、審美歯科、インプラント、矯正を提供。江南駅近くでアクセス良好。",
+    "tags": [
+      "日本語対応",
+      "外国人専門",
+      "審美歯科"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ichon-dental-clinic",
+    "name": "Ichon Dental Clinic",
+    "name_ja": "二村歯科クリニック",
+    "area": "Yongsan-gu (Ichon)",
+    "address": "Ichon-dong, Yongsan-gu, Seoul",
+    "phone": null,
+    "website": null,
+    "description": "二村のリトルトーキョーにある日本語対応の歯科クリニック。日本人駐在員とその家族の歯科治療に対応。一般歯科・小児歯科・矯正歯科を提供。",
+    "tags": [
+      "日本語対応",
+      "二村",
+      "小児歯科"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
     "last_verified": "2026-03-27"
   }
 ]

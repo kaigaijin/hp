@@ -148,5 +148,42 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "google_maps"
+  },
+  {
+    "slug": "assort-sydney",
+    "name": "ASSORT Sydney",
+    "name_ja": "アソート シドニー",
+    "area": "Sydney CBD",
+    "address": "Sydney CBD, NSW",
+    "phone": null,
+    "website": "https://assort-hair.com/",
+    "description": "東京・NY・ロンドンにも展開する日本のヘアサロングループ。受賞歴のある日本人スタイリストが在籍。",
+    "tags": [
+      "日本人スタイリスト",
+      "日式ヘアサロン",
+      "グローバル展開"
+    ],
+    "hours": "10:00〜19:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ren-hair-chatswood",
+    "name": "Ren Hair Chatswood",
+    "name_ja": "レンヘアー チャッツウッド",
+    "area": "Chatswood",
+    "address": "Chatswood, NSW",
+    "phone": null,
+    "website": null,
+    "description": "チャッツウッドの日式ヘアサロン。日本人スタイリストによるカット・カラー・パーマを提供。日本語OK。",
+    "tags": [
+      "日式ヘアサロン",
+      "日本語対応"
+    ],
+    "hours": "10:00〜19:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

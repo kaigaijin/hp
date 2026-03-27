@@ -75,5 +75,43 @@
     "status": "unverified",
     "source": "website",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "crossfit-gangnam",
+    "name": "CrossFit Gangnam",
+    "name_ja": "クロスフィット 江南",
+    "area": "Gangnam-gu",
+    "address": "Gangnam-gu, Seoul",
+    "phone": null,
+    "website": null,
+    "description": "江南エリアにあるクロスフィットジム。英語対応のコーチが在籍し、外国人メンバーも多い。初心者から上級者まで対応するプログラムを提供。",
+    "tags": [
+      "クロスフィット",
+      "英語対応",
+      "江南"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "anytime-fitness-gangnam",
+    "name": "Anytime Fitness Gangnam",
+    "name_ja": "エニタイムフィットネス 江南",
+    "area": "Gangnam-gu",
+    "address": "Gangnam-gu, Seoul",
+    "phone": null,
+    "website": "https://www.anytimefitness.co.kr/",
+    "description": "24時間営業のフィットネスチェーンの江南店。日本と同じ会員カードで世界中の店舗を利用可能。マシンジム中心で、自分のペースでトレーニングできる。",
+    "tags": [
+      "24時間",
+      "フィットネス",
+      "グローバルチェーン"
+    ],
+    "hours": "24時間",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
   }
 ]

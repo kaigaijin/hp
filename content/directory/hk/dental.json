@@ -113,5 +113,62 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "google_maps"
+  },
+  {
+    "slug": "hk-japanese-dental-clinic",
+    "name": "The Hong Kong Japanese Dental Clinic",
+    "name_ja": "香港日本歯科クリニック",
+    "area": "Causeway Bay",
+    "address": "Suite 502, Fortune Centre, 44-48 Yun Ping Road, Causeway Bay",
+    "phone": "+85228084708",
+    "website": null,
+    "description": "銅鑼湾の日本語対応歯科クリニック。日本語ホットラインとWhatsApp予約に対応。MTR銅鑼湾駅F1出口近く。",
+    "tags": [
+      "歯科",
+      "日本語対応",
+      "WhatsApp予約可"
+    ],
+    "hours": "平日 9:00〜18:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "dr-adrian-ho-dental-central",
+    "name": "Dr. Adrian Ho Dental Central",
+    "name_ja": "エイドリアン・ホー歯科 セントラル",
+    "area": "Central",
+    "address": "Room 802, Parker House, 72 Queen's Road Central",
+    "phone": null,
+    "website": "https://www.adrianhodentist.com/",
+    "description": "日本語対応の歯科医。LINE IDでの予約・相談も可能。セントラルの好立地。",
+    "tags": [
+      "歯科",
+      "日本語対応",
+      "LINE予約可"
+    ],
+    "hours": "平日 9:00〜18:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "wisdom-dental-hk",
+    "name": "Wisdom Dental Group Hong Kong",
+    "name_ja": "ウィズダムデンタル 香港",
+    "area": "Central",
+    "address": "Central, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "セントラルの歯科グループ。日本人患者の受け入れ実績あり。一般歯科・矯正・審美歯科に対応。",
+    "tags": [
+      "歯科",
+      "矯正",
+      "審美歯科"
+    ],
+    "hours": "平日 9:00〜18:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

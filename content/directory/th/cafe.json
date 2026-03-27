@@ -8,7 +8,12 @@
     "phone": "+6622599630",
     "website": null,
     "description": "千葉県市川市発祥の日本式ベーカリー。プロンポンで約30年営業する老舗で、日本直輸入の素材を使用。シュークリーム、チーズケーキ、カツサンドなど日本の味を忠実に再現。テイクアウト専門。",
-    "tags": ["ベーカリー", "テイクアウト", "老舗", "日本直輸入"],
+    "tags": [
+      "ベーカリー",
+      "テイクアウト",
+      "老舗",
+      "日本直輸入"
+    ],
     "hours": "9:00-21:00",
     "status": "unverified",
     "source": "website",
@@ -23,7 +28,11 @@
     "phone": null,
     "website": "https://www.instagram.com/japanpastrycafe/",
     "description": "トンローのMarche Thonglor内にある日本式ペストリーカフェ。モーニングサービス（8:00-11:00）も提供。日本品質のパンやケーキが揃い、朝食やおやつタイムに最適。",
-    "tags": ["カフェ", "ベーカリー", "モーニング"],
+    "tags": [
+      "カフェ",
+      "ベーカリー",
+      "モーニング"
+    ],
     "hours": "8:00-19:30",
     "status": "unverified",
     "source": "sns",
@@ -38,7 +47,11 @@
     "phone": null,
     "website": null,
     "description": "トンローにある食パン（しょくぱん）専門店。ふわふわの日本式生食パンが看板商品で、シフォンケーキやフィナンシェ、プリンなど日本の甘味も提供。素朴な店構えながらパン好きに愛される。",
-    "tags": ["ベーカリー", "食パン", "テイクアウト"],
+    "tags": [
+      "ベーカリー",
+      "食パン",
+      "テイクアウト"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
@@ -53,7 +66,11 @@
     "phone": null,
     "website": null,
     "description": "トンローにある禅をコンセプトにした日本風カフェ。侘び寂びの美学を取り入れた落ち着いた空間で、抹茶ラテやほうじ茶スイーツを楽しめる。都会の喧騒を離れたリラックスタイムに。",
-    "tags": ["カフェ", "抹茶", "和風"],
+    "tags": [
+      "カフェ",
+      "抹茶",
+      "和風"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
@@ -68,7 +85,11 @@
     "phone": null,
     "website": null,
     "description": "スクンビットソイ39にある日本式カフェレストラン。天ぷらが絶品と評判で、創作的な和食メニューも充実。ランチタイムにはセットメニューが人気。カフェ利用も可能。",
-    "tags": ["カフェ", "天ぷら", "ランチ"],
+    "tags": [
+      "カフェ",
+      "天ぷら",
+      "ランチ"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
@@ -83,7 +104,11 @@
     "phone": null,
     "website": "https://www.afteryoudessertcafe.com/",
     "description": "かき氷とハニートーストで有名なタイ発のデザートカフェ。日本の抹茶やほうじ茶を使ったメニューが充実しており、日本人にも馴染みやすい味わい。トンロー店は日本人客も多い。",
-    "tags": ["デザート", "かき氷", "抹茶"],
+    "tags": [
+      "デザート",
+      "かき氷",
+      "抹茶"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "website",
@@ -98,7 +123,11 @@
     "phone": null,
     "website": null,
     "description": "日本茶と和菓子を楽しめる本格的な茶寮。抹茶、煎茶、玉露など厳選した日本茶を提供し、和菓子とのペアリングが楽しめる。静かな空間で日本の茶文化を体験できる。",
-    "tags": ["日本茶", "和菓子", "カフェ"],
+    "tags": [
+      "日本茶",
+      "和菓子",
+      "カフェ"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
@@ -113,10 +142,130 @@
     "phone": null,
     "website": "https://www.donkimallthonglor.com/",
     "description": "DONKI Mall Thonglor内にある日本式カフェコーナー。たこ焼き、たい焼き、ソフトクリームなど日本の軽食とスイーツを提供。買い物ついでに気軽に立ち寄れる。24時間営業。",
-    "tags": ["カフェ", "たこ焼き", "ソフトクリーム", "24時間"],
+    "tags": [
+      "カフェ",
+      "たこ焼き",
+      "ソフトクリーム",
+      "24時間"
+    ],
     "hours": "24時間",
     "status": "unverified",
     "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "kurasu-bangkok-thonglor",
+    "name": "Kurasu Bangkok",
+    "name_ja": "クラス バンコク",
+    "area": "Thonglor",
+    "address": "Soi Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "京都発のスペシャルティコーヒーロースターのバンコク店。BTSトンロー駅から徒歩約7分。浅煎りのドリップコーヒーやほうじ茶ラテを落ち着いた空間で楽しめる。",
+    "tags": [
+      "カフェ",
+      "スペシャルティコーヒー",
+      "京都発"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "hugs-songwat-bangkok",
+    "name": "HUGS.Songwat",
+    "name_ja": "ハグズ ソンワット",
+    "area": "Songwat",
+    "address": "Songwat Road, Samphanthawong, Bangkok 10100",
+    "phone": null,
+    "website": null,
+    "description": "ソンワット通りにある日本人夫婦が経営するアートカフェ。欧米スタイルのブランチやヴィーガンメニューに加え、定食やおにぎりなど日本食も提供。アートギャラリーを併設。",
+    "tags": [
+      "カフェ",
+      "日本人経営",
+      "アートギャラリー",
+      "ブランチ"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "bake-a-wish-japanese-homemade-cake",
+    "name": "Bake A Wish Japanese Homemade Cake",
+    "name_ja": "ベイク ア ウィッシュ",
+    "area": "Bangkok",
+    "address": "バンコク市内各ショッピングモール（多数店舗あり）",
+    "phone": null,
+    "website": null,
+    "description": "日本式ホームメイドケーキのチェーン。ふわふわのスポンジケーキやシフォンケーキが看板商品。バンコク市内のショッピングモールに多数出店しており、日本の味を気軽に楽しめる。",
+    "tags": [
+      "ケーキ",
+      "日本式",
+      "チェーン"
+    ],
+    "hours": "店舗により異なる",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "chez-shibata-thonglor",
+    "name": "Chez Shibata 365",
+    "name_ja": "シェ・シバタ 365",
+    "area": "Thonglor",
+    "address": "Hotel Nikko 3F, 317 Soi Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": "https://chezshibata365.com/",
+    "description": "岐阜県多治見市発の名パティシエ柴田武氏のパティスリー。ホテルニッコー3階に入居し、日本産の素材を使った繊細なケーキやペストリーを提供。手土産にも最適。",
+    "tags": [
+      "パティスリー",
+      "ケーキ",
+      "日本人パティシエ"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "koji-bakery-house-bangkok",
+    "name": "Koji Bakery House",
+    "name_ja": "麹ベーカリーハウス",
+    "area": "Bangkok",
+    "address": "Bangkok",
+    "phone": null,
+    "website": "https://www.kojibakeryhouse.com/",
+    "description": "麹（こうじ）由来の天然酵母を使用する日本式ベーカリー。日本産の小麦粉とプレミアムバターで焼き上げるパンは、ふわふわでもちもちの食感。食パンやクロワッサンが人気。",
+    "tags": [
+      "ベーカリー",
+      "天然酵母",
+      "食パン"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "nanas-green-tea-donki-thonglor",
+    "name": "Nana's Green Tea",
+    "name_ja": "ナナズグリーンティー",
+    "area": "Thonglor",
+    "address": "DONKI Mall Thonglor 1F, 107 Soi Sukhumvit 63, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "京都発の抹茶カフェチェーン。ドンキモールトンロー内に出店。抹茶ロールケーキ、抹茶ラテ、抹茶パフェなど抹茶を使った多彩なスイーツとドリンクを提供。",
+    "tags": [
+      "抹茶",
+      "カフェ",
+      "スイーツ"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
     "last_verified": "2026-03-27"
   }
 ]

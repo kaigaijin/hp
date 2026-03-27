@@ -415,5 +415,687 @@
     "status": "unverified",
     "source": "website",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ippudo-chatswood",
+    "name": "Ippudo Chatswood",
+    "name_ja": "一風堂 チャッツウッド",
+    "area": "Chatswood",
+    "address": "Chatswood, NSW",
+    "phone": null,
+    "website": "https://www.ippudo.com.au/",
+    "description": "博多発の豚骨ラーメンチェーンのチャッツウッド店。日本人居住者が多いエリアで、本格的な白丸・赤丸ラーメンを提供。",
+    "tags": [
+      "ラーメン",
+      "日本発チェーン"
+    ],
+    "hours": "毎日 11:30〜22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ippudo-melbourne-cbd",
+    "name": "Ippudo Melbourne CBD",
+    "name_ja": "一風堂 メルボルンCBD",
+    "area": "Melbourne CBD",
+    "address": "Melbourne CBD, VIC",
+    "phone": null,
+    "website": "https://www.ippudo.com.au/",
+    "description": "一風堂のメルボルン店。CBDの中心に位置し、ショッピングやビジネスの合間にラーメンが楽しめる。",
+    "tags": [
+      "ラーメン",
+      "日本発チェーン",
+      "CBD"
+    ],
+    "hours": "毎日 11:30〜22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ramen-auru-chatswood",
+    "name": "Ramen Auru",
+    "name_ja": "ラーメン亜瑠",
+    "area": "Chatswood",
+    "address": "Chatswood, NSW",
+    "phone": null,
+    "website": null,
+    "description": "東京スタイルのラーメン店。オーストラリア唯一のラーメン券売機を設置。畳席もある本格的な雰囲気。",
+    "tags": [
+      "ラーメン",
+      "券売機あり",
+      "東京スタイル"
+    ],
+    "hours": "毎日 11:30〜21:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "yakitori-yurippi-chatswood",
+    "name": "Yakitori Yurippi",
+    "name_ja": "やきとりゆりっぴ",
+    "area": "Chatswood",
+    "address": "Chatswood, NSW",
+    "phone": null,
+    "website": null,
+    "description": "チャッツウッドの本格焼き鳥店。備長炭で焼く串焼きと日本酒のペアリングが楽しめる。",
+    "tags": [
+      "焼き鳥",
+      "備長炭",
+      "日本酒"
+    ],
+    "hours": "17:30〜22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "manpuku-ramen-chatswood",
+    "name": "Manpuku Ramen Chatswood",
+    "name_ja": "まんぷくラーメン チャッツウッド",
+    "area": "Chatswood",
+    "address": "Chatswood, NSW",
+    "phone": null,
+    "website": null,
+    "description": "チャッツウッドの人気ラーメン店。濃厚豚骨ラーメンと鶏白湯ラーメンが看板メニュー。",
+    "tags": [
+      "ラーメン",
+      "豚骨",
+      "人気店"
+    ],
+    "hours": "毎日 11:30〜21:30",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sake-restaurant-rocks",
+    "name": "Saké Restaurant The Rocks",
+    "name_ja": "サケレストラン ザ・ロックス",
+    "area": "The Rocks",
+    "address": "12 Argyle Street, The Rocks, Sydney, NSW",
+    "phone": null,
+    "website": "https://sakerestaurant.com.au/",
+    "description": "シドニー・ロックスにある高級日本料理レストラン。寿司・刺身・ロバタグリルなどを提供。洗練された空間。",
+    "tags": [
+      "高級",
+      "日本料理",
+      "寿司",
+      "ロバタ"
+    ],
+    "hours": "12:00〜14:30 / 18:00〜22:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "joji-sydney",
+    "name": "Jōji Sydney",
+    "name_ja": "ジョウジ シドニー",
+    "area": "Sydney CBD",
+    "address": "George Street, Sydney CBD, NSW",
+    "phone": null,
+    "website": null,
+    "description": "カルティエ旗艦店の上にある屋上バー&レストラン。刺身・ロバタグリルなど日本料理をモダンな空間で。",
+    "tags": [
+      "日本料理",
+      "ルーフトップ",
+      "モダン"
+    ],
+    "hours": "17:00〜24:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "chaco-bar-potts-point",
+    "name": "Chaco Bar Potts Point",
+    "name_ja": "チャコバー ポッツポイント",
+    "area": "Potts Point",
+    "address": "Potts Point, Sydney, NSW",
+    "phone": null,
+    "website": null,
+    "description": "焼き鳥専門の人気バー。シドニーで最も手頃な日本料理の一つで、串焼き1本$6から。活気のある雰囲気。",
+    "tags": [
+      "焼き鳥",
+      "バー",
+      "低価格"
+    ],
+    "hours": "18:00〜23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "yakikami-south-yarra",
+    "name": "Yakikami South Yarra",
+    "name_ja": "焼神 サウスヤラ",
+    "area": "South Yarra",
+    "address": "South Yarra, Melbourne, VIC",
+    "phone": null,
+    "website": null,
+    "description": "サウスヤラで最も受賞歴のある日本料理店。A級神戸牛・新鮮な魚介・鶏の串焼きを提供。",
+    "tags": [
+      "焼肉",
+      "神戸牛",
+      "受賞歴"
+    ],
+    "hours": "12:00〜14:30 / 17:30〜22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sushi-hotaru-melbourne",
+    "name": "Sushi Hotaru",
+    "name_ja": "寿司ほたる",
+    "area": "Melbourne CBD",
+    "address": "Midcity Arcade, Melbourne CBD, VIC",
+    "phone": null,
+    "website": null,
+    "description": "メルボルンCBDの回転寿司店。Midcityアーケード内の隠れ家的存在。手頃な価格で本格寿司が楽しめる。",
+    "tags": [
+      "回転寿司",
+      "カジュアル",
+      "低価格"
+    ],
+    "hours": "毎日 11:00〜21:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "eazy-peazy-richmond",
+    "name": "Eazy Peazy Richmond",
+    "name_ja": "イージーピージー リッチモンド",
+    "area": "Richmond",
+    "address": "Richmond, Melbourne, VIC",
+    "phone": null,
+    "website": "https://www.eazypeazymelb.com/",
+    "description": "リッチモンドのモダン日本料理レストラン。ひばちグリル・ワインバー併設。Feed Meセットメニューが人気。",
+    "tags": [
+      "日本料理",
+      "ひばち",
+      "ワインバー"
+    ],
+    "hours": "12:00〜14:30 / 17:30〜22:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "supernormal-melbourne",
+    "name": "Supernormal Melbourne",
+    "name_ja": "スーパーノーマル メルボルン",
+    "area": "Melbourne CBD",
+    "address": "Flinders Lane, Melbourne CBD, VIC",
+    "phone": null,
+    "website": null,
+    "description": "アンドリュー・マコーネルシェフによる和食フュージョン。ニューヨークスタイルロブスターロールが名物。モダンな空間。",
+    "tags": [
+      "フュージョン",
+      "モダン",
+      "人気店"
+    ],
+    "hours": "12:00〜15:00 / 17:30〜22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "shujinko-melbourne-cbd",
+    "name": "Shujinko Melbourne CBD",
+    "name_ja": "主人公 メルボルンCBD",
+    "area": "Melbourne CBD",
+    "address": "Melbourne CBD, VIC",
+    "phone": null,
+    "website": null,
+    "description": "24時間営業のラーメン店。深夜でも本格豚骨ラーメンが食べられる。メルボルンの夜の定番。",
+    "tags": [
+      "ラーメン",
+      "24時間営業",
+      "豚骨"
+    ],
+    "hours": "24時間営業",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "marugame-udon-sydney",
+    "name": "Marugame Udon Sydney",
+    "name_ja": "丸亀製麺 シドニー",
+    "area": "Sydney CBD",
+    "address": "Sydney CBD, NSW",
+    "phone": null,
+    "website": null,
+    "description": "讃岐うどんチェーンのシドニー店。自家製麺と天ぷらのセルフ式が特徴。リーズナブルに日本の味を楽しめる。",
+    "tags": [
+      "うどん",
+      "日本発チェーン",
+      "セルフ式"
+    ],
+    "hours": "毎日 11:00〜21:30",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "genki-sushi-chatswood",
+    "name": "Genki Sushi Chatswood",
+    "name_ja": "元気寿司 チャッツウッド",
+    "area": "Chatswood",
+    "address": "Chatswood, NSW",
+    "phone": null,
+    "website": null,
+    "description": "日本の回転寿司チェーン。新幹線レーンで寿司が届くシステムが人気。チャッツウッドの家族連れに定番。",
+    "tags": [
+      "回転寿司",
+      "日本発チェーン",
+      "ファミリー向け"
+    ],
+    "hours": "毎日 11:30〜21:30",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sushi-e-sydney",
+    "name": "Sushi-e Sydney",
+    "name_ja": "鮨衛 シドニー",
+    "area": "Sydney CBD",
+    "address": "Sydney CBD, NSW",
+    "phone": null,
+    "website": null,
+    "description": "シドニーCBDの高級寿司店。おまかせコースで日本直送のネタを使った江戸前寿司を提供。",
+    "tags": [
+      "寿司",
+      "おまかせ",
+      "高級"
+    ],
+    "hours": "12:00〜14:30 / 18:00〜22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "hurricane-ramen-sydney",
+    "name": "Hurricane's Ramen",
+    "name_ja": "ハリケーンラーメン",
+    "area": "Haymarket",
+    "address": "Haymarket, Sydney, NSW",
+    "phone": null,
+    "website": null,
+    "description": "シドニー・ヘイマーケットの人気ラーメン店。濃厚な豚骨スープとたっぷりチャーシューが特徴。",
+    "tags": [
+      "ラーメン",
+      "豚骨",
+      "人気店"
+    ],
+    "hours": "毎日 11:30〜21:30",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "yayoi-sydney",
+    "name": "Yayoi Sydney",
+    "name_ja": "やよい軒 シドニー",
+    "area": "Sydney CBD",
+    "address": "Sydney CBD, NSW",
+    "phone": null,
+    "website": null,
+    "description": "日本の定食チェーン。焼き魚・生姜焼き・唐揚げなどの和定食をリーズナブルに提供。ご飯おかわり自由。",
+    "tags": [
+      "定食",
+      "日本発チェーン",
+      "家庭料理"
+    ],
+    "hours": "毎日 11:00〜21:30",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "taro-ramen-melbourne",
+    "name": "Taro's Ramen Melbourne",
+    "name_ja": "太郎ラーメン メルボルン",
+    "area": "Melbourne CBD",
+    "address": "Melbourne CBD, VIC",
+    "phone": null,
+    "website": null,
+    "description": "メルボルンCBDの人気ラーメン店。鶏白湯と豚骨のダブルスープが特徴。行列ができることも多い。",
+    "tags": [
+      "ラーメン",
+      "鶏白湯",
+      "行列店"
+    ],
+    "hours": "毎日 11:30〜21:30",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "donburi-station-sydney",
+    "name": "Donburi Station",
+    "name_ja": "丼ぶりステーション",
+    "area": "Neutral Bay",
+    "address": "Neutral Bay, Sydney, NSW",
+    "phone": null,
+    "website": null,
+    "description": "日本式丼物専門店。牛丼・親子丼・カツ丼などリーズナブルに提供。ランチに人気。",
+    "tags": [
+      "丼物",
+      "カジュアル",
+      "ランチ"
+    ],
+    "hours": "毎日 11:00〜21:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "toko-surry-hills",
+    "name": "Toko Sydney",
+    "name_ja": "トコ シドニー",
+    "area": "Surry Hills",
+    "address": "Surry Hills, Sydney, NSW",
+    "phone": null,
+    "website": null,
+    "description": "サリーヒルズの人気日本料理レストラン。寿司・刺身・ロバタなどを提供。バーも併設。",
+    "tags": [
+      "日本料理",
+      "バー併設",
+      "人気店"
+    ],
+    "hours": "12:00〜22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "yayoi-melbourne",
+    "name": "Yayoi Melbourne",
+    "name_ja": "やよい軒 メルボルン",
+    "area": "Melbourne CBD",
+    "address": "Melbourne CBD, VIC",
+    "phone": null,
+    "website": null,
+    "description": "日本の定食チェーン。焼き魚・生姜焼きなどの和定食をリーズナブルに提供。",
+    "tags": [
+      "定食",
+      "日本発チェーン"
+    ],
+    "hours": "毎日 11:00〜21:30",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "hakata-gensuke-melbourne",
+    "name": "Hakata Gensuke Melbourne",
+    "name_ja": "博多元助 メルボルン",
+    "area": "Melbourne CBD",
+    "address": "Melbourne CBD, VIC",
+    "phone": null,
+    "website": null,
+    "description": "メルボルンNo.1と称される豚骨ラーメン店。8種類のとんこつラーメンを提供。",
+    "tags": [
+      "ラーメン",
+      "博多豚骨",
+      "人気No.1"
+    ],
+    "hours": "毎日 11:30〜22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "hakata-gensuke-sydney",
+    "name": "Hakata Gensuke Sydney",
+    "name_ja": "博多元助 シドニー",
+    "area": "Sydney CBD",
+    "address": "Sydney CBD, NSW",
+    "phone": null,
+    "website": null,
+    "description": "メルボルン発の人気豚骨ラーメン店のシドニー進出。濃厚な博多豚骨スープが好評。",
+    "tags": [
+      "ラーメン",
+      "博多豚骨"
+    ],
+    "hours": "毎日 11:30〜22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sushi-train-sydney",
+    "name": "Sushi Train Sydney",
+    "name_ja": "スシトレイン シドニー",
+    "area": "Sydney CBD",
+    "address": "Sydney CBD, NSW",
+    "phone": null,
+    "website": null,
+    "description": "シドニーCBDの回転寿司チェーン。手頃な価格でカジュアルに寿司が楽しめる。ランチに人気。",
+    "tags": [
+      "回転寿司",
+      "カジュアル",
+      "チェーン"
+    ],
+    "hours": "毎日 11:00〜21:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sushi-train-melbourne",
+    "name": "Sushi Train Melbourne",
+    "name_ja": "スシトレイン メルボルン",
+    "area": "Melbourne CBD",
+    "address": "Melbourne CBD, VIC",
+    "phone": null,
+    "website": null,
+    "description": "メルボルンCBDの回転寿司。手頃な価格とアクセスの良さで人気。",
+    "tags": [
+      "回転寿司",
+      "カジュアル",
+      "チェーン"
+    ],
+    "hours": "毎日 11:00〜21:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "pepper-lunch-sydney",
+    "name": "Pepper Lunch Sydney",
+    "name_ja": "ペッパーランチ シドニー",
+    "area": "Sydney CBD",
+    "address": "Sydney CBD, NSW",
+    "phone": null,
+    "website": null,
+    "description": "日本発の鉄板ステーキチェーン。熱々の鉄板で肉を焼くスタイルが人気。",
+    "tags": [
+      "ステーキ",
+      "鉄板焼",
+      "日本発チェーン"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "pepper-lunch-melbourne",
+    "name": "Pepper Lunch Melbourne",
+    "name_ja": "ペッパーランチ メルボルン",
+    "area": "Melbourne CBD",
+    "address": "Melbourne CBD, VIC",
+    "phone": null,
+    "website": null,
+    "description": "ペッパーランチのメルボルン店。ビーフペッパーライスが看板メニュー。",
+    "tags": [
+      "ステーキ",
+      "鉄板焼",
+      "日本発チェーン"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "gyu-kaku-sydney",
+    "name": "Gyu-Kaku Sydney",
+    "name_ja": "牛角 シドニー",
+    "area": "Sydney CBD",
+    "address": "Sydney CBD, NSW",
+    "phone": null,
+    "website": null,
+    "description": "日本の焼肉チェーン。食べ放題コースが人気。カジュアルに焼肉を楽しめる。",
+    "tags": [
+      "焼肉",
+      "食べ放題",
+      "日本発チェーン"
+    ],
+    "hours": "11:30〜23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ramen-zundo-sydney",
+    "name": "Ramen Zundo Sydney",
+    "name_ja": "ラーメンずんど シドニー",
+    "area": "Sydney CBD",
+    "address": "Sydney CBD, NSW",
+    "phone": null,
+    "website": null,
+    "description": "シドニーCBDの人気ラーメン店。豚骨ラーメン・つけ麺を提供。スープの濃さを選べる。",
+    "tags": [
+      "ラーメン",
+      "豚骨",
+      "つけ麺"
+    ],
+    "hours": "毎日 11:30〜21:30",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "mappen-udon-melbourne",
+    "name": "Mappen Udon Melbourne",
+    "name_ja": "まっぺん うどん メルボルン",
+    "area": "Melbourne CBD",
+    "address": "Melbourne CBD, VIC",
+    "phone": null,
+    "website": null,
+    "description": "メルボルンの人気うどん店。セルフ式で天ぷらをトッピング。讃岐スタイルのコシのある麺が特徴。",
+    "tags": [
+      "うどん",
+      "セルフ式",
+      "讃岐"
+    ],
+    "hours": "毎日 11:00〜21:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "mappen-udon-sydney",
+    "name": "Mappen Udon Sydney",
+    "name_ja": "まっぺん うどん シドニー",
+    "area": "Sydney CBD",
+    "address": "Sydney CBD, NSW",
+    "phone": null,
+    "website": null,
+    "description": "まっぺんうどんのシドニー店。セルフ式讃岐うどんがリーズナブルに楽しめる。",
+    "tags": [
+      "うどん",
+      "セルフ式",
+      "讃岐"
+    ],
+    "hours": "毎日 11:00〜21:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "okami-south-yarra",
+    "name": "Okami South Yarra",
+    "name_ja": "おかみ サウスヤラ",
+    "area": "South Yarra",
+    "address": "South Yarra, Melbourne, VIC",
+    "phone": null,
+    "website": null,
+    "description": "食べ放題の日本料理レストラン。寿司・刺身・天ぷら・焼き物など幅広いメニューをビュッフェスタイルで提供。",
+    "tags": [
+      "食べ放題",
+      "日本料理",
+      "ビュッフェ"
+    ],
+    "hours": "12:00〜14:30 / 17:30〜22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sushi-rio-sydney",
+    "name": "Sushi Rio Sydney",
+    "name_ja": "スシリオ シドニー",
+    "area": "Chatswood",
+    "address": "Chatswood, NSW",
+    "phone": null,
+    "website": null,
+    "description": "チャッツウッドの回転寿司レストラン。新鮮な寿司をリーズナブルに提供。家族連れに人気。",
+    "tags": [
+      "回転寿司",
+      "カジュアル",
+      "ファミリー向け"
+    ],
+    "hours": "毎日 11:00〜21:30",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sake-double-bay",
+    "name": "Saké Restaurant Double Bay",
+    "name_ja": "サケレストラン ダブルベイ",
+    "area": "Double Bay",
+    "address": "Double Bay, Sydney, NSW",
+    "phone": null,
+    "website": "https://sakerestaurant.com.au/",
+    "description": "サケレストランのダブルベイ店。高級住宅街で洗練された日本料理を提供。",
+    "tags": [
+      "高級",
+      "日本料理",
+      "寿司"
+    ],
+    "hours": "12:00〜22:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "masuya-sydney",
+    "name": "Masuya Sydney",
+    "name_ja": "ますや シドニー",
+    "area": "Sydney CBD",
+    "address": "Sydney CBD, NSW",
+    "phone": null,
+    "website": null,
+    "description": "シドニーCBDの老舗日本料理レストラン。30年以上の歴史を持ち、寿司・刺身・天ぷらを提供。",
+    "tags": [
+      "日本料理",
+      "老舗",
+      "寿司"
+    ],
+    "hours": "12:00〜14:30 / 18:00〜22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

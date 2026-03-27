@@ -8,7 +8,12 @@
     "phone": null,
     "website": null,
     "description": "1967年設立の家族経営の動物病院。緑莎坪駅近く。英語での診察が可能で、外国人ペットオーナーに長年利用されている。ペットグルーミング、養子縁組、海外渡航書類作成にも対応。",
-    "tags": ["動物病院", "英語対応", "グルーミング", "海外渡航書類"],
+    "tags": [
+      "動物病院",
+      "英語対応",
+      "グルーミング",
+      "海外渡航書類"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "website",
@@ -23,7 +28,12 @@
     "phone": null,
     "website": null,
     "description": "論峴にある24時間対応の動物病院。英語での診察が可能。犬・猫・ウサギ・鳥・亀などエキゾチックペットにも対応。CT・MRI・内視鏡などの高度医療設備を完備。",
-    "tags": ["動物病院", "24時間", "英語対応", "エキゾチックペット"],
+    "tags": [
+      "動物病院",
+      "24時間",
+      "英語対応",
+      "エキゾチックペット"
+    ],
     "hours": "24時間",
     "status": "unverified",
     "source": "website",
@@ -38,7 +48,31 @@
     "phone": null,
     "website": null,
     "description": "漢南洞にある外国人居住者向けの動物病院。英語での診察が可能で、駐在員のペットケアに実績がある。一般診療から予防接種、健康診断まで対応。",
-    "tags": ["動物病院", "英語対応", "外国人向け"],
+    "tags": [
+      "動物病院",
+      "英語対応",
+      "外国人向け"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "irion-animal-hospital-ichon",
+    "name": "Irion Animal Hospital",
+    "name_ja": "イリオン動物病院",
+    "area": "Yongsan-gu (Ichon)",
+    "address": "Ichon-dong, Yongsan-gu, Seoul",
+    "phone": null,
+    "website": null,
+    "description": "二村エリアにある動物病院。英語・日本語での簡単なコミュニケーションに対応。犬・猫の一般診療から予防接種、健康診断まで対応。帰国時のペット輸送書類作成もサポート。",
+    "tags": [
+      "動物病院",
+      "英語対応",
+      "ペット輸送",
+      "二村"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",

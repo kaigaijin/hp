@@ -114,5 +114,79 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "mackay-memorial-hospital",
+    "name": "MacKay Memorial Hospital",
+    "name_ja": "馬偕紀念醫院",
+    "area": "Zhongshan",
+    "address": "No. 92, Section 2, Zhongshan North Road, Zhongshan District, Taipei",
+    "phone": "+886225433535",
+    "website": "https://www.mmh.org.tw/",
+    "description": "台北の主要総合病院の一つ。外国人患者対応窓口があり、通訳サービスも利用可能。救急対応あり。",
+    "tags": [
+      "総合病院",
+      "外国人対応",
+      "救急"
+    ],
+    "hours": "外来 8:30〜17:00（平日）",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "tri-service-general-hospital",
+    "name": "Tri-Service General Hospital",
+    "name_ja": "三軍総合病院",
+    "area": "Neihu",
+    "address": "No. 325, Section 2, Chenggong Road, Neihu District, Taipei",
+    "phone": "+886287923311",
+    "website": "https://www.tsgh.ndmctsgh.edu.tw/",
+    "description": "台湾の大規模総合病院。最新の医療設備を備え、各科専門医が在籍。外国人向け窓口あり。",
+    "tags": [
+      "総合病院",
+      "外国人対応"
+    ],
+    "hours": "外来 8:00〜17:00（平日）",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "linsen-chinese-medicine-hospital",
+    "name": "Linsen Chinese Medicine Hospital",
+    "name_ja": "台北市立聯合医院 林森中医昆明院区",
+    "area": "Zhongshan",
+    "address": "No. 530, Section 3, Linsen North Road, Zhongshan District, Taipei",
+    "phone": "+886225916681",
+    "website": null,
+    "description": "中山エリアの公立病院。日本人居住者が多い林森北路エリアにあり、アクセスが良い。中医（漢方）も併設。",
+    "tags": [
+      "公立病院",
+      "中医併設"
+    ],
+    "hours": "外来 8:30〜17:00（平日）",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "chang-gung-memorial-hospital",
+    "name": "Chang Gung Memorial Hospital",
+    "name_ja": "長庚紀念医院",
+    "area": "Songshan",
+    "address": "No. 199, Dunhua North Road, Songshan District, Taipei",
+    "phone": "+886227135211",
+    "website": "https://www.cgmh.org.tw/",
+    "description": "台湾最大級の医療グループ。各科の専門医が在籍し、外国人向け国際医療センターも設置。",
+    "tags": [
+      "総合病院",
+      "国際医療",
+      "外国人対応"
+    ],
+    "hours": "外来 8:30〜17:00（平日）",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
   }
 ]

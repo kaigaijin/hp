@@ -421,5 +421,937 @@
     "status": "unverified",
     "source": "google_maps",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sushiro-taipei-guanqian",
+    "name": "Sushiro Taipei Guanqian",
+    "name_ja": "スシロー 台北館前店",
+    "area": "Zhongzheng",
+    "address": "2F, No. 8, Guanqian Road, Zhongzheng District, Taipei",
+    "phone": "+886223612638",
+    "website": "https://www.sushinosushiro.tw/",
+    "description": "日本最大の回転寿司チェーン「スシロー」の台北旗艦店。台北駅前の好立地で、寿司一皿40元からとリーズナブル。タッチパネル注文で言葉の心配なし。",
+    "tags": [
+      "回転寿司",
+      "日本発チェーン",
+      "駅前"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sushiro-taipei-zhonghua",
+    "name": "Sushiro Taipei Zhonghua",
+    "name_ja": "スシロー 台北中華店",
+    "area": "Zhongzheng",
+    "address": "1F, No. 41, Section 1, Zhonghua Road, Zhongzheng District, Taipei",
+    "phone": "+886223612306",
+    "website": "https://www.sushinosushiro.tw/",
+    "description": "スシロー台北2号店。西門町エリアにあり、買い物ついでに立ち寄りやすい。日本と同品質の寿司ネタを提供。",
+    "tags": [
+      "回転寿司",
+      "日本発チェーン",
+      "西門町"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sushiro-taipei-miramar",
+    "name": "Sushiro Taipei Miramar",
+    "name_ja": "スシロー 美麗華店",
+    "area": "Zhongshan",
+    "address": "3F, No. 303, Lequn 3rd Road, Zhongshan District, Taipei",
+    "phone": null,
+    "website": "https://www.sushinosushiro.tw/",
+    "description": "スシロー台北3号店。大直美麗華百貨店内。ファミリーでのショッピング帰りに便利。",
+    "tags": [
+      "回転寿司",
+      "日本発チェーン",
+      "商業施設内"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "kura-sushi-taipei-guanqian",
+    "name": "Kura Sushi Taipei Guanqian",
+    "name_ja": "くら寿司 台北館前店",
+    "area": "Zhongzheng",
+    "address": "5F, No. 12, Guanqian Road, Zhongzheng District, Taipei",
+    "phone": null,
+    "website": "https://www.kurasushi.tw/",
+    "description": "日本の人気回転寿司チェーン「くら寿司」。ガチャポン付きの楽しいシステムが子連れに人気。台北駅前の好立地。",
+    "tags": [
+      "回転寿司",
+      "日本発チェーン",
+      "ファミリー向け"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "kura-sushi-zhongshan",
+    "name": "Kura Sushi Zhongshan",
+    "name_ja": "くら寿司 松江南京店",
+    "area": "Zhongshan",
+    "address": "B1, No. 101, Section 2, Nanjing East Road, Zhongshan District, Taipei",
+    "phone": null,
+    "website": "https://www.kurasushi.tw/",
+    "description": "くら寿司の中山エリア店。松江南京駅8番出口すぐ。日本と同じタッチパネル注文システムを採用。",
+    "tags": [
+      "回転寿司",
+      "日本発チェーン",
+      "駅直結"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "kura-sushi-xinyi-att",
+    "name": "Kura Sushi Xinyi ATT",
+    "name_ja": "くら寿司 信義ATT店",
+    "area": "Xinyi",
+    "address": "4F, No. 12, Songshou Road, Xinyi District, Taipei (ATT4FUN)",
+    "phone": null,
+    "website": "https://www.kurasushi.tw/",
+    "description": "くら寿司の信義エリア店。ATT4FUN内で映画やショッピングとあわせて利用可能。",
+    "tags": [
+      "回転寿司",
+      "日本発チェーン",
+      "商業施設内"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "kura-sushi-breeze-songao",
+    "name": "Kura Sushi Breeze Songao",
+    "name_ja": "くら寿司 微風松高店",
+    "area": "Xinyi",
+    "address": "B1, No. 16, Songgao Road, Xinyi District, Taipei",
+    "phone": null,
+    "website": "https://www.kurasushi.tw/",
+    "description": "くら寿司の微風松高店。信義エリアのデパ地下でアクセス良好。",
+    "tags": [
+      "回転寿司",
+      "日本発チェーン",
+      "デパ地下"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "kura-sushi-nangang",
+    "name": "Kura Sushi Nangang CITYLINK",
+    "name_ja": "くら寿司 南港CITYLINK店",
+    "area": "Nangang",
+    "address": "3F, No. 369, Section 7, Zhongxiao East Road, Nangang District, Taipei",
+    "phone": null,
+    "website": "https://www.kurasushi.tw/",
+    "description": "くら寿司のCITYLINK南港店。南港駅直結でアクセス抜群。",
+    "tags": [
+      "回転寿司",
+      "日本発チェーン",
+      "駅直結"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "coco-ichibanya-nanjing-fuxing",
+    "name": "CoCo Ichibanya Nanjing Fuxing",
+    "name_ja": "CoCo壹番屋 南京復興店",
+    "area": "Zhongshan",
+    "address": "2F, No. 259, Section 3, Nanjing East Road, Zhongshan District, Taipei",
+    "phone": null,
+    "website": "https://www.ichibanya.com.tw/",
+    "description": "日本発のカレーハウス。辛さ・ライス量・トッピングを自由にカスタマイズできるのが特徴。カツカレーが一番人気。",
+    "tags": [
+      "カレー",
+      "日本発チェーン",
+      "カスタマイズ可"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "coco-ichibanya-gongguan",
+    "name": "CoCo Ichibanya Gongguan",
+    "name_ja": "CoCo壹番屋 公館台大店",
+    "area": "Da'an",
+    "address": "1F, No. 1, Section 4, Roosevelt Road, Da'an District, Taipei",
+    "phone": null,
+    "website": "https://www.ichibanya.com.tw/",
+    "description": "CoCo壹番屋の台湾大学前店。学生街にあり手頃な価格で本格日本カレーが楽しめる。公館MRT駅すぐ。",
+    "tags": [
+      "カレー",
+      "日本発チェーン",
+      "駅前"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "coco-ichibanya-ximen",
+    "name": "CoCo Ichibanya Ximen",
+    "name_ja": "CoCo壹番屋 漢中店",
+    "area": "Wanhua",
+    "address": "2F, No. 49, Hanzhong Street, Wanhua District, Taipei",
+    "phone": null,
+    "website": "https://www.ichibanya.com.tw/",
+    "description": "CoCo壹番屋の西門町店。若者の街・西門町で買い物ついでにカレーを楽しめる。",
+    "tags": [
+      "カレー",
+      "日本発チェーン",
+      "西門町"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "coco-ichibanya-songshan",
+    "name": "CoCo Ichibanya Songshan",
+    "name_ja": "CoCo壹番屋 松山車站店",
+    "area": "Xinyi",
+    "address": "No. 11, Songshan Road, Xinyi District, Taipei (Songshan Station)",
+    "phone": null,
+    "website": "https://www.ichibanya.com.tw/",
+    "description": "CoCo壹番屋の松山車站店。鉄道駅直結で旅行や移動中のランチに便利。",
+    "tags": [
+      "カレー",
+      "日本発チェーン",
+      "駅直結"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "yoshinoya-taipei-guanqian",
+    "name": "Yoshinoya Taipei Guanqian",
+    "name_ja": "吉野家 館前店",
+    "area": "Zhongzheng",
+    "address": "No. 59, Guanqian Road, Zhongzheng District, Taipei",
+    "phone": null,
+    "website": "https://www.yoshinoya.com.tw/",
+    "description": "日本を代表する牛丼チェーン。台湾に100店舗以上展開し、台北駅前の好立地でサッと食事が取れる。",
+    "tags": [
+      "牛丼",
+      "日本発チェーン",
+      "ファストフード"
+    ],
+    "hours": "毎日 6:00〜24:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "yoshinoya-taipei-jilin",
+    "name": "Yoshinoya Taipei Jilin",
+    "name_ja": "吉野家 吉林店",
+    "area": "Zhongshan",
+    "address": "No. 36, Jilin Road, Zhongshan District, Taipei",
+    "phone": null,
+    "website": "https://www.yoshinoya.com.tw/",
+    "description": "吉野家の中山エリア店。オフィス街にあり、駐在員のランチにも便利。",
+    "tags": [
+      "牛丼",
+      "日本発チェーン",
+      "ファストフード"
+    ],
+    "hours": "毎日 6:00〜24:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sukiya-taipei-jinshan",
+    "name": "Sukiya Taipei Jinshan",
+    "name_ja": "すき家 金山南路店",
+    "area": "Zhongzheng",
+    "address": "No. 135, Section 1, Jinshan South Road, Zhongzheng District, Taipei",
+    "phone": null,
+    "website": "https://www.sukiya.tw/",
+    "description": "日本の大手牛丼チェーン「すき家」。24時間営業で深夜でも利用可能。牛丼に加え、カレーや定食メニューも充実。",
+    "tags": [
+      "牛丼",
+      "日本発チェーン",
+      "24時間営業"
+    ],
+    "hours": "24時間営業",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sukiya-taipei-nanjing",
+    "name": "Sukiya Taipei Nanjing",
+    "name_ja": "すき家 南京一通店",
+    "area": "Zhongshan",
+    "address": "No. 178, Section 2, Nanjing East Road, Zhongshan District, Taipei",
+    "phone": null,
+    "website": "https://www.sukiya.tw/",
+    "description": "すき家の中山エリア店。台湾に78店舗以上展開する人気チェーン。チーズ牛丼など台湾限定メニューも。",
+    "tags": [
+      "牛丼",
+      "日本発チェーン",
+      "カジュアル"
+    ],
+    "hours": "毎日 7:00〜23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sukiya-taipei-dongmen",
+    "name": "Sukiya Taipei Dongmen",
+    "name_ja": "すき家 東門店",
+    "area": "Da'an",
+    "address": "Da'an District, Taipei (near Dongmen MRT)",
+    "phone": null,
+    "website": "https://www.sukiya.tw/",
+    "description": "すき家の東門エリア店。永康街散策の合間に手軽に日本の味が楽しめる。",
+    "tags": [
+      "牛丼",
+      "日本発チェーン",
+      "カジュアル"
+    ],
+    "hours": "毎日 7:00〜23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "matsuya-taipei",
+    "name": "Matsuya Taipei",
+    "name_ja": "松屋 台北",
+    "area": "Zhongshan",
+    "address": "Zhongshan District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "日本三大牛丼チェーンの一角「松屋」。定食スタイルのメニューが充実し、味噌汁付きセットが人気。",
+    "tags": [
+      "牛丼",
+      "定食",
+      "日本発チェーン"
+    ],
+    "hours": "毎日 7:00〜23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "morimendou-taipei",
+    "name": "Morimendou",
+    "name_ja": "森麺堂",
+    "area": "Zhongshan",
+    "address": "No. 50, Section 1, Zhongshan North Road, Zhongshan District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "世界初のミシュラン星付きラーメン職人・諸住周太氏が監修するラーメン店。関東風の澄んだスープと濃厚豚骨の両方を提供。",
+    "tags": [
+      "ラーメン",
+      "ミシュラン監修",
+      "日本人シェフ監修"
+    ],
+    "hours": "毎日 11:30〜21:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "menya-senkumo-taipei",
+    "name": "Menya Senkumo",
+    "name_ja": "麺屋千雲",
+    "area": "Zhongshan",
+    "address": "Linsen North Road, Zhongshan District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "鶏白湯ラーメンとつけ麺が人気のラーメン店。丸鶏を一晩煮込んだ濃厚スープが特徴。日本式の雰囲気が漂う店内。",
+    "tags": [
+      "ラーメン",
+      "つけ麺",
+      "鶏白湯"
+    ],
+    "hours": "毎日 11:30〜21:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "kamiyama-ramen-taipei",
+    "name": "Kamiyama Ramen",
+    "name_ja": "神山ラーメン",
+    "area": "Zhongshan",
+    "address": "Zhongshan District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "中山エリアで週末には行列ができる人気ラーメン店。豚骨と魚介の濃厚ブレンドスープと焼きチャーシューが看板メニュー。",
+    "tags": [
+      "ラーメン",
+      "豚骨魚介",
+      "行列店"
+    ],
+    "hours": "毎日 11:30〜21:30",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "fei-qian-wu-taipei",
+    "name": "Fei Qian Wu",
+    "name_ja": "肥前屋",
+    "area": "Zhongshan",
+    "address": "No. 1, Lane 121, Section 1, Zhongshan North Road, Zhongshan District, Taipei",
+    "phone": "+886225621510",
+    "website": null,
+    "description": "台北で最も有名な鰻専門店。日本式の蒲焼きうなぎを提供し、ランチタイムは常に行列。リーズナブルな価格で本格的なうな重が食べられる。",
+    "tags": [
+      "うなぎ",
+      "行列店",
+      "日本料理"
+    ],
+    "hours": "11:00〜14:30 / 17:00〜21:00（月曜定休）",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sushi-ryu-taipei",
+    "name": "Sushi Ryu",
+    "name_ja": "鮨隆",
+    "area": "Da'an",
+    "address": "Da'an District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "30年以上の経験を持つ楊永龍シェフによるおまかせ寿司。燻製・熟成・酢締めなど多彩な技法で江戸前寿司を提供。ミシュラン掲載店。",
+    "tags": [
+      "おまかせ",
+      "寿司",
+      "ミシュラン掲載",
+      "要予約"
+    ],
+    "hours": "要予約",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "kanada-ya-taipei",
+    "name": "Kanada-Ya Taipei",
+    "name_ja": "金田家 台北",
+    "area": "Da'an",
+    "address": "Da'an District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "ロンドンでも人気の福岡発濃厚豚骨ラーメン店。18時間煮込んだ豚骨スープとストレート細麺が特徴。",
+    "tags": [
+      "ラーメン",
+      "豚骨",
+      "福岡発"
+    ],
+    "hours": "毎日 11:30〜21:30",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "tendon-kohaku-taipei",
+    "name": "Tendon Kohaku Taipei",
+    "name_ja": "天丼琥珀 台北",
+    "area": "Xinyi",
+    "address": "Xinyi District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "東京で人気の天丼専門店。サクサクの天ぷらと甘辛のたれが絶品。海老天丼やかき揚げ天丼が人気メニュー。",
+    "tags": [
+      "天丼",
+      "天ぷら",
+      "東京発"
+    ],
+    "hours": "毎日 11:00〜21:30",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "raku-kou-ramen-taipei",
+    "name": "Raku Kou Ramen",
+    "name_ja": "楽考ラーメン",
+    "area": "Da'an",
+    "address": "Near Da'an Forest Park, Da'an District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "大安森林公園近くのとんこつラーメン専門店。スープからトッピングまで細部にこだわり、ラーメン好きに支持される。",
+    "tags": [
+      "ラーメン",
+      "とんこつ",
+      "こだわり"
+    ],
+    "hours": "毎日 11:30〜21:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ootoya-taipei-zhongxiao",
+    "name": "Ootoya Taipei Zhongxiao",
+    "name_ja": "大戸屋 忠孝店",
+    "area": "Da'an",
+    "address": "Section 4, Zhongxiao East Road, Da'an District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "日本の家庭料理を提供する定食チェーン。焼き魚定食やチキン南蛮など、栄養バランスの良いメニューが特徴。一人でも入りやすい。",
+    "tags": [
+      "定食",
+      "日本発チェーン",
+      "家庭料理"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "tenya-taipei",
+    "name": "Tenya Taipei",
+    "name_ja": "天丼てんや 台北",
+    "area": "Zhongshan",
+    "address": "Zhongshan District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "日本最大の天丼チェーン。手頃な価格で本格的な天丼が楽しめる。海老・いか・野菜の天ぷらがボリューム満点。",
+    "tags": [
+      "天丼",
+      "日本発チェーン",
+      "カジュアル"
+    ],
+    "hours": "毎日 11:00〜21:30",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "tsukada-nojo-taipei",
+    "name": "Tsukada Nojo Taipei",
+    "name_ja": "塚田農場 台北",
+    "area": "Zhongshan",
+    "address": "Zhongshan District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "宮崎地鶏を使った料理を提供する居酒屋チェーン。炭火焼き地鶏もも焼きが看板メニュー。個室もあり接待にも。",
+    "tags": [
+      "地鶏",
+      "居酒屋",
+      "日本発チェーン"
+    ],
+    "hours": "17:00〜23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "hanamaru-udon-taipei",
+    "name": "Hanamaru Udon Taipei",
+    "name_ja": "はなまるうどん 台北",
+    "area": "Zhongzheng",
+    "address": "Zhongzheng District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "日本のセルフ式讃岐うどんチェーン。かけうどん・ぶっかけうどんなどシンプルなメニューが中心。手頃な価格で満足度が高い。",
+    "tags": [
+      "うどん",
+      "日本発チェーン",
+      "セルフ式"
+    ],
+    "hours": "毎日 11:00〜21:30",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "gyukatsu-motomura-taipei",
+    "name": "Gyukatsu Motomura Taipei",
+    "name_ja": "牛かつもと村 台北",
+    "area": "Da'an",
+    "address": "Da'an District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "東京発の牛カツ専門店。レアに揚げた牛カツを石板で好みの焼き加減に仕上げるスタイル。わさび醤油や岩塩で食べるのがおすすめ。",
+    "tags": [
+      "牛カツ",
+      "東京発",
+      "カジュアル"
+    ],
+    "hours": "毎日 11:00〜21:30",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "tenmasa-tempura-taipei",
+    "name": "Tenmasa Tempura",
+    "name_ja": "天政天ぷら",
+    "area": "Da'an",
+    "address": "Da'an District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "カウンター席で揚げたての天ぷらを楽しめる日本式天ぷら専門店。旬の食材を使ったおまかせコースが人気。",
+    "tags": [
+      "天ぷら",
+      "おまかせ",
+      "カウンター"
+    ],
+    "hours": "11:30〜14:00 / 17:30〜21:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "shabushabu-on-taipei",
+    "name": "Shabu Shabu ON",
+    "name_ja": "しゃぶしゃぶ温",
+    "area": "Xinyi",
+    "address": "Xinyi District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "日本式のしゃぶしゃぶ専門店。昆布だしと豚しゃぶのセットが看板メニュー。野菜バーも充実。",
+    "tags": [
+      "しゃぶしゃぶ",
+      "日本式",
+      "カジュアル"
+    ],
+    "hours": "11:30〜22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "toriki-taipei",
+    "name": "Toriki Taipei",
+    "name_ja": "鳥喜 台北",
+    "area": "Da'an",
+    "address": "Da'an District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "備長炭で焼く本格焼き鳥専門店。部位ごとに焼き分ける職人技が光る。日本酒のセレクションも豊富。",
+    "tags": [
+      "焼き鳥",
+      "備長炭",
+      "日本酒"
+    ],
+    "hours": "18:00〜23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "tonteki-taipei",
+    "name": "Tonteki Taipei",
+    "name_ja": "トンテキ 台北",
+    "area": "Zhongshan",
+    "address": "Zhongshan District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "三重県発祥のトンテキ（豚ステーキ）専門店。厚切り豚ロースのジューシーなステーキが名物。ご飯・味噌汁付き定食スタイル。",
+    "tags": [
+      "トンテキ",
+      "定食",
+      "カジュアル"
+    ],
+    "hours": "11:30〜21:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "soba-shinn-taipei",
+    "name": "Soba Shinn",
+    "name_ja": "蕎麦心 台北",
+    "area": "Da'an",
+    "address": "Da'an District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "手打ち蕎麦を提供する日本蕎麦専門店。北海道産のそば粉を使用した二八蕎麦が看板。天ぷらセットも人気。",
+    "tags": [
+      "蕎麦",
+      "手打ち",
+      "日本料理"
+    ],
+    "hours": "11:30〜14:30 / 17:30〜21:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "unagi-matsukawa-taipei",
+    "name": "Unagi Matsukawa",
+    "name_ja": "うなぎ松川",
+    "area": "Zhongshan",
+    "address": "Zhongshan District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "日本式の鰻重を提供するうなぎ専門店。備長炭で焼き上げるふっくらとした蒲焼きが特徴。ひつまぶしも提供。",
+    "tags": [
+      "うなぎ",
+      "蒲焼き",
+      "日本料理"
+    ],
+    "hours": "11:30〜14:00 / 17:30〜21:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "tonkatsu-anzu-taipei",
+    "name": "Tonkatsu Anzu",
+    "name_ja": "とんかつ杏 台北",
+    "area": "Xinyi",
+    "address": "Xinyi District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "揚げたてのとんかつを提供する日本式とんかつ専門店。キャベツ・ご飯・味噌汁おかわり自由。ロースかつ定食が一番人気。",
+    "tags": [
+      "とんかつ",
+      "定食",
+      "日本式"
+    ],
+    "hours": "11:00〜21:30",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ramen-musashi-taipei",
+    "name": "Ramen Musashi Taipei",
+    "name_ja": "ラーメン武蔵 台北",
+    "area": "Zhongshan",
+    "address": "Zhongshan District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "東京発の人気ラーメン店。豚骨・味噌・醤油など多彩なスープを提供。太麺と濃厚スープの組み合わせが人気。",
+    "tags": [
+      "ラーメン",
+      "東京発",
+      "豚骨"
+    ],
+    "hours": "毎日 11:30〜21:30",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "mentsudan-taipei",
+    "name": "Mentsudan Taipei",
+    "name_ja": "麺通団 台北",
+    "area": "Da'an",
+    "address": "Da'an District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "香川県の讃岐うどんを提供する本格うどん店。セルフ式で天ぷらをトッピングするスタイル。コシのある麺が特徴。",
+    "tags": [
+      "うどん",
+      "讃岐",
+      "セルフ式"
+    ],
+    "hours": "11:00〜21:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "yakiniku-wagyu-no-takumi-taipei",
+    "name": "Wagyu no Takumi",
+    "name_ja": "和牛の匠",
+    "area": "Da'an",
+    "address": "Da'an District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "A5ランクの和牛を中心に提供する高級焼肉店。おまかせコースでは厳選部位を少しずつ楽しめる。個室あり。",
+    "tags": [
+      "焼肉",
+      "和牛",
+      "高級",
+      "個室"
+    ],
+    "hours": "17:30〜23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "saizeriya-taipei-ximen",
+    "name": "Saizeriya Taipei Ximen",
+    "name_ja": "サイゼリヤ 西門店",
+    "area": "Wanhua",
+    "address": "Wanhua District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "日本のイタリアンファミリーレストラン。驚きの低価格でパスタ・ピザ・ドリアなどを提供。学生・若者に人気。",
+    "tags": [
+      "ファミレス",
+      "日本発チェーン",
+      "低価格"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "mos-burger-zhongshan",
+    "name": "MOS Burger Zhongshan",
+    "name_ja": "モスバーガー 中山",
+    "area": "Zhongshan",
+    "address": "Zhongshan District, Taipei",
+    "phone": null,
+    "website": "https://www.mos.com.tw/",
+    "description": "日本発のハンバーガーチェーン。テリヤキバーガーやライスバーガーなど日本らしいメニューが特徴。台湾全土に300店舗以上展開。",
+    "tags": [
+      "ハンバーガー",
+      "日本発チェーン",
+      "ファストフード"
+    ],
+    "hours": "毎日 7:00〜23:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "mos-burger-xinyi",
+    "name": "MOS Burger Xinyi",
+    "name_ja": "モスバーガー 信義",
+    "area": "Xinyi",
+    "address": "Xinyi District, Taipei",
+    "phone": null,
+    "website": "https://www.mos.com.tw/",
+    "description": "モスバーガーの信義エリア店。信義ショッピングエリアで買い物の合間に立ち寄れる。",
+    "tags": [
+      "ハンバーガー",
+      "日本発チェーン"
+    ],
+    "hours": "毎日 7:00〜23:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "katsuya-taipei",
+    "name": "Katsuya Taipei",
+    "name_ja": "かつや 台北",
+    "area": "Zhongshan",
+    "address": "Zhongshan District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "とんかつ・カツ丼チェーン。サクサクのとんかつ定食やカツ丼をリーズナブルに提供。ランチに人気。",
+    "tags": [
+      "とんかつ",
+      "カツ丼",
+      "日本発チェーン"
+    ],
+    "hours": "毎日 11:00〜21:30",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "pepper-lunch-taipei",
+    "name": "Pepper Lunch Taipei",
+    "name_ja": "ペッパーランチ 台北",
+    "area": "Xinyi",
+    "address": "Xinyi District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "日本発の鉄板ステーキチェーン。熱々の鉄板で自分好みに焼き上げるスタイルが人気。ビーフペッパーライスが看板メニュー。",
+    "tags": [
+      "ステーキ",
+      "鉄板焼",
+      "日本発チェーン"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "gyu-kaku-taipei",
+    "name": "Gyu-Kaku Taipei",
+    "name_ja": "牛角 台北",
+    "area": "Zhongshan",
+    "address": "Zhongshan District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "日本の焼肉チェーン。食べ放題コースからアラカルトまで幅広いメニュー。リーズナブルに焼肉が楽しめる。",
+    "tags": [
+      "焼肉",
+      "食べ放題",
+      "日本発チェーン"
+    ],
+    "hours": "11:30〜24:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ringer-hut-taipei",
+    "name": "Ringer Hut Taipei",
+    "name_ja": "リンガーハット 台北",
+    "area": "Zhongzheng",
+    "address": "Zhongzheng District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "長崎ちゃんぽんチェーン。野菜たっぷりのちゃんぽんと皿うどんが看板メニュー。ヘルシー志向に人気。",
+    "tags": [
+      "ちゃんぽん",
+      "日本発チェーン",
+      "野菜たっぷり"
+    ],
+    "hours": "毎日 11:00〜21:30",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "nakau-taipei",
+    "name": "Nakau Taipei",
+    "name_ja": "なか卯 台北",
+    "area": "Zhongshan",
+    "address": "Zhongshan District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "うどん・丼物チェーン。親子丼とうどんのセットが定番。24時間営業の店舗も。",
+    "tags": [
+      "丼物",
+      "うどん",
+      "日本発チェーン"
+    ],
+    "hours": "毎日 7:00〜23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

@@ -74,5 +74,43 @@
     "status": "unverified",
     "source": "website",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "kuroneko-yamato-taiwan",
+    "name": "Kuroneko Yamato Taiwan",
+    "name_ja": "ヤマト運輸 台湾",
+    "area": "Taipei City",
+    "address": "Taipei City",
+    "phone": null,
+    "website": "https://www.t-cat.com.tw/",
+    "description": "日本のヤマト運輸の台湾現地法人。宅配便・引越し・国際宅急便のサービスを提供。日本品質の配送サービス。",
+    "tags": [
+      "宅配便",
+      "引越し",
+      "日系"
+    ],
+    "hours": "平日 8:00〜18:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sagawa-express-taiwan",
+    "name": "Sagawa Express Taiwan",
+    "name_ja": "佐川急便 台湾",
+    "area": "Taipei City",
+    "address": "Taipei City",
+    "phone": null,
+    "website": null,
+    "description": "佐川急便の台湾拠点。法人向け物流サービスに加え、個人向けの国際配送にも対応。",
+    "tags": [
+      "物流",
+      "国際配送",
+      "日系"
+    ],
+    "hours": "平日 8:00〜18:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

@@ -55,5 +55,43 @@
     "last_verified": "2026-03-26",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "sagawa-vietnam",
+    "name": "Sagawa Express Vietnam",
+    "name_ja": "佐川急便 ベトナム",
+    "area": "Ho Chi Minh City",
+    "address": "Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "佐川急便のベトナム拠点。法人向け国際物流・3PLサービスを提供。",
+    "tags": [
+      "物流",
+      "国際配送",
+      "日系"
+    ],
+    "hours": "平日 8:30〜17:30",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "yamato-vietnam",
+    "name": "Yamato Transport Vietnam",
+    "name_ja": "ヤマト運輸 ベトナム",
+    "area": "Ho Chi Minh City",
+    "address": "Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "ヤマト運輸のベトナム現地法人。宅配便・引越し・国際宅急便を提供。",
+    "tags": [
+      "宅配便",
+      "引越し",
+      "日系"
+    ],
+    "hours": "平日 8:30〜17:30",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

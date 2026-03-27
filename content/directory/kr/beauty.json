@@ -102,7 +102,11 @@
     "phone": null,
     "website": null,
     "description": "江南エリアにある日本語対応可能なヘアサロン。韓国の最新トレンドヘアスタイルを日本語で相談しながら施術してもらえる。カット・カラー・パーマに加え、頭皮ケアメニューも充実。",
-    "tags": ["日本語対応", "韓国ヘア", "予約可"],
+    "tags": [
+      "日本語対応",
+      "韓国ヘア",
+      "予約可"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
@@ -117,7 +121,87 @@
     "phone": null,
     "website": null,
     "description": "K-POPアイドルも通うことで有名な清潭洞の高級ヘアサロン。日本人スタッフはいないが、日本語対応可能なスタイリストが在籍する場合あり。韓国トレンドの最先端を体験できる。",
-    "tags": ["韓国ヘア", "高級", "K-POP"],
+    "tags": [
+      "韓国ヘア",
+      "高級",
+      "K-POP"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "nalu-hair-seoul",
+    "name": "NALU Hair Seoul",
+    "name_ja": "ナル ヘア ソウル",
+    "area": "Gangnam-gu",
+    "address": "Gangnam-gu, Seoul",
+    "phone": null,
+    "website": null,
+    "description": "日本人スタイリストが在籍する江南の美容室。韓国の最新トレンドヘアと日本の技術を融合。カット・カラー・パーマ・ヘッドスパに対応。LINE予約可能。",
+    "tags": [
+      "日本語対応",
+      "日本人スタイリスト",
+      "予約可"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ichon-japanese-hair-salon",
+    "name": "Ichon Japanese Hair Salon",
+    "name_ja": "二村 日本人美容室",
+    "area": "Yongsan-gu (Ichon)",
+    "address": "Ichon-dong, Yongsan-gu, Seoul",
+    "phone": null,
+    "website": null,
+    "description": "二村の日本人街にある日本語対応の美容室。日本人駐在員の妻やお子さんのカットに対応。日本の美容室と同じ感覚で利用できる安心の空間。",
+    "tags": [
+      "日本語対応",
+      "二村",
+      "子ども対応"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "laka-hair-gangnam",
+    "name": "LAKA Hair Salon",
+    "name_ja": "ラカ ヘアサロン",
+    "area": "Gangnam-gu (Sinsa)",
+    "address": "Sinsa-dong, Gangnam-gu, Seoul",
+    "phone": null,
+    "website": null,
+    "description": "新沙洞のカロスキルにある人気ヘアサロン。日本語対応可能なスタイリストが在籍する場合あり。韓国の最新トレンドカラーやパーマが得意。K-POP風のスタイリングにも対応。",
+    "tags": [
+      "韓国ヘア",
+      "カロスキル",
+      "トレンド"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "hayan-beauty-clinic-gangnam",
+    "name": "Hayan Beauty Clinic",
+    "name_ja": "ハヤン ビューティークリニック",
+    "area": "Gangnam-gu",
+    "address": "Gangnam-gu, Seoul",
+    "phone": null,
+    "website": null,
+    "description": "江南の美容クリニック。日本語対応のカウンセラーが在籍し、ボトックス、フィラー、レーザー治療などの美容施術を日本語で相談できる。韓国美容を体験したい日本人に人気。",
+    "tags": [
+      "日本語対応",
+      "美容クリニック",
+      "レーザー治療"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",

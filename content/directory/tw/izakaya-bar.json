@@ -168,5 +168,215 @@
     "status": "unverified",
     "source": "google_maps",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "kushi-bar-linsen",
+    "name": "Kushi Bar Linsen",
+    "name_ja": "串BAR 林森",
+    "area": "Zhongshan",
+    "address": "Near Lane 107, Linsen North Road, Zhongshan District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "林森北路エリアの炭火串焼きバー。タパススタイルの串焼き・天ぷらを提供。公園に面したテラス席が人気。",
+    "tags": [
+      "串焼き",
+      "テラス席",
+      "林森北路"
+    ],
+    "hours": "18:00〜翌1:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "torikizoku-taipei",
+    "name": "Torikizoku Taipei",
+    "name_ja": "鳥貴族 台北",
+    "area": "Zhongshan",
+    "address": "Zhongshan District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "日本の人気焼き鳥チェーン。全品均一価格で気軽に焼き鳥と酒を楽しめる。コスパ抜群。",
+    "tags": [
+      "焼き鳥",
+      "日本発チェーン",
+      "均一価格"
+    ],
+    "hours": "17:00〜24:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "watami-taipei-zhongshan",
+    "name": "Watami Taipei Zhongshan",
+    "name_ja": "和民 台北中山",
+    "area": "Zhongshan",
+    "address": "Zhongshan District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "日本の大手居酒屋チェーン。豊富な料理メニューと飲み放題プランが特徴。駐在員の宴会にも人気。",
+    "tags": [
+      "居酒屋",
+      "日本発チェーン",
+      "飲み放題"
+    ],
+    "hours": "17:00〜翌2:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "izakaya-gonpachi-taipei",
+    "name": "Gonpachi Taipei",
+    "name_ja": "権八 台北",
+    "area": "Xinyi",
+    "address": "Xinyi District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "東京・西麻布の人気和食居酒屋の台北店。映画「キル・ビル」のモデルとなった店。串焼き・蕎麦・天ぷらを提供。",
+    "tags": [
+      "居酒屋",
+      "東京発",
+      "串焼き",
+      "蕎麦"
+    ],
+    "hours": "11:30〜14:30 / 17:30〜23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "kanpai-yakiniku-taipei",
+    "name": "Kanpai Classic",
+    "name_ja": "乾杯 クラシック",
+    "area": "Da'an",
+    "address": "Da'an District, Taipei",
+    "phone": null,
+    "website": "https://www.kanpai.com.tw/",
+    "description": "台北で人気の日式焼肉チェーン。上質な肉と活気のある雰囲気が特徴。誕生日サプライズの演出でも知られる。",
+    "tags": [
+      "焼肉",
+      "日式",
+      "チェーン"
+    ],
+    "hours": "17:30〜24:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "yakiniku-jumbo-taipei",
+    "name": "Yakiniku Jumbo Taipei",
+    "name_ja": "老乾杯 台北",
+    "area": "Xinyi",
+    "address": "Xinyi District, Taipei",
+    "phone": null,
+    "website": "https://www.kanpai.com.tw/",
+    "description": "乾杯グループの高級焼肉ブランド。和牛を中心とした厳選肉と高級感のある空間。接待やお祝いに最適。",
+    "tags": [
+      "焼肉",
+      "高級",
+      "和牛"
+    ],
+    "hours": "17:30〜24:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "toraji-yakiniku-taipei",
+    "name": "Toraji Yakiniku Taipei",
+    "name_ja": "叙々苑 台北",
+    "area": "Xinyi",
+    "address": "Xinyi District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "東京の高級焼肉チェーン。上質な和牛と洗練されたサービスが特徴。接待や記念日にも最適。",
+    "tags": [
+      "焼肉",
+      "高級",
+      "和牛"
+    ],
+    "hours": "11:30〜14:30 / 17:00〜23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "tachinomi-taipei",
+    "name": "Tachinomi Bar Taipei",
+    "name_ja": "立ち飲みバー 台北",
+    "area": "Zhongshan",
+    "address": "Near Linsen North Road, Zhongshan District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "日本式の立ち飲みバー。サッと一杯飲みたい時に便利。おでんや枝豆など定番つまみを提供。",
+    "tags": [
+      "立ち飲み",
+      "バー",
+      "カジュアル"
+    ],
+    "hours": "18:00〜翌2:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sake-bar-niji-taipei",
+    "name": "Sake Bar Niji",
+    "name_ja": "酒バー虹 台北",
+    "area": "Da'an",
+    "address": "Da'an District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "日本酒専門バー。全国各地の地酒を常時50種以上取り揃える。利き酒セットで飲み比べも可能。",
+    "tags": [
+      "日本酒",
+      "バー",
+      "利き酒"
+    ],
+    "hours": "18:00〜24:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "toriki-yakitori-zhongshan",
+    "name": "Toriki Yakitori Zhongshan",
+    "name_ja": "鳥貴 中山",
+    "area": "Zhongshan",
+    "address": "Zhongshan District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "中山エリアの焼き鳥居酒屋。備長炭で丁寧に焼き上げる串焼きと日本酒のペアリングが人気。",
+    "tags": [
+      "焼き鳥",
+      "日本酒",
+      "備長炭"
+    ],
+    "hours": "18:00〜翌1:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "robataya-taipei",
+    "name": "Robataya Taipei",
+    "name_ja": "炉端焼 台北",
+    "area": "Da'an",
+    "address": "Da'an District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "日本式炉端焼きを提供する居酒屋。長い木の棒で料理を渡す伝統的なスタイル。炭火焼の魚介が絶品。",
+    "tags": [
+      "炉端焼き",
+      "居酒屋",
+      "炭火焼"
+    ],
+    "hours": "18:00〜23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

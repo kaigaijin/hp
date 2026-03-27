@@ -55,5 +55,43 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "sompo-japan-taipei",
+    "name": "Sompo Japan Insurance Taipei",
+    "name_ja": "損保ジャパン 台北",
+    "area": "Zhongshan",
+    "address": "Zhongshan District, Taipei",
+    "phone": null,
+    "website": "https://www.sompo-japan.com.tw/",
+    "description": "日本の大手損害保険会社の台湾拠点。駐在員向けの損害保険・賠償責任保険など法人向けサービスが中心。",
+    "tags": [
+      "損害保険",
+      "日系",
+      "法人向け"
+    ],
+    "hours": "平日 9:00〜17:30",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "mitsui-sumitomo-insurance-taipei",
+    "name": "Mitsui Sumitomo Insurance Taipei",
+    "name_ja": "三井住友海上 台北",
+    "area": "Zhongshan",
+    "address": "Zhongshan District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "三井住友海上の台湾拠点。企業向け各種保険に加え、駐在員・日本人向けの保険サービスも提供。",
+    "tags": [
+      "損害保険",
+      "日系",
+      "法人向け"
+    ],
+    "hours": "平日 9:00〜17:30",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

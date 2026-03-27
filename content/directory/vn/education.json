@@ -93,5 +93,61 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "google_maps"
+  },
+  {
+    "slug": "kumon-hcmc-d7",
+    "name": "Kumon HCMC District 7",
+    "name_ja": "公文 ホーチミン7区",
+    "area": "District 7",
+    "address": "District 7, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "日本発の学習塾。算数・英語の自学自習プログラム。7区の日本人家族に利用されている。",
+    "tags": [
+      "学習塾",
+      "日本式教育"
+    ],
+    "hours": "平日 14:00〜19:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sakura-montessori-d2",
+    "name": "Sakura Montessori District 2",
+    "name_ja": "さくらモンテッソーリ 2区",
+    "area": "District 2",
+    "address": "District 2, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "日系モンテッソーリ幼稚園の2区校。日本式の教育メソッドで、日本語・英語・ベトナム語のトリリンガル環境。",
+    "tags": [
+      "幼稚園",
+      "モンテッソーリ",
+      "日本式"
+    ],
+    "hours": "平日 7:30〜17:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "renaissance-japanese-school-hcmc",
+    "name": "Renaissance Japanese Supplementary School HCMC",
+    "name_ja": "ルネサンス日本語補習校 ホーチミン",
+    "area": "District 7",
+    "address": "District 7, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "ホーチミンの日本語補習校。現地校に通う日本人子弟向けに土曜日に日本語・国語の授業を提供。",
+    "tags": [
+      "補習校",
+      "日本語教育",
+      "土曜授業"
+    ],
+    "hours": "土曜 9:00〜12:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

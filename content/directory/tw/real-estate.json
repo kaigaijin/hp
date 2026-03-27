@@ -56,5 +56,44 @@
     "last_verified": "2026-03-26",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "shingi-fusaya-taipei",
+    "name": "Sinyi Realty",
+    "name_ja": "信義房屋",
+    "area": "Zhongshan",
+    "address": "Various locations in Taipei",
+    "phone": null,
+    "website": "https://www.sinyi.com.tw/",
+    "description": "台湾最大の不動産仲介会社。日本にも子会社を持ち、日本語でのサポート体制がある。台北市内に多数の店舗を展開。",
+    "tags": [
+      "不動産",
+      "台湾最大手",
+      "日本語対応可"
+    ],
+    "hours": "平日 9:00〜18:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "leopalace21-taipei",
+    "name": "Leopalace21 Taipei",
+    "name_ja": "レオパレス21 台北",
+    "area": "Zhongshan",
+    "address": "Zhongshan District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "日本の賃貸マンションチェーン。家具付き物件を中心に、日本人駐在員向けの短期〜長期賃貸を提供。日本語対応。",
+    "tags": [
+      "賃貸",
+      "日系",
+      "家具付き",
+      "日本語対応"
+    ],
+    "hours": "平日 9:00〜18:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

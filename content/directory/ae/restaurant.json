@@ -361,5 +361,369 @@
     "status": "unverified",
     "source": "website",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "mu-kii-jbr",
+    "name": "Mu-Kii JBR",
+    "name_ja": "ムキー JBR",
+    "area": "JBR",
+    "address": "Pavilion at The Beach, JBR, Dubai",
+    "phone": null,
+    "website": "https://mu-kii.ae/",
+    "description": "ドバイ初のオールユーキャンイート・パンアジアンタパス。iPadで注文し15分ごとに4品ずつオーダー可能。寿司・刺身・天ぷら・餃子など。",
+    "tags": [
+      "食べ放題",
+      "寿司",
+      "iPadオーダー"
+    ],
+    "hours": "12:00〜23:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "uchi-difc",
+    "name": "Uchi DIFC",
+    "name_ja": "内 DIFC",
+    "area": "DIFC",
+    "address": "Gate Village, DIFC, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "DIFCの隠れ家的居酒屋。少人数席でシンプルだが大胆な味わいの和食を提供。厳選された食材と職人技が光る。",
+    "tags": [
+      "居酒屋",
+      "隠れ家",
+      "DIFC"
+    ],
+    "hours": "12:00〜15:00 / 18:00〜23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sexyfish-difc",
+    "name": "Sexyfish DIFC",
+    "name_ja": "セクシーフィッシュ DIFC",
+    "area": "DIFC",
+    "address": "Innovation One, DIFC, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "DIFC随一の寿司・刺身・ロバタキレストラン。ゴージャスな空間で最高品質の日本料理を提供。",
+    "tags": [
+      "寿司",
+      "刺身",
+      "ロバタ",
+      "高級"
+    ],
+    "hours": "12:00〜翌1:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "zeta-marina",
+    "name": "ZETA Dubai Marina",
+    "name_ja": "ゼータ ドバイマリーナ",
+    "area": "Dubai Marina",
+    "address": "Dubai Marina, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "マリーナとJBRの境界に位置するアジアンフュージョンレストラン。マグロタルタルとキングプラウン餃子が人気。寿司セットも丁寧。",
+    "tags": [
+      "アジアンフュージョン",
+      "寿司",
+      "マリーナ"
+    ],
+    "hours": "12:00〜24:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "wakame-dubai-marina",
+    "name": "Wakame Dubai Marina",
+    "name_ja": "わかめ ドバイマリーナ",
+    "area": "Dubai Marina",
+    "address": "Dubai Marina, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "マリーナウォーク沿いの和食レストラン。テラス席からマリーナを一望しながら寿司・刺身を楽しめる。",
+    "tags": [
+      "和食",
+      "テラス席",
+      "マリーナビュー"
+    ],
+    "hours": "12:00〜24:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "katana-dubai",
+    "name": "Katana Dubai",
+    "name_ja": "刀 ドバイ",
+    "area": "DIFC",
+    "address": "DIFC, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "ロサンゼルス発の日本料理レストラン。ロバタグリルと寿司を中心としたメニュー。洗練されたインテリア。",
+    "tags": [
+      "ロバタ",
+      "寿司",
+      "LA発"
+    ],
+    "hours": "12:00〜翌1:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sushi-counter-difc",
+    "name": "Sushi Counter DIFC",
+    "name_ja": "スシカウンター DIFC",
+    "area": "DIFC",
+    "address": "DIFC, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "手頃な価格で本格寿司が楽しめるDIFCのカジュアル寿司店。ランチセットが人気。テイクアウトも対応。",
+    "tags": [
+      "寿司",
+      "カジュアル",
+      "テイクアウト可"
+    ],
+    "hours": "11:30〜22:30",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "tresind-studio",
+    "name": "Tresind Studio",
+    "name_ja": "トレシンドスタジオ",
+    "area": "DIFC",
+    "address": "DIFC, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "ミシュラン二つ星のインド×日本フュージョンレストラン。おまかせスタイルのコース料理が体験できる。",
+    "tags": [
+      "ミシュラン",
+      "フュージョン",
+      "おまかせ"
+    ],
+    "hours": "19:00〜23:00（要予約）",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sushi-samba-palm-jumeirah",
+    "name": "SUSHISAMBA Palm Jumeirah",
+    "name_ja": "スシサンバ パームジュメイラ",
+    "area": "Palm Jumeirah",
+    "address": "The Royal Atlantis Resort, Palm Jumeirah, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "日本・ブラジル・ペルーの料理を融合したレストラン。パームジュメイラの眺望を楽しみながら食事できる。",
+    "tags": [
+      "フュージョン",
+      "寿司",
+      "眺望",
+      "高級"
+    ],
+    "hours": "12:00〜翌1:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "hoseki-dubai",
+    "name": "Hoseki Dubai",
+    "name_ja": "宝石 ドバイ",
+    "area": "Downtown Dubai",
+    "address": "Bvlgari Resort Dubai, Jumeira Bay Island",
+    "phone": null,
+    "website": null,
+    "description": "ドバイで最も予約困難な寿司店の一つ。ブルガリリゾート内の8席限定おまかせ寿司。ミシュラン二つ星。",
+    "tags": [
+      "寿司",
+      "ミシュラン",
+      "おまかせ",
+      "超高級"
+    ],
+    "hours": "19:00〜23:00（要予約）",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "kisu-dubai",
+    "name": "Kisu Dubai",
+    "name_ja": "キス ドバイ",
+    "area": "Al Sufouh",
+    "address": "Al Sufouh, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "ビーチサイドの日本料理レストラン。夕日を見ながらの寿司・ロバタが特別な体験。週末のブランチも人気。",
+    "tags": [
+      "和食",
+      "ビーチサイド",
+      "ロバタ"
+    ],
+    "hours": "13:00〜翌1:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "nobu-atlantis",
+    "name": "Nobu Atlantis",
+    "name_ja": "ノブ アトランティス",
+    "area": "Palm Jumeirah",
+    "address": "Atlantis The Palm, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "ノブ・マツヒサシェフの和食フュージョンレストラン。アトランティス内でラグジュアリーなダイニング体験。ブラックコッド味噌が名物。",
+    "tags": [
+      "フュージョン",
+      "高級",
+      "ノブ"
+    ],
+    "hours": "18:00〜23:30",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "tomo-raffles-dubai",
+    "name": "Tomo Raffles Dubai",
+    "name_ja": "トモ ラッフルズドバイ",
+    "area": "Wafi",
+    "address": "Raffles Dubai, Wafi, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "ラッフルズドバイ内の日本料理レストラン。17階からのドバイスカイラインの眺望と本格和食を楽しめる。",
+    "tags": [
+      "日本料理",
+      "眺望",
+      "ホテル内"
+    ],
+    "hours": "18:30〜23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "roka-difc",
+    "name": "ROKA DIFC",
+    "name_ja": "ロカ DIFC",
+    "area": "DIFC",
+    "address": "DIFC, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "ロンドン発のロバタグリルレストラン。炭火焼き料理と寿司を提供。DIFCの人気ダイニングスポット。",
+    "tags": [
+      "ロバタ",
+      "炭火焼",
+      "ロンドン発"
+    ],
+    "hours": "12:00〜翌1:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "miyako-hyatt-dubai",
+    "name": "Miyako Hyatt Regency Dubai",
+    "name_ja": "都 ハイアットリージェンシードバイ",
+    "area": "Deira",
+    "address": "Hyatt Regency Dubai, Deira",
+    "phone": null,
+    "website": null,
+    "description": "ハイアットリージェンシー内の和食レストラン。鉄板焼き・寿司・刺身を提供。日本人シェフが在籍。",
+    "tags": [
+      "日本料理",
+      "鉄板焼",
+      "ホテル内"
+    ],
+    "hours": "12:30〜15:00 / 19:00〜23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sumosan-difc",
+    "name": "Sumosan DIFC",
+    "name_ja": "すもさん DIFC",
+    "area": "DIFC",
+    "address": "DIFC, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "ロンドン発の高級和食レストラン。寿司・刺身・ロバタなどを提供。DIFCのビジネスランチにも人気。",
+    "tags": [
+      "高級",
+      "寿司",
+      "ロンドン発"
+    ],
+    "hours": "12:00〜翌1:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "inko-nito-difc",
+    "name": "INKO NITO DIFC",
+    "name_ja": "インコニート DIFC",
+    "area": "DIFC",
+    "address": "DIFC, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "Zumaの姉妹店。日本の屋台料理にインスパイアされた炭火焼き料理を提供。カジュアルな雰囲気。",
+    "tags": [
+      "炭火焼",
+      "カジュアル",
+      "Zuma系列"
+    ],
+    "hours": "12:00〜翌1:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "tsuki-dubai",
+    "name": "Tsuki Dubai",
+    "name_ja": "月 ドバイ",
+    "area": "Business Bay",
+    "address": "Business Bay, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "ビジネスベイの和食レストラン。モダンな空間で寿司・刺身・天ぷらを提供。ランチセットがお得。",
+    "tags": [
+      "日本料理",
+      "モダン",
+      "ランチ"
+    ],
+    "hours": "12:00〜23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "endo-dubai",
+    "name": "Endo Dubai",
+    "name_ja": "遠藤 ドバイ",
+    "area": "Downtown Dubai",
+    "address": "Downtown Dubai",
+    "phone": null,
+    "website": null,
+    "description": "おまかせ寿司専門店。少人数のカウンター席で日本人シェフが握る江戸前寿司を堪能できる。",
+    "tags": [
+      "寿司",
+      "おまかせ",
+      "日本人シェフ"
+    ],
+    "hours": "要予約",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

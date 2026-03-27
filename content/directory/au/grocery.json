@@ -109,5 +109,116 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "google_maps"
+  },
+  {
+    "slug": "fuji-mart-melbourne",
+    "name": "Fuji Mart Melbourne",
+    "name_ja": "フジマート メルボルン",
+    "area": "South Yarra",
+    "address": "34A Elizabeth Street, South Yarra, VIC 3141",
+    "phone": "+61398265839",
+    "website": "https://www.junpacific.com/fujimartmel/",
+    "description": "日本食材専門スーパー。日本のお菓子・調味料・冷凍食品・酒類・寿司グレードの魚も取り扱う。すべて日本から直輸入。",
+    "tags": [
+      "日本食材",
+      "専門店",
+      "生鮮食品"
+    ],
+    "hours": "月〜土 10:00〜18:00 / 日 10:30〜16:30",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "fuji-mart-brisbane",
+    "name": "Fuji Mart Brisbane",
+    "name_ja": "フジマート ブリスベン",
+    "area": "Brisbane",
+    "address": "Brisbane, QLD",
+    "phone": null,
+    "website": "https://www.junpacific.com/",
+    "description": "フジマートのブリスベン店。日本の食材・調味料・お菓子を幅広く取り扱う。",
+    "tags": [
+      "日本食材",
+      "専門店"
+    ],
+    "hours": "月〜土 10:00〜18:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "fuji-mart-perth",
+    "name": "Fuji Mart Perth",
+    "name_ja": "フジマート パース",
+    "area": "Perth",
+    "address": "Perth, WA",
+    "phone": null,
+    "website": "https://www.junpacific.com/",
+    "description": "フジマートのパース店。西オーストラリアで日本食材が手に入る貴重な店舗。",
+    "tags": [
+      "日本食材",
+      "専門店"
+    ],
+    "hours": "月〜土 10:00〜18:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "maruyu-south-yarra",
+    "name": "Maruyu Supermarket Melbourne",
+    "name_ja": "丸祐スーパー メルボルン",
+    "area": "South Yarra",
+    "address": "South Yarra, Melbourne, VIC",
+    "phone": null,
+    "website": null,
+    "description": "メルボルンの日本食材専門店。生鮮食品・調味料・冷凍食品を取り扱い。地元の日本人コミュニティに愛される。",
+    "tags": [
+      "日本食材",
+      "専門店",
+      "生鮮食品"
+    ],
+    "hours": "毎日 10:00〜19:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "jundirect-online",
+    "name": "Jun Direct Online",
+    "name_ja": "JUNダイレクト オンライン",
+    "area": "Online",
+    "address": "Online (delivery across Australia)",
+    "phone": null,
+    "website": "https://www.jundirect.com.au/",
+    "description": "東京マート・フジマート運営会社のオンラインショップ。日本食材をオーストラリア全土に配送。遠隔地の日本人に重宝。",
+    "tags": [
+      "日本食材",
+      "オンライン",
+      "全国配送"
+    ],
+    "hours": "24時間注文可",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "asian-grocery-chatswood",
+    "name": "Asian Grocery Chatswood",
+    "name_ja": "アジアングロサリー チャッツウッド",
+    "area": "Chatswood",
+    "address": "Chatswood, NSW",
+    "phone": null,
+    "website": null,
+    "description": "チャッツウッドのアジア食材店。日本食材コーナーが充実しており、調味料・麺類・冷凍食品が手に入る。",
+    "tags": [
+      "日本食材",
+      "アジア食材"
+    ],
+    "hours": "毎日 9:00〜20:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

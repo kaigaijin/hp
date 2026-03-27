@@ -8,7 +8,11 @@
     "phone": "+8225460093",
     "website": "https://www.instagram.com/jeil_grand_pharmacy_jp/",
     "description": "24時間年中無休の江南の薬局。日本語対応スタッフが在勤し、薬の相談を日本語で受けられる。免税対応キオスクやWOWPASS充電器も設置。新論峴駅3番出口から徒歩1分。",
-    "tags": ["日本語対応", "24時間", "免税対応"],
+    "tags": [
+      "日本語対応",
+      "24時間",
+      "免税対応"
+    ],
     "hours": "24時間",
     "status": "unverified",
     "source": "sns",
@@ -23,7 +27,11 @@
     "phone": null,
     "website": null,
     "description": "江南駅近くにある日本語対応の薬局。日本語が話せる薬剤師が在籍し、スキンケアの悩みや医薬品について丁寧に説明してくれる。商品ラベルは韓国語・英語・日本語の3か国語対応。",
-    "tags": ["日本語対応", "スキンケア", "免税対応"],
+    "tags": [
+      "日本語対応",
+      "スキンケア",
+      "免税対応"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
@@ -38,10 +46,52 @@
     "phone": null,
     "website": null,
     "description": "弘大駅8番出口近くの薬局。週末・夜間に日本語対応サービスを提供。免税処理やWOWPASS対応もあり。弘大エリアで体調を崩した際に頼りになる。",
-    "tags": ["日本語対応", "免税対応", "弘大"],
+    "tags": [
+      "日本語対応",
+      "免税対応",
+      "弘大"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ichon-pharmacy-japanese",
+    "name": "Ichon Japanese Pharmacy Area",
+    "name_ja": "二村 日本語対応薬局エリア",
+    "area": "Yongsan-gu (Ichon)",
+    "address": "Ichon-dong, Yongsan-gu, Seoul",
+    "phone": null,
+    "website": null,
+    "description": "二村の日本人街には日本語対応の薬局がある。風邪薬、胃腸薬、解熱剤など一般的な薬を日本語で相談して購入できる。処方箋薬にも対応。",
+    "tags": [
+      "日本語対応",
+      "薬局",
+      "二村"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "olive-young-nihon-products",
+    "name": "Olive Young (Japanese Products)",
+    "name_ja": "オリーブヤング 日本製品コーナー",
+    "area": "Seoul",
+    "address": "ソウル市内各店舗",
+    "phone": null,
+    "website": "https://www.oliveyoung.co.kr/",
+    "description": "韓国最大手のヘルス＆ビューティーストアチェーン。多くの店舗で日本製のスキンケア・ヘルスケア商品を取り扱い。資生堂、花王、ロート製薬など日本ブランドの商品が手に入る。",
+    "tags": [
+      "ドラッグストア",
+      "日本製品",
+      "スキンケア"
+    ],
+    "hours": "店舗により異なる",
+    "status": "unverified",
+    "source": "website",
     "last_verified": "2026-03-27"
   }
 ]

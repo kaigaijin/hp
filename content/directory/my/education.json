@@ -133,5 +133,50 @@
     "last_verified": "2026-03-26",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "icls-bukit-bintang",
+    "name": "ICLS Inter-Cultural Language School (KL School)",
+    "name_ja": "ICLS異文化言語学校 KL校",
+    "area": "Bukit Bintang",
+    "address": "Lot D6, Ground Floor, Block D, Fahrenheit88, Jalan Bukit Bintang, 55100 Kuala Lumpur",
+    "phone": "+60321442060",
+    "website": "https://www.icls.com.my/",
+    "description": "ブキビンタンにある語学学校。日本語コースのほか英語・中国語・韓国語・マレー語コースを提供。グループ・プライベートレッスンに対応。AirAsia Bukit Bintangモノレール駅近く。",
+    "tags": ["語学学校", "日本語", "英語", "多言語対応"],
+    "hours": "月-金 9:30-21:00, 土 10:00-16:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "fuji-international-japanese",
+    "name": "Fuji International Japanese Language Centre",
+    "name_ja": "富士国際日本語センター",
+    "area": "Sunway",
+    "address": "Bandar Sunway, Selangor",
+    "phone": null,
+    "website": null,
+    "description": "バンダーサンウェイにある日本語教育機関。10歳以上の子どもから大人まで対象のコースを提供。日本語能力試験（JLPT）対策にも対応。",
+    "tags": ["日本語教育", "JLPT対策", "子ども向け"],
+    "hours": null,
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "japanese-school-penang",
+    "name": "Penang Japanese School",
+    "name_ja": "ペナン日本人学校",
+    "area": "George Town (Penang)",
+    "address": "Halaman Tanjung, 11200 Tanjung Bungah, Penang",
+    "phone": "+60448991560",
+    "website": "https://www.penangjs.com/",
+    "description": "ペナンにある日本人学校。小学部・中学部を設置し、日本の学習指導要領に準拠した教育を実施。ペナン在住の日本人家族の子弟が通学。",
+    "tags": ["小学校", "中学校", "日本語教育", "日本のカリキュラム", "ペナン"],
+    "hours": "月-金 8:00-16:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
   }
 ]

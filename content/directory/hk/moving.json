@@ -38,5 +38,43 @@
     "last_verified": "2026-03-26",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "yamato-hong-kong",
+    "name": "Yamato Transport Hong Kong",
+    "name_ja": "ヤマト運輸 香港",
+    "area": "Hong Kong",
+    "address": "Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "日本のヤマト運輸の香港現地法人。宅配便・引越し・国際宅急便を提供。日本品質のサービス。",
+    "tags": [
+      "宅配便",
+      "引越し",
+      "日系"
+    ],
+    "hours": "平日 9:00〜18:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sagawa-hong-kong",
+    "name": "Sagawa Global Logistics HK",
+    "name_ja": "佐川グローバルロジスティクス 香港",
+    "area": "Hong Kong",
+    "address": "Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "佐川急便の香港拠点。法人向け国際物流・3PLサービスを提供。",
+    "tags": [
+      "物流",
+      "国際配送",
+      "日系"
+    ],
+    "hours": "平日 9:00〜18:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

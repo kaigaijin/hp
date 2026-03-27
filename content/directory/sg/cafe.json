@@ -8,7 +8,12 @@
     "phone": "+6567038703",
     "website": "https://www.springtomorrow.com/asanoya-bakery-singapore/",
     "description": "軽井沢発の人気パン屋のシンガポール店。Queen Street・Paragon・Bukit Timahの3店舗を展開。クロワッサン、あんパン、カレーパン、食パンなど日本式ベーカリーの味を提供。抹茶ラテなどカフェメニューも充実。",
-    "tags": ["ベーカリー", "カフェ", "日本式パン", "複数店舗"],
+    "tags": [
+      "ベーカリー",
+      "カフェ",
+      "日本式パン",
+      "複数店舗"
+    ],
     "hours": "要確認（店舗により異なる）",
     "last_verified": "2026-03-26",
     "status": "unverified",
@@ -23,7 +28,12 @@
     "phone": "+6564685055",
     "website": "https://www.provence.com.sg/",
     "description": "Holland Villageにある日系ベーカリー&カフェ。看板商品のワッサン（小さくふわふわのパン）が人気。チョコ・カスタード・カヤなどのバリエーションあり。日本人が多く住むエリアに立地。",
-    "tags": ["ベーカリー", "カフェ", "ワッサン", "Holland Village"],
+    "tags": [
+      "ベーカリー",
+      "カフェ",
+      "ワッサン",
+      "Holland Village"
+    ],
     "hours": "要確認",
     "last_verified": "2026-03-26",
     "status": "unverified",
@@ -38,7 +48,12 @@
     "phone": "+6562220682",
     "website": "https://www.amipatisserie.com/",
     "description": "フランス菓子の技法と日本の繊細さを融合させたパティスリー。ケーキ・マカロン・焼き菓子を提供。誕生日ケーキのオーダーメイドも可能。Tanjong Pagar駅直結のGuoco Tower内。",
-    "tags": ["パティスリー", "ケーキ", "焼き菓子", "オーダーメイド"],
+    "tags": [
+      "パティスリー",
+      "ケーキ",
+      "焼き菓子",
+      "オーダーメイド"
+    ],
     "hours": "要確認",
     "last_verified": "2026-03-26",
     "status": "unverified",
@@ -53,7 +68,11 @@
     "phone": null,
     "website": null,
     "description": "日本式塩パン（シオパン）専門のベーカリーカフェ。ふわふわバターロールが看板商品。The Centrepoint内の小さな店舗で、日本で人気の塩パンをシンガポールで提供。",
-    "tags": ["ベーカリー", "塩パン", "カフェ"],
+    "tags": [
+      "ベーカリー",
+      "塩パン",
+      "カフェ"
+    ],
     "hours": "月〜金: 12:00-19:00 / 土日: 11:00-19:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -68,7 +87,12 @@
     "phone": null,
     "website": null,
     "description": "ION Orchard内の日本風フレンチパティスリー&カフェ。繊細な日仏スイーツとブランチメニューを提供。オールデイダイニングに対応。",
-    "tags": ["パティスリー", "カフェ", "ブランチ", "日仏"],
+    "tags": [
+      "パティスリー",
+      "カフェ",
+      "ブランチ",
+      "日仏"
+    ],
     "hours": "毎日 10:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -83,7 +107,12 @@
     "phone": null,
     "website": null,
     "description": "日本式かき氷・フルーツサンド・抹茶スイーツの専門店。ふわふわのかき氷が人気。Suntec City・NEX・Jurong Pointの3店舗を展開。",
-    "tags": ["かき氷", "スイーツ", "抹茶", "複数店舗"],
+    "tags": [
+      "かき氷",
+      "スイーツ",
+      "抹茶",
+      "複数店舗"
+    ],
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -98,7 +127,12 @@
     "phone": null,
     "website": null,
     "description": "日本式ベーカリー&カフェ。あんバターパンやトンカツサンドなど独自のパンメニューが人気。ブランチ利用にも最適な落ち着いた空間。",
-    "tags": ["ベーカリー", "カフェ", "ブランチ", "日本式パン"],
+    "tags": [
+      "ベーカリー",
+      "カフェ",
+      "ブランチ",
+      "日本式パン"
+    ],
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -113,10 +147,151 @@
     "phone": null,
     "website": null,
     "description": "クラブストリートにある抹茶専門カフェ。抹茶ラテ・抹茶スイーツに加え、日本式ボウルやサンドも提供。抹茶好きの日本人にも満足できる品質。",
-    "tags": ["抹茶", "カフェ", "スイーツ"],
+    "tags": [
+      "抹茶",
+      "カフェ",
+      "スイーツ"
+    ],
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "google_maps"
+  },
+  {
+    "slug": "gokoku-japanese-bakery-great-world",
+    "name": "Gokoku Japanese Bakery (Great World)",
+    "name_ja": "五穀七福 グレートワールド",
+    "area": "River Valley",
+    "address": "1 Kim Seng Promenade, #B1-136, Great World, Singapore 237994",
+    "phone": "+6562351741",
+    "website": "https://gokoku.com.sg/",
+    "description": "1961年創業の神戸発の日本式ベーカリー。玄米や酒種など健康的な穀物を使ったふわふわの食パン・菓子パンが特徴。Great World・Millenia Walk・Jurong West・Waterway Pointの4店舗を展開。",
+    "tags": [
+      "ベーカリー",
+      "日本式パン",
+      "食パン",
+      "複数店舗"
+    ],
+    "hours": "毎日 10:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "maru-mochi-bugis",
+    "name": "Maru Mochi (Bugis Junction)",
+    "name_ja": "まるもち ブギスジャンクション",
+    "area": "Bugis",
+    "address": "200 Victoria Street, #B1-12A, Bugis Junction, Singapore 188021",
+    "phone": null,
+    "website": null,
+    "description": "日本で人気のもちもち食感のもちパンケーキ専門店。2024年にシンガポール初出店。タロ芋・黒ごま・カスタードなど多彩なフレーバーのもちパンケーキを提供。テイクアウト専門。",
+    "tags": [
+      "もちパンケーキ",
+      "スイーツ",
+      "テイクアウト"
+    ],
+    "hours": "毎日 11:00-20:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "udon-shin-takashimaya",
+    "name": "Udon Shin (Takashimaya)",
+    "name_ja": "うどん慎 高島屋",
+    "area": "Orchard",
+    "address": "391 Orchard Road, #B2-32, Takashimaya Shopping Centre, Singapore 238872",
+    "phone": null,
+    "website": "https://udonshin.sg/",
+    "description": "2011年に渋谷で創業し行列の絶えない手打ちうどん店の海外初出店。北海道産小麦を使った自家製麺と、カルボナーラうどん（S$24）が看板メニュー。2025年10月オープン。",
+    "tags": [
+      "うどん",
+      "手打ち麺",
+      "カジュアル"
+    ],
+    "hours": "毎日 11:00-22:00",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "fine-dining-bakery-sg",
+    "name": "Fine Dining Bakery",
+    "name_ja": "ファインダイニングベーカリー",
+    "area": "Tanjong Pagar",
+    "address": "1 Wallich Street, #01-17, Guoco Tower, Singapore 078881",
+    "phone": null,
+    "website": null,
+    "description": "日系のプレミアム食パン専門ベーカリー。北海道産小麦・バター・生クリームを使用したしっとり生食パンが人気。Guoco Tower内に位置し、Tanjong Pagar駅直結。",
+    "tags": [
+      "ベーカリー",
+      "生食パン",
+      "日本式パン"
+    ],
+    "hours": "要確認",
+    "last_verified": "2026-03-27",
+    "status": "unverified",
+    "source": "google_maps"
+  },
+  {
+    "slug": "nana-green-tea-sg",
+    "name": "Nana's Green Tea",
+    "name_ja": "ナナズグリーンティー",
+    "area": "Orchard",
+    "address": "Orchard Road, Singapore",
+    "phone": null,
+    "website": null,
+    "description": "京都発の抹茶カフェチェーン。抹茶ラテ・抹茶パフェ・抹茶ティラミスなど抹茶スイーツとドリンクを提供。和の空間でゆったりくつろげる。",
+    "tags": [
+      "抹茶",
+      "カフェ",
+      "スイーツ",
+      "京都"
+    ],
+    "hours": "毎日 10:00-22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "hvala-matcha-sg",
+    "name": "HVALA",
+    "name_ja": "ハバラ",
+    "area": "Chijmes",
+    "address": "30 Victoria Street, CHIJMES, Singapore 187996",
+    "phone": null,
+    "website": null,
+    "description": "日本の抹茶とコーヒーをコンセプトにしたカフェ。厳選された抹茶を使ったラテ・デザートを提供。Chijmes・ION Orchardなどに複数店舗を展開。",
+    "tags": [
+      "抹茶",
+      "コーヒー",
+      "カフェ",
+      "複数店舗"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "tsujiri-sg",
+    "name": "Tsujiri",
+    "name_ja": "辻利",
+    "area": "Orchard",
+    "address": "ION Orchard, Singapore",
+    "phone": null,
+    "website": null,
+    "description": "京都発の150年以上の歴史を持つ宇治抹茶カフェ。抹茶ソフトクリーム・パフェ・ラテが人気。シンガポール国内に複数店舗を展開。",
+    "tags": [
+      "抹茶",
+      "ソフトクリーム",
+      "京都",
+      "老舗"
+    ],
+    "hours": "毎日 10:00-22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

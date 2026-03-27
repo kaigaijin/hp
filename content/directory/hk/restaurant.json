@@ -303,5 +303,648 @@
     "status": "unverified",
     "source": "google_maps",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ichiran-causeway-bay",
+    "name": "Ichiran Causeway Bay",
+    "name_ja": "一蘭 銅鑼湾店",
+    "area": "Causeway Bay",
+    "address": "Shop H & I, G/F, Block A, Walker Building, 440 Jaffe Road, Causeway Bay",
+    "phone": "+85221164802",
+    "website": "https://en.ichiran.com/shop/oversea/hongkong/causewaybay/",
+    "description": "福岡発の天然とんこつラーメン専門店。個室ブースで自分好みの味をカスタマイズ可能。24時間営業。",
+    "tags": [
+      "ラーメン",
+      "24時間営業",
+      "日本発チェーン"
+    ],
+    "hours": "24時間営業",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ichiran-tst",
+    "name": "Ichiran Tsim Sha Tsui",
+    "name_ja": "一蘭 尖沙咀店",
+    "area": "Tsim Sha Tsui",
+    "address": "G/F & Basement, No. 8, Minden Avenue, Tsim Sha Tsui",
+    "phone": null,
+    "website": "https://en.ichiran.com/shop/oversea/hongkong/tsimshatsui/",
+    "description": "世界最大の一蘭。182席を備え、コミュニティ席もある大型店舗。24時間営業でいつでも本格とんこつラーメンが楽しめる。",
+    "tags": [
+      "ラーメン",
+      "24時間営業",
+      "日本発チェーン",
+      "大型店"
+    ],
+    "hours": "24時間営業",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ippudo-central",
+    "name": "Ippudo Central",
+    "name_ja": "一風堂 セントラル店",
+    "area": "Central",
+    "address": "3/F, Century Square, 1-13 D'Aguilar Street, Central",
+    "phone": null,
+    "website": "https://www.ippudo.com.hk/",
+    "description": "博多発の豚骨ラーメンチェーン。蘭桂坊の中心に位置し、白丸・赤丸元味が人気。",
+    "tags": [
+      "ラーメン",
+      "日本発チェーン",
+      "蘭桂坊"
+    ],
+    "hours": "毎日 11:30〜23:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ippudo-tst",
+    "name": "Ippudo Tsim Sha Tsui",
+    "name_ja": "一風堂 尖沙咀店",
+    "area": "Tsim Sha Tsui",
+    "address": "Shop 210, New Harbor Centre, 30 Canton Road, Tsim Sha Tsui",
+    "phone": null,
+    "website": "https://www.ippudo.com.hk/",
+    "description": "一風堂の尖沙咀店。海港城近くの好立地。ショッピング後のランチに便利。",
+    "tags": [
+      "ラーメン",
+      "日本発チェーン"
+    ],
+    "hours": "毎日 11:30〜23:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "kanada-ya-hk",
+    "name": "Kanada-Ya Hong Kong",
+    "name_ja": "金田家 香港",
+    "area": "Causeway Bay",
+    "address": "Causeway Bay, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "福岡発の濃厚豚骨ラーメン店。18時間煮込んだスープとストレート細麺が特徴。ロンドンでも人気。",
+    "tags": [
+      "ラーメン",
+      "豚骨",
+      "福岡発"
+    ],
+    "hours": "毎日 11:30〜22:30",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ramen-cubism-central",
+    "name": "Ramen Cubism Central",
+    "name_ja": "ラーメンキュビズム セントラル",
+    "area": "Central",
+    "address": "Central, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "独創的なラーメンを提供する創作ラーメン店。The Sky Birdやプレミアムキュビズムなどオリジナルメニューが人気。",
+    "tags": [
+      "ラーメン",
+      "創作",
+      "人気店"
+    ],
+    "hours": "毎日 11:30〜22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ramen-cubism-tst",
+    "name": "Ramen Cubism Tsim Sha Tsui",
+    "name_ja": "ラーメンキュビズム 尖沙咀",
+    "area": "Tsim Sha Tsui",
+    "address": "Tsim Sha Tsui, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "ラーメンキュビズムの九龍側店舗。独創的なラーメンで香港のラーメンシーンをリード。",
+    "tags": [
+      "ラーメン",
+      "創作"
+    ],
+    "hours": "毎日 11:30〜22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ramen-jo-causeway-bay",
+    "name": "Ramen Jo Causeway Bay",
+    "name_ja": "ラーメンJo 銅鑼湾",
+    "area": "Causeway Bay",
+    "address": "Causeway Bay, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "とんこつラーメンを4種類のバリエーションで提供する人気店。銅鑼湾の定番ラーメン店として長年愛される。",
+    "tags": [
+      "ラーメン",
+      "とんこつ",
+      "定番"
+    ],
+    "hours": "毎日 11:30〜23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sushi-hisayoshi",
+    "name": "Sushi Hisayoshi",
+    "name_ja": "鮨久好",
+    "area": "Tsim Sha Tsui",
+    "address": "Harbour City, Tsim Sha Tsui, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "日本人シェフ岩久好氏が握る江戸前寿司の名店。おまかせコースのみ。予約必須。",
+    "tags": [
+      "寿司",
+      "おまかせ",
+      "日本人シェフ",
+      "要予約"
+    ],
+    "hours": "要予約",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sushi-wadatsumi",
+    "name": "Sushi Wadatsumi",
+    "name_ja": "鮨海神",
+    "area": "Tsim Sha Tsui",
+    "address": "K11 MUSEA, Tsim Sha Tsui, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "ミシュラン星付きのおまかせ寿司店。K11 MUSEAに移転。ランチおまかせHKD1,080から。",
+    "tags": [
+      "寿司",
+      "ミシュラン",
+      "おまかせ",
+      "高級"
+    ],
+    "hours": "12:00〜14:30 / 18:00〜22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sushi-nyoi",
+    "name": "Sushi Nyoi",
+    "name_ja": "鮨如意",
+    "area": "Causeway Bay",
+    "address": "18/F, The Sharp, 11 Sharp Street East, Causeway Bay",
+    "phone": null,
+    "website": null,
+    "description": "銅鑼湾の高層ビルにある寿司店。眺望を楽しみながらおまかせ寿司が堪能できる。",
+    "tags": [
+      "寿司",
+      "おまかせ",
+      "眺望"
+    ],
+    "hours": "12:00〜14:30 / 18:00〜22:30",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "genki-sushi-tst",
+    "name": "Genki Sushi Tsim Sha Tsui",
+    "name_ja": "元気寿司 尖沙咀",
+    "area": "Tsim Sha Tsui",
+    "address": "Tsim Sha Tsui, Hong Kong",
+    "phone": null,
+    "website": "https://order.genkisushi.com.hk/",
+    "description": "日本の回転寿司チェーン。新幹線レーンで寿司が届くシステムが人気。香港に70店舗以上展開。",
+    "tags": [
+      "回転寿司",
+      "日本発チェーン",
+      "ファミリー向け"
+    ],
+    "hours": "毎日 11:30〜22:30",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "genki-sushi-causeway-bay",
+    "name": "Genki Sushi Causeway Bay",
+    "name_ja": "元気寿司 銅鑼湾",
+    "area": "Causeway Bay",
+    "address": "Causeway Bay, Hong Kong",
+    "phone": null,
+    "website": "https://order.genkisushi.com.hk/",
+    "description": "元気寿司の銅鑼湾店。手頃な価格で日本式の寿司が楽しめる。テイクアウトも対応。",
+    "tags": [
+      "回転寿司",
+      "日本発チェーン",
+      "テイクアウト可"
+    ],
+    "hours": "毎日 11:30〜22:30",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "genki-ippai-tst",
+    "name": "Genki Ippai",
+    "name_ja": "元気いっぱい",
+    "area": "Tsim Sha Tsui",
+    "address": "Tsim Sha Tsui, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "日本式居酒屋の雰囲気で刺身・焼き物・煮物など幅広い和食を提供。カジュアルで入りやすい。",
+    "tags": [
+      "居酒屋",
+      "日本料理",
+      "カジュアル"
+    ],
+    "hours": "12:00〜23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "marugame-udon-hk-tst",
+    "name": "Marugame Udon Tsim Sha Tsui",
+    "name_ja": "丸亀製麺 尖沙咀",
+    "area": "Tsim Sha Tsui",
+    "address": "Tsim Sha Tsui, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "讃岐うどんチェーンの香港店。店内で打つ自家製麺と天ぷらトッピングのセルフ式。リーズナブル。",
+    "tags": [
+      "うどん",
+      "日本発チェーン",
+      "セルフ式"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "yakiniku-like-hk",
+    "name": "Yakiniku Like Hong Kong",
+    "name_ja": "焼肉ライク 香港",
+    "area": "Causeway Bay",
+    "address": "Causeway Bay, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "東京発の一人焼肉チェーン。カウンター席で一人でも気軽に焼肉が楽しめる。セットメニューがお得。",
+    "tags": [
+      "焼肉",
+      "一人OK",
+      "日本発チェーン"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "yoshinoya-hk-tst",
+    "name": "Yoshinoya Tsim Sha Tsui",
+    "name_ja": "吉野家 尖沙咀",
+    "area": "Tsim Sha Tsui",
+    "address": "Tsim Sha Tsui, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "日本の牛丼チェーン。香港に60店舗以上展開。手軽に日本の味が楽しめるファストフード。",
+    "tags": [
+      "牛丼",
+      "日本発チェーン",
+      "ファストフード"
+    ],
+    "hours": "毎日 7:00〜23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sukiya-hk-causeway-bay",
+    "name": "Sukiya Causeway Bay",
+    "name_ja": "すき家 銅鑼湾",
+    "area": "Causeway Bay",
+    "address": "Causeway Bay, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "日本の牛丼チェーン「すき家」の香港店。牛丼・カレー・定食をリーズナブルに提供。",
+    "tags": [
+      "牛丼",
+      "日本発チェーン",
+      "カジュアル"
+    ],
+    "hours": "毎日 7:00〜23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "coco-ichibanya-hk",
+    "name": "CoCo Ichibanya Hong Kong",
+    "name_ja": "CoCo壹番屋 香港",
+    "area": "Causeway Bay",
+    "address": "Causeway Bay, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "日本のカレーハウス。辛さ・ライス量・トッピングを自由にカスタマイズ。カツカレーが定番。",
+    "tags": [
+      "カレー",
+      "日本発チェーン",
+      "カスタマイズ可"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "tonkichi-hk",
+    "name": "Tonkichi Hong Kong",
+    "name_ja": "とんきち 香港",
+    "area": "Tsim Sha Tsui",
+    "address": "Harbour City, Tsim Sha Tsui, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "日本式とんかつ専門店。サクサクの衣と柔らかいロースが特徴。キャベツ・ご飯おかわり自由。",
+    "tags": [
+      "とんかつ",
+      "日本式",
+      "チェーン"
+    ],
+    "hours": "11:00〜22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "tempura-tendon-tenya-hk",
+    "name": "Tendon Tenya Hong Kong",
+    "name_ja": "天丼てんや 香港",
+    "area": "Tsim Sha Tsui",
+    "address": "Tsim Sha Tsui, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "日本最大の天丼チェーン。手頃な価格で揚げたての天丼が楽しめる。",
+    "tags": [
+      "天丼",
+      "日本発チェーン",
+      "カジュアル"
+    ],
+    "hours": "11:00〜22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ootoya-hk",
+    "name": "Ootoya Hong Kong",
+    "name_ja": "大戸屋 香港",
+    "area": "Causeway Bay",
+    "address": "Causeway Bay, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "日本の家庭料理を提供する定食チェーン。栄養バランスの良い和定食が特徴。一人でも入りやすい。",
+    "tags": [
+      "定食",
+      "日本発チェーン",
+      "家庭料理"
+    ],
+    "hours": "11:00〜22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sushiro-hk-tst",
+    "name": "Sushiro Tsim Sha Tsui",
+    "name_ja": "スシロー 尖沙咀",
+    "area": "Tsim Sha Tsui",
+    "address": "Tsim Sha Tsui, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "日本最大の回転寿司チェーン。手頃な価格で本格寿司が楽しめる。タッチパネル注文で言葉の心配なし。",
+    "tags": [
+      "回転寿司",
+      "日本発チェーン"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sushiro-hk-causeway-bay",
+    "name": "Sushiro Causeway Bay",
+    "name_ja": "スシロー 銅鑼湾",
+    "area": "Causeway Bay",
+    "address": "Causeway Bay, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "スシローの銅鑼湾店。日本から直送のネタを使用。コスパ最強の回転寿司。",
+    "tags": [
+      "回転寿司",
+      "日本発チェーン"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "kura-sushi-hk",
+    "name": "Kura Sushi Hong Kong",
+    "name_ja": "くら寿司 香港",
+    "area": "Tsim Sha Tsui",
+    "address": "Tsim Sha Tsui, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "日本の人気回転寿司チェーン。ガチャポン付きシステムが子連れに人気。",
+    "tags": [
+      "回転寿司",
+      "日本発チェーン",
+      "ファミリー向け"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "mos-burger-hk-tst",
+    "name": "MOS Burger Tsim Sha Tsui",
+    "name_ja": "モスバーガー 尖沙咀",
+    "area": "Tsim Sha Tsui",
+    "address": "Tsim Sha Tsui, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "日本発のハンバーガーチェーン。テリヤキバーガーやライスバーガーなど日本らしいメニューが特徴。",
+    "tags": [
+      "ハンバーガー",
+      "日本発チェーン"
+    ],
+    "hours": "毎日 7:00〜23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "mos-burger-hk-causeway",
+    "name": "MOS Burger Causeway Bay",
+    "name_ja": "モスバーガー 銅鑼湾",
+    "area": "Causeway Bay",
+    "address": "Causeway Bay, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "モスバーガーの銅鑼湾店。香港全土に展開し、モスチキンやフレッシュバーガーが人気。",
+    "tags": [
+      "ハンバーガー",
+      "日本発チェーン"
+    ],
+    "hours": "毎日 7:00〜23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "pepper-lunch-hk-tst",
+    "name": "Pepper Lunch Tsim Sha Tsui",
+    "name_ja": "ペッパーランチ 尖沙咀",
+    "area": "Tsim Sha Tsui",
+    "address": "Tsim Sha Tsui, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "日本発の鉄板ステーキチェーン。熱々の鉄板で自分好みに焼き上げるスタイル。",
+    "tags": [
+      "ステーキ",
+      "鉄板焼",
+      "日本発チェーン"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "gyu-kaku-hk",
+    "name": "Gyu-Kaku Hong Kong",
+    "name_ja": "牛角 香港",
+    "area": "Causeway Bay",
+    "address": "Causeway Bay, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "日本の焼肉チェーン。食べ放題コースが人気。香港に複数店舗を展開。",
+    "tags": [
+      "焼肉",
+      "食べ放題",
+      "日本発チェーン"
+    ],
+    "hours": "11:30〜24:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "hakata-ikkosha-hk",
+    "name": "Hakata Ikkosha Hong Kong",
+    "name_ja": "博多一幸舎 香港",
+    "area": "Causeway Bay",
+    "address": "Causeway Bay, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "博多発の豚骨ラーメン店。骨をすりつぶした濃厚な「泡系」スープが特徴。",
+    "tags": [
+      "ラーメン",
+      "博多豚骨",
+      "泡系"
+    ],
+    "hours": "毎日 11:30〜22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "santouka-hk",
+    "name": "Santouka Hong Kong",
+    "name_ja": "山頭火 香港",
+    "area": "Tsim Sha Tsui",
+    "address": "Tsim Sha Tsui, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "北海道旭川発のラーメン店。塩ラーメンが看板で、とろけるチャーシューが特徴。",
+    "tags": [
+      "ラーメン",
+      "塩ラーメン",
+      "北海道発"
+    ],
+    "hours": "毎日 11:30〜22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "katsuya-hk",
+    "name": "Katsuya Hong Kong",
+    "name_ja": "かつや 香港",
+    "area": "Causeway Bay",
+    "address": "Causeway Bay, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "とんかつ・カツ丼チェーン。サクサクのカツ丼やとんかつ定食をリーズナブルに提供。",
+    "tags": [
+      "とんかつ",
+      "カツ丼",
+      "日本発チェーン"
+    ],
+    "hours": "毎日 11:00〜22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "nakamura-soba-hk",
+    "name": "Nakamura Soba Hong Kong",
+    "name_ja": "中村そば 香港",
+    "area": "Central",
+    "address": "Central, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "手打ち蕎麦専門店。北海道産のそば粉を使用した十割蕎麦が看板。天ぷらセットも人気。",
+    "tags": [
+      "蕎麦",
+      "手打ち",
+      "日本料理"
+    ],
+    "hours": "11:30〜14:30 / 17:30〜21:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "afuri-hk",
+    "name": "AFURI Ramen Hong Kong",
+    "name_ja": "阿夫利ラーメン 香港",
+    "area": "Central",
+    "address": "Central, Hong Kong",
+    "phone": null,
+    "website": null,
+    "description": "東京発の柚子塩ラーメン専門店。透明な鶏清湯に柚子の香りが特徴。さっぱり系が好みの方に。",
+    "tags": [
+      "ラーメン",
+      "柚子塩",
+      "東京発"
+    ],
+    "hours": "毎日 11:30〜22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

@@ -131,5 +131,79 @@
     "status": "unverified",
     "source": "website",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "matcha-lounge-difc",
+    "name": "Matcha Lounge DIFC",
+    "name_ja": "抹茶ラウンジ DIFC",
+    "area": "DIFC",
+    "address": "DIFC, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "抹茶を使ったドリンク・スイーツを提供するカフェ。抹茶ラテ・抹茶ティラミスが人気。",
+    "tags": [
+      "抹茶",
+      "カフェ"
+    ],
+    "hours": "8:00〜22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "yamanote-atelier-downtown",
+    "name": "Yamanote Atelier Downtown",
+    "name_ja": "山の手アトリエ ダウンタウン",
+    "area": "Downtown Dubai",
+    "address": "Downtown Dubai, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "日本式ベーカリーカフェ。食パン・あんぱん・メロンパンなど日本のパンを提供。ドバイに多店舗展開。",
+    "tags": [
+      "ベーカリー",
+      "日本式パン",
+      "チェーン"
+    ],
+    "hours": "毎日 7:00〜23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "yamanote-atelier-difc",
+    "name": "Yamanote Atelier DIFC",
+    "name_ja": "山の手アトリエ DIFC",
+    "area": "DIFC",
+    "address": "DIFC, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "日本式ベーカリーカフェのDIFC店。ビジネス街の朝食・ランチに便利。",
+    "tags": [
+      "ベーカリー",
+      "日本式パン"
+    ],
+    "hours": "毎日 7:00〜23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "yamanote-atelier-al-quoz",
+    "name": "Yamanote Atelier Al Quoz",
+    "name_ja": "山の手アトリエ アルクオーズ",
+    "area": "Al Quoz",
+    "address": "Al Quoz, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "アルクオーズのアートディストリクト近くの山の手アトリエ。日本のパンとコーヒーが楽しめる。",
+    "tags": [
+      "ベーカリー",
+      "日本式パン",
+      "アートディストリクト"
+    ],
+    "hours": "毎日 7:00〜22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

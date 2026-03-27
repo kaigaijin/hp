@@ -149,5 +149,61 @@
     "status": "unverified",
     "source": "website",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "hair-salon-links-hcmc",
+    "name": "Hair Salon Links HCMC",
+    "name_ja": "ヘアサロンリンクス ホーチミン",
+    "area": "District 1",
+    "address": "District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "日本人スタイリストが在籍するホーチミンのヘアサロン。日本式のカット・カラー・パーマを提供。",
+    "tags": [
+      "日本人スタイリスト",
+      "日式ヘアサロン"
+    ],
+    "hours": "10:00〜20:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "japanese-nail-salon-hcmc",
+    "name": "Japanese Nail Salon HCMC",
+    "name_ja": "日式ネイルサロン ホーチミン",
+    "area": "District 1",
+    "address": "Le Thanh Ton, District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "レタントン通りの日式ネイルサロン。ジェルネイル・ネイルアートなど日本のトレンドデザインを提供。",
+    "tags": [
+      "ネイル",
+      "日式",
+      "レタントン"
+    ],
+    "hours": "10:00〜20:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "hair-salon-hanoi-japanese",
+    "name": "Japanese Hair Salon Hanoi",
+    "name_ja": "日本式ヘアサロン ハノイ",
+    "area": "Ba Dinh",
+    "address": "Kim Ma, Ba Dinh, Hanoi",
+    "phone": null,
+    "website": null,
+    "description": "ハノイ・キンマ通りの日式ヘアサロン。日本人スタイリストによるカット・カラーを提供。",
+    "tags": [
+      "日式ヘアサロン",
+      "日本人スタイリスト",
+      "キンマ通り"
+    ],
+    "hours": "10:00〜20:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

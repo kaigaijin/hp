@@ -112,5 +112,59 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "ippon-ya-dubai",
+    "name": "Ippon-Ya Japanese Grocery",
+    "name_ja": "一本屋",
+    "area": "Al Barsha",
+    "address": "Al Barsha, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "日本食材・調味料・お菓子を専門に扱う小型店舗。味噌・醤油・出汁など基本調味料が揃う。",
+    "tags": [
+      "日本食材",
+      "専門店"
+    ],
+    "hours": "10:00〜22:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "spinneys-japanese-section",
+    "name": "Spinneys Japanese Section",
+    "name_ja": "スピニーズ 日本食品コーナー",
+    "area": "Various",
+    "address": "Multiple locations in Dubai",
+    "phone": null,
+    "website": "https://www.spinneys.com/",
+    "description": "ドバイの大手スーパー。日本食品コーナーがあり、寿司用食材・調味料・麺類などを取り扱う。",
+    "tags": [
+      "スーパー",
+      "日本食材コーナー"
+    ],
+    "hours": "毎日 8:00〜24:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "choithrams-japanese",
+    "name": "Choithrams Japanese Section",
+    "name_ja": "チョイスラムズ 日本食品コーナー",
+    "area": "Various",
+    "address": "Multiple locations in Dubai",
+    "phone": null,
+    "website": null,
+    "description": "ドバイのスーパーチェーン。日本食品コーナーがあり、味噌・醤油・海苔・カップ麺などが手に入る。",
+    "tags": [
+      "スーパー",
+      "日本食材コーナー"
+    ],
+    "hours": "毎日 7:00〜24:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

@@ -75,5 +75,43 @@
     "status": "unverified",
     "source": "sns",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ichon-nail-salon",
+    "name": "Ichon Japanese Nail Salon",
+    "name_ja": "二村 日本語対応ネイルサロン",
+    "area": "Yongsan-gu (Ichon)",
+    "address": "Ichon-dong, Yongsan-gu, Seoul",
+    "phone": null,
+    "website": null,
+    "description": "二村の日本人街にある日本語対応のネイルサロン。日本製のジェルネイル製品を使用し、日本の最新トレンドデザインに対応。駐在員の妻に利用されている。",
+    "tags": [
+      "日本語対応",
+      "ネイル",
+      "二村"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "nail-plus-gangnam",
+    "name": "Nail Plus Gangnam",
+    "name_ja": "ネイルプラス 江南",
+    "area": "Gangnam-gu",
+    "address": "Gangnam-gu, Seoul",
+    "phone": null,
+    "website": null,
+    "description": "江南にある人気のネイルサロン。韓国の最新トレンドネイルデザインが得意。日本語対応可能なスタッフが在籍する場合あり。ジェルネイル・マニキュア・フットネイルに対応。",
+    "tags": [
+      "ネイル",
+      "韓国トレンド",
+      "江南"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

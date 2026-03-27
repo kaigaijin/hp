@@ -56,5 +56,43 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "google_maps"
+  },
+  {
+    "slug": "deloitte-japan-desk-au",
+    "name": "Deloitte Japan Services Group Australia",
+    "name_ja": "デロイト ジャパンサービスグループ 豪州",
+    "area": "Sydney CBD",
+    "address": "Sydney CBD, NSW",
+    "phone": null,
+    "website": "https://www2.deloitte.com/au/",
+    "description": "Big4会計事務所。日本企業の豪州事業に関する税務・監査を日本語チームが担当。",
+    "tags": [
+      "会計事務所",
+      "Big4",
+      "日本語対応"
+    ],
+    "hours": "平日 9:00〜17:30",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ey-japan-desk-au",
+    "name": "EY Japan Business Services Australia",
+    "name_ja": "EY ジャパンビジネスサービス 豪州",
+    "area": "Sydney CBD",
+    "address": "Sydney CBD, NSW",
+    "phone": null,
+    "website": "https://www.ey.com/",
+    "description": "EYの豪州オフィス。日系企業の豪州進出・税務・監査をサポート。",
+    "tags": [
+      "会計事務所",
+      "Big4",
+      "日本語対応"
+    ],
+    "hours": "平日 9:00〜17:30",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
   }
 ]

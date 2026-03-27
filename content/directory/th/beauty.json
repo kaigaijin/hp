@@ -163,7 +163,11 @@
     "phone": null,
     "website": null,
     "description": "トンローにある日本人スタイリストが在籍するヘアサロン。カット・カラー・パーマに加え、バンコクの水質・紫外線対策に特化したヘアケアメニューが充実。LINE予約可能。",
-    "tags": ["日本語対応", "日本人スタイリスト", "ヘアケア"],
+    "tags": [
+      "日本語対応",
+      "日本人スタイリスト",
+      "ヘアケア"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
@@ -178,7 +182,11 @@
     "phone": null,
     "website": null,
     "description": "プロンポンのソイ33/1にある日系ヘアサロン。日本人スタイリストによるカウンセリング重視の施術が特徴。カット・カラー・縮毛矯正・ヘッドスパに対応。予約はLINEまたは電話で。",
-    "tags": ["日本語対応", "日本人スタイリスト", "予約可"],
+    "tags": [
+      "日本語対応",
+      "日本人スタイリスト",
+      "予約可"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
@@ -193,7 +201,11 @@
     "phone": null,
     "website": null,
     "description": "スクンビットエリアにある日系ヘアサロン。日本人スタイリストが在籍し、アッシュ系カラーやハイライトが得意。バンコクの日本人コミュニティで口コミ評価が高い。",
-    "tags": ["日本語対応", "日本人スタイリスト", "カラー"],
+    "tags": [
+      "日本語対応",
+      "日本人スタイリスト",
+      "カラー"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
@@ -208,7 +220,11 @@
     "phone": null,
     "website": null,
     "description": "スクンビットにある日本人向けヘアサロン。日本で修行を積んだスタイリストが在籍し、日本の最新トレンドスタイルを提案。メンズカットにも定評がある。",
-    "tags": ["日本語対応", "予約可", "メンズ対応"],
+    "tags": [
+      "日本語対応",
+      "予約可",
+      "メンズ対応"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
@@ -223,7 +239,126 @@
     "phone": null,
     "website": null,
     "description": "エカマイにある日系ヘアサロン。「きれい」をコンセプトに、髪質に合わせた丁寧な施術を提供。日本人スタイリストが常駐し、言葉の心配なくヘアスタイルの相談ができる。",
-    "tags": ["日本語対応", "日本人スタイリスト", "予約可"],
+    "tags": [
+      "日本語対応",
+      "日本人スタイリスト",
+      "予約可"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "clover-hair-salon-phrom-phong",
+    "name": "Clover Japanese Hair Salon",
+    "name_ja": "クローバー ヘアサロン",
+    "area": "Phrom Phong",
+    "address": "Sukhumvit Soi 39, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": "https://beautybkk.net/en/clover",
+    "description": "2022年にプロンポン近くに移転した日系ヘアサロン。世界各国のクライアントを持ち、日本人スタイリストによるカット・カラー・パーマ・トリートメントを提供。",
+    "tags": [
+      "日本語対応",
+      "日本人スタイリスト",
+      "予約可"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "akiendo-hair-salon-bangkok",
+    "name": "AKIENDO Hair Salon",
+    "name_ja": "アキエンド ヘアサロン",
+    "area": "Bangkok",
+    "address": "Bangkok, Thailand",
+    "phone": null,
+    "website": "https://aki-endo.com/",
+    "description": "日本とヨーロッパの技術を融合させたヘアサロン。12シーズンのパーソナルカラー分析とフェイスタイプ診断を取り入れた施術が特徴。個々の肌色や顔型に合わせたスタイルを提案。",
+    "tags": [
+      "日本語対応",
+      "パーソナルカラー",
+      "予約可"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "niche-salon-bangkok",
+    "name": "Niche Salon Bangkok",
+    "name_ja": "ニッチサロン バンコク",
+    "area": "Bangkok",
+    "address": "Bangkok, Thailand",
+    "phone": null,
+    "website": "https://nichesalonbangkok.com/",
+    "description": "ヘアサロン・ネイル・ワックス脱毛のフルサービスサロン。日本人スタイリストが在籍し、ヘアカット・カラー・パーマに加えてネイルアートやワックス脱毛にも対応。",
+    "tags": [
+      "日本語対応",
+      "ヘアサロン",
+      "ネイル",
+      "脱毛"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "aube-hair-salon-bangkok",
+    "name": "AUBE International Hair Salon",
+    "name_ja": "オーブ インターナショナル ヘアサロン",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Bangkok 10110",
+    "phone": null,
+    "website": "https://aube-bkk.com/",
+    "description": "日本国内250店舗、海外15店舗を展開する大手日系ヘアサロン。最新の機器とトリートメント技術を導入し、日本人スタイリストによる高品質な施術を提供。",
+    "tags": [
+      "日本語対応",
+      "日本人スタイリスト",
+      "大手チェーン"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "boy-rikyu-salon-bangkok",
+    "name": "Boy Rikyu",
+    "name_ja": "ボーイリキュウ",
+    "area": "Bangkok",
+    "address": "Bangkok",
+    "phone": null,
+    "website": null,
+    "description": "日本式のカット技術とモダンなスタイルを融合した人気サロン。タイ人と日本人のスタイリストが在籍し、丁寧なカウンセリングと高品質な施術が特徴。",
+    "tags": [
+      "日本語対応",
+      "予約可",
+      "カット"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "moga-hair-salon-bangkok",
+    "name": "MOGA Hair Salon",
+    "name_ja": "モガ ヘアサロン",
+    "area": "Bangkok",
+    "address": "Bangkok",
+    "phone": null,
+    "website": null,
+    "description": "1992年創業の老舗日系ヘアサロン。自社アカデミーでスタイリストを育成し、技術力の高さに定評がある。日本人スタイリストも在籍し、安心の施術。",
+    "tags": [
+      "日本語対応",
+      "老舗",
+      "アカデミー併設"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",

@@ -66,7 +66,11 @@
     "phone": null,
     "website": null,
     "description": "トンロー地区にある歯科クリニック。日本語対応スタッフが在籍し、一般歯科・審美歯科・矯正歯科に対応。日本人患者の受け入れ実績が豊富で、海外旅行保険の手続きサポートも行う。",
-    "tags": ["日本語対応", "審美歯科", "保険対応"],
+    "tags": [
+      "日本語対応",
+      "審美歯科",
+      "保険対応"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
@@ -81,7 +85,11 @@
     "phone": "+6620222222",
     "website": "https://samitivej-jp.com/sukhumvit/",
     "description": "サミティヴェート病院内の歯科センター。日本語通訳が常駐する病院の一部として、安心して歯科治療を受けられる。一般歯科から口腔外科、矯正歯科まで幅広く対応。",
-    "tags": ["日本語対応", "病院内歯科", "口腔外科"],
+    "tags": [
+      "日本語対応",
+      "病院内歯科",
+      "口腔外科"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "website",
@@ -96,8 +104,90 @@
     "phone": "+6621071039",
     "website": "https://dymclinic.com/",
     "description": "DYMインターナショナルクリニック内の歯科部門。予約から治療まですべて日本語で対応。虫歯治療、歯周病治療、クリーニング、ホワイトニングに対応。トンロー院にも歯科あり。",
-    "tags": ["日本語対応", "日系クリニック", "ホワイトニング"],
+    "tags": [
+      "日本語対応",
+      "日系クリニック",
+      "ホワイトニング"
+    ],
     "hours": "平日 8:00-20:00 / 土日祝 8:00-17:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "yutaka-dental-clinic-phrom-phong",
+    "name": "Yutaka Dental Clinic",
+    "name_ja": "ゆたかデンタルクリニック",
+    "area": "Phrom Phong",
+    "address": "Sukhumvit Soi 26, Khlong Tan, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": "http://www.yutakadc.com/",
+    "description": "バンコクで10年以上の実績を持つ歯科クリニック。日本人通訳が常駐し、各種保険の対応も行う。小児歯科専門の医師も在籍し、キッズルームを完備。一般歯科から審美歯科まで対応。",
+    "tags": [
+      "日本語対応",
+      "日本人通訳常駐",
+      "小児歯科",
+      "保険対応"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "clover-dental-bangkok",
+    "name": "Clover Dental Clinic",
+    "name_ja": "クローバー歯科医院",
+    "area": "Bangkok",
+    "address": "Bangkok, Thailand",
+    "phone": null,
+    "website": "https://www.cloverbysd.com/",
+    "description": "東京医科歯科大学卒のタイ人歯科医師が開業したクリニック。全室個室の診療室を完備し、最新の感染防止対策を導入。日本語での予約・相談が可能で、24時間ウェブ予約にも対応。",
+    "tags": [
+      "日本語対応",
+      "個室診療",
+      "ウェブ予約"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "dentalwise-clinic-sukhumvit",
+    "name": "DentalWise Clinic",
+    "name_ja": "デンタルワイズクリニック",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "矯正治療と審美歯科に定評のある歯科クリニック。院長はインビザラインダイヤモンドプロバイダーを8年連続受賞し、4,000件以上の治療実績を持つ。日本人通訳がご予約・ご相談に対応。",
+    "tags": [
+      "日本語対応",
+      "矯正歯科",
+      "インビザライン"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "yutaka-dental-clinic-sriracha",
+    "name": "Yutaka Dental Clinic Sriracha",
+    "name_ja": "ゆたかデンタルクリニック シラチャ",
+    "area": "Sriracha",
+    "address": "Sriracha, Chonburi",
+    "phone": null,
+    "website": "http://www.yutakadc.com/",
+    "description": "日本人スタッフ常駐の歯科クリニックのシラチャ分院。一般歯科、小児歯科、インプラントに対応。シラチャの日本人駐在員とその家族に利用されている。",
+    "tags": [
+      "日本語対応",
+      "歯科",
+      "日本人スタッフ",
+      "シラチャ"
+    ],
+    "hours": null,
     "status": "unverified",
     "source": "website",
     "last_verified": "2026-03-27"

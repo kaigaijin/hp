@@ -188,5 +188,138 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "torisho-d1",
+    "name": "Torisho District 1",
+    "name_ja": "鳥正 1区",
+    "area": "District 1",
+    "address": "Le Thanh Ton, District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "レタントン通りの焼き鳥居酒屋。備長炭で焼く串焼きが自慢。日本のビール・焼酎も充実。",
+    "tags": [
+      "焼き鳥",
+      "居酒屋",
+      "レタントン"
+    ],
+    "hours": "17:00〜23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sake-bar-saigon",
+    "name": "Sake Bar Saigon",
+    "name_ja": "酒バー サイゴン",
+    "area": "District 1",
+    "address": "Thai Van Lung, District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "タイバンルン通りの日本酒バー。全国各地の地酒を取り揃え、利き酒セットも提供。",
+    "tags": [
+      "日本酒",
+      "バー",
+      "利き酒"
+    ],
+    "hours": "18:00〜翌1:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "oden-ya-hcmc",
+    "name": "Oden-Ya HCMC",
+    "name_ja": "おでん屋 ホーチミン",
+    "area": "District 1",
+    "address": "Le Thanh Ton, District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "日本式おでん専門の居酒屋。大根・卵・こんにゃく・はんぺんなど定番の具材を出汁で煮込む。",
+    "tags": [
+      "おでん",
+      "居酒屋",
+      "日本式"
+    ],
+    "hours": "17:00〜23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "izakaya-komachi-hanoi",
+    "name": "Izakaya Komachi Hanoi",
+    "name_ja": "居酒屋小町 ハノイ",
+    "area": "Ba Dinh",
+    "address": "Kim Ma, Ba Dinh, Hanoi",
+    "phone": null,
+    "website": null,
+    "description": "ハノイ・キンマ通りの居酒屋。日本人駐在員に人気の定番店。焼き鳥・刺身・天ぷらを提供。",
+    "tags": [
+      "居酒屋",
+      "キンマ通り",
+      "日本人利用多"
+    ],
+    "hours": "17:00〜23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "izakaya-daichan-hcmc",
+    "name": "Izakaya Daichan",
+    "name_ja": "居酒屋大ちゃん",
+    "area": "District 1",
+    "address": "Le Thanh Ton, District 1, Ho Chi Minh City",
+    "phone": null,
+    "website": null,
+    "description": "レタントンの老舗居酒屋。日本人駐在員の定番。焼き鳥・刺身・おでんなど定番メニューが充実。",
+    "tags": [
+      "居酒屋",
+      "老舗",
+      "レタントン"
+    ],
+    "hours": "17:00〜23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "izakaya-shimbashi-hanoi",
+    "name": "Izakaya Shimbashi Hanoi",
+    "name_ja": "居酒屋新橋 ハノイ",
+    "area": "Ba Dinh",
+    "address": "Kim Ma, Ba Dinh, Hanoi",
+    "phone": null,
+    "website": null,
+    "description": "ハノイの日本式居酒屋。焼き鳥・唐揚げ・刺身など定番居酒屋メニューを提供。日本のビールも充実。",
+    "tags": [
+      "居酒屋",
+      "日本式",
+      "キンマ通り"
+    ],
+    "hours": "17:00〜23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "yakiniku-hanoi",
+    "name": "Yakiniku House Hanoi",
+    "name_ja": "焼肉ハウス ハノイ",
+    "area": "Cau Giay",
+    "address": "Cau Giay, Hanoi",
+    "phone": null,
+    "website": null,
+    "description": "ハノイの日本式焼肉店。和牛含む上質な肉を提供。日本人駐在員の宴会にも利用される。",
+    "tags": [
+      "焼肉",
+      "日本式",
+      "宴会"
+    ],
+    "hours": "11:30〜14:00 / 17:30〜22:30",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

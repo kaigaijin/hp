@@ -107,7 +107,12 @@
     "phone": "+6626175500",
     "website": "https://www.phyathai.com/",
     "description": "日本語通訳が常駐する総合病院。内科・外科・産婦人科・小児科・歯科など幅広い診療科目に対応。BTS Victory Monument駅から徒歩圏内で交通の便が良い。日本の海外旅行保険にも対応。",
-    "tags": ["日本語対応", "総合病院", "日本語通訳", "保険対応"],
+    "tags": [
+      "日本語対応",
+      "総合病院",
+      "日本語通訳",
+      "保険対応"
+    ],
     "hours": "24時間（日本語サービス: 平日 8:00-17:00）",
     "status": "unverified",
     "source": "website",
@@ -122,7 +127,11 @@
     "phone": null,
     "website": "https://blez-pharmacy.com/",
     "description": "ブレズ薬局グループが運営するクリニック。日本人スタッフが常駐し、風邪・腹痛・皮膚トラブルなどの一般的な症状に日本語で対応。薬局併設のため処方から薬の受け取りまでワンストップ。",
-    "tags": ["日本語対応", "日本人スタッフ", "薬局併設"],
+    "tags": [
+      "日本語対応",
+      "日本人スタッフ",
+      "薬局併設"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "website",
@@ -137,7 +146,11 @@
     "phone": null,
     "website": null,
     "description": "日本語で受診可能な内科クリニック。風邪、胃腸炎、アレルギーなど日常的な体調不良に対応。予約制で待ち時間が少なく、仕事の合間にも受診しやすい。",
-    "tags": ["日本語対応", "内科", "予約制"],
+    "tags": [
+      "日本語対応",
+      "内科",
+      "予約制"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
@@ -152,7 +165,11 @@
     "phone": null,
     "website": null,
     "description": "皮膚科・美容皮膚科を中心としたクリニック。タイの暑さや日差しによる肌トラブルに対応。レーザー治療やケミカルピーリングなどの美容メニューも充実。日本人利用者も多い。",
-    "tags": ["皮膚科", "美容皮膚科", "レーザー治療"],
+    "tags": [
+      "皮膚科",
+      "美容皮膚科",
+      "レーザー治療"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
@@ -167,7 +184,87 @@
     "phone": "+6620233333",
     "website": "https://www.medparkhospital.com/",
     "description": "2020年開業の最新鋭総合病院。スクンビットエリアからアクセスしやすく、最新の医療機器を導入。日本語通訳サービスがあり、外国人患者の受け入れ体制が整っている。",
-    "tags": ["日本語対応", "総合病院", "最新設備"],
+    "tags": [
+      "日本語対応",
+      "総合病院",
+      "最新設備"
+    ],
+    "hours": "24時間",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "vejthani-hospital",
+    "name": "Vejthani Hospital",
+    "name_ja": "ウェートターニー病院",
+    "area": "Lat Phrao",
+    "address": "1 Soi Lat Phrao 111, Klong Chan, Bangkapi, Bangkok 10240",
+    "phone": "+6627340000",
+    "website": "https://www.vejthani.com/",
+    "description": "JCI認証取得の国際病院。日本語通訳サービスを提供しており、日本人患者も受け入れている。心臓外科・整形外科・がん治療など専門性の高い医療を提供。",
+    "tags": [
+      "日本語対応",
+      "総合病院",
+      "JCI認証"
+    ],
+    "hours": "24時間",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "praram9-hospital",
+    "name": "Praram 9 Hospital",
+    "name_ja": "プララーム9病院",
+    "area": "Huai Khwang",
+    "address": "99 Soi Phatthanakan 3, Praram 9 Road, Bangkapi, Huai Khwang, Bangkok 10310",
+    "phone": "+6622029999",
+    "website": "https://www.praram9.com/",
+    "description": "バンコク中心部にある総合病院。日本語通訳サービスを設けており、内科・外科・産婦人科・歯科など幅広い診療科目に対応。日本の海外旅行保険のキャッシュレス受診に対応。",
+    "tags": [
+      "日本語対応",
+      "総合病院",
+      "保険対応"
+    ],
+    "hours": "24時間",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "paolo-hospital-phahol",
+    "name": "Paolo Hospital Phahol",
+    "name_ja": "パオロ病院 パホン",
+    "area": "Chatuchak",
+    "address": "670/1 Phaholyothin Road, Samsen Nai, Phaya Thai, Bangkok 10400",
+    "phone": "+6622700700",
+    "website": "https://www.paolohospital.com/",
+    "description": "バンコク市内に複数拠点を展開する病院グループ。日本語通訳の手配が可能で、一般診療から専門治療まで幅広く対応。日本の海外旅行保険にも対応している。",
+    "tags": [
+      "日本語対応",
+      "総合病院",
+      "保険対応"
+    ],
+    "hours": "24時間",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "samitivej-sriracha-hospital",
+    "name": "Samitivej Sriracha Hospital",
+    "name_ja": "サミティヴェート病院 シラチャ",
+    "area": "Sriracha",
+    "address": "8 Soi Laem Ket, Sriracha, Chonburi 20110",
+    "phone": "+6638320300",
+    "website": "https://samitivej-jp.com/sriracha/",
+    "description": "サミティヴェートグループのシラチャ分院。日本語通訳サービスがあり、シラチャの日本人コミュニティの医療ニーズに対応。内科から専門科まで幅広い診療科目を設置。",
+    "tags": [
+      "日本語対応",
+      "総合病院",
+      "シラチャ"
+    ],
     "hours": "24時間",
     "status": "unverified",
     "source": "website",

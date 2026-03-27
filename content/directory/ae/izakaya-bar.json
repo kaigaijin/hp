@@ -149,5 +149,100 @@
     "status": "unverified",
     "source": "website",
     "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sake-no-hana-dubai",
+    "name": "Sake no Hana Dubai",
+    "name_ja": "酒の花 ドバイ",
+    "area": "Downtown Dubai",
+    "address": "One&Only, One Za'abeel, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "ロンドン発の高級和食レストラン。ドバイの新ランドマーク・ワンザアビール内。日本酒のセレクションが豊富。",
+    "tags": [
+      "高級",
+      "日本酒",
+      "ロンドン発"
+    ],
+    "hours": "12:00〜24:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "sagami-dubai",
+    "name": "Sagami Dubai",
+    "name_ja": "相模 ドバイ",
+    "area": "JLT",
+    "address": "JLT, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "JLTエリアの日本居酒屋。手頃な価格で和食と日本酒を提供。日本人在住者のたまり場。",
+    "tags": [
+      "居酒屋",
+      "カジュアル",
+      "日本人利用多"
+    ],
+    "hours": "12:00〜23:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "izakaya-des-arts",
+    "name": "Izakaya des Arts",
+    "name_ja": "居酒屋デザール",
+    "area": "DIFC",
+    "address": "DIFC, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "DIFCの和洋折衷居酒屋。日本料理をフレンチのアプローチで再解釈。シックな空間。",
+    "tags": [
+      "居酒屋",
+      "フュージョン",
+      "DIFC"
+    ],
+    "hours": "18:00〜翌1:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "nara-pan-asian-difc",
+    "name": "Nara Pan Asian DIFC",
+    "name_ja": "ナラ パンアジアン DIFC",
+    "area": "DIFC",
+    "address": "DIFC, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "DIFCのパンアジアンレストラン。日本料理を中心にタイ・中華の要素も。日本酒セレクションが豊富。",
+    "tags": [
+      "パンアジアン",
+      "日本酒",
+      "DIFC"
+    ],
+    "hours": "12:00〜翌1:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "izakaya-basement-jlt",
+    "name": "Izakaya Basement JLT",
+    "name_ja": "居酒屋ベースメント JLT",
+    "area": "JLT",
+    "address": "JLT, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "JLTエリアの隠れ家的居酒屋。手頃な価格で日本酒と串焼きが楽しめる。",
+    "tags": [
+      "居酒屋",
+      "隠れ家",
+      "手頃"
+    ],
+    "hours": "17:00〜翌1:00",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

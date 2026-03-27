@@ -149,5 +149,120 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "website"
+  },
+  {
+    "slug": "don-don-donki-ximen",
+    "name": "Don Don Donki Ximen",
+    "name_ja": "唐吉訶德 西門店",
+    "area": "Wanhua",
+    "address": "No. 56, Section 2, Wuchang Street, Wanhua District, Taipei",
+    "phone": null,
+    "website": "https://www.dondondonki.com/tw/",
+    "description": "日本の人気ディスカウントストア。食品・日用品・化粧品まで幅広い日本製品が手に入る。24時間営業で深夜の買い物にも便利。西門町の中心に位置。",
+    "tags": [
+      "日本食材",
+      "ディスカウントストア",
+      "24時間営業"
+    ],
+    "hours": "24時間営業",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "don-don-donki-zhongxiao",
+    "name": "Don Don Donki Zhongxiao Xinsheng",
+    "name_ja": "唐吉訶德 忠孝新生店",
+    "area": "Zhongzheng",
+    "address": "B1, No. 55, Section 1, Bade Road, Zhongzheng District, Taipei",
+    "phone": null,
+    "website": "https://www.dondondonki.com/tw/",
+    "description": "ドンキの台北2号店。忠孝新生MRT駅近くの地下フロア。日本のお菓子・調味料・化粧品が充実。",
+    "tags": [
+      "日本食材",
+      "ディスカウントストア",
+      "駅近"
+    ],
+    "hours": "10:00〜23:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "don-don-donki-nangang",
+    "name": "Don Don Donki CITYLINK Nangang",
+    "name_ja": "唐吉訶德 南港CITYLINK店",
+    "area": "Nangang",
+    "address": "3F, No. 369, Section 7, Zhongxiao East Road, Nangang District, Taipei",
+    "phone": null,
+    "website": "https://www.dondondonki.com/tw/",
+    "description": "ドンキの台北3号店。CITYLINK南港内。日本直輸入の食品・お菓子・生鮮食品が豊富。",
+    "tags": [
+      "日本食材",
+      "ディスカウントストア",
+      "商業施設内"
+    ],
+    "hours": "11:00〜22:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "mitsukoshi-nanxi-food",
+    "name": "Shin Kong Mitsukoshi Nanxi Food Court",
+    "name_ja": "新光三越 南西店フードコート",
+    "area": "Zhongshan",
+    "address": "No. 12, Nanjing West Road, Zhongshan District, Taipei",
+    "phone": null,
+    "website": "https://www.skm.com.tw/",
+    "description": "三越デパ地下の日本食材コーナー。日本から直輸入の惣菜・弁当・和菓子・パンが揃う。中山駅直結。",
+    "tags": [
+      "日本食材",
+      "デパ地下",
+      "日系百貨店"
+    ],
+    "hours": "日〜木 11:00〜21:30 / 金土 11:00〜22:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "takashimaya-tianmu",
+    "name": "Takashimaya Tianmu Food Hall",
+    "name_ja": "大葉高島屋 天母フードホール",
+    "area": "Shilin",
+    "address": "No. 218, Section 3, Zhongcheng Road, Shilin District, Taipei",
+    "phone": null,
+    "website": "https://www.dayeh-takashimaya.com.tw/",
+    "description": "日本の高島屋ブランドの百貨店。天母は日本人居住者が多いエリアで、地下食品売り場に日本食材・輸入食品が充実。",
+    "tags": [
+      "日本食材",
+      "デパ地下",
+      "日系百貨店",
+      "天母エリア"
+    ],
+    "hours": "日〜木 11:00〜21:30 / 金土 11:00〜22:00",
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "lawson-taipei",
+    "name": "Lawson Taipei",
+    "name_ja": "ローソン 台北",
+    "area": "Zhongshan",
+    "address": "Zhongshan District, Taipei",
+    "phone": null,
+    "website": null,
+    "description": "日本のコンビニエンスストア「ローソン」。おにぎり・弁当・スイーツなど日本品質の商品が手に入る。",
+    "tags": [
+      "コンビニ",
+      "日本発",
+      "日本食材"
+    ],
+    "hours": "24時間営業",
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
   }
 ]

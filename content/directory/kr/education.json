@@ -122,7 +122,11 @@
     "phone": null,
     "website": "https://www.yskli.com/",
     "description": "1959年設立の韓国語教育機関の草分け。10週間の正規課程を年6回開講。日本人留学生の受け入れ実績が豊富で、日本語での入学案内も提供。キャンパス内の施設も利用可能。",
-    "tags": ["韓国語学校", "大学付属", "日本語案内あり"],
+    "tags": [
+      "韓国語学校",
+      "大学付属",
+      "日本語案内あり"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "website",
@@ -137,10 +141,91 @@
     "phone": null,
     "website": "https://klec.sogang.ac.kr/",
     "description": "会話中心のカリキュラムで知られる韓国語教育機関。少人数制クラスで話す力を重点的に鍛える。日本人留学生に人気があり、弘大・新村エリアに近い便利な立地。",
-    "tags": ["韓国語学校", "大学付属", "会話中心"],
+    "tags": [
+      "韓国語学校",
+      "大学付属",
+      "会話中心"
+    ],
     "hours": null,
     "status": "unverified",
     "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ewha-womans-university-klec",
+    "name": "Ewha Womans University Korean Language Center",
+    "name_ja": "梨花女子大学校 韓国語教育院",
+    "area": "Seodaemun-gu",
+    "address": "52 Ewhayeodae-gil, Seodaemun-gu, Seoul",
+    "phone": null,
+    "website": "https://elc.ewha.ac.kr/",
+    "description": "韓国の名門女子大学による韓国語教育プログラム。10週間の正規課程を提供。日本人留学生の受け入れ実績が豊富で、特に女性の留学先として人気が高い。",
+    "tags": [
+      "韓国語学校",
+      "大学付属",
+      "女性向け"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "korea-university-klec",
+    "name": "Korea University Korean Language Center",
+    "name_ja": "高麗大学校 韓国語センター",
+    "area": "Seongbuk-gu",
+    "address": "145 Anam-ro, Seongbuk-gu, Seoul",
+    "phone": null,
+    "website": "https://klcc.korea.ac.kr/",
+    "description": "韓国トップ大学の一つ、高麗大学校が運営する韓国語教育機関。体系的なカリキュラムと充実した施設が特徴。日本人学生にも人気のプログラム。",
+    "tags": [
+      "韓国語学校",
+      "大学付属",
+      "名門"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ganada-korean-language-institute",
+    "name": "Ganada Korean Language Institute",
+    "name_ja": "カナダ韓国語学院",
+    "area": "Gangnam-gu",
+    "address": "Gangnam-gu, Seoul",
+    "phone": null,
+    "website": null,
+    "description": "江南にある民間の韓国語学校。少人数制クラスで、日本人に特化したカリキュラムも提供。短期集中コースやプライベートレッスンに対応。ビジネス韓国語も学べる。",
+    "tags": [
+      "韓国語学校",
+      "少人数制",
+      "日本人向け"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
+    "last_verified": "2026-03-27"
+  },
+  {
+    "slug": "ichon-japanese-cram-school",
+    "name": "Ichon Japanese Cram School Area",
+    "name_ja": "二村 日本人向け学習塾エリア",
+    "area": "Yongsan-gu (Ichon)",
+    "address": "Ichon-dong, Yongsan-gu, Seoul",
+    "phone": null,
+    "website": null,
+    "description": "二村の日本人街には、日本の中学受験や帰国子女入試に対応する学習塾が複数存在。日本人学校に通う子どもの補習や受験対策に利用されている。",
+    "tags": [
+      "学習塾",
+      "中学受験",
+      "帰国子女",
+      "二村"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "google_maps",
     "last_verified": "2026-03-27"
   }
 ]
