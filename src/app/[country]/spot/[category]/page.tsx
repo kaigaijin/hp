@@ -168,6 +168,7 @@ export default async function CategoryPage({
         status: spot.status,
         categorySlug: catSlug,
         categoryName: cat?.name ?? catSlug,
+        images: (spot as Record<string, unknown>).images as string[] | undefined,
       }));
     });
 

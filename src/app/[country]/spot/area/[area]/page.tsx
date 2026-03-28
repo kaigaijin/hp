@@ -75,6 +75,7 @@ export default async function AreaDetailPage({
     status: s.status,
     categorySlug: s.category,
     categoryName: getCategory(s.category)?.name ?? s.category,
+    images: (s as Record<string, unknown>).images as string[] | undefined,
   }));
 
   // サブカテゴリ（カテゴリフィルタ用）
