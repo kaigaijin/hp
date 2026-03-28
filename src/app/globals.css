@@ -33,6 +33,20 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+/* ライトモード: 眩しさを抑えるオフホワイト基調 */
+:root:not(.dark) {
+  --tw-bg-white: var(--color-sand-50);
+}
+:root:not(.dark) .bg-white {
+  background-color: var(--color-sand-50);
+}
+:root:not(.dark) .bg-stone-100 {
+  background-color: #f5f2ed;
+}
+:root:not(.dark) .bg-stone-50 {
+  background-color: var(--color-sand-50);
+}
+
 /* エディトリアル風のタイポグラフィ */
 .heading-editorial {
   font-family: var(--font-serif);
