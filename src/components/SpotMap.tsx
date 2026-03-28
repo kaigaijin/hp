@@ -32,6 +32,62 @@ type CategoryFilter = {
   count: number;
 };
 
+// カテゴリグループ → マーカー色マッピング
+const categoryColorMap: Record<string, { bg: string; ring: string }> = {
+  restaurant: { bg: "#e85d04", ring: "#dc2626" },
+  cafe: { bg: "#e85d04", ring: "#dc2626" },
+  "izakaya-bar": { bg: "#e85d04", ring: "#dc2626" },
+  grocery: { bg: "#e85d04", ring: "#dc2626" },
+  clinic: { bg: "#16a34a", ring: "#15803d" },
+  dental: { bg: "#16a34a", ring: "#15803d" },
+  pharmacy: { bg: "#16a34a", ring: "#15803d" },
+  beauty: { bg: "#d946ef", ring: "#a21caf" },
+  "nail-esthetic": { bg: "#d946ef", ring: "#a21caf" },
+  fitness: { bg: "#d946ef", ring: "#a21caf" },
+  "real-estate": { bg: "#2563eb", ring: "#1d4ed8" },
+  moving: { bg: "#2563eb", ring: "#1d4ed8" },
+  cleaning: { bg: "#2563eb", ring: "#1d4ed8" },
+  repair: { bg: "#2563eb", ring: "#1d4ed8" },
+  education: { bg: "#8b5cf6", ring: "#7c3aed" },
+  accounting: { bg: "#64748b", ring: "#475569" },
+  legal: { bg: "#64748b", ring: "#475569" },
+  insurance: { bg: "#64748b", ring: "#475569" },
+  bank: { bg: "#64748b", ring: "#475569" },
+  travel: { bg: "#0891b2", ring: "#0e7490" },
+  coworking: { bg: "#0891b2", ring: "#0e7490" },
+  pet: { bg: "#0891b2", ring: "#0e7490" },
+  car: { bg: "#0891b2", ring: "#0e7490" },
+};
+
+// カテゴリの頭文字（アイコン代わり）
+const categoryLabel: Record<string, string> = {
+  restaurant: "食",
+  cafe: "茶",
+  "izakaya-bar": "酒",
+  grocery: "買",
+  clinic: "医",
+  dental: "歯",
+  pharmacy: "薬",
+  beauty: "美",
+  "nail-esthetic": "美",
+  fitness: "健",
+  "real-estate": "住",
+  moving: "引",
+  cleaning: "清",
+  repair: "修",
+  education: "学",
+  accounting: "税",
+  legal: "法",
+  insurance: "保",
+  bank: "銀",
+  travel: "旅",
+  coworking: "席",
+  pet: "ペ",
+  car: "車",
+};
+
+const defaultColor = { bg: "#0284c7", ring: "#0369a1" };
+
 // ズームレベルに応じた表示件数上限
 // 有料スポット（priority >= 1）は常に表示
 function getMaxSpotsForZoom(zoom: number): number {
@@ -180,22 +236,47 @@ function MapContent({
           onCameraChanged={handleCameraChanged}
           className="w-full h-full"
         >
-          {visibleSpots.map((spot) => (
-            <AdvancedMarker
-              key={`${spot.category}-${spot.slug}`}
-              position={{ lat: spot.lat, lng: spot.lng }}
-              onClick={() => setSelectedSpot(spot)}
-              title={spot.name_ja ?? spot.name}
-            >
-              <div
-                className={`w-3 h-3 rounded-full border-2 border-white shadow-md ${
-                  spot.priority >= 1
-                    ? "bg-amber-500 w-4 h-4"
-                    : "bg-ocean-600"
-                }`}
-              />
-            </AdvancedMarker>
-          ))}
+          {visibleSpots.map((spot) => {
+            const color = categoryColorMap[spot.category] ?? defaultColor;
+            const label = categoryLabel[spot.category] ?? "●";
+            const isPremium = spot.priority >= 1;
+            return (
+              <AdvancedMarker
+                key={`${spot.category}-${spot.slug}`}
+                position={{ lat: spot.lat, lng: spot.lng }}
+                onClick={() => setSelectedSpot(spot)}
+                title={spot.name_ja ?? spot.name}
+              >
+                {/* ドロップピン型マーカー */}
+                <div className="flex flex-col items-center" style={{ transform: "translate(0, -50%)" }}>
+                  <div
+                    className="flex items-center justify-center rounded-full shadow-lg text-white font-bold"
+                    style={{
+                      width: isPremium ? 36 : 30,
+                      height: isPremium ? 36 : 30,
+                      fontSize: isPremium ? 14 : 12,
+                      backgroundColor: isPremium ? "#f59e0b" : color.bg,
+                      border: `2.5px solid white`,
+                      boxShadow: "0 2px 6px rgba(0,0,0,0.3)",
+                    }}
+                  >
+                    {label}
+                  </div>
+                  {/* ピンの先端 */}
+                  <div
+                    style={{
+                      width: 0,
+                      height: 0,
+                      borderLeft: "5px solid transparent",
+                      borderRight: "5px solid transparent",
+                      borderTop: `6px solid white`,
+                      marginTop: -1,
+                    }}
+                  />
+                </div>
+              </AdvancedMarker>
+            );
+          })}
 
           {selectedSpot && (
             <InfoWindow
