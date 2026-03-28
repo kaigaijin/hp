@@ -18,7 +18,8 @@
     "hours": "月-金 9:00-18:00",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "dezan-shira-malaysia",
@@ -39,7 +40,8 @@
     "hours": "月-金 9:00-18:00",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "yyc-advisors",
@@ -59,7 +61,8 @@
     "hours": "月-金 9:00-18:00",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "bdo-malaysia",
@@ -80,7 +83,8 @@
     "hours": "月-金 9:00-18:00",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "grant-thornton-malaysia",
@@ -100,7 +104,8 @@
     "hours": "月-金 9:00-18:00",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "shinewing-ty-teoh",
@@ -120,7 +125,8 @@
     "hours": "月-金 9:00-18:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "pkf-malaysia",
@@ -140,7 +146,8 @@
     "hours": "月-金 9:00-18:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "baker-tilly-malaysia",
@@ -161,7 +168,8 @@
     "hours": "月-金 9:00-18:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "mazars-malaysia",
@@ -182,7 +190,8 @@
     "hours": "月-金 9:00-18:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "crowe-malaysia",
@@ -202,7 +211,8 @@
     "hours": "月-金 9:00-18:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "rsm-malaysia",
@@ -223,7 +233,8 @@
     "hours": "月-金 9:00-18:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "kpmg-malaysia",
@@ -244,7 +255,8 @@
     "hours": "月-金 9:00-18:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ey-malaysia",
@@ -265,7 +277,8 @@
     "hours": "月-金 9:00-18:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "pwc-malaysia",
@@ -286,7 +299,8 @@
     "hours": "月-金 9:00-18:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ags-consulting-malaysia",
@@ -306,7 +320,8 @@
     "hours": "月-金 9:00-18:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "phoenix-advisory-malaysia",
@@ -327,7 +342,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "kpmg-malaysia-jsg",
@@ -348,7 +364,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "deloitte-malaysia-jsd",
@@ -368,7 +385,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "ey-malaysia-jbs",
@@ -388,310 +406,375 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "tokyo-consulting-firm-sdn-bhd",
     "name": "Tokyo Consulting Firm Sdn. Bhd.",
-    "name_ja": null,
+    "name_ja": "東京コンサルティングファーム",
     "area": "Kuala Lumpur",
     "address": "A-22-9, 5, Jalan Bangsar Utama 1, Bangsar, 59000 Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
     "lat": 3.1281,
     "lng": 101.6787,
     "phone": "+60322013526",
     "website": "http://www.tokyoconsultingfirm.com/malaysia/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする会計・税務事務所。マレーシアでの法人設立・税務申告をサポート。",
+    "tags": [
+      "会計",
+      "税務"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJJ41BYCtJzDERUn3GE1-cqjA",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "company-registration-and-company-secretary-one-secretary-sdn-bhd-secretary-firm-",
     "name": "Company Registration & Company Secretary (One Secretary Sdn Bhd) | Secretary Firm | 1company.com",
-    "name_ja": null,
+    "name_ja": "Company Registration & Company Secretary",
     "area": "Kuala Lumpur",
     "address": "Jln Prima 2, Metro Prima, 52100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.2121,
     "lng": 101.6422,
     "phone": "+601133800061",
     "website": "https://www.1company.com/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする会計・税務事務所。マレーシアでの法人設立・税務申告をサポート。",
+    "tags": [
+      "会計",
+      "税務"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJFUCRezlHzDER3jlyE_dc21o",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "bukku-accounting",
     "name": "Bukku Accounting",
-    "name_ja": null,
+    "name_ja": "Bukku Accounting",
     "area": "Kuala Lumpur",
     "address": "18-08, Mercu Aspire, Jalan Bangsar, KL Eco City, 59200 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1183,
     "lng": 101.6737,
     "phone": "+60192151510",
     "website": "https://bukku.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする会計・税務事務所。マレーシアでの法人設立・税務申告をサポート。",
+    "tags": [
+      "会計",
+      "税務"
+    ],
     "hours": "Monday: 9:30 AM – 5:30 PM / Tuesday: 9:30 AM – 5:30 PM / Wednesday: 9:30 AM – 5:30 PM / Thursday: 9:30 AM – 5:30 PM / Friday: 9:30 AM – 5:30 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJTz-oTwhJzDER5p_TL5LtY4g",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "salwa-fairuz-and-co-nf0909",
     "name": "Salwa, Fairuz & Co (NF0909)",
-    "name_ja": null,
+    "name_ja": "Salwa, Fairuz & Co",
     "area": "Kuala Lumpur",
     "address": "30B, Jalan Wawasan 2/4, Bandar Baru Ampang, 68000 Ampang, Selangor, Malaysia",
     "lat": 3.1447,
     "lng": 101.769,
     "phone": "+60342969694",
     "website": "http://farmse.com.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする会計・税務事務所。マレーシアでの法人設立・税務申告をサポート。",
+    "tags": [
+      "会計",
+      "税務"
+    ],
     "hours": "Monday: 8:30 AM – 1:00 PM, 2:00 – 5:30 PM / Tuesday: 8:30 AM – 1:00 PM, 2:00 – 5:30 PM / Wednesday: 8:30 AM – 1:00 PM, 2:00 – 5:30 PM / Thursday: 8:30 AM – 1:00 PM, 2:00 – 5:30 PM / Friday: 8:30 AM – 12:30 PM, 2:30 – 5:30 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJUYnmGeQ2zDERVVI09kQkdpo",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "cwc-and-eng-plt",
     "name": "CWC & ENG PLT",
-    "name_ja": null,
+    "name_ja": "CWC & ENG PLT",
     "area": "Kuala Lumpur",
     "address": "38D, 3rd Floor, Jalan Radin Anum, Bandar Baru Sri Petaling, 57000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.0711,
     "lng": 101.6911,
     "phone": "+60386817319",
     "website": "http://www.cwc-co.com.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする会計・税務事務所。マレーシアでの法人設立・税務申告をサポート。",
+    "tags": [
+      "会計",
+      "税務"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ214YU2dLzDERZ6Bzng7-0pk",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "nbc-professional-group",
     "name": "NBC Professional Group",
-    "name_ja": null,
+    "name_ja": "NBC Professional Group",
     "area": "Kuala Lumpur",
     "address": "79, Jalan SS 21/37, Damansara Utama, 47400 Petaling Jaya, Selangor, Malaysia",
     "lat": 3.1351,
     "lng": 101.6238,
     "phone": "+60122587018",
     "website": "http://www.nbc.com.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする会計・税務事務所。マレーシアでの法人設立・税務申告をサポート。",
+    "tags": [
+      "会計",
+      "税務"
+    ],
     "hours": "Monday: 9:00 AM – 5:30 PM / Tuesday: 9:00 AM – 5:30 PM / Wednesday: 9:00 AM – 5:30 PM / Thursday: 9:00 AM – 5:30 PM / Friday: 9:00 AM – 5:30 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ64NFrTdJzDERYFO6wsgdahs",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "likearisingsun-sdn-bhd",
     "name": "Likearisingsun Sdn Bhd",
-    "name_ja": null,
+    "name_ja": "Likearisingsun Sdn Bhd",
     "area": "Kuala Lumpur",
     "address": "Unit 1-5 (Suite A), Level 5, The Boulevard Office Mid Valley City, Lingkaran Syed Putra, Mid Valley City, 59200 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1177,
     "lng": 101.6775,
     "phone": "+60379322662",
     "website": "https://likearisingsun.com.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする会計・税務事務所。マレーシアでの法人設立・税務申告をサポート。",
+    "tags": [
+      "会計",
+      "税務"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJF3pIDdZLzDERdfOe99QI_Yg",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "",
     "name": "日本橋国際会計事務所",
-    "name_ja": null,
+    "name_ja": "日本橋国際会計事務所",
     "area": "Kuala Lumpur",
     "address": "Japan, 〒103-0027 Tokyo, Chuo City, Nihonbashi, 2-chōme−1−３ Urbannet Nihonbashi 2-Chome Bld., 10階",
     "lat": 35.6826,
     "lng": 139.7726,
     "phone": null,
     "website": "https://www.n-cpa.com/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする会計・税務事務所。マレーシアでの法人設立・税務申告をサポート。",
+    "tags": [
+      "会計",
+      "税務"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJmcZtgAGLGGARhNqritKx2Es",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "shibata-senda-international-tax-and-accounting-office",
     "name": "Shibata Senda International Tax and Accounting Office",
-    "name_ja": null,
+    "name_ja": "Shibata Senda International Tax and Accounting Office",
     "area": "Kuala Lumpur",
     "address": "5-chōme-1-18 Miyahara, Yodogawa Ward, Osaka, 532-0003, Japan",
     "lat": 34.7385,
     "lng": 135.4979,
     "phone": "+81663507100",
     "website": "https://cita110.com/index.html",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする会計・税務事務所。マレーシアでの法人設立・税務申告をサポート。",
+    "tags": [
+      "会計",
+      "税務"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJldKiNkbkAGARKT20BwvOTG8",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "reeracoen-recruitment-agency-kuala-lumpur-office",
     "name": "Reeracoen Recruitment Agency (Kuala Lumpur Office)",
-    "name_ja": null,
+    "name_ja": "Reeracoen Recruitment Agency",
     "area": "Kuala Lumpur",
     "address": "Unit 19-01, Level 19, Menara Hap Seng2, 2, Jalan P. Ramlee, Kuala Lumpur, 50250 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1521,
     "lng": 101.707,
     "phone": "+60320201885",
     "website": "https://www.reeracoen.com.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする会計・税務事務所。マレーシアでの法人設立・税務申告をサポート。",
+    "tags": [
+      "会計",
+      "税務"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJF47pqio2zDER76RMLv18YKk",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "weconnect-global-sdn-bhd",
     "name": "weConnect Global Sdn Bhd",
-    "name_ja": null,
+    "name_ja": "weConnect Global Sdn Bhd",
     "area": "Penang",
     "address": "13th Floor, Menara Livingston, 170, Jalan Argyll, 10050 George Town, Penang, Malaysia",
     "lat": 5.4222,
     "lng": 100.3298,
     "phone": "+6042618861",
     "website": "http://weconnect.co/",
-    "description": "",
-    "tags": [],
+    "description": "Penangを拠点とする会計・税務事務所。マレーシアでの法人設立・税務申告をサポート。",
+    "tags": [
+      "会計",
+      "税務"
+    ],
     "hours": "Monday: 8:30 AM – 6:00 PM / Tuesday: 8:30 AM – 6:00 PM / Wednesday: 8:30 AM – 6:00 PM / Thursday: 8:30 AM – 6:00 PM / Friday: 8:30 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJW3uhNRfDSjARcDVlIzar_NY",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "-2",
     "name": "シンガポールの日系会計事務所 フェニックス・アカウンティング・シンガポール",
-    "name_ja": null,
+    "name_ja": "アカウンティング・シンガポール",
     "area": "Johor Bahru",
     "address": "78 Shenton Wy, #20-03, Singapore 079120",
     "lat": 1.2732,
     "lng": 103.845,
     "phone": "+6562020330",
     "website": "https://sg.px-acc.com/",
-    "description": "",
-    "tags": [],
+    "description": "Johor Bahruを拠点とする会計・税務事務所。マレーシアでの法人設立・税務申告をサポート。",
+    "tags": [
+      "会計",
+      "税務"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ1eIrFuQZ2jER9sEAPZwIW_k",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "romis-business-consultants-and-partners-pte-ltd",
     "name": "ROMIS Business Consultants & Partners Pte Ltd (ロミスビジネスコンサルタンツ＆パートナー株式会社)",
-    "name_ja": null,
+    "name_ja": "ロミスビジネスコンサルタンツパートナー株式会社",
     "area": "Johor Bahru",
     "address": "3 Phillip St, #17-01 Royal Group Building, Singapore 048693",
     "lat": 1.2846,
     "lng": 103.85,
     "phone": "+6566509400",
     "website": "http://www.romis.com.sg/",
-    "description": "",
-    "tags": [],
+    "description": "Johor Bahruを拠点とする会計・税務事務所。マレーシアでの法人設立・税務申告をサポート。",
+    "tags": [
+      "会計",
+      "税務"
+    ],
     "hours": "Monday: 7:00 AM – 2:00 AM / Tuesday: 7:00 AM – 2:00 AM / Wednesday: 7:00 AM – 2:00 AM / Thursday: 7:00 AM – 2:00 AM / Friday: 7:00 AM – 2:00 AM / Saturday: 7:00 AM – 2:00 AM / Sunday: 7:00 AM – 2:00 AM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJiQvzMQkZ2jEROYNt8T3oOZU",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "seone-business-solutions-pte-ltd",
     "name": "세원회계법인 - Seone Business Solutions Pte. Ltd.",
-    "name_ja": null,
+    "name_ja": "세원회계법인 - Seone Business Solutions Pte. Ltd.",
     "area": "Johor Bahru",
     "address": "15 Beach Road, #05-09/10 Beach Centre Seone Assurance PAC Seone Accounting Pte. Ltd, Seone Business Solutions Pte. Ltd, Singapore 189677",
     "lat": 1.2958,
     "lng": 103.8555,
     "phone": "+6582079276",
     "website": "http://www.se1ac.com/",
-    "description": "",
-    "tags": [],
+    "description": "Johor Bahruを拠点とする会計・税務事務所。マレーシアでの法人設立・税務申告をサポート。",
+    "tags": [
+      "会計",
+      "税務"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ_zfwxw4Z2jERGgefyLInGFg",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "cpa",
     "name": "シンガポールの会計事務所CPAコンシェルジュ",
-    "name_ja": null,
+    "name_ja": "シンガポールの会計事務所コンシェルジュ",
     "area": "Johor Bahru",
     "address": "〒339407, Kallang Ave, 2号 #07 25",
     "lat": 1.3123,
     "lng": 103.8632,
     "phone": "+6569049131",
     "website": "https://cpacsg.com/",
-    "description": "",
-    "tags": [],
+    "description": "Johor Bahruを拠点とする会計・税務事務所。マレーシアでの法人設立・税務申告をサポート。",
+    "tags": [
+      "会計",
+      "税務"
+    ],
     "hours": "Monday: 9:00 AM – 5:00 PM / Tuesday: 9:00 AM – 5:00 PM / Wednesday: 9:00 AM – 5:00 PM / Thursday: 9:00 AM – 5:00 PM / Friday: 9:00 AM – 5:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJJ1vrQxMZ2jERJFW9BIM7TQQ",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "myca-accountants-and-advisors",
     "name": "MyCA Accountants & Advisors",
-    "name_ja": null,
+    "name_ja": "MyCA Accountants & Advisors",
     "area": "Kota Kinabalu",
     "address": "No.9-3, 3rd Floor, Block B, Damai Plaza, Phase 4, Lorong Pokok Kayu Manis 2, Luyang Commercial Centre, 88300 Kota Kinabalu, Sabah, Malaysia",
     "lat": 5.9628,
     "lng": 116.0906,
     "phone": "+60198218383",
     "website": "http://www.myca.com.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kota Kinabaluを拠点とする会計・税務事務所。マレーシアでの法人設立・税務申告をサポート。",
+    "tags": [
+      "会計",
+      "税務"
+    ],
     "hours": "Monday: 8:00 AM – 5:00 PM / Tuesday: 8:00 AM – 5:00 PM / Wednesday: 8:00 AM – 5:00 PM / Thursday: 8:00 AM – 5:00 PM / Friday: 8:00 AM – 5:00 PM / Saturday: 8:00 AM – 12:00 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJV56zBPppOzIRVv7sHlJUJKw",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   }
 ]

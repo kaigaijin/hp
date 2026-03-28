@@ -18,7 +18,8 @@
     "hours": "月-金 9:00-18:00",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "donovan-ho-miura-partners",
@@ -38,7 +39,8 @@
     "hours": "月-金 9:00-18:00",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "likearisingsun-legal",
@@ -57,7 +59,8 @@
     "hours": "月-金 9:00-18:00",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "jlpw-law-firm",
@@ -77,7 +80,8 @@
     "hours": "月-金 9:00-18:00",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "dentons-kuala-lumpur",
@@ -97,7 +101,8 @@
     "hours": "月-金 9:00-18:00",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "tmi-associates-malaysia",
@@ -118,7 +123,8 @@
     "hours": "月-金 9:00-18:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "nishimura-asahi-sea",
@@ -139,7 +145,8 @@
     "hours": "月-金 9:00-18:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "anderson-mori-tomotsune-sea",
@@ -160,7 +167,8 @@
     "hours": "月-金 9:00-18:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "nagashima-ohno-tsunematsu-sea",
@@ -181,7 +189,8 @@
     "hours": "月-金 9:00-18:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "mori-hamada-matsumoto-sea",
@@ -202,7 +211,8 @@
     "hours": "月-金 9:00-18:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "rajah-tann-malaysia",
@@ -223,7 +233,8 @@
     "hours": "月-金 9:00-18:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "skrine-malaysia",
@@ -244,7 +255,8 @@
     "hours": "月-金 9:00-18:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "baker-mckenzie-wong-leow",
@@ -264,7 +276,8 @@
     "hours": "月-金 9:00-18:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "azmi-associates",
@@ -284,7 +297,8 @@
     "hours": "月-金 9:00-18:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "christopher-lee-ong",
@@ -304,804 +318,973 @@
     "hours": "月-金 9:00-18:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "wm-leong-and-co",
     "name": "WM Leong & Co",
-    "name_ja": null,
+    "name_ja": "WM Leong & Co",
     "area": "Kuala Lumpur",
     "address": "Suite 15.02, Level 15, Centrepoint North, Mid Valley City, 59200 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1183,
     "lng": 101.6771,
     "phone": null,
     "website": "https://wmlaw.com.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJjRfjlexJzDERorA7kJ9y4bc",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "yap-ku-and-co",
     "name": "Yap Ku & Co 叶与邱律师事务所",
-    "name_ja": null,
+    "name_ja": "叶与邱律师事务所",
     "area": "Kuala Lumpur",
     "address": "77B, Jalan Kenari 20, Bandar Puchong Jaya, 47100 Puchong, Selangor, Malaysia",
     "lat": 3.0441,
     "lng": 101.6219,
     "phone": "+60173160003",
     "website": "https://ykc-law.com/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJnZkxyaNLzDERcpJDyjQx82o",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "teh-and-yu",
     "name": "TEH & YU",
-    "name_ja": null,
+    "name_ja": "TEH & YU",
     "area": "Kuala Lumpur",
     "address": "E-05-17, Plaza Mont Kiara, Jalan Kiara, Mont Kiara, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1656,
     "lng": 101.651,
     "phone": "+60364191888",
     "website": "https://www.tehyulegal.com/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": "Monday: 9:00 AM – 5:00 PM / Tuesday: 9:00 AM – 5:00 PM / Wednesday: 9:00 AM – 5:00 PM / Thursday: 9:00 AM – 5:00 PM / Friday: 9:00 AM – 5:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJBd08t7FJzDER12eRAKQCM20",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "andrew-jye-and-co-advocates-and-solicitor",
     "name": "Andrew, Jye & Co. (Advocates & Solicitor)",
-    "name_ja": null,
+    "name_ja": "Andrew, Jye & Co.",
     "area": "Kuala Lumpur",
     "address": "First Floor, 7, Medan Hujan Rahmat, Taman Overseas Union, 58200 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.0729,
     "lng": 101.673,
     "phone": "+60323856427",
     "website": "https://www.facebook.com/yuhui.ang.3",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJWwIg_vdKzDERyHJZu0lw0Ac",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "low-and-partners-hq-law-firm",
     "name": "Low & Partners HQ | 刘法律事务处 | Law Firm",
-    "name_ja": null,
+    "name_ja": "刘法律事务处",
     "area": "Kuala Lumpur",
     "address": "5, Jalan SS 21/23, Damansara Utama, 47400 Petaling Jaya, Selangor, Malaysia",
     "lat": 3.1423,
     "lng": 101.6208,
     "phone": "+60377295293",
     "website": "http://www.lowpartners.com/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ6RA_rDZJzDERQ0dBrOS1-98",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "shinjuku-international-law-firm",
     "name": "Shinjuku International Law Firm",
-    "name_ja": null,
+    "name_ja": "新宿国際法律事務所",
     "area": "Kuala Lumpur",
     "address": "Japan, 〒160-0004 Tokyo, Shinjuku City, Yotsuya, 4-chōme−２８−１５ 慶和ビル 8F",
     "lat": 35.6879,
     "lng": 139.7157,
     "phone": "+81359258423",
     "website": "https://www.criminaldefensejapan.com/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJKfVZFEaNGGARyiZf6hB8Xlw",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "jye-and-partners-law-firm",
     "name": "Jye & Partners (Law Firm)",
-    "name_ja": null,
+    "name_ja": "Jye & Partners",
     "area": "Kuala Lumpur",
     "address": "No. 2, Level 9, Wisma Lay Hong, Jalan Empayar, Off, Persiaran Sultan Ibrahim, KU 1, 41150 Klang, Selangor, Malaysia",
     "lat": 3.0521,
     "lng": 101.4583,
     "phone": "+60102662099",
     "website": "https://jyepartnerslegal.com.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJXTJmKZKrzTERLLZlq1PFjOM",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "mahwengkwai-and-associates",
     "name": "MahWengKwai & Associates",
-    "name_ja": null,
+    "name_ja": "MahWengKwai & Associates",
     "area": "Kuala Lumpur",
     "address": "Level 10-1, Tower B, Menara Prima, Jalan PJU 1/39, Dataran Prima, 47301 Petaling Jaya, Selangor, Malaysia",
     "lat": 3.1172,
     "lng": 101.5948,
     "phone": "+60178872702",
     "website": "http://www.mahwengkwai.com/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJc1NoO6JOzDERn6dLAWSdPng",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "gideon-tan-razali-zaini-advocates-and-solicitors",
     "name": "Gideon Tan Razali Zaini - Advocates & Solicitors",
-    "name_ja": null,
+    "name_ja": "Gideon Tan Razali Zaini - Advocates & Solicitors",
     "area": "Kuala Lumpur",
     "address": "812, 8th Floor, Block A, 17, Jalan SS 7/26, SS7, 47301 Petaling Jaya, Selangor, Malaysia",
     "lat": 3.106,
     "lng": 101.5919,
     "phone": "+60378036866",
     "website": "http://www.gtrz.com.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": "Monday: 9:00 AM – 5:30 PM / Tuesday: 9:00 AM – 5:30 PM / Wednesday: 9:00 AM – 5:30 PM / Thursday: 9:00 AM – 5:30 PM / Friday: 9:00 AM – 5:30 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJU8AZYiJMzDERQWmxXxJ9Wrg",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "tny-consulting-malaysia-sdn-bhd",
     "name": "TNY Consulting (Malaysia) Sdn. Bhd.",
-    "name_ja": null,
+    "name_ja": "TNY Consulting Sdn. Bhd.",
     "area": "Kuala Lumpur",
     "address": "Unit 28-3A, Level 28, Q Sentral, 2A, Jalan Stesen Sentral 2, Kuala Lumpur Sentral, 50470 Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
     "lat": 3.1368,
     "lng": 101.6878,
     "phone": "+60327159752",
     "website": "http://www.tny-malaysia.com/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": "Monday: 8:30 AM – 5:30 PM / Tuesday: 8:30 AM – 5:30 PM / Wednesday: 8:30 AM – 5:30 PM / Thursday: 8:30 AM – 5:30 PM / Friday: 8:30 AM – 5:30 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJucLwMsFJzDERIAqfKQMy0i0",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "",
     "name": "西村朝日台灣法律事務所",
-    "name_ja": null,
+    "name_ja": "西村朝日台灣法律事務所",
     "area": "Kuala Lumpur",
     "address": "110413, Taiwan, Taipei City, Xinyi District, Songren Rd, 89號 7F., Exchange Square 1 No",
     "lat": 25.037,
     "lng": 121.5692,
     "phone": "+886287297900",
     "website": "https://www.nishimura.com/tw",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJrakRgaurQjQRNh-Tye1SJHI",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "tmi",
     "name": "TMI総合法律事務所 東京オフィス",
-    "name_ja": null,
+    "name_ja": "総合法律事務所東京オフィス",
     "area": "Kuala Lumpur",
     "address": "Japan, 〒106-0032 Tokyo, Minato City, Roppongi, 6-chōme−10−１ ヒルズ森タワ 23F",
     "lat": 35.6607,
     "lng": 139.7292,
     "phone": "+81364385511",
     "website": "https://www.tmi.gr.jp/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJu9PoCHeLGGARwoIY9CuyBfk",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "nishimura-and-asahi-vietnam-law-firm",
     "name": "Nishimura & Asahi (Vietnam) Law Firm",
-    "name_ja": null,
+    "name_ja": "Nishimura & Asahi Law Firm",
     "area": "Kuala Lumpur",
     "address": "Unit CP1.31.02, 31st Floor Tower 1, Capital Place, No. 29 P. Liễu Giai, Street, Ward, Hà Nội, Vietnam",
     "lat": 21.0317,
     "lng": 105.8138,
     "phone": "+842439460870",
     "website": "https://www.nishimura.com/en/global-coverage/vietnam",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJn1Vg8uurNTERyT4KV4mj7m0",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "nagoya-kokusai-law-offices",
     "name": "Nagoya Kokusai Law Offices",
-    "name_ja": null,
+    "name_ja": "Nagoya Kokusai Law Offices",
     "area": "Kuala Lumpur",
     "address": "Japan, 〒460-0002 Aichi, Nagoya, Naka Ward, Marunouchi, 2-chōme−6−２１ アクセス丸の内ビル",
     "lat": 35.1761,
     "lng": 136.9007,
     "phone": "+81524334100",
     "website": "https://nagoya-intlaw.com/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": "Monday: 9:15 AM – 8:00 PM / Tuesday: 9:15 AM – 8:00 PM / Wednesday: 9:15 AM – 8:00 PM / Thursday: 9:15 AM – 8:00 PM / Friday: 9:15 AM – 8:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJm8MoHj53A2ARdfGjWYSBK8Y",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "nishizawasogo-law-offices",
     "name": "Nishizawasogo Law Offices",
-    "name_ja": null,
+    "name_ja": "Nishizawasogo Law Offices",
     "area": "Kuala Lumpur",
     "address": "Japan, 〒105-0003 Tokyo, Minato City, Nishishinbashi, 3-chōme−15−１３ 西新橋ＡＩビル 4F",
     "lat": 35.665,
     "lng": 139.7499,
     "phone": "+81334326770",
     "website": "http://www.nishizawa-law.com/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": "Monday: 9:30 AM – 6:30 PM / Tuesday: 9:30 AM – 6:30 PM / Wednesday: 9:30 AM – 6:30 PM / Thursday: 9:30 AM – 6:30 PM / Friday: 9:30 AM – 6:30 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJq6qeYpSLGGARcw8diK4LFc8",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "shook-lin-and-bok-kuala-lumpur",
     "name": "Shook Lin & Bok Kuala Lumpur",
-    "name_ja": null,
+    "name_ja": "Shook Lin & Bok",
     "area": "Kuala Lumpur",
     "address": "20th Floor, 55, Jalan Raja Chulan, Bukit Ceylon, 50200 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1502,
     "lng": 101.7066,
     "phone": "+60320311788",
     "website": "http://shooklin.com.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": "Monday: 8:30 AM – 5:30 PM / Tuesday: 8:30 AM – 5:30 PM / Wednesday: 8:30 AM – 5:30 PM / Thursday: 8:30 AM – 5:30 PM / Friday: 8:30 AM – 5:30 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJFcAaXNVJzDERhKygouzjWPw",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "tay-and-partners",
     "name": "Tay & Partners",
-    "name_ja": null,
+    "name_ja": "Tay & Partners",
     "area": "Kuala Lumpur",
     "address": "6th Floor, Plaza See Hoy Chan, Jalan Raja Chulan, Bukit Ceylon, 50200 Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
     "lat": 3.1502,
     "lng": 101.7056,
     "phone": "+60320501888",
     "website": "https://www.taypartners.com.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": "Monday: 8:30 AM – 5:30 PM / Tuesday: 8:30 AM – 5:30 PM / Wednesday: 8:30 AM – 5:30 PM / Thursday: 8:30 AM – 5:30 PM / Friday: 8:30 AM – 5:30 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJXc4IrtZJzDER0o5VEV8S7eY",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "-2",
     "name": "弁護士法人黒田法律事務所｜港区・中国法務・台湾法務",
-    "name_ja": null,
+    "name_ja": "中国法務・台湾法務",
     "area": "Kuala Lumpur",
     "address": "Japan, 〒107-0062 Tokyo, Minato City, Minamiaoyama, 2-chōme−4, ２丁目４−９KLO南青山ビル",
     "lat": 35.6708,
     "lng": 139.7231,
     "phone": "+81357755301",
     "website": "https://www.kuroda-law.gr.jp/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": "Monday: 9:30 AM – 6:00 PM / Tuesday: 9:30 AM – 6:00 PM / Wednesday: 9:30 AM – 6:00 PM / Thursday: 9:30 AM – 6:00 PM / Friday: 9:30 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJAQAQpJGLGGARcpsrFrxS1Lw",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "zico-law",
     "name": "ZICO Law",
-    "name_ja": null,
+    "name_ja": "ZICO Law",
     "area": "Kuala Lumpur",
     "address": "Level 19 Menara Milenium, 7-01, Jalan Damanlela, Pusat Bandar Damansara, 50490 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1468,
     "lng": 101.6623,
     "phone": "+60320879999",
     "website": "http://www.zicolaw.com/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": "Monday: 6:00 AM – 12:00 AM / Tuesday: 6:00 AM – 12:00 AM / Wednesday: 6:00 AM – 12:00 AM / Thursday: 6:00 AM – 12:00 AM / Friday: 6:00 AM – 12:00 AM / Saturday: 6:00 AM – 12:00 AM / Sunday: 6:00 AM – 12:00 AM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJIZxi9qlJzDER9ZBUku3uW-I",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "az-more",
     "name": "AZ MORE国際法律事務所大阪事務所",
-    "name_ja": null,
+    "name_ja": "国際法律事務所大阪事務所",
     "area": "Kuala Lumpur",
     "address": "Japan, 〒530-0047 Osaka, Kita Ward, Nishitenma, 1-chōme−7−４ 協和中之島ビル ５階",
     "lat": 34.6939,
     "lng": 135.5072,
     "phone": "+81668091170",
     "website": "https://azmorelaw.com/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJcV8uTpLnAGARgNZIn8zf2Co",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "-3",
     "name": "弁護士法人西村綜合法律事務所 東京事務所",
-    "name_ja": null,
+    "name_ja": "弁護士法人西村綜合法律事務所東京事務所",
     "area": "Kuala Lumpur",
     "address": "Japan, 〒105-0004 Tokyo, Minato City, Shinbashi, 1-chōme−1−１３ アーバンネット内幸町ビル 3F",
     "lat": 35.6691,
     "lng": 139.7564,
     "phone": "+81332373515",
     "website": "https://nishimuralawoffice.com/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJF8x8VrmNGGARYk00g05swjo",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "wong-and-partners",
     "name": "Wong & Partners",
-    "name_ja": null,
+    "name_ja": "Wong & Partners",
     "area": "Kuala Lumpur",
     "address": "Level 21 The Gardens South Tower Lingkaran Syed Putra Mid Valley City, 59200 Kuala Lumpur, KUALA LUMPUR, Mid Valley City, 58000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1171,
     "lng": 101.6755,
     "phone": "+60322987888",
     "website": "http://www.wongpartners.com/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJl-l61YhJzDER235qznOqq5U",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "tmi-associates-osaka-office",
     "name": "TMI Associates Osaka office",
-    "name_ja": null,
+    "name_ja": "TMI Associates Osaka office",
     "area": "Kuala Lumpur",
     "address": "Japan, 〒530-0017 Osaka, Kita Ward, Kakudachō, 8−１ UMEDA HANKYU BUILDING, 36階",
     "lat": 34.7028,
     "lng": 135.4985,
     "phone": "+81663110577",
     "website": "https://www.tmi.gr.jp/about/bases/osaka-office.html",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": "Monday: 9:30 AM – 6:00 PM / Tuesday: 9:30 AM – 6:00 PM / Wednesday: 9:30 AM – 6:00 PM / Thursday: 9:30 AM – 6:00 PM / Friday: 9:30 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJB6oyV5LmAGARjKcWc3FobUY",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "-4",
     "name": "台灣國際專利法律事務所",
-    "name_ja": null,
+    "name_ja": "台灣國際專利法律事務所",
     "area": "Kuala Lumpur",
     "address": "10491, Taiwan, Taipei City, Zhongshan District, Section 2, Nanjing E Rd, 125號7樓",
     "lat": 25.0523,
     "lng": 121.5344,
     "phone": "+886225072811",
     "website": "https://www.tiplo.com.tw/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": "Monday: 8:30 AM – 5:00 PM / Tuesday: 8:30 AM – 5:00 PM / Wednesday: 8:30 AM – 5:00 PM / Thursday: 8:30 AM – 5:00 PM / Friday: 8:30 AM – 5:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJfayhVmCpQjQR7a0O058BaPY",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "-5",
     "name": "一色法律事務所・外国法共同事業",
-    "name_ja": null,
+    "name_ja": "外国法共同事業",
     "area": "Kuala Lumpur",
     "address": "Japan, 〒108-0073 Tokyo, Minato City, Mita, 3-chōme−11−３６ 三田日東ダイビル 7階",
     "lat": 35.6407,
     "lng": 139.7413,
     "phone": "+81367767814",
     "website": "http://isshiki-law.com/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJc9Bcaa2LGGARet3mYD6wLVY",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "cheang-and-ariff",
     "name": "Cheang & Ariff",
-    "name_ja": null,
+    "name_ja": "Cheang & Ariff",
     "area": "Kuala Lumpur",
     "address": "Cheang & Ariff, 273A, Jalan Medan Tuanku, Medan Tuanku, 50300 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1582,
     "lng": 101.6976,
     "phone": "+60326910803",
     "website": "https://www.cheangariff.com/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": "Monday: 8:45 AM – 5:30 PM / Tuesday: 8:45 AM – 5:30 PM / Wednesday: 8:45 AM – 5:30 PM / Thursday: 8:45 AM – 5:30 PM / Friday: 8:45 AM – 5:30 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJm7ZFUC5IzDER6sikJvnqUOY",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "az-more-2",
     "name": "AZ MORE国際法律事務所",
-    "name_ja": null,
+    "name_ja": "国際法律事務所",
     "area": "Kuala Lumpur",
     "address": "2-chōme-17-17 Nagatachō, Chiyoda City, Tokyo 100-0014, Japan",
     "lat": 35.6771,
     "lng": 139.7407,
     "phone": "+81365508988",
     "website": "http://www.azmorelaw.com/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ7XV3QXiMGGART_SOQ-9YBow",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "myriad-attorneys-at-law",
     "name": "萬宏國際法律事務所 Myriad Attorneys at Law",
-    "name_ja": null,
+    "name_ja": "萬宏國際法律事務所",
     "area": "Kuala Lumpur",
     "address": "100014, Taiwan, Taipei City, Zhongzheng District, Section 1, Xinsheng S Rd, 56號13樓",
     "lat": 25.0411,
     "lng": 121.5326,
     "phone": "+886223219868",
     "website": "https://www.myriadlex.com/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": "Monday: 8:30 AM – 12:30 PM, 1:30 – 5:30 PM / Tuesday: 8:30 AM – 12:30 PM, 1:30 – 5:30 PM / Wednesday: 8:30 AM – 12:30 PM, 1:30 – 5:30 PM / Thursday: 8:30 AM – 12:30 PM, 1:30 – 5:30 PM / Friday: 8:30 AM – 12:30 PM, 1:30 – 5:30 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJU6QcseGrQjQR4Qrzng6bpg8",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "partners-law-offices",
     "name": "Partners Law Offices",
-    "name_ja": null,
+    "name_ja": "Partners Law Offices",
     "area": "Kuala Lumpur",
     "address": "3-chōme-36-7 Minamiōtsuka, Toshima City, Tokyo 170-0005, Japan",
     "lat": 35.7306,
     "lng": 139.7268,
     "phone": "+81359113216",
     "website": "https://p-law.jp/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJKVE7TXGNGGAROQvDSsYHamc",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "jeff-leong-poon-and-wong",
     "name": "Jeff Leong, Poon & Wong",
-    "name_ja": null,
+    "name_ja": "Jeff Leong, Poon & Wong",
     "area": "Kuala Lumpur",
     "address": "B-11-8, Unit 8, Block B, 11th Floor, Megan Avenue II, Jalan Yap Kwan Seng, 50450 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1623,
     "lng": 101.712,
     "phone": "+60322033388",
     "website": "https://www.jlpw.com.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": "Monday: 8:30 AM – 5:30 PM / Tuesday: 8:30 AM – 5:30 PM / Wednesday: 8:30 AM – 5:30 PM / Thursday: 8:30 AM – 5:30 PM / Friday: 8:30 AM – 5:30 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ-50U8tk3zDERls7VGKwU51M",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "-6",
     "name": "三浦総合法律事務所",
-    "name_ja": null,
+    "name_ja": "三浦総合法律事務所",
     "area": "Kuala Lumpur",
     "address": "Japan, 〒101-0044 Tokyo, Chiyoda City, Kajichō, 1-chōme−6−１７ 日東合同ビルディング 603号室",
     "lat": 35.69,
     "lng": 139.7712,
     "phone": "+81335279978",
     "website": "http://miura-law-office.com/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": "Monday: 9:00 AM – 10:00 PM / Tuesday: 9:00 AM – 10:00 PM / Wednesday: 9:00 AM – 10:00 PM / Thursday: 9:00 AM – 10:00 PM / Friday: 9:00 AM – 10:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJWWlTy6qOGGARrVt7HFQvOos",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "likearisingsun-sdn-bhd",
     "name": "Likearisingsun Sdn Bhd",
-    "name_ja": null,
+    "name_ja": "Likearisingsun Sdn Bhd",
     "area": "Kuala Lumpur",
     "address": "Unit 1-5 (Suite A), Level 5, The Boulevard Office Mid Valley City, Lingkaran Syed Putra, Mid Valley City, 59200 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1177,
     "lng": 101.6775,
     "phone": "+60379322662",
     "website": "https://likearisingsun.com.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJF3pIDdZLzDERdfOe99QI_Yg",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "nishimura-and-asahi-singapore-llp",
     "name": "Nishimura & Asahi (Singapore) LLP",
-    "name_ja": null,
+    "name_ja": "Nishimura & Asahi LLP",
     "area": "Penang",
     "address": "79 Robinson Rd, #14-01, Singapore 068897",
     "lat": 1.2775,
     "lng": 103.8481,
     "phone": "+6569227670",
     "website": "https://www.nishimura.com/",
-    "description": "",
-    "tags": [],
+    "description": "Penangを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJlf5a5w4Z2jERVuPNZmgX4LM",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "low-and-partners-penang",
     "name": "Low & Partners Penang",
-    "name_ja": null,
+    "name_ja": "Low & Partners",
     "area": "Penang",
     "address": "48, Jalan Irrawaddi, off, Jalan Burma, 10050 George Town, Pulau Pinang, Malaysia",
     "lat": 5.425,
     "lng": 100.3225,
     "phone": "+6042295293",
     "website": "http://www.lowpartners.com/",
-    "description": "",
-    "tags": [],
+    "description": "Penangを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ11jK76PDSjAREhzDfeYd-1Y",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "ismail-khoo-and-associates",
     "name": "Ismail, Khoo & Associates",
-    "name_ja": null,
+    "name_ja": "Ismail, Khoo & Associates",
     "area": "Penang",
     "address": "Level 4, Unit 9-11, Premier Centre, (Opposite Jones Road/Lancia Holdings), No. 253G, Burmah Road, Penang, 10350, Pulau Pinang, Pulau Pinang, Pulau Tikus, 10350 George Town, Penang, Malaysia",
     "lat": 5.4287,
     "lng": 100.3137,
     "phone": "+6042263363",
     "website": null,
-    "description": "",
-    "tags": [],
+    "description": "Penangを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": "Monday: 9:15 AM – 5:45 PM / Tuesday: 9:15 AM – 5:45 PM / Wednesday: 9:15 AM – 5:45 PM / Thursday: 9:15 AM – 5:45 PM / Friday: 9:15 AM – 5:45 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJk-yHEabDSjAR_E-7_liNsVQ",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "mori-hamada-singapore-llp",
     "name": "Mori Hamada Singapore LLP",
-    "name_ja": null,
+    "name_ja": "Mori Hamada Singapore LLP",
     "area": "Johor Bahru",
     "address": "1 Raffles Quay, One Raffles Quay, Singapore 048583",
     "lat": 1.2816,
     "lng": 103.8521,
     "phone": "+6565939750",
     "website": null,
-    "description": "",
-    "tags": [],
+    "description": "Johor Bahruを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": "Monday: 9:00 AM – 5:00 PM / Tuesday: 9:00 AM – 5:00 PM / Wednesday: 9:00 AM – 5:00 PM / Thursday: 9:00 AM – 5:00 PM / Friday: 9:00 AM – 5:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJOboCdw4Z2jERHlh0CurK6D0",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "nagashima-ohno-and-tsunematsu-singapore-llp",
     "name": "Nagashima Ohno & Tsunematsu Singapore LLP",
-    "name_ja": null,
+    "name_ja": "Nagashima Ohno & Tsunematsu Singapore LLP",
     "area": "Johor Bahru",
     "address": "6 Battery Rd, Level 41, Singapore 049909",
     "lat": 1.2856,
     "lng": 103.852,
     "phone": "+6566541760",
     "website": null,
-    "description": "",
-    "tags": [],
+    "description": "Johor Bahruを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJtwYIQgkZ2jERum-tRXu76iQ",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "anderson-mori-and-tomotsune-singapore-llp",
     "name": "Anderson Mori & Tomotsune (Singapore) LLP",
-    "name_ja": null,
+    "name_ja": "Anderson Mori & Tomotsune LLP",
     "area": "Johor Bahru",
     "address": "〒048619 编码: 048619シンガポール ラッフルズ・プレイス 048619シンガポール Raffles Place, 9号 Republic Plaza #16-01 邮政编码: 邮政",
     "lat": 1.2833,
     "lng": 103.8509,
     "phone": "+6566451000",
     "website": "https://www.amt-law.com/en/locations/singapore/",
-    "description": "",
-    "tags": [],
+    "description": "Johor Bahruを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJTS38gTEZ2jERGjptjS8UC-U",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "jayasuriya-kah-and-co",
     "name": "Jayasuriya Kah & Co.",
-    "name_ja": null,
+    "name_ja": "Jayasuriya Kah & Co.",
     "area": "Kota Kinabalu",
     "address": "Suite 208, 2nd Floor, Wisma Sabah, 88815, Kota Kinabalu, Sabah, Kota Kinabalu, 88000 Kota Kinabalu, Sabah, Malaysia",
     "lat": 5.9861,
     "lng": 116.0764,
     "phone": "+6088242311",
     "website": "http://www.jaykah.com.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kota Kinabaluを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": "Monday: 8:30 AM – 12:30 PM, 1:45 – 5:00 PM / Tuesday: 8:30 AM – 12:30 PM, 1:45 – 5:00 PM / Wednesday: 8:30 AM – 12:30 PM, 1:45 – 5:00 PM / Thursday: 8:30 AM – 12:30 PM, 1:45 – 5:00 PM / Friday: 8:30 AM – 12:30 PM, 1:45 – 5:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJwW7CfMxpOzIRxvo_WQUOkvc",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "zakaria-ahmad-and-co",
     "name": "Zakaria Ahmad & Co",
-    "name_ja": null,
+    "name_ja": "Zakaria Ahmad & Co",
     "area": "Kota Kinabalu",
     "address": "Lot No. 104, Taman Sempelang, Japan Pembangunan Masyarakat, Sembulan, Kampung Sembulan, 88100 Kota Kinabalu, Sabah, Malaysia",
     "lat": 5.9617,
     "lng": 116.065,
     "phone": "+60128273336",
     "website": null,
-    "description": "",
-    "tags": [],
+    "description": "Kota Kinabaluを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJAV3jUY9pOzIRvhPZ7H7P1mU",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "lv-partners-sabah-kota-kinabalu",
     "name": "LV Partners Sabah Kota Kinabalu",
-    "name_ja": null,
+    "name_ja": "LV Partners Sabah Kota Kinabalu",
     "area": "Kota Kinabalu",
     "address": "No 1, 2nd Floor, Block A, Damai Plaza, Phase 3, Jalan Damai, Luyang Commercial Centre, 88300 Kota Kinabalu, Sabah, Malaysia",
     "lat": 5.9627,
     "lng": 116.089,
     "phone": "+60132883028",
     "website": "http://www.lvpartners.com.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kota Kinabaluを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": "Monday: 8:30 AM – 5:30 PM / Tuesday: 8:30 AM – 5:30 PM / Wednesday: 8:30 AM – 5:30 PM / Thursday: 8:30 AM – 5:30 PM / Friday: 8:30 AM – 5:30 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ5fjlx4ZpOzIR25nmmchBJPs",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "azhier-arisin-and-jaafar-advocates-and-solicitors",
     "name": "Azhier Arisin & Jaafar - Advocates & Solicitors",
-    "name_ja": null,
+    "name_ja": "Azhier Arisin & Jaafar - Advocates & Solicitors",
     "area": "Kota Kinabalu",
     "address": "Lot A3-2, 2nd Floor, Block A, Plaza Utama Jalan Penampang By-Pass, Pusat Bandar Kota Kinabalu, 88300 Kota Kinabalu, Sabah, Malaysia",
     "lat": 5.9267,
     "lng": 116.0767,
     "phone": "+6088727787",
     "website": "http://www.azhierlaw.com/",
-    "description": "",
-    "tags": [],
+    "description": "Kota Kinabaluを拠点とする法律事務所。マレーシアでの法務・ビザ手続きなどをサポート。",
+    "tags": [
+      "法律",
+      "法務サービス"
+    ],
     "hours": "Monday: 8:00 AM – 1:00 PM, 2:00 – 5:00 PM / Tuesday: 8:00 AM – 1:00 PM, 2:00 – 5:00 PM / Wednesday: 8:00 AM – 1:00 PM, 2:00 – 5:00 PM / Thursday: 8:00 AM – 1:00 PM, 2:00 – 5:00 PM / Friday: 8:00 – 11:30 AM, 2:00 – 5:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJc5MlGYZpOzIRvqOKjjbNfpw",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   }
 ]

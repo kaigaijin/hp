@@ -17,7 +17,8 @@
     "hours": "月-金 8:30-17:30 / 土 8:30-12:00（日祝休み）",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "nippon-express-thailand",
@@ -37,7 +38,8 @@
     "hours": "月-金 8:30-17:30 / 土 8:30-12:00（日祝休み）",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "crown-relocations-bangkok",
@@ -56,7 +58,8 @@
     "hours": "月〜金 8:30-17:30",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "cloud-moving-bangkok",
@@ -75,7 +78,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "mol-logistics-moving-bangkok",
@@ -95,7 +99,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "santa-fe-relocation-bangkok",
@@ -114,7 +119,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "asian-tigers-mobility-bangkok",
@@ -134,7 +140,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "pors-relocation-bangkok",
@@ -154,7 +161,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "yamatane-moving-bangkok",
@@ -174,7 +182,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "agility-relocation-bangkok",
@@ -193,7 +202,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "jit-moving-bangkok",
@@ -212,310 +222,306 @@
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "tokyo-move-co-ltd",
     "name": "Tokyo Move Co.Ltd.",
-    "name_ja": null,
+    "name_ja": "Tokyo Move Co.Ltd.",
     "area": "Bangkok",
     "address": "2-chōme-9-24 Nakakasai, Edogawa City, Tokyo 134-0083, Japan",
     "lat": 35.6734,
     "lng": 139.8731,
     "phone": "+819060165109",
     "website": "http://www.tokyomove.com/",
-    "description": "",
-    "tags": [],
+    "description": "タイ国内・日本間の引越し・配送サービスを提供。日本語での見積もり・手続きに対応。",
+    "tags": [
+      "引越し",
+      "日本語対応"
+    ],
     "hours": "Monday: 7:30 AM – 7:30 PM / Tuesday: 7:30 AM – 7:30 PM / Wednesday: 7:30 AM – 5:00 PM / Thursday: 7:30 AM – 7:30 PM / Friday: 7:30 AM – 7:30 PM / Saturday: 7:30 AM – 7:30 PM / Sunday: 7:30 AM – 7:30 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJYw1zouSHGGAR1m9jj7hvo0Y",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "asian-tigers-group-thailand",
     "name": "Asian Tigers Group Thailand",
-    "name_ja": null,
+    "name_ja": "Asian Tigers Group Thailand",
     "area": "Bangkok",
     "address": "Sirinrat Building อาคารสิรินรัตน์, 21/F, แขวงคลองตัน Khlong Toei, Bangkok 10110, Thailand",
     "lat": 13.7168,
     "lng": 100.5707,
     "phone": "+6626877888",
     "website": "https://www.asiantigersgroup.com/thailand/?utm_source=Google&utm_medium=cpc&utm_campaign=Services&utm_id=Website+click",
-    "description": "",
-    "tags": [],
+    "description": "タイ国内・日本間の引越し・配送サービスを提供。日本語での見積もり・手続きに対応。",
+    "tags": [
+      "引越し",
+      "日本語対応"
+    ],
     "hours": "Monday: 9:00 AM – 5:00 PM / Tuesday: 9:00 AM – 5:00 PM / Wednesday: 9:00 AM – 5:00 PM / Thursday: 9:00 AM – 5:00 PM / Friday: 9:00 AM – 5:00 PM / Saturday: 9:00 AM – 1:00 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ-4BcaQmf4jARaRfOxrgX04I",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "cloud-moving",
     "name": "Cloud Moving | クラウドムービング",
-    "name_ja": null,
+    "name_ja": "Cloud Moving | クラウドムービング",
     "area": "Bangkok",
     "address": "434 Unit C, Soi Pridipanomyong, 18 ถ. สุขุมวิท 71 แขวงพระโขนงเหนือ เขตวัฒนา กรุงเทพมหานคร 10110, Thailand",
     "lat": 13.7227,
     "lng": 100.5961,
     "phone": "+66906651188",
     "website": "https://cloud-butler.asia/cloud-moving/",
-    "description": "",
-    "tags": [],
+    "description": "タイ国内・日本間の引越し・配送サービスを提供。日本語での見積もり・手続きに対応。",
+    "tags": [
+      "引越し",
+      "日本語対応"
+    ],
     "hours": "Monday: 9:00 AM – 5:00 PM / Tuesday: 9:00 AM – 5:00 PM / Wednesday: 9:00 AM – 5:00 PM / Thursday: 9:00 AM – 5:00 PM / Friday: 9:00 AM – 5:00 PM / Saturday: 9:00 AM – 5:00 PM / Sunday: 9:00 AM – 5:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJk2HwbjgO7KMRnVZUA0IPK_M",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "nippon-express-co-ltd-tokyo-overseas-removals-branch",
     "name": "Nippon Express Co., Ltd. Tokyo Overseas Removals branch",
-    "name_ja": null,
+    "name_ja": "Nippon Express Co., Ltd. Tokyo Overseas Removals branch",
     "area": "Bangkok",
     "address": "5-chōme-7-28 Higashishinagawa, Shinagawa City, Tokyo 140-0002, Japan",
     "lat": 35.6235,
     "lng": 139.7566,
     "phone": "+81120834822",
     "website": "https://www.nittsu.co.jp/kaigaihikkoshi/convenient/baggage_inq/",
-    "description": "",
-    "tags": [],
+    "description": "タイ国内・日本間の引越し・配送サービスを提供。日本語での見積もり・手続きに対応。",
+    "tags": [
+      "引越し",
+      "日本語対応"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJga3TBRSKGGARj-V7aBHdwuw",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "nihontsuun",
     "name": "Nihontsuun",
-    "name_ja": null,
+    "name_ja": "Nihontsuun",
     "area": "Bangkok",
     "address": "31 Funamichō, Minato Ward, Nagoya, Aichi 455-0027, Japan",
     "lat": 35.0752,
     "lng": 136.8912,
     "phone": null,
     "website": null,
-    "description": "",
-    "tags": [],
+    "description": "タイ国内・日本間の引越し・配送サービスを提供。日本語での見積もり・手続きに対応。",
+    "tags": [
+      "引越し",
+      "日本語対応"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJu5H16EJ5A2ARx50zfbm6yTE",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "makotoya",
     "name": "Makotoya",
-    "name_ja": null,
+    "name_ja": "Makotoya",
     "area": "Bangkok",
     "address": "46/12, 46/13 โครงการพิมาน49 Sukhumvit 49, Khwaeng Khlong Tan Nuea, Watthana, Krung Thep Maha Nakhon 10110, Thailand",
     "lat": 13.7319,
     "lng": 100.5764,
     "phone": "+6622581028",
     "website": "https://makotoya-thailand.com/makoru/th/shop",
-    "description": "",
-    "tags": [],
+    "description": "タイ国内・日本間の引越し・配送サービスを提供。日本語での見積もり・手続きに対応。",
+    "tags": [
+      "引越し",
+      "日本語対応"
+    ],
     "hours": "Monday: 8:30 AM – 7:00 PM / Tuesday: 8:30 AM – 7:00 PM / Wednesday: 8:30 AM – 7:00 PM / Thursday: 8:30 AM – 7:00 PM / Friday: 8:30 AM – 7:00 PM / Saturday: 8:30 AM – 7:00 PM / Sunday: 8:30 AM – 7:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJwb4nmKmf4jARKGHjm9C-mcA",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "siam-nistrans-co-ltd-head-office-bangkok-branch",
     "name": "Siam Nistrans Co.,Ltd. Head Office / Bangkok Branch",
-    "name_ja": null,
+    "name_ja": "Siam Nistrans Co.,Ltd. Head Office / Bangkok Branch",
     "area": "Bangkok",
     "address": "อาคารซีทีไอทาวเวอร์ ชั้น 26 Khwaeng Khlong Toei, Khet Khlong Toei, Krung Thep Maha Nakhon 10110, Thailand",
     "lat": 13.7326,
     "lng": 100.5603,
     "phone": "+6622611080",
     "website": "https://www.th.nissin-asia.com/en/index.php",
-    "description": "",
-    "tags": [],
+    "description": "タイ国内・日本間の引越し・配送サービスを提供。日本語での見積もり・手続きに対応。",
+    "tags": [
+      "引越し",
+      "日本語対応"
+    ],
     "hours": "Monday: 8:30 AM – 5:30 PM / Tuesday: 8:30 AM – 5:30 PM / Wednesday: 8:30 AM – 5:30 PM / Thursday: 8:30 AM – 5:30 PM / Friday: 8:30 AM – 5:30 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJL_R7hxuf4jARPks-tbnmiPc",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "dearlife-by-renosy-by",
     "name": "dearlife by RENOSY (ディアライフ by リノシー) バンコク ・シラチャ不動産賃貸仲介会社",
-    "name_ja": null,
+    "name_ja": "dearlife by RENOSY (ディアライフ by リノシー) バンコク ・シラチャ不動産賃貸仲介会社",
     "area": "Bangkok",
     "address": "19th Floor, Bhiraj Tower at EmQuartier, 689 ถ. สุขุมวิท Klongton Nua, เขตวัฒนา กรุงเทพมหานคร 10110, Thailand",
     "lat": 13.7314,
     "lng": 100.5697,
     "phone": "+6622611188",
     "website": "https://www.dlife.co.jp/",
-    "description": "",
-    "tags": [],
+    "description": "タイ国内・日本間の引越し・配送サービスを提供。日本語での見積もり・手続きに対応。",
+    "tags": [
+      "引越し",
+      "日本語対応"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: 9:00 AM – 6:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJN0GxAsqf4jARNsd-6PMBsQ0",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "nippon-express-nec-logistics-thailand-co-ltd",
     "name": "Nippon Express NEC Logistics Thailand Co., Ltd",
-    "name_ja": null,
+    "name_ja": "Nippon Express NEC Logistics Thailand Co., Ltd",
     "area": "Bangkok",
     "address": "ธนิยะพลาซ่า, 52 ซอย ธนิยะ ชั้น 12, ถ. ธนิยะ แขวงสุริยวงศ์ เขตบางรัก กรุงเทพมหานคร 10500, Thailand",
     "lat": 13.7291,
     "lng": 100.5335,
     "phone": "+6622381370",
     "website": null,
-    "description": "",
-    "tags": [],
+    "description": "タイ国内・日本間の引越し・配送サービスを提供。日本語での見積もり・手続きに対応。",
+    "tags": [
+      "引越し",
+      "日本語対応"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ6dy2Ciyf4jARcmncX9pr4N4",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "hotei-gyoza-chiang-mai",
     "name": "Hotei Gyoza Chiang Mai",
-    "name_ja": null,
+    "name_ja": "Hotei Gyoza Chiang Mai",
     "area": "Chiang Mai",
     "address": "80 Sri Phum, Tambon Si Phum, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50203, Thailand",
     "lat": 18.791,
     "lng": 98.9911,
     "phone": "+66626091656",
     "website": "https://hoteigyozachiangmai.mystrikingly.com/",
-    "description": "",
-    "tags": [],
+    "description": "タイ国内・日本間の引越し・配送サービスを提供。日本語での見積もり・手続きに対応。",
+    "tags": [
+      "引越し",
+      "日本語対応"
+    ],
     "hours": "Monday: 6:00 – 11:00 PM / Tuesday: 6:00 – 11:00 PM / Wednesday: 6:00 – 11:00 PM / Thursday: 6:00 – 11:00 PM / Friday: 6:00 – 11:00 PM / Saturday: 6:00 – 11:00 PM / Sunday: 6:00 – 11:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJy_uHCrE72jARfhLygslvl5o",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "nihontsuun-naritakuko-daisan-logistics",
     "name": "Nihontsuun Naritakuko Daisan Logistics",
-    "name_ja": null,
+    "name_ja": "Nihontsuun Naritakuko Daisan Logistics",
     "area": "Chiang Mai",
     "address": "30 Shinizumi, Narita, Chiba 286-0825, Japan",
     "lat": 35.8054,
     "lng": 140.3525,
     "phone": "+81476409821",
     "website": "https://www.nittsu.co.jp/sky/institution/narita.html",
-    "description": "",
-    "tags": [],
+    "description": "タイ国内・日本間の引越し・配送サービスを提供。日本語での見積もり・手続きに対応。",
+    "tags": [
+      "引越し",
+      "日本語対応"
+    ],
     "hours": "Monday: Open 24 hours / Tuesday: Open 24 hours / Wednesday: Open 24 hours / Thursday: Open 24 hours / Friday: Open 24 hours / Saturday: 9:00 AM – 12:00 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJhbpQOtT0ImAR17UimDRzV6o",
-    "priority": 0
-  },
-  {
-    "slug": "",
-    "name": "臺灣日通國際物流股份有限公司",
-    "name_ja": null,
-    "area": "Chiang Mai",
-    "address": "10, No. 223號, SongJiang Rd, Zhongshan District, Taipei City, Taiwan 10491",
-    "lat": 25.0586,
-    "lng": 121.5335,
-    "phone": "+886227521010",
-    "website": "http://www.nipponexpress.com/",
-    "description": "",
-    "tags": [],
-    "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJi3MC1sWrQjQRxxQkS6jEIEo",
-    "priority": 0
-  },
-  {
-    "slug": "-2",
-    "name": "台灣日通日電物流股份有限公司",
-    "name_ja": null,
-    "area": "Chiang Mai",
-    "address": "104, Taiwan, Taipei City, Zhongshan District, SongJiang Rd, 223號10樓C室",
-    "lat": 25.0587,
-    "lng": 121.5333,
-    "phone": "+886227122465",
-    "website": "https://www.nipponexpress-necl.tw/",
-    "description": "",
-    "tags": [],
-    "hours": "Monday: 8:30 AM – 5:30 PM / Tuesday: 8:30 AM – 5:30 PM / Wednesday: 8:30 AM – 5:30 PM / Thursday: 8:30 AM – 5:30 PM / Friday: 8:30 AM – 5:30 PM / Saturday: Closed / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJL9RvHuerQjQRcFmpttFdRv4",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "nittsu-logistics-thailand-co-ltd",
     "name": "Nittsu Logistics (Thailand) Co.,Ltd.",
-    "name_ja": null,
+    "name_ja": "Nittsu Logistics (Thailand) Co.,Ltd.",
     "area": "Pattaya",
     "address": "2032 Thanon Phetchaburi, Khwaeng Bang Kapi, Khet Huai Khwang, Krung Thep Maha Nakhon 10310, Thailand",
     "lat": 13.7465,
     "lng": 100.5735,
     "phone": "+6620807666",
     "website": null,
-    "description": "",
-    "tags": [],
+    "description": "タイ国内・日本間の引越し・配送サービスを提供。日本語での見積もり・手続きに対応。",
+    "tags": [
+      "引越し",
+      "日本語対応"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ45kidVuf4jAR0oj3HSy1-r8",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "nittsu-shoji-thailand-co-ltd-plc-branch",
     "name": "Nittsu Shoji (Thailand) Co.,Ltd.(PLC Branch)",
-    "name_ja": null,
+    "name_ja": "Nittsu Shoji (Thailand) Co.,Ltd.(PLC Branch)",
     "area": "Pattaya",
     "address": "Nong Kham, Si Racha District, Chon Buri 20110, Thailand",
     "lat": 13.1112,
     "lng": 101.0295,
     "phone": null,
     "website": null,
-    "description": "",
-    "tags": [],
+    "description": "タイ国内・日本間の引越し・配送サービスを提供。日本語での見積もり・手続きに対応。",
+    "tags": [
+      "引越し",
+      "日本語対応"
+    ],
     "hours": "Monday: 8:00 AM – 2:00 AM / Tuesday: 8:00 AM – 2:00 AM / Wednesday: 8:00 AM – 2:00 AM / Thursday: 8:00 AM – 2:00 AM / Friday: 8:00 AM – 2:00 AM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ4W5ByS3GAjERMlnZLubLu20",
-    "priority": 0
-  },
-  {
-    "slug": "-3",
-    "name": "บริษัท นิสซูโลจิสติกส์(ประเทศไทย)จำกัด บางปะกง",
-    "name_ja": null,
-    "area": "Pattaya",
-    "address": "9 24180 105 Moo 3, Tambon Hom Sin, Amphoe Bang Pakong, Chang Wat Chachoengsao 24180, Thailand",
-    "lat": 13.5939,
-    "lng": 100.9471,
-    "phone": null,
-    "website": null,
-    "description": "",
-    "tags": [],
-    "hours": "Monday: Open 24 hours / Tuesday: Open 24 hours / Wednesday: Open 24 hours / Thursday: Open 24 hours / Friday: Open 24 hours / Saturday: Open 24 hours / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJm5jZ1cRAHTERyWR2ZogP3Uk",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   }
 ]

@@ -17,7 +17,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "scl-nishimura-asahi",
@@ -37,7 +38,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "chandler-mhm",
@@ -57,7 +59,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "one-asia-lawyers-th",
@@ -76,7 +79,8 @@
     "hours": "月〜金 9:00-18:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "thai-zaijyuu-law-office",
@@ -96,7 +100,8 @@
     "hours": "24時間対応",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "alg-associates-bangkok",
@@ -116,7 +121,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "ilawjapan-bangkok",
@@ -135,7 +141,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "nagashima-ohno-tsunematsu-bangkok",
@@ -155,7 +162,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "nishizawa-legal-consulting-bangkok",
@@ -175,7 +183,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "bangkok-business-law",
@@ -195,7 +204,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "thaitry-law-accounting-bangkok",
@@ -215,7 +225,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "baker-mckenzie-japan-advisory-bangkok",
@@ -235,633 +246,727 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "scl-nishimura-and-asahi-limited",
     "name": "SCL Nishimura & Asahi Limited",
-    "name_ja": null,
+    "name_ja": "SCL Nishimura & Asahi Limited",
     "area": "Bangkok",
     "address": "34th Floor, Athenee Tower, 63 Thanon Witthayu, Khwaeng Lumphini, Pathum Wan, Krung Thep Maha Nakhon 10330, Thailand",
     "lat": 13.7409,
     "lng": 100.5486,
     "phone": "+6621269100",
     "website": "https://www.nishimura.com/en/offices/bangkok.html",
-    "description": "",
-    "tags": [],
+    "description": "タイで日系企業・日本人向けに法律相談・ビザ手続き・会社設立等の法務サービスを提供。日本語での対応が可能。",
+    "tags": [
+      "法律",
+      "日系企業向け",
+      "日本語対応"
+    ],
     "hours": "Monday: 9:00 AM – 5:00 PM / Tuesday: 9:00 AM – 5:00 PM / Wednesday: 9:00 AM – 5:00 PM / Thursday: 9:00 AM – 5:00 PM / Friday: 9:00 AM – 5:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJRWWdatye4jARnAK8Ce0RY3A",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "chandler-mori-hamada-limited",
     "name": "Chandler Mori Hamada Limited",
-    "name_ja": null,
+    "name_ja": "Chandler Mori Hamada Limited",
     "area": "Bangkok",
     "address": "Thailand, Bangkok, Bang Rak, Bangkok, 31st and 36th Floors⁠, Sathorn Square Office Tower⁠, 98 North Sathorn Road⁠, Silom⁠, Bangrak⁠, Bangkok 10500⁠",
     "lat": 13.7223,
     "lng": 100.5293,
     "phone": "+6620095000",
     "website": "https://chandler.morihamada.com/",
-    "description": "",
-    "tags": [],
+    "description": "タイで日系企業・日本人向けに法律相談・ビザ手続き・会社設立等の法務サービスを提供。日本語での対応が可能。",
+    "tags": [
+      "法律",
+      "日系企業向け",
+      "日本語対応"
+    ],
     "hours": "Monday: 8:30 AM – 5:30 PM / Tuesday: 8:30 AM – 5:30 PM / Wednesday: 8:30 AM – 5:30 PM / Thursday: 8:30 AM – 5:30 PM / Friday: 8:30 AM – 5:30 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJT38zfiWf4jARqviTc33Ml0w",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "tny-legal-2",
     "name": "TNY Legal",
-    "name_ja": null,
+    "name_ja": "TNY Legal",
     "area": "Bangkok",
     "address": "Thailand, Bangkok, Watthana, Wattana Alley 11/2 Room 19A P23 Building 19th Floor, Sukhumvit 23",
     "lat": 13.7373,
     "lng": 100.5628,
     "phone": "+6621270742",
     "website": "http://www.tny-legal.com/index.html",
-    "description": "",
-    "tags": [],
+    "description": "タイで日系企業・日本人向けに法律相談・ビザ手続き・会社設立等の法務サービスを提供。日本語での対応が可能。",
+    "tags": [
+      "法律",
+      "日系企業向け",
+      "日本語対応"
+    ],
     "hours": "Monday: 9:00 AM – 5:30 PM / Tuesday: 9:00 AM – 5:30 PM / Wednesday: 9:00 AM – 5:30 PM / Thursday: 9:00 AM – 5:30 PM / Friday: 9:00 AM – 5:30 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJmfg-0-Ke4jARoG7SXhfX5UI",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "kudun-and-partners-company-limited",
     "name": "KUDUN AND PARTNERS COMPANY LIMITED 泰国鲲鹏律师事务所",
-    "name_ja": null,
+    "name_ja": "KUDUN AND PARTNERS COMPANY LIMITED 泰国鲲鹏律师事务所",
     "area": "Bangkok",
     "address": "34/3 Vivre Langsuan, 4th, 5th, and 6th Floor, ซ.หลังสวน แขวงลุมพินี เขตปทุมวัน กรุงเทพมหานคร 10330, Thailand",
     "lat": 13.7417,
     "lng": 100.5434,
     "phone": "+6628381750",
     "website": "http://www.kap.co.th/",
-    "description": "",
-    "tags": [],
+    "description": "タイで日系企業・日本人向けに法律相談・ビザ手続き・会社設立等の法務サービスを提供。日本語での対応が可能。",
+    "tags": [
+      "法律",
+      "日系企業向け",
+      "日本語対応"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ28AdsNqe4jAR7YlPvLu4oS4",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "g-a-m-legal-alliance",
     "name": "G.A.M. Legal Alliance",
-    "name_ja": null,
+    "name_ja": "G.A.M. Legal Alliance",
     "area": "Bangkok",
     "address": "399 Sukhumvit Road, 22nd Level Interchange 21 Building, แขวงคลองเตยเหนือ เขตวัฒนา กรุงเทพมหานคร 10110, Thailand",
     "lat": 13.7365,
     "lng": 100.5618,
     "phone": "+6626112881",
     "website": "https://gam-legalalliance.com/",
-    "description": "",
-    "tags": [],
+    "description": "タイで日系企業・日本人向けに法律相談・ビザ手続き・会社設立等の法務サービスを提供。日本語での対応が可能。",
+    "tags": [
+      "法律",
+      "日系企業向け",
+      "日本語対応"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJfQJEH-Oe4jARpQspFg9YSgM",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "max-law-firm",
     "name": "MAX LAW FIRM",
-    "name_ja": null,
+    "name_ja": "MAX LAW FIRM",
     "area": "Bangkok",
     "address": "Soi Sukhumvit 3, Khwaeng Khlong Toei Nuea, Khet Khlong Toei, Krung Thep Maha Nakhon 10110, Thailand",
     "lat": 13.7424,
     "lng": 100.5529,
     "phone": "+6622555515",
     "website": "https://maxlawfirm.co.th/",
-    "description": "",
-    "tags": [],
+    "description": "タイで日系企業・日本人向けに法律相談・ビザ手続き・会社設立等の法務サービスを提供。日本語での対応が可能。",
+    "tags": [
+      "法律",
+      "日系企業向け",
+      "日本語対応"
+    ],
     "hours": "Monday: 10:00 AM – 6:00 PM / Tuesday: 10:00 AM – 6:00 PM / Wednesday: 10:00 AM – 6:00 PM / Thursday: 10:00 AM – 6:00 PM / Friday: 10:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ79g2neee4jARRaau16fIc1o",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "sandi-international-bangkok-office-co-ltd",
     "name": "S&I International Bangkok Office Co., Ltd.",
-    "name_ja": null,
+    "name_ja": "S&I International Bangkok Office Co., Ltd.",
     "area": "Bangkok",
     "address": "ชั้นที่ 23 253 Soi Asok, Khwaeng Khlong Toei Nuea, Watthana, Krung Thep Maha Nakhon 10110, Thailand",
     "lat": 13.747,
     "lng": 100.5628,
     "phone": "+6622616449",
     "website": "https://www.siasia.co.th/",
-    "description": "",
-    "tags": [],
+    "description": "タイで日系企業・日本人向けに法律相談・ビザ手続き・会社設立等の法務サービスを提供。日本語での対応が可能。",
+    "tags": [
+      "法律",
+      "日系企業向け",
+      "日本語対応"
+    ],
     "hours": "Monday: 8:30 AM – 4:30 PM / Tuesday: 8:30 AM – 4:30 PM / Wednesday: 8:30 AM – 4:30 PM / Thursday: 8:30 AM – 4:30 PM / Friday: 8:30 AM – 4:30 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ4R6tjhaS7CERkuzsP6yZ7Vs",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "chaninat-and-leeds",
     "name": "Chaninat & Leeds",
-    "name_ja": null,
+    "name_ja": "Chaninat & Leeds",
     "area": "Bangkok",
     "address": "10/154 18th floor Trendy office Soi Sukhumvit 13, Khwaeng Khlong Toei Nuea, Watthana, Krung Thep Maha Nakhon 10110, Thailand",
     "lat": 13.7403,
     "lng": 100.5577,
     "phone": "+6621687001",
     "website": "http://www.chaninatandleeds.com/",
-    "description": "",
-    "tags": [],
+    "description": "タイで日系企業・日本人向けに法律相談・ビザ手続き・会社設立等の法務サービスを提供。日本語での対応が可能。",
+    "tags": [
+      "法律",
+      "日系企業向け",
+      "日本語対応"
+    ],
     "hours": "Monday: 8:30 AM – 6:00 PM / Tuesday: 8:30 AM – 6:00 PM / Wednesday: 8:30 AM – 6:00 PM / Thursday: 8:30 AM – 6:00 PM / Friday: 8:30 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJPzcn2OWe4jARyhHeQr5RWO0",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "bangkok-translation-and-interpretation-service",
     "name": "Bangkok Translation and Interpretation Service",
-    "name_ja": null,
+    "name_ja": "Bangkok Translation and Interpretation Service",
     "area": "Bangkok",
     "address": "25, 17th Floor อาคารอัลมาลิ้งค์ Chit Lom Alley, แขวงลุมพินี เขตปทุมวัน กรุงเทพมหานคร 10330, Thailand",
     "lat": 13.7452,
     "lng": 100.5445,
     "phone": "+66979573343",
     "website": "https://www.bangkok-translation.com/",
-    "description": "",
-    "tags": [],
+    "description": "タイで日系企業・日本人向けに法律相談・ビザ手続き・会社設立等の法務サービスを提供。日本語での対応が可能。",
+    "tags": [
+      "法律",
+      "日系企業向け",
+      "日本語対応"
+    ],
     "hours": "Monday: 8:30 AM – 5:30 PM / Tuesday: 8:30 AM – 5:30 PM / Wednesday: 8:30 AM – 5:30 PM / Thursday: 8:30 AM – 5:30 PM / Friday: 8:30 AM – 5:30 PM / Saturday: 8:30 AM – 1:00 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJc3Q8q1ue4jAROwmAW5qQ-SM",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "shinjuku-international-law-firm",
     "name": "Shinjuku International Law Firm",
-    "name_ja": null,
+    "name_ja": "Shinjuku International Law Firm",
     "area": "Bangkok",
     "address": "Japan, 〒160-0004 Tokyo, Shinjuku City, Yotsuya, 4-chōme−２８−１５ 慶和ビル 8F",
     "lat": 35.6879,
     "lng": 139.7157,
     "phone": "+81359258423",
     "website": "https://www.criminaldefensejapan.com/",
-    "description": "",
-    "tags": [],
+    "description": "タイで日系企業・日本人向けに法律相談・ビザ手続き・会社設立等の法務サービスを提供。日本語での対応が可能。",
+    "tags": [
+      "法律",
+      "日系企業向け",
+      "日本語対応"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJKfVZFEaNGGARyiZf6hB8Xlw",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "baan-thai-immigration-solutions",
     "name": "Baan Thai Immigration Solutions",
-    "name_ja": null,
+    "name_ja": "Baan Thai Immigration Solutions",
     "area": "Bangkok",
     "address": "Suite 1102 Bangkok Building 208 Thanon Witthayu, Khwaeng Lumphini, Pathum Wan, Krung Thep Maha Nakhon 10330, Thailand",
     "lat": 13.7394,
     "lng": 100.5464,
     "phone": "+66934985955",
     "website": "https://btisolutions.co/",
-    "description": "",
-    "tags": [],
+    "description": "タイで日系企業・日本人向けに法律相談・ビザ手続き・会社設立等の法務サービスを提供。日本語での対応が可能。",
+    "tags": [
+      "法律",
+      "日系企業向け",
+      "日本語対応"
+    ],
     "hours": "Monday: 8:00 AM – 6:00 PM / Tuesday: 8:00 AM – 6:00 PM / Wednesday: 8:00 AM – 6:00 PM / Thursday: 8:00 AM – 6:00 PM / Friday: 8:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ085Jquuf4jARZlJPeIQIptY",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "alpha-legal-thailand-co-ltd",
     "name": "Alpha Legal (Thailand) Co., Ltd.",
-    "name_ja": null,
+    "name_ja": "Alpha Legal (Thailand) Co., Ltd.",
     "area": "Bangkok",
     "address": "33 Floor Interchange 21 Building, 399 Sukhumvit Rd, Khwaeng Khlong Toei Nuea, Watthana, Krung Thep Maha Nakhon 10110, Thailand",
     "lat": 13.737,
     "lng": 100.562,
     "phone": "+66644741697",
     "website": "https://alpha-legal.co.th/",
-    "description": "",
-    "tags": [],
+    "description": "タイで日系企業・日本人向けに法律相談・ビザ手続き・会社設立等の法務サービスを提供。日本語での対応が可能。",
+    "tags": [
+      "法律",
+      "日系企業向け",
+      "日本語対応"
+    ],
     "hours": "Monday: 9:30 AM – 6:30 PM / Tuesday: 9:30 AM – 6:30 PM / Wednesday: 9:30 AM – 6:30 PM / Thursday: 9:30 AM – 6:30 PM / Friday: 9:30 AM – 6:30 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJZRBtreGf4jARQLg8c4Ac_Ec",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "masuvalley-and-partners-co-ltd",
     "name": "Masuvalley and Partners Co., Ltd.",
-    "name_ja": null,
+    "name_ja": "Masuvalley and Partners Co., Ltd.",
     "area": "Bangkok",
     "address": "52 Suite1B, สุขุมวิท 39 แขวงคลองเตยเหนือ เขตวัฒนา กรุงเทพมหานคร 10110, Thailand",
     "lat": 13.738,
     "lng": 100.5723,
     "phone": "+6622620802",
     "website": "http://www.masuvalley.net/",
-    "description": "",
-    "tags": [],
+    "description": "タイで日系企業・日本人向けに法律相談・ビザ手続き・会社設立等の法務サービスを提供。日本語での対応が可能。",
+    "tags": [
+      "法律",
+      "日系企業向け",
+      "日本語対応"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJl4OhPP-e4jAR-pXxnmNTu7A",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "gva-law-office-thailand-co-ltd",
     "name": "GVA Law Office (Thailand) Co.,Ltd.",
-    "name_ja": null,
+    "name_ja": "GVA Law Office (Thailand) Co.,Ltd.",
     "area": "Bangkok",
     "address": "7th Floor, 2525, Unit, 1, FYI Center, 707 ถ. พระรามที่ 4 แขวงคลองเตย เขตคลองเตย กรุงเทพมหานคร 10110, Thailand",
     "lat": 13.7205,
     "lng": 100.5601,
     "phone": "+6621169269",
     "website": "https://gvalaw.jp/en",
-    "description": "",
-    "tags": [],
+    "description": "タイで日系企業・日本人向けに法律相談・ビザ手続き・会社設立等の法務サービスを提供。日本語での対応が可能。",
+    "tags": [
+      "法律",
+      "日系企業向け",
+      "日本語対応"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJszvDBIWf4jAR2eKZpffsYdA",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "vfs-global-japan-visa-application-centre",
     "name": "VFS Global - Japan Visa Application Centre",
-    "name_ja": null,
+    "name_ja": "VFS Global - Japan Visa Application Centre",
     "area": "Bangkok",
     "address": "One PACIFIC PLACE 9th FL, 910, Unit #, 140 ถ. สุขุมวิท แขวงคลองเตย เขตคลองเตย กรุงเทพมหานคร 10110, Thailand",
     "lat": 13.7408,
     "lng": 100.5545,
     "phone": null,
     "website": "https://visa.vfsglobal.com/one-pager/japan/thailand/thai/",
-    "description": "",
-    "tags": [],
+    "description": "タイで日系企業・日本人向けに法律相談・ビザ手続き・会社設立等の法務サービスを提供。日本語での対応が可能。",
+    "tags": [
+      "法律",
+      "日系企業向け",
+      "日本語対応"
+    ],
     "hours": "Monday: 8:30 AM – 6:00 PM / Tuesday: 8:30 AM – 6:00 PM / Wednesday: 8:30 AM – 6:00 PM / Thursday: 8:30 AM – 6:00 PM / Friday: 8:30 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJDb0PBvuf4jAR_ETA2UZXE80",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "masayuki-honda-international-law-office-lpc",
     "name": "Masayuki Honda International Law Office, LPC",
-    "name_ja": null,
+    "name_ja": "Masayuki Honda International Law Office, LPC",
     "area": "Bangkok",
     "address": "Japan, 〒150-0022 Tokyo, Shibuya, Ebisuminami, 1-chōme−25−１ 恵比寿プラックスビル ６階",
     "lat": 35.6428,
     "lng": 139.7119,
     "phone": "+81364551273",
     "website": "http://www.honda-law.net/",
-    "description": "",
-    "tags": [],
+    "description": "タイで日系企業・日本人向けに法律相談・ビザ手続き・会社設立等の法務サービスを提供。日本語での対応が可能。",
+    "tags": [
+      "法律",
+      "日系企業向け",
+      "日本語対応"
+    ],
     "hours": "Monday: 9:30 AM – 5:00 PM / Tuesday: 9:30 AM – 5:00 PM / Wednesday: 9:30 AM – 5:00 PM / Thursday: 9:30 AM – 5:00 PM / Friday: 9:30 AM – 5:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJRVPFoz-LGGARmUlZfbB0A58",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "thailand-bail",
     "name": "Thailand Bail",
-    "name_ja": null,
+    "name_ja": "Thailand Bail",
     "area": "Bangkok",
     "address": "12, Wat Sri Rat Street, Tambon Bang Len, Amphoe Bang Yai, Chang Wat Nonthaburi 11140, Thailand",
     "lat": 13.8559,
     "lng": 100.4368,
     "phone": "+66808734042",
     "website": "https://www.thailandbail.com/",
-    "description": "",
-    "tags": [],
+    "description": "タイで日系企業・日本人向けに法律相談・ビザ手続き・会社設立等の法務サービスを提供。日本語での対応が可能。",
+    "tags": [
+      "法律",
+      "日系企業向け",
+      "日本語対応"
+    ],
     "hours": "Monday: Open 24 hours / Tuesday: Open 24 hours / Wednesday: Open 24 hours / Thursday: Open 24 hours / Friday: Open 24 hours / Saturday: Open 24 hours / Sunday: Open 24 hours",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJL0QyPeiR4jAR-9fyM19lohI",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "asia-visa-consulting",
     "name": "Asia Visa Consulting",
-    "name_ja": null,
+    "name_ja": "Asia Visa Consulting",
     "area": "Bangkok",
     "address": "8 Thanon Ratchadaphisek, Khwaeng Khlong Toei, Khet Khlong Toei, Krung Thep Maha Nakhon 10110, Thailand",
     "lat": 13.7353,
     "lng": 100.5609,
     "phone": "+6622294855",
     "website": "https://www.asiavisa.net/",
-    "description": "",
-    "tags": [],
+    "description": "タイで日系企業・日本人向けに法律相談・ビザ手続き・会社設立等の法務サービスを提供。日本語での対応が可能。",
+    "tags": [
+      "法律",
+      "日系企業向け",
+      "日本語対応"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJJXfE1LSf4jARPIhMbH-L28U",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "thailand-arbitration-center",
     "name": "Thailand Arbitration Center",
-    "name_ja": null,
+    "name_ja": "Thailand Arbitration Center",
     "area": "Bangkok",
     "address": "อาคารสถาบันเพื่อการยุติธรรมแห่งประเทศไทย (TIJ, 999 ชั้น4 Thanon Chaeng Watthana, Khwaeng Thung Song Hong, Khet Lak Si, Krung Thep Maha Nakhon 10210, Thailand",
     "lat": 13.8898,
     "lng": 100.5715,
     "phone": "+6620181615",
     "website": "http://www.thac.or.th/",
-    "description": "",
-    "tags": [],
+    "description": "タイで日系企業・日本人向けに法律相談・ビザ手続き・会社設立等の法務サービスを提供。日本語での対応が可能。",
+    "tags": [
+      "法律",
+      "日系企業向け",
+      "日本語対応"
+    ],
     "hours": "Monday: 9:00 AM – 5:00 PM / Tuesday: 9:00 AM – 5:00 PM / Wednesday: 9:00 AM – 5:00 PM / Thursday: 9:00 AM – 5:00 PM / Friday: 9:00 AM – 5:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJF8vkkgGf4jARaN6YZ-OCNLg",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "zero-asia-laboratory-co-ltd",
     "name": "ZERO ASIA LABORATORY CO., LTD.",
-    "name_ja": null,
+    "name_ja": "ZERO ASIA LABORATORY CO., LTD.",
     "area": "Bangkok",
     "address": "BUILDING 5th Fl, MAHANAKHON CENTER อาคารมหานคร เซ็นเตอร์, 2 Soi Silom 9, Si Lom, Khet Bang Rak, Krung Thep Maha Nakhon 10500, Thailand",
     "lat": 13.7244,
     "lng": 100.5273,
     "phone": "+66971368379",
     "website": "https://zero-asia.biz/",
-    "description": "",
-    "tags": [],
+    "description": "タイで日系企業・日本人向けに法律相談・ビザ手続き・会社設立等の法務サービスを提供。日本語での対応が可能。",
+    "tags": [
+      "法律",
+      "日系企業向け",
+      "日本語対応"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ-w-Zi9KY4jAREQEKjiCiXXs",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "paulandmuse",
     "name": "PAUL&MUSE 会計事務所",
-    "name_ja": null,
+    "name_ja": "PAUL&MUSE 会計事務所",
     "area": "Bangkok",
     "address": "Skulthai Surawong Tower, 41th FL 141 Surawong Rd, Khwaeng Suriya Wong, Khet Bang Rak, Krung Thep Maha Nakhon 10500, Thailand",
     "lat": 13.7289,
     "lng": 100.5293,
     "phone": "+6622334597",
     "website": "http://paul-muse.com/",
-    "description": "",
-    "tags": [],
+    "description": "タイで日系企業・日本人向けに法律相談・ビザ手続き・会社設立等の法務サービスを提供。日本語での対応が可能。",
+    "tags": [
+      "法律",
+      "日系企業向け",
+      "日本語対応"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJR-Wzziyf4jARqWNsC9d4T1U",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "algandassociates-thailand-co-ltd",
     "name": "ALG&Associates(THAILAND) CO.,LTD.",
-    "name_ja": null,
+    "name_ja": "ALG&Associates(THAILAND) CO.,LTD.",
     "area": "Bangkok",
     "address": "246, 11F, Times Square, 11-04A ถ. สุขุมวิท แขวงคลองเตย เขตคลองเตย กรุงเทพมหานคร 10110, Thailand",
     "lat": 13.7377,
     "lng": 100.5587,
     "phone": "+6622545799",
     "website": "https://alg-asean.com/",
-    "description": "",
-    "tags": [],
+    "description": "タイで日系企業・日本人向けに法律相談・ビザ手続き・会社設立等の法務サービスを提供。日本語での対応が可能。",
+    "tags": [
+      "法律",
+      "日系企業向け",
+      "日本語対応"
+    ],
     "hours": "Monday: 10:00 AM – 6:00 PM / Tuesday: 10:00 AM – 6:00 PM / Wednesday: 10:00 AM – 6:00 PM / Thursday: 10:00 AM – 6:00 PM / Friday: 10:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ93JXhH6f4jARj7i9BhwkoQY",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "nishimura-and-asahi-singapore-llp",
     "name": "Nishimura & Asahi (Singapore) LLP",
-    "name_ja": null,
+    "name_ja": "Nishimura & Asahi (Singapore) LLP",
     "area": "Chiang Mai",
     "address": "79 Robinson Rd, #14-01, Singapore 068897",
     "lat": 1.2775,
     "lng": 103.8481,
     "phone": "+6569227670",
     "website": "https://www.nishimura.com/",
-    "description": "",
-    "tags": [],
+    "description": "タイで日系企業・日本人向けに法律相談・ビザ手続き・会社設立等の法務サービスを提供。日本語での対応が可能。",
+    "tags": [
+      "法律",
+      "日系企業向け",
+      "日本語対応"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJlf5a5w4Z2jERVuPNZmgX4LM",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "japan-expert-immigration-law-firm",
     "name": "Japan Expert Immigration Law Firm",
-    "name_ja": null,
+    "name_ja": "Japan Expert Immigration Law Firm",
     "area": "Chiang Mai",
     "address": "Japan, 〒162-0825 Tokyo, Shinjuku City, Kagurazaka, 6-chōme−４２ 7階",
     "lat": 35.7036,
     "lng": 139.7351,
     "phone": null,
     "website": "https://krh-office.com/en/contact-us/",
-    "description": "",
-    "tags": [],
+    "description": "タイで日系企業・日本人向けに法律相談・ビザ手続き・会社設立等の法務サービスを提供。日本語での対応が可能。",
+    "tags": [
+      "法律",
+      "日系企業向け",
+      "日本語対応"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJGyYiKdaMGGARigp2JvDUfRs",
-    "priority": 0
-  },
-  {
-    "slug": "",
-    "name": "西村朝日台灣法律事務所",
-    "name_ja": null,
-    "area": "Chiang Mai",
-    "address": "110413, Taiwan, Taipei City, Xinyi District, Songren Rd, 89號 7F., Exchange Square 1 No",
-    "lat": 25.037,
-    "lng": 121.5692,
-    "phone": "+886287297900",
-    "website": "https://www.nishimura.com/tw",
-    "description": "",
-    "tags": [],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJrakRgaurQjQRNh-Tye1SJHI",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "tmi",
     "name": "TMI総合法律事務所 東京オフィス",
-    "name_ja": null,
+    "name_ja": "TMI総合法律事務所 東京オフィス",
     "area": "Chiang Mai",
     "address": "Japan, 〒106-0032 Tokyo, Minato City, Roppongi, 6-chōme−10−１ ヒルズ森タワ 23F",
     "lat": 35.6607,
     "lng": 139.7292,
     "phone": "+81364385511",
     "website": "https://www.tmi.gr.jp/",
-    "description": "",
-    "tags": [],
+    "description": "タイで日系企業・日本人向けに法律相談・ビザ手続き・会社設立等の法務サービスを提供。日本語での対応が可能。",
+    "tags": [
+      "法律",
+      "日系企業向け",
+      "日本語対応"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJu9PoCHeLGGARwoIY9CuyBfk",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "nishimura-and-asahi-vietnam-law-firm",
     "name": "Nishimura & Asahi (Vietnam) Law Firm",
-    "name_ja": null,
+    "name_ja": "Nishimura & Asahi (Vietnam) Law Firm",
     "area": "Chiang Mai",
     "address": "Unit CP1.31.02, 31st Floor Tower 1, Capital Place, No. 29 P. Liễu Giai, Street, Ward, Hà Nội, Vietnam",
     "lat": 21.0317,
     "lng": 105.8138,
     "phone": "+842439460870",
     "website": "https://www.nishimura.com/en/global-coverage/vietnam",
-    "description": "",
-    "tags": [],
+    "description": "タイで日系企業・日本人向けに法律相談・ビザ手続き・会社設立等の法務サービスを提供。日本語での対応が可能。",
+    "tags": [
+      "法律",
+      "日系企業向け",
+      "日本語対応"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJn1Vg8uurNTERyT4KV4mj7m0",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "nagoya-kokusai-law-offices",
     "name": "Nagoya Kokusai Law Offices",
-    "name_ja": null,
+    "name_ja": "Nagoya Kokusai Law Offices",
     "area": "Chiang Mai",
     "address": "Japan, 〒460-0002 Aichi, Nagoya, Naka Ward, Marunouchi, 2-chōme−6−２１ アクセス丸の内ビル",
     "lat": 35.1761,
     "lng": 136.9007,
     "phone": "+81524334100",
     "website": "https://nagoya-intlaw.com/",
-    "description": "",
-    "tags": [],
+    "description": "タイで日系企業・日本人向けに法律相談・ビザ手続き・会社設立等の法務サービスを提供。日本語での対応が可能。",
+    "tags": [
+      "法律",
+      "日系企業向け",
+      "日本語対応"
+    ],
     "hours": "Monday: 9:15 AM – 8:00 PM / Tuesday: 9:15 AM – 8:00 PM / Wednesday: 9:15 AM – 8:00 PM / Thursday: 9:15 AM – 8:00 PM / Friday: 9:15 AM – 8:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJm8MoHj53A2ARdfGjWYSBK8Y",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "nishizawasogo-law-offices",
     "name": "Nishizawasogo Law Offices",
-    "name_ja": null,
+    "name_ja": "Nishizawasogo Law Offices",
     "area": "Chiang Mai",
     "address": "Japan, 〒105-0003 Tokyo, Minato City, Nishishinbashi, 3-chōme−15−１３ 西新橋ＡＩビル 4F",
     "lat": 35.665,
     "lng": 139.7499,
     "phone": "+81334326770",
     "website": "http://www.nishizawa-law.com/",
-    "description": "",
-    "tags": [],
+    "description": "タイで日系企業・日本人向けに法律相談・ビザ手続き・会社設立等の法務サービスを提供。日本語での対応が可能。",
+    "tags": [
+      "法律",
+      "日系企業向け",
+      "日本語対応"
+    ],
     "hours": "Monday: 9:30 AM – 6:30 PM / Tuesday: 9:30 AM – 6:30 PM / Wednesday: 9:30 AM – 6:30 PM / Thursday: 9:30 AM – 6:30 PM / Friday: 9:30 AM – 6:30 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJq6qeYpSLGGARcw8diK4LFc8",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "az-more",
     "name": "AZ MORE国際法律事務所大阪事務所",
-    "name_ja": null,
+    "name_ja": "AZ MORE国際法律事務所大阪事務所",
     "area": "Chiang Mai",
     "address": "Japan, 〒530-0047 Osaka, Kita Ward, Nishitenma, 1-chōme−7−４ 協和中之島ビル ５階",
     "lat": 34.6939,
     "lng": 135.5072,
     "phone": "+81668091170",
     "website": "https://azmorelaw.com/",
-    "description": "",
-    "tags": [],
+    "description": "タイで日系企業・日本人向けに法律相談・ビザ手続き・会社設立等の法務サービスを提供。日本語での対応が可能。",
+    "tags": [
+      "法律",
+      "日系企業向け",
+      "日本語対応"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJcV8uTpLnAGARgNZIn8zf2Co",
-    "priority": 0
-  },
-  {
-    "slug": "-2",
-    "name": "弁護士法人西村綜合法律事務所 東京事務所",
-    "name_ja": null,
-    "area": "Chiang Mai",
-    "address": "Japan, 〒105-0004 Tokyo, Minato City, Shinbashi, 1-chōme−1−１３ アーバンネット内幸町ビル 3F",
-    "lat": 35.6691,
-    "lng": 139.7564,
-    "phone": "+81332373515",
-    "website": "https://nishimuralawoffice.com/",
-    "description": "",
-    "tags": [],
-    "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJF8x8VrmNGGARYk00g05swjo",
-    "priority": 0
-  },
-  {
-    "slug": "-3",
-    "name": "弁護士法人黒田法律事務所｜港区・中国法務・台湾法務",
-    "name_ja": null,
-    "area": "Chiang Mai",
-    "address": "Japan, 〒107-0062 Tokyo, Minato City, Minamiaoyama, 2-chōme−4, ２丁目４−９KLO南青山ビル",
-    "lat": 35.6708,
-    "lng": 139.7231,
-    "phone": "+81357755301",
-    "website": "https://www.kuroda-law.gr.jp/",
-    "description": "",
-    "tags": [],
-    "hours": "Monday: 9:30 AM – 6:00 PM / Tuesday: 9:30 AM – 6:00 PM / Wednesday: 9:30 AM – 6:00 PM / Thursday: 9:30 AM – 6:00 PM / Friday: 9:30 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJAQAQpJGLGGARcpsrFrxS1Lw",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "tmi-associates-osaka-office",
     "name": "TMI Associates Osaka office",
-    "name_ja": null,
+    "name_ja": "TMI Associates Osaka office",
     "area": "Phuket",
     "address": "Japan, 〒530-0017 Osaka, Kita Ward, Kakudachō, 8−１ UMEDA HANKYU BUILDING, 36階",
     "lat": 34.7028,
     "lng": 135.4985,
     "phone": "+81663110577",
     "website": "https://www.tmi.gr.jp/about/bases/osaka-office.html",
-    "description": "",
-    "tags": [],
+    "description": "タイで日系企業・日本人向けに法律相談・ビザ手続き・会社設立等の法務サービスを提供。日本語での対応が可能。",
+    "tags": [
+      "法律",
+      "日系企業向け",
+      "日本語対応"
+    ],
     "hours": "Monday: 9:30 AM – 6:00 PM / Tuesday: 9:30 AM – 6:00 PM / Wednesday: 9:30 AM – 6:00 PM / Thursday: 9:30 AM – 6:00 PM / Friday: 9:30 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJB6oyV5LmAGARjKcWc3FobUY",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   }
 ]

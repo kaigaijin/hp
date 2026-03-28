@@ -16,7 +16,8 @@
     "hours": "月-金 8:45-16:45",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "pacific-cross-health-insurance",
@@ -35,7 +36,8 @@
     "hours": "月-金 8:30-17:30（カスタマーサービスは24時間）",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "mitsui-sumitomo-insurance-thailand",
@@ -55,7 +57,8 @@
     "hours": "月-金 8:30-17:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "aia-kyosai-thailand",
@@ -75,7 +78,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "sompo-insurance-thailand",
@@ -95,7 +99,8 @@
     "hours": "月-金 8:30-17:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "japanese-mutual-aid-association-thailand",
@@ -114,7 +119,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "aioi-nissay-dowa-insurance-thailand",
@@ -134,7 +140,8 @@
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "ocean-life-insurance-thailand",
@@ -153,7 +160,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "allianz-ayudhya-japanese-service",
@@ -173,7 +181,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "tokio-marine-life-insurance-thailand",
@@ -193,7 +202,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "hokenshirithai-insurance-advisor",
@@ -213,386 +223,421 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "pacific-cross-health-insurance-2",
     "name": "Pacific Cross Health Insurance",
-    "name_ja": null,
+    "name_ja": "Pacific Cross Health Insurance",
     "area": "Bangkok",
     "address": "3 Rajanakarn Building, 16th Floor, Zone BC, ถ. สาทรใต้ แขวงยานนาวา เขตสาทร กรุงเทพมหานคร 10120, Thailand",
     "lat": 13.721,
     "lng": 100.5295,
     "phone": "+6624019189",
     "website": "http://www.pacificcrosshealth.com/",
-    "description": "",
-    "tags": [],
+    "description": "タイで日本人向けに生命保険・医療保険・自動車保険等の保険商品を提供。日本語での相談・手続きに対応。",
+    "tags": [
+      "保険",
+      "日本語対応"
+    ],
     "hours": "Monday: 8:30 AM – 5:30 PM / Tuesday: 8:30 AM – 5:30 PM / Wednesday: 8:30 AM – 5:30 PM / Thursday: 8:30 AM – 5:30 PM / Friday: 8:30 AM – 5:30 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ6ZIrQs-Y4jARTf8P4fGrs-g",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "tokio-marine-insurance",
     "name": "Tokio Marine Insurance",
-    "name_ja": null,
+    "name_ja": "Tokio Marine Insurance",
     "area": "Bangkok",
     "address": "ชั้น 1-2 Orakarn Building, เลขที่ 26 5-8 Chit Lom Rd, Khwaeng Lumphini, Pathum Wan, Krung Thep Maha Nakhon 10330, Thailand",
     "lat": 13.7463,
     "lng": 100.5437,
     "phone": "+6622578000",
     "website": "https://www.tokiomarine.com/th/th/non-life.html",
-    "description": "",
-    "tags": [],
+    "description": "タイで日本人向けに生命保険・医療保険・自動車保険等の保険商品を提供。日本語での相談・手続きに対応。",
+    "tags": [
+      "保険",
+      "日本語対応"
+    ],
     "hours": "Monday: 8:30 AM – 4:45 PM / Tuesday: 8:30 AM – 4:45 PM / Wednesday: 8:30 AM – 4:45 PM / Thursday: 8:30 AM – 4:45 PM / Friday: 8:30 AM – 4:45 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ80t52MSe4jARLFmoL9jc_30",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "mitsui-sumitomo-insurance-co-ltd-thailand-branch",
     "name": "Mitsui Sumitomo Insurance Co., Ltd. Thailand Branch",
-    "name_ja": null,
+    "name_ja": "Mitsui Sumitomo Insurance Co., Ltd. Thailand Branch",
     "area": "Bangkok",
     "address": "175 อาคาร สาทร ซิตี้ S Sathon Rd, Khwaeng Thung Maha Mek, Khet Sathon, Krung Thep Maha Nakhon 10120, Thailand",
     "lat": 13.7216,
     "lng": 100.5316,
     "phone": "+6626796165",
     "website": "http://www.ms-ins.co.th",
-    "description": "",
-    "tags": [],
+    "description": "タイで日本人向けに生命保険・医療保険・自動車保険等の保険商品を提供。日本語での相談・手続きに対応。",
+    "tags": [
+      "保険",
+      "日本語対応"
+    ],
     "hours": "Monday: 8:30 AM – 5:00 PM / Tuesday: 8:30 AM – 5:00 PM / Wednesday: 8:30 AM – 5:00 PM / Thursday: 8:30 AM – 5:00 PM / Friday: 8:30 AM – 5:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJWY-_hTKf4jAR-wzpkYb98Po",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "sompo-insurance-thailand-pcl",
     "name": "Sompo Insurance (Thailand) PCL",
-    "name_ja": null,
+    "name_ja": "Sompo Insurance (Thailand) PCL",
     "area": "Bangkok",
     "address": "23rd, 24th Floor Punn Tower 1152 Thanon Rama IV, Khwaeng Khlong Toei, Khet Khlong Toei, Krung Thep Maha Nakhon 10110, Thailand",
     "lat": 13.7211,
     "lng": 100.5562,
     "phone": "+6621193000",
     "website": "https://www.sompo.co.th/",
-    "description": "",
-    "tags": [],
+    "description": "タイで日本人向けに生命保険・医療保険・自動車保険等の保険商品を提供。日本語での相談・手続きに対応。",
+    "tags": [
+      "保険",
+      "日本語対応"
+    ],
     "hours": "Monday: 8:30 AM – 5:00 PM / Tuesday: 8:30 AM – 5:00 PM / Wednesday: 8:30 AM – 5:00 PM / Thursday: 8:30 AM – 5:00 PM / Friday: 8:30 AM – 5:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ2RGPzg-f4jAR9iRB9kzP0ZI",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "global-support-thailand-co-ltd",
     "name": "Global Support（Thailand）Co.,Ltd",
-    "name_ja": null,
+    "name_ja": "Global Support（Thailand）Co.,Ltd",
     "area": "Bangkok",
     "address": "571 RSU TOWER 3/F, ถ. สุขุมวิท Klongton-Nua, เขตวัฒนา กรุงเทพมหานคร 10110, Thailand",
     "lat": 13.7334,
     "lng": 100.5663,
     "phone": "+66881871036",
     "website": "https://globalsupportthailand.com/",
-    "description": "",
-    "tags": [],
+    "description": "タイで日本人向けに生命保険・医療保険・自動車保険等の保険商品を提供。日本語での相談・手続きに対応。",
+    "tags": [
+      "保険",
+      "日本語対応"
+    ],
     "hours": "Monday: 8:00 AM – 10:00 PM / Tuesday: 8:00 AM – 10:00 PM / Wednesday: 8:00 AM – 10:00 PM / Thursday: 8:00 AM – 10:00 PM / Friday: 8:00 AM – 8:00 PM / Saturday: 8:00 AM – 8:00 PM / Sunday: 8:00 AM – 10:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJxUVBTcuf4jARaXPat9lJCAQ",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "luma",
     "name": "LUMA",
-    "name_ja": null,
+    "name_ja": "LUMA",
     "area": "Bangkok",
     "address": "Unit 912, 9th Floor, 57 Park Ventures Ecoplex, Thanon Witthayu, Khwaeng Lumphini, Pathum Wan, Krung Thep Maha Nakhon 10330, Thailand",
     "lat": 13.7427,
     "lng": 100.5479,
     "phone": "+6624943600",
     "website": "https://www.lumahealth.com/",
-    "description": "",
-    "tags": [],
+    "description": "タイで日本人向けに生命保険・医療保険・自動車保険等の保険商品を提供。日本語での相談・手続きに対応。",
+    "tags": [
+      "保険",
+      "日本語対応"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJoRtq9Nye4jAR7fyOckZLzQ4",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "j-clinic-ekkamai",
     "name": "J-CLINIC Ekkamai",
-    "name_ja": null,
+    "name_ja": "J-CLINIC Ekkamai",
     "area": "Bangkok",
     "address": "ชั้น 3 ห้อง 2, Bangkok Mediplex, 66 Sukhumvit 42, พระโขนง, Khet Khlong Toei, Krung Thep Maha Nakhon 10110, Thailand",
     "lat": 13.7192,
     "lng": 100.5846,
     "phone": "+6621158433",
     "website": "https://jclinicth.com/",
-    "description": "",
-    "tags": [],
+    "description": "タイで日本人向けに生命保険・医療保険・自動車保険等の保険商品を提供。日本語での相談・手続きに対応。",
+    "tags": [
+      "保険",
+      "日本語対応"
+    ],
     "hours": "Monday: 9:00 AM – 6:30 PM / Tuesday: 9:00 AM – 6:30 PM / Wednesday: 9:00 AM – 6:30 PM / Thursday: 9:00 AM – 6:30 PM / Friday: 9:00 AM – 6:30 PM / Saturday: 9:00 AM – 6:30 PM / Sunday: 9:00 AM – 6:30 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJYxJlPq-f4jARIz-gTbhOzXA",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "bangkok-youth-center-thai-japan",
     "name": "Bangkok Youth Center (Thai - Japan)",
-    "name_ja": null,
+    "name_ja": "Bangkok Youth Center (Thai - Japan)",
     "area": "Bangkok",
     "address": "2 Thanon Mit Maitri, Khwaeng Din Daeng, Khet Din Daeng, Krung Thep Maha Nakhon 10400, Thailand",
     "lat": 13.7672,
     "lng": 100.5522,
     "phone": "+6622454743",
     "website": "http://www.bangkok.go.th/thai_japan",
-    "description": "",
-    "tags": [],
+    "description": "タイで日本人向けに生命保険・医療保険・自動車保険等の保険商品を提供。日本語での相談・手続きに対応。",
+    "tags": [
+      "保険",
+      "日本語対応"
+    ],
     "hours": "Monday: Closed / Tuesday: 4:30 AM – 10:00 PM / Wednesday: 4:30 AM – 10:00 PM / Thursday: 4:30 AM – 10:00 PM / Friday: 4:30 AM – 10:00 PM / Saturday: 4:30 AM – 10:00 PM / Sunday: 1:00 – 10:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJtxA555ee4jAR1i4k7iOEEOM",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "bk-group-of-companies-prabhu-co-ltd-japan",
     "name": "BK Group Of Companies(Prabhu Co., Ltd, Japan)",
-    "name_ja": null,
+    "name_ja": "BK Group Of Companies(Prabhu Co., Ltd, Japan)",
     "area": "Bangkok",
     "address": "Ocean Tower II, Floor 24, Soi 19, Sukhumvit Road., KlongToey Nua, Khet Wanttana, Bankok, 10110, แขวงคลองเตยเหนือ เขตวัฒนา กรุงเทพมหานคร 10110, Thailand",
     "lat": 13.7431,
     "lng": 100.5614,
     "phone": "+6623367965",
     "website": null,
-    "description": "",
-    "tags": [],
+    "description": "タイで日本人向けに生命保険・医療保険・自動車保険等の保険商品を提供。日本語での相談・手続きに対応。",
+    "tags": [
+      "保険",
+      "日本語対応"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJUb1MEuWe4jAR7tGowNjDBvE",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "insurance110-thailand",
     "name": "Insurance110 Thailand",
-    "name_ja": null,
+    "name_ja": "Insurance110 Thailand",
     "area": "Bangkok",
     "address": "15, MTower 15/1, Soi Sukhumvit Soi35, ถ. สุขุมวิท Klongton-nua, เขตวัฒนา กรุงเทพมหานคร 10110, Thailand",
     "lat": 13.7333,
     "lng": 100.5692,
     "phone": "+66886236978",
     "website": null,
-    "description": "",
-    "tags": [],
+    "description": "タイで日本人向けに生命保険・医療保険・自動車保険等の保険商品を提供。日本語での相談・手続きに対応。",
+    "tags": [
+      "保険",
+      "日本語対応"
+    ],
     "hours": "Monday: 10:00 AM – 6:00 PM / Tuesday: 10:00 AM – 6:00 PM / Wednesday: 10:00 AM – 6:00 PM / Thursday: 10:00 AM – 6:00 PM / Friday: 10:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJbWXfWIif4jARWwSTp_xh1g4",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "nippon-export-and-investment-insurance",
     "name": "Nippon Export and Investment Insurance",
-    "name_ja": null,
+    "name_ja": "Nippon Export and Investment Insurance",
     "area": "Chiang Mai",
     "address": "Japan, 〒101-0065 Tokyo, Chiyoda City, Nishikanda, 3-chōme−8−１ 千代田ファーストビル 東館 5F",
     "lat": 35.6984,
     "lng": 139.7538,
     "phone": null,
     "website": "https://www.nexi.go.jp/",
-    "description": "",
-    "tags": [],
+    "description": "タイで日本人向けに生命保険・医療保険・自動車保険等の保険商品を提供。日本語での相談・手続きに対応。",
+    "tags": [
+      "保険",
+      "日本語対応"
+    ],
     "hours": "Monday: 9:00 AM – 5:30 PM / Tuesday: 9:00 AM – 5:30 PM / Wednesday: 9:00 AM – 5:30 PM / Thursday: 9:00 AM – 5:30 PM / Friday: 9:00 AM – 5:30 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJG-PcQRWMGGARgKFVWvVI9ZI",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "phuket-post-office",
     "name": "Phuket Post Office",
-    "name_ja": null,
+    "name_ja": "Phuket Post Office",
     "area": "Phuket",
     "address": "12 16 Montri Rd, Tambon Talat Yai, Amphoe Mueang Phuket, Chang Wat Phuket 83000, Thailand",
     "lat": 7.8843,
     "lng": 98.3926,
     "phone": "+6676211010",
     "website": "http://www.thailandpost.com",
-    "description": "",
-    "tags": [],
+    "description": "タイで日本人向けに生命保険・医療保険・自動車保険等の保険商品を提供。日本語での相談・手続きに対応。",
+    "tags": [
+      "保険",
+      "日本語対応"
+    ],
     "hours": "Monday: 8:00 AM – 7:00 PM / Tuesday: 8:00 AM – 7:00 PM / Wednesday: 8:00 AM – 7:00 PM / Thursday: 8:00 AM – 7:00 PM / Friday: 8:00 AM – 7:00 PM / Saturday: 8:30 AM – 4:30 PM / Sunday: 8:30 AM – 4:30 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ7S_JpvkxUDARjMOCtFZldRY",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "msig-insurance-thailand-pcl",
     "name": "MSIG Insurance (Thailand) PCL",
-    "name_ja": null,
+    "name_ja": "MSIG Insurance (Thailand) PCL",
     "area": "Phuket",
     "address": "56 ตัดใหม่ 399-400 Chaofadowroong Rd, Tambon Wichit, เมือง Chang Wat Phuket 83000, Thailand",
     "lat": 7.8708,
     "lng": 98.3712,
     "phone": "+6676217041",
     "website": "http://www.msig-thai.com/",
-    "description": "",
-    "tags": [],
+    "description": "タイで日本人向けに生命保険・医療保険・自動車保険等の保険商品を提供。日本語での相談・手続きに対応。",
+    "tags": [
+      "保険",
+      "日本語対応"
+    ],
     "hours": "Monday: 8:30 AM – 5:00 PM / Tuesday: 8:30 AM – 5:00 PM / Wednesday: 8:30 AM – 5:00 PM / Thursday: 8:30 AM – 5:00 PM / Friday: 8:30 AM – 5:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJayJ0byEuUDARe1o4uxuw07o",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "bangkok-hospital-pattaya",
     "name": "Bangkok Hospital Pattaya",
-    "name_ja": null,
+    "name_ja": "Bangkok Hospital Pattaya",
     "area": "Pattaya",
     "address": "301, Sukhumvit Rd, Muang Pattaya, Amphoe Bang Lamung, Chang Wat Chon Buri 20150, Thailand",
     "lat": 12.9538,
     "lng": 100.9056,
     "phone": "+6638259999",
     "website": "https://www.bangkokhospital.com/pattaya",
-    "description": "",
-    "tags": [],
+    "description": "タイで日本人向けに生命保険・医療保険・自動車保険等の保険商品を提供。日本語での相談・手続きに対応。",
+    "tags": [
+      "保険",
+      "日本語対応"
+    ],
     "hours": "Monday: Open 24 hours / Tuesday: Open 24 hours / Wednesday: Open 24 hours / Thursday: Open 24 hours / Friday: Open 24 hours / Saturday: Open 24 hours / Sunday: Open 24 hours",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJLRQ3KxW-AjERpnqnjxhmpIE",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "ap-bike-center",
     "name": "AP BIke center",
-    "name_ja": null,
+    "name_ja": "AP BIke center",
     "area": "Pattaya",
     "address": "WVMP+W3G, Thanon Pattayasaisong, Muang Pattaya, Amphoe Bang Lamung, Chang Wat Chon Buri 20150, Thailand",
     "lat": 12.9348,
     "lng": 100.8852,
     "phone": "+66992208574",
     "website": "https://apbikecenter.com/",
-    "description": "",
-    "tags": [],
+    "description": "タイで日本人向けに生命保険・医療保険・自動車保険等の保険商品を提供。日本語での相談・手続きに対応。",
+    "tags": [
+      "保険",
+      "日本語対応"
+    ],
     "hours": "Monday: 10:00 AM – 7:00 PM / Tuesday: 10:00 AM – 7:00 PM / Wednesday: 10:00 AM – 7:00 PM / Thursday: 10:00 AM – 7:00 PM / Friday: 10:00 AM – 7:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJb1-jgCiXAjERjvAcWhIkYoU",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "nippon-life-insurance-head-office-main-building",
     "name": "Nippon Life Insurance Head Office Main Building",
-    "name_ja": null,
+    "name_ja": "Nippon Life Insurance Head Office Main Building",
     "area": "Pattaya",
     "address": "Japan, 〒541-0042 Osaka, Chuo Ward, Imabashi, 3-chōme−5−１２ 日本生命保険本店 本館",
     "lat": 34.6911,
     "lng": 135.5014,
     "phone": "+81662094500",
     "website": "https://www.nissay.co.jp/kaisha/annai/gaiyo/",
-    "description": "",
-    "tags": [],
+    "description": "タイで日本人向けに生命保険・医療保険・自動車保険等の保険商品を提供。日本語での相談・手続きに対応。",
+    "tags": [
+      "保険",
+      "日本語対応"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJGUe3LOTmAGARhmcTAX0LvOo",
-    "priority": 0
-  },
-  {
-    "slug": "",
-    "name": "株式会社オフィストゥーワン",
-    "name_ja": null,
-    "area": "Pattaya",
-    "address": "Japan, 〒564-0051 Osaka, Suita, Toyotsuchō, 8−１０ 3階",
-    "lat": 34.76,
-    "lng": 135.4955,
-    "phone": "+81663374921",
-    "website": "https://tokiomarinenichido.jp/japan/blog/",
-    "description": "",
-    "tags": [],
-    "hours": "Monday: 9:00 AM – 5:00 PM / Tuesday: 9:00 AM – 5:00 PM / Wednesday: 9:00 AM – 5:00 PM / Thursday: 9:00 AM – 5:00 PM / Friday: 9:00 AM – 5:00 PM / Saturday: Closed / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJW6XCRkfkAGAR2M4v8HoVot0",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "yotsuba-dental-crinic",
     "name": "Yotsuba Dental Crinic",
-    "name_ja": null,
+    "name_ja": "Yotsuba Dental Crinic",
     "area": "Sriracha",
     "address": "165/2 GoldenCity Khao Taeng On- Huay Yai Phom Soi 1, Tambon Si Racha, Amphoe Si Racha, Chang Wat Chon Buri 20110, Thailand",
     "lat": 13.1679,
     "lng": 100.9342,
     "phone": "+66625697727",
     "website": "https://yotsubadental.jp/",
-    "description": "",
-    "tags": [],
+    "description": "タイで日本人向けに生命保険・医療保険・自動車保険等の保険商品を提供。日本語での相談・手続きに対応。",
+    "tags": [
+      "保険",
+      "日本語対応"
+    ],
     "hours": "Monday: Closed / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: 9:00 AM – 6:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJR7ixYQC3AjERp4VKfTgXMPA",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "hi-japan",
     "name": "Hi Japan โกดังสินค้านำเข้าจากญี่ปุ่น",
-    "name_ja": null,
+    "name_ja": "Hi Japan",
     "area": "Sriracha",
     "address": "เลขที่ 273 ซอย 3 หมู่ 2 Tambon Nong Din Daeng, Amphoe Mueang Nakhon Pathom, Chang Wat Nakhon Pathom 73000, Thailand",
     "lat": 13.7966,
     "lng": 99.9888,
     "phone": "+66958514477",
     "website": null,
-    "description": "",
-    "tags": [],
+    "description": "タイで日本人向けに生命保険・医療保険・自動車保険等の保険商品を提供。日本語での相談・手続きに対応。",
+    "tags": [
+      "保険",
+      "日本語対応"
+    ],
     "hours": "Monday: 10:00 AM – 6:00 PM / Tuesday: 10:00 AM – 6:00 PM / Wednesday: 10:00 AM – 6:00 PM / Thursday: 10:00 AM – 6:00 PM / Friday: 10:00 AM – 6:00 PM / Saturday: 10:00 AM – 6:00 PM / Sunday: 10:00 AM – 6:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJP8WacFPh4jARX8OLK1IxO58",
-    "priority": 0
-  },
-  {
-    "slug": "-2",
-    "name": "โยรัชดา สำนักงานใหญ่",
-    "name_ja": null,
-    "area": "Sriracha",
-    "address": "900 Thanon Nimit Mai, Khwaeng Sam Wa Tawan Ok, Khet Khlong Sam Wa, Krung Thep Maha Nakhon 10510, Thailand",
-    "lat": 13.9126,
-    "lng": 100.7476,
-    "phone": "+66618781111",
-    "website": "https://www.facebook.com/yoratchada1/",
-    "description": "",
-    "tags": [],
-    "hours": "Monday: 9:30 AM – 6:00 PM / Tuesday: 9:30 AM – 6:00 PM / Wednesday: 9:30 AM – 6:00 PM / Thursday: 9:30 AM – 6:00 PM / Friday: 9:30 AM – 6:00 PM / Saturday: 9:30 AM – 6:00 PM / Sunday: 9:30 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJcaxMOoqe4jARpv2ooExdtAI",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   }
 ]

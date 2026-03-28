@@ -18,7 +18,8 @@
     "hours": "月-金 8:00-16:30",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "japanese-kindergarten-kl",
@@ -37,7 +38,8 @@
     "hours": null,
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "jckl-kindergarten",
@@ -57,7 +59,8 @@
     "hours": null,
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "pusat-bahasa-teikyo",
@@ -76,7 +79,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "japan-foundation-kl",
@@ -95,7 +99,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "kumon-mont-kiara",
@@ -115,7 +120,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "kumon-vista-kiara-japanese",
@@ -135,7 +141,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "japan-club-kl",
@@ -155,7 +162,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "icls-bukit-bintang",
@@ -175,7 +183,8 @@
     "hours": "月-金 9:30-21:00, 土 10:00-16:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "fuji-international-japanese",
@@ -194,7 +203,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "japanese-school-penang",
@@ -215,7 +225,8 @@
     "hours": "月-金 8:00-16:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ena-japanese-language-school",
@@ -234,7 +245,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "gakken-classroom-mont-kiara",
@@ -254,7 +266,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "johor-japanese-school",
@@ -275,7 +288,8 @@
     "hours": "月-金 8:00-16:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "kumon-desa-park-city",
@@ -295,12 +309,13 @@
     "hours": "要確認",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "yamaha-music-school-kl",
     "name": "Yamaha Music School Kuala Lumpur",
-    "name_ja": "ヤマハ音楽教室 KL",
+    "name_ja": "ヤマハ音楽教室",
     "area": "Kuala Lumpur",
     "address": "Kuala Lumpur (複数拠点)",
     "phone": null,
@@ -314,7 +329,8 @@
     "hours": "要確認",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "kota-kinabalu-japanese-school",
@@ -335,7 +351,8 @@
     "hours": "月-金 8:00-16:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "a-to-z-language-centre",
@@ -355,7 +372,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "kumon-subang-jaya",
@@ -375,7 +393,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "nichinoken-kuala-lumpur",
@@ -394,7 +413,8 @@
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "sapix-kuala-lumpur",
@@ -413,7 +433,8 @@
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "mikasano-academic-centre",
@@ -432,7 +453,8 @@
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "waseda-academy-kuala-lumpur",
@@ -452,7 +474,8 @@
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "penang-japanese-kindergarten",
@@ -471,7 +494,8 @@
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "icls-subang",
@@ -491,2134 +515,2540 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "the-japanese-school-of-kuala-lumpur",
     "name": "The Japanese School of Kuala Lumpur",
-    "name_ja": null,
+    "name_ja": "クアラルンプール日本人学校",
     "area": "Kuala Lumpur",
     "address": "Malaysia, Selangor, Shah Alam, Seksyen U2",
     "lat": 3.1092,
     "lng": 101.5785,
     "phone": "+60378465939",
     "website": "https://www.jskl.edu.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある日本人学校。日本のカリキュラムに基づいた教育を提供。",
+    "tags": [
+      "教育",
+      "学校"
+    ],
     "hours": "Monday: 8:00 AM – 4:30 PM / Tuesday: 8:00 AM – 4:30 PM / Wednesday: 8:00 AM – 4:30 PM / Thursday: 8:00 AM – 4:30 PM / Friday: 8:00 AM – 4:30 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJl5iqJSlMzDERFthtS0uufZg",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "nihongo-asia-academy-and-jobs-sdn-bhd-japanese-language-school",
     "name": "Nihongo Asia Academy & Jobs Sdn Bhd (Japanese Language School)",
-    "name_ja": null,
+    "name_ja": "日本語アジアアカデミー",
     "area": "Kuala Lumpur",
     "address": "Level 9, Tower B, Menara UOA, 5, Jalan Bangsar Utama 1, Bangsar, 59000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1281,
     "lng": 101.6787,
     "phone": "+60128331026",
     "website": "https://nihongo.asia/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある日本語学校。日本語学習や日本留学準備のコースを提供。",
+    "tags": [
+      "教育",
+      "日本語教育"
+    ],
     "hours": "Monday: 8:30 AM – 9:00 PM / Tuesday: 8:30 AM – 9:00 PM / Wednesday: 8:30 AM – 9:00 PM / Thursday: 8:30 AM – 9:00 PM / Friday: 8:30 AM – 9:00 PM / Saturday: 8:30 AM – 5:00 PM / Sunday: 10:00 AM – 5:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJpWZKJt9JzDERSY4RV-1sbOM",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "lupeichun-japanese-language-school-kl-study-in-japan",
     "name": "LUpeichun Japanese Language School KL ( Study in Japan)",
-    "name_ja": null,
+    "name_ja": "LUpeichun Japanese Language School",
     "area": "Kuala Lumpur",
     "address": "Room 1001, 10th Floor, Jalan Sultan, City Centre, 50000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1438,
     "lng": 101.6987,
     "phone": "+60123175038",
     "website": "https://lujec.edu.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある日本語学校。日本語学習や日本留学準備のコースを提供。",
+    "tags": [
+      "教育",
+      "日本語教育"
+    ],
     "hours": "Monday: 9:00 AM – 5:00 PM / Tuesday: 9:00 AM – 5:00 PM / Wednesday: 9:00 AM – 5:00 PM / Thursday: 9:00 AM – 5:00 PM / Friday: 9:00 AM – 5:00 PM / Saturday: 10:00 AM – 4:00 AM / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJGVzDFNBJzDER2rDNx9zVQbk",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "iloha-culture-centre",
     "name": "ILOHA Culture Centre",
-    "name_ja": null,
+    "name_ja": "ILOHA Culture Centre",
     "area": "Kuala Lumpur",
     "address": "21-1, Jalan Telawi 2, Bangsar, 59100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1319,
     "lng": 101.6716,
     "phone": "+60322022800",
     "website": "http://linktr.ee/ilohaculturecentre",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": "Monday: Closed / Tuesday: Closed / Wednesday: 10:00 AM – 8:30 PM / Thursday: 10:00 AM – 8:30 PM / Friday: 9:00 AM – 6:00 PM / Saturday: 9:00 AM – 6:30 PM / Sunday: 9:00 AM – 6:30 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJZelfCZhJzDERwTr7LgzVrYo",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "the-japan-club-of-kuala-lumpur",
     "name": "The Japan Club Of Kuala Lumpur",
-    "name_ja": null,
+    "name_ja": "クアラルンプール日本人会",
     "area": "Kuala Lumpur",
     "address": "2, Jalan 1/86, Off, Jalan Taman Seputeh 1, Taman Seputeh, 58000 Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
     "lat": 3.1176,
     "lng": 101.6806,
     "phone": "+60322742274",
     "website": "http://www.jckl.org.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある日本人コミュニティ組織。文化交流や各種イベントを開催。",
+    "tags": [
+      "教育",
+      "コミュニティ"
+    ],
     "hours": "Monday: 9:00 AM – 10:00 PM / Tuesday: 9:00 AM – 10:00 PM / Wednesday: 9:00 AM – 10:00 PM / Thursday: 9:00 AM – 10:00 PM / Friday: 9:00 AM – 10:00 PM / Saturday: 9:00 AM – 10:00 PM / Sunday: 9:00 AM – 10:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJAUeme4xJzDER1Q3neigTK2o",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "stratford-japanese-language-dojo",
     "name": "Stratford Japanese Language Dojo",
-    "name_ja": null,
+    "name_ja": "Stratford Japanese Language Dojo",
     "area": "Kuala Lumpur",
     "address": "Suite 17-03 Level 17 GTower, 199, Jln Tun Razak, Kuala Lumpur, 50400 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.159,
     "lng": 101.72,
     "phone": "+60193421371",
     "website": null,
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある日本語学校。日本語学習や日本留学準備のコースを提供。",
+    "tags": [
+      "教育",
+      "日本語教育"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ0UTJIiE3zDERYgxBgw6jE_0",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "pusat-bahasa-teikyo-2",
     "name": "Pusat Bahasa Teikyo",
-    "name_ja": null,
+    "name_ja": "帝京語学センター",
     "area": "Kuala Lumpur",
     "address": "2, Jalan 1/86, Taman Seputeh, 58000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1178,
     "lng": 101.6807,
     "phone": "+60322725311",
     "website": "https://www.teikyomy.com/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJc8DPXIxJzDERDgA-ICq5wZA",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "fuji-international-japanese-language-school",
     "name": "Fuji International Japanese Language School",
-    "name_ja": null,
+    "name_ja": "富士国際日本語学校",
     "area": "Kuala Lumpur",
     "address": "1-2, Jalan PJS 11/28, Bandar Sunway Subang Jaya, Bandar Sunway, 47500 Petaling Jaya, Selangor, Malaysia",
     "lat": 3.0728,
     "lng": 101.6102,
     "phone": "+60356113710",
     "website": "http://fujijs2010.velvet.jp/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある日本語学校。日本語学習や日本留学準備のコースを提供。",
+    "tags": [
+      "教育",
+      "日本語教育"
+    ],
     "hours": "Monday: Closed / Tuesday: 10:00 AM – 9:00 PM / Wednesday: 10:00 AM – 9:00 PM / Thursday: 10:00 AM – 9:00 PM / Friday: Closed / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJA_2qRYdMzDERCPKVfI04Qqc",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "a-to-z-language-center",
     "name": "A To Z Language Center",
-    "name_ja": null,
+    "name_ja": "A To Z Language Center",
     "area": "Kuala Lumpur",
     "address": "70B&70C, Jalan SS 21/62, Damansara Utama, 47400 Petaling Jaya, Selangor, Malaysia",
     "lat": 3.1326,
     "lng": 101.6216,
     "phone": "+60377284662",
     "website": "https://atozlanguage.com/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある日本語学校。日本語学習や日本留学準備のコースを提供。",
+    "tags": [
+      "教育",
+      "日本語教育"
+    ],
     "hours": "Monday: 10:00 AM – 9:30 PM / Tuesday: 10:00 AM – 9:30 PM / Wednesday: 10:00 AM – 9:30 PM / Thursday: 10:00 AM – 9:30 PM / Friday: 10:00 AM – 9:30 PM / Saturday: 10:00 AM – 6:30 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJmanU_0lJzDERilt5cfPIJTc",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "inter-cultural-language-school-kl-branch",
     "name": "Inter-Cultural Language School (KL Branch)",
-    "name_ja": null,
+    "name_ja": "Inter-Cultural Language School",
     "area": "Kuala Lumpur",
     "address": "D5/D6, Ground Floor, Block D, Fahrenheit88, Jln Bukit Bintang, Bukit Bintang, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1473,
     "lng": 101.713,
     "phone": "+60321442060",
     "website": "http://www.icls.com.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある日本語学校。日本語学習や日本留学準備のコースを提供。",
+    "tags": [
+      "教育",
+      "日本語教育"
+    ],
     "hours": "Monday: 9:30 AM – 9:00 PM / Tuesday: 9:30 AM – 9:00 PM / Wednesday: 9:30 AM – 9:00 PM / Thursday: 9:30 AM – 9:00 PM / Friday: 9:30 AM – 9:00 PM / Saturday: 10:00 AM – 4:00 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJBYkJyi1IzDERIVdfGsDk9cU",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "dreams-language-academy",
     "name": "Dreams Language Academy",
-    "name_ja": null,
+    "name_ja": "Dreams Language Academy",
     "area": "Kuala Lumpur",
     "address": "9-3, Jalan Wangsa Delima 12, Seksyen 10 Wangsa Maju, 53300 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1974,
     "lng": 101.7418,
     "phone": "+60183697564",
     "website": "http://dreamslanguageacademy.com/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある日本語学校。日本語学習や日本留学準備のコースを提供。",
+    "tags": [
+      "教育",
+      "日本語教育"
+    ],
     "hours": "Monday: 8:30 AM – 5:30 PM / Tuesday: 8:30 AM – 5:30 PM / Wednesday: 8:30 AM – 5:30 PM / Thursday: 8:30 AM – 5:30 PM / Friday: 8:30 AM – 5:30 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ82w2NYE5zDERx6EzlwPdNAs",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "mara-oisca-japanese-language-center",
     "name": "MARA-OISCA Japanese Language Center",
-    "name_ja": null,
+    "name_ja": "MARA-OISCA Japanese Language Center",
     "area": "Kuala Lumpur",
     "address": "2333, Jalan, LEKAS, Bandar Tasik Kesuma, 43700 Semenyih, Selangor, Malaysia",
     "lat": 2.9051,
     "lng": 101.8646,
     "phone": "+60387249344",
     "website": "https://maraoiscajapancent.wixsite.com/pusat-bahasa-jepun",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある日本語学校。日本語学習や日本留学準備のコースを提供。",
+    "tags": [
+      "教育",
+      "日本語教育"
+    ],
     "hours": "Monday: 8:15 AM – 5:00 PM / Tuesday: 8:15 AM – 5:00 PM / Wednesday: 8:15 AM – 5:00 PM / Thursday: 8:15 AM – 5:00 PM / Friday: 8:15 AM – 5:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJfTk9AsjPzTER6gDX3MGhNbs",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "japan-educational-information-centre-kuala-lumpur",
     "name": "Japan Educational Information Centre Kuala Lumpur",
-    "name_ja": null,
+    "name_ja": "Japan Educational Information Centre",
     "area": "Kuala Lumpur",
     "address": "A-7-5, Northpoint Offices, No.1, Medan Syed Putra Utara, Mid Valley City, 59200 Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
     "lat": 3.1204,
     "lng": 101.6777,
     "phone": "+60322870812",
     "website": "https://www.studyinjapan.org.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": "Monday: 8:30 AM – 4:30 PM / Tuesday: 8:30 AM – 4:30 PM / Wednesday: 8:30 AM – 4:30 PM / Thursday: 8:30 AM – 4:30 PM / Friday: 8:30 AM – 4:30 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJaaKT5NpLzDERitzaG7AM3iU",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "san-her-japanese-language-centre",
     "name": "San Her Japanese Language Centre",
-    "name_ja": null,
+    "name_ja": "San Her Japanese Language Centre",
     "area": "Kuala Lumpur",
     "address": "Wisma Zelan, Lot 12A/07, No. 1, Jalan Tasik Permaisuri, Bandar Tun Razak, Cheras, Wilayah Persekutuan, Wisma Zelan, Taman Tasik Permaisuri, 56000 Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
     "lat": 3.0991,
     "lng": 101.7176,
     "phone": "+60391710978",
     "website": null,
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある日本語学校。日本語学習や日本留学準備のコースを提供。",
+    "tags": [
+      "教育",
+      "日本語教育"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJe_dC-vE1zDERab8WL3DMgQ0",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "the-japan-foundation-kuala-lumpur",
     "name": "The Japan Foundation, Kuala Lumpur",
-    "name_ja": null,
+    "name_ja": "The Japan Foundation,",
     "area": "Kuala Lumpur",
     "address": "18th Floor, Block B, Northpoint, No. 1, Medan Syed Putra Selatan, Mid Valley City, 59200 Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
     "lat": 3.1204,
     "lng": 101.6776,
     "phone": "+60322846228",
     "website": "http://www.jfkl.org.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": "Monday: Closed / Tuesday: 10:00 AM – 5:30 PM / Wednesday: 10:00 AM – 5:30 PM / Thursday: 10:00 AM – 5:30 PM / Friday: 10:00 AM – 5:30 PM / Saturday: 10:00 AM – 5:30 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJq2Iv3IhJzDERZjE2TxnL6lw",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "marimari-nihongo-japanese-classes-in-kota-damansara",
     "name": "MariMari NihonGO - Japanese Classes in Kota Damansara",
-    "name_ja": null,
+    "name_ja": "MariMari NihonGO - Japanese Classes in Kota Damansara",
     "area": "Kuala Lumpur",
     "address": "Encorp Strand Garden Office, Jalan PJU 5/1, Kota Damansara, 47810 Petaling Jaya, Selangor, Malaysia",
     "lat": 3.1544,
     "lng": 101.5966,
     "phone": "+60179756274",
     "website": "https://www.findglobal.co/marimari-nihongo",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある日本語学校。日本語学習や日本留学準備のコースを提供。",
+    "tags": [
+      "教育",
+      "日本語教育"
+    ],
     "hours": "Monday: 7:30 – 9:30 PM / Tuesday: 7:30 – 9:30 PM / Wednesday: 7:30 – 9:30 PM / Thursday: 7:30 – 9:30 PM / Friday: 7:30 – 9:30 PM / Saturday: 11:00 AM – 1:00 PM / Sunday: 9:00 AM – 1:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJsfXUSr9PzDERR7cDRO4OUOw",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "tadika-kelab-jepun",
     "name": "Tadika Kelab Jepun",
-    "name_ja": null,
+    "name_ja": "Tadika Kelab Jepun",
     "area": "Kuala Lumpur",
     "address": "2, Jalan 1/86 Kuala Lumpur MY, Off, Jalan Taman Seputeh, Taman Seputeh, 58000 Kuala Lumpur, Wilayah Persekutuan, Malaysia",
     "lat": 3.1176,
     "lng": 101.6808,
     "phone": "+60322723711",
     "website": null,
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": "Monday: 8:30 AM – 5:30 PM / Tuesday: 8:30 AM – 5:30 PM / Wednesday: 9:00 AM – 5:30 PM / Thursday: 8:30 AM – 5:30 PM / Friday: 8:30 AM – 5:30 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJkzBkSoxJzDERbgzPdtlxiRU",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "suppli-language-solution",
     "name": "Suppli Language Solution",
-    "name_ja": null,
+    "name_ja": "Suppli Language Solution",
     "area": "Kuala Lumpur",
     "address": "28-1,Plaza Usahawan Genting Klang,Jalan Danau Niaga 1,53300 Kuala Lumpur, Wangsa Maju, 53300 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.2027,
     "lng": 101.7178,
     "phone": "+60102100212",
     "website": null,
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある日本語学校。日本語学習や日本留学準備のコースを提供。",
+    "tags": [
+      "教育",
+      "日本語教育"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJrf_43w84zDERGQU6hTKyscE",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "japanese-language-society-malaysia",
     "name": "Japanese Language Society Malaysia",
-    "name_ja": null,
+    "name_ja": "Japanese Language Society Malaysia",
     "area": "Kuala Lumpur",
     "address": "Kompleks Mutiara, 568, Jln Sultan Azlan Shah, Batu Complex Bussiness Centre, 51200 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1887,
     "lng": 101.6807,
     "phone": "+60362597180",
     "website": "http://www.jlsm.org/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある日本語学校。日本語学習や日本留学準備のコースを提供。",
+    "tags": [
+      "教育",
+      "日本語教育"
+    ],
     "hours": "Monday: 10:00 AM – 6:00 PM / Tuesday: 10:00 AM – 6:00 PM / Wednesday: 10:00 AM – 6:00 PM / Thursday: 10:00 AM – 6:00 PM / Friday: 10:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJf_rNr3VIzDERyrEQX41ueBs",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "joulivin-language-centre",
     "name": "Joulivin Language Centre",
-    "name_ja": null,
+    "name_ja": "Joulivin Language Centre",
     "area": "Kuala Lumpur",
     "address": "Campbell Complex, 235, Jalan Dang Wangi, City Centre, 50100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1564,
     "lng": 101.6968,
     "phone": "+60123613755",
     "website": null,
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある日本語学校。日本語学習や日本留学準備のコースを提供。",
+    "tags": [
+      "教育",
+      "日本語教育"
+    ],
     "hours": "Monday: 10:00 AM – 10:00 PM / Tuesday: 10:00 AM – 10:00 PM / Wednesday: 10:00 AM – 10:00 PM / Thursday: 10:00 AM – 10:00 PM / Friday: 10:00 AM – 10:00 PM / Saturday: 10:00 AM – 10:00 PM / Sunday: 10:00 AM – 10:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJUTiwCi5IzDERjtFEaoLjW_Q",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "ambang-asuhan-jepun",
     "name": "Ambang Asuhan Jepun",
-    "name_ja": null,
+    "name_ja": "Ambang Asuhan Jepun",
     "area": "Kuala Lumpur",
     "address": "833, Lingkungan Budi, 50603 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1227,
     "lng": 101.6598,
     "phone": "+60379675800",
     "website": null,
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": "Monday: 8:00 AM – 5:30 PM / Tuesday: 8:00 AM – 5:30 PM / Wednesday: 8:00 AM – 5:30 PM / Thursday: 8:00 AM – 5:30 PM / Friday: 8:00 AM – 5:30 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJSwtt73dJzDERklWJOlKN4zs",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "hoshigaoka-japanese-language-square",
     "name": "Hoshigaoka Japanese Language Square",
-    "name_ja": null,
+    "name_ja": "Hoshigaoka Japanese Language Square",
     "area": "Kuala Lumpur",
     "address": "B-23-2 Pinnacle PJ, Lorong Utara C, Pjs 52, 47100 Petaling Jaya, Selangor, Malaysia",
     "lat": 3.1038,
     "lng": 101.6404,
     "phone": "+60386016768",
     "website": null,
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある日本語学校。日本語学習や日本留学準備のコースを提供。",
+    "tags": [
+      "教育",
+      "日本語教育"
+    ],
     "hours": "Monday: Closed / Tuesday: 10:00 AM – 5:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: Closed / Saturday: 10:00 AM – 5:00 PM / Sunday: 10:00 AM – 5:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ0Te8nB5LzDERTqehhfSbTVw",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "dynamic-vision-resources-sdn-bhd-dvr",
     "name": "Dynamic Vision Resources Sdn. Bhd. (DVR)",
-    "name_ja": null,
+    "name_ja": "Dynamic Vision Resources Sdn. Bhd.",
     "area": "Kuala Lumpur",
     "address": "No. 35-2, Jalan 4/93, Taman Miharja, Cheras, Wilayah Persekutuan, Taman Miharja, 55200 Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
     "lat": 3.1221,
     "lng": 101.7202,
     "phone": null,
     "website": null,
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": "Monday: Closed / Tuesday: 1:00 – 5:00 PM / Wednesday: Closed / Thursday: Closed / Friday: 3:00 – 6:00 PM / Saturday: 11:00 AM – 7:00 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJTXwgOxA2zDERgzrWj-1J1ZA",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "asterisk-academy",
     "name": "Asterisk Academy",
-    "name_ja": null,
+    "name_ja": "Asterisk Academy",
     "area": "Kuala Lumpur",
     "address": "no:2, Jalan Robertson, Bukit Bintang, 50150 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1438,
     "lng": 101.7042,
     "phone": "+60106657512",
     "website": "http://www.asteriskacademy.jp/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": "Monday: 9:30 AM – 5:30 PM / Tuesday: 9:30 AM – 5:30 PM / Wednesday: 9:30 AM – 5:30 PM / Thursday: 9:30 AM – 5:30 PM / Friday: 9:30 AM – 5:30 PM / Saturday: 9:30 AM – 5:30 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJL27i5I01zDERoCx8DVjj70I",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "isetan-the-japan-store",
     "name": "伊勢丹 Isetan The Japan Store",
-    "name_ja": null,
+    "name_ja": "伊勢丹",
     "area": "Kuala Lumpur",
     "address": "Lot 10 Shopping Center, 50, Jln Sultan Ismail, Bukit Bintang, 50250 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1466,
     "lng": 101.7118,
     "phone": "+60321417777",
     "website": "https://www.isetankl.com.my/thejapanstore/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": "Monday: 10:00 AM – 10:00 PM / Tuesday: 10:00 AM – 10:00 PM / Wednesday: 10:00 AM – 10:00 PM / Thursday: 10:00 AM – 10:00 PM / Friday: 10:00 AM – 10:00 PM / Saturday: 10:00 AM – 10:00 PM / Sunday: 10:00 AM – 10:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ2ySyWCk2zDERYPTiKhqL4BE",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "japanese-playgroup",
     "name": "Japanese Playgroup",
-    "name_ja": null,
+    "name_ja": "Japanese Playgroup",
     "area": "Kuala Lumpur",
     "address": "Bandar Utama, 47800 Petaling Jaya, Selangor, Malaysia",
     "lat": 3.1457,
     "lng": 101.616,
     "phone": null,
     "website": "https://www.japaneseplaygroup.com/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": "Monday: Open 24 hours / Tuesday: Open 24 hours / Wednesday: Open 24 hours / Thursday: Open 24 hours / Friday: Open 24 hours / Saturday: Open 24 hours / Sunday: Open 24 hours",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJVybROl1JzDERj7thKSEpBoU",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "",
     "name": "駿台海外校 マレーシア校",
-    "name_ja": null,
+    "name_ja": "駿台海外校マレーシア校",
     "area": "Kuala Lumpur",
     "address": "1, Jln Dutamas 1, Solaris Dutamas, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1705,
     "lng": 101.6662,
     "phone": "+60362013325",
     "website": "https://kaigai.sundai.ac.jp/southeast/my",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": "Monday: Closed / Tuesday: 1:30 – 10:30 PM / Wednesday: 1:30 – 10:30 PM / Thursday: 1:30 – 10:30 PM / Friday: 1:30 – 10:30 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJN-Q-El5IzDERLhAb-9fjT3o",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "-2",
     "name": "まなび舎",
-    "name_ja": null,
+    "name_ja": "まなび舎",
     "area": "Kuala Lumpur",
     "address": "S25-01,Level25th,Wisma YNH(Kiara 163 SOVO Suite) No, 8, Jalan Kiara, Mont Kiara, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1669,
     "lng": 101.6519,
     "phone": "+60126853680",
     "website": "https://manabiya-kl.com/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": "Monday: Closed / Tuesday: 3:00 – 8:00 PM / Wednesday: 3:00 – 8:00 PM / Thursday: 3:00 – 8:00 PM / Friday: 3:00 – 8:00 PM / Saturday: 10:00 AM – 6:00 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ237oncJJzDERLJiiR0alpC4",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "japan-new-zealand-joint-venture-school",
     "name": "Japan - New Zealand Joint Venture School",
-    "name_ja": null,
+    "name_ja": "Japan - New Zealand Joint Venture School",
     "area": "Kuala Lumpur",
     "address": "Chartwell Drive, Crofton Downs, Wellington 6035, New Zealand",
     "lat": -41.26,
     "lng": 174.7642,
     "phone": "+6421372362",
     "website": "https://wellington-jp-hoshukou.themedia.jp/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育",
+      "学校"
+    ],
     "hours": "Monday: 3:30 – 6:30 PM / Tuesday: Closed / Wednesday: 3:30 – 6:30 PM / Thursday: Closed / Friday: Closed / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJLa9iyuexOG0RYVkBunlzJ0U",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "-3",
     "name": "かわしま進学塾 クアラルンプール校",
-    "name_ja": null,
+    "name_ja": "かわしま進学塾クアラルンプール校",
     "area": "Kuala Lumpur",
     "address": "Malaysia, Selangor, Petaling Jaya, Oasis Ara Damansara, Jalan PJU 1A/7, B-2-3",
     "lat": 3.1136,
     "lng": 101.5751,
     "phone": "+60172263586",
     "website": "https://kawashin.info/kl/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": "Monday: Closed / Tuesday: 4:00 – 7:20 PM / Wednesday: 4:00 – 7:20 PM / Thursday: 4:00 – 7:20 PM / Friday: 4:00 – 7:20 PM / Saturday: 2:00 – 6:20 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ9ZKxHVJPzDERwXgOTec2Y_s",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "lec",
     "name": "LEC クアラルンプール校",
-    "name_ja": null,
+    "name_ja": "クアラルンプール校",
     "area": "Kuala Lumpur",
     "address": "A-03-01, Plaza Mont'Kiara, 2, Jalan Kiara, Mont Kiara, 50480 Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
     "lat": 3.1654,
     "lng": 101.6522,
     "phone": "+60364140368",
     "website": "http://www.lec-kl.edu.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": "Monday: 10:00 AM – 6:00 PM / Tuesday: 10:00 AM – 6:00 PM / Wednesday: 10:00 AM – 6:00 PM / Thursday: 10:00 AM – 6:00 PM / Friday: 10:00 AM – 6:00 PM / Saturday: 10:00 AM – 6:00 PM / Sunday: 10:00 AM – 6:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJixLPIPdIzDERX3ENsmGYGTs",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "california-kl-language-academy-klcc",
     "name": "California KL Language Academy - KLCC",
-    "name_ja": null,
+    "name_ja": "California KL Language Academy",
     "area": "Kuala Lumpur",
     "address": "Lot 16A, Level 2, Avenue K Shopping Mall, KLCC, 156, Jln Ampang, Kampung Baru, 50450 Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
     "lat": 3.1595,
     "lng": 101.7135,
     "phone": "+601123591043",
     "website": "http://www.cklms.com/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある日本語学校。日本語学習や日本留学準備のコースを提供。",
+    "tags": [
+      "教育",
+      "日本語教育"
+    ],
     "hours": "Monday: 9:00 AM – 10:00 PM / Tuesday: 9:00 AM – 10:00 PM / Wednesday: 9:00 AM – 10:00 PM / Thursday: 9:00 AM – 10:00 PM / Friday: 9:00 AM – 10:00 PM / Saturday: 9:00 AM – 10:00 PM / Sunday: 9:00 AM – 10:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJQXX0w9o3zDERt5QjZ79yPBk",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "st-johns-international-primary-school",
     "name": "St. John's International Primary School",
-    "name_ja": null,
+    "name_ja": "St. John's International Primary School",
     "area": "Kuala Lumpur",
     "address": "145, Jln Bukit Nanas, Kuala Lumpur, 50250 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1514,
     "lng": 101.7,
     "phone": "+60320341288",
     "website": "https://sjis.edu.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育",
+      "学校"
+    ],
     "hours": "Monday: 7:30 AM – 4:30 PM / Tuesday: 7:30 AM – 4:30 PM / Wednesday: 7:30 AM – 4:30 PM / Thursday: 7:30 AM – 4:30 PM / Friday: 7:30 AM – 4:30 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJl8ag7-BJzDERDSIhlZtIHN8",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "sheffield-academy",
     "name": "Sheffield Academy",
-    "name_ja": null,
+    "name_ja": "Sheffield Academy",
     "area": "Kuala Lumpur",
     "address": "Level 10, Menara Chan, 138, Jln Ampang, 50450 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1588,
     "lng": 101.708,
     "phone": "+60327143982",
     "website": "http://www.sheffield.edu.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJGzRyy9c3zDERHdT4U8oySwk",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "elec-language-center-malaysia",
     "name": "ELEC Language Center, Malaysia",
-    "name_ja": null,
+    "name_ja": "ELEC Language Center, Malaysia",
     "area": "Kuala Lumpur",
     "address": "Unit B-1-9, Block B, Megan Avenue II, 12, Jalan Yap Kwan Seng, 50450 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1626,
     "lng": 101.712,
     "phone": "+60321649827",
     "website": "https://elec.edu.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある日本語学校。日本語学習や日本留学準備のコースを提供。",
+    "tags": [
+      "教育",
+      "日本語教育"
+    ],
     "hours": "Monday: 9:00 AM – 5:00 PM / Tuesday: 9:00 AM – 5:00 PM / Wednesday: 9:00 AM – 5:00 PM / Thursday: 9:00 AM – 5:00 PM / Friday: 9:00 AM – 5:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJpf6q5Nk3zDERSolcPhXQvYs",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "ais-international-school",
     "name": "AIS International School",
-    "name_ja": null,
+    "name_ja": "AIS International School",
     "area": "Kuala Lumpur",
     "address": "4 & 6, Lengkok Bellamy, Bukit Petaling, 50460 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1295,
     "lng": 101.6965,
     "phone": "+60166663450",
     "website": "http://www.ais-kl.edu.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育",
+      "学校"
+    ],
     "hours": "Monday: 8:00 AM – 3:30 PM / Tuesday: 8:00 AM – 3:30 PM / Wednesday: 8:00 AM – 3:30 PM / Thursday: 8:00 AM – 3:30 PM / Friday: 8:00 AM – 3:30 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJLxNXredJzDERBj6AMAutXOw",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "ems-language-centre",
     "name": "EMS LANGUAGE CENTRE",
-    "name_ja": null,
+    "name_ja": "EMS LANGUAGE CENTRE",
     "area": "Kuala Lumpur",
     "address": "B-7-3,B-7-1, B-7-2,B-07-05 Block B (Unit 1-5, Megan Avenue, 2, Jalan Yap Kwan Seng, 50450 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1617,
     "lng": 101.7118,
     "phone": "+60321811219",
     "website": "https://ems.edu.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある日本語学校。日本語学習や日本留学準備のコースを提供。",
+    "tags": [
+      "教育",
+      "日本語教育"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ-50U8tk3zDERFo_m8o9sNg0",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "nippon-designers-school-malaysia-college-the-best-art-school-in-malaysia",
     "name": "Nippon Designers School Malaysia College | The Best Art School in Malaysia",
-    "name_ja": null,
+    "name_ja": "Nippon Designers School Malaysia College",
     "area": "Kuala Lumpur",
     "address": "F01-01, Sunway Geo Avenue, Jalan Lagoon Selatan, Bandar Sunway, 47500 Subang Jaya, Selangor, Malaysia",
     "lat": 3.0651,
     "lng": 101.6075,
     "phone": "+60356505149",
     "website": "https://nds.edu.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育",
+      "学校"
+    ],
     "hours": "Monday: 9:00 AM – 5:30 PM / Tuesday: 9:00 AM – 5:30 PM / Wednesday: 9:00 AM – 5:30 PM / Thursday: 9:00 AM – 5:30 PM / Friday: 9:00 AM – 5:30 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJOzgg7x5NzDERhk4WtIWTxXM",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "the-international-school-of-kuala-lumpur-iskl",
     "name": "The International School of Kuala Lumpur (ISKL)",
-    "name_ja": null,
+    "name_ja": "The International School of",
     "area": "Kuala Lumpur",
     "address": "No. 2, Lorong Kelab Polo Di Raja, Ampang Hilir, 55000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1543,
     "lng": 101.7394,
     "phone": "+60348135000",
     "website": "https://www.iskl.edu.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育",
+      "学校"
+    ],
     "hours": "Monday: 7:30 AM – 4:15 PM / Tuesday: 7:30 AM – 4:15 PM / Wednesday: 7:30 AM – 4:15 PM / Thursday: 7:30 AM – 4:15 PM / Friday: 7:30 AM – 4:15 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJxe6XOLI3zDER40cItSLfQIQ",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "montkiara-international-school",
     "name": "Mont'Kiara International School",
-    "name_ja": null,
+    "name_ja": "Mont'Kiara International School",
     "area": "Kuala Lumpur",
     "address": "22, Jalan Kiara, Mont Kiara, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1711,
     "lng": 101.6526,
     "phone": "+60378000099",
     "website": "https://www.mkis.edu.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育",
+      "学校"
+    ],
     "hours": "Monday: 8:00 AM – 5:00 PM / Tuesday: 8:00 AM – 5:00 PM / Wednesday: 8:00 AM – 5:00 PM / Thursday: 8:00 AM – 5:00 PM / Friday: 8:00 AM – 5:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJV6Y7KPNIzDERxrGlygLf6Tk",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "cempaka-international-school-damansara-heights",
     "name": "Cempaka International School Damansara Heights",
-    "name_ja": null,
+    "name_ja": "Cempaka International School Damansara Heights",
     "area": "Kuala Lumpur",
     "address": "Sri Cempaka School, 19, Jalan Setia Bakti 1, Bukit Damansara, 50490 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1518,
     "lng": 101.6569,
     "phone": "+60320931740",
     "website": "http://www.cempaka.edu.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育",
+      "学校"
+    ],
     "hours": "Monday: 8:00 AM – 5:00 PM / Tuesday: 8:00 AM – 5:00 PM / Wednesday: 8:00 AM – 5:00 PM / Thursday: 8:00 AM – 5:00 PM / Friday: 8:00 AM – 5:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ-7kgHv5IzDERapqbldrXzFE",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "-4",
     "name": "みらい国際塾",
-    "name_ja": null,
+    "name_ja": "みらい国際塾",
     "area": "Kuala Lumpur",
     "address": "2-chōme-23-15 Shiba, Minato City, Tokyo 105-0014, Japan",
     "lat": 35.6508,
     "lng": 139.7508,
     "phone": null,
     "website": "https://eisa.or.jp/mirai/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": "Monday: Closed / Tuesday: 12:00 – 7:00 PM / Wednesday: 12:00 – 7:00 PM / Thursday: 12:00 – 7:00 PM / Friday: 12:00 – 5:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJhbYayXmLGGARzRC3oZkZ6VA",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "elc-english-language-company-malaysia-sdn-bhd",
     "name": "ELC (English Language Company) Malaysia Sdn Bhd",
-    "name_ja": null,
+    "name_ja": "ELC Malaysia Sdn Bhd",
     "area": "Kuala Lumpur",
     "address": "3.01, 3rd Floor, Wisma Bukit Bintang, Bukit Bintang Rd, Bukit Bintang, 50480 Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
     "lat": 3.145,
     "lng": 101.7088,
     "phone": "+60321488211",
     "website": "https://elcmy.edu.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある日本語学校。日本語学習や日本留学準備のコースを提供。",
+    "tags": [
+      "教育",
+      "日本語教育"
+    ],
     "hours": "Monday: 8:30 AM – 5:00 PM / Tuesday: 8:30 AM – 5:00 PM / Wednesday: 8:30 AM – 5:00 PM / Thursday: 8:30 AM – 5:00 PM / Friday: 8:30 AM – 5:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJh5hgvCk2zDERwF90ZACp7B8",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "garden-international-school",
     "name": "Garden International School",
-    "name_ja": null,
+    "name_ja": "Garden International School",
     "area": "Kuala Lumpur",
     "address": "16, Jln Kiara 3, Mont Kiara, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1674,
     "lng": 101.6478,
     "phone": "+60362096888",
     "website": "https://www.gardenschool.edu.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育",
+      "学校"
+    ],
     "hours": "Monday: 7:30 AM – 4:30 PM / Tuesday: 7:30 AM – 4:30 PM / Wednesday: 7:30 AM – 4:30 PM / Thursday: 7:30 AM – 4:30 PM / Friday: 7:30 AM – 4:30 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJrZntb4tJzDER4aZA7a8EKJ0",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "etonhouse-international-school-malaysia",
     "name": "EtonHouse International School Malaysia",
-    "name_ja": null,
+    "name_ja": "EtonHouse International School Malaysia",
     "area": "Kuala Lumpur",
     "address": "No. 9, Persiaran Stonor, 50450, Kuala Lumpur, Wilayah Persekutuan, Kuala Lumpur, 50450 Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
     "lat": 3.153,
     "lng": 101.7214,
     "phone": "+60321413301",
     "website": "http://etonhouse.edu.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育",
+      "学校"
+    ],
     "hours": "Monday: 8:00 AM – 5:00 PM / Tuesday: 8:00 AM – 5:00 PM / Wednesday: 8:00 AM – 5:00 PM / Thursday: 8:00 AM – 5:00 PM / Friday: 8:00 AM – 5:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJsbkJEc03zDER6M6Geyi7A_0",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "hibiscus-international-school",
     "name": "Hibiscus International School",
-    "name_ja": null,
+    "name_ja": "Hibiscus International School",
     "area": "Kuala Lumpur",
     "address": "No. 2, Jalan Udang Harimau 3 Kepong Business Park, Taman Sri Segambut, 51200 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.19,
     "lng": 101.6602,
     "phone": "+60362435544",
     "website": "http://www.hibiscus.edu.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育",
+      "学校"
+    ],
     "hours": "Monday: 8:00 AM – 4:00 PM / Tuesday: 8:00 AM – 4:00 PM / Wednesday: 8:00 AM – 4:00 PM / Thursday: 8:00 AM – 4:00 PM / Friday: 8:00 AM – 4:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJS8rXHoBIzDERPra-9O3lzQs",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "tree-top-house",
     "name": "Tree Top House",
-    "name_ja": null,
+    "name_ja": "Tree Top House",
     "area": "Kuala Lumpur",
     "address": "Lot. 10, Jalan U Thant, Taman U Thant, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1546,
     "lng": 101.725,
     "phone": "+60321412941",
     "website": "https://treetophouse.edu.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": "Monday: 8:30 AM – 4:00 PM / Tuesday: 8:30 AM – 4:00 PM / Wednesday: 8:30 AM – 4:00 PM / Thursday: 8:30 AM – 4:00 PM / Friday: 8:30 AM – 4:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJWWillss3zDERxGI-_8JMuLE",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "the-childrens-house-montessori-ampang-hilir",
     "name": "The children's house Montessori Ampang Hilir",
-    "name_ja": null,
+    "name_ja": "The children's house Montessori Ampang Hilir",
     "area": "Kuala Lumpur",
     "address": "7, Jalan Ampang Hilir, Taman U Thant, 55000 Wilayah Persekutuan, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1582,
     "lng": 101.7309,
     "phone": "+60182322699",
     "website": "https://www.thechildrenshouse.com.my/ampang/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": "Monday: 9:00 AM – 5:00 PM / Tuesday: 9:00 AM – 5:00 PM / Wednesday: 9:00 AM – 5:00 PM / Thursday: 9:00 AM – 5:00 PM / Friday: 9:00 AM – 5:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJU8ckrbc3zDERGBPF8VRAfGQ",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "st-josephs-institution-international-school-malaysia",
     "name": "St. Joseph's Institution International School Malaysia",
-    "name_ja": null,
+    "name_ja": "St. Joseph's Institution International School Malaysia",
     "area": "Kuala Lumpur",
     "address": "1, Jalan PJU 3/13, Tropicana Indah, 47410 Petaling Jaya, Selangor, Malaysia",
     "lat": 3.1398,
     "lng": 101.595,
     "phone": "+60386053605",
     "website": "http://www.sji-international.edu.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育",
+      "学校"
+    ],
     "hours": "Monday: 7:30 AM – 4:30 PM / Tuesday: 7:30 AM – 4:30 PM / Wednesday: 7:30 AM – 4:30 PM / Thursday: 7:30 AM – 4:30 PM / Friday: 7:30 AM – 4:30 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJw5P7McJOzDER39MMD9MvRMs",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "rocklin-international-school-american-school",
     "name": "Rocklin International School - American School",
-    "name_ja": null,
+    "name_ja": "Rocklin International School - American School",
     "area": "Kuala Lumpur",
     "address": "Block D-06-02, Kompleks Permaisuri, No: 6, Jalan Sri Permaisuri, Cheras, 56000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1003,
     "lng": 101.7117,
     "phone": "+60123411400",
     "website": "http://rocklinschool.edu.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育",
+      "学校"
+    ],
     "hours": "Monday: 7:30 AM – 5:00 PM / Tuesday: 7:30 AM – 5:00 PM / Wednesday: 7:30 AM – 5:00 PM / Thursday: 7:30 AM – 5:00 PM / Friday: 7:30 AM – 5:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJbRF8aTc1zDERi6vZgdkg3Qk",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "ucsi-university",
     "name": "UCSI University",
-    "name_ja": null,
+    "name_ja": "UCSI University",
     "area": "Kuala Lumpur",
     "address": "UCSI Heights, 1, Jln UCSI, Taman Connaught, 56000 Wilayah Persekutuan, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.0797,
     "lng": 101.733,
     "phone": "+60391018880",
     "website": "https://www.ucsiuniversity.edu.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: 10:00 AM – 5:00 PM / Sunday: 10:00 AM – 5:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJs-M6pqM1zDERo6yUJJbpmK0",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "taylors-international-school-kuala-lumpur",
     "name": "Taylor's International School Kuala Lumpur",
-    "name_ja": null,
+    "name_ja": "Taylor's International School",
     "area": "Kuala Lumpur",
     "address": "9, Jalan 1/75c, Off, Jalan Pria, Maluri, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1371,
     "lng": 101.7313,
     "phone": "+60364155000",
     "website": "http://www.tis.edu.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育",
+      "学校"
+    ],
     "hours": "Monday: 8:00 AM – 4:30 PM / Tuesday: 8:00 AM – 4:30 PM / Wednesday: 8:00 AM – 4:30 PM / Thursday: 8:00 AM – 4:30 PM / Friday: 8:00 AM – 4:30 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ3aY7N0c2zDER6Hwo82eNAKU",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "templer-park-international-school-tpis",
     "name": "Templer Park International School (TPIS)",
-    "name_ja": null,
+    "name_ja": "Templer Park International School",
     "area": "Kuala Lumpur",
     "address": "Taman Rimba Templer, 48000 Rawang, Selangor, Malaysia",
     "lat": 3.2936,
     "lng": 101.643,
     "phone": "+601116322247",
     "website": "https://www.tpis.edu.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育",
+      "学校"
+    ],
     "hours": "Monday: 8:00 AM – 5:00 PM / Tuesday: 8:00 AM – 5:00 PM / Wednesday: 8:00 AM – 5:00 PM / Thursday: 8:00 AM – 5:00 PM / Friday: 8:00 AM – 5:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ7Q_2yDZBzDER-joYRjXUr2Q",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "help-international-school",
     "name": "HELP International School",
-    "name_ja": null,
+    "name_ja": "HELP International School",
     "area": "Kuala Lumpur",
     "address": "2 Persiaran Cakerawala, U4, Seksyen, Subang Bestari, 40150 Shah Alam, Selangor, Malaysia",
     "lat": 3.1799,
     "lng": 101.5499,
     "phone": "+60378097000",
     "website": "http://www.his.edu.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育",
+      "学校"
+    ],
     "hours": "Monday: 8:00 AM – 4:00 PM / Tuesday: 8:00 AM – 4:00 PM / Wednesday: 8:00 AM – 4:00 PM / Thursday: 8:00 AM – 4:00 PM / Friday: 8:00 AM – 2:00 PM / Saturday: 8:00 AM – 12:00 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJbzLFUJRPzDERcdekDywHDS4",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "sunway-international-school-sunway-city-kuala-lumpur",
     "name": "Sunway International School Sunway City Kuala Lumpur",
-    "name_ja": null,
+    "name_ja": "Sunway International School Sunway City",
     "area": "Kuala Lumpur",
     "address": "PT 1379, Jalan Subang 1, Usj 1, 47600 Subang Jaya, Selangor, Malaysia",
     "lat": 3.0612,
     "lng": 101.5983,
     "phone": "+60356398800",
     "website": "https://sunwayschools.edu.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育",
+      "学校"
+    ],
     "hours": "Monday: 8:00 AM – 5:30 PM / Tuesday: 8:00 AM – 5:30 PM / Wednesday: 8:00 AM – 5:30 PM / Thursday: 8:00 AM – 5:30 PM / Friday: 8:00 AM – 5:30 PM / Saturday: 9:00 AM – 2:00 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJhyFDX49MzDERRTL_4evBK7g",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "nexus-international-school-malaysia",
     "name": "Nexus International School Malaysia",
-    "name_ja": null,
+    "name_ja": "Nexus International School Malaysia",
     "area": "Kuala Lumpur",
     "address": "1, Jalan Diplomatik 3/6, Presint 15, 62050 Putrajaya, Wilayah Persekutuan Putrajaya, Malaysia",
     "lat": 2.9412,
     "lng": 101.7239,
     "phone": "+60388893868",
     "website": "https://www.nexus.edu.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育",
+      "学校"
+    ],
     "hours": "Monday: 8:00 AM – 5:00 PM / Tuesday: 8:00 AM – 5:00 PM / Wednesday: 8:00 AM – 5:00 PM / Thursday: 8:00 AM – 5:00 PM / Friday: 8:00 AM – 5:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJN55qp-7JzTERZEhOAceAdfg",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "king-henry-viii-college",
     "name": "King Henry VIII College",
-    "name_ja": null,
+    "name_ja": "King Henry VIII College",
     "area": "Kuala Lumpur",
     "address": "Persiaran Bestari, Cyber 11, 63000 Cyberjaya, Selangor, Malaysia",
     "lat": 2.9154,
     "lng": 101.6384,
     "phone": "+60388009888",
     "website": "https://kinghenryviii.edu.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": "Monday: 8:00 AM – 4:00 PM / Tuesday: 8:00 AM – 4:00 PM / Wednesday: 8:00 AM – 4:00 PM / Thursday: 8:00 AM – 4:00 PM / Friday: 8:00 AM – 4:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJaxu8HSC3zTER-jCFl1DyRc0",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "r-e-a-l-schools-cheras-campus",
     "name": "R.E.A.L Schools, Cheras Campus",
-    "name_ja": null,
+    "name_ja": "R.E.A.L Schools, Cheras Campus",
     "area": "Kuala Lumpur",
     "address": "Lot 217, Batu 13, Jln Hulu Langat, Taman Koperasi Uda, 43100 Ampang, Selangor, Malaysia",
     "lat": 3.1028,
     "lng": 101.8003,
     "phone": "+60390213601",
     "website": "https://realschools.edu.my/cheras-campus/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育",
+      "学校"
+    ],
     "hours": "Monday: 7:00 AM – 2:30 PM / Tuesday: 7:00 AM – 2:30 PM / Wednesday: 7:00 AM – 2:30 PM / Thursday: 7:00 AM – 2:30 PM / Friday: 7:00 AM – 2:30 PM / Saturday: 8:30 AM – 12:30 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJc2bKTfgzzDERkGTvmWYWGHc",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "sunway-university",
     "name": "Sunway University",
-    "name_ja": null,
+    "name_ja": "Sunway University",
     "area": "Kuala Lumpur",
     "address": "5, Jln Universiti, Bandar Sunway, 47500 Petaling Jaya, Selangor, Malaysia",
     "lat": 3.0672,
     "lng": 101.6038,
     "phone": "+60374918622",
     "website": "https://sunwayuniversity.edu.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": "Monday: 8:30 AM – 5:30 PM / Tuesday: 8:30 AM – 5:30 PM / Wednesday: 8:30 AM – 5:30 PM / Thursday: 8:30 AM – 5:30 PM / Friday: 8:30 AM – 5:30 PM / Saturday: 9:00 AM – 2:00 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJbbSYXY9MzDERlNPCpcziVe0",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "human-starchild-care-center",
     "name": "Human StarChild Care Center",
-    "name_ja": null,
+    "name_ja": "Human StarChild Care Center",
     "area": "Kuala Lumpur",
     "address": "L1-68B, Mitsui Shopping Park LaLaport, 2, Jln Hang Tuah, Bukit Bintang, 55100 Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
     "lat": 3.1404,
     "lng": 101.7067,
     "phone": "+60134030455",
     "website": "https://humanstarchild.com/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": "Monday: 8:30 AM – 6:00 PM / Tuesday: 8:30 AM – 6:00 PM / Wednesday: 8:30 AM – 6:00 PM / Thursday: 8:30 AM – 6:00 PM / Friday: 8:30 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJs4924n03zDEROdTV8f5ry4U",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "daitoh-kindergarten",
     "name": "Daitoh Kindergarten",
-    "name_ja": null,
+    "name_ja": "Daitoh Kindergarten",
     "area": "Kuala Lumpur",
     "address": "D-G-3, Perdana, Plaza Arkadia, 3, Jalan Intisari, Desa Parkcity, 52200 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1874,
     "lng": 101.6355,
     "phone": "+60164400337",
     "website": "https://daito-kindergarten.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": "Monday: 8:00 AM – 6:00 PM / Tuesday: 8:00 AM – 6:00 PM / Wednesday: 8:00 AM – 6:00 PM / Thursday: 8:00 AM – 6:00 PM / Friday: 8:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ7VsfMBN9oocRr9yYdFVXRZg",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "japanese-kindergarten",
     "name": "Japanese Kindergarten",
-    "name_ja": null,
+    "name_ja": "Japanese Kindergarten",
     "area": "Kuala Lumpur",
     "address": "251 W Coast Rd, Singapore 127390",
     "lat": 1.3139,
     "lng": 103.7545,
     "phone": "+6567793434",
     "website": "https://www.jks.com.sg/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": "Monday: 8:00 AM – 5:00 PM / Tuesday: 8:00 AM – 5:00 PM / Wednesday: 8:00 AM – 5:00 PM / Thursday: 8:00 AM – 5:00 PM / Friday: 8:00 AM – 5:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ6fL2YJYa2jERf-IdiagcRMI",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "little-playhouse-preschool-and-childcare-centre-kl-eco-city",
     "name": "Little Playhouse Preschool and Childcare Centre @ KL Eco City",
-    "name_ja": null,
+    "name_ja": "Little Playhouse Preschool and Childcare Centre",
     "area": "Kuala Lumpur",
     "address": "M-01, KL Eco City Mall, 3, Jalan Bangsar, 59100 Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
     "lat": 3.1195,
     "lng": 101.6742,
     "phone": "+60102811337",
     "website": "https://littleplayhouse.com.my/preschool-daycare-kindergarten-klec/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育",
+      "学校"
+    ],
     "hours": "Monday: 8:00 AM – 6:00 PM / Tuesday: 8:00 AM – 6:00 PM / Wednesday: 8:00 AM – 6:00 PM / Thursday: 8:00 AM – 6:00 PM / Friday: 8:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJHS3Zo91JzDERba3bGK559zM",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "taska-qaseh-iman",
     "name": "Taska Qaseh Iman",
-    "name_ja": null,
+    "name_ja": "Taska Qaseh Iman",
     "area": "Kuala Lumpur",
     "address": "Japan 14, 35, Seksyen 14, 46100 Petaling Jaya, Selangor, Malaysia",
     "lat": 3.1083,
     "lng": 101.6322,
     "phone": null,
     "website": null,
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJYR-vtMlLzDERPr1HswIbZeU",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "aikido-renshin-budo-kai-hq",
     "name": "Aikido Renshin Budo Kai HQ",
-    "name_ja": null,
+    "name_ja": "Aikido Renshin Budo Kai HQ",
     "area": "Kuala Lumpur",
     "address": "No. 19, 2nd Floor Jalan Scott, Off, Jalan Tun Sambanthan, Brickfields, 50470 Kuala Lumpur, Wilayah Persekutuan, Malaysia",
     "lat": 3.1355,
     "lng": 101.6919,
     "phone": "+60122317069",
     "website": "https://aikido-maa.com/dojo/renshinbudokai/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": "Monday: Closed / Tuesday: 8:00 – 10:00 PM / Wednesday: Closed / Thursday: 8:00 – 10:00 PM / Friday: Closed / Saturday: 2:00 – 4:00 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJG9lClVZJzDERg7bmqla2hQ4",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "gakken-classroom-1-mont-kiara",
     "name": "Gakken Classroom 1 Mont' Kiara",
-    "name_ja": null,
+    "name_ja": "Gakken Classroom 1 Mont' Kiara",
     "area": "Kuala Lumpur",
     "address": "Unit 15-5, Menara 1MK, 1, Jalan Kiara, Mont Kiara, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1654,
     "lng": 101.6527,
     "phone": "+60364193247",
     "website": "http://gakkenclassroom.com.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": "Monday: 10:00 AM – 7:00 PM / Tuesday: 10:00 AM – 7:00 PM / Wednesday: 10:00 AM – 7:00 PM / Thursday: 10:00 AM – 7:00 PM / Friday: 10:00 AM – 7:00 PM / Saturday: 10:00 AM – 3:00 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJL1gUoPFIzDERmkh5irf8Knw",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "daitoh-kindergarten-2",
     "name": "Daitoh kindergarten",
-    "name_ja": null,
+    "name_ja": "Daitoh kindergarten",
     "area": "Kuala Lumpur",
     "address": "D-G-3, Perdana, Plaza Arkadia 3, Jalan Intisari, Desa Parkcity, 52200 Kuala Lumpur Township, Kepong, 52200 kl, Wilayah Persekutuan Kuala Lumpur, Malaysia",
     "lat": 3.1866,
     "lng": 101.636,
     "phone": "+60164400337",
     "website": "https://daito-kindergarten.my/",
-    "description": "",
-    "tags": [],
+    "description": "Kuala Lumpurにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": "Monday: 8:00 AM – 6:00 PM / Tuesday: 8:00 AM – 6:00 PM / Wednesday: 8:00 AM – 6:00 PM / Thursday: 8:00 AM – 6:00 PM / Friday: 8:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJwyKlbXhJzDERCJNNah8S_Nk",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "sekolah-jepun-pulau-pinang",
     "name": "Sekolah Jepun Pulau Pinang",
-    "name_ja": null,
+    "name_ja": "Sekolah Jepun Pulau Pinang",
     "area": "Penang",
     "address": "140, Jalan Sungai Pinang, George Town, 10150 George Town, Pulau Pinang, Malaysia",
     "lat": 5.4201,
     "lng": 100.3344,
     "phone": "+6042280494",
     "website": "https://sites.google.com/mypjs.com/home",
-    "description": "",
-    "tags": [],
+    "description": "Penangにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ_dhgpcfDSjARBcpZJqKIVz4",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "penang-japanese-language-society",
     "name": "Penang Japanese Language Society",
-    "name_ja": null,
+    "name_ja": "Penang Japanese Language Society",
     "area": "Penang",
     "address": "Jalan Gottlieb, 10350 George Town, Pulau Pinang, Malaysia",
     "lat": 5.4324,
     "lng": 100.3022,
     "phone": "+6042265908",
     "website": "http://www.pjls.org/",
-    "description": "",
-    "tags": [],
+    "description": "Penangにある日本語学校。日本語学習や日本留学準備のコースを提供。",
+    "tags": [
+      "教育",
+      "日本語教育"
+    ],
     "hours": "Monday: 7:00 – 9:30 PM / Tuesday: 7:00 – 9:30 PM / Wednesday: 7:00 – 9:30 PM / Thursday: 7:00 – 9:30 PM / Friday: 7:00 – 9:30 PM / Saturday: 9:00 AM – 5:00 PM / Sunday: 9:00 AM – 12:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJFdGJb__CSjARpbexC0HkR7g",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "mikasano",
     "name": "Mikasano",
-    "name_ja": null,
+    "name_ja": "Mikasano",
     "area": "Penang",
     "address": "No. 4A, Jalan Perai Jaya, Bandar Perai Jaya, 13600 Perai, Pulau Pinang, Malaysia",
     "lat": 5.379,
     "lng": 100.3971,
     "phone": "+6043993191",
     "website": "http://www.mikasano.com/",
-    "description": "",
-    "tags": [],
+    "description": "Penangにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": "Monday: 9:00 AM – 4:00 PM / Tuesday: 9:00 AM – 4:00 PM / Wednesday: 9:00 AM – 4:00 PM / Thursday: 9:00 AM – 4:00 PM / Friday: 9:00 AM – 4:00 PM / Saturday: 10:00 AM – 5:00 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJYzeSLX3GSjARqTjaRBg6lcw",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "little-june-sushi-jelutong",
     "name": "Little June Sushi - Jelutong",
-    "name_ja": null,
+    "name_ja": "Little June Sushi - Jelutong",
     "area": "Penang",
     "address": "107, Jalan Free School, Kampung Dodol, 11600 Jelutong, Pulau Pinang, Malaysia",
     "lat": 5.4033,
     "lng": 100.3127,
     "phone": "+60193989846",
     "website": "https://www.facebook.com/Littlejunesushi",
-    "description": "",
-    "tags": [],
+    "description": "Penangにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": "Monday: 12:00 – 10:00 PM / Tuesday: 12:00 – 10:00 PM / Wednesday: 12:00 – 10:00 PM / Thursday: 12:00 – 10:00 PM / Friday: 12:00 – 10:00 PM / Saturday: 12:00 – 10:00 PM / Sunday: 12:00 – 10:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ-153IbvDSjARhyVMfOAK0AM",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "the-shichida-method-sdn-bhd",
     "name": "The Shichida Method Sdn Bhd",
-    "name_ja": null,
+    "name_ja": "The Shichida Method Sdn Bhd",
     "area": "Penang",
     "address": "101 First Floor, Penang Plaza Jalan Burma George Town, 10050 Jelutong, Penang, Malaysia",
     "lat": 5.4212,
     "lng": 100.3253,
     "phone": "+6042106555",
     "website": "https://www.shichidamethod.com/?utm_source=Google+&utm_medium=website&utm_campaign=website_clicks",
-    "description": "",
-    "tags": [],
+    "description": "Penangにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": "Monday: Closed / Tuesday: Closed / Wednesday: 9:00 AM – 5:00 PM / Thursday: 9:00 AM – 5:00 PM / Friday: 9:00 AM – 5:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: 9:00 AM – 6:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJP5DuUr3DSjARVEDNJtisedI",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "penang-japanese-school",
     "name": "Penang Japanese School",
-    "name_ja": null,
+    "name_ja": "Penang Japanese School",
     "area": "Penang",
     "address": "Taman Cemerlang, 10150 George Town, Penang, Malaysia",
     "lat": 5.4084,
     "lng": 100.3176,
     "phone": null,
     "website": null,
-    "description": "",
-    "tags": [],
+    "description": "Penangにある日本人学校。日本のカリキュラムに基づいた教育を提供。",
+    "tags": [
+      "教育",
+      "学校"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJuyX1t8fDSjARgjJXOht1CRk",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "penang-japanese-school-2",
     "name": "Penang Japanese School",
-    "name_ja": null,
+    "name_ja": "Penang Japanese School",
     "area": "Penang",
     "address": "Taman Cemerlang, 10150 George Town, Penang, Malaysia",
     "lat": 5.4083,
     "lng": 100.3176,
     "phone": null,
     "website": null,
-    "description": "",
-    "tags": [],
+    "description": "Penangにある日本人学校。日本のカリキュラムに基づいた教育を提供。",
+    "tags": [
+      "教育",
+      "学校"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJkTrIt8fDSjARBW684gZr-I4",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "24",
     "name": "大成会 北24条教室（札幌学習塾）",
-    "name_ja": null,
+    "name_ja": "大成会北条教室札幌学習塾",
     "area": "Penang",
     "address": "Japan, 〒001-0024 Hokkaido, Sapporo, Kita Ward, Kita 24 Jōnishi, 4-chōme−1−５ 内海ビル 3F",
     "lat": 43.0905,
     "lng": 141.344,
     "phone": "+81120519509",
     "website": "https://passing-notes.com/",
-    "description": "",
-    "tags": [],
+    "description": "Penangにある日本人コミュニティ組織。文化交流や各種イベントを開催。",
+    "tags": [
+      "教育",
+      "コミュニティ"
+    ],
     "hours": "Monday: 9:00 AM – 10:00 PM / Tuesday: 9:00 AM – 10:00 PM / Wednesday: 9:00 AM – 10:00 PM / Thursday: 9:00 AM – 10:00 PM / Friday: 9:00 AM – 10:00 PM / Saturday: 9:00 AM – 10:00 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJKeyAnZkpC18RFNTU11trqgA",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "taiseikai",
     "name": "Taiseikai",
-    "name_ja": null,
+    "name_ja": "Taiseikai",
     "area": "Penang",
     "address": "Japan, 〒001-0015 Hokkaido, Sapporo, Kita Ward, Kita 15 Jōnishi, 4-chōme−2−２７ 北１５条ビル 2F",
     "lat": 43.079,
     "lng": 141.347,
     "phone": "+81120519509",
     "website": "https://passing-notes.com/class/kita15jou/",
-    "description": "",
-    "tags": [],
+    "description": "Penangにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": "Monday: 9:00 AM – 10:00 PM / Tuesday: 9:00 AM – 10:00 PM / Wednesday: 9:00 AM – 10:00 PM / Thursday: 9:00 AM – 10:00 PM / Friday: 9:00 AM – 10:00 PM / Saturday: 9:00 AM – 10:00 PM / Sunday: 9:00 AM – 10:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ28NXNgUpC18RTovwtuMrJ_4",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "ena-keiohorino-uchi",
     "name": "ena Keiohorino Uchi",
-    "name_ja": null,
+    "name_ja": "ena Keiohorino Uchi",
     "area": "Penang",
     "address": "Japan, 〒192-0355 Tokyo, Hachioji, Horinouchi, 3-chōme−３０−１ スカイパレス堀之内 1F",
     "lat": 35.6264,
     "lng": 139.3995,
     "phone": "+81120061711",
     "website": "https://www.ena.co.jp/rooms/ena%E4%BA%AC%E7%8E%8B%E5%A0%80%E4%B9%8B%E5%86%85/",
-    "description": "",
-    "tags": [],
+    "description": "Penangにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": "Monday: 2:00 – 10:00 PM / Tuesday: 2:00 – 10:00 PM / Wednesday: 2:00 – 10:00 PM / Thursday: 2:00 – 10:00 PM / Friday: 2:00 – 10:00 PM / Saturday: 12:00 – 10:00 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJa2KdatziGGARXcLmNvT3VSQ",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "waseda-academy",
     "name": "Waseda Academy",
-    "name_ja": null,
+    "name_ja": "Waseda Academy",
     "area": "Penang",
     "address": "Japan, 〒170-0013 Tokyo, Toshima City, Higashiikebukuro, 1-chōme−25−１７ ウエストビル 4階",
     "lat": 35.7281,
     "lng": 139.7162,
     "phone": "+81339711611",
     "website": "https://www.waseaca-kobetsu.jp/school/tokyo/S430013/?cid=WK_GBP_tokyo_603&utm_source=GMB&utm_medium=profile",
-    "description": "",
-    "tags": [],
+    "description": "Penangにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": "Monday: 2:00 – 9:30 PM / Tuesday: 2:00 – 9:30 PM / Wednesday: 2:00 – 9:30 PM / Thursday: 2:00 – 9:30 PM / Friday: 2:00 – 9:30 PM / Saturday: 10:30 AM – 9:30 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ95r31miNGGARW76mFg44c_c",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "waseda-academy-2",
     "name": "Waseda Academy",
-    "name_ja": null,
+    "name_ja": "Waseda Academy",
     "area": "Penang",
     "address": "1-chōme-4-5 Higashi, Kunitachi, Tokyo 186-0002, Japan",
     "lat": 35.6984,
     "lng": 139.4478,
     "phone": "+81425721201",
     "website": "https://www.waseda-ac.co.jp/english/englishengine/kunitachi.html?cid=GBP_tokyotama_752_ee",
-    "description": "",
-    "tags": [],
+    "description": "Penangにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": "Monday: 2:00 – 9:30 PM / Tuesday: 2:00 – 9:30 PM / Wednesday: Closed / Thursday: 2:00 – 9:30 PM / Friday: 2:00 – 9:30 PM / Saturday: 12:00 – 9:30 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJBcZmagfkGGARPiwJeXGU8IA",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "kikokushijo-academy",
     "name": "Kikokushijo Academy",
-    "name_ja": null,
+    "name_ja": "Kikokushijo Academy",
     "area": "Penang",
     "address": "1-chōme-6-8 Nakane, Meguro City, Tokyo 152-0031, Japan",
     "lat": 35.6168,
     "lng": 139.6753,
     "phone": "+81337232380",
     "website": "http://www.kikokushijoacademy.com/",
-    "description": "",
-    "tags": [],
+    "description": "Penangにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": "Monday: 2:00 – 7:00 PM / Tuesday: 2:00 – 7:00 PM / Wednesday: 2:00 – 7:00 PM / Thursday: 2:00 – 7:00 PM / Friday: 2:00 – 7:00 PM / Saturday: 9:30 AM – 5:00 PM / Sunday: 9:30 AM – 5:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ06pHsN70GGARpxVj1lydi7o",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "castdice",
     "name": "個別指導塾CASTDICE",
-    "name_ja": null,
+    "name_ja": "個別指導塾",
     "area": "Penang",
     "address": "302 1-chōme-42-42番地14号 Higashiikebukuro, Toshima City, Tokyo 170-0013, Japan",
     "lat": 35.7325,
     "lng": 139.7132,
     "phone": null,
     "website": "https://castdice.jp/",
-    "description": "",
-    "tags": [],
+    "description": "Penangにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ6YGBIk6NGGAR1d2yJy6PWTc",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "waseda-academy-3",
     "name": "Waseda Academy",
-    "name_ja": null,
+    "name_ja": "Waseda Academy",
     "area": "Penang",
     "address": "Japan, 〒171-0022 Tokyo, Toshima City, Minamiikebukuro, 1-chōme−16−１５ ダイヤゲート池袋 9F",
     "lat": 35.7268,
     "lng": 139.7103,
     "phone": null,
     "website": "https://www.waseda-ac.co.jp/abroad/",
-    "description": "",
-    "tags": [],
+    "description": "Penangにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJsxPJWMmNGGAROlCvwmCmIZU",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "the-japanese-school-of-johor",
     "name": "The Japanese School Of Johor",
-    "name_ja": null,
+    "name_ja": "The Japanese School Of Johor",
     "area": "Johor Bahru",
     "address": "Bandar, 3, Jln Persisiran Seri Alam, Bandar Baru Seri Alam, 81750 Masai, Johor, Malaysia",
     "lat": 1.5121,
     "lng": 103.871,
     "phone": "+6073864562",
     "website": "https://www.jsj-malaysia.com/",
-    "description": "",
-    "tags": [],
+    "description": "Johor Bahruにある日本人学校。日本のカリキュラムに基づいた教育を提供。",
+    "tags": [
+      "教育",
+      "学校"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJB_5VAPlq2jERd1_gxyXjArs",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "the-japanese-school-singapore-primary-clementi-campus",
     "name": "The Japanese School, Singapore (Primary, Clementi Campus)",
-    "name_ja": null,
+    "name_ja": "The Japanese School, Singapore",
     "area": "Johor Bahru",
     "address": "95 Clementi Rd, Singapore 129782",
     "lat": 1.3004,
     "lng": 103.7693,
     "phone": "+6567753366",
     "website": "http://www.sjs.edu.sg/",
-    "description": "",
-    "tags": [],
+    "description": "Johor Bahruにある日本人学校。日本のカリキュラムに基づいた教育を提供。",
+    "tags": [
+      "教育",
+      "学校"
+    ],
     "hours": "Monday: Open 24 hours / Tuesday: Open 24 hours / Wednesday: Open 24 hours / Thursday: Open 24 hours / Friday: Open 24 hours / Saturday: Open 24 hours / Sunday: Open 24 hours",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJF1fc0_Aa2jERRBt9Q6qpP7g",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "tomo-japanese-language-school",
     "name": "Tomo Japanese Language School",
-    "name_ja": null,
+    "name_ja": "Tomo Japanese Language School",
     "area": "Johor Bahru",
     "address": "190 Clemenceau Ave, #03 #02, Singapore 239924",
     "lat": 1.2982,
     "lng": 103.8441,
     "phone": null,
     "website": "http://www.tomo-japanese.com/",
-    "description": "",
-    "tags": [],
+    "description": "Johor Bahruにある日本語学校。日本語学習や日本留学準備のコースを提供。",
+    "tags": [
+      "教育",
+      "日本語教育"
+    ],
     "hours": "Monday: 10:00 AM – 10:00 PM / Tuesday: 10:00 AM – 10:00 PM / Wednesday: 10:00 AM – 10:00 PM / Thursday: 10:00 AM – 10:00 PM / Friday: 10:00 AM – 10:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJPSqhBJgZ2jERvrYv8zguNjw",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "the-japanese-school-singapore-secondary-west-coast-campus",
     "name": "The Japanese School, Singapore (Secondary, West Coast Campus)",
-    "name_ja": null,
+    "name_ja": "The Japanese School, Singapore",
     "area": "Johor Bahru",
     "address": "201 W Coast Rd, Singapore 127383",
     "lat": 1.3112,
     "lng": 103.7565,
     "phone": "+6567797355",
     "website": "https://www.sjs.edu.sg/secondary/",
-    "description": "",
-    "tags": [],
+    "description": "Johor Bahruにある日本人学校。日本のカリキュラムに基づいた教育を提供。",
+    "tags": [
+      "教育",
+      "学校"
+    ],
     "hours": "Monday: Open 24 hours / Tuesday: Open 24 hours / Wednesday: Open 24 hours / Thursday: Open 24 hours / Friday: Open 24 hours / Saturday: Open 24 hours / Sunday: Open 24 hours",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJZc8q1ZUa2jERDBUkmWroOlU",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "japanese-explorer-best-japanese-language-school-in-singapore",
     "name": "Japanese Explorer - Best Japanese Language School In Singapore",
-    "name_ja": null,
+    "name_ja": "Japanese Explorer - Best Japanese Language School In Singapore",
     "area": "Johor Bahru",
     "address": "10 Anson Rd, #22-07C International Plaza, Singapore 079903",
     "lat": 1.2761,
     "lng": 103.8458,
     "phone": "+6597258311",
     "website": "https://www.japaneseexplorer.com.sg/",
-    "description": "",
-    "tags": [],
+    "description": "Johor Bahruにある日本語学校。日本語学習や日本留学準備のコースを提供。",
+    "tags": [
+      "教育",
+      "日本語教育"
+    ],
     "hours": "Monday: 10:00 AM – 9:00 PM / Tuesday: 10:00 AM – 9:00 PM / Wednesday: 10:00 AM – 9:00 PM / Thursday: 10:00 AM – 9:00 PM / Friday: 10:00 AM – 9:00 PM / Saturday: 10:00 AM – 5:00 PM / Sunday: 10:00 AM – 5:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJXVfRiQ0Z2jERNpCh5X_CVuE",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "hougang-japanese-language-school",
     "name": "Hougang Japanese Language School",
-    "name_ja": null,
+    "name_ja": "Hougang Japanese Language School",
     "area": "Johor Bahru",
     "address": "133 Jurong Gateway Rd, #03-291, Singapore 600133",
     "lat": 1.334,
     "lng": 103.7394,
     "phone": "+6562827590",
     "website": "https://www.hougangjapanese.com/",
-    "description": "",
-    "tags": [],
+    "description": "Johor Bahruにある日本語学校。日本語学習や日本留学準備のコースを提供。",
+    "tags": [
+      "教育",
+      "日本語教育"
+    ],
     "hours": "Monday: 3:00 – 8:00 PM / Tuesday: 3:00 – 8:00 PM / Wednesday: 3:00 – 8:00 PM / Thursday: 3:00 – 8:00 PM / Friday: 3:00 – 8:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: 9:00 AM – 3:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJV9Fk2PIR2jERGN17usZxLPo",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "the-japanese-school-singapore-primary-changi-campus",
     "name": "The Japanese School, Singapore (Primary, Changi Campus)",
-    "name_ja": null,
+    "name_ja": "The Japanese School, Singapore",
     "area": "Johor Bahru",
     "address": "11 Upper Changi Rd N, Singapore 507657",
     "lat": 1.3538,
     "lng": 103.9662,
     "phone": "+6565429600",
     "website": "https://www.sjs.edu.sg/changi/",
-    "description": "",
-    "tags": [],
+    "description": "Johor Bahruにある日本人学校。日本のカリキュラムに基づいた教育を提供。",
+    "tags": [
+      "教育",
+      "学校"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ9ZbMUuM82jERkjSX2fAZGJ0",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "all-nihon-japanese-language-centre",
     "name": "All Nihon Japanese Language Centre",
-    "name_ja": null,
+    "name_ja": "All Nihon Japanese Language Centre",
     "area": "Johor Bahru",
     "address": "Singapore",
     "lat": 1.3727,
     "lng": 103.8359,
     "phone": null,
     "website": null,
-    "description": "",
-    "tags": [],
+    "description": "Johor Bahruにある日本語学校。日本語学習や日本留学準備のコースを提供。",
+    "tags": [
+      "教育",
+      "日本語教育"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJq9Em2doW2jER6CjEp5_elm4",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "hougang-japanese-language-school-2",
     "name": "Hougang Japanese Language School",
-    "name_ja": null,
+    "name_ja": "Hougang Japanese Language School",
     "area": "Johor Bahru",
     "address": "Hougang St 21, #04-113/119, Singapore 530204",
     "lat": 1.3589,
     "lng": 103.8851,
     "phone": "+6562827590",
     "website": "http://japaneselanguage.client.jp/",
-    "description": "",
-    "tags": [],
+    "description": "Johor Bahruにある日本語学校。日本語学習や日本留学準備のコースを提供。",
+    "tags": [
+      "教育",
+      "日本語教育"
+    ],
     "hours": "Monday: 1:00 – 8:00 PM / Tuesday: 1:00 – 8:00 PM / Wednesday: 1:00 – 8:00 PM / Thursday: 1:00 – 8:00 PM / Friday: 1:00 – 8:00 PM / Saturday: 10:30 AM – 3:30 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJJ_GfsrYX2jERbzQa3TuNN5U",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "hougang-japanese-language-school-3",
     "name": "Hougang Japanese Language School",
-    "name_ja": null,
+    "name_ja": "Hougang Japanese Language School",
     "area": "Johor Bahru",
     "address": "Blk 247 #01-K1, Tampines St. 21, #521247, Singapore 521247",
     "lat": 1.3521,
     "lng": 103.9468,
     "phone": "+6580624280",
     "website": "https://www.hougangjapanese.com/",
-    "description": "",
-    "tags": [],
+    "description": "Johor Bahruにある日本語学校。日本語学習や日本留学準備のコースを提供。",
+    "tags": [
+      "教育",
+      "日本語教育"
+    ],
     "hours": "Monday: Closed / Tuesday: Closed / Wednesday: Closed / Thursday: Closed / Friday: 6:30 – 10:00 PM / Saturday: Closed / Sunday: 9:00 AM – 2:30 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJC-Zfcy092jER1pbmN7z4io8",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "ikoma-language-school",
     "name": "Ikoma Language School",
-    "name_ja": null,
+    "name_ja": "Ikoma Language School",
     "area": "Johor Bahru",
     "address": "350 Orchard Rd, Floor 12 #12-07 Shaw House, Singapore 238868",
     "lat": 1.3055,
     "lng": 103.8313,
     "phone": "+6562380288",
     "website": "https://www.ikoma.com.sg/",
-    "description": "",
-    "tags": [],
+    "description": "Johor Bahruにある日本語学校。日本語学習や日本留学準備のコースを提供。",
+    "tags": [
+      "教育",
+      "日本語教育"
+    ],
     "hours": "Monday: 9:00 AM – 10:00 PM / Tuesday: 9:00 AM – 10:00 PM / Wednesday: 9:00 AM – 10:00 PM / Thursday: 9:00 AM – 10:00 PM / Friday: 9:00 AM – 10:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJTeT2Co0Z2jERCAAj3ZfURu0",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "bunka-language-school",
     "name": "Bunka Language School",
-    "name_ja": null,
+    "name_ja": "Bunka Language School",
     "area": "Johor Bahru",
     "address": "231 Bain St, #02-39, COMPLEX 180231",
     "lat": 1.2968,
     "lng": 103.8539,
     "phone": "+6594658892",
     "website": "http://www.bunkalang.com/",
-    "description": "",
-    "tags": [],
+    "description": "Johor Bahruにある日本語学校。日本語学習や日本留学準備のコースを提供。",
+    "tags": [
+      "教育",
+      "日本語教育"
+    ],
     "hours": "Monday: 10:00 AM – 7:00 PM / Tuesday: 10:00 AM – 7:00 PM / Wednesday: 10:00 AM – 7:00 PM / Thursday: 10:00 AM – 7:00 PM / Friday: 10:00 AM – 7:00 PM / Saturday: 9:00 AM – 4:30 PM / Sunday: 9:00 AM – 4:30 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJvzeLuYwZ2jERGSoJpHKd0eE",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "tsubasa-language-services",
     "name": "Tsubasa Language Services",
-    "name_ja": null,
+    "name_ja": "Tsubasa Language Services",
     "area": "Johor Bahru",
     "address": "808 French Rd, Singapore 200808",
     "lat": 1.3087,
     "lng": 103.8616,
     "phone": null,
     "website": "http://www.learnjapanese.sg/",
-    "description": "",
-    "tags": [],
+    "description": "Johor Bahruにある日本語学校。日本語学習や日本留学準備のコースを提供。",
+    "tags": [
+      "教育",
+      "日本語教育"
+    ],
     "hours": "Monday: 5:00 – 10:00 PM / Tuesday: 5:00 – 10:00 PM / Wednesday: 10:00 AM – 10:00 PM / Thursday: 10:00 AM – 10:00 PM / Friday: 7:00 – 10:00 PM / Saturday: 10:00 AM – 5:00 PM / Sunday: 11:00 AM – 4:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJXwNjsOAZ2jERZxiWYo1S_xc",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "jcs-japanese-language-school",
     "name": "JCS Japanese Language School",
-    "name_ja": null,
+    "name_ja": "JCS Japanese Language School",
     "area": "Johor Bahru",
     "address": "112 Middle Rd, #05-00 Midland House, Singapore 188970",
     "lat": 1.2991,
     "lng": 103.8538,
     "phone": "+6563383428",
     "website": "https://www.jcss.org.sg/",
-    "description": "",
-    "tags": [],
+    "description": "Johor Bahruにある日本語学校。日本語学習や日本留学準備のコースを提供。",
+    "tags": [
+      "教育",
+      "日本語教育"
+    ],
     "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: Closed / Saturday: 10:00 AM – 2:00 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJt-L52boZ2jERNVL2U5DPX98",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "the-japanese-supplementary-school-singapore",
     "name": "The Japanese Supplementary School, Singapore",
-    "name_ja": null,
+    "name_ja": "The Japanese Supplementary School, Singapore",
     "area": "Johor Bahru",
     "address": "95 Clementi Rd, Singapore 129782",
     "lat": 1.3001,
     "lng": 103.7693,
     "phone": "+6567775560",
     "website": "http://www.jss.edu.sg/access",
-    "description": "",
-    "tags": [],
+    "description": "Johor Bahruにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育",
+      "学校"
+    ],
     "hours": "Monday: Closed / Tuesday: 10:00 AM – 5:00 PM / Wednesday: 10:00 AM – 5:00 PM / Thursday: 10:00 AM – 5:00 PM / Friday: 10:00 AM – 5:00 PM / Saturday: 10:00 AM – 5:00 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJi9LxyvAa2jERvt0cdUiSZlc",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "nihongo-club-japanese-language-school",
     "name": "Nihongo Club Japanese Language School",
-    "name_ja": null,
+    "name_ja": "Nihongo Club Japanese Language School",
     "area": "Johor Bahru",
     "address": "A04-44, Blok A, Eko Galleria, 3, Persiaran Eko Botani, Taman Eco Botani, 79100 Iskandar Puteri, Johor Darul Ta'zim, Malaysia",
     "lat": 1.4414,
     "lng": 103.6159,
     "phone": "+601170178169",
     "website": "https://www.facebook.com/NihongoClubJapaneseLanguageSchool",
-    "description": "",
-    "tags": [],
+    "description": "Johor Bahruにある日本語学校。日本語学習や日本留学準備のコースを提供。",
+    "tags": [
+      "教育",
+      "日本語教育",
+      "コミュニティ"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJYyctvEFz2jERFufKVquOGtg",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "a-to-z-language-centre-sdn-bhd",
     "name": "A To Z Language Centre Sdn Bhd",
-    "name_ja": null,
+    "name_ja": "A To Z Language Centre Sdn Bhd",
     "area": "Johor Bahru",
     "address": "G-08, Jalan Permas 15/1, Bandar Baru Permas Jaya, 81750 Masai, Johor Darul Ta'zim, Malaysia",
     "lat": 1.4938,
     "lng": 103.8206,
     "phone": "+6073861784",
     "website": "https://atozlanguage.com/",
-    "description": "",
-    "tags": [],
+    "description": "Johor Bahruにある日本語学校。日本語学習や日本留学準備のコースを提供。",
+    "tags": [
+      "教育",
+      "日本語教育"
+    ],
     "hours": "Monday: 11:30 AM – 9:30 PM / Tuesday: 11:30 AM – 9:30 PM / Wednesday: 11:30 AM – 9:30 PM / Thursday: 11:30 AM – 9:30 PM / Friday: 11:30 AM – 9:30 PM / Saturday: 10:00 AM – 5:00 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJpVYXg19r2jERyFn3JIkRDFU",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "the-japanese-cultural-society",
     "name": "The Japanese Cultural Society",
-    "name_ja": null,
+    "name_ja": "The Japanese Cultural Society",
     "area": "Johor Bahru",
     "address": "112 Middle Rd, #05-00, Singapore 188970",
     "lat": 1.2991,
     "lng": 103.8536,
     "phone": "+6563383428",
     "website": "https://www.jcss.org.sg/",
-    "description": "",
-    "tags": [],
+    "description": "Johor Bahruにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: Closed / Saturday: 10:00 AM – 2:00 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJn-bc2boZ2jER0ReMJJWs-Cg",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "nihongo-japanese-language-school",
     "name": "NihonGO Japanese Language School",
-    "name_ja": null,
+    "name_ja": "NihonGO Japanese Language School",
     "area": "Johor Bahru",
     "address": "10, Jalan Pesona 1, Taman Pelangi Indah, 81800 Ulu Tiram, Johor Darul Ta'zim, Malaysia",
     "lat": 1.5808,
     "lng": 103.7964,
     "phone": null,
     "website": null,
-    "description": "",
-    "tags": [],
+    "description": "Johor Bahruにある日本語学校。日本語学習や日本留学準備のコースを提供。",
+    "tags": [
+      "教育",
+      "日本語教育"
+    ],
     "hours": "Monday: 10:00 AM – 10:00 PM / Tuesday: 10:00 AM – 10:00 PM / Wednesday: 10:00 AM – 10:00 PM / Thursday: 10:00 AM – 10:00 PM / Friday: 10:00 AM – 10:00 PM / Saturday: 10:00 AM – 10:00 PM / Sunday: 10:00 AM – 10:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJd30A2udu2jERqeqlyHfqqvw",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "the-japanese-association-singapore",
     "name": "The Japanese Association, Singapore",
-    "name_ja": null,
+    "name_ja": "The Japanese Association, Singapore",
     "area": "Johor Bahru",
     "address": "120 Adam Rd, Singapore 289899",
     "lat": 1.3306,
     "lng": 103.8158,
     "phone": "+6565918136",
     "website": "http://www.jas.org.sg/",
-    "description": "",
-    "tags": [],
+    "description": "Johor Bahruにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": "Monday: 9:00 AM – 7:00 PM / Tuesday: 9:00 AM – 7:00 PM / Wednesday: 9:00 AM – 7:00 PM / Thursday: 9:00 AM – 7:00 PM / Friday: 9:00 AM – 7:00 PM / Saturday: 9:00 AM – 7:00 PM / Sunday: 9:00 AM – 7:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJzb8l46sQ2jER4NIDTCvdw_A",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "agape-school-of-education",
     "name": "Agape School of Education",
-    "name_ja": null,
+    "name_ja": "Agape School of Education",
     "area": "Johor Bahru",
     "address": "Thomson Rd, #191A Goldhill Shopping Centre, Singapore 307632",
     "lat": 1.3186,
     "lng": 103.8434,
     "phone": "+6562222331",
     "website": "https://agape.school/",
-    "description": "",
-    "tags": [],
+    "description": "Johor Bahruにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育",
+      "学校"
+    ],
     "hours": "Monday: 10:00 AM – 10:00 PM / Tuesday: 10:00 AM – 10:00 PM / Wednesday: 10:00 AM – 10:00 PM / Thursday: 10:00 AM – 10:00 PM / Friday: 10:00 AM – 10:00 PM / Saturday: 9:30 AM – 8:30 PM / Sunday: 9:30 AM – 8:30 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJna7BrroZ2jERieuFaDgweWM",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "hougang-japanese",
     "name": "Hougang Japanese",
-    "name_ja": null,
+    "name_ja": "Hougang Japanese",
     "area": "Johor Bahru",
     "address": "123 Bukit Merah Lane 1, Singapore 150123",
     "lat": 1.286,
     "lng": 103.8038,
     "phone": "+6562738434",
     "website": "https://www.hougangjapanese.com/",
-    "description": "",
-    "tags": [],
+    "description": "Johor Bahruにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": "Monday: 1:00 – 5:00 PM, 5:30 – 7:00 PM / Tuesday: 1:00 – 5:00 PM, 5:30 – 7:00 PM / Wednesday: 1:00 – 5:00 PM, 5:30 – 7:00 PM / Thursday: 1:00 – 5:00 PM, 5:30 – 7:00 PM / Friday: 1:00 – 5:00 PM, 5:30 – 7:00 PM / Saturday: 12:30 – 4:30 PM / Sunday: 10:30 AM – 3:30 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJSSs-i8sb2jER-Kw3kAgksUc",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "tokyo-codomo-japanese-language-centre",
     "name": "Tokyo Codomo Japanese Language Centre",
-    "name_ja": null,
+    "name_ja": "Tokyo Codomo Japanese Language Centre",
     "area": "Johor Bahru",
     "address": "1 Tanglin Rd, Singapore 247905",
     "lat": 1.3067,
     "lng": 103.8277,
     "phone": "+6567343254",
     "website": "https://www.codomo.co.jp/classroom/singapore/",
-    "description": "",
-    "tags": [],
+    "description": "Johor Bahruにある日本語学校。日本語学習や日本留学準備のコースを提供。",
+    "tags": [
+      "教育",
+      "日本語教育"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJp-GkZosZ2jERE7sCuqrd7Ng",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "taiyo-japanese-language-school",
     "name": "Taiyo | Japanese Language School",
-    "name_ja": null,
+    "name_ja": "Taiyo",
     "area": "Johor Bahru",
     "address": "20 Kramat Ln, #03-05, Singapore 228773",
     "lat": 1.3011,
     "lng": 103.8425,
     "phone": "+6562220583",
     "website": "https://www.taiyo.edu.sg/",
-    "description": "",
-    "tags": [],
+    "description": "Johor Bahruにある日本語学校。日本語学習や日本留学準備のコースを提供。",
+    "tags": [
+      "教育",
+      "日本語教育"
+    ],
     "hours": "Monday: 11:00 AM – 6:00 PM / Tuesday: 11:00 AM – 6:00 PM / Wednesday: 11:00 AM – 6:00 PM / Thursday: 11:00 AM – 6:00 PM / Friday: 11:00 AM – 6:00 PM / Saturday: 11:00 AM – 2:00 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJJ5phrOsZ2jERmirtwdIO240",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "little-shine-japanese-islamic-preschool-bdo",
     "name": "Little Shine Japanese Islamic Preschool (BDO)",
-    "name_ja": null,
+    "name_ja": "Little Shine Japanese Islamic Preschool",
     "area": "Johor Bahru",
     "address": "36, Jalan Perniagaan Setia 2/18, 81100 Johor Bahru, Johor Darul Ta'zim, Malaysia",
     "lat": 1.5768,
     "lng": 103.733,
     "phone": "+60133119065",
     "website": null,
-    "description": "",
-    "tags": [],
+    "description": "Johor Bahruにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育",
+      "学校"
+    ],
     "hours": "Monday: 7:30 AM – 5:30 PM / Tuesday: 7:30 AM – 5:30 PM / Wednesday: 7:30 AM – 5:30 PM / Thursday: 7:30 AM – 5:30 PM / Friday: Closed / Saturday: Closed / Sunday: 7:30 AM – 5:30 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJgRZTDKtv2jERTXlDwyhhRCE",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "little-shine-japanese-islamic-preschool-bsa",
     "name": "Little Shine Japanese Islamic Preschool (BSA)",
-    "name_ja": null,
+    "name_ja": "Little Shine Japanese Islamic Preschool",
     "area": "Johor Bahru",
     "address": "NO 3A&5A, Jalan Gunung 31, Bandar Baru Seri Alam, 81100 Masai, Johor Darul Ta'zim, Malaysia",
     "lat": 1.5122,
     "lng": 103.8645,
     "phone": "+60133119065",
     "website": "https://www.facebook.com/littleshineIP",
-    "description": "",
-    "tags": [],
+    "description": "Johor Bahruにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育",
+      "学校"
+    ],
     "hours": "Monday: 8:00 AM – 6:00 PM / Tuesday: 8:00 AM – 6:00 PM / Wednesday: 8:00 AM – 6:00 PM / Thursday: 8:00 AM – 6:00 PM / Friday: 8:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJfY3Yob9r2jER4sJPHGknYE0",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "iroha-kindergarten",
     "name": "Iroha Kindergarten",
-    "name_ja": null,
+    "name_ja": "Iroha Kindergarten",
     "area": "Johor Bahru",
     "address": "5 Stadium Walk, #03-01, Singapore 397693",
     "lat": 1.3022,
     "lng": 103.8765,
     "phone": "+6569085086",
     "website": "http://www.iroha.sg/",
-    "description": "",
-    "tags": [],
+    "description": "Johor Bahruにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": "Monday: 9:00 AM – 3:00 PM / Tuesday: 9:00 AM – 3:00 PM / Wednesday: 9:00 AM – 3:00 PM / Thursday: 9:00 AM – 3:00 PM / Friday: 9:00 AM – 3:00 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJm28JDTgY2jERk3mGqAP_SsU",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "kinabalu-japanese-school",
     "name": "Kinabalu Japanese School",
-    "name_ja": null,
+    "name_ja": "Kinabalu Japanese School",
     "area": "Kota Kinabalu",
     "address": "Lorong Burong Ejek House No. Miles 3.5 Malaysia, 8, Jalan Tuaran, Permai Valley, 88450 Kota Kinabalu, Sabah, Malaysia",
     "lat": 5.9807,
     "lng": 116.1027,
     "phone": null,
     "website": "https://kjs1983sabah.wixsite.com/kinabalu-japanese-sc",
-    "description": "",
-    "tags": [],
+    "description": "Kota Kinabaluにある日本人学校。日本のカリキュラムに基づいた教育を提供。",
+    "tags": [
+      "教育",
+      "学校"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJO5c4aWVpOzIRJLbmv53WO9w",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "-5",
     "name": "アーガス進学会",
-    "name_ja": null,
+    "name_ja": "アーガス進学会",
     "area": "Kota Kinabalu",
     "address": "Japan, 〒540-0004 Osaka, Chuo Ward, Tamatsukuri, 1-chōme−6−１３ ロイヤル和光ビル 4F",
     "lat": 34.6748,
     "lng": 135.5305,
     "phone": "+81667651119",
     "website": "https://www.agas.co.jp/",
-    "description": "",
-    "tags": [],
+    "description": "Kota Kinabaluにある日本人コミュニティ組織。文化交流や各種イベントを開催。",
+    "tags": [
+      "教育",
+      "コミュニティ"
+    ],
     "hours": "Monday: 3:30 – 9:30 PM / Tuesday: Closed / Wednesday: 2:30 – 9:30 PM / Thursday: 3:30 – 9:30 PM / Friday: 3:30 – 9:30 PM / Saturday: 9:00 AM – 9:00 PM / Sunday: 9:00 AM – 5:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJLytTCUvnAGARmHbIA7jieXA",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "japan-boat-takoyaki-wisma-merdeka",
     "name": "Japan Boat Takoyaki-Wisma Merdeka",
-    "name_ja": null,
+    "name_ja": "Japan Boat Takoyaki-Wisma Merdeka",
     "area": "Kota Kinabalu",
     "address": "Atrium Area, Ground Floor, Phase II, Wisma Merdeka, Jln Tun Razak, Pusat Bandar Kota Kinabalu, 88000 Kota Kinabalu, Sabah, Malaysia",
     "lat": 5.9855,
     "lng": 116.0759,
     "phone": "+60167952785",
     "website": null,
-    "description": "",
-    "tags": [],
+    "description": "Kota Kinabaluにある教育機関。日本関連の教育サービスを提供。",
+    "tags": [
+      "教育"
+    ],
     "hours": "Monday: 10:30 AM – 8:30 PM / Tuesday: 10:30 AM – 8:30 PM / Wednesday: 10:30 AM – 8:30 PM / Thursday: 10:30 AM – 8:30 PM / Friday: 10:30 AM – 8:30 PM / Saturday: 10:30 AM – 8:30 PM / Sunday: 10:30 AM – 6:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJnQVouY9pOzIRoBHWA39Icoc",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   }
 ]

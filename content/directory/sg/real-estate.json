@@ -17,7 +17,8 @@
     "hours": "月〜金: 9:00-18:00（土日祝休）",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "tokio-property",
@@ -38,7 +39,8 @@
     "hours": "月〜金: 9:00-18:00（土日祝休）",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "able-network-singapore",
@@ -58,7 +60,8 @@
     "hours": "月〜金: 9:00-18:00（土日祝は要予約）",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "foreland-realty",
@@ -79,7 +82,8 @@
     "hours": "月〜金: 9:00-18:00（土日祝休）",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "dear-life-singapore",
@@ -99,7 +103,8 @@
     "hours": "月〜金: 9:00-18:00（土日祝休）",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "relo-redac-singapore",
@@ -119,7 +124,8 @@
     "hours": "月〜金: 9:00-18:00（土日祝休）",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "propnex-japanese-desk",
@@ -139,7 +145,8 @@
     "hours": "月〜金: 9:00-18:00（土日祝は要予約）",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "iss-relocation-singapore",
@@ -159,7 +166,8 @@
     "hours": "月〜金: 9:00-18:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "remax-japan-desk-sg",
@@ -179,7 +187,8 @@
     "hours": "月〜金: 9:00-18:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "icon-realty-singapore",
@@ -199,7 +208,8 @@
     "hours": "月〜金: 9:00-18:00（土日祝休）",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "jll-japan-desk-singapore",
@@ -219,7 +229,8 @@
     "hours": "月〜金: 9:00-18:00（土日祝休）",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "cbre-japan-desk-singapore",
@@ -239,7 +250,8 @@
     "hours": "月〜金: 9:00-18:00（土日祝休）",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "cushman-wakefield-japan-desk-sg",
@@ -259,7 +271,8 @@
     "hours": "月〜金: 9:00-18:00（土日祝休）",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "aoyama-realty-singapore",
@@ -279,166 +292,217 @@
     "hours": "月〜金: 9:00-18:00（土日祝は要予約）",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "japan-realty-by-garnet-property",
     "name": "Japan Realty 日本不動產 by Garnet Property",
-    "name_ja": null,
+    "name_ja": "日本不動產",
     "area": "Singapore",
     "address": "190 Clemenceau Ave, #06-01, Singapore 239924",
     "phone": "+6581888316",
     "website": null,
-    "description": "",
-    "tags": [],
+    "description": "シンガポールで日本人向けの不動産サービスを提供。物件探し・賃貸契約をサポート。",
+    "tags": [
+      "不動産",
+      "日本語対応",
+      "賃貸"
+    ],
     "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
-    "place_id": "ChIJkRx6ZzwZ2jERDJ6NnCrnATw"
+    "place_id": "ChIJkRx6ZzwZ2jERDJ6NnCrnATw",
+    "ai_reviewed": true
   },
   {
     "slug": "tokio-property-services-pte-ltd",
     "name": "Tokio Property Services Pte Ltd",
-    "name_ja": null,
+    "name_ja": "Tokio Property Services Pte Ltd",
     "area": "Singapore",
     "address": "20 Kramat Ln, Singapore 228773",
     "phone": "+6567375187",
     "website": "http://www.tokioproperty.com.sg/",
-    "description": "",
-    "tags": [],
+    "description": "シンガポールで日本人向けの不動産サービスを提供。物件探し・賃貸契約をサポート。",
+    "tags": [
+      "不動産",
+      "日本語対応",
+      "賃貸"
+    ],
     "hours": "Monday: 9:00 AM – 5:30 PM / Tuesday: 9:00 AM – 5:30 PM / Wednesday: 9:00 AM – 5:30 PM / Thursday: 9:00 AM – 5:30 PM / Friday: 9:00 AM – 5:30 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
-    "place_id": "ChIJZxTlBbsZ2jER-rwidd98QAk"
+    "place_id": "ChIJZxTlBbsZ2jER-rwidd98QAk",
+    "ai_reviewed": true
   },
   {
     "slug": "wagaya-japan-inc-tokyo-office",
     "name": "wagaya Japan,Inc. Tokyo Office",
-    "name_ja": null,
+    "name_ja": "wagaya Japan,Inc. Tokyo Office",
     "area": "Singapore",
     "address": "Japan, 〒100-0005 Tokyo, Chiyoda City, Marunouchi, 1-chōme−6−５ 北口ビル 8th floor",
     "phone": "+81332125522",
     "website": "https://wagaya-japan.com/nihon-agent/en/",
-    "description": "",
-    "tags": [],
+    "description": "シンガポールで日本人向けの不動産サービスを提供。物件探し・賃貸契約をサポート。",
+    "tags": [
+      "不動産",
+      "日本語対応",
+      "賃貸"
+    ],
     "hours": "Monday: 10:00 AM – 7:00 PM / Tuesday: 10:00 AM – 7:00 PM / Wednesday: Closed / Thursday: 10:00 AM – 7:00 PM / Friday: 10:00 AM – 7:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
-    "place_id": "ChIJmxZSJFGKGGARys9RsCNItc0"
+    "place_id": "ChIJmxZSJFGKGGARys9RsCNItc0",
+    "ai_reviewed": true
   },
   {
     "slug": "apl-japan-trust-management-s-limited",
     "name": "APL Japan Trust Management (S) Limited",
-    "name_ja": null,
+    "name_ja": "APL Japan Trust Management (S) Limited",
     "area": "Singapore",
     "address": "Singapore 038985",
     "phone": "+6563398235",
     "website": null,
-    "description": "",
-    "tags": [],
+    "description": "シンガポールで日本人向けの不動産サービスを提供。物件探し・賃貸契約をサポート。",
+    "tags": [
+      "不動産",
+      "日本語対応",
+      "賃貸"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
-    "place_id": "ChIJkwenOa8Z2jERD2trbGN7xmI"
+    "place_id": "ChIJkwenOa8Z2jERD2trbGN7xmI",
+    "ai_reviewed": true
   },
   {
     "slug": "jpore-estate-pte-ltd",
     "name": "Jpore Estate Pte Ltd",
-    "name_ja": null,
+    "name_ja": "Jpore Estate Pte Ltd",
     "area": "Singapore",
     "address": "Goldhill Plaza, #08-02, Singapore 308900",
     "phone": "+6564288592",
     "website": null,
-    "description": "",
-    "tags": [],
+    "description": "シンガポールで日本人向けの不動産サービスを提供。物件探し・賃貸契約をサポート。",
+    "tags": [
+      "不動産",
+      "日本語対応",
+      "賃貸"
+    ],
     "hours": "Monday: 9:30 AM – 5:30 PM / Tuesday: 9:30 AM – 5:30 PM / Wednesday: 9:30 AM – 5:30 PM / Thursday: 9:30 AM – 5:30 PM / Friday: 9:30 AM – 5:30 PM / Saturday: Closed / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
-    "place_id": "ChIJtfif_84Z2jER76iPQFxY9Sw"
+    "place_id": "ChIJtfif_84Z2jER76iPQFxY9Sw",
+    "ai_reviewed": true
   },
   {
     "slug": "the-japanese-association-singapore",
     "name": "The Japanese Association, Singapore",
-    "name_ja": null,
+    "name_ja": "The Japanese Association, Singapore",
     "area": "Singapore",
     "address": "120 Adam Rd, Singapore 289899",
     "phone": "+6565918136",
     "website": "http://www.jas.org.sg/",
-    "description": "",
-    "tags": [],
+    "description": "シンガポールで日本人向けの不動産サービスを提供。物件探し・賃貸契約をサポート。",
+    "tags": [
+      "不動産",
+      "日本語対応",
+      "賃貸"
+    ],
     "hours": "Monday: 9:00 AM – 7:00 PM / Tuesday: 9:00 AM – 7:00 PM / Wednesday: 9:00 AM – 7:00 PM / Thursday: 9:00 AM – 7:00 PM / Friday: 9:00 AM – 7:00 PM / Saturday: 9:00 AM – 7:00 PM / Sunday: 9:00 AM – 7:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
-    "place_id": "ChIJzb8l46sQ2jER4NIDTCvdw_A"
+    "place_id": "ChIJzb8l46sQ2jER4NIDTCvdw_A",
+    "ai_reviewed": true
   },
   {
     "slug": "",
     "name": "株式会社日経不動産販売",
-    "name_ja": null,
+    "name_ja": "株式会社日経不動産販売",
     "area": "Singapore",
     "address": "41-10 Daimonjichō, Nakagyo Ward, Kyoto, 604-0071, Japan",
     "phone": "+81752520200",
     "website": "https://www.nikkei-re.jp/",
-    "description": "",
-    "tags": [],
+    "description": "シンガポールで日本人向けの不動産サービスを提供。物件探し・賃貸契約をサポート。",
+    "tags": [
+      "不動産",
+      "日本語対応",
+      "賃貸"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: Closed / Thursday: Closed / Friday: 9:00 AM – 6:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: 9:00 AM – 6:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
-    "place_id": "ChIJgcJsOn8IAWARj58u5t9wkSc"
+    "place_id": "ChIJgcJsOn8IAWARj58u5t9wkSc",
+    "ai_reviewed": true
   },
   {
     "slug": "-2",
     "name": "シンガポール 不動産 エージェント",
-    "name_ja": null,
+    "name_ja": "シンガポール不動産エージェント",
     "area": "Singapore",
     "address": "03-01 Mountbatten Rd, Singapore 398007",
     "phone": "+6596699962",
     "website": "https://www.chintai-singapore.com/aboutus",
-    "description": "",
-    "tags": [],
+    "description": "シンガポールで日本人向けの不動産サービスを提供。物件探し・賃貸契約をサポート。",
+    "tags": [
+      "不動産",
+      "日本語対応",
+      "賃貸"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
-    "place_id": "ChIJwSTvp0cY2jERk-WsTg9PhQA"
+    "place_id": "ChIJwSTvp0cY2jERk-WsTg9PhQA",
+    "ai_reviewed": true
   },
   {
     "slug": "e-housing-real-estate",
     "name": "E-HOUSING Real Estate",
-    "name_ja": null,
+    "name_ja": "E-HOUSING Real Estate",
     "area": "Singapore",
     "address": "Japan, 〒150-0001 Tokyo, Shibuya, Jingūmae, 1-chōme−5−８ 14F",
     "phone": "+81366352195",
     "website": "https://www.e-housing.jp/?utm_source=gbp&utm_medium=organic&utm_campaign=gbp_listing",
-    "description": "",
-    "tags": [],
+    "description": "シンガポールで日本人向けの不動産サービスを提供。物件探し・賃貸契約をサポート。",
+    "tags": [
+      "不動産",
+      "日本語対応",
+      "賃貸"
+    ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: 9:00 AM – 6:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
-    "place_id": "ChIJP9lcKXONGGARk4RqIH_TUqw"
+    "place_id": "ChIJP9lcKXONGGARk4RqIH_TUqw",
+    "ai_reviewed": true
   },
   {
     "slug": "r-japan",
     "name": "不動産 株式会社R-JAPAN 大阪市 相続",
-    "name_ja": null,
+    "name_ja": "不動産株式会社大阪市相続",
     "area": "Singapore",
     "address": "Japan, 〒530-0015 Osaka, Kita Ward, Nakazakinishi, 4-chōme−3−３２ Arca梅田ビル 3F",
     "phone": null,
     "website": "https://www.r-japan.co.jp/",
-    "description": "",
-    "tags": [],
+    "description": "シンガポールで日本人向けの不動産サービスを提供。物件探し・賃貸契約をサポート。",
+    "tags": [
+      "不動産",
+      "日本語対応",
+      "賃貸"
+    ],
     "hours": "Monday: 10:00 AM – 7:00 PM / Tuesday: 10:00 AM – 7:00 PM / Wednesday: 10:00 AM – 7:00 PM / Thursday: 10:00 AM – 7:00 PM / Friday: 10:00 AM – 7:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
-    "place_id": "ChIJgQk-87_nAGARayDI7x70kWA"
+    "place_id": "ChIJgQk-87_nAGARayDI7x70kWA",
+    "ai_reviewed": true
   }
 ]
