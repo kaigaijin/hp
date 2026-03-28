@@ -457,8 +457,10 @@ export default async function SpotDetailPage({
                         <Clock size={12} />
                         営業時間
                       </dt>
-                      <dd className="text-sm text-stone-700 dark:text-stone-300">
-                        {spot.hours}
+                      <dd className="text-sm text-stone-700 dark:text-stone-300 space-y-0.5">
+                        {spot.hours.split(" / ").map((line, i) => (
+                          <div key={i}>{line}</div>
+                        ))}
                       </dd>
                     </div>
                   )}
