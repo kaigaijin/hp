@@ -146,7 +146,7 @@ export default function SpotReportForm({
               placeholder="ひとことメモ（任意）"
               maxLength={200}
               disabled={submitting}
-              className="flex-1 px-3 py-2 rounded-lg border border-stone-200 dark:border-stone-600 bg-stone-50 dark:bg-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-green-500 placeholder:text-stone-400 disabled:opacity-50"
+              className="flex-1 min-w-0 px-3 py-2 rounded-lg border border-stone-200 dark:border-stone-600 bg-stone-50 dark:bg-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-green-500 placeholder:text-stone-400 disabled:opacity-50"
             />
             <button
               type="submit"
