@@ -92,11 +92,11 @@ const defaultColor = { bg: "#0284c7", ring: "#0369a1" };
 // 有料スポット（priority >= 1）は常に表示
 function getMaxSpotsForZoom(zoom: number): number {
   if (zoom >= 16) return Infinity; // ストリートレベル: 全件表示
-  if (zoom >= 15) return 200;
-  if (zoom >= 14) return 100;
-  if (zoom >= 13) return 50;
-  if (zoom >= 12) return 30;
-  return 20; // 市全体: 厳選20件
+  if (zoom >= 15) return 300;
+  if (zoom >= 14) return 150;
+  if (zoom >= 13) return 80;
+  if (zoom >= 12) return 50;
+  return 30; // 市全体: 厳選30件
 }
 
 // ビューポート内のスポットをフィルタ
@@ -128,11 +128,35 @@ function filterSpotsInView(
   const premium = filtered.filter((s) => s.priority >= 1);
   const normal = filtered.filter((s) => s.priority < 1);
 
-  // 通常スポットから残り枠を埋める
   const remaining = maxSpots - premium.length;
   if (remaining <= 0) return premium;
 
-  return [...premium, ...normal.slice(0, remaining)];
+  // カテゴリフィルタ選択時はそのまま先頭から取る
+  if (categoryFilter) {
+    return [...premium, ...normal.slice(0, remaining)];
+  }
+
+  // 「すべて」表示: カテゴリごとにラウンドロビンで均等に取る
+  const byCategory: Record<string, MapSpot[]> = {};
+  for (const s of normal) {
+    (byCategory[s.category] ??= []).push(s);
+  }
+  const catKeys = Object.keys(byCategory);
+  const result = [...premium];
+  let idx = 0;
+  while (result.length < maxSpots && catKeys.length > 0) {
+    const key = catKeys[idx % catKeys.length];
+    const arr = byCategory[key];
+    if (arr.length > 0) {
+      result.push(arr.shift()!);
+    } else {
+      catKeys.splice(idx % catKeys.length, 1);
+      if (catKeys.length === 0) break;
+      continue;
+    }
+    idx++;
+  }
+  return result;
 }
 
 function MapContent({
