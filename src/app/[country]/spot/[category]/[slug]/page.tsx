@@ -457,10 +457,31 @@ export default async function SpotDetailPage({
                         <Clock size={12} />
                         営業時間
                       </dt>
-                      <dd className="text-sm text-stone-700 dark:text-stone-300 space-y-0.5">
-                        {spot.hours.split(" / ").map((line, i) => (
-                          <div key={i}>{line}</div>
-                        ))}
+                      <dd className="text-sm text-stone-700 dark:text-stone-300">
+                        <table className="w-full">
+                          <tbody>
+                            {spot.hours.split(" / ").map((line, i) => {
+                              // 「曜日: 時間」形式をパース
+                              const colonIdx = line.indexOf(": ");
+                              if (colonIdx > 0 && colonIdx < 15) {
+                                const day = line.slice(0, colonIdx);
+                                const time = line.slice(colonIdx + 2);
+                                return (
+                                  <tr key={i}>
+                                    <td className="pr-3 py-0.5 text-stone-500 dark:text-stone-400 whitespace-nowrap align-top text-xs font-medium">{day}</td>
+                                    <td className="py-0.5">{time}</td>
+                                  </tr>
+                                );
+                              }
+                              // パースできない行はそのまま表示
+                              return (
+                                <tr key={i}>
+                                  <td colSpan={2} className="py-0.5">{line}</td>
+                                </tr>
+                              );
+                            })}
+                          </tbody>
+                        </table>
                       </dd>
                     </div>
                   )}
