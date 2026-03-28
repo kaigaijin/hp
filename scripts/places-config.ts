@@ -85,6 +85,32 @@ export const COUNTRY_SEARCH_CONFIG: Record<
       { name: "Da Nang", lat: 16.0544, lng: 108.2022, radius: 10000 },
     ],
   },
+  gb: {
+    cities: [
+      { name: "London", lat: 51.5074, lng: -0.1278, radius: 30000 },
+      { name: "Manchester", lat: 53.4808, lng: -2.2426, radius: 15000 },
+      { name: "Edinburgh", lat: 55.9533, lng: -3.1883, radius: 10000 },
+      { name: "Leeds", lat: 53.8008, lng: -1.5491, radius: 10000 },
+      { name: "Birmingham", lat: 52.4862, lng: -1.8904, radius: 15000 },
+    ],
+  },
+  de: {
+    cities: [
+      { name: "Düsseldorf", lat: 51.2277, lng: 6.7735, radius: 15000 },
+      { name: "Berlin", lat: 52.52, lng: 13.405, radius: 25000 },
+      { name: "Munich", lat: 48.1351, lng: 11.582, radius: 20000 },
+      { name: "Frankfurt", lat: 50.1109, lng: 8.6821, radius: 15000 },
+      { name: "Hamburg", lat: 53.5511, lng: 9.9937, radius: 15000 },
+    ],
+  },
+  id: {
+    cities: [
+      { name: "Jakarta", lat: -6.2088, lng: 106.8456, radius: 25000 },
+      { name: "Bali", lat: -8.3405, lng: 115.092, radius: 20000 },
+      { name: "Surabaya", lat: -7.2575, lng: 112.7521, radius: 15000 },
+      { name: "Bandung", lat: -6.9175, lng: 107.6191, radius: 10000 },
+    ],
+  },
 };
 
 // カテゴリ → Google Places APIのtype/キーワードマッピング
@@ -207,6 +233,8 @@ export interface SpotEntry {
   name_ja: string | null;
   area: string;
   address: string;
+  lat: number | null;
+  lng: number | null;
   phone: string | null;
   website: string | null;
   description: string;
@@ -216,4 +244,5 @@ export interface SpotEntry {
   status: "unverified" | "verified" | "reported_closed";
   source: string;
   place_id: string;
+  priority: number;
 }

@@ -146,12 +146,22 @@ function toSpotEntry(
     hours = place.regularOpeningHours.weekdayDescriptions.join(" / ");
   }
 
+  // 座標（小数点4桁に丸める）
+  const lat = place.location?.latitude
+    ? Math.round(place.location.latitude * 10000) / 10000
+    : null;
+  const lng = place.location?.longitude
+    ? Math.round(place.location.longitude * 10000) / 10000
+    : null;
+
   return {
     slug,
     name,
     name_ja: jaName !== name ? jaName : null,
     area: city,
     address,
+    lat,
+    lng,
     phone: place.internationalPhoneNumber?.replace(/[\s-]/g, "") ?? null,
     website: place.websiteUri ?? null,
     description: "",
@@ -161,6 +171,7 @@ function toSpotEntry(
     status: "unverified",
     source: "google_maps",
     place_id: place.id,
+    priority: 0,
   };
 }
 
@@ -215,18 +226,15 @@ async function fetchCategoryForCountry(
           if (seenPlaceIds.has(place.id)) continue;
           seenPlaceIds.add(place.id);
 
-          // 日本語名を取得
-          const jaName = await getJapaneseName(place.id);
-          await sleep(100);
-
-          const spot = toSpotEntry(place, jaName, city.name);
+          // 日本語名はAIで後から付与（APIコスト削減）
+          const spot = toSpotEntry(place, null, city.name);
 
           // slug重複解消
           spot.slug = deduplicateSlug(spot.slug, existingSlugs);
           existingSlugs.add(spot.slug);
 
           newSpots.push(spot);
-          console.log(`      + ${spot.name}${jaName ? ` (${jaName})` : ""}`);
+          console.log(`      + ${spot.name}`);
         }
 
         pageToken = result.nextPageToken;

@@ -1,8 +1,8 @@
 import Link from "next/link";
 import type { Country } from "@/lib/countries";
-import { ArrowRight, Users } from "lucide-react";
+import { ArrowRight, Users, MapPin } from "lucide-react";
 
-export default function CountryCard({ country }: { country: Country }) {
+export default function CountryCard({ country, spotCount = 0 }: { country: Country; spotCount?: number }) {
   return (
     <Link href={`/${country.code}`}>
       <article className="country-card bg-white dark:bg-stone-800 rounded-2xl border border-stone-200 dark:border-stone-700 p-6 h-full flex flex-col">
@@ -38,13 +38,21 @@ export default function CountryCard({ country }: { country: Country }) {
           ))}
         </div>
 
-        {/* CTA */}
-        <div className="mt-auto flex items-center gap-1 text-sm font-medium text-ocean-600 dark:text-ocean-400 group">
-          記事を読む
-          <ArrowRight
-            size={14}
-            className="group-hover:translate-x-1 transition-transform"
-          />
+        {/* スポット件数 + CTA */}
+        <div className="mt-auto flex items-center justify-between">
+          {spotCount > 0 && (
+            <div className="flex items-center gap-1 text-xs text-stone-400">
+              <MapPin size={12} />
+              スポット {spotCount.toLocaleString()}件
+            </div>
+          )}
+          <div className="flex items-center gap-1 text-sm font-medium text-ocean-600 dark:text-ocean-400 group">
+            記事を読む
+            <ArrowRight
+              size={14}
+              className="group-hover:translate-x-1 transition-transform"
+            />
+          </div>
         </div>
       </article>
     </Link>

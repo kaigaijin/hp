@@ -100,6 +100,36 @@ export const countries: Country[] = [
     phase: 3,
     topics: ["労働許可証", "ハノイvsホーチミン", "駐在生活", "食文化", "医療事情"],
   },
+  {
+    code: "gb",
+    name: "イギリス",
+    nameEn: "United Kingdom",
+    flag: "🇬🇧",
+    tagline: "伝統と多様性が共存する街",
+    population: "約6.2万人",
+    phase: 3,
+    topics: ["ビザ・BRP", "ロンドン生活", "NHS・医療", "住居・Council Tax", "教育"],
+  },
+  {
+    code: "de",
+    name: "ドイツ",
+    nameEn: "Germany",
+    flag: "🇩🇪",
+    tagline: "欧州最大の日本人コミュニティ",
+    population: "約4.5万人",
+    phase: 3,
+    topics: ["ビザ・滞在許可", "デュッセルドルフ", "医療保険", "住居・家賃", "ドイツ語"],
+  },
+  {
+    code: "id",
+    name: "インドネシア",
+    nameEn: "Indonesia",
+    flag: "🇮🇩",
+    tagline: "多島国家でビジネスに挑む",
+    population: "約1.5万人",
+    phase: 3,
+    topics: ["KITAS・就労ビザ", "ジャカルタ生活", "医療事情", "住居選び", "インドネシア語"],
+  },
 ];
 
 export function getCountry(code: string): Country | undefined {

@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CountryCard from "@/components/CountryCard";
 import { countries } from "@/lib/countries";
+import { getCategoryCounts } from "@/lib/directory";
 import {
   Globe,
   BookOpen,
@@ -15,6 +16,13 @@ export default function Home() {
   const phase1 = countries.filter((c) => c.phase === 1);
   const phase2 = countries.filter((c) => c.phase === 2);
   const phase3 = countries.filter((c) => c.phase === 3);
+
+  // 各国のスポット件数を計算
+  const spotCounts: Record<string, number> = {};
+  for (const c of countries) {
+    const counts = getCategoryCounts(c.code);
+    spotCounts[c.code] = Object.values(counts).reduce((a, b) => a + b, 0);
+  }
 
   return (
     <>
@@ -149,7 +157,7 @@ export default function Home() {
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {phase1.map((c) => (
-                  <CountryCard key={c.code} country={c} />
+                  <CountryCard key={c.code} country={c} spotCount={spotCounts[c.code] ?? 0} />
                 ))}
               </div>
             </div>
@@ -167,7 +175,7 @@ export default function Home() {
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {phase2.map((c) => (
-                  <CountryCard key={c.code} country={c} />
+                  <CountryCard key={c.code} country={c} spotCount={spotCounts[c.code] ?? 0} />
                 ))}
               </div>
             </div>
@@ -185,7 +193,7 @@ export default function Home() {
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {phase3.map((c) => (
-                  <CountryCard key={c.code} country={c} />
+                  <CountryCard key={c.code} country={c} spotCount={spotCounts[c.code] ?? 0} />
                 ))}
               </div>
             </div>
@@ -216,7 +224,7 @@ export default function Home() {
                   icon: TrendingUp,
                 },
                 {
-                  number: "9カ国+",
+                  number: "12カ国+",
                   label: "カバー予定",
                   icon: Plane,
                 },

@@ -18,16 +18,24 @@ interface ExistingSpot {
   name_ja?: string | null;
   area?: string;
   address?: string;
+  lat?: number | null;
+  lng?: number | null;
   place_id?: string;
+  priority?: number;
   [key: string]: unknown;
 }
 
-// Find Place from Text API（New）でplace_idを検索
-async function findPlaceId(
+interface PlaceInfo {
+  id: string;
+  lat: number | null;
+  lng: number | null;
+}
+
+// Find Place from Text API（New）でplace_id + lat/lngを検索
+async function findPlaceInfo(
   name: string,
   address: string,
-  country: string
-): Promise<string | null> {
+): Promise<PlaceInfo | null> {
   const query = `${name} ${address}`;
   const url = "https://places.googleapis.com/v1/places:searchText";
 
@@ -37,7 +45,7 @@ async function findPlaceId(
       headers: {
         "Content-Type": "application/json",
         "X-Goog-Api-Key": GOOGLE_API_KEY,
-        "X-Goog-FieldMask": "places.id,places.displayName,places.formattedAddress",
+        "X-Goog-FieldMask": "places.id,places.displayName,places.formattedAddress,places.location",
       },
       body: JSON.stringify({
         textQuery: query,
@@ -52,10 +60,24 @@ async function findPlaceId(
     }
 
     const data = (await res.json()) as {
-      places?: { id: string; displayName?: { text: string }; formattedAddress?: string }[];
+      places?: {
+        id: string;
+        displayName?: { text: string };
+        formattedAddress?: string;
+        location?: { latitude: number; longitude: number };
+      }[];
     };
     if (data.places && data.places.length > 0) {
-      return data.places[0].id;
+      const p = data.places[0];
+      return {
+        id: p.id,
+        lat: p.location?.latitude
+          ? Math.round(p.location.latitude * 10000) / 10000
+          : null,
+        lng: p.location?.longitude
+          ? Math.round(p.location.longitude * 10000) / 10000
+          : null,
+      };
     }
     return null;
   } catch (err) {
@@ -77,21 +99,24 @@ async function backfillCategory(country: string, category: string) {
   let notFound = 0;
 
   for (const spot of spots) {
-    if (spot.place_id) {
+    // place_id + lat/lng が全て揃っていればスキップ
+    if (spot.place_id && spot.lat != null && spot.lng != null) {
       skipped++;
       continue;
     }
 
-    const placeId = await findPlaceId(
+    const info = await findPlaceInfo(
       spot.name_ja || spot.name,
       spot.address || "",
-      country
     );
 
-    if (placeId) {
-      spot.place_id = placeId;
+    if (info) {
+      spot.place_id = info.id;
+      spot.lat = info.lat;
+      spot.lng = info.lng;
+      if (spot.priority == null) spot.priority = 0;
       updated++;
-      console.log(`  ✓ ${spot.name} → ${placeId}`);
+      console.log(`  ✓ ${spot.name} → ${info.id} (${info.lat}, ${info.lng})`);
     } else {
       notFound++;
       console.log(`  ✗ ${spot.name}（見つからず）`);
