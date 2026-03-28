@@ -93,5 +93,25 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0
+  },
+  {
+    "slug": "nihon-service-immobilien-dusseldorf",
+    "name": "Nihon Service GmbH",
+    "name_ja": "日本サービス",
+    "area": "Düsseldorf",
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "phone": null,
+    "website": null,
+    "description": "デュッセルドルフを拠点に日本人向けの賃貸物件紹介・リロケーションサービスを提供。駐在員の住居手配を専門にサポート。",
+    "tags": ["不動産", "日本語対応", "駐在員向け", "リロケーション"],
+    "hours": null,
+    "last_verified": "2026-03-28",
+    "status": "unverified",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
   }
 ]
