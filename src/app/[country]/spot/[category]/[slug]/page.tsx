@@ -32,6 +32,7 @@ import {
   Languages,
   DollarSign,
   UtensilsCrossed,
+  Camera,
 } from "lucide-react";
 import type { Metadata } from "next";
 
@@ -220,6 +221,67 @@ export default async function SpotDetailPage({
               )}
             </div>
           </div>
+        </div>
+
+        {/* 画像ギャラリー */}
+        <div className="max-w-5xl mx-auto px-4 pt-6">
+          {(() => {
+            const images = (spot as Record<string, unknown>).images as string[] | undefined;
+            const hasImages = images && images.length > 0;
+            return (
+              <div className="rounded-xl overflow-hidden">
+                {hasImages ? (
+                  <div className="flex gap-1 h-48 sm:h-64 lg:h-80">
+                    <div className="relative w-1/2">
+                      <img src={images[0]} alt={displayName} className="w-full h-full object-cover" />
+                    </div>
+                    <div className="w-1/2 flex flex-col gap-1">
+                      <div className="relative flex-1">
+                        {images[1] ? (
+                          <img src={images[1]} alt="" className="w-full h-full object-cover" />
+                        ) : (
+                          <div className="w-full h-full bg-stone-100 dark:bg-stone-700 flex items-center justify-center">
+                            <Camera size={20} className="text-stone-300 dark:text-stone-500" />
+                          </div>
+                        )}
+                      </div>
+                      <div className="relative flex-1">
+                        {images[2] ? (
+                          <>
+                            <img src={images[2]} alt="" className="w-full h-full object-cover" />
+                            {images.length > 3 && (
+                              <span className="absolute inset-0 bg-black/40 flex items-center justify-center text-white text-sm font-medium">
+                                +{images.length - 3}枚
+                              </span>
+                            )}
+                          </>
+                        ) : (
+                          <div className="w-full h-full bg-stone-100 dark:bg-stone-700 flex items-center justify-center">
+                            <Camera size={20} className="text-stone-300 dark:text-stone-500" />
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                ) : (
+                  <div className="flex gap-1 h-36 sm:h-44">
+                    <div className="w-1/2 bg-gradient-to-br from-stone-100 to-stone-50 dark:from-stone-750 dark:to-stone-800 rounded-l-xl flex flex-col items-center justify-center gap-2">
+                      <Camera size={28} className="text-stone-300 dark:text-stone-500" />
+                      <span className="text-xs text-stone-300 dark:text-stone-500">写真募集中</span>
+                    </div>
+                    <div className="w-1/2 flex flex-col gap-1">
+                      <div className="flex-1 bg-gradient-to-br from-stone-50 to-stone-100 dark:from-stone-800 dark:to-stone-750 rounded-tr-xl flex items-center justify-center">
+                        <Camera size={18} className="text-stone-300 dark:text-stone-500" />
+                      </div>
+                      <div className="flex-1 bg-gradient-to-br from-stone-100 to-stone-50 dark:from-stone-750 dark:to-stone-800 rounded-br-xl flex items-center justify-center">
+                        <Camera size={18} className="text-stone-300 dark:text-stone-500" />
+                      </div>
+                    </div>
+                  </div>
+                )}
+              </div>
+            );
+          })()}
         </div>
 
         <div className="max-w-5xl mx-auto px-4 py-6">

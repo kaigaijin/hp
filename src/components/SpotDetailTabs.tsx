@@ -36,6 +36,7 @@ type SpotData = {
   reservation?: string | null;
   smoking?: string | null;
   languages?: string[];
+  images?: string[];
 };
 
 const tabs = [
@@ -141,11 +142,23 @@ export default function SpotDetailTabs({
 
         {/* 写真タブ */}
         {activeTab === "photos" && (
-          <EmptyState
-            icon={ImageOff}
-            title="写真はまだありません"
-            description="店舗オーナーの方は、お問い合わせから写真を掲載できます"
-          />
+          <>
+            {spot.images && spot.images.length > 0 ? (
+              <div className="p-4 grid grid-cols-2 sm:grid-cols-3 gap-2">
+                {spot.images.map((src, i) => (
+                  <div key={i} className="aspect-square rounded-lg overflow-hidden">
+                    <img src={src} alt="" className="w-full h-full object-cover" />
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <EmptyState
+                icon={ImageOff}
+                title="写真はまだありません"
+                description="店舗オーナーの方は、お問い合わせから写真を掲載できます"
+              />
+            )}
+          </>
         )}
 
         {/* メニュータブ */}

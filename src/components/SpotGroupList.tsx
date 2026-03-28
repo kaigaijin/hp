@@ -160,103 +160,122 @@ function SpotGroupListInner({
                 className="group block"
               >
                 <article className={`bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 ${theme?.hoverBorder ?? "hover:border-ocean-400 dark:hover:border-ocean-500"} hover:shadow-md transition-all overflow-hidden`}>
-                  <div className="flex">
-                    {/* 画像エリア */}
-                    <div className="shrink-0 w-24 sm:w-32 relative">
-                      {spot.images && spot.images.length > 0 ? (
-                        <img
-                          src={spot.images[0]}
-                          alt={spot.name_ja ?? spot.name}
-                          className="w-full h-full object-cover"
-                        />
+                  {/* 画像ギャラリー: 左1大 + 右2小の横並び */}
+                  <div className="flex gap-0.5 h-28 sm:h-36 bg-stone-100 dark:bg-stone-700/50 rounded-t-xl overflow-hidden">
+                    {/* メイン画像（左・大） */}
+                    <div className="relative w-1/2">
+                      {spot.images && spot.images[0] ? (
+                        <img src={spot.images[0]} alt="" className="w-full h-full object-cover" />
                       ) : (
-                        <div className="w-full h-full bg-gradient-to-br from-stone-100 to-stone-50 dark:from-stone-700 dark:to-stone-800 flex flex-col items-center justify-center gap-1.5 border-r border-stone-100 dark:border-stone-700">
-                          <Camera size={20} className="text-stone-300 dark:text-stone-500" />
+                        <div className="w-full h-full bg-gradient-to-br from-stone-100 to-stone-50 dark:from-stone-750 dark:to-stone-800 flex flex-col items-center justify-center gap-1">
+                          <Camera size={18} className="text-stone-300 dark:text-stone-500" />
                           <span className="text-[10px] text-stone-300 dark:text-stone-500">写真募集中</span>
                         </div>
                       )}
-                      {/* 画像枚数バッジ（画像がある場合） */}
-                      {spot.images && spot.images.length > 1 && (
-                        <span className="absolute bottom-1 right-1 bg-black/60 text-white text-[10px] px-1.5 py-0.5 rounded">
-                          +{spot.images.length - 1}
+                    </div>
+                    {/* サブ画像（右・2枚縦積み） */}
+                    <div className="w-1/2 flex flex-col gap-0.5">
+                      <div className="relative flex-1">
+                        {spot.images && spot.images[1] ? (
+                          <img src={spot.images[1]} alt="" className="w-full h-full object-cover" />
+                        ) : (
+                          <div className="w-full h-full bg-gradient-to-br from-stone-50 to-stone-100 dark:from-stone-800 dark:to-stone-750 flex items-center justify-center">
+                            <Camera size={14} className="text-stone-300 dark:text-stone-500" />
+                          </div>
+                        )}
+                      </div>
+                      <div className="relative flex-1">
+                        {spot.images && spot.images[2] ? (
+                          <>
+                            <img src={spot.images[2]} alt="" className="w-full h-full object-cover" />
+                            {spot.images.length > 3 && (
+                              <span className="absolute inset-0 bg-black/40 flex items-center justify-center text-white text-xs font-medium">
+                                +{spot.images.length - 3}
+                              </span>
+                            )}
+                          </>
+                        ) : (
+                          <div className="w-full h-full bg-gradient-to-br from-stone-100 to-stone-50 dark:from-stone-750 dark:to-stone-800 flex items-center justify-center">
+                            <Camera size={14} className="text-stone-300 dark:text-stone-500" />
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* テキストコンテンツ */}
+                  <div className="p-3 sm:p-4">
+                    <div className="flex items-start justify-between gap-2 mb-1.5">
+                      <div className="min-w-0">
+                        <h2 className={`text-sm sm:text-base font-bold text-stone-800 dark:text-stone-100 truncate ${theme?.accentHover ?? "group-hover:text-ocean-700 dark:group-hover:text-ocean-400"} transition-colors`}>
+                          {spot.name_ja ?? spot.name}
+                        </h2>
+                        {spot.name_ja && (
+                          <p className="text-[11px] text-stone-400 mt-0.5 truncate">
+                            {spot.name}
+                          </p>
+                        )}
+                      </div>
+                      <div className="flex items-center gap-1.5 shrink-0">
+                        {!activeFilter && (
+                          <span className={`text-[11px] ${theme?.badgeText ?? "text-ocean-600 dark:text-ocean-400"} ${theme?.badgeBg ?? "bg-ocean-50 dark:bg-ocean-900/30"} px-1.5 py-0.5 rounded`}>
+                            {spot.categoryName}
+                          </span>
+                        )}
+                        <span className="inline-flex items-center gap-0.5 text-[11px] text-stone-400 bg-stone-50 dark:bg-stone-700 px-1.5 py-0.5 rounded">
+                          <MapPin size={9} />
+                          {spot.area}
                         </span>
-                      )}
+                      </div>
                     </div>
 
-                    {/* テキストコンテンツ */}
-                    <div className="flex-1 min-w-0 p-3 sm:p-4">
-                      <div className="flex items-start justify-between gap-2 mb-1.5">
-                        <div className="min-w-0">
-                          <h2 className={`text-sm sm:text-base font-bold text-stone-800 dark:text-stone-100 truncate ${theme?.accentHover ?? "group-hover:text-ocean-700 dark:group-hover:text-ocean-400"} transition-colors`}>
-                            {spot.name_ja ?? spot.name}
-                          </h2>
-                          {spot.name_ja && (
-                            <p className="text-[11px] text-stone-400 mt-0.5 truncate">
-                              {spot.name}
-                            </p>
-                          )}
-                        </div>
-                        <div className="flex items-center gap-1.5 shrink-0">
-                          {!activeFilter && (
-                            <span className={`text-[11px] ${theme?.badgeText ?? "text-ocean-600 dark:text-ocean-400"} ${theme?.badgeBg ?? "bg-ocean-50 dark:bg-ocean-900/30"} px-1.5 py-0.5 rounded`}>
-                              {spot.categoryName}
-                            </span>
-                          )}
-                          <span className="inline-flex items-center gap-0.5 text-[11px] text-stone-400 bg-stone-50 dark:bg-stone-700 px-1.5 py-0.5 rounded">
-                            <MapPin size={9} />
-                            {spot.area}
+                    <p className="text-xs sm:text-sm text-stone-600 dark:text-stone-300 leading-relaxed mb-2 line-clamp-2">
+                      {spot.description}
+                    </p>
+
+                    <div className="flex items-center justify-between gap-3">
+                      <div className="flex flex-wrap gap-1 min-w-0">
+                        {spot.tags.slice(0, 3).map((tag) => (
+                          <span
+                            key={tag}
+                            className="text-[11px] text-stone-500 dark:text-stone-400 bg-stone-50 dark:bg-stone-700 px-1.5 py-0.5 rounded"
+                          >
+                            {tag}
                           </span>
-                        </div>
+                        ))}
                       </div>
 
-                      <p className="text-xs sm:text-sm text-stone-600 dark:text-stone-300 leading-relaxed mb-2 line-clamp-2">
-                        {spot.description}
-                      </p>
-
-                      <div className="flex items-center justify-between gap-3">
-                        <div className="flex flex-wrap gap-1 min-w-0">
-                          {spot.tags.slice(0, 3).map((tag) => (
-                            <span
-                              key={tag}
-                              className="text-[11px] text-stone-500 dark:text-stone-400 bg-stone-50 dark:bg-stone-700 px-1.5 py-0.5 rounded"
-                            >
-                              {tag}
-                            </span>
-                          ))}
-                        </div>
-
-                        <div className="flex items-center gap-2 shrink-0">
-                          {spot.status === "reported_closed" && (
-                            <span className="hidden sm:flex items-center gap-1 text-[11px] text-red-500">
-                              <AlertTriangle size={10} />
-                              閉店の可能性
-                            </span>
-                          )}
-                          {(!spot.status || spot.status === "unverified") && (
-                            <span className="hidden sm:flex items-center gap-1 text-[11px] text-amber-500">
-                              <Info size={10} />
-                              未確認
-                            </span>
-                          )}
-                          {spot.status === "verified" && (
-                            <span className="hidden sm:flex items-center gap-1 text-[11px] text-green-500">
-                              <CheckCircle2 size={10} />
-                              確認済み
-                            </span>
-                          )}
-                          {spot.phone && (
-                            <span className="hidden sm:flex items-center gap-1 text-[11px] text-stone-400">
-                              <Phone size={10} />
-                              {spot.phone}
-                            </span>
-                          )}
-                          {spot.website && (
-                            <span className={`flex items-center gap-1 text-[11px] ${theme?.badgeText ?? "text-ocean-500"}`}>
-                              <Globe size={10} />
-                              Web
-                            </span>
-                          )}
-                        </div>
+                      <div className="flex items-center gap-2 shrink-0">
+                        {spot.status === "reported_closed" && (
+                          <span className="hidden sm:flex items-center gap-1 text-[11px] text-red-500">
+                            <AlertTriangle size={10} />
+                            閉店の可能性
+                          </span>
+                        )}
+                        {(!spot.status || spot.status === "unverified") && (
+                          <span className="hidden sm:flex items-center gap-1 text-[11px] text-amber-500">
+                            <Info size={10} />
+                            未確認
+                          </span>
+                        )}
+                        {spot.status === "verified" && (
+                          <span className="hidden sm:flex items-center gap-1 text-[11px] text-green-500">
+                            <CheckCircle2 size={10} />
+                            確認済み
+                          </span>
+                        )}
+                        {spot.phone && (
+                          <span className="hidden sm:flex items-center gap-1 text-[11px] text-stone-400">
+                            <Phone size={10} />
+                            {spot.phone}
+                          </span>
+                        )}
+                        {spot.website && (
+                          <span className={`flex items-center gap-1 text-[11px] ${theme?.badgeText ?? "text-ocean-500"}`}>
+                            <Globe size={10} />
+                            Web
+                          </span>
+                        )}
                       </div>
                     </div>
                   </div>
