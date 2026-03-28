@@ -108,10 +108,16 @@ function seededRandom(seed: number) {
   };
 }
 
+// 地図で探す需要が低いカテゴリ（会社・事務所系）は重みを下げる
+const lowMapDemandCategories = new Set([
+  "moving", "cleaning", "repair",
+  "accounting", "legal", "insurance",
+]);
+
 // スコアに基づく重みを計算
 // score 5.0 → 重み4倍、score 0（未評価）→ 重み1倍
 function getWeight(spot: MapSpot): number {
-  const base = 1;
+  const base = lowMapDemandCategories.has(spot.category) ? 0.3 : 1;
   const scoreBonus = (spot.score ?? 0) * 0.6; // 0〜3.0の追加重み
   const priorityBonus = spot.priority * 2;    // 有料スポットの追加重み
   return base + scoreBonus + priorityBonus;
