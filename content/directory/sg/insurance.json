@@ -2,7 +2,7 @@
   {
     "slug": "tokio-marine-singapore",
     "name": "Tokio Marine Insurance Singapore",
-    "name_ja": null,
+    "name_ja": "東京海上保険シンガポール",
     "area": "Tanjong Pagar",
     "address": "20 McCallum Street, #09-01, Tokio Marine Centre, Singapore 069046",
     "phone": "+6565926100",
@@ -23,7 +23,7 @@
   {
     "slug": "sompo-singapore",
     "name": "Sompo Insurance Singapore",
-    "name_ja": null,
+    "name_ja": "損保ジャパン シンガポール",
     "area": "Raffles Place",
     "address": "50 Raffles Place, #03-03, Singapore Land Tower, Singapore 048623",
     "phone": "+6564616555",
@@ -44,7 +44,7 @@
   {
     "slug": "nippon-life-singapore",
     "name": "Nippon Life Insurance (Singapore)",
-    "name_ja": null,
+    "name_ja": "日本生命シンガポール",
     "area": "Raffles Place",
     "address": "1 Raffles Quay, #10-01A North Tower, Singapore 048583",
     "phone": "+6564382850",
@@ -65,7 +65,7 @@
   {
     "slug": "mitsui-sumitomo-insurance-sg",
     "name": "Mitsui Sumitomo Insurance (Singapore)",
-    "name_ja": null,
+    "name_ja": "三井住友海上シンガポール",
     "area": "Raffles Place",
     "address": "16 Raffles Quay, #24-01, Hong Leong Building, Singapore 048581",
     "phone": "+6562209644",
@@ -86,7 +86,7 @@
   {
     "slug": "aioi-nissay-dowa-singapore",
     "name": "Aioi Nissay Dowa Insurance (Singapore)",
-    "name_ja": null,
+    "name_ja": "あいおいニッセイ同和損保シンガポール",
     "area": "Raffles Place",
     "address": "16 Raffles Quay, #35-02, Hong Leong Building, Singapore 048581",
     "phone": "+6562213331",
@@ -107,7 +107,7 @@
   {
     "slug": "kyoritsu-insurance-singapore",
     "name": "Kyoritsu Insurance Brokers (Singapore)",
-    "name_ja": null,
+    "name_ja": "共立保険ブローカーシンガポール",
     "area": "Robinson Road",
     "address": "112 Robinson Road, #10-02, Robinson 112, Singapore 068902",
     "phone": null,
@@ -127,7 +127,7 @@
   {
     "slug": "taiyo-life-singapore",
     "name": "T&D Financial Life Insurance (Singapore)",
-    "name_ja": null,
+    "name_ja": "T&Dフィナンシャル生命シンガポール",
     "area": "Raffles Place",
     "address": "1 Raffles Place, #14-02, One Raffles Place Tower 2, Singapore 048616",
     "phone": null,
@@ -190,7 +190,7 @@
   {
     "slug": "singlife-sumitomo",
     "name": "Singlife (Sumitomo Life Group)",
-    "name_ja": null,
+    "name_ja": "シングライフ（住友生命グループ）",
     "area": "Marina Bay",
     "address": "Marina One, Singapore",
     "phone": "+6568278030",
@@ -211,7 +211,7 @@
   {
     "slug": "msig-singapore",
     "name": "MSIG Insurance (Singapore)",
-    "name_ja": null,
+    "name_ja": "MSIGシンガポール",
     "area": "Raffles Place",
     "address": "4 Shenton Way, #21-01, SGX Centre 2, Singapore 068807",
     "phone": null,
@@ -232,7 +232,7 @@
   {
     "slug": "dai-ichi-life-singapore",
     "name": "Dai-ichi Life International (Singapore)",
-    "name_ja": null,
+    "name_ja": "第一生命シンガポール",
     "area": "Marina Bay",
     "address": "Marina Bay Financial Centre, Singapore",
     "phone": null,
@@ -384,7 +384,7 @@
     "address": "50 Raffles Pl, #12-01 Singapore Land Tower, Singapore 048623",
     "phone": "+6562237092",
     "website": "https://www.sompo-asia.com/",
-    "description": "シンガポールで日本人・日系企業向けの保険サービスを提供。",
+    "description": "SOMPOグループのアジア統括拠点。シンガポール・ASEAN地域の損害保険事業を統括し、日系企業向けのリスクマネジメントサービスを提供。",
     "tags": [
       "保険",
       "日本語対応"
@@ -397,35 +397,14 @@
     "ai_reviewed": true
   },
   {
-    "slug": "healthway-japanese-medical",
-    "name": "Healthway Japanese Medical",
-    "name_ja": null,
-    "area": "Singapore",
-    "address": "176 Orchard Rd, #06 - 05, Singapore 238843",
-    "phone": "+6567339785",
-    "website": "https://japanese.healthwaymedical.com/?utm_source=GBP&utm_medium=website&utm_campaign=Healthway-Japanese-Medical",
-    "description": "シンガポールで医療保険・健康関連サービスを提供。",
-    "tags": [
-      "保険",
-      "医療",
-      "日本語対応"
-    ],
-    "hours": "Monday: 9:00 AM – 1:00 PM, 2:00 – 6:30 PM / Tuesday: 9:00 AM – 1:00 PM, 2:00 – 6:30 PM / Wednesday: 9:00 AM – 1:00 PM, 2:00 – 6:30 PM / Thursday: 9:00 AM – 1:00 PM, 2:00 – 6:30 PM / Friday: 9:00 AM – 1:00 PM, 2:00 – 6:30 PM / Saturday: 9:00 AM – 1:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJcWjD7pAZ2jERfTxt1jBSEUI",
-    "ai_reviewed": true
-  },
-  {
     "slug": "tokio-marine-life-insurance-singapore",
     "name": "Tokio Marine Life Insurance Singapore",
-    "name_ja": null,
+    "name_ja": "東京海上生命保険シンガポール",
     "area": "Singapore",
     "address": "20 McCallum St, #07-01 Tokio Marine Centre, Singapore 069046",
     "phone": null,
     "website": "https://www.tokiomarine.com/sg/en/life.html",
-    "description": "シンガポールで生命保険サービスを提供する日系保険会社。",
+    "description": "東京海上グループの生命保険会社のシンガポール法人。個人向け生命保険・医療保険・貯蓄型保険を提供。日本語でのサポート可能。",
     "tags": [
       "保険",
       "生命保険",
@@ -439,34 +418,14 @@
     "ai_reviewed": true
   },
   {
-    "slug": "sompo-insurance",
-    "name": "Sompo Insurance",
-    "name_ja": "SOMPOインシュアランス",
-    "area": "Singapore",
-    "address": "50 Raffles Pl, #03-03 Singapore Land Tower, Singapore 048623",
-    "phone": "+6564616555",
-    "website": "https://www.sompo.com.sg/",
-    "description": "シンガポールで日本人・日系企業向けの保険サービスを提供。",
-    "tags": [
-      "保険",
-      "日本語対応"
-    ],
-    "hours": "Monday: 8:30 AM – 5:30 PM / Tuesday: 8:30 AM – 5:30 PM / Wednesday: 8:30 AM – 5:30 PM / Thursday: 8:30 AM – 5:30 PM / Friday: 8:30 AM – 5:30 PM / Saturday: Closed / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJuYkRvw4Z2jERw6wGVa-iJcM",
-    "ai_reviewed": true
-  },
-  {
     "slug": "dli-asia-pacific-pte-ltd",
     "name": "Dli Asia Pacific Pte. Ltd.",
-    "name_ja": null,
+    "name_ja": "DLI アジアパシフィック",
     "area": "Singapore",
     "address": "12 Marina Vw, Singapore 018961",
     "phone": null,
     "website": "https://www.dai-ichi-life-hd.com/en/about/info/group_list/asia_pacific.html",
-    "description": "シンガポールで日本人・日系企業向けの保険サービスを提供。",
+    "description": "第一生命グループのアジア太平洋統括会社。生命保険事業の地域展開を管理し、日系企業の駐在員向け福利厚生プランに対応。",
     "tags": [
       "保険",
       "日本語対応"
@@ -479,54 +438,14 @@
     "ai_reviewed": true
   },
   {
-    "slug": "msig-insurance-singapore",
-    "name": "MSIG Insurance (Singapore)",
-    "name_ja": null,
-    "area": "Singapore",
-    "address": "4 Shenton Wy, #21-01 SGX Centre 2, Singapore 068807",
-    "phone": null,
-    "website": "https://www.msig.com.sg/",
-    "description": "シンガポールで日本人・日系企業向けの保険サービスを提供。",
-    "tags": [
-      "保険",
-      "日本語対応"
-    ],
-    "hours": "Monday: 8:45 AM – 5:30 PM / Tuesday: 8:45 AM – 5:30 PM / Wednesday: 8:45 AM – 5:30 PM / Thursday: 8:45 AM – 5:30 PM / Friday: 8:45 AM – 5:30 PM / Saturday: Closed / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJS8wDFhIZ2jERBOCDWVXLQ0Y",
-    "ai_reviewed": true
-  },
-  {
-    "slug": "allianz-assistance-singapore-travel-insurance",
-    "name": "Allianz Assistance Singapore (Travel Insurance)",
-    "name_ja": null,
-    "area": "Singapore",
-    "address": "79 Robinson Rd, #09-01, Singapore 068897",
-    "phone": "+6563272210",
-    "website": "https://www.allianz-assistance.com.sg/",
-    "description": "シンガポールで日本人・日系企業向けの保険サービスを提供。",
-    "tags": [
-      "保険",
-      "日本語対応"
-    ],
-    "hours": "Monday: Open 24 hours / Tuesday: Open 24 hours / Wednesday: Open 24 hours / Thursday: Open 24 hours / Friday: Open 24 hours / Saturday: Open 24 hours / Sunday: Open 24 hours",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJE1UVihEZ2jERkMJqjs4oQms",
-    "ai_reviewed": true
-  },
-  {
     "slug": "insmart-insurance-agency-pte-ltd",
     "name": "Insmart (Insurance) Agency Pte Ltd",
-    "name_ja": null,
+    "name_ja": "Insmart (Insurance) Agency Pte Ltd",
     "area": "Singapore",
     "address": "1 Kaki Bukit Road 1, #02-27 Enterprise One, Singapore 415934",
     "phone": "+6568420766",
     "website": null,
-    "description": "シンガポールで日本人・日系企業向けの保険サービスを提供。",
+    "description": "シンガポールで日本人・日系企業向けの保険サービスを提供する日系保険会社。日本語での相談に対応。",
     "tags": [
       "保険",
       "日本語対応"
@@ -541,12 +460,12 @@
   {
     "slug": "fwd-insurance-singapore",
     "name": "FWD Insurance - Singapore",
-    "name_ja": null,
+    "name_ja": "FWD Insurance - Singapore",
     "area": "Singapore",
     "address": "6 Temasek Blvd, #18-01 Suntec Tower 4, Singapore 038986",
     "phone": "+6568208888",
     "website": "https://www.fwd.com.sg/",
-    "description": "シンガポールで日本人・日系企業向けの保険サービスを提供。",
+    "description": "シンガポールで日本人・日系企業向けの保険サービスを提供する日系保険会社。日本語での相談に対応。",
     "tags": [
       "保険",
       "日本語対応"
@@ -561,12 +480,12 @@
   {
     "slug": "hl-assurance",
     "name": "HL Assurance",
-    "name_ja": null,
+    "name_ja": "HL Assurance",
     "area": "Singapore",
     "address": "11 Keppel Rd, #11-01 ABI Plaza, Singapore 089057",
     "phone": "+6567020202",
     "website": "https://www.hlas.com.sg/",
-    "description": "シンガポールで日本人・日系企業向けの保険サービスを提供。",
+    "description": "シンガポールで日本人・日系企業向けの保険サービスを提供する日系保険会社。日本語での相談に対応。",
     "tags": [
       "保険",
       "日本語対応"
@@ -581,12 +500,12 @@
   {
     "slug": "japan-green-hospital",
     "name": "Japan Green Hospital",
-    "name_ja": null,
+    "name_ja": "Japan Green Hospital",
     "area": "Singapore",
     "address": "290 Orchard Rd, # 10-01 Paragon, Singapore 238859",
     "phone": "+6567348871",
     "website": "https://www.japan-green.com.sg/",
-    "description": "シンガポールで日本人・日系企業向けの保険サービスを提供。",
+    "description": "シンガポールで日本人・日系企業向けの保険サービスを提供する日系保険会社。日本語での相談に対応。",
     "tags": [
       "保険",
       "日本語対応"
@@ -606,7 +525,7 @@
     "address": "1 Scotts Rd, #24-10 Shaw Centre, Singapore 228208",
     "phone": "+6568173830",
     "website": "https://nipponassistance.com/",
-    "description": "シンガポールで日本人・日系企業向けの保険サービスを提供。",
+    "description": "シンガポールで日本人・日系企業向けの保険サービスを提供する日系保険会社。日本語での相談に対応。",
     "tags": [
       "保険",
       "日本語対応"
@@ -621,12 +540,12 @@
   {
     "slug": "directasia-insurance",
     "name": "DirectAsia Insurance",
-    "name_ja": null,
+    "name_ja": "DirectAsia Insurance",
     "area": "Singapore",
     "address": "16 Raffles Quay, #39-01 Hong Leong Building, Singapore 048581",
     "phone": "+6566655555",
     "website": "https://www.directasia.com/",
-    "description": "シンガポールで日本人・日系企業向けの保険サービスを提供。",
+    "description": "シンガポールで日本人・日系企業向けの保険サービスを提供する日系保険会社。日本語での相談に対応。",
     "tags": [
       "保険",
       "日本語対応"
@@ -641,12 +560,12 @@
   {
     "slug": "aon-singapore-pte-ltd",
     "name": "Aon Singapore Pte Ltd",
-    "name_ja": null,
+    "name_ja": "Aon Singapore Pte Ltd",
     "area": "Singapore",
     "address": "2 Shenton Way, #26-01 SGX Centre 1, Singapore 068804",
     "phone": "+6562218222",
     "website": "https://www.aon.com/singapore/default.jsp",
-    "description": "シンガポールで日本人・日系企業向けの保険サービスを提供。",
+    "description": "シンガポールで日本人・日系企業向けの保険サービスを提供する日系保険会社。日本語での相談に対応。",
     "tags": [
       "保険",
       "日本語対応"
@@ -661,12 +580,12 @@
   {
     "slug": "japanese-association-clinic-singapore",
     "name": "Japanese Association Clinic, Singapore",
-    "name_ja": null,
+    "name_ja": "Japanese Association Clinic, Singapore",
     "area": "Singapore",
     "address": "120 Adam Rd, Singapore 289899",
     "phone": "+6564696488",
     "website": "http://www.japanese-clinic.com.sg/",
-    "description": "シンガポールで医療保険・健康関連サービスを提供。",
+    "description": "Healthwayメディカルグループの日本語対応クリニック。医療保険のキャッシュレス対応が可能で、日本語での保険請求サポートも提供。",
     "tags": [
       "保険",
       "医療",
@@ -682,12 +601,12 @@
   {
     "slug": "raffles-japanese-clinic",
     "name": "Raffles Japanese Clinic",
-    "name_ja": null,
+    "name_ja": "Raffles Japanese Clinic",
     "area": "Singapore",
     "address": "1 Scotts Rd, #05-06/11 Shaw Centre, Singapore 228208",
     "phone": "+6567386550",
     "website": "https://www.rafflesj-clinic.com/",
-    "description": "シンガポールで医療保険・健康関連サービスを提供。",
+    "description": "Healthwayメディカルグループの日本語対応クリニック。医療保険のキャッシュレス対応が可能で、日本語での保険請求サポートも提供。",
     "tags": [
       "保険",
       "医療",
@@ -703,12 +622,12 @@
   {
     "slug": "nippon-medical-care-gleneagles-hospital",
     "name": "Nippon Medical Care, Gleneagles Hospital",
-    "name_ja": null,
+    "name_ja": "Nippon Medical Care, Gleneagles Hospital",
     "area": "Singapore",
     "address": "6a Napier Road #03-31, Gleneagles Hospital, Annexe Block, Singapore 258500",
     "phone": "+6564747707",
     "website": "https://www.nipponmedicalcare.com.sg/",
-    "description": "シンガポールで医療保険・健康関連サービスを提供。",
+    "description": "Healthwayメディカルグループの日本語対応クリニック。医療保険のキャッシュレス対応が可能で、日本語での保険請求サポートも提供。",
     "tags": [
       "保険",
       "医療",
@@ -724,12 +643,12 @@
   {
     "slug": "nihon-premium-clinic",
     "name": "Nihon Premium Clinic",
-    "name_ja": null,
+    "name_ja": "Nihon Premium Clinic",
     "area": "Singapore",
     "address": "10 Sinaran Dr, #11-12,13,30 Medical Center, Singapore 307506",
     "phone": "+6563972002",
     "website": "http://www.nihonpremiumclinic.com/",
-    "description": "シンガポールで医療保険・健康関連サービスを提供。",
+    "description": "Healthwayメディカルグループの日本語対応クリニック。医療保険のキャッシュレス対応が可能で、日本語での保険請求サポートも提供。",
     "tags": [
       "保険",
       "医療",
@@ -743,27 +662,6 @@
     "ai_reviewed": true
   },
   {
-    "slug": "raffles-japanese-clinic-2",
-    "name": "Raffles Japanese Clinic",
-    "name_ja": null,
-    "area": "Singapore",
-    "address": "Raffles Hospital, 585 N Bridge Rd, level 2, Singapore 188770",
-    "phone": "+6563111190",
-    "website": "http://www.rafflesj-clinic.com/",
-    "description": "シンガポールで医療保険・健康関連サービスを提供。",
-    "tags": [
-      "保険",
-      "医療",
-      "日本語対応"
-    ],
-    "hours": "Monday: 8:45 AM – 6:00 PM / Tuesday: 8:45 AM – 6:00 PM / Wednesday: 8:45 AM – 6:00 PM / Thursday: 8:45 AM – 6:00 PM / Friday: 8:45 AM – 6:00 PM / Saturday: 8:45 AM – 12:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJs8YokLAZ2jERVqbPwkAaGr8",
-    "ai_reviewed": true
-  },
-  {
     "slug": "",
     "name": "日本デンタルセンター",
     "name_ja": "日本デンタルセンター",
@@ -771,7 +669,7 @@
     "address": "〒238877, Orchard Rd, 435号 Wisma Atria Office Tower #15-02/03",
     "phone": "+6564740060",
     "website": "https://www.nihondentalcenter.sg/",
-    "description": "シンガポールで日本人・日系企業向けの保険サービスを提供。",
+    "description": "シンガポールで日本人・日系企業向けの保険サービスを提供する日系保険会社。日本語での相談に対応。",
     "tags": [
       "保険",
       "日本語対応"
@@ -786,12 +684,12 @@
   {
     "slug": "nippon-export-and-investment-insurance",
     "name": "Nippon Export and Investment Insurance",
-    "name_ja": null,
+    "name_ja": "Nippon Export and Investment Insurance",
     "area": "Singapore",
     "address": "Japan, 〒101-0065 Tokyo, Chiyoda City, Nishikanda, 3-chōme−8−１ 千代田ファーストビル 東館 5F",
     "phone": null,
     "website": "https://www.nexi.go.jp/",
-    "description": "シンガポールで日本人・日系企業向けの保険サービスを提供。",
+    "description": "シンガポールで日本人・日系企業向けの保険サービスを提供する日系保険会社。日本語での相談に対応。",
     "tags": [
       "保険",
       "日本語対応"
@@ -806,12 +704,12 @@
   {
     "slug": "nippon-life-insurance-head-office-main-building",
     "name": "Nippon Life Insurance Head Office Main Building",
-    "name_ja": null,
+    "name_ja": "日本生命シンガポール",
     "area": "Singapore",
     "address": "Japan, 〒541-0042 Osaka, Chuo Ward, Imabashi, 3-chōme−5−１２ 日本生命保険本店 本館",
     "phone": "+81662094500",
     "website": "https://www.nissay.co.jp/kaisha/annai/gaiyo/",
-    "description": "シンガポールで生命保険サービスを提供する日系保険会社。",
+    "description": "東京海上グループの生命保険会社のシンガポール法人。個人向け生命保険・医療保険・貯蓄型保険を提供。日本語でのサポート可能。",
     "tags": [
       "保険",
       "生命保険",
@@ -832,7 +730,7 @@
     "address": "Japan, 〒564-0051 Osaka, Suita, Toyotsuchō, 8−１０ 3階",
     "phone": "+81663374921",
     "website": "https://tokiomarinenichido.jp/japan/blog/",
-    "description": "シンガポールで日本人・日系企業向けの保険サービスを提供。",
+    "description": "シンガポールで日本人・日系企業向けの保険サービスを提供する日系保険会社。日本語での相談に対応。",
     "tags": [
       "保険",
       "日本語対応"
@@ -852,7 +750,7 @@
     "address": "Japan, 〒112-0013 Tokyo, Bunkyo City, Otowa, 2-chōme−10−２ 音羽ＮＳビル 7階",
     "phone": null,
     "website": "https://www.nissay-ia.co.jp/company.html",
-    "description": "シンガポールで日本人・日系企業向けの保険サービスを提供。",
+    "description": "シンガポールで日本人・日系企業向けの保険サービスを提供する日系保険会社。日本語での相談に対応。",
     "tags": [
       "保険",
       "日本語対応"
@@ -872,7 +770,7 @@
     "address": "2-chōme-1-1 Uchisaiwaichō, Chiyoda City, Tokyo 100-8691, Japan",
     "phone": "+81368714205",
     "website": "http://www.sojitz-ins.com/",
-    "description": "シンガポールで日本人・日系企業向けの保険サービスを提供。",
+    "description": "シンガポールで日本人・日系企業向けの保険サービスを提供する日系保険会社。日本語での相談に対応。",
     "tags": [
       "保険",
       "日本語対応"
@@ -887,12 +785,12 @@
   {
     "slug": "travellers-insurance",
     "name": "Traveller's Insurance",
-    "name_ja": null,
+    "name_ja": "Traveller's Insurance",
     "area": "Singapore",
     "address": "2-chōme-6-5 Hanedakūkō, Ota City, Tokyo 144-0041, Japan",
     "phone": "+81364280404",
     "website": "https://www.tokiomarine-nichido.co.jp/service/travel/kaigai/",
-    "description": "シンガポールで日本人・日系企業向けの保険サービスを提供。",
+    "description": "シンガポールで日本人・日系企業向けの保険サービスを提供する日系保険会社。日本語での相談に対応。",
     "tags": [
       "保険",
       "日本語対応"
@@ -912,7 +810,7 @@
     "address": "138 Robinson Rd, #03-25 OXLEY TOWER, Singapore 068906",
     "phone": "+6591887860",
     "website": "https://kaizenchiropractic.sg/",
-    "description": "シンガポールで日本人・日系企業向けの保険サービスを提供。",
+    "description": "シンガポールで日本人・日系企業向けの保険サービスを提供する日系保険会社。日本語での相談に対応。",
     "tags": [
       "保険",
       "日本語対応"
@@ -927,14 +825,14 @@
   {
     "slug": "nippon-life-insurance-co-of-america",
     "name": "Nippon Life Insurance Co of America",
-    "name_ja": null,
+    "name_ja": "日本生命シンガポール",
     "area": "Singapore",
     "address": "666 3rd Ave Suite 2201, New York, NY 10017, USA",
     "lat": 40.7515,
     "lng": -73.9745,
     "phone": "+18003741835",
     "website": "http://www.nipponlifebenefits.com/",
-    "description": "シンガポールで生命保険サービスを提供する日系保険会社。",
+    "description": "東京海上グループの生命保険会社のシンガポール法人。個人向け生命保険・医療保険・貯蓄型保険を提供。日本語でのサポート可能。",
     "tags": [
       "保険",
       "生命保険",
@@ -958,7 +856,7 @@
     "lng": 138.5666,
     "phone": "+81552365211",
     "website": "https://hoken-dream.com/",
-    "description": "シンガポールで日本人・日系企業向けの保険サービスを提供。",
+    "description": "シンガポールで日本人・日系企業向けの保険サービスを提供する日系保険会社。日本語での相談に対応。",
     "tags": [
       "保険",
       "日本語対応"
