@@ -1,6 +1,6 @@
 import { MetadataRoute } from "next";
 import { countries } from "@/lib/countries";
-import { getAllArticles, getGuideArticles } from "@/lib/articles";
+import { getAllArticles } from "@/lib/articles";
 import { categories, getAllSpots } from "@/lib/directory";
 
 const BASE_URL = "https://kaigaijin.jp";
@@ -71,17 +71,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const article of articles) {
     entries.push({
       url: `${BASE_URL}/${article.country}/${article.slug}`,
-      lastModified: new Date(article.lastModified ?? article.date),
-      changeFrequency: "monthly",
-      priority: 0.7,
-    });
-  }
-
-  // guide記事（国を横断する共通記事）
-  const guideArticles = getGuideArticles();
-  for (const article of guideArticles) {
-    entries.push({
-      url: `${BASE_URL}/guide/${article.slug}`,
       lastModified: new Date(article.lastModified ?? article.date),
       changeFrequency: "monthly",
       priority: 0.7,
