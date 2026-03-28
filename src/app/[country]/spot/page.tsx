@@ -11,6 +11,7 @@ import {
   getCategoryCounts,
   getGroupCounts,
   getAllSpots,
+  getAllAreas,
   getCategory,
 } from "@/lib/directory";
 import { getGroupTheme } from "@/lib/group-theme";
@@ -43,6 +44,8 @@ import {
   Globe,
   Briefcase,
   Compass,
+  MapPin,
+  Map,
 } from "lucide-react";
 
 const iconMap: Record<string, (size: number) => React.ReactNode> = {
@@ -111,6 +114,7 @@ export default async function SpotIndexPage({
   const counts = getCategoryCounts(code);
   const groupCounts = getGroupCounts(code);
   const totalSpots = Object.values(counts).reduce((a, b) => a + b, 0);
+  const areas = getAllAreas(code).slice(0, 12); // トップ12エリアを表示
 
   // 全スポットデータを検索用に整形
   const allSpots = getAllSpots(code);
@@ -183,6 +187,26 @@ export default async function SpotIndexPage({
             <SpotSearch spots={searchableSpots} countryCode={code} />
           </div>
 
+          {/* ナビゲーションタブ */}
+          <div className="flex gap-2 mb-6">
+            <span className="text-xs text-ocean-600 dark:text-ocean-400 bg-ocean-50 dark:bg-ocean-900/30 px-3 py-1.5 rounded-full">
+              カテゴリ
+            </span>
+            <Link
+              href={`/${code}/spot/area`}
+              className="text-xs text-stone-500 dark:text-stone-400 bg-white dark:bg-stone-800 border border-stone-200 dark:border-stone-700 px-3 py-1.5 rounded-full hover:border-ocean-400 transition-colors"
+            >
+              エリア
+            </Link>
+            <Link
+              href={`/${code}/spot/map`}
+              className="text-xs text-stone-500 dark:text-stone-400 bg-white dark:bg-stone-800 border border-stone-200 dark:border-stone-700 px-3 py-1.5 rounded-full hover:border-ocean-400 transition-colors flex items-center gap-1"
+            >
+              <Map size={12} />
+              地図
+            </Link>
+          </div>
+
           {/* カテゴリグループグリッド */}
           <section>
             <h2 className="text-sm font-semibold text-stone-500 dark:text-stone-400 uppercase tracking-wider mb-4">
@@ -214,6 +238,43 @@ export default async function SpotIndexPage({
               })}
             </div>
           </section>
+
+          {/* エリアから探す */}
+          {areas.length > 0 && (
+            <section className="mt-10">
+              <div className="flex items-center justify-between mb-4">
+                <h2 className="text-sm font-semibold text-stone-500 dark:text-stone-400 uppercase tracking-wider">
+                  エリアから探す
+                </h2>
+                <Link
+                  href={`/${code}/spot/area`}
+                  className="text-xs text-ocean-600 dark:text-ocean-400 hover:underline flex items-center gap-1"
+                >
+                  すべてのエリア
+                  <ChevronRight size={12} />
+                </Link>
+              </div>
+              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+                {areas.map((area) => (
+                  <Link
+                    key={area.slug}
+                    href={`/${code}/spot/area/${area.slug}`}
+                    className="group bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 hover:border-ocean-400 dark:hover:border-ocean-500 hover:shadow-md transition-all p-4"
+                  >
+                    <div className="flex items-center gap-2 mb-1">
+                      <MapPin size={14} className="text-ocean-500 dark:text-ocean-400 shrink-0" />
+                      <p className="text-sm font-semibold text-stone-700 dark:text-stone-200 group-hover:text-ocean-700 dark:group-hover:text-ocean-400 transition-colors truncate">
+                        {area.name}
+                      </p>
+                    </div>
+                    <p className="text-xs text-stone-400 ml-[22px]">
+                      {area.count}件
+                    </p>
+                  </Link>
+                ))}
+              </div>
+            </section>
+          )}
 
           {/* ピックアップスポット（クライアントサイドでランダム表示） */}
           <SpotPickup

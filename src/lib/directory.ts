@@ -241,6 +241,14 @@ export type Spot = {
   source?: SpotSource;
   last_verified?: string;
 
+  // Google Places連携
+  place_id?: string | null;
+  lat?: number | null;
+  lng?: number | null;
+
+  // 掲載優先度（有料掲載で上位表示）
+  priority?: number; // 0=通常, 1=有料掲載
+
   // 食べログ風拡張フィールド（すべてオプショナル）
   menu?: MenuItem[]; // メニュー
   price_range?: string; // 価格帯（例: "¥1,000〜¥3,000"）
@@ -334,5 +342,66 @@ export function getAllSpots(
       ...spot,
       category: cat.slug,
     })),
+  );
+}
+
+// エリアスラッグ変換
+export function toAreaSlug(area: string): string {
+  return area
+    .toLowerCase()
+    .replace(/[\/&]/g, "-")
+    .replace(/[^a-z0-9\s-]/g, "")
+    .replace(/\s+/g, "-")
+    .replace(/-+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
+// エリア別のスポット件数を取得
+export function getAreaCounts(
+  countryCode: string,
+): Record<string, number> {
+  const allSpots = getAllSpots(countryCode);
+  const counts: Record<string, number> = {};
+  for (const spot of allSpots) {
+    const area = spot.area;
+    counts[area] = (counts[area] ?? 0) + 1;
+  }
+  return counts;
+}
+
+// 全エリア名一覧を件数順で取得
+export function getAllAreas(
+  countryCode: string,
+): Array<{ name: string; slug: string; count: number }> {
+  const counts = getAreaCounts(countryCode);
+  return Object.entries(counts)
+    .map(([name, count]) => ({ name, slug: toAreaSlug(name), count }))
+    .sort((a, b) => b.count - a.count);
+}
+
+// エリアスラッグから元のエリア名を逆引き
+export function getAreaNameBySlug(
+  countryCode: string,
+  areaSlug: string,
+): string | undefined {
+  const areas = getAllAreas(countryCode);
+  return areas.find((a) => a.slug === areaSlug)?.name;
+}
+
+// エリア別の全スポットを取得
+export function getSpotsByArea(
+  countryCode: string,
+  areaName: string,
+): Array<Spot & { category: string }> {
+  return getAllSpots(countryCode).filter((s) => s.area === areaName);
+}
+
+// 座標付きスポットのみ取得（地図表示用）
+export function getGeoSpots(
+  countryCode: string,
+): Array<Spot & { category: string; lat: number; lng: number }> {
+  return getAllSpots(countryCode).filter(
+    (s): s is Spot & { category: string; lat: number; lng: number } =>
+      typeof s.lat === "number" && typeof s.lng === "number",
   );
 }
