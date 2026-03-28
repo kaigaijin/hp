@@ -104,32 +104,6 @@ async function searchPlaces(
   };
 }
 
-// 日本語名を取得（別リクエスト）
-async function getJapaneseName(placeId: string): Promise<string | null> {
-  const url = `https://places.googleapis.com/v1/places/${placeId}`;
-
-  try {
-    const res = await fetch(url, {
-      headers: {
-        "X-Goog-Api-Key": GOOGLE_API_KEY,
-        "X-Goog-FieldMask": "displayName",
-        "X-Goog-Api-Language": "ja",
-      },
-    });
-
-    if (!res.ok) return null;
-    const data = (await res.json()) as {
-      displayName?: { text: string; languageCode: string };
-    };
-
-    const jaName = data.displayName?.text;
-    // 英語名と同じ場合はnull
-    return jaName ?? null;
-  } catch {
-    return null;
-  }
-}
-
 // PlaceResultをSpotEntryに変換
 function toSpotEntry(
   place: PlaceResult,
@@ -172,6 +146,7 @@ function toSpotEntry(
     source: "google_maps",
     place_id: place.id,
     priority: 0,
+    ai_reviewed: false,
   };
 }
 

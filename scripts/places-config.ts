@@ -245,4 +245,5 @@ export interface SpotEntry {
   source: string;
   place_id: string;
   priority: number;
+  ai_reviewed: boolean;
 }
