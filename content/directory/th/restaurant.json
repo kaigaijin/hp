@@ -6550,5 +6550,1915 @@
     "status": "unverified",
     "last_verified": "2026-03-27",
     "source": "google_maps"
+  },
+  {
+    "slug": "sushi-saito-bangkok",
+    "name": "Sushi Saito Bangkok",
+    "name_ja": "鮨 さいとう バンコク",
+    "area": "Charoen Krung",
+    "address": "Chao Phraya Estate, Charoen Krung Road, Bang Rak, Bangkok 10500",
+    "phone": null,
+    "website": null,
+    "description": "東京・六本木の三つ星鮨店「鮨 さいとう」のバンコク支店。チャオプラヤ川沿いに位置し、豊洲市場から空輸する旬の食材を使った江戸前鮨のおまかせコースを提供。ミシュラン一つ星獲得。",
+    "tags": [
+      "おまかせ",
+      "寿司",
+      "ミシュラン一つ星",
+      "高級"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "sushi-kishin-bangkok",
+    "name": "Sushi KiShin",
+    "name_ja": "鮨 きしん",
+    "area": "Phrom Phong",
+    "address": "G/F, RSU Tower, Sukhumvit Soi 31, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": "https://www.facebook.com/sushi.kishin.bkk/",
+    "description": "江戸前鮨を手頃な価格で提供するおまかせ専門店。日本から空輸する中トロ、ウニ、カニなどの厳選素材を使用。",
+    "tags": [
+      "おまかせ",
+      "寿司",
+      "江戸前"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "sns"
+  },
+  {
+    "slug": "sushi-koge-bangkok",
+    "name": "Sushi Koge",
+    "name_ja": "鮨 こげ",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "日本各地の食材を使った江戸前鮨のおまかせ専門店。タイ人寿司職人が日本で修行を積み、16品コース（2,950バーツ〜）と22品コース（6,000バーツ）を提供。",
+    "tags": [
+      "おまかせ",
+      "寿司",
+      "江戸前"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "nikaku-bangkok",
+    "name": "Nikaku Bangkok",
+    "name_ja": "二鶴 バンコク",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": "https://www.nikakubangkok.com/",
+    "description": "北九州・小倉発のミシュラン二つ星（2021年）寿司店のバンコク支店。12席のカウンターで、関門海峡と九州近海の鮮魚を使った本手返しの江戸前鮨を提供。",
+    "tags": [
+      "おまかせ",
+      "寿司",
+      "ミシュラン",
+      "カウンター"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "fillets-one-bangkok",
+    "name": "Fillets",
+    "name_ja": null,
+    "area": "Lumphini",
+    "address": "One Bangkok, Wireless Road, Lumphini, Pathum Wan, Bangkok 10330",
+    "phone": null,
+    "website": null,
+    "description": "One Bangkok内のモダン割烹スタイルおまかせ。シェフRandyが伝統とクリエイティブを融合した寿司を提供。カジュアルなおまかせ入門として位置づけられている。",
+    "tags": [
+      "おまかせ",
+      "寿司",
+      "One Bangkok"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "den-kushi-flori-bangkok",
+    "name": "Den Kushi Flori",
+    "name_ja": "傳 くし フロリ",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": "https://denkushifloribkk.com/",
+    "description": "東京の「傳」長谷川在佑シェフと「Florilege」川手寛康シェフのコラボレーション。フレンチと和食の技法を融合したおまかせスタイルの創作料理を提供。",
+    "tags": [
+      "おまかせ",
+      "創作和食",
+      "フレンチ融合"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "torisawa22-thonglor",
+    "name": "Torisawa22",
+    "name_ja": "鳥さわ22",
+    "area": "Thonglor",
+    "address": "Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "完全予約制の焼き鳥おまかせ専門店。鶏肉に特化し、伝統的な炭火焼きで提供。食べログ東京焼き鳥部門で上位にランクされた実力派。",
+    "tags": [
+      "焼き鳥",
+      "おまかせ",
+      "予約制",
+      "炭火焼き"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "shirokane-toritama-ekkamai",
+    "name": "Shirokane Toritama Bangkok",
+    "name_ja": "白金 鳥たま バンコク",
+    "area": "Ekkamai",
+    "address": "18 Park Lane, Sukhumvit Soi 63, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": "+6623820141",
+    "website": "https://toritama-bangkok.com/",
+    "description": "東京・白金の高級焼き鳥店のバンコク支店。朝挽きの地鶏を使用し、厳選した炭と日本酒とともに提供。ミシュランセレクション。",
+    "tags": [
+      "焼き鳥",
+      "ミシュラン",
+      "高級"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "nami-teppanyaki-jw-marriott",
+    "name": "Nami Teppanyaki Steakhouse",
+    "name_ja": "ナミ 鉄板焼き",
+    "area": "Nana",
+    "address": "LL Floor, JW Marriott Hotel Bangkok, 4 Sukhumvit Road Soi 2, Bangkok 10110",
+    "phone": null,
+    "website": "https://www.marriott.com/en-us/dining/restaurant-bar/bkkdt-jw-marriott-hotel-bangkok/86789-nami-teppanyaki-steakhouse.mi",
+    "description": "JWマリオットホテル内の高級鉄板焼きレストラン。目の前で焼き上げるパフォーマンスと厳選素材が特徴。",
+    "tags": [
+      "鉄板焼き",
+      "ホテルレストラン",
+      "高級"
+    ],
+    "hours": "17:30-22:00",
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "chisana-nami-erawan",
+    "name": "Chisana Nami",
+    "name_ja": "小さな波",
+    "area": "Ploenchit",
+    "address": "Erawan Bangkok, Ploenchit Road, Lumphini, Pathum Wan, Bangkok 10330",
+    "phone": null,
+    "website": "https://www.chisananami.com/",
+    "description": "エラワンバンコク内の鉄板焼きレストラン。A3尾熊牛ストリップロインの酒ソースや北海道ホタテの味噌バターなど、火と海のハーモニーをテーマにした創作鉄板焼きを提供。",
+    "tags": [
+      "鉄板焼き",
+      "ホテルレストラン",
+      "高級",
+      "創作"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "okonomiyaki-morimoto-patpong",
+    "name": "Okonomiyaki Morimoto Teppanyaki",
+    "name_ja": "お好み焼 森本 鉄板焼き",
+    "area": "Silom",
+    "address": "Patpong No.1 Bldg, 4th Floor, Surawong Road, Bang Rak, Bangkok 10500",
+    "phone": null,
+    "website": "https://www.facebook.com/MorimotoOkonomiyaki/",
+    "description": "パッポン通りにあるお好み焼き・鉄板焼き専門店。お好み焼き、焼きそば、もんじゃ焼きなどのビュッフェ形式で好きなだけ注文可能。",
+    "tags": [
+      "お好み焼き",
+      "鉄板焼き",
+      "ビュッフェ"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "sns"
+  },
+  {
+    "slug": "osaka-ohsho-thaniya",
+    "name": "Osaka Ohsho Thaniya",
+    "name_ja": "大阪王将 タニヤ店",
+    "area": "Silom",
+    "address": "58/18-58/20 Soi Thaniya, Silom, Bang Rak, Bangkok 10500",
+    "phone": "+6622378520",
+    "website": "https://www.facebook.com/p/Osaka-Ohsho-Thailand-100090106654863/",
+    "description": "大阪発の餃子専門チェーン「大阪王将」のタニヤ店。看板メニューの羽根つき餃子のほか、ラーメン、丼物など大阪スタイルの料理を提供。",
+    "tags": [
+      "餃子",
+      "チェーン",
+      "大阪"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "unagi-kurofune-phrom-phong",
+    "name": "Unagi Kurofune",
+    "name_ja": "うなぎ 黒船",
+    "area": "Phrom Phong",
+    "address": "Sukhumvit Soi 33, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": "+66611347789",
+    "website": "https://www.facebook.com/p/Unagi-Kurofune-BKK-61569169741626/",
+    "description": "プロンポンの鰻専門店。肉厚の鰻を備長炭で焼き上げ、ひつまぶしなど多彩なうなぎ料理を提供。グループ利用にも対応。",
+    "tags": [
+      "うなぎ",
+      "炭火焼き"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "sns"
+  },
+  {
+    "slug": "unakichi-hotel-nikko-thonglor",
+    "name": "Unakichi",
+    "name_ja": "うな吉",
+    "area": "Thonglor",
+    "address": "Hotel Nikko Bangkok, 27 Sukhumvit Soi 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "ホテルニッコー・バンコク内の鰻レストラン。黒うまき（イカ墨鰻巻き）などの創作メニューも提供。うな吉セット（699バーツ）はうなぎ丼と6種の小鉢付き。",
+    "tags": [
+      "うなぎ",
+      "ホテルレストラン",
+      "創作"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "yokoi-udon-sukhumvit39",
+    "name": "Yokoi Udon",
+    "name_ja": "横井うどん",
+    "area": "Phrom Phong",
+    "address": "39 Boulevard, Sukhumvit Soi 39, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "自家製うどんが看板の日本食レストラン。カレーうどん（99バーツ〜）や肉おろしうどんなど、手頃な価格で本格うどんを提供。39ブールバード内に位置。",
+    "tags": [
+      "うどん",
+      "自家製麺"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "soba-house-konjiki-siam-paragon",
+    "name": "Soba House Konjiki Hototogisu",
+    "name_ja": "SOBA HOUSE 金色不如帰",
+    "area": "Siam",
+    "address": "4F, Siam Paragon, 991 Rama I Road, Pathum Wan, Bangkok 10330",
+    "phone": null,
+    "website": null,
+    "description": "東京・新宿御苑のミシュラン一つ星蕎麦店のバンコク支店。サイアムパラゴン4階で手頃な価格の本格蕎麦を提供。",
+    "tags": [
+      "蕎麦",
+      "ミシュラン",
+      "ショッピングモール内"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "mitsumori-sukhumvit23",
+    "name": "Mitsumori of Tokyo",
+    "name_ja": "みつもり",
+    "area": "Asoke",
+    "address": "Sukhumvit Soi 23, Khlong Toei Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": "https://www.mitsumori-bkk.com/en/index.html",
+    "description": "地鶏焼き鳥と自家製蕎麦を提供する和食店。カウンターバーで焼き鳥と蕎麦を楽しめる。スクンビットソイ23の奥に位置。",
+    "tags": [
+      "焼き鳥",
+      "蕎麦",
+      "自家製麺"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "kataru-ramen-bangkok",
+    "name": "Kataru",
+    "name_ja": "カタル",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "「The Slurp Brothers」プロジェクトから生まれたクラフトラーメン店。オーナー自ら全工程に携わり、毎月メニューを入れ替える。",
+    "tags": [
+      "ラーメン",
+      "クラフト"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "kiri-tsukemen-thonglor",
+    "name": "Kiri Tsukemen",
+    "name_ja": "霧 つけ麺",
+    "area": "Thonglor",
+    "address": "Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "トンローのつけ麺専門店。濃厚なつけ汁と太麺の組み合わせが特徴。",
+    "tags": [
+      "つけ麺",
+      "ラーメン"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "yamagata-ramen-thonglor",
+    "name": "Yamagata Ramen",
+    "name_ja": "山形ラーメン",
+    "area": "Thonglor",
+    "address": "Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "トンローにある山形スタイルのラーメン店。地方色豊かなラーメンを提供。",
+    "tags": [
+      "ラーメン",
+      "山形"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "ramen-tsukemen-fujiyama-gogo",
+    "name": "Ramen Tsukemen Fujiyama Go Go",
+    "name_ja": "ラーメンつけ麺 富士山ゴーゴー",
+    "area": "Phrom Phong",
+    "address": "Sukhumvit Soi 33, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "プロンポンエリアのラーメン・つけ麺店。富士山をモチーフにした店名で、濃厚つけ麺とラーメンを提供。",
+    "tags": [
+      "ラーメン",
+      "つけ麺"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "ginza-tenharu-gaysorn",
+    "name": "Ginza Tenharu",
+    "name_ja": "銀座 天はる",
+    "area": "Ploenchit",
+    "address": "Gaysorn Village, 999 Ploenchit Road, Lumphini, Pathum Wan, Bangkok 10330",
+    "phone": null,
+    "website": null,
+    "description": "ゲイソーンヴィレッジ内の天ぷら専門店。神戸牛、車海老、濃厚ウニなど高級食材の天ぷらを提供。銀座発の上質な天ぷら体験。",
+    "tags": [
+      "天ぷら",
+      "高級",
+      "銀座"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "hakata-tempura-nagaoka-ekkamai",
+    "name": "Hakata Tempura Nagaoka",
+    "name_ja": "博多天ぷら 永岡",
+    "area": "Ekkamai",
+    "address": "Sukhumvit Soi 63, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "博多スタイルの天ぷらを提供するエカマイの天ぷら専門店。揚げたてをカウンターで一品ずつ提供するスタイル。",
+    "tags": [
+      "天ぷら",
+      "博多"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "kushikatsu-ishimoto-thonglor",
+    "name": "Kushikatsu Ishimoto",
+    "name_ja": "串カツ 石本",
+    "area": "Thonglor",
+    "address": "Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "トンローの串カツ専門店。大阪スタイルの串カツをカウンターで揚げたて提供。",
+    "tags": [
+      "串カツ",
+      "大阪"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "rengaya-thaniya-plaza",
+    "name": "Rengaya",
+    "name_ja": "煉瓦屋",
+    "area": "Silom",
+    "address": "2F, Thaniya Plaza, Silom, Bang Rak, Bangkok 10500",
+    "phone": null,
+    "website": "https://www.facebook.com/RengayaThailand/",
+    "description": "タニヤプラザ2階の焼肉レストラン。長年営業する老舗焼肉店で、日本人駐在員の接待利用も多い。",
+    "tags": [
+      "焼肉",
+      "老舗",
+      "タニヤ"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "sns"
+  },
+  {
+    "slug": "ranichi-yakiniku-thonglor",
+    "name": "Ranichi Japanese BBQ",
+    "name_ja": "らにち",
+    "area": "Thonglor",
+    "address": "2F Nihonmachi Mall, Thonglor 13, Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": "http://ranichi-japanese-bbq.com/en/",
+    "description": "日本町モール・トンロー13内の日本式BBQレストラン。焼肉をメインに、寿司やサイドメニューも提供。",
+    "tags": [
+      "焼肉",
+      "日本町"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "yakiniku-kirabi-sukhumvit23",
+    "name": "Yakiniku Kirabi",
+    "name_ja": "焼肉 燦 きらび",
+    "area": "Asoke",
+    "address": "Sukhumvit Soi 23, Khlong Toei Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "黒毛和牛を使用した高品質焼肉を提供するスクンビットソイ23の焼肉店。和牛の赤身から霜降りまで多彩な部位を炭火で焼く。",
+    "tags": [
+      "焼肉",
+      "和牛",
+      "高級"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "yakiniku-rising-nihonmachi",
+    "name": "Yakiniku Rising",
+    "name_ja": "焼肉 ライジング",
+    "area": "Phrom Phong",
+    "address": "Nihonmachi, 115 Sukhumvit 26, Khlong Tan, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "日本町モール内のビュッフェスタイル焼肉店。599バーツ〜1,499バーツのコースがあり、最上位コースでは日本直輸入の和牛も提供。",
+    "tags": [
+      "焼肉",
+      "ビュッフェ",
+      "日本町"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "tamaruya-honten-asoke",
+    "name": "Tamaruya Honten Asoke",
+    "name_ja": "田丸屋本店 アソーク",
+    "area": "Asoke",
+    "address": "Sukhumvit Soi 21, Khlong Toei Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "創業140年の山葵漬けメーカー「田丸屋」が手がける焼肉店。飛騨牛や北海道牛など日本各地の銘柄牛を提供。わさびと焼肉の組み合わせが特徴。",
+    "tags": [
+      "焼肉",
+      "和牛",
+      "わさび"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "nikusho-sukhumvit31",
+    "name": "Nikusho",
+    "name_ja": "肉匠",
+    "area": "Phrom Phong",
+    "address": "Sukhumvit Soi 31, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": "https://www.facebook.com/nikusho/",
+    "description": "高品質な肉を使った本格焼肉を提供するスクンビットソイ31の焼肉店。厳選素材にこだわり、焼肉初心者から上級者まで満足できる品揃え。",
+    "tags": [
+      "焼肉",
+      "和牛"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "sns"
+  },
+  {
+    "slug": "stamina-en-thonglor",
+    "name": "Stamina En Thonglor",
+    "name_ja": "スタミナ苑 トンロー",
+    "area": "Thonglor",
+    "address": "Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "トンローの焼肉店。ホルモンを含む多彩な部位と、ごはんものも充実。日本のスタミナ苑スタイルの焼肉体験。",
+    "tags": [
+      "焼肉",
+      "ホルモン"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "stamina-en-nihonmachi",
+    "name": "Stamina En Nihonmachi",
+    "name_ja": "スタミナ苑 日本町",
+    "area": "Phrom Phong",
+    "address": "Nihonmachi, 115 Sukhumvit 26, Khlong Tan, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "日本町モール内の焼肉店。カルビ、ロース、ホルモンなど多彩な部位を提供。",
+    "tags": [
+      "焼肉",
+      "日本町"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "grand-ginzado-thonglor",
+    "name": "Grand Ginzado",
+    "name_ja": "グランド銀座堂",
+    "area": "Thonglor",
+    "address": "Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "銀座堂のプレミアムライン。ホテル内でファーム・トゥー・テーブルの和牛BBQと焼肉ランチセットを提供。シックな空間で接待にも利用可能。",
+    "tags": [
+      "焼肉",
+      "和牛",
+      "高級",
+      "個室"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "shoutaian-yakiniku-thonglor",
+    "name": "Tokyo Yakiniku Shoutaian",
+    "name_ja": "東京焼肉 正泰苑",
+    "area": "Thonglor",
+    "address": "Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "東京発の焼肉店「正泰苑」のバンコク支店。高コスパで良質な焼肉を提供すると評判。",
+    "tags": [
+      "焼肉",
+      "東京"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "omi-beef-okaki-sukhumvit",
+    "name": "Omi Beef Okaki",
+    "name_ja": "近江牛 岡喜",
+    "area": "Phrom Phong",
+    "address": "Sukhumvit Road, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "日本三大和牛の一つ「近江牛」を専門に扱う焼肉店。400年の歴史を持つ近江牛の生産者直営店がバンコクに出店。",
+    "tags": [
+      "焼肉",
+      "近江牛",
+      "和牛"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "gyuma-yakiniku-thonglor",
+    "name": "Gyuma Japanese BBQ",
+    "name_ja": "牛馬 焼肉",
+    "area": "Thonglor",
+    "address": "Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "トンローの日本式焼肉店。牛肉と豚肉の多彩な部位を炭火焼きで提供。",
+    "tags": [
+      "焼肉"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "kitchen-niigata-sukhumvit",
+    "name": "Kitchen Niigata",
+    "name_ja": "キッチン新潟",
+    "area": "Phrom Phong",
+    "address": "Sukhumvit Road, Khlong Tan, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": "https://www.facebook.com/KitchenNiigata/",
+    "description": "新潟の家庭料理をコンセプトにした和食店。ハンバーグステーキが名物で、リーズナブルな居酒屋メニューも提供。プロンポンエリアの日本人に長年親しまれている。",
+    "tags": [
+      "洋食",
+      "ハンバーグ",
+      "家庭料理"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "sns"
+  },
+  {
+    "slug": "ichika-omakase-sukhumvit18",
+    "name": "Ichika Omakase",
+    "name_ja": "一花 おまかせ",
+    "area": "Asoke",
+    "address": "M Floor, Rembrandt Hotel, Sukhumvit Soi 18, Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": "https://www.ichikaomakase.com/",
+    "description": "レンブラントホテル内のおまかせ寿司レストラン。カウンター席で旬の食材を使った江戸前鮨を提供。",
+    "tags": [
+      "おまかせ",
+      "寿司",
+      "ホテルレストラン"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "shibui-omakase-bangkok",
+    "name": "Shibui Omakase",
+    "name_ja": "渋い おまかせ",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "12席のカウンターのみのおまかせ寿司レストラン。日本人シェフが厳選素材で一品ずつ丁寧に提供。",
+    "tags": [
+      "おまかせ",
+      "寿司",
+      "カウンター"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sushi-kiraku-sukhumvit23",
+    "name": "Sushi Kiraku",
+    "name_ja": "寿司 喜楽",
+    "area": "Asoke",
+    "address": "Sukhumvit Soi 23, Khlong Toei Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "スクンビットソイ23の寿司居酒屋。カツオの刺身が名物で、幅広い日本料理メニューを手頃な価格で提供。",
+    "tags": [
+      "寿司",
+      "居酒屋スタイル"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "kitaro-sushi-sukhumvit26",
+    "name": "Kitaro Sushi Sukhumvit 26",
+    "name_ja": "鬼太郎寿司 スクンビット26店",
+    "area": "Phrom Phong",
+    "address": "Nihonmachi, 122 Sukhumvit 26, Khlong Tan, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "日本町モール内の寿司レストラン。新鮮なネタを使った寿司と刺身をリーズナブルに提供。",
+    "tags": [
+      "寿司",
+      "日本町"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "kitaro-sushi-thonglor",
+    "name": "Kitaro Sushi Thonglor",
+    "name_ja": "鬼太郎寿司 トンロー店",
+    "area": "Thonglor",
+    "address": "Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "トンローの寿司レストラン。鬼太郎寿司のトンロー支店。新鮮な寿司と和食を提供。",
+    "tags": [
+      "寿司"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "kaito-sushi-nihonmachi",
+    "name": "Kaito Sushi",
+    "name_ja": "海渡寿司",
+    "area": "Phrom Phong",
+    "address": "Nihonmachi, 115 Sukhumvit 26, Khlong Tan, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "日本町モール内のおまかせ寿司店。江戸前の技法と現代的なアレンジを融合した寿司コースを静かな空間で提供。",
+    "tags": [
+      "おまかせ",
+      "寿司",
+      "日本町"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sushi-seki-emquartier",
+    "name": "Sushi Seki EmQuartier",
+    "name_ja": "寿司 関 エムクオーティエ店",
+    "area": "Phrom Phong",
+    "address": "EmQuartier, 693 Sukhumvit Road, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "エムクオーティエ内の寿司レストラン。新鮮な刺身と寿司を提供し、買い物の合間に本格的な日本の寿司を楽しめる。",
+    "tags": [
+      "寿司",
+      "ショッピングモール内"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "shabu-yorokobu-thonglor",
+    "name": "Shabu Yorokobu",
+    "name_ja": "しゃぶ 喜ぶ",
+    "area": "Thonglor",
+    "address": "Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "トンローのしゃぶしゃぶ専門店。和牛を使った高品質なしゃぶしゃぶを提供。サービスの質も高いと評判。",
+    "tags": [
+      "しゃぶしゃぶ",
+      "和牛"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "mongkok-sukiyaki-ekkamai",
+    "name": "Mongkok Sukiyaki",
+    "name_ja": "もんこく すき焼き",
+    "area": "Ekkamai",
+    "address": "Sukhumvit Soi 63, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "エカマイのすき焼き専門店。日本式のすき焼きを本格的に提供。",
+    "tags": [
+      "すき焼き"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sukiyaki-shabu-yuna-sukhumvit",
+    "name": "Sukiyaki & Shabu YUNA",
+    "name_ja": "すき焼き＆しゃぶ 結菜",
+    "area": "Asoke",
+    "address": "Sukhumvit Road, Khlong Toei Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "すき焼き・しゃぶしゃぶと寿司を提供。和牛を使ったすき焼きが名物。",
+    "tags": [
+      "すき焼き",
+      "しゃぶしゃぶ",
+      "和牛"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "hitori-shabu-bangkok",
+    "name": "Hitori Shabu",
+    "name_ja": "ひとりしゃぶ",
+    "area": "Thonglor",
+    "address": "Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "一人しゃぶしゃぶ専門店。個別鍋で好きな具材をしゃぶしゃぶできるスタイル。一人客にも入りやすい。",
+    "tags": [
+      "しゃぶしゃぶ",
+      "一人OK"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "shabu-kasada-bangkok",
+    "name": "Shabu Kasada",
+    "name_ja": "しゃぶ かさだ",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "日本式しゃぶしゃぶを提供するレストラン。スクンビットエリアに位置。",
+    "tags": [
+      "しゃぶしゃぶ"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "hokkaido-soup-curry-thonglor",
+    "name": "Hokkaido Soup Curry Shop",
+    "name_ja": "北海道スープカレー",
+    "area": "Thonglor",
+    "address": "Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "北海道スタイルのスープカレー専門店。トンローで本格的なスープカレーを提供。野菜たっぷりの具材が特徴。",
+    "tags": [
+      "スープカレー",
+      "北海道"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "wabisabi-curry-bangkok",
+    "name": "Wabisabi Curry",
+    "name_ja": "わびさびカレー",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "日本式カレーの専門店。スパイスにこだわった本格的な日本のカレーライスを提供。",
+    "tags": [
+      "カレー",
+      "日本式"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "steak-hamburg-hirashima-bangkok",
+    "name": "Steak Hamburg Hirashima",
+    "name_ja": "ステーキハンバーグ ひらしま",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "日本式ハンバーグステーキ専門店。鉄板で焼き上げるジューシーなハンバーグが看板メニュー。",
+    "tags": [
+      "ハンバーグ",
+      "洋食"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "peko-hamburg-bangkok",
+    "name": "Peko",
+    "name_ja": "ペコ",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "日本式ハンバーガーとハンバーグを提供する洋食店。肉汁たっぷりのハンバーグが特徴。",
+    "tags": [
+      "ハンバーグ",
+      "洋食"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "da-te-sakaba-bangkok",
+    "name": "DA-TE SAKABA",
+    "name_ja": "伊達酒場",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "仙台スタイルの料理を提供する和食店。牛タンや笹かまぼこなど東北の名物料理が楽しめる。",
+    "tags": [
+      "仙台",
+      "東北料理"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "en-restaurant-bangkok",
+    "name": "En Restaurant",
+    "name_ja": "えん",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "日本を思わせる本格的な和食レストラン。定食や一品料理を提供し、落ち着いた雰囲気。",
+    "tags": [
+      "和食",
+      "定食"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sanriku-sushi-bangkok",
+    "name": "Sanriku Sushi",
+    "name_ja": "三陸寿司",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "三陸（岩手・宮城・青森）の新鮮な海の幸をテーマにした寿司店。リーズナブルな寿司セットも提供。",
+    "tags": [
+      "寿司",
+      "三陸"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sasada-sushi-bangkok",
+    "name": "Sasada",
+    "name_ja": "笹田",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "寿司と和食を提供する日本食レストラン。新鮮な刺身と丁寧に握った寿司が特徴。",
+    "tags": [
+      "寿司",
+      "和食"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "koryori-mikami-bangkok",
+    "name": "Koryori Mikami",
+    "name_ja": "小料理 三上",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "カウンター中心の小料理店。旬の食材を使った繊細な一品料理と寿司を提供。",
+    "tags": [
+      "小料理",
+      "和食",
+      "カウンター"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "kappo-hisa-bangkok",
+    "name": "Kappo Hisa",
+    "name_ja": "割烹 久",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "割烹スタイルの和食店。季節の懐石料理やおまかせコースを提供。落ち着いた空間で接待にも利用される。",
+    "tags": [
+      "割烹",
+      "懐石",
+      "接待向け"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "miyabi-kappo-thonglor",
+    "name": "Miyabi Kappo",
+    "name_ja": "雅 割烹",
+    "area": "Thonglor",
+    "address": "Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "トンローの割烹料理店。旬の食材を使った日本料理を個室で提供。接待や記念日に利用される。",
+    "tags": [
+      "割烹",
+      "個室",
+      "接待向け"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "hokkai-don-bangkok",
+    "name": "Hokkai Don",
+    "name_ja": "北海丼",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "北海道をテーマにした海鮮丼専門店。いくら丼やサーモン丼など、新鮮な海鮮を丼スタイルで提供。",
+    "tags": [
+      "海鮮丼",
+      "北海道"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "shinsen-fish-market-bangkok",
+    "name": "Shinsen Fish Market",
+    "name_ja": "新鮮 フィッシュマーケット",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "市場スタイルの新鮮シーフードレストラン。刺身、寿司、焼き魚など日本式の海鮮料理を提供。",
+    "tags": [
+      "海鮮",
+      "シーフード"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "masa-garden-bangkok",
+    "name": "Masa Garden",
+    "name_ja": "雅 ガーデン",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "庭園を望む和食レストラン。寿司や刺身、和食の一品料理を落ち着いた雰囲気で提供。",
+    "tags": [
+      "和食",
+      "寿司"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "meruto-bangkok",
+    "name": "Meruto",
+    "name_ja": "メルト",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "寿司と和食を提供する日本食レストラン。こだわりの食材で丁寧に作った料理を提供。",
+    "tags": [
+      "寿司",
+      "和食"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "mikan-sushi-bangkok",
+    "name": "Mikan Sushi",
+    "name_ja": "みかん寿司",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "カジュアルな寿司レストラン。リーズナブルな価格で本格的な寿司を提供。",
+    "tags": [
+      "寿司"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sushi-top-one-wada-bangkok",
+    "name": "Sushi Top One WADA",
+    "name_ja": "寿司 トップワン 和田",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "高級寿司のおまかせコースを提供。和田シェフが厳選した食材で江戸前鮨を丁寧に握る。",
+    "tags": [
+      "おまかせ",
+      "寿司",
+      "高級"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "ryoshin-sushi-house-bangkok",
+    "name": "Ryoshin the Premium Sushi House",
+    "name_ja": "良真 プレミアム寿司ハウス",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "プレミアム寿司を提供する和食店。新鮮な魚介を使った握り寿司とおまかせコースが特徴。",
+    "tags": [
+      "寿司",
+      "おまかせ",
+      "高級"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "gaga-udon-house-bangkok",
+    "name": "GaGa Udon House",
+    "name_ja": "ガガ うどんハウス",
+    "area": "Phrom Phong",
+    "address": "Sukhumvit Road, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "手打ちうどんを提供するうどん専門店。多彩なサイドメニューとともに本格的なうどんが楽しめる。",
+    "tags": [
+      "うどん",
+      "手打ち"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "tempura-kanda-thonglor",
+    "name": "Tempura Kanda",
+    "name_ja": "天ぷら 神田",
+    "area": "Thonglor",
+    "address": "Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "トンローの天ぷら専門店。カウンターで揚げたての天ぷらを一品ずつ提供するスタイル。",
+    "tags": [
+      "天ぷら",
+      "カウンター"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "masu-maki-sushi-bar-bangkok",
+    "name": "Masu Maki & Sushi Bar",
+    "name_ja": "マス 巻き＆寿司バー",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "創作巻き寿司と握り寿司を提供。ユニークなフレーバーの組み合わせが特徴のカジュアル寿司バー。",
+    "tags": [
+      "寿司",
+      "巻き寿司",
+      "カジュアル"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "oji-japanese-bangkok",
+    "name": "OJI",
+    "name_ja": "王子",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "寿司と和食を提供する日本食レストラン。丁寧に作られた一品料理と寿司が特徴。",
+    "tags": [
+      "寿司",
+      "和食"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "okonomi-seafood-bangkok",
+    "name": "OKONOMI",
+    "name_ja": "おこのみ",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "シーフードを中心とした和食レストラン。鉄板焼きスタイルの魚介料理も提供。",
+    "tags": [
+      "シーフード",
+      "鉄板焼き"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "obanzai-kitaro-bangkok",
+    "name": "Obanzai Kitaro",
+    "name_ja": "おばんざい 鬼太郎",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "京都のおばんざい（家庭料理）と餃子を提供する和食店。素朴な味わいの一品料理が揃う。",
+    "tags": [
+      "おばんざい",
+      "餃子",
+      "家庭料理"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "ok-shabu-shabu-bangkok",
+    "name": "Ok Shabu Shabu",
+    "name_ja": "OK しゃぶしゃぶ",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "日本式しゃぶしゃぶを手頃な価格で提供するレストラン。ランチセットも充実。",
+    "tags": [
+      "しゃぶしゃぶ",
+      "ランチ"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "origami-fusion-sukhumvit24",
+    "name": "Origami Fusion Japanese Restaurant",
+    "name_ja": "折り紙 フュージョン",
+    "area": "Phrom Phong",
+    "address": "Sukhumvit Soi 24, Khlong Tan, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "スクンビットソイ24のフュージョン和食レストラン。日本料理とタイ料理の要素を融合した創作メニューを提供。",
+    "tags": [
+      "フュージョン",
+      "創作和食"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "hamakatsu-bangkok",
+    "name": "Hamakatsu",
+    "name_ja": "浜勝",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "長崎発のとんかつチェーン「浜勝」のバンコク店。サクサクの衣とジューシーな豚肉のとんかつが看板。キャベツおかわり自由。",
+    "tags": [
+      "とんかつ",
+      "チェーン"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "tonchin-ramen-one-bangkok",
+    "name": "Tonchin Ramen One Bangkok",
+    "name_ja": "屯ちん ラーメン One Bangkok店",
+    "area": "Lumphini",
+    "address": "One Bangkok, Wireless Road, Lumphini, Pathum Wan, Bangkok 10330",
+    "phone": null,
+    "website": null,
+    "description": "東京スタイルのラーメン店「屯ちん」のOne Bangkok店。濃厚な豚骨醤油スープと自家製麺が特徴。",
+    "tags": [
+      "ラーメン",
+      "チェーン",
+      "One Bangkok"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "sushiro-one-bangkok",
+    "name": "Sushiro One Bangkok",
+    "name_ja": "スシロー One Bangkok店",
+    "area": "Lumphini",
+    "address": "One Bangkok, Wireless Road, Lumphini, Pathum Wan, Bangkok 10330",
+    "phone": null,
+    "website": null,
+    "description": "日本の回転寿司チェーン「スシロー」のOne Bangkok店。タイ4号店として出店。リーズナブルな価格で新鮮な寿司を提供。",
+    "tags": [
+      "回転寿司",
+      "チェーン",
+      "One Bangkok"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "shabushi-ichiten-one-bangkok",
+    "name": "Shabushi Ichiten One Bangkok",
+    "name_ja": "しゃぶし一天 One Bangkok店",
+    "area": "Lumphini",
+    "address": "One Bangkok, Wireless Road, Lumphini, Pathum Wan, Bangkok 10330",
+    "phone": null,
+    "website": null,
+    "description": "回転式コンベアベルトでしゃぶしゃぶの具材が回る日本式しゃぶしゃぶ店のフラッグシップ店。2段式コンベアベルトで100種以上のメニューを提供。",
+    "tags": [
+      "しゃぶしゃぶ",
+      "コンベアベルト",
+      "One Bangkok"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "yakiniku-like-one-bangkok",
+    "name": "Yakiniku Like One Bangkok",
+    "name_ja": "焼肉ライク One Bangkok店",
+    "area": "Lumphini",
+    "address": "One Bangkok, Wireless Road, Lumphini, Pathum Wan, Bangkok 10330",
+    "phone": null,
+    "website": null,
+    "description": "一人焼肉スタイルの「焼肉ライク」のOne Bangkok店。個別ロースターで好みの焼き加減で楽しめる。4種の特製ソース付き。",
+    "tags": [
+      "焼肉",
+      "一人OK",
+      "One Bangkok"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "oishi-biztoro-one-bangkok",
+    "name": "Oishi Biztoro One Bangkok",
+    "name_ja": "おいし ビズトロ One Bangkok店",
+    "area": "Lumphini",
+    "address": "One Bangkok, Wireless Road, Lumphini, Pathum Wan, Bangkok 10330",
+    "phone": null,
+    "website": null,
+    "description": "タイの日本食チェーン「Oishi」のモダンコンセプト店。ファストサービスとフルサービスを融合したハイブリッド型の和食レストラン。",
+    "tags": [
+      "日本料理",
+      "チェーン",
+      "One Bangkok"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "mo-mo-paradise-one-bangkok",
+    "name": "Mo-Mo-Paradise One Bangkok",
+    "name_ja": "モーモーパラダイス One Bangkok店",
+    "area": "Lumphini",
+    "address": "One Bangkok, Wireless Road, Lumphini, Pathum Wan, Bangkok 10330",
+    "phone": null,
+    "website": null,
+    "description": "日本発のしゃぶしゃぶ・すき焼きビュッフェチェーンのOne Bangkok店。和牛を含む高品質食材でしゃぶしゃぶとすき焼きの食べ放題を提供。",
+    "tags": [
+      "しゃぶしゃぶ",
+      "すき焼き",
+      "ビュッフェ",
+      "One Bangkok"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "kamome-izakaya-sriracha",
+    "name": "Kamome",
+    "name_ja": "鴎（かもめ）",
+    "area": "Sriracha",
+    "address": "200/68 Marina Plaza, 2nd Floor, Jermjomphon Road, Si Racha, Chonburi 20110",
+    "phone": "+66926829111",
+    "website": null,
+    "description": "シラチャ・マリーナプラザ2階の日本人シェフによる居酒屋。寿司、つまみ類が豊富で個室も完備。ランチ営業あり。",
+    "tags": [
+      "居酒屋",
+      "寿司",
+      "個室",
+      "シラチャ"
+    ],
+    "hours": "月〜金 11:00-14:00/17:00-23:00、土日 11:00-23:00",
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "izakaya-mainichi-sriracha",
+    "name": "Izakaya Mainichi",
+    "name_ja": "居酒屋まいにち",
+    "area": "Sriracha",
+    "address": "130 Sriracha Nakorn Road, Si Racha, Chonburi 20110",
+    "phone": "+66972495261",
+    "website": null,
+    "description": "シラチャの生け簀完備の居酒屋。新鮮な魚介を使った料理と焼き物、鍋を提供。漫画コーナーもあり、長居しやすい。深夜1時まで営業。",
+    "tags": [
+      "居酒屋",
+      "生け簀",
+      "深夜営業",
+      "シラチャ"
+    ],
+    "hours": "月〜金 16:30-25:00、土日 11:00-25:00",
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "ohana-shokudo-sriracha",
+    "name": "Ohana Shokudo",
+    "name_ja": "おはな食堂",
+    "area": "Sriracha",
+    "address": "51/19 Si Racha, Si Racha District, Chonburi 20110",
+    "phone": "+6638312129",
+    "website": null,
+    "description": "海が眺められるシラチャの日本食レストラン。寿司、丼、ラーメンが豊富。キッズスペース完備でファミリーに人気。",
+    "tags": [
+      "和食",
+      "ファミリー向け",
+      "海沿い",
+      "シラチャ"
+    ],
+    "hours": "11:00-14:00 / 17:00-22:00",
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "kobe-gyunotakumi-sriracha",
+    "name": "Kobe Sousaku Yakiniku Gyunotakumi",
+    "name_ja": "神戸創作焼肉 牛乃匠",
+    "area": "Sriracha",
+    "address": "200/68 Jerm Jom Phon Road, Si Racha, Chonburi 20110",
+    "phone": "+6638195499",
+    "website": null,
+    "description": "神戸発の焼肉チェーンのシラチャ店。和牛や松阪牛を含む高品質な肉を提供。接待向けの個室もあり。マリーナプラザ1階に位置。",
+    "tags": [
+      "焼肉",
+      "和牛",
+      "神戸",
+      "シラチャ"
+    ],
+    "hours": "月〜金 11:30-14:30/17:00-23:00、土日祝 11:30-23:00",
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "odenkun-sriracha",
+    "name": "Oden-ya Kunchan",
+    "name_ja": "おでん屋くんちゃん",
+    "area": "Sriracha",
+    "address": "Jermjompol Road, Si Racha, Chonburi 20110",
+    "phone": "+66856500992",
+    "website": null,
+    "description": "元屋台から店舗化したシラチャのおでん屋。おでん、串カツ、日替わり料理をリーズナブルな価格で提供。日曜定休。",
+    "tags": [
+      "おでん",
+      "串カツ",
+      "リーズナブル",
+      "シラチャ"
+    ],
+    "hours": "17:00-23:00（日曜定休）",
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "tanaka-suisan-kiwami-sriracha",
+    "name": "Tanaka Suisan Kiwami",
+    "name_ja": "田中水産 極",
+    "area": "Sriracha",
+    "address": "2/13 Thetsaban 1, Si Racha, Chonburi 20110",
+    "phone": "+66644755240",
+    "website": null,
+    "description": "江戸前寿司を提供するシラチャの寿司専門店。バンコクにも2店舗展開するクオリティの高い寿司店。",
+    "tags": [
+      "寿司",
+      "江戸前",
+      "シラチャ"
+    ],
+    "hours": "月〜金 16:30-21:00、土日 11:30-21:00",
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "tsukemen-shiro-sriracha",
+    "name": "Tsukemen Shiro",
+    "name_ja": "つけ麺 城",
+    "area": "Sriracha",
+    "address": "39 Sriracha Nakhon 4 Road, Si Racha, Chonburi 20110",
+    "phone": "+6633671917",
+    "website": null,
+    "description": "シラチャのつけ麺・ラーメン店。各種つけ麺、ラーメン、ごはんものを幅広く提供。デリバリーにも対応。深夜まで営業。",
+    "tags": [
+      "つけ麺",
+      "ラーメン",
+      "デリバリー",
+      "シラチャ"
+    ],
+    "hours": "月〜金 11:30-24:00、土日 11:30-23:00",
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "tuna-ichiban-pattaya",
+    "name": "Tuna Ichiban",
+    "name_ja": "ツナ一番",
+    "area": "Pattaya",
+    "address": "Harbor Mall, Pattaya Klang, Pattaya, Chonburi 20150",
+    "phone": null,
+    "website": null,
+    "description": "パタヤ・ハーバーモール内の日本食レストラン。豊富なメニューとキッズフレンドリーな雰囲気。寿司、刺身、定食を提供。",
+    "tags": [
+      "日本料理",
+      "ファミリー向け",
+      "パタヤ"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "nobu-bangkok-sukhumvit",
+    "name": "Nobu Bangkok",
+    "name_ja": "ノブ バンコク",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "世界的に有名なシェフ・松久信幸のレストラン「Nobu」のバンコク店。日本料理と南米料理を融合した創作料理を高級ホテル内で提供。",
+    "tags": [
+      "フュージョン",
+      "高級",
+      "松久信幸"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "kohaku-omakase-thonglor",
+    "name": "Kohaku Omakase",
+    "name_ja": "琥珀 おまかせ",
+    "area": "Thonglor",
+    "address": "Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "トンローの高評価おまかせレストラン。厳選された高品質食材を使ったおまかせコースを提供。",
+    "tags": [
+      "おまかせ",
+      "高級"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "momiji-omakase-thonglor",
+    "name": "Momiji Omakase",
+    "name_ja": "紅葉 おまかせ",
+    "area": "Thonglor",
+    "address": "Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "トンローのおまかせ寿司レストラン。季節の食材を使った繊細なコースを提供。",
+    "tags": [
+      "おまかせ",
+      "寿司"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "tamaya-omakase-bangkok",
+    "name": "Tamaya Omakase",
+    "name_ja": "たまや おまかせ",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "カウンターで提供するおまかせ寿司レストラン。旬の食材を使った丁寧な握りが特徴。",
+    "tags": [
+      "おまかせ",
+      "寿司",
+      "カウンター"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "kozue-omakase-thonglor",
+    "name": "Kozue Omakase",
+    "name_ja": "梢 おまかせ",
+    "area": "Thonglor",
+    "address": "Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "トンローのおまかせ専門店。旬の食材を使ったコース料理を落ち着いた空間で提供。",
+    "tags": [
+      "おまかせ"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "mido-omakase-bangkok",
+    "name": "Mido Omakase",
+    "name_ja": "美堂 おまかせ",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "おまかせスタイルの和食レストラン。少人数制のカウンターで季節の食材を使った料理を提供。",
+    "tags": [
+      "おまかせ",
+      "カウンター"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "hangetsu-omakase-bangkok",
+    "name": "Hangetsu Omakase",
+    "name_ja": "半月 おまかせ",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "おまかせコースを提供する日本食レストラン。月の満ち欠けをイメージした空間で旬の和食を楽しめる。",
+    "tags": [
+      "おまかせ"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sushi-kappo-juichi-thonglor",
+    "name": "Sushi Kappo Juichi",
+    "name_ja": "鮨割烹 十一",
+    "area": "Thonglor",
+    "address": "Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "トンローの鮨割烹レストラン。寿司と割烹料理の両方を楽しめるおまかせコースを提供。",
+    "tags": [
+      "おまかせ",
+      "寿司",
+      "割烹"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sushi-kanda-thonglor",
+    "name": "Sushi Kanda",
+    "name_ja": "寿司 神田",
+    "area": "Thonglor",
+    "address": "Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "トンローの寿司レストラン。カウンター席で職人が握る本格的な寿司を提供。",
+    "tags": [
+      "寿司",
+      "カウンター"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "nowaki-bangkok",
+    "name": "NOWAKI BKK",
+    "name_ja": "野分",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "日本の季節感を大切にした和食レストラン。旬の素材を活かした料理を提供。",
+    "tags": [
+      "和食",
+      "季節料理"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "odashi-hakkei-thonglor",
+    "name": "Odashi Hakkei",
+    "name_ja": "おだし 八景",
+    "area": "Thonglor",
+    "address": "Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "出汁にこだわった和食レストラン。丁寧にとった出汁をベースにした日本料理を提供。",
+    "tags": [
+      "和食",
+      "出汁"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "warabimochi-kamakura-one-bangkok",
+    "name": "Warabimochi Kamakura",
+    "name_ja": "わらびもち 鎌倉",
+    "area": "Lumphini",
+    "address": "B1, Mitsukoshi Depachika, One Bangkok, Wireless Road, Lumphini, Pathum Wan, Bangkok 10330",
+    "phone": null,
+    "website": null,
+    "description": "日本のわらびもち専門店のタイ1号店。One Bangkok内の三越デパ地下に出店。毎日手作りのわらびもちときな粉、沖縄黒蜜で提供。",
+    "tags": [
+      "和菓子",
+      "わらびもち",
+      "One Bangkok"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "kinza-gyoza-bangkok",
+    "name": "KINZA GYOZA",
+    "name_ja": "金座餃子",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "餃子専門店。パリッと焼き上げた焼き餃子をメインに、水餃子やサイドメニューも提供。",
+    "tags": [
+      "餃子"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
   }
 ]

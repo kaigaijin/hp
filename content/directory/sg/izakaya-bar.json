@@ -1985,5 +1985,794 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "google_maps"
+  },
+  {
+    "slug": "izakaya-hikari-fortune-centre",
+    "name": "Izakaya Hikari",
+    "name_ja": "居酒屋ひかり",
+    "area": "Bugis",
+    "address": "190 Middle Road, #03-01, Fortune Centre, Singapore 188979",
+    "phone": "+6589213779",
+    "website": null,
+    "description": "フォーチュンセンター3階の居酒屋。イベリコ豚ジョール、牛丼、ガーリックフライドライスが看板メニュー。日本酒の棚が並ぶオープンバーカウンターあり。",
+    "tags": [
+      "居酒屋",
+      "日本酒",
+      "フォーチュンセンター"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "izakaya-95-punggol",
+    "name": "Izakaya 95",
+    "name_ja": "居酒屋95",
+    "area": "Punggol",
+    "address": "3 Punggol Point Road, #02-05, The Punggol Settlement, Singapore 828694",
+    "phone": "+6563841132",
+    "website": null,
+    "description": "パンゴル・セトルメント内の居酒屋。鹿児島豚照り焼きが看板メニュー。ウォーターフロントのロケーション。",
+    "tags": [
+      "居酒屋",
+      "ウォーターフロント",
+      "パンゴル"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "naruto-izakaya-boat-quay",
+    "name": "Naruto Izakaya",
+    "name_ja": "なると居酒屋",
+    "area": "Boat Quay",
+    "address": "14 Lorong Telok, Singapore 049027",
+    "phone": null,
+    "website": "http://www.narutoizakaya.sg/",
+    "description": "ボートキー近くの居酒屋。33年以上のキャリアを持つヘッドシェフ・ウィリアム・テオ氏が手がける本格居酒屋料理を提供。",
+    "tags": [
+      "居酒屋",
+      "ボートキー"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "d-bespoke-bukit-pasoh",
+    "name": "D.Bespoke",
+    "name_ja": "D.Bespoke",
+    "area": "Tanjong Pagar",
+    "address": "2 Bukit Pasoh Road, Singapore 089816",
+    "phone": "+6581415741",
+    "website": "http://dbespoke.sg/",
+    "description": "銀座スタイルのスピークイージーカクテルバー。日本人バーテンダー金高大輝氏が営む。Asia's 50 Best Bars選出歴あり。完全予約制。",
+    "tags": [
+      "カクテルバー",
+      "スピークイージー",
+      "銀座スタイル",
+      "要予約"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "rpm-by-d-bespoke-duxton",
+    "name": "RPM by D.Bespoke",
+    "name_ja": "RPM by D.Bespoke",
+    "area": "Tanjong Pagar",
+    "address": "16 Duxton Road, Singapore 089482",
+    "phone": null,
+    "website": null,
+    "description": "D.Bespokeの姉妹店。ダクストンロードに位置するジャパニーズカクテルバー。",
+    "tags": [
+      "カクテルバー",
+      "ダクストン"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "bar-kakure-scotts-road",
+    "name": "The Bar Kakure",
+    "name_ja": "バー隠",
+    "area": "Orchard",
+    "address": "29 Scotts Road, Singapore 228224",
+    "phone": "+6567335251",
+    "website": "https://thebarkakure.com/",
+    "description": "スコッツロードのコロニアルコテージ内にある10席の日本酒・おまかせバー。厳選された珍しい銘柄の日本酒と和食のペアリングを提供。",
+    "tags": [
+      "日本酒バー",
+      "おまかせ",
+      "コロニアル"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "shukuu-izakaya-great-world",
+    "name": "Shukuu Izakaya Great World City",
+    "name_ja": "酒空居酒屋 グレートワールドシティ店",
+    "area": "Great World",
+    "address": "1 Kim Seng Promenade, Great World City, Singapore 237994",
+    "phone": null,
+    "website": "https://shukuu.sg/",
+    "description": "日本酒ソムリエが厳選した銘柄を楽しめる居酒屋のグレートワールド店。本格的な居酒屋料理と日本酒のペアリングが特徴。",
+    "tags": [
+      "居酒屋",
+      "日本酒バー"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "shukuu-izakaya-marina-one",
+    "name": "Shukuu Izakaya Marina One",
+    "name_ja": "酒空居酒屋 マリーナワン店",
+    "area": "Marina Bay",
+    "address": "5 Straits View, Marina One, Singapore 018935",
+    "phone": null,
+    "website": "https://shukuu.sg/",
+    "description": "酒空居酒屋のマリーナワン店。日本酒ソムリエによるペアリングと居酒屋料理を提供。",
+    "tags": [
+      "居酒屋",
+      "日本酒バー",
+      "マリーナベイ"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "barrel-story-of-hibiki-izakaya",
+    "name": "Barrel Story of Hibiki",
+    "name_ja": "バレル・ストーリー・オブ・響",
+    "area": "Tanjong Pagar",
+    "address": "Tanjong Pagar, Singapore",
+    "phone": null,
+    "website": null,
+    "description": "日本国外初のHibiki（響）主導のダイニングコンセプト。シェフ・ショウ・ナガヌマ氏が手がける炭火焼き居酒屋とウイスキーバー。2025年12月オープン。",
+    "tags": [
+      "ウイスキーバー",
+      "居酒屋",
+      "炭火焼き",
+      "響"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "katanashi-boat-quay-izakaya",
+    "name": "Katanashi",
+    "name_ja": "かたなし",
+    "area": "Boat Quay",
+    "address": "77 Boat Quay, Singapore 049865",
+    "phone": "+6565330490",
+    "website": null,
+    "description": "ボートキー最奥部の川沿い居酒屋。屋内・屋外席あり。和風タパスや刺身サラダを手頃な価格で提供。気さくな雰囲気。",
+    "tags": [
+      "居酒屋",
+      "タパス",
+      "テラス席",
+      "リバーサイド"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "shinya-izakaya-boat-quay-bar",
+    "name": "Shinya Izakaya Boat Quay",
+    "name_ja": "真夜居酒屋",
+    "area": "Boat Quay",
+    "address": "Boat Quay, Singapore",
+    "phone": null,
+    "website": "https://www.shinyaizakaya.com/",
+    "description": "毎日深夜3時まで営業する居酒屋。Master Chef Lu氏が手がける。グリルロブスターなどのスペシャルメニューあり。",
+    "tags": [
+      "居酒屋",
+      "深夜営業",
+      "ボートキー"
+    ],
+    "hours": "深夜3:00まで営業",
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "tomo-tokyo-clarke-quay-izakaya",
+    "name": "Tomo Tokyo Clarke Quay",
+    "name_ja": "TOMO Tokyo",
+    "area": "Clarke Quay",
+    "address": "Clarke Quay, Singapore",
+    "phone": null,
+    "website": "https://tomotokyo.com.sg/",
+    "description": "クラークキーのモダンフュージョン居酒屋。シェアプレートと創作和食を提供。DJナイトや屋外リバービューパティオあり。",
+    "tags": [
+      "居酒屋",
+      "フュージョン",
+      "リバービュー",
+      "DJナイト"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "izakaya-shinjuku-cuppage-bar",
+    "name": "Shinjuku Restaurant Cuppage",
+    "name_ja": "新宿レストラン",
+    "area": "Orchard",
+    "address": "5 Koek Road, #01-01/02, Cuppage Plaza, Singapore 228796",
+    "phone": null,
+    "website": null,
+    "description": "カッページプラザ1階の老舗居酒屋。ランチ・ディナー営業。日本人駐在員に長年愛される定番店。",
+    "tags": [
+      "居酒屋",
+      "老舗",
+      "カッページプラザ"
+    ],
+    "hours": "11:45-14:30, 17:45-23:00",
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "charcoal-grill-keisuke-izakaya",
+    "name": "Charcoal-Grill & Salad Bar Keisuke",
+    "name_ja": "炭火焼き＆サラダバー けいすけ",
+    "area": "Tanjong Pagar",
+    "address": "Tanjong Pagar, Singapore",
+    "phone": null,
+    "website": null,
+    "description": "けいすけグループの炭火焼きダイニング&バー。自分で焼くスタイルの焼肉とサラダバーを併設。",
+    "tags": [
+      "炭火焼き",
+      "サラダバー",
+      "けいすけ"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "dosukoi-donpachi-cuppage-izakaya",
+    "name": "Dosukoi Donpachi Cuppage",
+    "name_ja": "どすこい×どんぱち",
+    "area": "Orchard",
+    "address": "5 Koek Road, #B1-24/25, Cuppage Plaza, Singapore 228796",
+    "phone": null,
+    "website": null,
+    "description": "カッページプラザ地下の日本酒ダイニング&居酒屋。レトロな内装で常に変わる日本酒のラインナップを提供。",
+    "tags": [
+      "居酒屋",
+      "日本酒",
+      "レトロ",
+      "カッページプラザ"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "kazu-sumiyaki-cuppage-izakaya",
+    "name": "Kazu Sumiyaki Cuppage",
+    "name_ja": "かず炭焼き",
+    "area": "Orchard",
+    "address": "5 Koek Road, Cuppage Plaza, Singapore 228796",
+    "phone": null,
+    "website": null,
+    "description": "カッページプラザの炭焼き居酒屋。備長炭で焼き上げる串焼きと日本酒を提供。",
+    "tags": [
+      "居酒屋",
+      "炭焼き",
+      "串焼き",
+      "カッページプラザ"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "shunsui-kappo-hongkong-street-izakaya",
+    "name": "Shunsui Kappo Hong Kong Street",
+    "name_ja": "旬水割烹",
+    "area": "Clarke Quay",
+    "address": "Hong Kong Street, Singapore",
+    "phone": null,
+    "website": null,
+    "description": "ホンコンストリートの割烹居酒屋。季節の食材を使った割烹料理と厳選された日本酒を提供。",
+    "tags": [
+      "割烹",
+      "居酒屋",
+      "日本酒"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "shoushin-izakaya-boat-quay-bar",
+    "name": "Shoushin",
+    "name_ja": "翔心",
+    "area": "Boat Quay",
+    "address": "Boat Quay, Singapore",
+    "phone": null,
+    "website": null,
+    "description": "ボートキーの居酒屋バー。日本酒と焼酎のセレクションと和食のつまみを提供。",
+    "tags": [
+      "居酒屋",
+      "日本酒",
+      "ボートキー"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "suishin-izakaya-boat-quay-bar",
+    "name": "Suishin",
+    "name_ja": "酔心",
+    "area": "Boat Quay",
+    "address": "Boat Quay, Singapore",
+    "phone": null,
+    "website": null,
+    "description": "ボートキーの日本酒居酒屋。厳選した銘柄の日本酒と手作りのおつまみを提供。",
+    "tags": [
+      "居酒屋",
+      "日本酒",
+      "ボートキー"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sake-labo-duxton-hill-izakaya",
+    "name": "Sake Labo Duxton Hill",
+    "name_ja": "酒ラボ ダクストンヒル店",
+    "area": "Tanjong Pagar",
+    "address": "Duxton Hill, Singapore",
+    "phone": null,
+    "website": null,
+    "description": "日本酒と和食のペアリングを楽しめるダクストンヒル店。厳選した地酒と炭火焼きおつまみが特徴。",
+    "tags": [
+      "日本酒バー",
+      "炭火焼き",
+      "ダクストンヒル"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "kemuri-cuppage-plaza-izakaya",
+    "name": "Kemuri Cuppage Plaza",
+    "name_ja": "煙 カッページプラザ店",
+    "area": "Orchard",
+    "address": "5 Koek Road, Cuppage Plaza, Singapore 228796",
+    "phone": null,
+    "website": null,
+    "description": "カッページプラザの燻製料理居酒屋。燻製した魚介・肉料理と日本酒のペアリングを提供。",
+    "tags": [
+      "居酒屋",
+      "燻製",
+      "日本酒",
+      "カッページプラザ"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "izakaya-naniwa-cuppage-bar",
+    "name": "Izakaya Naniwa Cuppage",
+    "name_ja": "居酒屋なにわ カッページ店",
+    "area": "Orchard",
+    "address": "5 Koek Road, Cuppage Plaza, Singapore 228796",
+    "phone": null,
+    "website": null,
+    "description": "大阪スタイルの居酒屋。串カツ、お好み焼き、たこ焼きなど関西の味を提供。",
+    "tags": [
+      "居酒屋",
+      "大阪料理",
+      "串カツ",
+      "カッページプラザ"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "izakaya-shun-cuppage-bar",
+    "name": "Izakaya Shun Cuppage",
+    "name_ja": "居酒屋 旬 カッページ店",
+    "area": "Orchard",
+    "address": "5 Koek Road, Cuppage Plaza, Singapore 228796",
+    "phone": null,
+    "website": null,
+    "description": "カッページプラザの季節料理居酒屋。旬の食材を使った料理と日本酒を提供。",
+    "tags": [
+      "居酒屋",
+      "旬の料理",
+      "日本酒",
+      "カッページプラザ"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "tanuki-raw-orchard-central-bar",
+    "name": "Tanuki Raw Orchard Central",
+    "name_ja": "タヌキ・ロウ オーチャードセントラル店",
+    "area": "Orchard",
+    "address": "181 Orchard Road, #04-01, Orchard Central, Singapore 238896",
+    "phone": null,
+    "website": null,
+    "description": "フュージョン和食&バー。寿司ブリトー、ポケボウルなどモダンな和食とクラフトカクテルを提供。カジュアルな雰囲気。",
+    "tags": [
+      "フュージョン",
+      "バー",
+      "カジュアル",
+      "クラフトカクテル"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "himonoya-robertson-walk-izakaya",
+    "name": "Himonoya Robertson Walk",
+    "name_ja": "ひもの屋 ロバートソンウォーク",
+    "area": "Robertson Quay",
+    "address": "Robertson Walk, Singapore",
+    "phone": null,
+    "website": null,
+    "description": "干物（ひもの）をメインにした居酒屋。日本各地の干物を炭火で焼き上げる。日本酒と焼酎のセレクションも充実。",
+    "tags": [
+      "居酒屋",
+      "干物",
+      "炭火焼き",
+      "ロバートソンキー"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "hiyaki-yakitori-tanjong-pagar-izakaya",
+    "name": "Hiyaki Yakitori Izakaya",
+    "name_ja": "ひやき 焼き鳥居酒屋",
+    "area": "Tanjong Pagar",
+    "address": "Tanjong Pagar, Singapore",
+    "phone": null,
+    "website": null,
+    "description": "タンジョンパガーの焼き鳥居酒屋。備長炭で丁寧に焼き上げる串焼きと日本酒を提供。",
+    "tags": [
+      "焼き鳥",
+      "居酒屋",
+      "備長炭"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "moga-pullman-izakaya-bar",
+    "name": "MOGA Pullman",
+    "name_ja": "モガ プルマン",
+    "area": "Orchard",
+    "address": "Orchard Road, Singapore",
+    "phone": null,
+    "website": null,
+    "description": "大正ロマンをテーマにしたダイニング&バー。日本のクラフトジン・ウイスキーを使ったカクテルと創作和食を提供。",
+    "tags": [
+      "ダイニングバー",
+      "大正ロマン",
+      "カクテル"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "teppei-izakaya-bar",
+    "name": "Teppei Japanese Restaurant",
+    "name_ja": "鉄平",
+    "area": "Tanjong Pagar",
+    "address": "Tanjong Pagar, Singapore",
+    "phone": null,
+    "website": null,
+    "description": "タンジョンパガーの日本食居酒屋。刺身、焼き物、揚げ物などを提供。カウンター席で職人の技を楽しめる。",
+    "tags": [
+      "居酒屋",
+      "刺身",
+      "カウンター"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sumire-yakitori-tanjong-pagar-izakaya",
+    "name": "Sumire Yakitori House Tanjong Pagar",
+    "name_ja": "すみれ焼き鳥 タンジョンパガー店",
+    "area": "Tanjong Pagar",
+    "address": "Tanjong Pagar, Singapore",
+    "phone": null,
+    "website": null,
+    "description": "備長炭焼き鳥居酒屋のタンジョンパガー店。鶏の各部位の串焼きと日本酒・ビールを提供。",
+    "tags": [
+      "焼き鳥",
+      "居酒屋",
+      "備長炭"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "akanoya-duxton-hill-izakaya",
+    "name": "Akanoya Robatayaki Duxton Hill",
+    "name_ja": "茜屋 ろばた焼き ダクストンヒル",
+    "area": "Tanjong Pagar",
+    "address": "Duxton Hill, Singapore",
+    "phone": null,
+    "website": null,
+    "description": "ダクストンヒルの炉端焼き居酒屋。目の前で焼き上げる炉端焼きスタイルの料理と日本酒を提供。",
+    "tags": [
+      "炉端焼き",
+      "居酒屋",
+      "日本酒",
+      "ダクストンヒル"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sushi-kyuu-orchard-plaza-bar",
+    "name": "Sushi Kyuu Orchard Plaza",
+    "name_ja": "鮨九 オーチャードプラザ店",
+    "area": "Orchard",
+    "address": "150 Orchard Road, Orchard Plaza, Singapore 238841",
+    "phone": null,
+    "website": null,
+    "description": "オーチャードプラザ内の鮨バー。カウンターで握りたての鮨を楽しめる。日本酒も充実。",
+    "tags": [
+      "鮨",
+      "バー",
+      "カウンター",
+      "日本酒"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sakedokoro-eizaburo-bugis-izakaya",
+    "name": "Sakedokoro Eizaburo Bugis",
+    "name_ja": "酒処 栄三郎 ブギス店",
+    "area": "Bugis",
+    "address": "190 Middle Road, Fortune Centre, Singapore 188979",
+    "phone": null,
+    "website": null,
+    "description": "フォーチュンセンター内の居酒屋。特大サイズの日本式丼をS$8.90++から提供。コスパの高さが特徴。",
+    "tags": [
+      "居酒屋",
+      "丼",
+      "コスパ",
+      "フォーチュンセンター"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "watami-bugis-plus-izakaya",
+    "name": "Watami Bugis+",
+    "name_ja": "和民 Bugis+店",
+    "area": "Bugis",
+    "address": "201 Victoria Street, Bugis+, Singapore 188067",
+    "phone": null,
+    "website": null,
+    "description": "日本の居酒屋チェーン和民のBugis+店。居酒屋メニュー、定食、飲み放題コースを提供。",
+    "tags": [
+      "居酒屋",
+      "チェーン",
+      "飲み放題"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "watami-junction-8-izakaya",
+    "name": "Watami Junction 8",
+    "name_ja": "和民 ジャンクション8店",
+    "area": "Bishan",
+    "address": "9 Bishan Place, Junction 8, Singapore 579837",
+    "phone": null,
+    "website": null,
+    "description": "和民のジャンクション8店。居酒屋メニューと定食を提供。",
+    "tags": [
+      "居酒屋",
+      "チェーン"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "watami-city-square-izakaya",
+    "name": "Watami City Square Mall",
+    "name_ja": "和民 シティスクエアモール店",
+    "area": "Farrer Park",
+    "address": "180 Kitchener Road, City Square Mall, Singapore 208539",
+    "phone": null,
+    "website": null,
+    "description": "和民のシティスクエアモール店。",
+    "tags": [
+      "居酒屋",
+      "チェーン"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "izakaya-shindo-clarke-quay-bar",
+    "name": "Izakaya Shindo Clarke Quay",
+    "name_ja": "居酒屋しんどう クラークキー店",
+    "area": "Clarke Quay",
+    "address": "Clarke Quay, Singapore",
+    "phone": null,
+    "website": null,
+    "description": "クラークキーの居酒屋。串焼き、刺身、一品料理と日本酒・ビールを提供。",
+    "tags": [
+      "居酒屋",
+      "串焼き",
+      "クラークキー"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "ten-sushi-bar-robertson-quay-izakaya",
+    "name": "Ten Sushi Bar Robertson Quay",
+    "name_ja": "天鮨バー ロバートソンキー",
+    "area": "Robertson Quay",
+    "address": "Robertson Quay, Singapore",
+    "phone": null,
+    "website": null,
+    "description": "ロバートソンキーの鮨バー。カウンター席で握りたての鮨と日本酒を楽しめる。",
+    "tags": [
+      "鮨",
+      "バー",
+      "ロバートソンキー"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "yazawa-robertson-quay-izakaya",
+    "name": "Yazawa Robertson Quay",
+    "name_ja": "矢澤 ロバートソンキー",
+    "area": "Robertson Quay",
+    "address": "Robertson Quay, Singapore",
+    "phone": null,
+    "website": null,
+    "description": "東京・五反田の焼肉の名店「矢澤」のシンガポール店。A5ランクの黒毛和牛をカウンターで楽しめる。バー利用も可能。",
+    "tags": [
+      "焼肉",
+      "和牛",
+      "バー",
+      "A5ランク"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "bar-ippudo-shaw-centre-bar",
+    "name": "Bar Ippudo Shaw Centre",
+    "name_ja": "バー一風堂 ショーセンター",
+    "area": "Orchard",
+    "address": "1 Scotts Road, Shaw Centre, Singapore 228208",
+    "phone": null,
+    "website": null,
+    "description": "一風堂が展開するラーメン&バーコンセプト。ラーメンとクラフトカクテル・日本のクラフトビールを提供。",
+    "tags": [
+      "ラーメン",
+      "バー",
+      "カクテル"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "ishinomaki-grill-sake-palais-izakaya",
+    "name": "Ishinomaki Grill & Sake Palais Renaissance",
+    "name_ja": "石巻グリル＆酒 パレルネッサンス",
+    "area": "Orchard",
+    "address": "390 Orchard Road, Palais Renaissance, Singapore 238871",
+    "phone": null,
+    "website": null,
+    "description": "宮城県石巻市の食材を中心に使った和食グリル&酒バー。炭火焼きの魚介と厳選日本酒のペアリングを提供。",
+    "tags": [
+      "炭火焼き",
+      "日本酒",
+      "石巻"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sushi-katori-tanjong-pagar-izakaya",
+    "name": "Sushi Katori Tanjong Pagar",
+    "name_ja": "鮨花鳥 タンジョンパガー",
+    "area": "Tanjong Pagar",
+    "address": "Tanjong Pagar, Singapore",
+    "phone": null,
+    "website": "https://sushikatori.com/",
+    "description": "シェフ花鳥隆太氏が握るおまかせ鮨。カウンター席で日本酒と鮨のペアリングを楽しめる。バー利用も可能。",
+    "tags": [
+      "鮨",
+      "おまかせ",
+      "日本酒バー"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
   }
 ]

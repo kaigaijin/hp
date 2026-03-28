@@ -1998,5 +1998,560 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "google_maps"
+  },
+  {
+    "slug": "cafe-nesuto-ion-orchard",
+    "name": "Café Nesuto ION Orchard",
+    "name_ja": "カフェネスト IONオーチャード店",
+    "area": "Orchard",
+    "address": "2 Orchard Turn, #04-27-32, ION Orchard, Singapore 238801",
+    "phone": "+6560470334",
+    "website": null,
+    "description": "日本人パティシエが手がけるフレンチ×和菓子のカフェ。タンジョンパガー本店に続く2店舗目。ケーキ、ブランチ、オールデイダイニングメニューを提供。",
+    "tags": [
+      "パティスリー",
+      "カフェ",
+      "フレンチ和菓子",
+      "ケーキ"
+    ],
+    "hours": "10:00-22:00",
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "dalaland-bakery-eon-shenton",
+    "name": "Dalaland Bakery",
+    "name_ja": "ダラランド ベーカリー",
+    "area": "Tanjong Pagar",
+    "address": "70 Shenton Way, #01-08, Eon Shenton, Singapore 079118",
+    "phone": null,
+    "website": null,
+    "description": "日本風スイスロール専門カフェ。マンゴーシトラス、フレンチアールグレイ、抹茶など多彩なフレーバーを毎日焼きたてで提供。砂糖控えめのヘルシー志向。",
+    "tags": [
+      "スイスロール",
+      "カフェ",
+      "テイクアウト"
+    ],
+    "hours": "月〜土 11:00-19:00（日曜定休）",
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "chateraise-toa-payoh",
+    "name": "Chateraise Toa Payoh",
+    "name_ja": "シャトレーゼ トアパヨー店",
+    "area": "Toa Payoh",
+    "address": "490 Toa Payoh Lorong 6, #01-15, Singapore 310490",
+    "phone": null,
+    "website": null,
+    "description": "1954年創業の日本のパティスリーチェーン。北海道牛乳ラテやチーズタルトが看板メニュー。ケーキ・焼き菓子・アイスを提供。シンガポールに複数店舗展開。",
+    "tags": [
+      "パティスリー",
+      "チェーン",
+      "チーズタルト",
+      "日本発"
+    ],
+    "hours": "9:00-21:00",
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "chateraise-vivocity",
+    "name": "Chateraise VivoCity",
+    "name_ja": "シャトレーゼ ビボシティ店",
+    "area": "HarbourFront",
+    "address": "1 Harbourfront Walk, VivoCity, Singapore 098585",
+    "phone": null,
+    "website": null,
+    "description": "シャトレーゼのVivoCity店。日本のケーキ、焼き菓子、アイスクリームを提供。",
+    "tags": [
+      "パティスリー",
+      "チェーン",
+      "日本発"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "chateraise-jurong-point",
+    "name": "Chateraise Jurong Point",
+    "name_ja": "シャトレーゼ ジュロンポイント店",
+    "area": "Jurong West",
+    "address": "1 Jurong West Central 2, Jurong Point, Singapore 648886",
+    "phone": null,
+    "website": null,
+    "description": "シャトレーゼのジュロンポイント店。",
+    "tags": [
+      "パティスリー",
+      "チェーン",
+      "日本発"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "chateraise-nex",
+    "name": "Chateraise NEX",
+    "name_ja": "シャトレーゼ NEX店",
+    "area": "Serangoon",
+    "address": "23 Serangoon Central, NEX, Singapore 556083",
+    "phone": null,
+    "website": null,
+    "description": "シャトレーゼのNEX店。",
+    "tags": [
+      "パティスリー",
+      "チェーン",
+      "日本発"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "chateraise-tampines",
+    "name": "Chateraise Tampines",
+    "name_ja": "シャトレーゼ タンピネス店",
+    "area": "Tampines",
+    "address": "Tampines, Singapore",
+    "phone": null,
+    "website": null,
+    "description": "シャトレーゼのタンピネス店。",
+    "tags": [
+      "パティスリー",
+      "チェーン",
+      "日本発"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "okashi-gaku-suntec-city",
+    "name": "Okashi Gaku Suntec City",
+    "name_ja": "お菓子学 サンテックシティ店",
+    "area": "Promenade",
+    "address": "3 Temasek Boulevard, #03-306/307, Suntec City, Singapore 038983",
+    "phone": null,
+    "website": null,
+    "description": "日本のケーキを自動販売機で提供するユニークなコンセプト。ストロベリーショートケーキやカスタードプリンが看板商品。",
+    "tags": [
+      "自動販売機",
+      "ケーキ",
+      "スイーツ"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "108-matcha-saro-vivocity",
+    "name": "108 Matcha Saro VivoCity",
+    "name_ja": "108抹茶茶廊 ビボシティ店",
+    "area": "HarbourFront",
+    "address": "1 Harbourfront Walk, VivoCity, Singapore 098585",
+    "phone": null,
+    "website": null,
+    "description": "北海道発の抹茶スイーツ専門店のVivoCity店。抹茶ティラミス、わらび餅、抹茶ソフトクリームを提供。",
+    "tags": [
+      "抹茶",
+      "スイーツ",
+      "わらび餅",
+      "北海道発"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "maccha-house-vivocity",
+    "name": "Maccha House VivoCity",
+    "name_ja": "抹茶ハウス ビボシティ店",
+    "area": "HarbourFront",
+    "address": "1 Harbourfront Walk, VivoCity, Singapore 098585",
+    "phone": null,
+    "website": null,
+    "description": "日本の抹茶カフェ。抹茶ラテ、抹茶ティラミス、宇治抹茶パフェなどを提供。VivoCity店。",
+    "tags": [
+      "抹茶",
+      "カフェ"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "nanas-green-tea-takashimaya",
+    "name": "Nana's Green Tea Takashimaya",
+    "name_ja": "ナナズグリーンティー 高島屋店",
+    "area": "Orchard",
+    "address": "391 Orchard Road, Takashimaya, Singapore 238873",
+    "phone": null,
+    "website": null,
+    "description": "京都発の抹茶カフェチェーン高島屋店。抹茶ラテ、パフェ、白玉ぜんざいなど豊富な抹茶メニューと丼も提供。",
+    "tags": [
+      "抹茶",
+      "カフェ",
+      "チェーン",
+      "京都発"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "hvala-vivocity",
+    "name": "Hvala VivoCity",
+    "name_ja": "Hvala ビボシティ店",
+    "area": "HarbourFront",
+    "address": "1 Harbourfront Walk, VivoCity, Singapore 098585",
+    "phone": null,
+    "website": null,
+    "description": "シングルオリジン抹茶を使ったドリンクとスイーツを提供する抹茶専門カフェのVivoCity店。",
+    "tags": [
+      "抹茶",
+      "カフェ",
+      "シングルオリジン"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "tsujiri-vivocity",
+    "name": "Tsujiri VivoCity",
+    "name_ja": "辻利 ビボシティ店",
+    "area": "HarbourFront",
+    "address": "1 Harbourfront Walk, VivoCity, Singapore 098585",
+    "phone": null,
+    "website": null,
+    "description": "京都宇治の老舗茶舗「辻利」のVivoCity店。自社農園産の宇治抹茶を使ったラテ・ソフトクリーム・かき氷を提供。",
+    "tags": [
+      "抹茶",
+      "老舗",
+      "京都宇治"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "gokoku-bakery-vivocity",
+    "name": "Gokoku Japanese Bakery VivoCity",
+    "name_ja": "五穀ベーカリー ビボシティ店",
+    "area": "HarbourFront",
+    "address": "1 Harbourfront Walk, VivoCity, Singapore 098585",
+    "phone": null,
+    "website": null,
+    "description": "北海道小麦を使用した日本式ベーカリーのVivoCity店。もちもち食感の食パン・クリームパンが看板商品。",
+    "tags": [
+      "ベーカリー",
+      "日本式パン",
+      "北海道小麦",
+      "チェーン"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "yamazaki-bakery-amk-hub",
+    "name": "Yamazaki Bakery AMK Hub",
+    "name_ja": "山崎パン AMKハブ店",
+    "area": "Ang Mo Kio",
+    "address": "53 Ang Mo Kio Avenue 3, AMK Hub, Singapore 569933",
+    "phone": null,
+    "website": null,
+    "description": "山崎製パンのAMKハブ店。あんパン、メロンパン、カレーパンなど日本式パンを提供。",
+    "tags": [
+      "ベーカリー",
+      "日本式パン",
+      "チェーン"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "yamazaki-bakery-causeway-point",
+    "name": "Yamazaki Bakery Causeway Point",
+    "name_ja": "山崎パン コーズウェイポイント店",
+    "area": "Woodlands",
+    "address": "1 Woodlands Square, Causeway Point, Singapore 738099",
+    "phone": null,
+    "website": null,
+    "description": "山崎パンのコーズウェイポイント店。",
+    "tags": [
+      "ベーカリー",
+      "日本式パン",
+      "チェーン"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "yamazaki-bakery-bedok-mall",
+    "name": "Yamazaki Bakery Bedok Mall",
+    "name_ja": "山崎パン ベドックモール店",
+    "area": "Bedok",
+    "address": "311 New Upper Changi Road, Bedok Mall, Singapore 467360",
+    "phone": null,
+    "website": null,
+    "description": "山崎パンのベドックモール店。",
+    "tags": [
+      "ベーカリー",
+      "日本式パン",
+      "チェーン"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "matchaya-vivocity",
+    "name": "Matchaya VivoCity",
+    "name_ja": "Matchaya ビボシティ店",
+    "area": "HarbourFront",
+    "address": "1 Harbourfront Walk, VivoCity, Singapore 098585",
+    "phone": null,
+    "website": null,
+    "description": "日本の抹茶文化にインスパイアされたシンガポール発のカフェ。抹茶ラテ、ほうじ茶ラテ、和風スイーツを提供。VivoCity店。",
+    "tags": [
+      "抹茶",
+      "カフェ",
+      "ほうじ茶"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "warabimochi-kamakura-313-somerset",
+    "name": "Warabimochi Kamakura 313@Somerset",
+    "name_ja": "わらび餅鎌倉 313@サマセット店",
+    "area": "Orchard",
+    "address": "313 Orchard Road, 313@Somerset, Singapore 238895",
+    "phone": null,
+    "website": null,
+    "description": "鎌倉発のわらび餅専門店の313@サマセット店。とろける食感のわらび餅ドリンクとわらび餅デザートを提供。",
+    "tags": [
+      "わらび餅",
+      "スイーツ",
+      "鎌倉発"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "warabimochi-kamakura-suntec",
+    "name": "Warabimochi Kamakura Suntec City",
+    "name_ja": "わらび餅鎌倉 サンテックシティ店",
+    "area": "Promenade",
+    "address": "3 Temasek Boulevard, Suntec City, Singapore 038983",
+    "phone": null,
+    "website": null,
+    "description": "わらび餅鎌倉のサンテックシティ店。",
+    "tags": [
+      "わらび餅",
+      "スイーツ",
+      "鎌倉発"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "kurasu-orchard-cafe",
+    "name": "Kurasu Orchard",
+    "name_ja": "Kurasu オーチャード店",
+    "area": "Orchard",
+    "address": "Orchard Road, Singapore",
+    "phone": null,
+    "website": null,
+    "description": "京都発のスペシャルティコーヒーロースターのオーチャード店。丁寧にドリップしたコーヒーと抹茶ラテを提供。",
+    "tags": [
+      "コーヒー",
+      "京都発",
+      "抹茶"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "kurasu-waterloo-cafe",
+    "name": "Kurasu Waterloo",
+    "name_ja": "Kurasu ウォータールー店",
+    "area": "Bugis",
+    "address": "Waterloo Street, Singapore",
+    "phone": null,
+    "website": null,
+    "description": "京都発のスペシャルティコーヒーロースターのウォータールー店。",
+    "tags": [
+      "コーヒー",
+      "京都発",
+      "抹茶"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "cafe-gyoen-club-street-cafe",
+    "name": "Café Gyoen Club Street",
+    "name_ja": "カフェ御苑 クラブストリート店",
+    "area": "Telok Ayer",
+    "address": "Club Street, Singapore",
+    "phone": null,
+    "website": null,
+    "description": "日本の抹茶とほうじ茶を使ったドリンクとスイーツのカフェ。クラブストリート店。",
+    "tags": [
+      "抹茶",
+      "ほうじ茶",
+      "カフェ"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "dont-yell-at-me-tanjong-pagar-cafe",
+    "name": "Don't Yell At Me Tanjong Pagar",
+    "name_ja": "Don't Yell At Me タンジョンパガー店",
+    "area": "Tanjong Pagar",
+    "address": "Tanjong Pagar, Singapore",
+    "phone": null,
+    "website": null,
+    "description": "日本式ふわふわスフレパンケーキの専門カフェ。タンジョンパガー店。抹茶、ベリー、チーズなど多彩なフレーバーを提供。",
+    "tags": [
+      "パンケーキ",
+      "スフレ",
+      "カフェ"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "maru-mochi-bugis-cafe",
+    "name": "Maru Mochi Bugis",
+    "name_ja": "まるもち ブギス店",
+    "area": "Bugis",
+    "address": "Bugis, Singapore",
+    "phone": null,
+    "website": null,
+    "description": "もちもち大福と和スイーツの専門店。季節限定フレーバーも人気。ブギス店。",
+    "tags": [
+      "大福",
+      "もち",
+      "和スイーツ"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "an-acorn-duxton-cafe",
+    "name": "An Acorn Duxton",
+    "name_ja": "アンエイコーン ダクストン店",
+    "area": "Tanjong Pagar",
+    "address": "Duxton Road, Singapore",
+    "phone": null,
+    "website": null,
+    "description": "日本のスペシャルティコーヒーとベーカリーのカフェ。ダクストン店。自家製パンとコーヒーの組み合わせが好評。",
+    "tags": [
+      "コーヒー",
+      "ベーカリー",
+      "カフェ"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "skosh-cafe-bencoolen-cafe",
+    "name": "Skosh Cafe Bencoolen",
+    "name_ja": "スコッシュカフェ ベンクーレン店",
+    "area": "Bras Basah",
+    "address": "Bencoolen Street, Singapore",
+    "phone": null,
+    "website": null,
+    "description": "日本のコーヒー文化をベースにしたカフェ。丁寧に入れたドリップコーヒーと和菓子を提供。",
+    "tags": [
+      "コーヒー",
+      "和菓子",
+      "カフェ"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "koko-cafe-patisserie-tanjong-pagar-cafe",
+    "name": "KOKO Cafe & Patisserie Tanjong Pagar",
+    "name_ja": "ココ カフェ＆パティスリー",
+    "area": "Tanjong Pagar",
+    "address": "Tanjong Pagar, Singapore",
+    "phone": null,
+    "website": null,
+    "description": "日本式パティスリー&カフェ。繊細なケーキとコーヒーを提供。タンジョンパガーに位置。",
+    "tags": [
+      "パティスリー",
+      "カフェ",
+      "ケーキ"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "toyou-cafe-kembangan-cafe",
+    "name": "Toyou Cafe Kembangan",
+    "name_ja": "トヨウカフェ ケンバンガン店",
+    "area": "Kembangan",
+    "address": "Kembangan, Singapore",
+    "phone": null,
+    "website": null,
+    "description": "住宅地に位置する日本風カフェ。日本式サンドイッチ、抹茶ドリンク、焼き菓子を提供。",
+    "tags": [
+      "カフェ",
+      "サンドイッチ",
+      "抹茶"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
   }
 ]

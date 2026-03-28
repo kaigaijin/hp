@@ -1325,5 +1325,751 @@
     "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "google_maps"
+  },
+  {
+    "slug": "kemuriya-thonglor",
+    "name": "Kemuriya",
+    "name_ja": "煙や",
+    "area": "Thonglor",
+    "address": "Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "トンローの炭火焼き居酒屋。串焼きと燻製料理が名物。煙が立ち込める臨場感のある空間で、日本の居酒屋の雰囲気を再現。",
+    "tags": [
+      "炭火焼き",
+      "串焼き",
+      "燻製"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "fukufuku-phrom-phong",
+    "name": "Fukufuku",
+    "name_ja": "福福",
+    "area": "Phrom Phong",
+    "address": "Sukhumvit Soi 33, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "プロンポン北の居酒屋。多彩な一品料理と酒を提供。駐在員に親しまれるアットホームな雰囲気。",
+    "tags": [
+      "居酒屋",
+      "一品料理"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sakurasaku-phrom-phong",
+    "name": "Ise no Kuni Sakurasaku",
+    "name_ja": "伊勢の国 サクラサク",
+    "area": "Phrom Phong",
+    "address": "Sukhumvit Soi 33, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "伊勢をテーマにした和食居酒屋。個室も完備し、接待や会食にも利用される。三重の食材を使った料理が特徴。",
+    "tags": [
+      "居酒屋",
+      "個室",
+      "伊勢",
+      "接待向け"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "ikkken-thonglor",
+    "name": "Ikkken",
+    "name_ja": "一剣",
+    "area": "Thonglor",
+    "address": "Thonglor Soi 13, Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "トンローソイ13の居酒屋。焼き鳥や一品料理を炭火で丁寧に焼き上げる。居酒屋ランキングにもノミネートされる実力店。",
+    "tags": [
+      "居酒屋",
+      "焼き鳥",
+      "炭火焼き"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "saku-izakaya-bangkok",
+    "name": "Saku",
+    "name_ja": "朔",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "複数店舗を展開する居酒屋。焼き鳥と一品料理が豊富で、日本人駐在員の間で人気。",
+    "tags": [
+      "居酒屋",
+      "焼き鳥"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "terasu-izakaya-bangkok",
+    "name": "Terasu",
+    "name_ja": "照",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "複数拠点を持つ居酒屋。日本の居酒屋の雰囲気を再現し、焼き物や鍋料理を提供。",
+    "tags": [
+      "居酒屋"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "aniki-izakaya-thonglor",
+    "name": "Izakaya Aniki",
+    "name_ja": "居酒屋 兄貴",
+    "area": "Thonglor",
+    "address": "Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "トンローの日本式居酒屋。兄貴分の温かい雰囲気で、焼き鳥や刺身などの定番居酒屋メニューを提供。",
+    "tags": [
+      "居酒屋",
+      "焼き鳥"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "izakaya-kachan-bangkok",
+    "name": "Izakaya Kachan",
+    "name_ja": "居酒屋 かあちゃん",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "「お母さんの味」をコンセプトにした家庭的な居酒屋。手作りの惣菜と温かいサービスが特徴。",
+    "tags": [
+      "居酒屋",
+      "家庭料理"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "genshiyaki-silom",
+    "name": "Hokkaido Restaurant Genshiyaki Silom",
+    "name_ja": "北海道レストラン原始焼き シーロム店",
+    "area": "Silom",
+    "address": "Soi Thaniya, Silom, Bang Rak, Bangkok 10500",
+    "phone": null,
+    "website": null,
+    "description": "タニヤ通りにある北海道をテーマにした居酒屋。炭火焼きの海鮮が名物で、素朴で温かい雰囲気。",
+    "tags": [
+      "居酒屋",
+      "北海道",
+      "炭火焼き",
+      "海鮮"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "shakarich-surawong",
+    "name": "Shakarich Koshitsu Surawong",
+    "name_ja": "個室和食しゃかリッチ スラウォン店",
+    "area": "Silom",
+    "address": "Surawong Road, Bang Rak, Bangkok 10500",
+    "phone": null,
+    "website": null,
+    "description": "スラウォン通りの個室和食居酒屋。全席個室で接待や会食に利用しやすい。しゃかリッチグループのシーロム店。",
+    "tags": [
+      "居酒屋",
+      "個室",
+      "接待向け"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "ebisu-shoten-silom",
+    "name": "Ebisu Shoten Silom",
+    "name_ja": "恵美須商店 シーロム店",
+    "area": "Silom",
+    "address": "Silom Road, Bang Rak, Bangkok 10500",
+    "phone": null,
+    "website": null,
+    "description": "恵美須商店のシーロム店。低価格で多彩なメニューを提供する大衆居酒屋チェーン。",
+    "tags": [
+      "居酒屋",
+      "チェーン",
+      "リーズナブル"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "ebisu-shoten-ladprao",
+    "name": "Ebisu Shoten Ladprao",
+    "name_ja": "恵美須商店 ラップラオ店",
+    "area": "Ladprao",
+    "address": "Lat Phrao Road, Bangkok 10230",
+    "phone": null,
+    "website": null,
+    "description": "恵美須商店のラップラオ店。リーズナブルな価格で焼き鳥や一品料理を提供。ラップラオエリアの日本人に利用される。",
+    "tags": [
+      "居酒屋",
+      "チェーン",
+      "リーズナブル"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "ebisu-shoten-ekkamai",
+    "name": "Ebisu Shoten Ekkamai",
+    "name_ja": "恵美須商店 エカマイ店",
+    "area": "Ekkamai",
+    "address": "Sukhumvit Soi 63, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "恵美須商店のエカマイ店。リーズナブルな大衆居酒屋で、焼き鳥と一品料理が豊富。",
+    "tags": [
+      "居酒屋",
+      "チェーン",
+      "リーズナブル"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "shamo-sumibi-yakitori-bangkok",
+    "name": "Shamo Sumibi Yakitori BKK",
+    "name_ja": "軍鶏 炭火焼き鳥",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "軍鶏（しゃも）を使った炭火焼き鳥専門の居酒屋。地鶏にこだわった焼き鳥を提供。",
+    "tags": [
+      "焼き鳥",
+      "地鶏",
+      "炭火焼き"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "tenkaichi-yakiton-bangkok",
+    "name": "Tenkaichi Yakiton",
+    "name_ja": "天下一 やきとん",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "やきとん（豚の串焼き）を専門に提供する居酒屋。ホルモンや各部位の串焼きが楽しめる。",
+    "tags": [
+      "やきとん",
+      "串焼き"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "genpukan-thonglor",
+    "name": "Genpukan Thonglor",
+    "name_ja": "源福庵 トンロー",
+    "area": "Thonglor",
+    "address": "Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "トンローの日本式居酒屋。焼き鳥と和食を提供。家庭的な雰囲気で一人飲みにも対応。",
+    "tags": [
+      "居酒屋",
+      "焼き鳥"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sumo-888-izakaya-ari",
+    "name": "Sumo 888 Izakaya",
+    "name_ja": "相撲888 居酒屋",
+    "area": "Ari",
+    "address": "Ari, Phahon Yothin Road, Bangkok 10400",
+    "phone": null,
+    "website": null,
+    "description": "アーリーの居酒屋スタイル日本食ビュッフェ。2時間制で焼き鳥、鍋、寿司巻き、丼など多彩なメニューを食べ放題で提供。",
+    "tags": [
+      "居酒屋",
+      "ビュッフェ",
+      "食べ放題"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "kokugura-ari-izakaya",
+    "name": "Kokugura Ari",
+    "name_ja": "国蔵 アーリー",
+    "area": "Ari",
+    "address": "Soi Ari, Phahon Yothin Road, Bangkok 10400",
+    "phone": null,
+    "website": null,
+    "description": "アーリーの日本酒バー兼居酒屋。厳選した日本酒と焼き鳥、一品料理を提供。",
+    "tags": [
+      "日本酒",
+      "焼き鳥",
+      "バー"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "red-nikkei-bar-sukhumvit",
+    "name": "RED Nikkei Bar",
+    "name_ja": null,
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "日本とペルー料理を融合した「日系」バー。セビーチェと刺身を融合した創作料理やカクテルを提供。活気のある雰囲気。",
+    "tags": [
+      "バー",
+      "フュージョン",
+      "ペルー料理",
+      "日系"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "japanese-highball-bar-1923-bangkok",
+    "name": "The Japanese Highball Bar 1923",
+    "name_ja": "ジャパニーズハイボールバー 1923",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "日本のハイボール文化をテーマにしたバー。日本のウイスキーを使ったハイボールと和風おつまみを提供。",
+    "tags": [
+      "バー",
+      "ハイボール",
+      "ウイスキー"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "thonglor-yokocho-izakaya",
+    "name": "Thonglor Yokocho",
+    "name_ja": "トンロー横丁",
+    "area": "Thonglor",
+    "address": "Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "日本の横丁文化を再現したフードコンプレックス。複数の小さな飲食店が集まり、はしご酒が楽しめる。",
+    "tags": [
+      "横丁",
+      "居酒屋",
+      "はしご酒"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "imoya-phrom-phong",
+    "name": "Imoya Phrom Phong",
+    "name_ja": "いもや プロンポン店",
+    "area": "Phrom Phong",
+    "address": "Sukhumvit Road, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "プロンポンの居酒屋「いもや」の支店。レトロな雰囲気で、焼き物や揚げ物など定番居酒屋メニューを提供。",
+    "tags": [
+      "居酒屋",
+      "レトロ"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "yu-yakitori-thonglor",
+    "name": "Yu Yakitori",
+    "name_ja": "優 焼き鳥",
+    "area": "Thonglor",
+    "address": "Thonglor Soi 3, Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "トンローソイ3の焼き鳥専門店。Hidden Houseグループとアビーズキッチンのコラボレーション。厳選した日本酒のラインナップも充実。",
+    "tags": [
+      "焼き鳥",
+      "日本酒",
+      "コラボ"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "akane-izakaya-sukhumvit22",
+    "name": "Yoidokoro Akane Sukhumvit 22",
+    "name_ja": "酔い処あかね スクンビット22店",
+    "area": "Phrom Phong",
+    "address": "Sukhumvit Soi 22, Khlong Tan, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "元寿司居酒屋三陸の女将が開いた居酒屋。家庭的な惣菜とアットホームな雰囲気が特徴。消防署近く。",
+    "tags": [
+      "居酒屋",
+      "家庭料理",
+      "女将"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "minami-warehouse26-bangkok",
+    "name": "Minami at Warehouse 26",
+    "name_ja": "南",
+    "area": "Phrom Phong",
+    "address": "Sukhumvit 26, Khlong Tan, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "スクンビット26のWarehouse内にある居酒屋。焼き鳥と和食を提供。倉庫をリノベーションした独特の空間。",
+    "tags": [
+      "居酒屋",
+      "焼き鳥",
+      "リノベーション"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "mokusai-house-sukhumvit26",
+    "name": "Mokusai House Bangkok",
+    "name_ja": "木彩ハウス",
+    "area": "Phrom Phong",
+    "address": "Sukhumvit 26, Khlong Tan, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "スクンビット26の木造の温かみのある居酒屋。和食と焼き鳥を落ち着いた空間で提供。",
+    "tags": [
+      "居酒屋",
+      "和食"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "kimi-sushi-bar-bangkok",
+    "name": "KIMI Sushi Bar",
+    "name_ja": "きみ寿司バー",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "寿司とワインを楽しめる日本式バー。握り寿司とクラフトカクテルを提供するモダンな空間。",
+    "tags": [
+      "寿司バー",
+      "ワイン",
+      "カクテル"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sake-bar-kaguya-thonglor",
+    "name": "Bar Kaguya",
+    "name_ja": "バー かぐや",
+    "area": "Thonglor",
+    "address": "Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "トンローの日本酒バー。厳選した日本酒のコレクションとともに和風のおつまみを提供。かぐや姫をテーマにした内装。",
+    "tags": [
+      "バー",
+      "日本酒"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sekai-no-yamachan-silom",
+    "name": "Sekai no Yamachan Silom",
+    "name_ja": "世界の山ちゃん シーロム店",
+    "area": "Silom",
+    "address": "Soi Thaniya, Silom, Bang Rak, Bangkok 10500",
+    "phone": null,
+    "website": null,
+    "description": "名古屋発の手羽先居酒屋チェーン。名物のピリ辛手羽先と飲み放題プランが特徴。日本人駐在員とタイ人オフィスワーカーで賑わう。",
+    "tags": [
+      "居酒屋",
+      "手羽先",
+      "名古屋",
+      "飲み放題"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "omakasedon-teppen-donki-thonglor",
+    "name": "Omakasedon by Teppen Donki Mall",
+    "name_ja": "おまかせ丼 by てっぺん ドンキモール",
+    "area": "Thonglor",
+    "address": "Donki Mall Thonglor, Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "ドンキモールトンロー内の海鮮丼専門店。てっぺんがプロデュースする新鮮な海鮮をおまかせスタイルの丼で提供。",
+    "tags": [
+      "海鮮丼",
+      "おまかせ",
+      "ドンキモール"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "ise-yakitori-sukhumvit",
+    "name": "ISE Japanese Yakitori Restaurant",
+    "name_ja": "伊勢 焼き鳥",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "焼き鳥専門の日本食レストラン。丁寧に串打ちした焼き鳥を炭火で焼き上げる。",
+    "tags": [
+      "焼き鳥",
+      "炭火焼き"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "yoshibar-thonglor",
+    "name": "Yoshibar",
+    "name_ja": "ヨシバー",
+    "area": "Thonglor",
+    "address": "Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "トンローの日本式バー。日本のウイスキーとカクテル、軽食を提供。落ち着いた雰囲気でバータイムを楽しめる。",
+    "tags": [
+      "バー",
+      "ウイスキー"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "donz-izakaya-thonglor",
+    "name": "Donz",
+    "name_ja": "ドンズ",
+    "area": "Thonglor",
+    "address": "Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "トンローの日本式ダイニングバー。寿司と一品料理、カクテルを提供。",
+    "tags": [
+      "バー",
+      "寿司"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "kagero-bar-bangkok",
+    "name": "Kagero Bangkok",
+    "name_ja": "陽炎",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "日本酒と焼酎を中心に提供する日本式バー。和風のおつまみとともにゆったりとした時間を過ごせる。",
+    "tags": [
+      "バー",
+      "日本酒",
+      "焼酎"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "irodori-ramen-cafe-thonglor",
+    "name": "IRODORI Japanese Ramen Cafe",
+    "name_ja": "彩り ラーメンカフェ",
+    "area": "Thonglor",
+    "address": "Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "ラーメンとカフェを融合した日本式ラーメンカフェ。ラーメンのほかスイーツも提供。",
+    "tags": [
+      "ラーメン",
+      "カフェ"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "naruto-izakaya-bangkok",
+    "name": "NARUTO",
+    "name_ja": "なると",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "日本の居酒屋スタイルのレストラン。定番の居酒屋メニューを幅広く提供。",
+    "tags": [
+      "居酒屋"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "sousaku-izakaya-bangkok",
+    "name": "SOUSAKU",
+    "name_ja": "創作",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "創作和食を提供する居酒屋。日本の伝統料理に現代的なアレンジを加えた一品料理が特徴。",
+    "tags": [
+      "居酒屋",
+      "創作和食"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "chillindahouse-izakaya-bangkok",
+    "name": "Chillindahouse BKK",
+    "name_ja": "チリンダハウス",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "日本式居酒屋とバーを融合したチルアウト空間。和食おつまみとクラフトカクテルを提供。",
+    "tags": [
+      "居酒屋",
+      "バー",
+      "カジュアル"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "chunn-izakaya-thonglor",
+    "name": "CHUNN",
+    "name_ja": "チュン",
+    "area": "Thonglor",
+    "address": "Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "トンローの日本式ダイニングバー。刺身と寿司を中心に日本酒とワインを提供。",
+    "tags": [
+      "バー",
+      "寿司",
+      "ダイニング"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "gokuraku-izakaya-bangkok",
+    "name": "Gokuraku",
+    "name_ja": "極楽",
+    "area": "Sukhumvit",
+    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "phone": null,
+    "website": null,
+    "description": "「極楽」の名を冠した日本式居酒屋。焼き鳥と日本酒を中心に提供する隠れ家的な空間。",
+    "tags": [
+      "居酒屋",
+      "焼き鳥",
+      "日本酒"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
   }
 ]
