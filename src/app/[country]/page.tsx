@@ -122,64 +122,7 @@ export default async function CountryPage({
         <section className="py-12 md:py-16">
           <div className="max-w-6xl mx-auto px-4">
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-              {/* 左カラム: KAIスポット */}
-              {totalSpots > 0 && (
-                <div className="lg:col-span-1">
-                  <div className="sticky top-24">
-                    <Link
-                      href={`/${code}/spot`}
-                      className="group flex items-center gap-2 mb-5"
-                    >
-                      <MapPin
-                        size={18}
-                        className="text-ocean-600 dark:text-ocean-400"
-                      />
-                      <h2 className="heading-editorial text-xl font-bold group-hover:text-ocean-700 dark:group-hover:text-ocean-400 transition-colors">
-                        KAIスポット
-                      </h2>
-                      <span className="text-xs text-stone-400 dark:text-stone-500 ml-1">
-                        {totalSpots}件
-                      </span>
-                      <ArrowRight
-                        size={14}
-                        className="text-ocean-500 dark:text-ocean-400 opacity-0 group-hover:opacity-100 group-hover:translate-x-0.5 transition-all"
-                      />
-                    </Link>
-
-                    <div className="grid grid-cols-1 gap-2">
-                      {groupCounts
-                        .filter((g) => g.count > 0)
-                        .map((group) => (
-                          <Link
-                            key={group.slug}
-                            href={`/${code}/spot/${group.slug}`}
-                            className="group flex items-center gap-3 px-4 py-3 rounded-xl bg-white dark:bg-stone-800 border border-stone-200 dark:border-stone-700 hover:border-ocean-300 dark:hover:border-ocean-600 hover:shadow-sm transition-all"
-                          >
-                            <span className="text-ocean-600 dark:text-ocean-400">
-                              {groupIcons[group.slug]}
-                            </span>
-                            <span className="flex-1 text-sm font-medium text-stone-700 dark:text-stone-200 group-hover:text-ocean-700 dark:group-hover:text-ocean-400 transition-colors">
-                              {group.name}
-                            </span>
-                            <span className="text-xs text-stone-400 dark:text-stone-500 tabular-nums">
-                              {group.count}
-                            </span>
-                          </Link>
-                        ))}
-                    </div>
-
-                    <Link
-                      href={`/${code}/spot`}
-                      className="mt-4 flex items-center justify-center gap-1.5 text-sm text-ocean-600 dark:text-ocean-400 hover:text-ocean-700 dark:hover:text-ocean-300 font-medium py-2 transition-colors"
-                    >
-                      すべてのカテゴリを見る
-                      <ArrowRight size={14} />
-                    </Link>
-                  </div>
-                </div>
-              )}
-
-              {/* 右カラム: 記事一覧 */}
+              {/* 左カラム: 記事一覧 */}
               <div
                 className={
                   totalSpots > 0 ? "lg:col-span-2" : "lg:col-span-3"
@@ -275,6 +218,63 @@ export default async function CountryPage({
                   </div>
                 )}
               </div>
+
+              {/* 右カラム: KAIスポット */}
+              {totalSpots > 0 && (
+                <div className="lg:col-span-1">
+                  <div className="sticky top-24">
+                    <Link
+                      href={`/${code}/spot`}
+                      className="group flex items-center gap-2 mb-5"
+                    >
+                      <MapPin
+                        size={18}
+                        className="text-ocean-600 dark:text-ocean-400"
+                      />
+                      <h2 className="heading-editorial text-xl font-bold group-hover:text-ocean-700 dark:group-hover:text-ocean-400 transition-colors">
+                        KAIスポット
+                      </h2>
+                      <span className="text-xs text-stone-400 dark:text-stone-500 ml-1">
+                        {totalSpots}件
+                      </span>
+                      <ArrowRight
+                        size={14}
+                        className="text-ocean-500 dark:text-ocean-400 opacity-0 group-hover:opacity-100 group-hover:translate-x-0.5 transition-all"
+                      />
+                    </Link>
+
+                    <div className="grid grid-cols-1 gap-2">
+                      {groupCounts
+                        .filter((g) => g.count > 0)
+                        .map((group) => (
+                          <Link
+                            key={group.slug}
+                            href={`/${code}/spot/${group.slug}`}
+                            className="group flex items-center gap-3 px-4 py-3 rounded-xl bg-white dark:bg-stone-800 border border-stone-200 dark:border-stone-700 hover:border-ocean-300 dark:hover:border-ocean-600 hover:shadow-sm transition-all"
+                          >
+                            <span className="text-ocean-600 dark:text-ocean-400">
+                              {groupIcons[group.slug]}
+                            </span>
+                            <span className="flex-1 text-sm font-medium text-stone-700 dark:text-stone-200 group-hover:text-ocean-700 dark:group-hover:text-ocean-400 transition-colors">
+                              {group.name}
+                            </span>
+                            <span className="text-xs text-stone-400 dark:text-stone-500 tabular-nums">
+                              {group.count}
+                            </span>
+                          </Link>
+                        ))}
+                    </div>
+
+                    <Link
+                      href={`/${code}/spot`}
+                      className="mt-4 flex items-center justify-center gap-1.5 text-sm text-ocean-600 dark:text-ocean-400 hover:text-ocean-700 dark:hover:text-ocean-300 font-medium py-2 transition-colors"
+                    >
+                      すべてのカテゴリを見る
+                      <ArrowRight size={14} />
+                    </Link>
+                  </div>
+                </div>
+              )}
             </div>
           </div>
         </section>
