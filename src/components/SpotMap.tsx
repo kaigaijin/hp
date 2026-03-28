@@ -22,6 +22,7 @@ type MapSpot = {
   lat: number;
   lng: number;
   priority: number;
+  score?: number; // レビュースコア（将来用、0〜5）
   description: string;
   tags: string[];
 };
@@ -88,15 +89,45 @@ const categoryLabel: Record<string, string> = {
 
 const defaultColor = { bg: "#0284c7", ring: "#0369a1" };
 
-// ズームレベルに応じた表示件数上限
-// 有料スポット（priority >= 1）は常に表示
+// ズームレベルに応じた表示件数上限（カスタムDOMマーカーは200件超で重くなる）
 function getMaxSpotsForZoom(zoom: number): number {
   if (zoom >= 16) return Infinity; // ストリートレベル: 全件表示
-  if (zoom >= 15) return 300;
+  if (zoom >= 15) return 200;
   if (zoom >= 14) return 150;
-  if (zoom >= 13) return 80;
-  if (zoom >= 12) return 50;
-  return 30; // 市全体: 厳選30件
+  if (zoom >= 13) return 100;
+  if (zoom >= 12) return 60;
+  return 40;
+}
+
+// シード付き疑似乱数（同じシードなら同じ列を返す、セッション単位で変わる）
+function seededRandom(seed: number) {
+  let s = seed;
+  return () => {
+    s = (s * 1664525 + 1013904223) & 0x7fffffff;
+    return s / 0x7fffffff;
+  };
+}
+
+// スコアに基づく重みを計算
+// score 5.0 → 重み4倍、score 0（未評価）→ 重み1倍
+function getWeight(spot: MapSpot): number {
+  const base = 1;
+  const scoreBonus = (spot.score ?? 0) * 0.6; // 0〜3.0の追加重み
+  const priorityBonus = spot.priority * 2;    // 有料スポットの追加重み
+  return base + scoreBonus + priorityBonus;
+}
+
+// 重み付きランダムサンプリング（Efraimidis-Spirakis アルゴリズム）
+// 各要素に key = random^(1/weight) を割り当て、上位N件を取る
+// 重みが大きい要素ほど選ばれやすいが、毎回確率的に異なる結果になる
+function weightedSample(spots: MapSpot[], n: number, rng: () => number): MapSpot[] {
+  if (spots.length <= n) return spots;
+  const keyed = spots.map((s) => ({
+    spot: s,
+    key: Math.pow(rng(), 1 / getWeight(s)),
+  }));
+  keyed.sort((a, b) => b.key - a.key);
+  return keyed.slice(0, n).map((k) => k.spot);
 }
 
 // ビューポート内のスポットをフィルタ
@@ -105,6 +136,7 @@ function filterSpotsInView(
   bounds: google.maps.LatLngBounds | null,
   zoom: number,
   categoryFilter: string | null,
+  sessionSeed: number,
 ): MapSpot[] {
   let filtered = spots;
 
@@ -120,42 +152,37 @@ function filterSpotsInView(
     );
   }
 
-  // ズームレベル制御: 有料スポットを優先表示
   const maxSpots = getMaxSpotsForZoom(zoom);
   if (filtered.length <= maxSpots) return filtered;
 
-  // 有料スポットは常に表示
-  const premium = filtered.filter((s) => s.priority >= 1);
-  const normal = filtered.filter((s) => s.priority < 1);
+  const rng = seededRandom(sessionSeed);
 
-  const remaining = maxSpots - premium.length;
-  if (remaining <= 0) return premium;
-
-  // カテゴリフィルタ選択時はそのまま先頭から取る
+  // カテゴリフィルタ選択時: 重み付きランダムサンプリング
   if (categoryFilter) {
-    return [...premium, ...normal.slice(0, remaining)];
+    return weightedSample(filtered, maxSpots, rng);
   }
 
-  // 「すべて」表示: カテゴリごとにラウンドロビンで均等に取る
+  // 「すべて」表示: カテゴリ均等 + 各カテゴリ内で重み付きランダム
   const byCategory: Record<string, MapSpot[]> = {};
-  for (const s of normal) {
+  for (const s of filtered) {
     (byCategory[s.category] ??= []).push(s);
   }
   const catKeys = Object.keys(byCategory);
-  const result = [...premium];
-  let idx = 0;
-  while (result.length < maxSpots && catKeys.length > 0) {
-    const key = catKeys[idx % catKeys.length];
-    const arr = byCategory[key];
-    if (arr.length > 0) {
-      result.push(arr.shift()!);
-    } else {
-      catKeys.splice(idx % catKeys.length, 1);
-      if (catKeys.length === 0) break;
-      continue;
-    }
-    idx++;
+  if (catKeys.length === 0) return [];
+
+  // カテゴリごとの割当枠を計算（均等配分 + 余り分配）
+  const perCat = Math.floor(maxSpots / catKeys.length);
+  let remainder = maxSpots - perCat * catKeys.length;
+
+  const result: MapSpot[] = [];
+  for (const key of catKeys) {
+    const pool = byCategory[key];
+    const quota = perCat + (remainder > 0 ? 1 : 0);
+    if (remainder > 0) remainder--;
+    const sampled = weightedSample(pool, quota, rng);
+    result.push(...sampled);
   }
+
   return result;
 }
 
@@ -176,6 +203,9 @@ function MapContent({
   const [zoom, setZoom] = useState(12);
   const [bounds, setBounds] = useState<google.maps.LatLngBounds | null>(null);
 
+  // セッションごとに異なるシード（リロードで表示が変わる）
+  const [sessionSeed] = useState(() => Math.floor(Math.random() * 2147483647));
+
   const handleCameraChanged = useCallback(
     (ev: MapCameraChangedEvent) => {
       setZoom(ev.detail.zoom);
@@ -193,8 +223,8 @@ function MapContent({
   );
 
   const visibleSpots = useMemo(
-    () => filterSpotsInView(spots, bounds, zoom, categoryFilter),
-    [spots, bounds, zoom, categoryFilter],
+    () => filterSpotsInView(spots, bounds, zoom, categoryFilter, sessionSeed),
+    [spots, bounds, zoom, categoryFilter, sessionSeed],
   );
 
   const maxSpots = getMaxSpotsForZoom(zoom);
