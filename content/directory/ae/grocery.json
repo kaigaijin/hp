@@ -194,7 +194,11 @@
     "phone": "+971509773858",
     "website": "https://www.qkoasianmarket.com/",
     "description": "ハラール対応のアジアンスナック専門店。日本・韓国・タイのお菓子、ラーメン、抹茶、餅などを取り扱い。アブダビ市内に複数店舗展開。",
-    "tags": ["日本食品", "スナック", "ハラール対応"],
+    "tags": [
+      "日本食品",
+      "スナック",
+      "ハラール対応"
+    ],
     "hours": "毎日 10:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -209,7 +213,11 @@
     "phone": "+97126743100",
     "website": "https://summitwebstore.com/",
     "description": "日本食材のプレミアム卸売・小売業者。日本の菓子、ソース、冷凍食品、生鮮食品をオンラインで注文可能。UAE全土に配送対応。",
-    "tags": ["日本食材", "オンライン注文", "配送対応"],
+    "tags": [
+      "日本食材",
+      "オンライン注文",
+      "配送対応"
+    ],
     "hours": "要確認",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -224,7 +232,11 @@
     "phone": "+97126356800",
     "website": "https://www.1004gourmet.com/",
     "description": "7,000平方フィート超の大型アジアンスーパー。韓国食品を中心に日本食品も充実。味噌、醤油、日本米、麺類、冷凍食品、お菓子を取り扱い。",
-    "tags": ["アジアンスーパー", "日本食材", "大型店舗"],
+    "tags": [
+      "アジアンスーパー",
+      "日本食材",
+      "大型店舗"
+    ],
     "hours": "毎日 8:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -239,7 +251,11 @@
     "phone": null,
     "website": "https://kamifoods.com/",
     "description": "日本食材の卸売業者。レストラン・ホテル向けに日本の調味料、乾物、冷凍食品を供給。一般消費者向けのオンライン注文も対応。",
-    "tags": ["日本食材", "卸売", "オンライン"],
+    "tags": [
+      "日本食材",
+      "卸売",
+      "オンライン"
+    ],
     "hours": "平日 9:00-18:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
@@ -254,10 +270,109 @@
     "phone": null,
     "website": "https://www.gourmet-ya.ae/",
     "description": "日本食材卸売・小売店のアブダビ配送エリア。プレミアムな日本の鮮魚、スイーツ、調味料をオンライン注文で配送。",
-    "tags": ["日本食材", "プレミアム食材", "配送対応"],
+    "tags": [
+      "日本食材",
+      "プレミアム食材",
+      "配送対応"
+    ],
     "hours": "要確認",
     "last_verified": "2026-03-27",
     "status": "unverified",
+    "source": "website"
+  },
+  {
+    "slug": "deans-fujiya-supermarket",
+    "name": "Deans Fujiya Supermarket",
+    "name_ja": "ディーンズ富士屋",
+    "area": "Dubai",
+    "address": "Dubai, UAE",
+    "phone": null,
+    "website": "https://deansfujiya.com/",
+    "description": "2005年創業、UAE初の日本食専門スーパーマーケット。日本から直輸入した食材、調味料、冷凍食品、菓子類を豊富に取り扱い。",
+    "tags": [
+      "スーパー",
+      "日本食材",
+      "輸入食品"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "japanese-korean-mart-al-barsha",
+    "name": "Japanese and Korean Mart",
+    "name_ja": null,
+    "area": "Al Barsha",
+    "address": "Al Barsha, Dubai",
+    "phone": null,
+    "website": null,
+    "description": "UAE・サウジアラビアに10店舗以上展開する日本・韓国食材専門スーパー。日本から直輸入した食材・調味料を取り扱い。",
+    "tags": [
+      "スーパー",
+      "日本食材",
+      "韓国食材"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps"
+  },
+  {
+    "slug": "summit-japanese-grocery",
+    "name": "Summit Trading Company",
+    "name_ja": null,
+    "area": "Abu Dhabi",
+    "address": "Abu Dhabi, UAE",
+    "phone": null,
+    "website": "https://summitwebstore.com/",
+    "description": "オンライン＆実店舗で日本食材を販売。日本の菓子、調味料、冷凍食品、生鮮食品をUAE全土に配送。",
+    "tags": [
+      "オンラインショップ",
+      "日本食材",
+      "配送"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "qko-asian-market-uae",
+    "name": "QKO Asian Market",
+    "name_ja": null,
+    "area": "UAE",
+    "address": "UAE",
+    "phone": null,
+    "website": "https://www.qkoasianmarket.com/",
+    "description": "ハラール対応の日本・韓国・タイの菓子、ラーメン、抹茶、もちなどを取り扱うアジアンスナック専門店。オンライン販売。",
+    "tags": [
+      "オンラインショップ",
+      "ハラール",
+      "アジアン食材"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website"
+  },
+  {
+    "slug": "maison-shibuya-dubai",
+    "name": "Maison Shibuya",
+    "name_ja": "メゾン渋谷",
+    "area": "Dubai",
+    "address": "Dubai, UAE",
+    "phone": null,
+    "website": "https://maisonshibuya.ae/",
+    "description": "ドバイ初の日本食プレミアムコンセプトストア。日本から直輸入した精肉、鮮魚、フルーツ、食材、日用品を取り扱う。",
+    "tags": [
+      "プレミアム",
+      "輸入食品",
+      "日本食材"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
     "source": "website"
   }
 ]
