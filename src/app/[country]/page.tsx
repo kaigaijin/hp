@@ -6,8 +6,6 @@ import { getCountry, countries } from "@/lib/countries";
 import { getArticlesByCountry } from "@/lib/articles";
 import {
   ArrowRight,
-  Calendar,
-  Tag,
   MapPin,
   UtensilsCrossed,
   Stethoscope,
@@ -17,6 +15,7 @@ import {
   Briefcase,
   Compass,
 } from "lucide-react";
+import PaginatedArticleList from "@/components/PaginatedArticleList";
 import { getCategoryCounts, categoryGroups } from "@/lib/directory";
 
 export function generateStaticParams() {
@@ -129,76 +128,13 @@ export default async function CountryPage({
                 }
               >
                 {articles.length > 0 ? (
-                  <>
-                    <h2 className="heading-editorial text-xl font-bold mb-6">
-                      {country.name}の記事
-                    </h2>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-                      {articles.map((article) => {
-                        // 記事カテゴリに対応するKAIスポットグループを取得
-                        const relatedGroups =
-                          articleCategoryMap[article.category] ?? [];
-                        const relatedGroup = relatedGroups[0]
-                          ? groupCounts.find(
-                              (g) =>
-                                g.slug === relatedGroups[0] && g.count > 0,
-                            )
-                          : null;
-
-                        return (
-                          <article
-                            key={article.slug}
-                            className="bg-white dark:bg-stone-800 rounded-2xl border border-stone-200 dark:border-stone-700 p-5 flex flex-col country-card"
-                          >
-                            <div className="flex items-center gap-2 text-xs text-ocean-600 dark:text-ocean-400 font-medium mb-2">
-                              <Tag size={12} />
-                              {article.category}
-                            </div>
-
-                            <Link
-                              href={`/${code}/${article.slug}`}
-                              className="group"
-                            >
-                              <h3 className="heading-editorial text-base font-bold mb-2 group-hover:text-ocean-700 dark:group-hover:text-ocean-400 transition-colors leading-snug">
-                                {article.title}
-                              </h3>
-                            </Link>
-                            <p className="text-sm text-stone-500 dark:text-stone-400 leading-relaxed mb-3 flex-1 line-clamp-2">
-                              {article.description}
-                            </p>
-
-                            <div className="flex items-center justify-between">
-                              <div className="flex items-center gap-1 text-xs text-stone-400">
-                                <Calendar size={12} />
-                                {article.date}
-                              </div>
-                              <div className="flex items-center gap-3">
-                                {/* 関連KAIスポットへのリンク */}
-                                {relatedGroup && (
-                                  <Link
-                                    href={`/${code}/spot/${relatedGroup.slug}`}
-                                    className="flex items-center gap-1 text-xs text-stone-400 hover:text-ocean-600 dark:hover:text-ocean-400 transition-colors"
-                                    title={`${relatedGroup.name}のKAIスポット`}
-                                  >
-                                    <MapPin size={11} />
-                                    {relatedGroup.name}
-                                    {relatedGroup.count}件
-                                  </Link>
-                                )}
-                                <Link
-                                  href={`/${code}/${article.slug}`}
-                                  className="flex items-center gap-1 text-xs text-ocean-600 dark:text-ocean-400 font-medium hover:gap-1.5 transition-all"
-                                >
-                                  読む
-                                  <ArrowRight size={12} />
-                                </Link>
-                              </div>
-                            </div>
-                          </article>
-                        );
-                      })}
-                    </div>
-                  </>
+                  <PaginatedArticleList
+                    articles={articles}
+                    countryCode={code}
+                    articleCategoryMap={articleCategoryMap}
+                    groupCounts={groupCounts}
+                    countryName={country.name}
+                  />
                 ) : (
                   <div className="text-center py-16">
                     <span className="text-6xl mb-6 block">{country.flag}</span>

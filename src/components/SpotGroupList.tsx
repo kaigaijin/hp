@@ -9,7 +9,11 @@ import {
   AlertTriangle,
   CheckCircle2,
   Info,
+  ChevronLeft,
+  ChevronRight,
 } from "lucide-react";
+
+const SPOTS_PER_PAGE = 20;
 
 type SpotItem = {
   slug: string;
@@ -52,10 +56,26 @@ export default function SpotGroupList({
   theme?: SpotGroupTheme;
 }) {
   const [activeFilter, setActiveFilter] = useState<string | null>(null);
+  const [currentPage, setCurrentPage] = useState(1);
 
   const filtered = activeFilter
     ? spots.filter((s) => s.categorySlug === activeFilter)
     : spots;
+
+  const totalPages = Math.ceil(filtered.length / SPOTS_PER_PAGE);
+  const safeCurrentPage = Math.min(currentPage, totalPages || 1);
+  const start = (safeCurrentPage - 1) * SPOTS_PER_PAGE;
+  const paginated = filtered.slice(start, start + SPOTS_PER_PAGE);
+
+  const goToPage = (page: number) => {
+    setCurrentPage(page);
+    document.getElementById("spot-list")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
+  const handleFilterChange = (slug: string | null) => {
+    setActiveFilter(slug);
+    setCurrentPage(1);
+  };
 
   return (
     <>
@@ -64,7 +84,7 @@ export default function SpotGroupList({
         <div className="max-w-6xl mx-auto px-4 border-t border-stone-100 dark:border-stone-700">
           <div className="flex gap-1.5 overflow-x-auto py-2.5 scrollbar-hide">
             <button
-              onClick={() => setActiveFilter(null)}
+              onClick={() => handleFilterChange(null)}
               className={`shrink-0 text-xs font-medium px-3 py-1.5 rounded-full transition-colors ${
                 activeFilter === null
                   ? (theme?.filterActive ?? "text-ocean-600 dark:text-ocean-400 bg-ocean-50 dark:bg-ocean-900/30")
@@ -77,7 +97,7 @@ export default function SpotGroupList({
               <button
                 key={cat.slug}
                 onClick={() =>
-                  setActiveFilter(activeFilter === cat.slug ? null : cat.slug)
+                  handleFilterChange(activeFilter === cat.slug ? null : cat.slug)
                 }
                 className={`shrink-0 text-xs font-medium px-3 py-1.5 rounded-full transition-colors ${
                   activeFilter === cat.slug
@@ -93,10 +113,17 @@ export default function SpotGroupList({
       )}
 
       {/* スポット一覧 */}
-      <div className="max-w-6xl mx-auto px-4 py-6">
-        {filtered.length > 0 ? (
+      <div id="spot-list" className="max-w-6xl mx-auto px-4 py-6">
+        {/* 件数表示 */}
+        {filtered.length > SPOTS_PER_PAGE && (
+          <p className="text-xs text-stone-400 mb-3">
+            {filtered.length}件中 {start + 1}–{Math.min(start + SPOTS_PER_PAGE, filtered.length)}件を表示
+          </p>
+        )}
+
+        {paginated.length > 0 ? (
           <div className="space-y-3">
-            {filtered.map((spot, i) => (
+            {paginated.map((spot) => (
               <Link
                 key={`${spot.categorySlug}-${spot.slug}`}
                 href={`/${countryCode}/spot/${spot.categorySlug}/${spot.slug}`}
@@ -106,16 +133,11 @@ export default function SpotGroupList({
                   <div className="p-4 sm:p-5">
                     <div className="flex items-start justify-between gap-3 mb-2">
                       <div className="min-w-0">
-                        <div className="flex items-center gap-2">
-                          <span className={`text-xs font-semibold ${theme?.numberText ?? "text-ocean-600 dark:text-ocean-400"}`}>
-                            {i + 1}
-                          </span>
-                          <h2 className={`text-base font-bold text-stone-800 dark:text-stone-100 truncate ${theme?.accentHover ?? "group-hover:text-ocean-700 dark:group-hover:text-ocean-400"} transition-colors`}>
-                            {spot.name_ja ?? spot.name}
-                          </h2>
-                        </div>
+                        <h2 className={`text-base font-bold text-stone-800 dark:text-stone-100 truncate ${theme?.accentHover ?? "group-hover:text-ocean-700 dark:group-hover:text-ocean-400"} transition-colors`}>
+                          {spot.name_ja ?? spot.name}
+                        </h2>
                         {spot.name_ja && (
-                          <p className="text-xs text-stone-400 mt-0.5 ml-5">
+                          <p className="text-xs text-stone-400 mt-0.5">
                             {spot.name}
                           </p>
                         )}
@@ -134,11 +156,11 @@ export default function SpotGroupList({
                       </div>
                     </div>
 
-                    <p className="text-sm text-stone-600 dark:text-stone-300 leading-relaxed mb-3 ml-5 line-clamp-2">
+                    <p className="text-sm text-stone-600 dark:text-stone-300 leading-relaxed mb-3 line-clamp-2">
                       {spot.description}
                     </p>
 
-                    <div className="flex items-center justify-between gap-4 ml-5">
+                    <div className="flex items-center justify-between gap-4">
                       <div className="flex flex-wrap gap-1.5 min-w-0">
                         {spot.tags.slice(0, 4).map((tag) => (
                           <span
@@ -192,6 +214,63 @@ export default function SpotGroupList({
           <div className="text-center py-12 text-stone-400 text-sm">
             該当するスポットがありません
           </div>
+        )}
+
+        {/* ページネーション */}
+        {totalPages > 1 && (
+          <nav className="flex items-center justify-center gap-1 mt-8" aria-label="ページネーション">
+            <button
+              onClick={() => goToPage(safeCurrentPage - 1)}
+              disabled={safeCurrentPage === 1}
+              className="p-2 rounded-lg text-stone-500 hover:bg-stone-100 dark:hover:bg-stone-700 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+              aria-label="前のページ"
+            >
+              <ChevronLeft size={18} />
+            </button>
+
+            {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => {
+              const show =
+                page === 1 ||
+                page === totalPages ||
+                Math.abs(page - safeCurrentPage) <= 1;
+              const showEllipsis =
+                !show &&
+                (page === 2 || page === totalPages - 1);
+
+              if (showEllipsis) {
+                return (
+                  <span key={page} className="px-1 text-stone-400">
+                    ...
+                  </span>
+                );
+              }
+              if (!show) return null;
+
+              return (
+                <button
+                  key={page}
+                  onClick={() => goToPage(page)}
+                  className={`min-w-[36px] h-9 rounded-lg text-sm font-medium transition-colors ${
+                    page === safeCurrentPage
+                      ? "bg-ocean-600 text-white"
+                      : "text-stone-600 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-700"
+                  }`}
+                  aria-current={page === safeCurrentPage ? "page" : undefined}
+                >
+                  {page}
+                </button>
+              );
+            })}
+
+            <button
+              onClick={() => goToPage(safeCurrentPage + 1)}
+              disabled={safeCurrentPage === totalPages}
+              className="p-2 rounded-lg text-stone-500 hover:bg-stone-100 dark:hover:bg-stone-700 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+              aria-label="次のページ"
+            >
+              <ChevronRight size={18} />
+            </button>
+          </nav>
         )}
       </div>
     </>
