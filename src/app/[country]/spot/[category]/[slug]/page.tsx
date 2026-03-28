@@ -460,26 +460,45 @@ export default async function SpotDetailPage({
                       <dd className="text-sm text-stone-700 dark:text-stone-300">
                         <table className="w-full">
                           <tbody>
-                            {spot.hours.split(" / ").map((line, i) => {
-                              // 「曜日: 時間」形式をパース
-                              const colonIdx = line.indexOf(": ");
-                              if (colonIdx > 0 && colonIdx < 15) {
-                                const day = line.slice(0, colonIdx);
-                                const time = line.slice(colonIdx + 2);
+                            {(() => {
+                              // 曜日区切りの「 / 」でのみ分割（時間帯の「 / 」は維持）
+                              // 時間帯の / : 前後が時刻パターン（00:00）
+                              const lines = spot.hours.split(/\s\/\s(?=(?:[月火水木金土日祝]|[^\d]))/);
+                              return lines.map((line, i) => {
+                                // 「曜日: 時間」形式をパース
+                                const colonIdx = line.indexOf(": ");
+                                if (colonIdx > 0 && colonIdx < 15) {
+                                  const day = line.slice(0, colonIdx);
+                                  const time = line.slice(colonIdx + 2);
+                                  return (
+                                    <tr key={i}>
+                                      <td className="pr-3 py-0.5 text-stone-500 dark:text-stone-400 whitespace-nowrap align-top text-xs font-medium">{day}</td>
+                                      <td className="py-0.5">{time}</td>
+                                    </tr>
+                                  );
+                                }
+                                // 末尾の（〜休）を分離して定休日行にする
+                                const restMatch = line.match(/^(.+?)（([^）]*休[^）]*)）$/);
+                                if (restMatch) {
+                                  return (
+                                    <>
+                                      <tr key={i}>
+                                        <td colSpan={2} className="py-0.5">{restMatch[1]}</td>
+                                      </tr>
+                                      <tr key={`${i}-rest`}>
+                                        <td className="pr-3 py-0.5 text-stone-500 dark:text-stone-400 whitespace-nowrap align-top text-xs font-medium">定休日</td>
+                                        <td className="py-0.5">{restMatch[2]}</td>
+                                      </tr>
+                                    </>
+                                  );
+                                }
                                 return (
                                   <tr key={i}>
-                                    <td className="pr-3 py-0.5 text-stone-500 dark:text-stone-400 whitespace-nowrap align-top text-xs font-medium">{day}</td>
-                                    <td className="py-0.5">{time}</td>
+                                    <td colSpan={2} className="py-0.5">{line}</td>
                                   </tr>
                                 );
-                              }
-                              // パースできない行はそのまま表示
-                              return (
-                                <tr key={i}>
-                                  <td colSpan={2} className="py-0.5">{line}</td>
-                                </tr>
-                              );
-                            })}
+                              });
+                            })()}
                           </tbody>
                         </table>
                       </dd>
