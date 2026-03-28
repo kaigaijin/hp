@@ -13,6 +13,8 @@ import {
   ChevronLeft,
   ChevronRight,
   Camera,
+  Search,
+  X,
 } from "lucide-react";
 
 const SPOTS_PER_PAGE = 20;
@@ -77,6 +79,7 @@ function SpotGroupListInner({
 
   const [activeFilter, setActiveFilter] = useState<string | null>(initialFilter);
   const [currentPage, setCurrentPage] = useState(initialPage);
+  const [searchQuery, setSearchQuery] = useState("");
 
   const updateURL = useCallback((page: number, filter: string | null) => {
     const params = new URLSearchParams();
@@ -86,9 +89,22 @@ function SpotGroupListInner({
     router.replace(`${pathname}${qs ? `?${qs}` : ""}`, { scroll: false });
   }, [pathname, router]);
 
-  const filtered = activeFilter
+  const categoryFiltered = activeFilter
     ? spots.filter((s) => s.categorySlug === activeFilter)
     : spots;
+
+  const filtered = searchQuery.trim()
+    ? (() => {
+        const q = searchQuery.trim().toLowerCase();
+        return categoryFiltered.filter((s) =>
+          (s.name_ja?.toLowerCase().includes(q)) ||
+          s.name.toLowerCase().includes(q) ||
+          s.description.toLowerCase().includes(q) ||
+          s.area.toLowerCase().includes(q) ||
+          s.tags.some((t) => t.toLowerCase().includes(q))
+        );
+      })()
+    : categoryFiltered;
 
   const totalPages = Math.ceil(filtered.length / SPOTS_PER_PAGE);
   const safeCurrentPage = Math.min(currentPage, totalPages || 1);
@@ -142,12 +158,43 @@ function SpotGroupListInner({
         </div>
       )}
 
+      {/* 検索バー */}
+      <div className="max-w-6xl mx-auto px-4 pt-4">
+        <div className="relative">
+          <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-stone-400" />
+          <input
+            type="text"
+            value={searchQuery}
+            onChange={(e) => {
+              setSearchQuery(e.target.value);
+              setCurrentPage(1);
+              updateURL(1, activeFilter);
+            }}
+            placeholder="店名・エリア・キーワードで検索"
+            className="w-full pl-9 pr-9 py-2.5 rounded-lg border border-stone-200 dark:border-stone-600 bg-white dark:bg-stone-800 text-sm text-stone-800 dark:text-stone-100 focus:outline-none focus:ring-2 focus:ring-ocean-500 placeholder:text-stone-400"
+          />
+          {searchQuery && (
+            <button
+              onClick={() => {
+                setSearchQuery("");
+                setCurrentPage(1);
+                updateURL(1, activeFilter);
+              }}
+              className="absolute right-3 top-1/2 -translate-y-1/2 text-stone-400 hover:text-stone-600 dark:hover:text-stone-300"
+            >
+              <X size={16} />
+            </button>
+          )}
+        </div>
+      </div>
+
       {/* スポット一覧 */}
       <div id="spot-list" className="max-w-6xl mx-auto px-4 py-6">
         {/* 件数表示 */}
-        {filtered.length > SPOTS_PER_PAGE && (
+        {(filtered.length > SPOTS_PER_PAGE || searchQuery.trim()) && (
           <p className="text-xs text-stone-400 mb-3">
-            {filtered.length}件中 {start + 1}–{Math.min(start + SPOTS_PER_PAGE, filtered.length)}件を表示
+            {searchQuery.trim() && `「${searchQuery.trim()}」の検索結果: `}
+            {filtered.length}件{filtered.length > SPOTS_PER_PAGE && `中 ${start + 1}–${Math.min(start + SPOTS_PER_PAGE, filtered.length)}件を表示`}
           </p>
         )}
 
