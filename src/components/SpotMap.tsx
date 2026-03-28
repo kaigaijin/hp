@@ -123,17 +123,20 @@ function getWeight(spot: MapSpot): number {
   return base + scoreBonus + priorityBonus;
 }
 
-// 重み付きランダムサンプリング（Efraimidis-Spirakis アルゴリズム）
-// 各要素に key = random^(1/weight) を割り当て、上位N件を取る
-// 重みが大きい要素ほど選ばれやすいが、毎回確率的に異なる結果になる
-function weightedSample(spots: MapSpot[], n: number, rng: () => number): MapSpot[] {
-  if (spots.length <= n) return spots;
-  const keyed = spots.map((s) => ({
-    spot: s,
-    key: Math.pow(rng(), 1 / getWeight(s)),
-  }));
-  keyed.sort((a, b) => b.key - a.key);
-  return keyed.slice(0, n).map((k) => k.spot);
+// セッション開始時に全スポットの表示優先度（ランダムキー）を事前計算する
+// キーが高いほど表示されやすい。画面移動しても順位は変わらない
+function precomputeRankKeys(
+  spots: MapSpot[],
+  seed: number,
+): Record<string, number> {
+  const rng = seededRandom(seed);
+  const keys: Record<string, number> = {};
+  for (const s of spots) {
+    const id = `${s.category}-${s.slug}`;
+    // Efraimidis-Spirakis: key = random^(1/weight) → 重みが大きいほど高い値になりやすい
+    keys[id] = Math.pow(rng(), 1 / getWeight(s));
+  }
+  return keys;
 }
 
 // ビューポート内のスポットをフィルタ
@@ -142,7 +145,7 @@ function filterSpotsInView(
   bounds: google.maps.LatLngBounds | null,
   zoom: number,
   categoryFilter: string | null,
-  sessionSeed: number,
+  rankKeys: Record<string, number>,
 ): MapSpot[] {
   let filtered = spots;
 
@@ -161,18 +164,29 @@ function filterSpotsInView(
   const maxSpots = getMaxSpotsForZoom(zoom);
   if (filtered.length <= maxSpots) return filtered;
 
-  const rng = seededRandom(sessionSeed);
-
-  // カテゴリフィルタ選択時: 重み付きランダムサンプリング
   if (categoryFilter) {
-    return weightedSample(filtered, maxSpots, rng);
+    // カテゴリ選択時: 事前計算したランクキー順でソートして上位N件
+    return [...filtered]
+      .sort((a, b) =>
+        (rankKeys[`${b.category}-${b.slug}`] ?? 0) -
+        (rankKeys[`${a.category}-${a.slug}`] ?? 0)
+      )
+      .slice(0, maxSpots);
   }
 
-  // 「すべて」表示: カテゴリ均等 + 各カテゴリ内で重み付きランダム
+  // 「すべて」表示: カテゴリ均等 + 各カテゴリ内はランクキー順
   const byCategory: Record<string, MapSpot[]> = {};
   for (const s of filtered) {
     (byCategory[s.category] ??= []).push(s);
   }
+  // 各カテゴリ内をランクキー降順でソート
+  for (const key of Object.keys(byCategory)) {
+    byCategory[key].sort((a, b) =>
+      (rankKeys[`${b.category}-${b.slug}`] ?? 0) -
+      (rankKeys[`${a.category}-${a.slug}`] ?? 0)
+    );
+  }
+
   const catKeys = Object.keys(byCategory);
   if (catKeys.length === 0) return [];
 
@@ -185,8 +199,7 @@ function filterSpotsInView(
     const pool = byCategory[key];
     const quota = perCat + (remainder > 0 ? 1 : 0);
     if (remainder > 0) remainder--;
-    const sampled = weightedSample(pool, quota, rng);
-    result.push(...sampled);
+    result.push(...pool.slice(0, quota));
   }
 
   return result;
@@ -209,8 +222,12 @@ function MapContent({
   const [zoom, setZoom] = useState(12);
   const [bounds, setBounds] = useState<google.maps.LatLngBounds | null>(null);
 
-  // セッションごとに異なるシード（リロードで表示が変わる）
-  const [sessionSeed] = useState(() => Math.floor(Math.random() * 2147483647));
+  // セッションごとに異なるシード → 全スポットのランク順位を1回だけ事前計算
+  const rankKeys = useMemo(() => {
+    const seed = Math.floor(Math.random() * 2147483647);
+    return precomputeRankKeys(spots, seed);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [spots]);
 
   const handleCameraChanged = useCallback(
     (ev: MapCameraChangedEvent) => {
@@ -229,8 +246,8 @@ function MapContent({
   );
 
   const visibleSpots = useMemo(
-    () => filterSpotsInView(spots, bounds, zoom, categoryFilter, sessionSeed),
-    [spots, bounds, zoom, categoryFilter, sessionSeed],
+    () => filterSpotsInView(spots, bounds, zoom, categoryFilter, rankKeys),
+    [spots, bounds, zoom, categoryFilter, rankKeys],
   );
 
   const maxSpots = getMaxSpotsForZoom(zoom);
