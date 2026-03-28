@@ -412,9 +412,9 @@ export default async function SpotDetailPage({
             </div>
 
             {/* サイドバー */}
-            <div className="space-y-4">
+            <div className="space-y-4 lg:sticky lg:top-20 lg:self-start">
               {/* 基本情報カード */}
-              <div className="bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 sticky top-20">
+              <div className="bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700">
                 <div className="px-5 py-3 border-b border-stone-100 dark:border-stone-700">
                   <h2 className="text-sm font-semibold text-stone-700 dark:text-stone-200">
                     基本情報
