@@ -103,3 +103,56 @@ export function getAllArticles(): ArticleMeta[] {
     .flatMap((country) => getArticlesByCountry(country))
     .sort((a, b) => (a.date > b.date ? -1 : 1));
 }
+
+// --- guide記事（国を横断する共通記事）---
+
+const guideDir = path.join(contentDir, "guide");
+
+export function getGuideArticles(): ArticleMeta[] {
+  const files = collectMdxFiles(guideDir);
+
+  return files
+    .map((filePath) => {
+      const raw = fs.readFileSync(filePath, "utf-8");
+      const { data } = matter(raw);
+      return {
+        slug: path.basename(filePath).replace(".mdx", ""),
+        title: data.title ?? "",
+        description: data.description ?? "",
+        date: data.date ?? "",
+        lastModified: data.lastModified ?? undefined,
+        country: "guide",
+        category: data.category ?? "",
+        tags: data.tags ?? [],
+        coverImage: data.coverImage,
+      };
+    })
+    .filter((a) => isPublished(a.date))
+    .sort((a, b) => (a.date > b.date ? -1 : 1));
+}
+
+export function getGuideArticle(slug: string) {
+  const files = collectMdxFiles(guideDir);
+  const filePath = files.find((f) => path.basename(f) === `${slug}.mdx`) ?? null;
+  if (!filePath) return null;
+
+  const raw = fs.readFileSync(filePath, "utf-8");
+  const { data, content } = matter(raw);
+
+  if (!isPublished(data.date ?? "")) return null;
+
+  return {
+    meta: {
+      slug,
+      title: data.title ?? "",
+      description: data.description ?? "",
+      date: data.date ?? "",
+      lastModified: data.lastModified ?? undefined,
+      country: "guide",
+      category: data.category ?? "",
+      tags: data.tags ?? [],
+      coverImage: data.coverImage,
+    } as ArticleMeta,
+    content,
+  };
+}
