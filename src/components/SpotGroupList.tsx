@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { Suspense, useState, useCallback } from "react";
+import { useSearchParams, usePathname, useRouter } from "next/navigation";
 import Link from "next/link";
 import {
   MapPin,
@@ -44,19 +45,44 @@ type SpotGroupTheme = {
   badgeText: string;
 };
 
-export default function SpotGroupList({
-  spots,
-  subCategories,
-  countryCode,
-  theme,
-}: {
+type SpotGroupListProps = {
   spots: SpotItem[];
   subCategories: SubCategory[];
   countryCode: string;
   theme?: SpotGroupTheme;
-}) {
-  const [activeFilter, setActiveFilter] = useState<string | null>(null);
-  const [currentPage, setCurrentPage] = useState(1);
+};
+
+export default function SpotGroupList(props: SpotGroupListProps) {
+  return (
+    <Suspense fallback={null}>
+      <SpotGroupListInner {...props} />
+    </Suspense>
+  );
+}
+
+function SpotGroupListInner({
+  spots,
+  subCategories,
+  countryCode,
+  theme,
+}: SpotGroupListProps) {
+  const searchParams = useSearchParams();
+  const pathname = usePathname();
+  const router = useRouter();
+
+  const initialPage = Math.max(1, Number(searchParams.get("page")) || 1);
+  const initialFilter = searchParams.get("filter") || null;
+
+  const [activeFilter, setActiveFilter] = useState<string | null>(initialFilter);
+  const [currentPage, setCurrentPage] = useState(initialPage);
+
+  const updateURL = useCallback((page: number, filter: string | null) => {
+    const params = new URLSearchParams();
+    if (page > 1) params.set("page", String(page));
+    if (filter) params.set("filter", filter);
+    const qs = params.toString();
+    router.replace(`${pathname}${qs ? `?${qs}` : ""}`, { scroll: false });
+  }, [pathname, router]);
 
   const filtered = activeFilter
     ? spots.filter((s) => s.categorySlug === activeFilter)
@@ -69,12 +95,14 @@ export default function SpotGroupList({
 
   const goToPage = (page: number) => {
     setCurrentPage(page);
+    updateURL(page, activeFilter);
     document.getElementById("spot-list")?.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
   const handleFilterChange = (slug: string | null) => {
     setActiveFilter(slug);
     setCurrentPage(1);
+    updateURL(1, slug);
   };
 
   return (

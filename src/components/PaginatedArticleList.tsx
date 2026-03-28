@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { Suspense, useState, useCallback } from "react";
+import { useSearchParams, usePathname, useRouter } from "next/navigation";
 import Link from "next/link";
 import {
   ArrowRight,
@@ -35,21 +36,42 @@ type Props = {
   countryName: string;
 };
 
-export default function PaginatedArticleList({
+export default function PaginatedArticleList(props: Props) {
+  return (
+    <Suspense fallback={null}>
+      <PaginatedArticleListInner {...props} />
+    </Suspense>
+  );
+}
+
+function PaginatedArticleListInner({
   articles,
   countryCode,
   articleCategoryMap,
   groupCounts,
   countryName,
 }: Props) {
-  const [currentPage, setCurrentPage] = useState(1);
+  const searchParams = useSearchParams();
+  const pathname = usePathname();
+  const router = useRouter();
+
+  const initialPage = Math.max(1, Number(searchParams.get("page")) || 1);
+  const [currentPage, setCurrentPage] = useState(initialPage);
+
   const totalPages = Math.ceil(articles.length / ARTICLES_PER_PAGE);
   const start = (currentPage - 1) * ARTICLES_PER_PAGE;
   const paginatedArticles = articles.slice(start, start + ARTICLES_PER_PAGE);
 
+  const updateURL = useCallback((page: number) => {
+    const params = new URLSearchParams();
+    if (page > 1) params.set("page", String(page));
+    const qs = params.toString();
+    router.replace(`${pathname}${qs ? `?${qs}` : ""}`, { scroll: false });
+  }, [pathname, router]);
+
   const goToPage = (page: number) => {
     setCurrentPage(page);
-    // 記事一覧の先頭にスクロール
+    updateURL(page);
     document.getElementById("article-list")?.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
