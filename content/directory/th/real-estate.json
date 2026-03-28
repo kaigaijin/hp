@@ -22,7 +22,7 @@
   {
     "slug": "yoshida-real-estate",
     "name": "Yoshida Real Estate",
-    "name_ja": null,
+    "name_ja": "Yoshida Real Estate",
     "area": "Sukhumvit",
     "address": "Vasu 01 Building, Room 1503, 15F, 1 Soi Sukhumvit 25, Klongton-nua, Wattana, Bangkok 10110",
     "phone": "+6626617711",
@@ -43,7 +43,7 @@
   {
     "slug": "suzuki-real-estate",
     "name": "Suzuki Real Estate",
-    "name_ja": null,
+    "name_ja": "Suzuki Real Estate",
     "area": "Phrom Phong",
     "address": "Soi Sukhumvit 33/1, Sukhumvit Road, Khlong Tan Nuea, Watthana, Bangkok",
     "phone": "+6620370758",
@@ -84,7 +84,7 @@
   {
     "slug": "nishimura-real-estate-bangkok",
     "name": "Nishimura Real Estate (Thailand)",
-    "name_ja": null,
+    "name_ja": "Nishimura Real Estate (Thailand)",
     "area": "Sukhumvit",
     "address": "10/146 (1601A) Floor 16, The Trendy Building, Soi Sukhumvit 13, Klongtoey-Nua, Wattana, Bangkok 10110",
     "phone": "+6621687478",
@@ -185,7 +185,7 @@
   {
     "slug": "bangkok-fudosan",
     "name": "Bangkok Fudosan (Haruranman Group)",
-    "name_ja": null,
+    "name_ja": "Bangkok Fudosan (Haruranman Group)",
     "area": "Bangkok",
     "address": "Bangkok, Thailand",
     "phone": null,
@@ -246,7 +246,7 @@
   {
     "slug": "kauju-real-estate-bangkok",
     "name": "Kauju Co., Ltd.",
-    "name_ja": null,
+    "name_ja": "Kauju Co., Ltd.",
     "area": "Bangkok",
     "address": "Bangkok, Thailand",
     "phone": null,
@@ -287,7 +287,7 @@
   {
     "slug": "shinyu-japan-your-trusted-partner-in-japanese-real-estate",
     "name": "Shinyu Japan - Your Trusted Partner in Japanese Real Estate",
-    "name_ja": null,
+    "name_ja": "Shinyu Japan - Your Trusted Partner in Japanese Real Estate",
     "area": "Bangkok",
     "address": "8, 12th Floor (Unit 1, T-One Building, 2 ซ. สุขุมวิท 40 แขวงพระโขนง เขตคลองเตย กรุงเทพมหานคร 10110, Thailand",
     "lat": 13.7226,
@@ -311,7 +311,7 @@
   {
     "slug": "suzuki-real-estate-thailand-co-ltd-main-branch",
     "name": "Suzuki Real Estate Thailand Co., Ltd. Main branch",
-    "name_ja": null,
+    "name_ja": "Suzuki Real Estate Thailand Co., Ltd. Main branch",
     "area": "Bangkok",
     "address": "ชั้นที่ 3 ห้องเลขที่ 3A, Nuam Complex, 8/1 Soi Sukhumvit 33, Khwaeng Khlong Tan Nuea, Watthana, Krung Thep Maha Nakhon 10110, Thailand",
     "lat": 13.7335,
@@ -335,7 +335,7 @@
   {
     "slug": "japan-valuers-thailand-co-ltd",
     "name": "Japan Valuers (Thailand) Co., Ltd. บริษัท เจแปน แวลูเออร์ส (ไทยแลนด์) จำกัด",
-    "name_ja": null,
+    "name_ja": "Japan Valuers (Thailand) Co., Ltd. บริษัท เจแปน แวลูเออร์ส (ไทยแลนด์) จำกัด",
     "area": "Bangkok",
     "address": "252/95(H) 18Floor, Tower B, Muang Thai - Phatra Complex, Ratchadaphisek Road, Huai Khwang Sub-Districts, แขวงห้วยขวาง เขตห้วยขวาง กรุงเทพมหานคร 10310, Thailand",
     "lat": 13.7868,
@@ -359,7 +359,7 @@
   {
     "slug": "66-property",
     "name": "66 PROPERTY",
-    "name_ja": null,
+    "name_ja": "66 PROPERTY",
     "area": "Bangkok",
     "address": "34, 32 Soi Sukhumvit 62, Lane 2, Phra Khanong Tai, Khet Phra Khanong, Krung Thep Maha Nakhon 10260, Thailand",
     "lat": 13.6955,
@@ -383,7 +383,7 @@
   {
     "slug": "ishikawa-shoji-co-ltd",
     "name": "Ishikawa Shoji Co., Ltd.",
-    "name_ja": null,
+    "name_ja": "Ishikawa Shoji Co., Ltd.",
     "area": "Bangkok",
     "address": "Vasu 1 Building, 11th Floor, Room 1104/1, 1 ซ. สุขุมวิท 25 Klongtoey Nua, เขตวัฒนา กรุงเทพมหานคร 10110, Thailand",
     "lat": 13.7353,
@@ -407,7 +407,7 @@
   {
     "slug": "hua-hin-japan",
     "name": "Hua Hin Japan",
-    "name_ja": null,
+    "name_ja": "Hua Hin Japan",
     "area": "Bangkok",
     "address": "18/3 Tanawit Plaza, Soi, อำนวยศิลป์ ตำบลหัวหิน อำเภอหัวหิน ประจวบคีรีขันธ์ 77110, Thailand",
     "lat": 12.5693,
@@ -425,30 +425,6 @@
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJw6yclK2r_TAR0yGYwCVnCgc",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "wagaya-japan-inc-tokyo-office",
-    "name": "wagaya Japan,Inc. Tokyo Office",
-    "name_ja": null,
-    "area": "Bangkok",
-    "address": "Japan, 〒100-0005 Tokyo, Chiyoda City, Marunouchi, 1-chōme−6−５ 北口ビル 8th floor",
-    "lat": 35.6839,
-    "lng": 139.7669,
-    "phone": "+81332125522",
-    "website": "https://wagaya-japan.com/nihon-agent/en/",
-    "description": "タイで日本人駐在員・在住者向けに住居探しをサポートする不動産会社。日本語での物件紹介・契約手続きに対応。",
-    "tags": [
-      "不動産",
-      "日本語対応",
-      "賃貸"
-    ],
-    "hours": "Monday: 10:00 AM – 7:00 PM / Tuesday: 10:00 AM – 7:00 PM / Wednesday: Closed / Thursday: 10:00 AM – 7:00 PM / Friday: 10:00 AM – 7:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJmxZSJFGKGGARys9RsCNItc0",
     "priority": 0,
     "ai_reviewed": true
   },
@@ -479,7 +455,7 @@
   {
     "slug": "sense-property-group-sukhumvit-agency",
     "name": "Sense Property Group - Sukhumvit Agency",
-    "name_ja": null,
+    "name_ja": "Sense Property Group - Sukhumvit Agency",
     "area": "Bangkok",
     "address": "43/30 Sukhumvit 31 (Sawatdi), Sukhumvit Road, Klongton, Klongtoey, Bangkok 10110, Thailand",
     "lat": 13.7398,
@@ -501,33 +477,9 @@
     "ai_reviewed": true
   },
   {
-    "slug": "old-houses-japan",
-    "name": "Old Houses Japan",
-    "name_ja": null,
-    "area": "Bangkok",
-    "address": "14F, ３丁目-１-1 京橋 中央区 東京都 104-0031, Japan",
-    "lat": 35.676,
-    "lng": 139.7693,
-    "phone": null,
-    "website": "https://www.oldhousesjapan.com/",
-    "description": "タイで日本人駐在員・在住者向けに住居探しをサポートする不動産会社。日本語での物件紹介・契約手続きに対応。",
-    "tags": [
-      "不動産",
-      "日本語対応",
-      "賃貸"
-    ],
-    "hours": "Monday: 9:00 AM – 7:00 PM / Tuesday: 9:00 AM – 7:00 PM / Wednesday: 9:00 AM – 7:00 PM / Thursday: 9:00 AM – 7:00 PM / Friday: 9:00 AM – 7:00 PM / Saturday: 9:00 AM – 7:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJFUFY4Ak2Rw0RjqAXYr-futo",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
     "slug": "shinyu-real-estate",
     "name": "Shinyu Real Estate",
-    "name_ja": null,
+    "name_ja": "Shinyu Real Estate",
     "area": "Bangkok",
     "address": "T-one, building 12th floor unit, 1-2 ซ. เหมวงศ์ Khwang Phra Khanong, Khet, เขตคลองเตย กรุงเทพมหานคร 10110, Thailand",
     "lat": 13.7226,
@@ -545,30 +497,6 @@
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ-1On4_6e4jARXV_lggPXncY",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "akiyamart",
-    "name": "AkiyaMart",
-    "name_ja": null,
-    "area": "Bangkok",
-    "address": "4-chōme-５-2 Renkōji, Tama, Tokyo 206-0021, Japan",
-    "lat": 35.6404,
-    "lng": 139.4667,
-    "phone": null,
-    "website": "https://www.akiya-mart.com/",
-    "description": "タイで日本人駐在員・在住者向けに住居探しをサポートする不動産会社。日本語での物件紹介・契約手続きに対応。",
-    "tags": [
-      "不動産",
-      "日本語対応",
-      "賃貸"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJtxZBBQDlGGARVAvV5xD6aNw",
     "priority": 0,
     "ai_reviewed": true
   },
@@ -597,33 +525,9 @@
     "ai_reviewed": true
   },
   {
-    "slug": "housing-japan",
-    "name": "Housing Japan",
-    "name_ja": null,
-    "area": "Bangkok",
-    "address": "BPRプレイス神谷町 7F, 1-chōme-11-9 Azabudai, Minato City, Tokyo 106-0041, Japan",
-    "lat": 35.6607,
-    "lng": 139.7436,
-    "phone": "+81335888860",
-    "website": "https://housingjapan.com/?utm_source=gmb_listing&utm_medium=organic",
-    "description": "タイで日本人駐在員・在住者向けに住居探しをサポートする不動産会社。日本語での物件紹介・契約手続きに対応。",
-    "tags": [
-      "不動産",
-      "日本語対応",
-      "賃貸"
-    ],
-    "hours": "Monday: 9:30 AM – 6:30 PM / Tuesday: 9:30 AM – 6:30 PM / Wednesday: 9:30 AM – 6:30 PM / Thursday: 9:30 AM – 6:30 PM / Friday: 9:30 AM – 6:30 PM / Saturday: 9:30 AM – 6:30 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJKdNqu3CLGGARBeK6S9X_9Uw",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
     "slug": "nishikawa-air-thailand-shop-siam-takashimaya",
     "name": "Nishikawa AiR Thailand Shop - Siam Takashimaya",
-    "name_ja": null,
+    "name_ja": "Nishikawa AiR Thailand Shop - Siam Takashimaya",
     "area": "Bangkok",
     "address": "Siam Takashimaya 4 floor, Living Zone 99 อาคารไอคอนสยาม Charoen Nakhon Rd, Khwaeng Khlong Ton Sai, Khet Khlong San, Krung Thep Maha Nakhon 10600, Thailand",
     "lat": 13.7265,
@@ -647,7 +551,7 @@
   {
     "slug": "landhousing-thailand",
     "name": "LandHousing Thailand",
-    "name_ja": null,
+    "name_ja": "LandHousing Thailand",
     "area": "Bangkok",
     "address": "Thailand, Bangkok, Watthana, Bangkok, Nuea Watthana 399 Interchange 21 Building G Floor, room 110&126-127",
     "lat": 13.7365,
@@ -765,33 +669,9 @@
     "ai_reviewed": true
   },
   {
-    "slug": "starts-international-thailand-co-ltd",
-    "name": "STARTS International (Thailand) CO., LTD.",
-    "name_ja": "スターツ インターナショナル タイランド",
-    "area": "Bangkok",
-    "address": "Thailand, Krung Thep Maha Nakhon, Bang Rak, Krung Thep Maha Nakhon, Si Lom Rd, 29th",
-    "lat": 13.7271,
-    "lng": 100.5316,
-    "phone": "+6626304848",
-    "website": "http://www.starts.co.jp/thailand/",
-    "description": "タイで日本人駐在員・在住者向けに住居探しをサポートする不動産会社。日本語での物件紹介・契約手続きに対応。",
-    "tags": [
-      "不動産",
-      "日本語対応",
-      "賃貸"
-    ],
-    "hours": "Monday: 8:30 AM – 5:30 PM / Tuesday: 8:30 AM – 5:30 PM / Wednesday: 8:30 AM – 5:30 PM / Thursday: 8:30 AM – 5:30 PM / Friday: 8:30 AM – 5:30 PM / Saturday: 8:30 AM – 5:30 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJWdYT5tGY4jAR22jlwTPTXFM",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
     "slug": "h-do-thailand-limited",
     "name": "H-DO (Thailand) Limited",
-    "name_ja": null,
+    "name_ja": "H-DO (Thailand) Limited",
     "area": "Bangkok",
     "address": "88/8 อาคารแคปปิตอล ลิ้งค์ ชั้น 6 ถนนสาทรเหนือ 88/8 Capital Link Building, 6th Floor Sathon Nua Road Si Lom, Khet Bang Rak, Krung Thep Maha Nakhon 10500, Thailand",
     "lat": 13.7227,
@@ -839,7 +719,7 @@
   {
     "slug": "tanida-residence",
     "name": "Tanida Residence",
-    "name_ja": null,
+    "name_ja": "Tanida Residence",
     "area": "Bangkok",
     "address": "48 Surasak Rd, Si Lom, Khet Bang Rak, Krung Thep Maha Nakhon 10500, Thailand",
     "lat": 13.7211,
@@ -863,7 +743,7 @@
   {
     "slug": "cygnet-real-estate-co-ltd",
     "name": "Cygnet Real Estate Co., Ltd.",
-    "name_ja": null,
+    "name_ja": "Cygnet Real Estate Co., Ltd.",
     "area": "Bangkok",
     "address": "305, 13 Sukhumvit 31, Khwaeng Khlong Toei Nuea, Watthana, Krung Thep Maha Nakhon 10110, Thailand",
     "lat": 13.7423,
@@ -887,7 +767,7 @@
   {
     "slug": "fazwaz",
     "name": "FazWaz",
-    "name_ja": null,
+    "name_ja": "FazWaz",
     "area": "Bangkok",
     "address": "219, 17th Floor, Asoke Towers, 59 ซอย สุขุมวิท 21 แขวงคลองเตยเหนือ เขตวัฒนา กรุงเทพมหานคร 10110, Thailand",
     "lat": 13.7455,
@@ -909,33 +789,9 @@
     "ai_reviewed": true
   },
   {
-    "slug": "sekai-property",
-    "name": "海外不動産セカイプロパティ（SEKAI PROPERTY）",
-    "name_ja": "セカイプロパティ",
-    "area": "Bangkok",
-    "address": "Japan, 〒105-0001 Tokyo, Minato City, Toranomon, 3-chōme−4−８ 虎ノ門Ａビル",
-    "lat": 35.6659,
-    "lng": 139.7469,
-    "phone": "+81364164731",
-    "website": "https://ja.sekaiproperty.com/",
-    "description": "タイで日本人駐在員・在住者向けに住居探しをサポートする不動産会社。日本語での物件紹介・契約手続きに対応。",
-    "tags": [
-      "不動産",
-      "日本語対応",
-      "賃貸"
-    ],
-    "hours": "Monday: 9:00 AM – 8:00 PM / Tuesday: 9:00 AM – 8:00 PM / Wednesday: 9:00 AM – 8:00 PM / Thursday: 9:00 AM – 8:00 PM / Friday: 9:00 AM – 8:00 PM / Saturday: 9:00 AM – 8:00 PM / Sunday: 9:00 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJZZlMf8GNGGARj10QUUWtqy8",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
     "slug": "bangkok-garden-apartment-and-serviced-apartment",
     "name": "Bangkok Garden Apartment & Serviced Apartment",
-    "name_ja": null,
+    "name_ja": "Bangkok Garden Apartment & Serviced Apartment",
     "area": "Bangkok",
     "address": "289 Soi Naradhiwas Rajanagarindra 24, Khwaeng Chong Nonsi, Khet Yan Nawa, Krung Thep Maha Nakhon 10120, Thailand",
     "lat": 13.7015,
@@ -1031,7 +887,7 @@
   {
     "slug": "japan-brands",
     "name": "Japan Brands",
-    "name_ja": null,
+    "name_ja": "Japan Brands",
     "area": "Chiang Mai",
     "address": "25 Wua Lai Rd, Tambon Hai Ya, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200, Thailand",
     "lat": 18.7794,
@@ -1055,7 +911,7 @@
   {
     "slug": "the-bonsai-house-phuket-japanese-modern-living",
     "name": "The Bonsai House Phuket - Japanese Modern Living",
-    "name_ja": null,
+    "name_ja": "The Bonsai House Phuket - Japanese Modern Living",
     "area": "Phuket",
     "address": "13/66, ตำบล ศรีสุนทร อำเภอถลาง ภูเก็ต 83110, Thailand",
     "lat": 7.9976,
@@ -1079,7 +935,7 @@
   {
     "slug": "mono-koh-kaew",
     "name": "MONO KOH KAEW",
-    "name_ja": null,
+    "name_ja": "MONO KOH KAEW",
     "area": "Phuket",
     "address": "X92J+RHJ, Ko Kaeo, Mueang Phuket District, Phuket 83000, Thailand",
     "lat": 7.9521,
@@ -1103,7 +959,7 @@
   {
     "slug": "supalai-park-downtown-phuket",
     "name": "Supalai Park @ Downtown Phuket",
-    "name_ja": null,
+    "name_ja": "Supalai Park @ Downtown Phuket",
     "area": "Phuket",
     "address": "Suthat Rd, ตำบล ตลาดใหญ่ Amphoe Mueang Phuket, Chang Wat Phuket 83000, Thailand",
     "lat": 7.8874,
@@ -1125,33 +981,9 @@
     "ai_reviewed": true
   },
   {
-    "slug": "niseko-realty",
-    "name": "Niseko Realty",
-    "name_ja": null,
-    "area": "Phuket",
-    "address": "Japan, 〒044-0080 Hokkaido, Abuta District, Kutchan, Nisekohirafu 1 Jō, 3-chōme−4−１２ 1F",
-    "lat": 42.8593,
-    "lng": 140.704,
-    "phone": "+81136558776",
-    "website": "http://www.nisekorealty.com/",
-    "description": "タイで日本人駐在員・在住者向けに住居探しをサポートする不動産会社。日本語での物件紹介・契約手続きに対応。",
-    "tags": [
-      "不動産",
-      "日本語対応",
-      "賃貸"
-    ],
-    "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: 9:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJZztKWoWxCl8Rlg2kyTFDDls",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
     "slug": "japan-villa-jonathan-and-oum",
     "name": "Japan Villa - Jonathan and Oum",
-    "name_ja": null,
+    "name_ja": "Japan Villa - Jonathan and Oum",
     "area": "Phuket",
     "address": "Q8VH+RVP, Rawai, Mueang Phuket District, Phuket 83100, Thailand",
     "lat": 7.7946,
@@ -1173,105 +1005,9 @@
     "ai_reviewed": true
   },
   {
-    "slug": "kachial",
-    "name": "株式会社KACHIAL 東京 新宿の不動産管理会社",
-    "name_ja": null,
-    "area": "Phuket",
-    "address": "Japan, 〒163-0638 Tokyo, Shinjuku City, Nishishinjuku, 1-chōme−25−１ Shinjuku Center Building, 38階",
-    "lat": 35.692,
-    "lng": 139.6954,
-    "phone": null,
-    "website": "https://kachial.net/",
-    "description": "タイで日本人駐在員・在住者向けに住居探しをサポートする不動産会社。日本語での物件紹介・契約手続きに対応。",
-    "tags": [
-      "不動産",
-      "日本語対応",
-      "賃貸"
-    ],
-    "hours": "Monday: 9:30 AM – 6:30 PM / Tuesday: 9:30 AM – 6:30 PM / Wednesday: 9:30 AM – 6:30 PM / Thursday: 9:30 AM – 6:30 PM / Friday: 9:30 AM – 6:30 PM / Saturday: 9:30 AM – 6:30 PM / Sunday: 9:30 AM – 6:30 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJsWElM9SMGGARFGU6wbsEtw0",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "global-trust-networks-shin-okubo",
-    "name": "Global Trust Networks Shin-okubo",
-    "name_ja": null,
-    "area": "Phuket",
-    "address": "Japan, 〒169-0072 Tokyo, Shinjuku City, Ōkubo, 1-chōme−15−１５ 2F",
-    "lat": 35.7011,
-    "lng": 139.7033,
-    "phone": "+81351554670",
-    "website": "https://www.gtn.co.jp/",
-    "description": "タイで日本人駐在員・在住者向けに住居探しをサポートする不動産会社。日本語での物件紹介・契約手続きに対応。",
-    "tags": [
-      "不動産",
-      "日本語対応",
-      "賃貸"
-    ],
-    "hours": "Monday: 10:00 AM – 6:30 PM / Tuesday: 10:00 AM – 6:30 PM / Wednesday: 10:00 AM – 6:30 PM / Thursday: 10:00 AM – 6:30 PM / Friday: 10:00 AM – 6:30 PM / Saturday: 10:00 AM – 6:30 PM / Sunday: 10:00 AM – 6:30 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJ6cL_9V6NGGARBAGqfpAyIsU",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "r-japan",
-    "name": "不動産 株式会社R-JAPAN 大阪市 相続",
-    "name_ja": null,
-    "area": "Phuket",
-    "address": "Japan, 〒530-0015 Osaka, Kita Ward, Nakazakinishi, 4-chōme−3−３２ Arca梅田ビル 3F",
-    "lat": 34.7093,
-    "lng": 135.5028,
-    "phone": null,
-    "website": "https://www.r-japan.co.jp/",
-    "description": "タイで日本人駐在員・在住者向けに住居探しをサポートする不動産会社。日本語での物件紹介・契約手続きに対応。",
-    "tags": [
-      "不動産",
-      "日本語対応",
-      "賃貸"
-    ],
-    "hours": "Monday: 10:00 AM – 7:00 PM / Tuesday: 10:00 AM – 7:00 PM / Wednesday: 10:00 AM – 7:00 PM / Thursday: 10:00 AM – 7:00 PM / Friday: 10:00 AM – 7:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJgQk-87_nAGARayDI7x70kWA",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "plaza-homes-ltd",
-    "name": "PLAZA HOMES, LTD.",
-    "name_ja": null,
-    "area": "Phuket",
-    "address": "1-chōme-9-12 Azabudai, Minato City, Tokyo 106-0041, Japan",
-    "lat": 35.6597,
-    "lng": 139.7424,
-    "phone": "+81335836941",
-    "website": "http://www.realestate-tokyo.com/",
-    "description": "タイで日本人駐在員・在住者向けに住居探しをサポートする不動産会社。日本語での物件紹介・契約手続きに対応。",
-    "tags": [
-      "不動産",
-      "日本語対応",
-      "賃貸"
-    ],
-    "hours": "Monday: 9:00 AM – 5:40 PM / Tuesday: 9:00 AM – 5:40 PM / Wednesday: 9:00 AM – 5:40 PM / Thursday: 9:00 AM – 5:40 PM / Friday: 9:00 AM – 5:40 PM / Saturday: 9:00 AM – 5:40 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJ5WWqiZeLGGAR0oZgNh3clgw",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
     "slug": "renthai-real-estate-house-and-condo-for-sale",
     "name": "Renthai Real Estate ขายบ้านและคอนโด พัทยา house & condo for sale",
-    "name_ja": null,
+    "name_ja": "Renthai Real Estate ขายบ้านและคอนโด พัทยา house & condo for sale",
     "area": "Pattaya",
     "address": "47, 111 Soi Welcome Town Muang Pattaya, Amphoe Bang Lamung, Chang Wat Chon Buri 20150, Thailand",
     "lat": 12.9343,
@@ -1295,7 +1031,7 @@
   {
     "slug": "neothai-com-real-estate-agency",
     "name": "neoTHAI.com Real Estate Agency",
-    "name_ja": null,
+    "name_ja": "neoTHAI.com Real Estate Agency",
     "area": "Pattaya",
     "address": "หมู่ที่ 10, 144/239 Thappraya Rd, Muang Pattaya, Chon Buri, Chang Wat Chon Buri 20150, Thailand",
     "lat": 12.9121,
@@ -1319,7 +1055,7 @@
   {
     "slug": "japanese-house",
     "name": "Japanese House(โครงการบ้าน ญี่ปุ่น)",
-    "name_ja": null,
+    "name_ja": "Japanese House(โครงการบ้าน ญี่ปุ่น)",
     "area": "Pattaya",
     "address": "Moo 8, Tambon Phan Thong, Amphoe Phan Thong, Chang Wat Chon Buri 20160, Thailand",
     "lat": 13.466,
@@ -1343,7 +1079,7 @@
   {
     "slug": "ams-asia-market-survey-jps-unixx-resistance-club",
     "name": "AMS Asia Market Survey, JP's Unixx Resistance Club",
-    "name_ja": null,
+    "name_ja": "AMS Asia Market Survey, JP's Unixx Resistance Club",
     "area": "Pattaya",
     "address": "Unixx South Pattaya clubhouse, 1-2f. 163, ซอย พระตำหนัก 6 เมืองพัทยา อำเภอบางละมุง ชลบุรี 20150, Thailand",
     "lat": 12.9198,
@@ -1391,7 +1127,7 @@
   {
     "slug": "colors-real-estate",
     "name": "COLORS REAL ESTATE",
-    "name_ja": null,
+    "name_ja": "COLORS REAL ESTATE",
     "area": "Pattaya",
     "address": "Pattaya Soi 1, Muang Pattaya, Amphoe Bang Lamung, Chang Wat Chon Buri 20150, Thailand",
     "lat": 12.947,
@@ -1439,7 +1175,7 @@
   {
     "slug": "lk-legend",
     "name": "LK Legend",
-    "name_ja": null,
+    "name_ja": "LK Legend",
     "area": "Pattaya",
     "address": "258 อรุโณทัย หมู่ที่ 9 Muang Pattaya, Amphoe Bang Lamung, Chang Wat Chon Buri 20150, Thailand",
     "lat": 12.9281,
@@ -1463,7 +1199,7 @@
   {
     "slug": "eastern-tower",
     "name": "Eastern Tower อีสเทิร์น ทาวน์เวอร์",
-    "name_ja": null,
+    "name_ja": "Eastern Tower อีสเทิร์น ทาวน์เวอร์",
     "area": "Sriracha",
     "address": "Eastern Tower Condominium, 39 Tesaban 2 Jermjomphol Rd, Tambol Sriracha, Amphoe Si Racha, Chang Wat Chon Buri 20110, Thailand",
     "lat": 13.1697,
@@ -1511,7 +1247,7 @@
   {
     "slug": "japan-village",
     "name": "โครงการเจแปน วิลเลจ(Japan Village)",
-    "name_ja": null,
+    "name_ja": "โครงการเจแปน วิลเลจ(Japan Village)",
     "area": "Sriracha",
     "address": "ทางหลวงพิเศษหมายเลข 7 สุรศักดิ์ Amphoe Si Racha, Chang Wat Chon Buri 20110, Thailand",
     "lat": 13.1684,

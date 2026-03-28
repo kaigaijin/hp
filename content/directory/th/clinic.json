@@ -2,7 +2,7 @@
   {
     "slug": "samitivej-sukhumvit-hospital",
     "name": "Samitivej Sukhumvit Hospital",
-    "name_ja": null,
+    "name_ja": "Samitivej Sukhumvit Hospital",
     "area": "Sukhumvit",
     "address": "133 Sukhumvit 49, Klongtan Nua, Vadhana, Bangkok 10110",
     "phone": "+6620222222",
@@ -23,7 +23,7 @@
   {
     "slug": "bangkok-hospital-jms",
     "name": "Bangkok Hospital - Japan Medical Service (JMS)",
-    "name_ja": null,
+    "name_ja": "Bangkok Hospital - Japan Medical Service (JMS)",
     "area": "Huai Khwang",
     "address": "2 Soi Soonvijai 7, New Petchburi Road, Huaykwang, Bangkok 10310",
     "phone": "+6623103257",
@@ -42,50 +42,55 @@
     "ai_reviewed": true
   },
   {
-    "slug": "dym-international-clinic",
-    "name": "DYM International Clinic",
-    "name_ja": "DYMインターナショナルクリニック",
-    "area": "Phrom Phong",
-    "address": "593/10 Sukhumvit Road, Klongton-Nua, Wattana, Bangkok 10110",
+    "slug": "dym-health-check-up-clinic",
+    "name": "DYM Health Check Up Clinic",
+    "name_ja": "DYMヘルスチェックアップクリニック",
+    "area": "Bangkok",
+    "address": "49/7 139, Unit 541, Soi Sukhumvit 49(Klang), Klongton-Nua, Wattana, Bangkok 10110, Bangkok 10110, Thailand",
+    "lat": 13.7357,
+    "lng": 100.577,
     "phone": "+6621071039",
     "website": "https://dymclinic.com/",
-    "description": "2013年設立のタイ初の日系企業運営クリニック。予約から診察、会計まですべて日本語で対応可能。一般内科・小児科・皮膚科・歯科など幅広い診療科目をカバー。トンロー院（RQ49 Mall 4F）もあり。",
+    "description": "日本人医師・スタッフが常駐するスクンビットエリアの日系クリニック。内科・小児科・皮膚科・婦人科・眼科・整形外科と健康診断を提供し、予約から会計まで全て日本語で対応。主要国際保険のキャッシュレス診療に対応。",
     "tags": [
-      "日本語対応",
-      "日系クリニック",
-      "予約可",
-      "土日祝営業"
+      "クリニック",
+      "日本語対応"
     ],
-    "hours": "平日 8:00-20:00 / 土日祝 8:00-17:00",
-    "last_verified": "2026-03-26",
+    "hours": "Monday: 8:00 AM – 1:00 PM, 2:00 – 5:00 PM / Tuesday: 8:00 AM – 5:00 PM / Wednesday: 8:00 AM – 5:00 PM / Thursday: 8:00 AM – 1:00 PM, 2:00 – 5:00 PM / Friday: 8:00 AM – 5:00 PM / Saturday: 8:00 AM – 5:00 PM / Sunday: 8:00 AM – 5:00 PM",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website",
+    "source": "google_maps",
+    "place_id": "ChIJvcfbqFWe4jARDGDkf0oh--Q",
+    "priority": 0,
     "ai_reviewed": true
   },
   {
-    "slug": "sakura-cross-clinic",
-    "name": "Sakura Cross Clinic",
-    "name_ja": "サクラクロスクリニック",
-    "area": "Phrom Phong",
-    "address": "622 Emporium Tower, 18th Floor, Sukhumvit Road, Klongton, Klongtoey, Bangkok 10110",
+    "slug": "sakura-cross-clinic-2",
+    "name": "SAKURA CROSS CLINIC",
+    "name_ja": "さくらクロスクリニック",
+    "area": "Bangkok",
+    "address": "622 Emporium Tower 18th Floor, ถ. สุขุมวิท Klongton, เขตคลองเตย กรุงเทพมหานคร 10110, Thailand",
+    "lat": 13.7302,
+    "lng": 100.5683,
     "phone": "+6622591817",
     "website": "https://www.sakuracross.jp/",
-    "description": "桜十字病院グループのバンコククリニック。内科・小児科・皮膚科・消化器科・産婦人科・心療内科と幅広い診療科目に対応。BTSプロンポン駅直結のエンポリアムタワー18階に位置し、日本語で受診可能。",
+    "description": "桜十字病院グループのバンコク院。BTSプロンポン駅直結のエンポリアムタワー18階にあり、内科・小児科・皮膚科・消化器科・婦人科・心療内科と健康診断を提供。日本人医師・スタッフが在籍し、日本水準の医療を提供。",
     "tags": [
-      "日本語対応",
-      "日系クリニック",
-      "駅直結"
+      "クリニック",
+      "日本語対応"
     ],
-    "hours": "9:00-18:00（受付17:45まで、タイ祝日休診）",
-    "last_verified": "2026-03-26",
+    "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: 9:00 AM – 6:00 PM",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website",
+    "source": "google_maps",
+    "place_id": "ChIJZecD64Gf4jAR2vboyd9_EqU",
+    "priority": 0,
     "ai_reviewed": true
   },
   {
     "slug": "bumrungrad-international-hospital",
     "name": "Bumrungrad International Hospital",
-    "name_ja": null,
+    "name_ja": "Bumrungrad International Hospital",
     "area": "Sukhumvit",
     "address": "33 Sukhumvit 3 (Soi Nana Nua), Wattana, Bangkok 10110",
     "phone": "+6620668888",
@@ -106,7 +111,7 @@
   {
     "slug": "phyathai-2-hospital",
     "name": "Phyathai 2 International Hospital",
-    "name_ja": null,
+    "name_ja": "Phyathai 2 International Hospital",
     "area": "Ratchathewi",
     "address": "943 Phaholyothin Road, Phyathai, Ratchathewi, Bangkok 10400",
     "phone": "+6626175500",
@@ -187,7 +192,7 @@
   {
     "slug": "medpark-hospital",
     "name": "MedPark Hospital",
-    "name_ja": null,
+    "name_ja": "MedPark Hospital",
     "area": "Khlong Toei",
     "address": "3333 Rama IV Road, Khlong Tan, Khlong Toei, Bangkok 10110",
     "phone": "+6620233333",
@@ -207,7 +212,7 @@
   {
     "slug": "vejthani-hospital",
     "name": "Vejthani Hospital",
-    "name_ja": null,
+    "name_ja": "Vejthani Hospital",
     "area": "Lat Phrao",
     "address": "1 Soi Lat Phrao 111, Klong Chan, Bangkapi, Bangkok 10240",
     "phone": "+6627340000",
@@ -227,7 +232,7 @@
   {
     "slug": "praram9-hospital",
     "name": "Praram 9 Hospital",
-    "name_ja": null,
+    "name_ja": "Praram 9 Hospital",
     "area": "Huai Khwang",
     "address": "99 Soi Phatthanakan 3, Praram 9 Road, Bangkapi, Huai Khwang, Bangkok 10310",
     "phone": "+6622029999",
@@ -247,7 +252,7 @@
   {
     "slug": "paolo-hospital-phahol",
     "name": "Paolo Hospital Phahol",
-    "name_ja": null,
+    "name_ja": "Paolo Hospital Phahol",
     "area": "Chatuchak",
     "address": "670/1 Phaholyothin Road, Samsen Nai, Phaya Thai, Bangkok 10400",
     "phone": "+6622700700",
@@ -267,7 +272,7 @@
   {
     "slug": "samitivej-sriracha-hospital",
     "name": "Samitivej Sriracha Hospital",
-    "name_ja": null,
+    "name_ja": "Samitivej Sriracha Hospital",
     "area": "Sriracha",
     "address": "8 Soi Laem Ket, Sriracha, Chonburi 20110",
     "phone": "+6638320300",
@@ -326,27 +331,6 @@
     "ai_reviewed": true
   },
   {
-    "slug": "bangkok-hospital-jms-phahol",
-    "name": "Bangkok Hospital - JMS Phaholyothin",
-    "name_ja": null,
-    "area": "Chatuchak",
-    "address": "Bangkok Hospital HQ, 2 Soi Soonvijai 7, New Petchburi Road, Huaykwang, Bangkok 10310",
-    "phone": "+6623103257",
-    "website": "https://www.bangkokhospital.com/ja/center-clinic/international-medical-service/japanese-medical-services/overview",
-    "description": "バンコク病院内のW棟2階にある日本人専門クリニック（JMS）。1977年設立で48年の歴史。毎日7:00-16:00で一般内科診療を実施。日本語メールでの問い合わせにも対応。",
-    "tags": [
-      "日本語対応",
-      "日本人専門",
-      "内科",
-      "歴史あり"
-    ],
-    "hours": "毎日 7:00-16:00",
-    "status": "unverified",
-    "source": "website",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true
-  },
-  {
     "slug": "bibi-clinic-bangkok",
     "name": "Bibi Clinic Bangkok",
     "name_ja": "ビビクリニック バンコク",
@@ -389,7 +373,7 @@
   {
     "slug": "wellness-medical-tokyo-bangkok",
     "name": "Wellness Medical Tokyo Bangkok",
-    "name_ja": null,
+    "name_ja": "Wellness Medical Tokyo Bangkok",
     "area": "Sukhumvit",
     "address": "Sukhumvit Road, Bangkok 10110",
     "phone": null,
@@ -449,26 +433,6 @@
     "ai_reviewed": true
   },
   {
-    "slug": "samitivej-srinakarin-hospital",
-    "name": "Samitivej Srinakarin Hospital",
-    "name_ja": null,
-    "area": "Srinakarin",
-    "address": "488 Srinakarin Road, Suanluang, Bangkok 10250",
-    "phone": "+6620222222",
-    "website": "https://samitivej-jp.com/srinakarin/",
-    "description": "サミティヴェートグループのシーナカリン分院。日本語通訳サービスがあり、バンコク東部・南部の日本人居住者の医療ニーズに対応。内科から専門科まで幅広い診療科目を設置。",
-    "tags": [
-      "日本語対応",
-      "総合病院",
-      "日本語通訳"
-    ],
-    "hours": "24時間",
-    "status": "unverified",
-    "source": "website",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true
-  },
-  {
     "slug": "blez-clinic-thonglor",
     "name": "BLEZ Clinic Thonglor",
     "name_ja": "ブレズクリニック トンロー",
@@ -491,7 +455,7 @@
   {
     "slug": "kluay-nam-thai-hospital",
     "name": "Kluaynamthai Hospital",
-    "name_ja": null,
+    "name_ja": "Kluaynamthai Hospital",
     "area": "Sukhumvit",
     "address": "44 Soi Sukhumvit 8, Khlong Toei, Bangkok 10110",
     "phone": "+6623921111",
@@ -532,32 +496,9 @@
     "ai_reviewed": true
   },
   {
-    "slug": "dym-health-check-up-clinic",
-    "name": "DYM Health Check Up Clinic",
-    "name_ja": "DYMヘルスチェックアップクリニック",
-    "area": "Bangkok",
-    "address": "49/7 139, Unit 541, Soi Sukhumvit 49(Klang), Klongton-Nua, Wattana, Bangkok 10110, Bangkok 10110, Thailand",
-    "lat": 13.7357,
-    "lng": 100.577,
-    "phone": "+6621071039",
-    "website": "https://dymclinic.com/",
-    "description": "日本人医師・スタッフが常駐するスクンビットエリアの日系クリニック。内科・小児科・皮膚科・婦人科・眼科・整形外科と健康診断を提供し、予約から会計まで全て日本語で対応。主要国際保険のキャッシュレス診療に対応。",
-    "tags": [
-      "クリニック",
-      "日本語対応"
-    ],
-    "hours": "Monday: 8:00 AM – 1:00 PM, 2:00 – 5:00 PM / Tuesday: 8:00 AM – 5:00 PM / Wednesday: 8:00 AM – 5:00 PM / Thursday: 8:00 AM – 1:00 PM, 2:00 – 5:00 PM / Friday: 8:00 AM – 5:00 PM / Saturday: 8:00 AM – 5:00 PM / Sunday: 8:00 AM – 5:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJvcfbqFWe4jARDGDkf0oh--Q",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
     "slug": "yasashii",
     "name": "Yasashii สาขาเซ็นทรัลเวิลด์",
-    "name_ja": null,
+    "name_ja": "Yasashii สาขาเซ็นทรัลเวิลด์",
     "area": "Bangkok",
     "address": "ชั้น 5 โซน B ศูนย์การค้าเซ็นทรัลเวิลด์ (ตรงข้ามกับ Beauty Zone, ติดกับ ISETAN), Khwaeng Pathum Wan, Pathum Wan, Krung Thep Maha Nakhon 10330, Thailand",
     "lat": 13.7468,
@@ -574,29 +515,6 @@
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJE-Hy-NGe4jAR5fyKXc9gRlo",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "japanese-hospital-by-samitivej",
-    "name": "Japanese Hospital by Samitivej",
-    "name_ja": null,
-    "area": "Bangkok",
-    "address": "98 ถนน สุขุมวิท Khwaeng Khlong Tan Nuea, Watthana, Krung Thep Maha Nakhon 10110, Thailand",
-    "lat": 13.7348,
-    "lng": 100.5772,
-    "phone": "+6620222222",
-    "website": null,
-    "description": "サミティヴェート病院内の日本人専門外来。日本人患者向けに日本語での診療を提供。",
-    "tags": [
-      "クリニック",
-      "日本語対応"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJcanTuhGf4jARocvvR5a0ccQ",
     "priority": 0,
     "ai_reviewed": true
   },
@@ -620,29 +538,6 @@
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ-Z-37wKf4jARhv1nvLvxRp4",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "japanese-medical-services-jms",
-    "name": "Japanese Medical Services (JMS) バンコク病院日本人専門クリニック",
-    "name_ja": "バンコク病院日本人専門クリニック",
-    "area": "Bangkok",
-    "address": "85 Soi Phetchaburi 47 Yaek 10, Khwaeng Bang Kapi, Khet Huai Khwang, Krung Thep Maha Nakhon 10310, Thailand",
-    "lat": 13.7487,
-    "lng": 100.5827,
-    "phone": "+6623103257",
-    "website": "https://www.bangkokhospital.com/ja/bangkok/center-clinic/international-medical-service/japanese-medical-services/overview",
-    "description": "バンコク病院内にある1977年設立の日本人専門医療センター。内科・小児科・外科をはじめ多数の診療科を備え、日本人スタッフが受付から会計まで対応。バンコクで最も歴史ある日本語対応医療施設の一つ。",
-    "tags": [
-      "クリニック",
-      "日本語対応"
-    ],
-    "hours": "Monday: 7:00 AM – 4:00 PM / Tuesday: 7:00 AM – 4:00 PM / Wednesday: 7:00 AM – 4:00 PM / Thursday: 7:00 AM – 4:00 PM / Friday: 7:00 AM – 4:00 PM / Saturday: 7:00 AM – 4:00 PM / Sunday: 7:00 AM – 4:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJeeYIbwCf4jAR83VVpGN_-Vg",
     "priority": 0,
     "ai_reviewed": true
   },
@@ -672,7 +567,7 @@
   {
     "slug": "wellmed-bangkok-clinic",
     "name": "WellMed Bangkok Clinic - เขตวัฒนา",
-    "name_ja": null,
+    "name_ja": "WellMed Bangkok Clinic - เขตวัฒนา",
     "area": "Bangkok",
     "address": "อาคาร วสุ 1 เลขที่ 1 Soi Sukhumvit 25, Khwaeng Khlong Toei Nuea, Watthana, Krung Thep Maha Nakhon 10110, Thailand",
     "lat": 13.7352,
@@ -695,7 +590,7 @@
   {
     "slug": "renewme-skin-clinic",
     "name": "Renewme skin clinic",
-    "name_ja": null,
+    "name_ja": "Renewme skin clinic",
     "area": "Bangkok",
     "address": "Hyatt Regency Bangkok Sukhumvit 2F 1 Sukhumvit Soi 13 Rd, แขวงคลองเตยเหนือ เขตวัฒนา กรุงเทพมหานคร 10110, Thailand",
     "lat": 13.7397,
@@ -718,7 +613,7 @@
   {
     "slug": "medconsult-clinic-thonglor",
     "name": "MedConsult Clinic - Thonglor",
-    "name_ja": null,
+    "name_ja": "MedConsult Clinic - Thonglor",
     "area": "Bangkok",
     "address": "Floor 3, Building 2 of The Racquet Club, ซ. สุขุมวิท 49/9 แขวงคลองตันเหนือ เขตวัฒนา กรุงเทพมหานคร 10110, Thailand",
     "lat": 13.7363,
@@ -762,32 +657,9 @@
     "ai_reviewed": true
   },
   {
-    "slug": "dym-33-1",
-    "name": "DYMインターナショナルクリニック 33/1院",
-    "name_ja": "DYMインターナショナルクリニック 33/1院",
-    "area": "Bangkok",
-    "address": "593/10 Sukhumvit Rd, Khwaeng Khlong Tan Nuea, Watthana, Krung Thep Maha Nakhon 10110, Thailand",
-    "lat": 13.7318,
-    "lng": 100.5681,
-    "phone": "+6621071039",
-    "website": "http://dymclinic.com/",
-    "description": "DYMグループのスクンビット33/1院。内科・小児科・皮膚科・婦人科・整形外科・眼科の診療と健康診断を提供。日本語での完全サポート体制で、主要国際保険のキャッシュレス受診が可能。",
-    "tags": [
-      "クリニック",
-      "日本語対応"
-    ],
-    "hours": "Monday: 8:00 AM – 12:00 PM, 1:00 – 8:00 PM / Tuesday: 8:00 AM – 12:00 PM, 1:00 – 8:00 PM / Wednesday: 8:00 AM – 12:00 PM, 1:00 – 8:00 PM / Thursday: 8:00 AM – 12:00 PM, 1:00 – 8:00 PM / Friday: 8:00 AM – 12:00 PM, 1:00 – 8:00 PM / Saturday: 8:00 AM – 12:00 PM, 1:00 – 5:00 PM / Sunday: 8:00 AM – 12:00 PM, 1:00 – 5:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJL36bdQKf4jARjWb9X5ZqEME",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
     "slug": "bodyandmind-clinic",
     "name": "กายใจคลินิก Body&Mind Clinic",
-    "name_ja": null,
+    "name_ja": "กายใจคลินิก Body&Mind Clinic",
     "area": "Bangkok",
     "address": "อาคารจามจุรีสแควร์, ชั้น 2, Chamchuri Square Bldg, ถ. พญาไท แขวงปทุมวัน ปทุมวัน, กรุงเทพมหานคร 10330, Thailand",
     "lat": 13.7332,
@@ -810,7 +682,7 @@
   {
     "slug": "jenny-focus-clinic",
     "name": "JENNY FOCUS CLINIC",
-    "name_ja": null,
+    "name_ja": "JENNY FOCUS CLINIC",
     "area": "Bangkok",
     "address": "9, 1 Soi Sukhumvit 33, Khwaeng Khlong Tan Nuea, Watthana, Krung Thep Maha Nakhon 10110, Thailand",
     "lat": 13.7346,
@@ -833,7 +705,7 @@
   {
     "slug": "bibi-clinic",
     "name": "Bibi Clinic",
-    "name_ja": null,
+    "name_ja": "Bibi Clinic",
     "area": "Bangkok",
     "address": "3rd Floor,306, Nikko Hotel, 27 Soi Thong Lo, Khwaeng Khlong Tan Nuea, Watthana, Krung Thep Maha Nakhon 10110, Thailand",
     "lat": 13.7251,
@@ -856,7 +728,7 @@
   {
     "slug": "global-doctor-tmvc-clinic-bangkok",
     "name": "Global Doctor - TMVC Clinic Bangkok",
-    "name_ja": null,
+    "name_ja": "Global Doctor - TMVC Clinic Bangkok",
     "area": "Bangkok",
     "address": "981 Holiday Inn Hotel Silom , Silom Road,, แขวงสีลม เขตบางรัก กรุงเทพมหานคร 10500, Thailand",
     "lat": 13.723,
@@ -879,7 +751,7 @@
   {
     "slug": "thai-travel-clinic",
     "name": "Thai Travel Clinic",
-    "name_ja": null,
+    "name_ja": "Thai Travel Clinic",
     "area": "Bangkok",
     "address": "Thanon Ratchawithi, Khwaeng Thung Phaya Thai, Khet Ratchathewi, Krung Thep Maha Nakhon 10400, Thailand",
     "lat": 13.7657,
@@ -902,7 +774,7 @@
   {
     "slug": "radiance-skin-clinic",
     "name": "Radiance Skin Clinic",
-    "name_ja": null,
+    "name_ja": "Radiance Skin Clinic",
     "area": "Bangkok",
     "address": "Maneeya Center Building G Floor 518/5 Ploenchit Road Lumpini Patumwan Krung Thep Maha Nakhon 10330, Thailand",
     "lat": 13.7432,
@@ -920,7 +792,7 @@
     "source": "google_maps",
     "place_id": "ChIJu8ZUQCSf4jARshZEmmKzrwc",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": false
   },
   {
     "slug": "saha-clinic-physio",
@@ -948,7 +820,7 @@
   {
     "slug": "pain-away-clinic",
     "name": "Pain Away Clinic",
-    "name_ja": null,
+    "name_ja": "Pain Away Clinic",
     "area": "Bangkok",
     "address": "B1 Floor, Interchange 21 Tower, ซอย สุขุมวิท 21 แขวงคลองเตยเหนือ เขตวัฒนา กรุงเทพมหานคร 10110, Thailand",
     "lat": 13.7367,
@@ -971,7 +843,7 @@
   {
     "slug": "keishikai-international-dental-clinic",
     "name": "Keishikai International Dental Clinic",
-    "name_ja": null,
+    "name_ja": "Keishikai International Dental Clinic",
     "area": "Bangkok",
     "address": "215 216 ชั้น2 Khwaeng Khlong Tan, Khet Khlong Toei, Krung Thep Maha Nakhon 10110, Thailand",
     "lat": 13.7209,
@@ -994,7 +866,7 @@
   {
     "slug": "tokyo-beauty-clinic",
     "name": "Tokyo Beauty Clinic",
-    "name_ja": null,
+    "name_ja": "Tokyo Beauty Clinic",
     "area": "Bangkok",
     "address": "149/24, 2nd Floor, soi Anumanrajdhon, Surawong, Suriyawong, Bangkok, 10500, Thailand",
     "lat": 13.7283,
@@ -1017,7 +889,7 @@
   {
     "slug": "total-produce-clinic",
     "name": "Total Produce Clinic",
-    "name_ja": null,
+    "name_ja": "Total Produce Clinic",
     "area": "Bangkok",
     "address": "1F, 635-637 Sukhumvit Soi 22, Khwaeng Khlong Tan, Khet Khlong Toei, Krung Thep Maha Nakhon 10110, Thailand",
     "lat": 13.7216,
@@ -1130,29 +1002,6 @@
     "ai_reviewed": true
   },
   {
-    "slug": "sakura-cross-clinic-2",
-    "name": "SAKURA CROSS CLINIC",
-    "name_ja": "さくらクロスクリニック",
-    "area": "Bangkok",
-    "address": "622 Emporium Tower 18th Floor, ถ. สุขุมวิท Klongton, เขตคลองเตย กรุงเทพมหานคร 10110, Thailand",
-    "lat": 13.7302,
-    "lng": 100.5683,
-    "phone": "+6622591817",
-    "website": "https://www.sakuracross.jp/",
-    "description": "桜十字病院グループのバンコク院。BTSプロンポン駅直結のエンポリアムタワー18階にあり、内科・小児科・皮膚科・消化器科・婦人科・心療内科と健康診断を提供。日本人医師・スタッフが在籍し、日本水準の医療を提供。",
-    "tags": [
-      "クリニック",
-      "日本語対応"
-    ],
-    "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: 9:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJZecD64Gf4jAR2vboyd9_EqU",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
     "slug": "piyawat-clinic",
     "name": "Piyawat Clinic ปิยะวัฒน์ คลินิก ピヤワットクリニック",
     "name_ja": "Piyawat Clinic ピヤワットクリニック",
@@ -1178,7 +1027,7 @@
   {
     "slug": "mendel-clinic",
     "name": "Mendel Clinic เมนเดล คลินิก ปลูกผมถาวร โดยอาจารย์แพทย์ ฝังสีปาก สักคิ้ว",
-    "name_ja": null,
+    "name_ja": "Mendel Clinic เมนเดล คลินิก ปลูกผมถาวร โดยอาจารย์แพทย์ ฝังสีปาก สักคิ้ว",
     "area": "Bangkok",
     "address": "G 2/11-2/12 Bangkok Mediplex Building Sukhumvit 42, Khwaeng Phra Khanong, Khet Khlong Toei, Krung Thep Maha Nakhon 10110, Thailand",
     "lat": 13.7191,
@@ -1201,7 +1050,7 @@
   {
     "slug": "idol-clinic",
     "name": "Idol Clinic",
-    "name_ja": null,
+    "name_ja": "Idol Clinic",
     "area": "Bangkok",
     "address": "21/131 อาคารรอยัลซิตี้อเวนิว Soi Phetchaburi 47, Khwaeng Bang Kapi, Khet Huai Khwang, Krung Thep Maha Nakhon 10310, Thailand",
     "lat": 13.7502,
@@ -1224,7 +1073,7 @@
   {
     "slug": "zukoi-clinic",
     "name": "Zukoi clinic",
-    "name_ja": null,
+    "name_ja": "Zukoi clinic",
     "area": "Bangkok",
     "address": "3rd floor, Bangkok Mediplex, Sukhumvit 42, Khwaeng Phra Khanong, Khet Khlong Toei, Krung Thep Maha Nakhon 10110, Thailand",
     "lat": 13.7192,
@@ -1247,7 +1096,7 @@
   {
     "slug": "sola-clinic",
     "name": "SOLA CLINIC - โซลา คลินิกเวชกรรม สาขาปิ่นเกล้า",
-    "name_ja": null,
+    "name_ja": "SOLA CLINIC - โซลา คลินิกเวชกรรม สาขาปิ่นเกล้า",
     "area": "Bangkok",
     "address": "โครงการ มารวยมอลล์ ชั้น 1 เลขที่ 3/123 3 123 Borommaratchachonnani Rd, Khwaeng Arun Amarin, Khet Bangkok Noi, Krung Thep Maha Nakhon 10700, Thailand",
     "lat": 13.7773,
@@ -1270,7 +1119,7 @@
   {
     "slug": "tokyo-beauty-anusawari",
     "name": "Tokyo Beauty Anusawari",
-    "name_ja": null,
+    "name_ja": "Tokyo Beauty Anusawari",
     "area": "Bangkok",
     "address": "Building Victory corner, 1 Phaya Thai Rd, Khwaeng Thanon Phaya Thai, Khet Ratchathewi, Krung Thep Maha Nakhon 10400, Thailand",
     "lat": 13.7638,
@@ -1316,7 +1165,7 @@
   {
     "slug": "chiangmai-ram-hospital",
     "name": "Chiangmai Ram Hospital",
-    "name_ja": null,
+    "name_ja": "Chiangmai Ram Hospital",
     "area": "Chiang Mai",
     "address": "ตําบล ศรีภูมิ 8 Thanon Bunrueang Rit, Tambon Su Thep, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200, Thailand",
     "lat": 18.7948,
@@ -1339,7 +1188,7 @@
   {
     "slug": "rajavej-chiang-mai-hospital",
     "name": "Rajavej Chiang Mai Hospital",
-    "name_ja": null,
+    "name_ja": "Rajavej Chiang Mai Hospital",
     "area": "Chiang Mai",
     "address": "316/1 Thanon Chiang Mai-Lamphun, Tambon Wat Ket, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50000, Thailand",
     "lat": 18.7669,
@@ -1385,7 +1234,7 @@
   {
     "slug": "chiang-mai-wellness-clinic",
     "name": "Chiang Mai Wellness Clinic",
-    "name_ja": null,
+    "name_ja": "Chiang Mai Wellness Clinic",
     "area": "Chiang Mai",
     "address": "429/2 Wichayanon Rd, Tambon Chang Moi, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50300, Thailand",
     "lat": 18.7947,
@@ -1408,7 +1257,7 @@
   {
     "slug": "cm-mediclinic",
     "name": "CM Mediclinic",
-    "name_ja": null,
+    "name_ja": "CM Mediclinic",
     "area": "Chiang Mai",
     "address": "155 28 หมู่ที่ 2 Jed Yod-Yu Yen Soi 10, Tambon Chang Phueak, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50300, Thailand",
     "lat": 18.811,
@@ -1431,7 +1280,7 @@
   {
     "slug": "dr-artima-medical-clinic",
     "name": "Dr. Artima Medical Clinic",
-    "name_ja": null,
+    "name_ja": "Dr. Artima Medical Clinic",
     "area": "Chiang Mai",
     "address": "500/6 Bizpoint 10 Chonpratan Rd, ตำบล แม่เหียะ อำเภอเมืองเชียงใหม่ เชียงใหม่ 50100, Thailand",
     "lat": 18.7514,
@@ -1454,7 +1303,7 @@
   {
     "slug": "yandb-dental-clinic",
     "name": "Y&B Dental Clinic",
-    "name_ja": null,
+    "name_ja": "Y&B Dental Clinic",
     "area": "Chiang Mai",
     "address": "8 ซอย3ข Tambon Su Thep, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200, Thailand",
     "lat": 18.805,
@@ -1477,7 +1326,7 @@
   {
     "slug": "rin-japanese-izakaya",
     "name": "Rin Japanese Izakaya",
-    "name_ja": null,
+    "name_ja": "Rin Japanese Izakaya",
     "area": "Chiang Mai",
     "address": "158/1, 158/2 Lampang - Chiang Mai Superhighway, Tambon Pa Tan, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50300, Thailand",
     "lat": 18.8113,
@@ -1498,32 +1347,9 @@
     "ai_reviewed": true
   },
   {
-    "slug": "international-health-care-clinic",
-    "name": "International Health Care Clinic",
-    "name_ja": null,
-    "area": "Chiang Mai",
-    "address": "Japan, 〒105-0004 Tokyo, Minato City, Shinbashi, 2-chōme−10−５ 末吉ビル 3F",
-    "lat": 35.667,
-    "lng": 139.7557,
-    "phone": "+81335011330",
-    "website": "https://www.ihc-clinic.jp/en/",
-    "description": "チェンマイにあるクリニック。日本人患者の受診に対応し、日本語でのコミュニケーションが可能。",
-    "tags": [
-      "クリニック",
-      "日本語対応"
-    ],
-    "hours": "Monday: 10:00 AM – 1:00 PM, 3:30 – 6:30 PM / Tuesday: 10:00 AM – 1:00 PM, 3:30 – 6:30 PM / Wednesday: 10:00 AM – 1:00 PM, 3:30 – 6:30 PM / Thursday: 10:00 AM – 1:00 PM, 3:30 – 6:30 PM / Friday: 10:00 AM – 1:00 PM, 3:30 – 6:30 PM / Saturday: Closed / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJPcKml-uLGGARB2S_YVCnEF4",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
     "slug": "i-luv-sushi-cnx",
     "name": "I Luv Sushi CNX",
-    "name_ja": null,
+    "name_ja": "I Luv Sushi CNX",
     "area": "Chiang Mai",
     "address": "109/1-3 Bumrungraj Rd, Mueang, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50000, Thailand",
     "lat": 18.7955,
@@ -1544,32 +1370,9 @@
     "ai_reviewed": true
   },
   {
-    "slug": "japanese-medical-care-j-medical-manhattan",
-    "name": "Japanese Medical Care (J medical) Manhattan ジャパニーズメディカルケア -マンハッタン本院-",
-    "name_ja": "Japanese Medical Care (J medical) Manhattan ジャパニーズメディカルケア -マンハッタン本院",
-    "area": "Chiang Mai",
-    "address": "315 Madison Ave 17th floor, New York, NY 10017, USA",
-    "lat": 40.7525,
-    "lng": -73.9791,
-    "phone": "+12123655066",
-    "website": "http://www.jmedical.com/",
-    "description": "チェンマイにあるクリニック。日本人患者の受診に対応し、日本語でのコミュニケーションが可能。",
-    "tags": [
-      "クリニック",
-      "日本語対応"
-    ],
-    "hours": "Monday: 9:00 AM – 5:00 PM / Tuesday: 9:00 AM – 5:00 PM / Wednesday: 9:00 AM – 5:00 PM / Thursday: 9:00 AM – 5:00 PM / Friday: 9:00 AM – 5:00 PM / Saturday: 9:00 AM – 3:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJe9T4pAFZwokRjtdnyiGLIRc",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
     "slug": "ootoya",
     "name": "Ootoya รพ.กรุงเทพ เชียงใหม่",
-    "name_ja": null,
+    "name_ja": "Ootoya รพ.กรุงเทพ เชียงใหม่",
     "area": "Chiang Mai",
     "address": "โรงพยาบาลกรุงเทพ Q2QG+6G6 อาคารบางกอกพลาซ่า Tambon Nong Pa Khrang, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50000, Thailand",
     "lat": 18.788,
@@ -1592,7 +1395,7 @@
   {
     "slug": "matsu-japanese-restaurant",
     "name": "Matsu Japanese Restaurant",
-    "name_ja": null,
+    "name_ja": "Matsu Japanese Restaurant",
     "area": "Chiang Mai",
     "address": "QXWJ+2PG, Singharat Rd, Tambon Si Phum, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200, Thailand",
     "lat": 18.7951,
@@ -1615,7 +1418,7 @@
   {
     "slug": "kin-japanese-restaurant",
     "name": "KIN Japanese Restaurant คินร้านอาหารญี่ปุ่น",
-    "name_ja": null,
+    "name_ja": "KIN Japanese Restaurant คินร้านอาหารญี่ปุ่น",
     "area": "Chiang Mai",
     "address": "33 Suthep Rd, Tambon Su Thep, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200, Thailand",
     "lat": 18.7889,
@@ -1636,55 +1439,9 @@
     "ai_reviewed": true
   },
   {
-    "slug": "mount-sinai-doctors-japanese-medical-practice",
-    "name": "Mount Sinai Doctors Japanese Medical Practice 東京海上記念診療所 – マンハッタン オフィス",
-    "name_ja": "東京海上記念診療所 マンハッタンオフィス",
-    "area": "Chiang Mai",
-    "address": "55 E 34th St 2nd floor, New York, NY 10016, USA",
-    "lat": 40.7477,
-    "lng": -73.9818,
-    "phone": "+12128892119",
-    "website": "https://www.mountsinai.org/locations/msd-japanese-medical-practice?utm_source=Yext&utm_medium=local_listing&utm_campaign=MSDJMP&y_source=1_ODQ2NjM5NS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
-    "description": "チェンマイにあるクリニック。日本人患者の受診に対応し、日本語でのコミュニケーションが可能。",
-    "tags": [
-      "クリニック",
-      "日本語対応"
-    ],
-    "hours": "Monday: 8:00 AM – 4:00 PM / Tuesday: 8:00 AM – 4:00 PM / Wednesday: 8:00 AM – 4:00 PM / Thursday: 8:00 AM – 4:00 PM / Friday: 8:00 AM – 4:00 PM / Saturday: Closed / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJSQ6W_EBZwokRrNSupnYb6UM",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "tokyo-station-international-clinic",
-    "name": "Tokyo Station International Clinic",
-    "name_ja": null,
-    "area": "Chiang Mai",
-    "address": "Japan, 〒100-0005 Tokyo, Chiyoda City, Marunouchi, 1-chōme−9−１ グランルーフ 1F",
-    "lat": 35.6791,
-    "lng": 139.7677,
-    "phone": "+81362063070",
-    "website": "https://www.international-clinic.tokyo/",
-    "description": "チェンマイにあるクリニック。日本人患者の受診に対応し、日本語でのコミュニケーションが可能。",
-    "tags": [
-      "クリニック",
-      "日本語対応"
-    ],
-    "hours": "Monday: 9:00 AM – 9:00 PM / Tuesday: 9:00 AM – 9:00 PM / Wednesday: 9:00 AM – 9:00 PM / Thursday: 9:00 AM – 9:00 PM / Friday: 9:00 AM – 9:00 PM / Saturday: 9:00 AM – 9:00 PM / Sunday: 9:00 AM – 9:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJ5y-q0vWLGGAR-NGaoXDiC-g",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
     "slug": "soyeon-clinic",
     "name": "โซยอนคลินิก Soyeon Clinic",
-    "name_ja": null,
+    "name_ja": "โซยอนคลินิก Soyeon Clinic",
     "area": "Chiang Mai",
     "address": "24 Theparak road, Tambon Chang Phueak, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50300, Thailand",
     "lat": 18.8039,
@@ -1707,7 +1464,7 @@
   {
     "slug": "natavuth-clinic",
     "name": "คลินิกหมอณัทวุฒิ เชียงใหม่ Natavuth clinic",
-    "name_ja": null,
+    "name_ja": "คลินิกหมอณัทวุฒิ เชียงใหม่ Natavuth clinic",
     "area": "Chiang Mai",
     "address": "46 ถ.หน้าวัดเกต, Tambon Wat Ket, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50000, Thailand",
     "lat": 18.7931,
@@ -1730,7 +1487,7 @@
   {
     "slug": "drt-dr-thun-clinic",
     "name": "DRT Dr.Thun Clinic",
-    "name_ja": null,
+    "name_ja": "DRT Dr.Thun Clinic",
     "area": "Chiang Mai",
     "address": "10/8-9 Lampang - Chiang Mai Superhighway, Tambon Wat Ket, เมือง Chang Wat Chiang Mai 50000, Thailand",
     "lat": 18.8001,
@@ -1747,29 +1504,6 @@
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ_QlB-A7pmUMRK7xFLOzIQ_k",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "japanese-association-clinic-singapore",
-    "name": "Japanese Association Clinic, Singapore",
-    "name_ja": null,
-    "area": "Chiang Mai",
-    "address": "120 Adam Rd, Singapore 289899",
-    "lat": 1.3305,
-    "lng": 103.8156,
-    "phone": "+6564696488",
-    "website": "http://www.japanese-clinic.com.sg/",
-    "description": "チェンマイにあるクリニック。日本人患者の受診に対応し、日本語でのコミュニケーションが可能。",
-    "tags": [
-      "クリニック",
-      "日本語対応"
-    ],
-    "hours": "Monday: 9:00 AM – 12:00 PM, 2:00 – 5:00 PM / Tuesday: 9:00 AM – 12:00 PM, 2:00 – 5:00 PM / Wednesday: 9:00 AM – 12:30 PM / Thursday: 9:00 AM – 12:00 PM, 2:00 – 5:00 PM / Friday: 9:00 AM – 12:00 PM, 2:00 – 5:00 PM / Saturday: 8:30 AM – 2:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJA8j_XakQ2jERssVIyg8UgjQ",
     "priority": 0,
     "ai_reviewed": true
   },
@@ -1797,32 +1531,9 @@
     "ai_reviewed": true
   },
   {
-    "slug": "japan-green-hospital",
-    "name": "Japan Green Hospital",
-    "name_ja": null,
-    "area": "Chiang Mai",
-    "address": "290 Orchard Rd, # 10-01 Paragon, Singapore 238859",
-    "lat": 1.3043,
-    "lng": 103.836,
-    "phone": "+6567348871",
-    "website": "https://www.japan-green.com.sg/",
-    "description": "チェンマイにあるクリニック。日本人患者の受診に対応し、日本語でのコミュニケーションが可能。",
-    "tags": [
-      "クリニック",
-      "日本語対応"
-    ],
-    "hours": "Monday: 8:30 AM – 12:00 PM, 1:30 – 5:30 PM / Tuesday: 8:30 AM – 12:00 PM, 1:30 – 5:30 PM / Wednesday: 8:30 AM – 12:00 PM, 1:30 – 5:30 PM / Thursday: 8:30 AM – 12:00 PM, 1:30 – 5:30 PM / Friday: 8:30 AM – 12:00 PM, 1:30 – 5:30 PM / Saturday: 8:30 AM – 12:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJVQ5qMpIZ2jERCi22AL-w4mU",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
     "slug": "patong-phuket-medical-clinic",
     "name": "Patong Phuket medical clinic",
-    "name_ja": null,
+    "name_ja": "Patong Phuket medical clinic",
     "area": "Phuket",
     "address": "9 13 ป่าตอง Tambon Kathu, Amphoe Kathu, Chang Wat Phuket 83150, Thailand",
     "lat": 7.8975,
@@ -1845,7 +1556,7 @@
   {
     "slug": "south-patong-medical-clinic",
     "name": "SOUTH PATONG MEDICAL CLINIC",
-    "name_ja": null,
+    "name_ja": "SOUTH PATONG MEDICAL CLINIC",
     "area": "Phuket",
     "address": "60 139 ถนนราษฎร์อุทิศ ป่าตอง Amphoe Kathu, Chang Wat Phuket 83150, Thailand",
     "lat": 7.901,
@@ -1868,7 +1579,7 @@
   {
     "slug": "mhcp-medical-health-clinic-family-care-health-check-ups-and-travel-medicine",
     "name": "MHCP Medical Health Clinic – Family Care, Health Check-ups & Travel Medicine",
-    "name_ja": null,
+    "name_ja": "MHCP Medical Health Clinic – Family Care, Health Check-ups & Travel Medicine",
     "area": "Phuket",
     "address": "58, Cherngtalay, 6 Lagoon Rd, Tambon Choeng Thale, Phuket, Chang Wat Phuket 83110, Thailand",
     "lat": 7.9964,
@@ -1891,7 +1602,7 @@
   {
     "slug": "bodifly-clinic",
     "name": "Bodifly Clinic",
-    "name_ja": null,
+    "name_ja": "Bodifly Clinic",
     "area": "Phuket",
     "address": "157, 7 Nanai Rd, Tambon Patong, Amphoe Kathu, Chang Wat Phuket 83150, Thailand",
     "lat": 7.8846,
@@ -1914,7 +1625,7 @@
   {
     "slug": "takecare-doctor-patong-medical-clinic",
     "name": "Takecare Doctor Patong Medical Clinic",
-    "name_ja": null,
+    "name_ja": "Takecare Doctor Patong Medical Clinic",
     "area": "Phuket",
     "address": "34, 14 Prachanukroh Rd, Tambon Patong, Amphoe Kathu, Chang Wat Phuket 83150, Thailand",
     "lat": 7.8818,
@@ -1937,7 +1648,7 @@
   {
     "slug": "sainamyen-international-clinic-patong",
     "name": "Sainamyen International Clinic : Patong",
-    "name_ja": null,
+    "name_ja": "Sainamyen International Clinic : Patong",
     "area": "Phuket",
     "address": "72/8 Thanon Sainamyen, Tambon Patong, Amphoe Kathu, Chang Wat Phuket 83150, Thailand",
     "lat": 7.897,
@@ -1960,7 +1671,7 @@
   {
     "slug": "dental-design-clinic-phuket-town",
     "name": "Dental Design Clinic Phuket town เด็นทัลดีไซน์คลินิก สาขาเมืองภูเก็ต",
-    "name_ja": null,
+    "name_ja": "Dental Design Clinic Phuket town เด็นทัลดีไซน์คลินิก สาขาเมืองภูเก็ต",
     "area": "Phuket",
     "address": "15, 15 Montri Rd, Tambon Talat Yai, Amphoe Mueang Phuket, Chang Wat Phuket 83000, Thailand",
     "lat": 7.885,
@@ -1983,7 +1694,7 @@
   {
     "slug": "healthplus-medical-clinic-phuket",
     "name": "Healthplus Medical Clinic Phuket",
-    "name_ja": null,
+    "name_ja": "Healthplus Medical Clinic Phuket",
     "area": "Phuket",
     "address": "214 Patak Rd, Tambon Karon, Amphoe Mueang Phuket, Chang Wat Phuket 83100, Thailand",
     "lat": 7.8303,
@@ -2006,7 +1717,7 @@
   {
     "slug": "becare-medical-clinic-kata",
     "name": "BeCare Medical Clinic Kata",
-    "name_ja": null,
+    "name_ja": "BeCare Medical Clinic Kata",
     "area": "Phuket",
     "address": "61 Thanon Kake Kwan, Tambon Karon, Amphoe Mueang Phuket, Chang Wat Phuket 83100, Thailand",
     "lat": 7.8212,
@@ -2029,7 +1740,7 @@
   {
     "slug": "take-care-clinic-doctor-pattaya",
     "name": "Take Care Clinic Doctor Pattaya",
-    "name_ja": null,
+    "name_ja": "Take Care Clinic Doctor Pattaya",
     "area": "Pattaya",
     "address": "9 Thanon Pattaya Tai, Muang Pattaya, Amphoe Bang Lamung, Chang Wat Chon Buri 20150, Thailand",
     "lat": 12.9289,
@@ -2052,7 +1763,7 @@
   {
     "slug": "we-health-medical-technology-clinic-central-pattaya-road",
     "name": "We Health Medical Technology Clinic, Central Pattaya Road",
-    "name_ja": null,
+    "name_ja": "We Health Medical Technology Clinic, Central Pattaya Road",
     "area": "Pattaya",
     "address": "Pattaya City, Bang Lamung District, Chon Buri 20150, Thailand",
     "lat": 12.9345,
@@ -2075,7 +1786,7 @@
   {
     "slug": "la-nitivadee-dermatology-and-aesthetic-laser-center",
     "name": "La Nitivadee Dermatology & Aesthetic Laser Center",
-    "name_ja": null,
+    "name_ja": "La Nitivadee Dermatology & Aesthetic Laser Center",
     "area": "Pattaya",
     "address": "Second floor 262/1 Nautical Inn หมู่ที่ 10 Soi New Pl., Muang Pattaya, Amphoe Bang Lamung, Chang Wat Chon Buri 20150, Thailand",
     "lat": 12.9327,
@@ -2093,12 +1804,12 @@
     "source": "google_maps",
     "place_id": "ChIJNwYF-ZCVAjERC_Whh_-uOUY",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": false
   },
   {
     "slug": "bangkok-hospital-pattaya",
     "name": "Bangkok Hospital Pattaya",
-    "name_ja": null,
+    "name_ja": "Bangkok Hospital Pattaya",
     "area": "Pattaya",
     "address": "301, Sukhumvit Rd, Muang Pattaya, Amphoe Bang Lamung, Chang Wat Chon Buri 20150, Thailand",
     "lat": 12.9538,
@@ -2121,7 +1832,7 @@
   {
     "slug": "tangmo-massage",
     "name": "Tangmo massage",
-    "name_ja": null,
+    "name_ja": "Tangmo massage",
     "area": "Pattaya",
     "address": "WVCG+7FX, Pattaya City, Bang Lamung District, Chon Buri 20150, Thailand",
     "lat": 12.9207,
@@ -2144,7 +1855,7 @@
   {
     "slug": "rosie-clinic",
     "name": "Rosie clinic โรซี่คลินิก สาขาพัทยา",
-    "name_ja": null,
+    "name_ja": "Rosie clinic โรซี่คลินิก สาขาพัทยา",
     "area": "Pattaya",
     "address": "WWR3+PHR, Pattaya City, Bang Lamung District, Chon Buri 20150, Thailand",
     "lat": 12.9419,
@@ -2190,7 +1901,7 @@
   {
     "slug": "pan-clinic",
     "name": "Pan Clinic",
-    "name_ja": null,
+    "name_ja": "Pan Clinic",
     "area": "Pattaya",
     "address": "333/99 หมู่ 9 ตำบล หนองปรือ Muang Pattaya, Amphoe Bang Lamung, Chang Wat Chon Buri 20150, Thailand",
     "lat": 12.9346,
@@ -2213,7 +1924,7 @@
   {
     "slug": "gd-lab",
     "name": "GD LAB",
-    "name_ja": null,
+    "name_ja": "GD LAB",
     "area": "Pattaya",
     "address": "144 99 หมู่ที่ 10 Thappraya Rd, Muang Pattaya, Amphoe Bang Lamung, Chang Wat Chon Buri 20150, Thailand",
     "lat": 12.9193,
@@ -2236,7 +1947,7 @@
   {
     "slug": "pattayarak-health-unit",
     "name": "Pattayarak Health Unit",
-    "name_ja": null,
+    "name_ja": "Pattayarak Health Unit",
     "area": "Pattaya",
     "address": "75 1, Amphoe Bang Lamung, Chang Wat Chon Buri 20150, Thailand",
     "lat": 12.974,
@@ -2259,7 +1970,7 @@
   {
     "slug": "dentalpoint-pattaya",
     "name": "dentalpoint pattaya เด็นทัลพอยท์ คลินิกหมอหลินจัดฟันเหล็ก จัดฟันแบบใส รีเทนเนอร์ ฟันขาว ทำฟัน พัทยา",
-    "name_ja": null,
+    "name_ja": "dentalpoint pattaya เด็นทัลพอยท์ คลินิกหมอหลินจัดฟันเหล็ก จัดฟันแบบใส รีเทนเนอร์ ฟันขาว ทำฟัน พัทยา",
     "area": "Pattaya",
     "address": "153 หมู่9 Soi Paniad Chang 8, Muang Pattaya, Amphoe Bang Lamung, Chang Wat Chon Buri 20150, Thailand",
     "lat": 12.9385,
@@ -2276,52 +1987,6 @@
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJbXZQxvuVAjERzldnosfrmqA",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "nihon-premium-clinic",
-    "name": "Nihon Premium Clinic",
-    "name_ja": null,
-    "area": "Pattaya",
-    "address": "10 Sinaran Dr, #11-12,13,30 Medical Center, Singapore 307506",
-    "lat": 1.3208,
-    "lng": 103.844,
-    "phone": "+6563972002",
-    "website": "http://www.nihonpremiumclinic.com/",
-    "description": "日本人向けのクリニック。日本語での診療に対応。",
-    "tags": [
-      "クリニック",
-      "日本語対応"
-    ],
-    "hours": "Monday: 9:00 AM – 12:30 PM, 2:00 – 6:00 PM / Tuesday: 9:00 AM – 12:30 PM, 2:00 – 6:00 PM / Wednesday: 9:00 AM – 12:30 PM, 2:00 – 6:00 PM / Thursday: 9:00 AM – 12:30 PM, 2:00 – 6:00 PM / Friday: 9:00 AM – 12:30 PM, 2:00 – 6:00 PM / Saturday: 9:00 AM – 12:30 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJtcIBemsZ2jERNiLL5vfZWj0",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "raffles-japanese-clinic",
-    "name": "Raffles Japanese Clinic",
-    "name_ja": "ラッフルズジャパニーズクリニック",
-    "area": "Pattaya",
-    "address": "1 Scotts Rd, #05-06/11 Shaw Centre, Singapore 228208",
-    "lat": 1.3066,
-    "lng": 103.8313,
-    "phone": "+6567386550",
-    "website": "https://www.rafflesj-clinic.com/",
-    "description": "パタヤにあるクリニック。日本人患者の受診に対応し、日本語でのコミュニケーションが可能。",
-    "tags": [
-      "クリニック",
-      "日本語対応"
-    ],
-    "hours": "Monday: 8:45 AM – 12:30 PM, 2:15 – 6:00 PM / Tuesday: 8:45 AM – 12:30 PM, 2:15 – 6:00 PM / Wednesday: 8:45 AM – 12:30 PM, 2:15 – 6:00 PM / Thursday: 8:45 AM – 12:30 PM, 2:15 – 6:00 PM / Friday: 8:45 AM – 12:30 PM, 2:15 – 6:00 PM / Saturday: 8:45 AM – 12:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJJd0_s40Z2jERKmodVTsG3Uw",
     "priority": 0,
     "ai_reviewed": true
   },
@@ -2349,32 +2014,9 @@
     "ai_reviewed": true
   },
   {
-    "slug": "healthway-japanese-medical",
-    "name": "Healthway Japanese Medical",
-    "name_ja": null,
-    "area": "Pattaya",
-    "address": "176 Orchard Rd, #06 - 05, Singapore 238843",
-    "lat": 1.3016,
-    "lng": 103.8398,
-    "phone": "+6567339785",
-    "website": "https://japanese.healthwaymedical.com/?utm_source=GBP&utm_medium=website&utm_campaign=Healthway-Japanese-Medical",
-    "description": "パタヤにあるクリニック。日本人患者の受診に対応し、日本語でのコミュニケーションが可能。",
-    "tags": [
-      "クリニック",
-      "日本語対応"
-    ],
-    "hours": "Monday: 9:00 AM – 1:00 PM, 2:00 – 6:30 PM / Tuesday: 9:00 AM – 1:00 PM, 2:00 – 6:30 PM / Wednesday: 9:00 AM – 1:00 PM, 2:00 – 6:30 PM / Thursday: 9:00 AM – 1:00 PM, 2:00 – 6:30 PM / Friday: 9:00 AM – 1:00 PM, 2:00 – 6:30 PM / Saturday: 9:00 AM – 1:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJcWjD7pAZ2jERfTxt1jBSEUI",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
     "slug": "pattaya-city-dental-center",
     "name": "Pattaya City Dental Center",
-    "name_ja": null,
+    "name_ja": "Pattaya City Dental Center",
     "area": "Pattaya",
     "address": "244/38 หมู่ 9 หนองปรือ Amphoe Bang Lamung, Chang Wat Chon Buri 20150, Thailand",
     "lat": 12.9351,
@@ -2395,32 +2037,9 @@
     "ai_reviewed": true
   },
   {
-    "slug": "nippon-medical-care-gleneagles-hospital",
-    "name": "Nippon Medical Care, Gleneagles Hospital",
-    "name_ja": null,
-    "area": "Pattaya",
-    "address": "6a Napier Road #03-31, Gleneagles Hospital, Annexe Block, Singapore 258500",
-    "lat": 1.3077,
-    "lng": 103.8201,
-    "phone": "+6564747707",
-    "website": "https://www.nipponmedicalcare.com.sg/",
-    "description": "パタヤにあるクリニック。日本人患者の受診に対応し、日本語でのコミュニケーションが可能。",
-    "tags": [
-      "クリニック",
-      "日本語対応"
-    ],
-    "hours": "Monday: 9:00 AM – 12:00 PM, 2:00 – 5:30 PM / Tuesday: 9:00 AM – 12:00 PM, 2:00 – 5:30 PM / Wednesday: 9:00 AM – 12:00 PM, 2:00 – 5:30 PM / Thursday: 9:00 AM – 12:00 PM, 2:00 – 5:30 PM / Friday: 9:00 AM – 12:00 PM, 2:00 – 5:30 PM / Saturday: 9:00 AM – 12:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJaT10PiAa2jERnzcx-aXz1h8",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
     "slug": "yotsuba-dental-crinic",
     "name": "Yotsuba Dental Crinic",
-    "name_ja": null,
+    "name_ja": "Yotsuba Dental Crinic",
     "area": "Pattaya",
     "address": "165/2 GoldenCity Khao Taeng On- Huay Yai Phom Soi 1, Tambon Si Racha, Amphoe Si Racha, Chang Wat Chon Buri 20110, Thailand",
     "lat": 13.1679,
@@ -2443,7 +2062,7 @@
   {
     "slug": "undo-clinic",
     "name": "UNDO CLINIC",
-    "name_ja": null,
+    "name_ja": "UNDO CLINIC",
     "area": "Pattaya",
     "address": "165/107, ตำบล ศรีราชา อำเภอศรีราชา ชลบุรี 20110, Thailand",
     "lat": 13.1675,
@@ -2460,75 +2079,6 @@
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJPeLPYgC3AjERAXaSfi6YOLQ",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "national-medical-clinic",
-    "name": "National Medical Clinic",
-    "name_ja": null,
-    "area": "Pattaya",
-    "address": "Japan, 〒106-0047 Tokyo, Minato City, Minamiazabu, 5-chōme−16−１１−２０２ ラ・ガール ５１６",
-    "lat": 35.6513,
-    "lng": 139.7235,
-    "phone": "+81334732057",
-    "website": "http://www.nmclinic.net/",
-    "description": "パタヤにあるクリニック。日本人患者の受診に対応し、日本語でのコミュニケーションが可能。",
-    "tags": [
-      "クリニック",
-      "日本語対応"
-    ],
-    "hours": "Monday: 9:00 AM – 12:00 PM, 1:30 – 5:00 PM / Tuesday: 9:00 AM – 12:00 PM, 1:30 – 5:00 PM / Wednesday: 9:00 AM – 12:00 PM, 1:30 – 5:00 PM / Thursday: 9:00 AM – 12:00 PM, 1:30 – 5:00 PM / Friday: 9:00 AM – 12:00 PM, 1:30 – 5:00 PM / Saturday: 9:00 AM – 12:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJ09mKw3KLGGARAH2l2TNQU28",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "nippon-medical-clinic",
-    "name": "Nippon Medical Clinic",
-    "name_ja": null,
-    "area": "Pattaya",
-    "address": "2100 Sawtelle Blvd #103, Los Angeles, CA 90025, USA",
-    "lat": 34.0395,
-    "lng": -118.4422,
-    "phone": "+13105754050",
-    "website": "http://nipponmedical.com/",
-    "description": "パタヤにあるクリニック。日本人患者の受診に対応し、日本語でのコミュニケーションが可能。",
-    "tags": [
-      "クリニック",
-      "日本語対応"
-    ],
-    "hours": "Monday: 9:00 AM – 5:00 PM / Tuesday: 9:00 AM – 5:00 PM / Wednesday: 9:00 AM – 5:00 PM / Thursday: 9:00 AM – 5:00 PM / Friday: 9:00 AM – 5:00 PM / Saturday: Closed / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJZZ5MQ3S7woARDullWEpdozo",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "samitivej-sriracha-hospital-2",
-    "name": "Samitivej Sriracha Hospital",
-    "name_ja": null,
-    "area": "Pattaya",
-    "address": "8 Soi Lamkaet, Tambon Si Racha, Amphoe Si Racha, Chang Wat Chon Buri 20110, Thailand",
-    "lat": 13.179,
-    "lng": 100.9289,
-    "phone": "+6638320300",
-    "website": "https://www.samitivejsriracha.com/",
-    "description": "パタヤにあるクリニック。日本人患者の受診に対応し、日本語でのコミュニケーションが可能。",
-    "tags": [
-      "クリニック",
-      "日本語対応"
-    ],
-    "hours": "Monday: Open 24 hours / Tuesday: Open 24 hours / Wednesday: Open 24 hours / Thursday: Open 24 hours / Friday: Open 24 hours / Saturday: Open 24 hours / Sunday: Open 24 hours",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJrzT8Mvq2AjER_sGQUqZ6zBg",
     "priority": 0,
     "ai_reviewed": true
   },
@@ -2552,52 +2102,6 @@
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJKWI3X2uf4jAR1DFd8UIV8CU",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "nihon-clinic",
-    "name": "Nihon Clinic",
-    "name_ja": null,
-    "area": "Pattaya",
-    "address": "2010 S Arlington Heights Rd #101, Arlington Heights, IL 60005, USA",
-    "lat": 42.0483,
-    "lng": -87.9833,
-    "phone": "+18479528910",
-    "website": "http://www.nihonclinic.com/",
-    "description": "パタヤにあるクリニック。日本人患者の受診に対応し、日本語でのコミュニケーションが可能。",
-    "tags": [
-      "クリニック",
-      "日本語対応"
-    ],
-    "hours": "Monday: 9:00 AM – 5:00 PM / Tuesday: 9:00 AM – 5:00 PM / Wednesday: 9:00 AM – 5:00 PM / Thursday: 9:00 AM – 5:00 PM / Friday: 9:00 AM – 5:00 PM / Saturday: 9:00 AM – 1:30 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJsQs_nG-wD4gRL_V7ZYPfP1s",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "new-sunrise-clinic",
-    "name": "New Sunrise Clinic",
-    "name_ja": null,
-    "area": "Pattaya",
-    "address": "2600 W Pico Blvd, Los Angeles, CA 90006, USA",
-    "lat": 34.0471,
-    "lng": -118.2949,
-    "phone": "+12133882722",
-    "website": "http://www.nsrclinic.com/en/",
-    "description": "パタヤにあるクリニック。日本人患者の受診に対応し、日本語でのコミュニケーションが可能。",
-    "tags": [
-      "クリニック",
-      "日本語対応"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJpf4aZ4bHwoARPfqpgz6KYyE",
     "priority": 0,
     "ai_reviewed": true
   },
@@ -2627,7 +2131,7 @@
   {
     "slug": "j-park-sri-racha-nihon-mura",
     "name": "J-Park Sri Racha Nihon Mura",
-    "name_ja": null,
+    "name_ja": "J-Park Sri Racha Nihon Mura",
     "area": "Sriracha",
     "address": "1, 6 Thanon Si Racha-Nong Yai Bu, Tambon Surasak, Amphoe Si Racha, Chang Wat Chon Buri 20110, Thailand",
     "lat": 13.1542,
@@ -2650,7 +2154,7 @@
   {
     "slug": "xing-lin-clinic-sriracha",
     "name": "ซิ่งหลินคลินิก สาขาศรีราชา Xing Lin Clinic@Sriracha",
-    "name_ja": null,
+    "name_ja": "ซิ่งหลินคลินิก สาขาศรีราชา Xing Lin Clinic@Sriracha",
     "area": "Sriracha",
     "address": "88/115 เดอะไนน์ออฟฟิศ ถนน Kao Kilo, Tambon Surasak, Amphoe Si Racha, Chang Wat Chon Buri 20110, Thailand",
     "lat": 13.1338,
@@ -2673,7 +2177,7 @@
   {
     "slug": "sriracha-ikuta-dental-office",
     "name": "sriracha ikuta dental office",
-    "name_ja": null,
+    "name_ja": "sriracha ikuta dental office",
     "area": "Sriracha",
     "address": "222/6 Ataramall Floor 2, Room A 207 Srirachanakorn Rd Tambon Si Racha, Amphoe Si Racha, Chang Wat Chon Buri 20110, Thailand",
     "lat": 13.1682,
