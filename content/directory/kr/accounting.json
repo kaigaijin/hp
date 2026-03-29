@@ -17,7 +17,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "ai_reviewed": true
   },
   {
     "slug": "scs-korea",
@@ -37,7 +38,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "ai_reviewed": true
   },
   {
     "slug": "shk-tax-accounting",
@@ -57,7 +59,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "ai_reviewed": true
   },
   {
     "slug": "kpmg-samjong-korea",
@@ -78,7 +81,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "ai_reviewed": true
   },
   {
     "slug": "induk-accounting-seoul",
@@ -98,7 +102,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "osung-accounting-seoul",
@@ -118,7 +123,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "ohashi-tax-accounting-korea",
@@ -137,7 +143,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "deloitte-korea-japan-desk",
@@ -157,7 +164,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "ey-korea-japan-desk",
@@ -177,102 +185,7 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "nk-tax-japan-korea",
-    "name": "NK Tax International",
-    "name_ja": "NK国際税務",
-    "area": "Online (Japan-Korea)",
-    "address": "Online service (Japan and Korea)",
-    "phone": null,
-    "website": "https://nktax.or.jp/",
-    "description": "日韓の国際税務・相続を専門とする税理士事務所。韓国に資産を持つ日本人や、日本に資産を持つ韓国在住者の税務申告・相続対策に対応。二国間の税制の違いに精通。",
-    "tags": [
-      "日本語対応",
-      "国際税務",
-      "相続",
-      "日韓"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "website",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "",
-    "name": "日本橋国際会計事務所",
-    "name_ja": null,
-    "area": "Seoul",
-    "address": "Japan, 〒103-0027 Tokyo, Chuo City, Nihonbashi, 2-chōme−1−３ Urbannet Nihonbashi 2-Chome Bld., 10階",
-    "lat": 35.6826,
-    "lng": 139.7726,
-    "phone": null,
-    "website": "https://www.n-cpa.com/",
-    "description": "",
-    "tags": [],
-    "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJmcZtgAGLGGARhNqritKx2Es",
-    "priority": 0
-  },
-  {
-    "slug": "dig",
-    "name": "DIG税理士法人",
-    "name_ja": null,
-    "area": "Busan",
-    "address": "Japan, 〒810-0001 Fukuoka, Chuo Ward, Tenjin, 4-chōme−3−３０ 天神ビル新館 2階",
-    "lat": 33.5935,
-    "lng": 130.3989,
-    "phone": "+81924065004",
-    "website": "https://dig-group.co.jp/",
-    "description": "",
-    "tags": [],
-    "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJMZyas8SRQTURADLwcM3meK4",
-    "priority": 0
-  },
-  {
-    "slug": "giip-u-s-japan-accounting-firm-giip",
-    "name": "GIIP U.S.-Japan Accounting Firm (GIIP日米国際会計事務所)",
-    "name_ja": null,
-    "area": "Incheon",
-    "address": "2-4-12 Kudan-minami Terrace 4th floor, Kudanminami Terrace, ２丁目-４ 九段南 千代田区 東京都 102-0074, Japan",
-    "lat": 35.6934,
-    "lng": 139.7443,
-    "phone": "+81365552009",
-    "website": "http://www.giip-global.com/",
-    "description": "",
-    "tags": [],
-    "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJ4SW3RCeNGGAR63BcKD6WOIU",
-    "priority": 0
-  },
-  {
-    "slug": "-2",
-    "name": "みなと国際会計事務所",
-    "name_ja": null,
-    "area": "Incheon",
-    "address": "Japan, 〒101-0062 Tokyo, Chiyoda City, Kanda Surugadai, 3-chōme−４ Ryumeikanhonten Bldg 3F",
-    "lat": 35.6964,
-    "lng": 139.7657,
-    "phone": "+81335257230",
-    "website": "https://minatoacc.com/",
-    "description": "",
-    "tags": [],
-    "hours": "Monday: 9:00 AM – 5:30 PM / Tuesday: 9:00 AM – 5:30 PM / Wednesday: 9:00 AM – 5:30 PM / Thursday: 9:00 AM – 5:30 PM / Friday: 9:00 AM – 5:30 PM / Saturday: Closed / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJVVVZumSMGGARd0AAaooMDuo",
-    "priority": 0
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   }
 ]

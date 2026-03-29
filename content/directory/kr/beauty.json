@@ -16,7 +16,8 @@
     "hours": "10:00〜20:30（火曜定休）",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "ai_reviewed": true
   },
   {
     "slug": "maruni-hair",
@@ -35,7 +36,8 @@
     "hours": "月・火定休",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "ai_reviewed": true
   },
   {
     "slug": "ashdo-hair",
@@ -54,7 +56,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "ai_reviewed": true
   },
   {
     "slug": "tanpopo-hair-hongdae",
@@ -72,7 +75,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "ai_reviewed": true
   },
   {
     "slug": "mezon-de-hair-myeongdong",
@@ -91,7 +95,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-26"
+    "last_verified": "2026-03-26",
+    "ai_reviewed": true
   },
   {
     "slug": "soonsoo-hair-gangnam",
@@ -110,7 +115,8 @@
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "jenny-house-cheongdam",
@@ -129,7 +135,8 @@
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "nalu-hair-seoul",
@@ -148,7 +155,8 @@
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "ichon-japanese-hair-salon",
@@ -167,7 +175,8 @@
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "laka-hair-gangnam",
@@ -186,7 +195,8 @@
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "hayan-beauty-clinic-gangnam",
@@ -205,7 +215,8 @@
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "busker-hair-seoul",
@@ -224,7 +235,8 @@
     "hours": null,
     "status": "unverified",
     "source": "sns",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "noir-hair-hannam",
@@ -243,7 +255,8 @@
     "hours": "11:00〜20:00",
     "status": "unverified",
     "source": "sns",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "rarapm-cheongdam",
@@ -262,7 +275,8 @@
     "hours": "10:00〜18:00（火・水定休）",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "laulea-ray-sinsa",
@@ -281,7 +295,8 @@
     "hours": null,
     "status": "unverified",
     "source": "sns",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "soonsoo-hair-cheongdam",
@@ -300,7 +315,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "juno-hair-hongdae",
@@ -319,7 +335,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "soonsiki-hair-hongdae",
@@ -338,7 +355,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "myeongdong-hairandscalp-salon-hair-the-beau",
@@ -350,109 +368,134 @@
     "lng": 126.9855,
     "phone": "+8223180822",
     "website": "https://www.instagram.com/hairthebeau_myeongdong/",
-    "description": "",
-    "tags": [],
+    "description": "ソウルにあるヘアサロン。カット、カラー、パーマ、トリートメントを提供。外国人対応可能。",
+    "tags": [
+      "ヘアサロン",
+      "外国人対応"
+    ],
     "hours": "Monday: 10:30 AM – 8:30 PM / Tuesday: 10:30 AM – 8:30 PM / Wednesday: 10:30 AM – 8:30 PM / Thursday: 10:30 AM – 8:30 PM / Friday: 10:30 AM – 8:30 PM / Saturday: 10:30 AM – 8:30 PM / Sunday: 10:30 AM – 8:30 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJtQCCAZ-4OgQRv5J6jqGh4sI",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "qquart-hair-apgujeong-rodeo-english-and-japanese-ok",
     "name": "qquart Hair Apgujeong Rodeo｜English & Japanese OK",
-    "name_ja": null,
+    "name_ja": "キュアートヘア 狎鷗亭",
     "area": "Seoul",
     "address": "South Korea, Seoul, Gangnam District, Eonju-ro 172-gil, 60 2층",
     "lat": 37.5268,
     "lng": 127.0386,
     "phone": "+82269566234",
     "website": "https://www.instagram.com/qquart_design",
-    "description": "",
-    "tags": [],
+    "description": "狎鷗亭ロデオにあるヘアサロン「キュアートヘア」。英語・日本語対応。カット、カラー、パーマを提供。",
+    "tags": [
+      "ヘアサロン",
+      "日本語対応",
+      "狎鷗亭"
+    ],
     "hours": "Monday: Closed / Tuesday: 10:00 AM – 9:00 PM / Wednesday: 10:00 AM – 9:00 PM / Thursday: 10:00 AM – 9:00 PM / Friday: 10:00 AM – 9:00 PM / Saturday: 10:00 AM – 9:00 PM / Sunday: 10:00 AM – 7:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJZ7Lk0pmjfDURaEllayiDWkc",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "ava-hair-hannam-yaksu-branch-korean-seoul-hair-salon-ava-hair-ava-hair",
     "name": "AVA HAIR HanNam YakSu Branch | Korean Seoul Hair Salon | AVA HAIR 汉南药水店 | AVA HAIR 漢南藥水店 | 首尔美发店",
-    "name_ja": null,
+    "name_ja": "AVAヘア 漢南薬水店",
     "area": "Seoul",
     "address": "96 3F Dasan-ro, Jung District, Seoul, South Korea",
     "lat": 37.5528,
     "lng": 127.0092,
     "phone": "+82222314500",
     "website": "https://www.koreahairsalon.com/",
-    "description": "",
-    "tags": [],
+    "description": "漢南・薬水にあるヘアサロン「AVAヘア」。外国人向けヘアサロンとして英語・日本語対応。カット、カラー、パーマ、韓国式トリートメントを提供。",
+    "tags": [
+      "ヘアサロン",
+      "外国人対応"
+    ],
     "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJATszWd-jfDURUMAAEJMh6WQ",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "kaijung-hair-salon-yonsei-sinchon-branch-kaijung",
     "name": "kaijung hair salon Yonsei-Sinchon branch | 카이정헤어 연세신촌점 | kaijung秀发 美容院 延世新村商店 | カイジョンヘア 美容室 ヨンセシンチョンストア",
-    "name_ja": null,
+    "name_ja": "カイジョンヘア",
     "area": "Seoul",
     "address": "South Korea, Seoul, Seodaemun-gu, Yonsei-ro 5ga-gil, 1 3층",
     "lat": 37.5571,
     "lng": 126.9361,
     "phone": "+8223360872",
     "website": "https://www.instagram.com/kaijunghair_official_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
-    "description": "",
-    "tags": [],
+    "description": "ソウルにある韓国の人気ヘアサロン「カイジョンヘア」。外国人客も多く受け入れており、英語・日本語での対応が可能な場合がある。カット、カラー、パーマ、トリートメントを提供。",
+    "tags": [
+      "ヘアサロン",
+      "外国人対応"
+    ],
     "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ60koS4eZfDURI8DlGXHyWPI",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "kaijung-hair-salon-mapo-boutique-branch-kaijug-kaijung",
     "name": "kaijung hair salon mapo-boutique branch | 카이정헤어 부띠끄점 | kaijug秀发 美容院 精品店商店 | kaijung秀髮 美容院 精品店商店 | カイジョンヘア 美容室 マポブチクストア",
-    "name_ja": null,
+    "name_ja": "カイジョンヘア",
     "area": "Seoul",
     "address": "20 Donggyo-ro 16-gil, Mapo-gu, Seoul, South Korea",
     "lat": 37.554,
     "lng": 126.9156,
     "phone": "+827077970330",
     "website": "https://www.instagram.com/kaijunghair_official_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
-    "description": "",
-    "tags": [],
+    "description": "ソウルにある韓国の人気ヘアサロン「カイジョンヘア」。外国人客も多く受け入れており、英語・日本語での対応が可能な場合がある。カット、カラー、パーマ、トリートメントを提供。",
+    "tags": [
+      "ヘアサロン",
+      "外国人対応"
+    ],
     "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJuWGzeACZfDURIeaJfkCDKK0",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "kaijung-hair-salon-mapo-seogyo-branch-kaijung-kaijung",
     "name": "kaijung hair salon mapo-Seogyo Branch | 카이정헤어 마포서교점 | kaijung秀发 美容院 麻浦西橋商店 | kaijung秀髮 美容院 麻浦西橋商店 | カイジョンヘア 美容室 麻浦西橋ストア",
-    "name_ja": null,
+    "name_ja": "カイジョンヘア",
     "area": "Seoul",
     "address": "48 Jandari-ro, 서교동 Mapo-gu, Seoul, South Korea",
     "lat": 37.5525,
     "lng": 126.9186,
     "phone": "+8223049055",
     "website": "https://www.instagram.com/kaijunghair_official_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
-    "description": "",
-    "tags": [],
+    "description": "ソウルにある韓国の人気ヘアサロン「カイジョンヘア」。外国人客も多く受け入れており、英語・日本語での対応が可能な場合がある。カット、カラー、パーマ、トリートメントを提供。",
+    "tags": [
+      "ヘアサロン",
+      "外国人対応"
+    ],
     "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJxVda8IGZfDURop-D0IiImuU",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "chop-chophair-gangnam-branch",
@@ -464,14 +507,18 @@
     "lng": 127.0272,
     "phone": "+8225393779",
     "website": "https://m.place.naver.com/hairshop/11887760/home",
-    "description": "",
-    "tags": [],
+    "description": "ソウルにあるヘアサロン。カット、カラー、パーマ、トリートメントを提供。外国人対応可能。",
+    "tags": [
+      "ヘアサロン",
+      "外国人対応"
+    ],
     "hours": "Monday: 11:00 AM – 8:00 PM / Tuesday: 10:30 AM – 8:00 PM / Wednesday: 10:30 AM – 8:00 PM / Thursday: 10:30 AM – 8:00 PM / Friday: 10:30 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:30 AM – 7:30 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJM0hy-cKhfDURsJdr4GecXpc",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "val-u-skin-clinic-myeongdong-english-chinese-japanese-support-cosmetic-dermatolo",
@@ -483,33 +530,40 @@
     "lng": 126.9842,
     "phone": "+82220397431",
     "website": "https://en.valu-clinic.kr/",
-    "description": "",
-    "tags": [],
+    "description": "ソウルにある美容サロン。ヘアカット、カラーリング、スキンケアなどを提供。",
+    "tags": [
+      "美容サロン"
+    ],
     "hours": "Monday: 10:30 AM – 8:30 PM / Tuesday: 10:30 AM – 8:30 PM / Wednesday: 10:30 AM – 8:30 PM / Thursday: 10:30 AM – 8:30 PM / Friday: 10:30 AM – 8:30 PM / Saturday: 10:00 AM – 5:00 PM / Sunday: 10:00 AM – 5:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJuU1nLgCjfDURksZ6ISlrBcY",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "kaijunghair-salon-hongdae-sangsu-stationstore-kaijung",
     "name": "kaijunghair salon Hongdae-Sangsu Stationstore | 카이정헤어 홍대상수역점 | kaijung秀发 美容院 弘大上水站商店 | カイジョンヘア 美容室 ホンデサンスゥえき ストア",
-    "name_ja": null,
+    "name_ja": "カイジョンヘア",
     "area": "Seoul",
     "address": "35 Eoulmadang-ro, Mapo-gu, Seoul, South Korea",
     "lat": 37.5485,
     "lng": 126.9201,
     "phone": "+827088706340",
     "website": "https://www.instagram.com/kaijunghair_official_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
-    "description": "",
-    "tags": [],
+    "description": "ソウルにある韓国の人気ヘアサロン「カイジョンヘア」。外国人客も多く受け入れており、英語・日本語での対応が可能な場合がある。カット、カラー、パーマ、トリートメントを提供。",
+    "tags": [
+      "ヘアサロン",
+      "外国人対応"
+    ],
     "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJzU-zKACZfDURWBjjahJuKjc",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "ppeum-global",
@@ -521,14 +575,17 @@
     "lng": 126.9827,
     "phone": null,
     "website": "https://global.ppeum16.com/?lan=global_ch&mode=pc",
-    "description": "",
-    "tags": [],
+    "description": "ソウルにある美容サロン。ヘアカット、カラーリング、スキンケアなどを提供。",
+    "tags": [
+      "美容サロン"
+    ],
     "hours": "Monday: 10:00 AM – 9:00 PM / Tuesday: 10:00 AM – 7:00 PM / Wednesday: 10:00 AM – 7:00 PM / Thursday: 10:00 AM – 7:00 PM / Friday: 10:00 AM – 9:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ14xPUgCjfDUR3I3UcCBwIYA",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "leekaja-sukdae-korea-hair-salon-near-me-hair-perm-color-dyeing-treatment-head-sp",
@@ -540,52 +597,41 @@
     "lng": 126.9689,
     "phone": "+8227158852",
     "website": "https://www.instagram.com/m.roy_leekajasukdae/",
-    "description": "",
-    "tags": [],
+    "description": "ソウルにあるヘアサロン。カット、カラー、パーマ、トリートメントを提供。外国人対応可能。",
+    "tags": [
+      "ヘアサロン",
+      "外国人対応"
+    ],
     "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJyQ7IrICjfDURpOU8mx_xui0",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "kaijung-hair-salon-mapo-gongdeok-station-branch-kaijung",
     "name": "Kaijung hair salon Mapo-Gongdeok Station Branch | 카이정헤어 마포공덕역점 | kaijung秀发 美容院 麻浦孔德站商店 | カイジョンヘア 美容室 マポコンドクえき ストア",
-    "name_ja": null,
+    "name_ja": "カイジョンヘア",
     "area": "Seoul",
     "address": "109 Mapo-daero, Mapo-gu, Seoul, South Korea",
     "lat": 37.5449,
     "lng": 126.9506,
     "phone": "+8227110126",
     "website": null,
-    "description": "",
-    "tags": [],
+    "description": "ソウルにある韓国の人気ヘアサロン「カイジョンヘア」。外国人客も多く受け入れており、英語・日本語での対応が可能な場合がある。カット、カラー、パーマ、トリートメントを提供。",
+    "tags": [
+      "ヘアサロン",
+      "外国人対応"
+    ],
     "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJi-BrDJOZfDURrXu3HJXxL8I",
-    "priority": 0
-  },
-  {
-    "slug": "-4",
-    "name": "プムクリニック",
-    "name_ja": null,
-    "area": "Seoul",
-    "address": "South Korea, 서울특별시 중구 3~5층",
-    "lat": 37.5645,
-    "lng": 126.9828,
-    "phone": null,
-    "website": "http://ppeumjp.com/",
-    "description": "",
-    "tags": [],
-    "hours": "Monday: 10:00 AM – 9:00 PM / Tuesday: 11:00 AM – 7:00 PM / Wednesday: 11:00 AM – 7:00 PM / Thursday: 11:00 AM – 7:00 PM / Friday: 11:00 AM – 9:00 PM / Saturday: 11:00 AM – 5:00 PM / Sunday: 10:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJI_rFkyejfDURu4pbuhjG2D4",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "hair-salon-alittlebit-alittlebit",
@@ -597,14 +643,18 @@
     "lng": 126.9161,
     "phone": "+8223357733",
     "website": "https://naver.me/5r9zPdXN",
-    "description": "",
-    "tags": [],
+    "description": "ソウルにあるヘアサロン。カット、カラー、パーマ、トリートメントを提供。外国人対応可能。",
+    "tags": [
+      "ヘアサロン",
+      "外国人対応"
+    ],
     "hours": "Monday: 11:00 AM – 9:00 PM / Tuesday: 11:00 AM – 9:00 PM / Wednesday: 11:00 AM – 9:00 PM / Thursday: 11:00 AM – 9:00 PM / Friday: 11:00 AM – 9:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJD53EScGZfDURIr5xyEl3wPw",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "avenue-juno-hair-salon-seoul-hair-salon-beauty-salon-seoul-juno-hair",
@@ -616,14 +666,18 @@
     "lng": 126.9283,
     "phone": "+82232770303",
     "website": "https://map.naver.com/p/entry/place/1461002253?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202506251407&locale=ko&svcName=map_pcv5",
-    "description": "",
-    "tags": [],
+    "description": "ソウルにあるヘアサロン。カット、カラー、パーマ、トリートメントを提供。外国人対応可能。",
+    "tags": [
+      "ヘアサロン",
+      "外国人対応"
+    ],
     "hours": "Monday: 10:30 AM – 8:00 PM / Tuesday: 10:30 AM – 8:00 PM / Wednesday: 10:30 AM – 8:00 PM / Thursday: 10:30 AM – 8:00 PM / Friday: 10:30 AM – 8:30 PM / Saturday: 10:30 AM – 8:30 PM / Sunday: 10:30 AM – 8:30 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ38H96SmffDURowUx6PDoy-k",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "lowe-black-seongsu-hair-salon-beauty-head-spa",
@@ -635,14 +689,18 @@
     "lng": 127.0543,
     "phone": "+8250714314335",
     "website": "https://www.instagram.com/lowe.hair/",
-    "description": "",
-    "tags": [],
+    "description": "ソウルにあるヘアサロン。カット、カラー、パーマ、トリートメントを提供。外国人対応可能。",
+    "tags": [
+      "ヘアサロン",
+      "外国人対応"
+    ],
     "hours": "Monday: Closed / Tuesday: 10:30 AM – 8:00 PM / Wednesday: 10:30 AM – 8:00 PM / Thursday: 10:30 AM – 8:00 PM / Friday: 10:30 AM – 8:00 PM / Saturday: 10:30 AM – 8:00 PM / Sunday: 10:30 AM – 8:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJj2UI0EmlfDURveoLDIDPA-M",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "threewishes-myeondong-branch",
@@ -654,14 +712,17 @@
     "lng": 126.986,
     "phone": "+8227782500",
     "website": null,
-    "description": "",
-    "tags": [],
+    "description": "ソウルにある美容サロン。ヘアカット、カラーリング、スキンケアなどを提供。",
+    "tags": [
+      "美容サロン"
+    ],
     "hours": "Monday: 10:00 AM – 7:00 PM / Tuesday: 10:00 AM – 7:00 PM / Wednesday: 10:00 AM – 7:00 PM / Thursday: 10:00 AM – 7:00 PM / Friday: 10:00 AM – 7:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJmUeFyNmjfDUR26vDZe_eAZM",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "uart-hair-salon",
@@ -673,14 +734,18 @@
     "lng": 126.9244,
     "phone": "+821098692136",
     "website": "https://www.instagram.com/uat_hair_official/profilecard/?igsh=NTB6dWk5cmt6ajNp",
-    "description": "",
-    "tags": [],
+    "description": "ソウルにあるヘアサロン。カット、カラー、パーマ、トリートメントを提供。外国人対応可能。",
+    "tags": [
+      "ヘアサロン",
+      "外国人対応"
+    ],
     "hours": "Monday: 9:30 AM – 8:00 PM / Tuesday: 9:30 AM – 8:00 PM / Wednesday: 9:30 AM – 8:00 PM / Thursday: 9:30 AM – 8:00 PM / Friday: 9:30 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJtVNQOwCZfDURWmiY0eqa9Fo",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "topbrows",
@@ -692,14 +757,17 @@
     "lng": 126.9848,
     "phone": "+821097578100",
     "website": "https://reservia.jp/shop/reserve/e65217bbe6",
-    "description": "",
-    "tags": [],
+    "description": "ソウルにある美容サロン。ヘアカット、カラーリング、スキンケアなどを提供。",
+    "tags": [
+      "美容サロン"
+    ],
     "hours": "Monday: 10:00 AM – 8:30 PM / Tuesday: 10:00 AM – 8:30 PM / Wednesday: 10:00 AM – 8:30 PM / Thursday: 10:00 AM – 8:30 PM / Friday: 10:00 AM – 8:30 PM / Saturday: 10:00 AM – 8:30 PM / Sunday: 10:00 AM – 8:30 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJbYjtrtajfDURRL1MaCRzAj4",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "kanu-hair-shop",
@@ -711,14 +779,18 @@
     "lng": 126.9371,
     "phone": "+821074338746",
     "website": "https://m.place.naver.com/hairshop/1175554014?entry=plt",
-    "description": "",
-    "tags": [],
+    "description": "ソウルにあるヘアサロン。カット、カラー、パーマ、トリートメントを提供。外国人対応可能。",
+    "tags": [
+      "ヘアサロン",
+      "外国人対応"
+    ],
     "hours": "Monday: Closed / Tuesday: 11:00 AM – 8:00 PM / Wednesday: 11:00 AM – 8:00 PM / Thursday: 11:00 AM – 8:00 PM / Friday: 11:00 AM – 8:00 PM / Saturday: 11:00 AM – 8:00 PM / Sunday: 11:00 AM – 6:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ35alMeKZfDURdgMv7npzMdE",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "chahongroom-apgujeong",
@@ -730,33 +802,17 @@
     "lng": 127.037,
     "phone": "+82234446780",
     "website": "https://www.instagram.com/chahong_room/profilecard/?igsh=MThlYmM3eWV3eGJocA==",
-    "description": "",
-    "tags": [],
+    "description": "ソウルにある美容サロン。ヘアカット、カラーリング、スキンケアなどを提供。",
+    "tags": [
+      "美容サロン"
+    ],
     "hours": "Monday: 10:00 AM – 7:00 PM / Tuesday: 10:00 AM – 7:00 PM / Wednesday: 10:00 AM – 7:00 PM / Thursday: 10:00 AM – 7:00 PM / Friday: 10:00 AM – 7:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJU1xnUYajfDUR8HywJUat-yw",
-    "priority": 0
-  },
-  {
-    "slug": "assort-tokyo",
-    "name": "Assort Tokyo",
-    "name_ja": null,
-    "area": "Seoul",
-    "address": "Japan, 〒107-0061 Tokyo, Minato City, Kitaaoyama, 2-chōme−10−２８ リヘイビル B1F",
-    "lat": 35.672,
-    "lng": 139.7147,
-    "phone": "+81357726461",
-    "website": "https://jp.assort-hair.com/",
-    "description": "",
-    "tags": [],
-    "hours": "Monday: 10:00 AM – 6:00 PM / Tuesday: 10:00 AM – 6:00 PM / Wednesday: 10:00 AM – 6:00 PM / Thursday: 10:00 AM – 6:00 PM / Friday: 10:00 AM – 6:00 PM / Saturday: 10:00 AM – 6:00 PM / Sunday: 10:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJP6IDBpmMGGARFkhpIZ9ypGI",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "covo-hair-salon-tanjong-pagar-singapore-hair-salon",
@@ -768,14 +824,18 @@
     "lng": 103.8435,
     "phone": "+6569099589",
     "website": "https://www.covosg.com/",
-    "description": "",
-    "tags": [],
+    "description": "ソウルにあるヘアサロン。カット、カラー、パーマ、トリートメントを提供。外国人対応可能。",
+    "tags": [
+      "ヘアサロン",
+      "外国人対応"
+    ],
     "hours": "Monday: 9:00 AM – 8:00 PM / Tuesday: 9:00 AM – 8:00 PM / Wednesday: 9:00 AM – 8:00 PM / Thursday: 9:00 AM – 8:00 PM / Friday: 9:00 AM – 8:00 PM / Saturday: 9:00 AM – 7:00 PM / Sunday: 9:00 AM – 7:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJmZR3atYZ2jERlB8MB-5w-x0",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "midoris-japanese-hair-salon",
@@ -787,14 +847,18 @@
     "lng": 103.8439,
     "phone": "+6563582900",
     "website": "https://www.facebook.com/bellezademidorisg/",
-    "description": "",
-    "tags": [],
+    "description": "ソウルにあるヘアサロン。カット、カラー、パーマ、トリートメントを提供。外国人対応可能。",
+    "tags": [
+      "ヘアサロン",
+      "外国人対応"
+    ],
     "hours": "Monday: 10:00 AM – 7:00 PM / Tuesday: 10:00 AM – 7:00 PM / Wednesday: 10:00 AM – 7:00 PM / Thursday: 10:00 AM – 7:00 PM / Friday: 10:00 AM – 7:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 11:00 AM – 6:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJnzw-g-cZ2jERT7vi4P1M27Y",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "cloover-hair",
@@ -806,14 +870,18 @@
     "lng": 121.5665,
     "phone": "+886227766735",
     "website": "https://www.cloover-hair.com/",
-    "description": "",
-    "tags": [],
+    "description": "ソウルにあるヘアサロン。カット、カラー、パーマ、トリートメントを提供。外国人対応可能。",
+    "tags": [
+      "ヘアサロン",
+      "外国人対応"
+    ],
     "hours": "Monday: 11:00 AM – 8:00 PM / Tuesday: Closed / Wednesday: 11:00 AM – 8:00 PM / Thursday: 11:00 AM – 8:00 PM / Friday: 11:00 AM – 8:00 PM / Saturday: 11:00 AM – 8:00 PM / Sunday: 10:00 AM – 7:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJFync4NqrQjQR14rJu2bMZDM",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "diony",
@@ -825,52 +893,17 @@
     "lng": 127.0384,
     "phone": "+82260801014",
     "website": "https://dionybeauty.com/",
-    "description": "",
-    "tags": [],
+    "description": "ソウルにある美容サロン。ヘアカット、カラーリング、スキンケアなどを提供。",
+    "tags": [
+      "美容サロン"
+    ],
     "hours": "Monday: 9:00 AM – 7:00 PM / Tuesday: 9:00 AM – 7:00 PM / Wednesday: 9:00 AM – 7:00 PM / Thursday: 9:00 AM – 7:00 PM / Friday: 9:00 AM – 7:00 PM / Saturday: 9:00 AM – 7:00 PM / Sunday: 9:00 AM – 7:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJyZFnbwCjfDUROCzzSa_WLdQ",
-    "priority": 0
-  },
-  {
-    "slug": "peek-a-boo-aoyama",
-    "name": "PEEK-A-BOO Aoyama",
-    "name_ja": null,
-    "area": "Seoul",
-    "address": "Japan, 〒150-0001 Tokyo, Shibuya, Jingūmae, 4-chōme−4−１２ 第一唐沢ビル １F・２F",
-    "lat": 35.6674,
-    "lng": 139.7113,
-    "phone": "+81369105187",
-    "website": "http://www.peek-a-boo.co.jp/salon/aoyama/",
-    "description": "",
-    "tags": [],
-    "hours": "Monday: Closed / Tuesday: 10:00 AM – 7:00 PM / Wednesday: 10:00 AM – 7:00 PM / Thursday: 10:00 AM – 7:00 PM / Friday: 10:00 AM – 7:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJlfgS95-MGGARpArr180yRKI",
-    "priority": 0
-  },
-  {
-    "slug": "coa-ginza",
-    "name": "COA GINZA",
-    "name_ja": null,
-    "area": "Seoul",
-    "address": "Japan, 〒104-0061 Tokyo, Chuo City, Ginza, 6-chōme−13−９ girac ginza7階",
-    "lat": 35.6686,
-    "lng": 139.7645,
-    "phone": "+81362641369",
-    "website": "https://beauty.hotpepper.jp/slnH000543596/",
-    "description": "",
-    "tags": [],
-    "hours": "Monday: Closed / Tuesday: 10:00 AM – 7:00 PM / Wednesday: 12:00 – 9:00 PM / Thursday: 10:00 AM – 7:00 PM / Friday: 12:00 – 9:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJeUocbmyLGGARNKymliRsh1w",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "hongdae-hair-salon-hair-the-beau-hongdae",
@@ -882,33 +915,18 @@
     "lng": 126.9241,
     "phone": "+8223323107",
     "website": "https://www.fresha.com/book-now/hair-the-beau-hong-dae-azu5vxjq/all-offer?share=true&pId=2830244",
-    "description": "",
-    "tags": [],
+    "description": "ソウルにあるヘアサロン。カット、カラー、パーマ、トリートメントを提供。外国人対応可能。",
+    "tags": [
+      "ヘアサロン",
+      "外国人対応"
+    ],
     "hours": "Monday: 11:00 AM – 9:00 PM / Tuesday: 11:00 AM – 9:00 PM / Wednesday: 11:00 AM – 9:00 PM / Thursday: 11:00 AM – 9:00 PM / Friday: 11:00 AM – 9:00 PM / Saturday: 11:00 AM – 8:00 PM / Sunday: 11:00 AM – 8:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJO2uaHsuZfDUR5hwoCoL7zCo",
-    "priority": 0
-  },
-  {
-    "slug": "belo-osaka-smoothing-treatment-japanese-hair-straightening-english-ok",
-    "name": "BELO OSAKA Smoothing Treatment,Japanese Hair Straightening (ENGLISH OK))",
-    "name_ja": null,
-    "area": "Seoul",
-    "address": "5-chōme-1-5 Fukushima, Fukushima Ward, Osaka, 553-0003, Japan",
-    "lat": 34.6967,
-    "lng": 135.4895,
-    "phone": "+81664427373",
-    "website": "https://linktr.ee/belo_osaka2025",
-    "description": "",
-    "tags": [],
-    "hours": "Monday: Closed / Tuesday: 11:00 AM – 7:30 PM / Wednesday: 11:00 AM – 7:30 PM / Thursday: 11:00 AM – 7:30 PM / Friday: 11:00 AM – 7:30 PM / Saturday: 11:00 AM – 7:30 PM / Sunday: 11:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJf4d-vAnnAGARahPR9WhbHnM",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "relax-hair",
@@ -920,14 +938,18 @@
     "lng": 121.5512,
     "phone": "+886225450656",
     "website": "https://www.relaxhair-tw.com/",
-    "description": "",
-    "tags": [],
+    "description": "ソウルにあるヘアサロン。カット、カラー、パーマ、トリートメントを提供。外国人対応可能。",
+    "tags": [
+      "ヘアサロン",
+      "外国人対応"
+    ],
     "hours": "Monday: 11:00 AM – 8:00 PM / Tuesday: Closed / Wednesday: 11:00 AM – 8:00 PM / Thursday: 11:00 AM – 8:00 PM / Friday: 11:00 AM – 8:00 PM / Saturday: 11:00 AM – 8:00 PM / Sunday: 10:00 AM – 7:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ2yi3Ae-rQjQRCLgp2r2sTNI",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "sinchon-hair-salon-apeak-hair-apeak-hair-korean-seoul-hair-salon-sinchon",
@@ -939,33 +961,18 @@
     "lng": 126.9357,
     "phone": "+821029517793",
     "website": "https://naver.me/FBwUrby6",
-    "description": "",
-    "tags": [],
+    "description": "ソウルにあるヘアサロン。カット、カラー、パーマ、トリートメントを提供。外国人対応可能。",
+    "tags": [
+      "ヘアサロン",
+      "外国人対応"
+    ],
     "hours": "Monday: 10:30 AM – 8:30 PM / Tuesday: 10:30 AM – 8:30 PM / Wednesday: 10:30 AM – 8:30 PM / Thursday: 10:30 AM – 8:30 PM / Friday: 10:30 AM – 8:30 PM / Saturday: 10:30 AM – 8:30 PM / Sunday: 10:30 AM – 8:30 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ9QzF746ZfDURjXpWvfqlNYU",
-    "priority": 0
-  },
-  {
-    "slug": "ii-u",
-    "name": "ii+U【アイユー】",
-    "name_ja": null,
-    "area": "Seoul",
-    "address": "Japan, 〒104-0061 Tokyo, Chuo City, Ginza, 3-chōme−8−１ 銀座ＮＭビル 2F",
-    "lat": 35.6721,
-    "lng": 139.7679,
-    "phone": "+81335286826",
-    "website": "https://beauty.hotpepper.jp/slnH000578125/",
-    "description": "",
-    "tags": [],
-    "hours": "Monday: Closed / Tuesday: 12:00 – 9:00 PM / Wednesday: 12:00 – 9:00 PM / Thursday: 11:00 AM – 8:00 PM / Friday: 1:00 – 9:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJxVMdKPKLGGARw6pgsbwHkJA",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "weneed-hair-studio-lotte",
@@ -977,52 +984,18 @@
     "lng": 129.0545,
     "phone": "+82518169909",
     "website": "https://www.instagram.com/weneed_lotte",
-    "description": "",
-    "tags": [],
+    "description": "釜山にあるヘアサロン。カット、カラー、パーマ、トリートメントを提供。外国人対応可能。",
+    "tags": [
+      "ヘアサロン",
+      "外国人対応"
+    ],
     "hours": "Monday: 10:00 AM – 9:00 PM / Tuesday: 10:00 AM – 9:00 PM / Wednesday: 10:00 AM – 9:00 PM / Thursday: 10:00 AM – 9:00 PM / Friday: 10:00 AM – 9:00 PM / Saturday: 10:00 AM – 9:00 PM / Sunday: 10:00 AM – 9:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJN_85VADraDURD4cfEkCTIqM",
-    "priority": 0
-  },
-  {
-    "slug": "japanese-hair-salon-defi",
-    "name": "Japanese Hair Salon Defi",
-    "name_ja": null,
-    "area": "Busan",
-    "address": "132 Newbury St, Boston, MA 02116, USA",
-    "lat": 42.3509,
-    "lng": -71.0767,
-    "phone": "+16172628100",
-    "website": "http://salondefi.com/",
-    "description": "",
-    "tags": [],
-    "hours": "Monday: Closed / Tuesday: Closed / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: 9:00 AM – 5:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJaTVMlQ5644kRwq7mLPqGaro",
-    "priority": 0
-  },
-  {
-    "slug": "alex-baraz-japanese-hair-straightening-salon",
-    "name": "Alex Baraz Japanese hair straightening Salon",
-    "name_ja": null,
-    "area": "Busan",
-    "address": "15004 Endicott St, Philadelphia, PA 19116, USA",
-    "lat": 40.1203,
-    "lng": -74.9951,
-    "phone": "+12156810880",
-    "website": "https://japanesehairstraightening-pa-nj.com/",
-    "description": "",
-    "tags": [],
-    "hours": "Monday: 9:00 AM – 8:00 PM / Tuesday: 9:00 AM – 8:00 PM / Wednesday: 9:00 AM – 8:00 PM / Thursday: 9:00 AM – 8:00 PM / Friday: 9:00 AM – 8:00 PM / Saturday: 9:00 AM – 8:00 PM / Sunday: 9:00 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJL5BM1py4xokRVJk8I_ygT7w",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "gamo-hair",
@@ -1034,33 +1007,18 @@
     "lng": 129.0644,
     "phone": null,
     "website": "https://kimononokoto.my.canva.site/gamo-hair",
-    "description": "",
-    "tags": [],
+    "description": "釜山にあるヘアサロン。カット、カラー、パーマ、トリートメントを提供。外国人対応可能。",
+    "tags": [
+      "ヘアサロン",
+      "外国人対応"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJtfeQVwDraDURjNcTApUhL3s",
-    "priority": 0
-  },
-  {
-    "slug": "-12",
-    "name": "マレヘア 마레헤어 경성대 釜山美容室",
-    "name_ja": null,
-    "area": "Busan",
-    "address": "South Korea, Busan, Nam-gu, Yongso-ro 7beon-gil, 16-1 부경빌딩 3층",
-    "lat": 35.1369,
-    "lng": 129.1013,
-    "phone": "+821084431169",
-    "website": "http://naver.me/FCbULuzT",
-    "description": "",
-    "tags": [],
-    "hours": "Monday: Closed / Tuesday: 1:00 – 8:00 PM / Wednesday: 1:00 – 8:00 PM / Thursday: Closed / Friday: 1:00 – 8:00 PM / Saturday: 10:00 AM – 6:00 PM / Sunday: 10:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJJcHO_UPtaDURfThkA8mES4s",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "rumi-in-busan",
@@ -1072,33 +1030,17 @@
     "lng": 129.0599,
     "phone": null,
     "website": "https://www.instagram.com/rumi_busan/",
-    "description": "",
-    "tags": [],
+    "description": "釜山にある美容サロン。ヘアカット、カラーリング、スキンケアなどを提供。",
+    "tags": [
+      "美容サロン"
+    ],
     "hours": "Monday: 9:00 AM – 9:00 PM / Tuesday: 9:00 AM – 9:00 PM / Wednesday: 9:00 AM – 9:00 PM / Thursday: 9:00 AM – 9:00 PM / Friday: 9:00 AM – 9:00 PM / Saturday: 9:00 AM – 9:00 PM / Sunday: 9:00 AM – 9:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJGcpZKafraDURk9KhozyCaao",
-    "priority": 0
-  },
-  {
-    "slug": "hair-hero-plano-japanese-hair-salon-japanese-straight-perm",
-    "name": "Hair Hero-Plano/Japanese Hair salon/Japanese straight perm/",
-    "name_ja": null,
-    "area": "Busan",
-    "address": "8240 Preston Rd Suite 200, Plano, TX 75024, USA",
-    "lat": 33.0901,
-    "lng": -96.8047,
-    "phone": "+18333548285",
-    "website": "https://site.locaop.jp/PfNBl",
-    "description": "",
-    "tags": [],
-    "hours": "Monday: Closed / Tuesday: 10:00 AM – 7:00 PM / Wednesday: 10:00 AM – 7:00 PM / Thursday: 10:00 AM – 7:00 PM / Friday: 10:00 AM – 7:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJixzoG0E9TIYRWsXtweMqWS0",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "meejapan-ok",
@@ -1110,299 +1052,40 @@
     "lng": 121.5215,
     "phone": "+886225115570",
     "website": "https://www.meejapan.com/",
-    "description": "",
-    "tags": [],
+    "description": "釜山にある美容サロン。ヘアカット、カラーリング、スキンケアなどを提供。",
+    "tags": [
+      "美容サロン"
+    ],
     "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJRVd5MVCpQjQRVTuxXVB5vJM",
-    "priority": 0
-  },
-  {
-    "slug": "ys-hair-west",
-    "name": "Y's hair WEST（ウエスト店）",
-    "name_ja": null,
-    "area": "Busan",
-    "address": "Japan, 〒756-0057 Yamaguchi, Sanyoonoda, Nishitakatomari, ６４０−１ 髪質改善 オージュア",
-    "lat": 34.0051,
-    "lng": 131.1769,
-    "phone": "+81120696012",
-    "website": "http://ys-hair.jp/west/",
-    "description": "",
-    "tags": [],
-    "hours": "Monday: Closed / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: 9:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJpxN-V7eDQzURRV1HoAkBrHE",
-    "priority": 0
-  },
-  {
-    "slug": "cookie-hairandface",
-    "name": "COOKIE hair&face クッキー 美容院",
-    "name_ja": null,
-    "area": "Busan",
-    "address": "5-chōme-5-6 Nishikogushi, Ube, Yamaguchi 755-0049, Japan",
-    "lat": 33.9648,
-    "lng": 131.243,
-    "phone": "+81836345998",
-    "website": "http://cookie-ube.jimdofree.com/",
-    "description": "",
-    "tags": [],
-    "hours": "Monday: Closed / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: 9:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJJ5T_Jt-AQzURHqFxLi-uY8w",
-    "priority": 0
-  },
-  {
-    "slug": "ambi",
-    "name": "AMBI 個室美容院/ヘッドスパ/髪質改善",
-    "name_ja": null,
-    "area": "Busan",
-    "address": "1-1 Konpirachō, Shimonoseki, Yamaguchi 750-0058, Japan",
-    "lat": 33.9662,
-    "lng": 130.9185,
-    "phone": "+819097310358",
-    "website": "https://www.instagram.com/private_gym_ambi/",
-    "description": "",
-    "tags": [],
-    "hours": "Monday: Closed / Tuesday: 9:15 AM – 6:00 PM / Wednesday: 9:15 AM – 6:00 PM / Thursday: 9:15 AM – 6:00 PM / Friday: 9:15 AM – 6:00 PM / Saturday: 9:15 AM – 6:00 PM / Sunday: 10:00 AM – 5:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJbw4vSj29QzUR5GIzN10ACxA",
-    "priority": 0
-  },
-  {
-    "slug": "ys-hair-first",
-    "name": "美容院 Y's hair FIRST 宇部市",
-    "name_ja": null,
-    "area": "Busan",
-    "address": "4-chōme-9-19 Shōwachō, Ube, Yamaguchi 755-0011, Japan",
-    "lat": 33.9322,
-    "lng": 131.2585,
-    "phone": "+81120836012",
-    "website": "http://ys-hair.jp/first/",
-    "description": "",
-    "tags": [],
-    "hours": "Monday: Closed / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: 9:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJq5wZ_ziHQzURhiWI65MEnOc",
-    "priority": 0
-  },
-  {
-    "slug": "and",
-    "name": "美容院 & 整体院 ラ・アレグリア",
-    "name_ja": null,
-    "area": "Busan",
-    "address": "3-chōme-14-16 Chūōchō, Ube, Yamaguchi 755-0045, Japan",
-    "lat": 33.9565,
-    "lng": 131.2399,
-    "phone": "+81836319116",
-    "website": "https://www.instagram.com/michiyo_hasegawa0123",
-    "description": "",
-    "tags": [],
-    "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: Closed / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJfwDN9imBQzUR04F8cgoOS-Q",
-    "priority": 0
-  },
-  {
-    "slug": "-29",
-    "name": "重原美容院",
-    "name_ja": null,
-    "area": "Busan",
-    "address": "Japan, 〒759-4101 Yamaguchi, Nagato, Higashifukawa, 正明市９８２−２",
-    "lat": 34.3722,
-    "lng": 131.1816,
-    "phone": "+81837223363",
-    "website": null,
-    "description": "",
-    "tags": [],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJDbkO6MddQzURIfcyJJ_kOYA",
-    "priority": 0
-  },
-  {
-    "slug": "oak-hair-calme",
-    "name": "美容院 福間 OAK hair calme",
-    "name_ja": null,
-    "area": "Busan",
-    "address": "Japan, 〒811-3209 Fukuoka, Fukutsu, Himakino, 1-chōme−５−５",
-    "lat": 33.7626,
-    "lng": 130.4892,
-    "phone": "+81940625544",
-    "website": "https://beauty.hotpepper.jp/slnH000390559/?cstt=4",
-    "description": "",
-    "tags": [],
-    "hours": "Monday: 10:00 AM – 9:00 PM / Tuesday: 10:00 AM – 9:00 PM / Wednesday: 10:00 AM – 9:00 PM / Thursday: 10:00 AM – 9:00 PM / Friday: 10:00 AM – 9:00 PM / Saturday: 10:00 AM – 9:00 PM / Sunday: 10:00 AM – 9:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJE_m8NTspQjURhhK-fezgsDY",
-    "priority": 0
-  },
-  {
-    "slug": "-30",
-    "name": "前田美容院",
-    "name_ja": null,
-    "area": "Busan",
-    "address": "Japan, 〒759-4401 Yamaguchi, Nagato, Hekikami, 黄波戸２３２０−１２",
-    "lat": 34.3898,
-    "lng": 131.1373,
-    "phone": "+81837373157",
-    "website": null,
-    "description": "",
-    "tags": [],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJ3bL6_DxdQzURyF2ABKJJxmo",
-    "priority": 0
-  },
-  {
-    "slug": "-31",
-    "name": "チトセ美容院",
-    "name_ja": null,
-    "area": "Busan",
-    "address": "2-chōme-17-11 Ozukihonmachi, Shimonoseki, Yamaguchi 750-1142, Japan",
-    "lat": 34.0695,
-    "lng": 131.037,
-    "phone": "+81832820693",
-    "website": null,
-    "description": "",
-    "tags": [],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJD9YqXoCeQzURcG-wxJnC6TU",
-    "priority": 0
-  },
-  {
-    "slug": "-32",
-    "name": "ちぐさ美容院",
-    "name_ja": null,
-    "area": "Busan",
-    "address": "1-chōme-3-20 Higashinakama, Nakama, Fukuoka 809-0019, Japan",
-    "lat": 33.8176,
-    "lng": 130.715,
-    "phone": "+81932431818",
-    "website": "http://www.ks-logic.com/chigusa/",
-    "description": "",
-    "tags": [],
-    "hours": "Monday: Closed / Tuesday: 9:30 AM – 6:00 PM / Wednesday: 9:30 AM – 6:00 PM / Thursday: 9:30 AM – 6:00 PM / Friday: 9:30 AM – 6:00 PM / Saturday: 9:30 AM – 6:00 PM / Sunday: 9:30 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJZV5ClRLNQzURHzED40LoR9c",
-    "priority": 0
-  },
-  {
-    "slug": "-33",
-    "name": "後藤美容院",
-    "name_ja": null,
-    "area": "Busan",
-    "address": "1-chōme-1-18 Hatabuchō, Shimonoseki, Yamaguchi 751-0828, Japan",
-    "lat": 33.977,
-    "lng": 130.9367,
-    "phone": "+81120109027",
-    "website": "https://hair-salon-gotou.com/",
-    "description": "",
-    "tags": [],
-    "hours": "Monday: Closed / Tuesday: 8:30 AM – 6:00 PM / Wednesday: 8:30 AM – 6:00 PM / Thursday: 8:30 AM – 6:00 PM / Friday: 8:30 AM – 6:00 PM / Saturday: 8:30 AM – 6:00 PM / Sunday: 8:30 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJi1jumhS9QzUR_qe0iACQVfU",
-    "priority": 0
-  },
-  {
-    "slug": "hairdesign-jiji",
-    "name": "hairdesign jiji（ヘアデザインジジ） 下関",
-    "name_ja": null,
-    "area": "Busan",
-    "address": "1-chōme-1-12 Kandachō, Shimonoseki, Yamaguchi 750-0044, Japan",
-    "lat": 33.9632,
-    "lng": 130.9249,
-    "phone": "+81832379340",
-    "website": "http://hairdesignjiji.amebaownd.com/",
-    "description": "",
-    "tags": [],
-    "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: Closed / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: 9:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJEUEJ2-y9QzURztVNPLuW3hU",
-    "priority": 0
-  },
-  {
-    "slug": "-34",
-    "name": "みさき美容院中央町店",
-    "name_ja": null,
-    "area": "Busan",
-    "address": "2-chōme-6-6 Chūōchō, Ube, Yamaguchi 755-0045, Japan",
-    "lat": 33.9537,
-    "lng": 131.2431,
-    "phone": "+81836313356",
-    "website": null,
-    "description": "",
-    "tags": [],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJK9TFytWAQzURXVpi3mFV2IU",
-    "priority": 0
-  },
-  {
-    "slug": "-35",
-    "name": "村田美容院",
-    "name_ja": null,
-    "area": "Busan",
-    "address": "1-chōme-27 Hinosato, Munakata, Fukuoka 811-3425, Japan",
-    "lat": 33.792,
-    "lng": 130.5326,
-    "phone": "+81940373194",
-    "website": "http://murabi.jimdofree.com/",
-    "description": "",
-    "tags": [],
-    "hours": "Monday: 8:00 AM – 5:00 PM / Tuesday: 8:00 AM – 5:00 PM / Wednesday: 8:00 AM – 5:00 PM / Thursday: 8:00 AM – 5:00 PM / Friday: 8:00 AM – 5:00 PM / Saturday: 8:00 AM – 5:00 PM / Sunday: 8:00 AM – 5:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJP6LJDcouQjURlRyrEEYLKN4",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "kaijunghair-salon-incheon-cheongna-store-kaijung",
     "name": "kaijunghair salon Incheon-Cheongna store | 카이정헤어 인천청라점 | kaijung秀发 美容院 仁川菁羅商店 | カイジョンヘア 美容室 インチョンチョンラストア",
-    "name_ja": null,
+    "name_ja": "カイジョンヘア",
     "area": "Incheon",
     "address": "South Korea, Incheon, Seo-gu, Jungbong-daero 612beon-gil, 10-17 2 층 210 호",
     "lat": 37.5339,
     "lng": 126.652,
     "phone": "+82325689199",
     "website": "https://www.instagram.com/kaijunghair_official_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
-    "description": "",
-    "tags": [],
+    "description": "ソウルにある韓国の人気ヘアサロン「カイジョンヘア」。外国人客も多く受け入れており、英語・日本語での対応が可能な場合がある。カット、カラー、パーマ、トリートメントを提供。",
+    "tags": [
+      "ヘアサロン",
+      "外国人対応"
+    ],
     "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ815odSx_ezURdlKtactcLP0",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "hongdae-makeup-pastelmood",
@@ -1414,14 +1097,17 @@
     "lng": 126.922,
     "phone": "+8250713308912",
     "website": "https://map.naver.com/p/search/%ED%99%8D%EB%8C%80%EB%A9%94%EC%9D%B4%ED%81%AC%EC%97%85/place/1939374124?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp",
-    "description": "",
-    "tags": [],
+    "description": "仁川にある美容サロン。ヘアカット、カラーリング、スキンケアなどを提供。",
+    "tags": [
+      "美容サロン"
+    ],
     "hours": "Monday: 5:00 AM – 6:00 PM / Tuesday: 5:00 AM – 6:00 PM / Wednesday: 5:00 AM – 6:00 PM / Thursday: 5:00 AM – 6:00 PM / Friday: 5:00 AM – 6:00 PM / Saturday: 5:00 AM – 6:00 PM / Sunday: 5:00 AM – 6:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJTwjccGmZfDURecZ7W18roIc",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "scalp-treatment-and-head-spa-gangnam-topscalp-seocho-branch-and-spa",
@@ -1433,71 +1119,63 @@
     "lng": 127.0178,
     "phone": "+821051868599",
     "website": "https://naver.me/GnRjuOAO",
-    "description": "",
-    "tags": [],
+    "description": "仁川にある美容サロン。ヘアカット、カラーリング、スキンケアなどを提供。",
+    "tags": [
+      "美容サロン"
+    ],
     "hours": "Monday: 10:00 AM – 9:00 PM / Tuesday: 9:00 AM – 9:00 PM / Wednesday: 9:00 AM – 9:00 PM / Thursday: 9:00 AM – 9:00 PM / Friday: 9:00 AM – 9:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJR10xomqjfDUR0legCg0CYro",
-    "priority": 0
-  },
-  {
-    "slug": "-39",
-    "name": "더클래스모나크 ザクラスモナク",
-    "name_ja": null,
-    "area": "Incheon",
-    "address": "South Korea, Seoul, Gangnam District, 청담동 번지 3층 87-4",
-    "lat": 37.5237,
-    "lng": 127.0405,
-    "phone": "+8225450421",
-    "website": null,
-    "description": "",
-    "tags": [],
-    "hours": "Monday: 5:00 AM – 2:00 PM / Tuesday: 5:00 AM – 2:00 PM / Wednesday: 5:00 AM – 2:00 PM / Thursday: 5:00 AM – 2:00 PM / Friday: 5:00 AM – 2:00 PM / Saturday: 5:00 AM – 2:00 PM / Sunday: 5:00 AM – 2:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJ9YW523ekfDURrcgzdaZ2Iqc",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "kaijunghair-salon-bupyeong-galsanstore-kaijung",
     "name": "kaijunghair salon Bupyeong-Galsanstore | 카이정헤어 부평갈산점 | kaijung秀发 美容院 富平葛山商店 | カイジョンヘア 美容室 プピョンカルサンストア",
-    "name_ja": null,
+    "name_ja": "カイジョンヘア",
     "area": "Incheon",
     "address": "South Korea, Incheon, 테크노밸리U1센터 A 236 인천 부평구 주부토로동 323호",
     "lat": 37.5152,
     "lng": 126.7269,
     "phone": "+82315112015",
     "website": "https://www.instagram.com/kaijunghair_official_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
-    "description": "",
-    "tags": [],
+    "description": "ソウルにある韓国の人気ヘアサロン「カイジョンヘア」。外国人客も多く受け入れており、英語・日本語での対応が可能な場合がある。カット、カラー、パーマ、トリートメントを提供。",
+    "tags": [
+      "ヘアサロン",
+      "外国人対応"
+    ],
     "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJXzw8egB9ezUR2X5FUFqh3N8",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "kaijung-hair-salon-mokdong-station-branch-kaijung",
     "name": "Kaijung hair salon mokdong station branch | 카이정헤어 목동역점| kaijung秀发 美容院 牧童驿站 | カイジョンヘア 美容室 モクドン駅店",
-    "name_ja": null,
+    "name_ja": "カイジョンヘア",
     "area": "Incheon",
     "address": "93 Sinjeongjungang-ro, Yangcheon District, Seoul, South Korea",
     "lat": 37.5267,
     "lng": 126.8622,
     "phone": "+821044690417",
     "website": "https://kaijunghair.com/",
-    "description": "",
-    "tags": [],
+    "description": "ソウルにある韓国の人気ヘアサロン「カイジョンヘア」。外国人客も多く受け入れており、英語・日本語での対応が可能な場合がある。カット、カラー、パーマ、トリートメントを提供。",
+    "tags": [
+      "ヘアサロン",
+      "外国人対応"
+    ],
     "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJeUT4agCdfDURq7rkqUsQBIQ",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "lloyd-bomb-hongdae-hair-salon-beauty-salon-hairshop",
@@ -1509,71 +1187,87 @@
     "lng": 126.9209,
     "phone": "+8223378008",
     "website": "https://www.instagram.com/lloyd_hongdae",
-    "description": "",
-    "tags": [],
+    "description": "仁川にあるヘアサロン。カット、カラー、パーマ、トリートメントを提供。外国人対応可能。",
+    "tags": [
+      "ヘアサロン",
+      "外国人対応"
+    ],
     "hours": "Monday: 10:00 AM – 9:00 PM / Tuesday: 10:00 AM – 9:00 PM / Wednesday: 10:00 AM – 9:00 PM / Thursday: 10:00 AM – 9:00 PM / Friday: 10:00 AM – 9:00 PM / Saturday: 10:00 AM – 9:00 PM / Sunday: 10:00 AM – 9:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJu_y7Q9uYfDURvPaEop6LfTI",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "kaijunghair-salon-yeongdeungpo-store-kaijung",
     "name": "kaijunghair salon Yeongdeungpo store | 카이정헤어 영등포점 | kaijung秀发 美容院 永登浦商店 | カイジョンヘア 美容室 ヨンドゥンポ ストア",
-    "name_ja": null,
+    "name_ja": "カイジョンヘア",
     "area": "Incheon",
     "address": "36 Singil-ro, Singil-dong, Yeongdeungpo District, Seoul, South Korea",
     "lat": 37.4958,
     "lng": 126.9086,
     "phone": "+8228338355",
     "website": "https://www.instagram.com/kaijunghair_official_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
-    "description": "",
-    "tags": [],
+    "description": "ソウルにある韓国の人気ヘアサロン「カイジョンヘア」。外国人客も多く受け入れており、英語・日本語での対応が可能な場合がある。カット、カラー、パーマ、トリートメントを提供。",
+    "tags": [
+      "ヘアサロン",
+      "外国人対応"
+    ],
     "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ-zU3i0yefDURQSkpnRLm_Dc",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "kaijung-hair-bucheon-shinjungdong-branch-kaijung",
     "name": "Kaijung Hair Bucheon Shinjungdong Branch | 카이정헤어 부천신중동점 | kaijung秀发 美容院 富川新中洞店 | カイジョンヘア 美容室 富川新中洞店",
-    "name_ja": null,
+    "name_ja": "カイジョンヘア",
     "area": "Incheon",
     "address": "181 Sohyang-ro, Bucheon, Gyeonggi-do, South Korea",
     "lat": 37.5021,
     "lng": 126.7681,
     "phone": "+82323222025",
     "website": "https://kaijunghair.com/",
-    "description": "",
-    "tags": [],
+    "description": "ソウルにある韓国の人気ヘアサロン「カイジョンヘア」。外国人客も多く受け入れており、英語・日本語での対応が可能な場合がある。カット、カラー、パーマ、トリートメントを提供。",
+    "tags": [
+      "ヘアサロン",
+      "外国人対応"
+    ],
     "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ4ZgzBQB9ezURrGiZ8pVrwwA",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "kaijunghair-salon-incheon-songdo-store-kaijung-kaijung",
     "name": "kaijunghair salon Incheon Songdo store | 카이정헤어 인천송도점 | kaijung秀发 美容院 井站仁川松岛商店 | kaijung秀髮 美容院 井站仁川松島商店 | カイジョンヘア 美容室 仁川ソンド店",
-    "name_ja": null,
+    "name_ja": "カイジョンヘア",
     "area": "Incheon",
     "address": "South Korea, Incheon, Yeonsu-gu, Songdo-dong, 스마트스퀘어 A 203-5 동 4층 4호",
     "lat": 37.3713,
     "lng": 126.6491,
     "phone": null,
     "website": null,
-    "description": "",
-    "tags": [],
+    "description": "ソウルにある韓国の人気ヘアサロン「カイジョンヘア」。外国人客も多く受け入れており、英語・日本語での対応が可能な場合がある。カット、カラー、パーマ、トリートメントを提供。",
+    "tags": [
+      "ヘアサロン",
+      "外国人対応"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJuT1vKwB3ezURrQ16RUDxTyg",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "gangnam-juno-hair-hair-salon-and-beauty-salon",
@@ -1585,33 +1279,41 @@
     "lng": 127.0317,
     "phone": "+8225660605",
     "website": "https://www.junohair.com/junohair/salon/shop_info?idx=181",
-    "description": "",
-    "tags": [],
+    "description": "仁川にあるヘアサロン。カット、カラー、パーマ、トリートメントを提供。外国人対応可能。",
+    "tags": [
+      "ヘアサロン",
+      "外国人対応"
+    ],
     "hours": "Monday: 10:00 AM – 9:00 PM / Tuesday: 10:00 AM – 9:00 PM / Wednesday: 10:00 AM – 9:00 PM / Thursday: 10:00 AM – 9:00 PM / Friday: 10:00 AM – 9:00 PM / Saturday: 10:00 AM – 9:00 PM / Sunday: 10:00 AM – 9:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJmc0oNq2hfDURbJiZ2UTtz4M",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "kaijunghair-salon-yeonsu-dongchun-store-kaijung",
     "name": "kaijunghair salon Yeonsu-Dongchun store | 카이정헤어 연수동춘점 | kaijung秀发 美容院 延壽东春商店 | カイジョンヘア 美容室 ヨンスゥトンチュンストア",
-    "name_ja": null,
+    "name_ja": "カイジョンヘア",
     "area": "Incheon",
     "address": "94 Meonugeum-ro, Yeonsu-gu, Incheon, South Korea",
     "lat": 37.4073,
     "lng": 126.6704,
     "phone": "+827086572346",
     "website": "https://www.instagram.com/kaijunghair_official_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
-    "description": "",
-    "tags": [],
+    "description": "ソウルにある韓国の人気ヘアサロン「カイジョンヘア」。外国人客も多く受け入れており、英語・日本語での対応が可能な場合がある。カット、カラー、パーマ、トリートメントを提供。",
+    "tags": [
+      "ヘアサロン",
+      "外国人対応"
+    ],
     "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJp0OiIgB3ezUR2_Z8vBK3RaM",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "hongdae-hair-salon-dosim",
@@ -1623,33 +1325,41 @@
     "lng": 126.9161,
     "phone": "+821058440443",
     "website": "https://www.instagram.com/wis.dosim",
-    "description": "",
-    "tags": [],
+    "description": "仁川にあるヘアサロン。カット、カラー、パーマ、トリートメントを提供。外国人対応可能。",
+    "tags": [
+      "ヘアサロン",
+      "外国人対応"
+    ],
     "hours": "Monday: Closed / Tuesday: Closed / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJUf2-9jZNUmkR-jw73DChRpw",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "kaijunghair-salon-hyangdong-dmc-store-dmc-kaijung-dmc-dmc",
     "name": "kaijunghair salon Hyangdong-dmc store | 카이정헤어 향동dmc점 | kaijung秀发 美容院 香洞dmc商店 | カイジョンヘア 美容室 ヒャンドンdmcストア",
-    "name_ja": null,
+    "name_ja": "カイジョンヘア",
     "area": "Incheon",
     "address": "South Korea, Gyeonggi-do, Goyang-si, Deogyang-gu, 향기로 14",
     "lat": 37.5939,
     "lng": 126.8871,
     "phone": null,
     "website": "https://www.instagram.com/kaijunghair_official_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
-    "description": "",
-    "tags": [],
+    "description": "ソウルにある韓国の人気ヘアサロン「カイジョンヘア」。外国人客も多く受け入れており、英語・日本語での対応が可能な場合がある。カット、カラー、パーマ、トリートメントを提供。",
+    "tags": [
+      "ヘアサロン",
+      "外国人対応"
+    ],
     "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJBU1k-1uZfDURKpohBgPtDtY",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "lamaison-beauty-hair-salon-and-beauty-salon-make-up-kpop-idol",
@@ -1661,14 +1371,18 @@
     "lng": 127.041,
     "phone": "+8225123001",
     "website": "https://map.naver.com/p/entry/place/11561757?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202509091746&locale=ko&svcName=map_pcv5",
-    "description": "",
-    "tags": [],
+    "description": "仁川にあるヘアサロン。カット、カラー、パーマ、トリートメントを提供。外国人対応可能。",
+    "tags": [
+      "ヘアサロン",
+      "外国人対応"
+    ],
     "hours": "Monday: Closed / Tuesday: 10:00 AM – 6:00 PM / Wednesday: 10:00 AM – 6:00 PM / Thursday: 10:00 AM – 6:00 PM / Friday: 10:00 AM – 6:00 PM / Saturday: 10:00 AM – 6:00 PM / Sunday: 10:00 AM – 6:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJpdZSinekfDURviyQvDVDEAQ",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "bellmood-microblading-lip-blush-eyelash-hairline",
@@ -1680,13 +1394,17 @@
     "lng": 126.9269,
     "phone": null,
     "website": "https://www.instagram.com/bellmood.official/",
-    "description": "",
-    "tags": [],
+    "description": "仁川にあるヘアサロン。カット、カラー、パーマ、トリートメントを提供。外国人対応可能。",
+    "tags": [
+      "ヘアサロン",
+      "外国人対応"
+    ],
     "hours": "Monday: 11:00 AM – 9:00 PM / Tuesday: 11:00 AM – 9:00 PM / Wednesday: Closed / Thursday: 11:00 AM – 9:00 PM / Friday: 11:00 AM – 9:00 PM / Saturday: 11:00 AM – 9:00 PM / Sunday: 11:00 AM – 9:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJU--qydgnmA8RM0KFNW8RlSs",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   }
 ]

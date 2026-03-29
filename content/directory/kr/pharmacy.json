@@ -16,7 +16,8 @@
     "hours": "24時間",
     "status": "unverified",
     "source": "sns",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "gangnam-square-pharmacy",
@@ -35,7 +36,8 @@
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "hongik-pharmacy-hongdae",
@@ -54,7 +56,8 @@
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "ichon-pharmacy-japanese",
@@ -73,7 +76,8 @@
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "olive-young-nihon-products",
@@ -92,6 +96,7 @@
     "hours": "店舗により異なる",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   }
 ]

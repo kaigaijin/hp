@@ -17,7 +17,8 @@
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "n-nail-wangsimni",
@@ -36,7 +37,8 @@
     "hours": null,
     "status": "unverified",
     "source": "sns",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "korean-nail-salon-gangnam",
@@ -55,7 +57,8 @@
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "unistella-nail-gangnam",
@@ -74,7 +77,8 @@
     "hours": "毎日 10:00-20:00",
     "status": "unverified",
     "source": "sns",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "ichon-nail-salon",
@@ -93,7 +97,8 @@
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "nail-plus-gangnam",
@@ -112,140 +117,126 @@
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "topbrows",
     "name": "TOPBROWS明洞本店",
-    "name_ja": null,
+    "name_ja": "TOPBROWS明洞本店",
     "area": "Seoul",
     "address": "47 Myeongdong-gil, Jung District, Seoul, South Korea",
     "lat": 37.5639,
     "lng": 126.9848,
     "phone": "+821097578100",
     "website": "https://reservia.jp/shop/reserve/e65217bbe6",
-    "description": "",
-    "tags": [],
+    "description": "明洞にあるアートメイク・眉毛専門サロン「TOPBROWS」。日本語での予約・相談が可能。",
+    "tags": [
+      "アートメイク",
+      "日本語対応",
+      "明洞"
+    ],
     "hours": "Monday: 10:00 AM – 8:30 PM / Tuesday: 10:00 AM – 8:30 PM / Wednesday: 10:00 AM – 8:30 PM / Thursday: 10:00 AM – 8:30 PM / Friday: 10:00 AM – 8:30 PM / Saturday: 10:00 AM – 8:30 PM / Sunday: 10:00 AM – 8:30 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJbYjtrtajfDURRL1MaCRzAj4",
-    "priority": 0
-  },
-  {
-    "slug": "kirei-house-japanese-nail-salon",
-    "name": "Kirei House – Japanese Nail Salon",
-    "name_ja": null,
-    "area": "Seoul",
-    "address": "711 5th Ave, New York, NY 10019, USA",
-    "lat": 40.7617,
-    "lng": -73.9745,
-    "phone": "+12122498172",
-    "website": "https://www.kirei-house.com/book",
-    "description": "",
-    "tags": [],
-    "hours": "Monday: 11:00 AM – 8:00 PM / Tuesday: 11:00 AM – 8:00 PM / Wednesday: 11:00 AM – 8:00 PM / Thursday: 11:00 AM – 8:00 PM / Friday: 11:00 AM – 8:00 PM / Saturday: 11:00 AM – 8:00 PM / Sunday: 11:00 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJVZ9B9eNYwokRlVW6utuIBZo",
-    "priority": 0
-  },
-  {
-    "slug": "natsuko-japanese-nail",
-    "name": "Natsuko Japanese Nail",
-    "name_ja": null,
-    "area": "Seoul",
-    "address": "205 Main St 2nd Fl, Fort Lee, NJ 07024, USA",
-    "lat": 40.8514,
-    "lng": -73.9704,
-    "phone": "+15512002880",
-    "website": "http://japanesenail.com/",
-    "description": "",
-    "tags": [],
-    "hours": "Monday: 9:00 AM – 7:00 PM / Tuesday: 9:00 AM – 7:00 PM / Wednesday: 9:00 AM – 7:00 PM / Thursday: 9:00 AM – 7:00 PM / Friday: 9:00 AM – 7:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJ9xnKl7z3wokR-Ygqx7LiRDc",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "leebeauty-myeongdong-spa-lee-hea-kyung-aesthetics-and-head-spa",
     "name": "Leebeauty Myeongdong spa 이혜경에스테틱(LEE HEA KYUNG) Aesthetics & Head Spa • イヘギョン",
-    "name_ja": null,
+    "name_ja": "リービューティー 明洞",
     "area": "Seoul",
     "address": "55 Myeongdong-gil, Jung District, Seoul, South Korea",
     "lat": 37.5641,
     "lng": 126.9854,
     "phone": "+8227530790",
     "website": "http://www.leefootface.com/",
-    "description": "",
-    "tags": [],
+    "description": "明洞にあるエステ＆ヘッドスパサロン「イ・ヘギョン」。フェイシャル、ボディ、ヘッドスパを提供。",
+    "tags": [
+      "エステ",
+      "ヘッドスパ",
+      "明洞"
+    ],
     "hours": "Monday: 10:30 AM – 10:00 PM / Tuesday: 10:30 AM – 10:00 PM / Wednesday: 10:30 AM – 10:00 PM / Thursday: 10:30 AM – 10:00 PM / Friday: 10:30 AM – 10:00 PM / Saturday: 10:30 AM – 10:00 PM / Sunday: 10:30 AM – 10:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ08AO5O-ifDURcjJXmXGKGAc",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "triomphedr-clinic-and-aesthetic",
     "name": "TriompheDr. Clinic & Aesthetic 트리옹프닥터의원 トリオンプ・ドクター医院",
-    "name_ja": null,
+    "name_ja": "トリオンプ・ドクター",
     "area": "Seoul",
     "address": "16 Myeongdong 9-gil, Jung District, Seoul, South Korea",
     "lat": 37.5646,
     "lng": 126.9852,
     "phone": "+82262377771",
     "website": "http://www.triomphedr.com/",
-    "description": "",
-    "tags": [],
+    "description": "トリオンプ・ドクタークリニック。美容施術とエステを提供する医療エステサロン。",
+    "tags": [
+      "医療エステ",
+      "美容施術"
+    ],
     "hours": "Monday: 10:30 AM – 8:30 PM / Tuesday: 10:30 AM – 8:30 PM / Wednesday: 10:30 AM – 8:30 PM / Thursday: 10:30 AM – 8:30 PM / Friday: 10:30 AM – 8:30 PM / Saturday: 10:00 AM – 4:30 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ8d6TTUajfDURpNo5bCcXsKw",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "myeongdong-beauty",
     "name": "명동뷰티 Myeongdong Beauty (明洞ビューティー)",
-    "name_ja": null,
+    "name_ja": "明洞ビューティー",
     "area": "Seoul",
     "address": "South Korea, Seoul, Jung District, Chungmuro 2(i)-ga, 번지 7층 62-1",
     "lat": 37.5617,
     "lng": 126.9868,
     "phone": "+821080541939",
     "website": "https://wa.me/821080541939",
-    "description": "",
-    "tags": [],
+    "description": "明洞にある美容サロン「明洞ビューティー」。フェイシャルケア、ボディケアなどのエステサービスを提供。日本人観光客にも人気。",
+    "tags": [
+      "エステ",
+      "明洞"
+    ],
     "hours": "Monday: 9:30 AM – 10:00 PM / Tuesday: 9:30 AM – 10:00 PM / Wednesday: 9:30 AM – 10:00 PM / Thursday: 9:30 AM – 10:00 PM / Friday: 9:30 AM – 10:00 PM / Saturday: 9:30 AM – 10:00 PM / Sunday: 9:30 AM – 10:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJZUEb1QyjfDUR6mgPd8rU_80",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "id-clinic-myeongdong-id",
     "name": "id clinic Myeongdong / 韓国id美容クリニック明洞店 / 명동아이디의원",
-    "name_ja": null,
+    "name_ja": "id美容クリニック 明洞",
     "area": "Seoul",
     "address": "South Korea, Seoul, Jung District, Namdaemun-ro, 90 세미콜론 빌딩 19층",
     "lat": 37.5651,
     "lng": 126.9829,
     "phone": "+82233964000",
     "website": "https://eng.idclinic.co.kr/md?utm_source=brandsearch&utm_medium=google&utm_campaign=md_website_map_20251218",
-    "description": "",
-    "tags": [],
+    "description": "韓国大手の美容整形クリニック「id美容クリニック」明洞店。日本語対応あり。二重まぶた、鼻整形、輪郭矯正などの美容整形手術を提供。",
+    "tags": [
+      "美容整形",
+      "日本語対応",
+      "明洞"
+    ],
     "hours": "Monday: 10:30 AM – 8:30 PM / Tuesday: 10:30 AM – 8:30 PM / Wednesday: 10:30 AM – 8:30 PM / Thursday: 10:30 AM – 8:30 PM / Friday: 10:30 AM – 8:30 PM / Saturday: 10:00 AM – 4:00 PM / Sunday: 10:00 AM – 4:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJcZ0NvY2jfDURzsmiLOlN6_8",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "val-u-skin-clinic-myeongdong-english-chinese-japanese-support-cosmetic-dermatolo",
@@ -257,14 +248,18 @@
     "lng": 126.9842,
     "phone": "+82220397431",
     "website": "https://en.valu-clinic.kr/",
-    "description": "",
-    "tags": [],
+    "description": "ソウルにあるネイル・エステサロン。ネイルケアやフェイシャル、ボディケアを提供。",
+    "tags": [
+      "ネイル",
+      "エステ"
+    ],
     "hours": "Monday: 10:30 AM – 8:30 PM / Tuesday: 10:30 AM – 8:30 PM / Wednesday: 10:30 AM – 8:30 PM / Thursday: 10:30 AM – 8:30 PM / Friday: 10:30 AM – 8:30 PM / Saturday: 10:00 AM – 5:00 PM / Sunday: 10:00 AM – 5:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJuU1nLgCjfDURksZ6ISlrBcY",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "cellin-clinic-hongdae-english-speaking-dermatologist",
@@ -276,14 +271,18 @@
     "lng": 126.9239,
     "phone": "+8218006156",
     "website": "http://hongdae.cellinclinic.com/en",
-    "description": "",
-    "tags": [],
+    "description": "ソウルにあるネイル・エステサロン。ネイルケアやフェイシャル、ボディケアを提供。",
+    "tags": [
+      "ネイル",
+      "エステ"
+    ],
     "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 5:00 PM / Sunday: 10:00 AM – 5:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJjS5kC4KZfDURcB3FFTo5ObE",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "heyday-clinic-myeongdong-heyday",
@@ -295,14 +294,18 @@
     "lng": 126.983,
     "phone": "+82262630302",
     "website": "https://heydayclinic2.com/",
-    "description": "",
-    "tags": [],
+    "description": "ソウルにあるネイル・エステサロン。ネイルケアやフェイシャル、ボディケアを提供。",
+    "tags": [
+      "ネイル",
+      "エステ"
+    ],
     "hours": "Monday: 10:30 AM – 8:30 PM / Tuesday: 10:30 AM – 7:30 PM / Wednesday: 10:30 AM – 7:30 PM / Thursday: 10:30 AM – 7:30 PM / Friday: 10:30 AM – 8:30 PM / Saturday: 10:30 AM – 6:00 PM / Sunday: 10:30 AM – 6:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJEaGUENhoUmERk-YLNtvG0LE",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "tsuyatonkatsu-japanese-pork-cutlet",
@@ -314,14 +317,18 @@
     "lng": 126.9921,
     "phone": "+8250713320253",
     "website": "https://m.place.naver.com/restaurant/1817898009/home?entry=pll,0,0,dh",
-    "description": "",
-    "tags": [],
+    "description": "ソウルにあるネイル・エステサロン。ネイルケアやフェイシャル、ボディケアを提供。",
+    "tags": [
+      "ネイル",
+      "エステ"
+    ],
     "hours": "Monday: 11:00 AM – 3:00 PM, 5:00 – 9:00 PM / Tuesday: 11:00 AM – 3:00 PM, 5:00 – 9:00 PM / Wednesday: 11:00 AM – 3:00 PM, 5:00 – 9:00 PM / Thursday: 11:00 AM – 3:00 PM, 5:00 – 9:00 PM / Friday: 11:00 AM – 3:00 PM, 5:00 – 9:00 PM / Saturday: 11:00 AM – 3:00 PM, 5:00 – 9:00 PM / Sunday: 11:00 AM – 3:00 PM, 5:00 – 9:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJBdujU_ajfDURiEQ3VEBtjek",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "threewishes-myeondong-branch",
@@ -333,33 +340,18 @@
     "lng": 126.986,
     "phone": "+8227782500",
     "website": null,
-    "description": "",
-    "tags": [],
+    "description": "ソウルにあるネイル・エステサロン。ネイルケアやフェイシャル、ボディケアを提供。",
+    "tags": [
+      "ネイル",
+      "エステ"
+    ],
     "hours": "Monday: 10:00 AM – 7:00 PM / Tuesday: 10:00 AM – 7:00 PM / Wednesday: 10:00 AM – 7:00 PM / Thursday: 10:00 AM – 7:00 PM / Friday: 10:00 AM – 7:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJmUeFyNmjfDUR26vDZe_eAZM",
-    "priority": 0
-  },
-  {
-    "slug": "-15",
-    "name": "ネイルサロン",
-    "name_ja": null,
-    "area": "Seoul",
-    "address": "South Korea, Seoul, Gangnam District, 압구정동 路14キル ３５ 2階",
-    "lat": 37.5244,
-    "lng": 127.0449,
-    "phone": null,
-    "website": null,
-    "description": "",
-    "tags": [],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJzwCBRLulfDUR2zclMbAA3N4",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "coconail-outlet",
@@ -371,109 +363,18 @@
     "lng": 129.0581,
     "phone": "+821084665867",
     "website": "https://smartstore.naver.com/coconail1",
-    "description": "",
-    "tags": [],
+    "description": "釜山にあるネイル・エステサロン。ネイルケアやフェイシャル、ボディケアを提供。",
+    "tags": [
+      "ネイル",
+      "エステ"
+    ],
     "hours": "Monday: 10:00 AM – 7:00 PM / Tuesday: 10:00 AM – 7:00 PM / Wednesday: 10:00 AM – 7:00 PM / Thursday: 10:00 AM – 7:00 PM / Friday: 10:00 AM – 7:00 PM / Saturday: 11:00 AM – 6:00 PM / Sunday: 11:00 AM – 6:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJY_hTFiLraDURiwID4sn7JQk",
-    "priority": 0
-  },
-  {
-    "slug": "pau-hana-japanese-nail",
-    "name": "Pau Hana Japanese Nail",
-    "name_ja": null,
-    "area": "Busan",
-    "address": "235 Court St, Brooklyn, NY 11201, USA",
-    "lat": 40.686,
-    "lng": -73.994,
-    "phone": "+13472234224",
-    "website": "http://japanesenail.com/",
-    "description": "",
-    "tags": [],
-    "hours": "Monday: 10:00 AM – 7:00 AM / Tuesday: 10:00 AM – 7:00 PM / Wednesday: 10:00 AM – 7:00 PM / Thursday: 10:00 AM – 7:00 PM / Friday: 10:00 AM – 7:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 AM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJvyMwbFBawokR7Anu7JAe5P4",
-    "priority": 0
-  },
-  {
-    "slug": "ca-japanese-nail",
-    "name": "CA Japanese Nail",
-    "name_ja": null,
-    "area": "Busan",
-    "address": "4625 Convoy St 1st fl, San Diego, CA 92111, USA",
-    "lat": 32.8244,
-    "lng": -117.1543,
-    "phone": "+16194037238",
-    "website": "http://japanesenail.com/",
-    "description": "",
-    "tags": [],
-    "hours": "Monday: Closed / Tuesday: Closed / Wednesday: 10:00 AM – 7:00 PM / Thursday: 10:00 AM – 7:00 PM / Friday: 10:00 AM – 7:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJC5gjunP_24AR-zz7E5IK6t4",
-    "priority": 0
-  },
-  {
-    "slug": "juun-japanese-nail",
-    "name": "JUUN Japanese Nail",
-    "name_ja": null,
-    "area": "Busan",
-    "address": "200 Main St, Fort Lee, NJ 07024, USA",
-    "lat": 40.851,
-    "lng": -73.9701,
-    "phone": null,
-    "website": "https://instagram.com/juunnail",
-    "description": "",
-    "tags": [],
-    "hours": "Monday: 10:00 AM – 7:00 PM / Tuesday: Closed / Wednesday: 10:00 AM – 7:00 PM / Thursday: Closed / Friday: 10:00 AM – 7:00 PM / Saturday: 10:00 AM – 6:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJq94ticv3wokR8PIVpCVnunY",
-    "priority": 0
-  },
-  {
-    "slug": "tokyo-nails-west-loop",
-    "name": "Tokyo Nails-West Loop",
-    "name_ja": null,
-    "area": "Busan",
-    "address": "Pink Storefront, 215 N Aberdeen St, Chicago, IL 60607, USA",
-    "lat": 41.8861,
-    "lng": -87.6543,
-    "phone": "+13125369353",
-    "website": "https://www.tokyonailschicago.com/",
-    "description": "",
-    "tags": [],
-    "hours": "Monday: Closed / Tuesday: 8:00 AM – 7:00 PM / Wednesday: Closed / Thursday: 8:00 AM – 7:00 PM / Friday: 8:00 AM – 7:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: 9:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJo8OdSgEtDogRW9M9gO94Y-k",
-    "priority": 0
-  },
-  {
-    "slug": "cupid-neko-japanese-nail-art",
-    "name": "Cupid Neko Japanese Nail Art",
-    "name_ja": null,
-    "area": "Busan",
-    "address": "142 N El Camino Real suite a108, Encinitas, CA 92024, USA",
-    "lat": 33.0476,
-    "lng": -117.2615,
-    "phone": "+14427772170",
-    "website": "https://cupidneko.com/",
-    "description": "",
-    "tags": [],
-    "hours": "Monday: 11:00 AM – 6:00 PM / Tuesday: 11:00 AM – 6:00 PM / Wednesday: 11:00 AM – 6:00 PM / Thursday: 11:00 AM – 6:00 PM / Friday: 11:00 AM – 6:00 PM / Saturday: 11:00 AM – 6:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJkV3TGQAL3IARSlSUidtJSTI",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "snow",
@@ -485,14 +386,18 @@
     "lng": 129.06,
     "phone": "+8250713036616",
     "website": "https://busan-snow.co.kr/",
-    "description": "",
-    "tags": [],
+    "description": "釜山にあるネイル・エステサロン。ネイルケアやフェイシャル、ボディケアを提供。",
+    "tags": [
+      "ネイル",
+      "エステ"
+    ],
     "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 4:00 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJBctvaADraDUROMkNwDbDTAg",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "misoan-clinic-cosmetic-plastic-surgery-dermatology-skin-care",
@@ -504,70 +409,17 @@
     "lng": 129.0316,
     "phone": "+82512570097",
     "website": "http://www.misoan.kr/",
-    "description": "",
-    "tags": [],
+    "description": "釜山にあるネイル・エステサロン。ネイルケアやフェイシャル、ボディケアを提供。",
+    "tags": [
+      "ネイル",
+      "エステ"
+    ],
     "hours": "Monday: 10:00 AM – 6:00 PM / Tuesday: 10:00 AM – 6:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: Closed / Friday: 10:00 AM – 6:00 PM / Saturday: 10:00 AM – 2:00 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJyR165ArpaDURlzp7L7_xkFw",
-    "priority": 0
-  },
-  {
-    "slug": "asmr-twix-tokyo-head-spa",
-    "name": "ASMR TWIX TOKYO HEAD SPA",
-    "name_ja": null,
-    "area": "Busan",
-    "address": "Japan, 〒151-0051 Tokyo, Shibuya, Sendagaya, 3-chōme−13−１４ ＹＳＫ bldg, F8",
-    "lat": 35.6779,
-    "lng": 139.7057,
-    "phone": null,
-    "website": "https://asmrtwixtokyoheadspa.com/",
-    "description": "",
-    "tags": [],
-    "hours": "Monday: 9:30 AM – 6:00 PM / Tuesday: 9:30 AM – 6:00 PM / Wednesday: 9:30 AM – 6:00 PM / Thursday: 9:30 AM – 6:00 PM / Friday: 9:30 AM – 6:00 PM / Saturday: 9:30 AM – 6:00 PM / Sunday: 9:30 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJ56t5qX2NGGARRdO8x8TeRvM",
-    "priority": 0
-  },
-  {
-    "slug": "kouhua",
-    "name": "関内エステサロン コウファ（Kouhua）",
-    "name_ja": null,
-    "area": "Busan",
-    "address": "ヴェラハイツ関内 801号, 2-chōme-20 Tokiwachō, Naka Ward, Yokohama, Kanagawa 231-0014, Japan",
-    "lat": 35.4456,
-    "lng": 139.6373,
-    "phone": "+817015345858",
-    "website": null,
-    "description": "",
-    "tags": [],
-    "hours": "Monday: 11:00 AM – 7:00 PM / Tuesday: 11:00 AM – 7:00 PM / Wednesday: 11:00 AM – 7:00 PM / Thursday: 11:00 AM – 7:00 PM / Friday: 11:00 AM – 7:00 PM / Saturday: 11:00 AM – 7:00 PM / Sunday: 11:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJg2Ff8xldGGARysES2fiBRN8",
-    "priority": 0
-  },
-  {
-    "slug": "namex-spa",
-    "name": "中野NAMEX SPA",
-    "name_ja": null,
-    "area": "Incheon",
-    "address": "3-chōme-36-15 Nakano, Nakano City, Tokyo 164-0001, Japan",
-    "lat": 35.7053,
-    "lng": 139.6653,
-    "phone": "+817091298313",
-    "website": "https://namexspa.com/",
-    "description": "",
-    "tags": [],
-    "hours": "Monday: 10:00 AM – 5:00 AM / Tuesday: 10:00 AM – 5:00 AM / Wednesday: 10:00 AM – 5:00 AM / Thursday: 10:00 AM – 5:00 AM / Friday: 10:00 AM – 5:00 AM / Saturday: 10:00 AM – 5:00 AM / Sunday: 10:00 AM – 5:00 AM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJTVKpIhzzGGARVY5_JxoVnXE",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   }
 ]
