@@ -5,6 +5,8 @@
     "name_ja": "東京海上日動 韓国サポートデスク",
     "area": "Seoul",
     "address": "Seoul",
+    "lat": null,
+    "lng": null,
     "phone": null,
     "website": "https://www.tokiomarine-nichido.co.jp/service/travel/kaigai/guide/consultation/hospital/korea.html",
     "description": "東京海上日動の海外旅行保険加入者向けサポート。韓国内の提携病院リストを提供しており、キャッシュレスで受診できる医療機関を紹介してくれる。24時間の日本語サポートデスクあり。",
@@ -14,9 +16,11 @@
       "キャッシュレス"
     ],
     "hours": "24時間（日本語サポートデスク）",
+    "last_verified": "2026-03-26",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-26",
+    "place_id": "",
+    "priority": 0,
     "ai_reviewed": true
   },
   {
@@ -25,18 +29,23 @@
     "name_ja": "損保ジャパン 海外旅行保険",
     "area": "Seoul",
     "address": "Seoul",
+    "lat": null,
+    "lng": null,
     "phone": null,
     "website": "https://www.sompo-japan.co.jp/kinsurance/leisure/off/",
-    "description": "韓国滞在中の医療費や損害賠償をカバーする海外旅行保険を提供。長期滞在者向けのプランもあり、韓国での駐在・留学・ワーホリにも対応。オンラインで申し込み可能。",
+    "description": "韓国滞在中の医療費や損害賠償をカバーする海外旅行保険を提供。長期滞在者向けのプランもあり、韓国での駐在・留学・ワーホリにも対応。韓国内でキャッシュレス治療が可能な提携病院あり。メディカルヘルプラインで日本語対応。",
     "tags": [
       "海外旅行保険",
       "長期滞在",
-      "オンライン申込"
+      "キャッシュレス",
+      "日本語対応"
     ],
     "hours": null,
+    "last_verified": "2026-03-29",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-26",
+    "place_id": "",
+    "priority": 0,
     "ai_reviewed": true
   },
   {
@@ -45,6 +54,8 @@
     "name_ja": "韓国国民健康保険公団",
     "area": "Seoul",
     "address": "Seoul",
+    "lat": null,
+    "lng": null,
     "phone": null,
     "website": "https://japanese.seoul.go.kr/%E6%9C%8D%E5%8B%99/%E4%BD%8F%E7%92%B0%E5%A2%83/%E5%8C%BB%E7%99%82%E4%BF%9D%E9%99%BA/",
     "description": "韓国に6ヶ月以上滞在する外国人は国民健康保険（NHIS）に自動加入となる。韓国国民と同じ保険給付を受けられ、医療費の70〜80%がカバーされる。ソウル市の公式サイトに日本語の案内あり。",
@@ -54,9 +65,11 @@
       "長期滞在者向け"
     ],
     "hours": null,
+    "last_verified": "2026-03-26",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-26",
+    "place_id": "",
+    "priority": 0,
     "ai_reviewed": true
   },
   {
@@ -65,18 +78,22 @@
     "name_ja": "東京海上日動 韓国",
     "area": "Seoul",
     "address": "Seoul",
+    "lat": null,
+    "lng": null,
     "phone": null,
-    "website": null,
+    "website": "https://www.tokiomarinehd.com/en/company/about/group.html",
     "description": "日本の東京海上グループの韓国拠点。日系企業向けの損害保険（火災、賠償責任、貨物）を提供。日本語での保険相談が可能。",
     "tags": [
       "日本語対応",
       "損害保険",
-      "日系企業"
+      "日系企業向け"
     ],
     "hours": null,
+    "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27",
+    "place_id": "",
+    "priority": 0,
     "ai_reviewed": true
   },
   {
@@ -85,18 +102,97 @@
     "name_ja": "三井住友海上 韓国",
     "area": "Seoul",
     "address": "Seoul",
+    "lat": null,
+    "lng": null,
     "phone": null,
-    "website": null,
+    "website": "https://www.ms-ins.com/",
     "description": "三井住友海上火災保険の韓国拠点。日系企業の韓国進出に伴う各種保険ニーズに対応。自動車保険、火災保険、賠償責任保険を日本語でサポート。",
     "tags": [
       "日本語対応",
       "損害保険",
-      "日系企業"
+      "日系企業向け"
     ],
     "hours": null,
+    "last_verified": "2026-03-27",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
+  },
+  {
+    "slug": "aig-sonpo-korea-cashless",
+    "name": "AIG Insurance - Korea Cashless Medical Service",
+    "name_ja": "AIG損保 韓国キャッシュレス医療サービス",
+    "area": "Seoul",
+    "address": "Seoul",
+    "lat": null,
+    "lng": null,
+    "phone": null,
+    "website": "https://www.aig.co.jp/sonpo/personal/product/travel/ota/anshin-guide/cashless_med/hosp_list",
+    "description": "AIG損保の海外旅行保険加入者向けサービス。ソウル市内のLohas International Clinic（二村）、Asan Medical Center、Dr.Lee Meen Jae's Clinic（二村）などの提携病院でキャッシュレス受診が可能。24時間日本語対応のアシスタンスセンターあり。",
+    "tags": [
+      "海外旅行保険",
+      "日本語対応",
+      "キャッシュレス",
+      "提携病院あり"
+    ],
+    "hours": "24時間（日本語アシスタンスセンター）",
+    "last_verified": "2026-03-29",
+    "status": "unverified",
+    "source": "website",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
+  },
+  {
+    "slug": "ji-desk-seoul",
+    "name": "JI Desk Seoul (JTB/AIG Joint Venture)",
+    "name_ja": "Jiデスク ソウル",
+    "area": "Seoul",
+    "address": "Seoul",
+    "lat": null,
+    "lng": null,
+    "phone": null,
+    "website": "https://www.ji-hoken.jp/",
+    "description": "ジェイアイ傷害火災保険（JTBとAIGの合弁）が運営するソウルのサポートデスク。海外旅行保険加入者向けに、日本語で現地の医療機関紹介・トラブル対応・観光情報提供を行う。世界36都市に設置されたJiデスクの1つ。",
+    "tags": [
+      "海外旅行保険",
+      "日本語対応",
+      "JTBグループ",
+      "現地サポート"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-29",
+    "status": "unverified",
+    "source": "website",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
+  },
+  {
+    "slug": "nhis-seoul-foreigner-center",
+    "name": "NHIS Seoul Foreigner Consultation Center",
+    "name_ja": "国民健康保険公団 ソウル外国人相談センター",
+    "area": "Guro-gu (Sindorim)",
+    "address": "97, Saemal-ro, Guro-gu, Seoul (Sindorim Technomart Business Bldg, 3F)",
+    "lat": null,
+    "lng": null,
+    "phone": null,
+    "website": "https://japanese.seoul.go.kr/%E6%9C%8D%E5%8B%99/%E4%BD%8F%E7%92%B0%E5%A2%83/%E5%8C%BB%E7%99%82%E4%BF%9D%E9%99%BA/",
+    "description": "韓国国民健康保険公団の外国人専用相談窓口。6ヶ月以上の長期滞在者の健康保険加入・免除手続きをサポート。日本の社会保険に加入中の駐在員は免除申請が可能。地下鉄1・2号線新道林駅3・4番出口からアクセス。",
+    "tags": [
+      "公的保険",
+      "外国人相談窓口",
+      "長期滞在者向け",
+      "免除申請"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-29",
+    "status": "unverified",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
     "ai_reviewed": true
   }
 ]
