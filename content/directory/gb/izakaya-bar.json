@@ -9,14 +9,15 @@
     "lng": null,
     "phone": "+442075841010",
     "website": "https://www.zumarestaurant.com/en/london",
-    "description": "ロンドンを代表する日本料理レストラン兼バー。40種以上の日本酒とカクテルを揃えるバーを併設。炉端焼き・寿司・刺身を提供。20年以上の歴史を持つ。",
-    "tags": ["居酒屋", "日本酒", "カクテル", "炉端焼き", "高級"],
-    "hours": null,
+    "description": "2004年開業のロンドンを代表する日本料理レストラン兼バー。東京の仕事帰りの居酒屋文化に着想を得た現代日本料理を提供。オープンキッチン、寿司カウンター、炉端焼きカウンターを備える。40種以上の日本酒とカクテルを揃えるバーを併設。",
+    "tags": ["居酒屋", "日本酒", "炉端焼き", "高級"],
+    "hours": "Mon-Fri 12:00-15:00, 18:00-23:00; Sat-Sun 12:00-15:30, 18:00-22:30",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "himi-izakaya-soho",
@@ -35,7 +36,8 @@
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "edo-izakaya-old-street",
@@ -54,7 +56,8 @@
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "yokoya-london",
@@ -66,14 +69,15 @@
     "lng": null,
     "phone": null,
     "website": "https://www.kaisekiyokoya.co.uk/",
-    "description": "マスターシェフ桑木誠氏が率いる日本料理店。懐石、おまかせ、居酒屋スタイルの食事を提供。",
-    "tags": ["居酒屋", "懐石", "おまかせ", "日本人シェフ"],
+    "description": "シェフ桑木誠氏が率いる日本料理店。懐石、おまかせ、居酒屋スタイルの食事を提供。",
+    "tags": ["懐石", "おまかせ", "日本人シェフ"],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "the-aubrey-london",
@@ -85,14 +89,15 @@
     "lng": null,
     "phone": null,
     "website": "https://theaubreycollection.com/london",
-    "description": "マンダリンオリエンタル内の日本料理レストラン＆バー。深夜営業の居酒屋スタイルでカクテルとDJを楽しめる。",
+    "description": "マンダリンオリエンタル・ハイドパーク内の日本料理レストラン＆バー。深夜営業の居酒屋スタイルでカクテルとDJを楽しめる。",
     "tags": ["居酒屋", "バー", "カクテル", "深夜営業"],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "roka-aldwych",
@@ -104,7 +109,7 @@
     "lng": null,
     "phone": "+442075806464",
     "website": "https://www.rokarestaurant.com/",
-    "description": "炉端焼きを中心とした日本料理レストラン＆バー。Zumaの姉妹店。日本酒、焼酎、カクテルを提供。ロンドンに4店舗を展開。",
+    "description": "炉端焼きを中心とした日本料理レストラン＆バー。Zumaの姉妹店。日本酒、焼酎、カクテルを提供。ロンドンに複数店舗を展開。",
     "tags": ["炉端焼き", "日本酒", "カクテル", "高級"],
     "hours": null,
     "last_verified": "2026-03-28",

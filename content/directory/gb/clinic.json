@@ -9,14 +9,15 @@
     "lng": null,
     "phone": "+442073301750",
     "website": "https://www.japangreen.co.uk/english/",
-    "description": "ロンドン在住日本人向けの日本語対応プライベートクリニック。日本人医師による成人・小児の一般診療、予防接種、健康診断を提供。",
+    "description": "ロンドン在住日本人向けの日本語対応プライベートクリニック。日本人医師による成人・小児の一般診療、予防接種、健康診断を提供。CQC（英国医療品質委員会）登録済み。Actonにもクリニック＆レディースクリニックを併設。",
     "tags": ["日本語対応", "日本人医師", "一般診療", "予防接種", "健康診断"],
-    "hours": null,
+    "hours": "Mon-Fri 9:00-18:00, Sat 9:00-14:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "japan-green-medical-centre-acton",
@@ -28,14 +29,15 @@
     "lng": null,
     "phone": "+442073301750",
     "website": "https://www.japangreen.co.uk/english/",
-    "description": "西ロンドンの日本人コミュニティに貢献するクリニック。日本人医師による一般診療とレディースクリニックを併設。",
+    "description": "西ロンドンの日本人コミュニティに根ざしたクリニック。日本人医師による一般診療とレディースクリニックを併設。平日・週末ともに診療。CQC登録済み。",
     "tags": ["日本語対応", "日本人医師", "一般診療", "レディースクリニック"],
-    "hours": null,
+    "hours": "Mon-Fri 9:00-18:00, Sat-Sun 9:00-17:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "london-doctors-clinic",
@@ -47,14 +49,15 @@
     "lng": null,
     "phone": "+442087123390",
     "website": "https://www.londondoctorsclinic.co.uk/",
-    "description": "多言語対応のプライベートGPクリニック。日本語を話す医師の予約が可能。ロンドン市内に複数拠点あり。",
-    "tags": ["日本語対応", "一般診療", "多言語対応"],
+    "description": "多言語対応のプライベートGPクリニック。日本語を話す医師の予約が可能（事前リクエスト制）。Barbican、Holborn、Liverpool Street、Marylebone等ロンドン市内に13拠点。",
+    "tags": ["日本語対応可", "一般診療", "多拠点"],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "rainbow-forest-centre",
@@ -73,26 +76,8 @@
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
-    "priority": 0
-  },
-  {
-    "slug": "international-clinic-london",
-    "name": "International Clinic",
-    "name_ja": "インターナショナルクリニック",
-    "area": "London",
-    "address": null,
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://internationalclinic.org/",
-    "description": "多言語対応の医療サービスを提供するクリニック。日本語対応の医療相談が可能。",
-    "tags": ["日本語対応", "多言語対応", "一般診療"],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "nippon-clinic-harley-street",
@@ -104,8 +89,8 @@
     "lng": null,
     "phone": "+442074679907",
     "website": "https://www.nipponclinic.co.uk/",
-    "description": "ハーリーストリートにある日本語対応のプライベートクリニック。日本人医師が一般診療、健康診断、予防接種を提供。鍼治療・漢方も対応。",
-    "tags": ["日本語対応", "日本人医師", "一般診療", "健康診断", "鍼治療"],
+    "description": "ハーリーストリート（ロンドンの医療街）にある日本語対応のプライベートクリニック。日本人医師が一般診療、健康診断、予防接種を提供。鍼治療・漢方も対応。",
+    "tags": ["日本語対応", "日本人医師", "一般診療", "鍼治療"],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",

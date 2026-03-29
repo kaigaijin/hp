@@ -9,33 +9,35 @@
     "lng": null,
     "phone": "+442045060270",
     "website": "https://kensestate.com/en",
-    "description": "2001年設立の日系不動産エージェント。「おもてなし」の精神で賃貸・売買・物件管理・リノベーションを提供。ロンドン全域および英国主要都市をカバー。",
+    "description": "2001年設立の日系ブティック不動産エージェント。「おもてなし」の精神で日本人駐在員・移住者向けに賃貸・売買・物件管理・リノベーション・インテリアデザインを提供。ロンドン全域および英国主要都市をカバー。PRS・SafeAgent認定。",
     "tags": ["日本語対応", "賃貸", "売買", "物件管理", "日系"],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "london-tokyo-property-services",
     "name": "London-Tokyo Property Services Ltd.",
     "name_ja": "ロンドン東京プロパティサービス",
     "area": "Hampstead",
-    "address": "Hampstead Green Hill, 122C Finchley Road, London NW3 5HT",
+    "address": "122C Finchley Road, London NW3 5HT",
     "lat": null,
     "lng": null,
     "phone": "+442074313550",
     "website": "https://www.london-tokyo.co.uk/en/",
-    "description": "1987年Bond Street近くに設立。日本企業の駐在員や外交官の住居探しを専門とする。年間2,000件以上の住居斡旋実績。ロンドン市内に6支店を展開。",
+    "description": "1987年Bond Street近くに設立された日系不動産エージェント。日本企業の駐在員や外交官の住居探しを専門とする。NAEA・ARLA登録、Propertymark認定。バイリンガルサイト（日本語・英語）で物件情報を提供。",
     "tags": ["日本語対応", "賃貸", "駐在員向け", "日系", "老舗"],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "japan-services-estate-agents",
@@ -47,14 +49,15 @@
     "lng": null,
     "phone": "+442087520445",
     "website": "https://www.japanservices.co.uk/",
-    "description": "1976年設立のロンドンの日系不動産エージェント。日本人テナント向けの賃貸・売買を専門とする。West Acton駅から20m。",
+    "description": "1976年設立のロンドンの日系不動産エージェント。「ロンドンで最も多くの日本人テナントを持つ不動産会社の一つ」を自負。Ealing・West Actonエリアの賃貸・売買を専門とする。NAEA・ARLA・Property Ombudsman登録。West Acton駅から20m。",
     "tags": ["日本語対応", "賃貸", "売買", "日系", "老舗"],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "japan-letting-agency",
@@ -73,7 +76,8 @@
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "benham-and-reeves-japan-desk",
@@ -92,7 +96,8 @@
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "jc-international-property",
@@ -111,6 +116,7 @@
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   }
 ]

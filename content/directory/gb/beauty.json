@@ -9,14 +9,15 @@
     "lng": null,
     "phone": "+442072427877",
     "website": "https://en.hayatosalons.com/page/london/",
-    "description": "東京・ニューヨーク・ロンドンに展開する日系ヘアサロン。30年以上の実績。ダメージレスカラー、パーマ、ヘッドスパを提供。ネイルサービスも併設。",
+    "description": "1992年創業のHAYATOグループのロンドン店。東京・ニューヨーク・ロンドンに展開する日系ヘアサロン。日本人スタイリストによるカット、ダメージレスカラー、デジタルパーマ、縮毛矯正、ジャパニーズヘッドスパを提供。ネイル・アイラッシュサービスも併設。Fresha Best in Classを5年連続受賞。",
     "tags": ["ヘアサロン", "日本人スタイリスト", "ヘッドスパ", "ネイル"],
     "hours": "Mon-Sun 10:00-19:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "my-snug-room",
@@ -35,26 +36,28 @@
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "hiro-miyoshi-mayfair",
-    "name": "Hiro Miyoshi Mayfair",
-    "name_ja": "ヒロ ミヨシ メイフェア",
+    "name": "Hiro Miyoshi",
+    "name_ja": "ヒロ ミヨシ",
     "area": "Mayfair",
     "address": "63 Curzon Street, London W1J 8PD",
     "lat": null,
     "lng": null,
     "phone": "+442074938286",
     "website": "https://hiromiyoshi.com/",
-    "description": "メイフェアに4店舗を展開する日系高級ヘアサロン。「おもてなし」の精神を掲げ、カット、カラー、トリートメントを提供。",
+    "description": "「おもてなし」の精神を掲げる日系高級ヘアサロン。Mayfairに複数店舗（Curzon Street、Green Park、The Londoner、Lansdowne Club）を展開。Tatler誌「Outstanding Scissoring」受賞。Oribe、Shu Uemuraなどのプレミアムヘアプロダクトも販売。カタール・ドーハにも進出。",
     "tags": ["ヘアサロン", "日本人スタイリスト", "高級", "おもてなし"],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "j-moriyama-hair-design-marylebone",
@@ -66,14 +69,15 @@
     "lng": null,
     "phone": "+442077248860",
     "website": "https://jmoriyama.com/",
-    "description": "1999年創業の日系ヘアサロン。森山順子氏が設立。City店（70 Queen Victoria Street）もあり。日本の美容技術を提供。",
+    "description": "1999年に森山順子氏が創業した日系ヘアサロン。日本の美容技術を提供。City店（70 Queen Victoria Street）もあり。",
     "tags": ["ヘアサロン", "日本人スタイリスト", "老舗"],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "tomoyuki-and-co",
@@ -92,7 +96,8 @@
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "camiyui-london",
@@ -104,14 +109,15 @@
     "lng": null,
     "phone": "+442089922988",
     "website": "https://www.camiyuilondon.com/",
-    "description": "アジア人の髪質を熟知した日系ヘアサロン。精密カット、カスタマイズトリートメント、カラーリングを専門とする。",
+    "description": "アジア人の髪質を熟知した日系ヘアサロン。精密カット、カスタマイズトリートメント、カラーリングを専門とする。日本人が多く住むEaling Commonエリアに位置。",
     "tags": ["ヘアサロン", "日本人スタイリスト", "アジア人髪質対応"],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "mosaique-london",
@@ -130,7 +136,8 @@
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "aube-international-london",
@@ -149,25 +156,6 @@
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
-    "priority": 0
-  },
-  {
-    "slug": "sloans-japan-house",
-    "name": "Sloane's Japan House",
-    "name_ja": "スローンズ ジャパンハウス",
-    "area": "Kensington",
-    "address": "101-111 Kensington High Street, London W8 5SA",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.japanhouselondon.uk/",
-    "description": "Japan House London内で定期的に開催される日本の美容イベント。日本人スタイリストによるヘアカットやヘッドスパ体験を提供。",
-    "tags": ["ヘアサロン", "日本人スタイリスト", "イベント"],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
     "priority": 0,
     "ai_reviewed": true
   },
@@ -182,7 +170,7 @@
     "phone": "+442072434141",
     "website": "https://www.naruhairsalon.com/",
     "description": "ノッティングヒルにある日系ヘアサロン。日本人スタイリストによるカット、カラー、パーマ、縮毛矯正を提供。",
-    "tags": ["ヘアサロン", "日本人スタイリスト", "縮毛矯正", "パーマ"],
+    "tags": ["ヘアサロン", "日本人スタイリスト", "縮毛矯正"],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -221,7 +209,7 @@
     "lng": null,
     "phone": "+442074930150",
     "website": "https://www.harihair.com/",
-    "description": "メイフェアの一等地に位置する日系ヘアサロン。日本人スタイリストによるカット、カラー、トリートメントを提供。1989年創業。",
+    "description": "1989年創業。メイフェアのNew Bond Streetに位置する日系ヘアサロン。日本人スタイリストによるカット、カラー、トリートメントを提供。",
     "tags": ["ヘアサロン", "日本人スタイリスト", "高級", "老舗"],
     "hours": null,
     "last_verified": "2026-03-28",

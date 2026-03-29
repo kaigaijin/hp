@@ -9,14 +9,15 @@
     "lng": null,
     "phone": "+442033430700",
     "website": "https://sakuradc.co.uk/",
-    "description": "日本人コミュニティ向けの歯科クリニック。日本語での診療に対応。CQC（英国医療品質委員会）登録済み。",
+    "description": "日本人コミュニティ向けに特化した歯科クリニック。日本語での診療に対応。CQC（英国医療品質委員会）登録済み。",
     "tags": ["日本語対応", "歯科", "日本人コミュニティ向け"],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "bloom-dental-studio",
@@ -35,7 +36,8 @@
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "nami-dental-clinic",
@@ -54,7 +56,8 @@
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "ko-dental-practice",
@@ -66,14 +69,15 @@
     "lng": null,
     "phone": "+442079355983",
     "website": "https://kodental.co.uk/",
-    "description": "日本語対応の歯科医院。Wimpole Street（ロンドンの医療街）に位置。",
+    "description": "Wimpole Street（ロンドンの医療街）にある日本語対応の歯科医院。",
     "tags": ["日本語対応", "歯科"],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "infinitidental-clinic-wimbledon",
@@ -92,7 +96,8 @@
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "emilys-dental-wimbledon",
