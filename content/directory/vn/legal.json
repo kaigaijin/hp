@@ -16,7 +16,8 @@
     "hours": "月〜金 9:00-18:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "tmi-hcmc",
@@ -35,7 +36,8 @@
     "hours": "月〜金 9:00-18:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "kagayaki-tny-legal-hcmc",
@@ -54,7 +56,8 @@
     "hours": "月〜金 9:00-18:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "baker-mckenzie-hcmc",
@@ -73,7 +76,8 @@
     "hours": "平日 8:30〜17:30",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "anderson-mori-tomotsune-vn",
@@ -92,7 +96,8 @@
     "hours": "平日 8:30〜17:30",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "mori-hamada-matsumoto-vn",
@@ -111,7 +116,8 @@
     "hours": "平日 8:30〜17:30",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "atsumi-sakai-hcmc",
@@ -122,11 +128,16 @@
     "phone": "+842835208145",
     "website": "https://www.aplawjapan.com/en/offices/ho-chi-minh-city",
     "description": "2024年7月開設の日本の大手法律事務所ベトナム拠点。日系企業のベトナムでのM&A、コーポレート法務、政府交渉をサポート。日本人弁護士常駐。",
-    "tags": ["日本人弁護士", "M&A", "コーポレート法務"],
+    "tags": [
+      "日本人弁護士",
+      "M&A",
+      "コーポレート法務"
+    ],
     "hours": "平日 8:30-17:30",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "one-asia-lawyers-vn",
@@ -137,11 +148,16 @@
     "phone": null,
     "website": "https://oneasia.legal/en/office/vietnam",
     "description": "アジア全域にネットワークを持つ法律事務所グループのベトナム拠点。日本企業のベトナム進出に関する法務をサポート。",
-    "tags": ["日系法律事務所", "アジアネットワーク", "日本語対応"],
+    "tags": [
+      "日系法律事務所",
+      "アジアネットワーク",
+      "日本語対応"
+    ],
     "hours": "平日 8:30-17:30",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "castglobal-law-hcmc",
@@ -154,7 +170,11 @@
     "phone": "+842839140909",
     "website": "https://cast-vietnam.com/",
     "description": "2013年設立の日系法律事務所。日本人弁護士とベトナム人弁護士が在籍。日系企業のベトナム進出、労務、契約書、M&A、不動産に対応。",
-    "tags": ["日本人弁護士", "日系法律事務所", "進出支援"],
+    "tags": [
+      "日本人弁護士",
+      "日系法律事務所",
+      "進出支援"
+    ],
     "hours": "平日 8:30-17:30",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -174,7 +194,11 @@
     "phone": "+842437606628",
     "website": "https://cast-vietnam.com/",
     "description": "キャストグローバル法律事務所のハノイ支店（2022年開設）。日本人弁護士在籍。ベトナム北部の日系企業向け法務サービスを提供。",
-    "tags": ["日本人弁護士", "日系法律事務所", "日本語対応"],
+    "tags": [
+      "日本人弁護士",
+      "日系法律事務所",
+      "日本語対応"
+    ],
     "hours": "平日 8:30-17:30",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -194,7 +218,11 @@
     "phone": "+842471076899",
     "website": "https://www.meilin-law.jp/vietnam/",
     "description": "2025年4月に明倫国際法律事務所とTTP法律事務所が統合して誕生。20年以上の実績と日本語対応可能なベトナム人弁護士を擁するベトナム最大規模の日系法律事務所。",
-    "tags": ["日系法律事務所", "ベトナム最大級", "日本語対応"],
+    "tags": [
+      "日系法律事務所",
+      "ベトナム最大級",
+      "日本語対応"
+    ],
     "hours": "平日 8:30-17:30",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -214,7 +242,11 @@
     "phone": null,
     "website": "https://www.meilin-law.jp/vietnam/",
     "description": "TTP明倫法律事務所のホーチミン拠点。日系企業向けに法人設立、労務、契約書作成、紛争解決を日本語でサポート。",
-    "tags": ["日系法律事務所", "法人設立", "日本語対応"],
+    "tags": [
+      "日系法律事務所",
+      "法人設立",
+      "日本語対応"
+    ],
     "hours": "平日 8:30-17:30",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -234,7 +266,11 @@
     "phone": null,
     "website": "https://www.noandt.com/locations/ho_chi_minh_city/",
     "description": "日本の五大法律事務所の一つのホーチミン拠点（2011年開設）。現地のベトナム人弁護士も複数名在籍し、M&A・投資・企業法務を日本語でサポート。",
-    "tags": ["日本人弁護士", "五大法律事務所", "M&A"],
+    "tags": [
+      "日本人弁護士",
+      "五大法律事務所",
+      "M&A"
+    ],
     "hours": "平日 9:00-18:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -254,7 +290,11 @@
     "phone": null,
     "website": "https://www.noandt.com/locations/hanoi/",
     "description": "長島・大野・常松法律事務所のハノイ拠点。ベトナム人弁護士が複数名常駐し、日系企業の投資・法務案件に対応。",
-    "tags": ["日本人弁護士", "五大法律事務所", "日本語対応"],
+    "tags": [
+      "日本人弁護士",
+      "五大法律事務所",
+      "日本語対応"
+    ],
     "hours": "平日 9:00-18:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -274,7 +314,11 @@
     "phone": null,
     "website": "https://uryuitoga.com/cat/asia/vietnam",
     "description": "日本の法律事務所のベトナム拠点。ハノイ・ホーチミンに支店を開設。駐在員事務所・現地法人の設立、M&A、デューディリジェンスなど幅広い法務を提供。",
-    "tags": ["日系法律事務所", "法人設立", "M&A"],
+    "tags": [
+      "日系法律事務所",
+      "法人設立",
+      "M&A"
+    ],
     "hours": "平日 8:30-17:30",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -294,7 +338,11 @@
     "phone": null,
     "website": "https://www.jurists.co.jp/ja/offices/hanoi.html",
     "description": "西村あさひ法律事務所のハノイ拠点（2011年開設）。日本人弁護士・ベトナム人弁護士が在籍し、日系企業のベトナム北部における法務をサポート。",
-    "tags": ["日本人弁護士", "日系法律事務所", "日本語対応"],
+    "tags": [
+      "日本人弁護士",
+      "日系法律事務所",
+      "日本語対応"
+    ],
     "hours": "平日 9:00-18:00",
     "last_verified": "2026-03-28",
     "status": "unverified",

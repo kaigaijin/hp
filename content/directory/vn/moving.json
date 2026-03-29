@@ -16,7 +16,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "nippon-express-vietnam",
@@ -35,7 +36,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "crown-line-vietnam-hanoi",
@@ -54,7 +56,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sagawa-vietnam",
@@ -73,7 +76,8 @@
     "hours": "平日 8:30〜17:30",
     "status": "unverified",
     "source": "web_search",
-    "last_verified": "2026-03-28"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "yamato-vietnam",
@@ -92,7 +96,8 @@
     "hours": "平日 8:30〜17:30",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "his-logistics-vietnam",
@@ -111,7 +116,8 @@
     "hours": "平日 8:30〜17:30",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "yamatane-asian-tigers-hcmc",
@@ -124,7 +130,11 @@
     "phone": null,
     "website": "https://www.yamatane.co.jp/moving/network/vietnam.html",
     "description": "ベトナム最初の外資系海外引越専門業者Asian Tigers Transpo Internationalと提携した日系引越しサービス。2016年にホーチミンオフィスを開設。日本人スタッフ常駐で日本語対応。",
-    "tags": ["国際引越し", "日本人スタッフ", "日系"],
+    "tags": [
+      "国際引越し",
+      "日本人スタッフ",
+      "日系"
+    ],
     "hours": "要確認",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -144,7 +154,11 @@
     "phone": null,
     "website": "https://www.yamatane.co.jp/moving/network/vietnam.html",
     "description": "ヤマタネ/Asian Tigersのハノイ拠点。1993年よりベトナムで海外引越を専門に扱い、日本人スタッフが常駐。日本語での見積もり・手配が可能。",
-    "tags": ["国際引越し", "日本人スタッフ", "日系"],
+    "tags": [
+      "国際引越し",
+      "日本人スタッフ",
+      "日系"
+    ],
     "hours": "要確認",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -164,7 +178,11 @@
     "phone": null,
     "website": null,
     "description": "佐川急便ベトナムのハノイ事務所。国内・国際引越し、法人向け物流サービスを提供。日本人担当者と日本語で対応可能。",
-    "tags": ["引越し", "国際配送", "日系"],
+    "tags": [
+      "引越し",
+      "国際配送",
+      "日系"
+    ],
     "hours": "平日 8:30〜17:30",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -184,7 +202,11 @@
     "phone": null,
     "website": "https://www.logitemvietnam.com/",
     "description": "1994年に日系物流企業として初めてベトナムに進出。ハノイ・ホーチミン・ハイフォン・ダナンに物流拠点を持つ。日系企業向けに国際貨物輸送・国内輸送・倉庫サービスを提供。",
-    "tags": ["物流", "国際輸送", "日系"],
+    "tags": [
+      "物流",
+      "国際輸送",
+      "日系"
+    ],
     "hours": "平日 8:30〜17:30",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -204,7 +226,11 @@
     "phone": null,
     "website": "https://fujiwaraunyu.com/service/vietnam.html",
     "description": "2014年に現地パートナーとの合弁で設立された日系物流会社。ベトナム進出企業の物流面サポートと日本・ベトナム間の一貫輸送を提供。",
-    "tags": ["物流", "一貫輸送", "日系"],
+    "tags": [
+      "物流",
+      "一貫輸送",
+      "日系"
+    ],
     "hours": "平日 8:30〜17:30",
     "last_verified": "2026-03-28",
     "status": "unverified",

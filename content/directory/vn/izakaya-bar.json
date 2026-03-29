@@ -16,83 +16,8 @@
     "hours": "月〜土 18:00-26:00 / 日 18:00-24:00",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "sushi-rei",
-    "name": "Sushi Rei",
-    "name_ja": "寿司玲",
-    "area": "District 1",
-    "address": "10E1-10E, Nguyen Thi Minh Khai, Da Kao, District 1, Ho Chi Minh City",
-    "phone": "+84764424653",
-    "website": "https://sushi-rei-vn.com/",
-    "description": "ホーチミン屈指のおまかせ寿司レストラン。日本から直送される新鮮な食材を使用。カウンター席での本格おまかせ体験。要予約。日本酒も充実。",
-    "tags": [
-      "おまかせ",
-      "要予約",
-      "日本酒"
-    ],
-    "hours": "17:30-22:00",
-    "last_verified": "2026-03-26",
-    "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "hatoyama-ly-thuong-kiet",
-    "name": "Hatoyama Hoan Kiem",
-    "name_ja": "鳩山 ホアンキエム",
-    "area": "Hoan Kiem, Hanoi",
-    "address": "13 Ly Thuong Kiet, Hoan Kiem, Hanoi",
-    "phone": "+84918962288",
-    "website": "https://hatoyama.vn/en/",
-    "description": "Hatoyamaのホアンキエム店。旧市街近くの好立地で、日本から空輸された食材を使った寿司、刺身、焼き物を提供。日本酒も豊富で、ディナータイムの居酒屋使いにも最適。",
-    "tags": [
-      "日本料理",
-      "居酒屋使い可",
-      "日本酒"
-    ],
-    "hours": "10:30-14:00 / 17:30-22:00",
-    "last_verified": "2026-03-26",
-    "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "hatoyama-ba-dinh",
-    "name": "Hatoyama Ba Dinh",
-    "name_ja": "鳩山 バーディン",
-    "area": "Ba Dinh, Hanoi",
-    "address": "2 Van Phuc, Ba Dinh, Hanoi",
-    "phone": "+84948192288",
-    "website": "https://hatoyama.vn/en/",
-    "description": "Hatoyamaのバーディン本店。日本海から24時間以内に空輸される食材を使用した本格和食。居酒屋メニューも充実し、日本人コミュニティの集いの場。",
-    "tags": [
-      "日本料理",
-      "食材直送",
-      "居酒屋メニュー"
-    ],
-    "hours": "10:30-14:00 / 17:30-22:00",
-    "last_verified": "2026-03-26",
-    "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "ippudo-hcmc",
-    "name": "IPPUDO Vietnam",
-    "name_ja": "一風堂 ベトナム",
-    "area": "District 1",
-    "address": "31 Thai Van Lung, Ben Nghe, District 1, Ho Chi Minh City",
-    "phone": "+841900633337",
-    "website": "https://www.facebook.com/ippudovietnam/",
-    "description": "世界的に有名な一風堂のベトナム店。濃厚な豚骨ラーメンに加え、餃子やビールなど居酒屋的なメニューも楽しめる。ジャパンタウンに位置。",
-    "tags": [
-      "ラーメン",
-      "居酒屋使い可",
-      "ジャパンタウン"
-    ],
-    "hours": "月〜金 11:00-14:00, 17:00-21:00 / 土日 11:00-21:00",
-    "last_verified": "2026-03-26",
-    "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sakaba-sasuke-hcmc",
@@ -111,7 +36,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "tsubaki-izakaya-hanoi",
@@ -130,7 +56,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "sumibiya-hcmc",
@@ -149,7 +76,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "ebisu-izakaya-hcmc",
@@ -168,7 +96,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "yazawa-hanoi",
@@ -187,7 +116,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "torisho-d1",
@@ -206,26 +136,8 @@
     "hours": "17:00〜23:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "sake-bar-saigon",
-    "name": "Sake Bar Saigon",
-    "name_ja": "酒バー サイゴン",
-    "area": "District 1",
-    "address": "Thai Van Lung, District 1, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "タイバンルン通りの日本酒バー。全国各地の地酒を取り揃え、利き酒セットも提供。",
-    "tags": [
-      "日本酒",
-      "バー",
-      "利き酒"
-    ],
-    "hours": "18:00〜翌1:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "oden-ya-hcmc",
@@ -244,7 +156,8 @@
     "hours": "17:00〜23:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "izakaya-komachi-hanoi",
@@ -263,7 +176,8 @@
     "hours": "17:00〜23:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "izakaya-daichan-hcmc",
@@ -282,7 +196,8 @@
     "hours": "17:00〜23:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "izakaya-shimbashi-hanoi",
@@ -301,7 +216,8 @@
     "hours": "17:00〜23:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "yakiniku-hanoi",
@@ -320,7 +236,8 @@
     "hours": "11:30〜14:00 / 17:30〜22:30",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "izakaya-kenta-hcmc",
@@ -339,7 +256,8 @@
     "hours": "17:00〜23:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "yakiniku-house-hcmc",
@@ -358,26 +276,8 @@
     "hours": "11:30〜23:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "sake-bar-hanoi",
-    "name": "Sake Bar Hanoi",
-    "name_ja": "酒バー ハノイ",
-    "area": "Ba Dinh",
-    "address": "Ba Dinh, Hanoi",
-    "phone": null,
-    "website": null,
-    "description": "ハノイの日本酒バー。全国各地の地酒を取り揃え。日本人駐在員の憩いの場。",
-    "tags": [
-      "日本酒",
-      "バー",
-      "駐在員"
-    ],
-    "hours": "18:00〜翌1:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "izakaya-ten-hcmc",
@@ -396,7 +296,8 @@
     "hours": "17:00〜24:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "sns"
+    "source": "sns",
+    "ai_reviewed": true
   },
   {
     "slug": "izakaya-ten-thai-van-lung",
@@ -415,7 +316,8 @@
     "hours": "17:00〜24:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "sns"
+    "source": "sns",
+    "ai_reviewed": true
   },
   {
     "slug": "kaku-izakaya-hcmc",
@@ -434,7 +336,8 @@
     "hours": "17:00〜23:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "shamoji-izakaya-thao-dien",
@@ -453,7 +356,8 @@
     "hours": "17:00〜23:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "izakaya-unatoto-ben-thanh",
@@ -472,7 +376,8 @@
     "hours": "11:00〜22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "izakaya-yoshi-d1-hcmc",
@@ -491,7 +396,8 @@
     "hours": "17:30〜23:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "yazawa-hcmc",
@@ -511,7 +417,8 @@
     "hours": "11:30〜14:00 / 17:30〜22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "le-thanh-ton-sakaba-rest",
@@ -530,45 +437,8 @@
     "hours": "17:00〜23:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "gyu-kaku-hanoi",
-    "name": "Gyu-Kaku Hanoi",
-    "name_ja": "牛角 ハノイ",
-    "area": "Hoan Kiem, Hanoi",
-    "address": "Hoan Kiem, Hanoi",
-    "phone": null,
-    "website": null,
-    "description": "牛角のハノイ店。食べ放題コースで日本式焼肉を楽しめる。",
-    "tags": [
-      "焼肉",
-      "食べ放題",
-      "日本発チェーン"
-    ],
-    "hours": "11:00〜23:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "robata-an-thai-van-lung",
-    "name": "Robata AN Thai Van Lung",
-    "name_ja": "炉端AN タイバンルン",
-    "area": "District 1",
-    "address": "Thai Van Lung, District 1, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "タイバンルン通りの炉端焼き居酒屋。炭火焼の肉・魚介と日本酒を楽しめる。",
-    "tags": [
-      "炉端焼き",
-      "タイバンルン",
-      "日本酒"
-    ],
-    "hours": "17:00〜23:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "izakaya-tachibana-hcmc",
@@ -587,7 +457,8 @@
     "hours": "17:30〜23:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "zumwhere-dong-du",
@@ -606,7 +477,8 @@
     "hours": "17:00〜24:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "zumwhere-nguyen-trai",
@@ -625,7 +497,8 @@
     "hours": "17:00〜24:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "izakaya-matsuki-hanoi",
@@ -644,7 +517,8 @@
     "hours": "17:00〜25:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "izakaya-matsuki-linh-lang",
@@ -663,7 +537,8 @@
     "hours": "17:00〜24:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "gifuya-hcmc",
@@ -676,7 +551,11 @@
     "phone": null,
     "website": null,
     "description": "レタントン通りのヘム（路地）にある日本人経営の居酒屋。三重県四日市で18年間日本食店を経営していたオーナーが渡越。日本の居酒屋と変わらない味と雰囲気で、在住日本人に長年愛されている。日本酒は約20種類。",
-    "tags": ["居酒屋", "日本人経営", "ジャパンタウン"],
+    "tags": [
+      "居酒屋",
+      "日本人経営",
+      "ジャパンタウン"
+    ],
     "hours": "17:00〜23:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -696,7 +575,11 @@
     "phone": "+84906373203",
     "website": null,
     "description": "レタントン通りにある個室完備の居酒屋。旬の魚介や野菜を活かした炉端焼きが定番メニュー。日本人在住者の間で大人気の接待・宴会利用店。",
-    "tags": ["居酒屋", "個室", "炉端焼き"],
+    "tags": [
+      "居酒屋",
+      "個室",
+      "炉端焼き"
+    ],
     "hours": "17:30〜23:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -716,7 +599,11 @@
     "phone": null,
     "website": null,
     "description": "レタントンのヘムにある鰻専門店。炭火で焼き上げた香ばしい鰻が乗った「うな重」が一番人気。昼夜問わず日本人に人気。",
-    "tags": ["鰻", "日本料理", "ジャパンタウン"],
+    "tags": [
+      "鰻",
+      "日本料理",
+      "ジャパンタウン"
+    ],
     "hours": "11:00〜14:00 / 17:00〜22:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -736,7 +623,11 @@
     "phone": null,
     "website": "https://ebisu-syoten.com/",
     "description": "北海道に8店舗、タイに5店舗展開する大衆居酒屋のホーチミン店。2023年8月オープン。レタントンとタイバンルンの交差点に位置。串カツ・焼き鳥など大衆居酒屋メニューを提供。",
-    "tags": ["串カツ", "大衆居酒屋", "日本チェーン"],
+    "tags": [
+      "串カツ",
+      "大衆居酒屋",
+      "日本チェーン"
+    ],
     "hours": "11:00〜23:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -756,7 +647,11 @@
     "phone": "+84798777779",
     "website": null,
     "description": "宇都宮から進出した創作和食居酒屋。2024年6月オープン。リートゥチョン通りのノーフォークマンション一角に位置。日本人店長が営む心温まる居酒屋。深夜2時まで営業。",
-    "tags": ["居酒屋", "創作和食", "深夜営業"],
+    "tags": [
+      "居酒屋",
+      "創作和食",
+      "深夜営業"
+    ],
     "hours": "18:00〜翌2:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -776,7 +671,11 @@
     "phone": "+84868778360",
     "website": null,
     "description": "ファンビッチャン近くのアットホームな居酒屋。カウンター席での串焼きが名物。さつま揚げやホルモンも人気。デリバリーにも対応。",
-    "tags": ["居酒屋", "串焼き", "アットホーム"],
+    "tags": [
+      "居酒屋",
+      "串焼き",
+      "アットホーム"
+    ],
     "hours": "18:00〜翌1:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -796,7 +695,11 @@
     "phone": null,
     "website": null,
     "description": "渋谷で9年続く人気の「大衆酒場 酒呑気まるこ」のホーチミン店。2024年9月ファンビッチャンにオープン。大衆酒場の雰囲気をそのまま再現。",
-    "tags": ["大衆酒場", "東京発", "ファンビッチャン"],
+    "tags": [
+      "大衆酒場",
+      "東京発",
+      "ファンビッチャン"
+    ],
     "hours": "17:00〜23:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -816,7 +719,11 @@
     "phone": null,
     "website": null,
     "description": "ファンビッチャン（第二日本人街）の創作和食居酒屋。1階カウンター席、2階に4〜10名の個室を完備。カジュアルで落ち着いた雰囲気。ランチ営業あり。",
-    "tags": ["創作和食", "個室", "ファンビッチャン"],
+    "tags": [
+      "創作和食",
+      "個室",
+      "ファンビッチャン"
+    ],
     "hours": "11:00〜14:00 / 17:00〜23:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -836,7 +743,11 @@
     "phone": null,
     "website": null,
     "description": "日本国内200店舗以上展開の「ちよだ鮨」ベトナム1号店。寿司・刺身・焼き物・天ぷらを提供。個室・半個室あり、接待利用にも対応。",
-    "tags": ["寿司", "日本チェーン", "個室"],
+    "tags": [
+      "寿司",
+      "日本チェーン",
+      "個室"
+    ],
     "hours": "11:00〜23:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -856,7 +767,11 @@
     "phone": null,
     "website": null,
     "description": "レタントン通りのヘムにある居酒屋。お好み焼きや鉄板焼きメニューが人気。日本人駐在員のリピーターが多い。",
-    "tags": ["居酒屋", "お好み焼き", "ジャパンタウン"],
+    "tags": [
+      "居酒屋",
+      "お好み焼き",
+      "ジャパンタウン"
+    ],
     "hours": "17:00〜23:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -876,7 +791,11 @@
     "phone": null,
     "website": null,
     "description": "ハノイ・リンラン通りに隣接するMEDERUビル6階のバー。緑とピンクの照明で彩られた非日常空間で、ハノイの夜景も楽しめる。広い部屋と少人数用の部屋がある。",
-    "tags": ["バー", "リンラン", "夜景"],
+    "tags": [
+      "バー",
+      "リンラン",
+      "夜景"
+    ],
     "hours": "18:00〜翌1:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -896,7 +815,11 @@
     "phone": null,
     "website": null,
     "description": "リンラン地区にある日本人経営のオーセンティックバー。バーテンダー歴30年以上の日本人バーテンダーが作るカクテルが絶品。落ち着いた大人の雰囲気。",
-    "tags": ["バー", "日本人経営", "オーセンティック"],
+    "tags": [
+      "バー",
+      "日本人経営",
+      "オーセンティック"
+    ],
     "hours": "18:00〜翌1:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -916,28 +839,12 @@
     "phone": null,
     "website": null,
     "description": "2023年7月にハノイ・リンランエリアにオープンした居酒屋。さまざまな種類の釜飯がメニューの特徴。日本人駐在員に人気。",
-    "tags": ["居酒屋", "釜飯", "リンラン"],
+    "tags": [
+      "居酒屋",
+      "釜飯",
+      "リンラン"
+    ],
     "hours": "17:00〜23:00",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "izakaya-yen-danang",
-    "name": "Izakaya Yen",
-    "name_ja": "居酒屋 縁",
-    "area": "Hai Chau, Da Nang",
-    "address": "55b Nguyen Chi Thanh, Thach Thang, Hai Chau, Da Nang",
-    "lat": null,
-    "lng": null,
-    "phone": "+84973634905",
-    "website": null,
-    "description": "ダナンの日本人街にある日本食居酒屋。地消地産をテーマに、地元の食材で寿司、焼き鳥、ラーメンなど幅広い日本食を提供。ダナン在住日本人に愛される定番店。",
-    "tags": ["居酒屋", "地産地消", "ダナン"],
-    "hours": "平日 11:00〜14:00, 17:30〜22:00 / 土日 11:00〜22:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "web_search",
@@ -956,7 +863,11 @@
     "phone": null,
     "website": null,
     "description": "ホーチミンで人気の満月焼酎バーの3号店。2024年11月ダナンにオープン。焼酎・日本酒・梅酒・サワーなど日本のお酒が充実。焼き鳥などの居酒屋メニューも提供。",
-    "tags": ["焼酎バー", "日本酒", "ダナン"],
+    "tags": [
+      "焼酎バー",
+      "日本酒",
+      "ダナン"
+    ],
     "hours": "18:00〜翌1:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -976,7 +887,11 @@
     "phone": null,
     "website": null,
     "description": "ハノイ初の日本人経営ミックスバー。日本人バーテンダーがカクテルを提供。カジュアルな雰囲気で一人でも入りやすい。",
-    "tags": ["バー", "日本人経営", "カクテル"],
+    "tags": [
+      "バー",
+      "日本人経営",
+      "カクテル"
+    ],
     "hours": "18:00〜翌1:00",
     "last_verified": "2026-03-28",
     "status": "unverified",

@@ -16,7 +16,8 @@
     "hours": "8:00-22:00",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "akuruhi-ton-that-thiep",
@@ -34,7 +35,8 @@
     "hours": "8:00-22:00",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "hachi-hachi-japan-shop",
@@ -53,7 +55,8 @@
     "hours": "8:45-21:30",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "akuruhi-hanoi",
@@ -72,7 +75,8 @@
     "hours": "8:00〜22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "aeon-maxvalu-hcmc",
@@ -91,7 +95,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sakura-mart-hanoi",
@@ -110,7 +115,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "akuruhi-d7",
@@ -128,7 +134,8 @@
     "hours": "毎日 9:00〜21:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "akuruhi-da-nang",
@@ -146,7 +153,8 @@
     "hours": "毎日 9:00〜21:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "aeon-mall-binh-duong",
@@ -165,7 +173,8 @@
     "hours": "毎日 8:00〜22:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "aeon-mall-hcmc-tan-phu",
@@ -184,7 +193,8 @@
     "hours": "毎日 8:00〜22:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "hachi-hachi-hanoi",
@@ -203,7 +213,8 @@
     "hours": "毎日 8:00〜22:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "hachi-hachi-d7",
@@ -222,7 +233,8 @@
     "hours": "毎日 8:00〜22:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "aeon-mall-hanoi",
@@ -241,7 +253,8 @@
     "hours": "毎日 8:00〜22:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "sakura-market-d2",
@@ -259,7 +272,8 @@
     "hours": "毎日 9:00〜21:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "fujimart-le-duan-hanoi",
@@ -270,11 +284,16 @@
     "phone": null,
     "website": "https://fujimart.vn/",
     "description": "BRGグループと住友商事の合弁スーパー。日本基準の品質管理で生鮮食品・日用品を提供。日本食材コーナーが充実。",
-    "tags": ["日系スーパー", "住友商事合弁", "日本食材"],
+    "tags": [
+      "日系スーパー",
+      "住友商事合弁",
+      "日本食材"
+    ],
     "hours": "毎日 7:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "fujimart-hoang-cau-hanoi",
@@ -285,11 +304,16 @@
     "phone": null,
     "website": "https://fujimart.vn/",
     "description": "フジマートのドンダ区店。日本品質の生鮮食品・日用品を提供。日本食材コーナーで味噌・醤油・だしが手に入る。",
-    "tags": ["日系スーパー", "住友商事合弁", "日本食材"],
+    "tags": [
+      "日系スーパー",
+      "住友商事合弁",
+      "日本食材"
+    ],
     "hours": "毎日 7:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "fujimart-tran-phu-hanoi",
@@ -300,11 +324,16 @@
     "phone": null,
     "website": "https://fujimart.vn/",
     "description": "2025年2月オープンのフジマート新店。バディン区のリンラン通り近くで日本人駐在員に便利。日本食材が充実。",
-    "tags": ["日系スーパー", "新規オープン", "日本食材"],
+    "tags": [
+      "日系スーパー",
+      "新規オープン",
+      "日本食材"
+    ],
     "hours": "毎日 7:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "aeon-xuan-thuy-hanoi",
@@ -315,11 +344,16 @@
     "phone": null,
     "website": "https://www.aeon.com.vn/en/",
     "description": "2025年1月オープンのイオン新店。日本基準のスーパーで生鮮食品・日本食材・日用品を取り扱い。カウザイ地区のランドマーク。",
-    "tags": ["日系スーパー", "イオン", "新規オープン"],
+    "tags": [
+      "日系スーパー",
+      "イオン",
+      "新規オープン"
+    ],
     "hours": "毎日 8:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ichiban-market-hcmc",
@@ -332,7 +366,11 @@
     "phone": null,
     "website": null,
     "description": "アクルヒタワーの1〜3階に展開する大型日本食材スーパー。鮮魚・飲料・お菓子・調味料など種類が豊富。ホーチミンで最も品揃えの良い日本食材店の一つ。",
-    "tags": ["日本食材スーパー", "大型店舗", "鮮魚"],
+    "tags": [
+      "日本食材スーパー",
+      "大型店舗",
+      "鮮魚"
+    ],
     "hours": "8:00〜22:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -352,7 +390,11 @@
     "phone": null,
     "website": null,
     "description": "日本の業務スーパーとライセンス契約した「GYOMU Japan」のホーチミン1区店。日本から輸入した冷凍食品・調味料・日用品を中心に販売。レタントン日本人街で便利。",
-    "tags": ["業務スーパー", "日本食材", "ジャパンタウン"],
+    "tags": [
+      "業務スーパー",
+      "日本食材",
+      "ジャパンタウン"
+    ],
     "hours": "7:00〜22:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -372,7 +414,11 @@
     "phone": "+84962988815",
     "website": null,
     "description": "業務スーパー（GYOMU Japan）のホーチミン3区店。2023年オープン。日本の冷凍食品・調味料・お菓子・飲料を取り扱い。",
-    "tags": ["業務スーパー", "日本食材", "冷凍食品"],
+    "tags": [
+      "業務スーパー",
+      "日本食材",
+      "冷凍食品"
+    ],
     "hours": "7:00〜22:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -392,7 +438,11 @@
     "phone": null,
     "website": null,
     "description": "千葉県に拠点を置く日系スーパー「富分」のハノイ本店。日本のスーパーさながらの品揃えで、鮮魚・肉・納豆・豆腐・惣菜・弁当が充実。ハノイ在住日本人に大人気。",
-    "tags": ["日系スーパー", "惣菜", "キンマ通り"],
+    "tags": [
+      "日系スーパー",
+      "惣菜",
+      "キンマ通り"
+    ],
     "hours": "7:00〜22:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -412,7 +462,11 @@
     "phone": null,
     "website": null,
     "description": "富分のリンラン通り店。日本人街のリンランエリアにあり、深夜24時まで営業。仕事帰りの買い物にも便利。日本食材・日用品が揃う。",
-    "tags": ["日系スーパー", "リンラン", "深夜営業"],
+    "tags": [
+      "日系スーパー",
+      "リンラン",
+      "深夜営業"
+    ],
     "hours": "7:00〜24:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -432,7 +486,11 @@
     "phone": null,
     "website": null,
     "description": "富分のカウザイ地区店舗。The Loop IPH内に位置し、日本食材・惣菜・弁当を提供。カウザイ地区の日本人居住者に便利。",
-    "tags": ["日系スーパー", "カウザイ", "モール内"],
+    "tags": [
+      "日系スーパー",
+      "カウザイ",
+      "モール内"
+    ],
     "hours": "7:00〜22:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -452,7 +510,11 @@
     "phone": null,
     "website": null,
     "description": "富分のホーチミン・ファンビッチャン（第二日本人街）店。日本人街に位置し、日本の食材・日用品が手軽に手に入る。",
-    "tags": ["日系スーパー", "ファンビッチャン", "日本食材"],
+    "tags": [
+      "日系スーパー",
+      "ファンビッチャン",
+      "日本食材"
+    ],
     "hours": "7:00〜22:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -472,7 +534,11 @@
     "phone": null,
     "website": null,
     "description": "業務スーパー（GYOMU Japan）のダナン店舗。ダナン市内に3店舗展開。日本の冷凍食品・調味料・お菓子を取り扱い。ダナン在住日本人の食材調達に便利。",
-    "tags": ["業務スーパー", "日本食材", "ダナン"],
+    "tags": [
+      "業務スーパー",
+      "日本食材",
+      "ダナン"
+    ],
     "hours": "7:00〜22:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -492,7 +558,11 @@
     "phone": null,
     "website": "https://www.aeon.com.vn/",
     "description": "ホーチミン市ビンタン区のイオンモール。日本食材コーナーが充実しており、トップバリュPB商品も入手可能。フードコートには日本食テナントも入居。",
-    "tags": ["日系モール", "日本食材", "トップバリュ"],
+    "tags": [
+      "日系モール",
+      "日本食材",
+      "トップバリュ"
+    ],
     "hours": "8:00〜22:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -512,7 +582,11 @@
     "phone": null,
     "website": null,
     "description": "ハノイの日本製品専門スーパーのカウザイ区店舗。2011年設立、100%日本から仕入れた商品を取り扱い。ベビー用品・化粧品・家電まで幅広い品揃え。ハノイ市内に9店舗展開。",
-    "tags": ["日本製品専門", "ベビー用品", "化粧品"],
+    "tags": [
+      "日本製品専門",
+      "ベビー用品",
+      "化粧品"
+    ],
     "hours": "8:00〜22:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -532,7 +606,11 @@
     "phone": null,
     "website": null,
     "description": "2025年5月オープンの富分ミニマート。リンランエリアのコンビニ業態で、日本食材や弁当・惣菜を手軽に購入できる。日本人駐在員の日常使いに便利。",
-    "tags": ["日系ミニマート", "リンラン", "コンビニ型"],
+    "tags": [
+      "日系ミニマート",
+      "リンラン",
+      "コンビニ型"
+    ],
     "hours": "7:00〜23:00",
     "last_verified": "2026-03-28",
     "status": "unverified",

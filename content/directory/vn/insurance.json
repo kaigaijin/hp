@@ -16,7 +16,8 @@
     "hours": "平日 8:30〜17:30",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "sompo-vietnam",
@@ -35,7 +36,8 @@
     "hours": "平日 8:30〜17:30",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "msig-vietnam-hanoi",
@@ -48,7 +50,11 @@
     "phone": null,
     "website": "https://www.msig.com.vn/en/",
     "description": "MS&ADグループ（三井住友海上＋あいおいニッセイ同和）のベトナム本社。日系企業向け損害保険・自動車保険・医療保険を提供。個人向け医療保険も取り扱い。日本語対応可。",
-    "tags": ["損害保険", "日系", "日本語対応"],
+    "tags": [
+      "損害保険",
+      "日系",
+      "日本語対応"
+    ],
     "hours": "平日 8:30〜17:30",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -68,7 +74,11 @@
     "phone": "+842838219030",
     "website": "https://www.msig.com.vn/en/",
     "description": "三井住友海上のベトナム・ホーチミン支店。法人向け損害保険に加え、個人向けの医療保険・傷害保険も取り扱い。日本語対応可。",
-    "tags": ["損害保険", "日系", "法人・個人"],
+    "tags": [
+      "損害保険",
+      "日系",
+      "法人・個人"
+    ],
     "hours": "平日 8:30〜17:30",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -88,7 +98,11 @@
     "phone": "+842838100888",
     "website": "https://www.dai-ichi-life.com.vn/",
     "description": "第一生命グループのベトナム法人。2007年設立。ベトナムで生命保険事業を展開し、主要生命保険会社の一つに成長。ホーチミンに本社、ハノイに駐在員事務所あり。日本語対応可。",
-    "tags": ["生命保険", "日系", "日本語対応"],
+    "tags": [
+      "生命保険",
+      "日系",
+      "日本語対応"
+    ],
     "hours": "平日 8:00〜17:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -108,7 +122,11 @@
     "phone": "+842838221340",
     "website": "https://tokiomarine.com.vn/",
     "description": "東京海上日動のベトナム法人。1996年設立でベトナム初の外資系保険会社。損害保険・自動車保険に加え、現地採用日本人向けの医療保険も提供。日本語対応可。",
-    "tags": ["損害保険", "日系", "医療保険"],
+    "tags": [
+      "損害保険",
+      "日系",
+      "医療保険"
+    ],
     "hours": "平日 8:30〜17:30",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -128,7 +146,11 @@
     "phone": null,
     "website": null,
     "description": "米国発の保険会社。日本人担当者が在籍し、申し込みから補償手続きまで全て日本語でサポート。ベトナム国内でキャッシュレス補償対応。医療保険は年間約525USドルから加入可能。日本一時帰国時の治療費用も補償対象。",
-    "tags": ["医療保険", "日本語対応", "キャッシュレス"],
+    "tags": [
+      "医療保険",
+      "日本語対応",
+      "キャッシュレス"
+    ],
     "hours": "平日 8:30〜17:30",
     "last_verified": "2026-03-28",
     "status": "unverified",

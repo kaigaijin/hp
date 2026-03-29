@@ -16,7 +16,8 @@
     "hours": "ほぼ365日営業",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "tnk-travel-japan-hanoi",
@@ -35,7 +36,8 @@
     "hours": "ほぼ365日営業",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "vietnam-house-travel",
@@ -54,7 +56,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "his-hcmc",
@@ -73,7 +76,8 @@
     "hours": "平日 8:30〜17:30",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "sketch-travel-hcmc",
@@ -86,7 +90,11 @@
     "phone": "+842838212921",
     "website": "https://vietnam.sketch-travel.com/",
     "description": "2002年創業、ベトナム現地で20年以上の実績を持つ日系旅行会社。ホーチミン本店、ハノイ店、ダナン支店の3拠点を展開。オプショナルツアー・ホテル予約・航空券・ビザ手配を日本語で対応。",
-    "tags": ["日本語対応", "老舗", "ツアー"],
+    "tags": [
+      "日本語対応",
+      "老舗",
+      "ツアー"
+    ],
     "hours": "要確認",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -106,7 +114,11 @@
     "phone": "+842439449509",
     "website": "https://vietnam.sketch-travel.com/",
     "description": "スケッチトラベルのハノイ支店。ハロン湾・ニンビン・サパなどハノイ発のオプショナルツアーを日本語で手配可能。",
-    "tags": ["日本語対応", "ハノイ発ツアー", "日系"],
+    "tags": [
+      "日本語対応",
+      "ハノイ発ツアー",
+      "日系"
+    ],
     "hours": "要確認",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -126,7 +138,11 @@
     "phone": "+842363838577",
     "website": "https://vietnam.sketch-travel.com/",
     "description": "スケッチトラベルのダナン支店。ダナン・ホイアン周辺のツアーやホテル予約を日本語で対応。",
-    "tags": ["日本語対応", "ダナン発ツアー", "日系"],
+    "tags": [
+      "日本語対応",
+      "ダナン発ツアー",
+      "日系"
+    ],
     "hours": "要確認",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -146,7 +162,11 @@
     "phone": "+842838219451",
     "website": "https://www.wendytour.com/vietnam",
     "description": "東南アジア各国で展開する日系旅行会社のホーチミン拠点。ベトナム国内のオプショナルツアー、ホテル予約、出張・視察サポートを日本語で対応。日本人スタッフ駐在。",
-    "tags": ["日本語対応", "日本人スタッフ", "ツアー"],
+    "tags": [
+      "日本語対応",
+      "日本人スタッフ",
+      "ツアー"
+    ],
     "hours": "月-金 9:00-18:00 / 土 9:00-17:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -166,7 +186,11 @@
     "phone": "+84938195445",
     "website": "https://www.tnkjapan.com/",
     "description": "TNKトラベルJAPANのダナン支店。ダナン・ホイアン発のオプショナルツアーを日本語で手配。バーナーヒルズ・五行山・ホイアン旧市街ツアーなどが人気。",
-    "tags": ["日本語対応", "ダナン発ツアー", "現地ツアー"],
+    "tags": [
+      "日本語対応",
+      "ダナン発ツアー",
+      "現地ツアー"
+    ],
     "hours": "ほぼ365日営業",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -186,7 +210,11 @@
     "phone": null,
     "website": "https://tabi-choku.com/partner/detail/161/",
     "description": "日本人経営のホーチミン現地旅行会社。全ツアー日本語ガイド付き。メコン川クルーズ・ナイトライフツアー・タオディエンエリアツアーなどユニークなプランが豊富。お客様の要望に合わせた柔軟なツアーアレンジが可能。",
-    "tags": ["日本人経営", "日本語ガイド", "オーダーメイドツアー"],
+    "tags": [
+      "日本人経営",
+      "日本語ガイド",
+      "オーダーメイドツアー"
+    ],
     "hours": "要確認",
     "last_verified": "2026-03-28",
     "status": "unverified",

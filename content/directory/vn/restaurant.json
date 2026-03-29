@@ -16,7 +16,8 @@
     "hours": "17:30-22:00",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ippudo-hcmc",
@@ -35,7 +36,8 @@
     "hours": "月〜金 11:00-14:00, 17:00-21:00 / 土日 11:00-21:00",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "hatoyama-ba-dinh",
@@ -54,7 +56,8 @@
     "hours": "10:30-14:00 / 17:30-22:00",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "hatoyama-hoan-kiem",
@@ -73,26 +76,8 @@
     "hours": "10:30-14:00 / 17:30-22:00",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "mangetsu-shochu-bar",
-    "name": "Mangetsu Shochu Bar",
-    "name_ja": "満月 焼酎バー",
-    "area": "District 1",
-    "address": "15/3 Le Thanh Ton, Ben Nghe, District 1, Ho Chi Minh City",
-    "phone": "+84328200041",
-    "website": "https://www.facebook.com/mangetsuschochubar/",
-    "description": "ホーチミンのジャパンタウン（Le Thanh Ton通り）にある居酒屋。焼酎を中心とした日本酒類と、焼き物を中心とした一品料理が人気。日本人駐在員に愛される本格居酒屋。",
-    "tags": [
-      "居酒屋",
-      "焼酎",
-      "ジャパンタウン"
-    ],
-    "hours": "月〜土 18:00-26:00 / 日 18:00-24:00",
-    "last_verified": "2026-03-26",
-    "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "hatoyama-dien-bien-phu",
@@ -110,7 +95,8 @@
     "hours": "10:30-14:00 / 17:30-22:00",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "hatoyama-nguyen-chanh",
@@ -128,7 +114,8 @@
     "hours": "10:30-14:00 / 17:30-22:00",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ippudo-sc-vivocity",
@@ -147,7 +134,8 @@
     "hours": "10:00-22:00",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "yazawa-saigon",
@@ -167,7 +155,8 @@
     "hours": "17:00〜23:30",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sorae-restaurant",
@@ -187,7 +176,8 @@
     "hours": "11:30〜14:00 / 17:30〜23:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "torisho-izakaya-hcmc",
@@ -206,7 +196,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "ootoya-hcmc",
@@ -225,7 +216,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "fujiro-hcmc",
@@ -244,7 +236,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "gyu-shige-hcmc",
@@ -263,7 +256,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "marukame-udon-hcmc",
@@ -282,7 +276,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "sushi-tei-hcmc",
@@ -301,7 +296,8 @@
     "hours": "毎日 10:00-22:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "oedo-alley-hcmc",
@@ -320,7 +316,8 @@
     "hours": "毎日 10:00-22:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "sushi-hokkaido-sachi-hcmc",
@@ -339,7 +336,8 @@
     "hours": "毎日 10:00-22:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "ramen-shin-hanoi",
@@ -358,7 +356,8 @@
     "hours": "毎日 11:00-21:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "marukame-udon-hanoi",
@@ -377,7 +376,8 @@
     "hours": "毎日 10:00-22:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "le-thanh-ton-sakaba",
@@ -396,7 +396,8 @@
     "hours": "17:00〜23:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "sushi-dining-aoi-hcmc",
@@ -415,26 +416,8 @@
     "hours": "11:30〜14:00 / 17:30〜22:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "yoshinoya-hcmc",
-    "name": "Yoshinoya Ho Chi Minh City",
-    "name_ja": "吉野家 ホーチミン",
-    "area": "District 1",
-    "address": "District 1, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "日本の牛丼チェーン。ベトナムにも進出し、手頃な価格で牛丼が楽しめる。",
-    "tags": [
-      "牛丼",
-      "日本発チェーン",
-      "カジュアル"
-    ],
-    "hours": "毎日 7:00〜22:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "coco-ichibanya-hcmc",
@@ -453,26 +436,8 @@
     "hours": "毎日 10:00〜22:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "sukiya-hcmc",
-    "name": "Sukiya Ho Chi Minh City",
-    "name_ja": "すき家 ホーチミン",
-    "area": "District 1",
-    "address": "District 1, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "日本の牛丼チェーン「すき家」のベトナム店。牛丼・カレーをリーズナブルに提供。",
-    "tags": [
-      "牛丼",
-      "日本発チェーン",
-      "カジュアル"
-    ],
-    "hours": "毎日 7:00〜22:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "isushi-hcmc",
@@ -491,7 +456,8 @@
     "hours": "毎日 10:00〜22:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "ichiran-style-ramen-hcmc",
@@ -510,7 +476,8 @@
     "hours": "毎日 11:00〜21:30",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "ramen-shin-hcmc",
@@ -529,45 +496,8 @@
     "hours": "毎日 11:00〜21:30",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "tempura-tendon-kohaku-hcmc",
-    "name": "Tendon Kohaku HCMC",
-    "name_ja": "天丼琥珀 ホーチミン",
-    "area": "District 1",
-    "address": "District 1, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "天丼専門店。サクサクの天ぷらと甘辛のたれが特徴。海老天丼が一番人気。",
-    "tags": [
-      "天丼",
-      "天ぷら",
-      "カジュアル"
-    ],
-    "hours": "毎日 10:00〜21:30",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "gyumon-hcmc",
-    "name": "Gyumon HCMC",
-    "name_ja": "牛門 ホーチミン",
-    "area": "District 1",
-    "address": "District 1, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "日本式焼肉店。和牛を含む高品質な肉を炭火で焼くスタイル。日本人在住者に人気。",
-    "tags": [
-      "焼肉",
-      "和牛",
-      "炭火"
-    ],
-    "hours": "11:30〜14:00 / 17:30〜22:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "tamaya-hanoi",
@@ -586,7 +516,8 @@
     "hours": "11:00〜14:30 / 18:00〜22:30",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "asahi-sushi-hanoi",
@@ -605,7 +536,8 @@
     "hours": "10:30〜14:00 / 17:30〜22:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "izakaya-yancha-hanoi",
@@ -624,7 +556,8 @@
     "hours": "17:00〜23:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "minori-restaurant-hanoi",
@@ -643,26 +576,8 @@
     "hours": "11:00〜14:00 / 17:30〜22:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "nhan-sushi-hanoi",
-    "name": "Nhan Sushi Hanoi",
-    "name_ja": "ニャン寿司 ハノイ",
-    "area": "Ba Dinh",
-    "address": "Kim Ma, Ba Dinh, Hanoi",
-    "phone": null,
-    "website": null,
-    "description": "ハノイの人気寿司チェーン。キンマ通りに支店あり。手頃な価格で新鮮な寿司を提供。",
-    "tags": [
-      "寿司",
-      "チェーン",
-      "手頃"
-    ],
-    "hours": "10:00〜22:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "marukame-udon-d7",
@@ -681,25 +596,8 @@
     "hours": "毎日 10:00〜22:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "ippudo-hanoi",
-    "name": "IPPUDO Hanoi",
-    "name_ja": "一風堂 ハノイ",
-    "area": "Hoan Kiem",
-    "address": "Hoan Kiem District, Hanoi",
-    "phone": null,
-    "website": null,
-    "description": "博多発の豚骨ラーメンチェーンのハノイ店。白丸・赤丸元味が人気。",
-    "tags": [
-      "ラーメン",
-      "日本発チェーン"
-    ],
-    "hours": "毎日 11:00〜22:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "sushi-tei-hanoi",
@@ -718,7 +616,8 @@
     "hours": "毎日 10:00〜22:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "yakiniku-shiki-hcmc",
@@ -737,7 +636,8 @@
     "hours": "11:30〜14:00 / 17:30〜22:30",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "tempura-tsunahachi-hcmc",
@@ -756,214 +656,8 @@
     "hours": "11:00〜14:00 / 17:30〜22:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "kichi-kichi-hcmc",
-    "name": "Kichi-Kichi Hot Pot",
-    "name_ja": "キチキチしゃぶしゃぶ",
-    "area": "District 1",
-    "address": "District 1, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "日本式しゃぶしゃぶチェーン。食べ放題コースが人気。ベトナムに多数の店舗を展開。",
-    "tags": [
-      "しゃぶしゃぶ",
-      "食べ放題",
-      "チェーン"
-    ],
-    "hours": "毎日 10:00〜22:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "ootoya-hanoi",
-    "name": "Ootoya Hanoi",
-    "name_ja": "大戸屋 ハノイ",
-    "area": "Ba Dinh",
-    "address": "Ba Dinh, Hanoi",
-    "phone": null,
-    "website": null,
-    "description": "日本の定食チェーンのハノイ店。栄養バランスの良い和定食を提供。",
-    "tags": [
-      "定食",
-      "日本発チェーン",
-      "家庭料理"
-    ],
-    "hours": "毎日 10:00〜22:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "pepper-lunch-hcmc",
-    "name": "Pepper Lunch HCMC",
-    "name_ja": "ペッパーランチ ホーチミン",
-    "area": "District 1",
-    "address": "District 1, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "日本発の鉄板ステーキチェーン。ビーフペッパーライスが看板メニュー。",
-    "tags": [
-      "ステーキ",
-      "鉄板焼",
-      "日本発チェーン"
-    ],
-    "hours": "毎日 10:00〜22:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "sushi-bar-hanoi",
-    "name": "Sushi Bar Hanoi",
-    "name_ja": "スシバー ハノイ",
-    "area": "Ba Dinh",
-    "address": "Lieu Giai, Ba Dinh, Hanoi",
-    "phone": null,
-    "website": null,
-    "description": "ハノイの人気寿司バー。新鮮な寿司と刺身をカジュアルな雰囲気で提供。",
-    "tags": [
-      "寿司",
-      "バー",
-      "カジュアル"
-    ],
-    "hours": "10:00〜22:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "ippudo-d2-hcmc",
-    "name": "IPPUDO District 2 HCMC",
-    "name_ja": "一風堂 2区店",
-    "area": "District 2",
-    "address": "District 2, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "一風堂のホーチミン2区店。タオディエン地区の日本人・外国人居住エリアに位置。",
-    "tags": [
-      "ラーメン",
-      "日本発チェーン"
-    ],
-    "hours": "毎日 11:00〜22:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "gyumon-hanoi",
-    "name": "Gyumon Hanoi",
-    "name_ja": "牛門 ハノイ",
-    "area": "Ba Dinh",
-    "address": "Ba Dinh, Hanoi",
-    "phone": null,
-    "website": null,
-    "description": "日本式焼肉店のハノイ支店。和牛を含む上質な肉を炭火で焼くスタイル。",
-    "tags": [
-      "焼肉",
-      "和牛",
-      "炭火"
-    ],
-    "hours": "11:30〜14:00 / 17:30〜22:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "sushi-hokkaido-hanoi",
-    "name": "Sushi Hokkaido Sachi Hanoi",
-    "name_ja": "寿司北海道さち ハノイ",
-    "area": "Cau Giay",
-    "address": "Cau Giay, Hanoi",
-    "phone": null,
-    "website": null,
-    "description": "北海道をテーマにした寿司チェーンのハノイ店。新鮮なネタと手頃な価格で人気。",
-    "tags": [
-      "寿司",
-      "北海道テーマ",
-      "チェーン"
-    ],
-    "hours": "毎日 10:00〜22:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "gyu-kaku-hcmc",
-    "name": "Gyu-Kaku HCMC",
-    "name_ja": "牛角 ホーチミン",
-    "area": "District 1",
-    "address": "District 1, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "日本の焼肉チェーンのホーチミン店。食べ放題コースが人気。",
-    "tags": [
-      "焼肉",
-      "食べ放題",
-      "日本発チェーン"
-    ],
-    "hours": "11:00〜23:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "katsuya-hcmc",
-    "name": "Katsuya HCMC",
-    "name_ja": "かつや ホーチミン",
-    "area": "District 1",
-    "address": "District 1, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "とんかつ・カツ丼チェーンのホーチミン店。リーズナブルに日本のカツ丼が楽しめる。",
-    "tags": [
-      "とんかつ",
-      "カツ丼",
-      "日本発チェーン"
-    ],
-    "hours": "毎日 10:00〜22:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "sushi-bar-hcmc",
-    "name": "Sushi Bar HCMC",
-    "name_ja": "スシバー ホーチミン",
-    "area": "District 1",
-    "address": "Le Thanh Ton, District 1, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "レタントン通りの寿司バー。カウンター席でシェフが握る寿司を目の前で楽しめる。",
-    "tags": [
-      "寿司",
-      "カウンター",
-      "レタントン"
-    ],
-    "hours": "11:30〜14:00 / 17:30〜22:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "mos-burger-hcmc",
-    "name": "MOS Burger HCMC",
-    "name_ja": "モスバーガー ホーチミン",
-    "area": "District 1",
-    "address": "District 1, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "日本のハンバーガーチェーン。テリヤキバーガーやライスバーガーが人気。",
-    "tags": [
-      "ハンバーガー",
-      "日本発チェーン"
-    ],
-    "hours": "毎日 10:00〜22:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "yuugatei-mutsumian-hcmc",
@@ -982,7 +676,8 @@
     "hours": "11:00〜14:00 / 17:00〜22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "robata-an-hcmc",
@@ -1001,7 +696,8 @@
     "hours": "17:00〜23:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "sns"
+    "source": "sns",
+    "ai_reviewed": true
   },
   {
     "slug": "shamoji-thao-dien",
@@ -1020,7 +716,8 @@
     "hours": "17:00〜23:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "omakase-tiger-thao-dien",
@@ -1040,7 +737,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "ikemen-udon-thao-dien",
@@ -1059,7 +757,8 @@
     "hours": "11:00〜22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "tokachiya-ramen-hanoi",
@@ -1078,7 +777,8 @@
     "hours": "11:00〜14:00 / 17:00〜21:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "oyama-ramen-hanoi",
@@ -1097,7 +797,8 @@
     "hours": "11:00〜14:00 / 17:00〜21:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "neko-ramen-hanoi",
@@ -1116,7 +817,8 @@
     "hours": "10:30〜22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "kanpai-thao-dien",
@@ -1135,7 +837,8 @@
     "hours": "11:00〜14:00 / 17:00〜22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "tama-river-thao-dien",
@@ -1154,7 +857,8 @@
     "hours": "11:00〜14:00 / 17:00〜22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "ramen-shin-d1-hcmc",
@@ -1172,7 +876,8 @@
     "hours": "11:00〜14:00 / 17:00〜21:30",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "ippudo-d7-hcmc",
@@ -1191,7 +896,8 @@
     "hours": "毎日 11:00〜21:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "marukame-udon-d1-hcmc",
@@ -1210,7 +916,8 @@
     "hours": "毎日 10:00〜22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "sushi-dining-aoi-d1",
@@ -1229,7 +936,8 @@
     "hours": "11:30〜14:00 / 17:30〜22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "coco-ichibanya-d1-hcmc",
@@ -1248,80 +956,8 @@
     "hours": "毎日 10:00〜22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "sukiya-d1-hcmc",
-    "name": "Sukiya District 1 HCMC",
-    "name_ja": "すき家 1区",
-    "area": "District 1",
-    "address": "District 1, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "すき家のホーチミン1区店。牛丼・カレー・うどんを手頃な価格で提供。",
-    "tags": [
-      "牛丼",
-      "日本発チェーン"
-    ],
-    "hours": "毎日 7:00〜23:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "yoshinoya-d1-hcmc",
-    "name": "Yoshinoya District 1 HCMC",
-    "name_ja": "吉野家 1区",
-    "area": "District 1",
-    "address": "District 1, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "吉野家のホーチミン1区店。日本の牛丼チェーンで手頃にランチ。",
-    "tags": [
-      "牛丼",
-      "日本発チェーン"
-    ],
-    "hours": "毎日 7:00〜23:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "pepper-lunch-d1-hcmc",
-    "name": "Pepper Lunch District 1",
-    "name_ja": "ペッパーランチ 1区",
-    "area": "District 1",
-    "address": "District 1, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "ペッパーランチの1区店。熱々の鉄板でビーフペッパーライスを提供。",
-    "tags": [
-      "鉄板",
-      "日本発チェーン"
-    ],
-    "hours": "毎日 10:00〜22:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "gyu-kaku-d1-hcmc",
-    "name": "Gyu-Kaku District 1 HCMC",
-    "name_ja": "牛角 1区",
-    "area": "District 1",
-    "address": "District 1, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "牛角のホーチミン1区店。食べ放題コースで日本式焼肉を楽しめる。",
-    "tags": [
-      "焼肉",
-      "食べ放題",
-      "日本発チェーン"
-    ],
-    "hours": "11:00〜23:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "katsuya-d1-hcmc",
@@ -1340,7 +976,8 @@
     "hours": "毎日 10:00〜22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "ootoya-d1-hcmc",
@@ -1359,7 +996,8 @@
     "hours": "毎日 10:00〜22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "sushi-tei-d7-hcmc",
@@ -1378,7 +1016,8 @@
     "hours": "毎日 10:00〜22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "sushi-hokkaido-sachi-d3",
@@ -1396,26 +1035,8 @@
     "hours": "毎日 10:00〜22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "tempura-tsunahachi-d1",
-    "name": "Tempura Tsunahachi HCMC",
-    "name_ja": "天ぷら新宿つな八 ホーチミン",
-    "area": "District 1",
-    "address": "District 1, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "東京・新宿の老舗天ぷら店のホーチミン出店。職人が揚げる本格天ぷらコースを提供。",
-    "tags": [
-      "天ぷら",
-      "東京発",
-      "老舗"
-    ],
-    "hours": "11:00〜14:00 / 17:00〜22:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "mangetsu-thai-van-lung",
@@ -1434,7 +1055,8 @@
     "hours": "17:00〜24:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "aguo-hcmc",
@@ -1453,7 +1075,8 @@
     "hours": "17:00〜23:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "take-izakaya-hcmc",
@@ -1472,7 +1095,8 @@
     "hours": "17:30〜23:30",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "mua-craft-sake-hcmc",
@@ -1491,7 +1115,8 @@
     "hours": "17:00〜24:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "ebisu-shoten-hcmc",
@@ -1510,7 +1135,8 @@
     "hours": "17:00〜23:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "ramen-shin-d7-hcmc",
@@ -1529,7 +1155,8 @@
     "hours": "11:00〜14:00 / 17:00〜22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "sharaku-d1-hcmc",
@@ -1548,7 +1175,8 @@
     "hours": "6:30-10:00 / 11:00-14:30 / 17:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sorae-d1-hcmc",
@@ -1567,7 +1195,8 @@
     "hours": "11:00-14:00 / 17:00-23:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "genki-sushi-saigon-centre",
@@ -1586,7 +1215,8 @@
     "hours": "毎日 10:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "genki-sushi-crescent-mall",
@@ -1605,7 +1235,8 @@
     "hours": "毎日 10:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "the-sake-nguyen-hue",
@@ -1624,7 +1255,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "kappou-hanoi-tay-ho",
@@ -1643,7 +1275,8 @@
     "hours": "18:00-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "nagisa-hanoi-linh-lang",
@@ -1662,7 +1295,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "kiraku-hanoi-hai-ba-trung",
@@ -1681,7 +1315,8 @@
     "hours": "8:00-24:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "nhan-sushi-kim-ma",
@@ -1700,7 +1335,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "nhan-sushi-trieu-viet-vuong",
@@ -1719,7 +1355,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "shamoji-robata-tong-dan",
@@ -1738,7 +1375,8 @@
     "hours": "11:00-14:00 / 17:30-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "shamoji-robata-trung-hoa",
@@ -1757,7 +1395,8 @@
     "hours": "11:00-14:00 / 17:30-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sushi-dining-aoi-d3",
@@ -1776,7 +1415,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "tingara-danang",
@@ -1795,7 +1435,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ramen-yushoken-danang",
@@ -1814,7 +1455,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "ootoya-d7-hcmc",
@@ -1833,7 +1475,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "tamaya-hanoi-hoan-kiem",
@@ -1852,7 +1495,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "isushi-d7-hcmc",
@@ -1871,7 +1515,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "sushi-hokkaido-sachi-d7",
@@ -1890,7 +1535,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "gyu-kaku-d7-hcmc",
@@ -1909,7 +1555,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "ippudo-hanoi-royal-city",
@@ -1928,26 +1575,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "marukame-udon-hanoi-lotte",
-    "name": "Marukame Udon Lotte Hanoi",
-    "name_ja": "丸亀製麺 ハノイ ロッテ",
-    "area": "Ba Dinh, Hanoi",
-    "address": "Lotte Center Hanoi, 54 Lieu Giai, Ba Dinh, Hanoi",
-    "phone": null,
-    "website": null,
-    "description": "丸亀製麺のハノイ・ロッテセンター店。打ちたてうどんと天ぷらを手頃な価格で提供。",
-    "tags": [
-      "うどん",
-      "日本チェーン",
-      "ロッテセンター"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "sushi-tei-d1-hcmc",
@@ -1966,7 +1595,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "yakiniku-shiki-d1-hcmc",
@@ -1985,7 +1615,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "oedo-alley-d1-hcmc",
@@ -2004,7 +1635,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "fujiro-d1-hcmc",
@@ -2023,7 +1655,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "sake-central-saigon",
@@ -2042,26 +1675,8 @@
     "hours": "月〜土 18:00〜",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "tokachiya-ramen-d1-hcmc",
-    "name": "Tokachiya Ramen District 1",
-    "name_ja": "十勝屋ラーメン 1区",
-    "area": "District 1",
-    "address": "District 1, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "北海道・十勝地方の味を再現したラーメン店。味噌ラーメンが看板メニュー。",
-    "tags": [
-      "ラーメン",
-      "味噌",
-      "北海道"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "gyu-shige-d1-hcmc",
@@ -2080,7 +1695,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "minori-restaurant-hanoi-lotte",
@@ -2099,7 +1715,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "asahi-sushi-hanoi-d1",
@@ -2118,7 +1735,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "hatoyama-d7-hcmc",
@@ -2137,7 +1755,8 @@
     "hours": "10:30-14:00 / 17:30-22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sumo-bbq-d1-hcmc",
@@ -2156,7 +1775,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "golden-curry-le-thanh-ton",
@@ -2174,7 +1794,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "utage-le-thanh-ton",
@@ -2192,25 +1813,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "izakaya-ten-le-thanh-ton",
-    "name": "Izakaya Ten",
-    "name_ja": "居酒屋 天",
-    "area": "District 1",
-    "address": "17/4 Le Thanh Ton, Ben Nghe, District 1, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "レタントン日本人街にある居酒屋。連日行列ができるほどの人気で、2号店も展開。",
-    "tags": [
-      "居酒屋",
-      "ジャパンタウン"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sushi-toshi-le-thanh-ton",
@@ -2228,7 +1832,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "sushi-tiger-le-thanh-ton",
@@ -2247,7 +1852,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "sushi-world-le-thanh-ton",
@@ -2266,26 +1872,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "sushi-kaori-le-thanh-ton",
-    "name": "Sushi Kaori",
-    "name_ja": "寿司 香",
-    "area": "District 1",
-    "address": "Le Thanh Ton, Ben Nghe, District 1, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "レタントン日本人街の隠れ家的寿司店。約50万VND前後で本格寿司を楽しめる。",
-    "tags": [
-      "寿司",
-      "隠れ家",
-      "ジャパンタウン"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "wakaba-le-thanh-ton",
@@ -2304,7 +1892,8 @@
     "hours": "月〜土 16:30-01:30 / 日 16:30-01:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "kanazawa-miso-shinsen",
@@ -2323,7 +1912,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "choi-oi-noodle-hcmc",
@@ -2342,26 +1932,8 @@
     "hours": "〜03:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "danbo-ramen-hcmc",
-    "name": "Danbo Ramen",
-    "name_ja": "暖暮ラーメン",
-    "area": "District 1",
-    "address": "Le Thanh Ton, Ben Nghe, District 1, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "福岡発の博多豚骨ラーメンチェーン。濃厚な豚骨スープと細麺が特徴。",
-    "tags": [
-      "ラーメン",
-      "博多豚骨",
-      "チェーン"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "jo-sushi-bar-d1",
@@ -2379,7 +1951,8 @@
     "hours": "11:30-22:30",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "japan-eats-d1",
@@ -2397,7 +1970,8 @@
     "hours": "11:00-15:00 / 17:00-22:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "me-tetsu-izakaya-d1",
@@ -2416,7 +1990,8 @@
     "hours": "17:00-01:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "reika-saigon-d1",
@@ -2434,7 +2009,8 @@
     "hours": "18:00-01:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "fume-japanese-modern-d1",
@@ -2452,7 +2028,8 @@
     "hours": "17:30-22:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "wakana-le-thanh-ton",
@@ -2471,7 +2048,8 @@
     "hours": "11:00-14:00 / 17:00-23:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "miyama-saigon-centre",
@@ -2490,7 +2068,8 @@
     "hours": "09:30-21:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ichihana-sushi-d3",
@@ -2509,7 +2088,8 @@
     "hours": "11:00-22:30",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "yakuzen-d3",
@@ -2527,7 +2107,8 @@
     "hours": "10:30-22:30",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "indigo-japanese-d3",
@@ -2546,7 +2127,8 @@
     "hours": "11:00-14:00 / 17:00-22:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "naked-sushi-d3",
@@ -2564,7 +2146,8 @@
     "hours": "11:00-21:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ikigai-sushi-d3",
@@ -2581,7 +2164,8 @@
     "hours": "11:00-22:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "towa-japanese-d1",
@@ -2600,7 +2184,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "kasen-omakase-d1",
@@ -2618,7 +2203,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "maguro-studio-d1",
@@ -2637,7 +2223,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sushi-nhi-binh-thanh",
@@ -2655,7 +2242,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sushi-kiyota-binh-thanh",
@@ -2675,7 +2263,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "chiyoda-sushi-ben-thanh",
@@ -2694,7 +2283,8 @@
     "hours": "平日 11:00-23:00 / 土日 10:30-23:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "yen-sushi-sake-pub-d3",
@@ -2713,7 +2303,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "miyakoya-le-thanh-ton",
@@ -2731,7 +2322,8 @@
     "hours": "平日 17:00-24:00 / 土日 11:30-23:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "marunishi-hokkaido-d1",
@@ -2750,7 +2342,8 @@
     "hours": "月〜水 17:00-24:00 / 木〜日 16:00-24:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "daishu-sakaba-goemon-d1",
@@ -2770,7 +2363,8 @@
     "hours": "11:30-14:00 / 17:00-24:00（日曜定休）",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "torimitsu-thai-van-lung",
@@ -2790,7 +2384,8 @@
     "hours": "11:00-14:30 / 17:00-22:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "izakaya-minamoto-binh-thanh",
@@ -2808,7 +2403,8 @@
     "hours": "平日 17:30-23:00 / 土日 11:30-23:00（月曜定休）",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ebisu-udon-sushi-d1",
@@ -2827,7 +2423,8 @@
     "hours": "11:30-21:30",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "horumon-yami-bancho-binh-thanh",
@@ -2846,7 +2443,8 @@
     "hours": "火〜金 17:00-24:00 / 土日 11:30-23:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "suizan-azumaya-d1",
@@ -2865,7 +2463,8 @@
     "hours": "11:00-22:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "futaba-ramen-d1",
@@ -2884,7 +2483,8 @@
     "hours": "11:00-24:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "gyumaru-le-thanh-ton",
@@ -2903,7 +2503,8 @@
     "hours": "11:00-22:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "suzunoya-motsu-nabe-d1",
@@ -2923,7 +2524,8 @@
     "hours": "月〜土 17:00-24:00 / 日 17:00-23:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "manmaru-osaka-yatai-d1",
@@ -2942,7 +2544,8 @@
     "hours": "11:00-23:30",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ateya-binh-thanh",
@@ -2960,7 +2563,8 @@
     "hours": "11:30-14:00 / 18:00-21:00（日曜定休）",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sakaba-sasuke-d1",
@@ -2979,7 +2583,8 @@
     "hours": "17:30-25:00（日曜定休）",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sakura-sakura-binh-thanh",
@@ -2997,7 +2602,8 @@
     "hours": "11:00-14:00 / 17:00-23:00（日曜定休）",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "gyoza-no-chikara-d1",
@@ -3015,7 +2621,8 @@
     "hours": "平日 11:00-15:00, 17:30-22:00 / 土日 11:00-22:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "tori-soba-mutahiro-d1",
@@ -3034,7 +2641,8 @@
     "hours": "11:00-14:00 / 18:00-02:00（日曜定休）",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "waso-pham-viet-chanh",
@@ -3053,25 +2661,8 @@
     "hours": "月〜金 11:30-14:00, 17:00-01:00 / 土日 11:30-22:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "yakitori-hachibei-binh-thanh",
-    "name": "Yakitori Hachibei",
-    "name_ja": "焼鳥 八兵衛",
-    "area": "Binh Thanh",
-    "address": "83 Pham Viet Chanh, Ward 19, Binh Thanh, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "ファンビッチャン通りにある焼き鳥専門店。炭火で焼き上げる本格焼き鳥を提供。",
-    "tags": [
-      "焼き鳥",
-      "ファンビッチャン"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "kura-kaku-uchi-binh-thanh",
@@ -3090,7 +2681,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "kyoichi-ramen-binh-thanh",
@@ -3109,7 +2701,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "soba-dokoro-miou-binh-thanh",
@@ -3129,27 +2722,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "muteki-okonomiyaki-binh-thanh",
-    "name": "Muteki",
-    "name_ja": "無敵",
-    "area": "Binh Thanh",
-    "address": "Pham Viet Chanh, Ward 19, Binh Thanh, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "ファンビッチャン通りにある広島風お好み焼きと鉄板焼きの店。",
-    "tags": [
-      "お好み焼き",
-      "広島風",
-      "鉄板焼き",
-      "ファンビッチャン"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "wa-japanese-cuisine-hanoi",
@@ -3167,7 +2741,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sachiko-hanoi-old-quarter",
@@ -3186,7 +2761,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "tokyo-deli-trung-hoa-hanoi",
@@ -3205,7 +2781,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "mirai-sushi-sake-hanoi",
@@ -3224,7 +2801,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "sns"
+    "source": "sns",
+    "ai_reviewed": true
   },
   {
     "slug": "takumi-restaurant-hanoi",
@@ -3243,7 +2821,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "gyu-kaku-kim-ma-hanoi",
@@ -3262,7 +2841,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "shinbashi-hanoi",
@@ -3281,7 +2861,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "tram-sushi-cafe-hanoi",
@@ -3300,7 +2881,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sushilab-hanoi",
@@ -3318,7 +2900,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sushi-ichi-hanoi",
@@ -3338,7 +2921,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "motsunabe-suzunoya-hanoi",
@@ -3356,7 +2940,8 @@
     "hours": "17:00-24:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "nari-hanoi",
@@ -3374,26 +2959,8 @@
     "hours": "11:30-14:00 / 17:30-22:30",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "reiwa-okonomiyaki-hanoi",
-    "name": "Reiwa",
-    "name_ja": "令和",
-    "area": "Ba Dinh, Hanoi",
-    "address": "645 Kim Ma, Ngoc Khanh, Ba Dinh, Hanoi",
-    "phone": "+842466828358",
-    "website": null,
-    "description": "ハノイのキンマー通りにある関西風お好み焼き＆鉄板焼きレストラン。",
-    "tags": [
-      "お好み焼き",
-      "鉄板焼き",
-      "関西風"
-    ],
-    "hours": "11:00-14:00 / 17:00-22:30",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "kirokuan-hanoi",
@@ -3411,7 +2978,8 @@
     "hours": "11:30-14:00 / 17:30-22:30（日曜定休）",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "okachan-shokudo-hanoi",
@@ -3429,7 +2997,8 @@
     "hours": "11:30-13:30 / 18:00-22:00（日曜定休）",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "unaoka-hanoi",
@@ -3447,7 +3016,8 @@
     "hours": "10:30-15:00 / 17:00-23:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "yukichi-ramen-hanoi-kim-ma",
@@ -3465,7 +3035,8 @@
     "hours": "18:00-25:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "azuma-restaurant-hanoi",
@@ -3485,7 +3056,8 @@
     "hours": "11:00-14:00 / 17:30-22:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sumibouzu-hanoi",
@@ -3504,7 +3076,8 @@
     "hours": "11:00-14:00 / 17:00-23:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "otomisan-hanoi",
@@ -3523,26 +3096,8 @@
     "hours": "11:00-14:00 / 17:00-22:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "chibo-hanoi",
-    "name": "Chibo Hanoi",
-    "name_ja": "千房 ハノイ",
-    "area": "Ba Dinh, Hanoi",
-    "address": "No.5, 535 Kim Ma, Ngoc Khanh, Ba Dinh, Hanoi",
-    "phone": "+842438343939",
-    "website": null,
-    "description": "大阪お好み焼きチェーン千房のハノイ店。鉄板焼きメニューも充実。フルバーも併設。",
-    "tags": [
-      "お好み焼き",
-      "チェーン",
-      "鉄板焼き"
-    ],
-    "hours": "11:30-14:30 / 17:00-22:30",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ofukuro-tei-hanoi",
@@ -3561,7 +3116,8 @@
     "hours": "10:00-13:00 / 16:00-22:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "yakiniku-sakura-hanoi",
@@ -3580,7 +3136,8 @@
     "hours": "11:30-14:30 / 17:00-22:30",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "yakiniku-takebo-hanoi",
@@ -3599,7 +3156,8 @@
     "hours": "11:00-14:00 / 17:00-22:30（月曜定休）",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "fukurai-hanoi",
@@ -3619,7 +3177,8 @@
     "hours": "10:30-14:00 / 17:00-22:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "fukada-hanoi",
@@ -3638,7 +3197,8 @@
     "hours": "11:00-14:00 / 17:00-22:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "yakiniku-kokoro-hanoi",
@@ -3657,7 +3217,8 @@
     "hours": "11:00-14:00 / 17:30-22:30",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "all-blue-hanoi",
@@ -3676,7 +3237,8 @@
     "hours": "月火 17:00-23:00 / 水〜金 17:30-23:00 / 土日 17:00-24:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "tonhei-hanoi",
@@ -3694,7 +3256,8 @@
     "hours": "平日 11:30-13:30, 17:00-21:30 / 土日 11:30-14:00, 17:00-22:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "chikuan-soba-hanoi",
@@ -3713,7 +3276,8 @@
     "hours": "11:30-14:00 / 17:30-23:00（日曜定休）",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "kotetsu-ramen-hanoi",
@@ -3732,7 +3296,8 @@
     "hours": "月〜木 18:00-24:30 / 金 18:00-01:30 / 土 11:00-13:30, 18:00-01:30 / 日 11:00-13:30, 18:00-24:30",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ramen-haron-hanoi",
@@ -3750,7 +3315,8 @@
     "hours": "11:30-13:45 / 17:30-21:00（日曜定休）",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "omoide-sakaba-hanoi",
@@ -3769,7 +3335,8 @@
     "hours": "18:00-03:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "yukichi-ramen-phan-ke-binh",
@@ -3787,26 +3354,8 @@
     "hours": "11:00-14:00 / 17:30-25:30",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "banjiro-danang",
-    "name": "Kushiyaki Banjiro Danang",
-    "name_ja": "串焼き 番次郎 ダナン",
-    "area": "Hai Chau, Da Nang",
-    "address": "23 Nguyen Chi Thanh, Thach Thang, Hai Chau, Da Nang",
-    "phone": null,
-    "website": null,
-    "description": "ダナンの日本人シェフが運営する串焼き＆居酒屋。新鮮な刺身セットと梅酒が人気。",
-    "tags": [
-      "串焼き",
-      "居酒屋",
-      "刺身"
-    ],
-    "hours": "11:00-14:00 / 17:00-22:00",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sushi-be-danang",
@@ -3824,7 +3373,8 @@
     "hours": "17:30-23:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ajiichi-danang",
@@ -3844,7 +3394,8 @@
     "hours": "11:00-14:30 / 17:00-21:30",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "little-tokyo-danang",
@@ -3864,7 +3415,8 @@
     "hours": "11:00-22:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "edo-sushi-danang",
@@ -3883,7 +3435,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "dasushi-danang",
@@ -3901,7 +3454,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "kita-guni-danang",
@@ -3919,7 +3473,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "issunboshi-danang",
@@ -3937,7 +3492,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "osaka-ramen-d7",
@@ -3956,7 +3512,8 @@
     "hours": "11:00-22:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "osaka-hanten-d7",
@@ -3974,7 +3531,8 @@
     "hours": "11:00-22:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sushi-uraetei-d7",
@@ -3993,7 +3551,8 @@
     "hours": "10:00-22:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "yakiniku-uraetei-d7",
@@ -4012,7 +3571,8 @@
     "hours": "11:00-22:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "minamoto-izakaya-d7",
@@ -4031,7 +3591,8 @@
     "hours": "平日 18:00-23:00 / 土日 11:30-23:00（月曜定休）",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "donnosuke-d7",
@@ -4050,7 +3611,8 @@
     "hours": "11:30-22:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "sns"
+    "source": "sns",
+    "ai_reviewed": true
   },
   {
     "slug": "yakiniku-like-vincom-d1",
@@ -4069,7 +3631,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ichibankei-ramen-d3",
@@ -4088,7 +3651,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "fish-dance-cafe-danang",
@@ -4107,7 +3671,8 @@
     "hours": "11:00-14:00 / 17:30-22:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "bushido-danang",
@@ -4124,7 +3689,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "akataiyo-danang",
@@ -4141,7 +3707,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "tokyo-bbq-town-danang",
@@ -4160,7 +3727,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "xuyen-sushi-danang",
@@ -4178,7 +3746,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "izakaya-yen-danang",
@@ -4197,7 +3766,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "sakura-friend-cafe-danang",
@@ -4216,7 +3786,8 @@
     "hours": "09:00-14:00 / 16:00-21:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sakura-sushi-nha-trang",
@@ -4234,7 +3805,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "riki-riki-nha-trang",
@@ -4254,7 +3826,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sushi-kiwami-nha-trang",
@@ -4273,7 +3846,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "oh-sushi-bar-nha-trang",
@@ -4291,25 +3865,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "wada-sushi-ramen-nha-trang",
-    "name": "Wada Sushi & Ramen",
-    "name_ja": "和田 寿司＆ラーメン",
-    "area": "Nha Trang",
-    "address": "73/16 Tran Quang Khai, Loc Tho, Nha Trang, Khanh Hoa",
-    "phone": null,
-    "website": null,
-    "description": "ニャチャンにある2階建ての寿司＆ラーメン店。寿司とラーメンの両方を楽しめる。",
-    "tags": [
-      "寿司",
-      "ラーメン"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "cantik-bar-hanoi",
@@ -4327,7 +3884,8 @@
     "hours": "平日 10:30-14:00, 18:00-23:30 / 土日 18:00-23:30",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sushi-daichi-hanoi",
@@ -4346,24 +3904,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "gyusachi-yakiniku-danang",
-    "name": "Gyusachi Yakiniku Danang",
-    "name_ja": "牛匠 焼肉 ダナン",
-    "area": "Ngu Hanh Son, Da Nang",
-    "address": "69 Do Ba, Bac My Phu, Ngu Hanh Son, Da Nang",
-    "phone": null,
-    "website": null,
-    "description": "ダナンのグーハインソン区にある焼肉レストラン。",
-    "tags": [
-      "焼肉"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sumo-bbq-danang",
@@ -4382,7 +3924,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "mikazuki-resort-danang",
@@ -4402,26 +3945,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "hareya-market-d1",
-    "name": "Hareya Japanese Food Market",
-    "name_ja": "はれ屋",
-    "area": "District 1",
-    "address": "15A/14 Le Thanh Ton, Ben Nghe, District 1, Ho Chi Minh City",
-    "phone": "+842838248664",
-    "website": null,
-    "description": "レタントン日本人街にある日本食材マーケット。冷凍・冷蔵の日本食品、肉、魚、惣菜、野菜を販売。",
-    "tags": [
-      "食材店",
-      "日本食材",
-      "ジャパンタウン"
-    ],
-    "hours": "10:30-19:00",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "katana-wagyu-d1",
@@ -4440,25 +3965,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "aoya-ramen-d3",
-    "name": "Aoya Ramen",
-    "name_ja": "あおやラーメン",
-    "area": "District 3",
-    "address": "District 3, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "2024年6月にホーチミン3区にオープンしたラーメン屋台スタイルの店。",
-    "tags": [
-      "ラーメン",
-      "屋台スタイル"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "coco-ichibanya-landmark81",
@@ -4477,116 +3985,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "izakaya-tatsu-binh-thanh",
-    "name": "Izakaya Tatsu",
-    "name_ja": "居酒屋 竜",
-    "area": "Binh Thanh",
-    "address": "Pham Viet Chanh, Ward 19, Binh Thanh, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "ファンビッチャン通りにある居酒屋。",
-    "tags": [
-      "居酒屋",
-      "ファンビッチャン"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "izakaya-maruco-binh-thanh",
-    "name": "Izakaya Maruco",
-    "name_ja": "居酒屋 まるこ",
-    "area": "Binh Thanh",
-    "address": "Pham Viet Chanh, Ward 19, Binh Thanh, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "ファンビッチャン通りにある居酒屋。",
-    "tags": [
-      "居酒屋",
-      "ファンビッチャン"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "enro-sumibiyaki-binh-thanh",
-    "name": "Enro Sumibiyaki",
-    "name_ja": "炎路 炭火焼き",
-    "area": "Binh Thanh",
-    "address": "Pham Viet Chanh, Ward 19, Binh Thanh, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "ファンビッチャン通りにある炭火焼き料理の店。",
-    "tags": [
-      "炭火焼き",
-      "ファンビッチャン"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "hibiki-bbq-binh-thanh",
-    "name": "Hibiki BBQ",
-    "name_ja": "響 BBQ",
-    "area": "Binh Thanh",
-    "address": "Pham Viet Chanh, Ward 19, Binh Thanh, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "ファンビッチャン通りにある焼肉レストラン。",
-    "tags": [
-      "焼肉",
-      "ファンビッチャン"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "yakitori-tetsu-binh-thanh",
-    "name": "Yakitori Tetsu",
-    "name_ja": "焼鳥 鉄",
-    "area": "Binh Thanh",
-    "address": "Pham Viet Chanh, Ward 19, Binh Thanh, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "ファンビッチャン通りにある焼き鳥専門店。炭火焼きの鶏肉と季節の魚を提供。",
-    "tags": [
-      "焼き鳥",
-      "炭火焼き",
-      "ファンビッチャン"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "genjiro-senzu-binh-thanh",
-    "name": "Genjiro Senzu",
-    "name_ja": "源次郎 千寿",
-    "area": "Binh Thanh",
-    "address": "Pham Viet Chanh, Ward 19, Binh Thanh, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "ファンビッチャン通りにある日本料理店。",
-    "tags": [
-      "日本料理",
-      "ファンビッチャン"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sushi-dokoro-yutaka-tay-ho",
@@ -4599,7 +3999,11 @@
     "phone": "+842437186344",
     "website": null,
     "description": "ハノイ・タイホー区の老舗寿司店。新鮮な寿司・刺身の定食が人気で、ランチセットもリーズナブル。出前にも対応。",
-    "tags": ["寿司", "刺身", "ランチセット"],
+    "tags": [
+      "寿司",
+      "刺身",
+      "ランチセット"
+    ],
     "hours": "11:00-14:00 / 17:00-22:30",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -4619,7 +4023,11 @@
     "phone": "+84798926777",
     "website": null,
     "description": "ハノイの日本人街ファンケビン通りにある本格和食店。関西風の味付けで、旬の食材を使った煮物・焼き物が評判。備長炭焼き・土鍋ご飯にこだわる。深夜2時まで営業。",
-    "tags": ["和食", "備長炭", "深夜営業"],
+    "tags": [
+      "和食",
+      "備長炭",
+      "深夜営業"
+    ],
     "hours": "17:30-2:00 / 日 12:00-21:00（水曜定休）",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -4639,7 +4047,12 @@
     "phone": "+84845386122",
     "website": "https://daichi100.co.jp/",
     "description": "日本で首都圏に8店舗を展開する「寿司と焼き鳥 大地」のハノイ店。2025年3月オープン。30年の経験を持つ日本人料理長が腕を振るい、豊洲直送の新鮮な寿司と炭火串焼きを提供。VIP個室あり。",
-    "tags": ["寿司", "焼き鳥", "豊洲直送", "個室あり"],
+    "tags": [
+      "寿司",
+      "焼き鳥",
+      "豊洲直送",
+      "個室あり"
+    ],
     "hours": "17:00-24:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -4659,7 +4072,11 @@
     "phone": null,
     "website": "https://www.facebook.com/grillseibu/",
     "description": "2024年オープン。世界各国の有名ホテルで料理長を務めた日本人シェフ・マキ氏が手がけるグリルレストラン。自家製そばも評判。個室あり。",
-    "tags": ["グリル", "日本人シェフ", "個室あり"],
+    "tags": [
+      "グリル",
+      "日本人シェフ",
+      "個室あり"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -4679,7 +4096,11 @@
     "phone": null,
     "website": null,
     "description": "2024年12月オープン。大阪や山形県で飲食店を営んだ経験を持つ日本人大将が、目の前の鉄板で本格的な岸和田名物「かしみん焼き」などを提供。ハノイの日本人街ファンケビン通りに位置。",
-    "tags": ["鉄板焼き", "大阪料理", "日本人経営"],
+    "tags": [
+      "鉄板焼き",
+      "大阪料理",
+      "日本人経営"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -4699,7 +4120,11 @@
     "phone": "+842432047682",
     "website": "https://www.unatoto.com/shop/kimma/",
     "description": "リーズナブルな価格でうなぎが食べられる日本のチェーン「名代 宇奈とと」のハノイ1号店。2022年オープン。約150席の広い店内で、うな丼・うな重を提供。",
-    "tags": ["うなぎ", "チェーン", "リーズナブル"],
+    "tags": [
+      "うなぎ",
+      "チェーン",
+      "リーズナブル"
+    ],
     "hours": "11:00-22:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -4719,7 +4144,11 @@
     "phone": "+84976722966",
     "website": "https://www.facebook.com/hanzohanoi/",
     "description": "ハノイ・リンラン通りにある日本料理×バー。深夜3時まで営業し、焼き鳥・唐揚げ・ラーメンなど定番居酒屋メニューを提供。カクテルも充実。個室あり。",
-    "tags": ["居酒屋", "深夜営業", "個室あり"],
+    "tags": [
+      "居酒屋",
+      "深夜営業",
+      "個室あり"
+    ],
     "hours": "月-土 18:00-3:00 / 日 18:00-1:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -4739,7 +4168,11 @@
     "phone": "+84906639201",
     "website": null,
     "description": "日本の牛丼チェーン「松屋」のベトナム1号店。2024年11月オープン。牛めし・定食メニューを提供。日本語オーダーパネルあり。テーブル席中心で34席。",
-    "tags": ["牛丼", "チェーン", "日本語メニュー"],
+    "tags": [
+      "牛丼",
+      "チェーン",
+      "日本語メニュー"
+    ],
     "hours": "10:00-22:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -4759,7 +4192,11 @@
     "phone": null,
     "website": "https://www.unatoto.com/",
     "description": "うなぎ専門チェーン「名代 宇奈とと」のホーチミン店。備長炭で焼き上げるうな丼をリーズナブルな価格で提供。",
-    "tags": ["うなぎ", "チェーン", "リーズナブル"],
+    "tags": [
+      "うなぎ",
+      "チェーン",
+      "リーズナブル"
+    ],
     "hours": "11:00-22:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -4779,7 +4216,11 @@
     "phone": null,
     "website": "https://www.unatoto.com/",
     "description": "うなぎ専門チェーン「名代 宇奈とと」のホーチミン3号店。2025年3月オープン。",
-    "tags": ["うなぎ", "チェーン", "リーズナブル"],
+    "tags": [
+      "うなぎ",
+      "チェーン",
+      "リーズナブル"
+    ],
     "hours": "11:00-22:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -4799,7 +4240,11 @@
     "phone": null,
     "website": null,
     "description": "ホーチミンの第2日本人街ファンビッチャンにある日本人経営レストラン。15年の飲食店経験を持つ日本人店主が和食・洋食・中華を融合させた多彩なメニューを提供。定食15万VND〜。",
-    "tags": ["和洋中", "日本人経営", "ファンビッチャン"],
+    "tags": [
+      "和洋中",
+      "日本人経営",
+      "ファンビッチャン"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -4819,7 +4264,11 @@
     "phone": null,
     "website": null,
     "description": "ダナンの人気寿司店「一寸法師」のオーナーが新たにオープンした日本食店。ハノイの「さかな屋hanoi」も経営する日本人オーナーが運営。新鮮な刺身や定番日本食を提供。",
-    "tags": ["日本人経営", "刺身", "日本食"],
+    "tags": [
+      "日本人経営",
+      "刺身",
+      "日本食"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -4839,7 +4288,11 @@
     "phone": null,
     "website": null,
     "description": "もともとハノイに店舗を構えていた日系日本食レストランがダナンに移転。家庭的な日本食を提供し、日替わりのおばんざいやプレートランチが人気。",
-    "tags": ["日系", "家庭料理", "ランチ"],
+    "tags": [
+      "日系",
+      "家庭料理",
+      "ランチ"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -4859,7 +4312,11 @@
     "phone": null,
     "website": null,
     "description": "東京・浅草発の人気天ぷら専門店「天ぷら秋光」のダナン店。天丼コンテスト金賞受賞の実力店。江戸前天ぷらの技法を忠実に再現。天丼・天ぷら盛り合わせ・定食を提供。",
-    "tags": ["天ぷら", "チェーン", "浅草発"],
+    "tags": [
+      "天ぷら",
+      "チェーン",
+      "浅草発"
+    ],
     "hours": "17:00-23:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -4879,7 +4336,11 @@
     "phone": null,
     "website": null,
     "description": "日本人オーナーが運営するおにぎり専門カフェ。ベトナム産日本米を使い24種類のおにぎりを提供。味噌汁・卵焼き・唐揚げなど日本の家庭の味も楽しめる。ミーケビーチ近く。",
-    "tags": ["おにぎり", "日本人経営", "カフェ"],
+    "tags": [
+      "おにぎり",
+      "日本人経営",
+      "カフェ"
+    ],
     "hours": "月-金 10:00-19:00 / 土日 7:00-19:00（火曜定休）",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -4899,7 +4360,11 @@
     "phone": null,
     "website": "https://chin-meshi.com/",
     "description": "ダナンの日系中華×日本食レストラン。焼き鳥・焼肉・中華料理を提供。ダナン市内に2店舗展開。",
-    "tags": ["中華", "日本食", "焼き鳥"],
+    "tags": [
+      "中華",
+      "日本食",
+      "焼き鳥"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -4919,7 +4384,11 @@
     "phone": null,
     "website": "https://chin-meshi.com/",
     "description": "陳めしの海沿い2号店。屋上BBQエリアがあり、ビーチ近くで日本食と中華料理を楽しめる。",
-    "tags": ["中華", "日本食", "BBQ"],
+    "tags": [
+      "中華",
+      "日本食",
+      "BBQ"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -4939,7 +4408,11 @@
     "phone": null,
     "website": null,
     "description": "ダナン産の海鮮を使った地産地消がテーマの日本食居酒屋「居酒屋縁」の本店。寿司・焼き鳥・つまみ・ラーメンなど幅広いメニュー。日本人だけでなく外国人にも人気。",
-    "tags": ["居酒屋", "地産地消", "海鮮"],
+    "tags": [
+      "居酒屋",
+      "地産地消",
+      "海鮮"
+    ],
     "hours": "10:30-14:00 / 16:30-22:30",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -4959,27 +4432,11 @@
     "phone": null,
     "website": null,
     "description": "居酒屋縁の2号店。ミーケビーチエリアに位置し、新鮮な地元の海鮮を使った日本食を提供。",
-    "tags": ["居酒屋", "地産地消", "海鮮"],
-    "hours": "10:30-14:00 / 16:30-22:30",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "izakaya-yen-do-ba-danang",
-    "name": "Izakaya Yen Do Ba",
-    "name_ja": "居酒屋縁 ドーバー店",
-    "area": "Ngu Hanh Son, Da Nang",
-    "address": "69 Do Ba, Ngu Hanh Son, Da Nang",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "居酒屋縁の3号店。ビーチ沿いに位置し、海鮮を中心とした日本食を提供。",
-    "tags": ["居酒屋", "地産地消", "ビーチ沿い"],
+    "tags": [
+      "居酒屋",
+      "地産地消",
+      "海鮮"
+    ],
     "hours": "10:30-14:00 / 16:30-22:30",
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -4999,7 +4456,11 @@
     "phone": null,
     "website": null,
     "description": "日本人オーナーが経営する人気寿司店「一寸法師」の2号店。アントゥンエリアに位置し、新鮮で活きのいい寿司を提供。個室あり。",
-    "tags": ["寿司", "日本人経営", "個室あり"],
+    "tags": [
+      "寿司",
+      "日本人経営",
+      "個室あり"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -5019,7 +4480,10 @@
     "phone": null,
     "website": null,
     "description": "ハノイでリーズナブルな価格で寿司を楽しめる店。ベトナム人板前がにぎる本格寿司を提供。日本人客も多い。",
-    "tags": ["寿司", "リーズナブル"],
+    "tags": [
+      "寿司",
+      "リーズナブル"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -5039,7 +4503,11 @@
     "phone": null,
     "website": null,
     "description": "人気焼き鳥店「八兵衛」の2号店。ファンビッチャンにオープンし、ホーチミンの夜景を楽しみながらカウンター席・テーブル席で焼き鳥を味わえる。",
-    "tags": ["焼き鳥", "ファンビッチャン", "夜景"],
+    "tags": [
+      "焼き鳥",
+      "ファンビッチャン",
+      "夜景"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -5059,7 +4527,11 @@
     "phone": null,
     "website": null,
     "description": "日本人が運営するレトロな雰囲気のスナックバー。ファンビッチャン通りに位置し、日本のスナック文化をホーチミンで体験できる。",
-    "tags": ["スナックバー", "日本人経営", "ファンビッチャン"],
+    "tags": [
+      "スナックバー",
+      "日本人経営",
+      "ファンビッチャン"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -5079,7 +4551,11 @@
     "phone": null,
     "website": null,
     "description": "日本人オーナーが運営する立ち飲み日本酒バー。厳選された日本酒のラインナップが充実。ファンビッチャン通りに位置。",
-    "tags": ["日本酒", "角打ち", "日本人経営"],
+    "tags": [
+      "日本酒",
+      "角打ち",
+      "日本人経営"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -5099,7 +4575,11 @@
     "phone": null,
     "website": "https://www.facebook.com/izakayayen.hn",
     "description": "ダナンで人気の居酒屋縁のハノイ進出店。ダナン産の海鮮を使った地産地消の日本食居酒屋。",
-    "tags": ["居酒屋", "海鮮", "地産地消"],
+    "tags": [
+      "居酒屋",
+      "海鮮",
+      "地産地消"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -5119,7 +4599,11 @@
     "phone": null,
     "website": null,
     "description": "ダナン・ソンチャエリアにある日系カフェ。カレーセットや唐揚げセットなど日本食メニューも充実。",
-    "tags": ["カフェ", "カレー", "日系"],
+    "tags": [
+      "カフェ",
+      "カレー",
+      "日系"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -5139,7 +4623,11 @@
     "phone": null,
     "website": null,
     "description": "ダナンの日本食居酒屋。スープカレーなど北海道風メニューも提供。ダナン経済大学近くに位置。",
-    "tags": ["居酒屋", "スープカレー", "日本食"],
+    "tags": [
+      "居酒屋",
+      "スープカレー",
+      "日本食"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -5159,7 +4647,11 @@
     "phone": null,
     "website": null,
     "description": "ダナンのアントゥンエリアにある日本食レストラン。ビーチサイドで最大規模の日本食店として知られ、寿司・そばを提供。",
-    "tags": ["寿司", "そば", "ビーチサイド"],
+    "tags": [
+      "寿司",
+      "そば",
+      "ビーチサイド"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -5179,7 +4671,11 @@
     "phone": null,
     "website": null,
     "description": "ダナン・インドチャイナモール内の回転寿司店。全皿27,000VND均一というリーズナブルな価格が特徴。",
-    "tags": ["回転寿司", "リーズナブル", "モール内"],
+    "tags": [
+      "回転寿司",
+      "リーズナブル",
+      "モール内"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
@@ -5199,7 +4695,10 @@
     "phone": null,
     "website": null,
     "description": "ダナンの丼ぶり専門店。39,000VND〜のリーズナブルな丼ぶりメニューを提供。",
-    "tags": ["丼ぶり", "リーズナブル"],
+    "tags": [
+      "丼ぶり",
+      "リーズナブル"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",

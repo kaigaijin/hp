@@ -3,13 +3,12 @@
     "slug": "ariga-dental-hcmc",
     "name": "Ariga Dental Clinic",
     "name_ja": "ありが歯科",
-    "area": "District 1",
+    "area": "District 3",
     "address": "337 Hai Ba Trung, Ward 8, District 3, Ho Chi Minh City",
     "phone": null,
     "website": "https://arigadc.com/",
-    "description": "ホーチミンの日系歯科医院。日本人歯科医師が在籍し、日本語で診察・治療を提供。こども矯正歯科、インプラントにも対応。",
+    "description": "ホーチミンの日系歯科医院。日本人歯科医師が在籍し、日本語で診察・治療を提供。こども矯正歯科・インプラントにも対応。",
     "tags": [
-      "日本語対応",
       "日本人歯科医師",
       "矯正歯科",
       "インプラント"
@@ -17,7 +16,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "dym-dental-hcmc",
@@ -30,13 +30,14 @@
     "description": "DYMメディカルセンター内の歯科。日本語対応スタッフ在籍。一般歯科・予防歯科・審美歯科に対応。",
     "tags": [
       "日本語対応",
-      "一般歯科",
+      "日系クリニック",
       "予防歯科"
     ],
     "hours": "8:00〜18:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "westcoast-dental-hcmc",
@@ -46,17 +47,17 @@
     "address": "27 Nguyen Trung Truc, District 1, Ho Chi Minh City",
     "phone": "+842838270111",
     "website": "https://westcoastinternational.com/",
-    "description": "ホーチミンの国際歯科クリニック。日本人歯科医を含む多国籍チーム。日本語対応可能。インプラント、矯正、審美歯科に対応。",
+    "description": "ホーチミンの国際歯科クリニック。日本人歯科医を含む多国籍チームで、日本語対応可能。インプラント・矯正・審美歯科に対応。",
     "tags": [
-      "多言語対応",
-      "日本語対応可",
+      "日本語対応",
       "インプラント",
-      "矯正"
+      "矯正歯科"
     ],
     "hours": "月〜土 8:00〜20:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "elite-dental-hcmc",
@@ -66,73 +67,17 @@
     "address": "District 1, Ho Chi Minh City",
     "phone": null,
     "website": "https://elitedental.com.vn/ja/",
-    "description": "ホーチミンの国際歯科クリニック。外国人患者対応に慣れており、英語・日本語サポートあり。日本語サイトあり。",
+    "description": "ホーチミンの国際歯科クリニック。日本語の公式サイトを持ち、英語・日本語サポートあり。外国人患者対応に慣れている。",
     "tags": [
-      "歯科",
+      "日本語サイトあり",
       "国際クリニック",
-      "日本語サイト"
+      "外国人対応"
     ],
     "hours": "平日 8:30〜18:00 / 土 8:30〜12:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-28"
-  },
-  {
-    "slug": "sakura-dental-hcmc",
-    "name": "Sakura Dental Clinic HCMC",
-    "name_ja": "さくら歯科 ホーチミン",
-    "area": "District 1",
-    "address": "District 1, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "1990年設立の老舗歯科。日本語対応可能なベトナム人歯科医師が在籍。20年以上ホーチミン在住日本人に利用されている。",
-    "tags": [
-      "歯科",
-      "日本語対応",
-      "老舗"
-    ],
-    "hours": "平日 8:30〜17:30",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "nha-khoa-kim-hcmc",
-    "name": "Nha Khoa Kim HCMC",
-    "name_ja": "キム歯科 ホーチミン",
-    "area": "District 1",
-    "address": "District 1, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "ホーチミンの大手歯科チェーン。外国人患者対応に慣れており、最新設備を完備。",
-    "tags": [
-      "歯科",
-      "チェーン",
-      "外国人対応"
-    ],
-    "hours": "平日 8:00〜20:00 / 土 8:00〜17:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "peace-dental-hanoi",
-    "name": "Peace Dental Clinic Hanoi",
-    "name_ja": "ピース歯科 ハノイ",
-    "area": "Ba Dinh",
-    "address": "Ba Dinh, Hanoi",
-    "phone": null,
-    "website": null,
-    "description": "ハノイの歯科クリニック。外国人患者対応に慣れており、英語対応可能。",
-    "tags": [
-      "歯科",
-      "外国人対応",
-      "英語対応"
-    ],
-    "hours": "平日 8:30〜18:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "east-rose-dental-d1",
@@ -143,11 +88,12 @@
     "phone": null,
     "website": "https://eastrosedental.com/",
     "description": "ベンタイン市場東門前の歯科クリニック。ハーバード出身のチーフデンティストが率い、日本語スタッフが在籍。インプラント・審美歯科に強み。",
-    "tags": ["歯科", "日本語スタッフ", "インプラント"],
+    "tags": ["日本語スタッフ", "インプラント", "審美歯科"],
     "hours": "平日 8:00-18:00 / 土 8:00-16:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "east-rose-dental-d2",
@@ -157,27 +103,13 @@
     "address": "166 Dong Van Cong, Thanh My Loi, Thu Duc City, Ho Chi Minh City",
     "phone": null,
     "website": "https://eastrosedental.com/",
-    "description": "イーストローズデンタルの2区(トゥドゥック)店。Vista Verde近く。日本語スタッフ在籍で外国人患者にも安心。",
-    "tags": ["歯科", "日本語スタッフ", "トゥドゥック"],
+    "description": "イーストローズデンタルのトゥドゥック店。Vista Verde近く。日本語スタッフ在籍で外国人患者にも安心。",
+    "tags": ["日本語スタッフ", "トゥドゥック", "審美歯科"],
     "hours": "平日 8:00-18:00 / 土 8:00-16:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "tu-du-japanese-dental",
-    "name": "Tu Du Hospital Japanese Dental Clinic",
-    "name_ja": "トゥドゥ病院 日本式歯科",
-    "area": "District 1",
-    "address": "Tu Du Hospital, District 1, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "トゥドゥ病院内に開設された日本式基準の歯科クリニック。マタニティ歯科を専門とし、日本の厳格な医療基準に準拠。",
-    "tags": ["歯科", "日本式基準", "マタニティ歯科"],
-    "hours": "平日 8:00-17:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "mikuni-dental-hanoi",
@@ -185,18 +117,14 @@
     "name_ja": "ハノイ三国歯科",
     "area": "Ba Dinh, Hanoi",
     "address": "West Wing, 8F, Lotte Center, 54 Lieu Giai, Ba Dinh, Hanoi",
-    "lat": null,
-    "lng": null,
     "phone": "+84904677168",
     "website": "http://hanoi-mikuni.com/",
     "description": "ハノイロッテセンター内の日系歯科。全ての治療を日本人歯科医師が担当し、完全日本語対応。一般歯科・審美歯科・ホワイトニング・ボトックスにも対応。",
-    "tags": ["日本人歯科医師", "日本語対応", "審美歯科"],
+    "tags": ["日本人歯科医師", "完全日本語対応", "審美歯科"],
     "hours": "火〜土 9:00-18:00（月・日・祝休）",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "web_search",
-    "place_id": "",
-    "priority": 0,
     "ai_reviewed": true
   },
   {
@@ -205,18 +133,14 @@
     "name_ja": "けやきデンタルクリニック ハノイ",
     "area": "Hanoi",
     "address": "Hanoi, Vietnam",
-    "lat": null,
-    "lng": null,
     "phone": "+84902723426",
     "website": null,
-    "description": "旧なごみデンタルクリニック。ハノイで10年の実績を持つ日系歯科。日本人歯科医師が在籍し、日本水準の歯科総合治療を提供。LINE・Zaloでの予約も可能。",
-    "tags": ["日本人歯科医師", "日本語対応", "日本水準"],
+    "description": "旧なごみデンタルクリニック。ハノイで10年の実績を持つ日系歯科。日本人歯科医師が在籍し、日本水準の歯科総合治療を提供。LINE・Zaloでの予約可能。",
+    "tags": ["日本人歯科医師", "日本語対応", "10年の実績"],
     "hours": "要確認",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "web_search",
-    "place_id": "",
-    "priority": 0,
     "ai_reviewed": true
   },
   {
@@ -225,8 +149,6 @@
     "name_ja": "さくらクリニック歯科 ハノイ",
     "area": "Tay Ho, Hanoi",
     "address": "65 Trinh Cong Son, Nhat Tan, Tay Ho, Hanoi",
-    "lat": null,
-    "lng": null,
     "phone": "+842437182000",
     "website": "https://sakurahanoi.com/",
     "description": "さくらクリニック内の歯科部門。2014年開業。日本人歯科医が常駐し、一般歯科・クリーニング・ホワイトニングに対応。日本語で全て受診可能。",
@@ -235,8 +157,6 @@
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "web_search",
-    "place_id": "",
-    "priority": 0,
     "ai_reviewed": true
   },
   {
@@ -245,18 +165,14 @@
     "name_ja": "DYMデンタルセンター 7区",
     "area": "District 7",
     "address": "71 Hoang Van Thai, Tan My, District 7, Ho Chi Minh City",
-    "lat": null,
-    "lng": null,
     "phone": "+842877710170",
     "website": "https://jp-dymmedicalcenter.com.vn/departments/dental/",
-    "description": "DYMメディカルセンター7区院の歯科。日本人歯科医（平山恵理子歯科医師）が在籍。日本語通訳帯同で歯石治療・ホワイトニングを提供。",
-    "tags": ["日本人歯科医", "日本語対応", "ホワイトニング"],
+    "description": "DYMメディカルセンター7区院の歯科。日本人歯科医が在籍。日本語通訳帯同で歯石治療・ホワイトニングを提供。",
+    "tags": ["日本人歯科医", "日本語対応", "フーミーフン"],
     "hours": "8:00〜18:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "web_search",
-    "place_id": "",
-    "priority": 0,
     "ai_reviewed": true
   },
   {
@@ -265,18 +181,14 @@
     "name_ja": "DYMデンタルセンター ハノイ",
     "area": "Cau Giay, Hanoi",
     "address": "Basement B1, Epic Tower, Alley 19 Duy Tan Street, Cau Giay, Hanoi",
-    "lat": null,
-    "lng": null,
     "phone": "+842477710170",
     "website": "https://jp-dymmedicalcenter.com.vn/departments/dental/",
-    "description": "DYMメディカルセンターハノイ院の歯科。ベトナム人歯科医による歯石治療・ホワイトニングを提供。日本語通訳帯同で安心して受診可能。ハノイ日本人学校から車10分。",
+    "description": "DYMメディカルセンターハノイ院の歯科。日本語通訳帯同で歯石治療・ホワイトニングを提供。ハノイ日本人学校から車10分。",
     "tags": ["日本語通訳", "ホワイトニング", "日系クリニック"],
     "hours": "8:00〜18:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "web_search",
-    "place_id": "",
-    "priority": 0,
     "ai_reviewed": true
   },
   {
@@ -285,18 +197,14 @@
     "name_ja": "ロータスクリニック歯科 ホーチミン",
     "area": "District 1",
     "address": "3rd Floor, The Lancaster Building, 22 Le Thanh Ton, District 1, Ho Chi Minh City",
-    "lat": null,
-    "lng": null,
     "phone": "+842838270000",
     "website": "https://lotus-clinic.com/",
-    "description": "ロータスクリニック内の歯科部門。ベトナム初の日系クリニックとして日本人歯科衛生士が在籍。日本語で予約から治療まで対応。完全予約制。",
+    "description": "ベトナム初の日系クリニック・ロータスクリニック内の歯科部門。日本人歯科衛生士が在籍。日本語で予約から治療まで対応。完全予約制。",
     "tags": ["日本語対応", "日系クリニック", "完全予約制"],
     "hours": "月〜金 9:00-12:30, 14:00-18:00 / 土 9:00-13:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "web_search",
-    "place_id": "",
-    "priority": 0,
     "ai_reviewed": true
   },
   {
@@ -305,8 +213,6 @@
     "name_ja": "ロータスクリニック歯科 ハノイ",
     "area": "Ba Dinh, Hanoi",
     "address": "No.1+No.2, D2 Building, Giang Vo Street, Ba Dinh, Hanoi",
-    "lat": null,
-    "lng": null,
     "phone": "+842438170000",
     "website": "https://lotus-clinic.com/",
     "description": "ロータスクリニック ハノイ院の歯科部門。日本語で全て対応可能。完全予約制。",
@@ -315,8 +221,6 @@
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "web_search",
-    "place_id": "",
-    "priority": 0,
     "ai_reviewed": true
   }
 ]
