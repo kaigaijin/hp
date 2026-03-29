@@ -10,13 +10,14 @@
     "phone": "+49211383756",
     "website": "http://www.neugebauer-baba.de",
     "description": "日本語で診療を行う内科クリニック。ノイゲバウア馬場・ザビーネ院長、馬場恒春医師、森由紀子医師の3名が日本語対応。健康診断・人間ドックも実施。",
-    "tags": ["内科", "日本語対応", "健康診断", "人間ドック"],
+    "tags": ["内科", "日本語対応", "健康診断"],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "shinoda-clinic",
@@ -29,13 +30,14 @@
     "phone": "+49211161409",
     "website": null,
     "description": "1993年開業の一般内科クリニック。院長の篠田郁弥医師が日本人を中心に日本語で診療を行っている。",
-    "tags": ["内科", "日本語対応", "日本人医師"],
+    "tags": ["内科", "日本人医師", "1993年開業"],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "uchida-clinic",
@@ -54,7 +56,8 @@
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "nakagawa-felberg",
@@ -67,18 +70,19 @@
     "phone": "+49211552973",
     "website": null,
     "description": "中川フェールベルグ美智子医師による産婦人科クリニック。日本語で診療可能。プライベート保険のみ対応。",
-    "tags": ["産婦人科", "日本人医師", "日本語対応", "プライベート保険のみ"],
+    "tags": ["産婦人科", "日本人医師", "プライベート保険のみ"],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "kinderarztliche-privatpraxis-hiller",
     "name": "Kinderärztliche Privatpraxis Arzum Hiller",
-    "name_ja": null,
+    "name_ja": "ヒラー小児科プライベートクリニック",
     "area": "Düsseldorf, Oberkassel",
     "address": "Niederkasseler Straße 55, 40547 Düsseldorf",
     "lat": null,
@@ -92,7 +96,8 @@
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "iwamoto-clinic",
@@ -111,12 +116,13 @@
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "dr-kuhn-orthopedics",
     "name": "Dr. Kuhn Orthopedics",
-    "name_ja": null,
+    "name_ja": "クーン整形外科",
     "area": "Düsseldorf, Stadt-Mitte",
     "address": "Königsallee 64, 40212 Düsseldorf",
     "lat": null,
@@ -130,12 +136,13 @@
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "meoclinic-berlin",
     "name": "MEOCLINIC",
-    "name_ja": null,
+    "name_ja": "メオクリニック",
     "area": "Berlin, Mitte",
     "address": "Friedrichstraße 71, Quartier 206, 10117 Berlin",
     "lat": null,
@@ -143,18 +150,19 @@
     "phone": "+493020944000",
     "website": "https://meoclinic.de",
     "description": "ベルリン中心部の総合クリニック。内科に日本人医師（柏木重雄医師）が在籍。日本語での診療が可能。",
-    "tags": ["総合クリニック", "内科", "日本人医師", "ベルリン"],
+    "tags": ["総合クリニック", "日本人医師", "ベルリン"],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "hno-berlin-yamanouchi",
     "name": "HNO in Berlin - Dr. Yamanouchi",
-    "name_ja": null,
+    "name_ja": "山之内耳鼻咽喉科",
     "area": "Berlin, Steglitz",
     "address": "Schloßstraße 107/108, 12163 Berlin",
     "lat": null,
@@ -168,12 +176,13 @@
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "hitziger-clinic-frankfurt",
     "name": "Hitziger Clinic",
-    "name_ja": null,
+    "name_ja": "ヒッツィガークリニック",
     "area": "Frankfurt, Hausen",
     "address": "Hausener Brückweg 2, 60488 Frankfurt am Main",
     "lat": null,
@@ -187,12 +196,13 @@
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "dr-becker-schueder-munich",
     "name": "Dr. Sakuyo Becker-Schüder",
-    "name_ja": null,
+    "name_ja": "ベッカーシューダー内科",
     "area": "München, Bogenhausen",
     "address": "Menzelstraße 4a, 81679 München",
     "lat": null,
@@ -206,7 +216,8 @@
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
-    "priority": 0
+    "priority": 0,
+    "ai_reviewed": true
   },
   {
     "slug": "dr-tanaka-dermatology-dusseldorf",
@@ -220,26 +231,6 @@
     "website": null,
     "description": "デュッセルドルフの皮膚科クリニック。日本人医師の田中医師が在籍し、日本語での診療が可能。",
     "tags": ["皮膚科", "日本人医師", "日本語対応"],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "japanese-medical-service-dusseldorf",
-    "name": "Japanischer Ärztlicher Dienst Düsseldorf",
-    "name_ja": "デュッセルドルフ日本語医療サービス",
-    "area": "Düsseldorf",
-    "address": null,
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "デュッセルドルフ地域の日本語医療通訳サービス。病院への同行通訳や医療相談に対応。在独日本人の医療アクセスを支援。",
-    "tags": ["医療通訳", "日本語対応", "通訳サービス"],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
