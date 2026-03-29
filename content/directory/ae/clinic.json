@@ -2,22 +2,22 @@
   {
     "slug": "sakura-medical-dental-clinic",
     "name": "SAKURA Medical and Dental Clinic",
-    "name_ja": "さくらクリニック",
+    "name_ja": "さくらメディカル＆デンタルクリニック",
     "area": "Dubai Healthcare City",
     "address": "Room 4005, Block B, Building No.64 Al-Razi, Dubai Healthcare City, Dubai",
     "phone": "+97144452875",
     "website": "https://ja.sakura-mdc.com/",
-    "description": "中東唯一の日系医療・歯科クリニック。2012年開業。日本人医師・看護師・スタッフが在籍し、診察・検査・処方まで全て日本語で対応。2024年10月に4階に拡張移転。キッズスペースあり。",
+    "description": "中東唯一の日系医療・歯科クリニック。2012年開業。日本人医師・看護師・スタッフが在籍し、内科・循環器科・産婦人科・皮膚科・歯科の診察から処方まで全て日本語で対応。2024年10月に4階に拡張移転。メトロ・グリーンライン「Healthcare City」駅から徒歩5分。",
     "tags": [
+      "日本人医師在籍",
       "日本語対応",
-      "日本人医師",
-      "歯科",
-      "内科"
+      "内科・歯科・産婦人科"
     ],
-    "hours": "月〜木・土日 9:00-18:00（木午後・金曜・祝日休）/ 産婦人科: 水日のみ",
-    "last_verified": "2026-03-26",
+    "hours": "月〜土 9:00-18:00（金曜・祝日休）/ 産婦人科: 水日のみ",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "american-wellness-center",
@@ -27,202 +27,56 @@
     "address": "Dubai Healthcare City, Building 64, Block C, Dubai",
     "phone": "+97144220575",
     "website": "https://americanwellnesscenter.com/",
-    "description": "ドバイの総合クリニック。日本人内科医の福田淳子先生が在籍し、内科診察、健康診断、予防接種などを日本語で受診可能。日本人スタッフも在籍。",
+    "description": "ドバイの総合クリニック。日本人内科医が在籍し、内科診察、健康診断、予防接種などを日本語で受診可能。日本人スタッフも在籍。",
     "tags": [
-      "日本人医師",
+      "日本人医師在籍",
       "日本語対応",
       "健康診断"
     ],
     "hours": "要確認",
-    "last_verified": "2026-03-26",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "tokyo-cosmetic-surgery-dubai",
     "name": "Tokyo Cosmetic Surgery",
-    "name_ja": "東京コスメティックサージェリー",
+    "name_ja": "東京美容外科 ドバイ",
     "area": "Trade Centre",
     "address": "Dubai Trade Centre Area, Dubai",
     "phone": null,
-    "website": null,
-    "description": "東京発の美容クリニックが中東初進出。日本式HIFU、ボトックス、ヒアルロン酸注入、レーザー治療、歯のホワイトニング等を提供。",
+    "website": "https://tkc.ae/",
+    "description": "東京発の美容クリニックが中東初進出。日本の美容外科で20年以上の実績を持ち、HIFU、ボトックス、ヒアルロン酸注入、レーザー治療等を日本式の技術で提供。日本から医療機器・製品を導入。",
     "tags": [
       "日本式美容クリニック",
       "HIFU",
-      "ボトックス"
+      "東京発"
     ],
     "hours": "要確認",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "japanese-beauty-clinic-difc",
-    "name": "Japanese Beauty Clinic",
-    "name_ja": "ジャパニーズビューティークリニック",
-    "area": "DIFC",
-    "address": "Gate District, DIFC, Dubai",
-    "phone": null,
-    "website": "https://reborn-clinic.ae/",
-    "description": "DIFC内の日本式美容・再生医療クリニック。最新の再生医療技術を活用したアンチエイジング・美容トリートメントを提供。",
-    "tags": [
-      "再生医療",
-      "アンチエイジング",
-      "美容トリートメント"
-    ],
-    "hours": "要確認",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "mediclinic-city-hospital",
-    "name": "Mediclinic City Hospital",
-    "name_ja": "メディクリニック シティホスピタル",
-    "area": "Dubai Healthcare City",
-    "address": "Dubai Healthcare City, Dubai",
-    "phone": "+97143762200",
-    "website": "https://www.mediclinic.ae/",
-    "description": "ドバイ最大級の国際病院。日本語通訳手配が可能。救急対応・入院設備完備で駐在員の緊急時にも安心。",
-    "tags": [
-      "国際病院",
-      "日本語通訳手配可",
-      "救急対応"
-    ],
-    "hours": "24時間",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "emirates-hospital-jumeirah",
-    "name": "Emirates Hospital Jumeirah",
-    "name_ja": "エミレーツ病院 ジュメイラ",
-    "area": "Jumeirah",
-    "address": "Jumeirah Beach Road, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "ジュメイラの総合病院。外国人患者対応が充実。各科専門医が在籍し、通訳サービスも利用可能。",
-    "tags": [
-      "総合病院",
-      "外国人対応"
-    ],
-    "hours": "24時間（救急）/ 外来 8:00〜20:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "dr-sulaiman-habib-dubai",
-    "name": "Dr. Sulaiman Al Habib Hospital Dubai",
-    "name_ja": "スライマン・アル・ハビブ病院 ドバイ",
-    "area": "Dubai Healthcare City",
-    "address": "Dubai Healthcare City, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "ドバイヘルスケアシティの総合病院。各科専門医が在籍し、通訳サービスも利用可能。",
-    "tags": [
-      "総合病院",
-      "外国人対応"
-    ],
-    "hours": "24時間（救急）/ 外来 8:00〜20:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "aster-clinic-dubai",
-    "name": "Aster Clinic Dubai",
-    "name_ja": "アスタークリニック ドバイ",
-    "area": "Various",
-    "address": "Multiple locations in Dubai",
-    "phone": null,
-    "website": null,
-    "description": "ドバイの大手クリニックチェーン。一般診療・専門外来・健康診断に対応。多数の拠点で利便性が高い。",
-    "tags": [
-      "クリニック",
-      "チェーン",
-      "総合診療"
-    ],
-    "hours": "毎日 8:00〜22:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "reborn-clinic-difc",
-    "name": "Reborn Clinic DIFC",
-    "name_ja": "リボーンクリニック DIFC",
+    "name": "Reborn Clinic",
+    "name_ja": "リボーンクリニック",
     "area": "DIFC",
-    "address": "Gate District, DIFC, Dubai",
+    "address": "Sheikh Zayed Road, Trade Centre, DIFC, Dubai",
     "phone": null,
     "website": "https://reborn-clinic.ae/",
-    "description": "DIFC内の日本式再生医療クリニック。幹細胞治療、PRP療法、アンチエイジングトリートメントを提供。日本の再生医療技術を導入。",
-    "tags": ["再生医療", "アンチエイジング", "日本式"],
+    "description": "日本発の再生医療クリニック。日本（福岡・東京・大阪）に姉妹院を持ち、日本のトップクラスの再生医療技術を導入。幹細胞治療、PRP療法、アンチエイジング、薄毛治療、パーマネントメイクを提供。",
+    "tags": [
+      "再生医療",
+      "日本発",
+      "幹細胞治療"
+    ],
     "hours": "日〜木 9:00-18:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "nmc-royal-hospital-abu-dhabi",
-    "name": "NMC Royal Hospital Abu Dhabi",
-    "name_ja": "NMCロイヤル病院 アブダビ",
-    "area": "Abu Dhabi",
-    "address": "Abu Dhabi, UAE",
-    "phone": null,
-    "website": "https://nmc.ae/",
-    "description": "アブダビの大型総合病院。多言語対応で外国人患者の受入実績が豊富。救急・入院・各科専門外来を完備。",
-    "tags": ["総合病院", "外国人対応", "救急対応"],
-    "hours": "24時間（救急）/ 外来 8:00-20:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "cleveland-clinic-abu-dhabi",
-    "name": "Cleveland Clinic Abu Dhabi",
-    "name_ja": "クリーブランドクリニック アブダビ",
-    "area": "Al Maryah Island",
-    "address": "Al Maryah Island, Abu Dhabi",
-    "phone": null,
-    "website": "https://www.clevelandclinicabudhabi.ae/",
-    "description": "米国クリーブランドクリニックのアブダビ分院。世界水準の医療を提供する大型病院。多言語対応で外国人患者にも安心。",
-    "tags": ["国際病院", "米国系", "多言語対応"],
-    "hours": "24時間（救急）/ 外来 8:00-17:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "burjeel-hospital-abu-dhabi",
-    "name": "Burjeel Hospital Abu Dhabi",
-    "name_ja": "ブルジール病院 アブダビ",
-    "area": "Abu Dhabi",
-    "address": "Al Najda Street, Abu Dhabi",
-    "phone": null,
-    "website": "https://www.burjeel.com/",
-    "description": "UAE大手病院グループ。各科専門医が在籍し、外国人患者対応に慣れている。通訳手配も可能。",
-    "tags": ["総合病院", "外国人対応", "通訳手配可"],
-    "hours": "24時間（救急）/ 外来 8:00-20:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "prime-hospital-dubai",
-    "name": "Prime Hospital Dubai",
-    "name_ja": "プライム病院 ドバイ",
-    "area": "Garhoud",
-    "address": "Airport Road, Garhoud, Dubai",
-    "phone": null,
-    "website": "https://www.primehospital.ae/",
-    "description": "ガルフードエリアの総合病院。外国人患者対応に実績があり、通訳サービスも利用可能。空港近くのロケーション。",
-    "tags": ["総合病院", "外国人対応", "空港近く"],
-    "hours": "24時間（救急）/ 外来 8:00-20:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   }
 ]

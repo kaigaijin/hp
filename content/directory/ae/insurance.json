@@ -7,34 +7,36 @@
     "address": "DIFC, Dubai",
     "phone": null,
     "website": null,
-    "description": "東京海上日動の中東拠点。日系企業向け損害保険・再保険サービスを提供。",
+    "description": "東京海上日動火災保険の中東拠点。日系企業向けの損害保険・再保険サービスを提供する日本最大手の保険会社。",
     "tags": [
-      "損害保険",
-      "日系",
-      "法人向け"
+      "日系損害保険",
+      "法人向け",
+      "東京海上グループ"
     ],
     "hours": "平日 9:00〜17:30",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "sompo-dubai",
     "name": "Sompo International Dubai",
-    "name_ja": "損保ジャパン ドバイ",
+    "name_ja": "SOMPOインターナショナル ドバイ",
     "area": "DIFC",
     "address": "DIFC, Dubai",
     "phone": null,
     "website": null,
-    "description": "損保ジャパンの中東拠点。日系企業向けの各種保険サービスを提供。",
+    "description": "SOMPOホールディングスの中東拠点。日系企業の海外事業に対応する各種損害保険サービスを提供。",
     "tags": [
-      "損害保険",
-      "日系",
-      "法人向け"
+      "日系損害保険",
+      "法人向け",
+      "SOMPOグループ"
     ],
     "hours": "平日 9:00〜17:30",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   }
 ]

@@ -1,22 +1,23 @@
 [
   {
     "slug": "nishimura-asahi-dubai",
-    "name": "Nishimura & Asahi Dubai",
+    "name": "Nishimura & Asahi (Afridi & Angell Japan Desk)",
     "name_ja": "西村あさひ法律事務所 ドバイ",
     "area": "DIFC",
     "address": "Unit 407, Index Tower, Dubai International Financial Centre, Dubai",
-    "phone": null,
+    "phone": "+97143863456",
     "website": "https://www.nishimura.com/en/global-coverage/dubai",
-    "description": "日本最大級の法律事務所のドバイ拠点。日本人弁護士が常駐し、中東地域での日系企業の法務をサポート。M&A、紛争解決、コーポレートガバナンスに対応。",
+    "description": "日本最大級の法律事務所のドバイ拠点。現地法律事務所Afridi & Angellとの提携により「ジャパンデスク」を運営。中東唯一の長期駐在日本人弁護士・森下雅央パートナーが常駐。M&A、紛争解決、企業法務に対応。",
     "tags": [
-      "日本人弁護士",
-      "法務",
-      "M&A"
+      "日本人弁護士常駐",
+      "M&A",
+      "企業法務"
     ],
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "one-asia-lawyers-dubai",
@@ -24,9 +25,9 @@
     "name_ja": "ワンアジアローヤーズ UAE",
     "area": "Dubai",
     "address": "Dubai, UAE",
-    "phone": null,
+    "phone": "+97143211000",
     "website": "https://oneasia.legal/en/office/uae",
-    "description": "アジア圏に広くネットワークを持つ法律事務所グループのUAE拠点。日本人弁護士が中東の法規制情報を収集し、フィンテック・コーポレート法務に対応。",
+    "description": "アジア圏に広くネットワークを持つ法律事務所グループのUAE拠点。現地法律事務所Alsuwaidi & Companyと提携。日本人弁護士がドバイに駐在し、フィンテック・企業法務・中東規制情報の収集に対応。ドバイ・アブダビ・アジュマンに拠点。",
     "tags": [
       "日本人弁護士",
       "フィンテック",
@@ -35,7 +36,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "nexpert-ncsf-dubai",
@@ -45,35 +47,17 @@
     "address": "Dubai, UAE",
     "phone": null,
     "website": "https://nexpert-law.com/dubai_incorporation_consulting/",
-    "description": "ネクスパート法律事務所の関連会社。フリーゾーン法人設立からビザ取得、口座開設までトータルサポート。グループ会計事務所と連携した税務対応も可能。",
+    "description": "ネクスパート法律事務所の関連会社として2022年12月にドバイのフリーゾーンに設立。IFZA公認パートナー。フリーゾーン法人設立からビザ取得、銀行口座開設、会計・税務処理までトータルサポート。初期費用約300万円、年間運営費200万円〜。",
     "tags": [
       "法人設立",
-      "ビザ取得",
-      "フリーゾーン"
+      "IFZA公認",
+      "ビザ取得支援"
     ],
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "baker-mckenzie-dubai",
-    "name": "Baker McKenzie Dubai",
-    "name_ja": "ベーカー&マッケンジー ドバイ",
-    "area": "DIFC",
-    "address": "DIFC, Dubai",
-    "phone": null,
-    "website": "https://www.bakermckenzie.com/",
-    "description": "国際法律事務所。日本企業の中東進出・投資案件をサポート。日本語対応可。",
-    "tags": [
-      "国際法律事務所",
-      "日本語対応",
-      "企業法務"
-    ],
-    "hours": "平日 9:00〜18:00",
-    "status": "unverified",
-    "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "mori-hamada-matsumoto-dubai",
@@ -83,12 +67,17 @@
     "address": "DIFC, Dubai",
     "phone": null,
     "website": "https://www.morihamada.com/en/",
-    "description": "日本の大手法律事務所。中東地域での日系企業のM&A、紛争解決、コーポレートガバナンスに対応。日本人弁護士が常駐。",
-    "tags": ["日本人弁護士", "M&A", "企業法務"],
+    "description": "日本の四大法律事務所の一つ。中東地域での日系企業のM&A、紛争解決、コーポレートガバナンスに対応。日本人弁護士が常駐。",
+    "tags": [
+      "日本人弁護士",
+      "M&A",
+      "企業法務"
+    ],
     "hours": "平日 9:00-18:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "anderson-mori-tomotsune-dubai",
@@ -98,11 +87,16 @@
     "address": "Dubai, UAE",
     "phone": null,
     "website": "https://www.amt-law.com/en/",
-    "description": "日本の大手法律事務所のUAE拠点。日本企業の中東進出、投資案件、コーポレート法務を日本語でサポート。",
-    "tags": ["日本人弁護士", "企業法務", "日本語対応"],
+    "description": "日本の四大法律事務所の一つのUAE拠点。日本企業の中東進出、投資案件、コーポレート法務を日本語でサポート。",
+    "tags": [
+      "日本人弁護士",
+      "企業法務",
+      "日本語対応"
+    ],
     "hours": "平日 9:00-18:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   }
 ]

@@ -7,16 +7,17 @@
     "address": "302 Nouf Tower, Umm Hurair Road, Port Saeed, Dubai",
     "phone": "+97145487082",
     "website": "https://jcme-group.com/en/",
-    "description": "ドバイの日系不動産仲介会社。EMAARなど主要デベロッパーと直接契約を持ち、1,000件以上の物件を取り扱う。不動産売買、会社設立、銀行口座開設、ビザ申請まで日本語でワンストップ対応。",
+    "description": "ドバイの日系不動産仲介会社。EMAARなど主要デベロッパーと直接契約を持ち、1,000件以上の物件を取り扱う。不動産売買に加え、法人設立（44社実績）、銀行口座開設（32件）、ビザ申請（71件）まで日本語でワンストップ対応。累計取引額3.574億AED。",
     "tags": [
       "日本語対応",
       "不動産売買",
-      "会社設立支援"
+      "法人設立支援"
     ],
     "hours": "月〜金 9:00-17:00",
-    "last_verified": "2026-03-26",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "exceed-real-estate",
@@ -26,16 +27,17 @@
     "address": "Dubai, UAE",
     "phone": "+971585200789",
     "website": "https://exceed-realestate.jp/",
-    "description": "2023年にドバイ在住の日本人と現地プロフェッショナルが設立した不動産会社。日本人エージェントが現地スタッフと連携し、物件探しから契約まで日本語で全面サポート。",
+    "description": "2023年設立、ドバイ在住の日本人と現地プロフェッショナルによる不動産会社。日本人・日系法人向け売上実績No.1を標榜。累計取引40億円超、100件以上の取引実績。物件選定から契約、管理・賃貸運用、法人設立・ビザ取得まで日本語でフルサポート。",
     "tags": [
-      "日本語対応",
       "日本人エージェント",
-      "不動産"
+      "不動産投資",
+      "法人設立支援"
     ],
     "hours": "要確認",
-    "last_verified": "2026-03-26",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "apex-capital-real-estate",
@@ -45,83 +47,16 @@
     "address": "Dubai, UAE",
     "phone": "+97145576640",
     "website": "https://apexcapitaldubai.com/jp/",
-    "description": "ドバイの不動産会社。10名以上の日本人スタッフが在籍し、15年以上のドバイ不動産経験を持つ。物件購入、リロケーション、関連サービスを日本語で提供。",
+    "description": "15年以上のドバイ不動産経験を持つ不動産会社。10名以上の日本人スタッフが在籍。物件売買・賃貸、購入後の管理運用、ビザ申請、銀行口座開設、Emaar物件購入支援、住宅ローン紹介まで日本語で対応。教育・医療・生活情報も「ドバイノート」で発信。",
     "tags": [
-      "日本語対応",
       "日本人スタッフ多数",
-      "不動産投資"
+      "不動産投資",
+      "ビザ支援"
     ],
     "hours": "要確認",
-    "last_verified": "2026-03-26",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "dubai-nihon-property",
-    "name": "Dubai Japan Property",
-    "name_ja": "ドバイ日本不動産",
-    "area": "Dubai",
-    "address": "Dubai",
-    "phone": null,
-    "website": null,
-    "description": "日本人向けのドバイ不動産仲介。賃貸・売買の両方に対応し、日本語でのサポートが受けられる。",
-    "tags": [
-      "不動産",
-      "日本語対応",
-      "賃貸・売買"
-    ],
-    "hours": "平日 9:00〜18:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "starts-dubai",
-    "name": "Starts Dubai",
-    "name_ja": "スターツ ドバイ",
-    "area": "Dubai",
-    "address": "Dubai",
-    "phone": null,
-    "website": null,
-    "description": "日系不動産会社スターツのドバイ拠点。駐在員向け賃貸物件紹介を日本語で提供。",
-    "tags": [
-      "不動産",
-      "日系",
-      "日本語対応"
-    ],
-    "hours": "平日 9:00〜18:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "property-finder-japan-desk",
-    "name": "Property Finder Japan Desk",
-    "name_ja": "プロパティファインダー ジャパンデスク",
-    "area": "Dubai",
-    "address": "Dubai, UAE",
-    "phone": null,
-    "website": "https://www.propertyfinder.ae/",
-    "description": "UAE最大の不動産ポータルサイト。日本語対応エージェントの紹介も行っている。賃貸・売買物件の検索が可能。",
-    "tags": ["不動産ポータル", "物件検索", "日本語対応"],
-    "hours": "平日 9:00-18:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "savills-japan-desk-dubai",
-    "name": "Savills Japan Desk Dubai",
-    "name_ja": "サヴィルズ ジャパンデスク ドバイ",
-    "area": "Dubai",
-    "address": "Dubai, UAE",
-    "phone": null,
-    "website": "https://www.savills.co.jp/",
-    "description": "英国系大手不動産会社のドバイ拠点。日本語対応可能な国際不動産チームが、投資・賃貸・売買をサポート。",
-    "tags": ["国際不動産", "日本語対応", "投資物件"],
-    "hours": "平日 9:00-18:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   }
 ]

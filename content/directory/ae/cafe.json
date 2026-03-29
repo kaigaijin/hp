@@ -1,24 +1,5 @@
 [
   {
-    "slug": "yamanote-atelier-dubai-mall",
-    "name": "Yamanote Atelier",
-    "name_ja": "ヤマノテアトリエ",
-    "area": "Downtown Dubai",
-    "address": "Ground Floor, The Dubai Mall, Dubai",
-    "phone": "+97143807891",
-    "website": "https://yamanoteatelier.com/",
-    "description": "UAE発の日本式ベーカリーカフェ。2013年創業。日本直輸入の素材で毎日焼き上げるパンやペストリー、デザート、食事メニューを提供。Dubai Mall店は平日は深夜まで営業。",
-    "tags": [
-      "ベーカリー",
-      "カフェ",
-      "日本食材使用"
-    ],
-    "hours": "平日 9:00-24:00 / 週末 9:00-25:00",
-    "last_verified": "2026-03-26",
-    "status": "unverified",
-    "source": "website"
-  },
-  {
     "slug": "yamanote-atelier-dubai-frame",
     "name": "Yamanote Atelier Dubai Frame",
     "name_ja": "ヤマノテアトリエ ドバイフレーム",
@@ -26,204 +7,97 @@
     "address": "Dubai Frame, Zabeel Park Jogging Track, Dubai",
     "phone": "+971552247305",
     "website": "https://yamanoteatelier.com/",
-    "description": "Dubai Frame近くのYamanote Atelier店舗。日本式のパン、ケーキ、ペストリーを毎日手作り。ジョギングトラック沿いに位置し、散歩やランニング後の休憩にも利用できる。",
+    "description": "UAE発の日本式ベーカリーカフェ。2013年創業。日本から直輸入した素材で毎日手作りするパン・ペストリー・デザートを提供。あんぱん、メロンパン、食パンなど日本のパンが楽しめる。UAE内に20店舗以上展開。",
     "tags": [
-      "ベーカリー",
-      "カフェ",
-      "テイクアウト"
+      "日本式ベーカリー",
+      "日本食材使用",
+      "チェーン"
     ],
     "hours": "毎日 9:00-21:00",
-    "last_verified": "2026-03-26",
-    "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "kinoya-dubai-cafe",
-    "name": "Kinoya",
-    "name_ja": "キノヤ",
-    "area": "Sheikh Zayed Road",
-    "address": "The Onyx Tower 2, Sheikh Zayed Road, Dubai",
-    "phone": "+97142202920",
-    "website": "https://kinoya.com/",
-    "description": "居酒屋兼ラーメン店。ランチタイムは気軽にラーメンやカフェ利用が可能。濃厚な豚骨ラーメンのほか、おつまみメニューも充実。",
-    "tags": [
-      "ラーメン",
-      "居酒屋",
-      "ランチ"
-    ],
-    "hours": "火〜日 12:00-25:00（月曜休）",
-    "last_verified": "2026-03-26",
-    "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "yamanote-atelier-jbr",
-    "name": "Yamanote Atelier JBR",
-    "name_ja": "ヤマノテアトリエ JBR店",
-    "area": "JBR",
-    "address": "Jumeirah Beach Residence, Dubai",
-    "phone": null,
-    "website": "https://yamanoteatelier.com/",
-    "description": "UAE発の日本式ベーカリーカフェのJBR店。海沿いのロケーションで日本のパン・ペストリー・デザートを楽しめる。",
-    "tags": [
-      "ベーカリー",
-      "カフェ",
-      "シーサイド"
-    ],
-    "hours": "要確認",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "japanese-beauty-clinic-cafe",
-    "name": "Tokyo Cosmetic Cafe",
-    "name_ja": "東京コスメティックカフェ",
-    "area": "Trade Centre",
-    "address": "Dubai Trade Centre Area, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "東京コスメティックサージェリークリニック併設のカフェスペース。施術前後にくつろげる日本式の空間。抹茶や和スイーツも提供。",
-    "tags": [
-      "日本式カフェ",
-      "抹茶",
-      "和スイーツ"
-    ],
-    "hours": "要確認",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "yamanote-atelier-marina",
-    "name": "Yamanote Atelier Marina",
-    "name_ja": "ヤマノテアトリエ マリーナ店",
-    "area": "Dubai Marina",
-    "address": "Dubai Marina, Dubai",
-    "phone": null,
-    "website": "https://yamanoteatelier.com/",
-    "description": "ドバイマリーナのYamanote Atelier店舗。日本式の焼きたてパンとペストリーをマリーナの景色とともに楽しめる。",
-    "tags": [
-      "ベーカリー",
-      "カフェ",
-      "マリーナビュー"
-    ],
-    "hours": "要確認",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "kima-izakaya-jlt",
-    "name": "Kima Izakaya",
-    "name_ja": "キマ 居酒屋",
-    "area": "JLT",
-    "address": "Cluster R, Jumeirah Lake Towers, Dubai",
-    "phone": null,
-    "website": "https://www.kimaizakaya.com/",
-    "description": "JLTの隠れ家的な居酒屋カフェ。東京の下町居酒屋の雰囲気を再現し、日本のコンフォートフードとドリンクを提供。",
-    "tags": [
-      "居酒屋",
-      "カジュアル",
-      "隠れ家"
-    ],
-    "hours": null,
+    "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "matcha-lounge-difc",
-    "name": "Matcha Lounge DIFC",
-    "name_ja": "抹茶ラウンジ DIFC",
-    "area": "DIFC",
-    "address": "DIFC, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "抹茶を使ったドリンク・スイーツを提供するカフェ。抹茶ラテ・抹茶ティラミスが人気。",
-    "tags": [
-      "抹茶",
-      "カフェ"
-    ],
-    "hours": "8:00〜22:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "ai_reviewed": true
   },
   {
     "slug": "yamanote-atelier-downtown",
     "name": "Yamanote Atelier Downtown",
-    "name_ja": "山の手アトリエ ダウンタウン",
+    "name_ja": "ヤマノテアトリエ ダウンタウン",
     "area": "Downtown Dubai",
     "address": "Downtown Dubai, Dubai",
     "phone": null,
-    "website": null,
-    "description": "日本式ベーカリーカフェ。食パン・あんぱん・メロンパンなど日本のパンを提供。ドバイに多店舗展開。",
+    "website": "https://yamanoteatelier.com/",
+    "description": "UAE発の日本式ベーカリーカフェ。2013年創業。日本から直輸入した素材で毎日手作りするパン・ペストリー・デザートを提供。あんぱん、メロンパン、食パンなど日本のパンが楽しめる。UAE内に20店舗以上展開。",
     "tags": [
-      "ベーカリー",
-      "日本式パン",
+      "日本式ベーカリー",
+      "日本食材使用",
       "チェーン"
     ],
     "hours": "毎日 7:00〜23:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "yamanote-atelier-difc",
     "name": "Yamanote Atelier DIFC",
-    "name_ja": "山の手アトリエ DIFC",
+    "name_ja": "ヤマノテアトリエ DIFC",
     "area": "DIFC",
     "address": "DIFC, Dubai",
     "phone": null,
-    "website": null,
-    "description": "日本式ベーカリーカフェのDIFC店。ビジネス街の朝食・ランチに便利。",
+    "website": "https://yamanoteatelier.com/",
+    "description": "UAE発の日本式ベーカリーカフェ。2013年創業。日本から直輸入した素材で毎日手作りするパン・ペストリー・デザートを提供。あんぱん、メロンパン、食パンなど日本のパンが楽しめる。UAE内に20店舗以上展開。",
     "tags": [
-      "ベーカリー",
-      "日本式パン"
+      "日本式ベーカリー",
+      "日本食材使用",
+      "チェーン"
     ],
     "hours": "毎日 7:00〜23:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "yamanote-atelier-al-quoz",
     "name": "Yamanote Atelier Al Quoz",
-    "name_ja": "山の手アトリエ アルクオーズ",
+    "name_ja": "ヤマノテアトリエ アルクオーズ",
     "area": "Al Quoz",
     "address": "Al Quoz, Dubai",
     "phone": null,
-    "website": null,
-    "description": "アルクオーズのアートディストリクト近くの山の手アトリエ。日本のパンとコーヒーが楽しめる。",
+    "website": "https://yamanoteatelier.com/",
+    "description": "UAE発の日本式ベーカリーカフェ。2013年創業。日本から直輸入した素材で毎日手作りするパン・ペストリー・デザートを提供。あんぱん、メロンパン、食パンなど日本のパンが楽しめる。UAE内に20店舗以上展開。",
     "tags": [
-      "ベーカリー",
-      "日本式パン",
-      "アートディストリクト"
+      "日本式ベーカリー",
+      "日本食材使用",
+      "チェーン"
     ],
     "hours": "毎日 7:00〜22:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "yamanote-atelier-abu-dhabi",
     "name": "Yamanote Atelier Abu Dhabi",
-    "name_ja": "山の手アトリエ アブダビ",
+    "name_ja": "ヤマノテアトリエ アブダビ",
     "area": "Abu Dhabi",
     "address": "Abu Dhabi",
     "phone": null,
-    "website": null,
-    "description": "日本式ベーカリーカフェのアブダビ店。あんぱん・メロンパン・食パンなど日本のパンを提供。",
+    "website": "https://yamanoteatelier.com/",
+    "description": "UAE発の日本式ベーカリーカフェ。2013年創業。日本から直輸入した素材で毎日手作りするパン・ペストリー・デザートを提供。あんぱん、メロンパン、食パンなど日本のパンが楽しめる。UAE内に20店舗以上展開。",
     "tags": [
-      "ベーカリー",
-      "日本式パン",
-      "アブダビ"
+      "日本式ベーカリー",
+      "日本食材使用",
+      "チェーン"
     ],
     "hours": "毎日 7:00〜22:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "yamanote-atelier-business-bay",
@@ -233,16 +107,17 @@
     "address": "Business Bay, Dubai",
     "phone": null,
     "website": "https://yamanoteatelier.com/",
-    "description": "日本式ベーカリーカフェのビジネスベイ店。モーニングコーヒーと焼きたてパンの組み合わせが人気。",
+    "description": "UAE発の日本式ベーカリーカフェ。2013年創業。日本から直輸入した素材で毎日手作りするパン・ペストリー・デザートを提供。あんぱん、メロンパン、食パンなど日本のパンが楽しめる。UAE内に20店舗以上展開。",
     "tags": [
-      "ベーカリー",
-      "カフェ",
-      "日本式パン"
+      "日本式ベーカリー",
+      "日本食材使用",
+      "チェーン"
     ],
     "hours": "毎日 7:00〜23:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "yamanote-atelier-mirdif",
@@ -252,16 +127,17 @@
     "address": "Mirdif, Dubai",
     "phone": null,
     "website": "https://yamanoteatelier.com/",
-    "description": "日本式ベーカリーカフェのミルディフ店。住宅街に位置し、地元住民の朝食スポットとして人気。",
+    "description": "UAE発の日本式ベーカリーカフェ。2013年創業。日本から直輸入した素材で毎日手作りするパン・ペストリー・デザートを提供。あんぱん、メロンパン、食パンなど日本のパンが楽しめる。UAE内に20店舗以上展開。",
     "tags": [
-      "ベーカリー",
-      "カフェ",
-      "住宅街"
+      "日本式ベーカリー",
+      "日本食材使用",
+      "チェーン"
     ],
     "hours": "毎日 7:00〜22:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "yamanote-atelier-motor-city",
@@ -271,15 +147,17 @@
     "address": "Motor City, Dubai",
     "phone": null,
     "website": "https://yamanoteatelier.com/",
-    "description": "日本式ベーカリーカフェのモーターシティ店。あんぱん・メロンパン・食パンなど日本のパンを提供。",
+    "description": "UAE発の日本式ベーカリーカフェ。2013年創業。日本から直輸入した素材で毎日手作りするパン・ペストリー・デザートを提供。あんぱん、メロンパン、食パンなど日本のパンが楽しめる。UAE内に20店舗以上展開。",
     "tags": [
-      "ベーカリー",
-      "日本式パン"
+      "日本式ベーカリー",
+      "日本食材使用",
+      "チェーン"
     ],
     "hours": "毎日 7:00〜22:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "yamanote-atelier-silicon-oasis",
@@ -289,15 +167,17 @@
     "address": "Dubai Silicon Oasis, Dubai",
     "phone": null,
     "website": "https://yamanoteatelier.com/",
-    "description": "日本式ベーカリーカフェのシリコンオアシス店。テック企業エリアの朝食・ランチに人気。",
+    "description": "UAE発の日本式ベーカリーカフェ。2013年創業。日本から直輸入した素材で毎日手作りするパン・ペストリー・デザートを提供。あんぱん、メロンパン、食パンなど日本のパンが楽しめる。UAE内に20店舗以上展開。",
     "tags": [
-      "ベーカリー",
-      "日本式パン"
+      "日本式ベーカリー",
+      "日本食材使用",
+      "チェーン"
     ],
     "hours": "毎日 7:00〜22:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "yamanote-atelier-jumeirah",
@@ -307,15 +187,17 @@
     "address": "Jumeirah, Dubai",
     "phone": null,
     "website": "https://yamanoteatelier.com/",
-    "description": "日本式ベーカリーカフェのジュメイラ店。ビーチエリアに近く、散歩後のカフェタイムに最適。",
+    "description": "UAE発の日本式ベーカリーカフェ。2013年創業。日本から直輸入した素材で毎日手作りするパン・ペストリー・デザートを提供。あんぱん、メロンパン、食パンなど日本のパンが楽しめる。UAE内に20店舗以上展開。",
     "tags": [
-      "ベーカリー",
-      "ジュメイラ"
+      "日本式ベーカリー",
+      "日本食材使用",
+      "チェーン"
     ],
     "hours": "毎日 7:00〜22:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "kurasu-dubai",
@@ -332,9 +214,10 @@
       "抹茶"
     ],
     "hours": "月〜木 9:00-22:00 / 金〜日 9:00-23:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "megumi-matcha-dubai",
@@ -351,9 +234,10 @@
       "ワークショップ"
     ],
     "hours": "平日 8:00-21:00 / 週末 8:00-22:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "matcha-vibes-dubai",
@@ -370,28 +254,10 @@
       "ワークショップ"
     ],
     "hours": "毎日 9:00-23:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "slrp-cafe-yas-mall",
-    "name": "SLRP Abu Dhabi",
-    "name_ja": "SLRPアブダビ",
-    "area": "Yas Island",
-    "address": "Yas Mall, Yas Island, Abu Dhabi",
-    "phone": "+971542523905",
-    "website": "https://www.slrpramen.com/",
-    "description": "3Filsが手がけるラーメン＆ハンドロールバーのアブダビ店。カジュアルにラーメンとハンドロール寿司を楽しめる。",
-    "tags": [
-      "ラーメン",
-      "ハンドロール",
-      "カジュアル"
-    ],
-    "hours": "毎日 10:00-22:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "yamanote-atelier-khalidiyah",
@@ -401,16 +267,17 @@
     "address": "Khalidiyah, Abu Dhabi",
     "phone": null,
     "website": "https://yamanoteatelier.com/",
-    "description": "日本式ベーカリーカフェのアブダビ・ハリディヤ店。あんぱん・メロンパン・食パンなど日本のパンとコーヒーを提供。",
+    "description": "UAE発の日本式ベーカリーカフェ。2013年創業。日本から直輸入した素材で毎日手作りするパン・ペストリー・デザートを提供。あんぱん、メロンパン、食パンなど日本のパンが楽しめる。UAE内に20店舗以上展開。",
     "tags": [
-      "ベーカリー",
-      "日本式パン",
-      "アブダビ"
+      "日本式ベーカリー",
+      "日本食材使用",
+      "チェーン"
     ],
     "hours": "毎日 7:00-22:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "yamanote-atelier-yas-mall",
@@ -420,16 +287,17 @@
     "address": "Yas Mall, Yas Island, Abu Dhabi",
     "phone": null,
     "website": "https://yamanoteatelier.com/",
-    "description": "日本式ベーカリーカフェのヤスモール店。ショッピングの合間にパンとコーヒーが楽しめる。",
+    "description": "UAE発の日本式ベーカリーカフェ。2013年創業。日本から直輸入した素材で毎日手作りするパン・ペストリー・デザートを提供。あんぱん、メロンパン、食パンなど日本のパンが楽しめる。UAE内に20店舗以上展開。",
     "tags": [
-      "ベーカリー",
-      "日本式パン",
-      "ヤス島"
+      "日本式ベーカリー",
+      "日本食材使用",
+      "チェーン"
     ],
     "hours": "毎日 10:00-22:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "yamanote-atelier-fujairah",
@@ -439,16 +307,17 @@
     "address": "Fujairah, UAE",
     "phone": null,
     "website": "https://yamanoteatelier.com/",
-    "description": "日本式ベーカリーカフェのフジャイラ店。UAE北部で日本のパンが楽しめる貴重な店舗。",
+    "description": "UAE発の日本式ベーカリーカフェ。2013年創業。日本から直輸入した素材で毎日手作りするパン・ペストリー・デザートを提供。あんぱん、メロンパン、食パンなど日本のパンが楽しめる。UAE内に20店舗以上展開。",
     "tags": [
-      "ベーカリー",
-      "日本式パン",
-      "フジャイラ"
+      "日本式ベーカリー",
+      "日本食材使用",
+      "チェーン"
     ],
     "hours": "毎日 7:00-22:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "the-matcha-tokyo-jbr",
@@ -465,9 +334,10 @@
       "オーガニック"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "cafe-kitsune-al-wasl",
@@ -484,28 +354,10 @@
       "スペシャルティコーヒー"
     ],
     "hours": "毎日 8:00-23:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "cult-matcha-al-quoz",
-    "name": "Cult Matcha by TRIO",
-    "name_ja": "カルトマッチャ by TRIO",
-    "area": "Al Quoz",
-    "address": "KAVE, Alserkal Avenue, Al Quoz Industrial Area 3, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "アルサーカルアベニュー内の抹茶専門ドライブスルーカフェ。オリジナルマッチャ（30AED）やマーブルブルーベリーが人気。TRIO最新コンセプト。",
-    "tags": [
-      "抹茶",
-      "ドライブスルー",
-      "アルサーカル"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "anko-patisserie-abu-dhabi",
@@ -522,28 +374,10 @@
       "teamLab"
     ],
     "hours": "毎日 10:00-18:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "slrp-cafe-dubai-mall",
-    "name": "SLRP Dubai Mall",
-    "name_ja": "SLRP ドバイモール",
-    "area": "Downtown Dubai",
-    "address": "The Dubai Mall, Downtown Dubai, Dubai",
-    "phone": null,
-    "website": "https://www.slrpramen.com/",
-    "description": "3Fils系列のラーメン＆ハンドロールバー。ランチタイムのカジュアル利用にも最適。ドバイモール内でアクセス良好。",
-    "tags": [
-      "ラーメン",
-      "ハンドロール",
-      "モール内"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "yamanote-atelier-barsha",
@@ -553,16 +387,17 @@
     "address": "Al Barsha, Dubai",
     "phone": null,
     "website": "https://yamanoteatelier.com/",
-    "description": "日本式ベーカリーカフェのアルバルシャ店。あんぱん・メロンパン・食パンなど日本のパンを提供。住宅街で地元住民に人気。",
+    "description": "UAE発の日本式ベーカリーカフェ。2013年創業。日本から直輸入した素材で毎日手作りするパン・ペストリー・デザートを提供。あんぱん、メロンパン、食パンなど日本のパンが楽しめる。UAE内に20店舗以上展開。",
     "tags": [
-      "ベーカリー",
-      "日本式パン",
-      "住宅街"
+      "日本式ベーカリー",
+      "日本食材使用",
+      "チェーン"
     ],
     "hours": "毎日 7:00-22:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "yamanote-atelier-al-nahda",
@@ -572,15 +407,17 @@
     "address": "Al Nahda, Dubai",
     "phone": null,
     "website": "https://yamanoteatelier.com/",
-    "description": "日本式ベーカリーカフェのアルナーダ店。シャルジャとの境界近くに位置し、北部ドバイ住民向けの日本のパンスポット。",
+    "description": "UAE発の日本式ベーカリーカフェ。2013年創業。日本から直輸入した素材で毎日手作りするパン・ペストリー・デザートを提供。あんぱん、メロンパン、食パンなど日本のパンが楽しめる。UAE内に20店舗以上展開。",
     "tags": [
-      "ベーカリー",
-      "日本式パン"
+      "日本式ベーカリー",
+      "日本食材使用",
+      "チェーン"
     ],
     "hours": "毎日 7:00-22:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "yamanote-atelier-jvc",
@@ -590,35 +427,17 @@
     "address": "Jumeirah Village Circle, Dubai",
     "phone": null,
     "website": "https://yamanoteatelier.com/",
-    "description": "日本式ベーカリーカフェのJVC店。ファミリー層が多い新興住宅地で朝食やカフェに利用される。",
+    "description": "UAE発の日本式ベーカリーカフェ。2013年創業。日本から直輸入した素材で毎日手作りするパン・ペストリー・デザートを提供。あんぱん、メロンパン、食パンなど日本のパンが楽しめる。UAE内に20店舗以上展開。",
     "tags": [
-      "ベーカリー",
-      "日本式パン",
-      "JVC"
+      "日本式ベーカリー",
+      "日本食材使用",
+      "チェーン"
     ],
     "hours": "毎日 7:00-22:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "cha-club-dubai-mall",
-    "name": "The Cha Club Dubai Mall",
-    "name_ja": "ザ・チャクラブ ドバイモール",
-    "area": "Downtown Dubai",
-    "address": "The Dubai Mall, Downtown Dubai, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "ドバイモール内の日本茶カフェ。ピスタチオ抹茶やクッキー、抹茶スイーツが人気。ショッピング休憩に最適。",
-    "tags": [
-      "抹茶",
-      "日本茶",
-      "モール内"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "yamanote-atelier-sharjah",
@@ -628,92 +447,17 @@
     "address": "Sharjah, UAE",
     "phone": null,
     "website": "https://yamanoteatelier.com/",
-    "description": "日本式ベーカリーカフェのシャルジャ店。UAEの隣接首長国シャルジャで日本のパンとコーヒーが楽しめる。",
+    "description": "UAE発の日本式ベーカリーカフェ。2013年創業。日本から直輸入した素材で毎日手作りするパン・ペストリー・デザートを提供。あんぱん、メロンパン、食パンなど日本のパンが楽しめる。UAE内に20店舗以上展開。",
     "tags": [
-      "ベーカリー",
-      "日本式パン",
-      "シャルジャ"
+      "日本式ベーカリー",
+      "日本食材使用",
+      "チェーン"
     ],
     "hours": "毎日 7:00-22:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "the-edit-alserkal",
-    "name": "The Edit Alserkal",
-    "name_ja": "ジ・エディット アルサーカル",
-    "area": "Al Quoz",
-    "address": "Alserkal Avenue, Al Quoz Industrial Area 3, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "アルサーカルアベニュー内の女性主導コンセプトストア。専用の抹茶バーで本格的な抹茶ドリンクを提供。セレクトショップとカフェの融合空間。",
-    "tags": [
-      "抹茶バー",
-      "コンセプトストア",
-      "アルサーカル"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "nette-matcha-padel",
-    "name": "Nette Matcha",
-    "name_ja": "ネッテ マッチャ",
-    "area": "Dubai",
-    "address": "Matcha Club Padel, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "パデルテニス施設Matcha Club内のカフェ。グリーン抹茶ミルクシェイク（抹茶・バニラアイス・アーモンドミルク）が人気。スポーツ後のリフレッシュに。",
-    "tags": [
-      "抹茶",
-      "スポーツカフェ",
-      "ミルクシェイク"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "clarity-tea-dubai",
-    "name": "Clarity Tea",
-    "name_ja": "クラリティ ティー",
-    "area": "Dubai",
-    "address": "Dubai, UAE",
-    "phone": null,
-    "website": "https://myclaritytea.com/",
-    "description": "UAE発の本格抹茶・ウーロン茶ブランド。オンライン販売に加え、ポップアップカフェも展開。高品質な日本産抹茶を使用したドリンクを提供。",
-    "tags": [
-      "抹茶",
-      "お茶専門",
-      "UAE発"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "soo-matcha-abu-dhabi",
-    "name": "Soo Matcha",
-    "name_ja": "スー マッチャ",
-    "area": "Abu Dhabi",
-    "address": "Abu Dhabi, UAE",
-    "phone": null,
-    "website": null,
-    "description": "アブダビ初の抹茶専門カフェ。抹茶ラテ、抹茶ケーキ、抹茶ティラミスなど多彩な抹茶メニューを提供。",
-    "tags": [
-      "抹茶専門",
-      "アブダビ初",
-      "スイーツ"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "the-matcha-tokyo-dubai-mall",
@@ -730,28 +474,10 @@
       "モール内"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "yamanote-atelier-city-walk",
-    "name": "Yamanote Atelier City Walk",
-    "name_ja": "ヤマノテアトリエ シティウォーク",
-    "area": "City Walk",
-    "address": "City Walk, Al Safa Street, Dubai",
-    "phone": null,
-    "website": "https://yamanoteatelier.com/",
-    "description": "日本式ベーカリーカフェのシティウォーク店。ショッピングの合間にあんぱん・メロンパン・食パンなど日本のパンとコーヒーを楽しめる。",
-    "tags": [
-      "ベーカリー",
-      "日本式パン",
-      "シティウォーク"
-    ],
-    "hours": "毎日 7:00-23:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "yamanote-atelier-dubai-hills",
@@ -761,35 +487,17 @@
     "address": "Dubai Hills Mall, Dubai Hills, Dubai",
     "phone": null,
     "website": "https://yamanoteatelier.com/",
-    "description": "日本式ベーカリーカフェのドバイヒルズモール店。焼きたてのパンとコーヒーで朝食やランチを楽しめる。",
+    "description": "UAE発の日本式ベーカリーカフェ。2013年創業。日本から直輸入した素材で毎日手作りするパン・ペストリー・デザートを提供。あんぱん、メロンパン、食パンなど日本のパンが楽しめる。UAE内に20店舗以上展開。",
     "tags": [
-      "ベーカリー",
-      "日本式パン",
-      "モール内"
+      "日本式ベーカリー",
+      "日本食材使用",
+      "チェーン"
     ],
     "hours": "毎日 7:00-23:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "slrp-cafe-jlt",
-    "name": "SLRP Cafe JLT",
-    "name_ja": "SLRP カフェ JLT",
-    "area": "JLT",
-    "address": "Jumeirah Lake Towers, Dubai",
-    "phone": null,
-    "website": "https://www.slrpramen.com/",
-    "description": "3Filsが手がけるラーメン店のカフェ的利用。ランチタイムにカジュアルにラーメンと一品料理を楽しめる。",
-    "tags": [
-      "ラーメン",
-      "カジュアル",
-      "ランチ"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "the-matcha-tokyo-marina",
@@ -806,9 +514,10 @@
       "マリーナ"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "anko-cafe-saadiyat",
@@ -825,9 +534,10 @@
       "文化地区"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "yakitate-al-ghurair",
@@ -846,7 +556,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "yakitate-ibn-battuta",
@@ -865,12 +576,13 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "moishi-dubai-mall",
     "name": "Moishi",
-    "name_ja": null,
+    "name_ja": "モイシ ドバイモール",
     "area": "Downtown Dubai",
     "address": "Dubai Mall, Downtown Dubai",
     "phone": null,
@@ -883,12 +595,13 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "moishi-city-walk",
     "name": "Moishi",
-    "name_ja": null,
+    "name_ja": "モイシ シティウォーク",
     "area": "City Walk",
     "address": "City Walk, Al Safa, Dubai",
     "phone": null,
@@ -901,7 +614,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "chateraise-mall-of-emirates",
@@ -920,7 +634,8 @@
     "hours": "毎日 7:30-25:00",
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "chateraise-mirdif",
@@ -939,7 +654,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "anko-teamlab-saadiyat",
@@ -958,12 +674,13 @@
     "hours": "毎日 10:00-20:00",
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "uncle-fluffy-dubai-marina-mall",
     "name": "Uncle Fluffy",
-    "name_ja": null,
+    "name_ja": "アンクルフラッフィー マリーナモール",
     "area": "Dubai Marina",
     "address": "Dubai Marina Mall, Dubai Marina, Dubai",
     "phone": null,
@@ -976,12 +693,13 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "uncle-fluffy-dragon-mart",
     "name": "Uncle Fluffy",
-    "name_ja": null,
+    "name_ja": "アンクルフラッフィー ドラゴンマート",
     "area": "International City",
     "address": "Dragon Mart, International City, Dubai",
     "phone": null,
@@ -995,12 +713,13 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "uncle-fluffy-ibn-battuta",
     "name": "Uncle Fluffy",
-    "name_ja": null,
+    "name_ja": "アンクルフラッフィー イブン・バットゥータ",
     "area": "Jebel Ali",
     "address": "Ibn Battuta Mall, Jebel Ali, Dubai",
     "phone": null,
@@ -1014,12 +733,13 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "moishi-galleria-al-maryah",
     "name": "Moishi",
-    "name_ja": null,
+    "name_ja": "モイシ ガレリア・アルマルヤ",
     "area": "Al Maryah Island, Abu Dhabi",
     "address": "The Galleria Al Maryah Island, Abu Dhabi",
     "phone": null,
@@ -1033,7 +753,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "chateraise-sharjah",
@@ -1052,6 +773,87 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
+  },
+  {
+    "slug": "yamanote-atelier-dubai-mall",
+    "name": "Yamanote Atelier",
+    "name_ja": "ヤマノテアトリエ",
+    "area": "Downtown Dubai",
+    "address": "Ground Floor, The Dubai Mall, Dubai",
+    "phone": "+97143807891",
+    "website": "https://yamanoteatelier.com/",
+    "description": "UAE発の日本式ベーカリーカフェ。2013年創業。日本から直輸入した素材で毎日手作りするパン・ペストリー・デザートを提供。あんぱん、メロンパン、食パンなど日本のパンが楽しめる。UAE内に20店舗以上展開。",
+    "tags": [
+      "日本式ベーカリー",
+      "日本食材使用",
+      "チェーン"
+    ],
+    "hours": "平日 9:00-24:00 / 週末 9:00-25:00",
+    "last_verified": "2026-03-28",
+    "status": "unverified",
+    "source": "website",
+    "ai_reviewed": true
+  },
+  {
+    "slug": "yamanote-atelier-jbr",
+    "name": "Yamanote Atelier JBR",
+    "name_ja": "ヤマノテアトリエ JBR",
+    "area": "JBR",
+    "address": "The Walk, JBR, Dubai",
+    "phone": null,
+    "website": "https://yamanoteatelier.com/",
+    "description": "UAE発の日本式ベーカリーカフェ。2013年創業。日本から直輸入した素材で毎日手作りするパン・ペストリー・デザートを提供。あんぱん、メロンパン、食パンなど日本のパンが楽しめる。UAE内に20店舗以上展開。",
+    "tags": [
+      "日本式ベーカリー",
+      "日本食材使用",
+      "チェーン"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
+  },
+  {
+    "slug": "yamanote-atelier-city-walk",
+    "name": "Yamanote Atelier City Walk",
+    "name_ja": "ヤマノテアトリエ シティウォーク",
+    "area": "City Walk",
+    "address": "City Walk, Al Safa Street, Dubai",
+    "phone": null,
+    "website": "https://yamanoteatelier.com/",
+    "description": "UAE発の日本式ベーカリーカフェ。2013年創業。日本から直輸入した素材で毎日手作りするパン・ペストリー・デザートを提供。あんぱん、メロンパン、食パンなど日本のパンが楽しめる。UAE内に20店舗以上展開。",
+    "tags": [
+      "日本式ベーカリー",
+      "日本食材使用",
+      "チェーン"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
+  },
+  {
+    "slug": "yamanote-atelier-marina",
+    "name": "Yamanote Atelier Dubai Marina",
+    "name_ja": "ヤマノテアトリエ ドバイマリーナ",
+    "area": "Dubai Marina",
+    "address": "Dubai Marina Mall, Dubai Marina, Dubai",
+    "phone": null,
+    "website": "https://yamanoteatelier.com/",
+    "description": "UAE発の日本式ベーカリーカフェ。2013年創業。日本から直輸入した素材で毎日手作りするパン・ペストリー・デザートを提供。あんぱん、メロンパン、食パンなど日本のパンが楽しめる。UAE内に20店舗以上展開。",
+    "tags": [
+      "日本式ベーカリー",
+      "日本食材使用",
+      "チェーン"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   }
 ]

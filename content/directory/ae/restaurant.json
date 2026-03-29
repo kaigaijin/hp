@@ -14,9 +14,10 @@
       "バー併設"
     ],
     "hours": "月〜水 12:00-15:30, 19:00-24:00 / 木金 12:00-15:30, 19:00-25:00 / 土 13:30-16:00, 19:00-25:00 / 日 12:00-16:00, 19:00-24:00",
-    "last_verified": "2026-03-26",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "takahisa",
@@ -33,9 +34,10 @@
       "要予約"
     ],
     "hours": "毎日 12:00-26:00",
-    "last_verified": "2026-03-26",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "mimi-kakushi",
@@ -52,14 +54,15 @@
       "寿司"
     ],
     "hours": "ランチ: 月〜金・日 12:00-16:00 / ディナー: 毎日 18:00-23:00",
-    "last_verified": "2026-03-26",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "reif-japanese-kushiyaki",
     "name": "Reif Japanese Kushiyaki",
-    "name_ja": "レイフ ジャパニーズ 串焼",
+    "name_ja": "レイフ ジャパニーズ串焼き",
     "area": "Al Wasl",
     "address": "Unit 70, Dar Wasl Mall, Al Wasl Road, Dubai",
     "phone": "+97142555142",
@@ -71,9 +74,10 @@
       "ミシュラン"
     ],
     "hours": "月〜木 12:00-24:00 / 金 12:00-25:00 / 土 10:00-25:00 / 日 10:00-24:00",
-    "last_verified": "2026-03-26",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "akabeko",
@@ -90,9 +94,10 @@
       "予約推奨"
     ],
     "hours": "火水 12:00-16:00, 18:00-23:00 / 木〜日 12:00-16:00, 18:00-25:30（月曜休）",
-    "last_verified": "2026-03-26",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "kinoya-dubai",
@@ -109,28 +114,10 @@
       "カジュアル"
     ],
     "hours": "火〜木 12:00-25:00 / 金〜日 12:00-25:00（月曜休）",
-    "last_verified": "2026-03-26",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "yamanote-atelier-dubai-mall",
-    "name": "Yamanote Atelier",
-    "name_ja": "ヤマノテアトリエ",
-    "area": "Downtown Dubai",
-    "address": "Ground Floor, The Dubai Mall, Dubai",
-    "phone": "+97143807891",
-    "website": "https://yamanoteatelier.com/",
-    "description": "UAE発の日本式ベーカリーカフェチェーン。2013年創業。日本から直輸入した素材で毎日焼き上げるパンやペストリー、デザートを提供。UAE各地に複数店舗展開。",
-    "tags": [
-      "ベーカリー",
-      "カフェ",
-      "日本食材使用"
-    ],
-    "hours": "平日 9:00-24:00 / 週末 9:00-25:00",
-    "last_verified": "2026-03-26",
-    "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "soon-izakaya",
@@ -147,14 +134,15 @@
       "エンタメ"
     ],
     "hours": "月〜木 12:00-25:00 / 金 12:00-27:00 / 土 17:00-27:00 / 日 17:00-25:00",
-    "last_verified": "2026-03-26",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ronin-dubai",
     "name": "Ronin",
-    "name_ja": "ロニン",
+    "name_ja": "浪人 ドバイ",
     "area": "JBR",
     "address": "9th Floor, FIVE Luxe, Jumeirah Beach Residence, Dubai",
     "phone": "+97144559989",
@@ -167,9 +155,10 @@
       "ホテル内"
     ],
     "hours": "毎日 18:00〜翌2:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "nobu-one-zaabeel",
@@ -186,9 +175,10 @@
       "眺望"
     ],
     "hours": "要確認",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "tomo-japanese-restaurant",
@@ -205,9 +195,10 @@
       "ホテル内"
     ],
     "hours": "要確認",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "netsu-dubai",
@@ -225,9 +216,10 @@
       "ホテル内"
     ],
     "hours": "要確認",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "chotto-matte-dubai",
@@ -244,9 +236,10 @@
       "炉端焼き"
     ],
     "hours": "要確認",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "fujiya-downtown-dubai",
@@ -265,7 +258,8 @@
     "hours": "毎日 12:00-15:00, 18:00-23:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "fujiya-garhoud",
@@ -284,7 +278,8 @@
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "kimuraya-downtown",
@@ -303,7 +298,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "kimuraya-jbr",
@@ -322,7 +318,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "ram-and-roll-dubai",
@@ -341,7 +338,8 @@
     "hours": "月〜木 12:00-25:00 / 金〜日 12:00-26:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "daikan-izakaya-citywalk",
@@ -360,7 +358,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "mu-kii-jbr",
@@ -379,7 +378,8 @@
     "hours": "12:00〜23:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "uchi-difc",
@@ -398,65 +398,8 @@
     "hours": "12:00〜15:00 / 18:00〜23:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "sexyfish-difc",
-    "name": "Sexyfish DIFC",
-    "name_ja": "セクシーフィッシュ DIFC",
-    "area": "DIFC",
-    "address": "Innovation One, DIFC, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "DIFC随一の寿司・刺身・ロバタキレストラン。ゴージャスな空間で最高品質の日本料理を提供。",
-    "tags": [
-      "寿司",
-      "刺身",
-      "ロバタ",
-      "高級"
-    ],
-    "hours": "12:00〜翌1:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "zeta-marina",
-    "name": "ZETA Dubai Marina",
-    "name_ja": "ゼータ ドバイマリーナ",
-    "area": "Dubai Marina",
-    "address": "Dubai Marina, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "マリーナとJBRの境界に位置するアジアンフュージョンレストラン。マグロタルタルとキングプラウン餃子が人気。寿司セットも丁寧。",
-    "tags": [
-      "アジアンフュージョン",
-      "寿司",
-      "マリーナ"
-    ],
-    "hours": "12:00〜24:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "wakame-dubai-marina",
-    "name": "Wakame Dubai Marina",
-    "name_ja": "わかめ ドバイマリーナ",
-    "area": "Dubai Marina",
-    "address": "Dubai Marina, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "マリーナウォーク沿いの和食レストラン。テラス席からマリーナを一望しながら寿司・刺身を楽しめる。",
-    "tags": [
-      "和食",
-      "テラス席",
-      "マリーナビュー"
-    ],
-    "hours": "12:00〜24:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "katana-dubai",
@@ -475,7 +418,8 @@
     "hours": "12:00〜翌1:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "sushi-counter-difc",
@@ -494,26 +438,8 @@
     "hours": "11:30〜22:30",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "tresind-studio",
-    "name": "Tresind Studio",
-    "name_ja": "トレシンドスタジオ",
-    "area": "DIFC",
-    "address": "DIFC, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "ミシュラン二つ星のインド×日本フュージョンレストラン。おまかせスタイルのコース料理が体験できる。",
-    "tags": [
-      "ミシュラン",
-      "フュージョン",
-      "おまかせ"
-    ],
-    "hours": "19:00〜23:00（要予約）",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "sushi-samba-palm-jumeirah",
@@ -533,7 +459,8 @@
     "hours": "12:00〜翌1:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "hoseki-dubai",
@@ -553,7 +480,8 @@
     "hours": "19:00〜23:00（要予約）",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "kisu-dubai",
@@ -572,7 +500,8 @@
     "hours": "13:00〜翌1:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "nobu-atlantis",
@@ -591,7 +520,8 @@
     "hours": "18:00〜23:30",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "tomo-raffles-dubai",
@@ -610,7 +540,8 @@
     "hours": "18:30〜23:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "roka-difc",
@@ -629,7 +560,8 @@
     "hours": "12:00〜翌1:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "miyako-hyatt-dubai",
@@ -648,7 +580,8 @@
     "hours": "12:30〜15:00 / 19:00〜23:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "sumosan-difc",
@@ -667,7 +600,8 @@
     "hours": "12:00〜翌1:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "inko-nito-difc",
@@ -686,7 +620,8 @@
     "hours": "12:00〜翌1:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "tsuki-dubai",
@@ -705,7 +640,8 @@
     "hours": "12:00〜23:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "endo-dubai",
@@ -724,7 +660,8 @@
     "hours": "要予約",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "kazoku-dubai",
@@ -743,7 +680,8 @@
     "hours": "11:30〜22:30",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "origami-sushi-dubai",
@@ -762,7 +700,8 @@
     "hours": "12:00〜23:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "sukiya-dubai",
@@ -781,7 +720,8 @@
     "hours": "毎日 7:00〜23:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "marugame-udon-dubai",
@@ -800,7 +740,8 @@
     "hours": "毎日 10:00〜22:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "ippudo-dubai",
@@ -818,7 +759,8 @@
     "hours": "毎日 12:00〜23:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "yoshinoya-dubai",
@@ -836,7 +778,8 @@
     "hours": "毎日 7:00〜23:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "coco-ichibanya-dubai",
@@ -855,7 +798,8 @@
     "hours": "毎日 10:00〜22:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "kura-sushi-dubai",
@@ -874,7 +818,8 @@
     "hours": "毎日 10:00〜22:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "pepper-lunch-dubai",
@@ -893,7 +838,8 @@
     "hours": "毎日 10:00〜22:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
     "slug": "3fils-jumeirah",
@@ -911,9 +857,10 @@
       "受賞歴あり"
     ],
     "hours": "毎日 12:30〜24:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "roka-business-bay",
@@ -930,9 +877,10 @@
       "ロンドン発"
     ],
     "hours": "毎日 12:00〜翌2:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "kigo-difc",
@@ -950,9 +898,10 @@
       "高級"
     ],
     "hours": "水〜月 18:00〜23:00（火曜休）",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "hisaya-dubai-marina",
@@ -969,9 +918,10 @@
       "高評価"
     ],
     "hours": "要確認",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "mu-kii-jbr-restaurant",
@@ -988,9 +938,10 @@
       "JBR"
     ],
     "hours": "毎日 12:00〜24:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ronin-jbr",
@@ -1007,47 +958,10 @@
       "ホテル内"
     ],
     "hours": "要確認",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "sushi-samba-palm",
-    "name": "Sushi Samba Palm Jumeirah",
-    "name_ja": "寿司サンバ パームジュメイラ",
-    "area": "Palm Jumeirah",
-    "address": "Palm Jumeirah, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "日本・ブラジル・ペルーの料理を融合したフュージョンレストラン。パームジュメイラの絶景と共にユニークなダイニング体験。",
-    "tags": [
-      "フュージョン",
-      "日本×ブラジル",
-      "パームジュメイラ"
-    ],
-    "hours": "12:00〜翌2:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "ippudo-dubai-mall",
-    "name": "Ippudo Dubai",
-    "name_ja": "一風堂 ドバイ",
-    "area": "Downtown Dubai",
-    "address": "Dubai Mall, Downtown Dubai",
-    "phone": null,
-    "website": null,
-    "description": "博多一風堂のドバイ店。濃厚な豚骨ラーメンとサイドメニューを提供。ドバイモール内で手軽に本格ラーメン。",
-    "tags": [
-      "ラーメン",
-      "日本発チェーン",
-      "豚骨"
-    ],
-    "hours": "毎日 10:00〜24:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "marugame-udon-dubai-mall",
@@ -1064,9 +978,10 @@
       "ドバイモール"
     ],
     "hours": "毎日 10:00〜24:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "yoshinoya-dubai-mall",
@@ -1083,9 +998,10 @@
       "ドバイモール"
     ],
     "hours": "毎日 10:00〜24:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "sukiya-dubai-jbr",
@@ -1101,28 +1017,10 @@
       "日本発チェーン"
     ],
     "hours": "毎日 10:00〜24:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "tresind-studio-difc",
-    "name": "Tresind Studio",
-    "name_ja": "トレシンドスタジオ",
-    "area": "DIFC",
-    "address": "DIFC, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "インド料理と日本料理を融合した革新的なレストラン。おまかせスタイルのコースで提供。ドバイのファインダイニング。",
-    "tags": [
-      "フュージョン",
-      "おまかせ",
-      "ファインダイニング"
-    ],
-    "hours": "19:00〜23:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "origami-sushi-dubai-mall",
@@ -1139,9 +1037,10 @@
       "カジュアル"
     ],
     "hours": "毎日 10:00〜24:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "zuma-abu-dhabi",
@@ -1158,9 +1057,10 @@
       "寿司"
     ],
     "hours": "月〜木 12:00-15:30, 19:00-24:00 / 金土 12:00-15:30, 19:00-25:00 / 日 12:30-16:00, 19:00-24:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "99-sushi-bar-abu-dhabi",
@@ -1177,9 +1077,10 @@
       "ミシュラン"
     ],
     "hours": "毎日 12:30-15:30, 19:00-23:30",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "otoro-abu-dhabi",
@@ -1196,9 +1097,10 @@
       "マリーナビュー"
     ],
     "hours": "毎日 12:00-23:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "kaizu-abu-dhabi",
@@ -1215,9 +1117,10 @@
       "鉄板焼き"
     ],
     "hours": "毎日 13:00-23:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "daikan-izakaya-abu-dhabi",
@@ -1234,9 +1137,10 @@
       "ヤス島"
     ],
     "hours": "月〜木 12:00-24:00 / 金土 12:00-25:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "slrp-ramen-dubai-mall",
@@ -1253,9 +1157,10 @@
       "カジュアル"
     ],
     "hours": "毎日 10:00-24:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "osaka-nikkei-dubai",
@@ -1272,9 +1177,10 @@
       "高層階"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "neo-temaki-dubai",
@@ -1291,9 +1197,10 @@
       "新規オープン"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "hikiniku-to-come-dubai",
@@ -1310,9 +1217,10 @@
       "東京発"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "kokoro-hand-roll-bar-dubai",
@@ -1329,9 +1237,10 @@
       "アルサーカル"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "niri-abu-dhabi",
@@ -1348,9 +1257,10 @@
       "ビーチフロント"
     ],
     "hours": "日〜木 12:00-23:00 / 金土 12:00-24:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "strawfire-abu-dhabi",
@@ -1367,9 +1277,10 @@
       "ホテル内"
     ],
     "hours": "毎日 18:00-24:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "japanos-jbr",
@@ -1386,9 +1297,10 @@
       "食べ放題あり"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sushiart-jbr",
@@ -1405,9 +1317,10 @@
       "テイクアウト"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "akiba-dori-dubai-hills",
@@ -1424,9 +1337,10 @@
       "フードホール"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "akiba-dori-d3",
@@ -1443,9 +1357,10 @@
       "ランチ"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "izakaya-jw-marriott-marquis",
@@ -1462,47 +1377,10 @@
       "ビジネスベイ"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "yo-sushi-dubai-marina",
-    "name": "YO! Sushi Dubai Marina Mall",
-    "name_ja": "YO! スシ マリーナモール",
-    "area": "Dubai Marina",
-    "address": "Marina Mall, Dubai Marina, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "回転寿司スタイルの英国発チェーン。コンベアベルトで寿司が流れてくるカジュアルなスタイル。ファミリー利用にも適している。",
-    "tags": [
-      "回転寿司",
-      "チェーン",
-      "カジュアル"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "zeta-seventy-seven-jbr",
-    "name": "ZETA Seventy Seven",
-    "name_ja": "ゼータ セブンティセブン",
-    "area": "JBR",
-    "address": "77th Floor, Address Beach Resort, JBR, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "アドレス・ビーチリゾート77階のアジアンフュージョンレストラン。寿司セットや刺身を高層階からのパノラマビューとともに楽しめる。",
-    "tags": [
-      "高層階",
-      "アジアンフュージョン",
-      "寿司"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sushi-samba-atlantis",
@@ -1519,28 +1397,10 @@
       "パームジュメイラ"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "sexyfish-dubai",
-    "name": "Sexy Fish Dubai",
-    "name_ja": "セクシーフィッシュ ドバイ",
-    "area": "DIFC",
-    "address": "Innovation One Building, 11th Floor, DIFC, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "ロンドン発のコンテンポラリー日本料理レストラン。DIFC 11階に位置し、インパクトのあるインテリアと創作和食を提供。",
-    "tags": [
-      "高級",
-      "ロンドン発",
-      "DIFC"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "zuma-beachhouse-jumeirah",
@@ -1557,9 +1417,10 @@
       "カジュアル"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "hisaya-jlt",
@@ -1576,9 +1437,10 @@
       "手頃"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "99-sushi-bar-difc",
@@ -1595,9 +1457,10 @@
       "マドリード発"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "kaizu-abu-dhabi-restaurant",
@@ -1614,9 +1477,10 @@
       "日本酒"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "daikan-ramen-abu-dhabi",
@@ -1633,9 +1497,10 @@
       "アブダビ"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "slrp-ramen-dubai",
@@ -1652,66 +1517,10 @@
       "モール内"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "kokoro-hand-roll-dubai",
-    "name": "Kokoro Hand Roll Bar",
-    "name_ja": "ココロ ハンドロールバー",
-    "area": "DIFC",
-    "address": "DIFC, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "DIFCのハンドロール（手巻き寿司）専門バー。目の前で巻くカウンタースタイルで新鮮なネタを楽しめる。",
-    "tags": [
-      "手巻き寿司",
-      "カウンター",
-      "DIFC"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "osaka-nikkei-downtown",
-    "name": "Osaka Nikkei Dubai",
-    "name_ja": "オオサカ ニッケイ ドバイ",
-    "area": "Downtown Dubai",
-    "address": "Mandarin Oriental, Downtown Dubai, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "マンダリンオリエンタル内の日本×ペルーのNikkeiレストラン。ティラディート、キヌアロール、柚子味噌デザートなど独創的なメニュー。",
-    "tags": [
-      "ニッケイ",
-      "高級",
-      "ホテル内"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "hikiniku-to-come-al-quoz",
-    "name": "Hikiniku To Come",
-    "name_ja": "挽肉と米",
-    "area": "Al Quoz",
-    "address": "Al Quoz, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "東京で行列のできるハンバーグステーキの名店。炭火焼きハンバーグと炊きたてご飯の組み合わせが名物。2026年ドバイ初出店。",
-    "tags": [
-      "ハンバーグ",
-      "東京発",
-      "新店"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "reif-dubai-hills",
@@ -1728,9 +1537,10 @@
       "ミシュラン"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "reif-downtown-dubai",
@@ -1747,66 +1557,10 @@
       "カジュアル"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "kigo-restaurant-difc",
-    "name": "Kigo DIFC",
-    "name_ja": "季語 DIFC",
-    "area": "DIFC",
-    "address": "DIFC, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "DIFCの日本料理レストラン。季節の食材を活かした会席風のコース料理が特徴。落ち着いた空間で本格和食を提供。",
-    "tags": [
-      "会席",
-      "コース",
-      "DIFC"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "tsuki-restaurant-dubai",
-    "name": "Tsuki Dubai",
-    "name_ja": "月 ドバイ",
-    "area": "Business Bay",
-    "address": "Business Bay, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "ビジネスベイの日本料理レストラン。寿司、天ぷら、焼き物のほか、ウイスキーや日本酒のバーも併設。",
-    "tags": [
-      "日本料理",
-      "バー併設",
-      "ビジネスベイ"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "kazoku-japanese-dubai",
-    "name": "Kazoku Dubai",
-    "name_ja": "家族 ドバイ",
-    "area": "Al Barsha",
-    "address": "Al Barsha, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "アルバルシャの家族向け日本料理店。寿司、ラーメン、カレーライスなど幅広いメニューを手頃な価格で提供。",
-    "tags": [
-      "ファミリー",
-      "カジュアル",
-      "手頃"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "miyako-hyatt-regency",
@@ -1823,9 +1577,10 @@
       "寿司"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "tomo-raffles-difc",
@@ -1842,142 +1597,10 @@
       "ホテル内"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "uchi-difc-restaurant",
-    "name": "UCHI DIFC",
-    "name_ja": "うち DIFC",
-    "area": "DIFC",
-    "address": "DIFC, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "テキサス・オースティン発のコンテンポラリー日本料理。DIFCで独創的な和食のテイスティングメニューを提供。",
-    "tags": [
-      "コンテンポラリー",
-      "オースティン発",
-      "DIFC"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "hoseki-omakase-dubai",
-    "name": "Hoseki Dubai",
-    "name_ja": "宝石 ドバイ",
-    "area": "Bulgari Resort",
-    "address": "Bulgari Resort Dubai, Jumeirah Bay Island, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "ブルガリリゾート内のおまかせ寿司レストラン。わずか8席のカウンターで日本から空輸された食材を使う極上のおまかせ体験。要予約。",
-    "tags": [
-      "おまかせ",
-      "高級",
-      "要予約"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "kisu-dubai-restaurant",
-    "name": "KISU Dubai",
-    "name_ja": "キス ドバイ",
-    "area": "Palm Jumeirah",
-    "address": "Five Palm Jumeirah, Palm Jumeirah, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "パームジュメイラのFive Hotel内の日本料理レストラン。寿司、ロバタ、黒鱈の西京焼きなどを提供。テラス席からのシービューが人気。",
-    "tags": [
-      "シービュー",
-      "寿司",
-      "ロバタ"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "ram-and-roll-business-bay",
-    "name": "Ram & Roll Business Bay",
-    "name_ja": "ラム＆ロール ビジネスベイ",
-    "area": "Business Bay",
-    "address": "Business Bay, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "ラーメン＆ハンドロール寿司の人気店。カジュアルな空間で濃厚ラーメンと新鮮な手巻き寿司を楽しめる。",
-    "tags": [
-      "ラーメン",
-      "手巻き寿司",
-      "カジュアル"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "wakame-jbr",
-    "name": "Wakame JBR",
-    "name_ja": "ワカメ JBR",
-    "area": "JBR",
-    "address": "Sofitel Dubai Jumeirah Beach, JBR, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "ソフィテルJBR内のパンアジアンレストラン。日本料理を中心にタイ・中華料理も提供。海沿いのテラス席が人気。",
-    "tags": [
-      "パンアジアン",
-      "シーフード",
-      "テラス"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "itsu-marina-walk",
-    "name": "Itsu Marina Walk",
-    "name_ja": "イツ マリーナウォーク",
-    "area": "Dubai Marina",
-    "address": "Marina Walk, Dubai Marina, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "英国発のヘルシー日本食チェーン。寿司、餃子、カレー、味噌汁などを手頃な価格で提供。食べ放題プランあり。",
-    "tags": [
-      "チェーン",
-      "カジュアル",
-      "食べ放題"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "otoro-saadiyat-abu-dhabi",
-    "name": "Otoro Abu Dhabi",
-    "name_ja": "大トロ アブダビ",
-    "area": "Saadiyat Island",
-    "address": "Saadiyat Island, Abu Dhabi",
-    "phone": null,
-    "website": null,
-    "description": "サディヤット島の日本料理レストラン。おまかせ寿司と炉端焼きを提供。アートディストリクトに近い好立地。",
-    "tags": [
-      "寿司",
-      "おまかせ",
-      "サディヤット"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "netsu-mandarin-oriental",
@@ -1994,9 +1617,10 @@
       "ホテル内"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "goldfish-sushi-yakitori",
@@ -2013,28 +1637,10 @@
       "焼き鳥"
     ],
     "hours": "毎日 12:00-24:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "dragonfly-business-bay",
-    "name": "Dragonfly Dubai",
-    "name_ja": "ドラゴンフライ ドバイ",
-    "area": "Business Bay",
-    "address": "The Lana Promenade, Dorchester Collection, Marasi Drive, Business Bay, Dubai",
-    "phone": "+97148348278",
-    "website": "https://www.dragonfly-dxb.com/",
-    "description": "ザ・ラナ・ドーチェスター内の日本料理レストラン。日本酒ペアリングと和食をモダンな空間で提供。ライブDJ付きのイブニングも。",
-    "tags": [
-      "ホテルレストラン",
-      "日本酒ペアリング",
-      "モダン和食"
-    ],
-    "hours": "毎日 18:00-翌2:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ken-by-kamatsuda-downtown",
@@ -2051,28 +1657,10 @@
       "ホテルレストラン"
     ],
     "hours": "毎日 18:00-25:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "clay-bluewaters",
-    "name": "CLAY Dubai",
-    "name_ja": "クレイ ドバイ",
-    "area": "Bluewaters Island",
-    "address": "15a Blue Waters Island Street, G Floor, Bluewaters, Dubai",
-    "phone": "+97144225600",
-    "website": "https://www.claydubai.com/",
-    "description": "ブルーウォーターズ島の日系ペルー料理（ニッケイ）レストラン。アインドバイ観覧車近くのロケーションで、ティラディート、巻き寿司、セビーチェなどを提供。",
-    "tags": [
-      "ニッケイ料理",
-      "日系ペルー",
-      "ブルーウォーターズ"
-    ],
-    "hours": "毎日 12:00-24:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "nazcaa-address-dubai-mall",
@@ -2089,9 +1677,10 @@
       "テラス"
     ],
     "hours": "毎日 12:00-24:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "umi-kei-marsa-al-arab",
@@ -2108,9 +1697,10 @@
       "深夜ラーメン"
     ],
     "hours": "毎日 18:30-23:30",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "konjiki-hototogisu-dubai",
@@ -2127,9 +1717,10 @@
       "東京発"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "robata-caesars-bluewaters",
@@ -2146,9 +1737,10 @@
       "ブルーウォーターズ"
     ],
     "hours": "毎日 10:00-翌2:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "gohan-emirates-towers",
@@ -2165,9 +1757,10 @@
       "串焼き"
     ],
     "hours": "毎日 19:00-翌2:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "gohan-bluewaters",
@@ -2184,9 +1777,10 @@
       "炉端焼き"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "99-sushi-bar-palm",
@@ -2203,9 +1797,10 @@
       "パームジュメイラ"
     ],
     "hours": "毎日 13:00-翌1:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "mogiya-al-seef",
@@ -2222,28 +1817,10 @@
       "アル・シーフ"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "neo-temaki-jw-marriott",
-    "name": "Neo Temaki",
-    "name_ja": "ネオ手巻き",
-    "area": "Business Bay",
-    "address": "JW Marriott Marquis Hotel, Business Bay, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "JWマリオット・マーキス内の手巻き寿司専門店。Sole DXBでのポップアップが好評を博し、常設店として2026年にオープン。エネルギッシュな雰囲気。",
-    "tags": [
-      "手巻き寿司",
-      "ホテルレストラン",
-      "2026年オープン"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "osaka-nikkei-mandarin-oriental",
@@ -2260,9 +1837,10 @@
       "2026年オープン"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "niri-saadiyat-abu-dhabi",
@@ -2279,28 +1857,10 @@
       "炉端焼き"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "strawfire-emirates-palace",
-    "name": "Strawfire by Ross Shonhan",
-    "name_ja": "ストローファイア by ロス・ションハン",
-    "area": "Abu Dhabi",
-    "address": "Emirates Palace Mandarin Oriental, Abu Dhabi",
-    "phone": null,
-    "website": "https://www.mandarinoriental.com/en/abu-dhabi/emirates-palace/dine/strawfire-by-ross-shonhan",
-    "description": "エミレーツ・パレス内の藁焼きレストラン。高知県発祥の藁焼き（わらやき）技法で調理する和食。鯛焼きデザートも人気。",
-    "tags": [
-      "藁焼き",
-      "ホテルレストラン",
-      "エミレーツパレス"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "otoro-al-qana-abu-dhabi",
@@ -2317,9 +1877,10 @@
       "アブダビ"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "kaizu-al-qana-abu-dhabi",
@@ -2336,9 +1897,10 @@
       "ウォーターフロント"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "sushi-counter-jlt",
@@ -2355,9 +1917,10 @@
       "テイクアウト"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "kigo-business-bay",
@@ -2374,9 +1937,10 @@
       "ランチ"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "hisaya-downtown-dubai",
@@ -2393,9 +1957,10 @@
       "ダウンタウン"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "nobu-the-link-dubai",
@@ -2412,9 +1977,10 @@
       "2026年オープン"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "akiba-dori-dubai-mall",
@@ -2431,9 +1997,10 @@
       "モール内"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "yo-sushi-dubai-mall",
@@ -2450,9 +2017,10 @@
       "ファミリー"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "kokoro-alserkal",
@@ -2469,9 +2037,10 @@
       "アルサーカル"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "itsu-jbr",
@@ -2488,9 +2057,10 @@
       "ロンドン発"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "coco-ichibanya-dubai-mall",
@@ -2507,9 +2077,10 @@
       "モール内"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "marugame-udon-jbr",
@@ -2526,9 +2097,10 @@
       "JBR"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "pepper-lunch-dubai-mall",
@@ -2545,9 +2117,10 @@
       "モール内"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "sushiart-dubai-marina",
@@ -2564,9 +2137,10 @@
       "マリーナ"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "japanos-dubai-marina",
@@ -2583,9 +2157,10 @@
       "テラス"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "slrp-ramen-business-bay",
@@ -2602,9 +2177,10 @@
       "3Fils系列"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "kura-sushi-dubai-mall",
@@ -2621,9 +2197,10 @@
       "ファミリー"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "ippudo-dubai-hills",
@@ -2640,9 +2217,10 @@
       "モール内"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "sukiya-abu-dhabi",
@@ -2659,9 +2237,10 @@
       "アブダビ"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "clap-difc",
@@ -2679,8 +2258,9 @@
     ],
     "hours": "月 12:00-02:00 / 火〜金 12:00-03:00 / 土 13:00-03:00 / 日 13:00-02:00",
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "last_verified": "2026-03-28",
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "akira-back-palm-jumeirah",
@@ -2698,8 +2278,9 @@
     ],
     "hours": "毎日 18:00-23:30",
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "last_verified": "2026-03-28",
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "armani-hashi",
@@ -2718,8 +2299,9 @@
     ],
     "hours": "毎日 19:00-23:30",
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "last_verified": "2026-03-28",
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "bar-des-pres-difc",
@@ -2737,8 +2319,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "last_verified": "2026-03-28",
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ikigai-dubai-marina",
@@ -2756,8 +2339,9 @@
     ],
     "hours": "毎日 17:00-01:00",
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "last_verified": "2026-03-28",
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "virgin-izakaya-bluewaters",
@@ -2775,8 +2359,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "last_verified": "2026-03-28",
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "yubi-handroll-bar",
@@ -2794,8 +2379,9 @@
     ],
     "hours": "毎日 12:00-01:00",
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "last_verified": "2026-03-28",
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "katsuya-madinat-jumeirah",
@@ -2814,8 +2400,9 @@
     ],
     "hours": "毎日 12:00-01:00",
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "last_verified": "2026-03-28",
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "kayto-jumeirah-al-naseem",
@@ -2833,8 +2420,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "last_verified": "2026-03-28",
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "bentoya-sheikh-zayed-road",
@@ -2853,8 +2441,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "last_verified": "2026-03-28",
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "yui-dubai-design-district",
@@ -2871,8 +2460,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "ichiryu-ramen-house",
@@ -2890,65 +2480,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "wokyo-noodle-bar-jlt",
-    "name": "Wokyo Noodle Bar",
-    "name_ja": "ウォキョー ヌードルバー",
-    "area": "JLT",
-    "address": "Shop 28, Basement Level, J2 Tower, Cluster J, JLT, Dubai",
-    "phone": null,
-    "website": "https://www.wokyo.com/",
-    "description": "カスタマイズ可能な麺料理が特徴のカジュアルヌードルバー。うどん、蕎麦、ベジタリアンオプションから好みのプロテイン・ソース・ベースを選べる。",
-    "tags": [
-      "うどん",
-      "ヌードル",
-      "カジュアル"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "wagamama-dubai-mall",
-    "name": "Wagamama Dubai Mall",
-    "name_ja": "ワガママ ドバイモール",
-    "area": "Downtown Dubai",
-    "address": "Unit LG-105-B, Lower Ground Floor, The Dubai Mall, Financial Center Road, Dubai",
-    "phone": null,
-    "website": "https://wagamama.ae/",
-    "description": "英国発の日本式ラーメンバーにインスパイアされたカジュアルレストランチェーン。ラーメン、カレー、丼物など幅広いメニューを提供。",
-    "tags": [
-      "ラーメン",
-      "カジュアル",
-      "チェーン"
-    ],
-    "hours": "毎日 11:00-01:00",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "wagamama-dubai-marina-mall",
-    "name": "Wagamama Dubai Marina Mall",
-    "name_ja": "ワガママ ドバイマリーナモール",
-    "area": "Dubai Marina",
-    "address": "Dubai Marina Mall, Dubai Marina, Dubai",
-    "phone": null,
-    "website": "https://wagamama.ae/",
-    "description": "ドバイマリーナモール店。ラーメン、カレー、ギョウザ、枝豆などの日本風メニューを提供するカジュアルチェーン。",
-    "tags": [
-      "ラーメン",
-      "カジュアル",
-      "チェーン"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "taiko-bar-sofitel",
@@ -2967,27 +2501,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "asia-asia-dubai-marina",
-    "name": "Asia Asia Dubai Marina",
-    "name_ja": "アジア・アジア ドバイマリーナ",
-    "area": "Dubai Marina",
-    "address": "6th Floor, Pier 7, Dubai Marina Mall, Dubai Marina, Dubai",
-    "phone": "+97142765900",
-    "website": "https://asia-asia.com/",
-    "description": "ドバイマリーナを一望するパンアジアンレストラン。寿司、刺身を含む幅広いアジア料理を提供。サンデー寿司ディールが人気。UAE内に複数店舗展開。",
-    "tags": [
-      "パンアジアン",
-      "寿司",
-      "眺望"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "last_verified": "2026-03-28",
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sio-ramen-one-zaabeel",
@@ -3004,8 +2520,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "nette-al-quoz",
@@ -3023,8 +2540,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "last_verified": "2026-03-28",
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "kumo-al-wasl",
@@ -3041,8 +2559,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "minato-radisson-blu-deira",
@@ -3061,8 +2580,9 @@
     ],
     "hours": "毎日 18:00-23:00",
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "last_verified": "2026-03-28",
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sushi-nations-latifa-tower",
@@ -3080,8 +2600,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "last_verified": "2026-03-28",
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sushi-nations-al-barsha",
@@ -3099,8 +2620,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "maru-udon-business-bay",
@@ -3118,8 +2640,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "daikan-ramen-nakheel-mall",
@@ -3137,8 +2660,9 @@
     ],
     "hours": "日〜木 10:00-22:00 / 金土 10:00-24:00",
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "last_verified": "2026-03-28",
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "daikan-ramen-jlt",
@@ -3155,8 +2679,9 @@
     ],
     "hours": "日〜木 11:30-23:00 / 金土 11:30-24:00",
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "last_verified": "2026-03-28",
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "daikan-ramen-nad-al-sheba",
@@ -3174,8 +2699,9 @@
     ],
     "hours": "月〜木 10:00-22:00 / 金〜日 10:00-24:00",
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "last_verified": "2026-03-28",
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "daikan-ramen-festival-city",
@@ -3193,8 +2719,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "last_verified": "2026-03-28",
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "koi-saadiyat-abu-dhabi",
@@ -3212,8 +2739,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "last_verified": "2026-03-28",
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "goldfish-yas-bay-abu-dhabi",
@@ -3231,8 +2759,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "slrp-ramen-yas-mall",
@@ -3250,8 +2779,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "daikan-izakaya-yas-bay",
@@ -3269,8 +2799,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "99-sushi-bar-mall-of-emirates",
@@ -3288,8 +2819,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "99-sushi-bar-downtown",
@@ -3307,8 +2839,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "last_verified": "2026-03-28",
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "kimuraya-business-bay",
@@ -3326,8 +2859,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "last_verified": "2026-03-28",
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "kimuraya-marina",
@@ -3345,8 +2879,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "last_verified": "2026-03-28",
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "gohan-sheikh-zayed-road",
@@ -3364,8 +2899,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "last_verified": "2026-03-28",
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "kasumigaseki-vida-hills",
@@ -3383,8 +2919,9 @@
     ],
     "hours": "毎日 12:00-15:00, 18:00-24:00",
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "last_verified": "2026-03-28",
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "zutto-suki-ramen-deira",
@@ -3402,8 +2939,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "saikindo-four-seasons-abu-dhabi",
@@ -3422,28 +2960,9 @@
     ],
     "hours": "日〜水 17:00-02:00 / 木〜土 17:00-03:00",
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "chotto-matte-difc",
-    "name": "Chotto Matte",
-    "name_ja": "チョットマッテ",
-    "area": "DIFC",
-    "address": "The Ritz-Carlton, DIFC, Dubai",
-    "phone": null,
-    "website": "https://www.chottomatte.com/",
-    "description": "ロンドン発のニッケイ（日本×ペルー）レストラン。ジャンボ海老天ぷら、和牛餃子、ブラックコッド味噌などのシグネチャーメニューが特徴。2025年ドバイ進出。",
-    "tags": [
-      "ニッケイ",
-      "フュージョン",
-      "高級",
-      "ホテル内"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "last_verified": "2026-03-28",
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "kokoro-nad-al-sheba",
@@ -3461,8 +2980,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "daikan-izakaya-citywalk-licensed",
@@ -3480,8 +3000,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "last_verified": "2026-03-28",
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "wagamama-dubai-hills-mall",
@@ -3500,8 +3021,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "last_verified": "2026-03-28",
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "yo-sushi-dubai-hills-mall",
@@ -3520,27 +3042,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "reif-kushiyaki-dubai-hills-business-park",
-    "name": "Reif Japanese Kushiyaki Dubai Hills",
-    "name_ja": "レイフ串焼 ドバイヒルズ",
-    "area": "Dubai Hills",
-    "address": "Dubai Hills Business Park, Building 1, Dubai Hills Estate, Dubai",
-    "phone": null,
-    "website": "https://www.reifkushiyaki.com/",
-    "description": "シェフReif Othmanの串焼き＆ラーメン店のドバイヒルズ店舗。ミシュラン・ビブグルマン受賞。滑らかなラーメンと炭火串焼きが人気。",
-    "tags": [
-      "串焼き",
-      "ラーメン",
-      "ミシュラン"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "nobu-atlantis-palm",
@@ -3559,8 +3063,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "last_verified": "2026-03-28",
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "nobu-atlantis-the-royal",
@@ -3579,8 +3084,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "last_verified": "2026-03-28",
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "mitsuya-ritz-carlton-difc",
@@ -3598,8 +3104,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "yo-sushi-nakheel-mall",
@@ -3618,8 +3125,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "marugame-udon-nakheel-mall",
@@ -3638,8 +3146,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "coco-ichibanya-nakheel-mall",
@@ -3658,8 +3167,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "yoshinoya-nakheel-mall",
@@ -3678,8 +3188,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "ippudo-nakheel-mall",
@@ -3698,8 +3209,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "sukiya-nakheel-mall",
@@ -3718,8 +3230,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "pepper-lunch-nakheel-mall",
@@ -3738,8 +3251,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "kura-sushi-nakheel-mall",
@@ -3758,84 +3272,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "yamanote-atelier-jbr",
-    "name": "Yamanote Atelier JBR",
-    "name_ja": "ヤマノテアトリエ JBR",
-    "area": "JBR",
-    "address": "The Walk, JBR, Dubai",
-    "phone": null,
-    "website": "https://yamanoteatelier.com/",
-    "description": "日本式ベーカリーカフェチェーンのJBR店舗。日本から直輸入した素材で焼き上げるパン、ペストリー、デザートを提供。",
-    "tags": [
-      "ベーカリー",
-      "カフェ",
-      "日本食材使用"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "yamanote-atelier-city-walk",
-    "name": "Yamanote Atelier City Walk",
-    "name_ja": "ヤマノテアトリエ シティウォーク",
-    "area": "City Walk",
-    "address": "City Walk, Al Safa Street, Dubai",
-    "phone": null,
-    "website": "https://yamanoteatelier.com/",
-    "description": "日本式ベーカリーカフェチェーンのシティウォーク店舗。毎日焼き上げるパンやケーキ、日本茶を提供。",
-    "tags": [
-      "ベーカリー",
-      "カフェ",
-      "日本食材使用"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "yamanote-atelier-marina",
-    "name": "Yamanote Atelier Dubai Marina",
-    "name_ja": "ヤマノテアトリエ ドバイマリーナ",
-    "area": "Dubai Marina",
-    "address": "Dubai Marina Mall, Dubai Marina, Dubai",
-    "phone": null,
-    "website": "https://yamanoteatelier.com/",
-    "description": "日本式ベーカリーカフェチェーンのドバイマリーナモール店舗。クロワッサン、食パン、あんぱんなどの日本式パンを提供。",
-    "tags": [
-      "ベーカリー",
-      "カフェ",
-      "日本食材使用"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "roka-twiggy-business-bay",
-    "name": "ROKA Business Bay",
-    "name_ja": "ロカ ビジネスベイ",
-    "area": "Business Bay",
-    "address": "Twiggy by La Cantine, Park Hyatt Dubai, Business Bay, Dubai",
-    "phone": null,
-    "website": "https://www.rokarestaurant.com/",
-    "description": "ロンドン発の炉端焼きレストラン。ビジネスベイのパークハイアット内に位置し、炭火での炉端焼きと日本料理を提供。",
-    "tags": [
-      "炉端焼き",
-      "高級",
-      "ホテル内"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "tomo-banyan-tree-bluewaters",
@@ -3854,8 +3293,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "goldfish-galleria-mall",
@@ -3873,8 +3313,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "99-sushi-bar-four-seasons-abu-dhabi",
@@ -3892,65 +3333,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "zuma-abu-dhabi-al-maryah",
-    "name": "Zuma Abu Dhabi",
-    "name_ja": "ズマ アブダビ",
-    "area": "Al Maryah Island, Abu Dhabi",
-    "address": "The Galleria, Al Maryah Island, Abu Dhabi",
-    "phone": "+97124015900",
-    "website": "https://www.zumarestaurant.com/en/abu-dhabi",
-    "description": "アル・マリヤ島のギャラリアに位置するコンテンポラリー日本料理レストラン。ドバイ店同様、味噌ブラックコッドや炉端焼きが人気。ブランチも提供。",
-    "tags": [
-      "高級",
-      "炉端焼き",
-      "コンテンポラリー"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "asia-asia-business-bay",
-    "name": "Asia Asia Business Bay",
-    "name_ja": "アジア・アジア ビジネスベイ",
-    "area": "Business Bay",
-    "address": "The Opus by Omniyat, Business Bay, Dubai",
-    "phone": null,
-    "website": "https://asia-asia.com/",
-    "description": "ザハ・ハディド設計のThe Opus内に位置するアジア・アジアのビジネスベイ店舗。パンアジアン料理と寿司を提供。",
-    "tags": [
-      "パンアジアン",
-      "寿司",
-      "デザイナーズ"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "asia-asia-palm-jumeirah",
-    "name": "Asia Asia Palm Jumeirah",
-    "name_ja": "アジア・アジア パーム・ジュメイラ",
-    "area": "Palm Jumeirah",
-    "address": "Club Vista Mare, Palm Jumeirah, Dubai",
-    "phone": null,
-    "website": "https://asia-asia.com/",
-    "description": "パーム・ジュメイラのクラブ・ヴィスタ・マーレに位置するアジア・アジア店舗。ウォーターフロントでパンアジアン料理と寿司を提供。",
-    "tags": [
-      "パンアジアン",
-      "寿司",
-      "ウォーターフロント"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "asia-asia-yas-bay-abu-dhabi",
@@ -3968,8 +3353,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "neo-temaki-jw-marriott-marquis-restaurant",
@@ -3987,46 +3373,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "osaka-nikkei-mandarin-oriental-downtown",
-    "name": "Osaka Nikkei Downtown",
-    "name_ja": "大阪ニッケイ ダウンタウン",
-    "area": "Downtown Dubai",
-    "address": "Mandarin Oriental, Downtown Dubai, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "マンダリンオリエンタル・ダウンタウンに位置する日系ペルーフュージョンレストラン。ティラディート、キヌアロール、アンデス風ツイストの寿司を提供。",
-    "tags": [
-      "ニッケイ",
-      "フュージョン",
-      "ホテル内"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "hikiniku-to-come-al-quoz-restaurant",
-    "name": "Hikiniku To Come Al Quoz",
-    "name_ja": "挽肉と米 アル・クオズ",
-    "area": "Al Quoz",
-    "address": "Al Quoz, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "東京の人気店「挽肉と米」のドバイ進出店。毎朝挽きたてのビーフを炭火で焼き、蒸した釜飯の上に乗せて提供する日本のハンバーグ専門店。",
-    "tags": [
-      "ハンバーグ",
-      "炭火焼き",
-      "カジュアル"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "robata-caesars-bluewaters-restaurant",
@@ -4044,28 +3393,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "wagamama-abu-dhabi-mall",
-    "name": "Wagamama Abu Dhabi Mall",
-    "name_ja": "ワガママ アブダビモール",
-    "area": "Tourist Club Area, Abu Dhabi",
-    "address": "Abu Dhabi Mall, Tourist Club Area, Abu Dhabi",
-    "phone": null,
-    "website": "https://wagamama.ae/",
-    "description": "アブダビモール内のワガママ店舗。日本式ラーメンバーにインスパイアされたカジュアルレストラン。",
-    "tags": [
-      "ラーメン",
-      "カジュアル",
-      "チェーン",
-      "モール内"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "wagamama-yas-mall",
@@ -4084,8 +3414,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "goldfish-marina-mall-abu-dhabi",
@@ -4104,8 +3435,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "tanuki-downtown-dubai",
@@ -4123,8 +3455,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "umami-japanese-dubai-mall",
@@ -4143,8 +3476,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "last_verified": "2026-03-28",
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "umami-japanese-ibn-battuta",
@@ -4163,8 +3497,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "last_verified": "2026-03-28",
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "social-house-dubai-mall",
@@ -4182,46 +3517,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "otoro-al-qana-abu-dhabi-restaurant",
-    "name": "OTORO Al Qana",
-    "name_ja": "オトロ アル・カナ",
-    "area": "Al Qana, Abu Dhabi",
-    "address": "Al Qana Marina, Al Maqta, Abu Dhabi",
-    "phone": "+97128869995",
-    "website": "https://otoroabudhabi.com/",
-    "description": "シェフAkmal Anuarが手掛けるモダン日本料理。炙りオトロにぎりやツナタルタル柚子トリュフドレッシングなどのシグネチャーメニューが人気。ミシュランガイド掲載。",
-    "tags": [
-      "寿司",
-      "コンテンポラリー",
-      "ミシュラン"
-    ],
-    "hours": "毎日 12:00-23:00",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "niri-mamsha-saadiyat",
-    "name": "NIRI Restaurant & Bar",
-    "name_ja": "ニリ",
-    "area": "Saadiyat Island, Abu Dhabi",
-    "address": "Mamsha Al Saadiyat, Saadiyat Island, Abu Dhabi",
-    "phone": null,
-    "website": null,
-    "description": "アブダビのベスト日本料理レストランに選ばれた実績を持つ。サディヤット島のMamshaに位置し、串物、刺身、ビーチビューを楽しめる。",
-    "tags": [
-      "寿司",
-      "刺身",
-      "ビーチ"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "strawfire-emirates-palace-restaurant",
@@ -4239,45 +3537,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "kaizu-al-qana-abu-dhabi-restaurant",
-    "name": "KAIZU Al Qana",
-    "name_ja": "カイズ アル・カナ",
-    "area": "Al Qana, Abu Dhabi",
-    "address": "Al Qana, Al Maqta, Abu Dhabi",
-    "phone": null,
-    "website": null,
-    "description": "アル・カナに位置する日本料理レストラン。新鮮な食材にこだわった寿司と日本料理で知られる。",
-    "tags": [
-      "寿司",
-      "本格日本料理"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "endo-dubai-restaurant",
-    "name": "Endo Dubai",
-    "name_ja": "エンドウ ドバイ",
-    "area": "Downtown Dubai",
-    "address": "Address Downtown, Downtown Dubai, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "ダウンタウン・ドバイのAddress Hotel内に位置する日本料理レストラン。寿司、刺身、炉端焼きを提供。",
-    "tags": [
-      "寿司",
-      "炉端焼き",
-      "ホテル内"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "konjiki-hototogisu-moe",
@@ -4295,104 +3557,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "3fils-jumeirah-restaurant",
-    "name": "3Fils",
-    "name_ja": "スリーフィルス",
-    "area": "Jumeirah",
-    "address": "Jumeirah Fishing Harbour, Jumeirah 1, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "ジュメイラ・フィッシング・ハーバーに位置するカジュアル日本料理店。新鮮な寿司、刺身、ロール寿司をウォーターフロントの開放的な空間で提供。MENA's 50 Best Restaurants上位常連。",
-    "tags": [
-      "寿司",
-      "カジュアル",
-      "ウォーターフロント"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "ken-by-kamatsuda-edition",
-    "name": "Ken by Kamatsuda",
-    "name_ja": "ケン バイ カマツダ",
-    "area": "Downtown Dubai",
-    "address": "1st Floor, The Dubai Edition Hotel, Downtown Dubai, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "ドバイ・エディションホテル内の高級おまかせレストラン。日本人シェフによる本格的なおまかせコースを提供。ドバイ屈指の高額レストランの一つ。",
-    "tags": [
-      "おまかせ",
-      "高級",
-      "ホテル内"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "clay-bluewaters-restaurant",
-    "name": "CLAY Bluewaters",
-    "name_ja": "クレイ ブルーウォーターズ",
-    "area": "Bluewaters Island",
-    "address": "Bluewaters Island, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "ブルーウォーターズ島に位置するモダン日本料理＆ラウンジ。寿司、刺身、炉端焼きを提供。",
-    "tags": [
-      "寿司",
-      "ラウンジ",
-      "コンテンポラリー"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "nazcaa-address-dubai-mall-restaurant",
-    "name": "Nazcaa",
-    "name_ja": "ナスカ",
-    "area": "Downtown Dubai",
-    "address": "Address Dubai Mall, Sheikh Mohammed bin Rashid Boulevard, Downtown Dubai, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "Address Dubai Mall内のニッケイ料理レストラン。日本とペルーのフュージョン料理を洗練された空間で提供。",
-    "tags": [
-      "ニッケイ",
-      "フュージョン",
-      "ホテル内"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "umi-kei-marsa-al-arab-restaurant",
-    "name": "Umi Kei",
-    "name_ja": "海 恵",
-    "area": "Umm Suqeim",
-    "address": "Jumeirah Marsa Al Arab, Umm Suqeim, Dubai",
-    "phone": null,
-    "website": "https://www.jumeirah.com/en/stay/dubai/jumeirah-marsa-al-arab/dining/marsa-al-arab-umi-kei",
-    "description": "ジュメイラ・マルサ・アル・アラブ内の日本料理レストラン。海をテーマにした空間で、寿司、刺身、炉端焼きを提供。",
-    "tags": [
-      "寿司",
-      "高級",
-      "ホテル内",
-      "シーフード"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "last_verified": "2026-03-28",
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "netsu-mandarin-oriental-restaurant",
@@ -4411,8 +3578,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "sushisamba-palm-tower",
@@ -4430,8 +3598,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "last_verified": "2026-03-28",
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "yo-sushi-dubai-festival-city",
@@ -4450,8 +3619,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "marugame-udon-festival-city",
@@ -4470,8 +3640,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "ippudo-dubai-festival-city",
@@ -4490,8 +3661,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "coco-ichibanya-abu-dhabi",
@@ -4510,8 +3682,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "pepper-lunch-abu-dhabi",
@@ -4530,8 +3703,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "marugame-udon-abu-dhabi",
@@ -4550,8 +3724,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "yoshinoya-abu-dhabi",
@@ -4570,8 +3745,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "kura-sushi-abu-dhabi",
@@ -4590,8 +3766,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "sukiya-yas-mall",
@@ -4610,8 +3787,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "maru-udon-neighbourhood-food-hall",
@@ -4629,46 +3807,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "fujiya-garhoud-restaurant",
-    "name": "Fujiya Garhoud",
-    "name_ja": "ふじ屋 ガルフード",
-    "area": "Garhoud",
-    "address": "Le Meridien Dubai Hotel & Conference Centre, Airport Road, Garhoud, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "ル・メリディアン・ドバイ内の日本料理レストラン。伝統的な日本料理を提供する老舗。寿司、刺身、天ぷら、定食メニューが揃う。",
-    "tags": [
-      "本格日本料理",
-      "寿司",
-      "ホテル内"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "fujiya-downtown-restaurant",
-    "name": "Fujiya Downtown",
-    "name_ja": "ふじ屋 ダウンタウン",
-    "area": "Downtown Dubai",
-    "address": "Swissôtel Al Murooj Dubai, Downtown Dubai, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "スイスホテル・アル・ムルージ内の日本料理レストラン。伝統的な日本料理と新鮮な寿司を提供。",
-    "tags": [
-      "本格日本料理",
-      "寿司",
-      "ホテル内"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "mogiya-al-seef-restaurant",
@@ -4686,46 +3827,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "sushi-counter-jlt-restaurant",
-    "name": "Sushi Counter JLT",
-    "name_ja": "寿司カウンター JLT",
-    "area": "JLT",
-    "address": "Cluster D, JLT, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "JLTに位置するカジュアルな寿司レストラン。テイクアウトやデリバリーにも対応した新鮮な寿司を提供。",
-    "tags": [
-      "寿司",
-      "カジュアル",
-      "デリバリー"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "miyako-hyatt-regency-restaurant",
-    "name": "Miyako Hyatt Regency",
-    "name_ja": "都 ハイアットリージェンシー",
-    "area": "Deira",
-    "address": "Hyatt Regency Dubai, Corniche Deira, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "ハイアット・リージェンシー・ドバイ内の日本料理レストラン。鉄板焼き、寿司、刺身、天ぷらを提供。デイラのコーニッシュ沿いに位置。",
-    "tags": [
-      "鉄板焼き",
-      "寿司",
-      "ホテル内"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "slrp-ramen-dubai-district",
@@ -4743,63 +3847,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "hisaya-dubai-marina-restaurant",
-    "name": "Hisaya Dubai Marina",
-    "name_ja": "久矢 ドバイマリーナ",
-    "area": "Dubai Marina",
-    "address": "Marina Promenade, Dubai Marina, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "ドバイマリーナのプロムナードに位置する日本料理レストラン。寿司、刺身、炉端焼きを提供。マリーナビューのテラス席あり。",
-    "tags": [
-      "寿司",
-      "炉端焼き",
-      "マリーナ"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "hisaya-jlt-restaurant",
-    "name": "Hisaya JLT",
-    "name_ja": "久矢 JLT",
-    "area": "JLT",
-    "address": "JLT, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "JLTに位置する日本料理レストランHisayaの2号店。寿司、刺身、日本料理を提供。",
-    "tags": [
-      "寿司",
-      "カジュアル"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "hisaya-downtown-restaurant",
-    "name": "Hisaya Downtown",
-    "name_ja": "久矢 ダウンタウン",
-    "area": "Downtown Dubai",
-    "address": "Downtown Dubai, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "ダウンタウン・ドバイに位置するHisayaの店舗。寿司、刺身、日本料理を提供。",
-    "tags": [
-      "寿司",
-      "カジュアル"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "akiba-dori-mirdif-city-centre",
@@ -4818,27 +3868,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "itsu-dubai-marina-walk",
-    "name": "Itsu Dubai Marina Walk",
-    "name_ja": "イツ ドバイマリーナウォーク",
-    "area": "Dubai Marina",
-    "address": "Marina Walk, Dubai Marina, Dubai",
-    "phone": null,
-    "website": "https://www.itsusushi.com/",
-    "description": "英国発の日本食チェーンのマリーナウォーク店。寿司、ラーメン、餃子などをカジュアルに提供。テイクアウトにも対応。",
-    "tags": [
-      "寿司",
-      "カジュアル",
-      "チェーン"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "itsu-palm-jumeirah",
@@ -4857,27 +3889,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "dragonfly-business-bay-restaurant",
-    "name": "Dragonfly Business Bay",
-    "name_ja": "ドラゴンフライ ビジネスベイ",
-    "area": "Business Bay",
-    "address": "Bay Square, Business Bay, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "ビジネスベイのベイスクエアに位置する日本料理レストラン。寿司、刺身、和食を提供。ビジネスランチにも対応。",
-    "tags": [
-      "寿司",
-      "カジュアル",
-      "ビジネス"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "nette-al-barari",
@@ -4895,8 +3909,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "last_verified": "2026-03-28",
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "wokyo-noodle-bar-dubai-hills",
@@ -4915,8 +3930,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "bentoya-al-barsha",
@@ -4934,8 +3950,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "yo-sushi-ibn-battuta-mall",
@@ -4954,8 +3971,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "coco-ichibanya-ibn-battuta",
@@ -4974,8 +3992,9 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "last_verified": "2026-03-28",
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "salvaje-downtown-dubai",
@@ -4994,7 +4013,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "matagi-raffles-palm",
@@ -5012,7 +4032,8 @@
     "hours": "毎日 18:00-23:30",
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "benihana-amwaj-rotana-jbr",
@@ -5031,7 +4052,8 @@
     "hours": "月〜木 17:00-24:00 / 金〜日 12:00-24:00",
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "benihana-signature-ibn-battuta",
@@ -5049,12 +4071,13 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "rayu-al-wasl",
     "name": "Rayu Japanese Restaurant",
-    "name_ja": null,
+    "name_ja": "ラーユ アルワスル",
     "area": "Al Wasl",
     "address": "Shop 38, Wasl Vita Mall, Al Wasl Road, Jumeirah, Dubai",
     "phone": "+971563814118",
@@ -5067,7 +4090,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "motomachi-la-mer",
@@ -5086,7 +4110,8 @@
     "hours": "毎日 12:00-23:00",
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "motomachi-festival-city",
@@ -5105,7 +4130,8 @@
     "hours": "毎日 12:00-22:00",
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ichiryu-ramen-wasl",
@@ -5123,7 +4149,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ichiryu-ramen-dubai-marina",
@@ -5135,12 +4162,14 @@
     "website": "https://www.ichiryuramenhouse.com/",
     "description": "一龍ラーメンハウスのドバイマリーナ支店。本格ラーメンを提供。",
     "tags": [
-      "ラーメン"
+      "ラーメン",
+      "カジュアル"
     ],
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "maru-udon-motor-city",
@@ -5158,7 +4187,8 @@
     "hours": "毎日 11:00-23:00",
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "maru-udon-deira",
@@ -5176,63 +4206,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "google_maps"
-  },
-  {
-    "slug": "wokyo-al-seef",
-    "name": "Wokyo Noodle Bar",
-    "name_ja": null,
-    "area": "Al Seef",
-    "address": "Al Hamriya, Al Seef Heritage Village, P3, Shop 381, Dubai",
-    "phone": "+97143305188",
-    "website": "https://www.wokyo.com/",
-    "description": "ドバイ・クリーク沿いのアルシーフに位置するヌードルバー。ラーメン、焼きそば、餃子などを手頃な価格で提供。",
-    "tags": [
-      "ラーメン",
-      "ヌードル",
-      "水辺"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-28",
-    "source": "website"
-  },
-  {
-    "slug": "wokyo-motor-city",
-    "name": "Wokyo Noodle Bar",
-    "name_ja": null,
-    "area": "Motor City",
-    "address": "The Ribbon Mall, Motor City, Dubai",
-    "phone": "+97143305188",
-    "website": "https://www.wokyo.com/",
-    "description": "モーターシティのリボンモール内のヌードルバー。日本式ラーメンや焼きそばをカジュアルに楽しめる。",
-    "tags": [
-      "ラーメン",
-      "ヌードル",
-      "モール内"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-28",
-    "source": "website"
-  },
-  {
-    "slug": "wokyo-wasl-square",
-    "name": "Wokyo Noodle Bar",
-    "name_ja": null,
-    "area": "Al Safa",
-    "address": "Wasl Square, Block 8, Al Safa 1, Dubai",
-    "phone": "+97143305188",
-    "website": "https://www.wokyo.com/",
-    "description": "ワスルスクエアのヌードルバー。日本式ラーメンや丼物をカジュアルに提供。",
-    "tags": [
-      "ラーメン",
-      "ヌードル"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "takahisa-downtown-volante",
@@ -5251,12 +4226,13 @@
     "hours": "朝食 8:00-12:00 / ランチ＆ディナー 12:00-24:00",
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sushi-nations-motor-city",
     "name": "Sushi Nations",
-    "name_ja": null,
+    "name_ja": "スシネーションズ モーターシティ",
     "area": "Motor City",
     "address": "Motor City, Dubai",
     "phone": null,
@@ -5270,12 +4246,13 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sushi-nations-mirdif",
     "name": "Sushi Nations",
-    "name_ja": null,
+    "name_ja": "スシネーションズ ミルディフ",
     "area": "Mirdif",
     "address": "Uptown Mirdif, Dubai",
     "phone": null,
@@ -5289,12 +4266,13 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sushi-nations-deira",
     "name": "Sushi Nations",
-    "name_ja": null,
+    "name_ja": "スシネーションズ デイラ",
     "area": "Deira",
     "address": "Coral Hotel, Deira, Dubai",
     "phone": null,
@@ -5308,7 +4286,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "umami-al-ghurair",
@@ -5327,7 +4306,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "umami-mall-of-emirates",
@@ -5346,12 +4326,13 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "sushi-counter-media-city",
     "name": "Sushi Counter",
-    "name_ja": null,
+    "name_ja": "スシカウンター メディアシティ",
     "area": "Dubai Media City",
     "address": "Building 7, Al Sufouh, Dubai Media City, Dubai",
     "phone": null,
@@ -5364,48 +4345,13 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
-  },
-  {
-    "slug": "nara-pan-asian-jlt",
-    "name": "Nara Pan Asian",
-    "name_ja": null,
-    "area": "Jumeirah Lakes Towers",
-    "address": "Lake Level, Next to Movenpick Hotel, Cluster A, JLT, Dubai",
-    "phone": "+97144211356",
-    "website": null,
-    "description": "JLTのモーベンピックホテル隣のアジアンフュージョンレストラン。日本料理を含むパンアジアンメニューを提供。ライセンス付き。",
-    "tags": [
-      "パンアジアン",
-      "ライセンス付き"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-28",
-    "source": "google_maps"
-  },
-  {
-    "slug": "kumo-al-wasl-villa",
-    "name": "Kumo",
-    "name_ja": "くも",
-    "area": "Al Wasl",
-    "address": "19th Street, Al Wasl Road, Al Wasl, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "バーガー店SALTの運営チームが手がける日本食レストラン。1980年代のヴィラを改装し、京都のファミレスをコンセプトにした空間。",
-    "tags": [
-      "カジュアル",
-      "ヴィラ改装"
-    ],
-    "hours": "日〜木 13:00-23:00 / 金土 13:00-24:00",
-    "status": "unverified",
-    "last_verified": "2026-03-28",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "cutfish-marsa-al-arab",
     "name": "Cutfish",
-    "name_ja": null,
+    "name_ja": "カットフィッシュ マルサアルアラブ",
     "area": "Umm Suqeim",
     "address": "Jumeirah Marsa Al Arab, Al Darmeet Street, Umm Suqeim, Jumeirah 3, Dubai",
     "phone": "+97142713882",
@@ -5419,12 +4365,13 @@
     "hours": "毎日 8:00-24:00",
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "kira-marsa-al-arab",
     "name": "Kira",
-    "name_ja": null,
+    "name_ja": "キラ マルサアルアラブ",
     "area": "Umm Suqeim",
     "address": "Jumeirah Marsa Al Arab, Dubai",
     "phone": "+97143281665",
@@ -5438,7 +4385,8 @@
     "hours": "日〜水 12:00-25:00 / 木〜日 12:00-26:00",
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "kiyoshi-creek-harbour",
@@ -5456,7 +4404,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "tezukuri-downtown",
@@ -5475,31 +4424,13 @@
     "hours": "火〜金 18:00-24:00 / 土日 12:00-24:00 / 月曜定休",
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
-  },
-  {
-    "slug": "ruby-ru-marriott-marquis",
-    "name": "Ruby Ru by Iris",
-    "name_ja": null,
-    "area": "Deira",
-    "address": "Marriott Marquis Hotel, Jewel of the Creek, Port Saeed, Dubai",
-    "phone": "+97145990222",
-    "website": null,
-    "description": "パリのカフェ文化にインスパイアされた仏日フュージョンレストラン＆バー。和牛サンド、日本式ホットストーンステーキなどを提供。180度のドバイスカイライン眺望。",
-    "tags": [
-      "フュージョン",
-      "フレンチ×日本",
-      "バー"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-28",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sushi-story-khalidiyah",
     "name": "Sushi Story",
-    "name_ja": null,
+    "name_ja": "スシストーリー ハリディヤ",
     "area": "Al Khalidiyah, Abu Dhabi",
     "address": "Khalidiya D, Corniche Road West, Al Ras Al Akhdar, Abu Dhabi",
     "phone": "+97126391888",
@@ -5513,12 +4444,13 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sumo-sushi-bento-jumeirah",
     "name": "Sumo Sushi & Bento",
-    "name_ja": null,
+    "name_ja": "スモスシ＆弁当 ジュメイラ",
     "area": "Jumeirah",
     "address": "Ground Floor, Jumeirah Town Centre Mall, Jumeirah, Dubai",
     "phone": "+9718007866",
@@ -5532,12 +4464,13 @@
     "hours": "毎日 11:00-23:00",
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sumo-sushi-bento-media-city",
     "name": "Sumo Sushi & Bento",
-    "name_ja": null,
+    "name_ja": "スモスシ＆弁当 メディアシティ",
     "area": "Dubai Media City",
     "address": "Ground Floor, Phase 3, Building 10, Media City, Dubai",
     "phone": "+9718007866",
@@ -5551,12 +4484,13 @@
     "hours": "毎日 11:00-23:00",
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sumo-sushi-bento-motor-city",
     "name": "Sumo Sushi & Bento",
-    "name_ja": null,
+    "name_ja": "スモスシ＆弁当 モーターシティ",
     "area": "Motor City",
     "address": "Motor City, Dubai",
     "phone": "+9718007866",
@@ -5570,12 +4504,13 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sumo-sushi-bento-silicon-oasis",
     "name": "Sumo Sushi & Bento",
-    "name_ja": null,
+    "name_ja": "スモスシ＆弁当 シリコンオアシス",
     "area": "Dubai Silicon Oasis",
     "address": "Dubai Silicon Oasis, Dubai",
     "phone": "+9718007866",
@@ -5589,12 +4524,13 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sumo-sushi-bento-mirdif",
     "name": "Sumo Sushi & Bento",
-    "name_ja": null,
+    "name_ja": "スモスシ＆弁当 ミルディフ",
     "area": "Mirdif",
     "address": "Mirdif Hills Avenue, Mirdif, Dubai",
     "phone": "+9718007866",
@@ -5608,12 +4544,13 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sumo-sushi-bento-jlt",
     "name": "Sumo Sushi & Bento",
-    "name_ja": null,
+    "name_ja": "スモスシ＆弁当 JLT",
     "area": "Jumeirah Lakes Towers",
     "address": "Jumeirah Lakes Towers, Dubai",
     "phone": "+9718007866",
@@ -5627,12 +4564,13 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sumo-sushi-bento-downtown",
     "name": "Sumo Sushi & Bento",
-    "name_ja": null,
+    "name_ja": "スモスシ＆弁当 ダウンタウン",
     "area": "Downtown Dubai",
     "address": "Al Murooj Complex, Downtown Dubai",
     "phone": "+9718007866",
@@ -5646,7 +4584,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "daikan-ramen-palm-jumeirah",
@@ -5664,6 +4603,7 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   }
 ]

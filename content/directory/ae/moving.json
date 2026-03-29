@@ -1,24 +1,5 @@
 [
   {
-    "slug": "crown-relocations-dubai",
-    "name": "Crown Relocations Dubai",
-    "name_ja": "クラウンリロケーションズ ドバイ",
-    "area": "Nad Al Hammar",
-    "address": "Showroom 9, Ras Al Khor Complex, Nad Al Hammar Road, Dubai",
-    "phone": "+97142305300",
-    "website": "https://www.crownrelo.com/uae/en-ae/office/dubai",
-    "description": "世界60カ国以上に拠点を持つ国際引越し・リロケーション会社のドバイ支社。梱包、輸送、ストレージ、住居探し、ペット輸送まで包括的なリロケーションサービスを提供。",
-    "tags": [
-      "国際引越し",
-      "リロケーション",
-      "グローバル"
-    ],
-    "hours": "月〜金 8:00-17:00",
-    "last_verified": "2026-03-26",
-    "status": "unverified",
-    "source": "website"
-  },
-  {
     "slug": "nippon-express-dubai",
     "name": "Nippon Express (Middle East)",
     "name_ja": "日本通運 中東",
@@ -26,16 +7,37 @@
     "address": "JAFZA Plot No. MO0784, P.O. Box 17341, Dubai",
     "phone": "+97148811456",
     "website": "https://www.nipponexpress.com/location/united-arab-emirates/",
-    "description": "日本通運のドバイ拠点。海外引越し、国際輸送、倉庫サービスなど総合物流を提供。日本語での対応が可能。日本への帰国引越しの実績も豊富。",
+    "description": "日本通運（NXグループ）のドバイ拠点。中東・アフリカ地域のハブとして、海外引越し、国際航空・海上貨物、倉庫サービスを提供。日本語での対応が可能で、日本への帰国引越しの実績も豊富。アブダビ支店あり。",
     "tags": [
+      "日系物流",
       "日本語対応",
-      "国際引越し",
-      "日系"
+      "国際引越し"
     ],
     "hours": "要確認",
-    "last_verified": "2026-03-26",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
+  },
+  {
+    "slug": "crown-relocations-dubai",
+    "name": "Crown Relocations Dubai",
+    "name_ja": "クラウンリロケーションズ ドバイ",
+    "area": "Dubai Investment Park",
+    "address": "Dubai Investment Park 2, Warehouse 597-607, Dubai",
+    "phone": "+97142305300",
+    "website": "https://www.crownrelo.com/uae/en-ae/office/dubai",
+    "description": "世界60カ国以上に拠点を持つ国際引越し・リロケーション会社のドバイ支社。ISO9001/ISO14001認証取得。梱包、輸送、ストレージ、住居探し、ペット輸送まで包括的なリロケーションサービスを提供。",
+    "tags": [
+      "国際引越し",
+      "リロケーション",
+      "ISO認証"
+    ],
+    "hours": "月〜金 8:00-17:00",
+    "last_verified": "2026-03-28",
+    "status": "unverified",
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "gac-international-moving",
@@ -48,31 +50,13 @@
     "description": "ドバイ、アブダビ、カタール、クウェート、バーレーン、オマン、サウジアラビアに拠点を持つ国際引越し会社。梱包・輸送・通関・配送まで一貫対応。日本を含む世界各国への引越しに対応。",
     "tags": [
       "国際引越し",
-      "梱包",
-      "中東拠点"
+      "中東拠点",
+      "通関対応"
     ],
     "hours": "要確認",
-    "last_verified": "2026-03-26",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "yamato-transport-dubai",
-    "name": "Yamato Transport Dubai",
-    "name_ja": "ヤマト運輸 ドバイ",
-    "area": "Dubai",
-    "address": "Dubai",
-    "phone": null,
-    "website": null,
-    "description": "ヤマト運輸の中東拠点。引越し・国際宅急便を提供。日本品質の配送サービス。",
-    "tags": [
-      "引越し",
-      "国際配送",
-      "日系"
-    ],
-    "hours": "平日 9:00〜18:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "source": "website",
+    "ai_reviewed": true
   }
 ]

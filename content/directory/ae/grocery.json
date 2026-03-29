@@ -1,117 +1,83 @@
 [
   {
-    "slug": "deans-fujiya",
+    "slug": "deans-fujiya-oud-metha",
     "name": "Deans Fujiya Supermarket",
-    "name_ja": "ディーンズ フジヤ",
+    "name_ja": "ディーンズ富士屋 ウードメーサ",
     "area": "Oud Metha",
     "address": "Saleh Bin Lahej Building No.339, 6A Street, Oud Metha, Dubai",
     "phone": "+97143370503",
     "website": "https://deansfujiya.com/",
-    "description": "2005年開業のUAE初の日本食材専門スーパー。HACCP認証取得。日本の生鮮食品、調味料、乾物、菓子、酒類、食器まで幅広い品揃え。小売と卸売の両方に対応。",
+    "description": "2005年開業のUAE初の日本食材専門スーパー。HACCP認証取得。日本の生鮮食品、調味料、乾物、菓子、酒類、食器まで幅広い品揃え。小売・卸売の両方に対応。",
     "tags": [
-      "日本食材スーパー",
+      "日本食材専門スーパー",
       "HACCP認証",
       "卸売対応"
     ],
     "hours": "月〜土 10:00-21:00 / 日 11:00-21:00",
-    "last_verified": "2026-03-26",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
-    "slug": "yamanote-atelier-al-ferdous",
-    "name": "Yamanote Atelier",
-    "name_ja": "ヤマノテアトリエ",
-    "area": "Al Safa",
-    "address": "Al Ferdous 2 Mall, 30 2B Street, Al Safa 1, Dubai",
-    "phone": "+97143999559",
-    "website": "https://yamanoteatelier.com/",
-    "description": "UAE発の日本式ベーカリーカフェ。2013年創業。日本から直輸入した素材で毎日手作りするパン、デザート、食事メニューを提供。UAE内に複数店舗を展開。",
+    "slug": "deans-fujiya-jebel-ali",
+    "name": "Deans Fujiya Jebel Ali",
+    "name_ja": "ディーンズ富士屋 ジュベルアリ",
+    "area": "Jebel Ali",
+    "address": "Jebel Ali, Dubai",
+    "phone": null,
+    "website": "https://deansfujiya.com/",
+    "description": "2005年開業のUAE初の日本食材専門スーパー。HACCP認証取得。日本の生鮮食品、調味料、乾物、菓子、酒類、食器まで幅広い品揃え。小売・卸売の両方に対応。ジュベルアリの倉庫兼直売所。",
     "tags": [
-      "ベーカリー",
-      "カフェ",
-      "日本食材使用"
+      "日本食材専門スーパー",
+      "卸売",
+      "直売所"
     ],
-    "hours": "毎日 8:00-22:00",
-    "last_verified": "2026-03-26",
+    "hours": "要確認",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
-    "slug": "gourmet-ya",
+    "slug": "gourmet-ya-dubai",
     "name": "Gourmet-Ya Trading",
     "name_ja": "グルメヤ",
     "area": "Sheikh Zayed Road",
     "address": "Sheikh Zayed Road, Dubai",
     "phone": "+97143218700",
     "website": "https://www.gourmet-ya.ae/",
-    "description": "ドバイの日本食材卸売・小売店。プレミアムな日本のスイーツ、鮮魚、調理済み食材、調味料を取り扱う。オンライン注文・配送にも対応。",
+    "description": "ドバイの日本食材卸売・小売店。プレミアムな日本のスイーツ、鮮魚、調理済み食材、調味料を取り扱う。オンライン注文・UAE全土への配送にも対応。",
     "tags": [
       "日本食材",
-      "プレミアム食材",
-      "オンライン注文"
+      "オンライン注文",
+      "配送対応"
     ],
     "hours": "要確認",
-    "last_verified": "2026-03-26",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
-    "slug": "lulu-hypermarket-japanese",
-    "name": "Lulu Hypermarket",
-    "name_ja": "ルルハイパーマーケット",
-    "area": "Al Barsha",
-    "address": "Al Barsha, Dubai",
-    "phone": null,
-    "website": "https://www.luluhypermarket.com/",
-    "description": "UAE最大のハイパーマーケットチェーン。日本食材コーナーが充実しており、調味料、お菓子、インスタント食品を取り扱い。",
+    "slug": "yamanote-atelier-al-ferdous",
+    "name": "Yamanote Atelier",
+    "name_ja": "ヤマノテアトリエ アルフェルドウス",
+    "area": "Al Safa",
+    "address": "Al Ferdous 2 Mall, 30 2B Street, Al Safa 1, Dubai",
+    "phone": "+97143999559",
+    "website": "https://yamanoteatelier.com/",
+    "description": "UAE発の日本式ベーカリーカフェ。2013年創業。日本から直輸入した素材で毎日手作りするパン、デザート、食事メニューを提供。UAE内に複数店舗を展開。",
     "tags": [
-      "日本食材コーナー",
-      "大型スーパー",
-      "調味料"
+      "日本式ベーカリー",
+      "日本食材使用",
+      "チェーン"
     ],
-    "hours": "要確認",
-    "last_verified": "2026-03-27",
+    "hours": "毎日 8:00-22:00",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "carrefour-japanese",
-    "name": "Carrefour Japan Section",
-    "name_ja": "カルフール 日本食品",
-    "area": "Downtown Dubai",
-    "address": "The Dubai Mall, Downtown Dubai",
-    "phone": null,
-    "website": null,
-    "description": "ドバイモール内のカルフール。日本食品セクションがあり、醤油、味噌、日本酒、お菓子、カップ麺などを取り扱い。",
-    "tags": [
-      "日本食材",
-      "大型スーパー",
-      "ドバイモール内"
-    ],
-    "hours": "要確認",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "deans-fujiya-jebel-ali",
-    "name": "Deans Fujiya Jebel Ali",
-    "name_ja": "ディーンズフジヤ ジュベルアリ",
-    "area": "Jebel Ali",
-    "address": "Jebel Ali, Dubai",
-    "phone": null,
-    "website": "https://deansfujiya.com/",
-    "description": "Deans Fujiyaのジュベルアリ倉庫・直売所。日本食材の卸売に加え、一般消費者向けの直売も実施。",
-    "tags": [
-      "日本食材",
-      "卸売",
-      "直売"
-    ],
-    "hours": "要確認",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ippon-ya-dubai",
@@ -123,86 +89,54 @@
     "website": null,
     "description": "日本食材・調味料・お菓子を専門に扱う小型店舗。味噌・醤油・出汁など基本調味料が揃う。",
     "tags": [
-      "日本食材",
-      "専門店"
+      "日本食材専門店",
+      "調味料"
     ],
     "hours": "10:00〜22:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-28",
+    "ai_reviewed": true
   },
   {
-    "slug": "spinneys-japanese-section",
-    "name": "Spinneys Japanese Section",
-    "name_ja": "スピニーズ 日本食品コーナー",
-    "area": "Various",
-    "address": "Multiple locations in Dubai",
+    "slug": "maison-shibuya-dubai",
+    "name": "Maison Shibuya",
+    "name_ja": "メゾン渋谷",
+    "area": "Dubai",
+    "address": "Dubai, UAE",
     "phone": null,
-    "website": "https://www.spinneys.com/",
-    "description": "ドバイの大手スーパー。日本食品コーナーがあり、寿司用食材・調味料・麺類などを取り扱う。",
+    "website": "https://maisonshibuya.ae/",
+    "description": "ドバイ初の日本食プレミアムコンセプトストア。日本から直輸入した精肉、鮮魚、フルーツ、食材、日用品を取り扱う高級日本食材店。",
     "tags": [
-      "スーパー",
-      "日本食材コーナー"
+      "プレミアム日本食材",
+      "直輸入",
+      "生鮮食品"
     ],
-    "hours": "毎日 8:00〜24:00",
+    "hours": null,
     "status": "unverified",
+    "last_verified": "2026-03-28",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "ai_reviewed": true
   },
   {
-    "slug": "choithrams-japanese",
-    "name": "Choithrams Japanese Section",
-    "name_ja": "チョイスラムズ 日本食品コーナー",
-    "area": "Various",
-    "address": "Multiple locations in Dubai",
+    "slug": "japanese-korean-mart-al-barsha",
+    "name": "Japanese and Korean Mart",
+    "name_ja": "ジャパニーズ＆コリアンマート",
+    "area": "Al Barsha",
+    "address": "Al Barsha, Dubai",
     "phone": null,
     "website": null,
-    "description": "ドバイのスーパーチェーン。日本食品コーナーがあり、味噌・醤油・海苔・カップ麺などが手に入る。",
+    "description": "UAE・サウジアラビアに10店舗以上展開する日本・韓国食材専門スーパー。日本から直輸入した食材・調味料を取り扱い。",
     "tags": [
-      "スーパー",
-      "日本食材コーナー"
+      "日本食材",
+      "韓国食材",
+      "チェーン"
     ],
-    "hours": "毎日 7:00〜24:00",
+    "hours": null,
     "status": "unverified",
+    "last_verified": "2026-03-28",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "waitrose-japanese-section",
-    "name": "Waitrose Japanese Section",
-    "name_ja": "ウェイトローズ 日本食品コーナー",
-    "area": "Various",
-    "address": "Multiple locations in Dubai",
-    "phone": null,
-    "website": null,
-    "description": "英国系高級スーパーの日本食品コーナー。寿司ネタ・味噌・醤油・抹茶など高品質な日本食材を取り扱う。",
-    "tags": [
-      "高級スーパー",
-      "日本食材コーナー"
-    ],
-    "hours": "毎日 8:00〜24:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "qko-asian-market-abu-dhabi",
-    "name": "QKO Asian Market Abu Dhabi",
-    "name_ja": "QKOアジアンマーケット アブダビ",
-    "area": "Al Hisn",
-    "address": "214 Hamdan Bin Mohammed St, Al Hisn, Abu Dhabi",
-    "phone": "+971509773858",
-    "website": "https://www.qkoasianmarket.com/",
-    "description": "ハラール対応のアジアンスナック専門店。日本・韓国・タイのお菓子、ラーメン、抹茶、餅などを取り扱い。アブダビ市内に複数店舗展開。",
-    "tags": [
-      "日本食品",
-      "スナック",
-      "ハラール対応"
-    ],
-    "hours": "毎日 10:00-22:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website"
+    "ai_reviewed": true
   },
   {
     "slug": "summit-trading-abu-dhabi",
@@ -219,9 +153,10 @@
       "配送対応"
     ],
     "hours": "要確認",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "1004-gourmet-abu-dhabi",
@@ -238,9 +173,10 @@
       "大型店舗"
     ],
     "hours": "毎日 8:00-22:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "kami-foodstuff-dubai",
@@ -252,127 +188,34 @@
     "website": "https://kamifoods.com/",
     "description": "日本食材の卸売業者。レストラン・ホテル向けに日本の調味料、乾物、冷凍食品を供給。一般消費者向けのオンライン注文も対応。",
     "tags": [
-      "日本食材",
-      "卸売",
-      "オンライン"
+      "日本食材卸売",
+      "オンライン",
+      "業務用"
     ],
     "hours": "平日 9:00-18:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "gourmet-ya-abu-dhabi",
-    "name": "Gourmet-Ya Abu Dhabi",
-    "name_ja": "グルメヤ アブダビ",
-    "area": "Abu Dhabi",
-    "address": "Abu Dhabi, UAE",
-    "phone": null,
-    "website": "https://www.gourmet-ya.ae/",
-    "description": "日本食材卸売・小売店のアブダビ配送エリア。プレミアムな日本の鮮魚、スイーツ、調味料をオンライン注文で配送。",
-    "tags": [
-      "日本食材",
-      "プレミアム食材",
-      "配送対応"
-    ],
-    "hours": "要確認",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "deans-fujiya-supermarket",
-    "name": "Deans Fujiya Supermarket",
-    "name_ja": "ディーンズ富士屋",
-    "area": "Dubai",
-    "address": "Dubai, UAE",
-    "phone": null,
-    "website": "https://deansfujiya.com/",
-    "description": "2005年創業、UAE初の日本食専門スーパーマーケット。日本から直輸入した食材、調味料、冷凍食品、菓子類を豊富に取り扱い。",
-    "tags": [
-      "スーパー",
-      "日本食材",
-      "輸入食品"
-    ],
-    "hours": null,
-    "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
-  },
-  {
-    "slug": "japanese-korean-mart-al-barsha",
-    "name": "Japanese and Korean Mart",
-    "name_ja": null,
-    "area": "Al Barsha",
-    "address": "Al Barsha, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "UAE・サウジアラビアに10店舗以上展開する日本・韓国食材専門スーパー。日本から直輸入した食材・調味料を取り扱い。",
-    "tags": [
-      "スーパー",
-      "日本食材",
-      "韓国食材"
-    ],
-    "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-28",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
-    "slug": "summit-japanese-grocery",
-    "name": "Summit Trading Company",
-    "name_ja": null,
-    "area": "Abu Dhabi",
-    "address": "Abu Dhabi, UAE",
-    "phone": null,
-    "website": "https://summitwebstore.com/",
-    "description": "オンライン＆実店舗で日本食材を販売。日本の菓子、調味料、冷凍食品、生鮮食品をUAE全土に配送。",
-    "tags": [
-      "オンラインショップ",
-      "日本食材",
-      "配送"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-28",
-    "source": "website"
-  },
-  {
-    "slug": "qko-asian-market-uae",
-    "name": "QKO Asian Market",
-    "name_ja": null,
-    "area": "UAE",
-    "address": "UAE",
-    "phone": null,
+    "slug": "qko-asian-market-abu-dhabi",
+    "name": "QKO Asian Market Abu Dhabi",
+    "name_ja": "QKOアジアンマーケット アブダビ",
+    "area": "Al Hisn",
+    "address": "214 Hamdan Bin Mohammed St, Al Hisn, Abu Dhabi",
+    "phone": "+971509773858",
     "website": "https://www.qkoasianmarket.com/",
-    "description": "ハラール対応の日本・韓国・タイの菓子、ラーメン、抹茶、もちなどを取り扱うアジアンスナック専門店。オンライン販売。",
+    "description": "ハラール対応のアジアンスナック専門店。日本・韓国・タイのお菓子、ラーメン、抹茶、餅などを取り扱い。アブダビ市内に複数店舗展開。オンライン販売にも対応。",
     "tags": [
-      "オンラインショップ",
-      "ハラール",
-      "アジアン食材"
+      "日本食品",
+      "ハラール対応",
+      "オンライン販売"
     ],
-    "hours": null,
-    "status": "unverified",
+    "hours": "毎日 10:00-22:00",
     "last_verified": "2026-03-28",
-    "source": "website"
-  },
-  {
-    "slug": "maison-shibuya-dubai",
-    "name": "Maison Shibuya",
-    "name_ja": "メゾン渋谷",
-    "area": "Dubai",
-    "address": "Dubai, UAE",
-    "phone": null,
-    "website": "https://maisonshibuya.ae/",
-    "description": "ドバイ初の日本食プレミアムコンセプトストア。日本から直輸入した精肉、鮮魚、フルーツ、食材、日用品を取り扱う。",
-    "tags": [
-      "プレミアム",
-      "輸入食品",
-      "日本食材"
-    ],
-    "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   }
 ]
