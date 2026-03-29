@@ -16,7 +16,8 @@
     "hours": "ランチ: 水〜日 12:00-15:00 / ディナー: 水木日 17:30-21:30, 金土 17:30-23:00",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "cho-cho-san",
@@ -35,7 +36,8 @@
     "hours": "月〜木 17:30-23:00 / 金〜日 12:00-23:00",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ryos-noodles",
@@ -54,7 +56,8 @@
     "hours": "週6日営業（定休日は要確認）",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "minamishima",
@@ -73,7 +76,8 @@
     "hours": "火〜土 18:00-22:00（日月休）",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ishizuka",
@@ -92,7 +96,8 @@
     "hours": "要確認（予約制）",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "izakaya-miyazaki",
@@ -111,7 +116,8 @@
     "hours": "月〜金 11:30-22:00 / 土 12:00-22:30 / 日 12:00-21:00",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "izakaya-domo",
@@ -130,64 +136,8 @@
     "hours": "ランチ: 月〜金 11:30-15:00, 土日 11:30-17:00 / ディナー: 毎日 17:00-22:00",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "azuki-bakery",
-    "name": "Azuki Bakery",
-    "name_ja": "あずきベーカリー",
-    "area": "Newtown",
-    "address": "3/63-71 Enmore Road, Newtown NSW 2042",
-    "phone": "+61285429317",
-    "website": "https://azukibakery.com.au/",
-    "description": "日本とオーストラリアの要素を融合させたベーカリーカフェ。日本風のケーキ、ペストリー、パンに加えコーヒーも提供。Wolli Creekにも2号店あり。",
-    "tags": [
-      "ベーカリー",
-      "カフェ",
-      "カジュアル"
-    ],
-    "hours": "水〜日 9:00-17:00（月火休）",
-    "last_verified": "2026-03-26",
-    "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "r-by-raita-noda",
-    "name": "R by Raita Noda",
-    "name_ja": "R バイ ライタ ノダ",
-    "area": "Redfern",
-    "address": "Cleveland Street, Redfern NSW 2016",
-    "phone": null,
-    "website": null,
-    "description": "野田雷太シェフの最新プロジェクト。2025年オープン。日本料理の技法をオーストラリアの食材で表現する革新的なコース料理を提供。",
-    "tags": [
-      "日本人シェフ",
-      "コース",
-      "予約推奨"
-    ],
-    "hours": "要確認（予約制）",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "aori-sydney",
-    "name": "Aori",
-    "name_ja": "アオリ",
-    "area": "Sydney CBD",
-    "address": "King Street Wharf, Sydney NSW 2000",
-    "phone": null,
-    "website": null,
-    "description": "2026年オープンのウォーターフロント日本料理レストラン。240席の大型店舗で寿司、刺身、炉端焼きを提供。",
-    "tags": [
-      "寿司",
-      "炉端焼き",
-      "ウォーターフロント"
-    ],
-    "hours": "要確認",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "prefecture-48-sydney",
@@ -206,7 +156,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "okami-melbourne",
@@ -225,7 +176,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "komeyui-melbourne",
@@ -244,7 +196,8 @@
     "hours": "要確認（予約制）",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "kisume-melbourne",
@@ -263,7 +216,8 @@
     "hours": "火〜土 12:00-15:00, 17:30-22:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "kenzan-melbourne",
@@ -282,7 +236,8 @@
     "hours": "火〜金 12:00-14:30, 18:00-22:00 / 土 18:00-22:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "toko-sydney",
@@ -301,44 +256,8 @@
     "hours": "月〜木 17:30-22:00 / 金 12:00-15:00, 17:30-23:00 / 土 17:30-23:00 / 日 17:30-22:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "sokyo-sydney",
-    "name": "Sokyo",
-    "name_ja": "ソキョウ",
-    "area": "Pyrmont",
-    "address": "The Darling at The Star, 80 Pyrmont Street, Pyrmont NSW 2009",
-    "phone": "+61291771799",
-    "website": null,
-    "description": "The Star内の高級日本料理レストラン。寿司、天ぷら、炉端焼きを中心としたコンテンポラリー日本料理を提供。",
-    "tags": [
-      "高級",
-      "寿司",
-      "ホテル内"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "umu-sydney",
-    "name": "UMU",
-    "name_ja": "ウム",
-    "area": "Sydney CBD",
-    "address": "Level 3, 388 George Street, Sydney NSW 2000",
-    "phone": null,
-    "website": null,
-    "description": "シドニーCBDの日本料理レストラン。おまかせコースを中心に、旬の食材を使った本格的な日本料理を提供。",
-    "tags": [
-      "おまかせ",
-      "高級"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "harajuku-gyoza-sydney",
@@ -357,7 +276,8 @@
     "hours": "毎日 11:30-22:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "ippudo-sydney",
@@ -376,7 +296,8 @@
     "hours": "毎日 11:00-22:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "ajisen-ramen-sydney",
@@ -395,7 +316,8 @@
     "hours": "毎日 11:00-22:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "ichibanboshi-sydney",
@@ -414,7 +336,8 @@
     "hours": "毎日 11:30-21:30",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "ippudo-chatswood",
@@ -432,7 +355,8 @@
     "hours": "毎日 11:30〜22:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "ippudo-melbourne-cbd",
@@ -451,64 +375,8 @@
     "hours": "毎日 11:30〜22:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "ramen-auru-chatswood",
-    "name": "Ramen Auru",
-    "name_ja": "ラーメン亜瑠",
-    "area": "Chatswood",
-    "address": "Chatswood, NSW",
-    "phone": null,
-    "website": null,
-    "description": "東京スタイルのラーメン店。オーストラリア唯一のラーメン券売機を設置。畳席もある本格的な雰囲気。",
-    "tags": [
-      "ラーメン",
-      "券売機あり",
-      "東京スタイル"
-    ],
-    "hours": "毎日 11:30〜21:00",
-    "status": "unverified",
-    "source": "website",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "yakitori-yurippi-chatswood",
-    "name": "Yakitori Yurippi",
-    "name_ja": "やきとりゆりっぴ",
-    "area": "Chatswood",
-    "address": "Chatswood, NSW",
-    "phone": null,
-    "website": null,
-    "description": "チャッツウッドの本格焼き鳥店。備長炭で焼く串焼きと日本酒のペアリングが楽しめる。",
-    "tags": [
-      "焼き鳥",
-      "備長炭",
-      "日本酒"
-    ],
-    "hours": "17:30〜22:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "manpuku-ramen-chatswood",
-    "name": "Manpuku Ramen Chatswood",
-    "name_ja": "まんぷくラーメン チャッツウッド",
-    "area": "Chatswood",
-    "address": "Chatswood, NSW",
-    "phone": null,
-    "website": null,
-    "description": "チャッツウッドの人気ラーメン店。濃厚豚骨ラーメンと鶏白湯ラーメンが看板メニュー。",
-    "tags": [
-      "ラーメン",
-      "豚骨",
-      "人気店"
-    ],
-    "hours": "毎日 11:30〜21:30",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "sake-restaurant-rocks",
@@ -528,83 +396,8 @@
     "hours": "12:00〜14:30 / 18:00〜22:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "joji-sydney",
-    "name": "Jōji Sydney",
-    "name_ja": "ジョウジ シドニー",
-    "area": "Sydney CBD",
-    "address": "George Street, Sydney CBD, NSW",
-    "phone": null,
-    "website": null,
-    "description": "カルティエ旗艦店の上にある屋上バー&レストラン。刺身・ロバタグリルなど日本料理をモダンな空間で。",
-    "tags": [
-      "日本料理",
-      "ルーフトップ",
-      "モダン"
-    ],
-    "hours": "17:00〜24:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "chaco-bar-potts-point",
-    "name": "Chaco Bar Potts Point",
-    "name_ja": "チャコバー ポッツポイント",
-    "area": "Potts Point",
-    "address": "Potts Point, Sydney, NSW",
-    "phone": null,
-    "website": null,
-    "description": "焼き鳥専門の人気バー。シドニーで最も手頃な日本料理の一つで、串焼き1本$6から。活気のある雰囲気。",
-    "tags": [
-      "焼き鳥",
-      "バー",
-      "低価格"
-    ],
-    "hours": "18:00〜23:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "yakikami-south-yarra",
-    "name": "Yakikami South Yarra",
-    "name_ja": "焼神 サウスヤラ",
-    "area": "South Yarra",
-    "address": "South Yarra, Melbourne, VIC",
-    "phone": null,
-    "website": null,
-    "description": "サウスヤラで最も受賞歴のある日本料理店。A級神戸牛・新鮮な魚介・鶏の串焼きを提供。",
-    "tags": [
-      "焼肉",
-      "神戸牛",
-      "受賞歴"
-    ],
-    "hours": "12:00〜14:30 / 17:30〜22:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "sushi-hotaru-melbourne",
-    "name": "Sushi Hotaru",
-    "name_ja": "寿司ほたる",
-    "area": "Melbourne CBD",
-    "address": "Midcity Arcade, Melbourne CBD, VIC",
-    "phone": null,
-    "website": null,
-    "description": "メルボルンCBDの回転寿司店。Midcityアーケード内の隠れ家的存在。手頃な価格で本格寿司が楽しめる。",
-    "tags": [
-      "回転寿司",
-      "カジュアル",
-      "低価格"
-    ],
-    "hours": "毎日 11:00〜21:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "eazy-peazy-richmond",
@@ -623,442 +416,8 @@
     "hours": "12:00〜14:30 / 17:30〜22:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "supernormal-melbourne",
-    "name": "Supernormal Melbourne",
-    "name_ja": "スーパーノーマル メルボルン",
-    "area": "Melbourne CBD",
-    "address": "Flinders Lane, Melbourne CBD, VIC",
-    "phone": null,
-    "website": null,
-    "description": "アンドリュー・マコーネルシェフによる和食フュージョン。ニューヨークスタイルロブスターロールが名物。モダンな空間。",
-    "tags": [
-      "フュージョン",
-      "モダン",
-      "人気店"
-    ],
-    "hours": "12:00〜15:00 / 17:30〜22:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "shujinko-melbourne-cbd",
-    "name": "Shujinko Melbourne CBD",
-    "name_ja": "主人公 メルボルンCBD",
-    "area": "Melbourne CBD",
-    "address": "Melbourne CBD, VIC",
-    "phone": null,
-    "website": null,
-    "description": "24時間営業のラーメン店。深夜でも本格豚骨ラーメンが食べられる。メルボルンの夜の定番。",
-    "tags": [
-      "ラーメン",
-      "24時間営業",
-      "豚骨"
-    ],
-    "hours": "24時間営業",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "marugame-udon-sydney",
-    "name": "Marugame Udon Sydney",
-    "name_ja": "丸亀製麺 シドニー",
-    "area": "Sydney CBD",
-    "address": "Sydney CBD, NSW",
-    "phone": null,
-    "website": null,
-    "description": "讃岐うどんチェーンのシドニー店。自家製麺と天ぷらのセルフ式が特徴。リーズナブルに日本の味を楽しめる。",
-    "tags": [
-      "うどん",
-      "日本発チェーン",
-      "セルフ式"
-    ],
-    "hours": "毎日 11:00〜21:30",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "genki-sushi-chatswood",
-    "name": "Genki Sushi Chatswood",
-    "name_ja": "元気寿司 チャッツウッド",
-    "area": "Chatswood",
-    "address": "Chatswood, NSW",
-    "phone": null,
-    "website": null,
-    "description": "日本の回転寿司チェーン。新幹線レーンで寿司が届くシステムが人気。チャッツウッドの家族連れに定番。",
-    "tags": [
-      "回転寿司",
-      "日本発チェーン",
-      "ファミリー向け"
-    ],
-    "hours": "毎日 11:30〜21:30",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "sushi-e-sydney",
-    "name": "Sushi-e Sydney",
-    "name_ja": "鮨衛 シドニー",
-    "area": "Sydney CBD",
-    "address": "Sydney CBD, NSW",
-    "phone": null,
-    "website": null,
-    "description": "シドニーCBDの高級寿司店。おまかせコースで日本直送のネタを使った江戸前寿司を提供。",
-    "tags": [
-      "寿司",
-      "おまかせ",
-      "高級"
-    ],
-    "hours": "12:00〜14:30 / 18:00〜22:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "hurricane-ramen-sydney",
-    "name": "Hurricane's Ramen",
-    "name_ja": "ハリケーンラーメン",
-    "area": "Haymarket",
-    "address": "Haymarket, Sydney, NSW",
-    "phone": null,
-    "website": null,
-    "description": "シドニー・ヘイマーケットの人気ラーメン店。濃厚な豚骨スープとたっぷりチャーシューが特徴。",
-    "tags": [
-      "ラーメン",
-      "豚骨",
-      "人気店"
-    ],
-    "hours": "毎日 11:30〜21:30",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "yayoi-sydney",
-    "name": "Yayoi Sydney",
-    "name_ja": "やよい軒 シドニー",
-    "area": "Sydney CBD",
-    "address": "Sydney CBD, NSW",
-    "phone": null,
-    "website": null,
-    "description": "日本の定食チェーン。焼き魚・生姜焼き・唐揚げなどの和定食をリーズナブルに提供。ご飯おかわり自由。",
-    "tags": [
-      "定食",
-      "日本発チェーン",
-      "家庭料理"
-    ],
-    "hours": "毎日 11:00〜21:30",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "taro-ramen-melbourne",
-    "name": "Taro's Ramen Melbourne",
-    "name_ja": "太郎ラーメン メルボルン",
-    "area": "Melbourne CBD",
-    "address": "Melbourne CBD, VIC",
-    "phone": null,
-    "website": null,
-    "description": "メルボルンCBDの人気ラーメン店。鶏白湯と豚骨のダブルスープが特徴。行列ができることも多い。",
-    "tags": [
-      "ラーメン",
-      "鶏白湯",
-      "行列店"
-    ],
-    "hours": "毎日 11:30〜21:30",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "donburi-station-sydney",
-    "name": "Donburi Station",
-    "name_ja": "丼ぶりステーション",
-    "area": "Neutral Bay",
-    "address": "Neutral Bay, Sydney, NSW",
-    "phone": null,
-    "website": null,
-    "description": "日本式丼物専門店。牛丼・親子丼・カツ丼などリーズナブルに提供。ランチに人気。",
-    "tags": [
-      "丼物",
-      "カジュアル",
-      "ランチ"
-    ],
-    "hours": "毎日 11:00〜21:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "toko-surry-hills",
-    "name": "Toko Sydney",
-    "name_ja": "トコ シドニー",
-    "area": "Surry Hills",
-    "address": "Surry Hills, Sydney, NSW",
-    "phone": null,
-    "website": null,
-    "description": "サリーヒルズの人気日本料理レストラン。寿司・刺身・ロバタなどを提供。バーも併設。",
-    "tags": [
-      "日本料理",
-      "バー併設",
-      "人気店"
-    ],
-    "hours": "12:00〜22:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "yayoi-melbourne",
-    "name": "Yayoi Melbourne",
-    "name_ja": "やよい軒 メルボルン",
-    "area": "Melbourne CBD",
-    "address": "Melbourne CBD, VIC",
-    "phone": null,
-    "website": null,
-    "description": "日本の定食チェーン。焼き魚・生姜焼きなどの和定食をリーズナブルに提供。",
-    "tags": [
-      "定食",
-      "日本発チェーン"
-    ],
-    "hours": "毎日 11:00〜21:30",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "hakata-gensuke-melbourne",
-    "name": "Hakata Gensuke Melbourne",
-    "name_ja": "博多元助 メルボルン",
-    "area": "Melbourne CBD",
-    "address": "Melbourne CBD, VIC",
-    "phone": null,
-    "website": null,
-    "description": "メルボルンNo.1と称される豚骨ラーメン店。8種類のとんこつラーメンを提供。",
-    "tags": [
-      "ラーメン",
-      "博多豚骨",
-      "人気No.1"
-    ],
-    "hours": "毎日 11:30〜22:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "hakata-gensuke-sydney",
-    "name": "Hakata Gensuke Sydney",
-    "name_ja": "博多元助 シドニー",
-    "area": "Sydney CBD",
-    "address": "Sydney CBD, NSW",
-    "phone": null,
-    "website": null,
-    "description": "メルボルン発の人気豚骨ラーメン店のシドニー進出。濃厚な博多豚骨スープが好評。",
-    "tags": [
-      "ラーメン",
-      "博多豚骨"
-    ],
-    "hours": "毎日 11:30〜22:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "sushi-train-sydney",
-    "name": "Sushi Train Sydney",
-    "name_ja": "スシトレイン シドニー",
-    "area": "Sydney CBD",
-    "address": "Sydney CBD, NSW",
-    "phone": null,
-    "website": null,
-    "description": "シドニーCBDの回転寿司チェーン。手頃な価格でカジュアルに寿司が楽しめる。ランチに人気。",
-    "tags": [
-      "回転寿司",
-      "カジュアル",
-      "チェーン"
-    ],
-    "hours": "毎日 11:00〜21:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "sushi-train-melbourne",
-    "name": "Sushi Train Melbourne",
-    "name_ja": "スシトレイン メルボルン",
-    "area": "Melbourne CBD",
-    "address": "Melbourne CBD, VIC",
-    "phone": null,
-    "website": null,
-    "description": "メルボルンCBDの回転寿司。手頃な価格とアクセスの良さで人気。",
-    "tags": [
-      "回転寿司",
-      "カジュアル",
-      "チェーン"
-    ],
-    "hours": "毎日 11:00〜21:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "pepper-lunch-sydney",
-    "name": "Pepper Lunch Sydney",
-    "name_ja": "ペッパーランチ シドニー",
-    "area": "Sydney CBD",
-    "address": "Sydney CBD, NSW",
-    "phone": null,
-    "website": null,
-    "description": "日本発の鉄板ステーキチェーン。熱々の鉄板で肉を焼くスタイルが人気。",
-    "tags": [
-      "ステーキ",
-      "鉄板焼",
-      "日本発チェーン"
-    ],
-    "hours": "毎日 11:00〜22:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "pepper-lunch-melbourne",
-    "name": "Pepper Lunch Melbourne",
-    "name_ja": "ペッパーランチ メルボルン",
-    "area": "Melbourne CBD",
-    "address": "Melbourne CBD, VIC",
-    "phone": null,
-    "website": null,
-    "description": "ペッパーランチのメルボルン店。ビーフペッパーライスが看板メニュー。",
-    "tags": [
-      "ステーキ",
-      "鉄板焼",
-      "日本発チェーン"
-    ],
-    "hours": "毎日 11:00〜22:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "gyu-kaku-sydney",
-    "name": "Gyu-Kaku Sydney",
-    "name_ja": "牛角 シドニー",
-    "area": "Sydney CBD",
-    "address": "Sydney CBD, NSW",
-    "phone": null,
-    "website": null,
-    "description": "日本の焼肉チェーン。食べ放題コースが人気。カジュアルに焼肉を楽しめる。",
-    "tags": [
-      "焼肉",
-      "食べ放題",
-      "日本発チェーン"
-    ],
-    "hours": "11:30〜23:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "ramen-zundo-sydney",
-    "name": "Ramen Zundo Sydney",
-    "name_ja": "ラーメンずんど シドニー",
-    "area": "Sydney CBD",
-    "address": "Sydney CBD, NSW",
-    "phone": null,
-    "website": null,
-    "description": "シドニーCBDの人気ラーメン店。豚骨ラーメン・つけ麺を提供。スープの濃さを選べる。",
-    "tags": [
-      "ラーメン",
-      "豚骨",
-      "つけ麺"
-    ],
-    "hours": "毎日 11:30〜21:30",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "mappen-udon-melbourne",
-    "name": "Mappen Udon Melbourne",
-    "name_ja": "まっぺん うどん メルボルン",
-    "area": "Melbourne CBD",
-    "address": "Melbourne CBD, VIC",
-    "phone": null,
-    "website": null,
-    "description": "メルボルンの人気うどん店。セルフ式で天ぷらをトッピング。讃岐スタイルのコシのある麺が特徴。",
-    "tags": [
-      "うどん",
-      "セルフ式",
-      "讃岐"
-    ],
-    "hours": "毎日 11:00〜21:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "mappen-udon-sydney",
-    "name": "Mappen Udon Sydney",
-    "name_ja": "まっぺん うどん シドニー",
-    "area": "Sydney CBD",
-    "address": "Sydney CBD, NSW",
-    "phone": null,
-    "website": null,
-    "description": "まっぺんうどんのシドニー店。セルフ式讃岐うどんがリーズナブルに楽しめる。",
-    "tags": [
-      "うどん",
-      "セルフ式",
-      "讃岐"
-    ],
-    "hours": "毎日 11:00〜21:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "okami-south-yarra",
-    "name": "Okami South Yarra",
-    "name_ja": "おかみ サウスヤラ",
-    "area": "South Yarra",
-    "address": "South Yarra, Melbourne, VIC",
-    "phone": null,
-    "website": null,
-    "description": "食べ放題の日本料理レストラン。寿司・刺身・天ぷら・焼き物など幅広いメニューをビュッフェスタイルで提供。",
-    "tags": [
-      "食べ放題",
-      "日本料理",
-      "ビュッフェ"
-    ],
-    "hours": "12:00〜14:30 / 17:30〜22:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "sushi-rio-sydney",
-    "name": "Sushi Rio Sydney",
-    "name_ja": "スシリオ シドニー",
-    "area": "Chatswood",
-    "address": "Chatswood, NSW",
-    "phone": null,
-    "website": null,
-    "description": "チャッツウッドの回転寿司レストラン。新鮮な寿司をリーズナブルに提供。家族連れに人気。",
-    "tags": [
-      "回転寿司",
-      "カジュアル",
-      "ファミリー向け"
-    ],
-    "hours": "毎日 11:00〜21:30",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "sake-double-bay",
@@ -1077,195 +436,8 @@
     "hours": "12:00〜22:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "masuya-sydney",
-    "name": "Masuya Sydney",
-    "name_ja": "ますや シドニー",
-    "area": "Sydney CBD",
-    "address": "Sydney CBD, NSW",
-    "phone": null,
-    "website": null,
-    "description": "シドニーCBDの老舗日本料理レストラン。30年以上の歴史を持ち、寿司・刺身・天ぷらを提供。",
-    "tags": [
-      "日本料理",
-      "老舗",
-      "寿司"
-    ],
-    "hours": "12:00〜14:30 / 18:00〜22:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "gyu-kaku-melbourne",
-    "name": "Gyu-Kaku Melbourne",
-    "name_ja": "牛角 メルボルン",
-    "area": "Melbourne CBD",
-    "address": "Melbourne CBD, VIC",
-    "phone": null,
-    "website": null,
-    "description": "日本の焼肉チェーンのメルボルン店。食べ放題コースが人気。",
-    "tags": [
-      "焼肉",
-      "食べ放題",
-      "日本発チェーン"
-    ],
-    "hours": "11:30〜23:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "sushi-kaido-sydney",
-    "name": "Sushi Kaido Sydney",
-    "name_ja": "寿司街道 シドニー",
-    "area": "Sydney CBD",
-    "address": "Sydney CBD, NSW",
-    "phone": null,
-    "website": null,
-    "description": "シドニーCBDの寿司レストラン。新鮮なネタの寿司・刺身盛り合わせが人気。ランチセットがお得。",
-    "tags": [
-      "寿司",
-      "刺身",
-      "ランチ"
-    ],
-    "hours": "11:30〜21:30",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "don-don-japanese-melbourne",
-    "name": "Don Don Japanese",
-    "name_ja": "どんどん メルボルン",
-    "area": "Melbourne CBD",
-    "address": "Melbourne CBD, VIC",
-    "phone": null,
-    "website": null,
-    "description": "メルボルンCBDの大衆食堂。カツカレー・唐揚げ丼など日本の丼物をリーズナブルに提供。学生にも人気。",
-    "tags": [
-      "丼物",
-      "カジュアル",
-      "低価格"
-    ],
-    "hours": "毎日 11:00〜21:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "misono-sydney",
-    "name": "Misono Sydney",
-    "name_ja": "みその シドニー",
-    "area": "Sydney CBD",
-    "address": "Sydney CBD, NSW",
-    "phone": null,
-    "website": null,
-    "description": "シドニーCBDの老舗日本料理レストラン。鉄板焼き・寿司・天ぷらを提供。接待にも利用される。",
-    "tags": [
-      "日本料理",
-      "鉄板焼",
-      "老舗"
-    ],
-    "hours": "12:00〜14:30 / 18:00〜22:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "kura-sushi-sydney",
-    "name": "Kura Sushi Sydney",
-    "name_ja": "くら寿司 シドニー",
-    "area": "Sydney CBD",
-    "address": "Sydney CBD, NSW",
-    "phone": null,
-    "website": null,
-    "description": "日本の回転寿司チェーン。ガチャポン付きシステムが子連れに人気。",
-    "tags": [
-      "回転寿司",
-      "日本発チェーン",
-      "ファミリー向け"
-    ],
-    "hours": "毎日 11:00〜22:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "teppanyaki-chatswood",
-    "name": "Teppanyaki Chatswood",
-    "name_ja": "鉄板焼 チャッツウッド",
-    "area": "Chatswood",
-    "address": "Chatswood, NSW",
-    "phone": null,
-    "website": null,
-    "description": "チャッツウッドの鉄板焼きレストラン。目の前で焼き上げるパフォーマンスが楽しめる。",
-    "tags": [
-      "鉄板焼",
-      "パフォーマンス"
-    ],
-    "hours": "12:00〜14:30 / 17:30〜22:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "raijin-ramen-melbourne",
-    "name": "Raijin Ramen Melbourne",
-    "name_ja": "雷神ラーメン メルボルン",
-    "area": "Melbourne CBD",
-    "address": "Melbourne CBD, VIC",
-    "phone": null,
-    "website": null,
-    "description": "メルボルンCBDのラーメン店。味噌ラーメンと醤油ラーメンが看板。スープの濃さを選べる。",
-    "tags": [
-      "ラーメン",
-      "味噌",
-      "醤油"
-    ],
-    "hours": "毎日 11:30〜21:30",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "coco-ichibanya-sydney",
-    "name": "CoCo Ichibanya Sydney",
-    "name_ja": "CoCo壹番屋 シドニー",
-    "area": "Sydney CBD",
-    "address": "Sydney CBD, NSW",
-    "phone": null,
-    "website": null,
-    "description": "日本のカレーハウスのシドニー店。カスタマイズ可能な日本式カレーを提供。",
-    "tags": [
-      "カレー",
-      "日本発チェーン",
-      "カスタマイズ可"
-    ],
-    "hours": "毎日 11:00〜21:30",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "mos-burger-sydney",
-    "name": "MOS Burger Sydney",
-    "name_ja": "モスバーガー シドニー",
-    "area": "Chatswood",
-    "address": "Chatswood, NSW",
-    "phone": null,
-    "website": null,
-    "description": "日本発のハンバーガーチェーン。テリヤキバーガーやライスバーガーが人気。",
-    "tags": [
-      "ハンバーガー",
-      "日本発チェーン"
-    ],
-    "hours": "毎日 10:00〜21:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "ippudo-brisbane",
@@ -1283,45 +455,8 @@
     "hours": "毎日 11:30〜22:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "sushi-hub-sydney",
-    "name": "Sushi Hub Sydney",
-    "name_ja": "スシハブ シドニー",
-    "area": "Sydney CBD",
-    "address": "Sydney CBD, NSW",
-    "phone": null,
-    "website": null,
-    "description": "シドニーで最も店舗数の多い寿司チェーン。テイクアウト中心でランチに便利。手巻き寿司が人気。",
-    "tags": [
-      "寿司",
-      "テイクアウト",
-      "チェーン"
-    ],
-    "hours": "毎日 10:00〜20:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "sushi-hub-melbourne",
-    "name": "Sushi Hub Melbourne",
-    "name_ja": "スシハブ メルボルン",
-    "area": "Melbourne CBD",
-    "address": "Melbourne CBD, VIC",
-    "phone": null,
-    "website": null,
-    "description": "スシハブのメルボルン店。テイクアウト中心でオフィスランチに定番。",
-    "tags": [
-      "寿司",
-      "テイクアウト",
-      "チェーン"
-    ],
-    "hours": "毎日 10:00〜20:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "sake-restaurant-melbourne",
@@ -1340,99 +475,8 @@
     "hours": "12:00〜22:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "masu-melbourne",
-    "name": "Masu Melbourne",
-    "name_ja": "ます メルボルン",
-    "area": "Melbourne CBD",
-    "address": "Melbourne CBD, VIC",
-    "phone": null,
-    "website": null,
-    "description": "メルボルンCBDの日本料理レストラン。ロバタグリルとおまかせ寿司が評判。",
-    "tags": [
-      "日本料理",
-      "ロバタ",
-      "おまかせ"
-    ],
-    "hours": "12:00〜22:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "salaryman-sydney",
-    "name": "Salaryman Sydney",
-    "name_ja": "サラリーマン シドニー",
-    "area": "Neutral Bay",
-    "address": "Neutral Bay, Sydney, NSW",
-    "phone": null,
-    "website": null,
-    "description": "ニュートラルベイの日本料理レストラン。カジュアルな雰囲気で寿司・焼き鳥・ラーメンを提供。",
-    "tags": [
-      "日本料理",
-      "カジュアル",
-      "多ジャンル"
-    ],
-    "hours": "12:00〜22:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "yayoi-brisbane",
-    "name": "Yayoi Brisbane",
-    "name_ja": "やよい軒 ブリスベン",
-    "area": "Brisbane CBD",
-    "address": "Brisbane CBD, QLD",
-    "phone": null,
-    "website": null,
-    "description": "やよい軒のブリスベン店。和定食をリーズナブルに提供。",
-    "tags": [
-      "定食",
-      "日本発チェーン"
-    ],
-    "hours": "毎日 11:00〜21:30",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "coco-ichibanya-melbourne",
-    "name": "CoCo Ichibanya Melbourne",
-    "name_ja": "CoCo壹番屋 メルボルン",
-    "area": "Melbourne CBD",
-    "address": "Melbourne CBD, VIC",
-    "phone": null,
-    "website": null,
-    "description": "日本カレーチェーンのメルボルン店。カスタマイズ可能なカツカレーが人気。",
-    "tags": [
-      "カレー",
-      "日本発チェーン"
-    ],
-    "hours": "毎日 11:00〜21:30",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "marugame-udon-melbourne",
-    "name": "Marugame Udon Melbourne",
-    "name_ja": "丸亀製麺 メルボルン",
-    "area": "Melbourne CBD",
-    "address": "Melbourne CBD, VIC",
-    "phone": null,
-    "website": null,
-    "description": "讃岐うどんチェーンのメルボルン店。自家製麺のうどんと天ぷらが楽しめる。",
-    "tags": [
-      "うどん",
-      "日本発チェーン"
-    ],
-    "hours": "毎日 11:00〜21:30",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "ippudo-chippendale",
@@ -1451,7 +495,8 @@
     "hours": "毎日 11:30〜22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ippudo-macquarie",
@@ -1470,7 +515,8 @@
     "hours": "毎日 11:00〜21:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ippudo-doncaster",
@@ -1489,7 +535,8 @@
     "hours": "毎日 11:00〜21:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ippudo-qv-melbourne",
@@ -1508,7 +555,8 @@
     "hours": "毎日 11:00〜22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "hanasuki-chatswood",
@@ -1526,195 +574,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "choji-yakiniku-chatswood",
-    "name": "Choji Yakiniku",
-    "name_ja": "Choji焼肉 チャッツウッド",
-    "area": "Chatswood",
-    "address": "Chatswood, NSW",
-    "phone": null,
-    "website": null,
-    "description": "チャッツウッドの本格日本式焼肉レストラン。ブランチとディナーの両方で営業。シドニーでトップクラスの焼肉体験を提供。",
-    "tags": [
-      "焼肉",
-      "ブランチ",
-      "高品質"
-    ],
-    "hours": "7日営業 ブランチ・ディナー",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "mikazuki-chatswood",
-    "name": "Mikazuki Chatswood",
-    "name_ja": "三日月 チャッツウッド",
-    "area": "Chatswood",
-    "address": "380 Victoria Avenue, Chatswood NSW 2067",
-    "phone": null,
-    "website": null,
-    "description": "チャッツウッドのプレミアム日本料理レストラン。見た目も美しい寿司、ラーメン、和牛寿司トリオなどを提供。サービスも高評価。",
-    "tags": [
-      "日本料理",
-      "寿司",
-      "プレミアム"
-    ],
-    "hours": "要確認",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "omi-chatswood",
-    "name": "OMI Chatswood",
-    "name_ja": "OMI チャッツウッド",
-    "area": "Chatswood",
-    "address": "The Concourse, Chatswood NSW 2067",
-    "phone": null,
-    "website": null,
-    "description": "チャッツウッドの和牛丼専門店。プレミアムオーストラリアン和牛をライスボウルスタイルで提供するモダンなコンセプト。",
-    "tags": [
-      "和牛丼",
-      "モダン",
-      "カジュアル"
-    ],
-    "hours": "要確認",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "katsuretsu-co-melbourne",
-    "name": "Katsuretsu Co",
-    "name_ja": "カツレツ コー",
-    "area": "Melbourne CBD",
-    "address": "MidCity Arcade, Melbourne VIC 3000",
-    "phone": null,
-    "website": null,
-    "description": "メルボルンCBDのチャイナタウンに新規オープンしたカツ専門店。サクサクのトンカツ・チキンカツを提供。2025年オープン。",
-    "tags": [
-      "カツ",
-      "トンカツ",
-      "新規オープン"
-    ],
-    "hours": "要確認",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "tokyo-motto-melbourne",
-    "name": "Tokyo Motto",
-    "name_ja": "東京モット",
-    "area": "Melbourne CBD",
-    "address": "Melbourne CBD, VIC",
-    "phone": null,
-    "website": null,
-    "description": "メルボルンの日本式ストリートフード＆オムライス専門店。ふわとろオムライスが看板メニュー。2025年新規オープン。",
-    "tags": [
-      "オムライス",
-      "ストリートフード",
-      "新規オープン"
-    ],
-    "hours": "要確認",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "sushi-ya-chatswood",
-    "name": "Sushi-Ya Chatswood",
-    "name_ja": "寿司屋 チャッツウッド",
-    "area": "Chatswood",
-    "address": "Chatswood, NSW 2067",
-    "phone": null,
-    "website": null,
-    "description": "チャッツウッドの老舗寿司レストラン。新鮮なネタの寿司・刺身を提供。地元の寿司好きに長年愛される。",
-    "tags": [
-      "寿司",
-      "刺身",
-      "老舗"
-    ],
-    "hours": "要確認",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "ramen-auru-sydney-cbd",
-    "name": "Ramen Auru Sydney CBD",
-    "name_ja": "ラーメンアウル シドニーCBD",
-    "area": "Sydney CBD",
-    "address": "Sydney CBD, NSW",
-    "phone": null,
-    "website": null,
-    "description": "シドニーCBDのラーメン店。濃厚な鶏白湯ラーメンが人気。チャッツウッドから展開。",
-    "tags": [
-      "ラーメン",
-      "鶏白湯"
-    ],
-    "hours": "毎日 11:30〜21:30",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "genki-sushi-sydney-cbd",
-    "name": "Genki Sushi Sydney CBD",
-    "name_ja": "元気寿司 シドニーCBD",
-    "area": "Sydney CBD",
-    "address": "Sydney CBD, NSW",
-    "phone": null,
-    "website": null,
-    "description": "元気寿司のシドニーCBD店。新幹線型レーンで寿司が届くシステムが特徴。リーズナブルな回転寿司。",
-    "tags": [
-      "回転寿司",
-      "日本発チェーン"
-    ],
-    "hours": "毎日 11:00〜21:30",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "gogyo-surry-hills",
-    "name": "Gogyo",
-    "name_ja": "五行",
-    "area": "Surry Hills",
-    "address": "Surry Hills, Sydney, NSW",
-    "phone": null,
-    "website": null,
-    "description": "一風堂グループのラーメンバー。焦がし味噌ラーメンなど独創的なメニューが特徴。サリーヒルズの人気店。",
-    "tags": [
-      "ラーメン",
-      "一風堂グループ",
-      "焦がし味噌"
-    ],
-    "hours": "12:00〜14:30 / 17:30〜22:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "mensho-tokyo-sydney",
-    "name": "Mensho Tokyo Sydney",
-    "name_ja": "麺匠東京 シドニー",
-    "area": "Sydney CBD",
-    "address": "Sydney CBD, NSW",
-    "phone": null,
-    "website": null,
-    "description": "2024年シドニー上陸の東京発ラーメン店。現地の食材とオーストラリア産小麦で自家製麺を製造。ロブスタービスクラーメンや鴨抹茶ラーメンなど独創的なメニュー。",
-    "tags": [
-      "ラーメン",
-      "東京発",
-      "自家製麺"
-    ],
-    "hours": "毎日 11:30〜21:30",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "zushi-surry-hills",
@@ -1733,7 +594,8 @@
     "hours": "12:00〜22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "zushi-barangaroo",
@@ -1752,7 +614,8 @@
     "hours": "12:00〜22:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "suzuya-surry-hills",
@@ -1771,45 +634,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "ichibandori-neutral-bay",
-    "name": "Ichibandori",
-    "name_ja": "一番鳥",
-    "area": "Neutral Bay",
-    "address": "Military Road, Neutral Bay, NSW",
-    "phone": null,
-    "website": null,
-    "description": "ニュートラルベイのジャパニーズビストロ。居酒屋スタイルのシェアリングメニュー・刺身・ロバタヤキ・ラーメンを提供。",
-    "tags": [
-      "居酒屋",
-      "ビストロ",
-      "ロバタヤキ"
-    ],
-    "hours": "17:30〜22:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "jazushi-surry-hills",
-    "name": "Jazushi",
-    "name_ja": "ジャズシ",
-    "area": "Surry Hills",
-    "address": "Surry Hills, Sydney, NSW",
-    "phone": null,
-    "website": null,
-    "description": "ジャズ音楽と日本食のフュージョンレストラン。ライブジャズを聴きながら寿司・ラーメンを楽しめるユニークなコンセプト。",
-    "tags": [
-      "日本料理",
-      "ジャズ",
-      "フュージョン"
-    ],
-    "hours": "18:00〜23:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ippudo-westfield-sydney",
@@ -1828,271 +654,8 @@
     "hours": "毎日 11:00〜21:30",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "marugame-udon-chatswood",
-    "name": "Marugame Udon Chatswood",
-    "name_ja": "丸亀製麺 チャッツウッド",
-    "area": "Chatswood",
-    "address": "Chatswood, NSW",
-    "phone": null,
-    "website": null,
-    "description": "丸亀製麺のチャッツウッド店。目の前で打つ讃岐うどんをセルフサービスで楽しめる。",
-    "tags": [
-      "うどん",
-      "日本発チェーン",
-      "セルフサービス"
-    ],
-    "hours": "毎日 11:00〜21:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "hakata-gensuke-cbd-melbourne",
-    "name": "Hakata Gensuke Melbourne CBD",
-    "name_ja": "博多弦介 メルボルンCBD",
-    "area": "Melbourne CBD",
-    "address": "Russell Street, Melbourne VIC 3000",
-    "phone": null,
-    "website": null,
-    "description": "博多弦介のメルボルンCBD店。濃厚な博多豚骨ラーメンが名物。日本のラーメン職人が腕を振るう。",
-    "tags": [
-      "ラーメン",
-      "豚骨",
-      "日本人シェフ"
-    ],
-    "hours": "毎日 11:30〜22:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "taro-ramen-melbourne-cbd",
-    "name": "Taro Ramen Melbourne CBD",
-    "name_ja": "太郎ラーメン メルボルンCBD",
-    "area": "Melbourne CBD",
-    "address": "Melbourne CBD, VIC",
-    "phone": null,
-    "website": null,
-    "description": "メルボルンCBDのラーメン専門店。豚骨・味噌・醤油ラーメンを提供。日本人シェフが監修。",
-    "tags": [
-      "ラーメン",
-      "日本人シェフ"
-    ],
-    "hours": "毎日 11:30〜21:30",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "donburi-station-sydney-cbd",
-    "name": "Donburi Station Sydney",
-    "name_ja": "どんぶりステーション シドニー",
-    "area": "Sydney CBD",
-    "address": "Sydney CBD, NSW",
-    "phone": null,
-    "website": null,
-    "description": "シドニーCBDの丼専門店。カツ丼・親子丼・牛丼などをリーズナブルに提供。",
-    "tags": [
-      "丼",
-      "カジュアル",
-      "ランチ"
-    ],
-    "hours": "毎日 11:00〜21:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "mappen-udon-sydney-cbd",
-    "name": "Mappen Udon Sydney CBD",
-    "name_ja": "まっぺん うどん シドニーCBD",
-    "area": "Sydney CBD",
-    "address": "Sydney CBD, NSW",
-    "phone": null,
-    "website": null,
-    "description": "メルボルン発のうどんチェーンのシドニー店。もちもちのうどんをセルフサービスで提供。",
-    "tags": [
-      "うどん",
-      "セルフサービス"
-    ],
-    "hours": "毎日 11:00〜21:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "mappen-udon-melbourne-cbd",
-    "name": "Mappen Udon Melbourne CBD",
-    "name_ja": "まっぺん うどん メルボルンCBD",
-    "area": "Melbourne CBD",
-    "address": "Melbourne CBD, VIC",
-    "phone": null,
-    "website": null,
-    "description": "メルボルン発のうどんチェーンのCBD本店。本格讃岐うどんをセルフサービスで手頃に楽しめる。",
-    "tags": [
-      "うどん",
-      "セルフサービス",
-      "本店"
-    ],
-    "hours": "毎日 11:00〜21:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "don-don-japanese-melbourne-cbd",
-    "name": "Don Don Japanese Melbourne",
-    "name_ja": "ドンドン メルボルン",
-    "area": "Melbourne CBD",
-    "address": "Melbourne CBD, VIC",
-    "phone": null,
-    "website": null,
-    "description": "メルボルンCBDの格安日本料理チェーン。カツカレー・ラーメン・丼を学生にも嬉しい価格で提供。",
-    "tags": [
-      "カジュアル",
-      "コスパ",
-      "学生向け"
-    ],
-    "hours": "毎日 11:00〜21:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "yayoi-chatswood",
-    "name": "Yayoi Chatswood",
-    "name_ja": "やよい軒 チャッツウッド",
-    "area": "Chatswood",
-    "address": "Chatswood, NSW",
-    "phone": null,
-    "website": null,
-    "description": "やよい軒のチャッツウッド店。日本の定食チェーンの味をオーストラリアでも。ご飯おかわり自由。",
-    "tags": [
-      "定食",
-      "日本発チェーン",
-      "おかわり自由"
-    ],
-    "hours": "毎日 11:00〜21:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "sushi-on-melbourne",
-    "name": "Sushi On",
-    "name_ja": "鮨おん",
-    "area": "Melbourne East",
-    "address": "Melbourne, VIC",
-    "phone": null,
-    "website": null,
-    "description": "2026年Good Food Guide二つ帽子獲得のおまかせ寿司レストラン。22コース（寿司14貫含む）のおまかせディナー（$245/人）を提供。完全予約制。",
-    "tags": [
-      "おまかせ",
-      "要予約",
-      "高級"
-    ],
-    "hours": "要確認（予約制）",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "sake-restaurant-rocks-sydney",
-    "name": "SAKE Restaurant & Bar The Rocks",
-    "name_ja": "SAKE レストラン ロックス",
-    "area": "The Rocks",
-    "address": "12 Argyle Street, The Rocks NSW 2000",
-    "phone": "+61292590020",
-    "website": "https://sakerestaurant.com.au/",
-    "description": "ロックスのモダン日本料理レストラン。おまかせコース、寿司、刺身から和牛まで幅広いメニュー。バー併設。",
-    "tags": [
-      "モダン日本料理",
-      "おまかせ",
-      "バー併設"
-    ],
-    "hours": "要確認",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "sake-restaurant-double-bay",
-    "name": "SAKE Restaurant & Bar Double Bay",
-    "name_ja": "SAKE レストラン ダブルベイ",
-    "area": "Double Bay",
-    "address": "Double Bay, NSW",
-    "phone": null,
-    "website": "https://sakerestaurant.com.au/",
-    "description": "ダブルベイのSAKEレストラン。洗練された空間でモダン日本料理を提供。おまかせコースが人気。",
-    "tags": [
-      "モダン日本料理",
-      "おまかせ",
-      "高級"
-    ],
-    "hours": "要確認",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "tamura-fitzroy",
-    "name": "Izakaya by Tamura",
-    "name_ja": "居酒屋 たむら",
-    "area": "Fitzroy",
-    "address": "Fitzroy, Melbourne VIC",
-    "phone": null,
-    "website": null,
-    "description": "フィッツロイの居酒屋。田村シェフの手がけるラーメンは「メルボルン最高」との評価も。日本酒バーTamura Sake Barと姉妹店。",
-    "tags": [
-      "居酒屋",
-      "ラーメン",
-      "日本酒"
-    ],
-    "hours": "要確認",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "bincho-boss-melbourne",
-    "name": "Bincho Boss",
-    "name_ja": "備長ボス",
-    "area": "Melbourne CBD",
-    "address": "Melbourne CBD, VIC",
-    "phone": null,
-    "website": null,
-    "description": "備長炭グリルを中心とした居酒屋。高品質な日本産備長炭で焼き上げる串焼きとおつまみが絶品。ドリンクとの相性を意識したメニュー構成。",
-    "tags": [
-      "居酒屋",
-      "備長炭",
-      "串焼き"
-    ],
-    "hours": "要確認",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "hakatamon-ramen-haymarket",
-    "name": "Hakatamon Ramen",
-    "name_ja": "博多門ラーメン",
-    "area": "Haymarket",
-    "address": "Haymarket, Sydney NSW 2000",
-    "phone": null,
-    "website": null,
-    "description": "ヘイマーケットの博多豚骨ラーメン専門店。東京で修行したHide Tsuboiシェフが率いる。濃厚な豚骨スープと細麺が特徴。",
-    "tags": [
-      "ラーメン",
-      "豚骨",
-      "博多式"
-    ],
-    "hours": "要確認",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ippudo-melbourne",
@@ -2111,7 +674,8 @@
     "hours": "毎日 11:30〜21:30",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "gyu-kaku-sydney-chatswood",
@@ -2130,7 +694,8 @@
     "hours": "11:30〜22:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "kisume-melbourne-flinders",
@@ -2149,7 +714,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sushi-on-kew",
@@ -2168,7 +734,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sushi-on-little-bourke",
@@ -2187,7 +754,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "senpai-ramen-chatswood",
@@ -2206,7 +774,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "iki-dining-potts-point",
@@ -2225,45 +794,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "hakata-gensuke-cbd-mel",
-    "name": "Hakata Gensuke Melbourne CBD",
-    "name_ja": "博多げんすけ メルボルンCBD",
-    "area": "Melbourne CBD",
-    "address": "168 Russell Street, Melbourne VIC 3000",
-    "phone": null,
-    "website": null,
-    "description": "博多豚骨ラーメン専門店のメルボルンCBD店。濃厚でクリーミーな豚骨スープと極細麺。替え玉も。",
-    "tags": [
-      "ラーメン",
-      "豚骨",
-      "博多"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "taro-ramen-melbourne-south-yarra",
-    "name": "Taro Ramen South Yarra",
-    "name_ja": "太郎ラーメン サウスヤラ",
-    "area": "South Yarra",
-    "address": "South Yarra, VIC 3141",
-    "phone": null,
-    "website": null,
-    "description": "メルボルンの人気ラーメン店のサウスヤラ店。濃厚な鶏白湯と豚骨ラーメンが看板メニュー。",
-    "tags": [
-      "ラーメン",
-      "鶏白湯",
-      "豚骨"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "future-future-richmond",
@@ -2282,26 +814,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "tokosan-prahran",
-    "name": "Tokosan",
-    "name_ja": "トコサン",
-    "area": "Prahran",
-    "address": "142 Greville Street, Prahran VIC 3181",
-    "phone": "+61395213155",
-    "website": null,
-    "description": "プラーランのカジュアル日本料理レストラン。日本のインテリアとネオンサインが特徴的。伝統とモダンを融合した日本料理とカクテル。",
-    "tags": [
-      "日本料理",
-      "カジュアル",
-      "カクテル"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "kazukis-carlton",
@@ -2320,26 +834,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "matsuyama-prahran-market",
-    "name": "Matsuyama",
-    "name_ja": "松山",
-    "area": "Prahran",
-    "address": "Prahran Market, 163 Commercial Road, South Yarra VIC 3141",
-    "phone": null,
-    "website": null,
-    "description": "プラーランマーケット内の焼き鳥レストラン。2024年のポップアップが人気を博し2025年に常設化。備長炭焼きの焼き鳥。",
-    "tags": [
-      "焼き鳥",
-      "マーケット内",
-      "備長炭"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "rengaya-north-sydney",
@@ -2358,7 +854,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "new-yamanishi-crows-nest",
@@ -2377,7 +874,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "naruto-bbq-chatswood",
@@ -2396,140 +894,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "izakaya-nakano-chatswood",
-    "name": "Izakaya Nakano",
-    "name_ja": "居酒屋なかの",
-    "area": "Chatswood",
-    "address": "Chatswood, NSW 2067",
-    "phone": "+61294557522",
-    "website": null,
-    "description": "チャッツウッドの隠れ家的居酒屋。焼き鳥・天ぷら・刺身など本格的な居酒屋料理を提供。",
-    "tags": [
-      "居酒屋",
-      "隠れ家",
-      "焼き鳥"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "hachioji-crows-nest",
-    "name": "Hachioji",
-    "name_ja": "八王子",
-    "area": "Crows Nest",
-    "address": "Crows Nest, NSW 2065",
-    "phone": null,
-    "website": null,
-    "description": "クロウズネストのコンテンポラリーアジアンダイニング。おまかせメニューが評判。日本料理の技法をベースに創作料理を提供。",
-    "tags": [
-      "おまかせ",
-      "コンテンポラリー",
-      "創作"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "norimono-crows-nest",
-    "name": "Norimono",
-    "name_ja": "のりもの",
-    "area": "Crows Nest",
-    "address": "Willoughby Road, Crows Nest NSW 2065",
-    "phone": null,
-    "website": null,
-    "description": "クロウズネストの手巻き寿司バー。伝統的な手巻き寿司を現代的なスタイルで提供。新鮮なネタと海苔の組み合わせ。",
-    "tags": [
-      "手巻き寿司",
-      "バー",
-      "モダン"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "sashimi-shinsengumi-crows-nest",
-    "name": "Sashimi Shinsengumi",
-    "name_ja": "刺身新選組",
-    "area": "Crows Nest",
-    "address": "Crows Nest, NSW 2065",
-    "phone": null,
-    "website": null,
-    "description": "クロウズネストの刺身専門レストラン。新鮮な刺身の盛り合わせと日本料理を提供。刺身の品質に定評がある。",
-    "tags": [
-      "刺身",
-      "専門店",
-      "新鮮"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "jicca-dining-neutral-bay",
-    "name": "Jicca Dining",
-    "name_ja": "ジッカ ダイニング",
-    "area": "Neutral Bay",
-    "address": "Military Road, Neutral Bay NSW 2089",
-    "phone": null,
-    "website": null,
-    "description": "ニュートラルベイの日伊融合レストラン。日本料理の技法とイタリア料理を融合。シーフード中心のメニュー。",
-    "tags": [
-      "日伊融合",
-      "シーフード",
-      "創作"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "tobikiri-neutral-bay",
-    "name": "Tobikiri",
-    "name_ja": "飛び切り",
-    "area": "Neutral Bay",
-    "address": "Yeo Street, Neutral Bay NSW 2089",
-    "phone": null,
-    "website": null,
-    "description": "ニュートラルベイのモダン日本料理レストラン。伝統的な和食技法を活かした料理を洗練された空間で提供。",
-    "tags": [
-      "モダン日本料理",
-      "洗練",
-      "伝統"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "gumshara-haymarket",
-    "name": "Gumshara 2.0",
-    "name_ja": "がむしゃら",
-    "area": "Haymarket",
-    "address": "Kimber Lane & Little Hay Street, Haymarket NSW 2000",
-    "phone": null,
-    "website": null,
-    "description": "ヘイマーケットの伝説的ラーメン店。120kgの豚骨を7日間煮込んだ超濃厚とんこつスープが名物。シドニーで最も有名なラーメン店の一つ。",
-    "tags": [
-      "ラーメン",
-      "超濃厚豚骨",
-      "伝説"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "kajiken-haymarket",
@@ -2548,7 +914,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "kajiken-burwood",
@@ -2567,7 +934,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sono-brisbane",
@@ -2586,64 +954,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "hideki-brisbane",
-    "name": "Hideki Brisbane",
-    "name_ja": "ヒデキ ブリスベン",
-    "area": "Brisbane",
-    "address": "James Street, Fortitude Valley QLD 4006",
-    "phone": null,
-    "website": null,
-    "description": "ブリスベンの本格日本料理。2025年にJames Streetに新店舗を拡張。シティで最も本格的な日本料理の一つと評される。",
-    "tags": [
-      "日本料理",
-      "本格",
-      "おまかせ"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "sushi-room-brisbane",
-    "name": "Sushi Room Brisbane",
-    "name_ja": "スシルーム ブリスベン",
-    "area": "Brisbane",
-    "address": "The Calile Hotel, James Street, Fortitude Valley QLD 4006",
-    "phone": null,
-    "website": null,
-    "description": "ブリスベン・カライルホテル内の高級寿司レストラン。太平洋のシーフードを中心としたおまかせコース。ミッドセンチュリーモダンな内装。",
-    "tags": [
-      "寿司",
-      "おまかせ",
-      "ホテル内"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "taros-ramen-brisbane",
-    "name": "Taro's Ramen Brisbane",
-    "name_ja": "太郎のラーメン ブリスベン",
-    "area": "Brisbane",
-    "address": "Brisbane QLD",
-    "phone": null,
-    "website": null,
-    "description": "オーナーシェフ秋元太郎が手がけるラーメン店。旨味豊かな豚骨スープと自家製麺が特徴。ブリスベン市内に複数店舗。",
-    "tags": [
-      "ラーメン",
-      "自家製麺",
-      "豚骨"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "izakaya-publico-brisbane",
@@ -2662,7 +974,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "tenya-brisbane",
@@ -2681,140 +994,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "sokyo-brisbane",
-    "name": "Sokyo Brisbane",
-    "name_ja": "ソキョ ブリスベン",
-    "area": "Brisbane",
-    "address": "The Star Brisbane, Queen's Wharf, Brisbane QLD 4000",
-    "phone": null,
-    "website": null,
-    "description": "ザ・スター・ブリスベン内の高級日本料理。おまかせコースと鉄板焼きが看板。シドニーの人気店のブリスベン進出。",
-    "tags": [
-      "高級",
-      "おまかせ",
-      "鉄板焼き"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "takashiya-gold-coast",
-    "name": "Takashiya",
-    "name_ja": "高志屋",
-    "area": "Gold Coast",
-    "address": "Isle of Capri, Gold Coast QLD 4217",
-    "phone": null,
-    "website": null,
-    "description": "ゴールドコースト・カプリ島の高級おまかせレストラン。季節の食材を使った本格日本料理のおまかせコースを提供。",
-    "tags": [
-      "おまかせ",
-      "高級",
-      "季節の食材"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "ippudo-parramatta",
-    "name": "Ippudo Parramatta",
-    "name_ja": "一風堂 パラマタ",
-    "area": "Parramatta",
-    "address": "Parramatta, NSW 2150",
-    "phone": null,
-    "website": null,
-    "description": "博多発の豚骨ラーメンチェーン「一風堂」のパラマタ店。白丸元味と赤丸新味が看板メニュー。",
-    "tags": [
-      "ラーメン",
-      "豚骨",
-      "日本発チェーン"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "okami-melbourne-cbd",
-    "name": "Okami Melbourne CBD",
-    "name_ja": "おかみ メルボルンCBD",
-    "area": "Melbourne CBD",
-    "address": "Melbourne CBD, VIC 3000",
-    "phone": null,
-    "website": null,
-    "description": "日本料理食べ放題チェーンのメルボルンCBD店。寿司・刺身・天ぷら・焼き物など50種以上が食べ放題。コスパに優れる。",
-    "tags": [
-      "食べ放題",
-      "日本料理",
-      "コスパ"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "ishizuka-melbourne",
-    "name": "Ishizuka Melbourne",
-    "name_ja": "石塚 メルボルン",
-    "area": "Melbourne CBD",
-    "address": "Melbourne CBD, VIC 3000",
-    "phone": null,
-    "website": "https://www.ishizuka.com.au/",
-    "description": "メルボルンCBDの高級懐石料理レストラン。季節の食材を使った本格的な日本の懐石コースを提供。",
-    "tags": [
-      "懐石料理",
-      "高級",
-      "季節"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "minamishima-richmond",
-    "name": "Minamishima Richmond",
-    "name_ja": "南嶋 リッチモンド",
-    "area": "Richmond",
-    "address": "Richmond, VIC 3121",
-    "phone": null,
-    "website": null,
-    "description": "メルボルン・リッチモンドの最高級おまかせ寿司。Good Food Guide 3ハット獲得。おまかせコース$295/人。特別な日のための名店。",
-    "tags": [
-      "おまかせ",
-      "3ハット",
-      "高級"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "r-by-raita-noda-redfern",
-    "name": "R by Raita Noda",
-    "name_ja": "R バイ ライタ ノダ",
-    "area": "Redfern",
-    "address": "Cleveland Street, Redfern NSW 2016",
-    "phone": null,
-    "website": null,
-    "description": "2025年オープン。シェフ野田雷太氏による最新レストラン。日本料理の技法を洗練されたコースで提供。シドニーのトップ日本料理の一つ。",
-    "tags": [
-      "コース料理",
-      "高級",
-      "シェフ"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "toriciya-cammeray",
@@ -2833,7 +1014,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "garaku-prefecture-48",
@@ -2852,26 +1034,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "nomidokoro-indigo-darlinghurst",
-    "name": "Nomidokoro Indigo",
-    "name_ja": "飲み処インディゴ",
-    "area": "Darlinghurst",
-    "address": "393 Liverpool Street, Darlinghurst NSW 2010",
-    "phone": "+61460650061",
-    "website": null,
-    "description": "ダーリングハーストの小さな日本酒バー＆居酒屋。11席のカウンターと立ち飲みエリア。暖簾をくぐると東京のような空間。出汁も味噌も自家製。",
-    "tags": [
-      "居酒屋",
-      "日本酒バー",
-      "カウンター席"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ibushi-prefecture-48",
@@ -2889,7 +1053,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "omakase-prefecture-48",
@@ -2908,7 +1073,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "towzen-sydney",
@@ -2927,7 +1093,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ito-surry-hills",
@@ -2946,7 +1113,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sakura-house-sydney",
@@ -2965,26 +1133,8 @@
     "hours": "月〜土 17:00-02:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "izakaya-gaku-five-dock",
-    "name": "Izakaya Gaku",
-    "name_ja": "居酒屋 岳",
-    "area": "Five Dock",
-    "address": "Five Dock, Sydney NSW 2046",
-    "phone": null,
-    "website": null,
-    "description": "ファイブドックの居酒屋。和牛釜飯（カマメシ）が看板メニュー。Gaku Robataの姉妹店。ウォークインのみ。",
-    "tags": [
-      "居酒屋",
-      "釜飯",
-      "ウォークイン"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "gaku-robata-darlinghurst",
@@ -3003,45 +1153,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "yebisu-izakaya-sydney",
-    "name": "Yebisu Izakaya",
-    "name_ja": "ゑびす居酒屋",
-    "area": "Sydney CBD",
-    "address": "501 George Street, Sydney NSW 2000",
-    "phone": null,
-    "website": null,
-    "description": "シドニーCBDの居酒屋。日本各地の地酒を揃え、日本の居酒屋文化をオーストラリアに紹介する先駆的存在。",
-    "tags": [
-      "居酒屋",
-      "日本酒",
-      "地酒"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "izakaya-masuya-sydney",
-    "name": "Izakaya Masuya",
-    "name_ja": "居酒屋ますや",
-    "area": "Sydney CBD",
-    "address": "Sydney CBD, NSW 2000",
-    "phone": null,
-    "website": null,
-    "description": "オーストラリア初の居酒屋スタイルレストランの一つ。日本各地の日本酒を紹介し、本格的な居酒屋料理を提供。",
-    "tags": [
-      "居酒屋",
-      "日本酒",
-      "老舗"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "kosuke-revised-rosebery",
@@ -3060,7 +1173,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "kosuke-ramen-north-strathfield",
@@ -3078,63 +1192,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "nakano-darling-square",
-    "name": "Nakano Darling",
-    "name_ja": "ナカノ ダーリング",
-    "area": "Darling Square",
-    "address": "Darling Square, Sydney NSW 2000",
-    "phone": null,
-    "website": null,
-    "description": "ダーリングスクエアの日本料理レストラン。Nomidokoro Indigoの姉妹店。HATENAグループが運営。",
-    "tags": [
-      "日本料理",
-      "カジュアル"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "kashiwa-yakiniku-sydney",
-    "name": "Kashiwa",
-    "name_ja": "柏",
-    "area": "North Sydney",
-    "address": "North Sydney, NSW 2060",
-    "phone": null,
-    "website": null,
-    "description": "ノースシドニーの炭火焼肉店。新鮮なお肉と自家製ダレが人気。シティからバスで約15分。",
-    "tags": [
-      "焼肉",
-      "炭火",
-      "自家製ダレ"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "oiden-sydney",
-    "name": "Oiden",
-    "name_ja": "おいでん",
-    "area": "Sydney CBD",
-    "address": "Sydney CBD, NSW 2000",
-    "phone": null,
-    "website": null,
-    "description": "シドニーCBDの低価格日本食レストラン。どんぶりやカレーがメインで10ドル前後。留学生やワーホリに人気。",
-    "tags": [
-      "丼物",
-      "カレー",
-      "低価格"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "warabi-melbourne",
@@ -3153,83 +1212,8 @@
     "hours": "火〜土（予約制）",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "shusai-mijo-fitzroy",
-    "name": "Shusai Mijo",
-    "name_ja": "主菜 味処",
-    "area": "Fitzroy",
-    "address": "256 Johnston Street, Fitzroy VIC 3065",
-    "phone": "+61395992799",
-    "website": null,
-    "description": "フィッツロイの8席限定カッポ式おまかせ。元Warabi出身の3名が運営。火〜木はスシセット$165/人、金土はカッポおまかせ$250/人。Good Food Guide 1ハット獲得。",
-    "tags": [
-      "おまかせ",
-      "カッポ",
-      "Good Food Hat"
-    ],
-    "hours": "火〜土（予約制）",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "tamura-sake-bar-fitzroy",
-    "name": "Tamura Sake Bar",
-    "name_ja": "タムラ サケバー",
-    "area": "Fitzroy",
-    "address": "43 Gertrude Street, Fitzroy VIC 3065",
-    "phone": "+61394171992",
-    "website": "http://www.tamurasakebar.com/",
-    "description": "日本酒バー、居酒屋、レコードショップを兼ねたユニークな空間。田村文彦氏が運営。サードウェーブ日本酒（無濾過・生酒）を中心に提供。",
-    "tags": [
-      "日本酒バー",
-      "居酒屋",
-      "レコード"
-    ],
-    "hours": "月水木 17:00-22:00 / 金〜日 12:00-23:00",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "tokosan-prahran-greville",
-    "name": "Tokosan Prahran",
-    "name_ja": "トコサン プラーラン",
-    "area": "Prahran",
-    "address": "142 Greville Street, Prahran VIC 3181",
-    "phone": "+61395213155",
-    "website": null,
-    "description": "プラーランのカジュアル日本料理。ネオンサインと日本風インテリアが特徴。伝統とモダンを融合した料理とカクテル。",
-    "tags": [
-      "日本料理",
-      "カジュアル",
-      "カクテル"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "shujinko-ramen-24h-melbourne",
-    "name": "Shujinko Ramen",
-    "name_ja": "主人公ラーメン",
-    "area": "Melbourne CBD",
-    "address": "225 Russell Street, Melbourne VIC 3000",
-    "phone": null,
-    "website": null,
-    "description": "メルボルンCBDの24時間営業ラーメン店。深夜でも本格的な豚骨ラーメンが食べられるメルボルンの定番。",
-    "tags": [
-      "ラーメン",
-      "24時間営業",
-      "豚骨"
-    ],
-    "hours": "24時間営業",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "hakata-gensuke-caulfield",
@@ -3248,7 +1232,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "okami-richmond",
@@ -3267,7 +1252,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "okami-box-hill",
@@ -3286,7 +1272,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "okami-footscray",
@@ -3305,26 +1292,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "mappen-emporium-melbourne",
-    "name": "Mappen Emporium Melbourne",
-    "name_ja": "まっぺん エンポリアムメルボルン",
-    "area": "Melbourne CBD",
-    "address": "Emporium Melbourne, 287 Lonsdale Street, Melbourne VIC 3000",
-    "phone": null,
-    "website": null,
-    "description": "メルボルン発のうどんチェーン。エンポリアム内の店舗で、讃岐スタイルのうどんをセルフサービスで提供。",
-    "tags": [
-      "うどん",
-      "セルフサービス",
-      "ショッピングモール"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "yoko-dining-brisbane",
@@ -3343,7 +1312,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "honto-fortitude-valley",
@@ -3362,7 +1332,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "boom-boom-room-brisbane",
@@ -3381,7 +1352,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "komeyui-brisbane",
@@ -3400,7 +1372,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sushi-kotobuki-east-brisbane",
@@ -3419,7 +1392,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "shushokuya-masa-fortitude-valley",
@@ -3438,26 +1412,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "mitsuki-katsu-fortitude-valley",
-    "name": "Mitsuki Katsu and Sushi Bar",
-    "name_ja": "ミツキ カツ＆スシバー",
-    "area": "Fortitude Valley",
-    "address": "42-43/1000 Ann Street, Fortitude Valley QLD 4006",
-    "phone": "+61466862604",
-    "website": null,
-    "description": "フォーティテュードバレーのカツ＆寿司レストラン。塩焼きサバ定食、刺身定食、カツ定食などを$28〜で提供。",
-    "tags": [
-      "カツ",
-      "寿司",
-      "定食"
-    ],
-    "hours": "毎日 10:00-21:00",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "hakata-gensuke-brisbane",
@@ -3476,64 +1432,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "nobu-perth",
-    "name": "Nobu Perth",
-    "name_ja": "ノブ パース",
-    "area": "Burswood",
-    "address": "Crown Metropol, Great Eastern Highway, Burswood WA 6100",
-    "phone": null,
-    "website": null,
-    "description": "世界的に有名なNOBUのパース店。Crown内に位置し、日本料理とペルー料理のフュージョン。黒鱈の西京味噌焼きなどシグネチャーメニューを提供。",
-    "tags": [
-      "高級",
-      "フュージョン",
-      "ホテル内"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "james-parker-northbridge",
-    "name": "James Parker Sushi & Sake",
-    "name_ja": "ジェームスパーカー スシ＆サケ",
-    "area": "Northbridge",
-    "address": "Northbridge, Perth WA 6003",
-    "phone": null,
-    "website": null,
-    "description": "ノースブリッジの高級寿司・日本酒バー。7席のカウンターでシェフがオーストラリアの海鮮を使った握りを提供。",
-    "tags": [
-      "寿司",
-      "日本酒",
-      "高級"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "tosaka-ramen-northbridge",
-    "name": "Tosaka Ramen Bar",
-    "name_ja": "トサカラーメン",
-    "area": "Northbridge",
-    "address": "305 William Street, Northbridge WA 6003",
-    "phone": null,
-    "website": null,
-    "description": "ノースブリッジのラーメン専門店。クリーミーな鶏白湯ラーメン（トリパイタン）が看板。黒ニンニクトリパイタンラーメンが人気。",
-    "tags": [
-      "ラーメン",
-      "鶏白湯",
-      "ノースブリッジ"
-    ],
-    "hours": "毎日 11:00-22:00",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "hakata-gensuke-victoria-park",
@@ -3552,7 +1452,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "hakata-gensuke-chicken-northbridge",
@@ -3571,64 +1472,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "the-bonsai-northbridge",
-    "name": "The Bonsai",
-    "name_ja": "ザ ボンサイ",
-    "area": "Northbridge",
-    "address": "30 Roe Street, Northbridge WA 6003",
-    "phone": null,
-    "website": null,
-    "description": "ノースブリッジの日本料理シェアプレート店。ムーディな照明と高い天井のレンガ造りの空間で、アーティスティックな日本料理を提供。",
-    "tags": [
-      "日本料理",
-      "シェアプレート",
-      "モダン"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "azabu-northbridge",
-    "name": "Azabu",
-    "name_ja": "麻布",
-    "area": "Northbridge",
-    "address": "Northbridge, Perth WA 6003",
-    "phone": null,
-    "website": null,
-    "description": "ノースブリッジの高級日本料理。A5和牛、新鮮な刺身、洗練された小皿料理を提供。",
-    "tags": [
-      "高級",
-      "和牛",
-      "刺身"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "hifumiya-udon-perth",
-    "name": "Hifumiya Udon Noodle House",
-    "name_ja": "ひふみや",
-    "area": "Perth CBD",
-    "address": "100-104 Murray Street, Perth WA 6000",
-    "phone": null,
-    "website": null,
-    "description": "2018年オープンのうどん専門店。活気のある空間で、各種うどんとご飯物を提供。パースの日本食シーンの定番。",
-    "tags": [
-      "うどん",
-      "専門店",
-      "カジュアル"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "papi-katsu-perth",
@@ -3647,83 +1492,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "ginza-nana-alley-perth",
-    "name": "Ginza Nana Alley",
-    "name_ja": "銀座ナナアレイ",
-    "area": "Perth CBD",
-    "address": "Perth CBD, WA 6000",
-    "phone": null,
-    "website": null,
-    "description": "新宿の雰囲気をパースに再現した日本料理横丁。Hifumiya・Jigoroのグループが運営。複数の日本食コンセプトが集結。",
-    "tags": [
-      "横丁",
-      "複合施設",
-      "日本食"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "ginza-midai-perth",
-    "name": "Ginza Midai",
-    "name_ja": "銀座美代",
-    "area": "Perth CBD",
-    "address": "Ginza Nana Alley, Perth CBD, WA 6000",
-    "phone": null,
-    "website": null,
-    "description": "Ginza Nana Alley内の12席限定おまかせ。おでんと割烹を中心としたカウンター料理。完全予約制。",
-    "tags": [
-      "おまかせ",
-      "おでん",
-      "要予約"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "jigoro-perth",
-    "name": "Jigoro",
-    "name_ja": "ジゴロ",
-    "area": "Perth CBD",
-    "address": "100-104 Murray Street, Perth WA 6000",
-    "phone": null,
-    "website": null,
-    "description": "Hifumiyaの姉妹店。つくもグループが運営する日本料理レストラン。居酒屋スタイルの料理と日本酒を提供。",
-    "tags": [
-      "居酒屋",
-      "日本料理",
-      "日本酒"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "onomichi-ramen-mitsuya-perth",
-    "name": "Onomichi Ramen Mitsuya",
-    "name_ja": "尾道ラーメン三ツ矢",
-    "area": "Perth CBD",
-    "address": "Ginza Nana Alley, Perth CBD, WA 6000",
-    "phone": null,
-    "website": null,
-    "description": "Ginza Nana Alley内の広島尾道スタイルラーメン店。醤油ベースの鶏・魚介スープが特徴。豚骨より軽やかな味わい。",
-    "tags": [
-      "ラーメン",
-      "尾道式",
-      "醤油"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "kiyomi-broadbeach",
@@ -3742,7 +1512,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "yamagen-surfers-paradise",
@@ -3761,7 +1532,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "etsu-izakaya-mermaid-beach",
@@ -3780,26 +1552,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "donto-sapporo-bundall",
-    "name": "Donto Sapporo",
-    "name_ja": "どんと札幌",
-    "area": "Bundall",
-    "address": "Shop 15-16, 20 Bundall Road, Bundall QLD 4217",
-    "phone": null,
-    "website": null,
-    "description": "1990年創業のゴールドコースト最古の日本食レストランの一つ。伝統的な寿司と炭火焼きの焼き鳥を提供。",
-    "tags": [
-      "日本料理",
-      "老舗",
-      "焼き鳥"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "izakaya-midori-reedy-creek",
@@ -3818,7 +1572,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "hatsuhana-gold-coast",
@@ -3837,26 +1592,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "ganbaranba-cairns",
-    "name": "Ganbaranba",
-    "name_ja": "がんばらんば",
-    "area": "Cairns",
-    "address": "Shop 8, 14 Spence Street, Cairns QLD 4870",
-    "phone": "+61740312522",
-    "website": null,
-    "description": "ケアンズのラーメン専門店。本格的なラーメンと餃子を提供。小さいがいつも賑わっている地元の人気店。",
-    "tags": [
-      "ラーメン",
-      "餃子",
-      "カジュアル"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "wawawa-izakaya-cairns",
@@ -3875,64 +1612,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "kushi-yakitori-palm-cove",
-    "name": "Kushi Yakitori Bar & Japanese Restaurant",
-    "name_ja": "串焼きバー パームコーブ",
-    "area": "Palm Cove",
-    "address": "Floor 1, 73 Williams Esplanade, Palm Cove QLD 4879",
-    "phone": null,
-    "website": null,
-    "description": "パームコーブのオーシャンビュー焼き鳥バー。炭火焼きの焼き鳥が看板。毎日ランチ営業あり。",
-    "tags": [
-      "焼き鳥",
-      "オーシャンビュー",
-      "パームコーブ"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "riki-bbq-cairns",
-    "name": "Cairns Riki Japanese BBQ Restaurant",
-    "name_ja": "リキ ジャパニーズBBQ",
-    "area": "Cairns",
-    "address": "Cairns, QLD 4870",
-    "phone": null,
-    "website": null,
-    "description": "ケアンズの焼肉レストラン。テーブルBBQスタイルで日本式焼肉を楽しめる。フレンドリーなスタッフが好評。",
-    "tags": [
-      "焼肉",
-      "BBQ",
-      "カジュアル"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "tokyo-dumpling-cairns",
-    "name": "Tokyo Dumpling",
-    "name_ja": "東京ダンプリング",
-    "area": "Cairns",
-    "address": "Cairns, QLD 4870",
-    "phone": null,
-    "website": null,
-    "description": "ケアンズの餃子専門店。ベジタリアン・ヴィーガン・グルテンフリーオプションも充実。",
-    "tags": [
-      "餃子",
-      "ベジタリアン対応",
-      "カジュアル"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "shobosho-adelaide",
@@ -3951,26 +1632,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "shiki-adelaide",
-    "name": "Shiki Japanese Restaurant",
-    "name_ja": "四季",
-    "area": "Adelaide CBD",
-    "address": "Upper Lobby Level, InterContinental Adelaide, North Terrace, Adelaide SA 5000",
-    "phone": null,
-    "website": null,
-    "description": "インターコンチネンタルアデレード内の高級日本料理レストラン。受賞歴あり。2025年にリブランディングを実施。",
-    "tags": [
-      "高級",
-      "ホテル内",
-      "受賞歴"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "yakisan-north-adelaide",
@@ -3989,83 +1652,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "nagomi-adelaide",
-    "name": "Nagomi",
-    "name_ja": "なごみ",
-    "area": "Adelaide CBD",
-    "address": "Adelaide CBD, SA 5000",
-    "phone": null,
-    "website": null,
-    "description": "日本のUmuグループ初のオーストラリア店。大阪スタイルの日本料理を提供。寿司箱・土鍋・たこ焼きなど。",
-    "tags": [
-      "大阪スタイル",
-      "たこ焼き",
-      "日本直営"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "wasai-adelaide",
-    "name": "Wasai Japanese Kitchen",
-    "name_ja": "和菜",
-    "area": "Adelaide CBD",
-    "address": "Hutt Street, Adelaide SA 5000",
-    "phone": null,
-    "website": null,
-    "description": "アデレードの日本料理レストラン。寿司・刺身の盛り合わせが芸術的と評判。",
-    "tags": [
-      "日本料理",
-      "寿司",
-      "刺身"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "nishiki-adelaide",
-    "name": "Nishiki Cafe and Izakaya",
-    "name_ja": "錦 カフェ＆居酒屋",
-    "area": "Adelaide CBD",
-    "address": "Adelaide CBD, SA 5000",
-    "phone": null,
-    "website": null,
-    "description": "アデレードの居酒屋カフェ。小皿料理をシェアしながらドリンクを楽しむスタイル。",
-    "tags": [
-      "居酒屋",
-      "カフェ",
-      "小皿"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "samurai-teppanyaki-adelaide",
-    "name": "Samurai Teppanyaki House",
-    "name_ja": "サムライ鉄板焼き",
-    "area": "Adelaide CBD",
-    "address": "Adelaide CBD, SA 5000",
-    "phone": null,
-    "website": null,
-    "description": "アデレードの鉄板焼きレストラン。シェフのパフォーマンスを楽しみながら鉄板焼きを堪能。",
-    "tags": [
-      "鉄板焼き",
-      "パフォーマンス",
-      "エンタメ"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "iori-canberra",
@@ -4084,7 +1672,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "mu-omakase-canberra",
@@ -4103,7 +1692,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "koto-canberra",
@@ -4122,7 +1712,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ogawa-canberra",
@@ -4141,7 +1732,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "yamashita-hobart",
@@ -4160,7 +1752,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ajikoma-hobart",
@@ -4179,7 +1772,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "omotenashi-hobart",
@@ -4198,83 +1792,8 @@
     "hours": "金〜日（予約制）",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "bar-wa-izakaya-hobart",
-    "name": "Bar Wa Izakaya",
-    "name_ja": "バー和 居酒屋",
-    "area": "Hobart",
-    "address": "Hobart, TAS 7000",
-    "phone": null,
-    "website": null,
-    "description": "東京の居酒屋にインスパイアされたホバートのバー。深夜2時まで営業。タスマニア産食材を使ったシェアプレートとラーメン（ランチのみ）。",
-    "tags": [
-      "居酒屋",
-      "バー",
-      "深夜営業"
-    ],
-    "hours": "毎日（深夜2時まで）",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "kosaten-hobart",
-    "name": "Kosaten",
-    "name_ja": "交差点",
-    "area": "Hobart",
-    "address": "Salamanca Place, Hobart TAS 7000",
-    "phone": null,
-    "website": null,
-    "description": "サラマンカプレイス近くの日本料理店。iPadで注文し新幹線型レーンで料理が届くシステム。有機日本酒やウメシュも提供。",
-    "tags": [
-      "日本料理",
-      "新幹線レーン",
-      "サラマンカ"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "suminato-sandy-bay",
-    "name": "Suminato",
-    "name_ja": "すみなと",
-    "area": "Sandy Bay",
-    "address": "Sandy Bay, Hobart TAS 7005",
-    "phone": null,
-    "website": null,
-    "description": "サンディベイの居酒屋レストラン。温かみのある木造りの空間で日本のタパスメニューを提供。味噌ソースの焼き牡蠣が人気。",
-    "tags": [
-      "居酒屋",
-      "タパス",
-      "シーフード"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "ramen-zundo-neutral-bay",
-    "name": "Ramen Zundo Neutral Bay",
-    "name_ja": "ラーメンずんど ニュートラルベイ",
-    "area": "Neutral Bay",
-    "address": "Neutral Bay, Sydney NSW 2089",
-    "phone": null,
-    "website": null,
-    "description": "ラーメンずんどのニュートラルベイ店。豚骨ラーメン・つけ麺を提供。日本人にも評判のラーメン店。",
-    "tags": [
-      "ラーメン",
-      "豚骨",
-      "つけ麺"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "kajiken-chatswood",
@@ -4293,7 +1812,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ippudo-castle-hill",
@@ -4312,64 +1832,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "genki-sushi-parramatta",
-    "name": "Genki Sushi Parramatta",
-    "name_ja": "元気寿司 パラマタ",
-    "area": "Parramatta",
-    "address": "Parramatta, NSW 2150",
-    "phone": null,
-    "website": null,
-    "description": "元気寿司のパラマタ店。新幹線型レーンで寿司が届くシステム。リーズナブルな回転寿司。",
-    "tags": [
-      "回転寿司",
-      "日本発チェーン",
-      "ファミリー向け"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "marugame-udon-parramatta",
-    "name": "Marugame Udon Parramatta",
-    "name_ja": "丸亀製麺 パラマタ",
-    "area": "Parramatta",
-    "address": "Parramatta, NSW 2150",
-    "phone": null,
-    "website": null,
-    "description": "讃岐うどんチェーンのパラマタ店。自家製麺のうどんと天ぷらが楽しめるセルフサービス式。",
-    "tags": [
-      "うどん",
-      "日本発チェーン",
-      "セルフサービス"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "izakaya-den-melbourne",
-    "name": "Izakaya Den",
-    "name_ja": "居酒屋 DEN",
-    "area": "Melbourne CBD",
-    "address": "Melbourne CBD, VIC 3000",
-    "phone": null,
-    "website": null,
-    "description": "メルボルンCBDの居酒屋。カジュアルに日本料理と日本酒・焼酎を楽しめる。",
-    "tags": [
-      "居酒屋",
-      "日本酒",
-      "カジュアル"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "okami-hawthorn",
@@ -4379,7 +1843,7 @@
     "address": "Hawthorn, VIC 3122",
     "phone": null,
     "website": "https://www.okamirestaurant.com.au/",
-    "description": "日本料理食べ放題チェーンのホーソン店。",
+    "description": "オーストラリア各地に展開する日本料理食べ放題チェーン「Okami」のホーソン店。寿司、刺身、焼き物、揚げ物などの日本料理が食べ放題。",
     "tags": [
       "食べ放題",
       "日本料理",
@@ -4388,7 +1852,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "okami-glen-waverley",
@@ -4407,7 +1872,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "hakata-gensuke-hawthorn",
@@ -4426,26 +1892,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "taro-ramen-richmond",
-    "name": "Taro's Ramen Richmond",
-    "name_ja": "太郎ラーメン リッチモンド",
-    "area": "Richmond",
-    "address": "Richmond, VIC 3121",
-    "phone": null,
-    "website": null,
-    "description": "太郎ラーメンのリッチモンド店。鶏白湯と豚骨のダブルスープが看板メニュー。",
-    "tags": [
-      "ラーメン",
-      "鶏白湯",
-      "豚骨"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "okami-brisbane",
@@ -4464,7 +1912,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "okami-gold-coast",
@@ -4483,7 +1932,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "okami-perth",
@@ -4502,7 +1952,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "okami-adelaide",
@@ -4521,7 +1972,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "okami-canberra",
@@ -4540,7 +1992,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ippudo-adelaide",
@@ -4559,7 +2012,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ippudo-perth",
@@ -4578,7 +2032,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ippudo-gold-coast",
@@ -4597,7 +2052,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "tansawa-east-perth",
@@ -4616,7 +2072,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "taki-canberra",
@@ -4635,7 +2092,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "inari-canberra",
@@ -4654,26 +2112,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "takashiya-brisbane",
-    "name": "Takashiya Brisbane",
-    "name_ja": "高志屋 ブリスベン",
-    "area": "Brisbane",
-    "address": "Brisbane, QLD 4000",
-    "phone": null,
-    "website": null,
-    "description": "ブリスベンのおまかせレストラン。季節の食材を使った本格日本料理のおまかせコースを提供。",
-    "tags": [
-      "おまかせ",
-      "日本料理",
-      "季節"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "okami-victoria-park",
@@ -4692,7 +2132,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "harajuku-gyoza-gold-coast",
@@ -4711,7 +2152,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ippudo-george-street",
@@ -4730,7 +2172,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ichibanboshi-chatswood",
@@ -4749,7 +2192,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ichibanboshi-crows-nest",
@@ -4768,45 +2212,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "azuki-bakery-wolli-creek",
-    "name": "Azuki Bakery Wolli Creek",
-    "name_ja": "あずきベーカリー ウォリークリーク",
-    "area": "Wolli Creek",
-    "address": "Wolli Creek, NSW 2205",
-    "phone": null,
-    "website": "https://azukibakery.com.au/",
-    "description": "あずきベーカリーの2号店。日本風のケーキ、ペストリー、パンとコーヒーを提供。",
-    "tags": [
-      "ベーカリー",
-      "カフェ",
-      "日本風"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "coco-ichibanya-chatswood",
-    "name": "CoCo Ichibanya Chatswood",
-    "name_ja": "CoCo壹番屋 チャッツウッド",
-    "area": "Chatswood",
-    "address": "Chatswood, NSW 2067",
-    "phone": null,
-    "website": null,
-    "description": "日本カレーチェーンのチャッツウッド店。カスタマイズ可能な日本式カレーを提供。辛さ・ご飯の量・トッピングを選べる。",
-    "tags": [
-      "カレー",
-      "日本発チェーン",
-      "カスタマイズ可"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "hakata-gensuke-prahran",
@@ -4825,7 +2232,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sake-restaurant-flinders-lane",
@@ -4844,26 +2252,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "taro-ramen-brisbane-cbd",
-    "name": "Taro's Ramen Brisbane CBD",
-    "name_ja": "太郎ラーメン ブリスベンCBD",
-    "area": "Brisbane CBD",
-    "address": "Brisbane CBD, QLD 4000",
-    "phone": null,
-    "website": null,
-    "description": "オーナーシェフ秋元太郎が手がけるラーメン店のブリスベンCBD店。豚骨スープと自家製麺が特徴。",
-    "tags": [
-      "ラーメン",
-      "自家製麺",
-      "日本人シェフ"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "hakata-gensuke-perth-cbd",
@@ -4882,7 +2272,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sake-restaurant-brisbane",
@@ -4901,64 +2292,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "pepper-lunch-chatswood",
-    "name": "Pepper Lunch Chatswood",
-    "name_ja": "ペッパーランチ チャッツウッド",
-    "area": "Chatswood",
-    "address": "Chatswood, NSW 2067",
-    "phone": null,
-    "website": null,
-    "description": "日本発の鉄板ステーキチェーンのチャッツウッド店。熱々の鉄板でビーフペッパーライスを提供。",
-    "tags": [
-      "ステーキ",
-      "鉄板焼",
-      "日本発チェーン"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "raijin-canberra",
-    "name": "Raijin Japanese Cuisine",
-    "name_ja": "雷神 日本料理",
-    "area": "McKellar",
-    "address": "McKellar, Canberra ACT 2617",
-    "phone": null,
-    "website": null,
-    "description": "キャンベラ・マッケラーの地元に愛される日本料理店。刺身・天ぷら・ラーメンに加え、創作ブラックカレーが人気。",
-    "tags": [
-      "日本料理",
-      "ラーメン",
-      "カレー"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "shin-sen-teppanyaki-canberra",
-    "name": "Shin Sen Teppanyaki",
-    "name_ja": "新鮮鉄板焼き",
-    "area": "Dickson",
-    "address": "Dickson, Canberra ACT 2602",
-    "phone": null,
-    "website": null,
-    "description": "キャンベラ・ディクソンの鉄板焼きレストラン。シェフのパフォーマンスと本格的な鉄板焼きが楽しめる。",
-    "tags": [
-      "鉄板焼き",
-      "パフォーマンス",
-      "エンタメ"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ippudo-canberra",
@@ -4977,26 +2312,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "marugame-udon-brisbane",
-    "name": "Marugame Udon Brisbane",
-    "name_ja": "丸亀製麺 ブリスベン",
-    "area": "Brisbane CBD",
-    "address": "Brisbane CBD, QLD 4000",
-    "phone": null,
-    "website": null,
-    "description": "讃岐うどんチェーンのブリスベン店。自家製麺と天ぷらのセルフ式が特徴。リーズナブルに日本の味を提供。",
-    "tags": [
-      "うどん",
-      "日本発チェーン",
-      "セルフサービス"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "yoshii-omakase-sydney",
@@ -5016,7 +2333,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "tsuzumi-omakase-barangaroo",
@@ -5035,7 +2353,8 @@
     "hours": "火〜土 11:30-21:00",
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "kokumai-barangaroo",
@@ -5054,7 +2373,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "torotoro-ramen-barangaroo",
@@ -5072,7 +2392,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "torotoro-ramen-north-sydney",
@@ -5091,7 +2412,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "kuro-bar-dining-sydney",
@@ -5110,7 +2432,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "daruma-haymarket",
@@ -5129,7 +2452,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "gyuniku-haymarket",
@@ -5148,7 +2472,8 @@
     "hours": "12:00-22:00（毎日）",
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "tenkomori-ramen-sydney",
@@ -5166,7 +2491,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "izakaya-uomichi-sydney",
@@ -5185,7 +2511,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "yakimono-melbourne",
@@ -5204,7 +2531,8 @@
     "hours": "12:00〜Late（毎日）",
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "warabi-melbourne-flinders",
@@ -5223,7 +2551,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sachi-melbourne",
@@ -5242,7 +2571,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "omi-380-melbourne",
@@ -5262,7 +2592,8 @@
     "hours": "10:00-21:00（毎日）",
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "yugen-south-yarra",
@@ -5281,7 +2612,8 @@
     "hours": "火〜土 ディナー営業",
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sushi-on-kew-omakase",
@@ -5300,7 +2632,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "komeyui-southbank",
@@ -5319,7 +2652,8 @@
     "hours": "火〜日 11:30-14:30 / 17:30-21:30",
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ikkai-melbourne",
@@ -5338,7 +2672,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "yakinau-melbourne",
@@ -5357,26 +2692,8 @@
     "hours": "ランチ 11:00-15:00 / ディナー 17:00-23:00（毎日）",
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
-  },
-  {
-    "slug": "matsuyama-prahran-market-2",
-    "name": "Matsuyama",
-    "name_ja": "松山",
-    "area": "South Yarra",
-    "address": "Shop 809-3, Prahran Market, 163 Commercial Road, South Yarra VIC 3141",
-    "phone": null,
-    "website": null,
-    "description": "Prahran Market内の日本食レストラン。串焼き、サンド、和牛弁当を提供。ドラマ『深夜食堂』にインスパイアされた温かい雰囲気。日本酒も楽しめる。",
-    "tags": [
-      "串焼き",
-      "弁当",
-      "マーケット内"
-    ],
-    "hours": "火 11:00-15:00 / 木金 11:00-15:00 / 土日 10:00-16:00",
-    "status": "unverified",
-    "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "miji-bar-grill-north-sydney",
@@ -5395,7 +2712,8 @@
     "hours": "11:00-24:00（毎日）",
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "oborozuki-circular-quay",
@@ -5415,7 +2733,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "hisshou-teppanyaki-sydney",
@@ -5433,7 +2752,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ichioku-teppanyaki-newtown",
@@ -5451,24 +2771,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
-  },
-  {
-    "slug": "shinju-teppan-north-sydney",
-    "name": "Shinju Teppan Japanese Restaurant",
-    "name_ja": "真珠 鉄板",
-    "area": "North Sydney",
-    "address": "51 Berry Street, North Sydney NSW 2060",
-    "phone": null,
-    "website": null,
-    "description": "North Sydneyの鉄板焼きレストラン。Berry Street沿いに位置し、鉄板焼きスタイルの日本料理を提供。",
-    "tags": [
-      "鉄板焼き"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-28",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "yamamoto-udon-melbourne",
@@ -5487,7 +2791,8 @@
     "hours": "11:30-21:15（毎日）",
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "shimbashi-soba-melbourne",
@@ -5507,7 +2812,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "asahi-teppanyaki-sydney",
@@ -5525,6 +2831,7 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   }
 ]

@@ -7,7 +7,7 @@
     "address": "Level 2, 696 Bourke Street, Melbourne VIC 3000",
     "phone": null,
     "website": "https://www.kuyamaito.com.au/",
-    "description": "メルボルンCBDの日本語対応CPA会計事務所。会計・税務・ビジネスコンサルティングを日本語で提供。個人のタックスリターンにも対応。",
+    "description": "メルボルンCBDの日本語対応CPA会計事務所。会計・税務・ビジネスコンサルティングを日本語で提供。個人のタックスリターンから法人会計まで対応。",
     "tags": [
       "日本語対応",
       "CPA",
@@ -17,7 +17,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "mats-accounting-sydney",
@@ -27,7 +28,7 @@
     "address": "Level 8, 66 Goulburn Street, Sydney NSW 2000",
     "phone": null,
     "website": null,
-    "description": "シドニーCBDの日本語対応会計事務所。個人のタックスリターン、法人会計、ビジネスアドバイスを提供。",
+    "description": "シドニーCBDの日本語対応会計事務所。個人のタックスリターン、法人会計、ビジネスアドバイスを日本語で提供。",
     "tags": [
       "日本語対応",
       "会計",
@@ -36,7 +37,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "ys-accounting-sydney",
@@ -46,7 +48,7 @@
     "address": "304/52 Atchison Street, St Leonards NSW 2065",
     "phone": null,
     "website": null,
-    "description": "シドニー北部の日本語対応会計事務所。ワーホリから永住者まで、個人・法人の税務・会計をサポート。",
+    "description": "シドニー北部St Leonardsの日本語対応会計事務所。ワーホリから永住者まで、個人・法人の税務・会計をサポート。",
     "tags": [
       "日本語対応",
       "会計",
@@ -55,7 +57,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "deloitte-japan-desk-au",
@@ -65,7 +68,7 @@
     "address": "Sydney CBD, NSW",
     "phone": null,
     "website": "https://www2.deloitte.com/au/",
-    "description": "Big4会計事務所。日本企業の豪州事業に関する税務・監査を日本語チームが担当。",
+    "description": "Big4会計事務所デロイトのオーストラリア拠点。日本企業の豪州事業に関する税務・監査・アドバイザリーを日本語チームが担当。主に法人向け。",
     "tags": [
       "会計事務所",
       "Big4",
@@ -74,7 +77,8 @@
     "hours": "平日 9:00〜17:30",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "ey-japan-desk-au",
@@ -84,7 +88,7 @@
     "address": "Sydney CBD, NSW",
     "phone": null,
     "website": "https://www.ey.com/",
-    "description": "EYの豪州オフィス。日系企業の豪州進出・税務・監査をサポート。",
+    "description": "Big4会計事務所EYのオーストラリア拠点。日系企業の豪州進出・税務・監査をサポートするJapan Business Servicesチームを配置。主に法人向け。",
     "tags": [
       "会計事務所",
       "Big4",
@@ -93,26 +97,28 @@
     "hours": "平日 9:00〜17:30",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "ezy-tax-online-au",
-    "name": "Ezy Tax Online",
-    "name_ja": "イージータックス オンライン",
-    "area": "Sydney CBD",
-    "address": "Sydney CBD, NSW",
+    "name": "Ezy Tax Solutions Japan",
+    "name_ja": "イージータックスソリューションズ ジャパン",
+    "area": "Online",
+    "address": "Online (Australia-wide)",
     "phone": null,
-    "website": null,
-    "description": "日本語対応のオンライン税務サービス。年間5,000人以上の個人・500社以上の法人のタックスリターンを処理。CPA資格・登録税理士在籍。シドニー・メルボルン・ブリスベンから利用可能。",
+    "website": "https://ezytaxsolutionsjapan.com.au/",
+    "description": "日本語完全対応のオンライン税務サービス。年間5,000人以上の個人・500社以上の法人のタックスリターンを処理。CPA資格・登録税理士在籍。24時間オンライン対応で、シドニー・メルボルン・ブリスベン等オーストラリア全土から利用可能。ワーホリ向けプランあり。",
     "tags": [
-      "日本語対応",
+      "日本語完全対応",
       "タックスリターン",
       "オンライン"
     ],
     "hours": "要確認",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "curam-accounting-au",
@@ -122,16 +128,17 @@
     "address": "Sydney, NSW",
     "phone": null,
     "website": "https://curamaccounting.com.au/",
-    "description": "日本語対応の会計事務所。個人のタックスリターンから法人の会計・税務まで幅広く対応。ワーホリ・留学生のタックスリターンにも対応。",
+    "description": "シドニーの日本語対応会計事務所。CPA資格・登録税理士在籍。Xero・MYOB・Reckon対応。個人のタックスリターンから法人のBAS・会計まで幅広く対応。ワーホリ・留学生のタックスリターンにも対応。",
     "tags": [
       "日本語対応",
-      "会計",
+      "CPA",
       "ワーホリ対応"
     ],
     "hours": "要確認",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "my-accountancy-au",
@@ -150,7 +157,8 @@
     "hours": "要確認",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "jcm-tax-perth",
@@ -160,7 +168,7 @@
     "address": "Perth, WA",
     "phone": null,
     "website": "https://sites.google.com/view/jcmtax/",
-    "description": "パースの日本人公認会計士による税務事務所。Tax Practitioners Board登録。個人・法人のタックスリターン、税務相談、経営分析に対応。",
+    "description": "パースの日本人公認会計士による税務事務所。Tax Practitioners Board登録。個人・法人のタックスリターン、税務相談、経営分析に日本語で対応。",
     "tags": [
       "日本人CPA",
       "タックスリターン",
@@ -169,6 +177,7 @@
     "hours": "要確認",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   }
 ]

@@ -5,18 +5,19 @@
     "name_ja": "ANBIデンタルクリニック",
     "area": "Sydney CBD",
     "address": "Suite 1104, Level 11, World Tower Commercial, 87-89 Liverpool Street, Sydney NSW 2000",
-    "phone": "+61292690517",
+    "phone": "+61292690514",
     "website": "https://haisha.com.au/",
-    "description": "シドニーCBDの日本語対応歯科クリニック。20年以上の実績。日本語対応の歯科医と日本人スタッフが在籍。帰国後は提携の新宿院で治療継続可能。",
+    "description": "シドニーCBDのWorld Tower内にある日本語対応歯科クリニック。公式サイトは日本語で運営。Dr. Knox Kim率いるチームがインビザライン、インプラント、根管治療、審美歯科を提供。デジタル麻酔や顕微鏡治療など最新設備を導入。帰国後は提携の新宿院で治療継続可能。",
     "tags": [
       "日本語対応",
       "インビザライン",
-      "帰国後治療継続"
+      "帰国後治療継続可"
     ],
     "hours": "月〜金 9:00〜18:00",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "aoyama-dental-sydney",
@@ -35,156 +36,107 @@
     "hours": "要確認",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "blue-house-dental-melbourne",
     "name": "Blue House Dental",
     "name_ja": "ブルーハウスデンタル",
-    "area": "Melbourne",
-    "address": "Melbourne, VIC",
+    "area": "Frenchs Forest",
+    "address": "Frenchs Forest, NSW 2086",
     "phone": null,
-    "website": "https://bluehousedental.com.au/",
-    "description": "メルボルンの歯科クリニック。日本語スキルを活かして地元の日本人コミュニティにサービスを提供する歯科医が在籍。",
+    "website": "https://www.bluehousedental.com.au/",
+    "description": "シドニー北部フレンチスフォレストの歯科クリニック。日本語対応スタッフAsakaさん（日本生まれ・日本育ち）が在籍。審美歯科、ホワイトニング、一般歯科、定期検診を提供。",
     "tags": [
-      "日本語対応可",
-      "一般歯科",
-      "コミュニティ重視"
+      "日本語対応スタッフ",
+      "審美歯科",
+      "一般歯科"
     ],
     "hours": "要確認",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "dental-care-chatswood",
-    "name": "Dental Care Chatswood",
-    "name_ja": "デンタルケア チャッツウッド",
-    "area": "Chatswood",
-    "address": "Chatswood, NSW",
-    "phone": null,
-    "website": null,
-    "description": "チャッツウッドの歯科クリニック。日本人患者の受け入れ実績あり。一般歯科・矯正・ホワイトニングに対応。",
-    "tags": [
-      "歯科",
-      "矯正",
-      "ホワイトニング"
-    ],
-    "hours": "平日 9:00〜18:00 / 土 9:00〜13:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "south-yarra-dental",
-    "name": "South Yarra Dental Clinic",
-    "name_ja": "サウスヤラ歯科",
-    "area": "South Yarra",
-    "address": "South Yarra, Melbourne, VIC",
-    "phone": null,
-    "website": null,
-    "description": "サウスヤラの歯科クリニック。日本人居住者の利用も多いエリア。最新設備で丁寧な治療を提供。",
-    "tags": [
-      "歯科",
-      "最新設備"
-    ],
-    "hours": "平日 9:00〜18:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "neutral-bay-dental",
-    "name": "Neutral Bay Dental Care",
-    "name_ja": "ニュートラルベイ歯科",
-    "area": "Neutral Bay",
-    "address": "Neutral Bay, Sydney, NSW",
-    "phone": null,
-    "website": null,
-    "description": "ニュートラルベイの歯科クリニック。日本人在住者の利用実績あり。一般歯科・矯正に対応。",
-    "tags": [
-      "歯科",
-      "矯正"
-    ],
-    "hours": "平日 9:00〜18:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "sydney-cbd-dental",
-    "name": "Sydney CBD Dental",
-    "name_ja": "シドニーCBD歯科",
-    "area": "Sydney CBD",
-    "address": "Sydney CBD, NSW",
-    "phone": null,
-    "website": null,
-    "description": "シドニーCBDの歯科クリニック。外国人患者対応に慣れている。緊急対応も可能。",
-    "tags": [
-      "歯科",
-      "外国人対応",
-      "緊急対応"
-    ],
-    "hours": "平日 8:30〜18:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "k-family-dental-chatswood",
     "name": "K Family Dental",
     "name_ja": "Kファミリーデンタル",
     "area": "Chatswood",
-    "address": "Chatswood NSW 2067",
+    "address": "Unit 52/47 Neridah Street, Chatswood NSW 2067",
     "phone": "+61294152868",
-    "website": null,
-    "description": "チャッツウッドの日本語対応歯科。日本語専用ライン（0432-141-815）あり。一般歯科・矯正・小児歯科に対応。",
+    "website": "https://kfamilydental.com.au/",
+    "description": "チャッツウッドの日本語対応歯科。20年以上の実績。Dr. Klein Chenが日本語・中国語・英語で診察。日本語専用予約ライン（0432-141-815）あり。インビザライン、インプラント、緊急対応も可能。夜間・週末も診療。",
     "tags": [
       "日本語対応",
-      "一般歯科",
-      "日本語専用ライン"
+      "日本語専用ライン",
+      "夜間・週末診療"
     ],
     "hours": "要確認",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "worldciti-dental-sydney",
     "name": "Worldciti Dental",
     "name_ja": "ワールドシティデンタル",
-    "area": "Sydney CBD",
-    "address": "Suite 1104, Level 11, World Tower Commercial, 87-89 Liverpool Street, Sydney NSW 2000",
+    "area": "Haymarket",
+    "address": "Level 2, 710-722 George Street, Haymarket NSW 2000",
     "phone": "+61292670517",
-    "website": null,
-    "description": "シドニーCBDの日本語対応歯科。World Tower内。日本語対応スタッフが在籍し、予約から治療まで日本語でサポート。",
+    "website": "https://www.worldcitidental.com.au/",
+    "description": "ヘイマーケットの日本語対応歯科。World Tower近くに位置し、日本語対応スタッフが在籍。一般歯科、審美歯科、インプラント、矯正歯科を提供。同ビル内にWorldciti Medical（GP）もあり。",
     "tags": [
       "日本語対応",
-      "歯科",
-      "World Tower"
+      "審美歯科",
+      "インプラント"
     ],
     "hours": "月〜金 9:00〜18:00",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
-    "slug": "ashwood-family-dental",
-    "name": "Ashwood Family Dental",
-    "name_ja": "アッシュウッドファミリーデンタル",
-    "area": "Ashwood",
-    "address": "Ashwood, Melbourne VIC",
-    "phone": null,
-    "website": null,
-    "description": "メルボルン・アッシュウッドの歯科クリニック。日本語対応が可能。一般歯科・小児歯科に対応。",
+    "slug": "shibata-dental-camberwell",
+    "name": "Shibata Dental",
+    "name_ja": "柴田歯科",
+    "area": "Camberwell",
+    "address": "513 Camberwell Road, Camberwell VIC 3124",
+    "phone": "+61398890612",
+    "website": "https://shibatadentalcamberwell.com.au/",
+    "description": "2003年開業のメルボルン・キャンバーウェルの歯科クリニック。日本人歯科医師Dr. Yoshikatsu Shibata（柴田）が設立。一般歯科、外科的抜歯、小児歯科、ホワイトニング、インプラントに対応。日本語での診察が可能。",
     "tags": [
-      "日本語対応可",
+      "日本人歯科医師",
       "一般歯科",
-      "小児歯科"
+      "インプラント"
     ],
     "hours": "要確認",
+    "last_verified": "2026-03-28",
     "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "source": "web_search",
+    "ai_reviewed": true
+  },
+  {
+    "slug": "everglow-dental-oakleigh",
+    "name": "EverGlow Dental",
+    "name_ja": "エバーグローデンタル",
+    "area": "Hughesdale",
+    "address": "Hughesdale, Melbourne VIC",
+    "phone": null,
+    "website": "https://www.everglow-dental.com.au/en",
+    "description": "2025年開業。日本とオーストラリア両方の歯科医師資格を持つ安藤大（あんどう だい）医師のクリニック。横浜の総合病院歯科で15年の経験を持ち、2013年渡豪、2015年に豪州歯科医師資格を取得。日本の丁寧なケアと豪州の最新技術を融合した診療を提供。日本語・英語対応。",
+    "tags": [
+      "日本人歯科医師",
+      "日豪両資格",
+      "一般歯科"
+    ],
+    "hours": "要確認",
+    "last_verified": "2026-03-28",
+    "status": "unverified",
+    "source": "web_search",
+    "ai_reviewed": true
   }
 ]

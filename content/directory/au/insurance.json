@@ -7,7 +7,7 @@
     "address": "Level 22, 1 O'Connell Street, Sydney NSW 2000",
     "phone": "+61292325400",
     "website": "https://www.tokiomarinegroup.com/",
-    "description": "東京海上グループのオーストラリア拠点。1963年シドニーに代表事務所を開設。事故・医療・旅行保険を提供するAHIも傘下。",
+    "description": "東京海上グループのオーストラリア拠点。1963年にシドニー代表事務所を開設。傘下のAHIが事故・医療・旅行保険を提供。主に法人・損害保険向け。",
     "tags": [
       "日系保険",
       "旅行保険",
@@ -16,17 +16,18 @@
     "hours": "月〜金 9:00-17:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "msi-oceania",
     "name": "Mitsui Sumitomo Insurance Oceania",
     "name_ja": "三井住友海上 オセアニア",
     "area": "Sydney CBD",
-    "address": "Level 14, 1 Macquarie Place, Sydney NSW 2000",
+    "address": "Level 26, 135 King Street, Sydney NSW 2000",
     "phone": "+61292234455",
     "website": "https://www.msi-oceania.com/",
-    "description": "三井住友海上のオーストラリア拠点。35年以上のオーストラリアでの運営実績。日系企業向けの損害保険を提供。",
+    "description": "三井住友海上（MS&ADグループ）のオーストラリア拠点。35年以上の運営実績。ISR（総合リスク保険）、賠償責任保険、海上貨物保険、商用自動車保険、建設保険など法人向け損害保険を提供。メルボルンオフィスも設置（Level 17, 412 St Kilda Road）。",
     "tags": [
       "日系保険",
       "損害保険",
@@ -35,7 +36,8 @@
     "hours": "月〜金 9:00-17:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "sompo-australia",
@@ -45,7 +47,7 @@
     "address": "Sydney, NSW, Australia",
     "phone": null,
     "website": null,
-    "description": "SOMPOホールディングスのオーストラリア拠点。35年以上の運営実績を持つ日本第2位の損害保険会社。法人向け保険を中心に提供。",
+    "description": "SOMPOホールディングスのオーストラリア拠点。日本3大損保の一角。法人向け損害保険を中心に提供。",
     "tags": [
       "日系保険",
       "損害保険",
@@ -54,7 +56,8 @@
     "hours": "月〜金 9:00-17:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "jams-insurance-sydney",
@@ -64,7 +67,7 @@
     "address": "Sydney, NSW, Australia",
     "phone": null,
     "website": "https://www.jams.tv/insurance/",
-    "description": "オーストラリア在住日本人向けの保険情報サイト。OSHC、プライベート保険、旅行保険などの比較・相談を日本語で提供。",
+    "description": "オーストラリア在住日本人向けの保険情報・相談サイト。JAMS.TV運営。OSHC（留学生健康保険）、プライベート保険、旅行保険などの比較・相談を日本語で提供。個人向け。",
     "tags": [
       "日本語対応",
       "保険相談",
@@ -73,7 +76,8 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "aioi-nissay-dowa-au",
@@ -83,7 +87,7 @@
     "address": "Sydney CBD, NSW",
     "phone": null,
     "website": null,
-    "description": "あいおいニッセイ同和損保の豪州拠点。日系企業向け損害保険サービスを提供。",
+    "description": "あいおいニッセイ同和損保（MS&ADグループ）の豪州拠点。日系企業向け損害保険サービスを提供。主に法人向け。",
     "tags": [
       "損害保険",
       "日系",
@@ -92,6 +96,7 @@
     "hours": "平日 9:00〜17:30",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   }
 ]

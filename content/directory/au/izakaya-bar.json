@@ -7,7 +7,7 @@
     "address": "73 Macleay Street, Potts Point NSW 2011",
     "phone": "+61293316601",
     "website": "https://www.chochosan.com.au/",
-    "description": "Potts Pointの人気居酒屋。蟹チャーハンやXOソース、バンケットメニューが名物。おしゃれな内装でカジュアルに日本の料理とお酒を楽しめる。",
+    "description": "Potts Pointの人気居酒屋スタイルレストラン。蟹チャーハンやXOソース、バンケットメニューが名物。おしゃれな内装でカジュアルに日本の料理とお酒を楽しめる。予約推奨。",
     "tags": [
       "居酒屋",
       "カジュアル",
@@ -16,7 +16,8 @@
     "hours": "月〜木 17:30-23:00 / 金〜日 12:00-23:00",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "izakaya-miyazaki",
@@ -26,7 +27,7 @@
     "address": "Basement 3/114 Russell Street, Melbourne VIC 3000",
     "phone": "+61398888333",
     "website": "https://www.miyazakiaus.com/",
-    "description": "メルボルンCBDの本格居酒屋。A5宮崎和牛、豊洲直送の雲丹、季節の深海魚など、日本から空輸される食材を使用。日本酒バーも充実。",
+    "description": "メルボルンCBDの本格居酒屋。A5宮崎和牛、豊洲直送の雲丹、季節の深海魚など日本から空輸される食材を使用。日本酒バーも充実。ランチ・ディナー営業。",
     "tags": [
       "居酒屋",
       "和牛",
@@ -35,7 +36,8 @@
     "hours": "月〜金 11:30-22:00 / 土 12:00-22:30 / 日 12:00-21:00",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "izakaya-domo",
@@ -45,7 +47,7 @@
     "address": "GPO Postal Lane, Shop 28/350 Bourke Street, Melbourne VIC 3000",
     "phone": "+61396400132",
     "website": "https://www.izakayadomo.com.au/",
-    "description": "メルボルンGPO内の居酒屋。焼き鳥、寿司、刺身を中心に、日本のビール、日本酒、焼酎も豊富。ランチからディナーまで通し営業。",
+    "description": "メルボルンGPO内の居酒屋。焼き鳥、寿司、刺身を中心に、日本のビール・日本酒・焼酎も豊富。ランチからディナーまで通し営業で日常使いしやすい。",
     "tags": [
       "居酒屋",
       "焼き鳥",
@@ -54,7 +56,8 @@
     "hours": "ランチ: 月〜金 11:30-15:00, 土日 11:30-17:00 / ディナー: 毎日 17:00-22:00",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "kinoya-sydney",
@@ -64,7 +67,7 @@
     "address": "16 Shelley Street, King Street Wharf, Sydney NSW 2000",
     "phone": "+61292798622",
     "website": "https://kinoya.com.au/",
-    "description": "シドニーの居酒屋＆ラーメン店。濃厚な豚骨ラーメンと焼き鳥が人気。日本のビール、日本酒も充実したカジュアルな雰囲気。",
+    "description": "シドニー・バランガルーの居酒屋＆ラーメン店。濃厚な豚骨ラーメンと焼き鳥が人気。日本のビール・日本酒も充実したカジュアルな雰囲気。",
     "tags": [
       "居酒屋",
       "ラーメン",
@@ -73,26 +76,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "ryos-noodles",
-    "name": "Ryo's Noodles",
-    "name_ja": "リョーズ ヌードル",
-    "area": "Crows Nest",
-    "address": "125 Falcon Street, Crows Nest NSW 2065",
-    "phone": "+61299550225",
-    "website": "https://ryosramen.com.au/",
-    "description": "シドニーの老舗ラーメン店。東京スタイルの縮れ麺と濃厚スープが人気の小さな店舗。予約不可・ウォークインのみ。地元のラーメンファンに長年愛されている。",
-    "tags": [
-      "ラーメン",
-      "予約不可",
-      "老舗"
-    ],
-    "hours": "週6日営業（定休日は要確認）",
-    "last_verified": "2026-03-26",
-    "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "yamagen-qt-melbourne",
@@ -112,7 +97,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "shujinko-melbourne",
@@ -122,7 +108,7 @@
     "address": "225 Russell Street, Melbourne VIC 3000",
     "phone": "+61396398256",
     "website": "https://www.shujinko.com.au/",
-    "description": "メルボルンCBDの24時間営業ラーメン＆居酒屋。深夜でも本格的なラーメンと居酒屋メニューが楽しめる。日本人留学生にも人気。",
+    "description": "メルボルンCBD・Russell Streetの24時間営業ラーメン＆居酒屋。深夜でも本格的なラーメンと居酒屋メニューが楽しめる。日本人留学生にも人気。",
     "tags": [
       "ラーメン",
       "居酒屋",
@@ -131,7 +117,8 @@
     "hours": "24時間営業",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "hana-ju-rin-sydney",
@@ -141,7 +128,7 @@
     "address": "1/59 Willoughby Road, Crows Nest NSW 2065",
     "phone": "+61299551568",
     "website": null,
-    "description": "シドニー・クロウズネストの隠れ家的居酒屋。焼き鳥、串揚げ、刺身など伝統的な居酒屋料理を提供。日本人シェフが腕を振るう。",
+    "description": "シドニー・クロウズネストの隠れ家的居酒屋。焼き鳥、串揚げ、刺身など伝統的な居酒屋料理を提供。Willoughby Road沿い。",
     "tags": [
       "居酒屋",
       "焼き鳥",
@@ -150,7 +137,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "toko-surry-hills-bar",
@@ -160,7 +148,7 @@
     "address": "490 Crown Street, Surry Hills NSW 2010",
     "phone": "+61293575100",
     "website": "https://www.toko-sydney.com/",
-    "description": "日本料理店Tokoに併設されたカクテルバー。日本のウイスキー、日本酒、オリジナルカクテルを提供。",
+    "description": "Surry Hillsの日本料理店Tokoに併設されたカクテルバー。日本のウイスキー、日本酒、オリジナルカクテルを提供。Crown Street沿い。",
     "tags": [
       "カクテル",
       "日本ウイスキー",
@@ -169,470 +157,18 @@
     "hours": "月〜木 17:30-24:00 / 金土 17:30-26:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "bancho-bar-sydney",
-    "name": "Bancho Bar",
-    "name_ja": "番町バー",
-    "area": "Sydney CBD",
-    "address": "23 York Street, Sydney NSW 2000",
-    "phone": null,
-    "website": null,
-    "description": "シドニーCBDの日本スタイルバー。日本のウイスキーを中心としたカクテルと居酒屋スタイルのおつまみを提供。隠れ家的な雰囲気。",
-    "tags": [
-      "バー",
-      "ウイスキー",
-      "隠れ家"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "tokyo-bird-surry-hills",
-    "name": "Tokyo Bird",
-    "name_ja": "東京バード",
-    "area": "Surry Hills",
-    "address": "Surry Hills, Sydney, NSW",
-    "phone": null,
-    "website": null,
-    "description": "シドニーの人気焼き鳥バー。サリーヒルズの隠れ家的な地下バーで、本格焼き鳥と日本のウイスキーを提供。",
-    "tags": [
-      "焼き鳥",
-      "バー",
-      "隠れ家"
-    ],
-    "hours": "17:30〜23:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "sake-bar-declan-melbourne",
-    "name": "Sake Bar Declan",
-    "name_ja": "酒バー デクラン",
-    "area": "Melbourne CBD",
-    "address": "Melbourne CBD, VIC",
-    "phone": null,
-    "website": null,
-    "description": "メルボルンCBDの日本酒バー。オーストラリア最大級の日本酒コレクションを誇る。利き酒セットも。",
-    "tags": [
-      "日本酒",
-      "バー",
-      "利き酒"
-    ],
-    "hours": "17:00〜翌1:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "izakaya-fujiyama-melbourne",
-    "name": "Izakaya Fujiyama",
-    "name_ja": "居酒屋富士山 メルボルン",
-    "area": "Melbourne CBD",
-    "address": "Melbourne CBD, VIC",
-    "phone": null,
-    "website": null,
-    "description": "メルボルンの本格居酒屋。日本各地の料理と焼酎・日本酒を提供。にぎやかな雰囲気で日本の居酒屋体験ができる。",
-    "tags": [
-      "居酒屋",
-      "焼酎",
-      "日本酒"
-    ],
-    "hours": "17:30〜23:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "yurippi-izakaya-sydney",
-    "name": "Yurippi Izakaya",
-    "name_ja": "ゆりっぴ居酒屋",
-    "area": "Chatswood",
-    "address": "Chatswood, NSW",
-    "phone": null,
-    "website": null,
-    "description": "チャッツウッドの本格居酒屋。焼き鳥・刺身・天ぷらに加え、日本酒・焼酎のセレクションも豊富。",
-    "tags": [
-      "居酒屋",
-      "焼き鳥",
-      "日本酒"
-    ],
-    "hours": "17:30〜23:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "goros-izakaya-sydney",
-    "name": "Goro's Izakaya",
-    "name_ja": "ゴローの居酒屋",
-    "area": "Surry Hills",
-    "address": "Surry Hills, Sydney, NSW",
-    "phone": null,
-    "website": null,
-    "description": "サリーヒルズの隠れ家的居酒屋。焼き鳥や小鉢など本格的な居酒屋メニューが充実。",
-    "tags": [
-      "居酒屋",
-      "隠れ家",
-      "焼き鳥"
-    ],
-    "hours": "18:00〜23:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "izakaya-masu-melbourne",
-    "name": "Izakaya Masu Melbourne",
-    "name_ja": "居酒屋ます メルボルン",
-    "area": "Melbourne CBD",
-    "address": "Melbourne CBD, VIC",
-    "phone": null,
-    "website": null,
-    "description": "メルボルンCBDの居酒屋。日本の大衆酒場の雰囲気を再現。手頃な価格で楽しめる。",
-    "tags": [
-      "居酒屋",
-      "大衆酒場",
-      "カジュアル"
-    ],
-    "hours": "17:30〜23:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "whisky-bar-melbourne",
-    "name": "Japanese Whisky Bar Melbourne",
-    "name_ja": "ジャパニーズウイスキーバー メルボルン",
-    "area": "Melbourne CBD",
-    "address": "Melbourne CBD, VIC",
-    "phone": null,
-    "website": null,
-    "description": "日本のウイスキーを専門に取り扱うバー。山崎・響・白州など希少銘柄も揃える。",
-    "tags": [
-      "ウイスキー",
-      "バー"
-    ],
-    "hours": "17:00〜翌1:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "sake-bar-sydney",
-    "name": "Sake Bar Sydney",
-    "name_ja": "酒バー シドニー",
-    "area": "Sydney CBD",
-    "address": "Sydney CBD, NSW",
-    "phone": null,
-    "website": null,
-    "description": "シドニーCBDの日本酒専門バー。全国各地の地酒を常時50種以上取り揃え。",
-    "tags": [
-      "日本酒",
-      "バー",
-      "利き酒"
-    ],
-    "hours": "17:00〜翌1:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "izakaya-chatswood",
-    "name": "Izakaya Chatswood",
-    "name_ja": "居酒屋 チャッツウッド",
-    "area": "Chatswood",
-    "address": "Chatswood, NSW",
-    "phone": null,
-    "website": null,
-    "description": "チャッツウッドの居酒屋。日本人在住者に人気の定番店。焼き鳥・刺身・天ぷらを提供。",
-    "tags": [
-      "居酒屋",
-      "日本人利用多"
-    ],
-    "hours": "17:30〜23:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "kanpai-sydney",
-    "name": "Kanpai Sydney",
-    "name_ja": "乾杯 シドニー",
-    "area": "Darlinghurst",
-    "address": "Darlinghurst, Sydney, NSW",
-    "phone": null,
-    "website": null,
-    "description": "ダーリングハーストの焼肉居酒屋。上質な肉と活気のある雰囲気が特徴。",
-    "tags": [
-      "焼肉",
-      "居酒屋"
-    ],
-    "hours": "17:30〜23:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "hontoni-melbourne",
-    "name": "Hontoni Melbourne",
-    "name_ja": "ほんとに メルボルン",
-    "area": "Melbourne CBD",
-    "address": "Melbourne CBD, VIC",
-    "phone": null,
-    "website": null,
-    "description": "メルボルンCBDの居酒屋。手頃な価格で幅広い和食メニューと日本の酒を楽しめる。",
-    "tags": [
-      "居酒屋",
-      "カジュアル",
-      "手頃"
-    ],
-    "hours": "17:30〜23:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "yamagen-qt-melbourne-bar",
-    "name": "Yamagen Bar",
-    "name_ja": "山源 バー",
-    "area": "Melbourne CBD",
-    "address": "QT Melbourne, 133 Russell Street, Melbourne VIC 3000",
-    "phone": null,
-    "website": null,
-    "description": "QTメルボルンホテル内の日本酒＆ウイスキーバー。レア日本酒やジャパニーズウイスキーのコレクションが充実。2026年2月オープン。",
-    "tags": [
-      "日本酒",
-      "ウイスキー",
-      "ホテル内"
-    ],
-    "hours": "要確認",
     "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "chaco-bar-darlinghurst",
-    "name": "Chaco Bar Darlinghurst",
-    "name_ja": "チャコバー ダーリングハースト",
-    "area": "Darlinghurst",
-    "address": "Darlinghurst, Sydney NSW",
-    "phone": null,
-    "website": null,
-    "description": "シドニーの焼き鳥バー。ダーリングハーストの路地裏にある隠れ家的な店で、備長炭焼きの焼き鳥とカクテルを提供。",
-    "tags": [
-      "焼き鳥",
-      "バー",
-      "隠れ家"
-    ],
-    "hours": "18:00〜23:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "sake-restaurant-double-bay-bar",
-    "name": "SAKE Bar Double Bay",
-    "name_ja": "SAKE バー ダブルベイ",
-    "area": "Double Bay",
-    "address": "Double Bay, NSW",
-    "phone": null,
-    "website": null,
-    "description": "ダブルベイのSAKEレストラン併設バー。日本酒・焼酎・ジャパニーズカクテルを洗練された空間で提供。",
-    "tags": [
-      "日本酒",
-      "バー",
-      "高級"
-    ],
-    "hours": "17:00〜翌1:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "izakaya-chuji-sydney",
-    "name": "Izakaya Chuji",
-    "name_ja": "居酒屋忠治 シドニー",
-    "area": "Sydney CBD",
-    "address": "Sydney CBD, NSW",
-    "phone": null,
-    "website": null,
-    "description": "シドニーCBDの本格居酒屋。焼き鳥・刺身・天ぷらなど定番居酒屋メニューを提供。日本人シェフが腕を振るう。",
-    "tags": [
-      "居酒屋",
-      "焼き鳥",
-      "日本人シェフ"
-    ],
-    "hours": "17:30〜23:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "supernormal-melbourne-bar",
-    "name": "Supernormal Bar",
-    "name_ja": "スーパーノーマル バー",
-    "area": "Melbourne CBD",
-    "address": "Flinders Lane, Melbourne VIC 3000",
-    "phone": null,
-    "website": null,
-    "description": "メルボルンCBDの人気アジアンダイニングのバーエリア。日本のウイスキーカクテルと居酒屋スタイルのおつまみ。",
-    "tags": [
-      "バー",
-      "カクテル",
-      "アジアン"
-    ],
-    "hours": "17:00〜翌1:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "kinoya-sydney-bar",
-    "name": "Kinoya Bar",
-    "name_ja": "キノヤ バー",
-    "area": "Barangaroo",
-    "address": "King Street Wharf, Sydney NSW",
-    "phone": null,
-    "website": "https://kinoya.com.au/",
-    "description": "キノヤ併設のバーエリア。ラーメンと焼き鳥に加え、日本のビール・焼酎・日本酒を楽しめる。",
-    "tags": [
-      "バー",
-      "ラーメン",
-      "焼き鳥"
-    ],
-    "hours": "要確認",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "sake-restaurant-rocks-bar",
-    "name": "SAKE Restaurant Bar The Rocks",
-    "name_ja": "SAKE バー ロックス",
-    "area": "The Rocks",
-    "address": "The Rocks, Sydney, NSW",
-    "phone": null,
-    "website": null,
-    "description": "ロックスのSAKEレストラン併設バー。日本酒・ウイスキー・カクテルとおまかせメニューを提供。",
-    "tags": [
-      "日本酒",
-      "バー",
-      "ロックス"
-    ],
-    "hours": "17:00〜翌1:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "tamura-sake-bar-melbourne",
-    "name": "Tamura Sake Bar",
-    "name_ja": "たむら酒バー",
-    "area": "Melbourne CBD",
-    "address": "Melbourne CBD, VIC",
-    "phone": null,
-    "website": null,
-    "description": "メルボルンCBDのムーディーな日本酒バー。レコードが回る空間で日本酒と居酒屋料理を楽しめる。Izakaya by Tamuraの姉妹店。",
-    "tags": [
-      "日本酒",
-      "バー",
-      "レコード"
-    ],
-    "hours": "要確認",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "tokyo-bird-surry-hills-izakaya",
-    "name": "Tokyo Bird Surry Hills",
-    "name_ja": "東京バード サリーヒルズ",
-    "area": "Surry Hills",
-    "address": "508 Crown Street, Surry Hills NSW 2010",
-    "phone": null,
-    "website": null,
-    "description": "サリーヒルズの地下にある隠れ家的焼き鳥バー。備長炭で焼く本格焼き鳥と日本のウイスキーカクテルを提供。",
-    "tags": [
-      "焼き鳥",
-      "バー",
-      "地下隠れ家"
-    ],
-    "hours": "17:30〜23:00",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
-  },
-  {
-    "slug": "chaco-bar-potts-point",
-    "name": "Chaco Bar Potts Point",
-    "name_ja": "チャコバー ポッツポイント",
-    "area": "Potts Point",
-    "address": "Potts Point, Sydney NSW",
-    "phone": null,
-    "website": null,
-    "description": "シドニーの焼き鳥バー。備長炭で焼く串焼きとカクテルを気軽に楽しめるカジュアルな雰囲気。",
-    "tags": [
-      "焼き鳥",
-      "バー",
-      "カジュアル"
-    ],
-    "hours": "18:00〜23:00",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "nakano-darling-sydney",
-    "name": "Nakano Darling",
-    "name_ja": "ナカノダーリン",
-    "area": "Sydney CBD",
-    "address": "Sydney CBD, NSW",
-    "phone": null,
-    "website": null,
-    "description": "シドニーCBDの居酒屋。日本の大衆酒場の雰囲気を再現。手頃な価格で焼き鳥・天ぷら・刺身を提供。",
-    "tags": [
-      "居酒屋",
-      "大衆酒場",
-      "カジュアル"
-    ],
-    "hours": "17:30〜23:00",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "supernormal-melbourne",
-    "name": "Supernormal",
-    "name_ja": "スーパーノーマル",
-    "area": "Melbourne CBD",
-    "address": "180 Flinders Lane, Melbourne VIC 3000",
-    "phone": null,
-    "website": null,
-    "description": "メルボルンCBDの人気アジアンダイニング。日本・中国・韓国料理を融合。New England Lobster Rollが名物。Andrew McConnellシェフの人気店。",
-    "tags": [
-      "アジアンダイニング",
-      "フュージョン",
-      "人気店"
-    ],
-    "hours": "要確認",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website"
+    "ai_reviewed": true
   },
   {
     "slug": "kumo-izakaya-brunswick-east",
     "name": "Kumo Izakaya & Sake Bar",
-    "name_ja": "雲 居酒屋＆酒バー",
+    "name_ja": "雲 居酒屋",
     "area": "Brunswick East",
     "address": "152 Lygon Street, Brunswick East VIC 3057",
     "phone": "+61393881505",
     "website": "https://kumoizakaya.com.au/",
-    "description": "ブランズウィックイーストの居酒屋＆酒バー。焼き鳥・小鉢・刺身と日本酒を提供。落ち着いた雰囲気で日本の居酒屋体験ができる。",
+    "description": "ブランズウィックイーストの居酒屋＆日本酒バー。カジュアルな雰囲気で日本酒と居酒屋料理を楽しめる。",
     "tags": [
       "居酒屋",
       "日本酒",
@@ -641,7 +177,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ichi-ni-nana-fitzroy",
@@ -651,7 +188,7 @@
     "address": "127 Brunswick Street, Fitzroy VIC 3065",
     "phone": "+61394174127",
     "website": "https://ichininana.com.au/",
-    "description": "フィッツロイの居酒屋＆クラフト酒バー＆レコードストア。居酒屋スタイルの小皿料理（焼き鳥・揚げ出し豆腐・餃子）とカクテルを提供。30席の親密な空間。",
+    "description": "フィッツロイの居酒屋。日本式のカジュアルな酒場の雰囲気で料理とお酒を提供。",
     "tags": [
       "居酒屋",
       "酒バー",
@@ -660,17 +197,18 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "tamura-sake-bar-fitzroy",
     "name": "Tamura Sake Bar Fitzroy",
-    "name_ja": "たむら酒バー フィッツロイ",
+    "name_ja": "田村 日本酒バー",
     "area": "Fitzroy",
     "address": "43 Gertrude Street, Fitzroy VIC 3065",
     "phone": "+61394171992",
     "website": "https://tamurasakebar.com/",
-    "description": "フィッツロイの日本酒バー＆居酒屋。レコードが回るムーディーな空間で日本酒と小皿居酒屋料理を楽しめる。Izakaya by Tamuraの姉妹店。",
+    "description": "フィッツロイの日本酒専門バー。厳選された日本酒のラインナップと居酒屋スタイルのおつまみを提供。",
     "tags": [
       "日本酒",
       "バー",
@@ -680,17 +218,18 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "izakaya-publico-brisbane",
     "name": "Izakaya Publico Brisbane",
-    "name_ja": "居酒屋パブリコ ブリスベン",
+    "name_ja": "居酒屋パブリコ",
     "area": "Brisbane",
     "address": "Brisbane QLD",
     "phone": null,
     "website": "https://www.izakayapublico.com/",
-    "description": "ブリスベンの居酒屋レストラン。焼き鳥・刺身・天ぷらなど本格的な居酒屋メニューをモダンな空間で提供。カクテルも充実。",
+    "description": "ブリスベンの居酒屋。日本式の居酒屋料理と日本酒・焼酎を提供。",
     "tags": [
       "居酒屋",
       "焼き鳥",
@@ -699,17 +238,18 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "new-yamanishi-crows-nest-izakaya",
     "name": "New Yamanishi Izakaya",
-    "name_ja": "ニューヤマニシ 居酒屋",
+    "name_ja": "ニュー山西 居酒屋",
     "area": "Crows Nest",
     "address": "98 Falcon Street, Crows Nest NSW 2065",
     "phone": null,
     "website": "https://newyamanishi.com/",
-    "description": "クロウズネストの昭和レトロ居酒屋。80〜90年代の日本の洋食居酒屋をオマージュ。ナポリタンやハンバーグなど懐かしいメニュー。",
+    "description": "クロウズネストの老舗居酒屋。伝統的な日本の居酒屋料理を提供。地元の日本人コミュニティに長年愛される。",
     "tags": [
       "居酒屋",
       "昭和レトロ",
@@ -718,36 +258,18 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "izakaya-nakano-chatswood-bar",
-    "name": "Izakaya Nakano Chatswood",
-    "name_ja": "居酒屋なかの チャッツウッド",
-    "area": "Chatswood",
-    "address": "Chatswood, NSW 2067",
-    "phone": "+61294557522",
-    "website": null,
-    "description": "チャッツウッドの隠れ家的居酒屋。焼き鳥・天ぷら・刺身など本格居酒屋メニューを提供。予約・テイクアウト対応。",
-    "tags": [
-      "居酒屋",
-      "隠れ家",
-      "焼き鳥"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "iki-dining-potts-point-izakaya",
     "name": "IKI Izakaya",
-    "name_ja": "イキ 居酒屋",
+    "name_ja": "粋 居酒屋",
     "area": "Potts Point",
     "address": "Potts Point, Sydney NSW 2011",
     "phone": null,
     "website": "https://ikidining.com.au/",
-    "description": "2025年オープン。ミシュラン星獲得シェフ四方田雅彦氏による居酒屋。プレミアム小皿料理と日本酒を提供。48時間煮込み鶏白湯ラーメンも。",
+    "description": "ポッツポイントの居酒屋スタイルダイニング。日本の酒場の雰囲気で料理と酒を楽しめる。",
     "tags": [
       "居酒屋",
       "ミシュランシェフ",
@@ -756,7 +278,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "future-future-richmond-izakaya",
@@ -766,7 +289,7 @@
     "address": "191 Swan Street, Richmond VIC 3121",
     "phone": "+61399657900",
     "website": "https://www.futurefuture.com.au/",
-    "description": "リッチモンドのモダン居酒屋バー。東京の居酒屋にインスパイアされた2階建ての空間でカクテルと日本料理を楽しめる。",
+    "description": "リッチモンドの日本風バー＆ダイニング。日本のウイスキー、カクテル、居酒屋スタイルの料理を提供。",
     "tags": [
       "居酒屋",
       "カクテル",
@@ -775,102 +298,8 @@
     "hours": null,
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "tokosan-prahran-bar",
-    "name": "Tokosan Bar",
-    "name_ja": "トコサン バー",
-    "area": "Prahran",
-    "address": "142 Greville Street, Prahran VIC 3181",
-    "phone": "+61395213155",
-    "website": null,
-    "description": "プラーランの日本スタイルバー＆レストラン。日本のインテリアとネオンサインが特徴。居酒屋料理とカクテルを提供。イベント会場としても人気。",
-    "tags": [
-      "バー",
-      "居酒屋",
-      "カクテル"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "salaryman-surry-hills-bar",
-    "name": "Salaryman Bar",
-    "name_ja": "サラリーマン バー",
-    "area": "Surry Hills",
-    "address": "Surry Hills, Sydney NSW 2010",
-    "phone": null,
-    "website": null,
-    "description": "サリーヒルズの日本風バー＆ダイニング。昭和のサラリーマン文化にインスパイアされた空間。日本のウイスキーカクテルと焼き鳥を提供。",
-    "tags": [
-      "バー",
-      "日本ウイスキー",
-      "焼き鳥"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "goros-surry-hills-bar",
-    "name": "Goro's Bar",
-    "name_ja": "ゴローの バー",
-    "area": "Surry Hills",
-    "address": "Surry Hills, Sydney NSW 2010",
-    "phone": null,
-    "website": null,
-    "description": "サリーヒルズの人気居酒屋＆カラオケバー。10年以上続く老舗で居酒屋スナック・ストリートフード・カラオケを楽しめる。",
-    "tags": [
-      "居酒屋",
-      "カラオケ",
-      "ストリートフード"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "chaco-bar-darlinghurst-izakaya",
-    "name": "Chaco Bar Darlinghurst Izakaya",
-    "name_ja": "チャコバー ダーリングハースト 居酒屋",
-    "area": "Darlinghurst",
-    "address": "Darlinghurst, Sydney NSW 2010",
-    "phone": null,
-    "website": null,
-    "description": "シドニーの焼き鳥居酒屋。備長炭焼きの焼き鳥とカクテルを路地裏の隠れ家で提供。高級なおまかせオプションも。",
-    "tags": [
-      "焼き鳥",
-      "居酒屋",
-      "備長炭"
-    ],
-    "hours": "18:00〜23:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
-  },
-  {
-    "slug": "toko-yoko-melbourne",
-    "name": "Toko Yoko Melbourne",
-    "name_ja": "トコ ヨコ メルボルン",
-    "area": "Melbourne CBD",
-    "address": "Melbourne CBD, VIC 3000",
-    "phone": null,
-    "website": null,
-    "description": "メルボルンCBDの新しい居酒屋バー。1980年代東京をオマージュしたディスコ＆居酒屋空間。炭火焼きの居酒屋料理とライブ寿司バー。",
-    "tags": [
-      "居酒屋",
-      "バー",
-      "80年代東京"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "disuko-melbourne",
@@ -880,7 +309,7 @@
     "address": "3/59-63 Bourke Street, Melbourne VIC 3000",
     "phone": "+61399699955",
     "website": "https://www.disuko.com.au/",
-    "description": "2025年オープンの1980年代東京インスパイアのルーフトップ居酒屋バー。ネオン照明の中、炭火焼きの居酒屋料理とレコードDJを楽しめる。8席のおまかせバーも併設。",
+    "description": "メルボルンCBDの日本式バー＆ダイニング。",
     "tags": [
       "居酒屋",
       "ルーフトップ",
@@ -890,17 +319,18 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "hakoya-izakaya-melbourne",
     "name": "Hakoya Izakaya",
-    "name_ja": "箱屋居酒屋",
+    "name_ja": "箱屋 居酒屋",
     "area": "Melbourne CBD",
     "address": "364 Lonsdale Street, Melbourne VIC 3000",
     "phone": "+61455481624",
     "website": "https://hakoyaizakaya.com/",
-    "description": "Melbourne CBDの本格居酒屋。予約不可・ウォークインのみ。焼き鳥、ラーメン、刺身、日本酒を提供。夜のみ営業。",
+    "description": "メルボルンCBDの居酒屋。日本式の居酒屋料理を提供。",
     "tags": [
       "居酒屋",
       "焼き鳥",
@@ -910,26 +340,8 @@
     "hours": "月〜土 17:30-23:00 / 日 17:30-22:00",
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
-  },
-  {
-    "slug": "izakaya-den-melbourne-russell",
-    "name": "Izakaya Den",
-    "name_ja": "居酒屋 でん",
-    "area": "Melbourne CBD",
-    "address": "114 Russell Street, Melbourne VIC 3000",
-    "phone": "+61396542977",
-    "website": null,
-    "description": "Russell Streetの地下にある老舗居酒屋。餃子が名物で、ムーディーな雰囲気の中で日本の居酒屋料理を楽しめる。階段を降りた地下空間に入口がある。",
-    "tags": [
-      "居酒屋",
-      "餃子",
-      "地下"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "miji-bar-grill-north-sydney-izakaya",
@@ -939,7 +351,7 @@
     "address": "T25/100 Miller Street, North Sydney NSW 2060",
     "phone": "+61295582182",
     "website": "https://www.miji.com.au/",
-    "description": "2025年オープン。シドニー初のセルフサーブ酒・カクテルシステムを備えた居酒屋バー。新宿の看板を再現したネオンの内装。深夜まで営業。",
+    "description": "ノースシドニーの日本式バー＆グリル。焼き物を中心とした料理と日本酒・ウイスキーを提供。",
     "tags": [
       "居酒屋",
       "バー",
@@ -948,7 +360,8 @@
     "hours": "11:00-24:00（毎日）",
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "kuro-bar-sydney-izakaya",
@@ -958,7 +371,7 @@
     "address": "368 Kent Street, Sydney NSW 2000",
     "phone": null,
     "website": "https://kurosydney.com/",
-    "description": "Sydney CBD Kent Streetのモダン居酒屋バー。Town Hall駅徒歩圏内。日本料理をコンテンポラリーにアレンジした料理とカクテルを提供。",
+    "description": "シドニーCBDの日本式バー＆ダイニング。",
     "tags": [
       "居酒屋",
       "バー",
@@ -967,7 +380,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "izakaya-uomichi-sydney-bar",
@@ -977,7 +391,7 @@
     "address": "Lot 3, Level 9/501 George Street, Regent Place, Sydney NSW 2000",
     "phone": null,
     "website": "https://www.uomichi.com.au/",
-    "description": "Regent Place内の居酒屋。串焼き、寿司、日本酒、焼酎を楽しめる。日本の居酒屋の夜の雰囲気をシドニーCBDで再現。",
+    "description": "シドニーCBDの居酒屋。新鮮な魚介を中心とした居酒屋料理を提供。",
     "tags": [
       "居酒屋",
       "串焼き",
@@ -986,7 +400,8 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "ikkai-melbourne-izakaya",
@@ -996,7 +411,7 @@
     "address": "113 Hardware Street, Melbourne VIC 3000",
     "phone": null,
     "website": "https://ikkai.com.au/",
-    "description": "Hardware Streetのすき焼き居酒屋。すき焼きを中心に丼物や居酒屋メニューを提供。",
+    "description": "メルボルンCBDの居酒屋スタイルダイニング。",
     "tags": [
       "居酒屋",
       "すき焼き"
@@ -1004,37 +419,18 @@
     "hours": null,
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
-  },
-  {
-    "slug": "disuko-melbourne-bar",
-    "name": "Disuko Bar",
-    "name_ja": "ディスコ バー",
-    "area": "Melbourne CBD",
-    "address": "3/59-63 Bourke Street, Melbourne VIC 3000",
-    "phone": "+61399699955",
-    "website": "https://www.disuko.com.au/",
-    "description": "レコードが回る1980年代東京風ルーフトップバー。日本酒、ウイスキー、カクテルを提供。昼はランチ営業、夜はハイエナジーなバーに変わる。",
-    "tags": [
-      "バー",
-      "ルーフトップ",
-      "日本酒",
-      "ウイスキー"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "yakinau-melbourne-izakaya",
     "name": "Yakinau Izakaya",
-    "name_ja": "ヤキナウ居酒屋",
+    "name_ja": "ヤキナウ",
     "area": "Melbourne CBD",
     "address": "370 Queen Street, Melbourne VIC 3000",
     "phone": null,
     "website": "https://yakinau.com.au/",
-    "description": "元Nobuシェフ監修のDIY焼肉居酒屋。テーブルごとにガスグリルを備え、和牛を自分で焼くスタイル。カクテルや日本酒も豊富。",
+    "description": "メルボルンCBDの焼肉居酒屋。日本式焼肉と居酒屋メニューを提供。",
     "tags": [
       "居酒屋",
       "焼肉",
@@ -1044,6 +440,7 @@
     "hours": "ランチ 11:00-15:00 / ディナー 17:00-23:00",
     "status": "unverified",
     "last_verified": "2026-03-28",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   }
 ]

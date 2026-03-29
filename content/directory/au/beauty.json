@@ -7,16 +7,17 @@
     "address": "31 Shelley Street, Sydney NSW 2000",
     "phone": "+61292674882",
     "website": "https://planethair.com.au/",
-    "description": "日本人スタイリスト（Kosuke、Wakana、Kai）が在籍する日本式ヘアサロン。ヘナカラー、縮毛矯正、デジタルパーマ、エアウェーブなど日本の技術を提供。",
+    "description": "シドニーCBD・バランガルーエリアの日本式ヘアサロン。日本人スタイリスト（Kosukeディレクター、Wakana、Kai）が在籍。資生堂・ミルボン・ルベルなど日本製プレミアム製品を使用。ヘナカラー、縮毛矯正、デジタルパーマ、エアウェーブなど日本の技術を提供。",
     "tags": [
       "日本人スタイリスト",
       "縮毛矯正",
-      "デジタルパーマ"
+      "日本製品使用"
     ],
     "hours": "火〜金 10:15-19:00 / 土日 10:15-18:00（月曜・祝日休）",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "lamp-hair",
@@ -26,15 +27,16 @@
     "address": "Ground/199 Clarence Street, Sydney NSW 2000",
     "phone": "+61289644671",
     "website": "https://www.lamphair.com.au/",
-    "description": "シドニーCBDのブティック日本式ヘアサロン。最新の日本製ヘア製品と技術を使用した経験豊富な日本人スタイリストがカット、カラー、トリートメントを提供。",
+    "description": "シドニーCBDのブティック日本式ヘアサロン。日本人スタイリストが在籍し、最新の日本製ヘア製品と技術を使用したカット、カラー、トリートメントを提供。",
     "tags": [
       "日本人スタイリスト",
-      "ブティックサロン"
+      "日本製品使用"
     ],
     "hours": "火水金 9:30-18:30 / 木 10:00-19:00 / 土日 10:00-18:00（月曜休）",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "blu-creativity",
@@ -44,16 +46,17 @@
     "address": "Level 1/39 Liverpool Street, Sydney NSW 2000",
     "phone": "+61292644405",
     "website": "https://blucreativity.com/",
-    "description": "シドニーCBDのフルサービス日本式ヘアサロン。カット、カラー、縮毛矯正、パーマなどの施術に加え、まつげエクステも提供。予約はオンラインのみ。",
+    "description": "シドニーCBDの日本式ヘアサロン。日本から直輸入の最新技術・製品を使用した縮毛矯正、デジタルパーマが得意。Wella・Schwarzkopf・資生堂のカラー剤使用。ケラチン・コラーゲン・CMCを使ったスペシャルケアトリートメントも。予約はオンラインのみ。",
     "tags": [
-      "日本人スタイリスト",
-      "まつげエクステ",
+      "日本式サロン",
+      "縮毛矯正",
       "オンライン予約のみ"
     ],
     "hours": "月〜金 11:00-20:00 / 土日 10:00-18:00",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "assort-melbourne",
@@ -63,15 +66,16 @@
     "address": "73/77 Wellington Street, Collingwood VIC 3066",
     "phone": "+61461473032",
     "website": "https://au.assort-hair.com/",
-    "description": "東京発の日本式ヘアサロンのメルボルン店。日本人スタイリストが最新の東京トレンドを取り入れたカット、カラー、トリートメントを提供。",
+    "description": "東京発の日本式ヘアサロングループのメルボルン店。Collingwood拠点。日本人スタイリストが最新の東京トレンドを取り入れたカット、デザインカラー、トリートメントを提供。新規クライアントは50%デポジット制。",
     "tags": [
       "日本人スタイリスト",
-      "東京トレンド"
+      "東京発チェーン"
     ],
     "hours": "火〜土 10:00-18:00（日月休）",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "maison-tsumiki",
@@ -81,16 +85,17 @@
     "address": "Shop 107/287 Lonsdale Street, Melbourne VIC 3000",
     "phone": "+61390204312",
     "website": "https://www.maisontsumiki.com/",
-    "description": "Emporium Melbourne内のラグジュアリーブティックヘアサロン。日本式縮毛矯正、バレイヤージュ、カット、カラー、パーマ、メイクアップサービスを提供。",
+    "description": "メルボルンCBD・Emporium Melbourne内のラグジュアリーヘアサロン。日本式縮毛矯正、バレイヤージュ、カット、カラー、パーマ、メイクアップサービスを提供。",
     "tags": [
       "ラグジュアリー",
       "縮毛矯正",
-      "バレイヤージュ"
+      "Emporium内"
     ],
     "hours": "日 10:00-17:00 / 月〜水 10:00-19:00 / 木金 10:00-21:00 / 土 10:00-19:00",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "shinka-sydney",
@@ -100,16 +105,17 @@
     "address": "Level 3, 325 Pitt Street, Sydney NSW 2000",
     "phone": null,
     "website": "https://shinka.com.au/",
-    "description": "東京と二拠点で展開する日本式ヘアサロン。日本の高度なカット技術を提供。シドニーCBDでアクセス良好。",
+    "description": "シドニーと東京に展開する日本式ヘアサロングループ。シドニーCBDにClarence Street店、Dymocks Building店、Castlereagh Street店の3店舗を展開。東京は六本木・麻布十番に拠点。",
     "tags": [
-      "日本人スタイリスト",
+      "日本式サロン",
       "東京発",
-      "カット技術"
+      "複数店舗"
     ],
     "hours": "要確認",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "akala-hair-sydney",
@@ -128,26 +134,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "stairs-hair-south-yarra",
-    "name": "STAIRS Hair Salon",
-    "name_ja": "ステアーズ",
-    "area": "South Yarra",
-    "address": "South Yarra VIC 3141",
-    "phone": null,
-    "website": null,
-    "description": "サウスヤラの日系ヘアサロン。日本人スタイリストが日本製品を使用してカット・カラー・パーマを提供。South Yarra駅から徒歩圏内。",
-    "tags": [
-      "日本人スタイリスト",
-      "日本製品",
-      "駅近"
-    ],
-    "hours": "要確認",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "assort-sydney",
@@ -157,71 +145,16 @@
     "address": "Sydney CBD, NSW",
     "phone": null,
     "website": "https://assort-hair.com/",
-    "description": "東京・NY・ロンドンにも展開する日本のヘアサロングループ。受賞歴のある日本人スタイリストが在籍。",
+    "description": "東京・NY・ロンドン・メルボルンにも展開する日本のヘアサロングループASSORTのシドニー店。受賞歴のある日本人スタイリストが在籍。",
     "tags": [
       "日本人スタイリスト",
-      "日式ヘアサロン",
-      "グローバル展開"
+      "東京発チェーン"
     ],
     "hours": "10:00〜19:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "ren-hair-chatswood",
-    "name": "Ren Hair Chatswood",
-    "name_ja": "レンヘアー チャッツウッド",
-    "area": "Chatswood",
-    "address": "Chatswood, NSW",
-    "phone": null,
-    "website": null,
-    "description": "チャッツウッドの日式ヘアサロン。日本人スタイリストによるカット・カラー・パーマを提供。日本語OK。",
-    "tags": [
-      "日式ヘアサロン",
-      "日本語対応"
-    ],
-    "hours": "10:00〜19:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "japanese-nail-sydney",
-    "name": "Japanese Nail Salon Sydney",
-    "name_ja": "日式ネイルサロン シドニー",
-    "area": "Sydney CBD",
-    "address": "Sydney CBD, NSW",
-    "phone": null,
-    "website": null,
-    "description": "シドニーCBDの日式ネイルサロン。ジェルネイル・ネイルアートなど日本のトレンドデザインを提供。",
-    "tags": [
-      "ネイル",
-      "日式",
-      "ジェルネイル"
-    ],
-    "hours": "10:00〜19:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "japanese-hair-melbourne",
-    "name": "Japanese Hair Salon Melbourne CBD",
-    "name_ja": "日式ヘアサロン メルボルンCBD",
-    "area": "Melbourne CBD",
-    "address": "Melbourne CBD, VIC",
-    "phone": null,
-    "website": null,
-    "description": "メルボルンCBDの日式ヘアサロン。日本製品を使用したカット・カラー・パーマを提供。",
-    "tags": [
-      "日式ヘアサロン",
-      "日本製品使用"
-    ],
-    "hours": "10:00〜19:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "takeshi-team-sydney",
@@ -231,16 +164,17 @@
     "address": "F1A/683-689 George Street, Sydney NSW 2000",
     "phone": "+61292123699",
     "website": "https://www.takeshiteam.com/",
-    "description": "2008年開業のシドニーCBDの日本式ヘアサロン。カラー・縮毛矯正・デジタルパーマ・ヘアカット・メイクアップを提供。Central駅・チャイナタウン近く。",
+    "description": "2008年開業のシドニーCBDの日本式ヘアサロン。カラー、縮毛矯正、デジタルパーマ、カット、メイクアップを提供。Central駅・チャイナタウン近く。",
     "tags": [
       "日本人スタイリスト",
       "縮毛矯正",
-      "デジタルパーマ"
+      "2008年開業"
     ],
     "hours": "要確認",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "aria-japanese-beauty-sydney",
@@ -250,7 +184,7 @@
     "address": "376 Pitt Street, Floor 1, Sydney NSW 2000",
     "phone": "+61292671378",
     "website": null,
-    "description": "シドニーCBDの日本式美容室。カット・カラーに加え、オーガニックフェイシャル、リメディアル・スポーツマッサージ、整体も提供。",
+    "description": "シドニーCBDの日本式美容室。カット・カラーに加え、オーガニックフェイシャル、リメディアル・スポーツマッサージ、整体も提供する総合美容サロン。",
     "tags": [
       "日本式美容室",
       "整体",
@@ -259,7 +193,8 @@
     "hours": "要確認",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "alpha-japanese-hair-haymarket",
@@ -269,16 +204,16 @@
     "address": "Level 3, 793 George Street, Haymarket NSW 2000",
     "phone": null,
     "website": null,
-    "description": "ヘイマーケットの日本式ヘアサロン。カット・カラーに加え、フェイシャル・マッサージも提供する総合美容サロン。",
+    "description": "ヘイマーケットの日本式ヘアサロン。カット・カラーに加え、フェイシャル・マッサージも提供する総合美容サロン。George Street沿い。",
     "tags": [
       "日本式サロン",
-      "マッサージ",
       "フェイシャル"
     ],
     "hours": "要確認",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "mini-hair-north-melbourne",
@@ -296,7 +231,8 @@
     "hours": "要確認",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "aria-japanese-hair-brisbane",
@@ -306,14 +242,15 @@
     "address": "Level 1, 141 Queen Street, Brisbane City QLD 4000",
     "phone": null,
     "website": "https://www.aria-jhs.com/",
-    "description": "ブリスベンCBDの日本式ヘアサロン。日本人スタイリストがカット・カラー・パーマを提供。Queen Street沿いでアクセス良好。",
+    "description": "ブリスベンCBDの日本式ヘアサロン。Queen Street沿い、Level 1。日本人スタイリストがカット・カラー・パーマを提供。",
     "tags": [
       "日本人スタイリスト",
-      "日式サロン"
+      "日本式サロン"
     ],
     "hours": "要確認",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   }
 ]

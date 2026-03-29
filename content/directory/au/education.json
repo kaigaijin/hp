@@ -7,7 +7,7 @@
     "address": "112 Booralie Road, Terrey Hills NSW 2084",
     "phone": "+61294501833",
     "website": "https://sjis.nsw.edu.au/",
-    "description": "1969年設立の日本人国際学校。日本部門（文科省カリキュラム）とインターナショナル部門（NSWカリキュラム）を併設。日本語と英語のバイリンガル環境で、幼稚園から中学校まで対応。",
+    "description": "1969年設立のシドニー日本人国際学校。Terrey Hills（Northern Beaches）に位置。日本部門（文科省カリキュラム、Year 1〜9）とインターナショナル部門（NSWカリキュラム、Kindergarten〜Year 6）を併設。少人数制のバイリンガル環境で、両部門が合同で美術・体育・音楽・ICTの授業を実施。",
     "tags": [
       "日本人学校",
       "バイリンガル教育",
@@ -16,26 +16,28 @@
     "hours": "要確認",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "sydney-saturday-school-of-japanese",
     "name": "Sydney Saturday School of Japanese",
     "name_ja": "シドニー日本語土曜学校",
     "area": "Sydney",
-    "address": "112 Booralie Road, Terrey Hills NSW 2084",
-    "phone": "+61294501833",
+    "address": "Cammeray Public School, Palmer Street, Cammeray NSW 2062",
+    "phone": "+61411155585",
     "website": "https://sssj.org.au/",
-    "description": "毎週土曜日に日本語教育を行う補習校。日本の教科書を使用し、国語・算数を中心に日本の学習カリキュラムに沿った授業を実施。幼児部から中学部まで。",
+    "description": "シドニーの日本語補習校。毎週土曜日（9:00-12:00）にCammeray Public Schoolで日本語教育を実施。日本語が話せる子どもを対象に、日本の教科書を使った国語・算数の授業を提供。幼児部から対応。",
     "tags": [
       "補習校",
       "土曜校",
       "日本語教育"
     ],
-    "hours": "土曜日（時間は要確認）",
+    "hours": "土曜 9:00-12:00",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "japanese-school-of-melbourne",
@@ -45,35 +47,17 @@
     "address": "6 Ellington Street, Caulfield South VIC 3162",
     "phone": "+61395281978",
     "website": "https://jsm.vic.edu.au/",
-    "description": "文部科学省認定のメルボルン日本人学校。日本から派遣された教員による日本のカリキュラムに基づく授業を実施。小学部・中学部を設置し、英語教育や異文化理解も重視。",
+    "description": "文部科学省認定のメルボルン日本人学校。Caulfield South拠点。日本から派遣された教員によるPrep〜Year 9の授業を実施。英語教育（レベル別英語クラブ）や現地校との交流も重視。正規生・国際生を受け入れ。",
     "tags": [
       "日本人学校",
-      "文科省カリキュラム",
-      "小学〜中学"
+      "文科省認定",
+      "Prep〜中学"
     ],
     "hours": "要確認",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "melbourne-saturday-school",
-    "name": "Melbourne Saturday School of Japanese",
-    "name_ja": "メルボルン日本語土曜学校",
-    "area": "Melbourne",
-    "address": "Melbourne, VIC",
-    "phone": null,
-    "website": null,
-    "description": "毎週土曜日に日本語教育を行う補習校。日本の教科書を使用し、国語・算数を中心に日本の学習カリキュラムに沿った授業を実施。",
-    "tags": [
-      "補習校",
-      "土曜校",
-      "日本語教育"
-    ],
-    "hours": "土曜日",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "brisbane-japanese-school",
@@ -83,7 +67,7 @@
     "address": "Brisbane, QLD",
     "phone": null,
     "website": null,
-    "description": "ブリスベンの日本語補習授業校。土曜日に日本のカリキュラムに基づく授業を実施。幼稚部から中学部まで対応。",
+    "description": "ブリスベンの日本語補習授業校。現地校に通う日本人子弟向けに土曜日に日本の教科書を使った授業を実施。幼稚部から中学部まで対応。",
     "tags": [
       "補習校",
       "土曜校",
@@ -92,7 +76,8 @@
     "hours": "土曜日",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "perth-japanese-school",
@@ -102,7 +87,7 @@
     "address": "Perth, WA",
     "phone": null,
     "website": null,
-    "description": "パースの日本語補習授業校。西オーストラリア在住の日本人子女に日本の教科書を使った授業を土曜日に実施。",
+    "description": "パースの日本語補習授業校。西オーストラリア在住の日本人子女に日本の教科書を使った国語・算数の授業を土曜日に実施。",
     "tags": [
       "補習校",
       "土曜校",
@@ -111,7 +96,8 @@
     "hours": "土曜日",
     "last_verified": "2026-03-27",
     "status": "unverified",
-    "source": "google_maps"
+    "source": "google_maps",
+    "ai_reviewed": true
   },
   {
     "slug": "kumon-chatswood",
@@ -121,15 +107,17 @@
     "address": "Chatswood, NSW",
     "phone": null,
     "website": "https://www.kumon.com.au/",
-    "description": "日本発の学習塾。算数・英語の自学自習プログラム。チャッツウッドエリアの日本人家族に人気。",
+    "description": "日本発の学習塾「公文」のチャッツウッド教室。算数・英語の自学自習プログラムを提供。チャッツウッドエリアは日本人家族が多く利用。",
     "tags": [
-      "学習塾",
-      "日本式教育"
+      "日本発学習塾",
+      "算数",
+      "英語"
     ],
     "hours": "平日 14:00〜19:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "gold-coast-japanese-school",
@@ -139,7 +127,7 @@
     "address": "Gold Coast, QLD",
     "phone": null,
     "website": null,
-    "description": "ゴールドコーストの日本語補習校。現地校に通う日本人子弟向けに土曜日に授業を提供。",
+    "description": "ゴールドコーストの日本語補習校。現地校に通う日本人子弟向けに土曜日に日本語・算数の授業を提供。",
     "tags": [
       "補習校",
       "日本語教育",
@@ -148,7 +136,8 @@
     "hours": "土曜 9:00〜12:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "canberra-japanese-school",
@@ -158,7 +147,7 @@
     "address": "Canberra, ACT",
     "phone": null,
     "website": null,
-    "description": "キャンベラの日本語補習校。外交官・公務員の子弟も多く通う。",
+    "description": "キャンベラの日本語補習校。大使館・政府関係者の子弟も多く通う。土曜日に日本の教科書を使った授業を実施。",
     "tags": [
       "補習校",
       "日本語教育"
@@ -166,7 +155,8 @@
     "hours": "土曜 9:00〜12:00",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true
   },
   {
     "slug": "nsw-japanese-school",
@@ -176,7 +166,7 @@
     "address": "Ashfield, Sydney NSW",
     "phone": null,
     "website": "https://www.nswjapaneseschool.org/",
-    "description": "シドニー西部の日本語補習校。毎週土曜日に日本の教科書を使った国語・算数の授業を実施。幼稚部から中学部まで対応。",
+    "description": "シドニー西部Ashfieldの日本語補習校。毎週土曜日に日本の教科書を使った国語・算数の授業を実施。幼稚部から中学部まで対応。",
     "tags": [
       "補習校",
       "土曜校",
@@ -185,7 +175,8 @@
     "hours": "土曜日",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "misj-melbourne",
@@ -195,7 +186,7 @@
     "address": "Melbourne, VIC",
     "phone": null,
     "website": "https://misj.org.au/",
-    "description": "メルボルンの日本語補習校。現地校・インターに通う日本人子弟に日本の教科書を使った授業を提供。",
+    "description": "メルボルンの日本語補習校。現地校・インターナショナルスクールに通う日本人子弟に日本の教科書を使った授業を提供。",
     "tags": [
       "補習校",
       "日本語教育",
@@ -204,17 +195,18 @@
     "hours": "土曜日",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "jsc-melbourne",
     "name": "The Japanese Saturday College of Melbourne",
-    "name_ja": "メルボルン日本語土曜学校",
+    "name_ja": "メルボルン日本語土曜校",
     "area": "Melbourne",
     "address": "Melbourne, VIC",
     "phone": null,
     "website": "https://www.jsc-mel.com/",
-    "description": "メルボルンの日本語土曜学校。毎週土曜日に日本の文科省カリキュラムに基づいた国語・算数の授業を実施。",
+    "description": "メルボルンの日本語土曜学校。毎週土曜日に文科省カリキュラムに基づいた国語・算数の授業を実施。",
     "tags": [
       "補習校",
       "土曜校",
@@ -223,6 +215,7 @@
     "hours": "土曜日",
     "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   }
 ]

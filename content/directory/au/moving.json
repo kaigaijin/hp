@@ -7,7 +7,7 @@
     "address": "30 Duerdin Street, Clayton VIC 3168",
     "phone": "+61392715064",
     "website": "https://nwimovers.com/en/",
-    "description": "オーストラリア〜日本間の国際引越し専門会社。2009年設立。日本のヤマトグローバルロジスティクスの代理店として、梱包・配送・保険・ストレージ・クリーニングまで対応。日本語対応。",
+    "description": "2009年設立のオーストラリア〜日本間の国際引越し専門会社。ヤマトグローバルロジスティクスの豪州代理店として、梱包・配送・保険・倉庫・クリーニングまでワンストップ対応。バイリンガルスタッフが在籍し、豪州と日本の通関・検疫規制のサポートも。メルボルン・シドニーにオフィスあり。",
     "tags": [
       "日本語対応",
       "国際引越し",
@@ -16,7 +16,8 @@
     "hours": "月〜金 9:00-17:30 / 土 9:00-12:00",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "crown-relocations-sydney",
@@ -25,27 +26,28 @@
     "area": "Sydney",
     "address": "15 Beauchamp Road, Banksmeadow NSW 2019",
     "phone": "+61282848100",
-    "website": "https://www.crownrelo.com/uae/en-ae/office/dubai",
-    "description": "世界60カ国以上に拠点を持つ国際引越し・リロケーション会社。梱包、輸送、ストレージ、住居探し、ペット輸送まで包括的なリロケーションサービスを提供。",
+    "website": "https://www.crownrelo.com/",
+    "description": "世界60カ国以上に拠点を持つ国際リロケーション大手。梱包、海上輸送、航空輸送、倉庫保管、住居探し、ペット輸送まで包括的なサービスを提供。日本企業の駐在員赴任・帰任にも多数の実績。",
     "tags": [
       "国際引越し",
       "リロケーション",
-      "グローバル"
+      "駐在員向け"
     ],
     "hours": "月〜金 8:00-17:00",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "nippon-express-australia",
     "name": "Nippon Express Australia",
     "name_ja": "日本通運オーストラリア",
     "area": "Sydney",
-    "address": "22 George Street, North Strathfield NSW 2137",
+    "address": "Unit 3, Ground Floor, 45 Burrows Road, Alexandria NSW 2015",
     "phone": "+61297460200",
     "website": "https://www.nipponexpress.com/location/australia/",
-    "description": "日本通運のオーストラリア拠点。海外引越し、国際輸送、倉庫サービスなど総合物流サービスを提供。日本語での対応が可能で、日本への帰国引越しもスムーズ。",
+    "description": "日本通運のオーストラリア拠点。シドニー（Alexandria）とメルボルン（Laverton North）にオフィス。航空貨物、海上貨物、陸上輸送、倉庫・配送、国際引越しなど総合物流サービスを提供。日本語対応可能で、日本への帰国引越しもスムーズ。",
     "tags": [
       "日本語対応",
       "国際引越し",
@@ -54,25 +56,7 @@
     "hours": "月〜金 9:00-17:00",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
-  },
-  {
-    "slug": "yamato-australia",
-    "name": "Yamato Transport Australia",
-    "name_ja": "ヤマト運輸 オーストラリア",
-    "area": "Sydney",
-    "address": "Sydney, NSW",
-    "phone": null,
-    "website": null,
-    "description": "ヤマト運輸の豪州拠点。引越し・国際宅急便を提供。日本品質の配送サービス。",
-    "tags": [
-      "引越し",
-      "国際配送",
-      "日系"
-    ],
-    "hours": "平日 9:00〜17:30",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
+    "source": "website",
+    "ai_reviewed": true
   }
 ]

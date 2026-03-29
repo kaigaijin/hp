@@ -7,7 +7,7 @@
     "address": "Level 1, StorageWorks, 269 Pacific Highway, Artarmon NSW 2064",
     "phone": "+61280212552",
     "website": "https://tanakarealty.com.au/en/",
-    "description": "日系不動産エージェント。日本企業・政府機関向けの法人賃貸を中心に、売買、物件管理、ストレージサービスも提供。日本語での対応が可能。",
+    "description": "日本人オーナーMami Tanaka氏が経営するシドニーの日系不動産エージェント（NSW州不動産ライセンス No.10082610）。日本企業・政府機関向けの法人賃貸を中心に、売買、物件管理、セルフストレージも提供。日本語での全面対応が可能。",
     "tags": [
       "日本語対応",
       "法人賃貸",
@@ -16,7 +16,8 @@
     "hours": "月〜金 9:00-17:00 / 土 10:00-12:00（要予約）",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "japan-property-consultants",
@@ -26,7 +27,7 @@
     "address": "Level 2, 60 Willoughby Road, Crows Nest NSW 2065",
     "phone": "+61299560888",
     "website": "https://www.jpconsultants.com.au/",
-    "description": "NSW州認定の日系不動産エージェント。日本企業、政府機関、国際企業向けに賃貸仲介、物件管理、売買、コンサルティングを提供。日本語対応。",
+    "description": "NSW州認定の日系不動産エージェント。Crows Nest拠点。日本企業、政府機関、国際企業向けに賃貸仲介、物件管理、売買、コンサルティングを日本語で提供。",
     "tags": [
       "日本語対応",
       "法人賃貸",
@@ -35,7 +36,8 @@
     "hours": "要確認",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "nichigo-property-solutions",
@@ -45,7 +47,7 @@
     "address": "501, 44 Miller Street, North Sydney NSW 2060",
     "phone": "+61299597899",
     "website": "https://www.nichigo.com.au/",
-    "description": "シドニーの日豪不動産コンサルティング会社。日本人駐在員やその家族向けの住居探しから、物件管理まで幅広くサポート。日本語での全面対応が可能。",
+    "description": "シドニーの日豪不動産コンサルティング会社。日本人駐在員やその家族向けの住居探しから物件管理まで幅広くサポート。日本語での全面対応が可能。",
     "tags": [
       "日本語対応",
       "駐在員向け",
@@ -54,82 +56,27 @@
     "hours": "要確認",
     "last_verified": "2026-03-26",
     "status": "unverified",
-    "source": "website"
+    "source": "website",
+    "ai_reviewed": true
   },
   {
     "slug": "starts-australia",
-    "name": "Starts Australia",
-    "name_ja": "スターツ オーストラリア",
+    "name": "Starts International Australia",
+    "name_ja": "スターツインターナショナル オーストラリア",
     "area": "Sydney CBD",
-    "address": "Sydney CBD, NSW",
-    "phone": null,
+    "address": "Level 13, 135 King Street, Sydney NSW 2000",
+    "phone": "+61289737420",
     "website": null,
-    "description": "日系不動産会社スターツの豪州拠点。駐在員向けの賃貸物件紹介・契約サポートを日本語で提供。",
+    "description": "日系不動産大手スターツの豪州拠点（スターツインターナショナルオーストラリア）。駐在員向けの賃貸物件紹介・契約サポートを日本語で提供。",
     "tags": [
-      "不動産",
-      "日系",
+      "日系不動産",
+      "駐在員向け",
       "日本語対応"
     ],
     "hours": "平日 9:00〜17:30",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "able-sydney",
-    "name": "ABLE Sydney",
-    "name_ja": "エイブル シドニー",
-    "area": "Sydney CBD",
-    "address": "Sydney CBD, NSW",
-    "phone": null,
-    "website": null,
-    "description": "日本の大手不動産チェーンのシドニー法人。日本人駐在員向けに賃貸物件を紹介。日本語対応。",
-    "tags": [
-      "不動産",
-      "日系",
-      "日本語対応"
-    ],
-    "hours": "平日 9:00〜17:30",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27"
-  },
-  {
-    "slug": "oishi-property-sydney",
-    "name": "Oishi Property",
-    "name_ja": "オオイシ プロパティ",
-    "area": "Sydney",
-    "address": "Sydney, NSW",
-    "phone": null,
-    "website": null,
-    "description": "シドニーの日本語対応不動産エージェント。日本人駐在員向けの賃貸物件紹介・契約サポートを日本語で提供。",
-    "tags": [
-      "日本語対応",
-      "賃貸",
-      "駐在員向け"
-    ],
-    "hours": "要確認",
-    "status": "unverified",
     "last_verified": "2026-03-27",
-    "source": "google_maps"
-  },
-  {
-    "slug": "jpd-real-estate-melbourne",
-    "name": "JPD Real Estate Melbourne",
-    "name_ja": "JPD不動産 メルボルン",
-    "area": "Melbourne",
-    "address": "Melbourne, VIC",
-    "phone": null,
-    "website": null,
-    "description": "メルボルンの日本語対応不動産エージェント。賃貸・売買の物件紹介を日本語で提供。日本人居住者の多いエリアに詳しい。",
-    "tags": [
-      "日本語対応",
-      "賃貸",
-      "売買"
-    ],
-    "hours": "要確認",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps"
+    "ai_reviewed": true
   }
 ]
