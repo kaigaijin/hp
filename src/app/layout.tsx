@@ -52,6 +52,25 @@ export default function RootLayout({
         />
       </head>
       <body className="font-sans antialiased bg-stone-50 dark:bg-stone-900 text-stone-800 dark:text-stone-200 transition-colors">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "Kaigaijin",
+              url: "https://kaigaijin.jp",
+              description:
+                "シンガポール、タイ、UAE、ベトナム…国別に深い生活情報を届ける、海外在住日本人のためのメディア。",
+              inLanguage: "ja",
+              publisher: {
+                "@type": "Organization",
+                name: "Kaigaijin",
+                url: "https://kaigaijin.jp",
+              },
+            }),
+          }}
+        />
         <GoogleAnalytics />
         <AuthProvider>
           {children}
