@@ -1,7 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CountryCard from "@/components/CountryCard";
-import { countries } from "@/lib/countries";
+import { countries, regionOrder, regionLabels } from "@/lib/countries";
 import { getCategoryCounts } from "@/lib/directory";
 import {
   Globe,
@@ -13,9 +13,12 @@ import {
 } from "lucide-react";
 
 export default function Home() {
-  const phase1 = countries.filter((c) => c.phase === 1);
-  const phase2 = countries.filter((c) => c.phase === 2);
-  const phase3 = countries.filter((c) => c.phase === 3);
+  // 地域ごとにグルーピング
+  const countriesByRegion = regionOrder.map((region) => ({
+    region,
+    label: regionLabels[region],
+    countries: countries.filter((c) => c.region === region),
+  }));
 
   // 各国のスポット件数を計算
   const spotCounts: Record<string, number> = {};
@@ -59,7 +62,7 @@ export default function Home() {
 
               {/* 国フラグ一覧 */}
               <div className="flex flex-wrap gap-3">
-                {phase1.map((c) => (
+                {countries.map((c) => (
                   <a
                     key={c.code}
                     href={`/${c.code}`}
@@ -144,59 +147,24 @@ export default function Home() {
         {/* ===== 国別ガイド ===== */}
         <section id="countries" className="py-20 md:py-28 bg-sand-50 dark:bg-stone-800/50">
           <div className="max-w-6xl mx-auto px-4">
-            {/* Phase 1 */}
-            <div className="mb-16">
-              <div className="flex items-center gap-3 mb-2">
-                <MapPin className="text-ocean-600 dark:text-ocean-400" size={20} />
-                <span className="text-xs font-semibold text-ocean-600 dark:text-ocean-400 tracking-widest uppercase">
-                  注力エリア
-                </span>
+            <h2 className="heading-editorial text-3xl md:text-4xl font-bold mb-12">
+              国別ガイド
+            </h2>
+            {countriesByRegion.map((group, i) => (
+              <div key={group.region} className={i < countriesByRegion.length - 1 ? "mb-16" : ""}>
+                <div className="flex items-center gap-3 mb-6">
+                  <Globe className="text-ocean-600 dark:text-ocean-400" size={20} />
+                  <h3 className="heading-editorial text-2xl font-bold">
+                    {group.label}
+                  </h3>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                  {group.countries.map((c) => (
+                    <CountryCard key={c.code} country={c} spotCount={spotCounts[c.code] ?? 0} />
+                  ))}
+                </div>
               </div>
-              <h2 className="heading-editorial text-3xl md:text-4xl font-bold mb-8">
-                まずはここから
-              </h2>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                {phase1.map((c) => (
-                  <CountryCard key={c.code} country={c} spotCount={spotCounts[c.code] ?? 0} />
-                ))}
-              </div>
-            </div>
-
-            {/* Phase 2 */}
-            <div className="mb-16">
-              <div className="flex items-center gap-3 mb-2">
-                <Plane className="text-sand-600 dark:text-sand-400" size={20} />
-                <span className="text-xs font-semibold text-sand-600 dark:text-sand-400 tracking-widest uppercase">
-                  拡大予定
-                </span>
-              </div>
-              <h2 className="heading-editorial text-2xl font-bold mb-8">
-                次のエリア
-              </h2>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                {phase2.map((c) => (
-                  <CountryCard key={c.code} country={c} spotCount={spotCounts[c.code] ?? 0} />
-                ))}
-              </div>
-            </div>
-
-            {/* Phase 3 */}
-            <div>
-              <div className="flex items-center gap-3 mb-2">
-                <Globe className="text-stone-400 dark:text-stone-500" size={20} />
-                <span className="text-xs font-semibold text-stone-400 dark:text-stone-500 tracking-widest uppercase">
-                  準備中
-                </span>
-              </div>
-              <h2 className="heading-editorial text-2xl font-bold mb-8">
-                そのあとのエリア
-              </h2>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                {phase3.map((c) => (
-                  <CountryCard key={c.code} country={c} spotCount={spotCounts[c.code] ?? 0} />
-                ))}
-              </div>
-            </div>
+            ))}
           </div>
         </section>
 
