@@ -59,16 +59,21 @@ export async function generateMetadata({
   if (!country || !category || !spot) return {};
 
   const displayName = spot.name_ja ?? spot.name;
+  const canonicalUrl = `https://kaigaijin.jp/${code}/spot/${catSlug}/${slug}`;
   return {
     title: `${displayName}（${country.name}・${spot.area}）`,
     description: spot.description,
+    alternates: { canonical: canonicalUrl },
     openGraph: {
       title: `${displayName} | ${country.name}の${category.name} | Kaigaijin`,
       description: spot.description,
-      type: "website",
+      type: "article",
       locale: "ja_JP",
-      url: `https://kaigaijin.jp/${code}/spot/${catSlug}/${slug}`,
+      url: canonicalUrl,
       siteName: "Kaigaijin",
+      ...(spot.last_verified && {
+        modifiedTime: spot.last_verified,
+      }),
     },
   };
 }
@@ -93,10 +98,34 @@ export default async function SpotDetailPage({
     .filter((s) => s.slug !== slug)
     .slice(0, 5);
 
-  // JSON-LD 構造化データ（LocalBusiness）
+  // カテゴリに応じたSchema.orgの具体的な@type
+  const schemaTypeMap: Record<string, string> = {
+    restaurant: "Restaurant",
+    cafe: "CafeOrCoffeeShop",
+    "izakaya-bar": "BarOrPub",
+    grocery: "GroceryStore",
+    clinic: "MedicalClinic",
+    dental: "Dentist",
+    pharmacy: "Pharmacy",
+    beauty: "HairSalon",
+    "nail-esthetic": "BeautySalon",
+    fitness: "ExerciseGym",
+    "real-estate": "RealEstateAgent",
+    education: "EducationalOrganization",
+    accounting: "AccountingService",
+    legal: "LegalService",
+    insurance: "InsuranceAgency",
+    travel: "TravelAgency",
+  };
+  const schemaType = schemaTypeMap[catSlug] ?? "LocalBusiness";
+
+  // 画像配列
+  const images = (spot as Record<string, unknown>).images as string[] | undefined;
+
+  // JSON-LD 構造化データ（LocalBusiness / Restaurant 等）
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
+    "@type": schemaType,
     name: spot.name,
     ...(spot.name_ja && { alternateName: spot.name_ja }),
     description: spot.description,
@@ -109,6 +138,18 @@ export default async function SpotDetailPage({
     ...(spot.website && { url: spot.website }),
     ...(spot.hours && { openingHours: spot.hours }),
     ...(spot.price_range && { priceRange: spot.price_range }),
+    // 座標
+    ...(spot.lat != null && spot.lng != null && {
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: spot.lat,
+        longitude: spot.lng,
+      },
+    }),
+    // 画像
+    ...(images && images.length > 0 && { image: images }),
+    // 確認日をdateModifiedとして使用
+    ...(spot.last_verified && { dateModified: spot.last_verified }),
   };
 
   const breadcrumbJsonLd = {
@@ -226,7 +267,6 @@ export default async function SpotDetailPage({
         {/* 画像ギャラリー */}
         <div className="max-w-5xl mx-auto px-4 pt-6">
           {(() => {
-            const images = (spot as Record<string, unknown>).images as string[] | undefined;
             const hasImages = images && images.length > 0;
             return (
               <div className="rounded-xl overflow-hidden">
