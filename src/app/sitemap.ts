@@ -38,24 +38,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
 
     // スポット カテゴリ一覧
-    if (country.phase === 1) {
+    const spots = getAllSpots(country.code);
+    if (spots.length > 0) {
       entries.push({
         url: `${BASE_URL}/${country.code}/spot`,
         changeFrequency: "weekly",
         priority: 0.7,
       });
 
-      // スポット カテゴリ別一覧
+      // スポット カテゴリ別一覧（3件以上のカテゴリのみ）
       for (const cat of categories) {
-        entries.push({
-          url: `${BASE_URL}/${country.code}/spot/${cat.slug}`,
-          changeFrequency: "weekly",
-          priority: 0.6,
-        });
+        const catSpots = spots.filter((s) => s.category === cat.slug);
+        if (catSpots.length >= 3) {
+          entries.push({
+            url: `${BASE_URL}/${country.code}/spot/${cat.slug}`,
+            changeFrequency: "weekly",
+            priority: 0.6,
+          });
+        }
       }
 
       // スポット 個別ページ
-      const spots = getAllSpots(country.code);
       for (const spot of spots) {
         entries.push({
           url: `${BASE_URL}/${country.code}/spot/${spot.category}/${spot.slug}`,
