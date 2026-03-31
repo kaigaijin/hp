@@ -487,22 +487,23 @@
   {
     "slug": "sumi-tei-yakiniku-thonglor",
     "name": "Sumi Tei Yakiniku",
-    "name_ja": "Sumi Tei Yakiniku",
+    "name_ja": "炭亭 焼肉レストラン",
     "area": "Thonglor",
-    "address": "Thonglor, Sukhumvit, Bangkok",
-    "phone": null,
-    "website": null,
-    "description": "Thonglorにある焼肉店。",
+    "address": "124 Soi Sukhumvit 53, Sukhumvit Road, Khlong Toei Nuea, Watthana, Bangkok 10110",
+    "phone": "+66917707747",
+    "website": "https://sumiteiyakiniku.com",
+    "description": "バンコク・トンローにある高級焼肉店。タイで唯一、日本から直輸入したインペリアルA5和牛を提供。2014年開業、25年以上の経験を持つシェフKumpoonが率いる。4卓のみの完全予約制で、アラカルト形式。",
     "tags": [
       "焼肉",
       "A5和牛",
-      "高級"
+      "高級",
+      "完全予約制"
     ],
-    "hours": "毎日 17:00-23:00",
+    "hours": "毎日 12:00-22:00",
     "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-28",
-    "ai_reviewed": false
+    "source": "website",
+    "last_verified": "2026-03-31",
+    "ai_reviewed": true
   },
   {
     "slug": "touka-silom-izakaya",
