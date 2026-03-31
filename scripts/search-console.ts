@@ -2,7 +2,7 @@
  * Search Console API — 表示回数が多いのにクリック0のクエリを抽出
  *
  * 使い方:
- *   GOOGLE_SERVICE_ACCOUNT_KEY=path/to/key.json npx tsx scripts/search-console.ts
+ *   npx tsx scripts/search-console.ts
  *
  * オプション:
  *   --days 7          過去N日間（デフォルト: 7）
@@ -11,20 +11,27 @@
  *   --all             全言語のクエリを表示
  *   --check-spots     既存スポットとの照合を行う
  *
- * セットアップ:
- *   1. Google Cloud Console → Search Console API を有効化
- *   2. サービスアカウント作成 → JSONキーをダウンロード
- *   3. Search Console → 設定 → ユーザーと権限 → サービスアカウントのメールを追加（閲覧者）
+ * 初回実行時:
+ *   ブラウザが開くのでGoogleアカウントでログイン → 許可
+ *   トークンは secrets/search-console-token.json に保存される（次回以降は自動）
  */
 
-import { GoogleAuth } from "google-auth-library";
 import * as fs from "fs";
 import * as path from "path";
+import * as http from "http";
+import * as url from "url";
 
 // ── 設定 ──
 
-const SITE_URL = "sc-domain:kaigaijin.jp"; // ドメインプロパティ
+const SITE_URL = "sc-domain:kaigaijin.jp";
 const DIRECTORY_ROOT = path.join(process.cwd(), "content", "directory");
+const SECRETS_DIR = path.join(process.cwd(), "secrets");
+const CLIENT_SECRET_PATH = path.join(
+  SECRETS_DIR,
+  "client_secret_kaigaijin.json"
+);
+const TOKEN_PATH = path.join(SECRETS_DIR, "search-console-token.json");
+const SCOPES = ["https://www.googleapis.com/auth/webmasters.readonly"];
 
 // ── 引数パース ──
 
@@ -40,28 +47,212 @@ const MIN_IMPRESSIONS = parseInt(getArg("min-impressions", "5"), 10);
 const JAPANESE_ONLY = !hasFlag("all");
 const CHECK_SPOTS = hasFlag("check-spots");
 
-// ── 認証 ──
+// ── OAuth2 ──
 
-const keyPath = process.env.GOOGLE_SERVICE_ACCOUNT_KEY;
-if (!keyPath) {
-  console.error(
-    "環境変数 GOOGLE_SERVICE_ACCOUNT_KEY にサービスアカウントのJSONキーパスを設定してください"
-  );
-  console.error(
-    "例: GOOGLE_SERVICE_ACCOUNT_KEY=./secrets/sa-key.json npx tsx scripts/search-console.ts"
-  );
-  process.exit(1);
+interface OAuthClientConfig {
+  client_id: string;
+  client_secret: string;
+  redirect_uris: string[];
+  auth_uri: string;
+  token_uri: string;
 }
 
-const auth = new GoogleAuth({
-  keyFile: keyPath,
-  scopes: ["https://www.googleapis.com/auth/webmasters.readonly"],
-});
+interface TokenData {
+  access_token: string;
+  refresh_token: string;
+  token_type: string;
+  expiry_date: number;
+}
+
+function loadClientConfig(): OAuthClientConfig {
+  if (!fs.existsSync(CLIENT_SECRET_PATH)) {
+    console.error(`OAuth設定ファイルが見つかりません: ${CLIENT_SECRET_PATH}`);
+    process.exit(1);
+  }
+  const raw = JSON.parse(fs.readFileSync(CLIENT_SECRET_PATH, "utf-8"));
+  return raw.installed || raw.web;
+}
+
+function loadSavedToken(): TokenData | null {
+  if (!fs.existsSync(TOKEN_PATH)) return null;
+  try {
+    const token = JSON.parse(fs.readFileSync(TOKEN_PATH, "utf-8"));
+    return token as TokenData;
+  } catch {
+    return null;
+  }
+}
+
+function saveToken(token: TokenData): void {
+  fs.writeFileSync(TOKEN_PATH, JSON.stringify(token, null, 2));
+}
+
+async function exchangeCode(
+  config: OAuthClientConfig,
+  code: string,
+  redirectUri: string
+): Promise<TokenData> {
+  const params = new URLSearchParams({
+    code,
+    client_id: config.client_id,
+    client_secret: config.client_secret,
+    redirect_uri: redirectUri,
+    grant_type: "authorization_code",
+  });
+
+  const res = await fetch(config.token_uri, {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: params.toString(),
+  });
+
+  if (!res.ok) {
+    const text = await res.text();
+    throw new Error(`トークン交換失敗: ${res.status} ${text}`);
+  }
+
+  const data = (await res.json()) as {
+    access_token: string;
+    refresh_token?: string;
+    token_type: string;
+    expires_in: number;
+  };
+
+  return {
+    access_token: data.access_token,
+    refresh_token: data.refresh_token ?? "",
+    token_type: data.token_type,
+    expiry_date: Date.now() + data.expires_in * 1000,
+  };
+}
+
+async function refreshAccessToken(
+  config: OAuthClientConfig,
+  token: TokenData
+): Promise<TokenData> {
+  const params = new URLSearchParams({
+    refresh_token: token.refresh_token,
+    client_id: config.client_id,
+    client_secret: config.client_secret,
+    grant_type: "refresh_token",
+  });
+
+  const res = await fetch(config.token_uri, {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: params.toString(),
+  });
+
+  if (!res.ok) {
+    const text = await res.text();
+    throw new Error(`トークンリフレッシュ失敗: ${res.status} ${text}`);
+  }
+
+  const data = (await res.json()) as {
+    access_token: string;
+    expires_in: number;
+  };
+
+  return {
+    ...token,
+    access_token: data.access_token,
+    expiry_date: Date.now() + data.expires_in * 1000,
+  };
+}
+
+async function authorizeInteractive(
+  config: OAuthClientConfig
+): Promise<TokenData> {
+  return new Promise((resolve, reject) => {
+    // ローカルサーバーでコールバック受け取り
+    const server = http.createServer(async (req, res) => {
+      try {
+        const parsedUrl = url.parse(req.url ?? "", true);
+        const code = parsedUrl.query.code as string;
+
+        if (!code) {
+          res.writeHead(400);
+          res.end("認証コードがありません");
+          return;
+        }
+
+        res.writeHead(200, { "Content-Type": "text/html; charset=utf-8" });
+        res.end(
+          "<h1>認証成功！</h1><p>このタブを閉じてターミナルに戻ってください。</p>"
+        );
+
+        server.close();
+
+        const token = await exchangeCode(
+          config,
+          code,
+          `http://localhost:${port}`
+        );
+        saveToken(token);
+        resolve(token);
+      } catch (err) {
+        reject(err);
+      }
+    });
+
+    // 空きポートを使う
+    const port = 3847;
+    server.listen(port, () => {
+      const authUrl =
+        `${config.auth_uri}?` +
+        new URLSearchParams({
+          client_id: config.client_id,
+          redirect_uri: `http://localhost:${port}`,
+          response_type: "code",
+          scope: SCOPES.join(" "),
+          access_type: "offline",
+          prompt: "consent",
+        }).toString();
+
+      console.log("\n🔐 ブラウザで認証してください:");
+      console.log(authUrl);
+
+      // macOSでブラウザを開く
+      import("child_process").then((cp) => {
+        cp.exec(`open "${authUrl}"`);
+      });
+    });
+
+    // タイムアウト（3分）
+    setTimeout(() => {
+      server.close();
+      reject(new Error("認証タイムアウト（180秒）"));
+    }, 180000);
+  });
+}
+
+async function getAccessToken(): Promise<string> {
+  const config = loadClientConfig();
+  let token = loadSavedToken();
+
+  if (!token) {
+    console.log("初回認証が必要です...");
+    token = await authorizeInteractive(config);
+    console.log("✅ 認証完了！トークンを保存しました\n");
+  }
+
+  // トークンの有効期限チェック（5分のバッファ）
+  if (token.expiry_date < Date.now() + 5 * 60 * 1000) {
+    if (!token.refresh_token) {
+      // リフレッシュトークンがない場合は再認証
+      token = await authorizeInteractive(config);
+    } else {
+      token = await refreshAccessToken(config, token);
+      saveToken(token);
+    }
+  }
+
+  return token.access_token;
+}
 
 // ── 日本語判定 ──
 
 function containsJapanese(text: string): boolean {
-  // ひらがな・カタカナ・漢字（CJK統合漢字）を含むか
   return /[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FFF]/.test(text);
 }
 
@@ -82,11 +273,10 @@ interface QueryRow {
 }
 
 async function fetchSearchAnalytics(): Promise<QueryRow[]> {
-  const client = await auth.getClient();
-  const token = await client.getAccessToken();
+  const accessToken = await getAccessToken();
 
   const endDate = new Date();
-  endDate.setDate(endDate.getDate() - 1); // 昨日まで
+  endDate.setDate(endDate.getDate() - 1);
   const startDate = new Date();
   startDate.setDate(startDate.getDate() - DAYS);
 
@@ -98,12 +288,12 @@ async function fetchSearchAnalytics(): Promise<QueryRow[]> {
     startRow: 0,
   };
 
-  const url = `https://www.googleapis.com/webmasters/v3/sites/${encodeURIComponent(SITE_URL)}/searchAnalytics/query`;
+  const apiUrl = `https://www.googleapis.com/webmasters/v3/sites/${encodeURIComponent(SITE_URL)}/searchAnalytics/query`;
 
-  const res = await fetch(url, {
+  const res = await fetch(apiUrl, {
     method: "POST",
     headers: {
-      Authorization: `Bearer ${(token as { token: string }).token}`,
+      Authorization: `Bearer ${accessToken}`,
       "Content-Type": "application/json",
     },
     body: JSON.stringify(body),
@@ -130,16 +320,13 @@ interface SpotMatch {
 }
 
 function loadAllSpots(): Map<string, SpotMatch[]> {
-  // クエリのキーワードで検索するためのインデックス
   const index = new Map<string, SpotMatch[]>();
 
   if (!fs.existsSync(DIRECTORY_ROOT)) return index;
 
   const countries = fs
     .readdirSync(DIRECTORY_ROOT)
-    .filter((f) =>
-      fs.statSync(path.join(DIRECTORY_ROOT, f)).isDirectory()
-    );
+    .filter((f) => fs.statSync(path.join(DIRECTORY_ROOT, f)).isDirectory());
 
   for (const country of countries) {
     const countryDir = path.join(DIRECTORY_ROOT, country);
@@ -167,7 +354,6 @@ function loadAllSpots(): Map<string, SpotMatch[]> {
             description: spot.description,
           };
 
-          // name と name_ja の各単語をキーにインデックス
           const keywords = new Set<string>();
           for (const text of [spot.name, spot.name_ja ?? ""]) {
             for (const word of text.toLowerCase().split(/[\s\-\/&]+/)) {
@@ -192,7 +378,10 @@ function findMatchingSpots(
   query: string,
   index: Map<string, SpotMatch[]>
 ): SpotMatch[] {
-  const words = query.toLowerCase().split(/[\s\-\/&]+/).filter((w) => w.length >= 2);
+  const words = query
+    .toLowerCase()
+    .split(/[\s\-\/&]+/)
+    .filter((w) => w.length >= 2);
   const candidates = new Map<string, { spot: SpotMatch; score: number }>();
 
   for (const word of words) {
@@ -208,7 +397,6 @@ function findMatchingSpots(
     }
   }
 
-  // スコア2以上（2単語以上一致）を返す
   return Array.from(candidates.values())
     .filter((c) => c.score >= 2)
     .sort((a, b) => b.score - a.score)
@@ -223,32 +411,28 @@ async function main() {
   console.log(`   日本語フィルタ: ${JAPANESE_ONLY ? "ON" : "OFF"}`);
   console.log(`   スポット照合: ${CHECK_SPOTS ? "ON" : "OFF"}\n`);
 
-  // データ取得
   const rows = await fetchSearchAnalytics();
   console.log(`   全クエリ数: ${rows.length}\n`);
 
-  // フィルタ: 表示回数 >= MIN_IMPRESSIONS & クリック0
   let zeroClickRows = rows.filter(
     (r) => r.clicks === 0 && r.impressions >= MIN_IMPRESSIONS
   );
 
-  // 日本語フィルタ
   if (JAPANESE_ONLY) {
     zeroClickRows = zeroClickRows.filter((r) => containsJapanese(r.keys[0]));
   }
 
-  // 表示回数降順
   zeroClickRows.sort((a, b) => b.impressions - a.impressions);
 
   if (zeroClickRows.length === 0) {
-    console.log("✅ 該当するクエリはありません（全てクリックされてるか、表示回数が少ない）");
+    console.log(
+      "✅ 該当するクエリはありません（全てクリックされてるか、表示回数が少ない）"
+    );
     return;
   }
 
-  // スポットインデックス読み込み
   const spotIndex = CHECK_SPOTS ? loadAllSpots() : new Map();
 
-  // 出力
   console.log(
     `🔍 表示${MIN_IMPRESSIONS}回以上・クリック0のクエリ（${zeroClickRows.length}件）\n`
   );
@@ -284,7 +468,6 @@ async function main() {
 
   console.log("─".repeat(80));
 
-  // サマリー
   if (CHECK_SPOTS) {
     const missing = zeroClickRows.filter(
       (r) => findMatchingSpots(r.keys[0], spotIndex).length === 0
