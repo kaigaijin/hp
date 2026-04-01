@@ -13,6 +13,7 @@ import { statusConfig } from "@/lib/directory";
 import { getCategoryTheme } from "@/lib/group-theme";
 import SpotReportForm from "@/components/SpotReportForm";
 import SpotReviewForm from "@/components/SpotReviewForm";
+import RandomSpots from "@/components/RandomSpots";
 import SpotDetailTabs from "@/components/SpotDetailTabs";
 import {
   MapPin,
@@ -100,10 +101,9 @@ export default async function SpotDetailPage({
   const spotStatus = spot.status ?? "unverified";
   const theme = getCategoryTheme(catSlug);
 
-  // 同じカテゴリの他のスポット
+  // 同じカテゴリの他のスポット（クライアント側でランダム表示）
   const sameCategory = getSpotsByCategory(code, catSlug)
-    .filter((s) => s.slug !== slug)
-    .slice(0, 5);
+    .filter((s) => s.slug !== slug);
 
   // 国別記事（関連記事表示用）
   const relatedArticles = getArticlesByCountry(code).slice(0, 3);
@@ -430,33 +430,17 @@ export default async function SpotDetailPage({
                 />
               </div>
 
-              {/* 同じカテゴリのスポット */}
+              {/* 同じカテゴリのスポット（ランダム表示） */}
               {sameCategory.length > 0 && (
-                <div className="mt-4 pt-6 border-t border-stone-300 dark:border-stone-600">
-                  <div className="flex items-center justify-between mb-3">
-                    <h2 className="text-xs font-medium text-stone-400 dark:text-stone-500 uppercase tracking-wider">
-                      {category.name}の他の場所
-                    </h2>
-                    <Link
-                      href={`/${code}/spot/${catSlug}`}
-                      className={`text-xs ${theme.accent} hover:underline`}
-                    >
-                      すべて見る
-                    </Link>
-                  </div>
-                  <div className="flex flex-wrap gap-2">
-                    {sameCategory.map((s) => (
-                      <Link
-                        key={s.slug}
-                        href={`/${code}/spot/${catSlug}/${s.slug}`}
-                        className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-stone-200 dark:border-stone-600 text-sm text-stone-600 dark:text-stone-400 ${theme.hoverBorder} transition-colors`}
-                      >
-                        {s.name_ja ?? s.name}
-                        <span className="text-xs text-stone-400">· {s.area}</span>
-                      </Link>
-                    ))}
-                  </div>
-                </div>
+                <RandomSpots
+                  spots={sameCategory}
+                  countryCode={code}
+                  categorySlug={catSlug}
+                  accentClass={theme.accent}
+                  hoverBorderClass={theme.hoverBorder}
+                  categoryName={category.name}
+                  count={5}
+                />
               )}
 
             </div>
