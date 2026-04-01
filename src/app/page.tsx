@@ -79,7 +79,7 @@ export default function Home() {
 
               {/* 国フラグ一覧 */}
               <div className="flex flex-wrap gap-2">
-                {countries.filter((c) => c.phase === 1).map((c) => (
+                {countries.map((c) => (
                   <a
                     key={c.code}
                     href={`/${c.code}`}
