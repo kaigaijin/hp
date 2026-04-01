@@ -855,5 +855,237 @@
     "last_verified": "2026-03-28",
     "source": "google_maps",
     "ai_reviewed": true
+  },
+  {
+    "slug": "arabica-city-walk",
+    "name": "% Arabica City Walk",
+    "name_ja": "パーセントアラビカ シティウォーク",
+    "area": "City Walk",
+    "address": "City Walk II, Al Wasl Road, Al Safa, Dubai",
+    "phone": null,
+    "website": "https://arabicacoffee.ae",
+    "description": "UAE旗艦店。京都発の日本の精神が宿るスペシャルティコーヒーショップ。シティウォークに位置し、世界中から厳選した豆を店内で焙煎。ミニマリストなインテリアと高品質なコーヒーで人気。",
+    "tags": [
+      "スペシャルティコーヒー",
+      "日本ブランド",
+      "焙煎"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-31",
+    "status": "unverified",
+    "source": "web_search",
+    "ai_reviewed": true
+  },
+  {
+    "slug": "arabica-dubai-mall",
+    "name": "% Arabica Dubai Mall",
+    "name_ja": "パーセントアラビカ ドバイモール",
+    "area": "Downtown Dubai",
+    "address": "Ground Floor, between Markette and Level Shoe District, The Dubai Mall, Downtown Dubai",
+    "phone": "+97143311071",
+    "website": "https://arabicacoffee.ae",
+    "description": "ドバイモール内の日本発スペシャルティコーヒーショップ。世界中から厳選されたコーヒー豆を使用したラテやドリップコーヒーが楽しめる。買い物の合間に立ち寄りやすい定番カフェ。",
+    "tags": [
+      "スペシャルティコーヒー",
+      "日本ブランド",
+      "モール内"
+    ],
+    "hours": "月〜日 8:00-翌2:00",
+    "last_verified": "2026-03-31",
+    "status": "unverified",
+    "source": "web_search",
+    "ai_reviewed": true
+  },
+  {
+    "slug": "arabica-mall-of-emirates",
+    "name": "% Arabica Mall of the Emirates",
+    "name_ja": "パーセントアラビカ モール・オブ・ジ・エミレーツ",
+    "area": "Al Barsha",
+    "address": "Floor 1, near Parking Gate D, Mall of the Emirates, Sheikh Zayed Rd, Al Barsha 1, Dubai",
+    "phone": "+97143292200",
+    "website": "https://arabicacoffee.ae",
+    "description": "モール・オブ・ジ・エミレーツ内の日本発スペシャルティコーヒーショップ。シンプルなウッド＆ホワイトのインテリアが特徴。京都式ラテ、フィルターコーヒーが人気。買い物・スキードバイ帰りにも立ち寄りやすい。",
+    "tags": [
+      "スペシャルティコーヒー",
+      "日本ブランド",
+      "モール内"
+    ],
+    "hours": "月〜日 8:00-翌2:00",
+    "last_verified": "2026-03-31",
+    "status": "unverified",
+    "source": "web_search",
+    "ai_reviewed": true
+  },
+  {
+    "slug": "matcha-16-palm-jumeirah",
+    "name": "Matcha 16",
+    "name_ja": "マッチャ16",
+    "area": "Palm Jumeirah",
+    "address": "Mileo The Palm, West Beach, Palm Jumeirah, Dubai",
+    "phone": "+97152196904",
+    "website": "https://matcha16.com",
+    "description": "2025年9月ドバイ初上陸の日本インスパイアウェルネスマッチャカフェ。パームジュメイラのミレオ・ザ・パーム内に位置。セレモニアル抹茶を使ったクリエイティブなドリンク、スーパーフード、シェフ監修のメニューを提供。木と自然素材が調和した禅的空間。",
+    "tags": [
+      "抹茶カフェ",
+      "ウェルネス",
+      "パームジュメイラ"
+    ],
+    "hours": "月〜金 8:00-20:00 / 土日 9:00-23:00",
+    "last_verified": "2026-03-31",
+    "status": "unverified",
+    "source": "web_search",
+    "ai_reviewed": true
+  },
+  {
+    "slug": "clarity-tea-downtown",
+    "name": "Clarity Tea",
+    "name_ja": "クラリティ ティー",
+    "area": "Downtown Dubai",
+    "address": "Saaha Office B, Souk Al Bahar, Downtown Dubai",
+    "phone": "+97158265409",
+    "website": "https://myclaritytea.com",
+    "description": "ソーク・アル・バハール内の日本産抹茶と台湾産烏龍茶専門カフェ。砂糖・香料・添加物を一切使用しない純粋なお茶にこだわる。ドバイ噴水やブルジュ・ハリファを望む立地で、本物の日本茶体験を提供。",
+    "tags": [
+      "抹茶",
+      "烏龍茶",
+      "日本茶",
+      "こだわり素材"
+    ],
+    "hours": null,
+    "last_verified": "2026-03-31",
+    "status": "unverified",
+    "source": "web_search",
+    "ai_reviewed": true
+  },
+  {
+    "slug": "chateraise-city-centre-mirdif",
+    "name": "YATSUDOKI (Chateraise Premium) City Centre Mirdif",
+    "name_ja": "シャトレーゼ ヤツドキ シティセンター・ミルディフ店",
+    "area": "Mirdif",
+    "address": "2nd Floor, City Centre Mirdif, Sheikh Mohammed Bin Zayed Rd, Mirdif, Dubai",
+    "phone": "+97143520812",
+    "website": "https://yatsudoki.ae",
+    "description": "日本の老舗菓子メーカー・シャトレーゼのプレミアムライン「ヤツドキ」UAE3号店。ミルディフ・シティセンター2階にあり、素材にこだわった生洋菓子・和菓子・ケーキが揃う。2024年10月開店。",
+    "tags": [
+      "ケーキ",
+      "和菓子",
+      "日本ブランド",
+      "スイーツ"
+    ],
+    "hours": "8:30-翌0:00",
+    "last_verified": "2026-03-31",
+    "status": "unverified",
+    "source": "web_search",
+    "ai_reviewed": true
+  },
+  {
+    "slug": "cafe-kitsune-al-safa",
+    "name": "Café Kitsuné",
+    "name_ja": "カフェ キツネ",
+    "area": "Al Safa",
+    "address": "Ground Floor, H Residence, Al Wasl Road, Al Safa 1, Dubai",
+    "phone": "+97142322398",
+    "website": "https://maisonkitsune.com/mk/find-a-store/cafe-kitsune-dubai/",
+    "description": "パリ×東京発の人気ファッションブランド「メゾン・キツネ」が展開するカフェのUAE第1号店。アルワスルロードのHレジデンス1階に位置し、こだわりの抹茶ラテや抹茶スイーツが評判。スタイリッシュな空間で日本のカフェ文化を体験できるアートな雰囲気が特徴。毎日8:00〜23:00営業。",
+    "tags": [
+      "抹茶",
+      "カフェ",
+      "フレンチ×ジャパニーズ",
+      "スタイリッシュ",
+      "アルサファ"
+    ],
+    "hours": "8:00〜23:00（毎日）",
+    "last_verified": "2026-03-31",
+    "status": "unverified",
+    "source": "web_search",
+    "ai_reviewed": true
+  },
+  {
+    "slug": "the-matcha-tokyo-al-khawaneej",
+    "name": "The Matcha Tokyo - Al Khawaneej",
+    "name_ja": "ザ・マッチャ・トーキョー アルハワネイジュ",
+    "area": "Al Khawaneej",
+    "address": "Near Last Exit, Al Khawaneej, Dubai",
+    "phone": "+97142712422",
+    "website": "https://thematchatokyo.ae",
+    "description": "東京発祥のオーガニック抹茶専門カフェ「The Matcha Tokyo」のアルハワネイジュ店。京都・宇治産の100%オーガニック抹茶を使用した抹茶ラテ、ほうじ茶ラテ、抹茶ソフトクリームを提供。朝8:00から営業でモーニング需要にも対応。",
+    "tags": [
+      "抹茶",
+      "オーガニック",
+      "京都産抹茶",
+      "カフェ",
+      "抹茶スイーツ"
+    ],
+    "hours": "8:00〜（閉店時間は公式サイト確認）",
+    "last_verified": "2026-03-31",
+    "status": "unverified",
+    "source": "web_search",
+    "ai_reviewed": true
+  },
+  {
+    "slug": "yakitate-al-rigga",
+    "name": "Yakitate",
+    "name_ja": "ヤキタテ",
+    "area": "Deira",
+    "address": "Shop E3, Street 26C, Al Rigga, Deira, Dubai",
+    "phone": "+97142595661",
+    "website": "https://yakitate.co",
+    "description": "デイラのアルリッガに位置する日本式ブティックベーカリー＆カフェ。カラフルなアイスクリーム大福、ロールケーキ、ラーメンバーガー、寿司など和洋折衷のユニークなメニューが評判。日本のカフェ文化を東京スタイルで体験できるデイラエリアの穴場。",
+    "tags": [
+      "日本式ベーカリー",
+      "大福",
+      "カフェ",
+      "デイラ",
+      "スイーツ"
+    ],
+    "hours": "要公式サイト確認",
+    "last_verified": "2026-03-31",
+    "status": "unverified",
+    "source": "web_search",
+    "ai_reviewed": true
+  },
+  {
+    "slug": "yogashi-bakery-mall-of-emirates",
+    "name": "Yogashi Bakery",
+    "name_ja": "ヨウガシ ベーカリー モール・オブ・エミレーツ",
+    "area": "Al Barsha",
+    "address": "Level 2, Near Cinema Area, Mall of the Emirates, Sheikh Zayed Road, Al Barsha 1, Dubai",
+    "phone": "+97143435212",
+    "website": "https://www.yogashibakery.com",
+    "description": "モール・オブ・エミレーツ2階に位置する極東インスパイアのスイーツ＆ベーカリー。日本式チーズケーキ、もちアイスクリーム、かき氷（カキゴリ）など日本ルーツのスイーツを手作りで提供。和菓子とフランス式パティスリーを融合させた独自スタイルが人気。",
+    "tags": [
+      "日本式ベーカリー",
+      "もちアイス",
+      "かき氷",
+      "チーズケーキ",
+      "スイーツ"
+    ],
+    "hours": "要公式サイト確認",
+    "last_verified": "2026-03-31",
+    "status": "unverified",
+    "source": "web_search",
+    "ai_reviewed": true
+  },
+  {
+    "slug": "edo-sweets-city-walk",
+    "name": "Edo Sweets",
+    "name_ja": "江戸スイーツ シティウォーク",
+    "area": "Jumeirah",
+    "address": "City Walk, Jumeirah 1, Dubai",
+    "phone": "+97143440833",
+    "website": null,
+    "description": "大福（もち）専門の日本式パティスリーカフェ。カフェラテ、バナナ、ピスタチオ、ストロベリーチーズケーキなどバラエティ豊富なフレーバーの大福を提供。もちの弾力あるテクスチャと繊細なフィリングの組み合わせで日本スイーツを手軽に体験できる。",
+    "tags": [
+      "大福",
+      "もち",
+      "日本スイーツ",
+      "カフェ",
+      "シティウォーク"
+    ],
+    "hours": "要公式サイト確認",
+    "last_verified": "2026-03-31",
+    "status": "unverified",
+    "source": "web_search",
+    "ai_reviewed": true
   }
 ]
