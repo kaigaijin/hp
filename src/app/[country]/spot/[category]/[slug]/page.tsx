@@ -36,7 +36,6 @@ import {
   Camera,
   ArrowRight,
 } from "lucide-react";
-import { getArticlesByCountry } from "@/lib/articles";
 import type { Metadata } from "next";
 
 type Params = { country: string; category: string; slug: string };
@@ -104,9 +103,6 @@ export default async function SpotDetailPage({
   // 同じカテゴリの他のスポット（クライアント側でランダム表示）
   const sameCategory = getSpotsByCategory(code, catSlug)
     .filter((s) => s.slug !== slug);
-
-  // 国別記事（関連記事表示用）
-  const relatedArticles = getArticlesByCountry(code).slice(0, 3);
 
   // カテゴリに応じたSchema.orgの具体的な@type
   const schemaTypeMap: Record<string, string> = {
@@ -611,39 +607,6 @@ export default async function SpotDetailPage({
               ← {category.name}の一覧に戻る
             </Link>
           </div>
-
-          {/* 関連記事（回遊促進） */}
-          {relatedArticles.length > 0 && (
-            <div className="mt-10 pt-8 border-t border-stone-200 dark:border-stone-700">
-              <div className="flex items-center justify-between mb-4">
-                <h2 className="text-base font-bold text-stone-700 dark:text-stone-200">
-                  {country.name}の生活ガイド記事
-                </h2>
-                <Link
-                  href={`/${code}`}
-                  className="text-xs text-warm-600 dark:text-warm-400 hover:underline flex items-center gap-1"
-                >
-                  すべて見る <ArrowRight size={12} />
-                </Link>
-              </div>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
-                {relatedArticles.map((article) => (
-                  <Link
-                    key={article.slug}
-                    href={`/${code}/${article.slug}`}
-                    className="group block bg-white dark:bg-stone-800 border border-stone-200 dark:border-stone-700 rounded-xl p-4 hover:border-warm-300 dark:hover:border-warm-600 hover:shadow-sm transition-all"
-                  >
-                    <p className="text-sm font-medium text-stone-700 dark:text-stone-200 group-hover:text-warm-700 dark:group-hover:text-warm-400 transition-colors line-clamp-2">
-                      {article.title}
-                    </p>
-                    <p className="text-xs text-stone-400 dark:text-stone-500 mt-2 line-clamp-2">
-                      {article.description}
-                    </p>
-                  </Link>
-                ))}
-              </div>
-            </div>
-          )}
 
           {/* スポット一覧へのCTA */}
           <div className="mt-8 bg-gradient-to-br from-warm-50 to-warm-100 dark:from-warm-900/20 dark:to-warm-800/20 rounded-2xl p-6 flex flex-col sm:flex-row items-center justify-between gap-4">
