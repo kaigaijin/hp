@@ -60,15 +60,32 @@ export default function Home() {
                 在住者の視点で丁寧に解説します。
               </p>
 
+              {/* メインCTA */}
+              <div className="flex flex-col sm:flex-row gap-3 mb-8">
+                <a
+                  href="#countries"
+                  className="inline-flex items-center justify-center gap-2 bg-white text-ocean-800 font-bold px-8 py-4 rounded-xl text-base hover:bg-ocean-50 transition-colors shadow-lg"
+                >
+                  <span>住んでいる国を選ぶ</span>
+                  <span>→</span>
+                </a>
+                <a
+                  href="/sg/spot"
+                  className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/30 text-white font-medium px-8 py-4 rounded-xl text-base transition-colors"
+                >
+                  🇸🇬 まずシンガポールを見る
+                </a>
+              </div>
+
               {/* 国フラグ一覧 */}
-              <div className="flex flex-wrap gap-3">
-                {countries.map((c) => (
+              <div className="flex flex-wrap gap-2">
+                {countries.filter((c) => c.phase === 1).map((c) => (
                   <a
                     key={c.code}
                     href={`/${c.code}`}
-                    className="flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full text-sm transition-colors"
+                    className="flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-sm px-3 py-1.5 rounded-full text-sm transition-colors"
                   >
-                    <span className="text-xl">{c.flag}</span>
+                    <span>{c.flag}</span>
                     {c.name}
                   </a>
                 ))}

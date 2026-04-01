@@ -103,8 +103,29 @@ export default async function CountryPage({
               {country.tagline}
             </p>
 
+            {/* CTA */}
+            {totalSpots > 0 && (
+              <div className="flex flex-col sm:flex-row gap-3 mt-8">
+                <Link
+                  href={`/${code}/spot`}
+                  className="inline-flex items-center justify-center gap-2 bg-white text-ocean-800 font-bold px-6 py-3 rounded-xl text-sm hover:bg-ocean-50 transition-colors shadow-md"
+                >
+                  <MapPin size={16} />
+                  日本人向けスポット {totalSpots}件を見る
+                </Link>
+                {articles.length > 0 && (
+                  <a
+                    href="#articles"
+                    className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 border border-white/30 text-white font-medium px-6 py-3 rounded-xl text-sm transition-colors"
+                  >
+                    生活ガイド記事を読む
+                  </a>
+                )}
+              </div>
+            )}
+
             {/* トピックタグ */}
-            <div className="flex flex-wrap gap-2 mt-8">
+            <div className="flex flex-wrap gap-2 mt-6">
               {country.topics.map((topic) => (
                 <span
                   key={topic}
@@ -118,7 +139,7 @@ export default async function CountryPage({
         </section>
 
         {/* KAIスポット + 記事 を統合した2カラムレイアウト */}
-        <section className="py-12 md:py-16">
+        <section id="articles" className="py-12 md:py-16">
           <div className="max-w-6xl mx-auto px-4">
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
               {/* 左カラム: 記事一覧 */}
