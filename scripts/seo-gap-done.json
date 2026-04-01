@@ -21,7 +21,7 @@
   },
   {
     "query": "居酒屋 布袋",
-    "action": "シンガポール店舗の実在確認済み→存在しないためスポット追加不可。タイ店（sathorn12/one-bangkok）は掲載済み",
+    "action": "タイのスポット。izakaya-hotei-phrom-phongのname_jaを「居酒屋 布袋 プロンポン」に修正（検索クエリ一致）",
     "done_at": "2026-04-01"
   },
   {
@@ -31,7 +31,27 @@
   },
   {
     "query": "sp幼稚園",
-    "action": "spはシンガポールの略。/sg/spot/educationにいろは幼稚園・シンガポール日本人幼稚園等掲載済み。カテゴリtitleに【日本人向け】追加で改善",
+    "action": "タイのスポット。/th/spot/education/sp-kindergarten-phrom-phong として既に掲載済み（SP Kindergarten）",
+    "done_at": "2026-04-01"
+  },
+  {
+    "query": "西村不動産",
+    "action": "タイのスポット。nishimura-real-estate-bangkokのname_jaを「西村不動産 バンコク」に修正（検索クエリ一致）",
+    "done_at": "2026-04-01"
+  },
+  {
+    "query": "サミティベート 病院",
+    "action": "タイのスポット。samitivej-sukhumvit-hospitalとして掲載済み。name_ja「サミティベート病院 スクンビット」がtitleに反映される",
+    "done_at": "2026-04-01"
+  },
+  {
+    "query": "バムルンラード 病院",
+    "action": "タイのスポット。bumrungrad-international-hospitalとして掲載済み。name_ja「バムルンラード インターナショナル 病院」がtitleに反映される",
+    "done_at": "2026-04-01"
+  },
+  {
+    "query": "シンガポール 日本食レストラン",
+    "action": "/sg/spot/restaurantのカテゴリ名を「日本食レストラン・グルメ」に変更（titleにキーワードを含める）",
     "done_at": "2026-04-01"
   }
 ]

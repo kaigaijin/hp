@@ -65,7 +65,7 @@ export const categoryGroups: CategoryGroup[] = [
 export const categories: CategoryDef[] = [
   {
     slug: "restaurant",
-    name: "レストラン・日本食",
+    name: "日本食レストラン・グルメ",
     icon: "UtensilsCrossed",
     description: "日本食レストラン、居酒屋、ラーメン店など",
   },
