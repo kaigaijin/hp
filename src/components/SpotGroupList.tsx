@@ -133,7 +133,7 @@ function SpotGroupListInner({
               onClick={() => handleFilterChange(null)}
               className={`shrink-0 text-xs font-medium px-3 py-1.5 rounded-full transition-colors ${
                 activeFilter === null
-                  ? (theme?.filterActive ?? "text-ocean-600 dark:text-ocean-400 bg-ocean-50 dark:bg-ocean-900/30")
+                  ? (theme?.filterActive ?? "text-warm-600 dark:text-warm-400 bg-warm-50 dark:bg-warm-900/30")
                   : "text-stone-500 dark:text-stone-400 bg-stone-50 dark:bg-stone-700 hover:bg-stone-100 dark:hover:bg-stone-600"
               }`}
             >
@@ -147,7 +147,7 @@ function SpotGroupListInner({
                 }
                 className={`shrink-0 text-xs font-medium px-3 py-1.5 rounded-full transition-colors ${
                   activeFilter === cat.slug
-                    ? (theme?.filterActive ?? "text-ocean-600 dark:text-ocean-400 bg-ocean-50 dark:bg-ocean-900/30")
+                    ? (theme?.filterActive ?? "text-warm-600 dark:text-warm-400 bg-warm-50 dark:bg-warm-900/30")
                     : "text-stone-500 dark:text-stone-400 bg-stone-50 dark:bg-stone-700 hover:bg-stone-100 dark:hover:bg-stone-600"
                 }`}
               >
@@ -171,7 +171,7 @@ function SpotGroupListInner({
               updateURL(1, activeFilter);
             }}
             placeholder="店名・エリア・キーワードで検索"
-            className="w-full pl-9 pr-9 py-2.5 rounded-lg border border-stone-200 dark:border-stone-600 bg-white dark:bg-stone-800 text-sm text-stone-800 dark:text-stone-100 focus:outline-none focus:ring-2 focus:ring-ocean-500 placeholder:text-stone-400"
+            className="w-full pl-9 pr-9 py-2.5 rounded-lg border border-stone-200 dark:border-stone-600 bg-white dark:bg-stone-800 text-sm text-stone-800 dark:text-stone-100 focus:outline-none focus:ring-2 focus:ring-warm-500 placeholder:text-stone-400"
           />
           {searchQuery && (
             <button
@@ -206,7 +206,7 @@ function SpotGroupListInner({
                 href={`/${countryCode}/spot/${spot.categorySlug}/${spot.slug}`}
                 className="group block"
               >
-                <article className={`bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 ${theme?.hoverBorder ?? "hover:border-ocean-400 dark:hover:border-ocean-500"} hover:shadow-md transition-all overflow-hidden`}>
+                <article className={`bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 ${theme?.hoverBorder ?? "hover:border-warm-400 dark:hover:border-warm-500"} hover:shadow-md transition-all overflow-hidden`}>
                   {/* 画像ギャラリー: 左1大 + 右2小の横並び */}
                   <div className="flex gap-0.5 h-28 sm:h-36 bg-stone-100 dark:bg-stone-700/50 rounded-t-xl overflow-hidden">
                     {/* メイン画像（左・大） */}
@@ -254,7 +254,7 @@ function SpotGroupListInner({
                   <div className="p-3 sm:p-4">
                     <div className="flex items-start justify-between gap-2 mb-1.5">
                       <div className="min-w-0">
-                        <h2 className={`text-sm sm:text-base font-bold text-stone-800 dark:text-stone-100 truncate ${theme?.accentHover ?? "group-hover:text-ocean-700 dark:group-hover:text-ocean-400"} transition-colors`}>
+                        <h2 className={`text-sm sm:text-base font-bold text-stone-800 dark:text-stone-100 truncate ${theme?.accentHover ?? "group-hover:text-warm-700 dark:group-hover:text-warm-400"} transition-colors`}>
                           {spot.name_ja ?? spot.name}
                         </h2>
                         {spot.name_ja && (
@@ -265,7 +265,7 @@ function SpotGroupListInner({
                       </div>
                       <div className="flex items-center gap-1.5 shrink-0">
                         {!activeFilter && (
-                          <span className={`text-[11px] ${theme?.badgeText ?? "text-ocean-600 dark:text-ocean-400"} ${theme?.badgeBg ?? "bg-ocean-50 dark:bg-ocean-900/30"} px-1.5 py-0.5 rounded`}>
+                          <span className={`text-[11px] ${theme?.badgeText ?? "text-warm-600 dark:text-warm-400"} ${theme?.badgeBg ?? "bg-warm-50 dark:bg-warm-900/30"} px-1.5 py-0.5 rounded`}>
                             {spot.categoryName}
                           </span>
                         )}
@@ -318,7 +318,7 @@ function SpotGroupListInner({
                           </span>
                         )}
                         {spot.website && (
-                          <span className={`flex items-center gap-1 text-[11px] ${theme?.badgeText ?? "text-ocean-500"}`}>
+                          <span className={`flex items-center gap-1 text-[11px] ${theme?.badgeText ?? "text-warm-500"}`}>
                             <Globe size={10} />
                             Web
                           </span>
@@ -372,7 +372,7 @@ function SpotGroupListInner({
                   onClick={() => goToPage(page)}
                   className={`min-w-[36px] h-9 rounded-lg text-sm font-medium transition-colors ${
                     page === safeCurrentPage
-                      ? "bg-ocean-600 text-white"
+                      ? "bg-warm-600 text-white"
                       : "text-stone-600 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-700"
                   }`}
                   aria-current={page === safeCurrentPage ? "page" : undefined}

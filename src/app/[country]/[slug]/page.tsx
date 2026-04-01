@@ -120,13 +120,13 @@ export default async function ArticlePage({
         <article className="max-w-3xl mx-auto px-4">
           {/* パンくず */}
           <nav className="flex items-center gap-2 text-sm text-stone-400 mb-8">
-            <Link href="/" className="hover:text-ocean-600 dark:hover:text-ocean-400 transition-colors">
+            <Link href="/" className="hover:text-warm-600 dark:hover:text-warm-400 transition-colors">
               Kaigaijin
             </Link>
             <span>/</span>
             <Link
               href={`/${code}`}
-              className="hover:text-ocean-600 dark:hover:text-ocean-400 transition-colors"
+              className="hover:text-warm-600 dark:hover:text-warm-400 transition-colors"
             >
               {country.flag} {country.name}
             </Link>
@@ -136,7 +136,7 @@ export default async function ArticlePage({
 
           {/* ヘッダー */}
           <header className="mb-12">
-            <div className="flex items-center gap-2 text-sm text-ocean-600 dark:text-ocean-400 font-medium mb-3">
+            <div className="flex items-center gap-2 text-sm text-warm-600 dark:text-warm-400 font-medium mb-3">
               <Tag size={14} />
               {article.meta.category}
             </div>
@@ -169,7 +169,7 @@ export default async function ArticlePage({
           </header>
 
           {/* 本文 */}
-          <div className="prose prose-stone dark:prose-invert prose-lg max-w-none prose-headings:heading-editorial prose-a:text-ocean-600 dark:prose-a:text-ocean-400 prose-a:no-underline hover:prose-a:underline">
+          <div className="prose prose-stone dark:prose-invert prose-lg max-w-none prose-headings:heading-editorial prose-a:text-warm-600 dark:prose-a:text-warm-400 prose-a:no-underline hover:prose-a:underline">
             <MDXRemote source={article.content} components={mdxComponents} options={{ mdxOptions: { remarkPlugins: [remarkGfm] } }} />
           </div>
 
@@ -180,7 +180,7 @@ export default async function ArticlePage({
           <div className="mt-16 pt-8 border-t border-stone-200 dark:border-stone-700">
             <Link
               href={`/${code}`}
-              className="inline-flex items-center gap-2 text-ocean-600 dark:text-ocean-400 hover:text-ocean-800 dark:hover:text-ocean-300 font-medium transition-colors"
+              className="inline-flex items-center gap-2 text-warm-600 dark:text-warm-400 hover:text-warm-800 dark:hover:text-warm-300 font-medium transition-colors"
             >
               <ArrowLeft size={16} />
               {country.name}の記事一覧に戻る

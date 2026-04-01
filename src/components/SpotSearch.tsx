@@ -51,7 +51,7 @@ export default function SpotSearch({
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="名前・エリア・キーワードで検索"
-          className="w-full pl-9 pr-9 py-2.5 rounded-xl border border-stone-200 dark:border-stone-600 bg-white dark:bg-stone-800 text-sm focus:outline-none focus:ring-2 focus:ring-ocean-500 placeholder:text-stone-400"
+          className="w-full pl-9 pr-9 py-2.5 rounded-xl border border-stone-200 dark:border-stone-600 bg-white dark:bg-stone-800 text-sm focus:outline-none focus:ring-2 focus:ring-warm-500 placeholder:text-stone-400"
         />
         {query && (
           <button
@@ -82,7 +82,7 @@ export default function SpotSearch({
                     <MapPin size={10} />
                     {spot.area}
                   </span>
-                  <span className="text-xs text-ocean-600 dark:text-ocean-400">
+                  <span className="text-xs text-warm-600 dark:text-warm-400">
                     {spot.categoryName}
                   </span>
                 </div>

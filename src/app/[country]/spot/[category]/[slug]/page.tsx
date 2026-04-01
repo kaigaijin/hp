@@ -212,28 +212,28 @@ export default async function SpotDetailPage({
             <nav className="flex items-center gap-1.5 text-xs text-stone-400 mb-3 flex-wrap">
               <Link
                 href="/"
-                className="hover:text-ocean-600 transition-colors"
+                className="hover:text-warm-600 transition-colors"
               >
                 トップ
               </Link>
               <ChevronRight size={12} />
               <Link
                 href={`/${code}`}
-                className="hover:text-ocean-600 transition-colors"
+                className="hover:text-warm-600 transition-colors"
               >
                 {country.flag} {country.name}
               </Link>
               <ChevronRight size={12} />
               <Link
                 href={`/${code}/spot`}
-                className="hover:text-ocean-600 transition-colors"
+                className="hover:text-warm-600 transition-colors"
               >
                 KAIスポット
               </Link>
               <ChevronRight size={12} />
               <Link
                 href={`/${code}/spot/${catSlug}`}
-                className="hover:text-ocean-600 transition-colors"
+                className="hover:text-warm-600 transition-colors"
               >
                 {category.name}
               </Link>
@@ -367,7 +367,7 @@ export default async function SpotDetailPage({
                     href={spot.website}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex-1 flex items-center justify-center gap-2 bg-white dark:bg-stone-800 border border-stone-200 dark:border-stone-700 text-stone-700 dark:text-stone-200 rounded-xl py-3 font-medium text-sm hover:border-ocean-400 transition-colors"
+                    className="flex-1 flex items-center justify-center gap-2 bg-white dark:bg-stone-800 border border-stone-200 dark:border-stone-700 text-stone-700 dark:text-stone-200 rounded-xl py-3 font-medium text-sm hover:border-warm-400 transition-colors"
                   >
                     <Globe size={16} />
                     公式サイト
@@ -487,7 +487,7 @@ export default async function SpotDetailPage({
                       <dd>
                         <a
                           href={`tel:${spot.phone}`}
-                          className="text-sm text-ocean-600 dark:text-ocean-400 hover:underline font-medium"
+                          className="text-sm text-warm-600 dark:text-warm-400 hover:underline font-medium"
                         >
                           {spot.phone}
                         </a>
@@ -592,7 +592,7 @@ export default async function SpotDetailPage({
                   {spot.phone && (
                     <a
                       href={`tel:${spot.phone}`}
-                      className="hidden lg:flex items-center justify-center gap-2 w-full bg-white dark:bg-stone-700 border border-stone-200 dark:border-stone-600 text-stone-700 dark:text-stone-200 rounded-lg py-2.5 text-sm font-medium hover:border-ocean-400 transition-colors"
+                      className="hidden lg:flex items-center justify-center gap-2 w-full bg-white dark:bg-stone-700 border border-stone-200 dark:border-stone-600 text-stone-700 dark:text-stone-200 rounded-lg py-2.5 text-sm font-medium hover:border-warm-400 transition-colors"
                     >
                       <Phone size={14} />
                       電話する
@@ -632,7 +632,7 @@ export default async function SpotDetailPage({
                 </h2>
                 <Link
                   href={`/${code}`}
-                  className="text-xs text-ocean-600 dark:text-ocean-400 hover:underline flex items-center gap-1"
+                  className="text-xs text-warm-600 dark:text-warm-400 hover:underline flex items-center gap-1"
                 >
                   すべて見る <ArrowRight size={12} />
                 </Link>
@@ -642,9 +642,9 @@ export default async function SpotDetailPage({
                   <Link
                     key={article.slug}
                     href={`/${code}/${article.slug}`}
-                    className="group block bg-white dark:bg-stone-800 border border-stone-200 dark:border-stone-700 rounded-xl p-4 hover:border-ocean-300 dark:hover:border-ocean-600 hover:shadow-sm transition-all"
+                    className="group block bg-white dark:bg-stone-800 border border-stone-200 dark:border-stone-700 rounded-xl p-4 hover:border-warm-300 dark:hover:border-warm-600 hover:shadow-sm transition-all"
                   >
-                    <p className="text-sm font-medium text-stone-700 dark:text-stone-200 group-hover:text-ocean-700 dark:group-hover:text-ocean-400 transition-colors line-clamp-2">
+                    <p className="text-sm font-medium text-stone-700 dark:text-stone-200 group-hover:text-warm-700 dark:group-hover:text-warm-400 transition-colors line-clamp-2">
                       {article.title}
                     </p>
                     <p className="text-xs text-stone-400 dark:text-stone-500 mt-2 line-clamp-2">
@@ -657,7 +657,7 @@ export default async function SpotDetailPage({
           )}
 
           {/* スポット一覧へのCTA */}
-          <div className="mt-8 bg-gradient-to-br from-ocean-50 to-ocean-100 dark:from-ocean-900/20 dark:to-ocean-800/20 rounded-2xl p-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div className="mt-8 bg-gradient-to-br from-warm-50 to-warm-100 dark:from-warm-900/20 dark:to-warm-800/20 rounded-2xl p-6 flex flex-col sm:flex-row items-center justify-between gap-4">
             <div>
               <p className="font-bold text-stone-800 dark:text-stone-100">
                 {country.flag} {country.name}の{category.name}をもっと見る

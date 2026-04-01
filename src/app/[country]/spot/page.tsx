@@ -149,13 +149,13 @@ export default async function SpotIndexPage({
         <div className="bg-white dark:bg-stone-800 border-b border-stone-200 dark:border-stone-700">
           <div className="max-w-6xl mx-auto px-4 py-6">
             <nav className="flex items-center gap-1.5 text-xs text-stone-400 mb-3">
-              <Link href="/" className="hover:text-ocean-600 transition-colors">
+              <Link href="/" className="hover:text-warm-600 transition-colors">
                 トップ
               </Link>
               <ChevronRight size={12} />
               <Link
                 href={`/${code}`}
-                className="hover:text-ocean-600 transition-colors"
+                className="hover:text-warm-600 transition-colors"
               >
                 {country.flag} {country.name}
               </Link>
@@ -173,7 +173,7 @@ export default async function SpotIndexPage({
               </div>
               <Link
                 href="/contact"
-                className="hidden sm:inline-flex items-center gap-1.5 text-xs text-ocean-600 dark:text-ocean-400 hover:underline border border-ocean-200 dark:border-ocean-800 rounded-lg px-3 py-1.5"
+                className="hidden sm:inline-flex items-center gap-1.5 text-xs text-warm-600 dark:text-warm-400 hover:underline border border-warm-200 dark:border-warm-800 rounded-lg px-3 py-1.5"
               >
                 掲載リクエスト
               </Link>
@@ -189,18 +189,18 @@ export default async function SpotIndexPage({
 
           {/* ナビゲーションタブ */}
           <div className="flex gap-2 mb-6">
-            <span className="text-xs text-ocean-600 dark:text-ocean-400 bg-ocean-50 dark:bg-ocean-900/30 px-3 py-1.5 rounded-full">
+            <span className="text-xs text-warm-600 dark:text-warm-400 bg-warm-50 dark:bg-warm-900/30 px-3 py-1.5 rounded-full">
               カテゴリ
             </span>
             <Link
               href={`/${code}/spot/area`}
-              className="text-xs text-stone-500 dark:text-stone-400 bg-white dark:bg-stone-800 border border-stone-200 dark:border-stone-700 px-3 py-1.5 rounded-full hover:border-ocean-400 transition-colors"
+              className="text-xs text-stone-500 dark:text-stone-400 bg-white dark:bg-stone-800 border border-stone-200 dark:border-stone-700 px-3 py-1.5 rounded-full hover:border-warm-400 transition-colors"
             >
               エリア
             </Link>
             <Link
               href={`/${code}/spot/map`}
-              className="text-xs text-stone-500 dark:text-stone-400 bg-white dark:bg-stone-800 border border-stone-200 dark:border-stone-700 px-3 py-1.5 rounded-full hover:border-ocean-400 transition-colors flex items-center gap-1"
+              className="text-xs text-stone-500 dark:text-stone-400 bg-white dark:bg-stone-800 border border-stone-200 dark:border-stone-700 px-3 py-1.5 rounded-full hover:border-warm-400 transition-colors flex items-center gap-1"
             >
               <Map size={12} />
               地図
@@ -248,7 +248,7 @@ export default async function SpotIndexPage({
                 </h2>
                 <Link
                   href={`/${code}/spot/area`}
-                  className="text-xs text-ocean-600 dark:text-ocean-400 hover:underline flex items-center gap-1"
+                  className="text-xs text-warm-600 dark:text-warm-400 hover:underline flex items-center gap-1"
                 >
                   すべてのエリア
                   <ChevronRight size={12} />
@@ -259,11 +259,11 @@ export default async function SpotIndexPage({
                   <Link
                     key={area.slug}
                     href={`/${code}/spot/area/${area.slug}`}
-                    className="group bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 hover:border-ocean-400 dark:hover:border-ocean-500 hover:shadow-md transition-all p-4"
+                    className="group bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 hover:border-warm-400 dark:hover:border-warm-500 hover:shadow-md transition-all p-4"
                   >
                     <div className="flex items-center gap-2 mb-1">
-                      <MapPin size={14} className="text-ocean-500 dark:text-ocean-400 shrink-0" />
-                      <p className="text-sm font-semibold text-stone-700 dark:text-stone-200 group-hover:text-ocean-700 dark:group-hover:text-ocean-400 transition-colors truncate">
+                      <MapPin size={14} className="text-warm-500 dark:text-warm-400 shrink-0" />
+                      <p className="text-sm font-semibold text-stone-700 dark:text-stone-200 group-hover:text-warm-700 dark:group-hover:text-warm-400 transition-colors truncate">
                         {area.name}
                       </p>
                     </div>
@@ -295,7 +295,7 @@ export default async function SpotIndexPage({
               掲載されていない場所や情報の修正は
               <Link
                 href="/contact"
-                className="text-ocean-600 dark:text-ocean-400 hover:underline font-medium ml-1"
+                className="text-warm-600 dark:text-warm-400 hover:underline font-medium ml-1"
               >
                 こちら
               </Link>

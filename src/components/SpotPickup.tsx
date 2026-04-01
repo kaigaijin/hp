@@ -92,11 +92,11 @@ export default function SpotPickup({
             <Link
               key={`${spot.category}-${spot.slug}`}
               href={`/${countryCode}/spot/${spot.category}/${spot.slug}`}
-              className={`group flex items-center gap-4 bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 px-4 py-3 ${t?.hoverBorder ?? "hover:border-ocean-400 dark:hover:border-ocean-500"} hover:shadow-sm transition-all`}
+              className={`group flex items-center gap-4 bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 px-4 py-3 ${t?.hoverBorder ?? "hover:border-warm-400 dark:hover:border-warm-500"} hover:shadow-sm transition-all`}
             >
               <div className="flex-1 min-w-0">
                 <div className="flex items-center gap-2">
-                  <p className={`text-sm font-semibold text-stone-700 dark:text-stone-200 truncate ${t?.accentHover ?? "group-hover:text-ocean-700 dark:group-hover:text-ocean-400"} transition-colors`}>
+                  <p className={`text-sm font-semibold text-stone-700 dark:text-stone-200 truncate ${t?.accentHover ?? "group-hover:text-warm-700 dark:group-hover:text-warm-400"} transition-colors`}>
                     {spot.name_ja ?? spot.name}
                   </p>
                   {spot.name_ja && (
@@ -110,7 +110,7 @@ export default function SpotPickup({
                     <MapPin size={10} />
                     {spot.area}
                   </span>
-                  <span className={`text-xs ${t?.badgeText ?? "text-ocean-600 dark:text-ocean-400"} ${t?.badgeBg ?? "bg-ocean-50 dark:bg-ocean-900/30"} px-1.5 py-0.5 rounded`}>
+                  <span className={`text-xs ${t?.badgeText ?? "text-warm-600 dark:text-warm-400"} ${t?.badgeBg ?? "bg-warm-50 dark:bg-warm-900/30"} px-1.5 py-0.5 rounded`}>
                     {spot.categoryName}
                   </span>
                 </div>

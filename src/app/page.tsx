@@ -162,8 +162,8 @@ export default function Home() {
                   key={title}
                   className="bg-white dark:bg-stone-800 rounded-2xl border border-stone-200 dark:border-stone-700 p-8"
                 >
-                  <div className="w-12 h-12 bg-ocean-50 dark:bg-ocean-900/30 rounded-xl flex items-center justify-center mb-5">
-                    <Icon className="text-ocean-600 dark:text-ocean-400" size={24} />
+                  <div className="w-12 h-12 bg-warm-50 dark:bg-warm-900/30 rounded-xl flex items-center justify-center mb-5">
+                    <Icon className="text-warm-600 dark:text-warm-400" size={24} />
                   </div>
                   <h3 className="heading-editorial text-lg font-bold mb-3">
                     {title}
@@ -186,7 +186,7 @@ export default function Home() {
             {countriesByRegion.map((group, i) => (
               <div key={group.region} className={i < countriesByRegion.length - 1 ? "mb-16" : ""}>
                 <div className="flex items-center gap-3 mb-6">
-                  <Globe className="text-ocean-600 dark:text-ocean-400" size={20} />
+                  <Globe className="text-warm-600 dark:text-warm-400" size={20} />
                   <h3 className="heading-editorial text-2xl font-bold">
                     {group.label}
                   </h3>
@@ -232,10 +232,10 @@ export default function Home() {
               ].map(({ number, label, icon: Icon }) => (
                 <div key={label} className="text-center">
                   <Icon
-                    className="mx-auto text-ocean-400 mb-3"
+                    className="mx-auto text-warm-400 mb-3"
                     size={28}
                   />
-                  <p className="heading-editorial text-3xl md:text-4xl font-bold text-ocean-800 dark:text-ocean-300">
+                  <p className="heading-editorial text-3xl md:text-4xl font-bold text-warm-800 dark:text-warm-300">
                     {number}
                   </p>
                   <p className="text-sm text-stone-500 dark:text-stone-400 mt-1">{label}</p>

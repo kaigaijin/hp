@@ -69,7 +69,7 @@ export default function ContactForm() {
           required
           value={form.type}
           onChange={(e) => setForm({ ...form, type: e.target.value })}
-          className="w-full px-4 py-3 rounded-lg border border-stone-300 dark:border-stone-600 bg-stone-50 dark:bg-stone-700 focus:outline-none focus:ring-2 focus:ring-ocean-500 transition-shadow"
+          className="w-full px-4 py-3 rounded-lg border border-stone-300 dark:border-stone-600 bg-stone-50 dark:bg-stone-700 focus:outline-none focus:ring-2 focus:ring-warm-500 transition-shadow"
         >
           <option value="" disabled>
             選択してください
@@ -93,7 +93,7 @@ export default function ContactForm() {
             maxLength={100}
             value={form.name}
             onChange={(e) => setForm({ ...form, name: e.target.value })}
-            className="w-full px-4 py-3 rounded-lg border border-stone-300 dark:border-stone-600 bg-stone-50 dark:bg-stone-700 focus:outline-none focus:ring-2 focus:ring-ocean-500 transition-shadow"
+            className="w-full px-4 py-3 rounded-lg border border-stone-300 dark:border-stone-600 bg-stone-50 dark:bg-stone-700 focus:outline-none focus:ring-2 focus:ring-warm-500 transition-shadow"
             placeholder="山田 太郎"
           />
         </div>
@@ -107,7 +107,7 @@ export default function ContactForm() {
             maxLength={254}
             value={form.email}
             onChange={(e) => setForm({ ...form, email: e.target.value })}
-            className="w-full px-4 py-3 rounded-lg border border-stone-300 dark:border-stone-600 bg-stone-50 dark:bg-stone-700 focus:outline-none focus:ring-2 focus:ring-ocean-500 transition-shadow"
+            className="w-full px-4 py-3 rounded-lg border border-stone-300 dark:border-stone-600 bg-stone-50 dark:bg-stone-700 focus:outline-none focus:ring-2 focus:ring-warm-500 transition-shadow"
             placeholder="info@example.com"
           />
         </div>
@@ -120,7 +120,7 @@ export default function ContactForm() {
           maxLength={100}
           value={form.company}
           onChange={(e) => setForm({ ...form, company: e.target.value })}
-          className="w-full px-4 py-3 rounded-lg border border-stone-300 dark:border-stone-600 bg-stone-50 dark:bg-stone-700 focus:outline-none focus:ring-2 focus:ring-ocean-500 transition-shadow"
+          className="w-full px-4 py-3 rounded-lg border border-stone-300 dark:border-stone-600 bg-stone-50 dark:bg-stone-700 focus:outline-none focus:ring-2 focus:ring-warm-500 transition-shadow"
           placeholder="株式会社〇〇"
         />
       </div>
@@ -135,7 +135,7 @@ export default function ContactForm() {
           rows={5}
           value={form.message}
           onChange={(e) => setForm({ ...form, message: e.target.value })}
-          className="w-full px-4 py-3 rounded-lg border border-stone-300 dark:border-stone-600 bg-stone-50 dark:bg-stone-700 focus:outline-none focus:ring-2 focus:ring-ocean-500 transition-shadow resize-y"
+          className="w-full px-4 py-3 rounded-lg border border-stone-300 dark:border-stone-600 bg-stone-50 dark:bg-stone-700 focus:outline-none focus:ring-2 focus:ring-warm-500 transition-shadow resize-y"
           placeholder="お問い合わせ内容をご入力ください。"
         />
       </div>
@@ -149,7 +149,7 @@ export default function ContactForm() {
       <button
         type="submit"
         disabled={status === "sending"}
-        className="inline-flex items-center gap-2 bg-gradient-to-r from-ocean-700 to-ocean-600 text-white font-semibold px-8 py-4 rounded-full hover:from-ocean-800 hover:to-ocean-700 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+        className="inline-flex items-center gap-2 bg-gradient-to-r from-warm-700 to-warm-600 text-white font-semibold px-8 py-4 rounded-full hover:from-warm-800 hover:to-warm-700 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
       >
         {status === "sending" ? (
           <>

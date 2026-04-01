@@ -32,7 +32,7 @@ export default function Header() {
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-stone-600 dark:text-stone-400">
           {/* 国一覧ドロップダウン */}
           <div className="relative group">
-            <button className="flex items-center gap-1 hover:text-ocean-700 dark:hover:text-ocean-400 transition-colors">
+            <button className="flex items-center gap-1 hover:text-warm-700 dark:hover:text-warm-400 transition-colors">
               国一覧
               <ChevronDown size={14} className="transition-transform group-hover:rotate-180" />
             </button>
@@ -50,7 +50,7 @@ export default function Header() {
                           <Link
                             key={c.code}
                             href={`/${c.code}`}
-                            className="flex items-center gap-2.5 px-2 py-1.5 rounded-lg hover:bg-ocean-50 dark:hover:bg-stone-700 transition-colors"
+                            className="flex items-center gap-2.5 px-2 py-1.5 rounded-lg hover:bg-warm-50 dark:hover:bg-stone-700 transition-colors"
                           >
                             <span className="text-base">{c.flag}</span>
                             <span className="text-stone-700 dark:text-stone-300 text-sm">
@@ -70,13 +70,13 @@ export default function Header() {
           </div>
           <Link
             href="/contact"
-            className="hover:text-ocean-700 dark:hover:text-ocean-400 transition-colors"
+            className="hover:text-warm-700 dark:hover:text-warm-400 transition-colors"
           >
             お問い合わせ
           </Link>
           <Link
             href="/sg/spot"
-            className="hover:text-ocean-700 dark:hover:text-ocean-400 transition-colors"
+            className="hover:text-warm-700 dark:hover:text-warm-400 transition-colors"
           >
             KAIスポット
           </Link>
@@ -126,14 +126,14 @@ export default function Header() {
             <Link
               href="/contact"
               onClick={() => setOpen(false)}
-              className="py-2 mt-2 text-ocean-600 dark:text-ocean-400 font-semibold"
+              className="py-2 mt-2 text-warm-600 dark:text-warm-400 font-semibold"
             >
               お問い合わせ
             </Link>
             <Link
               href="/sg/spot"
               onClick={() => setOpen(false)}
-              className="py-2 text-ocean-600 dark:text-ocean-400 font-semibold"
+              className="py-2 text-warm-600 dark:text-warm-400 font-semibold"
             >
               KAIスポット
             </Link>

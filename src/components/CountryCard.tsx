@@ -31,7 +31,7 @@ export default function CountryCard({ country, spotCount = 0 }: { country: Count
           {country.topics.map((topic) => (
             <span
               key={topic}
-              className="text-xs bg-ocean-50 dark:bg-ocean-900/30 text-ocean-700 dark:text-ocean-300 px-2 py-0.5 rounded-full"
+              className="text-xs bg-warm-50 dark:bg-warm-900/30 text-warm-700 dark:text-warm-300 px-2 py-0.5 rounded-full"
             >
               {topic}
             </span>
@@ -46,7 +46,7 @@ export default function CountryCard({ country, spotCount = 0 }: { country: Count
               スポット {spotCount.toLocaleString()}件
             </div>
           )}
-          <div className="flex items-center gap-1 text-sm font-medium text-ocean-600 dark:text-ocean-400 group">
+          <div className="flex items-center gap-1 text-sm font-medium text-warm-600 dark:text-warm-400 group">
             記事を読む
             <ArrowRight
               size={14}

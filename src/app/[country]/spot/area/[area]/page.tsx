@@ -102,22 +102,22 @@ export default async function AreaDetailPage({
         <div className={`bg-white dark:bg-stone-800 border-b border-stone-200 dark:border-stone-700 ${theme ? `border-t-2 ${theme.topBorder}` : ""}`}>
           <div className="max-w-6xl mx-auto px-4 py-6">
             <nav className="flex items-center gap-1.5 text-xs text-stone-400 mb-3">
-              <Link href="/" className="hover:text-ocean-600 transition-colors">トップ</Link>
+              <Link href="/" className="hover:text-warm-600 transition-colors">トップ</Link>
               <ChevronRight size={12} />
-              <Link href={`/${code}`} className="hover:text-ocean-600 transition-colors">
+              <Link href={`/${code}`} className="hover:text-warm-600 transition-colors">
                 {country.flag} {country.name}
               </Link>
               <ChevronRight size={12} />
-              <Link href={`/${code}/spot`} className="hover:text-ocean-600 transition-colors">KAIスポット</Link>
+              <Link href={`/${code}/spot`} className="hover:text-warm-600 transition-colors">KAIスポット</Link>
               <ChevronRight size={12} />
-              <Link href={`/${code}/spot/area`} className="hover:text-ocean-600 transition-colors">エリア</Link>
+              <Link href={`/${code}/spot/area`} className="hover:text-warm-600 transition-colors">エリア</Link>
               <ChevronRight size={12} />
               <span className="text-stone-600 dark:text-stone-300">{areaName}</span>
             </nav>
 
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-ocean-50 dark:bg-ocean-900/20 rounded-xl flex items-center justify-center">
-                <MapPin size={20} className="text-ocean-600 dark:text-ocean-400" />
+              <div className="w-10 h-10 bg-warm-50 dark:bg-warm-900/20 rounded-xl flex items-center justify-center">
+                <MapPin size={20} className="text-warm-600 dark:text-warm-400" />
               </div>
               <div>
                 <h1 className="text-2xl font-bold text-stone-800 dark:text-stone-100">
@@ -152,7 +152,7 @@ export default async function AreaDetailPage({
               {areaName}エリアの情報修正・追加は
               <Link
                 href="/contact"
-                className="text-ocean-600 dark:text-ocean-400 hover:underline font-medium ml-1"
+                className="text-warm-600 dark:text-warm-400 hover:underline font-medium ml-1"
               >
                 こちら
               </Link>

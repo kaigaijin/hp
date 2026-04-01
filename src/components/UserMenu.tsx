@@ -96,7 +96,7 @@ export default function UserMenu() {
             setFormMode("login");
             resetForm();
           }}
-          className="inline-flex items-center gap-1.5 text-sm text-stone-500 dark:text-stone-400 hover:text-ocean-600 dark:hover:text-ocean-400 transition-colors"
+          className="inline-flex items-center gap-1.5 text-sm text-stone-500 dark:text-stone-400 hover:text-warm-600 dark:hover:text-warm-400 transition-colors"
           title="ログイン"
         >
           <LogIn size={16} />
@@ -134,7 +134,7 @@ export default function UserMenu() {
                     setSignUpSuccess(false);
                     resetForm();
                   }}
-                  className="text-xs text-ocean-600 dark:text-ocean-400 hover:underline"
+                  className="text-xs text-warm-600 dark:text-warm-400 hover:underline"
                 >
                   ログインに戻る
                 </button>
@@ -148,7 +148,7 @@ export default function UserMenu() {
                   placeholder="メールアドレス"
                   required
                   autoFocus
-                  className="w-full px-3 py-2 rounded-lg border border-stone-200 dark:border-stone-600 bg-stone-50 dark:bg-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-ocean-500 placeholder:text-stone-400"
+                  className="w-full px-3 py-2 rounded-lg border border-stone-200 dark:border-stone-600 bg-stone-50 dark:bg-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-warm-500 placeholder:text-stone-400"
                 />
                 <input
                   type="password"
@@ -156,7 +156,7 @@ export default function UserMenu() {
                   onChange={(e) => setPassword(e.target.value)}
                   placeholder="パスワード"
                   required
-                  className="w-full px-3 py-2 rounded-lg border border-stone-200 dark:border-stone-600 bg-stone-50 dark:bg-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-ocean-500 placeholder:text-stone-400"
+                  className="w-full px-3 py-2 rounded-lg border border-stone-200 dark:border-stone-600 bg-stone-50 dark:bg-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-warm-500 placeholder:text-stone-400"
                 />
                 {error && (
                   <p className="text-xs text-red-600 dark:text-red-400">{error}</p>
@@ -164,7 +164,7 @@ export default function UserMenu() {
                 <button
                   type="submit"
                   disabled={submitting || !email.trim() || !password}
-                  className="w-full px-3 py-2 bg-ocean-600 text-white text-sm font-medium rounded-lg hover:bg-ocean-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors flex items-center justify-center gap-1.5"
+                  className="w-full px-3 py-2 bg-warm-600 text-white text-sm font-medium rounded-lg hover:bg-warm-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors flex items-center justify-center gap-1.5"
                 >
                   {submitting && <Loader2 size={14} className="animate-spin" />}
                   ログイン
@@ -177,7 +177,7 @@ export default function UserMenu() {
                       setFormMode("signup");
                       setError("");
                     }}
-                    className="text-ocean-600 dark:text-ocean-400 hover:underline"
+                    className="text-warm-600 dark:text-warm-400 hover:underline"
                   >
                     新規登録
                   </button>
@@ -193,7 +193,7 @@ export default function UserMenu() {
                   required
                   maxLength={30}
                   autoFocus
-                  className="w-full px-3 py-2 rounded-lg border border-stone-200 dark:border-stone-600 bg-stone-50 dark:bg-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-ocean-500 placeholder:text-stone-400"
+                  className="w-full px-3 py-2 rounded-lg border border-stone-200 dark:border-stone-600 bg-stone-50 dark:bg-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-warm-500 placeholder:text-stone-400"
                 />
                 <input
                   type="email"
@@ -201,7 +201,7 @@ export default function UserMenu() {
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="メールアドレス"
                   required
-                  className="w-full px-3 py-2 rounded-lg border border-stone-200 dark:border-stone-600 bg-stone-50 dark:bg-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-ocean-500 placeholder:text-stone-400"
+                  className="w-full px-3 py-2 rounded-lg border border-stone-200 dark:border-stone-600 bg-stone-50 dark:bg-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-warm-500 placeholder:text-stone-400"
                 />
                 <input
                   type="password"
@@ -210,7 +210,7 @@ export default function UserMenu() {
                   placeholder="パスワード（6文字以上）"
                   required
                   minLength={6}
-                  className="w-full px-3 py-2 rounded-lg border border-stone-200 dark:border-stone-600 bg-stone-50 dark:bg-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-ocean-500 placeholder:text-stone-400"
+                  className="w-full px-3 py-2 rounded-lg border border-stone-200 dark:border-stone-600 bg-stone-50 dark:bg-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-warm-500 placeholder:text-stone-400"
                 />
                 {error && (
                   <p className="text-xs text-red-600 dark:text-red-400">{error}</p>
@@ -218,7 +218,7 @@ export default function UserMenu() {
                 <button
                   type="submit"
                   disabled={submitting || !email.trim() || !password || !nickname.trim()}
-                  className="w-full px-3 py-2 bg-ocean-600 text-white text-sm font-medium rounded-lg hover:bg-ocean-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors flex items-center justify-center gap-1.5"
+                  className="w-full px-3 py-2 bg-warm-600 text-white text-sm font-medium rounded-lg hover:bg-warm-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors flex items-center justify-center gap-1.5"
                 >
                   {submitting && <Loader2 size={14} className="animate-spin" />}
                   登録する
@@ -231,7 +231,7 @@ export default function UserMenu() {
                       setFormMode("login");
                       setError("");
                     }}
-                    className="text-ocean-600 dark:text-ocean-400 hover:underline"
+                    className="text-warm-600 dark:text-warm-400 hover:underline"
                   >
                     ログイン
                   </button>
@@ -254,8 +254,8 @@ export default function UserMenu() {
         className="flex items-center gap-1.5 hover:opacity-80 transition-opacity"
         title={displayName ?? undefined}
       >
-        <div className="w-7 h-7 rounded-full bg-ocean-100 dark:bg-ocean-900 flex items-center justify-center">
-          <span className="text-xs font-medium text-ocean-700 dark:text-ocean-300">
+        <div className="w-7 h-7 rounded-full bg-warm-100 dark:bg-warm-900 flex items-center justify-center">
+          <span className="text-xs font-medium text-warm-700 dark:text-warm-300">
             {initials}
           </span>
         </div>

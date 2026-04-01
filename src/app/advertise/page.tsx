@@ -96,7 +96,7 @@ export default function AdvertisePage() {
       <Header />
       <main>
         {/* ===== ヒーロー ===== */}
-        <section className="relative overflow-hidden bg-gradient-to-br from-ocean-900 via-ocean-800 to-ocean-700 text-white">
+        <section className="relative overflow-hidden bg-gradient-to-br from-warm-900 via-warm-800 to-warm-700 text-white">
           <div className="absolute inset-0 opacity-10">
             <div className="absolute top-20 right-16 text-8xl">📢</div>
             <div className="absolute bottom-24 left-12 text-6xl">🌏</div>
@@ -104,22 +104,22 @@ export default function AdvertisePage() {
 
           <div className="relative max-w-6xl mx-auto px-4 py-24 md:py-36">
             <div className="max-w-2xl">
-              <p className="text-ocean-300 text-sm font-medium tracking-widest uppercase mb-4">
+              <p className="text-warm-300 text-sm font-medium tracking-widest uppercase mb-4">
                 Advertising
               </p>
               <h1 className="heading-editorial text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
                 海外在住日本人に、
                 <br />
-                <span className="text-ocean-300">ピンポイント</span>で届く。
+                <span className="text-warm-300">ピンポイント</span>で届く。
               </h1>
-              <p className="text-lg text-ocean-200 leading-relaxed mb-10 max-w-lg">
+              <p className="text-lg text-warm-200 leading-relaxed mb-10 max-w-lg">
                 Kaigaijinは、国別に深い生活情報を届ける日本語メディアです。
                 <br />
                 御社のサービスを、まさにそれを必要としている読者に届けます。
               </p>
               <Link
                 href="/contact"
-                className="inline-flex items-center gap-2 bg-white text-ocean-800 font-semibold px-8 py-4 rounded-full hover:bg-ocean-50 transition-colors"
+                className="inline-flex items-center gap-2 bg-white text-warm-800 font-semibold px-8 py-4 rounded-full hover:bg-warm-50 transition-colors"
               >
                 <Mail size={18} />
                 お問い合わせはこちら
@@ -162,8 +162,8 @@ export default function AdvertisePage() {
                   key={title}
                   className="bg-white dark:bg-stone-800 rounded-2xl border border-stone-200 dark:border-stone-700 p-8"
                 >
-                  <div className="w-12 h-12 bg-ocean-50 dark:bg-ocean-900/30 rounded-xl flex items-center justify-center mb-5">
-                    <Icon className="text-ocean-600 dark:text-ocean-400" size={24} />
+                  <div className="w-12 h-12 bg-warm-50 dark:bg-warm-900/30 rounded-xl flex items-center justify-center mb-5">
+                    <Icon className="text-warm-600 dark:text-warm-400" size={24} />
                   </div>
                   <h3 className="heading-editorial text-lg font-bold mb-3">{title}</h3>
                   <p className="text-sm text-stone-500 dark:text-stone-400 leading-relaxed">
@@ -189,8 +189,8 @@ export default function AdvertisePage() {
                 { number: "6カ国+", label: "カバーエリア", icon: Target },
               ].map(({ number, label, icon: Icon }) => (
                 <div key={label} className="text-center">
-                  <Icon className="mx-auto text-ocean-400 mb-3" size={28} />
-                  <p className="heading-editorial text-2xl md:text-3xl font-bold text-ocean-800 dark:text-ocean-300">
+                  <Icon className="mx-auto text-warm-400 mb-3" size={28} />
+                  <p className="heading-editorial text-2xl md:text-3xl font-bold text-warm-800 dark:text-warm-300">
                     {number}
                   </p>
                   <p className="text-sm text-stone-500 dark:text-stone-400 mt-1">
@@ -229,7 +229,7 @@ export default function AdvertisePage() {
                     {plan.position}
                   </p>
                   <div className="mb-6">
-                    <span className="heading-editorial text-3xl font-bold text-ocean-700 dark:text-ocean-300">
+                    <span className="heading-editorial text-3xl font-bold text-warm-700 dark:text-warm-300">
                       {plan.price}
                     </span>
                     <span className="text-sm text-stone-400 ml-1">
@@ -242,7 +242,7 @@ export default function AdvertisePage() {
                         key={f}
                         className="flex items-start gap-2 text-sm text-stone-600 dark:text-stone-300"
                       >
-                        <span className="text-ocean-500 mt-0.5">✓</span>
+                        <span className="text-warm-500 mt-0.5">✓</span>
                         {f}
                       </li>
                     ))}
@@ -268,8 +268,8 @@ export default function AdvertisePage() {
                   key={name}
                   className="flex items-start gap-4 bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 p-6"
                 >
-                  <div className="w-10 h-10 bg-ocean-50 dark:bg-ocean-900/30 rounded-lg flex items-center justify-center shrink-0">
-                    <Icon className="text-ocean-600 dark:text-ocean-400" size={20} />
+                  <div className="w-10 h-10 bg-warm-50 dark:bg-warm-900/30 rounded-lg flex items-center justify-center shrink-0">
+                    <Icon className="text-warm-600 dark:text-warm-400" size={20} />
                   </div>
                   <div>
                     <p className="font-bold mb-1">{name}</p>

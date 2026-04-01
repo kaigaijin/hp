@@ -183,7 +183,7 @@ export default function SpotReportForm({
               <button
                 type="button"
                 onClick={() => setShowAllComments(!showAllComments)}
-                className="flex items-center gap-1 text-xs text-ocean-600 dark:text-ocean-400 hover:underline mt-1"
+                className="flex items-center gap-1 text-xs text-warm-600 dark:text-warm-400 hover:underline mt-1"
               >
                 {showAllComments ? (
                   <>
@@ -218,7 +218,7 @@ export default function SpotReportForm({
             <button
               type="button"
               onClick={() => setReportType("correction")}
-              className="inline-flex items-center gap-1 text-xs text-stone-400 hover:text-ocean-500 transition-colors"
+              className="inline-flex items-center gap-1 text-xs text-stone-400 hover:text-warm-500 transition-colors"
             >
               <Pencil size={12} />
               情報の修正
@@ -246,7 +246,7 @@ export default function SpotReportForm({
               maxLength={1000}
               rows={2}
               required={reportType === "correction"}
-              className="w-full px-3 py-2 rounded-lg border border-stone-300 dark:border-stone-600 bg-stone-50 dark:bg-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-ocean-500 resize-y placeholder:text-stone-400"
+              className="w-full px-3 py-2 rounded-lg border border-stone-300 dark:border-stone-600 bg-stone-50 dark:bg-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-warm-500 resize-y placeholder:text-stone-400"
             />
             {error && (
               <p className="text-xs text-red-600 dark:text-red-400">{error}</p>
@@ -261,7 +261,7 @@ export default function SpotReportForm({
               <button
                 type="submit"
                 disabled={submitting || (reportType === "correction" && !comment.trim())}
-                className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-ocean-600 text-white text-xs font-medium rounded-lg hover:bg-ocean-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-warm-600 text-white text-xs font-medium rounded-lg hover:bg-warm-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
               >
                 {submitting ? <Loader2 size={12} className="animate-spin" /> : <Send size={12} />}
                 送信

@@ -97,13 +97,13 @@ function PaginatedArticleListInner({
               key={article.slug}
               className="bg-white dark:bg-stone-800 rounded-2xl border border-stone-200 dark:border-stone-700 p-5 flex flex-col country-card"
             >
-              <div className="flex items-center gap-2 text-xs text-ocean-600 dark:text-ocean-400 font-medium mb-2">
+              <div className="flex items-center gap-2 text-xs text-warm-600 dark:text-warm-400 font-medium mb-2">
                 <Tag size={12} />
                 {article.category}
               </div>
 
               <Link href={`/${countryCode}/${article.slug}`} className="group">
-                <h3 className="heading-editorial text-base font-bold mb-2 group-hover:text-ocean-700 dark:group-hover:text-ocean-400 transition-colors leading-snug">
+                <h3 className="heading-editorial text-base font-bold mb-2 group-hover:text-warm-700 dark:group-hover:text-warm-400 transition-colors leading-snug">
                   {article.title}
                 </h3>
               </Link>
@@ -120,7 +120,7 @@ function PaginatedArticleListInner({
                   {relatedGroup && (
                     <Link
                       href={`/${countryCode}/spot/${relatedGroup.slug}`}
-                      className="flex items-center gap-1 text-xs text-stone-400 hover:text-ocean-600 dark:hover:text-ocean-400 transition-colors"
+                      className="flex items-center gap-1 text-xs text-stone-400 hover:text-warm-600 dark:hover:text-warm-400 transition-colors"
                       title={`${relatedGroup.name}のKAIスポット`}
                     >
                       <MapPin size={11} />
@@ -130,7 +130,7 @@ function PaginatedArticleListInner({
                   )}
                   <Link
                     href={`/${countryCode}/${article.slug}`}
-                    className="flex items-center gap-1 text-xs text-ocean-600 dark:text-ocean-400 font-medium hover:gap-1.5 transition-all"
+                    className="flex items-center gap-1 text-xs text-warm-600 dark:text-warm-400 font-medium hover:gap-1.5 transition-all"
                   >
                     読む
                     <ArrowRight size={12} />
@@ -179,7 +179,7 @@ function PaginatedArticleListInner({
                 onClick={() => goToPage(page)}
                 className={`min-w-[36px] h-9 rounded-lg text-sm font-medium transition-colors ${
                   page === currentPage
-                    ? "bg-ocean-600 text-white"
+                    ? "bg-warm-600 text-white"
                     : "text-stone-600 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-700"
                 }`}
                 aria-current={page === currentPage ? "page" : undefined}

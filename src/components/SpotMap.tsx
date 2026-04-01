@@ -272,7 +272,7 @@ function MapContent({
             onClick={() => setCategoryFilter(null)}
             className={`shrink-0 text-xs font-medium px-3 py-1.5 rounded-full transition-colors ${
               categoryFilter === null
-                ? "text-ocean-600 dark:text-ocean-400 bg-ocean-50 dark:bg-ocean-900/30"
+                ? "text-warm-600 dark:text-warm-400 bg-warm-50 dark:bg-warm-900/30"
                 : "text-stone-500 dark:text-stone-400 bg-stone-50 dark:bg-stone-700 hover:bg-stone-100 dark:hover:bg-stone-600"
             }`}
           >
@@ -288,7 +288,7 @@ function MapContent({
               }
               className={`shrink-0 text-xs font-medium px-3 py-1.5 rounded-full transition-colors ${
                 categoryFilter === cat.slug
-                  ? "text-ocean-600 dark:text-ocean-400 bg-ocean-50 dark:bg-ocean-900/30"
+                  ? "text-warm-600 dark:text-warm-400 bg-warm-50 dark:bg-warm-900/30"
                   : "text-stone-500 dark:text-stone-400 bg-stone-50 dark:bg-stone-700 hover:bg-stone-100 dark:hover:bg-stone-600"
               }`}
             >
@@ -365,7 +365,7 @@ function MapContent({
                   href={`/${countryCode}/spot/${selectedSpot.category}/${selectedSpot.slug}`}
                   className="group"
                 >
-                  <h3 className="text-sm font-bold text-stone-800 group-hover:text-ocean-600 transition-colors">
+                  <h3 className="text-sm font-bold text-stone-800 group-hover:text-warm-600 transition-colors">
                     {selectedSpot.name_ja ?? selectedSpot.name}
                     <ExternalLink
                       size={12}
@@ -382,7 +382,7 @@ function MapContent({
                   <MapPin size={10} />
                   {selectedSpot.area}
                 </p>
-                <p className="text-xs text-ocean-600 mt-0.5">
+                <p className="text-xs text-warm-600 mt-0.5">
                   {selectedSpot.categoryName}
                 </p>
                 <p className="text-xs text-stone-500 mt-1 line-clamp-2">

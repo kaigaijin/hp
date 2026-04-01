@@ -5,35 +5,34 @@
   --font-serif: "Noto Serif JP", serif;
   --font-sans: "Noto Sans JP", sans-serif;
 
-  --color-ocean-50: #eff8ff;
-  --color-ocean-100: #dbeefe;
-  --color-ocean-200: #bfdffd;
-  --color-ocean-300: #93c9fc;
-  --color-ocean-400: #60abf8;
-  --color-ocean-500: #3b8af3;
-  --color-ocean-600: #256ce8;
-  --color-ocean-700: #1d57d5;
-  --color-ocean-800: #1e47ad;
-  --color-ocean-900: #1e3f88;
+  /* メインカラー: warm（オレンジ〜アンバー系） */
+  --color-warm-50:  #fff8f0;
+  --color-warm-100: #feefd8;
+  --color-warm-200: #fcdcad;
+  --color-warm-300: #f9c278;
+  --color-warm-400: #f5a03e;
+  --color-warm-500: #f28020;
+  --color-warm-600: #e36510;
+  --color-warm-700: #bc4d0c;
+  --color-warm-800: #963e10;
+  --color-warm-900: #7a3410;
 
-  --color-sand-50: #faf8f5;
-  --color-sand-100: #f3efe8;
-  --color-sand-200: #e6ddd0;
-  --color-sand-300: #d5c6b0;
-  --color-sand-400: #c2a98e;
-  --color-sand-500: #b49374;
-  --color-sand-600: #a78068;
-  --color-sand-700: #8b6957;
-  --color-sand-800: #72574a;
-  --color-sand-900: #5e4940;
-
-  --color-sunset-400: #fb923c;
-  --color-sunset-500: #f97316;
+  /* sand: ライトモード背景 */
+  --color-sand-50:  #faf7f2;
+  --color-sand-100: #f4ede0;
+  --color-sand-200: #e8dac8;
+  --color-sand-300: #d8c4a8;
+  --color-sand-400: #c4a882;
+  --color-sand-500: #b08f65;
+  --color-sand-600: #967550;
+  --color-sand-700: #7a5e40;
+  --color-sand-800: #634c35;
+  --color-sand-900: #52402e;
 }
 
 @custom-variant dark (&:where(.dark, .dark *));
 
-/* ライトモード: 眩しさを抑えるオフホワイト基調 */
+/* ライトモード: 温かみのあるオフホワイト基調 */
 :root:not(.dark) {
   --tw-bg-white: var(--color-sand-50);
 }
@@ -41,7 +40,7 @@
   background-color: var(--color-sand-50);
 }
 :root:not(.dark) .bg-stone-100 {
-  background-color: #f5f2ed;
+  background-color: #f2ede6;
 }
 :root:not(.dark) .bg-stone-50 {
   background-color: var(--color-sand-50);
@@ -60,7 +59,7 @@
   display: block;
   width: 48px;
   height: 2px;
-  background: var(--color-ocean-600);
+  background: var(--color-warm-500);
   margin-top: 16px;
 }
 
@@ -94,7 +93,6 @@
 
 /* ===== 記事本文スタイル ===== */
 
-/* 本文: 読みやすいフォントサイズ・行間 */
 .prose {
   font-size: 1.0625rem;
   line-height: 1.9;
@@ -106,14 +104,14 @@
   margin-top: 2.5em;
   margin-bottom: 0.8em;
   padding-bottom: 0.4em;
-  border-bottom: 2px solid var(--color-ocean-200);
+  border-bottom: 2px solid var(--color-warm-200);
   font-size: 1.625rem;
 }
 .prose h3 {
   margin-top: 2em;
   margin-bottom: 0.6em;
   padding-left: 0.75em;
-  border-left: 3px solid var(--color-ocean-500);
+  border-left: 3px solid var(--color-warm-500);
   font-size: 1.3rem;
 }
 .prose h4 {
@@ -122,10 +120,10 @@
   font-size: 1.1rem;
 }
 .dark .prose h2 {
-  border-bottom-color: #374151;
+  border-bottom-color: #44403c;
 }
 .dark .prose h3 {
-  border-left-color: var(--color-ocean-400);
+  border-left-color: var(--color-warm-400);
 }
 
 /* 段落 */
@@ -136,11 +134,11 @@
 
 /* 強調 */
 .prose strong {
-  color: var(--color-ocean-800);
+  color: var(--color-warm-800);
   font-weight: 700;
 }
 .dark .prose strong {
-  color: var(--color-ocean-300);
+  color: var(--color-warm-300);
 }
 
 /* リンク */
@@ -162,7 +160,7 @@
   padding-left: 0.25em;
 }
 .prose ul li::marker {
-  color: var(--color-ocean-400);
+  color: var(--color-warm-400);
 }
 .prose ol {
   margin-top: 1em;
@@ -175,7 +173,7 @@
   padding-left: 0.25em;
 }
 .prose ol li::marker {
-  color: var(--color-ocean-600);
+  color: var(--color-warm-600);
   font-weight: 600;
 }
 
@@ -184,8 +182,8 @@
   margin-top: 1.5em;
   margin-bottom: 1.5em;
   padding: 1em 1.25em;
-  border-left: 4px solid var(--color-ocean-400);
-  background-color: var(--color-ocean-50);
+  border-left: 4px solid var(--color-warm-400);
+  background-color: var(--color-warm-50);
   border-radius: 0 8px 8px 0;
   font-style: normal;
   color: #44403c;
@@ -195,8 +193,8 @@
   margin-bottom: 0.5em;
 }
 .dark .prose blockquote {
-  background-color: rgba(37, 108, 232, 0.08);
-  border-left-color: var(--color-ocean-500);
+  background-color: rgba(242, 128, 32, 0.08);
+  border-left-color: var(--color-warm-500);
   color: #d6d3d1;
 }
 
@@ -206,10 +204,10 @@
   margin-bottom: 2.5em;
   border: none;
   height: 1px;
-  background: linear-gradient(to right, transparent, var(--color-ocean-200), transparent);
+  background: linear-gradient(to right, transparent, var(--color-warm-200), transparent);
 }
 .dark .prose hr {
-  background: linear-gradient(to right, transparent, #374151, transparent);
+  background: linear-gradient(to right, transparent, #44403c, transparent);
 }
 
 /* テーブル */
@@ -224,14 +222,14 @@
   border: 1px solid #e5e7eb;
 }
 .prose thead {
-  background-color: var(--color-ocean-50);
-  border-bottom: 2px solid var(--color-ocean-200);
+  background-color: var(--color-warm-50);
+  border-bottom: 2px solid var(--color-warm-200);
 }
 .prose thead th {
   padding: 0.75em 1em;
   text-align: left;
   font-weight: 700;
-  color: var(--color-ocean-800);
+  color: var(--color-warm-800);
   font-size: 0.9rem;
   white-space: nowrap;
 }
@@ -244,23 +242,23 @@
   border-bottom: none;
 }
 .prose tbody tr:nth-child(even) {
-  background-color: #f9fafb;
+  background-color: var(--color-sand-50);
 }
 .prose tbody tr:hover {
-  background-color: var(--color-ocean-50);
+  background-color: var(--color-warm-50);
 }
 .dark .prose table {
-  border-color: #374151;
+  border-color: #44403c;
 }
 .dark .prose thead {
-  background-color: rgba(37, 108, 232, 0.1);
-  border-bottom-color: #374151;
+  background-color: rgba(242, 128, 32, 0.1);
+  border-bottom-color: #44403c;
 }
 .dark .prose thead th {
-  color: var(--color-ocean-300);
+  color: var(--color-warm-300);
 }
 .dark .prose tbody td {
-  border-bottom-color: #374151;
+  border-bottom-color: #44403c;
 }
 .dark .prose tbody tr:nth-child(even) {
   background-color: rgba(255, 255, 255, 0.03);
@@ -278,15 +276,15 @@
 /* コード（インライン） */
 .prose code:not(pre code) {
   padding: 0.15em 0.4em;
-  background-color: #f3f4f6;
+  background-color: #f3f0eb;
   border-radius: 4px;
   font-size: 0.875em;
   font-weight: 500;
-  color: var(--color-ocean-700);
+  color: var(--color-warm-700);
 }
 .dark .prose code:not(pre code) {
-  background-color: #1f2937;
-  color: var(--color-ocean-300);
+  background-color: #292524;
+  color: var(--color-warm-300);
 }
 
 /* 画像 */
@@ -310,13 +308,13 @@
 
 /* グラデーションテキスト */
 .text-gradient {
-  background: linear-gradient(135deg, var(--color-ocean-700), var(--color-ocean-500));
+  background: linear-gradient(135deg, var(--color-warm-700), var(--color-warm-500));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 .dark .text-gradient {
-  background: linear-gradient(135deg, var(--color-ocean-400), var(--color-ocean-300));
+  background: linear-gradient(135deg, var(--color-warm-400), var(--color-warm-300));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

@@ -324,7 +324,7 @@ export default function SpotReviewForm({
             <button
               type="button"
               onClick={() => setShowAllReviews(!showAllReviews)}
-              className="flex items-center gap-1 text-xs text-ocean-600 dark:text-ocean-400 hover:underline mt-2"
+              className="flex items-center gap-1 text-xs text-warm-600 dark:text-warm-400 hover:underline mt-2"
             >
               {showAllReviews ? (
                 <>

@@ -113,13 +113,13 @@ export default async function AreaIndexPage({
         <div className="bg-white dark:bg-stone-800 border-b border-stone-200 dark:border-stone-700">
           <div className="max-w-6xl mx-auto px-4 py-6">
             <nav className="flex items-center gap-1.5 text-xs text-stone-400 mb-3">
-              <Link href="/" className="hover:text-ocean-600 transition-colors">トップ</Link>
+              <Link href="/" className="hover:text-warm-600 transition-colors">トップ</Link>
               <ChevronRight size={12} />
-              <Link href={`/${code}`} className="hover:text-ocean-600 transition-colors">
+              <Link href={`/${code}`} className="hover:text-warm-600 transition-colors">
                 {country.flag} {country.name}
               </Link>
               <ChevronRight size={12} />
-              <Link href={`/${code}/spot`} className="hover:text-ocean-600 transition-colors">KAIスポット</Link>
+              <Link href={`/${code}/spot`} className="hover:text-warm-600 transition-colors">KAIスポット</Link>
               <ChevronRight size={12} />
               <span className="text-stone-600 dark:text-stone-300">エリアから探す</span>
             </nav>
@@ -137,16 +137,16 @@ export default async function AreaIndexPage({
           <div className="flex gap-2 mb-6">
             <Link
               href={`/${code}/spot`}
-              className="text-xs text-stone-500 dark:text-stone-400 bg-white dark:bg-stone-800 border border-stone-200 dark:border-stone-700 px-3 py-1.5 rounded-full hover:border-ocean-400 transition-colors"
+              className="text-xs text-stone-500 dark:text-stone-400 bg-white dark:bg-stone-800 border border-stone-200 dark:border-stone-700 px-3 py-1.5 rounded-full hover:border-warm-400 transition-colors"
             >
               カテゴリ
             </Link>
-            <span className="text-xs text-ocean-600 dark:text-ocean-400 bg-ocean-50 dark:bg-ocean-900/30 px-3 py-1.5 rounded-full">
+            <span className="text-xs text-warm-600 dark:text-warm-400 bg-warm-50 dark:bg-warm-900/30 px-3 py-1.5 rounded-full">
               エリア
             </span>
             <Link
               href={`/${code}/spot/map`}
-              className="text-xs text-stone-500 dark:text-stone-400 bg-white dark:bg-stone-800 border border-stone-200 dark:border-stone-700 px-3 py-1.5 rounded-full hover:border-ocean-400 transition-colors"
+              className="text-xs text-stone-500 dark:text-stone-400 bg-white dark:bg-stone-800 border border-stone-200 dark:border-stone-700 px-3 py-1.5 rounded-full hover:border-warm-400 transition-colors"
             >
               地図
             </Link>
@@ -170,11 +170,11 @@ export default async function AreaIndexPage({
                         <Link
                           key={area.slug}
                           href={`/${code}/spot/area/${area.slug}`}
-                          className="group bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 hover:border-ocean-400 dark:hover:border-ocean-500 hover:shadow-md transition-all p-4"
+                          className="group bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 hover:border-warm-400 dark:hover:border-warm-500 hover:shadow-md transition-all p-4"
                         >
                           <div className="flex items-center gap-2 mb-1">
-                            <MapPin size={14} className="text-ocean-500 dark:text-ocean-400 shrink-0" />
-                            <p className="text-sm font-semibold text-stone-700 dark:text-stone-200 group-hover:text-ocean-700 dark:group-hover:text-ocean-400 transition-colors truncate">
+                            <MapPin size={14} className="text-warm-500 dark:text-warm-400 shrink-0" />
+                            <p className="text-sm font-semibold text-stone-700 dark:text-stone-200 group-hover:text-warm-700 dark:group-hover:text-warm-400 transition-colors truncate">
                               {area.name}
                             </p>
                           </div>
@@ -199,11 +199,11 @@ export default async function AreaIndexPage({
                       <Link
                         key={area.slug}
                         href={`/${code}/spot/area/${area.slug}`}
-                        className="group bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 hover:border-ocean-400 dark:hover:border-ocean-500 hover:shadow-md transition-all p-4"
+                        className="group bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 hover:border-warm-400 dark:hover:border-warm-500 hover:shadow-md transition-all p-4"
                       >
                         <div className="flex items-center gap-2 mb-1">
-                          <MapPin size={14} className="text-ocean-500 dark:text-ocean-400 shrink-0" />
-                          <p className="text-sm font-semibold text-stone-700 dark:text-stone-200 group-hover:text-ocean-700 dark:group-hover:text-ocean-400 transition-colors truncate">
+                          <MapPin size={14} className="text-warm-500 dark:text-warm-400 shrink-0" />
+                          <p className="text-sm font-semibold text-stone-700 dark:text-stone-200 group-hover:text-warm-700 dark:group-hover:text-warm-400 transition-colors truncate">
                             {area.name}
                           </p>
                         </div>
@@ -227,11 +227,11 @@ export default async function AreaIndexPage({
                       <Link
                         key={area.slug}
                         href={`/${code}/spot/area/${area.slug}`}
-                        className="group bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 hover:border-ocean-400 dark:hover:border-ocean-500 hover:shadow-md transition-all p-4"
+                        className="group bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 hover:border-warm-400 dark:hover:border-warm-500 hover:shadow-md transition-all p-4"
                       >
                         <div className="flex items-center gap-2 mb-1">
                           <MapPin size={14} className="text-stone-400 shrink-0" />
-                          <p className="text-sm font-semibold text-stone-700 dark:text-stone-200 group-hover:text-ocean-700 dark:group-hover:text-ocean-400 transition-colors truncate">
+                          <p className="text-sm font-semibold text-stone-700 dark:text-stone-200 group-hover:text-warm-700 dark:group-hover:text-warm-400 transition-colors truncate">
                             {area.name}
                           </p>
                         </div>
@@ -251,11 +251,11 @@ export default async function AreaIndexPage({
                 <Link
                   key={area.slug}
                   href={`/${code}/spot/area/${area.slug}`}
-                  className="group bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 hover:border-ocean-400 dark:hover:border-ocean-500 hover:shadow-md transition-all p-4"
+                  className="group bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 hover:border-warm-400 dark:hover:border-warm-500 hover:shadow-md transition-all p-4"
                 >
                   <div className="flex items-center gap-2 mb-1">
-                    <MapPin size={14} className="text-ocean-500 dark:text-ocean-400 shrink-0" />
-                    <p className="text-sm font-semibold text-stone-700 dark:text-stone-200 group-hover:text-ocean-700 dark:group-hover:text-ocean-400 transition-colors truncate">
+                    <MapPin size={14} className="text-warm-500 dark:text-warm-400 shrink-0" />
+                    <p className="text-sm font-semibold text-stone-700 dark:text-stone-200 group-hover:text-warm-700 dark:group-hover:text-warm-400 transition-colors truncate">
                       {area.name}
                     </p>
                   </div>

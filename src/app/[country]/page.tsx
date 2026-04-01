@@ -86,7 +86,7 @@ export default async function CountryPage({
       <Header />
       <main>
         {/* ヒーロー */}
-        <section className="bg-gradient-to-br from-ocean-800 to-ocean-600 text-white py-20 md:py-28">
+        <section className="bg-gradient-to-br from-warm-800 to-warm-600 text-white py-20 md:py-28">
           <div className="max-w-6xl mx-auto px-4">
             <div className="flex items-center gap-4 mb-6">
               <span className="text-6xl">{country.flag}</span>
@@ -94,12 +94,12 @@ export default async function CountryPage({
                 <h1 className="heading-editorial text-4xl md:text-5xl font-bold">
                   {country.name}
                 </h1>
-                <p className="text-ocean-300 text-sm mt-1">
+                <p className="text-warm-300 text-sm mt-1">
                   {country.nameEn} ・ 在住日本人 {country.population}
                 </p>
               </div>
             </div>
-            <p className="text-xl text-ocean-200 italic heading-editorial">
+            <p className="text-xl text-warm-200 italic heading-editorial">
               {country.tagline}
             </p>
 
@@ -108,7 +108,7 @@ export default async function CountryPage({
               <div className="flex flex-col sm:flex-row gap-3 mt-8">
                 <Link
                   href={`/${code}/spot`}
-                  className="inline-flex items-center justify-center gap-2 bg-white text-ocean-800 font-bold px-6 py-3 rounded-xl text-sm hover:bg-ocean-50 transition-colors shadow-md"
+                  className="inline-flex items-center justify-center gap-2 bg-white text-warm-800 font-bold px-6 py-3 rounded-xl text-sm hover:bg-warm-50 transition-colors shadow-md"
                 >
                   <MapPin size={16} />
                   日本人向けスポット {totalSpots}件を見る
@@ -168,7 +168,7 @@ export default async function CountryPage({
                     </p>
                     <Link
                       href="/"
-                      className="inline-flex items-center gap-2 px-6 py-3 bg-ocean-600 text-white rounded-xl hover:bg-ocean-700 transition-colors font-medium"
+                      className="inline-flex items-center gap-2 px-6 py-3 bg-warm-600 text-white rounded-xl hover:bg-warm-700 transition-colors font-medium"
                     >
                       トップページへ戻る
                     </Link>
@@ -186,9 +186,9 @@ export default async function CountryPage({
                     >
                       <MapPin
                         size={18}
-                        className="text-ocean-600 dark:text-ocean-400"
+                        className="text-warm-600 dark:text-warm-400"
                       />
-                      <h2 className="heading-editorial text-xl font-bold group-hover:text-ocean-700 dark:group-hover:text-ocean-400 transition-colors">
+                      <h2 className="heading-editorial text-xl font-bold group-hover:text-warm-700 dark:group-hover:text-warm-400 transition-colors">
                         KAIスポット
                       </h2>
                       <span className="text-xs text-stone-400 dark:text-stone-500 ml-1">
@@ -196,7 +196,7 @@ export default async function CountryPage({
                       </span>
                       <ArrowRight
                         size={14}
-                        className="text-ocean-500 dark:text-ocean-400 opacity-0 group-hover:opacity-100 group-hover:translate-x-0.5 transition-all"
+                        className="text-warm-500 dark:text-warm-400 opacity-0 group-hover:opacity-100 group-hover:translate-x-0.5 transition-all"
                       />
                     </Link>
 
@@ -207,12 +207,12 @@ export default async function CountryPage({
                           <Link
                             key={group.slug}
                             href={`/${code}/spot/${group.slug}`}
-                            className="group flex items-center gap-3 px-4 py-3 rounded-xl bg-white dark:bg-stone-800 border border-stone-200 dark:border-stone-700 hover:border-ocean-300 dark:hover:border-ocean-600 hover:shadow-sm transition-all"
+                            className="group flex items-center gap-3 px-4 py-3 rounded-xl bg-white dark:bg-stone-800 border border-stone-200 dark:border-stone-700 hover:border-warm-300 dark:hover:border-warm-600 hover:shadow-sm transition-all"
                           >
-                            <span className="text-ocean-600 dark:text-ocean-400">
+                            <span className="text-warm-600 dark:text-warm-400">
                               {groupIcons[group.slug]}
                             </span>
-                            <span className="flex-1 text-sm font-medium text-stone-700 dark:text-stone-200 group-hover:text-ocean-700 dark:group-hover:text-ocean-400 transition-colors">
+                            <span className="flex-1 text-sm font-medium text-stone-700 dark:text-stone-200 group-hover:text-warm-700 dark:group-hover:text-warm-400 transition-colors">
                               {group.name}
                             </span>
                             <span className="text-xs text-stone-400 dark:text-stone-500 tabular-nums">
@@ -224,7 +224,7 @@ export default async function CountryPage({
 
                     <Link
                       href={`/${code}/spot`}
-                      className="mt-4 flex items-center justify-center gap-1.5 text-sm text-ocean-600 dark:text-ocean-400 hover:text-ocean-700 dark:hover:text-ocean-300 font-medium py-2 transition-colors"
+                      className="mt-4 flex items-center justify-center gap-1.5 text-sm text-warm-600 dark:text-warm-400 hover:text-warm-700 dark:hover:text-warm-300 font-medium py-2 transition-colors"
                     >
                       すべてのカテゴリを見る
                       <ArrowRight size={14} />

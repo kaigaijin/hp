@@ -138,21 +138,21 @@ const themes: Record<string, GroupTheme> = {
   },
 };
 
-// デフォルト（ocean、フォールバック用）
+// デフォルト（warm、フォールバック用）
 const defaultTheme: GroupTheme = {
-  iconBg: "bg-ocean-50 dark:bg-ocean-900/20",
-  iconBgActive: "group-hover:bg-ocean-50 dark:group-hover:bg-ocean-900/30",
-  iconText: "text-ocean-600 dark:text-ocean-400",
-  accent: "text-ocean-600 dark:text-ocean-400",
-  accentHover: "group-hover:text-ocean-700 dark:group-hover:text-ocean-400",
-  badgeBg: "bg-ocean-50 dark:bg-ocean-900/30",
-  badgeText: "text-ocean-600 dark:text-ocean-400",
-  hoverBorder: "hover:border-ocean-400 dark:hover:border-ocean-500",
-  filterActive: "text-ocean-600 dark:text-ocean-400 bg-ocean-50 dark:bg-ocean-900/30",
-  numberText: "text-ocean-600 dark:text-ocean-400",
-  ctaBg: "bg-ocean-600",
-  ctaHover: "hover:bg-ocean-700",
-  topBorder: "border-t-ocean-500",
+  iconBg: "bg-warm-50 dark:bg-warm-900/20",
+  iconBgActive: "group-hover:bg-warm-50 dark:group-hover:bg-warm-900/30",
+  iconText: "text-warm-600 dark:text-warm-400",
+  accent: "text-warm-600 dark:text-warm-400",
+  accentHover: "group-hover:text-warm-700 dark:group-hover:text-warm-400",
+  badgeBg: "bg-warm-50 dark:bg-warm-900/30",
+  badgeText: "text-warm-600 dark:text-warm-400",
+  hoverBorder: "hover:border-warm-400 dark:hover:border-warm-500",
+  filterActive: "text-warm-600 dark:text-warm-400 bg-warm-50 dark:bg-warm-900/30",
+  numberText: "text-warm-600 dark:text-warm-400",
+  ctaBg: "bg-warm-600",
+  ctaHover: "hover:bg-warm-700",
+  topBorder: "border-t-warm-500",
 };
 
 // グループslugからテーマを取得

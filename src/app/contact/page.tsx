@@ -26,16 +26,16 @@ export default function ContactPage() {
       <Header />
       <main>
         {/* ===== ヒーロー ===== */}
-        <section className="relative overflow-hidden bg-gradient-to-br from-ocean-900 via-ocean-800 to-ocean-700 text-white">
+        <section className="relative overflow-hidden bg-gradient-to-br from-warm-900 via-warm-800 to-warm-700 text-white">
           <div className="relative max-w-6xl mx-auto px-4 py-20 md:py-28">
             <div className="max-w-2xl">
-              <p className="text-ocean-300 text-sm font-medium tracking-widest uppercase mb-4">
+              <p className="text-warm-300 text-sm font-medium tracking-widest uppercase mb-4">
                 Contact
               </p>
               <h1 className="heading-editorial text-4xl md:text-5xl font-bold leading-tight mb-6">
                 お問い合わせ
               </h1>
-              <p className="text-lg text-ocean-200 leading-relaxed max-w-lg">
+              <p className="text-lg text-warm-200 leading-relaxed max-w-lg">
                 広告掲載、記事に関するご意見・ご感想、取材依頼など、
                 <br />
                 お気軽にお問い合わせください。

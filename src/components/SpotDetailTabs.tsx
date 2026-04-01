@@ -114,7 +114,7 @@ export default function SpotDetailTabs({
               onClick={() => setActiveTab(tab.id)}
               className={`flex items-center gap-1.5 px-4 py-3 text-sm font-medium whitespace-nowrap transition-colors border-b-2 -mb-px ${
                 isActive
-                  ? "text-ocean-600 dark:text-ocean-400 border-ocean-600 dark:border-ocean-400"
+                  ? "text-warm-600 dark:text-warm-400 border-warm-600 dark:border-warm-400"
                   : "text-stone-400 dark:text-stone-500 border-transparent hover:text-stone-600 dark:hover:text-stone-300"
               }`}
             >

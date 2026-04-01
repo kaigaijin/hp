@@ -95,13 +95,13 @@ export default async function MapPage({
         <div className="bg-white dark:bg-stone-800 border-b border-stone-200 dark:border-stone-700 shrink-0">
           <div className="max-w-6xl mx-auto px-4 py-3">
             <nav className="flex items-center gap-1.5 text-xs text-stone-400 mb-1">
-              <Link href="/" className="hover:text-ocean-600 transition-colors">トップ</Link>
+              <Link href="/" className="hover:text-warm-600 transition-colors">トップ</Link>
               <ChevronRight size={12} />
-              <Link href={`/${code}`} className="hover:text-ocean-600 transition-colors">
+              <Link href={`/${code}`} className="hover:text-warm-600 transition-colors">
                 {country.flag} {country.name}
               </Link>
               <ChevronRight size={12} />
-              <Link href={`/${code}/spot`} className="hover:text-ocean-600 transition-colors">KAIスポット</Link>
+              <Link href={`/${code}/spot`} className="hover:text-warm-600 transition-colors">KAIスポット</Link>
               <ChevronRight size={12} />
               <span className="text-stone-600 dark:text-stone-300">地図で探す</span>
             </nav>
