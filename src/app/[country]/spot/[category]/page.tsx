@@ -113,12 +113,13 @@ export function generateMetadata({
     // カテゴリの場合
     const category = getCategory(slug);
     if (!category) return {};
+    const desc = `${country.name}の${category.name}を一覧で紹介。${category.description}住所・電話番号・営業時間など詳細情報つき。`;
     return {
-      title: `${country.name}の${category.name}`,
-      description: `${country.name}で日本人におすすめの${category.name}を一覧で紹介。住所・電話番号・営業時間など詳細情報つき。`,
+      title: `${country.name}の${category.name}【日本人向け】`,
+      description: desc,
       openGraph: {
-        title: `${country.name}の${category.name} | Kaigaijin`,
-        description: `${country.name}の${category.name}を探すなら。日本語対応の場所を中心にご紹介。`,
+        title: `${country.name}の${category.name}【日本人向け】 | Kaigaijin`,
+        description: desc,
         type: "website",
         locale: "ja_JP",
         url: `https://kaigaijin.jp/${code}/spot/${slug}`,

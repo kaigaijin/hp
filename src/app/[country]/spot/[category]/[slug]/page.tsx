@@ -63,7 +63,7 @@ export async function generateMetadata({
   const displayName = spot.name_ja ?? spot.name;
   const canonicalUrl = `https://kaigaijin.jp/${code}/spot/${catSlug}/${slug}`;
   return {
-    title: `${displayName}（${country.name}・${spot.area}）`,
+    title: `${displayName}｜${country.name}の${category.name}（${spot.area}）`,
     description: spot.description,
     alternates: { canonical: canonicalUrl },
     openGraph: {
