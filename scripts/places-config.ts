@@ -218,13 +218,22 @@ export interface PlaceResult {
   displayName?: { text: string; languageCode: string };
   formattedAddress?: string;
   internationalPhoneNumber?: string;
+  nationalPhoneNumber?: string;
   websiteUri?: string;
   regularOpeningHours?: {
+    weekdayDescriptions?: string[];
+  };
+  currentOpeningHours?: {
     weekdayDescriptions?: string[];
   };
   types?: string[];
   location?: { latitude: number; longitude: number };
   primaryType?: string;
+  rating?: number;
+  userRatingCount?: number;
+  priceLevel?: string; // "PRICE_LEVEL_FREE" | "PRICE_LEVEL_INEXPENSIVE" | "PRICE_LEVEL_MODERATE" | "PRICE_LEVEL_EXPENSIVE" | "PRICE_LEVEL_VERY_EXPENSIVE"
+  photos?: { name: string }[];
+  // emailは Places API (New) では非対応のため取得不可
 }
 
 export interface SpotEntry {
@@ -236,6 +245,8 @@ export interface SpotEntry {
   lat: number | null;
   lng: number | null;
   phone: string | null;
+  phone_local: string | null;        // 現地形式の電話番号（nationalPhoneNumber）
+  email: string | null;              // メールアドレス（表示しない、連絡用）
   website: string | null;
   description: string;
   tags: string[];
@@ -246,4 +257,8 @@ export interface SpotEntry {
   place_id: string;
   priority: number;
   ai_reviewed: boolean;
+  rating: number | null;             // Googleレーティング（表示しない）
+  user_rating_count: number | null;  // 口コミ数（表示しない）
+  price_level: string | null;        // 価格帯（表示しない）
+  photo_name: string | null;         // Googleフォト参照キー（表示しない）
 }

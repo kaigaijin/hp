@@ -2,17 +2,27 @@
  * enrich-spots.ts
  *
  * 既存スポットデータのうち place_id が空のエントリに
- * Google Places API で構造化データ（座標・営業時間・電話番号・日本語名）を補完する。
+ * Google Places API で構造化データを補完する。
+ *
+ * 補完フィールド:
+ *   - place_id, lat, lng
+ *   - phone (internationalPhoneNumber), phone_local (nationalPhoneNumber)
+ *   - website, hours (currentOpeningHours.weekdayDescriptions)
+ *   - name_ja, address
+ *   - rating, user_rating_count, price_level (保存のみ・表示しない)
+ *   - photo_name (保存のみ・表示しない)
+ *   - email: Places API (New) は非対応のため取得不可
  *
  * フロー:
  *   ① AIがWebSearchで調査 → content/directory/{country}/{category}.json に直接追加（place_id空でOK）
  *   ② このスクリプト → place_id空のスポットをPlaces APIで補完（枠がある時に随時実行）
  *
  * 使い方:
- *   GOOGLE_PLACES_API_KEY=xxx npx tsx scripts/enrich-spots.ts <country> [category] [--dry-run]
- *   GOOGLE_PLACES_API_KEY=xxx npx tsx scripts/enrich-spots.ts sg           # SG全カテゴリ
- *   GOOGLE_PLACES_API_KEY=xxx npx tsx scripts/enrich-spots.ts sg dental    # SG歯科のみ
- *   GOOGLE_PLACES_API_KEY=xxx npx tsx scripts/enrich-spots.ts all          # 全国全カテゴリ
+ *   GOOGLE_PLACES_API_KEY=xxx npx tsx scripts/enrich-spots.ts <country> [category] [--dry-run] [--limit N]
+ *   GOOGLE_PLACES_API_KEY=xxx npx tsx scripts/enrich-spots.ts sg              # SG全カテゴリ
+ *   GOOGLE_PLACES_API_KEY=xxx npx tsx scripts/enrich-spots.ts sg dental       # SG歯科のみ
+ *   GOOGLE_PLACES_API_KEY=xxx npx tsx scripts/enrich-spots.ts all             # 全国全カテゴリ
+ *   GOOGLE_PLACES_API_KEY=xxx npx tsx scripts/enrich-spots.ts all --limit 500 # 最大500件で止める（無料枠管理用）
  */
 
 import fs from "fs";
@@ -28,6 +38,15 @@ const DIRECTORY_PATH = path.resolve(__dirname, "../content/directory");
 const DELAY_MS = 300;
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 const TODAY = new Date().toISOString().slice(0, 10);
+
+// Places API (New) の priceLevel 文字列 → 数値（1-4）に変換
+const PRICE_LEVEL_MAP: Record<string, string> = {
+  PRICE_LEVEL_FREE: "1",
+  PRICE_LEVEL_INEXPENSIVE: "1",
+  PRICE_LEVEL_MODERATE: "2",
+  PRICE_LEVEL_EXPENSIVE: "3",
+  PRICE_LEVEL_VERY_EXPENSIVE: "4",
+};
 
 // Places API で施設名を検索（languageCode: "ja" で日本語名を取得）
 async function findPlace(
@@ -58,8 +77,21 @@ async function findPlace(
     headers: {
       "Content-Type": "application/json",
       "X-Goog-Api-Key": GOOGLE_API_KEY,
-      "X-Goog-FieldMask":
-        "places.id,places.displayName,places.formattedAddress,places.internationalPhoneNumber,places.websiteUri,places.regularOpeningHours,places.location",
+      "X-Goog-FieldMask": [
+        "places.id",
+        "places.displayName",
+        "places.formattedAddress",
+        "places.internationalPhoneNumber",
+        "places.nationalPhoneNumber",
+        "places.websiteUri",
+        "places.currentOpeningHours",
+        "places.regularOpeningHours",
+        "places.location",
+        "places.rating",
+        "places.userRatingCount",
+        "places.priceLevel",
+        "places.photos",
+      ].join(","),
     },
     body: JSON.stringify(body),
   });
@@ -86,14 +118,24 @@ function enrichSpot(spot: SpotEntry, place: PlaceResult): SpotEntry {
     spot.lng = Math.round(place.location.longitude * 10000) / 10000;
   }
 
-  // 営業時間
-  if (!spot.hours && place.regularOpeningHours?.weekdayDescriptions) {
-    spot.hours = place.regularOpeningHours.weekdayDescriptions.join(" / ");
+  // 営業時間（currentOpeningHours優先、なければregularOpeningHours）
+  if (!spot.hours) {
+    const weekdays =
+      place.currentOpeningHours?.weekdayDescriptions ??
+      place.regularOpeningHours?.weekdayDescriptions;
+    if (weekdays) {
+      spot.hours = weekdays.join(" / ");
+    }
   }
 
-  // 電話番号
+  // 電話番号（国際形式）
   if (!spot.phone && place.internationalPhoneNumber) {
     spot.phone = place.internationalPhoneNumber.replace(/[\s-]/g, "");
+  }
+
+  // 電話番号（現地形式）
+  if (!spot.phone_local && place.nationalPhoneNumber) {
+    spot.phone_local = place.nationalPhoneNumber;
   }
 
   // 住所
@@ -111,6 +153,28 @@ function enrichSpot(spot: SpotEntry, place: PlaceResult): SpotEntry {
     spot.name_ja = jaDisplayName;
   }
 
+  // Googleレーティング（保存のみ・表示しない）
+  if (spot.rating === undefined || spot.rating === null) {
+    spot.rating = place.rating ?? null;
+  }
+
+  // 口コミ数（保存のみ・表示しない）
+  if (spot.user_rating_count === undefined || spot.user_rating_count === null) {
+    spot.user_rating_count = place.userRatingCount ?? null;
+  }
+
+  // 価格帯（保存のみ・表示しない）
+  if (spot.price_level === undefined || spot.price_level === null) {
+    spot.price_level = place.priceLevel
+      ? (PRICE_LEVEL_MAP[place.priceLevel] ?? null)
+      : null;
+  }
+
+  // フォト参照キー（保存のみ・表示しない）
+  if (!spot.photo_name && place.photos?.[0]?.name) {
+    spot.photo_name = place.photos[0].name;
+  }
+
   // place_id・source・last_verified を更新
   spot.place_id = place.id;
   spot.source = "google_maps";
@@ -123,7 +187,8 @@ async function enrichCategory(
   country: string,
   category: string,
   countryConfig: { cities: { name: string; lat: number; lng: number; radius: number }[] },
-  dryRun: boolean
+  dryRun: boolean,
+  remaining: { count: number } // 残り処理可能件数（参照渡しで全カテゴリをまたいで管理）
 ): Promise<{ enriched: number; skipped: number; failed: number }> {
   const filePath = path.join(DIRECTORY_PATH, country, `${category}.json`);
   if (!fs.existsSync(filePath)) return { enriched: 0, skipped: 0, failed: 0 };
@@ -140,8 +205,14 @@ async function enrichCategory(
   let failed = 0;
 
   for (const spot of targets) {
+    if (remaining.count <= 0) {
+      console.log(`    ⏸ --limit に達したため中断`);
+      break;
+    }
+
     const place = await findPlace(spot.name, spot.area, countryConfig);
     await sleep(DELAY_MS);
+    remaining.count--;
 
     if (!place) {
       console.log(`    ✗ ${spot.name} — API検索失敗`);
@@ -171,18 +242,29 @@ async function enrichCategory(
 
 async function main() {
   const args = process.argv.slice(2);
-  const target = args[0];
-  const targetCategory = args.find((a) => !a.startsWith("--") && a !== target);
+  const positional = args.filter((a) => !a.startsWith("--") && !args[args.indexOf(a) - 1]?.startsWith("--limit"));
+  const target = positional[0];
+  const targetCategory = positional[1];
   const dryRun = args.includes("--dry-run");
+
+  // --limit N: API呼び出しの上限件数（無料枠管理用。未指定なら無制限）
+  const limitIdx = args.indexOf("--limit");
+  const limit = limitIdx >= 0 ? parseInt(args[limitIdx + 1] ?? "0", 10) : Infinity;
+  const remaining = { count: isFinite(limit) ? limit : Number.MAX_SAFE_INTEGER };
 
   if (!target) {
     console.log("使い方:");
-    console.log("  GOOGLE_PLACES_API_KEY=xxx npx tsx scripts/enrich-spots.ts <country|all> [category] [--dry-run]");
+    console.log("  GOOGLE_PLACES_API_KEY=xxx npx tsx scripts/enrich-spots.ts <country|all> [category] [--dry-run] [--limit N]");
     console.log("\n例:");
-    console.log("  npx tsx scripts/enrich-spots.ts sg          # SG全カテゴリ");
-    console.log("  npx tsx scripts/enrich-spots.ts sg dental   # SG歯科のみ");
-    console.log("  npx tsx scripts/enrich-spots.ts all         # 全国全カテゴリ");
+    console.log("  npx tsx scripts/enrich-spots.ts sg                  # SG全カテゴリ");
+    console.log("  npx tsx scripts/enrich-spots.ts sg dental           # SG歯科のみ");
+    console.log("  npx tsx scripts/enrich-spots.ts all                 # 全国全カテゴリ");
+    console.log("  npx tsx scripts/enrich-spots.ts all --limit 500     # 最大500件（無料枠管理用）");
     process.exit(1);
+  }
+
+  if (isFinite(limit)) {
+    console.log(`上限: ${limit}件（--limit指定）`);
   }
 
   const countries = target === "all"
@@ -193,6 +275,8 @@ async function main() {
   let totalFailed = 0;
 
   for (const country of countries) {
+    if (remaining.count <= 0) break;
+
     const config = COUNTRY_SEARCH_CONFIG[country];
     if (!config) {
       console.error(`未対応の国: ${country}`);
@@ -210,8 +294,9 @@ async function main() {
       .sort();
 
     for (const file of files) {
+      if (remaining.count <= 0) break;
       const category = file.replace(".json", "");
-      const result = await enrichCategory(country, category, config, dryRun);
+      const result = await enrichCategory(country, category, config, dryRun, remaining);
       totalEnriched += result.enriched;
       totalFailed += result.failed;
     }
@@ -221,6 +306,9 @@ async function main() {
   console.log(`補完: ${totalEnriched}件${dryRun ? "（dry-run）" : ""}`);
   if (totalFailed > 0) {
     console.log(`失敗: ${totalFailed}件`);
+  }
+  if (isFinite(limit)) {
+    console.log(`残り枠: ${remaining.count}件`);
   }
 }
 

@@ -17,7 +17,13 @@
     "status": "unverified",
     "source": "website",
     "last_verified": "2026-03-27",
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "phone_local": null,
+    "email": null,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
   },
   {
     "slug": "andy-cheng-law-firm",
@@ -37,7 +43,13 @@
     "status": "unverified",
     "last_verified": "2026-03-27",
     "source": "website",
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "phone_local": null,
+    "email": null,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
   },
   {
     "slug": "attorney-kinukawa-wanchai",
@@ -61,6 +73,12 @@
     "source": "google_maps",
     "place_id": "ChIJM-0IQJUBBDQRToJBwC4fles",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "phone_local": null,
+    "email": null,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
   }
 ]

@@ -18,7 +18,13 @@
     "last_verified": "2026-03-26",
     "status": "unverified",
     "source": "website",
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "phone_local": null,
+    "email": null,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
   },
   {
     "slug": "crown-line-hong-kong",
@@ -39,7 +45,13 @@
     "last_verified": "2026-03-26",
     "status": "unverified",
     "source": "website",
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "phone_local": null,
+    "email": null,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
   },
   {
     "slug": "yamato-hong-kong",
@@ -59,6 +71,12 @@
     "status": "unverified",
     "source": "google_maps",
     "last_verified": "2026-03-27",
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "phone_local": null,
+    "email": null,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
   }
 ]

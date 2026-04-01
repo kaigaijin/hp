@@ -10,14 +10,25 @@
     "phone": "+442074843310",
     "website": "https://his-euro.co.uk/",
     "description": "日本大手旅行会社H.I.S.の英国法人。40年以上の実績。日本行きの航空券、ホテル、ツアーパッケージを日本語で手配。在英日本人の一時帰国や欧州旅行にも対応。",
-    "tags": ["日本語対応", "旅行代理店", "航空券", "日系"],
+    "tags": [
+      "日本語対応",
+      "旅行代理店",
+      "航空券",
+      "日系"
+    ],
     "hours": "Mon-Fri 9:30-18:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "phone_local": null,
+    "email": null,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
   },
   {
     "slug": "japan-house-london-travel",
@@ -30,13 +41,24 @@
     "phone": null,
     "website": "https://www.japanhouselondon.uk/visit/our-spaces/travel-information-area/",
     "description": "JNTO（日本政府観光局）が運営する旅行相談エリア。Japan House内に設置。日本旅行の無料相談が可能。予約不要・先着順。",
-    "tags": ["旅行相談", "JNTO", "無料", "日本旅行"],
+    "tags": [
+      "旅行相談",
+      "JNTO",
+      "無料",
+      "日本旅行"
+    ],
     "hours": null,
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "phone_local": null,
+    "email": null,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
   }
 ]
