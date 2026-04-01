@@ -137,6 +137,8 @@ function toSpotEntry(
     lat,
     lng,
     phone: place.internationalPhoneNumber?.replace(/[\s-]/g, "") ?? null,
+    phone_local: place.nationalPhoneNumber ?? null,
+    email: null,
     website: place.websiteUri ?? null,
     description: "",
     tags: [],
@@ -147,6 +149,8 @@ function toSpotEntry(
     place_id: place.id,
     priority: 0,
     ai_reviewed: false,
+    rating: place.rating ?? null,
+    user_rating_count: place.userRatingCount ?? null,
   };
 }
 
