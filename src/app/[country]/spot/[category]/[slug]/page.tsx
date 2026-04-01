@@ -61,13 +61,18 @@ export async function generateMetadata({
   if (!country || !category || !spot) return {};
 
   const displayName = spot.name_ja ?? spot.name;
+  // name_jaがある場合は「日本語名 / 英語名」形式で両言語のクエリにヒットさせる
+  const titleName =
+    spot.name_ja && spot.name_ja !== spot.name
+      ? `${spot.name_ja} / ${spot.name}`
+      : displayName;
   const canonicalUrl = `https://kaigaijin.jp/${code}/spot/${catSlug}/${slug}`;
   return {
-    title: `${displayName}｜${country.name}の${category.name}（${spot.area}）`,
+    title: `${titleName}｜${country.name}の${category.name}（${spot.area}）`,
     description: spot.description,
     alternates: { canonical: canonicalUrl },
     openGraph: {
-      title: `${displayName} | ${country.name}の${category.name} | Kaigaijin`,
+      title: `${titleName} | ${country.name}の${category.name} | Kaigaijin`,
       description: spot.description,
       type: "article",
       locale: "ja_JP",
