@@ -32,64 +32,80 @@ export default function Home() {
       <Header />
       <main>
         {/* ===== ヒーロー ===== */}
-        <section className="relative overflow-hidden bg-gradient-to-br from-ocean-900 via-ocean-800 to-ocean-700 text-white">
-          {/* 背景の装飾 */}
-          <div className="absolute inset-0 opacity-10">
-            <div className="absolute top-20 left-10 text-8xl">🌏</div>
-            <div className="absolute top-40 right-20 text-6xl">✈️</div>
-            <div className="absolute bottom-20 left-1/3 text-7xl">🏠</div>
-          </div>
+        <section className="relative overflow-hidden bg-gradient-to-br from-stone-900 via-stone-800 to-stone-700 text-white">
+          {/* 背景: 地図的なドット模様 */}
+          <div className="absolute inset-0 opacity-5" style={{backgroundImage: "radial-gradient(circle, #fff 1px, transparent 1px)", backgroundSize: "32px 32px"}} />
+          {/* アクセントライン */}
+          <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-amber-400 via-orange-400 to-rose-400" />
 
-          <div className="relative max-w-6xl mx-auto px-4 py-24 md:py-36">
-            <div className="max-w-2xl">
-              <p className="text-ocean-300 text-sm font-medium tracking-widest uppercase mb-4">
-                海外在住日本人のためのメディア
-              </p>
-              <h1 className="heading-editorial text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-                その国で暮らす
-                <br />
-                <span className="text-ocean-300">リアル</span>を、
-                <br />
-                深く届ける。
-              </h1>
-              <p className="text-lg text-ocean-200 leading-relaxed mb-10 max-w-lg">
-                ビザ、税金、保険、住居、医療——
-                <br />
-                国ごとに異なる「暮らしの実務」を、
-                <br />
-                在住者の視点で丁寧に解説します。
-              </p>
+          <div className="relative max-w-6xl mx-auto px-4 py-16 md:py-24">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
-              {/* メインCTA */}
-              <div className="flex flex-col sm:flex-row gap-3 mb-8">
-                <a
-                  href="#countries"
-                  className="inline-flex items-center justify-center gap-2 bg-white text-ocean-800 font-bold px-8 py-4 rounded-xl text-base hover:bg-ocean-50 transition-colors shadow-lg"
-                >
-                  <span>住んでいる国を選ぶ</span>
-                  <span>→</span>
-                </a>
-                <a
-                  href="/sg/spot"
-                  className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/30 text-white font-medium px-8 py-4 rounded-xl text-base transition-colors"
-                >
-                  🇸🇬 まずシンガポールを見る
-                </a>
+              {/* 左: キャッチコピー + CTA */}
+              <div>
+                <p className="text-amber-400 text-xs font-semibold tracking-widest uppercase mb-4">
+                  海外在住日本人のためのメディア
+                </p>
+                <h1 className="heading-editorial text-4xl md:text-5xl lg:text-5xl font-bold leading-tight mb-5">
+                  その国で暮らす
+                  <br />
+                  <span className="text-amber-400">リアル</span>を、
+                  <br />
+                  深く届ける。
+                </h1>
+                <p className="text-stone-300 leading-relaxed mb-8 max-w-md">
+                  ビザ、税金、保険、住居、医療——国ごとに異なる「暮らしの実務」を、在住者の視点で丁寧に解説します。
+                </p>
+                <div className="flex flex-col sm:flex-row gap-3">
+                  <a
+                    href="#countries"
+                    className="inline-flex items-center justify-center gap-2 bg-amber-400 text-stone-900 font-bold px-7 py-3.5 rounded-xl text-sm hover:bg-amber-300 transition-colors shadow-lg"
+                  >
+                    住んでいる国を選ぶ →
+                  </a>
+                  <a
+                    href="/sg/spot"
+                    className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 border border-white/20 text-white font-medium px-7 py-3.5 rounded-xl text-sm transition-colors"
+                  >
+                    🇸🇬 まずシンガポールを見る
+                  </a>
+                </div>
               </div>
 
-              {/* 国フラグ一覧 */}
-              <div className="flex flex-wrap gap-2">
+              {/* 右: 国グリッド */}
+              <div className="hidden lg:block">
+                <p className="text-stone-400 text-xs font-medium mb-3 tracking-wider uppercase">対応国 — {countries.length}カ国</p>
+                <div className="grid grid-cols-2 gap-2">
+                  {countries.map((c) => (
+                    <a
+                      key={c.code}
+                      href={`/${c.code}`}
+                      className="flex items-center gap-3 bg-white/5 hover:bg-white/12 border border-white/10 hover:border-amber-400/40 px-4 py-3 rounded-xl text-sm transition-all group"
+                    >
+                      <span className="text-2xl">{c.flag}</span>
+                      <div className="min-w-0">
+                        <p className="font-medium text-white group-hover:text-amber-300 transition-colors">{c.name}</p>
+                        <p className="text-xs text-stone-500 truncate">{c.population}</p>
+                      </div>
+                    </a>
+                  ))}
+                </div>
+              </div>
+
+              {/* モバイル: フラグ横並び */}
+              <div className="lg:hidden flex flex-wrap gap-2">
                 {countries.map((c) => (
                   <a
                     key={c.code}
                     href={`/${c.code}`}
-                    className="flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-sm px-3 py-1.5 rounded-full text-sm transition-colors"
+                    className="flex items-center gap-2 bg-white/10 hover:bg-white/20 px-3 py-1.5 rounded-full text-sm transition-colors"
                   >
                     <span>{c.flag}</span>
                     {c.name}
                   </a>
                 ))}
               </div>
+
             </div>
           </div>
 
