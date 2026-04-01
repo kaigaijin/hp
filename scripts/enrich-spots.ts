@@ -77,6 +77,8 @@ async function findPlace(
     headers: {
       "Content-Type": "application/json",
       "X-Goog-Api-Key": GOOGLE_API_KEY,
+      // Pro SKU対象フィールドのみ指定（rating/userRatingCountはEnterprise SKUのため除外）
+      // Pro SKU: 月5,000件無料 / Enterprise SKU: 月1,000件無料
       "X-Goog-FieldMask": [
         "places.id",
         "places.displayName",
@@ -87,8 +89,6 @@ async function findPlace(
         "places.currentOpeningHours",
         "places.regularOpeningHours",
         "places.location",
-        "places.rating",
-        "places.userRatingCount",
         "places.priceLevel",
         "places.photos",
       ].join(","),
@@ -247,10 +247,14 @@ async function main() {
   const targetCategory = positional[1];
   const dryRun = args.includes("--dry-run");
 
-  // --limit N: API呼び出しの上限件数（無料枠管理用。未指定なら無制限）
+  // --limit N: API呼び出しの上限件数（無料枠管理用）
+  // デフォルト2,500件 = Pro SKU月額無料枠5,000件の半分
+  // Pro SKU: places.rating/userRatingCount を含まないリクエスト（月5,000件無料）
+  // Enterprise SKU: places.rating/userRatingCount を含むリクエスト（月1,000件無料）→ 使わない
   const limitIdx = args.indexOf("--limit");
-  const limit = limitIdx >= 0 ? parseInt(args[limitIdx + 1] ?? "0", 10) : Infinity;
-  const remaining = { count: isFinite(limit) ? limit : Number.MAX_SAFE_INTEGER };
+  const DEFAULT_LIMIT = 2500;
+  const limit = limitIdx >= 0 ? parseInt(args[limitIdx + 1] ?? "0", 10) : DEFAULT_LIMIT;
+  const remaining = { count: limit };
 
   if (!target) {
     console.log("使い方:");
@@ -259,7 +263,8 @@ async function main() {
     console.log("  npx tsx scripts/enrich-spots.ts sg                  # SG全カテゴリ");
     console.log("  npx tsx scripts/enrich-spots.ts sg dental           # SG歯科のみ");
     console.log("  npx tsx scripts/enrich-spots.ts all                 # 全国全カテゴリ");
-    console.log("  npx tsx scripts/enrich-spots.ts all --limit 500     # 最大500件（無料枠管理用）");
+    console.log("  npx tsx scripts/enrich-spots.ts all                 # デフォルト2,500件（Pro SKU無料枠の半分）");
+  console.log("  npx tsx scripts/enrich-spots.ts all --limit 0       # 無制限（全件処理）");
     process.exit(1);
   }
 
