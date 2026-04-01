@@ -24,7 +24,7 @@ export default async function OgImage({
   const countryName = country?.name ?? "";
   const categoryName = category?.name ?? "";
 
-  let fontData: ArrayBuffer;
+  let fontData: ArrayBuffer | null = null;
   try {
     fontData = await fetch(
       "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap"
@@ -37,7 +37,7 @@ export default async function OgImage({
       })
       .then((res) => res.arrayBuffer());
   } catch {
-    fontData = new ArrayBuffer(0);
+    fontData = null;
   }
 
   return new ImageResponse(
@@ -147,14 +147,16 @@ export default async function OgImage({
     ),
     {
       ...size,
-      fonts: [
-        {
-          name: "Noto Sans JP",
-          data: fontData,
-          style: "normal",
-          weight: 700,
-        },
-      ],
+      ...(fontData && {
+        fonts: [
+          {
+            name: "Noto Sans JP",
+            data: fontData,
+            style: "normal" as const,
+            weight: 700,
+          },
+        ],
+      }),
     }
   );
 }
