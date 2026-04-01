@@ -7,11 +7,13 @@
  * オプション:
  *   --days 28            過去N日間（デフォルト: 28）
  *   --report all         レポート種別（デフォルト: all）
- *                        all        : 全レポートを出力
- *                        quick-wins : CTR改善で即効果が出るクエリ
- *                        rising     : 表示回数が急増しているクエリ（チャンス）
- *                        titles     : タイトル改善候補ページ
- *                        missing    : スポット未掲載のクエリ
+ *                        all         : 全レポートを出力
+ *                        quick-wins  : CTR改善で即効果が出るクエリ
+ *                        rising      : 表示回数が急増しているクエリ（チャンス）
+ *                        titles      : タイトル改善候補ページ
+ *                        missing     : スポット未掲載のクエリ
+ *                        query-pages : クエリがどのページで表示されているか確認
+ *   --query "クエリ名"   query-pagesレポートで特定クエリのみ絞り込み
  *
  * 初回実行時:
  *   ブラウザが開くのでGoogleアカウントでログイン → 許可
@@ -26,6 +28,34 @@ import * as url from "url";
 // ── 設定 ──
 
 const SITE_URL = "sc-domain:kaigaijin.jp";
+const DONE_PATH = path.join(process.cwd(), "scripts", "seo-gap-done.json");
+
+// ── 対応済みクエリの読み込み・記録 ──
+
+interface DoneEntry {
+  query: string;
+  action: string;
+  done_at: string;
+}
+
+function loadDone(): DoneEntry[] {
+  if (!fs.existsSync(DONE_PATH)) return [];
+  try { return JSON.parse(fs.readFileSync(DONE_PATH, "utf-8")) as DoneEntry[]; }
+  catch { return []; }
+}
+
+function isDone(query: string, done: DoneEntry[]): boolean {
+  return done.some(d => d.query === query);
+}
+
+// 対応済みとして記録する（スクリプト外から手動呼び出し用）
+export function markDone(query: string, action: string) {
+  const done = loadDone();
+  if (isDone(query, done)) return;
+  done.push({ query, action, done_at: new Date().toISOString().split("T")[0] });
+  fs.writeFileSync(DONE_PATH, JSON.stringify(done, null, 2));
+  console.log(`✅ 対応済みに記録: ${query}`);
+}
 const SECRETS_DIR = path.join(process.cwd(), "secrets");
 const CLIENT_SECRET_PATH = path.join(SECRETS_DIR, "client_secret_kaigaijin.json");
 const TOKEN_PATH = path.join(SECRETS_DIR, "search-console-token.json");
@@ -175,13 +205,13 @@ function sep(n = 80) { console.log("─".repeat(n)); }
 // ── レポート1: クイックウィン（順位6〜20位・表示多い・CTR低い） ──
 // 検索結果には出ているが選ばれていない = タイトル/ディスクリプション改善で即効果
 
-async function reportQuickWins(accessToken: string) {
+async function reportQuickWins(accessToken: string, done: DoneEntry[]) {
   console.log("\n🎯 クイックウィン（タイトル改善で即クリック増）");
   console.log("   条件: 順位6〜20位 / 表示5回以上 / CTR5%未満 / 日本語\n");
 
   const rows = await fetchByDimension(accessToken, ["query"], DAYS);
   const targets = rows
-    .filter(r => isJapanese(r.keys[0]) && r.impressions >= 5 && r.position >= 6 && r.position <= 20 && r.ctr < 0.05)
+    .filter(r => isJapanese(r.keys[0]) && r.impressions >= 5 && r.position >= 6 && r.position <= 20 && r.ctr < 0.05 && !isDone(r.keys[0], done))
     .sort((a, b) => b.impressions - a.impressions)
     .slice(0, 20);
 
@@ -203,7 +233,7 @@ async function reportQuickWins(accessToken: string) {
 
 // ── レポート2: ライジング（先週より表示が急増しているクエリ） ──
 
-async function reportRising(accessToken: string) {
+async function reportRising(accessToken: string, done: DoneEntry[]) {
   console.log("\n📈 ライジングクエリ（直近7日で表示急増 = SEOチャンス）");
   console.log("   条件: 直近7日の表示が前週比150%以上 / 表示3回以上\n");
 
@@ -215,6 +245,7 @@ async function reportRising(accessToken: string) {
   const prevMap = new Map(prev.map(r => [r.keys[0], r]));
   const rising = recent
     .filter(r => {
+      if (isDone(r.keys[0], done)) return false;
       const p = prevMap.get(r.keys[0]);
       if (!p || p.impressions === 0) return r.impressions >= 3;
       return r.impressions >= 3 && r.impressions / p.impressions >= 1.5;
@@ -270,7 +301,7 @@ async function reportPageTitles(accessToken: string) {
 
 // ── レポート4: 未掲載クエリ（スポットがないのに検索されている） ──
 
-async function reportMissingSpots(accessToken: string) {
+async function reportMissingSpots(accessToken: string, done: DoneEntry[]) {
   console.log("\n❌ スポット系未対応クエリ（検索需要があるのにページがない）");
   console.log("   条件: 表示3回以上 / 施設・場所を示すキーワードを含む / 日本語\n");
 
@@ -291,6 +322,7 @@ async function reportMissingSpots(accessToken: string) {
     .filter(r => {
       if (!isJapanese(r.keys[0])) return false;
       if (r.impressions < 3) return false;
+      if (isDone(r.keys[0], done)) return false;
       return spotPatterns.some(p => p.test(r.keys[0]));
     })
     .sort((a, b) => b.impressions - a.impressions)
@@ -308,6 +340,68 @@ async function reportMissingSpots(accessToken: string) {
   }
   sep(72);
   console.log(`\n  → これらの施設をスポットに追加するとインデックスされやすくなる\n`);
+}
+
+// ── レポート5: クエリ×ページ紐付け（どのページで表示されているか） ──
+// --report query-pages で全未対応クエリのヒットページを一覧表示
+// --query "クエリ名" で特定クエリのみ絞り込み
+
+async function reportQueryPages(accessToken: string, done: DoneEntry[]) {
+  const targetQuery = getArg("query", "");
+  console.log("\n🔍 クエリ×ページ紐付け（どのページで表示されているか）");
+  if (targetQuery) {
+    console.log(`   対象クエリ: "${targetQuery}"\n`);
+  } else {
+    console.log("   条件: 表示3回以上 / 日本語 / 未対応クエリ\n");
+    console.log("   💡 特定クエリを絞り込む場合: --query \"クエリ名\"\n");
+  }
+
+  // query+page の組み合わせで取得
+  const rows = await fetchByDimension(accessToken, ["query", "page"], DAYS, 5000);
+
+  // クエリ→ページのマップを構築
+  const queryPageMap = new Map<string, { page: string; impressions: number; clicks: number; position: number }[]>();
+  for (const r of rows) {
+    const q = r.keys[0];
+    const page = r.keys[1].replace("https://kaigaijin.jp", "");
+    if (!queryPageMap.has(q)) queryPageMap.set(q, []);
+    queryPageMap.get(q)!.push({ page, impressions: r.impressions, clicks: r.clicks, position: r.position });
+  }
+
+  // 対象クエリを絞り込む
+  let targets: string[];
+  if (targetQuery) {
+    targets = [targetQuery];
+  } else {
+    // query単体のデータも取得して未対応クエリを抽出
+    const queryRows = await fetchByDimension(accessToken, ["query"], DAYS);
+    targets = queryRows
+      .filter(r => isJapanese(r.keys[0]) && r.impressions >= 3 && !isDone(r.keys[0], done))
+      .sort((a, b) => b.impressions - a.impressions)
+      .slice(0, 30)
+      .map(r => r.keys[0]);
+  }
+
+  if (targets.length === 0) { console.log("   該当なし\n"); return; }
+
+  for (const q of targets) {
+    const pages = queryPageMap.get(q);
+    if (!pages || pages.length === 0) {
+      console.log(`\n【${q}】 → データなし`);
+      continue;
+    }
+    const sorted = [...pages].sort((a, b) => b.impressions - a.impressions);
+    console.log(`\n【${q}】`);
+    sep(90);
+    console.log(`  ${"ページ".padEnd(55)}  ${"表示".padStart(4)}  ${"クリック".padStart(6)}  ${"順位".padStart(5)}`);
+    sep(90);
+    for (const p of sorted.slice(0, 5)) {
+      const pos = p.position.toFixed(1);
+      console.log(`  ${p.page.slice(0, 54).padEnd(55)}  ${String(p.impressions).padStart(4)}  ${String(p.clicks).padStart(6)}  ${pos.padStart(5)}`);
+    }
+    sep(90);
+  }
+  console.log();
 }
 
 // ── サマリー ──
@@ -334,15 +428,23 @@ async function reportSummary(accessToken: string) {
 
 async function main() {
   const accessToken = await getAccessToken();
+  const done = loadDone();
+
+  if (done.length > 0) {
+    console.log(`\n📋 対応済みスキップ: ${done.length}件（seo-gap-done.json）`);
+  }
 
   await reportSummary(accessToken);
 
-  if (REPORT === "all" || REPORT === "quick-wins") await reportQuickWins(accessToken);
-  if (REPORT === "all" || REPORT === "rising")     await reportRising(accessToken);
-  if (REPORT === "all" || REPORT === "titles")     await reportPageTitles(accessToken);
-  if (REPORT === "all" || REPORT === "missing")    await reportMissingSpots(accessToken);
+  if (REPORT === "all" || REPORT === "quick-wins")   await reportQuickWins(accessToken, done);
+  if (REPORT === "all" || REPORT === "rising")       await reportRising(accessToken, done);
+  if (REPORT === "all" || REPORT === "titles")       await reportPageTitles(accessToken);
+  if (REPORT === "all" || REPORT === "missing")      await reportMissingSpots(accessToken, done);
+  if (REPORT === "query-pages")                      await reportQueryPages(accessToken, done);
 
   console.log("✅ 分析完了\n");
+  console.log("💡 対応したクエリは seo-gap-done.json に追記してください");
+  console.log('   例: { "query": "クエリ名", "action": "対応内容", "done_at": "YYYY-MM-DD" }\n');
 }
 
 main().catch(err => { console.error("エラー:", err.message); process.exit(1); });
