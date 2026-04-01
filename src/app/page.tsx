@@ -70,7 +70,7 @@ export default function Home() {
 
               {/* 右: 国グリッド */}
               <div className="hidden lg:block">
-                <p className="text-stone-400 text-xs font-medium mb-3 tracking-wider uppercase">対応国 — {countries.length}カ国</p>
+                <p className="text-warm-200 text-xs font-medium mb-3 tracking-wider uppercase">対応国 — {countries.length}カ国</p>
                 <div className="grid grid-cols-2 gap-2">
                   {countries.map((c) => (
                     <a
@@ -81,7 +81,7 @@ export default function Home() {
                       <span className="text-2xl">{c.flag}</span>
                       <div className="min-w-0">
                         <p className="font-medium text-white group-hover:text-amber-300 transition-colors">{c.name}</p>
-                        <p className="text-xs text-stone-500 truncate">{c.population}</p>
+                        <p className="text-xs text-warm-200 truncate">{c.population}</p>
                       </div>
                     </a>
                   ))}
