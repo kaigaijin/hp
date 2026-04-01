@@ -32,40 +32,36 @@ export default function Home() {
       <Header />
       <main>
         {/* ===== ヒーロー ===== */}
-        <section className="relative overflow-hidden bg-gradient-to-br from-stone-900 via-stone-800 to-stone-700 text-white">
-          {/* 背景: 地図的なドット模様 */}
-          <div className="absolute inset-0 opacity-5" style={{backgroundImage: "radial-gradient(circle, #fff 1px, transparent 1px)", backgroundSize: "32px 32px"}} />
-          {/* アクセントライン */}
-          <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-amber-400 via-orange-400 to-rose-400" />
+        <section className="relative overflow-hidden bg-gradient-to-br from-warm-800 to-warm-600 text-white">
 
           <div className="relative max-w-6xl mx-auto px-4 py-16 md:py-24">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
               {/* 左: キャッチコピー + CTA */}
               <div>
-                <p className="text-amber-400 text-xs font-semibold tracking-widest uppercase mb-4">
+                <p className="text-warm-200 text-xs font-semibold tracking-widest uppercase mb-4">
                   海外在住日本人のためのメディア
                 </p>
                 <h1 className="heading-editorial text-4xl md:text-5xl lg:text-5xl font-bold leading-tight mb-5">
                   その国で暮らす
                   <br />
-                  <span className="text-amber-400">リアル</span>を、
+                  <span className="text-warm-200">リアル</span>を、
                   <br />
                   深く届ける。
                 </h1>
-                <p className="text-stone-300 leading-relaxed mb-8 max-w-md">
+                <p className="text-warm-100 leading-relaxed mb-8 max-w-md">
                   ビザ、税金、保険、住居、医療——国ごとに異なる「暮らしの実務」を、在住者の視点で丁寧に解説します。
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3">
                   <a
                     href="#countries"
-                    className="inline-flex items-center justify-center gap-2 bg-amber-400 text-stone-900 font-bold px-7 py-3.5 rounded-xl text-sm hover:bg-amber-300 transition-colors shadow-lg"
+                    className="inline-flex items-center justify-center gap-2 bg-white text-warm-800 font-bold px-7 py-3.5 rounded-xl text-sm hover:bg-warm-50 transition-colors shadow-lg"
                   >
                     住んでいる国を選ぶ →
                   </a>
                   <a
                     href="/sg/spot"
-                    className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 border border-white/20 text-white font-medium px-7 py-3.5 rounded-xl text-sm transition-colors"
+                    className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 border border-white/30 text-white font-medium px-7 py-3.5 rounded-xl text-sm transition-colors"
                   >
                     🇸🇬 まずシンガポールを見る
                   </a>
@@ -80,7 +76,7 @@ export default function Home() {
                     <a
                       key={c.code}
                       href={`/${c.code}`}
-                      className="flex items-center gap-3 bg-white/5 hover:bg-white/12 border border-white/10 hover:border-amber-400/40 px-4 py-3 rounded-xl text-sm transition-all group"
+                      className="flex items-center gap-3 bg-white/5 hover:bg-white/12 border border-white/10 hover:border-white/30 px-4 py-3 rounded-xl text-sm transition-all group"
                     >
                       <span className="text-2xl">{c.flag}</span>
                       <div className="min-w-0">
