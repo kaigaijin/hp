@@ -88,52 +88,78 @@ export default async function CountryPage({
         {/* ヒーロー */}
         <section className="bg-gradient-to-br from-warm-800 to-warm-600 text-white py-20 md:py-28">
           <div className="max-w-6xl mx-auto px-4">
-            <div className="flex items-center gap-4 mb-6">
-              <span className="text-6xl">{country.flag}</span>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+              {/* 左: メインコンテンツ */}
               <div>
-                <h1 className="heading-editorial text-4xl md:text-5xl font-bold">
-                  {country.name}
-                </h1>
-                <p className="text-warm-300 text-sm mt-1">
-                  {country.nameEn} ・ 在住日本人 {country.population}
+                <div className="flex items-center gap-4 mb-6">
+                  <span className="text-6xl">{country.flag}</span>
+                  <div>
+                    <h1 className="heading-editorial text-4xl md:text-5xl font-bold">
+                      {country.name}
+                    </h1>
+                    <p className="text-warm-300 text-sm mt-1">
+                      {country.nameEn} ・ 在住日本人 {country.population}
+                    </p>
+                  </div>
+                </div>
+                <p className="text-xl text-warm-200 italic heading-editorial">
+                  {country.tagline}
                 </p>
-              </div>
-            </div>
-            <p className="text-xl text-warm-200 italic heading-editorial">
-              {country.tagline}
-            </p>
 
-            {/* CTA */}
-            {totalSpots > 0 && (
-              <div className="flex flex-col sm:flex-row gap-3 mt-8">
-                <Link
-                  href={`/${code}/spot`}
-                  className="inline-flex items-center justify-center gap-2 bg-white text-warm-800 font-bold px-6 py-3 rounded-xl text-sm hover:bg-warm-50 transition-colors shadow-md"
-                >
-                  <MapPin size={16} />
-                  日本人向けスポット {totalSpots}件を見る
-                </Link>
-                {articles.length > 0 && (
-                  <a
-                    href="#articles"
-                    className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 border border-white/30 text-white font-medium px-6 py-3 rounded-xl text-sm transition-colors"
-                  >
-                    生活ガイド記事を読む
-                  </a>
+                {/* CTA */}
+                {totalSpots > 0 && (
+                  <div className="flex flex-col sm:flex-row gap-3 mt-8">
+                    <Link
+                      href={`/${code}/spot`}
+                      className="inline-flex items-center justify-center gap-2 bg-white text-warm-800 font-bold px-6 py-3 rounded-xl text-sm hover:bg-warm-50 transition-colors shadow-md"
+                    >
+                      <MapPin size={16} />
+                      日本人向けスポット {totalSpots}件を見る
+                    </Link>
+                    {articles.length > 0 && (
+                      <a
+                        href="#articles"
+                        className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 border border-white/30 text-white font-medium px-6 py-3 rounded-xl text-sm transition-colors"
+                      >
+                        生活ガイド記事を読む
+                      </a>
+                    )}
+                  </div>
                 )}
-              </div>
-            )}
 
-            {/* トピックタグ */}
-            <div className="flex flex-wrap gap-2 mt-6">
-              {country.topics.map((topic) => (
-                <span
-                  key={topic}
-                  className="text-sm bg-white/10 px-3 py-1 rounded-full"
-                >
-                  {topic}
-                </span>
-              ))}
+                {/* トピックタグ */}
+                <div className="flex flex-wrap gap-2 mt-6">
+                  {country.topics.map((topic) => (
+                    <span
+                      key={topic}
+                      className="text-sm bg-white/10 px-3 py-1 rounded-full"
+                    >
+                      {topic}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              {/* 右: 他の国一覧 */}
+              <div className="hidden md:block">
+                <p className="text-xs font-semibold text-warm-300 uppercase tracking-wider mb-3">
+                  他の国を見る
+                </p>
+                <div className="grid grid-cols-2 gap-1.5">
+                  {countries
+                    .filter((c) => c.code !== code)
+                    .map((c) => (
+                      <Link
+                        key={c.code}
+                        href={`/${c.code}`}
+                        className="flex items-center gap-2 px-3 py-2 rounded-lg text-sm text-white/70 hover:text-white hover:bg-white/10 transition-colors"
+                      >
+                        <span className="text-base leading-none">{c.flag}</span>
+                        <span>{c.name}</span>
+                      </Link>
+                    ))}
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -226,27 +252,6 @@ export default async function CountryPage({
                       <ArrowRight size={14} />
                     </Link>
                   </>)}
-
-                    {/* 他の国一覧 */}
-                    <div className="mt-6 pt-6 border-t border-stone-200 dark:border-stone-700">
-                      <p className="text-xs font-semibold text-stone-400 dark:text-stone-500 uppercase tracking-wider mb-3">
-                        他の国を見る
-                      </p>
-                      <div className="flex flex-col gap-1">
-                        {countries
-                          .filter((c) => c.code !== code)
-                          .map((c) => (
-                            <Link
-                              key={c.code}
-                              href={`/${c.code}`}
-                              className="flex items-center gap-2 px-3 py-2 rounded-lg text-sm text-stone-600 dark:text-stone-400 hover:bg-stone-50 dark:hover:bg-stone-800 hover:text-warm-700 dark:hover:text-warm-400 transition-colors"
-                            >
-                              <span className="text-base leading-none">{c.flag}</span>
-                              <span>{c.name}</span>
-                            </Link>
-                          ))}
-                      </div>
-                    </div>
                 </div>
               </div>
             </div>
