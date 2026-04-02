@@ -143,11 +143,7 @@ export default async function CountryPage({
           <div className="max-w-6xl mx-auto px-4">
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
               {/* 左カラム: 記事一覧 */}
-              <div
-                className={
-                  totalSpots > 0 ? "lg:col-span-2" : "lg:col-span-3"
-                }
-              >
+              <div className="lg:col-span-2">
                 {articles.length > 0 ? (
                   <PaginatedArticleList
                     articles={articles}
@@ -176,10 +172,10 @@ export default async function CountryPage({
                 )}
               </div>
 
-              {/* 右カラム: KAIスポット */}
-              {totalSpots > 0 && (
-                <div className="lg:col-span-1">
-                  <div className="sticky top-24">
+              {/* 右カラム: KAIスポット + 他の国 */}
+              <div className="lg:col-span-1">
+                <div className="sticky top-24">
+                  {totalSpots > 0 && (<>
                     <Link
                       href={`/${code}/spot`}
                       className="group flex items-center gap-2 mb-5"
@@ -229,9 +225,30 @@ export default async function CountryPage({
                       すべてのカテゴリを見る
                       <ArrowRight size={14} />
                     </Link>
-                  </div>
+                  </>)}
+
+                    {/* 他の国一覧 */}
+                    <div className="mt-6 pt-6 border-t border-stone-200 dark:border-stone-700">
+                      <p className="text-xs font-semibold text-stone-400 dark:text-stone-500 uppercase tracking-wider mb-3">
+                        他の国を見る
+                      </p>
+                      <div className="flex flex-col gap-1">
+                        {countries
+                          .filter((c) => c.code !== code)
+                          .map((c) => (
+                            <Link
+                              key={c.code}
+                              href={`/${c.code}`}
+                              className="flex items-center gap-2 px-3 py-2 rounded-lg text-sm text-stone-600 dark:text-stone-400 hover:bg-stone-50 dark:hover:bg-stone-800 hover:text-warm-700 dark:hover:text-warm-400 transition-colors"
+                            >
+                              <span className="text-base leading-none">{c.flag}</span>
+                              <span>{c.name}</span>
+                            </Link>
+                          ))}
+                      </div>
+                    </div>
                 </div>
-              )}
+              </div>
             </div>
           </div>
         </section>
