@@ -2813,5 +2813,55 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null
+  },
+  {
+    "slug": "samitivej-srinakarin-hospital",
+    "name": "Samitivej Srinakarin Hospital",
+    "name_ja": "サミティベート・スリナカリン病院",
+    "area": "Suan Luang / East Bangkok",
+    "address": "488 Srinakarin Road, Suan Luang, Bangkok 10250, Thailand",
+    "lat": null,
+    "lng": null,
+    "phone": "+66202222222",
+    "website": "https://www.samitivejhospitals.com/",
+    "description": "バンコク東部エリアの在住日本人が利用するサミティベート系列病院。スクンビット本院と同水準の医療を提供し、オンヌット・プラカノン方面の日本人居住エリアからアクセスしやすい。",
+    "tags": [
+      "病院",
+      "国際病院",
+      "JCI認定",
+      "東バンコク"
+    ],
+    "hours": null,
+    "last_verified": "2026-04-02",
+    "status": "unverified",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
+  },
+  {
+    "slug": "samitivej-thonburi-hospital",
+    "name": "Samitivej Thonburi Hospital",
+    "name_ja": "サミティベート・トンブリ病院",
+    "area": "Thonburi / West Bangkok",
+    "address": "37 Somdej Taksin Road, Samre, Thon Buri, Bangkok 10600, Thailand",
+    "lat": null,
+    "lng": null,
+    "phone": "+6624389000",
+    "website": "https://samitivejthonburi.com/en/index.html",
+    "description": "チャオプラヤ川西岸・トンブリエリアのサミティベート系列病院。スクンビット本院と同水準の総合医療を提供し、トンブリ・西バンコク在住の日本人も利用できる国際病院。",
+    "tags": [
+      "病院",
+      "国際病院",
+      "トンブリ",
+      "総合病院"
+    ],
+    "hours": null,
+    "last_verified": "2026-04-02",
+    "status": "unverified",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
   }
 ]

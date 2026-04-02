@@ -261,9 +261,9 @@ export default async function SpotDetailPage({
                 </span>
               )}
               {spotStatus === "reported_closed" && (
-                <span className="inline-flex items-center gap-1 text-xs text-red-700 dark:text-red-400 bg-red-50 dark:bg-red-900/30 px-2 py-0.5 rounded">
-                  <AlertTriangle size={10} />
-                  閉店の可能性あり
+                <span className="inline-flex items-center gap-1 text-xs font-medium text-red-700 dark:text-red-400 bg-red-100 dark:bg-red-900/40 px-2.5 py-1 rounded-full border border-red-200 dark:border-red-800">
+                  <AlertTriangle size={11} />
+                  閉店済み
                 </span>
               )}
             </div>
@@ -346,9 +346,10 @@ export default async function SpotDetailPage({
               {spotStatus === "reported_closed" && (
                 <div className="flex items-start gap-3 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-xl px-4 py-3">
                   <AlertTriangle size={16} className="text-red-600 dark:text-red-400 shrink-0 mt-0.5" />
-                  <p className="text-xs text-red-700 dark:text-red-300">
-                    閉店の可能性があるとの報告を受けています。訪問前に公式サイトや電話で営業状況をご確認ください。
-                  </p>
+                  <div className="text-xs text-red-700 dark:text-red-300 space-y-1">
+                    <p className="font-semibold">このスポットは閉店済みの可能性があります</p>
+                    <p>閉店・移転の報告を受けています。訪問前に公式サイトや電話で営業状況をご確認ください。情報をお持ちの方はページ下部からお知らせください。</p>
+                  </div>
                 </div>
               )}
 

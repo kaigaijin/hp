@@ -49,12 +49,18 @@ export default function SpotCategoryList({ spots, countryCode, categorySlug, cat
           href={`/${countryCode}/spot/${categorySlug}/${spot.slug}`}
           className="group block"
         >
-          <article className={`bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 ${catTheme.hoverBorder} hover:shadow-md transition-all`}>
+          <article className={`bg-white dark:bg-stone-800 rounded-xl border ${spot.status === "reported_closed" ? "border-red-300 dark:border-red-800" : `border-stone-200 dark:border-stone-700 ${catTheme.hoverBorder}`} hover:shadow-md transition-all`}>
+            {spot.status === "reported_closed" && (
+              <div className="flex items-center gap-1.5 bg-red-50 dark:bg-red-900/30 px-4 py-2 rounded-t-xl border-b border-red-200 dark:border-red-800">
+                <AlertTriangle size={12} className="text-red-600 dark:text-red-400 shrink-0" />
+                <span className="text-xs font-medium text-red-700 dark:text-red-300">閉店済み</span>
+              </div>
+            )}
             <div className="p-4 sm:p-5">
               {/* 上段: 店名 + エリア */}
               <div className="flex items-start justify-between gap-3 mb-2">
                 <div className="min-w-0">
-                  <h2 className={`text-base font-bold text-stone-800 dark:text-stone-100 truncate ${catTheme.accentHover} transition-colors`}>
+                  <h2 className={`text-base font-bold truncate transition-colors ${spot.status === "reported_closed" ? "text-stone-400 dark:text-stone-500" : `text-stone-800 dark:text-stone-100 ${catTheme.accentHover}`}`}>
                     {spot.name_ja ?? spot.name}
                   </h2>
                   {spot.name_ja && (
@@ -70,7 +76,7 @@ export default function SpotCategoryList({ spots, countryCode, categorySlug, cat
               </div>
 
               {/* 説明文 */}
-              <p className="text-sm text-stone-600 dark:text-stone-300 leading-relaxed mb-3 line-clamp-2">
+              <p className={`text-sm leading-relaxed mb-3 line-clamp-2 ${spot.status === "reported_closed" ? "text-stone-400 dark:text-stone-500" : "text-stone-600 dark:text-stone-300"}`}>
                 {spot.description}
               </p>
 
@@ -90,12 +96,6 @@ export default function SpotCategoryList({ spots, countryCode, categorySlug, cat
 
                 {/* ステータス + 連絡先 */}
                 <div className="flex items-center gap-3 shrink-0">
-                  {spot.status === "reported_closed" && (
-                    <span className="hidden sm:flex items-center gap-1 text-xs text-red-500">
-                      <AlertTriangle size={10} />
-                      閉店の可能性
-                    </span>
-                  )}
                   {(!spot.status || spot.status === "unverified") && (
                     <span className="hidden sm:flex items-center gap-1 text-xs text-amber-500">
                       <Info size={10} />
