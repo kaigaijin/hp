@@ -218,37 +218,6 @@
     "photo_name": null
   },
   {
-    "slug": "trazy-moving-service",
-    "name": "Trazy Moving Service",
-    "name_ja": "Trazy 引越しサービス",
-    "area": "Seoul / Gyeonggi-do / Incheon",
-    "address": "Seoul (online platform, citywide coverage)",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.trazy.com/experience/detail/moving-service-in-seoul-gyeonggi-incheon",
-    "description": "韓国最大級の旅行・生活サービスプラットフォームTrazyが提供する外国人向け引越しサービス。英語でオンライン予約可能。1トントラックでの荷物運搬に対応。ソウル・京畿道・仁川エリア内のワンルーム引越しに最適。梱包は自分で行い、運搬のみを依頼する形式。",
-    "tags": [
-      "英語対応",
-      "オンライン予約",
-      "国内引越し",
-      "外国人向け"
-    ],
-    "hours": "オンラインで24時間予約可能",
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
     "slug": "agex-korea-moving",
     "name": "AGEX Global Express Korea",
     "name_ja": "ACEグローバルエクスプレス（AGEX）韓国",
@@ -324,31 +293,6 @@
     "ai_reviewed": true
   },
   {
-    "slug": "miso-moving-korea",
-    "name": "Miso Moving (Korea Domestic)",
-    "name_ja": "ミソ 国内引越しサービス（韓国）",
-    "area": "Seoul (online platform)",
-    "address": "Seoul (online, citywide)",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.miso.kr/",
-    "description": "韓国最大の家事代行プラットフォーム「ミソ」が提供する国内引越しサービス。アプリから見積もり・業者選定・予約が可能。英語対応UIで外国人でも利用しやすい。家具の組立・解体サービスも提供。",
-    "tags": [
-      "英語対応",
-      "国内引越し",
-      "アプリ予約",
-      "外国人向け"
-    ],
-    "hours": "アプリで24時間予約可能",
-    "last_verified": "2026-04-02",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
     "slug": "korea-plaza-moving-support",
     "name": "Korea Plaza Hiroba Moving Support",
     "name_ja": "コリアプラザひろば 引越しサポート",
@@ -409,7 +353,13 @@
     "phone": null,
     "website": "https://www.omsjapan.com/korea/",
     "description": "日本語対応の国際引越し専門会社OMSが提供する韓国引越しサービス。日本↔韓国間の個人・法人引越しに対応し、梱包から通関・搬入まで日本語でサポート。在韓日本人の帰国便にも対応実績がある。",
-    "tags": ["日本語対応", "国際引越し", "日韓間", "個人向け", "法人向け"],
+    "tags": [
+      "日本語対応",
+      "国際引越し",
+      "日韓間",
+      "個人向け",
+      "法人向け"
+    ],
     "hours": null,
     "last_verified": "2026-04-02",
     "status": "unverified",
