@@ -48,7 +48,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "九州博多発の「一風堂」中山店のラーメン居酒屋業態。白丸・赤丸ラーメンに加え、アルコールメニューも充実した居酒屋スタイルで営業。台北・中山エリアに位置。",
+    "price_range": "TWD 300〜600/人"
   },
   {
     "slug": "dozo-izakaya",
@@ -361,7 +363,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "台湾全土に展開する大型焼肉居酒屋チェーン「乾杯」。霜降り和牛・ラム・豚など豊富な肉の種類を揃え、ビールをはじめアルコール類も充実。台北・台中・高雄など全国に複数店舗展開。ペット同伴可能な店舗もあり（事前申告要）。",
+    "price_range": "TWD 600〜1,200/人"
   },
   {
     "slug": "yakiniku-jumbo-taipei",
@@ -387,7 +391,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "台湾全土に展開する大型焼肉居酒屋チェーン「乾杯」。霜降り和牛・ラム・豚など豊富な肉の種類を揃え、ビールをはじめアルコール類も充実。台北・台中・高雄など全国に複数店舗展開。ペット同伴可能な店舗もあり（事前申告要）。",
+    "price_range": "TWD 600〜1,200/人"
   },
   {
     "slug": "toraji-yakiniku-taipei",
@@ -673,7 +679,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "台湾全土に展開する大型焼肉居酒屋チェーン「乾杯」。霜降り和牛・ラム・豚など豊富な肉の種類を揃え、ビールをはじめアルコール類も充実。台北・台中・高雄など全国に複数店舗展開。ペット同伴可能な店舗もあり（事前申告要）。",
+    "price_range": "TWD 600〜1,200/人"
   },
   {
     "slug": "kanpai-zhongshan",
@@ -699,7 +707,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "台湾全土に展開する大型焼肉居酒屋チェーン「乾杯」。霜降り和牛・ラム・豚など豊富な肉の種類を揃え、ビールをはじめアルコール類も充実。台北・台中・高雄など全国に複数店舗展開。ペット同伴可能な店舗もあり（事前申告要）。",
+    "price_range": "TWD 600〜1,200/人"
   },
   {
     "slug": "izakaya-yoshi-linsen",
@@ -777,7 +787,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "台湾全土に展開する大型焼肉居酒屋チェーン「乾杯」。霜降り和牛・ラム・豚など豊富な肉の種類を揃え、ビールをはじめアルコール類も充実。台北・台中・高雄など全国に複数店舗展開。ペット同伴可能な店舗もあり（事前申告要）。",
+    "price_range": "TWD 600〜1,200/人"
   },
   {
     "slug": "watami-taipei-xinyi",
@@ -1016,7 +1028,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "台湾全土に展開する大型焼肉居酒屋チェーン「乾杯」。霜降り和牛・ラム・豚など豊富な肉の種類を揃え、ビールをはじめアルコール類も充実。台北・台中・高雄など全国に複数店舗展開。ペット同伴可能な店舗もあり（事前申告要）。",
+    "price_range": "TWD 600〜1,200/人"
   },
   {
     "slug": "kanpai-kaohsiung",
@@ -1042,7 +1056,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "台湾全土に展開する大型焼肉居酒屋チェーン「乾杯」。霜降り和牛・ラム・豚など豊富な肉の種類を揃え、ビールをはじめアルコール類も充実。台北・台中・高雄など全国に複数店舗展開。ペット同伴可能な店舗もあり（事前申告要）。",
+    "price_range": "TWD 600〜1,200/人"
   },
   {
     "slug": "torikizoku-taichung",
@@ -3479,7 +3495,46 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "大阪発の回転寿司チェーン「スシロー」の台湾店。1皿30元〜の手頃な価格で握りやラーメン・デザートまで幅広く楽しめる。専用アプリで予約・順番待ちが可能。",
+    "menu": [
+      {
+        "name": "マグロにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "サーモンにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "生サーモンにぎり",
+        "price": "TWD 60",
+        "category": "握り寿司"
+      },
+      {
+        "name": "ホタテにぎり",
+        "price": "TWD 80",
+        "category": "握り寿司"
+      },
+      {
+        "name": "チャーシュー豚骨ラーメン",
+        "price": "TWD 135",
+        "category": "麺類"
+      },
+      {
+        "name": "唐揚げ",
+        "price": "TWD 80",
+        "category": "副菜"
+      },
+      {
+        "name": "千層ケーキ",
+        "price": "TWD 60",
+        "category": "デザート"
+      }
+    ],
+    "price_range": "TWD 400〜800/人"
   },
   {
     "slug": "來吧台北日式餐酒館",
@@ -3577,7 +3632,21 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "JR東日本大飯店台北内のバー「THE BAR」。台北駅から徒歩圏内のホテルに位置し、厳選された日本ウイスキーや各種カクテルを提供。格調ある空間でビジネス後のドリンクや記念日利用に最適。",
+    "menu": [
+      {
+        "name": "カクテル各種",
+        "price": "TWD 250〜",
+        "category": "カクテル"
+      },
+      {
+        "name": "ウイスキー各種",
+        "price": "TWD 300〜",
+        "category": "ウイスキー"
+      }
+    ],
+    "price_range": "TWD 250〜/杯"
   },
   {
     "slug": "bar-nine-english-ok",
@@ -3868,7 +3937,41 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「職人級地鶏串焼き専門店」として台北・台中に展開する居酒屋「一鷺炭火燒鳥工房」。牧場直送の天然地鶏を炭火でていねいに焼き上げる串焼きが看板。松江本店は台北市中山区民権東路二段152巷1号に位置し、毎日17:00〜24:00営業。大直旗艦店・台中店も展開。",
+    "menu": [
+      {
+        "name": "牧場直送天然地鶏刺身（大直店限定）",
+        "price": "未掲載",
+        "category": "刺身"
+      },
+      {
+        "name": "鶏頸肉塩焼/醬焼串",
+        "price": "未掲載",
+        "category": "串焼き"
+      },
+      {
+        "name": "鶏フィレ串",
+        "price": "未掲載",
+        "category": "串焼き"
+      },
+      {
+        "name": "自家製午仔魚一夜干",
+        "price": "未掲載",
+        "category": "干物"
+      },
+      {
+        "name": "炙焼タタキ生牛肉",
+        "price": "未掲載",
+        "category": "肉料理"
+      },
+      {
+        "name": "自家製鶏肉丸",
+        "price": "未掲載",
+        "category": "串焼き"
+      }
+    ],
+    "price_range": "TWD 500〜1,000/人"
   },
   {
     "slug": "very-chill-yakitori-2",
@@ -4423,7 +4526,41 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「職人級地鶏串焼き専門店」として台北・台中に展開する居酒屋「一鷺炭火燒鳥工房」。牧場直送の天然地鶏を炭火でていねいに焼き上げる串焼きが看板。松江本店は台北市中山区民権東路二段152巷1号に位置し、毎日17:00〜24:00営業。大直旗艦店・台中店も展開。",
+    "menu": [
+      {
+        "name": "牧場直送天然地鶏刺身（大直店限定）",
+        "price": "未掲載",
+        "category": "刺身"
+      },
+      {
+        "name": "鶏頸肉塩焼/醬焼串",
+        "price": "未掲載",
+        "category": "串焼き"
+      },
+      {
+        "name": "鶏フィレ串",
+        "price": "未掲載",
+        "category": "串焼き"
+      },
+      {
+        "name": "自家製午仔魚一夜干",
+        "price": "未掲載",
+        "category": "干物"
+      },
+      {
+        "name": "炙焼タタキ生牛肉",
+        "price": "未掲載",
+        "category": "肉料理"
+      },
+      {
+        "name": "自家製鶏肉丸",
+        "price": "未掲載",
+        "category": "串焼き"
+      }
+    ],
+    "price_range": "TWD 500〜1,000/人"
   },
   {
     "slug": "串匠屋",
@@ -4545,7 +4682,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "台北で10年以上の営業実績を誇り、現在は台中・美村エリアに展開する日式串焼き居酒屋「MISO IZAKAYA」。炭火串焼きを主軸に、揚げ物・煮込み料理など日本居酒屋の定番メニューを提供。台中市西区美村路一段37号。月〜土18:00〜深夜1時まで営業。"
   },
   {
     "slug": "izakaya-4",
@@ -5580,7 +5718,41 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「職人級地鶏串焼き専門店」として台北・台中に展開する居酒屋「一鷺炭火燒鳥工房」。牧場直送の天然地鶏を炭火でていねいに焼き上げる串焼きが看板。松江本店は台北市中山区民権東路二段152巷1号に位置し、毎日17:00〜24:00営業。大直旗艦店・台中店も展開。",
+    "menu": [
+      {
+        "name": "牧場直送天然地鶏刺身（大直店限定）",
+        "price": "未掲載",
+        "category": "刺身"
+      },
+      {
+        "name": "鶏頸肉塩焼/醬焼串",
+        "price": "未掲載",
+        "category": "串焼き"
+      },
+      {
+        "name": "鶏フィレ串",
+        "price": "未掲載",
+        "category": "串焼き"
+      },
+      {
+        "name": "自家製午仔魚一夜干",
+        "price": "未掲載",
+        "category": "干物"
+      },
+      {
+        "name": "炙焼タタキ生牛肉",
+        "price": "未掲載",
+        "category": "肉料理"
+      },
+      {
+        "name": "自家製鶏肉丸",
+        "price": "未掲載",
+        "category": "串焼き"
+      }
+    ],
+    "price_range": "TWD 500〜1,000/人"
   },
   {
     "slug": "宵之月-居酒屋-串燒烏龍麵宵夜聚餐小酌",
@@ -5920,7 +6092,41 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「職人級地鶏串焼き専門店」として台北・台中に展開する居酒屋「一鷺炭火燒鳥工房」。牧場直送の天然地鶏を炭火でていねいに焼き上げる串焼きが看板。松江本店は台北市中山区民権東路二段152巷1号に位置し、毎日17:00〜24:00営業。大直旗艦店・台中店も展開。",
+    "menu": [
+      {
+        "name": "牧場直送天然地鶏刺身（大直店限定）",
+        "price": "未掲載",
+        "category": "刺身"
+      },
+      {
+        "name": "鶏頸肉塩焼/醬焼串",
+        "price": "未掲載",
+        "category": "串焼き"
+      },
+      {
+        "name": "鶏フィレ串",
+        "price": "未掲載",
+        "category": "串焼き"
+      },
+      {
+        "name": "自家製午仔魚一夜干",
+        "price": "未掲載",
+        "category": "干物"
+      },
+      {
+        "name": "炙焼タタキ生牛肉",
+        "price": "未掲載",
+        "category": "肉料理"
+      },
+      {
+        "name": "自家製鶏肉丸",
+        "price": "未掲載",
+        "category": "串焼き"
+      }
+    ],
+    "price_range": "TWD 500〜1,000/人"
   },
   {
     "slug": "芮神串燒居酒屋-寵物友善-台中美食推薦",

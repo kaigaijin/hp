@@ -104,7 +104,21 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "台北・信義区の松仁路97番地にある一蘭の台北本店。MRT香山駅1番出口から徒歩約5分、台北市政府駅3番出口から徒歩約10分。味集中カウンター54席で、濃度・脂・麺の硬さ等を細かくカスタマイズして注文できる。月〜木は深夜5時まで、金〜日・祝は24時間営業。22時以降は深夜料金あり。",
+    "menu": [
+      {
+        "name": "天然とんこつラーメン（クラシック）",
+        "price": "TWD 220〜",
+        "category": "ラーメン"
+      },
+      {
+        "name": "キッズラーメン",
+        "price": "TWD 160〜",
+        "category": "ラーメン"
+      }
+    ],
+    "price_range": "TWD 220〜/人"
   },
   {
     "slug": "ichiran-taipei-a11",
@@ -130,7 +144,21 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "新光三越信義A11のB1階にある一蘭の台北別館。MRT香山駅1番出口から徒歩約5分、台北市政府駅3番出口から徒歩約10分。味集中カウンター52席。月〜木は深夜5時まで、金〜日・祝は24時間営業。キッズ用食器あり。駐車場は車284台・バイク554台収容。",
+    "menu": [
+      {
+        "name": "天然とんこつラーメン（クラシック）",
+        "price": "TWD 220〜",
+        "category": "ラーメン"
+      },
+      {
+        "name": "キッズラーメン",
+        "price": "TWD 160〜",
+        "category": "ラーメン"
+      }
+    ],
+    "price_range": "TWD 220〜/人"
   },
   {
     "slug": "ippudo-zhongshan",
@@ -156,7 +184,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "九州博多発の本格豚骨ラーメン「一風堂」の台湾店。創業者・河原成美氏が打ち立てた白丸・赤丸などの看板ラーメンを提供。台湾では台北・台中・高雄エリアに10店舗以上を展開し、通常店舗のほかラーメン居酒屋業態も運営。",
+    "price_range": "TWD 200〜400/人"
   },
   {
     "slug": "ippudo-taipei101",
@@ -181,7 +211,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "九州博多発の本格豚骨ラーメン「一風堂」の台湾店。創業者・河原成美氏が打ち立てた白丸・赤丸などの看板ラーメンを提供。台湾では台北・台中・高雄エリアに10店舗以上を展開し、通常店舗のほかラーメン居酒屋業態も運営。",
+    "price_range": "TWD 200〜400/人"
   },
   {
     "slug": "adachi-sushi",
@@ -260,7 +292,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "九州博多発の本格豚骨ラーメン「一風堂」の台湾店。創業者・河原成美氏が打ち立てた白丸・赤丸などの看板ラーメンを提供。台湾では台北・台中・高雄エリアに10店舗以上を展開し、通常店舗のほかラーメン居酒屋業態も運営。",
+    "price_range": "TWD 200〜400/人"
   },
   {
     "slug": "eika-taipei",
@@ -600,7 +634,71 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "大阪発の回転寿司チェーン「スシロー」の台湾店。1皿30元〜の手頃な価格で握りやラーメン・デザートまで幅広く楽しめる。台北・台中・高雄・新北など台湾全土に展開。専用アプリで予約・順番待ちが可能で、日本と同様の品質とシステムを提供している。",
+    "menu": [
+      {
+        "name": "マグロにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "サーモンにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "生サーモンにぎり",
+        "price": "TWD 60",
+        "category": "握り寿司"
+      },
+      {
+        "name": "黒マグロ中とろにぎり",
+        "price": "TWD 70",
+        "category": "握り寿司"
+      },
+      {
+        "name": "ホタテにぎり",
+        "price": "TWD 80",
+        "category": "握り寿司"
+      },
+      {
+        "name": "極上うなぎにぎり",
+        "price": "TWD 80",
+        "category": "握り寿司"
+      },
+      {
+        "name": "鮭卵軍艦",
+        "price": "TWD 80",
+        "category": "軍艦・巻き物"
+      },
+      {
+        "name": "納豆巻き",
+        "price": "TWD 30",
+        "category": "軍艦・巻き物"
+      },
+      {
+        "name": "チャーシュー豚骨ラーメン",
+        "price": "TWD 135",
+        "category": "麺類"
+      },
+      {
+        "name": "豆皮うどん",
+        "price": "TWD 110",
+        "category": "麺類"
+      },
+      {
+        "name": "唐揚げ",
+        "price": "TWD 80",
+        "category": "副菜"
+      },
+      {
+        "name": "千層ケーキ",
+        "price": "TWD 60",
+        "category": "デザート"
+      }
+    ],
+    "price_range": "TWD 400〜800/人"
   },
   {
     "slug": "sushiro-taipei-zhonghua",
@@ -626,7 +724,71 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "大阪発の回転寿司チェーン「スシロー」の台湾店。1皿30元〜の手頃な価格で握りやラーメン・デザートまで幅広く楽しめる。台北・台中・高雄・新北など台湾全土に展開。専用アプリで予約・順番待ちが可能で、日本と同様の品質とシステムを提供している。",
+    "menu": [
+      {
+        "name": "マグロにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "サーモンにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "生サーモンにぎり",
+        "price": "TWD 60",
+        "category": "握り寿司"
+      },
+      {
+        "name": "黒マグロ中とろにぎり",
+        "price": "TWD 70",
+        "category": "握り寿司"
+      },
+      {
+        "name": "ホタテにぎり",
+        "price": "TWD 80",
+        "category": "握り寿司"
+      },
+      {
+        "name": "極上うなぎにぎり",
+        "price": "TWD 80",
+        "category": "握り寿司"
+      },
+      {
+        "name": "鮭卵軍艦",
+        "price": "TWD 80",
+        "category": "軍艦・巻き物"
+      },
+      {
+        "name": "納豆巻き",
+        "price": "TWD 30",
+        "category": "軍艦・巻き物"
+      },
+      {
+        "name": "チャーシュー豚骨ラーメン",
+        "price": "TWD 135",
+        "category": "麺類"
+      },
+      {
+        "name": "豆皮うどん",
+        "price": "TWD 110",
+        "category": "麺類"
+      },
+      {
+        "name": "唐揚げ",
+        "price": "TWD 80",
+        "category": "副菜"
+      },
+      {
+        "name": "千層ケーキ",
+        "price": "TWD 60",
+        "category": "デザート"
+      }
+    ],
+    "price_range": "TWD 400〜800/人"
   },
   {
     "slug": "sushiro-taipei-miramar",
@@ -652,7 +814,71 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "大阪発の回転寿司チェーン「スシロー」の台湾店。1皿30元〜の手頃な価格で握りやラーメン・デザートまで幅広く楽しめる。台北・台中・高雄・新北など台湾全土に展開。専用アプリで予約・順番待ちが可能で、日本と同様の品質とシステムを提供している。",
+    "menu": [
+      {
+        "name": "マグロにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "サーモンにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "生サーモンにぎり",
+        "price": "TWD 60",
+        "category": "握り寿司"
+      },
+      {
+        "name": "黒マグロ中とろにぎり",
+        "price": "TWD 70",
+        "category": "握り寿司"
+      },
+      {
+        "name": "ホタテにぎり",
+        "price": "TWD 80",
+        "category": "握り寿司"
+      },
+      {
+        "name": "極上うなぎにぎり",
+        "price": "TWD 80",
+        "category": "握り寿司"
+      },
+      {
+        "name": "鮭卵軍艦",
+        "price": "TWD 80",
+        "category": "軍艦・巻き物"
+      },
+      {
+        "name": "納豆巻き",
+        "price": "TWD 30",
+        "category": "軍艦・巻き物"
+      },
+      {
+        "name": "チャーシュー豚骨ラーメン",
+        "price": "TWD 135",
+        "category": "麺類"
+      },
+      {
+        "name": "豆皮うどん",
+        "price": "TWD 110",
+        "category": "麺類"
+      },
+      {
+        "name": "唐揚げ",
+        "price": "TWD 80",
+        "category": "副菜"
+      },
+      {
+        "name": "千層ケーキ",
+        "price": "TWD 60",
+        "category": "デザート"
+      }
+    ],
+    "price_range": "TWD 400〜800/人"
   },
   {
     "slug": "kura-sushi-taipei-guanqian",
@@ -678,7 +904,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本の大手回転寿司チェーン「くら寿司」の台湾店。独自のビッくらポン（一定皿数ごとに抽選）や皿自動回収システムが特徴。台北・新北・桃園等に展開し、1皿40元〜の手頃な価格で本格回転寿司を楽しめる。アプリで事前予約可能。",
+    "price_range": "TWD 400〜900/人"
   },
   {
     "slug": "kura-sushi-zhongshan",
@@ -704,7 +932,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本の大手回転寿司チェーン「くら寿司」の台湾店。独自のビッくらポン（一定皿数ごとに抽選）や皿自動回収システムが特徴。台北・新北・桃園等に展開し、1皿40元〜の手頃な価格で本格回転寿司を楽しめる。アプリで事前予約可能。",
+    "price_range": "TWD 400〜900/人"
   },
   {
     "slug": "kura-sushi-xinyi-att",
@@ -730,7 +960,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本の大手回転寿司チェーン「くら寿司」の台湾店。独自のビッくらポン（一定皿数ごとに抽選）や皿自動回収システムが特徴。台北・新北・桃園等に展開し、1皿40元〜の手頃な価格で本格回転寿司を楽しめる。アプリで事前予約可能。",
+    "price_range": "TWD 400〜900/人"
   },
   {
     "slug": "kura-sushi-breeze-songao",
@@ -756,7 +988,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本の大手回転寿司チェーン「くら寿司」の台湾店。独自のビッくらポン（一定皿数ごとに抽選）や皿自動回収システムが特徴。台北・新北・桃園等に展開し、1皿40元〜の手頃な価格で本格回転寿司を楽しめる。アプリで事前予約可能。",
+    "price_range": "TWD 400〜900/人"
   },
   {
     "slug": "kura-sushi-nangang",
@@ -782,7 +1016,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本の大手回転寿司チェーン「くら寿司」の台湾店。独自のビッくらポン（一定皿数ごとに抽選）や皿自動回収システムが特徴。台北・新北・桃園等に展開し、1皿40元〜の手頃な価格で本格回転寿司を楽しめる。アプリで事前予約可能。",
+    "price_range": "TWD 400〜900/人"
   },
   {
     "slug": "coco-ichibanya-nanjing-fuxing",
@@ -808,7 +1044,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本発のカレー専門チェーン「CoCo壱番屋」の台湾店。辛さレベル・トッピング・ライス量を細かく選べる日本式カレーライス専門店。台北市内に複数店舗展開。1皿からのトッピング追加、辛さ0〜10辛まで選択可能。",
+    "price_range": "TWD 200〜400/人"
   },
   {
     "slug": "coco-ichibanya-gongguan",
@@ -834,7 +1072,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本発のカレー専門チェーン「CoCo壱番屋」の台湾店。辛さレベル・トッピング・ライス量を細かく選べる日本式カレーライス専門店。台北市内に複数店舗展開。1皿からのトッピング追加、辛さ0〜10辛まで選択可能。",
+    "price_range": "TWD 200〜400/人"
   },
   {
     "slug": "coco-ichibanya-ximen",
@@ -860,7 +1100,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本発のカレー専門チェーン「CoCo壱番屋」の台湾店。辛さレベル・トッピング・ライス量を細かく選べる日本式カレーライス専門店。台北市内に複数店舗展開。1皿からのトッピング追加、辛さ0〜10辛まで選択可能。",
+    "price_range": "TWD 200〜400/人"
   },
   {
     "slug": "coco-ichibanya-songshan",
@@ -886,7 +1128,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本発のカレー専門チェーン「CoCo壱番屋」の台湾店。辛さレベル・トッピング・ライス量を細かく選べる日本式カレーライス専門店。台北市内に複数店舗展開。1皿からのトッピング追加、辛さ0〜10辛まで選択可能。",
+    "price_range": "TWD 200〜400/人"
   },
   {
     "slug": "yoshinoya-taipei-guanqian",
@@ -912,7 +1156,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "東京発の牛丼チェーン「吉野家」の台湾店。牛丼・豚丼・鶏丼・カレー丼などを手頃な価格で提供。台北市内をはじめ台湾各地に多数展開。朝食メニュー（05:00〜10:30）も提供。キャッシュレス決済対応。",
+    "price_range": "TWD 100〜200/人"
   },
   {
     "slug": "yoshinoya-taipei-jilin",
@@ -938,7 +1184,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "東京発の牛丼チェーン「吉野家」の台湾店。牛丼・豚丼・鶏丼・カレー丼などを手頃な価格で提供。台北市内をはじめ台湾各地に多数展開。朝食メニュー（05:00〜10:30）も提供。キャッシュレス決済対応。",
+    "price_range": "TWD 100〜200/人"
   },
   {
     "slug": "sukiya-taipei-jinshan",
@@ -964,7 +1212,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本発の牛丼チェーン「すき家」の台湾店。牛丼・カレー・定食など豊富なメニューを24時間手頃な価格で提供。台北・台中・高雄など台湾各地に展開。テイクアウト・デリバリーにも対応。",
+    "price_range": "TWD 100〜200/人"
   },
   {
     "slug": "sukiya-taipei-nanjing",
@@ -990,7 +1240,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本発の牛丼チェーン「すき家」の台湾店。牛丼・カレー・定食など豊富なメニューを24時間手頃な価格で提供。台北・台中・高雄など台湾各地に展開。テイクアウト・デリバリーにも対応。",
+    "price_range": "TWD 100〜200/人"
   },
   {
     "slug": "sukiya-taipei-dongmen",
@@ -1016,7 +1268,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本発の牛丼チェーン「すき家」の台湾店。牛丼・カレー・定食など豊富なメニューを24時間手頃な価格で提供。台北・台中・高雄など台湾各地に展開。テイクアウト・デリバリーにも対応。",
+    "price_range": "TWD 100〜200/人"
   },
   {
     "slug": "matsuya-taipei",
@@ -1694,7 +1948,51 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本生まれのバーガーチェーン「MOS BURGER（モスバーガー）」の台湾店。新鮮野菜にこだわった和風バーガーが特徴で、台湾全土に多数展開。牛肉・海老・照り焼き鶏など豊富なラインナップ。台湾限定の「珍珠堡」（もちもち米粉バンズ）が人気。",
+    "menu": [
+      {
+        "name": "元氣牛肉珍珠堡",
+        "price": "TWD 110",
+        "category": "バーガー"
+      },
+      {
+        "name": "摩斯炸蝦堡（海老バーガー）",
+        "price": "TWD 80",
+        "category": "バーガー"
+      },
+      {
+        "name": "摩斯漢堡（基本バーガー）",
+        "price": "TWD 70",
+        "category": "バーガー"
+      },
+      {
+        "name": "和風蔬活牛肉堡",
+        "price": "TWD 100",
+        "category": "バーガー"
+      },
+      {
+        "name": "摘鮮綠元氣摩力堡",
+        "price": "TWD 120",
+        "category": "バーガー"
+      },
+      {
+        "name": "摩斯熱狗堡",
+        "price": "TWD 55",
+        "category": "バーガー"
+      },
+      {
+        "name": "薑燒珍珠堡",
+        "price": "TWD 70",
+        "category": "バーガー"
+      },
+      {
+        "name": "燒肉珍珠堡（牛）",
+        "price": "TWD 75",
+        "category": "バーガー"
+      }
+    ],
+    "price_range": "TWD 150〜300/人"
   },
   {
     "slug": "mos-burger-xinyi",
@@ -1719,7 +2017,46 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本生まれのバーガーチェーン「MOS BURGER（モスバーガー）」の台湾店。新鮮野菜にこだわった和風バーガーが特徴で、台湾全土に多数展開。牛肉・海老・照り焼き鶏など豊富なラインナップ。台湾限定の「珍珠堡」（もちもち米粉バンズ）が人気。",
+    "menu": [
+      {
+        "name": "元氣牛肉珍珠堡",
+        "price": "TWD 110",
+        "category": "バーガー"
+      },
+      {
+        "name": "摩斯炸蝦堡（海老バーガー）",
+        "price": "TWD 80",
+        "category": "バーガー"
+      },
+      {
+        "name": "摩斯漢堡（基本バーガー）",
+        "price": "TWD 70",
+        "category": "バーガー"
+      },
+      {
+        "name": "和風蔬活牛肉堡",
+        "price": "TWD 100",
+        "category": "バーガー"
+      },
+      {
+        "name": "摘鮮綠元氣摩力堡",
+        "price": "TWD 120",
+        "category": "バーガー"
+      },
+      {
+        "name": "摩斯熱狗堡",
+        "price": "TWD 55",
+        "category": "バーガー"
+      },
+      {
+        "name": "薑燒珍珠堡",
+        "price": "TWD 70",
+        "category": "バーガー"
+      }
+    ],
+    "price_range": "TWD 150〜300/人"
   },
   {
     "slug": "katsuya-taipei",
@@ -1953,7 +2290,21 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "台北・信義区に位置する一蘭の台湾店。福岡発の天然とんこつラーメン専門店で、8項目を細かくカスタマイズできる味集中カウンタースタイルが特徴。週末・祝日は24時間営業。クレジットカード・QRコード決済対応。",
+    "menu": [
+      {
+        "name": "天然とんこつラーメン（クラシック）",
+        "price": "TWD 220〜",
+        "category": "ラーメン"
+      },
+      {
+        "name": "キッズラーメン",
+        "price": "TWD 160〜",
+        "category": "ラーメン"
+      }
+    ],
+    "price_range": "TWD 220〜/人"
   },
   {
     "slug": "nagi-xinyi",
@@ -2005,7 +2356,21 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "台北・信義区の松仁路97番地にある一蘭の台北本店。MRT香山駅1番出口から徒歩約5分、台北市政府駅3番出口から徒歩約10分。味集中カウンター54席で、濃度・脂・麺の硬さ等を細かくカスタマイズして注文できる。月〜木は深夜5時まで、金〜日・祝は24時間営業。22時以降は深夜料金あり。",
+    "menu": [
+      {
+        "name": "天然とんこつラーメン（クラシック）",
+        "price": "TWD 220〜",
+        "category": "ラーメン"
+      },
+      {
+        "name": "キッズラーメン",
+        "price": "TWD 160〜",
+        "category": "ラーメン"
+      }
+    ],
+    "price_range": "TWD 220〜/人"
   },
   {
     "slug": "sushiro-taipei-yongchun",
@@ -2031,7 +2396,71 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "大阪発の回転寿司チェーン「スシロー」の台湾店。1皿30元〜の手頃な価格で握りやラーメン・デザートまで幅広く楽しめる。台北・台中・高雄・新北など台湾全土に展開。専用アプリで予約・順番待ちが可能で、日本と同様の品質とシステムを提供している。",
+    "menu": [
+      {
+        "name": "マグロにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "サーモンにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "生サーモンにぎり",
+        "price": "TWD 60",
+        "category": "握り寿司"
+      },
+      {
+        "name": "黒マグロ中とろにぎり",
+        "price": "TWD 70",
+        "category": "握り寿司"
+      },
+      {
+        "name": "ホタテにぎり",
+        "price": "TWD 80",
+        "category": "握り寿司"
+      },
+      {
+        "name": "極上うなぎにぎり",
+        "price": "TWD 80",
+        "category": "握り寿司"
+      },
+      {
+        "name": "鮭卵軍艦",
+        "price": "TWD 80",
+        "category": "軍艦・巻き物"
+      },
+      {
+        "name": "納豆巻き",
+        "price": "TWD 30",
+        "category": "軍艦・巻き物"
+      },
+      {
+        "name": "チャーシュー豚骨ラーメン",
+        "price": "TWD 135",
+        "category": "麺類"
+      },
+      {
+        "name": "豆皮うどん",
+        "price": "TWD 110",
+        "category": "麺類"
+      },
+      {
+        "name": "唐揚げ",
+        "price": "TWD 80",
+        "category": "副菜"
+      },
+      {
+        "name": "千層ケーキ",
+        "price": "TWD 60",
+        "category": "デザート"
+      }
+    ],
+    "price_range": "TWD 400〜800/人"
   },
   {
     "slug": "sushiro-taipei-station",
@@ -2057,7 +2486,66 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "大阪発の回転寿司チェーン「スシロー」の台湾店。1皿30元〜の手頃な価格で握りやラーメン・デザートまで幅広く楽しめる。台北・台中・高雄・新北など台湾全土に展開。専用アプリで予約・順番待ちが可能で、日本と同様の品質とシステムを提供している。",
+    "menu": [
+      {
+        "name": "マグロにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "サーモンにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "生サーモンにぎり",
+        "price": "TWD 60",
+        "category": "握り寿司"
+      },
+      {
+        "name": "黒マグロ中とろにぎり",
+        "price": "TWD 70",
+        "category": "握り寿司"
+      },
+      {
+        "name": "ホタテにぎり",
+        "price": "TWD 80",
+        "category": "握り寿司"
+      },
+      {
+        "name": "極上うなぎにぎり",
+        "price": "TWD 80",
+        "category": "握り寿司"
+      },
+      {
+        "name": "鮭卵軍艦",
+        "price": "TWD 80",
+        "category": "軍艦・巻き物"
+      },
+      {
+        "name": "納豆巻き",
+        "price": "TWD 30",
+        "category": "軍艦・巻き物"
+      },
+      {
+        "name": "チャーシュー豚骨ラーメン",
+        "price": "TWD 135",
+        "category": "麺類"
+      },
+      {
+        "name": "唐揚げ",
+        "price": "TWD 80",
+        "category": "副菜"
+      },
+      {
+        "name": "千層ケーキ",
+        "price": "TWD 60",
+        "category": "デザート"
+      }
+    ],
+    "price_range": "TWD 400〜800/人"
   },
   {
     "slug": "yakiniku-like-daan-anhe",
@@ -2083,7 +2571,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本発のひとり焼肉専門店「焼肉ライク」の台湾店。スモークレス無煙ロースターを備えた1人用個別席で、焼肉を気軽に楽しめる。台北市内に中山・敦化・和平・復興・双城・松寿・成徳など複数店舗を展開。",
+    "price_range": "TWD 300〜600/人"
   },
   {
     "slug": "yakiniku-like-dunhua",
@@ -2109,7 +2599,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本発のひとり焼肉専門店「焼肉ライク」の台湾店。スモークレス無煙ロースターを備えた1人用個別席で、焼肉を気軽に楽しめる。台北市内に中山・敦化・和平・復興・双城・松寿・成徳など複数店舗を展開。",
+    "price_range": "TWD 300〜600/人"
   },
   {
     "slug": "yakiniku-like-wanhua",
@@ -2135,7 +2627,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本発のひとり焼肉専門店「焼肉ライク」の台湾店。スモークレス無煙ロースターを備えた1人用個別席で、焼肉を気軽に楽しめる。台北市内に中山・敦化・和平・復興・双城・松寿・成徳など複数店舗を展開。",
+    "price_range": "TWD 300〜600/人"
   },
   {
     "slug": "yakiniku-like-fuxing",
@@ -2161,7 +2655,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本発のひとり焼肉専門店「焼肉ライク」の台湾店。スモークレス無煙ロースターを備えた1人用個別席で、焼肉を気軽に楽しめる。台北市内に中山・敦化・和平・復興・双城・松寿・成徳など複数店舗を展開。",
+    "price_range": "TWD 300〜600/人"
   },
   {
     "slug": "yakiniku-like-shuangcheng",
@@ -2187,7 +2683,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本発のひとり焼肉専門店「焼肉ライク」の台湾店。スモークレス無煙ロースターを備えた1人用個別席で、焼肉を気軽に楽しめる。台北市内に中山・敦化・和平・復興・双城・松寿・成徳など複数店舗を展開。",
+    "price_range": "TWD 300〜600/人"
   },
   {
     "slug": "yakiniku-like-songshou",
@@ -2213,7 +2711,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本発のひとり焼肉専門店「焼肉ライク」の台湾店。スモークレス無煙ロースターを備えた1人用個別席で、焼肉を気軽に楽しめる。台北市内に中山・敦化・和平・復興・双城・松寿・成徳など複数店舗を展開。",
+    "price_range": "TWD 300〜600/人"
   },
   {
     "slug": "coco-ichibanya-hankou",
@@ -2239,7 +2739,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本発のカレー専門チェーン「CoCo壱番屋」の台湾店。辛さレベル・トッピング・ライス量を細かく選べる日本式カレーライス専門店。台北市内に複数店舗展開。1皿からのトッピング追加、辛さ0〜10辛まで選択可能。",
+    "price_range": "TWD 200〜400/人"
   },
   {
     "slug": "coco-ichibanya-nanjing-east",
@@ -2291,7 +2793,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本の大手回転寿司チェーン「くら寿司」の台湾店。独自のビッくらポン（一定皿数ごとに抽選）や皿自動回収システムが特徴。台北・新北・桃園等に展開し、1皿40元〜の手頃な価格で本格回転寿司を楽しめる。アプリで事前予約可能。",
+    "price_range": "TWD 400〜900/人"
   },
   {
     "slug": "genki-sushi-songshan",
@@ -2342,7 +2846,21 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "台中市に位置する一蘭の台中店。福岡発の天然とんこつラーメン専門店で、8項目カスタマイズの味集中カウンタースタイル。MRT台中市政府駅から徒歩約18分。週末・祝日は24時間営業対応。",
+    "menu": [
+      {
+        "name": "天然とんこつラーメン（クラシック）",
+        "price": "TWD 220〜",
+        "category": "ラーメン"
+      },
+      {
+        "name": "キッズラーメン",
+        "price": "TWD 160〜",
+        "category": "ラーメン"
+      }
+    ],
+    "price_range": "TWD 220〜/人"
   },
   {
     "slug": "menya-itto-zhongshan",
@@ -2394,7 +2912,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本発の牛丼チェーン「すき家」の台湾店。牛丼・カレー・定食など豊富なメニューを24時間手頃な価格で提供。台北・台中・高雄など台湾各地に展開。テイクアウト・デリバリーにも対応。",
+    "price_range": "TWD 100〜200/人"
   },
   {
     "slug": "yoshinoya-zhongshan",
@@ -2420,7 +2940,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "東京発の牛丼チェーン「吉野家」の台湾店。牛丼・豚丼・鶏丼・カレー丼などを手頃な価格で提供。台北市内をはじめ台湾各地に多数展開。朝食メニュー（05:00〜10:30）も提供。キャッシュレス決済対応。",
+    "price_range": "TWD 100〜200/人"
   },
   {
     "slug": "matsuya-zhongshan",
@@ -2525,7 +3047,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本発のひとり焼肉専門店「焼肉ライク」の台湾店。スモークレス無煙ロースターを備えた1人用個別席で、焼肉を気軽に楽しめる。台北市内に中山・敦化・和平・復興・双城・松寿・成徳など複数店舗を展開。",
+    "price_range": "TWD 300〜600/人"
   },
   {
     "slug": "mudan-tempura-daan",
@@ -2682,7 +3206,66 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "大阪発の回転寿司チェーン「スシロー」の台湾店。1皿30元〜の手頃な価格で握りやラーメン・デザートまで幅広く楽しめる。台北・台中・高雄・新北など台湾全土に展開。専用アプリで予約・順番待ちが可能で、日本と同様の品質とシステムを提供している。",
+    "menu": [
+      {
+        "name": "マグロにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "サーモンにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "生サーモンにぎり",
+        "price": "TWD 60",
+        "category": "握り寿司"
+      },
+      {
+        "name": "黒マグロ中とろにぎり",
+        "price": "TWD 70",
+        "category": "握り寿司"
+      },
+      {
+        "name": "ホタテにぎり",
+        "price": "TWD 80",
+        "category": "握り寿司"
+      },
+      {
+        "name": "極上うなぎにぎり",
+        "price": "TWD 80",
+        "category": "握り寿司"
+      },
+      {
+        "name": "鮭卵軍艦",
+        "price": "TWD 80",
+        "category": "軍艦・巻き物"
+      },
+      {
+        "name": "納豆巻き",
+        "price": "TWD 30",
+        "category": "軍艦・巻き物"
+      },
+      {
+        "name": "チャーシュー豚骨ラーメン",
+        "price": "TWD 135",
+        "category": "麺類"
+      },
+      {
+        "name": "唐揚げ",
+        "price": "TWD 80",
+        "category": "副菜"
+      },
+      {
+        "name": "千層ケーキ",
+        "price": "TWD 60",
+        "category": "デザート"
+      }
+    ],
+    "price_range": "TWD 400〜800/人"
   },
   {
     "slug": "sukiya-xinyi",
@@ -2708,7 +3291,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本発の牛丼チェーン「すき家」の台湾店。牛丼・カレー・定食など豊富なメニューを24時間手頃な価格で提供。台北・台中・高雄など台湾各地に展開。テイクアウト・デリバリーにも対応。",
+    "price_range": "TWD 100〜200/人"
   },
   {
     "slug": "yoshinoya-xinyi",
@@ -2733,7 +3318,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "東京発の牛丼チェーン「吉野家」の台湾店。牛丼・豚丼・鶏丼・カレー丼などを手頃な価格で提供。台北市内をはじめ台湾各地に多数展開。朝食メニュー（05:00〜10:30）も提供。キャッシュレス決済対応。",
+    "price_range": "TWD 100〜200/人"
   },
   {
     "slug": "pepper-lunch-daan",
@@ -3014,7 +3601,66 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "大阪発の回転寿司チェーン「スシロー」の台湾店。1皿30元〜の手頃な価格で握りやラーメン・デザートまで幅広く楽しめる。台北・台中・高雄・新北など台湾全土に展開。専用アプリで予約・順番待ちが可能で、日本と同様の品質とシステムを提供している。",
+    "menu": [
+      {
+        "name": "マグロにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "サーモンにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "生サーモンにぎり",
+        "price": "TWD 60",
+        "category": "握り寿司"
+      },
+      {
+        "name": "黒マグロ中とろにぎり",
+        "price": "TWD 70",
+        "category": "握り寿司"
+      },
+      {
+        "name": "ホタテにぎり",
+        "price": "TWD 80",
+        "category": "握り寿司"
+      },
+      {
+        "name": "極上うなぎにぎり",
+        "price": "TWD 80",
+        "category": "握り寿司"
+      },
+      {
+        "name": "鮭卵軍艦",
+        "price": "TWD 80",
+        "category": "軍艦・巻き物"
+      },
+      {
+        "name": "納豆巻き",
+        "price": "TWD 30",
+        "category": "軍艦・巻き物"
+      },
+      {
+        "name": "チャーシュー豚骨ラーメン",
+        "price": "TWD 135",
+        "category": "麺類"
+      },
+      {
+        "name": "唐揚げ",
+        "price": "TWD 80",
+        "category": "副菜"
+      },
+      {
+        "name": "千層ケーキ",
+        "price": "TWD 60",
+        "category": "デザート"
+      }
+    ],
+    "price_range": "TWD 400〜800/人"
   },
   {
     "slug": "sushiro-kaohsiung-dream-mall",
@@ -3040,7 +3686,66 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "大阪発の回転寿司チェーン「スシロー」の台湾店。1皿30元〜の手頃な価格で握りやラーメン・デザートまで幅広く楽しめる。台北・台中・高雄・新北など台湾全土に展開。専用アプリで予約・順番待ちが可能で、日本と同様の品質とシステムを提供している。",
+    "menu": [
+      {
+        "name": "マグロにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "サーモンにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "生サーモンにぎり",
+        "price": "TWD 60",
+        "category": "握り寿司"
+      },
+      {
+        "name": "黒マグロ中とろにぎり",
+        "price": "TWD 70",
+        "category": "握り寿司"
+      },
+      {
+        "name": "ホタテにぎり",
+        "price": "TWD 80",
+        "category": "握り寿司"
+      },
+      {
+        "name": "極上うなぎにぎり",
+        "price": "TWD 80",
+        "category": "握り寿司"
+      },
+      {
+        "name": "鮭卵軍艦",
+        "price": "TWD 80",
+        "category": "軍艦・巻き物"
+      },
+      {
+        "name": "納豆巻き",
+        "price": "TWD 30",
+        "category": "軍艦・巻き物"
+      },
+      {
+        "name": "チャーシュー豚骨ラーメン",
+        "price": "TWD 135",
+        "category": "麺類"
+      },
+      {
+        "name": "唐揚げ",
+        "price": "TWD 80",
+        "category": "副菜"
+      },
+      {
+        "name": "千層ケーキ",
+        "price": "TWD 60",
+        "category": "デザート"
+      }
+    ],
+    "price_range": "TWD 400〜800/人"
   },
   {
     "slug": "kura-sushi-taichung-zhongqing",
@@ -3066,7 +3771,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本の大手回転寿司チェーン「くら寿司」の台湾店。独自のビッくらポン（一定皿数ごとに抽選）や皿自動回収システムが特徴。台北・新北・桃園等に展開し、1皿40元〜の手頃な価格で本格回転寿司を楽しめる。アプリで事前予約可能。",
+    "price_range": "TWD 400〜900/人"
   },
   {
     "slug": "kura-sushi-kaohsiung-zhongshan",
@@ -3092,7 +3799,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本の大手回転寿司チェーン「くら寿司」の台湾店。独自のビッくらポン（一定皿数ごとに抽選）や皿自動回収システムが特徴。台北・新北・桃園等に展開し、1皿40元〜の手頃な価格で本格回転寿司を楽しめる。アプリで事前予約可能。",
+    "price_range": "TWD 400〜900/人"
   },
   {
     "slug": "ichiran-taichung-chaofu",
@@ -3118,7 +3827,21 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "台中市西屯区朝富路2号2階にある一蘭の台中朝富店。2023年11月開店、台中エリア初出店。MRT台中市政府駅から徒歩約18分。味集中カウンター41席。営業時間は10:00〜翌2:00。QRコード・カード決済対応。",
+    "menu": [
+      {
+        "name": "天然とんこつラーメン（クラシック）",
+        "price": "TWD 220〜",
+        "category": "ラーメン"
+      },
+      {
+        "name": "キッズラーメン",
+        "price": "TWD 160〜",
+        "category": "ラーメン"
+      }
+    ],
+    "price_range": "TWD 220〜/人"
   },
   {
     "slug": "sushiro-taichung-liming",
@@ -3143,7 +3866,66 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "大阪発の回転寿司チェーン「スシロー」の台湾店。1皿30元〜の手頃な価格で握りやラーメン・デザートまで幅広く楽しめる。台北・台中・高雄・新北など台湾全土に展開。専用アプリで予約・順番待ちが可能で、日本と同様の品質とシステムを提供している。",
+    "menu": [
+      {
+        "name": "マグロにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "サーモンにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "生サーモンにぎり",
+        "price": "TWD 60",
+        "category": "握り寿司"
+      },
+      {
+        "name": "黒マグロ中とろにぎり",
+        "price": "TWD 70",
+        "category": "握り寿司"
+      },
+      {
+        "name": "ホタテにぎり",
+        "price": "TWD 80",
+        "category": "握り寿司"
+      },
+      {
+        "name": "極上うなぎにぎり",
+        "price": "TWD 80",
+        "category": "握り寿司"
+      },
+      {
+        "name": "鮭卵軍艦",
+        "price": "TWD 80",
+        "category": "軍艦・巻き物"
+      },
+      {
+        "name": "納豆巻き",
+        "price": "TWD 30",
+        "category": "軍艦・巻き物"
+      },
+      {
+        "name": "チャーシュー豚骨ラーメン",
+        "price": "TWD 135",
+        "category": "麺類"
+      },
+      {
+        "name": "唐揚げ",
+        "price": "TWD 80",
+        "category": "副菜"
+      },
+      {
+        "name": "千層ケーキ",
+        "price": "TWD 60",
+        "category": "デザート"
+      }
+    ],
+    "price_range": "TWD 400〜800/人"
   },
   {
     "slug": "sushiro-kaohsiung-esky",
@@ -3169,7 +3951,66 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "大阪発の回転寿司チェーン「スシロー」の台湾店。1皿30元〜の手頃な価格で握りやラーメン・デザートまで幅広く楽しめる。台北・台中・高雄・新北など台湾全土に展開。専用アプリで予約・順番待ちが可能で、日本と同様の品質とシステムを提供している。",
+    "menu": [
+      {
+        "name": "マグロにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "サーモンにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "生サーモンにぎり",
+        "price": "TWD 60",
+        "category": "握り寿司"
+      },
+      {
+        "name": "黒マグロ中とろにぎり",
+        "price": "TWD 70",
+        "category": "握り寿司"
+      },
+      {
+        "name": "ホタテにぎり",
+        "price": "TWD 80",
+        "category": "握り寿司"
+      },
+      {
+        "name": "極上うなぎにぎり",
+        "price": "TWD 80",
+        "category": "握り寿司"
+      },
+      {
+        "name": "鮭卵軍艦",
+        "price": "TWD 80",
+        "category": "軍艦・巻き物"
+      },
+      {
+        "name": "納豆巻き",
+        "price": "TWD 30",
+        "category": "軍艦・巻き物"
+      },
+      {
+        "name": "チャーシュー豚骨ラーメン",
+        "price": "TWD 135",
+        "category": "麺類"
+      },
+      {
+        "name": "唐揚げ",
+        "price": "TWD 80",
+        "category": "副菜"
+      },
+      {
+        "name": "千層ケーキ",
+        "price": "TWD 60",
+        "category": "デザート"
+      }
+    ],
+    "price_range": "TWD 400〜800/人"
   },
   {
     "slug": "gyukatsu-motomura-taichung",
@@ -3273,7 +4114,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本発の牛丼チェーン「すき家」の台湾店。牛丼・カレー・定食など豊富なメニューを24時間手頃な価格で提供。台北・台中・高雄など台湾各地に展開。テイクアウト・デリバリーにも対応。",
+    "price_range": "TWD 100〜200/人"
   },
   {
     "slug": "yoshinoya-taichung",
@@ -3298,7 +4141,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "東京発の牛丼チェーン「吉野家」の台湾店。牛丼・豚丼・鶏丼・カレー丼などを手頃な価格で提供。台北市内をはじめ台湾各地に多数展開。朝食メニュー（05:00〜10:30）も提供。キャッシュレス決済対応。",
+    "price_range": "TWD 100〜200/人"
   },
   {
     "slug": "yoshinoya-kaohsiung",
@@ -3323,7 +4168,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "東京発の牛丼チェーン「吉野家」の台湾店。牛丼・豚丼・鶏丼・カレー丼などを手頃な価格で提供。台北市内をはじめ台湾各地に多数展開。朝食メニュー（05:00〜10:30）も提供。キャッシュレス決済対応。",
+    "price_range": "TWD 100〜200/人"
   },
   {
     "slug": "sushi-amamoto-xinyi",
@@ -4273,7 +5120,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "JR東日本大飯店台北（ホテルメトロポリタン台北）内の日本料理レストラン「早瀬（HAYASE）」。東北地方とA5仙台牛の食材を中心にした懐石料理と鉄板焼きを提供。台北市中山区南京東路3段133号に位置し、MRT南京復興駅から徒歩圏内。仙台城をイメージした落ち着いた空間で、ランチ・ディナーとも完全予約制。",
+    "menu": [
+      {
+        "name": "仙台牛A5鉄板焼きランチコース",
+        "price": "TWD 2,480〜",
+        "category": "鉄板焼きランチ"
+      },
+      {
+        "name": "仙台牛A5鉄板焼きディナーコース",
+        "price": "TWD 3,800〜",
+        "category": "鉄板焼きディナー"
+      },
+      {
+        "name": "懐石料理コース",
+        "price": "TWD 3,000〜4,300",
+        "category": "懐石コース"
+      }
+    ],
+    "price_range": "TWD 2,480〜4,300〜/人（コースにより異なる）"
   },
   {
     "slug": "tomo-omakase-taipei",
@@ -4533,7 +5399,21 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "台中に位置する一蘭の台湾店。福岡発の天然とんこつラーメン専門店で、味集中カウンタースタイル。濃度・脂・麺の硬さ等を細かくカスタマイズして注文できる。クレジットカード・QRコード決済対応。",
+    "menu": [
+      {
+        "name": "天然とんこつラーメン（クラシック）",
+        "price": "TWD 220〜",
+        "category": "ラーメン"
+      },
+      {
+        "name": "キッズラーメン",
+        "price": "TWD 160〜",
+        "category": "ラーメン"
+      }
+    ],
+    "price_range": "TWD 220〜/人"
   },
   {
     "slug": "sushiro-taipei-nanjing",
@@ -4559,7 +5439,71 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "大阪発の回転寿司チェーン「スシロー」の台湾店。1皿30元〜の手頃な価格で握りやラーメン・デザートまで幅広く楽しめる。台北・台中・高雄・新北など台湾全土に展開。専用アプリで予約・順番待ちが可能で、日本と同様の品質とシステムを提供している。",
+    "menu": [
+      {
+        "name": "マグロにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "サーモンにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "生サーモンにぎり",
+        "price": "TWD 60",
+        "category": "握り寿司"
+      },
+      {
+        "name": "黒マグロ中とろにぎり",
+        "price": "TWD 70",
+        "category": "握り寿司"
+      },
+      {
+        "name": "ホタテにぎり",
+        "price": "TWD 80",
+        "category": "握り寿司"
+      },
+      {
+        "name": "極上うなぎにぎり",
+        "price": "TWD 80",
+        "category": "握り寿司"
+      },
+      {
+        "name": "鮭卵軍艦",
+        "price": "TWD 80",
+        "category": "軍艦・巻き物"
+      },
+      {
+        "name": "納豆巻き",
+        "price": "TWD 30",
+        "category": "軍艦・巻き物"
+      },
+      {
+        "name": "チャーシュー豚骨ラーメン",
+        "price": "TWD 135",
+        "category": "麺類"
+      },
+      {
+        "name": "豆皮うどん",
+        "price": "TWD 110",
+        "category": "麺類"
+      },
+      {
+        "name": "唐揚げ",
+        "price": "TWD 80",
+        "category": "副菜"
+      },
+      {
+        "name": "千層ケーキ",
+        "price": "TWD 60",
+        "category": "デザート"
+      }
+    ],
+    "price_range": "TWD 400〜800/人"
   },
   {
     "slug": "sushiro-banqiao",
@@ -4585,7 +5529,71 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "大阪発の回転寿司チェーン「スシロー」の台湾店。1皿30元〜の手頃な価格で握りやラーメン・デザートまで幅広く楽しめる。台北・台中・高雄・新北など台湾全土に展開。専用アプリで予約・順番待ちが可能で、日本と同様の品質とシステムを提供している。",
+    "menu": [
+      {
+        "name": "マグロにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "サーモンにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "生サーモンにぎり",
+        "price": "TWD 60",
+        "category": "握り寿司"
+      },
+      {
+        "name": "黒マグロ中とろにぎり",
+        "price": "TWD 70",
+        "category": "握り寿司"
+      },
+      {
+        "name": "ホタテにぎり",
+        "price": "TWD 80",
+        "category": "握り寿司"
+      },
+      {
+        "name": "極上うなぎにぎり",
+        "price": "TWD 80",
+        "category": "握り寿司"
+      },
+      {
+        "name": "鮭卵軍艦",
+        "price": "TWD 80",
+        "category": "軍艦・巻き物"
+      },
+      {
+        "name": "納豆巻き",
+        "price": "TWD 30",
+        "category": "軍艦・巻き物"
+      },
+      {
+        "name": "チャーシュー豚骨ラーメン",
+        "price": "TWD 135",
+        "category": "麺類"
+      },
+      {
+        "name": "豆皮うどん",
+        "price": "TWD 110",
+        "category": "麺類"
+      },
+      {
+        "name": "唐揚げ",
+        "price": "TWD 80",
+        "category": "副菜"
+      },
+      {
+        "name": "千層ケーキ",
+        "price": "TWD 60",
+        "category": "デザート"
+      }
+    ],
+    "price_range": "TWD 400〜800/人"
   },
   {
     "slug": "kura-sushi-zhonghe",
@@ -4611,7 +5619,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本の大手回転寿司チェーン「くら寿司」の台湾店。独自のビッくらポン（一定皿数ごとに抽選）や皿自動回収システムが特徴。台北・新北・桃園等に展開し、1皿40元〜の手頃な価格で本格回転寿司を楽しめる。アプリで事前予約可能。",
+    "price_range": "TWD 400〜900/人"
   },
   {
     "slug": "coco-ichibanya-xinyi",
@@ -5131,7 +6141,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本の大手回転寿司チェーン「くら寿司」の台湾店。独自のビッくらポン（一定皿数ごとに抽選）や皿自動回収システムが特徴。台北・新北・桃園等に展開し、1皿40元〜の手頃な価格で本格回転寿司を楽しめる。アプリで事前予約可能。",
+    "price_range": "TWD 400〜900/人"
   },
   {
     "slug": "da-wan-yakiniku-daan",
@@ -5444,7 +6456,50 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "ニューヨーク発の鶏白湯（パイタン）ラーメン専門店「Totto Ramen」の中山店。台北・中山北路一段105巷7号に位置し、MRT中山駅から徒歩圏内。濃厚でクリーミーな鶏ベースのスープが特徴。火〜土は深夜4時まで営業とナイトライフ需要にも対応。ビーガン対応ラーメンも提供。",
+    "menu": [
+      {
+        "name": "鶏パイタンラーメン",
+        "price": "未掲載",
+        "category": "ラーメン"
+      },
+      {
+        "name": "辛味ラーメン",
+        "price": "未掲載",
+        "category": "ラーメン"
+      },
+      {
+        "name": "ミソラーメン",
+        "price": "未掲載",
+        "category": "ラーメン"
+      },
+      {
+        "name": "エビラーメン",
+        "price": "未掲載",
+        "category": "ラーメン"
+      },
+      {
+        "name": "野菜ラーメン（ビーガン対応可）",
+        "price": "未掲載",
+        "category": "ラーメン"
+      },
+      {
+        "name": "餃子",
+        "price": "未掲載",
+        "category": "サイドメニュー"
+      },
+      {
+        "name": "たこ焼き",
+        "price": "未掲載",
+        "category": "サイドメニュー"
+      },
+      {
+        "name": "唐揚げ",
+        "price": "未掲載",
+        "category": "サイドメニュー"
+      }
+    ]
   },
   {
     "slug": "totto-ramen-daan",
@@ -5470,7 +6525,50 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "ニューヨーク発の鶏白湯ラーメン専門店「Totto Ramen」の大安店。濃厚でクリーミーな鶏ベーススープが特徴。台北・大安区に位置。餃子・たこ焼き・唐揚げなどのサイドメニューも充実。ビーガン対応ラーメンも提供。",
+    "menu": [
+      {
+        "name": "鶏パイタンラーメン",
+        "price": "未掲載",
+        "category": "ラーメン"
+      },
+      {
+        "name": "辛味ラーメン",
+        "price": "未掲載",
+        "category": "ラーメン"
+      },
+      {
+        "name": "ミソラーメン",
+        "price": "未掲載",
+        "category": "ラーメン"
+      },
+      {
+        "name": "エビラーメン",
+        "price": "未掲載",
+        "category": "ラーメン"
+      },
+      {
+        "name": "野菜ラーメン（ビーガン対応可）",
+        "price": "未掲載",
+        "category": "ラーメン"
+      },
+      {
+        "name": "餃子",
+        "price": "未掲載",
+        "category": "サイドメニュー"
+      },
+      {
+        "name": "たこ焼き",
+        "price": "未掲載",
+        "category": "サイドメニュー"
+      },
+      {
+        "name": "唐揚げ",
+        "price": "未掲載",
+        "category": "サイドメニュー"
+      }
+    ]
   },
   {
     "slug": "totto-ramen-ximen",
@@ -5496,7 +6594,50 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "ニューヨーク発の鶏白湯ラーメン専門店「Totto Ramen」の西門店。台北・万華区中華路一段108号に位置し、MRT西門駅から徒歩圏内。金・土は深夜4時まで営業。濃厚な鶏白湯スープに加えビーガン対応ラーメンも提供。",
+    "menu": [
+      {
+        "name": "鶏パイタンラーメン",
+        "price": "未掲載",
+        "category": "ラーメン"
+      },
+      {
+        "name": "辛味ラーメン",
+        "price": "未掲載",
+        "category": "ラーメン"
+      },
+      {
+        "name": "ミソラーメン",
+        "price": "未掲載",
+        "category": "ラーメン"
+      },
+      {
+        "name": "エビラーメン",
+        "price": "未掲載",
+        "category": "ラーメン"
+      },
+      {
+        "name": "野菜ラーメン（ビーガン対応可）",
+        "price": "未掲載",
+        "category": "ラーメン"
+      },
+      {
+        "name": "餃子",
+        "price": "未掲載",
+        "category": "サイドメニュー"
+      },
+      {
+        "name": "たこ焼き",
+        "price": "未掲載",
+        "category": "サイドメニュー"
+      },
+      {
+        "name": "唐揚げ",
+        "price": "未掲載",
+        "category": "サイドメニュー"
+      }
+    ]
   },
   {
     "slug": "menya-chikumo-zhongshan",
@@ -6015,7 +7156,41 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "東京の高級鉄板焼き「うかい亭」の初の海外店舗として高雄にオープン。鉄板焼き・日本料理・グリルダイニングの3業態を展開し、うかいシェフの洗練された技と台湾の地元食材を組み合わせた料理を提供。ランチ12:00〜、ディナー18:00〜。全料金には消費税5%が含まれ、サービス料10%が別途加算。",
+    "menu": [
+      {
+        "name": "鉄板焼きランチコース",
+        "price": "TWD 3,300〜",
+        "category": "鉄板焼きランチ"
+      },
+      {
+        "name": "鉄板焼きディナーコース",
+        "price": "TWD 4,600〜",
+        "category": "鉄板焼きディナー"
+      },
+      {
+        "name": "日本料理ランチコース",
+        "price": "TWD 1,700〜3,200",
+        "category": "日本料理ランチ"
+      },
+      {
+        "name": "日本料理ディナーコース",
+        "price": "TWD 3,800〜4,800",
+        "category": "日本料理ディナー"
+      },
+      {
+        "name": "グリルダイニングランチコース",
+        "price": "TWD 1,500〜",
+        "category": "グリルランチ"
+      },
+      {
+        "name": "グリルダイニングディナーコース",
+        "price": "TWD 2,000〜",
+        "category": "グリルディナー"
+      }
+    ],
+    "price_range": "TWD 1,500〜4,600〜/人（コースにより異なる）"
   },
   {
     "slug": "fu-yu-wu-udon-daan",
@@ -6248,7 +7423,71 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "大阪発の回転寿司チェーン「スシロー」の台湾店。1皿30元〜の手頃な価格で握りやラーメン・デザートまで幅広く楽しめる。台北・台中・高雄・新北など台湾全土に展開。専用アプリで予約・順番待ちが可能で、日本と同様の品質とシステムを提供している。",
+    "menu": [
+      {
+        "name": "マグロにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "サーモンにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "生サーモンにぎり",
+        "price": "TWD 60",
+        "category": "握り寿司"
+      },
+      {
+        "name": "黒マグロ中とろにぎり",
+        "price": "TWD 70",
+        "category": "握り寿司"
+      },
+      {
+        "name": "ホタテにぎり",
+        "price": "TWD 80",
+        "category": "握り寿司"
+      },
+      {
+        "name": "極上うなぎにぎり",
+        "price": "TWD 80",
+        "category": "握り寿司"
+      },
+      {
+        "name": "鮭卵軍艦",
+        "price": "TWD 80",
+        "category": "軍艦・巻き物"
+      },
+      {
+        "name": "納豆巻き",
+        "price": "TWD 30",
+        "category": "軍艦・巻き物"
+      },
+      {
+        "name": "チャーシュー豚骨ラーメン",
+        "price": "TWD 135",
+        "category": "麺類"
+      },
+      {
+        "name": "豆皮うどん",
+        "price": "TWD 110",
+        "category": "麺類"
+      },
+      {
+        "name": "唐揚げ",
+        "price": "TWD 80",
+        "category": "副菜"
+      },
+      {
+        "name": "千層ケーキ",
+        "price": "TWD 60",
+        "category": "デザート"
+      }
+    ],
+    "price_range": "TWD 400〜800/人"
   },
   {
     "slug": "sushiro-tainan",
@@ -6273,7 +7512,66 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "大阪発の回転寿司チェーン「スシロー」の台湾店。1皿30元〜の手頃な価格で握りやラーメン・デザートまで幅広く楽しめる。台北・台中・高雄・新北など台湾全土に展開。専用アプリで予約・順番待ちが可能で、日本と同様の品質とシステムを提供している。",
+    "menu": [
+      {
+        "name": "マグロにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "サーモンにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "生サーモンにぎり",
+        "price": "TWD 60",
+        "category": "握り寿司"
+      },
+      {
+        "name": "黒マグロ中とろにぎり",
+        "price": "TWD 70",
+        "category": "握り寿司"
+      },
+      {
+        "name": "ホタテにぎり",
+        "price": "TWD 80",
+        "category": "握り寿司"
+      },
+      {
+        "name": "極上うなぎにぎり",
+        "price": "TWD 80",
+        "category": "握り寿司"
+      },
+      {
+        "name": "鮭卵軍艦",
+        "price": "TWD 80",
+        "category": "軍艦・巻き物"
+      },
+      {
+        "name": "納豆巻き",
+        "price": "TWD 30",
+        "category": "軍艦・巻き物"
+      },
+      {
+        "name": "チャーシュー豚骨ラーメン",
+        "price": "TWD 135",
+        "category": "麺類"
+      },
+      {
+        "name": "唐揚げ",
+        "price": "TWD 80",
+        "category": "副菜"
+      },
+      {
+        "name": "千層ケーキ",
+        "price": "TWD 60",
+        "category": "デザート"
+      }
+    ],
+    "price_range": "TWD 400〜800/人"
   },
   {
     "slug": "kura-sushi-taichung-beitun",
@@ -6298,7 +7596,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本の大手回転寿司チェーン「くら寿司」の台湾店。独自のビッくらポン（一定皿数ごとに抽選）や皿自動回収システムが特徴。台北・新北・桃園等に展開し、1皿40元〜の手頃な価格で本格回転寿司を楽しめる。アプリで事前予約可能。",
+    "price_range": "TWD 400〜900/人"
   },
   {
     "slug": "kura-sushi-kaohsiung-zuoying",
@@ -6324,7 +7624,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本の大手回転寿司チェーン「くら寿司」の台湾店。独自のビッくらポン（一定皿数ごとに抽選）や皿自動回収システムが特徴。台北・新北・桃園等に展開し、1皿40元〜の手頃な価格で本格回転寿司を楽しめる。アプリで事前予約可能。",
+    "price_range": "TWD 400〜900/人"
   },
   {
     "slug": "kura-sushi-tainan",
@@ -6349,7 +7651,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本の大手回転寿司チェーン「くら寿司」の台湾店。独自のビッくらポン（一定皿数ごとに抽選）や皿自動回収システムが特徴。台北・新北・桃園等に展開し、1皿40元〜の手頃な価格で本格回転寿司を楽しめる。アプリで事前予約可能。",
+    "price_range": "TWD 400〜900/人"
   },
   {
     "slug": "ichiran-kaohsiung",
@@ -6376,7 +7680,21 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "高雄に位置する一蘭の台湾店。福岡発の天然とんこつラーメン専門店で、味集中カウンタースタイル。濃度・脂・麺の硬さ等を細かくカスタマイズして注文できる。週末・祝日は24時間営業対応。",
+    "menu": [
+      {
+        "name": "天然とんこつラーメン（クラシック）",
+        "price": "TWD 220〜",
+        "category": "ラーメン"
+      },
+      {
+        "name": "キッズラーメン",
+        "price": "TWD 160〜",
+        "category": "ラーメン"
+      }
+    ],
+    "price_range": "TWD 220〜/人"
   },
   {
     "slug": "yoshinoya-tainan",
@@ -6556,7 +7874,46 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本生まれのバーガーチェーン「MOS BURGER（モスバーガー）」の台湾店。新鮮野菜にこだわった和風バーガーが特徴で、台湾全土に多数展開。牛肉・海老・照り焼き鶏など豊富なラインナップ。台湾限定の「珍珠堡」（もちもち米粉バンズ）が人気。",
+    "menu": [
+      {
+        "name": "元氣牛肉珍珠堡",
+        "price": "TWD 110",
+        "category": "バーガー"
+      },
+      {
+        "name": "摩斯炸蝦堡（海老バーガー）",
+        "price": "TWD 80",
+        "category": "バーガー"
+      },
+      {
+        "name": "摩斯漢堡（基本バーガー）",
+        "price": "TWD 70",
+        "category": "バーガー"
+      },
+      {
+        "name": "和風蔬活牛肉堡",
+        "price": "TWD 100",
+        "category": "バーガー"
+      },
+      {
+        "name": "摘鮮綠元氣摩力堡",
+        "price": "TWD 120",
+        "category": "バーガー"
+      },
+      {
+        "name": "摩斯熱狗堡",
+        "price": "TWD 55",
+        "category": "バーガー"
+      },
+      {
+        "name": "薑燒珍珠堡",
+        "price": "TWD 70",
+        "category": "バーガー"
+      }
+    ],
+    "price_range": "TWD 150〜300/人"
   },
   {
     "slug": "mos-burger-kaohsiung",
@@ -6582,7 +7939,46 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本生まれのバーガーチェーン「MOS BURGER（モスバーガー）」の台湾店。新鮮野菜にこだわった和風バーガーが特徴で、台湾全土に多数展開。牛肉・海老・照り焼き鶏など豊富なラインナップ。台湾限定の「珍珠堡」（もちもち米粉バンズ）が人気。",
+    "menu": [
+      {
+        "name": "元氣牛肉珍珠堡",
+        "price": "TWD 110",
+        "category": "バーガー"
+      },
+      {
+        "name": "摩斯炸蝦堡（海老バーガー）",
+        "price": "TWD 80",
+        "category": "バーガー"
+      },
+      {
+        "name": "摩斯漢堡（基本バーガー）",
+        "price": "TWD 70",
+        "category": "バーガー"
+      },
+      {
+        "name": "和風蔬活牛肉堡",
+        "price": "TWD 100",
+        "category": "バーガー"
+      },
+      {
+        "name": "摘鮮綠元氣摩力堡",
+        "price": "TWD 120",
+        "category": "バーガー"
+      },
+      {
+        "name": "摩斯熱狗堡",
+        "price": "TWD 55",
+        "category": "バーガー"
+      },
+      {
+        "name": "薑燒珍珠堡",
+        "price": "TWD 70",
+        "category": "バーガー"
+      }
+    ],
+    "price_range": "TWD 150〜300/人"
   },
   {
     "slug": "pepper-lunch-taichung",
@@ -7203,7 +8599,66 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "大阪発の回転寿司チェーン「スシロー」の台湾店。1皿30元〜の手頃な価格で握りやラーメン・デザートまで幅広く楽しめる。台北・台中・高雄・新北など台湾全土に展開。専用アプリで予約・順番待ちが可能で、日本と同様の品質とシステムを提供している。",
+    "menu": [
+      {
+        "name": "マグロにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "サーモンにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "生サーモンにぎり",
+        "price": "TWD 60",
+        "category": "握り寿司"
+      },
+      {
+        "name": "黒マグロ中とろにぎり",
+        "price": "TWD 70",
+        "category": "握り寿司"
+      },
+      {
+        "name": "ホタテにぎり",
+        "price": "TWD 80",
+        "category": "握り寿司"
+      },
+      {
+        "name": "極上うなぎにぎり",
+        "price": "TWD 80",
+        "category": "握り寿司"
+      },
+      {
+        "name": "鮭卵軍艦",
+        "price": "TWD 80",
+        "category": "軍艦・巻き物"
+      },
+      {
+        "name": "納豆巻き",
+        "price": "TWD 30",
+        "category": "軍艦・巻き物"
+      },
+      {
+        "name": "チャーシュー豚骨ラーメン",
+        "price": "TWD 135",
+        "category": "麺類"
+      },
+      {
+        "name": "唐揚げ",
+        "price": "TWD 80",
+        "category": "副菜"
+      },
+      {
+        "name": "千層ケーキ",
+        "price": "TWD 60",
+        "category": "デザート"
+      }
+    ],
+    "price_range": "TWD 400〜800/人"
   },
   {
     "slug": "ippudo-xinyi",
@@ -7230,7 +8685,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "九州博多発の本格豚骨ラーメン「一風堂」の台湾店。創業者・河原成美氏が打ち立てた白丸・赤丸などの看板ラーメンを提供。台湾では台北・台中・高雄エリアに10店舗以上を展開し、通常店舗のほかラーメン居酒屋業態も運営。",
+    "price_range": "TWD 200〜400/人"
   },
   {
     "slug": "ippudo-daan",
@@ -7257,7 +8714,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "九州博多発の本格豚骨ラーメン「一風堂」の台湾店。創業者・河原成美氏が打ち立てた白丸・赤丸などの看板ラーメンを提供。台湾では台北・台中・高雄エリアに10店舗以上を展開し、通常店舗のほかラーメン居酒屋業態も運営。",
+    "price_range": "TWD 200〜400/人"
   },
   {
     "slug": "santouka-zhongshan",
@@ -7338,7 +8797,21 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "林口に位置する一蘭の台湾店。福岡発の天然とんこつラーメン専門店で、味集中カウンタースタイル。濃度・脂・麺の硬さ等を細かくカスタマイズして注文できる。クレジットカード・QRコード決済対応。",
+    "menu": [
+      {
+        "name": "天然とんこつラーメン（クラシック）",
+        "price": "TWD 220〜",
+        "category": "ラーメン"
+      },
+      {
+        "name": "キッズラーメン",
+        "price": "TWD 160〜",
+        "category": "ラーメン"
+      }
+    ],
+    "price_range": "TWD 220〜/人"
   },
   {
     "slug": "sukiya-taichung-nantun",
@@ -7416,7 +8889,66 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "大阪発の回転寿司チェーン「スシロー」の台湾店。1皿30元〜の手頃な価格で握りやラーメン・デザートまで幅広く楽しめる。台北・台中・高雄・新北など台湾全土に展開。専用アプリで予約・順番待ちが可能で、日本と同様の品質とシステムを提供している。",
+    "menu": [
+      {
+        "name": "マグロにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "サーモンにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "生サーモンにぎり",
+        "price": "TWD 60",
+        "category": "握り寿司"
+      },
+      {
+        "name": "黒マグロ中とろにぎり",
+        "price": "TWD 70",
+        "category": "握り寿司"
+      },
+      {
+        "name": "ホタテにぎり",
+        "price": "TWD 80",
+        "category": "握り寿司"
+      },
+      {
+        "name": "極上うなぎにぎり",
+        "price": "TWD 80",
+        "category": "握り寿司"
+      },
+      {
+        "name": "鮭卵軍艦",
+        "price": "TWD 80",
+        "category": "軍艦・巻き物"
+      },
+      {
+        "name": "納豆巻き",
+        "price": "TWD 30",
+        "category": "軍艦・巻き物"
+      },
+      {
+        "name": "チャーシュー豚骨ラーメン",
+        "price": "TWD 135",
+        "category": "麺類"
+      },
+      {
+        "name": "唐揚げ",
+        "price": "TWD 80",
+        "category": "副菜"
+      },
+      {
+        "name": "千層ケーキ",
+        "price": "TWD 60",
+        "category": "デザート"
+      }
+    ],
+    "price_range": "TWD 400〜800/人"
   },
   {
     "slug": "kura-sushi-taichung-xitun",
@@ -7441,7 +8973,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本の大手回転寿司チェーン「くら寿司」の台湾店。独自のビッくらポン（一定皿数ごとに抽選）や皿自動回収システムが特徴。台北・新北・桃園等に展開し、1皿40元〜の手頃な価格で本格回転寿司を楽しめる。アプリで事前予約可能。",
+    "price_range": "TWD 400〜900/人"
   },
   {
     "slug": "kura-sushi-tainan-east",
@@ -7466,7 +9000,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本の大手回転寿司チェーン「くら寿司」の台湾店。独自のビッくらポン（一定皿数ごとに抽選）や皿自動回収システムが特徴。台北・新北・桃園等に展開し、1皿40元〜の手頃な価格で本格回転寿司を楽しめる。アプリで事前予約可能。",
+    "price_range": "TWD 400〜900/人"
   },
   {
     "slug": "tian-ji-fa-ye-kaohsiung",
@@ -7544,7 +9080,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "九州博多発の本格豚骨ラーメン「一風堂」の台湾店。創業者・河原成美氏が打ち立てた白丸・赤丸などの看板ラーメンを提供。台湾では台北・台中・高雄エリアに10店舗以上を展開し、通常店舗のほかラーメン居酒屋業態も運営。",
+    "price_range": "TWD 200〜400/人"
   },
   {
     "slug": "marugame-udon-banqiao",
@@ -7724,7 +9262,66 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "大阪発の回転寿司チェーン「スシロー」の台湾店。1皿30元〜の手頃な価格で握りやラーメン・デザートまで幅広く楽しめる。台北・台中・高雄・新北など台湾全土に展開。専用アプリで予約・順番待ちが可能で、日本と同様の品質とシステムを提供している。",
+    "menu": [
+      {
+        "name": "マグロにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "サーモンにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "生サーモンにぎり",
+        "price": "TWD 60",
+        "category": "握り寿司"
+      },
+      {
+        "name": "黒マグロ中とろにぎり",
+        "price": "TWD 70",
+        "category": "握り寿司"
+      },
+      {
+        "name": "ホタテにぎり",
+        "price": "TWD 80",
+        "category": "握り寿司"
+      },
+      {
+        "name": "極上うなぎにぎり",
+        "price": "TWD 80",
+        "category": "握り寿司"
+      },
+      {
+        "name": "鮭卵軍艦",
+        "price": "TWD 80",
+        "category": "軍艦・巻き物"
+      },
+      {
+        "name": "納豆巻き",
+        "price": "TWD 30",
+        "category": "軍艦・巻き物"
+      },
+      {
+        "name": "チャーシュー豚骨ラーメン",
+        "price": "TWD 135",
+        "category": "麺類"
+      },
+      {
+        "name": "唐揚げ",
+        "price": "TWD 80",
+        "category": "副菜"
+      },
+      {
+        "name": "千層ケーキ",
+        "price": "TWD 60",
+        "category": "デザート"
+      }
+    ],
+    "price_range": "TWD 400〜800/人"
   },
   {
     "slug": "sushiro-tainan-anping",
@@ -7749,7 +9346,66 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "大阪発の回転寿司チェーン「スシロー」の台湾店。1皿30元〜の手頃な価格で握りやラーメン・デザートまで幅広く楽しめる。台北・台中・高雄・新北など台湾全土に展開。専用アプリで予約・順番待ちが可能で、日本と同様の品質とシステムを提供している。",
+    "menu": [
+      {
+        "name": "マグロにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "サーモンにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "生サーモンにぎり",
+        "price": "TWD 60",
+        "category": "握り寿司"
+      },
+      {
+        "name": "黒マグロ中とろにぎり",
+        "price": "TWD 70",
+        "category": "握り寿司"
+      },
+      {
+        "name": "ホタテにぎり",
+        "price": "TWD 80",
+        "category": "握り寿司"
+      },
+      {
+        "name": "極上うなぎにぎり",
+        "price": "TWD 80",
+        "category": "握り寿司"
+      },
+      {
+        "name": "鮭卵軍艦",
+        "price": "TWD 80",
+        "category": "軍艦・巻き物"
+      },
+      {
+        "name": "納豆巻き",
+        "price": "TWD 30",
+        "category": "軍艦・巻き物"
+      },
+      {
+        "name": "チャーシュー豚骨ラーメン",
+        "price": "TWD 135",
+        "category": "麺類"
+      },
+      {
+        "name": "唐揚げ",
+        "price": "TWD 80",
+        "category": "副菜"
+      },
+      {
+        "name": "千層ケーキ",
+        "price": "TWD 60",
+        "category": "デザート"
+      }
+    ],
+    "price_range": "TWD 400〜800/人"
   },
   {
     "slug": "morimendou-zhongshan",
@@ -7827,7 +9483,21 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "台南に位置する一蘭の台湾店。福岡発の天然とんこつラーメン専門店で、味集中カウンタースタイル。濃度・脂・麺の硬さ等を細かくカスタマイズして注文できる。クレジットカード・QRコード決済対応。",
+    "menu": [
+      {
+        "name": "天然とんこつラーメン（クラシック）",
+        "price": "TWD 220〜",
+        "category": "ラーメン"
+      },
+      {
+        "name": "キッズラーメン",
+        "price": "TWD 160〜",
+        "category": "ラーメン"
+      }
+    ],
+    "price_range": "TWD 220〜/人"
   },
   {
     "slug": "marugame-udon-taichung-xitun",
@@ -7925,7 +9595,66 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "大阪発の回転寿司チェーン「スシロー」の台湾店。1皿30元〜の手頃な価格で握りやラーメン・デザートまで幅広く楽しめる。台北・台中・高雄・新北など台湾全土に展開。専用アプリで予約・順番待ちが可能で、日本と同様の品質とシステムを提供している。",
+    "menu": [
+      {
+        "name": "マグロにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "サーモンにぎり",
+        "price": "TWD 40",
+        "category": "握り寿司"
+      },
+      {
+        "name": "生サーモンにぎり",
+        "price": "TWD 60",
+        "category": "握り寿司"
+      },
+      {
+        "name": "黒マグロ中とろにぎり",
+        "price": "TWD 70",
+        "category": "握り寿司"
+      },
+      {
+        "name": "ホタテにぎり",
+        "price": "TWD 80",
+        "category": "握り寿司"
+      },
+      {
+        "name": "極上うなぎにぎり",
+        "price": "TWD 80",
+        "category": "握り寿司"
+      },
+      {
+        "name": "鮭卵軍艦",
+        "price": "TWD 80",
+        "category": "軍艦・巻き物"
+      },
+      {
+        "name": "納豆巻き",
+        "price": "TWD 30",
+        "category": "軍艦・巻き物"
+      },
+      {
+        "name": "チャーシュー豚骨ラーメン",
+        "price": "TWD 135",
+        "category": "麺類"
+      },
+      {
+        "name": "唐揚げ",
+        "price": "TWD 80",
+        "category": "副菜"
+      },
+      {
+        "name": "千層ケーキ",
+        "price": "TWD 60",
+        "category": "デザート"
+      }
+    ],
+    "price_range": "TWD 400〜800/人"
   },
   {
     "slug": "chu-yu-japanese-cuisine-xinyi",
@@ -7973,7 +9702,46 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「地表最強燒肉丼」をコンセプトにした台湾発の焼肉丼・鉄板定食レストラン。牛タン・和牛・牛小排など豊富な牛肉メニューを揃え、鉄板定食はTWD299〜と手頃な価格帯。台北101（信義区）内に位置し、日本人観光客・駐在員にも利用しやすいロケーション。",
+    "menu": [
+      {
+        "name": "羽下牛排鐵板定食",
+        "price": "TWD 359",
+        "category": "鉄板定食"
+      },
+      {
+        "name": "油封香蒜牛小排鐵板定食",
+        "price": "TWD 429",
+        "category": "鉄板定食"
+      },
+      {
+        "name": "太陽蛋松露和牛漢堡排鐵板定食",
+        "price": "TWD 339",
+        "category": "鉄板定食"
+      },
+      {
+        "name": "醬燒鯖魚鐵板定食",
+        "price": "TWD 319",
+        "category": "鉄板定食"
+      },
+      {
+        "name": "醬燒雞腿鐵板定食",
+        "price": "TWD 329",
+        "category": "鉄板定食"
+      },
+      {
+        "name": "塩蔥牛舌片鐵板定食",
+        "price": "TWD 309",
+        "category": "鉄板定食"
+      },
+      {
+        "name": "炙烤豬排鐵板定食",
+        "price": "TWD 299",
+        "category": "鉄板定食"
+      }
+    ],
+    "price_range": "TWD 299〜429/人"
   },
   {
     "slug": "sushi-nakazawa",
@@ -8191,7 +9959,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "台北・信義区の松仁路253巷に位置する創業25年の老舗居酒屋「竹村」。台北101を一望できる立地で、ドラマ撮影スポットとしても知られる。経験豊富な日本料理職人による精緻な日式料理を提供。日〜木は深夜0時まで、金・土は深夜1時まで営業。",
+    "menu": [
+      {
+        "name": "招牌蛋捲（卵焼き 明太子・鰹節トッピング）",
+        "price": "未掲載",
+        "category": "前菜"
+      },
+      {
+        "name": "烤飯糰（サーモン・ロブスター使用）",
+        "price": "未掲載",
+        "category": "前菜"
+      },
+      {
+        "name": "竹村燒（大阪焼き風）",
+        "price": "未掲載",
+        "category": "焼き物"
+      }
+    ]
   },
   {
     "slug": "富士豬排-とんかつ富士-熟成豬排-微風南山店",
@@ -8313,7 +10099,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本の大手回転寿司チェーン「くら寿司」の台湾店。独自のビッくらポン（一定皿数ごとに抽選）や皿自動回収システムが特徴。台北・新北・桃園等に展開し、1皿40元〜の手頃な価格で本格回転寿司を楽しめる。アプリで事前予約可能。",
+    "price_range": "TWD 400〜900/人"
   },
   {
     "slug": "yakiniku-like",
@@ -8411,7 +10199,21 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "台北・信義区の松仁路97番地にある一蘭の台北本店。MRT香山駅1番出口から徒歩約5分。味集中カウンター形式で濃度・脂・麺の硬さなど細かくカスタマイズ可能。月〜木は深夜5時まで、金〜日・祝は24時間営業。",
+    "menu": [
+      {
+        "name": "天然とんこつラーメン（クラシック）",
+        "price": "TWD 220〜",
+        "category": "ラーメン"
+      },
+      {
+        "name": "キッズラーメン",
+        "price": "TWD 160〜",
+        "category": "ラーメン"
+      }
+    ],
+    "price_range": "TWD 220〜/人"
   },
   {
     "slug": "大阪王將-信義威秀店",
@@ -8485,7 +10287,21 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "新光三越信義A11のB1階にある一蘭の台北別館。MRT香山駅1番出口から徒歩約5分、台北市政府駅3番出口から徒歩約10分。味集中カウンター52席。月〜木は深夜5時まで、金〜日・祝は24時間営業。キッズ用食器あり。",
+    "menu": [
+      {
+        "name": "天然とんこつラーメン（クラシック）",
+        "price": "TWD 220〜",
+        "category": "ラーメン"
+      },
+      {
+        "name": "キッズラーメン",
+        "price": "TWD 160〜",
+        "category": "ラーメン"
+      }
+    ],
+    "price_range": "TWD 220〜/人"
   },
   {
     "slug": "nomura-sushi",
@@ -9255,7 +11071,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "JR東日本大飯店台北（ホテルメトロポリタン台北）内の日本料理レストラン「早瀬（HAYASE）」。東北地方とA5仙台牛の食材を中心にした懐石料理と鉄板焼きを提供。台北市中山区南京東路3段133号に位置し、MRT南京復興駅から徒歩圏内。仙台城をイメージした落ち着いた空間で、ランチ・ディナーとも完全予約制。",
+    "menu": [
+      {
+        "name": "仙台牛A5鉄板焼きランチコース",
+        "price": "TWD 2,480〜",
+        "category": "鉄板焼きランチ"
+      },
+      {
+        "name": "仙台牛A5鉄板焼きディナーコース",
+        "price": "TWD 3,800〜",
+        "category": "鉄板焼きディナー"
+      },
+      {
+        "name": "懐石料理コース",
+        "price": "TWD 3,000〜4,300",
+        "category": "懐石コース"
+      }
+    ],
+    "price_range": "TWD 2,480〜4,300〜/人（コースにより異なる）"
   },
   {
     "slug": "101-4",
