@@ -250,6 +250,9 @@ export type Spot = {
   // 掲載優先度（有料掲載で上位表示）
   priority?: number; // 0=通常, 1=有料掲載
 
+  // レビュー待ちフラグ（trueのスポットはサイト非表示）
+  needs_review?: boolean;
+
   // 食べログ風拡張フィールド（すべてオプショナル）
   menu?: MenuItem[]; // メニュー
   price_range?: string; // 価格帯（例: "¥1,000〜¥3,000"）
@@ -297,7 +300,8 @@ export function getSpotsByCategory(
   if (!fs.existsSync(filePath)) return [];
 
   const raw = fs.readFileSync(filePath, "utf-8");
-  return JSON.parse(raw) as Spot[];
+  const spots = JSON.parse(raw) as Spot[];
+  return spots.filter((s) => !s.needs_review);
 }
 
 export function getSpot(

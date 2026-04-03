@@ -289,7 +289,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "souka-hair-sukhumvit",
@@ -453,14 +454,15 @@
     "name": "Boy Rikyu",
     "name_ja": "ボーイリキュウ",
     "area": "Bangkok",
-    "address": "Bangkok",
+    "address": "10-12 Sukhumvit Soi 32, Klongton, Klongtoey, Bangkok 10110",
     "phone": null,
-    "website": null,
-    "description": "日本式のカット技術とモダンなスタイルを融合した人気サロン。タイ人と日本人のスタイリストが在籍し、丁寧なカウンセリングと高品質な施術が特徴。",
+    "website": "https://boyrikyu.com/",
+    "description": "東京発の「Boy」サロンのバンコク店。Sukhumvit Soi 32（Rikyu店）とSiam Square（BOY店）の2店舗展開。日本式カット技術と最新スタイルを提供し、日本語での相談が可能。",
     "tags": [
       "日本語対応",
-      "予約可",
-      "カット"
+      "日本人スタイリスト",
+      "複数店舗",
+      "予約可"
     ],
     "hours": null,
     "status": "unverified",
@@ -479,14 +481,16 @@
     "name": "MOGA Hair Salon",
     "name_ja": "モガ ヘアサロン",
     "area": "Bangkok",
-    "address": "Bangkok",
+    "address": "2nd Floor, Siam Paragon, 991 Rama I Rd., Pathum Wan, Bangkok 10330",
     "phone": null,
-    "website": null,
-    "description": "1992年創業の老舗日系ヘアサロン。自社アカデミーでスタイリストを育成し、技術力の高さに定評がある。日本人スタイリストも在籍し、安心の施術。",
+    "website": "https://moga.co.th/en/",
+    "description": "1992年タイ初の日系ヘアサロンとして創業。Siam Paragon・EmQuartier・Central World・IconSiam等バンコク主要モールに展開。日本式技術を提供。",
     "tags": [
       "日本語対応",
+      "日本人スタイリスト",
       "老舗",
-      "アカデミー併設"
+      "アカデミー併設",
+      "複数店舗"
     ],
     "hours": null,
     "status": "unverified",
@@ -559,37 +563,10 @@
     "name": "ansR Japanese Hair Salon",
     "name_ja": "アンサー ヘアサロン",
     "area": "Bangkok",
-    "address": "Bangkok, Thailand",
+    "address": "BAKARA Residence A1, 20 Thong Lo, Khlong Tan Nuea, Watthana, Bangkok 10110",
     "phone": null,
-    "website": null,
-    "description": "日本のトレンドを取り入れたヘアスタイルを提供する日系サロン。アンチエイジングメニューとしてヘッドスパやナチュラルカラーに力を入れている。カットとカラーの技術はバンコクトップクラスとの評価。",
-    "tags": [
-      "日本語対応",
-      "日本人スタイリスト",
-      "ヘッドスパ",
-      "アンチエイジング"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "website",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "s-by-halela-bangkok",
-    "name": "S. by HaLe'L.A",
-    "name_ja": "S. by ハレ'L.A",
-    "area": "Bangkok",
-    "address": "Bangkok, Thailand",
-    "phone": null,
-    "website": null,
-    "description": "日本人オーナースタイリストが運営するヘアサロン。日本のトレンドスタイルとバンコクのライフスタイルに合わせたヘアデザインを提案。カット・カラー・パーマ・トリートメントに対応。",
+    "website": "https://beautybkk.net/ansr-japanese-hair-salon",
+    "description": "トンローにある日系ヘアサロン（ansR Japanese Hair Salon）。日本人向け美容院専門サイトにも掲載。カット・カラー・パーマに対応。",
     "tags": [
       "日本語対応",
       "日本人スタイリスト",
@@ -608,14 +585,39 @@
     "photo_name": null
   },
   {
+    "slug": "s-by-halela-bangkok",
+    "name": "S. by HaLe'L.A",
+    "name_ja": "S. by ハレ'L.A",
+    "area": "Bangkok",
+    "address": "PS Tower, 36/6 Asok Montri Rd., Khlong Toei Nuea, Wattana, Bangkok 10110",
+    "phone": "+66803954831",
+    "website": null,
+    "description": "アソーク・PS Towerにある日系ヘアサロン（S Japanese HAIR SALON）。カット・カラーに対応。",
+    "tags": [
+      "日本語対応",
+      "日本人スタイリスト"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "source": "website",
+    "last_verified": "2026-03-27",
+    "ai_reviewed": true,
+    "phone_local": null,
+    "email": null,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
     "slug": "al-etro-hair-salon-bangkok",
     "name": "AL etro",
     "name_ja": "アル・エトロ",
     "area": "Bangkok",
-    "address": "Bangkok, Thailand",
+    "address": "2nd Floor, 8 Soi Sangngern (Thonglor 25), Klongton-Nua, Watthana, Bangkok 10110",
     "phone": null,
-    "website": null,
-    "description": "2024年2月オープンの日系ヘアサロン。オーナーは日本の美容コンテストで優勝歴を持ち、業界誌にも取り上げられるなど日本の美容業界の第一線で活躍中。最新の日本のカット技術を提供。",
+    "website": "https://al-hair.com/al-etro-bkk/",
+    "description": "名古屋発の美容室「AL」のバンコク店。トンロー25にあり、日本のコンテスト受賞スタイリストが指導する技術力の高さが特徴。日本語対応可。",
     "tags": [
       "日本語対応",
       "日本人スタイリスト",
@@ -638,14 +640,14 @@
     "name": "Hair room Sora",
     "name_ja": "ヘアルーム ソラ",
     "area": "Bangkok",
-    "address": "Bangkok, Thailand",
+    "address": "299/7 Sukhumvit 21 (Asoke), Klongtoey Nue, Wattana, Bangkok 10110",
     "phone": null,
-    "website": null,
-    "description": "バンコクにある日系ヘアサロン。メンズカットに定評があり、男性の日本人利用者からの口コミ評価が高い。日本人スタイリストが在籍し、カウンセリング重視の施術を提供。",
+    "website": "https://www.sora-picasso.com/",
+    "description": "アソーク・Sukhumvit Living Town 1FにあるヘアサロンHair Room Sora。日本人スタイリストまたは日本式技術習得のスタイリストが在籍。公式サイト日本語対応。",
     "tags": [
       "日本語対応",
       "日本人スタイリスト",
-      "メンズ対応"
+      "予約可"
     ],
     "hours": null,
     "status": "unverified",
@@ -927,7 +929,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "ansr-japanese-beauty-salon",
@@ -1043,7 +1046,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "cocochi-hair-design",
@@ -1159,7 +1163,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "aska-hair-salon",
@@ -1652,7 +1657,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "coco-japanese-style-salon",
@@ -1768,7 +1774,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "tamtam-shortandbob-only-ekkamai",
@@ -1826,7 +1833,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "tatemono-barber-and-salon",
@@ -2377,7 +2385,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "rossa-hair-by-runway",
@@ -2725,7 +2734,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "daisy-pink-nail-and-eyelash-salon-from-japan",
@@ -2928,7 +2938,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "bibi-clinic",
@@ -3102,7 +3113,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "fab-relaton-bangkok",
@@ -3537,7 +3549,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "wereza-hair-cut",
@@ -3566,7 +3579,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "dreadlock-chiang-mai",
@@ -3624,7 +3638,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "khun-jo-beauty-salon-school",
@@ -3740,7 +3755,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "dasy",
@@ -3769,7 +3785,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "california-barber-and-coffee-shop",
@@ -4001,7 +4018,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "meejapan-ok",
@@ -4117,7 +4135,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "hairport-studio",
@@ -4146,7 +4165,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "newyork-aveda-phuket-hair-studio",
@@ -4233,7 +4253,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "marshmallow-nail-studio-phuket-town",
@@ -4349,7 +4370,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "hair-studio-9",
@@ -4400,35 +4422,6 @@
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJS8hN3e07UDARvkwLmIeczd4",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sunkissed-beauty-bar-by-gigz-head-spa-and-massage-karon-phuket",
-    "name": "Sunkissed Beauty Bar By Gigz Head SPA and Massage Karon Phuket",
-    "name_ja": "スンキッセド ビューティー Bar By Gigz ヘッド SPA and マッサージ カロン プーケット",
-    "area": "Phuket",
-    "address": "566 / 8 Room 3, Patak Rd, Tambon Karon, Amphoe Mueang Phuket, Chang Wat Phuket 83100, Thailand",
-    "lat": 7.8544,
-    "lng": 98.2924,
-    "phone": "+66996266736",
-    "website": "http://www.sunkissedspabygigz.com/",
-    "description": "プーケット・Karon・Patak Road沿いのビューティーサロン。日本語対応可能、ヘアカット・カラー・ヘッドスパ・マッサージに対応。",
-    "tags": [
-      "美容室",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJZZeVPgAlUDAR-GwSduhMz9o",
     "priority": 0,
     "ai_reviewed": true,
     "phone_local": null,
@@ -4581,7 +4574,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "evada",
@@ -4610,7 +4604,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "infinity-beauty-laguna",
@@ -4987,7 +4982,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "tob1-hair-station",
@@ -5016,7 +5012,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "nap-salon-by-sonia",
@@ -5103,7 +5100,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "absolute-beauty-salon-and-massage-bangla-boxing-stadium-hair-and-wellness-sanctu",
@@ -5248,7 +5246,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "signature-salon-and-spa-the-beauty-destination",
@@ -5393,7 +5392,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "kokoro-hair-studio",
@@ -5422,7 +5422,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "veranda-hair",
@@ -5509,7 +5510,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "asuka-sriracha",
@@ -5538,7 +5540,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "runway-hair-design",
@@ -5567,7 +5570,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "kami-salon",
@@ -5596,7 +5600,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "pim-hairstylist",
@@ -5625,7 +5630,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "biyo-beauty-lounge",
@@ -5712,7 +5718,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "may-beauty-salon",
@@ -5799,7 +5806,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "hair-decor",
@@ -5828,7 +5836,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "shear-chanoes",
@@ -5857,7 +5866,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "sabai-salon",
@@ -5886,7 +5896,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "pingping-barber",
@@ -5915,7 +5926,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "minimal-beauty-salon",
@@ -5944,7 +5956,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "mallikas-unisex-hair-studio-barber-and-salon",
@@ -5973,7 +5986,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "style-barber-shop",
@@ -6031,7 +6045,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "m-barber-shop-and-salon",
@@ -6060,7 +6075,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "haird-claft",
@@ -6089,7 +6105,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "emily-salon",
@@ -6118,7 +6135,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "the-clipperz-barbershop",
@@ -6147,7 +6165,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "pravana",
@@ -6176,7 +6195,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "hair-magic",
@@ -6205,7 +6225,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "yuri-nail",
@@ -6234,7 +6255,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "origene-clinic",
@@ -6292,7 +6314,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "kawaii-barber-andmassage",
@@ -6350,7 +6373,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "belle-beauty-sriracha-beauty-services",
@@ -6524,7 +6548,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "good-times-barber",
@@ -6582,7 +6607,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "tip-salon",
@@ -6611,7 +6637,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true
   },
   {
     "slug": "bansenphom-and-nail",
