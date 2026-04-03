@@ -37,7 +37,7 @@ type CategoryFilter = {
 const categoryColorMap: Record<string, { bg: string; ring: string }> = {
   restaurant: { bg: "#e85d04", ring: "#dc2626" },
   cafe: { bg: "#e85d04", ring: "#dc2626" },
-  "izakaya-bar": { bg: "#e85d04", ring: "#dc2626" },
+
   grocery: { bg: "#e85d04", ring: "#dc2626" },
   clinic: { bg: "#16a34a", ring: "#15803d" },
   dental: { bg: "#16a34a", ring: "#15803d" },
@@ -64,7 +64,7 @@ const categoryColorMap: Record<string, { bg: string; ring: string }> = {
 const categoryLabel: Record<string, string> = {
   restaurant: "食",
   cafe: "茶",
-  "izakaya-bar": "酒",
+
   grocery: "買",
   clinic: "医",
   dental: "歯",

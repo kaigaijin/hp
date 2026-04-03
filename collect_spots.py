@@ -231,7 +231,7 @@ CAT_NAME_JA = {
     'clinic': '内科・総合クリニック', 'beauty': '美容室・ヘアサロン',
     'nail-esthetic': 'ネイル・エステサロン', 'real-estate': '不動産会社',
     'education': '日本語学校・補習校・学習塾', 'grocery': '日本食材スーパー・食材店',
-    'cafe': 'カフェ・喫茶店', 'restaurant': 'レストラン', 'izakaya-bar': '居酒屋・バー',
+    'cafe': 'カフェ・喫茶店', 'restaurant': 'レストラン・居酒屋・バー',
     'travel': '旅行代理店', 'hotel': 'ホテル',
 }
 

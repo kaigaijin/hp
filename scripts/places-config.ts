@@ -124,16 +124,12 @@ export const CATEGORY_SEARCH_QUERIES: Record<
 > = {
   // === 飲食（日本食・日本式のみ） ===
   restaurant: {
-    types: ["japanese_restaurant"],
-    keywords: ["Japanese restaurant", "日本食レストラン", "日本料理"],
+    types: ["japanese_restaurant", "bar"],
+    keywords: ["Japanese restaurant", "日本食レストラン", "日本料理", "izakaya", "居酒屋", "Japanese bar", "焼鳥"],
   },
   cafe: {
     types: ["cafe"],
     keywords: ["Japanese cafe", "Japanese bakery", "日本式カフェ"],
-  },
-  "izakaya-bar": {
-    types: ["bar", "restaurant"],
-    keywords: ["izakaya", "居酒屋", "Japanese bar", "焼鳥"],
   },
   grocery: {
     types: ["grocery_store", "supermarket"],

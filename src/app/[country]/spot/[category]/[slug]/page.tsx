@@ -108,7 +108,7 @@ export default async function SpotDetailPage({
   const schemaTypeMap: Record<string, string> = {
     restaurant: "Restaurant",
     cafe: "CafeOrCoffeeShop",
-    "izakaya-bar": "BarOrPub",
+
     grocery: "GroceryStore",
     clinic: "MedicalClinic",
     dental: "Dentist",

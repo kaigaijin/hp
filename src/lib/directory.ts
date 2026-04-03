@@ -22,7 +22,7 @@ export const categoryGroups: CategoryGroup[] = [
     slug: "gourmet",
     name: "グルメ",
     icon: "UtensilsCrossed",
-    categories: ["restaurant", "cafe", "izakaya-bar", "grocery"],
+    categories: ["restaurant", "cafe", "grocery"],
   },
   {
     slug: "medical",
@@ -65,21 +65,15 @@ export const categoryGroups: CategoryGroup[] = [
 export const categories: CategoryDef[] = [
   {
     slug: "restaurant",
-    name: "日本食レストラン・グルメ",
+    name: "日本食レストラン・居酒屋",
     icon: "UtensilsCrossed",
-    description: "日本食レストラン、居酒屋、ラーメン店など",
+    description: "日本食レストラン、居酒屋、ラーメン店、バーなど",
   },
   {
     slug: "cafe",
     name: "カフェ・ベーカリー",
     icon: "Coffee",
     description: "日系カフェ、パン屋、スイーツ店",
-  },
-  {
-    slug: "izakaya-bar",
-    name: "居酒屋・バー",
-    icon: "Beer",
-    description: "日本式居酒屋、日本酒バー、スナック",
   },
   {
     slug: "clinic",
