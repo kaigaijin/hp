@@ -7,7 +7,7 @@
     "address": "133 Sukhumvit 49, Klongtan Nua, Vadhana, Bangkok 10110",
     "phone": "+6620222222",
     "website": "https://samitivej-jp.com/sukhumvit/",
-    "description": "バンコクで最も日本人に利用されている総合病院。約25名の日本語通訳が常駐し、年間約13万人の日本人患者を受け入れている。日本人相談窓口は毎日7:00-20:00で対応。24時間日本語電話対応あり。",
+    "description": "バンコクを代表する私立病院で、日本人患者数は年間約13万人・国外最多。日本語通訳約25名が常駐し、日本人相談窓口は毎日7:00-20:00、24時間日本語電話対応あり。",
     "tags": [
       "日本語対応",
       "24時間",
@@ -34,7 +34,7 @@
     "address": "2 Soi Soonvijai 7, New Petchburi Road, Huaykwang, Bangkok 10310",
     "phone": "+6623103257",
     "website": "https://www.bangkokhospital.com/en/bangkok/center-clinic/international-medical-service/japanese-medical-services/overview",
-    "description": "1977年設立のバンコク最古の日本人向け医療サービス。日本の医学部を卒業したタイ人医師が設立し、日本人医師・日本人コーディネーター・日本語通訳がサポート。I棟2階にJMS専用クリニックがある。",
+    "description": "1977年設立、バンコク最古の日本人向け医療サービスを持つ私立病院。日本人医師・コーディネーター・通訳がサポートし、BDMS傘下の大型総合病院内にJMS専用クリニックを設置。",
     "tags": [
       "日本語対応",
       "総合病院",
@@ -119,7 +119,7 @@
     "address": "33 Sukhumvit 3 (Soi Nana Nua), Wattana, Bangkok 10110",
     "phone": "+6620668888",
     "website": "https://www.bumrungrad.com/en",
-    "description": "スクンビットソイ3の世界水準の大型国際病院。190カ国以上から患者を受け入れ、日本語通訳スタッフが在籍。内科・外科・専門外来に対応し、日本語での受診が可能。",
+    "description": "バンコク・ナナエリアのJCI認定大型私立病院。日本語通訳を含む200名超の専門通訳が在籍し、24時間救急・専門外来に対応。190カ国以上からの患者が来院するタイ最大級の国際病院。",
     "tags": [
       "日本語対応",
       "24時間",
@@ -127,7 +127,7 @@
       "国際病院"
     ],
     "hours": "24時間",
-    "last_verified": "2026-03-26",
+    "last_verified": "2026-04-03",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -136,7 +136,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "バンコク・スクンビットソイ3にあるタイ最大級の国際病院。JCI（Joint Commission International）認定を受けた世界水準の医療機関で、日本語を含む25言語以上に対応する200名超の専門通訳が常駐。日本語での診察予約・説明・会計まで一貫して対応が可能。内科・外科・がん・心臓・整形外科など専門外来を幅広く設置し、救急は24時間受け入れ。プロンポン・アソーク・ナナBTSから各徒歩圏内。電話: +6620668888（24時間）。公式サイト: bumrungrad.com/en。"
   },
   {
     "slug": "phyathai-2-hospital",
@@ -2863,5 +2864,37 @@
     "place_id": "",
     "priority": 0,
     "ai_reviewed": true
+  },
+  {
+    "slug": "bnh-hospital-silom",
+    "name": "BNH Hospital",
+    "name_ja": "BNH 病院",
+    "area": "Silom",
+    "address": "9/1 Convent Road, Silom, Bangrak, Bangkok 10500",
+    "phone": "+6620220700",
+    "email": null,
+    "website": "https://www.bnhhospital.com/ja/",
+    "description": "シーロム・コンベント通りの創設100年超の私立病院。日本語通訳が常駐し、予約から会計まで日本語対応。CBD勤務の日本人駐在員が多く利用するバンコク市内の総合病院。",
+    "detail": "バンコク・シーロムエリアのコンベント通りに位置する老舗私立病院（BNH = Bangkok Nursing Home）。創設から100年以上の歴史を持ち、外国人駐在員から支持を集めてきた。日本語通訳が常駐し、フランス語・ドイツ語・ビルマ語・ベトナム語・中国語・日本語の通訳サービスを提供。内科・外科・産婦人科・歯科等の総合診療に加え、各種保険のクレームサポートも対応。シーロムBTSとチョンノンシーBTSの中間に位置しCBDからのアクセスが良好。電話: +6620220700（代表）。",
+    "tags": [
+      "日本語対応",
+      "総合病院",
+      "私立病院",
+      "Silom",
+      "CBD近く",
+      "歴史ある病院"
+    ],
+    "hours": "24時間（救急対応）",
+    "status": "unverified",
+    "source": "web_search",
+    "last_verified": "2026-04-03",
+    "ai_reviewed": true,
+    "place_id": "",
+    "priority": 0,
+    "phone_local": null,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
   }
 ]
