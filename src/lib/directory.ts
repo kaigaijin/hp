@@ -235,6 +235,7 @@ export type Spot = {
   phone?: string | null;
   website?: string | null;
   description: string;
+  detail?: string | null; // 詳細説明（300-500文字。ページ内表示用）
   tags: string[];
   hours?: string | null;
   status?: SpotStatus;

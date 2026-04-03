@@ -28,6 +28,7 @@ type SpotData = {
   name: string;
   address: string;
   description: string;
+  detail?: string | null;
   menu?: MenuItem[];
   price_range?: string;
   payment?: string[];
@@ -130,10 +131,16 @@ export default function SpotDetailTabs({
         {/* 概要タブ */}
         {activeTab === "overview" && (
           <div>
-            <div className="p-5">
-              <p className="text-stone-600 dark:text-stone-300 leading-relaxed">
-                {spot.description}
-              </p>
+            <div className="p-5 space-y-3">
+              {spot.detail ? (
+                <p className="text-stone-600 dark:text-stone-300 leading-relaxed whitespace-pre-line">
+                  {spot.detail}
+                </p>
+              ) : (
+                <p className="text-stone-600 dark:text-stone-300 leading-relaxed">
+                  {spot.description}
+                </p>
+              )}
             </div>
             {/* 地図 */}
             {mapEmbed}
