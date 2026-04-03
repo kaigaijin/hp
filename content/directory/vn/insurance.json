@@ -200,5 +200,77 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null
+  },
+  {
+    "slug": "aia-vietnam-hcmc",
+    "name": "AIA (Vietnam) Life Insurance Company Limited",
+    "name_ja": "AIA ベトナム生命保険",
+    "area": "District 1",
+    "address": "Saigon Centre Building, Tower 2, 67 Le Loi, Ben Nghe Ward, District 1, Ho Chi Minh City",
+    "lat": null,
+    "lng": null,
+    "phone": "+842838122777",
+    "website": "https://www.aia.com.vn/",
+    "description": "香港発のアジア最大級保険グループAIAのベトナム法人。2000年設立。生命保険・医療保険・傷害保険を提供。在ベトナム外国人向けの個人医療保険プランを取り扱い。ホーチミン市District 1のサイゴンセンタービルに拠点。",
+    "tags": [
+      "生命保険",
+      "医療保険",
+      "外資系"
+    ],
+    "hours": "平日 8:00〜17:00",
+    "last_verified": "2026-04-02",
+    "status": "unverified",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
+  },
+  {
+    "slug": "prudential-vietnam-hcmc",
+    "name": "Prudential Vietnam Assurance Private Ltd.",
+    "name_ja": "プルデンシャル ベトナム",
+    "area": "District 1",
+    "address": "Saigon Trade Center, 25th Floor, 37 Ton Duc Thang Street, Ben Nghe Ward, District 1, Ho Chi Minh City",
+    "lat": null,
+    "lng": null,
+    "phone": "+842839101660",
+    "website": "https://www.prudential.com.vn/",
+    "description": "英国系大手保険グループPrudentialのベトナム法人。生命保険・医療保険・貯蓄型保険を幅広く提供。ベトナム在住外国人も加入可能なプランあり。ホーチミン市のサイゴントレードセンターに本社を置く。",
+    "tags": [
+      "生命保険",
+      "医療保険",
+      "外資系"
+    ],
+    "hours": "平日 8:00〜17:00",
+    "last_verified": "2026-04-02",
+    "status": "unverified",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
+  },
+  {
+    "slug": "pacific-prime-vietnam",
+    "name": "Pacific Prime Vietnam",
+    "name_ja": "パシフィック・プライム ベトナム",
+    "area": "District 1",
+    "address": "District 1, Ho Chi Minh City",
+    "lat": null,
+    "lng": null,
+    "phone": null,
+    "website": "https://www.pacificprime.com/country/asia/vietnam-health-insurance-pacific-prime-international/",
+    "description": "世界15拠点展開の国際保険ブローカー。ベトナム在住者向けに50,000件以上の保険プランを比較・手配。AXA・シグナ等の主要保険会社を取り扱い。日本語対応スタッフが在籍し、保険選びから保険金請求まで無料でサポート。",
+    "tags": [
+      "保険ブローカー",
+      "医療保険",
+      "日本語対応"
+    ],
+    "hours": "平日 9:00〜18:00",
+    "last_verified": "2026-04-02",
+    "status": "unverified",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
   }
 ]
