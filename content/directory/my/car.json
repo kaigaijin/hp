@@ -22,7 +22,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "ai_reviewed": true
   },
   {
     "slug": "hertz-kuala-lumpur",
@@ -47,7 +48,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "ai_reviewed": true
   },
   {
     "slug": "flux-car-subscription",
@@ -72,7 +74,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "ai_reviewed": true
   },
   {
     "slug": "sixt-kuala-lumpur",
@@ -97,7 +100,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "ai_reviewed": true
   },
   {
     "slug": "doos-car-subscription",
@@ -122,7 +126,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "ai_reviewed": true
   },
   {
     "slug": "expat-car-sales-kl",
@@ -148,7 +153,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "ai_reviewed": true
   },
   {
     "slug": "avis-kuala-lumpur",
@@ -174,7 +180,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "ai_reviewed": true
   },
   {
     "slug": "gocar-malaysia",
@@ -199,7 +206,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "ai_reviewed": true
   },
   {
     "slug": "wahdah-car-rental",
@@ -224,7 +232,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "ai_reviewed": true
   },
   {
     "slug": "trevo-malaysia",
@@ -250,7 +259,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "ai_reviewed": true
   },
   {
     "slug": "dglobal-car-kl",
@@ -276,7 +286,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "ai_reviewed": true
   },
   {
     "slug": "hertz-klia",
@@ -301,7 +312,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "ai_reviewed": true
   },
   {
     "slug": "umw-toyota-motor-sdn-bhd-mutiara-damansara",
@@ -390,5 +402,130 @@
     "source": "gemini_search",
     "last_verified": "2026-04-02",
     "ai_reviewed": false
+  },
+  {
+    "slug": "perodua-dealer-kl-jalan-ipoh",
+    "name": "Perodua Sales & Service - Jalan Ipoh",
+    "name_ja": "プロドゥア ジャラン・イポー販売店",
+    "area": "クアラルンプール・ジャラン・イポー",
+    "address": "Jalan Ipoh, Kuala Lumpur",
+    "lat": null,
+    "lng": null,
+    "phone": null,
+    "website": "https://www.perodua.com.my",
+    "description": "マレーシア最大の自動車メーカー・プロドゥア（ダイハツとの合弁）の正規ディーラー。現地生産の低価格コンパクトカーは在マレーシア日本人が購入するケースも多い。",
+    "tags": [
+      "自動車販売",
+      "新車",
+      "プロドゥア",
+      "ダイハツ系"
+    ],
+    "hours": "09:00-18:00",
+    "last_verified": "2026-04-03",
+    "status": "unverified",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
+  },
+  {
+    "slug": "mytukar-used-car-kl",
+    "name": "myTukar Used Car Marketplace",
+    "name_ja": "myTukar 中古車マーケットプレイス",
+    "area": "クアラルンプール",
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "phone": null,
+    "website": "https://www.mytukar.com",
+    "description": "マレーシアの大手オンライン中古車売買プラットフォーム。英語UIで品質チェック済みの中古車を購入可能。在マレーシア日本人が車を探す際に使いやすい。",
+    "tags": [
+      "中古車",
+      "オンライン",
+      "英語対応",
+      "売買"
+    ],
+    "hours": null,
+    "last_verified": "2026-04-03",
+    "status": "unverified",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
+  },
+  {
+    "slug": "carsome-malaysia-kl",
+    "name": "Carsome Malaysia",
+    "name_ja": "カーサム マレーシア",
+    "area": "クアラルンプール",
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "phone": null,
+    "website": "https://www.carsome.my",
+    "description": "東南アジア最大の認定中古車プラットフォーム。品質保証付きの中古車を英語で購入できる。在マレーシア日本人の車購入先として知られ、日本語での問い合わせ対応もある。",
+    "tags": [
+      "中古車",
+      "オンライン",
+      "英語対応",
+      "品質保証"
+    ],
+    "hours": null,
+    "last_verified": "2026-04-03",
+    "status": "unverified",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
+  },
+  {
+    "slug": "socar-malaysia",
+    "name": "SOCAR Malaysia",
+    "name_ja": "ソカー マレーシア",
+    "area": "クアラルンプール・全国",
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "phone": null,
+    "website": "https://socar.my",
+    "description": "マレーシアの大手カーシェアリングサービス。アプリで予約・開錠が完結し英語UIで使いやすい。車を所有せずに必要な時だけ使える手軽さが、在マレーシア日本人にも人気。",
+    "tags": [
+      "カーシェア",
+      "英語対応",
+      "アプリ",
+      "短期利用"
+    ],
+    "hours": null,
+    "last_verified": "2026-04-03",
+    "status": "unverified",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
+  },
+  {
+    "slug": "toyota-malaysia-umw-kl",
+    "name": "UMW Toyota Motor - KL",
+    "name_ja": "UMWトヨタモーター KL",
+    "area": "クアラルンプール・ムティアラダマンサラ",
+    "address": "Wisma UMW Toyota Motor, Jalan Stadium, Off Jalan Semarak, 54200 Kuala Lumpur",
+    "lat": null,
+    "lng": null,
+    "phone": "+60362577888",
+    "website": "https://www.toyota.com.my",
+    "description": "マレーシアのトヨタ正規販売代理店。日本車購入を希望する在マレーシア日本人が多く利用。新車購入からアフターサービスまで、英語での対応が可能。",
+    "tags": [
+      "自動車販売",
+      "トヨタ",
+      "日本車",
+      "英語対応"
+    ],
+    "hours": "09:00-18:00",
+    "last_verified": "2026-04-03",
+    "status": "unverified",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
   }
 ]
