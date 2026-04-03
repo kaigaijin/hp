@@ -1,5 +1,30 @@
 [
   {
+    "slug": "heyanavi-cleaning-support",
+    "name": "HeyaNavi Seoul Cleaning Support",
+    "name_ja": "ヘヤナビ ソウル 清掃サポート",
+    "area": "Seoul",
+    "address": "Seoul",
+    "lat": null,
+    "lng": null,
+    "phone": null,
+    "website": "https://www.heyanavi.com/",
+    "description": "日本語対応の不動産サポートサービス「ヘヤナビ」が付帯提供する退去清掃・引越し清掃の手配サービス。在住日本人の住居退去時に現地語が分からなくても業者手配から立会いまで日本語でサポート。",
+    "tags": [
+      "日本語対応",
+      "退去清掃",
+      "引越し清掃",
+      "日本人向け"
+    ],
+    "hours": null,
+    "last_verified": "2026-04-02",
+    "status": "unverified",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
+  },
+  {
     "slug": "korea-plaza-hiroba-cleaning",
     "name": "KOREA PLAZA HIROBA (Cleaning Support)",
     "name_ja": "コリアプラザひろば（清掃サポート）",
@@ -60,30 +85,5 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null
-  },
-  {
-    "slug": "heyanavi-cleaning-support",
-    "name": "HeyaNavi Seoul Cleaning Support",
-    "name_ja": "ヘヤナビ ソウル 清掃サポート",
-    "area": "Seoul",
-    "address": "Seoul",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.heyanavi.com/",
-    "description": "日本語対応の不動産サポートサービス「ヘヤナビ」が付帯提供する退去清掃・引越し清掃の手配サービス。在住日本人の住居退去時に現地語が分からなくても業者手配から立会いまで日本語でサポート。",
-    "tags": [
-      "日本語対応",
-      "退去清掃",
-      "引越し清掃",
-      "日本人向け"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-02",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
   }
 ]
