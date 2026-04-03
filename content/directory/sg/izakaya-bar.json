@@ -23,7 +23,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本酒バー「Shukuu Izakaya」のシンガポール店。日本酒の専門知識に基づいたペアリングと本格的な居酒屋料理を提供する。系列に「Mirai Sake Hall」もあり、日本酒好きの在住日本人や日本文化に関心のあるローカルから支持を集めている。",
+    "menu": []
   },
   {
     "slug": "shunjuu-izakaya-bar",
@@ -51,7 +53,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Robertson Quay沿いに位置する本格居酒屋（30 Robertson Quay, #01-15）。2003年創業のシンガポール初期の焼き鳥専門店で、備長炭で焼き上げる約60種のくし焼きと約50種の日本酒が自慢。20年以上継ぎ足してきた秘伝のタレが特徴で、川沿いの絵になるロケーションでのリバーサイドダイニングが楽しめる。ランチ12:00〜14:30、ディナー18:00〜23:00（金土は23:30まで）。",
+    "menu": [
+      {
+        "name": "くし焼き各種（約60種）",
+        "price": "要確認",
+        "category": "焼き鳥"
+      },
+      {
+        "name": "日本酒（約50種）",
+        "price": "要確認",
+        "category": "ドリンク"
+      }
+    ]
   },
   {
     "slug": "the-public-izakaya-bar",
@@ -78,7 +93,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "100AM MALL（100 Tras Street, #01-09）を中心に同エリア150m圏内に3店舗を展開する日本居酒屋チェーン。「Your Japanese Culinary Escape」を標榜し、月〜木11:30〜14:00・17:30〜24:00、金11:30〜14:00・17:30〜翌1:00、土17:00〜24:00、日17:00〜22:00営業。タンジョンパガー・アルテスにも出店しており、グループや大人数の利用にも対応。",
+    "menu": []
   },
   {
     "slug": "jibiru-bar",
@@ -104,7 +121,41 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "313@somerset（313 Orchard Rd, #01-26）に位置する埼玉発の本格焼き鳥＆クラフトビール専門店。東京北部・埼玉地方の伝統的な焼き鳥製法を再現し、award-winningのソース（Hibiki焼き鳥店から直輸入）を使用。鶏だけでなく豚肉のやきとん（yakiton）も提供。月〜木12:00〜23:00、金11:30〜23:30、土日11:00〜23:30（日は22:30まで）営業。",
+    "menu": [
+      {
+        "name": "Premium Lager (473ml)",
+        "price": "SGD 15（通常）/ SGD 12（ハッピーアワー）",
+        "category": "ドリンク"
+      },
+      {
+        "name": "Premium Black Beer (473ml)",
+        "price": "SGD 15（通常）/ SGD 12（ハッピーアワー）",
+        "category": "ドリンク"
+      },
+      {
+        "name": "Yebisu Premium (380ml)",
+        "price": "SGD 11（ハッピーアワー）",
+        "category": "ドリンク"
+      },
+      {
+        "name": "Glorious Purpose（クラフトビール）",
+        "price": "SGD 17",
+        "category": "ドリンク"
+      },
+      {
+        "name": "Stout - Nitro",
+        "price": "SGD 16",
+        "category": "ドリンク"
+      },
+      {
+        "name": "焼き鳥・やきとん各種",
+        "price": "要確認",
+        "category": "焼き鳥"
+      }
+    ],
+    "price_range": "SGD 30〜60/人"
   },
   {
     "slug": "izakaya-shinjuku-bar",
@@ -131,7 +182,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「新宿」をテーマにした日本居酒屋のシンガポール店。日本の新宿の賑やかな居酒屋の雰囲気を再現し、幅広い居酒屋メニューと日本酒・焼酎などのドリンクを提供する。",
+    "menu": []
   },
   {
     "slug": "nanbantei-bar",
@@ -158,7 +211,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "シンガポールで長年愛される老舗日本料理・居酒屋レストラン。本格的な日本料理メニューと落ち着いた雰囲気で、在住日本人から支持を集める。公式サイトではメニュー詳細を確認できる。",
+    "menu": []
   },
   {
     "slug": "fukusuke-izakaya",
@@ -292,7 +347,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Robertson QuayとTanjong Pagarに2店舗を展開するプレミアム寿司・居酒屋。週2回日本から直輸入するマグロ（本マグロ）をはじめとする厳選食材が特徴。Mizu Zen Sashimi（SGD 288）やNigiri Jubako 26貫（SGD 228）などの豪華コースに加え、SGD 128のオマカセも提供。「Kan Fish Market」として日本産鮪や和包丁のオンライン販売も行う。",
+    "menu": [
+      {
+        "name": "Mizu Zen Sashimi（水膳刺身）",
+        "price": "SGD 288",
+        "category": "刺身"
+      },
+      {
+        "name": "Nigiri Jubako 26貫",
+        "price": "SGD 228",
+        "category": "寿司"
+      },
+      {
+        "name": "Chirashi First Class（ちらし寿司）",
+        "price": "SGD 188",
+        "category": "寿司"
+      },
+      {
+        "name": "オマカセ",
+        "price": "SGD 128〜",
+        "category": "コース"
+      }
+    ],
+    "price_range": "SGD 128〜/人（オマカセ）"
   },
   {
     "slug": "yamato-izakaya-bar",
@@ -318,7 +397,30 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Oxley Bizhub内に位置する「ONE ROOF, THREE ADVENTURES」をテーマにした日本居酒屋。東京の賑やかな街並みを再現した店内で、ラーメン・丼物・手作り餃子・備長炭焼きの鰻など多彩な料理を提供。ランチ11:30〜15:00、ディナー18:00〜22:00（月〜土）営業。企業イベント・大人数グループに対応し、屋外ペット連れも歓迎。",
+    "menu": [
+      {
+        "name": "ラーメン",
+        "price": "要確認",
+        "category": "麺"
+      },
+      {
+        "name": "丼物",
+        "price": "要確認",
+        "category": "丼"
+      },
+      {
+        "name": "手作り餃子",
+        "price": "要確認",
+        "category": "サイド"
+      },
+      {
+        "name": "備長炭焼き鰻",
+        "price": "要確認",
+        "category": "焼き物"
+      }
+    ]
   },
   {
     "slug": "d-bespoke-sg",
@@ -371,7 +473,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "19 Cecil Street Level 2に位置する日本文化・音楽・ファッション・サブカルチャーにインスパイアされたカクテルバー（Jigger & Pony Group運営）。BYŌBU BAR・TASTING COMMONS・BAR MIXTAPE・AFTER HOURS SALONの4ゾーン構成。ハッピーアワー（17:30〜20:00）、シグネチャーカクテル16種（SAKURA GIN SOURなど）と毎月新作2種を提供。火〜土17:30〜24:00営業。",
+    "menu": [
+      {
+        "name": "シグネチャーカクテル各種（16種）",
+        "price": "要確認",
+        "category": "カクテル"
+      },
+      {
+        "name": "ハッピーアワーカクテル",
+        "price": "要確認",
+        "category": "カクテル"
+      },
+      {
+        "name": "フードメニュー各種",
+        "price": "要確認",
+        "category": "フード"
+      }
+    ]
   },
   {
     "slug": "neon-pigeon-sg",
@@ -398,7 +518,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "36 Carpenter Street（#01-01）に位置する「World's 50 Best Discovery」に選出された東京の居酒屋にインスパイアされたモダン日本料理レストラン＆バー。革新的なカクテルと「bold and fearless」な日本料理を融合した独自のスタイルが特徴。毎日17:30〜24:00営業。予約は+65-6222-3623またはreservations@neonpigeonsg.comから。",
+    "menu": [
+      {
+        "name": "シグネチャーカクテル各種",
+        "price": "要確認",
+        "category": "カクテル"
+      },
+      {
+        "name": "日本料理小皿各種",
+        "price": "要確認",
+        "category": "フード"
+      }
+    ]
   },
   {
     "slug": "moga-pullman-izakaya",
@@ -425,7 +558,30 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Pullman Singapore Hill Street（1 Hill Street）内に位置するモダン日本居酒屋。1920年代の日本文化に着想を得た「スピークイージー」スタイルのインテリアが特徴で、クラフトカクテルと革新的な小皿料理を提供。ランチ12:00〜15:00、ディナー18:00〜24:00（金土は翌1:00まで）、ディナーは20歳以上限定。ハッピーアワーには5種のクラフトカクテルがSGD 18++で楽しめる。",
+    "menu": [
+      {
+        "name": "クラフトカクテル各種（Kiyoko's Journey）",
+        "price": "SGD 18++（ハッピーアワー5種）",
+        "category": "カクテル"
+      },
+      {
+        "name": "ランチセット（MOGA's Lunch Set）",
+        "price": "要確認",
+        "category": "ランチ"
+      },
+      {
+        "name": "DIYハンドロールプラッター",
+        "price": "要確認",
+        "category": "フード"
+      },
+      {
+        "name": "小皿料理各種（Kiyoko's Table）",
+        "price": "要確認",
+        "category": "フード"
+      }
+    ]
   },
   {
     "slug": "teppei-izakaya",
@@ -611,7 +767,35 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "CQ @ Clarke Quay（3A River Valley Rd, #01-04 Block A）に位置するモダン日本フュージョン居酒屋。モノトーンカラーの洗練された空間でラウンジミュージックが流れ、刺身・握り寿司・炭火焼き・小皿料理をシェアスタイルで楽しめる。日〜木12:00〜15:00・17:00〜23:00、金土・祝前日12:00〜15:00・17:00〜翌1:00営業。",
+    "menu": [
+      {
+        "name": "刺身各種",
+        "price": "要確認",
+        "category": "刺身"
+      },
+      {
+        "name": "握り寿司",
+        "price": "要確認",
+        "category": "寿司"
+      },
+      {
+        "name": "炭火焼き各種",
+        "price": "要確認",
+        "category": "焼き物"
+      },
+      {
+        "name": "小皿料理各種",
+        "price": "要確認",
+        "category": "フード"
+      },
+      {
+        "name": "パスタ各種",
+        "price": "要確認",
+        "category": "フード"
+      }
+    ]
   },
   {
     "slug": "shinya-izakaya-boat-quay",
@@ -637,7 +821,35 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Boat Quay（79 Boat Quay）に位置し、毎日12:00〜翌3:00の深夜営業が特徴の本格居酒屋。炭火焼きの串焼き・居酒屋タパス・刺身・巻き寿司に加え、35種類のビールを冷凍マグで楽しめる。プロモーションでロブスター（グリル）がSGD 28〜。個室・企業イベントスペースあり。",
+    "menu": [
+      {
+        "name": "ロブスター（グリル・プロモ）",
+        "price": "SGD 28〜",
+        "category": "グリル"
+      },
+      {
+        "name": "串焼き（Kushiyaki）各種",
+        "price": "要確認",
+        "category": "串焼き"
+      },
+      {
+        "name": "刺身",
+        "price": "要確認",
+        "category": "刺身"
+      },
+      {
+        "name": "巻き寿司各種（Assorted Makis）",
+        "price": "要確認",
+        "category": "寿司"
+      },
+      {
+        "name": "ビール（35種・冷凍マグ）",
+        "price": "要確認",
+        "category": "ドリンク"
+      }
+    ]
   },
   {
     "slug": "shako-ba-boat-quay",
@@ -717,7 +929,66 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Robertson Walk（11 Unity Street, #02-14）に位置するひもの（干物）専門の日本居酒屋。年間約600万枚のひものを提供し、日本の漁村から直輸入。Himono Hokke BBQ（ホッケの開き半身SGD 22.90、全身SGD 41.90）や北海道産ウニ（SGD 39.90）、本マグロ刺身（300g SGD 45.90）など豪快な海鮮メニューが揃う。毎日18:00〜24:00営業。最大60名収容、個室（26名）あり。",
+    "menu": [
+      {
+        "name": "Himono Hokke BBQ（ホッケ焼き）- 半身",
+        "price": "SGD 22.90",
+        "category": "ひもの"
+      },
+      {
+        "name": "Himono Hokke BBQ（ホッケ焼き）- 全身",
+        "price": "SGD 41.90",
+        "category": "ひもの"
+      },
+      {
+        "name": "Premium Himono Saba BBQ（サバ）- 半身",
+        "price": "SGD 13.90",
+        "category": "ひもの"
+      },
+      {
+        "name": "Premium Himono Saba BBQ（サバ）- 全身",
+        "price": "SGD 23.90",
+        "category": "ひもの"
+      },
+      {
+        "name": "Assorted Sashimi",
+        "price": "SGD 29.80〜",
+        "category": "刺身"
+      },
+      {
+        "name": "Fresh Bluefin Tuna Sashimi (300g)",
+        "price": "SGD 45.90",
+        "category": "刺身"
+      },
+      {
+        "name": "Hokkaido Sea Urchin（3種）",
+        "price": "SGD 39.90",
+        "category": "刺身"
+      },
+      {
+        "name": "Japanese Omelet with Salmon Roe",
+        "price": "SGD 23.90",
+        "category": "フード"
+      },
+      {
+        "name": "Japanese Sake（グラス）",
+        "price": "SGD 29.90〜",
+        "category": "ドリンク"
+      },
+      {
+        "name": "Ryoshi Course（バンケット・飲み放題込み）",
+        "price": "SGD 75",
+        "category": "コース"
+      },
+      {
+        "name": "Gokai Course（バンケット・飲み放題込み）",
+        "price": "SGD 100",
+        "category": "コース"
+      }
+    ],
+    "price_range": "SGD 50〜100/人"
   },
   {
     "slug": "shin-minori-robertson-quay",
@@ -770,7 +1041,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Orchard Central・Jewel Changi・Funan・Cross Street Exchangeの4店舗を展開するモダン日本インスパイアのどんぶり・シェアプレート・カクテルレストラン&バー。毎日11:30〜22:30営業。デリバリー対応（SGD 15配送料、SGD 90以上で無料）やサブスクリプション「Raw and Refueled」など充実したサービスが特徴。",
+    "menu": [
+      {
+        "name": "どんぶり各種",
+        "price": "要確認",
+        "category": "丼"
+      },
+      {
+        "name": "シェアプレート各種",
+        "price": "要確認",
+        "category": "フード"
+      },
+      {
+        "name": "カクテル各種",
+        "price": "要確認",
+        "category": "ドリンク"
+      }
+    ]
   },
   {
     "slug": "zenryoku-izakaya-upper-thomson",
@@ -797,7 +1086,45 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Bishanに位置する「ordinary food done extraordinary」をコンセプトにした小さな日本居酒屋。日本の小規模酒蔵から厳選した季節の日本酒・焼酎と、焼き鳥・刺身・テッパン・お好み焼き・ラーメン（ランチのみ）を提供。全席利用者はアルコール注文が必須（限られた席のため）で、予約を強く推奨。",
+    "menu": [
+      {
+        "name": "焼き鳥各種",
+        "price": "要確認",
+        "category": "焼き鳥"
+      },
+      {
+        "name": "刺身",
+        "price": "要確認",
+        "category": "刺身"
+      },
+      {
+        "name": "テッパン料理",
+        "price": "要確認",
+        "category": "テッパン"
+      },
+      {
+        "name": "お好み焼き",
+        "price": "要確認",
+        "category": "フード"
+      },
+      {
+        "name": "ラーメン（ランチのみ）",
+        "price": "要確認",
+        "category": "麺"
+      },
+      {
+        "name": "日本酒各種（小規模酒蔵厳選）",
+        "price": "要確認",
+        "category": "ドリンク"
+      },
+      {
+        "name": "焼酎",
+        "price": "要確認",
+        "category": "ドリンク"
+      }
+    ]
   },
   {
     "slug": "hiyaki-yakitori-izakaya",
@@ -877,7 +1204,15 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Cuppage Plaza（5 Koek Road #04-01）に位置する本格焼き鳥居酒屋。「Turning Chicken into Phoenix」をコンセプトにした上質な焼き鳥体験を提供。月〜土18:00〜23:00（2部制：18:00〜20:15、20:30〜23:00）の完全予約制で、構造的・洗練されたオマカセ風サービス。@skewers.sgのInstagramで最新情報を確認。",
+    "menu": [
+      {
+        "name": "焼き鳥各種（コース）",
+        "price": "要確認",
+        "category": "焼き鳥"
+      }
+    ]
   },
   {
     "slug": "izakaya-shun-cuppage",
@@ -985,7 +1320,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Robertson Quay（30 Robertson Quay, #01-05）に位置する鰻専門店。2018年4月オープン。シグネチャーは炭火焼きの「鰻ひつまぶし」で、日本および各地から厳選輸入した新鮮な鰻を注文ごとに焼き上げる。月〜日11:30〜15:00（L.O 14:30）、17:30〜22:00（L.O 21:30）営業。",
+    "menu": [
+      {
+        "name": "鰻ひつまぶし",
+        "price": "要確認",
+        "category": "鰻料理"
+      },
+      {
+        "name": "炭火焼き鰻各種",
+        "price": "要確認",
+        "category": "鰻料理"
+      }
+    ]
   },
   {
     "slug": "ten-sushi-bar-robertson-quay",
@@ -1066,7 +1414,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Orchid Hotel（1 Tras Link, #01-12）に位置するタンジョンパガーのオマカセ寿司レストラン。Google Mapsで4.9つ星（253件）と高評価で、新鮮な日本食材・季節の風味・職人的な技法をテーマに、うに手巻き・アワビなど季節限定食材を使ったコースを提供。月〜土12:00〜14:30・18:30〜22:30、日曜定休。",
+    "menu": [
+      {
+        "name": "オマカセコース各種",
+        "price": "要確認",
+        "category": "コース"
+      },
+      {
+        "name": "うに手巻き",
+        "price": "要確認",
+        "category": "寿司"
+      },
+      {
+        "name": "アワビ（季節限定）",
+        "price": "要確認",
+        "category": "刺身"
+      }
+    ]
   },
   {
     "slug": "takayama-kappo-tanjong-pagar",
@@ -1093,7 +1459,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "OUE Downtown Gallery 1（6A Shenton Way #01-09/10）に位置する14席のカウンター席限定のオマカセ割烹レストラン。三ツ星ミシュランレストランで修業した大山太郎エグゼクティブシェフが率いる。全予約制（予約金SGD 100/人）で火〜土ランチ12:00〜14:30（最終着席12:45）・ディナー19:00〜22:30（最終着席19:45）営業。カウンター8名＋個室2部屋（4名・8名）。",
+    "menu": [
+      {
+        "name": "ランチおまかせ（カウンター席）",
+        "price": "要確認（要予約・SGD 100デポジット）",
+        "category": "コース"
+      },
+      {
+        "name": "ディナーおまかせ（カウンター席）",
+        "price": "要確認（要予約・SGD 100デポジット）",
+        "category": "コース"
+      }
+    ]
   },
   {
     "slug": "kemuri-cuppage-plaza",
@@ -1145,7 +1524,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Robertson Quayに位置するKan Sushi。週2回日本から直輸入するマグロ（本マグロ）をはじめとする厳選食材が特徴。Mizu Zen Sashimi（SGD 288）やNigiri Jubako 26貫（SGD 228）などの豪華コースに加え、SGD 128のオマカセも提供。川沿いのロバートソンキーという絶好のロケーション。",
+    "menu": [
+      {
+        "name": "Mizu Zen Sashimi（水膳刺身）",
+        "price": "SGD 288",
+        "category": "刺身"
+      },
+      {
+        "name": "Nigiri Jubako 26貫",
+        "price": "SGD 228",
+        "category": "寿司"
+      },
+      {
+        "name": "Chirashi First Class（ちらし寿司）",
+        "price": "SGD 188",
+        "category": "寿司"
+      },
+      {
+        "name": "オマカセ",
+        "price": "SGD 128〜",
+        "category": "コース"
+      }
+    ],
+    "price_range": "SGD 128〜/人（オマカセ）"
   },
   {
     "slug": "sushi-yujo-sg",
@@ -2106,7 +2509,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Robertson Quay（30 Robertson Quay, #01-05）に位置する鰻専門店。2018年4月オープン。シグネチャーは炭火焼きの「鰻ひつまぶし」で、日本および各地から厳選輸入した新鮮な鰻を注文ごとに焼き上げる。月〜日11:30〜15:00（L.O 14:30）、17:30〜22:00（L.O 21:30）営業。",
+    "menu": [
+      {
+        "name": "鰻ひつまぶし",
+        "price": "要確認",
+        "category": "鰻料理"
+      },
+      {
+        "name": "炭火焼き鰻各種",
+        "price": "要確認",
+        "category": "鰻料理"
+      }
+    ]
   },
   {
     "slug": "ten-sushi-bar-robertson-quay-bar",
@@ -2313,7 +2729,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Orchard Central・Jewel Changi・Funan・Cross Street Exchangeの4店舗を展開するモダン日本インスパイアのどんぶり・シェアプレート・カクテルレストラン&バー。毎日11:30〜22:30営業。デリバリー対応（SGD 15配送料、SGD 90以上で無料）やサブスクリプション「Raw and Refueled」など充実したサービスが特徴。",
+    "menu": [
+      {
+        "name": "どんぶり各種",
+        "price": "要確認",
+        "category": "丼"
+      },
+      {
+        "name": "シェアプレート各種",
+        "price": "要確認",
+        "category": "フード"
+      },
+      {
+        "name": "カクテル各種",
+        "price": "要確認",
+        "category": "ドリンク"
+      }
+    ]
   },
   {
     "slug": "moga-robertson-quay-bar",
@@ -2339,7 +2773,30 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Pullman Singapore Hill Street（1 Hill Street）内に位置するモダン日本居酒屋。1920年代の日本文化に着想を得た「スピークイージー」スタイルのインテリアが特徴で、クラフトカクテルと革新的な小皿料理を提供。ランチ12:00〜15:00、ディナー18:00〜24:00（金土は翌1:00まで）、ディナーは20歳以上限定。ハッピーアワーには5種のクラフトカクテルがSGD 18++で楽しめる。",
+    "menu": [
+      {
+        "name": "クラフトカクテル各種（Kiyoko's Journey）",
+        "price": "SGD 18++（ハッピーアワー5種）",
+        "category": "カクテル"
+      },
+      {
+        "name": "ランチセット（MOGA's Lunch Set）",
+        "price": "要確認",
+        "category": "ランチ"
+      },
+      {
+        "name": "DIYハンドロールプラッター",
+        "price": "要確認",
+        "category": "フード"
+      },
+      {
+        "name": "小皿料理各種（Kiyoko's Table）",
+        "price": "要確認",
+        "category": "フード"
+      }
+    ]
   },
   {
     "slug": "teppei-syokudo-tanjong-pagar-bar",
@@ -3679,7 +4136,35 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Boat Quay（79 Boat Quay）に位置し、毎日12:00〜翌3:00の深夜営業が特徴の本格居酒屋。炭火焼きの串焼き・居酒屋タパス・刺身・巻き寿司に加え、35種類のビールを冷凍マグで楽しめる。プロモーションでロブスター（グリル）がSGD 28〜。個室・企業イベントスペースあり。",
+    "menu": [
+      {
+        "name": "ロブスター（グリル・プロモ）",
+        "price": "SGD 28〜",
+        "category": "グリル"
+      },
+      {
+        "name": "串焼き（Kushiyaki）各種",
+        "price": "要確認",
+        "category": "串焼き"
+      },
+      {
+        "name": "刺身",
+        "price": "要確認",
+        "category": "刺身"
+      },
+      {
+        "name": "巻き寿司各種（Assorted Makis）",
+        "price": "要確認",
+        "category": "寿司"
+      },
+      {
+        "name": "ビール（35種・冷凍マグ）",
+        "price": "要確認",
+        "category": "ドリンク"
+      }
+    ]
   },
   {
     "slug": "yen-izakaya",
@@ -4435,7 +4920,15 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Cuppage Plaza（5 Koek Road #04-01）に位置する本格焼き鳥居酒屋。「Turning Chicken into Phoenix」をコンセプトにした上質な焼き鳥体験を提供。月〜土18:00〜23:00（2部制：18:00〜20:15、20:30〜23:00）の完全予約制で、構造的・洗練されたオマカセ風サービス。@skewers.sgのInstagramで最新情報を確認。",
+    "menu": [
+      {
+        "name": "焼き鳥各種（コース）",
+        "price": "要確認",
+        "category": "焼き鳥"
+      }
+    ]
   },
   {
     "slug": "niningashi",
@@ -4597,7 +5090,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "100AM MALL（100 Tras Street, #01-09）を中心に同エリア150m圏内に3店舗を展開する日本居酒屋チェーン。「Your Japanese Culinary Escape」を標榜し、月〜木11:30〜14:00・17:30〜24:00、金11:30〜14:00・17:30〜翌1:00、土17:00〜24:00、日17:00〜22:00営業。タンジョンパガー・アルテスにも出店しており、グループや大人数の利用にも対応。",
+    "menu": []
   },
   {
     "slug": "izakaya-nijumaru",
@@ -4705,7 +5200,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Robertson Quay沿いに位置する本格居酒屋（30 Robertson Quay, #01-15）。2003年創業のシンガポール初期の焼き鳥専門店で、備長炭で焼き上げる約60種のくし焼きと約50種の日本酒が自慢。20年以上継ぎ足してきた秘伝のタレが特徴で、川沿いの絵になるロケーションでのリバーサイドダイニングが楽しめる。ランチ12:00〜14:30、ディナー18:00〜23:00（金土は23:30まで）。",
+    "menu": [
+      {
+        "name": "くし焼き各種（約60種）",
+        "price": "要確認",
+        "category": "焼き鳥"
+      },
+      {
+        "name": "日本酒（約50種）",
+        "price": "要確認",
+        "category": "ドリンク"
+      }
+    ]
   },
   {
     "slug": "taki-izakaya-bar",
@@ -6244,7 +6752,30 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Pullman Singapore Hill Street（1 Hill Street）内に位置するモダン日本居酒屋。1920年代の日本文化に着想を得た「スピークイージー」スタイルのインテリアが特徴で、クラフトカクテルと革新的な小皿料理を提供。ランチ12:00〜15:00、ディナー18:00〜24:00（金土は翌1:00まで）、ディナーは20歳以上限定。ハッピーアワーには5種のクラフトカクテルがSGD 18++で楽しめる。",
+    "menu": [
+      {
+        "name": "クラフトカクテル各種（Kiyoko's Journey）",
+        "price": "SGD 18++（ハッピーアワー5種）",
+        "category": "カクテル"
+      },
+      {
+        "name": "ランチセット（MOGA's Lunch Set）",
+        "price": "要確認",
+        "category": "ランチ"
+      },
+      {
+        "name": "DIYハンドロールプラッター",
+        "price": "要確認",
+        "category": "フード"
+      },
+      {
+        "name": "小皿料理各種（Kiyoko's Table）",
+        "price": "要確認",
+        "category": "フード"
+      }
+    ]
   },
   {
     "slug": "the-bar-kakure",

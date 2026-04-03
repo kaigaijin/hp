@@ -239,7 +239,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "EQホテル内に位置し、1974年創業のマレーシアを代表する老舗日本料理店。200年以上前の檜の板を使ったカウンターが特徴で、懐石・おまかせ・割烹料理が揃う本格派。KLCC近くのジャラン・スルタン・イスマイル沿い。Time Out誌の「ベスト日本食レストラン」を9度受賞。土日ブランチビュッフェも開催。12時〜15時・18時〜23時。",
+    "menu": [
+      {
+        "name": "割烹おまかせ（ランチ）",
+        "price": "MYR 200〜",
+        "category": "ランチ"
+      },
+      {
+        "name": "懐石コース（ディナー）",
+        "price": "MYR 350〜",
+        "category": "ディナー"
+      },
+      {
+        "name": "土日ブランチビュッフェ",
+        "price": "MYR 180〜",
+        "category": "ブランチ"
+      }
+    ],
+    "price_range": "MYR 200〜400/人"
   },
   {
     "slug": "nobu-kuala-lumpur",
@@ -266,7 +285,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "世界的シェフのノブ松久が手掛けるKL店。KLCCエリアに位置し、日本とペルーを融合させた独自のスタイルで知られる。イエローテイルのハラペーニョ、黒鱈の西京漬け、ロックシュリンプテンプラが看板料理。冷前菜2〜3品→温前菜→寿司の流れで楽しむシェアスタイル。SevenRooms経由で予約可能。",
+    "menu": [
+      {
+        "name": "イエローテイル ハラペーニョ（6切れ）",
+        "price": "MYR 85〜",
+        "category": "冷前菜"
+      },
+      {
+        "name": "ロックシュリンプテンプラ クリーミースパイシーソース",
+        "price": "MYR 95〜",
+        "category": "温前菜"
+      },
+      {
+        "name": "黒鱈の西京漬け",
+        "price": "MYR 120〜",
+        "category": "メイン"
+      },
+      {
+        "name": "マグロサシミサラダ（7切れ・希少焼き）",
+        "price": "MYR 90〜",
+        "category": "冷前菜"
+      }
+    ],
+    "price_range": "MYR 300〜600/人（ディナー）"
   },
   {
     "slug": "ippudo-pavilion",
@@ -794,7 +837,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "インターコンチネンタルKL内にある本格日本料理。ジャラン・アンパン沿いに位置し、駐在員の接待や記念日利用に定評がある。マスダ・ヒロシシェフが指揮する懐石料理を軸に、鮨バー・鉄板焼きカウンター・個室5部屋を完備。ランチ11:30〜14:30、ディナー18:30〜22:30。TripAdvisor Travellers' Choice受賞歴あり。",
+    "menu": [
+      {
+        "name": "ランチセットメニュー",
+        "price": "MYR 80〜150",
+        "category": "ランチ"
+      },
+      {
+        "name": "懐石コース（ディナー）",
+        "price": "MYR 250〜",
+        "category": "ディナー"
+      },
+      {
+        "name": "おまかせコース",
+        "price": "MYR 300〜",
+        "category": "おまかせ"
+      }
+    ],
+    "price_range": "MYR 100〜350/人"
   },
   {
     "slug": "sushi-yoshi-kl",
@@ -1007,7 +1069,46 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "ダマンサラ・アップタウン発祥のハラール認証ラーメン専門店（2019年創業）。豊かな鶏出汁の鶏白湯ラーメンが看板メニュー。東京ラーメン・野菜ラーメン・カラアゲ丼・チキンカツ丼・日本カレーライスも揃う。10時〜22時（LO 21時）。KL・セランゴール州内10店舗展開中。フランチャイズ非展開。",
+    "menu": [
+      {
+        "name": "鶏白湯ラーメン 醤油",
+        "price": "MYR 22〜28",
+        "category": "ラーメン"
+      },
+      {
+        "name": "鶏白湯ラーメン 塩",
+        "price": "MYR 22〜28",
+        "category": "ラーメン"
+      },
+      {
+        "name": "鶏白湯ラーメン エクストリーム",
+        "price": "MYR 25〜32",
+        "category": "ラーメン"
+      },
+      {
+        "name": "東京ラーメン",
+        "price": "MYR 20〜26",
+        "category": "ラーメン"
+      },
+      {
+        "name": "唐揚げ丼",
+        "price": "MYR 18〜22",
+        "category": "丼"
+      },
+      {
+        "name": "チキンカツ丼",
+        "price": "MYR 18〜22",
+        "category": "丼"
+      },
+      {
+        "name": "日本カレーライス",
+        "price": "MYR 18〜22",
+        "category": "ご飯もの"
+      }
+    ],
+    "price_range": "MYR 20〜35/人"
   },
   {
     "slug": "maruki-ramen-linc-kl",
@@ -1903,7 +2004,36 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "1ウタマ・TRX・サンウェイピラミッド等5店舗展開の一人焼肉専門店。個人専用の無煙グリルでアンガス・和牛を自分のペースで楽しめる。スキヤキカルビ・各種セットミール・どんぶり・ホットポットが揃う。ハラール認証済み。毎日11:30〜22:00。",
+    "menu": [
+      {
+        "name": "スキヤキカルビ",
+        "price": "MYR 31.90",
+        "category": "焼肉"
+      },
+      {
+        "name": "カルビセットミール",
+        "price": "MYR 34.90",
+        "category": "セット"
+      },
+      {
+        "name": "アラカルト（各種）",
+        "price": "MYR 28〜",
+        "category": "アラカルト"
+      },
+      {
+        "name": "ホットポット",
+        "price": "MYR 36.90〜",
+        "category": "鍋"
+      },
+      {
+        "name": "どんぶり（各種）",
+        "price": "MYR 31.90〜",
+        "category": "丼"
+      }
+    ],
+    "price_range": "MYR 30〜60/人"
   },
   {
     "slug": "tonkatsu-ma-maison-1-utama",
@@ -5762,7 +5892,36 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "ブキビンタンのチャンカット通りに位置する焼き鳥専門居酒屋。水炊き鍋・和牛朴葉焼き・おでん・串天ぷら・焼き鳥を中心としたメニュー。毎日16:30〜24:00営業。サッポロ生ビール・ハイボール・日本酒・焼酎も充実。WhatsApp・電話による予約が可能。",
+    "menu": [
+      {
+        "name": "水炊き鍋",
+        "price": "MYR 60〜",
+        "category": "鍋"
+      },
+      {
+        "name": "和牛朴葉焼き",
+        "price": "MYR 80〜",
+        "category": "焼き料理"
+      },
+      {
+        "name": "おでん盛り合わせ",
+        "price": "MYR 30〜",
+        "category": "おでん"
+      },
+      {
+        "name": "串天ぷら（各種）",
+        "price": "MYR 8〜15/本",
+        "category": "揚げ物"
+      },
+      {
+        "name": "焼き鳥（各種）",
+        "price": "MYR 8〜15/本",
+        "category": "焼き鳥"
+      }
+    ],
+    "price_range": "MYR 60〜120/人"
   },
   {
     "slug": "yakitori-kakusu-changkat",
@@ -5814,7 +5973,41 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "スリ・ハルタマス8番街に位置する豚肉専門の本格居酒屋。もつ鍋・煮付け豚足・おでん・グリル桜リブ・串焼き・豚足ポン酢など豚の各部位を使ったメニューが揃う。毎日16:30〜23:30。コース料理はなく、居酒屋スタイルで自由に注文できる。",
+    "menu": [
+      {
+        "name": "もつ鍋",
+        "price": "MYR 50〜",
+        "category": "鍋"
+      },
+      {
+        "name": "煮付け豚足",
+        "price": "MYR 35〜",
+        "category": "煮物"
+      },
+      {
+        "name": "おでん盛り合わせ",
+        "price": "MYR 30〜",
+        "category": "おでん"
+      },
+      {
+        "name": "グリル桜リブ",
+        "price": "MYR 55〜",
+        "category": "グリル"
+      },
+      {
+        "name": "串焼き（各種）",
+        "price": "MYR 8〜15/本",
+        "category": "串焼き"
+      },
+      {
+        "name": "豚足 ポン酢",
+        "price": "MYR 30〜",
+        "category": "前菜"
+      }
+    ],
+    "price_range": "MYR 60〜120/人"
   },
   {
     "slug": "teppan-sakaba-taman-desa",
@@ -5865,7 +6058,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "PJのダマンサラ・ジャヤに位置する日本式居酒屋。鮮魚の刺身・焼き鳥・焼き野菜を中心に、虎エビ・アサリなどの海鮮も充実。プライベートダイニング対応。毎日13時〜15時・17時〜23時営業。サッポロ生ビール・ハイボール・日本酒・焼酎あり。WhatsApp予約推奨。",
+    "menu": [
+      {
+        "name": "プレミアム刺身盛り合わせ",
+        "price": "MYR 80〜",
+        "category": "刺身"
+      },
+      {
+        "name": "焼き鳥（各種）",
+        "price": "MYR 8〜15/本",
+        "category": "焼き鳥"
+      },
+      {
+        "name": "サッポロ生ビール",
+        "price": "MYR 25〜",
+        "category": "ドリンク"
+      },
+      {
+        "name": "ハイボール",
+        "price": "MYR 18〜",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "MYR 60〜120/人"
   },
   {
     "slug": "ao-omakase-ttdi",
@@ -5891,7 +6108,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "TTDIのバンナン・AHPビル2階にある日本フュージョンおまかせ。スティーブシェフが旬の海鮮と野菜を使い、月〜土ランチ11:30〜14:30・ディナー18時〜と20:30〜の2部制で提供。日曜はプライベートイベントのみ。完全予約制（WhatsApp）。",
+    "menu": [
+      {
+        "name": "おまかせランチコース",
+        "price": "MYR 200〜",
+        "category": "ランチ"
+      },
+      {
+        "name": "おまかせディナーコース 1st session",
+        "price": "MYR 350〜",
+        "category": "ディナー"
+      },
+      {
+        "name": "おまかせディナーコース 2nd session",
+        "price": "MYR 350〜",
+        "category": "ディナー"
+      }
+    ],
+    "price_range": "MYR 200〜400/人"
   },
   {
     "slug": "manten-omakase-kl",
@@ -5917,7 +6153,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "スター・レジデンス・タワー2の88階ルーフトップに位置する絶景おまかせレストラン。KLのスカイラインを一望しながら日本料理が楽しめる。「シェフに任せてください」という哲学のもと、日本食材と国際的な技法を融合させた独自のおまかせを提供。月〜日ランチ11:30〜14:30・ディナー18時〜・20:30〜の2部制。",
+    "menu": [
+      {
+        "name": "おまかせランチコース",
+        "price": "MYR 250〜",
+        "category": "ランチ"
+      },
+      {
+        "name": "おまかせディナーコース（1st）",
+        "price": "MYR 400〜",
+        "category": "ディナー"
+      },
+      {
+        "name": "おまかせディナーコース（2nd）",
+        "price": "MYR 400〜",
+        "category": "ディナー"
+      }
+    ],
+    "price_range": "MYR 250〜500/人"
   },
   {
     "slug": "uroko-japanese-pj",
@@ -5996,7 +6251,36 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "PJのダマンサラ・ウタマとスバンジャヤのタイパン・ビジネスセンターに店舗を持つ居酒屋。焼き鳥・串焼き・刺身・ラーメン・うどん・どんぶりを幅広く提供。ハインケン・キリン・ギネス生ビール、サントリー角ハイボールも充実。2026年6月にオールド・クラン・ロード（KL）に3店舗目出店予定。",
+    "menu": [
+      {
+        "name": "牛ストリップロイン串",
+        "price": "MYR 20〜",
+        "category": "焼き鳥"
+      },
+      {
+        "name": "豚バラ串",
+        "price": "MYR 12〜",
+        "category": "焼き鳥"
+      },
+      {
+        "name": "刺身盛り合わせ",
+        "price": "MYR 55〜",
+        "category": "刺身"
+      },
+      {
+        "name": "ラーメン（各種）",
+        "price": "MYR 18〜25",
+        "category": "麺"
+      },
+      {
+        "name": "どんぶり（各種）",
+        "price": "MYR 20〜30",
+        "category": "丼"
+      }
+    ],
+    "price_range": "MYR 50〜100/人"
   },
   {
     "slug": "hoshiki-izakaya-subang",
@@ -6073,7 +6357,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "ブキビンタンのジャラン・メスイに位置するマレーシア屈指の砂焼き炭火焼き居酒屋。アンソン・マスターシェフ（20年超の経験）が担当。北海道沖300〜500mから水揚げされる希少な「キンキ」をはじめ、旬の高級魚を炭火砂焼きで提供。ライブバンド・DJが毎晩20時から入り深夜3時まで営業。Tatler Asia掲載歴あり。Google評価4.9。",
+    "menu": [
+      {
+        "name": "キンキ（砂焼き特選）",
+        "price": "MYR 200〜（時価）",
+        "category": "特選焼き魚"
+      },
+      {
+        "name": "炭火砂焼き魚（各種）",
+        "price": "MYR 80〜200（時価）",
+        "category": "焼き魚"
+      },
+      {
+        "name": "刺身盛り合わせ",
+        "price": "MYR 80〜",
+        "category": "刺身"
+      },
+      {
+        "name": "日本酒・ビール",
+        "price": "MYR 20〜50/杯",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "MYR 120〜300/人（ディナー）"
   },
   {
     "slug": "taka-st-regis-kl",
@@ -6561,7 +6869,36 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "PLATINUMパーク・KLCCに隣接した、カウンター18席のみの天ぷら専門店。2日ごとに日本の市場から空輸した旬の食材を使い、季節のメニューを提供。海老・穴子・薩摩芋の定番から、和牛×コンテチーズ・ウニ×大葉など革新的な組み合わせも。月〜土ランチ12時〜15時、ディナー18時〜22:30。",
+    "menu": [
+      {
+        "name": "天ぷらコース（ランチ）",
+        "price": "MYR 180〜",
+        "category": "ランチ"
+      },
+      {
+        "name": "天ぷらコース（ディナー）",
+        "price": "MYR 280〜",
+        "category": "ディナー"
+      },
+      {
+        "name": "海老天ぷら",
+        "price": "MYR 30〜",
+        "category": "単品"
+      },
+      {
+        "name": "穴子天ぷら",
+        "price": "MYR 35〜",
+        "category": "単品"
+      },
+      {
+        "name": "ウニ×大葉天ぷら",
+        "price": "MYR 50〜",
+        "category": "特選"
+      }
+    ],
+    "price_range": "MYR 180〜350/人"
   },
   {
     "slug": "juu-nana-sakaba-pj",
@@ -7377,7 +7714,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "バンサー・サウスのタワー11に位置する本格おまかせ&炉端焼き専門店。田丸孝二シェフ（日本料理経験40年以上）が豊洲市場から空輸する旬の食材を使用。1週間前からの完全予約制（TableApp）。ランチ12時〜・13:30〜の2部制、ディナー18時〜・20:30〜の2部制。",
+    "menu": [
+      {
+        "name": "おまかせランチコース",
+        "price": "MYR 300〜",
+        "category": "ランチ"
+      },
+      {
+        "name": "おまかせディナーコース",
+        "price": "MYR 500〜",
+        "category": "ディナー"
+      },
+      {
+        "name": "炉端焼きコース",
+        "price": "MYR 350〜",
+        "category": "炉端焼き"
+      }
+    ],
+    "price_range": "MYR 300〜600/人"
   },
   {
     "slug": "harumi-23-desa-parkcity",
@@ -8409,7 +8765,46 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "ラーラポート・ブキビンタン・シティセンター等に展開するA5シモムラ牛和牛専門のカジュアルレストラン。ハンバーグ・バーガー・丼などリーズナブルな和牛料理が揃う。ハラール認証取得済みのため、ムスリムの方も安心して利用できる。月〜日11時〜22時。",
+    "menu": [
+      {
+        "name": "A5和牛ハンバーグ（セット）",
+        "price": "MYR 38.80",
+        "category": "セット"
+      },
+      {
+        "name": "A5和牛ダブルハンバーグ（セット）",
+        "price": "MYR 58.80",
+        "category": "セット"
+      },
+      {
+        "name": "A5和牛フォアグラ入りハンバーグ（セット）",
+        "price": "MYR 69.80",
+        "category": "セット"
+      },
+      {
+        "name": "うなたま丼（セット）",
+        "price": "MYR 48.80",
+        "category": "丼"
+      },
+      {
+        "name": "A5和牛チーズハンバーグ",
+        "price": "MYR 23.80",
+        "category": "単品"
+      },
+      {
+        "name": "A5和牛 牛すじ大根",
+        "price": "MYR 16.80",
+        "category": "サイド"
+      },
+      {
+        "name": "A5和牛 串揚げボール",
+        "price": "MYR 16.80",
+        "category": "サイド"
+      }
+    ],
+    "price_range": "MYR 35〜70/人（セット）"
   },
   {
     "slug": "hut-sake-bar-lalaport-bbcc",
@@ -8782,7 +9177,36 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "ガーデンズモール1階に位置する本格日本料理。おまかせ・丼・寿司・焼肉・鮨カウンター・個室を完備した多様なスタイルが特徴。4月のランチ・ディナーメニューが揃い、ビジネスランチから接待まで幅広く対応。11:30〜14:30・18時〜21:30。",
+    "menu": [
+      {
+        "name": "おまかせランチ",
+        "price": "MYR 200〜",
+        "category": "ランチ"
+      },
+      {
+        "name": "おまかせディナー",
+        "price": "MYR 400〜",
+        "category": "ディナー"
+      },
+      {
+        "name": "どんぶり（各種）",
+        "price": "MYR 50〜80",
+        "category": "丼"
+      },
+      {
+        "name": "銀だらの西京焼き",
+        "price": "MYR 80〜",
+        "category": "魚料理"
+      },
+      {
+        "name": "サーモンミルフィーユ",
+        "price": "MYR 60〜",
+        "category": "前菜"
+      }
+    ],
+    "price_range": "MYR 80〜400/人"
   },
   {
     "slug": "torii-damansara-heights",
@@ -11579,7 +12003,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "ガーデンズモール3階に位置する、東京ミシュラン星シェフJeff Okada Ramseyが手掛ける日本料理店。アラカルト（食堂スタイル）から懐石おまかせ・宮崎和牛おまかせまで揃う。天井のイチョウ葉装飾が印象的な落ち着いた空間。月〜日12時〜15時・18時〜22時。おまかせLO 21時。",
+    "menu": [
+      {
+        "name": "宮崎和牛おまかせコース",
+        "price": "MYR 600〜",
+        "category": "おまかせ"
+      },
+      {
+        "name": "懐石おまかせ Iki（精選寿司懐石）",
+        "price": "MYR 400〜",
+        "category": "おまかせ"
+      },
+      {
+        "name": "懐石おまかせ Ito（炎料理）",
+        "price": "MYR 350〜",
+        "category": "おまかせ"
+      },
+      {
+        "name": "アラカルト（丼・麺・寿司）",
+        "price": "MYR 40〜80",
+        "category": "アラカルト"
+      }
+    ],
+    "price_range": "MYR 50〜600/人（内容による）"
   },
   {
     "slug": "yayoi-japanese-teishoku-restaurant",
@@ -11756,7 +12204,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "ニュー・エンパイア等に複数展開する本格鮨・おまかせ専門店。おまかせ「海」（MYR298）・「天」（MYR498）などリーズナブルから高級まで揃う。季節の刺身・握り・軍艦・巻き寿司・手巻きが充実。A5和牛・フォアグラ入りの特選メニューも提供。ジョージタウンのシティ・ジャンクション店等にも展開。",
+    "menu": [
+      {
+        "name": "おまかせ 海",
+        "price": "MYR 298",
+        "category": "おまかせ"
+      },
+      {
+        "name": "おまかせ 天",
+        "price": "MYR 498",
+        "category": "おまかせ"
+      },
+      {
+        "name": "シグネチャー刺身盛り合わせ",
+        "price": "MYR 150〜",
+        "category": "刺身"
+      },
+      {
+        "name": "握り寿司（各種）",
+        "price": "MYR 20〜50/2貫",
+        "category": "寿司"
+      }
+    ],
+    "price_range": "MYR 150〜500/人"
   },
   {
     "slug": "ishin-japanese-dining-kl",
@@ -11960,7 +12432,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "シャングリラKL内にある格調高い日本料理レストラン。ジャラン・スルタン・イスマイル沿いに位置し、日本人駐在員の接待や記念日利用に定評がある。おまかせ・セットメニューが充実し、大将の滝澤和夫シェフが旬の素材を活かした創作日本料理を提供。ランチ12時〜14:30、ディナー18:30〜22:30。スマートカジュアルのドレスコードあり。キャッシュレス決済のみ。",
+    "menu": [
+      {
+        "name": "おまかせコース（ディナー）",
+        "price": "MYR 300〜",
+        "category": "ディナー"
+      },
+      {
+        "name": "Zeitaku Zanmai Dinner Set",
+        "price": "MYR 200〜",
+        "category": "ディナー"
+      },
+      {
+        "name": "The Nadaman Bento Box（ランチ）",
+        "price": "MYR 80〜",
+        "category": "ランチ"
+      },
+      {
+        "name": "刺身盛り合わせ",
+        "price": "MYR 80〜",
+        "category": "おすすめ"
+      }
+    ],
+    "price_range": "MYR 80〜350/人（内容による）"
   },
   {
     "slug": "enoshima-japanese-restaurant",
@@ -12047,7 +12543,36 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "PJセクション17に位置する、「高品質な日本料理をリーズナブルな価格で」をコンセプトにした日本料理店。刺身・茶碗蒸し・ウロコサラダ・フォアグラ×蒸しメロン・焼き鳥・鮨・天ぷらと幅広いメニューを提供。ドレスコードなし（カジュアルOK）。月〜日11:30〜14:30・17:30〜22時。",
+    "menu": [
+      {
+        "name": "ウロコサラダ（特製ドレッシング）",
+        "price": "MYR 25〜",
+        "category": "サラダ"
+      },
+      {
+        "name": "茶碗蒸し",
+        "price": "MYR 15〜",
+        "category": "前菜"
+      },
+      {
+        "name": "フォアグラの炙り 蒸しメロン添え",
+        "price": "MYR 55〜",
+        "category": "前菜"
+      },
+      {
+        "name": "刺身盛り合わせ",
+        "price": "MYR 80〜",
+        "category": "刺身"
+      },
+      {
+        "name": "焼き鳥（各種）",
+        "price": "MYR 8〜15/本",
+        "category": "焼き鳥"
+      }
+    ],
+    "price_range": "MYR 60〜120/人"
   },
   {
     "slug": "nonbiri-izakaya-japanese-restaurant",
@@ -12341,7 +12866,21 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "パビリオンKLから徒歩5分のVipodレジデンス内にある本格江戸前おまかせ鮨。2014年創業で10万人以上を迎えた実績。川崎直哉料理長（経験30年以上・日本料理親善大使）が旬の日本直送食材で季節のおまかせを提供。金・土・日のみ営業、完全予約制（TableCheck）。駐車場8台分あり。",
+    "menu": [
+      {
+        "name": "おまかせランチ（春）",
+        "price": "MYR 280〜",
+        "category": "ランチ"
+      },
+      {
+        "name": "おまかせディナー（春）",
+        "price": "MYR 450〜",
+        "category": "ディナー"
+      }
+    ],
+    "price_range": "MYR 280〜500/人"
   },
   {
     "slug": "kazu",
@@ -12457,7 +12996,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "KLのジャラン・クランラマ沿いに位置する完全予約制の本格日本料理。新懐石・割烹おまかせを専門とし、日本の海岸から週2回空輸する旬の食材を使用。25年以上の経験を持つシェフチームが担当。半個室の畳部屋と鮨カウンターあり。月〜日12時〜14:30・18時〜22:30（予約制のみ）。",
+    "menu": [
+      {
+        "name": "テイショク ランチセット",
+        "price": "MYR 80〜150",
+        "category": "ランチ"
+      },
+      {
+        "name": "新懐石おまかせコース（ディナー）",
+        "price": "MYR 350〜",
+        "category": "おまかせ"
+      },
+      {
+        "name": "割烹コース（ディナー）",
+        "price": "MYR 300〜",
+        "category": "割烹"
+      }
+    ],
+    "price_range": "MYR 100〜400/人"
   },
   {
     "slug": "sou-omakase-dining-the-gardens-mall-mid-valley",
@@ -12983,7 +13541,36 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "KLエコシティ・KLECモール2階に位置するユニークなコンセプトレストラン。蕎麦・ハンバーグ・干物・焼き鳥・餃子・カレーなど8つの日本食ジャンルを1つの空間で楽しめる。ランチ11時〜14:30・ディナー16:30〜22時（日曜定休）。テイクアウト対応。",
+    "menu": [
+      {
+        "name": "本格蕎麦（そばすけ）",
+        "price": "MYR 18〜28",
+        "category": "麺"
+      },
+      {
+        "name": "ハンバーグセット（21ハンバーグ）",
+        "price": "MYR 28〜40",
+        "category": "メイン"
+      },
+      {
+        "name": "焼き鳥（各種）",
+        "price": "MYR 8〜12/本",
+        "category": "焼き鳥"
+      },
+      {
+        "name": "爆弾焼き餃子",
+        "price": "MYR 12〜18",
+        "category": "餃子"
+      },
+      {
+        "name": "スパイスカレー（茜カレー）",
+        "price": "MYR 18〜28",
+        "category": "カレー"
+      }
+    ],
+    "price_range": "MYR 30〜60/人"
   },
   {
     "slug": "nippon-syokudo",
@@ -13189,7 +13776,36 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "ブキビンタンのジャラン・メスイに位置する兵庫県姫路スタイルの焼き鳥居酒屋。坪坂オーナーが姫路から移転し、同じ調理・リズムを再現。焼き鳥・姫路おでん・ラーメン・土鍋ご飯と姫路蔵元の地酒・日本酒が揃う。平日17時〜24時・週末15時〜24時。個室（7名まで）・カウンター席完備。",
+    "menu": [
+      {
+        "name": "焼き鳥（各種）",
+        "price": "MYR 6〜15/本",
+        "category": "焼き鳥"
+      },
+      {
+        "name": "姫路おでん盛り合わせ",
+        "price": "MYR 30〜",
+        "category": "おでん"
+      },
+      {
+        "name": "ラーメン",
+        "price": "MYR 18〜25",
+        "category": "麺"
+      },
+      {
+        "name": "土鍋ご飯",
+        "price": "MYR 15〜20",
+        "category": "ご飯もの"
+      },
+      {
+        "name": "キリン生ビール・角ハイボール",
+        "price": "MYR 15〜25/杯",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "MYR 60〜120/人"
   },
   {
     "slug": "la-vida-kitchen-and-bar",
@@ -13394,7 +14010,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "タマン・デサのフェーバー・タワーに位置する鉄板焼き居酒屋。和牛やイベリコ豚の鉄板焼きから気軽な日本風小皿料理まで幅広く提供。日〜木12:30〜15時・17時〜22:30、金土〜23時。グループでの会食から気軽な一人飲みまで対応できる雰囲気。",
+    "menu": [
+      {
+        "name": "和牛鉄板焼き",
+        "price": "MYR 80〜",
+        "category": "鉄板"
+      },
+      {
+        "name": "イベリコ豚鉄板焼き",
+        "price": "MYR 65〜",
+        "category": "鉄板"
+      },
+      {
+        "name": "ハンバーグ鉄板",
+        "price": "MYR 40〜",
+        "category": "鉄板"
+      },
+      {
+        "name": "日本風小皿料理（各種）",
+        "price": "MYR 15〜30",
+        "category": "小皿"
+      }
+    ],
+    "price_range": "MYR 60〜150/人"
   },
   {
     "slug": "nihonkai-sunway-japanese-restaurant",
@@ -13745,7 +14385,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "モン・キアラのパビリカ・ショッピングモールに位置する大阪発の本格居酒屋。2018年2月オープン。フードメニュー・ランチメニュー・ドリンクメニュー（PDFあり）が揃い、大阪スタイルの気軽な居酒屋文化をKLで体験できる。365日営業、深夜まで開いている。",
+    "menu": [
+      {
+        "name": "大阪スタイル居酒屋料理（各種）",
+        "price": "MYR 20〜50",
+        "category": "フード"
+      },
+      {
+        "name": "ランチセット",
+        "price": "MYR 25〜40",
+        "category": "ランチ"
+      },
+      {
+        "name": "ビール・日本酒・ハイボール",
+        "price": "MYR 15〜40",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "MYR 50〜100/人"
   },
   {
     "slug": "kafei-dian-petaling-street-kl",
@@ -13891,7 +14550,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "KLCC（クアラルンプール・コンベンションセンター）向かいのデ・キングホテル（ジャラン・アンパン160番地）に位置する大型居酒屋。円形寿司バー（40席）を含む約150席の空間で、焼き鳥・串焼き・ロバタ炭火焼き・寿司・日本酒が揃う。ジョニー・アウ・ヨン師匠料理長（35年以上の経験）が在籍。",
+    "menu": [
+      {
+        "name": "焼き鳥盛り合わせ（各種）",
+        "price": "MYR 35〜60",
+        "category": "焼き鳥"
+      },
+      {
+        "name": "ジャンボタイガープロウン（炭火焼き）",
+        "price": "MYR 55〜",
+        "category": "炭火焼き"
+      },
+      {
+        "name": "和牛串（各種）",
+        "price": "MYR 40〜60/串",
+        "category": "串焼き"
+      },
+      {
+        "name": "日本酒・焼酎・ビール",
+        "price": "MYR 15〜40/杯",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "MYR 80〜150/人"
   },
   {
     "slug": "warakuya-japanese-restaurant",
@@ -14419,7 +15102,51 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "2025年オープン、KLのクポン近くのトゥサハワン・タマン地区に位置する日本フュージョンカフェ＆レストラン。和食の伝統と現代的な技法を融合した創作料理が特徴で、おまかせコース（MYR 188・488）も用意。火〜日12時〜15時・18時〜22時。月曜定休。",
+    "menu": [
+      {
+        "name": "和牛バーガー丼",
+        "price": "MYR 32",
+        "category": "丼"
+      },
+      {
+        "name": "サーモン・イクラ丼",
+        "price": "MYR 32",
+        "category": "丼"
+      },
+      {
+        "name": "蕎麦 トリュフ醤油 サーモン",
+        "price": "MYR 33",
+        "category": "麺"
+      },
+      {
+        "name": "フォアグラパフ（3個）",
+        "price": "MYR 38",
+        "category": "前菜"
+      },
+      {
+        "name": "抹茶パルフェ",
+        "price": "MYR 24",
+        "category": "デザート"
+      },
+      {
+        "name": "抹茶ラテ",
+        "price": "MYR 15",
+        "category": "ドリンク"
+      },
+      {
+        "name": "おまかせ188",
+        "price": "MYR 188",
+        "category": "おまかせ"
+      },
+      {
+        "name": "おまかせ488",
+        "price": "MYR 488",
+        "category": "おまかせ"
+      }
+    ],
+    "price_range": "MYR 30〜50/人（アラカルト）/ MYR 188〜488（おまかせ）"
   },
   {
     "slug": "ichi-zen-pavilion-kl-2",
@@ -17916,7 +18643,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "JBコムタールJBCC等に展開する徳島産阿波牛（A5等級）専門のやきにく・しゃぶしゃぶ・すきやきレストラン。2019年創業、マレーシアで初めて阿波牛全種を提供する店。IOIシティモール（プトラジャヤ）にも展開済み。JBを訪れる日本人駐在員や観光客にも人気。",
+    "menu": [
+      {
+        "name": "阿波牛やきにく（各部位）",
+        "price": "MYR 50〜150/皿",
+        "category": "やきにく"
+      },
+      {
+        "name": "阿波牛しゃぶしゃぶ",
+        "price": "MYR 80〜150/人",
+        "category": "しゃぶしゃぶ"
+      },
+      {
+        "name": "阿波牛すきやき",
+        "price": "MYR 80〜150/人",
+        "category": "すきやき"
+      },
+      {
+        "name": "寿司・刺身",
+        "price": "MYR 30〜60",
+        "category": "寿司"
+      }
+    ],
+    "price_range": "MYR 100〜200/人"
   },
   {
     "slug": "shin-mura-wagyu-robata",
@@ -18738,7 +19489,36 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "JBのタマン・モレックとタマン・マウント・オースティンに2店舗を構えるアットホームな日本食堂。100種類以上のサイドディッシュとシグネチャーセット（26.90リンギ〜）を自由に組み合わせられるスタイルが人気。2000年代初頭から続く老舗レシピをもとに営業。月〜日11:30〜21:30（モレック）。",
+    "menu": [
+      {
+        "name": "シグネチャー・ショクドウセット",
+        "price": "MYR 26.90",
+        "category": "セット"
+      },
+      {
+        "name": "日本風キムチ鍋セット",
+        "price": "MYR 28.90",
+        "category": "セット"
+      },
+      {
+        "name": "プレミアムセット",
+        "price": "MYR 45.00",
+        "category": "セット"
+      },
+      {
+        "name": "伝統的ポテトサラダ",
+        "price": "MYR 3.90",
+        "category": "サイド"
+      },
+      {
+        "name": "焼き餃子",
+        "price": "MYR 8.90",
+        "category": "サイド"
+      }
+    ],
+    "price_range": "MYR 25〜50/人"
   },
   {
     "slug": "sushi-zento-mount-austin",
@@ -20000,7 +20780,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "JBイスカンダル・プトリのエコ・ボタニック地区に位置するジョホール初のいろり式本格日本料理店。炭火で焼く伝統的な囲炉裏スタイルで海鮮・肉類を楽しめる。毎日15時〜23時営業（ランチは近日公開予定）。WhatsApp予約受付中。",
+    "menu": [
+      {
+        "name": "炭火焼き海鮮盛り合わせ",
+        "price": "MYR 60〜",
+        "category": "いろり焼き"
+      },
+      {
+        "name": "炭火焼き肉盛り合わせ",
+        "price": "MYR 60〜",
+        "category": "いろり焼き"
+      },
+      {
+        "name": "いろりコース（ディナー）",
+        "price": "MYR 100〜",
+        "category": "コース"
+      }
+    ],
+    "price_range": "MYR 80〜150/人"
   },
   {
     "slug": "uotaro-japanese-restaurant",
@@ -20682,7 +21481,36 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "コタ・キナバルのロン・スリ・ケパヤン商業センターに位置する日本フュージョン料理店。サバ産の地元食材と日本の調理技法を融合した創作料理が特徴。寿司・鉄板焼きセット・どんぶりが揃う。毎日12時〜15時・17:30〜22時。WhatsApp（017-282 3405）で予約可能。",
+    "menu": [
+      {
+        "name": "和牛（プレミアム）鉄板焼き",
+        "price": "MYR 80〜",
+        "category": "鉄板"
+      },
+      {
+        "name": "フォーチュン刺身盛り",
+        "price": "MYR 80〜",
+        "category": "刺身"
+      },
+      {
+        "name": "チャーシューラーメン",
+        "price": "MYR 22〜",
+        "category": "ラーメン"
+      },
+      {
+        "name": "レインボー巻き",
+        "price": "MYR 35〜",
+        "category": "寿司"
+      },
+      {
+        "name": "どんぶり（各種）",
+        "price": "MYR 25〜40",
+        "category": "丼"
+      }
+    ],
+    "price_range": "MYR 40〜100/人"
   },
   {
     "slug": "recipes-house-karamunsing",

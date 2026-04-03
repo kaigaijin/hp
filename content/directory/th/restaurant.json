@@ -182,7 +182,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "price_range": "THB 80〜3,000/人",
+    "detail": "スクンビットソイ24にある炉端焼き専門店。毎日18:00〜01:00のナイト営業専門で、炭火で焙った料理を赤いパドルで提供する独特のスタイル。カラオケルーム完備、地下階ではオールドスクールヒップホップの雰囲気を楽しめる。串焼き・手巻き寿司・居酒屋メニューのほか、ベジタリアン対応も可。BTSプロンポン駅（E5）から徒歩圏内。Soho Hospitality運営。"
   },
   {
     "slug": "sushi-yorokobu-thonglor",
@@ -209,7 +211,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "menu": [
+      {
+        "name": "12コースおまかせ",
+        "price": "THB 2,900",
+        "category": "おまかせコース"
+      },
+      {
+        "name": "16コースおまかせ（北海道ウニ付き）",
+        "price": "THB 3,900",
+        "category": "おまかせコース"
+      },
+      {
+        "name": "20コースおまかせマスターピース",
+        "price": "THB 6,900",
+        "category": "おまかせコース"
+      }
+    ],
+    "price_range": "THB 2,900〜6,900/人",
+    "detail": "トンロー10番地に位置する完全予約制の江戸前寿司店。東京・豊洲市場から週数回空輸される最高級食材を使用し、12〜20皿のおまかせコースのみを提供。12コースTHB 2,900、16コースTHB 3,900（北海道ウニ付き）、20コースTHB 6,900の3段階。最寄りはBTSトンロー駅。シーズナルな江戸前握りと日本料理が融合した「季節のおまかせの旅」を楽しめるカウンター席スタイル。"
   },
   {
     "slug": "bankara-ramen-sukhumvit39",
@@ -495,7 +516,86 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "menu": [
+      {
+        "name": "刺身・寿司コンボ（デラックス）",
+        "price": "THB 690",
+        "category": "刺身・寿司"
+      },
+      {
+        "name": "刺身・寿司コンボ（プレミアム）",
+        "price": "THB 480",
+        "category": "刺身・寿司"
+      },
+      {
+        "name": "サーモン刺身",
+        "price": "THB 330",
+        "category": "刺身"
+      },
+      {
+        "name": "マグロ刺身",
+        "price": "THB 200",
+        "category": "刺身"
+      },
+      {
+        "name": "カリフォルニアロール（3貫）",
+        "price": "THB 120",
+        "category": "寿司"
+      },
+      {
+        "name": "アラスカサーモンロール（6貫）",
+        "price": "THB 280",
+        "category": "寿司"
+      },
+      {
+        "name": "ウナギ握り（2貫）",
+        "price": "THB 290",
+        "category": "寿司"
+      },
+      {
+        "name": "フジ弁当（刺身セット）",
+        "price": "THB 495",
+        "category": "セット"
+      },
+      {
+        "name": "サーモン定食（照り焼き/塩焼き）",
+        "price": "THB 295",
+        "category": "定食"
+      },
+      {
+        "name": "とんかつ定食",
+        "price": "THB 225",
+        "category": "定食"
+      },
+      {
+        "name": "すき焼きセット（牛）",
+        "price": "THB 370",
+        "category": "セット"
+      },
+      {
+        "name": "醤油ラーメン",
+        "price": "THB 140",
+        "category": "麺類"
+      },
+      {
+        "name": "カツ丼",
+        "price": "THB 180",
+        "category": "ご飯"
+      },
+      {
+        "name": "抹茶アイス",
+        "price": "THB 80",
+        "category": "デザート"
+      },
+      {
+        "name": "ティラミス",
+        "price": "THB 140",
+        "category": "デザート"
+      }
+    ],
+    "price_range": "THB 140〜760/人（ランチセットは225〜495）",
+    "detail": "タイ国内に100店舗以上を展開する最大手の日本料理チェーン。1999年創業でチェンライ産オーガニック米と日本から輸入した緑茶を使用するなど食材にこだわりを持つ。刺身・寿司・定食・ラーメンと幅広いメニューを用意し、ランチセットはTHB 225〜495と日常使いしやすい価格帯。デリバリーサービスも対応。竹筒型ボトルの日本緑茶（THB 30〜35）が名物。ショッピングモール内店舗が多く、家族連れでも利用しやすい雰囲気。"
   },
   {
     "slug": "ootoya-bangkok",
@@ -1284,7 +1384,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "プルマンバンコクキングパワーホテル内、植物園と錦鯉池に囲まれた独立建屋のオープンキッチン型カッポウ・おまかせ寿司店。自然素材（石・木）を使ったミニマリストデザインのカウンター席で、シェフの調理を間近に楽しめる。日本産陶磁器・ガラス器を使用した特別な食体験。ランチ12:00〜、ディナー17:30/20:00スタート（火〜日営業）。チットロム駅/ラーチャダムリ駅から徒歩圏内のラーチャウィー地区。"
   },
   {
     "slug": "kuro-house-ekkamai",
@@ -1789,7 +1890,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "SO/バンコクホテル7階にある日本料理レストラン。伝統的な日本料理と創造性を融合させたロバタ焼きと寿司バーを展開。持続可能な野菜・新鮮魚介・プレミアム牛肉・有機米を使用。アラカルトと食べ放題の2つのオプションを提供。ランチ12:00〜15:00、ディナー18:00〜22:00。BTSサラデーン駅またはMRTルンピニー駅近くのノースサートーンロード沿い。"
   },
   {
     "slug": "kuon-no-tsuki-ekkamai",
@@ -2001,7 +2103,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "2015年創業のモダン日本式バッフェスタイル焼肉・カフェ。ザ・シティコネクト店とクリスタルデザインセンター店の2店舗を展開。焼肉グリル・寿司・刺身に加えデザート・軽食・ドリンクをビュッフェ形式で提供。バンコク市内2拠点でアクセスしやすい。"
   },
   {
     "slug": "katsu-ichi-sukhumvit11",
@@ -3207,7 +3310,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "東京発の抹茶専門カフェのバンコク店。タイ国内にエムスフィア店（GM階）とエンポリアム店（1階）の2店舗を展開。スクンビットロード628番のエムスフィアショッッピングモール内が旗艦店。100%オーガニック抹茶を使用したドリンクやスイーツを提供。BTSプロンポン駅直結のエムスフィアまたはエンポリアムにアクセス可能。"
   },
   {
     "slug": "rice-cafe-tsubaki-bangkok",
@@ -5545,7 +5649,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "menu": [
+      {
+        "name": "握りコース",
+        "price": "THB 4,000++",
+        "category": "おまかせコース"
+      },
+      {
+        "name": "ミニおまかせコース",
+        "price": "THB 6,000++",
+        "category": "おまかせコース"
+      },
+      {
+        "name": "おまかせコース（プレミアム）",
+        "price": "THB 8,000++",
+        "category": "おまかせコース"
+      }
+    ],
+    "price_range": "THB 4,000〜8,000++/人",
+    "detail": "スクンビット39近くに位置する完全予約制の江戸前寿司店。1日5ラウンド・1ラウンド9名限定で提供する希少な寿司体験。握りコースTHB 4,000++、ミニおまかせTHB 6,000++、おまかせTHB 8,000++の3プラン。スマートカジュアルの服装規定があり12歳以上対象。厳選食材を日程ごとに特別仕込みし、完璧な食体験を追求するコンセプト。"
   },
   {
     "slug": "kinu-by-takagi-mandarin-oriental",
@@ -7091,7 +7214,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "ソフィテルバンコクスクンビット1階にある日本料理レストラン兼ウイスキーバー。サーモンラバロール、薄造り、刺身盛り合わせなどの日本料理に加え、プレミアムウイスキーコレクションと6種のシグネチャーカクテルを提供。「Madame Mizukiの世界へ」というコンセプトで、日本料理とバーの融合空間。毎日17:00〜翌1:00営業（フード最終注文22:30）。BTSアソーク駅またはMRTスクンビット駅から徒歩圏内。"
   },
   {
     "slug": "isao-sukhumvit31",
@@ -7513,7 +7637,36 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "menu": [
+      {
+        "name": "炭火焼（Charcoal BBQ）",
+        "price": "THB 300〜",
+        "category": "炭火焼"
+      },
+      {
+        "name": "刺身・居酒屋料理",
+        "price": "THB 130〜",
+        "category": "居酒屋"
+      },
+      {
+        "name": "ラーメン・うどん",
+        "price": "THB 120〜",
+        "category": "食事"
+      },
+      {
+        "name": "ドリンク",
+        "price": "THB 85〜",
+        "category": "ドリンク"
+      },
+      {
+        "name": "飲み放題（火曜限定）",
+        "price": "THB 199/2時間",
+        "category": "飲み放題"
+      }
+    ],
+    "price_range": "THB 120〜500/人（炭火焼中心なら300〜）",
+    "detail": "パタヤ・ノンプルー地区にある炭火焼き居酒屋。テーブルでの炭火焼が中心で、刺身・居酒屋料理・ラーメン・うどんまで幅広いメニューを展開。毎週火曜は飲み放題THB 199（2時間）、月末29日は肉の日として特別割引。17:00〜翌2:00営業（毎日）。パタヤ在住の日本人コミュニティにも人気で、Googleで4.5/5（320件）評価。17時以降は車両通行禁止エリアのため徒歩でアクセス。"
   },
   {
     "slug": "shakariki-432-pattaya",
@@ -7963,7 +8116,51 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "menu": [
+      {
+        "name": "ランチコース",
+        "price": "THB 3,500",
+        "category": "ランチおまかせ"
+      },
+      {
+        "name": "おまかせコース（A）",
+        "price": "THB 5,500",
+        "category": "おまかせコース"
+      },
+      {
+        "name": "おまかせコース（B）",
+        "price": "THB 7,500",
+        "category": "おまかせコース"
+      },
+      {
+        "name": "おまかせコース（C）",
+        "price": "THB 9,500",
+        "category": "おまかせコース"
+      },
+      {
+        "name": "ワギュウカッポ",
+        "price": "THB 12,000",
+        "category": "おまかせコース"
+      },
+      {
+        "name": "ザ・エクスペリエンス",
+        "price": "THB 15,000",
+        "category": "おまかせコース"
+      },
+      {
+        "name": "ザ・シンフォニー",
+        "price": "THB 20,000",
+        "category": "おまかせコース"
+      },
+      {
+        "name": "ブルーダイヤモンド（7日前要予約）",
+        "price": "THB 50,000",
+        "category": "スペシャルコース"
+      }
+    ],
+    "price_range": "THB 3,500〜50,000/人",
+    "detail": "サイアムスクエアソイ3の2階にある予約制おまかせ寿司店。「モダンツイストおまかせ」をコンセプトに、ランチ3,500THBからフラッグシップ20,000THBまで多彩なコースを用意。Hungry Hubによる「タイ50ベストレストラン2022」ファインダイニング部門第1位受賞。最高額のブルーダイヤモンドコース（50,000THB）は7日前までの要予約。営業は12:00〜21:30。BTSサイアム駅徒歩圏内。"
   },
   {
     "slug": "mizuki-omakase-sukhumvit",
@@ -9374,7 +9571,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "スクンビットソイ23の地鶏焼き鳥と手打ちそばの日本料理店。エレガントなブラックウォールと秋色のインテリアで統一され、パラゴンスピーカーからジャズが流れる落ち着いた雰囲気。ランチ11:30〜14:30、ディナー17:00〜22:00。BTSアソーク駅またはBTSプロンポン駅から徒歩圏内のスクンビット23（Tokyo Joe's地区）に位置。"
   },
   {
     "slug": "kataru-ramen-bangkok",
@@ -9910,7 +10108,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "menu": [
+      {
+        "name": "11品おまかせセット",
+        "price": "THB 1,499++",
+        "category": "おまかせセット"
+      },
+      {
+        "name": "14品おまかせセット",
+        "price": "THB 1,499++〜",
+        "category": "おまかせセット"
+      },
+      {
+        "name": "17品おまかせセット",
+        "price": "THB 1,499++〜",
+        "category": "おまかせセット"
+      }
+    ],
+    "price_range": "THB 1,499++〜/人",
+    "detail": "スクンビットソイ18のレンブラントホテルM階にある日本料理店。11品・14品・17品のおまかせセット（THB 1,499++〜）とアラカルトを提供。シェフが中心舞台で技術を披露し、ゲストと対話するパフォーマンス的な食事体験が特徴。「stylish yet friendly」な洗練された雰囲気。火〜日曜ランチ12:00〜13:00、ディナー18:00〜22:00。BTSアソーク駅・MRTスクンビット駅から徒歩圏内。"
   },
   {
     "slug": "shibui-omakase-bangkok",

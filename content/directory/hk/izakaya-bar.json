@@ -49,7 +49,36 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "MTR中環駅から徒歩3分、Wyndham Street 43-55番地G/F。「日本の居酒屋文化を香港へ」をコンセプトに、ライブ炭火焼き、厳選日本酒、ハイボール、カクテルを提供。DJ音楽と「隠れた日本の小路」テーマの空間。フリーフローメニューあり。",
+    "menu": [
+      {
+        "name": "ランチメニュー",
+        "price": "要確認",
+        "category": "ランチ"
+      },
+      {
+        "name": "ディナーメニュー",
+        "price": "要確認",
+        "category": "ディナー"
+      },
+      {
+        "name": "ハッピーアワーメニュー",
+        "price": "要確認",
+        "category": "ドリンク"
+      },
+      {
+        "name": "フリーフロー",
+        "price": "要確認",
+        "category": "ドリンク"
+      },
+      {
+        "name": "日本酒",
+        "price": "要確認",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "HKD 300〜600/人（ディナー目安）"
   },
   {
     "slug": "akatsuki-izakaya",
@@ -76,7 +105,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "MTR中環駅から徒歩3分、Duddell Street 1番地G/F。家庭的な日本料理と手ごろな価格が特徴のカジュアル居酒屋。揚げ物、串焼き、おでん、弁当ランチも提供。月〜土曜営業、日曜定休。テイクアウトも対応（My Keeta）。",
+    "menu": [
+      {
+        "name": "ランチ弁当",
+        "price": "要確認",
+        "category": "ランチ"
+      },
+      {
+        "name": "串焼き",
+        "price": "要確認",
+        "category": "アラカルト"
+      },
+      {
+        "name": "おでん",
+        "price": "要確認",
+        "category": "アラカルト"
+      },
+      {
+        "name": "天ぷら",
+        "price": "要確認",
+        "category": "アラカルト"
+      }
+    ],
+    "price_range": "HKD 150〜350/人（ランチ〜ディナー）"
   },
   {
     "slug": "the-aubrey-hk",
@@ -103,7 +156,36 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "MTR中環駅から徒歩3分、マンダリンオリエンタル25階に位置する日本居酒屋＆カクテルバー。Asia's 50 Best Bars 2024で10位。120点以上の日本美術品が飾られた洗練された空間。握り寿司、刺身、ロバタグリル、和牛料理を提供。18時以降はスマートカジュアル必須。",
+    "menu": [
+      {
+        "name": "カクテルメニュー",
+        "price": "要確認",
+        "category": "カクテル"
+      },
+      {
+        "name": "握り寿司",
+        "price": "要確認",
+        "category": "料理"
+      },
+      {
+        "name": "刺身",
+        "price": "要確認",
+        "category": "料理"
+      },
+      {
+        "name": "ロバタグリル",
+        "price": "要確認",
+        "category": "料理"
+      },
+      {
+        "name": "和牛・神戸牛料理",
+        "price": "要確認",
+        "category": "料理"
+      }
+    ],
+    "price_range": "HKD 800〜2,000/人（ディナー目安）"
   },
   {
     "slug": "kozy-causeway-bay",
@@ -548,7 +630,41 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "MTR中環駅から徒歩5分、蘇豪区のイリン街1-5号。「疲れたサラリーマンが飲み食いする東京の居酒屋」をコンセプト。刺身、天ぷら、炭焼き料理、麺・ご飯、デザートと充実のメニュー。日本酒・梅酒・ハイボール・カクテルも豊富。毎日18時〜24時営業。",
+    "menu": [
+      {
+        "name": "大目鮪漬け",
+        "price": "要確認",
+        "category": "刺身"
+      },
+      {
+        "name": "カンパチ",
+        "price": "要確認",
+        "category": "刺身"
+      },
+      {
+        "name": "和牛コロッケ",
+        "price": "要確認",
+        "category": "小食"
+      },
+      {
+        "name": "和牛サンド",
+        "price": "要確認",
+        "category": "小食"
+      },
+      {
+        "name": "炭焼き料理",
+        "price": "要確認",
+        "category": "炭焼き"
+      },
+      {
+        "name": "日本酒",
+        "price": "要確認",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "HKD 300〜700/人（ディナー目安）"
   },
   {
     "slug": "nadagogo-wan-chai",
@@ -1915,7 +2031,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "MTR中環駅から徒歩3分、Duddell Street 1番地G/F。家庭的な日本料理と手ごろな価格が特徴のカジュアル居酒屋。揚げ物、串焼き、おでん、弁当ランチも提供。月〜土曜営業、日曜定休。テイクアウトも対応（My Keeta）。",
+    "price_range": "HKD 150〜350/人（ランチ〜ディナー）"
   },
   {
     "slug": "-6",
@@ -2279,7 +2397,21 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本全国に展開する居食屋「和民」の香港Mong Kok店。定番の日本居酒屋メニューを揃え、デリバリー・テイクアウトに対応。ファミリーからビジネスまで幅広く利用できるカジュアルな日本料理居酒屋。",
+    "menu": [
+      {
+        "name": "居酒屋定番料理（各種）",
+        "price": "HKD 40〜120/品",
+        "category": "アラカルト"
+      },
+      {
+        "name": "飲み放題コース",
+        "price": "要確認",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "HKD 150〜350/人（ディナー目安）"
   },
   {
     "slug": "shinko-2",
@@ -2846,7 +2978,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "MTR尖沙咀駅から徒歩5分エリアの日本酒専門店。十四代・獺祭・新政・而今・磯自慢など日本の著名蔵元の清酒を中心に、果酒・梅酒・日本ウイスキー・焼酎も取扱い。オンライン購入も可。",
+    "menu": [
+      {
+        "name": "純米大吟醸（各種）",
+        "price": "HKD 400〜1,200+",
+        "category": "清酒"
+      },
+      {
+        "name": "大吟醸（各種）",
+        "price": "HKD 400〜1,200+",
+        "category": "清酒"
+      },
+      {
+        "name": "生酒（各種）",
+        "price": "HKD 400〜800",
+        "category": "清酒"
+      },
+      {
+        "name": "清酒福袋",
+        "price": "HKD 399〜",
+        "category": "セット"
+      }
+    ],
+    "price_range": "HKD 400〜1,200+/本（清酒）"
   },
   {
     "slug": "hearth-yakiniku-by-atum",
@@ -3016,7 +3172,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "1995年銅鑼湾創業の日本式とんかつ専門店。日本産黒豚・宮崎和牛・車海老・北海道帆立などの高級食材を使用。秘製ゴマ醤油が特徴。静かで上品な空間でゆっくり食事が楽しめる。",
+    "price_range": "HKD 150〜400/人（目安）"
   },
   {
     "slug": "yakitori-torisho",
@@ -3156,7 +3314,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "MTR中環駅から徒歩10分、Glenealy 2番地G/F。東京発の焼き鳥専門店。28種類以上の鶏肉部位を丁寧に焼き上げる本格焼き鳥。月〜土 17:30〜22:30営業、日曜定休。カウンター席はウォークイン対応。要予約推奨。",
+    "price_range": "HKD 300〜600/人（ディナー目安）"
   },
   {
     "slug": "yakitoritei",
@@ -3389,7 +3549,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "MTR中環駅から徒歩5分、ランドマーク5〜6階のモダン日本料理レストラン。開放的なロバタグリルと寿司カウンターを持ち、ビクトリアハーバーを望む洗練された空間。イザカヤナイト（月〜水）はHKD 298/人で串5本と1時間飲み放題。",
+    "menu": [
+      {
+        "name": "イザカヤナイト（串5本+1時間飲み放題）",
+        "price": "HKD 298/人",
+        "category": "セット"
+      },
+      {
+        "name": "グリル枝豆（レモン・七味唐辛子）",
+        "price": "要確認",
+        "category": "アラカルト"
+      },
+      {
+        "name": "A4宮崎和牛サーロイン",
+        "price": "要確認",
+        "category": "グリル"
+      }
+    ],
+    "price_range": "HKD 600〜1,500/人（ディナー目安）"
   },
   {
     "slug": "godenya-central",
@@ -3511,7 +3690,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "MTR中環駅から徒歩3分、マンダリンオリエンタル25階に位置する日本居酒屋＆カクテルバー兼寿司バー。Asia's 50 Best Bars 2024で10位。120点以上の日本美術品が飾られた洗練された空間。握り寿司、刺身、ロバタグリル料理を提供。",
+    "price_range": "HKD 800〜2,000/人（ディナー目安）"
   },
   {
     "slug": "nojo-ramen-izakaya-central",
@@ -4041,7 +4222,46 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "MTR紅磡駅から徒歩5分、ハーバーグランド九龍ホテル内。ミシュランガイド3年連続推奨のロバタ焼き専門店。宮崎牛・トロ・ホタテ・天ぷら等、世界各地の高級食材をオープングリルで調理。毎日ランチ・ディナー営業。",
+    "menu": [
+      {
+        "name": "煮穴子",
+        "price": "HKD 100",
+        "category": "グリル"
+      },
+      {
+        "name": "ホタテ貝焼き",
+        "price": "HKD 180",
+        "category": "グリル"
+      },
+      {
+        "name": "グリル鱈",
+        "price": "HKD 260",
+        "category": "グリル"
+      },
+      {
+        "name": "天ぷら盛合せ",
+        "price": "HKD 380",
+        "category": "天ぷら"
+      },
+      {
+        "name": "トロ刺身",
+        "price": "HKD 480",
+        "category": "刺身"
+      },
+      {
+        "name": "宮崎牛ステーキA4グリル",
+        "price": "HKD 640",
+        "category": "グリル"
+      },
+      {
+        "name": "グリル日本キンキ魚",
+        "price": "HKD 1,300",
+        "category": "グリル"
+      }
+    ],
+    "price_range": "HKD 600〜1,500/人（ディナー目安）"
   },
   {
     "slug": "inakaya-icc-tst",
@@ -4396,7 +4616,36 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "MTRセントラル駅から徒歩10分、ミッドレベルズのCastle Road 9A-9Cにある老舗居酒屋。10年以上の歴史を持ち、すき焼き・しゃぶしゃぶ・おまかせコース・串焼き・アラカルトと幅広く提供。月〜土 17時〜23時営業。日曜定休。",
+    "menu": [
+      {
+        "name": "すき焼きコース",
+        "price": "要確認",
+        "category": "コース"
+      },
+      {
+        "name": "しゃぶしゃぶコース",
+        "price": "要確認",
+        "category": "コース"
+      },
+      {
+        "name": "おまかせコース",
+        "price": "要確認",
+        "category": "コース"
+      },
+      {
+        "name": "串焼き（各種）",
+        "price": "要確認",
+        "category": "アラカルト"
+      },
+      {
+        "name": "日本酒",
+        "price": "要確認",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "HKD 400〜800/人（ディナー目安）"
   },
   {
     "slug": "jan-jan-kushikatsu-wan-chai",
@@ -4514,7 +4763,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "MTR湾仔駅から徒歩5分、Lockhart Road 361-363番のKiu Yin Commercial Building 4階。500本以上の厳選ウイスキー（日本・スコットランド他）を揃えるウイスキーバー。木造の暖かみある空間に日本庭園テラスも。月〜土 18時〜翌2時営業。",
+    "menu": [
+      {
+        "name": "日本ウイスキー（グラス）",
+        "price": "要確認",
+        "category": "ウイスキー"
+      },
+      {
+        "name": "スコッチウイスキー（グラス）",
+        "price": "要確認",
+        "category": "ウイスキー"
+      },
+      {
+        "name": "クラシックカクテル",
+        "price": "要確認",
+        "category": "カクテル"
+      },
+      {
+        "name": "オーダーメイドカクテル",
+        "price": "要確認",
+        "category": "カクテル"
+      }
+    ],
+    "price_range": "HKD 200〜500/グラス（ウイスキー）"
   },
   {
     "slug": "bar-butler-tst",
@@ -5190,7 +5463,21 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本全国に展開する居食屋「和民」の香港Causeway Bay店。定番の日本居酒屋メニューを揃え、デリバリー・テイクアウトに対応。ファミリーからビジネスまで幅広く利用できるカジュアルな日本料理居酒屋。",
+    "menu": [
+      {
+        "name": "居酒屋定番料理（各種）",
+        "price": "HKD 40〜120/品",
+        "category": "アラカルト"
+      },
+      {
+        "name": "飲み放題コース",
+        "price": "要確認",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "HKD 150〜350/人（ディナー目安）"
   },
   {
     "slug": "watami-tai-kok-tsui-olympian",
@@ -5219,7 +5506,21 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本全国に展開する居食屋「和民」の香港Tai Kok Tsui店。定番の日本居酒屋メニューを揃え、デリバリー・テイクアウトに対応。ファミリーからビジネスまで幅広く利用できるカジュアルな日本料理居酒屋。",
+    "menu": [
+      {
+        "name": "居酒屋定番料理（各種）",
+        "price": "HKD 40〜120/品",
+        "category": "アラカルト"
+      },
+      {
+        "name": "飲み放題コース",
+        "price": "要確認",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "HKD 150〜350/人（ディナー目安）"
   },
   {
     "slug": "watami-lai-chi-kok-pacifica",
@@ -5248,7 +5549,21 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本全国に展開する居食屋「和民」の香港Lai Chi Kok店。定番の日本居酒屋メニューを揃え、デリバリー・テイクアウトに対応。ファミリーからビジネスまで幅広く利用できるカジュアルな日本料理居酒屋。",
+    "menu": [
+      {
+        "name": "居酒屋定番料理（各種）",
+        "price": "HKD 40〜120/品",
+        "category": "アラカルト"
+      },
+      {
+        "name": "飲み放題コース",
+        "price": "要確認",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "HKD 150〜350/人（ディナー目安）"
   },
   {
     "slug": "watami-whampoa-hung-hom",
@@ -5277,7 +5592,21 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本全国に展開する居食屋「和民」の香港Hung Hom店。定番の日本居酒屋メニューを揃え、デリバリー・テイクアウトに対応。ファミリーからビジネスまで幅広く利用できるカジュアルな日本料理居酒屋。",
+    "menu": [
+      {
+        "name": "居酒屋定番料理（各種）",
+        "price": "HKD 40〜120/品",
+        "category": "アラカルト"
+      },
+      {
+        "name": "飲み放題コース",
+        "price": "要確認",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "HKD 150〜350/人（ディナー目安）"
   },
   {
     "slug": "watami-fortune-metropolis-hung-hom",
@@ -5306,7 +5635,21 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本全国に展開する居食屋「和民」の香港Hung Hom店。定番の日本居酒屋メニューを揃え、デリバリー・テイクアウトに対応。ファミリーからビジネスまで幅広く利用できるカジュアルな日本料理居酒屋。",
+    "menu": [
+      {
+        "name": "居酒屋定番料理（各種）",
+        "price": "HKD 40〜120/品",
+        "category": "アラカルト"
+      },
+      {
+        "name": "飲み放題コース",
+        "price": "要確認",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "HKD 150〜350/人（ディナー目安）"
   },
   {
     "slug": "watami-kai-tak",
@@ -5335,7 +5678,21 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本全国に展開する居食屋「和民」の香港Kai Tak店。定番の日本居酒屋メニューを揃え、デリバリー・テイクアウトに対応。ファミリーからビジネスまで幅広く利用できるカジュアルな日本料理居酒屋。",
+    "menu": [
+      {
+        "name": "居酒屋定番料理（各種）",
+        "price": "HKD 40〜120/品",
+        "category": "アラカルト"
+      },
+      {
+        "name": "飲み放題コース",
+        "price": "要確認",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "HKD 150〜350/人（ディナー目安）"
   },
   {
     "slug": "watami-sha-tin-fortune-city",
@@ -5364,7 +5721,21 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本全国に展開する居食屋「和民」の香港Sha Tin店。定番の日本居酒屋メニューを揃え、デリバリー・テイクアウトに対応。ファミリーからビジネスまで幅広く利用できるカジュアルな日本料理居酒屋。",
+    "menu": [
+      {
+        "name": "居酒屋定番料理（各種）",
+        "price": "HKD 40〜120/品",
+        "category": "アラカルト"
+      },
+      {
+        "name": "飲み放題コース",
+        "price": "要確認",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "HKD 150〜350/人（ディナー目安）"
   },
   {
     "slug": "watami-tuen-mun-trend-plaza",
@@ -5393,7 +5764,21 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本全国に展開する居食屋「和民」の香港Tuen Mun店。定番の日本居酒屋メニューを揃え、デリバリー・テイクアウトに対応。ファミリーからビジネスまで幅広く利用できるカジュアルな日本料理居酒屋。",
+    "menu": [
+      {
+        "name": "居酒屋定番料理（各種）",
+        "price": "HKD 40〜120/品",
+        "category": "アラカルト"
+      },
+      {
+        "name": "飲み放題コース",
+        "price": "要確認",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "HKD 150〜350/人（ディナー目安）"
   },
   {
     "slug": "kyo-watami-central",
@@ -5423,7 +5808,21 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本全国に展開する居食屋「和民」の香港Central店。定番の日本居酒屋メニューを揃え、デリバリー・テイクアウトに対応。ファミリーからビジネスまで幅広く利用できるカジュアルな日本料理居酒屋。",
+    "menu": [
+      {
+        "name": "居酒屋定番料理（各種）",
+        "price": "HKD 40〜120/品",
+        "category": "アラカルト"
+      },
+      {
+        "name": "飲み放題コース",
+        "price": "要確認",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "HKD 150〜350/人（ディナー目安）"
   },
   {
     "slug": "kyo-watami-kornhill-tai-koo",
@@ -5453,7 +5852,21 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本全国に展開する居食屋「和民」の香港Tai Koo店。定番の日本居酒屋メニューを揃え、デリバリー・テイクアウトに対応。ファミリーからビジネスまで幅広く利用できるカジュアルな日本料理居酒屋。",
+    "menu": [
+      {
+        "name": "居酒屋定番料理（各種）",
+        "price": "HKD 40〜120/品",
+        "category": "アラカルト"
+      },
+      {
+        "name": "飲み放題コース",
+        "price": "要確認",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "HKD 150〜350/人（ディナー目安）"
   },
   {
     "slug": "kuke-shokudo-tst",

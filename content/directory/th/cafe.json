@@ -207,7 +207,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "BTSトンロー駅近くのドン・ドン・ドンキモール（DONKI MALL THONGLOR）内にあるカフェコーナー。日本最大級のディスカウントストアDON DON DONKIが1〜2階に入る複合モールで、日本食材・食品も豊富に揃う。在住日本人の日常的なショッピングスポットとして人気。"
   },
   {
     "slug": "kurasu-bangkok-thonglor",
@@ -785,7 +786,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "東京発の抹茶専門カフェ「THE MATCHA TOKYO」のエンポリアム店。スクンビットロード622番のエンポリアムショッピングコンプレックス1階に位置。オーガニック抹茶を使ったドリンク・スイーツを提供。BTSプロンポン駅直結のエンポリアム内でアクセス良好。エムスフィア店（GM階）も徒歩圏内。"
   },
   {
     "slug": "apa-matcha-bangchak",
@@ -839,7 +841,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "シーロムにある日本茶・抹茶専門のティーバー兼ワークショップスペース。「Tea Bar, Workshop, Buy Japanese tea & matcha」を提供する日本茶専門カフェ。日本茶・抹茶にこだわる「Tea people by Tea people」のコンセプト。ワークショップや日本茶の購入も可能。BTSサラデーン駅またはMRTシーロム駅周辺。"
   },
   {
     "slug": "saraya-bakery-bangkok",
@@ -1130,7 +1133,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "サートーンエリアに位置する日本茶・抹茶専門のティーバー。シーロム店と同じKoto Tea Spaceブランドで、日本茶・抹茶ドリンクの提供とワークショップを実施。日本の茶文化をバンコクで体験できる希少な専門店。"
   },
   {
     "slug": "tanuki-261-matcha-cafe",
@@ -3178,7 +3182,56 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "menu": [
+      {
+        "name": "スノージェラート（6種類）",
+        "price": "THB 〜",
+        "category": "スイーツ"
+      },
+      {
+        "name": "和菓子",
+        "price": "THB 〜",
+        "category": "スイーツ"
+      },
+      {
+        "name": "パフェ",
+        "price": "THB 〜",
+        "category": "スイーツ"
+      },
+      {
+        "name": "アフタヌーンティーセット",
+        "price": "THB 〜",
+        "category": "セット"
+      },
+      {
+        "name": "テマリ寿司セット",
+        "price": "THB 〜",
+        "category": "食事"
+      },
+      {
+        "name": "手巻き寿司セット",
+        "price": "THB 〜",
+        "category": "食事"
+      },
+      {
+        "name": "ラーメン",
+        "price": "THB 〜",
+        "category": "食事"
+      },
+      {
+        "name": "パスタ（10種類以上）",
+        "price": "THB 〜",
+        "category": "食事"
+      },
+      {
+        "name": "抹茶ドリンク各種",
+        "price": "THB 〜",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "THB 400〜/人",
+    "detail": "トンローソイ14（ワッタナー区）にある日本風カフェ。テマリ寿司セット・手巻き寿司・ラーメン・パスタなどの食事系と、スノージェラート・和菓子・パフェ・アフタヌーンティーセットなどのスイーツを提供。抹茶・コーヒー・タピオカティーなどドリンクも充実。1人あたりTHB 400〜。静かで落ち着いた日本風の雰囲気で11:00〜03:00の深夜まで営業。BTSトンロー駅から徒歩約20分。"
   },
   {
     "slug": "nagiya-yodpiman-riverwalk",
@@ -3676,7 +3729,66 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "menu": [
+      {
+        "name": "アメリカーノ",
+        "price": "THB 100（ホット）/ 120（アイス）",
+        "category": "コーヒー"
+      },
+      {
+        "name": "カフェラテ",
+        "price": "THB 100（ホット）/ 120（アイス）",
+        "category": "コーヒー"
+      },
+      {
+        "name": "エスプレッソ抹茶ラテ",
+        "price": "THB 120",
+        "category": "コーヒー"
+      },
+      {
+        "name": "抹茶ラテ",
+        "price": "THB 120",
+        "category": "お茶"
+      },
+      {
+        "name": "ほうじ茶ラテ",
+        "price": "THB 120",
+        "category": "お茶"
+      },
+      {
+        "name": "抹茶パフェ",
+        "price": "THB 140",
+        "category": "デザート"
+      },
+      {
+        "name": "わらびもち",
+        "price": "THB 120",
+        "category": "デザート"
+      },
+      {
+        "name": "スパゲッティ各種",
+        "price": "THB 200〜220",
+        "category": "フード"
+      },
+      {
+        "name": "カレー/シチュー",
+        "price": "THB 200〜290",
+        "category": "フード"
+      },
+      {
+        "name": "トースト",
+        "price": "THB 140〜160",
+        "category": "フード"
+      },
+      {
+        "name": "バナナスムージー",
+        "price": "THB 140",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "THB 100〜290/人（ドリンクのみなら100〜150）",
+    "detail": "スクンビットソイ35にある自家焙煎の博多コーヒー専門店。コーヒーのほか抹茶・ほうじ茶を使った和風ラテ・フラッペ・かき氷を提供。モーニングセット・ランチセットも充実し、スパゲッティ・カレー・ライス系フードも揃う。自家焙煎コーヒー豆の販売とデリバリーにも対応。BTSプロンポン駅またはBTSトンロー駅からアクセス可能。コーヒーTHB 100〜、フードTHB 200〜290の日常使いしやすい価格帯。"
   },
   {
     "slug": "kaneki-japanese-restaurant",
@@ -4970,7 +5082,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "セントラルワールド・ザ・パルク・セントラルラードプラオなど複数の店舗を持つ日本式ベーカリー。青森産リンゴのアップルパイ、クロワッサン、クッキーなどを展開。日本の食材・素材にこだわったベーカリー商品を提供。各店舗はバンコクの主要ショッピングモール内に位置。"
   },
   {
     "slug": "go-tes-at-songwat",
@@ -5261,7 +5374,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "セントラルワールド・ザ・パルク・セントラルラードプラオなど複数の店舗を持つ日本式ベーカリー。青森産リンゴのアップルパイ、クロワッサン、クッキーなどを展開。日本の食材・素材にこだわったベーカリー商品を提供。各店舗はバンコクの主要ショッピングモール内に位置。"
   },
   {
     "slug": "ayatana-charoen-krung",
@@ -5876,7 +5990,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "price_range": "THB 50〜/人",
+    "detail": "スクンビットソイ33/1のEllsie Boutique Mall内にある抹茶専門カフェ。シンプルでモダンなデザインの空間でバリスタが目の前で抹茶を点てるスタイル。BTSプロンポン駅から徒歩5分以内のアクセス良好な立地。10:30〜19:00（無休）。抹茶の香りが漂う落ち着いた雰囲気でTHB 50〜の手頃な価格帯。"
   },
   {
     "slug": "mtch-sukhumvit23",
@@ -6350,7 +6466,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "チェンマイ旧市街バムルンブリ通り（Bumrung Buri Road 5/1番地）にある関西風すき焼き専門店。2018年創業で、A5・A4級和牛・特製割り下・森玉卵・新潟米など厳選素材を使用。焼肉丼・とんかつ・豚丼なども提供。11:30〜21:30（L.O.21:00）営業。チェンマイ旧市街の日本人旅行者・在住者に愛される本格すき焼き体験を提供。"
   },
   {
     "slug": "hoshi-tsuki-cafe-and-space",

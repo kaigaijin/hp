@@ -24,7 +24,41 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "1961年神戸発祥の老舗日本系ベーカリー「浅野屋」のシンガポール店。Queen Street（Wilby Central）、Bukit Timah Road、Paragon（#B1）など複数店舗を展開。日欧融合のパンとペストリーを毎日焼き上げ、天井が高く自然光が差し込む広々とした店内が特徴。塩漬け卵クロワッサンや抹茶カメパンなど個性的な商品が揃う。毎日8:00〜20:00営業。",
+    "menu": [
+      {
+        "name": "塩漬け卵クロワッサン",
+        "price": "SGD 4.50",
+        "category": "パン"
+      },
+      {
+        "name": "ハム&チーズドーナツ",
+        "price": "SGD 2.80",
+        "category": "パン"
+      },
+      {
+        "name": "抹茶カメパン",
+        "price": "SGD 3.50",
+        "category": "パン"
+      },
+      {
+        "name": "フレンチポテト",
+        "price": "SGD 3.20",
+        "category": "スナック"
+      },
+      {
+        "name": "アイスレモンティー",
+        "price": "SGD 4.20",
+        "category": "ドリンク"
+      },
+      {
+        "name": "アイスミントティー",
+        "price": "SGD 4.20",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "SGD 3〜10/人"
   },
   {
     "slug": "provence-bakery",
@@ -78,7 +112,15 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "フランスの伝統的なペストリー技術と日本の食材・風味を融合させたパティスリー。日本の季節の概念「都度（つど）」をコンセプトに、季節ごとに変わるペストリーを提供。フランス菓子の技法と日本素材の組み合わせによる繊細な味わいが特徴。在住日本人にも親しまれている。",
+    "menu": [
+      {
+        "name": "季節のペストリー各種",
+        "price": "要確認",
+        "category": "ペストリー"
+      }
+    ]
   },
   {
     "slug": "shio-and-sato",
@@ -238,7 +280,35 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "1961年神戸発祥の日本の「和」ベーカリーブランドのシンガポール店。Great World、GuocoTower、VivoCity、Tampines Mall、Northpoint Cityなどシンガポール全土11店舗を展開。日本から特別輸入した素材を使用し、毎日新鮮に焼き上げるパンが特徴。Shichifuku Pan（五穀七福パン）やMochi Mochi Cheeseなどシグネチャー商品が揃う。",
+    "menu": [
+      {
+        "name": "Gokoku Shichifuku Pan（五穀七福パン）",
+        "price": "要確認",
+        "category": "パン"
+      },
+      {
+        "name": "Malt Kurumi Pan（モルト胡桃パン）",
+        "price": "要確認",
+        "category": "パン"
+      },
+      {
+        "name": "Mochi Mochi Cheese（もちもちチーズ）",
+        "price": "要確認",
+        "category": "パン"
+      },
+      {
+        "name": "Mochi Mochi Cranberry（もちもちクランベリー）",
+        "price": "要確認",
+        "category": "パン"
+      },
+      {
+        "name": "Signature Hokkaido Red Bean Anpan（粒々北海道あんぱん）",
+        "price": "要確認",
+        "category": "パン"
+      }
+    ]
   },
   {
     "slug": "maru-mochi-bugis",
@@ -690,7 +760,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Bencoolen（シンガポール）に位置するオニギリ・サンドイッチ・抹茶スペシャルティカフェ。日本インスパイアの手頃なカフェフードと抹茶ドリンクを提供する。コンパクトでスタイリッシュな空間で、オニギリやサンドイッチなど日本式の軽食をメインにしたメニューが揃う。",
+    "menu": [
+      {
+        "name": "オニギリ各種",
+        "price": "要確認",
+        "category": "フード"
+      },
+      {
+        "name": "サンドイッチ各種（Sando）",
+        "price": "要確認",
+        "category": "フード"
+      },
+      {
+        "name": "抹茶ドリンク各種",
+        "price": "要確認",
+        "category": "抹茶"
+      }
+    ]
   },
   {
     "slug": "koko-cafe-patisserie-tanjong-pagar",
@@ -744,7 +832,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "京都発のスペシャルティコーヒーブランド「Kurasu」のシンガポール店。Waterloo Street（261 Waterloo St #01-24）とOrchard（1 Grange Road #01-03）の2店舗を展開。コーヒー豆の小売りとテイクアウトコーヒーが中心で、HARIO等のブリューイング機器も販売。毎月第1水曜定休。平日はWaterloo店10:00〜18:00、Orchard店8:30〜16:30営業。",
+    "menu": [
+      {
+        "name": "テイクアウトコーヒー各種",
+        "price": "要確認",
+        "category": "コーヒー"
+      },
+      {
+        "name": "コーヒー豆各種",
+        "price": "要確認",
+        "category": "物販"
+      },
+      {
+        "name": "HARIO Dripper等機器",
+        "price": "SGD 48〜65",
+        "category": "物販"
+      }
+    ]
   },
   {
     "slug": "kyo-kohee-robinson",
@@ -771,7 +877,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「KYŌ（今日）」をテーマにした日本インスパイアのコーヒー＆抹茶カフェ。112 Robinson Road（#01-01）に位置し、平日8:00〜17:00営業のビジネス街のカフェ。Asia Square・Labrador Towerにも店舗あり。コーヒーと抹茶を中心に、「日常の小さくてシンプルなバランス」をもたらすカフェスペースとして朝食にも対応。",
+    "menu": [
+      {
+        "name": "コーヒー各種",
+        "price": "要確認",
+        "category": "コーヒー"
+      },
+      {
+        "name": "抹茶ドリンク各種",
+        "price": "要確認",
+        "category": "抹茶"
+      },
+      {
+        "name": "朝食メニュー",
+        "price": "要確認",
+        "category": "フード"
+      }
+    ]
   },
   {
     "slug": "kyo-kohee-asia-square",
@@ -798,7 +922,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「KYŌ（今日）」をテーマにした日本インスパイアのコーヒー＆抹茶カフェ。Asia Square Tower 1（8 Marina View, #01-K1）に位置し、月〜金8:00〜17:00営業のビジネス街向けカフェ。マリーナベイエリアのオフィスワーカーに人気。コーヒーと抹茶を中心に朝食メニューも提供。",
+    "menu": [
+      {
+        "name": "コーヒー各種",
+        "price": "要確認",
+        "category": "コーヒー"
+      },
+      {
+        "name": "抹茶ドリンク各種",
+        "price": "要確認",
+        "category": "抹茶"
+      },
+      {
+        "name": "朝食メニュー",
+        "price": "要確認",
+        "category": "フード"
+      }
+    ]
   },
   {
     "slug": "creamie-sippies-keong-saik",
@@ -825,7 +967,30 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「デザートのような飲み物」をコンセプトにした日本文化インスパイアの抹茶＆コーヒー専門店。2025年8月にKeong Saik Roadにフラッグシップ店がオープン。儀式用級の高品質抹茶を使用し、日本の美学と職人技を大切にした「デザート in a カップ」体験が楽しめる。",
+    "menu": [
+      {
+        "name": "天麗の抹茶 40g",
+        "price": "SGD 74.90",
+        "category": "抹茶パウダー"
+      },
+      {
+        "name": "毎日の抹茶 40g",
+        "price": "SGD 39.90",
+        "category": "抹茶パウダー"
+      },
+      {
+        "name": "潮翠の抹茶 40g",
+        "price": "SGD 54.90",
+        "category": "抹茶パウダー"
+      },
+      {
+        "name": "抹茶ドリンク各種",
+        "price": "要確認",
+        "category": "抹茶ドリンク"
+      }
+    ]
   },
   {
     "slug": "creamie-sippies-jewel",
@@ -851,7 +1016,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「デザートのような飲み物」をコンセプトにした日本文化インスパイアの抹茶＆コーヒー専門店のJewel Changi Airport店。儀式用級の高品質抹茶を使用し、日本の美学と職人技を大切にした「デザート in a カップ」体験が楽しめる。チャンギ空港ジュエル内で旅行者にもアクセスしやすい。",
+    "menu": [
+      {
+        "name": "抹茶ドリンク各種",
+        "price": "要確認",
+        "category": "抹茶ドリンク"
+      },
+      {
+        "name": "コーヒー各種",
+        "price": "要確認",
+        "category": "コーヒー"
+      }
+    ]
   },
   {
     "slug": "toyou-cafe-kembangan",
@@ -904,7 +1082,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "1961年神戸発祥の日本の「和」ベーカリーブランドのMillenia Walk店。日本から特別輸入した素材を使用し毎日新鮮に焼き上げるパンが特徴で、Shichifuku Panやもちもちシリーズなどシグネチャー商品が揃う。シンガポール全土11店舗展開。",
+    "menu": [
+      {
+        "name": "Gokoku Shichifuku Pan（五穀七福パン）",
+        "price": "要確認",
+        "category": "パン"
+      },
+      {
+        "name": "Mochi Mochi Cheese（もちもちチーズ）",
+        "price": "要確認",
+        "category": "パン"
+      },
+      {
+        "name": "Signature Hokkaido Red Bean Anpan",
+        "price": "要確認",
+        "category": "パン"
+      }
+    ]
   },
   {
     "slug": "asanoya-paragon",
@@ -930,7 +1126,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "1961年神戸発祥の老舗日本系ベーカリー「浅野屋」のParagon店（#B1）。日欧融合のパンとペストリーを毎日焼き上げる。オーチャードの中心に位置するParagonはショッピングのついでに立ち寄りやすく、塩漬け卵クロワッサンや抹茶カメパンなど個性的な商品が揃う。",
+    "menu": [
+      {
+        "name": "塩漬け卵クロワッサン",
+        "price": "SGD 4.50",
+        "category": "パン"
+      },
+      {
+        "name": "ハム&チーズドーナツ",
+        "price": "SGD 2.80",
+        "category": "パン"
+      },
+      {
+        "name": "抹茶カメパン",
+        "price": "SGD 3.50",
+        "category": "パン"
+      }
+    ],
+    "price_range": "SGD 3〜10/人"
   },
   {
     "slug": "tsujiri-jewel-changi",
@@ -1142,7 +1357,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "1961年神戸発祥の日本の「和」ベーカリーブランドのJurong West店。日本から特別輸入した素材を使用し毎日新鮮に焼き上げるパンが特徴。西部エリアでの在住日本人にとってもアクセスしやすい立地。",
+    "menu": [
+      {
+        "name": "Gokoku Shichifuku Pan（五穀七福パン）",
+        "price": "要確認",
+        "category": "パン"
+      },
+      {
+        "name": "Mochi Mochi Cheese（もちもちチーズ）",
+        "price": "要確認",
+        "category": "パン"
+      },
+      {
+        "name": "Signature Hokkaido Red Bean Anpan",
+        "price": "要確認",
+        "category": "パン"
+      }
+    ]
   },
   {
     "slug": "gokoku-japanese-bakery-waterway-point",
@@ -1168,7 +1401,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "1961年神戸発祥の日本の「和」ベーカリーブランドのWaterway Point店。Punggolエリアの大型ショッピングモール内に位置し、北東部在住の日本人にもアクセスしやすい。日本から特別輸入した素材で毎日新鮮に焼き上げるパンが揃う。",
+    "menu": [
+      {
+        "name": "Gokoku Shichifuku Pan（五穀七福パン）",
+        "price": "要確認",
+        "category": "パン"
+      },
+      {
+        "name": "Mochi Mochi Cheese（もちもちチーズ）",
+        "price": "要確認",
+        "category": "パン"
+      },
+      {
+        "name": "Signature Hokkaido Red Bean Anpan",
+        "price": "要確認",
+        "category": "パン"
+      }
+    ]
   },
   {
     "slug": "asanoya-bukit-timah",
@@ -1194,7 +1445,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "1961年神戸発祥の老舗日本系ベーカリー「浅野屋」のBukit Timah店。日欧融合のパンとペストリーを毎日焼き上げる。Bukit Timahエリアの日本人ファミリー居住地に近く、在住日本人にも利用しやすい立地。",
+    "menu": [
+      {
+        "name": "塩漬け卵クロワッサン",
+        "price": "SGD 4.50",
+        "category": "パン"
+      },
+      {
+        "name": "ハム&チーズドーナツ",
+        "price": "SGD 2.80",
+        "category": "パン"
+      },
+      {
+        "name": "抹茶カメパン",
+        "price": "SGD 3.50",
+        "category": "パン"
+      }
+    ],
+    "price_range": "SGD 3〜10/人"
   },
   {
     "slug": "tsujiri-suntec-city",
@@ -1403,7 +1673,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "1961年神戸発祥の日本の「和」ベーカリーブランドのTampines Mall店。シンガポール東部・Tampinesエリアに位置し、日本から特別輸入した素材で毎日新鮮に焼き上げるパンを提供。",
+    "menu": [
+      {
+        "name": "Gokoku Shichifuku Pan（五穀七福パン）",
+        "price": "要確認",
+        "category": "パン"
+      },
+      {
+        "name": "Mochi Mochi Cheese（もちもちチーズ）",
+        "price": "要確認",
+        "category": "パン"
+      },
+      {
+        "name": "Signature Hokkaido Red Bean Anpan",
+        "price": "要確認",
+        "category": "パン"
+      }
+    ]
   },
   {
     "slug": "asanoya-neil-road",
@@ -1429,7 +1717,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "1961年神戸発祥の老舗日本系ベーカリー「浅野屋」のNeil Road店。歴史あるチャイナタウン周辺エリアに位置する。日欧融合のパンとペストリーを毎日焼き上げ、塩漬け卵クロワッサンや抹茶カメパンなど個性的な商品が揃う。",
+    "menu": [
+      {
+        "name": "塩漬け卵クロワッサン",
+        "price": "SGD 4.50",
+        "category": "パン"
+      },
+      {
+        "name": "ハム&チーズドーナツ",
+        "price": "SGD 2.80",
+        "category": "パン"
+      },
+      {
+        "name": "抹茶カメパン",
+        "price": "SGD 3.50",
+        "category": "パン"
+      }
+    ],
+    "price_range": "SGD 3〜10/人"
   },
   {
     "slug": "2050-coffee-telok-ayer",
@@ -1746,7 +2053,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "1961年神戸発祥の日本の「和」ベーカリーブランドのNorthpoint City店。シンガポール北部のYishunエリアに位置し、日本から特別輸入した素材で毎日新鮮に焼き上げるパンを提供。",
+    "menu": [
+      {
+        "name": "Gokoku Shichifuku Pan（五穀七福パン）",
+        "price": "要確認",
+        "category": "パン"
+      },
+      {
+        "name": "Mochi Mochi Cheese（もちもちチーズ）",
+        "price": "要確認",
+        "category": "パン"
+      },
+      {
+        "name": "Signature Hokkaido Red Bean Anpan",
+        "price": "要確認",
+        "category": "パン"
+      }
+    ]
   },
   {
     "slug": "hvala-funan",
@@ -1983,7 +2308,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「やすらぎ」をテーマにした日本式カフェ&バー。Millenia Walk（9 Raffles Blvd, #01-93/94）に位置し、「思慮深い日本食、カフェ、バー」というコンセプトで、急かされない時間を過ごせる空間を提供。飲料とペストリーに加え、落ち着いた夜の時間にはバーとしても利用できる。",
+    "menu": [
+      {
+        "name": "飲料各種（Beverage Menu）",
+        "price": "要確認",
+        "category": "ドリンク"
+      },
+      {
+        "name": "ペストリー各種",
+        "price": "要確認",
+        "category": "フード"
+      }
+    ]
   },
   {
     "slug": "kurasu-orchard",
@@ -2010,7 +2348,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "京都発のスペシャルティコーヒーブランド「Kurasu」のOrchard店（1 Grange Road #01-03）。平日8:30〜16:30、週末9:30〜17:30営業（毎月第1水曜定休）。コーヒー豆の小売りとテイクアウトコーヒーが中心で、日本の職人製ブリューイング機器も販売。オーチャード中心部のアクセス良好な立地。",
+    "menu": [
+      {
+        "name": "テイクアウトコーヒー各種",
+        "price": "要確認",
+        "category": "コーヒー"
+      },
+      {
+        "name": "コーヒー豆各種",
+        "price": "要確認",
+        "category": "物販"
+      }
+    ]
   },
   {
     "slug": "creamie-sippies-matcha-mill",
@@ -3554,7 +3905,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Bencoolen（シンガポール）に位置するオニギリ・サンドイッチ・抹茶スペシャルティカフェ。日本インスパイアの手頃なカフェフードと抹茶ドリンクを提供する。コンパクトでスタイリッシュな空間で、オニギリやサンドイッチなど日本式の軽食をメインにしたメニューが揃う。",
+    "menu": [
+      {
+        "name": "オニギリ各種",
+        "price": "要確認",
+        "category": "フード"
+      },
+      {
+        "name": "サンドイッチ各種（Sando）",
+        "price": "要確認",
+        "category": "フード"
+      },
+      {
+        "name": "抹茶ドリンク各種",
+        "price": "要確認",
+        "category": "抹茶"
+      }
+    ]
   },
   {
     "slug": "yasaiya-cafe-and-restaurant-japanese-fusion-teishoku",
@@ -3606,7 +3975,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Upper Thomson Road・Joo Chiat Road・Everton Park・Bukit Timah Road・Seng Poh Road・Cross Street の6店舗を展開する日本インスパイアのコンフォートフード＆スペシャルティコーヒーカフェ。「古典的なレシピと素朴な食材」による日本系コンフォートフードと温かいホスピタリティが特徴で、地域密着型の雰囲気が日本人在住者にも人気。",
+    "menu": [
+      {
+        "name": "日本系コンフォートフード各種",
+        "price": "要確認",
+        "category": "フード"
+      },
+      {
+        "name": "スペシャルティコーヒー各種",
+        "price": "要確認",
+        "category": "コーヒー"
+      }
+    ]
   },
   {
     "slug": "sando-at-new-tech-park-japanese-sandwiches-coffee-craft-beer",
@@ -4752,7 +5134,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "京都発のスペシャルティコーヒーブランド「Kurasu」のシンガポール店。Waterloo Street（261 Waterloo St #01-24）とOrchard（1 Grange Road #01-03）の2店舗を展開。コーヒー豆の小売りとテイクアウトコーヒーが中心で、HARIO等のブリューイング機器も販売。毎月第1水曜定休。平日はWaterloo店10:00〜18:00、Orchard店8:30〜16:30営業。",
+    "menu": [
+      {
+        "name": "テイクアウトコーヒー各種",
+        "price": "要確認",
+        "category": "コーヒー"
+      },
+      {
+        "name": "コーヒー豆各種",
+        "price": "要確認",
+        "category": "物販"
+      },
+      {
+        "name": "HARIO Dripper等機器",
+        "price": "SGD 48〜65",
+        "category": "物販"
+      }
+    ]
   },
   {
     "slug": "happy-rice-yunomori-onsen",
@@ -5039,7 +5439,15 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "フランスの伝統的なペストリー技術と日本の食材・風味を融合させたパティスリー。日本の季節の概念「都度（つど）」をコンセプトに、季節ごとに変わるペストリーを提供。フランス菓子の技法と日本素材の組み合わせによる繊細な味わいが特徴。在住日本人にも親しまれている。",
+    "menu": [
+      {
+        "name": "季節のペストリー各種",
+        "price": "要確認",
+        "category": "ペストリー"
+      }
+    ]
   },
   {
     "slug": "tsumiki-japanese-bakery",
@@ -5521,7 +5929,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "1961年神戸発祥の日本の「和」ベーカリーブランドのNorthpoint City店。シンガポール北部のYishunエリアに位置し、日本から特別輸入した素材で毎日新鮮に焼き上げるパンを提供。",
+    "menu": [
+      {
+        "name": "Gokoku Shichifuku Pan（五穀七福パン）",
+        "price": "要確認",
+        "category": "パン"
+      },
+      {
+        "name": "Mochi Mochi Cheese（もちもちチーズ）",
+        "price": "要確認",
+        "category": "パン"
+      },
+      {
+        "name": "Signature Hokkaido Red Bean Anpan",
+        "price": "要確認",
+        "category": "パン"
+      }
+    ]
   },
   {
     "slug": "matsumiya-japanese-artisan-bakery",

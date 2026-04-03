@@ -24,7 +24,15 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "シンガポールでミシュランスターシェフによるオマカセコンセプトを提供する高級鮨レストラン。「高級日本料理の頂点」を標榜し、季節の食材を厳選した職人技の最高峰を体験できる。詳細はウェブサイト（sushi-sakuta.com）または予約フォームで確認できる。",
+    "menu": [
+      {
+        "name": "オマカセコース（季節の食材使用）",
+        "price": "要確認",
+        "category": "コース"
+      }
+    ]
   },
   {
     "slug": "shoukouwa",
@@ -50,7 +58,15 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "シンガポールを代表するミシュラン星付きの本格江戸前鮨レストラン。予約必須の完全おまかせスタイルで、旬の食材を使った職人技を体験できる。在住日本人のハレの日使いや、日本から来た来客の接待にも定番の名店。",
+    "menu": [
+      {
+        "name": "おまかせコース（季節の食材使用）",
+        "price": "要確認",
+        "category": "コース"
+      }
+    ]
   },
   {
     "slug": "shinji-by-kanesaka",
@@ -77,7 +93,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "ミシュラン1つ星を獲得した本格江戸前寿司のオマカセレストラン。ザ・セントレジス・シンガポール内（29 Tanglin Rd）に位置し、ヘッドシェフ・小林慶一氏（30年以上のキャリア）が率いる職人チームが「お任せ」スタイルで最上の寿司体験を提供する。2010年の開業以来ミシュランの評価を維持し続けており、日本の伝統料理技法と「おもてなし」の精神を体現した格式ある空間。ランチは12:00〜15:00、ディナーは18:00〜22:30（日曜定休）。",
+    "menu": []
   },
   {
     "slug": "tajimaya-yakiniku",
@@ -104,7 +122,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Great WorldとVivo Cityの2店舗を展開する本格日本式炭火焼肉レストラン。備長炭を使用したテーブルグリルで国産和牛をはじめ上質な食材を自分で焼くインタラクティブな食体験が楽しめる。Vivo Cityの店舗からはセントーサ島とリゾートワールドの眺望が広がり、プライベートダイニングルームも完備。ランチセットはSGD 15.80++から。",
+    "menu": [
+      {
+        "name": "ランチセット",
+        "price": "SGD 15.80++〜",
+        "category": "ランチ"
+      },
+      {
+        "name": "プレミアムビュッフェ（和牛）",
+        "price": "要確認",
+        "category": "ビュッフェ"
+      },
+      {
+        "name": "デラックスセット",
+        "price": "要確認",
+        "category": "ランチ"
+      }
+    ],
+    "price_range": "SGD 15〜/人（ランチ）"
   },
   {
     "slug": "ippudo",
@@ -131,7 +168,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "博多発祥の世界的ラーメンチェーン「一風堂」のシンガポール店。濃厚な豚骨スープとこだわりの麺で在住日本人にも馴染みのある味。シンガポール各地（Tanjong Pagar・Westgate等）に複数店舗を展開。",
+    "menu": [
+      {
+        "name": "白丸元味（白豚骨）",
+        "price": "要確認",
+        "category": "ラーメン"
+      },
+      {
+        "name": "赤丸新味（赤豚骨）",
+        "price": "要確認",
+        "category": "ラーメン"
+      },
+      {
+        "name": "替え玉",
+        "price": "要確認",
+        "category": "トッピング"
+      }
+    ]
   },
   {
     "slug": "fat-cow",
@@ -158,7 +213,36 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Orchard Boulevard（1 Orchard Boulevard）に位置するモダン日本ステーキハウス。火〜日12:00〜22:30営業（月曜定休）。Shiki Omakase（四季おまかせ）はランチSGD 88++、ディナーSGD 98++〜から、Wagyu Omakaseはランチ178++・ディナーSGD 238++と本格的な和牛体験が楽しめる。系列にMIYOSHI by Fat Cowもあり。",
+    "menu": [
+      {
+        "name": "Shiki Omakase（四季おまかせ）ランチ",
+        "price": "SGD 88++",
+        "category": "コース"
+      },
+      {
+        "name": "Shiki Omakase（四季おまかせ）ディナー",
+        "price": "SGD 98++〜",
+        "category": "コース"
+      },
+      {
+        "name": "Wagyu Omakase ランチ",
+        "price": "SGD 178++",
+        "category": "コース"
+      },
+      {
+        "name": "Wagyu Omakase ディナー",
+        "price": "SGD 238++",
+        "category": "コース"
+      },
+      {
+        "name": "Wagyu Sushi Omakase（月〜木ランチのみ）",
+        "price": "SGD 148++",
+        "category": "コース"
+      }
+    ],
+    "price_range": "SGD 88〜238++/人（コース）"
   },
   {
     "slug": "ichiban-boshi",
@@ -186,7 +270,40 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "シンガポール全土に16店舗を展開する人気の日本料理チェーン。Alexandra Retail CentreやAngel Mo Kio Hub、Waterway Pointなど各エリアに出店しており、アクセスしやすい。新鮮な寿司・刺身からセットミール、季節限定のA5和牛メニューまで幅広いラインナップ。「おもてなし」と「うまみ」をコンセプトに、日常的に使える現代的な日本料理を提供する。",
+    "menu": [
+      {
+        "name": "Ichiban Set Meal",
+        "price": "要確認",
+        "category": "セットミール"
+      },
+      {
+        "name": "Chicken Katsu Curry",
+        "price": "要確認",
+        "category": "カレー"
+      },
+      {
+        "name": "Salmon Sakura（寿司）",
+        "price": "要確認",
+        "category": "寿司"
+      },
+      {
+        "name": "Niku Udon",
+        "price": "要確認",
+        "category": "麺"
+      },
+      {
+        "name": "4 Kinds Melty Cheese Katsu",
+        "price": "要確認",
+        "category": "揚げ物"
+      },
+      {
+        "name": "Tokusen Gyu Saikoro Steak",
+        "price": "要確認",
+        "category": "ステーキ"
+      }
+    ]
   },
   {
     "slug": "omakase-at-stevens",
@@ -241,7 +358,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本発の人気焼肉チェーンのシンガポール店。ChijmesとStar Vistaに出店し、日本産和牛や厳選肉をテーブルグリルで焼き上げるインタラクティブなダイニングスタイル。ランチ・グランドメニュー・ビュッフェの3形態から選べ、大人数パーティーにも対応。プレミアム和牛ビュッフェへの無料アップグレードなど季節ごとのプロモーションも充実。",
+    "menu": [
+      {
+        "name": "ランチメニュー",
+        "price": "要確認",
+        "category": "ランチ"
+      },
+      {
+        "name": "グランドメニュー",
+        "price": "要確認",
+        "category": "ディナー"
+      },
+      {
+        "name": "ビュッフェ（4コース）",
+        "price": "要確認",
+        "category": "ビュッフェ"
+      }
+    ]
   },
   {
     "slug": "tenya",
@@ -268,7 +403,30 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「Japan's No.1 Most Delicious Secret」を掲げる日本発の天丼・天ぷら専門チェーン。OrchardCentral（#B1-01）、Hillion Mall（#B2-48）、ION Orchard（#B4-56）、Parkway Parade（#B1-51）の4店舗を展開。丼・麺・前菜・副菜・デザートと幅広いメニューを手頃な価格で提供する。シンガポールで本格天丼を気軽に楽しめるチェーンとして在住日本人にも人気。",
+    "menu": [
+      {
+        "name": "天丼（Set Meals）",
+        "price": "要確認",
+        "category": "丼"
+      },
+      {
+        "name": "天ぷら麺（Noodles）",
+        "price": "要確認",
+        "category": "麺"
+      },
+      {
+        "name": "前菜（Appetizer）",
+        "price": "要確認",
+        "category": "前菜"
+      },
+      {
+        "name": "デザート",
+        "price": "要確認",
+        "category": "デザート"
+      }
+    ]
   },
   {
     "slug": "nanbantei",
@@ -348,7 +506,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Robertson Quay沿いに位置する本格居酒屋（30 Robertson Quay, #01-15）。2003年創業のシンガポール初期の焼き鳥専門店で、備長炭で焼き上げる約60種のくし焼きと約50種の日本酒が自慢。20年以上継ぎ足してきた秘伝のタレが特徴で、川沿いの「picturesque riverside dining」が楽しめる落ち着いた雰囲気。ランチ12:00〜14:30、ディナー18:00〜23:00（金土は23:30まで）。",
+    "menu": [
+      {
+        "name": "くし焼き各種（約60種）",
+        "price": "要確認",
+        "category": "焼き鳥"
+      },
+      {
+        "name": "日本酒（約50種）",
+        "price": "要確認",
+        "category": "ドリンク"
+      }
+    ]
   },
   {
     "slug": "the-public-izakaya",
@@ -374,7 +545,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "100AM MALL（100 Tras Street, #01-09）に位置する日本居酒屋。月〜木11:30〜14:00・17:30〜24:00、金11:30〜14:00・17:30〜翌1:00、土17:00〜24:00、日17:00〜22:00営業。同一エリア半径150m以内に3店舗を展開しており、グループや大人数での利用にも対応。「Your Japanese Culinary Escape」を標榜する和食居酒屋スタイルのレストラン。",
+    "menu": []
   },
   {
     "slug": "jibiru",
@@ -401,7 +574,40 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "313@somerset（313 Orchard Rd, #01-26）に位置する埼玉発の本格焼き鳥＆クラフトビール専門店。東京北部・埼玉地方の伝統的な焼き鳥製法を再現し、award-winningのソース（Hibiki焼き鳥店から直輸入）を使用。鶏だけでなく豚肉のやきとん（yakiton）も提供。ハッピーアワーにはビールがSGD 12〜。",
+    "menu": [
+      {
+        "name": "Premium Lager",
+        "price": "SGD 15（通常）/ SGD 12（ハッピーアワー）",
+        "category": "ドリンク"
+      },
+      {
+        "name": "Premium Black Beer",
+        "price": "SGD 15（通常）/ SGD 12（ハッピーアワー）",
+        "category": "ドリンク"
+      },
+      {
+        "name": "Yebisu Premium (380ml)",
+        "price": "SGD 11（ハッピーアワー）",
+        "category": "ドリンク"
+      },
+      {
+        "name": "Glorious Purpose（オーストラリア産）",
+        "price": "SGD 17",
+        "category": "ドリンク"
+      },
+      {
+        "name": "Stout - Nitro",
+        "price": "SGD 16",
+        "category": "ドリンク"
+      },
+      {
+        "name": "焼き鳥各種",
+        "price": "要確認",
+        "category": "焼き鳥"
+      }
+    ]
   },
   {
     "slug": "izakaya-shinjuku",
@@ -482,7 +688,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "GuocoTower、サンテックシティ、チャイナタウンポイント、JEM、ジュエルチャンギ空港、VivoCity の6店舗を展開するラーメン・餃子専門店。「10時間かけて煮込んだ豚骨スープ」と「北海道小麦のオリジナルレシピ麺」が特徴。ウィークデイランチSGD 9.90++〜、テッパンセットSGD 12.90++〜と価格も手頃。各店舗にて毎日11:00〜22:00営業。",
+    "menu": [
+      {
+        "name": "ウィークデイランチメニュー",
+        "price": "SGD 9.90++〜",
+        "category": "ランチ"
+      },
+      {
+        "name": "テッパンセット",
+        "price": "SGD 12.90++〜",
+        "category": "テッパン"
+      },
+      {
+        "name": "ラーメンビュッフェ",
+        "price": "要確認",
+        "category": "ビュッフェ"
+      },
+      {
+        "name": "イザカヤメニュー",
+        "price": "要確認",
+        "category": "ディナー"
+      }
+    ],
+    "price_range": "SGD 10〜/人（ランチ）"
   },
   {
     "slug": "marutama-ramen",
@@ -509,7 +739,41 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "ION Orchard（#B4-54）、18 Tai Seng（#01-34/35）、Millenia Walk（#02-16A）、Bugis+（#04-02）、Kallang（#01-33/35）、Downtown Gallery（#03-25）の6店舗を展開する鶏白湯ラーメン専門店。「No MSG, Homemade Ramen」を掲げ、圧力鍋で長時間抽出した濃厚鶏骨スープと日本直輸入の自家製麺が特徴。基本のMarutama RamenはSGD 14.90から。",
+    "menu": [
+      {
+        "name": "Marutama Ramen",
+        "price": "SGD 14.90",
+        "category": "ラーメン"
+      },
+      {
+        "name": "Char Siu Marutama Ramen",
+        "price": "SGD 18.90",
+        "category": "ラーメン"
+      },
+      {
+        "name": "Zenbu Nosé Ramen（全部のせ）",
+        "price": "SGD 20.90",
+        "category": "ラーメン"
+      },
+      {
+        "name": "Marutama Tan-men",
+        "price": "SGD 14.00",
+        "category": "ラーメン"
+      },
+      {
+        "name": "Aka Marutama Tan-men（辛味）",
+        "price": "SGD 18.90",
+        "category": "ラーメン"
+      },
+      {
+        "name": "Aka Ramen（辛味）",
+        "price": "SGD 16.00",
+        "category": "ラーメン"
+      }
+    ],
+    "price_range": "SGD 14〜21/人"
   },
   {
     "slug": "ikkousha-ramen",
@@ -535,7 +799,40 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Tanjong Pagar PlazaとChijmes（Victoria Street）の2店舗を展開する博多豚骨ラーメン専門店。濃厚でクリーミーな豚骨スープを特徴とし、Tonkotsu Special・Tonkotsu Black・Tonkotsu Mentaiko・God Fire（辛さ1〜4）など個性的なバリエーションが揃う。月〜土11:30〜22:00、日曜11:30〜21:00営業（予約不可）。",
+    "menu": [
+      {
+        "name": "Tonkotsu Special",
+        "price": "要確認",
+        "category": "ラーメン"
+      },
+      {
+        "name": "Tonkotsu Standard",
+        "price": "要確認",
+        "category": "ラーメン"
+      },
+      {
+        "name": "Tonkotsu Black（にんにく風味）",
+        "price": "要確認",
+        "category": "ラーメン"
+      },
+      {
+        "name": "God Fire（辛さ1〜4）",
+        "price": "要確認",
+        "category": "ラーメン"
+      },
+      {
+        "name": "Tonkotsu Shio",
+        "price": "要確認",
+        "category": "ラーメン"
+      },
+      {
+        "name": "Tonkotsu Mentaiko",
+        "price": "要確認",
+        "category": "ラーメン"
+      }
+    ]
   },
   {
     "slug": "tonkotsu-kazan-ramen",
@@ -562,7 +859,50 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "350℃の熱々の石釜で調理する「火山噴火」演出が話題の個性派豚骨ラーメン店。スープを石釜に注ぐと円錐形の蓋から立ち上る湯気が火山の噴火を演出するユニークな体験が楽しめる。特製スープ・熟成醤油ダレ・手作りチャーシュー・ストレート麺が特徴。シンガポールのほかタイ・アメリカ・インドなど海外にも展開。",
+    "menu": [
+      {
+        "name": "火山塩ラーメン",
+        "price": "要確認",
+        "category": "ラーメン"
+      },
+      {
+        "name": "火山醤油ラーメン",
+        "price": "要確認",
+        "category": "ラーメン"
+      },
+      {
+        "name": "火山から味噌ラーメン",
+        "price": "要確認",
+        "category": "ラーメン"
+      },
+      {
+        "name": "チャーシューラーメン",
+        "price": "要確認",
+        "category": "ラーメン"
+      },
+      {
+        "name": "トマトラーメン",
+        "price": "要確認",
+        "category": "ラーメン"
+      },
+      {
+        "name": "からあげ",
+        "price": "要確認",
+        "category": "サイド"
+      },
+      {
+        "name": "餃子",
+        "price": "要確認",
+        "category": "サイド"
+      },
+      {
+        "name": "アイス火山",
+        "price": "要確認",
+        "category": "デザート"
+      }
+    ]
   },
   {
     "slug": "monster-curry",
@@ -589,7 +929,15 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "デミグラスベースの本格日本風カレーライス専門チェーン。VivoCity・Bugis Junction・Chinatown Point・JEM・Northpoint City・Jewel Changi Airportなどシンガポール全土に10店舗以上を展開。公式サイト（monstercurry.com.sg）でメニューを確認できる。",
+    "menu": [
+      {
+        "name": "日本式カレーライス各種",
+        "price": "要確認",
+        "category": "カレー"
+      }
+    ]
   },
   {
     "slug": "maji-curry",
@@ -642,7 +990,41 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "NEX・Raffles Xchange・West Mall・Northpoint City・Asia Squareの5店舗を展開するリーズナブルな丼・蕎麦専門店。「No SERVICE CHARGE, No GST」で税込み表示のため予算管理がしやすい。Scrambled Egg DonがSGD 5.90〜と良心的な価格で、オーダー後に調理する「フレッシュな素材のオーダーメイド調理」が特徴。ハラール認定・ベジタリアンオプションあり。",
+    "menu": [
+      {
+        "name": "Scrambled Egg Don",
+        "price": "SGD 5.90〜",
+        "category": "丼"
+      },
+      {
+        "name": "Oyakodon（親子丼）",
+        "price": "SGD 7.90",
+        "category": "丼"
+      },
+      {
+        "name": "Chicken Katsu Curry Don",
+        "price": "SGD 10.90",
+        "category": "丼"
+      },
+      {
+        "name": "Grilled Miso Chicken Don",
+        "price": "SGD 9.90",
+        "category": "丼"
+      },
+      {
+        "name": "Miso Salmon Soba",
+        "price": "SGD 15.90",
+        "category": "蕎麦"
+      },
+      {
+        "name": "Truffle Shoyu Angus Ribeye Don",
+        "price": "SGD 15.90",
+        "category": "丼"
+      }
+    ],
+    "price_range": "SGD 6〜16/人"
   },
   {
     "slug": "fukusuke-tanjong-pagar",
@@ -772,7 +1154,30 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Oxley Bizhub内に位置する「ONE ROOF, THREE ADVENTURES」をテーマにした日本居酒屋。東京の賑やかな街並みを再現した店内で、ラーメン・丼物・手作り餃子・備長炭焼きの鰻など多彩な料理を提供。ランチ11:30〜15:00、ディナー18:00〜22:00（月〜土）営業。企業イベント・大人数グループに対応し、屋外ペット連れも歓迎。",
+    "menu": [
+      {
+        "name": "ラーメン",
+        "price": "要確認",
+        "category": "麺"
+      },
+      {
+        "name": "丼物",
+        "price": "要確認",
+        "category": "丼"
+      },
+      {
+        "name": "手作り餃子",
+        "price": "要確認",
+        "category": "サイド"
+      },
+      {
+        "name": "備長炭焼き鰻",
+        "price": "要確認",
+        "category": "焼き物"
+      }
+    ]
   },
   {
     "slug": "hitoyoshi-sg",
@@ -798,7 +1203,30 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "HarbourFront Centre（1 Maritime Square）に位置する、ラーメン・寿司・焼肉・居酒屋・ラーメン&グリルの5業態を同一施設内で展開する日本料理グループ。A5宮崎和牛やUSアンガス牛の焼肉、日本から週複数回空輸した新鮮海産物を使用した寿司・刺身など100種類以上の本格和食メニューが揃う。シンガポール南部、VivoCity隣接エリアに位置し観光客・在住者ともにアクセスしやすい。",
+    "menu": [
+      {
+        "name": "豚骨ラーメン（Ramen Hitoyoshi）",
+        "price": "要確認",
+        "category": "ラーメン"
+      },
+      {
+        "name": "寿司・刺身（Hitoyoshi Yoshi Sushi）",
+        "price": "要確認",
+        "category": "寿司"
+      },
+      {
+        "name": "A5宮崎和牛焼肉（Hitoyoshi Yakiniku）",
+        "price": "要確認",
+        "category": "焼肉"
+      },
+      {
+        "name": "炭火焼き鰻（Hitoyoshi Izakaya）",
+        "price": "要確認",
+        "category": "焼き物"
+      }
+    ]
   },
   {
     "slug": "toratoratora-sg",
@@ -907,7 +1335,45 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "West Coast Drive（1 West Coast Drive #01-93/70, NEWest）に位置し、1999年から営業する老舗日本料理店。福岡・東京から週4回空輸される新鮮な魚を使用した刺身・定食・丼物が名物。100席・個室3つ・畳席4つを備えた広々とした空間で、ビジネス会食や家族での利用に適した格式ある雰囲気。火〜日曜・祝日11:30〜15:00、18:00〜23:00営業（月曜定休）。",
+    "menu": [
+      {
+        "name": "松御膳（シェフのおすすめ）",
+        "price": "要確認",
+        "category": "定食"
+      },
+      {
+        "name": "菊御膳",
+        "price": "要確認",
+        "category": "定食"
+      },
+      {
+        "name": "すき焼き御膳",
+        "price": "要確認",
+        "category": "定食"
+      },
+      {
+        "name": "刺身定食",
+        "price": "要確認",
+        "category": "定食"
+      },
+      {
+        "name": "カツ丼",
+        "price": "要確認",
+        "category": "丼"
+      },
+      {
+        "name": "うな丼",
+        "price": "要確認",
+        "category": "丼"
+      },
+      {
+        "name": "タラテリヤキ",
+        "price": "要確認",
+        "category": "焼き物"
+      }
+    ]
   },
   {
     "slug": "marukame-udon-sg",
@@ -1015,7 +1481,30 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "1978年創業の日本発祥のカレーライス専門チェーン「CoCo壱番屋」のシンガポール店（313@Somerset）。ご飯の量・辛さレベル・約40種類のトッピングを自由にカスタマイズできる仕組みが特徴。豚カツ・チキンカツ・野菜・チーズなど多彩なメニュー。",
+    "menu": [
+      {
+        "name": "豚カツカレー",
+        "price": "要確認",
+        "category": "カレー"
+      },
+      {
+        "name": "チキンカツカレー",
+        "price": "要確認",
+        "category": "カレー"
+      },
+      {
+        "name": "野菜カレー",
+        "price": "要確認",
+        "category": "カレー"
+      },
+      {
+        "name": "チーズカレー",
+        "price": "要確認",
+        "category": "カレー"
+      }
+    ]
   },
   {
     "slug": "sushiro-suntec-city",
@@ -1042,7 +1531,30 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "1984年に日本初の回転寿司を開拓した「スシロー」のシンガポール店。「すべての人に美味しい寿司を」をコンセプトに、100種類以上の新鮮な寿司と季節限定メニュー・ラーメン・デザートを提供する大型回転寿司チェーン。モバイルアプリで順番取りが可能。シンガポール各地に複数店舗を展開。",
+    "menu": [
+      {
+        "name": "回転寿司各種（100種以上）",
+        "price": "要確認",
+        "category": "寿司"
+      },
+      {
+        "name": "季節限定メニュー",
+        "price": "要確認",
+        "category": "季節限定"
+      },
+      {
+        "name": "ラーメン",
+        "price": "要確認",
+        "category": "麺"
+      },
+      {
+        "name": "デザート",
+        "price": "要確認",
+        "category": "デザート"
+      }
+    ]
   },
   {
     "slug": "genki-sushi-orchard-central",
@@ -1069,7 +1581,30 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "レーンで届く回転寿司スタイルの「元気寿司」のシンガポール店。握り寿司・炙り寿司・軍艦・巻物・刺身・前菜・丼・麺・デザートと多彩なメニューを揃える。テイクアウト寿司プラッター（Salmon Deluxe Set SGD 23.80等）も人気。シンガポール各地に複数店舗を展開。",
+    "menu": [
+      {
+        "name": "握り寿司各種（Nigiri Sushi）",
+        "price": "要確認",
+        "category": "寿司"
+      },
+      {
+        "name": "炙り寿司各種（Aburi Sushi）",
+        "price": "要確認",
+        "category": "寿司"
+      },
+      {
+        "name": "刺身（Sashimi）",
+        "price": "要確認",
+        "category": "刺身"
+      },
+      {
+        "name": "Salmon Deluxe Set（テイクアウト）",
+        "price": "SGD 23.80",
+        "category": "テイクアウト"
+      }
+    ]
   },
   {
     "slug": "sushi-express-funan",
@@ -1123,7 +1658,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "手作りうどん専門店「多麺や」のシンガポール店（SingPost Centre店：10 Eunos Road 8, #01-149, 408600）。新鮮な手作りうどん麺とシグネチャーボニト出汁が特徴。Sanuki Beef Onsen Egg Udon（SGD 13.20）やBeeef Udon（SGD 12.50）など、うどん（スープ/ドライ）・ラーメン・丼・弁当・天ぷら・サイドメニューを提供。オンライン注文対応。",
+    "menu": [
+      {
+        "name": "Sanuki Beef Onsen Egg Udon",
+        "price": "SGD 13.20",
+        "category": "うどん"
+      },
+      {
+        "name": "Beef Udon",
+        "price": "SGD 12.50",
+        "category": "うどん"
+      },
+      {
+        "name": "Chicken Katsu",
+        "price": "SGD 4.90",
+        "category": "天ぷら"
+      },
+      {
+        "name": "Kakiage",
+        "price": "SGD 2.40",
+        "category": "サイド"
+      }
+    ],
+    "price_range": "SGD 10〜20/人"
   },
   {
     "slug": "marugame-udon-ion",
@@ -1150,7 +1709,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "香川県発祥の讃岐うどんチェーン「丸亀製麺」のシンガポール店。打ちたての麺を店内で仕上げるオープンキッチンスタイルで、手作りうどんと天ぷらを提供する。ION Orchard店ほかシンガポール各地に展開。",
+    "menu": [
+      {
+        "name": "各種うどん",
+        "price": "要確認",
+        "category": "うどん"
+      },
+      {
+        "name": "天ぷら各種",
+        "price": "要確認",
+        "category": "天ぷら"
+      }
+    ]
   },
   {
     "slug": "shabu-sai-orchard-central",
@@ -1232,7 +1804,36 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Marina Square（6 Raffles Boulevard, #03-129）に位置するアワード受賞の本格和牛焼肉レストラン。鹿児島・北海道・USA・オーストラリア産の和牛をはじめ、馬刺し・刺身・しゃぶしゃぶバッフェ（SGD 14.9〜）なども提供。パノラマビューを望む高層階に位置し、月〜金11:30〜14:30・17:30〜22:00、土日祝11:30〜22:00営業。",
+    "menu": [
+      {
+        "name": "和牛焼肉（アラカルト）",
+        "price": "要確認",
+        "category": "焼肉"
+      },
+      {
+        "name": "しゃぶしゃぶバッフェ",
+        "price": "SGD 14.9〜",
+        "category": "バッフェ"
+      },
+      {
+        "name": "馬刺し",
+        "price": "要確認",
+        "category": "刺身"
+      },
+      {
+        "name": "刺身各種",
+        "price": "要確認",
+        "category": "刺身"
+      },
+      {
+        "name": "サーモン丼",
+        "price": "要確認",
+        "category": "丼"
+      }
+    ],
+    "price_range": "SGD 15〜/人（バッフェ）"
   },
   {
     "slug": "sukiyaki-yotaro",
@@ -1259,7 +1860,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Tanjong Pagar（106 Tanjong Pagar Road）に位置するすき焼き・しゃぶしゃぶ専門店。関西スタイル（肉を直接鍋で焼く）と現代的な関東スタイル（牛肉鍋）の2スタイルを提供。日本から直接調達した最高品質の和牛を使用。金〜日12:00〜14:30（ランチ）、月・水〜日17:30〜23:00（ディナー、火曜定休）。",
+    "menu": [
+      {
+        "name": "すき焼き（関西スタイル）",
+        "price": "要確認",
+        "category": "すき焼き"
+      },
+      {
+        "name": "すき焼き（関東スタイル）",
+        "price": "要確認",
+        "category": "すき焼き"
+      },
+      {
+        "name": "しゃぶしゃぶ",
+        "price": "要確認",
+        "category": "しゃぶしゃぶ"
+      }
+    ]
   },
   {
     "slug": "teppan-works-sg",
@@ -1286,7 +1905,30 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Tanjong Pagar（42 Tras Street）に位置するカジュアルな鉄板焼き&酒バー。和牛ビーフステーキ・大阪お好み焼き・焼きそば・シーフード・日本居酒屋メニューのほか、プレミアム日本酒のセレクションが充実。ランチは予約制のみ。個人パーティー・企業ディナー・ビジネス会議にも対応。",
+    "menu": [
+      {
+        "name": "和牛ビーフステーキ",
+        "price": "要確認",
+        "category": "鉄板焼き"
+      },
+      {
+        "name": "大阪お好み焼き",
+        "price": "要確認",
+        "category": "鉄板焼き"
+      },
+      {
+        "name": "焼きそば",
+        "price": "要確認",
+        "category": "鉄板焼き"
+      },
+      {
+        "name": "プレミアム日本酒各種",
+        "price": "要確認",
+        "category": "ドリンク"
+      }
+    ]
   },
   {
     "slug": "tendon-ginza-itsuki",
@@ -1392,7 +2034,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "A5宮崎和牛・しゃぶしゃぶ・活魚刺身を中心としたプレミアム日本料理レストラン。自家製昆布・鰹節だしによるしゃぶしゃぶ、エビ・カニ・タイガーシュリンプ・オーストラリア産牡蠣などの活魚刺身など豪華食材が揃う。完全予約制のプライベートダイニングルームで「intimate dining experience」が楽しめる上質な日本料理体験を提供。",
+    "menu": [
+      {
+        "name": "A5宮崎和牛コース",
+        "price": "要確認",
+        "category": "コース"
+      },
+      {
+        "name": "しゃぶしゃぶ（昆布・かつお出汁）",
+        "price": "要確認",
+        "category": "しゃぶしゃぶ"
+      },
+      {
+        "name": "活魚刺身各種（ロブスター・カニ等）",
+        "price": "要確認",
+        "category": "刺身"
+      }
+    ]
   },
   {
     "slug": "torikin-ue-square",
@@ -1497,7 +2157,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "博多発祥の世界的ラーメンチェーン「一風堂」のTanjong Pagar店。濃厚な豚骨スープとこだわりの麺で在住日本人にも馴染みのある味。白丸元味・赤丸新味などのクラシックメニューを中心に、つまみや餃子などのサイドメニューも充実。",
+    "menu": [
+      {
+        "name": "白丸元味（白豚骨）",
+        "price": "要確認",
+        "category": "ラーメン"
+      },
+      {
+        "name": "赤丸新味（赤豚骨）",
+        "price": "要確認",
+        "category": "ラーメン"
+      },
+      {
+        "name": "替え玉",
+        "price": "要確認",
+        "category": "トッピング"
+      }
+    ]
   },
   {
     "slug": "ganko-sushi-sg",
@@ -1550,7 +2228,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本発の人気焼肉チェーン「牛角」のKINEX店（シンガポール東部Kallangエリア）。日本産和牛や厳選肉をテーブルグリルで焼き上げるインタラクティブなダイニングスタイル。ランチ・グランドメニュー・ビュッフェの3形態から選べる。",
+    "menu": [
+      {
+        "name": "ランチメニュー",
+        "price": "要確認",
+        "category": "ランチ"
+      },
+      {
+        "name": "グランドメニュー（和牛等）",
+        "price": "要確認",
+        "category": "ディナー"
+      },
+      {
+        "name": "ビュッフェ（4コース）",
+        "price": "要確認",
+        "category": "ビュッフェ"
+      }
+    ]
   },
   {
     "slug": "tajimaya-great-world",
@@ -1577,7 +2273,21 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Great WorldとVivo Cityに出店する本格日本式炭火焼肉「Tajimaya Yakiniku」のGreat World City店。備長炭を使用したテーブルグリルで国産和牛をはじめ上質な食材を自分で焼くインタラクティブな食体験。ランチセットはSGD 15.80++から。",
+    "menu": [
+      {
+        "name": "ランチセット",
+        "price": "SGD 15.80++〜",
+        "category": "ランチ"
+      },
+      {
+        "name": "プレミアムビュッフェ（和牛）",
+        "price": "要確認",
+        "category": "ビュッフェ"
+      }
+    ],
+    "price_range": "SGD 15〜/人（ランチ）"
   },
   {
     "slug": "monster-curry-vivocity",
@@ -1604,7 +2314,15 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "デミグラスベースの本格日本風カレーライス専門チェーン「Monster Curry」のVivoCity店。シンガポール南部のビボシティに位置する。公式サイト（monstercurry.com.sg）でメニューを確認できる。",
+    "menu": [
+      {
+        "name": "日本式カレーライス各種",
+        "price": "要確認",
+        "category": "カレー"
+      }
+    ]
   },
   {
     "slug": "monster-curry-bugis-junction",
@@ -1631,7 +2349,15 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "デミグラスベースの本格日本風カレーライス専門チェーン「Monster Curry」のBugis Junction店。ブギス周辺のショッピングモール内に位置する。公式サイト（monstercurry.com.sg）でメニューを確認できる。",
+    "menu": [
+      {
+        "name": "日本式カレーライス各種",
+        "price": "要確認",
+        "category": "カレー"
+      }
+    ]
   },
   {
     "slug": "monster-curry-chinatown-point",
@@ -1657,7 +2383,15 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "デミグラスベースの本格日本風カレーライス専門チェーン「Monster Curry」のChinatown Point店。チャイナタウン周辺のショッピングモール内に位置する。",
+    "menu": [
+      {
+        "name": "日本式カレーライス各種",
+        "price": "要確認",
+        "category": "カレー"
+      }
+    ]
   },
   {
     "slug": "monster-curry-jurong-point",
@@ -1684,7 +2418,15 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "デミグラスベースの本格日本風カレーライス専門チェーン「Monster Curry」のJurong Point店。シンガポール西部エリアでアクセスしやすい立地。",
+    "menu": [
+      {
+        "name": "日本式カレーライス各種",
+        "price": "要確認",
+        "category": "カレー"
+      }
+    ]
   },
   {
     "slug": "monster-curry-nex",
@@ -1711,7 +2453,15 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "デミグラスベースの本格日本風カレーライス専門チェーン「Monster Curry」のNEX店。シンガポール北東部Serangoonエリアの大型ショッピングモール内に位置する。",
+    "menu": [
+      {
+        "name": "日本式カレーライス各種",
+        "price": "要確認",
+        "category": "カレー"
+      }
+    ]
   },
   {
     "slug": "monster-curry-northpoint",
@@ -1738,7 +2488,15 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "デミグラスベースの本格日本風カレーライス専門チェーン「Monster Curry」のNorthpoint City店。シンガポール北部Yishunエリアに位置する。",
+    "menu": [
+      {
+        "name": "日本式カレーライス各種",
+        "price": "要確認",
+        "category": "カレー"
+      }
+    ]
   },
   {
     "slug": "monster-curry-novena",
@@ -1764,7 +2522,15 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "デミグラスベースの本格日本風カレーライス専門チェーン「Monster Curry」のNovena Square店。中部エリアNovenaMRTそばのショッピングモール内に位置する。",
+    "menu": [
+      {
+        "name": "日本式カレーライス各種",
+        "price": "要確認",
+        "category": "カレー"
+      }
+    ]
   },
   {
     "slug": "monster-curry-100am",
@@ -1790,7 +2556,15 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "デミグラスベースの本格日本風カレーライス専門チェーン「Monster Curry」の100AM店。タンジョンパガーエリアの100AMモール内に位置する。",
+    "menu": [
+      {
+        "name": "日本式カレーライス各種",
+        "price": "要確認",
+        "category": "カレー"
+      }
+    ]
   },
   {
     "slug": "monster-curry-paya-lebar",
@@ -1816,7 +2590,15 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "デミグラスベースの本格日本風カレーライス専門チェーン「Monster Curry」のPaya Lebar Square店。東部エリアPaya LebarMRTそばに位置する。",
+    "menu": [
+      {
+        "name": "日本式カレーライス各種",
+        "price": "要確認",
+        "category": "カレー"
+      }
+    ]
   },
   {
     "slug": "monster-curry-tampines",
@@ -1843,7 +2625,15 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "デミグラスベースの本格日本風カレーライス専門チェーン「Monster Curry」のTampines 1店。シンガポール東部Tampinesエリアのショッピングモール内に位置する。",
+    "menu": [
+      {
+        "name": "日本式カレーライス各種",
+        "price": "要確認",
+        "category": "カレー"
+      }
+    ]
   },
   {
     "slug": "monster-curry-waterway-point",
@@ -1870,7 +2660,15 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "デミグラスベースの本格日本風カレーライス専門チェーン「Monster Curry」のWaterway Point店。シンガポール北東部Punggolエリアのショッピングモール内に位置する。",
+    "menu": [
+      {
+        "name": "日本式カレーライス各種",
+        "price": "要確認",
+        "category": "カレー"
+      }
+    ]
   },
   {
     "slug": "monster-curry-jewel",
@@ -1897,7 +2695,15 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "デミグラスベースの本格日本風カレーライス専門チェーン「Monster Curry」のJewel Changi Airport店。チャンギ空港ジュエル内に位置し旅行者にもアクセスしやすい立地。",
+    "menu": [
+      {
+        "name": "日本式カレーライス各種",
+        "price": "要確認",
+        "category": "カレー"
+      }
+    ]
   },
   {
     "slug": "aburi-en-paragon",
@@ -1924,7 +2730,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "炙り丼（どんぶり）専門チェーン「Aburi-EN」のParagon店。日本から直輸入したプレミアム食材を使用し、部分的に炙った肉や魚介類のどんぶりをリーズナブルな価格で提供。Premium Buta Don（プレミアム豚丼）や11種チラシ海鮮丼などが人気。シンガポール各地のショッピングモールに出店。",
+    "menu": [
+      {
+        "name": "Premium Buta Don（プレミアム豚丼）",
+        "price": "要確認",
+        "category": "丼"
+      },
+      {
+        "name": "11-Kinds Chirashi Kaisen Don（11種チラシ海鮮丼）",
+        "price": "要確認",
+        "category": "丼"
+      }
+    ]
   },
   {
     "slug": "aburi-en-jewel",
@@ -1951,7 +2770,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "炙り丼（どんぶり）専門チェーン「Aburi-EN」のJewel Changi Airport店。日本から直輸入したプレミアム食材を使用し、部分的に炙った肉や魚介類のどんぶりをリーズナブルな価格で提供。チャンギ空港ジュエル内のため旅行者にもアクセスしやすい。",
+    "menu": [
+      {
+        "name": "Premium Buta Don（プレミアム豚丼）",
+        "price": "要確認",
+        "category": "丼"
+      },
+      {
+        "name": "11-Kinds Chirashi Kaisen Don",
+        "price": "要確認",
+        "category": "丼"
+      }
+    ]
   },
   {
     "slug": "aburi-en-vivocity",
@@ -1977,7 +2809,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "炙り丼専門チェーン「Aburi-EN」のVivoCity店。日本から直輸入したプレミアム食材を使用し、部分的に炙った肉や魚介類のどんぶりをリーズナブルな価格で提供。シンガポール南部・HarbourFrontエリアの大型ショッピングモール内に位置する。",
+    "menu": [
+      {
+        "name": "Premium Buta Don（プレミアム豚丼）",
+        "price": "要確認",
+        "category": "丼"
+      },
+      {
+        "name": "11-Kinds Chirashi Kaisen Don",
+        "price": "要確認",
+        "category": "丼"
+      }
+    ]
   },
   {
     "slug": "aburi-en-suntec",
@@ -2003,7 +2848,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "炙り丼専門チェーン「Aburi-EN」のSuntec City店。日本から直輸入したプレミアム食材を使用し、部分的に炙った肉や魚介類のどんぶりをリーズナブルな価格で提供。マリーナエリアのサンテックシティモール内。",
+    "menu": [
+      {
+        "name": "Premium Buta Don（プレミアム豚丼）",
+        "price": "要確認",
+        "category": "丼"
+      },
+      {
+        "name": "11-Kinds Chirashi Kaisen Don",
+        "price": "要確認",
+        "category": "丼"
+      }
+    ]
   },
   {
     "slug": "aburi-en-junction8",
@@ -2030,7 +2888,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "炙り丼専門チェーン「Aburi-EN」のJunction 8店。日本から直輸入したプレミアム食材を使用し、部分的に炙った肉や魚介類のどんぶりをリーズナブルな価格で提供。中部エリアBishanのJunction 8モール内。",
+    "menu": [
+      {
+        "name": "Premium Buta Don（プレミアム豚丼）",
+        "price": "要確認",
+        "category": "丼"
+      },
+      {
+        "name": "11-Kinds Chirashi Kaisen Don",
+        "price": "要確認",
+        "category": "丼"
+      }
+    ]
   },
   {
     "slug": "tamago-en-313somerset",
@@ -2058,7 +2929,15 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "沖縄から直輸入した新鮮な卵を使用するカジュアルな卵料理専門店「Tamago-EN」の313@Somerset店。「おいしく、安全で新鮮な卵」にこだわり、和食テイストの卵料理メニューを提供する。オーチャードの313@Somerset内に位置しアクセスしやすい立地。",
+    "menu": [
+      {
+        "name": "卵料理各種",
+        "price": "要確認",
+        "category": "卵料理"
+      }
+    ]
   },
   {
     "slug": "tamago-en-vivocity",
@@ -2084,7 +2963,15 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "沖縄から直輸入した新鮮な卵を使用するカジュアルな卵料理専門店「Tamago-EN」のVivoCity店。シンガポール南部HarbourFrontエリアのVivoCityショッピングモール内に位置する。",
+    "menu": [
+      {
+        "name": "卵料理各種",
+        "price": "要確認",
+        "category": "卵料理"
+      }
+    ]
   },
   {
     "slug": "tamago-en-suntec",
@@ -2110,7 +2997,15 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "沖縄から直輸入した新鮮な卵を使用するカジュアルな卵料理専門店「Tamago-EN」のSuntec City店。マリーナエリアのサンテックシティモール内に位置する。",
+    "menu": [
+      {
+        "name": "卵料理各種",
+        "price": "要確認",
+        "category": "卵料理"
+      }
+    ]
   },
   {
     "slug": "tamago-en-plaza-singapura",
@@ -2137,7 +3032,15 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "沖縄から直輸入した新鮮な卵を使用するカジュアルな卵料理専門店「Tamago-EN」のPlaza Singapura店。Dhoby Ghaut MRT直結のPlaza Singapura内に位置しアクセス抜群。",
+    "menu": [
+      {
+        "name": "卵料理各種",
+        "price": "要確認",
+        "category": "卵料理"
+      }
+    ]
   },
   {
     "slug": "tempura-en-vivocity",
@@ -2163,7 +3066,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "手作り・オーダーメイドの天ぷら専門店「Tempura Makino（Tempura-EN）」のVivoCity店。季節の食材を使用した職人手作りの天ぷらを快適でエレガントな空間で提供する。9:00〜17:00営業。シーフード天ぷらプラッターなどが人気。",
+    "menu": [
+      {
+        "name": "Seafood Tempura Platter（海鮮天ぷらプラッター）",
+        "price": "要確認",
+        "category": "天ぷら"
+      },
+      {
+        "name": "天ぷら各種（季節の食材）",
+        "price": "要確認",
+        "category": "天ぷら"
+      }
+    ]
   },
   {
     "slug": "tempura-en-suntec",
@@ -2189,7 +3105,15 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "手作り・オーダーメイドの天ぷら専門店「Tempura Makino（Tempura-EN）」のSuntec City店。季節の食材を使用した職人手作りの天ぷらをオーダーメイドで提供する。",
+    "menu": [
+      {
+        "name": "天ぷら各種（季節の食材）",
+        "price": "要確認",
+        "category": "天ぷら"
+      }
+    ]
   },
   {
     "slug": "tempura-en-jewel",
@@ -2216,7 +3140,15 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "手作り・オーダーメイドの天ぷら専門店「Tempura Makino（Tempura-EN）」のJewel Changi Airport店。チャンギ空港ジュエル内に位置し、旅行者にも立ち寄りやすい。",
+    "menu": [
+      {
+        "name": "天ぷら各種（季節の食材）",
+        "price": "要確認",
+        "category": "天ぷら"
+      }
+    ]
   },
   {
     "slug": "monster-planet-jem",
@@ -2244,7 +3176,15 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "ハラール認定の日本式カレーレストラン「Monster Planet」のJEM店。14種の野菜とスパイスで作った日本風カレーが特徴で、主にムスリムコミュニティ向けだが日本人在住者も楽しめる。月〜日11:00〜22:00営業。",
+    "menu": [
+      {
+        "name": "ハラール日本式カレー各種",
+        "price": "要確認",
+        "category": "カレー"
+      }
+    ]
   },
   {
     "slug": "monster-planet-causeway-point",
@@ -2272,7 +3212,15 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "ハラール認定の日本式カレーレストラン「Monster Planet」のCauseway Point店（Woodlands）。14種の野菜とスパイスで作った日本風カレーを提供。シンガポール北部エリアに位置する。",
+    "menu": [
+      {
+        "name": "ハラール日本式カレー各種",
+        "price": "要確認",
+        "category": "カレー"
+      }
+    ]
   },
   {
     "slug": "monster-planet-paya-lebar",
@@ -2300,7 +3248,15 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "ハラール認定の日本式カレーレストラン「Monster Planet」のPaya Lebar Square店。14種の野菜とスパイスで作った日本風カレーを提供。東部エリアPaya Lebarに位置する。",
+    "menu": [
+      {
+        "name": "ハラール日本式カレー各種",
+        "price": "要確認",
+        "category": "カレー"
+      }
+    ]
   },
   {
     "slug": "monster-planet-centrepoint",
@@ -2328,7 +3284,15 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "ハラール認定の日本式カレーレストラン「Monster Planet」のThe Centrepoint店（Orchard）。14種の野菜とスパイスで作った日本風カレーを提供。オーチャードの中心的ショッピングモール内に位置する。",
+    "menu": [
+      {
+        "name": "ハラール日本式カレー各種",
+        "price": "要確認",
+        "category": "カレー"
+      }
+    ]
   },
   {
     "slug": "enchanko-suntec",
@@ -2408,7 +3372,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "2001年に Mohamed Sultan Roadに「En Japanese Dining Bar」として創業したENグループのパイオニアブランド。20年以上の歴史を持つシンガポールを代表する日本料理・居酒屋グループの看板ブランドで、本格的な日本料理と日本酒・焼酎のペアリングが楽しめる。",
+    "menu": []
   },
   {
     "slug": "ippudo-westgate",
@@ -2434,7 +3400,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "博多発祥の世界的ラーメンチェーン「一風堂」のWestgate店。シンガポール西部Jurongエリアに位置し、濃厚な豚骨スープとこだわりの麺を提供する。白丸元味・赤丸新味などのクラシックメニューが楽しめる。",
+    "menu": [
+      {
+        "name": "白丸元味（白豚骨）",
+        "price": "要確認",
+        "category": "ラーメン"
+      },
+      {
+        "name": "赤丸新味（赤豚骨）",
+        "price": "要確認",
+        "category": "ラーメン"
+      }
+    ]
   },
   {
     "slug": "next-shikaku-westgate",
@@ -6796,7 +7775,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "博多発祥の世界的ラーメンチェーン「一風堂」のシンガポール店。濃厚な豚骨スープとこだわりの麺で在住日本人にも馴染みのある味。シンガポール各地（Tanjong Pagar・Westgate等）に複数店舗を展開。",
+    "menu": [
+      {
+        "name": "白丸元味（白豚骨）",
+        "price": "要確認",
+        "category": "ラーメン"
+      },
+      {
+        "name": "赤丸新味（赤豚骨）",
+        "price": "要確認",
+        "category": "ラーメン"
+      },
+      {
+        "name": "替え玉",
+        "price": "要確認",
+        "category": "トッピング"
+      }
+    ]
   },
   {
     "slug": "saboten-jewel-changi",
@@ -7904,7 +8901,30 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Tanjong Pagar（42 Tras Street）に位置するカジュアルな鉄板焼き&酒バー。和牛ビーフステーキ・大阪お好み焼き・焼きそば・シーフード・日本居酒屋メニューのほか、プレミアム日本酒のセレクションが充実。ランチは予約制のみ。個人パーティー・企業ディナー・ビジネス会議にも対応。",
+    "menu": [
+      {
+        "name": "和牛ビーフステーキ",
+        "price": "要確認",
+        "category": "鉄板焼き"
+      },
+      {
+        "name": "大阪お好み焼き",
+        "price": "要確認",
+        "category": "鉄板焼き"
+      },
+      {
+        "name": "焼きそば",
+        "price": "要確認",
+        "category": "鉄板焼き"
+      },
+      {
+        "name": "プレミアム日本酒各種",
+        "price": "要確認",
+        "category": "ドリンク"
+      }
+    ]
   },
   {
     "slug": "misato-centrepoint",
@@ -15338,7 +16358,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "ミシュラン1つ星を獲得した本格江戸前寿司のオマカセレストラン。ザ・セントレジス・シンガポール内（29 Tanglin Rd）に位置し、ヘッドシェフ・小林慶一氏（30年以上のキャリア）が率いる職人チームが「お任せ」スタイルで最上の寿司体験を提供する。2010年の開業以来ミシュランの評価を維持し続けており、日本の伝統料理技法と「おもてなし」の精神を体現した格式ある空間。ランチは12:00〜15:00、ディナーは18:00〜22:30（日曜定休）。",
+    "menu": []
   },
   {
     "slug": "tonkichi",
@@ -15490,7 +16512,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "手作りうどん専門店「多麺や」のシンガポール店（SingPost Centre店：10 Eunos Road 8, #01-149, 408600）。新鮮な手作りうどん麺とシグネチャーボニト出汁が特徴。Sanuki Beef Onsen Egg Udon（SGD 13.20）やBeeef Udon（SGD 12.50）など、うどん（スープ/ドライ）・ラーメン・丼・弁当・天ぷら・サイドメニューを提供。オンライン注文対応。",
+    "menu": [
+      {
+        "name": "Sanuki Beef Onsen Egg Udon",
+        "price": "SGD 13.20",
+        "category": "うどん"
+      },
+      {
+        "name": "Beef Udon",
+        "price": "SGD 12.50",
+        "category": "うどん"
+      },
+      {
+        "name": "Chicken Katsu",
+        "price": "SGD 4.90",
+        "category": "天ぷら"
+      },
+      {
+        "name": "Kakiage",
+        "price": "SGD 2.40",
+        "category": "サイド"
+      }
+    ],
+    "price_range": "SGD 10〜20/人"
   },
   {
     "slug": "keyaki",
@@ -15996,7 +17042,30 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Oxley Bizhub内に位置する「ONE ROOF, THREE ADVENTURES」をテーマにした日本居酒屋。東京の賑やかな街並みを再現した店内で、ラーメン・丼物・手作り餃子・備長炭焼きの鰻など多彩な料理を提供。ランチ11:30〜15:00、ディナー18:00〜22:00（月〜土）営業。企業イベント・大人数グループに対応し、屋外ペット連れも歓迎。",
+    "menu": [
+      {
+        "name": "ラーメン",
+        "price": "要確認",
+        "category": "麺"
+      },
+      {
+        "name": "丼物",
+        "price": "要確認",
+        "category": "丼"
+      },
+      {
+        "name": "手作り餃子",
+        "price": "要確認",
+        "category": "サイド"
+      },
+      {
+        "name": "備長炭焼き鰻",
+        "price": "要確認",
+        "category": "焼き物"
+      }
+    ]
   },
   {
     "slug": "torikin",

@@ -24,7 +24,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "MTR中環駅から徒歩3分、ランドマーク・マンダリンオリエンタル7階に構える本格江戸前鮨。ミシュラン三つ星を13年連続受賞し、樹齢300年以上のヒノキ製カウンターで職人が握るおまかせコースのみ。日本から毎日空輸の旬の食材を使用。完全予約制。日本語可。",
+    "price_range": "HKD 3,000〜/人（おまかせコース）"
   },
   {
     "slug": "ippudo-causeway-bay",
@@ -49,7 +51,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "MTR銅鑼湾駅直結のHysan Place 14F。博多発の豚骨ラーメンチェーンの香港銅鑼湾店。定番の白丸・赤丸に加え香港限定メニューも提供。本格博多豚骨スープをショッピングモール内で気軽に楽しめる。",
+    "menu": [
+      {
+        "name": "白丸元味",
+        "price": "要確認",
+        "category": "ラーメン"
+      },
+      {
+        "name": "赤丸新味",
+        "price": "要確認",
+        "category": "ラーメン"
+      },
+      {
+        "name": "替え玉",
+        "price": "要確認",
+        "category": "トッピング"
+      },
+      {
+        "name": "香港限定メニュー",
+        "price": "要確認",
+        "category": "ラーメン"
+      }
+    ],
+    "price_range": "HKD 100〜200/人（目安）"
   },
   {
     "slug": "ippudo-admiralty",
@@ -75,7 +101,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "MTR金鐘駅直結のQueensway Plaza 1F。博多発の豚骨ラーメンチェーンの金鐘店。定番の白丸・赤丸に加え香港限定メニューも提供。駅直結のアクセス良好な立地で、仕事帰りや買い物の合間に立ち寄れる。",
+    "menu": [
+      {
+        "name": "白丸元味",
+        "price": "要確認",
+        "category": "ラーメン"
+      },
+      {
+        "name": "赤丸新味",
+        "price": "要確認",
+        "category": "ラーメン"
+      },
+      {
+        "name": "替え玉",
+        "price": "要確認",
+        "category": "トッピング"
+      }
+    ],
+    "price_range": "HKD 100〜200/人（目安）"
   },
   {
     "slug": "sushi-fujimoto",
@@ -101,7 +146,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "MTR中環駅から徒歩5分、コクラン街46-48番のFOCO 6階。カウンター9席と6名個室を備えた本格おまかせ寿司。シェフ藤本健一が毎日日本から空輸した新鮮食材を使用。2024〜2025年にHarper's Bazaar香港・Tatler賞受賞。完全予約制。",
+    "price_range": "HKD 2,000〜4,000/人（おまかせコース目安）"
   },
   {
     "slug": "kanesaka-hong-kong",
@@ -128,7 +175,36 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "MTR中環駅直結のCCBタワー5階にある江戸前寿司の名店。銀座かねさかの香港店。香港最長のヒノキ材カウンターと組子木工天井が特徴の高級空間。ランチは握りセット〜おまかせコース、ディナーは握りセット〜おまかせコースを提供。要予約。",
+    "menu": [
+      {
+        "name": "昼間握りセット",
+        "price": "HKD 1,180（+10%）",
+        "category": "ランチ"
+      },
+      {
+        "name": "昼間お任せコース",
+        "price": "HKD 1,980（+10%）",
+        "category": "ランチ"
+      },
+      {
+        "name": "エグゼクティブセット（4名）",
+        "price": "HKD 2,800（+10%）",
+        "category": "ランチ"
+      },
+      {
+        "name": "夜間握りセット",
+        "price": "HKD 2,380（+10%）",
+        "category": "ディナー"
+      },
+      {
+        "name": "夜間お任せコース",
+        "price": "HKD 2,980（+10%）",
+        "category": "ディナー"
+      }
+    ],
+    "price_range": "HKD 1,180〜2,980/人（+サービス料10%）"
   },
   {
     "slug": "ramenya-shima-hk",
@@ -180,7 +256,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "世界的シェフ野田岳志のNOBU香港店。Tsim Sha Tsui。和の技法と南米のフレーバーを融合させた独自の日本料理を提供。イエローテイルとハラペーニョ、ブラックコッドと味噌などの看板料理が有名。要予約。",
+    "menu": [
+      {
+        "name": "イエローテイルとハラペーニョ",
+        "price": "要確認",
+        "category": "アラカルト"
+      },
+      {
+        "name": "マグロ刺身サラダ",
+        "price": "要確認",
+        "category": "アラカルト"
+      },
+      {
+        "name": "ロックシュリンプ天ぷら",
+        "price": "要確認",
+        "category": "アラカルト"
+      },
+      {
+        "name": "ブラックコッドと味噌",
+        "price": "要確認",
+        "category": "アラカルト"
+      }
+    ],
+    "price_range": "HKD 600〜1,500/人（ディナー目安）"
   },
   {
     "slug": "udatsu-sushi-hk",
@@ -284,7 +384,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "MTR中環駅から徒歩5分、ランドマーク5〜6階のモダン日本料理レストラン。開放的なロバタグリルと寿司カウンターを持ち、ビクトリアハーバーを望む洗練された空間。イザカヤナイト（月〜水）はHKD 298/人で串5本と1時間飲み放題。",
+    "menu": [
+      {
+        "name": "イザカヤナイト（串5本+1時間飲み放題）",
+        "price": "HKD 298/人",
+        "category": "セット"
+      },
+      {
+        "name": "グリル枝豆（レモン・七味唐辛子）",
+        "price": "要確認",
+        "category": "アラカルト"
+      },
+      {
+        "name": "刺身盛り合わせ（5種）",
+        "price": "要確認",
+        "category": "アラカルト"
+      },
+      {
+        "name": "A4宮崎和牛サーロイン",
+        "price": "要確認",
+        "category": "グリル"
+      }
+    ],
+    "price_range": "HKD 600〜1,500/人（ディナー目安）"
   },
   {
     "slug": "sushi-saito-hk",
@@ -414,7 +538,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "MTR銅鑼湾駅C出口から徒歩2分のLockhart House内。一蘭の香港銅鑼湾店。カウンター57席の完全個室スタイルで、豚骨ラーメンを一杯一杯丁寧に提供。朝9時から深夜5時まで営業し、夜遅くでも本格豚骨ラーメンが味わえる。",
+    "price_range": "HKD 100〜180/人（目安）",
+    "menu": [
+      {
+        "name": "一蘭ラーメン",
+        "price": "要確認（HK店舗のみ）",
+        "category": "ラーメン"
+      },
+      {
+        "name": "替え玉",
+        "price": "要確認",
+        "category": "トッピング"
+      },
+      {
+        "name": "各種トッピング",
+        "price": "要確認",
+        "category": "トッピング"
+      }
+    ]
   },
   {
     "slug": "ichiran-tst",
@@ -441,7 +584,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "福岡発の豚骨ラーメン専門店。Tsim Sha Tsui店。完全個室スタイルのカウンター席で、丼の向こうにある「のれん」越しに注文する独自システム。麺の硬さ・スープの濃さなど細かくカスタマイズ可能。深夜営業あり。",
+    "menu": [
+      {
+        "name": "一蘭ラーメン",
+        "price": "要確認（HK店舗のみ）",
+        "category": "ラーメン"
+      },
+      {
+        "name": "替え玉",
+        "price": "要確認",
+        "category": "トッピング"
+      },
+      {
+        "name": "各種トッピング",
+        "price": "要確認",
+        "category": "トッピング"
+      }
+    ],
+    "price_range": "HKD 100〜180/人（目安）"
   },
   {
     "slug": "ippudo-central",
@@ -467,7 +629,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "博多発の豚骨ラーメンチェーン。香港Central店。定番の白丸・赤丸に加え香港限定メニューも提供。本格博多豚骨スープを気軽に楽しめる。",
+    "menu": [
+      {
+        "name": "白丸元味",
+        "price": "要確認",
+        "category": "ラーメン"
+      },
+      {
+        "name": "赤丸新味",
+        "price": "要確認",
+        "category": "ラーメン"
+      },
+      {
+        "name": "替え玉",
+        "price": "要確認",
+        "category": "トッピング"
+      }
+    ],
+    "price_range": "HKD 100〜200/人（目安）"
   },
   {
     "slug": "ippudo-tst",
@@ -492,7 +673,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "博多発の豚骨ラーメンチェーン。香港Tsim Sha Tsui店。定番の白丸・赤丸に加え香港限定メニューも提供。本格博多豚骨スープを気軽に楽しめる。",
+    "menu": [
+      {
+        "name": "白丸元味",
+        "price": "要確認",
+        "category": "ラーメン"
+      },
+      {
+        "name": "赤丸新味",
+        "price": "要確認",
+        "category": "ラーメン"
+      },
+      {
+        "name": "替え玉",
+        "price": "要確認",
+        "category": "トッピング"
+      }
+    ],
+    "price_range": "HKD 100〜200/人（目安）"
   },
   {
     "slug": "ramen-cubism-tst",
@@ -624,7 +824,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "世界的シェフ野田岳志のNOBU香港店。Tsim Sha Tsui。和の技法と南米のフレーバーを融合させた独自の日本料理を提供。イエローテイルとハラペーニョ、ブラックコッドと味噌などの看板料理が有名。要予約。",
+    "menu": [
+      {
+        "name": "イエローテイルとハラペーニョ",
+        "price": "要確認",
+        "category": "アラカルト"
+      },
+      {
+        "name": "マグロ刺身サラダ",
+        "price": "要確認",
+        "category": "アラカルト"
+      },
+      {
+        "name": "ロックシュリンプ天ぷら",
+        "price": "要確認",
+        "category": "アラカルト"
+      },
+      {
+        "name": "ブラックコッドと味噌",
+        "price": "要確認",
+        "category": "アラカルト"
+      }
+    ],
+    "price_range": "HKD 600〜1,500/人（ディナー目安）"
   },
   {
     "slug": "aqua-tst",
@@ -651,7 +875,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "MTR尖沙咀駅から徒歩5分、H Zentre 17階。ビクトリアハーバーを一望できる高層レストラン。イタリア料理と日本料理の2コンセプトを1フロアで提供。ランチ・ディナー・週末ブランチ、バーも17時以降オープン。",
+    "menu": [
+      {
+        "name": "刺身各種",
+        "price": "要確認",
+        "category": "日本料理"
+      },
+      {
+        "name": "寿司各種",
+        "price": "要確認",
+        "category": "日本料理"
+      },
+      {
+        "name": "ハンドメイドパスタ",
+        "price": "要確認",
+        "category": "イタリア料理"
+      }
+    ],
+    "price_range": "HKD 500〜1,200/人（ディナー目安）"
   },
   {
     "slug": "sushiro-hk-sheung-wan",
@@ -677,7 +920,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "香港全域に40店舗以上展開する回転寿司チェーン。Sheung Wan店。タッチパネルで注文し高速レーンで届く最新スタイル。ランチ・ディナーとも手頃な価格で本格回転寿司が楽しめる。季節限定メニューも充実。",
+    "menu": [
+      {
+        "name": "握壽司（定番）",
+        "price": "HKD 14〜35/皿",
+        "category": "寿司"
+      },
+      {
+        "name": "麺類・うどん",
+        "price": "HKD 30〜50",
+        "category": "うどん・そば"
+      },
+      {
+        "name": "甜品・デザート",
+        "price": "HKD 20〜35",
+        "category": "デザート"
+      },
+      {
+        "name": "飲料",
+        "price": "HKD 15〜25",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "HKD 100〜200/人（目安）"
   },
   {
     "slug": "sushiro-hk-mong-kok",
@@ -703,7 +970,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "香港全域に40店舗以上展開する回転寿司チェーン。Mong Kok店。タッチパネルで注文し高速レーンで届く最新スタイル。ランチ・ディナーとも手頃な価格で本格回転寿司が楽しめる。季節限定メニューも充実。",
+    "menu": [
+      {
+        "name": "握壽司（定番）",
+        "price": "HKD 14〜35/皿",
+        "category": "寿司"
+      },
+      {
+        "name": "麺類・うどん",
+        "price": "HKD 30〜50",
+        "category": "うどん・そば"
+      },
+      {
+        "name": "甜品・デザート",
+        "price": "HKD 20〜35",
+        "category": "デザート"
+      },
+      {
+        "name": "飲料",
+        "price": "HKD 15〜25",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "HKD 100〜200/人（目安）"
   },
   {
     "slug": "sushiro-hk-hung-hom",
@@ -728,7 +1019,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "香港全域に40店舗以上展開する回転寿司チェーン。Hung Hom店。タッチパネルで注文し高速レーンで届く最新スタイル。ランチ・ディナーとも手頃な価格で本格回転寿司が楽しめる。季節限定メニューも充実。",
+    "menu": [
+      {
+        "name": "握壽司（定番）",
+        "price": "HKD 14〜35/皿",
+        "category": "寿司"
+      },
+      {
+        "name": "麺類・うどん",
+        "price": "HKD 30〜50",
+        "category": "うどん・そば"
+      },
+      {
+        "name": "甜品・デザート",
+        "price": "HKD 20〜35",
+        "category": "デザート"
+      },
+      {
+        "name": "飲料",
+        "price": "HKD 15〜25",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "HKD 100〜200/人（目安）"
   },
   {
     "slug": "genki-sushi-hk-sha-tin",
@@ -753,7 +1068,36 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "香港全域に約70店舗を展開する回転寿司チェーン。レーンにタッチパネルで注文する日本式スタイル。ランチ・ディナーともリーズナブルに楽しめ、季節限定メニューも豊富。オンライン外賣（テイクアウト）予約に対応。",
+    "menu": [
+      {
+        "name": "柚子鯛魚壽司",
+        "price": "HKD 16",
+        "category": "期間限定（4月）"
+      },
+      {
+        "name": "柚子醬油蝦壽司",
+        "price": "HKD 14",
+        "category": "期間限定（4月）"
+      },
+      {
+        "name": "本鮪鮫腩壽司",
+        "price": "HKD 27",
+        "category": "期間限定（4月）"
+      },
+      {
+        "name": "雙重帆立貝壽司",
+        "price": "HKD 28",
+        "category": "期間限定（4月）"
+      },
+      {
+        "name": "蒜香牛油蜆湯烏冬",
+        "price": "HKD 32",
+        "category": "うどん"
+      }
+    ],
+    "price_range": "HKD 14〜35/皿（目安）"
   },
   {
     "slug": "genki-sushi-hk-north-point",
@@ -778,7 +1122,36 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "香港全域に約70店舗を展開する回転寿司チェーン。レーンにタッチパネルで注文する日本式スタイル。ランチ・ディナーともリーズナブルに楽しめ、季節限定メニューも豊富。オンライン外賣（テイクアウト）予約に対応。",
+    "menu": [
+      {
+        "name": "柚子鯛魚壽司",
+        "price": "HKD 16",
+        "category": "期間限定（4月）"
+      },
+      {
+        "name": "柚子醬油蝦壽司",
+        "price": "HKD 14",
+        "category": "期間限定（4月）"
+      },
+      {
+        "name": "本鮪鮫腩壽司",
+        "price": "HKD 27",
+        "category": "期間限定（4月）"
+      },
+      {
+        "name": "雙重帆立貝壽司",
+        "price": "HKD 28",
+        "category": "期間限定（4月）"
+      },
+      {
+        "name": "蒜香牛油蜆湯烏冬",
+        "price": "HKD 32",
+        "category": "うどん"
+      }
+    ],
+    "price_range": "HKD 14〜35/皿（目安）"
   },
   {
     "slug": "yoshinoya-hk-causeway-bay",
@@ -804,7 +1177,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本発の牛丼チェーン。Causeway Bay店。100年以上の伝統の牛丼レシピを香港でも提供。デリバリー・テイクアウトに対応。ランチタイムや夜食にも重宝する手軽な価格帯。",
+    "menu": [
+      {
+        "name": "牛丼（牛肉飯）",
+        "price": "HKD 35〜55",
+        "category": "ご飯"
+      },
+      {
+        "name": "牛丼セット",
+        "price": "HKD 50〜70",
+        "category": "セット"
+      },
+      {
+        "name": "カレー",
+        "price": "HKD 35〜50",
+        "category": "ご飯"
+      }
+    ],
+    "price_range": "HKD 35〜70/食"
   },
   {
     "slug": "yoshinoya-hk-mong-kok",
@@ -830,7 +1222,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本発の牛丼チェーン。Mong Kok店。100年以上の伝統の牛丼レシピを香港でも提供。デリバリー・テイクアウトに対応。ランチタイムや夜食にも重宝する手軽な価格帯。",
+    "menu": [
+      {
+        "name": "牛丼（牛肉飯）",
+        "price": "HKD 35〜55",
+        "category": "ご飯"
+      },
+      {
+        "name": "牛丼セット",
+        "price": "HKD 50〜70",
+        "category": "セット"
+      },
+      {
+        "name": "カレー",
+        "price": "HKD 35〜50",
+        "category": "ご飯"
+      }
+    ],
+    "price_range": "HKD 35〜70/食"
   },
   {
     "slug": "yoshinoya-hk-sheung-wan",
@@ -856,7 +1267,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本発の牛丼チェーン。Sheung Wan店。100年以上の伝統の牛丼レシピを香港でも提供。デリバリー・テイクアウトに対応。ランチタイムや夜食にも重宝する手軽な価格帯。",
+    "menu": [
+      {
+        "name": "牛丼（牛肉飯）",
+        "price": "HKD 35〜55",
+        "category": "ご飯"
+      },
+      {
+        "name": "牛丼セット",
+        "price": "HKD 50〜70",
+        "category": "セット"
+      },
+      {
+        "name": "カレー",
+        "price": "HKD 35〜50",
+        "category": "ご飯"
+      }
+    ],
+    "price_range": "HKD 35〜70/食"
   },
   {
     "slug": "yoshinoya-hk-central",
@@ -882,7 +1312,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本発の牛丼チェーン。Central店。100年以上の伝統の牛丼レシピを香港でも提供。デリバリー・テイクアウトに対応。ランチタイムや夜食にも重宝する手軽な価格帯。",
+    "menu": [
+      {
+        "name": "牛丼（牛肉飯）",
+        "price": "HKD 35〜55",
+        "category": "ご飯"
+      },
+      {
+        "name": "牛丼セット",
+        "price": "HKD 50〜70",
+        "category": "セット"
+      },
+      {
+        "name": "カレー",
+        "price": "HKD 35〜50",
+        "category": "ご飯"
+      }
+    ],
+    "price_range": "HKD 35〜70/食"
   },
   {
     "slug": "marugame-udon-hk-sha-tin",
@@ -1011,7 +1460,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "香港全域に40店舗以上展開する回転寿司チェーン。San Po Kong店。タッチパネルで注文し高速レーンで届く最新スタイル。ランチ・ディナーとも手頃な価格で本格回転寿司が楽しめる。季節限定メニューも充実。",
+    "menu": [
+      {
+        "name": "握壽司（定番）",
+        "price": "HKD 14〜35/皿",
+        "category": "寿司"
+      },
+      {
+        "name": "麺類・うどん",
+        "price": "HKD 30〜50",
+        "category": "うどん・そば"
+      },
+      {
+        "name": "甜品・デザート",
+        "price": "HKD 20〜35",
+        "category": "デザート"
+      },
+      {
+        "name": "飲料",
+        "price": "HKD 15〜25",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "HKD 100〜200/人（目安）"
   },
   {
     "slug": "honjo-sheung-wan",
@@ -1037,7 +1510,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "MTR上環駅から徒歩5分の皇后大道西77-91号1階。「再構築された日本料理」をコンセプトに、伝統的な技法と新しいフレーバーを融合したモダン日本料理を提供。200種以上のワイン、日本酒も充実。プライベートダイニングルームあり。",
+    "price_range": "HKD 400〜800/人（ディナー目安）"
   },
   {
     "slug": "minato-wan-chai",
@@ -1088,7 +1563,36 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "香港全域に約70店舗を展開する回転寿司チェーン。レーンにタッチパネルで注文する日本式スタイル。ランチ・ディナーともリーズナブルに楽しめ、季節限定メニューも豊富。オンライン外賣（テイクアウト）予約に対応。",
+    "menu": [
+      {
+        "name": "柚子鯛魚壽司",
+        "price": "HKD 16",
+        "category": "期間限定（4月）"
+      },
+      {
+        "name": "柚子醬油蝦壽司",
+        "price": "HKD 14",
+        "category": "期間限定（4月）"
+      },
+      {
+        "name": "本鮪鮫腩壽司",
+        "price": "HKD 27",
+        "category": "期間限定（4月）"
+      },
+      {
+        "name": "雙重帆立貝壽司",
+        "price": "HKD 28",
+        "category": "期間限定（4月）"
+      },
+      {
+        "name": "蒜香牛油蜆湯烏冬",
+        "price": "HKD 32",
+        "category": "うどん"
+      }
+    ],
+    "price_range": "HKD 14〜35/皿（目安）"
   },
   {
     "slug": "genki-sushi-hk-tseung-kwan-o",
@@ -1113,7 +1617,36 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "香港全域に約70店舗を展開する回転寿司チェーン。レーンにタッチパネルで注文する日本式スタイル。ランチ・ディナーともリーズナブルに楽しめ、季節限定メニューも豊富。オンライン外賣（テイクアウト）予約に対応。",
+    "menu": [
+      {
+        "name": "柚子鯛魚壽司",
+        "price": "HKD 16",
+        "category": "期間限定（4月）"
+      },
+      {
+        "name": "柚子醬油蝦壽司",
+        "price": "HKD 14",
+        "category": "期間限定（4月）"
+      },
+      {
+        "name": "本鮪鮫腩壽司",
+        "price": "HKD 27",
+        "category": "期間限定（4月）"
+      },
+      {
+        "name": "雙重帆立貝壽司",
+        "price": "HKD 28",
+        "category": "期間限定（4月）"
+      },
+      {
+        "name": "蒜香牛油蜆湯烏冬",
+        "price": "HKD 32",
+        "category": "うどん"
+      }
+    ],
+    "price_range": "HKD 14〜35/皿（目安）"
   },
   {
     "slug": "sushiro-hk-tuen-mun",
@@ -1138,7 +1671,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "香港全域に40店舗以上展開する回転寿司チェーン。Tuen Mun店。タッチパネルで注文し高速レーンで届く最新スタイル。ランチ・ディナーとも手頃な価格で本格回転寿司が楽しめる。季節限定メニューも充実。",
+    "menu": [
+      {
+        "name": "握壽司（定番）",
+        "price": "HKD 14〜35/皿",
+        "category": "寿司"
+      },
+      {
+        "name": "麺類・うどん",
+        "price": "HKD 30〜50",
+        "category": "うどん・そば"
+      },
+      {
+        "name": "甜品・デザート",
+        "price": "HKD 20〜35",
+        "category": "デザート"
+      },
+      {
+        "name": "飲料",
+        "price": "HKD 15〜25",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "HKD 100〜200/人（目安）"
   },
   {
     "slug": "sushiro-hk-yuen-long",
@@ -1163,7 +1720,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "香港全域に40店舗以上展開する回転寿司チェーン。Yuen Long店。タッチパネルで注文し高速レーンで届く最新スタイル。ランチ・ディナーとも手頃な価格で本格回転寿司が楽しめる。季節限定メニューも充実。",
+    "menu": [
+      {
+        "name": "握壽司（定番）",
+        "price": "HKD 14〜35/皿",
+        "category": "寿司"
+      },
+      {
+        "name": "麺類・うどん",
+        "price": "HKD 30〜50",
+        "category": "うどん・そば"
+      },
+      {
+        "name": "甜品・デザート",
+        "price": "HKD 20〜35",
+        "category": "デザート"
+      },
+      {
+        "name": "飲料",
+        "price": "HKD 15〜25",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "HKD 100〜200/人（目安）"
   },
   {
     "slug": "nanas-green-tea-hk-kai-tak",
@@ -1264,7 +1845,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本発の牛丼チェーン。Jordan店。100年以上の伝統の牛丼レシピを香港でも提供。デリバリー・テイクアウトに対応。ランチタイムや夜食にも重宝する手軽な価格帯。",
+    "menu": [
+      {
+        "name": "牛丼（牛肉飯）",
+        "price": "HKD 35〜55",
+        "category": "ご飯"
+      },
+      {
+        "name": "牛丼セット",
+        "price": "HKD 50〜70",
+        "category": "セット"
+      },
+      {
+        "name": "カレー",
+        "price": "HKD 35〜50",
+        "category": "ご飯"
+      }
+    ],
+    "price_range": "HKD 35〜70/食"
   },
   {
     "slug": "sushiro-hk-cheung-sha-wan",
@@ -1289,7 +1889,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "香港全域に40店舗以上展開する回転寿司チェーン。Cheung Sha Wan店。タッチパネルで注文し高速レーンで届く最新スタイル。ランチ・ディナーとも手頃な価格で本格回転寿司が楽しめる。季節限定メニューも充実。",
+    "menu": [
+      {
+        "name": "握壽司（定番）",
+        "price": "HKD 14〜35/皿",
+        "category": "寿司"
+      },
+      {
+        "name": "麺類・うどん",
+        "price": "HKD 30〜50",
+        "category": "うどん・そば"
+      },
+      {
+        "name": "甜品・デザート",
+        "price": "HKD 20〜35",
+        "category": "デザート"
+      },
+      {
+        "name": "飲料",
+        "price": "HKD 15〜25",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "HKD 100〜200/人（目安）"
   },
   {
     "slug": "sushiro-hk-tai-po",
@@ -1314,7 +1938,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "香港全域に40店舗以上展開する回転寿司チェーン。Tai Po店。タッチパネルで注文し高速レーンで届く最新スタイル。ランチ・ディナーとも手頃な価格で本格回転寿司が楽しめる。季節限定メニューも充実。",
+    "menu": [
+      {
+        "name": "握壽司（定番）",
+        "price": "HKD 14〜35/皿",
+        "category": "寿司"
+      },
+      {
+        "name": "麺類・うどん",
+        "price": "HKD 30〜50",
+        "category": "うどん・そば"
+      },
+      {
+        "name": "甜品・デザート",
+        "price": "HKD 20〜35",
+        "category": "デザート"
+      },
+      {
+        "name": "飲料",
+        "price": "HKD 15〜25",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "HKD 100〜200/人（目安）"
   },
   {
     "slug": "sushi-nyoi-causeway-bay",
@@ -1783,7 +2431,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "香港全域に40店舗以上展開する回転寿司チェーン。Kwun Tong店。タッチパネルで注文し高速レーンで届く最新スタイル。ランチ・ディナーとも手頃な価格で本格回転寿司が楽しめる。季節限定メニューも充実。",
+    "menu": [
+      {
+        "name": "握壽司（定番）",
+        "price": "HKD 14〜35/皿",
+        "category": "寿司"
+      },
+      {
+        "name": "麺類・うどん",
+        "price": "HKD 30〜50",
+        "category": "うどん・そば"
+      },
+      {
+        "name": "甜品・デザート",
+        "price": "HKD 20〜35",
+        "category": "デザート"
+      },
+      {
+        "name": "飲料",
+        "price": "HKD 15〜25",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "HKD 100〜200/人（目安）"
   },
   {
     "slug": "genki-sushi-hk-tai-koo",
@@ -1861,7 +2533,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "香港全域に40店舗以上展開する回転寿司チェーン。Tsuen Wan店。タッチパネルで注文し高速レーンで届く最新スタイル。ランチ・ディナーとも手頃な価格で本格回転寿司が楽しめる。季節限定メニューも充実。",
+    "menu": [
+      {
+        "name": "握壽司（定番）",
+        "price": "HKD 14〜35/皿",
+        "category": "寿司"
+      },
+      {
+        "name": "麺類・うどん",
+        "price": "HKD 30〜50",
+        "category": "うどん・そば"
+      },
+      {
+        "name": "甜品・デザート",
+        "price": "HKD 20〜35",
+        "category": "デザート"
+      },
+      {
+        "name": "飲料",
+        "price": "HKD 15〜25",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "HKD 100〜200/人（目安）"
   },
   {
     "slug": "sushi-hare-sheung-wan",
@@ -3768,7 +4464,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "香港全域に40店舗以上展開する回転寿司チェーン。Tai Kok Tsui店。タッチパネルで注文し高速レーンで届く最新スタイル。ランチ・ディナーとも手頃な価格で本格回転寿司が楽しめる。季節限定メニューも充実。",
+    "menu": [
+      {
+        "name": "握壽司（定番）",
+        "price": "HKD 14〜35/皿",
+        "category": "寿司"
+      },
+      {
+        "name": "麺類・うどん",
+        "price": "HKD 30〜50",
+        "category": "うどん・そば"
+      },
+      {
+        "name": "甜品・デザート",
+        "price": "HKD 20〜35",
+        "category": "デザート"
+      },
+      {
+        "name": "飲料",
+        "price": "HKD 15〜25",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "HKD 100〜200/人（目安）"
   },
   {
     "slug": "sushiro-hk-tko",
@@ -3793,7 +4513,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "香港全域に40店舗以上展開する回転寿司チェーン。Tseung Kwan O店。タッチパネルで注文し高速レーンで届く最新スタイル。ランチ・ディナーとも手頃な価格で本格回転寿司が楽しめる。季節限定メニューも充実。",
+    "menu": [
+      {
+        "name": "握壽司（定番）",
+        "price": "HKD 14〜35/皿",
+        "category": "寿司"
+      },
+      {
+        "name": "麺類・うどん",
+        "price": "HKD 30〜50",
+        "category": "うどん・そば"
+      },
+      {
+        "name": "甜品・デザート",
+        "price": "HKD 20〜35",
+        "category": "デザート"
+      },
+      {
+        "name": "飲料",
+        "price": "HKD 15〜25",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "HKD 100〜200/人（目安）"
   },
   {
     "slug": "yoshinoya-hk-admiralty",
@@ -3819,7 +4563,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本発の牛丼チェーン。Admiralty店。100年以上の伝統の牛丼レシピを香港でも提供。デリバリー・テイクアウトに対応。ランチタイムや夜食にも重宝する手軽な価格帯。",
+    "menu": [
+      {
+        "name": "牛丼（牛肉飯）",
+        "price": "HKD 35〜55",
+        "category": "ご飯"
+      },
+      {
+        "name": "牛丼セット",
+        "price": "HKD 50〜70",
+        "category": "セット"
+      },
+      {
+        "name": "カレー",
+        "price": "HKD 35〜50",
+        "category": "ご飯"
+      }
+    ],
+    "price_range": "HKD 35〜70/食"
   },
   {
     "slug": "ippudo-sha-tin",
@@ -3845,7 +4608,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "博多発の豚骨ラーメンチェーン。香港Sha Tin店。定番の白丸・赤丸に加え香港限定メニューも提供。本格博多豚骨スープを気軽に楽しめる。",
+    "menu": [
+      {
+        "name": "白丸元味",
+        "price": "要確認",
+        "category": "ラーメン"
+      },
+      {
+        "name": "赤丸新味",
+        "price": "要確認",
+        "category": "ラーメン"
+      },
+      {
+        "name": "替え玉",
+        "price": "要確認",
+        "category": "トッピング"
+      }
+    ],
+    "price_range": "HKD 100〜200/人（目安）"
   },
   {
     "slug": "bari-uma-airport",
@@ -3922,7 +4704,36 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "香港全域に約70店舗を展開する回転寿司チェーン。レーンにタッチパネルで注文する日本式スタイル。ランチ・ディナーともリーズナブルに楽しめ、季節限定メニューも豊富。オンライン外賣（テイクアウト）予約に対応。",
+    "menu": [
+      {
+        "name": "柚子鯛魚壽司",
+        "price": "HKD 16",
+        "category": "期間限定（4月）"
+      },
+      {
+        "name": "柚子醬油蝦壽司",
+        "price": "HKD 14",
+        "category": "期間限定（4月）"
+      },
+      {
+        "name": "本鮪鮫腩壽司",
+        "price": "HKD 27",
+        "category": "期間限定（4月）"
+      },
+      {
+        "name": "雙重帆立貝壽司",
+        "price": "HKD 28",
+        "category": "期間限定（4月）"
+      },
+      {
+        "name": "蒜香牛油蜆湯烏冬",
+        "price": "HKD 32",
+        "category": "うどん"
+      }
+    ],
+    "price_range": "HKD 14〜35/皿（目安）"
   },
   {
     "slug": "yakiniku-ishidaya-cb",
@@ -4723,7 +5534,36 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "1995年銅鑼湾創業、香港全域8店舗を展開する日本式とんかつ専門店。日本産黒豚・宮崎和牛・車海老・北海道帆立などの高級食材を使用。秘製ゴマ醤油が特徴。静かで上品な空間でゆっくり食事が楽しめる。ネット予約可。",
+    "menu": [
+      {
+        "name": "黒豚とんかつ定食",
+        "price": "要確認",
+        "category": "とんかつ"
+      },
+      {
+        "name": "宮崎和牛とんかつ",
+        "price": "要確認",
+        "category": "とんかつ"
+      },
+      {
+        "name": "車海老フライ定食",
+        "price": "要確認",
+        "category": "海鮮フライ"
+      },
+      {
+        "name": "北海道帆立フライ",
+        "price": "要確認",
+        "category": "海鮮フライ"
+      },
+      {
+        "name": "広島牡蠣フライ",
+        "price": "要確認",
+        "category": "海鮮フライ"
+      }
+    ],
+    "price_range": "HKD 150〜400/人（目安）"
   },
   {
     "slug": "inoshishi-causeway-bay",
@@ -5611,7 +6451,36 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "1995年銅鑼湾創業、香港全域8店舗を展開する日本式とんかつ専門店。日本産黒豚・宮崎和牛・車海老・北海道帆立などの高級食材を使用。秘製ゴマ醤油が特徴。静かで上品な空間でゆっくり食事が楽しめる。ネット予約可。",
+    "menu": [
+      {
+        "name": "黒豚とんかつ定食",
+        "price": "要確認",
+        "category": "とんかつ"
+      },
+      {
+        "name": "宮崎和牛とんかつ",
+        "price": "要確認",
+        "category": "とんかつ"
+      },
+      {
+        "name": "車海老フライ定食",
+        "price": "要確認",
+        "category": "海鮮フライ"
+      },
+      {
+        "name": "北海道帆立フライ",
+        "price": "要確認",
+        "category": "海鮮フライ"
+      },
+      {
+        "name": "広島牡蠣フライ",
+        "price": "要確認",
+        "category": "海鮮フライ"
+      }
+    ],
+    "price_range": "HKD 150〜400/人（目安）"
   },
   {
     "slug": "hokkaido-soup-curry-suage",
@@ -9250,7 +10119,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "世界的シェフ野田岳志のNOBU香港店。Tsim Sha Tsui。和の技法と南米のフレーバーを融合させた独自の日本料理を提供。イエローテイルとハラペーニョ、ブラックコッドと味噌などの看板料理が有名。要予約。",
+    "menu": [
+      {
+        "name": "イエローテイルとハラペーニョ",
+        "price": "要確認",
+        "category": "アラカルト"
+      },
+      {
+        "name": "マグロ刺身サラダ",
+        "price": "要確認",
+        "category": "アラカルト"
+      },
+      {
+        "name": "ロックシュリンプ天ぷら",
+        "price": "要確認",
+        "category": "アラカルト"
+      },
+      {
+        "name": "ブラックコッドと味噌",
+        "price": "要確認",
+        "category": "アラカルト"
+      }
+    ],
+    "price_range": "HKD 600〜1,500/人（ディナー目安）"
   },
   {
     "slug": "gassan-central-sushi",
@@ -11870,7 +12763,36 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "香港全域に約70店舗を展開する回転寿司チェーン。レーンにタッチパネルで注文する日本式スタイル。ランチ・ディナーともリーズナブルに楽しめ、季節限定メニューも豊富。オンライン外賣（テイクアウト）予約に対応。",
+    "menu": [
+      {
+        "name": "柚子鯛魚壽司",
+        "price": "HKD 16",
+        "category": "期間限定（4月）"
+      },
+      {
+        "name": "柚子醬油蝦壽司",
+        "price": "HKD 14",
+        "category": "期間限定（4月）"
+      },
+      {
+        "name": "本鮪鮫腩壽司",
+        "price": "HKD 27",
+        "category": "期間限定（4月）"
+      },
+      {
+        "name": "雙重帆立貝壽司",
+        "price": "HKD 28",
+        "category": "期間限定（4月）"
+      },
+      {
+        "name": "蒜香牛油蜆湯烏冬",
+        "price": "HKD 32",
+        "category": "うどん"
+      }
+    ],
+    "price_range": "HKD 14〜35/皿（目安）"
   },
   {
     "slug": "sushiro-san-po-kong",
@@ -11899,7 +12821,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "香港全域に40店舗以上展開する回転寿司チェーン。San Po Kong店。タッチパネルで注文し高速レーンで届く最新スタイル。ランチ・ディナーとも手頃な価格で本格回転寿司が楽しめる。季節限定メニューも充実。",
+    "menu": [
+      {
+        "name": "握壽司（定番）",
+        "price": "HKD 14〜35/皿",
+        "category": "寿司"
+      },
+      {
+        "name": "麺類・うどん",
+        "price": "HKD 30〜50",
+        "category": "うどん・そば"
+      },
+      {
+        "name": "甜品・デザート",
+        "price": "HKD 20〜35",
+        "category": "デザート"
+      },
+      {
+        "name": "飲料",
+        "price": "HKD 15〜25",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "HKD 100〜200/人（目安）"
   },
   {
     "slug": "sushiro-hung-hom-sushi",
@@ -11928,7 +12874,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "香港全域に40店舗以上展開する回転寿司チェーン。Hung Hom店。タッチパネルで注文し高速レーンで届く最新スタイル。ランチ・ディナーとも手頃な価格で本格回転寿司が楽しめる。季節限定メニューも充実。",
+    "menu": [
+      {
+        "name": "握壽司（定番）",
+        "price": "HKD 14〜35/皿",
+        "category": "寿司"
+      },
+      {
+        "name": "麺類・うどん",
+        "price": "HKD 30〜50",
+        "category": "うどん・そば"
+      },
+      {
+        "name": "甜品・デザート",
+        "price": "HKD 20〜35",
+        "category": "デザート"
+      },
+      {
+        "name": "飲料",
+        "price": "HKD 15〜25",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "HKD 100〜200/人（目安）"
   },
   {
     "slug": "ichiran-causeway-bay-ramen",
@@ -11958,7 +12928,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "福岡発の豚骨ラーメン専門店。Causeway Bay店。完全個室スタイルのカウンター席で、丼の向こうにある「のれん」越しに注文する独自システム。麺の硬さ・スープの濃さなど細かくカスタマイズ可能。深夜営業あり。",
+    "menu": [
+      {
+        "name": "一蘭ラーメン",
+        "price": "要確認（HK店舗のみ）",
+        "category": "ラーメン"
+      },
+      {
+        "name": "替え玉",
+        "price": "要確認",
+        "category": "トッピング"
+      },
+      {
+        "name": "各種トッピング",
+        "price": "要確認",
+        "category": "トッピング"
+      }
+    ],
+    "price_range": "HKD 100〜180/人（目安）"
   },
   {
     "slug": "ichiran-tst-ramen",
@@ -11988,7 +12977,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "福岡発の豚骨ラーメン専門店。Tsim Sha Tsui店。完全個室スタイルのカウンター席で、丼の向こうにある「のれん」越しに注文する独自システム。麺の硬さ・スープの濃さなど細かくカスタマイズ可能。深夜営業あり。",
+    "menu": [
+      {
+        "name": "一蘭ラーメン",
+        "price": "要確認（HK店舗のみ）",
+        "category": "ラーメン"
+      },
+      {
+        "name": "替え玉",
+        "price": "要確認",
+        "category": "トッピング"
+      },
+      {
+        "name": "各種トッピング",
+        "price": "要確認",
+        "category": "トッピング"
+      }
+    ],
+    "price_range": "HKD 100〜180/人（目安）"
   },
   {
     "slug": "ippudo-causeway-bay-ramen",
@@ -14459,7 +15467,36 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "1995年銅鑼湾創業、香港全域8店舗を展開する日本式とんかつ専門店。日本産黒豚・宮崎和牛・車海老・北海道帆立などの高級食材を使用。秘製ゴマ醤油が特徴。静かで上品な空間でゆっくり食事が楽しめる。ネット予約可。",
+    "menu": [
+      {
+        "name": "黒豚とんかつ定食",
+        "price": "要確認",
+        "category": "とんかつ"
+      },
+      {
+        "name": "宮崎和牛とんかつ",
+        "price": "要確認",
+        "category": "とんかつ"
+      },
+      {
+        "name": "車海老フライ定食",
+        "price": "要確認",
+        "category": "海鮮フライ"
+      },
+      {
+        "name": "北海道帆立フライ",
+        "price": "要確認",
+        "category": "海鮮フライ"
+      },
+      {
+        "name": "広島牡蠣フライ",
+        "price": "要確認",
+        "category": "海鮮フライ"
+      }
+    ],
+    "price_range": "HKD 150〜400/人（目安）"
   },
   {
     "slug": "tonkichi-the-one-tst",
@@ -14488,7 +15525,36 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "1995年銅鑼湾創業、香港全域8店舗を展開する日本式とんかつ専門店。日本産黒豚・宮崎和牛・車海老・北海道帆立などの高級食材を使用。秘製ゴマ醤油が特徴。静かで上品な空間でゆっくり食事が楽しめる。ネット予約可。",
+    "menu": [
+      {
+        "name": "黒豚とんかつ定食",
+        "price": "要確認",
+        "category": "とんかつ"
+      },
+      {
+        "name": "宮崎和牛とんかつ",
+        "price": "要確認",
+        "category": "とんかつ"
+      },
+      {
+        "name": "車海老フライ定食",
+        "price": "要確認",
+        "category": "海鮮フライ"
+      },
+      {
+        "name": "北海道帆立フライ",
+        "price": "要確認",
+        "category": "海鮮フライ"
+      },
+      {
+        "name": "広島牡蠣フライ",
+        "price": "要確認",
+        "category": "海鮮フライ"
+      }
+    ],
+    "price_range": "HKD 150〜400/人（目安）"
   },
   {
     "slug": "tonkichi-wtc-causeway-bay",
@@ -14517,7 +15583,36 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "1995年銅鑼湾創業、香港全域8店舗を展開する日本式とんかつ専門店。日本産黒豚・宮崎和牛・車海老・北海道帆立などの高級食材を使用。秘製ゴマ醤油が特徴。静かで上品な空間でゆっくり食事が楽しめる。ネット予約可。",
+    "menu": [
+      {
+        "name": "黒豚とんかつ定食",
+        "price": "要確認",
+        "category": "とんかつ"
+      },
+      {
+        "name": "宮崎和牛とんかつ",
+        "price": "要確認",
+        "category": "とんかつ"
+      },
+      {
+        "name": "車海老フライ定食",
+        "price": "要確認",
+        "category": "海鮮フライ"
+      },
+      {
+        "name": "北海道帆立フライ",
+        "price": "要確認",
+        "category": "海鮮フライ"
+      },
+      {
+        "name": "広島牡蠣フライ",
+        "price": "要確認",
+        "category": "海鮮フライ"
+      }
+    ],
+    "price_range": "HKD 150〜400/人（目安）"
   },
   {
     "slug": "saboten-causeway-bay-ramen",
@@ -15702,7 +16797,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本発の牛丼チェーン。Mong Kok店。100年以上の伝統の牛丼レシピを香港でも提供。デリバリー・テイクアウトに対応。ランチタイムや夜食にも重宝する手軽な価格帯。",
+    "menu": [
+      {
+        "name": "牛丼（牛肉飯）",
+        "price": "HKD 35〜55",
+        "category": "ご飯"
+      },
+      {
+        "name": "牛丼セット",
+        "price": "HKD 50〜70",
+        "category": "セット"
+      },
+      {
+        "name": "カレー",
+        "price": "HKD 35〜50",
+        "category": "ご飯"
+      }
+    ],
+    "price_range": "HKD 35〜70/食"
   },
   {
     "slug": "yoshinoya-hk-causeway-bay-kyoto",
@@ -15732,7 +16846,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本発の牛丼チェーン。Causeway Bay店。100年以上の伝統の牛丼レシピを香港でも提供。デリバリー・テイクアウトに対応。ランチタイムや夜食にも重宝する手軽な価格帯。",
+    "menu": [
+      {
+        "name": "牛丼（牛肉飯）",
+        "price": "HKD 35〜55",
+        "category": "ご飯"
+      },
+      {
+        "name": "牛丼セット",
+        "price": "HKD 50〜70",
+        "category": "セット"
+      },
+      {
+        "name": "カレー",
+        "price": "HKD 35〜50",
+        "category": "ご飯"
+      }
+    ],
+    "price_range": "HKD 35〜70/食"
   },
   {
     "slug": "yoshinoya-hk-sha-tin-ramen",
@@ -15762,7 +16895,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本発の牛丼チェーン。Sha Tin店。100年以上の伝統の牛丼レシピを香港でも提供。デリバリー・テイクアウトに対応。ランチタイムや夜食にも重宝する手軽な価格帯。",
+    "menu": [
+      {
+        "name": "牛丼（牛肉飯）",
+        "price": "HKD 35〜55",
+        "category": "ご飯"
+      },
+      {
+        "name": "牛丼セット",
+        "price": "HKD 50〜70",
+        "category": "セット"
+      },
+      {
+        "name": "カレー",
+        "price": "HKD 35〜50",
+        "category": "ご飯"
+      }
+    ],
+    "price_range": "HKD 35〜70/食"
   },
   {
     "slug": "yoshinoya-hk-yuen-long-ramen",
@@ -15792,7 +16944,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本発の牛丼チェーン。Yuen Long店。100年以上の伝統の牛丼レシピを香港でも提供。デリバリー・テイクアウトに対応。ランチタイムや夜食にも重宝する手軽な価格帯。",
+    "menu": [
+      {
+        "name": "牛丼（牛肉飯）",
+        "price": "HKD 35〜55",
+        "category": "ご飯"
+      },
+      {
+        "name": "牛丼セット",
+        "price": "HKD 50〜70",
+        "category": "セット"
+      },
+      {
+        "name": "カレー",
+        "price": "HKD 35〜50",
+        "category": "ご飯"
+      }
+    ],
+    "price_range": "HKD 35〜70/食"
   },
   {
     "slug": "yoshinoya-hk-tuen-mun-hands",
@@ -15822,7 +16993,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本発の牛丼チェーン。Tuen Mun店。100年以上の伝統の牛丼レシピを香港でも提供。デリバリー・テイクアウトに対応。ランチタイムや夜食にも重宝する手軽な価格帯。",
+    "menu": [
+      {
+        "name": "牛丼（牛肉飯）",
+        "price": "HKD 35〜55",
+        "category": "ご飯"
+      },
+      {
+        "name": "牛丼セット",
+        "price": "HKD 50〜70",
+        "category": "セット"
+      },
+      {
+        "name": "カレー",
+        "price": "HKD 35〜50",
+        "category": "ご飯"
+      }
+    ],
+    "price_range": "HKD 35〜70/食"
   },
   {
     "slug": "yoshinoya-hk-ma-on-shan",
@@ -15852,7 +17042,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本発の牛丼チェーン。Ma On Shan店。100年以上の伝統の牛丼レシピを香港でも提供。デリバリー・テイクアウトに対応。ランチタイムや夜食にも重宝する手軽な価格帯。",
+    "menu": [
+      {
+        "name": "牛丼（牛肉飯）",
+        "price": "HKD 35〜55",
+        "category": "ご飯"
+      },
+      {
+        "name": "牛丼セット",
+        "price": "HKD 50〜70",
+        "category": "セット"
+      },
+      {
+        "name": "カレー",
+        "price": "HKD 35〜50",
+        "category": "ご飯"
+      }
+    ],
+    "price_range": "HKD 35〜70/食"
   },
   {
     "slug": "tsukemen-mitaseimenjo-causeway-bay",
@@ -16060,7 +17269,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本発の牛丼チェーン。Central店。100年以上の伝統の牛丼レシピを香港でも提供。デリバリー・テイクアウトに対応。ランチタイムや夜食にも重宝する手軽な価格帯。",
+    "menu": [
+      {
+        "name": "牛丼（牛肉飯）",
+        "price": "HKD 35〜55",
+        "category": "ご飯"
+      },
+      {
+        "name": "牛丼セット",
+        "price": "HKD 50〜70",
+        "category": "セット"
+      },
+      {
+        "name": "カレー",
+        "price": "HKD 35〜50",
+        "category": "ご飯"
+      }
+    ],
+    "price_range": "HKD 35〜70/食"
   },
   {
     "slug": "yoshinoya-hk-wan-chai-johnston",
@@ -16090,7 +17318,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本発の牛丼チェーン。Wan Chai店。100年以上の伝統の牛丼レシピを香港でも提供。デリバリー・テイクアウトに対応。ランチタイムや夜食にも重宝する手軽な価格帯。",
+    "menu": [
+      {
+        "name": "牛丼（牛肉飯）",
+        "price": "HKD 35〜55",
+        "category": "ご飯"
+      },
+      {
+        "name": "牛丼セット",
+        "price": "HKD 50〜70",
+        "category": "セット"
+      },
+      {
+        "name": "カレー",
+        "price": "HKD 35〜50",
+        "category": "ご飯"
+      }
+    ],
+    "price_range": "HKD 35〜70/食"
   },
   {
     "slug": "yoshinoya-hk-north-point-fitfort",
@@ -16120,7 +17367,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本発の牛丼チェーン。North Point店。100年以上の伝統の牛丼レシピを香港でも提供。デリバリー・テイクアウトに対応。ランチタイムや夜食にも重宝する手軽な価格帯。",
+    "menu": [
+      {
+        "name": "牛丼（牛肉飯）",
+        "price": "HKD 35〜55",
+        "category": "ご飯"
+      },
+      {
+        "name": "牛丼セット",
+        "price": "HKD 50〜70",
+        "category": "セット"
+      },
+      {
+        "name": "カレー",
+        "price": "HKD 35〜50",
+        "category": "ご飯"
+      }
+    ],
+    "price_range": "HKD 35〜70/食"
   },
   {
     "slug": "yoshinoya-hk-sheung-wan-shun-tak",
@@ -16150,7 +17416,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本発の牛丼チェーン。Sheung Wan店。100年以上の伝統の牛丼レシピを香港でも提供。デリバリー・テイクアウトに対応。ランチタイムや夜食にも重宝する手軽な価格帯。",
+    "menu": [
+      {
+        "name": "牛丼（牛肉飯）",
+        "price": "HKD 35〜55",
+        "category": "ご飯"
+      },
+      {
+        "name": "牛丼セット",
+        "price": "HKD 50〜70",
+        "category": "セット"
+      },
+      {
+        "name": "カレー",
+        "price": "HKD 35〜50",
+        "category": "ご飯"
+      }
+    ],
+    "price_range": "HKD 35〜70/食"
   },
   {
     "slug": "dondonya-tai-koo-cityplaza",
@@ -26284,7 +27569,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "香港全域に40店舗以上展開する回転寿司チェーン。Ma On Shan店。タッチパネルで注文し高速レーンで届く最新スタイル。ランチ・ディナーとも手頃な価格で本格回転寿司が楽しめる。季節限定メニューも充実。",
+    "menu": [
+      {
+        "name": "握壽司（定番）",
+        "price": "HKD 14〜35/皿",
+        "category": "寿司"
+      },
+      {
+        "name": "麺類・うどん",
+        "price": "HKD 30〜50",
+        "category": "うどん・そば"
+      },
+      {
+        "name": "甜品・デザート",
+        "price": "HKD 20〜35",
+        "category": "デザート"
+      },
+      {
+        "name": "飲料",
+        "price": "HKD 15〜25",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "HKD 100〜200/人（目安）"
   },
   {
     "slug": "kura-sushi-sha-tin-ntp",

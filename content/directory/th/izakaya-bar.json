@@ -51,7 +51,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "スクンビット55（トンローソイ9周辺）にある焼き鳥・もつ鍋専門の日本式居酒屋。バンコクに複数店舗を展開するなぎ屋チェーンのトンロー店。4名以上の宴会コースにも対応。17:00〜24:00（L.O.23:00）営業。BTSトンロー駅からアクセス可能。"
   },
   {
     "slug": "nonkiya-phrom-phong",
@@ -208,7 +209,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "ルンピニ地区のシンドーンケンピンスキーホテル内にある日本式居酒屋。大阪法善寺横丁や東京新宿ゴールデン街の路地裏居酒屋の雰囲気を再現した空間。小皿料理と一品料理の充実したメニューを提供。ランチ12:00〜15:00、ディナー17:00〜深夜0:00（毎日営業）。BTSラーチャダムリ駅またはMRTルンピニー駅周辺。"
   },
   {
     "slug": "izakaya-hotei-phrom-phong",
@@ -553,7 +555,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "スクンビットソイ26の日本人街エリアにある焼き鳥・もつ鍋専門居酒屋。バンコク在住日本人に親しまれるなぎ屋の日本町店。17:00〜24:00（L.O.23:00）営業。BTSプロンポン駅から徒歩圏内のスクンビット26に位置。"
   },
   {
     "slug": "taishu-sakaba-torayoshi-nihonmachi",
@@ -1002,7 +1005,56 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "menu": [
+      {
+        "name": "セットチャージ・ビジター（60分）",
+        "price": "THB 1,200",
+        "category": "チャージ"
+      },
+      {
+        "name": "セットチャージ・メンバー（60分）",
+        "price": "THB 800",
+        "category": "チャージ"
+      },
+      {
+        "name": "テーブルチャージ（ソファ）",
+        "price": "THB 500",
+        "category": "チャージ"
+      },
+      {
+        "name": "VIPルーム",
+        "price": "THB 2,000",
+        "category": "チャージ"
+      },
+      {
+        "name": "同伴料",
+        "price": "THB 1,000",
+        "category": "サービス"
+      },
+      {
+        "name": "指名料",
+        "price": "THB 600",
+        "category": "サービス"
+      },
+      {
+        "name": "レディースドリンク",
+        "price": "THB 260〜",
+        "category": "ドリンク"
+      },
+      {
+        "name": "バーチャージ",
+        "price": "THB 400",
+        "category": "チャージ"
+      },
+      {
+        "name": "ミキサーチャージ",
+        "price": "THB 200",
+        "category": "サービス"
+      }
+    ],
+    "price_range": "THB 1,200〜3,000/人（VAT7%・SC10%別）",
+    "detail": "スクンビットソイ33にある日本式会員制ラウンジ。日本人女性スタッフが常駐し、ボトルキープ制のラウンジシステムとバーシステムの2形態で営業。カラオケ＆ダーツを完備。ビジターチャージTHB 1,200（60分・ドリンク込み）。ラウンジ系の本格的な日本式接待スタイル。BTSプロンポン駅から徒歩圏内のスクンビット33に位置。"
   },
   {
     "slug": "sunset-okinawa-snack-asoke",
@@ -1322,7 +1374,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "スクンビット21（GMM Gramyy Placeビル）にあるなぎ屋のアソーク店。焼き鳥・もつ鍋・日本酒を提供する本格日本式居酒屋。17:00〜24:00（L.O.23:00）営業（日祝休業）。BTSアソーク駅・MRTスクンビット駅直結エリア。"
   },
   {
     "slug": "nagiya-taniya",
@@ -1349,7 +1402,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "タニヤロード中心部にあるなぎ屋のタニヤ店。日系企業が集中するタニヤ地区で、駐在員が夜に立ち寄りやすい焼き鳥・もつ鍋居酒屋。17:00〜24:00（L.O.23:00）営業。BTSサラデーン駅から徒歩圏内。"
   },
   {
     "slug": "nagiya-don-don-donki-thonglor",
@@ -1375,7 +1429,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "トンローのドン・ドン・ドンキ内にあるなぎ屋の店舗。ショッピング後に立ち寄りやすいロケーションで、焼き鳥・もつ鍋を提供。BTSトンロー駅直結のドン・ドン・ドンキ内。"
   },
   {
     "slug": "nagiya-gateway-ekkamai",
@@ -1401,7 +1456,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "BTSエカマイ駅近くのゲートウェイモール内にあるなぎ屋の店舗。平日・土日祝とも12:00〜22:00のランチから営業。焼き鳥・もつ鍋・日本食を幅広い時間帯で楽しめる。エカマイ・オンヌット周辺在住者に便利な立地。"
   },
   {
     "slug": "izakaya-yu-charcoal-grill-bangkok",
@@ -3004,7 +3060,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "チャオプラヤー川沿いのヨドピマン・リバーウォークにあるなぎ屋の川沿い店舗。川の景色を眺めながら焼き鳥・もつ鍋・日本酒を楽しめる。アクセスはチャオプラヤーエクスプレスボートまたはMRTサームヨード駅。"
   },
   {
     "slug": "izakaya-konoji",
@@ -4164,7 +4221,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "menu": [
+      {
+        "name": "串焼き各種",
+        "price": "THB 18〜/本",
+        "category": "串焼き"
+      },
+      {
+        "name": "鮭刺身（金土限定）",
+        "price": "THB 88〜",
+        "category": "刺身"
+      },
+      {
+        "name": "ビール・ハイボール（月〜水）",
+        "price": "THB 48",
+        "category": "ドリンク"
+      },
+      {
+        "name": "日本酒・焼酎各種",
+        "price": "THB 〜",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "THB 500〜/人",
+    "detail": "ラチャダムリ通り（バンラック区）にある3フロア構成の居酒屋。BTSサラデーン駅から徒歩5分のアクセス好立地。串焼きTHB 18〜/本、月〜水はビール・ハイボールTHB 48の格安ドリンクデーあり。カジュアル席からプライベートルーム・パーティースペースまで対応。禁煙。17:00〜24:00（日曜休業）。アットホームな雰囲気で日本人駐在員にも人気。"
   },
   {
     "slug": "oji-izakaya",
@@ -4367,7 +4448,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "スクンビット47とバンナーのThe Glass Market（2店舗）に展開するモダン居酒屋。日本インスパイアのクリエイティブなメニューを提供。TableCheckまたはLINEで予約可能。BTSプロンポン駅周辺（スクンビット47店）とバンナー店で展開。"
   },
   {
     "slug": "hiyaku-izakaya-esplanade-ratchada",
@@ -5064,7 +5146,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "BTSアソーク駅周辺にある日本式居酒屋。「Izakaya Hanako」のコンセプトで本格的な居酒屋料理とドリンクを提供。公式サイト（izakayahanako.com）で最新情報を確認可能。"
   },
   {
     "slug": "taisho-izakaya",
@@ -5180,7 +5263,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "price_range": "THB 1,000〜/人",
+    "detail": "スクンビットソイ19にある三陸直送素材をテーマにした居酒屋・寿司店。BTSアソーク駅から徒歩5分以内。週1回日本から直送の新鮮魚介を使った握り寿司・刺身のほか、きりたんぽ鍋・ひっつみ鍋などの東北鍋料理・おでん・串焼きも提供。タタミ席を含む多様な座席。17:00〜翌4:00（日曜〜2:00）の年中無休営業で2次会にも対応。"
   },
   {
     "slug": "madoka-sumibi-izakaya",
@@ -5673,7 +5758,76 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "menu": [
+      {
+        "name": "枝豆",
+        "price": "THB 80",
+        "category": "前菜"
+      },
+      {
+        "name": "唐揚げ",
+        "price": "THB 180",
+        "category": "前菜"
+      },
+      {
+        "name": "おまかせ寿司セット（6貫）",
+        "price": "THB 688",
+        "category": "寿司"
+      },
+      {
+        "name": "手毬寿司セット（7貫）",
+        "price": "THB 688",
+        "category": "寿司"
+      },
+      {
+        "name": "バフンウニ寿司（2貫）",
+        "price": "THB 680",
+        "category": "寿司"
+      },
+      {
+        "name": "おでん（8品）",
+        "price": "THB 368",
+        "category": "鍋"
+      },
+      {
+        "name": "和牛鍋",
+        "price": "THB 680",
+        "category": "鍋"
+      },
+      {
+        "name": "海鮮鍋",
+        "price": "THB 980",
+        "category": "鍋"
+      },
+      {
+        "name": "神戸ワイン牛A4ステーキ",
+        "price": "THB 880",
+        "category": "ステーキ"
+      },
+      {
+        "name": "近江和牛A5ステーキ",
+        "price": "THB 1,280",
+        "category": "ステーキ"
+      },
+      {
+        "name": "天丼",
+        "price": "THB 338",
+        "category": "丼"
+      },
+      {
+        "name": "バラちらし丼",
+        "price": "THB 680",
+        "category": "丼"
+      },
+      {
+        "name": "抹茶梅酒アイスクリーム",
+        "price": "THB 248",
+        "category": "デザート"
+      }
+    ],
+    "price_range": "THB 300〜1,500/人",
+    "detail": "スクンビット45沿い（835 Sukhumvit Rd.）にある梅酒をテーマにした和食堂兼梅酒バー。唐揚げTHB 180から神戸・松阪・近江の黒毛和牛ステーキ（THB 880〜1,480）まで幅広いメニュー展開。梅酒バーとして日本各地の梅酒を揃え、カラオケも完備。スマートカジュアルのドレスコードあり。「梅酒の天国」をコンセプトに自宅のような温かみのある雰囲気。BTSプロンポン駅周辺。"
   },
   {
     "slug": "blue-district-rooftop-bar",
@@ -5818,7 +5972,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "スクンビット25のSOTETSU GRAND FRESA BANGKOK内にある備長炭焼き専門の日本料理レストラン。スタイリッシュな和のインテリアで、備長炭で丁寧に焼き上げた料理を提供。BTSアソーク駅またはMRTスクンビット駅から徒歩圏内のスクンビット25に位置。仲間や大切な人との会食・接待に適した上質な空間。"
   },
   {
     "slug": "shinsen-suhi-bar-japanese-cuisine-prince-palace-hotel",
@@ -5934,7 +6089,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "ソフィテルバンコクスクンビット1階にある日本料理レストラン兼ウイスキーバー。刺身・寿司などの日本料理と豊富なウイスキー・シグネチャーカクテルを提供。「Madame Mizukiの世界へ」をコンセプトに、毎日17:00〜翌1:00（フード最終注文22:30）。BTSアソーク・MRTスクンビット駅から徒歩圏内。"
   },
   {
     "slug": "seki-hand-roll-and-sushi-bar",
@@ -6050,7 +6206,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "price_range": "THB 80〜3,000/人",
+    "detail": "スクンビットソイ24にある炉端焼き専門店。炭火で焙った料理を赤いパドルで提供するスタイルと、カラオケルーム・ヒップホップ雰囲気の地下フロアが特徴。毎日18:00〜01:00営業。串焼き・手巻き寿司・居酒屋メニュー・ベジタリアン対応。BTSプロンポン駅（E5）から徒歩圏内。"
   },
   {
     "slug": "sato-san-rooftop-bar",

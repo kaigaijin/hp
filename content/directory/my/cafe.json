@@ -24,7 +24,51 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "TRX MRT駅（バレンシアガ出口）近くのジャラン・カムニングに位置する日本式カフェ＆麹ベーカリー。麹発酵を活かした天然のやわらかいパンやスイーツが特徴。グリルサーモンセット（MYR39.90）・牛やきにくセット・茸と海老の天ぷら蕎麦などの食事メニューも充実。毎日8時〜18時。ポークフリーで安心して利用できる。",
+    "menu": [
+      {
+        "name": "グリルサーモンセット（味噌漬け）",
+        "price": "MYR 39.90",
+        "category": "食事"
+      },
+      {
+        "name": "牛やきにくセット",
+        "price": "MYR 39.90",
+        "category": "食事"
+      },
+      {
+        "name": "チキンナンバンセット",
+        "price": "MYR 34.90",
+        "category": "食事"
+      },
+      {
+        "name": "茸と海老の天ぷら蕎麦",
+        "price": "MYR 25.90",
+        "category": "食事"
+      },
+      {
+        "name": "唐揚げ チキン＆明太子ソース",
+        "price": "MYR 16.00",
+        "category": "スナック"
+      },
+      {
+        "name": "照り焼きサーモン&ワサビマヨ クロワッサン",
+        "price": "MYR 18.00",
+        "category": "パン"
+      },
+      {
+        "name": "ビートルートラテ",
+        "price": "MYR 17.00",
+        "category": "ドリンク"
+      },
+      {
+        "name": "ブルーベリー麹スムージー",
+        "price": "MYR 16.00",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "MYR 15〜40/人"
   },
   {
     "slug": "niko-neko-matcha-mont-kiara",
@@ -262,7 +306,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "モン・キアラの1モン・キアラ（ジャラン・キアラ）に位置する日本式ベーカリーカフェ。地域に根ざした「家族や友人がゆっくり過ごせる」カフェをコンセプトに、焼きたてのパンとドリンクを提供。FoodpandaとGrabFoodでのデリバリーにも対応。FavePay・GrabPay・Touch 'n Go使用可能。",
+    "menu": [
+      {
+        "name": "ガーリックバター（プロモーション品）",
+        "price": "MYR 8〜",
+        "category": "パン"
+      },
+      {
+        "name": "各種ブレッド・ベーカリー",
+        "price": "MYR 5〜20",
+        "category": "パン"
+      },
+      {
+        "name": "コーヒー・ドリンク",
+        "price": "MYR 10〜18",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "MYR 15〜35/人"
   },
   {
     "slug": "komugi-pavilion-kl",
@@ -3812,7 +3875,21 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "モン・キアラの1モン・キアラに位置する日本式ベーカリーカフェ（パブリカ店と同系列）。地域に根ざした「家族や友人がゆっくり過ごせる」カフェをコンセプトに、焼きたてのパンとドリンクを提供。FoodpandaとGrabFoodでのデリバリーにも対応。",
+    "menu": [
+      {
+        "name": "各種ブレッド・ベーカリー",
+        "price": "MYR 5〜20",
+        "category": "パン"
+      },
+      {
+        "name": "コーヒー・ドリンク",
+        "price": "MYR 10〜18",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "MYR 15〜35/人"
   },
   {
     "slug": "asahi-cafe",
@@ -4276,7 +4353,21 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "ブキ・ダマンサラの「ザ・ファイブ@KPD」内に位置するビストロノミー。欧州と日本の調理技法を融合させた料理を、農家との密接な関係のもとで提供するミシュラン2026年版認定レストラン。火〜土ランチ12時〜15時・ディナー18時〜23時。月・日定休。TableApp予約推奨。",
+    "menu": [
+      {
+        "name": "プリフィックス テイスティングメニュー（ランチ）",
+        "price": "MYR 150〜",
+        "category": "ランチ"
+      },
+      {
+        "name": "テイスティングメニュー（ディナー）",
+        "price": "MYR 250〜",
+        "category": "ディナー"
+      }
+    ],
+    "price_range": "MYR 150〜300/人"
   },
   {
     "slug": "momaku-x-baristart-coffee-malaysia",
@@ -4682,7 +4773,41 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "ブキ・ダマンサラのジャラン・メダン・セティア1番地に位置するフランス式アルチザンベーカリー。バゲットレバン（MYR8.50）・アンコバター・クロワッサンタルト・ペインドカンパーニュなど本格的なフランスパンとパティスリーを提供。毎日7:30〜19:30。Beepitアプリで事前注文（9:30〜17:00）も可能。",
+    "menu": [
+      {
+        "name": "バゲット レバン",
+        "price": "MYR 8.50",
+        "category": "パン"
+      },
+      {
+        "name": "アンコバター パン・ヴィエノワ",
+        "price": "MYR 8.50",
+        "category": "パン"
+      },
+      {
+        "name": "苺クロワッサン タルト",
+        "price": "MYR 15.00",
+        "category": "パン"
+      },
+      {
+        "name": "ペイン・ドゥ・カンパーニュ",
+        "price": "MYR 18.50",
+        "category": "パン"
+      },
+      {
+        "name": "フロランタン",
+        "price": "MYR 38.00",
+        "category": "パティスリー"
+      },
+      {
+        "name": "ノワゼット・ショコラ",
+        "price": "MYR 22.00",
+        "category": "パティスリー"
+      }
+    ],
+    "price_range": "MYR 8〜38/品"
   },
   {
     "slug": "hattendo-seibu-the-exchange-trx",
@@ -5001,7 +5126,46 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "スリ・ペタリン（ジャラン・ラディン・アヌム）に位置する日本×フランス風アルチザンパティスリー。ヴァローナ・チョコレートを使ったムースケーキ・リキュール入りデザート・フレッシュフラワーブーケが特徴。毎日10時〜21時。同日デリバリーと翌日注文が可能。KL・セランゴールは最低購入額で無料配送。",
+    "menu": [
+      {
+        "name": "リッチ ピスタチオ ベール",
+        "price": "MYR 108〜",
+        "category": "ケーキ"
+      },
+      {
+        "name": "ハーフムーン ベリー",
+        "price": "MYR 128〜",
+        "category": "ケーキ"
+      },
+      {
+        "name": "抹茶の頂点 Zenith of Matcha",
+        "price": "MYR 128〜",
+        "category": "ケーキ"
+      },
+      {
+        "name": "ティラミス・トリロジー",
+        "price": "MYR 128〜",
+        "category": "ケーキ"
+      },
+      {
+        "name": "マッチル Matchiru（抹茶）",
+        "price": "MYR 118〜",
+        "category": "ケーキ"
+      },
+      {
+        "name": "ティプシー・ウィスパー（ウイスキー風味）",
+        "price": "MYR 178〜",
+        "category": "ケーキ"
+      },
+      {
+        "name": "サル・ノワール 70%",
+        "price": "MYR 138〜",
+        "category": "ケーキ"
+      }
+    ],
+    "price_range": "MYR 27〜45/人（4インチケーキを3〜6人で分けた場合）"
   },
   {
     "slug": "the-rotiman-bakery-mahkota-cheras",
@@ -5233,7 +5397,36 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本人シェフが毎日手作りする本格ハラールフレンドリーな日本式パティスリー。ロールケーキ・フィナンシェ・抹茶・ほうじ茶・ピスタチオなど豊富なラインナップ。Easycoを通じたオンライン事前注文（同日6時までで当日受取）が可能。",
+    "menu": [
+      {
+        "name": "抹茶柚子ロール",
+        "price": "MYR 65〜",
+        "category": "ロールケーキ"
+      },
+      {
+        "name": "チョコレートロール",
+        "price": "MYR 65〜",
+        "category": "ロールケーキ"
+      },
+      {
+        "name": "ほうじ茶シフォンケーキ",
+        "price": "MYR 55〜",
+        "category": "ケーキ"
+      },
+      {
+        "name": "フィナンシェ（各種）",
+        "price": "MYR 8〜12",
+        "category": "焼き菓子"
+      },
+      {
+        "name": "苺ピスタチオタルト",
+        "price": "MYR 20〜",
+        "category": "タルト"
+      }
+    ],
+    "price_range": "MYR 8〜100/品"
   },
   {
     "slug": "happy-meal-bakery",

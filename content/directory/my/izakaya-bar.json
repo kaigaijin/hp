@@ -24,7 +24,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "ブキビンタンのジャラン・メスイに位置するマレーシア屈指の砂焼き炭火焼き居酒屋。アンソン・マスターシェフ（アジア各地20年超の経験）が担当。北海道沖300〜500mから水揚げされる希少な「キンキ（赤金目鯛）」など旬の高級魚を炭火砂焼きで提供。ライブバンド・DJが毎晩20時から入り深夜3時まで営業。Tatler Asia誌「KLの5つのマキシマリストデザインレストラン」に掲載。Google評価4.9。",
+    "menu": [
+      {
+        "name": "キンキ（砂焼き特選）",
+        "price": "MYR 200〜（時価）",
+        "category": "特選焼き魚"
+      },
+      {
+        "name": "炭火砂焼き魚（各種）",
+        "price": "MYR 80〜200（時価）",
+        "category": "焼き魚"
+      },
+      {
+        "name": "刺身盛り合わせ",
+        "price": "MYR 80〜",
+        "category": "刺身"
+      },
+      {
+        "name": "日本酒・ビール",
+        "price": "MYR 20〜50/杯",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "MYR 120〜300/人（ディナー）"
   },
   {
     "slug": "robataya-izakaya-publika",
@@ -78,7 +102,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "KLCC向かいのデ・キングホテル（ジャラン・アンパン160番地）に位置する大型居酒屋。円形寿司バー（40席）を含む約150席の広々とした空間で、焼き鳥・串焼き・ロバタ炭火焼き・寿司・日本酒が揃う。ジョニー・アウ・ヨン師匠（35年以上の経験）とリッキー上石シェフが在籍。にぎやかな雰囲気でアフターワークや仲間との集まりに最適。",
+    "menu": [
+      {
+        "name": "プレミアム焼き鳥・肉串盛り合わせ",
+        "price": "MYR 35〜60",
+        "category": "焼き鳥"
+      },
+      {
+        "name": "シグネチャー炭火グリル（ジャンボタイガープロウン等）",
+        "price": "MYR 55〜",
+        "category": "炭火焼き"
+      },
+      {
+        "name": "和牛串（各種）",
+        "price": "MYR 40〜60/串",
+        "category": "串焼き"
+      },
+      {
+        "name": "日本酒・焼酎・ビール",
+        "price": "MYR 15〜40/杯",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "MYR 80〜150/人"
   },
   {
     "slug": "shakariki-432-publika",
@@ -158,7 +206,41 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "スリ・ハルタマス8番街14番地に位置する豚肉専門の本格居酒屋。もつ鍋・煮付け豚足・おでん・グリル桜リブ・串焼き・豚足ポン酢など豚の各部位を使ったメニューが揃う。毎日16:30〜23:30。予約（WhatsApp）推奨。",
+    "menu": [
+      {
+        "name": "もつ鍋",
+        "price": "MYR 50〜",
+        "category": "鍋"
+      },
+      {
+        "name": "煮付け豚足",
+        "price": "MYR 35〜",
+        "category": "煮物"
+      },
+      {
+        "name": "おでん盛り合わせ",
+        "price": "MYR 30〜",
+        "category": "おでん"
+      },
+      {
+        "name": "グリル桜リブ",
+        "price": "MYR 55〜",
+        "category": "グリル"
+      },
+      {
+        "name": "串焼き（各種）",
+        "price": "MYR 8〜15/本",
+        "category": "串焼き"
+      },
+      {
+        "name": "豚足 ポン酢",
+        "price": "MYR 30〜",
+        "category": "前菜"
+      }
+    ],
+    "price_range": "MYR 60〜120/人"
   },
   {
     "slug": "sakehaus-izakaya",
@@ -289,7 +371,36 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "ブキビンタンのチャンカット通り20番地に位置する焼き鳥専門居酒屋。水炊き鍋・和牛朴葉焼き・おでん・串天ぷら・焼き鳥各種を提供。毎日16:30〜24:00営業。サッポロ生ビール・ハイボール・日本酒・焼酎・フルーツ系日本酒も充実。WhatsApp・電話予約可能。",
+    "menu": [
+      {
+        "name": "水炊き鍋",
+        "price": "MYR 60〜",
+        "category": "鍋"
+      },
+      {
+        "name": "和牛朴葉焼き",
+        "price": "MYR 80〜",
+        "category": "焼き料理"
+      },
+      {
+        "name": "おでん盛り合わせ",
+        "price": "MYR 30〜",
+        "category": "おでん"
+      },
+      {
+        "name": "串天ぷら（各種）",
+        "price": "MYR 8〜15/本",
+        "category": "揚げ物"
+      },
+      {
+        "name": "焼き鳥（各種）",
+        "price": "MYR 8〜15/本",
+        "category": "焼き鳥"
+      }
+    ],
+    "price_range": "MYR 60〜120/人"
   },
   {
     "slug": "shakariki-sake-dining",
@@ -2085,7 +2196,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "チャンカット・ブキビンタン50番地に位置するモダン居酒屋バー。ポークフリーの洋食系日本料理（うどんカルボナーラ・チキンカツ・ラーメン等）とハウスインフューズドハイボール・クラフトカクテルを融合させた個性的なスタイル。月〜木17時〜翌1時・金土〜翌2時。DJが彩るアウトドアエリアあり。",
+    "menu": [
+      {
+        "name": "うどんカルボナーラ",
+        "price": "MYR 25〜35",
+        "category": "麺"
+      },
+      {
+        "name": "チキンカツ（洋食スタイル）",
+        "price": "MYR 30〜40",
+        "category": "メイン"
+      },
+      {
+        "name": "ハウスインフューズドハイボール",
+        "price": "MYR 28〜45",
+        "category": "ドリンク"
+      },
+      {
+        "name": "クラフトカクテル（各種）",
+        "price": "MYR 30〜50",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "MYR 60〜120/人"
   },
   {
     "slug": "san-izakaya-puchong",
@@ -2893,7 +3028,36 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "PJのダマンサラ・ウタマ（ジャラン SS21/1a）に位置する居酒屋。焼き鳥・串焼き・刺身・ラーメン・うどん・どんぶりを幅広く提供する「温かく迎え入れる雰囲気」が特徴。ハインケン・キリン・ギネス生ビール、サントリー角ハイボールも充実。スバンジャヤのタイパンBCにも姉妹店あり。",
+    "menu": [
+      {
+        "name": "牛ストリップロイン串",
+        "price": "MYR 20〜",
+        "category": "焼き鳥"
+      },
+      {
+        "name": "豚バラ串",
+        "price": "MYR 12〜",
+        "category": "焼き鳥"
+      },
+      {
+        "name": "刺身盛り合わせ",
+        "price": "MYR 55〜",
+        "category": "刺身"
+      },
+      {
+        "name": "ラーメン（各種）",
+        "price": "MYR 18〜25",
+        "category": "麺"
+      },
+      {
+        "name": "どんぶり（各種）",
+        "price": "MYR 20〜30",
+        "category": "丼"
+      }
+    ],
+    "price_range": "MYR 50〜100/人"
   },
   {
     "slug": "fire-izakaya-2",
@@ -3125,7 +3289,41 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "ブキビンタンのジャラン・メスイ13番地に位置する兵庫県姫路スタイルの焼き鳥居酒屋。坪坂オーナーが姫路から移転し同じ調理・リズムを再現。焼き鳥・姫路おでん・ラーメン・土鍋ご飯と姫路蔵元の日本酒が揃う。平日17時〜24時・週末15時〜24時。個室（7名まで）・カウンター席完備。予約（20時以降）推奨。",
+    "menu": [
+      {
+        "name": "焼き鳥（各種）",
+        "price": "MYR 6〜15/本",
+        "category": "焼き鳥"
+      },
+      {
+        "name": "姫路おでん盛り合わせ",
+        "price": "MYR 30〜",
+        "category": "おでん"
+      },
+      {
+        "name": "ラーメン",
+        "price": "MYR 18〜25",
+        "category": "麺"
+      },
+      {
+        "name": "土鍋ご飯",
+        "price": "MYR 15〜20",
+        "category": "ご飯もの"
+      },
+      {
+        "name": "キリン生ビール・角ハイボール",
+        "price": "MYR 15〜25/杯",
+        "category": "ドリンク"
+      },
+      {
+        "name": "姫路地酒（日本酒）",
+        "price": "MYR 20〜45/杯",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "MYR 60〜120/人"
   },
   {
     "slug": "tansen-izakaya",
@@ -3154,7 +3352,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "PJのダマンサラ・ジャヤに位置する日本式居酒屋。鮮魚の刺身・焼き鳥・焼き野菜・虎エビ・アサリなどの海鮮料理が揃う。プライベートダイニング対応。毎日13時〜15時・17時〜23時営業。サッポロ生ビール・ハイボール・日本酒・焼酎あり。WhatsApp予約推奨。",
+    "menu": [
+      {
+        "name": "プレミアム刺身盛り合わせ",
+        "price": "MYR 80〜",
+        "category": "刺身"
+      },
+      {
+        "name": "焼き鳥（各種）",
+        "price": "MYR 8〜15/本",
+        "category": "焼き鳥"
+      },
+      {
+        "name": "サッポロ生ビール",
+        "price": "MYR 25〜",
+        "category": "ドリンク"
+      },
+      {
+        "name": "ハイボール",
+        "price": "MYR 18〜",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "MYR 60〜120/人"
   },
   {
     "slug": "sho-shin-izakaya-2",
@@ -4026,7 +4248,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "モン・キアラのパビリカ・ショッピングモールに位置する大阪発の本格居酒屋。2018年2月オープン。フードメニュー・ランチメニュー・ドリンクメニューが揃い、大阪スタイルの気軽な居酒屋文化をKLで体験できる。毎日・365日営業で遅い時間まで対応。",
+    "menu": [
+      {
+        "name": "大阪スタイル居酒屋料理（各種）",
+        "price": "MYR 20〜50",
+        "category": "フード"
+      },
+      {
+        "name": "ランチセット",
+        "price": "MYR 25〜40",
+        "category": "ランチ"
+      },
+      {
+        "name": "ビール・日本酒・ハイボール（各種）",
+        "price": "MYR 15〜40",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "MYR 50〜100/人"
   },
   {
     "slug": "gen-izakaya-and-ramen",
@@ -4405,7 +4646,31 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "タマン・デサのフェーバー・タワー（ジャラン・デサ・バハギア）に位置する鉄板焼き居酒屋。和牛やイベリコ豚の鉄板焼きから日本風小皿料理まで幅広く提供。日〜木12:30〜15時・17時〜22:30、金土〜23時。グループ会食から気軽な一人飲みまで対応。",
+    "menu": [
+      {
+        "name": "和牛鉄板焼き",
+        "price": "MYR 80〜",
+        "category": "鉄板"
+      },
+      {
+        "name": "イベリコ豚鉄板焼き",
+        "price": "MYR 65〜",
+        "category": "鉄板"
+      },
+      {
+        "name": "ハンバーグ鉄板",
+        "price": "MYR 40〜",
+        "category": "鉄板"
+      },
+      {
+        "name": "日本風小皿料理（各種）",
+        "price": "MYR 15〜30",
+        "category": "小皿"
+      }
+    ],
+    "price_range": "MYR 60〜150/人"
   },
   {
     "slug": "san-izakaya",

@@ -214,7 +214,7 @@
     "address": "Gangnam-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "名古屋発の喫茶店チェーン。モーニングセット、シロノワール、小倉トーストなど名古屋の喫茶文化を体験できる。",
+    "description": "名古屋発の日本チェーン喫茶店のソウル店。シロノワール・小倉トースト・モーニングセットなど名古屋の喫茶文化が体験できる。江南エリアに位置する。",
     "tags": [
       "喫茶店",
       "日本チェーン",
@@ -346,7 +346,7 @@
     "address": "539-4 Sinsa-dong, Gangnam-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "新沙洞にある抹茶カフェ。上質な抹茶を使ったドリンクとデザートを提供。落ち着いた和風の空間で日本の茶文化を楽しめる。",
+    "description": "新沙洞にある日本の茶文化をテーマにした抹茶カフェ。上質な抹茶を使ったドリンクとデザートを提供し、和風の落ち着いた内装が特徴。",
     "tags": [
       "抹茶",
       "カフェ",
@@ -476,7 +476,7 @@
     "address": "ソウル市内（複数店舗）",
     "phone": null,
     "website": null,
-    "description": "日本のベーカリーカフェチェーンのソウル店。チョコクロワッサンが看板商品。コーヒーとパンのセットで軽食に利用しやすい。",
+    "description": "日本のベーカリーカフェチェーン「サンマルクカフェ」のソウル店。チョコクロワッサンが看板商品で、コーヒーとパンのセットで利用できる。",
     "tags": [
       "ベーカリー",
       "カフェ",
@@ -546,7 +546,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "menu": [
+      {
+        "name": "クリームドーナツ（シグネチャー）",
+        "price": "KRW 6,500〜8,500",
+        "category": "スイーツ"
+      },
+      {
+        "name": "スペシャルティコーヒー（アメリカーノ等）",
+        "price": "KRW 6,000〜8,000",
+        "category": "ドリンク"
+      },
+      {
+        "name": "抹茶ドリンク",
+        "price": "KRW 7,000〜9,000",
+        "category": "ドリンク"
+      }
+    ],
+    "price_range": "KRW 6,000〜9,000/人",
+    "detail": "江南エリアに位置するCafe Knottedは、クリームがたっぷり入ったアーティザンドーナツとスペシャルティコーヒーで人気のカフェ。独創的なフレーバーのドーナツは1個KRW 6,500〜8,500程度で、インスタ映えするビジュアルが話題。江南駅周辺のおしゃれなカフェ文化を体験したい日本人旅行者・在住者にも人気のスポット。"
   },
   {
     "slug": "osulloc-tea-house-gangnam",
@@ -572,7 +591,15 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "menu": [
+      {
+        "name": "プレミアム茶セット（オンライン販売品）",
+        "price": "KRW 65,600",
+        "category": "茶葉（テイクアウト）"
+      }
+    ],
+    "detail": "제주（済州島）産のお茶を使った韓国発の高級ティーブランドOsulloc（オスロック）の江南店。済州島直産の緑茶・抹茶・ハーブティーを中心に、洗練されたインテリアの空間でお茶文化を体験できる。茶葉や茶器のギフトセットも豊富で、お土産探しにも最適。江南駅周辺に位置し、ショッピングついでに立ち寄りやすい。"
   },
   {
     "slug": "cafe-onion-seongsu",
@@ -598,7 +625,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "ソウル・城東区の聖水（ソンス）エリア、アチャサン路9番街8に位置するCafe Onion。廃工場をリノベーションした空間が特徴的で、インダストリアルなインテリアと質の高いパンとコーヒーで知られる聖水の人気カフェ。聖水駅（2号線）から徒歩圏内にあり、話題のカフェストリート・聖水を観光する際の定番スポット。週末は非常に混雑するため平日利用がおすすめ。"
   },
   {
     "slug": "percent-arabica-seoul",
@@ -624,7 +652,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "ソウル・鍾路区三清洞エリアの% Arabicaソウル店。京都発のスペシャルティコーヒーブランドが世界各地に展開する中、ソウルの歴史ある三清洞に出店。景福宮周辺の静かな路地に位置し、シンプルなインテリアとシングルオリジンコーヒーで知られる。景福宮・北村韓屋村の観光と組み合わせやすい立地で、日本人旅行者にも親しみやすいブランド。"
   },
   {
     "slug": "matcha-maniac-sinsa",
@@ -686,7 +715,7 @@
     "address": "Gangnam-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "京都宇治の抹茶をテーマにしたカフェ。濃厚な抹茶ラテや抹茶パフェ、抹茶チーズケーキなど多彩な抹茶スイーツを提供する。",
+    "description": "京都宇治の抹茶をテーマにした日本式カフェ。江南エリアにあり、濃厚な抹茶ラテや抹茶パフェ、抹茶チーズケーキなどを提供する。",
     "tags": [
       "抹茶",
       "宇治",
@@ -728,7 +757,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "ソウル・明洞エリアのCafe Onion明洞店。観光地・明洞のショッピングエリアに位置し、廃工場リノベーションのインダストリアルな空間が特徴。質の高いパンとコーヒーが楽しめる人気カフェで、明洞でのショッピング後の休憩スポットとして日本人観光客にも人気。明洞駅（4号線）から徒歩圏内。"
   },
   {
     "slug": "kitsune-cafe-yeonnam",
@@ -764,7 +794,7 @@
     "address": "Anguk-dong, Jongno-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "安国エリアの行列必至ベーカリー。アーティスティックな外観と本格的なパンが特徴。クロワッサンやデニッシュが特に人気。",
+    "description": "景福宮・安国エリアにある日本式ベーカリー。クロワッサンやデニッシュなど本格的なパンが揃い、伝統的な安国の街並みに立地している。",
     "tags": [
       "ベーカリー",
       "パン",
@@ -843,7 +873,7 @@
     "address": "Seoul Forest area, Seongdong-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "抹茶専門カフェの聖水店。ソウルの森近くに位置し、濃厚な抹茶ラテと抹茶スイーツが楽しめる。聖水カフェ巡りの定番スポット。",
+    "description": "韓国発の抹茶専門カフェチェーン「スーパー抹茶」聖水店。ソウルの森近くに位置し、日本の抹茶を使った濃厚な抹茶ラテとスイーツを提供。",
     "tags": [
       "抹茶",
       "カフェ",
@@ -937,7 +967,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "ソウル・龍山区漢南洞エリアのCafe Onion漢南店。洗練されたグローバルブランドが集まる漢南洞に位置し、廃工場をリノベーションしたインダストリアルな空間で人気を集めるカフェ。漢南駅（6号線）周辺の高感度エリアにあり、週末は多くの若者やカップルで賑わう。パンやペイストリーの質も高く、食事にも使える。"
   },
   {
     "slug": "luft-coffee-seongsu",
@@ -947,7 +978,7 @@
     "address": "Seongsu-dong, Seongdong-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "聖水エリアの人気コーヒーショップ。自家焙煎のスペシャルティコーヒーを提供。工場リノベーションの空間がおしゃれ。",
+    "description": "聖水エリアにある自家焙煎のスペシャルティコーヒーショップ。旧工場をリノベーションした空間でシングルオリジンコーヒーを提供する。",
     "tags": [
       "コーヒー",
       "自家焙煎",
@@ -1025,7 +1056,7 @@
     "address": "Hannam-dong, Yongsan-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "漢南洞の高級住宅街にある人気カフェ。多層ケーキが看板メニューで、日本のパティスリーを思わせる繊細なスイーツを提供。",
+    "description": "漢南洞の高級住宅街にある日本のパティスリーを思わせるカフェ。多層ケーキが看板メニューで、繊細なスイーツとドリンクを提供する。",
     "tags": [
       "カフェ",
       "ケーキ",
@@ -1069,7 +1100,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "ソウル・汝矣島のザ・現代ソウル（The Hyundai Seoul）内のCafe Onion汝矣島店。永登浦・汝矣島エリアにある話題のショッピングモール内に位置し、廃工場リノベーションの世界観をモール内でも表現。汝矣島駅（5・9号線）直結のアクセスで、ショッピングのついでに立ち寄りやすい。"
   },
   {
     "slug": "t-nomad-teahouse-seongsu",
@@ -1079,7 +1111,7 @@
     "address": "Seongsu-dong, Seongdong-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "完全予約制の日本茶カフェ。90分制で抹茶や焙じ茶のペアリングセットを提供。静謐な茶室のような空間で和の体験ができる。",
+    "description": "聖水エリアの完全予約制日本茶カフェ。90分制で抹茶・焙じ茶のペアリングセットを提供し、静謐な茶室のような空間で和の体験ができる。",
     "tags": [
       "茶カフェ",
       "予約制",
@@ -1183,7 +1215,7 @@
     "address": "Gangnam-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "日本発のベーカリーカフェチェーン江南店。チョコクロワッサンが看板商品。モーニングセットやサンドイッチも提供。",
+    "description": "日本発のベーカリーカフェチェーン「サンマルクカフェ」江南店。チョコクロワッサンが看板商品で、モーニングセットやサンドイッチも揃う。",
     "tags": [
       "ベーカリーカフェ",
       "日本発チェーン",
@@ -1209,7 +1241,7 @@
     "address": "Ichon-dong, Yongsan-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "イチョンドンのリトル東京にある日本式パン屋。食パン・あんぱん・カレーパンなど日本の定番パンを提供。在韓日本人に人気。",
+    "description": "イチョンドン（リトル東京）にある日本式パン屋。食パン・あんぱん・カレーパンなど日本の定番パンを提供し、在韓日本人に利用される。",
     "tags": [
       "ベーカリー",
       "日本式パン",
@@ -1251,7 +1283,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "ソウル・江南区新沙洞のガロスキル（가로수길）に位置するCafé Kitsuné。パリ発のファッション・カフェブランド「メゾン キツネ」のカフェ部門として、世界的なスペシャルティコーヒーとおしゃれな空間を提供。ガロスキルはソウルのおしゃれな通りとして知られ、週末は多くの観光客が訪れる。新沙駅（3号線）から徒歩約5分。日本でも人気のブランドで、日本人旅行者にも親しみやすい。"
   },
   {
     "slug": "uji-matcha-sinsa",
@@ -1261,7 +1294,7 @@
     "address": "Sinsa-dong, Gangnam-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "京都宇治の抹茶を使用するカフェ。抹茶ティラミス・抹茶パフェ・抹茶ラテが看板。新沙洞のカロスキルエリアに位置。",
+    "description": "新沙洞カロスキルにある京都宇治産の抹茶を使ったカフェ。抹茶ティラミス・抹茶パフェ・抹茶ラテを看板メニューとして提供している。",
     "tags": [
       "抹茶",
       "宇治",
@@ -1287,7 +1320,7 @@
     "address": "Yeonnam-dong, Mapo-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "延南洞の日本式クロワッサン専門店。発酵バターを贅沢に使用したサクサクのクロワッサンとコーヒーを提供。",
+    "description": "延南洞にある日本式クロワッサン専門ベーカリーカフェ。発酵バターを使ったサクサクのクロワッサンとコーヒーのセットが楽しめる。",
     "tags": [
       "クロワッサン",
       "ベーカリー",
@@ -1339,7 +1372,7 @@
     "address": "Anguk-dong, Jongno-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "安国エリアのほうじ茶専門カフェ。ほうじ茶ラテ・ほうじ茶ソフトクリーム・ほうじ茶プリンなど焙じ茶メニューに特化。",
+    "description": "安国エリアのほうじ茶専門スタンドカフェ。ほうじ茶ラテ・ほうじ茶ソフトクリーム・ほうじ茶プリンなど日本の焙じ茶メニューに特化する。",
     "tags": [
       "ほうじ茶",
       "スタンド",
@@ -1365,7 +1398,7 @@
     "address": "Seogyo-dong, Mapo-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "弘大エリアの抹茶専門カフェ。濃い抹茶ラテからスイーツまで抹茶づくしのメニュー。若者に人気の弘大エリアに位置。",
+    "description": "弘大エリアの抹茶専門カフェ。日本の抹茶を使った濃厚な抹茶ラテから抹茶スイーツまでを揃え、若者が多く集まる弘大エリアに位置する。",
     "tags": [
       "抹茶",
       "カフェ",
@@ -1393,7 +1426,7 @@
     "lng": 126.9555,
     "phone": "+8250713201782",
     "website": "https://www.facebook.com/tokyopanya",
-    "description": "ソウルにある日本式ベーカリーカフェ。日本の食パンやパンを提供。",
+    "description": "ソウルにある日本式ベーカリーカフェ「東京パン屋」。日本の食パンやあんぱんなど日本の定番パンを提供し、日本式カフェスペースも併設。",
     "tags": [
       "ベーカリー",
       "カフェ"
@@ -1422,7 +1455,7 @@
     "lng": 127.0065,
     "phone": "+827040440700",
     "website": "https://www.instagram.com/_samicoffee",
-    "description": "ソウルにあるサミコーヒー。日本式のこだわりコーヒーを提供するカフェ。",
+    "description": "ソウル東大門エリアにある日本式コーヒーショップ「サミコーヒー」。こだわりの豆を使ったスペシャルティコーヒーを提供している。",
     "tags": [
       "コーヒー",
       "カフェ"
@@ -1451,7 +1484,7 @@
     "lng": 126.9172,
     "phone": null,
     "website": null,
-    "description": "ソウルにある日本式カフェ「日々」。日本の日常をテーマにしたカフェ。",
+    "description": "ソウルにある日本の日常をテーマにしたカフェ「日々（Hibi）」。日本式の丁寧な食材・器・空間にこだわったドリンクとスイーツを提供する。",
     "tags": [
       "カフェ"
     ],
@@ -1479,7 +1512,7 @@
     "lng": 129.007,
     "phone": null,
     "website": null,
-    "description": "釜山にある日本をテーマにしたカフェ。日本式のスイーツとドリンクを提供。",
+    "description": "釜山にある日本をテーマにしたカフェ「JAPANCAFE」。日本式のスイーツ・ドリンクを提供し、日本風のインテリアで日本の雰囲気を体験できる。",
     "tags": [
       "カフェ",
       "釜山"
@@ -1508,7 +1541,7 @@
     "lng": 129.1295,
     "phone": null,
     "website": null,
-    "description": "釜山にある抹茶専門カフェ。日本の抹茶を使ったドリンクやスイーツを提供。",
+    "description": "釜山センタムシティにある抹茶専門カフェ「スーパー抹茶」。2017年ソウル創業の韓国チェーンで日本の抹茶を使ったドリンクとスイーツを提供。",
     "tags": [
       "抹茶",
       "カフェ"
@@ -1537,7 +1570,7 @@
     "lng": 126.9237,
     "phone": null,
     "website": null,
-    "description": "仁川にある東京スフレ。ふわふわの日本式スフレパンケーキを提供するカフェ。",
+    "description": "仁川にある日本式スフレパンケーキ専門カフェ「東京スフレ」。ふわふわの日本式スフレパンケーキとドリンクのセットを楽しめる。",
     "tags": [
       "スフレ",
       "カフェ",
@@ -1567,7 +1600,7 @@
     "lng": 126.7013,
     "phone": "+8250713533882",
     "website": "https://supermatcha.com/",
-    "description": "仁川にある抹茶専門カフェ。日本の抹茶を使ったドリンクやスイーツを提供。",
+    "description": "仁川ロッテモール内の抹茶専門カフェ「スーパー抹茶」。2017年ソウル創業の韓国チェーンで日本の抹茶を使ったドリンクとソフトクリームを提供。",
     "tags": [
       "抹茶",
       "カフェ"
@@ -1584,7 +1617,30 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "menu": [
+      {
+        "name": "スーパー抹茶（フラッグシップメニュー）",
+        "price": "価格要確認",
+        "category": "ドリンク"
+      },
+      {
+        "name": "スーパー大麦（SUPER BORI）",
+        "price": "価格要確認",
+        "category": "ドリンク"
+      },
+      {
+        "name": "ソフトクリーム",
+        "price": "価格要確認",
+        "category": "スイーツ"
+      },
+      {
+        "name": "ベーカリー各種",
+        "price": "価格要確認",
+        "category": "フード"
+      }
+    ],
+    "detail": "仁川ロッテ百貨店B1Fに入居するSUPER MATCHA。2017年設立の有機農茶専門ブランド「ヒット・ザ・ティー」が展開するカフェで、持続可能な食習慣をコンセプトに国内7店舗・海外店舗を展開。抹茶・大麦・柑橘系のドリンクとソフトクリームが人気。仁川ロッテ百貨店内で、仁川エリアの買い物ついでに利用できる。"
   },
   {
     "slug": "tortoise-haebangchon",
@@ -1733,7 +1789,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "ソウル・鍾路区益善洞（익선동）のCafe Onhwa（온화）。1920年代から続く韓国最古の韓屋（ハノク）マウルとして知られる益善洞の伝統的な空間に位置するカフェ。韓国伝統茶や発酵ドリンク、韓国式のスイーツを提供し、古い韓屋の雰囲気を楽しみながら休憩できる。安国駅（3号線）から徒歩圏内。益善洞エリアの散策と合わせて訪れるのがおすすめ。"
   },
   {
     "slug": "koriko-cafe-yeonnam",
@@ -2064,7 +2121,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "ソウル・江南区三成洞のCOEXモール内に位置する% ArabicaのCOEX店。京都発のスペシャルティコーヒーブランドが、江南のランドマーク的ショッピングモール・COEXに出店。星のラウンジや三成COEXモールを訪れる観光客やビジネスマンが立ち寄りやすい立地。三成駅（2号線）直結で、ショッピングや観光の合間に利用できる。"
   },
   {
     "slug": "moyora-coffee-seoul",
