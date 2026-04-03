@@ -621,7 +621,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本の「大戸屋」のタイ展開チェーン。手作りにこだわった家庭的な定食・一汁三菜スタイルのメニューが揃い、駐在員の日常的な食事スポットとして定着。タイ限定メニューも展開。バンコク市内複数店舗で各ショッピングモールに出店。"
   },
   {
     "slug": "yoshinoya-bangkok",
@@ -736,7 +737,7 @@
     "address": "124 Soi Sukhumvit 53, Sukhumvit Road, Khlong Toei Nuea, Watthana, Bangkok 10110",
     "phone": "+66917707747",
     "website": "https://sumiteiyakiniku.com",
-    "description": "バンコク・トンローにある高級焼肉店。タイで唯一、日本から直輸入したインペリアルA5和牛を提供。2014年開業、25年以上の経験を持つシェフKumpoonが率いる。4卓のみの完全予約制で、アラカルト形式。",
+    "description": "トンローのJ-Avenue 3階にある、タイ唯一のインペリアルA5和牛専門焼肉店。日本直輸入の黒毛和牛を25年以上のキャリアを持つシェフが提供。4卓限定の完全予約制。",
     "tags": [
       "焼肉",
       "A5和牛",
@@ -746,14 +747,15 @@
     "hours": "毎日 12:00-22:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-31",
+    "last_verified": "2026-04-03",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "バンコク・トンローのJ-Avenue（スクンビットソイ55）3階にある完全予約制の高級焼肉レストラン。タイで唯一、日本の皇室にも提供されてきたインペリアルA5和牛を直輸入で提供する。カリブやザブトン等の希少部位をアラカルトで注文可能。シェフKumpoonは焼肉歴25年以上のベテランで、2014年11月の開業以来高い評価を維持。席数4卓のみのため、要事前予約（LINE: @sumiteiyakiniku / 電話: +66917707747）。営業時間は毎日12:00〜22:00。"
   },
   {
     "slug": "touka-silom-izakaya",
@@ -2680,7 +2682,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本の「大戸屋」タイ展開のトンロー店。手作りにこだわった家庭的な定食・一汁三菜スタイルのメニューを展開。BTSトンロー駅周辺に位置し、トンロー在住の日本人駐在員の日常食スポット。タイ限定メニューも充実。"
   },
   {
     "slug": "yoshinoya-terminal21",
@@ -3626,7 +3629,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本の定食チェーン「やよい軒」のタイ版。セット・どんぶり・麺類・弁当を幅広く展開。THB 159〜のリーズナブルな価格帯で、スピーディな提供とオンライン配達が特徴。バンコク市内複数店舗展開。"
   },
   {
     "slug": "hachiban-ramen-bangkok",
@@ -5015,7 +5019,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "BTSアソーク駅直結のターミナル21内にある大戸屋タイ版。手作りにこだわった家庭的な定食・一汁三菜スタイルのメニューを提供。ターミナル21内でランチ・夕食ともに使いやすい立地。"
   },
   {
     "slug": "sushi-cyu-siam-paragon",
@@ -13291,7 +13296,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "menu": [
+      {
+        "name": "懐石おまかせコース（8品）スタンダード",
+        "price": "THB 2,800",
+        "category": "懐石コース"
+      },
+      {
+        "name": "懐石おまかせコース（8品）スペシャル",
+        "price": "THB 3,500",
+        "category": "懐石コース"
+      },
+      {
+        "name": "懐石おまかせコース（8品）プレミアム",
+        "price": "THB 5,000",
+        "category": "懐石コース"
+      }
+    ],
+    "price_range": "THB 2,800〜5,000/人",
+    "detail": "エカマイ地区（Vibes 267/13、スクンビット63）にある懐石おまかせ専門店。8品構成のコースをTHB 2,800〜5,000の3プランで提供。木製家具を使った日本式インテリアのモダンな空間に、カウンター席・テーブル席・6人用個室を完備。「日本基準の厳格なサービス」が特徴でフォーマルすぎず使いやすい雰囲気。年中無休・ランチ11:00〜14:30、ディナー17:00〜22:00。BTSエカマイ駅から徒歩約25分。"
   },
   {
     "slug": "majimaji",
@@ -13421,7 +13445,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "スクンビットソイ16にある本格日本料理・懐石レストラン。伝統的な日本建築を採用し、2〜30名対応の個室を完備。季節の食材を活かした懐石料理を専門とし、日本語対応スタッフが在籍（日本語問い合わせ：+66-88-497-1001）。ランチ11:30〜14:00、ディナー17:30〜22:00（年中無休）。BTSアソーク駅・MRTスクンビット駅から徒歩圏内のスクンビット16。"
   },
   {
     "slug": "aoi-2",
@@ -13525,7 +13550,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "price_range": "THB 2,000〜/人",
+    "detail": "ブッダモントン2号線エリアにある和食・タラバガニ料理の専門店。新鮮なタラバガニ・刺身・握り寿司が看板メニュー。80席の広々とした清潔感ある空間で家族連れにも適し、プライベートルームも完備。禁煙。テイクアウト対応。郊外に位置するため車でのアクセスが一般的。"
   },
   {
     "slug": "takumi-japanese-restaurant",
@@ -13655,7 +13682,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "price_range": "THB 500〜/人",
+    "detail": "チャロエンナコン通り（クロンサン地区）にある居酒屋スタイルの日本料理店。ぶり炙り・鶏南蛮・焼きそば・博多水炊き鍋・串焼きなどを提供。木調のクラシックで温かみのある内装。BTSウォンウィアンヤイ駅周辺でチャオプラヤー川沿いエリアに位置。"
   },
   {
     "slug": "tsubaki-japanese-restaurant-rama9",
@@ -13786,7 +13815,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "インターコンチネンタルホテルプレジデントタワーアーケード（プルンチット通り）・アマタシティチョンブリ工業団地・サイアムパラゴン1階の3店舗展開。BTSチットロム駅直結のプルンチット店が主力。プルンチット店：毎日11:00〜14:00・17:00〜22:00。サイアムパラゴン店：BTSサイアム駅直結。"
   },
   {
     "slug": "yurijin-izakaya-and-japanese-dining",
@@ -14229,7 +14259,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "タイ国内100店舗以上を展開する最大手日本料理チェーン。刺身・寿司・定食・ラーメンを幅広く提供。チェンライ産オーガニック米と日本産緑茶を使用。代表的なランチセットはTHB 225〜495。デリバリーにも対応。各店舗はショッピングモール内に位置。"
   },
   {
     "slug": "kappou-nihon-ratchaphruek",
@@ -14359,7 +14390,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "タイ国内100店舗以上を展開するフジレストランのメドパーク病院店。刺身・寿司・定食・ラーメンを幅広く提供。病院内のため食事のしやすい価格帯（ランチセットTHB 225〜495）で通院客・医療従事者にも便利。"
   },
   {
     "slug": "reiji",
@@ -14567,7 +14599,51 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "menu": [
+      {
+        "name": "海鮮天ぷら（Toji）",
+        "price": "THB 159",
+        "category": "セット"
+      },
+      {
+        "name": "豚肉なすみそ（Toji）",
+        "price": "THB 189",
+        "category": "セット"
+      },
+      {
+        "name": "スパイシースキヤキ（牛肉）",
+        "price": "THB 229",
+        "category": "セット"
+      },
+      {
+        "name": "サマーセットA",
+        "price": "THB 329",
+        "category": "セット"
+      },
+      {
+        "name": "サマーセットD",
+        "price": "THB 509",
+        "category": "セット"
+      },
+      {
+        "name": "コーンリブス",
+        "price": "THB 69",
+        "category": "前菜"
+      },
+      {
+        "name": "チキン&チップス",
+        "price": "THB 79",
+        "category": "前菜"
+      },
+      {
+        "name": "フィッシュ&チップス",
+        "price": "THB 89",
+        "category": "前菜"
+      }
+    ],
+    "price_range": "THB 159〜509/人",
+    "detail": "日本の定食チェーン「やよい軒」のタイ版。セット・どんぶり・麺類・弁当・デザートと幅広いメニューを提供。THB 159〜の手頃な価格帯でスピーディな提供が特徴。タイ限定のスパイシーすき焼きやToji（特別定食）なども展開。バンコク市内複数店舗・オンライン配達・ケータリング対応。"
   },
   {
     "slug": "ikedaya-japanese-food",
@@ -14645,7 +14721,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本の定食チェーン「やよい軒」のタイ版。セット・どんぶり・麺類・弁当を幅広く展開。THB 159〜のリーズナブルな価格帯で、スピーディな提供とオンライン配達が特徴。バンコク市内複数店舗・ケータリング対応。"
   },
   {
     "slug": "kokoro",
@@ -14697,7 +14774,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "タイ国内100店舗以上を展開する最大手日本料理チェーン。刺身・寿司・定食・ラーメンを幅広く提供。ランチセットTHB 225〜495とリーズナブルな価格帯でデリバリー対応。ショッピングモール内店舗が中心。"
   },
   {
     "slug": "hashi-japanese-cuisine",
@@ -14775,7 +14853,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "シーロムコンプレックス内のフジレストラン。タイ国内100店舗以上展開の最大手日本料理チェーン。刺身・寿司・定食・ラーメンを幅広く提供。ランチセットTHB 225〜495。BTSサラデーン駅直結のシーロムコンプレックス内でアクセス良好。"
   },
   {
     "slug": "fuji-3",
@@ -14801,7 +14880,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "タイ国内100店舗以上を展開する最大手日本料理チェーン。刺身・寿司・定食・ラーメンを幅広く提供。ランチセットTHB 225〜495とリーズナブルな価格帯でデリバリー対応。ショッピングモール内店舗が中心。"
   },
   {
     "slug": "zen-restaurant",
@@ -14827,7 +14907,41 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "menu": [
+      {
+        "name": "ランチセット",
+        "price": "THB 185〜",
+        "category": "セット"
+      },
+      {
+        "name": "スーパー御前セット",
+        "price": "THB 310〜450",
+        "category": "セット"
+      },
+      {
+        "name": "前菜（ZENSAI）各種",
+        "price": "THB 〜",
+        "category": "前菜"
+      },
+      {
+        "name": "刺身（SASHIMI）各種",
+        "price": "THB 〜",
+        "category": "刺身"
+      },
+      {
+        "name": "海鮮丼（KAISEN DON）",
+        "price": "THB 〜",
+        "category": "丼"
+      },
+      {
+        "name": "鉄板焼き各種",
+        "price": "THB 〜",
+        "category": "鉄板焼き"
+      }
+    ],
+    "price_range": "THB 185〜450/人（ランチ）",
+    "detail": "タイ全土に40店舗以上展開する大手日本食チェーン。エンポリアム・セントラルワールド・パタヤ・プーケット・チェンマイなどの主要商業施設に出店。刺身・寿司・海鮮丼・鉄板焼き・麺類と幅広いメニューを揃え、ランチセットTHB 185〜とリーズナブル。子ども向けメニューや弁当も展開。テイクアウト・ケータリング対応。"
   },
   {
     "slug": "yayoi-im-chinatown",
@@ -14853,7 +14967,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "I'M CHINATOWN内にある「やよい軒」タイ版。セット・どんぶり・麺類・弁当を幅広く展開。THB 159〜のリーズナブルな価格帯で、チャイナタウン観光の食事にも利用しやすい。"
   },
   {
     "slug": "namo-kitchen",
@@ -14905,7 +15020,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "アリー地区のラビラ内にあるフジレストラン。タイ国内100店舗以上展開の最大手日本料理チェーン。刺身・寿司・定食・ラーメンを幅広く提供。ランチセットTHB 225〜495。BTSสยาม駅周辺のアリーエリア在住者に便利な立地。"
   },
   {
     "slug": "midori-noki",
@@ -14957,7 +15073,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "シーロムコンプレックス内にある「やよい軒」タイ版。セット・どんぶり・麺類・弁当を幅広く展開。THB 159〜のリーズナブルな価格帯。BTSサラデーン駅直結のシーロムコンプレックス内でオフィス街でのランチに人気。"
   },
   {
     "slug": "fuji-japanese-restaurant-terminal-21",
@@ -14983,7 +15100,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "ターミナル21アソーク内のフジレストラン。タイ国内100店舗以上展開の最大手日本料理チェーン。刺身・寿司・定食・ラーメンを幅広く提供。ランチセットTHB 225〜495。BTSアソーク駅直結のターミナル21内。"
   },
   {
     "slug": "the-real-by-sushi-and-thai-wd",

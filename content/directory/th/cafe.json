@@ -313,7 +313,35 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本人パティシエ柴田武氏が手がけるフレンチパティスリー。トンロー地区のホテルニッコー3階に位置し、カップケーキ（THB 250〜）やマカロン6個セット（THB 685）、バスクチーズケーキ（THB 180）など本格的なフランス菓子を販売。旬の素材を使ったケーキやギフトセットも充実。",
+    "menu": [
+      {
+        "name": "ストロベリーショートケーキ（カップ）",
+        "price": "THB 250",
+        "category": "ケーキ"
+      },
+      {
+        "name": "バスクチーズケーキ",
+        "price": "THB 180",
+        "category": "ケーキ"
+      },
+      {
+        "name": "365 セイチーズ",
+        "price": "THB 290",
+        "category": "ケーキ"
+      },
+      {
+        "name": "マカロン6個セット",
+        "price": "THB 685",
+        "category": "焼き菓子"
+      },
+      {
+        "name": "バタサン6個セット",
+        "price": "THB 650",
+        "category": "焼き菓子"
+      }
+    ]
   },
   {
     "slug": "koji-bakery-house-bangkok",
@@ -339,7 +367,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "麹由来の天然酵母を使用する日本式ベーカリー。プルンチット・ルンピニエリア（住所: 502 Phloen Chit Rd）に位置し、日本産小麦粉とプレミアムバターで焼き上げるパンやペストリーを提供。BTSプルンチット駅からアクセス可能。"
   },
   {
     "slug": "nanas-green-tea-donki-thonglor",
@@ -2969,7 +2998,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「一汁三菜」をコンセプトにした日本式オールデイカフェ。BTSプルンチット駅直結のセントラルエンバシー6階に入居し、スパイシーツナ麻麺・シーザーサラダ・コニメチョップドサラダ・焼き味噌銀だらなど多彩な日本式メニューを提供。スクンビット38店（BTSトンロー駅徒歩5分）も展開。"
   },
   {
     "slug": "melbourne-house-bkk-halal-strong-coffee-and-japanese-halal-food",
@@ -3257,7 +3287,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "バンコクの「なぎ屋」ヨードピマンリバーウォーク店。焼き鳥・焼きとん・もつ鍋を中心に「本物の日本の味」を提供する日本式居酒屋。4名以上の宴会プランにも対応。チャオプラヤー川沿いの商業施設内に位置し、観光客にもアクセスしやすい立地。"
   },
   {
     "slug": "kansai-fu-ll",
@@ -4394,7 +4425,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "麹由来の天然酵母を使用する日本式ベーカリー。日本産小麦粉とプレミアムバターで焼き上げるパン・ペストリーを提供。バンコク市内複数店舗を展開し、モーニングやランチ利用に対応。"
   },
   {
     "slug": "konnichipan-bakery",
@@ -4661,7 +4693,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "大阪発の日本式ベーカリー。青森産リンゴを使ったアップルパイを看板メニューに、クロワッサン・コルネ・各種パイを毎日焼きたてで提供。バンコク市内にセントラルワールド店・The PARQ店・セントラルラートプラーオ店の3店舗を展開。"
   },
   {
     "slug": "muguri-bakehouse",
@@ -5559,7 +5592,45 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本人パティシエ柴田武氏監修のパティスリー。バンコク市内にショップを展開し、バスクチーズケーキ（THB 180〜）やマカロン、バタークッキーサンドなどの本格フランス菓子を販売。誕生日ケーキやギフトセットのオーダーにも対応。",
+    "menu": [
+      {
+        "name": "バスクチーズケーキ",
+        "price": "THB 180",
+        "category": "ケーキ"
+      },
+      {
+        "name": "ストロベリーショートケーキ（カップ）",
+        "price": "THB 250",
+        "category": "ケーキ"
+      },
+      {
+        "name": "365 セイチーズ",
+        "price": "THB 290",
+        "category": "ケーキ"
+      },
+      {
+        "name": "マカロン6個セット",
+        "price": "THB 685",
+        "category": "焼き菓子"
+      },
+      {
+        "name": "バタサン6個セット",
+        "price": "THB 650",
+        "category": "焼き菓子"
+      },
+      {
+        "name": "バタサン12個セット",
+        "price": "THB 1,210",
+        "category": "焼き菓子"
+      },
+      {
+        "name": "ベアキャンドル（アクセサリー）",
+        "price": "THB 100",
+        "category": "アクセサリー"
+      }
+    ]
   },
   {
     "slug": "double-u-coffee-and-bakery-rang-nam",
@@ -5774,7 +5845,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "BTSサパーンタクシン駅から徒歩9分、チャルンクルン通りエリアに位置する日本茶専門店。抹茶・煎茶・ほうじ茶のティーバー体験のほか、日本茶の点て方を学ぶワークショップも開催。自分でお茶碗を選んでお茶を楽しめる体験型スタイルが特徴。"
   },
   {
     "slug": "upper-premium-matcha-cafe",
@@ -8757,7 +8829,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "チェンマイのニンマンエリアにある「世界初のポケットチーズトースト」で知られるデザート店。2016年創業でタイ全国に広がった看板商品のポケットチーズトーストを提供。ニンマン地区の人気スポットで、チェンマイ在住日本人や旅行者も訪れる。"
   },
   {
     "slug": "hippo-and-pineapple",
@@ -8940,7 +9013,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "チェンマイ・メーリム地区（チェンマイ市内から車で約20分）に位置する日本式デザートショップ。100%生乳を使った和製ソフトクリームのほか、かき氷・苺大福・雲パンケーキ（スフレパンケーキ）など日本の伝統菓子を提供。「品格とシンプルさ」にこだわった日本式スイーツ専門店。"
   },
   {
     "slug": "mooh",
@@ -9832,7 +9906,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "プーケット・スラータニーに複数店舗を展開する日本式しゃぶしゃぶ・すき焼き専門店。100%ナチュラルの霜降り和牛とくろぶた豚を使用した本格鍋料理を提供。プーケットにはナカ店・マイフロントヤード店・ラワイ店の3店舗があり、日本に行かずとも本格的な和食が楽しめると評判。"
   },
   {
     "slug": "kin-cafe-hkt",
@@ -11560,7 +11635,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "プーケットのカトゥー地区（dcondo reef kathu内）にある創作寿司・日本酒バー。「Not Just Sushi. It's Craft.」をコンセプトに、日本の伝統と現代的な創意を融合した独創的な創作寿司とプレミアム日本酒のペアリングを提供。"
   },
   {
     "slug": "haru-japanese-sushi-bar",
@@ -11693,7 +11769,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "プーケットのブルーツリー内（スリスントーン通り4/2番地）に位置する抹茶専門カフェ。ラグーナプーケット・バンタオビーチに近い立地。オープンエアシーティングで現代的なアートデザインが特徴。「大胆でモダン、プレミアムだが退屈ではない」をコンセプトに。毎日8:00〜18:00営業。"
   },
   {
     "slug": "story-coffee-phuket",
@@ -11824,7 +11901,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "タイ国内のショッピングモール複数店舗展開の東京カフェ。セントラルワールド・セントラルプラザラードプラオ・セントラルプーケットフロレスタなどに出店。日本式カフェの雰囲気と日本インスパイアの食事・ドリンクを提供。"
   },
   {
     "slug": "roof-pudding-and-cafe",
@@ -12298,7 +12376,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "パタヤのロイヤルクリフグランドホテル内にある日本料理コーナー。カリフォルニア巻き・鮭照り焼き・牛サーロイン照り焼きなどのシグネチャー料理を提供。「トレンディでくつろげる」空間で30名収容。12:00〜21:00（木・金・毎月最終土曜休業）。パタヤビーチ近くのロイヤルクリフホテル内。"
   },
   {
     "slug": "men-labo-japanese-ramen",
@@ -12666,7 +12745,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "パタヤのセントラルプラザパタヤ内にあるOn the Table東京カフェの店舗。日本式カフェの雰囲気と日本インスパイアの食事・ドリンクを提供。ショッピングモール内でアクセス良好。"
   },
   {
     "slug": "two-tone-cafe-and-restaurant",
@@ -12744,7 +12824,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "パタヤにある大阪スタイルの居酒屋「シャカリキ432」。150以上の大阪郷土料理（たこ焼き・お好み焼き・焼きそば・串カツ等）を365日毎日深夜まで提供。個室カラオケや掘りごたつ席も完備。バンコク（アソーク）とマレーシアにも展開。"
   },
   {
     "slug": "yakitori-japan",
@@ -12929,7 +13010,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本No.1の回転寿司チェーン「スシロー」のタイ版。1984年創業、年間150万人以上の顧客を処理する世界的な寿司チェーン。バンコク市内複数店舗展開でモバイルアプリで予約可能。月間キャンペーンも充実。"
   },
   {
     "slug": "on-the-table-terminal-21-pattaya",
@@ -12955,7 +13037,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "パタヤのターミナル21内にあるOn the Table東京カフェの店舗。日本式カフェの雰囲気と日本インスパイアの食事・ドリンクを提供。ターミナル21パタヤ内でアクセス良好。"
   },
   {
     "slug": "taro-izakaya",
@@ -13322,7 +13405,36 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "パタヤ市内に位置する日本式居酒屋。炭火BBQ・刺身・うどん・ラーメンなど幅広いメニューを提供し、炭火焼きはTHB 300〜、居酒屋・刺身はTHB 130〜、ライス・麺類はTHB 120〜。毎週火曜は2時間飲み放題THB 199と特典も充実。営業は17:00〜翌2:00。",
+    "menu": [
+      {
+        "name": "炭火BBQ（各種）",
+        "price": "THB 300〜",
+        "category": "炭火焼き"
+      },
+      {
+        "name": "居酒屋・刺身（各種）",
+        "price": "THB 130〜",
+        "category": "居酒屋"
+      },
+      {
+        "name": "ライス・麺類",
+        "price": "THB 120〜",
+        "category": "食事"
+      },
+      {
+        "name": "ドリンク（各種）",
+        "price": "THB 85〜",
+        "category": "ドリンク"
+      },
+      {
+        "name": "飲み放題（毎週火曜）",
+        "price": "THB 199",
+        "category": "飲み放題"
+      }
+    ],
+    "price_range": "THB 500〜1,000/人"
   },
   {
     "slug": "and",
@@ -14448,7 +14560,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "シラチャ（154 Sriracha Nakorn Rd）とトンロー（エカマイ5ソイ）・スクンビット33の3店舗展開。A5和牛のみを使用したおまかせスタイルのしゃぶしゃぶ・すき焼き専門店。プライベートダイニング体験を提供するプレミアム和食レストラン。シラチャ在住の日本人駐在員に特に人気。"
   },
   {
     "slug": "fukuden-izakaya",
@@ -14527,7 +14640,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "シラチャ地区にあるなぎ屋の居酒屋。バンコクで複数店舗展開するなぎ屋ブランドのシラチャ支店。焼き鳥・もつ鍋・日本酒を提供。シラチャ日系工業団地の駐在員が集う日本式居酒屋。"
   },
   {
     "slug": "origo-cafe-music-restaurant",
@@ -14633,7 +14747,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "シラチャ地区（チョンブリ県、Jermjompol Road 9/15番地）にある日本料理・インターナショナル料理の居酒屋レストラン。5:00〜22:00（毎日営業）のフレキシブルな営業時間。シラチャ在住の日本人駐在員のランチ・ディナースポット。"
   },
   {
     "slug": "rin-s-premium-curry",
@@ -16056,7 +16171,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "京都をコンセプトにしたカフェ。レインドロップケーキ・竹炭ロールケーキ（ゼンロール）・ベリーフローズンなどの和スイーツを提供。100%ヴィーガン・低カロリーメニューが特徴。木・石・水を融合した庭園カフェの「アルティメット禅体験」をコンセプトに。セントラルラマ9内に位置。"
   },
   {
     "slug": "naeki-sushi-take-away-and-delivery",
@@ -16462,7 +16578,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "チェンマイ郊外（ハンドン・ノンクワイ、チェンマイ空港から約15分）に位置するカフェ。数千匹の錦鯉が泳ぐ池に囲まれた独特の環境で、にぎり・丼・天ぷら・ラーメン・うどんなど日本料理とタイ料理を提供。9:30〜21:00営業。"
   },
   {
     "slug": "hosay-bowl-phuket-town",
