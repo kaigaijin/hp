@@ -51,6 +51,11 @@ const nextConfig: NextConfig = {
       { source: "/hk/spot/izakaya-bar/watami-whampoa-hung-hom", destination: "/hk/spot/restaurant/watami-whampoa-hung-hom", permanent: true },
       { source: "/hk/spot/izakaya-bar/yaki-ana-sha-tin-ntp", destination: "/hk/spot/restaurant/yaki-ana-sha-tin-ntp", permanent: true },
       { source: "/hk/spot/izakaya-bar/daieiki-japanese-restaurant-mong-kok", destination: "/hk/spot/grocery/daieiki-japanese-restaurant-mong-kok", permanent: true },
+
+      // HK grocery: 壊れたslug "-10" を修正（2026-04-04）
+      { source: "/hk/spot/grocery/-10", destination: "/hk/spot/grocery/nihon-meiriki-flagship-tsim-sha-tsui", permanent: true },
+      // HK izakaya-bar: "-10" slug経由でアクセスされていたURL（念のため）
+      { source: "/hk/spot/izakaya-bar/-10", destination: "/hk/spot/grocery/nihon-meiriki-flagship-tsim-sha-tsui", permanent: true },
     ];
   },
 };
