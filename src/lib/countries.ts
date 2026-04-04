@@ -1,4 +1,4 @@
-export type Region = "southeast-asia" | "east-asia" | "oceania" | "middle-east" | "europe";
+export type Region = "southeast-asia" | "east-asia" | "oceania" | "middle-east" | "europe" | "north-america";
 
 export const regionLabels: Record<Region, string> = {
   "southeast-asia": "東南アジア",
@@ -6,6 +6,7 @@ export const regionLabels: Record<Region, string> = {
   "oceania": "オセアニア",
   "middle-east": "中東",
   "europe": "ヨーロッパ",
+  "north-america": "北米",
 };
 
 export const regionOrder: Region[] = [
@@ -14,6 +15,7 @@ export const regionOrder: Region[] = [
   "oceania",
   "middle-east",
   "europe",
+  "north-america",
 ];
 
 export type Country = {
@@ -149,6 +151,17 @@ export const countries: Country[] = [
     phase: 3,
     region: "europe",
     topics: ["ビザ・滞在許可", "デュッセルドルフ", "医療保険", "住居・家賃", "ドイツ語"],
+  },
+  {
+    code: "us",
+    name: "アメリカ",
+    nameEn: "United States",
+    flag: "🇺🇸",
+    tagline: "NYとLAで描く新しい挑戦",
+    population: "約41.5万人",
+    phase: 4,
+    region: "north-america",
+    topics: ["就労ビザ・グリーンカード", "ニューヨーク生活", "LA生活", "医療・保険", "確定申告・税務"],
   },
   {
     code: "id",
