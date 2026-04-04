@@ -49,23 +49,9 @@ export default function Home() {
                   <br />
                   深く届ける。
                 </h1>
-                <p className="text-warm-100 leading-relaxed mb-8 max-w-md">
+                <p className="text-warm-100 leading-relaxed max-w-md">
                   ビザ、税金、保険、住居、医療——国ごとに異なる「暮らしの実務」を、在住者の視点で丁寧に解説します。
                 </p>
-                <div className="flex flex-col sm:flex-row gap-3">
-                  <a
-                    href="#countries"
-                    className="inline-flex items-center justify-center gap-2 bg-white text-warm-800 font-bold px-7 py-3.5 rounded-xl text-sm hover:bg-warm-50 transition-colors shadow-lg"
-                  >
-                    住んでいる国を選ぶ →
-                  </a>
-                  <a
-                    href="/sg/spot"
-                    className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 border border-white/30 text-white font-medium px-7 py-3.5 rounded-xl text-sm transition-colors"
-                  >
-                    🇸🇬 まずシンガポールを見る
-                  </a>
-                </div>
               </div>
 
               {/* 右: 国グリッド */}
