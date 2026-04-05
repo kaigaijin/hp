@@ -10083,5 +10083,381 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null
+  },
+  {
+    "slug": "la-santouka-santa-monica",
+    "name": "Hokkaido Ramen Santouka Santa Monica",
+    "name_ja": "北海道ラーメン山頭火 サンタモニカ",
+    "area": "Los Angeles",
+    "address": "3760 S Centinela Ave, Los Angeles, CA 90066",
+    "phone": "+13103911101",
+    "phone_local": null,
+    "email": null,
+    "website": "https://www.santouka-usa.com",
+    "source_url": "https://www.santouka.co.jp/en/shop-foreign/usa/foreign01-004",
+    "description": "サンタモニカの北海道ラーメン山頭火。三和マーケット内のフードコートで本格北海道ラーメン。",
+    "detail": "ロサンゼルス・サンタモニカにある三和マーケットプレイス内の北海道ラーメン山頭火。北海道・旭川発祥の本格ラーメンをLAで楽しめる人気店。とんこつ塩ラーメン・みそラーメン・醤油ラーメンが揃う。",
+    "menu": [
+      {
+        "name": "塩らーめん",
+        "price_local": null,
+        "note": "北海道スタイル"
+      }
+    ],
+    "price_range": "¥¥",
+    "tags": [
+      "ramen",
+      "japanese",
+      "hokkaido",
+      "santa-monica"
+    ],
+    "hours": {
+      "mon_thu": "11:00-20:30",
+      "note": "三和マーケット内"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "la-santouka-torrance",
+    "name": "Hokkaido Ramen Santouka Torrance",
+    "name_ja": "北海道ラーメン山頭火 トーランス",
+    "area": "Los Angeles",
+    "address": "3525 W Carson St, Torrance, CA 90503",
+    "phone": "+13102121101",
+    "phone_local": null,
+    "email": null,
+    "website": "https://www.santouka-usa.com",
+    "source_url": "https://www.santouka-usa.com",
+    "description": "トーランスの三和マーケット内にある北海道ラーメン山頭火。旭川発祥の本格ラーメン。",
+    "detail": "ロサンゼルス・トーランスの三和マーケットプレイス（デルアモ店）内にある北海道ラーメン山頭火。旭川発祥の本格ラーメンチェーンで、豚骨塩・みそ・醤油の3タイプが揃う。",
+    "menu": [
+      {
+        "name": "塩らーめん",
+        "price_local": null,
+        "note": "北海道スタイル"
+      }
+    ],
+    "price_range": "¥¥",
+    "tags": [
+      "ramen",
+      "japanese",
+      "hokkaido",
+      "torrance"
+    ],
+    "hours": {
+      "mon_fri": "11:00-20:00",
+      "note": "三和マーケット内"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "seattle-santouka",
+    "name": "Hokkaido Ramen Santouka Seattle",
+    "name_ja": "北海道ラーメン山頭火 シアトル",
+    "area": "Seattle",
+    "address": "2626 NE Village Lane, Seattle, WA 98105",
+    "phone": "+12065244431",
+    "phone_local": null,
+    "email": null,
+    "website": "https://www.santouka-usa.com",
+    "source_url": "https://www.santouka-usa.com",
+    "description": "シアトル・ユニバーシティビレッジの北海道ラーメン山頭火。UW近くの人気ラーメン店。",
+    "detail": "シアトル・ユニバーシティビレッジにある北海道ラーメン山頭火。ワシントン大学近くに位置し、学生・教員・在住日本人に人気。旭川発祥の本格塩・みそ・醤油ラーメンを提供。",
+    "menu": [
+      {
+        "name": "塩らーめん",
+        "price_local": null,
+        "note": null
+      }
+    ],
+    "price_range": "¥¥",
+    "tags": [
+      "ramen",
+      "japanese",
+      "hokkaido",
+      "university-village"
+    ],
+    "hours": {
+      "mon_thu_sun": "11:00-21:00",
+      "fri_sat": "11:00-21:30"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "seattle-santouka-bellevue",
+    "name": "Hokkaido Ramen Santouka Bellevue",
+    "name_ja": "北海道ラーメン山頭火 ベルビュー",
+    "area": "Seattle",
+    "address": "103 Bellevue Way NE Ste 3, Bellevue, WA 98004",
+    "phone": "+14254620141",
+    "phone_local": null,
+    "email": null,
+    "website": "https://www.santouka-usa.com",
+    "source_url": "https://www.santouka-usa.com",
+    "description": "ベルビューの北海道ラーメン山頭火。シリコンバレー系テック企業の多いベルビューで在住者に人気。",
+    "detail": "ワシントン州ベルビューにある北海道ラーメン山頭火。マイクロソフト本社をはじめテック企業が集まるベルビューで、日系駐在員や在住者の人気ランチ・ディナースポット。本格北海道スタイルのラーメンが楽しめる。",
+    "menu": [
+      {
+        "name": "塩らーめん",
+        "price_local": null,
+        "note": null
+      }
+    ],
+    "price_range": "¥¥",
+    "tags": [
+      "ramen",
+      "japanese",
+      "hokkaido",
+      "bellevue"
+    ],
+    "hours": {
+      "mon_thu_sun": "11:00-21:00",
+      "fri_sat": "11:00-21:30"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "boston-santouka-harvard",
+    "name": "Hokkaido Ramen Santouka Harvard Square",
+    "name_ja": "北海道ラーメン山頭火 ハーバードスクエア",
+    "area": "Boston",
+    "address": "1 Bow St, Cambridge, MA 02138",
+    "phone": "+16179451460",
+    "phone_local": null,
+    "email": null,
+    "website": "https://www.santouka-usa.com",
+    "source_url": "https://www.santouka-usa.com",
+    "description": "ハーバードスクエアの北海道ラーメン山頭火。ボストン在住の日本人学生・研究者が集まる。",
+    "detail": "マサチューセッツ州ケンブリッジ・ハーバードスクエアにある北海道ラーメン山頭火。ハーバード大学近くに位置し、在米日本人の学生・研究者・駐在員に人気の本格ラーメン店。旭川発祥の豊かなスープが特徴。",
+    "menu": [
+      {
+        "name": "塩らーめん",
+        "price_local": null,
+        "note": null
+      }
+    ],
+    "price_range": "¥¥",
+    "tags": [
+      "ramen",
+      "japanese",
+      "hokkaido",
+      "harvard-square"
+    ],
+    "hours": {
+      "mon_thu": "11:00-21:00",
+      "fri_sun": "11:00-21:30"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "boston-santouka-allston",
+    "name": "Hokkaido Ramen Santouka Allston",
+    "name_ja": "北海道ラーメン山頭火 オールストン",
+    "area": "Boston",
+    "address": "169 Brighton Ave, Allston, MA 02134",
+    "phone": "+16179033159",
+    "phone_local": null,
+    "email": null,
+    "website": "https://www.santouka-usa.com",
+    "source_url": "https://www.santouka-usa.com",
+    "description": "オールストンの北海道ラーメン山頭火。学生・在住日本人が集まるボストン近郊の人気店。",
+    "detail": "マサチューセッツ州オールストン（ボストン近郊）にある北海道ラーメン山頭火。ボストン大学近くの学生街に位置し、日本食好きや在住日本人が集まる人気ラーメン店。",
+    "menu": [
+      {
+        "name": "塩らーめん",
+        "price_local": null,
+        "note": null
+      }
+    ],
+    "price_range": "¥¥",
+    "tags": [
+      "ramen",
+      "japanese",
+      "hokkaido",
+      "allston"
+    ],
+    "hours": {
+      "mon_sat": "11:00-22:00",
+      "sun": "11:00-21:30"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "boston-santouka-back-bay",
+    "name": "Hokkaido Ramen Santouka Back Bay",
+    "name_ja": "北海道ラーメン山頭火 バックベイ",
+    "area": "Boston",
+    "address": "66 Hereford St, Boston, MA 02115",
+    "phone": "+18573105194",
+    "phone_local": null,
+    "email": null,
+    "website": "https://www.santouka-usa.com",
+    "source_url": "https://www.santouka-usa.com",
+    "description": "ボストン・バックベイの北海道ラーメン山頭火。市内中心部で本格北海道ラーメンが楽しめる。",
+    "detail": "マサチューセッツ州ボストン・バックベイにある北海道ラーメン山頭火。ボストン市内中心部に位置し、在住日本人・観光客・地元グルメに人気の本格ラーメン店。",
+    "menu": [
+      {
+        "name": "塩らーめん",
+        "price_local": null,
+        "note": null
+      }
+    ],
+    "price_range": "¥¥",
+    "tags": [
+      "ramen",
+      "japanese",
+      "hokkaido",
+      "back-bay"
+    ],
+    "hours": {
+      "mon_thu": "11:00-21:00",
+      "fri_sun": "11:00-21:30"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "la-kura-sushi-little-tokyo",
+    "name": "Kura Revolving Sushi Bar Little Tokyo",
+    "name_ja": "くら寿司 リトルトーキョー",
+    "area": "Los Angeles",
+    "address": "333 E 2nd St, Los Angeles, CA 90012",
+    "phone": null,
+    "phone_local": null,
+    "email": null,
+    "website": "https://kurasushi.com",
+    "source_url": "https://kurasushi.com",
+    "description": "リトルトーキョーのくら寿司。日本発の回転寿司チェーン、皿が積み重なるゲームが楽しい。",
+    "detail": "ロサンゼルス・リトルトーキョーにある日本発回転寿司チェーン「くら寿司」。新鮮なネタを使ったリーズナブルな寿司がコンベアベルトで流れてくる。5皿ごとにガチャが引けるゲーム要素も人気。",
+    "menu": [
+      {
+        "name": "各種にぎり",
+        "price_local": null,
+        "note": "回転寿司形式"
+      }
+    ],
+    "price_range": "¥",
+    "tags": [
+      "sushi",
+      "conveyor-belt",
+      "japanese",
+      "little-tokyo"
+    ],
+    "hours": {
+      "note": "要確認"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "sf-kura-sushi",
+    "name": "Kura Revolving Sushi Bar San Francisco",
+    "name_ja": "くら寿司 サンフランシスコ",
+    "area": "San Francisco",
+    "address": "3251 20th Ave Ste 220, San Francisco, CA 94132",
+    "phone": null,
+    "phone_local": null,
+    "email": null,
+    "website": "https://kurasushi.com",
+    "source_url": "https://kurasushi.com",
+    "description": "サンフランシスコの日本発回転寿司チェーン。新鮮な寿司をリーズナブルに楽しめる。",
+    "detail": "サンフランシスコにある日本発回転寿司チェーン「くら寿司」。シリコンバレー・SF在住の日系人や日本食好きに人気。新鮮なネタを使ったリーズナブルな回転寿司体験が楽しめる。",
+    "menu": [
+      {
+        "name": "各種にぎり",
+        "price_local": null,
+        "note": "回転寿司形式"
+      }
+    ],
+    "price_range": "¥",
+    "tags": [
+      "sushi",
+      "conveyor-belt",
+      "japanese",
+      "san-francisco"
+    ],
+    "hours": {
+      "note": "要確認"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
   }
 ]
