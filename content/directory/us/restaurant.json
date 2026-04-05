@@ -9748,5 +9748,340 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null
+  },
+  {
+    "slug": "la-tatsu-ramen-sawtelle",
+    "name": "Tatsu Ramen Sawtelle",
+    "name_ja": "タツラーメン ソーテル",
+    "area": "Los Angeles",
+    "address": "2123 Sawtelle Blvd, Los Angeles, CA 90025",
+    "phone": "+13106842889",
+    "phone_local": null,
+    "email": null,
+    "website": "https://tatsuramen.com/tatsu-ramen-sawtelle/",
+    "source_url": "https://tatsuramen.com/tatsu-ramen-sawtelle/",
+    "description": "ソーテルの深夜営業ラーメン店。選べるスープとトッピングのカスタマイズ制が特徴。",
+    "detail": "ロサンゼルス・ソーテルにある深夜1時〜2時まで営業するラーメン専門店。スープ（豚骨・醤油・みそ・ビーガン）とトッピングを自分で選べるカスタマイズスタイルが特徴。深夜に本格ラーメンを楽しめるLAで数少ない選択肢。",
+    "menu": [
+      {
+        "name": "豚骨ラーメン",
+        "price_local": null,
+        "note": "カスタマイズ可"
+      }
+    ],
+    "price_range": "¥¥",
+    "tags": [
+      "ramen",
+      "japanese",
+      "sawtelle",
+      "late-night"
+    ],
+    "hours": {
+      "mon_thu_sun": "11:00-01:00",
+      "fri_sat": "11:00-02:00"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "la-tatsu-ramen-melrose",
+    "name": "Tatsu Ramen Melrose",
+    "name_ja": "タツラーメン メルローズ",
+    "area": "Los Angeles",
+    "address": "7111 Melrose Ave, Los Angeles, CA 90046",
+    "phone": "+13238799332",
+    "phone_local": null,
+    "email": null,
+    "website": "https://tatsuramen.com",
+    "source_url": "https://tatsuramen.com",
+    "description": "メルローズ通りの深夜ラーメン。週末3時まで営業する人気のラーメンスポット。",
+    "detail": "ロサンゼルス・メルローズにあるタツラーメンのメルローズ店。週末は深夜3時まで営業し、ナイトライフの締めとして利用する若者にも人気。スープ・麺・トッピングをカスタマイズして自分好みの一杯を作れる。",
+    "menu": [
+      {
+        "name": "ラーメン各種",
+        "price_local": null,
+        "note": "カスタマイズ可"
+      }
+    ],
+    "price_range": "¥¥",
+    "tags": [
+      "ramen",
+      "japanese",
+      "melrose",
+      "late-night"
+    ],
+    "hours": {
+      "mon_thu_sun": "11:00-01:00",
+      "fri_sat": "11:00-03:00"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "la-tatsu-ramen-arts-district",
+    "name": "Tatsu Ramen Arts District",
+    "name_ja": "タツラーメン アーツディストリクト",
+    "area": "Los Angeles",
+    "address": "427 S Hewitt St, Los Angeles, CA 90013",
+    "phone": "+12132780002",
+    "phone_local": null,
+    "email": null,
+    "website": "https://tatsuramen.com/tatsu-ramen-arts-district-dtla/",
+    "source_url": "https://tatsuramen.com/tatsu-ramen-arts-district-dtla/",
+    "description": "ダウンタウンLAアーツディストリクトの深夜ラーメン。週末3時まで営業する人気店。",
+    "detail": "ロサンゼルス・アーツディストリクトにあるタツラーメンのDTLA店。ダウンタウンLAのナイトライフの後にも立ち寄れる深夜営業が特徴。同様のカスタマイズスタイルのラーメンを提供する。",
+    "menu": [
+      {
+        "name": "ラーメン各種",
+        "price_local": null,
+        "note": "カスタマイズ可"
+      }
+    ],
+    "price_range": "¥¥",
+    "tags": [
+      "ramen",
+      "japanese",
+      "arts-district",
+      "late-night"
+    ],
+    "hours": {
+      "mon_thu_sun": "11:00-01:00",
+      "fri_sat": "11:00-03:00"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "la-menya-tigre",
+    "name": "Menya Tigre",
+    "name_ja": "麺屋トラ",
+    "area": "Los Angeles",
+    "address": "2012 Sawtelle Blvd, Los Angeles, CA 90025",
+    "phone": "+13102319290",
+    "phone_local": null,
+    "email": null,
+    "website": "https://www.tigre-la.com",
+    "source_url": "https://www.tigre-la.com",
+    "description": "ソーテルの日本カレーラーメン専門店。独創的なカレーラーメンが話題のユニークな一軒。",
+    "detail": "ロサンゼルス・ソーテルにある日本カレーラーメン専門店。濃厚なカレーストックに弾力のある麺と煮豚チャーシューを組み合わせた独創的なラーメンが評判。ビーガン対応やチーズカレー味など多彩なバリエーションも揃える。",
+    "menu": [
+      {
+        "name": "カレーラーメン",
+        "price_local": null,
+        "note": "看板メニュー"
+      }
+    ],
+    "price_range": "¥¥",
+    "tags": [
+      "ramen",
+      "curry",
+      "japanese",
+      "sawtelle"
+    ],
+    "hours": {
+      "note": "要確認"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "la-hide-sushi-sawtelle",
+    "name": "Hide Sushi",
+    "name_ja": "ひで寿司",
+    "area": "Los Angeles",
+    "address": "2040 Sawtelle Blvd, Los Angeles, CA 90025",
+    "phone": "+13104777242",
+    "phone_local": null,
+    "email": null,
+    "website": "http://www.hidesushi.com",
+    "source_url": "http://www.hidesushi.com",
+    "description": "ソーテルの老舗寿司店。カウンター席でリーズナブルに本格寿司を楽しめる。",
+    "detail": "ロサンゼルス・ソーテルにある老舗の寿司店。カジュアルな雰囲気でリーズナブルに本格的な寿司・刺身を楽しめると在住日本人にも評判。地元民に長年愛されてきた一軒。",
+    "menu": [
+      {
+        "name": "にぎり各種",
+        "price_local": null,
+        "note": null
+      }
+    ],
+    "price_range": "¥¥",
+    "tags": [
+      "sushi",
+      "japanese",
+      "sawtelle"
+    ],
+    "hours": {
+      "note": "要確認"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "la-marugame-udon-sawtelle",
+    "name": "Marugame Udon Sawtelle",
+    "name_ja": "丸亀うどん ソーテル",
+    "area": "Los Angeles",
+    "address": "2029 Sawtelle Blvd, Los Angeles, CA 90025",
+    "phone": "+14243172222",
+    "phone_local": null,
+    "email": null,
+    "website": "https://marugameudon.com",
+    "source_url": "https://marugameudon.com",
+    "description": "ソーテルの丸亀うどん。日本発のセルフサービス型本格うどんチェーン。",
+    "detail": "ロサンゼルス・ソーテルにある日本発のうどんチェーン「丸亀製麺」のサウスウエスト店。打ちたて・湯がきたて・揚げたての三たてにこだわる本格讃岐うどんをセルフサービス形式で提供。天ぷら類も豊富。",
+    "menu": [
+      {
+        "name": "釜玉うどん",
+        "price_local": null,
+        "note": null
+      },
+      {
+        "name": "天ぷら各種",
+        "price_local": null,
+        "note": "セルフトッピング"
+      }
+    ],
+    "price_range": "¥",
+    "tags": [
+      "udon",
+      "japanese",
+      "sawtelle",
+      "casual"
+    ],
+    "hours": {
+      "note": "要確認"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "la-anzu-japanese",
+    "name": "Anzu",
+    "name_ja": "あんず",
+    "area": "Los Angeles",
+    "address": "11270 La Grange Ave, Los Angeles, CA 90025",
+    "phone": "+13102311033",
+    "phone_local": null,
+    "email": null,
+    "website": "http://www.anzu-usa.com",
+    "source_url": "http://www.anzu-usa.com",
+    "description": "ウェストLAの日本食レストラン。定食・鍋・日本酒など多彩なメニューを揃える。",
+    "detail": "ロサンゼルス・ウェストLAにある日本食レストラン。しゃぶしゃぶ・すき焼きなどの鍋料理から居酒屋メニューまで幅広い和食を提供。日本酒の品揃えも豊富で、在住日本人コミュニティに人気の一軒。",
+    "menu": [
+      {
+        "name": "しゃぶしゃぶ",
+        "price_local": null,
+        "note": null
+      }
+    ],
+    "price_range": "¥¥¥",
+    "tags": [
+      "japanese",
+      "shabu-shabu",
+      "izakaya",
+      "west-la"
+    ],
+    "hours": {
+      "note": "要確認"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "ny-kura-sushi-flushing",
+    "name": "Kura Revolving Sushi Bar Flushing",
+    "name_ja": "くら寿司 フラッシング",
+    "area": "New York",
+    "address": "133-42 39th Ave, Flushing, NY 11354",
+    "phone": null,
+    "phone_local": null,
+    "email": null,
+    "website": "https://kurasushi.com/locations/flushing-ny",
+    "source_url": "https://kurasushi.com/locations/flushing-ny",
+    "description": "フラッシングのくら寿司。日本発の回転寿司チェーン、新鮮なネタをリーズナブルに。",
+    "detail": "ニューヨーク・フラッシング（クイーンズ）にある日本発回転寿司チェーン「くら寿司」。新鮮なネタを使ったお手頃価格の寿司をコンベアベルトで提供。日本の回転寿司体験をNYで楽しめる。",
+    "menu": [
+      {
+        "name": "各種にぎり",
+        "price_local": null,
+        "note": "回転寿司"
+      }
+    ],
+    "price_range": "¥",
+    "tags": [
+      "sushi",
+      "conveyor-belt",
+      "japanese",
+      "flushing"
+    ],
+    "hours": {
+      "note": "要確認"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
   }
 ]
