@@ -363,18 +363,20 @@ export default async function SpotDetailPage({
                 電話する
               </a>
             )}
+            {/* タグ（ボタンの直後・左寄り） */}
+            {spot.tags.length > 0 && (
+              <div className="hidden md:flex items-center gap-1.5">
+                {spot.tags.slice(0, 4).map((tag) => (
+                  <span
+                    key={tag}
+                    className={`text-xs font-medium ${theme.badgeText} ${theme.badgeBg} px-2.5 py-1 rounded-full`}
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            )}
             <div className="flex-1" />
-            {/* タグ（デスクトップ右端） */}
-            <div className="hidden md:flex items-center gap-1.5">
-              {spot.tags.slice(0, 3).map((tag) => (
-                <span
-                  key={tag}
-                  className="text-xs text-stone-500 bg-stone-50 dark:bg-stone-800 px-2.5 py-1 rounded-full border border-stone-100 dark:border-stone-700"
-                >
-                  {tag}
-                </span>
-              ))}
-            </div>
           </div>
         </div>
 
