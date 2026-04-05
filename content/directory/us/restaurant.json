@@ -8646,5 +8646,600 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null
+  },
+  {
+    "slug": "ny-sushi-nakazawa",
+    "name": "Sushi Nakazawa",
+    "name_ja": "鮨 中澤",
+    "area": "New York",
+    "address": "23 Commerce St, New York, NY 10014",
+    "phone": "+12129242212",
+    "phone_local": null,
+    "email": null,
+    "website": "https://www.sushinakazawa.com/new-york",
+    "source_url": "https://www.sushinakazawa.com/new-york",
+    "description": "ウェストビレッジのミシュラン星付きおまかせ寿司。中澤大輔シェフの20貫コース。",
+    "detail": "ニューヨーク・ウェストビレッジにあるミシュランガイド掲載の高級寿司店。中澤大輔シェフが手がける20貫のおまかせコースは、季節の食材を使った繊細な江戸前寿司が楽しめる。映画「二郎は鮨の夢を見る」にも登場した小野二郎に師事した中澤氏の技が光る。",
+    "menu": [
+      {
+        "name": "おまかせ20貫コース",
+        "price_local": null,
+        "note": "完全予約制"
+      }
+    ],
+    "price_range": "¥¥¥¥",
+    "tags": [
+      "sushi",
+      "omakase",
+      "michelin",
+      "japanese",
+      "west-village"
+    ],
+    "hours": {
+      "note": "完全予約制"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "ny-torien",
+    "name": "Torien",
+    "name_ja": "東鶏",
+    "area": "New York",
+    "address": "292 Elizabeth St, New York, NY 10012",
+    "phone": "+16466699946",
+    "phone_local": null,
+    "email": null,
+    "website": "https://torien-nyc.com",
+    "source_url": "https://torien-nyc.com",
+    "description": "ノーホーの隠れ家的ミシュラン星付き焼き鳥おまかせ店。東京の名店の海外初出店。",
+    "detail": "ニューヨーク・ノーホーにある隠れ家的なミシュラン一つ星の焼き鳥おまかせ店。東京の焼き鳥マスター・池川義輝氏の店の海外初進出。17席のみの小さな空間で、備長炭で丁寧に焼かれた13品のおまかせコースを提供する。2022年ミシュラン星獲得。",
+    "menu": [
+      {
+        "name": "焼き鳥おまかせコース",
+        "price_local": null,
+        "note": "13品・完全予約制"
+      }
+    ],
+    "price_range": "¥¥¥¥",
+    "tags": [
+      "yakitori",
+      "omakase",
+      "michelin",
+      "japanese",
+      "noho"
+    ],
+    "hours": {
+      "wed_mon": "17:30-21:00",
+      "tue": "定休日"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "ny-tempura-matsui",
+    "name": "Tempura Matsui",
+    "name_ja": "天ぷら 松井",
+    "area": "New York",
+    "address": "222 E 39th St, New York, NY 10016",
+    "phone": "+12129868885",
+    "phone_local": null,
+    "email": null,
+    "website": "https://www.tempuramatsui.com",
+    "source_url": "https://www.tempuramatsui.com",
+    "description": "ミッドタウンのミシュラン星付き天ぷら専門店。10年連続星獲得の本格天ぷらカウンター。",
+    "detail": "ニューヨーク・ミッドタウンにあるミシュラン一つ星の天ぷら専門店。NYで初めての本格天ぷら専門店として2014年にオープン。10年連続ミシュラン星を獲得する実力を誇り、カウンター越しに職人が揚げる天ぷらを楽しめる。",
+    "menu": [
+      {
+        "name": "天ぷらおまかせコース",
+        "price_local": null,
+        "note": "完全予約制"
+      }
+    ],
+    "price_range": "¥¥¥¥",
+    "tags": [
+      "tempura",
+      "omakase",
+      "michelin",
+      "japanese"
+    ],
+    "hours": {
+      "note": "完全予約制"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "ny-tonchin",
+    "name": "Tonchin",
+    "name_ja": "東珍",
+    "area": "New York",
+    "address": "13 W 36th St, New York, NY 10018",
+    "phone": "+16466929912",
+    "phone_local": null,
+    "email": null,
+    "website": "https://www.tonchinus.com",
+    "source_url": "https://www.tonchinus.com",
+    "description": "ミッドタウンのミシュランビブグルマン認定ラーメン&居酒屋。東京豚骨スープが人気。",
+    "detail": "ニューヨーク・ミッドタウンにあるミシュランビブグルマン（良質・リーズナブル）に選ばれたラーメン&居酒屋。東京豚骨スタイルのラーメンは、一般的な博多豚骨より軽めで出汁感のある特徴的なスープ。居酒屋メニューも充実している。",
+    "menu": [
+      {
+        "name": "東京豚骨ラーメン",
+        "price_local": null,
+        "note": "ミシュランビブグルマン"
+      }
+    ],
+    "price_range": "¥¥",
+    "tags": [
+      "ramen",
+      "japanese",
+      "michelin",
+      "midtown"
+    ],
+    "hours": {
+      "note": "要確認"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "ny-sake-bar-decibel",
+    "name": "Sake Bar Decibel",
+    "name_ja": "日本酒バー デシベル",
+    "area": "New York",
+    "address": "240 E 9th St, New York, NY 10003",
+    "phone": "+12129792733",
+    "phone_local": null,
+    "email": null,
+    "website": "https://www.sakebardecibel.com",
+    "source_url": "https://www.sakebardecibel.com",
+    "description": "イーストビレッジの地下にある日本酒バー老舗。1993年創業のNY日本酒文化の先駆け。",
+    "detail": "ニューヨーク・イーストビレッジの地下に佇む老舗日本酒バー。1993年のオープン以来、NYに日本酒・焼酎・ウイスキーの文化を広めてきたパイオニア的存在。薄暗い隠れ家的な空間で、100種以上の日本酒と多彩なおつまみが楽しめる。",
+    "menu": [
+      {
+        "name": "日本酒各種",
+        "price_local": null,
+        "note": "100種以上"
+      }
+    ],
+    "price_range": "¥¥¥",
+    "tags": [
+      "sake",
+      "bar",
+      "japanese",
+      "east-village"
+    ],
+    "hours": {
+      "note": "要確認"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "ny-raku-udon",
+    "name": "Raku",
+    "name_ja": "楽",
+    "area": "New York",
+    "address": "342 E 6th St, New York, NY 10003",
+    "phone": "+12122281324",
+    "phone_local": null,
+    "email": null,
+    "website": "https://www.rakunyc.com",
+    "source_url": "https://www.rakunyc.com",
+    "description": "イーストビレッジの本格うどん専門店。もちもちの手打ちうどんと出汁スープが人気。",
+    "detail": "ニューヨーク・イーストビレッジにある本格うどん専門店。石塚シェフが手がける弾力のある手打ちうどんをシグネチャー出汁スープで提供。NYでは珍しい本格的なうどん専門店として話題を呼んでいる。",
+    "menu": [
+      {
+        "name": "手打ちうどん",
+        "price_local": null,
+        "note": "各種スープあり"
+      }
+    ],
+    "price_range": "¥¥",
+    "tags": [
+      "udon",
+      "japanese",
+      "east-village",
+      "noodles"
+    ],
+    "hours": {
+      "mon": "17:00-21:00",
+      "tue_sat": "12:00-21:00 (金土-21:30)"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "la-nnaka",
+    "name": "n/naka",
+    "name_ja": "エヌナカ",
+    "area": "Los Angeles",
+    "address": "3455 Overland Ave, Los Angeles, CA 90034",
+    "phone": "+13108366252",
+    "phone_local": null,
+    "email": null,
+    "website": "https://n-naka.com",
+    "source_url": "https://n-naka.com",
+    "description": "ミシュラン二つ星の日本式会席レストラン。中山仁希シェフの革新的カリフォルニア懐石。",
+    "detail": "ロサンゼルスにあるミシュラン二つ星の会席料理レストラン。中山仁希シェフによるカリフォルニアの食材を用いた現代的な13品会席コースは、LA随一の高級日本食体験。Netflixドキュメンタリーでも紹介された世界的名店。予約は数週間先まで満席が続く。",
+    "menu": [
+      {
+        "name": "会席コース13品",
+        "price_local": null,
+        "note": "完全予約制"
+      }
+    ],
+    "price_range": "¥¥¥¥",
+    "tags": [
+      "kaiseki",
+      "omakase",
+      "michelin",
+      "japanese"
+    ],
+    "hours": {
+      "wed_sat": "夕食のみ",
+      "note": "完全予約制"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "la-tsujita",
+    "name": "Tsujita LA Artisan Noodle",
+    "name_ja": "辻田ラーメン",
+    "area": "Los Angeles",
+    "address": "2057 Sawtelle Blvd, Los Angeles, CA 90025",
+    "phone": "+13102317373",
+    "phone_local": null,
+    "email": null,
+    "website": "https://www.tsujita.com/sawtelle-la",
+    "source_url": "https://www.tsujita.com/sawtelle-la",
+    "description": "ソーテルのつけ麺&ラーメン名店。濃厚な豚骨魚介つけ麺がLA随一との評判。",
+    "detail": "ロサンゼルス・ソーテル地区にあるつけ麺&ラーメン専門店。東京の辻田から進出し、LAの日本食街で特に人気が高い。濃厚な豚骨魚介スープのつけ麺は行列必至の名物メニュー。近くにはAnnex店もあり、からしびラーメンも楽しめる。",
+    "menu": [
+      {
+        "name": "豚骨魚介つけ麺",
+        "price_local": null,
+        "note": "看板メニュー"
+      }
+    ],
+    "price_range": "¥¥",
+    "tags": [
+      "ramen",
+      "tsukemen",
+      "japanese",
+      "sawtelle"
+    ],
+    "hours": {
+      "note": "要確認"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "la-tsubaki",
+    "name": "Tsubaki",
+    "name_ja": "椿",
+    "area": "Los Angeles",
+    "address": "1356 Allison Ave, Los Angeles, CA 90026",
+    "phone": "+12139004900",
+    "phone_local": null,
+    "email": null,
+    "website": "https://tsubakila.com",
+    "source_url": "https://tsubakila.com",
+    "description": "エコーパークの現代的な居酒屋。日本の精神とカリフォルニアの食材が融合したコンセプト。",
+    "detail": "ロサンゼルス・エコーパークにある現代的な日本式居酒屋。日本の居酒屋文化をベースにしながら、カリフォルニア産の旬の食材を活かしたオリジナルメニューが特徴。屋内外のダイニングで、日本酒・ナチュラルワインと多彩な一皿を楽しめる。",
+    "menu": [
+      {
+        "name": "季節の小鉢各種",
+        "price_local": null,
+        "note": null
+      }
+    ],
+    "price_range": "¥¥¥",
+    "tags": [
+      "izakaya",
+      "japanese",
+      "echo-park",
+      "california"
+    ],
+    "hours": {
+      "mon_tue": "17:00-21:00",
+      "wed": "定休日",
+      "thu": "17:00-21:00",
+      "fri_sat": "17:00-22:00",
+      "sun": "17:00-21:00"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "la-uchi-weho",
+    "name": "Uchi West Hollywood",
+    "name_ja": "宇知 ウェストハリウッド",
+    "area": "Los Angeles",
+    "address": "9001 Santa Monica Blvd, West Hollywood, CA 90069",
+    "phone": "+13107084808",
+    "phone_local": null,
+    "email": null,
+    "website": "https://uchi.uchirestaurants.com/location/sushi-west-hollywood/",
+    "source_url": "https://uchi.uchirestaurants.com/location/sushi-west-hollywood/",
+    "description": "ウェストハリウッドのおしゃれな高級寿司&日本料理店。テキサス発祥のシェフ主導ブランド。",
+    "detail": "ロサンゼルス・ウェストハリウッドにある高級日本料理レストラン。テキサス州オースティン発祥のUchiブランドのLA店。スレークで洗練されたインテリアに、シェフ主導の現代的日本料理を提供。寿司・刺身・小皿料理が揃い、デートやビジネス接待にも最適。",
+    "menu": [
+      {
+        "name": "コース料理",
+        "price_local": null,
+        "note": null
+      }
+    ],
+    "price_range": "¥¥¥¥",
+    "tags": [
+      "sushi",
+      "japanese",
+      "west-hollywood",
+      "fine-dining"
+    ],
+    "hours": {
+      "note": "要確認"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "dc-daikaya",
+    "name": "Daikaya",
+    "name_ja": "大加屋",
+    "area": "Washington DC",
+    "address": "705 6th St NW, Washington, DC 20001",
+    "phone": "+12025891600",
+    "phone_local": null,
+    "email": null,
+    "website": "https://www.daikaya.com",
+    "source_url": "https://www.daikaya.com",
+    "description": "チャイナタウン近くの2フロア構成のラーメン&居酒屋。札幌スタイルラーメンが有名。",
+    "detail": "ワシントンDC・チャイナタウン近くにある人気日本食レストラン。1階はラーメン専門店（予約不可）、2階は居酒屋スタイルというユニークな二層構成。札幌スタイルの本格ラーメンはDCで最高峰との評判で、ランチから深夜まで賑わう。",
+    "menu": [
+      {
+        "name": "札幌スタイルラーメン",
+        "price_local": null,
+        "note": "1F・予約不可"
+      },
+      {
+        "name": "居酒屋メニュー",
+        "price_local": null,
+        "note": "2F・予約可"
+      }
+    ],
+    "price_range": "¥¥",
+    "tags": [
+      "ramen",
+      "izakaya",
+      "japanese",
+      "chinatown"
+    ],
+    "hours": {
+      "sun_mon": "11:30-21:00",
+      "tue_thu": "11:30-21:30",
+      "fri_sat": "11:30-22:30"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "dc-kaz-sushi",
+    "name": "KAZ Sushi Bistro",
+    "name_ja": "カズ鮨ビストロ",
+    "area": "Washington DC",
+    "address": "1915 I St NW, Washington, DC 20006",
+    "phone": "+12025305500",
+    "phone_local": null,
+    "email": null,
+    "website": "https://www.kazsushi.com",
+    "source_url": "https://www.kazsushi.com",
+    "description": "ダウンタウンDCの老舗寿司&日本料理。1999年創業、政治家や外交官に愛される隠れた名店。",
+    "detail": "ワシントンDCダウンタウンにある1999年創業の老舗寿司&日本料理店。シェフ岡智一のホワイトハウスから徒歩圏内に位置し、政治家・外交官・DC在住日本人に長年愛されてきた。創作的な寿司と正統派の日本食メニューが揃う。",
+    "menu": [
+      {
+        "name": "特選おまかせ",
+        "price_local": null,
+        "note": null
+      },
+      {
+        "name": "刺身盛り合わせ",
+        "price_local": null,
+        "note": null
+      }
+    ],
+    "price_range": "¥¥¥",
+    "tags": [
+      "sushi",
+      "japanese",
+      "downtown-dc"
+    ],
+    "hours": {
+      "note": "要確認"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "houston-uchi",
+    "name": "Uchi Houston",
+    "name_ja": "宇知 ヒューストン",
+    "area": "Houston",
+    "address": "904 Westheimer Rd Ste A, Houston, TX 77006",
+    "phone": "+17135224808",
+    "phone_local": null,
+    "email": null,
+    "website": "https://uchi.uchirestaurants.com/location/omakase-houston/",
+    "source_url": "https://uchi.uchirestaurants.com/location/omakase-houston/",
+    "description": "モントローズの高級日本料理&寿司レストラン。ジェームズビアード賞多数受賞のシェフ主導の名店。",
+    "detail": "ヒューストン・モントローズにある高級日本料理レストラン。ジェームズビアード賞に複数回ノミネートされたタイソン・コールシェフが率いるUchiブランドのヒューストン店。革新的で美しい日本料理と寿司をウォームなテキサスのホスピタリティとともに提供する。",
+    "menu": [
+      {
+        "name": "おまかせコース",
+        "price_local": null,
+        "note": null
+      }
+    ],
+    "price_range": "¥¥¥¥",
+    "tags": [
+      "japanese",
+      "sushi",
+      "fine-dining",
+      "montrose"
+    ],
+    "hours": {
+      "sun_thu": "16:00-22:00",
+      "fri_sat": "16:00-23:00"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "atlanta-mujo",
+    "name": "Mujō",
+    "name_ja": "無常",
+    "area": "Atlanta",
+    "address": "691 14th St NW Ste C, Atlanta, GA 30318",
+    "phone": "+14044006832",
+    "phone_local": null,
+    "email": null,
+    "website": "https://www.mujoatl.com",
+    "source_url": "https://www.mujoatl.com",
+    "description": "アトランタのミシュラン一つ星おまかせ専門店。南部の食材を活かした江戸前スタイル寿司。",
+    "detail": "アトランタ・ウェストミッドタウンにあるミシュラン一つ星のおまかせ専門店。J.トレント・ハリスシェフが手がける江戸前スタイルの寿司は、日本から直送した魚と南部の旬食材を融合させた独創的なコース。1日限定の予約制で、毎月1日に翌月分の予約が公開される。",
+    "menu": [
+      {
+        "name": "おまかせコース",
+        "price_local": null,
+        "note": "要予約・$245/人"
+      }
+    ],
+    "price_range": "¥¥¥¥",
+    "tags": [
+      "sushi",
+      "omakase",
+      "michelin",
+      "japanese"
+    ],
+    "hours": {
+      "note": "完全予約制・毎月1日10時予約開放"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
   }
 ]
