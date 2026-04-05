@@ -10,14 +10,15 @@ const ZH_SITES = [
 
 export default function Footer() {
   return (
-    <footer className="bg-stone-900 dark:bg-stone-950 text-stone-400">
+    <footer className="bg-stone-950 text-stone-400">
       <div className="max-w-6xl mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           {/* ブランド */}
           <div>
-            <p className="heading-editorial text-xl font-bold text-white mb-3">
-              Kaigaijin
+            <p className="heading-editorial text-2xl font-bold text-white mb-1 tracking-tight">
+              <span className="text-[1.2em]">K</span>aigaijin
             </p>
+            <p className="text-xs italic text-stone-500 mb-4">Its country, deeply.</p>
             <p className="text-sm leading-relaxed">
               海外在住日本人のための
               <br />
@@ -33,9 +34,10 @@ export default function Footer() {
                 <Link
                   key={c.code}
                   href={`/${c.code}`}
-                  className="hover:text-white transition-colors"
+                  className="hover:text-white transition-colors flex items-center gap-1.5"
                 >
-                  {c.flag} {c.name}
+                  <span className="text-sm">{c.flag}</span>
+                  <span>{c.name}</span>
                 </Link>
               ))}
             </div>
@@ -72,16 +74,17 @@ export default function Footer() {
                   href={site.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-white transition-colors"
+                  className="hover:text-white transition-colors flex items-center gap-1.5"
                 >
-                  {site.name}
+                  <span>{site.name}</span>
+                  <span className="text-[10px] text-stone-600">↗</span>
                 </a>
               ))}
             </div>
           </div>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-stone-800 text-center text-xs text-stone-500">
+        <div className="mt-12 pt-8 border-t border-stone-800 text-center text-xs text-stone-600">
           &copy; {new Date().getFullYear()} Kaigaijin. All rights reserved.
         </div>
       </div>

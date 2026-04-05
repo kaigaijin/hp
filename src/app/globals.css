@@ -5,17 +5,17 @@
   --font-serif: "Noto Serif JP", serif;
   --font-sans: "Noto Sans JP", sans-serif;
 
-  /* メインカラー: warm（オレンジ〜アンバー系） */
+  /* メインカラー: warm（深いテラコッタ系） */
   --color-warm-50:  #fff8f0;
   --color-warm-100: #feefd8;
   --color-warm-200: #fcdcad;
   --color-warm-300: #f9c278;
-  --color-warm-400: #f5a03e;
-  --color-warm-500: #f28020;
-  --color-warm-600: #e36510;
-  --color-warm-700: #bc4d0c;
-  --color-warm-800: #963e10;
-  --color-warm-900: #7a3410;
+  --color-warm-400: #e8a46e;
+  --color-warm-500: #c8602a;
+  --color-warm-600: #b04e20;
+  --color-warm-700: #8f3c16;
+  --color-warm-800: #722f11;
+  --color-warm-900: #5c260e;
 
   /* sand: ライトモード背景 */
   --color-sand-50:  #faf7f2;
@@ -28,6 +28,18 @@
   --color-sand-700: #7a5e40;
   --color-sand-800: #634c35;
   --color-sand-900: #52402e;
+
+  /* teal: サブカラー（ネイビーテール系） */
+  --color-teal-100: #d4ecf0;
+  --color-teal-200: #a8d9e1;
+  --color-teal-300: #6ebdcc;
+  --color-teal-400: #3a9aae;
+  --color-teal-500: #1a6b7c;
+  --color-teal-600: #145866;
+  --color-teal-700: #0f4550;
+  --color-teal-800: #0c3540;
+  --color-teal-900: #082830;
+  --color-teal-950: #0a2830;
 }
 
 @custom-variant dark (&:where(.dark, .dark *));
@@ -51,9 +63,19 @@
   font-family: var(--font-serif);
   letter-spacing: 0.02em;
   line-height: 1.4;
+  font-feature-settings: "palt";
 }
 
-/* 横線デコレーション */
+/* セクションラベル（小見出し） */
+.section-label {
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--color-teal-400);
+  font-weight: 600;
+}
+
+/* 横線デコレーション（太め） */
 .line-accent::after {
   content: "";
   display: block;
@@ -61,6 +83,17 @@
   height: 2px;
   background: var(--color-warm-500);
   margin-top: 16px;
+}
+
+/* 横線デコレーション（細め・グラデーション） */
+.line-thin::after {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 1px;
+  background: linear-gradient(to right, transparent, currentColor);
+  margin-top: 12px;
+  opacity: 0.4;
 }
 
 /* スクロールで表示するアニメーション */
@@ -77,11 +110,30 @@
 
 .animate-reveal {
   animation: reveal-up 0.7s ease-out both;
+  animation-fill-mode: both;
+}
+
+.animate-reveal-delay-1 {
+  animation: reveal-up 0.7s ease-out both;
+  animation-fill-mode: both;
+  animation-delay: 0.1s;
+}
+
+.animate-reveal-delay-2 {
+  animation: reveal-up 0.7s ease-out both;
+  animation-fill-mode: both;
+  animation-delay: 0.2s;
+}
+
+.animate-reveal-delay-3 {
+  animation: reveal-up 0.7s ease-out both;
+  animation-fill-mode: both;
+  animation-delay: 0.3s;
 }
 
 /* 国カード ホバー */
 .country-card {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
 .country-card:hover {
   transform: translateY(-4px);
@@ -193,7 +245,7 @@
   margin-bottom: 0.5em;
 }
 .dark .prose blockquote {
-  background-color: rgba(242, 128, 32, 0.08);
+  background-color: rgba(200, 96, 42, 0.08);
   border-left-color: var(--color-warm-500);
   color: #d6d3d1;
 }
@@ -251,7 +303,7 @@
   border-color: #44403c;
 }
 .dark .prose thead {
-  background-color: rgba(242, 128, 32, 0.1);
+  background-color: rgba(200, 96, 42, 0.1);
   border-bottom-color: #44403c;
 }
 .dark .prose thead th {
