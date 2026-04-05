@@ -1585,5 +1585,81 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null
+  },
+  {
+    "slug": "ferrys-munich",
+    "name": "Ferry's Japanese Hair Salon",
+    "name_ja": "フェリーズ 日系美容室",
+    "area": "Munich",
+    "address": "Reichenbachstraße 15, 80469 München",
+    "lat": 48.1334,
+    "lng": 11.5748,
+    "phone": "+498922 2757",
+    "website": "https://hairferry.de",
+    "description": "ミュンヘンの日系美容室。ミルボンのファミリーサロンの1つでアジア人の髪質に精通した日本人スタイリストが対応。",
+    "tags": [
+      "beauty",
+      "hair-salon",
+      "japanese"
+    ],
+    "hours": {
+      "mon": "09:30-19:00",
+      "tue": "09:30-19:00",
+      "wed": "09:00-19:00",
+      "thu": "09:00-19:00",
+      "fri": "09:00-19:00",
+      "sat": "09:00-18:30",
+      "sun": "closed"
+    },
+    "last_verified": "2026-04-04",
+    "status": "unverified",
+    "source": "web_search",
+    "place_id": null,
+    "priority": 2,
+    "ai_reviewed": true,
+    "phone_local": "089 222757",
+    "email": null,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "salon-mai-dusseldorf",
+    "name": "Salon MAI",
+    "name_ja": "サロン・マイ",
+    "area": "Düsseldorf",
+    "address": "Kreuzstraße 26, 40210 Düsseldorf",
+    "lat": 51.2188,
+    "lng": 6.7876,
+    "phone": "+492113248440",
+    "website": "https://salon-mai.com",
+    "description": "1977年創業のデュッセルドルフの老舗日本人経営美容室。アジア系の髪質に精通した日本人スタイリストが施術。",
+    "tags": [
+      "beauty",
+      "hair-salon",
+      "japanese"
+    ],
+    "hours": {
+      "mon": "10:00-20:00",
+      "tue": "10:00-20:00",
+      "wed": "10:00-20:00",
+      "thu": "10:00-20:00",
+      "fri": "10:00-20:00",
+      "sat": "09:00-18:00",
+      "sun": "closed"
+    },
+    "last_verified": "2026-04-04",
+    "status": "unverified",
+    "source": "web_search",
+    "place_id": null,
+    "priority": 2,
+    "ai_reviewed": true,
+    "phone_local": "0211 324844",
+    "email": "appointment@salon-mai.de",
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
   }
 ]
