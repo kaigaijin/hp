@@ -346,10 +346,10 @@
     "name": "Sompo Japan Insurance (Hong Kong)",
     "name_ja": "損保ジャパン 香港",
     "area": "Wan Chai",
-    "address": "BEA Harbour View Centre, Wan Chai, Hong Kong",
+    "address": "21/F Berkshire House, Taikoo Place, 25 Westlands Road, Quarry Bay, Hong Kong",
     "lat": 22.279,
     "lng": 114.1712,
-    "phone": "+85228271268",
+    "phone": "+85228319980",
     "website": "https://www.sompo.com.hk/",
     "description": "損保ジャパンの香港現地法人拠点。ワンチャイ（湾仔）に所在し、法人向け損害保険・再保険サービスを日本語での相談も含めて提供。",
     "tags": [
@@ -363,7 +363,9 @@
     "source": "google_maps",
     "place_id": "ChIJDRDqTlwABDQRq0P0NHKh9f8",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "phone_local": "2831 9980",
+    "source_url": "https://www.sompo.com.hk/en/home.html"
   },
   {
     "slug": "sun-life-hong-kong",
@@ -420,10 +422,10 @@
     "name": "Tokio Marine & Nichido Fire Insurance (Hong Kong)",
     "name_ja": "東京海上日動 香港",
     "area": "Central",
-    "address": "Central, Hong Kong",
+    "address": "27A, United Centre, 95 Queensway, Admiralty, Hong Kong",
     "lat": null,
     "lng": null,
-    "phone": null,
+    "phone": "+85225294401",
     "website": "https://www.tokiomarine-nichido.co.jp/",
     "description": "東京海上日動の香港拠点。日系企業・駐在員向けに企業財産保険・賠償責任保険・海上保険等を日本語で提供。日本最大手損保グループの海外ネットワーク。",
     "tags": [
@@ -432,13 +434,15 @@
       "法人向け",
       "日本最大手"
     ],
-    "hours": "月〜金 9:00〜17:30",
+    "hours": "Mon-Fri 9:00-17:15",
     "last_verified": "2026-04-03",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "phone_local": "2529 4401",
+    "source_url": "https://www.tokiomarine.com.hk/home/Default.asp?lang=en&p=otherresources&p1=contactus"
   },
   {
     "slug": "wellbe-health-insurance-hk",
