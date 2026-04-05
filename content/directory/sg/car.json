@@ -872,5 +872,29 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null
+  },
+  {
+    "slug": "kinto-share-singapore",
+    "name": "KINTO Share",
+    "name_ja": "キントシェア シンガポール",
+    "area": "Bishan",
+    "address": "28 Sin Ming Lane, #01-138/139, Midview City, Singapore 573972",
+    "phone": "+6588761523",
+    "website": "https://share.kinto-sg.com/",
+    "source_url": "https://share.kinto-sg.com/",
+    "description": "トヨタグループのシンガポール短期カーシェアリングサービス。1日・週末単位でトヨタ車を借りられ、在住日本人に使い勝手が良い。24時間ロードサイドアシスタンス付き。",
+    "tags": [
+      "カーシェア",
+      "トヨタ",
+      "短期レンタル",
+      "日系"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
   }
 ]
