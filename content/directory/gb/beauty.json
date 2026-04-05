@@ -1841,5 +1841,52 @@
     "place_id": "",
     "priority": 0,
     "ai_reviewed": true
+  },
+  {
+    "slug": "mosaique-london",
+    "name": "MOSAIQUE London",
+    "name_ja": "モザイク ロンドン",
+    "area": "Mayfair",
+    "address": "54 South Molton Street, London W1K 5SH",
+    "phone": "+442074919080",
+    "email": null,
+    "website": "https://www.mosaiquelondon.com/",
+    "source_url": "https://www.mosaiquelondon.com/",
+    "description": "メイフェアのサウスモルトンストリートにある日本式ヘア＆ビューティーサロン。日本人スタイリストによるカット・カラー・ヘッドスパを提供。日英バイリンガル対応。",
+    "tags": [
+      "日本人スタイリスト",
+      "日本語対応",
+      "ヘッドスパ"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-04-04",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
+  },
+  {
+    "slug": "figaro-london-hair",
+    "name": "Figaro London Hair & Beauty",
+    "name_ja": "フィガロ ロンドン ヘア＆ビューティー",
+    "area": "Old Street",
+    "address": "95-97 Lever Street, London EC1V 3RQ",
+    "phone": "+442072537057",
+    "email": null,
+    "website": "https://figarolondon.uk/",
+    "source_url": "https://figarolondon.uk/",
+    "description": "オールドストリート近くの多機能ビューティーサロン。東京・NYで活躍した日本人ネイルアーティストが在籍し、日本式ネイルアートを提供。ヘア・マッサージも対応。",
+    "tags": [
+      "日本人スタイリスト",
+      "ネイルアート"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-04-04",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
   }
 ]
