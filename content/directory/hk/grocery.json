@@ -1912,5 +1912,165 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null
+  },
+  {
+    "slug": "living-plaza-aeon-kennedy-town",
+    "name": "Living PLAZA by AEON Kennedy Town",
+    "category": "grocery",
+    "subcategory": "homeware-store",
+    "area": "kennedy-town",
+    "address": "Shop 1, Lower G/F, Luen Tak Apartments, 45 Smithfield, Kennedy Town",
+    "phone": "+85223674068",
+    "website": "https://www.aeonstores.com.hk",
+    "hours": "月〜日 10:00〜21:00（店舗により異なる場合あり）",
+    "price_range": "HK$20〜（約400円〜）",
+    "tags": [
+      "日系",
+      "生活雑貨",
+      "家庭用品",
+      "ケネディタウン"
+    ],
+    "description": "ケネディタウンにある日本発のライフスタイルショップ。日用品・キッチン用品・収納グッズなどを幅広く取り扱う。",
+    "detail": "Living PLAZA by AEONはイオンが展開する日系ライフスタイルショップ。ケネディタウンのSmithfield 45号にあるLuen Tak Apartmentsの下層に位置し、MTRケネディタウン駅からも近い。日用品・キッチン用品・文具・収納アイテム・インテリア雑貨など幅広いカテゴリをリーズナブルな価格で提供。家庭で使う日本スタイルの品揃えが充実しており、香港在住日本人が日本的な生活雑貨を手軽に揃えられる店として重宝されている。",
+    "menu": null,
+    "source_url": "https://www.aeonstores.com.hk/shop_info?lang=en&q%5Bshop_info_category_shop_info_category_type_master_id_eq%5D=4",
+    "source": "web_search",
+    "status": "unverified",
+    "ai_reviewed": true,
+    "last_verified": "2026-04-05"
+  },
+  {
+    "slug": "living-plaza-aeon-diamond-hill",
+    "name": "Living PLAZA by AEON Diamond Hill",
+    "category": "grocery",
+    "subcategory": "homeware-store",
+    "area": "diamond-hill",
+    "address": "Shop 166, Level 1, Plaza Hollywood, 3 Lung Poon Street, Diamond Hill",
+    "phone": "+85223909899",
+    "website": "https://www.aeonstores.com.hk",
+    "hours": "月〜日 10:00〜21:00（店舗により異なる場合あり）",
+    "price_range": "HK$20〜（約400円〜）",
+    "tags": [
+      "日系",
+      "生活雑貨",
+      "家庭用品",
+      "ダイヤモンドヒル"
+    ],
+    "description": "ダイヤモンドヒルのPlaza Hollywood内にある日系ライフスタイルショップ。MTR駅直結で利便性が高い。",
+    "detail": "Living PLAZA by AEONのダイヤモンドヒル店は、MTR鑽石山駅に直結するPlaza Hollywood（好萊塢廣場）Level 1に位置する。日用品・キッチン用品・収納・文具・インテリア雑貨など幅広い品揃えを手頃な価格で提供。日本のイオングループならではの品質と使い勝手を重視した商品ラインナップが特徴。九龍東側（黄大仙・観塘エリア）に住む日本人も利用しやすいアクセスの良い立地。",
+    "menu": null,
+    "source_url": "https://www.aeonstores.com.hk/shop_info?lang=en&q%5Bshop_info_category_shop_info_category_type_master_id_eq%5D=4",
+    "source": "web_search",
+    "status": "unverified",
+    "ai_reviewed": true,
+    "last_verified": "2026-04-05"
+  },
+  {
+    "slug": "muji-harbour-city",
+    "name": "MUJI 無印良品 Harbour City",
+    "category": "grocery",
+    "subcategory": "japanese-lifestyle",
+    "area": "tsim-sha-tsui",
+    "address": "Shop 3416, Level 3, Harbour City, 3-27 Canton Road, Tsim Sha Tsui",
+    "phone": null,
+    "website": "https://www.muji.com/hk-en/store/Harbour-City/",
+    "hours": "月〜日 10:00〜22:00",
+    "price_range": "HK$30〜（約600円〜）",
+    "tags": [
+      "無印良品",
+      "日本",
+      "雑貨",
+      "食品",
+      "カフェ"
+    ],
+    "description": "尖沙咀のHarbour Cityにある無印良品の大型店。Cafe&Meal MUJIも併設し、食品・雑貨・衣料品を幅広く取り扱う。",
+    "detail": "Harbour City（海港城）Level 3に位置する無印良品の大型旗艦店のひとつ。衣料品・家具・雑貨・コスメ・食品など無印の全カテゴリを網羅し、Cafe&Meal MUJIも併設。日本でおなじみの定番商品が揃うため、日本人駐在員・在住者の多くが定期的に足を運ぶ。Canton Road沿いのHarbour Cityはショッピングモールとしての規模も大きく、ブランドショッピングのついでに立ち寄りやすい立地。無印のポイントカード（MUJI Passport）は日本のポイントと共通利用可能。",
+    "menu": [
+      {
+        "name": "カレー各種",
+        "price": "HK$20〜",
+        "note": "日本で人気の無印カレー、数十種類展開"
+      },
+      {
+        "name": "お菓子・スナック",
+        "price": "HK$15〜",
+        "note": "無印オリジナルスナック"
+      },
+      {
+        "name": "Cafe&Meal MUJI",
+        "price": "HK$100〜",
+        "note": "ヘルシーなセットメニュー"
+      }
+    ],
+    "source_url": "https://www.muji.com/hk-en/store/Harbour-City/",
+    "source": "web_search",
+    "status": "unverified",
+    "ai_reviewed": true,
+    "last_verified": "2026-04-05"
+  },
+  {
+    "slug": "muji-festival-walk",
+    "name": "MUJI 無印良品 Festival Walk",
+    "category": "grocery",
+    "subcategory": "japanese-lifestyle",
+    "area": "kowloon-tong",
+    "address": "Shop L2-11A, Level 2, Festival Walk, 80 Tat Chee Avenue, Kowloon Tong",
+    "phone": null,
+    "website": "https://www.muji.com/hk-en/store/Festival-Walk/",
+    "hours": "月〜日 10:00〜22:00",
+    "price_range": "HK$30〜（約600円〜）",
+    "tags": [
+      "無印良品",
+      "日本",
+      "雑貨",
+      "食品",
+      "カフェ"
+    ],
+    "description": "九龍塘のFestival Walk内にある大型無印良品。Cafe&Meal MUJI併設で、子連れでも気軽に立ち寄れる。",
+    "detail": "Festival Walk（又一城）Level 2に位置する無印良品の大型店舗。MTR九龍塘駅に直結しており、アクセスが非常に便利。衣料品・家具・雑貨・食品・コスメなど幅広いラインナップを揃え、Cafe&Meal MUJIも併設。九龍塘周辺には日本人学校（香港日本人学校ほか）があり、子育て世代の日本人が集まるエリア。食品売り場では日本のカレーやパスタソース等の定番食品も手に入るため、日本食材としても重宝。",
+    "menu": [
+      {
+        "name": "カレー各種",
+        "price": "HK$20〜",
+        "note": "無印の人気カレーシリーズ"
+      },
+      {
+        "name": "Cafe&Meal MUJI",
+        "price": "HK$100〜",
+        "note": "ヘルシーな定食スタイル"
+      }
+    ],
+    "source_url": "https://www.muji.com/hk-en/store/Festival-Walk/",
+    "source": "web_search",
+    "status": "unverified",
+    "ai_reviewed": true,
+    "last_verified": "2026-04-05"
+  },
+  {
+    "slug": "muji-cityplaza",
+    "name": "MUJI 無印良品 Cityplaza",
+    "category": "grocery",
+    "subcategory": "japanese-lifestyle",
+    "area": "taikoo",
+    "address": "Shop 066 & 066A, G/F, Cityplaza, 18 Taikoo Shing Road, Taikoo Shing",
+    "phone": null,
+    "website": "https://www.muji.com/hk-en/store/Cityplaza/",
+    "hours": "月〜金 11:00〜21:30、土日 11:00〜22:00",
+    "price_range": "HK$30〜（約600円〜）",
+    "tags": [
+      "無印良品",
+      "日本",
+      "雑貨",
+      "食品",
+      "太古城"
+    ],
+    "description": "太古城Cityplazaにある無印良品。香港島東部のファミリーエリアに住む日本人が頻繁に利用する。",
+    "detail": "太古城のCityplazaG/Fに位置する無印良品。MTR太古駅に直結し、太古城（Taikoo Shing）周辺は日本人ファミリー層が多く住む住宅エリアとして知られる。衣料品・雑貨・文具・コスメ・食品など幅広いラインナップで、日本の無印とほぼ同じ感覚で買い物ができる。食品コーナーではレトルトカレー・パスタソース・お菓子類も充実しており、日本の味が恋しくなったときに重宝する存在。",
+    "menu": null,
+    "source_url": "https://www.muji.com/hk-en/store/Cityplaza/",
+    "source": "web_search",
+    "status": "unverified",
+    "ai_reviewed": true,
+    "last_verified": "2026-04-05"
   }
 ]
