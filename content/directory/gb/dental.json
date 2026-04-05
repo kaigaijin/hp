@@ -758,7 +758,12 @@
     "source_url": "https://kodental.co.uk/practice",
     "description": "マリルボーン・ウィンポール・ストリートの歯科クリニック。「日本水準の精密さと丁寧さ」を掲げ、インプラント・審美歯科・予防歯科を提供。Bond Street駅から徒歩6分。",
     "detail": "KO Dentalは1983年より66 Wimpole Streetに拠点を置く歯科クリニック。院長のDr Louis Koは「患者が十分な情報をもとに自身の健康について判断できるよう支援する」ことを理念としており、日本式の丁寧な説明・精密な治療が在英日本人に支持されている。インプラント専門資格を複数保有。相談型アプローチを重視。",
-    "menu": ["インプラント", "審美歯科", "予防歯科", "ホワイトニング"],
+    "menu": [
+      "インプラント",
+      "審美歯科",
+      "予防歯科",
+      "ホワイトニング"
+    ],
     "price_range": null,
     "tags": [
       "日本水準の丁寧さ",
@@ -793,7 +798,12 @@
     "source_url": "https://www.namidentalclinic.com/",
     "description": "日本とイギリス両国の歯科医師免許を持つDr. Hammond奈美が院長。予防管理型の歯科を重視し、小児歯科にも注力。Finchley Road駅から徒歩1分。",
     "detail": "Nami Dental Clinicは日英両国の歯科免許を持つDr. Hammond奈美が運営するクリニック。「お口は全身への入り口」という理念のもと、治療より予防を重視した管理型歯科を提供。子供の永久歯虫歯予防に力を入れており、日本とイギリス双方の治療方針の違いを踏まえたわかりやすい説明が在英日本人家庭に好評。Finchley Road（メトロポリタン/ジュビリー線）から徒歩1分。",
-    "menu": ["一般歯科", "予防歯科", "小児歯科", "虫歯治療"],
+    "menu": [
+      "一般歯科",
+      "予防歯科",
+      "小児歯科",
+      "虫歯治療"
+    ],
     "price_range": null,
     "tags": [
       "日本語対応",
@@ -803,6 +813,36 @@
       "West Hampstead"
     ],
     "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "sakura-dental-clinic-london",
+    "name": "Sakura Dental Clinic",
+    "name_ja": "さくら歯科クリニック",
+    "area": "Hendon",
+    "address": "4 Damsel Walk, London NW9 7FB",
+    "phone": "+442033430700",
+    "email": "",
+    "website": "https://sakuradc.co.uk",
+    "source_url": "https://sakuradc.co.uk/",
+    "description": "ヘンドンの日本人コミュニティ向け専門歯科クリニック。日本語スタッフが在籍し、在英日本人が安心して受診できる環境。",
+    "detail": "Sakura Dental Clinicはロンドン北部ヘンドン地区に位置する、日本人コミュニティへのサービスを専門とする歯科クリニック。英国CQC（医療品質委員会）登録済み。一般歯科診療から審美治療まで幅広く対応し、日本語でのコミュニケーションが可能なため、英語が不安な方でも安心して受診できます。",
+    "menu": [],
+    "price_range": "",
+    "tags": [
+      "dental",
+      "japanese-service"
+    ],
+    "hours": "要確認",
     "status": "unverified",
     "last_verified": "2026-04-05",
     "source": "web_search",
