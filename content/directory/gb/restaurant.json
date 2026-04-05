@@ -17353,5 +17353,78 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null
+  },
+  {
+    "slug": "tonkotsu-east-hackney",
+    "name": "Tonkotsu East (Hackney)",
+    "name_ja": "トンコツ・イースト（ハックニー）",
+    "area": "ハックニー・ダルストン",
+    "address": "Arch 334, 1a Dunston Street, London E8 4EB",
+    "phone": null,
+    "email": null,
+    "website": "https://tonkotsu.co.uk/locations/east/",
+    "source_url": "https://tonkotsu.co.uk/locations/",
+    "description": "ハックニーの鉄道アーチ下に位置するトンコツ・ラーメン店。本格豚骨スープとアーチ空間が特徴。",
+    "detail": "東ロンドン・ハックニーのダンストン・ストリート、鉄道アーチ下に位置するトンコツラーメン専門店。ロンドンで15店舗展開するトンコツチェーンの一つ。本格豚骨スープをベースにした各種ラーメンと餃子を提供。ハックニーのアートカルチャーに溶け込む独特の空間で、地域在住の日本人にも人気。",
+    "menu": [
+      "ラーメン",
+      "豚骨",
+      "餃子"
+    ],
+    "price_range": "$$",
+    "tags": [
+      "restaurant",
+      "ramen",
+      "japanese",
+      "hackney",
+      "east-london"
+    ],
+    "hours": "要確認",
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "tonkotsu-selfridges-oxford-street",
+    "name": "Tonkotsu (Selfridges)",
+    "name_ja": "トンコツ（セルフリッジズ）",
+    "area": "オックスフォード・ストリート",
+    "address": "Selfridges & Co Food Hall, 400 Oxford Street, London W1A 1AB",
+    "phone": null,
+    "email": null,
+    "website": "https://tonkotsu.co.uk/locations/selfridges-oxford-street/",
+    "source_url": "https://tonkotsu.co.uk/locations/",
+    "description": "セルフリッジズのフードホール内にあるトンコツ・ラーメン。買い物の合間に本格ラーメンが楽しめる。",
+    "detail": "オックスフォード・ストリートの高級百貨店セルフリッジズのフードホール内に位置するトンコツラーメン。ロンドン中心部でショッピングの合間に本格豚骨ラーメンが楽しめる便利な立地。日本人観光客・駐在員にもアクセスしやすいウェストエンドの中心部。",
+    "menu": [
+      "ラーメン",
+      "豚骨"
+    ],
+    "price_range": "$$",
+    "tags": [
+      "restaurant",
+      "ramen",
+      "japanese",
+      "oxford-street",
+      "selfridges"
+    ],
+    "hours": "要確認",
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
   }
 ]
