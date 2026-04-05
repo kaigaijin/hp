@@ -13039,5 +13039,305 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null
+  },
+  {
+    "slug": "las-vegas-kabuto",
+    "name": "Kabuto Edomae Sushi",
+    "name_ja": "兜 江戸前鮨",
+    "area": "Las Vegas",
+    "address": "5040 W Spring Mountain Rd, Las Vegas, NV 89146",
+    "phone": "+17026761044",
+    "phone_local": null,
+    "email": null,
+    "website": "https://www.kabutolv.com",
+    "source_url": "https://www.kabutolv.com",
+    "description": "ラスベガス・チャイナタウンの江戸前おまかせ寿司。ラスベガス随一の高級寿司体験。",
+    "detail": "ラスベガス・チャイナタウンにある江戸前おまかせ専門の高級寿司店。世界のベスト50レストランにも選ばれた、ラスベガスを代表する日本食レストランのひとつ。完全予約制で、繊細な江戸前寿司の技と旬の食材を楽しめる。",
+    "menu": [
+      {
+        "name": "おまかせコース",
+        "price_local": null,
+        "note": "完全予約制"
+      }
+    ],
+    "price_range": "¥¥¥¥",
+    "tags": [
+      "sushi",
+      "omakase",
+      "japanese",
+      "chinatown-lv"
+    ],
+    "hours": {
+      "note": "完全予約制、Resyで予約"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "las-vegas-raku",
+    "name": "Raku",
+    "name_ja": "楽",
+    "area": "Las Vegas",
+    "address": "5030 Spring Mountain Rd Ste 2, Las Vegas, NV 89146",
+    "phone": "+17023673511",
+    "phone_local": null,
+    "email": null,
+    "website": "https://www.raku-grill.com",
+    "source_url": "https://www.raku-grill.com",
+    "description": "ラスベガス・チャイナタウンの居酒屋。深夜3時まで営業する炭火焼きと豆腐の名店。",
+    "detail": "ラスベガス・チャイナタウンにある人気日本居酒屋。深夜3時まで営業し、ラスベガスのシェフたちも閉店後に通うことで有名。炭火焼きの串焼き・自家製豆腐・季節の刺身が看板メニュー。要予約の人気店。",
+    "menu": [
+      {
+        "name": "炭火焼き各種",
+        "price_local": null,
+        "note": null
+      },
+      {
+        "name": "自家製豆腐",
+        "price_local": null,
+        "note": null
+      }
+    ],
+    "price_range": "¥¥¥",
+    "tags": [
+      "izakaya",
+      "japanese",
+      "chinatown-lv",
+      "late-night"
+    ],
+    "hours": {
+      "mon_sat": "18:00-03:00",
+      "sun": "定休日"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "las-vegas-wakuda",
+    "name": "Wakuda Las Vegas",
+    "name_ja": "ワクダ ラスベガス",
+    "area": "Las Vegas",
+    "address": "3325 The Palazzo S Las Vegas Blvd Ste 1790, Las Vegas, NV 89109",
+    "phone": "+17026658592",
+    "phone_local": null,
+    "email": null,
+    "website": "https://www.wakudajapanese.com/las-vegas/",
+    "source_url": "https://www.wakudajapanese.com/las-vegas/",
+    "description": "ヴェネチアン・ザ・パラッゾにあるミシュラン2つ星ワクダシェフの日本料理。",
+    "detail": "ラスベガス・ヴェネチアンリゾートのパラッゾタワー内にある高級日本料理レストラン。ミシュラン二つ星シェフ・テツヤ・ワクダが手がける伝統と革新を融合した日本料理。寿司・おまかせなど多彩なスタイルで高端な日本食体験を提供する。",
+    "menu": [
+      {
+        "name": "おまかせコース",
+        "price_local": null,
+        "note": null
+      }
+    ],
+    "price_range": "¥¥¥¥",
+    "tags": [
+      "japanese",
+      "sushi",
+      "michelin",
+      "venetian"
+    ],
+    "hours": {
+      "note": "要確認"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "miami-azabu",
+    "name": "Azabu Miami Beach",
+    "name_ja": "麻布 マイアミビーチ",
+    "area": "Miami",
+    "address": "161 Ocean Dr, Miami Beach, FL 33139",
+    "phone": "+17862760520",
+    "phone_local": null,
+    "email": null,
+    "website": "https://azabuglobal.com",
+    "source_url": "https://guide.michelin.com/us/en/florida/miami-beach/restaurant/the-den-at-sushi-azabu-miami",
+    "description": "マイアミビーチのミシュラン星付きおまかせ寿司。ザ・デンの隠れた寿司カウンターが人気。",
+    "detail": "マイアミビーチにあるミシュランガイド掲載の高級寿司レストラン。レストランの奥に隠されたU字型寿司カウンター「ザ・デン」でのおまかせ体験が特に評判。ヘッド寿司シェフ・大川原篤が手がける繊細な寿司は、まるで東京にいるような体験を提供する。",
+    "menu": [
+      {
+        "name": "おまかせコース",
+        "price_local": null,
+        "note": "ザ・デン推奨"
+      }
+    ],
+    "price_range": "¥¥¥¥",
+    "tags": [
+      "sushi",
+      "omakase",
+      "michelin",
+      "japanese",
+      "miami-beach"
+    ],
+    "hours": {
+      "note": "完全予約制"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "miami-zuma",
+    "name": "Zuma Miami",
+    "name_ja": "ズマ マイアミ",
+    "area": "Miami",
+    "address": "270 Biscayne Blvd Way, Miami, FL 33131",
+    "phone": "+13055770277",
+    "phone_local": null,
+    "email": null,
+    "website": "https://www.zumarestaurant.com/en/miami",
+    "source_url": "https://www.zumarestaurant.com/en/miami",
+    "description": "マイアミリバー沿いの高級日本居酒屋。シェアスタイルの現代的和食が楽しめる。",
+    "detail": "マイアミ・ビスケーンベイ沿いにある高級日本居酒屋スタイルレストラン。洗練されたインテリアと開放的な空間で、寿司・刺身・ロバタ炭火焼きなどのシェアスタイル料理が楽しめる。10年以上にわたりマイアミの日本食シーンをリードしてきた名店。",
+    "menu": [
+      {
+        "name": "寿司各種",
+        "price_local": null,
+        "note": "シェアスタイル"
+      },
+      {
+        "name": "ロバタ炭火焼き",
+        "price_local": null,
+        "note": null
+      }
+    ],
+    "price_range": "¥¥¥¥",
+    "tags": [
+      "japanese",
+      "izakaya",
+      "sushi",
+      "robata",
+      "miami"
+    ],
+    "hours": {
+      "note": "要確認"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "la-yoshinoya-gardena",
+    "name": "Yoshinoya Gardena",
+    "name_ja": "吉野家 ガーデナ",
+    "area": "Los Angeles",
+    "address": "14225 S Vermont Ave, Gardena, CA 90247",
+    "phone": null,
+    "phone_local": null,
+    "email": null,
+    "website": "https://www.yoshinoyaamerica.com",
+    "source_url": "https://locations.yoshinoyaamerica.com/ca/gardena/",
+    "description": "ガーデナの吉野家。日本発の牛丼チェーン、牛丼・テリヤキ丼などを提供。",
+    "detail": "ロサンゼルス・ガーデナにある吉野家。日系コミュニティが多いガーデナで、リーズナブルに日本式牛丼などが楽しめる。",
+    "menu": [
+      {
+        "name": "牛丼",
+        "price_local": null,
+        "note": null
+      }
+    ],
+    "price_range": "¥",
+    "tags": [
+      "gyudon",
+      "japanese",
+      "fast-food",
+      "gardena"
+    ],
+    "hours": {
+      "note": "要確認"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "la-yoshinoya-torrance",
+    "name": "Yoshinoya Torrance",
+    "name_ja": "吉野家 トーランス",
+    "area": "Los Angeles",
+    "address": "1603 W Sepulveda Blvd, Torrance, CA 90501",
+    "phone": null,
+    "phone_local": null,
+    "email": null,
+    "website": "https://www.yoshinoyaamerica.com",
+    "source_url": "https://locations.yoshinoyaamerica.com/ca/torrance/",
+    "description": "トーランスの吉野家。南ベイエリアの日系コミュニティに根ざした牛丼チェーン。",
+    "detail": "ロサンゼルス・トーランスにある吉野家。日本の牛丼チェーンとして知られ、牛丼・テリヤキなどをリーズナブルに提供する。",
+    "menu": [
+      {
+        "name": "牛丼",
+        "price_local": null,
+        "note": null
+      }
+    ],
+    "price_range": "¥",
+    "tags": [
+      "gyudon",
+      "japanese",
+      "fast-food",
+      "torrance"
+    ],
+    "hours": {
+      "note": "要確認"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
   }
 ]
