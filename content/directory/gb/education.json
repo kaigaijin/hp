@@ -1233,5 +1233,103 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null
+  },
+  {
+    "slug": "joba-finchley",
+    "name": "JOBA International London",
+    "name_ja": "JOBA インターナショナル ロンドン",
+    "area": "Finchley",
+    "address": "1F Lawford House, Albert Place, Finchley, London N3 1QA",
+    "phone": "+442083434332",
+    "email": null,
+    "website": "https://joba-uk.jolnet.com",
+    "source_url": "https://joba-uk.jolnet.com",
+    "description": "1986年設立の在英子女向け学習塾。フィンチリー本校のほかアクトン・ウィンブルドンにも教室あり。帰国受験対応の国語・算数・数学を指導する。",
+    "tags": [
+      "塾",
+      "帰国子女",
+      "受験対策"
+    ],
+    "hours": "土曜日・平日",
+    "status": "unverified",
+    "last_verified": "2026-04-04",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
+  },
+  {
+    "slug": "ena-london",
+    "name": "ena London",
+    "name_ja": "ena ロンドン",
+    "area": "Ealing",
+    "address": "33 Hanger Lane, Ealing, London W5 3HJ",
+    "phone": "+442045373407",
+    "email": null,
+    "website": "https://www.ena-kikoku.com/school/europe_africa/ena-london/",
+    "source_url": "https://www.ena-kikoku.com/school/europe_africa/ena-london/",
+    "description": "ノースイーリング駅徒歩2分。最大7名の少人数クラスで帰国子女の受験対策に特化した学習塾。国語・算数・数学のほか英語検定対策・現地校サポートも提供。",
+    "tags": [
+      "塾",
+      "帰国子女",
+      "受験対策",
+      "少人数"
+    ],
+    "hours": "平日・土曜日",
+    "status": "unverified",
+    "last_verified": "2026-04-04",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
+  },
+  {
+    "slug": "waseda-academy-london",
+    "name": "Waseda Academy London",
+    "name_ja": "早稲田アカデミー ロンドン校",
+    "area": "Acton",
+    "address": "Unit 4 Acton Hill Mews, 310-328 Uxbridge Road, Acton, London W3 9QN",
+    "phone": null,
+    "email": null,
+    "website": "https://www.waseda-ac.co.jp/abroad/school/london.html",
+    "source_url": "https://www.waseda-ac.co.jp/abroad/school/london.html",
+    "description": "早稲田アカデミーのロンドン拠点。日本と同じカリキュラム・教材で学習可能。中学受験・高校受験対策から帰国受験準備まで在英子女の進学をサポートする。",
+    "tags": [
+      "塾",
+      "帰国子女",
+      "受験対策",
+      "早稲田アカデミー"
+    ],
+    "hours": "土曜日・日曜日",
+    "status": "unverified",
+    "last_verified": "2026-04-04",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
+  },
+  {
+    "slug": "miyabi-nursery-acton",
+    "name": "Miyabi Gakuen Preschool",
+    "name_ja": "みやびがくえん プリスクール",
+    "area": "Acton",
+    "address": "Wasps Great Hall, Twyford Avenue Sports Ground, Acton, London W3 9QA",
+    "phone": "+442081789667",
+    "email": null,
+    "website": "https://miyabinursery.com",
+    "source_url": "https://miyabinursery.com",
+    "description": "アクトンにある英国唯一の日英バイリンガル保育園。日本語ネイティブ教師が常駐し、英語・日本語の並行習得環境を提供。日本人駐在員家族の支持が高い。",
+    "tags": [
+      "保育園",
+      "バイリンガル",
+      "幼児教育"
+    ],
+    "hours": "平日",
+    "status": "unverified",
+    "last_verified": "2026-04-04",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
   }
 ]
