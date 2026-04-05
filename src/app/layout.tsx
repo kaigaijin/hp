@@ -39,6 +39,7 @@ export default function RootLayout({
   return (
     <html lang="ja" suppressHydrationWarning>
       <head>
+        <meta name="impact-site-verification" value="a5545854-321c-4bf4-9bc6-2f8d5e7d4ad4" />
         <link
           href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;600;700&display=swap"
           rel="stylesheet"
