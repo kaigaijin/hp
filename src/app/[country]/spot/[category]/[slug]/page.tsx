@@ -313,6 +313,29 @@ export default async function SpotDetailPage({
                   ※ この情報はWeb上のデータを元に掲載しています。訪問前に公式サイトでご確認ください。
                 </p>
               )}
+              {/* 写真募集バナー */}
+              <a
+                href="/contact"
+                className="mt-6 inline-flex items-center gap-3 bg-white/60 dark:bg-stone-800/60 backdrop-blur-sm border border-stone-200 dark:border-stone-700 hover:border-warm-300 dark:hover:border-warm-700 rounded-xl px-4 py-3 transition-all group"
+              >
+                <div className="w-8 h-8 rounded-lg bg-stone-100 dark:bg-stone-700 flex items-center justify-center shrink-0">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="text-stone-400 dark:text-stone-500">
+                    <path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/>
+                    <circle cx="12" cy="13" r="3"/>
+                  </svg>
+                </div>
+                <div className="min-w-0">
+                  <p className="text-xs font-semibold text-stone-700 dark:text-stone-200 group-hover:text-warm-700 dark:group-hover:text-warm-400 transition-colors">
+                    写真を掲載しませんか？
+                  </p>
+                  <p className="text-xs text-stone-400 dark:text-stone-500">
+                    店舗オーナー・訪問者の方はこちら
+                  </p>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-stone-300 dark:text-stone-600 group-hover:text-warm-400 group-hover:translate-x-0.5 transition-all ml-auto shrink-0">
+                  <path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>
+                </svg>
+              </a>
             </div>
           </div>
         )}
