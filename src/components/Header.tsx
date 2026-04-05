@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { countries } from "@/lib/countries";
 import ThemeToggle from "./ThemeToggle";
@@ -15,6 +16,14 @@ const phaseLabel: Record<number, string> = {
 
 export default function Header() {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
+
+  // 現在のURLから国コードを取得（/sg/... → "sg"）、なければ "sg" をデフォルト
+  const currentCountryCode = (() => {
+    const seg = pathname.split("/")[1];
+    return countries.some((c) => c.code === seg) ? seg : "sg";
+  })();
+  const spotHref = `/${currentCountryCode}/spot`;
 
   const phases = [1, 2, 3] as const;
 
@@ -83,7 +92,7 @@ export default function Header() {
             お問い合わせ
           </Link>
           <Link
-            href="/sg/spot"
+            href={spotHref}
             className="bg-warm-50 dark:bg-warm-900/20 text-warm-700 dark:text-warm-400 px-3 py-1 rounded-full border border-warm-200 dark:border-warm-800 hover:bg-warm-100 dark:hover:bg-warm-900/40 transition-colors text-xs font-semibold tracking-wide"
           >
             KAIスポット
@@ -139,7 +148,7 @@ export default function Header() {
               お問い合わせ
             </Link>
             <Link
-              href="/sg/spot"
+              href={spotHref}
               onClick={() => setOpen(false)}
               className="py-2 text-warm-600 dark:text-warm-400 font-semibold"
             >
