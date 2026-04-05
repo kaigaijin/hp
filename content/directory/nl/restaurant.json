@@ -12,9 +12,17 @@
     "source_url": "https://en-amsterdam.nl/en/",
     "description": "アムステルダムの本格日本料理レストラン。「縁」をコンセプトに季節のコース（3・6・8品）と豊富な日本酒を提供。火〜土18:00〜23:00、日・月定休。",
     "detail": "「縁・宴・援・演・園」という複数の意味を持つ「EN」をコンセプトとするアムステルダムの日本料理レストラン。季節に応じた8品・6品・3品のコースとベジタリアン・グルテンフリー対応も可能。プレミアム日本酒の豊富なラインナップも特徴。火〜土18:00〜23:00（最終入店21:00）、日・月定休。予約時に1名25€のデポジット必要。",
-    "menu": ["季節コース（3・6・8品）", "日本酒"],
+    "menu": [
+      "季節コース（3・6・8品）",
+      "日本酒"
+    ],
     "price_range": "デポジット €25/名",
-    "tags": ["日本料理", "日本酒", "コース料理", "アムステルダム"],
+    "tags": [
+      "日本料理",
+      "日本酒",
+      "コース料理",
+      "アムステルダム"
+    ],
     "hours": "火〜土 18:00-23:00（最終入店21:00） / 日・月休",
     "status": "unverified",
     "last_verified": "2026-04-05",
@@ -42,7 +50,12 @@
     "detail": "アムステルダムのヨルダーン地区、ロゼン通りに位置する日本料理レストラン＆バー。落ち着いた雰囲気の中で本格的な日本料理を提供。火〜木18:00〜23:00、金・土18:00〜24:00。公式サイトより詳細・予約可能。",
     "menu": null,
     "price_range": null,
-    "tags": ["日本料理", "バー", "ヨルダーン地区", "アムステルダム"],
+    "tags": [
+      "日本料理",
+      "バー",
+      "ヨルダーン地区",
+      "アムステルダム"
+    ],
     "hours": "火〜木 18:00-23:00 / 金・土 18:00-24:00",
     "status": "unverified",
     "last_verified": "2026-04-05",
@@ -68,10 +81,92 @@
     "source_url": "https://hosokawa.nl/en/home/",
     "description": "アムステルダム・ライツェプレイン近くのテッパン・グリル＆寿司の日本料理レストラン。ホランドカジノ隣接。毎日18:00〜22:00営業。",
     "detail": "アムステルダムのライツェプレイン（Leidseplein）から徒歩1分のマックス・エウウェプレインに位置するテッパン・グリル＆寿司スタイルの日本料理レストラン。ホランドカジノの隣に位置し、コスモポリタンなアムステルダムの雰囲気の中でモダンな日本料理を提供。毎日18:00〜22:00営業。",
-    "menu": ["テッパングリル", "寿司"],
+    "menu": [
+      "テッパングリル",
+      "寿司"
+    ],
     "price_range": null,
-    "tags": ["テッパングリル", "寿司", "ライツェプレイン近く", "アムステルダム"],
+    "tags": [
+      "テッパングリル",
+      "寿司",
+      "ライツェプレイン近く",
+      "アムステルダム"
+    ],
     "hours": "毎日 18:00-22:00",
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "yamazato-amsterdam",
+    "name": "Yamazato Restaurant",
+    "name_ja": "ヤマザト レストラン アムステルダム",
+    "area": "Amsterdam",
+    "address": "Ferdinand Bolstraat 333, 1072 LH Amsterdam",
+    "phone": "+31206788300",
+    "phone_local": null,
+    "email": "reservations@okura.nl",
+    "website": "https://www.okura.nl/yamazato",
+    "source_url": "https://guide.michelin.com/en/noord-holland/amsterdam/restaurant/yamazato115431",
+    "description": "ホテル・オークラ・アムステルダム内にある、欧州初のミシュラン1つ星日本料理店。2002年から星を保持し続ける会席料理の名店。和服姿のスタッフが日本庭園を望む空間でもてなす。",
+    "detail": "アムステルダムのホテル・オークラ（ニウウェ・ピーフ地区）内に位置する日本料理レストラン。2002年にヨーロッパで初めてミシュラン星を獲得した伝統的会席料理店。エグゼクティブシェフ・富川雅則率いるキッチンが季節の食材を用いた本格会席コースを提供。和服のウェイトレスと日本庭園を望む内装が特徴。",
+    "menu": [
+      "会席料理コース",
+      "刺身",
+      "天ぷら",
+      "寿司"
+    ],
+    "price_range": "€€€€（高級）",
+    "tags": [
+      "ミシュラン1つ星",
+      "会席料理",
+      "ホテルレストラン",
+      "アムステルダム"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "takumi-amsterdam-depijp",
+    "name": "Takumi Ramen Noodles - De Pijp",
+    "name_ja": "タクミ ラーメン ヌードルス デ・パイプ店",
+    "area": "Amsterdam",
+    "address": "Ferdinand Bolstraat 36H, 1072 LK Amsterdam",
+    "phone": "+31202371750",
+    "phone_local": null,
+    "email": null,
+    "website": "https://takumiramennoodles.com/nl/amsterdam-depijp/",
+    "source_url": "https://takumiramennoodles.com/nl/amsterdam-depijp/",
+    "description": "アムステルダム・デ・パイプ地区の本格ラーメン店。自家製麺・豚骨スープを使ったラーメンで在蘭日本人にも人気。予約不可・ウォークイン制。アムステルダムに複数店舗展開。",
+    "detail": "アムステルダムのデ・パイプ地区にある本格ラーメン専門店。アムステルダム市内にセントラル店・リフィーレンブルト店・デ・ハーレン店など複数店舗を展開。豚骨スープと自家製麺が特徴。予約不可でウォークイン制。人気店のため混雑時は待ち時間あり。",
+    "menu": [
+      "ラーメン（豚骨・醤油等）",
+      "餃子"
+    ],
+    "price_range": null,
+    "tags": [
+      "ラーメン",
+      "自家製麺",
+      "アムステルダム",
+      "デ・パイプ"
+    ],
+    "hours": null,
     "status": "unverified",
     "last_verified": "2026-04-05",
     "source": "web_search",

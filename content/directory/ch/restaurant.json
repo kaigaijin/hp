@@ -112,5 +112,41 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null
+  },
+  {
+    "slug": "mura-zurich",
+    "name": "Restaurant Mura",
+    "name_ja": "レストラン ムラ チューリッヒ",
+    "area": "Zürich",
+    "address": "Fröhlichstrasse 39, 8008 Zürich",
+    "phone": "+41443832139",
+    "phone_local": null,
+    "email": null,
+    "website": "https://www.mura39.ch/en",
+    "source_url": "https://guide.michelin.com/us/en/zurich-region/zurich/restaurant/mura",
+    "description": "2024年開業のチューリッヒ・ゼーフェルト地区の日本料理店。日本の名店で30年修業した有村健一シェフが昼はデラックス弁当、夜は11〜12品のオマカセコースを提供。ミシュランガイド掲載。",
+    "detail": "2024年に開業したチューリッヒ・ゼーフェルト地区の日本料理レストラン。日本の名店で30年以上修業したシェフ・有村健一が、昼はデラックス弁当、夜は11〜12品のオマカセコースを提供。ミシュランガイド掲載（€€€€評価）。火〜土ランチ・ディナー営業、月・日休。",
+    "menu": [
+      "オマカセコース（夜11〜12品）",
+      "デラックス弁当（昼）"
+    ],
+    "price_range": "€€€€（高級）",
+    "tags": [
+      "ミシュランガイド掲載",
+      "オマカセ",
+      "日本料理",
+      "チューリッヒ"
+    ],
+    "hours": "火〜土 ランチ・ディナー / 月・日休",
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
   }
 ]

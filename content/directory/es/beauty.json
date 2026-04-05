@@ -12,10 +12,55 @@
     "source_url": "https://www.mizumadrid.com/",
     "description": "マドリードのテトゥアン地区にある日本式ヘッドスパ専門店。日本の伝統技術AMMA-SHIATSUを取り入れた頭皮マッサージと本格ヘアケアを提供。",
     "detail": "マドリードのテトゥアン地区に位置する日本式ヘッドスパ専門店。日本の伝統的なマッサージ技術（AMMA-SHIATSUなど）を融合させたヘッドスパを提供。温水ベッドでの施術と自然派製品を使用。個人セッションとペアセッションに対応。同系列のカマルティン店（C. de Ramos Carrión, 6, 28002）もあり。",
-    "menu": ["ヘッドスパ", "頭皮マッサージ", "ヘアケア"],
+    "menu": [
+      "ヘッドスパ",
+      "頭皮マッサージ",
+      "ヘアケア"
+    ],
     "price_range": null,
-    "tags": ["日本式ヘッドスパ", "AMMA-SHIATSU", "マドリード"],
+    "tags": [
+      "日本式ヘッドスパ",
+      "AMMA-SHIATSU",
+      "マドリード"
+    ],
     "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "japanese-head-spa-madrid-esquerdo",
+    "name": "Japanese Head Spa Madrid - Retiro",
+    "name_ja": "ジャパニーズ・ヘッドスパ マドリード レティロ店",
+    "area": "Madrid",
+    "address": "Calle del Doctor Esquerdo 183, 28007 Madrid",
+    "phone": "+34601503875",
+    "phone_local": null,
+    "email": "madrid@japaneseheadspa.es",
+    "website": "https://www.madrid-japaneseheadspa.com/en",
+    "source_url": "https://www.madrid-japaneseheadspa.com/en",
+    "description": "マドリード初の日本式ヘッドスパ専門サロン。レティロ地区（レティロ店）とチャンベリ地区（フランシスコ・リッチ店）の2店舗展開。頭皮ケア・ヘアスパの本格施術を提供。",
+    "detail": "マドリード初の日本式ヘッドスパ専門サロン。レティロ地区（Calle del Dr. Esquerdo 183）とチャンベリ地区（Calle de Francisco Ricci 8、+34633328991）の2店舗展開。日本式の頭皮ケア・ヘアスパ・マルチセンサリー体験を提供。月〜土10:00〜15:00・16:00〜21:00営業。",
+    "menu": [
+      "ヘッドスパ",
+      "頭皮ケア",
+      "ヘアケア"
+    ],
+    "price_range": null,
+    "tags": [
+      "ヘッドスパ",
+      "日本式",
+      "マドリード",
+      "レティロ"
+    ],
+    "hours": "月〜土 10:00-15:00 / 16:00-21:00",
     "status": "unverified",
     "last_verified": "2026-04-05",
     "source": "web_search",
