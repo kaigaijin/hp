@@ -2766,5 +2766,144 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null
+  },
+  {
+    "slug": "ny-tokuyama-salon-ues",
+    "name": "Tokuyama Salon Upper East Side",
+    "name_ja": "トクヤマサロン アッパーイーストサイド",
+    "area": "New York",
+    "address": "230 E 83rd St, New York, NY 10028",
+    "phone": "+16464221042",
+    "phone_local": null,
+    "email": "tokuyamasalon@gmail.com",
+    "website": "https://tokuyamasalon.com/upper-east-side/",
+    "source_url": "https://tokuyamasalon.com/upper-east-side/",
+    "description": "アッパーイーストサイドの日系ヘアサロン。2011年創業、縮毛矯正・デジパーが人気。",
+    "detail": "ニューヨーク・アッパーイーストサイドにある日系ヘアサロン。スタイリスト・徳山氏が2004年に来米し2011年にオープン。日本式の縮毛矯正やデジタルパーマが評判で、在住日本人だけでなくNY在住者幅広く支持されている。",
+    "menu": [
+      {
+        "name": "カット",
+        "price_local": null,
+        "note": null
+      },
+      {
+        "name": "縮毛矯正",
+        "price_local": null,
+        "note": "要相談"
+      }
+    ],
+    "price_range": "¥¥¥",
+    "tags": [
+      "hair-salon",
+      "japanese",
+      "upper-east-side",
+      "straightening"
+    ],
+    "hours": {
+      "tue_sun": "10:00-20:00",
+      "mon": "定休日"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "ny-tokuyama-salon-tribeca",
+    "name": "Tokuyama Salon Tribeca",
+    "name_ja": "トクヤマサロン トライベッカ",
+    "area": "New York",
+    "address": "34 N Moore St, New York, NY 10013",
+    "phone": "+12122193539",
+    "phone_local": null,
+    "email": "tokuyamasalon@gmail.com",
+    "website": "https://tokuyamasalon.com/tribeca/",
+    "source_url": "https://tokuyamasalon.com/tribeca/",
+    "description": "トライベッカの日系ヘアサロン。アッパーイーストサイド店と同様、日本式縮毛矯正が人気。",
+    "detail": "ニューヨーク・トライベッカにあるトクヤマサロンの2店舗目。日本式ヘアケア技術を提供する人気サロンで、縮毛矯正・デジタルパーマ・カラーリングなど幅広いサービスを揃える。",
+    "menu": [
+      {
+        "name": "カット",
+        "price_local": null,
+        "note": null
+      },
+      {
+        "name": "縮毛矯正",
+        "price_local": null,
+        "note": null
+      }
+    ],
+    "price_range": "¥¥¥",
+    "tags": [
+      "hair-salon",
+      "japanese",
+      "tribeca",
+      "straightening"
+    ],
+    "hours": {
+      "daily": "10:00-20:00"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "ny-hayato-salon",
+    "name": "Hayato New York",
+    "name_ja": "ハヤトニューヨーク",
+    "area": "New York",
+    "address": "46 E 21st St 1FL, New York, NY 10010",
+    "phone": "+16469983002",
+    "phone_local": null,
+    "email": null,
+    "website": "https://en.hayatosalons.com/page/newyork/",
+    "source_url": "https://en.hayatosalons.com/page/newyork/",
+    "description": "フラットアイアン地区の日系ヘアサロン。30年以上の歴史を持つ受賞歴多数の名店。",
+    "detail": "ニューヨーク・フラットアイアン地区にある老舗日系ヘアサロン。1992年の創業から30年以上、NYと東京・ロンドンで展開する実力派サロン。日本式のヘアスタイリングにこだわり、縮毛矯正やヘッドスパなどが人気。",
+    "menu": [
+      {
+        "name": "カット",
+        "price_local": null,
+        "note": null
+      },
+      {
+        "name": "縮毛矯正",
+        "price_local": null,
+        "note": null
+      }
+    ],
+    "price_range": "¥¥¥",
+    "tags": [
+      "hair-salon",
+      "japanese",
+      "flatiron"
+    ],
+    "hours": {
+      "tue_sun": "10:00-19:00",
+      "mon": "定休日"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
   }
 ]
