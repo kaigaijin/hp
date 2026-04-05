@@ -4,8 +4,8 @@ import { ArrowRight, Users, MapPin } from "lucide-react";
 
 export default function CountryCard({ country, spotCount = 0 }: { country: Country; spotCount?: number }) {
   return (
-    <Link href={`/${country.code}`} className="block h-full">
-      <article className="country-card bg-white dark:bg-stone-800 rounded-2xl border border-stone-200 dark:border-stone-700 overflow-hidden h-full flex flex-col hover:border-warm-400 dark:hover:border-warm-600">
+    <Link href={`/${country.code}`} className="block h-full group">
+      <article className="country-card bg-white dark:bg-stone-800 rounded-2xl border border-stone-200 dark:border-stone-700 overflow-hidden h-full flex flex-col group-hover:border-warm-400 dark:group-hover:border-warm-600">
         {/* 国旗エリア（フルワイド） */}
         <div className="relative bg-gradient-to-br from-warm-50 to-sand-100 dark:from-stone-700 dark:to-stone-800 px-6 pt-7 pb-5 flex flex-col items-center">
           <span className="text-5xl mb-3">{country.flag}</span>

@@ -154,7 +154,7 @@ export default function Home() {
               ].map(({ emoji, title, desc }) => (
                 <div
                   key={title}
-                  className="bg-white dark:bg-stone-800 rounded-2xl border border-stone-200 dark:border-stone-700 p-8 border-l-4 border-l-warm-500"
+                  className="bg-white dark:bg-stone-800 rounded-2xl border-t border-r border-b border-stone-200 dark:border-stone-700 border-l-4 border-l-warm-500 p-8"
                 >
                   <div className="text-2xl mb-4">{emoji}</div>
                   <h3 className="heading-editorial text-xl font-bold mb-3">
