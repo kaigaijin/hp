@@ -1661,5 +1661,103 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null
+  },
+  {
+    "slug": "hairsalon-club-ys-dusseldorf",
+    "name": "Hairsalon Club Y's",
+    "name_ja": "ヘアサロン クラブワイズ",
+    "area": "Stadtmitte, Düsseldorf",
+    "address": "Charlottenstraße 55, 40210 Düsseldorf",
+    "phone": "+4921116 2617",
+    "phone_local": null,
+    "email": "clubys194@gmail.com",
+    "website": null,
+    "source_url": "https://hairsalon-club-y-s.mytreatwell.de/",
+    "description": "デュッセルドルフ中心部の日本スタイルヘアサロン。スタイリスト全員が日本でトレーニングを受け、縮毛矯正・ナチュラルカラーなどの日本式ヘアケアを提供。",
+    "detail": "Hairsalon Club Y'sはデュッセルドルフ・シャルロッテン通りに位置する日本スタイルの美容院。全スタイリストが日本でのトレーニング経験を持ち、縮毛矯正・ナチュラルカラーや各種トリートメント、マッサージサービスも提供。月〜金は夜8時まで営業する使いやすい立地。",
+    "menu": [
+      {
+        "name": "カット",
+        "price_eur": null,
+        "price_jpy": null
+      },
+      {
+        "name": "縮毛矯正",
+        "price_eur": null,
+        "price_jpy": null
+      },
+      {
+        "name": "カラー",
+        "price_eur": null,
+        "price_jpy": null
+      }
+    ],
+    "price_range": null,
+    "tags": [
+      "日本人美容師",
+      "ヘアサロン",
+      "縮毛矯正",
+      "デュッセルドルフ"
+    ],
+    "hours": "月〜金 10:00-20:00、土 10:00-18:00（日曜定休）",
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "atelier-ichie-dusseldorf",
+    "name": "atelier ICHIE",
+    "name_ja": "アトリエ イチエ",
+    "area": "Stadtmitte, Düsseldorf",
+    "address": "Hohenzollernstraße 15, 40211 Düsseldorf",
+    "phone": "+4921117938090",
+    "phone_local": null,
+    "email": "atelier.ichie.dus@gmail.com",
+    "website": "https://en.atelier-ichie.tokyo/",
+    "source_url": "https://atelierichie.mytreatwell.de/",
+    "description": "デュッセルドルフ中心部のホーエンツォレルン通りに位置する日本式ヘアサロン。精密な日本スタイルカットとカラーリング、個別タイプコンサルを提供。",
+    "detail": "atelier ICHIEはデュッセルドルフのホーエンツォレルン通りに位置する日本式ヘアサロン。精密なカット技術・繊細なカラーリング・個別スタイルコンサルティングを特徴とし、ミニマルモダンな内装空間で高品質なサービスを提供。東京・大阪にも姉妹店展開。",
+    "menu": [
+      {
+        "name": "カット",
+        "price_eur": null,
+        "price_jpy": null
+      },
+      {
+        "name": "カラー",
+        "price_eur": null,
+        "price_jpy": null
+      },
+      {
+        "name": "縮毛矯正",
+        "price_eur": null,
+        "price_jpy": null
+      }
+    ],
+    "price_range": null,
+    "tags": [
+      "日本人美容師",
+      "ヘアサロン",
+      "デュッセルドルフ",
+      "精密カット"
+    ],
+    "hours": "月〜金 10:00-20:00、土 10:00-18:00（日曜定休）",
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
   }
 ]

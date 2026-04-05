@@ -16581,5 +16581,448 @@
     "place_id": "",
     "priority": 2,
     "ai_reviewed": true
+  },
+  {
+    "slug": "eattokyo-immermann-dusseldorf",
+    "name": "eatTOKYO IMMERMANN",
+    "name_ja": "イートトーキョー インマーマン",
+    "area": "Stadtmitte, Düsseldorf",
+    "address": "Immermannstraße 40, 40210 Düsseldorf",
+    "phone": "+4921155046850",
+    "phone_local": null,
+    "email": null,
+    "website": "https://eat-tokyo.com/",
+    "source_url": "https://eat-tokyo.com/",
+    "description": "デュッセルドルフ日本人街のど真ん中、インマーマン通りの本格日本食レストラン。寿司・日本カレー・丼・ベントー・そば・うどんを提供する、在住日本人御用達の店。",
+    "detail": "eatTOKYO IMMERMANNはデュッセルドルフのリトルトーキョー、インマーマン通りに位置する日本食レストラン。2017年創業以来、寿司・日本カレー・親子丼・鶏照り焼き・そば・うどん・ラーメンなど幅広い日本の家庭料理を提供。同通りのSakura Bar（Immermannstr. 50）でもバー・夜間営業あり。ケルン・ボン・ボッフム・ドルトムントにもTeGoロケーション展開中。",
+    "menu": [
+      {
+        "name": "寿司盛り合わせ",
+        "price_eur": null,
+        "price_jpy": null
+      },
+      {
+        "name": "日本カレー",
+        "price_eur": null,
+        "price_jpy": null
+      },
+      {
+        "name": "親子丼",
+        "price_eur": null,
+        "price_jpy": null
+      }
+    ],
+    "price_range": null,
+    "tags": [
+      "日本料理",
+      "寿司",
+      "デュッセルドルフ",
+      "インマーマン通り"
+    ],
+    "hours": "月〜土 12:00-15:30・17:30-22:30（日曜定休）",
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "takezo-ramen-dusseldorf",
+    "name": "Ramen Bar Takezo",
+    "name_ja": "ラーメンバー武蔵",
+    "area": "Stadtmitte, Düsseldorf",
+    "address": "Immermannstraße 48, 40210 Düsseldorf",
+    "phone": "+4921139022053",
+    "phone_local": null,
+    "email": null,
+    "website": "https://takezo.de/",
+    "source_url": "https://takezo.de/",
+    "description": "インマーマン通りの人気ラーメン店。2014年創業、日本から特別輸入した小麦粉で作る本格手打ち麺と10時間以上煮込んだスープが自慢。餃子・唐揚げも充実。",
+    "detail": "Ramen Bar Takezoは2014年創業のデュッセルドルフ・インマーマン通りの老舗ラーメン店。日本から特別輸入した小麦粉で作る手打ち麺と、10時間以上煮込んだスープが特徴。各種ラーメン（豚骨・醤油・味噌など）に加え、家庭風餃子・唐揚げも好評。ランチからディープナイトまで長時間営業。",
+    "menu": [
+      {
+        "name": "豚骨ラーメン",
+        "price_eur": null,
+        "price_jpy": null
+      },
+      {
+        "name": "醤油ラーメン",
+        "price_eur": null,
+        "price_jpy": null
+      },
+      {
+        "name": "餃子",
+        "price_eur": null,
+        "price_jpy": null
+      }
+    ],
+    "price_range": null,
+    "tags": [
+      "ラーメン",
+      "日本料理",
+      "デュッセルドルフ",
+      "インマーマン通り"
+    ],
+    "hours": "月〜金 12:00-15:00・18:30-24:00、土 11:30-24:00、日 11:30-22:00",
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "the-catch-berlin-charlottenburg",
+    "name": "The Catch Berlin",
+    "name_ja": "ザ・キャッチ ベルリン",
+    "area": "Charlottenburg, Berlin",
+    "address": "Bleibtreustraße 41, 10623 Berlin",
+    "phone": "+491752220095",
+    "phone_local": null,
+    "email": null,
+    "website": "https://thecatch.berlin/",
+    "source_url": "https://thecatch.berlin/",
+    "description": "シャルロッテンブルクの洗練された居酒屋レストラン。最高品質の刺身・寿司・炉端焼きと日本のファストフードをwabi-sabi感覚の内装で楽しめる。",
+    "detail": "The Catch Berlinはシャルロッテンブルクのブライプトロイ通りに位置する現代的な居酒屋。最高品質の刺身・寿司・炉端焼き（ロバタ焼き）と日本のファストフードをwabi-sabiにインスパイアされた空間で提供。ランチ（火〜金）とディナー（火・日）の営業。サビニーツプラッツ駅から近い好立地。",
+    "menu": [
+      {
+        "name": "刺身盛り合わせ",
+        "price_eur": null,
+        "price_jpy": null
+      },
+      {
+        "name": "寿司",
+        "price_eur": null,
+        "price_jpy": null
+      },
+      {
+        "name": "炉端焼き",
+        "price_eur": null,
+        "price_jpy": null
+      }
+    ],
+    "price_range": null,
+    "tags": [
+      "居酒屋",
+      "寿司",
+      "刺身",
+      "ベルリン",
+      "シャルロッテンブルク"
+    ],
+    "hours": "ランチ：火〜金 12:00-15:00、ディナー：火・日 17:00-22:00",
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "iro-izakaya-berlin-friedrichshain",
+    "name": "IRO Izakaya",
+    "name_ja": "IRO居酒屋",
+    "area": "Friedrichshain, Berlin",
+    "address": "Krossener Straße 19, 10245 Berlin",
+    "phone": "+493081828250",
+    "phone_local": null,
+    "email": null,
+    "website": "https://iro-restaurant.de/",
+    "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187323-d14775300-Reviews-Iro_Izakaya-Berlin.html",
+    "description": "フリードリッヒスハイン・ボクサーゲナー広場そばの日本居酒屋。本格的な居酒屋タパスで人々を繋ぐコンセプトで、繊細な日本料理を楽しめる。",
+    "detail": "IRO Izakayaはベルリン・フリードリッヒスハインのクロッセナー通りに位置する居酒屋。日本居酒屋の文化を体現し、繊細な日本タパス・枝豆・唐揚げ・各種ラーメンを提供。ボクサーゲナー広場（Boxhagener Platz）の目の前という好立地で、地元の日本人コミュニティにも親しまれている。",
+    "menu": [
+      {
+        "name": "枝豆",
+        "price_eur": null,
+        "price_jpy": null
+      },
+      {
+        "name": "唐揚げ",
+        "price_eur": null,
+        "price_jpy": null
+      },
+      {
+        "name": "ラーメン",
+        "price_eur": null,
+        "price_jpy": null
+      }
+    ],
+    "price_range": null,
+    "tags": [
+      "居酒屋",
+      "日本料理",
+      "ベルリン",
+      "フリードリッヒスハイン"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "ippai-no-ramen-berlin",
+    "name": "Ippai no Ramen",
+    "name_ja": "一杯のラーメン",
+    "area": "Friedrichshain, Berlin",
+    "address": "Gabriel-Max-Straße 2, 10245 Berlin",
+    "phone": null,
+    "phone_local": null,
+    "email": "ippai@ramenberlin.com",
+    "website": "https://ramenberlin.com/",
+    "source_url": "https://www.berlinfoodstories.com/map/ippai-no-ramen-berlin",
+    "description": "2024年秋オープンのベルリン新鋭ラーメン店。券売機と仕切り壁で日本のラーメン体験を再現し、毎日手作りの麺と本格スープを限定提供。",
+    "detail": "Ippai no Ramenは2024年秋にベルリン・フリードリッヒスハインにオープンしたラーメン店。日本の有名店Ichiranにインスパイアされ、券売機での注文と仕切り壁システムを採用。豚骨・ベジカレーラーメン（各€15）を提供し、毎日手作りの麺は数量限定。スープ・餃子・追加トッピングあり。",
+    "menu": [
+      {
+        "name": "豚骨ラーメン",
+        "price_eur": 15,
+        "price_jpy": null
+      },
+      {
+        "name": "ベジカレーラーメン",
+        "price_eur": 15,
+        "price_jpy": null
+      },
+      {
+        "name": "餃子",
+        "price_eur": null,
+        "price_jpy": null
+      }
+    ],
+    "price_range": "€15前後（約2,500円）",
+    "tags": [
+      "ラーメン",
+      "日本料理",
+      "ベルリン",
+      "フリードリッヒスハイン",
+      "新店"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "suigyo-izakaya-berlin-ostkreuz",
+    "name": "Suigyo Izakaya",
+    "name_ja": "水魚居酒屋",
+    "area": "Friedrichshain, Berlin",
+    "address": "Neue Bahnhofstraße 26, 10245 Berlin",
+    "phone": null,
+    "phone_local": null,
+    "email": null,
+    "website": "https://www.suigyo-restaurant-berlin.de/",
+    "source_url": "https://www.suigyo-restaurant-berlin.de/",
+    "description": "ベルリン・オストクロイツ近くの居酒屋。新鮮なタパス・ラーメン・日本酒を揃え、日本の居酒屋文化を体感できるフリードリッヒスハインの一軒。",
+    "detail": "Suigyo Izakayaはベルリン・オストクロイツ近くのノイエバーンホーフシュトラーセに位置する居酒屋。新鮮な小皿タパス・ラーメン・日本酒専門のセレクションを揃え、本格的な居酒屋体験を提供。テーブル予約は公式サイトから。",
+    "menu": [
+      {
+        "name": "タパス小皿料理",
+        "price_eur": null,
+        "price_jpy": null
+      },
+      {
+        "name": "ラーメン",
+        "price_eur": null,
+        "price_jpy": null
+      },
+      {
+        "name": "日本酒",
+        "price_eur": null,
+        "price_jpy": null
+      }
+    ],
+    "price_range": null,
+    "tags": [
+      "居酒屋",
+      "ラーメン",
+      "日本酒",
+      "ベルリン"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "izakaya-mangetsu-frankfurt-city",
+    "name": "Izakaya Mangetsu",
+    "name_ja": "居酒屋満月",
+    "area": "Innenstadt, Frankfurt am Main",
+    "address": "Große Eschenheimer Straße 43, 60313 Frankfurt am Main",
+    "phone": "+4969920387 91",
+    "phone_local": null,
+    "email": null,
+    "website": "https://izakaya-mangetsu.de/",
+    "source_url": "https://izakaya-mangetsu.de/",
+    "description": "20年の家族の伝統を誇るフランクフルト市内の本格居酒屋。熟練寿司職人が握る寿司とプレミアム日本酒のセレクションが充実した定番の一軒。",
+    "detail": "Izakaya Mangetsuは「20年の家族の伝統」を誇るフランクフルトの居酒屋。メッセ店（Varrentrappstr. 57）と市内店（Große Eschenheimer Str. 43）の2店舗を展開。熟練した寿司職人が握る本格寿司と、豊富なプレミアム日本酒セレクションが特徴。シェアプレートスタイルで様々な料理を楽しめる。",
+    "menu": [
+      {
+        "name": "寿司盛り合わせ",
+        "price_eur": null,
+        "price_jpy": null
+      },
+      {
+        "name": "刺身",
+        "price_eur": null,
+        "price_jpy": null
+      },
+      {
+        "name": "日本酒",
+        "price_eur": null,
+        "price_jpy": null
+      }
+    ],
+    "price_range": null,
+    "tags": [
+      "居酒屋",
+      "寿司",
+      "日本酒",
+      "フランクフルト"
+    ],
+    "hours": "ランチ（月〜土）：11:45-14:30、ディナー（月〜土）：18:00-22:00",
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "nomi-hamburg-restaurant",
+    "name": "NOMI Japanese Restaurant",
+    "name_ja": "のみ ハンブルク",
+    "area": "Hamburg-Mitte",
+    "address": "Zeughausmarkt 21, 20459 Hamburg",
+    "phone": "+494045028999",
+    "phone_local": null,
+    "email": "hello@nomi-hamburg.de",
+    "website": "https://www.nomi-hamburg.de",
+    "source_url": "https://www.nomi-hamburg.de",
+    "description": "ハンブルク中心部の日本料理レストラン。寿司・刺身・丼ものを月〜土のランチから夜まで提供する、在住日本人やジャパン好きのハンブルガーが集まる一軒。",
+    "detail": "NOMI Japanese Restaurantはハンブルク・ツォイクハウスマルクトに位置する日本料理店。新鮮な寿司・刺身・丼物・ラーメンなど幅広いメニューを揃え、ランチからディナーまで対応。ハンブルクの日本人コミュニティにも愛されている本格店。",
+    "menu": [
+      {
+        "name": "寿司",
+        "price_eur": null,
+        "price_jpy": null
+      },
+      {
+        "name": "刺身",
+        "price_eur": null,
+        "price_jpy": null
+      },
+      {
+        "name": "丼もの",
+        "price_eur": null,
+        "price_jpy": null
+      }
+    ],
+    "price_range": null,
+    "tags": [
+      "日本料理",
+      "寿司",
+      "ハンブルク"
+    ],
+    "hours": "月〜金 11:30-22:00、土 12:00-22:00（日曜定休）",
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "hinode-hamburg-eppendorf",
+    "name": "Hinode Japanese Restaurant",
+    "name_ja": "ひのでジャパニーズレストラン",
+    "area": "Hoheluft, Hamburg",
+    "address": "Eppendorfer Weg 267, 20251 Hamburg",
+    "phone": "+494065590080",
+    "phone_local": null,
+    "email": "info.hinoderestaurant@gmail.com",
+    "website": "https://hinode-hamburg.de/",
+    "source_url": "https://www.hamburg.de/branchenbuch/hamburg/eintrag/101160127/",
+    "description": "ハンブルク・ホーエルフトの日本料理店。日本から特別搬入した製麺機で毎日作る新鮮な麺が評判。刺身・寿司・ラーメンを揃えるハンブルク在住日本人御用達の店。",
+    "detail": "Hinode Japanese Restaurantはハンブルク・エッペンドルファー通りに位置する日本料理店。日本から直輸入した特別な製麺機で毎日フレッシュに麺を作るのが最大の特徴で、ハンブルクでは唯一の取り組み。刺身・寿司・ラーメンを中心に幅広い日本料理を提供し、在住日本人からも評価が高い。",
+    "menu": [
+      {
+        "name": "ラーメン（自家製麺）",
+        "price_eur": null,
+        "price_jpy": null
+      },
+      {
+        "name": "刺身",
+        "price_eur": null,
+        "price_jpy": null
+      },
+      {
+        "name": "寿司",
+        "price_eur": null,
+        "price_jpy": null
+      }
+    ],
+    "price_range": null,
+    "tags": [
+      "日本料理",
+      "ラーメン",
+      "寿司",
+      "ハンブルク",
+      "自家製麺"
+    ],
+    "hours": "11:00-23:00",
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
   }
 ]
