@@ -15279,5 +15279,115 @@
         "price_jpy": null
       }
     ]
+  },
+  {
+    "slug": "uminono-prahran",
+    "name": "Uminono",
+    "name_ja": "ウミノノ",
+    "area": "Prahran",
+    "address": "24 Chatham Street, Prahran VIC 3181",
+    "phone": "+61481112235",
+    "website": "https://uminono.com.au/",
+    "source_url": "https://uminono.com.au/",
+    "description": "プラーランの12席限定ちらし専門店。ランチのみ2部制で毎日満席になる話題のスシバー。フレンチ料理出身シェフが純粋に生魚のみで構成するオマカースコース。",
+    "tags": [
+      "ちらし寿司",
+      "オマカセ",
+      "メルボルン",
+      "プラーラン"
+    ],
+    "hours": "ランチのみ 12:00〜・14:00〜（2部制）",
+    "last_verified": "2026-04-05",
+    "status": "unverified",
+    "source": "website",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "phone_local": null,
+    "email": null,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null,
+    "menu": [
+      {
+        "name": "ちらしオマカース",
+        "price_aud": null,
+        "price_jpy": null
+      }
+    ]
+  },
+  {
+    "slug": "kura-brunswick-east",
+    "name": "Kura Robata & Sake",
+    "name_ja": "クラ 炉端焼き&日本酒",
+    "area": "Brunswick East",
+    "address": "Shop 1, 22-30 Lygon Street, Brunswick East VIC 3057",
+    "phone": "+61399721629",
+    "website": "https://www.kuramelbourne.com.au/",
+    "source_url": "https://www.kuramelbourne.com.au/",
+    "description": "ブランズウィックイーストの日本式炉端焼き専門店。日本人シェフ・伊吹憲が手がける本格炉端焼きとプレミアム日本酒を提供する本格的なスタイル。",
+    "tags": [
+      "炉端焼き",
+      "日本酒",
+      "日本人シェフ",
+      "メルボルン"
+    ],
+    "hours": "火〜日 ディナー（月休）",
+    "last_verified": "2026-04-05",
+    "status": "unverified",
+    "source": "website",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "phone_local": null,
+    "email": null,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null,
+    "menu": null
+  },
+  {
+    "slug": "ichi-katsu-glen-waverley",
+    "name": "Ichi Katsu",
+    "name_ja": "一勝",
+    "area": "Glen Waverley",
+    "address": "97 Kingsway, Glen Waverley VIC 3150",
+    "phone": "+61395609860",
+    "website": "https://ichikatsu.com.au/",
+    "source_url": "https://ichikatsu.com.au/",
+    "description": "グレンウェイバリーの本格とんかつ専門店。二度揚げとんかつを専門とし、日本式カツを手軽に楽しめる。在住日本人の多いグレンウェ��バリーに位置する人気店。",
+    "tags": [
+      "とんかつ",
+      "日本料理",
+      "メルボルン",
+      "グレンウェイバリー"
+    ],
+    "hours": "毎日 11:30-14:00・17:00-21:00",
+    "last_verified": "2026-04-05",
+    "status": "unverified",
+    "source": "website",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "phone_local": null,
+    "email": null,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null,
+    "menu": [
+      {
+        "name": "ロースカツ定食",
+        "price_aud": null,
+        "price_jpy": null
+      },
+      {
+        "name": "ヒレカツ定食",
+        "price_aud": null,
+        "price_jpy": null
+      }
+    ]
   }
 ]

@@ -4029,5 +4029,133 @@
         "price_jpy": null
       }
     ]
+  },
+  {
+    "slug": "nos-bakehouse-brisbane",
+    "name": "Nos. Bakehouse & Cafe",
+    "name_ja": "ノス ベイクハウス&カフェ",
+    "area": "Dutton Park",
+    "address": "109 Annerley Road, Dutton Park QLD 4102",
+    "phone": null,
+    "email": "nosbakehouse@gmail.com",
+    "website": "https://www.instagram.com/nos.bakehouse/",
+    "source_url": "https://www.broadsheet.com.au/brisbane/food-and-drink/article/nos-bakehouse-cafe-specialising-shokupan-and-japanese-cakes-opens-dutton-park",
+    "description": "ダットンパークの食パン専門カフェ。毎日手作りする日本式食パンを使ったサンドウィッチ、セレモニアルグレードの抹茶ラテ、北海道チーズケーキなどを提供する。",
+    "tags": [
+      "食パン",
+      "抹茶",
+      "和スイーツ",
+      "カフェ",
+      "ブリスベン"
+    ],
+    "hours": null,
+    "last_verified": "2026-04-05",
+    "status": "unverified",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "phone_local": null,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null,
+    "menu": [
+      {
+        "name": "食パンサンドウィッチ",
+        "price_aud": null,
+        "price_jpy": null
+      },
+      {
+        "name": "抹茶ラテ",
+        "price_aud": null,
+        "price_jpy": null
+      }
+    ]
+  },
+  {
+    "slug": "kimino-ashgrove",
+    "name": "Kimino",
+    "name_ja": "キミノ",
+    "area": "Ashgrove",
+    "address": "71 Wardell Street, Ashgrove QLD 4060",
+    "phone": null,
+    "website": "https://www.instagram.com/kimino_bne/",
+    "source_url": "https://www.broadsheet.com.au/brisbane/food-and-drink/article/first-look-find-japanese-pour-overs-pastries-and-ceramics-ashgroves-kimino",
+    "description": "京都出身オーナーが運営するアッシュグローブの日本スタイルカフェ。日本式ハンドドリップコーヒー・マッチャ・焼き菓子（カヌレ・フィナンシェ・サンドクッキー）を提供。",
+    "tags": [
+      "日本人オーナー",
+      "ドリップコーヒー",
+      "抹茶",
+      "カフェ",
+      "ブリスベン"
+    ],
+    "hours": "木〜月 6:00-13:00（火水休）",
+    "last_verified": "2026-04-05",
+    "status": "unverified",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "phone_local": null,
+    "email": null,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null,
+    "menu": [
+      {
+        "name": "ドリップコーヒー",
+        "price_aud": null,
+        "price_jpy": null
+      },
+      {
+        "name": "抹茶ラテ",
+        "price_aud": null,
+        "price_jpy": null
+      }
+    ]
+  },
+  {
+    "slug": "koto-sanpo-brisbane",
+    "name": "Koto Sanpo",
+    "name_ja": "コトサンポ",
+    "area": "Brisbane CBD",
+    "address": "Shop 1, 97 Elizabeth Street, Brisbane City QLD 4000",
+    "phone": null,
+    "website": "https://www.facebook.com/kotosanpo/",
+    "source_url": "https://www.theurbanlist.com/brisbane/a-list/matcha-brisbane",
+    "description": "ブリスベンCBDの日本式抹茶デザートカフェ。京都宇治抹茶を使ったプレミアム抹茶デザート・スイーツを提供。エリザベスストリートのアクセスしやすい立地。",
+    "tags": [
+      "抹茶",
+      "デザート",
+      "和スイーツ",
+      "ブリスベン"
+    ],
+    "hours": "月〜木 9:00-17:30、金 9:00-21:30、土日 9:00-21:00",
+    "last_verified": "2026-04-05",
+    "status": "unverified",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "phone_local": null,
+    "email": null,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null,
+    "menu": [
+      {
+        "name": "抹茶パフェ",
+        "price_aud": null,
+        "price_jpy": null
+      },
+      {
+        "name": "抹茶ラテ",
+        "price_aud": null,
+        "price_jpy": null
+      }
+    ]
   }
 ]
