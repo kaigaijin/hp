@@ -4355,5 +4355,65 @@
     "place_id": "",
     "priority": 0,
     "ai_reviewed": true
+  },
+  {
+    "slug": "neeko-brighton",
+    "name": "Neeko Brighton",
+    "name_ja": null,
+    "category": "cafe",
+    "city": "Brighton",
+    "area": "North Laine",
+    "address": "5 Sydney St, Brighton BN1 4EN",
+    "phone": null,
+    "email": null,
+    "website": "https://www.neekobrighton.com",
+    "source_url": "https://www.neekobrighton.com",
+    "description": "ブライトンのノースレーンにある日本テイストのカフェ。抹茶ラテやアジアンフュージョンスイーツが人気。",
+    "tags": [
+      "matcha",
+      "japanese"
+    ],
+    "place_id": "",
+    "verified": false
+  },
+  {
+    "slug": "lazy-bird-brighton",
+    "name": "Lazy Bird Brighton",
+    "name_ja": null,
+    "category": "cafe",
+    "city": "Brighton",
+    "area": "Kemptown",
+    "address": "68 St James's St, Brighton BN2 1PR",
+    "phone": null,
+    "email": null,
+    "website": "https://lazybirdcoffee.com",
+    "source_url": "https://lazybirdcoffee.com",
+    "description": "ブライトン・ケンプタウンのスペシャルティコーヒーショップ。日本のコーヒー文化に影響を受けたハンドドリップが名物。",
+    "tags": [
+      "specialty-coffee",
+      "japanese-inspired"
+    ],
+    "place_id": "",
+    "verified": false
+  },
+  {
+    "slug": "jenki-matcha-selfridges",
+    "name": "Jenki Matcha at Selfridges",
+    "name_ja": null,
+    "category": "cafe",
+    "city": "London",
+    "area": "Oxford Street",
+    "address": "Selfridges, 400 Oxford St, London W1A 1AB",
+    "phone": null,
+    "email": null,
+    "website": "https://www.jenkimatcha.com",
+    "source_url": "https://www.jenkimatcha.com",
+    "description": "セルフリッジズ内に出店している抹茶専門バー。グレードの高い日本産抹茶を使ったドリンクとスイーツを提供。",
+    "tags": [
+      "matcha",
+      "japanese"
+    ],
+    "place_id": "",
+    "verified": false
   }
 ]

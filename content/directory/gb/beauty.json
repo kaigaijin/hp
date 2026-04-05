@@ -3904,5 +3904,105 @@
     "price_level": null,
     "photo_name": null,
     "category": "beauty"
+  },
+  {
+    "slug": "hayato-london-betterton",
+    "name": "Hayato London",
+    "name_ja": null,
+    "category": "beauty",
+    "city": "London",
+    "area": "Covent Garden",
+    "address": "1 Betterton St, London WC2H 9BL",
+    "phone": null,
+    "email": null,
+    "website": "https://www.hayato.co.uk",
+    "source_url": "https://www.hayato.co.uk",
+    "description": "コベントガーデンにある日本人スタイリストによるヘアサロン。日本式カットと丁寧なカウンセリングで在英日本人に人気。",
+    "tags": [
+      "japanese-stylist",
+      "hair-salon"
+    ],
+    "place_id": "",
+    "verified": false
+  },
+  {
+    "slug": "dchan-salon-earlsfield",
+    "name": "D-Chan Salon",
+    "name_ja": null,
+    "category": "beauty",
+    "city": "London",
+    "area": "Earlsfield",
+    "address": "Earlsfield, London SW18",
+    "phone": null,
+    "email": null,
+    "website": null,
+    "source_url": "",
+    "description": "アールズフィールドの日本人向けヘアサロン。日本語対応可能で、駐在員家族にも利用されている。",
+    "tags": [
+      "japanese-stylist",
+      "hair-salon"
+    ],
+    "place_id": "",
+    "verified": false
+  },
+  {
+    "slug": "head-spa-london-holloway",
+    "name": "Head Spa London",
+    "name_ja": null,
+    "category": "beauty",
+    "city": "London",
+    "area": "Holloway",
+    "address": "Holloway, London N7",
+    "phone": null,
+    "email": null,
+    "website": null,
+    "source_url": "",
+    "description": "ロンドン北部ホロウェイにある日本式ヘッドスパ専門店。頭皮マッサージとトリートメントが人気。",
+    "tags": [
+      "head-spa",
+      "japanese"
+    ],
+    "place_id": "",
+    "verified": false
+  },
+  {
+    "slug": "esthetique-headspa-fulham",
+    "name": "Esthetique Head Spa Fulham",
+    "name_ja": null,
+    "category": "beauty",
+    "city": "London",
+    "area": "Fulham",
+    "address": "Fulham, London SW6",
+    "phone": null,
+    "email": null,
+    "website": null,
+    "source_url": "",
+    "description": "フラムにある日本式ヘッドスパ＆エステサロン。在英日本人女性を中心に支持されている。",
+    "tags": [
+      "head-spa",
+      "japanese"
+    ],
+    "place_id": "",
+    "verified": false
+  },
+  {
+    "slug": "esthetique-headspa-weybridge",
+    "name": "Esthetique Head Spa Weybridge",
+    "name_ja": null,
+    "category": "beauty",
+    "city": "Weybridge",
+    "area": "Weybridge",
+    "address": "Weybridge, Surrey KT13",
+    "phone": null,
+    "email": null,
+    "website": null,
+    "source_url": "",
+    "description": "ウェイブリッジのサリー郊外にある日本式ヘッドスパ。ロンドン近郊の日本人コミュニティに利用されている。",
+    "tags": [
+      "head-spa",
+      "japanese"
+    ],
+    "place_id": "",
+    "verified": false
   }
 ]
