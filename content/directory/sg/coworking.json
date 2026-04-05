@@ -1136,5 +1136,77 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null
+  },
+  {
+    "slug": "trehaus-funan-singapore",
+    "name": "Trehaus",
+    "name_ja": "トレハウス フナン",
+    "area": "City Hall",
+    "address": "109 North Bridge Road #07-21 to #07-33, Funan Mall, Singapore 179097",
+    "phone": "+6598438077",
+    "website": "https://trehaus.co/",
+    "source_url": "https://trehaus.co/",
+    "description": "フナンモール内の家族向けコワーキングスペース。保育施設併設で子連れ在住日本人にも利用しやすい。シティホールMRT徒歩圏内のCBDエリアに立地。",
+    "tags": [
+      "coworking",
+      "family-friendly",
+      "preschool",
+      "City Hall"
+    ],
+    "hours": "Mon-Fri 9:00-18:00",
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
+  },
+  {
+    "slug": "wework-380-jalan-besar",
+    "name": "WeWork 380 Jalan Besar",
+    "name_ja": "ウィーワーク ジャラン・ベサール",
+    "area": "Lavender",
+    "address": "380 Jalan Besar #16-01, Singapore 209000",
+    "phone": "+6566816768",
+    "website": "https://www.wework.com/buildings/380-jalan-besar--singapore",
+    "source_url": "https://www.wework.com/buildings/380-jalan-besar--singapore",
+    "description": "ラベンダーMRT近くのウィーワーク。CBDとジャランベサールの中間に位置し、在住日本人が多く住むエリア周辺のコワーキング拠点として利用しやすい。",
+    "tags": [
+      "coworking",
+      "24/7 access",
+      "WeWork",
+      "Lavender"
+    ],
+    "hours": "Mon-Fri 9:00-18:00",
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
+  },
+  {
+    "slug": "servcorp-suntec-tower-three",
+    "name": "Servcorp Suntec Tower Three",
+    "name_ja": "サーブコープ サンテックタワー3",
+    "area": "Suntec City",
+    "address": "Level 42, Suntec Tower Three, 8 Temasek Boulevard, Singapore 038988",
+    "phone": "+6568663888",
+    "website": "https://www.servcorp.com.sg/en/coworking/locations/singapore/suntec-tower-three/",
+    "source_url": "https://www.servcorp.com.sg/en/coworking/locations/singapore/suntec-tower-three/",
+    "description": "サンテックシティ42階のサーブコープ。プレステージなCBDロケーションで、日系企業の拠点設置にも使われる高品質コワーキング。シティホール・エスプラネードMRT徒歩圏。",
+    "tags": [
+      "coworking",
+      "serviced office",
+      "Suntec City",
+      "premium"
+    ],
+    "hours": "Mon-Fri 8:30-17:30",
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
   }
 ]

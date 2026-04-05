@@ -1277,5 +1277,51 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null
+  },
+  {
+    "slug": "anytime-fitness-queensway",
+    "name": "Anytime Fitness Queensway",
+    "name_ja": "エニタイムフィットネス クイーンズウェイ",
+    "area": "Queenstown",
+    "address": "1 Queensway #03-51, Queensway Shopping Centre, Singapore 149053",
+    "phone": "+6591509498",
+    "website": "https://www.anytimefitness.sg/gyms/sg-0155/queenstown-central-singapore-149053/",
+    "source_url": "https://www.anytimefitness.sg/gyms/sg-0155/queenstown-central-singapore-149053/",
+    "description": "クイーンズウェイ・ショッピングセンター3階の24時間ジム。クイーンズタウン在住の日本人家族や、オーチャードへのアクセスが良いエリアでの利用に便利。全世界5,000店舗以上のネットワークで旅行中も使える。",
+    "tags": [
+      "24時間",
+      "Anytime Fitness",
+      "Queenstown"
+    ],
+    "hours": "24時間",
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
+  },
+  {
+    "slug": "anytime-fitness-yishun-junction9",
+    "name": "Anytime Fitness Yishun (Junction 9)",
+    "name_ja": "エニタイムフィットネス ヨシュン ジャンクション9",
+    "area": "Yishun",
+    "address": "18 Yishun Avenue 9, #02-32/33, Junction 9 Shopping Mall, Singapore 768897",
+    "phone": "+6591098188",
+    "website": "https://www.anytimefitness.sg/gyms/sg-0078/yishun-north-east-768897/",
+    "source_url": "https://www.anytimefitness.sg/gyms/sg-0078/yishun-north-east-768897/",
+    "description": "ヨシュンのジャンクション9モール2階に位置する24時間ジム。ヨシュンエリアの日本人駐在員家族にも利用しやすいロケーション。全世界5,000店舗以上のネットワークで転居後も継続利用可能。",
+    "tags": [
+      "24時間",
+      "Anytime Fitness",
+      "Yishun"
+    ],
+    "hours": "24時間",
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
   }
 ]
