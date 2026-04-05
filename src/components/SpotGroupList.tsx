@@ -5,14 +5,11 @@ import { useSearchParams, usePathname, useRouter } from "next/navigation";
 import Link from "next/link";
 import {
   MapPin,
-  Phone,
   Globe,
   AlertTriangle,
   CheckCircle2,
-  Info,
   ChevronLeft,
   ChevronRight,
-  Camera,
   Search,
   X,
 } from "lucide-react";
@@ -47,6 +44,7 @@ type SpotGroupTheme = {
   accentHover: string;
   badgeBg: string;
   badgeText: string;
+  accentBar?: string;
 };
 
 type SpotGroupListProps = {
@@ -128,18 +126,20 @@ function SpotGroupListInner({
     updateURL(1, slug);
   };
 
+  const accentBarClass = theme?.accentBar ?? "bg-warm-400";
+
   return (
     <>
       {/* 中分類フィルター */}
       {subCategories.length > 1 && (
-        <div className="max-w-6xl mx-auto px-4 border-t border-stone-100 dark:border-stone-700">
+        <div className="max-w-6xl mx-auto px-4 border-t border-stone-100 dark:border-stone-800">
           <div className="flex gap-1.5 overflow-x-auto py-2.5 scrollbar-hide">
             <button
               onClick={() => handleFilterChange(null)}
               className={`shrink-0 text-xs font-medium px-3 py-1.5 rounded-full transition-colors ${
                 activeFilter === null
                   ? (theme?.filterActive ?? "text-warm-600 dark:text-warm-400 bg-warm-50 dark:bg-warm-900/30")
-                  : "text-stone-500 dark:text-stone-400 bg-stone-50 dark:bg-stone-700 hover:bg-stone-100 dark:hover:bg-stone-600"
+                  : "text-stone-500 dark:text-stone-400 bg-stone-50 dark:bg-stone-800 hover:bg-stone-100 dark:hover:bg-stone-700"
               }`}
             >
               すべて（{spots.length}）
@@ -153,7 +153,7 @@ function SpotGroupListInner({
                 className={`shrink-0 text-xs font-medium px-3 py-1.5 rounded-full transition-colors ${
                   activeFilter === cat.slug
                     ? (theme?.filterActive ?? "text-warm-600 dark:text-warm-400 bg-warm-50 dark:bg-warm-900/30")
-                    : "text-stone-500 dark:text-stone-400 bg-stone-50 dark:bg-stone-700 hover:bg-stone-100 dark:hover:bg-stone-600"
+                    : "text-stone-500 dark:text-stone-400 bg-stone-50 dark:bg-stone-800 hover:bg-stone-100 dark:hover:bg-stone-700"
                 }`}
               >
                 {cat.name}（{cat.count}）
@@ -176,7 +176,7 @@ function SpotGroupListInner({
               updateURL(1, activeFilter);
             }}
             placeholder="店名・エリア・キーワードで検索"
-            className="w-full pl-9 pr-9 py-2.5 rounded-lg border border-stone-200 dark:border-stone-600 bg-white dark:bg-stone-800 text-sm text-stone-800 dark:text-stone-100 focus:outline-none focus:ring-2 focus:ring-warm-500 placeholder:text-stone-400"
+            className="w-full pl-9 pr-9 py-2.5 rounded-xl border border-stone-200 dark:border-stone-700 bg-white dark:bg-stone-900 text-sm text-stone-800 dark:text-stone-100 focus:outline-none focus:ring-2 focus:ring-warm-500 placeholder:text-stone-400"
           />
           {searchQuery && (
             <button
@@ -205,135 +205,85 @@ function SpotGroupListInner({
 
         {paginated.length > 0 ? (
           <div className="space-y-3">
-            {paginated.map((spot) => (
-              <Link
-                key={`${spot.categorySlug}-${spot.slug}`}
-                href={`/${countryCode}/spot/${spot.categorySlug}/${spot.slug}`}
-                className="group block"
-              >
-                <article className={`bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 ${theme?.hoverBorder ?? "hover:border-warm-400 dark:hover:border-warm-500"} hover:shadow-md transition-all overflow-hidden`}>
-                  {/* 画像ギャラリー: 左1大 + 右2小の横並び */}
-                  <div className="flex gap-0.5 h-28 sm:h-36 bg-stone-100 dark:bg-stone-700/50 rounded-t-xl overflow-hidden">
-                    {/* メイン画像（左・大） */}
-                    <div className="relative w-1/2">
-                      {spot.images && spot.images[0] ? (
-                        <img src={spot.images[0]} alt="" className="w-full h-full object-cover" />
-                      ) : (
-                        <div className="w-full h-full bg-gradient-to-br from-stone-100 to-stone-50 dark:from-stone-750 dark:to-stone-800 flex flex-col items-center justify-center gap-1">
-                          <Camera size={18} className="text-stone-300 dark:text-stone-500" />
-                          <span className="text-[10px] text-stone-300 dark:text-stone-500">写真募集中</span>
+            {paginated.map((spot) => {
+              const isClosed = spot.status === "reported_closed";
+              return (
+                <Link
+                  key={`${spot.categorySlug}-${spot.slug}`}
+                  href={`/${countryCode}/spot/${spot.categorySlug}/${spot.slug}`}
+                  className="group block"
+                >
+                  <article className={`bg-white dark:bg-stone-900 rounded-2xl border border-stone-100 dark:border-stone-800 ${theme?.hoverBorder ?? "hover:border-warm-400 dark:hover:border-warm-500"} hover:shadow-md transition-all overflow-hidden flex ${isClosed ? "opacity-60 pointer-events-none" : ""}`}>
+                    {/* カラーアクセントバー */}
+                    <div className={`w-1.5 shrink-0 ${isClosed ? "bg-red-400" : accentBarClass}`} />
+                    {/* 本体 */}
+                    <div className="flex-1 p-4 sm:p-5 min-w-0">
+                      {/* 上段: スポット名 + バッジ */}
+                      <div className="flex items-start justify-between gap-3 mb-2">
+                        <div className="min-w-0">
+                          <h2 className={`text-base font-bold text-stone-800 dark:text-stone-100 truncate ${theme?.accentHover ?? "group-hover:text-warm-700 dark:group-hover:text-warm-400"} transition-colors`}>
+                            {spot.name_ja ?? spot.name}
+                          </h2>
+                          {spot.name_ja && (
+                            <p className="text-xs text-stone-400 truncate mt-0.5">{spot.name}</p>
+                          )}
                         </div>
-                      )}
-                    </div>
-                    {/* サブ画像（右・2枚縦積み） */}
-                    <div className="w-1/2 flex flex-col gap-0.5">
-                      <div className="relative flex-1">
-                        {spot.images && spot.images[1] ? (
-                          <img src={spot.images[1]} alt="" className="w-full h-full object-cover" />
-                        ) : (
-                          <div className="w-full h-full bg-gradient-to-br from-stone-50 to-stone-100 dark:from-stone-800 dark:to-stone-750 flex items-center justify-center">
-                            <Camera size={14} className="text-stone-300 dark:text-stone-500" />
-                          </div>
-                        )}
-                      </div>
-                      <div className="relative flex-1">
-                        {spot.images && spot.images[2] ? (
-                          <>
-                            <img src={spot.images[2]} alt="" className="w-full h-full object-cover" />
-                            {spot.images.length > 3 && (
-                              <span className="absolute inset-0 bg-black/40 flex items-center justify-center text-white text-xs font-medium">
-                                +{spot.images.length - 3}
-                              </span>
-                            )}
-                          </>
-                        ) : (
-                          <div className="w-full h-full bg-gradient-to-br from-stone-100 to-stone-50 dark:from-stone-750 dark:to-stone-800 flex items-center justify-center">
-                            <Camera size={14} className="text-stone-300 dark:text-stone-500" />
-                          </div>
-                        )}
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* テキストコンテンツ */}
-                  <div className="p-3 sm:p-4">
-                    <div className="flex items-start justify-between gap-2 mb-1.5">
-                      <div className="min-w-0">
-                        <h2 className={`text-sm sm:text-base font-bold text-stone-800 dark:text-stone-100 truncate ${theme?.accentHover ?? "group-hover:text-warm-700 dark:group-hover:text-warm-400"} transition-colors`}>
-                          {spot.name_ja ?? spot.name}
-                        </h2>
-                        {spot.name_ja && (
-                          <p className="text-[11px] text-stone-400 mt-0.5 truncate">
-                            {spot.name}
-                          </p>
-                        )}
-                      </div>
-                      <div className="flex items-center gap-1.5 shrink-0">
-                        {!activeFilter && (
-                          <span className={`text-[11px] ${theme?.badgeText ?? "text-warm-600 dark:text-warm-400"} ${theme?.badgeBg ?? "bg-warm-50 dark:bg-warm-900/30"} px-1.5 py-0.5 rounded`}>
-                            {spot.categoryName}
+                        <div className="flex items-center gap-1.5 shrink-0 flex-wrap justify-end">
+                          {!activeFilter && (
+                            <span className={`text-xs ${theme?.badgeText ?? "text-warm-600 dark:text-warm-400"} ${theme?.badgeBg ?? "bg-warm-50 dark:bg-warm-900/30"} px-2 py-0.5 rounded-full`}>
+                              {spot.categoryName}
+                            </span>
+                          )}
+                          <span className="text-xs text-stone-400 bg-stone-50 dark:bg-stone-800 px-2 py-0.5 rounded-full flex items-center gap-1">
+                            <MapPin size={9} />
+                            {spot.area}
                           </span>
-                        )}
-                        <span className="inline-flex items-center gap-0.5 text-[11px] text-stone-400 bg-stone-50 dark:bg-stone-700 px-1.5 py-0.5 rounded">
-                          <MapPin size={9} />
-                          {spot.area}
-                        </span>
-                      </div>
-                    </div>
-
-                    <p className="text-xs sm:text-sm text-stone-600 dark:text-stone-300 leading-relaxed mb-2 line-clamp-2">
-                      {spot.description}
-                    </p>
-
-                    <div className="flex items-center justify-between gap-3">
-                      <div className="flex flex-wrap gap-1 min-w-0">
-                        {spot.tags.slice(0, 3).map((tag) => (
-                          <span
-                            key={tag}
-                            className="text-[11px] text-stone-500 dark:text-stone-400 bg-stone-50 dark:bg-stone-700 px-1.5 py-0.5 rounded"
-                          >
-                            {tag}
-                          </span>
-                        ))}
+                        </div>
                       </div>
 
-                      <div className="flex items-center gap-2 shrink-0">
-                        {spot.status === "reported_closed" && (
-                          <span className="hidden sm:flex items-center gap-1 text-[11px] text-red-500">
-                            <AlertTriangle size={10} />
-                            閉店の可能性
-                          </span>
-                        )}
-                        {(!spot.status || spot.status === "unverified") && (
-                          <span className="hidden sm:flex items-center gap-1 text-[11px] text-amber-500">
-                            <Info size={10} />
-                            未確認
-                          </span>
-                        )}
-                        {spot.status === "verified" && (
-                          <span className="hidden sm:flex items-center gap-1 text-[11px] text-green-500">
-                            <CheckCircle2 size={10} />
-                            確認済み
-                          </span>
-                        )}
-                        {spot.phone && (
-                          <span className="hidden sm:flex items-center gap-1 text-[11px] text-stone-400">
-                            <Phone size={10} />
-                            {spot.phone}
-                          </span>
-                        )}
-                        {spot.website && (
-                          <span className={`flex items-center gap-1 text-[11px] ${theme?.badgeText ?? "text-warm-500"}`}>
-                            <Globe size={10} />
-                            Web
-                          </span>
-                        )}
+                      {/* 説明文 */}
+                      <p className="text-sm text-stone-500 dark:text-stone-400 leading-relaxed line-clamp-2 mb-3">
+                        {spot.description}
+                      </p>
+
+                      {/* 下段: タグ + ステータス */}
+                      <div className="flex items-center justify-between gap-3">
+                        <div className="flex flex-wrap gap-1 min-w-0">
+                          {spot.tags.slice(0, 3).map((tag) => (
+                            <span
+                              key={tag}
+                              className="text-xs text-stone-500 dark:text-stone-400 bg-stone-50 dark:bg-stone-800 px-2 py-0.5 rounded-full"
+                            >
+                              {tag}
+                            </span>
+                          ))}
+                        </div>
+                        <div className="flex items-center gap-2 shrink-0">
+                          {spot.status === "verified" && (
+                            <span className="text-xs text-emerald-500 flex items-center gap-1">
+                              <CheckCircle2 size={10} />
+                              確認済み
+                            </span>
+                          )}
+                          {spot.status === "reported_closed" && (
+                            <span className="text-xs text-red-400 flex items-center gap-1">
+                              <AlertTriangle size={10} />
+                              閉店の可能性
+                            </span>
+                          )}
+                          {spot.website && (
+                            <span className={`flex items-center gap-1 text-xs ${theme?.badgeText ?? "text-warm-500"}`}>
+                              <Globe size={10} />
+                              Web
+                            </span>
+                          )}
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </article>
-              </Link>
-            ))}
+                  </article>
+                </Link>
+              );
+            })}
           </div>
         ) : (
           <div className="text-center py-12 text-stone-400 text-sm">
@@ -347,7 +297,7 @@ function SpotGroupListInner({
             <button
               onClick={() => goToPage(safeCurrentPage - 1)}
               disabled={safeCurrentPage === 1}
-              className="p-2 rounded-lg text-stone-500 hover:bg-stone-100 dark:hover:bg-stone-700 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+              className="p-2 rounded-lg text-stone-500 hover:bg-stone-100 dark:hover:bg-stone-800 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
               aria-label="前のページ"
             >
               <ChevronLeft size={18} />
@@ -378,7 +328,7 @@ function SpotGroupListInner({
                   className={`min-w-[36px] h-9 rounded-lg text-sm font-medium transition-colors ${
                     page === safeCurrentPage
                       ? "bg-warm-600 text-white"
-                      : "text-stone-600 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-700"
+                      : "text-stone-600 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-800"
                   }`}
                   aria-current={page === safeCurrentPage ? "page" : undefined}
                 >
@@ -390,7 +340,7 @@ function SpotGroupListInner({
             <button
               onClick={() => goToPage(safeCurrentPage + 1)}
               disabled={safeCurrentPage === totalPages}
-              className="p-2 rounded-lg text-stone-500 hover:bg-stone-100 dark:hover:bg-stone-700 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+              className="p-2 rounded-lg text-stone-500 hover:bg-stone-100 dark:hover:bg-stone-800 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
               aria-label="次のページ"
             >
               <ChevronRight size={18} />

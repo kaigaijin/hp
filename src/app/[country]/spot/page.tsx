@@ -38,14 +38,10 @@ import {
   Car,
   SprayCan,
   Wrench,
-  Search,
   ChevronRight,
-  Phone,
-  Globe,
-  Briefcase,
-  Compass,
   MapPin,
   Map,
+  ArrowRight,
 } from "lucide-react";
 
 const iconMap: Record<string, (size: number) => React.ReactNode> = {
@@ -71,8 +67,8 @@ const iconMap: Record<string, (size: number) => React.ReactNode> = {
   Car: (s) => <Car size={s} />,
   SprayCan: (s) => <SprayCan size={s} />,
   Wrench: (s) => <Wrench size={s} />,
-  Briefcase: (s) => <Briefcase size={s} />,
-  Compass: (s) => <Compass size={s} />,
+  Briefcase: (s) => <Calculator size={s} />,
+  Compass: (s) => <Plane size={s} />,
 };
 
 export function generateStaticParams() {
@@ -114,9 +110,8 @@ export default async function SpotIndexPage({
   const counts = getCategoryCounts(code);
   const groupCounts = getGroupCounts(code);
   const totalSpots = Object.values(counts).reduce((a, b) => a + b, 0);
-  const areas = getAllAreas(code).slice(0, 12); // トップ12エリアを表示
+  const areas = getAllAreas(code).slice(0, 12);
 
-  // 全スポットデータを検索用に整形
   const allSpots = getAllSpots(code);
   const searchableSpots = allSpots.map((spot) => ({
     slug: spot.slug,
@@ -129,7 +124,6 @@ export default async function SpotIndexPage({
     tags: spot.tags,
   }));
 
-  // ピックアップ用データ（クライアントコンポーネントでランダム表示）
   const pickupSpots = allSpots.map((s) => ({
     slug: s.slug,
     name: s.name,
@@ -144,108 +138,132 @@ export default async function SpotIndexPage({
   return (
     <>
       <Header />
-      <main className="bg-stone-100 dark:bg-stone-900 min-h-screen">
-        {/* コンパクトヘッダー */}
-        <div className="bg-white dark:bg-stone-800 border-b border-stone-200 dark:border-stone-700">
+      <main className="bg-sand-50 dark:bg-stone-950 min-h-screen">
+
+        {/* ヒーローヘッダー */}
+        <div className="bg-white dark:bg-stone-900 border-b border-stone-100 dark:border-stone-800">
           <div className="max-w-6xl mx-auto px-4 py-6">
-            <nav className="flex items-center gap-1.5 text-xs text-stone-400 mb-3">
-              <Link href="/" className="hover:text-warm-600 transition-colors">
-                トップ
-              </Link>
+            {/* パンくず */}
+            <nav className="flex items-center gap-1.5 text-xs text-stone-400 mb-4">
+              <Link href="/" className="hover:text-warm-600 transition-colors">トップ</Link>
               <ChevronRight size={12} />
-              <Link
-                href={`/${code}`}
-                className="hover:text-warm-600 transition-colors"
-              >
+              <Link href={`/${code}`} className="hover:text-warm-600 transition-colors">
                 {country.flag} {country.name}
               </Link>
               <ChevronRight size={12} />
               <span className="text-stone-600 dark:text-stone-300">KAIスポット</span>
             </nav>
-            <div className="flex items-center justify-between">
+
+            <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
               <div>
-                <h1 className="text-2xl font-bold text-stone-800 dark:text-stone-100">
-                  {country.flag} {country.name}のKAIスポット
+                <h1 className="heading-editorial text-3xl font-bold text-stone-900 dark:text-stone-50">
+                  {country.flag} {country.name}の日本人向けスポット
                 </h1>
-                <p className="text-sm text-stone-500 dark:text-stone-400 mt-1">
-                  {totalSpots}件を掲載中
+                <p className="text-sm text-stone-400 dark:text-stone-500 mt-1">
+                  {totalSpots}件掲載
                 </p>
               </div>
+              {/* 検索（デスクトップ） */}
+              <div className="hidden sm:block w-72 shrink-0">
+                <SpotSearch spots={searchableSpots} countryCode={code} />
+              </div>
+            </div>
+
+            {/* 検索（モバイル） */}
+            <div className="sm:hidden mt-4">
+              <SpotSearch spots={searchableSpots} countryCode={code} />
+            </div>
+
+            {/* タブナビ（下線型） */}
+            <div className="flex gap-0 mt-5 border-b border-stone-100 dark:border-stone-800">
+              <span className="text-sm font-semibold text-warm-600 dark:text-warm-400 border-b-2 border-warm-500 pb-2.5 px-4 -mb-px">
+                カテゴリ
+              </span>
               <Link
-                href="/contact"
-                className="hidden sm:inline-flex items-center gap-1.5 text-xs text-warm-600 dark:text-warm-400 hover:underline border border-warm-200 dark:border-warm-800 rounded-lg px-3 py-1.5"
+                href={`/${code}/spot/area`}
+                className="text-sm text-stone-500 dark:text-stone-400 hover:text-stone-700 dark:hover:text-stone-200 pb-2.5 px-4 transition-colors"
               >
-                掲載リクエスト
+                エリア
+              </Link>
+              <Link
+                href={`/${code}/spot/map`}
+                className="text-sm text-stone-500 dark:text-stone-400 hover:text-stone-700 dark:hover:text-stone-200 pb-2.5 px-4 transition-colors flex items-center gap-1.5"
+              >
+                <Map size={13} />
+                地図
               </Link>
             </div>
           </div>
         </div>
 
         <div className="max-w-6xl mx-auto px-4 py-8">
-          {/* 検索窓 */}
-          <div className="mb-6">
-            <SpotSearch spots={searchableSpots} countryCode={code} />
-          </div>
 
-          {/* ナビゲーションタブ */}
-          <div className="flex gap-2 mb-6">
-            <span className="text-xs text-warm-600 dark:text-warm-400 bg-warm-50 dark:bg-warm-900/30 px-3 py-1.5 rounded-full">
-              カテゴリ
-            </span>
-            <Link
-              href={`/${code}/spot/area`}
-              className="text-xs text-stone-500 dark:text-stone-400 bg-white dark:bg-stone-800 border border-stone-200 dark:border-stone-700 px-3 py-1.5 rounded-full hover:border-warm-400 transition-colors"
-            >
-              エリア
-            </Link>
-            <Link
-              href={`/${code}/spot/map`}
-              className="text-xs text-stone-500 dark:text-stone-400 bg-white dark:bg-stone-800 border border-stone-200 dark:border-stone-700 px-3 py-1.5 rounded-full hover:border-warm-400 transition-colors flex items-center gap-1"
-            >
-              <Map size={12} />
-              地図
-            </Link>
-          </div>
-
-          {/* カテゴリグループグリッド */}
+          {/* カテゴリバナーグリッド */}
           <section>
-            <h2 className="text-sm font-semibold text-stone-500 dark:text-stone-400 uppercase tracking-wider mb-4">
-              カテゴリから探す
-            </h2>
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+            <p className="section-label mb-5">— カテゴリから探す</p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {categoryGroups.map((group) => {
                 const groupCount = groupCounts[group.slug] ?? 0;
                 const renderGroupIcon = iconMap[group.icon];
                 const theme = getGroupTheme(group.slug);
 
+                // 子カテゴリ名（最大4件）
+                const childCategoryNames = group.categories
+                  .map((slug) => categories.find((c) => c.slug === slug)?.name)
+                  .filter(Boolean)
+                  .slice(0, 4) as string[];
+
                 return (
-                  <Link
-                    key={group.slug}
-                    href={`/${code}/spot/${group.slug}`}
-                    className={`group bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 border-t-2 ${theme.topBorder} p-4 ${theme.hoverBorder} hover:shadow-md transition-all text-center`}
-                  >
-                    <div className={`w-12 h-12 mx-auto ${theme.iconBg} rounded-xl flex items-center justify-center ${theme.iconText} ${theme.iconBgActive} transition-colors mb-3`}>
-                      {renderGroupIcon?.(22)}
+                  <Link key={group.slug} href={`/${code}/spot/${group.slug}`}>
+                    <div className={`group bg-white dark:bg-stone-900 rounded-2xl border border-stone-100 dark:border-stone-800 hover:shadow-md ${theme.hoverBorder} transition-all overflow-hidden flex`}>
+                      {/* 左: カラーアクセントバー */}
+                      <div className={`w-1.5 shrink-0 ${theme.accentBar}`} />
+                      {/* 中: テキスト */}
+                      <div className="flex-1 p-5 min-w-0">
+                        <div className="flex items-center gap-2 mb-2">
+                          <span className={theme.iconText}>
+                            {renderGroupIcon?.(18)}
+                          </span>
+                          <h3 className={`text-base font-bold text-stone-800 dark:text-stone-100 ${theme.accentHover} transition-colors`}>
+                            {group.name}
+                          </h3>
+                        </div>
+                        <div className="flex flex-wrap gap-1.5">
+                          {childCategoryNames.map((name) => (
+                            <span
+                              key={name}
+                              className="text-xs text-stone-400 bg-stone-50 dark:bg-stone-800 px-2 py-0.5 rounded-full"
+                            >
+                              {name}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                      {/* 右: 件数 + 矢印 */}
+                      <div className="shrink-0 flex flex-col items-end justify-between p-5 pl-0">
+                        <div className="text-right">
+                          <p className={`text-3xl font-bold ${theme.numberText} leading-none`}>
+                            {groupCount}
+                          </p>
+                          <p className="text-[10px] text-stone-400 mt-0.5">件</p>
+                        </div>
+                        <ArrowRight
+                          size={14}
+                          className={`${theme.iconText} opacity-0 group-hover:opacity-100 group-hover:translate-x-0.5 transition-all`}
+                        />
+                      </div>
                     </div>
-                    <p className={`text-sm font-semibold text-stone-700 dark:text-stone-200 ${theme.accentHover} transition-colors`}>
-                      {group.name}
-                    </p>
-                    <p className="text-xs text-stone-400 mt-1">
-                      {groupCount}件
-                    </p>
                   </Link>
                 );
               })}
             </div>
           </section>
 
-          {/* エリアから探す */}
+          {/* エリアセクション */}
           {areas.length > 0 && (
             <section className="mt-10">
-              <div className="flex items-center justify-between mb-4">
-                <h2 className="text-sm font-semibold text-stone-500 dark:text-stone-400 uppercase tracking-wider">
-                  エリアから探す
-                </h2>
+              <div className="flex items-center justify-between mb-5">
+                <p className="section-label">— エリアから探す</p>
                 <Link
                   href={`/${code}/spot/area`}
                   className="text-xs text-warm-600 dark:text-warm-400 hover:underline flex items-center gap-1"
@@ -259,10 +277,10 @@ export default async function SpotIndexPage({
                   <Link
                     key={area.slug}
                     href={`/${code}/spot/area/${area.slug}`}
-                    className="group bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 hover:border-warm-400 dark:hover:border-warm-500 hover:shadow-md transition-all p-4"
+                    className="group bg-white dark:bg-stone-900 rounded-xl border border-stone-100 dark:border-stone-800 hover:border-warm-400 dark:hover:border-warm-500 hover:shadow-md transition-all p-4"
                   >
                     <div className="flex items-center gap-2 mb-1">
-                      <MapPin size={14} className="text-warm-500 dark:text-warm-400 shrink-0" />
+                      <MapPin size={14} className="text-teal-500 dark:text-teal-400 shrink-0" />
                       <p className="text-sm font-semibold text-stone-700 dark:text-stone-200 group-hover:text-warm-700 dark:group-hover:text-warm-400 transition-colors truncate">
                         {area.name}
                       </p>
@@ -276,7 +294,7 @@ export default async function SpotIndexPage({
             </section>
           )}
 
-          {/* ピックアップスポット（クライアントサイドでランダム表示） */}
+          {/* ピックアップスポット */}
           <SpotPickup
             spots={pickupSpots}
             countryCode={code}
@@ -290,7 +308,7 @@ export default async function SpotIndexPage({
           />
 
           {/* フッターCTA */}
-          <section className="mt-10 bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 p-6 text-center">
+          <section className="mt-10 bg-white dark:bg-stone-900 rounded-2xl border border-stone-100 dark:border-stone-800 p-6 text-center">
             <p className="text-sm text-stone-600 dark:text-stone-400">
               掲載されていない場所や情報の修正は
               <Link

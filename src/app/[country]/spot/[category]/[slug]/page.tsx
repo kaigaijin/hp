@@ -9,7 +9,6 @@ import {
   getSpot,
   getSpotsByCategory,
 } from "@/lib/directory";
-import { statusConfig } from "@/lib/directory";
 import { getCategoryTheme } from "@/lib/group-theme";
 import SpotReportForm from "@/components/SpotReportForm";
 import SpotReviewForm from "@/components/SpotReviewForm";
@@ -24,28 +23,62 @@ import {
   ExternalLink,
   AlertTriangle,
   CheckCircle2,
-  Info,
-  CreditCard,
-  Armchair,
-  CarFront,
-  CalendarCheck,
-  Cigarette,
-  Languages,
   DollarSign,
+  Languages,
   UtensilsCrossed,
-  Camera,
+  Stethoscope,
+  Scissors,
+  Building2,
+  GraduationCap,
+  Coffee,
+  Pill,
+  Sparkles,
+  Dumbbell,
+  Calculator,
+  Scale,
+  Shield,
+  Truck,
+  Plane,
+  PawPrint,
+  Car,
+  Wrench,
   ArrowRight,
 } from "lucide-react";
 import type { Metadata } from "next";
 
 type Params = { country: string; category: string; slug: string };
 
+// カテゴリアイコンマップ
+const categoryIconMap: Record<string, (size: number) => React.ReactNode> = {
+  restaurant: (s) => <UtensilsCrossed size={s} />,
+  cafe: (s) => <Coffee size={s} />,
+  grocery: (s) => <UtensilsCrossed size={s} />,
+  clinic: (s) => <Stethoscope size={s} />,
+  dental: (s) => <Stethoscope size={s} />,
+  pharmacy: (s) => <Pill size={s} />,
+  beauty: (s) => <Scissors size={s} />,
+  "nail-esthetic": (s) => <Sparkles size={s} />,
+  fitness: (s) => <Dumbbell size={s} />,
+  "real-estate": (s) => <Building2 size={s} />,
+  moving: (s) => <Truck size={s} />,
+  cleaning: (s) => <Sparkles size={s} />,
+  repair: (s) => <Wrench size={s} />,
+  education: (s) => <GraduationCap size={s} />,
+  accounting: (s) => <Calculator size={s} />,
+  legal: (s) => <Scale size={s} />,
+  insurance: (s) => <Shield size={s} />,
+  bank: (s) => <Calculator size={s} />,
+  travel: (s) => <Plane size={s} />,
+  coworking: (s) => <Building2 size={s} />,
+  pet: (s) => <PawPrint size={s} />,
+  car: (s) => <Car size={s} />,
+};
+
 // スポット数が多いためビルド時は主要ページのみ静的生成し、残りはオンデマンド生成
 export const dynamicParams = true;
 
 export function generateStaticParams() {
   // Vercelの80MBデプロイ制限のため、スポット個別ページは全てオンデマンド生成
-  // 初回アクセス時に生成されキャッシュされる（ISR相当）
   return [];
 }
 
@@ -61,7 +94,6 @@ export async function generateMetadata({
   if (!country || !category || !spot) return {};
 
   const displayName = spot.name_ja ?? spot.name;
-  // name_jaがある場合は「日本語名 / 英語名」形式で両言語のクエリにヒットさせる
   const titleName =
     spot.name_ja && spot.name_ja !== spot.name
       ? `${spot.name_ja} / ${spot.name}`
@@ -100,15 +132,13 @@ export default async function SpotDetailPage({
   const spotStatus = spot.status ?? "unverified";
   const theme = getCategoryTheme(catSlug);
 
-  // 同じカテゴリの他のスポット（クライアント側でランダム表示）
   const sameCategory = getSpotsByCategory(code, catSlug)
     .filter((s) => s.slug !== slug);
 
-  // カテゴリに応じたSchema.orgの具体的な@type
+  // スキーマタイプ
   const schemaTypeMap: Record<string, string> = {
     restaurant: "Restaurant",
     cafe: "CafeOrCoffeeShop",
-
     grocery: "GroceryStore",
     clinic: "MedicalClinic",
     dental: "Dentist",
@@ -125,10 +155,9 @@ export default async function SpotDetailPage({
   };
   const schemaType = schemaTypeMap[catSlug] ?? "LocalBusiness";
 
-  // 画像配列
   const images = (spot as Record<string, unknown>).images as string[] | undefined;
+  const hasImages = images && images.length > 0;
 
-  // JSON-LD 構造化データ（LocalBusiness / Restaurant 等）
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": schemaType,
@@ -144,7 +173,6 @@ export default async function SpotDetailPage({
     ...(spot.website && { url: spot.website }),
     ...(spot.hours && { openingHours: spot.hours }),
     ...(spot.price_range && { priceRange: spot.price_range }),
-    // 座標
     ...(spot.lat != null && spot.lng != null && {
       geo: {
         "@type": "GeoCoordinates",
@@ -152,9 +180,7 @@ export default async function SpotDetailPage({
         longitude: spot.lng,
       },
     }),
-    // 画像
     ...(images && images.length > 0 && { image: images }),
-    // 確認日をdateModifiedとして使用
     ...(spot.last_verified && { dateModified: spot.last_verified }),
   };
 
@@ -162,42 +188,20 @@ export default async function SpotDetailPage({
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      {
-        "@type": "ListItem",
-        position: 1,
-        name: "トップ",
-        item: "https://kaigaijin.jp",
-      },
-      {
-        "@type": "ListItem",
-        position: 2,
-        name: country.name,
-        item: `https://kaigaijin.jp/${code}`,
-      },
-      {
-        "@type": "ListItem",
-        position: 3,
-        name: "KAIスポット",
-        item: `https://kaigaijin.jp/${code}/spot`,
-      },
-      {
-        "@type": "ListItem",
-        position: 4,
-        name: category.name,
-        item: `https://kaigaijin.jp/${code}/spot/${catSlug}`,
-      },
-      {
-        "@type": "ListItem",
-        position: 5,
-        name: displayName,
-      },
+      { "@type": "ListItem", position: 1, name: "トップ", item: "https://kaigaijin.jp" },
+      { "@type": "ListItem", position: 2, name: country.name, item: `https://kaigaijin.jp/${code}` },
+      { "@type": "ListItem", position: 3, name: "KAIスポット", item: `https://kaigaijin.jp/${code}/spot` },
+      { "@type": "ListItem", position: 4, name: category.name, item: `https://kaigaijin.jp/${code}/spot/${catSlug}` },
+      { "@type": "ListItem", position: 5, name: displayName },
     ],
   };
+
+  const renderCategoryIcon = categoryIconMap[catSlug];
 
   return (
     <>
       <Header />
-      <main className="bg-stone-100 dark:bg-stone-900 min-h-screen">
+      <main className="bg-sand-50 dark:bg-stone-950 min-h-screen">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -207,183 +211,164 @@ export default async function SpotDetailPage({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
         />
 
-        {/* ヘッダー */}
-        <div className="bg-white dark:bg-stone-800 border-b border-stone-200 dark:border-stone-700">
-          <div className="max-w-5xl mx-auto px-4 py-5">
-            <nav className="flex items-center gap-1.5 text-xs text-stone-400 mb-3 flex-wrap">
-              <Link
-                href="/"
-                className="hover:text-warm-600 transition-colors"
-              >
-                トップ
-              </Link>
+        {/* パンくず */}
+        <div className="bg-white dark:bg-stone-900 border-b border-stone-100 dark:border-stone-800">
+          <div className="max-w-5xl mx-auto px-4 py-3">
+            <nav className="flex items-center gap-1.5 text-xs text-stone-400 flex-wrap">
+              <Link href="/" className="hover:text-warm-600 transition-colors">トップ</Link>
               <ChevronRight size={12} />
-              <Link
-                href={`/${code}`}
-                className="hover:text-warm-600 transition-colors"
-              >
+              <Link href={`/${code}`} className="hover:text-warm-600 transition-colors">
                 {country.flag} {country.name}
               </Link>
               <ChevronRight size={12} />
-              <Link
-                href={`/${code}/spot`}
-                className="hover:text-warm-600 transition-colors"
-              >
-                KAIスポット
-              </Link>
+              <Link href={`/${code}/spot`} className="hover:text-warm-600 transition-colors">KAIスポット</Link>
               <ChevronRight size={12} />
-              <Link
-                href={`/${code}/spot/${catSlug}`}
-                className="hover:text-warm-600 transition-colors"
-              >
+              <Link href={`/${code}/spot/${catSlug}`} className="hover:text-warm-600 transition-colors">
                 {category.name}
               </Link>
             </nav>
-            <h1 className="text-2xl font-bold text-stone-800 dark:text-stone-100">
-              {displayName}
-            </h1>
-            <div className="flex items-center gap-3 mt-2 flex-wrap">
-              {spot.name_ja && (
-                <span className="text-sm text-stone-400">{spot.name}</span>
-              )}
-              <span className="inline-flex items-center gap-1 text-xs text-stone-400 bg-stone-100 dark:bg-stone-700 px-2 py-0.5 rounded">
-                <MapPin size={10} />
-                {spot.area}
-              </span>
-              <span className={`text-xs ${theme.badgeText} ${theme.badgeBg} px-2 py-0.5 rounded`}>
+          </div>
+        </div>
+
+        {/* ヒーローエリア */}
+        {hasImages ? (
+          /* 写真ありの場合: ギャラリー */
+          <div className="max-w-5xl mx-auto px-4 pt-4">
+            <div className="rounded-2xl overflow-hidden">
+              <div className="flex gap-1 h-72 sm:h-96">
+                <div className="relative w-1/2">
+                  <img src={images[0]} alt={displayName} className="w-full h-full object-cover" />
+                </div>
+                <div className="w-1/2 flex flex-col gap-1">
+                  <div className="relative flex-1">
+                    {images[1] ? (
+                      <img src={images[1]} alt="" className="w-full h-full object-cover" />
+                    ) : (
+                      <div className="w-full h-full bg-stone-100 dark:bg-stone-800" />
+                    )}
+                  </div>
+                  <div className="relative flex-1">
+                    {images[2] ? (
+                      <>
+                        <img src={images[2]} alt="" className="w-full h-full object-cover" />
+                        {images.length > 3 && (
+                          <span className="absolute inset-0 bg-black/40 flex items-center justify-center text-white text-sm font-medium">
+                            +{images.length - 3}枚
+                          </span>
+                        )}
+                      </>
+                    ) : (
+                      <div className="w-full h-full bg-stone-100 dark:bg-stone-800" />
+                    )}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        ) : (
+          /* 写真なしの場合: テキストヒーロー */
+          <div className={`${theme.heroGradientFrom} to-sand-50 dark:to-stone-950 border-b border-stone-100 dark:border-stone-800`}
+            style={{ background: undefined }}
+          >
+            <div className="max-w-5xl mx-auto px-4 py-10 md:py-14">
+              {/* カテゴリバッジ */}
+              <div className={`inline-flex items-center gap-2 ${theme.badgeBg} ${theme.badgeText} text-xs font-semibold px-3 py-1.5 rounded-full mb-4`}>
+                {renderCategoryIcon?.(14)}
                 {category.name}
-              </span>
-              {/* ステータスバッジ */}
-              {spotStatus === "verified" && (
-                <span className="inline-flex items-center gap-1 text-xs text-green-700 dark:text-green-400 bg-green-50 dark:bg-green-900/30 px-2 py-0.5 rounded">
-                  <CheckCircle2 size={10} />
-                  確認済み{spot.last_verified ? `（${spot.last_verified}）` : ""}
-                </span>
+              </div>
+              {/* スポット名 */}
+              <h1 className="heading-editorial text-3xl md:text-4xl font-bold text-stone-900 dark:text-stone-50 mb-2">
+                {displayName}
+              </h1>
+              {/* 英語名 */}
+              {spot.name_ja && (
+                <p className="text-stone-400 text-sm mb-3">{spot.name}</p>
               )}
-              {spotStatus === "reported_closed" && (
-                <span className="inline-flex items-center gap-1 text-xs font-medium text-red-700 dark:text-red-400 bg-red-100 dark:bg-red-900/40 px-2.5 py-1 rounded-full border border-red-200 dark:border-red-800">
-                  <AlertTriangle size={11} />
-                  閉店済み
+              {/* エリア + ステータス */}
+              <div className="flex items-center gap-3 flex-wrap mb-4">
+                <span className="flex items-center gap-1 text-sm text-stone-500 dark:text-stone-400">
+                  <MapPin size={14} />
+                  {spot.area}
                 </span>
+                {spotStatus === "verified" && (
+                  <span className="inline-flex items-center gap-1 text-xs text-green-700 dark:text-green-400 bg-green-50 dark:bg-green-900/30 px-2 py-0.5 rounded-full">
+                    <CheckCircle2 size={10} />
+                    確認済み{spot.last_verified ? `（${spot.last_verified}）` : ""}
+                  </span>
+                )}
+                {spotStatus === "reported_closed" && (
+                  <span className="inline-flex items-center gap-1 text-xs font-medium text-red-700 dark:text-red-400 bg-red-100 dark:bg-red-900/40 px-2.5 py-1 rounded-full border border-red-200 dark:border-red-800">
+                    <AlertTriangle size={11} />
+                    閉店済み
+                  </span>
+                )}
+              </div>
+              {/* description を大きく */}
+              <p className="text-stone-600 dark:text-stone-300 leading-relaxed max-w-2xl">
+                {spot.description}
+              </p>
+              {/* 未確認注記 */}
+              {spotStatus === "unverified" && (
+                <p className="mt-3 text-xs text-stone-400 italic">
+                  ※ この情報はWeb上のデータを元に掲載しています。訪問前に公式サイトでご確認ください。
+                </p>
               )}
+            </div>
+          </div>
+        )}
+
+        {/* アクションバー */}
+        <div className="bg-white dark:bg-stone-900 border-b border-stone-100 dark:border-stone-800 sticky top-16 z-40">
+          <div className="max-w-5xl mx-auto px-4 py-3 flex items-center gap-3">
+            {spot.website && (
+              <a
+                href={spot.website}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`inline-flex items-center gap-2 ${theme.ctaBg} ${theme.ctaHover} text-white rounded-full px-5 py-2 text-sm font-semibold transition-colors`}
+              >
+                <ExternalLink size={14} />
+                公式サイト
+              </a>
+            )}
+            {spot.phone && (
+              <a
+                href={`tel:${spot.phone}`}
+                className="inline-flex items-center gap-2 bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-200 rounded-full px-5 py-2 text-sm font-medium hover:bg-stone-200 dark:hover:bg-stone-700 transition-colors"
+              >
+                <Phone size={14} />
+                電話する
+              </a>
+            )}
+            <div className="flex-1" />
+            {/* タグ（デスクトップ右端） */}
+            <div className="hidden md:flex items-center gap-1.5">
+              {spot.tags.slice(0, 3).map((tag) => (
+                <span
+                  key={tag}
+                  className="text-xs text-stone-500 bg-stone-50 dark:bg-stone-800 px-2.5 py-1 rounded-full border border-stone-100 dark:border-stone-700"
+                >
+                  {tag}
+                </span>
+              ))}
             </div>
           </div>
         </div>
 
-        {/* 画像ギャラリー */}
-        <div className="max-w-5xl mx-auto px-4 pt-6">
-          {(() => {
-            const hasImages = images && images.length > 0;
-            return (
-              <div className="rounded-xl overflow-hidden">
-                {hasImages ? (
-                  <div className="flex gap-1 h-48 sm:h-64 lg:h-80">
-                    <div className="relative w-1/2">
-                      <img src={images[0]} alt={displayName} className="w-full h-full object-cover" />
-                    </div>
-                    <div className="w-1/2 flex flex-col gap-1">
-                      <div className="relative flex-1">
-                        {images[1] ? (
-                          <img src={images[1]} alt="" className="w-full h-full object-cover" />
-                        ) : (
-                          <div className="w-full h-full bg-stone-100 dark:bg-stone-700 flex items-center justify-center">
-                            <Camera size={20} className="text-stone-300 dark:text-stone-500" />
-                          </div>
-                        )}
-                      </div>
-                      <div className="relative flex-1">
-                        {images[2] ? (
-                          <>
-                            <img src={images[2]} alt="" className="w-full h-full object-cover" />
-                            {images.length > 3 && (
-                              <span className="absolute inset-0 bg-black/40 flex items-center justify-center text-white text-sm font-medium">
-                                +{images.length - 3}枚
-                              </span>
-                            )}
-                          </>
-                        ) : (
-                          <div className="w-full h-full bg-stone-100 dark:bg-stone-700 flex items-center justify-center">
-                            <Camera size={20} className="text-stone-300 dark:text-stone-500" />
-                          </div>
-                        )}
-                      </div>
-                    </div>
-                  </div>
-                ) : (
-                  <div className="flex gap-1 h-36 sm:h-44">
-                    <div className="w-1/2 bg-gradient-to-br from-stone-100 to-stone-50 dark:from-stone-750 dark:to-stone-800 rounded-l-xl flex flex-col items-center justify-center gap-2">
-                      <Camera size={28} className="text-stone-300 dark:text-stone-500" />
-                      <span className="text-xs text-stone-300 dark:text-stone-500">写真募集中</span>
-                    </div>
-                    <div className="w-1/2 flex flex-col gap-1">
-                      <div className="flex-1 bg-gradient-to-br from-stone-50 to-stone-100 dark:from-stone-800 dark:to-stone-750 rounded-tr-xl flex items-center justify-center">
-                        <Camera size={18} className="text-stone-300 dark:text-stone-500" />
-                      </div>
-                      <div className="flex-1 bg-gradient-to-br from-stone-100 to-stone-50 dark:from-stone-750 dark:to-stone-800 rounded-br-xl flex items-center justify-center">
-                        <Camera size={18} className="text-stone-300 dark:text-stone-500" />
-                      </div>
-                    </div>
-                  </div>
-                )}
-              </div>
-            );
-          })()}
-        </div>
-
-        <div className="max-w-5xl mx-auto px-4 py-6">
+        {/* メインコンテンツ */}
+        <div className="max-w-5xl mx-auto px-4 py-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-            {/* メインカラム */}
-            <div className="lg:col-span-2 space-y-4">
-              {/* 未確認バナー */}
-              {spotStatus === "unverified" && (
-                <div className="flex items-start gap-3 bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 rounded-xl px-4 py-3">
-                  <Info size={16} className="text-amber-600 dark:text-amber-400 shrink-0 mt-0.5" />
-                  <p className="text-xs text-amber-700 dark:text-amber-300">
-                    この情報はWeb上の情報を元に掲載しています。最新情報は公式サイトをご確認ください。実際に訪問された方は、ページ下部から情報の更新にご協力ください。
-                  </p>
-                </div>
-              )}
-              {spotStatus === "reported_closed" && (
-                <div className="flex items-start gap-3 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-xl px-4 py-3">
-                  <AlertTriangle size={16} className="text-red-600 dark:text-red-400 shrink-0 mt-0.5" />
-                  <div className="text-xs text-red-700 dark:text-red-300 space-y-1">
-                    <p className="font-semibold">このスポットは閉店済みの可能性があります</p>
-                    <p>閉店・移転の報告を受けています。訪問前に公式サイトや電話で営業状況をご確認ください。情報をお持ちの方はページ下部からお知らせください。</p>
-                  </div>
-                </div>
-              )}
 
-              {/* アクションバー（モバイル向け） */}
-              <div className="flex gap-2 lg:hidden">
-                {spot.phone && (
-                  <a
-                    href={`tel:${spot.phone}`}
-                    className={`flex-1 flex items-center justify-center gap-2 ${theme.ctaBg} text-white rounded-xl py-3 font-medium text-sm ${theme.ctaHover} transition-colors`}
-                  >
-                    <Phone size={16} />
-                    電話する
-                  </a>
-                )}
-                {spot.website && (
-                  <a
-                    href={spot.website}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex-1 flex items-center justify-center gap-2 bg-white dark:bg-stone-800 border border-stone-200 dark:border-stone-700 text-stone-700 dark:text-stone-200 rounded-xl py-3 font-medium text-sm hover:border-warm-400 transition-colors"
-                  >
-                    <Globe size={16} />
-                    公式サイト
-                  </a>
-                )}
-              </div>
+            {/* 左カラム */}
+            <div className="lg:col-span-2 space-y-6">
 
-              {/* タグ */}
+              {/* タグ（モバイル） */}
               {spot.tags.length > 0 && (
-                <div className="flex flex-wrap gap-1.5">
+                <div className="md:hidden flex flex-wrap gap-2">
                   {spot.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="text-xs text-stone-500 dark:text-stone-400 bg-white dark:bg-stone-800 border border-stone-200 dark:border-stone-700 px-2.5 py-1 rounded"
+                      className="text-xs text-stone-600 dark:text-stone-300 bg-stone-100 dark:bg-stone-800 px-3 py-1 rounded-full"
                     >
                       {tag}
                     </span>
@@ -391,15 +376,7 @@ export default async function SpotDetailPage({
                 </div>
               )}
 
-              {/* レビュー（目立つ位置に配置） */}
-              <SpotReviewForm
-                country={code}
-                category={catSlug}
-                spotSlug={slug}
-                spotName={displayName}
-              />
-
-              {/* タブUI: 概要・写真・メニュー・料金詳細 */}
+              {/* SpotDetailTabs */}
               <SpotDetailTabs
                 spot={spot}
                 displayName={displayName}
@@ -417,7 +394,15 @@ export default async function SpotDetailPage({
                 }
               />
 
-              {/* 情報更新フォーム（モバイル） */}
+              {/* SpotReviewForm */}
+              <SpotReviewForm
+                country={code}
+                category={catSlug}
+                spotSlug={slug}
+                spotName={displayName}
+              />
+
+              {/* SpotReportForm（モバイル） */}
               <div className="lg:hidden">
                 <SpotReportForm
                   country={code}
@@ -427,7 +412,7 @@ export default async function SpotDetailPage({
                 />
               </div>
 
-              {/* 同じカテゴリのスポット（ランダム表示） */}
+              {/* 同カテゴリのスポット */}
               {sameCategory.length > 0 && (
                 <RandomSpots
                   spots={sameCategory}
@@ -439,19 +424,17 @@ export default async function SpotDetailPage({
                   count={5}
                 />
               )}
-
             </div>
 
-            {/* サイドバー */}
-            <div className="space-y-4 lg:sticky lg:top-20 lg:self-start">
+            {/* 右サイドバー */}
+            <div className="space-y-4 lg:sticky lg:top-28 lg:self-start">
+
               {/* 基本情報カード */}
-              <div className="bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700">
-                <div className="px-5 py-3 border-b border-stone-100 dark:border-stone-700">
-                  <h2 className="text-sm font-semibold text-stone-700 dark:text-stone-200">
-                    基本情報
-                  </h2>
+              <div className="bg-white dark:bg-stone-900 rounded-2xl border border-stone-100 dark:border-stone-800 overflow-hidden">
+                <div className="px-5 py-3 border-b border-stone-50 dark:border-stone-800 bg-stone-50 dark:bg-stone-800/50">
+                  <h2 className="text-xs font-semibold text-stone-500 dark:text-stone-400 uppercase tracking-wider">基本情報</h2>
                 </div>
-                <div className="p-5 space-y-4">
+                <dl className="p-5 space-y-4">
                   {/* 住所 */}
                   <div>
                     <dt className="flex items-center gap-1.5 text-xs text-stone-400 mb-1">
@@ -492,11 +475,8 @@ export default async function SpotDetailPage({
                         <table className="w-full">
                           <tbody>
                             {(() => {
-                              // 曜日区切りの「 / 」でのみ分割（時間帯の「 / 」は維持）
-                              // 時間帯の / : 前後が時刻パターン（00:00）
                               const lines = spot.hours.split(/\s\/\s(?=(?:[月火水木金土日祝]|[^\d]))/);
                               return lines.map((line, i) => {
-                                // 「曜日: 時間」形式をパース
                                 const colonIdx = line.indexOf(": ");
                                 if (colonIdx > 0 && colonIdx < 15) {
                                   const day = line.slice(0, colonIdx);
@@ -508,7 +488,6 @@ export default async function SpotDetailPage({
                                     </tr>
                                   );
                                 }
-                                // 末尾の（〜休）を分離して定休日行にする
                                 const restMatch = line.match(/^(.+?)（([^）]*休[^）]*)）$/);
                                 if (restMatch) {
                                   return (
@@ -562,13 +541,13 @@ export default async function SpotDetailPage({
                     </div>
                   )}
 
-                  {/* 公式サイト */}
+                  {/* 公式サイトボタン */}
                   {spot.website && (
                     <a
                       href={spot.website}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className={`flex items-center justify-center gap-2 w-full ${theme.ctaBg} text-white rounded-lg py-2.5 text-sm font-medium ${theme.ctaHover} transition-colors`}
+                      className={`flex items-center justify-center gap-2 w-full ${theme.ctaBg} text-white rounded-xl py-2.5 text-sm font-medium ${theme.ctaHover} transition-colors`}
                     >
                       <ExternalLink size={14} />
                       公式サイトを見る
@@ -578,16 +557,16 @@ export default async function SpotDetailPage({
                   {spot.phone && (
                     <a
                       href={`tel:${spot.phone}`}
-                      className="hidden lg:flex items-center justify-center gap-2 w-full bg-white dark:bg-stone-700 border border-stone-200 dark:border-stone-600 text-stone-700 dark:text-stone-200 rounded-lg py-2.5 text-sm font-medium hover:border-warm-400 transition-colors"
+                      className="hidden lg:flex items-center justify-center gap-2 w-full bg-white dark:bg-stone-800 border border-stone-200 dark:border-stone-700 text-stone-700 dark:text-stone-200 rounded-xl py-2.5 text-sm font-medium hover:border-warm-400 transition-colors"
                     >
                       <Phone size={14} />
                       電話する
                     </a>
                   )}
-                </div>
+                </dl>
               </div>
 
-              {/* 行ったセクション（デスクトップ） */}
+              {/* SpotReportForm（デスクトップ） */}
               <div className="hidden lg:block">
                 <SpotReportForm
                   country={code}
@@ -599,29 +578,19 @@ export default async function SpotDetailPage({
             </div>
           </div>
 
-          {/* 戻るリンク */}
-          <div className="mt-8">
-            <Link
-              href={`/${code}/spot/${catSlug}`}
-              className={`text-sm ${theme.accent} hover:underline`}
-            >
-              ← {category.name}の一覧に戻る
-            </Link>
-          </div>
-
-          {/* スポット一覧へのCTA */}
-          <div className="mt-8 bg-gradient-to-br from-warm-50 to-warm-100 dark:from-warm-900/20 dark:to-warm-800/20 rounded-2xl p-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+          {/* 底部CTA */}
+          <div className="mt-10 bg-white dark:bg-stone-900 rounded-2xl border border-stone-100 dark:border-stone-800 p-6 flex flex-col sm:flex-row items-center justify-between gap-4">
             <div>
               <p className="font-bold text-stone-800 dark:text-stone-100">
                 {country.flag} {country.name}の{category.name}をもっと見る
               </p>
-              <p className="text-sm text-stone-500 dark:text-stone-400 mt-0.5">
+              <p className="text-sm text-stone-400 mt-0.5">
                 日本人向けのスポットを一覧で確認できます
               </p>
             </div>
             <Link
               href={`/${code}/spot/${catSlug}`}
-              className={`shrink-0 inline-flex items-center gap-2 ${theme.ctaBg} ${theme.ctaHover} text-white font-medium px-5 py-2.5 rounded-xl text-sm transition-colors`}
+              className={`shrink-0 inline-flex items-center gap-2 ${theme.ctaBg} ${theme.ctaHover} text-white font-medium px-6 py-2.5 rounded-full text-sm transition-colors`}
             >
               一覧を見る <ArrowRight size={14} />
             </Link>

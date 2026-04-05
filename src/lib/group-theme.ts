@@ -28,6 +28,10 @@ export type GroupTheme = {
   ctaHover: string;
   // ヘッダーの上部アクセントライン
   topBorder: string;
+  // カラーアクセントバー（bg-色クラス）
+  accentBar: string;
+  // ヒーローグラデーション（from-色クラス）
+  heroGradientFrom: string;
 };
 
 const themes: Record<string, GroupTheme> = {
@@ -45,6 +49,8 @@ const themes: Record<string, GroupTheme> = {
     ctaBg: "bg-orange-600",
     ctaHover: "hover:bg-orange-700",
     topBorder: "border-t-orange-500",
+    accentBar: "bg-orange-400",
+    heroGradientFrom: "from-orange-50 dark:from-orange-950/30",
   },
   medical: {
     iconBg: "bg-emerald-50 dark:bg-emerald-900/20",
@@ -60,6 +66,8 @@ const themes: Record<string, GroupTheme> = {
     ctaBg: "bg-emerald-600",
     ctaHover: "hover:bg-emerald-700",
     topBorder: "border-t-emerald-500",
+    accentBar: "bg-emerald-400",
+    heroGradientFrom: "from-emerald-50 dark:from-emerald-950/30",
   },
   "beauty-health": {
     iconBg: "bg-rose-50 dark:bg-rose-900/20",
@@ -75,6 +83,8 @@ const themes: Record<string, GroupTheme> = {
     ctaBg: "bg-rose-600",
     ctaHover: "hover:bg-rose-700",
     topBorder: "border-t-rose-500",
+    accentBar: "bg-rose-400",
+    heroGradientFrom: "from-rose-50 dark:from-rose-950/30",
   },
   housing: {
     iconBg: "bg-amber-50 dark:bg-amber-900/20",
@@ -90,6 +100,8 @@ const themes: Record<string, GroupTheme> = {
     ctaBg: "bg-amber-600",
     ctaHover: "hover:bg-amber-700",
     topBorder: "border-t-amber-500",
+    accentBar: "bg-amber-400",
+    heroGradientFrom: "from-amber-50 dark:from-amber-950/30",
   },
   education: {
     iconBg: "bg-violet-50 dark:bg-violet-900/20",
@@ -105,6 +117,8 @@ const themes: Record<string, GroupTheme> = {
     ctaBg: "bg-violet-600",
     ctaHover: "hover:bg-violet-700",
     topBorder: "border-t-violet-500",
+    accentBar: "bg-violet-400",
+    heroGradientFrom: "from-violet-50 dark:from-violet-950/30",
   },
   professional: {
     iconBg: "bg-slate-100 dark:bg-slate-800/50",
@@ -120,6 +134,8 @@ const themes: Record<string, GroupTheme> = {
     ctaBg: "bg-slate-600",
     ctaHover: "hover:bg-slate-700",
     topBorder: "border-t-slate-500",
+    accentBar: "bg-slate-400",
+    heroGradientFrom: "from-slate-100 dark:from-slate-900/50",
   },
   lifestyle: {
     iconBg: "bg-teal-50 dark:bg-teal-900/20",
@@ -135,6 +151,8 @@ const themes: Record<string, GroupTheme> = {
     ctaBg: "bg-teal-600",
     ctaHover: "hover:bg-teal-700",
     topBorder: "border-t-teal-500",
+    accentBar: "bg-teal-400",
+    heroGradientFrom: "from-teal-50 dark:from-teal-950/30",
   },
 };
 
@@ -153,6 +171,8 @@ const defaultTheme: GroupTheme = {
   ctaBg: "bg-warm-600",
   ctaHover: "hover:bg-warm-700",
   topBorder: "border-t-warm-500",
+  accentBar: "bg-warm-400",
+  heroGradientFrom: "from-warm-50 dark:from-warm-950/30",
 };
 
 // グループslugからテーマを取得
