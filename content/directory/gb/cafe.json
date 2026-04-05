@@ -4415,5 +4415,58 @@
     ],
     "place_id": "",
     "verified": false
+  },
+  {
+    "slug": "the-matcha-kyoto-manchester",
+    "name": "The Matcha Kyoto",
+    "name_ja": "ザ マッチャ キョウト",
+    "area": "Albert Square, Manchester",
+    "address": "48 Brazenose Street, Manchester M2 5EB",
+    "phone": null,
+    "email": null,
+    "website": null,
+    "source_url": "https://mancunion.com/2026/02/24/the-matcha-kyoto-opening/",
+    "description": "京都産抹茶を使用したマンチェスター発の抹茶専門店。アルバート・スクエア近くに常設店をオープン。ウベ抹茶・ストロベリー抹茶など独創的なフレーバーのドリンクが人気。",
+    "tags": [
+      "matcha",
+      "japanese-cafe",
+      "drinks"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "category": "cafe",
+    "verified": false
+  },
+  {
+    "slug": "harajuku-kitchen-edinburgh",
+    "name": "Harajuku Kitchen",
+    "name_ja": "ハラジュク キッチン",
+    "area": "Bruntsfield, Edinburgh",
+    "address": "10 Gillespie Place, Edinburgh EH10 4HS",
+    "phone": "+441312858182",
+    "email": null,
+    "website": "https://harajukukitchen.co.uk/",
+    "source_url": "https://harajukukitchen.co.uk/",
+    "description": "エジンバラのブランツフィールドにあるAAロゼット受賞の日本料理店。本格的な寿司・刺身・ラーメンを提供し、スコットランド食品賞なども受賞した実力店。テイクアウト注文にも対応。",
+    "tags": [
+      "japanese-restaurant",
+      "sushi",
+      "ramen",
+      "AA-rosette"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "category": "cafe",
+    "verified": false
   }
 ]
