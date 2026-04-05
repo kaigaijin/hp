@@ -10459,5 +10459,217 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null
+  },
+  {
+    "slug": "sf-ippudo-yerba-buena",
+    "name": "Ippudo Yerba Buena",
+    "name_ja": "一風堂 ヤーバブエナ",
+    "area": "San Francisco",
+    "address": "18 Yerba Buena Ln, San Francisco, CA 94103",
+    "phone": "+14153481202",
+    "phone_local": null,
+    "email": null,
+    "website": "https://www.ippudous.com/yerba-buena",
+    "source_url": "https://www.ippudous.com/yerba-buena",
+    "description": "サンフランシスコ・ヤーバブエナの一風堂。SFMOMA近くの博多豚骨ラーメン。",
+    "detail": "サンフランシスコ・ヤーバブエナ（SFMOMA近く）にある一風堂のサンフランシスコ店。日本直伝の博多豚骨ラーメンを提供する。アート地区に位置し、観光客・在住者ともに人気。",
+    "menu": [
+      {
+        "name": "白丸元味",
+        "price_local": null,
+        "note": null
+      }
+    ],
+    "price_range": "¥¥",
+    "tags": [
+      "ramen",
+      "tonkotsu",
+      "japanese",
+      "yerba-buena"
+    ],
+    "hours": {
+      "note": "要確認"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "berkeley-ippudo",
+    "name": "Ippudo Berkeley",
+    "name_ja": "一風堂 バークレー",
+    "area": "San Francisco",
+    "address": "2015 Kala Bagai Way, Berkeley, CA 94704",
+    "phone": "+16509632508",
+    "phone_local": null,
+    "email": null,
+    "website": "https://www.ippudous.com/berkeley",
+    "source_url": "https://www.ippudous.com/berkeley",
+    "description": "バークレーの一風堂。UC Berkeley近くの博多豚骨ラーメン店、学生にも人気。",
+    "detail": "カリフォルニア州バークレーにある一風堂のバークレー店。UC Berkeley近くに位置し、在米日本人学生・研究者・地元グルメに人気。日本直伝の博多豚骨ラーメンを提供する。",
+    "menu": [
+      {
+        "name": "白丸元味",
+        "price_local": null,
+        "note": null
+      }
+    ],
+    "price_range": "¥¥",
+    "tags": [
+      "ramen",
+      "tonkotsu",
+      "japanese",
+      "berkeley"
+    ],
+    "hours": {
+      "note": "要確認"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "portland-afuri-izakaya",
+    "name": "AFURI Izakaya Portland",
+    "name_ja": "阿夫利居酒屋 ポートランド",
+    "area": "Portland",
+    "address": "923 SW Oak St, Portland, OR 97205",
+    "phone": null,
+    "phone_local": null,
+    "email": null,
+    "website": "https://afuri.us",
+    "source_url": "https://afuri.us",
+    "description": "ポートランドの現代的な居酒屋。東京発阿夫利のポートランド進出店で柚子ラーメンが人気。",
+    "detail": "オレゴン州ポートランドにある東京発の阿夫利のポートランド居酒屋店。ラーメン・寿司・小皿料理を高品質で提供するモダン居酒屋スタイル。柚子をベースにした軽やかなラーメンが特に評判。",
+    "menu": [
+      {
+        "name": "柚子塩ラーメン",
+        "price_local": null,
+        "note": null
+      }
+    ],
+    "price_range": "¥¥¥",
+    "tags": [
+      "ramen",
+      "izakaya",
+      "japanese",
+      "portland",
+      "yuzu"
+    ],
+    "hours": {
+      "note": "要確認"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "portland-shigezo",
+    "name": "Shigezo Izakaya",
+    "name_ja": "繁蔵居酒屋",
+    "area": "Portland",
+    "address": "910 NW 14th Ave, Portland, OR 97209",
+    "phone": null,
+    "phone_local": null,
+    "email": null,
+    "website": "https://www.shigezo-pdx.com",
+    "source_url": "https://www.shigezo-pdx.com",
+    "description": "ポートランド・パールディストリクトの本格居酒屋。手打ちラーメン・うどん・蕎麦も自家製。",
+    "detail": "オレゴン州ポートランド・パールディストリクトにある本格日本居酒屋。手打ちラーメン・うどん・蕎麦を自家製にこだわり、本場の居酒屋スタイルで提供。地元グルメから在住日本人まで幅広く支持されている。",
+    "menu": [
+      {
+        "name": "手打ちラーメン",
+        "price_local": null,
+        "note": "自家製麺"
+      }
+    ],
+    "price_range": "¥¥¥",
+    "tags": [
+      "izakaya",
+      "ramen",
+      "japanese",
+      "pearl-district"
+    ],
+    "hours": {
+      "note": "要確認"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "portland-takibi",
+    "name": "Takibi",
+    "name_ja": "たき火",
+    "area": "Portland",
+    "address": "826 NW 13th Ave, Portland, OR 97209",
+    "phone": null,
+    "phone_local": null,
+    "email": null,
+    "website": "https://www.takibipdx.com",
+    "source_url": "https://www.takibipdx.com",
+    "description": "ポートランドの受賞歴多数の日本料理店。ランチは本格ラーメン、夜は薪火料理・寿司・おまかせ。",
+    "detail": "オレゴン州ポートランドにある受賞歴多数の日本料理レストラン。2025年ポートランド・マンスリー「トップ50レストラン」選出。ランチは本格ラーメンを、ディナーは薪火を使ったシェフドリブンな料理・寿司・おまかせコースを提供する。",
+    "menu": [
+      {
+        "name": "おまかせコース（夜）",
+        "price_local": null,
+        "note": null
+      },
+      {
+        "name": "ラーメン（昼）",
+        "price_local": null,
+        "note": null
+      }
+    ],
+    "price_range": "¥¥¥",
+    "tags": [
+      "japanese",
+      "sushi",
+      "omakase",
+      "ramen",
+      "portland"
+    ],
+    "hours": {
+      "note": "要確認"
+    },
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
   }
 ]
