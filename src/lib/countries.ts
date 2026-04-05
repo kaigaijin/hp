@@ -114,8 +114,8 @@ export const countries: Country[] = [
   },
   {
     code: "ae",
-    name: "UAE（ドバイ）",
-    nameEn: "UAE (Dubai)",
+    name: "UAE",
+    nameEn: "UAE",
     flag: "🇦🇪",
     tagline: "砂漠の未来都市で挑む",
     population: "約0.5万人",
