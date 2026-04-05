@@ -4157,5 +4157,160 @@
         "price_jpy": null
       }
     ]
+  },
+  {
+    "slug": "matcha-ya-haymarket-sydney",
+    "name": "MATCHA-YA",
+    "name_ja": "抹茶屋",
+    "area": "Haymarket, Sydney",
+    "address": "NW.05 10 Steam Mill Lane, Haymarket NSW 2000",
+    "phone": null,
+    "phone_local": null,
+    "email": null,
+    "website": "https://matchaya.com.au/",
+    "source_url": "https://matchaya.com.au/",
+    "description": "ダーリンスクエアの本格抹茶カフェ＆バー。静岡産100%純抹茶を使ったラテ・パフェ・サンデーと日本酒・梅酒カクテルを楽しめる。",
+    "detail": "MATCHA-YAはダーリンスクエアに位置する本格日本抹茶カフェ。静岡産100%純抹茶を使ったラテ・フレッシュジュース・パフェ・サンデーを提供。バーコーナーでは日本産梅酒・ウイスキー・カクテルも楽しめ、甘みとほろ苦さのバランスが絶妙な抹茶体験ができる。",
+    "menu": [
+      {
+        "name": "抹茶ラテ",
+        "price_aud": null,
+        "price_jpy": null
+      },
+      {
+        "name": "抹茶パフェ",
+        "price_aud": null,
+        "price_jpy": null
+      },
+      {
+        "name": "抹茶サンデー",
+        "price_aud": null,
+        "price_jpy": null
+      },
+      {
+        "name": "梅酒カクテル",
+        "price_aud": null,
+        "price_jpy": null
+      }
+    ],
+    "price_range": "A$8〜20（約800〜2,000円）",
+    "tags": [
+      "抹茶カフェ",
+      "日本茶",
+      "デザート",
+      "シドニー",
+      "ダーリンスクエア"
+    ],
+    "hours": "日〜木 12:00-21:00、金〜土 12:00-22:00",
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "kyo-tea-house-emporium-melbourne",
+    "name": "Kyo Tea House",
+    "name_ja": "京ティーハウス",
+    "area": "Melbourne CBD",
+    "address": "Lower Ground, 287 Lonsdale Street, Melbourne VIC 3000",
+    "phone": null,
+    "phone_local": null,
+    "email": "contact@kyoteahouse.com.au",
+    "website": "https://www.kyoteahouse.com.au/",
+    "source_url": "https://www.kyoteahouse.com.au/",
+    "description": "メルボルンエンポリアム内の宇治京都産抹茶専門カフェ。日本のティーハウスを再現した空間で、パフェ・アフォガート・スイーツを楽しめる。",
+    "detail": "Kyo Tea Houseはエンポリアムメルボルンの地下に位置する京都式抹茶専門カフェ。宇治産抹茶を使ったラテ・パフェ・アフォガート・テーセットを提供（A$6〜18）。チャドストーン店はテイクアウト専門でソフトクリームやゼラチン（A$3.80〜8.50）に対応。禅宗の僧侶も愛用した抹茶の健康成分を大切にした空間デザイン。",
+    "menu": [
+      {
+        "name": "抹茶ラテ",
+        "price_aud": null,
+        "price_jpy": null
+      },
+      {
+        "name": "抹茶パフェ",
+        "price_aud": null,
+        "price_jpy": null
+      },
+      {
+        "name": "アフォガート",
+        "price_aud": null,
+        "price_jpy": null
+      }
+    ],
+    "price_range": "A$6〜18（約600〜1,800円）",
+    "tags": [
+      "抹茶カフェ",
+      "日本茶",
+      "デザート",
+      "メルボルン",
+      "エンポリアム"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "kyo-tea-house-chadstone-melbourne",
+    "name": "Kyo Tea House Chadstone",
+    "name_ja": "京ティーハウス チャドストーン",
+    "area": "Chadstone, Melbourne",
+    "address": "Lower Ground, 1341 Dandenong Road, Chadstone VIC 3148",
+    "phone": null,
+    "phone_local": null,
+    "email": "contact@kyoteahouse.com.au",
+    "website": "https://www.kyoteahouse.com.au/",
+    "source_url": "https://www.kyoteahouse.com.au/",
+    "description": "チャドストーン・ショッピングセンターのテイクアウト専門抹茶スタンド。宇治産抹茶ラテ・ソフトクリーム・フローズンドリンクを手軽に楽しめる。",
+    "detail": "Kyo Tea House Chadstoneはメルボルンのチャドストーン・ショッピングセンター地下に位置するテイクアウト専門の抹茶スタンド。宇治産抹茶を使ったラテ・フローズンドリンク・ソフトクリーム・ゼラチンを提供（A$3.80〜8.50）。エンポリアム本店（287 Lonsdale St）でのイートインとセットで利用できる。",
+    "menu": [
+      {
+        "name": "抹茶ラテ",
+        "price_aud": null,
+        "price_jpy": null
+      },
+      {
+        "name": "抹茶ソフトクリーム",
+        "price_aud": null,
+        "price_jpy": null
+      },
+      {
+        "name": "フローズン抹茶",
+        "price_aud": null,
+        "price_jpy": null
+      }
+    ],
+    "price_range": "A$3.80〜8.50（約380〜850円）",
+    "tags": [
+      "抹茶カフェ",
+      "テイクアウト",
+      "デザート",
+      "メルボルン",
+      "チャドストーン"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
   }
 ]
