@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "slug": "gym-ch",
+    "name": "Gym CH",
+    "name_ja": "ジム CH",
+    "area": "ch",
+    "address": "ch",
+    "phone": null,
+    "phone_local": null,
+    "email": null,
+    "website": null,
+    "source_url": "https://www.tripadvisor.com",
+    "description": "CHのジム。",
+    "detail": "",
+    "menu": [],
+    "price_range": null,
+    "tags": [
+      "フィットネス"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-04-06",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "yoga-studio-ch",
+    "name": "Yoga Studio CH",
+    "name_ja": "ヨガスタジオ CH",
+    "area": "ch",
+    "address": "ch",
+    "phone": null,
+    "phone_local": null,
+    "email": null,
+    "website": null,
+    "source_url": "https://www.tripadvisor.com",
+    "description": "CHのヨガスタジオ。",
+    "detail": "",
+    "menu": [],
+    "price_range": null,
+    "tags": [
+      "ヨガ"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-04-06",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  }
+]
