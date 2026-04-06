@@ -1023,5 +1023,81 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null
+  },
+  {
+    "slug": "doctor-aiko-melbourne-cbd",
+    "name": "Doctor Aiko @ Healthcare on Collins",
+    "name_ja": "ドクターアイコ メルボルン（ヘルスケアオンコリンズ）",
+    "area": "Melbourne",
+    "address": "Level 4, 250 Collins Street, Melbourne VIC 3000",
+    "phone": "+61381025800",
+    "phone_local": null,
+    "email": null,
+    "website": "https://www.doctoraiko.com.au/en",
+    "source_url": "https://www.doctoraiko.com.au/en",
+    "description": "メルボルンCBDで25年以上の経験を持つ日本人GP・アイコ先生が診療。日本語専用ダイヤル完備で、日本語のみでの診察・メンタルヘルス相談が可能。",
+    "detail": "Dr. Aiko Tiarni Tomitaがヘルスケアオンコリンズ（Collins St 250番地4F）を拠点に診療する日本語対応GPクリニック。メルボルン在住25年以上の経験を持つ日本人医師で、月・水・金を中心に診察。海外旅行保険のキャッシュレス決済にも対応。病理検査・画像診断が同ビルで完結する総合医療施設内。日本語専用電話（03-8102-5800）あり。",
+    "menu": [
+      "一般診療",
+      "メンタルヘルス",
+      "渡航前健診",
+      "オンライン診療"
+    ],
+    "price_range": null,
+    "tags": [
+      "日本人医師",
+      "日本語対応",
+      "クリニック",
+      "メルボルン"
+    ],
+    "hours": "月・水・金 8:30–17:00",
+    "status": "unverified",
+    "last_verified": "2026-04-06",
+    "source": "website",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "womens-health-hub-werribee",
+    "name": "Women's Health Hub",
+    "name_ja": "ウィメンズヘルスハブ",
+    "area": "Melbourne",
+    "address": "236 Hoppers Lane, Werribee VIC 3030",
+    "phone": "+61386525441",
+    "phone_local": null,
+    "email": null,
+    "website": "https://womenshealthhub.com.au/",
+    "source_url": "https://womenshealthhub.com.au/team/dr-sayuri-takahashi-sally/",
+    "description": "ウェリビー（メルボルン西部）の女性向け総合医療クリニック。日本語対応GP・田中サユリ先生が在籍し、産婦人科・一般診療を日本語で受診できる。",
+    "detail": "ウィメンズヘルスハブはウェリビーを拠点とする女性向け総合クリニック。日本語流暢なGP・Sayuri Takahashi先生（Sally）が在籍し、産前産後ケア・避妊・IUDクリニック・女性の健康スクリーニングを日本語で提供。2018年より診療。緊急医療・緩和ケアの専門研修も持つ。",
+    "menu": [
+      "一般診療",
+      "産婦人科",
+      "避妊相談",
+      "産前産後ケア"
+    ],
+    "price_range": null,
+    "tags": [
+      "日本語対応",
+      "女性向け",
+      "クリニック",
+      "メルボルン"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-04-06",
+    "source": "website",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
   }
 ]
