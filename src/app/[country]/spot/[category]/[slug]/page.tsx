@@ -76,6 +76,7 @@ const categoryIconMap: Record<string, (size: number) => React.ReactNode> = {
 
 // スポット数が多いためビルド時は主要ページのみ静的生成し、残りはオンデマンド生成
 export const dynamicParams = true;
+export const revalidate = false; // 一度生成したらデプロイまで再生成しない（ISR Write削減）
 
 export function generateStaticParams() {
   // Vercelの80MBデプロイ制限のため、スポット個別ページは全てオンデマンド生成

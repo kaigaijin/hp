@@ -16,6 +16,7 @@ import { getCategoryTheme } from "@/lib/group-theme";
 import { ChevronRight, MapPin } from "lucide-react";
 
 export const dynamicParams = true;
+export const revalidate = false; // 一度生成したらデプロイまで再生成しない（ISR Write削減）
 
 export function generateStaticParams() {
   // SG のエリアのみ静的生成（他の国はオンデマンド）
