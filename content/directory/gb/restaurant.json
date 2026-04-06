@@ -17121,5 +17121,76 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null
+  },
+  {
+    "slug": "moi-soho-japanese-restaurant",
+    "name": "MOI",
+    "name_ja": "モイ",
+    "area": "Soho",
+    "address": "84 Wardour Street, London W1F 0TD, United Kingdom",
+    "phone": "+44-20-3693-3020",
+    "email": null,
+    "website": "https://moirestaurant.com/",
+    "source_url": "https://moirestaurant.com/",
+    "description": "ソーホーの日本料理グリル&寿司カウンター。火を使った調理による日本式シンプル料理。",
+    "detail": "MOIはロンドンのソーホーにある日本料理店。グリル調理とスシカウンターを備え、日本式シンプル料理とブリティッシュ・プロデュースを融合。",
+    "menu": [
+      "グリル料理",
+      "寿司"
+    ],
+    "price_range": "£50-100",
+    "tags": [
+      "日本料理",
+      "グリル",
+      "寿司",
+      "ソーホー"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-04-06",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null,
+    "phone_local": null
+  },
+  {
+    "slug": "niju-mayfair-japanese-dining",
+    "name": "NIJŪ",
+    "name_ja": "ニジュ",
+    "area": "Mayfair",
+    "address": "20 Berkeley Street, Mayfair, London W1J 8DY, United Kingdom",
+    "phone": "+44-20-3409-1333",
+    "email": null,
+    "website": "https://nijulondon.com/",
+    "source_url": "https://nijulondon.com/",
+    "description": "メイフェアの高級日本料理店。シェフ遠藤和利によるオマカセスタイルのダイニング。",
+    "detail": "NIJūはメイフェア地区にある高級日本料理レストラン。オマカセスタイルの日本式ダイニングを提供。",
+    "menu": [
+      "オマカセ",
+      "和食"
+    ],
+    "price_range": "£120-200",
+    "tags": [
+      "日本料理",
+      "オマカセ",
+      "メイフェア"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-04-06",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null,
+    "phone_local": null
   }
 ]
