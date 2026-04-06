@@ -203,16 +203,18 @@ export default async function JobsIndexPage({
 
           {/* フッターCTA */}
           <section className="mt-10 bg-white dark:bg-stone-800 rounded-2xl border border-stone-100 dark:border-stone-700 p-6 text-center">
-            <p className="text-sm text-stone-600 dark:text-stone-400">
-              求人情報の掲載・修正は
-              <Link
-                href="/contact"
-                className="text-blue-600 dark:text-blue-400 hover:underline font-medium ml-1"
-              >
-                こちら
-              </Link>
-              からお知らせください（無料）
+            <p className="text-sm font-semibold text-stone-700 dark:text-stone-200 mb-2">
+              求人情報を掲載したい方へ
             </p>
+            <p className="text-sm text-stone-500 dark:text-stone-400 mb-4">
+              {country.name}の日本人向け求人を無料で掲載できます。
+            </p>
+            <Link
+              href={`/${code}/jobs/new`}
+              className="inline-flex items-center gap-2 px-5 py-2.5 bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold rounded-xl transition-colors"
+            >
+              求人情報を掲載する（無料）
+            </Link>
           </section>
         </div>
       </main>
