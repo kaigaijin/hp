@@ -555,5 +555,53 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null
+  },
+  {
+    "slug": "aia-thailand-health-insurance",
+    "name": "AIA Thailand PCL",
+    "name_ja": "AIA タイランド",
+    "area": "Bangkok",
+    "address": "AIA Tower, 24 Witthayu Road, Pathumwan, Bangkok 10330, Thailand",
+    "phone": null,
+    "website": "https://www.aia.com/th",
+    "source_url": "https://www.aia.com/th",
+    "description": "香港発のアジア最大手生命保険会社のタイ支社。バンコクのAIAタワーに拠点。医療保険・生命保険・貯蓄型保険・団体保険を提供。日本人向けの医療保険プランも充実。",
+    "tags": [
+      "医療保険",
+      "生命保険",
+      "日本人向け",
+      "アジア最大手"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-04-06",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
+  },
+  {
+    "slug": "prudential-thailand-insurance",
+    "name": "Prudential Thailand Public Co., Ltd.",
+    "name_ja": "プルデンシャル タイランド",
+    "area": "Bangkok",
+    "address": "Bangkok, Thailand",
+    "phone": null,
+    "website": "https://www.prudential.co.th/",
+    "source_url": "https://www.prudential.co.th/",
+    "description": "アメリカ系大手保険会社のタイ支社。タイで最大規模の生命保険会社。医療保険・生命保険・投資連動型保険を提供。日本人向けのカスタマイズプランも可能。",
+    "tags": [
+      "医療保険",
+      "生命保険",
+      "投資型保険",
+      "タイ最大手"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-04-06",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
   }
 ]

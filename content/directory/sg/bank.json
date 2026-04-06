@@ -981,5 +981,51 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null
+  },
+  {
+    "slug": "dbs-private-banking-singapore",
+    "name": "DBS Private Banking",
+    "name_ja": "DBSプライベートバンキング",
+    "area": "Marina Bay",
+    "address": "6 Shenton Way, #10-00 OUE Downtown, Singapore 068809",
+    "phone": null,
+    "website": "https://www.dbs.com/private/en/singapore/",
+    "source_url": "https://www.dbs.com/private/en/singapore/",
+    "description": "東南アジア最大手銀行DBSのプライベートバンキング部門。富裕層向けウェルスマネジメント・投資顧問・資産管理サービスを提供。日本人駐在員・起業家向けのカスタマイズプランあり。",
+    "tags": [
+      "プライベートバンク",
+      "富裕層向け",
+      "資産管理"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-04-06",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
+  },
+  {
+    "slug": "ocbc-private-banking-singapore",
+    "name": "OCBC Private Banking",
+    "name_ja": "OCBCプライベートバンキング",
+    "area": "Raffles Place",
+    "address": "65 Chulia Street, OCBC Centre, Singapore 049514",
+    "phone": null,
+    "website": "https://www.ocbc.com/personal/private-banking",
+    "source_url": "https://www.ocbc.com/personal/private-banking",
+    "description": "シンガポール第2位の銀行OCBCのプライベートバンキング部門。富裕層向けの資産管理・国際投資・相続対策をワンストップで提供。日本語対応スタッフが在籍。",
+    "tags": [
+      "プライベートバンク",
+      "資産管理",
+      "日本語対応"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-04-06",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
   }
 ]

@@ -366,5 +366,78 @@
     "place_id": "",
     "priority": 0,
     "ai_reviewed": true
+  },
+  {
+    "slug": "busan-bank-foreign-service",
+    "name": "Busan Bank (Foreign Service)",
+    "name_ja": "釜山銀行 外国人向けサービス",
+    "area": "Busan (nationwide)",
+    "address": "Busan, South Korea",
+    "lat": null,
+    "lng": null,
+    "phone": null,
+    "website": "https://www.busanbank.co.kr/",
+    "description": "釜山地域最大の銀行。外国人向けサービスも充実しており、釜山駐在員や長期滞在者の口座開設に対応。",
+    "tags": [
+      "釜山銀行",
+      "外国人対応",
+      "釜山"
+    ],
+    "hours": "平日 09:00-16:00",
+    "last_verified": "2026-04-06",
+    "status": "unverified",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
+  },
+  {
+    "slug": "dankook-bank-foreign",
+    "name": "Dankook Bank (Foreign Customer Service)",
+    "name_ja": "淡国銀行 外国人カスタマーサービス",
+    "area": "Seoul (nationwide)",
+    "address": "Seoul, South Korea",
+    "lat": null,
+    "lng": null,
+    "phone": null,
+    "website": "https://www.dankook.com/",
+    "description": "韓国全国で外国人向けサービスを提供する金融機関。英語対応で、在韓外国人の口座開設・送金に対応。",
+    "tags": [
+      "外国人対応",
+      "英語対応",
+      "全国展開"
+    ],
+    "hours": "平日 09:00-16:00",
+    "last_verified": "2026-04-06",
+    "status": "unverified",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
+  },
+  {
+    "slug": "jeju-bank-foreign-service",
+    "name": "Jeju Bank (Foreign Service)",
+    "name_ja": "済州銀行 外国人向けサービス",
+    "area": "Jeju (nationwide)",
+    "address": "Jeju, South Korea",
+    "lat": null,
+    "lng": null,
+    "phone": null,
+    "website": "https://www.jejubank.co.kr/",
+    "description": "済州島地域の銀行。観光客・長期滞在外国人向けのサービスが充実。英語対応で利用しやすい。",
+    "tags": [
+      "済州銀行",
+      "外国人対応",
+      "済州島",
+      "観光地"
+    ],
+    "hours": "平日 09:00-16:00",
+    "last_verified": "2026-04-06",
+    "status": "unverified",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
   }
 ]

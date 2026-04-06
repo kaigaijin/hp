@@ -449,5 +449,74 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null
+  },
+  {
+    "slug": "toshiba-service-center-chatujak",
+    "name": "Toshiba Service Center",
+    "name_ja": "東芝サービスセンター",
+    "area": "Chatujak",
+    "address": "201 Vibhavadee Rangsit Road, Chatujak, Bangkok 10900, Thailand",
+    "phone": "+66251177777",
+    "website": "https://www.toshiba-lifestyle.com/th-en/service",
+    "source_url": "https://www.toshiba-lifestyle.com/th-en/service",
+    "description": "東芝の正規サービスセンター。チャットチャック地区に所在。冷蔵庫・洗濯機・エアコン等の日本製家電の修理に対応。LINE予約可。日本人利用者多数。",
+    "tags": [
+      "日本製家電",
+      "修理",
+      "正規サービス"
+    ],
+    "hours": "Monday: 8:30 AM – 5:00 PM / Tuesday: 8:30 AM – 5:00 PM / Wednesday: 8:30 AM – 5:00 PM / Thursday: 8:30 AM – 5:00 PM / Friday: 8:30 AM – 5:00 PM / Saturday: 9:00 AM – 4:00 PM / Sunday: Closed",
+    "status": "unverified",
+    "last_verified": "2026-04-06",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
+  },
+  {
+    "slug": "bosch-home-appliances-service-bangkok",
+    "name": "Bosch Home Appliances Service Thailand",
+    "name_ja": "ボッシュ ホーム アプライアンス サービス",
+    "area": "Bangkok",
+    "address": "Bangkok, Thailand",
+    "phone": "+66249524424",
+    "website": "https://www.bosch-home.in.th/en/service/repair-service",
+    "source_url": "https://www.bosch-home.in.th/en/service/repair-service",
+    "description": "ボッシュの正規修理サービス。食器洗い機・洗濯機・オーブンなど大型家電の修理に対応。熟練エンジニアが出張修理を行い、バンコク市内全域で利用可能。",
+    "tags": [
+      "大型家電",
+      "修理",
+      "出張修理"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-04-06",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
+  },
+  {
+    "slug": "electrolux-service-thailand",
+    "name": "Electrolux Repair Services",
+    "name_ja": "エレクトロラックス サービス",
+    "area": "Bangkok",
+    "address": "Bangkok, Nonthaburi, Pathumthani, Samut Prakan",
+    "phone": null,
+    "website": "https://www.electrolux.co.th/en-th/repair-services/23317/",
+    "source_url": "https://www.electrolux.co.th/en-th/repair-services/23317/",
+    "description": "スウェーデン発の電化製品メーカー「エレクトロラックス」の正規修理サービス。冷蔵庫・エアコン・洗濯機などの在宅修理に対応。バンコク・ノンタブリ地域で利用可能。",
+    "tags": [
+      "家電修理",
+      "在宅修理",
+      "正規サービス"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-04-06",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
   }
 ]
