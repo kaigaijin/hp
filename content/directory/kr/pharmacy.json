@@ -411,5 +411,53 @@
     "place_id": "",
     "priority": 0,
     "ai_reviewed": true
+  },
+  {
+    "slug": "gangnam-orange-pharmacy-seoul",
+    "name": "Gangnam Orange Pharmacy",
+    "name_ja": "ギャンガムオレンジ薬局",
+    "area": "Gangnam-gu",
+    "address": "Nonhyeon-dong, Gangnam-gu, Seoul",
+    "lat": null,
+    "lng": null,
+    "phone": "+82254955011",
+    "website": null,
+    "description": "24時間営業のギャンガム薬局。ノンヒョン洞に位置し、駐在員向けの処方箋対応・医薬品取扱が充実。日本の風邪薬等の医療用医薬品もリクエスト対応。",
+    "tags": [
+      "24時間営業",
+      "処方箋対応",
+      "ギャンガム"
+    ],
+    "hours": "24時間営業",
+    "status": "unverified",
+    "last_verified": "2026-04-06",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
+  },
+  {
+    "slug": "onnuri-pharmacy-gangnam-24h",
+    "name": "Onnuri Pharmacy - Gangnam 24H",
+    "name_ja": "オンヌリ薬局 ギャンガム24時間店",
+    "area": "Gangnam-gu",
+    "address": "Nonhyeon-dong, Gangnam-gu, Seoul",
+    "lat": null,
+    "lng": null,
+    "phone": "+82254600093",
+    "website": null,
+    "description": "24時間営業の薬局チェーン。ノンヒョン洞の店舗は外国人利用が多く、英語対応スタッフが常駐。救急対応も可能。夜間の医薬品取得に便利。",
+    "tags": [
+      "24時間営業",
+      "英語対応",
+      "処方箋"
+    ],
+    "hours": "24時間営業",
+    "status": "unverified",
+    "last_verified": "2026-04-06",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
   }
 ]

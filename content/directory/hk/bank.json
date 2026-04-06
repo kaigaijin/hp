@@ -660,5 +660,53 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null
+  },
+  {
+    "slug": "hsbc-hong-kong-central-main",
+    "name": "HSBC Hong Kong - Central Main Branch",
+    "name_ja": "HSBC香港 セントラル本支店",
+    "area": "Central",
+    "address": "1 Queen's Road, Central, Hong Kong",
+    "lat": null,
+    "lng": null,
+    "phone": "+85225885888",
+    "website": "https://www.hsbc.com.hk",
+    "description": "香港の主要銀行HSBC。多言語対応窓口があり、外国人の口座開設に対応。国際送金・外貨両替が充実。セントラル駅直結で立地最高。",
+    "tags": [
+      "外国人対応",
+      "国際送金",
+      "両替"
+    ],
+    "hours": "平日 09:00-17:00, 土曜 09:00-13:00",
+    "status": "unverified",
+    "last_verified": "2026-04-06",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
+  },
+  {
+    "slug": "bank-of-china-hong-kong-tsim-sha-tsui",
+    "name": "Bank of China - Tsim Sha Tsui",
+    "name_ja": "中国銀行 尖沙咀支店",
+    "area": "Tsim Sha Tsui",
+    "address": "Tsim Sha Tsui, Hong Kong",
+    "lat": null,
+    "lng": null,
+    "phone": "+85220183388",
+    "website": "https://www.bochk.com",
+    "description": "中国銀行香港。外国人向けの口座開設サービスを提供。英語対応スタッフが在籍。国際送金・両替に対応。尖沙咀に位置し観光客にもアクセス良好。",
+    "tags": [
+      "外国人対応",
+      "英語対応",
+      "国際送金"
+    ],
+    "hours": "平日 09:00-17:00",
+    "status": "unverified",
+    "last_verified": "2026-04-06",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
   }
 ]

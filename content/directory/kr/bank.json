@@ -439,5 +439,102 @@
     "place_id": "",
     "priority": 0,
     "ai_reviewed": true
+  },
+  {
+    "slug": "kb-kookmin-bank-gangnam",
+    "name": "KB Kookmin Bank - Gangnam Branch",
+    "name_ja": "国民銀行（ギャンガム支店）",
+    "area": "Gangnam-gu",
+    "address": "507 Teheran-ro, Gangnam-gu, Seoul",
+    "lat": null,
+    "lng": null,
+    "phone": "+82234537424",
+    "website": "https://www.kbstar.com",
+    "description": "外国人向けサービスに定評のあるKB国民銀行のギャンガム支店。多言語対応スタッフが在籍し、外国人登録証があれば口座開設可能。Samsung駅より400メートル。",
+    "tags": [
+      "外国人対応",
+      "多言語対応",
+      "口座開設"
+    ],
+    "hours": "平日 09:00-18:00",
+    "status": "unverified",
+    "last_verified": "2026-04-06",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
+  },
+  {
+    "slug": "hana-bank-gangnam-foreign-exchange",
+    "name": "KEB Hana Bank - Gangnam Foreign Exchange Center",
+    "name_ja": "하나銀行 ギャンガム外国為替センター",
+    "area": "Gangnam-gu",
+    "address": "152 Teheran-ro, Gangnam-gu, Seoul",
+    "lat": null,
+    "lng": null,
+    "phone": "+82225281580",
+    "website": "https://www.kebhana.com",
+    "description": "外国人対応に最も定評があるKEB Hana銀行の外国為替センター。海外送金・両替に特化。16の外国人向け専用支店を展開。テヘラン路に位置しアクセス良好。",
+    "tags": [
+      "外国人対応",
+      "海外送金",
+      "両替",
+      "英語対応"
+    ],
+    "hours": "平日 09:00-17:00",
+    "status": "unverified",
+    "last_verified": "2026-04-06",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
+  },
+  {
+    "slug": "woori-bank-myeongdong",
+    "name": "Woori Bank - Myeongdong Branch",
+    "name_ja": "ウリ銀行 明洞支店",
+    "area": "Jung-gu",
+    "address": "33-2 Myeongdong 2-ga, Jung-gu, Seoul",
+    "lat": null,
+    "lng": null,
+    "phone": "+82277744011",
+    "website": "https://www.wooribank.com",
+    "description": "外国人向けサービスで定評のあるウリ銀行の明洞支店。スマホバンキングが充実しており、英語・中国語対応。日曜営業の外国人向け窓口も有。",
+    "tags": [
+      "外国人対応",
+      "スマホバンキング",
+      "日曜営業"
+    ],
+    "hours": "平日 09:00-18:00, 日曜 10:00-17:00（窓口による）",
+    "status": "unverified",
+    "last_verified": "2026-04-06",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
+  },
+  {
+    "slug": "shinhan-bank-gangnam",
+    "name": "Shinhan Bank - Gangnam Main Branch",
+    "name_ja": "新韓銀行 ギャンガムメイン支店",
+    "area": "Gangnam-gu",
+    "address": "Gangnam-gu, Seoul",
+    "lat": null,
+    "lng": null,
+    "phone": "+82214776000",
+    "website": "https://www.shinhanbank.com",
+    "description": "新韓銀行はShinhan Cardで知られる韓国大手銀行。英語対応スタッフが常駐し、海外送金・両替サービスが充実。給与振込先として指定できる。",
+    "tags": [
+      "外国人対応",
+      "給与振込",
+      "海外送金"
+    ],
+    "hours": "平日 09:00-16:00",
+    "status": "unverified",
+    "last_verified": "2026-04-06",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
   }
 ]

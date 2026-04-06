@@ -571,5 +571,53 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null
+  },
+  {
+    "slug": "cleary-gottlieb-hong-kong-causeway-bay",
+    "name": "Cleary Gottlieb Steen & Hamilton - Hong Kong",
+    "name_ja": "クレアリー・ゴットリーブ香港事務所",
+    "area": "Causeway Bay",
+    "address": "37/F Hysan Place, 500 Hennessy Road, Causeway Bay, Hong Kong",
+    "lat": null,
+    "lng": null,
+    "phone": "+85225214122",
+    "website": "https://www.clearygottlieb.com",
+    "description": "米系大手弁護士事務所のアジア拠点。日本語対応可能な弁護士が在籍。M&A・企業法務・訴訟に関わる日系企業の相談に対応。Causeway Bay駅より徒歩5分。",
+    "tags": [
+      "英米法弁護士",
+      "M&A対応",
+      "企業法務"
+    ],
+    "hours": "平日 09:00-18:00",
+    "status": "unverified",
+    "last_verified": "2026-04-06",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
+  },
+  {
+    "slug": "deacons-hong-kong-central",
+    "name": "Deacons - Central Office",
+    "name_ja": "ディーコンズ セントラル事務所",
+    "area": "Central",
+    "address": "One Taikoo Place, 979 King's Road, Quarry Bay, Hong Kong",
+    "lat": null,
+    "lng": null,
+    "phone": "+85228411888",
+    "website": "https://www.deacons.com",
+    "description": "香港の大手弁護士事務所。香港法・国際商取引・不動産法に強い。日系企業のビザ相談・不動産取引・契約交渉に対応。香港法弁護士資格を持つスタッフ在籍。",
+    "tags": [
+      "香港法弁護士",
+      "不動産取引",
+      "契約"
+    ],
+    "hours": "平日 09:00-18:00",
+    "status": "unverified",
+    "last_verified": "2026-04-06",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
   }
 ]

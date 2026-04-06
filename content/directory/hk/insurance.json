@@ -629,5 +629,29 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null
+  },
+  {
+    "slug": "aig-hong-kong-insurance",
+    "name": "AIG Hong Kong - Insurance",
+    "name_ja": "AIG香港 保険部門",
+    "area": "Hong Kong",
+    "address": "Hong Kong",
+    "lat": null,
+    "lng": null,
+    "phone": "+85225868888",
+    "website": "https://www.aig.com.hk",
+    "description": "国際保険会社AIG。駐在員向けの健康保険・生命保険プランが充実。日本語対応可能。保険料の見積もり・契約・クレーム対応まで一括サポート。",
+    "tags": [
+      "日本語対応",
+      "健康保険",
+      "生命保険"
+    ],
+    "hours": "平日 09:00-17:30",
+    "status": "unverified",
+    "last_verified": "2026-04-06",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
   }
 ]

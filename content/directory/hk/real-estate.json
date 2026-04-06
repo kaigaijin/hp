@@ -588,5 +588,53 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null
+  },
+  {
+    "slug": "knight-frank-hong-kong-central",
+    "name": "Knight Frank Hong Kong - Central",
+    "name_ja": "ナイトフランク香港 セントラル",
+    "area": "Central",
+    "address": "Unit 2101, 21/F, Tower 535 Kings Road, North Point, Hong Kong",
+    "lat": null,
+    "lng": null,
+    "phone": "+85229008900",
+    "website": "https://www.knightfrank.com",
+    "description": "国際的な不動産会社。香港での住宅購入・賃貸・投資に関する日本語対応可能。駐在員家族向けのハウジング情報に詳しい。セントラル・尖沙咀・湾仔などの主要エリアに多くの物件情報を保有。",
+    "tags": [
+      "不動産仲介",
+      "日本語対応",
+      "駐在員向け"
+    ],
+    "hours": "平日 09:00-18:00",
+    "status": "unverified",
+    "last_verified": "2026-04-06",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
+  },
+  {
+    "slug": "colliers-hong-kong-residential",
+    "name": "Colliers Hong Kong - Residential",
+    "name_ja": "コリアーズ香港 住宅部門",
+    "area": "Hong Kong",
+    "address": "Hong Kong",
+    "lat": null,
+    "lng": null,
+    "phone": "+85229869666",
+    "website": "https://www.colliers.com/hk",
+    "description": "総合不動産サービス企業。香港での賃貸物件・購入物件に対応。日本語対応スタッフが複数在籍。駐在員向けのホームサーチサービスが充実している。",
+    "tags": [
+      "不動産仲介",
+      "日本語対応",
+      "住宅"
+    ],
+    "hours": "平日 09:00-18:00",
+    "status": "unverified",
+    "last_verified": "2026-04-06",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
   }
 ]
