@@ -25,6 +25,8 @@ import {
   ArrowRight,
   CalendarDays,
   Clock,
+  ArrowLeft,
+  AlertCircle,
 } from "lucide-react";
 import type { Metadata } from "next";
 
@@ -34,7 +36,7 @@ export const dynamicParams = true;
 export const revalidate = false;
 
 export function generateStaticParams() {
-  // スポットと同様にオンデマンド生成
+  // オンデマンド生成
   return [];
 }
 
@@ -80,12 +82,16 @@ export default async function JobDetailPage({
   const companyName = job.company_ja ?? job.company;
   const salary = formatSalary(job);
 
-  // 同業種の他求人
   const otherJobs = getJobsByIndustry(code, indSlug).filter(
     (j) => j.slug !== slug,
   );
 
-  // JSON-LD: JobPosting schema
+  // 応募先URL（contact_url優先、なければcontact_emailのmailto:）
+  const applyUrl =
+    job.contact_url ??
+    (job.contact_email ? `mailto:${job.contact_email}` : null);
+
+  // JSON-LD: JobPosting
   const jobPostingJsonLd = {
     "@context": "https://schema.org",
     "@type": "JobPosting",
@@ -170,15 +176,31 @@ export default async function JobDetailPage({
     ],
   };
 
-  // 応募先URL（contact_url優先、なければcontact_emailのmailto:）
-  const applyUrl =
-    job.contact_url ??
-    (job.contact_email ? `mailto:${job.contact_email}` : null);
+  // 雇用形態バッジ色
+  const empBadge: Record<string, { bg: string; text: string }> = {
+    fulltime: {
+      bg: "bg-indigo-50 dark:bg-indigo-900/30",
+      text: "text-indigo-700 dark:text-indigo-400",
+    },
+    parttime: {
+      bg: "bg-teal-50 dark:bg-teal-900/30",
+      text: "text-teal-700 dark:text-teal-400",
+    },
+    contract: {
+      bg: "bg-amber-50 dark:bg-amber-900/30",
+      text: "text-amber-700 dark:text-amber-400",
+    },
+    freelance: {
+      bg: "bg-violet-50 dark:bg-violet-900/30",
+      text: "text-violet-700 dark:text-violet-400",
+    },
+  };
+  const badge = empBadge[job.employment_type] ?? empBadge.fulltime;
 
   return (
     <>
       <Header />
-      <main className="bg-sand-50 dark:bg-stone-950 min-h-screen">
+      <main className="bg-stone-50 dark:bg-stone-950 min-h-screen">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jobPostingJsonLd) }}
@@ -188,31 +210,25 @@ export default async function JobDetailPage({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
         />
 
-        {/* パンくず */}
+        {/* ─── パンくず ────────────────────────────── */}
         <div className="bg-white dark:bg-stone-900 border-b border-stone-100 dark:border-stone-800">
           <div className="max-w-5xl mx-auto px-4 py-3">
             <nav className="flex items-center gap-1.5 text-xs text-stone-400 flex-wrap">
-              <Link href="/" className="hover:text-warm-600 transition-colors">
+              <Link href="/" className="hover:text-indigo-600 transition-colors">
                 トップ
               </Link>
               <ChevronRight size={12} />
-              <Link
-                href={`/${code}`}
-                className="hover:text-warm-600 transition-colors"
-              >
+              <Link href={`/${code}`} className="hover:text-indigo-600 transition-colors">
                 {country.flag} {country.name}
               </Link>
               <ChevronRight size={12} />
-              <Link
-                href={`/${code}/jobs`}
-                className="hover:text-warm-600 transition-colors"
-              >
+              <Link href={`/${code}/jobs`} className="hover:text-indigo-600 transition-colors">
                 求人情報
               </Link>
               <ChevronRight size={12} />
               <Link
                 href={`/${code}/jobs/${indSlug}`}
-                className="hover:text-warm-600 transition-colors"
+                className="hover:text-indigo-600 transition-colors"
               >
                 {industry.label}
               </Link>
@@ -220,121 +236,121 @@ export default async function JobDetailPage({
           </div>
         </div>
 
-        {/* ヒーローエリア */}
-        <div className="bg-gradient-to-b from-blue-50 to-sand-50 dark:from-blue-950/30 dark:to-stone-950 border-b border-stone-100 dark:border-stone-800">
+        {/* ─── ヒーローエリア ────────────────────────── */}
+        <div className="bg-gradient-to-b from-indigo-50 to-stone-50 dark:from-indigo-950/40 dark:to-stone-950 border-b border-stone-100 dark:border-stone-800">
           <div className="max-w-5xl mx-auto px-4 py-10 md:py-14">
-            {/* 業種バッジ */}
-            <div className="inline-flex items-center gap-2 bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
-              <BriefcaseBusiness size={14} />
-              {industry.label}
-              <span className="text-blue-400 dark:text-blue-500">
-                /{EMPLOYMENT_TYPE_LABELS[job.employment_type]}
+            {/* 業種バッジ + 雇用形態バッジ */}
+            <div className="flex flex-wrap items-center gap-2 mb-5">
+              <span className="inline-flex items-center gap-1.5 text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-900/30 text-xs font-semibold px-3 py-1.5 rounded-full">
+                <BriefcaseBusiness size={13} />
+                {industry.label}
+              </span>
+              <span
+                className={`inline-flex items-center text-xs font-semibold px-3 py-1.5 rounded-full ${badge.bg} ${badge.text}`}
+              >
+                {EMPLOYMENT_TYPE_LABELS[job.employment_type]}
               </span>
             </div>
 
             {/* 求人タイトル */}
-            <h1 className="heading-editorial text-3xl md:text-4xl font-bold text-stone-900 dark:text-stone-50 mb-2 leading-tight">
+            <h1 className="text-3xl md:text-4xl font-extrabold text-stone-900 dark:text-stone-50 mb-3 leading-tight tracking-tight">
               {job.title}
             </h1>
 
             {/* 企業名 */}
-            <p className="text-stone-500 dark:text-stone-400 text-base mb-4">
+            <p className="text-stone-500 dark:text-stone-400 text-lg font-medium mb-5">
               {companyName}
               {job.company_ja && job.company !== job.company_ja && (
-                <span className="text-stone-400 dark:text-stone-500 text-sm ml-2">
+                <span className="text-stone-400 dark:text-stone-500 text-sm ml-2 font-normal">
                   / {job.company}
                 </span>
               )}
             </p>
 
-            {/* 勤務地 */}
-            <div className="flex flex-wrap gap-3 mb-4">
+            {/* メタ情報 */}
+            <div className="flex flex-wrap gap-4 mb-6">
               <span className="flex items-center gap-1.5 text-sm text-stone-500 dark:text-stone-400">
-                <MapPin size={14} />
+                <MapPin size={15} className="text-indigo-400" />
                 {job.location}
                 {job.nearest_station && (
                   <span className="text-stone-400">（{job.nearest_station}）</span>
                 )}
               </span>
               <span className="flex items-center gap-1.5 text-sm text-stone-500 dark:text-stone-400">
-                <DollarSign size={14} />
+                <DollarSign size={15} className="text-indigo-400" />
                 {salary}
               </span>
+              {job.language_requirement && (
+                <span className="flex items-center gap-1.5 text-sm text-stone-500 dark:text-stone-400">
+                  <Languages size={15} className="text-indigo-400" />
+                  {job.language_requirement}
+                </span>
+              )}
             </div>
 
             {/* description */}
-            <p className="text-stone-600 dark:text-stone-300 leading-relaxed max-w-2xl">
+            <p className="text-stone-600 dark:text-stone-300 leading-relaxed max-w-2xl text-base">
               {job.description}
             </p>
 
             {/* 未確認注記 */}
             {job.status === "unverified" && (
-              <p className="mt-3 text-xs text-stone-400 italic">
-                ※ この情報はWeb上のデータを元に掲載しています。応募前に公式サイトをご確認ください。
-              </p>
+              <div className="mt-4 flex items-start gap-2 text-xs text-stone-400">
+                <AlertCircle size={13} className="shrink-0 mt-0.5" />
+                <span>
+                  この情報はWeb上のデータを元に掲載しています。応募前に公式サイトをご確認ください。
+                </span>
+              </div>
             )}
-          </div>
-        </div>
 
-        {/* アクションバー */}
-        <div className="bg-white dark:bg-stone-900 border-b border-stone-100 dark:border-stone-800 sticky top-16 z-40">
-          <div className="max-w-5xl mx-auto px-4 py-3 flex items-center gap-3">
+            {/* モバイル用応募ボタン（ヒーロー内） */}
             {applyUrl && (
               <a
                 href={applyUrl}
                 target={job.contact_url ? "_blank" : undefined}
                 rel={job.contact_url ? "noopener noreferrer" : undefined}
-                className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white rounded-full px-5 py-2 text-sm font-semibold transition-colors"
+                className="mt-6 inline-flex items-center gap-2 bg-gradient-to-r from-indigo-600 to-indigo-500 hover:from-indigo-700 hover:to-indigo-600 text-white font-bold px-7 py-3.5 rounded-xl transition shadow-md shadow-indigo-200 dark:shadow-none text-sm"
               >
-                <ExternalLink size={14} />
-                応募する
+                <ExternalLink size={15} />
+                この求人に応募する
               </a>
             )}
-            {/* タグ */}
-            {job.tags.length > 0 && (
-              <div className="hidden md:flex items-center gap-1.5">
-                {job.tags.slice(0, 4).map((tag) => (
-                  <span
-                    key={tag}
-                    className="text-xs font-medium text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/30 px-2.5 py-1 rounded-full"
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </div>
-            )}
-            <div className="flex-1" />
           </div>
         </div>
 
-        {/* メインコンテンツ */}
-        <div className="max-w-5xl mx-auto px-4 py-8">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-            {/* 左カラム */}
-            <div className="lg:col-span-2 space-y-6">
-              {/* タグ（モバイル） */}
-              {job.tags.length > 0 && (
-                <div className="md:hidden flex flex-wrap gap-2">
-                  {job.tags.map((tag) => (
-                    <span
-                      key={tag}
-                      className="text-xs text-stone-600 dark:text-stone-300 bg-stone-100 dark:bg-stone-800 px-3 py-1 rounded-full"
-                    >
-                      {tag}
-                    </span>
-                  ))}
-                </div>
-              )}
+        {/* ─── タグバー ──────────────────────────────── */}
+        {job.tags.length > 0 && (
+          <div className="bg-white dark:bg-stone-900 border-b border-stone-100 dark:border-stone-800">
+            <div className="max-w-5xl mx-auto px-4 py-3 flex flex-wrap gap-2">
+              {job.tags.map((tag) => (
+                <span
+                  key={tag}
+                  className="text-xs font-medium text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-900/30 px-3 py-1 rounded-full"
+                >
+                  {tag}
+                </span>
+              ))}
+            </div>
+          </div>
+        )}
 
-              {/* 詳細説明 */}
+        {/* ─── メインコンテンツ（2カラム） ───────────── */}
+        <div className="max-w-5xl mx-auto px-4 py-8">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-7">
+
+            {/* ─── 左カラム（メイン） ─── */}
+            <div className="lg:col-span-2 space-y-6">
+
+              {/* 仕事内容 */}
               {job.detail && (
-                <div className="bg-white dark:bg-stone-900 rounded-2xl border border-stone-100 dark:border-stone-800 overflow-hidden">
-                  <div className="px-5 py-3 border-b border-stone-50 dark:border-stone-800 bg-stone-50 dark:bg-stone-800/50">
-                    <h2 className="text-xs font-semibold text-stone-500 dark:text-stone-400 uppercase tracking-wider">
+                <div className="bg-white dark:bg-stone-900 rounded-2xl border border-stone-200 dark:border-stone-800 overflow-hidden">
+                  <div className="px-6 py-4 border-b border-stone-100 dark:border-stone-800">
+                    <h2 className="text-sm font-bold text-stone-700 dark:text-stone-200 flex items-center gap-2">
+                      <span className="w-1.5 h-4 bg-indigo-500 rounded-full inline-block" />
                       仕事内容
                     </h2>
                   </div>
-                  <div className="p-5">
+                  <div className="px-6 py-5">
                     <p className="text-sm text-stone-700 dark:text-stone-300 leading-relaxed whitespace-pre-wrap">
                       {job.detail}
                     </p>
@@ -344,13 +360,14 @@ export default async function JobDetailPage({
 
               {/* 応募要件 */}
               {job.requirements && (
-                <div className="bg-white dark:bg-stone-900 rounded-2xl border border-stone-100 dark:border-stone-800 overflow-hidden">
-                  <div className="px-5 py-3 border-b border-stone-50 dark:border-stone-800 bg-stone-50 dark:bg-stone-800/50">
-                    <h2 className="text-xs font-semibold text-stone-500 dark:text-stone-400 uppercase tracking-wider">
+                <div className="bg-white dark:bg-stone-900 rounded-2xl border border-stone-200 dark:border-stone-800 overflow-hidden">
+                  <div className="px-6 py-4 border-b border-stone-100 dark:border-stone-800">
+                    <h2 className="text-sm font-bold text-stone-700 dark:text-stone-200 flex items-center gap-2">
+                      <span className="w-1.5 h-4 bg-teal-500 rounded-full inline-block" />
                       応募要件
                     </h2>
                   </div>
-                  <div className="p-5">
+                  <div className="px-6 py-5">
                     <p className="text-sm text-stone-700 dark:text-stone-300 leading-relaxed whitespace-pre-wrap">
                       {job.requirements}
                     </p>
@@ -360,13 +377,14 @@ export default async function JobDetailPage({
 
               {/* 福利厚生 */}
               {job.benefits && (
-                <div className="bg-white dark:bg-stone-900 rounded-2xl border border-stone-100 dark:border-stone-800 overflow-hidden">
-                  <div className="px-5 py-3 border-b border-stone-50 dark:border-stone-800 bg-stone-50 dark:bg-stone-800/50">
-                    <h2 className="text-xs font-semibold text-stone-500 dark:text-stone-400 uppercase tracking-wider">
+                <div className="bg-white dark:bg-stone-900 rounded-2xl border border-stone-200 dark:border-stone-800 overflow-hidden">
+                  <div className="px-6 py-4 border-b border-stone-100 dark:border-stone-800">
+                    <h2 className="text-sm font-bold text-stone-700 dark:text-stone-200 flex items-center gap-2">
+                      <span className="w-1.5 h-4 bg-amber-400 rounded-full inline-block" />
                       待遇・福利厚生
                     </h2>
                   </div>
-                  <div className="p-5">
+                  <div className="px-6 py-5">
                     <p className="text-sm text-stone-700 dark:text-stone-300 leading-relaxed whitespace-pre-wrap">
                       {job.benefits}
                     </p>
@@ -377,10 +395,11 @@ export default async function JobDetailPage({
               {/* 他の求人 */}
               {otherJobs.length > 0 && (
                 <div>
-                  <h2 className="text-sm font-semibold text-stone-600 dark:text-stone-300 mb-3">
+                  <h2 className="text-sm font-bold text-stone-600 dark:text-stone-300 mb-4 flex items-center gap-2">
+                    <BriefcaseBusiness size={15} className="text-indigo-400" />
                     {industry.label}の他の求人
                   </h2>
-                  <div className="space-y-3">
+                  <div className="space-y-4">
                     {otherJobs.slice(0, 3).map((j) => (
                       <JobCard
                         key={j.slug}
@@ -394,47 +413,91 @@ export default async function JobDetailPage({
               )}
             </div>
 
-            {/* 右サイドバー */}
-            <div className="space-y-4 lg:sticky lg:top-28 lg:self-start">
+            {/* ─── 右サイドバー（スティッキー） ─── */}
+            <div className="space-y-4 lg:sticky lg:top-24 lg:self-start">
+
+              {/* 応募カード */}
+              {applyUrl && (
+                <div className="bg-gradient-to-br from-indigo-600 to-indigo-500 dark:from-indigo-800 dark:to-indigo-700 rounded-2xl p-5">
+                  <p className="text-white font-bold text-base mb-1">
+                    この求人に応募する
+                  </p>
+                  <p className="text-indigo-200 text-xs mb-4 leading-relaxed">
+                    公式サイトまたはメールから直接応募できます。
+                  </p>
+                  <a
+                    href={applyUrl}
+                    target={job.contact_url ? "_blank" : undefined}
+                    rel={job.contact_url ? "noopener noreferrer" : undefined}
+                    className="flex items-center justify-center gap-2 w-full bg-white text-indigo-700 hover:bg-indigo-50 rounded-xl py-3 text-sm font-bold transition shadow"
+                  >
+                    <ExternalLink size={14} />
+                    応募する
+                  </a>
+                  {job.contact_email && job.contact_url && (
+                    <a
+                      href={`mailto:${job.contact_email}`}
+                      className="flex items-center justify-center gap-2 w-full mt-2 bg-indigo-700/50 hover:bg-indigo-700/70 text-white rounded-xl py-2.5 text-xs font-medium transition"
+                    >
+                      <Mail size={13} />
+                      メールで問い合わせ
+                    </a>
+                  )}
+                </div>
+              )}
+
+              {/* メール応募のみの場合 */}
+              {!job.contact_url && job.contact_email && (
+                <div className="bg-white dark:bg-stone-900 rounded-2xl border border-stone-200 dark:border-stone-800 p-5">
+                  <p className="text-sm font-bold text-stone-700 dark:text-stone-200 mb-3">
+                    応募方法
+                  </p>
+                  <a
+                    href={`mailto:${job.contact_email}`}
+                    className="flex items-center justify-center gap-2 w-full bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl py-3 text-sm font-bold transition"
+                  >
+                    <Mail size={14} />
+                    メールで応募する
+                  </a>
+                </div>
+              )}
+
               {/* 基本情報カード */}
-              <div className="bg-white dark:bg-stone-900 rounded-2xl border border-stone-100 dark:border-stone-800 overflow-hidden">
-                <div className="px-5 py-3 border-b border-stone-50 dark:border-stone-800 bg-stone-50 dark:bg-stone-800/50">
-                  <h2 className="text-xs font-semibold text-stone-500 dark:text-stone-400 uppercase tracking-wider">
+              <div className="bg-white dark:bg-stone-900 rounded-2xl border border-stone-200 dark:border-stone-800 overflow-hidden">
+                <div className="px-5 py-4 border-b border-stone-100 dark:border-stone-800 bg-stone-50 dark:bg-stone-800/50">
+                  <h2 className="text-xs font-bold text-stone-500 dark:text-stone-400 uppercase tracking-wider">
                     求人情報
                   </h2>
                 </div>
                 <dl className="p-5 space-y-4">
-                  {/* 勤務地 */}
                   <div>
                     <dt className="flex items-center gap-1.5 text-xs text-stone-400 mb-1">
-                      <MapPin size={12} />
+                      <MapPin size={11} />
                       勤務地
                     </dt>
-                    <dd className="text-sm text-stone-700 dark:text-stone-300">
+                    <dd className="text-sm text-stone-700 dark:text-stone-300 font-medium">
                       {job.location}
                       {job.nearest_station && (
-                        <span className="block text-xs text-stone-400 mt-0.5">
+                        <span className="block text-xs text-stone-400 font-normal mt-0.5">
                           最寄り: {job.nearest_station}
                         </span>
                       )}
                     </dd>
                   </div>
 
-                  {/* 給与 */}
                   <div>
                     <dt className="flex items-center gap-1.5 text-xs text-stone-400 mb-1">
-                      <DollarSign size={12} />
+                      <DollarSign size={11} />
                       給与
                     </dt>
-                    <dd className="text-sm text-stone-700 dark:text-stone-300">
+                    <dd className="text-sm text-stone-700 dark:text-stone-300 font-medium">
                       {salary}
                     </dd>
                   </div>
 
-                  {/* 雇用形態 */}
                   <div>
                     <dt className="flex items-center gap-1.5 text-xs text-stone-400 mb-1">
-                      <Clock size={12} />
+                      <Clock size={11} />
                       雇用形態
                     </dt>
                     <dd className="text-sm text-stone-700 dark:text-stone-300">
@@ -442,11 +505,10 @@ export default async function JobDetailPage({
                     </dd>
                   </div>
 
-                  {/* 語学要件 */}
                   {job.language_requirement && (
                     <div>
                       <dt className="flex items-center gap-1.5 text-xs text-stone-400 mb-1">
-                        <Languages size={12} />
+                        <Languages size={11} />
                         語学要件
                       </dt>
                       <dd className="text-sm text-stone-700 dark:text-stone-300">
@@ -455,10 +517,9 @@ export default async function JobDetailPage({
                     </div>
                   )}
 
-                  {/* 掲載日 */}
                   <div>
                     <dt className="flex items-center gap-1.5 text-xs text-stone-400 mb-1">
-                      <CalendarDays size={12} />
+                      <CalendarDays size={11} />
                       掲載日
                     </dt>
                     <dd className="text-sm text-stone-700 dark:text-stone-300">
@@ -471,11 +532,10 @@ export default async function JobDetailPage({
                     </dd>
                   </div>
 
-                  {/* 公式サイト */}
                   {job.company_website && (
                     <div>
                       <dt className="flex items-center gap-1.5 text-xs text-stone-400 mb-1">
-                        <Globe size={12} />
+                        <Globe size={11} />
                         企業サイト
                       </dt>
                       <dd>
@@ -483,36 +543,12 @@ export default async function JobDetailPage({
                           href={job.company_website}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-sm text-blue-600 dark:text-blue-400 hover:underline break-all"
+                          className="text-sm text-indigo-600 dark:text-indigo-400 hover:underline break-all"
                         >
                           {job.company_website}
                         </a>
                       </dd>
                     </div>
-                  )}
-
-                  {/* 応募ボタン */}
-                  {applyUrl && (
-                    <a
-                      href={applyUrl}
-                      target={job.contact_url ? "_blank" : undefined}
-                      rel={job.contact_url ? "noopener noreferrer" : undefined}
-                      className="flex items-center justify-center gap-2 w-full bg-blue-600 hover:bg-blue-700 text-white rounded-xl py-2.5 text-sm font-medium transition-colors"
-                    >
-                      <ExternalLink size={14} />
-                      応募する
-                    </a>
-                  )}
-
-                  {/* メール応募 */}
-                  {job.contact_email && (
-                    <a
-                      href={`mailto:${job.contact_email}`}
-                      className="flex items-center justify-center gap-2 w-full bg-white dark:bg-stone-800 border border-stone-200 dark:border-stone-700 text-stone-700 dark:text-stone-200 rounded-xl py-2.5 text-sm font-medium hover:border-blue-400 transition-colors"
-                    >
-                      <Mail size={14} />
-                      メールで問い合わせ
-                    </a>
                   )}
                 </dl>
               </div>
@@ -526,24 +562,50 @@ export default async function JobDetailPage({
             </div>
           </div>
 
-          {/* 底部CTA */}
-          <div className="mt-10 bg-white dark:bg-stone-900 rounded-2xl border border-stone-100 dark:border-stone-800 p-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+          {/* ─── 底部CTA ────────────────────────────── */}
+          <div className="mt-12 bg-white dark:bg-stone-900 rounded-2xl border border-stone-200 dark:border-stone-800 p-7 flex flex-col sm:flex-row items-center justify-between gap-5">
             <div>
-              <p className="font-bold text-stone-800 dark:text-stone-100">
+              <p className="font-extrabold text-stone-800 dark:text-stone-100 text-lg">
                 {country.flag} {country.name}の{industry.label}求人をもっと見る
               </p>
-              <p className="text-sm text-stone-400 mt-0.5">
+              <p className="text-sm text-stone-400 mt-1">
                 日本人向けの求人情報を一覧で確認できます
               </p>
             </div>
             <Link
               href={`/${code}/jobs/${indSlug}`}
-              className="shrink-0 inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-2.5 rounded-full text-sm transition-colors"
+              className="shrink-0 inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white font-bold px-7 py-3.5 rounded-xl text-sm transition shadow"
             >
               一覧を見る <ArrowRight size={14} />
             </Link>
           </div>
+
+          {/* 業種一覧へ戻る */}
+          <div className="mt-5 text-center">
+            <Link
+              href={`/${code}/jobs`}
+              className="inline-flex items-center gap-1.5 text-sm text-stone-400 hover:text-indigo-600 transition-colors"
+            >
+              <ArrowLeft size={14} />
+              業種一覧へ戻る
+            </Link>
+          </div>
         </div>
+
+        {/* ─── モバイル固定フッター応募ボタン ──────── */}
+        {applyUrl && (
+          <div className="fixed bottom-0 left-0 right-0 z-50 lg:hidden bg-white/95 dark:bg-stone-900/95 backdrop-blur-sm border-t border-stone-200 dark:border-stone-700 px-4 py-3">
+            <a
+              href={applyUrl}
+              target={job.contact_url ? "_blank" : undefined}
+              rel={job.contact_url ? "noopener noreferrer" : undefined}
+              className="flex items-center justify-center gap-2 w-full bg-gradient-to-r from-indigo-600 to-indigo-500 hover:from-indigo-700 hover:to-indigo-600 text-white font-bold py-4 rounded-xl transition shadow-lg text-sm"
+            >
+              <ExternalLink size={15} />
+              この求人に応募する
+            </a>
+          </div>
+        )}
       </main>
       <Footer />
     </>

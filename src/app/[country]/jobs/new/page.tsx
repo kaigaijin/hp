@@ -5,7 +5,13 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { getCountry, countries } from "@/lib/countries";
 import JobSubmitForm from "@/components/JobSubmitForm";
-import { ChevronRight, BriefcaseBusiness, FileText } from "lucide-react";
+import {
+  ChevronRight,
+  CheckCircle,
+  Zap,
+  ShieldCheck,
+  Users,
+} from "lucide-react";
 
 export function generateStaticParams() {
   return countries.map((c) => ({ country: c.code }));
@@ -32,7 +38,6 @@ export async function generateMetadata({
       siteName: "Kaigaijin",
     },
     robots: {
-      // フォームページはnoindexにしてOK（薄いコンテンツ防止）
       index: false,
       follow: true,
     },
@@ -51,71 +56,88 @@ export default async function JobNewPage({
   return (
     <>
       <Header />
-      <main className="bg-sand-50 dark:bg-stone-900 min-h-screen">
-        {/* ヒーローヘッダー */}
-        <div className="bg-white dark:bg-stone-800 border-b border-stone-100 dark:border-stone-700">
-          <div className="max-w-3xl mx-auto px-4 py-6">
+      <main className="bg-stone-50 dark:bg-stone-900 min-h-screen">
+
+        {/* ─── ヒーローヘッダー ────────────────────── */}
+        <div className="bg-gradient-to-br from-indigo-700 via-indigo-600 to-indigo-500 dark:from-indigo-900 dark:via-indigo-800 dark:to-indigo-700">
+          <div className="max-w-4xl mx-auto px-4 pt-4 pb-12">
             {/* パンくず */}
-            <nav className="flex items-center gap-1.5 text-xs text-stone-400 mb-4 flex-wrap">
-              <Link href="/" className="hover:text-warm-600 transition-colors">
+            <nav className="flex items-center gap-1.5 text-xs text-indigo-200/80 mb-8 flex-wrap">
+              <Link href="/" className="hover:text-white transition-colors">
                 トップ
               </Link>
               <ChevronRight size={12} />
-              <Link
-                href={`/${code}`}
-                className="hover:text-warm-600 transition-colors"
-              >
+              <Link href={`/${code}`} className="hover:text-white transition-colors">
                 {country.flag} {country.name}
               </Link>
               <ChevronRight size={12} />
-              <Link
-                href={`/${code}/jobs`}
-                className="hover:text-warm-600 transition-colors"
-              >
+              <Link href={`/${code}/jobs`} className="hover:text-white transition-colors">
                 求人情報
               </Link>
               <ChevronRight size={12} />
-              <span className="text-stone-600 dark:text-stone-300">求人を掲載する</span>
+              <span className="text-white/90">求人を掲載する</span>
             </nav>
 
-            <div className="flex items-center gap-3 mb-3">
-              <div className="w-10 h-10 bg-blue-50 dark:bg-blue-900/20 rounded-xl flex items-center justify-center shrink-0">
-                <BriefcaseBusiness size={20} className="text-blue-600 dark:text-blue-400" />
-              </div>
+            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-8">
               <div>
-                <h1 className="heading-editorial text-2xl sm:text-3xl font-bold text-stone-900 dark:text-stone-50">
-                  {country.flag} {country.name}の求人を掲載する
+                <p className="text-indigo-200 text-sm font-semibold mb-3">
+                  {country.flag} {country.name} / 採用担当者向け
+                </p>
+                <h1 className="text-3xl sm:text-4xl font-extrabold text-white leading-tight mb-4">
+                  求人情報を無料掲載
                 </h1>
-                <p className="text-sm text-stone-400 dark:text-stone-500 mt-0.5">無料・審査あり</p>
+                <p className="text-indigo-100 text-sm leading-relaxed max-w-md">
+                  {country.name}で日本人・日本語対応スタッフを募集している企業・個人事業主の方。
+                  フォームから3ステップで投稿できます。
+                </p>
+              </div>
+
+              {/* メリットカード */}
+              <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-5 space-y-3 min-w-[220px]">
+                {[
+                  { icon: CheckCircle, text: "掲載料 完全無料" },
+                  { icon: Zap, text: "3ステップで投稿完了" },
+                  { icon: ShieldCheck, text: "審査後に掲載・安心" },
+                  { icon: Users, text: "日本人求職者に直接リーチ" },
+                ].map(({ icon: Icon, text }) => (
+                  <div key={text} className="flex items-center gap-3">
+                    <div className="w-7 h-7 bg-white/10 rounded-lg flex items-center justify-center shrink-0">
+                      <Icon size={14} className="text-indigo-200" />
+                    </div>
+                    <p className="text-white text-sm font-medium">{text}</p>
+                  </div>
+                ))}
               </div>
             </div>
-            <p className="text-sm text-stone-500 dark:text-stone-400 leading-relaxed max-w-2xl">
-              {country.name}で日本人・日本語対応のスタッフを募集している企業・個人事業主の方は、
-              フォームから無料でご投稿ください。内容を確認後、順次掲載いたします。
-            </p>
           </div>
         </div>
 
-        <div className="max-w-3xl mx-auto px-4 py-8">
-          {/* 掲載基準の説明 */}
-          <div className="bg-blue-50 dark:bg-blue-900/20 border border-blue-100 dark:border-blue-800 rounded-2xl p-5 mb-8">
-            <div className="flex items-start gap-3">
-              <FileText size={18} className="text-blue-600 dark:text-blue-400 mt-0.5 shrink-0" />
-              <div>
-                <p className="text-sm font-semibold text-blue-800 dark:text-blue-300 mb-1">
-                  掲載基準について
-                </p>
-                <ul className="text-xs text-blue-700 dark:text-blue-400 space-y-1 list-disc list-inside">
-                  <li>日本人向け・日本語対応の求人を掲載しています</li>
-                  <li>掲載料は無料です。審査後に掲載可否をご連絡します</li>
-                  <li>虚偽・詐欺的な内容は掲載をお断りしています</li>
-                  <li>掲載中の内容変更・削除はお問い合わせください</li>
-                </ul>
-              </div>
-            </div>
+        {/* ─── フォームエリア ───────────────────────── */}
+        <div className="max-w-2xl mx-auto px-4 py-10 pb-16">
+          {/* 掲載基準ノート */}
+          <div className="bg-indigo-50 dark:bg-indigo-900/20 border border-indigo-100 dark:border-indigo-800 rounded-2xl p-5 mb-8">
+            <p className="text-sm font-semibold text-indigo-800 dark:text-indigo-300 mb-2">
+              掲載基準について
+            </p>
+            <ul className="space-y-1.5">
+              {[
+                "日本人向け・日本語対応の求人を掲載しています",
+                "掲載料は無料。審査後にメールでご連絡します",
+                "虚偽・詐欺的な内容は掲載をお断りしています",
+                "掲載中の変更・削除はお問い合わせください",
+              ].map((item) => (
+                <li
+                  key={item}
+                  className="flex items-start gap-2 text-xs text-indigo-700 dark:text-indigo-400"
+                >
+                  <CheckCircle size={13} className="shrink-0 mt-0.5 text-indigo-400" />
+                  {item}
+                </li>
+              ))}
+            </ul>
           </div>
 
-          {/* フォーム */}
+          {/* 3ステップウィザードフォーム */}
           <JobSubmitForm country={code} />
         </div>
       </main>

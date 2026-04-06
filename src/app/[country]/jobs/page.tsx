@@ -6,7 +6,6 @@ import { getCountry, countries } from "@/lib/countries";
 import {
   JOB_INDUSTRIES,
   getIndustryCounts,
-  getAllJobs,
 } from "@/lib/jobs";
 import {
   UtensilsCrossed,
@@ -20,8 +19,10 @@ import {
   Briefcase,
   MoreHorizontal,
   ChevronRight,
-  ArrowRight,
   BriefcaseBusiness,
+  ArrowRight,
+  Sparkles,
+  CheckCircle,
 } from "lucide-react";
 
 const iconMap: Record<string, (size: number) => React.ReactNode> = {
@@ -76,7 +77,6 @@ export default async function JobsIndexPage({
   const counts = getIndustryCounts(code);
   const totalJobs = Object.values(counts).reduce((a, b) => a + b, 0);
 
-  // 求人がある業種だけ上位に表示
   const industriesWithJobs = JOB_INDUSTRIES.filter(
     (ind) => (counts[ind.slug] ?? 0) > 0,
   );
@@ -87,85 +87,95 @@ export default async function JobsIndexPage({
   return (
     <>
       <Header />
-      <main className="bg-sand-50 dark:bg-stone-900 min-h-screen">
-        {/* ヒーローヘッダー */}
-        <div className="bg-white dark:bg-stone-800 border-b border-stone-100 dark:border-stone-700">
-          <div className="max-w-6xl mx-auto px-4 py-6">
+      <main className="bg-stone-50 dark:bg-stone-900 min-h-screen">
+
+        {/* ─── ヒーローエリア ────────────────────────── */}
+        <div className="bg-gradient-to-br from-indigo-700 via-indigo-600 to-indigo-500 dark:from-indigo-900 dark:via-indigo-800 dark:to-indigo-700">
+          <div className="max-w-6xl mx-auto px-4 pt-4 pb-12">
             {/* パンくず */}
-            <nav className="flex items-center gap-1.5 text-xs text-stone-400 mb-4">
-              <Link href="/" className="hover:text-warm-600 transition-colors">
+            <nav className="flex items-center gap-1.5 text-xs text-indigo-200/80 mb-8">
+              <Link href="/" className="hover:text-white transition-colors">
                 トップ
               </Link>
               <ChevronRight size={12} />
-              <Link
-                href={`/${code}`}
-                className="hover:text-warm-600 transition-colors"
-              >
+              <Link href={`/${code}`} className="hover:text-white transition-colors">
                 {country.flag} {country.name}
               </Link>
               <ChevronRight size={12} />
-              <span className="text-stone-600 dark:text-stone-300">求人情報</span>
+              <span className="text-white/90">求人情報</span>
             </nav>
 
-            <div className="flex items-center gap-3 mb-2">
-              <div className="w-10 h-10 bg-blue-50 dark:bg-blue-900/20 rounded-xl flex items-center justify-center">
-                <BriefcaseBusiness size={20} className="text-blue-600 dark:text-blue-400" />
-              </div>
+            <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-8">
               <div>
-                <h1 className="heading-editorial text-2xl sm:text-3xl font-bold text-stone-900 dark:text-stone-50">
-                  {country.flag} {country.name}の求人情報
+                <div className="inline-flex items-center gap-2 bg-white/10 text-white/90 text-xs font-medium px-3 py-1.5 rounded-full mb-4">
+                  <BriefcaseBusiness size={13} />
+                  {country.flag} {country.name} 求人情報
+                </div>
+                <h1 className="text-4xl sm:text-5xl font-extrabold text-white leading-tight tracking-tight mb-4">
+                  海外で働こう。
                 </h1>
-                <p className="text-sm text-stone-400 dark:text-stone-500 mt-0.5">
-                  {totalJobs > 0 ? `${totalJobs}件掲載中` : "求人情報を順次追加しています"}
+                <p className="text-indigo-100 text-base leading-relaxed max-w-lg">
+                  {country.name}で働く日本人向けの求人を業種別に掲載。
+                  日系企業・日本語対応職場の求人が見つかります。
                 </p>
+                {totalJobs > 0 && (
+                  <p className="mt-4 text-indigo-200 text-sm font-medium">
+                    現在{" "}
+                    <span className="text-white font-bold text-lg">{totalJobs}</span>{" "}
+                    件掲載中
+                  </p>
+                )}
+              </div>
+
+              {/* 求人掲載CTAカード */}
+              <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6 min-w-[260px]">
+                <p className="text-white font-bold text-base mb-1">
+                  求人を無料で掲載する
+                </p>
+                <p className="text-indigo-200 text-xs mb-4 leading-relaxed">
+                  日本人向け求人を無料で掲載できます。
+                  審査後、掲載をお知らせします。
+                </p>
+                <Link
+                  href={`/${code}/jobs/new`}
+                  className="block w-full text-center bg-white text-indigo-700 font-bold text-sm px-5 py-3 rounded-xl hover:bg-indigo-50 transition shadow-md"
+                >
+                  求人掲載フォームへ →
+                </Link>
               </div>
             </div>
-            <p className="text-sm text-stone-500 dark:text-stone-400 mt-3 max-w-2xl">
-              {country.name}で働く日本人向けの求人情報を業種別にまとめています。日系企業・日本語対応職場の求人を掲載しています。
-            </p>
           </div>
         </div>
 
-        <div className="max-w-6xl mx-auto px-4 py-8">
-          {/* 求人がある業種 */}
+        <div className="max-w-6xl mx-auto px-4 py-10">
+
+          {/* ─── 求人がある業種グリッド ─────────────── */}
           {industriesWithJobs.length > 0 && (
             <section>
-              <p className="section-label mb-5">— 業種から探す</p>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="flex items-center gap-2 mb-6">
+                <p className="text-xs font-bold text-stone-400 dark:text-stone-500 uppercase tracking-widest">
+                  業種から探す
+                </p>
+                <div className="flex-1 h-px bg-stone-200 dark:bg-stone-700" />
+              </div>
+
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
                 {industriesWithJobs.map((ind) => {
                   const count = counts[ind.slug] ?? 0;
                   const renderIcon = iconMap[ind.icon];
                   return (
                     <Link key={ind.slug} href={`/${code}/jobs/${ind.slug}`}>
-                      <div className="group bg-white dark:bg-stone-800 rounded-2xl border border-stone-100 dark:border-stone-700 hover:border-blue-300 dark:hover:border-blue-600 hover:shadow-md transition-all overflow-hidden flex">
-                        {/* カラーアクセントバー */}
-                        <div className="w-1.5 shrink-0 bg-blue-400 dark:bg-blue-600" />
-                        {/* テキスト */}
-                        <div className="flex-1 p-5 min-w-0">
-                          <div className="flex items-center gap-2 mb-1.5">
-                            <span className="text-blue-600 dark:text-blue-400">
-                              {renderIcon?.(18)}
-                            </span>
-                            <h2 className="text-base font-bold text-stone-800 dark:text-stone-100 group-hover:text-blue-700 dark:group-hover:text-blue-400 transition-colors">
-                              {ind.label}
-                            </h2>
-                          </div>
-                          <p className="text-xs text-stone-400 dark:text-stone-500 leading-relaxed">
-                            {ind.description}
-                          </p>
+                      <div className="group bg-white dark:bg-stone-800 rounded-2xl border border-stone-200 dark:border-stone-700 hover:border-indigo-300 dark:hover:border-indigo-600 hover:shadow-md transition-all duration-200 p-5 flex flex-col items-center text-center gap-3 h-full hover:-translate-y-0.5">
+                        <div className="w-12 h-12 bg-indigo-50 dark:bg-indigo-900/30 rounded-xl flex items-center justify-center text-indigo-600 dark:text-indigo-400 group-hover:bg-indigo-100 dark:group-hover:bg-indigo-900/50 transition-colors shrink-0">
+                          {renderIcon?.(22)}
                         </div>
-                        {/* 件数 + 矢印 */}
-                        <div className="shrink-0 flex flex-col items-end justify-between p-5 pl-0">
-                          <div className="text-right">
-                            <p className="text-3xl font-bold text-blue-600 dark:text-blue-400 leading-none">
-                              {count}
-                            </p>
-                            <p className="text-[10px] text-stone-400 mt-0.5">件</p>
-                          </div>
-                          <ArrowRight
-                            size={14}
-                            className="text-blue-400 opacity-0 group-hover:opacity-100 group-hover:translate-x-0.5 transition-all"
-                          />
+                        <div>
+                          <p className="text-sm font-bold text-stone-800 dark:text-stone-100 group-hover:text-indigo-700 dark:group-hover:text-indigo-400 transition-colors leading-snug mb-1">
+                            {ind.label}
+                          </p>
+                          <p className="text-xs text-indigo-600 dark:text-indigo-400 font-semibold">
+                            {count}件
+                          </p>
                         </div>
                       </div>
                     </Link>
@@ -175,25 +185,28 @@ export default async function JobsIndexPage({
             </section>
           )}
 
-          {/* 求人がない業種（グレーアウト表示） */}
+          {/* ─── 求人がない業種（準備中バッジ） ─────── */}
           {industriesEmpty.length > 0 && (
-            <section className="mt-8">
-              <p className="section-label mb-5">— 求人情報を準備中</p>
-              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+            <section className="mt-10">
+              <div className="flex items-center gap-2 mb-5">
+                <p className="text-xs font-bold text-stone-400 dark:text-stone-500 uppercase tracking-widest">
+                  準備中
+                </p>
+                <div className="flex-1 h-px bg-stone-200 dark:bg-stone-700" />
+              </div>
+              <div className="flex flex-wrap gap-2">
                 {industriesEmpty.map((ind) => {
                   const renderIcon = iconMap[ind.icon];
                   return (
                     <div
                       key={ind.slug}
-                      className="bg-stone-50 dark:bg-stone-800/50 rounded-xl border border-stone-200 dark:border-stone-700 p-4"
+                      className="inline-flex items-center gap-1.5 bg-stone-100 dark:bg-stone-800 text-stone-400 dark:text-stone-500 text-xs font-medium px-3 py-2 rounded-full"
                     >
-                      <div className="flex items-center gap-2 mb-1">
-                        <span className="text-stone-400 dark:text-stone-500">{renderIcon?.(14)}</span>
-                        <p className="text-sm font-semibold text-stone-500 dark:text-stone-400">
-                          {ind.label}
-                        </p>
-                      </div>
-                      <p className="text-xs text-stone-400 dark:text-stone-500 ml-[22px]">準備中</p>
+                      <span className="opacity-60">{renderIcon?.(12)}</span>
+                      {ind.label}
+                      <span className="text-stone-300 dark:text-stone-600 text-[10px] ml-0.5">
+                        準備中
+                      </span>
                     </div>
                   );
                 })}
@@ -201,21 +214,45 @@ export default async function JobsIndexPage({
             </section>
           )}
 
-          {/* フッターCTA */}
-          <section className="mt-10 bg-white dark:bg-stone-800 rounded-2xl border border-stone-100 dark:border-stone-700 p-6 text-center">
-            <p className="text-sm font-semibold text-stone-700 dark:text-stone-200 mb-2">
-              求人情報を掲載したい方へ
-            </p>
-            <p className="text-sm text-stone-500 dark:text-stone-400 mb-4">
-              {country.name}の日本人向け求人を無料で掲載できます。
-            </p>
-            <Link
-              href={`/${code}/jobs/new`}
-              className="inline-flex items-center gap-2 px-5 py-2.5 bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold rounded-xl transition-colors"
-            >
-              求人情報を掲載する（無料）
-            </Link>
+          {/* ─── 求人掲載CTAバナー ───────────────────── */}
+          <section className="mt-14">
+            <div className="bg-gradient-to-r from-indigo-600 to-indigo-500 dark:from-indigo-800 dark:to-indigo-700 rounded-2xl p-8 flex flex-col sm:flex-row items-center justify-between gap-6">
+              <div className="text-center sm:text-left">
+                <div className="flex items-center justify-center sm:justify-start gap-2 mb-2">
+                  <Sparkles size={16} className="text-indigo-200" />
+                  <p className="text-indigo-200 text-xs font-semibold uppercase tracking-widest">
+                    採用担当者の方へ
+                  </p>
+                </div>
+                <p className="text-white text-xl font-extrabold mb-2">
+                  {country.name}の求人を無料で掲載できます
+                </p>
+                <ul className="space-y-1">
+                  {[
+                    "掲載料 完全無料",
+                    "日本人・日本語対応求人を専門掲載",
+                    "フォームから3ステップで投稿完了",
+                  ].map((item) => (
+                    <li
+                      key={item}
+                      className="flex items-center gap-2 text-indigo-100 text-sm"
+                    >
+                      <CheckCircle size={14} className="text-indigo-300 shrink-0" />
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <Link
+                href={`/${code}/jobs/new`}
+                className="shrink-0 inline-flex items-center gap-2 bg-white text-indigo-700 font-bold px-8 py-4 rounded-xl hover:bg-indigo-50 transition shadow-lg text-sm whitespace-nowrap"
+              >
+                求人を無料掲載する
+                <ArrowRight size={16} />
+              </Link>
+            </div>
           </section>
+
         </div>
       </main>
       <Footer />

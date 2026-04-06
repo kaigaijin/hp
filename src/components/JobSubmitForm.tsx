@@ -1,7 +1,18 @@
 "use client";
 
 import { useState } from "react";
-import { CheckCircle, Loader2, Send, ChevronDown } from "lucide-react";
+import {
+  CheckCircle,
+  Loader2,
+  Send,
+  ChevronDown,
+  Building2,
+  BriefcaseBusiness,
+  FileText,
+  ChevronLeft,
+  ChevronRight,
+  Eye,
+} from "lucide-react";
 
 // クライアントコンポーネントのため、jobs.ts（fs依存）からはインポートせず直接定義
 const JOB_INDUSTRIES = [
@@ -30,51 +41,6 @@ const SALARY_TYPE_LABELS: Record<string, string> = {
   annual: "年収",
 };
 
-type FormData = {
-  company: string;
-  company_website: string;
-  title: string;
-  industry: string;
-  job_type: string;
-  employment_type: string;
-  location: string;
-  nearest_station: string;
-  salary_min: string;
-  salary_max: string;
-  salary_currency: string;
-  salary_type: string;
-  language_requirement: string;
-  description: string;
-  requirements: string;
-  benefits: string;
-  contact_email: string;
-  contact_url: string;
-  applicant_email: string;
-};
-
-const INITIAL_FORM: FormData = {
-  company: "",
-  company_website: "",
-  title: "",
-  industry: "",
-  job_type: "",
-  employment_type: "",
-  location: "",
-  nearest_station: "",
-  salary_min: "",
-  salary_max: "",
-  salary_currency: "",
-  salary_type: "",
-  language_requirement: "",
-  description: "",
-  requirements: "",
-  benefits: "",
-  contact_email: "",
-  contact_url: "",
-  applicant_email: "",
-};
-
-// 通貨の選択肢（国別）
 const CURRENCY_OPTIONS = [
   { value: "SGD", label: "SGD（シンガポールドル）" },
   { value: "THB", label: "THB（タイバーツ）" },
@@ -91,9 +57,89 @@ const CURRENCY_OPTIONS = [
   { value: "GBP", label: "GBP（英ポンド）" },
 ];
 
+type FormData = {
+  // Step 1: 企業情報
+  company: string;
+  company_website: string;
+  applicant_email: string;
+  // Step 2: 求人詳細
+  title: string;
+  industry: string;
+  job_type: string;
+  employment_type: string;
+  location: string;
+  nearest_station: string;
+  salary_min: string;
+  salary_max: string;
+  salary_currency: string;
+  salary_type: string;
+  language_requirement: string;
+  // Step 3: 求人内容・応募方法
+  description: string;
+  requirements: string;
+  benefits: string;
+  contact_email: string;
+  contact_url: string;
+};
+
+const INITIAL_FORM: FormData = {
+  company: "",
+  company_website: "",
+  applicant_email: "",
+  title: "",
+  industry: "",
+  job_type: "",
+  employment_type: "",
+  location: "",
+  nearest_station: "",
+  salary_min: "",
+  salary_max: "",
+  salary_currency: "",
+  salary_type: "",
+  language_requirement: "",
+  description: "",
+  requirements: "",
+  benefits: "",
+  contact_email: "",
+  contact_url: "",
+};
+
+// ステップ定義
+const STEPS = [
+  {
+    id: 1,
+    label: "企業情報",
+    icon: Building2,
+    description: "会社名・担当者メール",
+  },
+  {
+    id: 2,
+    label: "求人詳細",
+    icon: BriefcaseBusiness,
+    description: "職種・給与・勤務地",
+  },
+  {
+    id: 3,
+    label: "内容・応募方法",
+    icon: FileText,
+    description: "仕事内容・応募先",
+  },
+] as const;
+
+// ─── スタイル定数 ─────────────────────────────
+const inputClass =
+  "w-full px-4 py-3 rounded-xl border border-stone-200 dark:border-stone-600 bg-white dark:bg-stone-900 text-sm text-stone-800 dark:text-stone-100 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent placeholder:text-stone-400 disabled:opacity-50 disabled:cursor-not-allowed transition";
+
+const selectClass =
+  "w-full px-4 py-3 rounded-xl border border-stone-200 dark:border-stone-600 bg-white dark:bg-stone-900 text-sm text-stone-800 dark:text-stone-100 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent appearance-none disabled:opacity-50 disabled:cursor-not-allowed transition";
+
+const textareaClass =
+  "w-full px-4 py-3 rounded-xl border border-stone-200 dark:border-stone-600 bg-white dark:bg-stone-900 text-sm text-stone-800 dark:text-stone-100 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent placeholder:text-stone-400 resize-y disabled:opacity-50 disabled:cursor-not-allowed transition";
+
+// ─── 小コンポーネント ─────────────────────────
 function Label({ children, required }: { children: React.ReactNode; required?: boolean }) {
   return (
-    <label className="block text-sm font-medium text-stone-700 dark:text-stone-300 mb-1">
+    <label className="block text-sm font-semibold text-stone-700 dark:text-stone-200 mb-1.5">
       {children}
       {required && <span className="text-red-500 ml-1">*</span>}
     </label>
@@ -101,19 +147,13 @@ function Label({ children, required }: { children: React.ReactNode; required?: b
 }
 
 function FieldNote({ children }: { children: React.ReactNode }) {
-  return (
-    <p className="text-xs text-stone-400 dark:text-stone-500 mt-1">{children}</p>
-  );
+  return <p className="text-xs text-stone-400 dark:text-stone-500 mt-1.5">{children}</p>;
 }
 
-const inputClass =
-  "w-full px-3 py-2 rounded-lg border border-stone-200 dark:border-stone-600 bg-stone-50 dark:bg-stone-900 text-sm text-stone-800 dark:text-stone-100 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder:text-stone-400 disabled:opacity-50 disabled:cursor-not-allowed";
-
-const selectClass =
-  "w-full px-3 py-2 rounded-lg border border-stone-200 dark:border-stone-600 bg-stone-50 dark:bg-stone-900 text-sm text-stone-800 dark:text-stone-100 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent appearance-none disabled:opacity-50 disabled:cursor-not-allowed";
-
-const textareaClass =
-  "w-full px-3 py-2 rounded-lg border border-stone-200 dark:border-stone-600 bg-stone-50 dark:bg-stone-900 text-sm text-stone-800 dark:text-stone-100 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder:text-stone-400 resize-y disabled:opacity-50 disabled:cursor-not-allowed";
+function FieldError({ msg }: { msg?: string }) {
+  if (!msg) return null;
+  return <p className="text-xs text-red-500 mt-1">{msg}</p>;
+}
 
 function SelectWrapper({ children }: { children: React.ReactNode }) {
   return (
@@ -121,14 +161,147 @@ function SelectWrapper({ children }: { children: React.ReactNode }) {
       {children}
       <ChevronDown
         size={14}
-        className="absolute right-3 top-1/2 -translate-y-1/2 text-stone-400 pointer-events-none"
+        className="absolute right-4 top-1/2 -translate-y-1/2 text-stone-400 pointer-events-none"
       />
     </div>
   );
 }
 
+// ─── ステップインジケーター ────────────────────
+function StepIndicator({ current }: { current: number }) {
+  return (
+    <div className="flex items-center gap-0 mb-10">
+      {STEPS.map((step, i) => {
+        const Icon = step.icon;
+        const done = current > step.id;
+        const active = current === step.id;
+
+        return (
+          <div key={step.id} className="flex items-center flex-1 last:flex-none">
+            <div className="flex flex-col items-center">
+              <div
+                className={`w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold transition-all ${
+                  done
+                    ? "bg-indigo-600 text-white"
+                    : active
+                      ? "bg-indigo-600 text-white ring-4 ring-indigo-100 dark:ring-indigo-900/50"
+                      : "bg-stone-100 dark:bg-stone-800 text-stone-400 dark:text-stone-500"
+                }`}
+              >
+                {done ? (
+                  <svg
+                    className="w-5 h-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2.5}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                ) : (
+                  <Icon size={18} />
+                )}
+              </div>
+              <div className="mt-2 text-center">
+                <p
+                  className={`text-xs font-semibold hidden sm:block ${
+                    active
+                      ? "text-indigo-700 dark:text-indigo-400"
+                      : done
+                        ? "text-stone-500 dark:text-stone-400"
+                        : "text-stone-400 dark:text-stone-500"
+                  }`}
+                >
+                  {step.label}
+                </p>
+                <p
+                  className={`text-[10px] hidden sm:block ${
+                    active ? "text-stone-500" : "text-stone-400"
+                  }`}
+                >
+                  {step.description}
+                </p>
+              </div>
+            </div>
+            {i < STEPS.length - 1 && (
+              <div
+                className={`flex-1 h-0.5 mx-3 mt-[-18px] sm:mt-[-30px] transition-colors ${
+                  current > step.id
+                    ? "bg-indigo-600"
+                    : "bg-stone-200 dark:bg-stone-700"
+                }`}
+              />
+            )}
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
+// ─── プレビューコンポーネント ─────────────────
+function JobPreview({ form }: { form: FormData }) {
+  const industryLabel =
+    JOB_INDUSTRIES.find((i) => i.slug === form.industry)?.label ?? form.industry;
+  const employmentLabel = EMPLOYMENT_TYPE_LABELS[form.employment_type] ?? form.employment_type;
+
+  let salaryText = "要相談";
+  if (form.salary_min || form.salary_max) {
+    const currency = form.salary_currency || "";
+    const typeLabel = SALARY_TYPE_LABELS[form.salary_type] ?? "";
+    if (form.salary_min && form.salary_max) {
+      salaryText = `${currency} ${Number(form.salary_min).toLocaleString()}〜${Number(form.salary_max).toLocaleString()} / ${typeLabel}`;
+    } else if (form.salary_min) {
+      salaryText = `${currency} ${Number(form.salary_min).toLocaleString()}〜 / ${typeLabel}`;
+    } else if (form.salary_max) {
+      salaryText = `〜${currency} ${Number(form.salary_max).toLocaleString()} / ${typeLabel}`;
+    }
+  }
+
+  return (
+    <div className="bg-stone-50 dark:bg-stone-800/50 rounded-2xl border border-stone-200 dark:border-stone-700 p-6 mt-8">
+      <div className="flex items-center gap-2 mb-4">
+        <Eye size={16} className="text-stone-400" />
+        <p className="text-xs font-semibold text-stone-500 dark:text-stone-400 uppercase tracking-wider">
+          投稿プレビュー
+        </p>
+      </div>
+      <div className="bg-white dark:bg-stone-900 rounded-xl border border-stone-200 dark:border-stone-700 p-5 space-y-3">
+        {employmentLabel && (
+          <span className="inline-flex items-center text-xs font-semibold px-2.5 py-1 rounded-full bg-indigo-50 dark:bg-indigo-900/30 text-indigo-700 dark:text-indigo-400">
+            {employmentLabel}
+          </span>
+        )}
+        <h3 className="text-lg font-bold text-stone-800 dark:text-stone-100">
+          {form.title || "（求人タイトル）"}
+        </h3>
+        <p className="text-sm text-stone-400">
+          {form.company || "（企業名）"}
+          {industryLabel && (
+            <span className="ml-2 text-stone-300">/ {industryLabel}</span>
+          )}
+        </p>
+        <p className="text-sm text-stone-500 dark:text-stone-400 leading-relaxed line-clamp-3">
+          {form.description || "（仕事内容・求人詳細）"}
+        </p>
+        <div className="flex flex-wrap gap-3 text-xs text-stone-400 pt-1">
+          {form.location && <span>📍 {form.location}</span>}
+          <span>💴 {salaryText}</span>
+          {form.language_requirement && <span>🗣 {form.language_requirement}</span>}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// ─── メインコンポーネント ─────────────────────
 export default function JobSubmitForm({ country }: { country: string }) {
   const [form, setForm] = useState<FormData>(INITIAL_FORM);
+  const [step, setStep] = useState(1);
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState("");
@@ -139,36 +312,50 @@ export default function JobSubmitForm({ country }: { country: string }) {
   ) {
     const { name, value } = e.target;
     setForm((prev) => ({ ...prev, [name]: value }));
-    // フィールドエラーをクリア
     if (fieldErrors[name as keyof FormData]) {
       setFieldErrors((prev) => ({ ...prev, [name]: "" }));
     }
   }
 
-  function validate(): boolean {
+  function validateStep(s: number): boolean {
     const errors: Partial<Record<keyof FormData, string>> = {};
-    if (!form.company.trim()) errors.company = "企業名を入力してください";
-    if (!form.title.trim()) errors.title = "求人タイトルを入力してください";
-    if (!form.industry) errors.industry = "業種を選択してください";
-    if (!form.job_type.trim()) errors.job_type = "職種を入力してください";
-    if (!form.employment_type) errors.employment_type = "雇用形態を選択してください";
-    if (!form.location.trim()) errors.location = "勤務地を入力してください";
-    if (!form.description.trim()) errors.description = "求人詳細を入力してください";
-    if (!form.contact_email.trim() && !form.contact_url.trim()) {
-      errors.contact_email = "応募先メールまたは応募URLのどちらかを入力してください";
-      errors.contact_url = "応募先メールまたは応募URLのどちらかを入力してください";
+    if (s === 1) {
+      if (!form.company.trim()) errors.company = "企業名を入力してください";
+      if (!form.applicant_email.trim())
+        errors.applicant_email = "担当者メールアドレスを入力してください";
     }
-    if (!form.applicant_email.trim()) {
-      errors.applicant_email = "担当者メールアドレスを入力してください";
+    if (s === 2) {
+      if (!form.title.trim()) errors.title = "求人タイトルを入力してください";
+      if (!form.industry) errors.industry = "業種を選択してください";
+      if (!form.job_type.trim()) errors.job_type = "職種を入力してください";
+      if (!form.employment_type) errors.employment_type = "雇用形態を選択してください";
+      if (!form.location.trim()) errors.location = "勤務地を入力してください";
+    }
+    if (s === 3) {
+      if (!form.description.trim()) errors.description = "求人詳細を入力してください";
+      if (!form.contact_email.trim() && !form.contact_url.trim()) {
+        errors.contact_email =
+          "応募先メールまたは応募URLのどちらかを入力してください";
+        errors.contact_url =
+          "応募先メールまたは応募URLのどちらかを入力してください";
+      }
     }
     setFieldErrors(errors);
     return Object.keys(errors).length === 0;
   }
 
+  function handleNext() {
+    if (validateStep(step)) setStep((s) => Math.min(s + 1, 3));
+  }
+
+  function handleBack() {
+    setStep((s) => Math.max(s - 1, 1));
+  }
+
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     setError("");
-    if (!validate()) return;
+    if (!validateStep(3)) return;
 
     setSubmitting(true);
     try {
@@ -181,6 +368,7 @@ export default function JobSubmitForm({ country }: { country: string }) {
       if (res.ok) {
         setSubmitted(true);
         setForm(INITIAL_FORM);
+        setStep(1);
       } else {
         setError(data.error || "送信に失敗しました。しばらく経ってからお試しください");
       }
@@ -191,26 +379,25 @@ export default function JobSubmitForm({ country }: { country: string }) {
     }
   }
 
+  // ─── 完了画面 ──────────────────────────────
   if (submitted) {
     return (
-      <div className="bg-white dark:bg-stone-800 rounded-2xl border border-stone-100 dark:border-stone-700 p-8 text-center">
-        <div className="flex items-center justify-center mb-4">
-          <div className="w-14 h-14 bg-green-50 dark:bg-green-900/20 rounded-full flex items-center justify-center">
-            <CheckCircle size={32} className="text-green-500 dark:text-green-400" />
+      <div className="bg-white dark:bg-stone-800 rounded-2xl border border-stone-200 dark:border-stone-700 p-10 text-center">
+        <div className="flex items-center justify-center mb-5">
+          <div className="w-16 h-16 bg-green-50 dark:bg-green-900/20 rounded-full flex items-center justify-center">
+            <CheckCircle size={36} className="text-green-500 dark:text-green-400" />
           </div>
         </div>
-        <h2 className="text-xl font-bold text-stone-800 dark:text-stone-100 mb-2">
-          求人情報を受け付けました
+        <h2 className="text-2xl font-bold text-stone-800 dark:text-stone-100 mb-3">
+          受け付けました
         </h2>
-        <p className="text-sm text-stone-500 dark:text-stone-400 leading-relaxed">
-          ご投稿ありがとうございます。内容を確認のうえ、順次掲載いたします。
-          <br />
-          掲載可否は担当者メールアドレスにご連絡します（通常2〜3営業日）。
+        <p className="text-sm text-stone-500 dark:text-stone-400 leading-relaxed max-w-sm mx-auto">
+          ご投稿ありがとうございます。内容を確認後、通常 2〜3 営業日以内に掲載可否をご連絡します。
         </p>
         <button
           type="button"
           onClick={() => setSubmitted(false)}
-          className="mt-6 text-sm text-blue-600 dark:text-blue-400 hover:underline"
+          className="mt-8 inline-flex items-center gap-2 px-5 py-2.5 bg-indigo-50 dark:bg-indigo-900/30 text-indigo-700 dark:text-indigo-400 text-sm font-semibold rounded-xl hover:bg-indigo-100 dark:hover:bg-indigo-900/50 transition"
         >
           別の求人を投稿する
         </button>
@@ -218,16 +405,24 @@ export default function JobSubmitForm({ country }: { country: string }) {
     );
   }
 
+  // ─── フォーム本体 ─────────────────────────
   return (
-    <form onSubmit={handleSubmit} noValidate>
-      <div className="space-y-8">
+    <div>
+      <StepIndicator current={step} />
 
-        {/* ─── 企業情報 ─── */}
-        <section className="bg-white dark:bg-stone-800 rounded-2xl border border-stone-100 dark:border-stone-700 p-6">
-          <h2 className="text-base font-bold text-stone-800 dark:text-stone-100 mb-5 pb-3 border-b border-stone-100 dark:border-stone-700">
-            企業情報
-          </h2>
-          <div className="space-y-4">
+      <form onSubmit={handleSubmit} noValidate>
+        {/* ═══ Step 1: 企業情報 ═══════════════════════ */}
+        {step === 1 && (
+          <div className="bg-white dark:bg-stone-800 rounded-2xl border border-stone-200 dark:border-stone-700 p-6 sm:p-8 space-y-6">
+            <div>
+              <h2 className="text-lg font-bold text-stone-800 dark:text-stone-100 mb-1">
+                企業情報を入力してください
+              </h2>
+              <p className="text-sm text-stone-400">
+                担当者メールアドレスは求職者には公開されません。
+              </p>
+            </div>
+
             <div>
               <Label required>企業名</Label>
               <input
@@ -240,10 +435,9 @@ export default function JobSubmitForm({ country }: { country: string }) {
                 disabled={submitting}
                 className={inputClass}
               />
-              {fieldErrors.company && (
-                <p className="text-xs text-red-500 mt-1">{fieldErrors.company}</p>
-              )}
+              <FieldError msg={fieldErrors.company} />
             </div>
+
             <div>
               <Label>企業サイトURL（任意）</Label>
               <input
@@ -256,16 +450,40 @@ export default function JobSubmitForm({ country }: { country: string }) {
                 disabled={submitting}
                 className={inputClass}
               />
+              <FieldNote>公式サイトがある場合は入力してください。求人ページに掲載されます。</FieldNote>
+            </div>
+
+            <div>
+              <Label required>担当者メールアドレス</Label>
+              <input
+                type="email"
+                name="applicant_email"
+                value={form.applicant_email}
+                onChange={handleChange}
+                placeholder="contact@example.com"
+                maxLength={254}
+                disabled={submitting}
+                className={inputClass}
+              />
+              <FieldNote>掲載確認・修正依頼のご連絡に使用します。求職者には表示されません。</FieldNote>
+              <FieldError msg={fieldErrors.applicant_email} />
             </div>
           </div>
-        </section>
+        )}
 
-        {/* ─── 求人詳細 ─── */}
-        <section className="bg-white dark:bg-stone-800 rounded-2xl border border-stone-100 dark:border-stone-700 p-6">
-          <h2 className="text-base font-bold text-stone-800 dark:text-stone-100 mb-5 pb-3 border-b border-stone-100 dark:border-stone-700">
-            求人詳細
-          </h2>
-          <div className="space-y-4">
+        {/* ═══ Step 2: 求人詳細 ═══════════════════════ */}
+        {step === 2 && (
+          <div className="bg-white dark:bg-stone-800 rounded-2xl border border-stone-200 dark:border-stone-700 p-6 sm:p-8 space-y-6">
+            <div>
+              <h2 className="text-lg font-bold text-stone-800 dark:text-stone-100 mb-1">
+                求人の詳細情報
+              </h2>
+              <p className="text-sm text-stone-400">
+                職種・勤務地・給与など求職者が確認する基本情報を入力してください。
+              </p>
+            </div>
+
+            {/* 求人タイトル */}
             <div>
               <Label required>求人タイトル</Label>
               <input
@@ -273,17 +491,17 @@ export default function JobSubmitForm({ country }: { country: string }) {
                 name="title"
                 value={form.title}
                 onChange={handleChange}
-                placeholder="例: フルタイムスタッフ募集"
+                placeholder="例: ホールスタッフ募集（日本語対応・シフト制）"
                 maxLength={200}
                 disabled={submitting}
                 className={inputClass}
               />
-              {fieldErrors.title && (
-                <p className="text-xs text-red-500 mt-1">{fieldErrors.title}</p>
-              )}
+              <FieldNote>一覧ページに表示される求人タイトル。具体的で検索されやすい表現にしましょう。</FieldNote>
+              <FieldError msg={fieldErrors.title} />
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {/* 業種・職種 */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               <div>
                 <Label required>業種</Label>
                 <SelectWrapper>
@@ -302,9 +520,7 @@ export default function JobSubmitForm({ country }: { country: string }) {
                     ))}
                   </select>
                 </SelectWrapper>
-                {fieldErrors.industry && (
-                  <p className="text-xs text-red-500 mt-1">{fieldErrors.industry}</p>
-                )}
+                <FieldError msg={fieldErrors.industry} />
               </div>
 
               <div>
@@ -319,12 +535,11 @@ export default function JobSubmitForm({ country }: { country: string }) {
                   disabled={submitting}
                   className={inputClass}
                 />
-                {fieldErrors.job_type && (
-                  <p className="text-xs text-red-500 mt-1">{fieldErrors.job_type}</p>
-                )}
+                <FieldError msg={fieldErrors.job_type} />
               </div>
             </div>
 
+            {/* 雇用形態 */}
             <div>
               <Label required>雇用形態</Label>
               <SelectWrapper>
@@ -343,12 +558,11 @@ export default function JobSubmitForm({ country }: { country: string }) {
                   ))}
                 </select>
               </SelectWrapper>
-              {fieldErrors.employment_type && (
-                <p className="text-xs text-red-500 mt-1">{fieldErrors.employment_type}</p>
-              )}
+              <FieldError msg={fieldErrors.employment_type} />
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {/* 勤務地・最寄り駅 */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               <div>
                 <Label required>勤務地</Label>
                 <input
@@ -361,111 +575,100 @@ export default function JobSubmitForm({ country }: { country: string }) {
                   disabled={submitting}
                   className={inputClass}
                 />
-                {fieldErrors.location && (
-                  <p className="text-xs text-red-500 mt-1">{fieldErrors.location}</p>
-                )}
+                <FieldError msg={fieldErrors.location} />
               </div>
               <div>
-                <Label>最寄り駅（任意）</Label>
+                <Label>最寄り駅・バス停（任意）</Label>
                 <input
                   type="text"
                   name="nearest_station"
                   value={form.nearest_station}
                   onChange={handleChange}
-                  placeholder="例: Orchard MRT駅"
+                  placeholder="例: Orchard MRT駅 徒歩3分"
                   maxLength={100}
                   disabled={submitting}
                   className={inputClass}
                 />
               </div>
             </div>
-          </div>
-        </section>
 
-        {/* ─── 給与 ─── */}
-        <section className="bg-white dark:bg-stone-800 rounded-2xl border border-stone-100 dark:border-stone-700 p-6">
-          <h2 className="text-base font-bold text-stone-800 dark:text-stone-100 mb-1 pb-3 border-b border-stone-100 dark:border-stone-700">
-            給与（任意）
-          </h2>
-          <FieldNote>未入力の場合は「要相談」として表示されます</FieldNote>
-          <div className="mt-4 space-y-4">
-            <div className="grid grid-cols-2 gap-4">
-              <div>
-                <Label>最低</Label>
-                <input
-                  type="number"
-                  name="salary_min"
-                  value={form.salary_min}
-                  onChange={handleChange}
-                  placeholder="例: 3000"
-                  min={0}
-                  disabled={submitting}
-                  className={inputClass}
-                />
+            {/* 給与 */}
+            <div>
+              <p className="text-sm font-semibold text-stone-700 dark:text-stone-200 mb-1.5">
+                給与（任意）
+              </p>
+              <FieldNote>未入力の場合は「要相談」として表示されます。</FieldNote>
+              <div className="mt-3 grid grid-cols-2 gap-4">
+                <div>
+                  <Label>最低給与</Label>
+                  <input
+                    type="number"
+                    name="salary_min"
+                    value={form.salary_min}
+                    onChange={handleChange}
+                    placeholder="例: 3000"
+                    min={0}
+                    disabled={submitting}
+                    className={inputClass}
+                  />
+                </div>
+                <div>
+                  <Label>最高給与</Label>
+                  <input
+                    type="number"
+                    name="salary_max"
+                    value={form.salary_max}
+                    onChange={handleChange}
+                    placeholder="例: 5000"
+                    min={0}
+                    disabled={submitting}
+                    className={inputClass}
+                  />
+                </div>
               </div>
-              <div>
-                <Label>最高</Label>
-                <input
-                  type="number"
-                  name="salary_max"
-                  value={form.salary_max}
-                  onChange={handleChange}
-                  placeholder="例: 5000"
-                  min={0}
-                  disabled={submitting}
-                  className={inputClass}
-                />
+              <div className="mt-4 grid grid-cols-2 gap-4">
+                <div>
+                  <Label>通貨</Label>
+                  <SelectWrapper>
+                    <select
+                      name="salary_currency"
+                      value={form.salary_currency}
+                      onChange={handleChange}
+                      disabled={submitting}
+                      className={selectClass}
+                    >
+                      <option value="">選択してください</option>
+                      {CURRENCY_OPTIONS.map((c) => (
+                        <option key={c.value} value={c.value}>
+                          {c.label}
+                        </option>
+                      ))}
+                    </select>
+                  </SelectWrapper>
+                </div>
+                <div>
+                  <Label>給与タイプ</Label>
+                  <SelectWrapper>
+                    <select
+                      name="salary_type"
+                      value={form.salary_type}
+                      onChange={handleChange}
+                      disabled={submitting}
+                      className={selectClass}
+                    >
+                      <option value="">選択してください</option>
+                      {Object.entries(SALARY_TYPE_LABELS).map(([val, label]) => (
+                        <option key={val} value={val}>
+                          {label}
+                        </option>
+                      ))}
+                    </select>
+                  </SelectWrapper>
+                </div>
               </div>
             </div>
-            <div className="grid grid-cols-2 gap-4">
-              <div>
-                <Label>通貨</Label>
-                <SelectWrapper>
-                  <select
-                    name="salary_currency"
-                    value={form.salary_currency}
-                    onChange={handleChange}
-                    disabled={submitting}
-                    className={selectClass}
-                  >
-                    <option value="">選択してください</option>
-                    {CURRENCY_OPTIONS.map((c) => (
-                      <option key={c.value} value={c.value}>
-                        {c.label}
-                      </option>
-                    ))}
-                  </select>
-                </SelectWrapper>
-              </div>
-              <div>
-                <Label>給与タイプ</Label>
-                <SelectWrapper>
-                  <select
-                    name="salary_type"
-                    value={form.salary_type}
-                    onChange={handleChange}
-                    disabled={submitting}
-                    className={selectClass}
-                  >
-                    <option value="">選択してください</option>
-                    {Object.entries(SALARY_TYPE_LABELS).map(([val, label]) => (
-                      <option key={val} value={val}>
-                        {label}
-                      </option>
-                    ))}
-                  </select>
-                </SelectWrapper>
-              </div>
-            </div>
-          </div>
-        </section>
 
-        {/* ─── 求人内容 ─── */}
-        <section className="bg-white dark:bg-stone-800 rounded-2xl border border-stone-100 dark:border-stone-700 p-6">
-          <h2 className="text-base font-bold text-stone-800 dark:text-stone-100 mb-5 pb-3 border-b border-stone-100 dark:border-stone-700">
-            求人内容
-          </h2>
-          <div className="space-y-4">
+            {/* 語学要件 */}
             <div>
               <Label>語学要件（任意）</Label>
               <input
@@ -473,153 +676,183 @@ export default function JobSubmitForm({ country }: { country: string }) {
                 name="language_requirement"
                 value={form.language_requirement}
                 onChange={handleChange}
-                placeholder="例: 日本語のみ可 / 英語N3レベル以上"
+                placeholder="例: 日本語のみ可 / 英語日常会話レベル以上"
                 maxLength={200}
                 disabled={submitting}
                 className={inputClass}
               />
             </div>
-            <div>
-              <Label required>求人詳細</Label>
-              <textarea
-                name="description"
-                value={form.description}
-                onChange={handleChange}
-                placeholder="仕事内容、勤務時間、職場環境など詳しく記載してください"
-                rows={6}
-                maxLength={10000}
-                disabled={submitting}
-                className={textareaClass}
-              />
-              {fieldErrors.description && (
-                <p className="text-xs text-red-500 mt-1">{fieldErrors.description}</p>
-              )}
-            </div>
-            <div>
-              <Label>応募要件（任意）</Label>
-              <textarea
-                name="requirements"
-                value={form.requirements}
-                onChange={handleChange}
-                placeholder="必要なスキル、経験、資格など"
-                rows={3}
-                maxLength={5000}
-                disabled={submitting}
-                className={textareaClass}
-              />
-            </div>
-            <div>
-              <Label>待遇・福利厚生（任意）</Label>
-              <textarea
-                name="benefits"
-                value={form.benefits}
-                onChange={handleChange}
-                placeholder="社会保険、交通費支給、昇給、ビザサポートなど"
-                rows={3}
-                maxLength={5000}
-                disabled={submitting}
-                className={textareaClass}
-              />
-            </div>
           </div>
-        </section>
+        )}
 
-        {/* ─── 応募方法 ─── */}
-        <section className="bg-white dark:bg-stone-800 rounded-2xl border border-stone-100 dark:border-stone-700 p-6">
-          <h2 className="text-base font-bold text-stone-800 dark:text-stone-100 mb-1 pb-3 border-b border-stone-100 dark:border-stone-700">
-            応募方法
-          </h2>
-          <FieldNote>メールとURLのどちらか一方は必ず入力してください</FieldNote>
-          <div className="mt-4 space-y-4">
-            <div>
-              <Label>応募先メールアドレス</Label>
-              <input
-                type="email"
-                name="contact_email"
-                value={form.contact_email}
-                onChange={handleChange}
-                placeholder="apply@example.com"
-                maxLength={254}
-                disabled={submitting}
-                className={inputClass}
-              />
-              {fieldErrors.contact_email && (
-                <p className="text-xs text-red-500 mt-1">{fieldErrors.contact_email}</p>
-              )}
+        {/* ═══ Step 3: 求人内容・応募方法 ════════════ */}
+        {step === 3 && (
+          <div className="space-y-6">
+            <div className="bg-white dark:bg-stone-800 rounded-2xl border border-stone-200 dark:border-stone-700 p-6 sm:p-8 space-y-6">
+              <div>
+                <h2 className="text-lg font-bold text-stone-800 dark:text-stone-100 mb-1">
+                  求人内容・応募方法
+                </h2>
+                <p className="text-sm text-stone-400">
+                  仕事内容を具体的に書くと応募率が上がります。
+                </p>
+              </div>
+
+              <div>
+                <Label required>仕事内容・求人詳細</Label>
+                <textarea
+                  name="description"
+                  value={form.description}
+                  onChange={handleChange}
+                  placeholder={`例:\n・ランチ・ディナーのホール業務\n・オーダー受付、料理提供、テーブルセッティング\n・シフト制（週3〜OK）\n・日本語のみで働ける環境です`}
+                  rows={7}
+                  maxLength={10000}
+                  disabled={submitting}
+                  className={textareaClass}
+                />
+                <FieldNote>
+                  改行・箇条書きを使うと読みやすくなります。勤務時間・休日・職場の雰囲気も書いてみてください。
+                </FieldNote>
+                <FieldError msg={fieldErrors.description} />
+              </div>
+
+              <div>
+                <Label>応募要件（任意）</Label>
+                <textarea
+                  name="requirements"
+                  value={form.requirements}
+                  onChange={handleChange}
+                  placeholder={`例:\n・飲食店経験不問\n・日本語ネイティブレベル\n・現地ビザ保持者優遇`}
+                  rows={4}
+                  maxLength={5000}
+                  disabled={submitting}
+                  className={textareaClass}
+                />
+              </div>
+
+              <div>
+                <Label>待遇・福利厚生（任意）</Label>
+                <textarea
+                  name="benefits"
+                  value={form.benefits}
+                  onChange={handleChange}
+                  placeholder={`例:\n・社会保険完備\n・交通費支給\n・ビザサポートあり\n・昇給・賞与制度あり`}
+                  rows={4}
+                  maxLength={5000}
+                  disabled={submitting}
+                  className={textareaClass}
+                />
+              </div>
             </div>
-            <div>
-              <Label>応募URL</Label>
-              <input
-                type="url"
-                name="contact_url"
-                value={form.contact_url}
-                onChange={handleChange}
-                placeholder="https://example.com/careers/apply"
-                maxLength={500}
-                disabled={submitting}
-                className={inputClass}
-              />
-              {fieldErrors.contact_url && (
-                <p className="text-xs text-red-500 mt-1">{fieldErrors.contact_url}</p>
-              )}
+
+            {/* 応募方法セクション */}
+            <div className="bg-white dark:bg-stone-800 rounded-2xl border border-stone-200 dark:border-stone-700 p-6 sm:p-8 space-y-5">
+              <div>
+                <h2 className="text-lg font-bold text-stone-800 dark:text-stone-100 mb-1">
+                  応募方法
+                </h2>
+                <p className="text-sm text-stone-400">
+                  メールアドレスまたは応募URLのどちらか一方は必ず入力してください。
+                </p>
+              </div>
+
+              <div>
+                <Label>応募先メールアドレス</Label>
+                <input
+                  type="email"
+                  name="contact_email"
+                  value={form.contact_email}
+                  onChange={handleChange}
+                  placeholder="apply@example.com"
+                  maxLength={254}
+                  disabled={submitting}
+                  className={inputClass}
+                />
+                <FieldError msg={fieldErrors.contact_email} />
+              </div>
+
+              <div className="flex items-center gap-3">
+                <div className="flex-1 h-px bg-stone-100 dark:bg-stone-700" />
+                <span className="text-xs text-stone-400">または</span>
+                <div className="flex-1 h-px bg-stone-100 dark:bg-stone-700" />
+              </div>
+
+              <div>
+                <Label>応募フォームURL</Label>
+                <input
+                  type="url"
+                  name="contact_url"
+                  value={form.contact_url}
+                  onChange={handleChange}
+                  placeholder="https://example.com/careers/apply"
+                  maxLength={500}
+                  disabled={submitting}
+                  className={inputClass}
+                />
+                <FieldNote>自社採用ページや外部求人サイトのURLでも構いません。</FieldNote>
+                <FieldError msg={fieldErrors.contact_url} />
+              </div>
             </div>
+
+            {/* プレビュー */}
+            <JobPreview form={form} />
           </div>
-        </section>
+        )}
 
-        {/* ─── 担当者情報 ─── */}
-        <section className="bg-white dark:bg-stone-800 rounded-2xl border border-stone-100 dark:border-stone-700 p-6">
-          <h2 className="text-base font-bold text-stone-800 dark:text-stone-100 mb-1 pb-3 border-b border-stone-100 dark:border-stone-700">
-            担当者情報
-          </h2>
-          <FieldNote>掲載確認のご連絡に使用します。求職者には公開されません。</FieldNote>
-          <div className="mt-4">
-            <Label required>担当者メールアドレス</Label>
-            <input
-              type="email"
-              name="applicant_email"
-              value={form.applicant_email}
-              onChange={handleChange}
-              placeholder="contact@example.com"
-              maxLength={254}
+        {/* ─── ナビゲーションボタン ─── */}
+        <div className="mt-8 flex items-center gap-3">
+          {step > 1 && (
+            <button
+              type="button"
+              onClick={handleBack}
               disabled={submitting}
-              className={inputClass}
-            />
-            {fieldErrors.applicant_email && (
-              <p className="text-xs text-red-500 mt-1">{fieldErrors.applicant_email}</p>
-            )}
-          </div>
-        </section>
+              className="flex items-center gap-2 px-5 py-3 border border-stone-200 dark:border-stone-600 text-stone-600 dark:text-stone-300 text-sm font-semibold rounded-xl hover:bg-stone-50 dark:hover:bg-stone-800 transition disabled:opacity-50"
+            >
+              <ChevronLeft size={16} />
+              戻る
+            </button>
+          )}
 
-        {/* ─── 送信エリア ─── */}
-        <div className="space-y-3">
-          {error && (
-            <div className="bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-xl px-4 py-3">
-              <p className="text-sm text-red-600 dark:text-red-400">{error}</p>
+          {step < 3 ? (
+            <button
+              type="button"
+              onClick={handleNext}
+              className="flex-1 flex items-center justify-center gap-2 px-6 py-3.5 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-xl transition text-sm"
+            >
+              次へ
+              <ChevronRight size={16} />
+            </button>
+          ) : (
+            <div className="flex-1 space-y-3">
+              {error && (
+                <div className="bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-xl px-4 py-3">
+                  <p className="text-sm text-red-600 dark:text-red-400">{error}</p>
+                </div>
+              )}
+              <p className="text-xs text-stone-400 dark:text-stone-500 text-center">
+                投稿内容を確認後、通常 2〜3 営業日で掲載いたします。
+              </p>
+              <button
+                type="submit"
+                disabled={submitting}
+                className="w-full flex items-center justify-center gap-2 px-6 py-4 bg-gradient-to-r from-indigo-600 to-indigo-700 hover:from-indigo-700 hover:to-indigo-800 text-white font-bold rounded-xl disabled:opacity-50 disabled:cursor-not-allowed transition text-sm shadow-md shadow-indigo-200 dark:shadow-none"
+              >
+                {submitting ? (
+                  <>
+                    <Loader2 size={16} className="animate-spin" />
+                    送信中...
+                  </>
+                ) : (
+                  <>
+                    <Send size={16} />
+                    求人情報を投稿する（無料）
+                  </>
+                )}
+              </button>
             </div>
           )}
-          <p className="text-xs text-stone-400 dark:text-stone-500 text-center">
-            投稿内容を確認後、通常2〜3営業日で掲載いたします。掲載に関するご不明点はお問い合わせください。
-          </p>
-          <button
-            type="submit"
-            disabled={submitting}
-            className="w-full inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-xl disabled:opacity-50 disabled:cursor-not-allowed transition-colors text-sm"
-          >
-            {submitting ? (
-              <>
-                <Loader2 size={16} className="animate-spin" />
-                送信中...
-              </>
-            ) : (
-              <>
-                <Send size={16} />
-                求人情報を投稿する（無料）
-              </>
-            )}
-          </button>
         </div>
-
-      </div>
-    </form>
+      </form>
+    </div>
   );
 }
