@@ -997,5 +997,53 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null
+  },
+  {
+    "slug": "kinto-singapore",
+    "name": "KINTO Singapore",
+    "name_ja": "キント シンガポール",
+    "area": "Sin Ming",
+    "address": "22 Sin Ming Lane, #01-77 Midview City, Singapore 573969",
+    "phone": "+6588761523",
+    "website": "https://one.kinto-sg.com/",
+    "description": "トヨタ・レクサス車のリース・サービス。3-5年のフレキシブルなリース期間で、保険・メンテナンス全込みの月額固定。日本人駐在員向けのリース条件が充実。日本で同じサービスを利用している場合、スムーズな乗り換えが可能。",
+    "tags": [
+      "日系",
+      "リース",
+      "日本人向け",
+      "トヨタ・レクサス"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-04-06",
+    "source": "web_search",
+    "source_url": "https://one.kinto-sg.com/tips-and-advice/expat-car-leasing-singapore/",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
+  },
+  {
+    "slug": "tokyo-century-leasing-singapore",
+    "name": "Tokyo Century Leasing Singapore",
+    "name_ja": "東京センチュリー リーシング シンガポール",
+    "area": "City Centre",
+    "address": "8 Cross Street, #09-04/05/06 Manulife Tower, Singapore 048424",
+    "phone": "+6565323436",
+    "website": "https://www.tcls.com.sg/",
+    "description": "東京センチュリーグループのシンガポール子会社。40年以上の実績で駐在員向けリースに定評あり。短期・長期リース両対応で柔軟な条件。24時間ロードサイドアシスタンス完備。",
+    "tags": [
+      "日系",
+      "リース",
+      "40年以上の実績",
+      "駐在員向け"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-04-06",
+    "source": "web_search",
+    "source_url": "https://www.tcls.com.sg/long-term-and-short-term/",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
   }
 ]

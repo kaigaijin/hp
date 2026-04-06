@@ -617,5 +617,74 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null
+  },
+  {
+    "slug": "pj-auto-service-centre",
+    "name": "PJ Auto Service Centre",
+    "name_ja": "PJ オートサービスセンター",
+    "area": "Petaling Jaya",
+    "address": "No.3, Seapark Complex, Jalan 21/19, Seapark 46300, Petaling Jaya, Selangor",
+    "phone": "+60172956988",
+    "website": "https://www.pjcarworkshop.com/",
+    "description": "ペタリン・ジャヤのシーパークコンプレックス内の日系ワークショップ。日本車・韓国車・欧州車の修理に対応し、エアコンサービス・タイヤサービス・エンジンオーバーホールなど総合的に対応。月-土8:30-17:30営業。",
+    "tags": [
+      "日本車対応",
+      "総合修理",
+      "日系"
+    ],
+    "hours": "8:30-17:30（月-土）",
+    "status": "unverified",
+    "last_verified": "2026-04-06",
+    "source": "web_search",
+    "source_url": "https://www.pjcarworkshop.com/",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
+  },
+  {
+    "slug": "autosaver-automotive-setapak",
+    "name": "Autosaver Automotive Service Centre",
+    "name_ja": "オートセーバー オートモーティブサービスセンター",
+    "area": "Setapak",
+    "address": "Setapak, Kuala Lumpur",
+    "phone": null,
+    "website": "https://www.autosaver.com.my/",
+    "description": "ペタリン・ジャヤとセタパッに展開する日系修理工場。ホンダ・トヨタ・日産等の日本車専門。オイル交換・エアコンサービス・修理に対応し、外国人も多く利用する。信頼性が高い。",
+    "tags": [
+      "日本車専門",
+      "総合修理",
+      "外国人利用多数"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-04-06",
+    "source": "web_search",
+    "source_url": "https://www.autosaver.com.my/",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
+  },
+  {
+    "slug": "techtunes-auto-workshop-puchong",
+    "name": "TechTunes Auto Workshop",
+    "name_ja": "テックチューンズ オートワークショップ",
+    "area": "Puchong",
+    "address": "Taman Perindustrian Kinrara, Puchong",
+    "phone": null,
+    "website": "https://techtunesauto.com.my/",
+    "description": "プチョンのキンラーラ工業団地内のトヨタ・ホンダ・日産専門ワークショップ。全面修理に対応し、品質管理がしっかりしている。日本人オーナーまたは日本人スタッフが在籍。",
+    "tags": [
+      "日本車専門",
+      "トヨタ・ホンダ・日産",
+      "日系"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-04-06",
+    "source": "web_search",
+    "source_url": "https://techtunesauto.com.my/",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
   }
 ]
