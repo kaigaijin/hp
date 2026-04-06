@@ -87,9 +87,9 @@ export default async function JobsIndexPage({
   return (
     <>
       <Header />
-      <main className="bg-sand-50 dark:bg-stone-950 min-h-screen">
+      <main className="bg-sand-50 dark:bg-stone-900 min-h-screen">
         {/* ヒーローヘッダー */}
-        <div className="bg-white dark:bg-stone-900 border-b border-stone-100 dark:border-stone-800">
+        <div className="bg-white dark:bg-stone-800 border-b border-stone-100 dark:border-stone-700">
           <div className="max-w-6xl mx-auto px-4 py-6">
             {/* パンくず */}
             <nav className="flex items-center gap-1.5 text-xs text-stone-400 mb-4">
@@ -137,7 +137,7 @@ export default async function JobsIndexPage({
                   const renderIcon = iconMap[ind.icon];
                   return (
                     <Link key={ind.slug} href={`/${code}/jobs/${ind.slug}`}>
-                      <div className="group bg-white dark:bg-stone-900 rounded-2xl border border-stone-100 dark:border-stone-800 hover:border-blue-300 dark:hover:border-blue-700 hover:shadow-md transition-all overflow-hidden flex">
+                      <div className="group bg-white dark:bg-stone-800 rounded-2xl border border-stone-100 dark:border-stone-700 hover:border-blue-300 dark:hover:border-blue-600 hover:shadow-md transition-all overflow-hidden flex">
                         {/* カラーアクセントバー */}
                         <div className="w-1.5 shrink-0 bg-blue-400 dark:bg-blue-600" />
                         {/* テキスト */}
@@ -185,15 +185,15 @@ export default async function JobsIndexPage({
                   return (
                     <div
                       key={ind.slug}
-                      className="bg-white dark:bg-stone-900 rounded-xl border border-stone-100 dark:border-stone-800 p-4 opacity-50"
+                      className="bg-stone-50 dark:bg-stone-800/50 rounded-xl border border-stone-200 dark:border-stone-700 p-4"
                     >
                       <div className="flex items-center gap-2 mb-1">
-                        <span className="text-stone-400">{renderIcon?.(14)}</span>
+                        <span className="text-stone-400 dark:text-stone-500">{renderIcon?.(14)}</span>
                         <p className="text-sm font-semibold text-stone-500 dark:text-stone-400">
                           {ind.label}
                         </p>
                       </div>
-                      <p className="text-xs text-stone-400 ml-[22px]">準備中</p>
+                      <p className="text-xs text-stone-400 dark:text-stone-500 ml-[22px]">準備中</p>
                     </div>
                   );
                 })}
@@ -202,7 +202,7 @@ export default async function JobsIndexPage({
           )}
 
           {/* フッターCTA */}
-          <section className="mt-10 bg-white dark:bg-stone-900 rounded-2xl border border-stone-100 dark:border-stone-800 p-6 text-center">
+          <section className="mt-10 bg-white dark:bg-stone-800 rounded-2xl border border-stone-100 dark:border-stone-700 p-6 text-center">
             <p className="text-sm text-stone-600 dark:text-stone-400">
               求人情報の掲載・修正は
               <Link
