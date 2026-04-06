@@ -669,5 +669,28 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null
+  },
+  {
+    "slug": "grabmaid-kuala-lumpur",
+    "name": "GrabMaid",
+    "name_ja": "グラブメイド",
+    "area": "Puchong",
+    "address": "Level 3-11, Tower 2 RIO, Lebuh Puteri, Bandar Puteri Puchong, 47100 Puchong, Selangor",
+    "phone": "+60125671318",
+    "website": "https://www.grabmaid.my/",
+    "description": "KLCCやアンパン、バンサーなど駐在員向けエリアに特化した清掃サービス。Airbnb・ホテル管理にも対応し、外国人向けのオンデマンド予約が簡単。日本人駐在員にも利用者が多い。",
+    "tags": [
+      "駐在員向け",
+      "オンデマンド予約",
+      "複数エリア対応"
+    ],
+    "hours": "9:00-18:00（月-金）",
+    "status": "unverified",
+    "last_verified": "2026-04-06",
+    "source": "web_search",
+    "source_url": "https://www.grabmaid.my/",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true
   }
 ]
