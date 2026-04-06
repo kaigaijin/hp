@@ -631,5 +631,83 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null
+  },
+  {
+    "slug": "midori-lisbon",
+    "name": "Midori",
+    "name_ja": "ミドリ",
+    "area": "Lisbon - Centro",
+    "address": "Lisbon, Portugal",
+    "phone": null,
+    "phone_local": null,
+    "email": null,
+    "website": null,
+    "source_url": "https://www.eatnowlisbon.com/cuisines/japanese",
+    "description": "リスボンで日本料理の基準を確立したミシュラン星獲得レストラン。2018年以来ミシュラン1つ星を保持。",
+    "detail": "リスボンで日本料理の基準を確立し、2018年よりミシュラン1つ星を獲得し続けているプレミアム日本レストラン。ポルトガルの首都で最も評価の高い日本レストランの1つ。丁寧に仕上げられた日本料理で知られている。",
+    "menu": [
+      "和食",
+      "握り寿司",
+      "刺身",
+      "懐石コース"
+    ],
+    "price_range": "EUR60〜100（約9,000〜15,000円）/人",
+    "tags": [
+      "ミシュラン星",
+      "プレミアム",
+      "懐石料理",
+      "Lisbon",
+      "Centro"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-04-06",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": 4,
+    "photo_name": null
+  },
+  {
+    "slug": "kabuki-lisboa-four-seasons",
+    "name": "Kabuki Lisboa",
+    "name_ja": "カブキ リスボア",
+    "area": "Lisbon - Ritz Area",
+    "address": "Galerias Ritz, Four Seasons Hotel Ritz Lisbon, Lisbon, Portugal",
+    "phone": null,
+    "phone_local": null,
+    "email": null,
+    "website": null,
+    "source_url": "https://guide.michelin.com/en/lisboa-region/lisboa/restaurant/kabuki-lisboa",
+    "description": "四季ホテルリッツ内の日本レストラン。スペインの Kabuki グループのポルトガル初進出。モダン日本料理。",
+    "detail": "リスボンの一流ホテル・フォーシーズン・ホテル・リッツ・リスボアの Galerias Ritz 内に位置する日本レストラン。スペイン発祥の高級日本レストラン・Kabuki グループのポルトガル初進出施設。リスボンの富裕層とビジネス客に人気が高い。",
+    "menu": [
+      "モダン日本料理",
+      "寿司",
+      "刺身",
+      "日本・ポルトガル融合料理"
+    ],
+    "price_range": "EUR70〜120（約10,500〜18,000円）/人",
+    "tags": [
+      "ホテルレストラン",
+      "プレミアム",
+      "フォーシーズン",
+      "Ritz",
+      "Lisbon"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-04-06",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": 4,
+    "photo_name": null
   }
 ]
