@@ -12,6 +12,11 @@ import {
   ChevronLeft,
   ChevronRight,
   Eye,
+  MapPin,
+  DollarSign,
+  Languages,
+  Globe,
+  ChevronUp,
 } from "lucide-react";
 
 // クライアントコンポーネントのため、jobs.ts（fs依存）からはインポートせず直接定義
@@ -244,10 +249,10 @@ function StepIndicator({ current }: { current: number }) {
 }
 
 // ─── プレビューコンポーネント ─────────────────
-function JobPreview({ form }: { form: FormData }) {
+function JobPreview({ form, collapsed, onToggle }: { form: FormData; collapsed?: boolean; onToggle?: () => void }) {
   const industryLabel =
-    JOB_INDUSTRIES.find((i) => i.slug === form.industry)?.label ?? form.industry;
-  const employmentLabel = EMPLOYMENT_TYPE_LABELS[form.employment_type] ?? form.employment_type;
+    JOB_INDUSTRIES.find((i) => i.slug === form.industry)?.label ?? "";
+  const employmentLabel = EMPLOYMENT_TYPE_LABELS[form.employment_type] ?? "";
 
   let salaryText = "要相談";
   if (form.salary_min || form.salary_max) {
@@ -262,38 +267,131 @@ function JobPreview({ form }: { form: FormData }) {
     }
   }
 
+  const isEmpty = !form.title && !form.company && !form.description;
+
   return (
-    <div className="bg-stone-50 dark:bg-stone-800/50 rounded-2xl border border-stone-200 dark:border-stone-700 p-6 mt-8">
-      <div className="flex items-center gap-2 mb-4">
-        <Eye size={16} className="text-stone-400" />
-        <p className="text-xs font-semibold text-stone-500 dark:text-stone-400 uppercase tracking-wider">
-          投稿プレビュー
-        </p>
-      </div>
-      <div className="bg-white dark:bg-stone-900 rounded-xl border border-stone-200 dark:border-stone-700 p-5 space-y-3">
-        {employmentLabel && (
-          <span className="inline-flex items-center text-xs font-semibold px-2.5 py-1 rounded-full bg-indigo-50 dark:bg-indigo-900/30 text-indigo-700 dark:text-indigo-400">
-            {employmentLabel}
+    <div className="rounded-2xl border border-indigo-100 dark:border-indigo-900/50 bg-white dark:bg-stone-900 overflow-hidden">
+      {/* ヘッダー */}
+      <button
+        type="button"
+        onClick={onToggle}
+        className="w-full flex items-center justify-between px-5 py-3.5 bg-indigo-50 dark:bg-indigo-900/20 hover:bg-indigo-100 dark:hover:bg-indigo-900/40 transition lg:cursor-default lg:pointer-events-none"
+      >
+        <div className="flex items-center gap-2">
+          <Eye size={15} className="text-indigo-500 dark:text-indigo-400" />
+          <span className="text-xs font-bold text-indigo-700 dark:text-indigo-400 uppercase tracking-wider">
+            リアルタイムプレビュー
+          </span>
+        </div>
+        {onToggle && (
+          <span className="lg:hidden">
+            {collapsed
+              ? <ChevronDown size={15} className="text-indigo-400" />
+              : <ChevronUp size={15} className="text-indigo-400" />
+            }
           </span>
         )}
-        <h3 className="text-lg font-bold text-stone-800 dark:text-stone-100">
-          {form.title || "（求人タイトル）"}
-        </h3>
-        <p className="text-sm text-stone-400">
-          {form.company || "（企業名）"}
-          {industryLabel && (
-            <span className="ml-2 text-stone-300">/ {industryLabel}</span>
+      </button>
+
+      {/* プレビュー本体 */}
+      {!collapsed && (
+        <div className="p-5">
+          {isEmpty ? (
+            <p className="text-xs text-stone-400 dark:text-stone-500 text-center py-6">
+              入力すると、ここにプレビューが表示されます
+            </p>
+          ) : (
+            <div className="space-y-3">
+              {/* バッジ */}
+              {employmentLabel && (
+                <span className="inline-flex items-center text-xs font-semibold px-2.5 py-1 rounded-full bg-indigo-50 dark:bg-indigo-900/30 text-indigo-700 dark:text-indigo-400">
+                  {employmentLabel}
+                </span>
+              )}
+
+              {/* タイトル */}
+              <h3 className={`text-base font-bold leading-snug ${form.title ? "text-stone-800 dark:text-stone-100" : "text-stone-300 dark:text-stone-600"}`}>
+                {form.title || "（求人タイトル）"}
+              </h3>
+
+              {/* 企業名 + 業種 */}
+              <p className="text-xs text-stone-500 dark:text-stone-400">
+                <span className={form.company ? "" : "text-stone-300 dark:text-stone-600"}>
+                  {form.company || "（企業名）"}
+                </span>
+                {industryLabel && (
+                  <span className="text-stone-300 dark:text-stone-600 ml-1.5">/ {industryLabel}</span>
+                )}
+              </p>
+
+              {/* 説明文 */}
+              {form.description ? (
+                <p className="text-xs text-stone-600 dark:text-stone-300 leading-relaxed line-clamp-4 whitespace-pre-line">
+                  {form.description}
+                </p>
+              ) : (
+                <p className="text-xs text-stone-300 dark:text-stone-600">（仕事内容）</p>
+              )}
+
+              {/* メタ情報 */}
+              <div className="flex flex-col gap-1.5 pt-1 border-t border-stone-100 dark:border-stone-800">
+                {form.location && (
+                  <span className="flex items-center gap-1.5 text-xs text-stone-500 dark:text-stone-400">
+                    <MapPin size={11} className="shrink-0 text-stone-400" />
+                    {form.location}
+                    {form.nearest_station && (
+                      <span className="text-stone-400">（{form.nearest_station}）</span>
+                    )}
+                  </span>
+                )}
+                <span className="flex items-center gap-1.5 text-xs text-stone-500 dark:text-stone-400">
+                  <DollarSign size={11} className="shrink-0 text-indigo-400" />
+                  {salaryText}
+                </span>
+                {form.language_requirement && (
+                  <span className="flex items-center gap-1.5 text-xs text-stone-500 dark:text-stone-400">
+                    <Languages size={11} className="shrink-0 text-stone-400" />
+                    {form.language_requirement}
+                  </span>
+                )}
+                {form.company_website && (
+                  <span className="flex items-center gap-1.5 text-xs text-stone-500 dark:text-stone-400">
+                    <Globe size={11} className="shrink-0 text-stone-400" />
+                    <span className="truncate">{form.company_website}</span>
+                  </span>
+                )}
+              </div>
+
+              {/* 要件・福利厚生 */}
+              {(form.requirements || form.benefits) && (
+                <div className="space-y-2 pt-1 border-t border-stone-100 dark:border-stone-800">
+                  {form.requirements && (
+                    <div>
+                      <p className="text-[10px] font-semibold text-stone-400 dark:text-stone-500 uppercase tracking-wider mb-0.5">応募要件</p>
+                      <p className="text-xs text-stone-600 dark:text-stone-300 leading-relaxed line-clamp-2 whitespace-pre-line">{form.requirements}</p>
+                    </div>
+                  )}
+                  {form.benefits && (
+                    <div>
+                      <p className="text-[10px] font-semibold text-stone-400 dark:text-stone-500 uppercase tracking-wider mb-0.5">待遇・福利厚生</p>
+                      <p className="text-xs text-stone-600 dark:text-stone-300 leading-relaxed line-clamp-2 whitespace-pre-line">{form.benefits}</p>
+                    </div>
+                  )}
+                </div>
+              )}
+
+              {/* 応募先 */}
+              {(form.contact_email || form.contact_url) && (
+                <div className="pt-2 border-t border-stone-100 dark:border-stone-800">
+                  <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-indigo-600 text-white text-xs font-semibold rounded-lg">
+                    応募する
+                  </div>
+                </div>
+              )}
+            </div>
           )}
-        </p>
-        <p className="text-sm text-stone-500 dark:text-stone-400 leading-relaxed line-clamp-3">
-          {form.description || "（仕事内容・求人詳細）"}
-        </p>
-        <div className="flex flex-wrap gap-3 text-xs text-stone-400 pt-1">
-          {form.location && <span>📍 {form.location}</span>}
-          <span>💴 {salaryText}</span>
-          {form.language_requirement && <span>🗣 {form.language_requirement}</span>}
         </div>
-      </div>
+      )}
     </div>
   );
 }
@@ -306,6 +404,7 @@ export default function JobSubmitForm({ country }: { country: string }) {
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState("");
   const [fieldErrors, setFieldErrors] = useState<Partial<Record<keyof FormData, string>>>({});
+  const [previewCollapsed, setPreviewCollapsed] = useState(true); // モバイル用折りたたみ
 
   function handleChange(
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
@@ -410,7 +509,19 @@ export default function JobSubmitForm({ country }: { country: string }) {
     <div>
       <StepIndicator current={step} />
 
-      <form onSubmit={handleSubmit} noValidate>
+      {/* 2カラムレイアウト: 左=フォーム、右=プレビュー（デスクトップ） */}
+      <div className="lg:grid lg:grid-cols-[1fr_360px] lg:gap-8 lg:items-start">
+
+      {/* モバイル: プレビューをフォーム上部に折りたたみ表示 */}
+      <div className="lg:hidden mb-4">
+        <JobPreview
+          form={form}
+          collapsed={previewCollapsed}
+          onToggle={() => setPreviewCollapsed((v) => !v)}
+        />
+      </div>
+
+      <form onSubmit={handleSubmit} noValidate className="min-w-0">
         {/* ═══ Step 1: 企業情報 ═══════════════════════ */}
         {step === 1 && (
           <div className="bg-white dark:bg-stone-800 rounded-2xl border border-stone-200 dark:border-stone-700 p-6 sm:p-8 space-y-6">
@@ -794,8 +905,6 @@ export default function JobSubmitForm({ country }: { country: string }) {
               </div>
             </div>
 
-            {/* プレビュー */}
-            <JobPreview form={form} />
           </div>
         )}
 
@@ -853,6 +962,13 @@ export default function JobSubmitForm({ country }: { country: string }) {
           )}
         </div>
       </form>
+
+      {/* デスクトップ: 右サイドスティッキープレビュー */}
+      <div className="hidden lg:block lg:sticky lg:top-28 lg:self-start">
+        <JobPreview form={form} />
+      </div>
+
+      </div>{/* end 2カラムレイアウト */}
     </div>
   );
 }
