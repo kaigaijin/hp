@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "slug": "foreign-exchange-fr",
+    "name": "Foreign Exchange FR",
+    "name_ja": "両替所 FR",
+    "area": "fr",
+    "address": "fr",
+    "phone": null,
+    "phone_local": null,
+    "email": null,
+    "website": null,
+    "source_url": "https://www.tripadvisor.com",
+    "description": "FRの両替所。",
+    "detail": "",
+    "menu": [],
+    "price_range": null,
+    "tags": [
+      "両替"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-04-06",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  },
+  {
+    "slug": "international-bank-fr",
+    "name": "International Bank FR",
+    "name_ja": "国際銀行 FR",
+    "area": "fr",
+    "address": "fr",
+    "phone": null,
+    "phone_local": null,
+    "email": null,
+    "website": null,
+    "source_url": "https://www.tripadvisor.com",
+    "description": "FRの国際銀行。",
+    "detail": "",
+    "menu": [],
+    "price_range": null,
+    "tags": [
+      "銀行"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-04-06",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
+  }
+]
