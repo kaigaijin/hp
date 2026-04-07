@@ -362,7 +362,7 @@ function MapContent({
             >
               <div className="max-w-[260px] p-1">
                 <Link
-                  href={`/${countryCode}/spot/${selectedSpot.category}/${selectedSpot.slug}`}
+                  href={`/${countryCode}/place/${selectedSpot.category}/${selectedSpot.slug}`}
                   className="group"
                 >
                   <h3 className="text-sm font-bold text-stone-800 group-hover:text-warm-600 transition-colors">

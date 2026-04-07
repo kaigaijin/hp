@@ -70,7 +70,7 @@ export default function SpotSearch({
           {results.map((spot) => (
             <Link
               key={`${spot.category}-${spot.slug}`}
-              href={`/${countryCode}/spot/${spot.category}/${spot.slug}`}
+              href={`/${countryCode}/place/${spot.category}/${spot.slug}`}
               className="flex items-center gap-3 px-4 py-3 hover:bg-stone-50 dark:hover:bg-stone-700 transition-colors border-b border-stone-100 dark:border-stone-700 last:border-b-0"
             >
               <div className="flex-1 min-w-0">

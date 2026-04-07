@@ -119,7 +119,7 @@ function PaginatedArticleListInner({
                 <div className="flex items-center gap-3">
                   {relatedGroup && (
                     <Link
-                      href={`/${countryCode}/spot/${relatedGroup.slug}`}
+                      href={`/${countryCode}/place/${relatedGroup.slug}`}
                       className="flex items-center gap-1 text-xs text-stone-400 hover:text-warm-600 dark:hover:text-warm-400 transition-colors"
                       title={`${relatedGroup.name}のKAIプレイス`}
                     >

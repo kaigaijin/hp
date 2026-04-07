@@ -101,7 +101,7 @@ export default async function MapPage({
                 {country.flag} {country.name}
               </Link>
               <ChevronRight size={12} />
-              <Link href={`/${code}/spot`} className="hover:text-warm-600 transition-colors">KAIプレイス</Link>
+              <Link href={`/${code}/place`} className="hover:text-warm-600 transition-colors">KAIプレイス</Link>
               <ChevronRight size={12} />
               <span className="text-stone-600 dark:text-stone-300">地図で探す</span>
             </nav>
@@ -111,13 +111,13 @@ export default async function MapPage({
               </h1>
               <div className="flex gap-2">
                 <Link
-                  href={`/${code}/spot`}
+                  href={`/${code}/place`}
                   className="text-xs text-stone-500 dark:text-stone-400 bg-stone-50 dark:bg-stone-700 px-3 py-1.5 rounded-full hover:bg-stone-100 dark:hover:bg-stone-600 transition-colors"
                 >
                   カテゴリ
                 </Link>
                 <Link
-                  href={`/${code}/spot/area`}
+                  href={`/${code}/place/area`}
                   className="text-xs text-stone-500 dark:text-stone-400 bg-stone-50 dark:bg-stone-700 px-3 py-1.5 rounded-full hover:bg-stone-100 dark:hover:bg-stone-600 transition-colors"
                 >
                   エリア

@@ -99,7 +99,7 @@ export function generateMetadata({
           description: `${country.name}の${group.name}をカテゴリ別に探せるKAIプレイス。`,
           type: "website",
           locale: "ja_JP",
-          url: `https://kaigaijin.jp/${code}/spot/${slug}`,
+          url: `https://kaigaijin.jp/${code}/place/${slug}`,
           siteName: "Kaigaijin",
         },
       };
@@ -117,7 +117,7 @@ export function generateMetadata({
         description: desc,
         type: "website",
         locale: "ja_JP",
-        url: `https://kaigaijin.jp/${code}/spot/${slug}`,
+        url: `https://kaigaijin.jp/${code}/place/${slug}`,
         siteName: "Kaigaijin",
       },
     };
@@ -194,7 +194,7 @@ export default async function CategoryPage({
                 </Link>
                 <ChevronRight size={12} />
                 <Link
-                  href={`/${code}/spot`}
+                  href={`/${code}/place`}
                   className="hover:text-white transition-colors"
                 >
                   KAIプレイス
@@ -239,7 +239,7 @@ export default async function CategoryPage({
           <div className="max-w-6xl mx-auto px-4 py-6">
             <div className="flex items-center justify-between">
               <Link
-                href={`/${code}/spot`}
+                href={`/${code}/place`}
                 className={`text-sm ${theme.accent} hover:underline`}
               >
                 ← カテゴリ一覧
@@ -295,7 +295,7 @@ export default async function CategoryPage({
               </Link>
               <ChevronRight size={12} />
               <Link
-                href={`/${code}/spot`}
+                href={`/${code}/place`}
                 className="hover:text-white transition-colors"
               >
                 KAIプレイス
@@ -304,7 +304,7 @@ export default async function CategoryPage({
                 <>
                   <ChevronRight size={12} />
                   <Link
-                    href={`/${code}/spot/${parentGroup.slug}`}
+                    href={`/${code}/place/${parentGroup.slug}`}
                     className="hover:text-white transition-colors"
                   >
                     {parentGroup.name}
@@ -361,7 +361,7 @@ export default async function CategoryPage({
                 {country.name}の{category.name}情報を順次追加しています。
               </p>
               <Link
-                href={`/${code}/spot`}
+                href={`/${code}/place`}
                 className={`text-sm ${catTheme.accent} hover:underline`}
               >
                 ← カテゴリ一覧に戻る
@@ -372,7 +372,7 @@ export default async function CategoryPage({
           {/* フッター */}
           <div className="mt-8 flex items-center justify-between">
             <Link
-              href={parentGroup ? `/${code}/spot/${parentGroup.slug}` : `/${code}/spot`}
+              href={parentGroup ? `/${code}/place/${parentGroup.slug}` : `/${code}/place`}
               className={`text-sm ${catTheme.accent} hover:underline`}
             >
               ← {parentGroup ? parentGroup.name : "カテゴリ一覧"}

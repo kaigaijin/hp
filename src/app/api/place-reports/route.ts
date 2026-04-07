@@ -29,7 +29,7 @@ function sendNotification(
       from: "Kaigaijin <noreply@kaigaijin.jp>",
       to: [to],
       subject: `[スポット報告] ${spotName} - ${reportType}`,
-      text: `スポット情報の報告がありました。\n\nスポット: ${spotName}\n報告タイプ: ${reportType}\nコメント: ${comment ?? "なし"}\n\nURL: https://kaigaijin.jp/${country}/spot/${category}/${spotSlug}\n\n※確認後、スポットデータを更新してください。`,
+      text: `スポット情報の報告がありました。\n\nスポット: ${spotName}\n報告タイプ: ${reportType}\nコメント: ${comment ?? "なし"}\n\nURL: https://kaigaijin.jp/${country}/place/${category}/${spotSlug}\n\n※確認後、スポットデータを更新してください。`,
     })
     .catch(() => {});
 }

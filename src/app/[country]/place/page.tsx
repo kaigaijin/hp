@@ -93,7 +93,7 @@ export function generateMetadata({
         description: `${country.name}で日本人に便利なスポットをカテゴリ別に探せるKAIプレイス。`,
         type: "website",
         locale: "ja_JP",
-        url: `https://kaigaijin.jp/${code}/spot`,
+        url: `https://kaigaijin.jp/${code}/place`,
         siteName: "Kaigaijin",
       },
     };
@@ -164,10 +164,10 @@ export default async function SpotIndexPage({
               <span className="text-sm font-semibold text-warm-400 border-b-2 border-warm-500 pb-2.5 px-4 -mb-px">
                 カテゴリ
               </span>
-              <Link href={`/${code}/spot/area`} className="text-sm text-stone-400 hover:text-white pb-2.5 px-4 transition-colors">
+              <Link href={`/${code}/place/area`} className="text-sm text-stone-400 hover:text-white pb-2.5 px-4 transition-colors">
                 エリア
               </Link>
-              <Link href={`/${code}/spot/map`} className="text-sm text-stone-400 hover:text-white pb-2.5 px-4 transition-colors flex items-center gap-1.5">
+              <Link href={`/${code}/place/map`} className="text-sm text-stone-400 hover:text-white pb-2.5 px-4 transition-colors flex items-center gap-1.5">
                 <Map size={13} />地図
               </Link>
             </div>
@@ -192,7 +192,7 @@ export default async function SpotIndexPage({
                   .slice(0, 4) as string[];
 
                 return (
-                  <Link key={group.slug} href={`/${code}/spot/${group.slug}`}>
+                  <Link key={group.slug} href={`/${code}/place/${group.slug}`}>
                     <div className={`group bg-white dark:bg-stone-900 rounded-2xl border border-stone-100 dark:border-stone-800 hover:shadow-md ${theme.hoverBorder} transition-all overflow-hidden flex`}>
                       {/* 左: カラーアクセントバー */}
                       <div className={`w-1.5 shrink-0 ${theme.accentBar}`} />
@@ -243,7 +243,7 @@ export default async function SpotIndexPage({
               <div className="flex items-center justify-between mb-5">
                 <p className="section-label">— エリアから探す</p>
                 <Link
-                  href={`/${code}/spot/area`}
+                  href={`/${code}/place/area`}
                   className="text-xs text-warm-600 dark:text-warm-400 hover:underline flex items-center gap-1"
                 >
                   すべてのエリア
@@ -254,7 +254,7 @@ export default async function SpotIndexPage({
                 {areas.map((area) => (
                   <Link
                     key={area.slug}
-                    href={`/${code}/spot/area/${area.slug}`}
+                    href={`/${code}/place/area/${area.slug}`}
                     className="group bg-white dark:bg-stone-900 rounded-xl border border-stone-100 dark:border-stone-800 hover:border-warm-400 dark:hover:border-warm-500 hover:shadow-md transition-all p-4"
                   >
                     <div className="flex items-center gap-2 mb-1">

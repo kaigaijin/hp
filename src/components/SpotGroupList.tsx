@@ -210,7 +210,7 @@ function SpotGroupListInner({
               return (
                 <Link
                   key={`${spot.categorySlug}-${spot.slug}`}
-                  href={`/${countryCode}/spot/${spot.categorySlug}/${spot.slug}`}
+                  href={`/${countryCode}/place/${spot.categorySlug}/${spot.slug}`}
                   className="group block"
                 >
                   <article className={`bg-white dark:bg-stone-900 rounded-2xl border border-stone-100 dark:border-stone-800 ${theme?.hoverBorder ?? "hover:border-warm-400 dark:hover:border-warm-500"} hover:shadow-md transition-all overflow-hidden flex ${isClosed ? "opacity-60 pointer-events-none" : ""}`}>

@@ -99,7 +99,7 @@ export async function generateMetadata({
     spot.name_ja && spot.name_ja !== spot.name
       ? `${spot.name_ja} / ${spot.name}`
       : displayName;
-  const canonicalUrl = `https://kaigaijin.jp/${code}/spot/${catSlug}/${slug}`;
+  const canonicalUrl = `https://kaigaijin.jp/${code}/place/${catSlug}/${slug}`;
   return {
     title: `${titleName}｜${country.name}の${category.name}（${spot.area}）`,
     description: spot.description,
@@ -191,8 +191,8 @@ export default async function SpotDetailPage({
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "トップ", item: "https://kaigaijin.jp" },
       { "@type": "ListItem", position: 2, name: country.name, item: `https://kaigaijin.jp/${code}` },
-      { "@type": "ListItem", position: 3, name: "KAIプレイス", item: `https://kaigaijin.jp/${code}/spot` },
-      { "@type": "ListItem", position: 4, name: category.name, item: `https://kaigaijin.jp/${code}/spot/${catSlug}` },
+      { "@type": "ListItem", position: 3, name: "KAIプレイス", item: `https://kaigaijin.jp/${code}/place` },
+      { "@type": "ListItem", position: 4, name: category.name, item: `https://kaigaijin.jp/${code}/place/${catSlug}` },
       { "@type": "ListItem", position: 5, name: displayName },
     ],
   };
@@ -222,9 +222,9 @@ export default async function SpotDetailPage({
                 {country.flag} {country.name}
               </Link>
               <ChevronRight size={12} />
-              <Link href={`/${code}/spot`} className="hover:text-warm-600 transition-colors">KAIプレイス</Link>
+              <Link href={`/${code}/place`} className="hover:text-warm-600 transition-colors">KAIプレイス</Link>
               <ChevronRight size={12} />
-              <Link href={`/${code}/spot/${catSlug}`} className="hover:text-warm-600 transition-colors">
+              <Link href={`/${code}/place/${catSlug}`} className="hover:text-warm-600 transition-colors">
                 {category.name}
               </Link>
             </nav>
@@ -615,7 +615,7 @@ export default async function SpotDetailPage({
               </p>
             </div>
             <Link
-              href={`/${code}/spot/${catSlug}`}
+              href={`/${code}/place/${catSlug}`}
               className={`shrink-0 inline-flex items-center gap-2 ${theme.ctaBg} ${theme.ctaHover} text-white font-medium px-6 py-2.5 rounded-full text-sm transition-colors`}
             >
               一覧を見る <ArrowRight size={14} />

@@ -46,7 +46,7 @@ export default function SpotCategoryList({ spots, countryCode, categorySlug, cat
         return (
           <Link
             key={spot.slug}
-            href={`/${countryCode}/spot/${categorySlug}/${spot.slug}`}
+            href={`/${countryCode}/place/${categorySlug}/${spot.slug}`}
             className={`group block ${isClosed ? "opacity-60 pointer-events-none" : ""}`}
           >
             <article className={`bg-white dark:bg-stone-900 rounded-2xl border border-stone-100 dark:border-stone-800 ${isClosed ? "" : catTheme.hoverBorder} hover:shadow-md transition-all overflow-hidden flex`}>

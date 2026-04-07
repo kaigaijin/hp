@@ -42,7 +42,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const spots = getAllSpots(country.code);
     if (spots.length > 0) {
       entries.push({
-        url: `${BASE_URL}/${country.code}/spot`,
+        url: `${BASE_URL}/${country.code}/place`,
         changeFrequency: "weekly",
         priority: 0.7,
       });
@@ -52,7 +52,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         const catSpots = spots.filter((s) => s.category === cat.slug);
         if (catSpots.length >= 3) {
           entries.push({
-            url: `${BASE_URL}/${country.code}/spot/${cat.slug}`,
+            url: `${BASE_URL}/${country.code}/place/${cat.slug}`,
             changeFrequency: "weekly",
             priority: 0.6,
           });
@@ -62,7 +62,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       // スポット 個別ページ
       for (const spot of spots) {
         entries.push({
-          url: `${BASE_URL}/${country.code}/spot/${spot.category}/${spot.slug}`,
+          url: `${BASE_URL}/${country.code}/place/${spot.category}/${spot.slug}`,
           changeFrequency: "monthly",
           priority: 0.5,
         });

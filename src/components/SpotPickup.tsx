@@ -87,7 +87,7 @@ export default function SpotPickup({
           return (
             <Link
               key={`${spot.category}-${spot.slug}`}
-              href={`/${countryCode}/spot/${spot.category}/${spot.slug}`}
+              href={`/${countryCode}/place/${spot.category}/${spot.slug}`}
             >
               <article className={`group bg-white dark:bg-stone-900 rounded-2xl border border-stone-100 dark:border-stone-800 ${t?.hoverBorder ?? "hover:border-warm-400 dark:hover:border-warm-500"} hover:shadow-md transition-all p-4 flex flex-col h-full`}>
                 {/* カテゴリバッジ + エリア */}

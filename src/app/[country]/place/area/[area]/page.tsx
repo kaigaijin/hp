@@ -41,7 +41,7 @@ export function generateMetadata({
         description: `${country.name}・${areaName}エリアの日本人向けスポット一覧。`,
         type: "website",
         locale: "ja_JP",
-        url: `https://kaigaijin.jp/${code}/spot/area/${areaSlug}`,
+        url: `https://kaigaijin.jp/${code}/place/area/${areaSlug}`,
         siteName: "Kaigaijin",
       },
     };
@@ -109,9 +109,9 @@ export default async function AreaDetailPage({
                 {country.flag} {country.name}
               </Link>
               <ChevronRight size={12} />
-              <Link href={`/${code}/spot`} className="hover:text-warm-600 transition-colors">KAIプレイス</Link>
+              <Link href={`/${code}/place`} className="hover:text-warm-600 transition-colors">KAIプレイス</Link>
               <ChevronRight size={12} />
-              <Link href={`/${code}/spot/area`} className="hover:text-warm-600 transition-colors">エリア</Link>
+              <Link href={`/${code}/place/area`} className="hover:text-warm-600 transition-colors">エリア</Link>
               <ChevronRight size={12} />
               <span className="text-stone-600 dark:text-stone-300">{areaName}</span>
             </nav>

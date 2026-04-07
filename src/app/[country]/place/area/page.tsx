@@ -73,7 +73,7 @@ export function generateMetadata({
         description: `${country.name}のスポットをエリア・地区別に探せます。`,
         type: "website",
         locale: "ja_JP",
-        url: `https://kaigaijin.jp/${code}/spot/area`,
+        url: `https://kaigaijin.jp/${code}/place/area`,
         siteName: "Kaigaijin",
       },
     };
@@ -119,7 +119,7 @@ export default async function AreaIndexPage({
                 {country.flag} {country.name}
               </Link>
               <ChevronRight size={12} />
-              <Link href={`/${code}/spot`} className="hover:text-warm-600 transition-colors">KAIプレイス</Link>
+              <Link href={`/${code}/place`} className="hover:text-warm-600 transition-colors">KAIプレイス</Link>
               <ChevronRight size={12} />
               <span className="text-stone-600 dark:text-stone-300">エリアから探す</span>
             </nav>
@@ -136,7 +136,7 @@ export default async function AreaIndexPage({
           {/* ナビゲーション */}
           <div className="flex gap-2 mb-6">
             <Link
-              href={`/${code}/spot`}
+              href={`/${code}/place`}
               className="text-xs text-stone-500 dark:text-stone-400 bg-white dark:bg-stone-800 border border-stone-200 dark:border-stone-700 px-3 py-1.5 rounded-full hover:border-warm-400 transition-colors"
             >
               カテゴリ
@@ -145,7 +145,7 @@ export default async function AreaIndexPage({
               エリア
             </span>
             <Link
-              href={`/${code}/spot/map`}
+              href={`/${code}/place/map`}
               className="text-xs text-stone-500 dark:text-stone-400 bg-white dark:bg-stone-800 border border-stone-200 dark:border-stone-700 px-3 py-1.5 rounded-full hover:border-warm-400 transition-colors"
             >
               地図
@@ -169,7 +169,7 @@ export default async function AreaIndexPage({
                       {zoneAreas.map((area) => (
                         <Link
                           key={area.slug}
-                          href={`/${code}/spot/area/${area.slug}`}
+                          href={`/${code}/place/area/${area.slug}`}
                           className="group bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 hover:border-warm-400 dark:hover:border-warm-500 hover:shadow-md transition-all p-4"
                         >
                           <div className="flex items-center gap-2 mb-1">
@@ -198,7 +198,7 @@ export default async function AreaIndexPage({
                     {otherAreas.map((area) => (
                       <Link
                         key={area.slug}
-                        href={`/${code}/spot/area/${area.slug}`}
+                        href={`/${code}/place/area/${area.slug}`}
                         className="group bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 hover:border-warm-400 dark:hover:border-warm-500 hover:shadow-md transition-all p-4"
                       >
                         <div className="flex items-center gap-2 mb-1">
@@ -226,7 +226,7 @@ export default async function AreaIndexPage({
                     {specialAreas.map((area) => (
                       <Link
                         key={area.slug}
-                        href={`/${code}/spot/area/${area.slug}`}
+                        href={`/${code}/place/area/${area.slug}`}
                         className="group bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 hover:border-warm-400 dark:hover:border-warm-500 hover:shadow-md transition-all p-4"
                       >
                         <div className="flex items-center gap-2 mb-1">
@@ -250,7 +250,7 @@ export default async function AreaIndexPage({
               {areas.map((area) => (
                 <Link
                   key={area.slug}
-                  href={`/${code}/spot/area/${area.slug}`}
+                  href={`/${code}/place/area/${area.slug}`}
                   className="group bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 hover:border-warm-400 dark:hover:border-warm-500 hover:shadow-md transition-all p-4"
                 >
                   <div className="flex items-center gap-2 mb-1">

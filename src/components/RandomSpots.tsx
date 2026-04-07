@@ -45,7 +45,7 @@ export default function RandomSpots({
           {categoryName}の他の場所
         </h2>
         <Link
-          href={`/${countryCode}/spot/${categorySlug}`}
+          href={`/${countryCode}/place/${categorySlug}`}
           className={`text-xs ${accentClass} hover:underline`}
         >
           すべて見る
@@ -55,7 +55,7 @@ export default function RandomSpots({
         {displayed.map((s) => (
           <Link
             key={s.slug}
-            href={`/${countryCode}/spot/${categorySlug}/${s.slug}`}
+            href={`/${countryCode}/place/${categorySlug}/${s.slug}`}
             className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-stone-200 dark:border-stone-600 text-sm text-stone-600 dark:text-stone-400 ${hoverBorderClass} transition-colors`}
           >
             {s.name_ja ?? s.name}

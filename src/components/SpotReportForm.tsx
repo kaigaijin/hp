@@ -42,7 +42,7 @@ export default function SpotReportForm({
     try {
       const vid = getVisitorId();
       const res = await fetch(
-        `/api/spot-reports?country=${country}&category=${category}&slug=${spotSlug}${vid ? `&visitor_id=${vid}` : ""}`
+        `/api/place-reports?country=${country}&category=${category}&slug=${spotSlug}${vid ? `&visitor_id=${vid}` : ""}`
       );
       if (res.ok) {
         const data = await res.json();
@@ -61,7 +61,7 @@ export default function SpotReportForm({
     setSubmitting(true);
     setError("");
     try {
-      const res = await fetch("/api/spot-reports", {
+      const res = await fetch("/api/place-reports", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

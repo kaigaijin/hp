@@ -74,12 +74,12 @@ export default function Header() {
                             {phase === 1 && (
                               <div className="flex items-center gap-1 ml-2 shrink-0">
                                 <Link
-                                  href={`/${c.code}/spot`}
+                                  href={`/${c.code}/place`}
                                   className="flex items-center gap-1 text-[11px] text-stone-400 hover:text-warm-600 dark:hover:text-warm-400 bg-stone-100 dark:bg-stone-800 hover:bg-warm-50 dark:hover:bg-warm-900/30 px-2 py-1 rounded-md transition-colors"
                                   title="KAIプレイス"
                                 >
                                   <MapPin size={10} />
-                                  スポット
+                                  KAIプレイス
                                 </Link>
                                 <Link
                                   href={`/${c.code}/jobs`}
@@ -87,7 +87,7 @@ export default function Header() {
                                   title="KAIジョブ"
                                 >
                                   <BriefcaseBusiness size={10} />
-                                  求人
+                                  KAIジョブ
                                 </Link>
                               </div>
                             )}
@@ -148,12 +148,12 @@ export default function Header() {
                       {phase === 1 && (
                         <div className="flex gap-2 pb-2 px-1 ml-7">
                           <Link
-                            href={`/${c.code}/spot`}
+                            href={`/${c.code}/place`}
                             onClick={() => setOpen(false)}
                             className="flex items-center gap-1 text-xs text-stone-400 hover:text-warm-600 dark:hover:text-warm-400 bg-stone-100 dark:bg-stone-800 px-2.5 py-1 rounded-md transition-colors"
                           >
                             <MapPin size={10} />
-                            スポット
+                            KAIプレイス
                           </Link>
                           <Link
                             href={`/${c.code}/jobs`}
@@ -161,7 +161,7 @@ export default function Header() {
                             className="flex items-center gap-1 text-xs text-stone-400 hover:text-warm-600 dark:hover:text-warm-400 bg-stone-100 dark:bg-stone-800 px-2.5 py-1 rounded-md transition-colors"
                           >
                             <BriefcaseBusiness size={10} />
-                            求人
+                            KAIジョブ
                           </Link>
                         </div>
                       )}

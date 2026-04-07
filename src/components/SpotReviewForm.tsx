@@ -64,7 +64,7 @@ export default function SpotReviewForm({
   const fetchData = useCallback(async () => {
     try {
       const res = await fetch(
-        `/api/spot-reviews?country=${country}&category=${category}&slug=${spotSlug}`
+        `/api/place-reviews?country=${country}&category=${category}&slug=${spotSlug}`
       );
       if (res.ok) {
         const data = await res.json();
@@ -105,7 +105,7 @@ export default function SpotReviewForm({
     setSubmitting(true);
     setError("");
     try {
-      const res = await fetch("/api/spot-reviews", {
+      const res = await fetch("/api/place-reviews", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

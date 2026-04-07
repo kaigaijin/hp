@@ -34,7 +34,7 @@ function sendReviewNotification(
       from: "Kaigaijin <noreply@kaigaijin.jp>",
       to: [to],
       subject: `[レビュー] ${country}/${category}/${spotSlug} — ${stars}`,
-      text: `新しいレビューが投稿されました。\n\n投稿者: ${reviewerName}\n評価: ${stars}（${rating}/5）\nコメント: ${comment ?? "なし"}\n\nURL: https://kaigaijin.jp/${country}/spot/${category}/${spotSlug}\n\n※ Supabase spot_reviews テーブルにも保存済みです。`,
+      text: `新しいレビューが投稿されました。\n\n投稿者: ${reviewerName}\n評価: ${stars}（${rating}/5）\nコメント: ${comment ?? "なし"}\n\nURL: https://kaigaijin.jp/${country}/place/${category}/${spotSlug}\n\n※ Supabase spot_reviews テーブルにも保存済みです。`,
     })
     .catch(() => {});
 }

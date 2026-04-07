@@ -51,7 +51,7 @@ export default function Home() {
                     国別ガイドを見る
                   </a>
                   <a
-                    href="/sg/spot"
+                    href="/sg/place"
                     className="inline-flex items-center gap-2 border border-stone-600 hover:border-stone-400 text-stone-300 hover:text-white px-6 py-3 rounded-full font-semibold text-sm transition-colors"
                   >
                     スポットを探す

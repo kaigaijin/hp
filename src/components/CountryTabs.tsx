@@ -14,7 +14,7 @@ export default function CountryTabs({ countryCode, articleCount, spotCount }: Pr
   const pathname = usePathname();
 
   const isArticles = pathname === `/${countryCode}`;
-  const isSpot = pathname.startsWith(`/${countryCode}/spot`);
+  const isSpot = pathname.startsWith(`/${countryCode}/place`);
   const isJobs = pathname.startsWith(`/${countryCode}/jobs`);
 
   const tabs = [
@@ -26,7 +26,7 @@ export default function CountryTabs({ countryCode, articleCount, spotCount }: Pr
       active: isArticles,
     },
     {
-      href: `/${countryCode}/spot`,
+      href: `/${countryCode}/place`,
       label: "KAIプレイス",
       count: spotCount,
       icon: <MapPin size={14} />,
