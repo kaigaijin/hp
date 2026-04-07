@@ -19771,14 +19771,14 @@
     "address": "809 French Rd, #03-31 Kitchener Complex, Singapore 200809",
     "phone": "+6581920658",
     "website": "https://shomakase.sg/",
-    "description": "シンガポールの寿司レストランSHO 勝 Japanese Omakase。新鮮なネタを使った握り寿司や刺身を提供する日本食店。",
+    "description": "インデックス463と重複のため削除候補。",
     "tags": [
       "寿司",
       "日本食"
     ],
     "hours": "Monday: 11:30 AM – 2:30 PM, 5:30 – 10:30 PM / Tuesday: 11:30 AM – 2:30 PM, 5:30 – 10:30 PM / Wednesday: 11:30 AM – 2:30 PM, 5:30 – 10:30 PM / Thursday: 11:30 AM – 2:30 PM, 5:30 – 10:30 PM / Friday: 11:30 AM – 2:30 PM, 5:30 – 10:30 PM / Saturday: 11:30 AM – 2:30 PM, 5:30 – 10:30 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
+    "last_verified": "2026-04-07",
+    "status": "reported_closed",
     "source": "google_maps",
     "place_id": "ChIJncF4xkIZ2jERJy3ZPesC444",
     "ai_reviewed": true,
@@ -19788,14 +19788,18 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "French Road 809番地（#03-31, Lavender地区）に位置するおまかせ専門店。LED映像演出とシェフの技が融合した没入型のおまかせ体験を提供。カウンター席でシェフが刺身・和牛・ウニを目の前で調理する。少人数制・完全予約制。「味の信頼に身を委ねる」というコンセプト。Lavender MRT徒歩圏内。",
+    "detail": "インデックス463と同一店舗のため重複エントリー。",
     "menu": [
       {
         "name": "おまかせコース",
         "price": "SGD 150以上++",
         "category": "おまかせ"
       }
-    ]
+    ],
+    "needs_review": true,
+    "review_note": "インデックス463（Shako-Ba Boat Quay）と同一店舗の重複エントリー。同じ住所2 North Canal Road #02-01。要削除確認。",
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "shoukouwa",
@@ -19805,14 +19809,16 @@
     "address": "1 Fullerton Road, #02-02A One Fullerton, Singapore 049213",
     "phone": "+6564239939",
     "website": "https://www.shoukouwa.com.sg/",
-    "description": "豊洲市場から毎日空輸される新鮮な食材を使った本格江戸前鮨のおまかせレストラン。カウンター8席の親密な空間で、職人の技を間近で楽しめる。",
+    "description": "Palais RenaissanceのプレミアムA5和牛焼肉専門店。シャトーブリアン・リブアイ・希少部位みすじなど厳選和牛を炭火で提供。",
     "tags": [
-      "おまかせ",
-      "要予約",
-      "高級"
+      "焼肉",
+      "和牛",
+      "高級",
+      "完全予約推奨",
+      "接待"
     ],
     "hours": "火〜土: ランチ 12:30-15:00, ディナー 18:00-20:00 / 20:15-22:30（日月休）",
-    "last_verified": "2026-03-26",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -19822,14 +19828,24 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "シンガポールを代表するミシュラン星付きの本格江戸前鮨レストラン。予約必須の完全おまかせスタイルで、旬の食材を使った職人技を体験できる。在住日本人のハレの日使いや、日本から来た来客の接待にも定番の名店。",
+    "detail": "390 Orchard Road、Palais Renaissance #02-08/09に構えるシャトーブリアン（Shatoburian）は、日本の認定オークション会場から直接仕入れたA5和牛だけを扱うプレミアム焼肉レストラン。シャトーブリアン・リブアイ・サーロインはもちろん、希少なみすじ（肩甲骨裏の希少部位）まで揃う。看板のシャト一サンドはシャトーブリアン和牛にフォアグラと削りたてトリュフを重ねたひと品。プレミアム和牛丼は和牛ステーキ・鰻・フォアグラ・うに・いくら・温泉卵の上にトリュフを削りかけた贅沢な丼物。ランチ12:00〜14:00、ディナー18:00〜21:00（火〜土、日曜定休）。完全予約制に近いため事前予約が強く推奨される。在シンガポール日本人の接待や特別な記念日に利用されることが多い。",
     "menu": [
       {
         "name": "おまかせコース（季節の食材使用）",
         "price": "要確認",
         "category": "コース"
       }
-    ]
+    ],
+    "price_range": "$$$$$",
+    "menu_highlights": [
+      "シャトーブリアン",
+      "みすじ",
+      "シャトーサンド",
+      "プレミアム和牛丼",
+      "フォアグラ"
+    ],
+    "japanese_staff": true,
+    "spot_reviewed": true
   },
   {
     "slug": "shoukouwa-restaurant",
@@ -19838,13 +19854,16 @@
     "area": "Singapore",
     "address": "1 Fullerton Rd, #02-02A One Fullerton, Singapore 049213",
     "phone": "+6564239939",
-    "website": "https://www.shoukouwa.com.sg/",
-    "description": "シンガポールのミシュラン二つ星の江戸前寿司店Shoukouwa（昇幸和）。日本から空輸した厳選素材を使ったカウンター寿司のおまかせコースを提供。",
+    "website": "https://shinkatsu.co/",
+    "description": "Ma Maison元ヘッドシェフが開いたとんかつ専門店。マンガリッツァ豚など世界の厳選豚肉を使用、炭火炊きご飯も名物。",
     "tags": [
-      "日本食"
+      "とんかつ",
+      "専門店",
+      "カジュアル",
+      "定食"
     ],
     "hours": "Monday: Closed / Tuesday: 12:30 – 3:00 PM, 6:00 – 10:30 PM / Wednesday: 12:30 – 3:00 PM, 6:00 – 10:30 PM / Thursday: 12:30 – 3:00 PM, 6:00 – 10:30 PM / Friday: 12:30 – 3:00 PM, 6:00 – 10:30 PM / Saturday: 12:30 – 3:00 PM, 6:00 – 10:30 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJu1_G5ggZ2jER_LJ4SRQX9JQ",
@@ -19855,7 +19874,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "One Fullerton（1 Fullerton Rd #02-02A）に位置するシンガポール唯一のミシュラン2つ星鮨店。旬の最高級食材を使った江戸前鮨の極致を提供。ランチ「澪」SGD180（16皿）、ディナー「雅」SGD320（20皿）・「花」SGD480（25皿）の3コース構成。完全予約制・少人数制で、2024年World's Top 25レストランにも選出。",
+    "detail": "Tanjong Pagar Road 84/86番地にある本格とんかつ専門店。Ma Maisonのヘッドシェフを務めたシェフが独立して開いた店で、ハンガリー産マンガリッツァ豚をはじめとする世界各地の厳選豚肉を用いるのが特徴。丁寧に揚げたとんかつは衣がサクっと軽く、肉の旨みがしっかり感じられる。定食には炭火で炊いたご飯が付き、ご飯だけでも食べごたえがあると好評。日本のとんかつ文化をシンガポールに根付かせたいというシェフの想いが伝わる一軒で、在シンガポール日本人からも評価が高い。ランチは定食スタイル、ディナーはアラカルトも選べる。Tanjong Pagar MRTから徒歩数分の好立地。",
     "menu": [
       {
         "name": "澪ランチ（16皿）",
@@ -19873,7 +19892,14 @@
         "category": "おまかせコース"
       }
     ],
-    "price_range": "SGD 180〜480/人"
+    "price_range": "$$",
+    "menu_highlights": [
+      "マンガリッツァ豚とんかつ",
+      "炭火炊きご飯定食",
+      "ヒレカツ"
+    ],
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "shoushin-izakaya-boat-quay",
@@ -19883,14 +19909,16 @@
     "address": "52 Boat Quay, #01-01, Singapore 049841",
     "phone": "+6569708909",
     "website": null,
-    "description": "Boat Quay（#01-01）の本格居酒屋&日本酒バーShoushin。寿司・刺身・焼き鳥と厳選日本酒を楽しめる。ランチ・ディナー営業。",
+    "description": "VivoCity 2階の串揚げ・串焼き専門店。180席の広い店内からセントーサ島と海を一望でき、家族連れにも人気。",
     "tags": [
-      "居酒屋",
-      "日本酒バー",
-      "寿司"
+      "串焼き",
+      "串揚げ",
+      "眺望",
+      "大型店",
+      "家族向け"
     ],
     "hours": "月〜日 11:30-15:00, 17:00-23:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -19899,7 +19927,16 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "HarbourFront Walk、VivoCity #02-120に位置する串揚げ・串焼き専門の日本食レストラン。シンガポールに串焼きダイニングの概念をいち早く持ち込んだ先駆け的存在で、180席の広い店内はグループ利用にも対応。窓越しにセントーサ島と海を望む眺望も魅力のひとつ。備長炭を使った焼き鳥・串揚げが看板で、プレミアムビーフや季節のシーフードも串にして提供。日本から仕入れた食材をリーズナブルな価格で楽しめると好評で、近くのリゾートワールドセントーサや観光の前後にも利用しやすい。ランチセットはコスパが良く、観光客・駐在員双方に人気がある。",
+    "price_range": "$$",
+    "menu_highlights": [
+      "備長炭焼き鳥",
+      "串揚げ盛り合わせ",
+      "プレミアムビーフ串"
+    ],
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "shoushin-izakaya-boat-quay-bar",
@@ -19908,24 +19945,35 @@
     "area": "Boat Quay",
     "address": "Boat Quay, Singapore",
     "phone": null,
-    "website": null,
-    "description": "Boat Quayの日本酒居酒屋Shoushin。日本語スタッフが厳選した日本酒と季節の料理を楽しめる、駐在員にも人気の本格居酒屋。",
+    "website": "https://www.shinminori.com.sg/",
+    "description": "Robertson Quay近くUE Squareの日本食レストラン。220品以上のアラカルトビュッフェが充実、2007年創業の老舗。",
     "tags": [
-      "居酒屋",
-      "日本酒",
-      "ボートキー"
+      "日本食",
+      "ビュッフェ",
+      "家族向け",
+      "リーズナブル"
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "source": "google_maps",
     "ai_reviewed": true,
     "phone_local": null,
-    "email": null,
+    "email": "",
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Clemenceau Avenue 81番地、UE Square #03-15/16に構えるShin Minori（新みのり）は、2007年の創業以来シンガポールに根付いた日本食ビュッフェレストラン。220品以上のアラカルトメニューから好きなものを選べる形式で、寿司・刺身・焼き物・天ぷらなど幅広い和食を一度に楽しめる。地元在住の日本人家族や日本好きのシンガポール人の間でも長年支持されてきた老舗で、「品質をリーズナブルな価格で」をモットーに世界中の産地から食材を調達している。KatongにもUE Squareに次ぐ第2号店があり、Robertson Quay界隈でのランチ・ディナーに重宝される存在。ランチのお得なコース設定も評判が高い。",
+    "price_range": "$$",
+    "menu_highlights": [
+      "寿司・刺身盛り合わせ",
+      "天ぷら",
+      "焼き物",
+      "アラカルトビュッフェ"
+    ],
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "shukuu-izakaya",
@@ -19935,14 +19983,14 @@
     "address": "8 Stanley Street, Singapore 068727",
     "phone": "+6563279240",
     "website": "https://shukuu.sg/",
-    "description": "日本酒ソムリエが厳選した銘柄を楽しめる居酒屋。CBDエリアにあり、仕事帰りの一杯に最適。本格的な居酒屋メニューと日本酒のペアリングが評判。",
+    "description": "Robertson Quayエリアの日本食ビュッフェ。220品超のアラカルトメニューが揃うShin Minoriグループの店舗。",
     "tags": [
-      "居酒屋",
-      "日本酒",
-      "予約可"
+      "日本食",
+      "ビュッフェ",
+      "家族向け"
     ],
     "hours": "ランチ: 火〜金 11:30-14:00 / ディナー: 月〜土 17:30-24:00, 日 17:30-23:30",
-    "last_verified": "2026-03-26",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -19952,8 +20000,13 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "日本酒に特化したシンガポールの居酒屋バー。厳選された日本酒のペアリングと本格的な居酒屋料理を提供する。系列に「Mirai Sake Hall」もあり、日本酒文化への探求を深める場として在住日本人や日本文化に関心のある方から支持を集める。",
-    "menu": []
+    "detail": "Robertson Quayエリアに位置するShin Minoriの店舗。Shin Minoriグループは220品以上の和食アラカルトビュッフェを提供することで知られる日本食レストランチェーン。寿司・刺身・焼き物・天ぷらなど幅広いメニューをリーズナブルに楽しめるのが特徴。ただし住所の詳細が不明なため、UE Square店（インデックス468）と同一の可能性があり要確認。Robertson Quay界隈ではUE Square店が最も近い拠点となっており、訪問前にShin Minoriの公式サイトで最新の店舗情報を確認することをおすすめする。",
+    "menu": [],
+    "price_range": "$$",
+    "japanese_staff": null,
+    "needs_review": true,
+    "review_note": "Robertson Quayの住所が「Robertson Quay, Singapore」と不明確。UE Square店（インデックス468）との重複の可能性あり。要確認。",
+    "spot_reviewed": true
   },
   {
     "slug": "shukuu-izakaya-bar",
@@ -19963,14 +20016,16 @@
     "address": "8 Stanley Street, Singapore 068727",
     "phone": "+6563279240",
     "website": "https://shukuu.sg/",
-    "description": "日本酒ソムリエが厳選した銘柄を楽しめる居酒屋&日本酒バー。CBDのスタンリーストリートに位置し、仕事帰りの一杯に最適。本格的な居酒屋料理と日本酒のペアリングが特徴。",
+    "description": "Circular Road（CBD）の焼き鳥と手打ちそばの居酒屋。日本語スタッフが在籍し、会社帰りの一杯や仕事帰りの食事に最適。",
     "tags": [
       "居酒屋",
-      "日本酒バー",
-      "予約可"
+      "焼き鳥",
+      "そば",
+      "CBD",
+      "日本語スタッフ"
     ],
     "hours": "ランチ: 火〜金 11:30-14:00 / ディナー: 月〜土 17:30-24:00, 日 17:30-23:30",
-    "last_verified": "2026-03-26",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -19980,8 +20035,16 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "日本酒バー「Shukuu Izakaya」のシンガポール店。日本酒の専門知識に基づいたペアリングと本格的な居酒屋料理を提供する。系列に「Mirai Sake Hall」もあり、日本酒好きの在住日本人や日本文化に関心のあるローカルから支持を集めている。",
-    "menu": []
+    "detail": "36 Circular Road、シンガポールCBDに位置するSHIN YAKITORI & SOBA。その名の通り焼き鳥と手打ちそばを看板に据えた日本式居酒屋で、Instagram（@yakitori.soba_shin）でも情報を発信する比較的新しい店舗。日本語スタッフが在籍しており、日本語で注文・相談できるのが海外在住の日本人には心強い。Raffles PlaceやClarke Quayから近いCBDの立地は、仕事帰りに一杯飲みたい駐在員やビジネスパーソンに便利。備長炭で焼き上げる焼き鳥と、注文を受けてから打つそばのコンビネーションが他の居酒屋との差別化ポイント。",
+    "menu": [],
+    "price_range": "$$",
+    "menu_highlights": [
+      "焼き鳥",
+      "手打ちそば",
+      "ハイボール"
+    ],
+    "japanese_staff": true,
+    "spot_reviewed": true
   },
   {
     "slug": "shukuu-izakaya-great-world",
@@ -19991,14 +20054,16 @@
     "address": "1 Kim Seng Promenade, Great World City, Singapore 237994",
     "phone": null,
     "website": "https://shukuu.sg/",
-    "description": "Great World City（Kim Seng）の居酒屋Shukuu。日本酒ソムリエが厳選した銘柄と本格居酒屋料理のペアリングが楽しめる。",
+    "description": "Greenwoodエリアの地元密着型日本食レストラン。定食・丼・刺身などをカジュアルに楽しめる在住者向けの一軒。",
     "tags": [
-      "居酒屋",
-      "日本酒バー"
+      "日本食",
+      "定食",
+      "地域密着",
+      "家族向け"
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "source": "website",
     "ai_reviewed": true,
     "phone_local": null,
@@ -20006,7 +20071,17 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "8 Greenwood Avenue、Hillcrest Road沿いに位置するShin Yuu（親友）は、シンガポール中心部から少し離れた住宅地Greenwoodエリアに根付いた日本食レストラン。周辺には駐在員家族が多く住んでいることもあり、「近所の和食」として長年地域の日本人コミュニティに愛されてきた。定食・丼物・刺身・焼き物など幅広い和食メニューをカジュアルな雰囲気で楽しめる。観光地から外れた立地のため地元の常連客中心で、アットホームな雰囲気が魅力。子ども連れや大人数での利用もしやすい。事前確認として営業日時を公式Facebook（Shin-Yuu Japanese Restaurant Pte Ltd）でチェックすることをおすすめ。",
+    "price_range": "$$",
+    "menu_highlights": [
+      "定食",
+      "刺身",
+      "丼物",
+      "焼き物"
+    ],
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "shukuu-izakaya-marina-one",
@@ -20016,15 +20091,16 @@
     "address": "5 Straits View, Marina One, Singapore 018935",
     "phone": null,
     "website": "https://shukuu.sg/",
-    "description": "Marina Bayエリアの日本式居酒屋Shukuu Izakaya Marina One。刺身、焼き物、揚げ物など多彩な一品料理と日本のドリンクを提供。",
+    "description": "Tanjong Pagarのラーメンとアラカルトがセットになったハイブリッド居酒屋。一人飲みにも使いやすいカジュアルな雰囲気。",
     "tags": [
       "居酒屋",
-      "日本酒バー",
-      "マリーナベイ"
+      "ラーメン",
+      "カジュアル",
+      "Tanjong Pagar"
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "source": "website",
     "ai_reviewed": true,
     "phone_local": null,
@@ -20032,7 +20108,16 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "96 Tanjong Pagar Roadに位置するShinagawa Ramen & Izakaya（品川ラーメン&居酒屋）は、ラーメン専門店と居酒屋の両方の良さを兼ね備えたハイブリッド業態の飲食店。ラーメン一杯だけでもよし、居酒屋メニューを肴に一杯やるもよしという使い方ができる。Tanjong Pagar周辺は日本人飲食店が密集するエリアで、仕事帰りの軽い夕食・飲みに立ち寄れる手軽さが人気。カウンター席があり一人飲みにも気兼ねなく利用できる。創業から10年以上の歴史があり（一度オーナーチェンジを経ている）、エリアでの知名度は高い。Tanjong Pagar MRTからほぼ直線距離で数百メートルの立地。",
+    "price_range": "$",
+    "menu_highlights": [
+      "ラーメン",
+      "居酒屋料理",
+      "焼き鳥"
+    ],
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "shukuu-japanese-izakaya-and-bar",
@@ -20041,15 +20126,18 @@
     "area": "Singapore",
     "address": "8 Stanley St, Singapore 068727",
     "phone": "+6563279240",
-    "website": "https://shukuu.sg/",
-    "description": "シンガポールの日本式居酒屋Shukuu Japanese Izakaya and Bar。刺身、焼き物、揚げ物など多彩な一品料理と日本のドリンクを提供。",
+    "website": "https://shinjibykanesaka.com/",
+    "description": "銀座かねさかの海外店、St. Regisに構えるミシュラン一つ星の江戸前鮨。ネイティブ職人チームによるおまかせコースが味わえる。",
     "tags": [
-      "居酒屋",
-      "日本食",
-      "ドリンク"
+      "ミシュラン一つ星",
+      "おまかせ",
+      "江戸前鮨",
+      "要予約",
+      "高級",
+      "接待"
     ],
     "hours": "Monday: 5:30 PM – 12:00 AM / Tuesday: 11:30 AM – 2:00 PM, 5:30 PM – 12:00 AM / Wednesday: 11:30 AM – 2:00 PM, 5:30 PM – 12:00 AM / Thursday: 11:30 AM – 2:00 PM, 5:30 PM – 12:00 AM / Friday: 11:30 AM – 2:00 PM, 5:30 PM – 12:00 AM / Saturday: 5:30 PM – 12:00 AM / Sunday: 5:30 – 11:30 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJc743gg0Z2jER8vrW2Op-bk8",
@@ -20059,7 +20147,16 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "The St. Regis Singapore（29 Tanglin Road）ロビーに位置するShinji by Kanesaka（真司 by 金坂）は、東京・銀座の名店「すし かねさか」のシンガポール分店として2008年に開業。以来シンガポールにおける江戸前鮨の最高峰として15年以上の実績を誇る。2016年のミシュランガイドシンガポール発行当初から一つ星を保持し続け、2025年4月よりSt. Regis店に経営資源を集中（Carlton Hotel店は閉店）。日本出身のネイティブ職人チームがにぎる江戸前おまかせコースは、豊洲や産地から直送される旬のネタを丁寧な仕事で仕上げる。記念日や接待に最適な特別感のある空間で、カウンター席が中心の親密な設え。要予約。",
+    "price_range": "$$$$$",
+    "menu_highlights": [
+      "江戸前おまかせコース",
+      "旬のネタにぎり",
+      "茶碗蒸し"
+    ],
+    "japanese_staff": true,
+    "spot_reviewed": true
   },
   {
     "slug": "shunjuu-izakaya",
@@ -20068,17 +20165,16 @@
     "area": "Robertson Quay",
     "address": "30 Robertson Quay, #01-15, Riverside View, Singapore 238251",
     "phone": "+6584278155",
-    "website": "https://shunjuu.com/",
-    "description": "Robertson Quayの川沿いに位置する本格居酒屋。備長炭で焼き上げる焼き鳥・焼きとん・串焼きが看板メニュー。テラス席からの眺めも魅力。",
+    "website": "http://www.shinjuku.sg/",
+    "description": "Koek Roadのカジュアル日本食。新宿の居酒屋をイメージした雰囲気で、刺身・焼き物・定食など多彩な和食を楽しめる。",
     "tags": [
+      "日本食",
       "居酒屋",
-      "焼き鳥",
-      "串焼き",
-      "テラス席",
-      "予約可"
+      "カジュアル",
+      "Orchard"
     ],
     "hours": "ランチ: 12:00-14:30 / ディナー: 月〜木 18:00-23:00, 金土 18:00-23:30, 日 17:30-22:30",
-    "last_verified": "2026-03-26",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -20088,7 +20184,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "Robertson Quay沿いに位置する本格居酒屋（30 Robertson Quay, #01-15）。2003年創業のシンガポール初期の焼き鳥専門店で、備長炭で焼き上げる約60種のくし焼きと約50種の日本酒が自慢。20年以上継ぎ足してきた秘伝のタレが特徴で、川沿いの「picturesque riverside dining」が楽しめる落ち着いた雰囲気。ランチ12:00〜14:30、ディナー18:00〜23:00（金土は23:30まで）。",
+    "detail": "5 Koek Road #01-01/02に位置するShinjuku（新宿）レストランは、日本の居酒屋文化をシンガポールに持ち込んだカジュアルな和食店。Somerset・Orchard MRT周辺のCuppage Plaza界隈に位置し、仕事帰りの飲みや週末の外食に気軽に使える。新宿の活気ある居酒屋をイメージした店内では、刺身・焼き物・炒め物・定食など幅広い和食メニューが楽しめる。1品ずつオーダーするスタイルで、グループでの食事にも向いている。Orchardsエリアでの飲み会やランチ利用にも便利。公式サイト（shinjuku.sg）でメニューや営業時間の最新情報を確認のこと。",
     "menu": [
       {
         "name": "くし焼き各種（約60種）",
@@ -20100,7 +20196,15 @@
         "price": "要確認",
         "category": "ドリンク"
       }
-    ]
+    ],
+    "price_range": "$$",
+    "menu_highlights": [
+      "刺身盛り合わせ",
+      "焼き物",
+      "定食"
+    ],
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "shunsui-kappo-cuppage",
@@ -20110,25 +20214,34 @@
     "address": "5 Koek Road, #03-01, Cuppage Plaza, Singapore 228796",
     "phone": null,
     "website": "https://www.shunsui.sg/",
-    "description": "5回のミシュランプレート受賞歴を持つ割烹スタイルの日本料理店。Cuppage Plaza内。季節の食材を使ったおまかせコースを提供。",
+    "description": "Orchard Plazaの沖縄料理専門店。本場の沖縄料理をシンガポールで味わえる数少ない専門店で、評価も高い。",
     "tags": [
-      "居酒屋",
-      "割烹",
-      "おまかせ",
-      "ミシュラン",
-      "日本料理"
+      "沖縄料理",
+      "専門店",
+      "日本食",
+      "Orchard"
     ],
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
-    "email": null,
+    "email": "contact.shinnsato@gmail.com",
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "150 Orchard Road、Orchard Plaza #03-52/53/54に位置するShinnSato（シンサト）は、沖縄出身のシェフ・スタッフが本場の沖縄料理を提供する専門店。シンガポールで沖縄料理を専門に扱うレストランは数が少なく、希少性の高い存在。看板はラフテー（豚の角煮）・チャンプルー・ゴーヤなど沖縄のソウルフード。月〜土17:30〜22:00営業（日曜定休）。Orchard Plazaはシンガポールの日本食・沖縄料理の集積地としても知られ、夜のディナーに足を延ばす在住日本人も多い。Googleでは4.8星と非常に高い評価を得ており、食べログや口コミサイトでもファンが多い。予約は+65 6735 1883または contact.shinnsato@gmail.com まで。",
+    "price_range": "$$",
+    "menu_highlights": [
+      "ラフテー",
+      "ゴーヤチャンプルー",
+      "沖縄そば",
+      "ジーマーミ豆腐"
+    ],
+    "japanese_staff": true,
+    "spot_reviewed": true
   },
   {
     "slug": "shunsui-kappo-hongkong-street",
@@ -20137,16 +20250,16 @@
     "area": "Clarke Quay",
     "address": "Hong Kong Street, Singapore",
     "phone": null,
-    "website": "https://www.shunsui.sg/",
-    "description": "ミシュランプレート6度受賞の割烹レストラン。旬の食材を活かした本格割烹料理が楽しめるShunsuiグループの旗艦店。Hong Kong Street沿い。",
+    "website": "https://www.shinrai.sg/",
+    "description": "Telok Ayerのスシ居酒屋。元Sushi Yujoシェフが開いた店でおまかせ風の炭火グリル創作和食が食べられる。",
     "tags": [
-      "居酒屋",
-      "割烹",
-      "ミシュランプレート",
-      "おまかせ"
+      "スシ居酒屋",
+      "炭火グリル",
+      "創作和食",
+      "Telok Ayer"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -20155,7 +20268,17 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "173 Telok Ayer Streetに位置するShinrai（信頼）は、Sushi Yujoでヘッドシェフを務めたDesmond Fong氏が2024年に開業したスシ居酒屋スタイルのレストラン。おまかせの高級感と居酒屋のアクセスしやすさを融合させた「スシ居酒屋（Sushi-Izakaya）」コンセプトが特徴で、アブリ（炙り）や炭火グリルを得意とする。銀座の職人技を感じさせながらも1人でも入りやすい価格帯と雰囲気が人気を集め、Telok Ayerエリアの新たな日本食スポットとして注目されている。ランチセットは値頃感があり、1本1杯のお得なサケセットも提供している。予約は公式サイト（shinrai.sg）から可能。",
+    "price_range": "$$$",
+    "menu_highlights": [
+      "アブリ寿司",
+      "炭火グリル串",
+      "刺身盛り合わせ",
+      "ランチセット"
+    ],
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "skewers-bar-cuppage",
@@ -20164,25 +20287,35 @@
     "area": "Somerset",
     "address": "5 Koek Road, Cuppage Plaza, Singapore 228796",
     "phone": null,
-    "website": null,
-    "description": "Cuppage Plazaの炭火焼き鳥専門バーSkewers Bar。こだわりの串焼きと日本酒・ハイボールをカジュアルに楽しめるSomersetエリアの居酒屋。",
+    "website": "https://www.shinyaizakaya.com/",
+    "description": "Boat Quayの深夜3時まで営業する居酒屋。串焼き・揚げ物・刺身をつまみにお酒が飲める、シンガポール在住者の夜の定番。",
     "tags": [
       "居酒屋",
-      "焼き鳥",
-      "バー",
-      "串焼き"
+      "深夜営業",
+      "串焼き",
+      "Boat Quay"
     ],
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "79 Boat Quayに位置するShinya Izakaya（深夜居酒屋）は、その名が示す通り深夜3時まで営業する数少ない本格日本食の居酒屋。Boat Quayの川沿いに立地し、他の店がクローズした後も営業しているため「締め」に使う在住日本人が多い。串焼き・唐揚げ・刺身・卵焼きなど定番居酒屋メニューが揃い、価格帯もリーズナブル。シンガポールでの夜の宴会や二次会の場として、駐在員・現地採用を問わず利用されている。公式サイト（shinyaizakaya.com）でメニューや最新の営業時間を確認してから訪問を。",
+    "price_range": "$$",
+    "menu_highlights": [
+      "串焼き",
+      "唐揚げ",
+      "刺身",
+      "ハイボール"
+    ],
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "skewers-yakitori-cuppage",
@@ -20191,17 +20324,18 @@
     "area": "Somerset",
     "address": "5 Koek Road, #04-01, Cuppage Plaza, Singapore 228796",
     "phone": "+6584665646",
-    "website": "https://www.skewers.sg/",
-    "description": "Cuppage Plaza 4階の焼き鳥専門居酒屋。炭火で丁寧に焼き上げる焼き鳥が名物で、日本語が通じる予約推奨の人気店。",
+    "website": "http://www.shinzo.com.sg/",
+    "description": "Carpenter Streetの落ち着いた和食店。刺身・焼き物・定食などの和食メニューをコースや単品で楽しめる。",
     "tags": [
-      "焼き鳥",
-      "居酒屋",
-      "予約推奨"
+      "日本食",
+      "和食",
+      "接待",
+      "Clarke Quay"
     ],
     "hours": "月〜土: 18:00-23:00（日曜休）",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
@@ -20209,14 +20343,22 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "Cuppage Plaza（5 Koek Road #04-01）に位置する本格焼き鳥居酒屋。「Turning Chicken into Phoenix」をコンセプトにした上質な焼き鳥体験を提供。月〜土18:00〜23:00（2部制：18:00〜20:15、20:30〜23:00）の完全予約制で、構造的・洗練されたオマカセ風サービス。@skewers.sgのInstagramで最新情報を確認。",
+    "detail": "17 Carpenter Streetに位置するShinzo（シンゾー）は、Clarke Quay近くの静かな通りに構える落ち着いた和食レストラン。コースと単品の両方に対応し、接待から友人とのカジュアルな食事まで幅広い用途に使える。旬の食材を活かした刺身・焼き物・天ぷら・鍋など和食の基本をしっかり押さえたメニュー構成で、質の高さと価格のバランスがよいと評価されている。Riverside Point近くの立地は観光と仕事両面でアクセスしやすく、シンガポールを訪れる日本人ビジネスパーソンにも人気。公式サイト（shinzo.com.sg）で予約・メニュー確認が可能。",
     "menu": [
       {
         "name": "焼き鳥各種（コース）",
         "price": "要確認",
         "category": "焼き鳥"
       }
-    ]
+    ],
+    "price_range": "$$$",
+    "menu_highlights": [
+      "刺身盛り合わせ",
+      "焼き物",
+      "天ぷら"
+    ],
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "standing-sushi-bar-marina-bay-link",
@@ -20225,16 +20367,17 @@
     "area": "Marina Bay",
     "address": "8A Marina Boulevard, #B2-51, Marina Bay Link Mall, Singapore 018984",
     "phone": null,
-    "website": "https://standingsushibar.com/",
-    "description": "Marina Bayエリアの寿司レストランStanding Sushi Bar Marina Bay Link Mall。新鮮なネタを使った握り寿司や刺身を提供する日本食店。",
+    "website": "https://shiraishi.sg/english.php",
+    "description": "Marina Square隣のEsplanade付近にある和食レストラン。旬の食材を使った割烹スタイルの料理をコースや単品で提供。",
     "tags": [
-      "寿司",
-      "カウンター",
-      "手頃な価格"
+      "日本食",
+      "割烹",
+      "Marina Bay",
+      "接待"
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "source": "website",
     "ai_reviewed": true,
     "phone_local": null,
@@ -20243,7 +20386,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "「Fresh fish, every day」をモットーに、日本・オーストラリア・ノルウェーから毎日新鮮な魚を仕入れるシンガポールの寿司レストラン。手作り寿司と新鮮刺身、シンガポール最大級の日本酒セレクションが自慢。Odeon 331店では平日ランチ12:00〜14:30・ディナー17:30〜21:30営業。デリバリー対応（配送料SGD25、SGD150以上無料）。",
+    "detail": "7 Raffles Avenue #03-01/02、Marina Square・Esplanade近くに位置するShiraishi（白石）は、落ち着いた和の空間で本格割烹スタイルの日本料理を提供するレストラン。旬の食材を活かした刺身・焼き物・揚げ物・小鉢など多彩な品数が揃い、コース料理から単品注文まで柔軟に対応している。マリーナベイエリアはビジネスと観光の両方の拠点となっているため、接待・記念日・観光後の食事など様々なシーンに利用される。公式サイト（shiraishi.sg）で予約やメニューを確認でき、事前予約が確実。水準の高い和食をやや手頃な価格で楽しめるという評判がある。",
     "menu": [
       {
         "name": "握り寿司",
@@ -20265,7 +20408,15 @@
         "price": "SGD 18〜30",
         "category": "丼"
       }
-    ]
+    ],
+    "price_range": "$$$",
+    "menu_highlights": [
+      "刺身盛り合わせ",
+      "焼き物",
+      "コース料理"
+    ],
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "standing-sushi-bar-marina-one",
@@ -20275,15 +20426,17 @@
     "address": "5 Straits View, #B2-47, Marina One, Singapore 018935",
     "phone": null,
     "website": "https://standingsushibar.com/",
-    "description": "Marina Bayエリアの寿司レストランStanding Sushi Bar Marina One。新鮮なネタを使った握り寿司や刺身を提供する日本食店。",
+    "description": "Cuppage Plaza #03-01の下町居酒屋スミダ。日本酒と居酒屋料理をカジュアルに楽しめる日本語対応の隠れ家的スポット。",
     "tags": [
-      "寿司",
-      "カウンター",
-      "手頃な価格"
+      "居酒屋",
+      "日本酒",
+      "Cuppage Plaza",
+      "日本語スタッフ",
+      "下町"
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "source": "website",
     "ai_reviewed": true,
     "phone_local": null,
@@ -20319,7 +20472,16 @@
         "category": "天ぷら"
       }
     ],
-    "detail": "5 Straits View, #B2-47, Marina One, Singapore 018935に位置するStanding Sushi Barの店舗。Odeon Towers（331 North Bridge Road, #01-04）に位置する立食いスタイルの寿司バー。日本・オーストラリア・ノルウェーから毎日直輸入の新鮮な魚を使用し、手作りの握り寿司・刺身・特製ロール・丼もの・天ぷら・和食・日本カレー・ラーメンと幅広いメニューを提供。大規模な日本酒セレクションも特徴。配達は12:00〜21:00（L.O.19:45）。"
+    "detail": "5 Koek Road #03-01、Cuppage Plaza内に位置する下町酒場スミダ（Shitamachi Sakaba Sumida）は、東京の下町居酒屋をイメージした雰囲気の日本式居酒屋。焼き鳥・刺身・揚げ物など居酒屋の定番料理と日本酒・焼酎・ビールを提供し、うちの居酒屋感覚でカジュアルに過ごせる空間。Cuppage Plazaは日本食・日本式バーが集まるビルとして在住日本人の間で知られており、当店もその一角を担う。日本語が通じるスタッフがいるため、日本語で気軽にオーダーや会話ができる点が在住者に好評。昼から飲める（要確認）ことでも知られ、土日のランチ飲みにも使われる。",
+    "price_range": "$$",
+    "menu_highlights": [
+      "焼き鳥",
+      "日本酒",
+      "刺身",
+      "唐揚げ"
+    ],
+    "japanese_staff": true,
+    "spot_reviewed": true
   },
   {
     "slug": "standing-sushi-bar-odeon-towers",
@@ -20328,16 +20490,18 @@
     "area": "City Hall",
     "address": "331 North Bridge Road, #01-04, Odeon Towers, Singapore 188720",
     "phone": "+6563331335",
-    "website": "https://standingsushibar.com/",
-    "description": "City HallのOdeon Towers内にあるカウンタースタイルの寿司バー（フラッグシップ店）。新鮮な寿司・刺身・うどんをリーズナブルに提供。",
+    "website": "https://shomakase.sg/",
+    "description": "Kitchener ComplexのLED演出が美しい日本式オマカセ。週4回空輸の食材を使いコースで旬の日本料理を楽しめる。",
     "tags": [
-      "寿司",
-      "カウンター",
-      "手頃な価格"
+      "おまかせ",
+      "体験型",
+      "LED演出",
+      "記念日",
+      "要予約"
     ],
     "hours": "Mon-Fri 12:00-14:30, 17:30-21:30; Sat-Sun 12:00-21:30",
     "status": "unverified",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "source": "website",
     "ai_reviewed": true,
     "phone_local": null,
@@ -20346,7 +20510,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "Odeon Towers（331 North Bridge Road, #01-04）に位置する立食いスタイルの寿司バー。日本・オーストラリア・ノルウェーから毎日直輸入の新鮮な魚を使用し、手作りの握り寿司・刺身・特製ロール・丼もの・天ぷら・和食・日本カレー・ラーメンと幅広いメニューを提供。大規模な日本酒セレクションも特徴。配達は12:00〜21:00（L.O.19:45）。",
+    "detail": "809 French Road #03-31、Kitchener Complexに位置するSHO（勝）は、LED映像演出と日本料理が融合した体験型おまかせレストラン。週4回のペースで日本から空輸される新鮮な食材を使い、旬の味わいをコースで表現する。刺身・焼き物・揚げ物・デザートまで構成されたコースは記念日や特別なディナーに最適。店内のLEDプロジェクション演出が美しい食事体験の場を作り出し、SNS映えを意識した新しいスタイルのおまかせとして注目を集めている。Kitchener ComplexはCBD中心部から少し外れるが、MRTからアクセスも可能。予約はChope（chope.co）や公式サイト（shomakase.sg）から。",
     "menu": [
       {
         "name": "握り寿司各種",
@@ -20373,7 +20537,15 @@
         "price": "要確認",
         "category": "天ぷら"
       }
-    ]
+    ],
+    "price_range": "$$$$",
+    "menu_highlights": [
+      "季節のおまかせコース",
+      "LED演出ディナー",
+      "空輸食材"
+    ],
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "steak-sudaku-killiney-rd",
@@ -20383,13 +20555,13 @@
     "address": "107 Killiney Rd, Singapore 239547",
     "phone": null,
     "website": "https://jpassport.asia/STEAKSUDAKU/news-view/8344",
-    "description": "シンガポールの日本食レストランSTEAK SUDAKU - Killiney Rd。日本の味を楽しめる本格和食ダイニング。",
+    "description": "インデックス483と重複のため削除候補。",
     "tags": [
       "日本食"
     ],
     "hours": "Monday: 11:00 AM – 2:30 PM, 5:00 – 9:00 PM / Tuesday: 6:00 – 9:00 PM / Wednesday: 12:00 – 3:00 PM, 5:00 – 9:00 PM / Thursday: 11:00 AM – 3:00 PM, 5:00 – 9:00 PM / Friday: 11:00 AM – 3:00 PM, 5:00 – 9:00 PM / Saturday: 11:00 AM – 3:00 PM, 5:00 – 9:00 PM / Sunday: 11:00 AM – 3:00 PM, 5:00 – 9:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
+    "last_verified": "2026-04-07",
+    "status": "reported_closed",
     "source": "google_maps",
     "place_id": "ChIJtacVYuIZ2jERaobdbUjyoW0",
     "ai_reviewed": true,
@@ -20399,7 +20571,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "Killiney Road 107番地に位置する近江牛専門のリーズナブルなステーキ店。「日本最古・最も歴史ある和牛」と称される近江牛をSGD16.80++から提供。黒牛型の熱板にジュージューと盛り付けられるのが特徴。近江牛ダイスステーキ（SGD16.80++）・A5和牛100%ハンバーグ（SGD24.80++）・牛カツ（SGD42.80++）など。月〜日11時〜21時。",
+    "detail": "インデックス483と同一店舗のため重複エントリー。",
     "menu": [
       {
         "name": "近江牛ダイスステーキ",
@@ -20427,7 +20599,11 @@
         "category": "ライス"
       }
     ],
-    "price_range": "SGD 17〜43++/人"
+    "price_range": "SGD 17〜43++/人",
+    "needs_review": true,
+    "review_note": "インデックス483（Shoukouwa Restaurant）と同一店舗の重複エントリー。同じ住所1 Fullerton Road #02-02A One Fullerton。要削除確認。",
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "suishin-izakaya-boat-quay",
@@ -20436,11 +20612,15 @@
     "area": "Boat Quay",
     "address": "52 Boat Quay, #01-01, Singapore 049841",
     "phone": "+6569708909",
-    "website": "https://suishinsg.com/",
-    "description": "Boat Quayの日本式居酒屋。寿司・刺身・焼き鳥など本格和食と豊富な日本酒セレクションを楽しめる。ランチ・ディナー・遅い時間まで対応。",
+    "website": "https://www.shoukouwa.com.sg/",
+    "description": "One Fullertonのミシュラン二つ星江戸前鮨店。豊洲直送のネタを日本人職人が握るカウンター8席の特別な空間。",
     "tags": [
-      "居酒屋",
-      "日本酒バー"
+      "ミシュラン二つ星",
+      "江戸前鮨",
+      "おまかせ",
+      "要予約",
+      "高級",
+      "接待"
     ],
     "hours": "月〜日 11:30-15:00, 17:00-23:00",
     "last_verified": "2026-04-07",
@@ -20453,16 +20633,14 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "52 Boat Quayに位置する日本式居酒屋。本格的な日本食と日本酒を楽しめるBar形式のレストランで、新鮮名前生牡蠣の刺身・焼き物・各種串焼きなど充実したメニューを提供。特に吟味された日本酒・ビールと料理のペアリングが特徴。月〜金11:30〜23:00、土13:00〜23:00、日17:00〜23:00営業。Raffles Place MRTからアクセス便利なBoat Quay沿いに位置し、仕事帰りの在住日本人にも人気のスポット。プレミアム日本酒の品揃えも豊富。",
-    "price_range": "SGD 30〜50++/人",
+    "detail": "1 Fullerton Road #02-02A、One Fullertonに位置するShoukouwa（昇幸和）は、2016年のミシュランガイドシンガポール創刊当初から一貫してミシュラン二つ星を保持し続けるシンガポールの江戸前鮨の最高峰。豊洲市場から毎日空輸される旬のネタを、20年以上のキャリアを持つ職人・西田和峰シェフが丁寧に握るカウンター8席のみの親密な空間。2026年のランチは握りが8割を占めるよりスシに集中した構成に変更されるなど、常に進化を続けている。マリーナベイを望む立地と特別感のあるシチュエーションは接待や記念日に最適。予約はかなり先まで埋まることが多く、早めの予約が必須。",
+    "price_range": "$$$$$",
     "menu_highlights": [
-      "刺身盛り合わせ",
-      "生牡蠣",
-      "串焼き",
-      "日本酒各種",
-      "焼き鳥"
+      "江戸前おまかせ寿司",
+      "豊洲空輸ネタ",
+      "茶碗蒸し"
     ],
-    "japanese_staff": null,
+    "japanese_staff": true,
     "spot_reviewed": true
   },
   {
@@ -20473,11 +20651,12 @@
     "address": "Boat Quay, Singapore",
     "phone": null,
     "website": null,
-    "description": "Boat Quayの日本酒居酒屋Suishin。日本酒の品揃えが豊富で、季節の料理とのペアリングが楽しめる。日本語スタッフ在籍。",
+    "description": "Boat Quay #01-01の本格居酒屋。寿司・刺身・焼き鳥と厳選日本酒を楽しめる。ランチからディナーまで対応。",
     "tags": [
       "居酒屋",
-      "日本酒",
-      "ボートキー"
+      "日本酒バー",
+      "寿司",
+      "Boat Quay"
     ],
     "hours": null,
     "status": "unverified",
@@ -20492,7 +20671,16 @@
     "photo_name": null,
     "needs_review": true,
     "review_note": "住所が「Boat Quay, Singapore」のみで番地不明。index500のSuishin Izakaya & Sake Bar（52 Boat Quay）と重複の可能性あり。公式サイト・電話番号なし。実在確認不可。",
-    "spot_reviewed": true
+    "spot_reviewed": true,
+    "detail": "52 Boat Quay #01-01に位置するShoushin（正心）居酒屋＆日本酒バーは、本格的な居酒屋料理と厳選された日本酒を楽しめる和食スポット。Boat Quayの川沿いに立地し、ランチ11:30〜・ディナー〜23:00と幅広い時間帯で利用できる（日曜は17:00〜）。寿司・刺身・焼き鳥など定番の居酒屋メニューから、旬の食材を使った一品料理まで揃う。日本酒のセレクションが豊富で、店内で相談しながら自分好みの一杯を選べるのが魅力。Boat Quayエリアは外国人・日本人問わず飲食店が集まるエリアで、仕事後の飲み会にも使いやすい。",
+    "price_range": "$$",
+    "menu_highlights": [
+      "日本酒セレクション",
+      "焼き鳥",
+      "刺身盛り合わせ",
+      "寿司"
+    ],
+    "japanese_staff": null
   },
   {
     "slug": "suju-mandarin-gallery",
@@ -20502,7 +20690,7 @@
     "address": "333A Orchard Road, #04-05, Mandarin Gallery, Singapore 238897",
     "phone": "+6567377764",
     "website": "https://suju-masayuki.com/sg/",
-    "description": "長野発の老舗酢重正之グループがマンダリンギャラリーで展開する日本料理店。長野産食材と豊洲市場直送の鮮魚を使った和食定食やコースが楽しめる。",
+    "description": "インデックス484と重複の可能性あり、要確認。",
     "tags": [
       "日本料理",
       "定食",
@@ -20511,7 +20699,7 @@
       "長野"
     ],
     "hours": null,
-    "status": "unverified",
+    "status": "reported_closed",
     "last_verified": "2026-04-07",
     "source": "website",
     "ai_reviewed": true,
@@ -20521,7 +20709,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "Mandarin Gallery（333A Orchard Road #04-05）に位置する「酢重正之（スジュ・マサユキ）」の日本食レストラン。長野の老舗から直輸入した信州味噌・米・醤油と豊洲市場から空輸した鮮魚を使用した本格和食を提供。寿司・刺身・天ぷら・とんかつ・定食など幅広いメニュー構成で、日本の「家庭料理の豊かさ」をコンセプトにした落ち着いた和の空間。シンガポール在住の日本人駐在員に長年愛されているレストランとして知られる。ランチ・ディナーとも豊富な選択肢あり。営業時間は11:30〜22:30。チラシ丼SGD42〜、生チラシSGD45〜。約120種の日本酒・ワインを取り揃える。",
+    "detail": "インデックス484と同一店舗の可能性があるため重複エントリー疑い。",
     "menu": [
       {
         "name": "ランチメニュー（旬の食材使用）",
@@ -20543,7 +20731,9 @@
       "日本酒"
     ],
     "japanese_staff": null,
-    "spot_reviewed": true
+    "spot_reviewed": true,
+    "needs_review": true,
+    "review_note": "インデックス484（Shoushin Izakaya & Sake Bar）と同一店舗の可能性が高い重複エントリー。住所が「Boat Quay, Singapore」のみで不明確。要確認・削除検討。"
   },
   {
     "slug": "suju-masayuki-mandarin-gallery",
@@ -20552,10 +20742,13 @@
     "area": "Singapore",
     "address": "333A Orchard Rd, #04 - 05, Singapore 238897",
     "phone": "+6567377764",
-    "website": "https://suju-masayuki.com/sg/index02.php",
-    "description": "長野の老舗「酢重正之」がOrchardのMandarin Galleryに展開する日本料理店。長野産食材・豊洲市場直送の鮮魚を使った寿司・刺身・天ぷら・蕎麦を提供。",
+    "website": "https://shukuu.sg/",
+    "description": "Stanley StreetのCBD居酒屋。日本酒ソムリエが厳選した60銘柄以上の日本酒と本格居酒屋料理のペアリングが評判。",
     "tags": [
-      "日本食"
+      "居酒屋",
+      "日本酒",
+      "CBD",
+      "10周年"
     ],
     "hours": "Monday: 11:30 AM – 10:30 PM / Tuesday: 11:30 AM – 10:30 PM / Wednesday: 11:30 AM – 10:30 PM / Thursday: 11:30 AM – 10:30 PM / Friday: 11:30 AM – 10:30 PM / Saturday: 11:30 AM – 10:30 PM / Sunday: 11:30 AM – 10:30 PM",
     "last_verified": "2026-04-07",
@@ -20569,7 +20762,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "Mandarin Gallery（333A Orchard Rd #04-05）に位置する長野県軽井沢発祥の酢重正之グループのシンガポール店。2005年創業で信州味噌・酢・醤油を長野から直輸入し、豊洲市場から週複数回空輸した鮮魚を使用。寿司・刺身・天ぷら・すき焼き・蕎麦・定食など多彩なメニューを120席規模で提供。日本人駐在員に人気の老舗で、ビジネスランチから接待まで幅広く利用される。ランチSGD20〜、ディナーSGD40〜。約120種のドリンクを取り揃え。営業時間11:30〜22:30（月〜日）。",
+    "detail": "8 Stanley Streetに位置するShukuu Izakaya（酒空居酒屋）は、2015年創業・2025年に10周年を迎えたシンガポールの日本酒専門居酒屋の草分け的存在。日本酒ソムリエが厳選した60銘柄以上の日本各地の純米大吟醸・吟醸・季節限定酒を常備し、料理との相性でソムリエが提案してくれる体制が整っている。串焼き・刺身・揚げ物・季節の一品など居酒屋料理のクオリティも高く、ビールやハイボールだけでは物足りない日本酒愛好家のニーズを満たす。CBDの中心部ながら隠れ家的な雰囲気で、仕事帰りの日本人駐在員に長年愛されてきた。Mirai Sake Hallとの共同イベント「SAKE SAKE」も定期開催。",
     "menu": [
       {
         "name": "カイセンちらし丼",
@@ -20587,13 +20780,12 @@
         "category": "定食"
       }
     ],
-    "price_range": "SGD 28〜60/人",
+    "price_range": "$$$",
     "menu_highlights": [
-      "刺身盛り合わせ",
-      "天ぷら",
-      "蕎麦",
-      "寿司",
-      "定食"
+      "日本酒セレクション60銘柄以上",
+      "串焼き",
+      "刺身",
+      "季節の一品"
     ],
     "japanese_staff": null,
     "spot_reviewed": true
@@ -20606,13 +20798,13 @@
     "address": "391 Orchard Rd, #02-13 Ngee Ann City, Singapore 238872",
     "phone": "+6587964650",
     "website": "https://suju-masayuki.com/sg/index02.php",
-    "description": "長野の老舗「酢重正之」がTakashimaya（Ngee Ann City）に展開する日本料理店。信州から直輸入の食材と豊洲市場直送鮮魚で作る和食ランチ・ディナーを提供。",
+    "description": "インデックス486と重複のため削除候補。",
     "tags": [
       "日本食"
     ],
     "hours": "Monday: 11:30 AM – 3:30 PM, 5:30 – 10:00 PM / Tuesday: 11:30 AM – 3:30 PM, 5:30 – 10:00 PM / Wednesday: 11:30 AM – 3:30 PM, 5:30 – 10:00 PM / Thursday: 11:30 AM – 3:30 PM, 5:30 – 10:00 PM / Friday: 11:30 AM – 3:30 PM, 5:30 – 10:00 PM / Saturday: 11:30 AM – 10:00 PM / Sunday: 11:30 AM – 10:00 PM",
     "last_verified": "2026-04-07",
-    "status": "unverified",
+    "status": "reported_closed",
     "source": "google_maps",
     "place_id": "ChIJczgzmjQZ2jERMtYxw3Z7OrQ",
     "ai_reviewed": true,
@@ -20622,7 +20814,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "Takashimaya Shopping Centre（391 Orchard Road #02-13）に位置する酢重正之グループのシンガポール2店舗目。長野県軽井沢発祥の老舗の味を継承し、信州産の米・味噌・醤油と豊洲市場から空輸した鮮魚を使用。92席を備えた広い店内で寿司・刺身・天ぷら・蕎麦・定食などを提供。Orchardの中心地、Takashimaya内というアクセスの良さから、在住日本人が家族連れや日本からのゲスト接待にも利用する。ランチSGD20〜、ディナーSGD40〜。営業時間11:30〜22:30。",
+    "detail": "インデックス486と同一店舗のため重複エントリー。",
     "menu": [
       {
         "name": "定食（ランチ）",
@@ -20644,7 +20836,9 @@
       "寿司"
     ],
     "japanese_staff": null,
-    "spot_reviewed": true
+    "spot_reviewed": true,
+    "needs_review": true,
+    "review_note": "インデックス486（Shukuu Izakaya）と同一住所8 Stanley Streetの重複エントリー。要削除確認。"
   },
   {
     "slug": "suki-ya-bugis-plus",
@@ -20653,13 +20847,12 @@
     "area": "Bugis",
     "address": "201 Victoria Street, Bugis+, Singapore 188067",
     "phone": null,
-    "website": null,
-    "description": "日本式しゃぶしゃぶ・すき焼き食べ放題チェーン「Suki-Ya」のBugis+店。7種のスープベースから選べるヘルシーなホットポットを手頃な価格で提供。",
+    "website": "https://shukuu.sg/",
+    "description": "Great World CityエリアのShukuu系列居酒屋（未確認）。日本酒と居酒屋料理のペアリングが楽しめる。",
     "tags": [
-      "しゃぶしゃぶ",
-      "すき焼き",
-      "食べ放題",
-      "チェーン"
+      "居酒屋",
+      "日本酒バー",
+      "Great World City"
     ],
     "hours": null,
     "last_verified": "2026-04-07",
@@ -20689,8 +20882,8 @@
         "category": "食べ放題"
       }
     ],
-    "price_range": "SGD 23〜40++/人",
-    "detail": "201 Victoria Street, Bugis+内に位置するSuki-Yaの店舗。日本式しゃぶしゃぶ・すき焼きの食べ放題専門チェーンで、昆布・トマト・味噌・キムチなど7種のスープベースから選択可能。薄切り牛・豚・鶏肉と新鮮野菜バーをビュッフェ形式で楽しめる。平日ランチSGD22.90++、平日ディナーSGD27.90++で、週末・祝日は追加SGD3。学生割引・誕生日特典・1-for-1プロモーションも充実。在住日本人にも馴染み深い日本式のしゃぶしゃぶ体験をカジュアルに提供。Bugis MRT直結でアクセス良好。",
+    "price_range": "$$$",
+    "detail": "1 Kim Seng Promenade、Great World Cityに位置するShukuu Izakayaの支店とされているが、調査ではGreat World CityにあるのはISSHO Izakayaであることが判明。ShukuuのGreat World City店の存在は未確認のため要再調査。仮に営業している場合は、日本酒ソムリエが厳選した銘柄と居酒屋料理のペアリングを提供するStanley Street本店と同様のコンセプトが楽しめると考えられる。訪問前に公式サイト（shukuu.sg）または直接連絡で確認することを強く推奨する。",
     "menu_highlights": [
       "しゃぶしゃぶ食べ放題",
       "すき焼き食べ放題",
@@ -20698,8 +20891,10 @@
       "野菜バー",
       "プレミアム和牛オプション"
     ],
-    "japanese_staff": false,
-    "spot_reviewed": true
+    "japanese_staff": null,
+    "spot_reviewed": true,
+    "needs_review": true,
+    "review_note": "Great World CityにあるのはISSHO Izakayaとの情報あり。Shukuu Great World City店の実在は未確認。要再調査。"
   },
   {
     "slug": "suki-ya-jem",
@@ -20708,13 +20903,12 @@
     "area": "Jurong East",
     "address": "50 Jurong Gateway Road, JEM, Singapore 608549",
     "phone": null,
-    "website": "https://www.suki-ya.com.sg/",
-    "description": "日本式しゃぶしゃぶ食べ放題チェーン「Suki-Ya」のJEM（Jurong East）店。複数のスープベースから選べるヘルシーなホットポットをリーズナブルな価格で提供。",
+    "website": "https://shukuu.sg/",
+    "description": "Marina OneエリアのShukuu系列居酒屋（未確認）。日本酒と本格居酒屋料理を提供。",
     "tags": [
-      "しゃぶしゃぶ",
-      "すき焼き",
-      "ビュッフェ",
-      "チェーン"
+      "居酒屋",
+      "日本酒バー",
+      "Marina Bay"
     ],
     "hours": null,
     "status": "unverified",
@@ -20744,16 +20938,18 @@
         "category": "食べ放題"
       }
     ],
-    "price_range": "SGD 23〜40++/人",
-    "detail": "50 Jurong Gateway Road, JEM内に位置するSuki-Yaの店舗。日本式しゃぶしゃぶ・すき焼きの食べ放題専門チェーンで、昆布・トマト・味噌・キムチなど7種のスープベースを提供。薄切り牛・豚・鶏肉と新鮮野菜バーをビュッフェスタイルで楽しめる。平日ランチSGD22.90++、平日ディナーSGD27.90++。プレミアムプランではSGD34.90++から和牛・イベリコポーク・ホタテ等も食べ放題。Jurong East MRT直結のJEMモール内にあり、西部エリア在住の日本人家族にも便利。",
+    "price_range": "$$$",
+    "detail": "5 Straits View、Marina Oneに位置するShukuu Izakayaの支店とされているが、調査ではMarina OneのイザカヤはISSHO Izakayaの可能性が高い。ShukuuのMarina One店の実在は未確認のため訪問前に公式サイト（shukuu.sg）または直接問い合わせで確認を推奨する。確認が取れた場合、日本酒ソムリエ監修の60銘柄以上の日本酒セレクションと本格居酒屋料理を楽しめるコンセプトで運営されていると考えられる。",
     "menu_highlights": [
       "しゃぶしゃぶ食べ放題",
       "すき焼き",
       "7種スープベース",
       "野菜バー"
     ],
-    "japanese_staff": false,
-    "spot_reviewed": true
+    "japanese_staff": null,
+    "spot_reviewed": true,
+    "needs_review": true,
+    "review_note": "Marina OneのイザカヤはISSHO Izakayaとの情報あり。Shukuu Marina One店の実在は未確認。要再調査。"
   },
   {
     "slug": "suki-ya-plq",
@@ -20763,7 +20959,7 @@
     "address": "10 Paya Lebar Road, PLQ Mall, Singapore 409057",
     "phone": null,
     "website": "https://www.suki-ya.com.sg/",
-    "description": "Paya Lebarのしゃぶしゃぶ食べ放題チェーン「Suki-Ya」PLQ店。日本式の薄切り肉と野菜バーを楽しむホットポットビュッフェ。平日ランチSGD22.90++から。",
+    "description": "インデックス486と重複のため削除候補。",
     "tags": [
       "しゃぶしゃぶ",
       "すき焼き",
@@ -20771,7 +20967,7 @@
       "チェーン"
     ],
     "hours": null,
-    "status": "unverified",
+    "status": "reported_closed",
     "last_verified": "2026-04-07",
     "source": "website",
     "ai_reviewed": true,
@@ -20781,7 +20977,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "Paya Lebar Quarter（PLQ）内に位置するSuki-Yaの店舗。日本式しゃぶしゃぶ・すき焼きの食べ放題専門チェーンで、昆布・トマト・味噌・キムチ等7種のスープベースから選択可能。薄切り牛・豚・鶏肉と新鮮野菜バーをビュッフェスタイルで提供。平日ランチSGD22.90++から楽しめ、学生割引（SGD3 OFF）・誕生日特典・1-for-1ランチプロモーションも用意。東部エリアに在住する日本人家族にも利用しやすい立地。プレミアムプランではSGD34.90++から和牛・イベリコポーク等も食べ放題。",
+    "detail": "インデックス486と同一店舗のため重複エントリー。",
     "menu": [
       {
         "name": "しゃぶしゃぶランチセット",
@@ -20806,8 +21002,10 @@
       "野菜バー",
       "プレミアム和牛オプション"
     ],
-    "japanese_staff": false,
-    "spot_reviewed": true
+    "japanese_staff": null,
+    "spot_reviewed": true,
+    "needs_review": true,
+    "review_note": "インデックス486（Shukuu Izakaya）と同一住所8 Stanley St、Singapore 068727の重複エントリー。要削除確認。"
   },
   {
     "slug": "suki-ya-sg",
@@ -20816,13 +21014,15 @@
     "area": "Somerset",
     "address": "181 Orchard Road, Orchard Central, Singapore 238896",
     "phone": null,
-    "website": null,
-    "description": "Orchard Centralにある日本式しゃぶしゃぶ食べ放題「Suki-Ya」。7種のスープベースから選べるヘルシーなホットポットを提供。Orchard MRT直結。",
+    "website": "https://shunjuu.com/",
+    "description": "2003年創業、Robertson Quay川沿いの老舗備長炭焼き鳥居酒屋。テラス席から川を眺めながら60種以上の串と50種以上の日本酒が楽しめる。",
     "tags": [
-      "しゃぶしゃぶ",
-      "すき焼き",
-      "食べ放題",
-      "複数店舗"
+      "居酒屋",
+      "焼き鳥",
+      "串焼き",
+      "テラス席",
+      "予約可",
+      "老舗"
     ],
     "hours": "毎日 11:30-22:00",
     "status": "unverified",
@@ -20852,14 +21052,15 @@
         "category": "食べ放題"
       }
     ],
-    "price_range": "SGD 23〜40++/人",
-    "detail": "181 Orchard Road, Orchard Central内に位置するSuki-Yaの店舗。日本式しゃぶしゃぶ・すき焼きの食べ放題専門チェーンで、昆布・トマト・味噌・キムチなど7種のスープベースを提供。薄切り牛・豚・鶏肉と新鮮野菜バーをビュッフェスタイルで楽しめる。平日ランチSGD22.90++から。Orchard MRTから徒歩圏内のOrchard Centralにあり、ショッピング後の食事にも便利。プレミアムプランではSGD34.90++から和牛・イベリコポーク・各種シーフードも追加可能。",
+    "price_range": "$$$",
+    "detail": "30 Robertson Quay #01-15 Riverside Viewに位置するShunjuu Izakaya（春秋居酒屋）は、2003年の創業以来シンガポールの焼き鳥シーンを牽引してきた老舗居酒屋。備長炭を使って丁寧に焼き上げる焼き鳥・焼きとん・串焼きが60種以上揃い、希少部位や旬の食材を使った限定串も登場する。50種類以上の日本酒ラベルをセレクションし、料理との相性で楽しみ方を広げてくれる。Robertson Quay川沿いのテラス席からの眺めは特に人気で、夕暮れ時から夜にかけて賑わう。シンガポール・トップレストラン賞、ベストレストラン賞など多くの受賞歴あり。月〜日ランチ・ディナー営業（日曜は早め閉店）。",
     "menu_highlights": [
-      "しゃぶしゃぶ食べ放題",
-      "すき焼き",
-      "7種スープベース"
+      "備長炭焼き鳥",
+      "希少部位串",
+      "日本酒セレクション",
+      "焼きとん"
     ],
-    "japanese_staff": false,
+    "japanese_staff": null,
     "spot_reviewed": true
   },
   {
@@ -20869,13 +21070,14 @@
     "area": "HarbourFront",
     "address": "1 Harbourfront Walk, VivoCity, Singapore 098585",
     "phone": null,
-    "website": "https://www.suki-ya.com.sg/",
-    "description": "VivoCity（HarbourFront）にある日本式しゃぶしゃぶ食べ放題「Suki-Ya」。セントーサ島を望む立地で、複数のスープベースから選べるホットポットを提供。",
+    "website": "https://www.shunsui.sg/",
+    "description": "Cuppage Plazaのミシュランプレート受賞・割烹スタイル日本料理店。旬の食材を使ったおまかせコースが評価されている。",
     "tags": [
-      "しゃぶしゃぶ",
-      "すき焼き",
-      "ビュッフェ",
-      "チェーン"
+      "割烹",
+      "おまかせ",
+      "ミシュランプレート",
+      "予約",
+      "接待"
     ],
     "hours": null,
     "status": "unverified",
@@ -20888,7 +21090,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "1 HarbourFront Walk, VivoCity内に位置するSuki-Yaの店舗。日本式しゃぶしゃぶ・すき焼きの食べ放題専門チェーンで、昆布・トマト・味噌・キムチなど7種のスープベースを選択可能。薄切り牛・豚・鶏肉と新鮮野菜バーをビュッフェスタイルで楽しめる。平日ランチSGD22.90++、平日ディナーSGD27.90++。HarbourFront MRT直結のVivoCity内にあり、セントーサへのアクセス途中にも立ち寄りやすい。家族連れの在住日本人にも利用しやすい環境。",
+    "detail": "5 Koek Road #03-01、Cuppage Plazaに位置するShunsui（旬水）は、ミシュランガイドシンガポールでミシュランプレートを5〜6回受賞してきた割烹スタイルの日本料理レストラン。旬の食材を活かした割烹料理をおまかせコース（カチョウコース$129++〜、フウガコース$179++〜）で提供。Shunsuiグループとしては香港ストリートの旗艦店（インデックス493）と複数の関連業態（Kemuri、Tsubaki by Shunsuiなど）を展開しており、その割烹技術はシンガポールの日本食シーンで高く評価されている。記念日・接待・グルメな会食に最適。要予約。",
     "menu": [
       {
         "name": "ランチセット",
@@ -20906,14 +21108,13 @@
         "category": "野菜"
       }
     ],
-    "price_range": "SGD 23〜40++/人",
+    "price_range": "$$$$",
     "menu_highlights": [
-      "しゃぶしゃぶ食べ放題",
-      "すき焼き",
-      "7種スープベース",
-      "野菜バー"
+      "カチョウコース",
+      "フウガコース",
+      "おまかせ割烹"
     ],
-    "japanese_staff": false,
+    "japanese_staff": true,
     "spot_reviewed": true
   },
   {
@@ -20923,12 +21124,14 @@
     "area": "Somerset",
     "address": "313 Orchard Road, #B3-33/34, Singapore 238895",
     "phone": null,
-    "website": "https://www.sukiya.com.sg/",
-    "description": "日本最大の牛丼チェーン「すき家」の313@Somerset店。牛丼・カレー・焼肉丼などをSGD4.20++からリーズナブルに提供。在住日本人に馴染み深い日本の味が楽しめる。",
+    "website": "https://www.shunsui.sg/",
+    "description": "Hong Kong Streetの旗艦割烹店。ミシュランプレート6度受賞、U字カウンターで職人の技を眺めながらおまかせが楽しめる。",
     "tags": [
-      "牛丼",
-      "チェーン",
-      "ファストフード"
+      "割烹",
+      "おまかせ",
+      "ミシュランプレート",
+      "旗艦店",
+      "接待"
     ],
     "hours": "毎日 11:00-22:00",
     "status": "unverified",
@@ -20941,7 +21144,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "313@Somerset, 313 Orchard Road, Singapore 238895に位置する日本最大の牛丼チェーン「すき家（Sukiya）」のシンガポール店。日本で馴染み深い牛丼・焼肉丼・カレーライス・うな丼などをSGD4.20++から手頃な価格で提供。在住日本人にとって日本の味を気軽に楽しめる貴重なファストフードチェーン。タッチパネルまたはQRコードで注文可能。シンガポール国内に30店舗以上を展開しており、Dhoby Ghaut/Somersetエリアで気軽に日本式の丼物が楽しめる。",
+    "detail": "Hong Kong Streetに位置するShunsui（旬水）の旗艦店は、ミシュランガイドシンガポールでミシュランプレートを6度受賞した実績を持つ割烹レストラン。Kyuu by ShunsuiとKappo Shunsuiの統合を経て現在の形となった旗艦店で、U字型カウンター席から開放的なオープンキッチンを眺めながら食事ができる。おまかせコースはカチョウ（$129++）・フウガ（$179++）・Shunsui（$229++）の3種が用意され、刺身・寿司・炊き合わせなど割烹の技法が随所に光るひと品ひと品が楽しめる。2025年3月時点でも活発に営業中。Shunsuiグループ全体の技術と理念が体現されたフラッグシップ。",
     "menu": [
       {
         "name": "牛丼（Gyudon）",
@@ -20959,15 +21162,13 @@
         "category": "カレー"
       }
     ],
-    "price_range": "SGD 4〜15++/人",
+    "price_range": "$$$$",
     "menu_highlights": [
-      "牛丼",
-      "焼肉丼",
-      "カレーライス",
-      "うな丼",
-      "定食セット"
+      "Shunsuiコース $229++",
+      "フウガコース $179++",
+      "カチョウコース $129++"
     ],
-    "japanese_staff": false,
+    "japanese_staff": true,
     "spot_reviewed": true
   },
   {
@@ -20978,10 +21179,12 @@
     "address": "53 Ang Mo Kio Avenue 3, AMK Hub, Singapore 569933",
     "phone": null,
     "website": "https://www.sukiya.com.sg/",
-    "description": "日本最大の牛丼チェーン「すき家」のAMK Hub店。牛丼・カレー・焼肉丼などをSGD4.20++からリーズナブルに提供。在住日本人に馴染み深い日本の味が楽しめる。",
+    "description": "Cuppage Plazaの炭火焼き鳥バーSkewers。こだわりの串焼きと日本酒・ハイボールをカジュアルに楽しめる。",
     "tags": [
-      "牛丼",
-      "チェーン"
+      "居酒屋",
+      "焼き鳥",
+      "バー",
+      "Cuppage Plaza"
     ],
     "hours": null,
     "status": "unverified",
@@ -21011,17 +21214,17 @@
         "category": "カレー"
       }
     ],
-    "detail": "53 Ang Mo Kio Avenue 3, AMK Hub, Singapore 569933に位置する日本最大の牛丼チェーン「すき家（Sukiya）」のシンガポール店。日本で馴染み深い牛丼・焼肉丼・カレーライス・うな丼などをSGD4.20++から手頃な価格で提供。在住日本人にとって日本の味を気軽に楽しめる貴重なファストフードチェーン。タッチパネルまたはQRコードで注文可能。シンガポール国内に30店舗以上を展開しており、Ang Mo Kioエリアで気軽に日本式の丼物が楽しめる。",
-    "price_range": "SGD 4〜15++/人",
+    "detail": "5 Koek Road、Cuppage Plazaに位置するSkewers Bar（スキューズバー）は、炭火焼き鳥を中心に据えたカジュアルな日本式バー。インデックス495のSkewers Yakitori Izakaya（4階建て #04-01）と同一または姉妹店の可能性が高い。Cuppage Plazaはシンガポールで日本食・日本式バーが集まるスポットとして在住日本人に知られており、同ビルの焼き鳥専門店として日本酒・ハイボールと串焼きの組み合わせを提供している。具体的な階数・ユニット番号の情報が不足しているため、訪問前にインデックス495のSkewers Yakitori Izakaya（skewers.sg）で公式情報を確認することをおすすめする。",
+    "price_range": "$$",
     "menu_highlights": [
-      "牛丼",
-      "焼肉丼",
-      "カレーライス",
-      "うな丼",
-      "定食セット"
+      "炭火焼き鳥",
+      "日本酒",
+      "ハイボール"
     ],
-    "japanese_staff": false,
-    "spot_reviewed": true
+    "japanese_staff": null,
+    "spot_reviewed": true,
+    "needs_review": true,
+    "review_note": "インデックス495（Skewers Yakitori Izakaya #04-01）と同一または姉妹店の可能性あり。住所の詳細（フロア・ユニット）が不明。要確認。"
   },
   {
     "slug": "sukiya-bishan",
@@ -21030,12 +21233,13 @@
     "area": "Bishan",
     "address": "9 Bishan Place, Junction 8, Singapore 579837",
     "phone": null,
-    "website": "https://www.sukiya.com.sg/",
-    "description": "日本最大の牛丼チェーン「すき家」のBishan Junction 8店。牛丼・カレー・焼肉丼などをSGD4.20++からリーズナブルに提供。在住日本人に馴染み深い日本の味が楽しめる。",
+    "website": "https://www.skewers.sg/",
+    "description": "Cuppage Plaza 4階の人気焼き鳥専門居酒屋。炭火で一本一本焼く串が名物で完全予約制。日本の部位別焼き鳥が揃う。",
     "tags": [
-      "牛丼",
-      "チェーン",
-      "定食"
+      "焼き鳥",
+      "居酒屋",
+      "予約推奨",
+      "Cuppage Plaza"
     ],
     "hours": null,
     "last_verified": "2026-04-07",
@@ -21065,16 +21269,15 @@
         "category": "カレー"
       }
     ],
-    "detail": "9 Bishan Place, Junction 8, Singapore 579837に位置する日本最大の牛丼チェーン「すき家（Sukiya）」のシンガポール店。日本で馴染み深い牛丼・焼肉丼・カレーライス・うな丼などをSGD4.20++から手頃な価格で提供。在住日本人にとって日本の味を気軽に楽しめる貴重なファストフードチェーン。タッチパネルまたはQRコードで注文可能。シンガポール国内に30店舗以上を展開しており、Bishanエリアで気軽に日本式の丼物が楽しめる。",
-    "price_range": "SGD 4〜15++/人",
+    "detail": "5 Koek Road #04-01、Cuppage Plaza 4階にあるSkewers Yakitori Izakaya（スキューズ焼き鳥居酒屋）は、シンガポールで本格的な焼き鳥を楽しめる人気店。炭火で丁寧に焼き上げるもも・ねぎま・かわ・ずり・レバーなど各部位の焼き鳥が中心で、ちょうちん（卵付きレバー）などの珍しい部位も揃う。内臓系を含む串のレパートリーが豊富で焼き鳥好きの在住日本人にも評判が高い。サイドメニューにはラーメンや親子丼も。完全予約推奨で、夜の席は特に埋まりやすい。2026年2月にも新たな口コミが投稿されており引き続き営業中。",
+    "price_range": "$$",
     "menu_highlights": [
-      "牛丼",
-      "焼肉丼",
-      "カレーライス",
-      "うな丼",
-      "定食セット"
+      "炭火焼き鳥各部位",
+      "珍しい内臓系串",
+      "親子丼",
+      "ラーメン"
     ],
-    "japanese_staff": false,
+    "japanese_staff": null,
     "spot_reviewed": true
   },
   {
@@ -21084,11 +21287,13 @@
     "area": "Bugis",
     "address": "201 Victoria Street, Bugis+, Singapore 188067",
     "phone": null,
-    "website": "https://www.sukiya.com.sg/",
-    "description": "日本最大の牛丼チェーン「すき家」のBugis+店。牛丼・カレー・焼肉丼などをSGD4.20++からリーズナブルに提供。在住日本人に馴染み深い日本の味が楽しめる。",
+    "website": "https://standingsushibar.com/",
+    "description": "Marina Bay Link MallのカジュアルスシBar。立ち食いスタイルで新鮮な握り・刺身・ロールをリーズナブルに楽しめる。",
     "tags": [
-      "牛丼",
-      "チェーン"
+      "寿司",
+      "カジュアル",
+      "リーズナブル",
+      "Marina Bay"
     ],
     "hours": null,
     "status": "unverified",
@@ -21118,16 +21323,15 @@
         "category": "カレー"
       }
     ],
-    "detail": "201 Victoria Street, Bugis+, Singapore 188067に位置する日本最大の牛丼チェーン「すき家（Sukiya）」のシンガポール店。日本で馴染み深い牛丼・焼肉丼・カレーライス・うな丼などをSGD4.20++から手頃な価格で提供。在住日本人にとって日本の味を気軽に楽しめる貴重なファストフードチェーン。タッチパネルまたはQRコードで注文可能。シンガポール国内に30店舗以上を展開しており、Bugisエリアで気軽に日本式の丼物が楽しめる。",
-    "price_range": "SGD 4〜15++/人",
+    "detail": "8A Marina Boulevard #B2-51、Marina Bay Link Mallに位置するStanding Sushi Bar（スタンディング寿司バー）のマリーナベイリンクモール店。2009年創業の同チェーンはシンガポールに複数の店舗を展開し、「立ち食い」スタイルで本格的な日本料理をリーズナブルに楽しめることが最大の特徴。魚は店舗でさばき、手前で握るライブ感も魅力。握り寿司・刺身・天ぷら・丼・そば・うどんなど幅広いメニューが揃う。Marina Bayエリアのオフィスワーカーや観光客向けにランチとディナーのセット料理も充実。マリーナベイ・ファイナンシャルセンターやショッパーズモールからもアクセスしやすい。",
+    "price_range": "$$",
     "menu_highlights": [
-      "牛丼",
-      "焼肉丼",
-      "カレーライス",
-      "うな丼",
-      "定食セット"
+      "握り寿司",
+      "刺身",
+      "ランチセット",
+      "天ぷら"
     ],
-    "japanese_staff": false,
+    "japanese_staff": null,
     "spot_reviewed": true
   },
   {
@@ -21137,12 +21341,13 @@
     "area": "Tampines",
     "address": "2 Tampines Central 5, #01-21, Century Square, Singapore 529509",
     "phone": null,
-    "website": "https://www.sukiya.com.sg/",
-    "description": "日本最大の牛丼チェーン「すき家」のCentury Square店。牛丼・カレー・焼肉丼などをSGD4.20++からリーズナブルに提供。在住日本人に馴染み深い日本の味が楽しめる。",
+    "website": "https://standingsushibar.com/",
+    "description": "Marina OneのStanding Sushi Bar旗艦的存在。世界寿司カップ2018チャンピオンのシェフによるおまかせコースも用意。",
     "tags": [
-      "牛丼",
-      "チェーン",
-      "ファストフード"
+      "寿司",
+      "おまかせ",
+      "Marina One",
+      "ミシュランシェフ"
     ],
     "hours": "毎日 10:00-22:00",
     "status": "unverified",
@@ -21172,16 +21377,14 @@
         "category": "カレー"
       }
     ],
-    "detail": "Century Square（2 Tampines Central 5, #01-21, Century Square, Singapore 529509）に位置するSukiyaの店舗。日本最大の牛丼チェーン「すき家」のシンガポール店（313@Somerset）。牛丼・焼肉丼・カレーライスなど手頃な価格の日本式ファストフードを提供。在住日本人にとっても馴染みのある味が楽しめる。シンガポール各地に複数店舗を展開。",
-    "price_range": "SGD 4〜15++/人",
+    "detail": "5 Straits View #B2-47、Marina Oneに位置するStanding Sushi Bar Marina One店は、チェーン内でも特に格の高い位置付けの店舗。2018年世界寿司カップ（World Sushi Cup）チャンピオンの称号を持つシェフ・スカイ・タイ氏が厨房を率い、通常のメニューに加えてランチ・ディナーのおまかせコースも提供している。通常の寿司・刺身・丼メニューから、特別なおまかせ体験まで幅広い選択肢があり、カジュアル利用から接待まで対応可能。Marina Oneエリアは金融機関・大手企業のオフィスが集まるCBDで、ビジネスランチや会食に便利な立地。",
+    "price_range": "$$$",
     "menu_highlights": [
-      "牛丼",
-      "焼肉丼",
-      "カレーライス",
-      "うな丼",
-      "定食セット"
+      "おまかせコース",
+      "握り寿司",
+      "世界チャンピオンシェフの技"
     ],
-    "japanese_staff": false,
+    "japanese_staff": null,
     "spot_reviewed": true
   },
   {
@@ -21191,12 +21394,13 @@
     "area": "Changi",
     "address": "5 Changi Business Park Central 1, #01-12, Changi City Point, Singapore 486038",
     "phone": null,
-    "website": "https://www.sukiya.com.sg/",
-    "description": "日本最大の牛丼チェーン「すき家」のChangi City Point店。牛丼・カレー・焼肉丼などをSGD4.20++からリーズナブルに提供。在住日本人に馴染み深い日本の味が楽しめる。",
+    "website": "https://standingsushibar.com/",
+    "description": "City Hall・Odeon TowersのStanding Sushi Bar旗艦店。2009年創業のシンガポール人気寿司チェーンの中核店舗。",
     "tags": [
-      "牛丼",
-      "チェーン",
-      "ファストフード"
+      "寿司",
+      "カジュアル",
+      "リーズナブル",
+      "City Hall"
     ],
     "hours": "毎日 10:00-22:00",
     "status": "unverified",
@@ -21226,16 +21430,15 @@
         "category": "カレー"
       }
     ],
-    "detail": "Changi City Point（5 Changi Business Park Central 1, #01-12, Changi City Point, Singapore 486038）に位置するSukiyaの店舗。日本最大の牛丼チェーン「すき家」のシンガポール店（313@Somerset）。牛丼・焼肉丼・カレーライスなど手頃な価格の日本式ファストフードを提供。在住日本人にとっても馴染みのある味が楽しめる。シンガポール各地に複数店舗を展開。",
-    "price_range": "SGD 4〜15++/人",
+    "detail": "331 North Bridge Road #01-04、Odeon Towers1階に位置するStanding Sushi Bar（SSB）のOdeon Towers店は、チェーンの核心店舗のひとつ。2009年8月にシンガポールで初めて「立ち食い」スタイルの本格日本料理をお手頃価格で提供するというコンセプトで誕生した同チェーンは、その後複数の店舗を展開してきた。店内では魚を直接さばいて握る様子が見られるライブ感と、天ぷら・丼・ロール・寿司を含む豊富なメニューが魅力。月〜日12:00〜14:30（ランチ）、17:30〜21:30（ディナー）、週末・祝日は12:00〜21:30（連続）。City Hall MRTから徒歩圏内。",
+    "price_range": "$$",
     "menu_highlights": [
-      "牛丼",
-      "焼肉丼",
-      "カレーライス",
-      "うな丼",
-      "定食セット"
+      "握り寿司",
+      "刺身",
+      "天ぷら",
+      "ランチセット"
     ],
-    "japanese_staff": false,
+    "japanese_staff": null,
     "spot_reviewed": true
   },
   {
@@ -21245,12 +21448,14 @@
     "area": "Farrer Park",
     "address": "180 Kitchener Road, #B1-31/32, City Square Mall, Singapore 208539",
     "phone": null,
-    "website": "https://www.sukiya.com.sg/",
-    "description": "日本最大の牛丼チェーン「すき家」のCity Square Mall店。牛丼・カレー・焼肉丼などをSGD4.20++からリーズナブルに提供。在住日本人に馴染み深い日本の味が楽しめる。",
+    "website": "https://jpassport.asia/STEAKSUDAKU/news-view/8344",
+    "description": "Killiney Roadの手頃な価格で食べられるA5近江牛ステーキ専門店。Googleに5000件超の口コミが集まる人気店。",
     "tags": [
-      "牛丼",
-      "チェーン",
-      "ファストフード"
+      "ステーキ",
+      "和牛",
+      "近江牛",
+      "リーズナブル",
+      "Killiney"
     ],
     "hours": "毎日 10:00-22:00",
     "status": "unverified",
@@ -21280,16 +21485,14 @@
         "category": "カレー"
       }
     ],
-    "detail": "City Square Mall（180 Kitchener Road, #B1-31/32, City Square Mall, Singapore 208539）に位置するSukiyaの店舗。日本最大の牛丼チェーン「すき家」のシンガポール店（313@Somerset）。牛丼・焼肉丼・カレーライスなど手頃な価格の日本式ファストフードを提供。在住日本人にとっても馴染みのある味が楽しめる。シンガポール各地に複数店舗を展開。",
-    "price_range": "SGD 4〜15++/人",
+    "detail": "107 Killiney Roadに位置するSTEAK SUDAKU（スダク）は、日本で最も歴史ある和牛ブランドのひとつ「近江牛（A5グレード）」をシンガポールの相場より手頃な価格帯で楽しめるステーキ専門店。Killiney店はオープン以来Googleで5000件を超える口コミが集まるほどの人気で、厚切りのA5近江牛ステーキが値段以上のクオリティと評判。ランチ・ディナー共に11:00〜21:00（月〜日）の長い営業時間も使い勝手がよい。シンガポール国内にBeach Road・Telok Ayerにも支店を展開しており、旅行者・駐在員を問わず日本人に人気。",
+    "price_range": "$$",
     "menu_highlights": [
-      "牛丼",
-      "焼肉丼",
-      "カレーライス",
-      "うな丼",
-      "定食セット"
+      "A5近江牛ステーキ",
+      "ランチセット",
+      "和牛丼"
     ],
-    "japanese_staff": false,
+    "japanese_staff": null,
     "spot_reviewed": true
   },
   {
@@ -30810,12 +31013,12 @@
     "address": "11 Sam Leong Rd, #04-03 Trio Mall, Singapore 207903",
     "phone": null,
     "website": "https://www.veggie-an.com/",
-    "description": "シンガポールのヴィーガン・ベジタリアン対応日本食レストランVeg-An。野菜を中心とした植物性食材のみで作る和食を展開。",
+    "description": "本格日本式ヴィーガン料理を提供するホームスタイルの飲食店。日本人シェフが手掛ける植物性弁当や麺料理が揃う。",
     "tags": [
       "日本食"
     ],
     "hours": "Monday: Closed / Tuesday: Closed / Wednesday: 10:00 AM – 2:00 PM / Thursday: 10:00 AM – 2:00 PM / Friday: 10:00 AM – 2:00 PM / Saturday: 10:00 AM – 2:00 PM / Sunday: 10:00 AM – 2:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJfRNCEKEZ2jERE-hnS4keOxU",
@@ -30826,7 +31029,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "本格的な日本のヴィーガン料理を提供するシンガポールのヴィーガン日本料理専門店。日本人シェフによるプレミアム食材を使ったヴィーガン弁当・料理を提供。島内配達対応（最低注文SGD100）でテイクアウト・デリバリーが中心。日本のホームクッキングスタイルを忠実に再現したヴィーガン料理が特徴。",
+    "detail": "Veg-Anは2021年1月に開業した日本式ヴィーガン料理専門店。日本人シェフ・Tomoeが手掛ける本格的な植物性料理を提供し、毎日の食事に和の味わいをお届けする。定番の弁当シリーズは冷凍保存可能で、忙しいビジネスパーソンにも人気。素材は日本から厳選仕入れした食材を使用し、和だしや醤油ベースのソースなど日本料理の基本に忠実。ザル蕎麦は伝統的な製法を守りつつ完全植物性に仕上げており、うどんへの変更も可能。オデン（関東煮）やひじきの煮物などの副菜も充実。フードデリバリー対応で、Trio Mall店内での飲食も楽しめる。ヴィーガン・ベジタリアン向けながら、日本食の美味しさを損なわない仕上がりで、日本人在住者からも支持されている。",
     "menu": [
       {
         "name": "ヴィーガン弁当各種",
@@ -30838,7 +31041,16 @@
         "price": "SGD 15〜35",
         "category": "料理"
       }
-    ]
+    ],
+    "price_range": "SGD 15-25/人",
+    "menu_highlights": [
+      "ヴィーガン弁当",
+      "ザル蕎麦",
+      "オデン",
+      "やきとり弁当（植物性）"
+    ],
+    "japanese_staff": true,
+    "spot_reviewed": true
   },
   {
     "slug": "wa-en-wagyu-yakiniku-jewel",
@@ -30848,7 +31060,7 @@
     "address": "78 Airport Boulevard, #01-224, Jewel Changi Airport, Singapore 819666",
     "phone": "+6562467488",
     "website": "https://wa-en.com.sg/",
-    "description": "香港からのミシュランガイド掲載焼肉レストラン。宮崎和牛のプレミアムビュッフェを提供。Jewel Changi Airport内。",
+    "description": "ミシュランガイド掲載の宮崎A4/A5和牛専門焼肉店。ジュエル・チャンギ空港に構える宮崎産プレミアム和牛の食べ放題も人気。",
     "tags": [
       "焼肉",
       "和牛",
@@ -30857,7 +31069,7 @@
     ],
     "hours": "Daily 11:00-22:00",
     "status": "unverified",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "source": "website",
     "ai_reviewed": true,
     "phone_local": null,
@@ -30866,14 +31078,23 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "宮崎産A4・A5和牛を専門に提供する日本式焼き肉レストラン。「精巧で繊細な宮崎プレミアム和牛」のみを使用し、高品質な食材にこだわった本格的な焼き肉体験を提供。日本のプレミアム牛肉をシンガポールで楽しめる数少ない専門店の一つ。",
+    "detail": "Wa-EN Wagyu Yakinikuは香港で10年以上の実績を持つ和牛焼肉の名店。2016年・2017年にミシュランガイドに掲載された実力派が、ジュエル・チャンギ空港にシンガポール初出店した。宮崎産のA4・A5ランクの黒毛和牛を中心としたプレミアム食材を使用し、贅沢な焼肉体験を提供する。プレミアムコース（SGD88）やデラックスコース（SGD128）のほか、和牛・刺身グレードシーフード食べ放題（SGD168++）も用意。シンガポール限定のWa-Enバーではジュエル最大級のワイン・ウイスキーリストを誇り、みかんマティーニなどオリジナルカクテルも評判。ランチからディナーまで通し営業（11am-10pm）。記念日や接待にも最適な上質な空間で、日本からの出張者や観光客にも人気が高い。",
     "menu": [
       {
         "name": "宮崎A4/A5和牛各部位",
         "price": "SGD 25〜80",
         "category": "和牛焼き肉"
       }
-    ]
+    ],
+    "price_range": "SGD 88-168/人",
+    "menu_highlights": [
+      "宮崎A5和牛コース",
+      "食べ放題プラン",
+      "和牛炭火焼",
+      "ウイスキー・ワインバー"
+    ],
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "wagokoro-mineno",
@@ -30883,14 +31104,14 @@
     "address": "150 Orchard Rd, #02-27/28 Orchard Plaza, Singapore 238841",
     "phone": "+6583382065",
     "website": "https://linktr.ee/wagokoromineno",
-    "description": "Orchard Plaza（#02-27/28）の和心嶺野。日本の料理とドリンクをカジュアルに楽しめる日本語スタッフ在籍の本格和食居酒屋。",
+    "description": "オーチャード・プラザに位置する日本料理店。日本から直送した旬の食材で作る懐石料理・寿司・天ぷらが楽しめる。",
     "tags": [
       "居酒屋",
       "日本食",
       "ドリンク"
     ],
     "hours": "Monday: 6:00 PM – 12:00 AM / Tuesday: 6:00 PM – 12:00 AM / Wednesday: 6:00 PM – 12:00 AM / Thursday: 6:00 PM – 12:00 AM / Friday: 6:00 PM – 12:00 AM / Saturday: 6:00 PM – 12:00 AM / Sunday: Closed",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJydsPmHoZ2jERzdLqT_dGZbk",
@@ -30900,7 +31121,17 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Wagokoro Mineno（和心 嶺野）はオーチャード・プラザのフードコミュニティ「リトル・ジャパン」の一角に位置する本格日本料理店。熟練の日本人料理人が日本から直輸入した旬の食材を使い、繊細な料理を丁寧に仕上げる。寿司・刺身・天ぷら・懐石コースと幅広いメニューを取り揃え、記念日や接待にも対応。カウンター席では料理人が目の前で調理する臨場感も楽しめる。懐石コースでは日本の季節感を大切にした品々が並び、日本人在住者や日本文化を愛するローカル客から高い評価を得ている。オーチャード・プラザはガーデンズ系のビルに多数の日本食店が集まる「シンガポールのリトル・ジャパン」として知られており、本店もその代表格の一つ。ランチ・ディナーともに予約推奨。",
+    "price_range": "SGD 50-150/人",
+    "menu_highlights": [
+      "懐石コース",
+      "寿司・刺身",
+      "天ぷら",
+      "旬の日本食材使用"
+    ],
+    "japanese_staff": true,
+    "spot_reviewed": true
   },
   {
     "slug": "wahiro",
@@ -30910,12 +31141,12 @@
     "address": "50 East Coast Road #01-01 Roxy Square 1 Shopping Centre, Singapore 428769",
     "phone": "+6563422252",
     "website": null,
-    "description": "シンガポールの日本食レストランWahiro（わひろ）。旬の食材を使った刺身・焼き物・定食など幅広い和食メニューをカジュアルな空間で楽しめる。",
+    "description": "2000年開業の老舗日本料理店。日本人オーナーシェフが日本直送食材で作る本格和食を提供。東海岸の隠れ家的な名店。",
     "tags": [
       "日本食"
     ],
     "hours": "Monday: Closed / Tuesday: 12:00 – 2:00 PM, 6:00 – 10:00 PM / Wednesday: 12:00 – 2:00 PM, 6:00 – 10:00 PM / Thursday: 12:00 – 2:00 PM, 6:00 – 10:00 PM / Friday: 12:00 – 2:00 PM, 6:00 – 10:00 PM / Saturday: 12:00 – 2:00 PM, 6:00 – 10:00 PM / Sunday: 12:00 – 2:00 PM, 6:00 – 10:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJd7tXI3IY2jERJHYDLdhf3Mc",
@@ -30925,7 +31156,17 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Wahiro（和弘）はオーナー兼料理長・穂積和弘氏が2000年10月に開業した老舗日本料理店で、「大いなる調和」を意味する店名のとおり、食と空間の調和を大切にしている。日本から直送する旬の鮮魚・食材を用いた刺身・寿司・天ぷら・串焼き（串揚げ）が看板メニュー。毎月替わる懐石コースも在住日本人を中心に人気が高い。インテリアは居酒屋スタイルのリラックスした雰囲気で、寿司カウンター・テーブル席に加え、座敷（畳）もあり和の風情が楽しめる。ロキシー・スクエア1階に位置し、東海岸エリアの日本人コミュニティに長年愛されてきた。月〜土はランチ・ディナー営業、日曜はランチのみ（ディナー営業あり）。予約推奨。",
+    "price_range": "SGD 40-100/人",
+    "menu_highlights": [
+      "月替わり懐石",
+      "刺身・寿司",
+      "串揚げ",
+      "旬の空輸鮮魚"
+    ],
+    "japanese_staff": true,
+    "spot_reviewed": true
   },
   {
     "slug": "waku-ghin-marina-bay-sands",
@@ -30935,7 +31176,7 @@
     "address": "10 Bayfront Avenue, The Shoppes at Marina Bay Sands, L2-03, Singapore 018956",
     "phone": null,
     "website": "https://www.marinabaysands.com/restaurants/waku-ghin.html",
-    "description": "和久田哲也シェフが手がけるミシュラン1つ星レストラン。季節の食材を活かした日本料理とフレンチの融合コース。10席限定のカウンター席で提供。",
+    "description": "ミシュラン1つ星を誇るシェフ和久田哲也による最高峰の日本料理レストラン。マリーナベイサンズ内の特別な夜を演出する名店。",
     "tags": [
       "ミシュラン1つ星",
       "オマカセ",
@@ -30944,7 +31185,7 @@
     ],
     "hours": "Wed-Sun 17:30-22:00",
     "status": "unverified",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "source": "website",
     "ai_reviewed": true,
     "phone_local": null,
@@ -30953,7 +31194,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "Marina Bay Sandsに位置するミシュラン1つ星の最高峰日本料理店。世界の最高級食材を日本の料理芸術で仕上げたオマカセコースが看板。ボタン海老のマリネ（ウニとキャビア添え）や最高級和牛が代表的な一皿。7コースSGD550〜10コースSGD700（要予約・完全着席制）。World's 50 Best Restaurants Discoveryに選出。",
+    "detail": "Waku Ghinはマリーナベイサンズ内に位置するシンガポール屈指のファインダイニング。日本生まれでオーストラリアで名声を確立したシェフ・和久田哲也が手掛け、ミシュラン1つ星を継続して獲得している。25席のみのプライベートな空間で、フランス料理の技法と日本料理の審美眼が融合した10コースの料理体験を提供。世界中から集めた厳選素材—マリネした牡丹海老にウニとキャビアを合わせた一皿や、和牛のわさびシトラス醤油添えなど—が次々と登場する。テイスティングメニューはSGD300〜400++（10コース）。シンガポール市街を望む豪華な夜景も料理と相まって格別。特別なお祝いや最高の食体験を求める訪日日本人・在住者に不動の人気を誇る。要予約。",
     "menu": [
       {
         "name": "7コースオマカセ",
@@ -30966,7 +31207,15 @@
         "category": "おまかせコース"
       }
     ],
-    "price_range": "SGD 550〜700/人"
+    "price_range": "SGD 300-400/人",
+    "menu_highlights": [
+      "10コースオマカセ",
+      "牡丹海老ウニキャビア",
+      "和牛わさび醤油",
+      "ミシュラン1つ星"
+    ],
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "wakuda",
@@ -30976,12 +31225,12 @@
     "address": "10 Bayfront Avenue, Marina Bay Sands, Hotel Tower 2, Lobby, Singapore 018956",
     "phone": "+6566888885",
     "website": "https://www.marinabaysands.com/restaurants/wakuda-singapore.html/?utm_source=google&utm_medium=gmb&utm_campaign=wakuda_info_main",
-    "description": "シンガポールのモダン日本料理レストランWakuda（ワクダ）。日本の食文化をベースにした創作料理を洗練されたスタイルで提供する和食ダイニング。",
+    "description": "シェフ和久田哲也によるモダン日本料理レストラン＆寿司バー。マリーナベイサンズで日本の四季と旬を表現するエレガントな空間。",
     "tags": [
       "日本食"
     ],
     "hours": "Monday: 11:30 AM – 12:00 AM / Tuesday: 11:30 AM – 12:00 AM / Wednesday: 11:30 AM – 12:00 AM / Thursday: 11:30 AM – 12:00 AM / Friday: 11:30 AM – 12:00 AM / Saturday: 11:30 AM – 12:00 AM / Sunday: 11:30 AM – 12:00 AM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJNQFdlZwZ2jERG1o6IeA2yTc",
@@ -30992,7 +31241,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "Marina Bay Sands内に位置するミシュランシェフ・和久田哲也による現代日本料理レストラン。フランス料理技法と日本の「旬」哲学を融合させた料理を提供。テンプラうどん（SGD68++）・和牛ビーフ丼セット（SGD98++）・ミソタラ（SGD86++）など100種類以上のメニュー。世界中から調達した上質な食材を使用。平均SGD40/品（++）。",
+    "detail": "Wakudaはシェフ和久田哲也がプロデュースするモダン日本料理レストランで、マリーナベイサンズのホテルタワー2ロビー階に位置する。「旬（しゅん）—旬の食材を最高の状態で楽しむ」という日本の哲学をフランス料理の技法で表現する独自のスタイルが特徴。寿司カウンターでは季節の鮮魚を使ったシェフおまかせの寿司体験を楽しめ、単品でもコースでもオーダー可能。週末ブランチ（SGD88++/人、3コース）も好評。メニューはフラン（エッグカスタード・SGD18）、スパイシーツナタルタル（SGD24）、ユバ（北海道ウニ＆山わさびキャビア・SGD38）など繊細な品々が揃う。同敷地内のWaku Ghinより比較的カジュアルに本格和食を楽しめると、在住日本人・外国人ビジネスパーソンに幅広く人気。要予約。",
     "menu": [
       {
         "name": "天ぷらうどん",
@@ -31015,7 +31264,15 @@
         "category": "うなぎ"
       }
     ],
-    "price_range": "SGD 40〜100++/品"
+    "price_range": "SGD 80-200/人",
+    "menu_highlights": [
+      "寿司カウンター体験",
+      "週末ブランチ",
+      "ユバ北海道ウニキャビア",
+      "モダン日本料理コース"
+    ],
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "wakuwaku-yakiniku-kampong-glam",
@@ -31025,7 +31282,7 @@
     "address": "27 Bali Lane, Singapore 189860",
     "phone": "+6562916891",
     "website": "https://wakuwaku.sg/",
-    "description": "カンポングラムのバリレーンに位置するシンガポール初のハラール認証焼肉店。ムスリムオーナーが運営し、日本式の本格焼肉をハラール対応で提供。",
+    "description": "シンガポール初のハラール認定焼肉店。バリ・レーンのキャンポン・グラムにあり、和牛やトリュフを使った本格焼肉を楽しめる。",
     "tags": [
       "焼肉",
       "ハラール",
@@ -31033,7 +31290,7 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "source": "website",
     "ai_reviewed": true,
     "phone_local": null,
@@ -31042,7 +31299,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "Bali Lane 27番地（Kampong Glam）に位置するシンガポール初のハラール認定焼肉店。豚肉不使用・ハラール認定の牛肉・羊肉・鶏肉を七輪で楽しむ本格焼肉。上カルビ（SGD18++）・牛タン（SGD15++）・牛丼（SGD13++）・海老味噌ラーメン（SGD13++）など。Bugis MRT徒歩圏内。",
+    "detail": "WakuWaku Yakinikuはシンガポール初のハラール認定焼肉レストランとして2019年に開業。ラッパーのシェイク・ハイケルとFatboy'sのBernie Tayが共同創業した話題の店で、ムスリムも安心して本格的な日本式焼肉を楽しめる。カルビ（SGD18〜）やビーフタン（SGD15〜）などの肉類のほか、トリュフ焼肉丼やエビ味噌ラーメン（SGD13）などユニークなメニューも人気。ハラールながら食材の質にこだわり、和牛カットも提供している。キャンポン・グラム（アラブ・ストリート周辺）というムスリム文化の中心地に位置するため、地元ムスリム客だけでなく観光客や外国人在住者にも広く支持されている。営業は日〜土の夕方（月曜定休）。グループでの訪問に最適。",
     "menu": [
       {
         "name": "上カルビ（プレミアムショートリブ）",
@@ -31075,34 +31332,15 @@
         "category": "焼肉"
       }
     ],
-    "price_range": "SGD 25〜40++/人"
-  },
-  {
-    "slug": "warung-boyan-kubur-cina",
-    "name": "Warung Boyan (Kubur Cina)",
-    "name_ja": "Warung Boyan Kubur Cina",
-    "area": "Singapore",
-    "address": "Jalan Pujaan, Taman Dato Onn, 80350 Johor Bahru, Johor Darul Ta'zim, Malaysia",
-    "phone": "+60167752166",
-    "website": "https://www.facebook.com/profile.php?id=285184848250709",
-    "description": "日本の料理とドリンクをカジュアルに楽しめる居酒屋。焼き鳥・刺身・揚げ物など多彩な居酒屋メニューと日本のドリンクを日本語スタッフが提供。",
-    "tags": [
-      "居酒屋",
-      "日本食",
-      "ドリンク"
+    "price_range": "SGD 25-40/人",
+    "menu_highlights": [
+      "ハラール認定",
+      "和牛焼肉",
+      "トリュフ焼肉丼",
+      "ビーフタン"
     ],
-    "hours": "Monday: 8:30 AM – 9:30 PM / Tuesday: 8:30 AM – 9:30 PM / Wednesday: 8:30 AM – 9:30 PM / Thursday: 8:30 AM – 9:30 PM / Friday: 8:30 AM – 9:30 PM / Saturday: 8:30 AM – 9:30 PM / Sunday: 8:30 AM – 9:30 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJh2l8ST9t2jER2HE9m_u5CAI",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "watami-bugis-plus",
@@ -31122,7 +31360,7 @@
     "hours": "毎日 11:30-22:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
@@ -31152,58 +31390,8 @@
         "category": "ラーメン"
       }
     ],
-    "detail": "Bugis+（201 Victoria Street, #04-05, Bugis+, Singapore 188067）に位置するWatamiの店舗。Bugis+・Downtown East・Junction 8・Mandai Wildlife EAST・The Star Vista・The Woodleigh Mallなど6店舗を展開する日本系カジュアルダイニング「和民」。ビーフ&サーモンイクラ石焼き・刺身盛り合わせ・串盛り合わせ・とんこつラーメン・和民サラダなど多彩なメニューを提供。カジュアルな集まりからビジネスランチまで対応可能。"
-  },
-  {
-    "slug": "watami-bugis-plus-izakaya",
-    "name": "Watami Bugis+",
-    "name_ja": "ワタミ Bugis+",
-    "area": "Bugis",
-    "address": "201 Victoria Street, Bugis+, Singapore 188067",
-    "phone": null,
-    "website": null,
-    "description": "Bugisエリアの日本式居酒屋Watami Bugis+。刺身、焼き物、揚げ物など多彩な一品料理と日本のドリンクを提供。",
-    "tags": [
-      "居酒屋",
-      "チェーン",
-      "飲み放題"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-28",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "watami-city-square-izakaya",
-    "name": "Watami City Square Mall",
-    "name_ja": "ワタミ City Square Mall",
-    "area": "Farrer Park",
-    "address": "180 Kitchener Road, City Square Mall, Singapore 208539",
-    "phone": null,
-    "website": null,
-    "description": "日本の居酒屋チェーン「和民」のシンガポール店舗。和食を中心とした多彩な料理とドリンクメニューを提供。飲み放題プランあり。",
-    "tags": [
-      "居酒屋",
-      "チェーン"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-28",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "detail": "Bugis+（201 Victoria Street, #04-05, Bugis+, Singapore 188067）に位置するWatamiの店舗。Bugis+・Downtown East・Junction 8・Mandai Wildlife EAST・The Star Vista・The Woodleigh Mallなど6店舗を展開する日本系カジュアルダイニング「和民」。ビーフ&サーモンイクラ石焼き・刺身盛り合わせ・串盛り合わせ・とんこつラーメン・和民サラダなど多彩なメニューを提供。カジュアルな集まりからビジネスランチまで対応可能。",
+    "spot_reviewed": true
   },
   {
     "slug": "watami-city-square-mall",
@@ -31223,7 +31411,7 @@
     "hours": "毎日 11:30-22:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
@@ -31231,7 +31419,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "Bugis+・Downtown East・Junction 8・Mandai Wildlife EAST・The Star Vista・The Woodleigh Mallなど6店舗を展開する日本系カジュアルダイニング「和民」。ビーフ&サーモンイクラ石焼き・刺身盛り合わせ・串盛り合わせ・とんこつラーメン・和民サラダなど多彩なメニューを提供。カジュアルな集まりからビジネスランチまで対応可能。",
+    "detail": "渡美（Watami）はアジア450店舗以上を展開する日本発の居酒屋チェーン。シンガポールには2009年から進出し、現在6店舗を運営している。メニューは弁当・寿司・唐揚げ・串焼き・天ぷら・鍋・焼き物など幅広く、ランチセットから飲み会ディナーまで対応。人気メニューには牛肉すき焼き鍋、渡美サラダ、明太ポテトピザ、チキンカツなどがある。オンライン予約（Inline経由）に対応し、グループ利用にも便利。営業時間は11am〜10pm（ラストオーダー9:30pm）。日本語メニューや日本語対応スタッフが常駐しており、在住日本人・日本から出張で訪れるビジネスパーソンにも親しまれているカジュアル居酒屋として人気が高い。シティ・スクエア・モール店は#03-53/55に位置し、ショッピング後のランチ・ディナーに便利。",
     "menu": [
       {
         "name": "ビーフ&サーモンイクラ石焼き",
@@ -31253,7 +31441,8 @@
         "price": "要確認",
         "category": "ラーメン"
       }
-    ]
+    ],
+    "spot_reviewed": true
   },
   {
     "slug": "watami-downtown-east",
@@ -31263,7 +31452,7 @@
     "address": "1 Pasir Ris Close, #02-104/105, E!Hub, Downtown East, Singapore 519599",
     "phone": null,
     "website": "https://www.watami.com.sg/",
-    "description": "日本の居酒屋チェーン「和民」のDowntown East店。E!Hub 2階にあり、定食・刺身・焼き物・鍋物など幅広い日本食をリーズナブルに提供。",
+    "description": "アジア450店舗展開の日本発居酒屋チェーン。E!HubダウンタウンイーストのカジュアルWatami。グループでの宴会に最適。",
     "tags": [
       "居酒屋",
       "チェーン",
@@ -31272,14 +31461,24 @@
     "hours": "毎日 11:30-22:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "渡美（Watami）はアジア450店舗以上を展開する日本発の居酒屋チェーン。シンガポールには2009年から進出し、現在6店舗を運営している。メニューは弁当・寿司・唐揚げ・串焼き・天ぷら・鍋・焼き物など幅広く、ランチセットから飲み会ディナーまで対応。人気メニューには牛肉すき焼き鍋、渡美サラダ、明太ポテトピザ、チキンカツなどがある。オンライン予約（Inline経由）に対応し、グループ利用にも便利。営業時間は11am〜10pm（ラストオーダー9:30pm）。日本語メニューや日本語対応スタッフが常駐しており、在住日本人・日本から出張で訪れるビジネスパーソンにも親しまれているカジュアル居酒屋として人気が高い。ダウンタウン・イースト（E!Hub）店はパシルリスエリアに位置し、家族連れや東部在住者に便利な立地。",
+    "price_range": "SGD 20-35/人",
+    "menu_highlights": [
+      "牛肉すき焼き鍋",
+      "渡美サラダ",
+      "明太ポテトピザ",
+      "チキンカツ"
+    ],
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "watami-junction-8",
@@ -31289,7 +31488,7 @@
     "address": "9 Bishan Place, #01-33, Junction 8, Singapore 579837",
     "phone": null,
     "website": "https://www.watami.com.sg/",
-    "description": "日本の居酒屋チェーン和民のJunction 8店。Bishanエリアで豊富な日本料理メニューとドリンクをカジュアルに楽しめる定食・居酒屋スタイル。",
+    "description": "アジア450店舗展開の日本発居酒屋チェーン。ジャンクション8のカジュアルWatami。ビシャン在住者に便利な立地。",
     "tags": [
       "日本料理",
       "居酒屋",
@@ -31299,7 +31498,7 @@
     "hours": "毎日 11:30-22:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
@@ -31307,7 +31506,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "日本の居酒屋チェーン・和民のシンガポール店。石焼ビビンバ・刺身盛り合わせ・焼き鳥・とんこつラーメンなど幅広い日本料理をカジュアルな雰囲気で提供。ビジネスランチからグループの宴会まで対応でき、Bugis+・Junction 8・The Star Vistaなどシンガポール各地に6店舗を展開している。",
+    "detail": "渡美（Watami）はアジア450店舗以上を展開する日本発の居酒屋チェーン。シンガポールには2009年から進出し、現在6店舗を運営している。メニューは弁当・寿司・唐揚げ・串焼き・天ぷら・鍋・焼き物など幅広く、ランチセットから飲み会ディナーまで対応。人気メニューには牛肉すき焼き鍋、渡美サラダ、明太ポテトピザ、チキンカツなどがある。オンライン予約（Inline経由）に対応し、グループ利用にも便利。営業時間は11am〜10pm（ラストオーダー9:30pm）。日本語メニューや日本語対応スタッフが常駐しており、在住日本人・日本から出張で訪れるビジネスパーソンにも親しまれているカジュアル居酒屋として人気が高い。ジャンクション8店は#01-33に位置し、ビシャン・マルチMRT周辺の日本人ファミリー層に広く利用されている。",
     "menu": [
       {
         "name": "石焼ビビンバ",
@@ -31329,32 +31528,16 @@
         "price": "SGD 12〜16",
         "category": "ラーメン"
       }
-    ]
-  },
-  {
-    "slug": "watami-junction-8-izakaya",
-    "name": "Watami Junction 8",
-    "name_ja": "ワタミ Junction 8",
-    "area": "Bishan",
-    "address": "9 Bishan Place, Junction 8, Singapore 579837",
-    "phone": null,
-    "website": null,
-    "description": "和民のジャンクション8店。居酒屋メニューと定食を提供。和食・居酒屋メニュー・定食を幅広く提供。飲み放題プランもあり、宴会にも対応。",
-    "tags": [
-      "居酒屋",
-      "チェーン"
     ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-28",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "price_range": "SGD 20-35/人",
+    "menu_highlights": [
+      "牛肉すき焼き鍋",
+      "渡美サラダ",
+      "明太ポテトピザ",
+      "チキンカツ"
+    ],
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "watami-nex",
@@ -31372,7 +31555,7 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "source": "google_maps",
     "ai_reviewed": true,
     "phone_local": null,
@@ -31403,7 +31586,8 @@
         "category": "ラーメン"
       }
     ],
-    "detail": "23 Serangoon Central, NEX, Singapore 556083に位置するWatamiの店舗。Bugis+・Downtown East・Junction 8・Mandai Wildlife EAST・The Star Vista・The Woodleigh Mallなど6店舗を展開する日本系カジュアルダイニング「和民」。ビーフ&サーモンイクラ石焼き・刺身盛り合わせ・串盛り合わせ・とんこつラーメン・和民サラダなど多彩なメニューを提供。カジュアルな集まりからビジネスランチまで対応可能。"
+    "detail": "23 Serangoon Central, NEX, Singapore 556083に位置するWatamiの店舗。Bugis+・Downtown East・Junction 8・Mandai Wildlife EAST・The Star Vista・The Woodleigh Mallなど6店舗を展開する日本系カジュアルダイニング「和民」。ビーフ&サーモンイクラ石焼き・刺身盛り合わせ・串盛り合わせ・とんこつラーメン・和民サラダなど多彩なメニューを提供。カジュアルな集まりからビジネスランチまで対応可能。",
+    "spot_reviewed": true
   },
   {
     "slug": "yaki-yaki-bo-nex",
@@ -31413,14 +31597,14 @@
     "address": "23 Serangoon Central, #B2-K11, NEX, Singapore 556083",
     "phone": null,
     "website": "https://res.com.sg/brands/yaki-yaki-bo/",
-    "description": "Serangoonエリアのお好み焼き専門店Yaki Yaki Bo NEX。鉄板で焼くお好み焼きと日本のドリンクを提供。",
+    "description": "NEXに位置する日本式焼肉・焼き鳥専門店。リーズナブルな価格でワイワイ楽しめるカジュアル焼肉が特徴。",
     "tags": [
       "お好み焼き",
       "たこ焼き",
       "焼きそば"
     ],
     "hours": "11:00-22:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -31430,7 +31614,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "NEX・Jurong Pointの2店舗を展開するカジュアルな鉄板焼きレストラン。シェフが目の前でお好み焼き・鉄板焼きそば・肉類・シーフードをライブで調理する楽しいダイニング体験が特徴。月〜日11:00〜22:00（ラストオーダー21:30）営業。",
+    "detail": "Yaki Yaki Bo（やきやきぼ）はNEXショッピングモールのフードコート近くに位置するカジュアルな日本式焼肉・焼き鳥店。日本の居酒屋スタイルを取り入れたフレンドリーな雰囲気の中で、串物・焼き鳥・焼肉などをリーズナブルに楽しめる。ファミリーやグループでの食事に適した広い席配置が特徴。セランゴーン中央部に位置するNEXはMRT直結で交通アクセスが良く、ショッピング後の夕食として利用しやすい。地元のシンガポール人在住者や日本人ファミリー層に幅広く親しまれている。焼き鳥のタレ・塩の食べ比べや、おろしポン酢の牛タンなどが人気。テイクアウトデリバリーにも対応。",
     "menu": [
       {
         "name": "お好み焼き",
@@ -31447,7 +31631,16 @@
         "price": "SGD 15〜25",
         "category": "鉄板"
       }
-    ]
+    ],
+    "price_range": "SGD 15-30/人",
+    "menu_highlights": [
+      "焼き鳥串",
+      "牛タン",
+      "焼肉セット",
+      "串焼き盛り合わせ"
+    ],
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "yakiniku-go-hougang-mall",
@@ -31465,7 +31658,7 @@
     ],
     "hours": "月〜金 11:30-22:00 / 土日 11:00-22:00",
     "status": "unverified",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "source": "website",
     "ai_reviewed": true,
     "phone_local": null,
@@ -31486,7 +31679,8 @@
         "category": "焼肉"
       }
     ],
-    "detail": "90 Hougang Avenue 10, #02-25, Hougang Mall, Singapore 538766に位置するYakiniku-GOの店舗。無煙グリルシステムを備えた手頃な価格の焼肉チェーン「Yakiniku-GO」のJEM店。日本人ヘッドシェフ厳選の日本和牛・各種牛肉カット・プレミアム欧州豚・鶏・シーフードを自分でグリルするスタイル。「ポケットフレンドリーなセットミール」が特徴で食後のBBQ臭を排除する排気システム搭載。Suntec Cityにはプレミアム「YAKINIKU-GO PLUS」出店。"
+    "detail": "90 Hougang Avenue 10, #02-25, Hougang Mall, Singapore 538766に位置するYakiniku-GOの店舗。無煙グリルシステムを備えた手頃な価格の焼肉チェーン「Yakiniku-GO」のJEM店。日本人ヘッドシェフ厳選の日本和牛・各種牛肉カット・プレミアム欧州豚・鶏・シーフードを自分でグリルするスタイル。「ポケットフレンドリーなセットミール」が特徴で食後のBBQ臭を排除する排気システム搭載。Suntec Cityにはプレミアム「YAKINIKU-GO PLUS」出店。",
+    "spot_reviewed": true
   },
   {
     "slug": "yakiniku-go-jem",
@@ -31504,7 +31698,7 @@
     ],
     "hours": "11:00-22:00",
     "status": "unverified",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "source": "website",
     "ai_reviewed": true,
     "phone_local": null,
@@ -31513,7 +31707,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "無煙グリルシステムを備えた手頃な価格の焼肉チェーン「Yakiniku-GO」のJEM店。日本人ヘッドシェフ厳選の日本和牛・各種牛肉カット・プレミアム欧州豚・鶏・シーフードを自分でグリルするスタイル。「ポケットフレンドリーなセットミール」が特徴で食後のBBQ臭を排除する排気システム搭載。Suntec Cityにはプレミアム「YAKINIKU-GO PLUS」出店。",
+    "detail": "Yakiniku-GO（焼肉GO）はシンガポール国内6〜7店舗を展開するカジュアル焼肉チェーン。電気式グリルで煙なしの快適な焼肉体験を提供し、セットメニューはSGD9.80〜とリーズナブル。シグネチャーYakiniku-Goセット（SGD15.80）はビーフショートプレート・リブアイ・牛タンのセットでご飯・スープ・サラダorキムチ付き。個人から家族・グループまで幅広く対応したカジュアルな雰囲気で、ランチからディナーまで通して営業。日本の焼肉文化をリーズナブルに楽しめると在住外国人・シンガポール人双方から人気を集めている。JEM店はジュロン・イースト駅直結のJEM内#B1-49に位置し、ジュロン西部の住民や週末のショッピング客に便利。",
     "menu": [
       {
         "name": "和牛各種（アラカルト/セット）",
@@ -31525,7 +31719,8 @@
         "price": "要確認",
         "category": "焼肉"
       }
-    ]
+    ],
+    "spot_reviewed": true
   },
   {
     "slug": "yakiniku-go-jurong-point",
@@ -31543,7 +31738,7 @@
     ],
     "hours": "11:00-22:00",
     "status": "unverified",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "source": "website",
     "ai_reviewed": true,
     "phone_local": null,
@@ -31552,7 +31747,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "「素早く手軽な焼肉」を提供するYakiniku-GOのJurong Point店。日本人総料理長が厳選した和牛・牛肉・ヨーロッパ豚・鶏肉・シーフードをセットメール形式で提供。電気グリルに内蔵された排気システムで煙なしの食事体験が可能。Suntec Cityにはアップグレード版「Yakiniku-GO Plus」も展開。",
+    "detail": "Yakiniku-GO（焼肉GO）はシンガポール国内6〜7店舗を展開するカジュアル焼肉チェーン。電気式グリルで煙なしの快適な焼肉体験を提供し、セットメニューはSGD9.80〜とリーズナブル。シグネチャーYakiniku-Goセット（SGD15.80）はビーフショートプレート・リブアイ・牛タンのセットでご飯・スープ・サラダorキムチ付き。個人から家族・グループまで幅広く対応したカジュアルな雰囲気で、ランチからディナーまで通して営業。日本の焼肉文化をリーズナブルに楽しめると在住外国人・シンガポール人双方から人気を集めている。ジュロン・ポイント店は#B1-55に位置し、ジュロン西部の住民やウェストゲートエリアでの食事に便利なロケーション。",
     "menu": [
       {
         "name": "焼肉セット各種",
@@ -31564,7 +31759,8 @@
         "price": "SGD 30〜55",
         "category": "和牛"
       }
-    ]
+    ],
+    "spot_reviewed": true
   },
   {
     "slug": "yakiniku-go-parkway-parade",
@@ -31582,7 +31778,7 @@
     ],
     "hours": "11:00-22:00",
     "status": "unverified",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "source": "website",
     "ai_reviewed": true,
     "phone_local": null,
@@ -31603,7 +31799,8 @@
         "category": "焼肉"
       }
     ],
-    "detail": "80 Marine Parade Road, #B1-84B, Parkway Parade, Singapore 449269に位置するYakiniku-GOの店舗。無煙グリルシステムを備えた手頃な価格の焼肉チェーン「Yakiniku-GO」のJEM店。日本人ヘッドシェフ厳選の日本和牛・各種牛肉カット・プレミアム欧州豚・鶏・シーフードを自分でグリルするスタイル。「ポケットフレンドリーなセットミール」が特徴で食後のBBQ臭を排除する排気システム搭載。Suntec Cityにはプレミアム「YAKINIKU-GO PLUS」出店。"
+    "detail": "80 Marine Parade Road, #B1-84B, Parkway Parade, Singapore 449269に位置するYakiniku-GOの店舗。無煙グリルシステムを備えた手頃な価格の焼肉チェーン「Yakiniku-GO」のJEM店。日本人ヘッドシェフ厳選の日本和牛・各種牛肉カット・プレミアム欧州豚・鶏・シーフードを自分でグリルするスタイル。「ポケットフレンドリーなセットミール」が特徴で食後のBBQ臭を排除する排気システム搭載。Suntec Cityにはプレミアム「YAKINIKU-GO PLUS」出店。",
+    "spot_reviewed": true
   },
   {
     "slug": "yakiniku-go-seletar-mall",
@@ -31621,7 +31818,7 @@
     ],
     "hours": "月〜金 11:30-22:00 / 土日 11:00-22:00",
     "status": "unverified",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "source": "website",
     "ai_reviewed": true,
     "phone_local": null,
@@ -31642,7 +31839,8 @@
         "category": "焼肉"
       }
     ],
-    "detail": "33 Sengkang West Avenue, #01-49/50/51/52/53, The Seletar Mall, Singapore 797653に位置するYakiniku-GOの店舗。無煙グリルシステムを備えた手頃な価格の焼肉チェーン「Yakiniku-GO」のJEM店。日本人ヘッドシェフ厳選の日本和牛・各種牛肉カット・プレミアム欧州豚・鶏・シーフードを自分でグリルするスタイル。「ポケットフレンドリーなセットミール」が特徴で食後のBBQ臭を排除する排気システム搭載。Suntec Cityにはプレミアム「YAKINIKU-GO PLUS」出店。"
+    "detail": "33 Sengkang West Avenue, #01-49/50/51/52/53, The Seletar Mall, Singapore 797653に位置するYakiniku-GOの店舗。無煙グリルシステムを備えた手頃な価格の焼肉チェーン「Yakiniku-GO」のJEM店。日本人ヘッドシェフ厳選の日本和牛・各種牛肉カット・プレミアム欧州豚・鶏・シーフードを自分でグリルするスタイル。「ポケットフレンドリーなセットミール」が特徴で食後のBBQ臭を排除する排気システム搭載。Suntec Cityにはプレミアム「YAKINIKU-GO PLUS」出店。",
+    "spot_reviewed": true
   },
   {
     "slug": "yakiniku-go-suntec-city",
@@ -31661,7 +31859,7 @@
     ],
     "hours": "月〜金 11:30-22:00 / 土日 11:00-22:00",
     "status": "unverified",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "source": "website",
     "ai_reviewed": true,
     "phone_local": null,
@@ -31682,7 +31880,8 @@
         "category": "焼肉"
       }
     ],
-    "detail": "3 Temasek Boulevard, #01-353/354, Suntec City, Singapore 038983に位置するYakiniku-GOの店舗。無煙グリルシステムを備えた手頃な価格の焼肉チェーン「Yakiniku-GO」のJEM店。日本人ヘッドシェフ厳選の日本和牛・各種牛肉カット・プレミアム欧州豚・鶏・シーフードを自分でグリルするスタイル。「ポケットフレンドリーなセットミール」が特徴で食後のBBQ臭を排除する排気システム搭載。Suntec Cityにはプレミアム「YAKINIKU-GO PLUS」出店。"
+    "detail": "3 Temasek Boulevard, #01-353/354, Suntec City, Singapore 038983に位置するYakiniku-GOの店舗。無煙グリルシステムを備えた手頃な価格の焼肉チェーン「Yakiniku-GO」のJEM店。日本人ヘッドシェフ厳選の日本和牛・各種牛肉カット・プレミアム欧州豚・鶏・シーフードを自分でグリルするスタイル。「ポケットフレンドリーなセットミール」が特徴で食後のBBQ臭を排除する排気システム搭載。Suntec Cityにはプレミアム「YAKINIKU-GO PLUS」出店。",
+    "spot_reviewed": true
   },
   {
     "slug": "yakiniku-gyubei-100am",
@@ -31692,7 +31891,7 @@
     "address": "100 Tras Street, #03-10, 100AM, Singapore 079027",
     "phone": null,
     "website": null,
-    "description": "日本発の焼肉チェーン。海外初出店。鹿児島産薩摩和牛を使用し、一頭買いによる希少部位も提供。ランチセットは13.90ドルから。",
+    "description": "日本発の頭から尾まで全24部位を楽しむ本格和牛焼肉。1999年千葉創業、海外初出店がシンガポール100AMの話題店。",
     "tags": [
       "焼肉",
       "和牛",
@@ -31701,7 +31900,7 @@
     ],
     "hours": "Daily 11:00-15:00, 18:00-22:00",
     "status": "unverified",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "source": "website",
     "ai_reviewed": true,
     "phone_local": null,
@@ -31709,7 +31908,17 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Yakiniku Gyubei（焼肉牛兵衛）は1999年千葉創業の日本の焼肉チェーンで、2024年12月にシンガポール初の海外展開としてタンジョン・パガーの100AMモールに出店。ノーズ・トゥ・テール（頭から尾まで）の哲学のもと、九州産の倫理的に飼育された和牛から24種の部位を提供する。サーロイン・肩肉といった定番から、シャトーブリアン（ヒレの一部）、内もも、牛タン、大腸など希少部位まで幅広くラインナップ。ランチセットはSGD13.90〜で、シグネチャー昼膳（SGD33.90）は赤身・和牛カルビ・その日の特選部位が付く。オマカセコース2人前はランチSGD100・ディナーSGD125。石焼きビビンバ（SGD12.90）などのサイドメニューも充実。在住日本人や和牛愛好家から高い評価を獲得している。",
+    "price_range": "SGD 30-80/人",
+    "menu_highlights": [
+      "24部位の和牛焼肉",
+      "オマカセコース",
+      "シグネチャー昼膳",
+      "石焼きビビンバ"
+    ],
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "yakiniku-like-313somerset",
@@ -31719,7 +31928,7 @@
     "address": "313 Orchard Road, 313@Somerset, Singapore 238895",
     "phone": null,
     "website": null,
-    "description": "日本発の一人焼肉チェーン焼肉ライクのOrchardエリア店。Somerset MRT駅直結の313@Somerset内で一人焼肉を楽しめる。",
+    "description": "一人焼肉専門の日本発カジュアル焼肉チェーン。313@サマセット店は個人用グリルでひとりでも気軽に楽しめる。",
     "tags": [
       "焼肉",
       "一人焼肉",
@@ -31729,14 +31938,24 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Yakiniku Like（焼肉ライク）は「一人焼肉」を専門とした日本発のカジュアル焼肉チェーン。個人用グリルが各席に設置されており、一人でも気兼ねなく焼肉を楽しめる革新的なコンセプトで人気。注文から3分以内の提供を目標とし、ランチタイムのひとり食事にも最適。セットメニューはSGD8.80〜と手頃な価格で、ご飯・スープ・キムチorサラダが付く。カルビセット・プレミアム牛タン・ロース等が人気で、ミニカレーコンボ（SGD17.80〜）も充実。シンガポール国内に9店舗以上を展開。313@サマセット店はオーチャード・ロードのショッピングモール内に位置し、ショッピング後の気軽な食事やひとりランチに便利。",
+    "price_range": "SGD 12-25/人",
+    "menu_highlights": [
+      "カルビセット",
+      "プレミアム牛タン",
+      "ロースセット",
+      "ミニカレーコンボ"
+    ],
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "yakiniku-like-amk-hub",
@@ -31752,7 +31971,7 @@
       "日本食"
     ],
     "hours": "Monday: 11:00 AM – 10:00 PM / Tuesday: 11:00 AM – 10:00 PM / Wednesday: 11:00 AM – 10:00 PM / Thursday: 11:00 AM – 10:00 PM / Friday: 11:00 AM – 10:00 PM / Saturday: 11:00 AM – 10:00 PM / Sunday: 11:00 AM – 10:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJl9YmekwX2jERFIbJV55zDSI",
@@ -31763,7 +31982,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "AMK Hub（#B1-21、Ang Mo Kio）に位置する一人焼肉専門チェーン「焼肉ライク」。個人用無煙グリルで手軽に焼肉を楽しめる。看板のカルビセット（ライス200g・サラダ付き）がSGD7.80〜。月〜日11時〜22時営業。",
+    "detail": "Yakiniku Like（焼肉ライク）は「一人焼肉」を専門とした日本発のカジュアル焼肉チェーン。個人用グリルが各席に設置されており、一人でも気兼ねなく焼肉を楽しめる革新的なコンセプトで人気。注文から3分以内の提供を目標とし、ランチタイムのひとり食事にも最適。セットメニューはSGD8.80〜と手頃な価格で、ご飯・スープ・キムチorサラダが付く。カルビセット・プレミアム牛タン・ロース等が人気で、ミニカレーコンボ（SGD17.80〜）も充実。シンガポール国内に9店舗以上を展開。アンモキオハブ（AMK Hub）店はB1の#21に位置し、北部エリアの在住者のランチ・ディナーに便利。",
     "menu": [
       {
         "name": "カルビセット（ライス・味噌汁・サラダ付き）",
@@ -31776,7 +31995,8 @@
         "category": "セット"
       }
     ],
-    "price_range": "SGD 10〜25/人"
+    "price_range": "SGD 10〜25/人",
+    "spot_reviewed": true
   },
   {
     "slug": "yakiniku-like-bedok",
@@ -31786,7 +32006,7 @@
     "address": "311 New Upper Changi Road, Bedok Mall, Singapore 467360",
     "phone": null,
     "website": null,
-    "description": "日本発の一人焼肉チェーン焼肉ライクのBedok Mall店。東部エリアで一人専用ロースターを使い、リーズナブルに焼肉を楽しめる。",
+    "description": "一人焼肉専門の日本発カジュアル焼肉チェーン。ベドック・モール店は東部エリアのショッピング客・在住者に人気。",
     "tags": [
       "焼肉",
       "一人焼肉",
@@ -31794,7 +32014,7 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "source": "google_maps",
     "ai_reviewed": true,
     "phone_local": null,
@@ -31802,7 +32022,17 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Yakiniku Like（焼肉ライク）は「一人焼肉」を専門とした日本発のカジュアル焼肉チェーン。個人用グリルが各席に設置されており、一人でも気兼ねなく焼肉を楽しめる革新的なコンセプトで人気。注文から3分以内の提供を目標とし、ランチタイムのひとり食事にも最適。セットメニューはSGD8.80〜と手頃な価格で、ご飯・スープ・キムチorサラダが付く。カルビセット・プレミアム牛タン・ロース等が人気で、ミニカレーコンボ（SGD17.80〜）も充実。シンガポール国内に9店舗以上を展開。ベドック・モール店はニュー・アッパー・チャンギ・ロードに位置し、チャンギ・ベドックエリアの在住者が気軽に利用できる。",
+    "price_range": "SGD 12-25/人",
+    "menu_highlights": [
+      "カルビセット",
+      "プレミアム牛タン",
+      "ロースセット",
+      "ミニカレーコンボ"
+    ],
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "yakiniku-like-clementi",
@@ -31812,7 +32042,7 @@
     "address": "3155 Commonwealth Avenue West, #05-35/37, The Clementi Mall, Singapore 129588",
     "phone": null,
     "website": null,
-    "description": "日本発の一人焼肉チェーン焼肉ライクのClementi Mall店。西部エリアで一人用ロースターを使い、リーズナブルに焼肉を楽しめる。",
+    "description": "一人焼肉専門の日本発カジュアル焼肉チェーン。クレメンティ・モール店は西部エリアの在住者に便利なロケーション。",
     "tags": [
       "焼肉",
       "一人焼肉",
@@ -31822,14 +32052,24 @@
     "hours": "毎日 11:00-21:30",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Yakiniku Like（焼肉ライク）は「一人焼肉」を専門とした日本発のカジュアル焼肉チェーン。個人用グリルが各席に設置されており、一人でも気兼ねなく焼肉を楽しめる革新的なコンセプトで人気。注文から3分以内の提供を目標とし、ランチタイムのひとり食事にも最適。セットメニューはSGD8.80〜と手頃な価格で、ご飯・スープ・キムチorサラダが付く。カルビセット・プレミアム牛タン・ロース等が人気で、ミニカレーコンボ（SGD17.80〜）も充実。シンガポール国内に9店舗以上を展開。ザ・クレメンティ・モール（#05-35/37）店は西部エリアに位置し、NUS近くの学生・在住者にも利用しやすい立地。",
+    "price_range": "SGD 12-25/人",
+    "menu_highlights": [
+      "カルビセット",
+      "プレミアム牛タン",
+      "ロースセット",
+      "ミニカレーコンボ"
+    ],
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "yakiniku-like-junction-8",
@@ -31845,7 +32085,7 @@
       "日本食"
     ],
     "hours": "Monday: 11:00 AM – 10:00 PM / Tuesday: 11:00 AM – 10:00 PM / Wednesday: 11:00 AM – 10:00 PM / Thursday: 11:00 AM – 10:00 PM / Friday: 11:00 AM – 10:00 PM / Saturday: 11:00 AM – 10:00 PM / Sunday: 11:00 AM – 10:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJrQ9LHRgX2jERwKn9nfhPkA4",
@@ -31856,7 +32096,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "Junction 8（#01-40、Bishan）に位置する一人焼肉専門チェーン「焼肉ライク」。個人用無煙グリル×スピーディーな提供が特徴で、カルビセット（ライス・味噌汁・サラダ付き）がSGD7.80〜。牛カルビ・豚トロ・ハラミ・すき焼きカルビなど豊富なラインアップ。月〜日11時〜22時。学生は平日13時〜17時に割引あり。",
+    "detail": "Yakiniku Like（焼肉ライク）は「一人焼肉」を専門とした日本発のカジュアル焼肉チェーン。個人用グリルが各席に設置されており、一人でも気兼ねなく焼肉を楽しめる革新的なコンセプトで人気。注文から3分以内の提供を目標とし、ランチタイムのひとり食事にも最適。セットメニューはSGD8.80〜と手頃な価格で、ご飯・スープ・キムチorサラダが付く。カルビセット・プレミアム牛タン・ロース等が人気で、ミニカレーコンボ（SGD17.80〜）も充実。シンガポール国内に9店舗以上を展開。ジャンクション8（#01-40）店はビシャンのMRT直結モール内に位置し、北部エリアの在住者・ファミリー層に便利。",
     "menu": [
       {
         "name": "カルビセット（ライス・味噌汁・サラダ付き）",
@@ -31869,7 +32109,8 @@
         "category": "セット"
       }
     ],
-    "price_range": "SGD 10〜25/人"
+    "price_range": "SGD 10〜25/人",
+    "spot_reviewed": true
   },
   {
     "slug": "yakiniku-like-nex",
@@ -31879,7 +32120,7 @@
     "address": "23 Serangoon Central, NEX, Singapore 556083",
     "phone": null,
     "website": null,
-    "description": "日本発の一人焼肉チェーン「焼肉ライク」のシンガポール店舗。1人1台のロースターで手軽に焼肉を楽しめる。注文から提供まで約3分のファストフード型焼肉。",
+    "description": "一人焼肉専門の日本発カジュアル焼肉チェーン。NEX店はセランゴーン・セントラルの大型モール内に位置。",
     "tags": [
       "焼肉",
       "一人焼肉",
@@ -31887,7 +32128,7 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "source": "google_maps",
     "ai_reviewed": true,
     "phone_local": null,
@@ -31895,7 +32136,17 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Yakiniku Like（焼肉ライク）は「一人焼肉」を専門とした日本発のカジュアル焼肉チェーン。個人用グリルが各席に設置されており、一人でも気兼ねなく焼肉を楽しめる革新的なコンセプトで人気。注文から3分以内の提供を目標とし、ランチタイムのひとり食事にも最適。セットメニューはSGD8.80〜と手頃な価格で、ご飯・スープ・キムチorサラダが付く。カルビセット・プレミアム牛タン・ロース等が人気で、ミニカレーコンボ（SGD17.80〜）も充実。シンガポール国内に9店舗以上を展開。NEX店はセランゴーン・セントラルのMRT直結ショッピングモール内に位置し、周辺在住者やショッピング後の食事に便利。",
+    "price_range": "SGD 12-25/人",
+    "menu_highlights": [
+      "カルビセット",
+      "プレミアム牛タン",
+      "ロースセット",
+      "ミニカレーコンボ"
+    ],
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "yakiniku-like-suntec",
@@ -31905,7 +32156,7 @@
     "address": "3 Temasek Boulevard, #02-603/604, Suntec City Mall, Singapore 038983",
     "phone": null,
     "website": null,
-    "description": "日本発の一人焼肉チェーン焼肉ライクのSuntec City店。個人専用無煙ロースターで一人でも気軽に焼肉が楽しめる。Marina Centreエリア。",
+    "description": "一人焼肉専門の日本発カジュアル焼肉チェーン。サンテック・シティ店はシティホール周辺の好立地でランチに最適。",
     "tags": [
       "焼肉",
       "一人焼肉",
@@ -31914,14 +32165,24 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Yakiniku Like（焼肉ライク）は「一人焼肉」を専門とした日本発のカジュアル焼肉チェーン。個人用グリルが各席に設置されており、一人でも気兼ねなく焼肉を楽しめる革新的なコンセプトで人気。注文から3分以内の提供を目標とし、ランチタイムのひとり食事にも最適。セットメニューはSGD8.80〜と手頃な価格で、ご飯・スープ・キムチorサラダが付く。カルビセット・プレミアム牛タン・ロース等が人気で、ミニカレーコンボ（SGD17.80〜）も充実。シンガポール国内に9店舗以上を展開。サンテック・シティ（#02-603/604）店はビジネス街に近く、ランチタイムのサラリーマン・一人食事需要を取り込んでいる。",
+    "price_range": "SGD 12-25/人",
+    "menu_highlights": [
+      "カルビセット",
+      "プレミアム牛タン",
+      "ロースセット",
+      "ミニカレーコンボ"
+    ],
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "yakiniku-like-tampines",
@@ -31931,7 +32192,7 @@
     "address": "Tampines, Singapore",
     "phone": null,
     "website": null,
-    "description": "日本発の一人焼肉チェーン「焼肉ライク」のシンガポール店舗。1人1台のロースターで手軽に焼肉を楽しめる。注文から提供まで約3分のファストフード型焼肉。",
+    "description": "一人焼肉専門の日本発カジュアル焼肉チェーン。タンピネス店は東部エリアの在住者に便利なロケーション。",
     "tags": [
       "焼肉",
       "一人焼肉",
@@ -31939,7 +32200,7 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "source": "google_maps",
     "ai_reviewed": true,
     "phone_local": null,
@@ -31947,7 +32208,17 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Yakiniku Like（焼肉ライク）は「一人焼肉」を専門とした日本発のカジュアル焼肉チェーン。個人用グリルが各席に設置されており、一人でも気兼ねなく焼肉を楽しめる革新的なコンセプトで人気。注文から3分以内の提供を目標とし、ランチタイムのひとり食事にも最適。セットメニューはSGD8.80〜と手頃な価格で、ご飯・スープ・キムチorサラダが付く。カルビセット・プレミアム牛タン・ロース等が人気で、ミニカレーコンボ（SGD17.80〜）も充実。シンガポール国内に9店舗以上を展開。タンピネス店はシンガポール東部のタンピネスエリアに位置し、東部在住者が気軽にひとり焼肉を楽しめる。",
+    "price_range": "SGD 12-25/人",
+    "menu_highlights": [
+      "カルビセット",
+      "プレミアム牛タン",
+      "ロースセット",
+      "ミニカレーコンボ"
+    ],
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "yakiniku-like-vivocity",
@@ -31957,7 +32228,7 @@
     "address": "1 HarbourFront Walk, #02-60, VivoCity, Singapore 098585",
     "phone": null,
     "website": null,
-    "description": "一人焼肉を気軽に楽しめる日本発のファストフード焼肉チェーン。一人用ロースターで好きなペースで焼ける。VivoCity店は世界展開の一環。",
+    "description": "一人焼肉専門の日本発カジュアル焼肉チェーン。ビボシティ店はハーバーフロント・ウォーターフロントに位置。",
     "tags": [
       "焼肉",
       "一人焼肉",
@@ -31967,14 +32238,24 @@
     "hours": "毎日 11:00-21:30",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Yakiniku Like（焼肉ライク）は「一人焼肉」を専門とした日本発のカジュアル焼肉チェーン。個人用グリルが各席に設置されており、一人でも気兼ねなく焼肉を楽しめる革新的なコンセプトで人気。注文から3分以内の提供を目標とし、ランチタイムのひとり食事にも最適。セットメニューはSGD8.80〜と手頃な価格で、ご飯・スープ・キムチorサラダが付く。カルビセット・プレミアム牛タン・ロース等が人気で、ミニカレーコンボ（SGD17.80〜）も充実。シンガポール国内に9店舗以上を展開。ビボシティ（#02-60）店はハーバーフロント・ウォーターフロントの最大規模ショッピングモール内に位置し、センターサウスエリアで人気。",
+    "price_range": "SGD 12-25/人",
+    "menu_highlights": [
+      "カルビセット",
+      "プレミアム牛タン",
+      "ロースセット",
+      "ミニカレーコンボ"
+    ],
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "yakiniku-like-westgate",
@@ -31984,7 +32265,7 @@
     "address": "3 Gateway Drive, Westgate, Singapore 608532",
     "phone": null,
     "website": null,
-    "description": "一人焼肉専門チェーンのWestgate店。Jurong East MRT駅に隣接するモール内。西部エリアの居住者に便利。",
+    "description": "一人焼肉専門の日本発カジュアル焼肉チェーン。ウェストゲート店はジュロン・イーストのモール内に位置。",
     "tags": [
       "焼肉",
       "一人焼肉",
@@ -31994,14 +32275,24 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Yakiniku Like（焼肉ライク）は「一人焼肉」を専門とした日本発のカジュアル焼肉チェーン。個人用グリルが各席に設置されており、一人でも気兼ねなく焼肉を楽しめる革新的なコンセプトで人気。注文から3分以内の提供を目標とし、ランチタイムのひとり食事にも最適。セットメニューはSGD8.80〜と手頃な価格で、ご飯・スープ・キムチorサラダが付く。カルビセット・プレミアム牛タン・ロース等が人気で、ミニカレーコンボ（SGD17.80〜）も充実。シンガポール国内に9店舗以上を展開。ウェストゲート店はジュロン・イースト地区に位置し、西部エリアの在住者や週末のショッピング客に便利。",
+    "price_range": "SGD 12-25/人",
+    "menu_highlights": [
+      "カルビセット",
+      "プレミアム牛タン",
+      "ロースセット",
+      "ミニカレーコンボ"
+    ],
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "yakiniku-oh-cuppage",
@@ -32011,7 +32302,7 @@
     "address": "5 Koek Road, #01-07/12/13/14, Cuppage Plaza, Singapore 228796",
     "phone": "+6567331248",
     "website": null,
-    "description": "Cuppage Plaza内のA4和牛焼肉専門店。日本から直輸入した和牛を使った焼肉ビュッフェ・しゃぶしゃぶビュッフェを提供。",
+    "description": "カッパッジ・プラザで楽しめるA4和牛専門焼肉店。食べ放題プランや単品メニューが充実し、VIP個室も完備。",
     "tags": [
       "焼肉",
       "和牛",
@@ -32020,42 +32311,24 @@
     "hours": "毎日 12:00-24:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "yakiniku-oh-cuppage-restaurant",
-    "name": "Yakiniku-Oh",
-    "name_ja": "焼肉-Oh",
-    "area": "Orchard",
-    "address": "5 Koek Road, #01-07/12/13/14, Cuppage Plaza, Singapore 228796",
-    "phone": "+6567331248",
-    "website": null,
-    "description": "カッページプラザの焼肉レストラン。A4和牛ビュッフェとしゃぶしゃぶビュッフェの両方を提供。VIPルームあり。深夜12時まで営業。",
-    "tags": [
-      "焼肉",
-      "和牛",
-      "ビュッフェ",
-      "しゃぶしゃぶ",
-      "深夜営業"
+    "photo_name": null,
+    "detail": "Yakiniku-Oh（焼肉王）はカッパッジ・プラザ（#01-07/12/13/14）に位置するA4和牛専門の焼肉レストラン。日本から空輸されるA4ランクの和牛を使った焼肉バフェ（平日SGD67++/週末SGD70++、120分・最低2名〜）が看板メニュー。しゃぶしゃぶ鍋バフェ（SGD39.90〜）も選べ、追加料金でドリンクバフェも付けられる。アラカルトでは3種ビーフ盛り合わせ（SGD24.80、カルビ・サーロイン・ハラミ各100g）やスキ焼肉シリーズ（SGD9.80〜）が人気。VIPプライベートルームもあり接待・記念日に最適。カッパッジ・プラザはオーチャード・ロード近くの居酒屋密集エリアで、夜遅くまで（月〜金は深夜0時まで）賑わう。在住日本人の宴会でも人気が高い。",
+    "price_range": "SGD 40-80/人",
+    "menu_highlights": [
+      "A4和牛食べ放題",
+      "しゃぶしゃぶ鍋バフェ",
+      "3種ビーフ盛り合わせ",
+      "VIPプライベートルーム"
     ],
-    "hours": "12:00-24:00",
-    "status": "unverified",
-    "last_verified": "2026-03-28",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "yakiniku-warrior-geylang",
@@ -32065,7 +32338,7 @@
     "address": "121 Geylang East Central, #01-90, Singapore 380121",
     "phone": null,
     "website": null,
-    "description": "Aljuniedのコーヒーショップ内にある格安焼肉店。チキンセットS$6から和牛ステーキS$18まで深夜12時まで営業する庶民派の焼肉スポット。",
+    "description": "コーヒーショップ内のカジュアル焼肉スタンド。ゲイラン・イーストのローカルスタイルで、リーズナブルな焼肉セットが人気。",
     "tags": [
       "焼肉",
       "コーヒーショップ",
@@ -32073,7 +32346,7 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "source": "website",
     "ai_reviewed": true,
     "phone_local": null,
@@ -32081,34 +32354,17 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "yakinikuoh-cuppage-plaza",
-    "name": "Yakinikuoh Cuppage Plaza",
-    "name_ja": "Yakinikuoh Cuppage Plaza",
-    "area": "Singapore",
-    "address": "5 Koek Rd, #01-07/12,13,14, Singapore 228796",
-    "phone": "+6567331248",
-    "website": "https://eats.oddle.me/menus/yakiniku-oh",
-    "description": "Cuppage Plaza（#01-07）のYakinikuoh。日本式焼肉と居酒屋メニュー・ドリンクをカジュアルに楽しめる日本語スタッフ在籍の本格焼肉店。",
-    "tags": [
-      "居酒屋",
-      "日本食",
-      "ドリンク"
+    "photo_name": null,
+    "detail": "Yakiniku Warriorはゲイラン・イースト・セントラルのコーヒーショップ（#01-90）内に構えるシンガポール初のコーヒーショップ式焼肉スタンド。テーブルに設置された携帯式グリルで、注文した生肉を自分で焼くスタイル。カルビセット（SGD7、米国産ショートプレート100g）やグレードAプレミアムカルビ（SGD15）、和牛ステーキ（SGD18/120g）など手頃な価格でリーズナブルに楽しめる。鶏肉セットはSGD6〜と超リーズナブル。全セットにご飯と野菜が付属。月・水・金〜日の夕方6時〜深夜11時半まで営業（火・木定休）。ゲイラン東部エリアの地元住民や深夜食として利用するシンガポーリアンに人気のカジュアルな焼肉体験。",
+    "price_range": "SGD 6-20/人",
+    "menu_highlights": [
+      "カルビセット",
+      "和牛ステーキ",
+      "チキンセット",
+      "コーヒーショップスタイル"
     ],
-    "hours": "Monday: 12:00 – 3:00 PM, 5:00 PM – 12:00 AM / Tuesday: 12:00 – 3:00 PM, 5:00 PM – 12:00 AM / Wednesday: 12:00 – 3:00 PM, 5:00 PM – 12:00 AM / Thursday: 12:00 – 3:00 PM, 5:00 PM – 12:00 AM / Friday: 12:00 – 3:00 PM, 5:00 PM – 12:00 AM / Saturday: 12:00 PM – 12:00 AM / Sunday: 12:00 – 11:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJYTMz65YZ2jER2H6TtbeugAw",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "yakiniquest-mandarin-gallery",

@@ -332,6 +332,37 @@ export function getGroupCounts(countryCode: string): Record<string, number> {
   return groupCounts;
 }
 
+// needs_review スポットを全国・全カテゴリから取得（/review ページ用）
+export function getNeedsReviewSpots(): Array<
+  Spot & { country: string; category: string; review_note?: string; japanese_staff?: boolean | null }
+> {
+  const fs2 = require("fs") as typeof fs;
+  const results: Array<Spot & { country: string; category: string; review_note?: string; japanese_staff?: boolean | null }> = [];
+
+  if (!fs2.existsSync(directoryDir)) return results;
+
+  const countries = fs2.readdirSync(directoryDir).filter((d: string) =>
+    fs2.statSync(path.join(directoryDir, d)).isDirectory()
+  );
+
+  for (const country of countries) {
+    const countryDir = path.join(directoryDir, country);
+    const files = fs2.readdirSync(countryDir).filter((f: string) => f.endsWith(".json"));
+    for (const file of files) {
+      const category = file.replace(".json", "");
+      const raw = fs2.readFileSync(path.join(countryDir, file), "utf-8");
+      const spots = JSON.parse(raw) as Array<Spot & { review_note?: string; japanese_staff?: boolean | null }>;
+      for (const spot of spots) {
+        if (spot.needs_review) {
+          results.push({ ...spot, country, category });
+        }
+      }
+    }
+  }
+
+  return results;
+}
+
 // 国ごとの全スポットを取得（sitemap用）
 export function getAllSpots(
   countryCode: string,
