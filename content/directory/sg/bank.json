@@ -2,21 +2,26 @@
   {
     "slug": "credit-suisse-ag-singapore-branch",
     "name": "Credit Suisse AG, Singapore Branch",
-    "name_ja": "クレディ・スイス",
-    "area": "Tanjong Pagar",
+    "name_ja": "クレディ・スイス シンガポール支店",
+    "area": "Raffles Place",
     "address": "1 Raffles Place, #18-00, Singapore 048616",
     "phone": null,
-    "website": "https://www.credit-suisse.com/sg/en.html",
-    "description": "スイス系プライベートバンクのシンガポール支店。Raffles Place所在。資産規模の大きい富裕層・日系機関投資家向けのウェルスマネジメント・投資銀行サービスを提供。2023年UBSに統合。",
+    "website": "https://www.ubs.com/sg/en.html",
+    "description": "スイス系プライベートバンク。2023年にUBSが買収し2024年5月に法人統合完了。公式サイトはUBS Singaporeにリダイレクト済み。日本人富裕層・機関投資家向けのウェルスマネジメント業務はUBSシンガポールに引き継がれている。",
+    "detail": "クレディ・スイスはスイスの大手金融グループで、シンガポールにもプライベートバンキング・ウェルスマネジメント拠点を置いていた。2023年にUBSがクレディ・スイスを買収し、2024年5月31日にUBS AGとクレディ・スイスAGの法人統合が完了した。法人としてのクレディ・スイスAGは消滅しており、シンガポール支店も独立した組織としては存在しない。公式サイト（credit-suisse.com/sg）はUBSシンガポール（ubs.com/sg/en）へリダイレクトされている。シンガポール・香港・日本・ルクセンブルクなどの拠点にあったウェルスマネジメント顧客の口座は、UBSプラットフォームへ移管済み（90%超完了済み）。日本人富裕層や機関投資家向けのサービスは、引き続きUBSシンガポールで提供されている。問い合わせはUBSシンガポール（+65 6495 8000）まで。",
     "tags": [
       "外資系銀行",
-      "富裕層向け"
+      "富裕層向け",
+      "UBS統合済み"
     ],
     "hours": null,
-    "last_verified": "2026-04-02",
-    "status": "unverified",
+    "last_verified": "2026-04-07",
+    "status": "reported_closed",
     "source": "gemini_search",
     "ai_reviewed": false,
+    "japanese_staff": null,
+    "menu_highlights": null,
+    "price_range": null,
     "place_id": null,
     "lat": null,
     "lng": null,
@@ -25,25 +30,35 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "daiwa-asset-management-singapore-ltd",
     "name": "Daiwa Asset Management (Singapore) Ltd.",
     "name_ja": "大和アセットマネジメント（シンガポール）",
-    "area": "Tanjong Pagar",
-    "address": "7 Straits View, Marina One East Tower #16-05/06, Singapore 018936",
-    "phone": null,
+    "area": "Raffles Place",
+    "address": "3 Phillip Street, Royal Group Building #16-04, Singapore 048693",
+    "phone": "+6562236712",
     "website": "https://www.sg.daiwacm.com/",
-    "description": "大和証券グループの資産運用会社のシンガポール拠点。Marina One East Tower所在。日本株・アジア株を中心とした投資信託・ファンド運用を提供。日系機関投資家・富裕層向けのアジア資産管理に強み。",
+    "description": "大和証券グループの日系資産運用会社のシンガポール拠点。MAS認可のファンド管理会社として、日本株・アジア株を中心とした投資信託・ファンド運用を提供。CEOを含む経営陣は日本人。主に日系機関投資家向け。",
+    "detail": "大和アセットマネジメント（シンガポール）は、大和証券グループの資産運用子会社・大和アセットマネジメント株式会社のシンガポール現地法人。1994年設立で、MASよりキャピタルマーケットサービスライセンス（ファンド管理）および投資顧問免除業者として認可を受けている。事業内容は主に機関投資家向けのファンド運用で、日本株・アジア株を中心とした投資信託やUCITS（ルクセンブルク籍）ファンドの運用を担う。CEOは日本人（布村幸雄氏）で、従業員数は約14名の小規模拠点。個人投資家向けの口座開設・資産運用サービスは提供しておらず、主な顧客は年金基金・機関投資家・ファンドなどの法人。日本語対応スタッフの明示的な記載は公式サイトにないが、日系機関投資家との取引実績がある。所在地はRaffles PlaceのRoyal Group Building。問い合わせは電話（+65 6223 6712）まで。",
     "tags": [
-      "日系資産運用"
+      "日系資産運用",
+      "機関投資家向け"
     ],
     "hours": null,
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "gemini_search",
     "ai_reviewed": false,
+    "japanese_staff": false,
+    "menu_highlights": [
+      "ファンド運用（日本株・アジア株）",
+      "UCITS（ルクセンブルク籍）ファンド運用",
+      "キャピタルマーケットサービス（ファンド管理）"
+    ],
+    "price_range": null,
     "place_id": null,
     "lat": null,
     "lng": null,
@@ -52,27 +67,40 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "daiwa-capital-markets-singapore-limited",
     "name": "Daiwa Capital Markets Singapore Limited",
     "name_ja": "大和証券キャピタル・マーケッツ・シンガポール",
-    "area": "Tanjong Pagar",
+    "area": "Marina Bay",
     "address": "7 Straits View, Marina One East Tower #16-05/06, Singapore 018936",
-    "phone": null,
-    "website": "https://www.daiwacm.com/sg/",
-    "description": "大和証券グループのシンガポール法人。Marina One East Tower所在。日系・アジア企業向けの株式引受・社債発行・M&A・デリバティブなど投資銀行サービスを日本語で提供。",
+    "phone": "+6563292199",
+    "website": "http://www.sg.daiwacm.com/",
+    "description": "大和証券グループのシンガポール法人。日本語対応スタッフが在籍し、シンガポール在住の日本人富裕層・法人向けにプライベートバンキングや投資銀行サービスを提供。Marina One East Tower所在。",
+    "detail": "大和証券キャピタル・マーケッツ・シンガポールは、大和証券グループの100%子会社として1972年に設立されたシンガポール現地法人。MAS認可のもと証券・投資銀行業務を展開しており、シンガポールの投資銀行業界において50年超の歴史を持つ。公式サイトには「国内・国外でのコンサルティング経験豊富な日本人スタッフが、日本語で対応いたします」と明記されており、日本語でのサービス対応が確認できる。Wealth and Corporate Client Solutions（WCS）部門では、シンガポール・香港などに居住する日本人を含む富裕層個人（金融資産200万SGD以上、または年収30万SGD以上が目安）や法人（純資産1,000万SGD以上）を対象に、プライベートバンキング・マージン取引・海外移住サポート・法人設立サポート・ビジネスマッチングを提供する。日本在住者の口座開設は不可。投資銀行部門では日系・アジア企業向けの株式引受・IPO・社債発行・M&Aアドバイザリー・デリバティブなども手掛ける。ChairmanおよびPresidentは日本人。所在地はMarina One East Tower。WCSの問い合わせ電話は+65-6329-2199。",
     "tags": [
       "日系証券",
+      "日本語対応",
+      "プライベートバンキング",
       "法人向け",
-      "富裕層向け"
+      "投資銀行"
     ],
     "hours": null,
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "gemini_search",
     "ai_reviewed": false,
+    "japanese_staff": true,
+    "menu_highlights": [
+      "プライベートバンキング",
+      "株式引受・IPO",
+      "社債発行",
+      "M&Aアドバイザリー",
+      "海外移住サポート"
+    ],
+    "price_range": "個人：金融資産200万SGD以上または年収30万SGD以上、法人：純資産1,000万SGD以上",
     "place_id": null,
     "lat": null,
     "lng": null,
@@ -81,7 +109,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "dbs-bank",
