@@ -1,31 +1,5 @@
 [
   {
-    "slug": "al-zahra-hospital-japanese-department",
-    "name": "Al Zahra Hospital Japanese Services",
-    "name_ja": "アル・ザーラ病院 日本語サービス",
-    "area": "Al Barsha",
-    "address": "Al Barsha, Dubai",
-    "phone": "+97143780000",
-    "website": "https://www.alzahra.com/",
-    "description": "アル・バルシャの総合病院のJapanese Patient Servicesデスク。日本語通訳を提供し、在住日本人が言葉の心配なく受診できるサポートを実施。緊急から専門外来まで対応。",
-    "tags": [
-      "総合病院",
-      "日本語通訳",
-      "アル・バルシャ"
-    ],
-    "hours": "24時間（急患受付）",
-    "last_verified": "2026-04-03",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
     "slug": "american-hospital-dubai-japanese",
     "name": "American Hospital Dubai",
     "name_ja": "アメリカン病院 ドバイ",
@@ -43,12 +17,13 @@
       "保険対応"
     ],
     "hours": "24時間（救急）",
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true
   },
   {
     "slug": "american-wellness-center",
@@ -65,7 +40,7 @@
       "健康診断"
     ],
     "hours": "要確認",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -74,33 +49,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "aster-clinic-japanese-services-dubai",
-    "name": "Aster Clinic Japanese Services",
-    "name_ja": "アスタークリニック 日本語サービス",
-    "area": "Al Barsha",
-    "address": "Al Barsha, Dubai",
-    "phone": "+97144008100",
-    "website": "https://www.asteruae.com/",
-    "description": "UAEのアスタークリニックの日本語通訳サービス。多科目の医療サービスを提供する大手クリニックチェーンで、日本語通訳を手配することで在住日本人が受診しやすくなっている。",
-    "tags": [
-      "総合クリニック",
-      "日本語通訳",
-      "アル・バルシャ"
-    ],
-    "hours": "毎日 8:00〜22:00",
-    "last_verified": "2026-04-03",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "br-medical-suites-clinic",
@@ -120,38 +70,13 @@
       "渡航医学"
     ],
     "hours": null,
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "camali-clinic-mental-health-japanese",
-    "name": "Camali Clinic",
-    "name_ja": "カマリクリニック 日本語対応",
-    "area": "City Walk",
-    "address": "City Walk, Dubai",
-    "phone": "+97143851800",
-    "website": "https://www.camaliclinic.com/",
-    "description": "シティウォークのメンタルヘルス専門クリニック。日本語通訳サービスを手配可能で、海外生活のストレス・適応障害・うつなど在住日本人の心の相談に対応できる。",
-    "tags": [
-      "メンタルヘルス",
-      "日本語通訳",
-      "シティウォーク"
-    ],
-    "hours": "月〜土 9:00〜21:00",
-    "last_verified": "2026-04-03",
-    "status": "unverified",
-    "source": "web_search",
     "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "dubai-london-clinic-jumeirah",
@@ -171,12 +96,13 @@
       "保険対応"
     ],
     "hours": "月〜土 8:00-20:00",
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true
   },
   {
     "slug": "find-mediphone-dubai",
@@ -196,12 +122,13 @@
       "予約サービス"
     ],
     "hours": null,
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true
   },
   {
     "slug": "health-bay-clinic-dubai",
@@ -221,64 +148,13 @@
       "多科対応"
     ],
     "hours": "月〜土 8:00-22:00",
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "holistic-japanese-clinic-marina",
-    "name": "Holistic Japanese Clinic",
-    "name_ja": "ホリスティック日本クリニック マリーナ",
-    "area": "Dubai Marina",
-    "address": "Dubai Marina, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "ドバイマリーナの日本式ホリスティッククリニック。鍼灸・整体・東洋医学を融合させた治療を日本語で提供。在住日本人が東洋医学的アプローチで健康管理できる施設。",
-    "tags": [
-      "鍼灸",
-      "東洋医学",
-      "マリーナ"
-    ],
-    "hours": "月〜土 9:00〜20:00",
-    "last_verified": "2026-04-03",
-    "status": "unverified",
-    "source": "web_search",
     "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "japanese-acupuncture-al-barsha",
-    "name": "Japanese Acupuncture Center",
-    "name_ja": "日本鍼灸センター アル・バルシャ",
-    "area": "Al Barsha",
-    "address": "Al Barsha, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "アル・バルシャの日本式鍼灸専門クリニック。腰痛・肩こり・不妊治療・美容鍼など多岐にわたる鍼灸治療を日本語で提供。在住日本人の代替医療として人気。",
-    "tags": [
-      "鍼灸",
-      "美容鍼",
-      "アル・バルシャ"
-    ],
-    "hours": "月〜土 9:00〜20:00",
-    "last_verified": "2026-04-03",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "japanese-consulate-dubai-health",
@@ -298,194 +174,13 @@
       "公的機関"
     ],
     "hours": "月〜金 9:00-17:00",
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "japanese-dentist-abu-dhabi-clinic",
-    "name": "Japanese Dentist Abu Dhabi",
-    "name_ja": "日本語対応歯科 アブダビ",
-    "area": "Abu Dhabi",
-    "address": "Abu Dhabi",
-    "phone": null,
-    "website": null,
-    "description": "アブダビの日本語対応歯科クリニック。アブダビ在住の日本人が日本語で歯科相談・治療を受けられる環境。定期健診から審美歯科まで幅広く対応。",
-    "tags": [
-      "歯科",
-      "日本語対応",
-      "アブダビ"
-    ],
-    "hours": "月〜土 9:00〜20:00",
-    "last_verified": "2026-04-03",
-    "status": "unverified",
-    "source": "web_search",
     "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "japanese-dermatology-clinic-dubai",
-    "name": "Japanese Dermatology Clinic",
-    "name_ja": "日本語対応皮膚科クリニック ドバイ",
-    "area": "Dubai",
-    "address": "Dubai",
-    "phone": null,
-    "website": null,
-    "description": "ドバイの日本語対応皮膚科クリニック。ニキビ・アトピー・日焼け対策など肌のトラブルを日本語で相談できる環境を提供。在住日本人の肌ケアをサポート。",
-    "tags": [
-      "皮膚科",
-      "日本語対応",
-      "肌トラブル"
-    ],
-    "hours": "月〜土 9:00〜19:00",
-    "last_verified": "2026-04-03",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "japanese-gynecology-clinic-dubai",
-    "name": "Japanese Gynecology Clinic",
-    "name_ja": "日本語対応婦人科クリニック ドバイ",
-    "area": "Dubai",
-    "address": "Dubai",
-    "phone": null,
-    "website": null,
-    "description": "ドバイの日本語対応婦人科クリニック。日本語で婦人科の相談ができる環境を提供。妊婦健診・月経異常・更年期など、在住日本人女性が安心して受診できる。",
-    "tags": [
-      "婦人科",
-      "日本語対応",
-      "女性健康"
-    ],
-    "hours": "月〜土 9:00〜18:00",
-    "last_verified": "2026-04-03",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "japanese-mental-health-clinic-dubai",
-    "name": "Japanese Mental Health Clinic",
-    "name_ja": "日本語対応メンタルヘルスクリニック ドバイ",
-    "area": "Dubai",
-    "address": "Dubai",
-    "phone": null,
-    "website": null,
-    "description": "ドバイの日本語対応カウンセリング・精神科クリニック。異文化適応・駐在ストレス・うつなど在住日本人が抱えやすいメンタルヘルス課題に日本語で対応。",
-    "tags": [
-      "メンタルヘルス",
-      "カウンセリング",
-      "日本語対応"
-    ],
-    "hours": "月〜金 9:00〜18:00（要予約）",
-    "last_verified": "2026-04-03",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "japanese-orthopedic-clinic-dubai-marina",
-    "name": "Japanese Orthopedic Clinic",
-    "name_ja": "日本語対応整形外科クリニック マリーナ",
-    "area": "Dubai Marina",
-    "address": "Dubai Marina, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "ドバイマリーナの整形外科クリニック。スポーツ障害・腰痛・膝の痛みなどの整形外科的問題を日本語で相談できる。在住日本人アスリート・スポーツ愛好者が利用する。",
-    "tags": [
-      "整形外科",
-      "スポーツ障害",
-      "マリーナ"
-    ],
-    "hours": "月〜土 9:00〜19:00",
-    "last_verified": "2026-04-03",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "japanese-osteopathy-clinic-jvc",
-    "name": "Japanese Osteopathy Clinic",
-    "name_ja": "日本式オステオパシークリニック JVC",
-    "area": "Jumeirah Village Circle",
-    "address": "JVC, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "JVCの日本人オステオパスによる整体・骨格矯正クリニック。首・肩・腰のコリや痛みを日本語で相談しながら施術を受けられる。在住日本人ファミリーに人気。",
-    "tags": [
-      "整体",
-      "骨格矯正",
-      "JVC"
-    ],
-    "hours": "月〜土 9:00〜20:00",
-    "last_verified": "2026-04-03",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "japanese-pediatrician-dubai-clinic",
-    "name": "Japanese Pediatrician Dubai",
-    "name_ja": "日本語対応小児科 ドバイ",
-    "area": "Jumeirah",
-    "address": "Jumeirah, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "ジュメイラの日本語対応小児科クリニック。子供の受診に日本語で対応できるスタッフが在籍。在住日本人ファミリーが子供の体調不良時に安心して利用できる環境。",
-    "tags": [
-      "小児科",
-      "日本語対応",
-      "ジュメイラ"
-    ],
-    "hours": "月〜土 9:00〜19:00",
-    "last_verified": "2026-04-03",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "kings-college-hospital-dubai",
@@ -505,38 +200,13 @@
       "保険対応"
     ],
     "hours": "24時間（救急）",
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "kinseikai-japanese-clinic-dubai",
-    "name": "Kinseikai Japanese Clinic",
-    "name_ja": "金星会 日本語クリニック ドバイ",
-    "area": "Dubai",
-    "address": "Dubai",
-    "phone": null,
-    "website": null,
-    "description": "在Dubai日本人向けの日本語対応医療クリニック。日本語での問診・診察を提供し、在住日本人が安心して受診できる環境を整えている。日本人医師または日本語を話すスタッフが在籍。",
-    "tags": [
-      "クリニック",
-      "日本語対応",
-      "日本人向け"
-    ],
-    "hours": "月〜土 9:00〜18:00",
-    "last_verified": "2026-04-03",
-    "status": "unverified",
-    "source": "web_search",
     "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "medcare-clinic-difc-japanese",
@@ -553,7 +223,7 @@
       "DIFC"
     ],
     "hours": "月〜土 8:00〜20:00",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
@@ -562,33 +232,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "medipoint-clinic-japanese-business-bay",
-    "name": "Medipoint Clinic",
-    "name_ja": "メディポイントクリニック ビジネスベイ",
-    "area": "Business Bay",
-    "address": "Business Bay, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "ビジネスベイの総合クリニック。日本語を話すスタッフが在籍し、内科・整形外科・婦人科など幅広く対応。ビジネスベイ在住の日本人ビジネスパーソンが利用しやすい立地。",
-    "tags": [
-      "総合クリニック",
-      "日本語対応",
-      "ビジネスベイ"
-    ],
-    "hours": "月〜土 9:00〜21:00",
-    "last_verified": "2026-04-03",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "needs_review": true,
+    "review_note": "DIFC店での日本語対応・日本人スタッフの実在確認が必要"
   },
   {
     "slug": "nagomi-international-clinic",
@@ -596,7 +243,7 @@
     "name_ja": "なごみクリニック",
     "area": "Dubai Healthcare City",
     "address": "Al Razi Medical Complex (Building 64), Dubai Healthcare City, Dubai",
-    "phone": "+97158918610",
+    "phone": "+971589186100",
     "website": "https://nagomiclinic.com",
     "description": "ドバイ・ヘルスケアシティ内の日本人・日本語対応クリニック。日本人医師・看護師・スタッフが常駐し、日本語で全診療を受けられる。内科・小児科・婦人科・皮膚科に対応。LINEで予約可能。メトロ・ヘルスケアシティ駅から徒歩5分。在住日本人に頼れるかかりつけ医。",
     "tags": [
@@ -608,7 +255,7 @@
       "皮膚科"
     ],
     "hours": null,
-    "last_verified": "2026-03-31",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -617,33 +264,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "oasis-dental-clinic-dubai-japanese",
-    "name": "Oasis Dental Clinic",
-    "name_ja": "オアシス歯科クリニック ドバイ",
-    "area": "Jumeirah",
-    "address": "Jumeirah, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "ジュメイラの歯科クリニック。日本語対応スタッフが在籍し、在住日本人が言葉の壁なく歯科治療を受けられる環境。虫歯治療から審美歯科まで幅広く対応。",
-    "tags": [
-      "歯科",
-      "日本語対応",
-      "ジュメイラ"
-    ],
-    "hours": "月〜土 9:00〜20:00",
-    "last_verified": "2026-04-03",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "reborn-clinic-difc",
@@ -660,7 +282,7 @@
       "幹細胞治療"
     ],
     "hours": "日〜木 9:00-18:00",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -669,7 +291,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "sakura-medical-dental-clinic",
@@ -686,7 +309,7 @@
       "内科・歯科・産婦人科"
     ],
     "hours": "月〜土 9:00-18:00（金曜・祝日休）/ 産婦人科: 水日のみ",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -695,64 +318,7 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sunrise-medical-clinic-jlt-japanese",
-    "name": "Sunrise Medical Clinic JLT",
-    "name_ja": "サンライズメディカルクリニック JLT",
-    "area": "Jumeirah Lake Towers",
-    "address": "JLT, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "JLTの多科目クリニック。日本語通訳サービスを提供し、在住日本人の内科・外科・小児科の受診をサポート。JLT在住の日本人が気軽に利用できる立地。",
-    "tags": [
-      "総合クリニック",
-      "日本語通訳",
-      "JLT"
-    ],
-    "hours": "月〜土 8:00〜20:00",
-    "last_verified": "2026-04-03",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sakura-medical-dental-clinic-dubai",
-    "name": "SAKURA Medical & Dental Clinic",
-    "name_ja": "さくらクリニック",
-    "area": "Dubai Healthcare City",
-    "city": "Dubai",
-    "address": "Room 4005, Block B, Building No.64 Al-Razi, Dubai Healthcare City, Dubai",
-    "phone": "+97144452875",
-    "website": "https://sakura-mdc.com/",
-    "description": "日本人医師による医療・歯科クリニック。日本語対応。一般内科、矯正歯科など。",
-    "tags": [
-      "日本語対応",
-      "医療",
-      "歯科",
-      "日本人医師"
-    ],
-    "hours": "09:00-18:00（木午後・金・祝日休み）",
-    "source": "web_search",
-    "lat": null,
-    "lng": null,
-    "last_verified": "2026-04-06",
-    "status": "unverified",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   }
 ]

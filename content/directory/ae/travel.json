@@ -17,12 +17,13 @@
       "在留届"
     ],
     "hours": "月〜金 9:00-17:00",
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true
   },
   {
     "slug": "jnto-dubai-tourism-info",
@@ -42,12 +43,13 @@
       "観光手配サポート"
     ],
     "hours": "平日 9:00-17:00",
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true
   },
   {
     "slug": "jtb-dubai-branch",
@@ -67,12 +69,13 @@
       "ドバイ拠点"
     ],
     "hours": "平日 9:00-18:00",
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true
   },
   {
     "slug": "jwd-luna-travel",
@@ -89,7 +92,7 @@
       "ドバイツアー"
     ],
     "hours": "要確認",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -98,32 +101,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "jwd-luna-travel-dubai-tours",
-    "name": "JWD Luna Travel & Tourism (Tours)",
-    "name_ja": "JWDルナトラベル（現地ツアー）",
-    "area": "Dubai South",
-    "address": "Office Headquarters, Building A3, Dubai South, Dubai",
-    "lat": null,
-    "lng": null,
-    "phone": "+971509891345",
-    "website": "https://www.dubai-trip.ae/",
-    "description": "ドバイ初の日本人経営旅行代理店（2018年設立）。砂漠サファリ・ドバイ市内観光・アブダビツアー・クルーズ等のオプショナルツアーを日本語24時間対応で予約できる。チケット手配・カスタム旅行プランニング・ウェディングフォト撮影も提供。東京にも支社あり。",
-    "tags": [
-      "日本人経営",
-      "日本語24時間対応",
-      "砂漠サファリ",
-      "オプショナルツアー"
-    ],
-    "hours": "要確認（24時間電話対応）",
-    "last_verified": "2026-04-02",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "locotabi-dubai-japanese-guide",
@@ -143,12 +122,13 @@
       "現地手配"
     ],
     "hours": "サポーターにより異なる",
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true
   },
   {
     "slug": "tabeer-tours-japan-from-dubai",
@@ -168,12 +148,13 @@
       "UAE在住者向け"
     ],
     "hours": null,
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true
   },
   {
     "slug": "veltra-dubai-tours-japanese",
@@ -193,12 +174,13 @@
       "オプショナルツアー"
     ],
     "hours": "オンライン24時間",
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true
   },
   {
     "slug": "wise-international-transfer-uae",
@@ -218,12 +200,13 @@
       "オンライン"
     ],
     "hours": "オンライン24時間",
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true
   },
   {
     "slug": "orient-tours-dubai",
@@ -241,7 +224,7 @@
       "多言語ガイド"
     ],
     "hours": "月〜土 9:00-18:00",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
@@ -250,7 +233,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "arabian-adventures-dubai",
@@ -268,7 +252,7 @@
       "多言語対応"
     ],
     "hours": "毎日 9:00-18:00",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
@@ -277,7 +261,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "his-dubai-optional-tours",
@@ -295,7 +280,7 @@
       "日本語ガイド"
     ],
     "hours": "オンライン24時間",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
@@ -304,7 +289,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "klook-dubai-japanese",
@@ -322,7 +308,7 @@
       "オンライン"
     ],
     "hours": "オンライン24時間",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
@@ -331,7 +317,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "japan-consulate-abu-dhabi",
@@ -349,7 +336,7 @@
       "在留届"
     ],
     "hours": "月〜金 9:00-12:00、13:30-16:00",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
@@ -358,7 +345,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "jal-dubai-agent-alnaboodah",
@@ -376,7 +364,7 @@
       "デイラ"
     ],
     "hours": "月〜土 9:00-18:00",
-    "last_verified": "2026-04-04",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -387,7 +375,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "ana-dubai-agent-sharaf-travel",
@@ -405,7 +394,7 @@
       "ドバイ"
     ],
     "hours": "月〜土 9:00-19:00",
-    "last_verified": "2026-04-04",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -416,7 +405,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "ana-abu-dhabi-agent-sharaf-travel",
@@ -434,7 +424,7 @@
       "アブダビ"
     ],
     "hours": "月〜土 9:00-19:00",
-    "last_verified": "2026-04-04",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -445,6 +435,7 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   }
 ]

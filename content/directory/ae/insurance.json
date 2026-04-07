@@ -17,12 +17,13 @@
       "グローバル対応"
     ],
     "hours": null,
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true
   },
   {
     "slug": "cigna-global-uae",
@@ -42,12 +43,13 @@
       "駐在員向け"
     ],
     "hours": null,
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true
   },
   {
     "slug": "metlife-uae-insurance",
@@ -67,12 +69,13 @@
       "DHA承認"
     ],
     "hours": null,
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true
   },
   {
     "slug": "mitsui-sumitomo-insurance-dubai",
@@ -91,12 +94,13 @@
       "三井住友海上"
     ],
     "hours": "平日 9:00-17:30",
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true
   },
   {
     "slug": "nippon-life-benefits-uae",
@@ -116,12 +120,13 @@
       "駐在員向け"
     ],
     "hours": null,
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true
   },
   {
     "slug": "pacific-prime-dubai-insurance",
@@ -141,12 +146,13 @@
       "複数社比較"
     ],
     "hours": "月〜金 9:00-18:00",
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true
   },
   {
     "slug": "sompo-dubai",
@@ -165,14 +171,15 @@
     "hours": "平日 9:00〜17:30",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "tokio-marine-dubai",
@@ -192,14 +199,15 @@
     "hours": "月〜金 8:00-17:00",
     "status": "unverified",
     "source": "web_search",
-    "last_verified": "2026-04-04",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": "sasai@tmnf.ae",
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "gig-gulf-insurance-dubai",
@@ -217,7 +225,7 @@
       "DHA承認"
     ],
     "hours": "月〜木・日 8:00-17:00",
-    "last_verified": "2026-04-04",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -228,7 +236,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "daman-health-insurance-abu-dhabi",
@@ -246,7 +255,7 @@
       "駐在員向け"
     ],
     "hours": null,
-    "last_verified": "2026-04-04",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -257,7 +266,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "aig-middle-east-dubai",
@@ -276,7 +286,7 @@
       "海外赴任者向け"
     ],
     "hours": "平日 9:00-18:00",
-    "last_verified": "2026-04-06",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -287,40 +297,7 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "aig-insurance-dubai",
-    "name": "AIG Insurance UAE",
-    "name_ja": "AIG保険 UAE",
-    "area": "Dubai",
-    "address": "Dubai International Financial Centre, Dubai, UAE",
-    "phone": null,
-    "phone_local": null,
-    "email": null,
-    "website": "https://www.aig.ae",
-    "source_url": "https://www.aig.ae",
-    "description": "国際保険大手AIGのUAE法人。日本企業向けの企業保険・駐在員保険を日本語で提供。",
-    "detail": null,
-    "menu": null,
-    "price_range": null,
-    "tags": [
-      "日本語対応",
-      "保険",
-      "企業保険"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-04-06",
-    "source": "web_search",
-    "place_id": "",
-    "lat": null,
-    "lng": null,
-    "priority": 0,
-    "ai_reviewed": true,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   }
 ]

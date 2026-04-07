@@ -17,12 +17,13 @@
       "ゴールデンビザ"
     ],
     "hours": null,
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true
   },
   {
     "slug": "exceed-real-estate-legal-dubai",
@@ -42,12 +43,13 @@
       "不動産ビザ"
     ],
     "hours": null,
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true
   },
   {
     "slug": "jcme-group-legal-dubai",
@@ -67,38 +69,13 @@
       "ゴールデンビザ"
     ],
     "hours": "月〜金 9:00-17:00",
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "mori-hamada-matsumoto-dubai",
-    "name": "Mori Hamada & Matsumoto Dubai",
-    "name_ja": "森・濱田松本法律事務所 ドバイ",
-    "area": "DIFC",
-    "address": "DIFC, Dubai",
-    "phone": null,
-    "website": "https://www.morihamada.com/en/",
-    "description": "日本の四大法律事務所の一つ。中東地域での日系企業のM&A、紛争解決、コーポレートガバナンスに対応。日本人弁護士が常駐。",
-    "tags": [
-      "日本人弁護士",
-      "M&A",
-      "企業法務"
-    ],
-    "hours": "平日 9:00-18:00",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "website",
     "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "nexpert-law-dubai-immigration",
@@ -118,38 +95,13 @@
       "日本語対応"
     ],
     "hours": null,
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "nexpert-ncsf-dubai",
-    "name": "NCSF / Nexpert Law Dubai",
-    "name_ja": "NCSF / ネクスパート法律事務所 ドバイ",
-    "area": "Dubai",
-    "address": "Dubai, UAE",
-    "phone": null,
-    "website": "https://nexpert-law.com/dubai_incorporation_consulting/",
-    "description": "ネクスパート法律事務所の関連会社として2022年12月にドバイのフリーゾーンに設立。IFZA公認パートナー。フリーゾーン法人設立からビザ取得、銀行口座開設、会計・税務処理までトータルサポート。初期費用約300万円、年間運営費200万円〜。",
-    "tags": [
-      "法人設立",
-      "IFZA公認",
-      "ビザ取得支援"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "website",
-    "last_verified": "2026-03-28",
     "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "nishimura-asahi-dubai",
@@ -168,39 +120,15 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "nishimura-asahi-dubai-corporate",
-    "name": "Nishimura & Asahi Dubai (Corporate M&A)",
-    "name_ja": "西村あさひ法律事務所 ドバイ（企業・M&A）",
-    "area": "DIFC",
-    "address": "Unit 407, Index Tower, Dubai International Financial Centre, Dubai",
-    "lat": null,
-    "lng": null,
-    "phone": "+97143863456",
-    "website": "https://www.nishimura.com/en/global-coverage/dubai",
-    "description": "日本最大級法律事務所のドバイ拠点。Afridi & Angellとの提携でジャパンデスクを設置。中東唯一の長期駐在日本人弁護士が常駐し、M&A・紛争解決・企業法務を日本語でサポート。上場企業・外資系企業に対応。",
-    "tags": [
-      "日本人弁護士常駐",
-      "M&A",
-      "紛争解決",
-      "DIFC"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-02",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "one-asia-lawyers-dubai",
@@ -220,14 +148,15 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": "info@oneasia.legal",
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "one-asia-lawyers-abu-dhabi",
@@ -246,14 +175,15 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": "info@oneasia.legal",
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "mercury-general-law-dubai",
@@ -271,7 +201,7 @@
       "契約書作成"
     ],
     "hours": "平日（日本時間）",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
@@ -280,7 +210,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "afridi-angell-dubai-difc",
@@ -298,7 +229,7 @@
       "DIFC"
     ],
     "hours": "月〜金 9:00-18:00",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
@@ -307,7 +238,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "al-tamimi-company-difc-dubai",
@@ -325,7 +257,7 @@
       "不動産取引"
     ],
     "hours": "月〜金 9:00-18:00",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
@@ -334,7 +266,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "fragomen-dubai-difc-immigration",
@@ -352,7 +285,7 @@
       "DIFC"
     ],
     "hours": "月〜金 9:00-18:00",
-    "last_verified": "2026-04-04",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -363,7 +296,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "mori-hamada-matsumoto-dubai-uae",
@@ -381,7 +315,7 @@
       "DIFC"
     ],
     "hours": "月〜金 9:00-18:00",
-    "last_verified": "2026-04-04",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -392,6 +326,7 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   }
 ]

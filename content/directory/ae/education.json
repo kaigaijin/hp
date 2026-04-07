@@ -14,7 +14,7 @@
       "小学〜中学"
     ],
     "hours": "要確認",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -23,7 +23,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "dubai-japanese-school",
@@ -40,7 +41,7 @@
       "小学〜中学"
     ],
     "hours": "要確認",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -49,7 +50,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "eton-institute-japanese-course-dubai",
@@ -69,12 +71,13 @@
       "ビジネス日本語"
     ],
     "hours": "月〜土 8:00-21:00",
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true
   },
   {
     "slug": "japan-foundation-abu-dhabi",
@@ -91,7 +94,7 @@
       "JLPT"
     ],
     "hours": "平日 9:00-17:00",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -100,33 +103,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "japanese-calligraphy-class-dubai",
-    "name": "Japanese Calligraphy Class",
-    "name_ja": "日本書道教室 ドバイ",
-    "area": "Al Quoz",
-    "address": "Al Quoz, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "アル・クォズのアルセルカル地区で開講している書道教室。日本人書家による本格的な書道指導を提供。在住日本人の子供・大人が日本の伝統文化を学ぶ機会。",
-    "tags": [
-      "書道",
-      "日本文化",
-      "アル・クォズ"
-    ],
-    "hours": "週1〜2回（詳細は要確認）",
-    "last_verified": "2026-04-03",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "japanese-consulate-dubai-education",
@@ -146,194 +124,13 @@
       "公的機関"
     ],
     "hours": "月〜金 9:00-17:00",
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "japanese-cooking-class-dubai",
-    "name": "Japanese Cooking Class Dubai",
-    "name_ja": "日本料理教室 ドバイ",
-    "area": "Jumeirah",
-    "address": "Jumeirah, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "ジュメイラで開催される日本料理教室。在住日本人が講師を務め、寿司・天ぷら・和食の基本を日本語・英語で指導。在外配偶者・外国人向けの日本食文化普及にも貢献。",
-    "tags": [
-      "料理教室",
-      "日本料理",
-      "ジュメイラ"
-    ],
-    "hours": "週1〜2回（詳細は要確認）",
-    "last_verified": "2026-04-03",
-    "status": "unverified",
-    "source": "web_search",
     "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "japanese-dance-school-dubai",
-    "name": "Japanese Dance School Dubai",
-    "name_ja": "日本式ダンススクール ドバイ",
-    "area": "Dubai",
-    "address": "Dubai",
-    "phone": null,
-    "website": null,
-    "description": "ドバイの日本式バレエ・ダンス教室。日本人バレエ教師による本格的な指導で、在住日本人子弟の情操教育・体育活動をサポート。発表会も定期開催。",
-    "tags": [
-      "バレエ",
-      "ダンス",
-      "日本人講師"
-    ],
-    "hours": "週2〜3回（詳細は要確認）",
-    "last_verified": "2026-04-03",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "japanese-ikebana-class-dubai",
-    "name": "Japanese Ikebana Class",
-    "name_ja": "生け花教室 ドバイ",
-    "area": "Dubai",
-    "address": "Dubai",
-    "phone": null,
-    "website": null,
-    "description": "ドバイの生け花（いけばな）教室。草月流・池坊などの流派の生け花を日本人講師が指導。在住日本人の日本文化継承の場として、在外日本人コミュニティの人気活動。",
-    "tags": [
-      "生け花",
-      "日本文化",
-      "教室"
-    ],
-    "hours": "月2〜3回（詳細は要確認）",
-    "last_verified": "2026-04-03",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "japanese-music-school-violin-dubai",
-    "name": "Japanese Music School Dubai",
-    "name_ja": "日本式音楽教室（バイオリン） ドバイ",
-    "area": "Dubai",
-    "address": "Dubai",
-    "phone": null,
-    "website": null,
-    "description": "ドバイの日本人音楽講師によるバイオリン・ピアノ個人レッスン。日本のスズキメソッドや楽典・楽器演奏を日本語で指導。在住日本人子弟の情操教育をサポート。",
-    "tags": [
-      "音楽教室",
-      "バイオリン",
-      "日本人講師"
-    ],
-    "hours": "要予約（週末・放課後対応）",
-    "last_verified": "2026-04-03",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "japanese-private-tutoring-dubai",
-    "name": "Japanese Private Tutoring",
-    "name_ja": "日本語家庭教師 ドバイ",
-    "area": "Dubai",
-    "address": "Dubai (home visits / online)",
-    "phone": null,
-    "website": null,
-    "description": "ドバイの在住日本人向け家庭教師サービス。算数・国語・理科・社会などの科目を日本語で個別指導。帰国後の日本の学校復帰を想定したカリキュラム対応も可能。",
-    "tags": [
-      "家庭教師",
-      "個別指導",
-      "日本語教育"
-    ],
-    "hours": "要問合せ（対応時間は家庭教師による）",
-    "last_verified": "2026-04-03",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "japanese-swim-school-jvc-dubai",
-    "name": "Japanese Swim School JVC",
-    "name_ja": "日本式水泳スクール JVC",
-    "area": "Jumeirah Village Circle",
-    "address": "JVC, Dubai",
-    "phone": null,
-    "website": null,
-    "description": "JVCの日本人コーチによる水泳スクール。日本式の段階的指導で子供の水泳を安全に教える。JVCの日本人ファミリーが子供の体育・スポーツ教育に利用する。",
-    "tags": [
-      "水泳スクール",
-      "日本人コーチ",
-      "JVC"
-    ],
-    "hours": "週末・放課後（詳細は要確認）",
-    "last_verified": "2026-04-03",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "japanese-tea-ceremony-class-dubai",
-    "name": "Japanese Tea Ceremony Class",
-    "name_ja": "茶道教室 ドバイ",
-    "area": "Dubai",
-    "address": "Dubai",
-    "phone": null,
-    "website": null,
-    "description": "ドバイで開催されている茶道教室。裏千家・表千家系の茶道を日本語で学べる機会を在住日本人に提供。茶道は日本文化の象徴として外国人参加者にも人気がある。",
-    "tags": [
-      "茶道",
-      "日本文化",
-      "教室"
-    ],
-    "hours": "月1〜2回（詳細は要確認）",
-    "last_verified": "2026-04-03",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "jnto-dubai-japan-info",
@@ -353,12 +150,13 @@
       "中東日本情報発信"
     ],
     "hours": "平日 9:00-17:00",
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true
   },
   {
     "slug": "kumon-dubai-multiple",
@@ -378,12 +176,13 @@
       "自学自習"
     ],
     "hours": "教室により異なる",
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true
   },
   {
     "slug": "kumon-jumeirah",
@@ -400,7 +199,7 @@
       "ジュメイラ"
     ],
     "hours": "週2回（詳細は教室により異なる）",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
@@ -409,7 +208,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "kumon-mirdif-japanese-education",
@@ -426,7 +226,7 @@
       "ミルディフ"
     ],
     "hours": "週2回（詳細は教室により異なる）",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
@@ -435,7 +235,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "kumon-motor-city",
@@ -452,7 +253,7 @@
       "モーターシティ"
     ],
     "hours": "週2回（詳細は教室により異なる）",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
@@ -461,59 +262,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kumon-uae",
-    "name": "Kumon UAE",
-    "name_ja": "公文 UAE",
-    "area": "Various",
-    "address": "Multiple locations in Dubai and Abu Dhabi",
-    "phone": null,
-    "website": "https://www.kumon.ae/",
-    "description": "日本発の学習塾チェーン。算数・英語の自学自習プログラムを提供。ドバイ・アブダビに複数教室を展開し、日本人家族にも利用されている。",
-    "tags": [
-      "日本発学習塾",
-      "算数・英語",
-      "複数拠点"
-    ],
-    "hours": "教室により異なる",
-    "status": "unverified",
-    "source": "website",
-    "last_verified": "2026-03-28",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "nihongo-class-abu-dhabi",
-    "name": "Nihongo Class Abu Dhabi",
-    "name_ja": "日本語クラス アブダビ",
-    "area": "Abu Dhabi",
-    "address": "Abu Dhabi",
-    "phone": null,
-    "website": null,
-    "description": "アブダビで日本語を学べる日本語教室。外国人向けの日本語レッスンと、在外日本人子弟向けの日本語維持教育を提供。JLPT対策クラスも開講。",
-    "tags": [
-      "日本語教育",
-      "JLPT",
-      "アブダビ"
-    ],
-    "hours": "週2〜3回（詳細は要確認）",
-    "last_verified": "2026-04-03",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "berlitz-jlt-japanese-course",
@@ -531,7 +281,7 @@
       "全レベル対応"
     ],
     "hours": null,
-    "last_verified": "2026-04-04",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -542,7 +292,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "berlitz-abu-dhabi-khalidiya-japanese",
@@ -560,7 +311,7 @@
       "全レベル対応"
     ],
     "hours": null,
-    "last_verified": "2026-04-04",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -571,7 +322,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "kinokuniya-dubai-mall-bookstore",
@@ -589,7 +341,7 @@
       "ダウンタウンドバイ"
     ],
     "hours": "月〜木 10:00-22:00 / 金〜日 10:00-24:00",
-    "last_verified": "2026-04-04",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -600,7 +352,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "kinokuniya-abu-dhabi-galleria",
@@ -618,11 +371,12 @@
       "アブダビ"
     ],
     "hours": "日〜木 10:00-22:00 / 金〜土 10:00-24:00",
-    "last_verified": "2026-04-04",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true
   }
 ]

@@ -17,12 +17,13 @@
       "ビザ支援"
     ],
     "hours": null,
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true
   },
   {
     "slug": "bdo-uae-audit",
@@ -42,12 +43,13 @@
       "DIFC"
     ],
     "hours": "平日 9:00-18:00",
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true
   },
   {
     "slug": "bdo-uae-japan-desk",
@@ -67,12 +69,13 @@
       "税務・監査"
     ],
     "hours": "平日 9:00-18:00",
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true
   },
   {
     "slug": "deloitte-japan-desk-dubai",
@@ -91,14 +94,15 @@
     "hours": "平日 9:00〜18:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "ey-japan-desk-dubai",
@@ -115,7 +119,7 @@
       "税務・監査"
     ],
     "hours": "平日 9:00-18:00",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -124,7 +128,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "hls-global-dubai",
@@ -141,7 +146,7 @@
       "移転価格"
     ],
     "hours": "平日 9:00-18:00",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -150,7 +155,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "japan-management-tax-dubai",
@@ -169,14 +175,15 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "jcme-accounting-dubai",
@@ -196,12 +203,13 @@
       "法人設立後サポート"
     ],
     "hours": "月〜金 9:00-17:00",
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true
   },
   {
     "slug": "kpmg-japan-desk-dubai",
@@ -220,14 +228,15 @@
     "hours": "平日 9:00〜18:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "mmaic-dubai-accounting",
@@ -247,12 +256,13 @@
       "フリーゾーン"
     ],
     "hours": null,
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true
   },
   {
     "slug": "nexpert-ncsf-uae-accounting",
@@ -272,12 +282,13 @@
       "日本語対応"
     ],
     "hours": null,
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true
   },
   {
     "slug": "okamoto-cpa-dubai",
@@ -296,14 +307,15 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "pwc-japan-desk-dubai",
@@ -320,7 +332,7 @@
       "中東進出支援"
     ],
     "hours": "平日 9:00-18:00",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -329,7 +341,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "grant-thornton-uae-dubai",
@@ -347,7 +360,7 @@
       "DWTC"
     ],
     "hours": null,
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
@@ -356,7 +369,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "crowe-uae-dubai",
@@ -374,7 +388,7 @@
       "DIFC"
     ],
     "hours": null,
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
@@ -383,7 +397,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "rsm-uae-dubai-business-bay",
@@ -401,7 +416,7 @@
       "法人向け"
     ],
     "hours": "月〜金 9:00-18:00",
-    "last_verified": "2026-04-04",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -412,7 +427,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "forvis-mazars-uae-oud-metha",
@@ -430,7 +446,7 @@
       "アドバイザリー"
     ],
     "hours": "月〜金 9:00-18:00",
-    "last_verified": "2026-04-04",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -441,6 +457,7 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   }
 ]

@@ -17,12 +17,13 @@
       "DIFC"
     ],
     "hours": null,
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true
   },
   {
     "slug": "mufg-bank-dubai-difc",
@@ -42,12 +43,13 @@
       "DIFC"
     ],
     "hours": null,
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true
   },
   {
     "slug": "smbc-dubai-difc",
@@ -67,12 +69,13 @@
       "DIFC"
     ],
     "hours": null,
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true
   },
   {
     "slug": "jbic-dubai-difc",
@@ -90,7 +93,7 @@
       "法人向け"
     ],
     "hours": null,
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -99,7 +102,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "emirates-nbd-head-office-deira",
@@ -117,7 +121,7 @@
       "UAE大手銀行"
     ],
     "hours": "月〜土 8:00-15:00",
-    "last_verified": "2026-04-04",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -128,7 +132,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "hsbc-uae-downtown-dubai",
@@ -146,7 +151,7 @@
       "ダウンタウンドバイ"
     ],
     "hours": "月〜土 8:00-15:00",
-    "last_verified": "2026-04-04",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -157,7 +162,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "standard-chartered-bank-dubai-difc",
@@ -175,7 +181,7 @@
       "DIFC"
     ],
     "hours": "月〜木 8:00-15:00 / 金 7:30-12:30 / 土 8:00-13:00",
-    "last_verified": "2026-04-04",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -186,7 +192,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "first-abu-dhabi-bank-fab-hq",
@@ -204,7 +211,7 @@
       "UAE最大手銀行"
     ],
     "hours": "月〜木 8:00-15:00 / 金 7:30-12:30 / 土 8:00-13:00",
-    "last_verified": "2026-04-04",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -215,35 +222,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "smbc-dubai-branch",
-    "name": "Sumitomo Mitsui Banking Corporation Dubai Branch",
-    "name_ja": "三井住友銀行 ドバイ支店",
-    "area": "DIFC",
-    "address": "DIFC Gate Village 9, Level 5, P.O. Box 506767, Dubai, UAE",
-    "phone": "+97143045500",
-    "website": "https://www.smbc.co.jp/",
-    "description": "三井住友銀行のドバイ支店。法人・個人向けの銀行サービス、日本への国際送金に対応。日本人駐在員の利用実績あり。日本語対応可。",
-    "tags": [
-      "日本語対応",
-      "日系銀行",
-      "国際送金"
-    ],
-    "hours": "平日9:00-18:00",
-    "last_verified": "2026-04-06",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "adib-abu-dhabi-islamic-bank-hq",
@@ -264,7 +244,7 @@
       "イスラミック銀行"
     ],
     "hours": "月〜木 8:00-15:00 / 金 7:30-12:30 / 土 8:00-13:00",
-    "last_verified": "2026-04-06",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -275,74 +255,7 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sumitomo-bank-dubai",
-    "name": "Sumitomo Mitsui Banking Corporation Dubai",
-    "name_ja": "三井住友銀行 ドバイ",
-    "area": "Dubai",
-    "address": "DIFC, Dubai",
-    "phone": null,
-    "phone_local": null,
-    "email": null,
-    "website": "https://www.smbc.co.jp",
-    "source_url": "https://www.smbc.co.jp",
-    "description": "日本の大手銀行SMBC（三井住友銀行）のドバイ支店。日本企業・駐在員向けに金融サービスを日本語で提供。",
-    "detail": null,
-    "menu": null,
-    "price_range": null,
-    "tags": [
-      "日本語対応",
-      "銀行",
-      "国際送金"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-04-06",
-    "source": "web_search",
-    "place_id": "",
-    "lat": null,
-    "lng": null,
-    "priority": 0,
-    "ai_reviewed": true,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "jbic-dubai",
-    "name": "JBIC - Dubai Representative Office",
-    "name_ja": "JBIC（国際協力銀行） ドバイ事務所",
-    "area": "Dubai",
-    "address": "Dubai International Financial Centre, Dubai",
-    "phone": null,
-    "phone_local": null,
-    "email": null,
-    "website": "https://www.jbic.go.jp",
-    "source_url": "https://www.jbic.go.jp",
-    "description": "日本政策金融機関のJBICドバイ事務所。日本企業のUAE進出支援・融資相談を日本語で対応。",
-    "detail": null,
-    "menu": null,
-    "price_range": null,
-    "tags": [
-      "日本語対応",
-      "金融",
-      "進出支援"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-04-06",
-    "source": "web_search",
-    "place_id": "",
-    "lat": null,
-    "lng": null,
-    "priority": 0,
-    "ai_reviewed": true,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   }
 ]

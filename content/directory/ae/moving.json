@@ -1,30 +1,5 @@
 [
   {
-    "slug": "crown-relocations-nippon-express-uae",
-    "name": "Nippon Express Middle East (Abu Dhabi)",
-    "name_ja": "日本通運 中東 アブダビ支店",
-    "area": "Abu Dhabi",
-    "address": "Abu Dhabi, UAE",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.nipponexpress.com/location/united-arab-emirates/",
-    "description": "日本通運（NXグループ）のアブダビ支店。アブダビ在住の日本人駐在員の帰国引越し、企業の法人物流サービスに対応。日本語での問い合わせが可能で、日本とのネットワークに強み。",
-    "tags": [
-      "日系物流",
-      "日本語対応",
-      "国際引越し",
-      "アブダビ"
-    ],
-    "hours": "要確認",
-    "last_verified": "2026-04-02",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
     "slug": "emover-uae-international",
     "name": "E-Movers International UAE",
     "name_ja": "イーモーバーズ インターナショナル UAE",
@@ -42,12 +17,13 @@
       "日本向け対応"
     ],
     "hours": "月〜金 8:30-17:30",
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true
   },
   {
     "slug": "mac-pack-dubai-international",
@@ -67,12 +43,13 @@
       "家族向け"
     ],
     "hours": "月〜金 9:00-18:00",
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true
   },
   {
     "slug": "nippon-express-dubai",
@@ -89,7 +66,7 @@
       "国際引越し"
     ],
     "hours": "要確認",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -98,7 +75,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "iss-relocations-dubai",
@@ -115,7 +93,7 @@
       "UAE全域対応"
     ],
     "hours": null,
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
@@ -124,7 +102,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "allied-pickfords-dubai",
@@ -141,7 +120,7 @@
       "大手国際ネットワーク"
     ],
     "hours": null,
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
@@ -150,7 +129,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "sagawa-express-dubai",
@@ -167,7 +147,7 @@
       "日本向け配送"
     ],
     "hours": null,
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
@@ -176,7 +156,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "crown-relocations-dubai",
@@ -193,7 +174,7 @@
       "大手国際ネットワーク"
     ],
     "hours": "月〜金 8:00-17:00",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
@@ -202,7 +183,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "gac-international-moving-dubai",
@@ -220,7 +202,7 @@
       "ジェベル・アリ"
     ],
     "hours": "月〜金 8:00-17:00",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
@@ -229,7 +211,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "delight-international-movers-uae",
@@ -247,7 +230,7 @@
       "1989年創業"
     ],
     "hours": "月〜金 8:00-17:00",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
@@ -256,7 +239,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "dasa-international-movers-dubai",
@@ -274,7 +258,7 @@
       "フルサービス"
     ],
     "hours": "月〜金 8:00-17:00",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
@@ -283,7 +267,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "kingdom-international-movers-dubai",
@@ -301,7 +286,7 @@
       "日本向け対応"
     ],
     "hours": "月〜金 9:00-18:00",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
@@ -310,7 +295,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "ysl-relocations-dubai",
@@ -328,7 +314,7 @@
       "日本向け対応"
     ],
     "hours": "月〜金 9:00-18:00",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
@@ -337,7 +323,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "helpxpat-relocations-dubai",
@@ -355,7 +342,7 @@
       "日本向け対応"
     ],
     "hours": "月〜金 8:30-17:30",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
@@ -364,7 +351,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "ags-relocations-dmcc-dubai",
@@ -382,7 +370,7 @@
       "日本向け対応"
     ],
     "hours": null,
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
@@ -391,7 +379,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "santa-fe-relocation-dubai-greens",
@@ -409,7 +398,7 @@
       "FIDI加盟"
     ],
     "hours": "月〜金 8:30-17:30",
-    "last_verified": "2026-04-04",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -420,6 +409,7 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   }
 ]
