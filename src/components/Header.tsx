@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
-import { Menu, X, ChevronDown } from "lucide-react";
+import { Menu, X, ChevronDown, MapPin, BriefcaseBusiness } from "lucide-react";
 import { countries } from "@/lib/countries";
 import ThemeToggle from "./ThemeToggle";
 import UserMenu from "./UserMenu";
@@ -17,13 +17,6 @@ const phaseLabel: Record<number, string> = {
 export default function Header() {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
-
-  // 現在のURLから国コードを取得（/sg/... → "sg"）、なければ "sg" をデフォルト
-  const currentCountryCode = (() => {
-    const seg = pathname.split("/")[1];
-    return countries.some((c) => c.code === seg) ? seg : "sg";
-  })();
-  const spotHref = `/${currentCountryCode}/spot`;
 
   const phases = [1, 2, 3] as const;
 
@@ -54,7 +47,7 @@ export default function Header() {
               <ChevronDown size={14} className="transition-transform group-hover:rotate-180" />
             </button>
             <div className="invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-200 absolute top-full left-1/2 -translate-x-1/2 pt-2">
-              <div className="bg-sand-50 dark:bg-stone-900 rounded-xl shadow-xl shadow-stone-900/10 border border-stone-100 dark:border-stone-700 p-4 min-w-[320px]">
+              <div className="bg-sand-50 dark:bg-stone-900 rounded-xl shadow-xl shadow-stone-900/10 border border-stone-100 dark:border-stone-700 p-4 min-w-[400px]">
                 {phases.map((phase) => {
                   const group = countries.filter((c) => c.phase === phase);
                   return (
@@ -64,19 +57,41 @@ export default function Header() {
                       </p>
                       <div className="grid grid-cols-1 gap-0.5">
                         {group.map((c) => (
-                          <Link
-                            key={c.code}
-                            href={`/${c.code}`}
-                            className="flex items-center gap-2.5 px-2 py-1.5 rounded-lg hover:bg-warm-50 dark:hover:bg-stone-700/60 transition-colors"
-                          >
-                            <span className="text-lg">{c.flag}</span>
-                            <span className="text-stone-700 dark:text-stone-300 text-sm hover:text-warm-700 dark:hover:text-warm-400 transition-colors">
-                              {c.name}
-                            </span>
-                            <span className="text-[11px] text-stone-400 dark:text-stone-500 ml-auto">
-                              {c.population}
-                            </span>
-                          </Link>
+                          <div key={c.code} className="flex items-center gap-1 rounded-lg hover:bg-warm-50 dark:hover:bg-stone-700/60 transition-colors px-2 py-1.5">
+                            <Link
+                              href={`/${c.code}`}
+                              className="flex items-center gap-2.5 flex-1 min-w-0"
+                            >
+                              <span className="text-lg shrink-0">{c.flag}</span>
+                              <span className="text-stone-700 dark:text-stone-300 text-sm hover:text-warm-700 dark:hover:text-warm-400 transition-colors truncate">
+                                {c.name}
+                              </span>
+                              <span className="text-[11px] text-stone-400 dark:text-stone-500 ml-auto shrink-0">
+                                {c.population}
+                              </span>
+                            </Link>
+                            {/* phase=1のみスポット・求人クイックリンク */}
+                            {phase === 1 && (
+                              <div className="flex items-center gap-1 ml-2 shrink-0">
+                                <Link
+                                  href={`/${c.code}/spot`}
+                                  className="flex items-center gap-1 text-[11px] text-stone-400 hover:text-warm-600 dark:hover:text-warm-400 bg-stone-100 dark:bg-stone-800 hover:bg-warm-50 dark:hover:bg-warm-900/30 px-2 py-1 rounded-md transition-colors"
+                                  title="KAIスポット"
+                                >
+                                  <MapPin size={10} />
+                                  スポット
+                                </Link>
+                                <Link
+                                  href={`/${c.code}/jobs`}
+                                  className="flex items-center gap-1 text-[11px] text-stone-400 hover:text-warm-600 dark:hover:text-warm-400 bg-stone-100 dark:bg-stone-800 hover:bg-warm-50 dark:hover:bg-warm-900/30 px-2 py-1 rounded-md transition-colors"
+                                  title="KAIジョブ"
+                                >
+                                  <BriefcaseBusiness size={10} />
+                                  求人
+                                </Link>
+                              </div>
+                            )}
+                          </div>
                         ))}
                       </div>
                     </div>
@@ -90,18 +105,6 @@ export default function Header() {
             className="hover:text-warm-500 dark:hover:text-warm-400 transition-colors"
           >
             お問い合わせ
-          </Link>
-          <Link
-            href={spotHref}
-            className="bg-warm-50 dark:bg-warm-900/20 text-warm-700 dark:text-warm-400 px-3 py-1 rounded-full border border-warm-200 dark:border-warm-800 hover:bg-warm-100 dark:hover:bg-warm-900/40 transition-colors text-xs font-semibold tracking-wide"
-          >
-            KAIスポット
-          </Link>
-          <Link
-            href={`/${currentCountryCode}/jobs`}
-            className="bg-warm-50 dark:bg-warm-900/20 text-warm-700 dark:text-warm-400 px-3 py-1 rounded-full border border-warm-200 dark:border-warm-800 hover:bg-warm-100 dark:hover:bg-warm-900/40 transition-colors text-xs font-semibold tracking-wide"
-          >
-            KAIジョブ
           </Link>
           <ThemeToggle />
           <UserMenu />
@@ -133,15 +136,36 @@ export default function Header() {
                     {phaseLabel[phase]}
                   </p>
                   {group.map((c) => (
-                    <Link
-                      key={c.code}
-                      href={`/${c.code}`}
-                      onClick={() => setOpen(false)}
-                      className="flex items-center gap-2.5 py-2 px-1 border-b border-stone-100 dark:border-stone-800"
-                    >
-                      <span className="text-base">{c.flag}</span>
-                      <span>{c.name}</span>
-                    </Link>
+                    <div key={c.code} className="border-b border-stone-100 dark:border-stone-800">
+                      <Link
+                        href={`/${c.code}`}
+                        onClick={() => setOpen(false)}
+                        className="flex items-center gap-2.5 py-2 px-1"
+                      >
+                        <span className="text-base">{c.flag}</span>
+                        <span className="flex-1">{c.name}</span>
+                      </Link>
+                      {phase === 1 && (
+                        <div className="flex gap-2 pb-2 px-1 ml-7">
+                          <Link
+                            href={`/${c.code}/spot`}
+                            onClick={() => setOpen(false)}
+                            className="flex items-center gap-1 text-xs text-stone-400 hover:text-warm-600 dark:hover:text-warm-400 bg-stone-100 dark:bg-stone-800 px-2.5 py-1 rounded-md transition-colors"
+                          >
+                            <MapPin size={10} />
+                            スポット
+                          </Link>
+                          <Link
+                            href={`/${c.code}/jobs`}
+                            onClick={() => setOpen(false)}
+                            className="flex items-center gap-1 text-xs text-stone-400 hover:text-warm-600 dark:hover:text-warm-400 bg-stone-100 dark:bg-stone-800 px-2.5 py-1 rounded-md transition-colors"
+                          >
+                            <BriefcaseBusiness size={10} />
+                            求人
+                          </Link>
+                        </div>
+                      )}
+                    </div>
                   ))}
                 </div>
               );
@@ -152,20 +176,6 @@ export default function Header() {
               className="py-2 mt-2 text-warm-600 dark:text-warm-400 font-semibold"
             >
               お問い合わせ
-            </Link>
-            <Link
-              href={spotHref}
-              onClick={() => setOpen(false)}
-              className="py-2 text-warm-600 dark:text-warm-400 font-semibold"
-            >
-              KAIスポット
-            </Link>
-            <Link
-              href={`/${currentCountryCode}/jobs`}
-              onClick={() => setOpen(false)}
-              className="py-2 text-warm-600 dark:text-warm-400 font-semibold"
-            >
-              KAIジョブ
             </Link>
           </div>
         </nav>

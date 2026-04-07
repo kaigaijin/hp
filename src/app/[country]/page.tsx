@@ -7,6 +7,7 @@ import { getArticlesByCountry } from "@/lib/articles";
 import {
   ArrowRight,
   MapPin,
+  BriefcaseBusiness,
   UtensilsCrossed,
   Stethoscope,
   Scissors,
@@ -107,25 +108,32 @@ export default async function CountryPage({
                 </p>
 
                 {/* CTA */}
-                {totalSpots > 0 && (
-                  <div className="flex flex-col sm:flex-row gap-3 mt-8">
+                <div className="flex flex-col sm:flex-row gap-3 mt-8">
+                  {totalSpots > 0 && (
                     <Link
                       href={`/${code}/spot`}
                       className="inline-flex items-center justify-center gap-2 bg-white text-warm-800 font-bold px-6 py-3 rounded-xl text-sm hover:bg-warm-50 transition-colors shadow-md"
                     >
                       <MapPin size={16} />
-                      日本人向けスポット {totalSpots}件を見る
+                      KAIスポット {totalSpots}件
                     </Link>
-                    {articles.length > 0 && (
-                      <a
-                        href="#articles"
-                        className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 border border-white/30 text-white font-medium px-6 py-3 rounded-xl text-sm transition-colors"
-                      >
-                        生活ガイド記事を読む
-                      </a>
-                    )}
-                  </div>
-                )}
+                  )}
+                  <Link
+                    href={`/${code}/jobs`}
+                    className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 border border-white/30 text-white font-medium px-6 py-3 rounded-xl text-sm transition-colors"
+                  >
+                    <BriefcaseBusiness size={16} />
+                    KAIジョブ
+                  </Link>
+                  {articles.length > 0 && (
+                    <a
+                      href="#articles"
+                      className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 border border-white/30 text-white font-medium px-6 py-3 rounded-xl text-sm transition-colors"
+                    >
+                      記事を読む
+                    </a>
+                  )}
+                </div>
 
                 {/* トピックタグ */}
                 <div className="flex flex-wrap gap-2 mt-6">
