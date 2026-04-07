@@ -7,15 +7,15 @@
     "address": "325 New Bridge Road, #03-00, Singapore 088754",
     "phone": "+6568844143",
     "website": null,
-    "description": "大阪発祥LIMグループの「1tto+lim」Chinatown拠点。New Bridge Roadに位置する日本スタイルのヘアサロン。スタイリッシュなカット・カラーを日本の技術で提供。Chinatown MRT近く。月曜定休。",
+    "description": "大阪発祥の日系ヘアサロングループLIMの1ブランド。Chinatown・New Bridge Roadの3階に位置し、カット・カラー・パーマを日本のスタイルで提供。Chinatown MRT徒歩圏内。月曜定休。",
     "tags": [
-      "日本式ヘアサロン",
-      "大阪発",
+      "日本スタイル",
+      "日系グループ",
       "Chinatown",
-      "New Bridge Road"
+      "LIMグループ"
     ],
     "hours": "火・水・金・土: 10:00-21:00 / 木・日: 10:00-18:00 / 月: 休",
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
@@ -24,7 +24,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "大阪生まれのLIMグループが展開するヘアサロンブランド「1tto+lim」のChinatown店。New Bridge Road 325番地の3階に位置する。LIMグループはシンガポールで長年の実績を持つ日系ヘアサロンで、他にKizuki+Lim・TOKI+Limなど複数ブランドを展開している。日本式のカット技術を軸に、カット・カラー・パーマなどのメニューを提供。日本人スタイリストの在籍については公式サイトからは確認が取れていないが、日本スタイルのヘアカット技術で知られるグループの一員として在住日本人にも利用者がいる。Chinatown MRTから徒歩圏内の好立地。火・水・金・土は10:00〜21:00、木・日は10:00〜18:00で月曜定休。予約はInstagramやWhatsApp経由が中心。",
+    "japanese_staff": null,
+    "price_range": null,
+    "menu_highlights": null,
+    "spot_reviewed": true
   },
   {
     "slug": "7pm",
@@ -34,13 +39,15 @@
     "address": "215S Upper Thomson Rd, Level 2, Singapore 574349",
     "phone": "+6589215324",
     "website": "https://www.the-7pm.com/",
-    "description": "Upper Thomson Roadの日系美容室「7pm」。日本人スタイリストが夜遅くまで営業し、仕事帰りにも利用しやすい。カット・カラー・パーマ・頭皮ケアを提供。Thomson周辺の日本人居住者に便利。",
+    "description": "Upper Thomson Road沿いの日系ヘアサロン。「7pmでも美しく」をコンセプトに仕事帰りでも利用しやすい営業時間を設定。スカルプトリートメントが人気。Thomson MRT出口4から徒歩3分。",
     "tags": [
-      "美容",
-      "日系サロン"
+      "日系サロン",
+      "Upper Thomson",
+      "ヘッドスパ",
+      "スカルプケア"
     ],
     "hours": "Monday: 11:00 AM – 7:00 PM / Tuesday: Closed / Wednesday: 12:30 – 8:30 PM / Thursday: 12:30 – 8:30 PM / Friday: 11:00 AM – 7:00 PM / Saturday: 10:30 AM – 7:00 PM / Sunday: 10:30 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJfYEpcN0X2jERB48CtAQptSA",
@@ -50,23 +57,36 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Upper Thomson Road 215番地2階に位置する日系ヘアサロン。「Always ready for a night out. Hair that still looks good for dinner at 7pm.」がコンセプトで、働く人が仕事帰りに立ち寄りやすい遅い時間まで営業することを重視している。Thomson MRT駅出口4から徒歩約3分の立地で、Upper Thomson周辺に多い日本人駐在家族や在住日本人からも利用がある。特にスカルプケアが充実しており、独自の「Dreamer's Scalp Tech Spa」などのヘッドスパメニューが好評。カット・カラー・パーマ・頭皮ケアに対応。日本人スタイリスト在籍については公式サイトからは確認できていないが、日本語での問い合わせを受け付けているとの情報もある。月曜11:00〜19:00、火曜定休、水・木12:30〜20:30、金11:00〜19:00、土・日10:30〜19:00。",
+    "japanese_staff": null,
+    "price_range": null,
+    "menu_highlights": [
+      "カット",
+      "カラー",
+      "パーマ",
+      "Dreamer's Scalp Tech Spa"
+    ],
+    "spot_reviewed": true
   },
   {
     "slug": "annanora-japanese-beauty-salon",
     "name": "Annanora Japanese Beauty Salon",
-    "name_ja": "アンナノーラ Japanese Beauty Salon",
+    "name_ja": "アンナノーラ ジャパニーズビューティーサロン",
     "area": "Singapore",
     "address": "13 Stanford Rd, B2, #49, Singapore 178905",
     "phone": "+6587511762",
     "website": "https://instagram.com/annanora_japanesebeautysalon?utm_medium=copy_link",
-    "description": "Capitol Singapore B2の日系ビューティーサロン。日本人スタイリスト在籍、カット・カラー・フェイシャル・エステに対応。City Hall駅徒歩圏内。",
+    "description": "Capitol Singapore B2の日系ビューティーサロン。日本人スタイリスト在籍でヘアカット・カラーとフェイシャル・エステに対応。City Hall駅から徒歩圏内の好立地。",
     "tags": [
+      "日本人スタイリスト",
       "ヘアサロン",
-      "日本人スタイリスト"
+      "フェイシャル",
+      "エステ",
+      "City Hall"
     ],
     "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: Closed / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ85byIYoZ2jERwCqym4Kxodk",
@@ -76,7 +96,17 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Capitol Singapore（13 Stanford Road）B2フロアに位置する日系のビューティーサロン。ヘアサービスだけでなくフェイシャルやエステも提供する複合サロンとして、在住日本人を中心に利用されている。「Japanese beauty salon in SG」として日本人スタイリストが在籍していることをInstagram（@annanora_japanesebeautysalon）でアピールしている。City Hall MRTから徒歩圏内という利便性の高い立地で、ビジネス街のオフィスワーカーや周辺在住の日本人にも利用しやすい。月〜水・金〜日は10:00〜20:00、木曜定休。予約はInstagramかWhatsApp経由が中心。",
+    "japanese_staff": true,
+    "price_range": null,
+    "menu_highlights": [
+      "ヘアカット",
+      "カラー",
+      "フェイシャル",
+      "エステ"
+    ],
+    "spot_reviewed": true
   },
   {
     "slug": "aoyama-hair-studio-clementi",
@@ -86,16 +116,16 @@
     "address": "3155 Commonwealth Avenue West, The Clementi Mall #05-34, Singapore 129588",
     "phone": "+6569092539",
     "website": "https://www.aoyamahairstudio.com/",
-    "description": "日本人スタイリストが在籍する日本式ヘアサロン「アオヤマ」のClementi Mall拠点。カット・カラー・トリートメントに対応。Clementi MRT直結。",
+    "description": "日本人スタイリストが在籍するAoyama Hair Studio（青山系）のClementi Mall店。カット・カラー・パーマ・トリートメントに対応。Clementi MRT直結で西部エリアの日本人駐在家族に便利。",
     "tags": [
       "日本人スタイリスト",
       "ヘアサロン",
       "Clementi",
-      "西部エリア",
-      "MRT直結"
+      "MRT直結",
+      "西部エリア"
     ],
     "hours": "毎日: 10:30-21:30",
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
@@ -104,7 +134,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "シンガポールで展開する日系ヘアサロン「Aoyama Hair Studio」のClementi Mall店。Clementi MRTと直結したThe Clementi Mall 5階に位置し、Clementi・West Coast・Dover周辺に住む日本人駐在家族に特に便利な立地。日本人スタイリストが複数在籍しており（公式サイトにて確認）、アーティスティックディレクターYuichi Sogaが指導した実力派スタイリストたちが最新の日本のヘアトレンドをシンガポールで提供している。カット・カラー・パーマ・リボンディング・トリートメント・キッズカットに対応。環境に優しいノンダメージ製品を使用している。毎日10:30〜21:30（土日祝日含む）。",
+    "japanese_staff": true,
+    "price_range": null,
+    "menu_highlights": [
+      "カット",
+      "カラー",
+      "パーマ",
+      "リボンディング",
+      "トリートメント"
+    ],
+    "spot_reviewed": true
   },
   {
     "slug": "aoyama-hair-studio-westgate",
@@ -114,16 +155,16 @@
     "address": "3 Gateway Drive, #B1-37 Westgate, Singapore 608532",
     "phone": "+6569096560",
     "website": "https://www.aoyamahairstudio.com/",
-    "description": "日本式ヘアスタジオ「アオヤマ」のJurong Eastエリア拠点。日本人スタイリスト在籍、カット・カラー・トリートメントに対応。Jurong East MRT直結Westgate内。",
+    "description": "日系Aoyama Hair StudioのWestgate店。日本人スタイリスト在籍でカット・カラー・パーマに対応。Jurong East MRT直結Westgateモール内に位置し、西部エリアの日本人に便利。",
     "tags": [
       "日本人スタイリスト",
       "ヘアサロン",
       "Jurong East",
-      "Westgate",
-      "MRT直結"
+      "MRT直結",
+      "Westgate"
     ],
     "hours": "毎日: 10:30-21:30",
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
@@ -132,59 +173,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "aqua-korean-hair-salon",
-    "name": "Aqua Korean Hair Salon",
-    "name_ja": "アクア コリアン ヘアサロン",
-    "area": "Singapore",
-    "address": "402 Orchard Rd, #02-11 / #03-16 Delfi Orchard, Singapore 238876",
-    "phone": "+6567328011",
-    "website": "http://aquahair.sg/",
-    "description": "Delfi Orchard内の韓国スタイルヘアサロン。日本語での相談も可能、カット・カラー・パーマに対応。Orchard駅から徒歩圏内の好立地。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+    "photo_name": null,
+    "detail": "シンガポールで展開する日系ヘアサロン「Aoyama Hair Studio」のJurong East Westgate店。Jurong East MRTと直結したWestgate B1に位置し、Jurong East・Buona Vista・Clementiエリアに在住する日本人駐在家族に便利な立地。日本人スタイリストを含む熟練スタッフが在籍しており、日本の最新ヘアトレンドをシンガポールで再現する技術が特徴。カット・カラー・パーマ・リボンディング・トリートメントに加え、キッズカットも提供。ノンダメージの環境配慮型製品を使用。毎日10:30〜21:30（土日祝日含む）。",
+    "japanese_staff": true,
+    "price_range": null,
+    "menu_highlights": [
+      "カット",
+      "カラー",
+      "パーマ",
+      "リボンディング",
+      "トリートメント"
     ],
-    "hours": "Monday: 10:30 AM – 7:30 PM / Tuesday: 10:30 AM – 7:30 PM / Wednesday: 10:30 AM – 7:30 PM / Thursday: 10:30 AM – 7:30 PM / Friday: 10:30 AM – 7:30 PM / Saturday: 11:00 AM – 6:00 PM / Sunday: 11:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJF1YwuowZ2jER10LZJvAH-FY",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "art-noise",
-    "name": "Art-Noise",
-    "name_ja": "アートノイズ",
-    "area": "Singapore",
-    "address": "38A Lor Mambong, Singapore 277694",
-    "phone": "+6564633651",
-    "website": "https://www.art-noise.sg/",
-    "description": "Holland Villageエリアの日系美容室。日本人スタイリストがカット・カラー・パーマ・トリートメントを提供。日本の最新ヘアスタイルトレンドを取り入れた施術で、在住日本人の利用者が多い。",
-    "tags": [
-      "美容",
-      "日系サロン"
-    ],
-    "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJrbNjomsa2jERZ8wXAr5o7hI",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "art-noise-holland-village",
@@ -194,102 +194,74 @@
     "address": "38A Lorong Mambong, Holland Village, Singapore 277694",
     "phone": "+6583380958",
     "website": "https://www.art-noise.sg/",
-    "description": "東京の人気サロンの海外1号店として2014年にオープン。Holland Villageに位置し、日本人スタイリストがカット・カラー・パーマ・トリートメントを提供。日本とオーストラリアにも展開。予約制。",
+    "description": "東京の人気サロンのシンガポール1号店として2014年開業。Holland Village・Lorong Mambongに位置し、日本人スタイリストのみ在籍。カット・カラー・縮毛矯正・ヘッドスパを提供。",
     "tags": [
-      "日本語対応",
-      "日本人スタイリスト",
-      "予約制",
-      "Holland Village"
+      "日本人スタイリストのみ",
+      "東京系サロン",
+      "Holland Village",
+      "縮毛矯正",
+      "予約制"
     ],
     "hours": "月・水〜日: 10:00-20:00（火曜定休）",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
     "phone_local": null,
-    "email": null,
+    "email": "hello.sg@art-noise.com",
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "assort-international-hair-salon-hong-kong",
-    "name": "Assort International Hair Salon Hong Kong",
-    "name_ja": "アソート インターナショナル ヘアサロン 香港",
-    "area": "Singapore",
-    "address": "30/F, The Sharp11-13 Sharp St E, Causeway Bay, Hong Kong",
-    "phone": "+85228363021",
-    "website": "https://hk.assort-hair.com/",
-    "description": "日本式のカット・カラー技術を提供する日系ヘアサロン。シンガポール在住の日本人コミュニティで利用されている。日本語での予約・カウンセリング対応。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+    "photo_name": null,
+    "detail": "東京の一流サロンがシンガポール初進出した日系ヘアサロン「Art-Noise」のHolland Village店。2014年9月にオープンし、Lorong Mambong 38Aに位置する。6名の熟練日本人スタイリストのみで構成されており、担当スタイリストがDaisuke、Yuka、Aki、Sayuriら全員が日本人。ヘアカット・カラー（ハイライト・バレイアージュ含む）・リボンディング（縮毛矯正）・ヘッドスパに対応。オリジナル製品「SHA」シャンプー＆トリートメントも販売。価格はカット$86〜、フルカラー$139〜、ハイライト$160〜、ヘッドスパ$32〜。日本とオーストラリアにも展開。問い合わせはhello.sg@art-noise.com、電話+65-6463-3651。月・水〜日10:00〜20:00（火曜定休）。予約制。",
+    "japanese_staff": true,
+    "price_range": "SGD 86-464",
+    "menu_highlights": [
+      "カット$86〜",
+      "フルカラー$139〜",
+      "ハイライト$160〜",
+      "ヘッドスパ$32〜",
+      "縮毛矯正$328〜"
     ],
-    "hours": "Monday: 11:00 AM – 7:00 PM / Tuesday: Closed / Wednesday: 11:00 AM – 7:00 PM / Thursday: 11:00 AM – 7:00 PM / Friday: 11:00 AM – 7:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJVVUc7FAABDQRKMRh1YLt5Sk",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "assort-tokyo",
-    "name": "Assort Tokyo",
-    "name_ja": "アソート東京",
-    "area": "Singapore",
-    "address": "Japan, 〒107-0061 Tokyo, Minato City, Kitaaoyama, 2-chōme−10−２８ リヘイビル B1F",
-    "phone": "+81357726461",
-    "website": "https://jp.assort-hair.com/",
-    "description": "東京・北青山発の日系美容室チェーン「ASSORT TOKYO」。日本人スタイリストによるカット・カラー・パーマを提供。東京の最新トレンドをシンガポールで再現する技術力が特徴。",
-    "tags": [
-      "美容",
-      "日系サロン"
-    ],
-    "hours": "Monday: 10:00 AM – 6:00 PM / Tuesday: 10:00 AM – 6:00 PM / Wednesday: 10:00 AM – 6:00 PM / Thursday: 10:00 AM – 6:00 PM / Friday: 10:00 AM – 6:00 PM / Saturday: 10:00 AM – 6:00 PM / Sunday: 10:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJP6IDBpmMGGARFkhpIZ9ypGI",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "aube-beauty-clarke-quay",
     "name": "AUBE Beauty Salon (Clarke Quay Central)",
     "name_ja": "オーブビューティーサロン クラークキーセントラル",
     "area": "Clarke Quay",
-    "address": "6 Eu Tong Sen Street, Clarke Quay Central, Singapore 059817",
-    "phone": "+6562353845",
+    "address": "6 Eu Tong Sen Street, #03-69 Clarke Quay Central, Singapore 059817",
+    "phone": "+6562260166",
     "website": "https://aube-sg.com/jp/",
-    "description": "日系ヘアサロンAUBEのClarke Quay Central店。日本人スタイリストによるカット・カラー・パーマ・トリートメントを提供。",
+    "description": "日本国内260店舗展開のAUBE日系ヘアサロンのClarke Quay Central店。日本人スタイリスト20名以上在籍でカット・カラー・パーマ・トリートメントに対応。Clarke Quay MRT直結。",
     "tags": [
-      "日本語対応",
       "日本人スタイリスト",
-      "予約可"
+      "日系チェーン",
+      "Clarke Quay",
+      "MRT直結"
     ],
     "hours": "10:00-20:00（毎日営業）",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本国内で260店舗以上、12カ国に展開する日系ヘアサロングループ「AUBE Beauty Salon」のClarke Quay Central店。Clarke Quay Central 3階（#03-69）に位置し、Clarke Quay MRTに直結するアクセスしやすい立地。シンガポール全4店舗に日本人スタイリスト20名以上が在籍（公式サイト確認済み）。ベンジャ・ヒロ・TAKAといった日本人スタイリストが顧客から好評を得ている。カット・カラー・パーマ・トリートメント・ネイルに対応。価格はカット$70〜、フルカラー$130以内と比較的リーズナブル。毎日10:00〜20:00（最終受付19:00）。予約はウェブサイトまたはWhatsApp経由。",
+    "japanese_staff": true,
+    "price_range": "SGD 70-200",
+    "menu_highlights": [
+      "カット$70〜",
+      "フルカラー$130以内",
+      "パーマ",
+      "トリートメント",
+      "ネイル"
+    ],
+    "spot_reviewed": true
   },
   {
     "slug": "aube-beauty-marina-square",
@@ -297,17 +269,17 @@
     "name_ja": "オーブビューティーサロン マリーナスクエア",
     "area": "Marina Bay",
     "address": "6 Raffles Boulevard, #03-131, Marina Square, Singapore 039594",
-    "phone": "+6562353845",
+    "phone": "+6562528186",
     "website": "https://aube-sg.com/jp/",
-    "description": "日系ヘアサロンAUBEのMarina Square店。日本人スタイリストが在籍し、カット・カラー・パーマ・トリートメントをリーズナブルな価格で提供。Marina Bay・Suntec方面の日本人居住者に便利な立地。",
+    "description": "日系AUBEのMarina Square店（B1-13/14）。日本人スタイリスト在籍でカット・カラー・パーマに対応。Esplanade MRT出口B直結のMarina Squareに位置し、Marina Bay周辺の在住日本人に便利。",
     "tags": [
-      "日本語対応",
       "日本人スタイリスト",
-      "予約可",
-      "Marina Bay"
+      "日系チェーン",
+      "Marina Square",
+      "MRT直結"
     ],
     "hours": "10:00-20:00（毎日営業）",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -316,86 +288,17 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "aube-beauty-salon",
-    "name": "AUBE Beauty Salon",
-    "name_ja": "オーブビューティーサロン",
-    "area": "Orchard",
-    "address": "501 Orchard Road, Wheelock Place, #05-09A, Singapore 238880",
-    "phone": "+6562353845",
-    "website": "https://aube-sg.com/jp/",
-    "description": "日本人スタイリストが在籍する日系ヘアサロンAUBE。カット・カラー・パーマ・トリートメントに対応。Wheelock Place・Marina Square・Somerset・Clarke Quayの4店舗展開。",
-    "tags": [
-      "日本語対応",
-      "日本人スタイリスト",
-      "複数店舗",
-      "予約可"
+    "photo_name": null,
+    "detail": "日本国内260店舗以上展開の日系ヘアサロングループ「AUBE Beauty Salon」のMarina Square店。Marina Square B1（#B1-13/14）に位置し、Esplanade MRT出口B直結という利便性の高い立地。日本人スタイリスト在籍で、カット・カラー・パーマ・トリートメント・ネイルに対応。Marina Bay・Suntec周辺に住む日本人駐在員やオフィスワーカーに利用しやすい。カット$70〜、フルカラー$130以内。毎日10:00〜20:00。電話は+65-6252-8186。",
+    "japanese_staff": true,
+    "price_range": "SGD 70-200",
+    "menu_highlights": [
+      "カット$70〜",
+      "フルカラー$130以内",
+      "パーマ",
+      "トリートメント"
     ],
-    "hours": "10:00-20:00（毎日営業、最終受付19:00）",
-    "last_verified": "2026-03-26",
-    "status": "unverified",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "aube-beauty-salon-clarke-quay-central",
-    "name": "AUBE Beauty Salon Clarke Quay Central",
-    "name_ja": "オーブ ビューティーサロン クラークキーセントラル",
-    "area": "Singapore",
-    "address": "〒059817, Eu Tong Sen St, 6号, Clarke Quay Central, #03-69",
-    "phone": "+6562260166",
-    "website": "https://aube-sg.com/",
-    "description": "Clarke Quay Central内の日系ヘアサロンAUBE。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。Clarke Quay MRT直結。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJV4H4v70Z2jERjI84Oe92I4M",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "aube-beauty-salon-marina-link-esplanade-mrt-exit-b",
-    "name": "AUBE beauty salon Marina Link(Esplanade MRT exit B)",
-    "name_ja": "オーブ ビューティーサロン マリーナリンク",
-    "area": "Singapore",
-    "address": "6 Raffles Boulevard B 1-13 / 14, Marina Square, Singapore 039594",
-    "phone": "+6588237918",
-    "website": "http://www.aube-sg.com/",
-    "description": "Marina Square・Esplanade駅そばの日系ヘアサロンAUBE。日本人スタイリスト在籍、カット・カラー・パーマに対応。Esplanade MRT出口B直結。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJQ6pgZKgZ2jER0py3n7LZ568",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "aube-beauty-salon-somerset",
@@ -405,13 +308,15 @@
     "address": "8 Grange Rd, #03-06 Cine Leisure, Singapore 239695",
     "phone": "+6564638066",
     "website": "http://www.aube-sg.com/",
-    "description": "Cine Leisure・Somerset Road沿いの日系ヘアサロンAUBE。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。Somerset MRT直結。",
+    "description": "日系AUBEのSomerset・Cineleisure店（#03-06）。日本人スタイリスト在籍でカット・カラー・パーマに対応。Somerset MRT直結のCathay Cineleisureに位置。",
     "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+      "日本人スタイリスト",
+      "日系チェーン",
+      "Somerset",
+      "MRT直結"
     ],
     "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJo6HlQhwZ2jERnGzYDY2H4L4",
@@ -421,7 +326,17 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "日本国内260店舗以上展開の日系ヘアサロングループ「AUBE Beauty Salon」のSomerset店。Cathay Cineleisure（8 Grange Road #03-06）に位置し、Somerset MRTに直結するアクセスの良い立地。日本人スタイリスト在籍で、カット・カラー・パーマ・トリートメントに対応。Orchard・Somerset周辺に住む日本人在住者やショッピングついでの利用にも便利。カット$70〜、フルカラー$130以内。毎日10:00〜20:00。電話は+65-6463-8066。",
+    "japanese_staff": true,
+    "price_range": "SGD 70-200",
+    "menu_highlights": [
+      "カット$70〜",
+      "フルカラー$130以内",
+      "パーマ",
+      "トリートメント"
+    ],
+    "spot_reviewed": true
   },
   {
     "slug": "aube-beauty-salon-wheelock-place",
@@ -431,13 +346,15 @@
     "address": "501 Orchard Road #05-09A, WHEELOCK PLACE, Singapore 238880",
     "phone": "+6562353845",
     "website": "http://www.aube-sg.com/",
-    "description": "Wheelock Place内の日系ヘアサロンAUBE。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。Orchard MRT徒歩圏内。",
+    "description": "日系AUBEのWheelockPlace旗艦店（#05-09A）。日本人スタイリスト在籍でカット・カラー・パーマに対応。Orchard MRT徒歩圏内のOrchardエリアに位置。",
     "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+      "日本人スタイリスト",
+      "日系チェーン",
+      "Orchard",
+      "Wheelock Place"
     ],
     "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJY3zgs40Z2jERMTA0NXAQN9U",
@@ -447,137 +364,17 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "aube-beauty-somerset",
-    "name": "AUBE Beauty Salon (Somerset)",
-    "name_ja": "オーブビューティーサロン サマセット",
-    "area": "Somerset",
-    "address": "8 Grange Road, #04-04, Cathay Cineleisure, Singapore 239695",
-    "phone": "+6562353845",
-    "website": "https://aube-sg.com/jp/",
-    "description": "日本人スタイリストが在籍する日系ヘアサロンAUBEのSomerset店。カット・カラー・パーマ・トリートメントに対応。Cathay Cineleisure内に位置。",
-    "tags": [
-      "日本語対応",
-      "日本人スタイリスト",
-      "予約可"
+    "photo_name": null,
+    "detail": "日本国内260店舗以上展開の日系ヘアサロングループ「AUBE Beauty Salon」のWheelockPlace店。501 Orchard Road #05-09A（WHEELOCK PLACE）に位置する。日本人スタイリスト在籍で、カット・カラー・パーマ・トリートメントに対応。シンガポール全4店舗のうちのOrchardエリア旗艦店。Orchard MRT徒歩圏内の好立地で、Orchard周辺の在住日本人にとって便利。カット$70〜、フルカラー$130以内。毎日10:00〜20:00。電話は+65-6235-3845。",
+    "japanese_staff": true,
+    "price_range": "SGD 70-200",
+    "menu_highlights": [
+      "カット$70〜",
+      "フルカラー$130以内",
+      "パーマ",
+      "トリートメント"
     ],
-    "hours": "10:00-20:00（毎日営業）",
-    "status": "unverified",
-    "source": "website",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "bada-hair-korean-hair-salon",
-    "name": "Bada Hair 바다 헤어 | Korean Hair Salon",
-    "name_ja": "バダヘア",
-    "area": "Singapore",
-    "address": "333A Orchard Road, #03-13 Mandarin Gallery, Singapore 238867",
-    "phone": "+6580578808",
-    "website": "http://www.badahair.sg/",
-    "description": "Orchard Road・Mandarin Gallery内の韓国スタイルヘアサロン。日本語での相談も可能、カット・カラー・パーマに対応。Orchard駅から徒歩圏内。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:30 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJR3UsdZEZ2jERI_mh8L0IYx4",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "beaut-hub-thomson-plaza",
-    "name": "Beauté Hub Thomson Plaza",
-    "name_ja": "ボーテハブ トムソンプラザ",
-    "area": "Singapore",
-    "address": "301 Upper Thomson Rd, #02-03 Thomson Plaza, Singapore 574408",
-    "phone": "+6565549559",
-    "website": "https://www.beautehub.com/",
-    "description": "Thomson Plaza 2階の日系ビューティーサロン。フェイシャル・スキンケア・ボディケアを提供。日本式の丁寧なカウンセリングと施術が特徴で、Thomson周辺の日本人駐在家族に便利な立地。",
-    "tags": [
-      "美容",
-      "日系サロン"
-    ],
-    "hours": "Monday: Closed / Tuesday: 12:00 – 9:00 PM / Wednesday: 12:00 – 9:00 PM / Thursday: 12:00 – 9:00 PM / Friday: 12:00 – 9:00 PM / Saturday: 10:30 AM – 5:00 PM / Sunday: 10:30 AM – 5:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJawI1JjAX2jERCPQnDPu2mIc",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "beauty-hope-ang-mo-kio",
-    "name": "Beauty Hope (Ang Mo Kio)",
-    "name_ja": "ビューティーホープ アンモーキオ",
-    "area": "Singapore",
-    "address": "709 Ang Mo Kio Ave 8, #01-2591, Singapore 560709",
-    "phone": "+6564582293",
-    "website": "http://www.beautyhope.com.sg/",
-    "description": "Ang Mo Kioの総合ビューティーサロン。フェイシャル・ボディケア・スリミング・脱毛など幅広いメニューを提供。HDB地区に位置し、地域の日本人居住者にもアクセスしやすい。",
-    "tags": [
-      "美容",
-      "日系サロン"
-    ],
-    "hours": "Monday: 11:00 AM – 9:00 PM / Tuesday: 11:00 AM – 9:00 PM / Wednesday: 11:00 AM – 9:00 PM / Thursday: 11:00 AM – 9:00 PM / Friday: 11:00 AM – 9:00 PM / Saturday: 10:30 AM – 6:00 PM / Sunday: 10:30 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJHwTHqucW2jERdqPWIKwtc78",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "billionhair-cove",
-    "name": "Billionhair Cove",
-    "name_ja": "ビリオンヘア コーブ",
-    "area": "Singapore",
-    "address": "11 Sin Ming Road, Thomson V, Two, #01-31, Singapore 575629",
-    "phone": "+6583700635",
-    "website": "https://www.instagram.com/billionhaircove/",
-    "description": "Thomson V2・Sin Ming Road沿いの日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。Marymount駅近く。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 11:00 AM – 8:00 PM / Tuesday: 11:00 AM – 8:00 PM / Wednesday: 11:00 AM – 8:00 PM / Thursday: 11:00 AM – 8:00 PM / Friday: 11:00 AM – 8:00 PM / Saturday: 11:00 AM – 7:00 PM / Sunday: 11:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJE6OgwCQX2jERePlzS0OnbsQ",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "branch-hair-and-nail",
@@ -593,7 +390,7 @@
       "日本人スタイリスト"
     ],
     "hours": "Monday: 11:00 AM – 5:30 PM / Tuesday: 11:00 AM – 5:30 PM / Wednesday: 11:00 AM – 5:30 PM / Thursday: 11:00 AM – 5:30 PM / Friday: 11:00 AM – 5:30 PM / Saturday: 11:00 AM – 5:30 PM / Sunday: 11:00 AM – 5:30 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJPWGxr6YZ2jERhAeMeEaAZ8I",
@@ -603,25 +400,29 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "Capitol Singapore B1と branché-capitol-piazzaが同一住所で重複の可能性。アドレスが同じ（13 Stamford Rd B1-33）。どちらかを削除すべきか要確認。",
+    "spot_reviewed": true
   },
   {
     "slug": "branché-capitol-piazza",
-    "name": "Branché Hair & Nail (Capitol Piazza)",
-    "name_ja": "ブランシェ ヘア＆ネイル キャピトルピアッツァ",
+    "name": "Branché Hair & Nail (Capitol Singapore)",
+    "name_ja": "ブランシェ ヘア＆ネイル キャピトルシンガポール",
     "area": "City Hall",
     "address": "13 Stamford Road, #B1-33 Capitol Singapore, Singapore 178905",
     "phone": "+6567023036",
     "website": "https://www.branche.sg/",
-    "description": "愛知県発祥・1990年創業Branché Groupのシンガポール旗艦店。日本人スタイリスト在籍、ヘアカット・カラー・ネイルに対応。Capitol Piazza B1。",
+    "description": "愛知発祥1990年創業BranchéグループのSG店。Capitol Singapore B1に位置し、日本人スタイリスト在籍でヘアカット・カラー・ネイル・まつげ・フェイシャルを提供。City Hall徒歩圏内。",
     "tags": [
       "日本人スタイリスト",
       "ヘア＆ネイル",
-      "City Hall",
-      "複合サロン"
+      "フェイシャル",
+      "複合サロン",
+      "City Hall"
     ],
     "hours": "毎日: 11:00-20:00",
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
@@ -630,61 +431,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "bump-hair-design-river-valley",
-    "name": "Bump Hair Design (River Valley)",
-    "name_ja": "バンプ ヘアデザイン リバーバレー",
-    "area": "River Valley",
-    "address": "11 Mohamed Sultan Road, #02-01/02, Singapore 239001",
-    "phone": "+6564633608",
-    "website": "https://bumprv.com/",
-    "description": "River Valley・Mohamed Sultan Roadのショップハウスに位置する日本人スタイリスト主体のヘアサロン。カット・カラー・パーマ・縮毛矯正・ヘッドスパなど日本式の繊細な技術を提供。少人数制で1対1のカウンセリングが好評。",
-    "tags": [
-      "日本人スタイリスト",
-      "ヘアサロン",
-      "River Valley",
-      "縮毛矯正",
-      "少人数制"
+    "photo_name": null,
+    "detail": "1990年に愛知県で創業した日系の複合ビューティーサロングループ「Branché」のシンガポール店。Capitol Singapore（13 Stamford Road #B1-33）に位置し、City Hall MRT徒歩圏内の好立地。日本人スタイリスト在籍で、ヘアサービス（カット・カラー・パーマ）に加え、ネイル・まつげ・フェイシャル・ドライヘッドスパまで対応する複合サロン。日本人の細部への気配りと技術を大切にしており、日本語での対応が可能。日本人駐在員やその家族に利用されている。毎日11:00〜20:00。電話+65-6702-3036。",
+    "japanese_staff": true,
+    "price_range": null,
+    "menu_highlights": [
+      "ヘアカット",
+      "カラー",
+      "ネイル",
+      "まつげエクステ",
+      "フェイシャル"
     ],
-    "hours": "月〜土: 10:00-20:00 / 日: 10:00-19:00",
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "cheongdam-united-square-best-korean-facial-singapore",
-    "name": "CHEONGDAM (United Square) - Best Korean Facial Singapore",
-    "name_ja": "チョンダム ユナイテッドスクエア",
-    "area": "Singapore",
-    "address": "101 Thomson Rd, B1-56H/56J/56K/56L United Square, Singapore 307591",
-    "phone": "+6562683686",
-    "website": "https://cheongdamskin.com/",
-    "description": "United Square内の韓国式フェイシャルサロン。最新の韓国スキンケア技術を取り入れたフェイシャルトリートメントを提供。日本人を含むアジア人の肌質に合わせた施術メニューが充実。",
-    "tags": [
-      "美容",
-      "日系サロン"
-    ],
-    "hours": "Monday: 11:00 AM – 9:00 PM / Tuesday: 11:00 AM – 9:00 PM / Wednesday: 11:00 AM – 9:00 PM / Thursday: 11:00 AM – 9:00 PM / Friday: 11:00 AM – 9:00 PM / Saturday: 10:00 AM – 6:00 PM / Sunday: 10:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJbzoHSrgZ2jER-2ft4eYtiS4",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "chez-moi-hair-salon",
@@ -702,7 +460,7 @@
       "縮毛矯正"
     ],
     "hours": "要確認",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -711,51 +469,29 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "cloover-hair",
-    "name": "Cloover hair 台北日本美容室",
-    "name_ja": "台北日本美容室",
-    "area": "Singapore",
-    "address": "號1樓, No. 13, Alley 12, Lane 71, Section 5, Zhongxiao E Rd, Xinyi District, Taipei City, Taiwan 11064",
-    "phone": "+886227766735",
-    "website": "https://www.cloover-hair.com/",
-    "description": "日本式のカット・カラー技術を提供する日系ヘアサロン。シンガポール在住の日本人コミュニティで利用されている。日本語での予約・カウンセリング対応。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 11:00 AM – 8:00 PM / Tuesday: Closed / Wednesday: 11:00 AM – 8:00 PM / Thursday: 11:00 AM – 8:00 PM / Friday: 11:00 AM – 8:00 PM / Saturday: 11:00 AM – 8:00 PM / Sunday: 10:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJFync4NqrQjQR14rJu2bMZDM",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "chezmoi.com.sgはスキンケアサロン（ヘアサロンではない）。chezmoi.sgはSSL証明書エラーで接続不可。日本人スタイリスト在籍の確認が取れない。ヘアサロンかどうかも不明。掲載の妥当性を要確認。",
+    "spot_reviewed": true
   },
   {
     "slug": "colors-hair-salon",
     "name": "Colors Japanese Hair Salon",
-    "name_ja": "カラーズ",
+    "name_ja": "カラーズ ジャパニーズ ヘアサロン",
     "area": "Clarke Quay",
     "address": "2 Havelock Road, #03-05/06 Havelock 2, Singapore 059763",
     "phone": "",
     "website": "https://colors-sg.com/",
-    "description": "ビザジズム（顔型診断）を取り入れ、一人ひとりの個性に合わせたカット・カラーを提案する日系ヘアサロン。縮毛矯正や髪質改善トリートメントが得意。オーガニックヘナやアンモニアフリーカラーなど髪に優しい選択肢も豊富。",
+    "description": "ビザジズム（顔型診断）を取り入れた個性重視の日系ヘアサロン。Clarke Quay・Havelock 2内に位置し、日本人スタイリスト在籍。オーガニックヘナやアンモニアフリーカラーも取り扱い。",
     "tags": [
-      "日本語対応",
       "日本人スタイリスト",
+      "ビザジズム",
       "髪質改善",
-      "オーガニック対応"
+      "オーガニック",
+      "Clarke Quay"
     ],
     "hours": "10:00-20:00（毎日営業）",
-    "last_verified": "2026-03-26",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -764,103 +500,36 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "colors-japanese-hair-salon-singapore",
-    "name": "Colors Japanese hair salon singapore",
-    "name_ja": "カラーズ",
-    "area": "Singapore",
-    "address": "2 Havelock Rd, #03-05/06, Havelock2 059763",
-    "phone": "+6562350226",
-    "website": "https://colors-sg.com/",
-    "description": "Havelock 2ショッピングモール内の日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマに対応。Clarke Quay駅から徒歩圏内。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+    "photo_name": null,
+    "detail": "Clarke Quay・Havelock 2ショッピングモール（2 Havelock Road #03-05/06）内に位置する日系ヘアサロン「Colors」。ビザジズム（visagisme）という顔型・顔の特徴診断を取り入れ、一人ひとりの個性に合わせたカット・カラーを提案することが特徴。縮毛矯正（リボンディング）や髪質改善トリートメントが得意。オーガニックヘナやアンモニアフリーカラーなど、髪に優しい選択肢も豊富。日本人スタイリストが在籍し、日本語での対応が可能。Clarke Quay MRT徒歩圏内。毎日10:00〜20:00。",
+    "japanese_staff": true,
+    "price_range": null,
+    "menu_highlights": [
+      "カット",
+      "カラー",
+      "縮毛矯正",
+      "オーガニックヘナ",
+      "髪質改善トリートメント"
     ],
-    "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJtwvWHpkZ2jERaAq65D4Hn8A",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "covo",
-    "name": "Hair Salon COVO",
-    "name_ja": "ヘアサロン コーヴォ",
-    "area": "Katong",
-    "address": "87 East Coast Road, #01-01, Singapore 428789",
-    "phone": "+6562259706",
-    "website": "https://www.covosg.com/",
-    "description": "East Coast・Tanjong Pagar・Boat Quay・Orchardの4店舗を展開する日系ヘアサロン。ロング料金なし。TOKIOインカラミやケラチントリートメントなど、髪質改善メニューが充実。日本語での電話予約可能。",
-    "tags": [
-      "日本語対応",
-      "日本人スタイリスト",
-      "複数店舗",
-      "ロング料金なし",
-      "予約可"
-    ],
-    "hours": "平日 10:00-20:00 / 週末 10:00-19:00",
-    "last_verified": "2026-03-26",
-    "status": "unverified",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "covo-boat-quay",
-    "name": "Hair Salon COVO (Boat Quay)",
-    "name_ja": "ヘアサロン コーヴォ ボートキー店",
-    "area": "Boat Quay",
-    "address": "Boat Quay, Singapore",
-    "phone": null,
-    "website": "https://www.covosg.com/",
-    "description": "日系ヘアサロンCOVOのBoat Quay店。ロング料金なし。TOKIOインカラミやケラチントリートメントなど髪質改善メニューが充実。",
-    "tags": [
-      "日本語対応",
-      "日本人スタイリスト",
-      "ロング料金なし"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "website",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "covo-hair-salon-boat-quay-singapore",
-    "name": "COVO Hair Salon @Boat Quay, Singapore - 日系ヘアサロン コボ シンガポール ボートキー",
-    "name_ja": "日系ヘアサロンコボシンガポールボートキー",
+    "name": "COVO Hair Salon (Boat Quay)",
+    "name_ja": "コボ ヘアサロン ボートキー店",
     "area": "Singapore",
-    "address": "81 S Bridge Rd, Singapore 058711",
+    "address": "81 South Bridge Road, Singapore 058711",
     "phone": "+6562268966",
     "website": "https://www.covosg.com/en/",
-    "description": "Boat Quay・South Bridge Road沿いの日系ヘアサロンCOVO。日本人スタイリスト在籍、カット・カラー・パーマに対応。Raffles Place駅から徒歩圏内。",
+    "description": "日系ヘアサロンCOVOのBoat Quay店。81 South Bridge Roadに位置し、日本人スタイリスト在籍。カット$70〜で長さ料金なし。Raffles Place駅から徒歩5分、Clarke Quay駅から徒歩6分。",
     "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+      "日本人スタイリスト",
+      "ダメージフリー",
+      "Boat Quay",
+      "ロング料金なし"
     ],
     "hours": "Monday: 9:00 AM – 8:00 PM / Tuesday: 9:00 AM – 8:00 PM / Wednesday: 9:00 AM – 8:00 PM / Thursday: 9:00 AM – 8:00 PM / Friday: 9:00 AM – 8:00 PM / Saturday: 9:00 AM – 7:00 PM / Sunday: 9:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJH9i7-zgZ2jERvbmM_kPWMYo",
@@ -870,104 +539,36 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "covo-hair-salon-katong-singapore",
-    "name": "COVO Hair Salon @Katong, Singapore - 日系ヘアサロン コボ シンガポール カトン イースト",
-    "name_ja": "日系ヘアサロンコボシンガポールカトンイースト",
-    "area": "Singapore",
-    "address": "87 E Coast Rd, Singapore 428789",
-    "phone": "+6562259706",
-    "website": "http://covosg.com/en/",
-    "description": "East Coast Road沿いの日系ヘアサロンCOVO。日本人スタイリスト在籍、カット・カラー・パーマに対応。Katongエリアの日本人在住者に人気。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+    "photo_name": null,
+    "detail": "シンガポールを代表する日系ヘアサロン「COVO（コーヴォ）」のBoat Quay店。81 South Bridge Roadに位置し、Raffles Place MRT駅出口Gから徒歩5分、Clarke Quay MRT駅出口Eから徒歩6分の利便性の高い立地。経験10年以上の日本人スタイリストが全施術を担当し、担当スタイリストが最初から最後まで一対一で対応する。COVO独自の「ダメージフリー施術」が特徴で、TOKIOインカラミトリートメントやケラチントリートメントも提供。ロング料金なし。カット$70〜、カラー$100〜、トリートメント$90〜$330。平日9:00〜20:00、土日9:00〜19:00。",
+    "japanese_staff": true,
+    "price_range": "SGD 70-330",
+    "menu_highlights": [
+      "カット$70〜",
+      "カラー$100〜",
+      "TOKIOインカラミ",
+      "ケラチントリートメント"
     ],
-    "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJDZ9zjHIY2jERM646Ys-5h5I",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "covo-hair-salon-orchard-singapore",
-    "name": "COVO Hair Salon @Orchard, Singapore - 日系ヘアサロン コボ シンガポール",
-    "name_ja": "日系ヘアサロンコボシンガポール",
-    "area": "Singapore",
-    "address": "〒238884, Orchard Rd, 583号, Forum The Shopping Mall, B1-18",
-    "phone": "+6562214585",
-    "website": "https://www.covosg.com/en/",
-    "description": "Forum The Shopping Mall B1の日系ヘアサロンCOVO。日本人スタイリスト在籍、カット・カラー・パーマに対応。Orchard Road沿いで好立地。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJo6tWY3IZ2jERkmJMVa_q8lA",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "covo-hair-salon-tanjong-pagar-singapore-hair-salon",
-    "name": "COVO Hair Salon @Tanjong Pagar Singapore Hair Salon 日系ヘアサロン コボ シンガポール",
-    "name_ja": "日系ヘアサロンコボシンガポール",
-    "area": "Singapore",
-    "address": "31 Duxton Rd, Hairsalon Singapore ヘアサロン, Singapore 089495",
-    "phone": "+6569099589",
-    "website": "https://www.covosg.com/",
-    "description": "Duxton Road沿いの日系ヘアサロンCOVO。日本人スタイリスト在籍、カット・カラー・パーマを日本品質で提供。Tanjong Pagar駅から徒歩圏内。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 9:00 AM – 8:00 PM / Tuesday: 9:00 AM – 8:00 PM / Wednesday: 9:00 AM – 8:00 PM / Thursday: 9:00 AM – 8:00 PM / Friday: 9:00 AM – 8:00 PM / Saturday: 9:00 AM – 7:00 PM / Sunday: 9:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJmZR3atYZ2jERlB8MB-5w-x0",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "covo-katong",
     "name": "COVO Hair Salon (Katong)",
-    "name_ja": "コボ ヘアサロン カトン",
+    "name_ja": "コボ ヘアサロン カトン店",
     "area": "Katong",
     "address": "87 East Coast Road, #01-01, Singapore 428789",
     "phone": "+6562259706",
     "website": "https://www.covosg.com/",
-    "description": "日本式ヘアサロングループCOVOのカトン東部拠点。East Coast Roadの洒落たショップハウス内に位置。日本人スタイリストが在籍し、カット・カラー・パーマ・ヘッドスパを提供。東部エリアに住む日本人女性に特に人気が高い。",
+    "description": "日系ヘアサロンCOVOのKatong本店。87 East Coast Road・ショップハウスに位置し、日本人スタイリスト在籍。東部エリアの日本人在住者に人気。カット$70〜・長さ料金なし。",
     "tags": [
       "日本人スタイリスト",
-      "ヘアサロン",
       "Katong",
       "東部エリア",
-      "ショップハウス"
+      "ロング料金なし",
+      "完全担当制"
     ],
     "hours": "平日: 10:00-20:00 / 土日祝: 10:00-19:00",
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
@@ -976,51 +577,35 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "covo-orchard",
-    "name": "Hair Salon COVO (Orchard)",
-    "name_ja": "ヘアサロン コーヴォ オーチャード店",
-    "area": "Orchard",
-    "address": "Orchard, Singapore",
-    "phone": null,
-    "website": "https://www.covosg.com/",
-    "description": "日系ヘアサロンCOVOのOrchard店。ロング料金なし。TOKIOインカラミやケラチントリートメントなど髪質改善メニューが充実。",
-    "tags": [
-      "日本語対応",
-      "日本人スタイリスト",
-      "ロング料金なし"
+    "photo_name": null,
+    "detail": "シンガポールを代表する日系ヘアサロン「COVO（コーヴォ）」のKatong店（87 East Coast Road #01-01）。CFA経験10年以上の日本人スタイリスト複数名が在籍し、NATSUMI・KIYO・CHIKA・KEI・KAZZ・SHOBUらが担当する。担当スタイリストが最初から最後まで一対一で施術する完全担当制で、TOKIO INKARAMIトリートメントやケラチントリートメントなど日本品質の髪質改善メニューが充実。ロング料金なし。カット$70〜$80、トリートメント$90〜$330。Paya Lebar・Eunos MRTから車で約5分。平日10:00〜20:00、土日祝10:00〜19:00。",
+    "japanese_staff": true,
+    "price_range": "SGD 70-330",
+    "menu_highlights": [
+      "カット$70〜$80",
+      "カラー$100〜",
+      "TOKIOインカラミ",
+      "ケラチントリートメント"
     ],
-    "hours": null,
-    "status": "unverified",
-    "source": "website",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "covo-orchard-forum",
-    "name": "COVO Hair Salon (Forum The Shopping Mall)",
-    "name_ja": "コボ ヘアサロン フォーラムザショッピングモール",
+    "name": "COVO Hair Salon (Orchard Forum)",
+    "name_ja": "コボ ヘアサロン オーチャード フォーラム店",
     "area": "Orchard",
     "address": "583 Orchard Road, #B1-18 Forum The Shopping Mall, Singapore 238884",
     "phone": "+6562214585",
     "website": "https://www.covosg.com/",
-    "description": "日本人スタイリストが在籍する日系ヘアサロンCOVOのOrchard拠点。カット・カラー・パーマに対応。Forum The Shopping Mall B1、日本語予約可能。",
+    "description": "日系ヘアサロンCOVOのOrchard店。Forum The Shopping Mall B1に位置し、日本人スタイリスト在籍。カット$70〜・長さ料金なし。Orchard MRT徒歩圏内の好立地。",
     "tags": [
       "日本人スタイリスト",
-      "ヘアサロン",
       "Orchard",
-      "ショッピングモール内"
+      "Forum Mall",
+      "ロング料金なし"
     ],
     "hours": "平日: 10:00-20:00 / 土日祝: 10:00-19:00",
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
@@ -1029,61 +614,54 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "シンガポールを代表する日系ヘアサロン「COVO（コーヴォ）」のOrchard店（583 Orchard Road, #B1-18 Forum The Shopping Mall）。Orchard MRT徒歩圏内のForum The Shopping Mall B1に位置する。経験10年以上の日本人スタイリストが在籍し、カット・カラー・パーマ・縮毛矯正・トリートメントを提供。COVO全店舗に共通のポリシーである完全担当制（担当スタイリストが最初から最後まで対応）を採用。ロング料金なし。カット$70〜$80、トリートメント$90〜。平日10:00〜20:00、土日祝10:00〜19:00。",
+    "japanese_staff": true,
+    "price_range": "SGD 70-330",
+    "menu_highlights": [
+      "カット$70〜",
+      "カラー$100〜",
+      "TOKIOインカラミ",
+      "ケラチントリートメント"
+    ],
+    "spot_reviewed": true
   },
   {
     "slug": "covo-tanjong-pagar",
-    "name": "Hair Salon COVO (Tanjong Pagar)",
-    "name_ja": "ヘアサロン コーヴォ タンジョンパガー店",
+    "name": "COVO Hair Salon (Tanjong Pagar)",
+    "name_ja": "コボ ヘアサロン タンジョンパガー店",
     "area": "Tanjong Pagar",
-    "address": "Tanjong Pagar, Singapore",
-    "phone": null,
+    "address": "31 Duxton Road, Singapore 089495",
+    "phone": "+6569099589",
     "website": "https://www.covosg.com/",
-    "description": "日系ヘアサロンCOVOのタンジョンパガー店。ロング料金なし。TOKIOインカラミやケラチントリートメントなど髪質改善メニューが充実。East Coast本店とは別店舗。",
+    "description": "日系ヘアサロンCOVOのTanjong Pagar店。Duxton Road沿いに位置し、日本人スタイリスト在籍。カット$70〜・長さ料金なし。Tanjong Pagar MRT出口A徒歩5分。",
     "tags": [
-      "日本語対応",
       "日本人スタイリスト",
+      "Tanjong Pagar",
+      "Duxton Road",
       "ロング料金なし"
     ],
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "devonshire-hair-salon",
-    "name": "Devonshire Hair Salon",
-    "name_ja": "デヴォンシャー",
-    "area": "Somerset",
-    "address": "113 Devonshire Road, Singapore 239878",
-    "phone": "+6563347898",
-    "website": "https://devonshire.info/",
-    "description": "Somerset・Orchardエリアにある日系ヘア・まつげ・フェイシャルサロン。経験豊富な日本人スタッフが最初から最後まで担当。ヘアカット・カラー・パーマに加え、まつげエクステ・フェイシャルエステも提供。",
-    "tags": [
-      "日本語対応",
-      "日本人スタイリスト",
-      "まつげ",
-      "フェイシャル",
-      "予約可"
+    "photo_name": null,
+    "detail": "シンガポールを代表する日系ヘアサロン「COVO（コーヴォ）」のTanjong Pagar店（31 Duxton Road）。Tanjong Pagar MRT出口Aから徒歩5分、Maxwell MRT出口3から徒歩1分という利便性の高い立地。経験10年以上の日本人スタイリストが在籍し、完全担当制で最初から最後まで一人のスタイリストが担当する。カット・カラー・パーマ・縮毛矯正・TOKIOインカラミトリートメントに対応。ロング料金なし。カット$70〜$80。平日9:00〜20:00、土日祝9:00〜19:00。",
+    "japanese_staff": true,
+    "price_range": "SGD 70-330",
+    "menu_highlights": [
+      "カット$70〜",
+      "カラー$100〜",
+      "縮毛矯正",
+      "TOKIOインカラミ"
     ],
-    "hours": "要確認",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "devonshire-japanese-hair-and-eyelash-salon",
@@ -1093,13 +671,14 @@
     "address": "113 Devonshire Rd, Singapore 239878",
     "phone": "+6592323376",
     "website": "https://devonshire.info/",
-    "description": "Devonshire Road沿いの日系ヘアサロン。日本人スタイリスト在籍、ヘアカット・カラー・まつげエクステに対応。Somerset・Orchard MRT駅から徒歩圏内。",
+    "description": "日本人スタイリストのみが担当するヘア＆まつ毛専門サロン。Somerset/Orchardエリアの地下1階に位置し、日本語で相談できる。",
     "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+      "日本人スタイリストのみ",
+      "まつ毛エクステ",
+      "Somerset"
     ],
     "hours": "Monday: 10:00 AM – 7:00 PM / Tuesday: 10:00 AM – 7:00 PM / Wednesday: 10:00 AM – 7:00 PM / Thursday: 10:00 AM – 7:00 PM / Friday: 10:00 AM – 7:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJB-mw85AZ2jERwLyMxpbP-vU",
@@ -1109,111 +688,16 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "elene-beauty-upper-thomson",
-    "name": "Elene Beauty Upper Thomson",
-    "name_ja": "エレンビューティー アッパートムソン",
-    "area": "Singapore",
-    "address": "191A Upper Thomson Rd, Singapore 574337",
-    "phone": "+6560470408",
-    "website": "https://www.instagram.com/elenebeautysg/?igsh=MXhqeWEzcjRvZThzcQ==&utm_source=qr",
-    "description": "Upper Thomson Roadの日系ビューティーサロン。フェイシャル・スキンケア・まつげ施術を提供。Thomson周辺に住む日本人駐在家族に便利な立地で、日本式の丁寧な施術が特徴。",
-    "tags": [
-      "美容",
-      "日系サロン"
+    "photo_name": null,
+    "detail": "「DEVONSHIRE」は、日本人スタイリストだけが在籍するシンガポールの日系ヘア＆まつ毛サロンだ。113 Devonshire Road、Somerset/Orchardエリアのショップハウス内に構え、カット・カラー・トリートメントからまつ毛エクステまで、ビューティーケアをワンストップで提供している。\n\nスタイリストにはErika、Momo、KazuといったベテランのJapanese stylists が揃い、客との丁寧なコミュニケーションを大切にする姿勢が口コミでも高く評価されている。日本語が話せることはもちろん、英語での対応も得意なため、日本人はもちろん英語圏のクライアントにも安心して利用されている。\n\nヘアメニューではVoyage Treatmentと呼ばれるシグネチャートリートメントが人気で、傷んだ髪に栄養と水分を補いながら、シンガポールの高温多湿な気候でも扱いやすいスタイルに仕上げる。まつ毛メニューはエクステンションからリフトまで揃い、目元のケアも一度のサロン訪問で完結できる点が駐在員や在住の日本人女性に好評だ。\n\n営業時間は月〜金10:00〜19:00、土日10:00〜18:00。予約はウェブサイト（devonshire.info）または電話・WhatsAppで受け付けており、事前予約が推奨されている。",
+    "japanese_staff": true,
+    "price_range": "SGD 90〜",
+    "menu_highlights": [
+      "カット$90〜",
+      "Voyage Treatment",
+      "まつ毛エクステ"
     ],
-    "hours": "Monday: 10:30 AM – 8:30 PM / Tuesday: 10:30 AM – 8:30 PM / Wednesday: 10:30 AM – 8:30 PM / Thursday: 10:30 AM – 8:30 PM / Friday: 10:30 AM – 8:30 PM / Saturday: 10:30 AM – 8:30 PM / Sunday: 10:30 AM – 8:30 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJS1IVH6wX2jERza_3VSo5cOg",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "euro-sense-thomson-plaza",
-    "name": "Euro Sense Thomson Plaza",
-    "name_ja": "ユーロセンス トムソンプラザ",
-    "area": "Singapore",
-    "address": "301 Upper Thomson Rd, #01-89/90 Thomson Plaza, Singapore 574408",
-    "phone": "+6564515568",
-    "website": "http://www.eurosensegroup.com/",
-    "description": "Thomson Plaza内の日系美容室グループ。日本の技術を取り入れたカット・カラー・パーマ・ヘッドスパを提供。Thomson周辺の日本人駐在家族に便利なモール内立地。",
-    "tags": [
-      "美容",
-      "日系サロン"
-    ],
-    "hours": "Monday: 10:30 AM – 9:00 PM / Tuesday: 10:30 AM – 9:00 PM / Wednesday: 10:30 AM – 9:00 PM / Thursday: 10:30 AM – 9:00 PM / Friday: 10:30 AM – 9:00 PM / Saturday: 9:30 AM – 7:00 PM / Sunday: 9:30 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJN0cGKDAX2jERdpKo2RsMUpM",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "face-lit",
-    "name": "Face Lit",
-    "name_ja": "フェイスリット",
-    "area": "Singapore",
-    "address": "228B Ang Mo Kio Street 23, #14-41, Singapore 562228",
-    "phone": null,
-    "website": "https://www.facebook.com/Face-Lit-Home-Based-Facial-104324515058471",
-    "description": "Ang Mo Kioの自宅サロン型フェイシャル専門店。日本式のフェイシャルケア・スキンケアを提供。プライベートな空間でのマンツーマン施術が特徴で、予約制で丁寧なカウンセリングを実施。",
-    "tags": [
-      "美容",
-      "日系サロン"
-    ],
-    "hours": "Monday: 10:00 AM – 9:30 PM / Tuesday: 10:00 AM – 9:30 PM / Wednesday: 10:00 AM – 9:30 PM / Thursday: 10:00 AM – 9:30 PM / Friday: 10:00 AM – 9:30 PM / Saturday: 10:00 AM – 9:30 PM / Sunday: 10:00 AM – 9:30 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJ05lReEIX2jERYhSVvvwOMBE",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "fesmile-beauty",
-    "name": "Fesmile Beauty",
-    "name_ja": "フェスマイル ビューティー",
-    "area": "Singapore",
-    "address": "Bishan, 279 Bishan Street 24, #01-40, Singapore 570279",
-    "phone": "+6582626605",
-    "website": "https://sitelift.site/fesmilebeauty/",
-    "description": "Bishan地区の日系ビューティーサロン。フェイシャル・ボディケアを中心に日本式のスキンケア施術を提供。HDB内のプライベートサロンで、リラックスした空間での施術が可能。",
-    "tags": [
-      "美容",
-      "日系サロン"
-    ],
-    "hours": "Monday: 10:00 AM – 7:30 PM / Tuesday: 10:00 AM – 7:30 PM / Wednesday: 10:00 AM – 7:30 PM / Thursday: 10:00 AM – 7:30 PM / Friday: 10:00 AM – 7:30 PM / Saturday: 10:00 AM – 7:30 PM / Sunday: 10:00 AM – 7:30 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJnSmImDEX2jERpZL0RuemyjY",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "graceous-eyelash-bugis",
@@ -1223,128 +707,103 @@
     "address": "26A Purvis Street, Singapore 188603",
     "phone": "+6568370552",
     "website": null,
-    "description": "日本式まつげエクステ専門の日系サロンGraceousのBugis店。日本の技術でまつげエクステを施術。Purvis Street沿い、Bugis駅から徒歩圏内。",
+    "description": "日本からまつ毛グルーや用品を直輸入するJapanese Eyelash Barの老舗。Bugis/City Hallエリアに位置し、日本語対応可能。",
     "tags": [
-      "まつげエクステ",
-      "日本式",
-      "予約可"
+      "まつ毛エクステ",
+      "日本式技術",
+      "Bugis"
     ],
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「GRACEOUS JAPANESE EYELASH BAR」は、シンガポールに複数拠点を持つ日本式まつ毛サロンのブランドだ。Bugis店は26A Purvis Street（City Hall MRTからも徒歩圏）に位置し、日本からまつ毛エクステ用品・グルーを直輸入することで品質にこだわっている。\n\nサービスはまつ毛エクステのほか、「Perfect Lash」と呼ばれる日本特許技術を活用したまつ毛除去・ケアも提供。天然まつ毛を傷めずにエクステを外せる独自技術は、長く通い続けるリピーターから支持を得ている。さらにまつ毛パーマ（リフト）やまつ毛育毛ケアのメニューも揃い、目元のあらゆる悩みに対応している。\n\nシンガポールの高温多湿な気候に合わせてテストされた日本製グルーを使用しており、持ちの良さが口コミで評判だ。スタッフは日本式の技術訓練を受けており、日本語でのカウンセリングにも対応している。\n\nCity Hall/Bugisエリアという立地上、中心部に勤務する駐在員や観光で訪れる日本人にも利用しやすい。予約はインスタグラム（@graceous_sg）やウェブサイト（graceous.com）から可能。",
+    "japanese_staff": true,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "まつ毛エクステ",
+      "Perfect Lash（まつ毛ケア）",
+      "まつ毛リフト"
+    ],
+    "spot_reviewed": true
   },
   {
     "slug": "graceous-eyelash-river-valley",
     "name": "Graceous Japanese Eyelash Bar (River Valley)",
     "name_ja": "グレイシャス リバーバレー",
     "area": "River Valley",
-    "address": "9 Mohamed Sultan Road, #03-02, Singapore 238959",
+    "address": "11 Mohamed Sultan Road, #03-02, Singapore 238959",
     "phone": "+6562356935",
     "website": null,
-    "description": "日本式のまつげエクステ専門サロン。シンガポールで長年営業を続け、日本人を含む多くの顧客に利用されている。River Valley店とBugis店の2店舗を展開。",
+    "description": "日本式まつ毛技術とJapanese Eyelash BarのRiver Valley店。Fort Canning MRT至近、日本語対応あり。",
     "tags": [
-      "まつげエクステ",
-      "日本式",
-      "予約可"
+      "まつ毛エクステ",
+      "日本式技術",
+      "River Valley"
     ],
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "hair-salon-tokyo-michaela",
-    "name": "Hair Salon Tokyo MICHAELA",
-    "name_ja": "ヘアサロン東京 ミカエラ",
-    "area": "Singapore",
-    "address": "23 New Bridge Rd, Singapore 059389",
-    "phone": "+6581393274",
-    "website": "http://michaela.sg/",
-    "description": "New Bridge Road沿いの日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマ・縮毛矯正に対応。Clarke Quay駅から徒歩圏内。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+    "photo_name": null,
+    "detail": "「GRACEOUS JAPANESE EYELASH BAR」のRiver Valley店は、11 Mohamed Sultan Road（Fort Canning MRT徒歩数分圏）のアティックフロア（3階）に構える日本式まつ毛サロンだ。Bugis店と同様に、まつ毛エクステ・まつ毛リフト・まつ毛育毛ケアをメインメニューに提供している。\n\n使用するエクステ用品とグルーはいずれも日本から直輸入で、シンガポールの気候に合わせた品質検証済み。「Perfect Lash」技術による天然まつ毛を傷めない除去メニューはリピーターに好評だ。\n\nRiver Valley/Mohamed Sultan Roadエリアは日本人居住者・駐在員が多く暮らすエリアの一角に当たり、GRACEOUSはその層からの支持も厚い。問い合わせはWhatsApp（+65 8699 6045）またはグラシャスSNSから。",
+    "japanese_staff": true,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "まつ毛エクステ",
+      "Perfect Lash（まつ毛ケア）",
+      "まつ毛リフト"
     ],
-    "hours": "Monday: 11:00 AM – 8:00 PM / Tuesday: Closed / Wednesday: 11:00 AM – 8:00 PM / Thursday: 11:00 AM – 8:00 PM / Friday: 11:00 AM – 8:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJAyERVnUZ2jERST-pYmUClp0",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "hair-salon-tokyo-michaela-sg",
-    "name": "Hair Salon Tokyo Michaela",
+    "name": "Hair Salon Tokyo MICHAELA (Riverside Point)",
     "name_ja": "ヘアサロン 東京ミカエラ",
     "area": "Clarke Quay",
     "address": "30 Merchant Road, #02-24/25 Riverside Point, Singapore 058282",
     "phone": "+6565380263",
     "website": null,
-    "description": "日本人スタイリストが在籍する日系ヘアサロン。Riverside Point・Clarke Quay沿いに位置、カット・カラー・パーマ・縮毛矯正に対応。Robertson Quay近く。",
+    "description": "2015年開業の老舗日系ヘアサロン。Clarke Quay MRT徒歩1分で日本語対応、キッズルームも完備。",
     "tags": [
       "日本人スタイリスト",
-      "ヘアサロン",
-      "Clarke Quay",
-      "リバーサイド"
+      "キッズルーム",
+      "Clarke Quay"
     ],
     "hours": "月〜金: 11:00-21:00 / 土日: 10:00-20:00",
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
     "phone_local": null,
-    "email": null,
+    "email": "info@michaela.sg",
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "hair-studio-flamingo",
-    "name": "Hair & Eyelash Studio Flamingo",
-    "name_ja": "ヘアスタジオ フラミンゴ",
-    "area": "Tanjong Pagar",
-    "address": "3A Neil Road, #2F, Singapore 088805",
-    "phone": "+6587262116",
-    "website": "https://www.hairstudioflamingo.com/",
-    "description": "Tanjong PagarとTiong Bahruに2店舗を展開する日系美容室。シンガポールの高温多湿な気候でも扱いやすいヘアスタイルを提案。グリーンを取り入れたナチュラルな店内でリラックスできる空間。",
-    "tags": [
-      "日本語対応",
-      "日本人スタイリスト",
-      "予約可"
+    "photo_name": null,
+    "detail": "「Hair Salon Tokyo MICHAELA」のRiverside Point店は、30 Merchant Road #02-24/25に位置し、Clarke Quay MRT（Exit E）から徒歩約1分というアクセスの良さで多くの日本人駐在員・在住者に親しまれている。\n\n2015年創業の日系サロンで、日本人スタイリストが在籍。カット・カラー・パーマからヘッドスパまで幅広いメニューを提供するほか、「Sara-saraトリートメント」など独自の日本式ケアも取り入れている。シンガポール内で初めて塩素・フッ素等を除去する水浄化装置を導入したサロンとして知られ、水質にまでこだわった施術が受けられる。\n\nキッズルームを備えており、小さな子ども連れの家族でも安心して利用できる点は、子育て世代の駐在員家族にとって大きな魅力だ。\n\n営業時間は日曜10:00〜19:00、月曜09:30〜20:00、火曜09:30〜19:00、水〜金09:30〜20:00、土曜10:00〜19:00。予約はウェブサイト（michaela.sg）または電話・メール（info@michaela.sg）で受け付けている。\n\nなお、23 New Bridge Road 2Fには「Hair Salon MICHAELA」（別エントリ: michaela-hair-salon）も存在する姉妹店があるため、来店前に店舗を確認することを推奨する。",
+    "japanese_staff": true,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "カット",
+      "カラー",
+      "Sara-saraトリートメント",
+      "ヘッドスパ"
     ],
-    "hours": "10:00-20:30（毎日営業）",
-    "last_verified": "2026-03-26",
-    "status": "unverified",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "hair-studio-flamingo-tanjong-pagar",
@@ -1354,13 +813,14 @@
     "address": "3A Neil Rd, #2F, Singapore 088805",
     "phone": "+6587262116",
     "website": "https://www.hairstudioflamingo.com/",
-    "description": "Neil Road沿いの日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。Outram Park・Chinatown駅から徒歩圏内。",
+    "description": "日本人スタイリストAyumi・Tomo・Akiが在籍するFlamingo Tanjong Pagar店。Neil Roadのショップハウス2Fに位置。",
     "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+      "日本人スタイリスト",
+      "まつ毛エクステ",
+      "Tanjong Pagar"
     ],
     "hours": "Monday: 10:00 AM – 8:30 PM / Tuesday: 10:00 AM – 8:30 PM / Wednesday: 10:00 AM – 8:30 PM / Thursday: 10:00 AM – 8:30 PM / Friday: 10:00 AM – 8:30 PM / Saturday: 10:00 AM – 8:30 PM / Sunday: 10:00 AM – 8:30 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJfzcao3IZ2jERsYhn9n4qqg8",
@@ -1370,7 +830,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「HAIR STUDIO FLAMINGO」のTanjong Pagar店は、3A Neil Road 2Fに構える日系ヘアサロンだ。スタイリストは全員、業界歴10年以上のベテランJapanese stylists——Ayumi、Tomo、Akiの3名——が在籍しており、一人ひとりの髪質・顔型・ライフスタイルに合わせた提案が評判だ。\n\nシンガポールの高温多湿な気候でも扱いやすいスタイルを得意としており、カラー・パーマ・縮毛矯正などのメニューも充実している。まつ毛エクステも提供しており、ヘアとアイのケアを一度に済ませることができる点も人気の理由のひとつ。\n\n欧米系の髪質にも対応できるスタイリストが揃っており、日本人だけでなくシンガポール在住の外国人コミュニティからも幅広く支持されている。英語での対応も可能で、日本語・英語どちらでもコミュニケーションがとれる環境だ。\n\n予約はウェブサイト（hairstudioflamingo.com）またはFresha経由でオンライン予約が可能。Tiong Bahru店（55 Tiong Bahru Rd #01-55）と合わせてシンガポール南部エリアをカバーしている。",
+    "japanese_staff": true,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "カット",
+      "カラー",
+      "パーマ",
+      "縮毛矯正",
+      "まつ毛エクステ"
+    ],
+    "spot_reviewed": true
   },
   {
     "slug": "hair-studio-flamingo-tiong-bahru",
@@ -1380,13 +851,14 @@
     "address": "55 Tiong Bahru Rd, #01-55, Singapore 160055",
     "phone": "+6583326617",
     "website": "https://www.hairstudioflamingo.com/",
-    "description": "Tiong Bahru HDB内の日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。Tiong Bahru駅から徒歩圏内。",
+    "description": "Flamingo Tiong Bahru店。日本人スタイリストが担当し、地元客にも人気のある日系ヘア＆まつ毛サロン。",
     "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+      "日本人スタイリスト",
+      "まつ毛エクステ",
+      "Tiong Bahru"
     ],
     "hours": "Monday: 10:00 AM – 8:30 PM / Tuesday: 10:00 AM – 8:30 PM / Wednesday: 10:00 AM – 8:30 PM / Thursday: 10:00 AM – 8:30 PM / Friday: 10:00 AM – 8:30 PM / Saturday: 10:00 AM – 8:30 PM / Sunday: 10:00 AM – 8:30 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ9077P2sZ2jERd34Qw_g5Dvc",
@@ -1396,7 +868,17 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「HAIR STUDIO FLAMINGO」のTiong Bahru店は、55 Tiong Bahru Road #01-55に位置する日系ヘア＆まつ毛サロンだ。Tanjong Pagar店（3A Neil Road）と同じブランドで、日本人スタイリストによるカット・カラー・パーマ・縮毛矯正などのヘアメニューと、まつ毛エクステを提供している。\n\nTiong Bahrurエリアはシンガポールの中でもローカルの雰囲気が残るエリアで、日本人在住者だけでなく地元シンガポーリアンにも多く利用されている。スタイリストは全員10年以上のキャリアを持つベテランのJapanese stylists で、シンガポールの高温多湿な気候を考慮したスタイリング提案が得意だ。\n\n英語・日本語での対応が可能で、予約はウェブサイト（hairstudioflamingo.com）またはFresha経由のオンライン予約が便利。",
+    "japanese_staff": true,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "カット",
+      "カラー",
+      "パーマ",
+      "まつ毛エクステ"
+    ],
+    "spot_reviewed": true
   },
   {
     "slug": "halu-hair-design",
@@ -1406,13 +888,14 @@
     "address": "11 Mohamed Sultan Rd, #02-01/02, Singapore 239010",
     "phone": "+6591456021",
     "website": "http://halu.com.sg/",
-    "description": "Mohamed Sultan Road沿いの日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマに対応。Fort Canning・Clarke Quay駅から徒歩圏内。",
+    "description": "元「Bump Hair Design」として15年の歴史を持つ日系サロン。Fort Canning MRT至近でDaisuke KasaiほかJapanese stylistsが在籍。",
     "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+      "日本人スタイリスト",
+      "Inkarami",
+      "Mohamed Sultan"
     ],
     "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: Closed / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJHwRKXs8Z2jERR9rOVr9p_Xg",
@@ -1422,7 +905,17 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「HaLu Hair Design」は11 Mohamed Sultan Road #02-01/02に位置する日系ヘアサロンで、Fort Canning MRTのすぐ対面という好立地にある。もとは「Bump Hair Design」という名前でRiver Valleyエリアに長く根ざしてきたサロンが、リブランドして現在の形になった。\n\n代表スタイリストのDaisuke KasaiとSeiji Kawashimaはそれぞれ日本・シンガポールでの経験が15年以上に達するベテランで、日本式の丁寧なカウンセリングとカット技術が評判だ。このほかSeiya SatoやシンガポーリアンのKeith Limも在籍し、日本人のみならずシンガポールのさまざまな顧客層に対応できる体制が整っている。\n\nカラーリングはInkarami(インカラミ)を使ったダメージレスな施術が得意で、ブリーチ毛やダメージ毛の施術実績も豊富だ。パーマはCare Permや普通コールドパーマ、縮毛矯正はシルキーリボンディング・軟化矯正など幅広いメニューを取り揃えている。カット料金は$50〜と日系サロンの中では比較的リーズナブルで、プレミアムな技術をコストパフォーマンス良く体験できる点が多くのリピーターを生んでいる。\n\n予約はウェブサイト（haluhairdesign.com.sg）またはFresha経由で可能。",
+    "japanese_staff": true,
+    "price_range": "SGD 50〜",
+    "menu_highlights": [
+      "カット$50〜",
+      "Inkarami系カラー",
+      "Care Perm",
+      "縮毛矯正"
+    ],
+    "spot_reviewed": true
   },
   {
     "slug": "hialy-studio",
@@ -1438,7 +931,7 @@
       "日系サロン"
     ],
     "hours": "Monday: 11:00 AM – 9:00 PM / Tuesday: 11:00 AM – 9:00 PM / Wednesday: 11:00 AM – 9:00 PM / Thursday: 11:00 AM – 9:00 PM / Friday: 11:00 AM – 9:00 PM / Saturday: 11:00 AM – 9:00 PM / Sunday: 11:00 AM – 9:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJA5etZ5MX2jERdgZesozcQuU",
@@ -1448,7 +941,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "WebSearch・Fresha等で情報が確認できず。Thomson V Twoの #01-22 に存在するとのデータあるが、公式サイト（revu.website/155380）は不明確。日本人関連かも確認できていない。要現地確認。",
+    "spot_reviewed": true
   },
   {
     "slug": "hiroginza-premium-barber-singapore",
@@ -1458,13 +954,14 @@
     "address": "328 N Bridge Rd, Unit #02-38 Raffles Hotel Arcade, Singapore 188719",
     "phone": "+6562503481",
     "website": "https://www.premiumbarber.com/salon/hiropre-singapore/",
-    "description": "東京・銀座で圧倒的な支持を得る高級理容室「ヒロ銀座」のシンガポール店。Raffles Hotel Arcade内に位置し、個室でカット・シェーブ・フェイシャル・ヘッドスパ・ネイルケアなどのプレミアムコースを提供。",
+    "description": "東京・銀座の高級理容室「ヒロ銀座」がRaffles Hotel Arcadeに出店した完全個室の日本式バーバー。",
     "tags": [
-      "美容",
-      "日系サロン"
+      "個室バーバー",
+      "高級理容室",
+      "Raffles Hotel"
     ],
     "hours": "Monday: 11:00 AM – 8:00 PM / Tuesday: 11:00 AM – 8:00 PM / Wednesday: Closed / Thursday: 11:00 AM – 8:00 PM / Friday: 11:00 AM – 8:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJGyetAkwZ2jERO88XW7Hrc64",
@@ -1474,33 +971,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "icon-by-lily-xu",
-    "name": "Icon By Lily Xu",
-    "name_ja": "アイコン By リリー・シュー",
-    "area": "Singapore",
-    "address": "14 Scotts Rd, #01-90 Far east plaza, Singapore 228213",
-    "phone": "+6580113904",
-    "website": "https://www.instagram.com/invites/contact/?i=1pn2sz4pvwlvh&utm_content=1gfsa3a",
-    "description": "Far East Plaza内の美容サロン。日本の技術を取り入れたカット・カラー・パーマを提供。Scotts Road沿いのOrchardエリアに位置し、ショッピング帰りにも利用しやすい。",
-    "tags": [
-      "美容",
-      "日系サロン"
+    "photo_name": null,
+    "detail": "「HIROGINZA PREMIUM BARBER Singapore」は、328 North Bridge Road、Raffles Hotel Arcade #02-38に構える日系高級理容室だ。東京・銀座発祥のヒロ銀座が海外に展開するプレミアムバーバーブランドで、シンガポール店はその名の通りラッフルズホテルという最高のロケーションに出店している。\n\n全席が完全個室になっており、外の喧騒を遮断した静粛な空間でシェービング・ネイルケア・フェイシャル・ヘッドスパ・カットなど多彩なグルーミングサービスを受けられる。日本の職人技に裏打ちされたシェービングはこのサロンの最大の売りで、カミソリによるシェービングとフェイシャルをセットで楽しむ体験が人気だ。\n\n在籍するスタイリストは日本人・ローカルともに日本式の技法を習得しており、英語・日本語双方に対応。営業時間は月〜金12:00〜20:00、土日・祝日10:00〜19:00。\n\nラッフルズホテルという格式ある環境で、特別な日のグルーミングや接待後のケアとしても利用しやすい。予約はウェブサイト（premiumbarber.com/salon/hiropre-singapore/）で受け付けている。",
+    "japanese_staff": true,
+    "price_range": "SGD 100〜（要問い合わせ）",
+    "menu_highlights": [
+      "メンズカット",
+      "シェービング",
+      "ヘッドスパ",
+      "フェイシャル",
+      "ネイルケア"
     ],
-    "hours": "Monday: Closed / Tuesday: 10:30 AM – 8:00 PM / Wednesday: 10:30 AM – 8:00 PM / Thursday: 10:30 AM – 8:00 PM / Friday: 10:30 AM – 8:00 PM / Saturday: 10:30 AM – 7:30 PM / Sunday: 10:30 AM – 6:30 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJTQnKpcIZ2jERUpH42F-uV0g",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "ikeda-spa",
@@ -1510,16 +992,14 @@
     "address": "787 Bukit Timah Road, Singapore 269762",
     "phone": "+6564698080",
     "website": "https://www.ikedaspa.com/",
-    "description": "2009年創業のシンガポール初の日本式スパ。檜の温泉風呂、岩盤浴デトックス、日本式マッサージを提供。40以上のスパアワードを受賞。Sixth Avenue MRT駅横。",
+    "description": "シンガポール最古の日系本格オンセンスパ。2009年開業、40以上の賞を受賞した日本式温浴・マッサージの名門。",
     "tags": [
-      "日本式スパ",
-      "温泉",
-      "岩盤浴",
-      "マッサージ",
-      "予約可"
+      "日本式オンセン",
+      "全身マッサージ",
+      "Bukit Timah"
     ],
     "hours": "13:30-22:30（毎日営業）",
-    "last_verified": "2026-03-26",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -1528,86 +1008,51 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「Ikeda Spa」は、2009年に開業したシンガポール初の本格的な日本式オンセン（温泉）スパだ。Bukit Timah店は787 Bukit Timah Road（Sixth Avenue MRT隣）に位置し、Clarke Quay Central #05-22にも第2店舗を構える。TripAdvisorで50以上の賞を受賞した実績を持ち、シンガポールで「日本式スパ」といえば真っ先に挙がるブランドとして認知されている。\n\nサービスは日本式の温浴（オンセン体験）、全身マッサージ、フェイシャルが三本柱。使用する技術や雰囲気はかつて旅館で受けていたような「料亭スパ」を意識しており、日本の温泉地にいるような非日常体験を提供している。\n\nスタッフは日本式の訓練を受けており、日本語での対応も可能。シンガポール在住の日本人のほか、旅行者や欧米系の観光客にも広く人気がある。\n\nBukit Timah店の営業時間は毎日13:30〜22:30、Clarke Quay店は毎日13:00〜22:00。予約はウェブサイト（ikedaspa.com）やKlookからも可能。初回限定プロモーション（無料オンセン付き）も定期的に提供されている。",
+    "japanese_staff": true,
+    "price_range": "SGD 90〜",
+    "menu_highlights": [
+      "日本式温浴（オンセン）",
+      "全身マッサージ",
+      "フェイシャル"
+    ],
+    "spot_reviewed": true
   },
   {
     "slug": "ikeda-spa-clarke-quay",
     "name": "Ikeda Spa (Clarke Quay)",
     "name_ja": "池田スパ クラークキー",
     "area": "Clarke Quay",
-    "address": "1 Magazine Road, #01-10/11, Central Mall, Singapore 059567",
+    "address": "6 Magazine Road, #05-22, Clarke Quay Central, Singapore 059573",
     "phone": "+6562228080",
     "website": "https://www.ikedaspa.com/",
-    "description": "日本式スパ池田のClarke Quay店。檜の温泉風呂、岩盤浴デトックス、日本式マッサージを提供。CBD近くの便利な立地。",
+    "description": "IkedaスパのClarke Quay店。オンセン・マッサージ・フェイシャルを日本式でClarke Quay Centralの5Fで提供。",
     "tags": [
-      "日本式スパ",
-      "温泉",
-      "岩盤浴",
-      "マッサージ"
+      "日本式オンセン",
+      "全身マッサージ",
+      "Clarke Quay"
     ],
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "infinity-beauty-hub",
-    "name": "Infinity Beauty Hub",
-    "name_ja": "インフィニティ ビューティーハブ",
-    "area": "Singapore",
-    "address": "206 Toa Payoh N, #01-1223, Singapore 310206",
-    "phone": "+6592377355",
-    "website": "https://www.infinitybeautysg.com/",
-    "description": "Toa Payoh地区のビューティーサロン。フェイシャル・まつげエクステ・ネイルなど多彩なビューティーメニューを提供。HDB内の隠れ家サロンで、日本式の丁寧な施術が特徴。",
-    "tags": [
-      "美容",
-      "日系サロン"
+    "photo_name": null,
+    "detail": "「Ikeda Spa」のClarke Quay店は、Clarke Quay Central #05-22（6 Magazine Road）に構える日本式オンセンスパの第2拠点だ。Bukit Timah本店（787 Bukit Timah Road）と同様に、日本の温浴文化を再現した本格的なオンセン・マッサージ・フェイシャルを提供している。\n\nClarke Quay MRTからアクセスしやすく、観光でシンガポールを訪れた日本人旅行者や在住者が気軽に立ち寄れる立地だ。メニュー構成はBukit Timah店とほぼ同様で、日本式の温浴体験から全身マッサージ、フェイシャルまでひと通り揃っている。\n\n営業時間は毎日13:00〜22:00。詳細な料金や予約はウェブサイト（ikedaspa.com）で確認できる。",
+    "japanese_staff": true,
+    "price_range": "SGD 90〜",
+    "menu_highlights": [
+      "日本式温浴（オンセン）",
+      "全身マッサージ",
+      "フェイシャル"
     ],
-    "hours": "Monday: 11:00 AM – 9:00 PM / Tuesday: 11:00 AM – 9:00 PM / Wednesday: 11:00 AM – 9:00 PM / Thursday: 11:00 AM – 9:00 PM / Friday: 11:00 AM – 9:00 PM / Saturday: 11:00 AM – 9:00 PM / Sunday: 11:00 AM – 9:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJydAW5hIX2jER_8SYKZmIGlQ",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "japanese-eyelash-salon-kjstudio-outram-park-singapore",
-    "name": "Japanese Eyelash Salon- KJStudio @Outram Park, Singapore 日系まつ毛エクステ アイラッシュ",
-    "name_ja": "日系まつ毛エクステアイラッシュ",
-    "area": "Singapore",
-    "address": "43A Keong Saik Rd., Singapore 089147",
-    "phone": "+6562216209",
-    "website": "https://kjs.covosg.com/",
-    "description": "Keong Saik Road沿いの日系まつげエクステ専門サロン。日本の技術でまつげエクステ・まつげパーマを提供。Outram Park駅から徒歩圏内。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 11:00 AM – 8:00 PM / Tuesday: 11:00 AM – 8:00 PM / Wednesday: 11:00 AM – 8:00 PM / Thursday: 11:00 AM – 8:00 PM / Friday: 11:00 AM – 8:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJuTRUY3IZ2jERro1cuc9UBqs",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "japanese-hair-salon-the-fluxus-house",
@@ -1617,13 +1062,14 @@
     "address": "23 Teo Hong Rd, Singapore 088332",
     "phone": "+6592307657",
     "website": "http://fluxushouse.com/",
-    "description": "Teo Hong Road沿いのショップハウスの日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。Outram Park駅近く。",
+    "description": "Chiho・Koichi・Akiの3名日本人スタイリストが立ち上げた芸術志向の日系サロン。23 Teo Hong Road、Tanjong Pagar近く。",
     "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+      "日本人スタイリスト",
+      "アート空間",
+      "Tanjong Pagar"
     ],
     "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: Closed / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJozpA3QUZ2jERIoHlIXY_hmU",
@@ -1633,165 +1079,17 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "jo-hwa-hair-and-living",
-    "name": "Jo:Hwa Hair & Living 조화 헤어 앤 리빙",
-    "name_ja": "ジョファ ヘア&リビング",
-    "area": "Singapore",
-    "address": "15 Stamford Rd, #01-64/65/66 The Capitol Kempinski Hotel City Hall, Singapore 178906",
-    "phone": "+6588606741",
-    "website": "https://johwa.sg/",
-    "description": "Capitol Kempinski Hotel内の韓国スタイルヘアサロン。日本語での相談も可能、カット・カラー・パーマに対応。City Hall駅直結。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+    "photo_name": null,
+    "detail": "「THE FLUXUS HOUSE」は23 Teo Hong Road（Tanjong Pagar/Outram Park MRT近く）に位置する、日本人スタイリスト3名——Chiho、Koichi、Aki——が共同で立ち上げた日系ヘアサロンだ。\n\nサロン名は1960年代に盛んだったアートムーブメント「フルクサス」に由来しており、ヘアデザインを一種のアート表現と捉えるコンセプトを掲げている。店内には地元アーティストの作品を展示するスペースが設けられ、施術しながら地元カルチャーにも触れられる独特の空間を演出している。\n\nヘアサービスはカット・カラー・パーマ・トリートメントと幅広く、日本式の精緻なカット技術と最新の日本スタイルを融合させたスタイル提案が好評だ。カット料金は$90〜。営業は火曜日定休で、その他は毎日10:00〜20:00（ウェブサイトの情報より）。\n\n予約はウェブサイト（fluxushouse.com）またはFresha経由のオンライン予約に対応。電話・WhatsAppeは+65 9230 7657まで。",
+    "japanese_staff": true,
+    "price_range": "SGD 90〜",
+    "menu_highlights": [
+      "カット$90〜",
+      "カラー",
+      "パーマ",
+      "トリートメント"
     ],
-    "hours": "Monday: 10:00 AM – 8:30 PM / Tuesday: 10:00 AM – 8:30 PM / Wednesday: 10:00 AM – 8:30 PM / Thursday: 10:00 AM – 8:30 PM / Friday: 10:00 AM – 8:30 PM / Saturday: 10:00 AM – 8:30 PM / Sunday: 10:00 AM – 8:30 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJtTfI83UZ2jERfl0JxMWyAmg",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "joyouth-smp",
-    "name": "Joyouth SMP",
-    "name_ja": "ジョユース SMP",
-    "area": "Singapore",
-    "address": "16 Clover Wy, Singapore 579085",
-    "phone": "+6582822111",
-    "website": "https://www.instagram.com/joyouthsmp?igsh=MWRuaHYyenBhcTU0cA==",
-    "description": "Clover Wayに位置するSMP（頭皮マイクロピグメンテーション）専門サロン。薄毛・生え際の悩みに対応する日本式の繊細な技術で施術。カウンセリングから施術まで日本語対応可能。",
-    "tags": [
-      "美容",
-      "日系サロン"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJea5o46oX2jERDIahIqF4T2c",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "jss-beauty-bishan",
-    "name": "JSS Beauty @ Bishan",
-    "name_ja": "JSSビューティー ビシャン",
-    "area": "Singapore",
-    "address": "Block 284 Bishan Street 22, #01-205, Singapore 570284",
-    "phone": "+6581726554",
-    "website": "https://wa.me/message/B7ES7HIMYHZKL1",
-    "description": "Bishan HDB内の日系ビューティーサロン。日本人スタイリスト在籍、カット・カラー・フェイシャルに対応。Bishan MRT徒歩圏内。",
-    "tags": [
-      "美容",
-      "日系サロン"
-    ],
-    "hours": "Monday: 10:00 AM – 8:30 PM / Tuesday: 10:00 AM – 8:30 PM / Wednesday: 10:00 AM – 8:30 PM / Thursday: 10:00 AM – 8:30 PM / Friday: 10:00 AM – 8:30 PM / Saturday: 10:00 AM – 8:30 PM / Sunday: 10:00 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJN2YuuYYX2jERKXKJ9RYYjfk",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "jung-sung-hair-salon-by-joel-park",
-    "name": "Jung Sung Hair Salon by Joel Park",
-    "name_ja": "ジョンソン ヘアサロン",
-    "area": "Singapore",
-    "address": "176 Orchard Rd, #03-11 The Centrepoint, Singapore 238843",
-    "phone": "+6588293732",
-    "website": "https://jungsunghair.com/",
-    "description": "The Centrepoint内の韓国スタイルヘアサロン。日本語での相談も可能、カット・カラー・パーマに対応。Somerset駅直結ショッピングモール内。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 10:30 AM – 9:00 PM / Tuesday: 10:30 AM – 9:00 PM / Wednesday: 10:30 AM – 9:00 PM / Thursday: 10:30 AM – 9:00 PM / Friday: 10:30 AM – 9:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJZbjIjKoZ2jERIICPrVKyrOU",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kansha-hair-design",
-    "name": "Kansha Hair Design",
-    "name_ja": "カンシャヘアデザイン",
-    "area": "Orchard",
-    "address": "402 Orchard Road, #05-25, Delfi Orchard, Singapore 238876",
-    "phone": "+6567330331",
-    "website": "https://kanshahair.sg/",
-    "description": "日本から進出したヘアサロン。ハイライトカラー・日本式シルクリボンディング（縮毛矯正）・スカルプ&ヘッドスパが得意。Delfi Orchard内の落ち着いた空間で丁寧な施術を受けられる。",
-    "tags": [
-      "日本語対応",
-      "日本人スタイリスト",
-      "ハイライト",
-      "縮毛矯正",
-      "ヘッドスパ"
-    ],
-    "hours": "火〜金: 10:00-20:00 / 土日: 10:00-19:00（月曜定休）",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kansha-hair-design-2",
-    "name": "Kansha Hair Design",
-    "name_ja": "カンシャ ヘアデザイン",
-    "area": "Singapore",
-    "address": "402 Orchard Rd, #05-25 Delfi Orchard, Singapore 238876",
-    "phone": "+6567330331",
-    "website": "http://kanshahair.sg/",
-    "description": "Orchard・Delfi Orchard内の日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。Orchard駅から徒歩圏内。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: Closed / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJpSCzu4wZ2jERZW1dRTP-Szs",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "kansha-hair-orchard",
@@ -1801,15 +1099,14 @@
     "address": "402 Orchard Road, #05-25 Delfi Orchard, Singapore 238876",
     "phone": "+6567330331",
     "website": "https://kanshahair.sg/",
-    "description": "「感謝（カンシャ）」をコンセプトにした日本人ヘアサロン。Delfi Orchardの5階に位置し、各スタイリストが1対1で丁寧なカウンセリングを行う。カット・カラー・パーマ・ヘッドスパなど幅広いメニューを提供。Orchard駅徒歩圏内。",
+    "description": "「感謝」を意味するサロン名を持つ日系ヘアサロン。Delfi Orchard #05-25、ロンドン・Vidal Sassoon出身のディレクターKoji氏が率いる。",
     "tags": [
-      "日本人スタイリスト",
-      "ヘアサロン",
-      "Orchard",
-      "丁寧なカウンセリング"
+      "日本人ディレクター",
+      "オーガニックカラー",
+      "Orchard"
     ],
     "hours": "月: 休 / 火〜金: 10:00-20:00 / 土日: 10:00-19:00",
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
@@ -1818,7 +1115,16 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「Kansha Hair Design」は402 Orchard Road、Delfi Orchard #05-25に構える日系ヘアサロンだ。サロン名の「感謝（Kansha）」には、来店する全ての方に誠実な感謝の気持ちで向き合うという姿勢が込められている。\n\nディレクターのKoji氏はロンドンのVidal Sassoon Academyを卒業後、英国と日本でキャリアを積んでシンガポールに移ってきた。その経歴がオーガニックカラーや炭酸ヘアケアを取り入れた独自の施術スタイルに現れており、ハイライトカラー・日本式シルクリボンディング・頭皮スパなどのメニューで知られている。\n\n2014年の開業以来、Orchardエリアで安定した支持を獲得しており、日本人だけでなくシンガポーリアンや欧米系のクライアントも多い。丁寧なカウンセリングで一人ひとりの髪質・生活スタイルに合ったスタイルを提案する姿勢が口コミでも高評価を得ている。\n\n営業時間はウェブサイト（kanshahair.sg）で確認を。予約は電話（+65 6733 0331）またはオンラインで受け付けている。",
+    "japanese_staff": true,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "ハイライトカラー",
+      "日本式シルクリボンディング",
+      "頭皮スパ"
+    ],
+    "spot_reviewed": true
   },
   {
     "slug": "kazehikaru",
@@ -1828,13 +1134,14 @@
     "address": "402 Orchard Rd, Delfi Orchard, Singapore 238876",
     "phone": "+6588901548",
     "website": "https://kazehikaru.asia/",
-    "description": "Orchardエリア・Delfi Orchard内の日系美容室「風ひかる」。日本人スタイリストによるカット・カラー・パーマ・縮毛矯正を提供。日本の繊細なカット技術と丁寧なカウンセリングが特徴。",
+    "description": "「風光る」を冠した日本式ウェルネス＆ビューティーサロン。Delfi Orchard内に位置し、ホリスティックな美の体験を提供。",
     "tags": [
-      "美容",
-      "日系サロン"
+      "日本式ウェルネス",
+      "ホリスティック美容",
+      "Orchard"
     ],
     "hours": "Monday: 11:00 AM – 8:00 PM / Tuesday: 11:00 AM – 8:00 PM / Wednesday: 11:00 AM – 8:00 PM / Thursday: 11:00 AM – 8:00 PM / Friday: 11:00 AM – 8:00 PM / Saturday: 11:00 AM – 7:30 PM / Sunday: 11:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJKfONyUkZ2jERLnGtLGUcUWE",
@@ -1844,33 +1151,15 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "keller-hair-studio",
-    "name": "Keller Hair Studio",
-    "name_ja": "ケラー ヘアスタジオ",
-    "area": "Singapore",
-    "address": "301 Upper Thomson Rd, #03-06/07, Singapore 574408",
-    "phone": "+6564574331",
-    "website": "http://kellerhairstudio.sg/",
-    "description": "Upper Thomson Road沿いのショッピングモール内の日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマに対応。Thomson・Springleaf MRT圏内。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+    "photo_name": null,
+    "detail": "「Kazehikaru」は402 Orchard Road、Delfi Orchardに位置する日本式ウェルネス＆ビューティーサロンだ。「風光る（Kazehikaru）」というサロン名には、爽やかな風が輝く春の情景のように、内側から美しさが輝くという哲学が込められている。\n\nサロンは「真の美は内側から」という考え方のもと、非侵襲的かつ効果的なトリートメントを選んで提供するシンプルさを大切にしている。ヘアサービスを中心としながら、スキンケアや頭皮ケアなど全体的なウェルネスアプローチも特徴だ。\n\nOrchardエリアという立地で、在住の日本人駐在員・ファミリー向けに日本語でのサービスを提供している。詳細なメニューや料金はウェブサイト（kazehikaru.asia）で確認できる。",
+    "japanese_staff": null,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "ヘアカット",
+      "スカルプケア"
     ],
-    "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 7:30 PM / Sunday: 10:00 AM – 7:30 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJN0cGKDAX2jERk_oRw8QWC9o",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "key-s-japanese-hair-salon",
@@ -1880,76 +1169,33 @@
     "address": "7 Neil Rd, Singapore 088807",
     "phone": "+6591457913",
     "website": "https://www.keys-hair.com/",
-    "description": "Neil Road沿いの日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマに対応。Outram Park・Tanjong Pagar駅から徒歩圏内。",
+    "description": "東京・八丈島出身のDaiki Funayama氏が率いる日系サロン。7 Neil Road、全メニューにヘッドスパが付く珍しいスタイルで人気。",
     "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+      "日本人スタイリスト",
+      "全メニューヘッドスパ付き",
+      "Tanjong Pagar"
     ],
     "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: Closed / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ7WQ_p80Z2jERHx_ng8ymGCs",
     "ai_reviewed": true,
     "phone_local": null,
-    "email": null,
+    "email": "keys.singapore1005@gmail.com",
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "keys-hair-maxwell",
-    "name": "Beauty Salon Key's",
-    "name_ja": "ビューティーサロン キーズ",
-    "area": "Maxwell",
-    "address": "Maxwell MRT station area, Singapore",
-    "phone": null,
-    "website": "https://www.keys-hair.com/",
-    "description": "日本の有名サロンで店長経験を持つ3名のスタイリストが運営するヘアサロン。ヘッドスパも提供。Maxwell MRT駅近く。",
-    "tags": [
-      "日本語対応",
-      "日本人スタイリスト",
-      "ヘッドスパ"
+    "photo_name": null,
+    "detail": "「Key's Japanese hair salon」は7 Neil Road（Maxwell MRT徒歩1分）に位置する日系ヘアサロンだ。ファウンダーのDaiki Funayama氏は東京・八丈島出身で、日本の複数のヘアサロンでマネージャーを務めた経験を持つ実力派。在籍する3名のスタイリスト全員が、日本でマネージャーを経験してきたベテランという点が他のサロンとの大きな差別化ポイントだ。\n\n最大の特徴は、カット・カラーなどすべてのヘアメニューにヘッドスパが付属するという点。「ヘアエステサロン」と自らを称し、毎回の来店が単なる施術に終わらず頭皮・髪のトータルケアになるよう設計されている。施術料金はカット$90〜で、他の日系サロンと比べてもコストパフォーマンスが高いと評判だ。\n\nMaxwell Food Centre至近という立地で、食事前後の利用にも向いている。営業は10:00〜20:00、不定休。予約は電話（+65 9145 7913）またはメール（keys.singapore1005@gmail.com）で受け付けている。",
+    "japanese_staff": true,
+    "price_range": "SGD 90〜",
+    "menu_highlights": [
+      "カット$90〜（ヘッドスパ込み）",
+      "カラー",
+      "インナーカラー"
     ],
-    "hours": null,
-    "status": "unverified",
-    "source": "website",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "keys-hair-salon",
-    "name": "Key's Hair Salon",
-    "name_ja": "キーズ ヘアサロン",
-    "area": "Tanjong Pagar",
-    "address": "7 Neil Road, Singapore 088807",
-    "phone": "+6591457913",
-    "website": "https://www.keys-hair.com/",
-    "description": "Maxwell MRT駅から徒歩1分の日系ヘア&エステサロン。日本での店長経験を持つ3名のスタイリストが在籍。全サービスにヘッドスパ付き。カット・カラーに加え、高度な縮毛矯正技術が特徴。",
-    "tags": [
-      "日本語対応",
-      "日本人スタイリスト",
-      "ヘッドスパ",
-      "縮毛矯正"
-    ],
-    "hours": "要確認",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "kimiyo-g-beauty-orchard",
@@ -1959,16 +1205,14 @@
     "address": "277 Orchard Road, #B2-31/32/33, Orchard Gateway, Singapore 238858",
     "phone": "+6567021893",
     "website": "https://kimiyo-g.com/",
-    "description": "日本式ネイル・まつげエクステ・ワックス脱毛・フェイシャルを提供する日系ビューティーサロン。Orchard GatewayとEastpoint Mallの2店舗を展開。3Dまつげエクステが人気。",
+    "description": "「今世紀の美」を意味するサロン名の日本式ワンストップビューティーサロン。Orchard Gateway B2Fでネイル・まつ毛・フェイシャルを提供。",
     "tags": [
-      "日本式ネイル",
-      "まつげエクステ",
-      "フェイシャル",
-      "複数店舗",
-      "予約可"
+      "日本式まつ毛エクステ",
+      "ネイル",
+      "Orchard Gateway"
     ],
     "hours": "平日: 11:00-21:00 / 週末・祝日: 11:00-20:00",
-    "last_verified": "2026-03-26",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -1977,33 +1221,16 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kizuki-lim",
-    "name": "Kizuki+Lim",
-    "name_ja": "キヅキ+リム",
-    "area": "Singapore",
-    "address": "31 Seah St, Singapore 188387",
-    "phone": "+6562216320",
-    "website": "https://www.lessismore.co.jp/kizuki",
-    "description": "Seah Street沿いの日系美容室。東京の「LESS IS MORE」グループが展開し、日本人スタイリストがカット・カラー・パーマを提供。Bugis・City Hall駅からアクセスしやすい立地。",
-    "tags": [
-      "美容",
-      "日系サロン"
+    "photo_name": null,
+    "detail": "「Kimiyo-G Beauty」は277 Orchard Road、Orchard Gateway #B2-31/32/33に構える日本式ワンストップビューティーサロンだ。サロン名「Kimiyo（君よ）」には「今世紀の美」というコンセプトが込められており、日本のビューティーカルチャーをシンガポールに届けることをミッションとしている。\n\nサービス内容はネイル（マニキュア・ペディキュア・ネイルアート）、3D日本式まつ毛エクステ、ワックス脱毛、フェイシャル、ボディトリートメントなど多岐にわたる。日本式まつ毛エクステは技術の高さで知られており、自然な仕上がりを好む日本人女性から支持されている。\n\nOrchard MRTに直結するOrchard Gatewayという好立地で、ショッピングの合間や仕事帰りに立ち寄りやすい。スタッフは日本式のホスピタリティを大切にしており、日本語・英語でのサービスに対応。\n\n営業時間は月〜金11:00〜21:00、土日・祝11:00〜20:00。予約は電話（+65 6702 1893）またはウェブサイト（kimiyo-g.com）から。",
+    "japanese_staff": true,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "ネイルアート",
+      "3D日本式まつ毛エクステ",
+      "フェイシャル"
     ],
-    "hours": "Monday: Closed / Tuesday: 12:00 – 9:00 PM / Wednesday: 12:00 – 9:00 PM / Thursday: 12:00 – 6:00 PM / Friday: 12:00 – 9:00 PM / Saturday: 10:00 AM – 6:00 PM / Sunday: 10:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJU_fAo6UZ2jERuxJG6smfwUU",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "kizuki-lim-seah-street",
@@ -2013,15 +1240,14 @@
     "address": "31 Seah Street, Singapore 188387",
     "phone": "+6562216320",
     "website": null,
-    "description": "大阪発祥の日本スタイルヘアサロン。Raffles Hotel近くSeah Streetに位置、日本式カット・カラー・スタイリングに対応。City Hall MRT徒歩圏内。",
+    "description": "大阪発の日系サロングループ「Less is More」傘下のKizuki+Lim。Seah Streetの歴史的ショップハウスで日本式カットが体験できる。",
     "tags": [
-      "日本式ヘアサロン",
-      "大阪発",
-      "City Hall",
-      "トレンド"
+      "Less is More系列",
+      "日本人スタイリスト",
+      "Seah Street"
     ],
     "hours": "火・水・金・土: 10:00-21:00 / 木・日祝: 10:00-16:00 / 月: 休",
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
@@ -2030,7 +1256,17 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「Kizuki+LIM」は31 Seah Street（City Hall MRT近く）に位置する、大阪発の日系ヘアサロングループ「Less is More（LIM）」傘下のサロンだ。「Kizuki（気付き）」というサロン名が示す通り、一人ひとりの髪の可能性に気付き、引き出すことをコンセプトにしている。\n\nLIMグループはシンガポールのヘアサロンカルチャー形成に大きな影響を与えてきたとも言われており、1tto+LIM（New Bridge Road）、TOKI+LIM（Raffles Hotel Arcade）など複数のブランドを展開している。Kizuki+LIMはその中でも和のスタイルと現代的なヘアデザインの融合を得意とするブランドだ。\n\nサービスはカット・カラー・パーマ・縮毛矯正を中心に提供。日本人スタイリストが在籍しており、ファッション感度の高い日本式スタイルの提案が好評だ。カラーは$100〜。\n\n営業時間は火・金12:00〜21:00、木12:00〜18:00、土日10:00〜18:00（月・水休）。予約はインスタグラム（@kizuki_lim）または電話（+65 6221 6320）で受け付けている。",
+    "japanese_staff": true,
+    "price_range": "SGD 100〜（カラー）",
+    "menu_highlights": [
+      "カット",
+      "カラー$100〜",
+      "パーマ",
+      "縮毛矯正"
+    ],
+    "spot_reviewed": true
   },
   {
     "slug": "kjstudio-orchard",
@@ -2038,51 +1274,35 @@
     "name_ja": "KJスタジオ オーチャード",
     "area": "Orchard",
     "address": "583 Orchard Road, #B1-18, Forum The Shopping Mall, Singapore 238884",
-    "phone": null,
+    "phone": "+6562214585",
     "website": "https://kjs.covosg.com/",
-    "description": "日系まつげエクステ専門サロンKJStudioのOrchard店。Forum The Shopping Mall地下1階に位置。日本人アイリストによる施術。",
+    "description": "COVOグループ傘下のKJStudio Orchard店。Forum The Shopping Mall B1Fで日本式ヘア＆まつ毛を提供。",
     "tags": [
-      "まつげエクステ",
-      "日本人スタッフ",
-      "日本式"
+      "COVO系列",
+      "Lynk-Gel法まつ毛",
+      "Orchard"
     ],
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kjstudio-orchard-eyebrow-eyelash-extension-singapore",
-    "name": "KJStudio Orchard - Eyebrow, Eyelash Extension Singapore シンガポール 日系まつ毛エクステ",
-    "name_ja": "シンガポール日系まつ毛エクステ",
-    "area": "Singapore",
-    "address": "〒238884, Orchard Rd, 583号, Forum The Shopping Mall, B1-18",
-    "phone": "+6590905819",
-    "website": "https://kjs.covosg.com/",
-    "description": "Forum The Shopping Mall B1階の日系まつげエクステサロン。日本の技術を用いたまつげエクステ・アイブロウ施術を提供。Orchardエリアに位置し、買い物ついでに利用しやすい。",
-    "tags": [
-      "まつげ",
-      "日系サロン"
+    "photo_name": null,
+    "detail": "「KJStudio」はOrchard店（583 Orchard Road、Forum The Shopping Mall #B1-18）とOutram Park店（43A Keong Saik Road）の2拠点を展開する日系ヘア＆まつ毛サロンだ。COVOグループのサブブランドとして設立され、COVO本体で培ってきた日本式の技術・ホスピタリティをより身近に体験できる業態として位置づけられている。\n\nまつ毛エクステでは「Lynk-Gel Method」というシンガポール唯一の最新日本式技法を提供しており、グルーの均一な密着性を高めたこの技術は日本人美容師が直接施術する。ヘアサービスはカット・カラー・パーマ・縮毛矯正が中心で、日本式の施術スタイルを踏襲している。\n\nOrchard店はForum The Shopping Mallに位置し、Orchardエリアで買い物ついでに利用できるアクセスの良い立地だ。予約はウェブサイト（kjs.covosg.com）から。",
+    "japanese_staff": true,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "Lynk-Gel Methodまつ毛エクステ",
+      "カット",
+      "カラー",
+      "縮毛矯正"
     ],
-    "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJQXjxYvIZ2jERdGlrC2NCOBM",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "kjstudio-outram-park",
@@ -2092,23 +1312,32 @@
     "address": "43A Keong Saik Road, Singapore 089147",
     "phone": "+6562356935",
     "website": "https://kjs.covosg.com/",
-    "description": "日本人美容師・Jeane Okajima氏が創設した日系まつげエクステ専門サロン。10年以上の経験を持つ日本人アイリストが在籍。Lynk-gel技法を採用。COVO系列。",
+    "description": "KJStudio Outram Park店。Keong Saik Roadのショップハウスで日本式ヘア＆まつ毛エクステを提供。COVO系列。",
     "tags": [
-      "まつげエクステ",
-      "日本人スタッフ",
-      "日本式"
+      "COVO系列",
+      "Lynk-Gel法まつ毛",
+      "Outram Park"
     ],
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「KJStudio」のOutram Park店は43A Keong Saik Road（Outram Park MRT徒歩圏）に位置するCOVOグループのサブブランドサロンだ。Orchard店（Forum The Shopping Mall B1F）と並ぶKJStudioの主力拠点で、日本式ヘアサービスとまつ毛エクステを提供している。\n\nシンガポールで唯一提供されている「Lynk-Gel Method」まつ毛エクステは、グルーの均一な密着技術を日本人美容師が実施しており、仕上がりのナチュラルさと持続力が評価されている。ヘアメニューはカット・カラー・パーマなど基本的なメニューを揃えている。\n\nKeong Saik Roadはレストランやバーが集まるトレンディなエリアで、施術後に食事や散策を楽しむのにも好立地だ。予約はウェブサイト（kjs.covosg.com）または電話（+65 6221 6209 / +65 9151 7246）で。",
+    "japanese_staff": true,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "Lynk-Gel Methodまつ毛エクステ",
+      "カット",
+      "カラー"
+    ],
+    "spot_reviewed": true
   },
   {
     "slug": "kutsurogi-japanese-hair-salon",
@@ -2118,13 +1347,14 @@
     "address": "13 Upper Circular Rd, #06-01, Singapore 058411",
     "phone": "+6588913363",
     "website": "https://www.instagram.com/kutsurogi33/",
-    "description": "Upper Circular Road沿いビル6階の日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。Clarke Quay駅近く。",
+    "description": "「くつろぎ」の名通りシンガポール歴9年の日本人スタイリストによるアットホームなサロン。Upper Circular Road 6Fのショップハウス。",
     "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+      "日本人スタイリスト1名運営",
+      "ヘナ取り扱い",
+      "Clarke Quay"
     ],
     "hours": null,
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJK0xPgCYZ2jERuj17G4x8Jnw",
@@ -2134,7 +1364,17 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「Kutsurogi（くつろぎ）」は13 Upper Circular Road 6F（Clarke Quay MRT近く）に位置する、日本人スタイリスト1名が運営するプライベートサロンだ。シンガポール歴9年、業界キャリア20年のベテランスタイリストが一人ひとりに向き合うアットホームな空間が特徴で、名前の通り「くつろぎ」の感じられる施術が人気だ。\n\nカット・カラー・ヘナ・トリートメントを提供しており、ヘナを取り扱っている点は日系サロンの中では珍しい選択肢といえる。シンガポールのさまざまな環境を熟知した経験から、現地の気候に合わせたスタイリング提案が好評だ。\n\nFresha上でのレビュー評価は5.0とほぼ満点の評価を誇り、少数精鋭ながら高いリピート率を誇るサロンのひとつ。予約はFresha（https://www.fresha.com）または公式インスタグラム（@kutsurogi33）から受け付けている。",
+    "japanese_staff": true,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "カット",
+      "カラー",
+      "ヘナ",
+      "トリートメント"
+    ],
+    "spot_reviewed": true
   },
   {
     "slug": "lily-head-and-hair-spa",
@@ -2144,13 +1384,14 @@
     "address": "6A Shenton Wy, #03-16A Downtown Gallery, Singapore 068815",
     "phone": "+6562227551",
     "website": "https://www.barber25.net/",
-    "description": "Downtown Gallery・Shenton Way内の日系ヘアサロン＆ヘッドスパ。日本人スタイリスト在籍、ヘアカット・ヘッドスパ・スカルプケアに対応。",
+    "description": "Barber 25系列の日本式ヘッドスパ専門サロン。Shenton Way、日本人セラピスト15年以上のキャリアによるプライベートスパ体験。",
     "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+      "日本式ヘッドスパ",
+      "個室スパ",
+      "Shenton Way"
     ],
     "hours": "Monday: 9:00 AM – 8:00 PM / Tuesday: 9:00 AM – 8:00 PM / Wednesday: 9:00 AM – 8:00 PM / Thursday: 9:00 AM – 8:00 PM / Friday: 9:00 AM – 8:00 PM / Saturday: 10:00 AM – 6:00 PM / Sunday: 10:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ0bgjPBIZ2jERqc8Qh3Dbgb0",
@@ -2160,7 +1401,15 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「Lily Head & Hair Spa」は6A Shenton Way #03-16A（OUE Downtown Gallery内）に位置する、Barber 25グループの日本式ヘッドスパ専門サロンだ。日本人セラピストが担当し、業界15年以上のキャリアを活かした頭皮ケア・ヘアスパを個室で提供している。\n\nシグネチャーメニューは「Cream Bath」と「Raw Honey Head Spa」の2つ。Raw Honey Head Spaはハンガリー産のアカシア蜂蜜を使った保湿・ディープクレンジング・修復効果が特徴で、シンガポール初のメニューとして注目を集めた。トリートメント料金は$90〜。\n\nShenton Wayという立地はビジネス街に近く、仕事帰りにリラクゼーションとしてヘッドスパを受けたいという在住日本人ビジネスパーソンに好評だ。個室プライベートスパ形式のため、周囲を気にせずゆったりと施術を受けられる点も人気の理由のひとつ。\n\n営業時間は月〜金9:00〜20:00、土日10:00〜18:00。予約はウェブサイト（barber25.net）から可能。",
+    "japanese_staff": true,
+    "price_range": "SGD 90〜",
+    "menu_highlights": [
+      "Cream Bath",
+      "Raw Honey Head Spa$90〜"
+    ],
+    "spot_reviewed": true
   },
   {
     "slug": "matsui-hair-studio",
@@ -2170,13 +1419,14 @@
     "address": "201 Victoria St, #03-15 Bugis Plus, Singapore 188067",
     "phone": "+6562872827",
     "website": "https://www.matsuihair.sg/",
-    "description": "Bugis Plus内の日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。Bugis MRT直結ショッピングモール内。",
+    "description": "東京ストリートスタイルを取り入れた日系ヘアサロン。Bugis Plus #03-15、トレンドカラーとデザインパーマが人気。",
     "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+      "東京ストリートスタイル",
+      "トレンドカラー",
+      "Bugis"
     ],
     "hours": "Monday: 11:30 AM – 8:30 PM / Tuesday: 11:30 AM – 8:30 PM / Wednesday: 11:30 AM – 8:30 PM / Thursday: 11:30 AM – 8:30 PM / Friday: 11:30 AM – 8:30 PM / Saturday: 11:30 AM – 8:30 PM / Sunday: 11:30 AM – 8:30 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ82ET6LoZ2jERKbE3-hrr9wE",
@@ -2186,33 +1436,17 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "meraki-salon-sg",
-    "name": "Meraki Salon SG",
-    "name_ja": "メラキ サロン",
-    "area": "Singapore",
-    "address": "249A Victoria St, Level 2 Bugis Village, Singapore 188034",
-    "phone": "+6588550121",
-    "website": "https://merakisalonsg.com/",
-    "description": "Bugis Village・Victoria Street沿いの日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマに対応。Bugis駅から徒歩圏内。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+    "photo_name": null,
+    "detail": "「Matsui Hair Studio」はBugis Plus 3Fの#03-15（201 Victoria Street）に位置する日系ヘアサロンだ。東京のストリートスタイルをシンガポールに持ち込んだコンセプトのもと、クリエイティブなヘアカラーとデザインパーマを得意とする。\n\nディレクターが全スタッフを個人指導する一貫した品質管理が特徴で、日本式の細やかなカット技術と現代的なカラーリングの融合が評価されている。カラーはポップなカラーリング、スタイリッシュな3Dカラーから自然なグラデーションまで幅広く対応。パーマはデザインパーム（デジタルパーマを含む）とスタイリングのマッチングを重視した提案が人気メニューだ。\n\nBugis MRT直近という立地で、ショッピングついでのサロン利用にも便利。営業時間は月〜日11:30〜20:30。予約は電話（+65 6287 2827）またはWhatsApp（+65 8256 6278）で受け付けている。",
+    "japanese_staff": false,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "カット",
+      "ポップカラー",
+      "3Dカラー",
+      "デジタルパーマ"
     ],
-    "hours": "Monday: 11:00 AM – 8:00 PM / Tuesday: 11:00 AM – 8:00 PM / Wednesday: 11:00 AM – 8:00 PM / Thursday: 11:00 AM – 8:00 PM / Friday: 11:00 AM – 8:00 PM / Saturday: 10:30 AM – 7:00 PM / Sunday: 10:30 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJ03gS6dAX2jERk4SOBqFieJI",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "michaela-hair-salon",
@@ -2222,25 +1456,33 @@
     "address": "23 New Bridge Road, 2nd Floor, Singapore 059389",
     "phone": "+6565380263",
     "website": "https://michaela.sg/en/",
-    "description": "Clarke Quay駅から徒歩1分の日系ヘアサロン。パーマ・トリートメント・スカルプケアに強み。日本で経験を積んだスタイリストが丁寧なカウンセリングで施術。火曜定休、24時間オンライン予約対応。",
+    "description": "Clarke Quay MRT徒歩1分の日系サロン本店。23 New Bridge Road 2F、日本人スタイリスト在籍で日本語対応可能。",
     "tags": [
-      "日本語対応",
       "日本人スタイリスト",
-      "パーマ",
-      "スカルプケア",
-      "予約可"
+      "キッズルーム",
+      "Clarke Quay"
     ],
     "hours": "毎日 11:00-20:00（火曜定休）",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
     "phone_local": null,
-    "email": null,
+    "email": "info@michaela.sg",
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「Hair Salon MICHAELA」は23 New Bridge Road 2F（Clarke Quay MRT Exit E徒歩約1分）に位置する日系ヘアサロンの本店だ。2015年開業以来、Clarke Quayエリアで日本人在住者・駐在員を中心に多くの顧客に親しまれてきた。\n\n日本人スタイリストが在籍しており、カット・カラー・パーマ・ヘッドスパ・トリートメントなど幅広いヘアメニューを日本語でオーダーできる。独自の「Sara-saraトリートメント」はシンガポールの高温多湿な気候でもサラサラな髪を保てるよう設計されており、リピーターに好評だ。シンガポール内で初めて塩素・フッ素等を除去する水浄化装置を導入した点も特筆に値する。\n\nキッズルームを完備しており、小さな子ども連れのファミリーにも対応。Riverside Point店（30 Merchant Road）も同ブランドのサロンであるため、都合の良い店舗を選べる。\n\n営業時間は日10:00〜19:00、月09:30〜20:00、火09:30〜19:00、水〜金09:30〜20:00、土10:00〜19:00。予約はウェブサイト（michaela.sg）または電話・メール（info@michaela.sg）で。",
+    "japanese_staff": true,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "カット",
+      "カラー",
+      "Sara-saraトリートメント",
+      "ヘッドスパ"
+    ],
+    "spot_reviewed": true
   },
   {
     "slug": "midoris-japanese-hair-salon",
@@ -2250,13 +1492,14 @@
     "address": "238 Thomson Rd, #03 - 43 / 44, Singapore 307683",
     "phone": "+6563582900",
     "website": "https://www.facebook.com/bellezademidorisg/",
-    "description": "Thomson Road沿いのショッピングモール内にある日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。",
+    "description": "オーナースタイリストのMidori氏が運営する日系サロン。Velocity @ Novena Square、日本人スタイリスト2名が在籍。",
     "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+      "日本人スタイリスト",
+      "日本語対応",
+      "Novena"
     ],
     "hours": "Monday: 10:00 AM – 7:00 PM / Tuesday: 10:00 AM – 7:00 PM / Wednesday: 10:00 AM – 7:00 PM / Thursday: 10:00 AM – 7:00 PM / Friday: 10:00 AM – 7:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 11:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJnzw-g-cZ2jERT7vi4P1M27Y",
@@ -2266,7 +1509,17 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「Midori's Japanese Hair Salon（Belleza de Midori）」はVelocity @ Novena Square内（238 Thomson Road #03-43/44）に位置する日系ヘアサロンだ。オーナースタイリストのMidori氏はシンガポールで最も知られた日本人ヘアスタイリストの一人で、長年にわたり在住の日本人コミュニティで高い評価を得てきた。\n\n日本人スタイリスト2名・ローカルスタイリスト3名の体制で、カット・カラー・パーマ・ヘアトリートメントなど幅広いメニューを提供している。日本製のカラーリング剤（Hoyu）やAveda製品を使用しており、品質にこだわった施術が特徴だ。\n\n日本語での対応が可能で、シンガポールに初めて来た日本人にとっても安心して利用できるサロン。Novelinaエリアは日本人が多く居住するエリアでもあり、長年にわたり地域の日本人コミュニティに根ざした存在になっている。\n\n営業時間は月〜土10:00〜19:00、日11:00〜18:00。予約は電話（+65 6358 2900）で受け付けている。",
+    "japanese_staff": true,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "カット",
+      "カラー",
+      "パーマ",
+      "ヘアトリートメント"
+    ],
+    "spot_reviewed": true
   },
   {
     "slug": "miho-osuga-singapore-philosophy-studio",
@@ -2276,13 +1529,14 @@
     "address": "127 Tyrwhitt Rd, Singapore 207552",
     "phone": "+6591225792",
     "website": "https://miho-osuga.com/",
-    "description": "日本人ヘアスタイリスト大須賀美穂氏が運営するプライベートサロン。Tyrwhitt Roadに位置し、マンツーマンでのカット・カラー・トリートメントを提供。一人ひとりに合わせた丁寧なカウンセリングが特徴。",
+    "description": "表参道・ロンドン仕込みのJapanese stylist Miho Osuga氏が在籍するPhilosophy Studio。シンガポール唯一の公認ヘアドネーション登録サロン。",
     "tags": [
-      "美容",
-      "日系サロン"
+      "日本人スタイリスト",
+      "ヘアドネーション登録",
+      "Farrer Park"
     ],
     "hours": "Monday: Closed / Tuesday: 9:00 AM – 8:00 PM / Wednesday: 9:00 AM – 8:00 PM / Thursday: 9:00 AM – 8:00 PM / Friday: 9:00 AM – 8:00 PM / Saturday: 9:00 AM – 8:00 PM / Sunday: 9:00 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJyXa1I8kZ2jERPgw2lOmY2q0",
@@ -2292,85 +1546,16 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "miin-hair-and-beauty-premium-korean-hair-salon-in-orchard-singapore",
-    "name": "Miin Hair & Beauty | Premium Korean Hair Salon in Orchard, Singapore.",
-    "name_ja": "ミイン ヘア&ビューティー",
-    "area": "Singapore",
-    "address": "350 Orchard Rd, #01-04 Isetan Scotts, Singapore 238868",
-    "phone": null,
-    "website": "https://miinhair.com/sg",
-    "description": "Orchard Road・Isetan Scotts内の韓国スタイルヘアサロン。日本語での相談も可能、カット・カラー・パーマ・トリートメントに対応。Orchard駅すぐ。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+    "photo_name": null,
+    "detail": "「Miho Osuga Singapore @ Philosophy Studio」は127 Tyrwhitt Road（Farrer Park MRT近く）に位置する日本人スタイリストMiho Osuga氏が在籍するヘアサロンだ。もとは「HairPhilosophy」の名でスタートし、2022年に「Philosophy Studio」としてリブランドした。\n\nMiho Osuga氏は東京・表参道とロンドンで長年キャリアを積んだベテランスタイリストで、一人ひとりの顔の骨格・輪郭・雰囲気・髪質を細かく分析した上でスタイルを提案するアプローチが高く評価されている。使用する製品はオーストラリア発のオーガニックブランド「KEVIN.MURPHY」。\n\nこのサロンの特筆すべきポイントのひとつが、JHD&C（Japan Hair Donation & Charity）の公認ヘアドネーション登録サロンであること。病気などで髪を失った子どもたちへウィッグを届ける活動への参加を、施術と並行して行うことができる。シンガポールでこのサービスを提供するのは、このサロンのみとされる。\n\n日本語でのカウンセリングが可能。予約はウェブサイト（miho-osuga.com）または電話（+65 9122 5792）で。",
+    "japanese_staff": true,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "カット",
+      "カラー（オーガニック）",
+      "ヘアドネーション対応"
     ],
-    "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJac3VA4AZ2jERDyD-4ZVYIQQ",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "miko-hair-korean-hair-salon",
-    "name": "MIKO HAIR 미코헤어 korean hair salon",
-    "name_ja": "ミコヘア",
-    "area": "Singapore",
-    "address": "14 Scotts Rd, #02-92 Far East Plaza, Singapore 228213",
-    "phone": "+6562620691",
-    "website": "https://www.mikohairkoreansalon.com/about",
-    "description": "Far East Plaza内の韓国スタイルヘアサロン。日本語での相談も可能、カット・カラー・パーマに対応。Orchard駅から徒歩圏内。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 10:30 AM – 7:00 PM / Tuesday: 10:30 AM – 7:00 PM / Wednesday: 10:30 AM – 7:00 PM / Thursday: 10:30 AM – 7:00 PM / Friday: 10:30 AM – 7:00 PM / Saturday: 10:30 AM – 7:00 PM / Sunday: 10:30 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJSfBIVfgZ2jER201TiI38RYY",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "mirror-on-wall-salon-mowsalon",
-    "name": "Mirror On Wall Salon : MOWSALON",
-    "name_ja": "ミラー・オン・ウォール サロン",
-    "area": "Singapore",
-    "address": "VIIO@Balestier, 520 Balestier Rd, #01-03 (04 05 Balestier, Singapore 329853",
-    "phone": "+6569701206",
-    "website": "https://mowsalon.com/",
-    "description": "VIIO@Balestier内の日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。Balestierエリア。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: Closed / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJaWfxhwQX2jER9G1OMmuarC8",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "miyabi-japanese-hair-salon",
@@ -2380,13 +1565,14 @@
     "address": "1 Coleman St, #02-21 The Adelphi, Singapore 179803",
     "phone": "+6596948026",
     "website": "https://facebook.com/miyabi.com.sg",
-    "description": "The Adelphi内の日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。City Hall MRT直結の好立地。",
+    "description": "日本人スタイリスト2名が20年以上の経験で運営するプライベートサロン。The Adelphi #02-21、City Hall MRT徒歩圏。",
     "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+      "日本人スタイリスト",
+      "少人数制",
+      "City Hall"
     ],
     "hours": "Monday: 10:00 AM – 5:00 PM / Tuesday: Closed / Wednesday: 10:00 AM – 5:00 PM / Thursday: 10:00 AM – 5:00 PM / Friday: 10:00 AM – 5:00 PM / Saturday: 10:00 AM – 5:00 PM / Sunday: 10:00 AM – 5:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJdabgLqcZ2jER0Nmu7OFEit8",
@@ -2396,59 +1582,16 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "modern-beauty-salon",
-    "name": "Modern Beauty Salon",
-    "name_ja": "モダンビューティーサロン",
-    "area": "Singapore",
-    "address": "Blk 163 Ang Mo Kio Ave 4, #01-480, Singapore 560163",
-    "phone": "+6564588678",
-    "website": "https://www.modernbeautysalon.com.sg/en/",
-    "description": "Ang Mo Kio HDB内の日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。Ang Mo Kio駅から徒歩圏内。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+    "photo_name": null,
+    "detail": "「Miyabi Japanese Hair Salon」は1 Coleman Street #02-21、The Adelphi（City Hall MRT近く）に位置する日系プライベートサロンだ。2005年開業で、日本人スタイリスト2名がそれぞれ20年以上の経験を持つベテランが運営している。\n\n少人数制のプライベートサロンならではの丁寧なサービスが特徴で、カット・カラー・電気パーマなど基本的なヘアメニューを丁寧に提供している。ゆっくりと日本語でスタイリストと相談しながら施術を進められる環境は、シンガポールに移り住んだばかりの日本人にとって特に心強い存在だ。\n\n営業時間は月〜金10:00〜18:30（木は11:00〜）、日10:00〜18:30、土曜定休。予約は電話（+65 9694 8026）またはFacebook（miyabi.com.sg）で受け付けている。The Adelphiという歴史的なビル内にあり、City Hallから歩いてアクセスしやすい。",
+    "japanese_staff": true,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "カット",
+      "カラー",
+      "電気パーマ"
     ],
-    "hours": "Monday: 12:00 – 9:00 PM / Tuesday: 12:00 – 9:00 PM / Wednesday: 12:00 – 9:00 PM / Thursday: 12:00 – 9:00 PM / Friday: 12:00 – 9:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJk8YZlOcW2jERI-nrLSpqdCA",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "modern-beauty-salon-2",
-    "name": "Modern Beauty Salon",
-    "name_ja": "モダンビューティーサロン",
-    "area": "Singapore",
-    "address": "Blk 186 Toa Payoh Central, #02-436, Singapore 310186",
-    "phone": "+6563543226",
-    "website": "https://www.modernbeautysalon.com.sg/en/",
-    "description": "Toa Payoh HDB内の日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。Toa Payoh MRT徒歩圏内。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 12:00 – 9:00 PM / Tuesday: 12:00 – 9:00 PM / Wednesday: 12:00 – 9:00 PM / Thursday: 12:00 – 9:00 PM / Friday: 12:00 – 9:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJx1vF0GUX2jERnUHxjQbdddg",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "mr-brothers-cut-club-singapore",
@@ -2458,13 +1601,14 @@
     "address": "233 River Valley Rd, #01-01, Singapore 238291",
     "phone": "+6581341277",
     "website": "https://mr-brothers-cutclub-sg.com/",
-    "description": "2015年東京・原宿で創業した本格メンズバーバーショップのシンガポール店。River Valley Road沿いに位置。クラシックなバーバー文化と日本の技術を融合したカット・シェーブ・シャンプーを提供。",
+    "description": "原宿発祥の日本式バーバー「Mr.BROTHERS CUT CLUB」のシンガポール店。River Valley、米英クラシックとJapanese styleの融合が特徴。",
     "tags": [
-      "美容",
-      "日系サロン"
+      "日本式バーバー",
+      "原宿発祥",
+      "River Valley"
     ],
     "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJTUS8xhwZ2jER2QFX5om-220",
@@ -2474,7 +1618,16 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「Mr.BROTHERS CUT CLUB SINGAPORE」は233 River Valley Road #01-01に位置する、東京・原宿発の日本式バーバーブランドのシンガポール初出店舗だ。2015年に原宿で創業、ロサンゼルス店に続いて海外2号店としてシンガポールに進出した。\n\nコンセプトは「オリジナルバーバースタイル」——かつてアメリカやヨーロッパで隆盛した伝統的なバーバー文化を日本式のモダンデザインセンスで再解釈した空間だ。シンガポール店のインテリアは「British」と「Mid-Century」という2つのテーマをベースに設計されており、シンガポールの多民族文化を反映したデザインが随所に施されている。\n\nサービスはメンズカット・フェードカット・ホットタオルシェービングが中心で、男性のグルーミングに特化したラインナップ。日本人スタイリストが在籍しており、日本語での相談が可能。\n\nRiver Valleyはシンガポールの中でも日本人在住者が多いエリアのひとつで、地元のシンガポール人や在住外国人からも幅広く支持を受けている。予約はウェブサイト（mr-brothers-cutclub-sg.com）またはFresha経由で。",
+    "japanese_staff": true,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "メンズカット",
+      "フェードカット",
+      "ホットタオルシェービング"
+    ],
+    "spot_reviewed": true
   },
   {
     "slug": "musubi-boutique-hair-salon",
@@ -2484,76 +1637,33 @@
     "address": "275 Tanjong Katong Road, Singapore 437058",
     "phone": "+6567027004",
     "website": "https://musubisg.com/",
-    "description": "日本の技術とシンガポールのホスピタリティを融合したブティックヘアサロン。カラー・カット・トリートメントを提供。Tanjong Katong本店とKampong Bahru店（OHANA）の2店舗を展開。",
+    "description": "「結び」の名を冠した日系ブティックサロン。Tanjong Katong Road、日本とシンガポールの美を結ぶ哲学でオマカセスタイルも提供。",
     "tags": [
-      "日本語対応",
-      "日本人スタイリスト",
-      "カラー",
-      "トリートメント"
+      "日本人ファウンダー",
+      "おまかせプラン",
+      "Katong"
     ],
     "hours": "月〜土: 10:00-20:00 / 日: 10:00-18:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
-    "email": null,
+    "email": "info@musubisg.com",
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "nail-bliss-thomson-plaza",
-    "name": "Nail Bliss Thomson Plaza",
-    "name_ja": "ネイルブリス トムソンプラザ",
-    "area": "Singapore",
-    "address": "301 Upper Thomson Rd, #01-62 Thomson Plaza, Singapore 574408",
-    "phone": "+6562663830",
-    "website": "http://www.nailbliss.com.sg/",
-    "description": "Thomson Plaza 1階のネイルサロン。日本式のジェルネイル・ネイルアート・ハンドケアを提供。日本のネイルデザインを得意とし、Thomson周辺の日本人駐在家族に便利なモール内立地。",
-    "tags": [
-      "美容",
-      "日系サロン"
+    "photo_name": null,
+    "detail": "「MUSUBI Boutique Hair Salon」は275 Tanjong Katong Road（東部Katongエリア）に位置する、ファウンダーのTakuya Segawa氏が「日本とシンガポールの橋渡し」を夢に立ち上げた日系ブティックサロンだ。「結び（MUSUBI）」という名前には、人・文化・美を結ぶという願いが込められている。\n\nユニークなサービスのひとつが「Omakase（おまかせ）」プラン——季節感・エレガントさ・芸術性を大切にするスタイリストに完全に任せることで、その時々の自分に最適なスタイルを提案してもらえる体験だ。日本の料理文化から着想を得たこのコンセプトは、スタイリストとの信頼関係を重視するリピーター客に特に好評だ。\n\nカラーリング・カット・トリートメントを中心に幅広いメニューを提供。Katong店のほかKampong Bahru店（OHANA by MUSUBI）も展開しており、シンガポール東部・南部エリアをカバーしている。\n\n営業時間は月〜土10:00〜20:00、日10:00〜18:00（祝日も営業）。予約は電話（+65 6702 7004）またはメール（info@musubisg.com）で。",
+    "japanese_staff": true,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "Omakaseスタイル",
+      "カット",
+      "カラー",
+      "トリートメント"
     ],
-    "hours": "Monday: 10:30 AM – 8:00 PM / Tuesday: 10:30 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:30 AM – 8:00 PM / Friday: 10:30 AM – 8:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 6:00 AM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJy_POHjAX2jERVArqxgsocgw",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "naoki-hair-dressing",
-    "name": "NAOKI HAIR DRESSING",
-    "name_ja": "ナオキ ヘアドレッシング",
-    "area": "Singapore",
-    "address": "111 Somerset Rd, #02-35/36 TripleOne Somerset, Singapore 238164",
-    "phone": "+6587221586",
-    "website": "https://www.instagram.com/naokihairdressing/",
-    "description": "TripleOne Somerset内の日系ヘアサロンNAOKI。日本人スタイリスト在籍、カット・カラー・パーマ・ヘッドスパに対応。Somerset MRT直結。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 9:30 AM – 8:00 PM / Tuesday: 9:30 AM – 8:00 PM / Wednesday: 9:30 AM – 8:00 PM / Thursday: 9:30 AM – 8:00 PM / Friday: 9:30 AM – 8:00 PM / Saturday: 9:30 AM – 8:00 PM / Sunday: 9:30 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJvUD3f58Z2jERnJZG7ycd_SM",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "naoki-hair-dressing-somerset",
@@ -2563,15 +1673,14 @@
     "address": "111 Somerset Road, #02-35/36 TripleOne Somerset, Singapore 238164",
     "phone": "+6597291614",
     "website": "https://www.naokihair.com/",
-    "description": "日本人スタイリストが在籍する日系ヘアサロン。TripleOne Somerset内、Somerset駅至近。カット・カラー・パーマ・ヘッドスパに対応。日本語カウンセリング好評。",
+    "description": "日本大手Arte Salon系列で「シンガポール10年連続No.1日系サロン」を標榜。TripleOne Somerset、縮毛矯正と頭皮ケアで評判。",
     "tags": [
-      "日本人スタイリスト",
-      "ヘアサロン",
-      "Somerset",
-      "日本語カウンセリング"
+      "Arte Salon系列",
+      "縮毛矯正",
+      "Somerset"
     ],
     "hours": "毎日: 9:30-20:00",
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
@@ -2580,7 +1689,17 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「NAOKI Hair Dressing」はTripleOne Somerset内#02-35/36（111 Somerset Road）に位置する日系ヘアサロンだ。日本のArte Salon Holdings（ASH）が運営するグループの一員で、日本全国300店舗以上のチェーンサロンと同じ技術教育を受けたスタイリストが在籍している。\n\nシンガポール開業から10年以上「No.1日系ヘアサロン」として認知されてきた老舗で、全スタイリストはファウンダーのNaoki Yoshihara氏から直接認定を受けた横浜トレーニング出身者だ。縮毛矯正（ストレートパーマ）では日本の最新技術・薬剤を使用し、シンガポールの高温多湿な気候でもサラサラ・ツヤツヤな仕上がりが長持ちすると評判だ。\n\nドクタースカルプトリートメント・ソーダフォームトリートメント・バブルスパトリートメントなど独自の頭皮・ヘアケアメニューも充実。日本の美容室と同等の品質をシンガポールで最もリーズナブルな価格帯で提供しているとクチコミでも評価される。\n\n営業時間はウェブサイト（naokihair.com）で確認を。予約は電話（+65 9729 1614）またはオンラインで受け付けている。",
+    "japanese_staff": true,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "縮毛矯正",
+      "ドクタースカルプトリートメント",
+      "カット",
+      "カラー"
+    ],
+    "spot_reviewed": true
   },
   {
     "slug": "nine-by-sweet-basil-city-hall",
@@ -2590,15 +1709,14 @@
     "address": "26A Purvis Street, Singapore 188603",
     "phone": "+6563373661",
     "website": "http://nine-sg.com/",
-    "description": "ラッフルズホテル向かいのショップハウスに位置する日本人ヘアサロン。全スタイリストが日本人で東京仕込みの技術を提供。カット・カラー・パーマ・ヘッドスパをCity Hallエリアの静かな環境で受けられる。火曜定休。",
+    "description": "2014年開業、全スタイリストが東京仕込みの日系ヘアサロン。ラッフルズホテル裏のPurvis Street、マニキュア・カラーも充実。",
     "tags": [
-      "日本人スタイリスト",
-      "ヘアサロン",
-      "City Hall",
-      "ショップハウス"
+      "東京仕込みスタイリスト全員",
+      "マニキュア・ペディキュア",
+      "Bugis"
     ],
     "hours": "月・水〜土: 10:00-20:00 / 日祝: 10:00-19:00 / 火: 休",
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
@@ -2607,7 +1725,17 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「Nine By Sweet Basil」は26A Purvis Street（City Hall MRT・Bugis MRTからともに徒歩圏、ラッフルズホテル裏手）に位置する日系ヘアサロンだ。2014年開業で、全スタイリストが東京でトレーニングを受けた正真正銘の日本式サロンとして知られている。さらに全スタイリストが日本のセレブリティ・モデル・タレントの担当経験を持つという高いバックグラウンドも特徴だ。\n\nカット・カラーに加えてマニキュア・ペディキュア・パーマ・ヘアトリートメントなど幅広いメニューを提供。日本人スタイリストが担当するため、日本語でのオーダーが可能で、シンガポール在住の日本人に長く支持されてきた。\n\nPurvis Streetはシンガポールの中心部でも歴史的な建物が並ぶ閑静なエリアで、ランチタイムやオフィス帰りに気軽に立ち寄れるロケーションだ。\n\n営業時間は月・水〜金10:00〜20:00、土日10:00〜19:00（火休）。予約は電話（+65 6337 3661）またはウェブサイト（nine-sg.com）で。",
+    "japanese_staff": true,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "カット",
+      "カラー",
+      "パーマ",
+      "マニキュア・ペディキュア"
+    ],
+    "spot_reviewed": true
   },
   {
     "slug": "nook-design-studio",
@@ -2617,17 +1745,14 @@
     "address": "41A Duxton Hill, Level 2, Singapore 089619",
     "phone": "+6598348515",
     "website": "https://www.nook-salon.com/",
-    "description": "Duxton Hillにある日系ヘア・ネイル・まつげサロン。日本人オーナーが運営し、ヘッドスパトリートメントが好評。木を基調としたナチュラルな空間でリラックスできる。",
+    "description": "日本のおもてなし精神と自己ケアの美学を融合させたDuxton Hillのサロン。ヘア・ネイル・まつ毛を一か所で。",
     "tags": [
-      "日本語対応",
-      "ヘアサロン",
-      "ネイル",
-      "まつげ",
-      "ヘッドスパ",
-      "予約可"
+      "日本人スタイリスト",
+      "ネイル・まつ毛も対応",
+      "Duxton Hill"
     ],
     "hours": "月〜金: 10:00-20:00 / 土日: 10:00-18:00",
-    "last_verified": "2026-03-26",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -2636,61 +1761,17 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "number76-hair-salon",
-    "name": "Number76 Hair Salon",
-    "name_ja": "ナンバー76",
-    "area": "Tanjong Pagar",
-    "address": "3 Wallich Street, #01-14, Tanjong Pagar Centre, Singapore 078882",
-    "phone": "+6562221776",
-    "website": "https://number76.com/sg/",
-    "description": "マレーシア・シンガポール・日本に展開する日系ヘアサロン。日本人スタイリストが在籍し、カット・カラー・パーマ・トリートメントを提供。Tanjong Pagar Centre内の便利な立地。",
-    "tags": [
-      "日本語対応",
-      "日本人スタイリスト",
-      "カラー",
-      "パーマ",
-      "予約可"
+    "photo_name": null,
+    "detail": "「Nook. Design Studio」は41A Duxton Hill Level 2（Tanjong Pagar MRT近く）に位置する日系ヘア・ネイル・まつ毛サロンだ。「日本のおもてなし（Omotenashi）と自己ケアの美」を融合させたコンセプトを掲げており、ショップハウスの広いスペースを活かした木調・ブラウントーンのインテリアが落ち着いた雰囲気を演出している。\n\n在籍スタイリストのSone氏はライトでクラシカルなヘアカラーを得意とする日本人スタイリスト。Duxton Hillの緑と歴史的な街並みに溶け込む日本式の丁寧なサービスが、在住の日本人女性から高く評価されている。\n\nヘアサービスはカット・カラー・スカルプトリートメント・ヘッドスパを中心に提供。ネイルは繊細なネイルアートまで対応しており、まつ毛エクステも取り扱う。3サービスを一か所でケアできる点は、まとまった時間を確保しにくい在住者にとって大きな利便性だ。\n\n営業時間は月〜金10:00〜20:00、土日10:00〜18:00。予約は電話（+65 9834 8515）またはウェブサイト（nook-salon.com）で。",
+    "japanese_staff": true,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "カット",
+      "ヘアカラー",
+      "ネイルアート",
+      "まつ毛エクステ"
     ],
-    "hours": "毎日 10:00-20:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "number76-hair-salon-orchard-gateway-singapore",
-    "name": "Number76 Hair Salon - Orchard Gateway (Singapore)",
-    "name_ja": "ナンバー76 ヘアサロン オーチャードゲートウェイ",
-    "area": "Singapore",
-    "address": "#02-21, 22 & 23, Orchard Gateway, 277 Orchard Rd, Singapore 238858",
-    "phone": "+6563856776",
-    "website": "https://sgp.number76.com/",
-    "description": "Orchard Gateway内の日系スタイルヘアサロン。日本の最新トレンドに対応したカット・カラー・パーマを提供。Somerset駅直結でアクセス良好。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 11:00 AM – 8:30 PM / Tuesday: 11:00 AM – 8:30 PM / Wednesday: 11:00 AM – 8:30 PM / Thursday: 11:00 AM – 6:00 PM / Friday: 11:00 AM – 8:30 PM / Saturday: 11:00 AM – 8:30 PM / Sunday: 11:00 AM – 8:30 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJSbV4K5cZ2jERHRMHjfdD10Y",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "number76-orchard-gateway",
@@ -2700,16 +1781,14 @@
     "address": "277 Orchard Road, #02-23 Orchard Gateway, Singapore 238858",
     "phone": "+6563856776",
     "website": "https://sgp.number76.com/",
-    "description": "東京発の日系ヘアサロンNumber76のシンガポール旗艦店。日本人スタイリスト在籍、カット・カラー・パーマ・ヘアトリートメントに対応。Somerset駅直結。",
+    "description": "東京・南青山発の日系サロンNumber76。Orchard Gateway #02-23、2001年創業のChain Salon Singapore旗艦店。",
     "tags": [
-      "日本人スタイリスト",
-      "ヘアサロン",
-      "Somerset",
-      "東京発",
-      "トレンド"
+      "東京・南青山発祥",
+      "日系チェーン",
+      "Orchard Gateway"
     ],
     "hours": "月〜水・金〜日: 11:00-20:30 / 木: 11:00-18:00",
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
@@ -2718,7 +1797,17 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「Number76 Hair Salon」は277 Orchard Road、Orchard Gateway #02-21/22/23（Somerset MRT直結）に位置する、東京・南青山発祥の日系ヘアサロンチェーンのシンガポール店だ。\n\n2001年に東京でDaisuke Hamaguchi氏が創業し、2016年にシンガポールに進出。「Catch The Wave」をスローガンに、最新の日本・アジアのヘアトレンドをシンガポールに届けることを使命としている。カット・カラー（オーガニックカラー含む）・パーマ・縮毛矯正・ヘアエクステンション・スカルプトリートメントなど多彩なメニューを揃えている。\n\nスタッフが施術後に「お疲れ様でした」と声をかけるなど、日本の美容室らしいホスピタリティが好評。Somerset MRT直結という抜群の立地で、平日・休日を問わず多くの日本人在住者・観光客が利用している。\n\n営業時間は月〜水11:00〜21:00、木11:00〜18:00、金〜日11:00〜21:00。詳細はウェブサイト（sgp.number76.com）で。",
+    "japanese_staff": true,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "カット",
+      "オーガニックカラー",
+      "縮毛矯正",
+      "スカルプトリートメント"
+    ],
+    "spot_reviewed": true
   },
   {
     "slug": "ohana-by-musubi-kampong-bahru",
@@ -2728,23 +1817,32 @@
     "address": "67A Kampong Bahru Road, #02A, Singapore 169371",
     "phone": "+6567027004",
     "website": "https://musubisg.com/",
-    "description": "MUSUBIヘアサロンのOutram Park店。Kampong Bahru Road沿いのショップハウス2階に位置。Outram Park MRT駅から徒歩5分。",
+    "description": "MUSUBIの姉妹店「OHANA」。Kampong Bahru Road、ネイルも対応のブティック日系サロンで日本語でのケアが可能。",
     "tags": [
-      "日本語対応",
-      "日本人スタイリスト",
-      "予約可"
+      "MUSUBI系列",
+      "Komorebi Nails",
+      "Kampong Bahru"
     ],
     "hours": "月〜土: 10:00-20:00 / 日: 10:00-18:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「OHANA by MUSUBI Boutique Hair Salon」は67A Kampong Bahru Road #02A（Outram Park MRT近く）に位置する、MUSUBIブランドの第2拠点だ。「オハナ（家族）」という名前が示す通り、小さなチームで一人ひとりに向き合う温かいサービスが特徴のブティックサロンとして運営されている。\n\nTanjong Katong Road本店（MUSUBI）と同じ日本式のヘア技術・哲学を受け継ぎ、カラーリング・パーマ・カットなどのヘアサービスを提供。さらにOHANAではネイルアート（Komorebi Nails）も取り扱っており、特にネイルデザインは独自のアートスタイルで人気を集めている。\n\nKampong Bahruはローカルの雰囲気が色濃く残るエリアで、MUSUBI本店（Katong）とは異なる顧客層にもアクセスしやすいロケーションだ。日本語でのカウンセリングが可能。\n\n営業時間は月〜土10:00〜20:00、日10:00〜18:00（祝日も営業）。予約はMUSUBIウェブサイト（musubisg.com）またはFresha経由で。",
+    "japanese_staff": true,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "カット",
+      "カラー",
+      "Komorebi Nailsネイルアート"
+    ],
+    "spot_reviewed": true
   },
   {
     "slug": "palette",
@@ -2754,13 +1852,14 @@
     "address": "371 Beach Rd, #01-25, Singapore 199597",
     "phone": "+6594502112",
     "website": "http://www.palettehair.sg/",
-    "description": "Beach Road沿いの日系美容室「パレット」。日本人スタイリストによるカット・カラー・パーマ・トリートメントを提供。アットホームな雰囲気で、日本語で気軽に相談できるサロン。",
+    "description": "Korean & Japanese両スタイルに対応。Beach Road City Gate #01-25、VIPルームあり、日本式カラーとコリアンパームで人気。",
     "tags": [
-      "美容",
-      "日系サロン"
+      "Korean & Japanese両対応",
+      "VIPルームあり",
+      "Beach Road"
     ],
     "hours": "Monday: 11:00 AM – 8:00 PM / Tuesday: 11:00 AM – 8:00 PM / Wednesday: 11:00 AM – 8:00 PM / Thursday: 11:00 AM – 8:00 PM / Friday: 11:00 AM – 8:00 PM / Saturday: 11:00 AM – 8:00 PM / Sunday: 11:00 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJbdG0dswZ2jERsKaGFQbZ7_E",
@@ -2770,111 +1869,16 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "picasso-hair-studio",
-    "name": "Picasso Hair Studio",
-    "name_ja": "ピカソ ヘアスタジオ",
-    "area": "Singapore",
-    "address": "1 Goldhill Plaza, #01-49, Singapore 308899",
-    "phone": "+6562240221",
-    "website": "http://www.picassohairstudio.com.sg/",
-    "description": "Goldhill Plaza内の日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。Novena駅から徒歩圏内。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+    "photo_name": null,
+    "detail": "「Palette」は371 Beach Road #01-25（Nicoll Highway MRT隣）に位置するヘアサロンで、日本式と韓国式の両スタイルに対応したユニークなポジショニングが特徴だ。\n\n日本式カラーリング（Japan Colouring）は自分に似合うカラーを見つけることに重点を置いたサービスで、肌色・個性に合わせた提案が受けられる。韓国式パーマも取り扱い、持続性の高いカールスタイルも選択肢に入れられる。\n\n6席の通常エリアに加えてVIPルームを2室完備しており、ヒジャブ着用のムスリム顧客がプライバシーを確保しながら施術を受けられる配慮も備わっている。スカルプトリートメントも提供しており、ヘアの健康ケアも受けられる。\n\n使用製品は日本・韓国産の高品質なものを中心に揃えており、日本語対応については現時点では未確認。英語でのコミュニケーションが基本となる。\n\n営業時間は毎日11:00〜20:00。予約は電話（+65 9450 2112）またはウェブサイト（palettehair.sg）で。",
+    "japanese_staff": null,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "日本式カラー",
+      "韓国式パーマ",
+      "スカルプトリートメント"
     ],
-    "hours": "Monday: 11:00 AM – 8:00 PM / Tuesday: 11:00 AM – 8:00 PM / Wednesday: 11:00 AM – 8:00 PM / Thursday: 11:00 AM – 8:00 PM / Friday: 11:00 AM – 8:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJgV5HWhIZ2jERQ6khMFW-R6c",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "poly-beauty-jadescape",
-    "name": "Poly Beauty - Jadescape",
-    "name_ja": "ポリービューティー ジェイドスケープ",
-    "area": "Singapore",
-    "address": "14 Shunfu Rd, #01-52, Singapore 575748",
-    "phone": "+6563769881",
-    "website": "http://www.polybeauty.com.sg/",
-    "description": "Shunfu Road・Jadescape内の日系ビューティーサロン。フェイシャル・ボディケア・脱毛などを提供。コンドミニアム内に位置し、周辺の日本人居住者にアクセスしやすい。",
-    "tags": [
-      "美容",
-      "日系サロン"
-    ],
-    "hours": "Monday: 10:30 AM – 8:30 PM / Tuesday: 10:30 AM – 8:30 PM / Wednesday: 10:30 AM – 8:30 PM / Thursday: 10:30 AM – 8:30 PM / Friday: 10:30 AM – 8:30 PM / Saturday: 10:30 AM – 8:30 PM / Sunday: 10:30 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJHcsA_tsX2jERHTBaG0nDwfE",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "profyle-studios-hair-salon-serangoon",
-    "name": "Profyle Studios - Hair Salon Serangoon",
-    "name_ja": "プロファイルスタジオ セラングーン",
-    "area": "Singapore",
-    "address": "151 Lorong Chuan, #01-17 New Tech Park, Singapore 556741",
-    "phone": "+6592773056",
-    "website": "http://profylestudios.com/",
-    "description": "Lorong Chuan・New Tech Park内の日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。Serangoonエリア。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 10:30 AM – 8:30 PM / Tuesday: 10:30 AM – 8:30 PM / Wednesday: 10:30 AM – 8:30 PM / Thursday: 10:30 AM – 8:30 PM / Friday: 10:30 AM – 8:30 PM / Saturday: 10:30 AM – 8:30 PM / Sunday: 10:30 AM – 7:30 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJHxMs8iCE_GURZBSu7XTxItk",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "relax-hair",
-    "name": "台北松山區Relax hair日系美髮沙龍",
-    "name_ja": "台北松山區日系美髮沙龍",
-    "area": "Singapore",
-    "address": "No. 3號, Lane 75, Section 4, Minsheng E Rd, Songshan District, Taipei City, Taiwan 105",
-    "phone": "+886225450656",
-    "website": "https://www.relaxhair-tw.com/",
-    "description": "日本式のカット・カラー技術を提供する日系ヘアサロン。シンガポール在住の日本人コミュニティで利用されている。日本語での予約・カウンセリング対応。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 11:00 AM – 8:00 PM / Tuesday: Closed / Wednesday: 11:00 AM – 8:00 PM / Thursday: 11:00 AM – 8:00 PM / Friday: 11:00 AM – 8:00 PM / Saturday: 11:00 AM – 8:00 PM / Sunday: 10:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJ2yi3Ae-rQjQRCLgp2r2sTNI",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "room-hair-salon",
@@ -2884,13 +1888,14 @@
     "address": "264b S Bridge Rd, Level 3, Singapore 058813",
     "phone": "+6588144360",
     "website": "http://www.room-salon.com.sg/",
-    "description": "South Bridge Road沿いの日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。Chinatown駅から徒歩圏内。",
+    "description": "チャイナタウン・South Bridge RoadのショップハウスLv.3にある日系プライベートサロン。スタイリストEmikoが主に担当。",
     "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+      "日本人スタイリスト",
+      "プライベートサロン",
+      "Chinatown"
     ],
     "hours": "Monday: 9:30 AM – 8:00 PM / Tuesday: 9:30 AM – 8:00 PM / Wednesday: 9:30 AM – 8:00 PM / Thursday: Closed / Friday: 9:30 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJcxC2d98Z2jERzIihpC_S2BQ",
@@ -2900,7 +1905,17 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「Room Hair Salon」は264B South Bridge Road Level 3（Chinatown MRT近く）に位置する日系ヘアサロンだ。「ホームのような安心感を感じられるサロン」というコンセプトを掲げており、プライベートな空間でゆっくりとスタイリストと対話しながら施術を受けられる環境が特徴。\n\nメインスタイリストのEmiko氏は日本人で、細やかなケアと丁寧な施術が評価されている。カット・カラー・パーマ・トリートメントなど基本的なヘアメニューを提供しており、日本語での相談が可能だ。\n\nChinatownエリアのショップハウス3Fという立地で、アクセスはやや分かりにくいが、一度訪れると常連になるリピーターが多い。\n\n営業時間は毎日9:30〜20:00（受付は18:00まで）、木曜定休。予約はWhatsApp・電話（+65 8814 4360）またはウェブサイト（room-salon.com.sg）で受け付けている。",
+    "japanese_staff": true,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "カット",
+      "カラー",
+      "パーマ",
+      "トリートメント"
+    ],
+    "spot_reviewed": true
   },
   {
     "slug": "rubik-japanese-salon",
@@ -2910,50 +1925,33 @@
     "address": "10 Bukit Pasoh Road, Singapore 089824",
     "phone": "+6568370238",
     "website": "https://www.rubikhairsalon.com/",
-    "description": "Outram Park・Bukit Pasoh Roadの日系ユニセックスヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマに対応。Outram Park NEL駅から徒歩3分。",
+    "description": "「Alice in Wonderland」的なユニークなデコールとベテラン日本人スタイリストTeruが率いるサロン。Bukit Pasoh Road、Fukugen治療も提供。",
     "tags": [
       "日本人スタイリスト",
-      "ヘアサロン",
-      "Outram Park",
-      "ユニセックス"
+      "Fukugenトリートメント",
+      "Bukit Pasoh"
     ],
     "hours": "月: 10:00-18:00 / 火: 休 / 水〜土: 10:00-20:00 / 日: 10:00-18:00",
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
     "phone_local": null,
-    "email": null,
+    "email": "rubiksalon@gmail.com",
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "ruler-japanese-hair-salon-singapore",
-    "name": "シンガポール美容室 RULER japanese hair salon singapore",
-    "name_ja": "シンガポール美容室",
-    "area": "Singapore",
-    "address": "76 S Bridge Rd, #01-00, Singapore 058706",
-    "phone": "+6565322533",
-    "website": "https://www.rulersg.com/",
-    "description": "S Bridge Road沿いにある日系美容室RULER。日本人スタイリスト在籍、カット・カラー・パーマを日本のトレンドスタイルで提供。Raffles Place駅近く。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+    "photo_name": null,
+    "detail": "「Rubik Japanese Hair Salon」は10 Bukit Pasoh Road（Outram Park MRT徒歩3分）に位置する日系ヘアサロンだ。不思議の国のアリスのような独特のデコールが印象的で、ヒップスターエリアのBukit Pasoh Roadに独自の雰囲気を放っている。\n\nメインスタイリストのTeru氏はシンガポールで最も支持されている日本人ヘアスタイリストの一人として知られており、長年にわたり多くのリピーターを抱えている。カット・カラー・ハイライト・パーマ・デジタルパーマ・縮毛矯正など幅広いメニューを提供。\n\n特筆すべきは「Fukugen（復元）」という水ベースのヘアトリートメント。ブリーチ毛や強いダメージ毛の修復に特化しており、通常のトリートメントでは対処しにくいレベルのダメージにも対応できる点が他のサロンとの差別化ポイントだ。\n\nメール予約は rubiksalon@gmail.com、電話は+65 6837 0238。営業は月・水〜土10:00〜20:00、日10:00〜18:00、火定休。",
+    "japanese_staff": true,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "カット",
+      "カラー",
+      "デジタルパーマ",
+      "Fukugenトリートメント"
     ],
-    "hours": "Monday: 10:00 AM – 8:30 PM / Tuesday: 10:00 AM – 8:30 PM / Wednesday: 10:00 AM – 8:30 PM / Thursday: 10:00 AM – 8:30 PM / Friday: 10:00 AM – 8:30 PM / Saturday: 10:00 AM – 8:30 PM / Sunday: 10:00 AM – 8:30 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJWYrgQQoZ2jERPEjYdzJg9hU",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "ruler-japanese-salon",
@@ -2963,15 +1961,14 @@
     "address": "76 South Bridge Road, #01-00, Singapore 058706",
     "phone": "+6565322533",
     "website": "https://www.rulersg.com/",
-    "description": "South Bridge Roadに位置する日本人ヘアサロン。「1客1スタイリスト制」でお客を最後まで一人が担当する丁寧な施術が特徴。カット・カラー・パーマ・縮毛矯正を提供。Chinatown MRT近く。月〜日10:00-20:30。",
+    "description": "1対1形式で日本人スタイリストが担当するプレミアム日系サロン。76 South Bridge Road、シンガポール6年以上の実績。",
     "tags": [
+      "マンツーマン対応",
       "日本人スタイリスト",
-      "ヘアサロン",
-      "1対1施術",
-      "Chinatown"
+      "Raffles Place"
     ],
     "hours": "毎日: 10:00-20:30",
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
@@ -2980,33 +1977,17 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "salon-de-edmund",
-    "name": "Salon de Edmund",
-    "name_ja": "サロン・ド・エドモンド",
-    "area": "Singapore",
-    "address": "93 Soo Chow Walk, #01-01, Singapore 575386",
-    "phone": "+6584990038",
-    "website": "https://www.salondeedmund.com/",
-    "description": "Soo Chow Walk沿いの日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。住宅街の地域密着型サロン。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+    "photo_name": null,
+    "detail": "「RuleR Japanese Hair Salon」は76 South Bridge Road #01-00（Raffles Place MRT近く）に位置する日系ヘアサロンだ。1対1の完全マンツーマン形式を採用しており、担当スタイリストが最初から最後まで一人のお客に専念する体制が特徴。\n\n在籍するスタイリストは主に日本人で、来店前に髪質・顔の形・生活スタイルを丁寧に分析した上でスタイルを提案する。日本式の精緻なカット技術と最新のヘアデザインを組み合わせたスタイル提案が評判だ。\n\nカット$70〜、カラー$100〜、パーマ$100〜、縮毛矯正$100〜、トリートメント$80〜とシンガポールの日系サロンの中でも明確な料金体系が設定されており、予算の見通しを立てやすい。\n\n静かでミニマリスティックな内装が印象的で、ゆったりと過ごしながら施術を受けられる環境が好評だ。営業時間は毎日10:00〜20:30（ウェブサイト確認を推奨）。予約はウェブサイト（rulersg.com）から。",
+    "japanese_staff": true,
+    "price_range": "SGD 70〜（カット）",
+    "menu_highlights": [
+      "カット$70〜",
+      "カラー$100〜",
+      "縮毛矯正$100〜",
+      "トリートメント$80〜"
     ],
-    "hours": "Monday: 11:00 AM – 8:00 PM / Tuesday: 11:00 AM – 8:00 PM / Wednesday: 11:00 AM – 8:00 PM / Thursday: 11:00 AM – 8:00 PM / Friday: 11:00 AM – 8:00 PM / Saturday: 11:00 AM – 7:00 PM / Sunday: 11:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJLzhExrAX2jERlWdlC7sg-S8",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "salon-rei",
@@ -3016,13 +1997,14 @@
     "address": "132a Telok Ayer St, Singapore 068599",
     "phone": "+6597501474",
     "website": "https://www.salon-rei.com/",
-    "description": "Telok Ayer Street沿いの日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマに対応。Tanjong Pagar駅から徒歩圏内。",
+    "description": "日本式ファッションカラーが得意な日系サロン。Telok Ayer Street 132A、トレンドカラーと個性的なヘアスタイルを日本語で相談可能。",
     "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+      "トレンドカラー",
+      "日本人スタイリスト",
+      "Telok Ayer"
     ],
     "hours": "Monday: 10:00 AM – 7:00 PM / Tuesday: 10:00 AM – 7:00 PM / Wednesday: 10:00 AM – 7:00 PM / Thursday: 10:00 AM – 7:00 PM / Friday: 10:00 AM – 7:00 PM / Saturday: 10:00 AM – 6:00 PM / Sunday: 10:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJeR2dTx0Z2jERCRd8fAsiJ0M",
@@ -3032,33 +2014,16 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sankakkei-duxton-road",
-    "name": "SANKAKKEI Duxton Road",
-    "name_ja": "サンカッケイ ダクストンロード",
-    "area": "Singapore",
-    "address": "〒089534, Duxton Rd, 75号 #3rd floor",
-    "phone": "+6597720170",
-    "website": "https://www.sankakkeihair.com/",
-    "description": "日本人スタイリストが在籍するヘア&スカルプケアサロン。Duxton Road店は女性専用。日本製のヘアケア製品を使用し、カット・カラー・頭皮ケア・まつげエクステを提供。5つ星ホテルのようなリラックス空間が特徴。",
-    "tags": [
-      "美容",
-      "日系サロン"
+    "photo_name": null,
+    "detail": "「Salon Rei」は132A Telok Ayer Street 2F（Tanjong Pagar MRT近く）に位置する日系ヘアサロンだ。「日本のファッション＆クオリティをシンガポールへ届けつつ、スタイリストが個性と創造性を育てられる場」をコンセプトに掲げている。\n\nトレンド感のある印象的なヘアカラーが得意で、クチコミではプラチナパープルなどのクリエイティブなカラーリングが紹介されている。スタイリストの個性と技術力を活かした提案型のサービスが特徴で、訪れるたびに新しいスタイルの発見があると評判だ。\n\n日本語での対応が可能。Telok Ayerはシンガポールの歴史的な商業地区で、Tanjong PagarやChiintatownからも歩いてアクセスできる。\n\n営業時間は平日10:00〜19:00（火休）、週末10:00〜18:00。予約は電話・WhatsApp（+65 9750 1474）またはウェブサイト（salon-rei.com）で受け付けている。",
+    "japanese_staff": true,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "ファッションカラー",
+      "カット",
+      "パーマ"
     ],
-    "hours": "Monday: 9:00 AM – 9:00 PM / Tuesday: 9:00 AM – 9:00 PM / Wednesday: 9:00 AM – 9:00 PM / Thursday: 9:00 AM – 9:00 PM / Friday: 9:00 AM – 9:00 PM / Saturday: 9:00 AM – 8:00 PM / Sunday: 9:00 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJWS5HSQMZ2jERCxxbq2p0kM8",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "sankakkei-hair-club-street",
@@ -3068,15 +2033,14 @@
     "address": "96A Club Street, Singapore 069467",
     "phone": null,
     "website": "https://www.sankakkeihair.com/",
-    "description": "日系ヘア&スカルプサロンSANKAKKEIのClub Street店。Duxton Road店とは別店舗。日本人スタイリストによるカット・カラー・パーマ・スカルプケアを提供。",
+    "description": "Club Streetの男性・子ども向けSANKAKKEI。有機ブランドOwayのスカルプメニューと日本式施術を提供するメンズ対応拠点。",
     "tags": [
-      "日本語対応",
-      "日本人スタイリスト",
-      "ヘッドスパ",
-      "スカルプケア"
+      "メンズ・子ども対応",
+      "Owayオーガニック",
+      "Club Street"
     ],
     "hours": "要確認",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -3085,7 +2049,16 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「SANKAKKEI Hair & Scalp」のClub Street店（96A Club Street）は、男性および子どもの予約受付を担当している拠点だ。Duxton Road店（75C、女性メイン）と役割を分担しており、メンズスタイルに特化した日本式ヘアサービスを提供している。\n\nイタリアのバイオダイナミック農場で栽培された植物エキスを使用するオーガニック美容ブランド「Oway」を採用したスカルプクレンジングメニューが特徴。化学物質を極力排した頭皮ケアとして、環境意識の高い顧客から支持されている。\n\nサロン全体の哲学として、日本製の再利用可能なヘアケア製品を使用し、顧客の安全と環境への配慮を優先している。日本式のホスピタリティで5つ星ホテルのような空間体験を目指しており、清潔感とリラクゼーションの両立が評価されている。\n\n予約はウェブサイト（sankakkeihair.com）またはFresha経由で。Duxton Road店と合わせて確認することを推奨する。",
+    "japanese_staff": true,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "カット",
+      "Owayスカルプケア",
+      "カラー"
+    ],
+    "spot_reviewed": true
   },
   {
     "slug": "sankakkei-hair-scalp-duxton",
@@ -3095,16 +2068,14 @@
     "address": "75C Duxton Road, 3rd Floor, Singapore 089534",
     "phone": null,
     "website": "https://www.sankakkeihair.com/",
-    "description": "日本人スタイリストが在籍するプレミアム日系ヘア&スカルプサロン。Duxton Road 3階に位置。カット・カラー・パーマ・スカルプケア・ヘッドスパに対応。Club Street店もあり。",
+    "description": "女性メインのSANKAKKEI Duxton Road店。2024年8月にはまつ毛サロンも3Fに開業。日本式スカルプケアとOwayで好評。",
     "tags": [
-      "日本語対応",
-      "日本人スタイリスト",
-      "ヘッドスパ",
-      "スカルプケア",
-      "予約可"
+      "女性メイン",
+      "Owayオーガニック",
+      "Duxton Road"
     ],
     "hours": "要確認",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -3113,35 +2084,17 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sentten-clarke-quay",
-    "name": "SENTTEN. Hair Salon",
-    "name_ja": "センテン",
-    "area": "Clarke Quay",
-    "address": "40 Carpenter Street, Level 3, Singapore 059919",
-    "phone": "+6596730570",
-    "website": "https://www.sentten.com/",
-    "description": "Clarke Quay MRT近くの日系ヘアサロン。カット・カラー・デジタルパーマ・ヘッドスパを提供。シンガポール・ベトナム・日本に展開するサロングループ。WhatsAppまたはオンラインで予約可能。",
-    "tags": [
-      "日本語対応",
-      "日本人スタイリスト",
-      "ヘッドスパ",
-      "デジタルパーマ",
-      "予約可"
+    "photo_name": null,
+    "detail": "「SANKAKKEI Hair & Scalp」のDuxton Road店（75C Duxton Road 3F）は、主に女性客を対象とした日本式ヘア＆スカルプサロンだ。男性・子ども向けのClub Street店（96A Club Street）とセットで展開するブランドで、女性向けメニューの提供拠点として機能している。\n\n最大の特徴は、有機美容ブランド「Oway（オーウェイ）」のスカルプクレンジングメニュー。イタリア発のこのブランドはバイオダイナミック農場で育てた植物エキスを使用しており、化学薬品に頼らない自然派ヘアケアを求める顧客に好評だ。\n\n2024年8月には同建物の3Fにまつ毛専門サロン「Eyelash SANKAKKEI」が開業し、ヘアとまつ毛の施術を同一拠点でまとめて行えるようになった。まつ毛の技術は日本の洗練された技法とエステティックにインスパイアされており、ナチュラルな仕上がりを得意としている。\n\n予約はウェブサイト（sankakkeihair.com）またはFresha経由で。",
+    "japanese_staff": true,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "Owayスカルプケア",
+      "カット",
+      "カラー",
+      "まつ毛エクステ（3F）"
     ],
-    "hours": "毎日 10:00-19:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "sentten-japanese-hair-salon",
@@ -3151,49 +2104,34 @@
     "address": "40 Carpenter St, level 3, Singapore 059919",
     "phone": "+6596730570",
     "website": "https://www.sentten.com/",
-    "description": "Carpenter Street 3階の日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。Clarke Quay駅から徒歩圏内。",
+    "description": "前身S.A.D's Hair Designから10年の歴史を引き継ぐ日系サロン。Carpenter Street Lv.3、Clarke Quay MRT直近でショートカット専門家も在籍。",
     "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+      "日本人スタイリスト",
+      "ショートカット専門",
+      "Clarke Quay"
     ],
     "hours": "Monday: 10:00 AM – 7:00 PM / Tuesday: 10:00 AM – 7:00 PM / Wednesday: 10:00 AM – 7:00 PM / Thursday: 10:00 AM – 7:00 PM / Friday: 10:00 AM – 7:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJdxtd1JgZ2jERj_bmBurcoDU",
     "ai_reviewed": true,
     "phone_local": null,
-    "email": null,
+    "email": "info@sentten.com",
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "shun-sakurai-hair-and-beauty",
-    "name": "SHUN SAKURAI HAIR AND BEAUTY",
-    "name_ja": "シュン サクライ ヘア&ビューティー",
-    "area": "Singapore",
-    "address": "1 Cuscaden Rd, #01-06 Conrad Singapore, Singapore 249715",
-    "phone": "+6562500353",
-    "website": "https://www.shunsakurai.sg/intro/",
-    "description": "Conrad Singapore Hotel内の日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマ・縮毛矯正に対応。Orchard駅から徒歩圏内。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+    "photo_name": null,
+    "detail": "「SENTTEN. Japanese Hair Salon」は40 Carpenter Street Level 3（Clarke Quay MRT徒歩数分）に位置する日系ヘアサロンだ。前身は「S.A.D's Hair Salon」としてRiver Valleyエリアで10年間営業してきたサロンで、Carpenter Streetに移転・リブランドして現在の形になった。\n\n日本人スタイリストが在籍しており、英語・中国語にも対応したコミュニケーションで幅広い顧客層に対応。カット・カラー・デジタルパーマ・ソフトリボンディング（縮毛矯正）・ヘッドスパ・トリートメントを提供。特にショートカット（ボブ・ピクシーカット）のスペシャリストとして知られており、ウェブサイトでショートカット専用コンテンツも発信している。\n\n独自の日本＆シンガポール産ヘアケアブランド「gnome cosmetics」を展開しており、サロン専用のシャンプー・トリートメント・ディープコンディショナーを購入・持帰りもできる。\n\n営業時間は毎日10:00〜19:00。予約は電話（+65 9673 0570）、メール（info@sentten.com）またはウェブサイト（sentten.com）から。",
+    "japanese_staff": true,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "カット（ショートスペシャリスト）",
+      "カラー",
+      "デジタルパーマ",
+      "ソフトリボンディング"
     ],
-    "hours": "Monday: Closed / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJ07cnl4YZ2jERAq4ar9kkKh8",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "shun-sakurai-orchard",
@@ -3203,16 +2141,14 @@
     "address": "1 Cuscaden Road, #01-06 Conrad Singapore Orchard, Singapore 249715",
     "phone": "+6569090197",
     "website": "https://www.shunsakurai.sg/",
-    "description": "コンラッドシンガポール・オーチャードのホテル1階に位置する高級日本人ヘアサロン。日本・シンガポール両国のトップサロンで活躍したオーナースタイリストが在籍。一人ひとりの好みと顔型・骨格に合わせたパーソナライズされたヘアスタイルを提案。",
+    "description": "表参道・香港・東京仕込みのスタイリストが在籍。Conrad Singapore Orchard #01-06、2017年開業の日系高級サロン。",
     "tags": [
       "日本人スタイリスト",
-      "ヘアサロン",
-      "ホテル内",
-      "Orchard",
-      "高級"
+      "Conrad Orchard内",
+      "高級サロン"
     ],
     "hours": "月: 休 / 火〜金: 10:00-20:00 / 土: 10:00-19:00 / 日: 10:00-18:00",
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
@@ -3221,35 +2157,16 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "shunji-matsuo",
-    "name": "Shunji Matsuo Hair Studio",
-    "name_ja": "シュンジマツオ",
-    "area": "Orchard",
-    "address": "15 Scotts Road, #01-01/02, Singapore 228218",
-    "phone": "+6562381522",
-    "website": "https://www.shunjimatsuo.com.sg/",
-    "description": "シンガポールで26年以上の歴史を持つ日系ヘアサロンのフラッグシップ店。日本人スタイリストが在籍し、ジャパニーズソフトストレートニング・カラー・スタイリングを提供。ION Orchard店・Holland Village店も展開。",
-    "tags": [
-      "日本語対応",
-      "日本人スタイリスト",
-      "複数店舗",
-      "縮毛矯正",
-      "予約可"
+    "photo_name": null,
+    "detail": "「Shun Sakurai Hair & Beauty」はConrad Singapore Orchard（1 Cuscaden Road #01-06）のグラウンドフロアに位置する日系ヘアサロンだ。2017年にChijmesで創業し、2024年4月にConrad Singapore Orchardへ移転した。\n\nオーナー率いるスタイリストチームは日本とシンガポールの一流サロンで経験を積んだプロフェッショナルたちで構成されており、一人ひとりの顔型・肌色・頭の形・ライフスタイルに合わせたトータルメイクオーバーを提案する「Total Makeover」アプローチが特徴だ。スタイリストのFumie氏は香港で5年、東京で10年のキャリアを持ち、最新の日本・香港トレンドを融合させたスタイル提案が好評。\n\nConrad Singapore Orchardというフラッグシップホテルの立地が示す通り、高級志向の顧客が多く、ビジネス渡航者や特別な機会に利用する方に支持されている。女性カット・男性カットともに提供。\n\n予約はウェブサイト（shunsakurai.sg）または電話（+65 6909 0197）で受け付けている。",
+    "japanese_staff": true,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "カット（レディース・メンズ）",
+      "カラー",
+      "Total Makover提案"
     ],
-    "hours": "月〜金: 10:00-20:30 / 土日: 10:00-19:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "shunji-matsuo-15-scotts",
@@ -3259,16 +2176,14 @@
     "address": "15 Scotts Road, #01-01, Singapore 228218",
     "phone": "+6562381522",
     "website": "https://www.shunjimatsuo.com.sg/",
-    "description": "1998年開業・シンガポール初の日本人ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマに対応。Scotts Road沿いGran Hyatt近くの好立地。",
+    "description": "26年以上の歴史を持つシンガポール日系サロンの老舗。15 Scotts Roadフラッグシップ店、日本式縮毛矯正とカラーで定評。",
     "tags": [
-      "日本人スタイリスト",
-      "ヘアサロン",
-      "老舗",
-      "Orchard",
-      "旗艦店"
+      "日系サロン老舗",
+      "26年以上の歴史",
+      "Scotts Road"
     ],
     "hours": "月〜土: 10:30-19:30 / 日: 10:00-17:30",
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "ai_reviewed": true,
@@ -3277,111 +2192,88 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "shunji-matsuo-hair-salon",
-    "name": "Shunji Matsuo Hair Salon",
-    "name_ja": "シュンジ マツオ ヘアサロン",
-    "area": "Singapore",
-    "address": "249 Holland Ave, Singapore 278980",
-    "phone": "+6567626088",
-    "website": "http://www.shunjimatsuo.com.sg/",
-    "description": "Holland Avenue沿いの日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。Holland Village MRT近く。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+    "photo_name": null,
+    "detail": "「Shunji Matsuo Hair Studio」は15 Scotts Road #01-01に位置する、シンガポール最古参の日系ヘアサロングループの旗艦店だ。26年以上にわたるシンガポールでの実績を持ち、Orchardエリアの日本人在住者・駐在員の間で長年高い信頼を獲得してきた。\n\n15 Scotts店では日本式ソフトストレートニング（縮毛矯正に近い技術）・ヘアカラーリング・スタイリング・パーマなどを専門とする日本人スタイリストが在籍。最新の日本インターナショナルスタイリングの技術と、シンガポールの気候・生活スタイルに合わせた実用的なヘアデザインの融合が評判だ。\n\nHolland Village店（249 Holland Avenue）、ION Orchard店（2 Orchard Turn）の3拠点展開で、Orchardエリアから離れた場所に住む在住者にも利用しやすい。\n\n予約は電話（+65 6238 1522）またはウェブサイト（shunjimatsuo.com.sg）で受け付けている。",
+    "japanese_staff": true,
+    "price_range": "SGD 40〜（メンズ）/ SGD 50〜（レディース）",
+    "menu_highlights": [
+      "日本式縮毛矯正",
+      "カラー",
+      "スタイリング",
+      "パーマ"
     ],
-    "hours": "Monday: 10:00 AM – 7:00 PM / Tuesday: 10:00 AM – 7:00 PM / Wednesday: 10:00 AM – 7:00 PM / Thursday: 10:00 AM – 7:00 PM / Friday: 10:00 AM – 7:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJaWbtCGsa2jERtgX8E8n8IP8",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "shunji-matsuo-hair-studio",
-    "name": "Shunji Matsuo Hair Studio",
-    "name_ja": "シュンジ マツオ ヘアスタジオ",
-    "area": "Singapore",
-    "address": "15 Scotts Rd, #01-01, Singapore 228218",
-    "phone": "+6562381522",
-    "website": "http://www.shunjimatsuo.com.sg/",
-    "description": "Scotts Road沿いの日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。Orchard MRT徒歩圏内。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 10:00 AM – 8:30 PM / Tuesday: 10:00 AM – 8:30 PM / Wednesday: 10:00 AM – 8:30 PM / Thursday: 10:00 AM – 8:30 PM / Friday: 10:00 AM – 8:30 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJ7YvFHJIZ2jERmpXfJLOSaQ8",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "shunji-matsuo-holland-village",
     "name": "Shunji Matsuo (Holland Village)",
     "name_ja": "シュンジマツオ ホランドビレッジ店",
     "area": "Holland Village",
-    "address": "Holland Village, Singapore",
-    "phone": null,
+    "address": "249 Holland Avenue, Singapore 278980",
+    "phone": "+6567626088",
     "website": "https://www.shunjimatsuo.com.sg/",
-    "description": "日本人が多く住むHolland Villageエリアにあるシュンジマツオの支店。日本人スタイリストによるカット・カラー・パーマを提供。",
+    "description": "Shunji Matsuoの Holland Village店。249 Holland Avenue、Aveda Concept Salonとして植物エキス由来の製品を使用。",
     "tags": [
-      "日本語対応",
-      "日本人スタイリスト",
+      "Shunji Matsuo系列",
+      "Aveda Concept Salon",
       "Holland Village"
     ],
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「Shunji Matsuo Hair Studio」のHolland Village店は249 Holland Avenue（Holland Village MRT近く）に位置する、Aveda Concept Salonとして認定された旗艦店のひとつだ。シンガポール最古参の日系サロングループ（26年以上）の一拠点として、Holland Villageエリアの日本人在住者・外国人コミュニティに長く親しまれている。\n\nAveda Concept Salonの認定を受けており、Aveda（花と植物のエキスをベースにした米国発ナチュラルビューティーブランド）の製品を全施術で使用。日本式の技法とAvedaのサステイナブルな製品哲学を組み合わせた施術スタイルが特徴だ。\n\nメンズカット$40〜75、レディースカット$50〜85と比較的明確な料金体系が設定されており、カラーリング・スタイリングも提供。\n\n営業時間は毎日10:00〜19:00（最終受付18:30）。予約は電話（+65 6762 6088）またはウェブサイト（shunjimatsuo.com.sg）で。",
+    "japanese_staff": true,
+    "price_range": "SGD 40〜（メンズ）/ SGD 50〜（レディース）",
+    "menu_highlights": [
+      "カット（Aveda製品使用）",
+      "カラー",
+      "スタイリング"
+    ],
+    "spot_reviewed": true
   },
   {
     "slug": "shunji-matsuo-ion-orchard",
     "name": "Shunji Matsuo (ION Orchard)",
     "name_ja": "シュンジマツオ IONオーチャード店",
     "area": "Orchard",
-    "address": "2 Orchard Turn, ION Orchard, Singapore 238801",
-    "phone": null,
+    "address": "2 Orchard Turn, #04-04, ION Orchard, Singapore 238801",
+    "phone": "+6565095833",
     "website": "https://www.shunjimatsuo.com.sg/",
-    "description": "26年以上の歴史を持つ日系ヘアサロンのION Orchard店。日本人スタイリストが在籍。Scotts Road本店・Holland Village店とは別店舗。",
+    "description": "Shunji MatsuoのION Orchard店。Somerset MRT直結の最もアクセスしやすい拠点。日本式ヘアカラー＆カットで定評。",
     "tags": [
-      "日本語対応",
-      "日本人スタイリスト",
-      "ION Orchard"
+      "Shunji Matsuo系列",
+      "ION Orchard",
+      "Orchard"
     ],
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「Shunji Matsuo Hair Studio」のION Orchard店は2 Orchard Turn #04-04（Somerset/Orchard MRT徒歩1分）に位置する、シンガポール最古参の日系サロングループの最もアクセスしやすい拠点だ。ION OchardというOrchardロード随一のショッピングモール内という立地で、買い物ついでの利用にも便利。\n\n26年以上の歴史を持つShunji Matsuoグループの一店舗として、日本人スタイリストによる精緻なカット・カラー・パーマ・トリートメントを提供。日本のインターナショナルスタイリングの最新技術を取り入れながら、シンガポールの気候に合わせた実用的なスタイルを提案する姿勢は他店舗と共通だ。\n\n15 Scotts店、Holland Village店との3拠点展開で、都合の良い場所を選んで利用できる。\n\n予約は電話（+65 6509 5833）またはウェブサイト（shunjimatsuo.com.sg）で受け付けている。",
+    "japanese_staff": true,
+    "price_range": "SGD 40〜（メンズ）/ SGD 50〜（レディース）",
+    "menu_highlights": [
+      "カット",
+      "カラー",
+      "パーマ",
+      "トリートメント"
+    ],
+    "spot_reviewed": true
   },
   {
     "slug": "solata-hairandscalp-lab",
@@ -3391,13 +2283,14 @@
     "address": "1 Scotts Rd, #04-15/16 Shaw Center, Singapore 228208",
     "phone": "+6581262759",
     "website": null,
-    "description": "Shaw Center・Scotts Road沿いの日系ヘア＆スカルプラボ。日本人スタイリスト在籍、スカルプケア・カット・カラーに対応。Orchard駅徒歩圏内。",
+    "description": "日本に60店舗超を持つBiotech Inc系列の薄毛・育毛専門日系サロン。Shaw Center #04-15、日本式ボリュームカットで人気。",
     "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+      "薄毛・育毛専門",
+      "Biotech Inc系列",
+      "Shaw Center"
     ],
     "hours": "Monday: 11:00 AM – 9:00 PM / Tuesday: 11:00 AM – 9:00 PM / Wednesday: 11:00 AM – 9:00 PM / Thursday: 11:00 AM – 9:00 PM / Friday: 11:00 AM – 9:00 PM / Saturday: 10:00 AM – 6:00 PM / Sunday: 10:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJQdtP7EEZ2jERYfY3KRWmfj0",
@@ -3407,7 +2300,16 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「SOLATA Hair & Scalp Lab」は1 Scotts Road #04-15/16（Shaw Centre、Orchard MRT徒歩5分）に位置する、日本で60店舗以上を展開するBiotech Inc系列の薄毛・育毛専門日系サロンだ。\n\nSOLATAのコアコンテンツは「薄毛・細毛の悩みを持つ方向けのシグネチャーカット技術」。カット技術そのものでボリューム感を作り出すアプローチは一般的なヘアサロンとは一線を画しており、加齢や産後などで髪のボリュームに悩む方に支持されている。\n\nトリートメントメニューでは、蒸気と遠赤外線の熱を使って頭皮の毛穴を開いてから皮脂クレンジングを行う「Hair Loss Prevention Treatment」が人気。また「Nano Hair Extension Technology」という半永久的なヘアエクステ技術も提供しており、すぐにボリュームある見た目を手に入れたい方にも対応している。\n\n日本人スタッフが在籍しており、日本語でのカウンセリングが可能。予約はウェブサイト（solata.com.sg）または電話（+65 8126 2759）で。",
+    "japanese_staff": true,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "ボリュームカット",
+      "Hair Loss Prevention Treatment",
+      "Nano Hair Extension"
+    ],
+    "spot_reviewed": true
   },
   {
     "slug": "spiq-hair-base",
@@ -3417,13 +2319,14 @@
     "address": "10 Bukit Pasoh Rd, Singapore 089824",
     "phone": "+6597919893",
     "website": "http://www.spiq-outramsg.com/",
-    "description": "Bukit Pasoh Road沿いの日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマ・ヘッドスパに対応。Outram Park駅から徒歩圏内。",
+    "description": "Outram Park店。日本人マネージャーSio・Ryoが2012年からシンガポールに根ざす日系サロン。Bukit Pasoh Roadのショップハウス。",
     "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+      "日本人スタイリスト",
+      "多様な髪質対応",
+      "Outram Park"
     ],
     "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: Closed / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJb22xlm0Z2jERGiNE1V5fy8M",
@@ -3433,23 +2336,34 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「SPIQ HAIR BASE」のOutram店は10 Bukit Pasoh Road（Outram Park MRT Exit 4徒歩圏）に位置する日系ヘアサロンだ。マネージャーのSioとRyoはそれぞれ東京でサロンを経験後、2012年にシンガポールに移りキャリアを積んできたベテランスタイリスト。7年間のシンガポール経験を経て、2019年にBugis店を開業し、その後Outram店も展開するようになった。\n\nカット・カラー・パーマ・縮毛矯正を中心に、日本人スタイリストによる精緻な施術を提供。日本人だけでなく、シンガポール人・欧米系のクライアントも多く訪れており、多様な髪質・要望に対応できる技術力が強みだ。\n\nArt Directorとして在籍するShinyaはシンガポール歴11年以上のベテランで、コレクションワークも手がけるクリエイティブなスタイリストとして知られている。\n\n予約はウェブサイト（spiq-outramsg.com）または電話（+65 9791 9893）で。",
+    "japanese_staff": true,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "カット",
+      "カラー",
+      "パーマ",
+      "縮毛矯正"
+    ],
+    "spot_reviewed": true
   },
   {
     "slug": "spiq-hair-base-bugis-singapore-japanese-salon",
     "name": "SPIQ HAIR BASE @Bugis,Singapore - Japanese salon",
     "name_ja": "スピック ヘアベース ブギス",
     "area": "Singapore",
-    "address": "〒199541, Beach Rd, 261号 シンガポール",
+    "address": "261 Beach Road, Singapore 199541",
     "phone": "+6598625659",
     "website": "https://www.spiq-hairbase.com/",
-    "description": "Beach Road沿いの日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマを日本品質で提供。Bugis駅から徒歩圏内のショッピングモール内。",
+    "description": "SPIQ HAIR BASEのBugis店。Beach Road、Sultan Mosque近くに2019年開業。日本人スタイリストによるカット・カラー・パーマ。",
     "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+      "日本人スタイリスト",
+      "Bugis",
+      "SPIQ系列"
     ],
     "hours": "Monday: 10:00 AM – 9:00 PM / Tuesday: 10:00 AM – 9:00 PM / Wednesday: 10:00 AM – 9:00 PM / Thursday: 10:00 AM – 9:00 PM / Friday: 10:00 AM – 9:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJP24mvEEZ2jERtQweejqzUSw",
@@ -3459,33 +2373,17 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "studio-kaijen",
-    "name": "Studio Kaijen",
-    "name_ja": "スタジオ カイジェン",
-    "area": "Singapore",
-    "address": "39 Jln Pemimpin, #01-05, Singapore 577182",
-    "phone": "+6589121993",
-    "website": "https://studiokaijen.co/",
-    "description": "Jalan Pemimpinの日系美容室「スタジオカイジェン」。日本人スタイリストがカット・カラー・パーマ・トリートメントを提供。隠れ家的なプライベートサロンで、リラックスした空間での施術が可能。",
-    "tags": [
-      "美容",
-      "日系サロン"
+    "photo_name": null,
+    "detail": "「SPIQ HAIR BASE @Bugis」は261 Beach Road（Sultan Mosque近く）に2019年に開業した日系ヘアサロンだ。Outram店と同じSio・Ryoが運営するブランドで、2012年からシンガポールで活動してきた日本人スタイリストチームがBugisエリアのクライアントにも対応できるよう展開した拠点だ。\n\n開業以来、シンガポール在住の日本人・ローカル・欧米系の幅広い顧客から支持を獲得しており、Bugisというアクセスしやすいロケーションが口コミで広まった。カット・カラー・パーマ・縮毛矯正のメインメニューに加え、コンディショニングトリートメントも提供。\n\nArt DirectorのShinyaほかシンガポール歴の長い経験豊富な日本人スタイリストが在籍。予約はウェブサイト（spiq-hairbase.com）または電話（+65 9862 5659）で。",
+    "japanese_staff": true,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "カット",
+      "カラー",
+      "パーマ",
+      "縮毛矯正"
     ],
-    "hours": "Monday: 10:00 AM – 9:00 PM / Tuesday: 10:00 AM – 9:00 PM / Wednesday: 10:00 AM – 9:00 PM / Thursday: 10:00 AM – 9:00 PM / Friday: 10:00 AM – 9:00 PM / Saturday: 10:00 AM – 9:00 PM / Sunday: 10:00 AM – 9:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJVz2-4FaakE8RSumgbx-OPN8",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "take-singapore-japanese-hairsalon",
@@ -3495,13 +2393,14 @@
     "address": "92 Arab St, #02-01Singapore, Singapore 199788",
     "phone": "+6591816531",
     "website": "http://www.takesgjapanesehairsalon.com/",
-    "description": "Arab Street沿いの日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマを提供。Bugis・Nicoll Highway駅から徒歩圏内。",
+    "description": "Arab Street 2FのショップハウスにあるTAKE氏率いる日系サロン。日本のバイクカルチャーを感じるユニークな内装と精緻なカット技術で評判。",
     "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+      "日本人スタイリスト",
+      "ユニークな内装",
+      "Arab Street"
     ],
     "hours": "Monday: 9:00 AM – 11:00 PM / Tuesday: 9:00 AM – 11:00 PM / Wednesday: 9:00 AM – 11:00 PM / Thursday: 9:00 AM – 11:00 PM / Friday: 9:00 AM – 11:00 PM / Saturday: 9:00 AM – 11:00 PM / Sunday: 9:00 AM – 11:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ13hU4bAZ2jER_AuB9WLCFt8",
@@ -3511,7 +2410,17 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「TAKE Singapore Japanese Hairsalon」は92 Arab Street #02-01（Bugis MRT近く）に位置する日系ヘアサロンだ。ディレクターのTomoaki Takeda（TAKE）氏が創業し、日本語・英語の双方でカウンセリングに対応するフレンドリーな雰囲気が特徴。\n\n店内には日本のTシャツ・アート・ロードバイクが飾られており、ユニークでアイコニックな内装が話題になっている。ショップハウスの明るいロフト空間で、まるでTAKE氏の個性がそのまま表れたような空間だ。\n\n施術面ではカット・カラー・パーマ・特殊トリートメントを提供。特に天然のウェーブ・カールヘアの施術が得意で、うねりや癖を活かしたスタイリングの提案が多くの顧客から高評価を受けている。Googleレビューは4.9と非常に高く、スタイリスト全員が日本人でシンガポールの好みや表現を理解している点も好評だ。\n\n予約は電話（+65 9181 6531）またはウェブサイト（takesgjapanesehairsalon.com）で受け付けている。",
+    "japanese_staff": true,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "カット",
+      "カラー",
+      "パーマ",
+      "ウェーブ・カール施術"
+    ],
+    "spot_reviewed": true
   },
   {
     "slug": "tame-lash-house",
@@ -3521,13 +2430,14 @@
     "address": "215Q Upper Thomson Rd, Level 2, Singapore 574349",
     "phone": "+6588339813",
     "website": "https://tamelashhouse.com/",
-    "description": "Upper Thomson Roadの日系まつげエクステ専門サロン「ためまつ毛」。日本人技術者による繊細な施術が特徴。フラットラッシュ・ボリュームラッシュなど多彩なデザインに対応。",
+    "description": "上野・Thomson道沿いの日本式ナチュラルまつ毛エクステ専門店。「ため まつ毛」という日本語名が示す自然な仕上がりにこだわり。",
     "tags": [
-      "美容",
-      "日系サロン"
+      "日本式まつ毛エクステ",
+      "ナチュラル仕上げ",
+      "Upper Thomson"
     ],
     "hours": "Monday: 10:00 AM – 7:00 PM / Tuesday: 10:00 AM – 7:00 PM / Wednesday: 10:00 AM – 7:00 PM / Thursday: 10:00 AM – 7:00 PM / Friday: 10:00 AM – 7:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJoxSFbJcX2jERyjeYxJHi4PM",
@@ -3537,7 +2447,16 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「Tame Lash House（ため まつ毛）」は215Q Upper Thomson Road Level 2に位置する、日本式ナチュラルまつ毛エクステに特化したサロンだ。サロン名の「ため（撓め）」には、まつ毛を丁寧に整えるという意味が込められており、自然な仕上がりを最優先にしたまつ毛サービスを提供している。\n\nシングルラッシュエクステンションと日本式ラッシュリフトを専門とし、ファウンダー自らがデザインした7つのオリジナルスタイルから選択可能。シグネチャースタイルの「Starlake」は、交互に異なるまつ毛の長さを使ったウィスピー＆キャットアイ効果のデザインで人気を集めている。\n\n料金はまつ毛エクステ$108〜$198。営業時間は毎日10:00〜19:30。\n\nなお、法人登記は2020年5月設立・廃止登録となっているが、現在も営業中の情報あり。訪問前に電話（+65 8833 9813）またはウェブサイト（tamelashhouse.com）で事前確認を推奨する。",
+    "japanese_staff": true,
+    "price_range": "SGD 108〜198",
+    "menu_highlights": [
+      "シングルラッシュエクステ$108〜",
+      "Starlakeスタイル",
+      "ラッシュリフト"
+    ],
+    "spot_reviewed": true
   },
   {
     "slug": "tcl-beauty-studio-japanese-hair-and-facial-salon",
@@ -3547,13 +2466,14 @@
     "address": "66 E Coast Rd, #05-04 The Flow @ East Coast, Singapore 428778",
     "phone": "+6584048159",
     "website": "https://www.fresha.com/a/tcl-beauty-studio-singapore-66-east-coast-road-pv5zxqkg?pId=792456",
-    "description": "East Coast Roadの日系ヘアサロン＆フェイシャルサロン。日本人スタイリスト在籍、ヘアカット・カラー・フェイシャルに対応。東部日本人在住者に人気。",
+    "description": "東海岸Katongの日本式ヘア＆フェイシャルサロン。East Coast Road 5F、Kimie-sanが担当する個室2席のブティックサロン。",
     "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+      "日本人スタイリスト",
+      "ヘア＆フェイシャル",
+      "Katong"
     ],
     "hours": "Monday: Closed / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJHXp2eOUZ2jERy2TzzXcj1AM",
@@ -3563,7 +2483,16 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「TCL Beauty Studio」はKatongエリアの66 East Coast Road #05-04（The Flow @ East Coast）に位置する日本式ヘア＆フェイシャルサロンだ。シンガポールの日系サロンの中では珍しく、ヘアと美容（フェイシャル・ボディケア）を同一店舗で提供するブティックサロンとして運営されている。\n\n下のフロアにはヘアサロンの半個室が2席、上のフロアにはフェイシャルとボディトリートメント用の個室が2室と、プライバシーに配慮したレイアウトが特徴。ヘア担当のKimie-san（日本人スタイリスト）はプロフェッショナルかつ親しみやすいサービスで、一人ひとりに合わせたスタイル提案が好評だ。\n\nユニークなサービスとして「Yoni Steaming（よもぎ蒸し）」を提供。ハーブ蒸気を使った女性の健康増進・デトックスのメニューで、シンガポールのサロンでは珍しい存在だ。日本式リフトアップフェイシャルや、ドライヘッドスパも取り揃えている。\n\n営業は月曜定休、火〜金10:00〜20:00、土日10:00〜19:00。予約は電話（+65 8404 8159）またはFresha経由で。",
+    "japanese_staff": true,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "カット（Kimie-san）",
+      "日本式リフトアップフェイシャル",
+      "Yoni Steaming（よもぎ蒸し）"
+    ],
+    "spot_reviewed": true
   },
   {
     "slug": "the-gallery-hair-studio-and-head-spa-scalp-massage",
@@ -3573,13 +2502,14 @@
     "address": "501 Bukit Timah Rd, #02-16/17, Singapore 259760",
     "phone": "+6569086466",
     "website": "http://thegalleryhairstudios.com/",
-    "description": "Bukit Timah Roadのショッピングモール内の日系ヘアサロン＆ヘッドスパ。日本人スタイリスト在籍、スカルプケア・ヘッドスパ・カラーに対応。",
+    "description": "Bukit Timah・Cluny Courtの日本式ヘッドスパ対応サロン。日本製品とスカルプ技術でヘッドスパの質が口コミで高評価。",
     "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+      "日本式ヘッドスパ",
+      "スカルプマッサージ",
+      "Bukit Timah"
     ],
     "hours": "Monday: 10:00 AM – 7:00 PM / Tuesday: 10:00 AM – 7:00 PM / Wednesday: 10:00 AM – 7:00 PM / Thursday: 10:00 AM – 7:00 PM / Friday: 10:00 AM – 7:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 6:30 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ26JdQK0b2jER3uu36UdP5sw",
@@ -3589,33 +2519,17 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "three-hair-salon",
-    "name": "THREE Hair Salon",
-    "name_ja": "スリー ヘアサロン",
-    "area": "Singapore",
-    "address": "Ang Mo Kio Ave 1, #01-1835 Block 330, Singapore 560330",
-    "phone": "+6564567912",
-    "website": "http://www.threehairsalon.com.sg/",
-    "description": "Ang Mo Kio HDB内の日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。Ang Mo Kio駅から徒歩圏内。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+    "photo_name": null,
+    "detail": "「The Gallery Hair Studio & Head Spa」は501 Bukit Timah Road #02-16/17（Cluny Court）に位置するヘアサロンだ。国際的なヘアトレンドを取り入れた幅広いヘアサービスと、日本式スカルプマッサージ・ヘッドスパが評判のサロン。\n\n日本のスカルプ技術と日本製製品を使ったヘッドスパが特徴的で、口コミでは日本式の施術方法・リラクゼーション効果への高評価が見受けられる。カラーリング・カット・パーマの通常ヘアサービスも提供しており、ヘッドスパ単体での来店も可能。\n\nSiglap V（2 First St #01-07）にも第2拠点を持ち、シンガポール東部エリアもカバーしている。\n\nBukit Timah店の営業時間は毎日10:00〜19:00。予約は電話（+65 6908 6466）またはウェブサイト（thegalleryhairstudios.com）で受け付けている。\n\n※日本人スタイリスト在籍についての公式記載は確認できていないため、詳細は来店前にサロンへ直接確認することを推奨する。",
+    "japanese_staff": null,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "日本式ヘッドスパ",
+      "カット",
+      "カラー",
+      "スカルプマッサージ"
     ],
-    "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJYzpZ2R0X2jER6AU4YTXdYyQ",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "threes-beauty-salon",
@@ -3625,13 +2539,14 @@
     "address": "6 Eu Tong Sen Street, Central, #04-90/91 Clarker Quay, Singapore 059817",
     "phone": "+6563385250",
     "website": "https://threes-sg.com/",
-    "description": "Clarke Quay Central内の日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマに対応。Clarke Quay MRT直結ショッピングモール内。",
+    "description": "東京の3つの有名サロンが初の海外合同出店。Clarke Quay直結のThe Central #04-89A、全スタッフが日本人で一対一対応。",
     "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+      "東京3サロン合同",
+      "マンツーマン",
+      "Clarke Quay"
     ],
     "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJeeiuWGMZ2jERbaTnKy49eBw",
@@ -3641,7 +2556,16 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「THREES Beauty Salon」は6 Eu Tong Sen Street、The Central Clarke Quay #04-89A（Clarke Quay MRT Exit E/G直結）に位置する、東京の3つの有名サロン——Shine Hair、Miel Hair、Eight Hair Salon——が共同で設立したシンガポール初の海外進出サロンだ。\n\nコンセプトは「日本のおもてなしヘア体験（Omotenashi）をシンガポールへ」。1名のトップスタイリストが最初から最後まで1名のクライアントに専念するマンツーマン体制が徹底されており、カウンセリングから仕上げまで途切れない一貫したサービスが特徴だ。\n\nシンガポールの強い日差しと高湿度によるヘアダメージの予防・ケアに特化したトリートメントメニューも充実しており、全て日本製の美容製品を使用。日本語は当然として、英語での対応も問題なく行われる。\n\nClarke Quay MRTと直結した便利な立地で、平日・週末を問わず多くの日本人在住者が利用している。営業は毎日10:00〜20:00。予約はWhatsApp（+65 8533 1911）またはウェブサイト（threes-sg.com）で受け付けている。",
+    "japanese_staff": true,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "カット",
+      "カラー",
+      "ダメージケアトリートメント"
+    ],
+    "spot_reviewed": true
   },
   {
     "slug": "toki-lim",
@@ -3651,13 +2575,14 @@
     "address": "328 N Bridge Rd, #02-33 Arcade, Raffles Hotel, Singapore 188719",
     "phone": "+6562593200",
     "website": "https://www.lessismore.co.jp/toki",
-    "description": "Raffles Hotel Arcade内の日系美容室。東京の「LESS IS MORE」グループが展開する高級サロンで、日本人スタイリストがカット・カラー・トリートメントを提供。ラッフルズホテルの上質な空間で施術を受けられる。",
+    "description": "Raffles Hotel Arcade #02-33の日系サロン「TOKI+LIM」。LIMグループの最高峰拠点でわびさびの空間、一対一の施術。",
     "tags": [
-      "美容",
-      "日系サロン"
+      "Less is More系列",
+      "Raffles Hotel内",
+      "わびさびインテリア"
     ],
     "hours": "Monday: Closed / Tuesday: 12:00 – 9:00 PM / Wednesday: 12:00 – 9:00 PM / Thursday: 12:00 – 6:00 PM / Friday: 12:00 – 9:00 PM / Saturday: 10:00 AM – 6:00 PM / Sunday: 10:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJCx_iIkcZ2jERs_qwJPzCRSM",
@@ -3667,7 +2592,16 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "「TOKI+LIM」はRaffles Hotel Arcade #02-33（328 North Bridge Road）に位置する、大阪発日系サロングループ「Less is More（LIM）」の中でも最も格調高いブランドの一つだ。「TOKI（日月）」は日本語で「時（とき）」を意味し、LIMはLess is Moreのショートフォーム。\n\nRaffles Hotelという歴史的な建築内での出店にあわせ、「美容師とお客が1対1でくつろぐ空間」「ラッフルズホテルの雰囲気を損なわない高品質な空間」という2つのコンセプトを掲げたインテリアデザインが際立っており、わびさびを感じさせる静寂な空間での施術が受けられる。\n\n同じLIMグループには、1tto+LIM（New Bridge Road）、Kizuki+LIM（Seah Street）、B+LIM などのブランドが含まれており、それぞれ異なるコンセプトで展開している。TOKI+LIMはその中でも最も「大人のリラクゼーション」を意識した位置づけだ。\n\n日本人スタイリストが在籍し、日本語でのオーダーも可能。予約は電話（+65 6259 3200）またはウェブサイト（lessismore.co.jp/toki）から。",
+    "japanese_staff": true,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "カット",
+      "カラー",
+      "トリートメント"
+    ],
+    "spot_reviewed": true
   },
   {
     "slug": "toriko-hair",
@@ -3677,13 +2611,14 @@
     "address": "275 Thomson Rd, #01-25 Novena Regency, Singapore 307645",
     "phone": "+6589381980",
     "website": "https://torikohairsg.wixsite.com/main",
-    "description": "Novena Regency・Thomson Road沿いの日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマに対応。Novena MRT徒歩圏内。",
+    "description": "「とりこ」の名を冠した日系ヘアサロン。Novena Regency #01-25、カット$90〜のシンプルなメニュー構成。",
     "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+      "日系サロン",
+      "カット$90〜",
+      "Novena"
     ],
     "hours": "Monday: 10:00 AM – 7:00 PM / Tuesday: 10:00 AM – 7:00 PM / Wednesday: 10:00 AM – 7:00 PM / Thursday: 10:00 AM – 7:00 PM / Friday: 10:00 AM – 7:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJf_crGhgb2jERc3jcUzsyGv0",
@@ -3693,33 +2628,15 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "walking-on-sunshine-korean-hair-salon",
-    "name": "Walking On Sunshine | Korean Hair Salon",
-    "name_ja": "ウォーキング・オン・サンシャイン",
-    "area": "Singapore",
-    "address": "181 Orchard Rd, #03-07 Orchard Central Singapore 238896",
-    "phone": "+6580538808",
-    "website": "http://www.walkingonsunshine.sg/",
-    "description": "Orchard Central内の韓国スタイルヘアサロン。日本語での相談も可能、カット・カラー・パーマに対応。Somerset駅直結ショッピングモール内。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+    "photo_name": null,
+    "detail": "「toriko hair（とりこ）」は275 Thomson Road #01-25（Novena Regency）に位置する日系ヘアサロンだ。「とりこ」という名前には、来店した方が髪の仕上がりに虜になってほしいという願いが込められている。\n\nメニューはヘアカット（シャンプー・ブロー込み）を中心に、学生（6〜15歳）向けのキッズカットも提供。価格はカット$90〜とシンガポールの日系サロンの相場に近い設定だ。\n\nNovena Regencyは静かな住宅街に近いロケーションで、周辺に日本人居住者も多いエリア。Thomsonエリアに住む在住日本人にとってアクセスしやすいサロンとして機能している。\n\n公式ウェブサイト（torikohairsg.wixsite.com/main）で最新情報と予約状況を確認の上、来店することを推奨する。電話は+65 8938 1980。\n\n※日本人スタイリスト在籍に関する公式記載は確認できていないため、詳細は来店前に直接サロンへ確認されたい。",
+    "japanese_staff": null,
+    "price_range": "SGD 90〜",
+    "menu_highlights": [
+      "カット$90〜（シャンプー・ブロー込み）",
+      "キッズカット"
     ],
-    "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:30 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJ_2g8rh8Z2jERUfn9GB52coE",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "whitetree-caf-and-hair-salon",
@@ -3729,13 +2646,14 @@
     "address": "24A Circular Rd, #2nd Floor, Singapore 049380",
     "phone": "+6581899926",
     "website": "https://whitetreehairsaloncafe.simplybook.asia/",
-    "description": "Circular Road沿いのカフェ併設日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマに対応。Raffles Place駅から徒歩圏内。",
+    "description": "日本人スタイリストKoichi・Naoが運営するヘアサロン＆カフェ。Circular Road 2F、日本式ウェルネスブランドで癒しの空間。",
     "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+      "日本人スタイリスト",
+      "カフェ併設",
+      "Raffles Place"
     ],
     "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: Closed / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJVTMfhPcZ2jERFjIgVVPFV7k",
@@ -3745,33 +2663,16 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "you-are-my-sunshine-korean-hair-salon",
-    "name": "You Are My Sunshine | Korean Hair Salon",
-    "name_ja": "ユーアーマイサンシャイン",
-    "area": "Singapore",
-    "address": "181 Orchard Rd, #03-06 Orchard Central Singapore 238896",
-    "phone": "+6580118808",
-    "website": "https://youaremysunshine.sg/",
-    "description": "Orchard Central内の韓国スタイルヘアサロン。日本語での相談も可能、カット・カラー・パーマに対応。Somerset駅直結ショッピングモール内。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
+    "photo_name": null,
+    "detail": "「WHITETREE Café & Hair Salon」は24A Circular Road 2F（Raffles Place MRT近く）に位置する、ヘアサロンとカフェを融合させたユニークな日系ウェルネス空間だ。\n\nメインスタイリストはKoichi氏（日本人、ラザーカット技術で有名）とNao氏のペア。Koichiのラザーカットは一枚刃のカミソリで毛先をシャープに仕上げる日本式技法で、細く繊細なアジア系の髪質に特に向いているとされる。デザインカットは$75〜。\n\nサービスにはスカルプスパがヘア施術全てに付帯しており、毎回の来店がリラクゼーションとしても機能する設計になっている。カフェメニューは日本の管理栄養士が特別設計した栄養バランスに優れたメニューで構成されており、ハーブティーはWhitetreeが独自開発した医療ハーバリスト監修のオーガニックブレンド。\n\nヘア施術後にカフェでゆっくり過ごすという体験がセットになっており、シンガポールの慌ただしい日常から離れてゆったりとした時間を過ごしたい在住者に好評だ。\n\n予約はウェブサイト（whitetreecafe-hairsalon.com）または電話（+65 8189 9926）で。",
+    "japanese_staff": true,
+    "price_range": "SGD 75〜（カット）",
+    "menu_highlights": [
+      "デザインカット$75〜（スカルプスパ込み）",
+      "ラザーカット",
+      "オーガニックハーブティー"
     ],
-    "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:30 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJZVgSLVwZ2jER1LhACtNtn7M",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "spot_reviewed": true
   },
   {
     "slug": "yuki-scalp-and-hair-specialist",
@@ -3787,7 +2688,7 @@
       "日本人スタイリスト"
     ],
     "hours": "Monday: 10:30 AM – 8:30 PM / Tuesday: 10:30 AM – 8:30 PM / Wednesday: 10:30 AM – 8:30 PM / Thursday: 10:30 AM – 8:30 PM / Friday: 10:30 AM – 8:30 PM / Saturday: 10:30 AM – 8:30 PM / Sunday: 10:30 AM – 8:30 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ9WOVOmkX2jERc6T4EWjhlHI",
@@ -3797,7 +2698,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "Toa Payoh地区のスカルプ専門サロン。「Top Ten Heartland Salons in Toa Payoh」受賞歴あり。ただし日本人スタッフ在籍・日本語対応の公式記載が確認できず。日本式ヘアケアと名乗る可能性もあるが日系性が不明。来店前に直接確認推奨。",
+    "spot_reviewed": true
   },
   {
     "slug": "vox-studio-killiney",
@@ -3808,20 +2712,29 @@
     "phone": "+6562350700",
     "website": "https://voxstudio.co/",
     "source_url": "https://voxstudio.co/",
-    "description": "キリニー・ロードのAVEDA正規サロン。日本人スタイリストも在籍しており、日本語での接客も対応可。ヘアカット・カラー・ヘッドスパに加え、フェイシャル・ボディ施術も一店舗で提供。サマセットMRT徒歩圏。",
+    "description": "Aveda公認日系サロン。Killiney Road 111A、多国籍スタッフに日本人スタイリストも在籍しホリスティックビューティーを提供。",
     "tags": [
-      "日本人スタイリスト",
-      "Aveda",
-      "ヘアサロン",
-      "フェイシャル",
-      "Somerset"
+      "Aveda公認サロン",
+      "日本人スタイリスト在籍",
+      "Killiney Road"
     ],
     "hours": "Mon-Fri 10:30-20:30 / Sat-Sun & PH 10:30-19:30",
     "status": "unverified",
-    "last_verified": "2026-04-05",
+    "last_verified": "2026-04-07",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "「VOX STUDIO」は111A Killiney Road（Somerset MRT Exit A近く）に位置するAveda公認サロン・スパ・ストアだ。ヘア・ボディ・フェイス・ライフスタイルを包括するホリスティックビューティーをコンセプトに、多国籍なスタイリストチームが在籍している。\n\n在籍スタッフにはKawamura、Sato、Kimie、Yukariといった日本人スタイリスト・セラピストが含まれており、日本語でのサービス提供が可能。アロマや植物エキスを最大限に活かしたAveda製品を使った施術は、化学物質を避けたいクライアントや自然志向の方に特に支持されている。\n\nヘアカット・カラー・パーマなどのヘアサービスに加え、マッサージ・フェイシャル・スカルプトリートメントも提供。ヘアとスパを一か所でケアできる利便性が、忙しいビジネスパーソンや在住日本人ファミリーから好評だ。\n\nKilliney RoadはOrchardとSomerset間に位置し、平日・休日ともにアクセスしやすいロケーション。予約はウェブサイト（voxstudio.co）または電話（+65 6235 0700）で受け付けている。",
+    "japanese_staff": true,
+    "email": null,
+    "price_range": "要問い合わせ",
+    "menu_highlights": [
+      "カット（Aveda製品使用）",
+      "カラー",
+      "フェイシャル",
+      "スパ"
+    ],
+    "spot_reviewed": true
   }
 ]
