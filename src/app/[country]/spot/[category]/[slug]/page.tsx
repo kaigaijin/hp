@@ -191,7 +191,7 @@ export default async function SpotDetailPage({
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "トップ", item: "https://kaigaijin.jp" },
       { "@type": "ListItem", position: 2, name: country.name, item: `https://kaigaijin.jp/${code}` },
-      { "@type": "ListItem", position: 3, name: "KAIスポット", item: `https://kaigaijin.jp/${code}/spot` },
+      { "@type": "ListItem", position: 3, name: "KAIプレイス", item: `https://kaigaijin.jp/${code}/spot` },
       { "@type": "ListItem", position: 4, name: category.name, item: `https://kaigaijin.jp/${code}/spot/${catSlug}` },
       { "@type": "ListItem", position: 5, name: displayName },
     ],
@@ -222,7 +222,7 @@ export default async function SpotDetailPage({
                 {country.flag} {country.name}
               </Link>
               <ChevronRight size={12} />
-              <Link href={`/${code}/spot`} className="hover:text-warm-600 transition-colors">KAIスポット</Link>
+              <Link href={`/${code}/spot`} className="hover:text-warm-600 transition-colors">KAIプレイス</Link>
               <ChevronRight size={12} />
               <Link href={`/${code}/spot/${catSlug}`} className="hover:text-warm-600 transition-colors">
                 {category.name}

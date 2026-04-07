@@ -76,7 +76,7 @@ export default function Header() {
                                 <Link
                                   href={`/${c.code}/spot`}
                                   className="flex items-center gap-1 text-[11px] text-stone-400 hover:text-warm-600 dark:hover:text-warm-400 bg-stone-100 dark:bg-stone-800 hover:bg-warm-50 dark:hover:bg-warm-900/30 px-2 py-1 rounded-md transition-colors"
-                                  title="KAIスポット"
+                                  title="KAIプレイス"
                                 >
                                   <MapPin size={10} />
                                   スポット

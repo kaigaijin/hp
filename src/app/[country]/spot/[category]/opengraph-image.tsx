@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 import { getCountry } from "@/lib/countries";
 import { getCategory, getCategoryGroup } from "@/lib/directory";
 
-export const alt = "KAIスポット | Kaigaijin";
+export const alt = "KAIプレイス | Kaigaijin";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -100,7 +100,7 @@ export default async function OgImage({
               fontFamily: '"Noto Sans JP"',
             }}
           >
-            {countryName} / KAIスポット
+            {countryName} / KAIプレイス
           </div>
         </div>
         {/* タイトル */}

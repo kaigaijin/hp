@@ -121,7 +121,7 @@ function PaginatedArticleListInner({
                     <Link
                       href={`/${countryCode}/spot/${relatedGroup.slug}`}
                       className="flex items-center gap-1 text-xs text-stone-400 hover:text-warm-600 dark:hover:text-warm-400 transition-colors"
-                      title={`${relatedGroup.name}のKAIスポット`}
+                      title={`${relatedGroup.name}のKAIプレイス`}
                     >
                       <MapPin size={11} />
                       {relatedGroup.name}

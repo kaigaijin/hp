@@ -37,7 +37,7 @@ export function generateMetadata({
     const country = getCountry(code);
     if (!country) return {};
     return {
-      title: `${country.name}のKAIスポット — 地図で探す`,
+      title: `${country.name}のKAIプレイス — 地図で探す`,
       description: `${country.name}の日本人向けスポットを地図上で探せます。`,
       robots: { index: false, follow: true },
     };
@@ -101,7 +101,7 @@ export default async function MapPage({
                 {country.flag} {country.name}
               </Link>
               <ChevronRight size={12} />
-              <Link href={`/${code}/spot`} className="hover:text-warm-600 transition-colors">KAIスポット</Link>
+              <Link href={`/${code}/spot`} className="hover:text-warm-600 transition-colors">KAIプレイス</Link>
               <ChevronRight size={12} />
               <span className="text-stone-600 dark:text-stone-300">地図で探す</span>
             </nav>

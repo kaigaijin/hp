@@ -27,7 +27,7 @@ export default function CountryTabs({ countryCode, articleCount, spotCount }: Pr
     },
     {
       href: `/${countryCode}/spot`,
-      label: "KAIスポット",
+      label: "KAIプレイス",
       count: spotCount,
       icon: <MapPin size={14} />,
       active: isSpot,

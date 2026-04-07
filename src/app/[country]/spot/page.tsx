@@ -86,11 +86,11 @@ export function generateMetadata({
     const country = getCountry(code);
     if (!country) return {};
     return {
-      title: `${country.name}のKAIスポット — 日本人向けスポット一覧`,
-      description: `${country.name}で日本人に便利なレストラン・クリニック・美容室・不動産など、カテゴリ別に探せるKAIスポット。`,
+      title: `${country.name}のKAIプレイス — 日本人向けスポット一覧`,
+      description: `${country.name}で日本人に便利なレストラン・クリニック・美容室・不動産など、カテゴリ別に探せるKAIプレイス。`,
       openGraph: {
-        title: `${country.name}のKAIスポット | Kaigaijin`,
-        description: `${country.name}で日本人に便利なスポットをカテゴリ別に探せるKAIスポット。`,
+        title: `${country.name}のKAIプレイス | Kaigaijin`,
+        description: `${country.name}で日本人に便利なスポットをカテゴリ別に探せるKAIプレイス。`,
         type: "website",
         locale: "ja_JP",
         url: `https://kaigaijin.jp/${code}/spot`,
@@ -147,8 +147,8 @@ export default async function SpotIndexPage({
           countryCode={code}
           countryName={country.name}
           countryFlag={country.flag}
-          currentLabel="KAIスポット"
-          label="— KAI SPOT"
+          currentLabel="KAIプレイス"
+          label="— KAI PLACE"
           title="日本人向けスポット"
           subtitle={`${country.name}のレストラン・クリニック・美容室・不動産など ${totalSpots}件掲載中`}
           articleCount={articles.length}

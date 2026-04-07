@@ -66,7 +66,7 @@ export function generateMetadata({
     const country = getCountry(code);
     if (!country) return {};
     return {
-      title: `${country.name}のKAIスポット — エリアから探す`,
+      title: `${country.name}のKAIプレイス — エリアから探す`,
       description: `${country.name}のスポットをエリア・地区別に探せます。`,
       openGraph: {
         title: `${country.name} エリア別スポット | Kaigaijin`,
@@ -119,7 +119,7 @@ export default async function AreaIndexPage({
                 {country.flag} {country.name}
               </Link>
               <ChevronRight size={12} />
-              <Link href={`/${code}/spot`} className="hover:text-warm-600 transition-colors">KAIスポット</Link>
+              <Link href={`/${code}/spot`} className="hover:text-warm-600 transition-colors">KAIプレイス</Link>
               <ChevronRight size={12} />
               <span className="text-stone-600 dark:text-stone-300">エリアから探す</span>
             </nav>

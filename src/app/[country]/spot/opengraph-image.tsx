@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 import { getCountry } from "@/lib/countries";
 
-export const alt = "KAIスポット | Kaigaijin";
+export const alt = "KAIプレイス | Kaigaijin";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -92,7 +92,7 @@ export default async function OgImage({
             lineHeight: 1.3,
           }}
         >
-          {countryName}のKAIスポット
+          {countryName}のKAIプレイス
         </div>
         {/* サブタイトル */}
         <div

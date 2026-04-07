@@ -34,10 +34,10 @@ export function generateMetadata({
     const areaName = getAreaNameBySlug(code, areaSlug);
     if (!country || !areaName) return {};
     return {
-      title: `${areaName}エリアのスポット — ${country.name} KAIスポット`,
+      title: `${areaName}エリアのスポット — ${country.name} KAIプレイス`,
       description: `${country.name}・${areaName}エリアの日本人向けスポット一覧。レストラン、クリニック、美容室など。`,
       openGraph: {
-        title: `${areaName} — ${country.name} KAIスポット | Kaigaijin`,
+        title: `${areaName} — ${country.name} KAIプレイス | Kaigaijin`,
         description: `${country.name}・${areaName}エリアの日本人向けスポット一覧。`,
         type: "website",
         locale: "ja_JP",
@@ -109,7 +109,7 @@ export default async function AreaDetailPage({
                 {country.flag} {country.name}
               </Link>
               <ChevronRight size={12} />
-              <Link href={`/${code}/spot`} className="hover:text-warm-600 transition-colors">KAIスポット</Link>
+              <Link href={`/${code}/spot`} className="hover:text-warm-600 transition-colors">KAIプレイス</Link>
               <ChevronRight size={12} />
               <Link href={`/${code}/spot/area`} className="hover:text-warm-600 transition-colors">エリア</Link>
               <ChevronRight size={12} />

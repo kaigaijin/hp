@@ -7,7 +7,7 @@ type Props = {
   countryName: string;
   countryFlag: string;
   currentLabel: string;         // パンくずの現在地テキスト
-  label: string;                // 「— KAI SPOT」など
+  label: string;                // 「— KAI PLACE」など
   title: string;                // h1
   subtitle?: string;            // 説明文
   articleCount: number;
