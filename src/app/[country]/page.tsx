@@ -6,6 +6,7 @@ import { getCountry, countries } from "@/lib/countries";
 import { getArticlesByCountry } from "@/lib/articles";
 import PaginatedArticleList from "@/components/PaginatedArticleList";
 import CountryHero from "@/components/CountryHero";
+import CountryTabs from "@/components/CountryTabs";
 import { getCategoryCounts, categoryGroups } from "@/lib/directory";
 
 export function generateStaticParams() {
@@ -71,6 +72,9 @@ export default async function CountryPage({
           label={`${country.flag} ${country.name} — ${country.nameEn}`}
           title={country.name}
           subtitle={`${country.tagline}　在住日本人 ${country.population}`}
+        />
+        <CountryTabs
+          countryCode={code}
           articleCount={articles.length}
           spotCount={totalSpots}
         />

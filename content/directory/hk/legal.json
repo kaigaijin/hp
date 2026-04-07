@@ -15,11 +15,16 @@
     ],
     "hours": "月〜金 9:00-18:00",
     "status": "unverified",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "source": "website",
     "ai_reviewed": true,
     "place_id": "",
-    "priority": 0
+    "priority": 0,
+    "email": "info@andysolicitor.com",
+    "detail": "アンディ・チェン（Angus Cheng）弁護士は慶應義塾大学で学んだ日本語が流暢な香港・英国資格弁護士。JETROの香港法律顧問として正式に指定されており、香港ポスト（在港日本人向け新聞）の法律コラムも執筆。日本企業・個人の法人設立、契約交渉、労務問題、賃貸契約から訴訟まで日本語で相談できる。尖沙咀のStar House10階に事務所を構える。個人・中小企業向けの相談から大企業のコーポレート案件まで対応。",
+    "japanese_staff": true,
+    "needs_review": false,
+    "spot_reviewed": true
   },
   {
     "slug": "attorney-kinukawa-wanchai",
@@ -38,12 +43,16 @@
       "日本・香港資格"
     ],
     "hours": "月〜金 9:00〜18:00",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJM-0IQJUBBDQRToJBwC4fles",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "絹川恭久（Yasuhisa Kinukawa）弁護士は日本と香港の両方の弁護士資格を持つ数少ない二重資格弁護士。湾仔のHarbour Road 18号に事務所を構え、香港の遺産（プロベート）・相続・不動産・民事訴訟を日本語で相談できる。Silk Stream Law Officeとしても活動。日本語のウェブサイトでも情報発信しており、在住日本人が香港の遺産相続・プロベートについて日本語で専門家に相談できる貴重な存在。",
+    "japanese_staff": true,
+    "needs_review": false,
+    "spot_reviewed": true
   },
   {
     "slug": "clifford-chance-hong-kong",
@@ -63,62 +72,16 @@
       "ファイナンス"
     ],
     "hours": "月〜金 9:00〜18:00",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "conpak-law-related-hk",
-    "name": "Conpak CPA Limited",
-    "name_ja": "香港康栢会計士事務所",
-    "area": "Causeway Bay",
-    "address": "29/F, Lee Garden Two, 28 Yun Ping Road, Causeway Bay, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.conpak.jp/",
-    "description": "日本語で対応する香港会計・法務サポート事務所。会社設立・秘書業務・税務申告だけでなく、法務サービスとの連携で包括的なコンプライアンスサポートを提供。日系企業に多く利用されている。",
-    "tags": [
-      "日本語対応",
-      "法務サポート",
-      "会社設立",
-      "コンプライアンス"
-    ],
-    "hours": "月〜金 9:00〜18:00",
-    "last_verified": "2026-04-03",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "deacons-law-firm-hk",
-    "name": "Deacons",
-    "name_ja": "ディーコンズ法律事務所",
-    "area": "Central",
-    "address": "5/F, Alexandra House, 18 Chater Road, Central, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": "+85228255678",
-    "website": "https://www.deacons.com.hk/",
-    "description": "1851年創業の香港老舗法律事務所。企業法務・不動産・家族法など幅広い分野で日系企業・個人をサポート。英語対応が中心だが日系企業の対応実績あり。",
-    "tags": [
-      "現地法律事務所",
-      "企業法務",
-      "不動産",
-      "家族法"
-    ],
-    "hours": "月〜金 9:00〜18:00",
-    "last_verified": "2026-04-03",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "クリフォード・チャンスは英国ロンドン本拠の世界最大手法律事務所ネットワークの一つ。香港オフィスはジャーディンハウス（Jardine House）27Fに位置し、日本語話者の弁護士（Japan Desk担当者）が在籍。日系企業の香港・中国進出に伴うM&A・プロジェクトファイナンス・規制対応・資本市場取引を日本語・英語でサポート。大企業・金融機関向けの高度なクロスボーダー案件を専門とする。",
+    "japanese_staff": true,
+    "needs_review": false,
+    "spot_reviewed": true
   },
   {
     "slug": "freshfields-bruckhaus-deringer-hk",
@@ -138,12 +101,16 @@
       "資本市場"
     ],
     "hours": "月〜金 9:00〜18:00",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "フレッシュフィールズはTwo Exchange Square（8 Connaught Place）11Fに位置する英国系トップファーム。日本語話者の弁護士が在籍し、日系企業の香港・アジア展開に関するM&A・資本市場取引・紛争解決・規制対応を日本語・英語でサポート。香港でのIPO・M&A・クロスボーダー取引の実績が豊富な国際大手事務所。",
+    "japanese_staff": true,
+    "needs_review": false,
+    "spot_reviewed": true
   },
   {
     "slug": "gallant-law-hong-kong",
@@ -163,12 +130,15 @@
       "相続"
     ],
     "hours": "月〜金 9:00〜18:00",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "needs_review": true,
+    "review_note": "日本語対応の根拠なし。日系企業対応実績の記載あるが確認できる情報なし。英語・中国語中心の地場事務所。",
+    "spot_reviewed": true
   },
   {
     "slug": "hk-bar-association",
@@ -187,12 +157,16 @@
       "資格確認"
     ],
     "hours": "月〜金 9:00〜17:30",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "香港法廷弁護士会（Hong Kong Bar Association）は法廷弁護士（バリスター）の業界団体。公式ウェブサイト（hkba.org）のBarristers Roll から、香港に登録する法廷弁護士の一覧を確認できる。日本人が弁護士を探す際の信頼性確認や、弁護士紹介に活用できる参照機関。弁護士に依頼する前に登録確認することが推奨される。直接の法律相談は行っていない。",
+    "japanese_staff": false,
+    "needs_review": false,
+    "spot_reviewed": true
   },
   {
     "slug": "hk-immigration-dept",
@@ -204,7 +178,7 @@
     "lng": null,
     "phone": "+85221503111",
     "website": "https://www.immd.gov.hk/",
-    "description": "香港政府の入国管理局。ビザ延長・就労ビザ・永住権申請・ワーキングホリデービザなどの手続き窓口。日本人の香港滞在に関する公式手続きはここで行う。",
+    "description": "香港政府の入境事務処。就労ビザ・永住権申請の公式窓口。英語対応可能で、在住日本人のビザ延長・更新・新規申請のすべてを管轄する機関。",
     "tags": [
       "政府機関",
       "ビザ手続き",
@@ -212,12 +186,16 @@
       "就労ビザ"
     ],
     "hours": "月〜金 8:45〜17:00（土 9:00〜11:30）",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "香港政府の入境事務処（Immigration Department）はビザ・HKID・就労ビザ・投資ビザ等の公式手続き窓口。湾仔のImmigration Tower 2Fがメインオフィス。日本人の香港就労ビザ（General Employment Policy）・投資移民（Capital Investment Entrant Scheme）などの申請はここで行う。日本語対応はないが英語での対応が可能。ウェブサイト（immd.gov.hk）に各種申請フォームが整備されている。",
+    "japanese_staff": false,
+    "needs_review": false,
+    "spot_reviewed": true
   },
   {
     "slug": "hk-legal-aid-department",
@@ -236,12 +214,16 @@
       "無料相談"
     ],
     "hours": "月〜金 8:45〜13:00、14:00〜17:30",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "香港政府の法律援助署はQueensway Government Officesの9Fに位置する公的機関。民事・刑事事件で弁護士費用が払えない収入基準以下の申請者に対し、法律援助を提供する。在住日本人が予期せぬ法律トラブル（労働問題・交通事故・家族問題等）に直面した際の緊急相談先として知っておくと安心。日本語対応はないが英語での相談が可能。収入・資産の審査が必要。",
+    "japanese_staff": false,
+    "needs_review": false,
+    "spot_reviewed": true
   },
   {
     "slug": "jetro-hong-kong-legal-referral",
@@ -261,12 +243,16 @@
       "企業支援"
     ],
     "hours": "月〜金 9:00〜12:00、13:00〜17:00",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "日本貿易振興機構（JETRO）の香港事務所は湾仔のQueens Road East 248号10Fに位置する公的機関。日本企業の香港・中国本土進出支援の中核で、JETRO指定の弁護士・会計士・税理士・コンサルタントの紹介サービスを提供。初回の専門家探しに最も信頼性が高い公的機関の一つ。香港での法人設立・労務・知的財産・貿易規制等の相談が日本語で可能。会員制サービスあり（非会員でも一部相談可能）。",
+    "japanese_staff": true,
+    "needs_review": false,
+    "spot_reviewed": true
   },
   {
     "slug": "jones-day-hong-kong",
@@ -286,12 +272,16 @@
       "訴訟"
     ],
     "hours": "月〜金 9:00〜18:00",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "ジョーンズ・デイ（Jones Day）は米国クリーブランド本拠の世界最大手法律事務所の一つ（約2,500名）。香港オフィスはEdinburgh Place 31Fに位置し、日本語対応スタッフ（Japan Desk担当）が在籍。日系企業のM&A・訴訟・仲裁・金融規制対応を日本語・英語でサポート。東京オフィスとの連携も強く、日本・香港クロスボーダー案件に強みを持つ。大企業・外資系企業向けの複雑な案件を専門とする。",
+    "japanese_staff": true,
+    "needs_review": false,
+    "spot_reviewed": true
   },
   {
     "slug": "law-society-hong-kong",
@@ -310,12 +300,16 @@
       "紹介サービス"
     ],
     "hours": "月〜金 9:00〜17:30",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "香港律師會（The Law Society of Hong Kong）は事務弁護士（ソリシター）の業界団体。公式ウェブサイト（hklawsoc.org.hk）から弁護士・法律事務所の登録状況を確認できる弁護士紹介サービスを提供。Solicitors Directory から特定分野・言語対応（日本語含む）での弁護士を検索可能。弁護士費用や資格の問題が発生した場合の苦情対応窓口も担っている。香港で適切な弁護士を探す際の公的な起点として活用できる。",
+    "japanese_staff": false,
+    "needs_review": false,
+    "spot_reviewed": true
   },
   {
     "slug": "linklaters-hong-kong",
@@ -335,12 +329,16 @@
       "金融規制"
     ],
     "hours": "月〜金 9:00〜18:00",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "リンクレーターズはロンドン本拠のMagic Circle（英国五大ファーム）の一つ。香港オフィスはAlexandra House（Chater Road）11Fに位置し、日本語対応弁護士が在籍する。日系企業の香港での金融取引・M&A・不動産・規制対応を日本語・英語でサポート。香港市場での債券発行・IPO・M&Aに関する豊富な実績を持つ。東京オフィスとの連携も強く、日本・香港クロスボーダー案件に対応できる体制を持つ。",
+    "japanese_staff": true,
+    "needs_review": false,
+    "spot_reviewed": true
   },
   {
     "slug": "nakamura-associates-amt-hk",
@@ -360,12 +358,16 @@
       "企業法務"
     ],
     "hours": "月〜金 9:00〜18:00",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "中村法律事務所（Nakamura & Associates）はアンダーソン毛利友常（AMT）との提携関連事務所として2019年に香港で設立。Jardine House（コンノート・プレイス1号）41Fに位置し、日本人弁護士が常駐。日系企業の香港・中国本土進出M&A・コーポレートガバナンス・金融規制・労務問題を日本語で対応。AMTは日本最大手法律事務所の一つで、香港に本格的な日本法務拠点を置く数少ない事務所。",
+    "japanese_staff": true,
+    "needs_review": false,
+    "spot_reviewed": true
   },
   {
     "slug": "silk-stream-kinukawa-hk",
@@ -385,12 +387,16 @@
       "プロベート"
     ],
     "hours": "要問い合わせ",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "Silk Stream Law Officeは絹川恭久弁護士（日本・香港二重資格）が運営する法律事務所。香港の遺産（プロベート）・相続・遺言に特化した日本語情報を提供するウェブサイトも運営。香港在住の日本人が遺産相続・プロベートについて日本語で基礎知識を得られる貴重なリソース。同弁護士はattorney-kinukawa-wanchaiとしても登録済みで、日本語での相談・サポートが可能。",
+    "japanese_staff": true,
+    "needs_review": false,
+    "spot_reviewed": true
   },
   {
     "slug": "slaughter-and-may-hong-kong",
@@ -410,37 +416,15 @@
       "IPO"
     ],
     "hours": "月〜金 9:00〜18:00",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "tanner-de-witt-hk",
-    "name": "Tanner De Witt",
-    "name_ja": "タナー・デウィット法律事務所",
-    "area": "Central",
-    "address": "23/F, On Hing Building, 1 On Hing Terrace, Central, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": "+85228288911",
-    "website": "https://www.tannerdewitt.com/",
-    "description": "香港の独立系法律事務所。個人向け（離婚・相続・ビザ）と法人向け（紛争解決・コーポレート）の両分野に対応。英語を主体に香港在住外国人から支持されている。",
-    "tags": [
-      "現地法律事務所",
-      "離婚",
-      "相続",
-      "ビザ"
-    ],
-    "hours": "月〜金 9:00〜17:30",
-    "last_verified": "2026-04-03",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "needs_review": true,
+    "review_note": "日本語対応の明確な根拠なし。大企業のM&A案件での利用ケースの記載のみ。",
+    "spot_reviewed": true
   },
   {
     "slug": "woo-kwan-lee-lo-hk",
@@ -460,12 +444,15 @@
       "訴訟"
     ],
     "hours": "月〜金 9:00〜18:00",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "needs_review": true,
+    "review_note": "日本語対応根拠なし。英語・中国語中心の地場事務所。",
+    "spot_reviewed": true
   },
   {
     "slug": "nishimura-asahi-hong-kong",
@@ -492,7 +479,7 @@
     ],
     "hours": "月〜金 9:00-18:00",
     "status": "unverified",
-    "last_verified": "2026-04-05",
+    "last_verified": "2026-04-07",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
@@ -500,7 +487,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": false,
+    "spot_reviewed": true
   },
   {
     "slug": "oln-law-hk-japanese-practice",
@@ -527,7 +516,7 @@
     ],
     "hours": "月〜金 9:00-18:00",
     "status": "unverified",
-    "last_verified": "2026-04-06",
+    "last_verified": "2026-04-07",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
@@ -535,7 +524,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": false,
+    "spot_reviewed": true
   },
   {
     "slug": "tanner-de-witt-hk",
@@ -562,7 +553,7 @@
     ],
     "hours": "月〜金 9:00-18:00",
     "status": "unverified",
-    "last_verified": "2026-04-06",
+    "last_verified": "2026-04-07",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
@@ -570,7 +561,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": false,
+    "spot_reviewed": true
   },
   {
     "slug": "cleary-gottlieb-hong-kong-causeway-bay",
@@ -590,11 +583,15 @@
     ],
     "hours": "平日 09:00-18:00",
     "status": "unverified",
-    "last_verified": "2026-04-06",
+    "last_verified": "2026-04-07",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "クレアリー・ゴットリーブ（Cleary Gottlieb）は米国系トップファームの一つで、香港オフィスはHysan Place（銅鑼湾）37Fに位置する。アジア・パシフィック地域の主要M&A・資本市場取引で豊富な実績。日本語対応可能な弁護士が在籍する可能性があるが、公式サイトでの明示的な確認は限定的。大企業のM&A・香港IPO・規制対応に関心のある日系企業向けの候補事務所。",
+    "japanese_staff": null,
+    "needs_review": false,
+    "spot_reviewed": true
   },
   {
     "slug": "deacons-hong-kong-central",
@@ -606,7 +603,7 @@
     "lng": null,
     "phone": "+85228411888",
     "website": "https://www.deacons.com",
-    "description": "香港の大手弁護士事務所。香港法・国際商取引・不動産法に強い。日系企業のビザ相談・不動産取引・契約交渉に対応。香港法弁護士資格を持つスタッフ在籍。",
+    "description": "1851年創業の香港最大手独立系法律事務所。Quarry Bay・One Taikoo Placeに拠点。企業法務・不動産・雇用・家族法まで幅広く対応し、日系企業向け実績もある老舗。",
     "tags": [
       "香港法弁護士",
       "不動産取引",
@@ -614,10 +611,14 @@
     ],
     "hours": "平日 09:00-18:00",
     "status": "unverified",
-    "last_verified": "2026-04-06",
+    "last_verified": "2026-04-07",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "Deaconsは1851年創業の香港最古かつ最大手の独立系法律事務所。現在はOne Taikoo Place（979 Kings Road, Quarry Bay）に拠点を置く。企業法務・不動産・訴訟・雇用法・知的財産・家族法と幅広い分野をカバー。日系企業向けの対応実績もあり、英語・中国語中心だが日系企業からの照会も受け付けている。香港法律業界で長年の信頼があり、JETROの推薦リストにも含まれることがある老舗事務所。",
+    "japanese_staff": null,
+    "needs_review": false,
+    "spot_reviewed": true
   }
 ]

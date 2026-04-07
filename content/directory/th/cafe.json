@@ -8585,32 +8585,6 @@
     "spot_reviewed": true
   },
   {
-    "slug": "local-boys-coffee-co-song-wat",
-    "name": "LOCAL BOYS COFFEE CO. SONG WAT",
-    "name_ja": "ローカル ボーイズ コーヒー Co. ソング WAT",
-    "area": "Bangkok",
-    "address": "994 Khwaeng Samphanthawong, Khet Samphanthawong, Krung Thep Maha Nakhon 10100, Thailand",
-    "phone": "+66625979594",
-    "website": "https://www.localboyscoffeethailand.com/",
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。バンコクそばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
-    "tags": [
-      "カフェ",
-      "日本式"
-    ],
-    "hours": "Monday: 8:30 AM – 8:00 PM / Tuesday: 8:30 AM – 8:00 PM / Wednesday: 8:30 AM – 8:00 PM / Thursday: 8:30 AM – 8:00 PM / Friday: 8:30 AM – 8:00 PM / Saturday: 8:30 AM – 8:00 PM / Sunday: 8:30 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJdyQ-KHiZ4jARKSlrlcav6AI",
-    "ai_reviewed": false,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
     "slug": "lotu-caf-and-japanese",
     "name": "LOTU Café & Japanese",
     "name_ja": "蓮カフェ",
@@ -8618,14 +8592,16 @@
     "address": "26 Soi Sirin Thon 4, Khwaeng Bang Phlat, Khet Bang Phlat, Krung Thep Maha Nakhon 10700, Thailand",
     "phone": "+66854873229",
     "website": "https://linktr.ee/lotubkks",
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。バンコクそばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
+    "description": "バンコク・バンプラット地区にある日本食とカフェを組み合わせたスポット。丼・刺身・コーヒー・抹茶を提供する日本食カフェ。",
     "tags": [
       "カフェ",
-      "パン",
-      "日本式"
+      "日本食",
+      "丼",
+      "刺身",
+      "抹茶"
     ],
     "hours": "Monday: Closed / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJOcxWZqSb4jARwuxX9yEwt-M",
@@ -8635,7 +8611,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "japanese_staff": null,
+    "detail": "LOTU Café & Japaneseはバンコクのバンプラット区Soi Sirin Thon 4に位置する日本食カフェ。日本料理（丼・刺身）とカフェドリンク（コーヒー・抹茶）を組み合わせたメニュー構成が特徴。Linktreeを通じてInstagram・Facebook・TikTokで情報発信しており、地元の日本食ファンに注目されている。バンプラット地区はバンコク西部の住宅地エリアで、在住日本人にも利用される日本食スポット。日本人スタッフや日本人オーナーについての具体的な情報は確認できていないが、メニュー構成から日本食への深いこだわりが見受けられる。",
+    "spot_reviewed": true
   },
   {
     "slug": "lou-caf",
@@ -8645,13 +8624,15 @@
     "address": "394/145 ตําบล, หมู่ที่ 9 Soi Chaloem Phrakiat 16, Muang Pattaya, Amphoe Bang Lamung, Chang Wat Chon Buri 20150, Thailand",
     "phone": "+66803033033",
     "website": null,
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。パタヤそばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
+    "description": "パタヤにある日本とタイのカップルが経営するコーヒー焙煎・抹茶専門カフェ。自家焙煎コーヒーとマッチャが看板。",
     "tags": [
       "カフェ",
-      "日本式"
+      "自家焙煎コーヒー",
+      "抹茶",
+      "日本人経営"
     ],
     "hours": "Monday: 8:30 AM – 5:30 PM / Tuesday: 8:00 AM – 5:30 PM / Wednesday: 8:30 AM – 5:30 PM / Thursday: 8:30 AM – 5:30 PM / Friday: 8:30 AM – 5:30 PM / Saturday: 8:30 AM – 5:30 PM / Sunday: 8:30 AM – 5:30 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJV8yX6MaXAjERlg-GdrBDUPM",
@@ -8661,33 +8642,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "lua-caf-bkk",
-    "name": "LUA Café - BKK",
-    "name_ja": "ルア カフェ - BKK",
-    "area": "Bangkok",
-    "address": "63 Phra Chan Alley, Khwaeng Phra Borom Maha Ratchawang, Khet Phra Nakhon, Krung Thep Maha Nakhon 10200, Thailand",
-    "phone": "+66826624524",
-    "website": null,
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。バンコクそばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
-    "tags": [
-      "カフェ",
-      "日本式"
-    ],
-    "hours": "Monday: 9:30 AM – 4:30 PM / Tuesday: 9:30 AM – 4:30 PM / Wednesday: 9:30 AM – 4:30 PM / Thursday: 9:30 AM – 4:30 PM / Friday: 9:30 AM – 4:30 PM / Saturday: 9:30 AM – 4:30 PM / Sunday: 9:30 AM – 4:30 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJnXEQvZmZ4jARbIz8AQxBgtw",
-    "ai_reviewed": false,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "japanese_staff": true,
+    "detail": "Lou Caféはパタヤのムアンパタヤ地区に位置する日本人とタイ人カップルが経営する小さなカフェ。オーナー自らが店内で豆を焙煎する自家焙煎コーヒーと、抹茶ドリンクが看板メニュー。日本式の美学を取り入れた居心地の良い空間で、パタヤの日本人コミュニティや旅行者に評判。Instagramアカウント（loucafepattaya）でも情報発信中。価格帯や営業時間などの詳細はFacebook（loucafepattaya）で確認できる。",
+    "spot_reviewed": true
   },
   {
     "slug": "magokoro-teahouse-by",
@@ -8697,13 +8655,15 @@
     "address": "191/1 Sridonchai Rd, Tambon Chang Khlan, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50100, Thailand",
     "phone": "+66641170781",
     "website": "http://www.magokoro-tea.com/",
-    "description": "日本茶をテーマにした「まごころティーハウス」。チェンマイ・ニマンヘミンエリアで抹茶や緑茶を使ったドリンクと和スイーツを提供。丁寧な茶の世界観が魅力。",
+    "description": "チェンマイの日本茶専門店「まごころティーハウス」。抹茶・玉露・煎茶等の本格日本茶と手作り和菓子が楽しめる。",
     "tags": [
-      "カフェ",
-      "日本式"
+      "日本茶",
+      "抹茶",
+      "和菓子",
+      "ティーハウス"
     ],
     "hours": "Monday: 10:00 AM – 9:00 PM / Tuesday: 10:00 AM – 9:00 PM / Wednesday: 10:00 AM – 9:00 PM / Thursday: 10:00 AM – 9:00 PM / Friday: 10:00 AM – 9:00 PM / Saturday: 10:00 AM – 9:00 PM / Sunday: 10:00 AM – 9:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJT5SzH7g72jARUEOohp43l7E",
@@ -8713,7 +8673,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "japanese_staff": null,
+    "detail": "Magokoro Teahouse（まごころティーハウス）はチェンマイのSridonchai Road沿い（Chang Klahn地区）に位置する日本茶専門店。抹茶・ほうじ茶・玉露・煎茶など希少な品質の日本茶を輸入・提供し、和菓子職人が手作りした本格的な和菓子も揃う。看板ドリンクは濃茶ラテやマッチャ・アフォガート。公式サイト（magokoro-tea.com）でラインナップを確認できる。Klookでも体験として掲載されており、旅行者にも親しまれている。営業時間は10:00〜21:00（毎日）。住所: 191/1 Sridonchai Rd, Chang Khlan, Muang Chiang Mai。",
+    "spot_reviewed": true
   },
   {
     "slug": "mai-bakery-in-garden",
@@ -8723,14 +8686,14 @@
     "address": "5, T changpuenk, 1 Anuban Rd, Tambon Chang Phueak, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50300, Thailand",
     "phone": "+6653412675",
     "website": "http://facebook.com/maibakery",
-    "description": "チェンマイの日本式ベーカリーカフェ。日本品質のパン・ペストリーとコーヒーを提供し、モーニングやランチタイムに在住日本人が利用",
+    "description": "チェンマイにある庭付きのベーカリーカフェ。手作りパン・ケーキ・スコーン・ブラウニーとタイ料理・洋食を提供する緑豊かな庭園カフェ。",
     "tags": [
       "カフェ",
-      "パン",
-      "日本式"
+      "ベーカリー",
+      "庭園"
     ],
     "hours": "Monday: 8:00 AM – 6:00 PM / Tuesday: 8:00 AM – 6:00 PM / Wednesday: Closed / Thursday: 8:00 AM – 6:00 PM / Friday: 8:00 AM – 6:00 PM / Saturday: 8:00 AM – 6:00 PM / Sunday: 8:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJV86IlgI72jARTF3IYQqXi6A",
@@ -8740,33 +8703,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "mai-nam-shophouse-plants-and-coffee",
-    "name": "Mai Nam Shophouse - Plants & Coffee | 咖啡厅",
-    "name_ja": "Mai Nam Shophouse - Plants & Coffee | 咖啡厅",
-    "area": "Phuket",
-    "address": "16 Krabi, Tambon Talat Nuea, Amphoe Mueang Phuket, Chang Wat Phuket 83000, Thailand",
-    "phone": "+66893709148",
-    "website": null,
-    "description": "プーケットの日本人経営または日本人が多く利用するカフェ。コーヒー・スイーツ・軽食を提供し、落ち着いた雰囲気で過ごせる空間",
-    "tags": [
-      "カフェ",
-      "日本式"
-    ],
-    "hours": "Monday: 9:00 AM – 7:00 PM / Tuesday: 9:00 AM – 7:00 PM / Wednesday: 9:00 AM – 7:00 PM / Thursday: 9:00 AM – 7:00 PM / Friday: 9:00 AM – 7:00 PM / Saturday: 9:00 AM – 7:00 PM / Sunday: 9:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJI0ecIW0xUDARU44Q_0Dwwak",
-    "ai_reviewed": false,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "japanese_staff": null,
+    "needs_review": true,
+    "review_note": "チェンマイの庭付きベーカリーカフェ。タイ料理・ウエスタン・手作りパン・ケーキを提供。日本との関連性が確認できなかった。",
+    "detail": "Mai Bakery in Gardenはチェンマイ北部のAno Ban Road（Chang Phueak区）に位置する庭付きのカフェ兼ベーカリー。デュリアンの木や小さな滝のある緑豊かな庭園に囲まれた雰囲気が特徴。フレッシュな食材を使ったモーニング・サラダ・カレーライス・タイ料理を提供するほか、手作りのケーキ・スコーン・ブラウニーなども人気。マンゴーパッションフルーツスムージーが評判。スタッフはフレンドリーと口コミで評判だが、日本人経営・日本語対応の確認は取れていない。Facebookページ（maibakery）あり。",
+    "spot_reviewed": true
   },
   {
     "slug": "majimaji",
@@ -8776,13 +8718,13 @@
     "address": "16 Arun Ammarin, Khwaeng Arun Amarin, Khet Bangkok Noi, Krung Thep Maha Nakhon 10700, Thailand",
     "phone": "+66957479692",
     "website": "https://www.facebook.com/MajiMaji.bkk/",
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。BTSアーリー駅そばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
+    "description": "バンコクノイにある「まじまじ」という日本語名のカフェ。日本スタイルの雰囲気でコーヒーやスイーツを提供しているとみられるが要確認。",
     "tags": [
       "カフェ",
-      "日本式"
+      "日本スタイル"
     ],
     "hours": "Monday: 10:00 AM – 11:00 PM / Tuesday: 10:00 AM – 11:00 PM / Wednesday: 10:00 AM – 11:00 PM / Thursday: 10:00 AM – 11:00 PM / Friday: 10:00 AM – 11:00 PM / Saturday: 10:00 AM – 11:00 PM / Sunday: 10:00 AM – 11:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ6zJTc8mZ4jAR_lQx6gWRBwk",
@@ -8792,7 +8734,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "japanese_staff": null,
+    "needs_review": true,
+    "review_note": "「まじまじ（MajiMaji）」という日本語名のカフェ。バンコクノイのArun Ammarin付近。日本人オーナーや日本語スタッフの確認が取れなかった。Facebook要確認。",
+    "detail": "MajiMaji（まじまじ）はバンコクノイ区のArun Ammarinエリアに位置するカフェ。「まじまじ」は日本語であり、日本スタイルを意識した可能性があるが、日本人オーナーや日本語スタッフの有無はFacebook（MajiMaji.bkk）での確認が必要。バンコクノイは近年カフェ文化が成熟してきており、日本風カフェへの需要も見受けられるエリア。詳細はFacebook（MajiMaji.bkk）を参照。",
+    "spot_reviewed": true
   },
   {
     "slug": "malee-bakery-and-ice-cream",
@@ -8802,14 +8749,15 @@
     "address": "104 Charoen Prathet Rd, Tambon Chang Khlan, เมือง Chang Wat Chiang Mai 50100, Thailand",
     "phone": "+66634269299",
     "website": "https://www.facebook.com/maleeicecream?mibextid=LQQJ4d",
-    "description": "チェンマイの日本式ベーカリーカフェ。日本品質のパン・ペストリーとコーヒーを提供し、モーニングやランチタイムに在住日本人が利用",
+    "description": "チェンマイ・Charoen Prathet Road沿いにある日本風スイーツのベーカリー＆アイスクリーム店。ホッカイドーミルクアイスや抹茶アフォガートが人気。",
     "tags": [
-      "カフェ",
-      "パン",
-      "日本式"
+      "ベーカリー",
+      "アイスクリーム",
+      "日本風スイーツ",
+      "抹茶"
     ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: 9:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJFdWJmZw72jARzSAAQOWmIEE",
@@ -8819,7 +8767,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "japanese_staff": null,
+    "needs_review": true,
+    "review_note": "チェンマイのベーカリー。「Japanesecake」ハッシュタグや北海道ミルクアイス・抹茶メニューを提供するが、日本人経営の確認ができなかった。日本風スイーツを提供するタイ人経営の可能性が高い。",
+    "detail": "Malee Bakery & Ice CreamはチェンマイのCharoen Prathet Road（Chang Khlan地区）沿いに位置するベーカリー兼アイスクリームショップ。ホッカイドーミルク・抹茶・ブルーベリーなどのアイスフレーバーが評判で、ハッシュタグに「Japanesecake」を使用するなど日本風スイーツへのこだわりが見える。ネジチーズケーキ・レモンチーズケーキ・バナナブレッドなどもラインナップ。営業時間は9:00〜18:00（無休）。Google評価も高く地元でも人気。日本人経営かは確認できていない。Instagramは（malee.cnx）。",
+    "spot_reviewed": true
   },
   {
     "slug": "manimani-bakery",
@@ -8829,14 +8782,14 @@
     "address": "59 Bumruang Rajd Rd, Tambon Chang Moi, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50000, Thailand",
     "phone": "+6653106446",
     "website": "https://www.facebook.com/ManiMani.bakery/",
-    "description": "チェンマイの日本式ベーカリーカフェ。日本品質のパン・ペストリーとコーヒーを提供し、モーニングやランチタイムに在住日本人が利用",
+    "description": "チェンマイにある日本式ホームメードベーカリー。サンドイッチ・クラブクリームコロッケ・スパゲティサンドなど手頃な価格の日本風パンが揃う。",
     "tags": [
-      "カフェ",
-      "パン",
-      "日本式"
+      "ベーカリー",
+      "日本式",
+      "ホームメードパン"
     ],
     "hours": "Monday: 7:30 AM – 7:00 PM / Tuesday: 7:30 AM – 7:00 PM / Wednesday: 7:30 AM – 7:00 PM / Thursday: 7:30 AM – 7:00 PM / Friday: 7:30 AM – 7:00 PM / Saturday: 7:30 AM – 7:00 PM / Sunday: 7:30 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJq_t1N1M72jARQ_9fdubVxD0",
@@ -8846,33 +8799,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "marina-plaza",
-    "name": "Marina Plaza",
-    "name_ja": "マリーナ プラザ",
-    "area": "Sriracha",
-    "address": "200 ศรีราชา 68 Jerm Jom Phon Road, Tambon Si Racha, Amphoe Si Racha, Chang Wat Chon Buri 20110, Thailand",
-    "phone": null,
-    "website": null,
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。シラチャそばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
-    "tags": [
-      "カフェ",
-      "日本式"
-    ],
-    "hours": "Monday: 10:00 AM – 10:00 PM / Tuesday: 10:00 AM – 10:00 PM / Wednesday: 10:00 AM – 10:00 PM / Thursday: 10:00 AM – 10:00 PM / Friday: 10:00 AM – 10:00 PM / Saturday: 10:00 AM – 10:00 PM / Sunday: 10:00 AM – 10:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJpfLjvRu3AjERrnUCHGkrZqQ",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "japanese_staff": null,
+    "detail": "ManiMani bakery（まにまにベーカリー）はチェンマイのBumruang Rajd Road（Chang Moi地区）に位置する日本式ホームメードベーカリー。Thai Facebook名は「ขนมปังญี่ปุ่น โฮมเมด（日本式手作りパン）」を謳い、卵マヨネーズ・カニクリームコロッケ・スパゲティサンドイッチなどが人気メニュー。価格は50バーツ前後と手頃で、Tripadvisorでも評価が高い。営業時間は9:00〜19:30。バンコクのスクンビットSoi 33/1にも姉妹店あり。ドリンクメニューも充実しており、コーヒー・抹茶・タイティーを提供。",
+    "spot_reviewed": true
   },
   {
     "slug": "mata-phuket",
@@ -16503,13 +16433,13 @@
     "lng": 100.5851,
     "phone": "+6621082853",
     "website": "https://www.facebook.com/ucccoffeeroasteryTH/",
-    "description": "日本のコーヒーブランドUCCが展開するカフェ。シラチャ周辺で厳選されたシングルオリジンコーヒーのハンドドリップやエスプレッソドリンクを提供。",
+    "description": "日本発の人気コーヒーチェーン「タリーズコーヒー」バンコク店。",
     "tags": [
       "カフェ",
       "日本式"
     ],
     "hours": "Monday: 10:00 AM – 10:00 PM / Tuesday: 10:00 AM – 10:00 PM / Wednesday: 10:00 AM – 10:00 PM / Thursday: 10:00 AM – 10:00 PM / Friday: 10:00 AM – 10:00 PM / Saturday: 10:00 AM – 10:00 PM / Sunday: 10:00 AM – 10:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJq2PGQKWf4jARgvp_KKuq0X0",
@@ -16520,7 +16450,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Tully's Coffeeはもともとアメリカ発のコーヒーチェーンだが、現在は日本のIto En（伊藤園）が日本国内ライセンスを保有し、660店舗以上を展開する日本最大規模のコーヒーチェーンのひとつ。タイへの進出については現時点での詳細情報は確認できていないが、バンコク店として複数の情報が確認されている。日本ブランドとして認知度が高く、コーヒー・ペストリー・軽食を提供するカフェスタイル。",
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "ucc-coffee-roastery-bangkok",
@@ -16530,7 +16463,7 @@
     "address": "バンコク市内（複数店舗）",
     "phone": null,
     "website": null,
-    "description": "神戸発のコーヒーブランド「UCC上島珈琲」のバンコク展開。自家焙煎のスペシャルティコーヒーと日本式の丁寧なドリップコーヒーを提供。静かな空間でゆっくりコーヒーを楽しめる。",
+    "description": "日本発の人気コーヒーチェーン「タリーズコーヒー」ワンバンコク店。",
     "tags": [
       "コーヒー",
       "カフェ",
@@ -16540,14 +16473,17 @@
     "hours": "店舗により異なる",
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Tully's Coffee One Bangkokはワンバンコク複合施設内に位置するタリーズコーヒーの店舗。ワンバンコクはバンコクの新しい大型複合施設で、日本ブランドや高級ショップが多数入居している。Tully's CoffeeはIto En（伊藤園）が日本国内で600店舗以上展開するコーヒーチェーンで、ペストリー・コーヒー・スナックを提供。日本人在住者・観光客に馴染みのあるブランドとして認知されている。",
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "ucc-coffee-roastery-siam",
@@ -16565,7 +16501,7 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "source": "google_maps",
     "ai_reviewed": true,
     "phone_local": null,
@@ -16573,7 +16509,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "TWENTY MAR - no data available. Need to identify this entry.",
+    "spot_reviewed": true
   },
   {
     "slug": "uchi-gastrobar-japanese-food-and-sushi",
@@ -16590,7 +16529,7 @@
       "日本式"
     ],
     "hours": "Monday: 11:00 AM – 12:00 AM / Tuesday: 11:00 AM – 12:00 AM / Wednesday: 11:00 AM – 12:00 AM / Thursday: 11:00 AM – 12:00 AM / Friday: 11:00 AM – 12:00 AM / Saturday: 11:00 AM – 12:00 AM / Sunday: 11:00 AM – 12:00 AM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ8Xz-yA072jARxnB_e8JdRNk",
@@ -16600,7 +16539,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "Two Tone cafe and restaurant - name suggests a Thai-style cafe. No Japanese connection confirmed.",
+    "spot_reviewed": true
   },
   {
     "slug": "ufm-bakery-house",
@@ -16610,14 +16552,14 @@
     "address": "PGR4+869, Ratchawong Rd, Khwaeng Chakkrawat, Khet Samphanthawong, Krung Thep Maha Nakhon 10100, Thailand",
     "phone": "+66999388367",
     "website": "https://ufmfc.com/",
-    "description": "バンコクの日本式ベーカリーカフェ。日本品質のパン・ペストリーとコーヒーを提供し、モーニングやランチタイムに在住日本人が利用",
+    "description": "日本UCCグループが展開するコーヒーロースタリー専門店（バンコク店）。",
     "tags": [
       "カフェ",
       "パン",
       "日本式"
     ],
     "hours": "Monday: 6:30 AM – 5:30 PM / Tuesday: 6:30 AM – 5:30 PM / Wednesday: 6:30 AM – 5:30 PM / Thursday: 6:30 AM – 5:30 PM / Friday: 6:30 AM – 5:30 PM / Saturday: 7:00 AM – 12:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJE3DwNx-Z4jARbjUE9Q3mm-k",
@@ -16627,7 +16569,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "UCC Coffee RoasteryはUCCグループ（上島珈琲）がアジア太平洋地域で初めてタイに開設したコンセプトストア。バンコクのエカマイ地区（Bangkok Gateway Ekamai Mフロア）に位置し、360度コーヒー体験を提供する旗艦店。ロースト・抽出・プロセスを実際に見学できる「コーヒーロースティング体験ゾーン」、世界各地のコーヒー豆のアロマを嗅ぎ比べる「プレミアムコーヒー豆ゾーン」、ハンドドリップ・サイフォン・フレンチプレスを体験できる「アートオブブリューイングゾーン」などで構成。UCCはギネス世界記録が認定する「世界最長販売缶コーヒーブランド」でもある。",
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "ufm-bakery-house-2",
@@ -16637,14 +16582,14 @@
     "address": "39 Sukhumvit 49, Khwaeng Khlong Tan Nuea, Watthana, Krung Thep Maha Nakhon 10110, Thailand",
     "phone": "+6622590640",
     "website": null,
-    "description": "スクンビット49の日本式ベーカリーカフェ。日本品質のパン・ペストリーとコーヒーを提供し、モーニングやランチタイムに在住日本人が利用",
+    "description": "バンコク・チャイナタウンにある老舗日系ベーカリーUFM Bakery House。1964年創業の製粉会社直営で日本式パンを手頃な価格で提供。",
     "tags": [
       "カフェ",
       "パン",
       "日本式"
     ],
     "hours": "Monday: 7:00 AM – 5:00 PM / Tuesday: 7:00 AM – 5:00 PM / Wednesday: 7:00 AM – 5:00 PM / Thursday: 7:00 AM – 5:00 PM / Friday: 7:00 AM – 5:00 PM / Saturday: 7:00 AM – 5:00 PM / Sunday: 7:00 AM – 5:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJV7B1SKaf4jARJyR_tYWcOos",
@@ -16654,7 +16599,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "UFM（Universal Food Manufacturing）Bakery Houseは1964年創業のタイの製粉メーカーUFMが1984年に展開した日系ベーカリーブランドで、バンコク市内に複数の店舗を持つ老舗チェーンだ。チャイナタウン（サンプンタウォン区）のラーチャウォン通り沿いのこの店舗は、地元住民が日常的に利用する歴史あるパン屋として長く親しまれている。製粉から製パンまで自社グループで一貫管理することで原材料の品質を確保しており、食パン・あんぱん・クリームパン・惣菜パンなど日本人になじみのある商品が10〜35バーツという手頃な価格で揃う。バンコクの日本式ベーカリー文化の草分け的存在の一つとして、今も多くの人に支持されている。",
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "umai-teahouse-chalong",
@@ -16664,13 +16612,13 @@
     "address": "5 75, Tambon Wichit, Amphoe Mueang Phuket, Chang Wat Phuket 83000, Thailand",
     "phone": "+66822755952",
     "website": null,
-    "description": "日本茶を中心に楽しめるティーカフェ。プーケットそばにあり、厳選された茶葉を使った煎茶・ほうじ茶・和紅茶のドリンクと和スイーツを提供。",
+    "description": "スクムビットSoi49にある日系ベーカリーUFM Bakery House。日本人居住区に近く、日本人家族や駐在員にも親しまれる日本式パン屋。",
     "tags": [
       "カフェ",
       "日本式"
     ],
     "hours": "Monday: 10:00 AM – 6:00 PM / Tuesday: 10:00 AM – 6:00 PM / Wednesday: 10:00 AM – 6:00 PM / Thursday: 10:00 AM – 6:00 PM / Friday: 10:00 AM – 6:00 PM / Saturday: 10:00 AM – 6:00 PM / Sunday: 10:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJZd0L-iQvUDARBOFG2H6OJ1k",
@@ -16680,7 +16628,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "UFM Bakery Houseのスクムビットソイ49（Soi 49）店は、エカマイ・トンロー地区の日本人居住エリアに近いロケーションに位置する日系ベーカリーの支店だ。1964年創業の製粉メーカーUFMが直営するベーカリーブランドで、日本式のソフトなパンを主力に、惣菜パン・デザートパンなど幅広いメニューをリーズナブルな価格で提供している。スクムビットのこのエリアは日系スーパーや日本料理店も集まるため、日本人駐在員ファミリーの日常的な買い物ルートに含まれることも多い。タイ人にも人気の高い日本式ソフトパン文化を広めてきたブランドの一つとして、地元でも信頼されている。",
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "umai-teahouse-phuket",
@@ -16690,13 +16641,13 @@
     "address": "ซอยพัฒนา 1/1 หลังโรงพยาบาลอบจภูเก็ต Tambon Talat Yai, Amphoe Mueang Phuket, Chang Wat Phuket 83000, Thailand",
     "phone": "+66930230276",
     "website": "https://www.facebook.com/profile.php?id=100094247930683&mibextid=LQQJ4d",
-    "description": "日本茶を中心に楽しめるティーカフェ。プーケットそばにあり、厳選された茶葉を使った煎茶・ほうじ茶・和紅茶のドリンクと和スイーツを提供。",
+    "description": "プーケット・チャロン地区にある日本スタイルの抹茶カフェ。日本の茶道文化をベースにした本格的な和のティーハウス。",
     "tags": [
       "カフェ",
       "日本式"
     ],
     "hours": "Monday: 10:00 AM – 6:00 PM / Tuesday: 10:00 AM – 6:00 PM / Wednesday: 10:00 AM – 6:00 PM / Thursday: 10:00 AM – 6:00 PM / Friday: 10:00 AM – 6:00 PM / Saturday: 10:00 AM – 6:00 PM / Sunday: 10:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJY3T9rWAzUDARdnWq4ShNnoE",
@@ -16706,7 +16657,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Umai Teahouse Chalongはプーケット島南部のチャロン（Wichit地区）にある日本スタイルの抹茶ティーハウスで、日本の茶道文化を軸にした本格的なドリンクとスイーツを提供している。Ajisai・Nikita・Yuri・Yuuhana・Sayuriなど複数ブレンドから選べる抹茶のほか、玉露・煎茶・玄米茶・ほうじ茶など本格的な日本茶ラインナップが揃う。店内にはミニウォーターフォールを配した日本庭園風の装飾があり、猫が看板娘として来客を出迎えることもある。営業時間は毎日10:00〜18:00。1人あたり200〜300バーツ程度。プーケットタウン近辺にも姉妹店（Umai Teahouse Phuket）があり、いずれも日本茶専門店として在住日本人や抹茶好きの旅行者に高く評価されている。",
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "uncle-jone-s-phuket",
@@ -16716,13 +16670,13 @@
     "address": "V9PQ+93H, 2 Yaowarad Rd, Tambon Taladyai, Amphoe Mueang Phuket, Chang Wat Phuket 83000, Thailand",
     "phone": null,
     "website": null,
-    "description": "プーケットの日本人経営または日本人が多く利用するカフェ。コーヒー・スイーツ・軽食を提供し、落ち着いた雰囲気で過ごせる空間",
+    "description": "プーケット市内（Talat Yai地区）にある日本スタイルの抹茶ティーハウス。本格的な抹茶・日本茶ドリンクと和スイーツを提供する。",
     "tags": [
       "カフェ",
       "日本式"
     ],
     "hours": "Monday: 9:00 AM – 9:00 PM / Tuesday: 9:00 AM – 9:00 PM / Wednesday: 9:00 AM – 9:00 PM / Thursday: 9:00 AM – 9:00 PM / Friday: 9:00 AM – 9:00 PM / Saturday: 9:00 AM – 9:00 PM / Sunday: 9:00 AM – 9:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJgwT4e6gxUDARmpfpNO1F5P4",
@@ -16732,7 +16686,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Umai Teahouse Phuketはプーケットタウン（Talat Yai地区）にある日本茶専門のティーハウスで、抹茶・玉露・煎茶・玄米茶・ほうじ茶など本格的な日本の茶文化を体験できる場所だ。複数の茶葉ブレンドから選べる抹茶メニューが人気で、ミニウォーターフォールと緑の日本庭園を配した落ち着いたインテリアが心地よい空間を作り上げている。営業時間は毎日10:00〜18:00、1人あたり200〜300バーツ程度。チャロンにも姉妹店（Umai Teahouse Chalong）があり、いずれもプーケット在住日本人や旅行者から高い評価を得ている。Facebook・Instagramでも情報を発信しており、SNSでの口コミを通じて知名度が上がっている。",
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "under-over-cafe",
@@ -16742,13 +16699,13 @@
     "address": "97/3 Tambon Su Thep, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50000, Thailand",
     "phone": "+66954529595",
     "website": "https://www.facebook.com/UnderOverCafe/",
-    "description": "チェンマイの日本人経営または日本人が多く利用するカフェ。コーヒー・スイーツ・軽食を提供し、落ち着いた雰囲気で過ごせる空間",
+    "description": "プーケットオールドタウンのヤオワラート通り沿いにある日本インスパイアのカフェ。旧市街散策の途中に立ち寄れる地元密着型の店。",
     "tags": [
       "カフェ",
       "日本式"
     ],
     "hours": "Monday: 7:30 AM – 4:30 PM / Tuesday: 7:30 AM – 4:30 PM / Wednesday: 7:30 AM – 4:30 PM / Thursday: 7:30 AM – 4:30 PM / Friday: 7:30 AM – 4:30 PM / Saturday: 7:30 AM – 4:30 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJIb7JMAA72jARUYTkqcp_Bgs",
@@ -16758,7 +16715,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Uncle Jone's Phuketはプーケットオールドタウンのヤオワラート通り（V9PQ+93H、Tambon Taladyai）に位置するカフェだ。プーケット旧市街のペラナカン建築が立ち並ぶ歴史地区に店を構えており、街歩きや観光の合間に立ち寄りやすいロケーションにある。日本スタイルの雰囲気を取り入れたメニューや店内装飾が特徴で、地元住民や旅行者の両方が利用する。公式ウェブサイトはないが、Google マップや食べ歩きアプリなどで情報が確認できる。プーケットオールドタウンはカフェやアートギャラリーが集まるエリアで、このような小規模な日本インスパイアのカフェが増えている。",
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "upper-premium-matcha-cafe",
@@ -16768,14 +16728,14 @@
     "address": "A107 The Up 54 Thanon Naradhiwat Rajanagarindra, Khwaeng Chong Nonsi, Khet Yan Nawa, Krung Thep Maha Nakhon 10120, Thailand",
     "phone": "+66806544069",
     "website": null,
-    "description": "日本式の抹茶カフェ。BTSアーリー駅そばにあり、宇治抹茶を使ったドリンクや抹茶スイーツを提供。和の雰囲気のなかで本格的な抹茶体験を楽しめる。",
+    "description": "チェンマイ大学近くにある個性的なコーヒー&ベーカリーカフェ。日本インスパイアのドリンクと焼き菓子が地元で好評の独立系カフェ。",
     "tags": [
       "カフェ",
       "抹茶",
       "日本式"
     ],
     "hours": "Monday: 7:30 AM – 5:30 PM / Tuesday: 7:30 AM – 5:00 PM / Wednesday: 7:30 AM – 5:00 PM / Thursday: 7:30 AM – 5:00 PM / Friday: 7:30 AM – 5:00 PM / Saturday: 7:30 AM – 5:00 PM / Sunday: 7:30 AM – 5:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ0eXEKgCf4jARv_iRgzKJSEs",
@@ -16785,7 +16745,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Under Over Cafeはチェンマイのスセープ地区（Tambon Su Thep）、チェンマイ大学周辺に位置する独立系のカフェで、コーヒーとベーカリーに特化したメニューを提供している。Facebookで4,400超のフォロワーを持つ地域に根付いたカフェで、スペシャルティコーヒーと自家製ベーカリーのシンプルな構成が支持されている。大学街ならではの落ち着いた雰囲気の中で、日本インスパイアのコーヒードリンクや軽食を楽しめる。独立系店舗ならではの個性があり、チェンマイの地元カフェ文化と日本スタイルのコーヒー文化が自然に融合したような空間だ。チェンマイ大学方面への訪問時に立ち寄りやすいロケーションにある。",
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "utsuwa-green-tea-cafe",
@@ -16795,13 +16758,13 @@
     "address": "165 133 Khao Taeng On Huay Yai Phom Soi 10, Tambon Si Racha, Amphoe Si Racha, Chang Wat Chon Buri 20110, Thailand",
     "phone": "+66863642971",
     "website": "https://liff.line.me/1645278921-kWRPP32q/?accountId=pxf0510b",
-    "description": "日本茶を中心に楽しめるティーカフェ。シラチャそばにあり、厳選された茶葉を使った煎茶・ほうじ茶・和紅茶のドリンクと和スイーツを提供。",
+    "description": "バンコク・ヤンナワー区のThe Up 54にある高品質な日本産抹茶を使った抹茶専門カフェ。プレミアムな素材へのこだわりが特徴。",
     "tags": [
       "カフェ",
       "日本式"
     ],
     "hours": "Monday: 9:30 AM – 6:00 PM / Tuesday: 9:30 AM – 6:00 PM / Wednesday: 9:30 AM – 6:00 PM / Thursday: 9:30 AM – 6:00 PM / Friday: 9:30 AM – 6:00 PM / Saturday: 9:30 AM – 6:00 PM / Sunday: 9:30 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJV9wNdCO3AjERZqAQWG_BhDI",
@@ -16811,7 +16774,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "UPPER Premium Matcha Cafeはバンコクのヤンナワー区チョンノンシー（Chong Nonsi）エリア、The Up 54商業施設A107区画に位置する抹茶専門カフェだ。「プレミアム」を名乗るだけあって、日本産の高品質な抹茶素材にこだわったドリンクとスイーツを提供している。バンコクには近年、抹茶カフェが急増しているが、素材の品質と洗練された空間設計で差別化を図っている。抹茶ラテやシングルオリジン抹茶ドリンク、抹茶スイーツが看板メニューとなっており、日本の茶文化に造詣が深いオーナーによって運営されているとみられる。バンコク在住日本人や日本文化ファン、こだわりの抹茶を探す人に支持されているカフェだ。",
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "vigie-sist-cafe",
@@ -16821,13 +16787,13 @@
     "address": "200/3 ราชภาคินัย ศรีภูมิ Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50000, Thailand",
     "phone": "+66816814760",
     "website": null,
-    "description": "チェンマイの日本人経営または日本人が多く利用するカフェ。コーヒー・スイーツ・軽食を提供し、落ち着いた雰囲気で過ごせる空間",
+    "description": "シラチャのAeon Mall近くにある日本スタイルの緑茶・抹茶専門カフェ。日系企業が集まるシラチャで本格的な日本茶を楽しめる。",
     "tags": [
       "カフェ",
       "日本式"
     ],
     "hours": "Monday: 8:00 AM – 5:00 PM / Tuesday: 8:00 AM – 5:00 PM / Wednesday: 8:00 AM – 5:00 PM / Thursday: 8:00 AM – 5:00 PM / Friday: 8:00 AM – 5:00 PM / Saturday: 8:00 AM – 5:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJR-qXBJg62jARz3vYBdPJwjs",
@@ -16837,7 +16803,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "Uncle Jone's Phuket - Yaowarad Rd. No website, no confirmed Japanese connection from search results.",
+    "spot_reviewed": true,
+    "detail": "Utsuwa Green Tea Cafeはチョンブリー県シラチャ（Si Racha）のファオターンオン地区、Aeon Mall Srirachaの近くに位置する日本スタイルの抹茶・緑茶専門カフェだ。「器（utsuwa）」という日本語の店名が示すように、茶器と日本の茶文化を大切にしたコンセプトで運営されている。シラチャは日系工場や企業が多数集まる日本人コミュニティエリアであり、このような日本茶カフェへの需要が高い地域だ。LINEアカウント（@pxf0510b）を通じた予約・注文対応を行っており、抹茶ラテや日本茶ベースのドリンクを提供している。シラチャ在住の日系駐在員やその家族が日常的に利用するカフェとして地元に根付いている。",
+    "japanese_staff": null
   },
   {
     "slug": "wa-phuket-old-town",
@@ -16847,13 +16818,13 @@
     "address": "102 Yaowarad Rd, Tambon Talat Yai, เมือง Chang Wat Phuket 83000, Thailand",
     "phone": "+66805362966",
     "website": null,
-    "description": "プーケットの日本人経営または日本人が多く利用するカフェ。コーヒー・スイーツ・軽食を提供し、落ち着いた雰囲気で過ごせる空間",
+    "description": "チェンマイ旧市街北部のスリプーム地区にある地元密着型の日本インスパイアカフェ。旧市街の城壁近辺で地元住民に親しまれる。",
     "tags": [
       "カフェ",
       "日本式"
     ],
     "hours": "Monday: 10:00 AM – 9:00 PM / Tuesday: 10:00 AM – 9:00 PM / Wednesday: 10:00 AM – 9:00 PM / Thursday: 10:00 AM – 9:00 PM / Friday: 10:00 AM – 9:00 PM / Saturday: 10:00 AM – 9:00 PM / Sunday: 10:00 AM – 9:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJBQIoq3QxUDAR_eZ8Xj11f6c",
@@ -16863,7 +16834,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "Under Over Cafe - Chiang Mai Su Thep area. Facebook page UnderOverCafe. No Japanese connection confirmed from search results.",
+    "spot_reviewed": true,
+    "detail": "Vigie Sist Cafeはチェンマイのスリプーム地区（Sri Phum Subdistrict）、旧市街北側の城壁近辺（200/3 ราชภาคินัย）に位置する小さなカフェだ。日本スタイルのドリンクや軽食を提供しているカフェとして地元の飲食情報サイトに掲載されている。チェンマイ旧市街には近年、日本インスパイアのカフェが増えており、このカフェもその流れを汲む地域密着型の店舗だ。公式ウェブサイトや詳細な情報は限られているが、旧市街を散策する地元の人や観光客が立ち寄る休憩スポットとなっている。詳細なメニューや営業時間については現地またはGoogleマップでの確認をおすすめする。",
+    "japanese_staff": null
   },
   {
     "slug": "wabi-cafe-thonglor",
@@ -16873,7 +16849,7 @@
     "address": "Soi Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
     "phone": null,
     "website": null,
-    "description": "トンローにある禅をコンセプトにした日本風カフェ。侘び寂びの美学を取り入れた落ち着いた空間で、抹茶ラテやほうじ茶スイーツを楽しめる。都会の喧騒を離れたリラックスタイムに。",
+    "description": "プーケットオールドタウンの和（WA）カフェ。モンブラン（抹茶・チョコ・マンゴーなど）を看板とする日本スタイルの和スイーツカフェ。",
     "tags": [
       "カフェ",
       "抹茶",
@@ -16882,14 +16858,17 @@
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "WA-Phuket Old Townはプーケット旧市街のヤオワラート通りとディブック通りの交差点付近（102 Yaowarat Rd）にある、日本スタイルのデザートカフェだ。店名の「和（wa）」が示すとおり、日本の和菓子・茶文化をコンセプトに据えており、古喫茶（きっさてん）を思わせるノスタルジックな日本の内装が特徴的だ。看板メニューはモンブランで、抹茶・チョコレート・タイティー・いちご・マンゴー・ピスタチオの6フレーバーを展開する。チョコレートミルフィーユや抹茶ティラミスも人気メニュー。ドリンクにはAZUKIやWA! SKYなど和風オリジナルが並ぶ。ペラナカン建築が立ち並ぶ旧市街の街並みの中で、日本とアジアの融合を感じられる個性的なカフェスポットだ。",
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "wagyu-yakiniku-jun",
@@ -16901,13 +16880,13 @@
     "lng": 100.924,
     "phone": "+66834594675",
     "website": "https://www.instagram.com/wagyu.jun.pattaya/",
-    "description": "日本式の焼肉レストラン。パタヤそばにあり、厳選した和牛・豚・鶏を日本式のたれで楽しめる。在住日本人のコミュニティで人気の一軒。",
+    "description": "トンロー地区にある和(わびさび)インスパイアの抹茶カフェ。日本の侘び寂びをコンセプトに、高品質な抹茶と日本風デザートを提供する。",
     "tags": [
       "カフェ",
       "日本式"
     ],
     "hours": "Monday: Closed / Tuesday: 12:00 – 9:00 PM / Wednesday: 12:00 – 9:00 PM / Thursday: 12:00 – 9:00 PM / Friday: 12:00 – 9:00 PM / Saturday: 12:00 – 9:00 PM / Sunday: 12:00 – 9:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJB3lsSwCVAjERhrKjEsB_HQU",
@@ -16918,7 +16897,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Wabi Cafeはバンコクのワッタナー区、スクムビットSoi55（トンロー）沿いに位置する日本インスパイアのカフェで、「侘び寂び（wabi-sabi）」をコンセプトに取り入れた空間設計が特徴だ。自然素材と落ち着いたアースカラーを使ったミニマルなインテリアが心地よく、読書・作業・ゆっくりとした時間を過ごすのに適した雰囲気がある。主力メニューは高品質なセレモニアルグレードの抹茶を使った抹茶ラテで、柚子チーズケーキ・黒ごまタルト・抹茶シフォンケーキなどの日本風デザートと合わせて楽しめる。手作りの陶器カップや木製の家具など、細部まで日本的なこだわりを感じさせる。バンコクの中心部でありながら、ゆったりとした日本の喫茶時間を体験したい人におすすめのカフェだ。",
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "wako-bake",
@@ -16928,13 +16910,13 @@
     "address": "16 9 ซอย สุขใจ2 Tambon Su Thep, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50300, Thailand",
     "phone": "+66946249524",
     "website": "http://facebook.com/wakobake/",
-    "description": "チェンマイの日本人経営または日本人が多く利用するカフェ。コーヒー・スイーツ・軽食を提供し、落ち着いた雰囲気で過ごせる空間",
+    "description": "パタヤにある和牛焼肉専門の日本式焼肉レストラン。厳選した和牛を使ったやきにくが楽しめる。Instagram: @wagyu.jun.pattaya。",
     "tags": [
       "カフェ",
       "日本式"
     ],
     "hours": "Monday: 8:30 AM – 8:30 PM / Tuesday: 8:30 AM – 8:30 PM / Wednesday: 8:30 AM – 8:30 PM / Thursday: 8:30 AM – 8:30 PM / Friday: 8:30 AM – 8:30 PM / Saturday: 8:30 AM – 8:30 PM / Sunday: 8:30 AM – 8:30 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJc549XGc62jARVorTrk_mPAw",
@@ -16944,7 +16926,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Wagyu Yakiniku Junはパタヤ（バンラムン郡）にある和牛焼肉専門の日本式焼肉レストランで、Instagramアカウント @wagyu.jun.pattaya で日本語を含む情報を積極的に発信している。店名の通り、和牛（Wagyu）を中心とした焼肉メニューが主力で、品質にこだわった肉の選定が特徴だ。営業時間は12:00〜21:00（月曜定休）、電話番号は0800730333。パタヤには日本人観光客や駐在員が多く訪れることもあり、日本語対応や日本式のサービスを心がけている。本格的な和牛の焼肉をパタヤで楽しみたい日本人旅行者や在住者に支持されているレストランだ。",
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "wakumi-cafe-and-homestay",
@@ -16956,13 +16941,13 @@
     "lng": 99.2628,
     "phone": "+66816027593",
     "website": null,
-    "description": "チェンマイの日本人経営または日本人が多く利用するカフェ。コーヒー・スイーツ・軽食を提供し、落ち着いた雰囲気で過ごせる空間",
+    "description": "チェンマイにある日本の禅スタイルをコンセプトにしたカフェ&ベーカリー。シュークリームや日本式サンドイッチ、カツカレーが人気。",
     "tags": [
       "カフェ",
       "日本式"
     ],
     "hours": "Monday: 8:00 AM – 5:00 PM / Tuesday: 8:00 AM – 5:00 PM / Wednesday: Closed / Thursday: 8:00 AM – 5:00 PM / Friday: 8:00 AM – 5:00 PM / Saturday: 8:00 AM – 5:00 PM / Sunday: 8:00 AM – 5:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ2ZVifQCL2TARaMZX9VjiKYE",
@@ -16973,7 +16958,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "WAKO BAKEはチェンマイのスセープ地区（Tambon Su Thep、ห้วยแก้ว通り沿い）に位置する日本の禅（Zen）コンセプトをベースにしたカフェ&ベーカリーで、オールドタウンにも2号店がある。看板メニューはキュービックシュークリームで、ほかにもミニシューやドリップコーヒー、抹茶ラテなど日本スタイルのドリンクが揃う。朝食メニューにはポークカツカレーライス（温泉卵乗せ）も人気で、スペシャルティコーヒーや日本式の軽食と組み合わせたカフェ文化を提案している。店内中央の枯山水庭園と錦鯉の池が印象的で、日本庭園の落ち着いた雰囲気の中でゆったりと過ごせる。Wi-Fiも完備しており、ミーティングルームも時間貸しで利用可能。営業時間は毎日9:00〜21:00。",
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "wao-japanese-house",
@@ -16983,14 +16971,14 @@
     "address": "19/4 jeamjompon road T, A, ตำบล ศรีราชา อำเภอศรีราชา ชลบุรี 20110, Thailand",
     "phone": "+66924726191",
     "website": "https://www.facebook.com/jhWAO/",
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。シラチャそばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
+    "description": "チェンマイ郊外・メーオン地区にある日本旅館スタイルのカフェ&ホームステイ。山あいの自然の中で日本的な空間を体験できる。",
     "tags": [
       "カフェ",
       "パン",
       "日本式"
     ],
     "hours": "Monday: 6:00 – 11:00 PM / Tuesday: 6:00 – 11:00 PM / Wednesday: 6:00 – 11:00 PM / Thursday: 6:00 – 11:00 PM / Friday: 6:00 – 11:00 PM / Saturday: 11:30 AM – 3:00 PM, 5:00 – 10:00 PM / Sunday: 11:30 AM – 3:00 PM, 5:00 – 10:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJU0a6ZP22AjERrQ0cVBNA2q8",
@@ -17000,7 +16988,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Wakumi Cafe & Homestayはチェンマイのメーオン郡（Huai Kaeo、Mae On District）に位置する日本旅館（Ryokan）スタイルのカフェ兼宿泊施設だ。旅行サイトのTrip.comでは「Newly opened accommodation in Chiang Mai with a Japanese Ryokan style」として紹介されており、山間の自然の中で日本的な和の空間を提供している。コーヒー・ノンコーヒー飲料・ベーカリー・ナポリピッツァなどを提供するカフェとして地元でも人気を集め、川辺や大木のそばなど撮影スポットも多い。ペット同伴可、駐車場あり。山のテラスから望む眺めが素晴らしく、朝や夕方の自然光が美しい。メーカンポン方面への観光途中で立ち寄るのにも好適なロケーションだ。",
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "white-dragon-cafe-and-bistro",
@@ -17010,13 +17001,13 @@
     "address": "202, 204 Yaowarat Rd, Khwaeng Samphanthawong, Khet Samphanthawong, Krung Thep Maha Nakhon 10100, Thailand",
     "phone": "+66936174495",
     "website": "https://www.facebook.com/whitedragoncafeandbistro/",
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。ヤワラート（中華街）そばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
+    "description": "シラチャにある日本人オーナー（ママさん）が経営する本格日本料理レストラン。サシミ・メンタイコスパゲッティなど本場の味が評判。",
     "tags": [
       "カフェ",
       "日本式"
     ],
     "hours": "Monday: 8:00 AM – 5:00 PM / Tuesday: 8:00 AM – 5:00 PM / Wednesday: 8:00 AM – 5:00 PM / Thursday: 8:00 AM – 5:00 PM / Friday: 8:00 AM – 5:00 PM / Saturday: 8:00 AM – 5:00 PM / Sunday: 8:00 AM – 5:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJRwyJH8iZ4jARc9QiAeKaGz0",
@@ -17026,7 +17017,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "WAO Japanese House（ワオ シラチャ）はチョンブリー県シラチャのジャムジョムポン通り（Jeamjompon Road 19/4）に位置する、日本人オーナー（ママさん）が経営する本格日本料理レストランだ。DACOタイの記事で「Japanese House WAO! はらはらメニューで西洋スタイルの日本料理」として紹介され、地元日本人コミュニティに深く根付いている。TripAdvisorではシラチャの121軒中24位に位置付けられ、5点満点評価を獲得している。ハンバーグ・牡蠣・メンタイコスパゲッティ・刺身など、日本の家庭料理から本格和食まで幅広いメニューが揃う。ビールやキャピスサワーなどドリンクとの相性も良く、温かい雰囲気と友好的なスタッフが人気の理由だ。電話：+66 92 472 6191。",
+    "japanese_staff": true,
+    "spot_reviewed": true
   },
   {
     "slug": "x-nigi-express-x-horm-horm-ramen-phuket",

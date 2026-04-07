@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { ChevronRight } from "lucide-react";
-import CountryTabs from "./CountryTabs";
 
 type Props = {
   countryCode: string;
@@ -10,8 +9,6 @@ type Props = {
   label: string;                // 「— KAI SPOT」など
   title: string;                // h1
   subtitle?: string;            // 説明文
-  articleCount: number;
-  spotCount: number;
   right?: React.ReactNode;      // 右側スロット（検索・CTA等）
   subTabs?: React.ReactNode;    // スポット内のカテゴリ/エリア/地図タブ
 };
@@ -24,14 +21,12 @@ export default function CountryHero({
   label,
   title,
   subtitle,
-  articleCount,
-  spotCount,
   right,
   subTabs,
 }: Props) {
   return (
-    <div className="bg-gradient-to-br from-stone-950 via-[#1a2e35] to-[#2d1a0e]">
-      <div className="max-w-6xl mx-auto px-4 pt-4 pb-0">
+    <div className="bg-gradient-to-br from-stone-950 via-[#1a2e35] to-[#2d1a0e] pb-0">
+      <div className="max-w-6xl mx-auto px-4 pt-4 pb-6">
         {/* パンくず */}
         <nav className="flex items-center gap-1.5 text-xs text-stone-400/80 mb-6">
           <Link href="/" className="hover:text-white transition-colors">トップ</Link>
@@ -72,13 +67,6 @@ export default function CountryHero({
           </div>
         )}
       </div>
-
-      {/* 国別タブ（記事/スポット/求人） */}
-      <CountryTabs
-        countryCode={countryCode}
-        articleCount={articleCount}
-        spotCount={spotCount}
-      />
     </div>
   );
 }

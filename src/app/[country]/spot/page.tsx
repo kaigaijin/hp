@@ -16,6 +16,7 @@ import {
 } from "@/lib/directory";
 import { getGroupTheme } from "@/lib/group-theme";
 import CountryHero from "@/components/CountryHero";
+import CountryTabs from "@/components/CountryTabs";
 import { getArticlesByCountry } from "@/lib/articles";
 import {
   UtensilsCrossed,
@@ -151,8 +152,6 @@ export default async function SpotIndexPage({
           label="— KAI SPOT"
           title="日本人向けスポット"
           subtitle={`${country.name}のレストラン・クリニック・美容室・不動産など ${totalSpots}件掲載中`}
-          articleCount={articles.length}
-          spotCount={totalSpots}
           right={
             <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-5">
               <p className="text-white/80 text-xs font-semibold mb-3">名前・エリア・キーワードで検索</p>
@@ -172,6 +171,11 @@ export default async function SpotIndexPage({
               </Link>
             </div>
           }
+        />
+        <CountryTabs
+          countryCode={code}
+          articleCount={articles.length}
+          spotCount={totalSpots}
         />
 
         <div className="max-w-6xl mx-auto px-4 py-8">

@@ -2,10 +2,10 @@
   {
     "slug": "anytime-fitness-klcc",
     "name": "Anytime Fitness KLCC",
-    "name_ja": null,
+    "name_ja": "エニタイムフィットネス KLCC",
     "area": "KLCC",
     "address": "Lot 1-01, Level 1, Menara Binjai, No. 2, Jalan Binjai, Off Jalan Ampang, 50450 Kuala Lumpur",
-    "description": "24時間営業のグローバルフィットネスチェーン「Anytime Fitness」のKLCC拠点。Menara Binjai 1階に位置し、日本人駐在員の利用も多い。世界中の店舗が使えるグローバル会員制を採用。",
+    "description": "KLCCエリアのMenara Binjai内にある24時間営業のグローバルフィットネスチェーン。キーフォブで日本を含む世界中の店舗が利用可能。日本人駐在員の利用が多い。",
     "phone": "+60321818888",
     "phone_local": null,
     "email": null,
@@ -25,8 +25,11 @@
     "lng": null,
     "status": "unverified",
     "source": "gemini_search",
-    "last_verified": "2026-04-02",
-    "ai_reviewed": false
+    "last_verified": "2026-04-07",
+    "ai_reviewed": true,
+    "spot_reviewed": true,
+    "detail": "KLCCエリアのJalan Binjai沿い、Menara Binjai 1階にある「Anytime Fitness KLCC」。世界4,500店舗以上のグローバルフィットネスチェーンで、キーフォブで日本を含む全世界の同チェーン店が利用可能。KLCCエリアの日本人駐在員・外資系勤務者の利用が多い24時間対応ジム。マシンエリア・フリーウェイトを完備。スタッフ在籍時間（月〜金10:00〜20:00頃）以外も会員は自由に入館できる。公式サイトから最新の料金・入会手続きを確認できる。",
+    "needs_review": false
   },
   {
     "slug": "anytime-fitness-mont-kiara",
@@ -43,7 +46,7 @@
       "グローバル会員"
     ],
     "hours": "24時間",
-    "last_verified": "2026-03-26",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "phone_local": null,
@@ -52,7 +55,10 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true,
+    "detail": "モントキアラのSolaris Mont Kiara内にある「Anytime Fitness」。日本人在住者が多いモントキアラエリアに位置し、24時間いつでも利用可能なキーフォブ式ジム。世界4,500店舗以上と相互利用できるグローバル会員制を採用しており、日本帰国・出張時も同チェーン店が使える。マシン中心のシンプルな設備で自分のペースでトレーニングできる。公式サイト（anytimefitness.my）から詳細を確認できる。",
+    "needs_review": false
   },
   {
     "slug": "anytime-fitness-publika",
@@ -62,7 +68,7 @@
     "address": "Publika, Solaris Dutamas, Kuala Lumpur",
     "phone": null,
     "website": "https://www.anytimefitness.my/",
-    "description": "24時間営業のグローバルフィットネスチェーン・エニタイムフィットネスのPublika店。日本人在住者も多いDutamasエリアにあり便利。",
+    "description": "Solaris Dutamas・Publika内にある24時間営業の国際フィットネスチェーン。日本人居住エリアのDutamasに位置し、キーフォブで日本を含む全世界の店舗が利用可能。",
     "tags": [
       "ジム",
       "24時間営業",
@@ -71,22 +77,25 @@
     "hours": "24時間",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true,
+    "detail": "Solaris DutamasのPublika内にある「Anytime Fitness」。日本人在住者が多いDutamas（Mont Kiara隣接）エリアに位置する24時間対応ジム。世界中の同チェーン店が利用できるグローバル会員制で、日本への帰国・出張時も継続利用が可能。シンプルなマシンエリアで自分のペースでトレーニングできる。公式サイト（anytimefitness.my）から近くの店舗詳細を確認できる。",
+    "needs_review": false
   },
   {
     "slug": "babel-klcc",
     "name": "Babel KLCC",
-    "name_ja": null,
+    "name_ja": "バベル KLCC",
     "area": "KLCC",
     "address": "Level 10, Menara TA One, 22, Jalan P. Ramlee, 50250 Kuala Lumpur",
-    "description": "KLCCエリアのMenara TA One 10階にある高級ブティックジム。ヨガ・ピラティス・クロスフィットなど多彩なグループクラスを提供。日本人駐在員を含むエクスパット層に利用されている。",
+    "description": "KLCCエリアのMenara TA One 10階にある高級ブティックジム。ヨガ・ピラティス・クロスフィットなど多彩なグループクラスを提供。日本人を含むエクスパット層に人気。",
     "phone": "+60163153333",
     "phone_local": null,
     "email": null,
@@ -107,43 +116,19 @@
     "lng": null,
     "status": "unverified",
     "source": "gemini_search",
-    "last_verified": "2026-04-02",
-    "ai_reviewed": false
-  },
-  {
-    "slug": "body-in-common-bangsar",
-    "name": "Body In Common",
-    "name_ja": "ボディインコモン",
-    "area": "Bangsar",
-    "address": "Bangsar, Kuala Lumpur",
-    "phone": null,
-    "website": null,
-    "description": "バンサーにあるオーストラリアンスタイルのフィットネス・リハビリ・ウェルネスセンター。グループフィットネスクラス・臨床クラス・マンツーマンのリハビリテーションを提供。怪我のリハビリからフィットネスまで幅広く対応。",
-    "tags": [
-      "フィットネス",
-      "リハビリ",
-      "ウェルネス",
-      "オーストラリアンスタイル"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps",
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "ai_reviewed": true
+    "last_verified": "2026-04-07",
+    "ai_reviewed": true,
+    "spot_reviewed": true,
+    "detail": "KLCCエリアのJalan P. RamleeにあるMenara TA One 10階に位置する「Babel」ブティックジム。ヨガ・ピラティス・クロスフィット・HIITなど多彩なグループクラスを提供しており、高品質な設備とパーソナルトレーナーのサポートが特長。KLの外資系・日本人駐在員コミュニティでも認知度が高いプレミアムジム。月〜金6:00〜23:00、土日7:00〜21:00。公式サイト（babel.fit）から最新クラス・料金を確認できる。",
+    "needs_review": false
   },
   {
     "slug": "celebrity-fitness-mid-valley-megamall",
     "name": "Celebrity Fitness Mid Valley Megamall",
-    "name_ja": null,
+    "name_ja": "セレブリティフィットネス ミッドバレー",
     "area": "Mid Valley",
     "address": "T-013, 3rd Floor, Mid Valley Megamall, Lingkaran Syed Putra, Mid Valley City, 59200 Kuala Lumpur",
-    "description": "マレーシア国内に多数展開するフィットネスチェーン「Celebrity Fitness」のミッドバレー店。ミッドバレーメガモール3階に位置し、日本人駐在員の利用も多い総合フィットネス施設。",
+    "description": "ミッドバレーメガモール3階にあるマレーシア大手フィットネスチェーン。日本人在住者の生活圏・ミッドバレーエリアに位置し、総合フィットネス設備を提供。",
     "phone": "+60322878888",
     "phone_local": null,
     "email": null,
@@ -163,8 +148,11 @@
     "lng": null,
     "status": "unverified",
     "source": "gemini_search",
-    "last_verified": "2026-04-02",
-    "ai_reviewed": false
+    "last_verified": "2026-04-07",
+    "ai_reviewed": true,
+    "spot_reviewed": true,
+    "detail": "ミッドバレーメガモール3階にある「Celebrity Fitness」。マレーシア国内に多数の店舗を展開する大手フィットネスチェーンで、カーディオ・ウェイト・グループクラス・ヨガ・サイクリングスタジオを完備。ミッドバレーはKL在住日本人の生活圏として多くの日本食レストランや日系スーパーが集積するエリアで、買い物ついでの利用がしやすい立地。月〜金6:30〜22:00、土日8:00〜20:00。公式サイト（celebrityfitness.com.my）で最新情報を確認できる。",
+    "needs_review": false
   },
   {
     "slug": "celebrity-fitness-mont-kiara",
@@ -181,7 +169,7 @@
       "リーズナブル"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "phone_local": null,
@@ -190,7 +178,10 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true,
+    "detail": "モントキアラの1 Mont Kiaraモール内にある「Celebrity Fitness」。マレーシア国内最大級のフィットネスチェーンで、最新のトレーニングマシン・グループフィットネスクラス・スタジオを完備。在KL日本人の主要居住エリアであるモントキアラに位置し、手頃な月額料金で日常的に通える総合ジム。公式サイト（celebrityfitness.com.my）から最新の料金・営業時間を確認できる。",
+    "needs_review": false
   },
   {
     "slug": "chi-fitness-mont-kiara",
@@ -208,7 +199,7 @@
       "パーソナルトレーニング"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "phone_local": null,
@@ -217,15 +208,18 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true,
+    "detail": "モントキアラの163 Retail Park内に位置する「CHi Fitness」。マレーシアのプレミアムフィットネスチェーンで、Mont Kiara・1 Utama・Bangsar South等の日本人エクスパットが多く居住するエリアに展開。プール・最新マシン・グループフィットネスクラス・パーソナルトレーニングを完備した高品質な施設。公式サイト（chifitness.com）から最新情報を確認できる。",
+    "needs_review": false
   },
   {
     "slug": "fitness-first-avenue-k",
     "name": "Fitness First Avenue K",
-    "name_ja": null,
+    "name_ja": "フィットネスファースト アベニューK",
     "area": "KLCC",
     "address": "L4-01, Level 4, Avenue K, 156, Jalan Ampang, 50450 Kuala Lumpur",
-    "description": "グローバルフィットネスチェーン「Fitness First」のKLCC拠点。Avenue K 4階に位置し、日本人駐在員の利用も多い。マシン・グループクラス・パーソナルトレーニングを完備。",
+    "description": "KLCCのAvenue K 4階にある国際フィットネスチェーン。日本人駐在員の利用も多いKLCCエリアに位置し、マシン・グループクラス・パーソナルトレーニングを提供。",
     "phone": "+60321662626",
     "phone_local": null,
     "email": null,
@@ -245,8 +239,11 @@
     "lng": null,
     "status": "unverified",
     "source": "gemini_search",
-    "last_verified": "2026-04-02",
-    "ai_reviewed": false
+    "last_verified": "2026-04-07",
+    "ai_reviewed": true,
+    "spot_reviewed": true,
+    "detail": "KLCCのAvenue KショッピングモールL4に位置する「Fitness First」。グローバルフィットネスチェーンで、KLの外資系ビジネスエリア・KLCCに位置するため日本人駐在員の利用が多い。マシンエリア・グループフィットネスクラス・パーソナルトレーニングを完備。月〜金6:30〜22:00、土日8:00〜20:00。公式サイト（fitnessfirst.com.my/gyms/avenue-k）から詳細を確認できる。",
+    "needs_review": false
   },
   {
     "slug": "fitness-first-mont-kiara",
@@ -264,7 +261,7 @@
       "プール"
     ],
     "hours": "月-金 6:30-23:00, 土日 7:00-21:00",
-    "last_verified": "2026-03-26",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "phone_local": null,
@@ -273,7 +270,10 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true,
+    "detail": "1 Mont Kiaraモール2階に位置する「Fitness First Platinum」。プレミアムクラスのフィットネス施設で、ホットヨガスタジオ・フリースタイルトレーニングゾーン・パーソナルトレーニング・プールを完備。在KL日本人居住エリアのモントキアラ内に位置し、日本人駐在員の利用が多い。月〜金6:30〜23:00、土日7:00〜21:00。公式サイト（fitnessfirst.com/my/en/clubs/1-mont-kiara）から詳細を確認できる。",
+    "needs_review": false
   },
   {
     "slug": "fitokio-bangsar",
@@ -292,7 +292,7 @@
       "ホットラバストーン"
     ],
     "hours": "月-金 7:30-22:00, 土日祝 9:00-18:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "phone_local": null,
@@ -301,7 +301,10 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true,
+    "detail": "バンサーのBangunan Bangsaria 4階に位置する日系プレミアムフィットネスジム「FITOKIO by Tokyo Athletic Club」。日本式のおもてなしと高品質なインストラクターが特長で、ヨガ・ピラティス・バレ・HIIT・ズンバなど多彩なグループクラスを提供。マレーシア初・唯一のホットラバストーンスタジオクラスを開催している。月〜金7:30〜22:00、土日祝9:00〜18:00。公式サイト（fitokio.com.my）から詳細・クラス予約が可能。",
+    "needs_review": false
   },
   {
     "slug": "gofit-mont-kiara",
@@ -318,7 +321,7 @@
       "フレキシブル会員"
     ],
     "hours": "月-金 5:30-22:30, 土日祝 7:00-22:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "phone_local": null,
@@ -327,34 +330,10 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "koa-fitness",
-    "name": "KOA Fitness",
-    "name_ja": "コアフィットネス",
-    "area": "Mont Kiara",
-    "address": "Mont Kiara, Kuala Lumpur",
-    "phone": null,
-    "website": null,
-    "description": "モントキアラにある女性専用ブティックジム。サポーティブなコミュニティが特徴で、グループクラスやパーソナルトレーニングを提供。女性だけの空間で安心してトレーニングできる。",
-    "tags": [
-      "ジム",
-      "女性専用",
-      "ブティック",
-      "グループクラス"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-26",
-    "status": "unverified",
-    "source": "website",
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true,
+    "detail": "モントキアラのPlaza Mont Kiara内に位置する「GoFit」。最新設備を手頃な価格で提供するフィットネスジムで、在KL日本人の主要居住エリアに位置する。入会金不要のFLEXプランも用意されており、在マレーシア期間が不定の駐在員にも使いやすい。月〜金5:30〜22:30、土日祝7:00〜22:00。公式サイト（gofit-gym.com/my/gym/mont-kiara/）から詳細を確認できる。",
+    "needs_review": false
   },
   {
     "slug": "life-hot-yoga-mont-kiara",
@@ -371,7 +350,7 @@
       "スタジオ"
     ],
     "hours": null,
-    "last_verified": "2026-03-26",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "phone_local": null,
@@ -380,60 +359,10 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "life-n-fitness-bangsar",
-    "name": "Life n Fitness Bangsar",
-    "name_ja": "ライフンフィットネス バンサー",
-    "area": "Bangsar",
-    "address": "Bangsar, Kuala Lumpur",
-    "phone": null,
-    "website": null,
-    "description": "24時間営業のフィットネスジム。エアリアルヨガ・ピラティスなど多彩なクラスも提供。バンサーを含む6拠点で展開しており、いつでも自分のペースでトレーニングできる。",
-    "tags": [
-      "ジム",
-      "24時間営業",
-      "エアリアルヨガ",
-      "ピラティス"
-    ],
-    "hours": "24時間",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps",
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "one-earth-yoga-mont-kiara",
-    "name": "One Earth Yoga",
-    "name_ja": "ワンアースヨガ",
-    "area": "Mont Kiara",
-    "address": "Mont Kiara, Kuala Lumpur",
-    "phone": null,
-    "website": null,
-    "description": "モントキアラ中心部にあるヨガスタジオ。ハタヨガ・ヴィンヤサ・陰ヨガなど多彩なクラスを個人・グループ向けに提供。エクスパットコミュニティに利用されている。",
-    "tags": [
-      "ヨガ",
-      "ハタヨガ",
-      "ヴィンヤサ"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps",
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true,
+    "detail": "モントキアラのSunway 163 Mall内に位置する「LIFE Hot Yoga」。高温多湿の環境でのホットヨガクラスを中心に提供するスタジオ。デトックス効果やフレキシビリティ向上を目的とした利用者に人気。在KL日本人の居住エリアであるモントキアラからアクセスしやすい。公式サイト（lifehotyoga.com.my）からクラス情報・予約が可能。",
+    "needs_review": false
   },
   {
     "slug": "sunday-pilates-bangsar",
@@ -452,7 +381,7 @@
       "リフォーマー"
     ],
     "hours": "要確認",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "phone_local": null,
@@ -461,7 +390,10 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true,
+    "detail": "バンサーのNadi Bangsar Service Resident 2階に位置するピラティス・ヨガ・バレスタジオ「SUN:DAY Pilates」。女性専用スタジオで、リフォーマーピラティス・マットピラティス・ヨガ・サウンドヒーリングなどのクラスを提供。NASM・AFAA認定のインストラクター養成講座も開講。バンサーは在KL日本人の居住エリアで、日本人女性の利用も多い。公式サイト（sundaypilates.info）から予約・クラス情報を確認できる。",
+    "needs_review": false
   },
   {
     "slug": "urban-spring-bangsar",
@@ -479,7 +411,7 @@
       "ブティック"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "phone_local": null,
@@ -488,34 +420,10 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "urban-spring-mont-kiara",
-    "name": "Urban Spring",
-    "name_ja": "アーバンスプリング",
-    "area": "Mont Kiara",
-    "address": "Mont Kiara, Kuala Lumpur",
-    "phone": null,
-    "website": null,
-    "description": "ヨガ・マットピラティス・ホットピラティス・リフォーマーピラティス・バレなど多彩なクラスを提供するブティックスタジオ。モントキアラ・KLCC等に展開。エクスパット女性に人気。",
-    "tags": [
-      "ヨガ",
-      "ピラティス",
-      "バレ",
-      "ブティック"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-26",
-    "status": "unverified",
-    "source": "website",
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true,
+    "detail": "バンサーのBangkung Rowに位置するピラティス・バレスタジオ「Urban Spring」。米国Balanced Body社製の最新ピラティス機器（リフォーマー等）を完備し、リフォーマーピラティス・マットピラティス・バレの各クラスを提供。在KL日本人が多く居住するバンサーエリアに位置しており、日本人女性にも利用されている。公式サイト（urban-spring.com）からクラス情報・予約が可能。",
+    "needs_review": false
   },
   {
     "slug": "utl-yoga-publika",
@@ -533,7 +441,7 @@
       "全レベル対応"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "phone_local": null,
@@ -542,7 +450,10 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "spot_reviewed": true,
+    "detail": "Solaris DutamasのPublika内に位置する「UTL Yoga（Under The Light）」。東京発のヨガスタジオブランドで、伝統的なヨガとモダンヨガを組み合わせたクラスを初心者から上級者まで提供。ヨガインストラクター養成講座（200時間認定コース）も年4回開催しており、在マレーシア日本人の利用も多い。在KL日本人居住エリアのDutamasに位置するアクセス良好なスタジオ。公式サイト（utlmy.com）から詳細を確認できる。",
+    "needs_review": false
   },
   {
     "slug": "japan-boxing-club-klcc",
@@ -571,7 +482,7 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-04-05",
+    "last_verified": "2026-04-07",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
@@ -579,7 +490,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "anytime-fitness-bangsar-south",
@@ -603,7 +515,7 @@
     ],
     "hours": "24時間（会員）",
     "status": "unverified",
-    "last_verified": "2026-04-06",
+    "last_verified": "2026-04-07",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
@@ -611,7 +523,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "anytime-fitness-tanjung-tokong-penang",
@@ -635,7 +548,7 @@
     ],
     "hours": "24時間（会員）",
     "status": "unverified",
-    "last_verified": "2026-04-06",
+    "last_verified": "2026-04-07",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
@@ -643,7 +556,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "anytime-fitness-setia-tropika-johor",
@@ -667,7 +581,7 @@
     ],
     "hours": "24時間（会員）",
     "status": "unverified",
-    "last_verified": "2026-04-06",
+    "last_verified": "2026-04-07",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
@@ -675,7 +589,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "anytime-fitness-cyberjaya",
@@ -699,7 +614,7 @@
     ],
     "hours": "24時間（会員）",
     "status": "unverified",
-    "last_verified": "2026-04-06",
+    "last_verified": "2026-04-07",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
@@ -707,7 +622,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "celebrity-fitness-queensbay-penang",
@@ -732,7 +648,7 @@
     ],
     "hours": "月-金 7:00-22:30, 土日祝 8:00-22:30",
     "status": "unverified",
-    "last_verified": "2026-04-06",
+    "last_verified": "2026-04-07",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
@@ -740,7 +656,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "celebrity-fitness-dpulze-cyberjaya",
@@ -764,7 +681,7 @@
     ],
     "hours": "月-金 7:00-22:00, 土日祝 8:00-20:00",
     "status": "unverified",
-    "last_verified": "2026-04-06",
+    "last_verified": "2026-04-07",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
@@ -772,7 +689,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "fitness-first-the-curve",
@@ -797,7 +715,7 @@
     ],
     "hours": "月-金 6:30-22:00, 土 7:00-21:00, 日 8:00-20:00",
     "status": "unverified",
-    "last_verified": "2026-04-06",
+    "last_verified": "2026-04-07",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
@@ -805,7 +723,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "redline-gym-johor-bahru",
@@ -829,7 +748,7 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-04-06",
+    "last_verified": "2026-04-07",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
@@ -837,7 +756,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   },
   {
     "slug": "gofit-sunway-carnival-penang",
@@ -862,7 +782,7 @@
     ],
     "hours": "月-金 7:00-22:00, 土日 8:00-22:00",
     "status": "unverified",
-    "last_verified": "2026-04-06",
+    "last_verified": "2026-04-07",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
@@ -870,35 +790,7 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "japan-boxing-club-klcc",
-    "name": "Japan Boxing Club KLCC",
-    "name_ja": "ジャパン ボクシング クラブ KLCC",
-    "area": "KLCC",
-    "address": "Unit No. A-B-1, St Mary Place, No. 1, Jalan Tengah, 50450 Kuala Lumpur",
-    "phone": null,
-    "email": null,
-    "website": "https://japan-boxingclub.my/",
-    "source_url": "https://japan-boxingclub.my/",
-    "description": "クアラルンプールの日本式ボクシングジム。東京・大阪の姉妹店とのメンバーシップ相互利用が可能。初心者向けのボクシングフィットネスから競技志向まで幅広いプログラムを提供。女性専用コースあり。",
-    "tags": [
-      "日本語対応",
-      "ボクシング",
-      "フィットネス",
-      "スポーツ"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-04-06",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true
   }
 ]
