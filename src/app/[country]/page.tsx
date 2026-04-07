@@ -68,7 +68,7 @@ export default async function CountryPage({
           countryName={country.name}
           countryFlag={country.flag}
           currentLabel="KAIコラム"
-          label={`${country.flag} ${country.name} — ${country.nameEn}`}
+          label="— KAI COLUMN"
           title={country.name}
           subtitle={`${country.tagline}　在住日本人 ${country.population}`}
           articleCount={articles.length}
