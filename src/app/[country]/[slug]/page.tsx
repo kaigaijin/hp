@@ -4,7 +4,7 @@ import { MDXRemote } from "next-mdx-remote/rsc";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { getCountry, countries } from "@/lib/countries";
-import { getArticle, getArticlesByCountry } from "@/lib/articles";
+import { getArticle, getArticlesByCountry, getAllArticles } from "@/lib/articles";
 import { ArrowLeft, Calendar, Tag } from "lucide-react";
 import Comments from "@/components/Comments";
 import { BarChartMDX, LineChartMDX, PieChartMDX } from "@/components/charts";
@@ -13,12 +13,12 @@ import remarkGfm from "remark-gfm";
 const mdxComponents = { BarChart: BarChartMDX, LineChart: LineChartMDX, PieChart: PieChartMDX };
 
 export function generateStaticParams() {
-  return countries.flatMap((c) =>
-    getArticlesByCountry(c.code).map((a) => ({
-      country: c.code,
-      slug: a.slug,
-    }))
-  );
+  // countries リストに依存せず content/ ディレクトリを直接走査
+  // （column など countries 未登録の記事も含める）
+  return getAllArticles().map((a) => ({
+    country: a.country,
+    slug: a.slug,
+  }));
 }
 
 export async function generateMetadata({
@@ -51,7 +51,9 @@ export default async function ArticlePage({
   const { country: code, slug } = await params;
   const country = getCountry(code);
   const article = getArticle(code, slug);
-  if (!country || !article) notFound();
+  if (!article) notFound();
+  // column など countries 未登録のコードは汎用フォールバックを使う
+  const countryDisplay = country ?? { name: "コラム", flag: "📰", code };
 
   const baseUrl = "https://kaigaijin.com";
 
@@ -93,7 +95,7 @@ export default async function ArticlePage({
       {
         "@type": "ListItem",
         position: 2,
-        name: country.name,
+        name: countryDisplay.name,
         item: `${baseUrl}/${code}`,
       },
       {
@@ -128,7 +130,7 @@ export default async function ArticlePage({
               href={`/${code}`}
               className="hover:text-warm-600 dark:hover:text-warm-400 transition-colors"
             >
-              {country.flag} {country.name}
+              {countryDisplay.flag} {countryDisplay.name}
             </Link>
             <span>/</span>
             <span className="text-stone-600 dark:text-stone-300">{article.meta.title}</span>
@@ -183,7 +185,7 @@ export default async function ArticlePage({
               className="inline-flex items-center gap-2 text-warm-600 dark:text-warm-400 hover:text-warm-800 dark:hover:text-warm-300 font-medium transition-colors"
             >
               <ArrowLeft size={16} />
-              {country.name}の記事一覧に戻る
+              {countryDisplay.name}の記事一覧に戻る
             </Link>
           </div>
         </article>
