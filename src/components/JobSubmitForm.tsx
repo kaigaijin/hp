@@ -84,7 +84,6 @@ type FormData = {
   requirements: string;
   benefits: string;
   contact_email: string;
-  contact_url: string;
 };
 
 const INITIAL_FORM: FormData = {
@@ -106,7 +105,6 @@ const INITIAL_FORM: FormData = {
   requirements: "",
   benefits: "",
   contact_email: "",
-  contact_url: "",
 };
 
 // ステップ定義
@@ -381,7 +379,7 @@ function JobPreview({ form, collapsed, onToggle }: { form: FormData; collapsed?:
               )}
 
               {/* 応募先 */}
-              {(form.contact_email || form.contact_url) && (
+              {form.contact_email && (
                 <div className="pt-2 border-t border-stone-100 dark:border-stone-800">
                   <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-indigo-600 text-white text-xs font-semibold rounded-lg">
                     応募する
@@ -432,12 +430,7 @@ export default function JobSubmitForm({ country }: { country: string }) {
     }
     if (s === 3) {
       if (!form.description.trim()) errors.description = "求人詳細を入力してください";
-      if (!form.contact_email.trim() && !form.contact_url.trim()) {
-        errors.contact_email =
-          "応募先メールまたは応募URLのどちらかを入力してください";
-        errors.contact_url =
-          "応募先メールまたは応募URLのどちらかを入力してください";
-      }
+      if (!form.contact_email.trim()) errors.contact_email = "応募先メールアドレスを入力してください";
     }
     setFieldErrors(errors);
     return Object.keys(errors).length === 0;
@@ -857,15 +850,15 @@ export default function JobSubmitForm({ country }: { country: string }) {
             <div className="bg-white dark:bg-stone-800 rounded-2xl border border-stone-200 dark:border-stone-700 p-6 sm:p-8 space-y-5">
               <div>
                 <h2 className="text-lg font-bold text-stone-800 dark:text-stone-100 mb-1">
-                  応募方法
+                  応募先メールアドレス
                 </h2>
                 <p className="text-sm text-stone-400">
-                  メールアドレスまたは応募URLのどちらか一方は必ず入力してください。
+                  求職者からの応募を受け取るメールアドレスを入力してください。
                 </p>
               </div>
 
               <div>
-                <Label>応募先メールアドレス</Label>
+                <Label required>応募先メールアドレス</Label>
                 <input
                   type="email"
                   name="contact_email"
@@ -876,29 +869,8 @@ export default function JobSubmitForm({ country }: { country: string }) {
                   disabled={submitting}
                   className={inputClass}
                 />
+                <FieldNote>求職者に公開されます。応募希望者からメールが届きます。</FieldNote>
                 <FieldError msg={fieldErrors.contact_email} />
-              </div>
-
-              <div className="flex items-center gap-3">
-                <div className="flex-1 h-px bg-stone-100 dark:bg-stone-700" />
-                <span className="text-xs text-stone-400">または</span>
-                <div className="flex-1 h-px bg-stone-100 dark:bg-stone-700" />
-              </div>
-
-              <div>
-                <Label>応募フォームURL</Label>
-                <input
-                  type="url"
-                  name="contact_url"
-                  value={form.contact_url}
-                  onChange={handleChange}
-                  placeholder="https://example.com/careers/apply"
-                  maxLength={500}
-                  disabled={submitting}
-                  className={inputClass}
-                />
-                <FieldNote>自社採用ページや外部求人サイトのURLでも構いません。</FieldNote>
-                <FieldError msg={fieldErrors.contact_url} />
               </div>
             </div>
 

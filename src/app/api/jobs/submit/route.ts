@@ -68,8 +68,8 @@ export async function POST(req: NextRequest) {
     if (!applicant_email?.trim()) {
       return NextResponse.json({ error: "担当者メールアドレスは必須です" }, { status: 400 });
     }
-    if (!contact_email?.trim() && !contact_url?.trim()) {
-      return NextResponse.json({ error: "応募先メールまたは応募URLのどちらかは必須です" }, { status: 400 });
+    if (!contact_email?.trim()) {
+      return NextResponse.json({ error: "応募先メールアドレスは必須です" }, { status: 400 });
     }
 
     // 文字数チェック
