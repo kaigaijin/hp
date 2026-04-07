@@ -24,8 +24,8 @@ function sendToEmployer(
     .send({
       from: "Kaigaijin <noreply@kaigaijin.jp>",
       to: [contactEmail],
-      subject: `【Kaigaijin求人】「${jobTitle}」への応募がありました`,
-      text: `${applicantName} 様より、「${jobTitle}」への応募がありました。\n\n■ 応募者情報\n名前: ${applicantName}\nメール: ${applicantEmail}\n\n■ メッセージ\n${message || "（メッセージなし）"}\n\n---\nこのメールはKaigaijinの求人応募フォームから自動送信されました。\n応募者へのご連絡は上記メールアドレスに直接返信してください。`,
+      subject: `【KAIジョブ】「${jobTitle}」への応募がありました`,
+      text: `${applicantName} 様より、「${jobTitle}」への応募がありました。\n\n■ 応募者情報\n名前: ${applicantName}\nメール: ${applicantEmail}\n\n■ メッセージ\n${message || "（メッセージなし）"}\n\n---\nこのメールはKAIジョブ（kaigaijin.jp）の求人応募フォームから自動送信されました。\n応募者へのご連絡は上記メールアドレスに直接返信してください。`,
     })
     .then((result) => {
       console.log("[Resend] 求人者への転送成功:", JSON.stringify(result));
@@ -49,8 +49,8 @@ function sendAdminNotification(
     .send({
       from: "Kaigaijin <noreply@kaigaijin.jp>",
       to: [to],
-      subject: `[求人応募] 「${jobTitle}」— ${applicantName}`,
-      text: `Kaigaijinの求人「${jobTitle}」に応募がありました。\n\n応募者: ${applicantName}\nメール: ${applicantEmail}\nメッセージ: ${message || "（なし）"}\n\n※ Supabase job_applications テーブルにも保存済みです。`,
+      subject: `[KAIジョブ応募] 「${jobTitle}」— ${applicantName}`,
+      text: `KAIジョブの求人「${jobTitle}」に応募がありました。\n\n応募者: ${applicantName}\nメール: ${applicantEmail}\nメッセージ: ${message || "（なし）"}\n\n※ Supabase job_applications テーブルにも保存済みです。`,
     })
     .then((result) => {
       console.log("[Resend] 管理者通知送信成功:", JSON.stringify(result));

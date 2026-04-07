@@ -59,9 +59,9 @@ function sendEmails(params: {
     resend.emails.send({
       from: "Kaigaijin <noreply@kaigaijin.jp>",
       to: [ADMIN_EMAIL],
-      subject: `[求人掲載] ${company} — ${title}`,
+      subject: `[KAIジョブ掲載] ${company} — ${title}`,
       text: [
-        "新しい求人が掲載されました。",
+        "新しい求人がKAIジョブに掲載されました。",
         "",
         `企業名: ${company}`,
         `求人タイトル: ${title}`,
@@ -76,18 +76,18 @@ function sendEmails(params: {
   resend.emails.send({
     from: "Kaigaijin <noreply@kaigaijin.jp>",
     to: [applicantEmail],
-    subject: `【掲載完了】${title} — Kaigaijin`,
+    subject: `【KAIジョブ掲載完了】${title}`,
     text: [
       `${company} ご担当者様`,
       "",
-      "求人情報をKaigaijinに掲載しました。",
+      "求人情報をKAIジョブに掲載しました。",
       "",
       `求人タイトル: ${title}`,
       `掲載URL: ${jobUrl}`,
       "",
       "掲載内容の修正・削除をご希望の場合は、このメールに返信してください。",
       "",
-      "— Kaigaijin 運営",
+      "— KAIジョブ運営（kaigaijin.jp）",
     ].join("\n"),
   }).catch((err) => console.error("[jobs/submit] 掲載者メール送信失敗:", err));
 }
