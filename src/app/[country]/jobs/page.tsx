@@ -8,7 +8,6 @@ import {
   getIndustryCounts,
 } from "@/lib/jobs";
 import CountryHero from "@/components/CountryHero";
-import CountryTabs from "@/components/CountryTabs";
 import { getCategoryCounts } from "@/lib/directory";
 import { getArticlesByCountry } from "@/lib/articles";
 import {
@@ -106,6 +105,8 @@ export default async function JobsIndexPage({
           label="— KAI JOB"
           title="海外で働こう。"
           subtitle={`${country.name}で働く日本人向けの求人を業種別に掲載。日系企業・日本語対応職場の求人が見つかります。`}
+          articleCount={articles.length}
+          spotCount={totalSpots}
           right={
             <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6">
               <p className="text-white font-bold text-base mb-1">求人を無料で掲載する</p>
@@ -120,11 +121,6 @@ export default async function JobsIndexPage({
               </Link>
             </div>
           }
-        />
-        <CountryTabs
-          countryCode={code}
-          articleCount={articles.length}
-          spotCount={totalSpots}
         />
 
         <div className="max-w-6xl mx-auto px-4 py-10">

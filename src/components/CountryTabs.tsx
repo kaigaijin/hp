@@ -42,7 +42,7 @@ export default function CountryTabs({ countryCode, articleCount, spotCount }: Pr
   ];
 
   return (
-    <div className="sticky top-16 z-40 bg-stone-900/95 backdrop-blur-md border-b border-white/10">
+    <div className="bg-stone-900/80 border-b border-white/10">
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex">
           {tabs.map((tab) => (
