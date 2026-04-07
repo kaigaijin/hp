@@ -197,7 +197,7 @@ export default async function JobIndustryPage({
                   この業種で求人を掲載しませんか？
                 </p>
                 <p className="text-stone-300 text-sm mt-0.5">
-                  掲載料無料・審査後3営業日以内に掲載
+                  掲載料無料・フォームから簡単投稿
                 </p>
               </div>
               <Link
