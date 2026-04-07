@@ -400,6 +400,7 @@ export default function JobSubmitForm({ country }: { country: string }) {
   const [step, setStep] = useState(1);
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
+  const [jobUrl, setJobUrl] = useState("");
   const [error, setError] = useState("");
   const [fieldErrors, setFieldErrors] = useState<Partial<Record<keyof FormData, string>>>({});
   const [previewCollapsed, setPreviewCollapsed] = useState(true); // モバイル用折りたたみ
@@ -459,6 +460,7 @@ export default function JobSubmitForm({ country }: { country: string }) {
       const data = await res.json();
       if (res.ok) {
         setSubmitted(true);
+        setJobUrl(data.jobUrl || "");
         setForm(INITIAL_FORM);
         setStep(1);
       } else {
@@ -481,18 +483,30 @@ export default function JobSubmitForm({ country }: { country: string }) {
           </div>
         </div>
         <h2 className="text-2xl font-bold text-stone-800 dark:text-stone-100 mb-3">
-          受け付けました
+          掲載しました
         </h2>
-        <p className="text-sm text-stone-500 dark:text-stone-400 leading-relaxed max-w-sm mx-auto">
-          ご投稿ありがとうございます。内容を確認後、通常 2〜3 営業日以内に掲載可否をご連絡します。
+        <p className="text-sm text-stone-500 dark:text-stone-400 leading-relaxed max-w-sm mx-auto mb-6">
+          ご投稿ありがとうございます。求人情報を即時掲載しました。確認メールをお送りしましたのでご確認ください。
         </p>
-        <button
-          type="button"
-          onClick={() => setSubmitted(false)}
-          className="mt-8 inline-flex items-center gap-2 px-5 py-2.5 bg-indigo-50 dark:bg-indigo-900/30 text-indigo-700 dark:text-indigo-400 text-sm font-semibold rounded-xl hover:bg-indigo-100 dark:hover:bg-indigo-900/50 transition"
-        >
-          別の求人を投稿する
-        </button>
+        {jobUrl && (
+          <a
+            href={jobUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-5 py-3 bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-semibold rounded-xl transition mb-4"
+          >
+            掲載ページを確認する →
+          </a>
+        )}
+        <div className="mt-2">
+          <button
+            type="button"
+            onClick={() => { setSubmitted(false); setJobUrl(""); }}
+            className="text-sm text-stone-400 hover:text-stone-600 transition"
+          >
+            別の求人を投稿する
+          </button>
+        </div>
       </div>
     );
   }
