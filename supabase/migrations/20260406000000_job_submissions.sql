@@ -1,6 +1,8 @@
+create extension if not exists pgcrypto;
+
 create table job_submissions (
   id uuid primary key default gen_random_uuid(),
-  token text unique not null default encode(gen_random_bytes(32), 'hex'),
+  token text unique not null default replace(gen_random_uuid()::text || gen_random_uuid()::text, '-', ''),
   country text not null,
   industry text not null,
   company text not null,
