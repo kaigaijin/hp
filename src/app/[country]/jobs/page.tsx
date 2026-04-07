@@ -38,7 +38,7 @@ const iconMap: Record<string, (size: number) => React.ReactNode> = {
   MoreHorizontal: (s) => <MoreHorizontal size={s} />,
 };
 
-export const dynamic = "force-dynamic";
+export const revalidate = 60; // 60秒ISRキャッシュ
 
 export function generateStaticParams() {
   return countries.map((c) => ({ country: c.code }));

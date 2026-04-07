@@ -136,7 +136,7 @@ function supabaseFetch(path: string) {
       apikey: SUPABASE_KEY,
       Authorization: `Bearer ${SUPABASE_KEY}`,
     },
-    cache: "no-store",
+    next: { revalidate: 60 },
   });
 }
 
