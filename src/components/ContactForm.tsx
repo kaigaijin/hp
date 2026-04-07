@@ -17,6 +17,9 @@ export default function ContactForm() {
     email: "",
     company: "",
     message: "",
+    country: "",
+    age: "",
+    gender: "",
   });
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">(
     "idle"
@@ -27,15 +30,19 @@ export default function ContactForm() {
     setStatus("sending");
 
     try {
+      const { country, age, gender, ...base } = form;
       const res = await fetch("/api/inquiries", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
+        body: JSON.stringify({
+          ...base,
+          metadata: { country, age, gender },
+        }),
       });
 
       if (!res.ok) throw new Error();
       setStatus("sent");
-      setForm({ type: "", name: "", email: "", company: "", message: "" });
+      setForm({ type: "", name: "", email: "", company: "", message: "", country: "", age: "", gender: "" });
     } catch {
       setStatus("error");
     }
@@ -123,6 +130,56 @@ export default function ContactForm() {
           className="w-full px-4 py-3 rounded-lg border border-stone-300 dark:border-stone-600 bg-stone-50 dark:bg-stone-700 focus:outline-none focus:ring-2 focus:ring-warm-500 transition-shadow"
           placeholder="株式会社〇〇"
         />
+      </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+        <div>
+          <label className="block text-sm font-semibold mb-2">
+            在住国 <span className="text-stone-400 font-normal text-xs">任意</span>
+          </label>
+          <input
+            type="text"
+            maxLength={50}
+            value={form.country}
+            onChange={(e) => setForm({ ...form, country: e.target.value })}
+            className="w-full px-4 py-3 rounded-lg border border-stone-300 dark:border-stone-600 bg-stone-50 dark:bg-stone-700 focus:outline-none focus:ring-2 focus:ring-warm-500 transition-shadow"
+            placeholder="シンガポール"
+          />
+        </div>
+        <div>
+          <label className="block text-sm font-semibold mb-2">
+            年齢 <span className="text-stone-400 font-normal text-xs">任意</span>
+          </label>
+          <select
+            value={form.age}
+            onChange={(e) => setForm({ ...form, age: e.target.value })}
+            className="w-full px-4 py-3 rounded-lg border border-stone-300 dark:border-stone-600 bg-stone-50 dark:bg-stone-700 focus:outline-none focus:ring-2 focus:ring-warm-500 transition-shadow"
+          >
+            <option value="">選択</option>
+            <option value="10s">10代</option>
+            <option value="20s">20代</option>
+            <option value="30s">30代</option>
+            <option value="40s">40代</option>
+            <option value="50s">50代</option>
+            <option value="60s+">60代以上</option>
+          </select>
+        </div>
+        <div>
+          <label className="block text-sm font-semibold mb-2">
+            性別 <span className="text-stone-400 font-normal text-xs">任意</span>
+          </label>
+          <select
+            value={form.gender}
+            onChange={(e) => setForm({ ...form, gender: e.target.value })}
+            className="w-full px-4 py-3 rounded-lg border border-stone-300 dark:border-stone-600 bg-stone-50 dark:bg-stone-700 focus:outline-none focus:ring-2 focus:ring-warm-500 transition-shadow"
+          >
+            <option value="">選択</option>
+            <option value="male">男性</option>
+            <option value="female">女性</option>
+            <option value="other">その他</option>
+            <option value="no_answer">回答しない</option>
+          </select>
+        </div>
       </div>
 
       <div className="mb-8">
