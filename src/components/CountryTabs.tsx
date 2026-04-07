@@ -20,7 +20,7 @@ export default function CountryTabs({ countryCode, articleCount, spotCount }: Pr
   const tabs = [
     {
       href: `/${countryCode}`,
-      label: "記事",
+      label: "KAIコラム",
       count: articleCount,
       icon: <BookOpen size={14} />,
       active: isArticles,
