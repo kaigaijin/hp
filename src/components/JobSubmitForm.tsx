@@ -133,13 +133,13 @@ const STEPS = [
 
 // ─── スタイル定数 ─────────────────────────────
 const inputClass =
-  "w-full px-4 py-3 rounded-xl border border-stone-200 dark:border-stone-600 bg-white dark:bg-stone-900 text-sm text-stone-800 dark:text-stone-100 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent placeholder:text-stone-400 disabled:opacity-50 disabled:cursor-not-allowed transition";
+  "w-full px-4 py-3 rounded-xl border border-stone-200 dark:border-stone-600 bg-white dark:bg-stone-900 text-sm text-stone-800 dark:text-stone-100 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent placeholder:text-stone-500 disabled:opacity-50 disabled:cursor-not-allowed transition";
 
 const selectClass =
   "w-full px-4 py-3 rounded-xl border border-stone-200 dark:border-stone-600 bg-white dark:bg-stone-900 text-sm text-stone-800 dark:text-stone-100 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent appearance-none disabled:opacity-50 disabled:cursor-not-allowed transition";
 
 const textareaClass =
-  "w-full px-4 py-3 rounded-xl border border-stone-200 dark:border-stone-600 bg-white dark:bg-stone-900 text-sm text-stone-800 dark:text-stone-100 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent placeholder:text-stone-400 resize-y disabled:opacity-50 disabled:cursor-not-allowed transition";
+  "w-full px-4 py-3 rounded-xl border border-stone-200 dark:border-stone-600 bg-white dark:bg-stone-900 text-sm text-stone-800 dark:text-stone-100 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent placeholder:text-stone-500 resize-y disabled:opacity-50 disabled:cursor-not-allowed transition";
 
 // ─── 小コンポーネント ─────────────────────────
 function Label({ children, required }: { children: React.ReactNode; required?: boolean }) {

@@ -113,7 +113,7 @@ export default async function JobNewPage({
         </div>
 
         {/* ─── フォームエリア ───────────────────────── */}
-        <div className="max-w-2xl mx-auto px-4 py-10 pb-16">
+        <div className="max-w-4xl mx-auto px-4 py-10 pb-16">
           {/* 掲載基準ノート */}
           <div className="bg-indigo-50 dark:bg-indigo-900/20 border border-indigo-100 dark:border-indigo-800 rounded-2xl p-5 mb-8">
             <p className="text-sm font-semibold text-indigo-800 dark:text-indigo-300 mb-2">
