@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import { getCountry, countries } from "@/lib/countries";
 import { getArticlesByCountry } from "@/lib/articles";
 import PaginatedArticleList from "@/components/PaginatedArticleList";
-import CountryTabs from "@/components/CountryTabs";
+import CountryHero from "@/components/CountryHero";
 import { getCategoryCounts, categoryGroups } from "@/lib/directory";
 
 export function generateStaticParams() {
@@ -63,42 +63,17 @@ export default async function CountryPage({
     <>
       <Header />
       <main>
-        {/* ===== ヒーロー ===== */}
-        <section className="bg-gradient-to-br from-stone-950 via-[#1a2e35] to-[#2d1a0e] text-white pt-12 pb-0">
-          <div className="max-w-6xl mx-auto px-4 pb-8">
-            <div className="flex items-center gap-4 mb-4">
-              <span className="text-6xl">{country.flag}</span>
-              <div>
-                <h1 className="heading-editorial text-4xl md:text-5xl font-bold">
-                  {country.name}
-                </h1>
-                <p className="text-stone-400 text-sm mt-1">
-                  {country.nameEn} ・ 在住日本人 {country.population}
-                </p>
-              </div>
-            </div>
-            <p className="text-xl text-stone-300 italic heading-editorial max-w-xl mb-4">
-              {country.tagline}
-            </p>
-            <div className="flex flex-wrap gap-2">
-              {country.topics.map((topic) => (
-                <span
-                  key={topic}
-                  className="text-xs bg-white/10 text-stone-300 px-3 py-1 rounded-full"
-                >
-                  {topic}
-                </span>
-              ))}
-            </div>
-          </div>
-
-          {/* タブ — ヒーロー最下部に吸着 */}
-          <CountryTabs
-            countryCode={code}
-            articleCount={articles.length}
-            spotCount={totalSpots}
-          />
-        </section>
+        <CountryHero
+          countryCode={code}
+          countryName={country.name}
+          countryFlag={country.flag}
+          currentLabel="記事"
+          label={`${country.flag} ${country.name} — ${country.nameEn}`}
+          title={country.name}
+          subtitle={`${country.tagline}　在住日本人 ${country.population}`}
+          articleCount={articles.length}
+          spotCount={totalSpots}
+        />
 
         {/* ===== 記事一覧 ===== */}
         <section id="articles" className="py-12 md:py-16 bg-stone-50 dark:bg-stone-900">

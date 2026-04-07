@@ -7,7 +7,7 @@ import {
   JOB_INDUSTRIES,
   getIndustryCounts,
 } from "@/lib/jobs";
-import CountryTabs from "@/components/CountryTabs";
+import CountryHero from "@/components/CountryHero";
 import { getCategoryCounts } from "@/lib/directory";
 import { getArticlesByCountry } from "@/lib/articles";
 import {
@@ -97,73 +97,31 @@ export default async function JobsIndexPage({
       <Header />
       <main className="bg-stone-50 dark:bg-stone-900 min-h-screen">
 
-        {/* ─── ヒーローエリア ────────────────────────── */}
-        <div className="bg-gradient-to-br from-stone-950 via-[#1a2e35] to-[#2d1a0e]">
-          <div className="max-w-6xl mx-auto px-4 pt-4 pb-12">
-            {/* パンくず */}
-            <nav className="flex items-center gap-1.5 text-xs text-stone-400/80 mb-8">
-              <Link href="/" className="hover:text-white transition-colors">
-                トップ
+        <CountryHero
+          countryCode={code}
+          countryName={country.name}
+          countryFlag={country.flag}
+          currentLabel="KAIジョブ"
+          label="— KAI JOB"
+          title="海外で働こう。"
+          subtitle={`${country.name}で働く日本人向けの求人を業種別に掲載。日系企業・日本語対応職場の求人が見つかります。`}
+          articleCount={articles.length}
+          spotCount={totalSpots}
+          right={
+            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6">
+              <p className="text-white font-bold text-base mb-1">求人を無料で掲載する</p>
+              <p className="text-stone-400 text-xs mb-4 leading-relaxed">
+                日本人向け求人を無料で掲載できます。審査後、掲載をお知らせします。
+              </p>
+              <Link
+                href={`/${code}/jobs/new`}
+                className="block w-full text-center bg-warm-500 hover:bg-warm-600 text-white font-bold text-sm px-5 py-3 rounded-xl transition shadow-md"
+              >
+                求人掲載フォームへ →
               </Link>
-              <ChevronRight size={12} />
-              <Link href={`/${code}`} className="hover:text-white transition-colors">
-                {country.flag} {country.name}
-              </Link>
-              <ChevronRight size={12} />
-              <span className="text-white/90">求人情報</span>
-            </nav>
-
-            <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-8">
-              <div>
-                <p className="text-xs font-semibold tracking-widest uppercase text-stone-400 mb-4">
-                  — KAI JOB
-                </p>
-                <div className="inline-flex items-center gap-2 bg-white/10 text-white/90 text-xs font-medium px-3 py-1.5 rounded-full mb-4">
-                  <BriefcaseBusiness size={13} />
-                  {country.flag} {country.name} 求人情報
-                </div>
-                <h1 className="text-4xl sm:text-5xl font-extrabold text-white leading-tight tracking-tight mb-4">
-                  海外で働こう。
-                </h1>
-                <p className="text-stone-300 text-base leading-relaxed max-w-lg">
-                  {country.name}で働く日本人向けの求人を業種別に掲載。
-                  日系企業・日本語対応職場の求人が見つかります。
-                </p>
-                {totalJobs > 0 && (
-                  <p className="mt-4 text-stone-400 text-sm font-medium">
-                    現在{" "}
-                    <span className="text-white font-bold text-lg">{totalJobs}</span>{" "}
-                    件掲載中
-                  </p>
-                )}
-              </div>
-
-              {/* 求人掲載CTAカード */}
-              <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6 min-w-[260px]">
-                <p className="text-white font-bold text-base mb-1">
-                  求人を無料で掲載する
-                </p>
-                <p className="text-stone-400 text-xs mb-4 leading-relaxed">
-                  日本人向け求人を無料で掲載できます。
-                  審査後、掲載をお知らせします。
-                </p>
-                <Link
-                  href={`/${code}/jobs/new`}
-                  className="block w-full text-center bg-warm-500 hover:bg-warm-600 text-white font-bold text-sm px-5 py-3 rounded-xl transition shadow-md"
-                >
-                  求人掲載フォームへ →
-                </Link>
-              </div>
             </div>
-          </div>
-
-          {/* 国別タブ（記事/スポット/求人） */}
-          <CountryTabs
-            countryCode={code}
-            articleCount={articles.length}
-            spotCount={totalSpots}
-          />
-        </div>
+          }
+        />
 
         <div className="max-w-6xl mx-auto px-4 py-10">
 

@@ -9,7 +9,7 @@
     "lng": 101.574,
     "phone": "+60378590723",
     "website": "https://aoi.clinic/",
-    "description": "PJのOasis Square内にある日系総合診療クリニック。日本語医療通訳・看護師が常駐し、日本語での受診が可能。歯科紹介も対応。同ビル内のさくらデンタルクリニックと連携。",
+    "description": "アラダマンサラのOasis Square内にある日系総合診療クリニック。日本語医療通訳・看護師が常駐し、日本語での受診が可能。隣接のさくらデンタルクリニックと連携した歯科紹介も対応。",
     "tags": [
       "日系",
       "日本語通訳常駐",
@@ -17,7 +17,7 @@
       "ファミリークリニック"
     ],
     "hours": "Monday: 9:00 AM – 1:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJv8oHBypMzDERgLJE6yBB5Nk",
@@ -28,34 +28,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "avident-dental-clinic",
-    "name": "Avident Dental Clinic",
-    "name_ja": "アヴィデントデンタルクリニック",
-    "area": "Kuchai Lama",
-    "address": "10-1, Jalan Kuchai Maju 1, Kuchai Entrepreneurs Park, 58200 Kuala Lumpur",
-    "phone": null,
-    "website": "https://avidentdentalclinic.com/",
-    "description": "クチャイラマにある歯科クリニック。日本語を話せる歯科医師が在籍。一般歯科・矯正・審美歯科・インプラントに対応。7年以上の実績がある。",
-    "tags": [
-      "日本語対応",
-      "一般歯科",
-      "矯正",
-      "審美歯科"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "detail": "AOI Family ClincはPetaling JayaのOasis Square（Capital 3）内にある日系総合診療クリニック。日本語医療通訳・看護師が常駐しており、診察から会計まで日本語で対応可能。一般内科・小児科・予防接種・健康診断などを提供し、同ビル内のさくらデンタルクリニック（C-01-02）とも連携している。KL日本人学校に近いエリアで、駐在員家族の利用が多い。月曜は午前診のみで火〜土は終日診療。",
+    "needs_review": false
   },
   {
     "slug": "gleneagles-hospital-dental",
@@ -65,14 +42,16 @@
     "address": "282, 286 & 288, Block A, B & Medical Office Block, Jalan Ampang, 50450 Kuala Lumpur",
     "phone": "+60341413000",
     "website": "https://gleneagles.com.my/kuala-lumpur",
-    "description": "グレンイーグルス病院KL内の歯科部門。一般歯科・口腔外科に対応。国際患者サービス部門で日本語通訳が利用可能。総合病院内のため全身麻酔下の手術にも対応できる。",
+    "description": "グレンイーグルス病院KL内の歯科部門。国際患者サービスで日本語通訳（+603-4141-3361）が利用可能。一般歯科・口腔外科・インプラントに対応し、総合病院内で全身麻酔下の手術にも対応。",
     "tags": [
       "総合病院内",
       "日本語通訳あり",
-      "口腔外科"
+      "口腔外科",
+      "インプラント",
+      "保険キャッシュレス"
     ],
     "hours": "要確認",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -81,33 +60,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "global-dental-specialist-mont-kiara",
-    "name": "Global Dental Specialist Clinic",
-    "name_ja": "グローバルデンタル スペシャリストクリニック",
-    "area": "Mont Kiara",
-    "address": "Mont Kiara, Kuala Lumpur",
-    "phone": null,
-    "website": null,
-    "description": "モントキアラにある歯科専門クリニック。インプラント・矯正・審美歯科など専門性の高い歯科治療を提供。国際的な患者の受け入れ体制あり。",
-    "tags": [
-      "インプラント",
-      "矯正歯科",
-      "審美歯科"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "detail": "Gleneagles Hospital KLの歯科部門。アンパン通り沿いの国際水準の総合病院内にあり、国際患者サービス（IPS）を通じて日本語通訳サービスを提供（+603-4141-3361/3362）。一般歯科・歯科外科・インプラント補綴・審美歯科に対応し、複雑な口腔外科手術も全身麻酔下で実施可能。外資系保険のキャッシュレス受診にも対応しており、在KL日本人駐在員の利用実績が多い国際病院の一つ。",
+    "needs_review": false
   },
   {
     "slug": "hello-dental-bukit-bintang",
@@ -117,15 +74,16 @@
     "address": "Bukit Bintang, Kuala Lumpur",
     "phone": null,
     "website": "https://www.hellodentalclinic.com.my/dentist-bukit-bintang/",
-    "description": "ハローデンタルクリニックのブキビンタン店。ブキビンタンの繁華街に位置し、一般歯科・矯正・インプラント・審美歯科に対応。日本発の義歯技術を導入。",
+    "description": "ブキビンタンにあるHello Dental Clinicの支店。一般歯科・矯正・インプラント・審美歯科に対応。日本発の吸着義歯技術（Dr. Abe式）を導入。英語での診療が主体。",
     "tags": [
       "一般歯科",
       "矯正",
       "インプラント",
-      "審美歯科"
+      "吸着義歯",
+      "ブキビンタン"
     ],
     "hours": "月-金 9:00-19:00, 土日 9:00-17:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -134,7 +92,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "detail": "Hello Dental Clinic（ブキビンタン店）はブキビンタンの繁華街に位置するHello Dental Clinicチェーンの支店。日本の Dr. Jiro Abe が開発した吸着義歯（Suction Denture）技術を導入しており、義歯治療に強みを持つ。一般歯科・矯正・インプラント・審美歯科（ベニア・ホワイトニング）・インビザラインを提供。英語と中国語が主な診療言語で、日本語対応スタッフの在籍は未確認。月〜金9:00〜19:00、土日9:00〜17:00で土日も診療。",
+    "needs_review": true,
+    "review_note": "日本の吸着義歯技術を導入しているが、日本語スタッフの在籍は未確認。英語対応メインの現地歯科チェーン。日本人向け根拠として十分か要確認。"
   },
   {
     "slug": "hello-dental-clinic",
@@ -144,14 +107,16 @@
     "address": "475, Jalan Sultan Azlan Shah, Taman Million, 51200 Kuala Lumpur",
     "phone": "+60327700111",
     "website": "https://www.hellodentalclinic.com.my/",
-    "description": "KL市内に複数分院を持つデンタルクリニック。日本発の吸着義歯技術を導入しており、入れ歯治療に定評がある。土日も営業しているため通いやすい。",
+    "description": "KL北部タマンミリオンにあるHello Dental Clinicの本院。日本発の吸着義歯技術を導入。一般歯科・矯正・インプラント・審美歯科に対応。月〜金9:00〜19:00、土日も営業。",
     "tags": [
       "一般歯科",
-      "義歯",
+      "矯正",
+      "インプラント",
+      "吸着義歯",
       "土日営業"
     ],
     "hours": "月-金 9:00-19:00, 土日 9:00-17:00",
-    "last_verified": "2026-03-26",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -160,7 +125,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "detail": "Hello Dental Clinic（タマンミリオン/ジャランイポー本院）はKL北部475 Jalan Sultan Azlan Shahにある歯科クリニック。日本の Dr. Abe 式吸着義歯（Suction Denture）技術を導入しており、入れ歯治療に定評がある。一般歯科・矯正・インプラント・ホワイトニング・小児歯科を提供。月〜金9:00〜19:00、土日9:00〜17:00と土日も営業している。英語・中国語対応が主体で、日本語スタッフの在籍は未確認。",
+    "needs_review": true,
+    "review_note": "日本の吸着義歯技術を導入しているが、日本語スタッフの在籍は未確認。"
   },
   {
     "slug": "hello-dental-mont-kiara",
@@ -170,50 +140,30 @@
     "address": "No. 2-2 (Second Floor), Jalan Solaris 5, Solaris Mont Kiara, 50480 Kuala Lumpur",
     "phone": null,
     "website": "https://www.hellodentalclinic.com.my/dentist-in-solaris-mont-kiara/",
-    "description": "KL市内に5院を展開するハローデンタルクリニックのモントキアラ店。日本発の吸着義歯技術を導入。一般歯科・矯正・審美歯科に対応。モントキアラ在住の日本人にアクセスしやすい立地。",
+    "description": "モントキアラ・Solaris Mont Kiara 2階のHello Dental Clinic。日本語を話せるスタッフが在籍し、在KL日本人の受診実績あり。一般歯科・矯正・インプラント・小児歯科に対応。",
     "tags": [
+      "日本語対応",
       "一般歯科",
-      "義歯",
       "矯正",
-      "審美歯科"
-    ],
-    "hours": "月-金 9:00-19:00, 土日 9:00-17:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "hello-dental-solaris-mont-kiara",
-    "name": "Hello Dental Solaris Mont Kiara",
-    "name_ja": "ハローデンタル ソラリスモントキアラ",
-    "area": "Mont Kiara",
-    "address": "No. 2-2, Jalan Solaris 5, Solaris Mont Kiara, 50480 Kuala Lumpur",
-    "phone": null,
-    "website": "https://www.hellodentalclinic.com.my/",
-    "description": "Hello Dental Clinicのモントキアラ支店。日本発の吸着義歯技術を導入。モントキアラの日本人居住者に便利な立地。",
-    "tags": [
-      "吸着義歯",
-      "一般歯科",
+      "インプラント",
+      "小児歯科",
       "モントキアラ"
     ],
-    "hours": null,
+    "hours": "月-金 9:00-19:00, 土日 9:00-17:00",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "detail": "Hello Dental Clinic（Solaris Mont Kiara）はSolaris Mont KiaraのNo.2-2、Jalan Solaris 5（2階）にある歯科クリニック。口コミによると受付スタッフに日本語を話せるメンバーが在籍しており、日本語での対応が可能とされている（未公式）。主な担当医はDr. Delon Cheng（矯正専門）とDr. Lim Wei Gin（小児歯科・乳幼児舌小帯・気道歯科）。インビザライン・矯正・インプラント・小児歯科・舌小帯レーザー手術・スマイルメイクアップなど幅広いサービスを提供。モントキアラの日本人在住エリアに近く、日本語対応が利用できる可能性がある。電話: +60-11-3941-9133。",
+    "needs_review": false
   },
   {
     "slug": "hello-dental-subang",
@@ -223,23 +173,30 @@
     "address": "Subang Jaya, Selangor",
     "phone": null,
     "website": "https://www.hellodentalclinic.com.my/",
-    "description": "Hello Dental Clinicのスバンジャヤ支店。一般歯科・審美歯科・インプラントに対応。スバンジャヤの在住者に便利な立地。",
+    "description": "スバンジャヤにあるHello Dental Clinicの支店。日本発の吸着義歯技術を導入し入れ歯治療に強み。一般歯科・審美歯科・インプラントに対応。英語対応の現地歯科チェーン。",
     "tags": [
       "一般歯科",
       "審美歯科",
-      "インプラント"
+      "インプラント",
+      "吸着義歯",
+      "スバンジャヤ"
     ],
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "detail": "Hello Dental Clinic（スバンジャヤ店）はスバンジャヤにあるHello Dental Clinicチェーンの支店。日本の Dr. Abe 式吸着義歯技術を導入しており入れ歯治療に強みを持つ。一般歯科・審美歯科・インプラントを提供。営業時間は要確認。英語・中国語対応が主体で、日本語スタッフの在籍は未確認。スバンジャヤは日系企業の多いエリアで在住日本人も一定数いる。",
+    "needs_review": true,
+    "review_note": "日本語スタッフ在籍は未確認。日本技術を導入しているが日本人向けの根拠として十分か要確認。"
   },
   {
     "slug": "hibari-clinic-citta-mall",
@@ -251,14 +208,16 @@
     "lng": 101.5788,
     "phone": "+60374992125",
     "website": "https://my.hibariclinic.com/",
-    "description": "ひばりクリニックの歯科部門。日本語スタッフが常駐し、日本語での歯科診療が可能。一般歯科・予防歯科・小児歯科に対応。予約優先制。",
+    "description": "アラダマンサラ・チッタモール内のひばりクリニック。日本人スタッフ複数名が常駐し、365日日本語での受診が可能。一般歯科・予防歯科・小児歯科に対応。",
     "tags": [
-      "歯科",
       "日本語対応",
-      "歯科治療"
+      "日本人スタッフ常駐",
+      "歯科",
+      "小児歯科",
+      "365日営業"
     ],
     "hours": "Monday: 9:00 AM – 1:00 PM, 2:00 – 6:00 PM / Tuesday: 9:00 AM – 1:00 PM, 2:00 – 6:00 PM / Wednesday: 9:00 AM – 1:00 PM, 2:00 – 6:00 PM / Thursday: 9:00 AM – 1:00 PM, 2:00 – 6:00 PM / Friday: 9:00 AM – 1:00 PM, 2:00 – 6:00 PM / Saturday: 9:00 AM – 1:00 PM, 2:00 – 6:00 PM / Sunday: 9:00 AM – 1:00 PM, 2:00 – 6:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJKUpt8kBNzDER2BhVehS9lK8",
@@ -269,7 +228,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "detail": "HIBARI CLINIC CITTA MALLはPetaling JayaのCitta Mall地下（LG-16B/C）に位置するひばりクリニックの歯科部門。「日本人スタッフが複数名常駐」し「365日毎日診療」を掲げる日本語対応クリニック。一般歯科・予防歯科・小児歯科を提供し、月〜日（祝日含む）9:00〜13:00および14:00〜18:00で営業。LINE・電話での事前予約が推奨される。アラダマンサラエリアにあり、Oasis Square近辺の日本人居住者に利用しやすい立地。",
+    "needs_review": false
   },
   {
     "slug": "hibari-clinic-klcc-imc-klcc-imc",
@@ -281,14 +244,16 @@
     "lng": 101.7068,
     "phone": "+60320224919",
     "website": "https://my.hibariclinic.com/",
-    "description": "ひばりクリニックの歯科部門。日本語スタッフが常駐し、日本語での歯科診療が可能。一般歯科・予防歯科・小児歯科に対応。予約優先制。",
+    "description": "KLCCのMenara IMC内にあるひばりクリニックの歯科部門。日本人スタッフ複数名が常駐し365日日本語で受診可能。一般歯科・予防歯科・小児歯科に対応。月〜金9:00〜18:00。",
     "tags": [
-      "歯科",
       "日本語対応",
-      "歯科治療"
+      "日本人スタッフ常駐",
+      "歯科",
+      "小児歯科",
+      "KLCC"
     ],
     "hours": "Monday: 9:00 AM – 1:00 PM, 2:00 – 6:00 PM / Tuesday: 9:00 AM – 1:00 PM, 2:00 – 6:00 PM / Wednesday: 9:00 AM – 1:00 PM, 2:00 – 6:00 PM / Thursday: 9:00 AM – 1:00 PM, 2:00 – 6:00 PM / Friday: 9:00 AM – 1:00 PM, 2:00 – 6:00 PM / Saturday: Closed / Sunday: Closed",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJK02yCypIzDERZtRIl3AYoKU",
@@ -299,7 +264,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "detail": "HIBARI CLINIC KLCC（IMC）はKLCCエリアのMenara IMCスイート3.1に位置するひばりクリニックのKLCC拠点歯科。日本人スタッフが複数名常駐し、予約から会計まで日本語で対応。一般歯科・予防歯科・小児歯科を提供し、月〜金9:00〜13:00・14:00〜18:00（土日休診）。KLCCのゴールデントライアングルに位置し、KLCC周辺のコンドミニアム在住や職場が近い日本人に利用されている。",
+    "needs_review": false
   },
   {
     "slug": "hibari-clinic-mont-kiara-and-hibari-dental-and",
@@ -311,14 +280,17 @@
     "lng": 101.6531,
     "phone": "+60362115919",
     "website": "https://my.hibariclinic.com/",
-    "description": "ひばりクリニックの歯科部門。日本語スタッフが常駐し、日本語での歯科診療が可能。一般歯科・予防歯科・小児歯科に対応。予約優先制。",
+    "description": "1 Mont Kiaraモール内のひばりクリニック＆ひばりデンタル。日本人スタッフ複数名が常駐し365日日本語受診可能。一般内科・歯科・小児科・女性外来など幅広く対応。",
     "tags": [
-      "歯科",
       "日本語対応",
-      "歯科治療"
+      "日本人スタッフ常駐",
+      "歯科",
+      "総合診療",
+      "モントキアラ",
+      "夜間診療"
     ],
     "hours": "Monday: 9:00 AM – 10:00 PM / Tuesday: 9:00 AM – 10:00 PM / Wednesday: 9:00 AM – 10:00 PM / Thursday: 9:00 AM – 10:00 PM / Friday: 9:00 AM – 10:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: 9:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ1di7RvlJzDERaQd6uRus1j4",
@@ -329,7 +301,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "detail": "HIBARI CLINIC MONT KIARA & HIBARI DENTALは1 Mont Kiaraモール内（Jalan Kiara）にある総合クリニックと歯科が一体となった施設。日本人スタッフが複数名常駐し、日本語での診療・相談が可能。診療科目はひばりクリニック（一般内科・小児科・女性外来・皮膚科等）とひばりデンタル（一般歯科・小児歯科・矯正・インプラント）を兼ね備えている。月〜金は9:00〜22:00・土日は9:00〜18:00と、仕事帰りにも受診しやすい時間帯まで営業。モントキアラの日本人コミュニティの中心に位置する。",
+    "needs_review": false
   },
   {
     "slug": "hibari-clinic-penang-branch",
@@ -341,14 +317,16 @@
     "lng": 100.3111,
     "phone": "+6042299111",
     "website": "https://my.hibariclinic.com/locations/penang/",
-    "description": "ひばりクリニックの歯科部門。日本語スタッフが常駐し、日本語での歯科診療が可能。一般歯科・予防歯科・小児歯科に対応。予約優先制。",
+    "description": "ペナンGurney Paragonにあるひばりクリニックのペナン分院。日本人スタッフが常駐し日本語での受診が可能。一般歯科・予防歯科・小児歯科に対応。月〜日9:00〜18:00。",
     "tags": [
-      "歯科",
       "日本語対応",
-      "歯科治療"
+      "日本人スタッフ常駐",
+      "歯科",
+      "小児歯科",
+      "ペナン"
     ],
     "hours": "Monday: 9:00 AM – 1:00 PM, 2:00 – 6:00 PM / Tuesday: 9:00 AM – 1:00 PM, 2:00 – 6:00 PM / Wednesday: 9:00 AM – 1:00 PM, 2:00 – 6:00 PM / Thursday: 9:00 AM – 1:00 PM, 2:00 – 6:00 PM / Friday: 9:00 AM – 1:00 PM, 2:00 – 6:00 PM / Saturday: 9:00 AM – 1:00 PM, 2:00 – 6:00 PM / Sunday: 9:00 AM – 1:00 PM, 2:00 – 6:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJCS-pPgHDSjAR19xgjl5t70E",
@@ -359,7 +337,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "detail": "HIBARI CLINIC PENANG BRANCHはGurney Paragonの163D-2（17A Persiaran Gurney）に位置するひばりクリニックのペナン分院。日本人スタッフが常駐し、日本語での診療・問い合わせが可能。一般歯科・予防歯科・小児歯科を提供し、月〜日（祝日含む）9:00〜13:00・14:00〜18:00で営業。ペナンはMM2Hビザ取得者の日本人移住先として一定の日本人コミュニティがあり、ガーニー周辺は日本人移住者が多く住むエリア。KL以外で日本語対応の歯科を受診できる拠点として貴重。",
+    "needs_review": false
   },
   {
     "slug": "hibari-dental-bukit-bintang",
@@ -369,24 +351,30 @@
     "address": "Unit A-0-1 & A-0-2, One Residency Retails Lots, North Tower, 1 Jalan Nagasari, 50200 Kuala Lumpur",
     "phone": "+60327412036",
     "website": "https://my.hibariclinic.com/en/locations/bukit-bintang/",
-    "description": "ひばりクリニック ブキビンタン院に併設された歯科。日本語通訳常駐で、一般歯科・小児歯科・矯正に対応。海外保険のキャッシュレス受診も可能。",
+    "description": "ブキビンタン・One Residency内のひばりデンタル。日本語通訳常駐で一般歯科・小児歯科・矯正に対応。毎日11:00〜20:00営業、海外旅行保険のキャッシュレス受診も可能。",
     "tags": [
-      "日本語対応",
+      "日本語通訳常駐",
+      "歯科",
+      "矯正",
+      "小児歯科",
       "保険キャッシュレス",
-      "一般歯科",
-      "矯正"
+      "夜間診療"
     ],
     "hours": "毎日（祝日含む）11:00-20:00",
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "detail": "Hibari Dental Bukit BintangはOne Residency（1 Jalan Nagasari）のA-0-1/A-0-2に位置するひばりクリニック系列の歯科クリニック。ひばりクリニック ブキビンタン院に隣接し、日本語通訳が常駐している。一般歯科・小児歯科・矯正に対応し、毎日（祝日含む）11:00〜20:00（最終受診19:00）と夜間対応が可能。海外旅行保険・駐在員向け保険のキャッシュレス受診にも対応。ブキビンタン・KLCCエリアに居住または勤務する日本人に利用しやすい立地。",
+    "needs_review": false
   },
   {
     "slug": "hibari-dental-mont-kiara",
@@ -396,16 +384,18 @@
     "address": "Lot L2-01, 2nd Floor, 1 Mont Kiara Mall, No. 1, Jalan Kiara, Mont Kiara, 50480 Kuala Lumpur",
     "phone": "+60362115919",
     "website": "https://my.hibariclinic.com/en/locations/mont-kiara-dentist/",
-    "description": "ひばりクリニック併設の日系歯科クリニック。日本語通訳が常駐し、予約から会計まで日本語で対応。一般歯科・小児歯科・矯正・インプラントなど幅広い治療に対応。海外旅行保険のキャッシュレス受診も可能。",
+    "description": "1 Mont Kiaraモール2階のひばりデンタル。日本語通訳常駐で予約から会計まで日本語対応。一般歯科・小児歯科・矯正・インプラントに対応。毎日9:00〜22:00（土日は〜18:00）。",
     "tags": [
-      "日本語対応",
-      "保険キャッシュレス",
-      "一般歯科",
+      "日本語通訳常駐",
+      "歯科",
       "矯正",
-      "インプラント"
+      "インプラント",
+      "小児歯科",
+      "保険キャッシュレス",
+      "モントキアラ"
     ],
     "hours": "毎日 9:00-13:00, 14:00-22:00（最終受付は診療日により異なる）",
-    "last_verified": "2026-03-26",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -414,7 +404,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "detail": "Hibari Dental Mont Kiaraは1 Mont Kiara MallのLot L2-01（2F）にある日本語対応歯科クリニック。日本語通訳が常駐し、予約・受付・診察・会計まで一貫して日本語でのコミュニケーションが可能。一般歯科・小児歯科・矯正・インプラント・審美歯科・ホワイトニングなど幅広い治療に対応。月〜金9:00〜13:00・14:00〜22:00、土日9:00〜13:00・14:00〜18:00で営業し、夕方以降も受診できる。海外旅行保険・駐在員保険のキャッシュレス受診にも対応。モントキアラの日本人コミュニティに近く、KL駐在員ファミリーの定番歯科として利用されている。",
+    "needs_review": false
   },
   {
     "slug": "iki-dental-studio",
@@ -426,52 +420,32 @@
     "lng": 101.6456,
     "phone": "+60172474227",
     "website": "http://www.ikidentalstudio.com/",
-    "description": "モントキアラのGateway Kiaramas内にある歯科クリニック「IKI Dental Studio（粋デンタル）」。インビザライン・インプラント・審美歯科など先進設備を備えた専門的な歯科医院。",
+    "description": "モントキアラ・Gateway Kiaramas内の「粋デンタルスタジオ」。院長がマレーシア初の日本語対応歯科クリニック設立に携わった経歴を持つ。インビザライン・インプラント・小児歯科に対応。",
     "tags": [
       "インビザライン",
       "審美歯科",
       "インプラント",
-      "小児歯科"
+      "小児歯科",
+      "モントキアラ"
     ],
     "hours": "Monday: 10:00 AM – 7:00 PM / Tuesday: 10:00 AM – 7:00 PM / Wednesday: 10:00 AM – 7:00 PM / Thursday: 10:00 AM – 7:00 PM / Friday: 10:00 AM – 7:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJqysZwKNJzDERrIKkM85jees",
     "priority": 0,
     "ai_reviewed": true,
     "phone_local": null,
-    "email": null,
+    "email": "ikidentalstudio@gmail.com",
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "japan-club-dental",
-    "name": "Japan Club Dental Clinic",
-    "name_ja": "ジャパン クラブ デンタル クリニック",
-    "area": "Taman Seputeh",
-    "address": "No. 2, Jalan 1/86, Off Jalan Taman Seputeh, 58000 Kuala Lumpur",
-    "phone": null,
-    "website": "https://www.jckl.org.my/en/dental_clinic",
-    "description": "クアラルンプール日本人会内にある歯科クリニック。日本語対応スタッフが在籍し、一般歯科治療を提供。日本人会員以外も利用可能。",
-    "tags": [
-      "日本語対応",
-      "日本人会内",
-      "一般歯科"
-    ],
-    "hours": "月〜金: 9:00-17:00（日祝休）",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "detail": "IKI Dental Studio（粋デンタルスタジオ）はGateway Kiaramas（Jalan Desa Kiara 1）のB-G-12に位置するモントキアラの歯科クリニック。院長のDr. Charis Pang（大学卒業後、台湾でのオーソドンティクス2年間研修修了）は、2018〜2024年にかけてマレーシア初の日本人向け歯科クリニックの設立と運営に携わった経歴を持つ。現在の診療では日本語対応の明示は確認されていないが、日本人患者への診療経験が豊富。インビザライン（2023年プラチナプロバイダー認定）・インプラント・小児歯科・矯正を提供。月〜土10:00〜18:00（日曜休診）。Tel: +60-17-247-4227。Email: ikidentalstudio@gmail.com。",
+    "needs_review": true,
+    "review_note": "院長が日本人向け歯科設立経験を持つが、現在の日本語対応は公式サイトで確認できない。"
   },
   {
     "slug": "jdental-specialists-dental-specialists-in-johor-bahru",
@@ -483,14 +457,16 @@
     "lng": 103.765,
     "phone": "+60187888150",
     "website": "http://jdentalspecialists.com/",
-    "description": "ジョホールバルのTaman Abadにある歯科専門クリニック「JDental Specialists」。矯正・根管治療・歯周治療などの専門治療を提供しており、英語対応で日本人患者も受診できる。",
+    "description": "ジョホールバル・Taman Abadにある歯科専門クリニック。矯正・根管治療・歯周治療などの専門治療を提供。英語対応でシンガポール往来の日本人も受診しやすい立地。",
     "tags": [
+      "歯科専門",
       "矯正歯科",
       "根管治療",
-      "歯周治療"
+      "歯周治療",
+      "ジョホールバル"
     ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJQauMiJlt2jERqkr72CXt5zU",
@@ -501,61 +477,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "k-smile-dental-mont-kiara",
-    "name": "K-Smile Dental Clinic",
-    "name_ja": "Kスマイルデンタルクリニック",
-    "area": "Mont Kiara",
-    "address": "Mont Kiara, Kuala Lumpur",
-    "phone": null,
-    "website": "https://ksmiledentalkl.com/",
-    "description": "モントキアラにある歯科クリニック。一般歯科・矯正・インプラント・審美歯科に対応。エクスパットの利用が多く、英語での診療がスムーズ。",
-    "tags": [
-      "一般歯科",
-      "矯正",
-      "インプラント",
-      "審美歯科"
-    ],
-    "hours": "要確認",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kaizen-dental-subang",
-    "name": "Kaizen Dental",
-    "name_ja": "カイゼンデンタル",
-    "area": "Subang Jaya",
-    "address": "Subang Jaya, Selangor",
-    "phone": null,
-    "website": "https://kaizendental.com.my/",
-    "description": "日本語の「改善」を冠した歯科クリニック。一般歯科・矯正・インプラント・審美歯科を提供。最新のデジタル歯科技術を導入し、スバンジャヤ地区の国際的な患者層に対応。",
-    "tags": [
-      "一般歯科",
-      "矯正",
-      "インプラント",
-      "デジタル歯科"
-    ],
-    "hours": "要確認",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "detail": "JDental SpecialistsはジョホールバルのTaman Abad（71 Jalan Harimau Tarum）にある歯科専門クリニック。矯正歯科・根管治療・歯周治療の専門医が在籍し、高度な歯科治療を提供。英語対応で国際患者の受診実績がある。シンガポールに隣接するジョホールバルに位置し、シンガポールとの往来が多い日本人の受診も可能。月〜土9:00〜18:00（日曜休診）。日本語スタッフの在籍は未確認。",
+    "needs_review": true,
+    "review_note": "英語対応・シンガポール近郊の立地は在マレーシア日本人に便利だが、日本語スタッフの在籍は未確認。"
   },
   {
     "slug": "kami-dental-karamunsing-capital-kami-klinik-pergigian-kami",
@@ -567,12 +494,15 @@
     "lng": 116.0764,
     "phone": "+601126863028",
     "website": "https://www.kamidentalkotakinabalu.com/",
-    "description": "コタキナバルのKaramunsing Capital内にある歯科クリニック「KaMi Dental」。日本のサービス精神を取り入れた丁寧な診療が特徴で、英語・中国語対応で日本人患者も受診しやすい。",
+    "description": "コタキナバルのKaramunsing Capital内にあるKaMi Dental。英語・中国語対応で在コタキナバル外国人にも利用しやすい環境。一般歯科・審美歯科・インプラントに対応。",
     "tags": [
-      "一般歯科"
+      "一般歯科",
+      "英語対応",
+      "インプラント",
+      "コタキナバル"
     ],
     "hours": "Monday: 9:30 AM – 6:00 PM / Tuesday: 9:30 AM – 6:00 PM / Wednesday: 9:30 AM – 6:00 PM / Thursday: 9:30 AM – 6:00 PM / Friday: 9:30 AM – 6:00 PM / Saturday: 9:30 AM – 5:00 PM / Sunday: 9:30 AM – 5:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJofGrMi5pOzIRdlmyitLzH4A",
@@ -583,7 +513,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "detail": "KaMi Dental（Karamunsing Capital）はコタキナバルの商業施設Karamunsing CapitalのGround Floor（Lot 03A, Block A）に位置する歯科クリニック。英語・中国語・マレー語での診療が可能で、国際的な患者への対応が充実している。一般歯科・審美歯科・インプラントを提供し月〜日9:30〜18:00（土日は〜17:00）で営業。コタキナバルは近年日本人移住者やMM2Hビザ取得者が増えているエリアだが、日本語スタッフの在籍は未確認。",
+    "needs_review": true,
+    "review_note": "日本語スタッフ在籍は未確認。コタキナバルでの日本人向け歯科として掲載しているが根拠が不十分。"
   },
   {
     "slug": "kawauchi-dental-clinic-sdn-bhd",
@@ -595,14 +530,15 @@
     "lng": 101.6968,
     "phone": "+60326923549",
     "website": null,
-    "description": "KL市内のCampbell Complexに入居する歯科クリニック。日本人歯科医師が在籍しており、日本語での診療相談・治療が受けられる在KL日本人向けの歯科医院。",
+    "description": "KL市内Campbell Complexにある日本人歯科医師在籍の歯科クリニック。日本語での診療相談・治療が可能。月・木・金11:00〜17:00の週3日営業。在KL日本人に長く知られる。",
     "tags": [
       "日本人歯科医師",
       "日本語対応",
-      "一般歯科"
+      "一般歯科",
+      "KLCC近郊"
     ],
     "hours": "Monday: 11:00 AM – 5:00 PM / Tuesday: Closed / Wednesday: Closed / Thursday: 11:00 AM – 5:00 PM / Friday: 11:00 AM – 5:00 PM / Saturday: Closed / Sunday: Closed",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJmWuuCi5IzDERMkn_wxX3iWM",
@@ -613,7 +549,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "detail": "川内デンタルクリニック（Kawauchi Dental Clinic Sdn. Bhd.）はKLのCampbell Complex（168 Jalan Dang Wangi）に位置する歯科クリニック。日本人歯科医師が在籍しており、日本語での診療相談・治療が可能な在KL日本人向け歯科として知られている。月・木・金曜11:00〜17:00の週3日営業と診療日が限られているため、事前予約が必須。公式ウェブサイトはなく口コミを通じて在KL日本人コミュニティに情報が広まっている。電話番号: +60-3-2692-3549。",
+    "needs_review": false
   },
   {
     "slug": "kl-international-dental-centre",
@@ -623,16 +563,17 @@
     "address": "Jalan SS 15/4d, 47500 Subang Jaya, Selangor",
     "phone": "+60356316288",
     "website": "https://www.klidc.com.my/",
-    "description": "サバンジャヤにある歯科センター。一般歯科・口腔外科・矯正・インプラントに対応。国際的な患者にも対応し、多言語での診療を提供。日本人駐在員の利用もある。",
+    "description": "スバンジャヤ・Subang Jaya Medical Centre内にある歯科センター。2008年開業で豊富な実績を持つ専門歯科。英語対応で国際患者も受診しやすい環境。日本語対応は未確認。",
     "tags": [
       "一般歯科",
-      "口腔外科",
       "矯正",
       "インプラント",
-      "国際対応"
+      "口腔外科",
+      "英語対応",
+      "スバンジャヤ"
     ],
     "hours": "月-金 9:00-17:00, 土 9:00-13:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -641,33 +582,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "mahameru-international-medical",
-    "name": "Mahameru International Medical Centre",
-    "name_ja": "マハメル インターナショナル メディカル センター",
-    "area": "Bangsar",
-    "address": "107 & 109 Jalan Maarof, Bangsar, 59000 Kuala Lumpur",
-    "phone": "+60322870988",
-    "website": "https://www.mahameru.com.my/",
-    "description": "バンサーにある国際メディカルセンター。歯科を含む総合医療を提供。日本人駐在員の利用も多い。バンサーエリアの在住者に便利な立地。",
-    "tags": [
-      "総合医療",
-      "歯科",
-      "日本語サポート"
-    ],
-    "hours": "要確認",
-    "last_verified": "2026-03-26",
-    "status": "unverified",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "detail": "KL International Dental Centre（KLIDC）はSubang Jaya Medical Centre 1階（No.1 Jalan SS12/1A）にある歯科センター。2008年開業で10年以上の実績を持ち、矯正・インプラント・根管治療・口腔外科・審美歯科など幅広い専門治療に対応。国際患者の受け入れ実績があり英語でのコミュニケーションがスムーズ。スバンジャヤは日系企業が多く在住日本人もいるエリアだが、日本語スタッフの在籍は公式サイトで確認されていない。",
+    "needs_review": true,
+    "review_note": "日本語対応の根拠が確認できない。日本人駐在員エリアにあるが日本人向けの根拠として不十分。"
   },
   {
     "slug": "mori-dental-invisalign-kids-veneers-implants",
@@ -679,15 +599,16 @@
     "lng": 101.6767,
     "phone": "+60102309881",
     "website": "https://moridental.co/",
-    "description": "Taman Desaにある歯科クリニック。「Mori（森）」の名前を冠し、インビザライン・小児歯科・ベニア・インプラントなど幅広い歯科治療に対応。",
+    "description": "タマンデサにあるMori Dental。「森」の名を冠したクリニックでインビザライン・小児歯科・ベニア・インプラントに対応。英語対応の現地歯科。日本語対応は未確認。",
     "tags": [
       "一般歯科",
       "インビザライン",
       "インプラント",
-      "小児歯科"
+      "小児歯科",
+      "タマンデサ"
     ],
     "hours": "Monday: 9:30 AM – 5:30 PM / Tuesday: 9:30 AM – 5:30 PM / Wednesday: 9:30 AM – 5:30 PM / Thursday: Closed / Friday: 9:30 AM – 5:30 PM / Saturday: 9:30 AM – 5:00 PM / Sunday: 9:30 AM – 5:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJYYaJegBLzDERl4JhhKvaIPQ",
@@ -698,7 +619,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "detail": "Mori Dentalはタマンデサ（19 Jalan Desa, Taman Desa）にある歯科クリニック。「Mori（森）」という日本語名を冠しているが、日本との関連や日本語スタッフの在籍は公式サイト上で確認されていない。インビザライン・小児歯科・ベニア・インプラント・ホワイトニング・一般歯科を提供。月〜水・金9:30〜17:30、土日9:30〜17:00（木曜休診）。電話: +60-10-230-9881。",
+    "needs_review": true,
+    "review_note": "日本語名だが日本語スタッフ在籍は未確認。日本人向けの根拠が不明。"
   },
   {
     "slug": "pantai-hospital-dental",
@@ -708,14 +634,15 @@
     "address": "8, Jalan Bukit Pantai, 59100 Kuala Lumpur",
     "phone": "+60322960888",
     "website": "https://www.pantai.com.my/kuala-lumpur/medical-specialties/dental",
-    "description": "パンタイ病院KL内の歯科部門。一般歯科・口腔外科に対応。日本語通訳サービスが利用可能で、総合病院内のため他の診療科との連携もスムーズ。",
+    "description": "バンサーのパンタイ病院KL内歯科部門。日本語コーディネーター（伊東・荒川等）が常駐し、初回問い合わせから受診まで日本語でサポート。一般歯科・口腔外科に対応。",
     "tags": [
       "総合病院内",
-      "日本語通訳あり",
-      "口腔外科"
+      "日本語コーディネーター常駐",
+      "口腔外科",
+      "保険キャッシュレス"
     ],
     "hours": "要確認",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -724,60 +651,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "pantai-hospital-dental-bangsar",
-    "name": "Pantai Hospital Dental Bangsar",
-    "name_ja": "パンタイ 病院 デンタル バンサー",
-    "area": "Bangsar",
-    "address": "8 Jalan Bukit Pantai, Bangsar, 59100 Kuala Lumpur",
-    "phone": null,
-    "website": null,
-    "description": "パンタイ病院内の歯科部門。総合病院の一部として安心の歯科治療を提供。日本語通訳の手配が可能で、日本人患者の受け入れ実績あり。",
-    "tags": [
-      "病院内歯科",
-      "日本語対応",
-      "総合病院"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "penang-adventist-hospital-dental",
-    "name": "Penang Adventist Hospital Dental",
-    "name_ja": "ペナン アドベンティスト 病院 デンタル",
-    "area": "Penang",
-    "address": "465 Jalan Burma, 10350 George Town, Penang",
-    "phone": null,
-    "website": null,
-    "description": "ペナンのアドベンティスト病院内の歯科部門。一般歯科から口腔外科まで幅広い歯科治療を提供。ペナンの日本人コミュニティにも利用されている。",
-    "tags": [
-      "病院内歯科",
-      "一般歯科",
-      "口腔外科",
-      "ペナン"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "detail": "Pantai Hospital KLの歯科センター（Dental Centre）。バンサーの高級住宅街に位置する私立総合病院内にあり、日本語コーディネーターが複数名在籍（+6010-261-2312 伊東、+6017-878-3974 荒川 ほか）。月〜金9:00〜17:00・土9:00〜13:00で日本語サポートを提供。一般歯科・口腔外科を提供し、総合病院内のため他診療科との連携もスムーズ。海外旅行保険・駐在員保険のキャッシュレス受診にも対応。",
+    "needs_review": false
   },
   {
     "slug": "sakura-dental-bandar-sunway-invisalign-platinum-provider",
@@ -789,26 +667,31 @@
     "lng": 101.6102,
     "phone": "+601162352258",
     "website": "https://sakuradentalmy.com/sunway/en",
-    "description": "さくらデンタルクリニックのサンウェイ院。Sunway Pyramid近く、日本語歯科通訳が常駐。インビザラインプラチナプロバイダー認定を受けた矯正歯科にも対応。日曜・木曜定休。",
+    "description": "Sunway Pyramid近くのさくらデンタルクリニック サンウェイ院。日本語歯科通訳が常駐。インビザラインプラチナプロバイダー認定で矯正歯科に定評。火〜土9:00〜18:00。",
     "tags": [
       "日系",
       "日本語通訳常駐",
       "矯正歯科",
-      "インビザライン"
+      "インビザライン",
+      "サンウェイ"
     ],
     "hours": "Monday: 9:00 AM – 1:00 PM, 2:00 – 6:00 PM / Tuesday: 9:00 AM – 1:00 PM, 2:00 – 6:00 PM / Wednesday: 9:00 AM – 1:00 PM, 2:00 – 6:00 PM / Thursday: Closed / Friday: 9:00 AM – 1:00 PM, 2:00 – 6:00 PM / Saturday: 9:00 AM – 1:00 PM, 2:00 – 6:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJwd5neABNzDERStyCQBWY0EY",
     "priority": 0,
     "ai_reviewed": true,
     "phone_local": null,
-    "email": null,
+    "email": "info@sakuradentalmy.com",
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "detail": "さくらデンタルクリニック サンウェイ院（Bandar Sunway）はSunway Pyramid隣接の1G Jalan PJS 11/28に位置する日本語対応歯科クリニック。日本語歯科通訳が常駐し、一般歯科・予防歯科・矯正・インビザラインなどを日本語で受診可能。インビザラインプラチナプロバイダー認定を受けており矯正への対応が充実している。火〜土曜9:00〜13:00・14:00〜18:00（月・日・木曜休診）。メールでの問い合わせはinfo@sakuradentalmy.com。アラダマンサラのOasis Square院と合わせて2院展開。",
+    "needs_review": false
   },
   {
     "slug": "sakura-dental-clinic",
@@ -818,24 +701,29 @@
     "address": "C-1-02, Oasis Square, No. 2 Jalan PJU 1A/7A, Ara Damansara, 47301 Petaling Jaya, Selangor",
     "phone": "+60142830136",
     "website": "https://www.facebook.com/sakuradentalclinicMY",
-    "description": "Ara Damansaraにある日系歯科クリニック。日本の複数の歯科クリニックと提携しており、日本語対応が可能。一般歯科・矯正・審美歯科を提供。",
+    "description": "アラダマンサラ・Oasis Squareにある日系歯科クリニック。日本語対応スタッフが在籍し日本の歯科クリニックと提携。一般歯科・矯正・審美歯科を提供。火〜土9:00〜18:00。",
     "tags": [
       "日本語対応",
       "日系",
       "一般歯科",
-      "矯正"
+      "矯正",
+      "アラダマンサラ"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
     "phone_local": null,
-    "email": null,
+    "email": "info@sakuradentalmy.com",
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "detail": "Sakura Dental Clinic（さくらデンタルクリニック）はOasis Square（C-1-02）にある日系歯科クリニック。日本語対応スタッフが在籍し、日本の複数の歯科クリニックとの提携を通じて日本基準の歯科医療を提供する。一般歯科・矯正・審美歯科が主要サービス。KL日本人学校に近いエリアにあり、駐在員ファミリーの利用が多い。火〜土曜9:00〜18:00（月・日休診）。なお同じOasis Square内の「さくらデンタルクリニック（C-01-02、sakuradentalmy.com）」は別の系列店で、運営が異なる可能性がある。",
+    "needs_review": false
   },
   {
     "slug": "sakura-dental-clinic-2",
@@ -847,25 +735,31 @@
     "lng": 101.574,
     "phone": "+60142830136",
     "website": "https://sakuradentalmy.com/",
-    "description": "アラダマンサラのOasis Square内にある日系歯科クリニック。日本語歯科通訳が常駐し、日本人の患者でも安心して受診できる。KL日本人学校の近くで、駐在員家族に便利な立地。日曜・月曜定休。",
+    "description": "アラダマンサラ・Oasis Square（Capital 3）内のさくらデンタルクリニック。日本語歯科通訳が常駐し、KL日本人学校至近でファミリー層に利用されている。火〜土9:00〜18:00。",
     "tags": [
       "日系",
       "日本語通訳常駐",
-      "一般歯科"
+      "一般歯科",
+      "小児歯科",
+      "アラダマンサラ"
     ],
     "hours": "Monday: Closed / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ8xwYixxNzDERM4kR9MULuj0",
     "priority": 0,
     "ai_reviewed": true,
     "phone_local": null,
-    "email": null,
+    "email": "info@sakuradentalmy.com",
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "detail": "SAKURA DENTAL CLINIC（さくらデンタルクリニック、sakuradentalmy.com）はOasis Square Capital 3（C-01-02）に位置する日系歯科クリニック。日本語歯科通訳が常駐しており、予約から治療・会計まで日本語で対応可能。KL日本人学校（KL Japanese School）に近い立地から駐在員ファミリーの利用が多い。一般歯科・小児歯科に対応。火〜土曜9:00〜18:00（月・日休診）。メール: info@sakuradentalmy.com。同施設内には日本語対応のAOI Family Clinicも入居しており、医科・歯科の連携受診がしやすい環境にある。",
+    "needs_review": false
   },
   {
     "slug": "smile-avenue-dental-publika",
@@ -875,15 +769,17 @@
     "address": "B2-2-1, Solaris Dutamas, No. 1, Jalan Dutamas 1, 50480 Kuala Lumpur",
     "phone": "+60362050288",
     "website": "https://www.smileavenuemalaysia.com/",
-    "description": "パブリカ内にある歯科クリニック。一般歯科・矯正・インプラント・審美歯科に対応。英語対応がスムーズで、エクスパットの利用も多い。キッズフレンドリーな環境。",
+    "description": "パブリカ（Solaris Dutamas）内のSmile Avenue Dental Surgery。英語対応でエクスパットの利用が多い歯科。一般歯科・矯正・インプラント・審美歯科に対応。月〜土10:00〜18:00。",
     "tags": [
       "一般歯科",
       "矯正",
       "インプラント",
-      "審美歯科"
+      "審美歯科",
+      "パブリカ",
+      "英語対応"
     ],
     "hours": "月-土 10:00-18:00",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -892,7 +788,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "detail": "Smile Avenue Dental Surgery（Publika）はSolaris DutamasのPublika内（A4-UG1-6 Level UG1）に位置する歯科クリニック。15年以上の実績を持ちDr. Aricが担当。一般歯科・矯正・インプラント・審美歯科・ホワイトニング・小児歯科に対応し、英語でのコミュニケーションがスムーズで外国人エクスパットの利用が多い。月〜土10:00〜18:00（日曜休診）。モントキアラに近いPublikaは日本人が多く利用するショッピングモールで、日本食レストランやアジア系食材店も多数入居。日本語スタッフの在籍は未確認。電話: +60-19-343-2328。",
+    "needs_review": true,
+    "review_note": "英語対応・エクスパット利用が多い立地だが、日本語スタッフの在籍は未確認。"
   },
   {
     "slug": "sunway-medical-dental",
@@ -902,15 +803,16 @@
     "address": "5, Jalan Lagoon Selatan, Bandar Sunway, 47500 Subang Jaya, Selangor",
     "phone": "+60374919191",
     "website": "https://www.sunwaymedical.com/",
-    "description": "サンウェイメディカルセンター内の歯科部門。一般歯科・矯正・インプラント・口腔外科に対応し、国際患者センターの通訳サービスを利用できるため、在KL日本人も受診しやすい環境がある。",
+    "description": "サンウェイメディカルセンター内の歯科部門。国際患者センターの通訳サービス経由で日本語通訳の手配が可能。一般歯科・矯正・インプラント・口腔外科に対応。",
     "tags": [
       "総合病院内",
       "国際患者センター",
       "矯正",
-      "インプラント"
+      "インプラント",
+      "口腔外科"
     ],
     "hours": "要確認",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -919,7 +821,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "detail": "Sunway Medical Centre（SMC）の歯科部門はBandar Sunway（5 Jalan Lagoon Selatan）の総合病院内にある。国際患者センターを通じて各言語の通訳サービスを手配可能で、日本語通訳の調整も対応している。一般歯科・矯正・インプラント・口腔外科・予防歯科など幅広い治療を提供。総合病院内のため全身疾患との連携診療が必要なケースにも対応可能。Sunway Pyramidに隣接しアクセスが良い。日本語スタッフの常駐は未確認だが、国際患者センター経由で通訳を手配することが可能とされている。",
+    "needs_review": false
   },
   {
     "slug": "hello-dental-jalan-ipoh",
@@ -932,7 +838,7 @@
     "email": null,
     "website": "https://www.hellodentalclinic.com.my/",
     "source_url": "https://www.hellodentalclinic.com.my/dentist-in-jalan-ipoh-kuala-lumpur/",
-    "description": "KL北部ジャランイポー沿いにある英語対応歯科クリニック。インプラント・矯正・インビザライン・小児歯科など幅広い治療に対応。英語でのコミュニケーションが可能で在KL外国人も利用しやすい。",
+    "description": "KL北部ジャランイポー沿いのHello Dental Clinic。英語対応でインプラント・矯正・インビザライン・小児歯科など幅広く対応。平日9:00〜19:00・土日9:00〜17:00で土日も営業。",
     "detail": "英語対応を強みとするHello Dental Clinicのジャランイポー(タマンミリオン)店。デジタルスマイルデザイン、インプラント手術、インビザライン(クリアアライナー)、セームデイクラウン、ブレース矯正、小児歯科、歯のホワイトニングなど幅広い治療を提供。平日9時〜19時で土日も営業している。",
     "menu": [
       "一般歯科",
@@ -951,7 +857,7 @@
     ],
     "hours": "月-金 09:00-19:00, 土日 09:00-17:00",
     "status": "unverified",
-    "last_verified": "2026-04-05",
+    "last_verified": "2026-04-07",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
@@ -959,7 +865,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "needs_review": true,
+    "review_note": "日本語スタッフ在籍は未確認。英語・中国語対応の現地歯科チェーン。日本人向けの根拠として不十分。"
   },
   {
     "slug": "hello-dental-sunway-velocity",
@@ -972,7 +882,7 @@
     "email": null,
     "website": "https://www.hellodentalclinic.com.my/",
     "source_url": "https://hello-dental-clinic-sunway-velocity.wheree.com/",
-    "description": "チェラスのサンウェイベロシティモール内にある英語対応歯科クリニック。インプラント・矯正・インビザラインなど幅広い治療に対応。平日夜9時まで営業しており仕事帰りにも立ち寄りやすい。",
+    "description": "チェラス・Sunway Velocityモール内のHello Dental Clinic。英語対応でインプラント・矯正・インビザラインに対応。平日夜9時まで営業しており仕事帰りに受診しやすい。",
     "detail": "Hello Dental Clinicのサンウェイベロシティ（チェラス）店。インプラント手術・インビザライン・矯正・ホワイトニング・小児歯科など幅広いサービスを提供。平日は夜9時まで、土日も営業しているため、忙しい社会人や在マレーシア外国人も利用しやすい。英語でのコミュニケーションに対応。",
     "menu": [
       "一般歯科",
@@ -991,7 +901,7 @@
     ],
     "hours": "月-金 09:30-21:00, 土日 09:00-18:00",
     "status": "unverified",
-    "last_verified": "2026-04-05",
+    "last_verified": "2026-04-07",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
@@ -999,7 +909,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "needs_review": true,
+    "review_note": "日本語スタッフ在籍は未確認。英語・中国語対応の現地歯科チェーン。日本人向けの根拠として不十分。"
   },
   {
     "slug": "ck-chang-dental-ttdi",
@@ -1012,8 +926,8 @@
     "email": null,
     "website": null,
     "source_url": "https://www.jckl.org.my/dental_clinic",
-    "description": "TTDI（タマン・トゥン・ドクター・イスマイル）にある日本語対応歯科クリニック。大阪大学歯学部卒業の院長が日本語で診療可能。在マレーシア日本人の定番歯科として知られる。",
-    "detail": "クアラルンプール郊外のTTDI（タマン・トゥン・ドクター・イスマイル）にある日本語対応歯科クリニック。院長のDr. Changは大阪大学歯学部卒業で日本語での診療が可能。「First Japan Dental」としても知られ、KL日本クラブの推奨クリニックリストにも掲載されている。一般歯科・インプラント・矯正歯科に対応。平日9:00〜19:30、土曜9:00〜18:00。",
+    "description": "TTDIにある日本語対応歯科クリニック。院長Dr. Changは大阪大学歯学部卒で日本語診療が可能。KL日本クラブ推薦クリニックリストにも掲載。月〜金9:00〜19:30、土9:00〜18:00。",
+    "detail": "CK Chang Dental Clinic（First Japan Dental）はTaman Tun Dr Ismail（TTDI）の36-A Jalan Wan Kadir 4に位置する日本語対応歯科クリニック。院長のDr. CK Changは大阪大学歯学部卒業で日本で8年間の臨床経験を持ち、日本語での診療が可能。「First Japan Dental」としても知られ、KL日本クラブ（JCKL）の推奨クリニックリストに掲載されている。一般歯科・インプラント・矯正・ホワイトニングに対応。平日9:00〜19:30・土曜9:00〜18:00（日曜・祝日休）。電話: +60-3-7726-2898。",
     "menu": [
       "一般歯科",
       "インプラント",
@@ -1022,14 +936,17 @@
     ],
     "price_range": null,
     "tags": [
-      "歯科",
       "日本語OK",
-      "TTDI",
-      "大阪大学卒"
+      "大阪大学卒",
+      "日本クラブ推薦",
+      "一般歯科",
+      "インプラント",
+      "矯正",
+      "TTDI"
     ],
     "hours": "月-金 09:00-19:30、土 09:00-18:00（日曜・祝日休）",
     "status": "unverified",
-    "last_verified": "2026-04-05",
+    "last_verified": "2026-04-07",
     "source": "website",
     "place_id": "",
     "priority": 0,
@@ -1037,7 +954,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "needs_review": false
   },
   {
     "slug": "avident-dental-clinic-kuala-lumpur",
@@ -1049,15 +969,17 @@
     "email": "avidentkl@gmail.com",
     "website": "https://avidentdentalclinic.com/",
     "source_url": "https://avidentdentalclinic.com/",
-    "description": "マレーシア・クアラルンプールの総合歯科クリニック。インプラント・ホワイトニング・歯周治療・口腔外科などの専門治療に対応。複数言語対応。",
+    "description": "クチャイラマにある総合歯科クリニック。日本語を話せる歯科専門医（歯周病専門）が在籍。インプラント・矯正・審美歯科・歯周治療に対応。2019年開業で7年以上の実績。",
     "tags": [
+      "日本語対応",
+      "歯周病専門",
       "インプラント",
-      "矯正",
-      "ホワイトニング"
+      "インビザライン",
+      "クチャイラマ"
     ],
     "hours": "10:00-20:00（水曜定休）",
     "status": "unverified",
-    "last_verified": "2026-04-06",
+    "last_verified": "2026-04-07",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
@@ -1065,6 +987,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "detail": "Avident Dental Clinicはクチャイラマの10-1 Jalan Kuchai Maju 1に位置する総合歯科クリニック。2019年開業で歯周病専門医Dr. Tan Sze Junが日本語での対応が可能（英語・中国語・マレー語も対応）。歯周病・インプラント・骨移植・歯肉移植などの専門治療に加え、インビザライン・スマイルメイクオーバー・ホワイトニング・親知らず抜歯などにも対応。月・火・木〜日10:00〜20:00（水曜定休）。電話/WhatsApp: +60-11-5636-3675、Email: avidentkl@gmail.com。",
+    "needs_review": false
   }
 ]

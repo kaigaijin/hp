@@ -10,8 +10,8 @@
     "email": null,
     "website": "https://www.nipponexpress.com/moving/es/",
     "source_url": "https://www.nipponexpress.es/en/offices/madrid-office",
-    "description": "1988年設立のマドリード・バラハス空港近くにある日本通運スペイン法人。日本↔スペイン間の国際引越しをはじめ、スペイン国内引越し・通関・倉庫管理を日本語で対応。バルセロナ支店もあり。",
-    "detail": "1988年設立のマドリード・バラハス空港（カルゴセンター）を拠点とする日本通運スペイン法人。日本→スペインへの赴任引越し・スペイン→日本への帰任引越し・スペイン国内引越しを日本語で対応。通関・倉庫管理・航空・海上輸送も提供。バルセロナ支店（+34-93-552-29-83）、ビルバオ支店も展開。",
+    "description": "1988年設立のマドリード・バラハス空港近くにある日本通運スペイン法人。日本↔スペイン間の国際引越しを日本語でサポート。バルセロナ・ビルバオにも支店あり。",
+    "detail": "1988年設立のマドリード・バラハス空港（カーゴセンター）を拠点とする日本通運スペイン法人。日本→スペインへの赴任引越し・スペイン→日本への帰任引越し・スペイン国内引越しを日本語で対応。通関・倉庫管理・航空・海上輸送も提供。バルセロナ支店（+34-93-552-29-83）、ビルバオ支店も展開。在スペイン日本人の引越しで最も信頼されている日系企業の一つ。",
     "menu": null,
     "price_range": null,
     "tags": [
@@ -22,36 +22,7 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-04-05",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "arelocation-madrid-barcelona",
-    "name": "aRelocation Spain",
-    "name_ja": "エー・リロケーション スペイン",
-    "area": "Madrid/Barcelona",
-    "address": "Multiple locations in Spain",
-    "phone": null,
-    "phone_local": null,
-    "email": null,
-    "website": "https://relocateconsulting.com/en/",
-    "source_url": "https://relocateconsulting.com/en/",
-    "description": "25年以上の歴史を持つスペイン国内の引越し・リロケーションサービス。マドリード・バルセロナ・バレンシアで展開。4,600家族以上を移転。多言語対応スタッフ。",
-    "tags": [
-      "引越し",
-      "リロケーション",
-      "多言語対応"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-04-06",
+    "last_verified": "2026-04-07",
     "source": "website",
     "place_id": "",
     "priority": 0,
@@ -59,6 +30,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "needs_review": false,
+    "japanese_staff": true
   }
 ]

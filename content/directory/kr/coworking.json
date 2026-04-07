@@ -1,61 +1,5 @@
 [
   {
-    "slug": "common-ground-seongsu",
-    "name": "Common Ground Seongsu",
-    "name_ja": "コモングラウンド 聖水",
-    "area": "Seongdong-gu (Seongsu)",
-    "address": "200 Achasan-ro, Seongsu-dong 1-ga, Seongdong-gu, Seoul",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "200個の青いコンテナを積み上げて作られたソウルの人気複合施設。コワーキングスペース・カフェ・ショップが入居。聖水エリアのクリエイティブなコミュニティが集まる場所として知られ、外国人の利用も多い。聖水駅から徒歩5分。",
-    "tags": [
-      "英語対応",
-      "ユニーク建築",
-      "カフェ併設",
-      "聖水エリア"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "cowork-booking-seoul",
-    "name": "CoworkBooking Seoul Hub",
-    "name_ja": "コワークブッキング ソウルハブ",
-    "area": "Seoul (multiple areas)",
-    "address": null,
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.coworkbooking.com/asia/south-korea/seoul",
-    "description": "国際的なコワーキングスペース予約プラットフォーム。ソウル市内の複数のコワーキングスペースを英語で一括比較・予約可能。江南・弘大・鍾路エリアの主要スペースを網羅しており、短期滞在の日本人ビジネスマンの利用にも適している。",
-    "tags": [
-      "英語対応",
-      "予約プラットフォーム",
-      "外国人向け",
-      "日帰り利用可"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-02",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
     "slug": "executive-centre-gangnam-finance-center",
     "name": "The Executive Centre Gangnam Finance Center",
     "name_ja": "エグゼクティブセンター 江南ファイナンスセンター",
@@ -65,7 +9,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.executivecentre.com/office-space/seoul-gangnam-finance-center/",
-    "description": "香港発のプレミアムサービスオフィスチェーン。江南ファイナンスセンター41階に位置し、眺望が良い。日本を含むアジア各国に拠点があり、グローバル企業の利用が多い。英語・韓国語対応。プライベートオフィス・会議室・ラウンジ完備。",
+    "description": "江南テヘラン路のプレミアムサービスオフィスThe Executive Centre。英語・日本語対応スタッフが常駐し、在ソウル外資系企業・駐在員に広く利用される高品質コワーキング。",
     "tags": [
       "英語対応",
       "プレミアム",
@@ -73,7 +17,7 @@
       "会議室"
     ],
     "hours": "平日 9:00〜18:00（24時間アクセス可能プランあり）",
-    "last_verified": "2026-03-29",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -84,7 +28,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "The Executive Centre（TEC）はアジア太平洋を中心に140か所以上でサービスオフィスを展開するプレミアムワークスペースブランド。江南ファイナンスセンター（GFC）41階に位置するソウル拠点は、テヘラン路の金融・ビジネス地区の中心に立地する。英語および日本語対応のサポートスタッフが在籍し、個室オフィス・フレックスデスク・会議室・バーチャルオフィスを提供。高速光ファイバーWi-Fi、複合機、受付・秘書サービス、住所提供など在ソウル法人・駐在員の業務ニーズに対応できる設備が整っている。在ソウル日系企業の登記住所利用や、短期滞在中のビジネスパーソンの仮設オフィスとして利用される実績がある。",
+    "japanese_staff": true,
+    "spot_reviewed": true
   },
   {
     "slug": "fastfive-gangnam",
@@ -96,7 +43,7 @@
     "lng": null,
     "phone": null,
     "website": "https://fastfive.co.kr/global_eng",
-    "description": "韓国最大のコワーキングチェーン。ソウル首都圏に60拠点以上を展開。24時間利用可能で、カフェ・キッチン・無料コーヒー完備。英語対応の法人向けプラン（Full-Care Office for Global Companies）があり、外国企業の韓国進出拠点としても利用されている。",
+    "description": "江南・易三駅前のコワーキングスペースFastFive江南。英語対応で外国人にも使いやすく、月額会員からドロップインまで柔軟なプランを提供。",
     "tags": [
       "英語対応",
       "韓国最大チェーン",
@@ -104,7 +51,7 @@
       "カフェ併設"
     ],
     "hours": "24時間",
-    "last_verified": "2026-03-29",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -115,7 +62,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "FastFiveは韓国のコワーキング・サービスオフィスブランドで、ソウル市内に多数の拠点を持つ。江南店は易三1洞エリアに位置し、江南・三成洞の多国籍企業が集まる金融・ITビジネス地区に近い。英語での問い合わせ・入会手続きに対応しており、在ソウル外国人・日本人ビジネスパーソンも利用している。月額のホットデスク・固定席・プライベートオフィスのほか、日単位の利用も可能。高速Wi-Fi・会議室・コピー機・ラウンジなど基本的なビジネス設備が整っている。日本語対応については公式サイト（fastfive.co.kr）に記載がないが、外国人の利用実績は多い。",
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "fastfive-seoul-station",
@@ -127,7 +77,7 @@
     "lng": null,
     "phone": null,
     "website": "https://fastfive.co.kr/",
-    "description": "韓国最大コワーキングチェーン・ファストファイブのソウル駅拠点。KTX・地下鉄・バスが集まるソウル駅直結でアクセス最高。外国企業向け「Full-Care Office for Global Companies」プランあり。英語対応。",
+    "description": "ソウル駅前エリアのFastFiveコワーキング。KTXや空港リムジンバスのアクセスが良く、出張時のドロップイン利用や法人登記住所にも対応。",
     "tags": [
       "英語対応",
       "ソウル駅直結",
@@ -135,62 +85,15 @@
       "24時間利用可"
     ],
     "hours": "24時間",
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "google-campus-seoul",
-    "name": "Google for Startups Campus Seoul",
-    "name_ja": "Google for Startups キャンパス ソウル",
-    "area": "Gangnam-gu",
-    "address": "B2, Autoway Tower, 417 Yeongdong-daero, Gangnam-gu, Seoul",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://campus.co/seoul/",
-    "description": "Googleが運営するスタートアップ支援拠点。江南エリアのオートウェイタワー地下2階に位置。コワーキングスペース・イベントホール・カフェを完備。英語対応で、グローバルスタートアップの利用も多い。無料会員登録で利用可能。",
-    "tags": [
-      "英語対応",
-      "スタートアップ向け",
-      "Google運営",
-      "無料"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-02",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "hoppin-house-yeonnam",
-    "name": "Hoppin House Yeonnam",
-    "name_ja": "ホッピンハウス 延南洞",
-    "area": "Mapo-gu (Yeonnam-dong)",
-    "address": "14 Seongmisan-ro 26-gil, Mapo-gu, Seoul",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "弘大近くの閑静な延南洞エリアにあるコリビング・コワーキングスペース。クリエイター・デジタルノマド向けで、静かな作業環境を求める外国人に人気。英語対応可能で短期・長期滞在どちらにも対応。",
-    "tags": [
-      "コリビング",
-      "英語対応",
-      "デジタルノマド向け",
-      "弘大近く"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-02",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "FastFiveのソウル駅エリア拠点。韓国各地を結ぶKTX（高速鉄道）のターミナル、ソウル駅の近くに位置するため、地方出張帰りの作業や訪韓出張時の一時利用に便利なロケーション。英語での問い合わせ・入会手続きに対応しており、外国人ビジネスパーソンも利用しやすい。月額ホットデスクから専有オフィスまでフレキシブルなプランを提供。高速Wi-Fi・複合機・会議室・コーヒーラウンジなど標準的な設備を完備。日本語対応は公式サイト（fastfive.co.kr）に記載はないが、英語での手続きは可能。訪韓ビジネスが多い方の短期滞在拠点として利用しやすい立地にある。",
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "incubation-korea",
@@ -202,7 +105,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.incubation-korea.com/",
-    "description": "日本人向けに韓国での起業・会社設立・法人登記をサポートする日本語対応のレンタルオフィス。バーチャル登記プラン・個室オフィス・会議室・カフェテラススペースを提供。韓国での法人設立から銀行口座開設まで日本語でトータルサポートしている。",
+    "description": "麻浦区の日系コワーキングスペース・インキュベーションコリア。日本語対応スタッフが在籍し、韓国進出を目指す日系企業の法人設立・住所提供をサポート。",
     "tags": [
       "日本語対応",
       "法人登記可",
@@ -210,7 +113,7 @@
       "バーチャルオフィス"
     ],
     "hours": null,
-    "last_verified": "2026-03-29",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -221,32 +124,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "local-stitch-seogyo",
-    "name": "Local Stitch Seogyo",
-    "name_ja": "ローカルステッチ 西橋洞",
-    "area": "Mapo-gu (Seogyo-dong / Hongdae area)",
-    "address": "Seogyo-dong, Mapo-gu, Seoul",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "弘大エリア・西橋洞のコリビングスペース。クリエイター・若手プロフェッショナル向けに設計された洗練されたワークスペースとリビングルームを提供。英語対応で外国人の短期・中期滞在者にも利用されている。",
-    "tags": [
-      "コリビング",
-      "英語対応",
-      "クリエイター向け",
-      "弘大エリア"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-02",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
+    "photo_name": null,
+    "detail": "インキュベーションコリアは、麻浦区マポ大路沿いの3階に位置する日本人・日系企業向けのコワーキングスペース兼インキュベーター。日本語スタッフが在籍しており、韓国進出を検討している日系スタートアップや中小企業のソウルオフィスの立ち上げを支援している。コワーキングスペースの利用に加え、法人設立サポート・ビジネスマッチング・会議室貸出・法人登記住所の提供などのサービスも提供している。麻浦区は弘大・合井エリアに近く、日本人居住者や日系企業が多い地区。日本とのビジネスに精通したスタッフによるアドバイスが受けられるため、韓国市場参入を考えている日本の起業家・企業の拠点として活用されている。",
+    "japanese_staff": true,
+    "spot_reviewed": true
   },
   {
     "slug": "regus-gangnam",
@@ -258,7 +139,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.regus.com/ja-jp/south-korea/seoul/gangnam-building-1522",
-    "description": "世界最大のフレキシブルオフィスチェーンRegusの江南拠点。日本語対応のウェブサイトで予約・問い合わせが可能。個室オフィス・コワーキング・バーチャルオフィスを提供。法人登記用住所としても利用可能で、韓国進出の初期拠点に適している。月額KRW 218,900〜。",
+    "description": "世界最大のサービスオフィスブランドRegusの江南店。江南ビル内に位置し英語対応の受付・会議室・バーチャルオフィスを提供。在ソウル外資系企業に利用される。",
     "tags": [
       "グローバルチェーン",
       "日本語サイトあり",
@@ -266,7 +147,7 @@
       "法人登記可"
     ],
     "hours": "平日 8:30〜18:00",
-    "last_verified": "2026-03-29",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -277,7 +158,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Regus（リージャス）はIWGグループが運営する世界最大のサービスオフィスブランドで、120か国3,000か所以上に拠点を持つ。ソウル江南店は江南区内のビジネス地区に位置し、個室オフィス・コワーキングデスク・会議室・バーチャルオフィスを提供。英語対応のスタッフが常駐し、外資系企業・多国籍ビジネスパーソンの利用が多い。日本のRegus会員は世界共通のアクセス権で利用できるため、訪韓出張中の日本人ビジネスパーソンが日本で契約しているRegus会員権を活用して利用することも可能。バーチャルオフィス（住所・電話番号の提供）も受けられ、韓国法人設立の補助的な住所利用として在韓日系企業に利用されることもある。",
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "regus-yeouido",
@@ -289,7 +173,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.regus.com/ja-jp/south-korea/seoul",
-    "description": "金融街汝矣島にあるリージャスの拠点。日系銀行・証券会社が集まるエリアに位置し、駐在員の一時利用やビジネスミーティングに適している。日本語対応のウェブサイトで予約可能、バーチャルオフィスプランも提供。",
+    "description": "ソウルの金融街・汝矣島エリアにあるRegusのサービスオフィス。証券・金融・エネルギー関連企業が集まる汝矣島に位置し、英語対応の個室オフィス・会議室を提供。",
     "tags": [
       "グローバルチェーン",
       "日本語サイトあり",
@@ -297,43 +181,15 @@
       "バーチャルオフィス"
     ],
     "hours": "平日 8:30〜18:00",
-    "last_verified": "2026-04-02",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "seoul-startup-hub-gongdeok",
-    "name": "Seoul Startup Hub Gongdeok",
-    "name_ja": "ソウルスタートアップハブ 孔徳",
-    "area": "Mapo-gu (Gongdeok)",
-    "address": "21 Baekbeom-ro 31-gil, Gongdeok-dong, Mapo-gu, Seoul",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "ソウル市が運営する無料コワーキングスペース。1〜3階がコワーキング（推定200席以上）、4〜8階がスタートアップオフィス、10階に仮眠室あり。登録不要で誰でも利用可能。Wi-Fi 120Mbps・電源完備。コンビニ・食堂も併設。孔徳駅から徒歩10分。デジタルノマドの日本人利用者も多い。",
-    "tags": [
-      "無料",
-      "ソウル市運営",
-      "仮眠室あり",
-      "デジタルノマド向け"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
     "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "detail": "Regus汝矣島店は、ソウルの金融中心地である汝矣島（ヨイド）エリアに位置するサービスオフィス。韓国証券取引所・大手金融機関・エネルギー企業が集まるエリアで、金融系の外資系企業・駐在員の利用が多い立地。英語対応のスタッフが常駐し、個室オフィス・会議室・バーチャルオフィスを提供。日本のRegus会員は共通のメンバーシップで世界中の拠点を利用できるため、訪韓出張中の日本人金融マンが一時的な作業スペースとして利用するケースがある。汝矣島エリアは在ソウル日系証券・保険・商社の拠点も多く、ネットワーキング目的でも活用されている。",
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "sparkplus-jongno",
@@ -345,7 +201,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.sparkplus.co/",
-    "description": "韓国最大のコワーキングチェーン・スパークプラスの鍾路拠点。グランソウルビル内に位置し、光化門・鍾路エリアの官公庁・企業群へのアクセスに優れる。英語対応可能なスタッフが常駐。",
+    "description": "鍾路のグランソウルビル内にあるコワーキングSparkPlus鍾路。ソウル中心部の好立地で英語対応のワークスペースを提供。訪韓ビジネスパーソンの短期利用にも対応。",
     "tags": [
       "英語対応",
       "韓国大手チェーン",
@@ -353,12 +209,15 @@
       "駅近"
     ],
     "hours": "24時間",
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "SparkPlusは韓国発のコワーキング・サービスオフィスブランドで、ソウル市内に複数拠点を展開する。鍾路店は鍾路区の複合商業施設グランソウルビル1号棟の7階に位置し、ソウル市庁・光化門・清渓川に近い中心部の利便性の高いロケーション。英語での問い合わせ・手続きに対応しており、外国人ビジネスパーソンも利用しやすい。個室オフィス・コワーキングデスク・会議室・イベントスペースを提供。高速Wi-Fi・コーヒーバー・複合機など基本設備が整っている。出張中の日本人ビジネスパーソンのドロップイン利用に適した立地と設備を持つ。",
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "sparkplus-yeoksam",
@@ -370,7 +229,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.sparkplus.co/",
-    "description": "韓国の主要コワーキングチェーン。ソウル首都圏に33拠点以上を展開。駅三駅8番出口すぐ。モダンなデザインのワークスペースと会議室を提供。スタートアップ・フリーランス向けのコミュニティイベントも開催している。",
+    "description": "江南・テヘラン路のアジュビル内にあるSparkPlus易三。IT・ベンチャー企業が集まる江南テク地区に位置し、英語対応のコワーキング・サービスオフィスを提供。",
     "tags": [
       "英語対応",
       "韓国大手チェーン",
@@ -378,7 +237,7 @@
       "駅近"
     ],
     "hours": "24時間（一部サービスは平日のみ）",
-    "last_verified": "2026-03-29",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -389,7 +248,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "SparkPlus易三（ヨクサム）店は江南区テヘラン路のアジュビル2階・17階に入居するコワーキング施設。テヘラン路は「テヘランバレー」と呼ばれるソウルのITベンチャー集積地で、多数のスタートアップ・外資系テック企業がオフィスを構えるエリア。英語での問い合わせ・手続きに対応しており、在ソウル外国人スタートアップ起業家や日本人テック系ビジネスパーソンの利用が見られる。ホットデスク・専有デスク・個室オフィス・会議室を提供。江南・三成・宣陵エリアへのアクセスが良く、在ソウル日本人IT系駐在員や訪韓スタートアップ関係者が利用しやすい環境にある。",
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "wework-euljiro",
@@ -401,7 +263,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.wework.com/ja-KR/l/seoul--kr",
-    "description": "ソウル都心の乙支路エリアにあるウィーワーク拠点。グローバルな共有オフィスブランドで日本語のウェブサイトから見学・契約が可能。短期利用から月次プランまで対応し、出張・テレワーク利用の在韓日本人にも実績がある。",
+    "description": "乙支路エリアのWeWork。グローバルコワーキングブランドで英語対応・外国人利用が多く、日本のWeWork会員も共通のメンバーシップで利用可能。",
     "tags": [
       "グローバルチェーン",
       "日本語サイトあり",
@@ -409,12 +271,15 @@
       "都心"
     ],
     "hours": "月〜金 09:00〜18:00（フロント対応）",
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "WeWork乙支路はWeWorkグローバルネットワークのソウル拠点の一つ。中区乙支路2街に位置し、明洞・乙支路・東大門デザインプラザ周辺の中心部に近い。WeWorkはグローバルなメンバーシップ制で、日本のWeWork会員は追加費用なしでソウル拠点を利用できるAll Access / On Demand制度がある（プランによる）。英語での問い合わせ・手続きに対応しており、多国籍ビジネスパーソンの利用が多い。コワーキングデスク・個室オフィス・会議室に加え、コーヒー・ビール（一部拠点）・ラウンジなどWeWork標準のアメニティを完備。日本からの出張者が一時的な作業スペースとして利用するケースも多い。",
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "wework-gangnam-station",
@@ -426,7 +291,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.wework.com/buildings/gangnam-station--seoul",
-    "description": "WeWorkのソウル江南駅拠点。スタートアップから多国籍企業まで利用する国際的なコワーキングスペース。会議室・電話ブース・ラウンジ・カフェを完備。日本語の予約サイトあり。グローバル会員なら追加手続きなしで利用開始可能。",
+    "description": "江南駅前（江南大路）のWeWork。日本のWeWork会員も共通メンバーシップで利用可能。江南ビジネス地区の中心で出張中の日本人ビジネスパーソンに利用されている。",
     "tags": [
       "グローバルチェーン",
       "英語対応",
@@ -434,7 +299,7 @@
       "会議室"
     ],
     "hours": "24時間（スタッフ対応は平日9:00〜18:00）",
-    "last_verified": "2026-03-29",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -445,7 +310,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "WeWork江南駅はWeWorkグローバルネットワークのソウル拠点の一つ。瑞草区江南大路に位置し、江南駅直結の好アクセス。WeWorkのグローバルメンバーシップ（All Access / On Demand）を持つ日本のWeWork会員は、追加費用なしでソウルの拠点を利用できる制度がある（プランによる）。英語での対応が可能で、外国人ビジネスパーソンの利用が多い。コワーキングデスク・個室オフィス・会議室・ラウンジなどWeWork標準の設備を完備。江南の主要ビジネスエリアへのアクセスが良く、在ソウル日系企業の社員や訪韓ビジネスパーソンが短期作業スペースとして活用している。",
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "wework-gwanghwamun",
@@ -457,7 +325,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.wework.com/buildings/gwanghwamun--seoul",
-    "description": "光化門エリアのWeWork拠点。韓国政府機関・大手財閥本社が集中するビジネス中枢に位置。日系大企業の韓国拠点にも近く、駐在員の一時的な執務スペースとしても利用されている。英語対応完備。",
+    "description": "光化門エリアのWeWork。政府機関・大使館・外資系企業が集まるソウル中枢部に位置し、英語対応・日本のWeWork会員も共通メンバーシップで利用可能。",
     "tags": [
       "グローバルチェーン",
       "英語対応",
@@ -465,12 +333,15 @@
       "駐在員向け"
     ],
     "hours": "24時間（スタッフ対応は平日9:00〜18:00）",
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "WeWork光化門はWeWorkグローバルネットワークのソウル拠点の一つ。鍾路区光化門エリアに位置し、韓国政府庁舎・在韓外国公館・大手企業本社が集まるソウルの中枢ビジネス地区に近い。WeWorkのグローバルメンバーシップ（All Access / On Demand）を持つ日本のWeWork会員は、ソウル拠点を追加費用なしで利用できる制度がある（プランによる）。英語での対応が可能で、外資系企業・多国籍ビジネスパーソンの利用が多い。コワーキングデスク・個室オフィス・会議室・ラウンジを完備。在韓大使館や政府系機関との打ち合わせが多い日本人ビジネスパーソンには地理的に利便性が高いエリア。",
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "wework-hongdae",
@@ -482,7 +353,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.wework.com/buildings/hongdae--seoul",
-    "description": "弘大ストリートに隣接するWeWorkの麻浦区拠点。クリエイティブな若者が集まる弘大エリアに位置し、デジタルノマドやクリエイター系の外国人に人気。英語対応スタッフ常駐、グローバルWeWork会員なら即日利用可。",
+    "description": "弘大・麻浦エリアのWeWork。日本人居住者・クリエイター・スタートアップが多いエリアで英語対応。日本のWeWork会員が共通メンバーシップで利用可能。",
     "tags": [
       "グローバルチェーン",
       "英語対応",
@@ -490,12 +361,15 @@
       "デジタルノマド向け"
     ],
     "hours": "24時間（スタッフ対応は平日9:00〜18:00）",
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "WeWork弘大はWeWorkグローバルネットワークのソウル拠点の一つ。麻浦区楊花路（ヤンファ路）4階に位置し、弘大・合井・上水の日本人居住者・クリエイター・スタートアップが多いエリアにある。WeWorkのグローバルメンバーシップ（All Access / On Demand）を持つ日本のWeWork会員はソウル拠点を追加費用なしで利用できる制度がある（プランによる）。英語での対応が可能。コワーキングデスク・個室オフィス・会議室を完備。麻浦区は在ソウル日本人が多く居住するエリアで、日系IT・クリエイティブ系フリーランサーや在宅勤務の駐在員配偶者にとっても利用しやすい立地にある。",
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "wework-seolleung",
@@ -507,14 +381,14 @@
     "lng": null,
     "phone": null,
     "website": "https://www.wework.com/buildings/seolleung--seoul",
-    "description": "WeWorkの宣陵駅拠点。江南ビジネス地区の中心テヘラン路沿いに位置し、外国人ビジネスパーソンの利用が多い。カフェ・ラウンジ・電話ブース完備。WeWorkグローバル会員なら世界中の拠点でそのまま利用可能。",
+    "description": "宣陵（江南・テヘラン路）のWeWork地下1階。テヘランバレーのITエリアに位置し、英語対応・日本のWeWork会員も共通メンバーシップで利用可能。",
     "tags": [
       "グローバルチェーン",
       "英語対応",
       "江南ビジネス地区"
     ],
     "hours": "24時間（スタッフ対応は平日9:00〜18:00）",
-    "last_verified": "2026-03-29",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -525,7 +399,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "WeWork宣陵はWeWorkグローバルネットワークのソウル拠点の一つ。江南区テヘラン路地下1階に位置し、宣陵駅・三成洞エリアのテック・IT企業集積地の中心にある。WeWorkのグローバルメンバーシップ（All Access / On Demand）を持つ日本のWeWork会員はソウル拠点を追加費用なしで利用できる制度がある（プランによる）。英語対応スタッフが在籍し、コワーキングデスク・個室オフィス・会議室を完備。テヘラン路沿いに拠点を持つ在ソウル日系IT・外資系企業の社員が作業スペース・会議室として利用するケースがある。",
+    "japanese_staff": null,
+    "spot_reviewed": true
   },
   {
     "slug": "wework-yeouido",
@@ -537,14 +414,14 @@
     "lng": null,
     "phone": null,
     "website": "https://www.wework.com/l/office-space/seoul",
-    "description": "WeWorkの汝矣島拠点。韓国の金融街中心部に位置し、証券・銀行・保険系企業が集中するエリア。日系金融機関の駐在員にも利用されている。会議室・電話ブース・ラウンジ完備。",
+    "description": "汝矣島駅前のWeWork。金融街・汝矣島エリアで英語対応のコワーキング。日本のWeWork会員が共通メンバーシップで利用可能で、金融・商社系駐在員に利用される。",
     "tags": [
       "グローバルチェーン",
       "英語対応",
       "金融街"
     ],
     "hours": "24時間（スタッフ対応は平日9:00〜18:00）",
-    "last_verified": "2026-03-29",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -555,6 +432,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "WeWork汝矣島はWeWorkグローバルネットワークのソウル拠点の一つ。永登浦区汝矣島エリアに位置し、韓国証券取引所・国会・大手金融機関が集まるソウルの金融街に近い。WeWorkのグローバルメンバーシップ（All Access / On Demand）を持つ日本のWeWork会員はソウル拠点を追加費用なしで利用できる制度がある（プランによる）。英語での対応が可能。コワーキングデスク・個室オフィス・会議室・ラウンジを完備。汝矣島エリアには日系証券・商社・保険会社などの拠点が多く、金融系駐在員の一時作業スペース・会議室として活用されることがある。",
+    "japanese_staff": null,
+    "spot_reviewed": true
   }
 ]

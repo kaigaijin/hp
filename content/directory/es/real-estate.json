@@ -10,8 +10,8 @@
     "email": "miraihousing@outlook.es",
     "website": "https://www.miraihousing.net/",
     "source_url": "https://world.relocation.jp/area/madrid.html",
-    "description": "スペイン初の日本人不動産エージェント（小坂真理）によるマドリード不動産仲介サービス。賃貸・売買・オフィス・商業スペースを日本語でサポート。在西日本人・移住検討者向け。",
-    "detail": "スペイン初の日本人不動産エージェントとして小坂真理が運営するマドリードの不動産仲介サービス。賃貸・売買・オフィス・商業スペースの物件探しを個人のニーズに合わせて日本語でサポート。日本からの移住準備中の方から現地在住日本人まで幅広く対応。",
+    "description": "スペイン初の日本人不動産エージェント（小坂真理）によるマドリード不動産仲介サービス。賃貸・売買・オフィス・商業スペースを日本語でサポート。移住検討者から在マドリード日本人まで対応。",
+    "detail": "スペイン初の日本人不動産エージェントとして小坂真理が運営するマドリードの不動産仲介サービス。賃貸・売買・オフィス・商業スペースの物件探しを個人のニーズに合わせて日本語でサポート。日本からの移住準備中の方から現地在住日本人まで幅広く対応。スペインの不動産事情を日本語で相談できる希少な存在。",
     "menu": null,
     "price_range": null,
     "tags": [
@@ -23,7 +23,7 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-04-05",
+    "last_verified": "2026-04-07",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
@@ -31,7 +31,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "needs_review": false,
+    "japanese_staff": true
   },
   {
     "slug": "takumi-spain-barcelona",
@@ -44,8 +47,8 @@
     "email": "info@takumispain.com",
     "website": "https://www.takumispain.com/en",
     "source_url": "https://www.takumispain.com/en",
-    "description": "バルセロナを拠点とする日本語対応の不動産・ビザサポート会社。日本人が多く居住するサリア地区周辺の賃貸・購入物件を日本語で案内。ゴールデンビザ・NIEサポートも提供。",
-    "detail": "バルセロナのサリア＝サン・ジェルバシ地区を拠点とする日本語対応不動産・ビザサポート会社。日本人居住者が多いサリア地区・レスコルツ地区の賃貸・購入物件を紹介。スペインゴールデンビザ（不動産購入による永住権）・NIE（外国人識別番号）取得サポートも提供。",
+    "description": "バルセロナの日本語対応不動産・ビザサポート会社。日本人居住者が多いサリア地区周辺の賃貸・購入物件を日本語で案内。スペインゴールデンビザ・NIEサポートも提供。",
+    "detail": "バルセロナのサリア＝サン・ジェルバシ地区を拠点とする日本語対応不動産・ビザサポート会社。日本人居住者が多いサリア地区・レスコルツ地区の賃貸・購入物件を紹介。スペインゴールデンビザ（不動産購入による永住権）・NIE（外国人識別番号）取得サポートも提供。スペイン移住を検討する日本人にとって心強い相談先。",
     "menu": null,
     "price_range": null,
     "tags": [
@@ -57,36 +60,7 @@
     ],
     "hours": null,
     "status": "unverified",
-    "last_verified": "2026-04-05",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "aproperties-barcelona",
-    "name": "aProperties Spain",
-    "name_ja": "エー・プロパーティーズ バルセロナ",
-    "area": "Barcelona",
-    "address": "Barcelona",
-    "phone": null,
-    "phone_local": null,
-    "email": null,
-    "website": "https://www.aproperties.es/en/",
-    "source_url": "https://www.aproperties.es/en/",
-    "description": "バルセロナ・マドリード・バレンシア・マヨルカで展開する高級不動産エージェント。スタジオから大型邸宅まで。賃貸・売買対応。スペイン全域にネットワーク。",
-    "tags": [
-      "不動産",
-      "高級物件",
-      "賃貸・売買"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-04-06",
+    "last_verified": "2026-04-07",
     "source": "website",
     "place_id": "",
     "priority": 0,
@@ -94,6 +68,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "needs_review": false,
+    "japanese_staff": true
   }
 ]

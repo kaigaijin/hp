@@ -15,7 +15,7 @@ import {
   getCategory,
 } from "@/lib/directory";
 import { getGroupTheme } from "@/lib/group-theme";
-import CountryTabs from "@/components/CountryTabs";
+import CountryHero from "@/components/CountryHero";
 import { getArticlesByCountry } from "@/lib/articles";
 import {
   UtensilsCrossed,
@@ -143,72 +143,36 @@ export default async function SpotIndexPage({
       <Header />
       <main className="bg-sand-50 dark:bg-stone-950 min-h-screen">
 
-        {/* ─── ヒーローエリア ────────────────────── */}
-        <div className="bg-gradient-to-br from-stone-950 via-[#1a2e35] to-[#2d1a0e]">
-          <div className="max-w-6xl mx-auto px-4 pt-4 pb-12">
-            {/* パンくず */}
-            <nav className="flex items-center gap-1.5 text-xs text-stone-400/80 mb-8">
-              <Link href="/" className="hover:text-white transition-colors">トップ</Link>
-              <ChevronRight size={12} />
-              <Link href={`/${code}`} className="hover:text-white transition-colors">
-                {country.flag} {country.name}
-              </Link>
-              <ChevronRight size={12} />
-              <span className="text-white/90">KAIスポット</span>
-            </nav>
-
-            <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-8">
-              <div>
-                <p className="section-label mb-4 text-teal-400">— KAI SPOT</p>
-                <div className="inline-flex items-center gap-2 bg-white/10 text-white/90 text-xs font-medium px-3 py-1.5 rounded-full mb-4">
-                  <MapPin size={13} />
-                  {country.flag} {country.name} KAIスポット
-                </div>
-                <h1 className="text-4xl sm:text-5xl font-extrabold text-white leading-tight tracking-tight mb-4">
-                  日本人向けスポット
-                </h1>
-                <p className="text-stone-400 text-base leading-relaxed max-w-lg">
-                  {country.name}で暮らす日本人のためのレストラン・クリニック・美容室・不動産など、カテゴリ別に探せます。
-                </p>
-                <p className="mt-4 text-stone-400 text-sm font-medium">
-                  現在 <span className="text-white font-bold text-lg">{totalSpots}</span> 件掲載中
-                </p>
-              </div>
-
-              {/* 検索ボックス（右側） */}
-              <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-5 min-w-[280px]">
-                <p className="text-white/80 text-xs font-semibold mb-3">名前・エリア・キーワードで検索</p>
-                <SpotSearch spots={searchableSpots} countryCode={code} />
-              </div>
+        <CountryHero
+          countryCode={code}
+          countryName={country.name}
+          countryFlag={country.flag}
+          currentLabel="KAIスポット"
+          label="— KAI SPOT"
+          title="日本人向けスポット"
+          subtitle={`${country.name}のレストラン・クリニック・美容室・不動産など ${totalSpots}件掲載中`}
+          articleCount={articles.length}
+          spotCount={totalSpots}
+          right={
+            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-5">
+              <p className="text-white/80 text-xs font-semibold mb-3">名前・エリア・キーワードで検索</p>
+              <SpotSearch spots={searchableSpots} countryCode={code} />
             </div>
-
-            {/* スポット内タブ（カテゴリ/エリア/地図） */}
-            <div className="flex gap-0 mt-8 border-b border-white/10">
+          }
+          subTabs={
+            <div className="flex gap-0 border-b border-white/10">
               <span className="text-sm font-semibold text-warm-400 border-b-2 border-warm-500 pb-2.5 px-4 -mb-px">
                 カテゴリ
               </span>
-              <Link
-                href={`/${code}/spot/area`}
-                className="text-sm text-stone-400 hover:text-white pb-2.5 px-4 transition-colors"
-              >
+              <Link href={`/${code}/spot/area`} className="text-sm text-stone-400 hover:text-white pb-2.5 px-4 transition-colors">
                 エリア
               </Link>
-              <Link
-                href={`/${code}/spot/map`}
-                className="text-sm text-stone-400 hover:text-white pb-2.5 px-4 transition-colors flex items-center gap-1.5"
-              >
+              <Link href={`/${code}/spot/map`} className="text-sm text-stone-400 hover:text-white pb-2.5 px-4 transition-colors flex items-center gap-1.5">
                 <Map size={13} />地図
               </Link>
             </div>
-          </div>
-
-          {/* 国別タブ（記事/スポット/求人） */}
-          <CountryTabs
-            countryCode={code}
-            articleCount={articles.length}
-            spotCount={totalSpots}
-          />
-        </div>
+          }
+        />
 
         <div className="max-w-6xl mx-auto px-4 py-8">
 

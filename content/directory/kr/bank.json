@@ -9,7 +9,7 @@
     "lng": null,
     "phone": "+8215881004",
     "website": "https://www.citibank.co.kr",
-    "description": "外資系銀行として在韓外国人に実績のあるシティバンク韓国。英語対応窓口を持ち、外国人登録証不要で口座開設できるケースもある。海外送金サービスが充実しており、日本への送金で利用する在韓日本人も多い。",
+    "description": "在韓外国人に定評のある外資系銀行シティバンク韓国。英語対応窓口を持ち、日本人を含む外国人の口座開設・海外送金をサポートする。",
     "tags": [
       "外国人対応",
       "英語対応",
@@ -17,12 +17,15 @@
       "外資系"
     ],
     "hours": "月〜金 09:00〜16:00",
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "シティバンク韓国は在韓外国人に長年利用されてきた外資系銀行。英語対応の窓口を持ち、外国人登録証がなくても口座開設できるケースがある。海外送金サービスが充実しており、日本への個人送金に活用する在韓日本人も多い。中区ダドンの本店のほか、ソウル市内に複数の支店を展開している。",
+    "japanese_staff": false,
+    "spot_reviewed": true
   },
   {
     "slug": "ibk-industrial-bank-korea",
@@ -34,7 +37,7 @@
     "lng": null,
     "phone": "+8215662566",
     "website": "https://global.ibk.co.kr/",
-    "description": "外国人向けスマホバンキング「i-ONE Bank Global」を提供するIBK。カスタマーセンター（1566-2566）で日本語対応（内線573）。外国人登録証またはパスポートで口座開設可能。",
+    "description": "日本語コールセンター（内線573）を設けるIBK中小企業銀行。外国人向けアプリ「i-ONE Bank Global」で在韓日本人の口座管理が日本語でできる。",
     "tags": [
       "韓国系銀行",
       "外国人対応",
@@ -42,12 +45,15 @@
       "スマホバンキング"
     ],
     "hours": "平日 09:00-18:00",
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "IBK中小企業銀行（Industrial Bank of Korea）は外国人向けのスマホバンキング「i-ONE Bank Global」を提供している。カスタマーセンター（1566-2566）では内線573で日本語対応が受けられる。外国人登録証またはパスポートで口座開設が可能で、留学生や駐在員の利用実績が多い。全国に広い支店網を持ち、日常的な振込・送金・ATM利用に適している。",
+    "japanese_staff": true,
+    "spot_reviewed": true
   },
   {
     "slug": "kakao-bank-korea",
@@ -59,19 +65,22 @@
     "lng": null,
     "phone": null,
     "website": "https://www.kakaobank.com/",
-    "description": "韓国で最も利用者の多いインターネット専業銀行のひとつ。外国人登録証を持つ在留外国人もアプリからオンライン口座開設可能。英語対応メニューあり。ATM手数料が安く日常使いに便利。",
+    "description": "韓国で最も利用者が多いネット専業銀行のひとつ。外国人登録証を持つ在留外国人がアプリからオンライン口座開設可能で、英語メニューあり。",
     "tags": [
       "インターネットバンク",
       "外国人対応",
       "英語対応"
     ],
     "hours": null,
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "KakaoBank（카카오뱅크）は韓国最大のネット専業銀行のひとつ。外国人登録証を持つ在留外国人もスマートフォンのアプリから口座開設が可能で、英語対応メニューを備えている。ATM手数料が低く、スマホからの送金・振込・残高確認が手軽にできるため日常使いに便利。在韓日本人の中でも利便性の高さから利用者が増えている。",
+    "japanese_staff": false,
+    "spot_reviewed": true
   },
   {
     "slug": "kb-kookmin-bank-global-customer-center",
@@ -83,7 +92,7 @@
     "lng": null,
     "phone": "+8215994477",
     "website": "https://omoney.kbstar.com/quics?page=C034893",
-    "description": "日本語を含む6言語対応のKB国民銀行グローバルカスタマーセンター。外国人向け専用支店を全国展開しており、駐在員や留学生が利用しやすい多言語バンキングサービスを提供している。",
+    "description": "KB国民銀行が設ける6言語対応のグローバルカスタマーセンター。日本語対応も含み、外国人向け専用支店を全国展開している韓国最大手銀行。",
     "tags": [
       "韓国系銀行",
       "外国人対応",
@@ -91,12 +100,15 @@
       "コールセンター"
     ],
     "hours": "平日 09:00-18:00（窓口により異なる）",
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "KB国民銀行は韓国最大手の市中銀行のひとつ。グローバルカスタマーセンター（1599-4477）では日本語を含む6言語での対応を提供しており、外国人向け専用支店を全国に展開している。スマホアプリ「KB Star뱅킹」の英語版もあり、在韓外国人が日常的な銀行サービスを利用しやすい環境を整えている。",
+    "japanese_staff": true,
+    "spot_reviewed": true
   },
   {
     "slug": "keb-hana-bank-easy-one-center",
@@ -108,7 +120,7 @@
     "lng": null,
     "phone": "+821599611",
     "website": "https://www.kebhana.com/easyone_index_en.html",
-    "description": "外国人専用の「Easy-One Center」を設けたKEBハナ銀行の明洞拠点。英語・日本語・中国語スタッフが常駐し、口座開設や各種手続きを短時間でこなせる日本人在住者にも便利な窓口。",
+    "description": "外国人専用窓口「Easy-One Center」を設けたKEBハナ銀行の明洞拠点。英語・日本語・中国語スタッフが常駐し、口座開設や各種手続きが素早く完了できる。",
     "tags": [
       "韓国系銀行",
       "外国人対応",
@@ -116,12 +128,15 @@
       "口座開設"
     ],
     "hours": "平日 09:00-16:00",
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "KEBハナ銀行の明洞Easy-One Centerは外国人向け専用窓口として設置されている。英語・日本語・中国語スタッフが常駐し、外国人登録証を持参すれば口座開設や送金手続きを短時間でこなせる。明洞の乙支路沿いに位置し、観光で訪れた際でも立ち寄りやすい。在韓日本人の口座開設実績が多い窓口として知られる。",
+    "japanese_staff": true,
+    "spot_reviewed": true
   },
   {
     "slug": "keb-hana-bank-global-lounge-gangnam",
@@ -133,7 +148,7 @@
     "lng": null,
     "phone": "+821599611",
     "website": "https://www.kebhana.com/",
-    "description": "KEBハナ銀行の江南エリア外国人対応ラウンジ。英語・日本語・中国語スタッフが対応し、外国人登録証を持参すれば口座開設や送金手続きが可能。江南駅周辺でアクセス良好。",
+    "description": "KEBハナ銀行の江南エリア外国人対応ラウンジ。日本語スタッフが常駐し、外国人登録証を持参すれば口座開設・海外送金手続きが可能。",
     "tags": [
       "韓国系銀行",
       "外国人対応",
@@ -141,12 +156,15 @@
       "口座開設"
     ],
     "hours": "平日 09:00-16:00",
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "KEBハナ銀行の江南グローバルラウンジは江南エリアの外国人に利用されている専用窓口。英語・日本語・中国語スタッフが在籍し、外国人登録証持参で口座開設・送金手続きができる。江南駅からアクセスしやすい立地にあり、江南エリアに居住・勤務する在韓日本人の利用が多い。",
+    "japanese_staff": true,
+    "spot_reviewed": true
   },
   {
     "slug": "mizuho-bank-seoul-branch",
@@ -158,19 +176,22 @@
     "lng": null,
     "phone": "+82237828500",
     "website": "https://www.mizuhobank.co.jp/corporate/world/network/asia/index.html",
-    "description": "ソウル金融センター内に構えるみずほ銀行の韓国拠点。日系企業の法人取引・貿易金融を中心に日本人ビジネスマンの利用実績が多い。",
+    "description": "ソウル金融センター内に位置するみずほ銀行の韓国拠点。日系企業の法人取引・貿易金融を専門に提供する。",
     "tags": [
       "日系銀行",
       "法人向け",
       "貿易金融"
     ],
     "hours": null,
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "みずほ銀行ソウル支店はソウル金融センター（世宗大路136）の5階に位置する日系銀行の韓国拠点。日系企業の法人取引を中心に、貿易金融・融資・為替取引などのコーポレートバンキングサービスを提供する。個人向けの口座開設サービスは一般に対応していないが、韓国駐在中の日系企業社員のビジネスバンキングニーズに応えている。",
+    "japanese_staff": true,
+    "spot_reviewed": true
   },
   {
     "slug": "mufg-bank-seoul-branch",
@@ -182,19 +203,22 @@
     "lng": null,
     "phone": "+82221512700",
     "website": "https://www.bk.mufg.jp/global/globalnetwork/asiaoceania/seoul.html",
-    "description": "日本企業・日本人向けコーポレートバンキングを提供する三菱UFJ銀行のソウル支店。1967年設立で150名以上のスタッフが在籍し、法人取引を中心に対応する。",
+    "description": "1967年設立の三菱UFJ銀行ソウル支店。グランドセントラルビル26階に位置し、法人向け銀行サービスを日系企業に提供する。",
     "tags": [
       "日系銀行",
       "法人向け",
       "コーポレートバンキング"
     ],
     "hours": null,
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "三菱UFJ銀行ソウル支店はグランドセントラルビル26階に位置する日系銀行の韓国拠点。1967年の設立以来、150名以上のスタッフで法人取引・融資・貿易金融・為替取引などのコーポレートバンキングサービスを提供してきた。韓国に進出している日系大企業の主要な取引銀行として実績が豊富。",
+    "japanese_staff": true,
+    "spot_reviewed": true
   },
   {
     "slug": "nonghyup-bank-foreigner",
@@ -206,43 +230,22 @@
     "lng": null,
     "phone": "+8215885000",
     "website": "https://banking.nonghyup.com/nhbank.html",
-    "description": "全国に支店を持つ農協銀行。外国人も外国人登録証を持参すれば口座開設可能。英語・中国語・ベトナム語対応の多言語ATMを設置。留学生や在住外国人の利用実績が多い。",
+    "description": "全国に支店を持つ農協銀行（NH）。外国人登録証を持参すれば口座開設可能で、多言語ATMを設置。留学生や長期滞在者に利用実績が多い。",
     "tags": [
       "韓国系銀行",
       "外国人対応",
       "多言語ATM"
     ],
     "hours": "平日 09:00-16:00",
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "sbj-bank-japan",
-    "name": "SBJ Bank",
-    "name_ja": "SBJ銀行",
-    "area": "Seoul (Japan-side service)",
-    "address": null,
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.sbjbank.co.jp/",
-    "description": "韓国系の日本国内銀行。日本からソウルへの送金に強みを持ち、ウリ銀行との提携で韓国側口座への低コスト送金が可能。ソウルへの赴任前に日本で開設しておくと便利。",
-    "tags": [
-      "日韓送金",
-      "日本在住者向け",
-      "韓国系"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-02",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "NH農協銀行は全国に幅広い支店網を持つ韓国の主要銀行。外国人登録証を持参すれば口座開設ができ、英語・中国語・ベトナム語対応の多言語ATMを設置している。日本語での専門サービスは限定的だが、留学生や長期滞在外国人の利用実績が多く、カスタマーセンター（1588-5000）への英語での問い合わせも可能。",
+    "japanese_staff": false,
+    "spot_reviewed": true
   },
   {
     "slug": "shinhan-bank-foreigner-service",
@@ -254,7 +257,7 @@
     "lng": null,
     "phone": "+8215441111",
     "website": "https://www.shinhan.com/en/index.jsp",
-    "description": "新韓銀行が外国人向けに提供するグローバルS20サービス。日本語コールセンター対応あり。外国人登録証で口座開設でき、海外送金・ATM引出しなどを日本語で問い合わせ可能。",
+    "description": "新韓銀行が提供するグローバルS20サービス。日本語コールセンター対応あり。外国人登録証で口座開設でき、海外送金を日本語で問い合わせ可能。",
     "tags": [
       "韓国系銀行",
       "外国人対応",
@@ -262,12 +265,15 @@
       "海外送金"
     ],
     "hours": "平日 09:00-16:00",
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "新韓銀行のグローバルS20サービスは在韓外国人向けの専用サービスで、日本語コールセンターを設けている。外国人登録証で口座開設ができ、海外送金・ATM引き出しなどを日本語で問い合わせられる。スマートフォンアプリでの残高確認・送金も可能で、日常的な銀行取引が日本語でサポートされる体制を整えている。",
+    "japanese_staff": true,
+    "spot_reviewed": true
   },
   {
     "slug": "shinhan-bank-head-office",
@@ -279,7 +285,7 @@
     "lng": null,
     "phone": "+82234498380",
     "website": "https://www.shinhan.com/en/index.jsp",
-    "description": "英語・日本語スタッフが対応する新韓銀行の本店。駐在員を含む外国人向けカード・口座サービスを提供しており、ソウル市庁駅から徒歩5分とアクセス良好。",
+    "description": "英語・日本語スタッフが対応する新韓銀行の本店。外国人向けカード・口座サービスを提供し、ソウル市庁駅から徒歩5分の好立地。",
     "tags": [
       "韓国系銀行",
       "外国人対応",
@@ -287,12 +293,15 @@
       "口座開設"
     ],
     "hours": null,
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "新韓銀行の本店はソウル市庁駅から徒歩約5分の世宗大路に位置する。英語・日本語対応スタッフが在籍し、外国人向けの口座開設やカード発行サービスを提供している。韓国最大規模の銀行グループのひとつとして、在韓駐在員を含む外国人の口座開設実績が豊富。",
+    "japanese_staff": true,
+    "spot_reviewed": true
   },
   {
     "slug": "smbc-seoul-branch",
@@ -304,19 +313,22 @@
     "lng": null,
     "phone": "+82263647000",
     "website": "https://www.smbc.co.jp/global/korea_01.html",
-    "description": "ミレアセット CENTER1 ビルに入居する三井住友銀行ソウル支店。日系企業の韓国法人向け銀行サービスを提供し、乙支路1街駅から徒歩5分とアクセスも良好。",
+    "description": "ミレアセットCENTER1ビルに位置する三井住友銀行ソウル支店。日系企業の韓国法人向けコーポレートバンキングを提供する。",
     "tags": [
       "日系銀行",
       "法人向け",
       "コーポレートバンキング"
     ],
     "hours": null,
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "三井住友銀行ソウル支店はミレアセットCENTER1 ウエストタワー12階に位置する日系銀行の韓国拠点。日系企業の韓国法人向けに融資・貿易金融・為替取引などの法人向け銀行サービスを提供する。乙支路1街駅から徒歩約5分でアクセスしやすい立地にある。個人向けサービスは限定的だが、法人取引を通じた日系企業の韓国事業をサポートしている。",
+    "japanese_staff": true,
+    "spot_reviewed": true
   },
   {
     "slug": "toss-bank-korea",
@@ -328,19 +340,22 @@
     "lng": null,
     "phone": null,
     "website": "https://www.tossbank.com/",
-    "description": "韓国で人気のインターネット専業銀行。外国人登録証があればアプリからオンライン口座開設が可能。日本語メニューはないが手続きがシンプルで在住外国人の利用が増えている。高い預金金利も特徴。",
+    "description": "韓国の人気ネット専業銀行。外国人登録証があればアプリからオンライン口座開設が可能。日本語メニューはないが操作が簡単で高金利が特徴。",
     "tags": [
       "インターネットバンク",
       "外国人対応",
       "オンライン口座開設"
     ],
     "hours": null,
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "Toss Bank（토스뱅크）は韓国のフィンテック企業Vivaリパブリカが運営するネット専業銀行。外国人登録証を持つ在韓外国人もスマートフォンアプリから口座開設が可能。日本語対応はないが直感的なUIで手続きが簡単であることから在住外国人の利用が増えている。他のネット銀行より高い預金金利も特徴のひとつで、特に短期の資金運用に活用されている。",
+    "japanese_staff": false,
+    "spot_reviewed": true
   },
   {
     "slug": "woori-bank-foreigner-center",
@@ -352,7 +367,7 @@
     "lng": null,
     "phone": "+8215992288",
     "website": "https://spib.wooribank.com/pib/Dream?withyou=ENENG0690",
-    "description": "日本語対応コールセンター（1599-2288、8番）を持つウリ銀行。外国人専用29拠点を展開。アプリ「Woori WON Global」が日本語対応しており、日本への送金や残高確認をスマホから行える。",
+    "description": "日本語対応コールセンターを持つウリ銀行の外国人専用センター。アプリ「Woori WON Global」が日本語対応しており、スマホから日本への送金も簡単。",
     "tags": [
       "韓国系銀行",
       "外国人対応",
@@ -360,12 +375,15 @@
       "アプリ対応"
     ],
     "hours": "平日 09:00-18:00",
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "ウリ銀行は日本語対応コールセンター（1599-2288、8番）を設けており、外国人専用29拠点を全国展開している。スマートフォンアプリ「Woori WON Global」は日本語対応しており、日本への送金・残高確認・振込がアプリから完結する。中区ソゴン路の拠点は外国人利用が多く、口座開設から各種手続きを日本語でサポートしてもらえる。",
+    "japanese_staff": true,
+    "spot_reviewed": true
   },
   {
     "slug": "busan-bank-foreign-service",
@@ -377,43 +395,22 @@
     "lng": null,
     "phone": null,
     "website": "https://www.busanbank.co.kr/",
-    "description": "釜山地域最大の銀行。外国人向けサービスも充実しており、釜山駐在員や長期滞在者の口座開設に対応。",
+    "description": "釜山地域最大の地方銀行。外国人向けサービスも充実しており、釜山駐在員や長期滞在者の口座開設・送金に対応する。",
     "tags": [
       "釜山銀行",
       "外国人対応",
       "釜山"
     ],
     "hours": "平日 09:00-16:00",
-    "last_verified": "2026-04-06",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "dankook-bank-foreign",
-    "name": "Dankook Bank (Foreign Customer Service)",
-    "name_ja": "淡国銀行 外国人カスタマーサービス",
-    "area": "Seoul (nationwide)",
-    "address": "Seoul, South Korea",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.dankook.com/",
-    "description": "韓国全国で外国人向けサービスを提供する金融機関。英語対応で、在韓外国人の口座開設・送金に対応。",
-    "tags": [
-      "外国人対応",
-      "英語対応",
-      "全国展開"
-    ],
-    "hours": "平日 09:00-16:00",
-    "last_verified": "2026-04-06",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "BNK釜山銀行は釜山を中心とした地方銀行で、釜山地域における最大手の金融機関。外国人向けサービスを提供しており、釜山在住の外国人駐在員や留学生の口座開設に対応している。特に釜山エリアに拠点を持つ日系企業の社員にとって便利な選択肢。英語対応のコールサービスも利用可能。",
+    "japanese_staff": false,
+    "spot_reviewed": true
   },
   {
     "slug": "jeju-bank-foreign-service",
@@ -425,7 +422,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.jejubank.co.kr/",
-    "description": "済州島地域の銀行。観光客・長期滞在外国人向けのサービスが充実。英語対応で利用しやすい。",
+    "description": "済州島地域の銀行。観光客・長期滞在外国人向けのサービスが充実しており、英語対応で利用しやすい。",
     "tags": [
       "済州銀行",
       "外国人対応",
@@ -433,12 +430,15 @@
       "観光地"
     ],
     "hours": "平日 09:00-16:00",
-    "last_verified": "2026-04-06",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "済州銀行は済州特別自治道を地盤とする地方銀行で、済州島への長期滞在や移住を検討する外国人向けのサービスを提供している。済州島は日本人移住者・ロングステイ者が増えており、現地での銀行口座開設に活用されている。英語対応スタッフが在籍しており、外国人の日常的な金融サービスに対応。",
+    "japanese_staff": false,
+    "spot_reviewed": true
   },
   {
     "slug": "kb-kookmin-bank-gangnam",
@@ -450,7 +450,7 @@
     "lng": null,
     "phone": "+82234537424",
     "website": "https://www.kbstar.com",
-    "description": "外国人向けサービスに定評のあるKB国民銀行のギャンガム支店。多言語対応スタッフが在籍し、外国人登録証があれば口座開設可能。Samsung駅より400メートル。",
+    "description": "外国人対応に定評のあるKB国民銀行の江南支店。多言語対応スタッフが在籍し、外国人登録証持参で口座開設できる。サムスン駅から400m。",
     "tags": [
       "外国人対応",
       "多言語対応",
@@ -458,11 +458,14 @@
     ],
     "hours": "平日 09:00-18:00",
     "status": "unverified",
-    "last_verified": "2026-04-06",
+    "last_verified": "2026-04-07",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "KB国民銀行江南支店はテヘラン路沿いに位置し、サムスン駅から400メートルの好立地にある。多言語対応スタッフが在籍しており、外国人登録証を持参すれば口座開設や送金手続きを行える。KB国民銀行は韓国最大手の市中銀行のひとつで、豊富な支店数と充実したデジタルバンキングサービスが在韓外国人に人気。",
+    "japanese_staff": false,
+    "spot_reviewed": true
   },
   {
     "slug": "hana-bank-gangnam-foreign-exchange",
@@ -474,7 +477,7 @@
     "lng": null,
     "phone": "+82225281580",
     "website": "https://www.kebhana.com",
-    "description": "外国人対応に最も定評があるKEB Hana銀行の外国為替センター。海外送金・両替に特化。16の外国人向け専用支店を展開。テヘラン路に位置しアクセス良好。",
+    "description": "海外送金・両替に特化したKEBハナ銀行の江南外国為替センター。外国人専用支店を16拠点展開し、テヘラン路沿いに位置してアクセス良好。",
     "tags": [
       "外国人対応",
       "海外送金",
@@ -483,11 +486,14 @@
     ],
     "hours": "平日 09:00-17:00",
     "status": "unverified",
-    "last_verified": "2026-04-06",
+    "last_verified": "2026-04-07",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "KEBハナ銀行江南外国為替センターは海外送金・外貨両替に特化した拠点。テヘラン路の江南ファイナンスセンター付近に位置し、在韓外国人の送金需要に対応している。ハナ銀行は全国16カ所の外国人向け専用支店を展開しており、英語対応スタッフが常駐。海外送金の手数料・レートも競争力があり、日本への送金で利用する在韓日本人も多い。",
+    "japanese_staff": false,
+    "spot_reviewed": true
   },
   {
     "slug": "woori-bank-myeongdong",
@@ -499,7 +505,7 @@
     "lng": null,
     "phone": "+82277744011",
     "website": "https://www.wooribank.com",
-    "description": "外国人向けサービスで定評のあるウリ銀行の明洞支店。スマホバンキングが充実しており、英語・中国語対応。日曜営業の外国人向け窓口も有。",
+    "description": "外国人サービスに定評のあるウリ銀行の明洞支店。英語・中国語対応スタッフが在籍し、日曜日も外国人向け窓口が営業している。",
     "tags": [
       "外国人対応",
       "スマホバンキング",
@@ -507,11 +513,14 @@
     ],
     "hours": "平日 09:00-18:00, 日曜 10:00-17:00（窓口による）",
     "status": "unverified",
-    "last_verified": "2026-04-06",
+    "last_verified": "2026-04-07",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "ウリ銀行明洞支店は外国人利用が多い明洞エリアに位置する支店。英語・中国語対応スタッフが在籍し、観光客や在住外国人の口座開設・送金・両替に対応している。特筆すべきは日曜日も外国人向け窓口を設けており、平日に来店できない旅行者や在住者にとって便利。スマートフォンバンキングも充実している。",
+    "japanese_staff": false,
+    "spot_reviewed": true
   },
   {
     "slug": "shinhan-bank-gangnam",
@@ -523,7 +532,7 @@
     "lng": null,
     "phone": "+82214776000",
     "website": "https://www.shinhanbank.com",
-    "description": "新韓銀行はShinhan Cardで知られる韓国大手銀行。英語対応スタッフが常駐し、海外送金・両替サービスが充実。給与振込先として指定できる。",
+    "description": "英語対応スタッフが常駐する新韓銀行の江南支店。海外送金・両替サービスが充実しており、給与振込先として指定できる。",
     "tags": [
       "外国人対応",
       "給与振込",
@@ -531,10 +540,13 @@
     ],
     "hours": "平日 09:00-16:00",
     "status": "unverified",
-    "last_verified": "2026-04-06",
+    "last_verified": "2026-04-07",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "新韓銀行江南支店は江南エリアに位置する主要支店。英語対応スタッフが常駐しており、口座開設・海外送金・両替サービスを提供する。韓国大手のShinhan CardやShinhan証券と連携した総合金融サービスも利用でき、在韓外国人の給与振込先として指定するケースも多い。スマートフォンアプリ「SOL（뱅크）」での日常取引もスムーズ。",
+    "japanese_staff": false,
+    "spot_reviewed": true
   }
 ]

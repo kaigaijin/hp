@@ -353,7 +353,7 @@ export function getNeedsReviewSpots(): Array<
       const raw = fs2.readFileSync(path.join(countryDir, file), "utf-8");
       const spots = JSON.parse(raw) as Array<Spot & { review_note?: string; japanese_staff?: boolean | null }>;
       for (const spot of spots) {
-        if (spot.needs_review) {
+        if (spot.needs_review && spot.status !== "reported_closed") {
           results.push({ ...spot, country, category });
         }
       }

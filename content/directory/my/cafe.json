@@ -7606,7 +7606,7 @@
       "日本式"
     ],
     "hours": "Monday: 10:00 AM – 9:00 PM / Tuesday: 10:00 AM – 9:00 PM / Wednesday: 10:00 AM – 9:00 PM / Thursday: 10:00 AM – 9:00 PM / Friday: 10:00 AM – 9:00 PM / Saturday: 10:00 AM – 9:00 PM / Sunday: 10:00 AM – 9:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJEXn2PJFpOzIRIELGwIkJ1-8",
@@ -7617,7 +7617,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "削除候補：日用品スーパーストア。カフェではなく日本との関連性なし。カテゴリ誤り。",
+    "spot_reviewed": true
   },
   {
     "slug": "osaka-japanese-cuisine",
@@ -7629,13 +7632,14 @@
     "lng": 103.7726,
     "phone": "+601118853199",
     "website": "https://www.facebook.com/profile.php?id=100085673208665",
-    "description": "日本スタイルの料理が楽しめるレストラン。ジョホールバルに位置し、和食・日本式フードメニューとドリンクが揃う。在住日本人にも利用されている。",
+    "description": "大阪城日本料理は、ジョホールバルのタマン・ペランギに位置する日本料理レストラン。ランチ・ディナーともに日本食メニューを提供する。",
     "tags": [
       "カフェ",
-      "日本式"
+      "日本料理",
+      "ジョホールバル"
     ],
     "hours": "Monday: Closed / Tuesday: 12:00 – 2:30 PM, 5:00 – 10:30 PM / Wednesday: 12:00 – 2:30 PM, 5:00 – 10:30 PM / Thursday: 12:00 – 2:30 PM, 5:00 – 10:30 PM / Friday: 12:00 – 10:30 PM / Saturday: 12:00 – 10:30 PM / Sunday: 12:00 – 10:30 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJtcywApxt2jERdTi4Xc4GwiQ",
@@ -7646,7 +7650,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "大阪城日本料理（Osaka Japanese Cuisine）は、ジョホールバルのタマン・ペランギエリアに位置する日本料理レストラン。ジョホールストリート（JB）はシンガポールに近いため、多くの日本食レストランが出店しており、在住日本人・駐在員・日本食ファンが集まるエリア。店名「大阪城」と日本語名が使われており、大阪料理をテーマにした日本料理が楽しめる。ジョホールバル在住の日本人や、シンガポールからジョホールバルに渡ってくる日本人ビジネスマンにも利用されている。Facebook（@Osaka Japanese cuisine 大阪城日本料理）で最新情報を確認できる。",
+    "japanese_staff": null,
+    "price_range": null,
+    "spot_reviewed": true
   },
   {
     "slug": "our-cafe",
@@ -7664,7 +7672,7 @@
       "日本式"
     ],
     "hours": "Monday: 11:00 AM – 11:00 PM / Tuesday: 11:00 AM – 7:00 PM / Wednesday: 11:00 AM – 7:00 PM / Thursday: 11:00 AM – 7:00 PM / Friday: 11:00 AM – 11:00 PM / Saturday: 11:00 AM – 11:00 PM / Sunday: 11:00 AM – 11:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJdQam05pt2jERnhQ4arZ6Qlo",
@@ -7675,7 +7683,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "日本との関連性確認できず。パープルネオン・フォトスポット系カフェ。確認後判断。",
+    "spot_reviewed": true
   },
   {
     "slug": "p-66",
@@ -7687,13 +7698,15 @@
     "lng": 100.3344,
     "phone": "+6042627899",
     "website": "https://www.facebook.com/p66.store/",
-    "description": "マレーシア・ペナンにある日本式カフェ。こだわりのコーヒー・ドリンクとスイーツを提供。日本の喫茶文化を感じられる居心地の良い空間。",
+    "description": "ペナンのジョージタウン、ライターズ系文具店が併設した日本スタイルミニマリストカフェ。木とコンクリートの内装が落ち着く。",
     "tags": [
       "カフェ",
-      "日本式"
+      "日本スタイル",
+      "ペナン",
+      "文具店"
     ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: 9:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJawxLxtfDSjARNPtk8cp-Rg0",
@@ -7704,7 +7717,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "P.66は、ジョージタウンのLebuh Campbellに位置する日本インスパイアのライフスタイルショップ兼カフェ。地元の文具店Writerが拡張する形でオープンした。店内は木とコンクリートを組み合わせたMUJI（無印良品）を彷彿とさせるミニマリストデザインで統一されており、海外旅行者や現地在住の日本人にも人気。文具・雑貨をブラウズしながらコーヒーが楽しめる複合型スペースで、オールデイブレックファスト・ローカル料理・パスタ・スペシャルティドリンクのほか、プレミアムアイスクリームも提供。営業時間は9:00〜18:00（毎日）。ペナンで日本的な落ち着いた空間を求める日本人在住者にも居心地がよいスポット。",
+    "japanese_staff": null,
+    "price_range": "RM15-30",
+    "spot_reviewed": true
   },
   {
     "slug": "pablo-cheese-tart-1-utama",
@@ -7721,7 +7738,7 @@
       "大阪発"
     ],
     "hours": null,
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "ai_reviewed": true,
@@ -7730,7 +7747,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "大阪発のチーズタルト専門店。マレーシア展開は2018年頃に閉店との情報あり。現在の営業状況を要確認。閉店確認できれば削除。",
+    "spot_reviewed": true
   },
   {
     "slug": "pablo-cheese-tart-kl",
@@ -7750,14 +7770,17 @@
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "大阪発PABLOのKL店。住所不明。マレーシア展開は2018年頃閉店との情報あり。現在の営業状況を要確認。閉店確認できれば削除。",
+    "spot_reviewed": true
   },
   {
     "slug": "pablo-cheese-tart-mid-valley",
@@ -7775,7 +7798,7 @@
     ],
     "hours": "10:00-22:00",
     "status": "unverified",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "source": "google_maps",
     "ai_reviewed": true,
     "phone_local": null,
@@ -7783,7 +7806,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "大阪発PABLOのミッドバレー店。マレーシア展開は2018年頃閉店との情報あり。現在の営業状況を要確認。閉店確認できれば削除。",
+    "spot_reviewed": true
   },
   {
     "slug": "pankobo-japanese-bakery",
@@ -7795,13 +7821,15 @@
     "lng": 103.6442,
     "phone": "+6075539618",
     "website": "https://pankobocafe.com/",
-    "description": "ジョホールバルにある日本式ベーカリーカフェ。焼きたてのパンやペストリー、ドリンクを提供。日本のパン文化をマレーシアで楽しめる。",
+    "description": "2013年創業のジョホールバル、ホライゾンヒルズにある日本式ベーカリーカフェ。約80種類のパンを焼き上げる本格的な日本スタイルのパン屋。",
     "tags": [
+      "ベーカリー",
       "カフェ",
-      "ベーカリー"
+      "日本式",
+      "ジョホールバル"
     ],
     "hours": "Monday: 7:00 AM – 5:00 PM / Tuesday: Closed / Wednesday: 7:00 AM – 5:00 PM / Thursday: 7:00 AM – 5:00 PM / Friday: 7:00 AM – 5:00 PM / Saturday: 7:00 AM – 5:00 PM / Sunday: 7:00 AM – 5:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJPXw2RmEL2jERsZTb1_YxOTA",
@@ -7812,7 +7840,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "PanKoboは、ジョホールバルのホライゾンヒルズ（Iskandar Puteri）に2013年にオープンした日本スタイルのベーカリーカフェ。「PanKobo（パン工房）」という名前が示す通り、日本的なパン文化を体現した本格的なベーカリー。約80種類ものパンを焼き上げており、食パン・クリームパン・カレーパン等の日本定番パンから創作系パンまで幅広いラインナップ。カフェコーナーも併設しており、焼きたてパンとドリンクをイートインで楽しめる。ジョホールバルに在住の日本人駐在員家族や、シンガポールから週末に渡ってくる日本人にも人気のスポット。住所はJalan Hijauan 3, Horizon Hills, Iskandar Puteri。",
+    "japanese_staff": null,
+    "price_range": "RM5-15",
+    "spot_reviewed": true
   },
   {
     "slug": "papas-cafe",
@@ -7830,7 +7862,7 @@
       "日本式"
     ],
     "hours": "Monday: 8:00 AM – 6:00 PM / Tuesday: 8:00 AM – 6:00 PM / Wednesday: 8:00 AM – 6:00 PM / Thursday: 8:00 AM – 6:00 PM / Friday: 8:00 AM – 6:00 PM / Saturday: 8:00 AM – 6:00 PM / Sunday: 8:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJT89VvJVpOzIRxD5AK31g6yE",
@@ -7841,7 +7873,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "削除候補：コタキナバル発祥のローカルパストリーチェーン（エッグタルト・カレーパフ・ワッフル等）。日本との関連性なし。",
+    "spot_reviewed": true
   },
   {
     "slug": "papas-cafe-imago",
@@ -7859,7 +7894,7 @@
       "日本式"
     ],
     "hours": "Monday: 10:00 AM – 9:30 PM / Tuesday: 10:00 AM – 9:30 PM / Wednesday: 10:00 AM – 9:30 PM / Thursday: 10:00 AM – 9:30 PM / Friday: 10:00 AM – 9:30 PM / Saturday: 10:00 AM – 9:30 PM / Sunday: 10:00 AM – 9:30 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJGfK87L9pOzIRhufmuUU2bzk",
@@ -7870,7 +7905,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "削除候補：247と同じPapa's CafeチェーンのImago店。ローカルマレーシアパストリー店。日本との関連性なし。",
+    "spot_reviewed": true
   },
   {
     "slug": "papasan-japanesefusion-kuchai",
@@ -7882,13 +7920,14 @@
     "lng": 101.6772,
     "phone": "+60125800883",
     "website": "https://www.papasan.com.my/",
-    "description": "クアラルンプールにある日本スタイルのカフェ。クアラルンプールに位置し、こだわりのドリンクとスイーツが楽しめる居心地のよい空間。",
+    "description": "クアラルンプール、Kuchai Lamaにある日本×西洋フュージョン料理のカジュアルレストラン。オムカレーライスや炙りサーモン丼など創作和食が人気。",
     "tags": [
       "カフェ",
-      "日本式"
+      "日本フュージョン",
+      "クアラルンプール"
     ],
     "hours": "Monday: 11:30 AM – 9:00 PM / Tuesday: 11:30 AM – 9:00 PM / Wednesday: 11:30 AM – 9:00 PM / Thursday: 11:30 AM – 9:00 PM / Friday: 11:30 AM – 9:00 PM / Saturday: 11:30 AM – 9:00 PM / Sunday: 11:30 AM – 9:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJUyZmW0BKzDERs8gLSz0uj64",
@@ -7899,7 +7938,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Papasan Canteen（パパサンカンティーン）は、クアラルンプールのKuchai Lamaに位置する日本×西洋フュージョン料理のカジュアルレストラン。2017年頃のオープン以来、地元フードブロガーや在住日本人から高く評価されている。看板メニューはオムカレーライスにフライドチキンを合わせたシグネチャーディッシュ（チキン3〜5ピース選択可）で、リーズナブルな価格（RM24前後）が人気の理由。チラシ丼（サーモンアブリ・カニカマ・とびこ・フォアグラ乗せ）やボニートフレーク入りホットドッグなど、日本の食材を取り入れた個性的なメニューが揃う。学食風のカジュアルな内装で、エアコンが効いた清潔な空間。Papasan.com.myで詳細を確認できる。",
+    "japanese_staff": null,
+    "price_range": "RM15-35",
+    "spot_reviewed": true
   },
   {
     "slug": "paradiso-cafe",
@@ -7917,7 +7960,7 @@
       "日本式"
     ],
     "hours": "Monday: 8:00 AM – 10:00 PM / Tuesday: 8:00 AM – 10:00 PM / Wednesday: Closed / Thursday: 8:00 AM – 10:00 PM / Friday: 8:00 AM – 10:00 PM / Saturday: 8:00 AM – 10:00 PM / Sunday: 8:00 AM – 10:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJUcYZkfnDSjARIMvNBPrSL9E",
@@ -7928,7 +7971,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "削除候補：西洋系オールデイブレックファストカフェ（ポークフリー）。日本との関連性なし。",
+    "spot_reviewed": true
   },
   {
     "slug": "peak-cafe",
@@ -7940,13 +7986,14 @@
     "lng": 116.0854,
     "phone": "+60128305212",
     "website": null,
-    "description": "コタキナバルにある日本スタイルのカフェ。コタキナバルに位置し、こだわりのドリンクとスイーツが楽しめる居心地のよい空間。在住日本人にも好評。",
+    "description": "コタキナバルにあるFoursquareで「日本料理レストラン」と分類されたカフェ。地元在住者に利用されている。",
     "tags": [
       "カフェ",
-      "日本式"
+      "日本式",
+      "コタキナバル"
     ],
     "hours": "Monday: Closed / Tuesday: 11:30 AM – 3:00 PM, 5:00 – 9:00 PM / Wednesday: 11:30 AM – 3:00 PM, 5:00 – 9:00 PM / Thursday: 11:30 AM – 3:00 PM, 5:00 – 9:00 PM / Friday: 11:30 AM – 3:00 PM, 5:00 – 9:00 PM / Saturday: 11:30 AM – 3:00 PM, 5:00 – 9:00 PM / Sunday: 11:30 AM – 3:00 PM, 5:00 – 9:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ3Q4LgytqOzIRPwEaThLqJwM",
@@ -7957,7 +8004,13 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Peak CafeはFoursquareで「Japanese Restaurant」として分類されているコタキナバルのカフェ。住所は88400 Kota Kinabalu, Sabah。詳細情報（ウェブサイト・SNS）が確認できないため、具体的なメニュー内容は不明だが、日本料理・日本スタイル料理を提供する店舗として記録されている。コタキナバルには日本企業の駐在員・日本人観光客が一定数おり、日本食スポットの需要がある。訪問前に最新情報を確認することを推奨する。",
+    "japanese_staff": null,
+    "price_range": null,
+    "needs_review": true,
+    "review_note": "Foursquareで日本料理として分類。ウェブサイト・SNS確認できず。情報が乏しいため要確認。",
+    "spot_reviewed": true
   },
   {
     "slug": "piu-piu-piu-cafe",
@@ -7969,13 +8022,15 @@
     "lng": 101.697,
     "phone": "+60104063695",
     "website": null,
-    "description": "クアラルンプールにある日本スタイルのカフェ。クアラルンプールに位置し、こだわりのドリンクとスイーツが楽しめる居心地のよい空間。",
+    "description": "クアラルンプール、Kampung Attapにある日本のオーナー運営型コーヒースタンドからインスパイアされた超小型スペシャルティカフェ。日本通のオーナーが営む。",
     "tags": [
       "カフェ",
-      "日本式"
+      "スペシャルティコーヒー",
+      "日本インスパイア",
+      "クアラルンプール"
     ],
     "hours": "Monday: Closed / Tuesday: 12:30 – 6:30 PM / Wednesday: 12:30 – 6:30 PM / Thursday: 12:30 – 6:30 PM / Friday: 12:30 – 6:30 PM / Saturday: 12:30 – 6:30 PM / Sunday: 12:30 – 6:30 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJKZTaOE5JzDERqHUeVbQp5xk",
@@ -7986,7 +8041,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Piu Piu Piuは、クアラルンプールのKampung Attap、Zhongshan Building内に位置する非常に小さなスペシャルティカフェ。オーナーのUnagi氏は日本を頻繁に訪れており、日本の小さなオーナー運営型コーヒースタンドに憧れてこの店をオープンした。都会の喧騒から離れた隠れ家的な雰囲気を重視し、1950年代築のショップハウスを選んだ。豆はローカルロースターAim CoffeeとAim Coffeeを使用し、エスプレッソ・ブラック・ホワイトコーヒーを提供。シグネチャードリンク「Military Latte」は抹茶・バニラシロップ・エスプレッソ・ココアパウダーを組み合わせた一品。日本の喫茶文化・コーヒー哲学を強く意識したコンセプトで、コーヒー好きの日本人にも親しみやすいスポット。",
+    "japanese_staff": false,
+    "price_range": "RM10-20",
+    "spot_reviewed": true
   },
   {
     "slug": "porthutan",
@@ -8004,7 +8063,7 @@
       "日本式"
     ],
     "hours": "Monday: Closed / Tuesday: 3:00 – 11:00 PM / Wednesday: 3:00 – 11:00 PM / Thursday: 3:00 – 11:00 PM / Friday: 3:00 – 11:00 PM / Saturday: 3:00 – 11:00 PM / Sunday: 3:00 – 11:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ9QebDXpt2jERCiBW7OUT0h4",
@@ -8015,7 +8074,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "日本との関連性確認できず。ウェブサイト・SNS情報不足。要確認。",
+    "spot_reviewed": true
   },
   {
     "slug": "pulau-caf",
@@ -8027,13 +8089,16 @@
     "lng": 100.3395,
     "phone": "+601164033063",
     "website": "https://sanrenbrewpulau.wixsite.com/pulau",
-    "description": "マレーシア・ペナンにある日本式のカフェ。厳選した食材を使ったスイーツとこだわりのドリンクメニューで、日本の味をマレーシアで楽しめる。",
+    "description": "ペナン、ジョージタウンのChurch Streetにある日本インスパイアメニュー（チキン南蛮・おにぎり・お茶漬け）を提供するカフェ。無印良品風ミニマリスト内装。",
     "tags": [
       "カフェ",
-      "日本式"
+      "日本インスパイア",
+      "おにぎり",
+      "ペナン",
+      "ノンハラル"
     ],
     "hours": "Monday: 10:30 AM – 6:00 PM / Tuesday: Closed / Wednesday: 10:30 AM – 6:00 PM / Thursday: 10:30 AM – 6:00 PM / Friday: 11:00 AM – 10:00 PM / Saturday: 11:00 AM – 10:00 PM / Sunday: 11:00 AM – 10:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJxwEiWADDSjARPstYewSCxww",
@@ -8044,7 +8109,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Pulau Caféは、ジョージタウンのLebuh Gereja（Church Street）に位置する日本インスパイアのカフェ。ノーポーク・ノーラードメニューで、チキン南蛮・おにぎり・お茶漬けなど日本料理をベースにしたコンフォートフードを提供。自家製ケーキも好評。MUJIを彷彿とさせるミニマリスト内装で、木と土のウォームトーンが落ち着いた雰囲気を作り出している。ペット同伴可能なペットフレンドリースペース。営業時間は月〜木9:00〜18:00、金〜日11:00〜22:00（火曜定休）。ウェブサイト（sanrenbrewpulau.wixsite.com/pulau）でメニューを確認できる。ペナンで日本料理を気軽に楽しみたい日本人在住者・旅行者に適したスポット。",
+    "japanese_staff": null,
+    "price_range": "RM15-30",
+    "spot_reviewed": true
   },
   {
     "slug": "q-cup-caf",
@@ -8062,7 +8131,7 @@
       "日本式"
     ],
     "hours": "Monday: Closed / Tuesday: 8:00 AM – 4:30 PM / Wednesday: 8:00 AM – 4:30 PM / Thursday: 8:00 AM – 4:30 PM / Friday: 8:00 AM – 4:30 PM / Saturday: 8:00 AM – 4:30 PM / Sunday: 8:00 AM – 4:30 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJZbaZ0C42zDERiQSMNiMvOC8",
@@ -8073,7 +8142,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "スペシャルティコーヒー専門店。「Modern Japanese and Arabian」のフレーバーとの言及があるが日本との直接的な関連性は薄い。要確認。",
+    "spot_reviewed": true
   },
   {
     "slug": "raku-raku",

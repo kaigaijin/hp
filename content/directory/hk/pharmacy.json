@@ -16,36 +16,15 @@
       "美容家電"
     ],
     "hours": "10:00〜22:00（店舗により異なる）",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "health-care-pharmacy-central",
-    "name": "Health Care Pharmacy",
-    "name_ja": "ヘルスケア薬局",
-    "area": "Central",
-    "address": "Central, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "香港島セントラルエリアの独立系薬局。薬剤師常駐で処方薬の調剤・市販薬の販売を行う。英語対応可能で、ビジネスエリアに勤務する在住日本人も利用している。",
-    "tags": [
-      "現地薬局",
-      "処方薬",
-      "薬剤師常駐"
-    ],
-    "hours": "月〜金 9:00〜19:00、土 9:00〜17:00",
-    "last_verified": "2026-04-03",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "香港最大手のコスメ・薬局チェーンの一つ、ボンジュール（Bonjour Holdings）。香港全域に100店舗以上を展開し、SK-II・DHC・花王・資生堂など日本ブランドのコスメ・スキンケア・健康食品を幅広く取り扱う。免税対応でお得に購入できる場合があり、在住日本人だけでなく日本人旅行者にも利用率が高い。価格はドラッグストアよりやや高めの傾向があるが、品揃えと立地の良さで支持されている。",
+    "japanese_staff": false,
+    "spot_reviewed": true
   },
   {
     "slug": "hk-airport-pharmacy-mannings",
@@ -65,36 +44,15 @@
       "一時帰国前"
     ],
     "hours": "24時間（ターミナルの営業に準ずる）",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "hk-dispensary-queens-road",
-    "name": "The Hong Kong Dispensary",
-    "name_ja": "ザ・香港薬局",
-    "area": "Central",
-    "address": "Central, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "香港の薬剤師常駐型薬局。処方薬の調剤・市販薬・健康補助食品を取り扱い、医師の処方箋を持参して薬を受け取る際に利用できる。英語・広東語対応が中心。",
-    "tags": [
-      "現地薬局",
-      "処方薬",
-      "薬剤師常駐"
-    ],
-    "hours": "月〜土 9:00〜18:00",
-    "last_verified": "2026-04-03",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "マニングス（Mannings）は香港最大のヘルス＆ビューティーチェーン（350店舗以上）。香港国際空港の出発・到着エリアの両方に店舗があり、24時間営業で利用しやすい。市販薬・日本製コスメ・ビタミン剤・ベビー用品を取り扱い、薬剤師在籍店舗では処方薬の調剤も可能。一時帰国前の薬の補充や、到着直後の緊急の医薬品購入にも便利な立地。価格は市内店舗と大きく変わらない。",
+    "japanese_staff": false,
+    "spot_reviewed": true
   },
   {
     "slug": "hospital-authority-pharmacy-hk",
@@ -106,19 +64,22 @@
     "lng": null,
     "phone": null,
     "website": "https://www.ha.org.hk/",
-    "description": "香港の公立病院（クイーンメアリー病院・プリンセスマーガレット病院等）に附属する薬局。公立病院で受診後の処方薬を安価で受け取れる。日本語対応はないが英語・広東語で対応。",
+    "description": "香港の公立病院（クイーンメアリー病院等）附属薬局。公立病院受診後の処方薬を低価格で受け取れる。英語対応可能で、緊急時の医療費節約にも利用できる。",
     "tags": [
       "公立病院薬局",
       "処方薬",
       "低価格"
     ],
     "hours": "病院薬局により異なる",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "香港の公立病院を管轄する医院管理局（HA）附属の薬局。クイーンメアリー病院・プリンセスマーガレット病院・クイーンエリザベス病院など主要公立病院内に設置されており、公立病院の受診後に処方薬を受け取る窓口となっている。公立病院の受診費は極めて安価（急診HK$180程度）で、処方薬も低価格で受け取れるのが特徴。日本語対応はないが英語・広東語での対応が可能。",
+    "japanese_staff": false,
+    "spot_reviewed": true
   },
   {
     "slug": "mannings-causeway-bay",
@@ -138,12 +99,15 @@
       "ヘルスケア"
     ],
     "hours": "10:00〜22:00（店舗により異なる）",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "マニングスは香港最大のドラッグストアチェーンで銅鑼湾エリアに複数店舗を展開する。SK-II・資生堂・花王・コーセー・ちふれなど日本製スキンケア専用コーナーを設けており、日本人在住者が日本ブランドを手軽に購入できるスポット。薬剤師常駐店舗では処方薬の調剤も可能で、医師の診察後に処方箋を持参して薬を受け取る際にも利用できる。銅鑼湾は日本人在住者が多いエリアのため利用率が高い。",
+    "japanese_staff": false,
+    "spot_reviewed": true
   },
   {
     "slug": "mannings-central",
@@ -163,12 +127,15 @@
       "日本コスメ"
     ],
     "hours": "9:00〜22:00（店舗により異なる）",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "マニングスのセントラル店。QueenズRoad Central沿いのビジネスエリアに位置し、ランチタイムや仕事帰りに立ち寄りやすい立地。市販薬・ビタミン剤・日本製コスメ・花王・資生堂等のスキンケアを取り扱う。薬剤師在籍店舗で処方薬の調剤も対応。在住日本人が日常的な医薬品を職場近くで購入するための定番スポットの一つ。",
+    "japanese_staff": false,
+    "spot_reviewed": true
   },
   {
     "slug": "mannings-taikoo-shing",
@@ -188,12 +155,15 @@
       "日本人居住エリア"
     ],
     "hours": "10:00〜22:00（店舗により異なる）",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "マニングスの太古城（タイクーシン）店。太古城は香港島東部の大型住宅団地で日本人ファミリー駐在員の居住率が特に高いエリア。日本製コスメ・育児用品・市販薬など日本人が日常的に必要とする商品を揃えており、近隣在住の日本人家族が頻繁に利用する存在。花王・メリーズなどの日本ブランド商品も取り扱いが豊富。薬剤師在籍店舗では医薬品相談も可能。",
+    "japanese_staff": false,
+    "spot_reviewed": true
   },
   {
     "slug": "matsukiyo-harbour-city-tsim-sha-tsui",
@@ -213,12 +183,15 @@
       "MTR直結"
     ],
     "hours": "10:00〜22:00",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "マツモトキヨシの香港進出店の一つで九龍側最大のショッピングモール・ハーバーシティ（尖沙咀）に位置する。日本から直輸入の医薬品・コスメ・健康食品約5,000品目を取り扱い、日本国内とほぼ同等価格で購入できる。ハーバーシティはMTR尖沙咀駅直結で九龍側からのアクセスが良好。日本人観光客・在住者ともに利用者が多い旗艦店の一つ。",
+    "japanese_staff": true,
+    "spot_reviewed": true
   },
   {
     "slug": "matsumoto-kiyoshi-causeway-bay",
@@ -230,7 +203,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.matsukiyococokara.com",
-    "description": "マツモトキヨシ香港最大の旗艦店（2022年10月開業、約792㎡）。日本の医薬品・コスメ・日用品を幅広く取り扱う体験型店舗。銅鑼湾駅から徒歩圏内。",
+    "description": "2022年10月開業のマツモトキヨシ香港旗艦店（約792㎡）。銅鑼湾ハンルンセンター内、2フロアで日本製医薬品・コスメを展開。日本語対応スタッフ在籍、AI肌診断も体験できる。",
     "tags": [
       "日系チェーン",
       "旗艦店",
@@ -238,36 +211,15 @@
       "医薬品"
     ],
     "hours": "11:00-23:00",
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "matsumoto-kiyoshi-grand-plaza",
-    "name": "Matsumoto Kiyoshi Grand Plaza",
-    "name_ja": "マツモトキヨシ グランドプラザ店",
-    "area": "旺角（モンコック）",
-    "address": "Grand Plaza, 625 Nathan Road, Mong Kok, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.matsukiyococokara.com",
-    "description": "マツモトキヨシのグランドプラザ店。日本から直輸入の医薬品・コスメ・ビタミン剤を販売。香港の日本人コミュニティからも支持されている日系ドラッグストア。",
-    "tags": [
-      "日系チェーン",
-      "日本コスメ",
-      "医薬品"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-02",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "マツモトキヨシ香港最大の旗艦店（2022年10月開業）。銅鑼湾のハンルンセンター（Hang Lung Centre）G/F・F/Fの2フロアに約792㎡の売り場を展開し、香港における最大規模の店舗。「トウキョウ カオス」をコンセプトに東京の最新トレンドを香港に持ち込んだ体験型店舗で、AI肌診断システムも導入。日本語対応スタッフが在籍し、銅鑼湾駅から徒歩圏内のアクセス良好な立地。",
+    "japanese_staff": true,
+    "spot_reviewed": true
   },
   {
     "slug": "matsumoto-kiyoshi-kwun-tong-apm",
@@ -287,85 +239,15 @@
       "MTR直結"
     ],
     "hours": null,
-    "last_verified": "2026-04-02",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "matsumoto-kiyoshi-moko-mong-kok",
-    "name": "Matsumoto Kiyoshi MOKO Mong Kok",
-    "name_ja": "マツモトキヨシ MOKO旺角店",
-    "area": "旺角（モンコック）",
-    "address": "Shop M56-M57, MTR Floor, MOKO, 193 Prince Edward Road West, Mong Kok, Kowloon, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": "+85229888188",
-    "website": "https://www.matsukiyococokara.com",
-    "description": "マツモトキヨシの旺角店。旺角駅直結のMOKOモール内に位置し、日本コスメ・医薬品を取り扱う。香港内で集客力の高い立地で在住日本人も利用しやすい。",
-    "tags": [
-      "日系チェーン",
-      "日本コスメ",
-      "医薬品",
-      "MTR直結"
-    ],
-    "hours": "10:00-22:00",
-    "last_verified": "2026-04-02",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "matsumoto-kiyoshi-new-town-plaza-sha-tin",
-    "name": "Matsumoto Kiyoshi New Town Plaza Sha Tin",
-    "name_ja": "マツモトキヨシ 沙田新城市廣場店",
-    "area": "沙田（シャーティン）",
-    "address": "Shop 250 - Level 2 & Shop 359 - Level 3, Phase 1, New Town Plaza, 18-19 Sha Tin Centre Street, Sha Tin, New Territories, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.matsukiyococokara.com",
-    "description": "マツモトキヨシの沙田店。日本人駐在員家族が多く住む新界エリアの大型商業施設・新城市廣場に入居し、日本医薬品・コスメを取り扱う。",
-    "tags": [
-      "日系チェーン",
-      "日本コスメ",
-      "医薬品"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-02",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "medicare-pharmacy-hk",
-    "name": "Medicare Pharmacy",
-    "name_ja": "メディケア薬局",
-    "area": "Multiple",
-    "address": "Multiple locations across Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "香港に複数店舗を展開する薬局チェーン。処方薬・市販薬・栄養補助食品を取り扱い、薬剤師が在籍して薬の相談に対応。英語・広東語でのサービスが基本。",
-    "tags": [
-      "現地薬局",
-      "処方薬",
-      "複数拠点"
-    ],
-    "hours": "月〜土 9:00〜20:00（店舗により異なる）",
-    "last_verified": "2026-04-03",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "マツモトキヨシ香港1号店（2022年5月オープン）。観塘APM（Millennium City 5）のUCフロアに位置し、日本の医薬品・コスメ・サプリ・健康食品約5,000品目を取り扱う。MTR観塘駅に直結したモール内にあり九龍東エリアからのアクセスが良好。香港初出店として注目を集めた記念すべき1号店で、日本本国と同品質の商品を香港で購入できる環境を先駆けて提供した。",
+    "japanese_staff": true,
+    "spot_reviewed": true
   },
   {
     "slug": "sasa-cosmetics-hong-kong",
@@ -384,36 +266,15 @@
       "コスメ専門"
     ],
     "hours": "10:00〜22:00（店舗により異なる）",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "welcare-pharmacy-hk",
-    "name": "Welcare Pharmacy Hong Kong",
-    "name_ja": "ウェルケア薬局 香港",
-    "area": "Multiple",
-    "address": "Multiple locations, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "香港の薬剤師常駐型薬局チェーン。処方薬の調剤・市販薬・漢方薬を取り扱う。英語・広東語が中心で、香港在住の日本人が処方箋を持参して薬を受け取る際の選択肢の一つ。",
-    "tags": [
-      "現地薬局",
-      "処方薬",
-      "薬剤師常駐"
-    ],
-    "hours": "月〜土 9:00〜20:00",
-    "last_verified": "2026-04-03",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "detail": "香港最大のコスメ小売チェーン・莎莎（Sa Sa International）。香港・マカオ・中国本土に200店舗以上を展開し、SK-II・SKII・POLA・DHC・資生堂・RMKなどの日本ブランドを免税価格に近い価格で販売している。在住日本人が日本製コスメを日本より安く手に入れられることも多く、特に銅鑼湾・尖沙咀・旺角の主要ショッピングエリアの店舗は利用率が高い。セール期間中はさらに割引が適用される。",
+    "japanese_staff": false,
+    "spot_reviewed": true
   },
   {
     "slug": "matsumoto-kiyoshi-shatin",
@@ -435,7 +296,7 @@
     ],
     "hours": "要問い合わせ",
     "status": "unverified",
-    "last_verified": "2026-04-05",
+    "last_verified": "2026-04-07",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
@@ -443,7 +304,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "マツモトキヨシ沙田ニュータウンプラザ店（2022年5月オープン、香港2号店）。沙田は新界最大の衛星都市で日本人駐在員ファミリーが多く居住するエリア。ニュータウンプラザのL2・L3の2フロアに位置し、日本の医薬品・コスメ・ビタミン剤・健康食品を幅広く取り扱う。日本語対応スタッフも在籍。日本人家族が日常的な日本製品を購入するための定番スポットとして利用されている。",
+    "japanese_staff": true,
+    "spot_reviewed": true
   },
   {
     "slug": "matsumoto-kiyoshi-mongkok-grandplaza",
@@ -465,7 +329,7 @@
     ],
     "hours": "要問い合わせ",
     "status": "unverified",
-    "last_verified": "2026-04-05",
+    "last_verified": "2026-04-07",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
@@ -473,7 +337,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "マツモトキヨシのグランドプラザ旺角店。ネイザンロード沿いの大型ショッピングモール・グランドプラザ（恒隆廣場）のG/F・1/Fの2フロアに位置し、日本の化粧品・医薬品・サプリ・スキンケア用品を取り揃える。旺角は香港内でも特に集客力の高いショッピングエリアで、地元客だけでなく在住日本人・日本人観光客の利用も多い。日本語スタッフが在籍し、接客は日本語・英語・中国語で対応可能。",
+    "japanese_staff": true,
+    "spot_reviewed": true
   },
   {
     "slug": "matsumoto-kiyoshi-mongkok-moko",
@@ -495,7 +362,7 @@
     ],
     "hours": "要問い合わせ",
     "status": "unverified",
-    "last_verified": "2026-04-05",
+    "last_verified": "2026-04-07",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
@@ -503,7 +370,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "マツモトキヨシのMOKO（旺角）店。MTR太子・旺角駅に近接したMOKOショッピングモールのM56-57に位置し、日本の化粧品・医薬品・スキンケア用品を取り扱う。旺角・太子エリアは九龍側の商業中心地で日本人在住者も多く来訪する。駅直結でアクセスが良好なため、通勤途中や週末の立ち寄りにも便利な立地。日本語スタッフが在籍し対応は日本語・英語・中国語。",
+    "japanese_staff": true,
+    "spot_reviewed": true
   },
   {
     "slug": "matsumoto-kiyoshi-tuen-mun",
@@ -525,7 +395,7 @@
     ],
     "hours": "要問い合わせ",
     "status": "unverified",
-    "last_verified": "2026-04-05",
+    "last_verified": "2026-04-07",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
@@ -533,20 +403,23 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "マツモトキヨシの屯門タウンプラザ（Tuen Mun Town Plaza）店。新界西部の主要都市・屯門の大型ショッピングモール内に位置し、日本の化粧品・医薬品・健康食品を取り扱う。屯門は新界西部の中心都市で日本人居住者も一定数おり、近郊在住の日本人が日本製品を入手できる貴重な拠点。日本語スタッフが在籍し日本語でのショッピングをサポート。",
+    "japanese_staff": true,
+    "spot_reviewed": true
   },
   {
     "slug": "daikoku-drug-tst",
     "name": "Daikoku Drug (Tsim Sha Tsui)",
     "name_ja": "大国ドラッグ 尖沙咀店",
-    "area": "尖沙咀（チムサーチョイ）",
-    "address": "G/F, 22-24 Cameron Road, Tsim Sha Tsui, Kowloon, Hong Kong",
+    "area": "Tsim Sha Tsui",
+    "address": "Unit 605-6, 6/F, Everglory Centre, 1B Kimberley Street, Tsim Sha Tsui, Kowloon, Hong Kong",
     "phone": "+85237533969",
     "phone_local": "3753-3969",
     "email": null,
     "website": "https://daikokudrug.com/HK/",
     "source_url": "https://daikokudrug.com/HK/",
-    "description": "日本大手ドラッグストアチェーン「大国ドラッグ」の海外初出店・香港店。2025年8月オープン。尖沙咀キャメロンロードに位置し、約5,000品目の日本製医薬品・化粧品・健康食品を取り扱い。日本本国同等の低価格で提供。",
+    "description": "2025年8月開業のドラッグストア「大国ドラッグ」香港・海外1号店。尖沙咀キンバリーストリートに位置し、約5,000品目の日本製医薬品・コスメを日本国内同等価格で提供。年中無休営業。",
     "tags": [
       "日本ドラッグストア",
       "大国ドラッグ",
@@ -556,7 +429,7 @@
     ],
     "hours": "10:30-23:00（年中無休）",
     "status": "unverified",
-    "last_verified": "2026-04-05",
+    "last_verified": "2026-04-07",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
@@ -564,6 +437,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "大国ドラッグ（Daikoku Drug）の香港初出店・海外1号店（2025年8月7日オープン）。香港を「グレーターチャイナ・東南アジア展開の地域ハブ」と位置付けた戦略拠点。1957年大阪創業のドラッグストアで、約5,000品目の日本製医薬品・コスメ・健康食品・スナックを日本本国と同水準の低価格で提供。尖沙咀のキンバリーストリートに位置し年中無休で営業。オープン記念として非医薬品15%割引セールを実施した。",
+    "japanese_staff": true,
+    "spot_reviewed": true
   }
 ]
