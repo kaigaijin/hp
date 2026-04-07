@@ -156,6 +156,7 @@ export default async function SpotIndexPage({
 
             <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-8">
               <div>
+                <p className="section-label mb-4 text-teal-400">— KAI SPOT</p>
                 <div className="inline-flex items-center gap-2 bg-white/10 text-white/90 text-xs font-medium px-3 py-1.5 rounded-full mb-4">
                   <MapPin size={13} />
                   {country.flag} {country.name} KAIスポット
