@@ -14,9 +14,7 @@ import {
 import {
   MapPin,
   Globe,
-  Mail,
   ChevronRight,
-  ExternalLink,
   BriefcaseBusiness,
   DollarSign,
   Languages,
@@ -27,6 +25,7 @@ import {
   AlertCircle,
 } from "lucide-react";
 import type { Metadata } from "next";
+import JobApplyForm from "@/components/JobApplyForm";
 
 type Params = { country: string; industry: string; slug: string };
 
@@ -84,11 +83,6 @@ export default async function JobDetailPage({
     (j) => j.slug !== slug,
   );
 
-  // 応募先URL（contact_url優先、なければcontact_emailのmailto:）
-  const applyUrl =
-    job.contact_url ??
-    (job.contact_email ? `mailto:${job.contact_email}` : null);
-
   // JSON-LD: JobPosting
   const jobPostingJsonLd = {
     "@context": "https://schema.org",
@@ -136,6 +130,7 @@ export default async function JobDetailPage({
       },
     }),
     ...(job.contact_url && { url: job.contact_url }),
+    // 応募はKaigaijinフォーム経由（contact_emailは公開しない）
   };
 
   const breadcrumbJsonLd = {
@@ -301,18 +296,6 @@ export default async function JobDetailPage({
               </div>
             )}
 
-            {/* モバイル用応募ボタン（ヒーロー内） */}
-            {applyUrl && (
-              <a
-                href={applyUrl}
-                target={job.contact_url ? "_blank" : undefined}
-                rel={job.contact_url ? "noopener noreferrer" : undefined}
-                className="mt-6 inline-flex items-center gap-2 bg-gradient-to-r from-indigo-600 to-indigo-500 hover:from-indigo-700 hover:to-indigo-600 text-white font-bold px-7 py-3.5 rounded-xl transition shadow-md shadow-indigo-200 dark:shadow-none text-sm"
-              >
-                <ExternalLink size={15} />
-                この求人に応募する
-              </a>
-            )}
           </div>
         </div>
 
@@ -457,25 +440,17 @@ export default async function JobDetailPage({
                 )}
               </dl>
 
-              {/* 応募ボタン */}
-              {applyUrl && (
-                <div className="mt-6 pt-6 border-t border-stone-100 dark:border-stone-800">
-                  <a
-                    href={applyUrl}
-                    target={job.contact_url ? "_blank" : undefined}
-                    rel={job.contact_url ? "noopener noreferrer" : undefined}
-                    className="inline-flex items-center gap-2 bg-gradient-to-r from-indigo-600 to-indigo-500 hover:from-indigo-700 hover:to-indigo-600 text-white font-bold px-8 py-4 rounded-xl transition shadow-md shadow-indigo-200 dark:shadow-none text-sm"
-                  >
-                    <Mail size={15} />
-                    この求人に応募する
-                  </a>
-                  <p className="mt-2 text-xs text-stone-400">
-                    応募先: {job.contact_email ?? job.contact_url}
-                  </p>
-                </div>
-              )}
             </div>
           </div>
+
+          {/* 応募フォーム */}
+          <JobApplyForm
+            jobSlug={slug}
+            jobTitle={job.title}
+            country={code}
+            industry={indSlug}
+            companyName={companyName}
+          />
 
           {/* 注意書き */}
           <p className="text-xs text-stone-400 dark:text-stone-500 text-center">
@@ -528,20 +503,6 @@ export default async function JobDetailPage({
           </div>
         </div>
 
-        {/* ─── モバイル固定フッター応募ボタン ──────── */}
-        {applyUrl && (
-          <div className="fixed bottom-0 left-0 right-0 z-50 lg:hidden bg-white/95 dark:bg-stone-900/95 backdrop-blur-sm border-t border-stone-200 dark:border-stone-700 px-4 py-3">
-            <a
-              href={applyUrl}
-              target={job.contact_url ? "_blank" : undefined}
-              rel={job.contact_url ? "noopener noreferrer" : undefined}
-              className="flex items-center justify-center gap-2 w-full bg-gradient-to-r from-indigo-600 to-indigo-500 hover:from-indigo-700 hover:to-indigo-600 text-white font-bold py-4 rounded-xl transition shadow-lg text-sm"
-            >
-              <ExternalLink size={15} />
-              この求人に応募する
-            </a>
-          </div>
-        )}
       </main>
       <Footer />
     </>
