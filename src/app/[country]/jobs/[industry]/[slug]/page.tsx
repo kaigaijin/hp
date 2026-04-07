@@ -48,7 +48,7 @@ export async function generateMetadata({
   const { country: code, industry: indSlug, slug } = await params;
   const country = getCountry(code);
   const industry = getIndustry(indSlug);
-  const job = getJob(code, indSlug, slug);
+  const job = await getJob(code, indSlug, slug);
   if (!country || !industry || !job) return {};
 
   const canonicalUrl = `https://kaigaijin.jp/${code}/jobs/${indSlug}/${slug}`;
@@ -76,13 +76,13 @@ export default async function JobDetailPage({
   const { country: code, industry: indSlug, slug } = await params;
   const country = getCountry(code);
   const industry = getIndustry(indSlug);
-  const job = getJob(code, indSlug, slug);
+  const job = await getJob(code, indSlug, slug);
   if (!country || !industry || !job) notFound();
 
   const companyName = job.company_ja ?? job.company;
   const salary = formatSalary(job);
 
-  const otherJobs = getJobsByIndustry(code, indSlug).filter(
+  const otherJobs = (await getJobsByIndustry(code, indSlug)).filter(
     (j) => j.slug !== slug,
   );
 

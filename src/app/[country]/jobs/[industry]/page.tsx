@@ -17,6 +17,8 @@ import {
   Sparkles,
 } from "lucide-react";
 
+export const dynamic = "force-dynamic";
+
 export function generateStaticParams() {
   return countries.flatMap((c) =>
     JOB_INDUSTRIES.map((ind) => ({
@@ -65,7 +67,7 @@ export default async function JobIndustryPage({
   const industry = getIndustry(slug);
   if (!country || !industry) notFound();
 
-  const jobs = getJobsByIndustry(code, slug);
+  const jobs = await getJobsByIndustry(code, slug);
   const employmentTypes = [...new Set(jobs.map((j) => j.employment_type))];
 
   return (

@@ -38,6 +38,8 @@ const iconMap: Record<string, (size: number) => React.ReactNode> = {
   MoreHorizontal: (s) => <MoreHorizontal size={s} />,
 };
 
+export const dynamic = "force-dynamic";
+
 export function generateStaticParams() {
   return countries.map((c) => ({ country: c.code }));
 }
@@ -74,7 +76,7 @@ export default async function JobsIndexPage({
   const country = getCountry(code);
   if (!country) notFound();
 
-  const counts = getIndustryCounts(code);
+  const counts = await getIndustryCounts(code);
   const totalJobs = Object.values(counts).reduce((a, b) => a + b, 0);
 
   const industriesWithJobs = JOB_INDUSTRIES.filter(

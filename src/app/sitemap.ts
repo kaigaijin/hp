@@ -6,7 +6,7 @@ import { JOB_INDUSTRIES, getAllJobs } from "@/lib/jobs";
 
 const BASE_URL = "https://kaigaijin.jp";
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const entries: MetadataRoute.Sitemap = [];
 
   // トップページ
@@ -70,9 +70,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  // 求人ページ
+  // 求人ページ（Supabase経由: 非同期）
   for (const country of countries) {
-    const jobs = getAllJobs(country.code);
+    const jobs = await getAllJobs(country.code);
     if (jobs.length > 0) {
       entries.push({
         url: `${BASE_URL}/${country.code}/jobs`,
