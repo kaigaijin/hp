@@ -4,7 +4,6 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { getCountry, countries } from "@/lib/countries";
 import {
-  JOB_INDUSTRIES,
   getIndustry,
   getJob,
   getJobsByIndustry,
@@ -12,7 +11,6 @@ import {
   SALARY_TYPE_LABELS,
   formatSalary,
 } from "@/lib/jobs";
-import JobCard from "@/components/JobCard";
 import {
   MapPin,
   Globe,
@@ -334,254 +332,192 @@ export default async function JobDetailPage({
           </div>
         )}
 
-        {/* ─── メインコンテンツ（2カラム） ───────────── */}
-        <div className="max-w-5xl mx-auto px-4 py-8">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-7">
+        {/* ─── メインコンテンツ ───────────────────── */}
+        <div className="max-w-4xl mx-auto px-4 py-8 space-y-5">
 
-            {/* ─── 左カラム（メイン） ─── */}
-            <div className="lg:col-span-2 space-y-6">
-
-              {/* 仕事内容 */}
-              {job.detail && (
-                <div className="bg-white dark:bg-stone-900 rounded-2xl border border-stone-200 dark:border-stone-800 overflow-hidden">
-                  <div className="px-6 py-4 border-b border-stone-100 dark:border-stone-800">
-                    <h2 className="text-sm font-bold text-stone-700 dark:text-stone-200 flex items-center gap-2">
-                      <span className="w-1.5 h-4 bg-indigo-500 rounded-full inline-block" />
-                      仕事内容
-                    </h2>
-                  </div>
-                  <div className="px-6 py-5">
-                    <p className="text-sm text-stone-700 dark:text-stone-300 leading-relaxed whitespace-pre-wrap">
-                      {job.detail}
-                    </p>
-                  </div>
-                </div>
-              )}
-
-              {/* 応募要件 */}
-              {job.requirements && (
-                <div className="bg-white dark:bg-stone-900 rounded-2xl border border-stone-200 dark:border-stone-800 overflow-hidden">
-                  <div className="px-6 py-4 border-b border-stone-100 dark:border-stone-800">
-                    <h2 className="text-sm font-bold text-stone-700 dark:text-stone-200 flex items-center gap-2">
-                      <span className="w-1.5 h-4 bg-teal-500 rounded-full inline-block" />
-                      応募要件
-                    </h2>
-                  </div>
-                  <div className="px-6 py-5">
-                    <p className="text-sm text-stone-700 dark:text-stone-300 leading-relaxed whitespace-pre-wrap">
-                      {job.requirements}
-                    </p>
-                  </div>
-                </div>
-              )}
-
-              {/* 福利厚生 */}
-              {job.benefits && (
-                <div className="bg-white dark:bg-stone-900 rounded-2xl border border-stone-200 dark:border-stone-800 overflow-hidden">
-                  <div className="px-6 py-4 border-b border-stone-100 dark:border-stone-800">
-                    <h2 className="text-sm font-bold text-stone-700 dark:text-stone-200 flex items-center gap-2">
-                      <span className="w-1.5 h-4 bg-amber-400 rounded-full inline-block" />
-                      待遇・福利厚生
-                    </h2>
-                  </div>
-                  <div className="px-6 py-5">
-                    <p className="text-sm text-stone-700 dark:text-stone-300 leading-relaxed whitespace-pre-wrap">
-                      {job.benefits}
-                    </p>
-                  </div>
-                </div>
-              )}
-
-              {/* 他の求人 */}
-              {otherJobs.length > 0 && (
-                <div>
-                  <h2 className="text-sm font-bold text-stone-600 dark:text-stone-300 mb-4 flex items-center gap-2">
-                    <BriefcaseBusiness size={15} className="text-indigo-400" />
-                    {industry.label}の他の求人
-                  </h2>
-                  <div className="space-y-4">
-                    {otherJobs.slice(0, 3).map((j) => (
-                      <JobCard
-                        key={j.slug}
-                        job={j}
-                        countryCode={code}
-                        industry={indSlug}
-                      />
-                    ))}
-                  </div>
-                </div>
-              )}
+          {/* 仕事内容 */}
+          {job.detail && (
+            <div className="bg-white dark:bg-stone-900 rounded-2xl border border-stone-200 dark:border-stone-800 overflow-hidden">
+              <div className="px-6 py-4 border-b border-stone-100 dark:border-stone-800">
+                <h2 className="text-base font-bold text-stone-800 dark:text-stone-100 flex items-center gap-2">
+                  <span className="w-1.5 h-5 bg-indigo-500 rounded-full inline-block" />
+                  仕事内容
+                </h2>
+              </div>
+              <div className="px-6 py-6">
+                <p className="text-base text-stone-700 dark:text-stone-300 leading-relaxed whitespace-pre-wrap">
+                  {job.detail}
+                </p>
+              </div>
             </div>
+          )}
 
-            {/* ─── 右サイドバー（スティッキー） ─── */}
-            <div className="space-y-4 lg:sticky lg:top-24 lg:self-start">
+          {/* 応募要件 */}
+          {job.requirements && (
+            <div className="bg-white dark:bg-stone-900 rounded-2xl border border-stone-200 dark:border-stone-800 overflow-hidden">
+              <div className="px-6 py-4 border-b border-stone-100 dark:border-stone-800">
+                <h2 className="text-base font-bold text-stone-800 dark:text-stone-100 flex items-center gap-2">
+                  <span className="w-1.5 h-5 bg-teal-500 rounded-full inline-block" />
+                  応募要件
+                </h2>
+              </div>
+              <div className="px-6 py-6">
+                <p className="text-base text-stone-700 dark:text-stone-300 leading-relaxed whitespace-pre-wrap">
+                  {job.requirements}
+                </p>
+              </div>
+            </div>
+          )}
 
-              {/* 応募カード */}
+          {/* 待遇・福利厚生 */}
+          {job.benefits && (
+            <div className="bg-white dark:bg-stone-900 rounded-2xl border border-stone-200 dark:border-stone-800 overflow-hidden">
+              <div className="px-6 py-4 border-b border-stone-100 dark:border-stone-800">
+                <h2 className="text-base font-bold text-stone-800 dark:text-stone-100 flex items-center gap-2">
+                  <span className="w-1.5 h-5 bg-amber-400 rounded-full inline-block" />
+                  待遇・福利厚生
+                </h2>
+              </div>
+              <div className="px-6 py-6">
+                <p className="text-base text-stone-700 dark:text-stone-300 leading-relaxed whitespace-pre-wrap">
+                  {job.benefits}
+                </p>
+              </div>
+            </div>
+          )}
+
+          {/* 基本情報 + 応募ボタン（横並び） */}
+          <div className="bg-white dark:bg-stone-900 rounded-2xl border border-stone-200 dark:border-stone-800 overflow-hidden">
+            <div className="px-6 py-4 border-b border-stone-100 dark:border-stone-800">
+              <h2 className="text-base font-bold text-stone-800 dark:text-stone-100 flex items-center gap-2">
+                <span className="w-1.5 h-5 bg-stone-400 rounded-full inline-block" />
+                募集要項
+              </h2>
+            </div>
+            <div className="p-6">
+              <dl className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4">
+                <div>
+                  <dt className="flex items-center gap-1.5 text-xs text-stone-400 mb-1">
+                    <MapPin size={11} /> 勤務地
+                  </dt>
+                  <dd className="text-sm text-stone-700 dark:text-stone-300 font-medium">
+                    {job.location}
+                    {job.nearest_station && (
+                      <span className="block text-xs text-stone-400 font-normal mt-0.5">最寄り: {job.nearest_station}</span>
+                    )}
+                  </dd>
+                </div>
+                <div>
+                  <dt className="flex items-center gap-1.5 text-xs text-stone-400 mb-1">
+                    <DollarSign size={11} /> 給与
+                  </dt>
+                  <dd className="text-sm text-stone-700 dark:text-stone-300 font-medium">{salary}</dd>
+                </div>
+                <div>
+                  <dt className="flex items-center gap-1.5 text-xs text-stone-400 mb-1">
+                    <Clock size={11} /> 雇用形態
+                  </dt>
+                  <dd className="text-sm text-stone-700 dark:text-stone-300">{EMPLOYMENT_TYPE_LABELS[job.employment_type]}</dd>
+                </div>
+                {job.language_requirement && (
+                  <div>
+                    <dt className="flex items-center gap-1.5 text-xs text-stone-400 mb-1">
+                      <Languages size={11} /> 語学要件
+                    </dt>
+                    <dd className="text-sm text-stone-700 dark:text-stone-300">{job.language_requirement}</dd>
+                  </div>
+                )}
+                <div>
+                  <dt className="flex items-center gap-1.5 text-xs text-stone-400 mb-1">
+                    <CalendarDays size={11} /> 掲載日
+                  </dt>
+                  <dd className="text-sm text-stone-700 dark:text-stone-300">
+                    {job.posted_at}
+                    {job.expires_at && (
+                      <span className="block text-xs text-stone-400 mt-0.5">締切: {job.expires_at}</span>
+                    )}
+                  </dd>
+                </div>
+                {job.company_website && (
+                  <div>
+                    <dt className="flex items-center gap-1.5 text-xs text-stone-400 mb-1">
+                      <Globe size={11} /> 企業サイト
+                    </dt>
+                    <dd>
+                      <a
+                        href={job.company_website}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm text-indigo-600 dark:text-indigo-400 hover:underline break-all"
+                      >
+                        {job.company_website}
+                      </a>
+                    </dd>
+                  </div>
+                )}
+              </dl>
+
+              {/* 応募ボタン */}
               {applyUrl && (
-                <div className="bg-gradient-to-br from-indigo-600 to-indigo-500 dark:from-indigo-800 dark:to-indigo-700 rounded-2xl p-5">
-                  <p className="text-white font-bold text-base mb-1">
-                    この求人に応募する
-                  </p>
-                  <p className="text-indigo-200 text-xs mb-4 leading-relaxed">
-                    公式サイトまたはメールから直接応募できます。
-                  </p>
+                <div className="mt-6 pt-6 border-t border-stone-100 dark:border-stone-800">
                   <a
                     href={applyUrl}
                     target={job.contact_url ? "_blank" : undefined}
                     rel={job.contact_url ? "noopener noreferrer" : undefined}
-                    className="flex items-center justify-center gap-2 w-full bg-white text-indigo-700 hover:bg-indigo-50 rounded-xl py-3 text-sm font-bold transition shadow"
+                    className="inline-flex items-center gap-2 bg-gradient-to-r from-indigo-600 to-indigo-500 hover:from-indigo-700 hover:to-indigo-600 text-white font-bold px-8 py-4 rounded-xl transition shadow-md shadow-indigo-200 dark:shadow-none text-sm"
                   >
-                    <ExternalLink size={14} />
-                    応募する
+                    <Mail size={15} />
+                    この求人に応募する
                   </a>
-                  {job.contact_email && job.contact_url && (
-                    <a
-                      href={`mailto:${job.contact_email}`}
-                      className="flex items-center justify-center gap-2 w-full mt-2 bg-indigo-700/50 hover:bg-indigo-700/70 text-white rounded-xl py-2.5 text-xs font-medium transition"
-                    >
-                      <Mail size={13} />
-                      メールで問い合わせ
-                    </a>
-                  )}
-                </div>
-              )}
-
-              {/* メール応募のみの場合 */}
-              {!job.contact_url && job.contact_email && (
-                <div className="bg-white dark:bg-stone-900 rounded-2xl border border-stone-200 dark:border-stone-800 p-5">
-                  <p className="text-sm font-bold text-stone-700 dark:text-stone-200 mb-3">
-                    応募方法
+                  <p className="mt-2 text-xs text-stone-400">
+                    応募先: {job.contact_email ?? job.contact_url}
                   </p>
-                  <a
-                    href={`mailto:${job.contact_email}`}
-                    className="flex items-center justify-center gap-2 w-full bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl py-3 text-sm font-bold transition"
-                  >
-                    <Mail size={14} />
-                    メールで応募する
-                  </a>
                 </div>
               )}
-
-              {/* 基本情報カード */}
-              <div className="bg-white dark:bg-stone-900 rounded-2xl border border-stone-200 dark:border-stone-800 overflow-hidden">
-                <div className="px-5 py-4 border-b border-stone-100 dark:border-stone-800 bg-stone-50 dark:bg-stone-800/50">
-                  <h2 className="text-xs font-bold text-stone-500 dark:text-stone-400 uppercase tracking-wider">
-                    求人情報
-                  </h2>
-                </div>
-                <dl className="p-5 space-y-4">
-                  <div>
-                    <dt className="flex items-center gap-1.5 text-xs text-stone-400 mb-1">
-                      <MapPin size={11} />
-                      勤務地
-                    </dt>
-                    <dd className="text-sm text-stone-700 dark:text-stone-300 font-medium">
-                      {job.location}
-                      {job.nearest_station && (
-                        <span className="block text-xs text-stone-400 font-normal mt-0.5">
-                          最寄り: {job.nearest_station}
-                        </span>
-                      )}
-                    </dd>
-                  </div>
-
-                  <div>
-                    <dt className="flex items-center gap-1.5 text-xs text-stone-400 mb-1">
-                      <DollarSign size={11} />
-                      給与
-                    </dt>
-                    <dd className="text-sm text-stone-700 dark:text-stone-300 font-medium">
-                      {salary}
-                    </dd>
-                  </div>
-
-                  <div>
-                    <dt className="flex items-center gap-1.5 text-xs text-stone-400 mb-1">
-                      <Clock size={11} />
-                      雇用形態
-                    </dt>
-                    <dd className="text-sm text-stone-700 dark:text-stone-300">
-                      {EMPLOYMENT_TYPE_LABELS[job.employment_type]}
-                    </dd>
-                  </div>
-
-                  {job.language_requirement && (
-                    <div>
-                      <dt className="flex items-center gap-1.5 text-xs text-stone-400 mb-1">
-                        <Languages size={11} />
-                        語学要件
-                      </dt>
-                      <dd className="text-sm text-stone-700 dark:text-stone-300">
-                        {job.language_requirement}
-                      </dd>
-                    </div>
-                  )}
-
-                  <div>
-                    <dt className="flex items-center gap-1.5 text-xs text-stone-400 mb-1">
-                      <CalendarDays size={11} />
-                      掲載日
-                    </dt>
-                    <dd className="text-sm text-stone-700 dark:text-stone-300">
-                      {job.posted_at}
-                      {job.expires_at && (
-                        <span className="block text-xs text-stone-400 mt-0.5">
-                          締切: {job.expires_at}
-                        </span>
-                      )}
-                    </dd>
-                  </div>
-
-                  {job.company_website && (
-                    <div>
-                      <dt className="flex items-center gap-1.5 text-xs text-stone-400 mb-1">
-                        <Globe size={11} />
-                        企業サイト
-                      </dt>
-                      <dd>
-                        <a
-                          href={job.company_website}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-sm text-indigo-600 dark:text-indigo-400 hover:underline break-all"
-                        >
-                          {job.company_website}
-                        </a>
-                      </dd>
-                    </div>
-                  )}
-                </dl>
-              </div>
-
-              {/* 注意書き */}
-              <div className="bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-100 dark:border-amber-800 p-4">
-                <p className="text-xs text-amber-700 dark:text-amber-400 leading-relaxed">
-                  掲載情報は変更になる場合があります。応募前に必ず公式サイトで最新情報をご確認ください。
-                </p>
-              </div>
             </div>
           </div>
 
-          {/* ─── 底部CTA ────────────────────────────── */}
-          <div className="mt-12 bg-white dark:bg-stone-900 rounded-2xl border border-stone-200 dark:border-stone-800 p-7 flex flex-col sm:flex-row items-center justify-between gap-5">
-            <div>
-              <p className="font-extrabold text-stone-800 dark:text-stone-100 text-lg">
-                {country.flag} {country.name}の{industry.label}求人をもっと見る
+          {/* 注意書き */}
+          <p className="text-xs text-stone-400 dark:text-stone-500 text-center">
+            掲載情報は変更になる場合があります。応募前に必ず公式サイトで最新情報をご確認ください。
+          </p>
+
+          {/* ─── 関連求人（小さくコンパクト） ────────── */}
+          {otherJobs.length > 0 && (
+            <div className="pt-8 border-t border-stone-100 dark:border-stone-800">
+              <p className="text-xs font-semibold text-stone-400 dark:text-stone-500 uppercase tracking-wider mb-4">
+                {industry.label}の他の求人
               </p>
-              <p className="text-sm text-stone-400 mt-1">
-                日本人向けの求人情報を一覧で確認できます
-              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                {otherJobs.slice(0, 4).map((j) => (
+                  <Link
+                    key={j.slug}
+                    href={`/${code}/jobs/${indSlug}/${j.slug}`}
+                    className="group flex items-start gap-3 bg-white dark:bg-stone-900 rounded-xl border border-stone-200 dark:border-stone-800 hover:border-indigo-300 dark:hover:border-indigo-700 p-3.5 transition"
+                  >
+                    <div className="flex-1 min-w-0">
+                      <p className="text-xs font-bold text-stone-700 dark:text-stone-200 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors line-clamp-2 leading-snug">
+                        {j.title}
+                      </p>
+                      <p className="text-[11px] text-stone-400 mt-1 truncate">{j.company_ja ?? j.company}</p>
+                    </div>
+                    <ArrowRight size={13} className="shrink-0 text-stone-300 group-hover:text-indigo-400 transition-colors mt-0.5" />
+                  </Link>
+                ))}
+              </div>
+              <div className="mt-4 text-center">
+                <Link
+                  href={`/${code}/jobs/${indSlug}`}
+                  className="inline-flex items-center gap-1.5 text-xs text-stone-400 hover:text-indigo-600 transition-colors"
+                >
+                  {industry.label}の求人一覧を見る <ArrowRight size={12} />
+                </Link>
+              </div>
             </div>
-            <Link
-              href={`/${code}/jobs/${indSlug}`}
-              className="shrink-0 inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white font-bold px-7 py-3.5 rounded-xl text-sm transition shadow"
-            >
-              一覧を見る <ArrowRight size={14} />
-            </Link>
-          </div>
+          )}
 
           {/* 業種一覧へ戻る */}
-          <div className="mt-5 text-center">
+          <div className="text-center pb-4">
             <Link
               href={`/${code}/jobs`}
               className="inline-flex items-center gap-1.5 text-sm text-stone-400 hover:text-indigo-600 transition-colors"
