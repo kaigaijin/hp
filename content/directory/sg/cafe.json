@@ -5524,18 +5524,21 @@
   {
     "slug": "meidi-ya-supermarket",
     "name": "Meidi-Ya Supermarket",
-    "name_ja": "明治屋",
+    "name_ja": "明治屋（メイディーヤ）",
     "area": "Singapore",
-    "address": "9 Raffles Blvd, #02 - 26, Singapore 039596",
+    "address": "9 Raffles Blvd, #01-51 to 56 & #02-26 to 36, Millenia Walk, Singapore 039596",
     "phone": "+6563391111",
-    "website": "http://www.meidi-ya.com.sg/",
-    "description": "日本の老舗スーパーマーケット明治屋のシンガポール店。日本の食材・惣菜・スイーツ・デリを幅広く取り扱い、在星日本人に長年愛用されている。",
+    "website": "https://www.meidi-ya.com.sg/en/",
+    "description": "ミレニアウォーク（9 Raffles Blvd）の2階建て旗艦店を持つプレミアム日本スーパーマーケット。日本から空輸・船便で届く生鮮食品、日本酒370種超、北海道直送コーナーが揃う在星日本人御用達の場所。",
     "tags": [
-      "カフェ",
-      "日本食"
+      "日本食材",
+      "スーパーマーケット",
+      "ミレニアウォーク",
+      "日本酒",
+      "北海道"
     ],
-    "hours": "Monday: 10:30 AM – 9:00 PM / Tuesday: 10:30 AM – 9:00 PM / Wednesday: 10:30 AM – 9:00 PM / Thursday: 10:30 AM – 9:00 PM / Friday: 10:30 AM – 9:30 PM / Saturday: 10:00 AM – 9:30 PM / Sunday: 10:00 AM – 9:30 PM",
-    "last_verified": "2026-03-28",
+    "hours": "毎日 10:00〜22:00",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJkcJD6h4Z2jER1jILu0ewCI8",
@@ -5545,23 +5548,35 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Meidi-Ya（明治屋）はシンガポールの在住日本人が最もよく利用するプレミアム日本食材スーパーマーケット。ミレニアウォーク（9 Raffles Blvd）の旗艦店は2020年11月に2階建て24,000平方フィートの最大規模で開業した。Level 1には日本式ベーカリー（神戸老舗の系列）・フードホール・88席の日本コンセプトカフェ＆バー・370種超の日本酒ラインナップを持つワイン&リカーショップが入居。Level 2は本格日本スーパーマーケットで、日本の野菜・果物・肉・生鮮食品を週3回航空便・週1回船便で輸入。北海道直送品コーナー（Hokkaido Dosanko Plaza）は北海道政府公認パートナーとして希少な北海道産品を取り扱う。グレートワールドシティ店など複数店舗あり。毎日10:00〜22:00営業。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null,
+    "menu_highlights": [
+      "日本産生鮮食品（空輸）",
+      "日本酒370種超",
+      "北海道直送コーナー"
+    ]
   },
   {
     "slug": "miam-miam-french-japanese-cafe-kitchen-bugis-junction-all-day-dining",
     "name": "Miam Miam French Japanese Cafe Kitchen (Bugis Junction) All Day Dining",
-    "name_ja": "ミアムミアム (Bugis Junction)",
+    "name_ja": "ミアムミアム（バギス）",
     "area": "Singapore",
     "address": "200 Victoria St, #02 - 14, Singapore 188021",
     "phone": "+6568370301",
     "website": "https://miammiam.sg/",
-    "description": "フレンチと日本料理を融合させたカフェダイニングMiam MiamのBugis Junction店。終日営業でランチからディナーまで日本式フュージョン料理を楽しめる。",
+    "description": "バギスジャンクション（#02-14）のフレンチ×日本融合カフェ。喫茶スタイルの空間でフワフワパンケーキ・クリーミー烏賊墨パスタ・メンタイコフライなどユニークなメニューが揃う。",
     "tags": [
+      "フレンチ日本融合",
       "カフェ",
-      "日本食"
+      "パンケーキ",
+      "バギス",
+      "喫茶スタイル"
     ],
-    "hours": "Monday: 11:30 AM – 9:00 PM / Tuesday: 11:30 AM – 9:00 PM / Wednesday: 11:30 AM – 9:00 PM / Thursday: 11:30 AM – 9:00 PM / Friday: 11:30 AM – 9:30 PM / Saturday: 11:00 AM – 9:30 PM / Sunday: 11:00 AM – 9:00 PM",
-    "last_verified": "2026-03-28",
+    "hours": "月〜日 11:30〜21:30",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJc9PEsLoZ2jERaAxGK1dQd1o",
@@ -5571,23 +5586,35 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Miam Miam（ミアムミアム）はフランス語で「美味しい」を意味するフレンチ×日本融合カフェで、バギスジャンクション（200 Victoria St, #02-14）に位置する。日本の喫茶文化の風情とフランスの職人料理技術を融合したコンセプトで、kissaten（喫茶店）スタイルの居心地の良い空間が特徴。メニューはイカ墨のクリーミーパスタ・メンタイコマヨフライ・パルメザントリュフフライ・ベイクドミソハニーウィングなどのアペタイザー、とろとろのFuwa Fuwa（フワフワ）パンケーキなどのスイーツが評判。全週月〜日11:30〜21:30営業。ウェストゲート店（ジュロン東）も展開中。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null,
+    "menu_highlights": [
+      "Fuwa Fuwaパンケーキ",
+      "クリーミーイカ墨パスタ",
+      "メンタイコマヨフライ"
+    ]
   },
   {
     "slug": "miam-miam-french-japanese-cafe-kitchen-westgate-all-day-dining",
     "name": "Miam Miam French Japanese Cafe Kitchen (Westgate)- All day Dining",
-    "name_ja": "ミアムミアム (Westgate)",
+    "name_ja": "ミアムミアム（ウェストゲート）",
     "area": "Singapore",
     "address": "3 Gateway Dr, #02-27/29 Westgate, Singapore 608532",
     "phone": "+6562541434",
-    "website": "http://miammiam.sg/",
-    "description": "フレンチと日本料理を融合させたカフェダイニングMiam MiamのWestgate店。終日営業でランチからディナーまで日本式フュージョン料理を楽しめる。",
+    "website": "https://miammiam.sg/",
+    "description": "ジュロン東のウェストゲート（#02-27/29）に位置するフレンチ×日本融合カフェ「ミアムミアム」。フワフワパンケーキやフュージョン料理が揃う喫茶スタイルのカフェ。",
     "tags": [
+      "フレンチ日本融合",
       "カフェ",
-      "日本食"
+      "パンケーキ",
+      "ジュロン東",
+      "ウェストゲート"
     ],
     "hours": "Monday: 11:30 AM – 9:00 PM / Tuesday: 11:30 AM – 9:00 PM / Wednesday: 11:30 AM – 9:00 PM / Thursday: 11:30 AM – 9:00 PM / Friday: 11:30 AM – 9:30 PM / Saturday: 11:00 AM – 9:30 PM / Sunday: 11:00 AM – 9:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJtSWVqA8Q2jER4pDxDNMNoLI",
@@ -5597,23 +5624,34 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Miam Miam（ミアムミアム）ウェストゲート店はフレンチ×日本融合カフェ「Miam Miam」のジュロン東店。Westgate（3 Gateway Dr, #02-27/29）に位置し、バギスジャンクション本店と同様のメニューを提供。喫茶スタイルのインテリアで、フワフワパンケーキ・フュージョン前菜・日本スタイルの料理が楽しめる。ジュロン東MRT近くという立地から、近隣住民や在住日本人ファミリー層の利用も多い。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null,
+    "menu_highlights": [
+      "Fuwa Fuwaパンケーキ",
+      "フュージョン前菜"
+    ]
   },
   {
     "slug": "minamoto-kitchoan-s-pte-ltd",
     "name": "Minamoto Kitchoan (s) Pte Ltd",
-    "name_ja": "源 吉兆庵",
+    "name_ja": "源吉兆庵（ミナモト・キッチョアン）",
     "area": "Singapore",
-    "address": "391A Orchard Rd, Singapore 238873",
+    "address": "391A Orchard Rd, #B206-1, Takashimaya Shopping Centre, Singapore 238873",
     "phone": "+6567351315",
     "website": "http://kitchoan.com.sg/",
-    "description": "シンガポールに位置する日本式カフェMinamoto Kitchoan。日本式のドリンクとスイーツを提供するこだわりのカフェ。",
+    "description": "タカシマヤ（#B206-1）入居の日本の老舗和菓子専門店「源吉兆庵」。1993年シンガポール進出の歴史を持ち、フルーツゼリー・最中・羊羹など本格的な和菓子を提供。",
     "tags": [
-      "カフェ",
-      "日本食"
+      "和菓子",
+      "タカシマヤ",
+      "日本老舗",
+      "ギフト",
+      "ゼリー菓子"
     ],
     "hours": "Monday: 11:00 AM – 9:30 PM / Tuesday: 11:00 AM – 9:30 PM / Wednesday: 11:00 AM – 9:30 PM / Thursday: 11:00 AM – 9:30 PM / Friday: 11:00 AM – 9:30 PM / Saturday: 11:00 AM – 9:30 PM / Sunday: 11:00 AM – 9:30 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJE76FM5EZ2jER1rZMEYNlxpM",
@@ -5623,49 +5661,35 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "miracle-coffee",
-    "name": "Miracle Coffee",
-    "name_ja": "ミラクルコーヒー",
-    "area": "Singapore",
-    "address": "6 Bayfront Ave, art science museum, Singapore 018974",
-    "phone": null,
-    "website": "https://www.marinabaysands.com/restaurants/miracle-coffee.html/?utm_source=google&utm_medium=gmb&utm_campaign=miracle_coffee_info_main",
-    "description": "日本式コーヒーとスイーツのカフェMiracle Coffee。日本のカフェ文化をベースにしたこだわりのドリンクとスイーツをシンガポールで楽しめる。",
-    "tags": [
-      "カフェ",
-      "日本食"
-    ],
-    "hours": "Monday: 10:00 AM – 7:00 PM / Tuesday: 10:00 AM – 7:00 PM / Wednesday: 10:00 AM – 7:00 PM / Thursday: 10:00 AM – 7:00 PM / Friday: 10:00 AM – 9:00 PM / Saturday: 10:00 AM – 9:00 PM / Sunday: 10:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJq0BuOGMZ2jER_LDf3Q5GBLo",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Minamoto Kitchoan（源吉兆庵）は日本の岡山県に本店を置く老舗和菓子専門店で、1993年にシンガポールのタカシマヤ（#B206-1, 391A Orchard Rd）に海外1号店を開店した歴史を持つ。「和菓子」は豆・米・小麦・砂糖・寒天・果物などシンプルな素材から作られる日本の伝統的菓子文化を代表する。代表商品は「果の森（Natural Series）」という生フルーツを丸ごと閉じ込めたゼリー菓子「花おうと（Hanaouto）」など、見た目の美しさと繊細な味わいが特徴。ギフト用の詰め合わせや季節限定商品も充実しており、在星日本人が日本の訪問客へのお土産・手土産として利用することが多い。公式オンラインストア（kitchoan.com.sg）でも購入可能。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null,
+    "menu_highlights": [
+      "花おうと（フルーツゼリー）",
+      "Natural Series",
+      "詰め合わせギフト"
+    ]
   },
   {
     "slug": "mochi-mochi",
     "name": "Mochi Mochi",
-    "name_ja": "モチモチ",
+    "name_ja": "もちもちカフェ",
     "area": "Singapore",
     "address": "1 W Coast Dr, #01-103 NEWest, Singapore 128020",
     "phone": "+6598629102",
     "website": "http://instagram.com/mochi_mochi_cafe",
-    "description": "もちもち食感の和スイーツのカフェ。大福やもちアイスなど、もちをテーマにした日本の和菓子メニューが揃うシンガポールの日本式カフェ。",
+    "description": "ウェストコースト（NEWest）の日本人夫婦が営む家庭的な日本食カフェ。本格的な弁当セット・すき焼きなど手作りの和食が手頃な価格で楽しめる隠れ家的な一軒。",
     "tags": [
-      "カフェ",
-      "日本食"
+      "日本料理",
+      "日本人経営",
+      "NEWest",
+      "ウェストコースト",
+      "ベントー"
     ],
-    "hours": "Monday: 11:30 AM – 9:30 PM / Tuesday: 11:30 AM – 9:30 PM / Wednesday: 11:30 AM – 9:30 PM / Thursday: 11:30 AM – 9:30 PM / Friday: 11:30 AM – 9:30 PM / Saturday: 11:30 AM – 9:30 PM / Sunday: 11:30 AM – 9:30 PM",
-    "last_verified": "2026-03-28",
+    "hours": "月・水〜日 11:30〜14:30、17:30〜20:30（火曜定休）",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJLeUzn2Mb2jERteDiMdIPZ3M",
@@ -5675,7 +5699,16 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Mochi Mochi Cafeは1 West Coast Drive #01-103（NEWestショッピングモール）にある日本人夫婦が経営する家庭的な日本食カフェ。オーナーが日本人であることから本格的な和食を手作りで提供しており、ベントーセット（SGD 11）・すき焼き・日本カレーなど家庭料理の味わいが隠れ家的な人気を呼んでいる。ベントーセットにはぬか漬け・メンマ・ポテトサラダなどの小鉢が添えられ、丁寧な手仕事が伝わる。同じNEWestモールにはOishii BakeryやNakanishi Cakesも入居しており、日本食スポットが集まるエリア。火曜定休で月・水〜日は11:30〜14:30と17:30〜20:30営業。",
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "price_range": "SGD 11〜20",
+    "menu_highlights": [
+      "ベントーセット（SGD 11〜）",
+      "すき焼き",
+      "日本カレーセット"
+    ]
   },
   {
     "slug": "monday-coffee-bar",
@@ -5685,13 +5718,16 @@
     "address": "421 Ang Mo Kio Ave 10, Singapore 560421",
     "phone": null,
     "website": "http://www.mondaycoffeebar.com/",
-    "description": "日本式のコーヒーカルチャーをベースにしたカフェMonday Coffee Bar。日本のコーヒー文化にインスパイアされたドリンクをシンガポールで提供。",
+    "description": "アンモキオの日本インスパイア系カフェ「Monday Coffee Bar」。日本式のサンドイッチ（サンド）と玄米茶ラテが人気で、木と白をベースにした居心地の良いスペースが特徴。",
     "tags": [
-      "カフェ",
-      "日本食"
+      "日本式カフェ",
+      "サンドイッチ",
+      "玄米茶ラテ",
+      "アンモキオ",
+      "スペシャルティコーヒー"
     ],
-    "hours": "Monday: 8:30 AM – 4:30 PM / Tuesday: 8:30 AM – 4:30 PM / Wednesday: 8:30 AM – 4:30 PM / Thursday: Closed / Friday: 8:30 AM – 4:30 PM / Saturday: 9:00 AM – 5:30 PM / Sunday: 9:00 AM – 5:30 PM",
-    "last_verified": "2026-03-28",
+    "hours": "平日 8:30〜18:30、土日 9:30〜18:00",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ4aryd_oX2jER8wW0zUiUhPk",
@@ -5701,7 +5737,16 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Monday Coffee Barはアンモキオ（421 Ang Mo Kio Ave 10）に位置する日本インスパイアのコーヒーバー。日本式のサンドイッチ「サンド」とスペシャルティコーヒーをメインに提供し、玄米茶ラテ（Genmaicha Latte）が代表的なドリンク。スモークサーモンサンド（クリームチーズ・キュウリ添え、SGD 8）などが人気メニュー。インドシングルオリジン豆（Dutch Colony）のフラットホワイト・ラテ（各SGD 4.50）も提供。木と白を基調とした10席以下の小さなカフェで、ゆっくり過ごせる隠れ家的な雰囲気。クレメンティにも2号店あり。平日8:30〜18:30、土日9:30〜18:00営業。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": "SGD 4.50〜10",
+    "menu_highlights": [
+      "サンド（日本式サンドイッチ）",
+      "玄米茶ラテ",
+      "スモークサーモンサンド"
+    ]
   },
   {
     "slug": "morimori-yogashi",
@@ -5711,13 +5756,15 @@
     "address": "1 Everton Prk, #01-31, Singapore 081001",
     "phone": "+6593871494",
     "website": "http://www.morimoriyogashi.com/",
-    "description": "日本式の洋菓子のパティスリーもりもり洋菓子。日本の繊細なケーキや焼き菓子をシンガポールで提供するこだわりの日本式パティスリー。",
+    "description": "エバートンパーク（#01-31）の元ミシュランレストラン製菓シェフが開いた日本式ベーカリー。チーズガーリックバン・MSWドリアンシュークリームなどフランス×日本融合の焼き菓子がSGD 2〜の手頃な価格で揃う。",
     "tags": [
-      "カフェ",
-      "日本食"
+      "日本式ベーカリー",
+      "シュークリーム",
+      "エバートンパーク",
+      "チーズガーリックバン"
     ],
-    "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: 9:00 AM – 4:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
+    "hours": "月〜金 9:00〜18:00、土 9:00〜16:00（日曜定休）",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJqeKkkCIZ2jERyFrZd-flxME",
@@ -5727,23 +5774,35 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Morimori Yogashi（もりもり洋菓子）は元ミシュラン1つ星レストランのパティシェ・Terrian Lim氏が2020年に開いた日本式ベーカリー。セドリック・グロレや小泉孝一など受賞歴のあるシェフの下で学んだ技術を活かし、エバートンパークHDB（1 Everton Park #01-31）という庶民的な立地で高品質な和洋菓子を手頃な価格で提供する。シグネチャーのチーズガーリックバンはとろとろのチーズが詰まったふわふわのバンで、ムーシャンワン（MSW）ドリアンを使ったシュークリーム（6個SGD 30）はシーズン限定の人気商品。メンタイコチーズバン・タロ大福・D24クレープケーキロールなども提供。月〜金9:00〜18:00、土9:00〜16:00（日曜定休）。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": "SGD 2〜30",
+    "menu_highlights": [
+      "チーズガーリックバン",
+      "MSWドリアンシュークリーム",
+      "メンタイコチーズバン"
+    ]
   },
   {
     "slug": "mr-obanyaki-taiyaki-japanese-pancakes",
     "name": "Mr Obanyaki Taiyaki Japanese Pancakes",
-    "name_ja": "おばんやき たい焼き",
+    "name_ja": "ミスターおばんやき",
     "area": "Singapore",
     "address": "Orchard Rd, 391 号, B2 Takashimaya Shopping Centre, Singapore 238873",
     "phone": null,
     "website": null,
-    "description": "日本の伝統的なたい焼きのスイーツ店Mr. Obanyaki。つぶあん・カスタードなどの定番フレーバーをシンガポールで手軽に楽しめる日本式屋台スイーツ。",
+    "description": "タカシマヤ地下2階の日本式おばんやき・たい焼きスタンド。2008年から同じ場所で営業し、小豆・カスタード・チョコ・チーズ詰めのたい焼きが在住日本人にも親しまれている。",
     "tags": [
-      "カフェ",
-      "日本食"
+      "たい焼き",
+      "おばんやき",
+      "タカシマヤ",
+      "日本式お菓子",
+      "今川焼き"
     ],
-    "hours": "Monday: 10:00 AM – 9:30 PM / Tuesday: 10:00 AM – 9:30 PM / Wednesday: 10:00 AM – 9:30 PM / Thursday: 10:00 AM – 9:30 PM / Friday: 10:00 AM – 9:30 PM / Saturday: 10:00 AM – 9:30 PM / Sunday: 10:00 AM – 9:30 PM",
-    "last_verified": "2026-03-28",
+    "hours": "毎日 10:00〜21:30",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJNW2HlzUZ2jERO1zE42XxfZA",
@@ -5753,23 +5812,33 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Mr Obanyakiはタカシマヤ・ショッピングセンター地下2階（391 Orchard Rd, B2）に2008年頃から営業している日本式おばんやき・たい焼き専門スタンド。おばんやき（今川焼き）とたい焼きの2種類を提供しており、フィリングは小豆・チョコレート・チーズ・カスタードの4種類から選べる。「たい（鯛）」の形を模したたい焼きは日本の昔ながらの縁起菓子で、その形に由来する。毎日10:00〜21:30営業でランチタイムや買い物帰りのおやつとして人気があり、ピーク時には行列ができることも。タカシマヤはシンガポールの在住日本人が最もよく訪れるデパートのひとつ。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null,
+    "menu_highlights": [
+      "たい焼き（小豆・チョコ・チーズ・カスタード）",
+      "おばんやき"
+    ]
   },
   {
     "slug": "nakanishi-cakes",
     "name": "Nakanishi Cakes",
-    "name_ja": "ナカニシケーキ",
+    "name_ja": "ナカニシケーキ（ハーバーフロント）",
     "area": "Singapore",
     "address": "Maritime Square, #01-34 Harbourfront Centre, Singapore 099253",
     "phone": "+6589238863",
     "website": "https://shopee.sg/nakanishicakes",
-    "description": "日本人パティシエ中西が手がけるケーキショップNakanishi Cakes。日本の繊細なスイーツ技法を活かした本格的なケーキをシンガポールで提供。",
+    "description": "ハーバーフロントセンター（#01-34）の日本式バナナケーキ専門店「ナカニシ」。千葉県発の本格日本バナナケーキに濃厚なダークチョコフォンダンをサンドしたスイーツが在住日本人に人気。",
     "tags": [
-      "カフェ",
-      "日本食"
+      "バナナケーキ",
+      "日本スイーツ",
+      "ハーバーフロント",
+      "日本発ブランド"
     ],
     "hours": "Monday: 9:00 AM – 9:00 PM / Tuesday: 9:00 AM – 9:00 PM / Wednesday: 10:00 AM – 9:00 PM / Thursday: 9:00 AM – 9:00 PM / Friday: 9:00 AM – 9:00 PM / Saturday: 9:00 AM – 9:00 PM / Sunday: 9:00 AM – 9:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJA7XQHYwb2jERgMU1oSVc-lI",
@@ -5779,23 +5848,32 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Nakanishi Cakes（ナカニシケーキ）は日本の千葉県に発祥する本格日本バナナケーキ専門店のシンガポール店。ハーバーフロントセンター（1 Maritime Square #01-34）とNEWestの2店舗を展開。特徴はしっとりとした日本式のバナナケーキの中に60%プレミアムダークチョコレートフォンダンを挟んだ濃厚なスイーツ。手頃な価格で品質の高さを提供しており、午後のおやつや手土産として在住日本人にも購入される。電話番号は+65 8923 8863。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null,
+    "menu_highlights": [
+      "日本バナナケーキ（ダークチョコフォンダン入り）"
+    ]
   },
   {
     "slug": "nakanishi-cakes-2",
     "name": "Nakanishi Cakes",
-    "name_ja": "ナカニシケーキ",
+    "name_ja": "ナカニシケーキ（NEWest）",
     "area": "Singapore",
     "address": "1 W Coast Dr, #01-K7 NEWest, Singapore 128020",
     "phone": "+6589238863",
     "website": "https://shopee.sg/nakanishicakes",
-    "description": "日本人パティシエ中西が手がけるNakanishi Cakesの支店。日本の繊細なスイーツ技法を活かした本格ケーキをシンガポール別店舗でも提供。",
+    "description": "ウェストコースト（NEWest #01-K7）の日本式バナナケーキ専門店「ナカニシ」。千葉県発の本格日本バナナケーキにダークチョコを挟んだスイーツが人気。",
     "tags": [
-      "カフェ",
-      "日本食"
+      "バナナケーキ",
+      "日本スイーツ",
+      "NEWest",
+      "ウェストコースト"
     ],
     "hours": "Monday: 11:00 AM – 3:00 PM / Tuesday: 10:30 AM – 9:00 PM / Wednesday: 10:30 AM – 9:00 PM / Thursday: 10:30 AM – 9:00 PM / Friday: 10:30 AM – 9:00 PM / Saturday: 10:30 AM – 9:00 PM / Sunday: 10:30 AM – 9:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJHb-yZ6cb2jER_iXdSsRCLow",
@@ -5805,77 +5883,33 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "nana-green-tea-sg",
-    "name": "Nana's Green Tea",
-    "name_ja": "ナナズグリーンティー",
-    "area": "Orchard",
-    "address": "Orchard Road, Singapore",
-    "phone": null,
-    "website": null,
-    "description": "京都発の抹茶カフェチェーン。抹茶ラテ・抹茶パフェ・抹茶ティラミスなど抹茶スイーツとドリンクを提供。和の空間でゆったりくつろげる。",
-    "tags": [
-      "抹茶",
-      "カフェ",
-      "スイーツ",
-      "京都"
-    ],
-    "hours": "毎日 10:00-22:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "nana-green-tea-vivocity-cafe",
-    "name": "Nana's Green Tea VivoCity",
-    "name_ja": "ナナズグリーンティー ビボシティ店",
-    "area": "HarbourFront",
-    "address": "1 Harbourfront Walk, #01-167, VivoCity, Singapore 098585",
-    "phone": null,
-    "website": null,
-    "description": "京都発の抹茶カフェチェーン。抹茶ラテ、抹茶パフェ、抹茶白玉ぜんざいなど豊富な抹茶メニューを提供。丼やパスタなどフードメニューも充実。",
-    "tags": [
-      "抹茶",
-      "カフェ",
-      "チェーン",
-      "京都発"
-    ],
-    "hours": "11:00-21:30",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Nakanishi Cakes（ナカニシケーキ）NEWest店は1 West Coast Drive #01-K7（NEWestショッピングモール）にある日本バナナケーキ専門店。ハーバーフロントセンターと同一ブランドで、日本の千葉発の本格バナナケーキに60%プレミアムダークチョコレートフォンダンを挟んだ看板商品を提供する。NEWestには同じフロアにMochi Mochi Cafe（日本人夫婦経営）やOishii Bakeryも入っており、日本食スポットとして知られる。電話番号は+65 8923 8863（ハーバーフロント店と同一の可能性）。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null,
+    "menu_highlights": [
+      "日本バナナケーキ（ダークチョコフォンダン入り）"
+    ]
   },
   {
     "slug": "nanas-green-tea",
     "name": "Nana's Green Tea",
-    "name_ja": "ナナズグリーンティー",
+    "name_ja": "ナナズグリーンティー（プラザシンガプーラ）",
     "area": "Singapore",
-    "address": "The Atrium @, 68 Orchard Rd, #03-80/82 Orchard, Plaza 238839",
+    "address": "68B Orchard Rd, #03-80/82, The Atrium@Orchard, Plaza Singapura, Singapore 238839",
     "phone": "+6568846542",
-    "website": "https://www.instagram.com/nanasgreenteasingapore/",
-    "description": "日本の抹茶カフェチェーン「ナナズグリーンティー」のシンガポール店。抹茶ラテ・抹茶パフェ・白玉スイーツに加え、丼物やうどんの食事メニューも提供。",
+    "website": "https://global.nanasgreentea.com/",
+    "description": "プラザシンガプーラ（#03-80/82）の日本の抹茶カフェ「ナナズグリーンティー」。東京自由が丘発で、抹茶ドリンク・和スイーツ・日本食定食が揃う在星日本人の定番カフェ。",
     "tags": [
-      "カフェ",
-      "日本食"
+      "抹茶",
+      "日本茶カフェ",
+      "オーチャード",
+      "プラザシンガプーラ",
+      "和スイーツ"
     ],
-    "hours": "Monday: 11:00 AM – 9:00 PM / Tuesday: 11:00 AM – 9:00 PM / Wednesday: 11:00 AM – 9:00 PM / Thursday: 11:00 AM – 9:30 PM / Friday: 11:00 AM – 9:30 PM / Saturday: 11:00 AM – 9:30 PM / Sunday: 11:00 AM – 8:30 PM",
-    "last_verified": "2026-03-28",
+    "hours": "月〜水 11:00〜21:00、木〜土 11:00〜21:30、日 11:00〜20:30",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJMW3cfr0Z2jERacQ0r-JC6ZU",
@@ -5885,77 +5919,35 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "nanas-green-tea-ion",
-    "name": "Nana's Green Tea (ION Orchard)",
-    "name_ja": "ナナズグリーンティー ION Orchard",
-    "area": "Orchard",
-    "address": "2 Orchard Turn, #B4-07, ION Orchard, Singapore 238801",
-    "phone": null,
-    "website": "https://www.nanasgreentea.com/",
-    "description": "日本発の抹茶カフェチェーン「ナナズグリーンティー」のIONオーチャード店。抹茶ラテ・パフェ・スイーツに加え、丼物やうどんの食事メニューも揃う。",
-    "tags": [
-      "抹茶",
-      "カフェ",
-      "日本チェーン",
-      "食事可"
-    ],
-    "hours": "毎日 10:00-22:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "nanas-green-tea-takashimaya",
-    "name": "Nana's Green Tea Takashimaya",
-    "name_ja": "ナナズグリーンティー 高島屋",
-    "area": "Orchard",
-    "address": "391 Orchard Road, Takashimaya, Singapore 238873",
-    "phone": null,
-    "website": null,
-    "description": "日本発の抹茶カフェチェーン「ナナズグリーンティー」の高島屋店。抹茶ラテ、パフェ、白玉ぜんざいなど豊富な抹茶メニューと丼物も提供。",
-    "tags": [
-      "抹茶",
-      "カフェ",
-      "チェーン",
-      "京都発"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-28",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Nana's Green Tea（ナナズグリーンティー）は東京・自由が丘発の日本の抹茶カフェチェーンのシンガポール店。プラザシンガプーラ（68B Orchard Rd, #03-80/82）に位置し、シンガポールでは「抹茶のスターバックス」とも呼ばれる存在感を持つ。抹茶ラテ・抹茶ソフトクリーム・あんみつ・白玉ぜんざいなどの和スイーツから、定食・丼ものなどの日本食まで幅広いメニューを提供。在住日本人のランチや甘味タイムに人気で、抹茶のコクと日本の居心地の良い空間が支持されている。月〜水11:00〜21:00、木〜土11:00〜21:30、日11:00〜20:30営業。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null,
+    "menu_highlights": [
+      "抹茶ラテ",
+      "抹茶ソフトクリーム",
+      "あんみつ",
+      "日本食定食"
+    ]
   },
   {
     "slug": "oaks-coffee-co",
     "name": "Oaks Coffee Co.",
-    "name_ja": "オークスコーヒー",
+    "name_ja": "オークスコーヒーカンパニー",
     "area": "Singapore",
     "address": "223 Upper Thomson Rd, Singapore 574355",
     "phone": "+6587523151",
     "website": "https://www.oakscoffeeco.com/",
-    "description": "日本のコーヒー文化をベースにしたカフェOaks Coffee Co。日本式のドリップコーヒーとスイーツをシンガポールで提供するこだわりのカフェ。",
+    "description": "アッパートムソンのスペシャルティコーヒーバー「Oaks」。プレミアム抹茶と日本産茶葉を取り入れたドリンクが揃い、和のフュージョン料理も提供する在住日本人の多い地区のカフェ。",
     "tags": [
-      "カフェ",
-      "日本食"
+      "スペシャルティコーヒー",
+      "抹茶",
+      "アッパートムソン",
+      "ブランチ"
     ],
     "hours": "Monday: 10:00 AM – 10:00 PM / Tuesday: 10:00 AM – 10:00 PM / Wednesday: Closed / Thursday: 10:00 AM – 10:00 PM / Friday: 10:00 AM – 10:00 PM / Saturday: 9:00 AM – 10:00 PM / Sunday: 9:00 AM – 10:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ7bExg3IX2jER5tsMkwKDduU",
@@ -5965,24 +5957,35 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Oaks Coffee Coはアッパートムソン（223 Upper Thomson Rd）にある独立系スペシャルティコーヒーバー。Kinsmen Coffee（2013年創業）を前身とし、抹茶・ほうじ茶など日本産茶葉を活用したドリンクと、アジア風味を加えたフュージョン料理を提供する。プレミアム抹茶は厳選農家から仕入れており、コーヒー好きと抹茶好き双方に対応。ブランチメニューはグローバルな素材と地元食材を組み合わせたフュージョン料理が中心。30席のこぢんまりした空間で、ヨーロッパ風のアンティークブルーの外観が目印。在住日本人の多いアッパートムソンエリアに位置し、週末のブランチや一人コーヒー利用に利用される。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null,
+    "menu_highlights": [
+      "プレミアム抹茶ラテ",
+      "スペシャルティコーヒー",
+      "フュージョンブランチ"
+    ]
   },
   {
     "slug": "oishi-pan-bakery",
     "name": "Oishi Pan Bakery",
-    "name_ja": "おいしいパンベーカリー",
+    "name_ja": "おいしいパン（オイシパン・ベーカリー）",
     "area": "Singapore",
     "address": "190 Lor 6 Toa Payoh, #01-572, Singapore 310190",
     "phone": "+6562545994",
     "website": "https://oishipan.sg/",
-    "description": "シンガポールに位置する日本式カフェOishi Pan Bakery。焼きたての日本式パンや焼き菓子を提供するこだわりのカフェ。",
+    "description": "トア・パヨのHDB内にある2016年創業の日本式ベーカリー「おいしいパン屋」。日本産小麦・プレミアムバターを使った手作りのもちもち食パン・クリームパンが在住日本人にも人気。",
     "tags": [
-      "カフェ",
-      "ベーカリー",
-      "日本食"
+      "日本式ベーカリー",
+      "トア・パヨ",
+      "もちパン",
+      "クリームパン",
+      "無添加"
     ],
-    "hours": "Monday: 8:00 AM – 9:30 PM / Tuesday: 8:00 AM – 9:30 PM / Wednesday: 8:00 AM – 9:30 PM / Thursday: 8:00 AM – 9:30 PM / Friday: 8:00 AM – 9:30 PM / Saturday: 8:00 AM – 9:30 PM / Sunday: 8:00 AM – 9:30 PM",
-    "last_verified": "2026-03-28",
+    "hours": "毎日 8:00〜21:30",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ1aPC8mYX2jERFhp-7lItM_E",
@@ -5992,24 +5995,34 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Oishi Pan Bakery（おいしいパン屋）は2016年設立のシンガポール発日本式ベーカリー。トア・パヨモール（190 Lor 6 Toa Payoh, #01-572）に旗艦店を持ち、シンガポール全3店舗を展開する。日本産高品質小麦とプレミアムバターを使用し、日本の製パン技術と現代技術を組み合わせた手作りパンが特徴。アールグレイホワイトチョコパン・QQもちもちパン（独特のもちもち食感）・バナナクルミローフなど保存料・人工添加物不使用のヘルシー志向のラインナップ。SGD 58以上で無料配達にも対応。毎日8:00〜21:30営業。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null,
+    "menu_highlights": [
+      "QQもちもちパン",
+      "アールグレイホワイトチョコパン",
+      "クリームパフ"
+    ]
   },
   {
     "slug": "oishii-bakery",
     "name": "Oishii Bakery",
-    "name_ja": "おいしいベーカリー",
+    "name_ja": "おいしいベーカリー（ビュキティマ）",
     "area": "Singapore",
     "address": "144 Upper Bukit Timah Rd, Level 4 -02, Singapore 588177",
     "phone": "+6567770811",
     "website": "https://oishiibakery.com.sg/shop/",
-    "description": "「美味しい」をコンセプトにした日本式ベーカリーOISHII。日本のパン文化をベースにした食パン・菓子パンをシンガポールで提供する日本式パン屋。",
+    "description": "ビューティーワールドセンター（ビュキティマ #04-02）の日本式ベーカリー「おいしいベーカリー」。チーズケーキ・シュークリーム・パルメザンガーリックロールなど和洋折衷の焼き菓子が揃う。",
     "tags": [
-      "カフェ",
-      "ベーカリー",
-      "日本食"
+      "日本式ベーカリー",
+      "ビュキティマ",
+      "ビューティーワールドセンター",
+      "ケーキ"
     ],
     "hours": "Monday: 9:00 AM – 7:15 PM / Tuesday: 9:00 AM – 7:15 PM / Wednesday: 9:00 AM – 7:15 PM / Thursday: 9:00 AM – 7:15 PM / Friday: 9:00 AM – 7:15 PM / Saturday: 9:00 AM – 7:15 PM / Sunday: 9:00 AM – 7:15 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJHwZEaooQ2jERpnOFFRDD19c",
@@ -6019,24 +6032,34 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Oishii Bakery（おいしいベーカリー）はビューティーワールドセンター（144 Upper Bukit Timah Rd, #04-02）とウェストコーストプラザ（#B1-24/25）の2店舗を持つ日本式ベーカリー。「おいしい（Oishii）」は日本語で「美味しい」を意味し、日本のパン・洋菓子インスパイアの焼き菓子を提供する。フラワーパイナップルタルト・日本式ライトチーズケーキ・チョコブラウニーケーキ・コーヒースイスロール・パルメザンガーリックロール・カスタードシュークリームなど幅広い商品ラインナップ。誕生日ケーキや各種イベント用のカスタムケーキのオーダーも受け付ける。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null,
+    "menu_highlights": [
+      "日本式ライトチーズケーキ",
+      "パルメザンガーリックロール",
+      "カスタードシュークリーム"
+    ]
   },
   {
     "slug": "oishii-bakery-2",
     "name": "Oishii Bakery",
-    "name_ja": "おいしいベーカリー",
+    "name_ja": "おいしいベーカリー（ウェストコースト）",
     "area": "Singapore",
     "address": "154 W Coast Rd, Singapore 127371",
     "phone": "+6567758987",
-    "website": "https://thesmartlocal.com/reviews/singapore/eateries/dessert-snacks-eateries/bake-cake/oishii-bakery/",
-    "description": "シンガポールに位置する日本式カフェOishii Bakery。焼きたての日本式パンや焼き菓子を提供するこだわりのカフェ。",
+    "website": "https://oishiibakery.com.sg/shop/",
+    "description": "ウェストコーストプラザ（#B1-24/25）の日本式ベーカリー「おいしいベーカリー」。和洋折衷の焼き菓子が揃い、ビューティーワールドセンターと同ブランドの2号店。",
     "tags": [
-      "カフェ",
-      "ベーカリー",
-      "日本食"
+      "日本式ベーカリー",
+      "ウェストコースト",
+      "ケーキ",
+      "焼き菓子"
     ],
     "hours": "Monday: 9:00 AM – 9:00 PM / Tuesday: 9:00 AM – 9:00 PM / Wednesday: 9:00 AM – 9:00 PM / Thursday: 9:00 AM – 9:00 PM / Friday: 9:00 AM – 9:00 PM / Saturday: 9:00 AM – 9:00 PM / Sunday: 9:00 AM – 9:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJHwZEaooQ2jERcnbZtgFqvNo",
@@ -6046,23 +6069,35 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Oishii Bakery（おいしいベーカリー）ウェストコーストプラザ店は154 West Coast Road #B1-24/25に位置し、ビューティーワールドセンター店と同じブランドの2号店。日本式の焼き菓子・ケーキ・パンを手頃な価格で提供しており、ウェストコーストエリアの在住日本人にも利用される。フラワーパイナップルタルト・チーズケーキ・シュークリームなど多彩な商品を取り揃えており、イベント用カスタムケーキのオーダーも可能。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null,
+    "menu_highlights": [
+      "日本式ライトチーズケーキ",
+      "フラワーパイナップルタルト",
+      "シュークリーム"
+    ]
   },
   {
     "slug": "omot",
     "name": "Omoté",
-    "name_ja": "オモテ",
+    "name_ja": "おもて（トムソンプラザ）",
     "area": "Singapore",
     "address": "301 Upper Thomson Rd, #03-24A Thomson Plaza, Singapore 574408",
     "phone": "+6594501020",
     "website": "https://www.omote.sg/",
-    "description": "日本食レストランOmotéのシンガポール店。厳選された旬の食材を使った本格日本料理を落ち着いたダイニング空間で提供するシンガポールの日本食店。",
+    "description": "トムソンプラザ（#03-24A）の人気日本料理レストラン「おもて」。バラちらし丼・寿司ロールで知られ、10席の小さな食堂から成長したアフォーダブルな本格和食が在住日本人に評判。",
     "tags": [
-      "カフェ",
-      "日本食"
+      "日本料理",
+      "ちらし丼",
+      "寿司ロール",
+      "トムソンプラザ",
+      "アッパートムソン"
     ],
-    "hours": "Monday: Closed / Tuesday: Closed / Wednesday: 11:30 AM – 2:00 PM, 5:30 – 9:00 PM / Thursday: 11:30 AM – 2:00 PM, 5:30 – 9:00 PM / Friday: 11:30 AM – 2:00 PM, 5:30 – 9:00 PM / Saturday: 11:30 AM – 2:00 PM, 5:30 – 9:00 PM / Sunday: 11:30 AM – 2:00 PM, 5:30 – 9:00 PM",
-    "last_verified": "2026-03-28",
+    "hours": "水〜日 11:30〜14:00、17:30〜21:00 / 月 11:30〜14:00（火曜定休）",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJNxkcycUX2jERQy0E0S6-P8c",
@@ -6072,23 +6107,35 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Omoté（おもて）はトムソンプラザ（301 Upper Thomson Rd, #03-24A）に位置する日本料理レストラン。元々はトムソンプラザのフードホール内の12席「鮨ろ」として出発し、バラちらし丼のリーズナブルな価格設定で評判を呼び、現在の規模に成長した。日本料理をベースに世界各国の食材・フレーバーを取り入れたプログレッシブ日本料理を提供し、ランチのちらし丼（SGD 12.80〜）・寿司ロール・丼ものが看板メニュー。アッパートムソンは在住日本人が多く住む地域でもあり、平日ランチ・週末ランチを楽しむ日本人客も多い。水〜日11:30〜14:00・17:30〜21:00、月11:30〜14:00（火曜定休）。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": "SGD 12.80〜",
+    "menu_highlights": [
+      "バラちらし丼（SGD 12.80〜）",
+      "寿司ロール",
+      "丼もの"
+    ]
   },
   {
     "slug": "otter-and-pebbles",
     "name": "Otter & Pebbles",
-    "name_ja": "オッター＆ペブルス",
+    "name_ja": "オッター＆ペブルズ",
     "area": "Singapore",
     "address": "8, Sinaran drive #01-05/07, Outside of Oasia Hotel, First floor corner unit, Singapore 307470",
     "phone": "+6586904390",
     "website": "https://www.instagram.com/otterpebbles",
-    "description": "日本風のドリンクとスイーツのカフェOtter & Pebbles。居心地の良い空間で日本式の飲み物とお菓子をゆったり楽しめる。",
+    "description": "ノヴェナ（Oasiaホテル外、#01-05/07）の日本インスパイア系カフェ。木目調のインテリアと和のメニュー（抹茶・サンド・スフレパンケーキ・お茶漬け）がゆったりした禅の空間を演出。",
     "tags": [
+      "日本インスパイア",
       "カフェ",
-      "日本食"
+      "ノヴェナ",
+      "スフレパンケーキ",
+      "抹茶"
     ],
-    "hours": "Monday: 11:00 AM – 9:00 PM / Tuesday: 11:00 AM – 9:00 PM / Wednesday: 11:00 AM – 9:00 PM / Thursday: 11:00 AM – 9:00 PM / Friday: 11:00 AM – 9:00 PM / Saturday: 11:00 AM – 9:00 PM / Sunday: 11:00 AM – 9:00 PM",
-    "last_verified": "2026-03-28",
+    "hours": "火〜日 11:00〜20:30（月曜定休）",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJfUyARtIZ2jERCPS5DyTXLDs",
@@ -6098,23 +6145,36 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Otter & Pebblesはノヴェナ（8 Sinaran Drive #01-05/07、Oasia Hotel外）にある日本インスパイアの新興カフェ。オーナーが日本を旅した体験を元に、木とMujiスタイルの家具を使った和のインテリア空間を作り上げた。メニューはうどん・お茶漬け・サンドイッチ・ダッチベイビーパンケーキ・スフレパンケーキなど、日本の食材・調理法を取り入れた創作料理が中心。抹茶ラテは厳選茶葉を使った本格派でSGD 6++〜。コーヒーも提供する。木製ブース席・オープンテーブルなどバリエーション豊かな席構成で、少人数のカジュアルランチからグループまで対応。ノヴェナMRTから徒歩3分。火〜日11:00〜20:30（月曜定休）。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": "抹茶ラテ SGD 6++〜",
+    "menu_highlights": [
+      "抹茶ラテ",
+      "スフレパンケーキ",
+      "お茶漬け",
+      "サンドイッチ"
+    ]
   },
   {
     "slug": "paaru",
     "name": "Paaru",
-    "name_ja": "パール",
+    "name_ja": "パール（パアル）",
     "area": "Singapore",
     "address": "195 Pearl's Hill Ter, #01-61, Singapore 168976",
     "phone": null,
     "website": "https://www.paaru.sg/",
-    "description": "日本の食文化をベースにしたドリンクとスイーツの日本式カフェPaaru（パール）。日本のカフェスタイルをシンガポールで体験できる。",
+    "description": "パールズヒル（チャイナタウン近く）の隠れ家的日本インスパイア系カフェ「パール（Paaru）」。食パンを使ったフレンチトースト・エッグトースト・ハウス製ドリンクが人気の和の雰囲気の一軒。",
     "tags": [
+      "日本インスパイア",
+      "食パン",
       "カフェ",
-      "日本食"
+      "チャイナタウン",
+      "パールズヒル"
     ],
-    "hours": "Monday: Closed / Tuesday: Closed / Wednesday: Closed / Thursday: 12:00 – 6:00 PM / Friday: 12:00 – 6:00 PM / Saturday: 12:00 – 6:00 PM / Sunday: 12:00 – 6:00 PM",
-    "last_verified": "2026-03-28",
+    "hours": "月〜火・木〜金 9:00〜19:00、土日 8:00〜18:00（水曜定休）",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJyR9lC2IZ2jERQMoHd0OkcqY",
@@ -6124,7 +6184,15 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "Paaru（パール）は195 Pearl's Hill Terrace（#01-61）に位置する日本インスパイアの隠れ家的カフェ。「Paaru」は日本語で「真珠（pearl）」を意味し、パールズヒルテラスという立地にちなんでいる。ダークウッドの内装と和の雰囲気で「日本の古民家に迷い込んだよう」と評されるスペースが特徴。食事は自家製食パン（ショクパン）を中心にした朝食5品のみのシンプルなメニューで、くろみつ（黒糖シロップ）とカカオニブ・塩添えのフレンチトースト（SGD 12）、ポーチドエッグ or ふわふわスクランブルエッグのエッグオントースト（SGD 12）が代表メニュー。コーヒー・チョコレート・ジュースも提供。ピープルズパークコンプレックス裏の坂を上った場所にあり、チャイナタウンMRT駅（出口C）から徒歩圏内。月〜火・木〜金9:00〜19:00、土日8:00〜18:00（水曜定休）。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": "SGD 12〜",
+    "menu_highlights": [
+      "フレンチトーストショクパン（くろみつ）",
+      "エッグオントースト"
+    ]
   },
   {
     "slug": "pantler-japanese-french-cakes-pastries",
@@ -6579,7 +6647,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "Steven's Japanese Stallはシグラップ（2 Siglap Link）に位置する日本料理スタンド。住所の確認はWazeなどのナビアプリから取れるが、公式サイトや詳細なメニュー情報は確認できていない。シグラップエリアには在住日本人も一定数居住しており、地元の日本料理スタンドとして親しまれていると推測されるが、訪問前にGoogle Mapsや現地で最新情報を確認することを推奨する。",
+    "detail": "Steven's Japanese Stallはシグラップ（2 Siglap Link）に位置する日本料理スタンド。住所の確認はWazeなどのナビアプリから取れるが、公式サイトや詳細なメニュー情報は確認できていない。シグラップエリアには在住日本人も一定数居住しており、地元の日本料理スタンドとして親しまれていると推測されるが、訪問前にGoogle Mapsや現地で最新情報を確認することを推奨する。 シグラップ在住の日本人からも利用されていると推測されるが、公式サイトや詳細メニューの情報は確認できていない。訪問前にGoogleマップ等で最新の営業情報を確認することを推奨する。",
     "spot_reviewed": true,
     "japanese_staff": null,
     "price_range": null,
@@ -6689,7 +6757,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "Suzuki Gourmet Coffee（タカシマヤ店）は1944年東京創業の老舗「鈴木珈琲」のタカシマヤ・ショッピングセンター内店舗。炭焼きロースト（Sumiyaki）技術で仕上げたコーヒーを提供する。本店はチンビーアベニューにあり、タカシマヤ店は支店にあたる。営業時間・正確な区画番号については公式サイトで最新情報を確認のこと。",
+    "detail": "Suzuki Gourmet Coffee（タカシマヤ店）は1944年東京創業の老舗「鈴木珈琲」のタカシマヤ・ショッピングセンター内店舗。炭焼きロースト（Sumiyaki）技術で仕上げたコーヒーを提供する。本店はチンビーアベニューにあり、タカシマヤ店は支店にあたる。営業時間・正確な区画番号については公式サイトで最新情報を確認のこと。 本店（鈴木カフェ＆ロースタリー、チンビーアベニュー）ではロースタリーカフェ体験も楽しめる。タカシマヤ店の正確な区画番号・営業時間は公式サイト（suzukicoffee.com.sg）で確認のこと。",
     "spot_reviewed": true,
     "japanese_staff": null,
     "price_range": null,
@@ -7105,7 +7173,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "Udon Shin（タカシマヤ店）は391 Orchard Road タカシマヤ・ショッピングセンターB2に位置する讃岐うどん専門店。日本産小麦粉を使った手打ちうどんが特徴で、つゆ・トッピングの種類が豊富。在星日本人の集積エリアであるオーチャードに位置しており、日本人ショッパーがタカシマヤ訪問時に立ち寄ることも多い。公式サイト（udonshin.sg）で最新のメニュー・営業時間を確認できる。",
+    "detail": "Udon Shin（タカシマヤ店）は391 Orchard Road タカシマヤ・ショッピングセンターB2に位置する讃岐うどん専門店。日本産小麦粉を使った手打ちうどんが特徴で、つゆ・トッピングの種類が豊富。在星日本人の集積エリアであるオーチャードに位置しており、日本人ショッパーがタカシマヤ訪問時に立ち寄ることも多い。公式サイト（udonshin.sg）で最新のメニュー・営業時間を確認できる。 公式サイト（udonshin.sg）でメニュー・価格・営業時間の最新情報を確認してから訪問することを推奨する。",
     "spot_reviewed": true,
     "japanese_staff": null,
     "price_range": null,
@@ -7294,7 +7362,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "Yamazaki Bakery（ヤマザキベーカリー・ベドックモール店）は世界最大のパン企業・山崎製パンのシンガポール店舗のひとつ。ベドック・モール（311 New Upper Changi Road）内に位置し、東部在住の日本人も訪れる。日本式の菓子パン・惣菜パン・食パン・ケーキを取り扱い、シンガポール各地の主要ショッピングモールに出店している。",
+    "detail": "Yamazaki Bakery（ヤマザキベーカリー・ベドックモール店）は世界最大のパン企業・山崎製パンのシンガポール店舗のひとつ。ベドック・モール（311 New Upper Changi Road）内に位置し、東部在住の日本人も訪れる。日本式の菓子パン・惣菜パン・食パン・ケーキを取り扱い、シンガポール各地の主要ショッピングモールに出店している。 ベドック・モール周辺は東部の在住日本人にとって利用しやすいエリアで、日常的なパン購入に適している。",
     "spot_reviewed": true,
     "japanese_staff": null,
     "price_range": "SGD 1.50〜10",
@@ -7330,7 +7398,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "Yamazaki Bakery（ヤマザキベーカリー・コーズウェイポイント店）はWoodlands Square（コーズウェイポイント）内に位置する山崎ベーカリーのシンガポール店舗。ウッドランズは北部の居住エリアで、在住日本人も一定数居住している。日本式のパンや菓子パンを手頃な価格で提供しており、日常使いのベーカリーとして利用されている。",
+    "detail": "Yamazaki Bakery（ヤマザキベーカリー・コーズウェイポイント店）はWoodlands Square（コーズウェイポイント）内に位置する山崎ベーカリーのシンガポール店舗。ウッドランズは北部の居住エリアで、在住日本人も一定数居住している。日本式のパンや菓子パンを手頃な価格で提供しており、日常使いのベーカリーとして利用されている。 ウッドランズは北部エリアの主要住宅地で、在住日本人が日常的なパンの購入に利用できる利便性の高い店舗。",
     "spot_reviewed": true,
     "japanese_staff": null,
     "price_range": "SGD 1.50〜10",
@@ -7366,7 +7434,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "Yamazaki Bakery（ヤマザキベーカリー・ジャンクション8店）は9 Bishan Place（ジャンクション8ショッピングセンター）内にある山崎ベーカリーのシンガポール店舗。ビシャン・アンモキオエリアは在住日本人も居住しており、日本式のパン・菓子パン・惣菜パンを日常的に購入できる利便性が高い。",
+    "detail": "Yamazaki Bakery（ヤマザキベーカリー・ジャンクション8店）は9 Bishan Place（ジャンクション8ショッピングセンター）内にある山崎ベーカリーのシンガポール店舗。ビシャン・アンモキオエリアは在住日本人も居住しており、日本式のパン・菓子パン・惣菜パンを日常的に購入できる利便性が高い。 ジャンクション8はビシャン・セントラルの中心に位置するショッピングモールで、ビシャンMRT駅から直結のアクセスの良さが特徴。在住日本人も日常使いできる立地にある。",
     "spot_reviewed": true,
     "japanese_staff": null,
     "price_range": "SGD 1.50〜10",
@@ -7384,7 +7452,7 @@
     "address": "1 Jurong West Central 2, Jurong Point, Singapore 648886",
     "phone": null,
     "website": null,
-    "description": "ジュロンポイント（ジュロン西）の山崎ベーカリー。日本式の柔らかいパンや菓子パンが揃う日本発ベーカリーチェーン。",
+    "description": "ジュロンポイント（ジュロン西）の山崎ベーカリー。日本発の日本式ベーカリーチェーンで、柔らかい菓子パン・惣菜パンが手頃な価格で揃う。",
     "tags": [
       "日本式ベーカリー",
       "ジュロン",
@@ -7401,7 +7469,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "Yamazaki Bakery（ヤマザキベーカリー・ジュロンポイント店）はジュロン西のジュロンポイントショッピングセンター（1 Jurong West Central 2）内にある山崎製パンのシンガポール店舗。日本最大のパン企業が提供する日本式の食パン・菓子パン・惣菜パンを取り扱う。",
+    "detail": "Yamazaki Bakery（ヤマザキベーカリー・ジュロンポイント店）は1 Jurong West Central 2（ジュロンポイント・ショッピングセンター）内にある山崎製パンのシンガポール店舗。ジュロン西エリアに居住する日本人も一定数おり、日常的なパン購入に利用できる。日本最大のパン企業が提供する日本式の食パン・菓子パン・惣菜パンを取り扱う。ジュロンポイントはMRT東西線（ジュロンイースト駅）からも近く、在住日本人にとって週末の買い物のついでに立ち寄りやすい。",
     "spot_reviewed": true,
     "japanese_staff": null,
     "price_range": "SGD 1.50〜10",
@@ -7437,7 +7505,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "Yamazaki Bakery（ヤマザキベーカリー・NEX店）は23 Serangoon Central（NEXショッピングセンター）内に位置する山崎ベーカリーのシンガポール店舗。周辺には在住日本人居住者も多く、日本式の菓子パン・惣菜パン・食パンを提供している。",
+    "detail": "Yamazaki Bakery（ヤマザキベーカリー・NEX店）は23 Serangoon Central（NEXショッピングセンター）内に位置する山崎ベーカリーのシンガポール店舗。周辺には在住日本人居住者も多く、日本式の菓子パン・惣菜パン・食パンを提供している。 NEXモールはセランゴーン中央駅と直結しており、東北部エリアの在住日本人・ローカルの日常のパン購入に利用されている。NEXはセランゴーンMRT駅直結の大型モールで、NESTモールとも接続し広いフードフロアを持つ。",
     "spot_reviewed": true,
     "japanese_staff": null,
     "price_range": "SGD 1.50〜10",
@@ -7455,7 +7523,7 @@
     "address": "3 Temasek Boulevard, Suntec City, Singapore 038983",
     "phone": null,
     "website": null,
-    "description": "サンテック・シティ内の山崎ベーカリー。日本式の柔らかいパンや菓子パンが揃う日本発ベーカリーチェーン。",
+    "description": "サンテック・シティ（3 Temasek Blvd）内の山崎ベーカリー。日本最大のパンメーカーが展開する日本式ベーカリーチェーンで、日本式の柔らかいパンや菓子パンが揃う。",
     "tags": [
       "日本式ベーカリー",
       "サンテックシティ",
@@ -7472,7 +7540,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "Yamazaki Bakery（ヤマザキベーカリー・サンテックシティ店）は3 Temasek Boulevard（サンテックシティ）内に位置する山崎製パンのシンガポール店舗。シティ・コンベンションセンター近くという立地から観光客・ビジネスマンにも利用されやすく、在住日本人も日常使いとして訪れる。",
+    "detail": "Yamazaki Bakery（ヤマザキベーカリー・サンテックシティ店）は3 Temasek Boulevard（サンテックシティ・モール）内に位置する山崎製パンのシンガポール店舗。シンガポールのシティホール・コンベンションセンター近くという交通の便の良い立地で、観光客・ビジネスマン・在住日本人が幅広く利用する。日本式の菓子パン・惣菜パン・食パンを取り揃えており、日常的なパン購入に最適。サンテックシティはエスプラネードMRT駅・シティホール駅からいずれも徒歩圏内の利便性の高いモール。",
     "spot_reviewed": true,
     "japanese_staff": null,
     "price_range": "SGD 1.50〜10",
@@ -7508,7 +7576,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "Yamazaki Bakery（ヤマザキベーカリー・タカシマヤ店）は391 Orchard Road（タカシマヤ・ショッピングセンター）内に位置する山崎製パンのシンガポール店舗。タカシマヤは在住日本人が最もよく訪れるデパートのひとつであり、日本産輸入食品売り場や伊勢丹スーパーと並んで日本式ベーカリーとして利用される。日本式の菓子パン・惣菜パン・食パンを提供している。",
+    "detail": "Yamazaki Bakery（ヤマザキベーカリー・タカシマヤ店）は391 Orchard Road（タカシマヤ・ショッピングセンター）内に位置する山崎製パンのシンガポール店舗。タカシマヤは在住日本人が最もよく訪れるデパートのひとつであり、日本産輸入食品売り場や伊勢丹スーパーと並んで日本式ベーカリーとして利用される。日本式の菓子パン・惣菜パン・食パンを提供している。ジャンクション8はビシャンMRT駅に直結しており、ノースサウス・サークル線の乗り換え客も多く利用する。",
     "spot_reviewed": true,
     "japanese_staff": null,
     "price_range": "SGD 1.50〜10",
@@ -7526,7 +7594,7 @@
     "address": "4 Tampines Central 5, Tampines Mall, Singapore 529510",
     "phone": null,
     "website": null,
-    "description": "タンピネス・モール内の山崎ベーカリー。東部在住の日本人も利用できる立地で、日本式の柔らかいパンや菓子パンを提供。",
+    "description": "タンピネス・モール（4 Tampines Central 5）の山崎ベーカリー。東部エリアの在住日本人も利用しやすい立地で、日本式のふわふわパン・菓子パンが揃う。",
     "tags": [
       "日本式ベーカリー",
       "タンピネス",
@@ -7543,7 +7611,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "Yamazaki Bakery（ヤマザキベーカリー・タンピネスモール店）は4 Tampines Central 5（タンピネス・モール）内にある山崎製パンのシンガポール店舗。タンピネス在住の日本人にも利用しやすい東部の立地で、日本式の菓子パン・惣菜パン・食パンを提供する。",
+    "detail": "Yamazaki Bakery（ヤマザキベーカリー・タンピネスモール店）は4 Tampines Central 5（タンピネス・モール）に位置する山崎製パンのシンガポール店舗。タンピネスはシンガポール東部の主要住宅エリアで、在住日本人も一定数居住している。日本最大のパン企業が提供する日本式のパン・菓子パン・食パンを提供し、日常のパン購入に利用できる。タンピネスモールはタンピネスMRT駅（EW・DT線）から徒歩圏内でアクセスが良く、東部居住の在住日本人にも利用しやすい環境にある。",
     "spot_reviewed": true,
     "japanese_staff": null,
     "price_range": "SGD 1.50〜10",
