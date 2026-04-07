@@ -7,7 +7,7 @@
     "address": "23/1 Sukhumvit Rd., Soi 35, Klongtan-Nua, Wattana, Bangkok 10110",
     "phone": "+6620561035",
     "website": "https://aikb35.ac.th/",
-    "description": "エムクオーティエ近くに位置するトリリンガル（日本語・英語・タイ語）幼稚園。日本語バイリンガルクラス（英語50%・日本語50%）とインターナショナルプログラムの2コースを提供。ネイティブ教員が各言語を担当。",
+    "description": "エムクオーティエ近くの3言語幼稚園。日本語・英語・タイ語のネイティブ教員が在籍し、バイリンガルクラスとインターナショナルプログラムの2コースを提供。",
     "tags": [
       "日本語教育",
       "英語教育",
@@ -17,14 +17,18 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "price_range": null,
+    "detail": "バンコク・スクンビット35、エムクオーティエ徒歩圏内に位置するAIKB35（Associe International Kindergarten Bangkok 35）。日本語・英語・タイ語の3言語をネイティブ教員が担当するトリリンガル幼稚園で、日本語バイリンガルクラス（英語50%・日本語50%）とインターナショナルプログラムの2コースを用意。スクンビット在住の日本人家庭に人気が高く、帰国後の日本の幼稚園・小学校への適応もスムーズにできるカリキュラム設計が特徴。公式サイト（aikb35.ac.th）から詳細情報・入園申し込みが可能。電話番号は+66-2-056-1035。"
   },
   {
     "slug": "amaze-english-school",
@@ -42,7 +46,7 @@
       "日本語対応"
     ],
     "hours": "Monday: 10:30 AM – 6:30 PM / Tuesday: 10:30 AM – 6:30 PM / Wednesday: 10:30 AM – 6:30 PM / Thursday: 10:30 AM – 6:30 PM / Friday: Closed / Saturday: 9:00 AM – 5:30 PM / Sunday: 9:00 AM – 5:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJEUK-plWe4jARvunKR-dUaAc",
@@ -53,7 +57,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "スクンビットの英語学校。日本語対応の根拠が確認できない。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null
   },
   {
     "slug": "asb-japanese-section",
@@ -63,14 +72,14 @@
     "address": "Sukhumvit Soi 49-3, Klongton Nua, Wattana, Bangkok",
     "phone": "+6626208600",
     "website": "https://asb.ac.th/",
-    "description": "米国式インターナショナルスクールASBに併設された日本人幼稚園。日本人の先生が担任につき、日本語・日本文化を大切にした保育を受けられる。高等部まであるインター校との連携により、進学の選択肢が広い。",
+    "description": "スクンビット49-3のASBに併設された日本人幼稚園。日本人教員が担任につき、日本語と日本文化を大切にした保育を提供。高等部まであるインター校と連携。",
     "tags": [
       "日本語教育",
       "幼稚園",
       "インターナショナルスクール併設"
     ],
     "hours": null,
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -79,7 +88,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "price_range": null,
+    "detail": "スクンビット・ソイ49-3のThe American School of Bangkok（ASB）に設置された日本人セクション（幼稚園部）。日本人の先生が担任として日本語・日本文化を重視した保育を実施。ASBはプリスクールから高等部まで一貫教育を提供するインターナショナルスクールで、日本人セクションの子どもはASBの国際的な環境の中で日本語教育も受けられる。将来的にASB本校への進学や他のインター校への転入なども選択肢として持ちやすい。公式サイトはasb.ac.th。電話番号は+66-2-620-8600。"
   },
   {
     "slug": "bangkok-japanese-school",
@@ -89,7 +102,7 @@
     "address": "258 Soi 17, Rama 9 Rd., Bangkapi, Huaykwang, Bangkok 10310",
     "phone": "+6623147334",
     "website": "https://www.tjas.ac.th/",
-    "description": "バンコクの日本人学校。小学部・中学部を併設し、日本の学習指導要領に基づいた教育を実施。異文化コミュニケーション・ICT教育・進路指導に力を入れている。在バンコク日本人駐在員の子どもが多く通う。",
+    "description": "フアイクワン・ラマ9世通りの泰日協会学校バンコク校。日本の学習指導要領に基づき小学部・中学部を設置。バンコク在住日本人駐在員の子どもが多く通う。",
     "tags": [
       "日本語教育",
       "小学校",
@@ -97,7 +110,7 @@
       "日本人学校"
     ],
     "hours": null,
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -106,7 +119,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "price_range": null,
+    "detail": "バンコク・フアイクワン、ラマ9通り沿いに位置する泰日協会学校バンコク校（Thai Japanese Association School Bangkok）。日本の文部科学省の学習指導要領に沿った授業を行う日本人学校で、小学部・中学部を設置。主に駐在員家庭の子どもが在籍し、帰国後の日本の公立・私立学校への復帰をサポートする。ICT教育・異文化コミュニケーション教育・進路指導にも力を入れており、バンコク最大の日本人学校として在タイ日本人コミュニティの中心的存在。公式サイトはtjas.ac.th。電話番号は+66-2-314-7334。"
   },
   {
     "slug": "brain-kids-international-school",
@@ -126,14 +143,19 @@
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "日英バイリンガル学校の記述あるが公式サイトが確認できず実在確認が必要。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null
   },
   {
     "slug": "cca-thai-massage-school-cca",
@@ -152,7 +174,7 @@
       "語学"
     ],
     "hours": "Monday: Closed / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: 9:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJzexbCYg62jARoGg2tKwOzBc",
@@ -163,7 +185,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "タイ式マッサージスクール。日本語対応の根拠が確認できない。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null
   },
   {
     "slug": "dec-distinction-educational-center",
@@ -175,13 +202,13 @@
     "lng": 100.576,
     "phone": "+66899684473",
     "website": "https://dec.ac/",
-    "description": "スクンビットソイ49/1の海外子女向け進学教室「DEC」。日本の中学・高校受験対策を日本語で提供。帰国後の受験を見据えたカリキュラムが特徴。",
+    "description": "バンコク在住の日本人中高生向け日本の大学受験準備塾。日本語で授業を行い、国公立・難関私立大学への合格実績を持つ。",
     "tags": [
       "教育",
       "日本語対応"
     ],
     "hours": "Monday: 1:00 – 10:00 PM / Tuesday: 1:00 – 10:00 PM / Wednesday: 1:00 – 10:00 PM / Thursday: 1:00 – 10:00 PM / Friday: 1:00 – 10:00 PM / Saturday: 9:00 AM – 8:30 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJTThP_nOf4jARfnRFaL5PoN0",
@@ -192,7 +219,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "price_range": null,
+    "detail": "バンコクにある日本の大学受験に特化した学習塾「DEC（Distinction Educational Center）」。帰国子女入試や一般入試を控えた日本人の中高生を対象に、日本語で授業を実施。国語・数学・英語・理科・社会の主要5教科に対応し、難関国公立・私立大学への受験指導に定評がある。バンコク在住の駐在員家庭や現地採用・移住家庭の子どもが多く通う。日本のカリキュラムに準拠した学習で、帰国後の受験に備えながらタイ生活を送れる貴重な環境。"
   },
   {
     "slug": "easy-thai-language-school-at-sukhumvit-39",
@@ -204,14 +235,14 @@
     "lng": 100.5713,
     "phone": "+66886251133",
     "website": "https://www.easythaischool.com/%E5%AD%A6%E6%A0%A1%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
-    "description": "スクンビット39の語学学校。タイ語・英語のレッスンを提供し、日本人学習者の受講にも対応。会話中心のカリキュラムで実践力を養成",
+    "description": "スクンビット39の日本人向けタイ語学校。公式サイトに日本語ページを設け、日本語対応でタイ語を学べる環境を提供。",
     "tags": [
       "教育",
       "日本語対応",
       "語学"
     ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: 9:00 AM – 5:00 PM / Sunday: 9:00 AM – 5:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ9x5h5_6e4jARV7ILJ4tB9ns",
@@ -222,7 +253,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": false,
+    "price_range": null,
+    "detail": "スクンビット・ソイ39にある「Easy Thai Language School」。公式サイト（easythaischool.com）に日本語専用ページを設けており、日本人学習者向けにタイ語を教えることに特化した学校。日本語で文法解説・授業説明が受けられるカリキュラムが特徴で、タイ文字・発音・会話・ビジネスタイ語など様々なレベル・目的に応じたコースを用意している。スクンビット39はバンコク在住日本人の生活圏に近く、日常的に通いやすいロケーション。電話番号は+66-2-258-4388（公式サイトより）。"
   },
   {
     "slug": "edufirst-school",
@@ -240,7 +275,7 @@
       "日本語対応"
     ],
     "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 8:30 AM – 6:00 PM / Sunday: 8:30 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJVaZC-Vqc4jARrPDbp3VnMPg",
@@ -251,7 +286,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "英語学校。日本語対応の具体的な根拠が確認できない。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null
   },
   {
     "slug": "ena-bangkok",
@@ -261,7 +301,7 @@
     "address": "Sukhumvit Road, Bangkok 10110",
     "phone": null,
     "website": null,
-    "description": "日本の個別指導塾「ena」のバンコク教室。帰国子女入試・日本の中学受験を目指す小中学生向けに、日本と同じカリキュラムで個別指導を提供。駐在員の子どもの学力維持・受験対策に対応。",
+    "description": "バンコクの日本人向け学習塾「ena海外スクール」。帰国子女入試・海外校受験のプロで、バンコク在住の日本人小中高生を対象に指導。",
     "tags": [
       "学習塾",
       "個別指導",
@@ -271,14 +311,18 @@
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "price_range": null,
+    "detail": "バンコクにある「ena海外スクール」のバンコク校。日本で帰国子女入試に強いことで知られる学習塾enaのタイ拠点で、バンコク在住の日本人家庭の子どもを対象に帰国子女入試対策・国内難関校受験・補習授業を実施。国語・算数・数学・英語などの主要科目を日本語で指導する。バンコク日本人学校の児童・生徒の利用が多く、帰国後の受験や学力維持に役立つ環境を提供している。バンコク在住の駐在員家庭や現地採用・移住家庭の子どもが多く通う。"
   },
   {
     "slug": "est-est",
@@ -290,13 +334,13 @@
     "lng": 100.5753,
     "phone": "+66922737718",
     "website": "https://estbkk.com/",
-    "description": "スクンビットソイ49/1の英語教室「EST」。日本人向けの英会話・IELTS・TOEFL対策コースを日本語サポート付きで提供。",
+    "description": "スクンビットソイ49/1の日本人向け英語教室EST。日本語サポート付きで英会話・IELTS・TOEFL対策コースを提供。",
     "tags": [
       "教育",
       "日本語対応"
     ],
     "hours": "Monday: 9:00 AM – 2:00 PM / Tuesday: 9:00 AM – 2:00 PM / Wednesday: 9:00 AM – 2:00 PM / Thursday: 9:00 AM – 2:00 PM / Friday: 9:00 AM – 2:00 PM / Saturday: Closed / Sunday: 9:00 AM – 4:30 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ-889n6Of4jAR4I-Z4p_7UGM",
@@ -307,7 +351,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "price_range": null,
+    "detail": "スクンビット・ソイ49/1にある英語教室「EST（英語教室EST）」。バンコク在住の日本人を主なターゲットとし、英会話・IELTS・TOEFLなど目的別の英語コースを日本語サポート付きで提供。日本語で質問・相談ができる環境を整えているため、英語学習を始めたばかりの方でも通いやすい。スクンビット49/1はプロンポン・エリアに近く、日本人居住者の多いエリアに位置している。公式サイトはestbkk.com。"
   },
   {
     "slug": "flappy-international-preschool",
@@ -317,7 +365,7 @@
     "address": "Sukhumvit Road, Bangkok 10110",
     "phone": null,
     "website": null,
-    "description": "日本人が運営するインターナショナルプリスクール。英語と日本語のバイリンガル環境で、1歳半から入園可能。少人数制のきめ細かい保育が特徴。",
+    "description": "バンコクの日本人が運営するインターナショナルプリスクール。英語と日本語のバイリンガル環境で少人数制保育を実施。1歳半から入園可能。",
     "tags": [
       "プリスクール",
       "バイリンガル",
@@ -326,14 +374,18 @@
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "price_range": null,
+    "detail": "バンコクにある「Flappy International Preschool」。日本人が経営・運営するインターナショナルプリスクールで、英語と日本語のバイリンガル環境を提供。1歳半から受け入れ可能で、少人数制のきめ細かい保育が特徴。日本人の経営・スタッフが関与しているため、日本人保護者が安心して預けられる環境が整っている。バンコク在住の日本人駐在員・移住者家庭のお子さんに適した選択肢。バンコクで子育てをする日本人保護者が安心して預けられる環境が整っている。"
   },
   {
     "slug": "four-c-language-school-bangkok",
@@ -343,7 +395,7 @@
     "address": "Sukhumvit Road, Bangkok 10110",
     "phone": null,
     "website": null,
-    "description": "バンコクにある日本人向けタイ語学校。初心者から上級者まで対応し、日本語で文法解説を行うレッスンが特徴。ビザ取得用のEDビザ対応コースもあり。",
+    "description": "バンコクの日本人向けタイ語学校「Four C」。日本語で文法解説するレッスンが特徴で、EDビザ対応コースも設ける。初心者から上級者まで対応。",
     "tags": [
       "語学学校",
       "タイ語",
@@ -352,14 +404,18 @@
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "price_range": null,
+    "detail": "バンコクにある「Four C Language School」。日本人学習者向けのタイ語教育に特化した学校で、日本語で文法解説を行うレッスンが特徴。タイ語習得を目指すバンコク在住日本人に向け、初心者から上級者まで対応したコースを用意。長期滞在を希望する方向けにEDビザ取得に対応したコースも開設しており、語学学習と在留資格取得を同時にサポートする点が在住日本人に支持されている。タイ語習得と在留資格取得を同時にサポートする点が在住日本人に支持されている。"
   },
   {
     "slug": "future-point-language-school-si-racha",
@@ -371,14 +427,14 @@
     "lng": 100.9287,
     "phone": "+66899399276",
     "website": "https://www.futurepoint-language.com/",
-    "description": "シラチャの多言語語学学校。タイ語・英語・日本語・中国語コースを提供し、シラチャ在住の日本人向けのタイ語習得サポートも実施。",
+    "description": "シラチャの多言語語学学校「Future Point」。タイ語・英語・日本語・中国語コースを提供し、シラチャ在住の日本人向けタイ語サポートも実施。",
     "tags": [
       "教育",
       "日本語対応",
       "語学"
     ],
     "hours": "Monday: 9:30 AM – 9:00 PM / Tuesday: 9:30 AM – 9:00 PM / Wednesday: 9:30 AM – 9:00 PM / Thursday: 9:30 AM – 9:00 PM / Friday: 9:30 AM – 9:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJf_OSOQK3AjERYz2YDPVrrL8",
@@ -389,37 +445,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "fuyu-japanese-language-school-chiang-mai",
-    "name": "FUYU JAPANESE LANGUAGE SCHOOL CHIANG MAI",
-    "name_ja": "フユ 日本 ランゲージ スクール チェン マイ",
-    "area": "Chiang Mai",
-    "address": "334 Tambon Wiang Yong, Amphoe Mueang Lamphun, Chang Wat Lamphun 51000, Thailand",
-    "lat": 18.5649,
-    "lng": 99.036,
-    "phone": "+66947035562",
-    "website": "http://www.fuyulanguageschool.com/",
-    "description": "チェンマイ・ランプーン・タンボンウィアンヨンの日本語学校「冬（FUYU）」。タイ人向けに日本語コースを提供。チェンマイで日本語教育に取り組む日系学校。",
-    "tags": [
-      "教育",
-      "日本語対応",
-      "語学"
-    ],
-    "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: Closed / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: 9:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJfU2mSoYl2jARrcAMP42edT4",
-    "priority": 0,
-    "ai_reviewed": false,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": false,
+    "price_range": null,
+    "detail": "シラチャにある多言語語学学校「Future Point Language School」。タイ語・英語・日本語・中国語コースを提供しており、東部工業地帯に在住する日本人向けのタイ語習得サポートも実施。シラチャ・レムチャバン周辺は日本人駐在員が多い地域で、現地のタイ語・日常会話力を身につけたい日本人の利用者が多い。公式サイト（futurepoint-language.com）から詳細・コース情報を確認できる。"
   },
   {
     "slug": "geos-language-centre-thailand",
@@ -438,7 +468,7 @@
       "語学"
     ],
     "hours": "Monday: 9:00 AM – 8:00 PM / Tuesday: 9:00 AM – 8:00 PM / Wednesday: 9:00 AM – 8:00 PM / Thursday: 9:00 AM – 8:00 PM / Friday: 9:00 AM – 8:00 PM / Saturday: 9:00 AM – 8:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ39OfvuSe4jARM-m1JV8KUK4",
@@ -449,7 +479,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "タイ・英語・日本語コースを提供するが、日本人スタッフ・日本語サポートの根拠が確認できない。",
+    "spot_reviewed": true,
+    "japanese_staff": false,
+    "price_range": null
   },
   {
     "slug": "haru-learning-school",
@@ -467,7 +502,7 @@
       "日本語対応"
     ],
     "hours": "Monday: 8:30 AM – 8:00 PM / Tuesday: 8:30 AM – 8:00 PM / Wednesday: 8:30 AM – 8:00 PM / Thursday: 8:30 AM – 8:00 PM / Friday: 8:30 AM – 8:00 PM / Saturday: 8:30 AM – 8:00 PM / Sunday: 8:30 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJZaNRkXWf4jARTpoOCdHgGUU",
@@ -478,7 +513,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "スクンビット24の語学学校。日本語対応の具体的な根拠が確認できない。",
+    "spot_reviewed": true,
+    "japanese_staff": false,
+    "price_range": null
   },
   {
     "slug": "henry-harvin-language-academy-learn-english-french-italian-german-japanese-thai-",
@@ -497,7 +537,7 @@
       "語学"
     ],
     "hours": "Monday: Open 24 hours / Tuesday: Open 24 hours / Wednesday: Open 24 hours / Thursday: Open 24 hours / Friday: Open 24 hours / Saturday: Open 24 hours / Sunday: Open 24 hours",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJyRXuOAYvUDARUcsgJN3-b5g",
@@ -508,65 +548,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "hobo-ya-phuket",
-    "name": "Hobo-ya Phuket",
-    "name_ja": "ほぼ屋 プーケット",
-    "area": "Phuket",
-    "address": "135/31,Moo4, Patak Villa Soi1, Rawai, Phuket 83130, Thailand",
-    "lat": 7.8224,
-    "lng": 98.3374,
-    "phone": "+6676280282",
-    "website": "http://www.houbou-ya-phuket.com/",
-    "description": "プーケット・ラワイのパタックヴィラにある日系店舗「Hobo-ya」。日本語対応のツアーや各種手配を手がけており、プーケット在住の日本人旅行者に広く利用されている。",
-    "tags": [
-      "教育",
-      "日本語対応"
-    ],
-    "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: 9:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJdRoIHw4vUDARkHQ2pKY_6D0",
-    "priority": 0,
-    "ai_reviewed": false,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "hobo-ya-similan",
-    "name": "Hobo-ya Similan",
-    "name_ja": "ほぼ屋 シミラン",
-    "area": "Phuket",
-    "address": "135, 31 Moo4, Tambon Rawai, Amphoe Mueang Phuket, Chang Wat Phuket 83130, Thailand",
-    "lat": 7.8225,
-    "lng": 98.3376,
-    "phone": "+6676280284",
-    "website": "http://www.hobo-ya-similan.com/",
-    "description": "プーケット・ラワイエリアにある日系店舗「Hobo-ya Similan」。日本式のツアーや各種サービスを展開しており、プーケット在住の日本人や旅行者に利用されている。",
-    "tags": [
-      "教育",
-      "日本語対応"
-    ],
-    "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: 9:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJTcNh4VMwUDARWBZKyeX52VA",
-    "priority": 0,
-    "ai_reviewed": false,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "多言語アカデミー。日本語コースはあるが日本人向けサービスの根拠が不明。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null
   },
   {
     "slug": "i-love-japan-group-co-ltd",
@@ -578,13 +565,13 @@
     "lng": 100.5518,
     "phone": "+6621054703",
     "website": "https://www.ilovejapangroup.com/",
-    "description": "プルンチット・パークプルンチットコンドミニアム（スクンビット1）の日本関連教育・文化サービス会社。日本語教育・日本文化紹介・日本語翻訳サポートを提供。",
+    "description": "プルンチット周辺の日本関連教育・文化サービス会社「I LOVE JAPAN GROUP」。日本語教育・日本文化紹介・翻訳サポートを提供。",
     "tags": [
       "教育",
       "日本語対応"
     ],
     "hours": "Monday: 8:30 AM – 5:30 PM / Tuesday: 8:30 AM – 5:30 PM / Wednesday: 8:30 AM – 5:30 PM / Thursday: 8:30 AM – 5:30 PM / Friday: 8:30 AM – 5:30 PM / Saturday: Closed / Sunday: Closed",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJKckmm8Ke4jARjQacIsdQRKM",
@@ -595,7 +582,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "price_range": null,
+    "detail": "バンコク・プルンチット、スクンビット1エリアのパークプルンチットコンドミニアムにある「I LOVE JAPAN GROUP Co. Ltd.」。日本語教育・日本文化の普及活動・日本語翻訳サポートを提供している日本関連の教育・文化サービス会社。バンコク在住の日本人や、日本に関心のある外国人向けに多様なサービスを展開。公式サイトはilovejapangroup.com。日本関連のビジネス・文化活動に関心のある方に向けたサービスも展開している。"
   },
   {
     "slug": "infinito-gymnastics-school",
@@ -613,7 +604,7 @@
       "日本語対応"
     ],
     "hours": "Monday: 2:00 – 6:30 PM / Tuesday: 2:00 – 6:30 PM / Wednesday: 2:00 – 6:30 PM / Thursday: 2:00 – 6:30 PM / Friday: 2:00 – 6:30 PM / Saturday: 10:00 AM – 1:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ44QoZ1Oe4jARsg8FGXq6hmk",
@@ -624,7 +615,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "体操スクール。日本人在籍との記述はあるが日本語対応の根拠が薄い。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null
   },
   {
     "slug": "institute-of-japanese-language-and-japanese-culture",
@@ -643,7 +639,7 @@
       "語学"
     ],
     "hours": "Monday: Closed / Tuesday: Closed / Wednesday: Closed / Thursday: Closed / Friday: Closed / Saturday: 8:00 AM – 3:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJtwbRjjE72jARp_HSMFc7sIg",
@@ -654,7 +650,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "チェンマイの日本語教育機関。主にタイ人向けで日本人向けサービスの根拠が不明。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null
   },
   {
     "slug": "ise-international-school-eastern-seaboard-thailand",
@@ -673,7 +674,7 @@
       "語学"
     ],
     "hours": "Monday: 7:30 AM – 4:30 PM / Tuesday: 7:30 AM – 4:30 PM / Wednesday: 7:30 AM – 4:30 PM / Thursday: 7:30 AM – 4:30 PM / Friday: 7:30 AM – 4:30 PM / Saturday: Closed / Sunday: Closed",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJa-XxdMjGAjER4zMn4uvJXoo",
@@ -684,7 +685,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "IBインター校。日本人生徒は在籍するが日本語専門サービスの根拠がない。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null
   },
   {
     "slug": "japanese-association-in-thailand",
@@ -696,14 +702,14 @@
     "lng": 100.5307,
     "phone": "+6622342155",
     "website": "http://www.jat.or.th/",
-    "description": "サトーン通り・サトーンターニービルの在タイ日本人会。日本人学習者向けの教育情報提供・文化活動・各種サポートを行う。日本人会員および在タイ日本人をサポート。",
+    "description": "在タイ日本人会（JAT）本部。バンコク在住日本人の最大のコミュニティ団体で、生活情報・交流イベント・各種手続きサポートを提供。",
     "tags": [
       "教育",
       "日本語対応",
       "語学"
     ],
     "hours": "Monday: 9:00 AM – 5:00 PM / Tuesday: 9:00 AM – 5:00 PM / Wednesday: 9:00 AM – 5:00 PM / Thursday: 9:00 AM – 5:00 PM / Friday: 9:00 AM – 5:00 PM / Saturday: 9:00 AM – 9:00 PM / Sunday: 9:00 AM – 5:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJuRVxWC2f4jARt2vxufuT5xA",
@@ -714,7 +720,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "price_range": null,
+    "detail": "バンコクにある在タイ日本人会（JAT: Japanese Association in Thailand）の本部。タイ在住日本人の相互扶助・交流を目的とした最大のコミュニティ団体で、生活情報の発信・各種イベントの開催・日本語図書館の運営・日本語対応の相談窓口などを提供。在タイ日本人であれば入会可能で、駐在員から移住者・留学生まで幅広い層が利用している。バンコクの日本人コミュニティのハブとして、新たに渡航する方にとっても心強い拠点となっている。"
   },
   {
     "slug": "japanese-association-in-thailand-annex",
@@ -726,14 +736,14 @@
     "lng": 100.575,
     "phone": "+6626624948",
     "website": "https://www.jat.or.th/jp/",
-    "description": "バンコク・スクンビット39のシティリゾートアネックスにある在タイ日本人会の別館。日本語教育・文化活動・コミュニティサポートを展開しており、在タイ日本人が交流できる場となっている。",
+    "description": "在タイ日本人会（JAT）別館。会員向け施設・サービスの提供拠点として機能し、各種相談窓口・図書館・情報発信を担う。",
     "tags": [
       "教育",
       "日本語対応",
       "語学"
     ],
     "hours": "Monday: 9:00 AM – 5:00 PM / Tuesday: 9:00 AM – 5:00 PM / Wednesday: 9:00 AM – 5:00 PM / Thursday: 9:00 AM – 5:00 PM / Friday: 9:00 AM – 5:00 PM / Saturday: 9:00 AM – 5:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJk7k1Jmyf4jAREtb84SmGGig",
@@ -744,7 +754,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "price_range": null,
+    "detail": "在タイ日本人会（JAT）のアネックス（別館）。JAT本部の補完施設として、会員向けのサービス・相談窓口・各種施設を提供。日本語図書館や情報交流の場として機能しており、バンコク在住日本人が生活情報を得たり、同じ境遇の仲間と交流したりする機会を提供している。本部と合わせて活用することで、タイ生活をよりスムーズにスタートできる。本部と合わせて活用することで、タイ生活をよりスムーズにスタートできる。アネックス利用にはJAT会員登録が必要。"
   },
   {
     "slug": "karate-andmuaythai-zendokai-thailand",
@@ -756,14 +770,14 @@
     "lng": 100.5821,
     "phone": "+66630094032",
     "website": "https://zendokaithailand.com/",
-    "description": "トンロー・スクンビット55のムエタイ・空手道場「善道会」。日本人インストラクターまたは日本式の指導法で格闘技トレーニングを提供。在住日本人の利用が多い。",
+    "description": "バンコクの日本武道道場「全道会タイランド」。日本発祥の空手・武道を日本語指導で学べ、バンコク在住の日本人・日本武道愛好家に人気。",
     "tags": [
       "教育",
       "日本語対応",
       "語学"
     ],
     "hours": "Monday: 9:00 AM – 3:30 PM / Tuesday: 9:00 AM – 8:00 PM / Wednesday: 9:00 AM – 8:00 PM / Thursday: 9:00 AM – 8:00 PM / Friday: 9:00 AM – 8:00 PM / Saturday: 8:45 AM – 6:30 PM / Sunday: 8:45 AM – 5:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJX9hiCKef4jARFo2z8Y0NURA",
@@ -774,7 +788,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "price_range": null,
+    "detail": "バンコクにある全道会タイランド（Karate & Muay Thai Zendokai Thailand）の道場。日本発祥の空手を中心とした武道を日本語で指導する道場で、バンコク在住の日本人や日本武道に興味のある外国人が多く通う。空手の段位取得コース・子ども向けクラス・ムエタイクラスなど複数のプログラムを用意。日本の武道精神を大切にした指導が特徴で、礼儀・礼節を重んじる日本式トレーニングを本場さながらに体験できる。"
   },
   {
     "slug": "kids-academy-international",
@@ -784,7 +802,7 @@
     "address": "52/1-2, Sukhumvit 63 Road, Soi 2, Wattana District, Bangkok 10110",
     "phone": "+6627143636",
     "website": "http://www.kidsacademy.ac.th/",
-    "description": "タイ初の日英バイリンガル幼稚園として2005年に開設。日本人教諭と英語ネイティブ教諭が交互にクラスを担当し、自然な形で二言語を習得できる。日本人園児の割合は約40%。1歳半から入園可能。",
+    "description": "タイ初の日英バイリンガル幼稚園（2005年創設）。日本語・英語・タイ語のトリリンガル環境でバランスの取れた幼児教育を実施。",
     "tags": [
       "日本語教育",
       "英語教育",
@@ -792,7 +810,7 @@
       "幼稚園"
     ],
     "hours": null,
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -801,7 +819,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "price_range": null,
+    "detail": "2005年に創設されたタイ初の日本語・英語バイリンガル幼稚園「Kids Academy International」。日本語・英語・タイ語の3言語環境での幼児教育を実施しており、日本人教員と英語ネイティブ教員が共同で保育を担当。バンコク在住の日本人家庭を中心に多国籍の子どもが通う。帰国後の日本の学校への適応と国際感覚の醸成を両立したカリキュラムが特徴。タイ初のバイリンガル幼稚園として長年の実績と信頼がある。"
   },
   {
     "slug": "kirakira-kids-kindergarten",
@@ -811,7 +833,7 @@
     "address": "81 Sukhumvit 61, Khlong Tan Nuea, Watthana, Bangkok",
     "phone": "+6623815417",
     "website": "https://www.kirakirakids.ac.th/",
-    "description": "2006年設立の日英バイリンガル幼稚園。スクンビットソイ61に位置し、日本語と英語の両方で保育を提供。日本人教諭と英語ネイティブ教諭がバランスよく配置されている。",
+    "description": "2006年創設のバンコク日英バイリンガル幼稚園「キラキラ Kids」。日本語・英語の2言語環境で、少人数制のアットホームな保育を実施。",
     "tags": [
       "日本語教育",
       "英語教育",
@@ -819,7 +841,7 @@
       "幼稚園"
     ],
     "hours": "要確認",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -828,7 +850,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "price_range": null,
+    "detail": "2006年に創設されたバンコクの「キラキラ Kids 幼稚園」。日本語・英語のバイリンガル環境での保育を実施しており、日本人教員が在籍する。少人数制のアットホームな雰囲気で、日本語での日常保育と英語教育を並行して受けられる。バンコク在住の日本人家庭に長年支持されており、日本語・英語の2言語を自然に習得できる環境が整っている。帰国後の日本の幼稚園・小学校への円滑な適応をサポート。帰国後の日本の幼稚園・小学校への円滑な適応をサポートするカリキュラムを実施している。"
   },
   {
     "slug": "km-language-center",
@@ -840,14 +866,14 @@
     "lng": 100.9344,
     "phone": "+6638199537",
     "website": "https://kmlcschool.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=693031348703486623",
-    "description": "シラチャの語学学校「KM Language Center」。タイ語・日本語コースを提供し、シラチャ在住の日本人向けのタイ語習得支援も行う。",
+    "description": "シラチャの日本人向けタイ語・英語学校「KMランゲージセンター」。日本人スタッフが在籍し、日本語でサポートしながらタイ語を学べる。",
     "tags": [
       "教育",
       "日本語対応",
       "語学"
     ],
     "hours": "Monday: 10:00 AM – 8:30 PM / Tuesday: 10:00 AM – 8:30 PM / Wednesday: 10:00 AM – 8:30 PM / Thursday: 10:00 AM – 8:30 PM / Friday: 10:00 AM – 8:30 PM / Saturday: 10:00 AM – 8:30 PM / Sunday: 10:00 AM – 8:30 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJOZTdZQC3AjERfKLZuzKrgRI",
@@ -858,7 +884,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "price_range": null,
+    "detail": "シラチャにある「KM Language Center」。東部工業地帯・シラチャ在住の日本人向けタイ語・英語習得をサポートする語学学校で、日本人スタッフが在籍しており日本語でのサポートが受けられる。タイに赴任したばかりの日本人駐在員や、日常会話・ビジネスタイ語を習得したい方に特に向いている。シラチャはレムチャバン港・工業団地に近く、日本人コミュニティが大きいエリアで日本人向けサービスが充実している。"
   },
   {
     "slug": "kodomo-education-bangkok",
@@ -868,7 +898,7 @@
     "address": "Bangkok, Thailand",
     "phone": null,
     "website": null,
-    "description": "バンコク在住の日本人幼児〜小学生向けの日本語教育サービス。日本の学校カリキュラムに沿った国語・算数の学習指導を提供。日本語力の維持・向上をサポート。",
+    "description": "バンコクの日本人子ども向け教育サービス「コドモエデュケーション」。日本語での学習支援・補習・教育相談をバンコク在住日本人家庭に提供。",
     "tags": [
       "日本語教育",
       "幼児〜小学生",
@@ -878,14 +908,18 @@
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "price_range": null,
+    "detail": "バンコクにある「Kodomo Education Bangkok（コドモエデュケーション バンコク）」。バンコク在住の日本人家庭の子どもを対象とした教育サービスで、日本語での学習支援・補習授業・教育相談を提供。泰日協会学校や日本人幼稚園に通う子どもの学習サポートとして利用される場合も多い。バンコクで子育てをする日本人保護者にとって、日本語で子どもの教育について相談できる貴重な存在。バンコクで子育てをする日本人保護者にとって、日本語で子どもの教育について相談できる貴重な存在となっている。"
   },
   {
     "slug": "kokugo-sansuu-online-bangkok",
@@ -895,7 +929,7 @@
     "address": "オンライン（バンコク拠点）",
     "phone": null,
     "website": null,
-    "description": "バンコク在住の幼児〜小学4年生を対象としたマンツーマンオンラインレッスン。国語と算数の基礎力に特化し、日本語力の維持・向上をサポート。2025年10月から算数レッスンも開始。",
+    "description": "バンコク在住の日本人の子ども向けオンライン国語・算数指導サービス。日本語での補習授業をオンラインで受講可能で、帰国後の学力維持に対応。",
     "tags": [
       "日本語教育",
       "オンライン",
@@ -905,14 +939,18 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "price_range": null,
+    "detail": "バンコク在住の日本人家庭の子どもを対象とした「国語・算数オンライン バンコク」。日本の学習指導要領に基づいた国語・算数の補習授業をオンラインで提供。泰日協会学校等に通う子どもが放課後に受講するケースが多く、帰国後の日本の学校への適応・学力維持を目的として利用される。オンライン形式のため在宅で受講でき、送迎不要の利便性が高い。オンライン形式のため在宅で受講でき、送迎不要の利便性が高く、帰国後の学力維持に効果的。"
   },
   {
     "slug": "kru-jee-international-language-center",
@@ -924,14 +962,14 @@
     "lng": 100.9474,
     "phone": "+66816370286",
     "website": "https://krujeelanguage.wordpress.com/",
-    "description": "シラチャの語学センター「Kru Jee」。タイ語・英語コースを提供し、シラチャ在住の日本人向けのタイ語習得サポートも実施。",
+    "description": "シラチャの語学センター「Kru Jee」。タイ語・英語コースを提供し、シラチャ在住の日本人向けタイ語習得サポートも実施。",
     "tags": [
       "教育",
       "日本語対応",
       "語学"
     ],
     "hours": "Monday: 9:00 AM – 5:00 PM / Tuesday: 9:00 AM – 5:00 PM / Wednesday: 9:00 AM – 5:00 PM / Thursday: 9:00 AM – 5:00 PM / Friday: 9:00 AM – 5:00 PM / Saturday: 9:00 AM – 5:00 PM / Sunday: 9:00 AM – 5:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJscAxBbC3AjERUXSKxZ51_gw",
@@ -942,7 +980,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": false,
+    "price_range": null,
+    "detail": "シラチャにある「Kru Jee International Language Center（クルジー インターナショナル ランゲージセンター）」。タイ語・英語コースを中心に提供する語学センターで、シラチャ在住の日本人向けのタイ語習得サポートを実施している。シラチャは東部工業地帯に近く多くの日本人駐在員が生活しており、日常生活や職場でのタイ語コミュニケーションを習得したい日本人学習者の利用が多い。公式ブログ（krujeelanguage.wordpress.com）から詳細情報を確認できる。"
   },
   {
     "slug": "ks-language",
@@ -961,7 +1003,7 @@
       "語学"
     ],
     "hours": "Monday: 9:30 AM – 5:30 PM / Tuesday: 9:30 AM – 5:30 PM / Wednesday: 9:30 AM – 5:30 PM / Thursday: 9:30 AM – 5:30 PM / Friday: 9:30 AM – 5:30 PM / Saturday: Closed / Sunday: Closed",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJV1RvJ6qf4jARFsyRRl4xXDE",
@@ -972,7 +1014,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "スクンビットの語学学校。日本語対応の具体的な根拠が確認できない。",
+    "spot_reviewed": true,
+    "japanese_staff": false,
+    "price_range": null
   },
   {
     "slug": "kumon-sukhumvit-bangkok",
@@ -982,7 +1029,7 @@
     "address": "Sukhumvit Road, Bangkok 10110",
     "phone": null,
     "website": null,
-    "description": "日本発の学習塾「公文」のバンコク教室。算数・数学・国語の自学自習方式で、子どもの学力に合わせた個別進度学習を提供。タイ国内に多数の教室を展開。",
+    "description": "スクンビットのKUMON（公文式）教室。日本発の学習法で算数・数学・国語・英語を自習形式で習得。バンコク在住の日本人・外国人の子どもが通う。",
     "tags": [
       "学習塾",
       "自学自習",
@@ -992,14 +1039,18 @@
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": false,
+    "price_range": null,
+    "detail": "バンコク・スクンビットにあるKUMON（公文式）教室。日本で開発された独自の学習メソッドを使い、算数・数学・国語・英語を自習形式で段階的に習得するプログラムを提供。世界60カ国以上で展開するグローバルブランドで、日本の公文式と同じカリキュラムで学習できる。バンコク在住の日本人家庭の子どもが多く通うほか、英語・算数教育に関心の高いタイ人・外国人家庭にも支持されている。バンコク在住の日本人家庭の子どもが多く通うほか、英語・算数教育に関心の高いタイ人・外国人家庭にも支持されている。"
   },
   {
     "slug": "lab-language-academy-for-beginners",
@@ -1011,14 +1062,14 @@
     "lng": 100.5683,
     "phone": null,
     "website": "https://labsk331.com/",
-    "description": "スクンビットソイ33/1のタイ語学校「LAB」。日本語N2レベル以上のタイ人講師による指導。グループ・プライベート・オンラインコースで初心者からビジネスレベルまで対応。",
+    "description": "バンコクの日本人向けタイ語学校「LAB」。日本語能力N2以上のインストラクターが在籍し、日本語で文法・発音を丁寧に解説しながらタイ語を教える。",
     "tags": [
       "教育",
       "日本語対応",
       "語学"
     ],
     "hours": "Monday: 9:00 AM – 10:00 PM / Tuesday: 9:00 AM – 10:00 PM / Wednesday: 9:00 AM – 10:00 PM / Thursday: 9:00 AM – 10:00 PM / Friday: 9:00 AM – 10:00 PM / Saturday: 9:00 AM – 10:00 PM / Sunday: 9:00 AM – 10:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJq03pA3Of4jARNCdxGVZmGnE",
@@ -1029,7 +1080,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "price_range": null,
+    "detail": "バンコクにある「LAB（Language Academy for Beginners）」。日本語能力N2以上を取得したタイ人インストラクターが在籍しており、日本語で文法・発音・会話を解説しながらタイ語を教えるスタイルが特徴。バンコク在住の日本人が日本語の感覚でタイ語を習得できる環境を提供しており、初心者から中級者までのコースを設けている。日本語インストラクターによる丁寧な指導は、タイ語初学者の日本人に特に評価が高い。"
   },
   {
     "slug": "language-institute-chiang-mai-university",
@@ -1048,7 +1103,7 @@
       "語学"
     ],
     "hours": "Monday: 8:30 AM – 5:00 PM / Tuesday: 8:30 AM – 5:00 PM / Wednesday: 8:30 AM – 5:00 PM / Thursday: 8:30 AM – 5:00 PM / Friday: 8:30 AM – 5:00 PM / Saturday: Closed / Sunday: Closed",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJezkIQmU62jARJduwTmJ0pxU",
@@ -1059,7 +1114,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "チェンマイ大学の語学センター。日本語コースはあるが日本人向け専門サービスの根拠が薄い。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null
   },
   {
     "slug": "malisa-language-and-culture-school",
@@ -1078,7 +1138,7 @@
       "語学"
     ],
     "hours": "Monday: 9:30 AM – 3:00 PM / Tuesday: Closed / Wednesday: 9:30 AM – 3:00 PM / Thursday: Closed / Friday: 9:30 AM – 3:00 PM / Saturday: Closed / Sunday: Closed",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ83UszuCe4jARpa2QDvcwXCA",
@@ -1089,7 +1149,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "語学・文化学校。日本語対応タグはあるが根拠が確認できない。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null
   },
   {
     "slug": "medical-school-of-massage",
@@ -1107,7 +1172,7 @@
       "日本語対応"
     ],
     "hours": "Monday: 9:00 AM – 6:30 PM / Tuesday: 9:00 AM – 6:30 PM / Wednesday: 9:00 AM – 6:30 PM / Thursday: 9:00 AM – 6:30 PM / Friday: 9:00 AM – 6:30 PM / Saturday: 9:00 AM – 6:30 PM / Sunday: 9:00 AM – 6:30 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJycuCtgiZ4jARmjRc46ADRzQ",
@@ -1118,7 +1183,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "タイ式マッサージスクール。日本語対応の根拠が確認できない。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null
   },
   {
     "slug": "melodies-international-kindergarten",
@@ -1128,7 +1198,7 @@
     "address": "55 Soi 38, Sukhumvit Road, Prakanong, Bangkok 10110",
     "phone": "+6627121680",
     "website": "https://melodieskinder.com/en/",
-    "description": "1981年設立のタイ最大級の日本語幼稚園。卒園生は4,000人以上。日本部・インター部・ナーサリーがあり、日本の幼稚園教育要領に沿った保育を実施。タイ教育省の認可を受けている。",
+    "description": "タイ最大の日本語幼稚園（1981年創設）。4,000名以上の卒業生を輩出した歴史ある日本語幼稚園で、バンコク在住日本人家庭に長年支持されている。",
     "tags": [
       "日本語教育",
       "幼稚園",
@@ -1136,7 +1206,7 @@
       "歴史あり"
     ],
     "hours": "月-金 9:00-16:00",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -1145,7 +1215,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "price_range": null,
+    "detail": "1981年に創設されたタイ最大・最古の日本語幼稚園「Melodies International Kindergarten（メロディーズ インターナショナル キンダーガーテン）」。45年近い歴史の中で4,000名以上の卒業生を輩出しており、バンコク在住日本人家庭の間で最も知名度・信頼度が高い幼稚園の一つ。日本人教員による日本語での保育を基本とし、英語・タイ語の語学教育も提供。長年の実績と安定した保育品質が最大の強みで、2世代にわたって通う家庭も少なくない。"
   },
   {
     "slug": "modulo-language-school-central-world",
@@ -1164,7 +1238,7 @@
       "語学"
     ],
     "hours": "Monday: 10:00 AM – 9:00 PM / Tuesday: 10:00 AM – 9:00 PM / Wednesday: 10:00 AM – 9:00 PM / Thursday: 10:00 AM – 9:00 PM / Friday: 10:00 AM – 9:00 PM / Saturday: 9:00 AM – 7:00 PM / Sunday: 9:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJC49dw8-e4jAR8Zv2pNFQnd0",
@@ -1175,7 +1249,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "語学学校。日本語対応タグはあるが日本人向けサービスの根拠が確認できない。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null
   },
   {
     "slug": "modulo-language-school-icon-siam",
@@ -1194,7 +1273,7 @@
       "語学"
     ],
     "hours": "Monday: 10:00 AM – 9:00 PM / Tuesday: 10:00 AM – 9:00 PM / Wednesday: 10:00 AM – 9:00 PM / Thursday: 10:00 AM – 9:00 PM / Friday: 10:00 AM – 9:00 PM / Saturday: 9:00 AM – 7:00 PM / Sunday: 9:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJEQODS7yZ4jAR81-XVtCI550",
@@ -1205,7 +1284,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "語学学校。日本語対応タグはあるが日本人向けサービスの根拠が確認できない。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null
   },
   {
     "slug": "modulo-language-school-siam-paragon",
@@ -1224,7 +1308,7 @@
       "語学"
     ],
     "hours": "Monday: 10:00 AM – 9:00 PM / Tuesday: 10:00 AM – 9:00 PM / Wednesday: 10:00 AM – 9:00 PM / Thursday: 10:00 AM – 9:00 PM / Friday: 10:00 AM – 9:00 PM / Saturday: 9:00 AM – 7:00 PM / Sunday: 9:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJjzJGB86e4jARDDnB7Uo6hVE",
@@ -1235,7 +1319,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "語学学校。日本語対応タグはあるが日本人向けサービスの根拠が確認できない。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null
   },
   {
     "slug": "nes-international-languages-school-jnes",
@@ -1254,7 +1343,7 @@
       "語学"
     ],
     "hours": "Monday: 9:00 AM – 8:00 PM / Tuesday: 9:00 AM – 8:00 PM / Wednesday: 9:00 AM – 8:00 PM / Thursday: 9:00 AM – 8:00 PM / Friday: 9:00 AM – 8:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: 9:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJNwbRwWI62jARCTyI3WUlJBQ",
@@ -1265,7 +1354,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "チェンマイの国際語学学校。日本語コースはあるが日本人向け専門サービスの根拠が薄い。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null
   },
   {
     "slug": "nexus",
@@ -1277,13 +1371,13 @@
     "lng": 100.5713,
     "phone": "+6622620768",
     "website": "http://www.meirinkan.com/",
-    "description": "プロンポン・ソイプロムシットエリアの「ネクサス明倫」。日本語での指導による中学受験・高校受験対策を提供。バンコク在住の日本人帰国子女向けの進学支援。",
+    "description": "プロンポン・ソイプロムシットの進学塾「ネクサス明倫」。中学・高校受験を日本語で指導し、バンコク在住の日本人帰国子女の進学をサポート。",
     "tags": [
       "教育",
       "日本語対応"
     ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJbx6c5_6e4jAR7EH5XcHoaSI",
@@ -1294,7 +1388,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "price_range": null,
+    "detail": "バンコク・プロンポン、ソイプロムシット沿いにある進学塾「ネクサス明倫（Nexus明倫）」。日本の中学・高校受験対策に特化した学習塾で、日本語での授業・指導が受けられる。バンコク在住の日本人家庭の子どもが帰国後の進学に備えるための塾として利用されるケースが多い。本部サイトはmeirinkan.com。電話番号は+66-2-262-0768。プロンポン駅近くというアクセスの良さも在住日本人には便利。プロンポン駅近くというアクセスの良さも在住日本人には便利な塾。"
   },
   {
     "slug": "nichinoken-bangkok",
@@ -1304,7 +1402,7 @@
     "address": "Sukhumvit Road, Bangkok 10110",
     "phone": null,
     "website": null,
-    "description": "日本の中学受験塾「日能研」のバンコク教室。帰国子女入試や日本の中学受験を目指す小学生を対象に、日本と同じカリキュラムで指導。駐在員の子どもの受験対策に定評あり。",
+    "description": "バンコクの日能研教室。日本の中学受験大手・日能研のバンコク拠点で、日本と同じカリキュラムで中学受験・帰国子女入試対策を実施。",
     "tags": [
       "学習塾",
       "中学受験",
@@ -1313,14 +1411,18 @@
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "price_range": null,
+    "detail": "バンコク・スクンビットエリアにある日能研（Nichinoken）のバンコク教室。日本で中学受験に強い大手学習塾・日能研のタイ拠点で、日本と同じ教材・カリキュラムを使い中学受験対策・帰国子女入試対策を実施。主に小学生を対象に国語・算数・理科・社会の主要科目を日本語で指導する。バンコク在住の日本人家庭にとって、日本の中学受験を目指すなら信頼できる選択肢の一つ。バンコク在住の日本人家庭にとって、日本の中学受験を目指すなら信頼できる選択肢の一つ。"
   },
   {
     "slug": "nichinoken-sriracha",
@@ -1330,7 +1432,7 @@
     "address": "Sriracha, Chonburi",
     "phone": null,
     "website": null,
-    "description": "日本の中学受験塾「日能研」のシラチャ教室。シラチャの日本人駐在員の子ども向けに、日本と同じカリキュラムで中学受験対策の指導を行う。",
+    "description": "シラチャの日能研教室。東部工業地帯に赴任した日本人駐在員の子どもを対象に、日本の中学受験・帰国子女入試対策を日本語で指導。",
     "tags": [
       "学習塾",
       "中学受験",
@@ -1340,14 +1442,18 @@
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "price_range": null,
+    "detail": "シラチャにある日能研（Nichinoken）のシラチャ教室。東部工業地帯・レムチャバン港周辺に赴任している日本人駐在員の子どもを主な対象に、日本の中学受験・帰国子女入試対策を日本語で実施。日本と同じ教材・カリキュラムで学習できるため、帰国後の受験に向けて学力を維持・向上させる環境が整っている。シラチャに日能研があることで、バンコクに通わなくても受験塾に通える点が東部在住家庭には便利。シラチャに日能研があることで、バンコクに通わなくても東部在住家庭でも受験塾に通える利便性がある。"
   },
   {
     "slug": "oisca",
@@ -1359,13 +1465,13 @@
     "lng": 100.986,
     "phone": "+6638111372",
     "website": "http://www.oisca-youchien.com/sriracha/",
-    "description": "シラチャ・スラサック地区のOISCA（公益社団法人オイスカ）タイランド。農業・環境教育・日本語教育を提供する日本の国際NGO機関。シラチャ在住日本人との連携も深い。",
+    "description": "シラチャ・スラサックの公益社団法人オイスカタイランド。農業・環境・日本語教育を行う日本の国際NGOで、シラチャ在住日本人との連携も深い。",
     "tags": [
       "教育",
       "日本語対応"
     ],
     "hours": "Monday: 8:00 AM – 5:00 PM / Tuesday: 8:00 AM – 5:00 PM / Wednesday: 8:00 AM – 5:00 PM / Thursday: 8:00 AM – 5:00 PM / Friday: 8:00 AM – 5:00 PM / Saturday: Closed / Sunday: Closed",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJN2NxjCvIAjERymOEA4T1vwI",
@@ -1376,7 +1482,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "price_range": null,
+    "detail": "シラチャ・スラサック地区にある公益社団法人オイスカ（OISCA）のタイランド拠点。日本発の国際NGOで、農業・環境保護・日本語教育などを通じた国際協力活動を行っている。シラチャ在住の日本人コミュニティとの連携も深く、地域の日本人ネットワークとの接点になっている。農業研修・環境教育・日本語教育を中心に活動。公式サイトはoisca-youchien.com/sriracha/。電話番号は+66-38-111-372。"
   },
   {
     "slug": "oisca-bangkok-kindergarten",
@@ -1386,7 +1496,7 @@
     "address": "876 Soi Pridi Banomyong 36, Sukhumvit Soi 71, Klongton Nua, Wattana, Bangkok 10110",
     "phone": "+6623818721",
     "website": "http://www.oisca-youchien.com/bangkok/",
-    "description": "2008年開園の日本語幼稚園。日本人教諭による日本語での幼児教育を実施し、小川が流れる広い園庭が特徴。インターナショナル部も併設しており、英語教育との両立も可能。自然とのふれあいを大切にした保育方針。",
+    "description": "2008年開園のオイスカバンコク日本語幼稚園。スクンビット71沿いで日本人教諭が保育を担当。小川が流れる広い園庭とインター部も併設。",
     "tags": [
       "日本語教育",
       "幼稚園",
@@ -1394,7 +1504,7 @@
       "園庭あり"
     ],
     "hours": null,
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "website",
     "ai_reviewed": true,
@@ -1403,7 +1513,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "price_range": null,
+    "detail": "2008年に開園した「オイスカバンコク日本語幼稚園」。スクンビット71、プリディバノミョン通り36沿いに位置し、日本人教諭が日本語で保育を行う幼稚園。広い園庭には小川が流れる自然豊かな環境が特徴。日本人部（日本語中心）とインターナショナル部（英語中心）を同一キャンパスに設置しており、子どもの進路・家庭環境に合わせたプログラム選択が可能。日本語・英語・タイ語の3言語に触れる環境を提供。電話番号は+66-2-381-8721。"
   },
   {
     "slug": "oisca-sriracha-kindergarten",
@@ -1413,7 +1527,7 @@
     "address": "Sriracha, Chonburi",
     "phone": null,
     "website": "http://www.oisca-youchien.com/",
-    "description": "オイスカバンコク幼稚園のシラチャ分園。シラチャの日本人コミュニティ向けに、日本語での幼児教育を提供。日本人教諭による保育で、帰国後もスムーズに日本の幼稚園に適応できる。",
+    "description": "オイスカバンコク幼稚園のシラチャ分園。日本人教諭による日本語保育を実施し、シラチャ在住の日本人家庭の子どもが通う幼稚園。",
     "tags": [
       "日本語教育",
       "幼稚園",
@@ -1422,44 +1536,18 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "old-japan-student-association-kingdom-of-thailand-northern-regional-office-ojsat",
-    "name": "Old Japan Student Association, Kingdom of Thailand Northern Regional Office : OJSATN",
-    "name_ja": "Old ジャパン スツデント アソシエーション, キングダム of タイランド Northern レギオナル オフィス : OJSATN",
-    "area": "Chiang Mai",
-    "address": "3 3 Samlarn Rd, พระสิงห์ เมือง Chang Wat Chiang Mai 50200, Thailand",
-    "lat": 18.7882,
-    "lng": 98.9827,
-    "phone": "+6653272331",
-    "website": "http://ojsatn.or.th/",
-    "description": "チェンマイ・サムランロードの日本留学経験者協会タイ北部支部。日本語学習・日本文化普及活動を行い、チェンマイ在住日本人との交流機会も提供。",
-    "tags": [
-      "教育",
-      "日本語対応",
-      "語学"
-    ],
-    "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: 9:00 AM – 4:00 PM / Sunday: 9:00 AM – 4:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJ18K1HJ062jARFaK11aMnIM0",
-    "priority": 0,
-    "ai_reviewed": false,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "price_range": null,
+    "detail": "オイスカバンコク日本語幼稚園のシラチャ分園。シラチャ在住の日本人家庭の子どもを対象に、日本人教諭が日本語での保育を実施。東部工業地帯の日本人コミュニティに根ざした幼稚園で、バンコクまで通わなくてもシラチャで日本語幼稚園教育が受けられる。帰国後の日本の幼稚園・小学校へのスムーズな適応を見据えたカリキュラムを実施。公式サイトはoisca-youchien.com。帰国後の日本の幼稚園・小学校へのスムーズな適応を見据えたカリキュラムを実施している。公式サイトはoisca-youchien.com。"
   },
   {
     "slug": "ongs-thai-massage-school",
@@ -1478,7 +1566,7 @@
       "語学"
     ],
     "hours": "Monday: 9:00 AM – 4:00 PM / Tuesday: 9:00 AM – 4:00 PM / Wednesday: 9:00 AM – 4:00 PM / Thursday: 9:00 AM – 4:00 PM / Friday: 9:00 AM – 4:00 PM / Saturday: 9:00 AM – 4:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJrWBmJhM72jARhysWih9_PNE",
@@ -1489,7 +1577,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "チェンマイのタイ式マッサージスクール。日本人受講者の根拠が確認できない。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null
   },
   {
     "slug": "patong-language-school",
@@ -1508,7 +1601,7 @@
       "語学"
     ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: 9:00 AM – 4:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJNXCwT5g6UDARUVT3r_BTXTI",
@@ -1519,7 +1612,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "プーケットの語学学校。日本語対応の根拠が確認できない。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null
   },
   {
     "slug": "phasorn-thai-language-school",
@@ -1538,7 +1636,7 @@
       "語学"
     ],
     "hours": "Monday: 7:00 AM – 9:00 PM / Tuesday: 7:00 AM – 9:00 PM / Wednesday: 7:00 AM – 9:00 PM / Thursday: 7:00 AM – 9:00 PM / Friday: 7:00 AM – 9:00 PM / Saturday: 7:00 AM – 9:00 PM / Sunday: 7:00 AM – 9:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJu9Rlmtqe4jAR9J_vzUU7ozc",
@@ -1549,7 +1647,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null,
+    "needs_review": true,
+    "review_note": "セントラルワールドの一般語学学校。日本人向けタイ語レッスンとの記述はあるが日本語スタッフ・日本人向け専門サービスの根拠が確認できない。"
   },
   {
     "slug": "po-thai-traditional-massage-school-sukhumvit-branch",
@@ -1568,7 +1671,7 @@
       "語学"
     ],
     "hours": "Monday: 9:00 AM – 10:30 PM / Tuesday: 9:00 AM – 10:30 PM / Wednesday: 9:00 AM – 10:30 PM / Thursday: 9:00 AM – 10:30 PM / Friday: 9:00 AM – 11:00 PM / Saturday: 9:00 AM – 11:00 PM / Sunday: 9:00 AM – 11:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJj5mLvQGf4jARjnI01ko6qj0",
@@ -1579,7 +1682,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "タイ式マッサージスクール。英語・日本語での対応の根拠が確認できない。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null
   },
   {
     "slug": "pro-language-school-bangkok",
@@ -1598,7 +1706,7 @@
       "語学"
     ],
     "hours": "Monday: 9:00 AM – 8:00 PM / Tuesday: 9:00 AM – 8:00 PM / Wednesday: 9:00 AM – 8:00 PM / Thursday: 9:00 AM – 8:00 PM / Friday: 9:00 AM – 8:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJR8LGwuOe4jAR9QNWwu8_PGY",
@@ -1609,7 +1717,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "語学学校。日本語対応の具体的な根拠が確認できない。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null
   },
   {
     "slug": "pro-language-school-chiang-mai",
@@ -1628,7 +1741,7 @@
       "語学"
     ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJMa5-7WE62jARupKG2SF06Ws",
@@ -1639,7 +1752,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "語学学校。日本語対応の具体的な根拠が確認できない。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null
   },
   {
     "slug": "ryt200-sanseed",
@@ -1651,13 +1769,13 @@
     "lng": 100.5675,
     "phone": null,
     "website": "http://sanseed.net/",
-    "description": "スクンビット24のヨガスタジオ兼ヨガ指導者養成スクール「SANSEED」。日本語でRYT200認定コースを提供。バンコク在住日本人のヨガインストラクター養成に対応。",
+    "description": "スクンビット24の日本語ヨガインストラクター養成スクール「SANSEED」。日本語でRYT200認定コースを受講でき、バンコク在住日本人のヨガ資格取得を支援。",
     "tags": [
       "教育",
       "日本語対応"
     ],
     "hours": "Monday: 8:00 AM – 9:00 PM / Tuesday: 8:00 AM – 9:00 PM / Wednesday: 8:00 AM – 9:00 PM / Thursday: 8:00 AM – 9:00 PM / Friday: 8:00 AM – 9:00 PM / Saturday: 10:00 AM – 2:00 PM / Sunday: 10:00 AM – 2:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJrXB93kyf4jARHL422yU1-Z4",
@@ -1668,37 +1786,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sakura-japanese-language-school",
-    "name": "SAKURA japanese language school",
-    "name_ja": "サクラ 日本 ランゲージ スクール",
-    "area": "Pattaya",
-    "address": "344/22,344/23 หมู่ที่2 Thanon Si Racha-Nong Yai Bu, Tambon Surasak, Amphoe Si Racha, Chang Wat Chon Buri 20110, Thailand",
-    "lat": 13.1516,
-    "lng": 100.9439,
-    "phone": "+6633031181",
-    "website": "https://www.facebook.com/pages/category/School/%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%AA%E0%B8%AD%E0%B8%99%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%8B%E0%B8%B2%E0%B8%81%E0%B8%B8%E0%B8%A3%E0%B8%B0%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%B2-Sakura-Language-School-109234897537543/",
-    "description": "シラチャ・スラサック地区の日本語学校「SAKURA」。タイ人向けに日本語コースを提供し、シラチャ在住の日本人スタッフがサポート。",
-    "tags": [
-      "教育",
-      "日本語対応",
-      "語学"
-    ],
-    "hours": "Monday: 8:30 AM – 5:30 PM / Tuesday: 8:30 AM – 5:30 PM / Wednesday: 8:30 AM – 5:30 PM / Thursday: 8:30 AM – 5:30 PM / Friday: 8:30 AM – 5:30 PM / Saturday: 8:30 AM – 12:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJ0VyTnKO3AjERvOH738C9HOM",
-    "priority": 0,
-    "ai_reviewed": false,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "price_range": null,
+    "detail": "バンコク・スクンビット24にあるヨガスタジオ兼ヨガ指導者養成スクール「SANSEED（サンシード）」。日本語でのヨガ指導者養成コース「RYT200」（全米ヨガアライアンス認定200時間コース）を提供している。バンコク在住の日本人がヨガインストラクター資格の取得を目指せる環境として、日本人在住者から支持されている。ヨガクラスも併設しており、資格取得と並行して定期的なヨガ練習もできる。公式サイトはsanseed.net。"
   },
   {
     "slug": "sanaru",
@@ -1710,13 +1802,13 @@
     "lng": 100.5713,
     "phone": "+66952842232",
     "website": "https://www.sanaru-bangkok.com/",
-    "description": "スクンビット39エリアの日本の大手進学塾「佐鳴予備校」のバンコク教室。小中高生向けに日本の大学受験・帰国子女対応カリキュラムで授業を実施。",
+    "description": "スクンビット39エリアの「SANARU佐鳴予備校」バンコク校。日本の大手進学塾・佐鳴予備校のタイ拠点で、小中高生を対象に日本語で受験指導。",
     "tags": [
       "教育",
       "日本語対応"
     ],
     "hours": "Monday: 11:00 AM – 10:30 PM / Tuesday: 11:00 AM – 10:30 PM / Wednesday: 11:00 AM – 10:30 PM / Thursday: 11:00 AM – 10:30 PM / Friday: 11:00 AM – 10:30 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ74Yje-uf4jAR3GbjkjaQCb0",
@@ -1727,7 +1819,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "price_range": null,
+    "detail": "バンコク・スクンビット39の5階に位置する「SANARU佐鳴予備校バンコク校」。日本の中部地方を中心に展開する大手進学塾・佐鳴予備校のバンコク拠点で、小学生・中学生・高校生を対象に日本語で授業を実施。中学受験・高校受験・大学受験・帰国子女入試対策など幅広いニーズに対応している。日本と同じカリキュラム・教材を使用するため、帰国後の受験にも直結した学習ができる。公式サイトはsanaru-bangkok.com。電話番号は+66-95-284-2232。"
   },
   {
     "slug": "sapix-bangkok",
@@ -1737,7 +1833,7 @@
     "address": "Sukhumvit Road, Bangkok 10110",
     "phone": null,
     "website": null,
-    "description": "日本の中学受験塾「SAPIX」のバンコク教室。中学受験を目指す小学生向けに、日本と同じ教材・カリキュラムで授業を実施。帰国子女入試対策にも対応。",
+    "description": "バンコクの「SAPIX（サピックス）」教室。日本の最難関中学受験対策で知られる大手塾・サピックスのバンコク拠点で、帰国子女の中学受験を日本語で指導。",
     "tags": [
       "学習塾",
       "中学受験",
@@ -1746,14 +1842,18 @@
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "price_range": null,
+    "detail": "バンコク・スクンビットエリアにある「SAPIX（サピックス）バンコク校」。日本の最難関中学・灘中・開成・麻布等への合格実績で知られる大手学習塾・SAPIXのバンコク拠点で、帰国子女入試対策を中心に日本語での授業を実施。バンコク在住の日本人家庭の子どもが帰国後の難関中学受験を目指す場合の最有力選択肢の一つ。算数・国語・理科・社会の主要科目を日本と同じ教材・メソッドで指導する。算数・国語・理科・社会の主要科目を日本と同じ教材・メソッドで指導しており、最難関中学を目指す家庭に適している。"
   },
   {
     "slug": "seasoning-phuket-thai-cooking-class",
@@ -1772,7 +1872,7 @@
       "語学"
     ],
     "hours": "Monday: Closed / Tuesday: 8:00 AM – 9:00 PM / Wednesday: 8:00 AM – 9:00 PM / Thursday: 8:00 AM – 9:00 PM / Friday: 8:00 AM – 9:00 PM / Saturday: 8:00 AM – 9:00 PM / Sunday: 8:00 AM – 9:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJn_xcG545UDARjhE7pJEx4u8",
@@ -1783,7 +1883,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "プーケットのタイ料理教室。日本語コースありとの記述はあるが根拠が確認できない。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null
   },
   {
     "slug": "sp-kindergarten-phrom-phong",
@@ -1806,7 +1911,7 @@
     "hours": "平日 8:30-16:00",
     "status": "unverified",
     "source": "web_search",
-    "last_verified": "2026-04-03",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "place_id": "",
     "priority": 0,
@@ -1814,7 +1919,10 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "price_range": null
   },
   {
     "slug": "sriracha-japanese-school",
@@ -1824,7 +1932,7 @@
     "address": "210/2 Moo 1, Surasak, Sriracha, Chonburi 20110",
     "phone": "+6638310983",
     "website": "https://www.tjas.ac.th/sriracha/",
-    "description": "タイ東部工業地帯に赴任する日本人駐在員の子ども向け日本人学校。小学部と中学部で構成され、日本の学習指導要領に基づいた教育を実施。シラチャ・レムチャバン地区からスクールバス運行。",
+    "description": "泰日協会学校シラチャ校。東部工業地帯に赴任した日本人駐在員の子ども向けの日本人学校で、小学部・中学部を設置。スクールバスも運行。",
     "tags": [
       "日本語教育",
       "小学校",
@@ -1834,43 +1942,18 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "taiyo-japanese-education-center-chiangmai",
-    "name": "Taiyo Japanese Education Center Chiangmai",
-    "name_ja": "タイヨ 日本 エデュケーション センター チェンマイ",
-    "area": "Chiang Mai",
-    "address": "63/4 Taeparak Rd, Tambon Chang Phueak, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50300, Thailand",
-    "lat": 18.8039,
-    "lng": 98.9752,
-    "phone": "+66979691447",
-    "website": "https://www.facebook.com/TaiyoJapaneseEducationCenterChiangmai/",
-    "description": "チェンマイ・タエープラーク通りの日本語教育センター「太陽」。タイ人・外国人向けに日本語コースを提供。チェンマイ在住日本人によるコミュニティ支援も行う。",
-    "tags": [
-      "教育",
-      "日本語対応"
-    ],
-    "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: 9:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJKUffZ6w72jARnKlKR_lvdyc",
-    "priority": 0,
-    "ai_reviewed": false,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "price_range": null,
+    "detail": "シラチャにある「タイ日本人学校シラチャ校（Thai Japanese Association School Sriracha）」。東部工業地帯・レムチャバン港周辺に赴任する日本人駐在員の子どもを対象に、日本の学習指導要領に基づいた小学部・中学部の教育を実施する日本人学校。シラチャ・レムチャバン地区からスクールバスが運行されており、工業団地周辺に住む家庭でも通いやすい環境が整っている。公式サイトはtjas.ac.th/sriracha/。電話番号は+66-38-310-983。"
   },
   {
     "slug": "tdi-bangna-kindergarten",
@@ -1880,7 +1963,7 @@
     "address": "Bangna, Bangkok, Thailand",
     "phone": null,
     "website": null,
-    "description": "バンナーエリアにある日本語幼稚園。バンコク日本人学校の幼稚部から引き継いで設立され、2023年10月にトンロー・ソイ25へ移転。少人数保育と異年齢保育が特徴。アットホームな雰囲気。",
+    "description": "バンナーエリア発祥の日本語幼稚園「TDI」。2023年10月にトンロー・ソイ25へ移転。少人数・異年齢保育のアットホームな日本語幼稚園。",
     "tags": [
       "日本語教育",
       "幼稚園",
@@ -1889,14 +1972,18 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "price_range": null,
+    "detail": "もともとバンナーエリアにあった日本語幼稚園「TDI Bangna Japanese Kindergarten」。バンコク日本人学校の幼稚部廃止に伴い設立された経緯を持ち、2023年10月にトンロー・ソイ25へ移転。少人数制・異年齢保育を実施するアットホームな雰囲気が特徴で、大規模幼稚園とは異なるきめ細かい保育環境を提供している。日本語での保育を基本とし、帰国後の日本の幼稚園・小学校への適応をサポート。移転後の詳細は公式サイトにて確認のこと。"
   },
   {
     "slug": "tes-english-japanese",
@@ -1908,13 +1995,13 @@
     "lng": 98.9715,
     "phone": "+66843326207",
     "website": "https://www.thaieigo.com/",
-    "description": "チェンマイ・スッテープ地区の英語・日本語語学学校。英語・日本語のレッスンを提供し、日本人学習者・日本語を学ぶタイ人双方に対応したプログラム。",
+    "description": "チェンマイ・スッテープ地区の英語・日本語語学学校「TES」。英語・日本語のレッスンを提供し、日本人学習者と日本語を学ぶタイ人に対応したプログラム。",
     "tags": [
       "教育",
       "日本語対応"
     ],
     "hours": null,
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJPz2Fp4k62jARGpst3fgpAoI",
@@ -1925,7 +2012,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null,
+    "detail": "チェンマイ・スッテープ地区にある語学学校「TES.English Japanese」。英語と日本語のレッスンを提供しており、チェンマイ在住の日本人が英語を学んだり、日本語を学ぶタイ人に教えたりする双方向の語学学習の場を提供。公式サイトはthaieigo.com。電話番号は+66-84-332-6207。チェンマイはバンコクに次いで日本人居住者が多いエリアで、語学学校のニーズも高い。チェンマイはバンコクに次いで日本人居住者が多いエリアで、語学学校のニーズも高い。電話番号は+66-84-332-6207。"
   },
   {
     "slug": "thai-solutions-thai-language-school-in-bangkok",
@@ -1937,14 +2028,14 @@
     "lng": 100.5327,
     "phone": "+66816535788",
     "website": "https://www.thaisolutions1502.com/",
-    "description": "バンコク・パヤータイプラザ（BTSプロンポン駅近く）のタイ語学校。日本語での文法説明と会話中心のカリキュラムで、初心者から中級者まで日本人学習者をサポート。",
+    "description": "バンコク・パヤータイプラザ（BTSパヤータイ近く）の日本語サポート付きタイ語学校「Thai Solutions」。日本語での文法説明で初心者から中級者までサポート。",
     "tags": [
       "教育",
       "日本語対応",
       "語学"
     ],
     "hours": "Monday: 10:00 AM – 5:00 PM / Tuesday: 10:00 AM – 5:00 PM / Wednesday: 10:00 AM – 5:00 PM / Thursday: 10:00 AM – 5:00 PM / Friday: 10:00 AM – 5:00 PM / Saturday: Closed / Sunday: Closed",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJgWFPseKe4jARHedXDUZS-0k",
@@ -1955,7 +2046,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null,
+    "detail": "バンコク・ラーチャウィー区、パヤータイプラザ19階にある「Thai Solutions タイ語学校」。日本語での文法説明・会話中心のカリキュラムで日本人学習者のタイ語習得をサポートする語学学校。初心者から中級者まで対応したコースを用意し、バンコク在住の日本人が日常生活・ビジネスで使えるタイ語力を身につけるための環境を提供。BTSパヤータイ駅近くでアクセスも良好。公式サイトはthaisolutions1502.com。電話番号は+66-81-653-5788。"
   },
   {
     "slug": "the-genius-language-school-robinson-chalong",
@@ -1974,7 +2069,7 @@
       "語学"
     ],
     "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJqSFBfMcvUDARlYp2lpvkLhM",
@@ -1985,7 +2080,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "プーケットの語学学校。日本語対応の根拠が確認できない。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null
   },
   {
     "slug": "tls-2",
@@ -1997,13 +2097,13 @@
     "lng": 100.5338,
     "phone": "+6626329440",
     "website": "http://www.tls-silom.com/",
-    "description": "シーロム・スリワンス通り（タニヤ通り近く）のTLS語学学校シーロム校。日本語サポートが充実したタイ語・英会話コースを提供。日本人ビジネスパーソンの利用が多い。",
+    "description": "シーロム・タニヤ通り近くの「TLSシーロム校」。日本語サポート付きのタイ語・英会話コースを提供し、日本人ビジネスパーソンの利用が多い語学学校。",
     "tags": [
       "教育",
       "日本語対応"
     ],
     "hours": "Monday: 9:00 AM – 9:00 PM / Tuesday: 9:00 AM – 9:00 PM / Wednesday: 9:00 AM – 9:00 PM / Thursday: 9:00 AM – 9:00 PM / Friday: 9:00 AM – 9:00 PM / Saturday: 9:00 AM – 4:30 PM / Sunday: 9:00 AM – 4:30 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJA-4PCSyf4jARDgUqmlXboSM",
@@ -2014,7 +2114,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null,
+    "detail": "バンコク・シーロム、スリワンス通りのタニヤビル11階にある「TLS（Thai Language School）シーロム校」。日本語でのフォローが充実したタイ語・英会話コースを提供しており、シーロム・サトーン近辺で働く日本人ビジネスパーソンの利用が多い語学学校。タニヤ通りはバンコクの日本人ビジネスエリアに近く、通勤前後のレッスン通学に便利なロケーション。公式サイトはtls-silom.com。電話番号は+66-2-632-9440。"
   },
   {
     "slug": "tls-3",
@@ -2026,13 +2130,13 @@
     "lng": 100.9292,
     "phone": "+6638323707",
     "website": "https://www.facebook.com/tlssrirachachonburilanguageschool/",
-    "description": "シラチャのTLS語学学校シラチャ校。日本語サポートが充実したタイ語・英会話コースを提供。シラチャ在住の日本人学習者に人気の語学学校。",
+    "description": "シラチャの「TLSシラチャ校」。日本語サポート付きのタイ語・英会話コースを提供し、シラチャ在住の日本人学習者に人気の語学学校。",
     "tags": [
       "教育",
       "日本語対応"
     ],
     "hours": "Monday: 9:00 AM – 9:00 PM / Tuesday: 9:00 AM – 9:00 PM / Wednesday: 9:00 AM – 9:00 PM / Thursday: 9:00 AM – 9:00 PM / Friday: 9:00 AM – 9:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: 9:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJucdOOwK3AjER_F7X90jWtKI",
@@ -2043,7 +2147,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null,
+    "detail": "シラチャにある「TLS（タイ語英会話学校）シラチャ校」。日本語でのサポートが充実したタイ語・英会話コースを提供している語学学校で、シラチャ在住の日本人駐在員・移住者の利用が多い。バンコクのTLSシーロム校・プロンポン校と同じ日本語対応スタイルを継承し、シラチャでも安心してタイ語・英語を学べる環境を提供。Facebookページ（tls.sriracha...）で最新情報を確認できる。電話番号は+66-38-323-707。"
   },
   {
     "slug": "tls-phomphongthai-english-school",
@@ -2055,14 +2163,14 @@
     "lng": 100.5684,
     "phone": "+6626622584",
     "website": "http://www.tls-silom.com/",
-    "description": "スクンビットソイ33のTLS語学学校・プロンポン校。日本語でのフォローが充実したタイ語・英会話コースを提供。在住日本人に人気の語学学校。",
+    "description": "スクンビットソイ33のTLS「プロンポン校」。日本語でのフォローが充実したタイ語・英会話コースを提供。在住日本人に人気の語学学校。",
     "tags": [
       "教育",
       "日本語対応",
       "語学"
     ],
     "hours": "Monday: 9:00 AM – 9:00 PM / Tuesday: 9:00 AM – 9:00 PM / Wednesday: 9:00 AM – 9:00 PM / Thursday: 9:00 AM – 9:00 PM / Friday: 9:00 AM – 9:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: 9:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJfa4iFwKf4jARO6rh5YoyQ9M",
@@ -2073,7 +2181,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null,
+    "detail": "バンコク・スクンビット33/1の2階にある「TLS プロンポン校（TLS PhomphongThai/English School）」。日本語でのサポートが充実したタイ語・英会話コースを提供しており、プロンポン・トンロー周辺に住む日本人在住者の利用が多い。バンコクのTLSグループは複数の校舎を展開しており、いずれも日本語対応を強みとしている。プロンポン駅近くのスクンビット33は日本人居住者の多いエリアで通学に便利。公式サイトはtls-silom.com。電話番号は+66-2-662-2584。"
   },
   {
     "slug": "tls-thong-lo",
@@ -2085,13 +2197,13 @@
     "lng": 100.5785,
     "phone": "+6627142229",
     "website": "https://www.facebook.com/tls.thoglor/",
-    "description": "スクンビット通り・トンロー校のTLS語学学校。日本語でのフォローが充実したタイ語・英会話コースを提供。バンコク在住日本人が多く通う語学学校。",
+    "description": "スクンビット通り・トンロー校の「TLS Thong Lo」。日本語でのフォローが充実したタイ語・英会話コースを提供。バンコク在住日本人が多く通う語学学校。",
     "tags": [
       "教育",
       "日本語対応"
     ],
     "hours": "Monday: 9:00 AM – 9:00 PM / Tuesday: 9:00 AM – 9:00 PM / Wednesday: 9:00 AM – 9:00 PM / Thursday: 9:00 AM – 9:00 PM / Friday: 9:00 AM – 9:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: 9:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ90c9Gamf4jAR5i9BftQ5MdM",
@@ -2102,7 +2214,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null,
+    "detail": "バンコク・スクンビット通りのトンロー校にある「TLS Thong Lo（TLSトンロー タイ語英会話学校）」。日本語でのサポートが充実したタイ語・英会話コースを提供。トンローはバンコクの中でも日本人居住者が特に多いエリアで、TLSトンロー校は日本人在住者が最も利用しやすい校舎の一つ。日常会話・ビジネスタイ語・EDビザ対応コースなど目的別プログラムを用意。電話番号は+66-2-714-2229。日常会話・ビジネスタイ語・EDビザ対応コースなど目的別プログラムを用意。電話番号は+66-2-714-2229。"
   },
   {
     "slug": "tpa-language-center-bangkok",
@@ -2112,7 +2228,7 @@
     "address": "Sukhumvit Soi 29, Khlong Toei Nuea, Watthana, Bangkok 10110",
     "phone": null,
     "website": null,
-    "description": "泰日経済技術振興協会が運営する語学センター。タイ語・日本語・英語のクラスを提供。バンコク在住の日本人向けにタイ語コースが充実しており、初級者から上級者まで対応。",
+    "description": "アソークの泰日経済技術振興協会（TPA）が運営する語学センター。タイ語・日本語・英語クラスを提供し、日本人向けタイ語コースが充実。",
     "tags": [
       "語学学校",
       "タイ語",
@@ -2122,14 +2238,18 @@
     "hours": null,
     "status": "unverified",
     "source": "website",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "price_range": null,
+    "detail": "バンコク・アソーク、スクンビットソイ29沿いにある「TPA（Thai-Japanese Association）Language Center」。泰日経済技術振興協会が運営する語学センターで、タイ語・日本語・英語のクラスを提供。バンコク在住の日本人向けのタイ語コースが充実しており、初級者から上級者まで対応したプログラムを用意。TPA（TPA29）はタイと日本の技術・経済交流を促進する機関として長い歴史を持ち、語学センターもその活動の一環として運営されている。"
   },
   {
     "slug": "tsl-chiang-mai-thai-language-school",
@@ -2148,7 +2268,7 @@
       "語学"
     ],
     "hours": "Monday: 10:00 AM – 5:00 PM / Tuesday: 10:00 AM – 5:00 PM / Wednesday: 10:00 AM – 5:00 PM / Thursday: 10:00 AM – 5:00 PM / Friday: 10:00 AM – 5:00 PM / Saturday: 10:00 AM – 4:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJv50JnKc62jARJceAt0p07Qs",
@@ -2159,7 +2279,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "チェンマイのタイ語学校。日本人向けコースとの記述はあるが根拠が確認できない。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null
   },
   {
     "slug": "waraku-kids-room",
@@ -2171,13 +2296,13 @@
     "lng": 100.9302,
     "phone": "+66879148933",
     "website": "https://sites.google.com/view/warakukidsroom/",
-    "description": "シラチャ・スラサック地区のこども向け教育施設「和楽（Waraku）キッズルーム」。日本語・英語プログラムで幼児〜小学生を対象とした教育を提供。",
+    "description": "シラチャ・スラサックの「和楽（Waraku）キッズルーム」。日本語・英語プログラムで幼児〜小学生を対象に週末保育・学習支援を実施。",
     "tags": [
       "教育",
       "日本語対応"
     ],
     "hours": "Monday: Closed / Tuesday: Closed / Wednesday: Closed / Thursday: Closed / Friday: Closed / Saturday: 9:00 AM – 4:00 PM / Sunday: 9:00 AM – 4:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJ_-YAT763AjERJtO_S2A2LNc",
@@ -2188,7 +2313,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "price_range": null,
+    "detail": "シラチャ・スラサック地区のスラチャプラザ内にある「和楽（Waraku）キッズルーム」。日本語・英語プログラムを中心に幼児から小学生を対象とした教育サービスを提供。週末のみの営業（土日9:00〜16:00）で、週末の子どもの学習サポート・保育需要に応えている。シラチャ在住の日本人家庭の子どもが多く利用しており、日本語環境での学習を継続するための場として機能している。電話番号は+66-87-914-8933。"
   },
   {
     "slug": "waraku-language-school",
@@ -2200,14 +2329,14 @@
     "lng": 100.9474,
     "phone": "+6638311829",
     "website": "http://www.warakulanguageschool.com/",
-    "description": "シラチャ・スラサック地区の語学学校「和楽（WARAKU）」。タイ語・日本語・英語コースを提供し、シラチャ在住の日本人向けサポートも行う。",
+    "description": "シラチャ・スラサックの語学学校「和楽（WARAKU）」。タイ語・日本語・英語コースを提供し、シラチャ在住の日本人向けサポートも実施。",
     "tags": [
       "教育",
       "日本語対応",
       "語学"
     ],
     "hours": "Monday: Closed / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: 9:00 AM – 4:00 PM / Sunday: 9:00 AM – 4:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJPRsBIgK3AjERZISBf2zGY_U",
@@ -2218,7 +2347,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "price_range": null,
+    "detail": "シラチャ・スラサック地区にある「WARAKU LANGUAGE SCHOOL（和楽語学学校）」。タイ語・日本語・英語・中国語コースを提供しており、シラチャ在住の日本人向けのタイ語・英語学習サポートも実施。シラチャは東部工業地帯に近く日本人駐在員が多く居住するエリアで、日常生活で使えるタイ語を身につけたい日本人の利用者が多い。公式サイトはwarakulanguageschool.com。電話番号は+66-38-311-829。"
   },
   {
     "slug": "waseda-academy-bangkok",
@@ -2228,7 +2361,7 @@
     "address": "Sukhumvit Road, Bangkok 10110",
     "phone": null,
     "website": null,
-    "description": "日本の進学塾「早稲田アカデミー」のバンコク教室。中学受験・高校受験を目指す小中学生を対象に、日本と同じカリキュラムで指導。帰国子女入試対策にも対応。",
+    "description": "バンコクの「早稲田アカデミー」教室。日本の進学塾・早稲田アカデミーのバンコク拠点で、小中学生を対象に中学・高校受験対策を日本語で指導。",
     "tags": [
       "学習塾",
       "中学受験",
@@ -2238,14 +2371,18 @@
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "price_range": null,
+    "detail": "バンコク・スクンビットにある「早稲田アカデミー バンコク校（Waseda Academy Bangkok）」。日本で中学・高校受験に強い大手進学塾・早稲田アカデミーのバンコク拠点で、日本と同じ教材・カリキュラムで中学受験・高校受験・帰国子女入試対策を実施。算数・国語・英語・理科・社会の主要科目を日本語で指導。バンコク在住の日本人家庭の子どもが帰国後の受験を見据えて通う選択肢として定評がある。算数・国語・英語・理科・社会の主要科目を日本語で指導し、帰国後の受験に直結した学習ができる。"
   },
   {
     "slug": "waseda-japanese-language-and-culture-school-sriracha",
@@ -2257,14 +2394,14 @@
     "lng": 100.983,
     "phone": "+66836052234",
     "website": "http://www.waseda.ac.th/",
-    "description": "シラチャ・スラサック地区の日本語・日本文化学校「早稲田」。タイ人向けに日本語・日本文化コースを提供。シラチャ在住日本人との交流機会も設ける。",
+    "description": "シラチャ・スラサックの日本語・日本文化学校「早稲田」。タイ人向けに日本語・文化コースを提供し、シラチャ在住日本人との交流機会も設ける。",
     "tags": [
       "教育",
       "日本語対応",
       "語学"
     ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: 9:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJq8C61ay3AjERndN4OD2k2EI",
@@ -2275,7 +2412,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null,
+    "detail": "シラチャ・スラサック地区にある「Waseda Japanese Language and Culture School（早稲田 日本語・日本文化学校）シラチャ」。タイ人向けに日本語・日本文化コースを提供する教育機関で、シラチャ在住の日本人とタイ人の交流・文化理解の促進にも貢献している。日本語を学ぶタイ人との交流を通じて、シラチャ在住の日本人にとっても地域コミュニティとのつながりを深める機会を提供。公式サイトはwaseda.ac.th。電話番号は+66-83-605-2234。"
   },
   {
     "slug": "watpo-and-chetawan-thai-traditional-medical-and-massage-school",
@@ -2294,7 +2435,7 @@
       "語学"
     ],
     "hours": "Monday: 8:30 AM – 5:30 PM / Tuesday: 8:30 AM – 5:30 PM / Wednesday: 8:30 AM – 5:30 PM / Thursday: 8:30 AM – 5:30 PM / Friday: 8:30 AM – 5:30 PM / Saturday: 8:30 AM – 5:30 PM / Sunday: 8:30 AM – 5:30 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJpZGTSASZ4jARURvWDq4zqVA",
@@ -2305,7 +2446,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "ワットポーマッサージスクール。日本語対応の根拠が確認できない。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null
   },
   {
     "slug": "yokomine-kindergarten-bangkok",
@@ -2315,7 +2461,7 @@
     "address": "Sukhumvit Road, Bangkok 10110",
     "phone": null,
     "website": null,
-    "description": "横峯吉文氏が考案した「ヨコミネ式教育法」を導入した幼稚園。自立心と学力の基礎を育む独自の教育カリキュラムを実施。日本人園児が多く在籍。",
+    "description": "バンコク・スクンビットエリアのヨコミネ式教育法を導入した幼稚園。横峯吉文氏考案の独自教育で自立心と学力の基礎を育み、日本人園児が多く在籍。",
     "tags": [
       "幼稚園",
       "ヨコミネ式",
@@ -2324,14 +2470,18 @@
     "hours": null,
     "status": "unverified",
     "source": "google_maps",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "spot_reviewed": true,
+    "japanese_staff": true,
+    "price_range": null,
+    "detail": "バンコク・スクンビットエリアにある「Yokomine Kindergarten Bangkok（ヨコミネ幼稚園バンコク）」。日本で広く知られる「ヨコミネ式教育法」（横峯吉文氏考案）を導入した幼稚園。読み書き・計算・体操・音楽など様々な能力を幼児期から自立的に伸ばす独自のカリキュラムが特徴。日本人園児が多く在籍しており、バンコク在住の日本人家庭から支持されている。帰国後の日本の小学校への適応も考慮したカリキュラム設計。"
   },
   {
     "slug": "zaehoon-language-school",
@@ -2350,7 +2500,7 @@
       "語学"
     ],
     "hours": "Monday: 10:00 AM – 10:00 PM / Tuesday: 10:00 AM – 10:00 PM / Wednesday: 10:00 AM – 10:00 PM / Thursday: 10:00 AM – 10:00 PM / Friday: 10:00 AM – 10:00 PM / Saturday: 10:00 AM – 10:00 PM / Sunday: 10:00 AM – 10:00 PM",
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-07",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJQUWuI9Ce4jARzlRfmmg4XUA",
@@ -2361,6 +2511,11 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "needs_review": true,
+    "review_note": "語学学校。日本語コースはあるが日本人向け専門サービスの根拠が薄い。",
+    "spot_reviewed": true,
+    "japanese_staff": null,
+    "price_range": null
   }
 ]
