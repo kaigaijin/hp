@@ -135,7 +135,7 @@ export default function ContactForm() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
         <div>
           <label className="block text-sm font-semibold mb-2">
-            在住国 <span className="text-stone-400 font-normal text-xs">任意</span>
+            在住国
           </label>
           <input
             type="text"
@@ -148,7 +148,7 @@ export default function ContactForm() {
         </div>
         <div>
           <label className="block text-sm font-semibold mb-2">
-            年齢 <span className="text-stone-400 font-normal text-xs">任意</span>
+            年齢
           </label>
           <select
             value={form.age}
@@ -166,7 +166,7 @@ export default function ContactForm() {
         </div>
         <div>
           <label className="block text-sm font-semibold mb-2">
-            性別 <span className="text-stone-400 font-normal text-xs">任意</span>
+            性別
           </label>
           <select
             value={form.gender}
