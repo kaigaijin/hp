@@ -15,6 +15,8 @@ import {
   getCategory,
 } from "@/lib/directory";
 import { getGroupTheme } from "@/lib/group-theme";
+import CountryTabs from "@/components/CountryTabs";
+import { getArticlesByCountry } from "@/lib/articles";
 import {
   UtensilsCrossed,
   Stethoscope,
@@ -110,6 +112,7 @@ export default async function SpotIndexPage({
   const counts = getCategoryCounts(code);
   const groupCounts = getGroupCounts(code);
   const totalSpots = Object.values(counts).reduce((a, b) => a + b, 0);
+  const articles = getArticlesByCountry(code);
   const areas = getAllAreas(code).slice(0, 12);
 
   const allSpots = getAllSpots(code);
@@ -179,7 +182,7 @@ export default async function SpotIndexPage({
               </div>
             </div>
 
-            {/* タブナビ（ヒーロー内） */}
+            {/* スポット内タブ（カテゴリ/エリア/地図） */}
             <div className="flex gap-0 mt-8 border-b border-white/10">
               <span className="text-sm font-semibold text-warm-400 border-b-2 border-warm-500 pb-2.5 px-4 -mb-px">
                 カテゴリ
@@ -198,6 +201,13 @@ export default async function SpotIndexPage({
               </Link>
             </div>
           </div>
+
+          {/* 国別タブ（記事/スポット/求人） */}
+          <CountryTabs
+            countryCode={code}
+            articleCount={articles.length}
+            spotCount={totalSpots}
+          />
         </div>
 
         <div className="max-w-6xl mx-auto px-4 py-8">

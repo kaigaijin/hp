@@ -7,6 +7,9 @@ import {
   JOB_INDUSTRIES,
   getIndustryCounts,
 } from "@/lib/jobs";
+import CountryTabs from "@/components/CountryTabs";
+import { getCategoryCounts } from "@/lib/directory";
+import { getArticlesByCountry } from "@/lib/articles";
 import {
   UtensilsCrossed,
   ShoppingBag,
@@ -78,6 +81,9 @@ export default async function JobsIndexPage({
 
   const counts = await getIndustryCounts(code);
   const totalJobs = Object.values(counts).reduce((a, b) => a + b, 0);
+  const categoryCounts = getCategoryCounts(code);
+  const totalSpots = Object.values(categoryCounts).reduce((a, b) => a + b, 0);
+  const articles = getArticlesByCountry(code);
 
   const industriesWithJobs = JOB_INDUSTRIES.filter(
     (ind) => (counts[ind.slug] ?? 0) > 0,
@@ -150,6 +156,13 @@ export default async function JobsIndexPage({
               </div>
             </div>
           </div>
+
+          {/* 国別タブ（記事/スポット/求人） */}
+          <CountryTabs
+            countryCode={code}
+            articleCount={articles.length}
+            spotCount={totalSpots}
+          />
         </div>
 
         <div className="max-w-6xl mx-auto px-4 py-10">
