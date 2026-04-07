@@ -140,57 +140,60 @@ export default async function SpotIndexPage({
       <Header />
       <main className="bg-sand-50 dark:bg-stone-950 min-h-screen">
 
-        {/* ヒーローヘッダー */}
-        <div className="bg-white dark:bg-stone-900 border-b border-stone-100 dark:border-stone-800">
-          <div className="max-w-6xl mx-auto px-4 py-6">
+        {/* ─── ヒーローエリア ────────────────────── */}
+        <div className="bg-gradient-to-br from-stone-950 via-[#1a2e35] to-[#2d1a0e]">
+          <div className="max-w-6xl mx-auto px-4 pt-4 pb-12">
             {/* パンくず */}
-            <nav className="flex items-center gap-1.5 text-xs text-stone-400 mb-4">
-              <Link href="/" className="hover:text-warm-600 transition-colors">トップ</Link>
+            <nav className="flex items-center gap-1.5 text-xs text-stone-400/80 mb-8">
+              <Link href="/" className="hover:text-white transition-colors">トップ</Link>
               <ChevronRight size={12} />
-              <Link href={`/${code}`} className="hover:text-warm-600 transition-colors">
+              <Link href={`/${code}`} className="hover:text-white transition-colors">
                 {country.flag} {country.name}
               </Link>
               <ChevronRight size={12} />
-              <span className="text-stone-600 dark:text-stone-300">KAIスポット</span>
+              <span className="text-white/90">KAIスポット</span>
             </nav>
 
-            <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+            <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-8">
               <div>
-                <h1 className="heading-editorial text-3xl font-bold text-stone-900 dark:text-stone-50">
-                  {country.flag} {country.name}の日本人向けスポット
+                <div className="inline-flex items-center gap-2 bg-white/10 text-white/90 text-xs font-medium px-3 py-1.5 rounded-full mb-4">
+                  <MapPin size={13} />
+                  {country.flag} {country.name} KAIスポット
+                </div>
+                <h1 className="text-4xl sm:text-5xl font-extrabold text-white leading-tight tracking-tight mb-4">
+                  日本人向けスポット
                 </h1>
-                <p className="text-sm text-stone-400 dark:text-stone-500 mt-1">
-                  {totalSpots}件掲載
+                <p className="text-stone-400 text-base leading-relaxed max-w-lg">
+                  {country.name}で暮らす日本人のためのレストラン・クリニック・美容室・不動産など、カテゴリ別に探せます。
+                </p>
+                <p className="mt-4 text-stone-400 text-sm font-medium">
+                  現在 <span className="text-white font-bold text-lg">{totalSpots}</span> 件掲載中
                 </p>
               </div>
-              {/* 検索（デスクトップ） */}
-              <div className="hidden sm:block w-72 shrink-0">
+
+              {/* 検索ボックス（右側） */}
+              <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-5 min-w-[280px]">
+                <p className="text-white/80 text-xs font-semibold mb-3">名前・エリア・キーワードで検索</p>
                 <SpotSearch spots={searchableSpots} countryCode={code} />
               </div>
             </div>
 
-            {/* 検索（モバイル） */}
-            <div className="sm:hidden mt-4">
-              <SpotSearch spots={searchableSpots} countryCode={code} />
-            </div>
-
-            {/* タブナビ（下線型） */}
-            <div className="flex gap-0 mt-5 border-b border-stone-100 dark:border-stone-800">
-              <span className="text-sm font-semibold text-warm-600 dark:text-warm-400 border-b-2 border-warm-500 pb-2.5 px-4 -mb-px">
+            {/* タブナビ（ヒーロー内） */}
+            <div className="flex gap-0 mt-8 border-b border-white/10">
+              <span className="text-sm font-semibold text-warm-400 border-b-2 border-warm-500 pb-2.5 px-4 -mb-px">
                 カテゴリ
               </span>
               <Link
                 href={`/${code}/spot/area`}
-                className="text-sm text-stone-500 dark:text-stone-400 hover:text-stone-700 dark:hover:text-stone-200 pb-2.5 px-4 transition-colors"
+                className="text-sm text-stone-400 hover:text-white pb-2.5 px-4 transition-colors"
               >
                 エリア
               </Link>
               <Link
                 href={`/${code}/spot/map`}
-                className="text-sm text-stone-500 dark:text-stone-400 hover:text-stone-700 dark:hover:text-stone-200 pb-2.5 px-4 transition-colors flex items-center gap-1.5"
+                className="text-sm text-stone-400 hover:text-white pb-2.5 px-4 transition-colors flex items-center gap-1.5"
               >
-                <Map size={13} />
-                地図
+                <Map size={13} />地図
               </Link>
             </div>
           </div>

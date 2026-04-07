@@ -179,40 +179,40 @@ export default async function CategoryPage({
       <>
         <Header />
         <main className="bg-stone-100 dark:bg-stone-900 min-h-screen">
-          <div className="bg-white dark:bg-stone-800 border-b border-stone-200 dark:border-stone-700">
-            <div className="max-w-6xl mx-auto px-4 py-5">
-              <nav className="flex items-center gap-1.5 text-xs text-stone-400 mb-3">
-                <Link href="/" className="hover:text-warm-600 transition-colors">
+          <div className="bg-gradient-to-br from-stone-950 via-[#1a2e35] to-[#2d1a0e]">
+            <div className="max-w-6xl mx-auto px-4 pt-4 pb-8">
+              <nav className="flex items-center gap-1.5 text-xs text-stone-400/80 mb-6">
+                <Link href="/" className="hover:text-white transition-colors">
                   トップ
                 </Link>
                 <ChevronRight size={12} />
                 <Link
                   href={`/${code}`}
-                  className="hover:text-warm-600 transition-colors"
+                  className="hover:text-white transition-colors"
                 >
                   {country.flag} {country.name}
                 </Link>
                 <ChevronRight size={12} />
                 <Link
                   href={`/${code}/spot`}
-                  className="hover:text-warm-600 transition-colors"
+                  className="hover:text-white transition-colors"
                 >
                   KAIスポット
                 </Link>
                 <ChevronRight size={12} />
-                <span className="text-stone-600 dark:text-stone-300">
+                <span className="text-white/90">
                   {group.name}
                 </span>
               </nav>
               <div className="flex items-center gap-3">
-                <div className={`w-10 h-10 ${theme.iconBg} rounded-xl flex items-center justify-center ${theme.iconText}`}>
+                <div className="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center text-warm-400">
                   {renderGroupIcon?.(20)}
                 </div>
                 <div>
-                  <h1 className="text-xl font-bold text-stone-800 dark:text-stone-100">
+                  <h1 className="text-2xl font-bold text-white">
                     {country.name}の{group.name}
                   </h1>
-                  <p className="text-sm text-stone-500 dark:text-stone-400 mt-0.5">
+                  <p className="text-sm text-stone-400 mt-0.5">
                     {groupTotal}件を掲載中
                   </p>
                 </div>
@@ -276,27 +276,27 @@ export default async function CategoryPage({
     <>
       <Header />
       <main className="bg-stone-100 dark:bg-stone-900 min-h-screen">
-        {/* コンパクトヘッダー */}
-        <div className="bg-white dark:bg-stone-800 border-b border-stone-200 dark:border-stone-700">
-          <div className="max-w-6xl mx-auto px-4 py-5">
-            <nav className="flex items-center gap-1.5 text-xs text-stone-400 mb-3">
+        {/* ダークアースヒーロー */}
+        <div className="bg-gradient-to-br from-stone-950 via-[#1a2e35] to-[#2d1a0e]">
+          <div className="max-w-6xl mx-auto px-4 pt-4 pb-8">
+            <nav className="flex items-center gap-1.5 text-xs text-stone-400/80 mb-6">
               <Link
                 href="/"
-                className="hover:text-warm-600 transition-colors"
+                className="hover:text-white transition-colors"
               >
                 トップ
               </Link>
               <ChevronRight size={12} />
               <Link
                 href={`/${code}`}
-                className="hover:text-warm-600 transition-colors"
+                className="hover:text-white transition-colors"
               >
                 {country.flag} {country.name}
               </Link>
               <ChevronRight size={12} />
               <Link
                 href={`/${code}/spot`}
-                className="hover:text-warm-600 transition-colors"
+                className="hover:text-white transition-colors"
               >
                 KAIスポット
               </Link>
@@ -305,21 +305,21 @@ export default async function CategoryPage({
                   <ChevronRight size={12} />
                   <Link
                     href={`/${code}/spot/${parentGroup.slug}`}
-                    className="hover:text-warm-600 transition-colors"
+                    className="hover:text-white transition-colors"
                   >
                     {parentGroup.name}
                   </Link>
                 </>
               )}
               <ChevronRight size={12} />
-              <span className="text-stone-600 dark:text-stone-300">
+              <span className="text-white/90">
                 {category.name}
               </span>
             </nav>
-            <h1 className="text-xl font-bold text-stone-800 dark:text-stone-100">
+            <h1 className="text-2xl font-bold text-white">
               {country.name}の{category.name}
             </h1>
-            <p className="text-sm text-stone-500 dark:text-stone-400 mt-1">
+            <p className="text-sm text-stone-400 mt-1">
               {spots.length > 0
                 ? `${spots.length}件を掲載中`
                 : "情報を準備中です"}
@@ -328,15 +328,15 @@ export default async function CategoryPage({
 
           {/* エリアタブ */}
           {areas.length > 1 && (
-            <div className="max-w-6xl mx-auto px-4 border-t border-stone-100 dark:border-stone-700">
+            <div className="max-w-6xl mx-auto px-4 border-t border-white/10">
               <div className="flex gap-1 overflow-x-auto py-2 scrollbar-hide">
-                <span className={`shrink-0 text-xs font-medium ${catTheme.filterActive} px-3 py-1.5 rounded-full`}>
+                <span className="shrink-0 text-xs font-medium text-warm-400 bg-warm-900/30 px-3 py-1.5 rounded-full">
                   すべて（{spots.length}）
                 </span>
                 {areas.map((area) => (
                   <span
                     key={area}
-                    className="shrink-0 text-xs text-stone-500 dark:text-stone-400 bg-stone-50 dark:bg-stone-700 px-3 py-1.5 rounded-full"
+                    className="shrink-0 text-xs text-stone-400 bg-white/10 px-3 py-1.5 rounded-full"
                   >
                     {area}（{spots.filter((s) => s.area === area).length}）
                   </span>

@@ -1,7 +1,7 @@
 import { categoryGroups } from "./directory";
 
 // カテゴリグループごとのテーマカラー定義
-// Tailwindはクラス名を静的に解析するため、全クラス名を文字列リテラルで記述する必要がある
+// 全グループを warm/stone 統一テーマに統一（KAIジョブと同じデザイン言語）
 export type GroupTheme = {
   // アイコン背景（ニュートラル状態）
   iconBg: string;
@@ -34,146 +34,37 @@ export type GroupTheme = {
   heroGradientFrom: string;
 };
 
-const themes: Record<string, GroupTheme> = {
-  gourmet: {
-    iconBg: "bg-orange-50 dark:bg-orange-900/20",
-    iconBgActive: "group-hover:bg-orange-50 dark:group-hover:bg-orange-900/30",
-    iconText: "text-orange-600 dark:text-orange-400",
-    accent: "text-orange-600 dark:text-orange-400",
-    accentHover: "group-hover:text-orange-700 dark:group-hover:text-orange-400",
-    badgeBg: "bg-orange-50 dark:bg-orange-900/30",
-    badgeText: "text-orange-600 dark:text-orange-400",
-    hoverBorder: "hover:border-orange-400 dark:hover:border-orange-500",
-    filterActive: "text-orange-600 dark:text-orange-400 bg-orange-50 dark:bg-orange-900/30",
-    numberText: "text-orange-600 dark:text-orange-400",
-    ctaBg: "bg-orange-600",
-    ctaHover: "hover:bg-orange-700",
-    topBorder: "border-t-orange-500",
-    accentBar: "bg-orange-400",
-    heroGradientFrom: "from-orange-50 dark:from-orange-950/30",
-  },
-  medical: {
-    iconBg: "bg-emerald-50 dark:bg-emerald-900/20",
-    iconBgActive: "group-hover:bg-emerald-50 dark:group-hover:bg-emerald-900/30",
-    iconText: "text-emerald-600 dark:text-emerald-400",
-    accent: "text-emerald-600 dark:text-emerald-400",
-    accentHover: "group-hover:text-emerald-700 dark:group-hover:text-emerald-400",
-    badgeBg: "bg-emerald-50 dark:bg-emerald-900/30",
-    badgeText: "text-emerald-600 dark:text-emerald-400",
-    hoverBorder: "hover:border-emerald-400 dark:hover:border-emerald-500",
-    filterActive: "text-emerald-600 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-900/30",
-    numberText: "text-emerald-600 dark:text-emerald-400",
-    ctaBg: "bg-emerald-600",
-    ctaHover: "hover:bg-emerald-700",
-    topBorder: "border-t-emerald-500",
-    accentBar: "bg-emerald-400",
-    heroGradientFrom: "from-emerald-50 dark:from-emerald-950/30",
-  },
-  "beauty-health": {
-    iconBg: "bg-rose-50 dark:bg-rose-900/20",
-    iconBgActive: "group-hover:bg-rose-50 dark:group-hover:bg-rose-900/30",
-    iconText: "text-rose-600 dark:text-rose-400",
-    accent: "text-rose-600 dark:text-rose-400",
-    accentHover: "group-hover:text-rose-700 dark:group-hover:text-rose-400",
-    badgeBg: "bg-rose-50 dark:bg-rose-900/30",
-    badgeText: "text-rose-600 dark:text-rose-400",
-    hoverBorder: "hover:border-rose-400 dark:hover:border-rose-500",
-    filterActive: "text-rose-600 dark:text-rose-400 bg-rose-50 dark:bg-rose-900/30",
-    numberText: "text-rose-600 dark:text-rose-400",
-    ctaBg: "bg-rose-600",
-    ctaHover: "hover:bg-rose-700",
-    topBorder: "border-t-rose-500",
-    accentBar: "bg-rose-400",
-    heroGradientFrom: "from-rose-50 dark:from-rose-950/30",
-  },
-  housing: {
-    iconBg: "bg-amber-50 dark:bg-amber-900/20",
-    iconBgActive: "group-hover:bg-amber-50 dark:group-hover:bg-amber-900/30",
-    iconText: "text-amber-600 dark:text-amber-400",
-    accent: "text-amber-600 dark:text-amber-400",
-    accentHover: "group-hover:text-amber-700 dark:group-hover:text-amber-400",
-    badgeBg: "bg-amber-50 dark:bg-amber-900/30",
-    badgeText: "text-amber-600 dark:text-amber-400",
-    hoverBorder: "hover:border-amber-400 dark:hover:border-amber-500",
-    filterActive: "text-amber-600 dark:text-amber-400 bg-amber-50 dark:bg-amber-900/30",
-    numberText: "text-amber-600 dark:text-amber-400",
-    ctaBg: "bg-amber-600",
-    ctaHover: "hover:bg-amber-700",
-    topBorder: "border-t-amber-500",
-    accentBar: "bg-amber-400",
-    heroGradientFrom: "from-amber-50 dark:from-amber-950/30",
-  },
-  education: {
-    iconBg: "bg-violet-50 dark:bg-violet-900/20",
-    iconBgActive: "group-hover:bg-violet-50 dark:group-hover:bg-violet-900/30",
-    iconText: "text-violet-600 dark:text-violet-400",
-    accent: "text-violet-600 dark:text-violet-400",
-    accentHover: "group-hover:text-violet-700 dark:group-hover:text-violet-400",
-    badgeBg: "bg-violet-50 dark:bg-violet-900/30",
-    badgeText: "text-violet-600 dark:text-violet-400",
-    hoverBorder: "hover:border-violet-400 dark:hover:border-violet-500",
-    filterActive: "text-violet-600 dark:text-violet-400 bg-violet-50 dark:bg-violet-900/30",
-    numberText: "text-violet-600 dark:text-violet-400",
-    ctaBg: "bg-violet-600",
-    ctaHover: "hover:bg-violet-700",
-    topBorder: "border-t-violet-500",
-    accentBar: "bg-violet-400",
-    heroGradientFrom: "from-violet-50 dark:from-violet-950/30",
-  },
-  professional: {
-    iconBg: "bg-slate-100 dark:bg-slate-800/50",
-    iconBgActive: "group-hover:bg-slate-100 dark:group-hover:bg-slate-800/60",
-    iconText: "text-slate-600 dark:text-slate-400",
-    accent: "text-slate-600 dark:text-slate-400",
-    accentHover: "group-hover:text-slate-700 dark:group-hover:text-slate-400",
-    badgeBg: "bg-slate-100 dark:bg-slate-800/40",
-    badgeText: "text-slate-600 dark:text-slate-400",
-    hoverBorder: "hover:border-slate-400 dark:hover:border-slate-500",
-    filterActive: "text-slate-600 dark:text-slate-400 bg-slate-100 dark:bg-slate-800/40",
-    numberText: "text-slate-600 dark:text-slate-400",
-    ctaBg: "bg-slate-600",
-    ctaHover: "hover:bg-slate-700",
-    topBorder: "border-t-slate-500",
-    accentBar: "bg-slate-400",
-    heroGradientFrom: "from-slate-100 dark:from-slate-900/50",
-  },
-  lifestyle: {
-    iconBg: "bg-teal-50 dark:bg-teal-900/20",
-    iconBgActive: "group-hover:bg-teal-50 dark:group-hover:bg-teal-900/30",
-    iconText: "text-teal-600 dark:text-teal-400",
-    accent: "text-teal-600 dark:text-teal-400",
-    accentHover: "group-hover:text-teal-700 dark:group-hover:text-teal-400",
-    badgeBg: "bg-teal-50 dark:bg-teal-900/30",
-    badgeText: "text-teal-600 dark:text-teal-400",
-    hoverBorder: "hover:border-teal-400 dark:hover:border-teal-500",
-    filterActive: "text-teal-600 dark:text-teal-400 bg-teal-50 dark:bg-teal-900/30",
-    numberText: "text-teal-600 dark:text-teal-400",
-    ctaBg: "bg-teal-600",
-    ctaHover: "hover:bg-teal-700",
-    topBorder: "border-t-teal-500",
-    accentBar: "bg-teal-400",
-    heroGradientFrom: "from-teal-50 dark:from-teal-950/30",
-  },
-};
-
-// デフォルト（warm、フォールバック用）
-const defaultTheme: GroupTheme = {
+// 全グループ共通の warm/stone 統一テーマ
+const unifiedTheme: GroupTheme = {
   iconBg: "bg-warm-50 dark:bg-warm-900/20",
-  iconBgActive: "group-hover:bg-warm-50 dark:group-hover:bg-warm-900/30",
+  iconBgActive: "group-hover:bg-warm-100 dark:group-hover:bg-warm-900/30",
   iconText: "text-warm-600 dark:text-warm-400",
   accent: "text-warm-600 dark:text-warm-400",
   accentHover: "group-hover:text-warm-700 dark:group-hover:text-warm-400",
   badgeBg: "bg-warm-50 dark:bg-warm-900/30",
   badgeText: "text-warm-600 dark:text-warm-400",
-  hoverBorder: "hover:border-warm-400 dark:hover:border-warm-500",
-  filterActive: "text-warm-600 dark:text-warm-400 bg-warm-50 dark:bg-warm-900/30",
+  hoverBorder: "hover:border-warm-300 dark:hover:border-warm-600",
+  filterActive: "text-warm-700 dark:text-warm-400 bg-warm-50 dark:bg-warm-900/30",
   numberText: "text-warm-600 dark:text-warm-400",
   ctaBg: "bg-warm-600",
   ctaHover: "hover:bg-warm-700",
   topBorder: "border-t-warm-500",
   accentBar: "bg-warm-400",
-  heroGradientFrom: "from-warm-50 dark:from-warm-950/30",
+  heroGradientFrom: "from-stone-950",
 };
+
+const themes: Record<string, GroupTheme> = {
+  gourmet: unifiedTheme,
+  medical: unifiedTheme,
+  "beauty-health": unifiedTheme,
+  housing: unifiedTheme,
+  education: unifiedTheme,
+  professional: unifiedTheme,
+  lifestyle: unifiedTheme,
+};
+
+// デフォルト（フォールバック用）
+const defaultTheme: GroupTheme = unifiedTheme;
 
 // グループslugからテーマを取得
 export function getGroupTheme(groupSlug: string): GroupTheme {
