@@ -611,43 +611,42 @@ export default function JobSubmitForm({ country }: { country: string }) {
               <FieldError msg={fieldErrors.title} />
             </div>
 
-            {/* 業種・職種 */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-              <div>
-                <Label required>業種</Label>
-                <SelectWrapper>
-                  <select
-                    name="industry"
-                    value={form.industry}
-                    onChange={handleChange}
-                    disabled={submitting}
-                    className={selectClass}
-                  >
-                    <option value="">選択してください</option>
-                    {JOB_INDUSTRIES.map((ind) => (
-                      <option key={ind.slug} value={ind.slug}>
-                        {ind.label}
-                      </option>
-                    ))}
-                  </select>
-                </SelectWrapper>
-                <FieldError msg={fieldErrors.industry} />
-              </div>
-
-              <div>
-                <Label required>職種</Label>
-                <input
-                  type="text"
-                  name="job_type"
-                  value={form.job_type}
+            {/* 業種 */}
+            <div>
+              <Label required>業種</Label>
+              <SelectWrapper>
+                <select
+                  name="industry"
+                  value={form.industry}
                   onChange={handleChange}
-                  placeholder="例: ホールスタッフ"
-                  maxLength={100}
                   disabled={submitting}
-                  className={inputClass}
-                />
-                <FieldError msg={fieldErrors.job_type} />
-              </div>
+                  className={selectClass}
+                >
+                  <option value="">選択してください</option>
+                  {JOB_INDUSTRIES.map((ind) => (
+                    <option key={ind.slug} value={ind.slug}>
+                      {ind.label}
+                    </option>
+                  ))}
+                </select>
+              </SelectWrapper>
+              <FieldError msg={fieldErrors.industry} />
+            </div>
+
+            {/* 職種 */}
+            <div>
+              <Label required>職種</Label>
+              <input
+                type="text"
+                name="job_type"
+                value={form.job_type}
+                onChange={handleChange}
+                placeholder="例: ホールスタッフ"
+                maxLength={100}
+                disabled={submitting}
+                className={inputClass}
+              />
+              <FieldError msg={fieldErrors.job_type} />
             </div>
 
             {/* 雇用形態 */}
@@ -672,35 +671,35 @@ export default function JobSubmitForm({ country }: { country: string }) {
               <FieldError msg={fieldErrors.employment_type} />
             </div>
 
-            {/* 勤務地・最寄り駅 */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-              <div>
-                <Label required>勤務地</Label>
-                <input
-                  type="text"
-                  name="location"
-                  value={form.location}
-                  onChange={handleChange}
-                  placeholder="例: シンガポール・オーチャード"
-                  maxLength={200}
-                  disabled={submitting}
-                  className={inputClass}
-                />
-                <FieldError msg={fieldErrors.location} />
-              </div>
-              <div>
-                <Label>最寄り駅・バス停（任意）</Label>
-                <input
-                  type="text"
-                  name="nearest_station"
-                  value={form.nearest_station}
-                  onChange={handleChange}
-                  placeholder="例: Orchard MRT駅 徒歩3分"
-                  maxLength={100}
-                  disabled={submitting}
-                  className={inputClass}
-                />
-              </div>
+            {/* 勤務地 */}
+            <div>
+              <Label required>勤務地</Label>
+              <input
+                type="text"
+                name="location"
+                value={form.location}
+                onChange={handleChange}
+                placeholder="例: シンガポール・オーチャード"
+                maxLength={200}
+                disabled={submitting}
+                className={inputClass}
+              />
+              <FieldError msg={fieldErrors.location} />
+            </div>
+
+            {/* 最寄り駅 */}
+            <div>
+              <Label>最寄り駅・バス停（任意）</Label>
+              <input
+                type="text"
+                name="nearest_station"
+                value={form.nearest_station}
+                onChange={handleChange}
+                placeholder="例: Orchard MRT駅 徒歩3分"
+                maxLength={100}
+                disabled={submitting}
+                className={inputClass}
+              />
             </div>
 
             {/* 給与 */}
@@ -709,7 +708,7 @@ export default function JobSubmitForm({ country }: { country: string }) {
                 給与（任意）
               </p>
               <FieldNote>未入力の場合は「要相談」として表示されます。</FieldNote>
-              <div className="mt-3 grid grid-cols-2 gap-4">
+              <div className="mt-3 space-y-4">
                 <div>
                   <Label>最低給与</Label>
                   <input
@@ -736,8 +735,6 @@ export default function JobSubmitForm({ country }: { country: string }) {
                     className={inputClass}
                   />
                 </div>
-              </div>
-              <div className="mt-4 grid grid-cols-2 gap-4">
                 <div>
                   <Label>通貨</Label>
                   <SelectWrapper>
