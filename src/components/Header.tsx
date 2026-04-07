@@ -97,6 +97,12 @@ export default function Header() {
           >
             KAIスポット
           </Link>
+          <Link
+            href={`/${currentCountryCode}/jobs`}
+            className="bg-warm-50 dark:bg-warm-900/20 text-warm-700 dark:text-warm-400 px-3 py-1 rounded-full border border-warm-200 dark:border-warm-800 hover:bg-warm-100 dark:hover:bg-warm-900/40 transition-colors text-xs font-semibold tracking-wide"
+          >
+            KAIジョブ
+          </Link>
           <ThemeToggle />
           <UserMenu />
         </nav>
@@ -153,6 +159,13 @@ export default function Header() {
               className="py-2 text-warm-600 dark:text-warm-400 font-semibold"
             >
               KAIスポット
+            </Link>
+            <Link
+              href={`/${currentCountryCode}/jobs`}
+              onClick={() => setOpen(false)}
+              className="py-2 text-warm-600 dark:text-warm-400 font-semibold"
+            >
+              KAIジョブ
             </Link>
           </div>
         </nav>

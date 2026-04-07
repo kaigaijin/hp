@@ -59,10 +59,10 @@ export default async function JobNewPage({
       <main className="bg-stone-50 dark:bg-stone-900 min-h-screen">
 
         {/* ─── ヒーローヘッダー ────────────────────── */}
-        <div className="bg-gradient-to-br from-indigo-700 via-indigo-600 to-indigo-500 dark:from-indigo-900 dark:via-indigo-800 dark:to-indigo-700">
+        <div className="bg-gradient-to-br from-stone-950 via-[#1a2e35] to-[#2d1a0e]">
           <div className="max-w-4xl mx-auto px-4 pt-4 pb-12">
             {/* パンくず */}
-            <nav className="flex items-center gap-1.5 text-xs text-indigo-200/80 mb-8 flex-wrap">
+            <nav className="flex items-center gap-1.5 text-xs text-stone-400/80 mb-8 flex-wrap">
               <Link href="/" className="hover:text-white transition-colors">
                 トップ
               </Link>
@@ -80,13 +80,13 @@ export default async function JobNewPage({
 
             <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-8">
               <div>
-                <p className="text-indigo-200 text-sm font-semibold mb-3">
+                <p className="text-stone-400 text-sm font-semibold mb-3">
                   {country.flag} {country.name} / 採用担当者向け
                 </p>
                 <h1 className="text-3xl sm:text-4xl font-extrabold text-white leading-tight mb-4">
                   求人情報を無料掲載
                 </h1>
-                <p className="text-indigo-100 text-sm leading-relaxed max-w-md">
+                <p className="text-stone-300 text-sm leading-relaxed max-w-md">
                   {country.name}で日本人・日本語対応スタッフを募集している企業・個人事業主の方。
                   フォームから3ステップで投稿できます。
                 </p>
@@ -102,7 +102,7 @@ export default async function JobNewPage({
                 ].map(({ icon: Icon, text }) => (
                   <div key={text} className="flex items-center gap-3">
                     <div className="w-7 h-7 bg-white/10 rounded-lg flex items-center justify-center shrink-0">
-                      <Icon size={14} className="text-indigo-200" />
+                      <Icon size={14} className="text-warm-400" />
                     </div>
                     <p className="text-white text-sm font-medium">{text}</p>
                   </div>
@@ -115,8 +115,8 @@ export default async function JobNewPage({
         {/* ─── フォームエリア ───────────────────────── */}
         <div className="max-w-4xl mx-auto px-4 py-10 pb-16">
           {/* 掲載基準ノート */}
-          <div className="bg-indigo-50 dark:bg-indigo-900/20 border border-indigo-100 dark:border-indigo-800 rounded-2xl p-5 mb-8">
-            <p className="text-sm font-semibold text-indigo-800 dark:text-indigo-300 mb-2">
+          <div className="bg-warm-50 dark:bg-stone-800 border border-warm-100 dark:border-stone-700 rounded-2xl p-5 mb-8">
+            <p className="text-sm font-semibold text-stone-800 dark:text-stone-200 mb-2">
               掲載基準について
             </p>
             <ul className="space-y-1.5">
@@ -128,9 +128,9 @@ export default async function JobNewPage({
               ].map((item) => (
                 <li
                   key={item}
-                  className="flex items-start gap-2 text-xs text-indigo-700 dark:text-indigo-400"
+                  className="flex items-start gap-2 text-xs text-stone-700 dark:text-stone-300"
                 >
-                  <CheckCircle size={13} className="shrink-0 mt-0.5 text-indigo-400" />
+                  <CheckCircle size={13} className="shrink-0 mt-0.5 text-warm-500" />
                   {item}
                 </li>
               ))}

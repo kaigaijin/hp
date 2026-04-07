@@ -80,15 +80,15 @@ export default async function JobIndustryPage({
           <div className="max-w-6xl mx-auto px-4 pt-4 pb-6">
             {/* パンくず */}
             <nav className="flex items-center gap-1.5 text-xs text-stone-400 mb-5 flex-wrap">
-              <Link href="/" className="hover:text-indigo-600 transition-colors">
+              <Link href="/" className="hover:text-warm-600 transition-colors">
                 トップ
               </Link>
               <ChevronRight size={12} />
-              <Link href={`/${code}`} className="hover:text-indigo-600 transition-colors">
+              <Link href={`/${code}`} className="hover:text-warm-600 transition-colors">
                 {country.flag} {country.name}
               </Link>
               <ChevronRight size={12} />
-              <Link href={`/${code}/jobs`} className="hover:text-indigo-600 transition-colors">
+              <Link href={`/${code}/jobs`} className="hover:text-warm-600 transition-colors">
                 求人情報
               </Link>
               <ChevronRight size={12} />
@@ -97,7 +97,7 @@ export default async function JobIndustryPage({
 
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-indigo-50 dark:bg-indigo-900/30 rounded-xl flex items-center justify-center text-indigo-600 dark:text-indigo-400 shrink-0">
+                <div className="w-12 h-12 bg-warm-50 dark:bg-stone-700 rounded-xl flex items-center justify-center text-warm-600 dark:text-warm-400 shrink-0">
                   <BriefcaseBusiness size={22} />
                 </div>
                 <div>
@@ -113,7 +113,7 @@ export default async function JobIndustryPage({
               </div>
               <Link
                 href={`/${code}/jobs/new`}
-                className="shrink-0 inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-semibold px-5 py-2.5 rounded-xl transition"
+                className="shrink-0 inline-flex items-center gap-2 bg-warm-500 hover:bg-warm-600 text-white text-sm font-semibold px-5 py-2.5 rounded-xl transition"
               >
                 この業種で求人を掲載する
                 <ArrowRight size={14} />
@@ -125,7 +125,7 @@ export default async function JobIndustryPage({
           {employmentTypes.length > 1 && (
             <div className="max-w-6xl mx-auto px-4 pb-4">
               <div className="flex gap-2 overflow-x-auto py-1 scrollbar-hide">
-                <span className="shrink-0 text-xs font-semibold text-white bg-indigo-600 px-4 py-2 rounded-full cursor-default">
+                <span className="shrink-0 text-xs font-semibold text-white bg-warm-500 px-4 py-2 rounded-full cursor-default">
                   すべて（{jobs.length}）
                 </span>
                 {employmentTypes.map((et) => (
@@ -169,13 +169,13 @@ export default async function JobIndustryPage({
               <div className="flex items-center justify-center gap-3 flex-wrap">
                 <Link
                   href={`/${code}/jobs`}
-                  className="text-sm text-indigo-600 dark:text-indigo-400 hover:underline"
+                  className="text-sm text-warm-600 dark:text-warm-400 hover:underline"
                 >
                   ← 業種一覧に戻る
                 </Link>
                 <Link
                   href={`/${code}/jobs/new`}
-                  className="inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-semibold px-5 py-2.5 rounded-xl transition"
+                  className="inline-flex items-center gap-2 bg-warm-500 hover:bg-warm-600 text-white text-sm font-semibold px-5 py-2.5 rounded-xl transition"
                 >
                   求人を掲載する（無料）
                 </Link>
@@ -185,24 +185,24 @@ export default async function JobIndustryPage({
 
           {/* ─── CTAバナー ─────────────────────────── */}
           {jobs.length > 0 && (
-            <div className="mt-10 bg-gradient-to-r from-indigo-600 to-indigo-500 dark:from-indigo-800 dark:to-indigo-700 rounded-2xl p-7 flex flex-col sm:flex-row items-center justify-between gap-5">
+            <div className="mt-10 bg-gradient-to-br from-stone-950 via-[#1a2e35] to-[#2d1a0e] rounded-2xl p-7 flex flex-col sm:flex-row items-center justify-between gap-5">
               <div className="text-center sm:text-left">
                 <div className="flex items-center justify-center sm:justify-start gap-2 mb-1">
-                  <Sparkles size={14} className="text-indigo-200" />
-                  <p className="text-indigo-200 text-xs font-semibold">
+                  <Sparkles size={14} className="text-stone-400" />
+                  <p className="text-stone-400 text-xs font-semibold">
                     採用担当者の方へ
                   </p>
                 </div>
                 <p className="text-white font-bold text-lg">
                   この業種で求人を掲載しませんか？
                 </p>
-                <p className="text-indigo-100 text-sm mt-0.5">
+                <p className="text-stone-300 text-sm mt-0.5">
                   掲載料無料・審査後3営業日以内に掲載
                 </p>
               </div>
               <Link
                 href={`/${code}/jobs/new`}
-                className="shrink-0 inline-flex items-center gap-2 bg-white text-indigo-700 font-bold px-7 py-3.5 rounded-xl hover:bg-indigo-50 transition shadow text-sm whitespace-nowrap"
+                className="shrink-0 inline-flex items-center gap-2 bg-warm-500 hover:bg-warm-600 text-white font-bold px-7 py-3.5 rounded-xl transition shadow text-sm whitespace-nowrap"
               >
                 求人を無料掲載する
                 <ArrowRight size={14} />
@@ -214,7 +214,7 @@ export default async function JobIndustryPage({
           <div className="mt-6 flex items-center justify-between">
             <Link
               href={`/${code}/jobs`}
-              className="text-sm text-indigo-600 dark:text-indigo-400 hover:underline"
+              className="text-sm text-warm-600 dark:text-warm-400 hover:underline"
             >
               ← 業種一覧
             </Link>

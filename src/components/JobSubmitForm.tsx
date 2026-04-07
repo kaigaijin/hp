@@ -131,13 +131,13 @@ const STEPS = [
 
 // ─── スタイル定数 ─────────────────────────────
 const inputClass =
-  "w-full px-4 py-3 rounded-xl border border-stone-200 dark:border-stone-600 bg-white dark:bg-stone-900 text-sm text-stone-800 dark:text-stone-100 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent placeholder:text-stone-500 disabled:opacity-50 disabled:cursor-not-allowed transition";
+  "w-full px-4 py-3 rounded-xl border border-stone-200 dark:border-stone-600 bg-white dark:bg-stone-900 text-sm text-stone-800 dark:text-stone-100 focus:outline-none focus:ring-2 focus:ring-warm-500 focus:border-transparent placeholder:text-stone-500 disabled:opacity-50 disabled:cursor-not-allowed transition";
 
 const selectClass =
-  "w-full px-4 py-3 rounded-xl border border-stone-200 dark:border-stone-600 bg-white dark:bg-stone-900 text-sm text-stone-800 dark:text-stone-100 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent appearance-none disabled:opacity-50 disabled:cursor-not-allowed transition";
+  "w-full px-4 py-3 rounded-xl border border-stone-200 dark:border-stone-600 bg-white dark:bg-stone-900 text-sm text-stone-800 dark:text-stone-100 focus:outline-none focus:ring-2 focus:ring-warm-500 focus:border-transparent appearance-none disabled:opacity-50 disabled:cursor-not-allowed transition";
 
 const textareaClass =
-  "w-full px-4 py-3 rounded-xl border border-stone-200 dark:border-stone-600 bg-white dark:bg-stone-900 text-sm text-stone-800 dark:text-stone-100 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent placeholder:text-stone-500 resize-y disabled:opacity-50 disabled:cursor-not-allowed transition";
+  "w-full px-4 py-3 rounded-xl border border-stone-200 dark:border-stone-600 bg-white dark:bg-stone-900 text-sm text-stone-800 dark:text-stone-100 focus:outline-none focus:ring-2 focus:ring-warm-500 focus:border-transparent placeholder:text-stone-500 resize-y disabled:opacity-50 disabled:cursor-not-allowed transition";
 
 // ─── 小コンポーネント ─────────────────────────
 function Label({ children, required }: { children: React.ReactNode; required?: boolean }) {
@@ -185,9 +185,9 @@ function StepIndicator({ current }: { current: number }) {
               <div
                 className={`w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold transition-all ${
                   done
-                    ? "bg-indigo-600 text-white"
+                    ? "bg-warm-500 text-white"
                     : active
-                      ? "bg-indigo-600 text-white ring-4 ring-indigo-100 dark:ring-indigo-900/50"
+                      ? "bg-warm-500 text-white ring-4 ring-warm-100 dark:ring-warm-900/50"
                       : "bg-stone-100 dark:bg-stone-800 text-stone-400 dark:text-stone-500"
                 }`}
               >
@@ -213,7 +213,7 @@ function StepIndicator({ current }: { current: number }) {
                 <p
                   className={`text-xs font-semibold hidden sm:block ${
                     active
-                      ? "text-indigo-700 dark:text-indigo-400"
+                      ? "text-warm-700 dark:text-warm-400"
                       : done
                         ? "text-stone-500 dark:text-stone-400"
                         : "text-stone-400 dark:text-stone-500"
@@ -234,7 +234,7 @@ function StepIndicator({ current }: { current: number }) {
               <div
                 className={`flex-1 h-0.5 mx-3 mt-[-18px] sm:mt-[-30px] transition-colors ${
                   current > step.id
-                    ? "bg-indigo-600"
+                    ? "bg-warm-500"
                     : "bg-stone-200 dark:bg-stone-700"
                 }`}
               />
@@ -268,24 +268,24 @@ function JobPreview({ form, collapsed, onToggle }: { form: FormData; collapsed?:
   const isEmpty = !form.title && !form.company && !form.description;
 
   return (
-    <div className="rounded-2xl border border-indigo-100 dark:border-indigo-900/50 bg-white dark:bg-stone-900 overflow-hidden">
+    <div className="rounded-2xl border border-warm-100 dark:border-stone-700 bg-white dark:bg-stone-900 overflow-hidden">
       {/* ヘッダー */}
       <button
         type="button"
         onClick={onToggle}
-        className="w-full flex items-center justify-between px-5 py-3.5 bg-indigo-50 dark:bg-indigo-900/20 hover:bg-indigo-100 dark:hover:bg-indigo-900/40 transition lg:cursor-default lg:pointer-events-none"
+        className="w-full flex items-center justify-between px-5 py-3.5 bg-warm-50 dark:bg-stone-800 hover:bg-warm-100 dark:hover:bg-stone-700 transition lg:cursor-default lg:pointer-events-none"
       >
         <div className="flex items-center gap-2">
-          <Eye size={15} className="text-indigo-500 dark:text-indigo-400" />
-          <span className="text-xs font-bold text-indigo-700 dark:text-indigo-400 uppercase tracking-wider">
+          <Eye size={15} className="text-warm-500 dark:text-warm-400" />
+          <span className="text-xs font-bold text-warm-700 dark:text-warm-400 uppercase tracking-wider">
             リアルタイムプレビュー
           </span>
         </div>
         {onToggle && (
           <span className="lg:hidden">
             {collapsed
-              ? <ChevronDown size={15} className="text-indigo-400" />
-              : <ChevronUp size={15} className="text-indigo-400" />
+              ? <ChevronDown size={15} className="text-warm-400" />
+              : <ChevronUp size={15} className="text-warm-400" />
             }
           </span>
         )}
@@ -302,7 +302,7 @@ function JobPreview({ form, collapsed, onToggle }: { form: FormData; collapsed?:
             <div className="space-y-3">
               {/* バッジ */}
               {employmentLabel && (
-                <span className="inline-flex items-center text-xs font-semibold px-2.5 py-1 rounded-full bg-indigo-50 dark:bg-indigo-900/30 text-indigo-700 dark:text-indigo-400">
+                <span className="inline-flex items-center text-xs font-semibold px-2.5 py-1 rounded-full bg-warm-50 dark:bg-stone-700 text-warm-700 dark:text-warm-400">
                   {employmentLabel}
                 </span>
               )}
@@ -343,7 +343,7 @@ function JobPreview({ form, collapsed, onToggle }: { form: FormData; collapsed?:
                   </span>
                 )}
                 <span className="flex items-center gap-1.5 text-xs text-stone-500 dark:text-stone-400">
-                  <DollarSign size={11} className="shrink-0 text-indigo-400" />
+                  <DollarSign size={11} className="shrink-0 text-warm-400" />
                   {salaryText}
                 </span>
                 {form.language_requirement && (
@@ -381,7 +381,7 @@ function JobPreview({ form, collapsed, onToggle }: { form: FormData; collapsed?:
               {/* 応募先 */}
               {form.contact_email && (
                 <div className="pt-2 border-t border-stone-100 dark:border-stone-800">
-                  <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-indigo-600 text-white text-xs font-semibold rounded-lg">
+                  <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-warm-500 text-white text-xs font-semibold rounded-lg">
                     応募する
                   </div>
                 </div>
@@ -493,7 +493,7 @@ export default function JobSubmitForm({ country }: { country: string }) {
             href={jobUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-5 py-3 bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-semibold rounded-xl transition mb-4"
+            className="inline-flex items-center gap-2 px-5 py-3 bg-warm-500 hover:bg-warm-600 text-white text-sm font-semibold rounded-xl transition mb-4"
           >
             掲載ページを確認する →
           </a>
@@ -909,7 +909,7 @@ export default function JobSubmitForm({ country }: { country: string }) {
             <button
               type="button"
               onClick={handleNext}
-              className="flex-1 flex items-center justify-center gap-2 px-6 py-3.5 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-xl transition text-sm"
+              className="flex-1 flex items-center justify-center gap-2 px-6 py-3.5 bg-warm-500 hover:bg-warm-600 text-white font-semibold rounded-xl transition text-sm"
             >
               次へ
               <ChevronRight size={16} />
@@ -927,7 +927,7 @@ export default function JobSubmitForm({ country }: { country: string }) {
               <button
                 type="submit"
                 disabled={submitting}
-                className="w-full flex items-center justify-center gap-2 px-6 py-4 bg-gradient-to-r from-indigo-600 to-indigo-700 hover:from-indigo-700 hover:to-indigo-800 text-white font-bold rounded-xl disabled:opacity-50 disabled:cursor-not-allowed transition text-sm shadow-md shadow-indigo-200 dark:shadow-none"
+                className="w-full flex items-center justify-center gap-2 px-6 py-4 bg-warm-500 hover:bg-warm-600 text-white font-bold rounded-xl disabled:opacity-50 disabled:cursor-not-allowed transition text-sm shadow-md shadow-warm-200 dark:shadow-none"
               >
                 {submitting ? (
                   <>

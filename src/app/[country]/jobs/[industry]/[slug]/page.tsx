@@ -172,8 +172,8 @@ export default async function JobDetailPage({
   // 雇用形態バッジ色
   const empBadge: Record<string, { bg: string; text: string }> = {
     fulltime: {
-      bg: "bg-indigo-50 dark:bg-indigo-900/30",
-      text: "text-indigo-700 dark:text-indigo-400",
+      bg: "bg-warm-50 dark:bg-stone-700",
+      text: "text-warm-700 dark:text-warm-400",
     },
     parttime: {
       bg: "bg-teal-50 dark:bg-teal-900/30",
@@ -207,21 +207,21 @@ export default async function JobDetailPage({
         <div className="bg-white dark:bg-stone-900 border-b border-stone-100 dark:border-stone-800">
           <div className="max-w-5xl mx-auto px-4 py-3">
             <nav className="flex items-center gap-1.5 text-xs text-stone-400 flex-wrap">
-              <Link href="/" className="hover:text-indigo-600 transition-colors">
+              <Link href="/" className="hover:text-warm-600 transition-colors">
                 トップ
               </Link>
               <ChevronRight size={12} />
-              <Link href={`/${code}`} className="hover:text-indigo-600 transition-colors">
+              <Link href={`/${code}`} className="hover:text-warm-600 transition-colors">
                 {country.flag} {country.name}
               </Link>
               <ChevronRight size={12} />
-              <Link href={`/${code}/jobs`} className="hover:text-indigo-600 transition-colors">
+              <Link href={`/${code}/jobs`} className="hover:text-warm-600 transition-colors">
                 求人情報
               </Link>
               <ChevronRight size={12} />
               <Link
                 href={`/${code}/jobs/${indSlug}`}
-                className="hover:text-indigo-600 transition-colors"
+                className="hover:text-warm-600 transition-colors"
               >
                 {industry.label}
               </Link>
@@ -230,11 +230,11 @@ export default async function JobDetailPage({
         </div>
 
         {/* ─── ヒーローエリア ────────────────────────── */}
-        <div className="bg-gradient-to-b from-indigo-50 to-stone-50 dark:from-indigo-950/40 dark:to-stone-950 border-b border-stone-100 dark:border-stone-800">
+        <div className="bg-gradient-to-b from-warm-50 to-stone-50 dark:from-stone-900 dark:to-stone-950 border-b border-stone-100 dark:border-stone-800">
           <div className="max-w-5xl mx-auto px-4 py-10 md:py-14">
             {/* 業種バッジ + 雇用形態バッジ */}
             <div className="flex flex-wrap items-center gap-2 mb-5">
-              <span className="inline-flex items-center gap-1.5 text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-900/30 text-xs font-semibold px-3 py-1.5 rounded-full">
+              <span className="inline-flex items-center gap-1.5 text-warm-700 dark:text-warm-400 bg-warm-50 dark:bg-stone-700 text-xs font-semibold px-3 py-1.5 rounded-full">
                 <BriefcaseBusiness size={13} />
                 {industry.label}
               </span>
@@ -263,19 +263,19 @@ export default async function JobDetailPage({
             {/* メタ情報 */}
             <div className="flex flex-wrap gap-4 mb-6">
               <span className="flex items-center gap-1.5 text-sm text-stone-500 dark:text-stone-400">
-                <MapPin size={15} className="text-indigo-400" />
+                <MapPin size={15} className="text-warm-400" />
                 {job.location}
                 {job.nearest_station && (
                   <span className="text-stone-400">（{job.nearest_station}）</span>
                 )}
               </span>
               <span className="flex items-center gap-1.5 text-sm text-stone-500 dark:text-stone-400">
-                <DollarSign size={15} className="text-indigo-400" />
+                <DollarSign size={15} className="text-warm-400" />
                 {salary}
               </span>
               {job.language_requirement && (
                 <span className="flex items-center gap-1.5 text-sm text-stone-500 dark:text-stone-400">
-                  <Languages size={15} className="text-indigo-400" />
+                  <Languages size={15} className="text-warm-400" />
                   {job.language_requirement}
                 </span>
               )}
@@ -306,7 +306,7 @@ export default async function JobDetailPage({
               {job.tags.map((tag) => (
                 <span
                   key={tag}
-                  className="text-xs font-medium text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-900/30 px-3 py-1 rounded-full"
+                  className="text-xs font-medium text-warm-700 dark:text-warm-400 bg-warm-50 dark:bg-stone-700 px-3 py-1 rounded-full"
                 >
                   {tag}
                 </span>
@@ -323,7 +323,7 @@ export default async function JobDetailPage({
             <div className="bg-white dark:bg-stone-900 rounded-2xl border border-stone-200 dark:border-stone-800 overflow-hidden">
               <div className="px-6 py-4 border-b border-stone-100 dark:border-stone-800">
                 <h2 className="text-base font-bold text-stone-800 dark:text-stone-100 flex items-center gap-2">
-                  <span className="w-1.5 h-5 bg-indigo-500 rounded-full inline-block" />
+                  <span className="w-1.5 h-5 bg-warm-500 rounded-full inline-block" />
                   仕事内容
                 </h2>
               </div>
@@ -431,7 +431,7 @@ export default async function JobDetailPage({
                         href={job.company_website}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-sm text-indigo-600 dark:text-indigo-400 hover:underline break-all"
+                        className="text-sm text-warm-600 dark:text-warm-400 hover:underline break-all"
                       >
                         {job.company_website}
                       </a>
@@ -468,22 +468,22 @@ export default async function JobDetailPage({
                   <Link
                     key={j.slug}
                     href={`/${code}/jobs/${indSlug}/${j.slug}`}
-                    className="group flex items-start gap-3 bg-white dark:bg-stone-900 rounded-xl border border-stone-200 dark:border-stone-800 hover:border-indigo-300 dark:hover:border-indigo-700 p-3.5 transition"
+                    className="group flex items-start gap-3 bg-white dark:bg-stone-900 rounded-xl border border-stone-200 dark:border-stone-800 hover:border-warm-300 dark:hover:border-warm-700 p-3.5 transition"
                   >
                     <div className="flex-1 min-w-0">
-                      <p className="text-xs font-bold text-stone-700 dark:text-stone-200 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors line-clamp-2 leading-snug">
+                      <p className="text-xs font-bold text-stone-700 dark:text-stone-200 group-hover:text-warm-600 dark:group-hover:text-warm-400 transition-colors line-clamp-2 leading-snug">
                         {j.title}
                       </p>
                       <p className="text-[11px] text-stone-400 mt-1 truncate">{j.company_ja ?? j.company}</p>
                     </div>
-                    <ArrowRight size={13} className="shrink-0 text-stone-300 group-hover:text-indigo-400 transition-colors mt-0.5" />
+                    <ArrowRight size={13} className="shrink-0 text-stone-300 group-hover:text-warm-400 transition-colors mt-0.5" />
                   </Link>
                 ))}
               </div>
               <div className="mt-4 text-center">
                 <Link
                   href={`/${code}/jobs/${indSlug}`}
-                  className="inline-flex items-center gap-1.5 text-xs text-stone-400 hover:text-indigo-600 transition-colors"
+                  className="inline-flex items-center gap-1.5 text-xs text-stone-400 hover:text-warm-600 transition-colors"
                 >
                   {industry.label}の求人一覧を見る <ArrowRight size={12} />
                 </Link>
@@ -495,7 +495,7 @@ export default async function JobDetailPage({
           <div className="text-center pb-4">
             <Link
               href={`/${code}/jobs`}
-              className="inline-flex items-center gap-1.5 text-sm text-stone-400 hover:text-indigo-600 transition-colors"
+              className="inline-flex items-center gap-1.5 text-sm text-stone-400 hover:text-warm-600 transition-colors"
             >
               <ArrowLeft size={14} />
               業種一覧へ戻る

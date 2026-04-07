@@ -12,7 +12,7 @@ type Props = {
 };
 
 const INPUT_CLASS =
-  "w-full px-4 py-3 rounded-xl border border-stone-200 dark:border-stone-600 bg-white dark:bg-stone-900 text-sm text-stone-800 dark:text-stone-100 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent placeholder:text-stone-500 disabled:opacity-50 transition";
+  "w-full px-4 py-3 rounded-xl border border-stone-200 dark:border-stone-600 bg-white dark:bg-stone-900 text-sm text-stone-800 dark:text-stone-100 focus:outline-none focus:ring-2 focus:ring-warm-500 focus:border-transparent placeholder:text-stone-500 disabled:opacity-50 transition";
 
 export default function JobApplyForm({
   jobSlug,
@@ -66,7 +66,7 @@ export default function JobApplyForm({
     <div className="bg-white dark:bg-stone-900 rounded-2xl border border-stone-200 dark:border-stone-800 overflow-hidden">
       <div className="px-6 py-4 border-b border-stone-100 dark:border-stone-800">
         <h2 className="text-base font-bold text-stone-800 dark:text-stone-100 flex items-center gap-2">
-          <span className="w-1.5 h-5 bg-indigo-500 rounded-full inline-block" />
+          <span className="w-1.5 h-5 bg-warm-500 rounded-full inline-block" />
           この求人に応募する
         </h2>
       </div>
@@ -143,7 +143,7 @@ export default function JobApplyForm({
             <button
               type="submit"
               disabled={loading}
-              className="w-full bg-gradient-to-r from-indigo-600 to-indigo-500 hover:from-indigo-700 hover:to-indigo-600 text-white font-bold py-4 rounded-xl text-sm shadow-md shadow-indigo-200 dark:shadow-none disabled:opacity-60 disabled:cursor-not-allowed transition flex items-center justify-center gap-2"
+              className="w-full bg-warm-500 hover:bg-warm-600 text-white font-bold py-4 rounded-xl text-sm shadow-md shadow-warm-200 dark:shadow-none disabled:opacity-60 disabled:cursor-not-allowed transition flex items-center justify-center gap-2"
             >
               {loading ? (
                 <>

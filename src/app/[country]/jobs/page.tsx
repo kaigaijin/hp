@@ -92,10 +92,10 @@ export default async function JobsIndexPage({
       <main className="bg-stone-50 dark:bg-stone-900 min-h-screen">
 
         {/* ─── ヒーローエリア ────────────────────────── */}
-        <div className="bg-gradient-to-br from-indigo-700 via-indigo-600 to-indigo-500 dark:from-indigo-900 dark:via-indigo-800 dark:to-indigo-700">
+        <div className="bg-gradient-to-br from-stone-950 via-[#1a2e35] to-[#2d1a0e]">
           <div className="max-w-6xl mx-auto px-4 pt-4 pb-12">
             {/* パンくず */}
-            <nav className="flex items-center gap-1.5 text-xs text-indigo-200/80 mb-8">
+            <nav className="flex items-center gap-1.5 text-xs text-stone-400/80 mb-8">
               <Link href="/" className="hover:text-white transition-colors">
                 トップ
               </Link>
@@ -109,6 +109,9 @@ export default async function JobsIndexPage({
 
             <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-8">
               <div>
+                <p className="text-xs font-semibold tracking-widest uppercase text-stone-400 mb-4">
+                  — KAI JOB
+                </p>
                 <div className="inline-flex items-center gap-2 bg-white/10 text-white/90 text-xs font-medium px-3 py-1.5 rounded-full mb-4">
                   <BriefcaseBusiness size={13} />
                   {country.flag} {country.name} 求人情報
@@ -116,12 +119,12 @@ export default async function JobsIndexPage({
                 <h1 className="text-4xl sm:text-5xl font-extrabold text-white leading-tight tracking-tight mb-4">
                   海外で働こう。
                 </h1>
-                <p className="text-indigo-100 text-base leading-relaxed max-w-lg">
+                <p className="text-stone-300 text-base leading-relaxed max-w-lg">
                   {country.name}で働く日本人向けの求人を業種別に掲載。
                   日系企業・日本語対応職場の求人が見つかります。
                 </p>
                 {totalJobs > 0 && (
-                  <p className="mt-4 text-indigo-200 text-sm font-medium">
+                  <p className="mt-4 text-stone-400 text-sm font-medium">
                     現在{" "}
                     <span className="text-white font-bold text-lg">{totalJobs}</span>{" "}
                     件掲載中
@@ -134,13 +137,13 @@ export default async function JobsIndexPage({
                 <p className="text-white font-bold text-base mb-1">
                   求人を無料で掲載する
                 </p>
-                <p className="text-indigo-200 text-xs mb-4 leading-relaxed">
+                <p className="text-stone-400 text-xs mb-4 leading-relaxed">
                   日本人向け求人を無料で掲載できます。
                   審査後、掲載をお知らせします。
                 </p>
                 <Link
                   href={`/${code}/jobs/new`}
-                  className="block w-full text-center bg-white text-indigo-700 font-bold text-sm px-5 py-3 rounded-xl hover:bg-indigo-50 transition shadow-md"
+                  className="block w-full text-center bg-warm-500 hover:bg-warm-600 text-white font-bold text-sm px-5 py-3 rounded-xl transition shadow-md"
                 >
                   求人掲載フォームへ →
                 </Link>
@@ -167,15 +170,15 @@ export default async function JobsIndexPage({
                   const renderIcon = iconMap[ind.icon];
                   return (
                     <Link key={ind.slug} href={`/${code}/jobs/${ind.slug}`}>
-                      <div className="group bg-white dark:bg-stone-800 rounded-2xl border border-stone-200 dark:border-stone-700 hover:border-indigo-300 dark:hover:border-indigo-600 hover:shadow-md transition-all duration-200 p-5 flex flex-col items-center text-center gap-3 h-full hover:-translate-y-0.5">
-                        <div className="w-12 h-12 bg-indigo-50 dark:bg-indigo-900/30 rounded-xl flex items-center justify-center text-indigo-600 dark:text-indigo-400 group-hover:bg-indigo-100 dark:group-hover:bg-indigo-900/50 transition-colors shrink-0">
+                      <div className="group bg-white dark:bg-stone-800 rounded-2xl border border-stone-200 dark:border-stone-700 hover:border-warm-300 dark:hover:border-warm-600 hover:shadow-md transition-all duration-200 p-5 flex flex-col items-center text-center gap-3 h-full hover:-translate-y-0.5">
+                        <div className="w-12 h-12 bg-warm-50 dark:bg-stone-700 rounded-xl flex items-center justify-center text-warm-600 dark:text-warm-400 group-hover:bg-warm-100 dark:group-hover:bg-stone-600 transition-colors shrink-0">
                           {renderIcon?.(22)}
                         </div>
                         <div>
-                          <p className="text-sm font-bold text-stone-800 dark:text-stone-100 group-hover:text-indigo-700 dark:group-hover:text-indigo-400 transition-colors leading-snug mb-1">
+                          <p className="text-sm font-bold text-stone-800 dark:text-stone-100 group-hover:text-warm-700 dark:group-hover:text-warm-400 transition-colors leading-snug mb-1">
                             {ind.label}
                           </p>
-                          <p className="text-xs text-indigo-600 dark:text-indigo-400 font-semibold">
+                          <p className="text-xs text-warm-600 dark:text-warm-400 font-semibold">
                             {count}件
                           </p>
                         </div>
@@ -218,11 +221,11 @@ export default async function JobsIndexPage({
 
           {/* ─── 求人掲載CTAバナー ───────────────────── */}
           <section className="mt-14">
-            <div className="bg-gradient-to-r from-indigo-600 to-indigo-500 dark:from-indigo-800 dark:to-indigo-700 rounded-2xl p-8 flex flex-col sm:flex-row items-center justify-between gap-6">
+            <div className="bg-gradient-to-br from-stone-950 via-[#1a2e35] to-[#2d1a0e] rounded-2xl p-8 flex flex-col sm:flex-row items-center justify-between gap-6">
               <div className="text-center sm:text-left">
                 <div className="flex items-center justify-center sm:justify-start gap-2 mb-2">
-                  <Sparkles size={16} className="text-indigo-200" />
-                  <p className="text-indigo-200 text-xs font-semibold uppercase tracking-widest">
+                  <Sparkles size={16} className="text-stone-400" />
+                  <p className="text-stone-400 text-xs font-semibold uppercase tracking-widest">
                     採用担当者の方へ
                   </p>
                 </div>
@@ -237,9 +240,9 @@ export default async function JobsIndexPage({
                   ].map((item) => (
                     <li
                       key={item}
-                      className="flex items-center gap-2 text-indigo-100 text-sm"
+                      className="flex items-center gap-2 text-stone-300 text-sm"
                     >
-                      <CheckCircle size={14} className="text-indigo-300 shrink-0" />
+                      <CheckCircle size={14} className="text-warm-400 shrink-0" />
                       {item}
                     </li>
                   ))}
@@ -247,7 +250,7 @@ export default async function JobsIndexPage({
               </div>
               <Link
                 href={`/${code}/jobs/new`}
-                className="shrink-0 inline-flex items-center gap-2 bg-white text-indigo-700 font-bold px-8 py-4 rounded-xl hover:bg-indigo-50 transition shadow-lg text-sm whitespace-nowrap"
+                className="shrink-0 inline-flex items-center gap-2 bg-warm-500 hover:bg-warm-600 text-white font-bold px-8 py-4 rounded-xl transition shadow-lg text-sm whitespace-nowrap"
               >
                 求人を無料掲載する
                 <ArrowRight size={16} />
