@@ -1,15 +1,7 @@
 import { redirect, notFound } from "next/navigation";
-import { getAllArticles } from "@/lib/articles";
 
 // 記事以外のルート（place/jobs/column等）はこのページを経由しない
 const RESERVED_SEGMENTS = ["place", "jobs", "column", "area", "map"];
-
-export function generateStaticParams() {
-  return getAllArticles().map((a) => ({
-    country: a.country,
-    slug: a.slug,
-  }));
-}
 
 export default async function ArticleRedirectPage({
   params,
