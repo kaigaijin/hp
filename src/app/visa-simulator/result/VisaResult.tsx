@@ -217,10 +217,16 @@ export default function VisaResult() {
           </button>
           <a
             href="/visa-simulator"
-            className="flex items-center gap-1.5 text-sm bg-warm-500 hover:bg-warm-600 text-white px-4 py-2 rounded-full transition-colors font-medium"
+            className="flex items-center gap-1.5 text-sm border border-stone-300 dark:border-stone-600 text-stone-600 dark:text-stone-300 hover:border-warm-400 hover:text-warm-600 px-4 py-2 rounded-full transition-colors"
           >
             <ArrowLeft size={14} />
             条件を変更
+          </a>
+          <a
+            href="/contact"
+            className="flex items-center gap-1.5 text-sm bg-warm-500 hover:bg-warm-600 text-white px-4 py-2 rounded-full transition-colors font-medium"
+          >
+            専門家に相談する →
           </a>
         </div>
       </div>
