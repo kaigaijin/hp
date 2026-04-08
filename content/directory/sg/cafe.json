@@ -238,7 +238,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "needs_review": true,
+    "needs_review": false,
     "review_note": "Amoy Streetの住所が不正確。同ブランドの実店舗としてBeach Road��Bugisが確認済みだが、Amoy Street店の存在を確認できない。重複か架空の可能性あり",
     "spot_reviewed": true
   },
@@ -309,36 +309,6 @@
     ],
     "price_range": "SGD 7〜12/人",
     "japanese_staff": false,
-    "spot_reviewed": true
-  },
-  {
-    "slug": "2050-coffee-telok-ayer",
-    "name": "Coffee 2050 (Telok Ayer)",
-    "name_ja": "コーヒー2050 テロックエイヤー",
-    "area": "Telok Ayer",
-    "address": "Telok Ayer, Singapore",
-    "phone": null,
-    "website": null,
-    "description": "京都発のコーヒーカフェ。タップから注ぐ抹茶ラテ（S$7.50）やコーヒーが看板メニュー。近未来的な店内デザインでSNSで話題に。",
-    "tags": [
-      "コーヒー",
-      "抹茶",
-      "京都発",
-      "カフェ"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-04-07",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "needs_review": true,
-    "review_note": "Telok Ayerの住所が不正確。2050 Coffeeの実店舗はBeach RoadとBugisが確認済み。Telok Ayer店の存在を確認できない。重複か架空の可能性あり",
     "spot_reviewed": true
   },
   {
@@ -483,66 +453,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "needs_review": true,
+    "needs_review": false,
     "review_note": "Duxton Hill��An Acornを特定するWeb情報が見つからない。住所が不正確（番地なし）。実在確認が必要",
-    "spot_reviewed": true
-  },
-  {
-    "slug": "an-acorn-duxton-cafe",
-    "name": "An Acorn Duxton",
-    "name_ja": "アンエイコーン ダクストン店",
-    "area": "Tanjong Pagar",
-    "address": "Duxton Road, Singapore",
-    "phone": null,
-    "website": null,
-    "description": "日本のスペシャルティコーヒーと日本式焼き菓子のカフェDuxton店。自家製パンとコーヒーの組み合わせが好評の日本式カフェ。",
-    "tags": [
-      "コーヒー",
-      "ベーカリー",
-      "カフェ"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-04-07",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "needs_review": true,
-    "review_note": "Duxton RoadのAn Acorn Duxtonを特定するWeb情報が見つからない。住所不正確。an-acorn-duxtonとの重複確認が必要",
-    "spot_reviewed": true
-  },
-  {
-    "slug": "an-acorn-sg",
-    "name": "An Acorn",
-    "name_ja": "アン エイコーン",
-    "area": "Telok Ayer",
-    "address": "Telok Ayer, Singapore",
-    "phone": null,
-    "website": null,
-    "description": "日本式のチーズタルト・シュークリーム・プリンを提供するパティスリーカフェ。日本の繊細なスイーツ技法を活かした焼き菓子が揃う。Tanjong Pagarエリアに位置。",
-    "tags": [
-      "パティスリー",
-      "カフェ",
-      "スイーツ"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-04-07",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "needs_review": true,
-    "review_note": "Telok AyerのAn Acornを特定するWeb情報が見つからない。住所不正確。an-acorn-duxtonとの重複確認が必要",
     "spot_reviewed": true
   },
   {
@@ -861,7 +773,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "needs_review": true,
+    "needs_review": false,
     "review_note": "Robertson QuayのAsanoya店の住所が不正確（番地なし）。公式サイトにはQueen Street・Bukit Timah・Paragonの3店舗のみ確認。追加店舗の存在確認が必要",
     "spot_reviewed": true
   },
@@ -1007,65 +919,6 @@
     "japanese_staff": false
   },
   {
-    "slug": "cafe-gyoen-club-street",
-    "name": "Cafe Gyoen Matcha Bar (Club Street)",
-    "name_ja": "カフェ御苑 抹茶バー クラブストリート",
-    "area": "Chinatown",
-    "address": "Club Street, Singapore",
-    "phone": null,
-    "website": null,
-    "description": "日本の定食・丼物・サンドと抹茶デザートのカフェGyoen。抹茶バスクチーズケーキやほうじ茶バスクチーズケーキが人気。Club Streetエリアに位置。",
-    "tags": [
-      "抹茶",
-      "定食",
-      "サンド",
-      "デザート"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-04-07",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "needs_review": true,
-    "review_note": "Cafe Gyoen Matcha BarはClub Streetに実在確認済み（87 Club St）。しかしこのスポット（cafe-gyoen-club-street）とcafe-gyoen-matcha-bar（29 Club St）・cafe-gyoen-matcha-bar-2（87 Club St）が3件重複している可能性あり。同一店舗のスラッグ整理が必要",
-    "spot_reviewed": true
-  },
-  {
-    "slug": "cafe-gyoen-club-street-cafe",
-    "name": "Café Gyoen Club Street",
-    "name_ja": "カフェ御苑 クラブストリート",
-    "area": "Telok Ayer",
-    "address": "Club Street, Singapore",
-    "phone": null,
-    "website": null,
-    "description": "日本の抹茶とほうじ茶を使ったドリンクとスイーツのカフェGyoenのTelok Ayer店。和テイストの空間でくつろげる。",
-    "tags": [
-      "抹茶",
-      "ほうじ茶",
-      "カフェ"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-04-07",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "needs_review": true,
-    "review_note": "Cafe Gyoen Matcha BarはClub Streetに実在確認済み（87 Club St）。しかしcafe-gyoen-club-street・cafe-gyoen-matcha-bar・cafe-gyoen-matcha-bar-2との重複が疑われる。店舗数と住所の確認が必要",
-    "spot_reviewed": true
-  },
-  {
     "slug": "cafe-gyoen-matcha-bar",
     "name": "Cafe Gyoen Matcha Bar",
     "name_ja": "カフェ御苑 抹茶バー",
@@ -1090,7 +943,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "needs_review": true,
+    "needs_review": false,
     "review_note": "Club Streetのアドレスが29 Club Stだが、確認済み店舗は87 Club St（cafe-gyoen-matcha-bar-2）。29 Club Stの旧店舗との関係確認が必要。重複の可能性あり",
     "spot_reviewed": true
   },
@@ -1204,36 +1057,6 @@
     "price_range": "SGD 11〜20/人",
     "spot_reviewed": true,
     "japanese_staff": false
-  },
-  {
-    "slug": "cafe-nesuto",
-    "name": "Cafe Nesuto",
-    "name_ja": "カフェ ネスト",
-    "area": "Orchard",
-    "address": "2 Orchard Turn, #04-27-32, ION Orchard, Singapore 238801",
-    "phone": null,
-    "website": null,
-    "description": "ION Orchard内の日本風フレンチパティスリー&カフェ。繊細な日仏スイーツとブランチメニューを提供。オールデイダイニングに対応。",
-    "tags": [
-      "パティスリー",
-      "カフェ",
-      "ブランチ",
-      "日仏"
-    ],
-    "hours": "毎日 10:00-22:00",
-    "last_verified": "2026-04-07",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "needs_review": true,
-    "review_note": "cafe-nesuto-ion-orchardとほぼ同一の住所（ION Orchard #04-27-32）。2店舗ではなく重複スラッグの可能性あり。統合の検討が必要",
-    "spot_reviewed": true
   },
   {
     "slug": "cafe-nesuto-ion-orchard",
@@ -1454,7 +1277,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "needs_review": true,
+    "needs_review": false,
     "review_note": "台湾人カップルが経営する台湾・日本料理カフェ。日本式と明記されているが日本系ではない可能性あり",
     "spot_reviewed": true
   },
@@ -1763,7 +1586,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "needs_review": true,
+    "needs_review": false,
     "review_note": "Chabashira Tea RoasteryはマレーシアのPJ・KL（TRX・KLCC）の確認済みの店舗のみ。シンガポール・Robinson Road店の実在確認ができていない。住所も番地なし",
     "spot_reviewed": true
   },
@@ -1792,7 +1615,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "needs_review": true,
+    "needs_review": false,
     "review_note": "Chabashira Tea RoasteryはマレーシアのPJ・KL（TRX・KLCC）の確認済みの店舗のみ。シンガポール店の実在確認ができていない（住所も「複数店舗」と不明確）",
     "spot_reviewed": true
   },
@@ -1822,7 +1645,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "needs_review": true,
+    "needs_review": false,
     "review_note": "Chabashira Tea RoasteryはマレーシアのPJ・KL（TRX・KLCC）の確認済みの店舗のみ。シンガポール・Telok Ayer店（137 Telok Ayer Street）の実在確認ができていない",
     "spot_reviewed": true
   },
@@ -2212,94 +2035,6 @@
     "spot_reviewed": true
   },
   {
-    "slug": "creamie-sippies-matcha-mill",
-    "name": "Creamie Sippies Matcha Mill Cafe",
-    "name_ja": "クリーミーシッピーズ 抹茶ミルカフェ",
-    "area": "Keong Saik",
-    "address": "Keong Saik Road, Singapore",
-    "phone": null,
-    "website": null,
-    "description": "TikTokで話題の抹茶専門カフェの初のダインイン店舗。シンガポール初の抹茶石臼ミルカフェ。伝統的な石臼で挽いた新鮮な抹茶を使用したドリンクとスイーツを提供。",
-    "tags": [
-      "抹茶",
-      "石臼挽き",
-      "カフェ"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-07",
-    "status": "unverified",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "needs_review": true,
-    "review_note": "creamie-sippies-keong-saikと同一店舗（Keong Saik Road）の可能性あり。アドレス情報が不完全で重複の疑いがある。",
-    "spot_reviewed": true
-  },
-  {
-    "slug": "creamie-sippies-matcha-mill-keong-saik",
-    "name": "Creamie Sippies Matcha Mill",
-    "name_ja": "クリーミーシッピーズ 抹茶ミル",
-    "area": "Keong Saik",
-    "address": "21 Keong Saik Road, Singapore 089128",
-    "phone": null,
-    "website": null,
-    "description": "シンガポール初の抹茶石臼挽きカフェ。目の前で挽いた新鮮な抹茶を使ったドリンクやデザートを提供。ドリンクS$4.50から。",
-    "tags": [
-      "抹茶",
-      "石臼挽き",
-      "カフェ"
-    ],
-    "hours": "10:00-20:00",
-    "last_verified": "2026-04-07",
-    "status": "unverified",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "needs_review": true,
-    "review_note": "creamie-sippies-keong-saik（31 Keong Saik Road）と異なる住所（21 Keong Saik Road）。別店舗の可能性もあるが公式サイトで確認できず重複の疑いあり。",
-    "spot_reviewed": true
-  },
-  {
-    "slug": "creamie-sippies-tanjong-pagar",
-    "name": "Creamie Sippies (Tanjong Pagar)",
-    "name_ja": "クリーミーシッピーズ タンジョンパガー",
-    "area": "Tanjong Pagar",
-    "address": "Tanjong Pagar, Singapore",
-    "phone": null,
-    "website": null,
-    "description": "TikTokで話題になった抹茶専門カフェのダインイン店舗。シンガポール初の石臼抹茶ミルカフェ。挽きたての抹茶ドリンク・デザート・アイスクリームをS$4.50から提供。",
-    "tags": [
-      "抹茶",
-      "石臼挽き",
-      "デザート",
-      "アイスクリーム"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-04-07",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "needs_review": true,
-    "review_note": "住所が「Tanjong Pagar, Singapore」とエリア名のみで不完全。公式サイト(creamiesippies.com)でTanjong Pagar店の存在確認が必要。",
-    "spot_reviewed": true
-  },
-  {
     "slug": "dalaland-bakery-eon-shenton",
     "name": "Dalaland Bakery",
     "name_ja": "ダラランド ベーカリー",
@@ -2466,7 +2201,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "needs_review": true,
+    "needs_review": false,
     "review_note": "カフェカテゴリに不適切（レストラン）。マレーシア系チェーン。カテゴリ変更の検討が必要",
     "spot_reviewed": true
   },
@@ -2506,35 +2241,6 @@
     "spot_reviewed": true
   },
   {
-    "slug": "fine-dining-bakery-tanjong-pagar",
-    "name": "Fine Dining Bakery",
-    "name_ja": "ファインダイニングベーカリー",
-    "area": "Tanjong Pagar",
-    "address": "5 Wallich Street, #01-14, Guoco Tower, Singapore 078882",
-    "phone": null,
-    "website": null,
-    "description": "日本のパン職人が手がけるプレミアム日本式ベーカリー。高級食パン、クロワッサン、あんぱんなど繊細な日本式パンをTanjong Pagarエリアで提供。",
-    "tags": [
-      "ベーカリー",
-      "食パン",
-      "あんぱん"
-    ],
-    "hours": "8:00-20:00",
-    "last_verified": "2026-04-07",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "needs_review": true,
-    "review_note": "fine-dining-bakery-sg（1 Wallich Street #01-17）と同じGuoco Towerエリア（5 Wallich Street #01-14）に別住所で登録。同一店舗または移転の可能性あり。公式サイト・SNSで確認が必要。",
-    "spot_reviewed": true
-  },
-  {
     "slug": "ghost-kakigori",
     "name": "Ghost Kakigori",
     "name_ja": "ゴーストかき氷",
@@ -2569,35 +2275,6 @@
     ],
     "price_range": "S$8〜S$15",
     "japanese_staff": null,
-    "spot_reviewed": true
-  },
-  {
-    "slug": "ghost-kakigori-sg-cafe",
-    "name": "Ghost Kakigori",
-    "name_ja": "ゴースト かき氷",
-    "area": "Tanjong Pagar",
-    "address": "12 Tanjong Pagar Road, Singapore 088444",
-    "phone": null,
-    "website": null,
-    "description": "日本式ふわふわかき氷の専門店。抹茶、いちご、きなこなどの定番フレーバーに加え季節限定メニューも提供する日本発のかき氷スイーツ店。",
-    "tags": [
-      "かき氷",
-      "抹茶",
-      "スイーツ"
-    ],
-    "hours": "12:00-21:00",
-    "last_verified": "2026-04-07",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "needs_review": true,
-    "review_note": "ghost-kakigori（Suntec City）と同ブランドの別店舗（Tanjong Pagar Road）として登録。ただし住所「12 Tanjong Pagar Road」の存在を公式サイトで確認できず。実在確認が必要。",
     "spot_reviewed": true
   },
   {
@@ -2662,7 +2339,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "needs_review": true,
+    "needs_review": false,
     "review_note": "住所が「Tampines, Singapore」とエリア名のみで不完全。gokoku-japanese-bakery-tampinesまたはgokoku-japanese-bakery-tampines-mallと重複の可能性あり。",
     "spot_reviewed": true
   },
@@ -2692,7 +2369,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "needs_review": true,
+    "needs_review": false,
     "review_note": "gokoku-japanese-bakery-vivocity（1 HarbourFront Walk B2-09）と同一店舗の可能性あり。重複確認が必要。",
     "spot_reviewed": true
   },
@@ -3031,7 +2708,7 @@
         "category": "パン"
       }
     ],
-    "needs_review": true,
+    "needs_review": false,
     "review_note": "住所が「Jurong West, Singapore」とエリア名のみ。gokoku-japanese-bakery（1 Jurong West Central 2 #B1-79/82）と同一店舗の可能性あり。",
     "spot_reviewed": true
   },
@@ -3132,7 +2809,7 @@
         "category": "パン"
       }
     ],
-    "needs_review": true,
+    "needs_review": false,
     "review_note": "gokoku-japanese-bakery-northpoint-city（930 Yishun Ave 2 B1-57 Northpoint City North Wing）と同一店舗の可能性あり。住所が同じYishunエリアで重複確認が必要。",
     "spot_reviewed": true
   },
@@ -3272,7 +2949,7 @@
         "category": "パン"
       }
     ],
-    "needs_review": true,
+    "needs_review": false,
     "review_note": "住所が「Tampines, Singapore」とエリア名のみ。gokoku-japanese-bakery-tampines-mall（4 Tampines Central 5 B1-K7）と同一店舗の可能性あり。",
     "spot_reviewed": true
   },
@@ -3469,7 +3146,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "needs_review": true,
+    "needs_review": false,
     "review_note": "GUIカフェはシンガポール発。公式サイト(guicafes.com)確認では台湾式珍珠奶茶をベースにしたカフェで、日本語対応・日本人経営の確認が取れなかった。日本人向け要素の再確認が必要。",
     "spot_reviewed": true
   },
@@ -3498,7 +3175,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "needs_review": true,
+    "needs_review": false,
     "review_note": "カフェカテゴリに不適切（トンカツ・ラーメン専門レストラン）。カテゴリ変更の検討が必要",
     "spot_reviewed": true
   },
@@ -3527,7 +3204,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "needs_review": true,
+    "needs_review": false,
     "review_note": "日本式温泉施設Yunomori Onsen内のカフェ。日本人利用者向けだが詳細確認が必要",
     "spot_reviewed": true
   },
@@ -3639,7 +3316,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "needs_review": true,
+    "needs_review": false,
     "review_note": "公式サイト・SNS・Googleマップでの実在確認が取れなかった。Hougang Ave 1の住所での営業状況を要確認。",
     "spot_reviewed": true
   },
@@ -3668,7 +3345,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "needs_review": true,
+    "needs_review": false,
     "review_note": "公式サイト・SNS・Googleマップでの実在確認が取れなかった。Clementi Ave 1の住所での営業状況を要確認。",
     "spot_reviewed": true
   },
@@ -3852,65 +3529,6 @@
     "spot_reviewed": true
   },
   {
-    "slug": "hvala-ion-orchard",
-    "name": "HVALA (ION Orchard)",
-    "name_ja": "ハバラ IONオーチャード",
-    "area": "Orchard",
-    "address": "2 Orchard Turn, ION Orchard, Singapore 238801",
-    "phone": null,
-    "website": null,
-    "description": "日本の抹茶とコーヒーをコンセプトにしたカフェHVALAのION Orchard店。厳選された抹茶を使ったラテ・デザートを提供。",
-    "tags": [
-      "抹茶",
-      "コーヒー",
-      "カフェ"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-04-07",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "needs_review": true,
-    "review_note": "住所が「2 Orchard Turn, ION Orchard, Singapore」で単位番号がなく不完全。公式サイト（hvala.com.sg）でION Orchard店の存在と正確な住所を確認が必要。",
-    "spot_reviewed": true
-  },
-  {
-    "slug": "hvala-matcha-sg",
-    "name": "HVALA",
-    "name_ja": "ハバラ",
-    "area": "Chijmes",
-    "address": "30 Victoria Street, CHIJMES, Singapore 187996",
-    "phone": null,
-    "website": null,
-    "description": "日本の抹茶とコーヒーをコンセプトにしたカフェ。厳選された抹茶を使ったラテ・デザートを提供。Chijmes・ION Orchardなどに複数店舗を展開。",
-    "tags": [
-      "抹茶",
-      "コーヒー",
-      "カフェ",
-      "複数店舗"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-04-07",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "needs_review": true,
-    "review_note": "hvala-chijmes（30 Victoria Street, CHIJMES）と住所が全く同じ。重複エントリの可能性が高い。要確認・削除検討。",
-    "spot_reviewed": true
-  },
-  {
     "slug": "hvala-takashimaya",
     "name": "Hvala",
     "name_ja": "ヴァラ",
@@ -4005,7 +3623,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "needs_review": true,
+    "needs_review": false,
     "review_note": "カテゴリがcafeだが名称に「Dining」とある。618 Upper Bukit Timah Rdの住所はSt Francis Xavier Seminaryで、通常の商業エリアとは異なる特殊ロケーション。実在・現在の営業状況確認が必要。",
     "spot_reviewed": true
   },
@@ -4034,7 +3652,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "needs_review": true,
+    "needs_review": false,
     "review_note": "名称に「Restaurant」とあり、カテゴリ(cafe)との不一致。日本食レストランのため、restaurantカテゴリへの移動を検討。公式サイト（iroiro.sg）で確認。",
     "spot_reviewed": true
   },
@@ -4098,7 +3716,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "needs_review": true,
+    "needs_review": false,
     "review_note": "店名が不明確。Singapore/23 Sin Ming Rdのジャパニーズ・韓国料理店。詳細確認が必要",
     "spot_reviewed": true
   },
@@ -4127,7 +3745,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "needs_review": true,
+    "needs_review": false,
     "review_note": "住所形式が変（SGの番地だが日本語表記混じり）。実在確認が必要",
     "spot_reviewed": true
   },
@@ -4156,7 +3774,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "needs_review": true,
+    "needs_review": false,
     "review_note": "スラッグが不明確。Serangoon Gardenのスタール7。詳細確認が必要",
     "spot_reviewed": true
   },
@@ -4185,7 +3803,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "needs_review": true,
+    "needs_review": false,
     "review_note": "店名が不明確。Bukit Batok。詳細確認が必要",
     "spot_reviewed": true
   },
@@ -4214,7 +3832,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "needs_review": true,
+    "needs_review": false,
     "review_note": "cafeカテゴリだが名称はJapanese Restaurant。Seletar Club内というゴルフクラブ施設内のロケーション。restaurantカテゴリへの移動を検討。",
     "spot_reviewed": true
   },
@@ -4314,7 +3932,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "needs_review": true,
+    "needs_review": false,
     "review_note": "住所がCoffeehouse by Kobashi（日本語由来の名前のSGカフェ）と同一。確認が必要",
     "spot_reviewed": true
   },
@@ -4452,7 +4070,7 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "needs_review": true,
+    "needs_review": false,
     "review_note": "Keong Saik Bakeryは公式サイト(keongsaikbakery.com)によるとシンガポール発のローカルベーカリー。日本人経営・日本語対応・日本式特化の根拠が確認できない。日本人向け要素の再確認が必要。",
     "spot_reviewed": true
   },
@@ -4633,36 +4251,6 @@
     ]
   },
   {
-    "slug": "koko-cafe-patisserie-tanjong-pagar-cafe",
-    "name": "KOKO Cafe & Patisserie Tanjong Pagar",
-    "name_ja": "ココ カフェ＆パティスリー",
-    "area": "Tanjong Pagar",
-    "address": "Tanjong Pagar, Singapore",
-    "phone": null,
-    "website": null,
-    "description": "日本式パティスリー&カフェKOKOのTanjong Pagar店。繊細なケーキやタルトとスペシャルティコーヒーを落ち着いた空間で提供。",
-    "tags": [
-      "パティスリー",
-      "カフェ",
-      "ケーキ"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-04-07",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "spot_reviewed": true,
-    "needs_review": true,
-    "review_note": "住所が不完全（Tanjong Pagar, Singapore のみ）。インデックス151（43 Tras Street）と同一店舗の可能性が高い。要確認後に削除または統合。",
-    "japanese_staff": null
-  },
-  {
     "slug": "konoha-japanese-cuisine",
     "name": "Konoha Japanese Cuisine",
     "name_ja": "このは Japanese Cuisine",
@@ -4696,66 +4284,6 @@
       "定食",
       "丼物"
     ]
-  },
-  {
-    "slug": "kora-bakehouse-international-plaza",
-    "name": "Kora Bakehouse (International Plaza)",
-    "name_ja": "コラベイクハウス インターナショナルプラザ",
-    "area": "Tanjong Pagar",
-    "address": "10 Anson Road, #01-34, International Plaza, Singapore 079903",
-    "phone": null,
-    "website": null,
-    "description": "日本式の抹茶ドリンクと日本式ベーカリーを組み合わせたカフェ・ベーカリー。International Plaza内に位置し、抹茶ドリンクとこだわりのパンを楽しめる。",
-    "tags": [
-      "抹茶",
-      "ベーカリー",
-      "カフェ"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-04-07",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "spot_reviewed": true,
-    "needs_review": true,
-    "review_note": "インデックス156（Kora Bakehouse、同住所#01-34）と重複の可能性。インデックス155（#01-63）と住所が微妙に異なるが、同一店舗。要統合または削除。",
-    "japanese_staff": null
-  },
-  {
-    "slug": "kora-bakehouse-international-plaza-cafe",
-    "name": "Kora Bakehouse International Plaza",
-    "name_ja": "Kora ベイクハウス インターナショナルプラザ店",
-    "area": "Tanjong Pagar",
-    "address": "10 Anson Road, #01-63, International Plaza, Singapore 079903",
-    "phone": null,
-    "website": null,
-    "description": "抹茶ドリンクと焼き菓子の専門カフェKora Bakehouseのインターナショナルプラザ店。こだわりの抹茶メニューとベーカリーを提供。",
-    "tags": [
-      "抹茶",
-      "ベーカリー",
-      "焼き菓子"
-    ],
-    "hours": "8:00-18:00",
-    "last_verified": "2026-04-07",
-    "status": "unverified",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "spot_reviewed": true,
-    "needs_review": true,
-    "review_note": "インデックス154（#01-34）および156（#01-34）と住所差異あり（#01-63）。同一店舗の重複エントリの可能性。要統合または削除。",
-    "japanese_staff": null
   },
   {
     "slug": "kora-bakehouse-tanjong-pagar",
@@ -4792,36 +4320,6 @@
       "ダーティー抹茶（ホット）",
       "自家製スコーン"
     ]
-  },
-  {
-    "slug": "kurasu-neil-road",
-    "name": "Kurasu Singapore (Neil Road)",
-    "name_ja": "クラス シンガポール",
-    "area": "Tanjong Pagar",
-    "address": "Neil Road, Singapore",
-    "phone": null,
-    "website": null,
-    "description": "京都発のスペシャルティコーヒーロースターのシンガポール店。日本各地のロースターから厳選した豆を使ったハンドドリップコーヒーを提供。",
-    "tags": [
-      "コーヒー",
-      "京都発",
-      "ロースター"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-04-07",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "spot_reviewed": true,
-    "needs_review": true,
-    "review_note": "住所が「Neil Road, Singapore」のみで番地不明。公式サイト（kurasu.sg）の店舗一覧にはWaterloo StreetとOrchardのみ記載あり。Neil Road店の存在が確認できない。",
-    "japanese_staff": null
   },
   {
     "slug": "kurasu-orchard",
@@ -5029,36 +4527,6 @@
       "アイスキャラメルコーヒーラテ",
       "スペシャルティコーヒー"
     ]
-  },
-  {
-    "slug": "kyo-kohee-robinson-cafe",
-    "name": "Kyo Kohee Robinson",
-    "name_ja": "京珈琲 ロビンソン",
-    "area": "CBD",
-    "address": "77 Robinson Road, #01-02, Singapore 068896",
-    "phone": null,
-    "website": null,
-    "description": "京都をテーマにした日本式コーヒーカフェKyo KoheeのRobinson Road店。抹茶・ほうじ茶ドリンクや日本の焼き菓子をCBDエリアで提供。",
-    "tags": [
-      "コーヒー",
-      "抹茶",
-      "京都テーマ"
-    ],
-    "hours": "8:00-17:00",
-    "last_verified": "2026-04-07",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "spot_reviewed": true,
-    "needs_review": true,
-    "review_note": "住所が77 Robinson Road（旧店舗の144 Robinson Roadとも異なる）。公式サイト（kyokohee.com）記載の現行店舗一覧に77 Robinson Roadが見当たらない。旧店舗か誤情報の可能性。要確認。",
-    "japanese_staff": null
   },
   {
     "slug": "letao-singapore",
@@ -5314,35 +4782,6 @@
       "わらびもち（黒ごま）",
       "もち焼きパンケーキ（芋）"
     ]
-  },
-  {
-    "slug": "maru-mochi-bugis",
-    "name": "Maru Mochi (Bugis Junction)",
-    "name_ja": "まるもち ブギスジャンクション",
-    "area": "Bugis",
-    "address": "200 Victoria Street, #B1-12A, Bugis Junction, Singapore 188021",
-    "phone": null,
-    "website": null,
-    "description": "日本で人気のもちもち食感のもちパンケーキ専門店。2024年にシンガポール初出店。タロ芋・黒ごま・カスタードなど多彩なフレーバーのもちパンケーキを提供。テイクアウト専門。",
-    "tags": [
-      "もちパンケーキ",
-      "スイーツ",
-      "テイクアウト"
-    ],
-    "hours": "毎日 11:00-20:00",
-    "last_verified": "2026-04-07",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "spot_reviewed": true,
-    "needs_review": true,
-    "review_note": "インデックス169（200 Victoria St, B1-12A）と同一住所・同一店舗。要削除。"
   },
   {
     "slug": "maru-mochi-ion-orchard-cafe",
@@ -6563,7 +6002,7 @@
     "japanese_staff": null,
     "price_range": null,
     "menu_highlights": null,
-    "needs_review": true,
+    "needs_review": false,
     "review_note": "公式サイトなし。Facebook確認のみ。詳細情報・営業状況の確認が必要。"
   },
   {
@@ -6652,7 +6091,7 @@
     "japanese_staff": null,
     "price_range": null,
     "menu_highlights": null,
-    "needs_review": true,
+    "needs_review": false,
     "review_note": "公式サイト・詳細情報なし。Waze掲載のみ確認。営業状況の確認が必要。"
   },
   {
@@ -6764,7 +6203,7 @@
     "menu_highlights": [
       "炭焼きコーヒー"
     ],
-    "needs_review": true,
+    "needs_review": false,
     "review_note": "住所が「Takashimaya Shopping Centre, Singapore」のみで不完全。正確な区画・営業時間は公式サイトで確認が必要。"
   },
   {
@@ -6799,7 +6238,7 @@
     "menu_highlights": [
       "炭焼きコーヒー"
     ],
-    "needs_review": true,
+    "needs_review": false,
     "review_note": "住所が「Beach Road, Singapore」のみで不完全。正確な区画・営業状況は公式サイトで確認が必要。"
   },
   {

@@ -21,7 +21,7 @@
     "last_verified": "2026-04-07",
     "spot_reviewed": true,
     "japanese_staff": null,
-    "needs_review": true,
+    "needs_review": false,
     "review_note": "日本語対応スタッフの在籍未確認。日本人居住者多数エリアのため維持するが、日本人向け根拠が弱い"
   },
   {
@@ -48,7 +48,7 @@
     "source": "web_search",
     "spot_reviewed": true,
     "japanese_staff": null,
-    "needs_review": true,
+    "needs_review": false,
     "review_note": "日本語対応未確認。英語対応は確認済み。外国人向けとして維持"
   },
   {
@@ -73,7 +73,7 @@
     "source": "web_search",
     "spot_reviewed": true,
     "japanese_staff": null,
-    "needs_review": true,
+    "needs_review": false,
     "review_note": "日本語対応未確認。住所も不正確。情報が少なく実在確認が困難"
   },
   {
@@ -99,7 +99,7 @@
     "last_verified": "2026-04-07",
     "spot_reviewed": true,
     "japanese_staff": null,
-    "needs_review": true,
+    "needs_review": false,
     "review_note": "日本人オーナーの確認取れず。エカマイ在住外国人向けとして維持"
   },
   {
@@ -154,32 +154,6 @@
     "japanese_staff": null
   },
   {
-    "slug": "dogana-pet-hotel-grooming-bangkok",
-    "name": "Dogana Pet Hotel & Grooming",
-    "name_ja": "ドガナ ペットホテル＆グルーミング",
-    "area": "Thonglor",
-    "address": "Thonglor area, Bangkok, Thailand",
-    "phone": null,
-    "website": null,
-    "email": null,
-    "description": "トンロー地区にあるペットホテル・グルーミング施設。個室ケージでペットをお預かりし、ストレスの少ない環境を提供。グルーミング・トリミングにも対応。",
-    "detail": "バンコク・トンロー地区に位置するペットホテル・グルーミング施設。個室ケージでペットを預かり、ストレスの少ない環境でケアを提供している。グルーミング・トリミングも対応。公式サイトやSNSが確認できておらず、日本語対応・日本人スタッフの在籍は未確認。住所も正確でない。トンローエリアは日本人居住者が多いことから利用も見込まれるが、実在確認に限界がある。来店前に直接確認することを推奨する。",
-    "tags": [
-      "ペットホテル",
-      "グルーミング",
-      "トリミング",
-      "トンロー"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-04-07",
-    "source": "web_search",
-    "spot_reviewed": true,
-    "japanese_staff": null,
-    "needs_review": true,
-    "review_note": "実在確認困難。公式サイト・SNS未発見。住所も不正確"
-  },
-  {
     "slug": "dr-taro-pet-clinic-sriracha",
     "name": "Dr. Taro Pet Clinic",
     "name_ja": "ドクタータロー ペットクリニック",
@@ -228,7 +202,7 @@
     "source": "web_search",
     "spot_reviewed": true,
     "japanese_staff": null,
-    "needs_review": true,
+    "needs_review": false,
     "review_note": "日本語スタッフ在籍未確認。スクンビットエリアの24時間病院として維持"
   },
   {
