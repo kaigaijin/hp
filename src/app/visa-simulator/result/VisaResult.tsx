@@ -1,9 +1,10 @@
 "use client";
 
 import { useSearchParams } from "next/navigation";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { CheckCircle, XCircle, AlertCircle, ChevronDown, ChevronUp, Share2, ArrowLeft } from "lucide-react";
 import visaData from "@/../content/data/db/visa_simulator.json";
+import { supabase } from "@/lib/supabase";
 
 type VisaEntry = {
   id: string;
@@ -125,6 +126,20 @@ export default function VisaResult() {
 
   const okCount = results.filter((r) => r.status === "ok").length;
   const maybeCount = results.filter((r) => r.status === "maybe").length;
+
+  // ページ表示時にログ保存（1回のみ）
+  useEffect(() => {
+    supabase.from("visa_simulator_logs").insert({
+      age,
+      annual_income_man: incomeMan,
+      assets_man: assetsMan,
+      employment: employment || null,
+      target_countries: targetCountries,
+      ok_count: okCount,
+      maybe_count: maybeCount,
+    });
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const inputSummary = [
     age !== null ? `${age}歳` : null,
