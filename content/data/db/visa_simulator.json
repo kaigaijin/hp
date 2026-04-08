@@ -18,6 +18,7 @@
       "company_setup_required": true,
       "notes": "シンガポール法人（私的有限会社）設立が必要。VC出資・政府認定インキュベーター採択・著名な起業実績のいずれかを充足すること。コーヒーショップ・マッサージ・カラオケ等は対象外。"
     },
+    "application_fee_note": "申請料SGD 105（約1.1万円）＋発行料SGD 225（約2.5万円）。合計約3.6万円。申請料は返金不可。",
     "max_stay_years": null,
     "renewable": true,
     "affiliate_potential": "high",
@@ -42,6 +43,7 @@
       "company_setup_required": false,
       "notes": "月収SGD 5,600（約63万円）以上。金融業種はSGD 6,200以上。COMPASSポイント40点以上も必須。現地雇用主が必要。"
     },
+    "application_fee_note": "申請料SGD 105（約1.1万円）＋発行料SGD 225（約2.5万円）。合計約3.6万円。通常雇用主が負担。",
     "max_stay_years": null,
     "renewable": true,
     "affiliate_potential": "medium",
@@ -66,6 +68,7 @@
       "company_setup_required": false,
       "notes": "月収SGD 30,000（約339万円）以上。または直近1年間に時価総額USD 5億以上の企業に勤務実績がある場合も申請可能。"
     },
+    "application_fee_note": "申請料SGD 105（約1.1万円）＋発行料SGD 225（約2.5万円）。合計約3.6万円。",
     "max_stay_years": 5,
     "renewable": true,
     "affiliate_potential": "low",
@@ -90,6 +93,7 @@
       "company_setup_required": false,
       "notes": "資産USD 100万以上（約1.5億円）＋タイへのUSD 50万投資（不動産・国債・上場株等）が必要。10年更新可能ビザ。"
     },
+    "application_fee_note": "申請料THB 50,000（約22万円）。10年分一括。全カテゴリ共通料金。",
     "max_stay_years": 10,
     "renewable": true,
     "affiliate_potential": "high",
@@ -114,6 +118,7 @@
       "company_setup_required": false,
       "notes": "不労所得（年金・賃料・配当・利息等）年USD 8万以上。または不労所得USD 4万以上＋タイへのUSD 25万投資の組み合わせも可。10年更新可能ビザ。"
     },
+    "application_fee_note": "申請料THB 50,000（約22万円）。10年分一括。全カテゴリ共通料金。",
     "max_stay_years": 10,
     "renewable": true,
     "affiliate_potential": "high",
@@ -138,6 +143,7 @@
       "company_setup_required": false,
       "notes": "過去2年間の年収USD 8万以上（約1,200万円）。雇用主はタイ国外の実績ある企業で、タイ国内での就労は不要（リモートワーク）。10年更新可能ビザ。"
     },
+    "application_fee_note": "申請料THB 50,000（約22万円）。10年分一括。全カテゴリ共通料金。",
     "max_stay_years": 10,
     "renewable": true,
     "affiliate_potential": "high",
@@ -162,6 +168,7 @@
       "company_setup_required": false,
       "notes": "ブロンズ5年THB 65万（約286万円）〜リザーブ20年THB 500万（約2,200万円）。収入・年齢要件なし。就労不可。バックグラウンドチェックあり。"
     },
+    "application_fee_note": "会員費が実質の申請料。ブロンズ（5年）THB 65万（約286万円）〜リザーブ（20年超）THB 500万（約2,200万円）。別途申請手数料なし。",
     "max_stay_years": 20,
     "renewable": false,
     "affiliate_potential": "high",
@@ -186,6 +193,7 @@
       "company_setup_required": false,
       "notes": "50歳以上。銀行預金THB 80万（約352万円）以上、または月収THB 6.5万（約28.6万円）以上が必要。毎年更新可能。就労厳禁。健康保険加入義務あり。"
     },
+    "application_fee_note": "申請料THB 5,000（約2.2万円）。複数入国ビザ料金。毎年更新のたびに必要。",
     "max_stay_years": 1,
     "renewable": true,
     "affiliate_potential": "high",
@@ -210,6 +218,7 @@
       "company_setup_required": false,
       "notes": "20歳以上。過去3ヶ月の銀行残高THB 50万（約220万円）以上。タイ国外からの収入であること。5年有効（各入国180日まで、1回延長で最大360日）。"
     },
+    "application_fee_note": "申請料THB 10,000（約4.3万円）。5年間有効・複数入国。返金不可。",
     "max_stay_years": 5,
     "renewable": false,
     "affiliate_potential": "medium",
@@ -234,6 +243,7 @@
       "company_setup_required": false,
       "notes": "25歳以上。預金USD 15万（約2,250万円）＋RM 60万（約1,980万円）以上の不動産購入が必要。不動産は10年以上保有義務。5年更新可能ビザ。"
     },
+    "application_fee_note": "政府参加費MYR 1,000（約3.5万円）。別途代理店費用MYR 3,000〜10,000程度が一般的。",
     "max_stay_years": 5,
     "renewable": true,
     "affiliate_potential": "high",
@@ -258,6 +268,7 @@
       "company_setup_required": false,
       "notes": "25歳以上。預金USD 50万（約7,500万円）＋RM 100万（約3,300万円）以上の不動産購入が必要。15年更新可能ビザ。"
     },
+    "application_fee_note": "政府参加費MYR 3,000（約10.5万円）。別途代理店費用MYR 3,000〜10,000程度が一般的。",
     "max_stay_years": 15,
     "renewable": true,
     "affiliate_potential": "high",
@@ -282,6 +293,7 @@
       "company_setup_required": false,
       "notes": "25歳以上。預金USD 100万（約1.5億円）＋RM 200万（約6,600万円）以上の不動産購入が必要。20年更新可能ビザ。"
     },
+    "application_fee_note": "政府参加費MYR 200,000（約700万円）。別途代理店費用が必要。",
     "max_stay_years": 20,
     "renewable": true,
     "affiliate_potential": "high",
@@ -310,6 +322,7 @@
         "non_it": 9000000
       }
     },
+    "application_fee_note": "申請料MYR 1,000（約3.5万円）。不承認の場合は75%返金。扶養家族1名あたりMYR 500追加。",
     "max_stay_years": 1,
     "renewable": true,
     "affiliate_potential": "medium",
@@ -334,6 +347,7 @@
       "company_setup_required": false,
       "notes": "不動産AED 200万（約8,200万円）以上の投資が必要。2025年から住宅ローン物件でも可（50%頭金要件撤廃）。投資ファンドAED 200万以上でも可。10年更新可能。"
     },
+    "application_fee_note": "申請料AED 2,790前後（約11万円）。エミレーツIDや健康診断は別途。不動産購入ルートは総額AED 9,000〜10,000（約35〜40万円）以上になる場合あり。",
     "max_stay_years": 10,
     "renewable": true,
     "affiliate_potential": "high",
@@ -358,6 +372,7 @@
       "company_setup_required": false,
       "notes": "過去2年間の自営業収入AED 36万/年（約1,476万円）以上。学士以上の学歴または専門資格が必要。フリーランス許可証取得が前提。5年更新可能。"
     },
+    "application_fee_note": "申請料AED 700〜750（約2.7〜3万円）。ビザ本体AED 200＋手数料。エミレーツIDや健康診断は別途。",
     "max_stay_years": 5,
     "renewable": true,
     "affiliate_potential": "high",
@@ -382,6 +397,7 @@
       "company_setup_required": false,
       "notes": "55歳以上。不動産AED 100万（約4,100万円）、または貯蓄AED 100万（約4,100万円）、または月収AED 2万以上のいずれかを充足。5年更新可能。"
     },
+    "application_fee_note": "申請料AED 2,280（約8.9万円）。エミレーツIDや健康診断は別途。",
     "max_stay_years": 5,
     "renewable": true,
     "affiliate_potential": "high",
@@ -404,8 +420,9 @@
       "working_holiday": true,
       "investment_required": false,
       "company_setup_required": false,
-      "notes": "18〜30歳（申請時点）。申請料AUD 670（約6.4万円）。地方での農業・採掘・建設等で88日以上就労すると第2ビザ（さらに1年）が申請可能。"
+      "notes": "18〜30歳（申請時点）。申請料AUD 670（約6.1万円）。地方での農業・採掘・建設等で88日以上就労すると第2ビザ（さらに1年）が申請可能。"
     },
+    "application_fee_note": "申請料AUD 670（約6.1万円）。オンライン申請のみ。健康診断・バイオメトリクスが必要な場合は別途追加。",
     "max_stay_years": 1,
     "renewable": false,
     "affiliate_potential": "medium",
@@ -430,6 +447,7 @@
       "company_setup_required": false,
       "notes": "18〜30歳（申請時点）。日本国内の韓国大使館・総領事館から申請。週25時間以内の就労制限あり。原則として初回申請者のみ対象。"
     },
+    "application_fee_note": "無料。日本人向け申請料は免除。",
     "max_stay_years": 1,
     "renewable": false,
     "affiliate_potential": "medium",

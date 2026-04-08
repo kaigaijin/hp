@@ -25,6 +25,7 @@ type VisaEntry = {
     notes: string;
     industry_income_tiers?: { it: number; non_it: number };
   };
+  application_fee_note?: string;
   max_stay_years: number | null;
   renewable: boolean;
 };
@@ -322,6 +323,14 @@ export default function VisaResult() {
                       {result.visa.conditions.notes}
                     </p>
                   </div>
+                  {result.visa.application_fee_note && (
+                    <div className="bg-blue-50 dark:bg-blue-900/20 border border-blue-100 dark:border-blue-800 rounded-xl p-4 mb-4">
+                      <p className="text-xs font-semibold text-blue-600 dark:text-blue-400 uppercase tracking-wider mb-1">申請料</p>
+                      <p className="text-sm text-stone-600 dark:text-stone-300 leading-relaxed">
+                        {result.visa.application_fee_note}
+                      </p>
+                    </div>
+                  )}
                   <a
                     href={`/${result.visa.country_code}`}
                     className="inline-flex items-center gap-1.5 text-sm bg-warm-50 dark:bg-warm-900/30 text-warm-700 dark:text-warm-400 hover:bg-warm-100 px-4 py-2 rounded-full transition-colors font-medium"
