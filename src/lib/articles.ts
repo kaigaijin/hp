@@ -5,10 +5,11 @@ import matter from "gray-matter";
 const contentDir = path.join(process.cwd(), "content");
 
 // 公開済みかどうか（dateが今日以前ならtrue）
+// "2026-04-08" 形式の日付文字列をローカル日付として比較（タイムゾーンに依存しない）
 function isPublished(date: string): boolean {
   const today = new Date();
-  today.setHours(23, 59, 59, 999);
-  return new Date(date) <= today;
+  const todayStr = `${today.getUTCFullYear()}-${String(today.getUTCMonth() + 1).padStart(2, "0")}-${String(today.getUTCDate()).padStart(2, "0")}`;
+  return date <= todayStr;
 }
 
 export type ArticleMeta = {
