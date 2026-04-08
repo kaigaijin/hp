@@ -107,7 +107,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const articles = getAllArticles();
   for (const article of articles) {
     entries.push({
-      url: `${BASE_URL}/${article.country}/${article.slug}`,
+      url: `${BASE_URL}/${article.country}/column/${article.slug}`,
       lastModified: new Date(article.lastModified ?? article.date),
       changeFrequency: "monthly",
       priority: 0.7,

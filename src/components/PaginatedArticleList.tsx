@@ -102,7 +102,7 @@ function PaginatedArticleListInner({
                 {article.category}
               </div>
 
-              <Link href={`/${countryCode}/${article.slug}`} className="group">
+              <Link href={`/${countryCode}/column/${article.slug}`} className="group">
                 <h3 className="heading-editorial text-base font-bold mb-2 group-hover:text-warm-700 dark:group-hover:text-warm-400 transition-colors leading-snug">
                   {article.title}
                 </h3>
@@ -129,7 +129,7 @@ function PaginatedArticleListInner({
                     </Link>
                   )}
                   <Link
-                    href={`/${countryCode}/${article.slug}`}
+                    href={`/${countryCode}/column/${article.slug}`}
                     className="flex items-center gap-1 text-xs text-warm-600 dark:text-warm-400 font-medium hover:gap-1.5 transition-all"
                   >
                     読む
