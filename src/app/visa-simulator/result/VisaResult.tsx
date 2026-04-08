@@ -202,9 +202,9 @@ export default function VisaResult() {
     <div>
       <div className="flex flex-wrap items-start justify-between gap-4 mb-8">
         <div>
-          <p className="text-xs text-stone-500 dark:text-stone-400 mb-1">診断条件</p>
-          <p className="font-semibold text-stone-700 dark:text-stone-200 text-base">
-            {inputSummary || "条件未入力"}
+          <p className="text-xs text-stone-500 dark:text-stone-400 mb-1">あなたの条件での診断結果</p>
+          <p className="text-sm text-stone-500 dark:text-stone-400">
+            条件を変更すると結果が変わります
           </p>
         </div>
         <div className="flex gap-2 flex-wrap">
