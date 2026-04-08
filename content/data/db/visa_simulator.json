@@ -304,7 +304,11 @@
       "working_holiday": false,
       "investment_required": false,
       "company_setup_required": false,
-      "notes": "IT系：年収USD 2.4万（約360万円）以上。非IT系（管理職・士業・ライター等）：年収USD 6万（約900万円）以上。マレーシア国外のクライアントからの収入が必要。12ヶ月更新可能。"
+      "notes": "IT系：年収USD 2.4万（約360万円）以上。非IT系（管理職・士業・ライター等）：年収USD 6万（約900万円）以上。マレーシア国外のクライアントからの収入が必要。12ヶ月更新可能。",
+      "industry_income_tiers": {
+        "it": 3600000,
+        "non_it": 9000000
+      }
     },
     "max_stay_years": 1,
     "renewable": true,

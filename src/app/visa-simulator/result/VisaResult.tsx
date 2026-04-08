@@ -23,6 +23,7 @@ type VisaEntry = {
     investment_required: boolean;
     company_setup_required: boolean;
     notes: string;
+    industry_income_tiers?: { it: number; non_it: number };
   };
   max_stay_years: number | null;
   renewable: boolean;
@@ -66,7 +67,8 @@ function matchVisa(
   age: number | null,
   income: number | null,
   assets: number | null,
-  employment: string
+  employment: string,
+  industry: string
 ): MatchResult {
   const reasons: string[] = [];
   let ng = false;
@@ -81,10 +83,34 @@ function matchVisa(
     if (age === null) { maybe = true; reasons.push(`${c.max_age}歳以下が必要（未入力）`); }
     else if (age > c.max_age) { ng = true; reasons.push(`${c.max_age}歳以下が必要（現在${age}歳）`); }
   }
-  if (c.min_annual_income_jpy !== null) {
+
+  // 業種別年収ティアがあるビザ（DE Rantau等）
+  if (c.industry_income_tiers) {
+    const tiers = c.industry_income_tiers;
+    if (!industry) {
+      // 業種未入力: IT系の低い要件でまずチェック、ただしmaybeに
+      if (income === null) {
+        maybe = true;
+        reasons.push(`IT系: 年収${formatMan(tiers.it)}以上 / 非IT系: 年収${formatMan(tiers.non_it)}以上が必要（業種・年収未入力）`);
+      } else if (income < tiers.it) {
+        ng = true;
+        reasons.push(`IT系でも年収${formatMan(tiers.it)}以上が必要（現在${formatMan(income)}）`);
+      } else if (income < tiers.non_it) {
+        maybe = true;
+        reasons.push(`IT系なら条件クリア（年収${formatMan(tiers.it)}以上）。非IT系は年収${formatMan(tiers.non_it)}以上が必要。業種を選択すると正確に判定できます`);
+      }
+    } else if (industry === "it") {
+      if (income === null) { maybe = true; reasons.push(`年収${formatMan(tiers.it)}以上が必要（未入力）`); }
+      else if (income < tiers.it) { ng = true; reasons.push(`IT系: 年収${formatMan(tiers.it)}以上が必要（現在${formatMan(income)}）`); }
+    } else {
+      if (income === null) { maybe = true; reasons.push(`非IT系: 年収${formatMan(tiers.non_it)}以上が必要（未入力）`); }
+      else if (income < tiers.non_it) { ng = true; reasons.push(`非IT系: 年収${formatMan(tiers.non_it)}以上が必要（現在${formatMan(income)}）`); }
+    }
+  } else if (c.min_annual_income_jpy !== null) {
     if (income === null) { maybe = true; reasons.push(`年収${formatMan(c.min_annual_income_jpy)}以上が必要（未入力）`); }
     else if (income < c.min_annual_income_jpy) { ng = true; reasons.push(`年収${formatMan(c.min_annual_income_jpy)}以上が必要（現在${formatMan(income)}）`); }
   }
+
   if (c.min_assets_jpy !== null) {
     if (assets === null) { maybe = true; reasons.push(`資産${formatMan(c.min_assets_jpy)}以上が必要（未入力）`); }
     else if (assets < c.min_assets_jpy) { ng = true; reasons.push(`資産${formatMan(c.min_assets_jpy)}以上が必要（現在${formatMan(assets)}）`); }
@@ -113,15 +139,21 @@ export default function VisaResult() {
   const incomeMan = params.get("income") ? parseInt(params.get("income")!) : null;
   const assetsMan = params.get("assets") ? parseInt(params.get("assets")!) : null;
   const employment = params.get("employment") ?? "";
+  const industry = params.get("industry") ?? "";
   const countriesParam = params.get("countries");
   const targetCountries = countriesParam ? countriesParam.split(",") : ALL_COUNTRY_CODES;
 
   const income = incomeMan !== null ? incomeMan * 10000 : null;
   const assets = assetsMan !== null ? assetsMan * 10000 : null;
 
+  const INDUSTRY_LABELS: Record<string, string> = {
+    it: "IT・テック系",
+    non_it: "非IT系",
+  };
+
   const results: MatchResult[] = visas
     .filter((v) => targetCountries.includes(v.country_code))
-    .map((v) => matchVisa(v, age, income, assets, employment))
+    .map((v) => matchVisa(v, age, income, assets, employment, industry))
     .sort((a, b) => ({ ok: 0, maybe: 1, ng: 2 }[a.status] - { ok: 0, maybe: 1, ng: 2 }[b.status]));
 
   const okCount = results.filter((r) => r.status === "ok").length;
@@ -146,6 +178,7 @@ export default function VisaResult() {
     incomeMan !== null ? `年収${incomeMan}万円` : null,
     assetsMan !== null ? `資産${assetsMan}万円` : null,
     employment ? EMPLOYMENT_LABELS[employment] : null,
+    industry ? INDUSTRY_LABELS[industry] : null,
   ].filter(Boolean).join("・");
 
   function handleShare() {

@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 
 type EmploymentType = "employee" | "freelance" | "business_owner" | "retired";
+type IndustryType = "it" | "non_it";
 
 const COUNTRY_NAMES: Record<string, { name: string; flag: string }> = {
   sg: { name: "シンガポール", flag: "🇸🇬" },
@@ -23,11 +24,17 @@ const EMPLOYMENT_LABELS: Record<string, string> = {
 
 const ALL_COUNTRY_CODES = Object.keys(COUNTRY_NAMES);
 
+const INDUSTRY_LABELS: Record<string, string> = {
+  it: "IT・テック・エンジニア・デザイナー",
+  non_it: "非IT（営業・管理・士業・クリエイター等）",
+};
+
 type FormData = {
   age: string;
   annual_income_man: string;
   assets_man: string;
   employment: EmploymentType | "";
+  industry: IndustryType | "";
   target_countries: string[];
 };
 
@@ -38,6 +45,7 @@ export default function VisaSimulator() {
     annual_income_man: "",
     assets_man: "",
     employment: "",
+    industry: "",
     target_countries: ALL_COUNTRY_CODES,
   });
 
@@ -57,6 +65,7 @@ export default function VisaSimulator() {
     if (form.annual_income_man) params.set("income", form.annual_income_man);
     if (form.assets_man) params.set("assets", form.assets_man);
     if (form.employment) params.set("employment", form.employment);
+    if (form.industry) params.set("industry", form.industry);
     if (form.target_countries.length < ALL_COUNTRY_CODES.length) {
       params.set("countries", form.target_countries.join(","));
     }
@@ -137,6 +146,24 @@ export default function VisaSimulator() {
           >
             <option value="">選択してください</option>
             {Object.entries(EMPLOYMENT_LABELS).map(([val, label]) => (
+              <option key={val} value={val}>{label}</option>
+            ))}
+          </select>
+        </div>
+
+        {/* 業種 */}
+        <div>
+          <label className="block text-sm font-semibold text-stone-700 dark:text-stone-300 mb-2">
+            業種・職種
+            <span className="ml-2 text-xs font-normal text-stone-400">（一部ビザで年収要件が変わります）</span>
+          </label>
+          <select
+            value={form.industry}
+            onChange={(e) => setForm({ ...form, industry: e.target.value as IndustryType | "" })}
+            className="w-full border border-stone-300 dark:border-stone-600 rounded-xl px-4 py-3 text-stone-800 dark:text-stone-100 bg-white dark:bg-stone-900 focus:outline-none focus:ring-2 focus:ring-warm-400 text-base"
+          >
+            <option value="">選択してください（任意）</option>
+            {Object.entries(INDUSTRY_LABELS).map(([val, label]) => (
               <option key={val} value={val}>{label}</option>
             ))}
           </select>
