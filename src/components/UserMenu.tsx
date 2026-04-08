@@ -4,8 +4,9 @@ import { useState, useRef, useEffect } from "react";
 import { LogIn, LogOut, X, Loader2, Star } from "lucide-react";
 import Link from "next/link";
 import { useAuth } from "@/components/AuthProvider";
+import { supabase } from "@/lib/supabase";
 
-type FormMode = "login" | "signup";
+type FormMode = "login" | "signup" | "reset";
 
 export default function UserMenu() {
   const { user, loading, signIn, signUp, signOut, displayName } = useAuth();
@@ -18,6 +19,7 @@ export default function UserMenu() {
   const [error, setError] = useState("");
   const [submitting, setSubmitting] = useState(false);
   const [signUpSuccess, setSignUpSuccess] = useState(false);
+  const [resetSent, setResetSent] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
   // 外側クリックで閉じる
@@ -51,6 +53,23 @@ export default function UserMenu() {
     setError("");
     setSubmitting(false);
     setSignUpSuccess(false);
+    setResetSent(false);
+  }
+
+  async function handlePasswordReset(e: React.FormEvent) {
+    e.preventDefault();
+    if (!email.trim()) return;
+    setSubmitting(true);
+    setError("");
+    const { error } = await supabase.auth.resetPasswordForEmail(email.trim(), {
+      redirectTo: `${window.location.origin}/reset-password`,
+    });
+    setSubmitting(false);
+    if (error) {
+      setError("送信に失敗しました。メールアドレスを確認してください");
+    } else {
+      setResetSent(true);
+    }
   }
 
   async function handleLogin(e: React.FormEvent) {
@@ -194,7 +213,77 @@ export default function UserMenu() {
                     新規登録
                   </button>
                 </p>
+                <p className="text-xs text-stone-400 text-center">
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setFormMode("reset");
+                      setError("");
+                    }}
+                    className="hover:underline"
+                  >
+                    パスワードを忘れた方
+                  </button>
+                </p>
               </form>
+            ) : formMode === "reset" ? (
+              resetSent ? (
+                <div className="text-sm text-stone-600 dark:text-stone-300 space-y-2">
+                  <p className="text-green-600 dark:text-green-400 font-medium">
+                    リセットメールを送信しました
+                  </p>
+                  <p className="text-xs text-stone-500 dark:text-stone-400">
+                    メール内のリンクからパスワードを再設定してください。
+                  </p>
+                  <button
+                    onClick={() => {
+                      setFormMode("login");
+                      resetForm();
+                    }}
+                    className="text-xs text-warm-600 dark:text-warm-400 hover:underline"
+                  >
+                    ログインに戻る
+                  </button>
+                </div>
+              ) : (
+                <form onSubmit={handlePasswordReset} className="space-y-2">
+                  <p className="text-xs text-stone-500 dark:text-stone-400">
+                    登録済みのメールアドレスにパスワードリセット用のリンクを送ります。
+                  </p>
+                  <input
+                    type="email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    placeholder="メールアドレス"
+                    required
+                    autoFocus
+                    className="w-full px-3 py-2 rounded-lg border border-stone-200 dark:border-stone-600 bg-stone-50 dark:bg-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-warm-500 placeholder:text-stone-400"
+                  />
+                  {error && (
+                    <p className="text-xs text-red-600 dark:text-red-400">{error}</p>
+                  )}
+                  <button
+                    type="submit"
+                    disabled={submitting || !email.trim()}
+                    className="w-full px-3 py-2 bg-warm-600 text-white text-sm font-medium rounded-lg hover:bg-warm-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors flex items-center justify-center gap-1.5"
+                  >
+                    {submitting && <Loader2 size={14} className="animate-spin" />}
+                    リセットメールを送る
+                  </button>
+                  <p className="text-xs text-stone-400 text-center pt-1">
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setFormMode("login");
+                        setError("");
+                      }}
+                      className="hover:underline"
+                    >
+                      ログインに戻る
+                    </button>
+                  </p>
+                </form>
+              )
             ) : (
               <form onSubmit={handleSignUp} className="space-y-2">
                 <input
