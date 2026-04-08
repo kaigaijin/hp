@@ -45,16 +45,16 @@ export default function Home() {
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <a
-                    href="#countries"
+                    href="/visa-simulator"
                     className="inline-flex items-center gap-2 bg-warm-500 hover:bg-warm-600 text-white px-6 py-3 rounded-full font-semibold text-sm transition-colors"
                   >
-                    国別ガイドを見る
+                    住める国を診断する →
                   </a>
                   <a
-                    href="/sg/place"
+                    href="#countries"
                     className="inline-flex items-center gap-2 border border-stone-600 hover:border-stone-400 text-stone-300 hover:text-white px-6 py-3 rounded-full font-semibold text-sm transition-colors"
                   >
-                    スポットを探す
+                    国別ガイドを見る
                   </a>
                 </div>
               </div>
@@ -165,6 +165,50 @@ export default function Home() {
                   </p>
                 </div>
               ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ===== ビザシミュレーター ===== */}
+        <section className="py-20 md:py-28 bg-gradient-to-br from-[#0e2a1a] to-stone-950 text-white">
+          <div className="max-w-6xl mx-auto px-4">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <p className="section-label mb-5 text-teal-400">— Visa Simulator</p>
+                <h2 className="heading-editorial text-4xl md:text-5xl font-bold mb-6">
+                  あなたが住める国を、
+                  <br />
+                  <span style={{ color: "#e8a46e" }}>診断する。</span>
+                </h2>
+                <p className="text-stone-400 leading-relaxed mb-8 max-w-md">
+                  年齢・年収・資産・職業を入力するだけで、長期滞在・移住に使えるビザを一覧表示。「ワーホリしかない」「投資するしかない」「会社設立すればOK」まで逆引きで教えます。
+                </p>
+                <a
+                  href="/visa-simulator"
+                  className="inline-flex items-center gap-2 bg-warm-500 hover:bg-warm-600 text-white px-8 py-4 rounded-full font-bold text-base transition-colors"
+                >
+                  今すぐ診断する →
+                </a>
+              </div>
+              <div className="grid grid-cols-2 gap-3">
+                {[
+                  { country: "🇸🇬 シンガポール", visa: "EP・EntrePass・ONE Pass" },
+                  { country: "🇹🇭 タイ", visa: "LTRビザ・プリビレッジカード・退職者ビザ" },
+                  { country: "🇲🇾 マレーシア", visa: "MM2H・DE Rantau" },
+                  { country: "🇦🇪 UAE", visa: "ゴールデンビザ・グリーンビザ" },
+                  { country: "🇦🇺 オーストラリア", visa: "ワーキングホリデー" },
+                  { country: "🇰🇷 韓国", visa: "ワーキングホリデー" },
+                ].map(({ country, visa }) => (
+                  <a
+                    key={country}
+                    href="/visa-simulator"
+                    className="bg-white/5 hover:bg-white/10 border border-white/10 hover:border-warm-400/40 rounded-xl p-4 transition-all"
+                  >
+                    <p className="font-semibold text-stone-200 text-sm mb-1">{country}</p>
+                    <p className="text-xs text-stone-500">{visa}</p>
+                  </a>
+                ))}
+              </div>
             </div>
           </div>
         </section>

@@ -30,6 +30,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.3,
   });
 
+  entries.push({
+    url: `${BASE_URL}/visa-simulator`,
+    changeFrequency: "monthly",
+    priority: 0.8,
+  });
+
   // 国ページ
   for (const country of countries) {
     entries.push({
