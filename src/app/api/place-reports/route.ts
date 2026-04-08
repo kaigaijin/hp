@@ -45,7 +45,7 @@ export async function GET(req: NextRequest) {
   }
 
   const res = await fetch(
-    `${SUPABASE_URL}/rest/v1/spot_reports?country=eq.${encodeURIComponent(country)}&category=eq.${encodeURIComponent(category)}&spot_slug=eq.${encodeURIComponent(slug)}&report_type=eq.visited&select=id,visitor_id,comment,created_at&order=created_at.desc`,
+    `${SUPABASE_URL}/rest/v1/place_reports?country=eq.${encodeURIComponent(country)}&category=eq.${encodeURIComponent(category)}&spot_slug=eq.${encodeURIComponent(slug)}&report_type=eq.visited&select=id,visitor_id,comment,created_at&order=created_at.desc`,
     {
       headers: {
         apikey: SUPABASE_KEY,
@@ -103,7 +103,7 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    const res = await fetch(`${SUPABASE_URL}/rest/v1/spot_reports`, {
+    const res = await fetch(`${SUPABASE_URL}/rest/v1/place_reports`, {
       method: "POST",
       headers: {
         apikey: SUPABASE_KEY,

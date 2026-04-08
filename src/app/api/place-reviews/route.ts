@@ -34,7 +34,7 @@ function sendReviewNotification(
       from: "Kaigaijin <noreply@kaigaijin.jp>",
       to: [to],
       subject: `[レビュー] ${country}/${category}/${spotSlug} — ${stars}`,
-      text: `新しいレビューが投稿されました。\n\n投稿者: ${reviewerName}\n評価: ${stars}（${rating}/5）\nコメント: ${comment ?? "なし"}\n\nURL: https://kaigaijin.jp/${country}/place/${category}/${spotSlug}\n\n※ Supabase spot_reviews テーブルにも保存済みです。`,
+      text: `新しいレビューが投稿されました。\n\n投稿者: ${reviewerName}\n評価: ${stars}（${rating}/5）\nコメント: ${comment ?? "なし"}\n\nURL: https://kaigaijin.jp/${country}/place/${category}/${spotSlug}\n\n※ Supabase place_reviews テーブルにも保存済みです。`,
     })
     .catch(() => {});
 }
@@ -66,7 +66,7 @@ export async function GET(req: NextRequest) {
 
   // このスポットのレビューを取得
   const spotRes = await fetch(
-    `${SUPABASE_URL}/rest/v1/spot_reviews?spot_country=eq.${encodeURIComponent(country)}&spot_category=eq.${encodeURIComponent(category)}&spot_slug=eq.${encodeURIComponent(slug)}&select=id,spot_country,spot_category,spot_slug,reviewer_id,reviewer_name,rating,comment,created_at&order=created_at.desc`,
+    `${SUPABASE_URL}/rest/v1/place_reviews?spot_country=eq.${encodeURIComponent(country)}&spot_category=eq.${encodeURIComponent(category)}&spot_slug=eq.${encodeURIComponent(slug)}&select=id,spot_country,spot_category,spot_slug,reviewer_id,reviewer_name,rating,comment,created_at&order=created_at.desc`,
     {
       headers: {
         apikey: SUPABASE_KEY,
@@ -96,7 +96,7 @@ export async function GET(req: NextRequest) {
     .join(",");
 
   const allRes = await fetch(
-    `${SUPABASE_URL}/rest/v1/spot_reviews?reviewer_id=in.(${reviewerFilter})&select=id,spot_country,spot_category,spot_slug,reviewer_id,rating,comment,created_at`,
+    `${SUPABASE_URL}/rest/v1/place_reviews?reviewer_id=in.(${reviewerFilter})&select=id,spot_country,spot_category,spot_slug,reviewer_id,rating,comment,created_at`,
     {
       headers: {
         apikey: SUPABASE_KEY,
@@ -186,7 +186,7 @@ export async function POST(req: NextRequest) {
 
     // 同一reviewer_idで同一スポットへの重複投稿チェック
     const dupRes = await fetch(
-      `${SUPABASE_URL}/rest/v1/spot_reviews?reviewer_id=eq.${encodeURIComponent(reviewer_id)}&spot_country=eq.${encodeURIComponent(country)}&spot_category=eq.${encodeURIComponent(category)}&spot_slug=eq.${encodeURIComponent(spot_slug)}&select=id&limit=1`,
+      `${SUPABASE_URL}/rest/v1/place_reviews?reviewer_id=eq.${encodeURIComponent(reviewer_id)}&spot_country=eq.${encodeURIComponent(country)}&spot_category=eq.${encodeURIComponent(category)}&spot_slug=eq.${encodeURIComponent(spot_slug)}&select=id&limit=1`,
       {
         headers: {
           apikey: SUPABASE_KEY,
@@ -204,7 +204,7 @@ export async function POST(req: NextRequest) {
       }
     }
 
-    const res = await fetch(`${SUPABASE_URL}/rest/v1/spot_reviews`, {
+    const res = await fetch(`${SUPABASE_URL}/rest/v1/place_reviews`, {
       method: "POST",
       headers: {
         apikey: SUPABASE_KEY,
