@@ -101,6 +101,12 @@ export default async function ArticlePage({
       {
         "@type": "ListItem",
         position: 3,
+        name: "コラム",
+        item: `${baseUrl}/${code}/column`,
+      },
+      {
+        "@type": "ListItem",
+        position: 4,
         name: article.meta.title,
         item: `${baseUrl}/${code}/column/${slug}`,
       },
@@ -131,6 +137,13 @@ export default async function ArticlePage({
               className="hover:text-warm-600 dark:hover:text-warm-400 transition-colors"
             >
               {countryDisplay.flag} {countryDisplay.name}
+            </Link>
+            <span>/</span>
+            <Link
+              href={`/${code}/column`}
+              className="hover:text-warm-600 dark:hover:text-warm-400 transition-colors"
+            >
+              コラム
             </Link>
             <span>/</span>
             <span className="text-stone-600 dark:text-stone-300">{article.meta.title}</span>
