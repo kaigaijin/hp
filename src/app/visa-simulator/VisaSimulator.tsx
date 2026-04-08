@@ -60,16 +60,17 @@ export default function VisaSimulator() {
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    const params = new URLSearchParams();
-    if (form.age) params.set("age", form.age);
-    if (form.annual_income_man) params.set("income", form.annual_income_man);
-    if (form.assets_man) params.set("assets", form.assets_man);
-    if (form.employment) params.set("employment", form.employment);
-    if (form.industry) params.set("industry", form.industry);
+    const payload: Record<string, unknown> = {};
+    if (form.age) payload.a = parseInt(form.age);
+    if (form.annual_income_man) payload.i = parseInt(form.annual_income_man);
+    if (form.assets_man) payload.as = parseInt(form.assets_man);
+    if (form.employment) payload.e = form.employment;
+    if (form.industry) payload.in = form.industry;
     if (form.target_countries.length < ALL_COUNTRY_CODES.length) {
-      params.set("countries", form.target_countries.join(","));
+      payload.c = form.target_countries.join(",");
     }
-    router.push(`/visa-simulator/result?${params.toString()}`);
+    const s = btoa(JSON.stringify(payload));
+    router.push(`/visa-simulator/result?s=${s}`);
   }
 
   return (

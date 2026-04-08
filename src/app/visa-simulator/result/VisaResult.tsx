@@ -135,13 +135,16 @@ export default function VisaResult() {
   const [expandedId, setExpandedId] = useState<string | null>(null);
   const [copied, setCopied] = useState(false);
 
-  const age = params.get("age") ? parseInt(params.get("age")!) : null;
-  const incomeMan = params.get("income") ? parseInt(params.get("income")!) : null;
-  const assetsMan = params.get("assets") ? parseInt(params.get("assets")!) : null;
-  const employment = params.get("employment") ?? "";
-  const industry = params.get("industry") ?? "";
-  const countriesParam = params.get("countries");
-  const targetCountries = countriesParam ? countriesParam.split(",") : ALL_COUNTRY_CODES;
+  const s = params.get("s") ?? "";
+  let decoded: Record<string, unknown> = {};
+  try { decoded = s ? JSON.parse(atob(s)) : {}; } catch { decoded = {}; }
+
+  const age = typeof decoded.a === "number" ? decoded.a : null;
+  const incomeMan = typeof decoded.i === "number" ? decoded.i : null;
+  const assetsMan = typeof decoded.as === "number" ? decoded.as : null;
+  const employment = typeof decoded.e === "string" ? decoded.e : "";
+  const industry = typeof decoded.in === "string" ? decoded.in : "";
+  const targetCountries = typeof decoded.c === "string" ? decoded.c.split(",") : ALL_COUNTRY_CODES;
 
   const income = incomeMan !== null ? incomeMan * 10000 : null;
   const assets = assetsMan !== null ? assetsMan * 10000 : null;
