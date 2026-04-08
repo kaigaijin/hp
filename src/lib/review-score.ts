@@ -30,6 +30,7 @@ export type Review = {
   spot_category: string;
   spot_slug: string;
   reviewer_id: string;
+  is_anonymous: boolean; // 匿名投稿かどうか
   rating: number; // 1〜5
   comment: string | null;
   created_at: string; // ISO 8601
@@ -170,8 +171,12 @@ export function calcSpotScore(
   let totalWeight = 0;
 
   for (const review of reviews) {
-    const stats = reviewerStatsMap.get(review.reviewer_id);
-    const trust = stats ? calcReviewerTrust(stats) : 0.1;
+    // 匿名レビューは trust を最低値固定（ログイン促進のため）
+    const trust = review.is_anonymous
+      ? 0.1
+      : (reviewerStatsMap.get(review.reviewer_id)
+          ? calcReviewerTrust(reviewerStatsMap.get(review.reviewer_id)!)
+          : 0.1);
     weightedSum += review.rating * trust;
     totalWeight += trust;
   }
@@ -198,9 +203,13 @@ export function calcSpotScore(
 /**
  * クライアント側でレビュー投稿後にローカルで即座にスコアを計算する
  * サーバー側の完全なアルゴリズムの簡易版（レビュアー信頼度なし）
+ *
+ * @param reviews - { rating, is_anonymous } の配列
  */
-export function calcLocalScore(ratings: number[]): SpotScore {
-  const count = ratings.length;
+export function calcLocalScore(
+  reviews: Array<{ rating: number; is_anonymous: boolean }>
+): SpotScore {
+  const count = reviews.length;
   if (count === 0) {
     return {
       raw_average: 0,
@@ -210,11 +219,17 @@ export function calcLocalScore(ratings: number[]): SpotScore {
     };
   }
 
+  const ratings = reviews.map((r) => r.rating);
   const rawAvg = ratings.reduce((sum, r) => sum + r, 0) / count;
 
-  // 全員trust=0.1（新規）として簡易計算
-  const totalWeight = count * 0.1;
-  const weightedSum = ratings.reduce((sum, r) => sum + r * 0.1, 0);
+  // 匿名: trust=0.1、ログイン済み新規: trust=0.1（同値だが将来の拡張に備えて分岐）
+  let totalWeight = 0;
+  let weightedSum = 0;
+  for (const review of reviews) {
+    const trust = review.is_anonymous ? 0.1 : 0.1; // ログイン済みはサーバー側で正確に計算
+    totalWeight += trust;
+    weightedSum += review.rating * trust;
+  }
   const bayesianScore =
     (BAYESIAN_CONFIDENCE * BASELINE + weightedSum) /
     (BAYESIAN_CONFIDENCE + totalWeight);

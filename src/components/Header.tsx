@@ -117,15 +117,15 @@ export default function Header() {
         </nav>
 
         {/* モバイル */}
-        <div className="flex items-center gap-2 md:hidden">
+        <div className="flex items-center gap-1 md:hidden">
           <UserMenu />
           <ThemeToggle />
           <button
             onClick={() => setOpen(!open)}
-            className="p-2 text-stone-600 dark:text-stone-400"
+            className="p-1.5 text-stone-600 dark:text-stone-400"
             aria-label="メニュー"
           >
-            {open ? <X size={24} /> : <Menu size={24} />}
+            {open ? <X size={22} /> : <Menu size={22} />}
           </button>
         </div>
       </div>

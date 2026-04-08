@@ -9,10 +9,42 @@ import {
   ChevronDown,
   ChevronUp,
   MessageSquare,
+  TrendingUp,
 } from "lucide-react";
 import SpotScoreDisplay, { StarRating } from "@/components/SpotScore";
 import { useAuth } from "@/components/AuthProvider";
 import type { SpotScore } from "@/lib/review-score";
+
+// レビュー数からバッジを返す
+function ReviewerBadge({ count, isAnonymous }: { count?: number; isAnonymous: boolean }) {
+  if (isAnonymous) {
+    return (
+      <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-stone-100 dark:bg-stone-700 text-stone-400 dark:text-stone-500">
+        匿名
+      </span>
+    );
+  }
+  if (!count || count < 5) return null;
+  if (count >= 30) {
+    return (
+      <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 font-medium">
+        ★ベテラン
+      </span>
+    );
+  }
+  if (count >= 10) {
+    return (
+      <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-sky-100 dark:bg-sky-900/30 text-sky-700 dark:text-sky-400 font-medium">
+        ★常連
+      </span>
+    );
+  }
+  return (
+    <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 font-medium">
+      ★レビュアー
+    </span>
+  );
+}
 
 // reviewer_id をブラウザごとに生成・永続化（未ログインユーザー用）
 function getLocalReviewerId(): string {
@@ -30,6 +62,8 @@ type ReviewDisplay = {
   id: string;
   reviewer_id?: string;
   reviewer_name: string;
+  is_anonymous: boolean;
+  reviewer_total_reviews?: number; // このレビュアーの総投稿数（サーバー側で集計）
   rating: number;
   comment: string | null;
   created_at: string;
@@ -114,6 +148,7 @@ export default function SpotReviewForm({
           spot_slug: spotSlug,
           reviewer_id: user ? user.id : getLocalReviewerId(),
           reviewer_name: reviewerName,
+          is_anonymous: !user, // ログイン済みなら false
           rating,
           comment: comment.trim() || null,
         }),
@@ -188,6 +223,26 @@ export default function SpotReviewForm({
       {/* レビュー投稿フォーム */}
       {showForm && (
         <div className="px-5 pb-4 border-t border-stone-100 dark:border-stone-700 pt-4">
+          {/* 未ログイン時: 係数バナー */}
+          {!user && (
+            <div className="mb-3 flex items-start gap-2 px-3 py-2.5 bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 rounded-lg">
+              <TrendingUp size={14} className="text-amber-600 dark:text-amber-400 mt-0.5 shrink-0" />
+              <p className="text-xs text-amber-700 dark:text-amber-300 leading-relaxed">
+                ログインして投稿するとスコアへの影響度が最大<strong>10倍</strong>になります。
+                <button
+                  type="button"
+                  onClick={() => {
+                    setShowForm(false);
+                    // UserMenuのログインフォームを開く — カスタムイベントで連携
+                    window.dispatchEvent(new CustomEvent("kaigaijin:open-login"));
+                  }}
+                  className="ml-1 underline font-medium hover:text-amber-900 dark:hover:text-amber-200"
+                >
+                  ログイン
+                </button>
+              </p>
+            </div>
+          )}
           <form onSubmit={handleSubmit} className="space-y-3">
             {/* 星評価 */}
             <div>
@@ -299,10 +354,14 @@ export default function SpotReviewForm({
           <div className="space-y-3">
             {visibleReviews.map((review) => (
               <div key={review.id} className="pb-3 border-b border-stone-50 dark:border-stone-700/50 last:border-b-0 last:pb-0">
-                <div className="flex items-center gap-2 mb-1">
+                <div className="flex items-center gap-2 mb-1 flex-wrap">
                   <span className="text-xs font-medium text-stone-600 dark:text-stone-300">
                     {review.reviewer_name}
                   </span>
+                  <ReviewerBadge
+                    count={review.reviewer_total_reviews}
+                    isAnonymous={review.is_anonymous}
+                  />
                   <StarRating score={review.rating} size={10} />
                   <span className="text-xs text-stone-400">
                     {new Date(review.created_at).toLocaleDateString("ja-JP", {

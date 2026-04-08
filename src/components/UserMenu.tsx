@@ -1,7 +1,8 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import { LogIn, LogOut, X, Loader2 } from "lucide-react";
+import { LogIn, LogOut, X, Loader2, Star } from "lucide-react";
+import Link from "next/link";
 import { useAuth } from "@/components/AuthProvider";
 
 type FormMode = "login" | "signup";
@@ -30,6 +31,17 @@ export default function UserMenu() {
     }
     document.addEventListener("mousedown", handleClick);
     return () => document.removeEventListener("mousedown", handleClick);
+  }, []);
+
+  // レビューフォームからのログイン要求を受け取る
+  useEffect(() => {
+    function handleOpenLogin() {
+      setShowForm(true);
+      setFormMode("login");
+      resetForm();
+    }
+    window.addEventListener("kaigaijin:open-login", handleOpenLogin);
+    return () => window.removeEventListener("kaigaijin:open-login", handleOpenLogin);
   }, []);
 
   function resetForm() {
@@ -96,7 +108,7 @@ export default function UserMenu() {
             setFormMode("login");
             resetForm();
           }}
-          className="inline-flex items-center gap-1.5 text-sm text-stone-500 dark:text-stone-400 hover:text-warm-600 dark:hover:text-warm-400 transition-colors"
+          className="inline-flex items-center gap-1 text-sm text-stone-500 dark:text-stone-400 hover:text-warm-600 dark:hover:text-warm-400 transition-colors p-1.5"
           title="ログイン"
         >
           <LogIn size={16} />
@@ -268,6 +280,14 @@ export default function UserMenu() {
               {displayName}
             </p>
           </div>
+          <Link
+            href="/my-reviews"
+            onClick={() => setOpen(false)}
+            className="w-full flex items-center gap-2 px-4 py-2 text-sm text-stone-600 dark:text-stone-400 hover:bg-stone-50 dark:hover:bg-stone-700 transition-colors"
+          >
+            <Star size={14} />
+            マイレビュー
+          </Link>
           <button
             onClick={() => {
               signOut();

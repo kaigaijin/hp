@@ -46,6 +46,7 @@ type ReviewRow = {
   spot_slug: string;
   reviewer_id: string;
   reviewer_name: string;
+  is_anonymous: boolean;
   rating: number;
   comment: string | null;
   created_at: string;
@@ -66,7 +67,7 @@ export async function GET(req: NextRequest) {
 
   // このスポットのレビューを取得
   const spotRes = await fetch(
-    `${SUPABASE_URL}/rest/v1/place_reviews?spot_country=eq.${encodeURIComponent(country)}&spot_category=eq.${encodeURIComponent(category)}&spot_slug=eq.${encodeURIComponent(slug)}&select=id,spot_country,spot_category,spot_slug,reviewer_id,reviewer_name,rating,comment,created_at&order=created_at.desc`,
+    `${SUPABASE_URL}/rest/v1/place_reviews?spot_country=eq.${encodeURIComponent(country)}&spot_category=eq.${encodeURIComponent(category)}&spot_slug=eq.${encodeURIComponent(slug)}&select=id,spot_country,spot_category,spot_slug,reviewer_id,reviewer_name,is_anonymous,rating,comment,created_at&order=created_at.desc`,
     {
       headers: {
         apikey: SUPABASE_KEY,
@@ -120,6 +121,7 @@ export async function GET(req: NextRequest) {
     spot_category: r.spot_category,
     spot_slug: r.spot_slug,
     reviewer_id: r.reviewer_id,
+    is_anonymous: r.is_anonymous ?? true,
     rating: r.rating,
     comment: r.comment,
     created_at: r.created_at,
@@ -129,14 +131,19 @@ export async function GET(req: NextRequest) {
 
   return NextResponse.json({
     score,
-    reviews: spotReviews.map((r) => ({
-      id: r.id,
-      reviewer_id: r.reviewer_id,
-      reviewer_name: r.reviewer_name,
-      rating: r.rating,
-      comment: r.comment,
-      created_at: r.created_at,
-    })),
+    reviews: spotReviews.map((r) => {
+      const stats = reviewerStatsMap.get(r.reviewer_id);
+      return {
+        id: r.id,
+        reviewer_id: r.reviewer_id,
+        reviewer_name: r.reviewer_name,
+        is_anonymous: r.is_anonymous ?? true,
+        reviewer_total_reviews: stats?.total_reviews ?? 1,
+        rating: r.rating,
+        comment: r.comment,
+        created_at: r.created_at,
+      };
+    }),
   });
 }
 
@@ -150,6 +157,7 @@ export async function POST(req: NextRequest) {
       spot_slug,
       reviewer_id,
       reviewer_name,
+      is_anonymous,
       rating,
       comment,
     } = body;
@@ -218,6 +226,7 @@ export async function POST(req: NextRequest) {
         spot_slug,
         reviewer_id,
         reviewer_name: reviewer_name.trim(),
+        is_anonymous: is_anonymous !== false, // 明示的に false でない限り匿名扱い
         rating: ratingNum,
         comment: comment?.trim() || null,
       }),
