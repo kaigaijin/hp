@@ -70,8 +70,8 @@ export default function Header() {
                                 {c.population}
                               </span>
                             </Link>
-                            {/* phase=1のみスポット・求人クイックリンク */}
-                            {phase === 1 && (
+                            {/* 全フェーズでスポット・求人クイックリンク */}
+                            {(
                               <div className="flex items-center gap-1 ml-2 shrink-0">
                                 <Link
                                   href={`/${c.code}/place`}
@@ -151,7 +151,7 @@ export default function Header() {
                         <span className="text-base">{c.flag}</span>
                         <span className="flex-1">{c.name}</span>
                       </Link>
-                      {phase === 1 && (
+                      {(
                         <div className="flex gap-2 pb-2 px-1 ml-7">
                           <Link
                             href={`/${c.code}/place`}
