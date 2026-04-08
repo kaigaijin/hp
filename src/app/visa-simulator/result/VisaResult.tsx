@@ -1,7 +1,7 @@
 "use client";
 
 import { useSearchParams } from "next/navigation";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { CheckCircle, XCircle, AlertCircle, ChevronDown, ChevronUp, Share2, ArrowLeft } from "lucide-react";
 import visaData from "@/../content/data/db/visa_simulator.json";
 import { supabase } from "@/lib/supabase";
@@ -134,6 +134,7 @@ export default function VisaResult() {
   const params = useSearchParams();
   const [expandedId, setExpandedId] = useState<string | null>(null);
   const [copied, setCopied] = useState(false);
+  const logged = useRef(false);
 
   const s = params.get("s") ?? "";
   let decoded: Record<string, unknown> = {};
@@ -164,17 +165,22 @@ export default function VisaResult() {
 
   // ページ表示時にログ保存（1回のみ）
   useEffect(() => {
+    if (logged.current) return;
+    logged.current = true;
     supabase.from("visa_simulator_logs").insert({
       age,
       annual_income_man: incomeMan,
       assets_man: assetsMan,
       employment: employment || null,
+      industry: industry || null,
       target_countries: targetCountries,
       ok_count: okCount,
       maybe_count: maybeCount,
+    }).then(({ error }) => {
+      if (error) console.error("visa_simulator_logs insert error:", error);
     });
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [s]);
 
   const inputSummary = [
     age !== null ? `${age}歳` : null,
