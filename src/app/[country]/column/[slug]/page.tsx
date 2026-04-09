@@ -10,7 +10,16 @@ import Comments from "@/components/Comments";
 import { BarChartMDX, LineChartMDX, PieChartMDX } from "@/components/charts";
 import remarkGfm from "remark-gfm";
 
-const mdxComponents = { BarChart: BarChartMDX, LineChart: LineChartMDX, PieChart: PieChartMDX };
+const mdxComponents = {
+  BarChart: BarChartMDX,
+  LineChart: LineChartMDX,
+  PieChart: PieChartMDX,
+  table: (props: React.ComponentProps<"table">) => (
+    <div style={{ overflowX: "auto", WebkitOverflowScrolling: "touch" as const }}>
+      <table {...props} />
+    </div>
+  ),
+};
 
 export function generateStaticParams() {
   // countries リストに依存せず content/ ディレクトリを直接走査
