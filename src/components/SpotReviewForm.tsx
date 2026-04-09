@@ -13,7 +13,6 @@ import {
 } from "lucide-react";
 import SpotScoreDisplay, { StarRating } from "@/components/SpotScore";
 import { useAuth } from "@/components/AuthProvider";
-import { supabase } from "@/lib/supabase";
 import type { SpotScore } from "@/lib/review-score";
 
 // レビュー数からバッジを返す
@@ -96,12 +95,6 @@ export default function SpotReviewForm({
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState("");
 
-  // インラインログインフォーム
-  const [showInlineLogin, setShowInlineLogin] = useState(false);
-  const [loginEmail, setLoginEmail] = useState("");
-  const [loginPassword, setLoginPassword] = useState("");
-  const [loginError, setLoginError] = useState("");
-  const [loginSubmitting, setLoginSubmitting] = useState(false);
 
   const fetchData = useCallback(async () => {
     try {
@@ -136,25 +129,6 @@ export default function SpotReviewForm({
 
   // 表示名（ログイン中: ニックネーム、未ログイン: 匿名）
   const reviewerName = user ? (displayName ?? "匿名") : "匿名";
-
-  async function handleInlineLogin(e: React.FormEvent) {
-    e.preventDefault();
-    setLoginSubmitting(true);
-    setLoginError("");
-    const { error } = await supabase.auth.signInWithPassword({
-      email: loginEmail.trim(),
-      password: loginPassword,
-    });
-    setLoginSubmitting(false);
-    if (error) {
-      setLoginError("メールアドレスまたはパスワードが正しくありません");
-    } else {
-      // ログイン成功 → インラインフォームを閉じる（userが更新されUIが追従）
-      setShowInlineLogin(false);
-      setLoginEmail("");
-      setLoginPassword("");
-    }
-  }
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -250,73 +224,20 @@ export default function SpotReviewForm({
       {/* レビュー投稿フォーム */}
       {showForm && (
         <div className="px-5 pb-4 border-t border-stone-100 dark:border-stone-700 pt-4">
-          {/* 未ログイン時: 係数バナー + インラインログイン */}
+          {/* 未ログイン時: 係数バナー */}
           {!user && (
-            <div className="mb-3">
-              <div className="flex items-start gap-2 px-3 py-2.5 bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 rounded-lg">
-                <TrendingUp size={14} className="text-amber-600 dark:text-amber-400 mt-0.5 shrink-0" />
-                <p className="text-xs text-amber-700 dark:text-amber-300 leading-relaxed">
-                  ログインして投稿するとスコアへの影響度が最大<strong>10倍</strong>になります。
-                  {!showInlineLogin && (
-                    <button
-                      type="button"
-                      onClick={() => setShowInlineLogin(true)}
-                      className="ml-1 underline font-medium hover:text-amber-900 dark:hover:text-amber-200"
-                    >
-                      ログイン
-                    </button>
-                  )}
-                </p>
-              </div>
-
-              {/* インラインログインフォーム */}
-              {showInlineLogin && (
-                <form
-                  onSubmit={handleInlineLogin}
-                  className="mt-2 p-3 bg-stone-50 dark:bg-stone-900 border border-stone-200 dark:border-stone-700 rounded-lg space-y-2"
+            <div className="mb-3 flex items-start gap-2 px-3 py-2.5 bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 rounded-lg">
+              <TrendingUp size={14} className="text-amber-600 dark:text-amber-400 mt-0.5 shrink-0" />
+              <p className="text-xs text-amber-700 dark:text-amber-300 leading-relaxed">
+                ログインして投稿するとスコアへの影響度が最大<strong>10倍</strong>になります。
+                <button
+                  type="button"
+                  onClick={() => window.dispatchEvent(new CustomEvent("kaigaijin:open-login"))}
+                  className="ml-1 underline font-medium hover:text-amber-900 dark:hover:text-amber-200"
                 >
-                  <input
-                    type="email"
-                    value={loginEmail}
-                    onChange={(e) => setLoginEmail(e.target.value)}
-                    placeholder="メールアドレス"
-                    required
-                    autoFocus
-                    className="w-full px-3 py-2 rounded-lg border border-stone-200 dark:border-stone-600 bg-white dark:bg-stone-800 text-sm focus:outline-none focus:ring-2 focus:ring-amber-500 placeholder:text-stone-400"
-                  />
-                  <input
-                    type="password"
-                    value={loginPassword}
-                    onChange={(e) => setLoginPassword(e.target.value)}
-                    placeholder="パスワード"
-                    required
-                    className="w-full px-3 py-2 rounded-lg border border-stone-200 dark:border-stone-600 bg-white dark:bg-stone-800 text-sm focus:outline-none focus:ring-2 focus:ring-amber-500 placeholder:text-stone-400"
-                  />
-                  {loginError && (
-                    <p className="text-xs text-red-600 dark:text-red-400">{loginError}</p>
-                  )}
-                  <div className="flex items-center gap-2">
-                    <button
-                      type="submit"
-                      disabled={loginSubmitting || !loginEmail.trim() || !loginPassword}
-                      className="flex-1 px-3 py-1.5 bg-amber-500 text-white text-xs font-medium rounded-lg hover:bg-amber-600 disabled:opacity-50 disabled:cursor-not-allowed transition-colors flex items-center justify-center gap-1"
-                    >
-                      {loginSubmitting && <Loader2 size={12} className="animate-spin" />}
-                      ログインして続ける
-                    </button>
-                    <button
-                      type="button"
-                      onClick={() => {
-                        setShowInlineLogin(false);
-                        setLoginError("");
-                      }}
-                      className="text-xs text-stone-400 hover:text-stone-600 dark:hover:text-stone-300"
-                    >
-                      やめる
-                    </button>
-                  </div>
-                </form>
-              )}
+                  ログイン
+                </button>
+              </p>
             </div>
           )}
           <form onSubmit={handleSubmit} className="space-y-3">
