@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 import { ExternalLink, Phone } from "lucide-react";
 import { trackPlaceView, trackPlaceExternalClick } from "@/lib/analytics";
+import PlaceFavoriteButton from "@/components/PlaceFavoriteButton";
 
 type Props = {
   country: string;
@@ -87,6 +88,7 @@ export default function PlaceActionBar({
           </div>
         )}
         <div className="flex-1" />
+        <PlaceFavoriteButton country={country} category={category} slug={slug} />
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import { LogIn, LogOut, X, Loader2, Star } from "lucide-react";
+import { LogIn, LogOut, X, Loader2, Star, Heart } from "lucide-react";
 import Link from "next/link";
 import { useAuth } from "@/components/AuthProvider";
 import { supabase } from "@/lib/supabase";
@@ -369,6 +369,14 @@ export default function UserMenu() {
               {displayName}
             </p>
           </div>
+          <Link
+            href="/my-favorites"
+            onClick={() => setOpen(false)}
+            className="w-full flex items-center gap-2 px-4 py-2 text-sm text-stone-600 dark:text-stone-400 hover:bg-stone-50 dark:hover:bg-stone-700 transition-colors"
+          >
+            <Heart size={14} />
+            お気に入り
+          </Link>
           <Link
             href="/my-reviews"
             onClick={() => setOpen(false)}
