@@ -44,21 +44,21 @@ export default function CountryTabs({ countryCode, articleCount, spotCount }: Pr
   return (
     <div className="bg-stone-900/80 border-b border-white/10">
       <div className="max-w-6xl mx-auto px-4">
-        <div className="flex">
+        <div className="flex w-full">
           {tabs.map((tab) => (
             <Link
               key={tab.href}
               href={tab.href}
-              className={`flex items-center gap-2 px-5 py-3.5 text-sm font-medium border-b-2 transition-colors whitespace-nowrap ${
+              className={`flex-1 flex items-center justify-center gap-1.5 px-2 py-3.5 text-sm font-medium border-b-2 transition-colors min-w-0 ${
                 tab.active
                   ? "border-warm-500 text-white"
                   : "border-transparent text-stone-400 hover:text-stone-200 hover:border-stone-600"
               }`}
             >
-              <span className={tab.active ? "text-warm-400" : ""}>{tab.icon}</span>
-              {tab.label}
+              <span className={`shrink-0 ${tab.active ? "text-warm-400" : ""}`}>{tab.icon}</span>
+              <span className="truncate">{tab.label}</span>
               {tab.count !== null && (
-                <span className={`text-xs tabular-nums ${tab.active ? "text-warm-400" : "text-stone-500"}`}>
+                <span className={`text-xs tabular-nums shrink-0 ${tab.active ? "text-warm-400" : "text-stone-500"}`}>
                   {tab.count}
                 </span>
               )}
