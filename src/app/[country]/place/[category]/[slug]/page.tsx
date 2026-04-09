@@ -14,6 +14,7 @@ import SpotReportForm from "@/components/SpotReportForm";
 import SpotReviewForm from "@/components/SpotReviewForm";
 import RandomSpots from "@/components/RandomSpots";
 import SpotDetailTabs from "@/components/SpotDetailTabs";
+import PlaceActionBar from "@/components/PlaceActionBar";
 import {
   MapPin,
   Phone,
@@ -341,45 +342,19 @@ export default async function SpotDetailPage({
           </div>
         )}
 
-        {/* アクションバー */}
-        <div className="bg-white dark:bg-stone-900 border-b border-stone-100 dark:border-stone-800 sticky top-16 z-40">
-          <div className="max-w-5xl mx-auto px-4 py-3 flex items-center gap-3">
-            {spot.website && (
-              <a
-                href={spot.website}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={`inline-flex items-center gap-2 ${theme.ctaBg} ${theme.ctaHover} text-white rounded-full px-5 py-2 text-sm font-semibold transition-colors`}
-              >
-                <ExternalLink size={14} />
-                公式サイト
-              </a>
-            )}
-            {spot.phone && (
-              <a
-                href={`tel:${spot.phone}`}
-                className="inline-flex items-center gap-2 bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-200 rounded-full px-5 py-2 text-sm font-medium hover:bg-stone-200 dark:hover:bg-stone-700 transition-colors"
-              >
-                <Phone size={14} />
-                電話する
-              </a>
-            )}
-            {/* タグ（ボタンの直後・左寄り） */}
-            {spot.tags.length > 0 && (
-              <div className="hidden md:flex items-center gap-1.5">
-                {spot.tags.slice(0, 4).map((tag) => (
-                  <span
-                    key={tag}
-                    className={`text-xs font-medium ${theme.badgeText} ${theme.badgeBg} px-2.5 py-1 rounded-full`}
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </div>
-            )}
-            <div className="flex-1" />
-          </div>
-        </div>
+        {/* アクションバー（計測付き） */}
+        <PlaceActionBar
+          country={code}
+          category={catSlug}
+          slug={slug}
+          website={spot.website}
+          phone={spot.phone}
+          tags={spot.tags}
+          ctaBg={theme.ctaBg}
+          ctaHover={theme.ctaHover}
+          badgeText={theme.badgeText}
+          badgeBg={theme.badgeBg}
+        />
 
         {/* メインコンテンツ */}
         <div className="max-w-5xl mx-auto px-4 py-8">
