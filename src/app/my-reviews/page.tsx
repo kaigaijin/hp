@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { useAuth } from "@/components/AuthProvider";
 import { StarRating } from "@/components/SpotScore";
 import { supabase } from "@/lib/supabase";
-import { Star, MessageSquare, TrendingUp, LogIn } from "lucide-react";
+import { Star, MessageSquare, TrendingUp, LogIn, Zap } from "lucide-react";
 import Link from "next/link";
 
 type MyReview = {
@@ -18,6 +18,19 @@ type MyReview = {
   comment: string | null;
   created_at: string;
 };
+
+// レビュー数 → 影響係数（review-score.ts の calcCountWeight と同じ式）
+function calcInfluence(count: number): number {
+  if (count <= 0) return Math.min(1.0, Math.log(2) / Math.log(51)); // 1件相当
+  return Math.min(1.0, Math.log(1 + count) / Math.log(51));
+}
+
+// 影響係数を「×N倍」表示（匿名の0.1基準）
+function influenceMultiplier(count: number): string {
+  const x = calcInfluence(count) / 0.1;
+  if (x >= 9.95) return "×10";
+  return `×${x.toFixed(1)}`;
+}
 
 // レビュー数からバッジラベルを返す
 function getBadge(count: number): { label: string; className: string } | null {
@@ -42,11 +55,21 @@ function getBadge(count: number): { label: string; className: string } | null {
   return null;
 }
 
-// 次のバッジまでの残り件数
-function nextBadgeInfo(count: number): { next: number; label: string } | null {
-  if (count < 5) return { next: 5 - count, label: "レビュアー" };
-  if (count < 10) return { next: 10 - count, label: "常連" };
-  if (count < 30) return { next: 30 - count, label: "ベテラン" };
+// 次のステップ情報（残り件数 + 到達後の係数）
+type NextStep = { remaining: number; multiplierAt: string; progressPct: number };
+function nextStepInfo(count: number): NextStep | null {
+  const steps = [5, 10, 30];
+  const prev = [0, 5, 10];
+  for (let i = 0; i < steps.length; i++) {
+    if (count < steps[i]) {
+      const pct = ((count - prev[i]) / (steps[i] - prev[i])) * 100;
+      return {
+        remaining: steps[i] - count,
+        multiplierAt: influenceMultiplier(steps[i]),
+        progressPct: Math.max(0, Math.min(100, pct)),
+      };
+    }
+  }
   return null;
 }
 
@@ -125,7 +148,8 @@ export default function MyReviewsPage() {
 
   const total = reviews.length;
   const badge = getBadge(total);
-  const next = nextBadgeInfo(total);
+  const next = nextStepInfo(total);
+  const currentMultiplier = influenceMultiplier(Math.max(1, total));
 
   return (
     <div className="max-w-2xl mx-auto px-4 py-10">
@@ -141,7 +165,8 @@ export default function MyReviewsPage() {
 
       {/* 実績カード */}
       <div className="mb-6 p-4 bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700">
-        <div className="flex items-center gap-3 mb-3">
+        {/* 件数 + バッジ */}
+        <div className="flex items-center gap-3 mb-4">
           <div className="flex items-center gap-2">
             <Star size={16} className="text-amber-400" fill="currentColor" />
             <span className="text-2xl font-bold text-stone-800 dark:text-stone-100">
@@ -156,43 +181,45 @@ export default function MyReviewsPage() {
           )}
         </div>
 
-        {/* 進捗バー */}
-        {next && (
+        {/* 現在の影響係数 */}
+        <div className="flex items-center gap-2 mb-3 px-3 py-2.5 bg-stone-50 dark:bg-stone-900/50 rounded-lg">
+          <Zap size={14} className="text-amber-500 shrink-0" fill="currentColor" />
           <div>
-            <div className="flex items-center gap-1.5 mb-1.5">
-              <TrendingUp size={12} className="text-stone-400" />
-              <span className="text-xs text-stone-500 dark:text-stone-400">
-                あと<strong className="text-stone-700 dark:text-stone-300">{next.next}件</strong>で「{next.label}」バッジ獲得
-              </span>
+            <span className="text-xs text-stone-500 dark:text-stone-400">現在のスコア影響係数 </span>
+            <span className="text-sm font-bold text-amber-600 dark:text-amber-400">
+              {total === 0 ? "×1.5" : currentMultiplier}
+            </span>
+            <span className="text-xs text-stone-400 dark:text-stone-500 ml-1">
+              （匿名投稿の{total === 0 ? "1.5" : currentMultiplier.replace("×", "")}倍）
+            </span>
+          </div>
+        </div>
+
+        {/* 次のステップへの進捗 */}
+        {next ? (
+          <div>
+            <div className="flex items-center justify-between mb-1.5">
+              <div className="flex items-center gap-1.5">
+                <TrendingUp size={11} className="text-stone-400" />
+                <span className="text-xs text-stone-500 dark:text-stone-400">
+                  あと<strong className="text-stone-700 dark:text-stone-300 mx-0.5">{next.remaining}件</strong>投稿すると係数が
+                  <strong className="text-amber-600 dark:text-amber-400 ml-0.5">{next.multiplierAt}</strong>に上がる
+                </span>
+              </div>
             </div>
             <div className="h-1.5 bg-stone-100 dark:bg-stone-700 rounded-full overflow-hidden">
               <div
                 className="h-full bg-amber-400 rounded-full transition-all"
-                style={{
-                  width: `${Math.min(
-                    100,
-                    next.label === "レビュアー"
-                      ? (total / 5) * 100
-                      : next.label === "常連"
-                      ? ((total - 5) / 5) * 100
-                      : ((total - 10) / 20) * 100
-                  )}%`,
-                }}
+                style={{ width: `${next.progressPct}%` }}
               />
             </div>
           </div>
-        )}
-
-        {total >= 30 && (
-          <p className="text-xs text-amber-600 dark:text-amber-400 flex items-center gap-1 mt-1">
+        ) : (
+          <p className="text-xs text-amber-600 dark:text-amber-400 flex items-center gap-1">
             <Star size={11} fill="currentColor" />
-            最高ランクのベテランレビュアーです！
+            最大係数に到達しました。すべてのレビューが最高影響力で反映されています
           </p>
         )}
-
-        <p className="text-xs text-stone-400 dark:text-stone-500 mt-3">
-          ログインして投稿したレビューはスコアへの影響度が最大10倍になります
-        </p>
       </div>
 
       {/* レビュー一覧 */}
