@@ -161,7 +161,7 @@ export default async function ArticlePage({
             <p className="text-lg text-stone-500 dark:text-stone-400 leading-relaxed mb-4">
               {article.meta.description}
             </p>
-            <div className="flex items-center gap-4 text-sm text-stone-400">
+            <div className="flex flex-col gap-2 text-sm text-stone-400">
               <div className="flex items-center gap-1">
                 <Calendar size={14} />
                 {article.meta.date}
@@ -169,11 +169,11 @@ export default async function ArticlePage({
                   <span>（更新: {article.meta.lastModified}）</span>
                 )}
               </div>
-              <div className="flex gap-2">
+              <div className="flex flex-wrap gap-2">
                 {article.meta.tags.map((tag) => (
                   <span
                     key={tag}
-                    className="bg-stone-100 dark:bg-stone-800 text-stone-500 dark:text-stone-400 px-2 py-0.5 rounded-full text-xs"
+                    className="bg-stone-100 dark:bg-stone-800 text-stone-500 dark:text-stone-400 px-2 py-0.5 rounded-full text-xs whitespace-nowrap"
                   >
                     {tag}
                   </span>
