@@ -95,48 +95,48 @@ function PaginatedArticleListInner({
           return (
             <article
               key={article.slug}
-              className="bg-white dark:bg-stone-800 rounded-2xl border border-stone-200 dark:border-stone-700 p-5 flex flex-col country-card"
+              className="bg-white dark:bg-stone-800 rounded-2xl border border-stone-200 dark:border-stone-700 flex flex-col country-card hover:border-warm-400 dark:hover:border-warm-500 transition-colors"
             >
-              <div className="flex items-center gap-2 text-xs text-warm-600 dark:text-warm-400 font-medium mb-2">
-                <Tag size={12} />
-                {article.category}
-              </div>
+              <Link
+                href={`/${countryCode}/column/${article.slug}`}
+                className="flex flex-col flex-1 p-5"
+              >
+                <div className="flex items-center gap-2 text-xs text-warm-600 dark:text-warm-400 font-medium mb-2">
+                  <Tag size={12} />
+                  {article.category}
+                </div>
 
-              <Link href={`/${countryCode}/column/${article.slug}`} className="group">
-                <h3 className="heading-editorial text-base font-bold mb-2 group-hover:text-warm-700 dark:group-hover:text-warm-400 transition-colors leading-snug">
+                <h3 className="heading-editorial text-base font-bold mb-2 leading-snug">
                   {article.title}
                 </h3>
-              </Link>
-              <p className="text-sm text-stone-500 dark:text-stone-400 leading-relaxed mb-3 flex-1 line-clamp-2">
-                {article.description}
-              </p>
+                <p className="text-sm text-stone-500 dark:text-stone-400 leading-relaxed mb-3 flex-1 line-clamp-2">
+                  {article.description}
+                </p>
 
-              <div className="flex items-center justify-between">
-                <div className="flex items-center gap-1 text-xs text-stone-400">
-                  <Calendar size={12} />
-                  {article.date}
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-1 text-xs text-stone-400">
+                    <Calendar size={12} />
+                    {article.date}
+                  </div>
+                  <div className="flex items-center gap-3">
+                    {relatedGroup && (
+                      <span
+                        onClick={(e) => { e.preventDefault(); window.location.href = `/${countryCode}/place/${relatedGroup.slug}`; }}
+                        className="flex items-center gap-1 text-xs text-stone-400 hover:text-warm-600 dark:hover:text-warm-400 transition-colors cursor-pointer"
+                        title={`${relatedGroup.name}のKAIプレイス`}
+                      >
+                        <MapPin size={11} />
+                        {relatedGroup.name}
+                        {relatedGroup.count}件
+                      </span>
+                    )}
+                    <span className="flex items-center gap-1 text-xs text-warm-600 dark:text-warm-400 font-medium">
+                      読む
+                      <ArrowRight size={12} />
+                    </span>
+                  </div>
                 </div>
-                <div className="flex items-center gap-3">
-                  {relatedGroup && (
-                    <Link
-                      href={`/${countryCode}/place/${relatedGroup.slug}`}
-                      className="flex items-center gap-1 text-xs text-stone-400 hover:text-warm-600 dark:hover:text-warm-400 transition-colors"
-                      title={`${relatedGroup.name}のKAIプレイス`}
-                    >
-                      <MapPin size={11} />
-                      {relatedGroup.name}
-                      {relatedGroup.count}件
-                    </Link>
-                  )}
-                  <Link
-                    href={`/${countryCode}/column/${article.slug}`}
-                    className="flex items-center gap-1 text-xs text-warm-600 dark:text-warm-400 font-medium hover:gap-1.5 transition-all"
-                  >
-                    読む
-                    <ArrowRight size={12} />
-                  </Link>
-                </div>
-              </div>
+              </Link>
             </article>
           );
         })}
