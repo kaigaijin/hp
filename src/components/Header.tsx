@@ -133,7 +133,7 @@ export default function Header() {
 
       {/* モバイルドロワー */}
       {open && (
-        <nav className="md:hidden fixed top-16 left-0 right-0 bottom-0 bg-sand-50 dark:bg-stone-950 border-t border-stone-100 dark:border-stone-800 px-4 pb-4 overflow-y-auto z-40">
+        <nav className="md:hidden bg-sand-50 dark:bg-stone-950 border-b border-stone-100 dark:border-stone-800 px-4 pb-4 max-h-[calc(100vh-4rem)] overflow-y-auto">
           <div className="flex flex-col gap-1 text-sm font-medium text-stone-600 dark:text-stone-400">
             {phases.map((phase) => {
               const group = countries.filter((c) => c.phase === phase);
