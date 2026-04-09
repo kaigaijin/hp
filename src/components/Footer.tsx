@@ -34,6 +34,7 @@ export default function Footer() {
                 <Link
                   key={c.code}
                   href={`/${c.code}`}
+                  prefetch={false}
                   className="hover:text-white transition-colors flex items-center gap-1.5"
                 >
                   <span className="text-sm">{c.flag}</span>

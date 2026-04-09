@@ -60,6 +60,7 @@ export default function Header() {
                           <div key={c.code} className="flex items-center gap-1 rounded-lg hover:bg-warm-50 dark:hover:bg-stone-700/60 transition-colors px-2 py-1.5">
                             <Link
                               href={`/${c.code}`}
+                              prefetch={false}
                               className="flex items-center gap-2.5 flex-1 min-w-0"
                             >
                               <span className="text-lg shrink-0">{c.flag}</span>
@@ -132,7 +133,7 @@ export default function Header() {
 
       {/* モバイルドロワー */}
       {open && (
-        <nav className="md:hidden bg-sand-50 dark:bg-stone-950 border-b border-stone-100 dark:border-stone-800 px-4 pb-4">
+        <nav className="md:hidden fixed top-16 left-0 right-0 bottom-0 bg-sand-50 dark:bg-stone-950 border-t border-stone-100 dark:border-stone-800 px-4 pb-4 overflow-y-auto z-40">
           <div className="flex flex-col gap-1 text-sm font-medium text-stone-600 dark:text-stone-400">
             {phases.map((phase) => {
               const group = countries.filter((c) => c.phase === phase);
@@ -145,6 +146,7 @@ export default function Header() {
                     <div key={c.code} className="border-b border-stone-100 dark:border-stone-800">
                       <Link
                         href={`/${c.code}`}
+                        prefetch={false}
                         onClick={() => setOpen(false)}
                         className="flex items-center gap-2.5 py-2 px-1"
                       >
@@ -155,6 +157,7 @@ export default function Header() {
                         <div className="flex gap-2 pb-2 px-1 ml-7">
                           <Link
                             href={`/${c.code}/place`}
+                            prefetch={false}
                             onClick={() => setOpen(false)}
                             className="flex items-center gap-1 text-xs text-stone-400 hover:text-warm-600 dark:hover:text-warm-400 bg-stone-100 dark:bg-stone-800 px-2.5 py-1 rounded-md transition-colors"
                           >
@@ -163,6 +166,7 @@ export default function Header() {
                           </Link>
                           <Link
                             href={`/${c.code}/jobs`}
+                            prefetch={false}
                             onClick={() => setOpen(false)}
                             className="flex items-center gap-1 text-xs text-stone-400 hover:text-warm-600 dark:hover:text-warm-400 bg-stone-100 dark:bg-stone-800 px-2.5 py-1 rounded-md transition-colors"
                           >
