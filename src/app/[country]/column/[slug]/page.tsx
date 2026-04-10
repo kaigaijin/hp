@@ -69,8 +69,12 @@ export default async function ArticlePage({
   const country = getCountry(code);
   const article = getArticle(code, slug);
   if (!article) notFound();
-  // column など countries 未登録のコードは汎用フォールバックを使う
-  const countryDisplay = country ?? { name: "コラム", flag: "📰", code };
+  // overseas など countries 未登録のコードは汎用フォールバックを使う
+  const countryDisplay =
+    country ??
+    (code === "overseas"
+      ? { name: "海外生活", flag: "🌏", code }
+      : { name: "コラム", flag: "📰", code });
 
   const baseUrl = "https://kaigaijin.com";
 

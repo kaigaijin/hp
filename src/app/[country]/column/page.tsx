@@ -6,8 +6,16 @@ import { getCountry, countries } from "@/lib/countries";
 import { getArticlesByCountry } from "@/lib/articles";
 import { Calendar, Tag, ArrowLeft } from "lucide-react";
 
+// overseas など countries 未登録コードのフォールバック表示名
+const FALLBACK_DISPLAY: Record<string, { name: string; flag: string }> = {
+  overseas: { name: "海外生活", flag: "🌏" },
+};
+
 export function generateStaticParams() {
-  return countries.map((c) => ({ country: c.code }));
+  return [
+    ...countries.map((c) => ({ country: c.code })),
+    { country: "overseas" },
+  ];
 }
 
 export async function generateMetadata({
@@ -17,10 +25,12 @@ export async function generateMetadata({
 }) {
   const { country: code } = await params;
   const country = getCountry(code);
-  if (!country) return {};
+  const fallback = FALLBACK_DISPLAY[code];
+  if (!country && !fallback) return {};
+  const name = country?.name ?? fallback.name;
   return {
-    title: `${country.name}のコラム一覧 | Kaigaijin`,
-    description: `${country.name}の生活情報・現地レポートのコラム一覧。在住者向けの実用情報から読み物まで。`,
+    title: `${name}のコラム一覧 | Kaigaijin`,
+    description: `${name}の生活情報・現地レポートのコラム一覧。在住者向けの実用情報から読み物まで。`,
   };
 }
 
@@ -31,8 +41,12 @@ export default async function ColumnIndexPage({
 }) {
   const { country: code } = await params;
   const country = getCountry(code);
-  if (!country) notFound();
+  const fallback = FALLBACK_DISPLAY[code];
+  if (!country && !fallback) notFound();
 
+  const display = country
+    ? { name: country.name, flag: country.flag }
+    : fallback;
   const articles = getArticlesByCountry(code);
 
   return (
@@ -46,18 +60,26 @@ export default async function ColumnIndexPage({
               Kaigaijin
             </Link>
             <span>/</span>
-            <Link
-              href={`/${code}`}
-              className="hover:text-warm-600 dark:hover:text-warm-400 transition-colors"
-            >
-              {country.flag} {country.name}
-            </Link>
-            <span>/</span>
-            <span className="text-stone-600 dark:text-stone-300">コラム</span>
+            {country ? (
+              <Link
+                href={`/${code}`}
+                className="hover:text-warm-600 dark:hover:text-warm-400 transition-colors"
+              >
+                {display.flag} {display.name}
+              </Link>
+            ) : (
+              <span className="text-stone-600 dark:text-stone-300">{display.flag} {display.name}</span>
+            )}
+            {country && (
+              <>
+                <span>/</span>
+                <span className="text-stone-600 dark:text-stone-300">コラム</span>
+              </>
+            )}
           </nav>
 
           <h1 className="heading-editorial text-3xl md:text-4xl font-bold mb-2">
-            {country.flag} {country.name}のコラム
+            {display.flag} {display.name}のコラム
           </h1>
           <p className="text-stone-500 dark:text-stone-400 mb-10">
             {articles.length}件の記事
@@ -93,15 +115,17 @@ export default async function ColumnIndexPage({
             </ul>
           )}
 
-          <div className="mt-12 pt-8 border-t border-stone-200 dark:border-stone-700">
-            <Link
-              href={`/${code}`}
-              className="inline-flex items-center gap-2 text-warm-600 dark:text-warm-400 hover:text-warm-800 dark:hover:text-warm-300 font-medium transition-colors"
-            >
-              <ArrowLeft size={16} />
-              {country.name}のトップに戻る
-            </Link>
-          </div>
+          {country && (
+            <div className="mt-12 pt-8 border-t border-stone-200 dark:border-stone-700">
+              <Link
+                href={`/${code}`}
+                className="inline-flex items-center gap-2 text-warm-600 dark:text-warm-400 hover:text-warm-800 dark:hover:text-warm-300 font-medium transition-colors"
+              >
+                <ArrowLeft size={16} />
+                {display.name}のトップに戻る
+              </Link>
+            </div>
+          )}
         </div>
       </main>
       <Footer />
