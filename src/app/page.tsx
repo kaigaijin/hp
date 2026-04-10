@@ -27,7 +27,7 @@ export default function Home() {
         {/* ===== ヒーロー ===== */}
         <section className="relative overflow-hidden bg-gradient-to-br from-stone-950 via-[#1a2e35] to-[#2d1a0e] text-white">
 
-          <div className="relative max-w-6xl mx-auto px-4 py-20 md:py-32">
+          <div className="relative max-w-6xl mx-auto px-4 py-10 md:py-16">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
 
               {/* 左: キャッチコピー + CTA */}
@@ -62,17 +62,17 @@ export default function Home() {
               {/* 右: 国グリッド（デスクトップ） */}
               <div className="hidden lg:block">
                 <p className="section-label mb-4 text-teal-400">— {countries.length} カ国 対応</p>
-                <div className="grid grid-cols-2 gap-2">
+                <div className="grid grid-cols-3 gap-2">
                   {countries.map((c) => (
                     <a
                       key={c.code}
                       href={`/${c.code}`}
-                      className="flex items-center gap-3 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-warm-400/50 px-4 py-3 rounded-xl text-sm transition-all group"
+                      className="flex items-center gap-3 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-warm-400/50 px-4 py-4 rounded-xl transition-all group"
                     >
-                      <span className="text-2xl">{c.flag}</span>
+                      <span className="text-3xl flex-shrink-0">{c.flag}</span>
                       <div className="min-w-0">
-                        <p className="font-medium text-stone-200 group-hover:text-warm-300 transition-colors">{c.name}</p>
-                        <p className="text-xs text-stone-500 truncate">{c.population}</p>
+                        <p className="font-medium text-stone-200 group-hover:text-warm-300 transition-colors text-base">{c.name}</p>
+                        <p className="text-sm text-stone-500 truncate">{c.population}</p>
                       </div>
                     </a>
                   ))}

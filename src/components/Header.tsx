@@ -98,15 +98,25 @@ export default function Header() {
                     </div>
                   );
                 })}
+                {/* 帰国準備（日本） */}
+                <div className="mt-2 pt-2 border-t border-stone-100 dark:border-stone-700">
+                  <Link
+                    href="/return"
+                    prefetch={false}
+                    className="flex items-center gap-2.5 rounded-lg hover:bg-warm-50 dark:hover:bg-stone-700/60 transition-colors px-2 py-1.5"
+                  >
+                    <span className="text-lg shrink-0">🇯🇵</span>
+                    <span className="text-stone-700 dark:text-stone-300 text-sm hover:text-warm-700 dark:hover:text-warm-400 transition-colors">
+                      日本（帰国準備）
+                    </span>
+                    <span className="text-[11px] text-warm-500 dark:text-warm-400 ml-auto shrink-0 font-medium">
+                      帰国ガイド
+                    </span>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
-          <Link
-            href="/return"
-            className="hover:text-warm-500 dark:hover:text-warm-400 transition-colors"
-          >
-            帰国準備
-          </Link>
           <Link
             href="/visa-simulator"
             className="hover:text-warm-500 dark:hover:text-warm-400 transition-colors"
@@ -186,13 +196,19 @@ export default function Header() {
                 </div>
               );
             })}
-            <Link
-              href="/return"
-              onClick={() => setOpen(false)}
-              className="py-2 mt-2 text-warm-600 dark:text-warm-400 font-semibold"
-            >
-              帰国準備
-            </Link>
+            {/* 帰国準備（日本） */}
+            <div className="border-t border-stone-100 dark:border-stone-800 mt-1">
+              <Link
+                href="/return"
+                prefetch={false}
+                onClick={() => setOpen(false)}
+                className="flex items-center gap-2.5 py-2 px-1"
+              >
+                <span className="text-base">🇯🇵</span>
+                <span className="flex-1">日本（帰国準備）</span>
+                <span className="text-[11px] text-warm-500 dark:text-warm-400 font-medium">帰国ガイド</span>
+              </Link>
+            </div>
             <Link
               href="/visa-simulator"
               onClick={() => setOpen(false)}
