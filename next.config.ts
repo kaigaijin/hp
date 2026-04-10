@@ -10,6 +10,12 @@ const nextConfig: NextConfig = {
         destination: "/th/place/restaurant/sumi-tei-yakiniku-thonglor",
         permanent: true,
       },
+      // monster-curry → monster-curry-ion-orchard（2026-04-10）
+      {
+        source: "/sg/place/restaurant/monster-curry",
+        destination: "/sg/place/restaurant/monster-curry-ion-orchard",
+        permanent: true,
+      },
 
       // izakaya-bar カテゴリ廃止 → restaurant に統合（2026-04-03）
       // カテゴリページ（全12カ国）
