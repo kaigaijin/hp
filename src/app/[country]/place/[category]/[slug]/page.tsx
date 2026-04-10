@@ -10,10 +10,10 @@ import {
   getplacesByCategory,
 } from "@/lib/directory";
 import { getCategoryTheme } from "@/lib/group-theme";
-import placeReportForm from "@/components/placeReportForm";
-import placeReviewForm from "@/components/placeReviewForm";
-import Randomplaces from "@/components/Randomplaces";
-import placeDetailTabs from "@/components/placeDetailTabs";
+import placeReportForm from "@/components/SpotReportForm";
+import placeReviewForm from "@/components/SpotReviewForm";
+import Randomplaces from "@/components/RandomSpots";
+import placeDetailTabs from "@/components/SpotDetailTabs";
 import PlaceActionBar from "@/components/PlaceActionBar";
 import {
   MapPin,

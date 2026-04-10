@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import placeGroupList from "@/components/placeGroupList";
+import placeGroupList from "@/components/SpotGroupList";
 import { getCountry, countries } from "@/lib/countries";
 import {
   getAllAreas,

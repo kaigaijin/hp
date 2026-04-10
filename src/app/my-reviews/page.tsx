@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useAuth } from "@/components/AuthProvider";
-import { StarRating } from "@/components/placeScore";
+import { StarRating } from "@/components/SpotScore";
 import { supabase } from "@/lib/supabase";
 import { Star, MessageSquare, TrendingUp, LogIn, Zap } from "lucide-react";
 import Link from "next/link";

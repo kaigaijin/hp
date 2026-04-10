@@ -12,7 +12,7 @@ import {
   TrendingUp,
   ThumbsUp,
 } from "lucide-react";
-import placeScoreDisplay, { StarRating } from "@/components/placeScore";
+import placeScoreDisplay, { StarRating } from "@/components/SpotScore";
 import { useAuth } from "@/components/AuthProvider";
 import type { placeScore } from "@/lib/review-score";
 

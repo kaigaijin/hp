@@ -2,8 +2,8 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import placeSearch from "@/components/placeSearch";
-import placePickup from "@/components/placePickup";
+import placeSearch from "@/components/SpotSearch";
+import placePickup from "@/components/SpotPickup";
 import { getCountry, countries } from "@/lib/countries";
 import {
   categories,

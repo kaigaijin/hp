@@ -11,8 +11,8 @@ import {
   getplacesByCategory,
   getCategoryCounts,
 } from "@/lib/directory";
-import placeGroupList from "@/components/placeGroupList";
-import placeCategoryList from "@/components/placeCategoryList";
+import placeGroupList from "@/components/SpotGroupList";
+import placeCategoryList from "@/components/SpotCategoryList";
 import { getGroupTheme, getCategoryTheme, type GroupTheme } from "@/lib/group-theme";
 import {
   UtensilsCrossed,
