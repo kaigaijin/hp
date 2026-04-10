@@ -95,12 +95,14 @@ export function getArticle(countryCode: string, slug: string) {
   };
 }
 
+const NON_COUNTRY_DIRS = new Set(["column", "data", "directory", "jobs"]);
+
 export function getAllArticles(): ArticleMeta[] {
   if (!fs.existsSync(contentDir)) return [];
 
   return fs
     .readdirSync(contentDir)
-    .filter((d) => fs.statSync(path.join(contentDir, d)).isDirectory())
+    .filter((d) => fs.statSync(path.join(contentDir, d)).isDirectory() && !NON_COUNTRY_DIRS.has(d))
     .flatMap((country) => getArticlesByCountry(country))
     .sort((a, b) => (a.date > b.date ? -1 : 1));
 }
