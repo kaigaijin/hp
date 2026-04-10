@@ -18,6 +18,14 @@ const mdxComponents = {
       <table {...props} />
     </div>
   ),
+  a: (props: React.ComponentProps<"a">) => {
+    const isExternal = props.href?.startsWith("http");
+    return isExternal ? (
+      <a {...props} target="_blank" rel="noopener noreferrer" />
+    ) : (
+      <a {...props} />
+    );
+  },
 };
 
 export function generateStaticParams() {
