@@ -10,6 +10,7 @@ import {
   ChevronUp,
   MessageSquare,
   TrendingUp,
+  ThumbsUp,
 } from "lucide-react";
 import SpotScoreDisplay, { StarRating } from "@/components/SpotScore";
 import { useAuth } from "@/components/AuthProvider";
@@ -44,6 +45,18 @@ function ReviewerBadge({ count, isAnonymous }: { count?: number; isAnonymous: bo
       ★レビュアー
     </span>
   );
+}
+
+// 訪問者IDをブラウザごとに生成・永続化
+function getVisitorId(): string {
+  if (typeof window === "undefined") return "";
+  const key = "kaigaijin_visitor_id";
+  let id = localStorage.getItem(key);
+  if (!id) {
+    id = crypto.randomUUID();
+    localStorage.setItem(key, id);
+  }
+  return id;
 }
 
 // reviewer_id をブラウザごとに生成・永続化（未ログインユーザー用）
@@ -95,16 +108,27 @@ export default function SpotReviewForm({
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState("");
 
+  // 行った
+  const [visitedCount, setVisitedCount] = useState(0);
+  const [alreadyVisited, setAlreadyVisited] = useState(false);
+  const [visitedSubmitting, setVisitedSubmitting] = useState(false);
+
 
   const fetchData = useCallback(async () => {
     try {
-      const res = await fetch(
-        `/api/place-reviews?country=${country}&category=${category}&slug=${spotSlug}`
-      );
-      if (res.ok) {
-        const data = await res.json();
+      const [reviewRes, visitedRes] = await Promise.all([
+        fetch(`/api/place-reviews?country=${country}&category=${category}&slug=${spotSlug}`),
+        fetch(`/api/place-reports?country=${country}&category=${category}&slug=${spotSlug}&visitor_id=${getVisitorId()}`),
+      ]);
+      if (reviewRes.ok) {
+        const data = await reviewRes.json();
         setScore(data.score);
         setReviews(data.reviews ?? []);
+      }
+      if (visitedRes.ok) {
+        const data = await visitedRes.json();
+        setVisitedCount(data.visited ?? 0);
+        setAlreadyVisited(data.already_visited ?? false);
       }
     } catch {}
   }, [country, category, spotSlug]);
@@ -177,12 +201,63 @@ export default function SpotReviewForm({
     }
   }
 
+  async function handleVisited() {
+    if (alreadyVisited || visitedSubmitting) return;
+    setVisitedSubmitting(true);
+    try {
+      const res = await fetch("/api/place-reports", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          country,
+          category,
+          spot_slug: spotSlug,
+          spot_name: spotName,
+          report_type: "visited",
+          comment: null,
+          visitor_id: getVisitorId() || null,
+        }),
+      });
+      if (res.ok) {
+        setVisitedCount((c) => c + 1);
+        setAlreadyVisited(true);
+      }
+    } catch {}
+    finally {
+      setVisitedSubmitting(false);
+    }
+  }
+
   const visibleReviews = showAllReviews ? reviews : reviews.slice(0, 3);
 
   return (
     <div className="bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700">
+      {/* 行ったボタン */}
+      <div className="px-5 pt-4 pb-3 flex items-center gap-3">
+        <button
+          type="button"
+          onClick={handleVisited}
+          disabled={alreadyVisited || visitedSubmitting}
+          className={`inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-medium transition-all active:scale-95 ${
+            alreadyVisited
+              ? "bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 cursor-default"
+              : "bg-stone-100 dark:bg-stone-700 text-stone-600 dark:text-stone-300 hover:bg-green-100 dark:hover:bg-green-900/30 hover:text-green-700 dark:hover:text-green-400"
+          }`}
+        >
+          {visitedSubmitting ? (
+            <Loader2 size={14} className="animate-spin" />
+          ) : (
+            <ThumbsUp size={14} fill={alreadyVisited ? "currentColor" : "none"} />
+          )}
+          行った
+          {visitedCount > 0 && (
+            <span className="ml-0.5 text-xs font-semibold">{visitedCount}</span>
+          )}
+        </button>
+      </div>
+
       {/* スコア表示 */}
-      <div className="p-5">
+      <div className="px-5 pb-5 pt-2 border-t border-stone-100 dark:border-stone-700">
         <div className="flex items-center justify-between mb-3">
           <div className="flex items-center gap-2">
             <Star size={16} className="text-amber-400" fill="currentColor" />
