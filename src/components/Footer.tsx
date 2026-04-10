@@ -50,6 +50,9 @@ export default function Footer() {
               Kaigaijinについて
             </p>
             <div className="flex flex-col gap-2 text-sm">
+              <Link href="/return" className="hover:text-white transition-colors">
+                帰国準備ガイド
+              </Link>
               <Link href="/about" className="hover:text-white transition-colors">
                 メディアについて
               </Link>
