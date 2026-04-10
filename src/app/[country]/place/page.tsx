@@ -2,8 +2,8 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import placeSearch from "@/components/SpotSearch";
-import placePickup from "@/components/SpotPickup";
+import PlaceSearch from "@/components/SpotSearch";
+import PlacePickup from "@/components/SpotPickup";
 import { getCountry, countries } from "@/lib/countries";
 import {
   categories,
@@ -156,7 +156,7 @@ export default async function placeIndexPage({
           right={
             <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-5">
               <p className="text-white/80 text-xs font-semibold mb-3">名前・エリア・キーワードで検索</p>
-              <placeSearch places={searchableplaces} countryCode={code} />
+              <PlaceSearch places={searchableplaces} countryCode={code} />
             </div>
           }
           subTabs={
@@ -273,7 +273,7 @@ export default async function placeIndexPage({
           )}
 
           {/* ピックアップスポット */}
-          <placePickup
+          <PlacePickup
             places={pickupplaces}
             countryCode={code}
             groups={categoryGroups.map((g) => g.slug)}

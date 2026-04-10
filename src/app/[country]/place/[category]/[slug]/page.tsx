@@ -10,10 +10,10 @@ import {
   getplacesByCategory,
 } from "@/lib/directory";
 import { getCategoryTheme } from "@/lib/group-theme";
-import placeReportForm from "@/components/SpotReportForm";
-import placeReviewForm from "@/components/SpotReviewForm";
-import Randomplaces from "@/components/RandomSpots";
-import placeDetailTabs from "@/components/SpotDetailTabs";
+import PlaceReportForm from "@/components/SpotReportForm";
+import PlaceReviewForm from "@/components/SpotReviewForm";
+import RandomPlaces from "@/components/RandomSpots";
+import PlaceDetailTabs from "@/components/SpotDetailTabs";
 import PlaceActionBar from "@/components/PlaceActionBar";
 import {
   MapPin,
@@ -377,8 +377,8 @@ export default async function placeDetailPage({
                 </div>
               )}
 
-              {/* placeDetailTabs */}
-              <placeDetailTabs
+              {/* PlaceDetailTabs */}
+              <PlaceDetailTabs
                 place={place}
                 displayName={displayName}
                 overviewContent={null}
@@ -395,17 +395,17 @@ export default async function placeDetailPage({
                 }
               />
 
-              {/* placeReviewForm */}
-              <placeReviewForm
+              {/* PlaceReviewForm */}
+              <PlaceReviewForm
                 country={code}
                 category={catSlug}
                 placeSlug={slug}
                 placeName={displayName}
               />
 
-              {/* placeReportForm（モバイル） */}
+              {/* PlaceReportForm（モバイル） */}
               <div className="lg:hidden">
-                <placeReportForm
+                <PlaceReportForm
                   country={code}
                   category={catSlug}
                   placeSlug={slug}
@@ -415,7 +415,7 @@ export default async function placeDetailPage({
 
               {/* 同カテゴリのスポット */}
               {sameCategory.length > 0 && (
-                <Randomplaces
+                <RandomPlaces
                   places={sameCategory}
                   countryCode={code}
                   categorySlug={catSlug}
@@ -567,9 +567,9 @@ export default async function placeDetailPage({
                 </dl>
               </div>
 
-              {/* placeReportForm（デスクトップ） */}
+              {/* PlaceReportForm（デスクトップ） */}
               <div className="hidden lg:block">
-                <placeReportForm
+                <PlaceReportForm
                   country={code}
                   category={catSlug}
                   placeSlug={slug}

@@ -11,8 +11,8 @@ import {
   getplacesByCategory,
   getCategoryCounts,
 } from "@/lib/directory";
-import placeGroupList from "@/components/SpotGroupList";
-import placeCategoryList from "@/components/SpotCategoryList";
+import PlaceGroupList from "@/components/SpotGroupList";
+import PlaceCategoryList from "@/components/SpotCategoryList";
 import { getGroupTheme, getCategoryTheme, type GroupTheme } from "@/lib/group-theme";
 import {
   UtensilsCrossed,
@@ -220,7 +220,7 @@ export default async function CategoryPage({
             </div>
 
             {/* 中分類フィルター + スポット一覧（クライアントコンポーネント） */}
-            <placeGroupList
+            <PlaceGroupList
               places={groupplaces}
               subCategories={subCategories}
               countryCode={code}
@@ -349,7 +349,7 @@ export default async function CategoryPage({
         {/* スポットリスト */}
         <div className="max-w-6xl mx-auto px-4 py-6">
           {places.length > 0 ? (
-            <placeCategoryList
+            <PlaceCategoryList
               places={places}
               countryCode={code}
               categorySlug={catSlug}

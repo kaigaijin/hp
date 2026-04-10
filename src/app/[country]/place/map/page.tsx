@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import placeMapLoader from "@/components/SpotMapLoader";
+import PlaceMapLoader from "@/components/SpotMapLoader";
 import { getCountry, countries } from "@/lib/countries";
 import {
   getGeoplaces,
@@ -134,7 +134,7 @@ export default async function MapPage({
 
         {/* 地図エリア（残りの高さ全部使う） */}
         <div className="flex-1 min-h-0">
-          <placeMapLoader
+          <PlaceMapLoader
             places={mapplaces}
             countryCode={code}
             categories={categoryFilters}

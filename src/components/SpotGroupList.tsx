@@ -57,12 +57,12 @@ type placeGroupListProps = {
 export default function placeGroupList(props: placeGroupListProps) {
   return (
     <Suspense fallback={null}>
-      <placeGroupListInner {...props} />
+      <PlaceGroupListInner {...props} />
     </Suspense>
   );
 }
 
-function placeGroupListInner({
+function PlaceGroupListInner({
   places,
   subCategories,
   countryCode,

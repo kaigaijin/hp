@@ -12,7 +12,7 @@ import {
   TrendingUp,
   ThumbsUp,
 } from "lucide-react";
-import placeScoreDisplay, { StarRating } from "@/components/SpotScore";
+import PlaceScoreDisplay, { StarRating } from "@/components/SpotScore";
 import { useAuth } from "@/components/AuthProvider";
 import type { placeScore } from "@/lib/review-score";
 
@@ -267,7 +267,7 @@ export default function placeReviewForm({
           </div>
         </div>
 
-        <placeScoreDisplay score={score} />
+        <PlaceScoreDisplay score={score} />
 
         {/* レビューを書くボタン / 投稿済み表示 */}
         {!showForm && !submitted && (

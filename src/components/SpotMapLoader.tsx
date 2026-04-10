@@ -2,7 +2,7 @@
 
 import dynamic from "next/dynamic";
 
-const placeMap = dynamic(() => import("@/components/placeMap"), {
+const PlaceMap = dynamic(() => import("@/components/SpotMap"), {
   ssr: false,
   loading: () => (
     <div className="flex items-center justify-center h-full bg-stone-100 dark:bg-stone-900 text-stone-500 text-sm">
@@ -45,7 +45,7 @@ export default function placeMapLoader({
   apiKey: string;
 }) {
   return (
-    <placeMap
+    <PlaceMap
       places={places}
       countryCode={countryCode}
       categories={categories}

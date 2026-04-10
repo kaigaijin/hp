@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import placeGroupList from "@/components/SpotGroupList";
+import PlaceGroupList from "@/components/SpotGroupList";
 import { getCountry, countries } from "@/lib/countries";
 import {
   getAllAreas,
@@ -132,7 +132,7 @@ export default async function AreaDetailPage({
           </div>
         </div>
 
-        <placeGroupList
+        <PlaceGroupList
           places={placeItems}
           subCategories={subCategories}
           countryCode={code}
