@@ -10,7 +10,7 @@ const SUPABASE_KEY =
   process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ||
   "";
 
-const VALID_REPORT_TYPES = ["visited", "closed", "correction"] as const;
+const VALID_REPORT_TYPES = ["visited", "correction"] as const;
 
 function sendNotification(
   spotName: string,

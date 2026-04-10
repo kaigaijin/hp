@@ -1,9 +1,9 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
-import { CheckCircle, XCircle, Pencil, Send, Loader2, ThumbsUp, ChevronDown, ChevronUp } from "lucide-react";
+import { CheckCircle, Pencil, Send, Loader2, ThumbsUp, ChevronDown, ChevronUp } from "lucide-react";
 
-type ReportType = "visited" | "closed" | "correction";
+type ReportType = "visited" | "correction";
 
 // ブラウザ固有の訪問者IDを生成・永続化
 function getVisitorId(): string {
@@ -30,6 +30,7 @@ export default function SpotReportForm({
 }) {
   const [reportType, setReportType] = useState<ReportType | null>(null);
   const [comment, setComment] = useState("");
+  const [reportComment, setReportComment] = useState("");
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState("");
@@ -202,50 +203,35 @@ export default function SpotReportForm({
         )}
       </div>
 
-      {/* 閉店・修正の報告 */}
+      {/* 修正・閉店の報告 */}
       <div className="px-5 pb-4 pt-2 border-t border-stone-100 dark:border-stone-700">
         {!reportType ? (
-          <div className="flex gap-2">
-            <button
-              type="button"
-              onClick={() => setReportType("closed")}
-              className="inline-flex items-center gap-1 text-xs text-stone-400 hover:text-red-500 transition-colors"
-            >
-              <XCircle size={12} />
-              閉店を報告
-            </button>
-            <span className="text-stone-300 dark:text-stone-600">|</span>
-            <button
-              type="button"
-              onClick={() => setReportType("correction")}
-              className="inline-flex items-center gap-1 text-xs text-stone-400 hover:text-warm-500 transition-colors"
-            >
-              <Pencil size={12} />
-              情報の修正
-            </button>
-          </div>
+          <button
+            type="button"
+            onClick={() => setReportType("correction")}
+            className="inline-flex items-center gap-1 text-xs text-stone-400 hover:text-warm-500 transition-colors"
+          >
+            <Pencil size={12} />
+            情報の修正・報告
+          </button>
         ) : (
           <form
             onSubmit={(e) => {
               e.preventDefault();
-              handleSubmit(reportType, comment);
+              handleSubmit("correction", reportComment);
             }}
             className="space-y-2"
           >
             <p className="text-xs font-medium text-stone-500 dark:text-stone-400">
-              {reportType === "closed" ? "閉店を報告" : "情報の修正"}
+              情報の修正・報告
             </p>
             <textarea
-              value={comment}
-              onChange={(e) => setComment(e.target.value)}
-              placeholder={
-                reportType === "closed"
-                  ? "閉店の状況を教えてください（移転先がわかれば記載）"
-                  : "修正内容を記載してください（住所・電話番号・営業時間など）"
-              }
+              value={reportComment}
+              onChange={(e) => setReportComment(e.target.value)}
+              placeholder="修正内容・閉店情報などを教えてください（住所・電話番号・営業時間・閉店など）"
               maxLength={1000}
               rows={2}
-              required={reportType === "correction"}
+              required
               className="w-full px-3 py-2 rounded-lg border border-stone-300 dark:border-stone-600 bg-stone-50 dark:bg-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-warm-500 resize-y placeholder:text-stone-400"
             />
             {error && (
@@ -260,7 +246,7 @@ export default function SpotReportForm({
             <div className="flex items-center gap-2">
               <button
                 type="submit"
-                disabled={submitting || (reportType === "correction" && !comment.trim())}
+                disabled={submitting || !reportComment.trim()}
                 className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-warm-600 text-white text-xs font-medium rounded-lg hover:bg-warm-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
               >
                 {submitting ? <Loader2 size={12} className="animate-spin" /> : <Send size={12} />}
@@ -268,7 +254,7 @@ export default function SpotReportForm({
               </button>
               <button
                 type="button"
-                onClick={() => { setReportType(null); setComment(""); setError(""); }}
+                onClick={() => { setReportType(null); setReportComment(""); setError(""); }}
                 className="text-xs text-stone-400 hover:text-stone-600 transition-colors"
               >
                 やめる
