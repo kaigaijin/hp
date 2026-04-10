@@ -26503,43 +26503,14 @@
     "place_reviewed": true
   },
   {
-    "slug": "randb-karaoke-silom",
-    "name": "R&B Karaoke Silom",
-    "name_ja": "R&Bカラオケ シーロム",
-    "area": "Bangkok",
-    "address": "Suriya Wong, Bang Rak, Bangkok 10500, Thailand",
-    "lat": 13.7273,
-    "lng": 100.5283,
-    "phone": "+66858343282",
-    "website": null,
-    "description": "バンコクの日本語対応カラオケ付きバー。日本語楽曲が充実したカラオケとドリンク・軽食が楽しめ、日本人同士の交流の場にもなっている。",
-    "tags": [
-      "居酒屋",
-      "日本酒"
-    ],
-    "hours": "Monday: 6:00 PM – 12:00 AM / Tuesday: 6:00 PM – 12:00 AM / Wednesday: 6:00 PM – 12:00 AM / Thursday: 6:00 PM – 12:00 AM / Friday: 6:00 PM – 12:00 AM / Saturday: 6:00 PM – 12:00 AM / Sunday: 6:00 PM – 12:00 AM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJE9Iq_FeZ4jARRzGuH2UFZiA",
-    "priority": 0,
-    "ai_reviewed": false,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
     "slug": "ranichi-yakiniku-thonglor",
     "name": "Ranichi Japanese BBQ",
     "name_ja": "らにち",
     "area": "Thonglor",
-    "address": "2F Nihonmachi Mall, Thonglor 13, Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
-    "phone": null,
+    "address": "87 Soi Thonglor 13, Sukhumvit Rd, 2F Nihonmachi Mall, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": "+66821852781",
     "website": "http://ranichi-japanese-bbq.com/en/",
-    "description": "スクンビットソイ55にある日本式焼肉専門店。厳選された肉を日本の焼肉スタイルで楽しめる。ランチ・ディナーともに在タイ日本人に親しまれる。",
+    "description": "ミシュラン1つ星「よろにく」の肉を使う日本式焼肉店。スクンビットソイ55、日本人街の2階に位置し、厳選和牛を七輪で焼きながら楽しめる。ランチセットも人気。",
     "tags": [
       "焼肉",
       "日本町"
@@ -26554,7 +26525,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "rat-fink",
@@ -26566,7 +26538,7 @@
     "lng": 100.9299,
     "phone": null,
     "website": null,
-    "description": "シラチャの日本酒専門バー。日本語対応で、厳選した日本酒と季節の和食おつまみを提供。日本酒好きの日系駐在員に利用されている。",
+    "description": "シラチャの日系居酒屋バー。「小さなOsaka」と呼ばれる日本人駐在員の多い街に根ざし、日本酒とおつまみが楽しめる。",
     "tags": [
       "居酒屋",
       "日本酒"
@@ -26583,72 +26555,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "raya-restaurant",
-    "name": "Raya Restaurant",
-    "name_ja": "ラヤ レストラン",
-    "area": "Phuket",
-    "address": "48/1 Thanon Dibuk, Tambon Talat Yai, Amphoe Mueang Phuket, Chang Wat Phuket 83000, Thailand",
-    "phone": "+6676218155",
-    "website": null,
-    "description": "プーケットにある日本食レストラン「ラヤ レストラン」。在タイ日本人に親しまれる本格的な日本食が楽しめる。ランチ・ディナーともに対応している。",
-    "tags": [
-      "日本食",
-      "レストラン"
-    ],
-    "hours": "Monday: 10:30 AM – 10:00 PM / Tuesday: 10:30 AM – 10:00 PM / Wednesday: 10:30 AM – 10:00 PM / Thursday: 10:30 AM – 10:00 PM / Friday: 10:30 AM – 10:00 PM / Saturday: 10:30 AM – 10:00 PM / Sunday: 10:30 AM – 10:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJEe2E-PYxUDARcfOQB3Woa9w",
-    "ai_reviewed": false,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "red-cnx",
-    "name": "Red CNX",
-    "name_ja": "レッド CNX",
-    "area": "Chiang Mai",
-    "address": "Floor 3, 12 Huay Kaew Rd, Chang Peuk, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50300, Thailand",
-    "lat": 18.7975,
-    "lng": 98.9761,
-    "phone": "+66924044495",
-    "website": "http://www.facebook.com/redbarcnx",
-    "description": "チェンマイで日本語が通じる居酒屋・バー。和食メニューとビール・日本酒・カクテルが揃い、日本人在住者が食事や一杯を楽しめる空間。",
-    "tags": [
-      "居酒屋",
-      "日本酒"
-    ],
-    "hours": "Monday: Closed / Tuesday: Closed / Wednesday: Closed / Thursday: Closed / Friday: 8:00 PM – 3:00 AM / Saturday: 8:00 PM – 3:00 AM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJ7UIyUQox2jARW39oZ34AMwA",
-    "priority": 0,
-    "ai_reviewed": false,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "red-nikkei-bar-sukhumvit",
     "name": "RED Nikkei Bar",
     "name_ja": "レッド ニッケイ バー",
     "area": "Sukhumvit",
-    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "address": "130/1 Soi Sangchai, Phra Khanong, Khlong Toei, Bangkok 10110",
     "phone": null,
-    "website": null,
-    "description": "バンコクの日本語対応バー。日本とペルー料理を融合した創作料理が特徴で、セビーチェと刺身を組み合わせた料理やカクテルが楽しめる。",
+    "website": "https://www.facebook.com/profile.php?id=100090108080820",
+    "description": "日本とペルーの食文化を融合したニッケイ料理のバー&ステーキ店。セビーチェと刺身を組み合わせた料理やグリル料理が揃う。火〜日の17時から営業。",
     "tags": [
       "居酒屋",
       "バー",
@@ -26656,7 +26574,7 @@
       "ペルー料理",
       "日系"
     ],
-    "hours": null,
+    "hours": "Tuesday: 5:00 PM – 12:00 AM / Wednesday: 5:00 PM – 12:00 AM / Thursday: 5:00 PM – 12:00 AM / Friday: 5:00 PM – 12:00 AM / Saturday: 5:00 PM – 12:00 AM / Sunday: 5:00 PM – 12:00 AM",
     "status": "unverified",
     "last_verified": "2026-03-28",
     "source": "google_maps",
@@ -26666,19 +26584,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "red-snapper",
     "name": "Red Snapper",
     "name_ja": "レッド スナッペル",
     "area": "Phuket",
-    "address": "Thanon Kata Kata, ตำบล กะรน อำเภอเมืองภูเก็ต ภูเก็ต 83100, Thailand",
+    "address": "100/48 Kata Road, Kata Beach, Karon, Phuket 83100",
     "lat": 7.8242,
     "lng": 98.2993,
     "phone": "+66861204513",
-    "website": null,
-    "description": "プーケットで日本語が通じる居酒屋・バー。和食メニューとビール・日本酒・カクテルが揃い、日本人在住者が食事や一杯を楽しめる空間。",
+    "website": "https://www.facebook.com/RedSnapperPhuket/",
+    "description": "プーケット・カタビーチの日本・イタリアン融合レストラン。日本人シェフによる新鮮な刺身・寿司と本格パスタが同時に楽しめるユニークな小店。",
     "tags": [
       "居酒屋",
       "日本酒"
@@ -26695,7 +26614,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "reiji",
@@ -26704,8 +26624,8 @@
     "area": "Bangkok",
     "address": "1219 7 Soi Bang Na-Trat 37, Bang Na Nuea, Khet Bang Na, Krung Thep Maha Nakhon 10260, Thailand",
     "phone": "+66972297162",
-    "website": null,
-    "description": "バンコクにある日本食レストラン「レイジ」。在タイ日本人に親しまれる本格的な日本食が楽しめる。ランチ・ディナーともに対応している。",
+    "website": "https://www.facebook.com/reijibangna/",
+    "description": "バンコク・バンナーのコンドミニアム内にある、落ち着いた雰囲気の日本料理店。寿司・刺身・巻き物が揃い、地元日本人から「秘密の日本食レストラン」と評される。",
     "tags": [
       "日本食",
       "レストラン"
@@ -26721,17 +26641,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "rengaya-thaniya-plaza",
     "name": "Rengaya",
     "name_ja": "レンガヤ",
     "area": "Silom",
-    "address": "2F, Thaniya Plaza, Silom, Bang Rak, Bangkok 10500",
-    "phone": null,
+    "address": "2F Thaniya Plaza, Silom, Bang Rak, Bangkok 10500",
+    "phone": "+6622312140",
     "website": "https://www.facebook.com/RengayaThailand/",
-    "description": "シーロムのタニヤにある日本式焼肉専門店。厳選された肉を日本の焼肉スタイルで楽しめる。ランチ・ディナーともに在タイ日本人に親しまれる。",
+    "description": "タニヤプラザ2階の日本式焼肉専門店。炭火焼きの和牛・豚・海鮮を日本風に楽しめる。ランチセットのコスパが高く、駐在員に人気の老舗。",
     "tags": [
       "焼肉",
       "老舗",
@@ -26747,24 +26668,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "rice-cafe-tsubaki-bangkok",
     "name": "Rice Cafe Tsubaki",
     "name_ja": "ライスカフェ つばき",
-    "area": "Phrom Phong",
-    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "area": "Ekkamai",
+    "address": "Room 101-3, 1F Donki Mall Thonglor, 107 Soi Sukhumvit 63, Khlong Tan Nuea, Watthana, Bangkok 10110",
     "phone": null,
     "website": null,
-    "description": "バンコク初のお米カフェ。お茶漬けや日本のお米を使ったメニューを提供する日本人経営のカフェレストラン。優しい味わいの和食が楽しめる。",
+    "description": "バンコク初のお米カフェ。ドンキモールトンロー1階に入居し、お茶漬け（鯛・鮭・鶏等）とコーヒーを提供。日本人オーナーが営む優しい味わいの和カフェ。",
     "tags": [
       "カフェ",
       "お茶漬け",
       "日本米",
       "日本人経営"
     ],
-    "hours": null,
+    "hours": "Monday: Closed / Tuesday: 12:00 PM – 9:00 PM / Wednesday: 12:00 PM – 9:00 PM / Thursday: 12:00 PM – 9:00 PM / Friday: 12:00 PM – 9:00 PM / Saturday: 12:00 PM – 9:00 PM / Sunday: 12:00 PM – 9:00 PM",
     "status": "unverified",
     "source": "website",
     "last_verified": "2026-03-27",
@@ -26774,46 +26696,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "rice-cafe-tsubaki-bangkok-restaurant",
-    "name": "Rice Cafe Tsubaki",
-    "name_ja": "ライスカフェ椿",
-    "area": "Sukhumvit",
-    "address": "Soi Sukhumvit 39, Khlong Tan Nuea, Watthana, Bangkok 10110",
-    "phone": null,
-    "website": null,
-    "description": "スクンビットソイ39の日本料理レストラン。寿司・刺身・焼き物・揚げ物など多彩な和食メニューを提供し、在タイ日本人に親しまれる味",
-    "tags": [
-      "定食",
-      "おにぎり",
-      "カレー",
-      "家庭料理"
-    ],
-    "hours": "8:00-17:00",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": false,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "riddler",
-    "name": "Riddler",
-    "name_ja": "リッドレル",
+    "name": "The Riddler Japanese Gastronomic Dining & Wine Bar",
+    "name_ja": "ザ・リドラー",
     "area": "Bangkok",
-    "address": "15/2 Woodberry Common Building B (1st Floor, Room B1, Ruamrudee Road, แขวงลุมพินี เขตปทุมวัน กรุงเทพมหานคร 10330, Thailand",
+    "address": "15/2 Woodberry Common Building B, 1F, Soi Ruamrudee, Lumphini, Pathum Wan, Bangkok 10330",
     "lat": 13.7405,
     "lng": 100.5495,
-    "phone": null,
-    "website": null,
-    "description": "バンコクで日本語が通じる居酒屋・バー。和食メニューとビール・日本酒・カクテルが揃い、日本人在住者が食事や一杯を楽しめる空間。",
+    "phone": "+66825477005",
+    "website": "https://www.riddler.co.th",
+    "description": "名古屋出身のシェフが手がける日本ガストロノミーダイニング＆ワインバー。200本超のワインと、チェンマイトマトや和牛を使う創作和食が評判。火〜日営業。",
     "tags": [
       "居酒屋",
       "日本酒"
@@ -26830,19 +26726,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "rin-japanese-izakaya",
     "name": "Rin Japanese Izakaya",
     "name_ja": "Rin 日本 居酒屋",
     "area": "Chiang Mai",
-    "address": "158/1, 158/2 Lampang - Chiang Mai Superhighway, Tambon Pa Tan, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50300, Thailand",
+    "address": "158/1 Lampang - Chiang Mai Superhighway, Pa Tan, Mueang, Chiang Mai 50300",
     "lat": 18.8113,
     "lng": 98.992,
     "phone": "+66890321769",
-    "website": "http://www.facebook.com/rinjapaneseizakaya",
-    "description": "チェンマイで日本語が通じる居酒屋。刺身・焼き物・揚げ物など多彩な和食メニューと日本酒・ビールが揃い、日本の居酒屋の雰囲気が楽しめる。",
+    "website": "https://www.facebook.com/rinjapaneseizakaya",
+    "description": "チェンマイの本格居酒屋。刺身・焼き鳥・天ぷら・ラーメンなど多彩な和食メニューに加え、ビュッフェコースも提供。夜は生演奏もあり、活気ある雰囲気が人気。",
     "tags": [
       "居酒屋",
       "日本酒"
@@ -26859,7 +26756,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "rin-s-premium-curry",
@@ -26871,7 +26769,7 @@
     "lng": 100.9271,
     "phone": "+66924053135",
     "website": null,
-    "description": "シラチャの日本式カレー店。日本のカレーライスを中心に提供し、豊富なトッピングと辛さの選択が可能。ランチタイムに手軽に利用可能",
+    "description": "シラチャの日本式カレー専門店。豊富なトッピングと辛さ選択ができる本格カレーライスを提供。夕方から夜の営業で、週末はランチも対応する小さなお気に入り店。",
     "tags": [
       "日本食",
       "カレー",
@@ -26889,36 +26787,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "ringo-nuru-massage-spa-pattaya",
-    "name": "Ringo Nuru Massage ,spa Pattaya ,泰式按摩,水疗,リラクゼーション,힐링마사지",
-    "name_ja": "Ringo Nuru Massage ,spa Pattaya ,泰式按摩,水疗,リラクゼーション,힐링마사지",
-    "area": "Pattaya",
-    "address": "206, 111, Muang Pattaya, Amphoe Bang Lamung, Chang Wat Chon Buri 20150, Thailand",
-    "lat": 12.9337,
-    "lng": 100.898,
-    "phone": "+66924952993",
-    "website": "http://www.ringopattaya.com/",
-    "description": "パタヤで日本語が通じる居酒屋・バー。和食メニューとビール・日本酒・カクテルが揃い、日本人在住者が食事や一杯を楽しめる空間。",
-    "tags": [
-      "居酒屋",
-      "日本酒"
-    ],
-    "hours": "Monday: 1:00 PM – 1:00 AM / Tuesday: 1:00 PM – 1:00 AM / Wednesday: 1:00 PM – 1:00 AM / Thursday: 1:00 PM – 1:00 AM / Friday: 12:00 PM – 1:30 AM / Saturday: 12:00 PM – 1:30 AM / Sunday: 6:00 PM – 1:00 AM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJ1T-2kkCVAjER1zb0TFM4DHI",
-    "priority": 0,
-    "ai_reviewed": false,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "rit-japanese-foods",
@@ -26929,8 +26799,8 @@
     "lat": 13.7511,
     "lng": 100.4785,
     "phone": "+66926731421",
-    "website": "https://www.facebook.com/Rit-Japanese-Food-1764752533539703/",
-    "description": "バンコクにある日本食レストラン「RIT 日本 フードズ」。在タイ日本人に親しまれる本格的な日本食が楽しめる。ランチ・ディナーともに対応している。",
+    "website": "https://www.facebook.com/p/Rit-Japanese-Food-100063502994745/",
+    "description": "バンコク・バンコクノイ地区の日本食レストラン。寿司・刺身・定食などの和食メニューを提供する地域密着型の日本料理店。",
     "tags": [
       "日本食",
       "レストラン"
@@ -26947,22 +26817,23 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "rita-takara",
     "name": "RITA Takara 利他宝",
     "name_ja": "利他宝",
     "area": "Bangkok",
-    "address": "GU011, Silom Edge , G Floor Khwaeng Suriya Wong, Khet Bang Rak, Krung Thep Maha Nakhon 10500, Thailand",
-    "phone": "+66627936444",
+    "address": "GU011, G Floor, Silom Edge, Suriyawong, Bang Rak, Bangkok 10500",
+    "phone": "+66644916529",
     "website": "https://www.facebook.com/ritatakarajapanesebowls",
-    "description": "バンコクにある日本食レストラン「利他宝」。在タイ日本人に親しまれる本格的な日本食が楽しめる。ランチ・ディナーともに対応している。",
+    "description": "シーロムEdge1階の日本式フュージョンボウル店。丼・ご飯ものを中心とした手頃な価格の日本食が楽しめる。毎日11〜23時営業。",
     "tags": [
       "日本食",
       "レストラン"
     ],
-    "hours": "Monday: 11:00 AM – 11:00 PM / Tuesday: 11:00 AM – 11:00 PM / Wednesday: 11:00 AM – 11:00 PM / Thursday: 11:00 AM – 11:00 PM / Friday: 11:00 AM – 11:00 PM / Saturday: 11:00 AM – 11:00 PM / Sunday: 11:00 AM – 11:00 PM",
+    "hours": "Monday: 11:00 AM – 11:00 PM / Tuesday: 11:00 AM – 11:00 PM / Wednesday: 11:00 AM – 11:00 PM / Thursday: 11:00 AM – 11:00 PM / Friday: 11:00 AM – 11:00 PM / Saturday: 11:00 AM – 11:00 PM / Sunday: 11:00 AM – 11:00 PM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
@@ -26973,7 +26844,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "robatayaki-and-sake-aoki-japanese-restaurant",
@@ -28730,7 +28602,7 @@
     "address": "バンコク市内各ショッピングモール（多数店舗あり）",
     "phone": null,
     "website": null,
-    "description": "Oishiグループが展開する日本式しゃぶしゃぶ食べ放題チェーン。回転寿司レーンとしゃぶしゃぶ鍋の両方が楽しめるユニークなスタイル。リーズナブルな価格で家族連れに大人気。",
+    "description": "Oishiグループが展開する日本式しゃぶしゃぶ食べ放題チェーン。コンベアベルトで流れるしゃぶしゃぶ食材と寿司を同時に楽しめる独自スタイル。バンコク市内の主要モールに多数出店。",
     "tags": [
       "しゃぶしゃぶ",
       "食べ放題",
@@ -28746,7 +28618,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shabushi-by-oishi",
@@ -28756,7 +28629,7 @@
     "address": "333/99 หมู่ 9 ตำบล หนองปรือ Amphoe Bang Lamung, Chang Wat Chon Buri 20150, Thailand",
     "phone": "+66952074686",
     "website": "https://www.oishifood.com/restaurant/shabushi/",
-    "description": "パタヤにある日本式しゃぶしゃぶ専門店。日本式の出汁を使ったしゃぶしゃぶ・すき焼きを楽しめる。在タイ日本人に親しまれる一軒。",
+    "description": "Oishiグループのしゃぶしゃぶ&寿司ビュッフェ。コンベアベルトから取れる多彩な食材をしゃぶしゃぶ鍋で楽しめる。パタヤのモール内に位置し家族連れに人気。",
     "tags": [
       "日本食",
       "しゃぶしゃぶ",
@@ -28773,17 +28646,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shabushi-by-oishi-2",
     "name": "Shabushi by Oishi",
     "name_ja": "しゃぶし by おいしい",
     "area": "Pattaya",
-    "address": "Central Marina, 2nd floor, shop unit 253, เมืองพัทยา อำเภอบางละมุง ชลบุรี 20150, Thailand",
+    "address": "2F Central Marina, Shop 253, Mueang Pattaya, Bang Lamung, Chon Buri 20150",
     "phone": "+6638197466",
     "website": "https://www.oishifood.com/restaurant/shabushi/",
-    "description": "パタヤにある日本式しゃぶしゃぶ専門店。日本式の出汁を使ったしゃぶしゃぶ・すき焼きを楽しめる。在タイ日本人に親しまれる一軒。",
+    "description": "Oishiグループのしゃぶしゃぶ&寿司ビュッフェ。セントラルマリーナ2階に位置し、コンベアベルト式で100種超のメニューをオーダー可能。パタヤでの家族利用に最適。",
     "tags": [
       "日本食",
       "しゃぶしゃぶ",
@@ -28800,17 +28674,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shabushi-ichiten-one-bangkok",
     "name": "Shabushi Ichiten One Bangkok",
     "name_ja": "シャブシ イチテン ワン バンコク",
     "area": "Lumphini",
-    "address": "One Bangkok, Wireless Road, Lumphini, Pathum Wan, Bangkok 10330",
+    "address": "5F Parade Building, One Bangkok, Wireless Road, Lumphini, Pathum Wan, Bangkok 10330",
     "phone": null,
-    "website": null,
-    "description": "回転式コンベアベルトでしゃぶしゃぶの具材が回る日本式しゃぶしゃぶ店のフラッグシップ店。2段式コンベアベルトで100種以上のメニューを提供。",
+    "website": "https://www.oishifood.com/restaurant/shabushi/",
+    "description": "Oishiグループのしゃぶしゃぶフラッグシップ店。2段コンベアベルトで100種超のメニューを提供し、F1黒オパール和牛など高級食材も選択可能なプレミアム体験。",
     "tags": [
       "しゃぶしゃぶ",
       "コンベアベルト",
@@ -28826,7 +28701,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shakarich-surawong",
@@ -28989,17 +28865,17 @@
     "name": "Shakariki432 SENAFEST Charoen Nakhon",
     "name_ja": "しゃかりき432 セナフェスト",
     "area": "Bangkok",
-    "address": "เลขที่ห้อง G03,103 542,542/1 เสนาเฟสท์ 2 ศูนย์การค้า Khwaeng Khlong Ton Sai, Khet Khlong San, Krung Thep Maha Nakhon 10600, Thailand",
+    "address": "Room G03,103, Sena Fest Shopping Center, 542/1-2 Charoen Nakhon Rd., Khlong Ton Sai, Khlong San, Bangkok 10600",
     "lat": 13.7194,
     "lng": 100.5078,
     "phone": "+6624393432",
-    "website": "https://shakariki432.com/en/brand-en/shakariki-outlet-en/shakariki-432-sena/",
-    "description": "バンコクで日本語が通じる居酒屋・バー。和食メニューとビール・日本酒・カクテルが揃い、日本人在住者が食事や一杯を楽しめる空間。",
+    "website": "https://shakariki432.com/en/",
+    "description": "ICONSIAMそばのセナフェストモール内に入居する大阪系居酒屋チェーン。400品超のメニューと深夜5時までの営業が駐在員や観光客に人気。",
     "tags": [
       "居酒屋",
       "日本酒"
     ],
-    "hours": "Monday: 7:00 AM – 5:00 AM / Tuesday: 7:00 AM – 5:00 AM / Wednesday: 7:00 AM – 5:00 AM / Thursday: 7:00 AM – 5:00 AM / Friday: 7:00 AM – 5:00 AM / Saturday: 7:00 AM – 5:00 AM / Sunday: 7:00 AM – 5:00 AM",
+    "hours": "Monday: 7:00 AM – 5:00 AM / Tuesday: 7:00 AM – 5:00 AM / Wednesday: 7:00 AM – 5:00 AM / Thursday: 7:00 AM – 5:00 AM / Friday: 7:00 AM – 5:00 AM / Saturday: 7:00 AM – 5:00 AM / Sunday: 7:00 AM – 5:00 AM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
@@ -29011,22 +28887,23 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shakariki432-think-park-chiang-mai-nimmanhaemin",
     "name": "Shakariki432 Think Park Chiang Mai Nimmanhaemin",
     "name_ja": "しゃかりき432 シンクパーク チェンマイ",
     "area": "Chiang Mai",
-    "address": "165 ถนนห้วยแก้ว โครงการ Think Park ห้องเลขที่ A202, A203, สุเทพ, ตำบลสุเทพ อำเภอเมืองเชียงใหม่ เชียงใหม่ 50200, Thailand",
+    "address": "165 Huay Kaew Road, Room A202-A203, Think Park, Suthep, Mueang, Chiang Mai 50200",
     "phone": "+6653215432",
-    "website": "https://aroimaru.com/restaurants/shakariki432-chiangmai-think-park/",
-    "description": "チェンマイにある日本食レストラン「しゃかりき432」。在タイ日本人に親しまれる本格的な日本食が楽しめる。ランチ・ディナーともに対応している。",
+    "website": "https://shakariki432.com/en/",
+    "description": "チェンマイ・ニマンヘーミンのシンクパーク内にある大阪系居酒屋。400品超のメニューと深夜5時まで営業する活気ある雰囲気が地元日本人と観光客に支持されている。",
     "tags": [
       "日本食",
       "レストラン"
     ],
-    "hours": "Monday: 12:00 PM – 5:00 AM / Tuesday: 12:00 PM – 5:00 AM / Wednesday: 12:00 PM – 5:00 AM / Thursday: 12:00 PM – 5:00 AM / Friday: 12:00 PM – 5:00 AM / Saturday: 12:00 PM – 5:00 AM / Sunday: 12:00 PM – 5:00 AM",
+    "hours": "Monday: 12:00 PM – 5:00 AM / Tuesday: 12:00 PM – 5:00 AM / Wednesday: 12:00 PM – 5:00 AM / Thursday: 12:00 PM – 5:00 AM / Friday: 12:00 PM – 5:00 AM / Saturday: 12:00 PM – 5:00 AM / Sunday: 12:00 PM – 5:00 AM",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
@@ -29037,17 +28914,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shakariki432-thonglor",
     "name": "Shakariki 432",
     "name_ja": "しゃかりき432",
     "area": "Thonglor",
-    "address": "Soi Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
-    "phone": null,
-    "website": null,
-    "description": "BTSトンロー駅周辺の日本人経営居酒屋。活気ある雰囲気で焼き鳥・刺身・一品料理が揃い、リーズナブルな価格で仕事帰りの駐在員に人気。",
+    "address": "159/2-3 Soi Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": "+6623818432",
+    "website": "https://shakariki432.com/en/",
+    "description": "BTSトンロー駅徒歩10〜15分の大阪系居酒屋。焼き鳥・刺身・たこ焼きなど400品超のメニューを揃え、タイ・日本語カラオケ完備。仕事帰りの駐在員に人気。",
     "tags": [
       "日本語対応",
       "居酒屋",
@@ -29064,17 +28942,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shamo-sumibi-yakitori-bangkok",
     "name": "Shamo Sumibi Yakitori BKK",
     "name_ja": "シャモ スミビ 焼鳥 BKK",
     "area": "Sukhumvit",
-    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
-    "phone": null,
-    "website": null,
-    "description": "スクンビットで日本語が通じる焼き鳥店。備長炭で丁寧に焼き上げる焼き鳥と日本酒・ビールが揃い、日本の居酒屋の雰囲気を再現している。",
+    "address": "808/7 Soi Sukhumvit 55 (Thong Lor), Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "phone": "+66925862203",
+    "website": "https://www.facebook.com/shamobkk/",
+    "description": "1985年大阪創業の焼き鳥チェーンのバンコク店。宮崎地鶏「シャモ」を備長炭で丁寧に焼き上げ、生鶏メニューも提供する本格派。予約必須の小さな名店。",
     "tags": [
       "居酒屋",
       "焼き鳥",
@@ -29091,7 +28970,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shamo-sumibi-yakitori-bkk",
