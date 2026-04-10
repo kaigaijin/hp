@@ -1,18 +1,9 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import CountryCard from "@/components/CountryCard";
-import { countries, regionOrder, regionLabels } from "@/lib/countries";
+import { countries } from "@/lib/countries";
 import { getCategoryCounts } from "@/lib/directory";
-import { Globe } from "lucide-react";
 
 export default function Home() {
-  // 地域ごとにグルーピング
-  const countriesByRegion = regionOrder.map((region) => ({
-    region,
-    label: regionLabels[region],
-    countries: countries.filter((c) => c.region === region),
-  }));
-
   // 各国のスポット件数を計算
   const spotCounts: Record<string, number> = {};
   for (const c of countries) {
@@ -213,32 +204,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* ===== 国別ガイド ===== */}
-        <section id="countries" className="py-20 md:py-28 bg-white dark:bg-stone-950">
-          <div className="max-w-6xl mx-auto px-4">
-            <div className="mb-12">
-              <p className="section-label mb-4">— COUNTRIES</p>
-              <h2 className="heading-editorial text-4xl md:text-5xl font-bold">
-                国別ガイド
-              </h2>
-            </div>
-            {countriesByRegion.map((group, i) => (
-              <div key={group.region} className={i < countriesByRegion.length - 1 ? "mb-16" : ""}>
-                <div className="flex items-center gap-3 mb-6">
-                  <Globe className="text-warm-500 dark:text-warm-400" size={18} />
-                  <h3 className="heading-editorial text-2xl font-bold">
-                    {group.label}
-                  </h3>
-                </div>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                  {group.countries.map((c) => (
-                    <CountryCard key={c.code} country={c} spotCount={spotCounts[c.code] ?? 0} />
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
 
         {/* ===== 数字で見る ===== */}
         <section className="py-20 md:py-28 bg-gradient-to-br from-stone-950 to-[#1a2e35] text-white">
