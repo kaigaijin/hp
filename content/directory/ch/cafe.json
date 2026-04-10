@@ -38,5 +38,48 @@
     "place_reviewed": true,
     "needs_review": false,
     "japanese_staff": null
+  },
+  {
+    "slug": "mame-coffee-zurich",
+    "name": "MAME",
+    "name_ja": "マメ コーヒー チューリッヒ",
+    "area": "Zürich",
+    "address": "Josefstrasse 160, 8005 Zürich",
+    "phone": null,
+    "phone_local": null,
+    "email": null,
+    "website": "https://mame.coffee/",
+    "source_url": "https://mame.coffee/locations/",
+    "description": "日本人バリスタチャンピオン・Emi Fukahoriが2016年に共同創業したチューリッヒの日本式スペシャルティコーヒーロースター。チューリッヒに4店舗、ジュネーブに2店舗を展開。",
+    "detail": "スイス人バリスタチャンピオンの日本人Emi FukahoriとMathieu Theisが2016年に共同創業したスペシャルティコーヒーのロースター・カフェ。「豆（まめ）」を意味する日本語を店名に冠し、日本式のコーヒーへのこだわりを表現。チューリッヒ（ヨゼフ・ゼーフェルト・タールヴィル・ゲルトルート）とジュネーブ（プランパレー・サン・ジェルヴェ）の計6拠点で展開。ヨゼフ店はロースタリーを併設。月〜金7:30〜17:00、土・日8:30〜17:00。",
+    "menu": [
+      "スペシャルティコーヒー",
+      "エスプレッソ",
+      "フィルターコーヒー",
+      "抹茶ラテ",
+      "焙煎豆販売"
+    ],
+    "price_range": null,
+    "tags": [
+      "日本人創業",
+      "スペシャルティコーヒー",
+      "ロースター",
+      "チューリッヒ",
+      "多店舗展開"
+    ],
+    "hours": "月〜金 7:30-17:00 / 土・日 8:30-17:00",
+    "status": "unverified",
+    "last_verified": "2026-04-10",
+    "source": "website",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null,
+    "place_reviewed": true,
+    "needs_review": false,
+    "japanese_staff": true
   }
 ]
