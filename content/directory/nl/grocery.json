@@ -1,35 +1,5 @@
 [
   {
-    "slug": "albert-heijn-amsterdam",
-    "name": "Albert Heijn Amsterdam",
-    "name_ja": "アルバート・ハイン・アムステルダム",
-    "area": "Amsterdam",
-    "address": "Kalverstraat 150-152, 1012 XE Amsterdam",
-    "phone": "+31-20-6273-000",
-    "phone_local": null,
-    "email": null,
-    "website": "https://www.ah.nl",
-    "source_url": "https://www.ah.nl",
-    "description": "Amsterdamの高級スーパー。アジア食品充実。",
-    "detail": "Albert Heijn AmsterdamはNetherlands の高級スーパーマーケットチェーン。Kalverstraat は繁華街で便利。アジア食品セクションが充実し、日本食材も豊富。",
-    "menu": null,
-    "price_range": null,
-    "tags": [
-      "grocery"
-    ],
-    "hours": null,
-    "status": "verified",
-    "last_verified": "2026-04-06",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
     "slug": "atariya-amsterdam",
     "name": "Japanse Delicatessen Atariya",
     "name_ja": "アタリヤ アムステルダム",
@@ -148,33 +118,45 @@
     "japanese_staff": true
   },
   {
-    "slug": "tandarts-de-kroon-amsterdam",
-    "name": "Tandarts De Kroon Amsterdam",
-    "name_ja": "タンダルツ・デ・クローン",
+    "slug": "shilla-japanese-korean-market-amsterdam",
+    "name": "Shilla Japanese & Korean Food Market",
+    "name_ja": "シラ 日本・韓国食品マーケット アムステルダム",
     "area": "Amsterdam",
-    "address": "Prinsengracht 764, 1016 HX Amsterdam",
-    "phone": "+31-20-6244-1234",
+    "address": "Gelderlandplein 187, 1082 LW Amsterdam",
+    "phone": "+31206428423",
     "phone_local": null,
     "email": null,
-    "website": "https://www.tandarts-de-kroon.nl",
-    "source_url": "https://www.tandarts-de-kroon.nl",
-    "description": "Amsterdam の歯科医院。英語・多言語対応。",
-    "detail": "Tandarts De Kroon AmsterdamはAmsterdam の歯科医院。English と multiple languages で対応。一般診療・インプラント・審美治療。",
-    "menu": null,
+    "website": "https://shillamarket.com/",
+    "source_url": "https://shillamarket.com/pages/stores",
+    "description": "アムステルダム南部・ヘルデルランツプレイン内の日本・韓国食品マーケット。手作り惣菜・キンパ・韓国BBQ肉・日本食材を販売。毎週木曜は日本式パンの焼きたてを提供。",
+    "detail": "アムステルダム南部のヘルデルランツプレイン（屋内商店街）内にある日本・韓国食品マーケット。日本食材・韓国食材・調味料のほか、キンパ・韓国BBQ肉など手作り惣菜のテイクアウトも充実。毎週木曜は日本式焼きたてパンが届く。アムステルフェーン支店も展開。オンラインショップ（shillamarket.com）でも購入可能。月11:30〜18:00、火〜土9:30〜18:00、日12:00〜17:00。",
+    "menu": [
+      "日本食材・調味料",
+      "韓国食材",
+      "手作りキンパ",
+      "韓国BBQ肉",
+      "日本式パン（木曜）"
+    ],
     "price_range": null,
     "tags": [
-      "dental"
+      "日本食材",
+      "韓国食材",
+      "惣菜テイクアウト",
+      "アムステルダム南部"
     ],
-    "hours": null,
+    "hours": "月 11:30-18:00 / 火〜土 9:30-18:00 / 日 12:00-17:00",
     "status": "verified",
-    "last_verified": "2026-04-06",
-    "source": "web_search",
+    "last_verified": "2026-04-11",
+    "source": "website",
     "place_id": "",
     "priority": 0,
     "ai_reviewed": true,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true,
+    "needs_review": false,
+    "japanese_staff": null
   }
 ]

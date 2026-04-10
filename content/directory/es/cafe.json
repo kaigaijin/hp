@@ -163,5 +163,47 @@
     "place_reviewed": true,
     "needs_review": false,
     "japanese_staff": null
+  },
+  {
+    "slug": "hanso-cafe-madrid",
+    "name": "HanSo Café",
+    "name_ja": "ハンソカフェ マドリード",
+    "area": "Madrid",
+    "address": "Calle del Pez 20, 28004 Madrid",
+    "phone": "+34911375429",
+    "phone_local": null,
+    "email": "info@hansocafe.es",
+    "website": "https://hansocafe.es/",
+    "source_url": "https://hansocafe.es/",
+    "description": "マドリードのユニベルシダ地区にある日本スタイルカフェ。抹茶ラテ・マッチャハウス産抹茶スイーツ・季節のケーキが並ぶ。日本とスペインの食文化を融合させた個性的なブランチメニューが人気。",
+    "detail": "マドリードのカジェ・デル・ペス（ペス通り）20番地に位置する日本インスパイアのカフェ。「The Matcha House」産の抹茶を使った本格抹茶ラテと、抹茶クレープケーキ・モンブランなど季節のスイーツが特徴。卵ベネディクトやワッフルに日本のウマミ要素を加えたブランチメニューも人気。マドリードにコスタデロスアンヘレス通り7番地の3号店まで展開。月〜金9:00〜20:00、土・日・祝10:00〜20:00。",
+    "menu": [
+      "抹茶ラテ",
+      "抹茶クレープケーキ",
+      "ブランチメニュー",
+      "スペシャルティコーヒー"
+    ],
+    "price_range": null,
+    "tags": [
+      "抹茶カフェ",
+      "日本スタイル",
+      "ブランチ",
+      "マドリード",
+      "ユニベルシダ"
+    ],
+    "hours": "月〜金 9:00-20:00 / 土・日・祝 10:00-20:00",
+    "status": "verified",
+    "last_verified": "2026-04-11",
+    "source": "website",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null,
+    "place_reviewed": true,
+    "needs_review": false,
+    "japanese_staff": null
   }
 ]
