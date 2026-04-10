@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   },
   other: {
-    "impact-site-verification": "a5545854-321c-4bf4-9bc6-2f8d5e7d4ad4",
+    "impact-site-verification": "56e15535-bbd7-4935-8635-28543407b4d0",
   },
   icons: {
     icon: [
