@@ -106,3 +106,12 @@ export function getAllArticles(): ArticleMeta[] {
     .flatMap((country) => getArticlesByCountry(country))
     .sort((a, b) => (a.date > b.date ? -1 : 1));
 }
+
+// 帰国者向け記事（content/return/）
+export function getReturnArticles(): ArticleMeta[] {
+  return getArticlesByCountry("return");
+}
+
+export function getReturnArticle(slug: string) {
+  return getArticle("return", slug);
+}

@@ -1,6 +1,6 @@
 import { MetadataRoute } from "next";
 import { countries } from "@/lib/countries";
-import { getAllArticles } from "@/lib/articles";
+import { getAllArticles, getReturnArticles } from "@/lib/articles";
 import { categories, getAllSpots } from "@/lib/directory";
 import { JOB_INDUSTRIES, getAllJobs } from "@/lib/jobs";
 
@@ -114,6 +114,21 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   for (const article of articles) {
     entries.push({
       url: `${BASE_URL}/${article.country}/column/${article.slug}`,
+      lastModified: new Date(article.lastModified ?? article.date),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    });
+  }
+
+  // 帰国準備ガイド
+  entries.push({
+    url: `${BASE_URL}/return`,
+    changeFrequency: "weekly",
+    priority: 0.8,
+  });
+  for (const article of getReturnArticles()) {
+    entries.push({
+      url: `${BASE_URL}/return/${article.slug}`,
       lastModified: new Date(article.lastModified ?? article.date),
       changeFrequency: "monthly",
       priority: 0.7,
