@@ -24,11 +24,11 @@ export async function POST(req: NextRequest) {
     }
 
     const raw = fs.readFileSync(filePath, "utf-8");
-    const spots = JSON.parse(raw) as Array<Record<string, unknown>>;
+    const places = JSON.parse(raw) as Array<Record<string, unknown>>;
 
     if (action === "delete") {
-      const filtered = spots.filter((s) => s.slug !== slug);
-      if (filtered.length === spots.length) {
+      const filtered = places.filter((s) => s.slug !== slug);
+      if (filtered.length === places.length) {
         return NextResponse.json({ error: "スポットが見つかりません" }, { status: 404 });
       }
       fs.writeFileSync(filePath, JSON.stringify(filtered, null, 2), "utf-8");
@@ -36,7 +36,7 @@ export async function POST(req: NextRequest) {
     }
 
     // keep: needs_review フラグを除去
-    const updated = spots.map((s) => {
+    const updated = places.map((s) => {
       if (s.slug !== slug) return s;
       const { needs_review, review_note, ...rest } = s as Record<string, unknown>;
       void needs_review;

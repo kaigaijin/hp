@@ -1,5 +1,5 @@
 // スポット件数を国別・カテゴリ別にカウント
-// 使い方: npx tsx scripts/count-spots.ts
+// 使い方: npx tsx scripts/count-places.ts
 
 import fs from "fs";
 import path from "path";
@@ -29,11 +29,11 @@ function main() {
     let countryWithId = 0;
 
     for (const file of files) {
-      const spots: { place_id?: string }[] = JSON.parse(
+      const places: { place_id?: string }[] = JSON.parse(
         fs.readFileSync(path.join(countryDir, file), "utf-8")
       );
-      const hasId = spots.filter((s) => s.place_id).length;
-      countryTotal += spots.length;
+      const hasId = places.filter((s) => s.place_id).length;
+      countryTotal += places.length;
       countryWithId += hasId;
     }
 

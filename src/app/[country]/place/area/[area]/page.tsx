@@ -2,12 +2,12 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import SpotGroupList from "@/components/SpotGroupList";
+import placeGroupList from "@/components/placeGroupList";
 import { getCountry, countries } from "@/lib/countries";
 import {
   getAllAreas,
   getAreaNameBySlug,
-  getSpotsByArea,
+  getplacesByArea,
   getCategory,
   categoryGroups,
   categories,
@@ -60,11 +60,11 @@ export default async function AreaDetailPage({
   const areaName = getAreaNameBySlug(code, areaSlug);
   if (!areaName) notFound();
 
-  const spots = getSpotsByArea(code, areaName);
-  if (spots.length === 0) notFound();
+  const places = getplacesByArea(code, areaName);
+  if (places.length === 0) notFound();
 
-  // SpotGroupList用に変換
-  const spotItems = spots.map((s) => ({
+  // placeGroupList用に変換
+  const placeItems = places.map((s) => ({
     slug: s.slug,
     name: s.name,
     name_ja: s.name_ja,
@@ -81,7 +81,7 @@ export default async function AreaDetailPage({
 
   // サブカテゴリ（カテゴリフィルタ用）
   const catCounts: Record<string, number> = {};
-  for (const s of spots) {
+  for (const s of places) {
     catCounts[s.category] = (catCounts[s.category] ?? 0) + 1;
   }
   const subCategories = Object.entries(catCounts)
@@ -125,15 +125,15 @@ export default async function AreaDetailPage({
                   {areaName}
                 </h1>
                 <p className="text-sm text-stone-500 dark:text-stone-400 mt-0.5">
-                  {spots.length}件のスポット
+                  {places.length}件のスポット
                 </p>
               </div>
             </div>
           </div>
         </div>
 
-        <SpotGroupList
-          spots={spotItems}
+        <placeGroupList
+          places={placeItems}
           subCategories={subCategories}
           countryCode={code}
           theme={theme ? {

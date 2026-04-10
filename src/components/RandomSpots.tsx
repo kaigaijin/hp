@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 
-type Spot = {
+type place = {
   slug: string;
   name: string;
   name_ja?: string | null;
@@ -11,7 +11,7 @@ type Spot = {
 };
 
 type Props = {
-  spots: Spot[];
+  places: place[];
   countryCode: string;
   categorySlug: string;
   accentClass: string;
@@ -20,8 +20,8 @@ type Props = {
   count?: number;
 };
 
-export default function RandomSpots({
-  spots,
+export default function Randomplaces({
+  places,
   countryCode,
   categorySlug,
   accentClass,
@@ -29,12 +29,12 @@ export default function RandomSpots({
   categoryName,
   count = 5,
 }: Props) {
-  const [displayed, setDisplayed] = useState<Spot[]>([]);
+  const [displayed, setDisplayed] = useState<place[]>([]);
 
   useEffect(() => {
-    const shuffled = [...spots].sort(() => Math.random() - 0.5);
+    const shuffled = [...places].sort(() => Math.random() - 0.5);
     setDisplayed(shuffled.slice(0, count));
-  }, [spots, count]);
+  }, [places, count]);
 
   if (displayed.length === 0) return null;
 

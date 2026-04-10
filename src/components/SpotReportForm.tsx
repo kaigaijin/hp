@@ -15,16 +15,16 @@ function getVisitorId(): string {
   return id;
 }
 
-export default function SpotReportForm({
+export default function placeReportForm({
   country,
   category,
-  spotSlug,
-  spotName,
+  placeSlug,
+  placeName,
 }: {
   country: string;
   category: string;
-  spotSlug: string;
-  spotName: string;
+  placeSlug: string;
+  placeName: string;
 }) {
   const [showForm, setShowForm] = useState(false);
   const [reportComment, setReportComment] = useState("");
@@ -43,8 +43,8 @@ export default function SpotReportForm({
         body: JSON.stringify({
           country,
           category,
-          spot_slug: spotSlug,
-          spot_name: spotName,
+          place_slug: placeSlug,
+          place_name: placeName,
           report_type: "correction",
           comment: reportComment.trim() || null,
           visitor_id: getVisitorId() || null,

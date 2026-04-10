@@ -82,7 +82,7 @@ export default async function JobsIndexPage({
   const counts = await getIndustryCounts(code);
   const totalJobs = Object.values(counts).reduce((a, b) => a + b, 0);
   const categoryCounts = getCategoryCounts(code);
-  const totalSpots = Object.values(categoryCounts).reduce((a, b) => a + b, 0);
+  const totalplaces = Object.values(categoryCounts).reduce((a, b) => a + b, 0);
   const articles = getArticlesByCountry(code);
 
   const industriesWithJobs = JOB_INDUSTRIES.filter(
@@ -106,7 +106,7 @@ export default async function JobsIndexPage({
           title="海外で働こう。"
           subtitle={`${country.name}で働く日本人向けの求人を業種別に掲載。日系企業・日本語対応職場の求人が見つかります。`}
           articleCount={articles.length}
-          spotCount={totalSpots}
+          placeCount={totalplaces}
           right={
             <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6">
               <p className="text-white font-bold text-base mb-4">求人を無料で掲載する</p>

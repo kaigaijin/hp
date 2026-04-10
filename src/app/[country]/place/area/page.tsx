@@ -90,7 +90,7 @@ export default async function AreaIndexPage({
   if (!country) notFound();
 
   const areas = getAllAreas(code);
-  const totalSpots = areas.reduce((sum, a) => sum + a.count, 0);
+  const totalplaces = areas.reduce((sum, a) => sum + a.count, 0);
 
   // ゾーン別にグルーピング（SGのみ。他の国はフラット表示）
   const zones = code === "sg" ? sgAreaZones : null;
@@ -127,7 +127,7 @@ export default async function AreaIndexPage({
               {country.flag} エリアから探す
             </h1>
             <p className="text-sm text-stone-500 dark:text-stone-400 mt-1">
-              {areas.length}エリア・{totalSpots}件のスポット
+              {areas.length}エリア・{totalplaces}件のスポット
             </p>
           </div>
         </div>

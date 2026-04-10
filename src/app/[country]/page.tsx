@@ -38,7 +38,7 @@ export default async function CountryPage({
 
   const articles = getArticlesByCountry(code);
   const categoryCounts = getCategoryCounts(code);
-  const totalSpots = Object.values(categoryCounts).reduce((a, b) => a + b, 0);
+  const totalplaces = Object.values(categoryCounts).reduce((a, b) => a + b, 0);
 
   const groupCounts = categoryGroups.map((group) => ({
     ...group,
@@ -72,7 +72,7 @@ export default async function CountryPage({
           title={country.name}
           subtitle={`${country.tagline}　在住日本人 ${country.population}`}
           articleCount={articles.length}
-          spotCount={totalSpots}
+          placeCount={totalplaces}
         />
 
         {/* ===== 記事一覧 ===== */}

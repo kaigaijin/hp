@@ -2,16 +2,16 @@
 
 import { useEffect, useState } from "react";
 import { useAuth } from "@/components/AuthProvider";
-import { StarRating } from "@/components/SpotScore";
+import { StarRating } from "@/components/placeScore";
 import { supabase } from "@/lib/supabase";
 import { Star, MessageSquare, TrendingUp, LogIn, Zap } from "lucide-react";
 import Link from "next/link";
 
 type MyReview = {
   id: string;
-  spot_country: string;
-  spot_category: string;
-  spot_slug: string;
+  place_country: string;
+  place_category: string;
+  place_slug: string;
   reviewer_name: string;
   is_anonymous: boolean;
   rating: number;
@@ -248,11 +248,11 @@ export default function MyReviewsPage() {
             >
               <div className="flex items-start justify-between gap-2 mb-2">
                 <Link
-                  href={`/${review.spot_country}/place/${review.spot_category}/${review.spot_slug}`}
+                  href={`/${review.place_country}/place/${review.place_category}/${review.place_slug}`}
                   className="text-sm font-medium text-warm-600 dark:text-warm-400 hover:underline"
                 >
-                  {COUNTRY_NAMES[review.spot_country] ?? review.spot_country} /{" "}
-                  {review.spot_slug}
+                  {COUNTRY_NAMES[review.place_country] ?? review.place_country} /{" "}
+                  {review.place_slug}
                 </Link>
                 <StarRating score={review.rating} size={12} />
               </div>

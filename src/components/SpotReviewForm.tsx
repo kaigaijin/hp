@@ -12,9 +12,9 @@ import {
   TrendingUp,
   ThumbsUp,
 } from "lucide-react";
-import SpotScoreDisplay, { StarRating } from "@/components/SpotScore";
+import placeScoreDisplay, { StarRating } from "@/components/placeScore";
 import { useAuth } from "@/components/AuthProvider";
-import type { SpotScore } from "@/lib/review-score";
+import type { placeScore } from "@/lib/review-score";
 
 // レビュー数からバッジを返す
 function ReviewerBadge({ count, isAnonymous }: { count?: number; isAnonymous: boolean }) {
@@ -82,19 +82,19 @@ type ReviewDisplay = {
   created_at: string;
 };
 
-export default function SpotReviewForm({
+export default function placeReviewForm({
   country,
   category,
-  spotSlug,
-  spotName,
+  placeSlug,
+  placeName,
 }: {
   country: string;
   category: string;
-  spotSlug: string;
-  spotName: string;
+  placeSlug: string;
+  placeName: string;
 }) {
   const { user, displayName } = useAuth();
-  const [score, setScore] = useState<SpotScore | null>(null);
+  const [score, setScore] = useState<placeScore | null>(null);
   const [reviews, setReviews] = useState<ReviewDisplay[]>([]);
   const [showAllReviews, setShowAllReviews] = useState(false);
   const [showForm, setShowForm] = useState(false);
@@ -117,8 +117,8 @@ export default function SpotReviewForm({
   const fetchData = useCallback(async () => {
     try {
       const [reviewRes, visitedRes] = await Promise.all([
-        fetch(`/api/place-reviews?country=${country}&category=${category}&slug=${spotSlug}`),
-        fetch(`/api/place-reports?country=${country}&category=${category}&slug=${spotSlug}&visitor_id=${getVisitorId()}`),
+        fetch(`/api/place-reviews?country=${country}&category=${category}&slug=${placeSlug}`),
+        fetch(`/api/place-reports?country=${country}&category=${category}&slug=${placeSlug}&visitor_id=${getVisitorId()}`),
       ]);
       if (reviewRes.ok) {
         const data = await reviewRes.json();
@@ -131,7 +131,7 @@ export default function SpotReviewForm({
         setAlreadyVisited(data.already_visited ?? false);
       }
     } catch {}
-  }, [country, category, spotSlug]);
+  }, [country, category, placeSlug]);
 
   useEffect(() => {
     fetchData();
@@ -170,7 +170,7 @@ export default function SpotReviewForm({
         body: JSON.stringify({
           country,
           category,
-          spot_slug: spotSlug,
+          place_slug: placeSlug,
           reviewer_id: user ? user.id : getLocalReviewerId(),
           reviewer_name: reviewerName,
           is_anonymous: !user, // ログイン済みなら false
@@ -211,8 +211,8 @@ export default function SpotReviewForm({
         body: JSON.stringify({
           country,
           category,
-          spot_slug: spotSlug,
-          spot_name: spotName,
+          place_slug: placeSlug,
+          place_name: placeName,
           report_type: "visited",
           comment: null,
           visitor_id: getVisitorId() || null,
@@ -267,7 +267,7 @@ export default function SpotReviewForm({
           </div>
         </div>
 
-        <SpotScoreDisplay score={score} />
+        <placeScoreDisplay score={score} />
 
         {/* レビューを書くボタン / 投稿済み表示 */}
         {!showForm && !submitted && (

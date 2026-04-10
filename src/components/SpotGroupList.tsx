@@ -14,9 +14,9 @@ import {
   X,
 } from "lucide-react";
 
-const SPOTS_PER_PAGE = 20;
+const placeS_PER_PAGE = 20;
 
-type SpotItem = {
+type placeItem = {
   slug: string;
   name: string;
   name_ja?: string;
@@ -37,7 +37,7 @@ type SubCategory = {
   count: number;
 };
 
-type SpotGroupTheme = {
+type placeGroupTheme = {
   filterActive: string;
   hoverBorder: string;
   numberText: string;
@@ -47,27 +47,27 @@ type SpotGroupTheme = {
   accentBar?: string;
 };
 
-type SpotGroupListProps = {
-  spots: SpotItem[];
+type placeGroupListProps = {
+  places: placeItem[];
   subCategories: SubCategory[];
   countryCode: string;
-  theme?: SpotGroupTheme;
+  theme?: placeGroupTheme;
 };
 
-export default function SpotGroupList(props: SpotGroupListProps) {
+export default function placeGroupList(props: placeGroupListProps) {
   return (
     <Suspense fallback={null}>
-      <SpotGroupListInner {...props} />
+      <placeGroupListInner {...props} />
     </Suspense>
   );
 }
 
-function SpotGroupListInner({
-  spots,
+function placeGroupListInner({
+  places,
   subCategories,
   countryCode,
   theme,
-}: SpotGroupListProps) {
+}: placeGroupListProps) {
   const searchParams = useSearchParams();
   const pathname = usePathname();
   const router = useRouter();
@@ -78,11 +78,11 @@ function SpotGroupListInner({
   const [activeFilter, setActiveFilter] = useState<string | null>(initialFilter);
   const [currentPage, setCurrentPage] = useState(initialPage);
   const [searchQuery, setSearchQuery] = useState("");
-  const [shuffledSpots, setShuffledSpots] = useState(spots);
+  const [shuffledplaces, setShuffledplaces] = useState(places);
 
   useEffect(() => {
-    setShuffledSpots([...spots].sort(() => Math.random() - 0.5));
-  }, [spots]);
+    setShuffledplaces([...places].sort(() => Math.random() - 0.5));
+  }, [places]);
 
   const updateURL = useCallback((page: number, filter: string | null) => {
     const params = new URLSearchParams();
@@ -93,8 +93,8 @@ function SpotGroupListInner({
   }, [pathname, router]);
 
   const categoryFiltered = activeFilter
-    ? shuffledSpots.filter((s) => s.categorySlug === activeFilter)
-    : shuffledSpots;
+    ? shuffledplaces.filter((s) => s.categorySlug === activeFilter)
+    : shuffledplaces;
 
   const filtered = searchQuery.trim()
     ? (() => {
@@ -109,15 +109,15 @@ function SpotGroupListInner({
       })()
     : categoryFiltered;
 
-  const totalPages = Math.ceil(filtered.length / SPOTS_PER_PAGE);
+  const totalPages = Math.ceil(filtered.length / placeS_PER_PAGE);
   const safeCurrentPage = Math.min(currentPage, totalPages || 1);
-  const start = (safeCurrentPage - 1) * SPOTS_PER_PAGE;
-  const paginated = filtered.slice(start, start + SPOTS_PER_PAGE);
+  const start = (safeCurrentPage - 1) * placeS_PER_PAGE;
+  const paginated = filtered.slice(start, start + placeS_PER_PAGE);
 
   const goToPage = (page: number) => {
     setCurrentPage(page);
     updateURL(page, activeFilter);
-    document.getElementById("spot-list")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    document.getElementById("place-list")?.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
   const handleFilterChange = (slug: string | null) => {
@@ -142,7 +142,7 @@ function SpotGroupListInner({
                   : "text-stone-500 dark:text-stone-400 bg-stone-50 dark:bg-stone-800 hover:bg-stone-100 dark:hover:bg-stone-700"
               }`}
             >
-              すべて（{spots.length}）
+              すべて（{places.length}）
             </button>
             {subCategories.map((cat) => (
               <button
@@ -194,23 +194,23 @@ function SpotGroupListInner({
       </div>
 
       {/* スポット一覧 */}
-      <div id="spot-list" className="max-w-6xl mx-auto px-4 py-6">
+      <div id="place-list" className="max-w-6xl mx-auto px-4 py-6">
         {/* 件数表示 */}
-        {(filtered.length > SPOTS_PER_PAGE || searchQuery.trim()) && (
+        {(filtered.length > placeS_PER_PAGE || searchQuery.trim()) && (
           <p className="text-xs text-stone-400 mb-3">
             {searchQuery.trim() && `「${searchQuery.trim()}」の検索結果: `}
-            {filtered.length}件{filtered.length > SPOTS_PER_PAGE && `中 ${start + 1}–${Math.min(start + SPOTS_PER_PAGE, filtered.length)}件を表示`}
+            {filtered.length}件{filtered.length > placeS_PER_PAGE && `中 ${start + 1}–${Math.min(start + placeS_PER_PAGE, filtered.length)}件を表示`}
           </p>
         )}
 
         {paginated.length > 0 ? (
           <div className="space-y-3">
-            {paginated.map((spot) => {
-              const isClosed = spot.status === "reported_closed";
+            {paginated.map((place) => {
+              const isClosed = place.status === "reported_closed";
               return (
                 <Link
-                  key={`${spot.categorySlug}-${spot.slug}`}
-                  href={`/${countryCode}/place/${spot.categorySlug}/${spot.slug}`}
+                  key={`${place.categorySlug}-${place.slug}`}
+                  href={`/${countryCode}/place/${place.categorySlug}/${place.slug}`}
                   className="group block"
                 >
                   <article className={`bg-white dark:bg-stone-900 rounded-2xl border border-stone-100 dark:border-stone-800 ${theme?.hoverBorder ?? "hover:border-warm-400 dark:hover:border-warm-500"} hover:shadow-md transition-all overflow-hidden flex ${isClosed ? "opacity-60 pointer-events-none" : ""}`}>
@@ -222,34 +222,34 @@ function SpotGroupListInner({
                       <div className="flex items-start justify-between gap-3 mb-2">
                         <div className="min-w-0">
                           <h2 className={`text-base font-bold text-stone-800 dark:text-stone-100 truncate ${theme?.accentHover ?? "group-hover:text-warm-700 dark:group-hover:text-warm-400"} transition-colors`}>
-                            {spot.name_ja ?? spot.name}
+                            {place.name_ja ?? place.name}
                           </h2>
-                          {spot.name_ja && (
-                            <p className="text-xs text-stone-400 truncate mt-0.5">{spot.name}</p>
+                          {place.name_ja && (
+                            <p className="text-xs text-stone-400 truncate mt-0.5">{place.name}</p>
                           )}
                         </div>
                         <div className="flex items-center gap-1.5 shrink-0 flex-wrap justify-end">
                           {!activeFilter && (
                             <span className={`text-xs ${theme?.badgeText ?? "text-warm-600 dark:text-warm-400"} ${theme?.badgeBg ?? "bg-warm-50 dark:bg-warm-900/30"} px-2 py-0.5 rounded-full`}>
-                              {spot.categoryName}
+                              {place.categoryName}
                             </span>
                           )}
                           <span className="text-xs text-stone-400 bg-stone-50 dark:bg-stone-800 px-2 py-0.5 rounded-full flex items-center gap-1">
                             <MapPin size={9} />
-                            {spot.area}
+                            {place.area}
                           </span>
                         </div>
                       </div>
 
                       {/* 説明文 */}
                       <p className="text-sm text-stone-500 dark:text-stone-400 leading-relaxed line-clamp-2 mb-3">
-                        {spot.description}
+                        {place.description}
                       </p>
 
                       {/* 下段: タグ + ステータス */}
                       <div className="flex items-center justify-between gap-3">
                         <div className="flex flex-wrap gap-1 min-w-0">
-                          {spot.tags.slice(0, 3).map((tag) => (
+                          {place.tags.slice(0, 3).map((tag) => (
                             <span
                               key={tag}
                               className="text-xs text-stone-500 dark:text-stone-400 bg-stone-50 dark:bg-stone-800 px-2 py-0.5 rounded-full"
@@ -259,19 +259,19 @@ function SpotGroupListInner({
                           ))}
                         </div>
                         <div className="flex items-center gap-2 shrink-0">
-                          {spot.status === "verified" && (
+                          {place.status === "verified" && (
                             <span className="text-xs text-emerald-500 flex items-center gap-1">
                               <CheckCircle2 size={10} />
                               確認済み
                             </span>
                           )}
-                          {spot.status === "reported_closed" && (
+                          {place.status === "reported_closed" && (
                             <span className="text-xs text-red-400 flex items-center gap-1">
                               <AlertTriangle size={10} />
                               閉店の可能性
                             </span>
                           )}
-                          {spot.website && (
+                          {place.website && (
                             <span className={`flex items-center gap-1 text-xs ${theme?.badgeText ?? "text-warm-500"}`}>
                               <Globe size={10} />
                               Web

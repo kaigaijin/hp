@@ -12,9 +12,9 @@ const SUPABASE_KEY =
 
 type ReviewRow = {
   id: string;
-  spot_country: string;
-  spot_category: string;
-  spot_slug: string;
+  place_country: string;
+  place_category: string;
+  place_slug: string;
   reviewer_name: string;
   is_anonymous: boolean;
   rating: number;
@@ -47,7 +47,7 @@ export async function GET(req: NextRequest) {
 
   // このユーザーのレビューを取得
   const res = await fetch(
-    `${SUPABASE_URL}/rest/v1/place_reviews?reviewer_id=eq.${encodeURIComponent(user.id)}&select=id,spot_country,spot_category,spot_slug,reviewer_name,is_anonymous,rating,comment,created_at&order=created_at.desc`,
+    `${SUPABASE_URL}/rest/v1/place_reviews?reviewer_id=eq.${encodeURIComponent(user.id)}&select=id,place_country,place_category,place_slug,reviewer_name,is_anonymous,rating,comment,created_at&order=created_at.desc`,
     {
       headers: {
         apikey: SUPABASE_KEY,

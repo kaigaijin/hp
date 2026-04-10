@@ -8,11 +8,11 @@ import {
   categoryGroups,
   getCategory,
   getCategoryGroup,
-  getSpotsByCategory,
+  getplacesByCategory,
   getCategoryCounts,
 } from "@/lib/directory";
-import SpotGroupList from "@/components/SpotGroupList";
-import SpotCategoryList from "@/components/SpotCategoryList";
+import placeGroupList from "@/components/placeGroupList";
+import placeCategoryList from "@/components/placeCategoryList";
 import { getGroupTheme, getCategoryTheme, type GroupTheme } from "@/lib/group-theme";
 import {
   UtensilsCrossed,
@@ -150,21 +150,21 @@ export default async function CategoryPage({
       .filter((c): c is NonNullable<typeof c> => c !== null);
 
     // 全子カテゴリのスポットを集約
-    const groupSpots = group.categories.flatMap((catSlug) => {
+    const groupplaces = group.categories.flatMap((catSlug) => {
       const cat = categories.find((c) => c.slug === catSlug);
-      return getSpotsByCategory(code, catSlug).map((spot) => ({
-        slug: spot.slug,
-        name: spot.name,
-        name_ja: spot.name_ja,
-        area: spot.area,
-        description: spot.description,
-        tags: spot.tags,
-        phone: spot.phone,
-        website: spot.website,
-        status: spot.status,
+      return getplacesByCategory(code, catSlug).map((place) => ({
+        slug: place.slug,
+        name: place.name,
+        name_ja: place.name_ja,
+        area: place.area,
+        description: place.description,
+        tags: place.tags,
+        phone: place.phone,
+        website: place.website,
+        status: place.status,
         categorySlug: catSlug,
         categoryName: cat?.name ?? catSlug,
-        images: (spot as Record<string, unknown>).images as string[] | undefined,
+        images: (place as Record<string, unknown>).images as string[] | undefined,
       }));
     });
 
@@ -220,8 +220,8 @@ export default async function CategoryPage({
             </div>
 
             {/* 中分類フィルター + スポット一覧（クライアントコンポーネント） */}
-            <SpotGroupList
-              spots={groupSpots}
+            <placeGroupList
+              places={groupplaces}
               subCategories={subCategories}
               countryCode={code}
               theme={{
@@ -263,8 +263,8 @@ export default async function CategoryPage({
   if (!category) notFound();
 
   const catSlug = slug;
-  const spots = getSpotsByCategory(code, catSlug);
-  const areas = [...new Set(spots.map((s) => s.area))].sort();
+  const places = getplacesByCategory(code, catSlug);
+  const areas = [...new Set(places.map((s) => s.area))].sort();
   const catTheme = getCategoryTheme(catSlug);
 
   // このカテゴリが属するグループを取得（パンくず用）
@@ -320,8 +320,8 @@ export default async function CategoryPage({
               {country.name}の{category.name}
             </h1>
             <p className="text-sm text-stone-400 mt-1">
-              {spots.length > 0
-                ? `${spots.length}件を掲載中`
+              {places.length > 0
+                ? `${places.length}件を掲載中`
                 : "情報を準備中です"}
             </p>
           </div>
@@ -331,14 +331,14 @@ export default async function CategoryPage({
             <div className="max-w-6xl mx-auto px-4 border-t border-white/10">
               <div className="flex gap-1 overflow-x-auto py-2 scrollbar-hide">
                 <span className="shrink-0 text-xs font-medium text-warm-400 bg-warm-900/30 px-3 py-1.5 rounded-full">
-                  すべて（{spots.length}）
+                  すべて（{places.length}）
                 </span>
                 {areas.map((area) => (
                   <span
                     key={area}
                     className="shrink-0 text-xs text-stone-400 bg-white/10 px-3 py-1.5 rounded-full"
                   >
-                    {area}（{spots.filter((s) => s.area === area).length}）
+                    {area}（{places.filter((s) => s.area === area).length}）
                   </span>
                 ))}
               </div>
@@ -348,9 +348,9 @@ export default async function CategoryPage({
 
         {/* スポットリスト */}
         <div className="max-w-6xl mx-auto px-4 py-6">
-          {spots.length > 0 ? (
-            <SpotCategoryList
-              spots={spots}
+          {places.length > 0 ? (
+            <placeCategoryList
+              places={places}
               countryCode={code}
               categorySlug={catSlug}
               catTheme={catTheme}

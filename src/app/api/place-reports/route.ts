@@ -13,12 +13,12 @@ const SUPABASE_KEY =
 const VALID_REPORT_TYPES = ["visited", "correction"] as const;
 
 function sendNotification(
-  spotName: string,
+  placeName: string,
   reportType: string,
   comment: string | null,
   country: string,
   category: string,
-  spotSlug: string
+  placeSlug: string
 ) {
   const key = process.env.RESEND_API_KEY;
   const to = process.env.INQUIRY_NOTIFICATION_EMAIL;
@@ -28,8 +28,8 @@ function sendNotification(
     .send({
       from: "Kaigaijin <noreply@kaigaijin.jp>",
       to: [to],
-      subject: `[スポット報告] ${spotName} - ${reportType}`,
-      text: `スポット情報の報告がありました。\n\nスポット: ${spotName}\n報告タイプ: ${reportType}\nコメント: ${comment ?? "なし"}\n\nURL: https://kaigaijin.jp/${country}/place/${category}/${spotSlug}\n\n※確認後、スポットデータを更新してください。`,
+      subject: `[スポット報告] ${placeName} - ${reportType}`,
+      text: `スポット情報の報告がありました。\n\nスポット: ${placeName}\n報告タイプ: ${reportType}\nコメント: ${comment ?? "なし"}\n\nURL: https://kaigaijin.jp/${country}/place/${category}/${placeSlug}\n\n※確認後、スポットデータを更新してください。`,
     })
     .catch(() => {});
 }
@@ -45,7 +45,7 @@ export async function GET(req: NextRequest) {
   }
 
   const res = await fetch(
-    `${SUPABASE_URL}/rest/v1/place_reports?country=eq.${encodeURIComponent(country)}&category=eq.${encodeURIComponent(category)}&spot_slug=eq.${encodeURIComponent(slug)}&report_type=eq.visited&select=id,visitor_id,comment,created_at&order=created_at.desc`,
+    `${SUPABASE_URL}/rest/v1/place_reports?country=eq.${encodeURIComponent(country)}&category=eq.${encodeURIComponent(category)}&place_slug=eq.${encodeURIComponent(slug)}&report_type=eq.visited&select=id,visitor_id,comment,created_at&order=created_at.desc`,
     {
       headers: {
         apikey: SUPABASE_KEY,
@@ -75,10 +75,10 @@ export async function GET(req: NextRequest) {
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-    const { country, category, spot_slug, spot_name, report_type, comment, visitor_id } =
+    const { country, category, place_slug, place_name, report_type, comment, visitor_id } =
       body;
 
-    if (!country || !category || !spot_slug || !spot_name || !report_type) {
+    if (!country || !category || !place_slug || !place_name || !report_type) {
       return NextResponse.json(
         { error: "必須項目が不足しています" },
         { status: 400 }
@@ -114,8 +114,8 @@ export async function POST(req: NextRequest) {
       body: JSON.stringify({
         country,
         category,
-        spot_slug,
-        spot_name,
+        place_slug,
+        place_name,
         report_type,
         comment: comment?.trim() || null,
         visitor_id: visitor_id || null,
@@ -130,7 +130,7 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    sendNotification(spot_name, report_type, comment?.trim() || null, country, category, spot_slug);
+    sendNotification(place_name, report_type, comment?.trim() || null, country, category, place_slug);
 
     return NextResponse.json({ success: true }, { status: 201 });
   } catch {

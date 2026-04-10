@@ -12,7 +12,7 @@ import {
 import Link from "next/link";
 import { MapPin, ExternalLink } from "lucide-react";
 
-type MapSpot = {
+type Mapplace = {
   slug: string;
   name: string;
   name_ja?: string;
@@ -90,7 +90,7 @@ const categoryLabel: Record<string, string> = {
 const defaultColor = { bg: "#0284c7", ring: "#0369a1" };
 
 // ズームレベルに応じた表示件数上限（カスタムDOMマーカーは200件超で重くなる）
-function getMaxSpotsForZoom(zoom: number): number {
+function getMaxplacesForZoom(zoom: number): number {
   if (zoom >= 16) return Infinity; // ストリートレベル: 全件表示
   if (zoom >= 15) return 200;
   if (zoom >= 14) return 150;
@@ -116,22 +116,22 @@ const lowMapDemandCategories = new Set([
 
 // スコアに基づく重みを計算
 // score 5.0 → 重み4倍、score 0（未評価）→ 重み1倍
-function getWeight(spot: MapSpot): number {
-  const base = lowMapDemandCategories.has(spot.category) ? 0.3 : 1;
-  const scoreBonus = (spot.score ?? 0) * 0.6; // 0〜3.0の追加重み
-  const priorityBonus = spot.priority * 2;    // 有料スポットの追加重み
+function getWeight(place: Mapplace): number {
+  const base = lowMapDemandCategories.has(place.category) ? 0.3 : 1;
+  const scoreBonus = (place.score ?? 0) * 0.6; // 0〜3.0の追加重み
+  const priorityBonus = place.priority * 2;    // 有料スポットの追加重み
   return base + scoreBonus + priorityBonus;
 }
 
 // セッション開始時に全スポットの表示優先度（ランダムキー）を事前計算する
 // キーが高いほど表示されやすい。画面移動しても順位は変わらない
 function precomputeRankKeys(
-  spots: MapSpot[],
+  places: Mapplace[],
   seed: number,
 ): Record<string, number> {
   const rng = seededRandom(seed);
   const keys: Record<string, number> = {};
-  for (const s of spots) {
+  for (const s of places) {
     const id = `${s.category}-${s.slug}`;
     // Efraimidis-Spirakis: key = random^(1/weight) → 重みが大きいほど高い値になりやすい
     keys[id] = Math.pow(rng(), 1 / getWeight(s));
@@ -140,14 +140,14 @@ function precomputeRankKeys(
 }
 
 // ビューポート内のスポットをフィルタ
-function filterSpotsInView(
-  spots: MapSpot[],
+function filterplacesInView(
+  places: Mapplace[],
   bounds: google.maps.LatLngBounds | null,
   zoom: number,
   categoryFilter: string | null,
   rankKeys: Record<string, number>,
-): MapSpot[] {
-  let filtered = spots;
+): Mapplace[] {
+  let filtered = places;
 
   // カテゴリフィルタ
   if (categoryFilter) {
@@ -161,8 +161,8 @@ function filterSpotsInView(
     );
   }
 
-  const maxSpots = getMaxSpotsForZoom(zoom);
-  if (filtered.length <= maxSpots) return filtered;
+  const maxplaces = getMaxplacesForZoom(zoom);
+  if (filtered.length <= maxplaces) return filtered;
 
   if (categoryFilter) {
     // カテゴリ選択時: 事前計算したランクキー順でソートして上位N件
@@ -171,11 +171,11 @@ function filterSpotsInView(
         (rankKeys[`${b.category}-${b.slug}`] ?? 0) -
         (rankKeys[`${a.category}-${a.slug}`] ?? 0)
       )
-      .slice(0, maxSpots);
+      .slice(0, maxplaces);
   }
 
   // 「すべて」表示: カテゴリ均等 + 各カテゴリ内はランクキー順
-  const byCategory: Record<string, MapSpot[]> = {};
+  const byCategory: Record<string, Mapplace[]> = {};
   for (const s of filtered) {
     (byCategory[s.category] ??= []).push(s);
   }
@@ -191,10 +191,10 @@ function filterSpotsInView(
   if (catKeys.length === 0) return [];
 
   // カテゴリごとの割当枠を計算（均等配分 + 余り分配）
-  const perCat = Math.floor(maxSpots / catKeys.length);
-  let remainder = maxSpots - perCat * catKeys.length;
+  const perCat = Math.floor(maxplaces / catKeys.length);
+  let remainder = maxplaces - perCat * catKeys.length;
 
-  const result: MapSpot[] = [];
+  const result: Mapplace[] = [];
   for (const key of catKeys) {
     const pool = byCategory[key];
     const quota = perCat + (remainder > 0 ? 1 : 0);
@@ -206,18 +206,18 @@ function filterSpotsInView(
 }
 
 function MapContent({
-  spots,
+  places,
   countryCode,
   categories,
   center,
 }: {
-  spots: MapSpot[];
+  places: Mapplace[];
   countryCode: string;
   categories: CategoryFilter[];
   center: { lat: number; lng: number };
 }) {
   const map = useMap();
-  const [selectedSpot, setSelectedSpot] = useState<MapSpot | null>(null);
+  const [selectedplace, setSelectedplace] = useState<Mapplace | null>(null);
   const [categoryFilter, setCategoryFilter] = useState<string | null>(null);
   const [zoom, setZoom] = useState(12);
   const [bounds, setBounds] = useState<google.maps.LatLngBounds | null>(null);
@@ -225,9 +225,9 @@ function MapContent({
   // セッションごとに異なるシード → 全スポットのランク順位を1回だけ事前計算
   const rankKeys = useMemo(() => {
     const seed = Math.floor(Math.random() * 2147483647);
-    return precomputeRankKeys(spots, seed);
+    return precomputeRankKeys(places, seed);
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [spots]);
+  }, [places]);
 
   const handleCameraChanged = useCallback(
     (ev: MapCameraChangedEvent) => {
@@ -245,23 +245,23 @@ function MapContent({
     [],
   );
 
-  const visibleSpots = useMemo(
-    () => filterSpotsInView(spots, bounds, zoom, categoryFilter, rankKeys),
-    [spots, bounds, zoom, categoryFilter, rankKeys],
+  const visibleplaces = useMemo(
+    () => filterplacesInView(places, bounds, zoom, categoryFilter, rankKeys),
+    [places, bounds, zoom, categoryFilter, rankKeys],
   );
 
-  const maxSpots = getMaxSpotsForZoom(zoom);
+  const maxplaces = getMaxplacesForZoom(zoom);
   const totalInView = useMemo(() => {
     let filtered = categoryFilter
-      ? spots.filter((s) => s.category === categoryFilter)
-      : spots;
+      ? places.filter((s) => s.category === categoryFilter)
+      : places;
     if (bounds) {
       filtered = filtered.filter((s) =>
         bounds.contains({ lat: s.lat, lng: s.lng }),
       );
     }
     return filtered.length;
-  }, [spots, bounds, categoryFilter]);
+  }, [places, bounds, categoryFilter]);
 
   return (
     <div className="flex flex-col h-full">
@@ -303,7 +303,7 @@ function MapContent({
         <Map
           defaultZoom={12}
           defaultCenter={center}
-          mapId="kai-spot-map"
+          mapId="kai-place-map"
           gestureHandling="greedy"
           disableDefaultUI={false}
           zoomControl={true}
@@ -313,16 +313,16 @@ function MapContent({
           onCameraChanged={handleCameraChanged}
           className="w-full h-full"
         >
-          {visibleSpots.map((spot) => {
-            const color = categoryColorMap[spot.category] ?? defaultColor;
-            const label = categoryLabel[spot.category] ?? "●";
-            const isPremium = spot.priority >= 1;
+          {visibleplaces.map((place) => {
+            const color = categoryColorMap[place.category] ?? defaultColor;
+            const label = categoryLabel[place.category] ?? "●";
+            const isPremium = place.priority >= 1;
             return (
               <AdvancedMarker
-                key={`${spot.category}-${spot.slug}`}
-                position={{ lat: spot.lat, lng: spot.lng }}
-                onClick={() => setSelectedSpot(spot)}
-                title={spot.name_ja ?? spot.name}
+                key={`${place.category}-${place.slug}`}
+                position={{ lat: place.lat, lng: place.lng }}
+                onClick={() => setSelectedplace(place)}
+                title={place.name_ja ?? place.name}
               >
                 {/* ドロップピン型マーカー */}
                 <div className="flex flex-col items-center" style={{ transform: "translate(0, -50%)" }}>
@@ -355,38 +355,38 @@ function MapContent({
             );
           })}
 
-          {selectedSpot && (
+          {selectedplace && (
             <InfoWindow
-              position={{ lat: selectedSpot.lat, lng: selectedSpot.lng }}
-              onCloseClick={() => setSelectedSpot(null)}
+              position={{ lat: selectedplace.lat, lng: selectedplace.lng }}
+              onCloseClick={() => setSelectedplace(null)}
             >
               <div className="max-w-[260px] p-1">
                 <Link
-                  href={`/${countryCode}/place/${selectedSpot.category}/${selectedSpot.slug}`}
+                  href={`/${countryCode}/place/${selectedplace.category}/${selectedplace.slug}`}
                   className="group"
                 >
                   <h3 className="text-sm font-bold text-stone-800 group-hover:text-warm-600 transition-colors">
-                    {selectedSpot.name_ja ?? selectedSpot.name}
+                    {selectedplace.name_ja ?? selectedplace.name}
                     <ExternalLink
                       size={12}
                       className="inline ml-1 opacity-50"
                     />
                   </h3>
-                  {selectedSpot.name_ja && (
+                  {selectedplace.name_ja && (
                     <p className="text-xs text-stone-400 mt-0.5">
-                      {selectedSpot.name}
+                      {selectedplace.name}
                     </p>
                   )}
                 </Link>
                 <p className="text-xs text-stone-500 mt-1 flex items-center gap-1">
                   <MapPin size={10} />
-                  {selectedSpot.area}
+                  {selectedplace.area}
                 </p>
                 <p className="text-xs text-warm-600 mt-0.5">
-                  {selectedSpot.categoryName}
+                  {selectedplace.categoryName}
                 </p>
                 <p className="text-xs text-stone-500 mt-1 line-clamp-2">
-                  {selectedSpot.description}
+                  {selectedplace.description}
                 </p>
               </div>
             </InfoWindow>
@@ -395,15 +395,15 @@ function MapContent({
 
         {/* 表示件数インジケータ */}
         <div className="absolute bottom-4 left-4 bg-white/90 dark:bg-stone-800/90 backdrop-blur-sm text-xs text-stone-600 dark:text-stone-300 px-3 py-1.5 rounded-lg shadow-md border border-stone-200 dark:border-stone-700">
-          {visibleSpots.length < totalInView ? (
+          {visibleplaces.length < totalInView ? (
             <>
-              {totalInView}件中 {visibleSpots.length}件を表示
+              {totalInView}件中 {visibleplaces.length}件を表示
               <span className="text-stone-400 ml-1">
                 （ズームで全件表示）
               </span>
             </>
           ) : (
-            <>{visibleSpots.length}件を表示</>
+            <>{visibleplaces.length}件を表示</>
           )}
         </div>
       </div>
@@ -411,14 +411,14 @@ function MapContent({
   );
 }
 
-export default function SpotMap({
-  spots,
+export default function placeMap({
+  places,
   countryCode,
   categories,
   center,
   apiKey,
 }: {
-  spots: MapSpot[];
+  places: Mapplace[];
   countryCode: string;
   categories: CategoryFilter[];
   center: { lat: number; lng: number };
@@ -432,7 +432,7 @@ export default function SpotMap({
     );
   }
 
-  if (spots.length === 0) {
+  if (places.length === 0) {
     return (
       <div className="flex items-center justify-center h-full bg-stone-100 dark:bg-stone-900 text-stone-500 text-sm">
         座標データ付きのスポットがまだありません
@@ -443,7 +443,7 @@ export default function SpotMap({
   return (
     <APIProvider apiKey={apiKey}>
       <MapContent
-        spots={spots}
+        places={places}
         countryCode={countryCode}
         categories={categories}
         center={center}

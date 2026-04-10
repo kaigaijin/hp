@@ -2,13 +2,13 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import SpotMapLoader from "@/components/SpotMapLoader";
+import placeMapLoader from "@/components/placeMapLoader";
 import { getCountry, countries } from "@/lib/countries";
 import {
-  getGeoSpots,
+  getGeoplaces,
   getCategory,
   categoryGroups,
-  getAllSpots,
+  getAllplaces,
 } from "@/lib/directory";
 import { ChevronRight } from "lucide-react";
 
@@ -53,11 +53,11 @@ export default async function MapPage({
   const country = getCountry(code);
   if (!country) notFound();
 
-  const geoSpots = getGeoSpots(code);
-  const allSpots = getAllSpots(code);
+  const geoplaces = getGeoplaces(code);
+  const allplaces = getAllplaces(code);
 
   // 地図表示用データ
-  const mapSpots = geoSpots.map((s) => ({
+  const mapplaces = geoplaces.map((s) => ({
     slug: s.slug,
     name: s.name,
     name_ja: s.name_ja,
@@ -73,7 +73,7 @@ export default async function MapPage({
 
   // カテゴリフィルタ用
   const catCounts: Record<string, number> = {};
-  for (const s of geoSpots) {
+  for (const s of geoplaces) {
     catCounts[s.category] = (catCounts[s.category] ?? 0) + 1;
   }
   const categoryFilters = Object.entries(catCounts)
@@ -124,9 +124,9 @@ export default async function MapPage({
                 </Link>
               </div>
             </div>
-            {geoSpots.length === 0 && allSpots.length > 0 && (
+            {geoplaces.length === 0 && allplaces.length > 0 && (
               <p className="text-xs text-amber-600 dark:text-amber-400 mt-1">
-                座標データを準備中です。{allSpots.length}件のスポットが登録されています。
+                座標データを準備中です。{allplaces.length}件のスポットが登録されています。
               </p>
             )}
           </div>
@@ -134,8 +134,8 @@ export default async function MapPage({
 
         {/* 地図エリア（残りの高さ全部使う） */}
         <div className="flex-1 min-h-0">
-          <SpotMapLoader
-            spots={mapSpots}
+          <placeMapLoader
+            places={mapplaces}
             countryCode={code}
             categories={categoryFilters}
             center={center}

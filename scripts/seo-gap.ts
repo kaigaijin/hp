@@ -301,14 +301,14 @@ async function reportPageTitles(accessToken: string) {
 
 // ── レポート4: 未掲載クエリ（スポットがないのに検索されている） ──
 
-async function reportMissingSpots(accessToken: string, done: DoneEntry[]) {
+async function reportMissingplaces(accessToken: string, done: DoneEntry[]) {
   console.log("\n❌ スポット系未対応クエリ（検索需要があるのにページがない）");
   console.log("   条件: 表示3回以上 / 施設・場所を示すキーワードを含む / 日本語\n");
 
   const rows = await fetchByDimension(accessToken, ["query"], DAYS);
 
   // 施設・場所系キーワードのパターン
-  const spotPatterns = [
+  const placePatterns = [
     /クリニック|病院|歯科|医院|薬局/,
     /レストラン|居酒屋|ランチ|ディナー|カフェ|寿司|ラーメン|焼肉/,
     /美容室|ヘアサロン|ネイル|エステ|マッサージ/,
@@ -323,7 +323,7 @@ async function reportMissingSpots(accessToken: string, done: DoneEntry[]) {
       if (!isJapanese(r.keys[0])) return false;
       if (r.impressions < 3) return false;
       if (isDone(r.keys[0], done)) return false;
-      return spotPatterns.some(p => p.test(r.keys[0]));
+      return placePatterns.some(p => p.test(r.keys[0]));
     })
     .sort((a, b) => b.impressions - a.impressions)
     .slice(0, 20);
@@ -439,7 +439,7 @@ async function main() {
   if (REPORT === "all" || REPORT === "quick-wins")   await reportQuickWins(accessToken, done);
   if (REPORT === "all" || REPORT === "rising")       await reportRising(accessToken, done);
   if (REPORT === "all" || REPORT === "titles")       await reportPageTitles(accessToken);
-  if (REPORT === "all" || REPORT === "missing")      await reportMissingSpots(accessToken, done);
+  if (REPORT === "all" || REPORT === "missing")      await reportMissingplaces(accessToken, done);
   if (REPORT === "query-pages")                      await reportQueryPages(accessToken, done);
 
   console.log("✅ 分析完了\n");

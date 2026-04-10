@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Country } from "@/lib/countries";
 import { ArrowRight, Users, MapPin } from "lucide-react";
 
-export default function CountryCard({ country, spotCount = 0 }: { country: Country; spotCount?: number }) {
+export default function CountryCard({ country, placeCount = 0 }: { country: Country; placeCount?: number }) {
   return (
     <Link href={`/${country.code}`} prefetch={false} className="block h-full group">
       <article className="country-card bg-white dark:bg-stone-800 rounded-2xl border border-stone-200 dark:border-stone-700 overflow-hidden h-full flex flex-col group-hover:border-warm-400 dark:group-hover:border-warm-600">
@@ -42,12 +42,12 @@ export default function CountryCard({ country, spotCount = 0 }: { country: Count
             <Users size={11} />
             <span>{country.population}</span>
           </div>
-          {spotCount > 0 && (
+          {placeCount > 0 && (
             <>
               <span className="text-stone-300 dark:text-stone-700">·</span>
               <div className="flex items-center gap-1">
                 <MapPin size={11} />
-                <span>{spotCount.toLocaleString()}件</span>
+                <span>{placeCount.toLocaleString()}件</span>
               </div>
             </>
           )}

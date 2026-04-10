@@ -9,7 +9,7 @@
  *   --min-impressions 5  最低表示回数（デフォルト: 5）
  *   --japanese-only   日本語クエリのみ（デフォルト: true）
  *   --all             全言語のクエリを表示
- *   --check-spots     既存スポットとの照合を行う
+ *   --check-places     既存スポットとの照合を行う
  *
  * 初回実行時:
  *   ブラウザが開くのでGoogleアカウントでログイン → 許可
@@ -45,7 +45,7 @@ const hasFlag = (name: string) => args.includes(`--${name}`);
 const DAYS = parseInt(getArg("days", "7"), 10);
 const MIN_IMPRESSIONS = parseInt(getArg("min-impressions", "5"), 10);
 const JAPANESE_ONLY = !hasFlag("all");
-const CHECK_SPOTS = hasFlag("check-spots");
+const CHECK_placeS = hasFlag("check-places");
 
 // ── OAuth2 ──
 
@@ -310,7 +310,7 @@ async function fetchSearchAnalytics(): Promise<QueryRow[]> {
 
 // ── スポット照合 ──
 
-interface SpotMatch {
+interface placeMatch {
   country: string;
   category: string;
   slug: string;
@@ -319,8 +319,8 @@ interface SpotMatch {
   description: string;
 }
 
-function loadAllSpots(): Map<string, SpotMatch[]> {
-  const index = new Map<string, SpotMatch[]>();
+function loadAllplaces(): Map<string, placeMatch[]> {
+  const index = new Map<string, placeMatch[]>();
 
   if (!fs.existsSync(DIRECTORY_ROOT)) return index;
 
@@ -338,24 +338,24 @@ function loadAllSpots(): Map<string, SpotMatch[]> {
       const category = file.replace(".json", "");
       try {
         const raw = fs.readFileSync(path.join(countryDir, file), "utf-8");
-        const spots = JSON.parse(raw) as Array<{
+        const places = JSON.parse(raw) as Array<{
           slug: string;
           name: string;
           name_ja?: string | null;
           description: string;
         }>;
-        for (const spot of spots) {
-          const entry: SpotMatch = {
+        for (const place of places) {
+          const entry: placeMatch = {
             country,
             category,
-            slug: spot.slug,
-            name: spot.name,
-            name_ja: spot.name_ja ?? null,
-            description: spot.description,
+            slug: place.slug,
+            name: place.name,
+            name_ja: place.name_ja ?? null,
+            description: place.description,
           };
 
           const keywords = new Set<string>();
-          for (const text of [spot.name, spot.name_ja ?? ""]) {
+          for (const text of [place.name, place.name_ja ?? ""]) {
             for (const word of text.toLowerCase().split(/[\s\-\/&]+/)) {
               if (word.length >= 2) keywords.add(word);
             }
@@ -374,25 +374,25 @@ function loadAllSpots(): Map<string, SpotMatch[]> {
   return index;
 }
 
-function findMatchingSpots(
+function findMatchingplaces(
   query: string,
-  index: Map<string, SpotMatch[]>
-): SpotMatch[] {
+  index: Map<string, placeMatch[]>
+): placeMatch[] {
   const words = query
     .toLowerCase()
     .split(/[\s\-\/&]+/)
     .filter((w) => w.length >= 2);
-  const candidates = new Map<string, { spot: SpotMatch; score: number }>();
+  const candidates = new Map<string, { place: placeMatch; score: number }>();
 
   for (const word of words) {
     const matches = index.get(word) ?? [];
-    for (const spot of matches) {
-      const key = `${spot.country}/${spot.category}/${spot.slug}`;
+    for (const place of matches) {
+      const key = `${place.country}/${place.category}/${place.slug}`;
       const existing = candidates.get(key);
       if (existing) {
         existing.score++;
       } else {
-        candidates.set(key, { spot, score: 1 });
+        candidates.set(key, { place, score: 1 });
       }
     }
   }
@@ -400,7 +400,7 @@ function findMatchingSpots(
   return Array.from(candidates.values())
     .filter((c) => c.score >= 2)
     .sort((a, b) => b.score - a.score)
-    .map((c) => c.spot);
+    .map((c) => c.place);
 }
 
 // ── メイン ──
@@ -409,7 +409,7 @@ async function main() {
   console.log(`\n📊 Search Console 分析（過去${DAYS}日間）`);
   console.log(`   最低表示回数: ${MIN_IMPRESSIONS}`);
   console.log(`   日本語フィルタ: ${JAPANESE_ONLY ? "ON" : "OFF"}`);
-  console.log(`   スポット照合: ${CHECK_SPOTS ? "ON" : "OFF"}\n`);
+  console.log(`   スポット照合: ${CHECK_placeS ? "ON" : "OFF"}\n`);
 
   const rows = await fetchSearchAnalytics();
   console.log(`   全クエリ数: ${rows.length}\n`);
@@ -431,7 +431,7 @@ async function main() {
     return;
   }
 
-  const spotIndex = CHECK_SPOTS ? loadAllSpots() : new Map();
+  const placeIndex = CHECK_placeS ? loadAllplaces() : new Map();
 
   console.log(
     `🔍 表示${MIN_IMPRESSIONS}回以上・クリック0のクエリ（${zeroClickRows.length}件）\n`
@@ -447,8 +447,8 @@ async function main() {
     const position = row.position.toFixed(1);
     let status = "";
 
-    if (CHECK_SPOTS) {
-      const matches = findMatchingSpots(query, spotIndex);
+    if (CHECK_placeS) {
+      const matches = findMatchingplaces(query, placeIndex);
       if (matches.length > 0) {
         const m = matches[0];
         const descLen = m.description.length;
@@ -468,12 +468,12 @@ async function main() {
 
   console.log("─".repeat(80));
 
-  if (CHECK_SPOTS) {
+  if (CHECK_placeS) {
     const missing = zeroClickRows.filter(
-      (r) => findMatchingSpots(r.keys[0], spotIndex).length === 0
+      (r) => findMatchingplaces(r.keys[0], placeIndex).length === 0
     );
     const weak = zeroClickRows.filter((r) => {
-      const matches = findMatchingSpots(r.keys[0], spotIndex);
+      const matches = findMatchingplaces(r.keys[0], placeIndex);
       return matches.length > 0 && matches[0].description.length < 30;
     });
 

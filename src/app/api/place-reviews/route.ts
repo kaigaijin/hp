@@ -1,10 +1,10 @@
 import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 import {
-  calcSpotScore,
+  calcplaceScore,
   aggregateReviewerStats,
   type Review,
-  type SpotScore,
+  type placeScore,
 } from "@/lib/review-score";
 
 const SUPABASE_URL =
@@ -19,7 +19,7 @@ const SUPABASE_KEY =
 function sendReviewNotification(
   country: string,
   category: string,
-  spotSlug: string,
+  placeSlug: string,
   reviewerName: string,
   rating: number,
   comment: string | null
@@ -33,17 +33,17 @@ function sendReviewNotification(
     .send({
       from: "Kaigaijin <noreply@kaigaijin.jp>",
       to: [to],
-      subject: `[レビュー] ${country}/${category}/${spotSlug} — ${stars}`,
-      text: `新しいレビューが投稿されました。\n\n投稿者: ${reviewerName}\n評価: ${stars}（${rating}/5）\nコメント: ${comment ?? "なし"}\n\nURL: https://kaigaijin.jp/${country}/place/${category}/${spotSlug}\n\n※ Supabase place_reviews テーブルにも保存済みです。`,
+      subject: `[レビュー] ${country}/${category}/${placeSlug} — ${stars}`,
+      text: `新しいレビューが投稿されました。\n\n投稿者: ${reviewerName}\n評価: ${stars}（${rating}/5）\nコメント: ${comment ?? "なし"}\n\nURL: https://kaigaijin.jp/${country}/place/${category}/${placeSlug}\n\n※ Supabase place_reviews テーブルにも保存済みです。`,
     })
     .catch(() => {});
 }
 
 type ReviewRow = {
   id: string;
-  spot_country: string;
-  spot_category: string;
-  spot_slug: string;
+  place_country: string;
+  place_category: string;
+  place_slug: string;
   reviewer_id: string;
   reviewer_name: string;
   is_anonymous: boolean;
@@ -66,8 +66,8 @@ export async function GET(req: NextRequest) {
   }
 
   // このスポットのレビューを取得
-  const spotRes = await fetch(
-    `${SUPABASE_URL}/rest/v1/place_reviews?spot_country=eq.${encodeURIComponent(country)}&spot_category=eq.${encodeURIComponent(category)}&spot_slug=eq.${encodeURIComponent(slug)}&select=id,spot_country,spot_category,spot_slug,reviewer_id,reviewer_name,is_anonymous,rating,comment,created_at&order=created_at.desc`,
+  const placeRes = await fetch(
+    `${SUPABASE_URL}/rest/v1/place_reviews?place_country=eq.${encodeURIComponent(country)}&place_category=eq.${encodeURIComponent(category)}&place_slug=eq.${encodeURIComponent(slug)}&select=id,place_country,place_category,place_slug,reviewer_id,reviewer_name,is_anonymous,rating,comment,created_at&order=created_at.desc`,
     {
       headers: {
         apikey: SUPABASE_KEY,
@@ -77,27 +77,27 @@ export async function GET(req: NextRequest) {
     }
   );
 
-  if (!spotRes.ok) {
+  if (!placeRes.ok) {
     return NextResponse.json({ score: null, reviews: [] });
   }
 
-  const spotReviews: ReviewRow[] = await spotRes.json();
+  const placeReviews: ReviewRow[] = await placeRes.json();
 
-  if (spotReviews.length === 0) {
+  if (placeReviews.length === 0) {
     return NextResponse.json({
-      score: { raw_average: 0, weighted_score: 0, review_count: 0, display: false } as SpotScore,
+      score: { raw_average: 0, weighted_score: 0, review_count: 0, display: false } as placeScore,
       reviews: [],
     });
   }
 
   // レビュアーの全レビューを取得（信頼度計算用）
-  const reviewerIds = [...new Set(spotReviews.map((r) => r.reviewer_id))];
+  const reviewerIds = [...new Set(placeReviews.map((r) => r.reviewer_id))];
   const reviewerFilter = reviewerIds
     .map((id) => `"${id}"`)
     .join(",");
 
   const allRes = await fetch(
-    `${SUPABASE_URL}/rest/v1/place_reviews?reviewer_id=in.(${reviewerFilter})&select=id,spot_country,spot_category,spot_slug,reviewer_id,rating,comment,created_at`,
+    `${SUPABASE_URL}/rest/v1/place_reviews?reviewer_id=in.(${reviewerFilter})&select=id,place_country,place_category,place_slug,reviewer_id,rating,comment,created_at`,
     {
       headers: {
         apikey: SUPABASE_KEY,
@@ -115,11 +115,11 @@ export async function GET(req: NextRequest) {
   }
 
   // スコア計算
-  const reviews: Review[] = spotReviews.map((r) => ({
+  const reviews: Review[] = placeReviews.map((r) => ({
     id: r.id,
-    spot_country: r.spot_country,
-    spot_category: r.spot_category,
-    spot_slug: r.spot_slug,
+    place_country: r.place_country,
+    place_category: r.place_category,
+    place_slug: r.place_slug,
     reviewer_id: r.reviewer_id,
     is_anonymous: r.is_anonymous ?? true,
     rating: r.rating,
@@ -127,11 +127,11 @@ export async function GET(req: NextRequest) {
     created_at: r.created_at,
   }));
 
-  const score = calcSpotScore(reviews, reviewerStatsMap);
+  const score = calcplaceScore(reviews, reviewerStatsMap);
 
   return NextResponse.json({
     score,
-    reviews: spotReviews.map((r) => {
+    reviews: placeReviews.map((r) => {
       const stats = reviewerStatsMap.get(r.reviewer_id);
       return {
         id: r.id,
@@ -154,7 +154,7 @@ export async function POST(req: NextRequest) {
     const {
       country,
       category,
-      spot_slug,
+      place_slug,
       reviewer_id,
       reviewer_name,
       is_anonymous,
@@ -163,7 +163,7 @@ export async function POST(req: NextRequest) {
     } = body;
 
     // バリデーション
-    if (!country || !category || !spot_slug || !reviewer_id || !reviewer_name) {
+    if (!country || !category || !place_slug || !reviewer_id || !reviewer_name) {
       return NextResponse.json(
         { error: "必須項目が不足しています" },
         { status: 400 }
@@ -194,7 +194,7 @@ export async function POST(req: NextRequest) {
 
     // 同一reviewer_idで同一スポットへの重複投稿チェック
     const dupRes = await fetch(
-      `${SUPABASE_URL}/rest/v1/place_reviews?reviewer_id=eq.${encodeURIComponent(reviewer_id)}&spot_country=eq.${encodeURIComponent(country)}&spot_category=eq.${encodeURIComponent(category)}&spot_slug=eq.${encodeURIComponent(spot_slug)}&select=id&limit=1`,
+      `${SUPABASE_URL}/rest/v1/place_reviews?reviewer_id=eq.${encodeURIComponent(reviewer_id)}&place_country=eq.${encodeURIComponent(country)}&place_category=eq.${encodeURIComponent(category)}&place_slug=eq.${encodeURIComponent(place_slug)}&select=id&limit=1`,
       {
         headers: {
           apikey: SUPABASE_KEY,
@@ -221,9 +221,9 @@ export async function POST(req: NextRequest) {
         Prefer: "return=minimal",
       },
       body: JSON.stringify({
-        spot_country: country,
-        spot_category: category,
-        spot_slug,
+        place_country: country,
+        place_category: category,
+        place_slug,
         reviewer_id,
         reviewer_name: reviewer_name.trim(),
         is_anonymous: is_anonymous !== false, // 明示的に false でない限り匿名扱い
@@ -239,7 +239,7 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    sendReviewNotification(country, category, spot_slug, reviewer_name.trim(), ratingNum, comment?.trim() || null);
+    sendReviewNotification(country, category, place_slug, reviewer_name.trim(), ratingNum, comment?.trim() || null);
 
     return NextResponse.json({ success: true }, { status: 201 });
   } catch {

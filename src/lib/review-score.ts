@@ -26,9 +26,9 @@ export const MIN_REVIEWS_FOR_SCORE = 1;
 
 export type Review = {
   id: string;
-  spot_country: string;
-  spot_category: string;
-  spot_slug: string;
+  place_country: string;
+  place_category: string;
+  place_slug: string;
   reviewer_id: string;
   is_anonymous: boolean; // 匿名投稿かどうか
   rating: number; // 1〜5
@@ -44,7 +44,7 @@ export type ReviewerStats = {
   first_review_at: string; // 最初のレビュー日（ISO 8601）
 };
 
-export type SpotScore = {
+export type placeScore = {
   raw_average: number; // 単純平均
   weighted_score: number; // 最終スコア（表示用）
   review_count: number;
@@ -148,10 +148,10 @@ function compressScore(rawScore: number): number {
  * 2. ベイズ平均でベースライン（2.5）方向に補正
  * 3. tanh圧縮で極端な値を抑制
  */
-export function calcSpotScore(
+export function calcplaceScore(
   reviews: Review[],
   reviewerStatsMap: Map<string, ReviewerStats>,
-): SpotScore {
+): placeScore {
   const count = reviews.length;
 
   if (count === 0) {
@@ -208,7 +208,7 @@ export function calcSpotScore(
  */
 export function calcLocalScore(
   reviews: Array<{ rating: number; is_anonymous: boolean }>
-): SpotScore {
+): placeScore {
   const count = reviews.length;
   if (count === 0) {
     return {
@@ -246,9 +246,9 @@ export function calcLocalScore(
 
 // --- ランキング ---
 
-export function rankSpots(
-  scores: Array<{ slug: string; score: SpotScore }>
-): Array<{ slug: string; score: SpotScore; rank: number }> {
+export function rankplaces(
+  scores: Array<{ slug: string; score: placeScore }>
+): Array<{ slug: string; score: placeScore; rank: number }> {
   const displayable = scores
     .filter((s) => s.score.display)
     .sort((a, b) => b.score.weighted_score - a.score.weighted_score);
@@ -279,9 +279,9 @@ export function getScoreLabel(score: number): string {
  * スコアをフォーマット（3.42 → "3.42"）
  * 表示しない場合は "−"
  */
-export function formatScore(spotScore: SpotScore): string {
-  if (!spotScore.display) return "−";
-  return spotScore.weighted_score.toFixed(2);
+export function formatScore(placeScore: placeScore): string {
+  if (!placeScore.display) return "−";
+  return placeScore.weighted_score.toFixed(2);
 }
 
 // --- ユーティリティ ---

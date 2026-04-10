@@ -4,7 +4,7 @@ import { useState, useMemo } from "react";
 import Link from "next/link";
 import { Search, MapPin, X } from "lucide-react";
 
-type SearchableSpot = {
+type Searchableplace = {
   slug: string;
   name: string;
   name_ja?: string;
@@ -15,11 +15,11 @@ type SearchableSpot = {
   tags: string[];
 };
 
-export default function SpotSearch({
-  spots,
+export default function placeSearch({
+  places,
   countryCode,
 }: {
-  spots: SearchableSpot[];
+  places: Searchableplace[];
   countryCode: string;
 }) {
   const [query, setQuery] = useState("");
@@ -27,7 +27,7 @@ export default function SpotSearch({
   const results = useMemo(() => {
     if (query.length < 2) return [];
     const q = query.toLowerCase();
-    return spots
+    return places
       .filter(
         (s) =>
           s.name.toLowerCase().includes(q) ||
@@ -37,7 +37,7 @@ export default function SpotSearch({
           s.tags.some((t) => t.includes(q))
       )
       .slice(0, 10);
-  }, [query, spots]);
+  }, [query, places]);
 
   return (
     <div className="relative">
@@ -67,23 +67,23 @@ export default function SpotSearch({
       {/* 検索結果 */}
       {results.length > 0 && (
         <div className="absolute top-full left-0 right-0 mt-1 bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 shadow-lg z-50 max-h-96 overflow-y-auto">
-          {results.map((spot) => (
+          {results.map((place) => (
             <Link
-              key={`${spot.category}-${spot.slug}`}
-              href={`/${countryCode}/place/${spot.category}/${spot.slug}`}
+              key={`${place.category}-${place.slug}`}
+              href={`/${countryCode}/place/${place.category}/${place.slug}`}
               className="flex items-center gap-3 px-4 py-3 hover:bg-stone-50 dark:hover:bg-stone-700 transition-colors border-b border-stone-100 dark:border-stone-700 last:border-b-0"
             >
               <div className="flex-1 min-w-0">
                 <p className="text-sm font-medium text-stone-700 dark:text-stone-200 truncate">
-                  {spot.name_ja ?? spot.name}
+                  {place.name_ja ?? place.name}
                 </p>
                 <div className="flex items-center gap-2 mt-0.5">
                   <span className="inline-flex items-center gap-1 text-xs text-stone-400">
                     <MapPin size={10} />
-                    {spot.area}
+                    {place.area}
                   </span>
                   <span className="text-xs text-warm-600 dark:text-warm-400">
-                    {spot.categoryName}
+                    {place.categoryName}
                   </span>
                 </div>
               </div>

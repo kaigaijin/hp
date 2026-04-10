@@ -4,7 +4,7 @@
 
 import fs from "fs";
 import path from "path";
-import { GOOGLE_API_KEY, type SpotEntry } from "./places-config.js";
+import { GOOGLE_API_KEY, type placeEntry } from "./places-config.js";
 
 const DIRECTORY_PATH = path.resolve(__dirname, "../content/directory");
 
@@ -12,7 +12,7 @@ const DIRECTORY_PATH = path.resolve(__dirname, "../content/directory");
 const DELAY_MS = 150;
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
-interface ExistingSpot {
+interface Existingplace {
   slug: string;
   name: string;
   name_ja?: string | null;
@@ -93,33 +93,33 @@ async function backfillCategory(country: string, category: string) {
     return { total: 0, updated: 0, skipped: 0, notFound: 0 };
   }
 
-  const spots: ExistingSpot[] = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+  const places: Existingplace[] = JSON.parse(fs.readFileSync(filePath, "utf-8"));
   let updated = 0;
   let skipped = 0;
   let notFound = 0;
 
-  for (const spot of spots) {
+  for (const place of places) {
     // place_id + lat/lng が全て揃っていればスキップ
-    if (spot.place_id && spot.lat != null && spot.lng != null) {
+    if (place.place_id && place.lat != null && place.lng != null) {
       skipped++;
       continue;
     }
 
     const info = await findPlaceInfo(
-      spot.name_ja || spot.name,
-      spot.address || "",
+      place.name_ja || place.name,
+      place.address || "",
     );
 
     if (info) {
-      spot.place_id = info.id;
-      spot.lat = info.lat;
-      spot.lng = info.lng;
-      if (spot.priority == null) spot.priority = 0;
+      place.place_id = info.id;
+      place.lat = info.lat;
+      place.lng = info.lng;
+      if (place.priority == null) place.priority = 0;
       updated++;
-      console.log(`  ✓ ${spot.name} → ${info.id} (${info.lat}, ${info.lng})`);
+      console.log(`  ✓ ${place.name} → ${info.id} (${info.lat}, ${info.lng})`);
     } else {
       notFound++;
-      console.log(`  ✗ ${spot.name}（見つからず）`);
+      console.log(`  ✗ ${place.name}（見つからず）`);
     }
 
     await sleep(DELAY_MS);
@@ -127,10 +127,10 @@ async function backfillCategory(country: string, category: string) {
 
   // 更新があれば保存
   if (updated > 0) {
-    fs.writeFileSync(filePath, JSON.stringify(spots, null, 2) + "\n");
+    fs.writeFileSync(filePath, JSON.stringify(places, null, 2) + "\n");
   }
 
-  return { total: spots.length, updated, skipped, notFound };
+  return { total: places.length, updated, skipped, notFound };
 }
 
 async function main() {

@@ -40,7 +40,7 @@ function isOnlyHiragana(str: string): boolean {
   return /^[\u3040-\u309f\s]+$/.test(str);
 }
 
-type Spot = {
+type place = {
   slug: string;
   name: string;
   name_ja: string | null;
@@ -66,29 +66,29 @@ for (const country of countries) {
 
   for (const file of jsonFiles) {
     const filePath = path.join(countryDir, file);
-    const data: Spot[] = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+    const data: place[] = JSON.parse(fs.readFileSync(filePath, "utf-8"));
     let modified = false;
     let fileFixed = 0;
 
-    for (const spot of data) {
-      if (!spot.name_ja) continue;
-      if (!spot.ai_reviewed) continue;
+    for (const place of data) {
+      if (!place.name_ja) continue;
+      if (!place.ai_reviewed) continue;
 
       // カタカナのみ or ひらがなのみ → 安全、スキップ
-      if (isOnlyKatakana(spot.name_ja) || isOnlyHiragana(spot.name_ja)) {
+      if (isOnlyKatakana(place.name_ja) || isOnlyHiragana(place.name_ja)) {
         totalSkipped++;
         continue;
       }
 
       // 英語名(name)自体に日本語文字が含まれる → 店自身が日本語名を公式使用 → 保持
-      if (/[\u3040-\u309f\u30a0-\u30ff\u4e00-\u9fff]/.test(spot.name)) {
+      if (/[\u3040-\u309f\u30a0-\u30ff\u4e00-\u9fff]/.test(place.name)) {
         totalSkipped++;
         continue;
       }
 
       // 漢字が1文字だけ（例: 「ほぼ屋」の「屋」）→ 接尾辞的な使い方で正しい可能性が高い → 保持
-      const kanjiCount = (spot.name_ja.match(/[\u4e00-\u9fff\u3400-\u4dbf]/g) || []).length;
-      const totalLen = spot.name_ja.replace(/[\s\-・]/g, "").length;
+      const kanjiCount = (place.name_ja.match(/[\u4e00-\u9fff\u3400-\u4dbf]/g) || []).length;
+      const totalLen = place.name_ja.replace(/[\s\-・]/g, "").length;
       if (kanjiCount <= 1 && totalLen >= 3) {
         totalSkipped++;
         continue;
@@ -96,11 +96,11 @@ for (const country of countries) {
 
       // name_jaの漢字部分が英語名の音写として妥当かチェック
       // 漢字を含む → AIが推測した可能性がある → null にリセット
-      if (containsKanji(spot.name_ja)) {
+      if (containsKanji(place.name_ja)) {
         if (dryRun) {
-          console.log(`[${country}/${file}] ${spot.slug}: "${spot.name_ja}" → null (was: ${spot.name})`);
+          console.log(`[${country}/${file}] ${place.slug}: "${place.name_ja}" → null (was: ${place.name})`);
         }
-        spot.name_ja = null;
+        place.name_ja = null;
         modified = true;
         fileFixed++;
         totalFixed++;

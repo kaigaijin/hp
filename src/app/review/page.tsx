@@ -1,4 +1,4 @@
-import { getNeedsReviewSpots } from "@/lib/directory";
+import { getNeedsReviewplaces } from "@/lib/directory";
 import { AlertTriangle } from "lucide-react";
 import { ReviewList } from "./ReviewList";
 
@@ -8,7 +8,7 @@ export const metadata = {
 };
 
 export default function ReviewPage() {
-  const spots = getNeedsReviewSpots();
+  const places = getNeedsReviewplaces();
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -23,13 +23,13 @@ export default function ReviewPage() {
             </p>
           </div>
           <span className="ml-auto bg-white text-amber-600 font-bold text-sm px-3 py-1 rounded-full">
-            {spots.length}件
+            {places.length}件
           </span>
         </div>
       </div>
 
       <div className="max-w-4xl mx-auto px-4 py-6">
-        <ReviewList initialSpots={spots} />
+        <ReviewList initialplaces={places} />
 
         {/* 操作ガイド */}
         <div className="mt-8 bg-white border border-gray-200 rounded-xl p-4 text-sm text-gray-600">

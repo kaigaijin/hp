@@ -24,7 +24,7 @@ type MenuItem = {
   category?: string;
 };
 
-type SpotData = {
+type placeData = {
   name: string;
   address: string;
   description: string;
@@ -69,13 +69,13 @@ function EmptyState({
   );
 }
 
-export default function SpotDetailTabs({
-  spot,
+export default function placeDetailTabs({
+  place,
   displayName,
   overviewContent,
   mapEmbed,
 }: {
-  spot: SpotData;
+  place: placeData;
   displayName: string;
   overviewContent: React.ReactNode;
   mapEmbed: React.ReactNode;
@@ -84,23 +84,23 @@ export default function SpotDetailTabs({
 
   // メニューをカテゴリ別にグループ化
   const menuByCategory: Record<string, MenuItem[]> = {};
-  if (spot.menu && spot.menu.length > 0) {
-    for (const item of spot.menu) {
+  if (place.menu && place.menu.length > 0) {
+    for (const item of place.menu) {
       const cat = item.category ?? "その他";
       if (!menuByCategory[cat]) menuByCategory[cat] = [];
       menuByCategory[cat].push(item);
     }
   }
 
-  const hasMenu = spot.menu && spot.menu.length > 0;
+  const hasMenu = place.menu && place.menu.length > 0;
   const hasDetailInfo =
-    spot.price_range ||
-    (spot.payment && spot.payment.length > 0) ||
-    spot.seats != null ||
-    spot.parking ||
-    spot.reservation ||
-    spot.smoking ||
-    (spot.languages && spot.languages.length > 0);
+    place.price_range ||
+    (place.payment && place.payment.length > 0) ||
+    place.seats != null ||
+    place.parking ||
+    place.reservation ||
+    place.smoking ||
+    (place.languages && place.languages.length > 0);
 
   return (
     <div className="bg-white dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700 overflow-hidden">
@@ -132,13 +132,13 @@ export default function SpotDetailTabs({
         {activeTab === "overview" && (
           <div>
             <div className="p-5 space-y-3">
-              {spot.detail ? (
+              {place.detail ? (
                 <p className="text-stone-600 dark:text-stone-300 leading-relaxed whitespace-pre-line">
-                  {spot.detail}
+                  {place.detail}
                 </p>
               ) : (
                 <p className="text-stone-600 dark:text-stone-300 leading-relaxed">
-                  {spot.description}
+                  {place.description}
                 </p>
               )}
             </div>
@@ -150,9 +150,9 @@ export default function SpotDetailTabs({
         {/* 写真タブ */}
         {activeTab === "photos" && (
           <>
-            {spot.images && spot.images.length > 0 ? (
+            {place.images && place.images.length > 0 ? (
               <div className="p-4 grid grid-cols-2 sm:grid-cols-3 gap-2">
-                {spot.images.map((src, i) => (
+                {place.images.map((src, i) => (
                   <div key={i} className="aspect-square rounded-lg overflow-hidden">
                     <img src={src} alt="" className="w-full h-full object-cover" />
                   </div>
@@ -228,79 +228,79 @@ export default function SpotDetailTabs({
           <>
             {hasDetailInfo ? (
               <div className="p-5 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {spot.price_range && (
+                {place.price_range && (
                   <div className="flex items-start gap-2.5">
                     <DollarSign size={14} className="text-stone-400 mt-0.5 shrink-0" />
                     <div>
                       <dt className="text-xs text-stone-400 mb-0.5">価格帯</dt>
                       <dd className="text-sm text-stone-700 dark:text-stone-300">
-                        {spot.price_range}
+                        {place.price_range}
                       </dd>
                     </div>
                   </div>
                 )}
-                {spot.payment && spot.payment.length > 0 && (
+                {place.payment && place.payment.length > 0 && (
                   <div className="flex items-start gap-2.5">
                     <CreditCard size={14} className="text-stone-400 mt-0.5 shrink-0" />
                     <div>
                       <dt className="text-xs text-stone-400 mb-0.5">支払い方法</dt>
                       <dd className="text-sm text-stone-700 dark:text-stone-300">
-                        {spot.payment.join(", ")}
+                        {place.payment.join(", ")}
                       </dd>
                     </div>
                   </div>
                 )}
-                {spot.seats != null && (
+                {place.seats != null && (
                   <div className="flex items-start gap-2.5">
                     <Armchair size={14} className="text-stone-400 mt-0.5 shrink-0" />
                     <div>
                       <dt className="text-xs text-stone-400 mb-0.5">席数</dt>
                       <dd className="text-sm text-stone-700 dark:text-stone-300">
-                        {spot.seats}席
+                        {place.seats}席
                       </dd>
                     </div>
                   </div>
                 )}
-                {spot.parking && (
+                {place.parking && (
                   <div className="flex items-start gap-2.5">
                     <CarFront size={14} className="text-stone-400 mt-0.5 shrink-0" />
                     <div>
                       <dt className="text-xs text-stone-400 mb-0.5">駐車場</dt>
                       <dd className="text-sm text-stone-700 dark:text-stone-300">
-                        {spot.parking}
+                        {place.parking}
                       </dd>
                     </div>
                   </div>
                 )}
-                {spot.reservation && (
+                {place.reservation && (
                   <div className="flex items-start gap-2.5">
                     <CalendarCheck size={14} className="text-stone-400 mt-0.5 shrink-0" />
                     <div>
                       <dt className="text-xs text-stone-400 mb-0.5">予約</dt>
                       <dd className="text-sm text-stone-700 dark:text-stone-300">
-                        {spot.reservation}
+                        {place.reservation}
                       </dd>
                     </div>
                   </div>
                 )}
-                {spot.smoking && (
+                {place.smoking && (
                   <div className="flex items-start gap-2.5">
                     <Cigarette size={14} className="text-stone-400 mt-0.5 shrink-0" />
                     <div>
                       <dt className="text-xs text-stone-400 mb-0.5">喫煙</dt>
                       <dd className="text-sm text-stone-700 dark:text-stone-300">
-                        {spot.smoking}
+                        {place.smoking}
                       </dd>
                     </div>
                   </div>
                 )}
-                {spot.languages && spot.languages.length > 0 && (
+                {place.languages && place.languages.length > 0 && (
                   <div className="flex items-start gap-2.5">
                     <Languages size={14} className="text-stone-400 mt-0.5 shrink-0" />
                     <div>
                       <dt className="text-xs text-stone-400 mb-0.5">対応言語</dt>
                       <dd className="text-sm text-stone-700 dark:text-stone-300">
-                        {spot.languages.join(", ")}
+                        {place.languages.join(", ")}
                       </dd>
                     </div>
                   </div>

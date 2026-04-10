@@ -1,22 +1,22 @@
 [
   {
     "query": "炭亭 焼肉レストラン",
-    "action": "スポット掲載済み（/th/spot/restaurant/sumi-tei-yakiniku-thonglor）",
+    "action": "スポット掲載済み（/th/place/restaurant/sumi-tei-yakiniku-thonglor）",
     "done_at": "2026-04-01"
   },
   {
     "query": "フジスーパー3号店",
-    "action": "スポット掲載済み（/th/spot/grocery/fuji-super-branch3-sukhumvit39）",
+    "action": "スポット掲載済み（/th/place/grocery/fuji-super-branch3-sukhumvit39）",
     "done_at": "2026-04-01"
   },
   {
     "query": "フジスーパー4号店",
-    "action": "スポット掲載済み（/th/spot/grocery/fuji-super-branch4）",
+    "action": "スポット掲載済み（/th/place/grocery/fuji-super-branch4）",
     "done_at": "2026-04-01"
   },
   {
     "query": "フジスーパー5号店",
-    "action": "スポット掲載済み（/th/spot/grocery/fuji-super-branch5）",
+    "action": "スポット掲載済み（/th/place/grocery/fuji-super-branch5）",
     "done_at": "2026-04-01"
   },
   {
@@ -26,12 +26,12 @@
   },
   {
     "query": "シンガポール ドラッグストア",
-    "action": "Nishino Pharmacy 2店舗を/sg/spot/pharmacyに追加。カテゴリページtitleも【日本人向け】キーワード追加で改善",
+    "action": "Nishino Pharmacy 2店舗を/sg/place/pharmacyに追加。カテゴリページtitleも【日本人向け】キーワード追加で改善",
     "done_at": "2026-04-01"
   },
   {
     "query": "sp幼稚園",
-    "action": "タイのスポット。/th/spot/education/sp-kindergarten-phrom-phong として既に掲載済み（SP Kindergarten）",
+    "action": "タイのスポット。/th/place/education/sp-kindergarten-phrom-phong として既に掲載済み（SP Kindergarten）",
     "done_at": "2026-04-01"
   },
   {
@@ -51,7 +51,7 @@
   },
   {
     "query": "シンガポール 日本食レストラン",
-    "action": "/sg/spot/restaurantのカテゴリ名を「日本食レストラン・グルメ」に変更（titleにキーワードを含める）",
+    "action": "/sg/place/restaurantのカテゴリ名を「日本食レストラン・グルメ」に変更（titleにキーワードを含める）",
     "done_at": "2026-04-01"
   }
 ]

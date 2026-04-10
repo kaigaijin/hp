@@ -48,13 +48,13 @@ JP_SIGNALS_WEAK = [
     'ikebana', 'judo', 'karate', 'aikido', 'kendo',
 ]
 
-def has_jp_signal(spot: dict) -> tuple[bool, str]:
+def has_jp_signal(place: dict) -> tuple[bool, str]:
     """日本人向けの根拠があるか判定。(OK, 理由) を返す"""
     haystack = ' '.join([
-        spot.get('name', ''),
-        spot.get('name_ja', '') or '',
-        ' '.join(spot.get('tags', [])),
-        spot.get('description', '') or '',
+        place.get('name', ''),
+        place.get('name_ja', '') or '',
+        ' '.join(place.get('tags', [])),
+        place.get('description', '') or '',
     ]).lower()
 
     for kw in JP_SIGNALS_STRONG:
@@ -134,7 +134,7 @@ def slugify(name: str) -> str:
 # スポット保存（バリデーション付き）
 # ────────────────────────────────────────────────────────────
 
-def add_spots(country: str, category: str, new_spots: list) -> tuple[int, int]:
+def add_places(country: str, category: str, new_places: list) -> tuple[int, int]:
     """バリデーション通過後にJSONへ追加。(追加件数, 除外件数) を返す"""
     path = f"/Users/ryuichiueda/works/zh/kaigaijin/hp/content/directory/{country}/{category}.json"
     if not os.path.exists(path):
@@ -148,7 +148,7 @@ def add_spots(country: str, category: str, new_spots: list) -> tuple[int, int]:
     added = 0
     excluded = 0
 
-    for s in new_spots:
+    for s in new_places:
         name = s.get('name', '').strip()
         if not name:
             continue
@@ -287,13 +287,13 @@ def collect_category(country: str, category: str, n_need: int) -> tuple[int, int
         print(f"  レスポンスなし")
         return 0, 0
 
-    spots = parse_json(text)
-    if not spots:
+    places = parse_json(text)
+    if not places:
         print(f"  JSONパース失敗。先頭: {text[:150]}")
         return 0, 0
 
-    print(f"  取得: {len(spots)}件 → バリデーション中...")
-    added, excluded = add_spots(country, category, spots)
+    print(f"  取得: {len(places)}件 → バリデーション中...")
+    added, excluded = add_places(country, category, places)
     return added, excluded
 
 
@@ -303,7 +303,7 @@ def collect_category(country: str, category: str, n_need: int) -> tuple[int, int
 
 import sys
 
-# コマンドライン引数でタスクファイルを指定可能: python collect_spots.py tasks_vn.json
+# コマンドライン引数でタスクファイルを指定可能: python collect_places.py tasks_vn.json
 TASKS_FILE = sys.argv[1] if len(sys.argv) > 1 else None
 
 if TASKS_FILE and os.path.exists(TASKS_FILE):

@@ -1,7 +1,7 @@
 "use client";
 
 import { Star } from "lucide-react";
-import type { SpotScore as SpotScoreType } from "@/lib/review-score";
+import type { placeScore as placeScoreType } from "@/lib/review-score";
 import { getScoreLabel } from "@/lib/review-score";
 
 // 星の表示（塗りつぶし・半分・空）
@@ -40,11 +40,11 @@ function StarRating({ score, size = 14 }: { score: number; size?: number }) {
 
 export { StarRating };
 
-export default function SpotScore({
+export default function placeScore({
   score,
   compact = false,
 }: {
-  score: SpotScoreType | null;
+  score: placeScoreType | null;
   compact?: boolean;
 }) {
   // デフォルト: 2.5星（レビューが溜まるまで中間値を表示）

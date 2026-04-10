@@ -32,7 +32,7 @@
       "ブレーキ整備",
       "牽引サービス"
     ],
-    "spot_reviewed": true
+    "place_reviewed": true
   },
   {
     "slug": "autobacs-ubi",
@@ -66,7 +66,7 @@
       "保険クレーム対応",
       "牽引サービス"
     ],
-    "spot_reviewed": true
+    "place_reviewed": true
   },
   {
     "slug": "borneo-motors",
@@ -99,7 +99,7 @@
       "純正部品供給",
       "24時間ロードサイドアシスタンス"
     ],
-    "spot_reviewed": true
+    "place_reviewed": true
   },
   {
     "slug": "champion-motors-suzuki",
@@ -132,7 +132,7 @@
       "下取り査定",
       "OBU設置"
     ],
-    "spot_reviewed": true
+    "place_reviewed": true
   },
   {
     "slug": "cycle-carriage-mitsubishi",
@@ -165,7 +165,7 @@
       "アフターサービス・保証修理",
       "純正部品供給"
     ],
-    "spot_reviewed": true
+    "place_reviewed": true
   },
   {
     "slug": "eurokars-mazda",
@@ -197,7 +197,7 @@
       "アフターサービス",
       "スペアパーツ供給"
     ],
-    "spot_reviewed": true
+    "place_reviewed": true
   },
   {
     "slug": "jack-cars",
@@ -232,7 +232,7 @@
       "車両整備・修理",
       "名義変更サポート"
     ],
-    "spot_reviewed": true
+    "place_reviewed": true
   },
   {
     "slug": "kah-motor-honda",
@@ -266,7 +266,7 @@
       "カーレンタル・リース",
       "24時間ロードサイドアシスタンス"
     ],
-    "spot_reviewed": true
+    "place_reviewed": true
   },
   {
     "slug": "lexus-singapore",
@@ -299,7 +299,7 @@
       "認定中古車販売",
       "アフターサービス"
     ],
-    "spot_reviewed": true
+    "place_reviewed": true
   },
   {
     "slug": "motor-image-subaru",
@@ -332,7 +332,7 @@
       "アフターサービス",
       "純正パーツ供給"
     ],
-    "spot_reviewed": true
+    "place_reviewed": true
   },
   {
     "slug": "tan-chong-motor-nissan",
@@ -365,7 +365,7 @@
       "アフターサービス",
       "純正部品供給"
     ],
-    "spot_reviewed": true
+    "place_reviewed": true
   },
   {
     "slug": "sg-keeper",
@@ -399,7 +399,7 @@
       "インテリアクリーニング",
       "ヘッドライト保護"
     ],
-    "spot_reviewed": true
+    "place_reviewed": true
   },
   {
     "slug": "vin-s-automotive-group",
@@ -434,7 +434,7 @@
       "保険クレーム対応",
       "ファイナンス・ローン"
     ],
-    "spot_reviewed": true
+    "place_reviewed": true
   },
   {
     "slug": "kinto-share-singapore",
@@ -468,7 +468,7 @@
       "配車・回収サービス",
       "24時間ロードサイドアシスタンス"
     ],
-    "spot_reviewed": true
+    "place_reviewed": true
   },
   {
     "slug": "kinto-singapore",
@@ -503,7 +503,7 @@
       "マレーシア入国VEP対応",
       "日本語サポート"
     ],
-    "spot_reviewed": true
+    "place_reviewed": true
   },
   {
     "slug": "tokyo-century-leasing-singapore",
@@ -538,7 +538,7 @@
       "マレーシア入国VEP対応",
       "日本語サポート"
     ],
-    "spot_reviewed": true
+    "place_reviewed": true
   },
   {
     "slug": "hertz-singapore-ubi",
@@ -567,7 +567,7 @@
     "place_id": "",
     "needs_review": false,
     "review_note": "国際チェーンで日系でない。日本語対応の確認不能。駐在員利用の実績はあるが、日本人向け特化の根拠が確認できない。",
-    "spot_reviewed": true
+    "place_reviewed": true
   },
   {
     "slug": "comfortdelgro-rent-a-car",
@@ -595,7 +595,7 @@
     "place_id": "",
     "needs_review": false,
     "review_note": "シンガポール系企業。日系でなく、日本語対応の確認不能。一般的なレンタカーサービスで日本人向け特化の根拠が確認できない。",
-    "spot_reviewed": true
+    "place_reviewed": true
   },
   {
     "slug": "avis-singapore-leasing",
@@ -624,6 +624,6 @@
     "place_id": "",
     "needs_review": false,
     "review_note": "国際チェーンで日系でない。日本語対応の確認不能。駐在員向けリースという観点では有用だが、日本人向け特化の根拠が確認できない。",
-    "spot_reviewed": true
+    "place_reviewed": true
   }
 ]

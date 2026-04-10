@@ -1,5 +1,5 @@
 /**
- * migrate-spot-fields.ts
+ * migrate-place-fields.ts
  *
  * 既存スポットJSONに新フィールドを追加するマイグレーション。
  * フィールドが存在しない場合のみ null で初期化する（上書きしない）。
@@ -13,7 +13,7 @@
  *   - photo_name       Googleフォト参照キー（null、表示しない）
  *
  * 使い方:
- *   npx tsx scripts/migrate-spot-fields.ts [--dry-run]
+ *   npx tsx scripts/migrate-place-fields.ts [--dry-run]
  */
 
 import fs from "fs";
@@ -32,19 +32,19 @@ const NEW_FIELDS: Record<string, null> = {
   photo_name: null,
 };
 
-function migrateSpot(spot: Record<string, unknown>): { spot: Record<string, unknown>; changed: boolean } {
+function migrateplace(place: Record<string, unknown>): { place: Record<string, unknown>; changed: boolean } {
   let changed = false;
   for (const [key, defaultVal] of Object.entries(NEW_FIELDS)) {
-    if (!(key in spot)) {
-      spot[key] = defaultVal;
+    if (!(key in place)) {
+      place[key] = defaultVal;
       changed = true;
     }
   }
-  return { spot, changed };
+  return { place, changed };
 }
 
 let totalFiles = 0;
-let totalSpots = 0;
+let totalplaces = 0;
 let totalChanged = 0;
 
 const countries = fs.readdirSync(DIRECTORY_PATH).filter((d) =>
@@ -59,16 +59,16 @@ for (const country of countries.sort()) {
 
   for (const file of files) {
     const filePath = path.join(countryDir, file);
-    const spots: Record<string, unknown>[] = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+    const places: Record<string, unknown>[] = JSON.parse(fs.readFileSync(filePath, "utf-8"));
     let fileChanged = false;
 
-    const migrated = spots.map((spot) => {
-      const { spot: s, changed } = migrateSpot(spot);
+    const migrated = places.map((place) => {
+      const { place: s, changed } = migrateplace(place);
       if (changed) {
         fileChanged = true;
         totalChanged++;
       }
-      totalSpots++;
+      totalplaces++;
       return s;
     });
 
@@ -87,5 +87,5 @@ for (const country of countries.sort()) {
 }
 
 console.log(`\n=== ${dryRun ? "dry-run 完了" : "マイグレーション完了"} ===`);
-console.log(`対象: ${totalFiles}ファイル / ${totalSpots}件`);
+console.log(`対象: ${totalFiles}ファイル / ${totalplaces}件`);
 console.log(`更新: ${totalChanged}件${dryRun ? "（dry-run、実際には書き込み未実施）" : ""}`);

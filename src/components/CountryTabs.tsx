@@ -7,14 +7,14 @@ import { BookOpen, MapPin, BriefcaseBusiness } from "lucide-react";
 type Props = {
   countryCode: string;
   articleCount: number;
-  spotCount: number;
+  placeCount: number;
 };
 
-export default function CountryTabs({ countryCode, articleCount, spotCount }: Props) {
+export default function CountryTabs({ countryCode, articleCount, placeCount }: Props) {
   const pathname = usePathname();
 
   const isArticles = pathname === `/${countryCode}`;
-  const isSpot = pathname.startsWith(`/${countryCode}/place`);
+  const isplace = pathname.startsWith(`/${countryCode}/place`);
   const isJobs = pathname.startsWith(`/${countryCode}/jobs`);
 
   const tabs = [
@@ -28,9 +28,9 @@ export default function CountryTabs({ countryCode, articleCount, spotCount }: Pr
     {
       href: `/${countryCode}/place`,
       label: "KAIプレイス",
-      count: spotCount,
+      count: placeCount,
       icon: <MapPin size={14} />,
-      active: isSpot,
+      active: isplace,
     },
     {
       href: `/${countryCode}/jobs`,

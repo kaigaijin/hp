@@ -2,15 +2,15 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import SpotSearch from "@/components/SpotSearch";
-import SpotPickup from "@/components/SpotPickup";
+import placeSearch from "@/components/placeSearch";
+import placePickup from "@/components/placePickup";
 import { getCountry, countries } from "@/lib/countries";
 import {
   categories,
   categoryGroups,
   getCategoryCounts,
   getGroupCounts,
-  getAllSpots,
+  getAllplaces,
   getAllAreas,
   getCategory,
 } from "@/lib/directory";
@@ -100,7 +100,7 @@ export function generateMetadata({
   });
 }
 
-export default async function SpotIndexPage({
+export default async function placeIndexPage({
   params,
 }: {
   params: Promise<{ country: string }>;
@@ -111,23 +111,23 @@ export default async function SpotIndexPage({
 
   const counts = getCategoryCounts(code);
   const groupCounts = getGroupCounts(code);
-  const totalSpots = Object.values(counts).reduce((a, b) => a + b, 0);
+  const totalplaces = Object.values(counts).reduce((a, b) => a + b, 0);
   const articles = getArticlesByCountry(code);
   const areas = getAllAreas(code).slice(0, 12);
 
-  const allSpots = getAllSpots(code);
-  const searchableSpots = allSpots.map((spot) => ({
-    slug: spot.slug,
-    name: spot.name,
-    name_ja: spot.name_ja,
-    area: spot.area,
-    category: spot.category,
-    categoryName: getCategory(spot.category)?.name ?? spot.category,
-    description: spot.description,
-    tags: spot.tags,
+  const allplaces = getAllplaces(code);
+  const searchableplaces = allplaces.map((place) => ({
+    slug: place.slug,
+    name: place.name,
+    name_ja: place.name_ja,
+    area: place.area,
+    category: place.category,
+    categoryName: getCategory(place.category)?.name ?? place.category,
+    description: place.description,
+    tags: place.tags,
   }));
 
-  const pickupSpots = allSpots.map((s) => ({
+  const pickupplaces = allplaces.map((s) => ({
     slug: s.slug,
     name: s.name,
     name_ja: s.name_ja,
@@ -150,13 +150,13 @@ export default async function SpotIndexPage({
           currentLabel="KAIプレイス"
           label="— KAI PLACE"
           title="日本人向けスポット"
-          subtitle={`${country.name}のレストラン・クリニック・美容室・不動産など ${totalSpots}件掲載中`}
+          subtitle={`${country.name}のレストラン・クリニック・美容室・不動産など ${totalplaces}件掲載中`}
           articleCount={articles.length}
-          spotCount={totalSpots}
+          placeCount={totalplaces}
           right={
             <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-5">
               <p className="text-white/80 text-xs font-semibold mb-3">名前・エリア・キーワードで検索</p>
-              <SpotSearch spots={searchableSpots} countryCode={code} />
+              <placeSearch places={searchableplaces} countryCode={code} />
             </div>
           }
           subTabs={
@@ -273,8 +273,8 @@ export default async function SpotIndexPage({
           )}
 
           {/* ピックアップスポット */}
-          <SpotPickup
-            spots={pickupSpots}
+          <placePickup
+            places={pickupplaces}
             countryCode={code}
             groups={categoryGroups.map((g) => g.slug)}
             groupThemes={Object.fromEntries(

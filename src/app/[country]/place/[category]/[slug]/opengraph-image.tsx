@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 import { getCountry } from "@/lib/countries";
-import { getCategory, getSpot } from "@/lib/directory";
+import { getCategory, getplace } from "@/lib/directory";
 
 export const alt = "KAIプレイス | Kaigaijin";
 export const size = { width: 1200, height: 630 };
@@ -18,9 +18,9 @@ export default async function OgImage({
   const { country: code, category: catSlug, slug } = await params;
   const country = getCountry(code);
   const category = getCategory(catSlug);
-  const spot = getSpot(code, catSlug, slug);
-  const displayName = spot?.name_ja ?? spot?.name ?? "スポット";
-  const area = spot?.area ?? "";
+  const place = getplace(code, catSlug, slug);
+  const displayName = place?.name_ja ?? place?.name ?? "スポット";
+  const area = place?.area ?? "";
   const countryName = country?.name ?? "";
   const categoryName = category?.name ?? "";
 

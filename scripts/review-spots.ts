@@ -1,5 +1,5 @@
 /**
- * review-spots.ts
+ * review-places.ts
  *
  * Claude APIを使ってスポットの以下を一括処理する:
  *   1. 日本人向けか判定（最優先）
@@ -13,15 +13,15 @@
  *   5. detail生成（日本人が利用判断できる詳細情報・500〜1000文字）
  *
  * 使い方:
- *   ANTHROPIC_API_KEY=xxx npx tsx scripts/review-spots.ts <country> [category] [options]
+ *   ANTHROPIC_API_KEY=xxx npx tsx scripts/review-places.ts <country> [category] [options]
  *
  * 例:
- *   npx tsx scripts/review-spots.ts sg                    # SG全カテゴリ
- *   npx tsx scripts/review-spots.ts sg restaurant         # SGレストランのみ
- *   npx tsx scripts/review-spots.ts sg --dry-run          # 判定結果を出力するだけ（ファイル変更なし）
- *   npx tsx scripts/review-spots.ts sg --limit 10         # 最大10件
- *   npx tsx scripts/review-spots.ts sg --force            # 既にreview済みも再実行
- *   npx tsx scripts/review-spots.ts sg --model opus       # claude-opus-4-5 を使用（デフォルト: sonnet）
+ *   npx tsx scripts/review-places.ts sg                    # SG全カテゴリ
+ *   npx tsx scripts/review-places.ts sg restaurant         # SGレストランのみ
+ *   npx tsx scripts/review-places.ts sg --dry-run          # 判定結果を出力するだけ（ファイル変更なし）
+ *   npx tsx scripts/review-places.ts sg --limit 10         # 最大10件
+ *   npx tsx scripts/review-places.ts sg --force            # 既にreview済みも再実行
+ *   npx tsx scripts/review-places.ts sg --model opus       # claude-opus-4-5 を使用（デフォルト: sonnet）
  *
  * .envに ANTHROPIC_API_KEY を設定しておけば環境変数不要
  */
@@ -56,7 +56,7 @@ const COUNTRY_NAME: Record<string, string> = {
   cn: "中国", ph: "フィリピン", us: "アメリカ", ca: "カナダ", fr: "フランス",
 };
 
-type SpotEntry = {
+type placeEntry = {
   slug: string;
   name: string;
   name_ja?: string | null;
@@ -116,7 +116,7 @@ async function fetchWebsite(url: string): Promise<string | null> {
 
 // Claude APIに渡すプロンプトを構築
 function buildPrompt(
-  spot: SpotEntry,
+  place: placeEntry,
   category: string,
   country: string,
   siteContent: string | null
@@ -130,15 +130,15 @@ function buildPrompt(
 以下の${countryName}のスポットについて、公式サイト内容と既存情報をもとに分析してください。
 
 【スポット基本情報】
-店名（英語）: ${spot.name}
-店名（日本語）: ${spot.name_ja || "不明"}
+店名（英語）: ${place.name}
+店名（日本語）: ${place.name_ja || "不明"}
 国: ${countryName}
-エリア: ${spot.area || "不明"}
-住所: ${spot.address || "不明"}
+エリア: ${place.area || "不明"}
+住所: ${place.address || "不明"}
 カテゴリ: ${category}
-既存タグ: ${(spot.tags || []).join("・") || "なし"}
-既存description: ${spot.description || "なし"}
-公式サイトURL: ${spot.website || "なし"}
+既存タグ: ${(place.tags || []).join("・") || "なし"}
+既存description: ${place.description || "なし"}
+公式サイトURL: ${place.website || "なし"}
 ${siteSection}
 
 ---
@@ -232,7 +232,7 @@ async function callClaude(
   client: Anthropic,
   model: string,
   prompt: string,
-  spotName: string,
+  placeName: string,
   retries = 3
 ): Promise<ReviewResult | null> {
   for (let attempt = 0; attempt < retries; attempt++) {
@@ -307,22 +307,22 @@ async function processCategory(
   const filePath = path.join(DIRECTORY_PATH, country, `${category}.json`);
   if (!fs.existsSync(filePath)) return { reviewed: 0, removed: 0, needsReview: 0, failed: 0 };
 
-  const spots: SpotEntry[] = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+  const places: placeEntry[] = JSON.parse(fs.readFileSync(filePath, "utf-8"));
 
   // 対象: needs_review フラグがある or ai_reviewed未済 or force指定
-  const targets = spots.filter((s) => {
+  const targets = places.filter((s) => {
     if (opts.force) return true;
     if (s.needs_review) return true; // 保留中は再レビュー
     return !s.ai_reviewed || !s.description || (s.description.length < 40);
   });
 
   if (targets.length === 0) {
-    console.log(`  ${country}/${category}: スキップ（全${spots.length}件、対象なし）`);
+    console.log(`  ${country}/${category}: スキップ（全${places.length}件、対象なし）`);
     return { reviewed: 0, removed: 0, needsReview: 0, failed: 0 };
   }
 
   const toProcess = opts.limit > 0 ? targets.slice(0, opts.limit) : targets;
-  console.log(`\n  ${country}/${category}: ${toProcess.length}件を処理（全${spots.length}件中）`);
+  console.log(`\n  ${country}/${category}: ${toProcess.length}件を処理（全${places.length}件中）`);
 
   let reviewed = 0;
   let removed = 0;
@@ -331,26 +331,26 @@ async function processCategory(
   const removedSlugs = new Set<string>();
 
   for (let i = 0; i < toProcess.length; i++) {
-    const spot = toProcess[i];
-    process.stdout.write(`    [${i + 1}/${toProcess.length}] ${spot.name} ... `);
+    const place = toProcess[i];
+    process.stdout.write(`    [${i + 1}/${toProcess.length}] ${place.name} ... `);
 
     // 公式サイトを取得（ある場合）
     let siteContent: string | null = null;
-    if (spot.website) {
-      siteContent = await fetchWebsite(spot.website);
+    if (place.website) {
+      siteContent = await fetchWebsite(place.website);
     }
 
-    const prompt = buildPrompt(spot, category, country, siteContent);
-    const result = await callClaude(client, model, prompt, spot.name);
+    const prompt = buildPrompt(place, category, country, siteContent);
+    const result = await callClaude(client, model, prompt, place.name);
 
     if (!result) {
       console.log(`失敗`);
       failed++;
       // リトライ失敗→needs_reviewとして保留
       if (!opts.dryRun) {
-        spot.needs_review = true;
-        spot.ai_reviewed = true;
-        spot.last_verified = TODAY;
+        place.needs_review = true;
+        place.ai_reviewed = true;
+        place.last_verified = TODAY;
       }
       continue;
     }
@@ -376,19 +376,19 @@ async function processCategory(
 
     // --- ファイル更新 ---
     if (result.verdict === "not_japanese") {
-      removedSlugs.add(spot.slug);
+      removedSlugs.add(place.slug);
       removed++;
     } else {
       // フィールド更新
-      spot.japanese_staff = result.japanese_staff;
-      spot.needs_review = result.verdict === "needs_review" ? true : undefined;
-      spot.description = result.description;
-      spot.detail = result.detail;
-      if (result.email) spot.email = result.email;
-      if (result.price_range) spot.price_range = result.price_range;
-      if (result.menu_highlights) spot.menu_highlights = result.menu_highlights;
-      spot.ai_reviewed = true;
-      spot.last_verified = TODAY;
+      place.japanese_staff = result.japanese_staff;
+      place.needs_review = result.verdict === "needs_review" ? true : undefined;
+      place.description = result.description;
+      place.detail = result.detail;
+      if (result.email) place.email = result.email;
+      if (result.price_range) place.price_range = result.price_range;
+      if (result.menu_highlights) place.menu_highlights = result.menu_highlights;
+      place.ai_reviewed = true;
+      place.last_verified = TODAY;
 
       if (result.verdict === "needs_review") needsReview++;
       else reviewed++;
@@ -402,7 +402,7 @@ async function processCategory(
 
   // 削除対象を除いて保存
   if (!opts.dryRun) {
-    const remaining = spots.filter((s) => !removedSlugs.has(s.slug));
+    const remaining = places.filter((s) => !removedSlugs.has(s.slug));
     fs.writeFileSync(filePath, JSON.stringify(remaining, null, 2) + "\n", "utf-8");
     console.log(`  → 保存: ${remaining.length}件（削除: ${removedSlugs.size}件）`);
   }
@@ -423,8 +423,8 @@ async function main() {
   const categoryArg = positional[1];
 
   if (!countryArg) {
-    console.log("使い方: npx tsx scripts/review-spots.ts <country|all> [category] [--dry-run] [--force] [--limit N] [--model sonnet|opus|haiku]");
-    console.log("例: npx tsx scripts/review-spots.ts sg restaurant --limit 5 --dry-run");
+    console.log("使い方: npx tsx scripts/review-places.ts <country|all> [category] [--dry-run] [--force] [--limit N] [--model sonnet|opus|haiku]");
+    console.log("例: npx tsx scripts/review-places.ts sg restaurant --limit 5 --dry-run");
     process.exit(1);
   }
 
@@ -438,7 +438,7 @@ async function main() {
 
   const client = new Anthropic({ apiKey });
 
-  console.log("=== review-spots 開始 ===");
+  console.log("=== review-places 開始 ===");
   console.log(`  対象: ${countryArg}${categoryArg ? "/" + categoryArg : ""}`);
   console.log(`  モデル: ${model}`);
   console.log(`  dry-run: ${dryRun}, force: ${force}, limit: ${limit || "無制限"}`);

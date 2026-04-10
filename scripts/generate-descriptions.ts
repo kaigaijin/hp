@@ -45,7 +45,7 @@ const COUNTRY_NAME: Record<string, string> = {
   ae: "UAE（ドバイ）", de: "ドイツ", gb: "イギリス", id: "インドネシア",
 };
 
-type SpotEntry = {
+type placeEntry = {
   slug: string;
   name: string;
   name_ja?: string | null;
@@ -57,18 +57,18 @@ type SpotEntry = {
   [key: string]: unknown;
 };
 
-function buildPrompt(spot: SpotEntry, category: string, country: string): string {
-  const websiteHint = spot.website ? `公式サイト: ${spot.website}` : "";
+function buildPrompt(place: placeEntry, category: string, country: string): string {
+  const websiteHint = place.website ? `公式サイト: ${place.website}` : "";
   return `以下のスポットについて、公式サイトやWebで調べてdescriptionを生成してください。
 
 【スポット情報】
-店名: ${spot.name}
-日本語名: ${spot.name_ja || "不明"}
+店名: ${place.name}
+日本語名: ${place.name_ja || "不明"}
 国: ${COUNTRY_NAME[country] || country}
-エリア: ${spot.area || "不明"}
-住所: ${spot.address || "不明"}
+エリア: ${place.area || "不明"}
+住所: ${place.address || "不明"}
 カテゴリ: ${category}
-タグ: ${(spot.tags || []).join("・") || "なし"}
+タグ: ${(place.tags || []).join("・") || "なし"}
 ${websiteHint}
 
 【生成ルール】
@@ -148,38 +148,38 @@ async function processCategory(
   const filePath = path.join(DIRECTORY_PATH, country, `${category}.json`);
   if (!fs.existsSync(filePath)) return { updated: 0, skipped: 0, failed: 0 };
 
-  const spots: SpotEntry[] = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+  const places: placeEntry[] = JSON.parse(fs.readFileSync(filePath, "utf-8"));
 
-  const targets = spots.filter(s => {
+  const targets = places.filter(s => {
     const len = (s.description || "").length;
     if (force) return len < 60 || len > 120;
     return len < 60;
   });
 
   if (targets.length === 0) {
-    return { updated: 0, skipped: spots.length, failed: 0 };
+    return { updated: 0, skipped: places.length, failed: 0 };
   }
 
   const toProcess = limit > 0 ? targets.slice(0, limit) : targets;
-  console.log(`  ${country}/${category}: ${toProcess.length}件を処理（全${spots.length}件中）`);
+  console.log(`  ${country}/${category}: ${toProcess.length}件を処理（全${places.length}件中）`);
 
   let updated = 0;
   let failed = 0;
 
   for (let i = 0; i < toProcess.length; i++) {
-    const spot = toProcess[i];
-    const prompt = buildPrompt(spot, category, country);
+    const place = toProcess[i];
+    const prompt = buildPrompt(place, category, country);
     const desc = await callGeminiAPI(prompt);
 
     if (desc) {
       if (!dryRun) {
-        spot.description = desc;
+        place.description = desc;
       }
       updated++;
-      console.log(`    ✓ [${desc.length}文字] ${spot.name}: ${desc}`);
+      console.log(`    ✓ [${desc.length}文字] ${place.name}: ${desc}`);
     } else {
       failed++;
-      console.log(`    ✗ 失敗: ${spot.name}`);
+      console.log(`    ✗ 失敗: ${place.name}`);
     }
 
     // 最後の1件以外は待機
@@ -189,11 +189,11 @@ async function processCategory(
   }
 
   if (!dryRun && updated > 0) {
-    fs.writeFileSync(filePath, JSON.stringify(spots, null, 2), "utf-8");
+    fs.writeFileSync(filePath, JSON.stringify(places, null, 2), "utf-8");
     console.log(`  → 保存完了`);
   }
 
-  return { updated, skipped: spots.length - toProcess.length, failed };
+  return { updated, skipped: places.length - toProcess.length, failed };
 }
 
 async function main() {

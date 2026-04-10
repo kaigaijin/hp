@@ -5,10 +5,10 @@ import { getCategoryCounts } from "@/lib/directory";
 
 export default function Home() {
   // 各国のスポット件数を計算
-  const spotCounts: Record<string, number> = {};
+  const placeCounts: Record<string, number> = {};
   for (const c of countries) {
     const counts = getCategoryCounts(c.code);
-    spotCounts[c.code] = Object.values(counts).reduce((a, b) => a + b, 0);
+    placeCounts[c.code] = Object.values(counts).reduce((a, b) => a + b, 0);
   }
 
   return (

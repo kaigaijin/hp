@@ -206,10 +206,10 @@ export function getCategoryGroup(slug: string): CategoryGroup | undefined {
 }
 
 // 確認ステータス
-export type SpotStatus = "unverified" | "verified" | "reported_closed";
+export type placeStatus = "unverified" | "verified" | "reported_closed";
 
 // 情報ソース
-export type SpotSource = "website" | "google_maps" | "sns" | "user_report";
+export type placeSource = "website" | "google_maps" | "sns" | "user_report";
 
 // メニュー項目
 export type MenuItem = {
@@ -220,7 +220,7 @@ export type MenuItem = {
 };
 
 // スポットデータ
-export type Spot = {
+export type place = {
   slug: string;
   name: string;
   name_ja?: string;
@@ -232,8 +232,8 @@ export type Spot = {
   detail?: string | null; // 詳細説明（300-500文字。ページ内表示用）
   tags: string[];
   hours?: string | null;
-  status?: SpotStatus;
-  source?: SpotSource;
+  status?: placeStatus;
+  source?: placeSource;
   last_verified?: string;
 
   // Google Places連携
@@ -260,7 +260,7 @@ export type Spot = {
 
 // ステータスの表示情報
 export const statusConfig: Record<
-  SpotStatus,
+  placeStatus,
   { label: string; note: string; color: string }
 > = {
   unverified: {
@@ -282,10 +282,10 @@ export const statusConfig: Record<
 
 const directoryDir = path.join(process.cwd(), "content", "directory");
 
-export function getSpotsByCategory(
+export function getplacesByCategory(
   countryCode: string,
   categorySlug: string,
-): Spot[] {
+): place[] {
   const filePath = path.join(
     directoryDir,
     countryCode,
@@ -294,17 +294,17 @@ export function getSpotsByCategory(
   if (!fs.existsSync(filePath)) return [];
 
   const raw = fs.readFileSync(filePath, "utf-8");
-  const spots = JSON.parse(raw) as Spot[];
-  return spots.filter((s) => !s.needs_review);
+  const places = JSON.parse(raw) as place[];
+  return places.filter((s) => !s.needs_review);
 }
 
-export function getSpot(
+export function getplace(
   countryCode: string,
   categorySlug: string,
-  spotSlug: string,
-): Spot | undefined {
-  const spots = getSpotsByCategory(countryCode, categorySlug);
-  return spots.find((s) => s.slug === spotSlug);
+  placeSlug: string,
+): place | undefined {
+  const places = getplacesByCategory(countryCode, categorySlug);
+  return places.find((s) => s.slug === placeSlug);
 }
 
 // 国ごとの全カテゴリのスポット数を取得
@@ -313,8 +313,8 @@ export function getCategoryCounts(
 ): Record<string, number> {
   const counts: Record<string, number> = {};
   for (const cat of categories) {
-    const spots = getSpotsByCategory(countryCode, cat.slug);
-    counts[cat.slug] = spots.length;
+    const places = getplacesByCategory(countryCode, cat.slug);
+    counts[cat.slug] = places.length;
   }
   return counts;
 }
@@ -333,10 +333,10 @@ export function getGroupCounts(countryCode: string): Record<string, number> {
 }
 
 // needs_review スポットを全国・全カテゴリから取得（/review ページ用）
-export function getNeedsReviewSpots(): Array<
-  Spot & { country: string; category: string; review_note?: string; japanese_staff?: boolean | null }
+export function getNeedsReviewplaces(): Array<
+  place & { country: string; category: string; review_note?: string; japanese_staff?: boolean | null }
 > {
-  const results: Array<Spot & { country: string; category: string; review_note?: string; japanese_staff?: boolean | null }> = [];
+  const results: Array<place & { country: string; category: string; review_note?: string; japanese_staff?: boolean | null }> = [];
 
   if (!fs.existsSync(directoryDir)) return results;
 
@@ -350,10 +350,10 @@ export function getNeedsReviewSpots(): Array<
     for (const file of files) {
       const category = file.replace(".json", "");
       const raw = fs.readFileSync(path.join(countryDir, file), "utf-8");
-      const spots = JSON.parse(raw) as Array<Spot & { review_note?: string; japanese_staff?: boolean | null }>;
-      for (const spot of spots) {
-        if (spot.needs_review && spot.status !== "reported_closed") {
-          results.push({ ...spot, country, category });
+      const places = JSON.parse(raw) as Array<place & { review_note?: string; japanese_staff?: boolean | null }>;
+      for (const place of places) {
+        if (place.needs_review && place.status !== "reported_closed") {
+          results.push({ ...place, country, category });
         }
       }
     }
@@ -363,12 +363,12 @@ export function getNeedsReviewSpots(): Array<
 }
 
 // 国ごとの全スポットを取得（sitemap用）
-export function getAllSpots(
+export function getAllplaces(
   countryCode: string,
-): Array<Spot & { category: string }> {
+): Array<place & { category: string }> {
   return categories.flatMap((cat) =>
-    getSpotsByCategory(countryCode, cat.slug).map((spot) => ({
-      ...spot,
+    getplacesByCategory(countryCode, cat.slug).map((place) => ({
+      ...place,
       category: cat.slug,
     })),
   );
@@ -389,10 +389,10 @@ export function toAreaSlug(area: string): string {
 export function getAreaCounts(
   countryCode: string,
 ): Record<string, number> {
-  const allSpots = getAllSpots(countryCode);
+  const allplaces = getAllplaces(countryCode);
   const counts: Record<string, number> = {};
-  for (const spot of allSpots) {
-    const area = spot.area;
+  for (const place of allplaces) {
+    const area = place.area;
     counts[area] = (counts[area] ?? 0) + 1;
   }
   return counts;
@@ -418,19 +418,19 @@ export function getAreaNameBySlug(
 }
 
 // エリア別の全スポットを取得
-export function getSpotsByArea(
+export function getplacesByArea(
   countryCode: string,
   areaName: string,
-): Array<Spot & { category: string }> {
-  return getAllSpots(countryCode).filter((s) => s.area === areaName);
+): Array<place & { category: string }> {
+  return getAllplaces(countryCode).filter((s) => s.area === areaName);
 }
 
 // 座標付きスポットのみ取得（地図表示用）
-export function getGeoSpots(
+export function getGeoplaces(
   countryCode: string,
-): Array<Spot & { category: string; lat: number; lng: number }> {
-  return getAllSpots(countryCode).filter(
-    (s): s is Spot & { category: string; lat: number; lng: number } =>
+): Array<place & { category: string; lat: number; lng: number }> {
+  return getAllplaces(countryCode).filter(
+    (s): s is place & { category: string; lat: number; lng: number } =>
       typeof s.lat === "number" && typeof s.lng === "number",
   );
 }

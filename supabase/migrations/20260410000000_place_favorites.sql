@@ -24,4 +24,4 @@ create policy "お気に入りから削除" on place_favorites
 
 -- インデックス（一覧取得・存在確認用）
 create index place_favorites_user_id_idx on place_favorites(user_id);
-create index place_favorites_spot_idx on place_favorites(country, category, slug);
+create index place_favorites_place_idx on place_favorites(country, category, slug);

@@ -1,13 +1,13 @@
 /**
- * validate-spots.ts
+ * validate-places.ts
  *
  * 全スポットデータを検証し、日本人向けでないスポットを検出する。
  *
  * 使い方:
- *   npx tsx scripts/validate-spots.ts              # レポートのみ（変更なし）
- *   npx tsx scripts/validate-spots.ts --remove      # suspectを自動削除
- *   npx tsx scripts/validate-spots.ts --country my   # 特定国のみ
- *   npx tsx scripts/validate-spots.ts --category dental  # 特定カテゴリのみ
+ *   npx tsx scripts/validate-places.ts              # レポートのみ（変更なし）
+ *   npx tsx scripts/validate-places.ts --remove      # suspectを自動削除
+ *   npx tsx scripts/validate-places.ts --country my   # 特定国のみ
+ *   npx tsx scripts/validate-places.ts --category dental  # 特定カテゴリのみ
  */
 
 import fs from "fs";
@@ -180,7 +180,7 @@ const JAPANESE_TAGS = [
 // websiteドメインが .jp なら日本関連
 const JP_DOMAIN_REGEX = /\.jp\b/i;
 
-interface SpotEntry {
+interface placeEntry {
   slug: string;
   name: string;
   name_ja: string | null;
@@ -195,12 +195,12 @@ interface SpotEntry {
 interface ValidationResult {
   country: string;
   category: string;
-  spot: SpotEntry;
+  place: placeEntry;
   reasons: string[];
   score: number; // 0 = 完全にsuspect, 高いほど日本関連の可能性が高い
 }
 
-function checkJapaneseRelevance(spot: SpotEntry): {
+function checkJapaneseRelevance(place: placeEntry): {
   score: number;
   reasons: string[];
 } {
@@ -209,7 +209,7 @@ function checkJapaneseRelevance(spot: SpotEntry): {
   const negativeReasons: string[] = [];
 
   // 1. name_ja がある → 強いシグナル
-  if (spot.name_ja) {
+  if (place.name_ja) {
     score += 3;
     positiveReasons.push("name_jaあり");
   } else {
@@ -217,8 +217,8 @@ function checkJapaneseRelevance(spot: SpotEntry): {
   }
 
   // 2. 店名に日本関連キーワード（_や.をスペースに正規化して判定）
-  const normalizedName = spot.name.replace(/[_.,]/g, " ");
-  const nameMatch = JAPANESE_NAME_KEYWORDS.some((kw) => kw.test(normalizedName) || kw.test(spot.name));
+  const normalizedName = place.name.replace(/[_.,]/g, " ");
+  const nameMatch = JAPANESE_NAME_KEYWORDS.some((kw) => kw.test(normalizedName) || kw.test(place.name));
   if (nameMatch) {
     score += 2;
     positiveReasons.push("店名に日本関連キーワード");
@@ -226,7 +226,7 @@ function checkJapaneseRelevance(spot: SpotEntry): {
 
   // 3. descriptionに日本関連キーワード
   const descMatch = JAPANESE_DESC_KEYWORDS.some((kw) =>
-    kw.test(spot.description)
+    kw.test(place.description)
   );
   if (descMatch) {
     score += 2;
@@ -234,7 +234,7 @@ function checkJapaneseRelevance(spot: SpotEntry): {
   }
 
   // 4. tagsに日本関連タグ
-  const tagMatch = spot.tags.some((tag) =>
+  const tagMatch = place.tags.some((tag) =>
     JAPANESE_TAGS.some((jt) => tag.toLowerCase().includes(jt.toLowerCase()))
   );
   if (tagMatch) {
@@ -243,7 +243,7 @@ function checkJapaneseRelevance(spot: SpotEntry): {
   }
 
   // 5. websiteが.jpドメイン
-  if (spot.website && JP_DOMAIN_REGEX.test(spot.website)) {
+  if (place.website && JP_DOMAIN_REGEX.test(place.website)) {
     score += 1;
     positiveReasons.push(".jpドメイン");
   }
@@ -256,7 +256,7 @@ function checkJapaneseRelevance(spot: SpotEntry): {
     /にあるネイルサロン。.*を提供。$/,
     /にある.*サロン。.*サービスを提供。$/,
   ];
-  const isTemplate = templatePatterns.some((p) => p.test(spot.description));
+  const isTemplate = templatePatterns.some((p) => p.test(place.description));
   if (isTemplate) {
     score -= 1;
     negativeReasons.push("テンプレ説明文（AI reviewが甘い）");
@@ -287,7 +287,7 @@ function main() {
     .sort();
 
   const allSuspects: ValidationResult[] = [];
-  let totalSpots = 0;
+  let totalplaces = 0;
   let totalSuspects = 0;
   let totalRemoved = 0;
 
@@ -309,35 +309,35 @@ function main() {
     for (const file of files) {
       const category = file.replace(".json", "");
       const filePath = path.join(countryDir, file);
-      const spots: SpotEntry[] = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+      const places: placeEntry[] = JSON.parse(fs.readFileSync(filePath, "utf-8"));
 
       const suspects: ValidationResult[] = [];
 
-      for (const spot of spots) {
-        totalSpots++;
+      for (const place of places) {
+        totalplaces++;
         countryStats[country].total++;
 
-        const { score, reasons } = checkJapaneseRelevance(spot);
+        const { score, reasons } = checkJapaneseRelevance(place);
 
         // score <= 1 をsuspectとする
         if (score <= 1) {
           totalSuspects++;
           countryStats[country].suspect++;
-          suspects.push({ country, category, spot, reasons, score });
-          allSuspects.push({ country, category, spot, reasons, score });
+          suspects.push({ country, category, place, reasons, score });
+          allSuspects.push({ country, category, place, reasons, score });
         }
       }
 
       countryStats[country].categories[category] = {
-        total: spots.length,
+        total: places.length,
         suspect: suspects.length,
       };
 
       // --remove モードでsuspectを削除
       if (removeMode && suspects.length > 0) {
-        const slugsToRemove = new Set(suspects.map((s) => s.spot.slug));
-        const filtered = spots.filter((s) => !slugsToRemove.has(s.slug));
-        totalRemoved += spots.length - filtered.length;
+        const slugsToRemove = new Set(suspects.map((s) => s.place.slug));
+        const filtered = places.filter((s) => !slugsToRemove.has(s.slug));
+        totalRemoved += places.length - filtered.length;
         fs.writeFileSync(filePath, JSON.stringify(filtered, null, 2) + "\n");
       }
     }
@@ -346,8 +346,8 @@ function main() {
   // --- レポート出力 ---
 
   console.log("\n=== スポット検証レポート ===\n");
-  console.log(`総スポット数: ${totalSpots}`);
-  console.log(`suspect数: ${totalSuspects} (${((totalSuspects / totalSpots) * 100).toFixed(1)}%)`);
+  console.log(`総スポット数: ${totalplaces}`);
+  console.log(`suspect数: ${totalSuspects} (${((totalSuspects / totalplaces) * 100).toFixed(1)}%)`);
 
   if (removeMode) {
     console.log(`\n🗑️  削除済み: ${totalRemoved} スポット`);
@@ -397,7 +397,7 @@ function main() {
     const top = allSuspects.slice(0, 100);
     for (const s of top) {
       console.log(
-        `[${s.country}/${s.category}] ${s.spot.name} (score: ${s.score}) — ${s.reasons.join(", ")}`
+        `[${s.country}/${s.category}] ${s.place.name} (score: ${s.score}) — ${s.reasons.join(", ")}`
       );
     }
     if (allSuspects.length > 100) {
@@ -405,7 +405,7 @@ function main() {
     }
 
     console.log(
-      `\n💡 削除するには: npx tsx scripts/validate-spots.ts --remove`
+      `\n💡 削除するには: npx tsx scripts/validate-places.ts --remove`
     );
   }
 }

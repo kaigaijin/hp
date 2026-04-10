@@ -11,7 +11,7 @@ type Props = {
   title: string;                // h1
   subtitle?: string;            // 説明文
   articleCount: number;
-  spotCount: number;
+  placeCount: number;
   right?: React.ReactNode;      // 右側スロット（検索・CTA等）
   subTabs?: React.ReactNode;    // スポット内のカテゴリ/エリア/地図タブ
 };
@@ -25,7 +25,7 @@ export default function CountryHero({
   title,
   subtitle,
   articleCount,
-  spotCount,
+  placeCount,
   right,
   subTabs,
 }: Props) {
@@ -35,7 +35,7 @@ export default function CountryHero({
       <CountryTabs
         countryCode={countryCode}
         articleCount={articleCount}
-        spotCount={spotCount}
+        placeCount={placeCount}
       />
       <div className="max-w-6xl mx-auto px-4 pt-4 pb-6">
         {/* パンくず */}

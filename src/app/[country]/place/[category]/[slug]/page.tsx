@@ -6,14 +6,14 @@ import { getCountry, countries } from "@/lib/countries";
 import {
   categories,
   getCategory,
-  getSpot,
-  getSpotsByCategory,
+  getplace,
+  getplacesByCategory,
 } from "@/lib/directory";
 import { getCategoryTheme } from "@/lib/group-theme";
-import SpotReportForm from "@/components/SpotReportForm";
-import SpotReviewForm from "@/components/SpotReviewForm";
-import RandomSpots from "@/components/RandomSpots";
-import SpotDetailTabs from "@/components/SpotDetailTabs";
+import placeReportForm from "@/components/placeReportForm";
+import placeReviewForm from "@/components/placeReviewForm";
+import Randomplaces from "@/components/Randomplaces";
+import placeDetailTabs from "@/components/placeDetailTabs";
 import PlaceActionBar from "@/components/PlaceActionBar";
 import {
   MapPin,
@@ -92,34 +92,34 @@ export async function generateMetadata({
   const { country: code, category: catSlug, slug } = await params;
   const country = getCountry(code);
   const category = getCategory(catSlug);
-  const spot = getSpot(code, catSlug, slug);
-  if (!country || !category || !spot) return {};
+  const place = getplace(code, catSlug, slug);
+  if (!country || !category || !place) return {};
 
-  const displayName = spot.name_ja ?? spot.name;
+  const displayName = place.name_ja ?? place.name;
   const titleName =
-    spot.name_ja && spot.name_ja !== spot.name
-      ? `${spot.name_ja} / ${spot.name}`
+    place.name_ja && place.name_ja !== place.name
+      ? `${place.name_ja} / ${place.name}`
       : displayName;
   const canonicalUrl = `https://kaigaijin.jp/${code}/place/${catSlug}/${slug}`;
   return {
-    title: `${titleName}｜${country.name}の${category.name}（${spot.area}）`,
-    description: spot.description,
+    title: `${titleName}｜${country.name}の${category.name}（${place.area}）`,
+    description: place.description,
     alternates: { canonical: canonicalUrl },
     openGraph: {
       title: `${titleName} | ${country.name}の${category.name} | Kaigaijin`,
-      description: spot.description,
+      description: place.description,
       type: "article",
       locale: "ja_JP",
       url: canonicalUrl,
       siteName: "Kaigaijin",
-      ...(spot.last_verified && {
-        modifiedTime: spot.last_verified,
+      ...(place.last_verified && {
+        modifiedTime: place.last_verified,
       }),
     },
   };
 }
 
-export default async function SpotDetailPage({
+export default async function placeDetailPage({
   params,
 }: {
   params: Promise<Params>;
@@ -127,14 +127,14 @@ export default async function SpotDetailPage({
   const { country: code, category: catSlug, slug } = await params;
   const country = getCountry(code);
   const category = getCategory(catSlug);
-  const spot = getSpot(code, catSlug, slug);
-  if (!country || !category || !spot) notFound();
+  const place = getplace(code, catSlug, slug);
+  if (!country || !category || !place) notFound();
 
-  const displayName = spot.name_ja ?? spot.name;
-  const spotStatus = spot.status ?? "unverified";
+  const displayName = place.name_ja ?? place.name;
+  const placeStatus = place.status ?? "unverified";
   const theme = getCategoryTheme(catSlug);
 
-  const sameCategory = getSpotsByCategory(code, catSlug)
+  const sameCategory = getplacesByCategory(code, catSlug)
     .filter((s) => s.slug !== slug);
 
   // スキーマタイプ
@@ -157,33 +157,33 @@ export default async function SpotDetailPage({
   };
   const schemaType = schemaTypeMap[catSlug] ?? "LocalBusiness";
 
-  const images = (spot as Record<string, unknown>).images as string[] | undefined;
+  const images = (place as Record<string, unknown>).images as string[] | undefined;
   const hasImages = images && images.length > 0;
 
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": schemaType,
-    name: spot.name,
-    ...(spot.name_ja && { alternateName: spot.name_ja }),
-    description: spot.description,
+    name: place.name,
+    ...(place.name_ja && { alternateName: place.name_ja }),
+    description: place.description,
     address: {
       "@type": "PostalAddress",
-      streetAddress: spot.address,
+      streetAddress: place.address,
       addressCountry: code.toUpperCase(),
     },
-    ...(spot.phone && { telephone: spot.phone }),
-    ...(spot.website && { url: spot.website }),
-    ...(spot.hours && { openingHours: spot.hours }),
-    ...(spot.price_range && { priceRange: spot.price_range }),
-    ...(spot.lat != null && spot.lng != null && {
+    ...(place.phone && { telephone: place.phone }),
+    ...(place.website && { url: place.website }),
+    ...(place.hours && { openingHours: place.hours }),
+    ...(place.price_range && { priceRange: place.price_range }),
+    ...(place.lat != null && place.lng != null && {
       geo: {
         "@type": "GeoCoordinates",
-        latitude: spot.lat,
-        longitude: spot.lng,
+        latitude: place.lat,
+        longitude: place.lng,
       },
     }),
     ...(images && images.length > 0 && { image: images }),
-    ...(spot.last_verified && { dateModified: spot.last_verified }),
+    ...(place.last_verified && { dateModified: place.last_verified }),
   };
 
   const breadcrumbJsonLd = {
@@ -283,22 +283,22 @@ export default async function SpotDetailPage({
                 {displayName}
               </h1>
               {/* 英語名 */}
-              {spot.name_ja && (
-                <p className="text-stone-400 text-sm mb-3">{spot.name}</p>
+              {place.name_ja && (
+                <p className="text-stone-400 text-sm mb-3">{place.name}</p>
               )}
               {/* エリア + ステータス */}
               <div className="flex items-center gap-3 flex-wrap mb-4">
                 <span className="flex items-center gap-1 text-sm text-stone-500 dark:text-stone-400">
                   <MapPin size={14} />
-                  {spot.area}
+                  {place.area}
                 </span>
-                {spotStatus === "verified" && (
+                {placeStatus === "verified" && (
                   <span className="inline-flex items-center gap-1 text-xs text-green-700 dark:text-green-400 bg-green-50 dark:bg-green-900/30 px-2 py-0.5 rounded-full">
                     <CheckCircle2 size={10} />
-                    確認済み{spot.last_verified ? `（${spot.last_verified}）` : ""}
+                    確認済み{place.last_verified ? `（${place.last_verified}）` : ""}
                   </span>
                 )}
-                {spotStatus === "reported_closed" && (
+                {placeStatus === "reported_closed" && (
                   <span className="inline-flex items-center gap-1 text-xs font-medium text-red-700 dark:text-red-400 bg-red-100 dark:bg-red-900/40 px-2.5 py-1 rounded-full border border-red-200 dark:border-red-800">
                     <AlertTriangle size={11} />
                     閉店済み
@@ -307,10 +307,10 @@ export default async function SpotDetailPage({
               </div>
               {/* description を大きく */}
               <p className="text-stone-600 dark:text-stone-300 leading-relaxed max-w-2xl">
-                {spot.description}
+                {place.description}
               </p>
               {/* 未確認注記 */}
-              {spotStatus === "unverified" && (
+              {placeStatus === "unverified" && (
                 <p className="mt-3 text-xs text-stone-400 italic">
                   ※ この情報はWeb上のデータを元に掲載しています。訪問前に公式サイトでご確認ください。
                 </p>
@@ -347,9 +347,9 @@ export default async function SpotDetailPage({
           country={code}
           category={catSlug}
           slug={slug}
-          website={spot.website}
-          phone={spot.phone}
-          tags={spot.tags}
+          website={place.website}
+          phone={place.phone}
+          tags={place.tags}
           ctaBg={theme.ctaBg}
           ctaHover={theme.ctaHover}
           badgeText={theme.badgeText}
@@ -364,9 +364,9 @@ export default async function SpotDetailPage({
             <div className="lg:col-span-2 space-y-6">
 
               {/* タグ（モバイル） */}
-              {spot.tags.length > 0 && (
+              {place.tags.length > 0 && (
                 <div className="md:hidden flex flex-wrap gap-2">
-                  {spot.tags.map((tag) => (
+                  {place.tags.map((tag) => (
                     <span
                       key={tag}
                       className="text-xs text-stone-600 dark:text-stone-300 bg-stone-100 dark:bg-stone-800 px-3 py-1 rounded-full"
@@ -377,9 +377,9 @@ export default async function SpotDetailPage({
                 </div>
               )}
 
-              {/* SpotDetailTabs */}
-              <SpotDetailTabs
-                spot={spot}
+              {/* placeDetailTabs */}
+              <placeDetailTabs
+                place={place}
                 displayName={displayName}
                 overviewContent={null}
                 mapEmbed={
@@ -389,34 +389,34 @@ export default async function SpotDetailPage({
                     style={{ border: 0 }}
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    src={`https://www.google.com/maps?q=${encodeURIComponent(spot.name + " " + spot.address)}&output=embed`}
+                    src={`https://www.google.com/maps?q=${encodeURIComponent(place.name + " " + place.address)}&output=embed`}
                     title={`${displayName}の地図`}
                   />
                 }
               />
 
-              {/* SpotReviewForm */}
-              <SpotReviewForm
+              {/* placeReviewForm */}
+              <placeReviewForm
                 country={code}
                 category={catSlug}
-                spotSlug={slug}
-                spotName={displayName}
+                placeSlug={slug}
+                placeName={displayName}
               />
 
-              {/* SpotReportForm（モバイル） */}
+              {/* placeReportForm（モバイル） */}
               <div className="lg:hidden">
-                <SpotReportForm
+                <placeReportForm
                   country={code}
                   category={catSlug}
-                  spotSlug={slug}
-                  spotName={displayName}
+                  placeSlug={slug}
+                  placeName={displayName}
                 />
               </div>
 
               {/* 同カテゴリのスポット */}
               {sameCategory.length > 0 && (
-                <RandomSpots
-                  spots={sameCategory}
+                <Randomplaces
+                  places={sameCategory}
                   countryCode={code}
                   categorySlug={catSlug}
                   accentClass={theme.accent}
@@ -443,12 +443,12 @@ export default async function SpotDetailPage({
                       住所
                     </dt>
                     <dd className="text-sm text-stone-700 dark:text-stone-300">
-                      {spot.address}
+                      {place.address}
                     </dd>
                   </div>
 
                   {/* 電話番号 */}
-                  {spot.phone && (
+                  {place.phone && (
                     <div>
                       <dt className="flex items-center gap-1.5 text-xs text-stone-400 mb-1">
                         <Phone size={12} />
@@ -456,17 +456,17 @@ export default async function SpotDetailPage({
                       </dt>
                       <dd>
                         <a
-                          href={`tel:${spot.phone}`}
+                          href={`tel:${place.phone}`}
                           className="text-sm text-warm-600 dark:text-warm-400 hover:underline font-medium"
                         >
-                          {spot.phone}
+                          {place.phone}
                         </a>
                       </dd>
                     </div>
                   )}
 
                   {/* 営業時間 */}
-                  {spot.hours && (
+                  {place.hours && (
                     <div>
                       <dt className="flex items-center gap-1.5 text-xs text-stone-400 mb-1">
                         <Clock size={12} />
@@ -476,7 +476,7 @@ export default async function SpotDetailPage({
                         <table className="w-full">
                           <tbody>
                             {(() => {
-                              const lines = spot.hours.split(/\s\/\s(?=(?:[月火水木金土日祝]|[^\d]))/);
+                              const lines = place.hours.split(/\s\/\s(?=(?:[月火水木金土日祝]|[^\d]))/);
                               return lines.map((line, i) => {
                                 const colonIdx = line.indexOf(": ");
                                 if (colonIdx > 0 && colonIdx < 15) {
@@ -517,35 +517,35 @@ export default async function SpotDetailPage({
                   )}
 
                   {/* 価格帯 */}
-                  {spot.price_range && (
+                  {place.price_range && (
                     <div>
                       <dt className="flex items-center gap-1.5 text-xs text-stone-400 mb-1">
                         <DollarSign size={12} />
                         価格帯
                       </dt>
                       <dd className="text-sm text-stone-700 dark:text-stone-300">
-                        {spot.price_range}
+                        {place.price_range}
                       </dd>
                     </div>
                   )}
 
                   {/* 対応言語 */}
-                  {spot.languages && spot.languages.length > 0 && (
+                  {place.languages && place.languages.length > 0 && (
                     <div>
                       <dt className="flex items-center gap-1.5 text-xs text-stone-400 mb-1">
                         <Languages size={12} />
                         対応言語
                       </dt>
                       <dd className="text-sm text-stone-700 dark:text-stone-300">
-                        {spot.languages.join(", ")}
+                        {place.languages.join(", ")}
                       </dd>
                     </div>
                   )}
 
                   {/* 公式サイトボタン */}
-                  {spot.website && (
+                  {place.website && (
                     <a
-                      href={spot.website}
+                      href={place.website}
                       target="_blank"
                       rel="noopener noreferrer"
                       className={`flex items-center justify-center gap-2 w-full ${theme.ctaBg} text-white rounded-xl py-2.5 text-sm font-medium ${theme.ctaHover} transition-colors`}
@@ -555,9 +555,9 @@ export default async function SpotDetailPage({
                     </a>
                   )}
 
-                  {spot.phone && (
+                  {place.phone && (
                     <a
-                      href={`tel:${spot.phone}`}
+                      href={`tel:${place.phone}`}
                       className="hidden lg:flex items-center justify-center gap-2 w-full bg-white dark:bg-stone-800 border border-stone-200 dark:border-stone-700 text-stone-700 dark:text-stone-200 rounded-xl py-2.5 text-sm font-medium hover:border-warm-400 transition-colors"
                     >
                       <Phone size={14} />
@@ -567,13 +567,13 @@ export default async function SpotDetailPage({
                 </dl>
               </div>
 
-              {/* SpotReportForm（デスクトップ） */}
+              {/* placeReportForm（デスクトップ） */}
               <div className="hidden lg:block">
-                <SpotReportForm
+                <placeReportForm
                   country={code}
                   category={catSlug}
-                  spotSlug={slug}
-                  spotName={displayName}
+                  placeSlug={slug}
+                  placeName={displayName}
                 />
               </div>
             </div>

@@ -1,7 +1,7 @@
 // Google Places API（New）から新規スポットを一括取得するスクリプト
-// 使い方: GOOGLE_PLACES_API_KEY=xxx npx tsx scripts/fetch-spots.ts [country] [category]
-// 例: GOOGLE_PLACES_API_KEY=xxx npx tsx scripts/fetch-spots.ts sg restaurant
-// 全国全カテゴリ: GOOGLE_PLACES_API_KEY=xxx npx tsx scripts/fetch-spots.ts all
+// 使い方: GOOGLE_PLACES_API_KEY=xxx npx tsx scripts/fetch-places.ts [country] [category]
+// 例: GOOGLE_PLACES_API_KEY=xxx npx tsx scripts/fetch-places.ts sg restaurant
+// 全国全カテゴリ: GOOGLE_PLACES_API_KEY=xxx npx tsx scripts/fetch-places.ts all
 
 import fs from "fs";
 import path from "path";
@@ -11,7 +11,7 @@ import {
   CATEGORY_SEARCH_QUERIES,
   toSlug,
   type PlaceResult,
-  type SpotEntry,
+  type placeEntry,
 } from "./places-config.js";
 
 const DIRECTORY_PATH = path.resolve(__dirname, "../content/directory");
@@ -26,10 +26,10 @@ function loadExistingPlaceIds(country: string, category: string): Set<string> {
   const ids = new Set<string>();
   if (!fs.existsSync(filePath)) return ids;
 
-  const spots: { place_id?: string }[] = JSON.parse(
+  const places: { place_id?: string }[] = JSON.parse(
     fs.readFileSync(filePath, "utf-8")
   );
-  for (const s of spots) {
+  for (const s of places) {
     if (s.place_id) ids.add(s.place_id);
   }
   return ids;
@@ -41,10 +41,10 @@ function loadExistingSlugs(country: string, category: string): Set<string> {
   const slugs = new Set<string>();
   if (!fs.existsSync(filePath)) return slugs;
 
-  const spots: { slug: string }[] = JSON.parse(
+  const places: { slug: string }[] = JSON.parse(
     fs.readFileSync(filePath, "utf-8")
   );
-  for (const s of spots) {
+  for (const s of places) {
     slugs.add(s.slug);
   }
   return slugs;
@@ -104,12 +104,12 @@ async function searchPlaces(
   };
 }
 
-// PlaceResultをSpotEntryに変換
-function toSpotEntry(
+// PlaceResultをplaceEntryに変換
+function toplaceEntry(
   place: PlaceResult,
   jaName: string | null,
   city: string
-): SpotEntry {
+): placeEntry {
   const name = place.displayName?.text ?? "Unknown";
   const slug = toSlug(name);
   const address = place.formattedAddress ?? "";
@@ -176,12 +176,12 @@ async function fetchCategoryForCountry(
 
   // 既存データを読み込み
   const filePath = path.join(DIRECTORY_PATH, country, `${category}.json`);
-  let existingSpots: SpotEntry[] = [];
+  let existingplaces: placeEntry[] = [];
   if (fs.existsSync(filePath)) {
-    existingSpots = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+    existingplaces = JSON.parse(fs.readFileSync(filePath, "utf-8"));
   }
 
-  const newSpots: SpotEntry[] = [];
+  const newplaces: placeEntry[] = [];
   const seenPlaceIds = new Set<string>(existingPlaceIds);
 
   for (const city of config.cities) {
@@ -206,14 +206,14 @@ async function fetchCategoryForCountry(
           seenPlaceIds.add(place.id);
 
           // 日本語名はAIで後から付与（APIコスト削減）
-          const spot = toSpotEntry(place, null, city.name);
+          const place = toplaceEntry(place, null, city.name);
 
           // slug重複解消
-          spot.slug = deduplicateSlug(spot.slug, existingSlugs);
-          existingSlugs.add(spot.slug);
+          place.slug = deduplicateSlug(place.slug, existingSlugs);
+          existingSlugs.add(place.slug);
 
-          newSpots.push(spot);
-          console.log(`      + ${spot.name}`);
+          newplaces.push(place);
+          console.log(`      + ${place.name}`);
         }
 
         pageToken = result.nextPageToken;
@@ -223,17 +223,17 @@ async function fetchCategoryForCountry(
     }
   }
 
-  if (newSpots.length > 0 && !dryRun) {
+  if (newplaces.length > 0 && !dryRun) {
     // ディレクトリ作成
     const dir = path.join(DIRECTORY_PATH, country);
     if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
 
     // 既存 + 新規をマージして保存
-    const merged = [...existingSpots, ...newSpots];
+    const merged = [...existingplaces, ...newplaces];
     fs.writeFileSync(filePath, JSON.stringify(merged, null, 2) + "\n");
   }
 
-  return newSpots.length;
+  return newplaces.length;
 }
 
 async function main() {
@@ -245,13 +245,13 @@ async function main() {
   if (!target) {
     console.log("使い方:");
     console.log(
-      "  GOOGLE_PLACES_API_KEY=xxx npx tsx scripts/fetch-spots.ts <country|all> [category] [--dry-run]"
+      "  GOOGLE_PLACES_API_KEY=xxx npx tsx scripts/fetch-places.ts <country|all> [category] [--dry-run]"
     );
     console.log("例:");
     console.log(
-      "  GOOGLE_PLACES_API_KEY=xxx npx tsx scripts/fetch-spots.ts sg restaurant"
+      "  GOOGLE_PLACES_API_KEY=xxx npx tsx scripts/fetch-places.ts sg restaurant"
     );
-    console.log("  GOOGLE_PLACES_API_KEY=xxx npx tsx scripts/fetch-spots.ts all");
+    console.log("  GOOGLE_PLACES_API_KEY=xxx npx tsx scripts/fetch-places.ts all");
     process.exit(1);
   }
 

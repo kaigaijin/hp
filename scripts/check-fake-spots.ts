@@ -1,17 +1,17 @@
 /**
- * check-fake-spots.ts
+ * check-fake-places.ts
  *
  * 架空スポット・カテゴリ間違いを検出して削除するスクリプト。
- * validate-spots.ts（日本人向け判定）とセットで使う。
+ * validate-places.ts（日本人向け判定）とセットで使う。
  *
  * 検出パターン:
  *   1. 施設名が「都市名+カテゴリ」の単純パターン かつ website=null → 架空の可能性大
  *   2. カテゴリと施設名が明らかに矛盾している（groceryに歯科、travelに動物病院など）
  *
  * 使い方:
- *   npx tsx scripts/check-fake-spots.ts              # レポートのみ（変更なし）
- *   npx tsx scripts/check-fake-spots.ts --remove      # 自動削除
- *   npx tsx scripts/check-fake-spots.ts --country ch  # 特定国のみ
+ *   npx tsx scripts/check-fake-places.ts              # レポートのみ（変更なし）
+ *   npx tsx scripts/check-fake-places.ts --remove      # 自動削除
+ *   npx tsx scripts/check-fake-places.ts --country ch  # 特定国のみ
  */
 
 import fs from "fs";
@@ -69,7 +69,7 @@ const WRONG_CATEGORY_RULES: Record<string, RegExp[]> = {
   cafe: [/\bdental\b|\bdentist\b|\bhospital\b|\bpharmacy\b|薬局/i],
 };
 
-interface SpotEntry {
+interface placeEntry {
   slug: string;
   name: string;
   website?: string | null;
@@ -79,20 +79,20 @@ interface SpotEntry {
 interface FakeResult {
   country: string;
   category: string;
-  spot: SpotEntry;
+  place: placeEntry;
   reason: string;
 }
 
-function checkFake(spot: SpotEntry, category: string): string | null {
-  const name = spot.name || "";
-  const website = spot.website;
+function checkFake(place: placeEntry, category: string): string | null {
+  const name = place.name || "";
+  const website = place.website;
 
   // パターン1: 「都市名+カテゴリ」かつ website=null
   // 名前が「都市名 カテゴリ語」で終わる（後ろに固有名詞がない）場合のみ
   const simpleMatch = SIMPLE_PATTERN.exec(name);
   if (simpleMatch && !website) {
     // source_urlがある場合は実在確認済みとみなしてスキップ
-    if (spot.source_url) return null;
+    if (place.source_url) return null;
     // 後ろに固有名詞・地区名等があれば実在の可能性→スキップ
     const afterMatch = name.slice(simpleMatch[0].length).trim();
     if (!afterMatch) {
@@ -128,7 +128,7 @@ function main() {
     .sort();
 
   const allFakes: FakeResult[] = [];
-  let totalSpots = 0;
+  let totalplaces = 0;
   let totalFakes = 0;
   let totalRemoved = 0;
 
@@ -142,52 +142,52 @@ function main() {
     for (const file of files) {
       const category = file.replace(".json", "");
       const filePath = path.join(countryDir, file);
-      let spots: SpotEntry[];
+      let places: placeEntry[];
       try {
-        spots = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+        places = JSON.parse(fs.readFileSync(filePath, "utf-8"));
       } catch {
         continue;
       }
-      if (!Array.isArray(spots)) continue;
+      if (!Array.isArray(places)) continue;
 
       const fakes: FakeResult[] = [];
 
-      for (const spot of spots) {
-        totalSpots++;
-        const reason = checkFake(spot, category);
+      for (const place of places) {
+        totalplaces++;
+        const reason = checkFake(place, category);
         if (reason) {
           totalFakes++;
-          fakes.push({ country, category, spot, reason });
-          allFakes.push({ country, category, spot, reason });
+          fakes.push({ country, category, place, reason });
+          allFakes.push({ country, category, place, reason });
         }
       }
 
       if (removeMode && fakes.length > 0) {
-        const slugsToRemove = new Set(fakes.map((f) => f.spot.slug));
-        const filtered = spots.filter((s) => !slugsToRemove.has(s.slug));
-        totalRemoved += spots.length - filtered.length;
+        const slugsToRemove = new Set(fakes.map((f) => f.place.slug));
+        const filtered = places.filter((s) => !slugsToRemove.has(s.slug));
+        totalRemoved += places.length - filtered.length;
         fs.writeFileSync(filePath, JSON.stringify(filtered, null, 2) + "\n");
-        console.log(`[削除] ${country}/${category}: ${fakes.length}件削除 (${spots.length}→${filtered.length}件)`);
+        console.log(`[削除] ${country}/${category}: ${fakes.length}件削除 (${places.length}→${filtered.length}件)`);
         for (const f of fakes) {
-          console.log(`  - ${f.spot.name}: ${f.reason}`);
+          console.log(`  - ${f.place.name}: ${f.reason}`);
         }
       }
     }
   }
 
   console.log("\n=== 架空スポット検出レポート ===\n");
-  console.log(`総スポット数: ${totalSpots}`);
-  console.log(`架空疑い: ${totalFakes}件 (${totalSpots > 0 ? ((totalFakes / totalSpots) * 100).toFixed(1) : 0}%)`);
+  console.log(`総スポット数: ${totalplaces}`);
+  console.log(`架空疑い: ${totalFakes}件 (${totalplaces > 0 ? ((totalFakes / totalplaces) * 100).toFixed(1) : 0}%)`);
 
   if (removeMode) {
     console.log(`削除済み: ${totalRemoved}件`);
   } else if (allFakes.length > 0) {
     console.log("\n--- 架空疑いスポット一覧 ---\n");
     for (const f of allFakes) {
-      console.log(`[${f.country}/${f.category}] ${f.spot.name}`);
+      console.log(`[${f.country}/${f.category}] ${f.place.name}`);
       console.log(`  理由: ${f.reason}`);
     }
-    console.log(`\n削除するには: npx tsx scripts/check-fake-spots.ts --remove`);
+    console.log(`\n削除するには: npx tsx scripts/check-fake-places.ts --remove`);
   } else {
     console.log("\n架空スポットは検出されませんでした。");
   }

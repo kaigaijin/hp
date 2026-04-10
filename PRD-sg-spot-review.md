@@ -10,7 +10,7 @@
 4. **description 再生成**（SEO用・60〜120文字）
 5. **detail 生成**（500〜1000文字・利用判断用）
 
-完了後、`spot_reviewed: true` を付与して再実行対象から除外する。
+完了後、`place_reviewed: true` を付与して再実行対象から除外する。
 
 ---
 
@@ -18,11 +18,11 @@
 
 | フラグ | 型 | 意味 |
 |---|---|---|
-| `spot_reviewed` | `boolean` | このPRDのレビュー完了フラグ。`true` = 処理済み（再実行しない） |
+| `place_reviewed` | `boolean` | このPRDのレビュー完了フラグ。`true` = 処理済み（再実行しない） |
 | `japanese_staff` | `boolean \| null` | `true`=日本人/日本語スタッフあり、`false`=Japanese-styleのみ、`null`=不明 |
-| `needs_review` | `boolean` | 判断不能で保留中。`true` の場合は `spot_reviewed: true` でも次回再レビュー対象にする |
+| `needs_review` | `boolean` | 判断不能で保留中。`true` の場合は `place_reviewed: true` でも次回再レビュー対象にする |
 
-**`ai_reviewed` は既存フィールドのため変更しない。** 今回は `spot_reviewed` を新設して区別する。
+**`ai_reviewed` は既存フィールドのため変更しない。** 今回は `place_reviewed` を新設して区別する。
 
 ---
 
@@ -56,8 +56,8 @@
 - **Claude Code サブエージェント**（general-purpose）が各カテゴリを担当
 - 各サブエージェントは WebSearch + WebFetch でスポットを1件ずつ調査
 - カテゴリ単位で並列実行（最大5並列）
-- `spot_reviewed: true` **かつ** `detail` が200文字以上のスポットはスキップ → 途中停止しても再実行可能
-- `spot_reviewed: true` でも `detail` が空・200文字未満なら再処理（detail未生成の残骸）
+- `place_reviewed: true` **かつ** `detail` が200文字以上のスポットはスキップ → 途中停止しても再実行可能
+- `place_reviewed: true` でも `detail` が空・200文字未満なら再処理（detail未生成の残骸）
 
 ---
 
@@ -130,8 +130,8 @@ restaurant は件数が多いため50件ずつのチャンクに分割する。
 の {start}〜{end} 件目（0-indexed）のスポットを1件ずつ調査してJSONを更新してください。
 
 ## 処理対象
-- `spot_reviewed: true` かつ `detail` が200文字以上のスポットはスキップする
-- `spot_reviewed: true` でも `detail` が空・200文字未満なら再処理する（detail未生成の残骸）
+- `place_reviewed: true` かつ `detail` が200文字以上のスポットはスキップする
+- `place_reviewed: true` でも `detail` が空・200文字未満なら再処理する（detail未生成の残骸）
 - `needs_review: true` のスポットは常に再調査する
 - `needs_review: true` のスポットは再調査する
 
@@ -174,7 +174,7 @@ restaurant は件数が多いため50件ずつのチャンクに分割する。
 
 ## 完了フラグ
 各スポットの処理完了後、必ず以下を設定する:
-- `spot_reviewed: true`
+- `place_reviewed: true`
 - `last_verified: "{TODAY}"`
 
 削除したスポットはJSONから除去する（削除後のJSONを保存）。
@@ -195,12 +195,12 @@ restaurant は件数が多いため50件ずつのチャンクに分割する。
 ## 検証条件
 
 各カテゴリ完了後:
-- [ ] `spot_reviewed: true` の件数が処理件数と一致する
+- [ ] `place_reviewed: true` の件数が処理件数と一致する
 - [ ] 削除されたスポットの店名リストを確認（意図しない削除がないか）
 - [ ] `needs_review: true` のスポットを手動確認
 
 全カテゴリ完了後:
-- [ ] `validate-spots.ts` を実行して suspect 0件を確認
+- [ ] `validate-places.ts` を実行して suspect 0件を確認
 - [ ] コミット・push・デプロイ確認
 
 ---
@@ -210,4 +210,4 @@ restaurant は件数が多いため50件ずつのチャンクに分割する。
 1. 小規模カテゴリを最大5並列で一括開始（dental・clinic・pharmacy・bank・carなど）
 2. 結果確認・問題なければ中規模カテゴリへ
 3. cafe・restaurant は順次チャンク実行（並列可）
-4. 全完了後 validate-spots.ts → コミット → push
+4. 全完了後 validate-places.ts → コミット → push

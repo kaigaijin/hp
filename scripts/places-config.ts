@@ -232,7 +232,7 @@ export interface PlaceResult {
   // emailは Places API (New) では非対応のため取得不可
 }
 
-export interface SpotEntry {
+export interface placeEntry {
   slug: string;
   name: string;
   name_ja: string | null;

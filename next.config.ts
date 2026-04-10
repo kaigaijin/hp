@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
     return [
       // 旧slug → 新slugへの301リダイレクト（Googleインデックス済みの古いURL対応）
       {
-        source: "/th/spot/restaurant/sumitei-yakiniku",
+        source: "/th/place/restaurant/sumitei-yakiniku",
         destination: "/th/place/restaurant/sumi-tei-yakiniku-thonglor",
         permanent: true,
       },
@@ -26,42 +26,42 @@ const nextConfig: NextConfig = {
       },
       // スポット詳細ページ（統合先が restaurant に存在するもの）
       // MY
-      { source: "/my/spot/izakaya-bar/rokka-robatayaki-by-little-june-sushi", destination: "/my/place/restaurant/rokka-robatayaki-by-little-june-sushi", permanent: true },
-      { source: "/my/spot/izakaya-bar/kyuten-robatayaki-japanese-izakaya", destination: "/my/place/restaurant/kyuten-robatayaki-japanese-izakaya", permanent: true },
-      { source: "/my/spot/izakaya-bar/tekku-izakaya-kota-damansara", destination: "/my/place/restaurant/tekku-izakaya-kota-damansara", permanent: true },
+      { source: "/my/place/izakaya-bar/rokka-robatayaki-by-little-june-sushi", destination: "/my/place/restaurant/rokka-robatayaki-by-little-june-sushi", permanent: true },
+      { source: "/my/place/izakaya-bar/kyuten-robatayaki-japanese-izakaya", destination: "/my/place/restaurant/kyuten-robatayaki-japanese-izakaya", permanent: true },
+      { source: "/my/place/izakaya-bar/tekku-izakaya-kota-damansara", destination: "/my/place/restaurant/tekku-izakaya-kota-damansara", permanent: true },
       // SG
-      { source: "/sg/spot/izakaya-bar/nikomi-253-japanese-izakaya", destination: "/sg/place/restaurant/nikomi-253-japanese-izakaya", permanent: true },
-      { source: "/sg/spot/izakaya-bar/izakaya-nijumaru-cuppage-bar", destination: "/sg/place/restaurant/izakaya-nijumaru-cuppage-bar", permanent: true },
+      { source: "/sg/place/izakaya-bar/nikomi-253-japanese-izakaya", destination: "/sg/place/restaurant/nikomi-253-japanese-izakaya", permanent: true },
+      { source: "/sg/place/izakaya-bar/izakaya-nijumaru-cuppage-bar", destination: "/sg/place/restaurant/izakaya-nijumaru-cuppage-bar", permanent: true },
       // TH
-      { source: "/th/spot/izakaya-bar/kitaro-itadaki-horumon", destination: "/th/place/restaurant/kitaro-itadaki-horumon", permanent: true },
-      { source: "/th/spot/izakaya-bar/nanami-japanese-bbq-restaurant", destination: "/th/place/restaurant/nanami-japanese-bbq-restaurant", permanent: true },
-      { source: "/th/spot/izakaya-bar/butsaba-wineandcafe-2", destination: "/th/place/restaurant/butsaba-wineandcafe-2", permanent: true },
+      { source: "/th/place/izakaya-bar/kitaro-itadaki-horumon", destination: "/th/place/restaurant/kitaro-itadaki-horumon", permanent: true },
+      { source: "/th/place/izakaya-bar/nanami-japanese-bbq-restaurant", destination: "/th/place/restaurant/nanami-japanese-bbq-restaurant", permanent: true },
+      { source: "/th/place/izakaya-bar/butsaba-wineandcafe-2", destination: "/th/place/restaurant/butsaba-wineandcafe-2", permanent: true },
       // DE
-      { source: "/de/spot/izakaya-bar/izakaya-bar-takezo", destination: "/de/place/restaurant/izakaya-bar-takezo", permanent: true },
+      { source: "/de/place/izakaya-bar/izakaya-bar-takezo", destination: "/de/place/restaurant/izakaya-bar-takezo", permanent: true },
       // AU
-      { source: "/au/spot/izakaya-bar/nomidokoro-indigo-darlinghurst-izakaya", destination: "/au/place/restaurant/nomidokoro-indigo-darlinghurst-izakaya", permanent: true },
-      { source: "/au/spot/izakaya-bar/wawawa-izakaya-cairns", destination: "/au/place/restaurant/wawawa-izakaya-cairns", permanent: true },
+      { source: "/au/place/izakaya-bar/nomidokoro-indigo-darlinghurst-izakaya", destination: "/au/place/restaurant/nomidokoro-indigo-darlinghurst-izakaya", permanent: true },
+      { source: "/au/place/izakaya-bar/wawawa-izakaya-cairns", destination: "/au/place/restaurant/wawawa-izakaya-cairns", permanent: true },
       // GB
-      { source: "/gb/spot/izakaya-bar/ichiran-solo-booth-london", destination: "/gb/place/restaurant/ichiran-solo-booth-london", permanent: true },
-      { source: "/gb/spot/izakaya-bar/katana-bar-leicester-square", destination: "/gb/place/restaurant/katana-bar-leicester-square", permanent: true },
+      { source: "/gb/place/izakaya-bar/ichiran-solo-booth-london", destination: "/gb/place/restaurant/ichiran-solo-booth-london", permanent: true },
+      { source: "/gb/place/izakaya-bar/katana-bar-leicester-square", destination: "/gb/place/restaurant/katana-bar-leicester-square", permanent: true },
       // KR
-      { source: "/kr/spot/izakaya-bar/hakata-bunko", destination: "/kr/place/restaurant/hakata-bunko", permanent: true },
-      { source: "/kr/spot/izakaya-bar/ookini-busan", destination: "/kr/place/restaurant/ookini-busan", permanent: true },
+      { source: "/kr/place/izakaya-bar/hakata-bunko", destination: "/kr/place/restaurant/hakata-bunko", permanent: true },
+      { source: "/kr/place/izakaya-bar/ookini-busan", destination: "/kr/place/restaurant/ookini-busan", permanent: true },
       // HK
-      { source: "/hk/spot/izakaya-bar/nelohe-sake-izakaya", destination: "/hk/place/restaurant/nelohe-sake-izakaya", permanent: true },
-      { source: "/hk/spot/izakaya-bar/akagi-izakaya", destination: "/hk/place/restaurant/akagi-izakaya", permanent: true },
-      { source: "/hk/spot/izakaya-bar/hokkori-izakaya-di", destination: "/hk/place/restaurant/hokkori-izakaya-di", permanent: true },
-      { source: "/hk/spot/izakaya-bar/kuki-izakaya-causeway-bay-2", destination: "/hk/place/restaurant/kuki-izakaya-causeway-bay-2", permanent: true },
-      { source: "/hk/spot/izakaya-bar/ouka-mong-kok", destination: "/hk/place/restaurant/ouka-mong-kok", permanent: true },
-      { source: "/hk/spot/izakaya-bar/the-aubrey-central-sushi", destination: "/hk/place/restaurant/the-aubrey-central-sushi", permanent: true },
-      { source: "/hk/spot/izakaya-bar/watami-whampoa-hung-hom", destination: "/hk/place/restaurant/watami-whampoa-hung-hom", permanent: true },
-      { source: "/hk/spot/izakaya-bar/yaki-ana-sha-tin-ntp", destination: "/hk/place/restaurant/yaki-ana-sha-tin-ntp", permanent: true },
-      { source: "/hk/spot/izakaya-bar/daieiki-japanese-restaurant-mong-kok", destination: "/hk/place/grocery/daieiki-japanese-restaurant-mong-kok", permanent: true },
+      { source: "/hk/place/izakaya-bar/nelohe-sake-izakaya", destination: "/hk/place/restaurant/nelohe-sake-izakaya", permanent: true },
+      { source: "/hk/place/izakaya-bar/akagi-izakaya", destination: "/hk/place/restaurant/akagi-izakaya", permanent: true },
+      { source: "/hk/place/izakaya-bar/hokkori-izakaya-di", destination: "/hk/place/restaurant/hokkori-izakaya-di", permanent: true },
+      { source: "/hk/place/izakaya-bar/kuki-izakaya-causeway-bay-2", destination: "/hk/place/restaurant/kuki-izakaya-causeway-bay-2", permanent: true },
+      { source: "/hk/place/izakaya-bar/ouka-mong-kok", destination: "/hk/place/restaurant/ouka-mong-kok", permanent: true },
+      { source: "/hk/place/izakaya-bar/the-aubrey-central-sushi", destination: "/hk/place/restaurant/the-aubrey-central-sushi", permanent: true },
+      { source: "/hk/place/izakaya-bar/watami-whampoa-hung-hom", destination: "/hk/place/restaurant/watami-whampoa-hung-hom", permanent: true },
+      { source: "/hk/place/izakaya-bar/yaki-ana-sha-tin-ntp", destination: "/hk/place/restaurant/yaki-ana-sha-tin-ntp", permanent: true },
+      { source: "/hk/place/izakaya-bar/daieiki-japanese-restaurant-mong-kok", destination: "/hk/place/grocery/daieiki-japanese-restaurant-mong-kok", permanent: true },
 
       // HK grocery: 壊れたslug "-10" を修正（2026-04-04）
-      { source: "/hk/spot/grocery/-10", destination: "/hk/place/grocery/nihon-meiriki-flagship-tsim-sha-tsui", permanent: true },
+      { source: "/hk/place/grocery/-10", destination: "/hk/place/grocery/nihon-meiriki-flagship-tsim-sha-tsui", permanent: true },
       // HK izakaya-bar: "-10" slug経由でアクセスされていたURL（念のため）
-      { source: "/hk/spot/izakaya-bar/-10", destination: "/hk/place/grocery/nihon-meiriki-flagship-tsim-sha-tsui", permanent: true },
+      { source: "/hk/place/izakaya-bar/-10", destination: "/hk/place/grocery/nihon-meiriki-flagship-tsim-sha-tsui", permanent: true },
 
       // /spot → /place リダイレクト（2026-04-08）
       { source: "/:country/spot", destination: "/:country/place", permanent: true },

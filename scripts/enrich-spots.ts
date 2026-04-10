@@ -1,5 +1,5 @@
 /**
- * enrich-spots.ts
+ * enrich-places.ts
  *
  * 既存スポットデータのうち place_id が空のエントリに
  * Google Places API で構造化データを補完する。
@@ -18,11 +18,11 @@
  *   ② このスクリプト → place_id空のスポットをPlaces APIで補完（枠がある時に随時実行）
  *
  * 使い方:
- *   GOOGLE_PLACES_API_KEY=xxx npx tsx scripts/enrich-spots.ts <country> [category] [--dry-run] [--limit N]
- *   GOOGLE_PLACES_API_KEY=xxx npx tsx scripts/enrich-spots.ts sg              # SG全カテゴリ
- *   GOOGLE_PLACES_API_KEY=xxx npx tsx scripts/enrich-spots.ts sg dental       # SG歯科のみ
- *   GOOGLE_PLACES_API_KEY=xxx npx tsx scripts/enrich-spots.ts all             # 全国全カテゴリ
- *   GOOGLE_PLACES_API_KEY=xxx npx tsx scripts/enrich-spots.ts all --limit 500 # 最大500件で止める（無料枠管理用）
+ *   GOOGLE_PLACES_API_KEY=xxx npx tsx scripts/enrich-places.ts <country> [category] [--dry-run] [--limit N]
+ *   GOOGLE_PLACES_API_KEY=xxx npx tsx scripts/enrich-places.ts sg              # SG全カテゴリ
+ *   GOOGLE_PLACES_API_KEY=xxx npx tsx scripts/enrich-places.ts sg dental       # SG歯科のみ
+ *   GOOGLE_PLACES_API_KEY=xxx npx tsx scripts/enrich-places.ts all             # 全国全カテゴリ
+ *   GOOGLE_PLACES_API_KEY=xxx npx tsx scripts/enrich-places.ts all --limit 500 # 最大500件で止める（無料枠管理用）
  */
 
 import fs from "fs";
@@ -31,7 +31,7 @@ import {
   GOOGLE_API_KEY,
   COUNTRY_SEARCH_CONFIG,
   type PlaceResult,
-  type SpotEntry,
+  type placeEntry,
 } from "./places-config.js";
 
 const DIRECTORY_PATH = path.resolve(__dirname, "../content/directory");
@@ -107,80 +107,80 @@ async function findPlace(
 }
 
 // 既存スポットをPlaces APIデータで補完する
-function enrichSpot(spot: SpotEntry, place: PlaceResult): SpotEntry {
+function enrichplace(place: placeEntry, place: PlaceResult): placeEntry {
   const jaDisplayName = place.displayName?.text ?? null;
 
   // 座標
-  if (!spot.lat && place.location?.latitude) {
-    spot.lat = Math.round(place.location.latitude * 10000) / 10000;
+  if (!place.lat && place.location?.latitude) {
+    place.lat = Math.round(place.location.latitude * 10000) / 10000;
   }
-  if (!spot.lng && place.location?.longitude) {
-    spot.lng = Math.round(place.location.longitude * 10000) / 10000;
+  if (!place.lng && place.location?.longitude) {
+    place.lng = Math.round(place.location.longitude * 10000) / 10000;
   }
 
   // 営業時間（currentOpeningHours優先、なければregularOpeningHours）
-  if (!spot.hours) {
+  if (!place.hours) {
     const weekdays =
       place.currentOpeningHours?.weekdayDescriptions ??
       place.regularOpeningHours?.weekdayDescriptions;
     if (weekdays) {
-      spot.hours = weekdays.join(" / ");
+      place.hours = weekdays.join(" / ");
     }
   }
 
   // 電話番号（国際形式）
-  if (!spot.phone && place.internationalPhoneNumber) {
-    spot.phone = place.internationalPhoneNumber.replace(/[\s-]/g, "");
+  if (!place.phone && place.internationalPhoneNumber) {
+    place.phone = place.internationalPhoneNumber.replace(/[\s-]/g, "");
   }
 
   // 電話番号（現地形式）
-  if (!spot.phone_local && place.nationalPhoneNumber) {
-    spot.phone_local = place.nationalPhoneNumber;
+  if (!place.phone_local && place.nationalPhoneNumber) {
+    place.phone_local = place.nationalPhoneNumber;
   }
 
   // 住所
-  if (!spot.address && place.formattedAddress) {
-    spot.address = place.formattedAddress;
+  if (!place.address && place.formattedAddress) {
+    place.address = place.formattedAddress;
   }
 
   // Webサイト
-  if (!spot.website && place.websiteUri) {
-    spot.website = place.websiteUri;
+  if (!place.website && place.websiteUri) {
+    place.website = place.websiteUri;
   }
 
   // 日本語名（APIから取得できた場合、既存のname_jaが空なら補完）
-  if (!spot.name_ja && jaDisplayName && jaDisplayName !== spot.name) {
-    spot.name_ja = jaDisplayName;
+  if (!place.name_ja && jaDisplayName && jaDisplayName !== place.name) {
+    place.name_ja = jaDisplayName;
   }
 
   // Googleレーティング（保存のみ・表示しない）
-  if (spot.rating === undefined || spot.rating === null) {
-    spot.rating = place.rating ?? null;
+  if (place.rating === undefined || place.rating === null) {
+    place.rating = place.rating ?? null;
   }
 
   // 口コミ数（保存のみ・表示しない）
-  if (spot.user_rating_count === undefined || spot.user_rating_count === null) {
-    spot.user_rating_count = place.userRatingCount ?? null;
+  if (place.user_rating_count === undefined || place.user_rating_count === null) {
+    place.user_rating_count = place.userRatingCount ?? null;
   }
 
   // 価格帯（保存のみ・表示しない）
-  if (spot.price_level === undefined || spot.price_level === null) {
-    spot.price_level = place.priceLevel
+  if (place.price_level === undefined || place.price_level === null) {
+    place.price_level = place.priceLevel
       ? (PRICE_LEVEL_MAP[place.priceLevel] ?? null)
       : null;
   }
 
   // フォト参照キー（保存のみ・表示しない）
-  if (!spot.photo_name && place.photos?.[0]?.name) {
-    spot.photo_name = place.photos[0].name;
+  if (!place.photo_name && place.photos?.[0]?.name) {
+    place.photo_name = place.photos[0].name;
   }
 
   // place_id・source・last_verified を更新
-  spot.place_id = place.id;
-  spot.source = "google_maps";
-  spot.last_verified = TODAY;
+  place.place_id = place.id;
+  place.source = "google_maps";
+  place.last_verified = TODAY;
 
-  return spot;
+  return place;
 }
 
 async function enrichCategory(
@@ -193,51 +193,51 @@ async function enrichCategory(
   const filePath = path.join(DIRECTORY_PATH, country, `${category}.json`);
   if (!fs.existsSync(filePath)) return { enriched: 0, skipped: 0, failed: 0 };
 
-  const spots: SpotEntry[] = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+  const places: placeEntry[] = JSON.parse(fs.readFileSync(filePath, "utf-8"));
 
   // place_id が空のスポットを対象にする
-  const targets = spots.filter((s) => !s.place_id);
-  if (targets.length === 0) return { enriched: 0, skipped: spots.length, failed: 0 };
+  const targets = places.filter((s) => !s.place_id);
+  if (targets.length === 0) return { enriched: 0, skipped: places.length, failed: 0 };
 
-  console.log(`  ${category}: ${targets.length}件 補完対象（全${spots.length}件中）`);
+  console.log(`  ${category}: ${targets.length}件 補完対象（全${places.length}件中）`);
 
   let enriched = 0;
   let failed = 0;
 
-  for (const spot of targets) {
+  for (const place of targets) {
     if (remaining.count <= 0) {
       console.log(`    ⏸ --limit に達したため中断`);
       break;
     }
 
-    const place = await findPlace(spot.name, spot.area, countryConfig);
+    const place = await findPlace(place.name, place.area, countryConfig);
     await sleep(DELAY_MS);
     remaining.count--;
 
     if (!place) {
-      console.log(`    ✗ ${spot.name} — API検索失敗`);
+      console.log(`    ✗ ${place.name} — API検索失敗`);
       failed++;
       continue;
     }
 
     // 既に同じplace_idが存在する場合はスキップ（重複防止）
-    const duplicate = spots.find((s) => s.place_id === place.id && s.slug !== spot.slug);
+    const duplicate = places.find((s) => s.place_id === place.id && s.slug !== place.slug);
     if (duplicate) {
-      console.log(`    → ${spot.name} — place_id重複（${duplicate.slug}）、スキップ`);
+      console.log(`    → ${place.name} — place_id重複（${duplicate.slug}）、スキップ`);
       failed++;
       continue;
     }
 
-    enrichSpot(spot, place);
+    enrichplace(place, place);
     enriched++;
-    console.log(`    ✓ ${spot.name} → place_id: ${spot.place_id}${spot.name_ja ? ` / ${spot.name_ja}` : ""}`);
+    console.log(`    ✓ ${place.name} → place_id: ${place.place_id}${place.name_ja ? ` / ${place.name_ja}` : ""}`);
   }
 
   if (enriched > 0 && !dryRun) {
-    fs.writeFileSync(filePath, JSON.stringify(spots, null, 2) + "\n");
+    fs.writeFileSync(filePath, JSON.stringify(places, null, 2) + "\n");
   }
 
-  return { enriched, skipped: spots.length - targets.length, failed };
+  return { enriched, skipped: places.length - targets.length, failed };
 }
 
 async function main() {
@@ -258,13 +258,13 @@ async function main() {
 
   if (!target) {
     console.log("使い方:");
-    console.log("  GOOGLE_PLACES_API_KEY=xxx npx tsx scripts/enrich-spots.ts <country|all> [category] [--dry-run] [--limit N]");
+    console.log("  GOOGLE_PLACES_API_KEY=xxx npx tsx scripts/enrich-places.ts <country|all> [category] [--dry-run] [--limit N]");
     console.log("\n例:");
-    console.log("  npx tsx scripts/enrich-spots.ts sg                  # SG全カテゴリ");
-    console.log("  npx tsx scripts/enrich-spots.ts sg dental           # SG歯科のみ");
-    console.log("  npx tsx scripts/enrich-spots.ts all                 # 全国全カテゴリ");
-    console.log("  npx tsx scripts/enrich-spots.ts all                 # デフォルト2,500件（Pro SKU無料枠の半分）");
-  console.log("  npx tsx scripts/enrich-spots.ts all --limit 0       # 無制限（全件処理）");
+    console.log("  npx tsx scripts/enrich-places.ts sg                  # SG全カテゴリ");
+    console.log("  npx tsx scripts/enrich-places.ts sg dental           # SG歯科のみ");
+    console.log("  npx tsx scripts/enrich-places.ts all                 # 全国全カテゴリ");
+    console.log("  npx tsx scripts/enrich-places.ts all                 # デフォルト2,500件（Pro SKU無料枠の半分）");
+  console.log("  npx tsx scripts/enrich-places.ts all --limit 0       # 無制限（全件処理）");
     process.exit(1);
   }
 

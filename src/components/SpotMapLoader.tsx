@@ -2,7 +2,7 @@
 
 import dynamic from "next/dynamic";
 
-const SpotMap = dynamic(() => import("@/components/SpotMap"), {
+const placeMap = dynamic(() => import("@/components/placeMap"), {
   ssr: false,
   loading: () => (
     <div className="flex items-center justify-center h-full bg-stone-100 dark:bg-stone-900 text-stone-500 text-sm">
@@ -11,7 +11,7 @@ const SpotMap = dynamic(() => import("@/components/SpotMap"), {
   ),
 });
 
-type MapSpot = {
+type Mapplace = {
   slug: string;
   name: string;
   name_ja?: string;
@@ -31,22 +31,22 @@ type CategoryFilter = {
   count: number;
 };
 
-export default function SpotMapLoader({
-  spots,
+export default function placeMapLoader({
+  places,
   countryCode,
   categories,
   center,
   apiKey,
 }: {
-  spots: MapSpot[];
+  places: Mapplace[];
   countryCode: string;
   categories: CategoryFilter[];
   center: { lat: number; lng: number };
   apiKey: string;
 }) {
   return (
-    <SpotMap
-      spots={spots}
+    <placeMap
+      places={places}
       countryCode={countryCode}
       categories={categories}
       center={center}
