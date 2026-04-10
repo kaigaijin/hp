@@ -5,8 +5,33 @@ import Link from "next/link";
 import { Heart, MapPin, LogIn, ArrowRight } from "lucide-react";
 import { useAuth } from "@/components/AuthProvider";
 import { supabase } from "@/lib/supabase";
-import { getCategory } from "@/lib/directory";
 import { getCountry } from "@/lib/countries";
+
+// カテゴリ名マップ（directory.tsはfsを使うためClient Componentでimport不可）
+const CATEGORY_NAMES: Record<string, string> = {
+  restaurant: "日本食レストラン・居酒屋",
+  cafe: "カフェ・ベーカリー",
+  clinic: "クリニック・病院",
+  dental: "歯科",
+  pharmacy: "薬局・ドラッグストア",
+  beauty: "美容室・理容室",
+  "nail-esthetic": "ネイル・エステ・スパ",
+  fitness: "ジム・フィットネス・ヨガ",
+  "real-estate": "不動産",
+  grocery: "日本食スーパー・食材店",
+  education: "学習塾・幼稚園・インター校",
+  accounting: "会計・税務",
+  legal: "法律事務所",
+  insurance: "保険",
+  bank: "銀行",
+  moving: "引越し・物流",
+  travel: "旅行代理店",
+  coworking: "コワーキング・レンタルオフィス",
+  pet: "ペット関連",
+  car: "車・レンタカー",
+  cleaning: "クリーニング・家事代行",
+  repair: "修理・リフォーム",
+};
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
@@ -94,7 +119,7 @@ export default function MyFavoritesPage() {
             <ul className="space-y-3">
               {favorites.map((fav) => {
                 const country = getCountry(fav.country);
-                const category = getCategory(fav.category);
+                const categoryName = CATEGORY_NAMES[fav.category];
                 const href = `/${fav.country}/place/${fav.category}/${fav.slug}`;
                 // slugから表示名を生成（ハイフン→スペース・先頭大文字）
                 const slugName = fav.slug
@@ -116,8 +141,8 @@ export default function MyFavoritesPage() {
                         <p className="text-xs text-stone-400 flex items-center gap-1 mt-0.5">
                           <MapPin size={10} />
                           {country?.flag} {country?.name}
-                          {category && (
-                            <span className="ml-1">· {category.name}</span>
+                          {categoryName && (
+                            <span className="ml-1">· {categoryName}</span>
                           )}
                         </p>
                       </div>
