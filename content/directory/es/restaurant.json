@@ -393,5 +393,45 @@
     "place_reviewed": true,
     "needs_review": false,
     "japanese_staff": null
+  },
+  {
+    "slug": "ramen-kagura-madrid",
+    "name": "Ramen Kagura",
+    "name_ja": "ラーメン神楽 マドリード",
+    "area": "Madrid",
+    "address": "Calle de las Fuentes, 1, 28004 Madrid",
+    "phone": "+34915483606",
+    "phone_local": null,
+    "email": null,
+    "website": "https://www.ramenkagura.com/",
+    "source_url": "https://www.esmadrid.com/en/restaurants/ramen-kagura",
+    "description": "静岡出身の日本人シェフ・Keigo Onodaが2014年に創業したマドリード初のラーメン専門店。マドリード中心部（オペラ近く）に本店を持ち、市内複数店舗に拡大。ベストラーメン2018受賞。",
+    "detail": "静岡出身の日本人シェフ・Keigo Onodaが2014年に開業したマドリード初のラーメン専門店。カジェ・デ・ラス・フエンテス1番地（オペラ地区・マドリード中心部）に本店を構え、アベニーダ・アメリカ店・バルデベバス店・ラス・タブラス店など市内複数店舗に拡大。2018年第1回ビーフ・ガストロノミー賞「ベストラーメン」受賞。在マドリード日本人・日本食愛好者の定番スポット。お気に入りはおこのみやき・海老天ラーメン・餃子など。",
+    "menu": [
+      "ラーメン各種",
+      "餃子",
+      "お好み焼き"
+    ],
+    "price_range": null,
+    "tags": [
+      "日本人シェフ",
+      "ラーメン",
+      "マドリード",
+      "オペラ"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-04-10",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null,
+    "place_reviewed": true,
+    "needs_review": false,
+    "japanese_staff": true
   }
 ]

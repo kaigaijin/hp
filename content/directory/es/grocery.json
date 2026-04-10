@@ -111,5 +111,46 @@
     "place_reviewed": true,
     "needs_review": false,
     "japanese_staff": null
+  },
+  {
+    "slug": "somenoya-barcelona",
+    "name": "Somenoya International Barcelona",
+    "name_ja": "染野屋 バルセロナ店",
+    "area": "Barcelona",
+    "address": "Carrer d'Aribau, 119, 08036 Barcelona",
+    "phone": "+34934537352",
+    "phone_local": null,
+    "email": "barcelona@somenoya.com",
+    "website": "https://somenoyainternational.com/",
+    "source_url": "https://somenoyainternational.com/shop",
+    "description": "1862年創業の日本の老舗豆腐メーカー「染野屋」が直営するバルセロナ唯一の日本式豆腐専門店。エイシャンプレ地区で本格豆腐・日本食材を販売。スタッフは日本語対応可能。",
+    "detail": "1862年創業の埼玉・老舗豆腐メーカー「染野屋（Somenoya）」がバルセロナに出店した欧州初の直営店（2023年2月開業）。エイシャンプレ地区・アリバウ通り119番地に位置し、本格日本式豆腐（カタラン豆腐含む）のほか日本食材を販売。出店から8ヶ月で売上179%増を記録した話題の店。スタッフはMondoまたはTomo、スペイン語・日本語対応可能。営業は月〜金11:30〜15:00・17:00〜20:00、土11:30〜15:00、日・祝休。予約・問い合わせはメール（barcelona@somenoya.com）で対応。",
+    "menu": [
+      "日本式豆腐",
+      "カタラン豆腐",
+      "日本食材"
+    ],
+    "price_range": null,
+    "tags": [
+      "日本食材",
+      "豆腐",
+      "老舗",
+      "バルセロナ",
+      "エイシャンプレ"
+    ],
+    "hours": "月〜金 11:30-15:00、17:00-20:00 / 土 11:30-15:00 / 日・祝休",
+    "status": "unverified",
+    "last_verified": "2026-04-10",
+    "source": "website",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null,
+    "place_reviewed": true,
+    "needs_review": false,
+    "japanese_staff": true
   }
 ]
