@@ -417,5 +417,41 @@
     "place_reviewed": true,
     "needs_review": false,
     "japanese_staff": null
+  },
+  {
+    "slug": "onoda-zurich-japan-store",
+    "name": "Onoda",
+    "name_ja": "小野田",
+    "area": "Zürich",
+    "address": "Predigergasse 18, 8001 Zürich, Switzerland",
+    "phone": "+41433668441",
+    "phone_local": null,
+    "email": "info@onoda.ch",
+    "website": "https://www.onoda.ch/",
+    "source_url": "https://www.hellozurich.ch/en/location/onoda.html",
+    "description": "チューリッヒ旧市街に構える、日本の職人・小規模生産者による食品・雑貨専門店。厳選された日本の一次産品や陶器・文具を取り扱い、在住日本人に人気。",
+    "detail": "チューリッヒ旧市街（Predigergasse）に立地する日本専門セレクトショップ。日本の個人職人や小規模生産者から直接仕入れた食品・陶器・文具・生活雑貨を販売。在住日本人はもちろん、日本文化に関心を持つ現地の人々にも支持されている。営業日は火〜土。",
+    "menu": null,
+    "price_range": null,
+    "tags": [
+      "japanese-goods",
+      "artisan",
+      "grocery",
+      "select-shop"
+    ],
+    "hours": "火〜金 12:00–18:30、土 11:00–16:00",
+    "status": "verified",
+    "last_verified": "2026-04-11",
+    "source": "website",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null,
+    "place_reviewed": true,
+    "needs_review": false,
+    "japanese_staff": true
   }
 ]
