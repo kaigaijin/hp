@@ -2083,35 +2083,6 @@
     "japanese_staff": null
   },
   {
-    "slug": "hwangjae-barber",
-    "name": "Hwangjae Barber皇帝",
-    "name_ja": "Hwangjae Barber皇帝",
-    "area": "Pattaya",
-    "address": "223, 37-38 moo9 Soi Durian Pattaya Sai 3, Muang Pattaya, Amphoe Bang Lamung, Chang Wat Chon Buri 20150, Thailand",
-    "lat": 12.9379,
-    "lng": 100.8932,
-    "phone": "+6633131788",
-    "website": "https://line.me/ti/p/Q9eFuknUHY",
-    "description": "パタヤ・Pattaya Sai 3沿いの日系スタイルバーバーショップ「皇帝」。日本人スタイリスト在籍、メンズカット・シェービングに対応。",
-    "tags": [
-      "美容室",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJdyNDUY-XAjER9_Id2MzLBpk",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
     "slug": "ichirin-japanese-esthetics",
     "name": "ICHIRIN Japanese Esthetics",
     "name_ja": "イチリン 日本 エステティックズ",
@@ -2121,7 +2092,7 @@
     "lng": 100.5664,
     "phone": "+66652269394",
     "website": "https://ichirin-esthetics.com/",
-    "description": "バンコク・スクンビット・RSU Tower 4階の日系エステサロン。日本式の美容技術で施術、スキンケア・フェイシャル・ボディケアに対応。",
+    "description": "バンコク・スクンビット31のRSU Tower 4階にある日本人経営のエステサロン。オーナーのYoshikaさんは美容歴25年以上。スキンケア・フェイシャル・ボディケアを日本語対応で提供。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -2138,36 +2109,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "infinity-beauty-laguna",
-    "name": "Infinity Beauty Laguna",
-    "name_ja": "インフィニティ ビューティー ラグナ",
-    "area": "Phuket",
-    "address": "58 Cherngtalay, 7 Lagoon Rd, Tambon Choeng Thale, Amphoe Thalang, Chang Wat Phuket 83110, Thailand",
-    "lat": 7.9965,
-    "lng": 98.304,
-    "phone": "+66922462339",
-    "website": "https://www.infinitybeautylaguna.com/",
-    "description": "プーケット・Laguna・Cherngtalay地区のビューティーサロン。日本語対応可能、ヘアカット・カラー・エステ・ネイルに対応。",
-    "tags": [
-      "美容室",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 9:00 AM – 8:00 PM / Tuesday: 9:00 AM – 8:00 PM / Wednesday: 9:00 AM – 8:00 PM / Thursday: 9:00 AM – 8:00 PM / Friday: 9:00 AM – 8:00 PM / Saturday: 9:00 AM – 8:00 PM / Sunday: 9:00 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJvVtWHIo5UDARh_5WdQrR_iQ",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "iyashi-barber-shop",
@@ -2179,7 +2122,7 @@
     "lng": 100.5684,
     "phone": "+66628836799",
     "website": "https://www.facebook.com/profile.php?id=100063591342478&mibextid=LQQJ4d",
-    "description": "バンコク・スクンビット22の日系バーバーショップ「癒し」。日本人スタイリスト在籍、メンズカット・シェービング・ヘッドスパに対応。Asok駅近く。",
+    "description": "バンコク・スクンビット22の日系バーバーショップ「癒し」。日本人スタイリスト在籍、メンズカット・シェービング・ヘッドスパに対応。BTSアソーク駅近く。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -2196,7 +2139,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "j-salon-and-phils-barber-shop",
@@ -2208,7 +2152,7 @@
     "lng": -157.8526,
     "phone": "+18085504441",
     "website": "https://www.jsalon.com/?y_source=1_MTA4MTUwNTA0OS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
-    "description": "日本人スタイリストが在籍するヘアサロン＆バーバーショップ。日本式技術でカット・カラー・メンズシェービングに対応。日本語での予約可能。",
+    "description": "プーケット・Laguna Avenida周辺の日本語対応ヘアサロン。カット・カラー・パーマ・メンズシェービングに対応。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -2225,7 +2169,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "joy-beauty-dream",
@@ -2254,7 +2199,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "joyko-hair-and-nail-salon-24hrs",
@@ -2266,7 +2212,7 @@
     "lng": 100.8735,
     "phone": "+6638713192",
     "website": "https://www.facebook.com/profile.php?id=61557705100120&mibextid=ZbWKwL",
-    "description": "パタヤ・VC Hotel・Pratamnak Roadの日系ヘア＆ネイルサロン（24時間営業）。日本人スタイリスト在籍、ヘアカット・ネイルに対応。",
+    "description": "パタヤ・VC Hotel近くのヘア＆ネイルサロン（24時間営業）。日本人スタイリスト在籍、ヘアカット・ネイルに対応。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -2283,7 +2229,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "js-salon",
@@ -2312,36 +2259,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "jump-sriracha",
-    "name": "JUMP@ Sriracha",
-    "name_ja": "JUMP@ シラチャ",
-    "area": "Sriracha",
-    "address": "165/43-44, Moo10, T.Surasak, Sriracha, Chon Buri 20110, Thailand",
-    "lat": 13.1676,
-    "lng": 100.9361,
-    "phone": "+66927165285",
-    "website": "http://www.facebook.com/jumpsriracha",
-    "description": "シラチャ・Surasak地区の日系スタイルヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。",
-    "tags": [
-      "美容室",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 10:00 AM – 6:00 PM / Tuesday: 10:00 AM – 6:00 PM / Wednesday: 10:00 AM – 6:00 PM / Thursday: 10:00 AM – 6:00 PM / Friday: 10:00 AM – 6:00 PM / Saturday: 10:00 AM – 6:00 PM / Sunday: 10:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJHcelhqq3AjERcpWr_EOehyo",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "jun-hair-pattaya",
@@ -2370,36 +2289,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "justin-and-win-salon",
-    "name": "Justin & Win Salon",
-    "name_ja": "ジュスチン & Win サロン",
-    "area": "Phuket",
-    "address": "4, 39 Thanon Wirat Hong Yok, Tambon Wichit, Amphoe Mueang Phuket, Chang Wat Phuket 83000, Thailand",
-    "lat": 7.8813,
-    "lng": 98.3669,
-    "phone": "+66642916425",
-    "website": "https://m.facebook.com/justinmawin/",
-    "description": "プーケット・Wichit地区の日系スタイルヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。",
-    "tags": [
-      "美容室",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: Closed / Tuesday: 10:00 AM – 9:00 PM / Wednesday: 10:00 AM – 9:00 PM / Thursday: 10:00 AM – 9:00 PM / Friday: 10:00 AM – 9:00 PM / Saturday: 10:00 AM – 9:00 PM / Sunday: 10:00 AM – 9:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJn3SBU24xUDARuQzSyifhtr8",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kaizen-hair-studio",
@@ -2411,7 +2302,7 @@
     "lng": -95.5732,
     "phone": "+18328192156",
     "website": "https://kaizenhair.com/",
-    "description": "日本式技術で施術する日系スタイルヘアサロン「Kaizen（改善）」。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。",
+    "description": "日本式技術を提供するプーケットの日系ヘアサロン「Kaizen（改善）」。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -2428,19 +2319,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kawaii-barber-andmassage",
     "name": "Kawaii Barber​&Massage​",
     "name_ja": "カワイイ バーバー​&マッサージ​",
-    "area": "Pattaya",
+    "area": "Bangkok",
     "address": "724 Soi Sukhumvit 30, Khwaeng Khlong Tan, Khet Khlong Toei, Krung Thep Maha Nakhon 10110, Thailand",
     "lat": 13.7279,
     "lng": 100.5731,
     "phone": "+66626616605",
     "website": "https://kawaii-group.com/",
-    "description": "バンコク・スクンビット30の日系バーバーショップ。日本人スタイリスト在籍、メンズカット・シェービング・ヘッドスパに対応。Phrom Phong駅近く。",
+    "description": "スクンビット30のベトナム式バーバー。シェービング・耳かき・顔マッサージ・ヘッドスパ等のグルーミングケアを90分コースで提供。日本語対応あり、男性専用。BTSプロンポン駅から徒歩圏内。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -2457,48 +2349,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "khun-jo-beauty-salon-school",
-    "name": "Khun Jo Beauty Salon School",
-    "name_ja": "Khun Jo ビューティー サロン スクール",
-    "area": "Chiang Mai",
-    "address": "128/1 Manee Nopparat Rd, Tambon Si Phum, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200, Thailand",
-    "lat": 18.7958,
-    "lng": 98.9893,
-    "phone": "+6653210763",
-    "website": "http://www.khunjoeschool.com/",
-    "description": "チェンマイ・Manee Nopparat Road沿いの日系ビューティーサロン＆スクール。日本人スタイリスト在籍、カット・カラー・パーマに対応。",
-    "tags": [
-      "美容室",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 9:00 AM – 5:00 PM / Tuesday: 9:00 AM – 5:00 PM / Wednesday: 9:00 AM – 5:00 PM / Thursday: 9:00 AM – 5:00 PM / Friday: 9:00 AM – 5:00 PM / Saturday: 9:00 AM – 5:00 PM / Sunday: 9:00 AM – 5:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJB00m_JY62jARWKayrC7dtoY",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "koji-hair-salon",
     "name": "Koji Hair Salon ร้านทำผมสไตล์ญีปุ่น(พิกัดโลตัส ลาดพร้าวมีสาขาเดียวเท่านั้น)",
     "name_ja": "コジ ヘア サロン รานทาผมสไตลญปน(พกดโลตส ลาดพราวมสาขาเดยวเทานน)",
-    "area": "Sriracha",
+    "area": "Bangkok",
     "address": "โลตัสลาดพร้าว ชั้น3 1190 Phahon Yothin Road, Khwaeng Chom Phon, Khet Chatuchak, Krung Thep Maha Nakhon 10900, Thailand",
     "lat": 13.8178,
     "lng": 100.5634,
     "phone": "+66937088468",
     "website": "https://www.facebook.com/profile.php?id=100080332464740",
-    "description": "バンコク・Chatuchak・ラドプラオのロータス3階の日系スタイルヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマに対応。",
+    "description": "バンコク・チャトゥチャック・ラドプラオのロータス3階の日系スタイルヘアサロン。日本式技術でカット・カラー・パーマに対応。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -2515,19 +2379,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "koji-moji-private-japanese-salon",
     "name": "KOJI MOJI Private Japanese Salon",
     "name_ja": "コジモジ プライベートサロン",
-    "area": "Pattaya",
+    "area": "Bangkok",
     "address": "51/33 Soi Ngam Wong Wan 42, Khwaeng Lat Yao, Khet Chatuchak, Krung Thep Maha Nakhon 10900, Thailand",
     "lat": 13.8463,
     "lng": 100.5627,
     "phone": "+66966545965",
     "website": null,
-    "description": "バンコク・Chatuchak・Ngam Wong Wan Soi 42のプライベート日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマに対応。",
+    "description": "バンコク・チャトゥチャック・Ngam Wong Wan Soi 42のプライベート日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマに対応。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -2544,7 +2409,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "lilac-by-106hair-thonglor",
@@ -2554,7 +2420,7 @@
     "address": "Soi Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
     "phone": null,
     "website": "https://106.co.th/",
-    "description": "106 HAIR STUDIOグループのトンロー店。女性向けのおしゃれな空間で、カット・カラー・パーマ・トリートメントを提供。日本人スタイリストが在籍。",
+    "description": "106 HAIR STUDIOグループのトンロー店「lilac by 106hair」。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントを提供。",
     "tags": [
       "日本語対応",
       "日本人スタイリスト",
@@ -2570,7 +2436,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "lisbyyo-13",
@@ -2599,7 +2466,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "lychee-beauty",
@@ -2628,7 +2496,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "marshmallow-nail-studio-phuket-town",
@@ -2640,7 +2509,7 @@
     "lng": 98.389,
     "phone": "+66812424667",
     "website": "https://www.facebook.com/profile.php?id=100087063755811",
-    "description": "プーケット・Ratsada地区の日系スタイルネイルサロン。日本式技術でネイルケア・ネイルアートに対応。日本人在住者にも利用されている。",
+    "description": "プーケット・Ratsada地区のネイルスタジオ。オーガニック＆ビーガン製品使用のプレミアムジェルネイル・スパ・ネイルアートに対応。日本人在住者にも利用されている。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -2657,7 +2526,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "may-beauty-salon",
@@ -2669,7 +2539,7 @@
     "lng": 100.8884,
     "phone": "+66924969788",
     "website": "https://www.facebook.com/profile.php?id=100063521472787",
-    "description": "パタヤ・Pattaya Klang Soi 16の日系スタイルビューティーサロン。日本人スタイリスト在籍、カット・カラー・パーマに対応。",
+    "description": "パタヤ・Pattaya Klang Soi 16のビューティーサロン。ヘアカット・カラー・ネイル・まつげエクステに対応。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -2686,65 +2556,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "meejapan-ok",
-    "name": "meeJapan中山店日本語ok美容室",
-    "name_ja": "meeJapan中山店日本語ok美容室",
-    "area": "Chiang Mai",
-    "address": "104, Taiwan, Taipei City, Zhongshan District, Lane 140, Section 1, Zhongshan N Rd, 13號2樓",
-    "lat": 25.0516,
-    "lng": 121.5215,
-    "phone": "+886225115570",
-    "website": "https://www.meejapan.com/",
-    "description": "日本語対応の日系ヘアサロン「meeJapan」。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。日本語での予約可能。",
-    "tags": [
-      "美容室",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJRVd5MVCpQjQRVTuxXVB5vJM",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "million-salon-phloen-chit",
-    "name": "Million Salon Phloen Chit",
-    "name_ja": "ミリオン サロン プルーン チット",
-    "area": "Bangkok",
-    "address": "Mahatun Plaza, 888/57 ถนน เพลินจิต แขวงลุมพินี เขตปทุมวัน กรุงเทพมหานคร 10330, Thailand",
-    "lat": 13.742,
-    "lng": 100.5485,
-    "phone": "+66659289866",
-    "website": "http://www.millionsalon.com/",
-    "description": "バンコク・Phloen Chit・Mahatun Plaza内の日系スタイルヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。",
-    "tags": [
-      "美容室",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 8:00 AM – 7:00 PM / Tuesday: 8:00 AM – 7:00 PM / Wednesday: 8:00 AM – 7:00 PM / Thursday: 8:00 AM – 7:00 PM / Friday: 8:00 AM – 7:00 PM / Saturday: 9:00 AM – 8:00 PM / Sunday: 9:00 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJX0shyR-f4jARzhLGxvVmG9g",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mitsuba-japanese-head-spa",
@@ -2756,7 +2569,7 @@
     "lng": 100.5675,
     "phone": "+66646681515",
     "website": "https://www.mitsubaspa.com/",
-    "description": "スクンビットソイ33の日系ヘアサロン。カット・カラー・パーマ・トリートメントを提供し、日本式の丁寧なカウンセリングと施術が特徴",
+    "description": "スクンビットソイ33の日系ヘッドスパ専門サロン「Mitsuba」。日本式のヘッドスパ・顔スパを提供。BTSプロンポン駅から6分。水曜定休。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -2773,7 +2586,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "moga-central-centralworld-026461872",
@@ -2785,7 +2599,7 @@
     "lng": 100.5397,
     "phone": "+6626461872",
     "website": "https://moga.co.th/",
-    "description": "バンコク・CentralWorld 3階の日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマに対応。Siam・Chit Lom駅徒歩圏内。",
+    "description": "バンコク・CentralWorld 3階にある日系ヘアサロン「MOGA」の1992年創業老舗チェーン店。日本式技術でカット・カラー・パーマに対応。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -2802,7 +2616,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "moga-central-embassy",
@@ -2814,7 +2629,7 @@
     "lng": 100.5466,
     "phone": "+6620003738",
     "website": "https://moga.co.th/",
-    "description": "バンコク・Central Embassy内の日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマに対応。Phloen Chit駅直結のショッピングモール内。",
+    "description": "バンコク・Central Embassy内のMOGAヘアサロン。タイ初の日系サロンとして1992年創業のチェーン。Phloen Chit駅直結。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -2831,7 +2646,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "moga-chidlom",
@@ -2843,7 +2659,7 @@
     "lng": 100.5446,
     "phone": "+6622549135",
     "website": "http://www.moga.co.th/",
-    "description": "チットロムにある日系ヘアサロン。カット・カラー・パーマ・縮毛矯正・トリートメントを提供。日本の技術をベースにしたヘアスタイリングが特徴。",
+    "description": "チットロムのCentral Chidlom 4階にある日系ヘアサロン「MOGA」。1992年創業、カット・カラー・パーマ・縮毛矯正に対応。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -2860,7 +2676,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "moga-hair-salon-bangkok",
@@ -2870,7 +2687,7 @@
     "address": "2nd Floor, Siam Paragon, 991 Rama I Rd., Pathum Wan, Bangkok 10330",
     "phone": null,
     "website": "https://moga.co.th/en/",
-    "description": "1992年タイ初の日系ヘアサロンとして創業。Siam Paragon・EmQuartier・Central World・IconSiam等バンコク主要モールに展開。日本式技術を提供。",
+    "description": "1992年タイ初の日系ヘアサロンとして創業したMOGA。Siam Paragon・Central Embassy・EmQuartier・CentralWorld・IconSiam等に展開。日本式技術を提供。",
     "tags": [
       "日本語対応",
       "日本人スタイリスト",
@@ -2888,7 +2705,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "moga-paragon",
@@ -2900,7 +2718,7 @@
     "lng": 100.535,
     "phone": "+6626109627",
     "website": "https://moga.co.th/",
-    "description": "バンコク・Siam Paragon内の日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマに対応。Siam駅直結のショッピングモール内。",
+    "description": "バンコク・Siam Paragon内のMOGAヘアサロン。1992年創業の日系老舗チェーン、カット・カラー・パーマに対応。Siam駅直結。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -2917,36 +2735,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "nap-salon-by-sonia",
-    "name": "Nap Salon By Sonia",
-    "name_ja": "Nap サロン by ソニア",
-    "area": "Phuket",
-    "address": "262 29 Yaowarad Rd, Tambon Talat Yai, Amphoe Mueang Phuket, Chang Wat Phuket 83000, Thailand",
-    "lat": 7.903,
-    "lng": 98.3779,
-    "phone": "+66629725851",
-    "website": "https://www.facebook.com/Nap-Salon-By-Sonia-1789319164711624/",
-    "description": "プーケット・Yaowarad Road沿いの日系スタイルヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。",
-    "tags": [
-      "美容室",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 8:00 AM – 10:00 PM / Tuesday: 8:00 AM – 10:00 PM / Wednesday: Closed / Thursday: 8:00 AM – 10:00 PM / Friday: 8:00 AM – 10:00 PM / Saturday: 8:00 AM – 10:00 PM / Sunday: 8:00 AM – 10:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJg1x9hZYxUDARiVEInhObR7U",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "neve-hair-salon-phrom-phong",
@@ -2956,7 +2746,7 @@
     "address": "2nd Floor 595/3-4 Sukhumvit 33/1, Sukhumvit Rd, Klongton Nua, Watthana, Bangkok 10110",
     "phone": "+66902796900",
     "website": "https://neve-hair.com/",
-    "description": "BTSプロンポン駅から徒歩3分の日系美容院。フジスーパー近く、Watts向かいに位置。カット最終受付17:00、パーマ・カラー最終受付16:00。",
+    "description": "BTSプロンポン駅徒歩3分の日本人オーナー（松坂一男）経営の日系美容院neve。日本製品（Milbon・Arimino等）使用、日本語対応。フジスーパー近く。",
     "tags": [
       "日本語対応",
       "予約可",
@@ -2972,179 +2762,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "new-york-new-york-hair-studio",
-    "name": "New York New York Hair Studio",
-    "name_ja": "ニュー ヨーク ニュー ヨーク ヘア スタジオ",
-    "area": "Chiang Mai",
-    "address": "13 2 Nimmana Haeminda Rd Lane 13, Tambon Su Thep, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200, Thailand",
-    "lat": 18.7966,
-    "lng": 98.9681,
-    "phone": "+66894329333",
-    "website": "http://www.newyorknewyorkstudio.com/",
-    "description": "チェンマイ・ニマンヘミン Soi 13の日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。ニマンエリアに位置。",
-    "tags": [
-      "美容室",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 10:00 AM – 7:00 PM / Tuesday: 10:00 AM – 7:00 PM / Wednesday: 10:00 AM – 7:00 PM / Thursday: 10:00 AM – 7:00 PM / Friday: 10:00 AM – 7:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJmRR5iGI62jARfoBN72WFOZQ",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "newyork-aveda-phuket-hair-studio",
-    "name": "Newyork AVEDA Phuket Hair Studio",
-    "name_ja": "Newyork AVEDA プーケット ヘア スタジオ",
-    "area": "Phuket",
-    "address": "เลขที่ 19/1 -6 Thanon Bandon-Cherngtalay, Tambon Choeng Thale, Amphoe Thalang, Chang Wat Phuket 83110, Thailand",
-    "lat": 7.9918,
-    "lng": 98.305,
-    "phone": "+66922700133",
-    "website": "https://newyorknewyorkstudio.com/",
-    "description": "プーケット・Cherngtalayの日系スタイルヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマに対応。Bangtaoエリアに位置。",
-    "tags": [
-      "美容室",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 11:00 AM – 9:00 PM / Tuesday: 11:00 AM – 9:00 PM / Wednesday: 11:00 AM – 9:00 PM / Thursday: 11:00 AM – 9:00 PM / Friday: 11:00 AM – 9:00 PM / Saturday: 11:00 AM – 9:00 PM / Sunday: 11:00 AM – 9:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJXUd9dAA5UDARfTQoaH-BKhw",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "newyork-newyork-hairstudio-bangkok",
-    "name": "Newyork Newyork Hairstudio Bangkok",
-    "name_ja": "Newyork Newyork Hairstudio バンコク",
-    "area": "Bangkok",
-    "address": "23 1 Soi King Chamnan Aksorn, Phayathai Khet Phaya Thai, Krung Thep Maha Nakhon 10400, Thailand",
-    "lat": 13.7853,
-    "lng": 100.5426,
-    "phone": "+66612711333",
-    "website": "http://newyorknewyorkstudio.com/",
-    "description": "バンコク・Phaya Thai Road沿いの日系スタイルヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。Phaya Thaiエリア。",
-    "tags": [
-      "美容室",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: Closed / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJR8B9U8md4jARs8yHFojNn64",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "niche-salon-bangkok",
-    "name": "Niche Salon Bangkok",
-    "name_ja": "ニッチサロン バンコク",
-    "area": "Bangkok",
-    "address": "Bangkok, Thailand",
-    "phone": null,
-    "website": "https://nichesalonbangkok.com/",
-    "description": "ヘアサロン・ネイル・ワックス脱毛のフルサービスサロン。日本人スタイリストが在籍し、ヘアカット・カラー・パーマに加えてネイルアートやワックス脱毛にも対応。",
-    "tags": [
-      "日本語対応",
-      "ヘアサロン",
-      "ネイル",
-      "脱毛"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "website",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "niche-salon-bangkok-2",
-    "name": "Niche Salon Bangkok",
-    "name_ja": "ニッチ サロン バンコク",
-    "area": "Bangkok",
-    "address": "87/2 3d floor Unit China Resources Tower, 328 Thanon Witthayu, Khwaeng Lumphini, Pathum Wan, Krung Thep Maha Nakhon 10330, Thailand",
-    "lat": 13.7392,
-    "lng": 100.5478,
-    "phone": "+6626543993",
-    "website": "https://www.nichesalonbangkok.com/",
-    "description": "バンコク・Wireless Roadの日系スタイルヘアサロン。日本式技術で施術、カット・カラー・パーマ・トリートメントに対応。China Resources Tower内。",
-    "tags": [
-      "美容室",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 9:30 AM – 7:30 PM / Tuesday: 9:30 AM – 7:30 PM / Wednesday: 9:30 AM – 7:30 PM / Thursday: 9:30 AM – 7:30 PM / Friday: 9:30 AM – 7:30 PM / Saturday: 9:30 AM – 7:30 PM / Sunday: 9:30 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJJYdwot6e4jARwsyWST6ne5s",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "nisa-hair-beauty",
-    "name": "Nisa Hair Beauty (ร้านเสริมสวยนิสา แฮร์บิวตี้ ภูเก็ต)",
-    "name_ja": "ニサ ヘア ビューティー (รานเสรมสวยนสา แฮรบวต ภเกต)",
-    "area": "Phuket",
-    "address": "154/11, Phangnga Road, Talad Yai, Muang Phuket, Phuket 83000, Thailand",
-    "lat": 7.8827,
-    "lng": 98.3958,
-    "phone": null,
-    "website": "http://www.facebook.com/nisahairbeauty",
-    "description": "プーケット・Phangnga Road沿いの日系スタイルヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。",
-    "tags": [
-      "美容室",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 7:30 AM – 6:30 PM / Tuesday: 7:30 AM – 6:30 PM / Wednesday: 7:30 AM – 6:30 PM / Thursday: 7:30 AM – 6:30 PM / Friday: 7:30 AM – 6:30 PM / Saturday: 7:30 AM – 6:30 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJN_tWUfgxUDAR9yNvCV8CHQg",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nj-salon-by-noey",
@@ -3173,7 +2792,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "om-hair-spa-and-massage",
@@ -3185,7 +2805,7 @@
     "lng": 98.9829,
     "phone": "+66986693764",
     "website": "https://omspachiangmai.my.canva.site/",
-    "description": "チェンマイ・Wua Lai Road沿いの日系ヘアサロン＆スパ。日本人スタイリスト在籍、カット・カラー・ヘッドスパに対応。",
+    "description": "チェンマイ・Wua Lai Road沿いのヘアサロン＆スパ。ヴィーガンオーガニック製品使用、カット・カラー・ヘッドスパに対応。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -3202,7 +2822,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "on-pitt-st-hair-studio",
@@ -3214,7 +2835,7 @@
     "lng": 98.9678,
     "phone": "+66634696696",
     "website": "https://1678hairstudiocafe.com/",
-    "description": "チェンマイ・ニマンヘミン Soi 9の日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。ニマンエリアに位置。",
+    "description": "チェンマイ・ニマンヘミン Soi 9のヘアサロン。カット・カラーに対応、ニマンエリアに位置。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -3231,36 +2852,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "origene-clinic",
-    "name": "Origene Clinic",
-    "name_ja": "オリゲネ クリニック",
-    "area": "Pattaya",
-    "address": "44/287 หมู่ที่12(Moo12 หนองปรือ(Nongpure บางละมุง, Muang Pattaya, Banglamung, Chang Wat Chon Buri 20150, Thailand",
-    "lat": 12.8969,
-    "lng": 100.8743,
-    "phone": "+66659989449",
-    "website": "https://www.origeneclinicpattaya.com/",
-    "description": "パタヤ・Nongpure地区の日系スタイルクリニック。日本語対応可能、フェイシャルケア・スキンケア・美容施術に対応。日本人在住者も多く利用。",
-    "tags": [
-      "美容室",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 10:00 AM – 7:00 PM / Tuesday: 10:00 AM – 7:00 PM / Wednesday: 10:00 AM – 7:00 PM / Thursday: 10:00 AM – 7:00 PM / Friday: 10:00 AM – 7:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJqT1sppyVAjEREzOUeF67mxs",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "perfect-41",
@@ -3289,7 +2882,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "posh-salon-hair-salon-sukhumvit31",
@@ -3301,7 +2895,7 @@
     "lng": 100.5663,
     "phone": "+66855511161",
     "website": "http://www.facebook.com/poshsalonbangkok",
-    "description": "スクンビット31の日系ヘアサロン。カット・カラー・パーマ・トリートメントを提供し、日本人スタイリストまたは日本式技術で施術",
+    "description": "スクンビット31の日本製品使用ヘアサロン。日本式の施術経験者が在籍、カット・カラー・トリートメント・ネイル・まつげに対応。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -3318,7 +2912,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "rad-soi23-soi",
@@ -3330,7 +2925,7 @@
     "lng": 100.5656,
     "phone": "+66925965550",
     "website": null,
-    "description": "スクンビットソイ23の日系ヘアサロン。カット・カラー・パーマ・トリートメントを提供し、日本式の丁寧なカウンセリングと施術が特徴",
+    "description": "スクンビットソイ23（現在はソイ29）の日系ヘアサロン。カット・カラー・パーマ・トリートメントを提供。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -3347,7 +2942,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "rapi-rabi-chiangmai",
@@ -3359,7 +2955,7 @@
     "lng": 98.9679,
     "phone": "+6652082901",
     "website": "http://www.rapirabicolor.com/th",
-    "description": "チェンマイ・ニマンヘミン・One Nimman内の日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。",
+    "description": "チェンマイ・One Nimman内のヘアカラー専門日系サロン。日本製有機カラー剤600色以上を使用。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -3376,7 +2972,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "rapi-rabi-ploenchit",
@@ -3388,7 +2985,7 @@
     "lng": 100.5491,
     "phone": "+6620402199",
     "website": "https://rapirabicolor.com/th/",
-    "description": "バンコク・Phloen Chit・Mahatun Plaza内の日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマに対応。Phloen Chit駅から徒歩圏内。",
+    "description": "バンコク・Phloen Chit・Mahatun Plaza内のRapi-rabi。ヘアカラー専門日系サロン、ダメージレスカラーが特徴。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -3405,7 +3002,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "rapi-rabi-siam",
@@ -3417,7 +3015,7 @@
     "lng": 100.5321,
     "phone": "+6620465540",
     "website": "https://rapirabicolor.com/th/",
-    "description": "バンコク・Siam Square Soi 2・3階の日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマに対応。Siam駅から徒歩圏内。",
+    "description": "バンコク・Siam Square Soi 2・3階のRapi-rabi。ヘアカラー専門日系サロン、Siam駅から徒歩圏内。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -3434,7 +3032,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "rapi-rabi-thonglor",
@@ -3446,7 +3045,7 @@
     "lng": 100.5785,
     "phone": "+6620342877",
     "website": "https://rapirabicolor.com/th/",
-    "description": "スクンビットソイ53の日系ヘアサロン。カット・カラー・パーマ・トリートメントを提供し、日本式の丁寧なカウンセリングと施術が特徴",
+    "description": "スクンビットソイ53のRapi-rabi Thonglor店。ヘアカラー専門日系サロン、ダメージレスな日本品質カラーを提供。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -3463,7 +3062,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "rapirabi-asoke",
@@ -3473,7 +3073,7 @@
     "address": "Sukhumvit Soi 21, Khlong Toei Nuea, Watthana, Bangkok 10110",
     "phone": null,
     "website": "https://rapirabicolor.com/en/",
-    "description": "ヘアカラー専門の日系サロンのアソーク店。BTSアソーク駅・MRTスクンビット駅近く。ダメージレスカラーと手頃な価格が魅力。",
+    "description": "ヘアカラー専門日系サロンRapi-rabiのアソーク店。BTSアソーク・MRTスクンビット駅近く。日本製有機カラー剤を使用。",
     "tags": [
       "カラー専門",
       "リーズナブル",
@@ -3489,7 +3089,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "rapirabi-phrom-phong",
@@ -3499,7 +3100,7 @@
     "address": "Sukhumvit Soi 33/1, Khlong Tan Nuea, Watthana, Bangkok 10110",
     "phone": null,
     "website": "https://rapirabicolor.com/en/",
-    "description": "ヘアカラー専門の日系サロンのプロンポン店。BTSプロンポン駅から徒歩圏内。ダメージレスカラーが特徴で、日本品質のヘアカラーをリーズナブルな価格で提供。",
+    "description": "ヘアカラー専門日系サロンRapi-rabiのプロンポン店。BTSプロンポン駅徒歩圏内。ダメージレスカラーが特徴。",
     "tags": [
       "カラー専門",
       "リーズナブル",
@@ -3515,7 +3116,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "rapirabi-silom",
@@ -3525,7 +3127,7 @@
     "address": "35 Soi Phipat 2, Silom, Bangrak, Bangkok 10500",
     "phone": "+6620753388",
     "website": "https://rapirabicolor.com/en/stores/rapi-rabi-silom/",
-    "description": "ヘアカラー専門の日系サロン。プロンポン・アソークにも店舗を展開。ダメージレスカラーが特徴で、リーズナブルな価格で日本品質のヘアカラーが受けられると日本人・タイ人に人気。",
+    "description": "ヘアカラー専門日系サロンRapi-rabiのシーロム店。タイ初の日系カラー専門店チェーン、全店舗で日本製有機カラー剤使用。",
     "tags": [
       "カラー専門",
       "リーズナブル",
@@ -3541,7 +3143,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "rio-hair-design",
@@ -3570,7 +3173,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "rossa-hair-by-runway",
@@ -3582,7 +3186,7 @@
     "lng": 100.5721,
     "phone": "+66855566221",
     "website": "https://beautybkk.net/rossa-hair",
-    "description": "バンコク・スクンビット39・The Manor内の日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。",
+    "description": "バンコク・スクンビット39・The Manor内の日本人経営ヘアサロン「rossa hair by RUNWAY」。日本製薬剤使用、ショート・ボブが得意。カット・カラー・ストレートパーマに対応。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -3599,7 +3203,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "s-by-halela-bangkok",
@@ -3609,7 +3214,7 @@
     "address": "PS Tower, 36/6 Asok Montri Rd., Khlong Toei Nuea, Wattana, Bangkok 10110",
     "phone": "+66803954831",
     "website": null,
-    "description": "アソーク・PS Towerにある日系ヘアサロン（S Japanese HAIR SALON）。カット・カラーに対応。",
+    "description": "バンコク・アソーク近くの日系ヘアサロン「S. by HaLe'L.A」。シャンプーソムリエ在籍、日本の複数店舗ブランドのバンコク店。",
     "tags": [
       "日本語対応",
       "日本人スタイリスト"
@@ -3624,7 +3229,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "s-hair",
@@ -3636,7 +3242,7 @@
     "lng": 100.5625,
     "phone": "+66803954831",
     "website": "https://www.facebook.com/S-Japanese-HAIR-SALON-108000097476516/",
-    "description": "バンコク・アソーク・P.S. Tower内の日系美容室。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。Asok駅から徒歩圏内。",
+    "description": "バンコク・アソーク・P.S. Tower内の日系美容室「S. hair」。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。BTSアソーク駅から徒歩圏内。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -3653,7 +3259,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "salty-studio-by-eye-candy-tokyo",
@@ -3665,7 +3272,7 @@
     "lng": 98.3885,
     "phone": "+66954201360",
     "website": "https://www.facebook.com/saltystudio.phuket?mibextid=LQQJ4d",
-    "description": "プーケット・Ratsada・東京の「Eye Candy Tokyo」プロデュースの日系スタイルサロン。日本式技術でヘア・ネイル・まつげに対応。",
+    "description": "プーケット・Ratsada・東京「Eye Candy Tokyo」プロデュースの日系サロン。まつげエクステ・ネイル・ワックス脱毛に対応。日本式技術とデザイン感覚が特徴。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -3682,7 +3289,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "samurai-hairsalon",
@@ -3694,7 +3302,7 @@
     "lng": 100.5719,
     "phone": "+66639820003",
     "website": "https://lin.ee/HoE9m64",
-    "description": "スクンビット39の日系ヘアサロン。カット・カラー・パーマ・トリートメントを提供し、日本人スタイリストまたは日本式技術で施術",
+    "description": "スクンビット39のShiro Color Loungeに併設する日系メンズ専用バーバーショップ「侍」。日本人スタイリスト在籍、メンズカット・カラーに特化。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -3711,7 +3319,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sanae-japanese-hair-design",
@@ -3723,7 +3332,7 @@
     "lng": 98.9757,
     "phone": "+66922999164",
     "website": "https://www.facebook.com/share/UE5r6dsHiKkf1eaC/",
-    "description": "チェンマイ・Chang Phueak地区の日系ヘアデザインサロン。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。",
+    "description": "チェンマイ・Chang Phueak地区の日本式ヘアデザインサロン。日本の美容学校出身・17年以上のキャリアを持つスタイリスト在籍、カット・カラー・パーマに対応。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -3740,36 +3349,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sansuk-sanctuary-massage-patong",
-    "name": "Sansuk Sanctuary Massage Patong",
-    "name_ja": "サンスク サンクチュアリ マッサージ パトン",
-    "area": "Phuket",
-    "address": "171/55 Rat-u-thit 200 Pee Road, ตำบลป่าตอง อำเภอกะทู้ ภูเก็ต 83150, Thailand",
-    "lat": 7.8913,
-    "lng": 98.2979,
-    "phone": "+66855711356",
-    "website": "https://www.facebook.com/Sansuk-massage-103714728981258/",
-    "description": "プーケット・Patong・Rat-u-thit Road沿いのマッサージ＆ビューティーサロン。日本語対応可能、ヘッドスパ・マッサージ・ヘアカットに対応。",
-    "tags": [
-      "美容室",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 10:00 AM – 2:00 AM / Tuesday: 10:00 AM – 2:00 AM / Wednesday: 10:00 AM – 2:00 AM / Thursday: 10:00 AM – 3:00 AM / Friday: 10:00 AM – 3:00 AM / Saturday: 10:00 AM – 3:00 AM / Sunday: 10:00 AM – 3:00 AM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJwcLS1jI7UDARIZSptIc_WZk",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shin-by-akiendo-hair-salon-ari-branch",
@@ -3781,7 +3362,7 @@
     "lng": 100.5438,
     "phone": "+66996280016",
     "website": "https://aki-endo.com/",
-    "description": "バンコク・アリエリア・Vanit Village内の日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。BTSアリ駅近く。",
+    "description": "バンコク・アリエリア・Vanit Village内の日系ヘアサロン「SHIN by AKIENDO」。日本人スタイリスト在籍、カット・カラー・パーマ・パーソナルカラー診断に対応。BTSアリ駅近く。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -3798,7 +3379,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shiro-color-lounge",
@@ -3810,7 +3392,7 @@
     "lng": 100.5722,
     "phone": "+66909523420",
     "website": "https://shirohairbangkok.amebaownd.com/",
-    "description": "スクンビット39の日系ヘアサロン。カット・カラー・パーマ・トリートメントを提供し、日本式の丁寧なカウンセリングと施術が特徴",
+    "description": "スクンビット39の日系ヘアサロン「Shiro Color Lounge」。日本人カウンセラーによるヘアカラー・ヘッドスパ・トリートメント専門。肌トーンに合わせたパーソナルカラー提案が特徴。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -3827,7 +3409,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shizen-chiangmai",
@@ -3839,7 +3422,7 @@
     "lng": 98.9527,
     "phone": "+66958692406",
     "website": "http://www.facebook.com/shizen.chiangmai",
-    "description": "チェンマイ・Su Thep地区の日系ヘアサロン「SHIZEN」。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。",
+    "description": "チェンマイ・Su Thep地区の日系スタイルヘアサロン「SHIZEN」。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。要予約。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -3856,94 +3439,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "shorty-mode-hair-salon",
-    "name": "Shorty Mode hair salon",
-    "name_ja": "Shorty モード ヘア サロン",
-    "area": "Sriracha",
-    "address": "2nd Floor)No. 8, The Horizon, Thanon Ekkamai, Khwaeng Khlong Tan Nuea, Watthana, Krung Thep Maha Nakhon 10110, Thailand",
-    "lat": 13.7213,
-    "lng": 100.585,
-    "phone": "+66961852393",
-    "website": "https://www.instagram.com/shortymode_hairsalon?igsh=Z2pqa3V0aW14a3Bi&utm_source=qr",
-    "description": "バンコク・エカマイ・The Horizon 2階の日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。",
-    "tags": [
-      "美容室",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 9:00 AM – 7:00 PM / Tuesday: 9:00 AM – 7:00 PM / Wednesday: 9:00 AM – 7:00 PM / Thursday: 9:00 AM – 7:00 PM / Friday: 9:00 AM – 7:00 PM / Saturday: 9:00 AM – 7:00 PM / Sunday: 9:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJicM5XwCf4jAR-qF0FFh_gYk",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "signature-salon-and-spa-the-beauty-destination",
-    "name": "Signature Salon & Spa - The beauty destination",
-    "name_ja": "シグネチャー サロン & スパ - ザ ビューティー デスチナチオン",
-    "area": "Pattaya",
-    "address": "8, Little Walk Pattaya, เมืองพัทยา อำเภอบางละมุง ชลบุรี 20150, Thailand",
-    "lat": 12.9358,
-    "lng": 100.9038,
-    "phone": "+66634631999",
-    "website": "https://www.signature-thebeautydestination.com/",
-    "description": "パタヤ・Little Walk内のビューティーサロン＆スパ。日本語対応可能、ヘアカット・カラー・スパ・マッサージに対応。",
-    "tags": [
-      "美容室",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 9:00 AM – 9:00 PM / Tuesday: 9:00 AM – 9:00 PM / Wednesday: 9:00 AM – 9:00 PM / Thursday: 9:00 AM – 9:00 PM / Friday: 9:00 AM – 9:00 PM / Saturday: 9:00 AM – 9:00 PM / Sunday: 9:00 AM – 9:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJGY93B0-VAjERZPcsBH5gj1o",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sleek-chic-cuts",
-    "name": "Sleek Chic Cuts",
-    "name_ja": "Sleek シック カットズ",
-    "area": "Chiang Mai",
-    "address": "12 Jhaban Rd, Tambon Si Phum, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200, Thailand",
-    "lat": 18.7871,
-    "lng": 98.9851,
-    "phone": "+66917166646",
-    "website": "https://sites.google.com/view/sleekchiccuts",
-    "description": "チェンマイ・Jhaban Road沿いの日系スタイルヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。",
-    "tags": [
-      "美容室",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 10:00 AM – 7:30 PM / Tuesday: 10:00 AM – 7:30 PM / Wednesday: 10:00 AM – 7:30 PM / Thursday: 10:00 AM – 7:30 PM / Friday: 10:00 AM – 7:30 PM / Saturday: 10:00 AM – 7:30 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJlUbmEZ062jARc4eUY_Slx58",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "spa-and-hair-lilac-by-106hair",
@@ -3955,7 +3452,7 @@
     "lng": 100.5799,
     "phone": "+6620428385",
     "website": "https://lilachokkaido.com/",
-    "description": "トンローソイ5の日系ヘアサロン&スパ（106Hairグループ）。日本人スタイリスト在籍、カット・カラー・ヘッドスパに対応。BTSトンロー駅から徒歩圏内。",
+    "description": "トンローソイ5の日系ヘアサロン&スパ「Spa & Hair LiLAC by 106Hair」。日本人スタイリスト在籍、カット・カラー・ヘッドスパに対応。BTSトンロー駅から徒歩圏内。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -3972,36 +3469,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "special-by-hajin",
-    "name": "Special by Hajin",
-    "name_ja": "スペシャル by ハジン",
-    "area": "Pattaya",
-    "address": "1588, Officepark Bangna, 11 Bangna-Trad Road, แขวงบางนาใต้ เขตบางนา กรุงเทพมหานคร 10260, Thailand",
-    "lat": 13.6644,
-    "lng": 100.6382,
-    "phone": "+66955259052",
-    "website": "http://www.facebook.com/specialbyhajin/",
-    "description": "バンコク・Bangna・Officepark内の日系スタイルヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。",
-    "tags": [
-      "美容室",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 10:00 AM – 7:30 PM / Tuesday: 10:00 AM – 7:30 PM / Wednesday: 10:00 AM – 7:30 PM / Thursday: 10:00 AM – 7:30 PM / Friday: 10:00 AM – 7:30 PM / Saturday: 10:00 AM – 7:30 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJqUxeZ-Se4jARwPEznXVPpCc",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "spica-hair-design",
@@ -4013,7 +3482,7 @@
     "lng": 100.5706,
     "phone": "+66918087141",
     "website": null,
-    "description": "バンコク・Watthanaエリアの日系ヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。トンロー周辺に位置。",
+    "description": "バンコク・Watthana（スクンビット39周辺）の日系ヘアサロン。日本語・英語対応、日本製品使用のカット・カラー・パーマ・トリートメントに対応。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -4030,7 +3499,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "style-barber-shop",
@@ -4059,36 +3529,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "t-gardens-texas-houston-hair-salon",
-    "name": "T-Gardens Texas Houston Hair Salon",
-    "name_ja": "T-ガーデンズ Texas ヒューストン ヘア サロン",
-    "area": "Phuket",
-    "address": "9660 Katy Fwy suite 304, Houston, TX 77055, USA",
-    "lat": 29.7868,
-    "lng": -95.5308,
-    "phone": "+17138512516",
-    "website": "https://t-gardens.com/houston-branch/",
-    "description": "日本人スタイリストが在籍する日系ヘアサロン。日本式のカット・カラー・パーマ技術を提供。日本語での予約・カウンセリング対応。",
-    "tags": [
-      "美容室",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 10:00 AM – 7:00 PM / Tuesday: Closed / Wednesday: 10:00 AM – 7:00 PM / Thursday: 10:00 AM – 7:00 PM / Friday: 10:00 AM – 7:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 AM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJI2Gk_0MhQYYRlqTJ8FDP1mg",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ta-beauty-space-bangtao",
@@ -4100,7 +3542,7 @@
     "lng": 98.3033,
     "phone": "+66935833380",
     "website": "http://tabeautyspace.com/bangtao",
-    "description": "プーケット・Bangtao・Si Sunthon Road沿いの日系ビューティーサロン。日本語対応可能、ヘアカット・カラー・スキンケアに対応。",
+    "description": "プーケット・Bangtao・Si Sunthon Road沿いのTA Beauty Spaceサロン。ネイル・ヘア・まつげ・脱毛・スキンケアに対応。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -4117,7 +3559,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ta-beauty-space-kata",
@@ -4129,7 +3572,7 @@
     "lng": 98.3003,
     "phone": "+66943560901",
     "website": "http://tabeautyspace.com/kata",
-    "description": "プーケット・Kata・Karon Road沿いの日系ビューティーサロン。日本語対応可能、ヘアカット・カラー・スキンケアに対応。",
+    "description": "プーケット・Kata・Karon Road沿いのTA Beauty Spaceサロン。ネイル・ヘア・まつげ・脱毛・スキンケアに対応。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -4146,7 +3589,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tamtam-shortandbob-only-ekkamai",
@@ -4158,7 +3602,7 @@
     "lng": 100.588,
     "phone": "+66800150245",
     "website": "https://www.tamhair.net/",
-    "description": "バンコク・エカマイソイ21の日系ショートボブ専門ヘアサロン。日本人スタイリスト在籍、ショート・ボブ特化のカット・カラーを提供。",
+    "description": "バンコク・エカマイソイ21の日系ショートボブ専門ヘアサロン「tamtam」。オーナー田村賢治氏が担当。ショート・ボブ特化のカット・カラーに対応。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -4175,7 +3619,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tanainan-salon-japaneseandthai-style",
@@ -4187,7 +3632,7 @@
     "lng": 100.5805,
     "phone": "+66945266595",
     "website": null,
-    "description": "バンコク・トンロー・Fifty-Fifth Plaza 2階の日本式＆タイスタイルヘアサロン。カット・カラー・パーマ・トリートメントに対応。BTS トンロー駅近く。",
+    "description": "バンコク・トンロー・Fifty-Fifth Plaza 2階の日本式＆タイスタイルヘアサロン「タナイナン」。客の8割が日本人、オーナーが日本語対応可能。BTSトンロー駅近く。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -4204,7 +3649,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tanda-nails-studio",
@@ -4216,7 +3662,7 @@
     "lng": 98.3347,
     "phone": "+66951033535",
     "website": "http://tabeautyspace.com/chalong",
-    "description": "プーケット・Chalong地区の日系スタイルネイルスタジオ。日本式技術でネイルケア・ネイルアート・まつげエクステに対応。",
+    "description": "プーケット・Chalong地区のTA Beauty Spaceのネイルスタジオ。ジェルネイル・ネイルアート・まつげエクステに対応。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -4233,7 +3679,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tatemono-barber-and-salon",
@@ -4245,7 +3692,7 @@
     "lng": 100.5754,
     "phone": "+66829389359",
     "website": "https://msha.ke/tatemonobarbersalon",
-    "description": "スクンビット49の日系バーバーショップ。日本人スタイリスト在籍、メンズカット・シェービング・ヘッドスパに対応。日本式の丁寧な施術が特徴。",
+    "description": "スクンビット49の日系バーバー&サロン「Tatemono」。日本式ミニマルインテリアで、3カ国語対応スタッフが在籍。メンズカット・シェービング・ヘッドスパに対応。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -4262,65 +3709,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "the-elegance-salon-phuket-naka",
-    "name": "The Elegance Salon Phuket Naka สาขานาคา",
-    "name_ja": "The Elegance サロン プーケット ナカ สาขานาคา",
-    "area": "Phuket",
-    "address": "26, Subdistrict, 648 Thanon Wirat Hong Yok, Tambon Wichit, Amphoe Mueang Phuket, Chang Wat Phuket 83000, Thailand",
-    "lat": 7.8809,
-    "lng": 98.3689,
-    "phone": "+66935619194",
-    "website": "https://lin.ee/SmnLGOU",
-    "description": "プーケット・Wichit・Naka地区の日系スタイルヘアサロン。日本人スタイリスト在籍、カット・カラー・パーマ・トリートメントに対応。",
-    "tags": [
-      "美容室",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 10:00 AM – 9:00 PM / Tuesday: 10:00 AM – 9:00 PM / Wednesday: 10:00 AM – 9:00 PM / Thursday: 10:00 AM – 9:00 PM / Friday: 10:00 AM – 9:00 PM / Saturday: 10:00 AM – 9:00 PM / Sunday: 10:00 AM – 9:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJ2yrt50ExUDARFDfWcZTU-YM",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "the-hills-salon-healthy-organic",
-    "name": "The Hills Salon - Healthy, Organic",
-    "name_ja": "ザ ヒルズ サロン - ヘルシー, オーガニック",
-    "area": "Bangkok",
-    "address": "5, 5 Sukhumvit 49, Kloengtan Nheur, Watthana, Krung Thep Maha Nakhon 10110, Thailand",
-    "lat": 13.7279,
-    "lng": 100.5753,
-    "phone": "+66850000557",
-    "website": "http://www.thehillsbkk.com/",
-    "description": "スクンビット49の日系ヘアサロン。カット・カラー・パーマ・トリートメントを提供し、日本人スタイリストまたは日本式技術で施術",
-    "tags": [
-      "美容室",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 10:30 AM – 8:30 PM / Tuesday: 10:30 AM – 8:30 PM / Wednesday: 10:30 AM – 8:30 PM / Thursday: 10:30 AM – 8:30 PM / Friday: 10:30 AM – 8:30 PM / Saturday: 10:30 AM – 8:30 PM / Sunday: 10:30 AM – 8:30 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJf-gxDZuf4jARV_mqO5BXTSg",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tokyo-beauty-anusawari",
@@ -4332,7 +3722,7 @@
     "lng": 100.5379,
     "phone": "+66837872484",
     "website": "https://www.tokyobeauty.asia/",
-    "description": "バンコク・Ratchathewi・Phaya Thai Road沿いの日系ビューティーサロン。ヘアカット・カラー・エステ・ネイルに対応。日本語対応可能。",
+    "description": "バンコク・Anusawariの日本式IPL脱毛サロン「Tokyo Beauty」。日本式の機器・技術でメンズ・レディース脱毛に対応。日本語・タイ語対応。",
     "tags": [
       "美容室",
       "日本人スタイリスト"
@@ -4349,7 +3739,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "uru-salon-sukhumvit43",
@@ -4359,7 +3750,7 @@
     "address": "11/3 Soi Sukhumvit 43, Bangkok",
     "phone": "+66800049066",
     "website": "https://uru-salon.com/",
-    "description": "スクンビットソイ43にある日系ヘアサロン。「ヘアクリニック」をコンセプトに、髪のダメージや悩みに寄り添った施術を提供。LINE(@urusalon)または電話で予約可能。現金のみ。",
+    "description": "スクンビット43の日系ヘアサロン「URU SALON」。「ヘアクリニック」コンセプトで髪の悩みに特化した施術を提供。LINE(@urusalon)・電話で予約可、現金のみ。",
     "tags": [
       "日本語対応",
       "予約可",
@@ -4375,7 +3766,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "veranda-hair",
@@ -4404,7 +3796,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yams-sukhumvit49",
@@ -4414,7 +3807,7 @@
     "address": "2F, Prime Mansion, Soi Sukhumvit 49/11, Khlong Tan Nuea, Watthana, Bangkok 10110",
     "phone": "+6621634973",
     "website": "https://yamshair.com/",
-    "description": "「親子で通える」がコンセプトの日系美容院。キッズスペース・授乳スペース完備で、専任ベビーシッターも常駐。子連れのお母さんが安心してヘアケアを受けられる環境が整っている。ヘッドスパも好評。",
+    "description": "「親子で通える」がコンセプトのスクンビット49の日系美容院「YAMS Hair & Cafe」。キッズスペース・授乳室・専任ベビーシッター完備。ヘッドスパも好評。",
     "tags": [
       "日本語対応",
       "予約可",
@@ -4431,64 +3824,7 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "zahara-hair-salon-bangkok",
-    "name": "Zahara Hair Salon Bangkok",
-    "name_ja": "ザハラ ヘア サロン バンコク",
-    "area": "Bangkok",
-    "address": "888 Thanon Phloen Chit, Khwaeng Lumphini, Pathum Wan, Krung Thep Maha Nakhon 10330, Thailand",
-    "lat": 13.7424,
-    "lng": 100.5492,
-    "phone": "+66618452133",
-    "website": "http://www.zaharasalonbangkok.com/",
-    "description": "バンコク・Central Embassyそばの日系スタイルヘアサロン。日本式技術で施術、カット・カラー・パーマ・トリートメントに対応。Phloen Chit沿いに位置。",
-    "tags": [
-      "美容室",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: Closed / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 8:00 PM / Sunday: 10:00 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJmSohneae4jARZsCJq_RYf5g",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "zense-spa-and-hair-salon",
-    "name": "Zense Spa & Hair Salon",
-    "name_ja": "ゼンセ スパ & ヘア サロン",
-    "area": "Phuket",
-    "address": "53/25 Moo5 Soi Bann Nai Trok, Chaofa Nok Rd Tambon Chalong, Amphoe Mueang Phuket, Chang Wat Phuket 83130, Thailand",
-    "lat": 7.8663,
-    "lng": 98.3306,
-    "phone": "+6676521333",
-    "website": "http://www.villazolitude.com/spa",
-    "description": "プーケット・Chalong地区のスパ＆ヘアサロン。日本語対応可能、カット・カラー・スパ・マッサージに対応。日本人在住者にも利用されている。",
-    "tags": [
-      "美容室",
-      "日本人スタイリスト"
-    ],
-    "hours": "Monday: 9:30 AM – 5:00 PM / Tuesday: 9:30 AM – 5:00 PM / Wednesday: 9:30 AM – 5:00 PM / Thursday: 9:30 AM – 5:00 PM / Friday: 9:30 AM – 5:00 PM / Saturday: 9:30 AM – 5:00 PM / Sunday: 9:30 AM – 5:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJXyHTWlkvUDARP8VfLLQuvT8",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   }
 ]
