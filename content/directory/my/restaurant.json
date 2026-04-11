@@ -7743,7 +7743,7 @@
     "lng": 103.7696,
     "phone": null,
     "website": null,
-    "description": "ジョホールバルにある「樱 Izakaya」の居酒屋。和食の一品料理と豊富なドリンクを落ち着いた雰囲気で楽しめる。在住日本人に親しまれている。",
+    "description": "ジョホールバルのR&F Marina Placeにある居酒屋。和食の一品料理と豊富なドリンクを落ち着いた雰囲気で楽しめる。在住日本人にも親しまれている。",
     "tags": [
       "居酒屋",
       "和食"
@@ -7760,19 +7760,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "izakaya-abe-sukiyaki-and-shabu-shabu",
     "name": "阿部 IZAKAYA ABE Sukiyaki & Shabu Shabu",
     "name_ja": "すき家",
     "area": "Johor Bahru",
-    "address": "〒238841, Orchard Rd, 150号, Orchard Plaza, #01-27/28",
+    "address": "Johor Bahru, Johor, Malaysia",
     "lat": 1.3012,
     "lng": 103.8412,
     "phone": "+6598684579",
     "website": "https://linktr.ee/izakayaabe",
-    "description": "マレーシア・ジョホールバルにある日本式居酒屋。刺身・焼き鳥・揚げ物などの一品料理と日本酒・ビールを提供。カジュアルに楽しめる店舗。",
+    "description": "ジョホールバルにある日本式居酒屋。すき焼き・しゃぶしゃぶ・刺身・焼き鳥など幅広いメニューを提供。カジュアルに楽しめる雰囲気。",
     "tags": [
       "居酒屋",
       "和食"
@@ -7789,46 +7790,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "izakaya-and-grilled-hatyai",
-    "name": "เนื้อล้วนล้วน Izakaya & Grilled Hatyai",
-    "name_ja": "เนอลวนลวน 居酒屋 & グリルド Hatyai",
-    "area": "Penang",
-    "address": "448 Supasarnrangsan Rd, Tambon Hat Yai, Amphoe Hat Yai, Chang Wat Songkhla 90110, Thailand",
-    "lat": 7.0087,
-    "lng": 100.4861,
-    "phone": "+66838369493",
-    "website": null,
-    "description": "ペナンにあるグリル料理が充実した日本式居酒屋。各種グリル料理と日本酒・ビールをカジュアルに楽しめる。タイ南部料理との融合も楽しめる。",
-    "tags": [
-      "居酒屋",
-      "和食"
-    ],
-    "hours": "Monday: 2:00 – 11:00 PM / Tuesday: 2:00 – 11:00 PM / Wednesday: Closed / Thursday: 2:00 – 11:00 PM / Friday: 2:00 – 11:00 PM / Saturday: 2:00 – 11:00 PM / Sunday: 2:00 – 11:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJFzk2bBwpTTARUGAtaAyLHVU",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "izakaya-group-kl",
     "name": "Izakaya Group",
     "name_ja": "イザカヤグループ",
     "area": "Petaling Jaya",
-    "address": "Petaling Jaya, Selangor",
+    "address": "Multiple locations in Kuala Lumpur and Petaling Jaya, Selangor",
     "phone": null,
     "website": "https://izakayagroup.com/",
-    "description": "2017年からKL・PJ周辺で複数の居酒屋ブランドを展開するグループ。焼き鳥・ラーメン・おでんなど各業態の専門居酒屋を運営。",
+    "description": "2017年からKL・PJ・ブキッビンタンで複数の居酒屋ブランドを展開するグループ。焼き鳥・おでん・刺身など本格的な居酒屋料理を日本人シェフが提供。",
     "tags": [
       "居酒屋",
       "グループ",
@@ -7844,17 +7817,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "izakaya-hana-penang",
     "name": "Izakaya Hana Penang",
     "name_ja": "居酒屋 ハナ ペナン",
     "area": "Penang",
-    "address": "George Town, Penang",
+    "address": "George Town, Penang, Malaysia",
     "phone": null,
     "website": null,
-    "description": "ペナン・ジョージタウンにある焼き鳥メインの居酒屋「Izakaya Hana」。炭火焼きの串焼きを中心とした一品料理と豊富なドリンクが揃い、在ペナン日本人や観光客にも利用されている。",
+    "description": "ペナン・ジョージタウンにある焼き鳥中心の日本式居酒屋。炭火焼き串焼きと豊富なドリンクが揃い、在ペナン日本人や日本食ファンが集まる。",
     "tags": [
       "居酒屋",
       "焼鳥"
@@ -7869,17 +7843,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "izakaya-hana-pj",
     "name": "Izakaya Hana",
     "name_ja": "居酒屋 ハナ",
     "area": "Petaling Jaya",
-    "address": "Petaling Jaya, Selangor",
+    "address": "Petaling Jaya, Selangor, Malaysia",
     "phone": null,
     "website": null,
-    "description": "ペタリンジャヤにある日本式居酒屋。焼き鳥・刺身・鍋物を中心に提供。アットホームな雰囲気で地元の日本人コミュニティにも親しまれている。",
+    "description": "ペタリンジャヤにある日本式居酒屋。焼き鳥・刺身・鍋物を中心に提供するアットホームな店で、地元の日本人コミュニティに親しまれている。",
     "tags": [
       "居酒屋",
       "焼き鳥",
@@ -7896,7 +7871,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "izakaya-hi",
@@ -8507,10 +8483,10 @@
     "name": "Izakaya Yuki Penang",
     "name_ja": "居酒屋 ユキ ペナン",
     "area": "Penang",
-    "address": "George Town, Penang",
+    "address": "George Town, Penang, Malaysia",
     "phone": null,
     "website": null,
-    "description": "ペナン・ジョージタウンにある焼き鳥メインの居酒屋「Izakaya Yuki」。炭火焼きの串焼きを中心とした一品料理と豊富なドリンクが揃い、在ペナン日本人にも親しまれている。",
+    "description": "ペナン・ジョージタウンにある焼き鳥中心の日本式居酒屋。炭火焼き串焼きと各種ドリンクを提供し、在ペナン日本人にも利用されている。",
     "tags": [
       "居酒屋",
       "焼鳥"
@@ -8525,17 +8501,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "izakaya-zento-subang",
     "name": "Izakaya Zento",
     "name_ja": "居酒屋 ゼント",
     "area": "Subang Jaya",
-    "address": "SS15, Subang Jaya, Selangor",
+    "address": "SS15, Subang Jaya, Selangor, Malaysia",
     "phone": null,
     "website": null,
-    "description": "スバンジャヤSS15にある日本式居酒屋。焼き鳥・寿司・刺身・揚げ物を中心に提供。日本食好きの地元客や在住日本人に親しまれているカジュアルな空間。",
+    "description": "スバンジャヤSS15にある日本式居酒屋。焼き鳥・寿司・刺身・揚げ物を提供するカジュアルな空間。在住日本人と日本食ファンに支持されている。",
     "tags": [
       "居酒屋",
       "焼き鳥",
@@ -8552,33 +8529,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "izakaya-zento-subang-bar",
-    "name": "Izakaya Zento Subang",
-    "name_ja": "居酒屋 ゼント スバン",
-    "area": "Subang Jaya",
-    "address": "Subang Jaya, Selangor",
-    "phone": null,
-    "website": null,
-    "description": "スバンジャヤにある日本式居酒屋。焼鳥・刺身・日本酒を提供するカジュアルな店舗。仕事帰りの一杯に使いやすく、在住日本人にも利用されている。",
-    "tags": [
-      "居酒屋",
-      "焼鳥",
-      "日本酒"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-28",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "j-garden",
@@ -8590,7 +8542,7 @@
     "lng": 100.3108,
     "phone": "+60162942239",
     "website": "https://www.jgarden-penang.com/",
-    "description": "ペナンにある中国式広東料理レストラン「海岸」。広東風の点心・飲茶・海鮮料理をペナンのGeorge Townエリアで楽しめる。",
+    "description": "ペナン・ジョージタウンにある本格的な日本の洋食レストラン。ハンバーグステーキ・オムライス・カツ丼など、日本の定番洋食が楽しめる在住日本人御用達の店。",
     "tags": [
       "日本食",
       "レストラン"
@@ -8607,7 +8559,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "japan-boat-takoyaki-1-borneo",
@@ -8618,8 +8571,8 @@
     "lat": 6.0347,
     "lng": 116.1302,
     "phone": "+6088738110",
-    "website": null,
-    "description": "コタキナバルにある日本料理レストラン「Umi」。日本語対応スタッフが在籍し、寿司・定食・刺身など幅広い和食をKKのWaterfrontで楽しめる。",
+    "website": "https://www.japanboat.my/",
+    "description": "コタキナバル・1Borneoハイパーモールにある日本式たこ焼き専門店。タコ・うなぎ・エビ・チーズなど各種フィリングのたこ焼きをキオスク形式で提供。",
     "tags": [
       "日本食",
       "たこ焼き",
@@ -8637,19 +8590,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "japan-boat-takoyaki-bataras-kolombong",
     "name": "Japan Boat Takoyaki -Bataras Kolombong",
     "name_ja": "ジャパン ボート たこ焼き -バタラス コロンボン",
     "area": "Kota Kinabalu",
-    "address": "Lot F11A,Bataras Hypermarket Kolombong,Mile, 5.5, Jalan Tuaran, 88400 Kota Kinabalu, Sabah, Malaysia",
+    "address": "Lot F11A, Bataras Hypermarket Kolombong, Mile 5.5, Jalan Tuaran, 88400 Kota Kinabalu, Sabah, Malaysia",
     "lat": 5.9905,
     "lng": 116.1247,
     "phone": "+60198808878",
-    "website": null,
-    "description": "コタキナバルにある日本式ラーメン専門店「麺や絆」。旨味深いスープの本格ラーメンをKKのWaterfrontエリアでカジュアルに楽しめる専門店。",
+    "website": "https://www.japanboat.my/",
+    "description": "コタキナバル・Bataras Hypermarket Kolombongにある日本式たこ焼き専門店チェーン。タコ・うなぎ・エビ・チーズなど各種フィリングのたこ焼きを提供。",
     "tags": [
       "日本食",
       "たこ焼き",
@@ -8667,19 +8621,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "japan-boat-takoyaki-centre-point",
     "name": "Japan Boat Takoyaki-Centre Point",
     "name_ja": "ジャパン ボート たこ焼き-センター ポイント",
     "area": "Kota Kinabalu",
-    "address": "Basement, Kota Kinabalu, 88000 Kota Kinabalu, Sabah, Malaysia",
+    "address": "Basement, Centre Point Sabah, 1 Jalan Centre Point, 88000 Kota Kinabalu, Sabah, Malaysia",
     "lat": 5.9779,
     "lng": 116.0717,
     "phone": null,
-    "website": null,
-    "description": "コタキナバルにある台湾式タピオカティー専門店「The Alley」。台湾産食材を使ったタピオカドリンクをKKのWaterfrontエリアで楽しめる。",
+    "website": "https://www.japanboat.my/",
+    "description": "コタキナバル・Centre Point Shopping Mallにある日本式たこ焼き専門店チェーン。Japan Boat Takoyakiの市内複数店舗の一つ。各種フィリングのたこ焼きを提供。",
     "tags": [
       "日本食",
       "たこ焼き",
@@ -8697,7 +8652,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "japan-boat-takoyaki-imago",
@@ -8708,8 +8664,8 @@
     "lat": 5.9709,
     "lng": 116.0661,
     "phone": null,
-    "website": null,
-    "description": "コタキナバルにある日本式居酒屋「居酒屋KK」。日本式のおつまみ・串焼き・日本酒をKKのWaterfrontエリアでカジュアルに楽しめる居酒屋。",
+    "website": "https://www.japanboat.my/",
+    "description": "コタキナバル・Imago Shopping Mallにある日本式たこ焼き専門店チェーン。タコ・うなぎ・エビ・チーズなど各種フィリングのたこ焼きを提供。",
     "tags": [
       "日本食",
       "たこ焼き",
@@ -8727,7 +8683,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "japan-boat-takoyaki-karamunsing",
@@ -8738,8 +8695,8 @@
     "lat": 5.9708,
     "lng": 116.0752,
     "phone": "+60198808878",
-    "website": null,
-    "description": "コタキナバルにある日本料理レストラン「Kyoto」。和モダンな空間で寿司・刺身・定食などの和食をKKのWaterfrontエリアで楽しめる。",
+    "website": "https://www.japanboat.my/",
+    "description": "コタキナバル・Kompleks Karamunsing内にある日本式たこ焼き専門店チェーン。Japan Boat Takoyakiの市内複数店舗の一つ。各種フィリングのたこ焼きを提供。",
     "tags": [
       "日本食",
       "たこ焼き",
@@ -8757,7 +8714,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "japan-boat-takoyaki-likas",
@@ -8768,8 +8726,8 @@
     "lat": 5.9921,
     "lng": 116.112,
     "phone": "+60169002892",
-    "website": null,
-    "description": "コタキナバルにある日本式海鮮・寿司レストラン「Tsukiji Market」。新鮮な海鮮を使った寿司・刺身をKKのWaterfrontエリアで楽しめる。",
+    "website": "https://www.japanboat.my/",
+    "description": "コタキナバル・Taman Likas地区にある日本式たこ焼き専門店チェーン。Japan Boat Takoyakiの市内複数店舗の一つ。各種フィリングのたこ焼きをカジュアルに提供。",
     "tags": [
       "日本食",
       "たこ焼き",
@@ -8787,19 +8745,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "japan-boat-takoyaki-penampang",
     "name": "Japan Boat Takoyaki-Penampang",
     "name_ja": "ジャパン ボート たこ焼き-ペナンパン",
     "area": "Kota Kinabalu",
-    "address": "Lot 20,Servay Penampang, Mile 5, Jalan Penampang, Bandar Baru Penampang, 88300 Donggongon, Sabah, Malaysia",
+    "address": "Lot 20, Servay Penampang, Mile 5, Jalan Penampang, 88300 Donggongon, Sabah, Malaysia",
     "lat": 5.9286,
     "lng": 116.0891,
     "phone": "+60198808878",
-    "website": null,
-    "description": "コタキナバルにある日本料理レストラン「Hana」。寿司・刺身・定食など幅広い和食メニューをKKのWaterfrontエリアでカジュアルに楽しめる。",
+    "website": "https://www.japanboat.my/",
+    "description": "コタキナバル郊外・Servay Penampang内にある日本式たこ焼き専門店チェーン。Japan Boat Takoyakiの市内複数店舗の一つ。各種フィリングのたこ焼きを提供。",
     "tags": [
       "日本食",
       "たこ焼き",
@@ -8817,19 +8776,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "japan-boat-takoyaki-suria-sabah",
     "name": "Japan Boat Takoyaki-Suria Sabah",
     "name_ja": "ジャパン ボート たこ焼き-スリア サバ",
     "area": "Kota Kinabalu",
-    "address": "Kiosk 1-4B,1st Floor, Suria Sabah Shopping mall, 1, Jln Tun Fuad Stephens, Kota Kinabalu, 88000 Kota Kinabalu, Sabah, Malaysia",
+    "address": "Kiosk 1-4B, 1st Floor, Suria Sabah Shopping Mall, 1 Jln Tun Fuad Stephens, 88000 Kota Kinabalu, Sabah, Malaysia",
     "lat": 5.9871,
     "lng": 116.0766,
     "phone": "+60169002892",
-    "website": null,
-    "description": "コタキナバルにある中国式海鮮レストラン「海皇」。新鮮な海鮮を使った広東風料理をKKのWaterfrontエリアで楽しめる中国海鮮専門店。",
+    "website": "https://www.japanboat.my/",
+    "description": "コタキナバル・Suria Sabahショッピングモール内にある日本式たこ焼き専門店チェーン。Japan Boat Takoyakiの市内複数店舗の一つ。各種フィリングのたこ焼きを提供。",
     "tags": [
       "日本食",
       "たこ焼き",
@@ -8847,19 +8807,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "japan-boat-takoyaki-wisma-merdeka",
     "name": "Japan Boat Takoyaki-Wisma Merdeka",
     "name_ja": "ジャパン ボート たこ焼き-ウィスマ ムルデカ",
     "area": "Kota Kinabalu",
-    "address": "Atrium Area, Ground Floor, Phase II, Wisma Merdeka, Jln Tun Razak, Pusat Bandar Kota Kinabalu, 88000 Kota Kinabalu, Sabah, Malaysia",
+    "address": "Atrium Area, Ground Floor, Phase II, Wisma Merdeka, Jln Tun Razak, 88000 Kota Kinabalu, Sabah, Malaysia",
     "lat": 5.9855,
     "lng": 116.0759,
     "phone": "+60167952785",
-    "website": null,
-    "description": "コタキナバルにある中国式飲茶・点心レストラン「茗香楼」。ハーロータウや飲茶をKKのWaterfrontエリアで楽しめる広東料理店。",
+    "website": "https://www.japanboat.my/",
+    "description": "コタキナバル・Wisma Merdeka Phase IIにある日本式たこ焼き専門店チェーン。Japan Boat Takoyakiの市内複数店舗の一つ。各種フィリングのたこ焼きを提供。",
     "tags": [
       "日本食",
       "たこ焼き",
@@ -8877,17 +8838,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "japan-club-kl-restaurant",
     "name": "Japan Club of Kuala Lumpur Restaurant",
     "name_ja": "ジャパン クラブ of クアラ ルンプール レストラン",
     "area": "Bukit Kiara",
-    "address": "No. 2, Jalan 1/86D, Off Jalan Taman Seputeh, 58000 Kuala Lumpur",
-    "phone": null,
+    "address": "No. 2, Jalan 1/86D, Off Jalan Taman Seputeh, 58000 Kuala Lumpur, Malaysia",
+    "phone": "+60327742791",
     "website": null,
-    "description": "クアラルンプール日本人会館内のレストラン。日本と同等またはそれ以下の価格で日本品質の食事が可能。会員制だが一部利用可能な場合あり。",
+    "description": "クアラルンプール日本人会館内にある日本料理レストラン「ひまわり」。刺身・ラーメン・天ぷら・そばなど幅広い和食をリーズナブルな価格で提供。ビジター入場可。",
     "tags": [
       "日本料理",
       "定食",
@@ -8903,48 +8865,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "japanese-cuisine",
-    "name": "日本料理 Japanese Cuisine",
-    "name_ja": "日本料理",
-    "area": "Penang",
-    "address": "20, Lebuh Leith, George Town, 10200 George Town, Pulau Pinang, Malaysia",
-    "lat": 5.421,
-    "lng": 100.3345,
-    "phone": null,
-    "website": null,
-    "description": "ペナンにある本格的な日本料理レストラン「Chikuyo-tei」。日本語対応スタッフが在籍し、寿司・刺身・定食など幅広い和食をペナンで楽しめる日本料理店。",
-    "tags": [
-      "日本食",
-      "レストラン"
-    ],
-    "hours": "Monday: 6:00 PM – 12:00 AM / Tuesday: 6:00 PM – 12:00 AM / Wednesday: 6:00 PM – 12:00 AM / Thursday: 6:00 PM – 12:00 AM / Friday: 6:00 PM – 12:00 AM / Saturday: 6:00 PM – 12:00 AM / Sunday: 6:00 PM – 12:00 AM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJRdjKEl3DSjARjXIS-1C2t18",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "japanese-restaurant-shakariki-432-osaka-izakaya-publika-mont-kiara",
     "name": "Japanese Restaurant SHAKARIKI 432\" OSAKA IZAKAYA｜Publika/Mont Kiara",
     "name_ja": "日本 レストラン シャカリキ 432\" オサカ 居酒屋|パブリカ/モント キアラ",
     "area": "Kuala Lumpur",
-    "address": "Malaysia, Wilayah Persekutuan Kuala Lumpur, Solaris Dutamas, Jln Dutamas 1, D4-G3-5",
+    "address": "D4-G3-5, Solaris Dutamas, No. 1 Jalan Dutamas 1, 50480 Kuala Lumpur, Malaysia",
     "lat": 3.1715,
     "lng": 101.6668,
     "phone": "+60364117050",
     "website": "https://shakariki-my.com/restaurants/osaka-izakaya/",
-    "description": "大阪発の居酒屋チェーン「しゃかりき432」のパブリカ（ソラリス・ドゥタマス）店。串焼き・炉端焼きと日本酒・焼酎が楽しめる日本式居酒屋。毎日ランチ・ディナー営業。",
+    "description": "大阪発「しゃかりき432」のKL店。たこ焼き・お好み焼き・串カツ・寿司など150品以上のメニューが揃う本格大阪居酒屋。2018年開業。",
     "tags": [
       "居酒屋",
       "和食"
@@ -8961,7 +8895,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "jikasei-noodles",
@@ -8973,7 +8908,7 @@
     "lng": 100.2836,
     "phone": "+60174820803",
     "website": "https://www.facebook.com/Jikasei-Noodles-110446105049546",
-    "description": "ペナンにある日本式自家製麺のラーメン・麺料理専門店。自家製麺にこだわった本格的なラーメン・つけ麺をペナンのGeorge Townエリアで楽しめる。",
+    "description": "ペナン・Bandar Baru Air Itamにある自家製麺にこだわった日本式ラーメン専門店。こだわりのスープと手打ち麺を使った本格ラーメンをリーズナブルに提供。",
     "tags": [
       "日本食",
       "レストラン"
@@ -8990,7 +8925,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "jojo",
@@ -9002,7 +8938,7 @@
     "lng": 116.0654,
     "phone": "+60183138080",
     "website": "http://jojobar.my/",
-    "description": "コタキナバルにある日本式カレー・定食レストラン「和curry」。本格的な日本式カレーと定食をKKのWaterfrontエリアでカジュアルに楽しめる。",
+    "description": "コタキナバル・Sutera Avenue上のLUMAホテルに入るスタイリッシュなレストラン。アジア・西洋融合の創作料理と充実したカクテルメニューが揃うガストロバー。",
     "tags": [
       "日本食",
       "レストラン"
@@ -9019,19 +8955,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ju-hachi",
     "name": "Ju Hachi",
     "name_ja": "十八",
     "area": "Kuala Lumpur",
-    "address": "18a, Jalan Tun Mohd Fuad 2, Taman Tun Dr Ismail, 60000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+    "address": "18a, Jalan Tun Mohd Fuad 2, Taman Tun Dr Ismail, 60000 Kuala Lumpur, Malaysia",
     "lat": 3.1403,
     "lng": 101.6287,
     "phone": null,
     "website": null,
-    "description": "TTDI（タマントゥンドクトールイスマイル）にある日本式居酒屋。日本の家庭料理・一品料理とビール・日本酒・焼酎をカジュアルに楽しめる。月〜土16:00〜翌1:00まで営業。",
+    "description": "TTDIにある日本式居酒屋。日本の家庭料理・一品料理とビール・日本酒・焼酎をカジュアルに楽しめる。月〜土16:00〜翌1:00営業。",
     "tags": [
       "居酒屋",
       "和食"
@@ -9048,17 +8985,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "juu-nana-sakaba-pj",
     "name": "Juu Nana Sakaba",
     "name_ja": "十七酒場",
     "area": "Petaling Jaya",
-    "address": "14, Jalan 17/54, Seksyen 17, 46400 Petaling Jaya, Selangor",
-    "phone": null,
+    "address": "14, Jalan 17/54, Seksyen 17, 46400 Petaling Jaya, Selangor, Malaysia",
+    "phone": "+60379317737",
     "website": null,
-    "description": "ペタリンジャヤ・セクション17の日本式酒場。焼鳥・串揚げ・とんかつ・ラーメン・天丼など幅広い和食とランチセットが揃う日本式大衆居酒屋。",
+    "description": "ペタリンジャヤ・セクション17にある日本式酒場。20年のキャリアを持つシェフが手がける焼き鳥・串揚げ・刺身・ラーメン・天丼など幅広い和食が揃う。",
     "tags": [
       "居酒屋",
       "焼鳥",
@@ -9076,7 +9014,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "jyu-raku-subang-jaya",
@@ -9086,7 +9025,7 @@
     "address": "13, Jalan SS 15/5A, 47500 Subang Jaya, Selangor, Malaysia",
     "phone": "+60356333819",
     "website": "https://www.facebook.com/JYURAKUSS15/",
-    "description": "化学調味料不使用で昆布と鰹節から出汁をとるSubang Jaya SS15の老舗日本料理店。週2回空輸の刺身が名物で、個室もあり接待に対応。",
+    "description": "SS15の老舗日本料理店。化学調味料不使用で昆布と鰹節から出汁をとるこだわりの料理が揃い、週2回空輸の刺身と個室接待に対応。地元日本人に長年支持されている。",
     "tags": [
       "日本料理",
       "ランチセット",
@@ -9103,19 +9042,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "jyunzen-japanese-restaurant",
     "name": "Jyunzen Japanese Restaurant",
     "name_ja": "淳善 Japanese Restaurant",
     "area": "Johor Bahru",
-    "address": "56&58-G, Jln Pertama 1, Pusat Perdagangan Danga Utama, 81300 Skudai, Johor Darul Ta'zim, Malaysia",
+    "address": "56&58-G, Jalan Pertama 1, Pusat Perdagangan Danga Utama, 81300 Skudai, Johor, Malaysia",
     "lat": 1.5206,
     "lng": 103.6797,
     "phone": "+60196111222",
     "website": null,
-    "description": "ジョホールバルにある日本式居酒屋「宵宵」。日本式のおつまみ・刺身・串焼きをJBのCity Squareエリアでカジュアルに楽しめる居酒屋。",
+    "description": "ジョホールバル・Skudaiにある本格日本料理店。新鮮な刺身・寿司が評判で、スルメイカを使ったクリスピーピザが名物。リーズナブルで清潔感のある店内。",
     "tags": [
       "日本食",
       "レストラン"
@@ -9132,7 +9072,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "k-fuku",
@@ -9144,7 +9085,7 @@
     "lng": 100.3357,
     "phone": null,
     "website": "https://www.instagram.com/kofuku.pg/?hl=en",
-    "description": "ペナンにある日本料理レストラン「Yuki」。日本語対応スタッフが在籍し、寿司・定食・鍋料理などをペナンで提供する日本料理店。",
+    "description": "ペナン・ジョージタウン（Lebuh Melayu）にある日本式食堂。餃子・うどん・寿司など定番の和食をリーズナブルに提供。席数が少ないため事前予約推奨。",
     "tags": [
       "日本食",
       "レストラン"
@@ -9161,19 +9102,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kabuki-cho-bar-and-cafe",
     "name": "KABUKI-CHO BAR & CAFE 歌舞伎町",
     "name_ja": "歌舞伎町",
     "area": "Kuala Lumpur",
-    "address": "7-G, Jalan 3/101c, Cheras Business Centre, 56100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+    "address": "7-G, Jalan 3/101c, Cheras Business Centre, 56100 Kuala Lumpur, Malaysia",
     "lat": 3.1,
     "lng": 101.7396,
     "phone": "+60176440444",
     "website": "https://www.facebook.com/KabukichoCBC/",
-    "description": "クアラルンプール・チェラスビジネスセンターにある歌舞伎町テーマのバー＆カフェ。焼き鳥・刺身・天ぷらなどの和食メニューと生ビール・日本酒を提供。毎日16:00〜翌2:00まで営業。",
+    "description": "クアラルンプール・チェラスビジネスセンターにある歌舞伎町テーマのバー＆カフェ。焼き鳥・刺身・天ぷらなどの和食と生ビール・日本酒を毎日16:00〜深夜まで提供。",
     "tags": [
       "バー",
       "居酒屋"
@@ -9190,46 +9132,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kafei-dian-petaling-street-kl",
-    "name": "Kafei Dian (Petaling Street KL)",
-    "name_ja": "カフェイ ディアン (ペタリン ストリート KL)",
-    "area": "Kuala Lumpur",
-    "address": "16, Jalan Panggong, City Centre, 50000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
-    "lat": 3.1415,
-    "lng": 101.697,
-    "phone": "+601110193159",
-    "website": null,
-    "description": "マレーシア・クアラルンプールの日本料理レストラン。寿司や焼き物、煮物など伝統的な日本料理をマレーシアで楽しめる。セットメニューも用意。",
-    "tags": [
-      "日本食",
-      "レストラン"
-    ],
-    "hours": "Monday: 7:30 AM – 10:30 PM / Tuesday: 7:30 AM – 10:30 PM / Wednesday: 7:30 AM – 10:30 PM / Thursday: 7:30 AM – 10:30 PM / Friday: 7:30 AM – 10:30 PM / Saturday: 7:30 AM – 10:30 PM / Sunday: 7:30 AM – 10:30 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJPSYqRVpJzDERVa50LILOeWo",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kagura-tokyo-chicken-ramen",
     "name": "Kagura Tokyo Chicken Ramen",
     "name_ja": "神楽 Tokyo Chicken Ramen",
     "area": "Bukit Bintang",
-    "address": "Lot 10, Unit P1-20 Level 4 J's Gate Dining, Kuala Lumpur",
+    "address": "Unit P1-20, Level 4, J's Gate Dining, Lot 10, Jalan Sultan Ismail, 50250 Kuala Lumpur, Malaysia",
     "phone": null,
     "website": null,
-    "description": "東京発の鶏白湯ラーメン専門店。Lot 10のJ's Gate Dining内にあり、濃厚クリーミーな鶏白湯スープと麺のバランスが特徴。",
+    "description": "東京・千代田区発の鶏白湯ラーメン専門店のKL店。Lot 10のJ's Gate Dining内にあり、北海道産食材使用の濃厚鶏白湯スープが特徴。ハラール認証取得。",
     "tags": [
       "ラーメン",
       "鶏白湯",
@@ -9245,7 +9159,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kaishin-sushi-omakase",
@@ -9257,7 +9172,7 @@
     "lng": 100.3317,
     "phone": "+60142288069",
     "website": "https://www.facebook.com/Kaishin-Sushi-Omakase-%E6%B5%B7%E5%BF%83%E9%AE%A8-%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B-103033525738759/",
-    "description": "ペナンにある日本式天ぷら・揚げ物専門店「銀座天一」。天ぷらを中心にした揚げ物料理をペナンのGeorge Townエリアで楽しめる。",
+    "description": "ペナン・ジョージタウンにある本格おまかせ寿司カウンターレストラン。Chef Damien Tanが日本から直送の旬の食材を使い、季節感のある鮨を提供。要予約。",
     "tags": [
       "日本食",
       "寿司",
@@ -9275,7 +9190,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kaka-ramen-club",
@@ -9285,9 +9201,9 @@
     "address": "23C, Lebuh Pantai, George Town, 10300 George Town, Pulau Pinang, Malaysia",
     "lat": 5.4173,
     "lng": 100.3428,
-    "phone": "+601700828243",
+    "phone": "+60129498646",
     "website": null,
-    "description": "ペナンにある日本式焼肉レストラン「Wagyu House Penang」。黒毛和牛などの高品質な牛肉を使った焼肉をペナンで楽しめる本格焼肉店。",
+    "description": "ペナン・Beach Streetにある九州式ラーメン専門店。14時間煮込んだMSG不使用のスープが特徴で、日本カレーなどのサイドメニューも揃う。",
     "tags": [
       "日本食",
       "ラーメン",
@@ -9305,37 +9221,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kaku-uchi-sake-bar-isetan-scotts",
-    "name": "Kaku-Uchi Sake Bar (Isetan Scotts)",
-    "name_ja": "角打ち Sake Bar (Isetan Scotts)",
-    "area": "Johor Bahru",
-    "address": "238868, Orchard Rd, 350号, Isetan Scotts Supermarket, Shaw House, B1",
-    "lat": 1.3064,
-    "lng": 103.8319,
-    "phone": "+6567331111",
-    "website": "https://www.isetan.com.sg/",
-    "description": "マレーシア・ジョホールバルにある日本式の居酒屋。定番の居酒屋メニューから創作料理まで幅広く提供。ドリンクメニューも充実している。",
-    "tags": [
-      "バー",
-      "居酒屋",
-      "日本酒"
-    ],
-    "hours": "Monday: Closed / Tuesday: Closed / Wednesday: Closed / Thursday: Closed / Friday: 10:00 AM – 9:00 PM / Saturday: 10:00 AM – 9:00 PM / Sunday: 10:00 AM – 9:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJ12WpCo0Z2jERTdMWUL_5sYY",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kakuriyo-ramen",
@@ -9347,7 +9234,7 @@
     "lng": 100.3121,
     "phone": "+60163226314",
     "website": "https://www.facebook.com/kakuriyoramen",
-    "description": "ペナンにある日本式ラーメン専門店「天下一品」。こってりスープで有名な日本発チェーンのペナン店。Gurney Driveエリアにある。",
+    "description": "ペナン・Pulau Tikuにある日本人シェフ主導のラーメン専門店。2022年4月開業。博多風豚骨ラーメン中心で、ガーリックオイル・チリオイル・味噌など各種カスタマイズ可能。",
     "tags": [
       "日本食",
       "ラーメン",
@@ -9365,46 +9252,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kalamatas-cafe-kk-warisan-square",
-    "name": "Kalamata's Cafe KK (Warisan Square)",
-    "name_ja": "カラマタ's カフェ KK (ワリサン スクエア)",
-    "area": "Kota Kinabalu",
-    "address": "AG03, Warisan Square, Jln Tun Fuad Stephens, 88000 Kota Kinabalu, Sabah, Malaysia",
-    "lat": 5.9781,
-    "lng": 116.0704,
-    "phone": "+6088274782",
-    "website": "https://www.facebook.com/pages/Kalamatas-Restoba-Api-Api/278383862192569",
-    "description": "コタキナバルにある日本式居酒屋「満腹」。日本式のおつまみ・串焼き・日本酒をKKのWaterfrontエリアでカジュアルに楽しめる居酒屋。",
-    "tags": [
-      "日本食",
-      "レストラン"
-    ],
-    "hours": "Monday: 12:00 PM – 12:00 AM / Tuesday: 12:00 PM – 12:00 AM / Wednesday: 12:00 PM – 12:00 AM / Thursday: 12:00 PM – 12:00 AM / Friday: 12:00 PM – 12:00 AM / Saturday: 12:00 PM – 12:00 AM / Sunday: 12:00 PM – 12:00 AM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJyZ2JBZRpOzIR9g3x2ARxnAM",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kame-sushi-hartamas",
     "name": "Kame Sushi",
     "name_ja": "亀 Sushi",
     "area": "Desa Sri Hartamas",
-    "address": "20, Jalan 31/70A, Desa Sri Hartamas, 50480 Kuala Lumpur",
+    "address": "20, Jalan 31/70A, Desa Sri Hartamas, 50480 Kuala Lumpur, Malaysia",
     "phone": "+60328587739",
     "website": null,
-    "description": "スリハルタマスにある小さなおまかせ寿司店。在住日本人駐在員に支持されており、メニューなしのおまかせスタイルで旬の食材を使った寿司を提供。",
+    "description": "スリハルタマスにある老舗おまかせ寿司店。日本から週2回空輸の食材を使用し、シェフが選ぶコース一本勝負のカウンター寿司。RM150〜300++。要予約。",
     "tags": [
       "おまかせ",
       "寿司",
@@ -9420,46 +9279,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kamii-sushi-omakase-jb",
-    "name": "Kamii Sushi Omakase",
-    "name_ja": "上井 Sushi Omakase",
-    "area": "Johor Bahru",
-    "address": "Taman Sutera, Tanjung, Johor Bahru, Johor",
-    "phone": null,
-    "website": null,
-    "description": "ジョホールバルのTaman Sutera Tanjungにあるおまかせ寿司レストラン。ランチセットが充実しており、丼・ラーメン・焼肉など幅広い日本料理も提供。手頃な価格で本格和食が楽しめる。",
-    "tags": [
-      "寿司",
-      "おまかせ",
-      "ランチ",
-      "リーズナブル"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kamii-sushi-omakase-restaurant",
     "name": "Kamii Sushi Omakase Restaurant",
     "name_ja": "上井 Sushi Omakase Restaurant",
     "area": "Johor Bahru",
-    "address": "7, Jalan Sutera Tanjung 8/2, Taman Sutera Utama, 81300 Skudai, Johor Darul Ta'zim, Malaysia",
+    "address": "7, Jalan Sutera Tanjung 8/2, Taman Sutera Utama, 81300 Skudai, Johor, Malaysia",
     "lat": 1.517,
     "lng": 103.6666,
-    "phone": "+6075571733",
+    "phone": "+60755717733",
     "website": "https://www.kamiisushi.my/",
-    "description": "ジョホールバルにある日本式居酒屋「呑み」。日本式のおつまみ・串焼き・各種ドリンクをJBのCity Squareエリアでカジュアルに楽しめる。",
+    "description": "ジョホールバル・Taman Sutera Utamaにある本格おまかせ寿司店。10席のカウンターで旬の食材を使った鮨コースを提供。ランチ・ディナーとも人気。",
     "tags": [
       "日本食",
       "寿司",
@@ -9477,46 +9310,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kamon-craft-cocktail-bar",
-    "name": "Kamon Craft Cocktail Bar",
-    "name_ja": "家紋 Craft Cocktail Bar",
-    "area": "Kota Kinabalu",
-    "address": "634 14th St #110, San Diego, CA 92101, USA",
-    "lat": 32.7119,
-    "lng": -117.1521,
-    "phone": "+16199155680",
-    "website": "http://barkamon.com/",
-    "description": "コタキナバルにある日本式クラフトカクテルバー「Kamon」。日本のクラフトビールと和食のおつまみを揃えた独自スタイルの店舗。",
-    "tags": [
-      "バー",
-      "居酒屋"
-    ],
-    "hours": "Monday: 5:30 – 10:00 PM / Tuesday: Closed / Wednesday: 5:30 – 10:00 PM / Thursday: 5:30 – 10:00 PM / Friday: 5:30 – 11:00 PM / Saturday: 5:30 – 11:00 PM / Sunday: 5:30 – 10:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJGU_iNX1T2YARZ7CAgN7e4WE",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kampachi-eq",
     "name": "Kampachi",
     "name_ja": "カンパチ",
     "area": "Bukit Bintang",
-    "address": "EQ Kuala Lumpur, 27 Jalan Sultan Ismail, 50250 Kuala Lumpur",
+    "address": "EQ Kuala Lumpur, 27 Jalan Sultan Ismail, 50250 Kuala Lumpur, Malaysia",
     "phone": "+60327897722",
     "website": "https://www.eqkualalumpur.equatorial.com/dining/kampachi/",
-    "description": "1974年創業のマレーシア日本料理の老舗。東京・大阪の魚市場から毎週直送する食材を使い、200年物の無塗装檜カウンターでのおまかせ寿司が名物。",
+    "description": "1974年創業のマレーシア最古の老舗日本料理レストラン。東京・大阪の魚市場から毎週直送する食材と200年物の無塗装檜カウンターで提供するおまかせ寿司が名物。",
     "tags": [
       "高級",
       "おまかせ",
@@ -9552,46 +9357,18 @@
         "category": "ブランチ"
       }
     ],
-    "price_range": "MYR 200〜400/人"
-  },
-  {
-    "slug": "kampachi-eq-2",
-    "name": "Kampachi EQ",
-    "name_ja": "カンパチ EQ",
-    "area": "Kuala Lumpur",
-    "address": "EQ, Jln Sultan Ismail, Kuala Lumpur, 50250 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
-    "lat": 3.153,
-    "lng": 101.7099,
-    "phone": "+60327897722",
-    "website": "http://www.kampachi.com.my/",
-    "description": "1974年創業の老舗日本料理チェーン「甘八」のクアラルンプールEQ店。高品質な寿司・刺身・天ぷらなどの本格和食を楽しめる。",
-    "tags": [
-      "日本食",
-      "レストラン"
-    ],
-    "hours": "Monday: 12:00 – 3:00 PM, 6:00 – 11:00 PM / Tuesday: 12:00 – 3:00 PM, 6:00 – 11:00 PM / Wednesday: 12:00 – 3:00 PM, 6:00 – 11:00 PM / Thursday: 12:00 – 3:00 PM, 6:00 – 11:00 PM / Friday: 12:00 – 3:00 PM, 6:00 – 11:00 PM / Saturday: 12:00 – 3:00 PM, 6:00 – 11:00 PM / Sunday: 12:00 – 3:00 PM, 6:00 – 11:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJ1YqLbphJzDERlMQug6RwA3o",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "price_range": "MYR 200〜400/人",
+    "place_reviewed": true
   },
   {
     "slug": "kampachi-pavilion-kl",
     "name": "Kampachi (Pavilion KL)",
     "name_ja": "カンパチ (Pavilion KL)",
     "area": "Bukit Bintang",
-    "address": "Pavilion KL, Level 6, 168 Jalan Bukit Bintang, 55100 Kuala Lumpur",
+    "address": "Pavilion KL, Level 6, 168 Jalan Bukit Bintang, 55100 Kuala Lumpur, Malaysia",
     "phone": null,
-    "website": null,
-    "description": "1974年創業の老舗日本料理チェーン「甘八」のパビリオンKL店。ショッピングの合間に高品質な寿司・刺身・和食を楽しめる。",
+    "website": "https://www.kampachi.com.my/",
+    "description": "1974年創業の老舗日本料理チェーン「甘八」のパビリオンKL店。高品質な寿司・刺身・和食を提供。Time Out誌ベストジャパニーズ9回受賞の実績を持つ。",
     "tags": [
       "日本料理",
       "寿司",
@@ -9608,17 +9385,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kampachi-plaza-33-pj",
     "name": "Kampachi Plaza 33",
     "name_ja": "カンパチ Plaza 33",
     "area": "Petaling Jaya",
-    "address": "Plaza 33, No. 1, Jalan Kemajuan, Seksyen 13, 46200 Petaling Jaya",
-    "phone": null,
+    "address": "P1-02, Level 1 Podium, Plaza 33, No. 1, Jalan Kemajuan, Seksyen 13, 46200 Petaling Jaya, Selangor, Malaysia",
+    "phone": "+60379316938",
     "website": "https://www.kampachi.com.my/",
-    "description": "1974年創業の老舗日本料理チェーン「甘八」のPlaza 33ペタリンジャヤ店。高品質な寿司・刺身・天ぷら・鉄板焼きを揃える。",
+    "description": "1974年創業の老舗日本料理チェーン「甘八」のPlaza 33・ペタリンジャヤ店。寿司・刺身・天ぷら・鉄板焼きが揃う本格和食レストラン。サンデーランチビュッフェが人気。",
     "tags": [
       "寿司",
       "刺身",
@@ -9635,17 +9413,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kampai-klcc",
     "name": "Kampai KLCC",
     "name_ja": "乾杯 KLCC",
     "area": "KLCC",
-    "address": "ISETAN The Japan Store, Lot 10, Kuala Lumpur",
+    "address": "Lot 139, First Floor, Park Side, KLCC, 50088 Kuala Lumpur, Malaysia",
     "phone": null,
     "website": "https://www.kampaiklcc.com/",
-    "description": "マレーシア初の鉄板焼きおまかせを提供する日本料理レストラン。A5宮崎和牛と北海道直送の食材を使用。鉄板焼き・焼肉・寿司の3種類のおまかせコースを提供。",
+    "description": "マレーシア初の鉄板焼きおまかせを提供するKLCC・Lot 10内の高級日本料理店。A5宮崎和牛と北海道直送食材を使い、鉄板焼き・焼肉・寿司の3種おまかせコースを提供。",
     "tags": [
       "鉄板焼き",
       "おまかせ",
@@ -9662,17 +9441,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kanbe-ramen-hartamas",
     "name": "Ramen Kanbe Hartamas",
     "name_ja": "ラーメン カンベ ハルタマス",
     "area": "Desa Sri Hartamas",
-    "address": "Desa Sri Hartamas, Kuala Lumpur",
+    "address": "GF-08, 163 Retail Park, 8 Jalan Kiara, Mont Kiara, 50480 Kuala Lumpur, Malaysia",
     "phone": null,
-    "website": null,
-    "description": "日本人シェフが手がけるラーメン店のハルタマス店。豚骨ラーメン・味噌ラーメン・つけ麺を提供。自家製麺と長時間煮込んだスープが特徴。",
+    "website": "https://lit.link/kanbe",
+    "description": "日本人シェフが手がける豚骨ラーメン・つけ麺専門店のモンキアラ店（163 Retail Park）。48時間煮込んだ豚骨スープと8種類のブロス選択が特徴。",
     "tags": [
       "ラーメン",
       "豚骨",
@@ -9688,19 +9468,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kanbe-ramen-jb",
     "name": "豚麺処 官兵衛 KANBE RAMEN JB",
     "name_ja": "豚麺処官兵衛",
     "area": "Johor Bahru",
-    "address": "Ground Floor, Lot G138, Food Hall, AEON Mall Tebrau City, 1, Jalan Desa Tebrau, Taman Desa Tebrau, 81100 Johor Bahru, Johor Darul Ta'zim, Malaysia",
+    "address": "Ground Floor, Lot G138, Food Hall, AEON Mall Tebrau City, 1 Jalan Desa Tebrau, 81100 Johor Bahru, Johor, Malaysia",
     "lat": 1.5491,
     "lng": 103.7946,
     "phone": null,
     "website": "https://lit.link/kanbe",
-    "description": "ジョホールバルにある日本料理レストラン「Kumo」。日本語対応スタッフが在籍し、寿司・刺身・定食など幅広い和食をJBのCity Squareで楽しめる。",
+    "description": "ジョホールバル・AEON Mall Tebrau Cityにある豚骨ラーメン・つけ麺専門店。48時間煮込んだ7種の豚骨スープが特徴。11am〜10pm営業。",
     "tags": [
       "日本食",
       "ラーメン",
@@ -9718,19 +9499,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kanbe-ramen-the-exchange-trx",
     "name": "Kanbe Ramen - The Exchange TRX",
     "name_ja": "神戸 Ramen - The Exchange TRX",
     "area": "Kuala Lumpur",
-    "address": "PL.08.0 Park Level, The Exchange TRX, Persiaran TRX, Tun Razak Exchange, 55188 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+    "address": "PL.08.0 Park Level, The Exchange TRX, Persiaran TRX, Tun Razak Exchange, 55188 Kuala Lumpur, Malaysia",
     "lat": 3.1427,
     "lng": 101.7178,
     "phone": null,
     "website": "https://lit.link/kanbe",
-    "description": "The Exchange TRX内にある神戸ラーメン居酒屋。ラーメンのほか日本料理の一品メニューとドリンクを楽しめる。TRXの複合施設内で毎日11:00〜22:00まで営業。",
+    "description": "The Exchange TRXシティパーク内にある豚骨ラーメン・つけ麺専門店。48時間煮込んだ濃厚豚骨スープと7種のブロスが選べる。テラス席でオープンエアな雰囲気。",
     "tags": [
       "居酒屋",
       "和食"
@@ -9747,17 +9529,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kani-kawa-avenue-k",
     "name": "Kani Kawa",
     "name_ja": "蟹川",
     "area": "Bukit Bintang",
-    "address": "L2-6A, Level 2, Avenue K, 156 Jalan Ampang, 50450 Kuala Lumpur",
+    "address": "L2-6A, Level 2, Avenue K, 156 Jalan Ampang, 50450 Kuala Lumpur, Malaysia",
     "phone": "+60102646881",
     "website": null,
-    "description": "豊洲市場から直送のシーフードを使った日本食ビュッフェ。ズワイガニ、タラバガニ、毛ガニ、刺身、和牛を食べ放題で提供。テーブルにBBQステーション付き。",
+    "description": "KL・Avenue K（Jalan Ampang）にある日本式カニ・シーフードビュッフェ。豊洲市場直送のズワイガニ・タラバガニ・毛ガニ、A5和牛、刺身を食べ放題で提供。",
     "tags": [
       "ビュッフェ",
       "カニ",
@@ -9774,7 +9557,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kannichikan-yakiniku-hartamas",
@@ -19255,58 +19039,6 @@
     "photo_name": null
   },
   {
-    "slug": "ryoshi-izakaya-subang",
-    "name": "Ryoshi Izakaya",
-    "name_ja": "漁師 Izakaya",
-    "area": "Subang Jaya",
-    "address": "Subang Jaya, Selangor",
-    "phone": null,
-    "website": null,
-    "description": "日本の居酒屋の雰囲気を再現した居酒屋。串焼き・枝豆・刺身などの定番居酒屋メニューと冷たい日本ビールを提供。カジュアルに利用できる。",
-    "tags": [
-      "居酒屋",
-      "串焼き",
-      "カジュアル"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "ryoshi-izakaya-subang-ss15",
-    "name": "Ryoshi Izakaya",
-    "name_ja": "漁師 Izakaya",
-    "area": "Subang Jaya",
-    "address": "55, Jalan SS 15/4E, SS 15, 47500 Subang Jaya",
-    "phone": "+60356110737",
-    "website": null,
-    "description": "サバンジャヤSS15の居酒屋。日本から空輸した食材を使った豚肉丼や焼鳥を提供。カクテルも充実しておりノンビール派にも対応。",
-    "tags": [
-      "居酒屋",
-      "焼鳥",
-      "カクテル"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-28",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
     "slug": "ryoshi-izakaya-subang-ss15-2",
     "name": "Ryoshi Izakaya • Subang SS15",
     "name_ja": "漁師 Izakaya • Subang SS15",
@@ -19316,10 +19048,11 @@
     "lng": 101.5878,
     "phone": "+60102010200",
     "website": "https://www.facebook.com/RyoshiIzakayaSubang/",
-    "description": "スバンジャヤSS15にある漁師居酒屋。日本の家庭料理・一品料理とビール・日本酒・焼酎を楽しめる。公式Facebookあり、毎日ランチ・夜営業。",
+    "description": "スバンジャヤSS15にある漁師居酒屋（漁師居酒屋）。焼き鳥・刺身・丼物など日本の居酒屋メニューとビール・日本酒を本格的に提供。毎日ランチ・ディナー営業。",
     "tags": [
       "居酒屋",
-      "和食"
+      "和食",
+      "ノンハラル"
     ],
     "hours": "Monday: 12:00 – 2:30 PM, 6:00 – 11:00 PM / Tuesday: 12:00 – 2:30 PM, 6:00 – 11:00 PM / Wednesday: 12:00 – 2:30 PM, 6:00 – 11:00 PM / Thursday: 12:00 – 2:30 PM, 6:00 – 11:00 PM / Friday: 12:00 – 2:30 PM, 6:00 – 11:00 PM / Saturday: 12:00 – 2:30 PM, 6:00 – 11:00 PM / Sunday: 12:00 – 2:30 PM, 6:00 – 11:00 PM",
     "last_verified": "2026-03-28",
@@ -19333,7 +19066,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ryu-bangsar",
@@ -19345,10 +19079,11 @@
     "lng": 101.671,
     "phone": "+601111232319",
     "website": null,
-    "description": "バンサーバルにある日本式居酒屋。定番の居酒屋メニューから創作料理まで幅広く提供し、ドリンクも充実。毎日16:00〜翌2:00まで営業。",
+    "description": "バンサーバルにある日本式居酒屋「龍」。定番の和食一品料理とビール・日本酒・焼酎を楽しめる。毎日16:00〜翌2:00まで営業。",
     "tags": [
       "居酒屋",
-      "和食"
+      "和食",
+      "ノンハラル"
     ],
     "hours": "Monday: 4:00 PM – 2:00 AM / Tuesday: 4:00 PM – 2:00 AM / Wednesday: 4:00 PM – 2:00 AM / Thursday: 4:00 PM – 2:00 AM / Friday: 4:00 PM – 2:00 AM / Saturday: 4:00 PM – 2:00 AM / Sunday: 4:00 PM – 2:00 AM",
     "last_verified": "2026-03-28",
@@ -19362,7 +19097,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ryu-by-lye-110",
@@ -19377,7 +19113,8 @@
     "description": "TTDI（タマントゥンドクトールイスマイル）にある居酒屋。日本の家庭料理・一品料理とビール・日本酒・焼酎をカジュアルに楽しめる。毎日16:00〜翌2:00まで営業。",
     "tags": [
       "居酒屋",
-      "和食"
+      "和食",
+      "ノンハラル"
     ],
     "hours": "Monday: 4:00 PM – 2:00 AM / Tuesday: 4:00 PM – 2:00 AM / Wednesday: 4:00 PM – 2:00 AM / Thursday: 4:00 PM – 2:00 AM / Friday: 4:00 PM – 2:00 AM / Saturday: 4:00 PM – 2:00 AM / Sunday: 4:00 PM – 2:00 AM",
     "last_verified": "2026-03-28",
@@ -19391,7 +19128,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "saboten-1-utama",
@@ -19401,11 +19139,10 @@
     "address": "1 Utama Shopping Centre, 1, Lebuh Bandar Utama, Bandar Utama, 47800 Petaling Jaya",
     "phone": null,
     "website": null,
-    "description": "東京・新宿発の日本のとんかつ専門チェーン「さぼてん」の1ウタマ店。キャベツおかわり自由で、サクサクの衣のとんかつが特徴。",
+    "description": "東京発のとんかつ専門チェーン「さぼてん」の1ウタマ（ペタリンジャヤ）店。サクサクの衣のとんかつとキャベツおかわり自由が名物。",
     "tags": [
       "とんかつ",
-      "チェーン",
-      "東京発"
+      "日本チェーン"
     ],
     "hours": "10:00-22:00",
     "status": "unverified",
@@ -19417,7 +19154,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "saboten-mid-valley",
@@ -19427,10 +19165,10 @@
     "address": "Mid Valley Megamall, 59200 Kuala Lumpur",
     "phone": null,
     "website": null,
-    "description": "東京発のとんかつ専門チェーン「さぼてん」のミッドバレー店。サクサクの衣が特徴のとんかつとキャベツの食べ放題セットが好評。",
+    "description": "東京発のとんかつ専門チェーン「さぼてん」のミッドバレー店。細かいパン粉でサクサクに揚げたとんかつとキャベツ食べ放題セットで人気。",
     "tags": [
       "とんかつ",
-      "チェーン"
+      "日本チェーン"
     ],
     "hours": "毎日 10:00-22:00",
     "last_verified": "2026-03-27",
@@ -19442,7 +19180,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "saboten-pavilion-kl",
@@ -19452,10 +19191,10 @@
     "address": "Pavilion Kuala Lumpur, 168 Jalan Bukit Bintang, 55100 Kuala Lumpur",
     "phone": null,
     "website": null,
-    "description": "東京発のとんかつ専門チェーン「さぼてん」のパビリオン店。細かいパン粉でサクサクに揚げたとんかつが看板メニュー。ロースかつ・ヒレかつ・エビフライが人気。",
+    "description": "東京発のとんかつ専門チェーン「さぼてん」のパビリオンKL・Tokyo Street内の店舗。ロースかつ・ヒレかつ・エビフライが看板メニュー。",
     "tags": [
       "とんかつ",
-      "チェーン",
+      "日本チェーン",
       "Tokyo Street"
     ],
     "hours": "毎日 10:00-22:00",
@@ -19468,7 +19207,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "saboten-sunway-pyramid",
@@ -19481,7 +19221,7 @@
     "description": "東京発のとんかつ専門チェーン「さぼてん」のSunway Pyramid店。サクサクの衣と柔らかい豚肉のとんかつを定食スタイルで楽しめる。",
     "tags": [
       "とんかつ",
-      "チェーン"
+      "日本チェーン"
     ],
     "hours": "10:00-22:00",
     "status": "unverified",
@@ -19493,36 +19233,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sad-panda-cafe",
-    "name": "Sad Panda Cafe",
-    "name_ja": "Sad パンダ カフェ",
-    "area": "Penang",
-    "address": "77, Lebuh Bishop, George Town, 10200 George Town, Pulau Pinang, Malaysia",
-    "lat": 5.419,
-    "lng": 100.341,
-    "phone": "+60173455895",
-    "website": null,
-    "description": "ペナンにある中国式海鮮レストラン「海味楼」。新鮮な海鮮食材を使った広東風・福建風の料理をペナンのGeorge Townで楽しめる中華海鮮専門店。",
-    "tags": [
-      "日本食",
-      "レストラン"
-    ],
-    "hours": "Monday: 7:30 AM – 6:00 PM / Tuesday: 7:30 AM – 6:00 PM / Wednesday: 7:30 AM – 6:00 PM / Thursday: 7:30 AM – 6:00 PM / Friday: 7:30 AM – 6:00 PM / Saturday: 7:30 AM – 6:00 PM / Sunday: 7:30 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJEasUE17DSjAR-uJzsbz3WQE",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sakae-sushi-1-utama",
@@ -19532,11 +19244,12 @@
     "address": "1 Utama Shopping Centre, 1, Lebuh Bandar Utama, Bandar Utama, 47800 Petaling Jaya",
     "phone": null,
     "website": "https://www.sakaesushi.com.my/",
-    "description": "回転寿司チェーン「Sakae Sushi」の1ウタマ（ペタリンジャヤ）店。寿司・刺身・丼物など日本食メニューを手頃な価格で提供する。",
+    "description": "マレーシア発の日本式回転寿司チェーン「Sakae Sushi」の1ウタマ店。寿司・刺身・丼物など日本食メニューを手頃な価格で提供。ファミリー向け。",
     "tags": [
       "回転寿司",
+      "日本食",
       "チェーン",
-      "ファミリー"
+      "ポークフリー"
     ],
     "hours": "10:00-22:00",
     "status": "unverified",
@@ -19548,7 +19261,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sakagura-japanese-restaurant",
@@ -19560,10 +19274,11 @@
     "lng": 116.0728,
     "phone": "+60128173604",
     "website": null,
-    "description": "コタキナバルにある日本料理レストラン「Sushi King」。回転寿司スタイルで手頃な価格の寿司・和食をKKのモールで楽しめる日本系チェーン。",
+    "description": "コタキナバルにあるシェラトンホテル内の日本料理レストラン「酒蔵」。刺身・ラーメン・唐揚げ・親子丼等の正統派和食を提供するホテルダイニング。",
     "tags": [
       "日本食",
-      "レストラン"
+      "レストラン",
+      "ホテルダイニング"
     ],
     "hours": "Monday: 11:30 AM – 2:30 PM, 5:00 – 9:30 PM / Tuesday: 11:30 AM – 2:30 PM, 5:00 – 9:30 PM / Wednesday: 11:30 AM – 2:30 PM, 5:00 – 9:00 PM / Thursday: 11:30 AM – 2:30 PM, 5:00 – 9:30 PM / Friday: 11:30 AM – 2:30 PM, 5:00 – 9:30 PM / Saturday: 11:30 AM – 2:30 PM, 5:00 – 9:30 PM / Sunday: 11:30 AM – 2:30 PM, 5:00 – 9:30 PM",
     "last_verified": "2026-03-28",
@@ -19577,65 +19292,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sakaki-izakaya",
-    "name": "Sakaki Izakaya",
-    "name_ja": "榊 Izakaya",
-    "area": "Kota Kinabalu",
-    "address": "3227 Washington Blvd STE D, Arlington, VA 22201, USA",
-    "lat": 38.8862,
-    "lng": -77.0976,
-    "phone": "+17037184931",
-    "website": "https://www.sakakiizakaya.com/",
-    "description": "コタキナバルにある日本式居酒屋「Sakaki（榊）」。和食の一品料理と豊富なドリンクを落ち着いた雰囲気で楽しめる。在住者に親しまれている。",
-    "tags": [
-      "居酒屋",
-      "和食"
-    ],
-    "hours": "Monday: 12:00 – 3:00 PM, 4:30 – 10:00 PM / Tuesday: 12:00 – 3:00 PM, 4:30 – 10:00 PM / Wednesday: 12:00 – 3:00 PM, 4:30 – 10:00 PM / Thursday: 12:00 – 3:00 PM, 4:30 – 10:00 PM / Friday: 12:00 – 3:00 PM, 4:30 – 11:00 PM / Saturday: 12:00 – 11:00 PM / Sunday: 12:00 – 10:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJH5TJlm-3t4kR7llTe4b8j38",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sakana-japanese-dining",
-    "name": "Sakana Japanese Dining",
-    "name_ja": "魚ジャパニーズダイニング",
-    "area": "Kuala Lumpur",
-    "address": "G11, Ground Floor, Menara Berkembar Petronas, Jln Ampang, City Centre, 50088 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
-    "lat": 3.1563,
-    "lng": 101.7121,
-    "phone": "+60321810211",
-    "website": "http://sakana.my/",
-    "description": "Suria KLCC内にある日本料理レストラン。築地直送の新鮮な刺身・海鮮料理を中心に提供。豚肉・ラード・アルコール調味料不使用で調理している。",
-    "tags": [
-      "日本食",
-      "レストラン"
-    ],
-    "hours": "Monday: 10:00 AM – 11:00 PM / Tuesday: 10:00 AM – 11:00 PM / Wednesday: 10:00 AM – 11:00 PM / Thursday: 10:00 AM – 11:00 PM / Friday: 10:00 AM – 11:00 PM / Saturday: 10:00 AM – 11:00 PM / Sunday: 10:00 AM – 11:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJ30tRp_Y3zDERIficys6EhBQ",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sakana-japanese-dining-klcc",
@@ -19645,12 +19303,12 @@
     "address": "G11, Ground Floor, Suria KLCC, Petronas Twin Tower, 50088 Kuala Lumpur",
     "phone": "+60321810211",
     "website": "https://sakana.my/",
-    "description": "Suria KLCCにあるカジュアルジャパニーズダイニング。新鮮な食材とハラル認証のみりん・酢を使用。寿司・刺身・丼物・焼き物を提供。テラス席とエアコン席あり。",
+    "description": "Suria KLCCにある日本料理レストラン。ハラル認証みりん・酢を使用し、刺身・寿司・焼き物を提供。日本人シェフ齋藤誠が監修する豚肉・ラード不使用の本格和食。",
     "tags": [
       "日本料理",
-      "カジュアル",
       "ハラル対応",
-      "KLCC"
+      "KLCC",
+      "日本人シェフ"
     ],
     "hours": "毎日 10:00-23:00",
     "last_verified": "2026-03-27",
@@ -19662,7 +19320,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sakanaya-umihiko",
@@ -19674,10 +19333,12 @@
     "lng": 101.7118,
     "phone": "+60183200802",
     "website": "https://umi-hiko.com/",
-    "description": "Lot 10内にある日本料理レストラン。寿司・刺身・焼き物など多彩な和食メニューを提供。日本の味をマレーシアで楽しめる。",
+    "description": "Lot 10 J's Gate Dining内にある日本海鮮専門店。北海道・本州から直輸入した鮮魚を使った刺身・寿司・海鮮丼が看板。豚肉・ラード不使用。",
     "tags": [
       "日本食",
-      "レストラン"
+      "海鮮",
+      "刺身",
+      "ノンポーク"
     ],
     "hours": "Monday: 11:30 AM – 3:00 PM, 5:00 – 10:00 PM / Tuesday: 11:30 AM – 3:00 PM, 5:00 – 10:00 PM / Wednesday: 11:30 AM – 3:00 PM, 5:00 – 10:00 PM / Thursday: 11:30 AM – 3:00 PM, 5:00 – 10:00 PM / Friday: 11:30 AM – 3:00 PM, 5:00 – 11:00 PM / Saturday: 11:30 AM – 11:00 PM / Sunday: 11:30 AM – 10:00 PM",
     "last_verified": "2026-03-28",
@@ -19691,224 +19352,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sake-bar-ginn-mont-kiara",
-    "name": "Sake Bar GINN",
-    "name_ja": "酒 バー ギンン",
-    "area": "Mont Kiara",
-    "address": "Mont Kiara, Kuala Lumpur",
-    "phone": null,
-    "website": null,
-    "description": "モントキアラにある日本酒バー。厳選した日本酒と焼酎を中心に、日本式のおつまみを提供。日本酒の知識が豊富なスタッフが好みに合った酒を提案。",
-    "tags": [
-      "居酒屋",
-      "日本酒",
-      "バー",
-      "おつまみ"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sake-bar-ginn-mont-kiara-bar",
-    "name": "Sake Bar GINN",
-    "name_ja": "酒 バー ギンン",
-    "area": "Mont Kiara",
-    "address": "Mont Kiara, 50480 Kuala Lumpur",
-    "phone": null,
-    "website": null,
-    "description": "モントキアラにある日本酒バー。地酒と居酒屋スタイルの和食おつまみを提供。在住日本人が多いモントキアラで夜18時から深夜0時まで営業。",
-    "tags": [
-      "居酒屋",
-      "日本酒バー",
-      "地酒",
-      "ペアリング"
-    ],
-    "hours": "18:00-00:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sake-bar-hanzo",
-    "name": "Sake Bar Hanzo",
-    "name_ja": "酒 バー ハンゾ",
-    "area": "Bukit Bintang",
-    "address": "Bukit Bintang, Kuala Lumpur",
-    "phone": null,
-    "website": null,
-    "description": "ブキビンタンにある日本酒専門バー。厳選された日本酒と居酒屋料理のペアリングが楽しめる。日本酒好きの在住日本人が集まる落ち着いた空間。",
-    "tags": [
-      "日本酒バー",
-      "居酒屋",
-      "ペアリング"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sake-bar-kura-hartamas",
-    "name": "Sake Bar Kura",
-    "name_ja": "酒 バー クラ",
-    "area": "Desa Sri Hartamas",
-    "address": "Desa Sri Hartamas, Kuala Lumpur",
-    "phone": null,
-    "website": null,
-    "description": "日本人オーナーが運営するデサスリハルタマスの日本酒バー。全国各地の銘柄を取り揃え、スタッフが丁寧に銘柄を説明。日本酒に合う小皿料理も充実。",
-    "tags": [
-      "居酒屋",
-      "日本酒",
-      "バー",
-      "小皿料理"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sake-bar-nami-bangsar",
-    "name": "Sake Bar Nami",
-    "name_ja": "酒 バー ナミ",
-    "area": "Bangsar",
-    "address": "Bangsar, Kuala Lumpur",
-    "phone": null,
-    "website": null,
-    "description": "バンサーにある日本酒専門バー。全国各地の地酒を季節ごとに入れ替え、料理とのペアリングを提案。落ち着いた大人の雰囲気で在住日本人に支持されている。",
-    "tags": [
-      "居酒屋",
-      "日本酒",
-      "バー",
-      "地酒",
-      "ペアリング"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sake-bar-tomo-bangsar",
-    "name": "Sake Bar Tomo",
-    "name_ja": "酒 バー トモ",
-    "area": "Bangsar",
-    "address": "Bangsar, Kuala Lumpur",
-    "phone": null,
-    "website": null,
-    "description": "バンサーにある日本酒と料理を楽しめるバー。日本各地の銘酒を揃え、料理とのペアリングを提案。静かな雰囲気で大人の時間を過ごせる。",
-    "tags": [
-      "居酒屋",
-      "日本酒",
-      "バー",
-      "ペアリング",
-      "バンサー"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sake-bar-zen-mont-kiara",
-    "name": "Sake Bar Zen",
-    "name_ja": "酒 バー 禅",
-    "area": "Mont Kiara",
-    "address": "Mont Kiara, Kuala Lumpur",
-    "phone": null,
-    "website": null,
-    "description": "モントキアラにある日本酒と焼酎の専門バー。蔵元直送の銘酒と和のおつまみを提供。日本酒のフライトセットで飲み比べもできる。",
-    "tags": [
-      "居酒屋",
-      "日本酒",
-      "焼酎",
-      "バー",
-      "飲み比べ"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sakehaus-izakaya",
-    "name": "Sakehaus",
-    "name_ja": "酒ハウス",
-    "area": "Mont Kiara",
-    "address": "Mont Kiara, Kuala Lumpur",
-    "phone": null,
-    "website": null,
-    "description": "モントキアラにある日本酒と居酒屋料理のバー。日本酒・焼酎と小皿料理のペアリングが楽しめる。日本式の居酒屋スタイルで在住日本人にも人気の空間。",
-    "tags": [
-      "居酒屋",
-      "日本酒バー",
-      "小皿料理"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sakura-den",
@@ -19920,10 +19365,11 @@
     "lng": 101.6638,
     "phone": "+60192609072",
     "website": null,
-    "description": "クアラルンプール・カンポンパシルにある日本式居酒屋。日本料理の一品メニューとアルコールを楽しめる。毎日16:00〜翌3:00まで営業する深夜まで利用できる店舗。",
+    "description": "カンポンパシル（Old Klang Road近く）にある日本テーマのカクテルバー。和のインテリアで和素材を使ったオリジナルカクテルを提供。Fujiwara Yakitoriの上階。",
     "tags": [
-      "居酒屋",
-      "和食"
+      "バー",
+      "カクテル",
+      "ノンハラル"
     ],
     "hours": "Monday: 4:00 PM – 3:00 AM / Tuesday: 4:00 PM – 3:00 AM / Wednesday: 4:00 PM – 3:00 AM / Thursday: 4:00 PM – 3:00 AM / Friday: 4:00 PM – 3:00 AM / Saturday: 4:00 PM – 3:00 AM / Sunday: 4:00 PM – 3:00 AM",
     "last_verified": "2026-03-28",
@@ -19937,7 +19383,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sakura-sushi-japanese-restaurant",
@@ -19949,11 +19396,12 @@
     "lng": 101.7544,
     "phone": "+60342879779",
     "website": null,
-    "description": "回転寿司チェーン「くら寿司」のマレーシア・クアラルンプール店。テクノロジーを活用した新しい回転寿司体験と手頃な寿司を提供。",
+    "description": "パンダンインダー（チェラス）にある日本式寿司・和食レストラン。コンベアベルト寿司をRM1.70〜で提供。うどん・焼き魚定食・刺身など幅広いメニュー。",
     "tags": [
-      "日本食",
       "寿司",
-      "レストラン"
+      "和食",
+      "日本食",
+      "ポークフリー"
     ],
     "hours": "Monday: 12:00 – 9:30 PM / Tuesday: 12:00 – 9:30 PM / Wednesday: 12:00 – 9:30 PM / Thursday: 12:00 – 9:30 PM / Friday: 12:00 – 9:30 PM / Saturday: 11:30 AM – 9:30 PM / Sunday: 11:30 AM – 9:30 PM",
     "last_verified": "2026-03-28",
@@ -19967,7 +19415,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sakuragawa-by-mihachinodo",
@@ -19979,10 +19428,11 @@
     "lng": 101.6716,
     "phone": "+601114207931",
     "website": "https://www.sakuragawa.my/",
-    "description": "日本料理ラウンジスタイルのクアラルンプールの日本食店。ゆったりとした空間で和食とドリンクを楽しめ、平日・週末のセットメニューも揃う。",
+    "description": "バンサーにある茨城・三ケ尾の老舗和菓子師のレシピを受け継ぐ日本式ラウンジ。手作り大福・和スイーツとドリンクを楽しめる。公式サイトあり。",
     "tags": [
-      "日本食",
-      "レストラン"
+      "和菓子",
+      "和スイーツ",
+      "日本式ラウンジ"
     ],
     "hours": "Monday: Closed / Tuesday: 10:30 AM – 6:00 PM / Wednesday: 10:30 AM – 6:00 PM / Thursday: 10:30 AM – 6:00 PM / Friday: 10:30 AM – 6:00 PM / Saturday: 10:30 AM – 6:00 PM / Sunday: 10:30 AM – 6:00 PM",
     "last_verified": "2026-03-28",
@@ -19992,11 +19442,12 @@
     "priority": 0,
     "ai_reviewed": true,
     "phone_local": null,
-    "email": null,
+    "email": "hello@sakuragawa.my",
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sakuragawa-yappari-samurai-bangsar",
@@ -20004,14 +19455,14 @@
     "name_ja": "桜川 やっぱり侍",
     "area": "Bangsar",
     "address": "19-2, Jalan Telawi 2, Bangsar Baru, 59100 Kuala Lumpur",
-    "phone": null,
+    "phone": "+60175180255",
     "website": null,
-    "description": "日本の家庭料理をベースにしたバンサーのカジュアル和食レストラン。定食・丼ぶり・うどんなどを揃え、在住日本人にも利用される。",
+    "description": "バンサーにある静岡・浜松料理を軸にした居酒屋系レストラン。えんしゅや焼き・浜松餃子・静岡おでん等のオリジナルメニューを提供。豚肉不使用。",
     "tags": [
-      "定食",
-      "丼",
-      "家庭料理",
-      "カジュアル"
+      "和食",
+      "居酒屋",
+      "静岡料理",
+      "ポークフリー"
     ],
     "hours": "11:30-14:30, 17:30-22:00",
     "last_verified": "2026-03-27",
@@ -20023,78 +19474,23 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sambal",
-    "name": "Sambal 三佰",
-    "name_ja": "サンバル 三佰",
-    "area": "Penang",
-    "address": "300, Lebuh Pantai, George Town, 10300 George Town, Pulau Pinang, Malaysia",
-    "lat": 5.414,
-    "lng": 100.3378,
-    "phone": "+60175674778",
-    "website": "https://www.facebook.com/sambal300",
-    "description": "マレーシア・ペナンの日本式居酒屋。豊富な和食メニューとドリンクを取り揃え、日本の居酒屋の雰囲気をマレーシアで再現している。",
-    "tags": [
-      "居酒屋",
-      "和食"
-    ],
-    "hours": "Monday: Closed / Tuesday: 12:00 – 10:00 PM / Wednesday: 12:00 – 10:00 PM / Thursday: 12:00 – 10:00 PM / Friday: 12:00 – 10:00 PM / Saturday: 12:00 – 10:00 PM / Sunday: 12:00 – 10:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJ41kA8KTDSjARZsTuE9x-wvI",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "san-izakaya",
-    "name": "san izakaya 三居酒屋",
-    "name_ja": "三居酒屋",
-    "area": "Kuala Lumpur",
-    "address": "b-01, 01, Jalan Bangau 11, Bandar Puchong Jaya, 47100 Puchong, Selangor, Malaysia",
-    "lat": 3.0501,
-    "lng": 101.6302,
-    "phone": "+60163319768",
-    "website": null,
-    "description": "プチョン（バンダルプチョンジャヤ）にある三居酒屋。日本の家庭料理・一品料理とビール・日本酒・焼酎を楽しめるカジュアルな居酒屋。火〜日17:30〜翌0:15まで営業。",
-    "tags": [
-      "居酒屋",
-      "日本酒"
-    ],
-    "hours": "Monday: Closed / Tuesday: 5:30 PM – 12:15 AM / Wednesday: 5:30 PM – 12:15 AM / Thursday: 5:30 PM – 12:15 AM / Friday: 5:30 PM – 12:15 AM / Saturday: 5:30 PM – 12:15 AM / Sunday: 5:30 PM – 12:15 AM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJe8BrTP5LzDERuban4Wwl3hY",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "san-izakaya-puchong",
     "name": "San Izakaya",
     "name_ja": "三 Izakaya",
     "area": "Puchong",
-    "address": "B-01, 01, Jalan Bangau 11, Bandar Puchong Jaya, 47100 Puchong",
+    "address": "B-01, 01, Jalan Bangau 11, Bandar Puchong Jaya, 47100 Puchong, Selangor, Malaysia",
     "phone": "+60163319768",
     "website": null,
-    "description": "プチョンにある木造テーマの日本式居酒屋。「深夜食堂」のような雰囲気のプライベート感ある空間で、和食と日本酒・ドリンクが楽しめる。バンダルプチョンジャヤ内。",
+    "description": "プチョン（バンダルプチョンジャヤ）にある日本式居酒屋「三居酒屋」。木造テーマの落ち着いた空間で和食と日本酒・ドリンクを楽しめる。火〜日17:30〜営業。",
     "tags": [
       "居酒屋",
-      "深夜食堂風"
+      "和食",
+      "日本酒",
+      "ノンハラル"
     ],
     "hours": null,
     "status": "unverified",
@@ -20106,7 +19502,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "san-kaiseki-japanese-restaurant",
@@ -20118,11 +19515,11 @@
     "lng": 100.3361,
     "phone": "+60136686272",
     "website": null,
-    "description": "ペナンにある中国式ロースト料理専門店「焼味」。チャーシュー・焼き鴨・焼き豚などのロースト料理をペナンで楽しめる中国料理店。",
+    "description": "ペナン・George Town世界遺産地区にある日本懐石料理店。旬の食材を生かした一期一会の懐石コースを少人数制で提供。火〜日の夜のみ営業。",
     "tags": [
-      "日本食",
       "懐石料理",
-      "レストラン"
+      "日本料理",
+      "高級"
     ],
     "hours": "Monday: Closed / Tuesday: 6:00 – 9:30 PM / Wednesday: 6:00 – 9:30 PM / Thursday: 6:00 – 9:30 PM / Friday: 6:00 – 9:30 PM / Saturday: 6:00 – 9:30 PM / Sunday: 6:00 – 9:30 PM",
     "last_verified": "2026-03-28",
@@ -20136,21 +19533,23 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sanuki-udon-bukit-desa",
     "name": "Sanuki Udon",
     "name_ja": "讃岐 Udon",
     "area": "Taman Bukit Desa",
-    "address": "Taman Bukit Desa, 58100 Kuala Lumpur",
+    "address": "9 Jalan Bukit Desa 5, Taman Bukit Desa, 58100 Kuala Lumpur",
     "phone": null,
     "website": null,
-    "description": "日本人が営む手打ち讃岐うどん専門店。RM8からのリーズナブルな価格で、コシのある太麺の本格うどんを楽しめるタマンブキデサの一軒。",
+    "description": "タマンブキデサで2009年開店の日本人（藤本誠二さん）が営む手打ち讃岐うどん専門店。RM8から本場のコシのある太麺うどんを楽しめる。",
     "tags": [
       "うどん",
       "讃岐うどん",
-      "手打ち"
+      "手打ち",
+      "日本人経営"
     ],
     "hours": null,
     "last_verified": "2026-03-27",
@@ -20162,7 +19561,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sanzaru-izakaya-and-bar-ara-damansara",
@@ -20174,11 +19574,12 @@
     "lng": 101.5782,
     "phone": "+60378322949",
     "website": "http://sanzaruizakaya.com/",
-    "description": "アラダマンサラにある三猿居酒屋＆バー。日本の家庭料理・一品料理とビール・日本酒・焼酎を楽しめる。公式サイトあり、毎日営業。",
+    "description": "アラダマンサラにある三猿居酒屋＆バー。焼き鳥・刺身・丼物・ラーメン等の和食と生ビール・日本酒を楽しめる日本式居酒屋。公式サイトあり。",
     "tags": [
-      "バー",
       "居酒屋",
-      "日本酒"
+      "和食",
+      "日本酒",
+      "ノンハラル"
     ],
     "hours": "Monday: 11:30 AM – 11:00 PM / Tuesday: 11:30 AM – 11:00 PM / Wednesday: 11:30 AM – 11:00 PM / Thursday: 11:30 AM – 11:00 PM / Friday: 12:00 PM – 12:00 AM / Saturday: 12:00 PM – 12:00 AM / Sunday: 11:30 AM – 11:00 PM",
     "last_verified": "2026-03-28",
@@ -20192,7 +19593,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sanzaru-izakaya-and-bar-bukit-jalil",
@@ -20204,11 +19606,12 @@
     "lng": 101.6772,
     "phone": "+60389990268",
     "website": "http://sanzaruizakaya.com/",
-    "description": "ブキジャリルにある三猿居酒屋＆バー。焼き鳥・刺身・天ぷらなどの和食と生ビール・日本酒を提供する日本式居酒屋。公式サイトあり、毎日ランチ・ディナー営業。",
+    "description": "ブキジャリルにある三猿居酒屋＆バー。焼き鳥・刺身・天ぷら・丼物など和食メニューと生ビール・日本酒を提供。毎日ランチ・ディナー営業。",
     "tags": [
-      "バー",
       "居酒屋",
-      "日本酒"
+      "和食",
+      "日本酒",
+      "ノンハラル"
     ],
     "hours": "Monday: 11:30 AM – 2:30 PM, 5:00 – 11:00 PM / Tuesday: 11:30 AM – 2:30 PM, 5:00 – 11:00 PM / Wednesday: 11:30 AM – 2:30 PM, 5:00 – 11:00 PM / Thursday: 11:30 AM – 2:30 PM, 5:00 – 11:00 PM / Friday: 11:30 AM – 2:30 PM, 5:00 – 11:00 PM / Saturday: 11:30 AM – 2:30 PM, 5:00 – 11:00 PM / Sunday: 11:30 AM – 2:30 PM, 5:00 – 11:00 PM",
     "last_verified": "2026-03-28",
@@ -20222,109 +19625,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sanzaru-izakaya-ara-damansara",
-    "name": "Sanzaru Izakaya & Bar",
-    "name_ja": "三猿 Izakaya & Bar",
-    "area": "Ara Damansara",
-    "address": "F-G-11, Jalan PJU 1A/20D, Ara Damansara, 47301 Petaling Jaya, Selangor",
-    "phone": null,
-    "website": null,
-    "description": "アラダマンサラにある日本式居酒屋＆バー。一品料理とドリンクをカジュアルに楽しめ、グループでの宴会利用にも広く対応している。",
-    "tags": [
-      "居酒屋",
-      "バー"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sanzaru-izakaya-bukit-jalil",
-    "name": "Sanzaru Izakaya & Bar Bukit Jalil",
-    "name_ja": "三猿 Izakaya & Bar Bukit Jalil",
-    "area": "Bukit Jalil",
-    "address": "Bukit Jalil, 57000 Kuala Lumpur",
-    "phone": null,
-    "website": null,
-    "description": "マレーシア・Bukit Jalilにある居酒屋スタイルの日本料理店。一品料理やドリンクをカジュアルに楽しめる。宴会にも対応。",
-    "tags": [
-      "居酒屋",
-      "バー"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "sns",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sanzaru-izakaya-puchong",
-    "name": "Sanzaru Izakaya Puchong",
-    "name_ja": "三猿 Izakaya Puchong",
-    "area": "Puchong",
-    "address": "IOI Mall Puchong, Jalan Puchong, Bandar Puchong Jaya, 47170 Puchong",
-    "phone": null,
-    "website": null,
-    "description": "プチョン・IOIモール内にある三猿居酒屋。焼鳥・和食メニューとアルコールを楽しめる。カラオケ個室も備えており在住日本人のパーティーにも対応。",
-    "tags": [
-      "居酒屋",
-      "焼鳥",
-      "カラオケ個室"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-28",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sanzaru-izakaya-setia-alam",
-    "name": "Sanzaru Izakaya Setia Alam",
-    "name_ja": "三猿 Izakaya Setia Alam",
-    "area": "Shah Alam",
-    "address": "Setia Alam, 40170 Shah Alam, Selangor",
-    "phone": null,
-    "website": null,
-    "description": "シャーアラム・セティアアラムにある三猿居酒屋。焼鳥・和食メニューとアルコールを楽しめる。カラオケ個室も備えており在住日本人グループの利用にも対応する。",
-    "tags": [
-      "居酒屋",
-      "焼鳥",
-      "カラオケ個室"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-28",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "seirock-ya-ramen-nu-sentral",
@@ -20334,11 +19636,12 @@
     "address": "Nu Sentral, Jalan Tun Sambanthan, 50470 Kuala Lumpur",
     "phone": null,
     "website": "https://www.seirock-ya.com.my/",
-    "description": "東京・池袋発のラーメン店のNu Sentral店。濃厚豚骨ラーメンが看板メニュー。Damansara Uptown店もあり。",
+    "description": "東京・池袋発のラーメンチェーン「せいろくや」のNu Sentral（KLセントラル）店。濃厚鶏白湯ラーメンが看板メニュー。ハラル認証取得済み。",
     "tags": [
       "ラーメン",
-      "豚骨",
-      "カジュアル"
+      "鶏白湯",
+      "日本チェーン",
+      "ハラル"
     ],
     "hours": "毎日 11:00-22:00",
     "status": "unverified",
@@ -20350,7 +19653,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "seirock-ya-ramen-uptown",
@@ -20360,11 +19664,12 @@
     "address": "Damansara Uptown, Petaling Jaya, Selangor",
     "phone": null,
     "website": "https://www.seirock-ya.com.my/",
-    "description": "東京・池袋発の日本ラーメンチェーンのマレーシア第1号店。ダマンサラアップタウンに位置し、濃厚豚骨ラーメンが看板メニュー。Nu Sentral店もあり。",
+    "description": "東京・池袋発のラーメンチェーン「せいろくや」マレーシア第1号店。ダマンサラアップタウンに位置し、濃厚鶏白湯ラーメンが看板。ハラル認証取得済み。",
     "tags": [
       "ラーメン",
-      "豚骨",
-      "カジュアル"
+      "鶏白湯",
+      "日本チェーン",
+      "ハラル"
     ],
     "hours": "毎日 11:00-22:00",
     "status": "unverified",
@@ -20415,62 +19720,8 @@
         "category": "ご飯もの"
       }
     ],
-    "price_range": "MYR 20〜35/人"
-  },
-  {
-    "slug": "seng-hing-coffee-shop",
-    "name": "Seng Hing Coffee Shop",
-    "name_ja": "セング ヒング コーヒー ショップ",
-    "area": "Kota Kinabalu",
-    "address": "Lot 10, Lorong Sinsuran 2, Sinsuran Kompleks, 88000 Kota Kinabalu, Sabah, Malaysia",
-    "lat": 5.9805,
-    "lng": 116.0726,
-    "phone": "+60198105255",
-    "website": "https://www.facebook.com/pages/Kedai-Kopi-Seng-Hing/155823381139947",
-    "description": "コタキナバルにある日本料理レストラン「Nori」。寿司・刺身・定食など幅広い和食メニューをKKのWaterfrontエリアでカジュアルに楽しめる。",
-    "tags": [
-      "日本食",
-      "レストラン"
-    ],
-    "hours": "Monday: 7:00 AM – 4:00 PM / Tuesday: 7:00 AM – 4:00 PM / Wednesday: 7:00 AM – 4:00 PM / Thursday: 7:00 AM – 4:00 PM / Friday: 7:00 AM – 4:00 PM / Saturday: 7:00 AM – 4:00 PM / Sunday: 7:00 AM – 4:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJa4gAw5FpOzIRgP8AeFtuHw0",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "senjyu-bangsar-village",
-    "name": "Senjyu Japanese Restaurant",
-    "name_ja": "千寿 Japanese Restaurant",
-    "area": "Bangsar",
-    "address": "Bangsar Village II, 2, Jalan Telawi 1, Bangsar, 59100 Kuala Lumpur",
-    "phone": null,
-    "website": null,
-    "description": "Bangsar Village内にある寿司レストラン。新鮮なネタを使った寿司・刺身を提供。日本の寿司の味をマレーシアで楽しめる。",
-    "tags": [
-      "寿司",
-      "刺身",
-      "鉄板焼き"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-28",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "price_range": "MYR 20〜35/人",
+    "place_reviewed": true
   },
   {
     "slug": "senya",
@@ -20482,10 +19733,12 @@
     "lng": 101.6677,
     "phone": "+60362054999",
     "website": "http://sushitrain.com.my/senya/",
-    "description": "ソラリス・ドゥタマスにある日本式居酒屋。定番の居酒屋メニューから創作料理まで幅広く提供し、ドリンクメニューも充実。毎日正午から22:00まで営業。",
+    "description": "ソラリス・ドゥタマスにある「鮮家（Senya）」。刺身・丼物・串焼き・寿司など幅広い和食メニューをiPadで注文できる日本式居酒屋。北海道豚丼が名物。",
     "tags": [
       "居酒屋",
-      "和食"
+      "和食",
+      "刺身",
+      "ノンハラル"
     ],
     "hours": "Monday: 12:00 – 10:00 PM / Tuesday: 12:00 – 10:00 PM / Wednesday: 12:00 – 10:00 PM / Thursday: 12:00 – 10:00 PM / Friday: 12:00 – 10:00 PM / Saturday: 12:00 – 10:00 PM / Sunday: 12:00 – 10:00 PM",
     "last_verified": "2026-03-28",
@@ -20499,7 +19752,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "senya-izakaya-publika",
@@ -20509,12 +19763,12 @@
     "address": "D5-G3-1, Solaris Dutamas, 1, Jalan Dutamas 1, 50480 Kuala Lumpur",
     "phone": "+60362054999",
     "website": null,
-    "description": "ソラリス・ドゥタマスのパブリカ内にある居酒屋。刺身・丼物・串焼き・寿司など幅広い和食メニューを揃える。北海道ポーク丼の大盛りが名物。",
+    "description": "ソラリス・ドゥタマス（パブリカ）内にある鮮家居酒屋。刺身・丼物・串焼き・寿司など幅広い和食と北海道ポーク丼の大盛りが名物メニュー。",
     "tags": [
       "居酒屋",
-      "丼物",
+      "和食",
       "刺身",
-      "串焼き"
+      "ノンハラル"
     ],
     "hours": null,
     "status": "unverified",
@@ -20526,94 +19780,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "seoul-garden-hotpot-suria-sabah",
-    "name": "Seoul Garden HotPot Suria Sabah",
-    "name_ja": "セオウル ガーデン ホットポット スリア サバ",
-    "area": "Kota Kinabalu",
-    "address": "Suria Sabah Shopping Mall, Pusat Bandar Kota Kinabalu, 88000 Kota Kinabalu, Sabah, Malaysia",
-    "lat": 5.9871,
-    "lng": 116.0766,
-    "phone": "+6088291339",
-    "website": "http://www.seoulgarden.com.my/",
-    "description": "コタキナバルにある日本料理レストラン「Wave」。日本語対応スタッフが在籍し、寿司・刺身・定食など幅広い和食をKKのWaterfrontで楽しめる。",
-    "tags": [
-      "日本食",
-      "レストラン"
-    ],
-    "hours": "Monday: 11:00 AM – 10:00 PM / Tuesday: 11:00 AM – 10:00 PM / Wednesday: 11:00 AM – 10:00 PM / Thursday: 11:00 AM – 10:00 PM / Friday: 11:00 AM – 10:00 PM / Saturday: 11:00 AM – 10:00 PM / Sunday: 11:00 AM – 10:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJf-lamYhpOzIRv6RFQSzw8dQ",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "seri-selera-kampung-air",
-    "name": "Seri Selera Kampung Air",
-    "name_ja": "セリ セレラ カンプン Air",
-    "area": "Kota Kinabalu",
-    "address": "Lot 12, Block A, 1st Floor, Sedco Square, Kampung Air, 88300 Kota Kinabalu, Sabah, Malaysia",
-    "lat": 5.9778,
-    "lng": 116.074,
-    "phone": "+6088210400",
-    "website": null,
-    "description": "コタキナバルにある日本式居酒屋「星」。日本式のおつまみ・串焼き・日本酒をKKのWaterfrontエリアでカジュアルに楽しめる居酒屋。",
-    "tags": [
-      "日本食",
-      "レストラン"
-    ],
-    "hours": "Monday: 11:30 AM – 8:00 PM / Tuesday: 11:30 AM – 8:00 PM / Wednesday: 11:30 AM – 8:00 PM / Thursday: 11:30 AM – 8:00 PM / Friday: 11:30 AM – 8:00 PM / Saturday: 11:30 AM – 8:00 PM / Sunday: 11:30 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJxT204ZBpOzIRmRWuarvguZQ",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "seventy7-bar",
-    "name": "Seventy7 Bar",
-    "name_ja": "セブンティセブン バー",
-    "area": "Penang",
-    "address": "Level 1, 73, Lebuh Noordin, George Town, 10300 George Town, Pulau Pinang, Malaysia",
-    "lat": 5.4119,
-    "lng": 100.3312,
-    "phone": null,
-    "website": "https://www.instagram.com/seventy7bar",
-    "description": "ペナンにある「Seventy7 Bar」の居酒屋。定番の居酒屋メニューと多彩なドリンクを揃え、カジュアルな雰囲気で楽しめる。",
-    "tags": [
-      "バー",
-      "居酒屋"
-    ],
-    "hours": "Monday: Closed / Tuesday: Closed / Wednesday: Closed / Thursday: Closed / Friday: 8:00 PM – 1:00 AM / Saturday: 8:00 PM – 1:00 AM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJoazetaLDSjARZE35rtgndqQ",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shabu-yo-lalaport-bbcc",
@@ -20623,7 +19791,7 @@
     "address": "Lot G-78 & 79, Gourmet Street, Mitsui Shopping Park LaLaport, 2 Jalan Hang Tuah, Bukit Bintang, 55100 Kuala Lumpur, Malaysia",
     "phone": null,
     "website": "https://www.facebook.com/ShabuYo/",
-    "description": "日本のすかいらーくグループが運営する「しゃぶ葉」マレーシア3号店。160席の大型店舗で、しゃぶしゃぶ・すき焼き食べ放題を提供。ららぽーとBukit Bintang City Centre内のグルメストリートに位置。",
+    "description": "日本すかいらーくグループが運営する「しゃぶ葉」ららぽーとBBCC店。しゃぶしゃぶ・すき焼き食べ放題を提供する日本最大手チェーンのマレーシア3号店。",
     "tags": [
       "しゃぶしゃぶ",
       "食べ放題",
@@ -20641,7 +19809,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shabu-yo-sunway-pyramid",
@@ -20651,7 +19820,7 @@
     "address": "G.1.112-113, Ground Floor, Sunway Pyramid, 3 Jalan PJS 11/15, Bandar Sunway, 47500 Subang Jaya, Selangor, Malaysia",
     "phone": null,
     "website": "https://www.facebook.com/ShabuYo/",
-    "description": "日本のすかいらーくグループが運営する「しゃぶ葉」マレーシア2号店。しゃぶしゃぶ・すき焼き食べ放題を提供。約30種類のたれバーでお好みの味にカスタマイズ可能。Sunway Pyramid内でアクセス良好。",
+    "description": "日本すかいらーくグループが運営する「しゃぶ葉」Sunway Pyramid店（マレーシア2号店）。しゃぶしゃぶ・すき焼き食べ放題で約30種のたれバーあり。",
     "tags": [
       "しゃぶしゃぶ",
       "食べ放題",
@@ -20669,7 +19838,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shabu-yo-sunway-velocity",
