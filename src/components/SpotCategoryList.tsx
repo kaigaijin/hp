@@ -30,14 +30,13 @@ type Props = {
 };
 
 export default function placeCategoryList({ places, countryCode, categorySlug, catTheme }: Props) {
-  const [displayed, setDisplayed] = useState<place[]>([]);
+  const [displayed, setDisplayed] = useState<place[]>(places);
 
   useEffect(() => {
-    const shuffled = [...places].sort(() => Math.random() - 0.5);
-    setDisplayed(shuffled);
+    setDisplayed([...places].sort(() => Math.random() - 0.5));
   }, [places]);
 
-  if (displayed.length === 0) return null;
+  if (places.length === 0) return null;
 
   return (
     <div className="space-y-3">

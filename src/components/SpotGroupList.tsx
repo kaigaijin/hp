@@ -78,7 +78,7 @@ function PlaceGroupListInner({
   const [activeFilter, setActiveFilter] = useState<string | null>(initialFilter);
   const [currentPage, setCurrentPage] = useState(initialPage);
   const [searchQuery, setSearchQuery] = useState("");
-  const [shuffledplaces, setShuffledplaces] = useState(places);
+  const [shuffledplaces, setShuffledplaces] = useState(() => [...places].sort(() => Math.random() - 0.5));
 
   useEffect(() => {
     setShuffledplaces([...places].sort(() => Math.random() - 0.5));

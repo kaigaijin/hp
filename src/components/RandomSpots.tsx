@@ -29,14 +29,15 @@ export default function Randomplaces({
   categoryName,
   count = 5,
 }: Props) {
-  const [displayed, setDisplayed] = useState<place[]>([]);
+  const [displayed, setDisplayed] = useState<place[]>(() =>
+    [...places].sort(() => Math.random() - 0.5).slice(0, count)
+  );
 
   useEffect(() => {
-    const shuffled = [...places].sort(() => Math.random() - 0.5);
-    setDisplayed(shuffled.slice(0, count));
+    setDisplayed([...places].sort(() => Math.random() - 0.5).slice(0, count));
   }, [places, count]);
 
-  if (displayed.length === 0) return null;
+  if (places.length === 0) return null;
 
   return (
     <div className="mt-4 pt-6 border-t border-stone-300 dark:border-stone-600">
