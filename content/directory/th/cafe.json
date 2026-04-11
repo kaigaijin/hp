@@ -2452,13 +2452,13 @@
   },
   {
     "slug": "chaen-tea-cafe-bangkok-cafe",
-    "name": "Chaen Tea Cafe",
+    "name": "ChaEn Tea Experience",
     "name_ja": "チャエン ティー カフェ",
     "area": "Sukhumvit",
-    "address": "Soi Sukhumvit 33, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "address": "129 Sukhumvit 57, Khlong Tan Nuea, Watthana, Bangkok 10110",
     "phone": null,
-    "website": "https://www.instagram.com/chaen_matcha/",
-    "description": "スクンビットSoi33近く、BTSプロンポン駅そばの日本茶専門カフェ。煎茶・ほうじ茶・抹茶ラテなど厳選茶葉を使ったドリンクと和スイーツを提供。畳席もあり。",
+    "website": "https://www.facebook.com/chaen.tea.ex/",
+    "description": "トンロー（Soi Sukhumvit 57）にある日本茶体験カフェ。抹茶・ほうじ茶・煎茶などを提供し、タタミ席でゆっくり楽しめる。CentralWorld・サイアムスクエアワンにも展開。",
     "tags": [
       "日本茶",
       "抹茶",
@@ -2479,14 +2479,73 @@
     "place_reviewed": true
   },
   {
+    "slug": "chamu-japanese-pattaya",
+    "name": "Chamu Japanese Pattaya",
+    "name_ja": "ちゃむ パタヤ",
+    "area": "Pattaya",
+    "address": "Level B1, Royal Cliff Grand Hotel, 353 Phra Tamnak, Pattaya, Bang Lamung, Chon Buri 20150",
+    "phone": "+6638250421",
+    "website": "https://www.royalcliff.com/restaurant/chamu-japanese-corner/",
+    "description": "パタヤのRoyal Cliff Grand Hotel B1Fにある日本料理レストラン。寿司・刺身・鉄板焼き・しゃぶしゃぶを提供。熟練した日本人シェフによる本格的な料理と海を望む景色が魅力。",
+    "tags": [
+      "カフェ",
+      "パン",
+      "日本式"
+    ],
+    "hours": "Monday: 12:00 – 9:00 PM / Tuesday: 12:00 – 9:00 PM / Wednesday: 12:00 – 9:00 PM / Thursday: Closed / Friday: Closed / Saturday: 12:00 – 9:00 PM / Sunday: 12:00 – 9:00 PM",
+    "last_verified": "2026-03-28",
+    "status": "unverified",
+    "source": "google_maps",
+    "place_id": "ChIJrap03OGXAjERB0EfSYay3KI",
+    "ai_reviewed": false,
+    "phone_local": null,
+    "email": null,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null,
+    "detail": "パタヤのロイヤルクリフグランドホテル内にある日本料理コーナー。カリフォルニア巻き・鮭照り焼き・牛サーロイン照り焼きなどのシグネチャー料理を提供。「トレンディでくつろげる」空間で30名収容。12:00〜21:00（木・金・毎月最終土曜休業）。パタヤビーチ近くのロイヤルクリフホテル内。",
+    "place_reviewed": true
+  },
+  {
+    "slug": "charin-pie",
+    "name": "Charin Pie",
+    "name_ja": "チャリン パイ",
+    "area": "Chiang Mai",
+    "address": "20 Nimmanhaemin Soi 17, Su Thep, Mueang Chiang Mai, Chiang Mai 50200",
+    "lat": 18.7949,
+    "lng": 98.9682,
+    "phone": "+66989558149",
+    "website": "https://www.facebook.com/CharinPie/",
+    "description": "ニマンヘミンSoi 17にあるパイ専門のベーカリーカフェ。マンゴークリームパイ・ヤシの実パイなど多彩なホームメイドパイが名物。木造の古民家を改装した温かい雰囲気。",
+    "tags": [
+      "カフェ",
+      "日本式"
+    ],
+    "hours": "Monday: 9:00 AM – 7:00 PM / Tuesday: 9:00 AM – 7:00 PM / Wednesday: 9:00 AM – 7:00 PM / Thursday: 9:00 AM – 7:00 PM / Friday: 9:00 AM – 7:00 PM / Saturday: 9:00 AM – 7:00 PM / Sunday: 9:00 AM – 7:00 PM",
+    "last_verified": "2026-03-28",
+    "status": "unverified",
+    "source": "google_maps",
+    "place_id": "ChIJU2aso2I62jARBtNgMlnRtKM",
+    "priority": 0,
+    "ai_reviewed": false,
+    "phone_local": null,
+    "email": null,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null,
+    "place_reviewed": true
+  },
+  {
     "slug": "chateraise-bangkok",
     "name": "Chateraise Bangkok",
     "name_ja": "シャトレーゼ バンコク",
     "area": "Bangkok",
     "address": "Multiple locations across Bangkok",
     "phone": null,
-    "website": null,
-    "description": "山梨県発祥の日本洋菓子チェーン「シャトレーゼ」のバンコク店舗。ケーキ・アイスクリーム・和菓子・焼き菓子など手頃な価格で日本品質のスイーツを販売。",
+    "website": "https://www.chateraise.co.jp/shoplist/thailand",
+    "description": "山梨県発祥の日本洋菓子チェーン「シャトレーゼ」のタイ展開。ケーキ・アイスクリーム・和菓子など日本品質のスイーツを手頃な価格で提供。バンコク市内に複数店舗展開。",
     "tags": [
       "スイーツ",
       "ケーキ",
@@ -2511,10 +2570,10 @@
     "name": "Chateraise Central World",
     "name_ja": "チャテライセ セントラル ワールド",
     "area": "Bangkok",
-    "address": "ชั้น3 โซนเจแปนอเวนิว โซน I Khwaeng Pathum Wan, Pathum Wan, Krung Thep Maha Nakhon 10330, Thailand",
+    "address": "Central World 3F, 999/9 Rama I Rd, Pathum Wan, Bangkok 10330",
     "phone": "+66968860850",
-    "website": "https://m.facebook.com/chateraise.thailand",
-    "description": "セントラルワールド3階・ジャパンアベニュー内の「シャトレーゼ」タイ店舗。日本産素材を使ったケーキ・アイスクリーム・和菓子を手頃な価格で販売。",
+    "website": "https://www.chateraise.co.jp/shoplist/detail/163",
+    "description": "山梨発の日本洋菓子チェーン「シャトレーゼ」のCentral World 3F店。ケーキ・アイスクリーム・和菓子を手頃な価格で提供。添加物を抑えた日本品質のスイーツが在住者に人気。",
     "tags": [
       "スイーツ",
       "ケーキ",
@@ -2542,8 +2601,8 @@
     "area": "Lumphini",
     "address": "One Bangkok, Wireless Road, Lumphini, Pathum Wan, Bangkok 10330",
     "phone": null,
-    "website": null,
-    "description": "One Bangkokモール内の「シャトレーゼ」タイ店舗。日本産素材を使ったケーキ・アイスクリーム・焼き菓子を販売。BTSルンピニー駅近く。",
+    "website": "https://www.chateraise.co.jp/shoplist/thailand",
+    "description": "山梨発の日本洋菓子チェーン「シャトレーゼ」のOne Bangkok店。BTSルンピニー駅周辺のOne Bangkokモール内で日本品質のケーキ・アイス・和菓子を提供。",
     "tags": [
       "スイーツ",
       "ケーキ",
@@ -2568,10 +2627,10 @@
     "name": "Chaya Teahouse",
     "name_ja": "チャヤ ティーハウス",
     "area": "Bangkok",
-    "address": "7, 14 ถ. ประดิพัทธ์ แขวงพญาไท เขตพญาไท กรุงเทพมหานคร 10400, Thailand",
-    "phone": "+66621982294",
-    "website": "http://www.chayaandco.com/",
-    "description": "バンコク・プラヤータイのJAS認定オーガニック抹茶カフェ。タイ人オーナーが日本で茶の栽培を学んだ本格日本式ティーハウス。抹茶ラテ・道明寺・どら焼きが人気。",
+    "address": "14 Pradiphat Road, Phaya Thai, Phaya Thai, Bangkok 10400",
+    "phone": "+66622198294",
+    "website": "https://chayaandco.com/",
+    "description": "ファヤタイ区ソイ・プラディパット沿いの日本茶専門ティーハウス。タイ人オーナーが日本の茶農園で研修を積み開業。JAS認定の有機抹茶・日本茶と和菓子（道明寺・団子）を提供。タタミ席あり。",
     "tags": [
       "日本茶",
       "抹茶",
@@ -2599,8 +2658,8 @@
     "area": "Phuket",
     "address": "1 Prayoon Soi 3, Tambon Talat Yai, MUANG Chang Wat Phuket 83000, Thailand",
     "phone": "+66869403399",
-    "website": "https://www.facebook.com/share/1DWkbwSRyj/",
-    "description": "プーケット・サムコン地区のホームメイドベーカリー。毎日焼き立てのパン・ペストリーとコーヒーを提供。在住日本人も利用するモーニング・ランチの定番スポット。",
+    "website": "https://www.facebook.com/thebakeryhouseatphuket/",
+    "description": "プーケット・サムコン地区のホームメイドベーカリーカフェ。手作りのパン・ペストリーとコーヒーを提供し、在住日本人や旅行者にも利用されている。",
     "tags": [
       "ベーカリー",
       "カフェ",
@@ -2625,10 +2684,10 @@
     "name": "Cheva & Chavee",
     "name_ja": "チェヴァ & チャヴィー",
     "area": "Chiang Mai",
-    "address": "10 Siri Mangkalajarn Rd Lane 13, Tambon Su Thep, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200, Thailand",
+    "address": "Nimmana Haeminda Rd Soi 7, Su Thep, Mueang Chiang Mai, Chiang Mai 50200",
     "phone": "+66615028555",
-    "website": "https://www.facebook.com/chevachavee",
-    "description": "チェンマイ・シリマンカラチャーン通りの北海道ミルクドーナツ専門店。ホカホカのもちもちドーナツ4個と北海道クリームのセット販売。テイクアウト専門で人気。",
+    "website": "https://www.facebook.com/chevachavee/",
+    "description": "ニマンヘミンSoi 7にある人気の日本風ドーナツ専門店。北海道ミルクスプレッドと一緒に楽しむもちもちドーナツが名物。テイクアウトのみ。チェンマイ発のローカル人気店。",
     "tags": [
       "ドーナツ",
       "テイクアウト",
@@ -2649,112 +2708,14 @@
     "place_reviewed": true
   },
   {
-    "slug": "cheva-chavee",
-    "name": "CHEVA CHAVEE",
-    "name_ja": "チェヴァ・チャヴィー",
-    "area": "Chiang Mai",
-    "address": "22 Nimmana Haeminda Rd Lane 7, Tambon Su Thep, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200, Thailand",
-    "lat": 18.798,
-    "lng": 98.9693,
-    "phone": null,
-    "website": null,
-    "description": "チェンマイ・ニマンヘミン7路地の北海道ミルクドーナツ専門店。もちもちドーナツ4個と北海道クリームのセット販売。テイクアウト専門、チェンマイで話題の人気店。",
-    "tags": [
-      "ドーナツ",
-      "テイクアウト",
-      "日本式"
-    ],
-    "hours": "Monday: 11:00 AM – 7:00 PM / Tuesday: 11:00 AM – 7:00 PM / Wednesday: 11:00 AM – 7:00 PM / Thursday: 11:00 AM – 7:00 PM / Friday: 11:00 AM – 7:00 PM / Saturday: 11:00 AM – 7:00 PM / Sunday: 11:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJearesqs72jARrONsdRKYJ-o",
-    "priority": 0,
-    "ai_reviewed": false,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "place_reviewed": true
-  },
-  {
-    "slug": "chez-shibata-365",
-    "name": "Chez Shibata 365",
-    "name_ja": "シェ・シバタ365",
-    "area": "Bangkok",
-    "address": "2 Soi Sangchai, พระโขนง, Khet Khlong Toei, Krung Thep Maha Nakhon 10110, Thailand",
-    "phone": null,
-    "website": "https://chezshibata365.com/",
-    "description": "日本人パティシエ柴田武シェフのフレンチパティスリー。バスクチーズケーキ・マカロン・バタークッキーサンドなど日仏融合の本格スイーツ。ギフト需要も高い。",
-    "tags": [
-      "パティスリー",
-      "ケーキ",
-      "日本人シェフ",
-      "フランス菓子"
-    ],
-    "hours": "Monday: 8:30 AM – 8:00 PM / Tuesday: 8:30 AM – 8:00 PM / Wednesday: 8:30 AM – 8:00 PM / Thursday: 8:30 AM – 8:00 PM / Friday: 8:30 AM – 8:00 PM / Saturday: 8:30 AM – 8:00 PM / Sunday: 8:30 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJDcd0uoaf4jAR76iXI0lEb2A",
-    "ai_reviewed": false,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "detail": "日本人パティシエ柴田武氏監修のパティスリー。バンコク市内にショップを展開し、バスクチーズケーキ（THB 180〜）やマカロン、バタークッキーサンドなどの本格フランス菓子を販売。誕生日ケーキやギフトセットのオーダーにも対応。",
-    "menu": [
-      {
-        "name": "バスクチーズケーキ",
-        "price": "THB 180",
-        "category": "ケーキ"
-      },
-      {
-        "name": "ストロベリーショートケーキ（カップ）",
-        "price": "THB 250",
-        "category": "ケーキ"
-      },
-      {
-        "name": "365 セイチーズ",
-        "price": "THB 290",
-        "category": "ケーキ"
-      },
-      {
-        "name": "マカロン6個セット",
-        "price": "THB 685",
-        "category": "焼き菓子"
-      },
-      {
-        "name": "バタサン6個セット",
-        "price": "THB 650",
-        "category": "焼き菓子"
-      },
-      {
-        "name": "バタサン12個セット",
-        "price": "THB 1,210",
-        "category": "焼き菓子"
-      },
-      {
-        "name": "ベアキャンドル（アクセサリー）",
-        "price": "THB 100",
-        "category": "アクセサリー"
-      }
-    ],
-    "place_reviewed": true
-  },
-  {
     "slug": "chez-shibata-thonglor",
     "name": "Chez Shibata 365",
     "name_ja": "シェ・シバタ 365",
     "area": "Thonglor",
-    "address": "Hotel Nikko 3F, 317 Soi Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "address": "Hotel Nikko Bangkok 3F, 27 Soi Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
     "phone": null,
     "website": "https://chezshibata365.com/",
-    "description": "日本人パティシエ柴田武シェフのフレンチパティスリー・トンロー店。ホテルニッコー3階、日本産食材を使った繊細なケーキやペストリーを提供。手土産にも最適。",
+    "description": "岐阜県多治見市発の名パティシエ柴田武氏のパティスリー。Hotel Nikko Bangkok 3Fに入居し、日本とフランスを融合させたケーキ・シュークリーム・タルトを提供。ギフトにも最適。",
     "tags": [
       "パティスリー",
       "ケーキ",
@@ -2803,14 +2764,41 @@
     "place_reviewed": true
   },
   {
+    "slug": "chot-chit-pochana",
+    "name": "Chot Chit Pochana",
+    "name_ja": "チョト チット ポチャナ",
+    "area": "Bangkok",
+    "address": "148 Phraeng Phuthon Rd, Khwaeng San Chao Pho Sua, Phra Nakhon, Bangkok 10200",
+    "phone": "+6622214082",
+    "website": null,
+    "description": "バンコク・プラナコーン区（Phraeng Phuthon通り）にある日本料理レストラン。夜18時〜22時営業で、日本食を提供する隠れ家的な居酒屋スタイルの店。サナム・チャイ駅から徒歩圏内。",
+    "tags": [
+      "カフェ",
+      "日本式"
+    ],
+    "hours": "Monday: 11:00 AM – 10:00 PM / Tuesday: 11:00 AM – 10:00 PM / Wednesday: 11:00 AM – 10:00 PM / Thursday: 11:00 AM – 10:00 PM / Friday: 11:00 AM – 10:00 PM / Saturday: 11:00 AM – 10:00 PM / Sunday: 11:00 AM – 10:00 PM",
+    "last_verified": "2026-03-28",
+    "status": "unverified",
+    "source": "google_maps",
+    "place_id": "ChIJR3EeOgCZ4jARMGAJ6eloD8c",
+    "ai_reviewed": false,
+    "phone_local": null,
+    "email": null,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null,
+    "place_reviewed": true
+  },
+  {
     "slug": "cloud-yard",
     "name": "CLOUD YARD",
     "name_ja": "クラウド ヤード",
     "area": "Phuket",
-    "address": "95 3 Thanon Dibuk, Tambon Talat Nuea, เมือง Chang Wat Phuket 83000, Thailand",
+    "address": "95/3 Thanon Dibuk, Talat Nuea, Mueang Phuket, Phuket 83000",
     "phone": "+66659147993",
-    "website": null,
-    "description": "プーケットオールドタウン・ディブック通りの日本式焼き鳥バー。本格焼き鳥と厳選ハイボール・焼酎を楽しめる夜の日本系スポット。18:00〜深夜営業。",
+    "website": "https://www.facebook.com/CLOUDYARD.CO/",
+    "description": "プーケット旧市街Dibuk通りにある日本式焼き鳥バー・居酒屋。ハイボールや焼き鳥のほか、寿司・ラーメン等の日本食も提供。夜18時〜0時営業（火曜定休）。",
     "tags": [
       "焼き鳥",
       "バー",
@@ -2831,14 +2819,71 @@
     "place_reviewed": true
   },
   {
+    "slug": "combu-suki-buffet",
+    "name": "COMBU SUKI BUFFET",
+    "name_ja": "コンブ スキ ビュッフェ",
+    "area": "Phuket",
+    "address": "7/16 Suthat Road, Talat Yai, Mueang Phuket, Phuket 83000",
+    "phone": "+66826233263",
+    "website": "https://www.facebook.com/Combusuki/",
+    "description": "プーケット・スタット通りにある日本式しゃぶしゃぶ・すき焼きバッフェ専門店。5種のスープと豊富な食材を提供。599〜999バーツで食べ放題。日替わりスープが特徴。",
+    "tags": [
+      "カフェ",
+      "日本式"
+    ],
+    "hours": "Monday: 11:00 AM – 9:00 PM / Tuesday: 11:00 AM – 9:00 PM / Wednesday: 11:00 AM – 9:00 PM / Thursday: 11:00 AM – 9:00 PM / Friday: 11:00 AM – 9:00 PM / Saturday: 11:00 AM – 9:00 PM / Sunday: 11:00 AM – 9:00 PM",
+    "last_verified": "2026-03-28",
+    "status": "unverified",
+    "source": "google_maps",
+    "place_id": "ChIJ64U4VAsxUDARbWOhB4dEAYg",
+    "ai_reviewed": false,
+    "phone_local": null,
+    "email": null,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null,
+    "place_reviewed": true
+  },
+  {
+    "slug": "crazy-about-cafe",
+    "name": "Crazy about cafe",
+    "name_ja": "クレイジー アボウト カフェ",
+    "area": "Bangkok",
+    "address": "สถานขนส่งเอกมัย พระโขนง Khwaeng Phra Khanong Nuea, Khet Khlong Toei, Krung Thep Maha Nakhon 10110, Thailand",
+    "lat": 13.7202,
+    "lng": 100.584,
+    "phone": "+66645549969",
+    "website": "https://www.facebook.com/crazyaboutcafe",
+    "description": "BTSエカマイ駅そばのブランチカフェ。日本の影響を受けたオムライスやデミグラスハンバーグなどのメニューが特徴。コーヒーはブラジル・エチオピア産の豆を使用。エビス寿司オーナーが運営。",
+    "tags": [
+      "カフェ",
+      "日本式"
+    ],
+    "hours": "Monday: 7:00 AM – 8:00 PM / Tuesday: 7:00 AM – 8:00 PM / Wednesday: 7:00 AM – 8:00 PM / Thursday: 7:00 AM – 8:00 PM / Friday: 7:00 AM – 8:00 PM / Saturday: 7:00 AM – 8:00 PM / Sunday: 7:00 AM – 8:00 PM",
+    "last_verified": "2026-03-28",
+    "status": "unverified",
+    "source": "google_maps",
+    "place_id": "ChIJ7caSplWf4jARXMT4VSskgpU",
+    "priority": 0,
+    "ai_reviewed": true,
+    "phone_local": null,
+    "email": null,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null,
+    "place_reviewed": true
+  },
+  {
     "slug": "curry-blah-blah-at-shibuya-pattaya",
     "name": "Curry Blah Blah at Shibuya Pattaya",
     "name_ja": "カレー Blah Blah at シブヤ パタヤ",
     "area": "Pattaya",
-    "address": "1/62 หมู่ 10 Muang Pattaya, Amphoe Bang Lamung, Chang Wat Chon Buri 20150, Thailand",
+    "address": "201/43 Mu 10, Nong Prue, Bang Lamung, Chon Buri 20150",
     "phone": "+66655164807",
-    "website": "https://www.facebook.com/curryblahblahpattaya",
-    "description": "パタヤのシブヤ内に位置する日本カレー専門店。チキン・ポーク・ビーフなど種類豊富なカレーライスと辛さ4段階カスタム。海沿いカレーが名物。",
+    "website": "https://www.facebook.com/curryblahblahpattaya/",
+    "description": "パタヤ・シブヤエリアにある日本カレー専門店。4段階の辛さと多彩なトッピングが選べる本格日本カレーを提供。かわいい内装と手頃な価格が人気。",
     "tags": [
       "カレー",
       "日本カレー",
@@ -2863,10 +2908,10 @@
     "name": "Curry BlahBlah by Suksiam Sriracha",
     "name_ja": "カレー BlahBlah by スクサイアム シラチャ",
     "area": "Sriracha",
-    "address": "5/10-11 Tambon Si Racha, Amphoe Si Racha, Chang Wat Chon Buri 20110, Thailand",
+    "address": "5/10-11 Si Racha, Amphoe Si Racha, Chon Buri 20110",
     "phone": "+66948544854",
     "website": "https://m.facebook.com/Curry-Blah-Blah-by-Suksiam-Siracha-105883035476969/",
-    "description": "シラチャの日本カレー専門店。ホームメイドルーで4段階の辛さ調整が可能。日本人コミュニティが多いシラチャで日本人駐在員にも人気のカレーライス専門店。",
+    "description": "シラチャのSuksiamショッピングモール内にある日本カレー専門店。多彩なトッピングと4段階の辛さが選べ、タイ風のアレンジが加わったカレーが特徴。日本式デコールが人気。",
     "tags": [
       "カレー",
       "日本カレー",
@@ -2888,13 +2933,13 @@
   },
   {
     "slug": "curry-vibes",
-    "name": "Curry Vibes ข้าวแกงกะหรี่ญี่ปุ่น",
+    "name": "Curry Vibes カレーバイブス",
     "name_ja": "カレー Vibes ขาวแกงกะหรญปน",
     "area": "Pattaya",
-    "address": "50/7 หมู่ที่ 1 3240 Muang Pattaya, Amphoe Bang Lamung, Chang Wat Chon Buri 20150, Thailand",
+    "address": "50/7 Mu 1, 3240 Muang Pattaya, Bang Lamung, Chon Buri 20150",
     "phone": "+66953496237",
-    "website": "https://www.facebook.com/curryvibespattaya",
-    "description": "パタヤの日本カレーライス専門店。白を基調にしたカフェ風インテリアで、チキン・ポークなど複数のトッピングと辛さ調整が可能。コーヒー・抹茶ドリンクも提供。",
+    "website": "https://www.facebook.com/curryvibespattaya/",
+    "description": "パタヤにある日本カレー専門店。チキン・エビ・ソフトシェルクラブなど多彩なトッピングと本格カレーを提供。抹茶・ホワイトチョコレートのムースデザートも好評。11時〜20時営業。",
     "tags": [
       "カレー",
       "日本カレー",
@@ -2915,14 +2960,41 @@
     "place_reviewed": true
   },
   {
+    "slug": "curve-coffee",
+    "name": "Curve coffee",
+    "name_ja": "Curve コーヒー",
+    "area": "Pattaya",
+    "address": "ถนนพัทยาสาย 3 ซอย Chalerm Phrakiat 18, Tambon Nong Prue, Amphoe Bang Lamung, Chang Wat Chon Buri 20150, Thailand",
+    "phone": "+66982738353",
+    "website": null,
+    "description": "パタヤのチャルーム・プラキアット通り沿いにあるカフェ。コーヒー・ラテを中心に提供する落ち着いた雰囲気のカフェ。日本スタイルの内装で在住日本人も利用。",
+    "tags": [
+      "カフェ",
+      "日本式"
+    ],
+    "hours": "Monday: 7:00 AM – 4:00 PM / Tuesday: 7:00 AM – 4:00 PM / Wednesday: 7:00 AM – 4:00 PM / Thursday: 7:00 AM – 4:00 PM / Friday: 7:00 AM – 4:00 PM / Saturday: 7:00 AM – 4:00 PM / Sunday: 7:00 AM – 4:00 PM",
+    "last_verified": "2026-03-28",
+    "status": "unverified",
+    "source": "google_maps",
+    "place_id": "ChIJMxcgaAqXAjERPS9_BW7g8VA",
+    "ai_reviewed": false,
+    "phone_local": null,
+    "email": null,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null,
+    "place_reviewed": true
+  },
+  {
     "slug": "custard-nakamura-phrom-phong",
     "name": "Custard Nakamura",
     "name_ja": "カスタード ナカムラ",
     "area": "Phrom Phong",
-    "address": "595/2 Soi Sukhumvit 33/1, Sukhumvit Road, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "address": "595/2 Soi Sukhumvit 33/1, Khlong Tan Nuea, Watthana, Bangkok 10110",
     "phone": "+6622599630",
     "website": null,
-    "description": "千葉市川市発祥の日本式ベーカリー。プロンポン約30年の老舗。日本直輸入素材のシュークリーム・チーズケーキ・カツサンドが人気。テイクアウト専門。",
+    "description": "千葉県市川市発祥の日本式ベーカリー。プロンポンSukhumvit 33/1でテイクアウト専門営業。1970年代からバンコクで長年営業する老舗で、日本直輸入素材のシュークリーム・チーズケーキ・カツサンドが名物。",
     "tags": [
       "ベーカリー",
       "テイクアウト",
@@ -2950,7 +3022,7 @@
     "address": "181 4 Wua Lai Rd, Tambon Hai Ya, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50100, Thailand",
     "phone": "+66893911312",
     "website": "https://www.facebook.com/profile.php?id=61559703518999",
-    "description": "チェンマイのウアライ通りにある日本スタイルのカフェ。土曜ナイトマーケット近くに位置し、コーヒーやスイーツを提供。落ち着いた雰囲気で地元の日本人コミュニティにも親しまれている。",
+    "description": "チェンマイ・ウアライ通り沿いにあるカフェ。コーヒー・スイーツ・軽食を提供。2024年オープンの新しいカフェで、落ち着いた雰囲気でゆっくり過ごせる空間。",
     "tags": [
       "カフェ",
       "日本式"
@@ -2971,13 +3043,13 @@
   },
   {
     "slug": "daikatana-japanese-food",
-    "name": "Daikatana Japanese food - อาหารญี่ปุ่นไดคาตานะ",
+    "name": "Daikatana Japanese Foods",
     "name_ja": "ダイカタナ 日本 フード - อาหารญปนไดคาตานะ",
     "area": "Bangkok",
-    "address": "317 Soi Phaya Nak, Khwaeng Thanon Phetchaburi, Khet Ratchathewi, Krung Thep Maha Nakhon 10400, Thailand",
-    "phone": "+66891807222",
+    "address": "317/12 Soi Phayanak, Petchaburi Road, Ratchathewi, Bangkok 10400",
+    "phone": "+66888737073",
     "website": "https://www.facebook.com/share/1GT8Rr3dqx/",
-    "description": "バンコク・ラチャテーウィーのソイパヤーナック内にある日本料理スタンド。とんかつ丼・から揚げ丼など日本の丼ものを50〜69バーツで提供。月〜土の9〜14時半営業。",
+    "description": "バンコク・BTSラーチャテーウィー駅近くのソイ・パヤーナークにある日本式ストリートフード。カレーライス・トンカツ丼など50〜60バーツ台の安価な日本食を提供。9時〜14時半営業（日曜定休）。",
     "tags": [
       "日本食",
       "丼もの",
@@ -2999,13 +3071,13 @@
   },
   {
     "slug": "deka-bakery-japanese-cheesecake",
-    "name": "DEKA BAKERY japanese cheesecake เดก้า เบเกอรี่",
+    "name": "DEKA BAKERY Japanese Cheesecake",
     "name_ja": "デカ ベーカリー 日本 チーズケーキ เดกา เบเกอร",
     "area": "Bangkok",
     "address": "75/60 ซอย สวนสยามแยก 3 Khwaeng Khan Na Yao, Khet Khan Na Yao, Krung Thep Maha Nakhon 10230, Thailand",
     "phone": "+66882965519",
     "website": "https://www.facebook.com/pages/category/Bakery/Deka-Home-Bakery-102497188181413/",
-    "description": "バンコク・カンナーヤーオにある日本式チーズケーキ専門ベーカリー。ふわふわのスフレチーズケーキが看板商品で、毎日9〜23時営業。Facebookから注文可能。",
+    "description": "バンコク・カンナヤオ区にある日本式チーズケーキ専門ベーカリー。ふわふわとした食感の本格日本式チーズケーキが在住者・地元タイ人に人気。シンプルな素材にこだわった手作り製法。",
     "tags": [
       "カフェ",
       "パン",
@@ -3030,10 +3102,10 @@
     "name": "Dibdee Sushi Cafe",
     "name_ja": "Dibdee 寿司 カフェ",
     "area": "Chiang Mai",
-    "address": "45 Thanon Atsadathon, Tambon Chang Phueak, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50000, Thailand",
+    "address": "45 Thanon Atsadathon, Chang Phueak, Mueang Chiang Mai, Chiang Mai 50000",
     "phone": "+66846587771",
     "website": "https://th-th.facebook.com/dibdeesushicafe/",
-    "description": "チェンマイ・ジンジャイマーケット内にある日本食レストラン。サーモン刺身・寿司・天ぷら・餃子など本格日本食が食べ放題（499バーツ/2時間）で楽しめる。11〜22時営業。",
+    "description": "チェンマイ・ジンジャイマーケット内にある日本食ビュッフェカフェ。新鮮な寿司・刺身・すき焼きを食べ放題で提供（499〜599バーツ、2時間制）。Tripadvisorで高評価。",
     "tags": [
       "カフェ",
       "日本式"
@@ -3060,7 +3132,7 @@
     "address": "Phesat Kit Pharmacy, Sutthi San Winitchai Road, Huai Khwang QHQF+WV9, Khwaeng Samsen Nok, Khet Huai Khwang, Krung Thep Maha Nakhon 10310, Thailand",
     "phone": "+66661156608",
     "website": "http://www.facebook.com/dididough",
-    "description": "バンコク・ホワイクワーン近くにあるベーカリー。コーヒー・ラテ・スイーツを提供するカフェ。",
+    "description": "バンコク・ホアクワン区にあるドーナツ・ベーカリーショップ。日本スタイルの手作りドーナツを販売し、コーヒーと合わせて楽しめる。テイクアウト中心。",
     "tags": [
       "カフェ",
       "日本式"
@@ -3087,7 +3159,7 @@
     "address": "107 Soi Sukhumvit 63, Khlong Tan Nuea, Watthana, Bangkok 10110",
     "phone": null,
     "website": "https://www.donkimallthonglor.com/",
-    "description": "DONKI Mallトンロー内の日本式カフェコーナー。たこ焼き・たい焼き・ソフトクリームなど日本の軽食とスイーツを提供。24時間営業でショッピングのついでに気軽に立ち寄れる。",
+    "description": "DONKI Mall Thonglor（Sukhumvit 63）内にある24時間営業の日本式カフェコーナー。たこ焼き・たい焼き・ソフトクリームなど日本の軽食・スイーツを気軽に楽しめる。",
     "tags": [
       "カフェ",
       "たこ焼き",
@@ -3116,7 +3188,7 @@
     "address": "Don Don Donki Mall Thonglor, 107 Soi Sukhumvit 63, Khlong Tan Nuea, Watthana, Bangkok 10110",
     "phone": null,
     "website": "https://www.donkimallthonglor.com/",
-    "description": "DONKI Mallトンロー内のフードコートエリア。おにぎり・寿司・おでん・スナックなど日本の惣菜を手軽に楽しめる。夕方以降に割引あり。24時間営業。",
+    "description": "DONKI Mall Thonglor内のフードコート。たこ焼き・たい焼き・ソフトクリームなど日本のスナックフードを手軽に楽しめるエリア。ドンキモール内の日本食エリアと連携。",
     "tags": [
       "フードコート",
       "たこ焼き",
@@ -3141,10 +3213,10 @@
     "name": "DON DON DONKI (J-PARK Sriracha)",
     "name_ja": "ドン・キホーテ J-PARKシラチャ",
     "area": "Sriracha",
-    "address": "DON DON DONKI J-park Sriracha No.8, J-Park building Unit no. J2-B01 J2-B10, Moo 6 Surasak Sa-Nguan Rd, ตำบล ศรีราชา Sriracha, ชลบุรี 20110, Thailand",
+    "address": "J-Park Sriracha, No.8, J-Park Building, Moo 6 Surasak Sa-Nguan Rd, Sriracha, Chon Buri 20110",
     "phone": "+6638183309",
     "website": "https://www.facebook.com/DonDonDonkiTH/",
-    "description": "シラチャのJ-Park内にあるドン・ドン・ドンキ。日本食品・コスメ・日用品を販売し、イートインコーナーも併設。在タイ日本人の多いシラチャエリアの定番スポット。",
+    "description": "シラチャのJ-Parkビル内にあるドン・ドン・ドンキ。日本食品・コスメ・日用品を販売し、イートインコーナーも併設。シラチャの日本人駐在員コミュニティに人気のスポット。",
     "tags": [
       "カフェ",
       "日本式"
@@ -3168,10 +3240,10 @@
     "name": "DONQ Central World",
     "name_ja": "ドンク セントラルワールド",
     "area": "Bangkok",
-    "address": "Central World, 999/9 Rama I Rd, Pathum Wan, Bangkok 10330",
+    "address": "Central World 3F, Japan Avenue Zone, 999/9 Rama I Rd, Pathum Wan, Bangkok 10330",
     "phone": "+6626461840",
     "website": "https://www.facebook.com/thailanddonq/",
-    "description": "1905年創業の日本老舗ベーカリーDONQのバンコク・セントラルワールド店。本格フランスパン・デニッシュ・惣菜パンを販売。日本基準の品質で在住者に支持されている。",
+    "description": "1905年創業の日本老舗ベーカリーDONQのCentral World店。本格的なフランスパン・デニッシュ・惣菜パンを販売。バンコクのJapan Avenueゾーン3Fに位置し、在住日本人に人気。",
     "tags": [
       "カフェ",
       "日本式"
@@ -3195,10 +3267,10 @@
     "name": "DONQ Siam Takashimaya",
     "name_ja": "ドンク サイアム 高島屋",
     "area": "Bangkok",
-    "address": "Icon Siam, 299 Charoen Nakhon Rd, Khlong Ton Sai, Khlong San, Bangkok 10600",
+    "address": "Icon Siam / Siam Takashimaya, 299 Soi Charoen Nakhon 5, Khlong Ton Sai, Khlong San, Bangkok 10600",
     "phone": null,
-    "website": null,
-    "description": "1905年創業の日本老舗ベーカリーDONQのバンコク・Icon Siam・シャム高島屋店。本格フランスパン・デニッシュ・惣菜パンを販売。日本品質のベーカリーとして在住者に人気。",
+    "website": "https://www.facebook.com/thailanddonq/",
+    "description": "1905年創業の日本老舗ベーカリーDONQのSiam Takashimaya店（Icon Siam内）。本格的なフランスパン・デニッシュ・惣菜パンを販売。バンコクの日本人在住者に人気のベーカリー。",
     "tags": [
       "カフェ",
       "日本式"
@@ -3222,10 +3294,10 @@
     "name": "Dorle",
     "name_ja": "ドッレ",
     "area": "Chiang Mai",
-    "address": "เลขที่ 119/18 ช้างเผือก Tambon Chang Phueak, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50300, Thailand",
+    "address": "119/18 Chang Phueak, Mueang Chiang Mai, Chiang Mai 50300",
     "phone": "+66815249625",
     "website": "https://www.facebook.com/dorlebakery/",
-    "description": "チェンマイ・コンベンションセンター近くにある日本スタイルのアルチザンベーカリーカフェ。天然酵母の食パン・プレッツェル・フォカッチャと、日本産抹茶を使ったドリンクを提供。毎日9:30〜17:00営業。",
+    "description": "チェンマイ国際コンベンションセンター近くにある日本スタイルのベーカリーカフェ。有機抹茶（日本産）を使ったドリンクや手作りのアルティザンブレッドが特徴。緑豊かなガーデン席あり。",
     "tags": [
       "カフェ",
       "日本式"
@@ -3246,13 +3318,13 @@
   },
   {
     "slug": "ezze-sushi",
-    "name": "Ezze Sushi",
+    "name": "Ezze Sushi Phuket",
     "name_ja": "エッゼ 寿司",
     "area": "Phuket",
-    "address": "7/38-39 P&V apartments ตลาดเหนือ Amphoe Mueang Phuket, Chang Wat Phuket 83000, Thailand",
+    "address": "7/38 Jao Fa Tawan Oak Road, Talat Nuea, Mueang Phuket, Phuket 83000",
     "phone": "+66653195544",
-    "website": "https://www.facebook.com/profile.php?id=100094163028709",
-    "description": "プーケットタウン・スアンルアン公園前にある日本式フュージョン寿司レストラン。サーモンロール・龍巻・ドラゴンロールなど多彩な寿司と刺身セットを提供。毎日12〜22時営業。",
+    "website": "https://www.facebook.com/p/Ezze-Sushi-Phuket-100094163028709/",
+    "description": "プーケット市内・スアンルアン公園近くにある日本式フュージョン寿司レストラン。アメリカ式日本食の影響を受けたクリエイティブな巻き寿司・サーモンロール・うなぎロールが人気。",
     "tags": [
       "カフェ",
       "日本式"
@@ -3279,7 +3351,7 @@
     "address": "White Market Tambon Su Thep, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200, Thailand",
     "phone": "+66802041942",
     "website": "https://www.cnxmap.com/family-bakery/",
-    "description": "チェンマイ・スーテープのWhite Market内にある日本式ベーカリー。天然酵母で作る食パン（ショクパン）・メロンパン・あんぱんなど本格日本式パンを毎日手作り。",
+    "description": "チェンマイのホワイトマーケット内にある日本スタイルのベーカリー。日本・フランスのベーキング技法を使ったふわふわ食感のパン・抹茶スイーツ・フルーツパンなど多彩なラインナップ。",
     "tags": [
       "カフェ",
       "パン",
@@ -3300,41 +3372,14 @@
     "place_reviewed": true
   },
   {
-    "slug": "fine-baked-phuket",
-    "name": "Fine Baked Phuket",
-    "name_ja": "ファイン ベイクド プーケット",
-    "area": "Phuket",
-    "address": "155 Phangnga Rd, Tambon Talat Yai, เมือง Chang Wat Phuket 83000, Thailand",
-    "phone": "+66823855635",
-    "website": "https://www.facebook.com/p/Fine-Baked-61571376521304/",
-    "description": "プーケットオールドタウンのパンガー通りにある2025年開業のベーカリー。友人グループが運営するコージーな手作りパン・ペストリーショップ。毎日10〜17時、火曜休み。",
-    "tags": [
-      "カフェ",
-      "日本式"
-    ],
-    "hours": "Monday: 8:30 AM – 5:00 PM / Tuesday: Closed / Wednesday: 8:30 AM – 5:00 PM / Thursday: 8:30 AM – 5:00 PM / Friday: 8:30 AM – 5:00 PM / Saturday: 8:30 AM – 5:00 PM / Sunday: 8:30 AM – 5:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJh0qmvn8xUDARLy6kfL2w5b0",
-    "ai_reviewed": false,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "place_reviewed": true
-  },
-  {
     "slug": "foobreca",
-    "name": "Foobreca ขนมปังเกลือ",
+    "name": "Foobreca フーブレッカ",
     "name_ja": "フーブレカ ขนมปงเกลอ",
     "area": "Bangkok",
-    "address": "7 Sukhumvit 36, Khwaeng Khlong Tan, Khet Khlong Toei, Krung Thep Maha Nakhon 10110, Thailand",
+    "address": "7 Soi Sukhumvit 36, Khlong Tan, Khlong Toei, Bangkok 10110",
     "phone": "+66806626814",
     "website": "https://instagram.com/foobrecabkk",
-    "description": "スクンビット36にある大阪出身シェフ（35年以上のキャリア）が手がける日本式ベーカリー。看板の塩バターパン（シオパン）はバンコク屈指と評判。9:30〜18:30、水曜休み。",
+    "description": "スクンビット36の路地にある日本式ベーカリー。大阪出身のシェフ佐藤和馬氏（ベーキング歴35年以上）によるシオパン（塩バターパン）が看板商品。テイクアウト専門。",
     "tags": [
       "カフェ",
       "日本式"
@@ -3361,7 +3406,7 @@
     "address": "One Bangkok, Wireless Road, Lumphini, Pathum Wan, Bangkok 10330",
     "phone": null,
     "website": null,
-    "description": "One Bangkokルンピニエリア内にある日本式ソフトクリーム専門店。富士クリームブランドの濃厚なソフトクリームを提供。大型複合施設One Bangkokの休憩スポット。",
+    "description": "One Bangkokモール内にある日本式ソフトクリーム専門店。北海道ミルクや抹茶など日本の味を再現したソフトクリームを提供。BTSルンピニー駅近くのショッピングモール内。",
     "tags": [
       "ソフトクリーム",
       "スイーツ",
@@ -3388,7 +3433,7 @@
     "address": "Terminal 21, 88 Soi Sukhumvit 19, Watthana, Bangkok 10110",
     "phone": null,
     "website": null,
-    "description": "ターミナル21内にある日本式ソフトクリーム専門店。北海道ミルクや抹茶などのフレーバーを提供。ショッピングの合間に楽しめる日本の味。",
+    "description": "ターミナル21内にある日本式ソフトクリーム専門店。北海道ミルクソフトクリームや抹茶ソフトなど日本の味を再現。ショッピング休憩に最適なスイーツスポット。",
     "tags": [
       "ソフトクリーム",
       "北海道",
@@ -3415,7 +3460,7 @@
     "address": "Multiple locations across Bangkok",
     "phone": null,
     "website": "https://www.facebook.com/fukumatchathailand/",
-    "description": "バンコク全域に展開する日本風抹茶カフェチェーン。抹茶ラテ・抹茶フラッペ・抹茶アイスクリームなど多彩な抹茶メニューを提供。ショッピングモール内に多数出店。",
+    "description": "バンコクで展開する日本風抹茶カフェチェーン。抹茶ラテ、抹茶フラッペ、抹茶ケーキなど多彩な抹茶メニューを提供。アイコンサイアムなど複数のショッピングモールに出店。",
     "tags": [
       "抹茶",
       "カフェ",
@@ -3439,10 +3484,10 @@
     "name": "Fuku Matcha @ Central Phuket Floresta",
     "name_ja": "フク 抹茶 @ セントラル プーケット フロレスタ",
     "area": "Phuket",
-    "address": "V9R9+X6P, Wichit, Mueang Phuket District, Phuket 83000, Thailand",
+    "address": "Central Phuket Floresta, V9R9+X6P, Wichit, Mueang Phuket District, Phuket 83000, Thailand",
     "phone": "+66980164424",
     "website": "https://www.facebook.com/fukumatchathailand/",
-    "description": "プーケット・セントラルフロレスタ内の日本式抹茶カフェ。本格的な抹茶ラテ・抹茶スイーツを提供し、和の雰囲気を楽しめる。毎日10:30〜22:00営業。",
+    "description": "プーケットのセントラル・プーケット・フロレスタ内にある日本式抹茶カフェ。抹茶ラテや抹茶スイーツを提供する人気チェーン店。",
     "tags": [
       "カフェ",
       "抹茶",
@@ -3467,10 +3512,10 @@
     "name": "Fuku Matcha Terminal 21",
     "name_ja": "フク 抹茶 ターミナル 21",
     "area": "Asoke",
-    "address": "Terminal 21, 88 Sukhumvit Soi 19, Khlong Toei Nuea, Watthana, Bangkok 10110",
+    "address": "Terminal 21, 88 Sukhumvit Soi 19, Khlong Toei Nuea, Watthana, Bangkok 10110, Thailand",
     "phone": null,
     "website": "https://www.facebook.com/fukumatchathailand/",
-    "description": "アソーク・ターミナル21内の日本式抹茶カフェ。抹茶・ほうじ茶を使ったラテやスイーツを提供するFuku Matchaのチェーン店舗。",
+    "description": "スクンビットのターミナル21内にある日本風抹茶カフェ。抹茶ラテ、フラッペ、スイーツを提供する人気チェーン店。",
     "tags": [
       "抹茶",
       "ほうじ茶",
@@ -3494,12 +3539,12 @@
     "name": "Fuku Intown Centerpoint Siam",
     "name_ja": "福 To Go サイアム",
     "area": "Bangkok",
-    "address": "อาคาร Digital Gateway(ชั้นสอง) ซอย, สยามสแควร์ ซอย 3 แขวงปทุมวัน เขตปทุมวัน กรุงเทพมหานคร 10330, Thailand",
+    "address": "2/F Digital Gateway, Siam Square Soi 3, Pathumwan, Bangkok 10330, Thailand",
     "lat": 13.7446,
     "lng": 100.5331,
     "phone": null,
     "website": "https://www.facebook.com/fukuintown",
-    "description": "サイアムスクエア・センターポイント内の日本式サーモンビュッフェレストラン。新鮮な刺身・寿司・ロールが中心で、90分食べ放題のビュッフェが人気。",
+    "description": "サイアムスクエアのデジタルゲートウェイ2階にある日本式カフェ・レストラン。サーモン料理や日本食を提供。Fuku Intownブランドの店舗。",
     "tags": [
       "カフェ",
       "日本式"
@@ -3524,10 +3569,10 @@
     "name": "Fukuden Izakaya",
     "name_ja": "フクデン 居酒屋",
     "area": "Sriracha",
-    "address": "52 10, Tambon Bang Phra, Amphoe Si Racha, Chang Wat Chon Buri 20110, Thailand",
+    "address": "52/10, Tambon Bang Phra, Amphoe Si Racha, Chon Buri 20110, Thailand",
     "phone": "+6638312911",
-    "website": "https://www.facebook.com/fukudenizakaya?mibextid=ZbWKwL",
-    "description": "シラチャの日本式居酒屋。元「ツナ一番」が改名した老舗で、刺身・串焼き・揚げ物など本格的な居酒屋メニューと日本酒・焼酎を提供。地元日本人在住者に長年愛される。",
+    "website": "https://www.facebook.com/fukudenizakaya",
+    "description": "シラチャにある本格的な日本式炭火焼き居酒屋。串焼き・刺身・揚げ物などの定番メニューを日本酒・焼酎とともに楽しめる。",
     "tags": [
       "居酒屋",
       "日本式",
@@ -3555,7 +3600,7 @@
     "address": "888/10, Wiztown Pattaya Village, เมืองพัทยา อำเภอบางละมุง ชลบุรี 20150, Thailand",
     "phone": "+66637648380",
     "website": null,
-    "description": "パタヤの日本料理レストラン。日本式の料理とカフェメニューを提供。",
+    "description": "パタヤにある日本料理レストラン。Google Maps上で確認可能だが情報は限定的。日本食提供店として登録されている。",
     "tags": [
       "カフェ",
       "パン",
@@ -3580,10 +3625,10 @@
     "name": "GANYUDO(巌邑堂)",
     "name_ja": "巌邑堂",
     "area": "Bangkok",
-    "address": "ชั้น G สยามทาคาชิมายา, ไอคอนสยาม, Charoen Nakhon Rd, Khwaeng Khlong Ton Sai, Khet Khlong San, Krung Thep Maha Nakhon 10600, Thailand",
+    "address": "Siam Takashimaya, ICONSIAM, Charoen Nakhon Rd, Khlong San, Bangkok 10600, Thailand",
     "phone": null,
-    "website": null,
-    "description": "浜松の老舗和菓子店「巌邑堂」のバンコク店。150年以上の歴史を持つ職人が作るどら焼き・餅菓子などの本格和菓子と日本茶を提供。サイアム高島屋内に出店。",
+    "website": "https://www.instagram.com/ganyudo_bkk/",
+    "description": "浜松（静岡）発の老舗和菓子店「巌邑堂」のバンコク店舗。アイコンサイアムの暹羅高島屋内に出店し、本格的な和菓子・羊羹・最中を提供。",
     "tags": [
       "カフェ",
       "日本式"
@@ -3607,10 +3652,10 @@
     "name": "Gigantea",
     "name_ja": "ギガンテア",
     "area": "Chiang Mai",
-    "address": "11 Soi 2, Sriphum Ampur, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200, Thailand",
-    "phone": "+6653233464",
+    "address": "11 Rajvithee Soi 2, Sriphum, Amphoe Mueang Chiang Mai, Chiang Mai 50200, Thailand",
+    "phone": "+66659619236",
     "website": null,
-    "description": "チェンマイ旧市街にある日本人経営の本格日本料理レストラン。刺身・天ぷら・うどんなど「おふくろの味」スタイルの和食を提供。タイ・日本人夫婦が営む隠れた名店。",
+    "description": "チェンマイ旧市街にある日本人夫婦が営む本格日本食レストラン。旬の食材を使った和食を丁寧に提供し、自家製梅酒も人気。地元在住日本人に愛される隠れ家的名店。",
     "tags": [
       "日本料理",
       "日本式",
@@ -3635,10 +3680,10 @@
     "name": "Gin Udon",
     "name_ja": "Gin うどん",
     "area": "Chiang Mai",
-    "address": "69/1 Kotchasarn Rd, Chang Khlan, Mueang Chiang Mai 50100",
+    "address": "69/1 Kotchasan Rd, Chang Khlan, Mueang Chiang Mai, Chiang Mai 50100, Thailand",
     "phone": "+6653272898",
     "website": null,
-    "description": "チェンマイ旧市街の日本式うどん専門店。もちもちの太麺と丁寧に取った出汁で作るうどんが名物。カレーうどん・冷やしうどん・天ぷらなど多彩なメニュー。",
+    "description": "チェンマイにある毎日手打ちの本格うどん専門店。濃厚な醤油ベースのスープと豚角煮・温玉が絶品。テンプラや餃子など和食サイドメニューも充実。",
     "tags": [
       "うどん",
       "日本式",
@@ -3663,10 +3708,10 @@
     "name": "GLIG Cafe",
     "name_ja": "グリッグ カフェ",
     "area": "Thonglor",
-    "address": "219 Sukhumvit 49/13, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "address": "219 Sukhumvit 49/13, Khlong Tan Nuea, Watthana, Bangkok 10110, Thailand",
     "phone": null,
-    "website": "https://www.facebook.com/gliggligglig/",
-    "description": "スクンビット49/13の日本インスパイア系ガラスハウスベーカリーカフェ。緑豊かなガーデンが映えスポットとして人気。抹茶シュークリームとミルクスラッシーが看板商品。",
+    "website": "https://www.instagram.com/gliggligglig/",
+    "description": "スクンビット49にある日本インスパイアのガラスハウスベーカリーカフェ。緑豊かなガーデンがインスタ映えスポットとして人気。抹茶シュークリームとミルクスラッシーが看板商品。8:00〜20:00営業。",
     "tags": [
       "カフェ",
       "ベーカリー",
@@ -3691,10 +3736,10 @@
     "name": "Gluten Free Bakery Tama",
     "name_ja": "グルテンフリーベーカリー たま",
     "area": "Bangkok",
-    "address": "7, 9 Tani, Khwaeng Talat Yot, Khet Phra Nakhon, Krung Thep Maha Nakhon 10200, Thailand",
+    "address": "Ekkamai Villas, 438/18 Soi Sukhumvit 63, Watthana, Bangkok 10110, Thailand",
     "phone": null,
     "website": "https://www.facebook.com/glutenfreebakery.bkk/",
-    "description": "エカマイにある100%グルテンフリーのベーカリーカフェ。オーナーがセリアック病のため全商品グルテンフリー。クリームパフ・チーズケーキ・シナモンロールなど多数。",
+    "description": "エカマイにある日本スタイルの100%グルテンフリーベーカリー。シオパン（日本式塩バターパン）などグルテンフリーの日本風パン・菓子を販売。セリアック対応。",
     "tags": [
       "カフェ",
       "パン",
@@ -3719,10 +3764,10 @@
     "name": "Gohan Gyudon ごはん สาขาฉลอง ภูเก็ต",
     "name_ja": "Gohan Gyudon ごはん",
     "area": "Phuket",
-    "address": "12 ฉลอง 4 E Chaofah Rd, Tambon Chalong, เมือง Chang Wat Phuket 83000, Thailand",
+    "address": "12 Chalong 4, Chaofah Rd, Chalong, Mueang Phuket, Phuket 83000, Thailand",
     "phone": "+66624362951",
     "website": "https://www.facebook.com/Gohan.Chalong/",
-    "description": "プーケット・チャロン支店の日本式牛丼専門店。リーズナブルな価格で本格的な牛丼・豚丼を提供。Facebookで「Gohan Chalong」として情報発信中。",
+    "description": "プーケットで展開する日本式牛丼専門店。本格的なギュウドン（牛丼）を提供し、プーケットタウンとチャロン地区に複数店舗を展開。",
     "tags": [
       "牛丼",
       "日本式",
@@ -3747,10 +3792,10 @@
     "name": "Gohanya",
     "name_ja": "ごはんや",
     "area": "Chiang Mai",
-    "address": "9 Soi 7, Moon Muang Rd., Chiang Mai",
+    "address": "9 Mun Mueang Rd, Si Phum, Mueang Chiang Mai, Chiang Mai 50200, Thailand",
     "phone": "+66839454518",
     "website": "https://www.facebook.com/GohanyaChaingMai",
-    "description": "チェンマイ・ムーンムアン通り近くの老舗日本料理店。創業20年以上の日本人夫婦が営む。ラーメン・カレー・寿司・餃子など定番の和食をリーズナブルな価格で提供。",
+    "description": "チェンマイ旧市街にある20年以上の歴史を持つ本格日本食レストラン。ラーメン・カレーライス・寿司・刺身など幅広いメニューを提供。在住日本人の口コミで人気。",
     "tags": [
       "カフェ",
       "日本式"
@@ -3774,10 +3819,10 @@
     "name": "Goute by Chez Shibata",
     "name_ja": "グーテ by シェ・シバタ",
     "area": "Phrom Phong",
-    "address": "595/2 Soi Sukhumvit 33/1, Klongtan Nua, Watthana, Bangkok",
+    "address": "Sukhumvit Soi 33, Khlong Tan Nuea, Watthana, Bangkok 10110, Thailand",
     "phone": null,
     "website": "https://chezshibata365.com/",
-    "description": "スクンビット33/1にある日本人パティシエ柴田武氏監修のベーカリー・パティスリー。フランス菓子と日本の技術を融合させた無添加の本格ケーキ・パンを提供。",
+    "description": "スクンビット33にある日本人パティシエ柴田武氏監修の日仏融合スイーツ・ベーカリー「Chez Shibata 365」。フランス産素材と日本の技術が融合した本格的なケーキ・タルトを提供。",
     "tags": [
       "ベーカリー",
       "日本人パティシエ",
@@ -3801,10 +3846,10 @@
     "name": "Gram Pancakes Bangkok",
     "name_ja": "グラム パンケーキ バンコク",
     "area": "Bangkok",
-    "address": "G Floor, Siam Paragon, 991 Rama 1 Road, Pathum Wan, Bangkok",
+    "address": "Siam Paragon, 991 Rama 1 Rd, Pathumwan, Bangkok 10330, Thailand",
     "phone": null,
     "website": null,
-    "description": "大阪発のプレミアムパンケーキ専門店のバンコク店。1日限定数量のふわふわスフレパンケーキが名物で、焼き上がりまで約20分。サイアムパラゴン内に出店。",
+    "description": "大阪発のプレミアムパンケーキ専門店「Gram Café & Pancakes」。サイアムパラゴンなど複数出店。1日限定のふわふわスフレパンケーキが看板商品で、焼き上がりまで約20分。",
     "tags": [
       "パンケーキ",
       "スイーツ",
@@ -3829,10 +3874,10 @@
     "name": "Gram Pancakes EmQuartier",
     "name_ja": "グラム パンケーキ エムクオーティエ店",
     "area": "Phrom Phong",
-    "address": "EmQuartier, 693 Sukhumvit Road, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "address": "EmQuartier, 693 Sukhumvit Road, Khlong Tan Nuea, Watthana, Bangkok 10110, Thailand",
     "phone": null,
     "website": null,
-    "description": "大阪発のプレミアムパンケーキカフェのエムクォーティエ店。BTSプロンポン駅直結。一日数量限定のふわふわスフレパンケーキが名物で、行列ができることも。",
+    "description": "大阪発のプレミアムパンケーキ専門店「Gram Café & Pancakes」のエムクオーティエ店。BTSプロンポン駅直結。一日数量限定のふわふわスフレパンケーキが名物。",
     "tags": [
       "パンケーキ",
       "カフェ",
@@ -3856,12 +3901,12 @@
     "name": "Grillicious Japanese BBQ",
     "name_ja": "グリリシャス 日本 BBQ",
     "area": "Pattaya",
-    "address": "46/36 Bongkoch 3, Bang Lamung, Chon Buri 20150",
+    "address": "46/36 Bongkoch 3, Pattaya, Bang Lamung District, Chon Buri 20150, Thailand",
     "lat": 12.9257,
     "lng": 100.8875,
     "phone": "+66832244665",
-    "website": "https://www.facebook.com/Grillicious.Japanese.BBQ/?refid=52&_rdr/?utm_source=google&utm_medium=gbp&utm_campaign=local-search",
-    "description": "パタヤ中心部の日本式焼肉BBQレストラン。自分で炭火グリルで焼くスタイル。柔らかいロース肉など高品質な肉を適正価格で提供。大型駐車場あり。",
+    "website": "https://www.facebook.com/Grillicious.Japanese.BBQ/",
+    "description": "パタヤにある本格日本式焼肉レストラン。炭火焼きグリルを囲んで食べるヤキニクスタイルで、新鮮な肉・魚介を自分でグリル。ビュッフェ形式899バーツ。Tripadvisor 4.9評価。",
     "tags": [
       "焼肉",
       "日本式",
@@ -3887,10 +3932,10 @@
     "name": "Groon Bread & Brunch Cafe",
     "name_ja": "グロオン ブレッド & ブランチ カフェ",
     "area": "Chiang Mai",
-    "address": "6 Siri Mangkalajarn Rd Lane 7, Tambon Su Thep, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200, Thailand",
+    "address": "6 Siri Mangkalajarn Rd Lane 7, Su Thep, Mueang Chiang Mai, Chiang Mai 50200, Thailand",
     "phone": "+66615824490",
     "website": "https://www.instagram.com/groon.cafe/",
-    "description": "チェンマイ・ニマン地区の天然酵母パンとブランチが人気のカフェ。自家製ヨーグルト・スモークサーモンベーグル・抹茶メニューなどフュージョン系の朝食・ランチを提供。",
+    "description": "チェンマイのニマン地区にある天然酵母パンのブランチカフェ。日本式シオパン（塩バターパン）や抹茶メニューも提供。自然素材の手作りパンとコーヒーが人気。",
     "tags": [
       "カフェ",
       "日本式"
@@ -3914,10 +3959,10 @@
     "name": "Hakata Coffee Bangkok",
     "name_ja": "はかた珈琲 Bangkok店",
     "area": "Bangkok",
-    "address": "15/115/6 Sukhumvit Soi 35, Khlong Tan Nuea, Watthana, Bangkok",
+    "address": "15/1-6 Sukhumvit Rd, Khlong Tan Nuea, Watthana, Bangkok 10110, Thailand",
     "phone": "+6620370809",
     "website": "http://hakatacoffee.com/",
-    "description": "スクンビット35の日本スタイル自家焙煎コーヒー専門店。福岡・博多の老舗コーヒー店が起源。和風ラテ・フラッペのほか、パスタ・カレーも提供。コーヒー豆の卸売りにも対応。",
+    "description": "スクンビット沿いにある日系自家焙煎コーヒー専門店「博多珈琲」。和風ラテ・ほうじ茶フラッペ、かき氷、パスタ、カレーも提供。コーヒー豆の卸売りにも対応。月〜日8:00〜17:30。",
     "tags": [
       "カフェ",
       "日本式"
@@ -4000,10 +4045,10 @@
     "name": "HAKO Japanese Rice & Cafe",
     "name_ja": "箱 ライス&カフェ",
     "area": "Bangkok",
-    "address": "503/3 Phetchaburi Road, Ratchathewi, Bangkok",
+    "address": "503/3 Thanon Phetchaburi, Ratchathewi, Bangkok 10300, Thailand",
     "phone": "+66886628244",
     "website": null,
-    "description": "ラーチャテウィー・ペッチャブリー通り沿いの日本式ライスカフェ。北海道・函館をイメージした一皿料理のランチ・テイクアウトが中心。LINEMANやGrabでデリバリーにも対応。",
+    "description": "ラチャテウィ駅近くにある日本食カフェ「HAKO」。函館の食文化をテーマにした日本式ライスボウルやイザカヤメニューを提供。テイクアウト・デリバリーにも対応。",
     "tags": [
       "カフェ",
       "日本式",
@@ -4028,10 +4073,10 @@
     "name": "hana cafe + ramen らあめん花亭 本店",
     "name_ja": "らあめん花亭 本店",
     "area": "Phuket",
-    "address": "2-4-1 Montri Rd, Talad yai, Amphoe Mueang Phuket, Chang Wat Phuket 83000, Thailand",
+    "address": "2-4 Montri Rd, Talad Yai, Mueang Phuket, Phuket 83000, Thailand",
     "phone": null,
     "website": "https://www.instagram.com/hana_cafe_ramen",
-    "description": "プーケットの日本人経営または日本人が多く利用するカフェ。コーヒー・スイーツ・軽食を提供し、落ち着いた雰囲気で過ごせる空間",
+    "description": "プーケット本店を持つ日本人経営の本格ラーメン専門店「らあめん花亭」。東京から空輸する食材を使用したとんこつラーメンや麺つけ麺が看板。寿司・和牛もあり。",
     "tags": [
       "カフェ",
       "日本式"
@@ -4047,19 +4092,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hana-house",
     "name": "Hana House บ้านฮานะ",
     "name_ja": "ハナ ハウス บานฮานะ",
     "area": "Chiang Mai",
-    "address": "105, 4, Tambon Yu Wa, Amphoe San Pa Tong, Chang Wat Chiang Mai 50120, Thailand",
+    "address": "105/4, Tambon Yu Wa, Amphoe San Pa Tong, Chiang Mai 50120, Thailand",
     "lat": 18.6156,
     "lng": 98.8896,
     "phone": "+66623291946",
     "website": "https://www.facebook.com/hanahouse27/",
-    "description": "チェンマイの日本人経営または日本人が多く利用するカフェ。コーヒー・スイーツ・軽食を提供し、落ち着いた雰囲気で過ごせる空間",
+    "description": "チェンマイ郊外サンパトン地区にある日本風カフェ「Hana House」。コーヒーや軽食を提供する落ち着いた雰囲気の店。",
     "tags": [
       "カフェ",
       "日本式"
@@ -4076,17 +4122,50 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
+  },
+  {
+    "slug": "hanabachi-bakery-cafe-ekkamai",
+    "name": "Bakery & Cafe Hanabachi",
+    "name_ja": "ベーカリー＆カフェ はなばち",
+    "area": "Ekkamai",
+    "address": "1/2-1/3 Sukhumvit Soi 63, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "lat": null,
+    "lng": null,
+    "phone": "+6627141141",
+    "website": "https://www.facebook.com/hanabachi.bkk",
+    "source_url": "https://www.facebook.com/hanabachi.bkk",
+    "description": "エカマイ・スクンビット63の日本式ベーカリーカフェ。国産オーガニック食材を使ったベーグル・パン・焼き菓子が人気。在タイ日本人が通うアットホームな小さなお店。",
+    "tags": [
+      "カフェ",
+      "ベーカリー",
+      "日本式"
+    ],
+    "hours": "Monday: 8:00 AM – 6:00 PM / Tuesday: 8:00 AM – 6:00 PM / Wednesday: 8:00 AM – 6:00 PM / Thursday: 8:00 AM – 6:00 PM / Friday: 8:00 AM – 6:00 PM / Saturday: 8:00 AM – 6:00 PM / Sunday: 8:00 AM – 6:00 PM",
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "phone_local": null,
+    "email": null,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hanako",
     "name": "Hanako",
     "name_ja": "ハナコ",
     "area": "Sriracha",
-    "address": "199 สุรศักดิ์ Tambon Bang Phra, Amphoe Si Racha, Chang Wat Chon Buri 20110, Thailand",
+    "address": "199 Surasak, Tambon Bang Phra, Amphoe Si Racha, Chon Buri 20110, Thailand",
     "phone": "+66942896997",
     "website": "https://linktr.ee/milamarin",
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。シラチャそばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
+    "description": "シラチャにある日本関連のカフェ・レストラン。日本人コミュニティが集まる「リトル大阪」エリアに立地。",
     "tags": [
       "カフェ",
       "日本式"
@@ -4102,17 +4181,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hanbe-sriracha",
     "name": "居酒屋 炭火屋 半べゑ 半べえ シラチャ Hanbe Sriracha ฮันเบะ ศรีราชา",
     "name_ja": "居酒屋 炭火屋 半べゑ 半べえ シラチャ Hanbe Sriracha",
     "area": "Sriracha",
-    "address": "47 Si Racha Nakhon 3, Tambon Si Racha, Amphoe Si Racha, Chang Wat Chon Buri 20110, Thailand",
+    "address": "47 Si Racha Nakhon 3, Tambon Si Racha, Amphoe Si Racha, Chon Buri 20110, Thailand",
     "phone": "+66618971440",
     "website": "https://m.facebook.com/hanbe47/",
-    "description": "日本式の居酒屋。シラチャそばにあり、日本酒・焼酎・生ビールとともに串焼き・刺身・揚げ物など定番の居酒屋メニューを楽しめる。",
+    "description": "シラチャにある本格日本式炭火焼き居酒屋「半べゑ」。炭火串焼き・刺身・日本酒・焼酎を楽しめる。シラチャ在住日本人に長年愛される老舗居酒屋。",
     "tags": [
       "カフェ",
       "日本式"
@@ -4128,17 +4208,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hand-matcha-and-crossiant",
     "name": "Hand matcha & crossiant",
     "name_ja": "ハンド 抹茶 & crossiant",
     "area": "Phuket",
-    "address": "32 Soi Rommani, Tambon Talat Yai, Mueang, Chang Wat Phuket 83000, Thailand",
+    "address": "32 Rommani Rd, Talat Yai, Mueang Phuket, Phuket 83000, Thailand",
     "phone": "+66612138064",
-    "website": null,
-    "description": "プーケットの抹茶スイーツ・ドリンクを専門とする日本式カフェ。本格的な抹茶ラテ・抹茶スイーツを提供し、和の雰囲気を楽しめる",
+    "website": "https://www.instagram.com/hand.phuket/",
+    "description": "プーケット旧市街のロマニー通りにある抹茶＆クロワッサン専門カフェ。日本式抹茶ドリンクと手作りペストリーを提供する小さな人気カフェ。10:00〜19:00営業。",
     "tags": [
       "カフェ",
       "抹茶",
@@ -4155,43 +4236,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "hanna-restaurant-and-coffee-shop",
-    "name": "Hanna Restaurant & Coffee Shop",
-    "name_ja": "ハンナ レストラン & コーヒー ショップ",
-    "area": "Chiang Mai",
-    "address": "1 Samlan Soi 7, Tambon Phra Sing, เมือง, Chang Wat Chiang Mai 50200, Thailand",
-    "phone": "+66871839832",
-    "website": "https://www.facebook.com/HannaCafeAtChiangMai/",
-    "description": "チェンマイの日本人経営または日本人が多く利用するカフェ。コーヒー・スイーツ・軽食を提供し、落ち着いた雰囲気で過ごせる空間",
-    "tags": [
-      "カフェ",
-      "日本式"
-    ],
-    "hours": "Monday: 8:00 AM – 4:00 PM / Tuesday: 8:00 AM – 4:00 PM / Wednesday: 8:00 AM – 4:00 PM / Thursday: 8:00 AM – 4:00 PM / Friday: 8:00 AM – 4:00 PM / Saturday: 8:00 AM – 4:00 PM / Sunday: 8:00 AM – 4:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJAwF5Qak72jARrsJNqSH2amY",
-    "ai_reviewed": false,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "happy-browns",
     "name": "Happy Browns",
     "name_ja": "ハッピー ブラウンズ",
     "area": "Phuket",
-    "address": "2 46, Tambon Kathu, Amphoe Kathu, Chang Wat Phuket 83120, Thailand",
+    "address": "2/46, Tambon Kathu, Amphoe Kathu, Phuket 83120, Thailand",
     "phone": "+66653969549",
-    "website": null,
-    "description": "プーケットの日本人経営または日本人が多く利用するカフェ。コーヒー・スイーツ・軽食を提供し、落ち着いた雰囲気で過ごせる空間",
+    "website": "https://www.facebook.com/Happybrownsbakery/",
+    "description": "プーケットのカトゥにある日本式チーズケーキ専門ベーカリー。本物のバターを使った北海道風チーズケーキが看板商品。",
     "tags": [
       "カフェ",
       "日本式"
@@ -4207,17 +4263,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hario-cafe",
     "name": "Hario Cafe",
     "name_ja": "ハリオカフェ",
     "area": "Bangkok",
-    "address": "29 Soi Sukhumvit 33, Khwaeng Khlong Tan Nuea, Watthana, Krung Thep Maha Nakhon 10110, Thailand",
+    "address": "291 Chok Chai 4 Rd, Lat Phrao, Bangkok 10230, Thailand",
     "phone": "+66630792691",
     "website": "https://www.facebook.com/hariocafebkk",
-    "description": "スクンビットソイ33の日本人経営または日本人が多く利用するカフェ。コーヒー・スイーツ・軽食を提供し、落ち着いた雰囲気で過ごせる空間",
+    "description": "日本のコーヒー器具メーカー「HARIO」が展開するカフェ。チョーンチャイ4店（24時間営業）は旗艦店。V60ドリッパーで丁寧に淹れるハンドドリップコーヒーが楽しめる。",
     "tags": [
       "カフェ",
       "日本式"
@@ -4233,17 +4290,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hario-cafe-sukhumvit",
     "name": "HARIO Cafe Sukhumvit",
     "name_ja": "ハリオカフェ スクンビット店",
     "area": "Sukhumvit",
-    "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
+    "address": "Sukhumvit Road, Watthana, Bangkok 10110, Thailand",
     "phone": null,
     "website": null,
-    "description": "日本のコーヒー器具メーカーHARIOが展開するカフェ。バンコク周辺でV60ドリッパーで丁寧に淹れるハンドドリップコーヒーを提供。コーヒー好きに人気のスペシャルティカフェ。",
+    "description": "日本のコーヒー器具メーカー「HARIO」のスクンビット出店カフェ。V60ドリッパーで淹れるハンドドリップコーヒーが看板。HARIO製品の展示販売も行う。",
     "tags": [
       "コーヒー",
       "ハンドドリップ",
@@ -4259,17 +4317,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hario-cafe-thonglor",
     "name": "Hario Cafe",
     "name_ja": "ハリオ カフェ",
     "area": "Thonglor",
-    "address": "Soi Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "address": "Soi Sukhumvit 55 (Thonglor), Khlong Tan Nuea, Watthana, Bangkok 10110, Thailand",
     "phone": null,
     "website": null,
-    "description": "日本のコーヒー器具メーカー「HARIO」が展開するカフェ。V60ドリッパーで淹れるハンドドリップコーヒーが楽しめる。コーヒー器具の購入も可能。",
+    "description": "日本のコーヒー器具メーカー「HARIO」のトンロー店（スクンビット55）。V60ドリッパーで丁寧に淹れるスペシャルティコーヒーを提供。コーヒー器具の購入も可能。",
     "tags": [
       "カフェ",
       "ハンドドリップ",
@@ -4285,17 +4344,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "haru-japanese-sushi-bar",
     "name": "Haru Japanese Sushi Bar",
     "name_ja": "ハル 日本 寿司 バー",
     "area": "Phuket",
-    "address": "60 Thanon Phun Phon, Tambon Talat Nuea, Amphoe Mueang Phuket, Chang Wat Phuket 83000, Thailand",
+    "address": "60 Thanon Phun Phon, Talat Nuea, Mueang Phuket, Phuket 83000, Thailand",
     "phone": "+6676632559",
     "website": null,
-    "description": "日本式の寿司レストラン。プーケットそばにあり、日本人職人または日本仕込みの技術で握る寿司と刺身を提供。プーケットで本格的な寿司を楽しめる。",
+    "description": "プーケットタウンにある日本式寿司・刺身レストラン。新鮮な魚介を使った握り寿司・刺身・ラーメンを提供。12:00〜24:00営業。1人300〜400バーツ程度。",
     "tags": [
       "カフェ",
       "パン",
@@ -4312,17 +4372,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "haven",
     "name": "HAVEN - ที่หลบภัย",
     "name_ja": "ヘイブン - ทหลบภย",
     "area": "Sriracha",
-    "address": "15/1 Surasak 1 Rd, Tambon Si Racha, Amphoe Si Racha, Chang Wat Chon Buri 20110, Thailand",
+    "address": "15/1 Surasak 1 Rd, Si Racha, Amphoe Si Racha, Chon Buri 20110, Thailand",
     "phone": "+66954519841",
     "website": "https://www.facebook.com/profile.php?id=61580845656062",
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。シラチャそばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
+    "description": "シラチャにある日本人在住者向けカフェ「HAVEN」。コーヒー・スイーツ・軽食を提供する落ち着いた雰囲気の店。",
     "tags": [
       "カフェ",
       "日本式"
@@ -4338,7 +4399,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "havly-cafe",
@@ -4347,8 +4409,8 @@
     "area": "Sriracha",
     "address": "Bang Phra, Si Racha District, Chon Buri 20110, Thailand",
     "phone": "+66961206798",
-    "website": null,
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。シラチャそばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
+    "website": "https://www.instagram.com/havly.cafe/",
+    "description": "シラチャのバンプラにある海辺のカフェ。コーヒーや軽食を提供し、海の眺めが楽しめる。抹茶ユズドリンクも人気メニュー。",
     "tags": [
       "カフェ",
       "日本式"
@@ -4364,17 +4426,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "heiwa-kissa",
     "name": "Heiwa Kissa",
     "name_ja": "ヘイワ キッサ",
     "area": "Bangkok",
-    "address": "245 Boriphat Rd, Khwaeng Pom Prap, Khet Pom Prap Sattru Phai, Krung Thep Maha Nakhon 10100, Thailand",
-    "phone": "+66825415836",
+    "address": "245 Boriphat Rd, Pom Prap, Bangkok 10100, Thailand",
+    "phone": "+66814050483",
     "website": "https://www.facebook.com/officialheiwakissa/",
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。バンコクそばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
+    "description": "バンコク・サムヨットの昭和レトロな日本式喫茶店。ジャズが流れるなかサイフォンや伝統的な器具で淹れるコーヒーが楽しめる。プリンや抹茶バウムクーヘンも人気。火〜日営業。",
     "tags": [
       "カフェ",
       "日本式"
@@ -4390,17 +4453,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hinode-ramen-by-rinko",
     "name": "Hinode Ramen by Rinko",
     "name_ja": "ヒノデ ラーメン by リンコ",
     "area": "Pattaya",
-    "address": "420, 76 หมู่ 9 ปาก Chalermphrakiat 29, Muang Pattaya, Amphoe Bang Lamung, Chang Wat Chon Buri 20150, Thailand",
+    "address": "420/76 Mu 9, Chalermphrakiat 29, Muang Pattaya, Bang Lamung, Chon Buri 20150, Thailand",
     "phone": "+66933897071",
     "website": "https://ecosmartth2023.wixsite.com/sun-set",
-    "description": "日本式のラーメン専門店。パタヤそばにあり、日本から取り寄せた食材と丁寧に仕込んだスープが特徴。濃厚とんこつ・あっさり醤油など複数のラーメンを提供。",
+    "description": "パタヤにある日本式ラーメン専門店。本格的なスープと食材を使ったラーメンを提供。",
     "tags": [
       "カフェ",
       "日本式"
@@ -4416,17 +4480,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hippo-and-pineapple",
     "name": "Hippo & Pineapple",
     "name_ja": "ヒッポ & パイナップル",
     "area": "Chiang Mai",
-    "address": "ซอยธรรมรักษา Tambon Su Thep, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200, Thailand",
+    "address": "Soi Thamarak, Su Thep, Mueang Chiang Mai, Chiang Mai 50200, Thailand",
     "phone": "+66918563688",
     "website": "https://www.facebook.com/PateachouxCNX/",
-    "description": "チェンマイの日本人経営または日本人が多く利用するカフェ。コーヒー・スイーツ・軽食を提供し、落ち着いた雰囲気で過ごせる空間",
+    "description": "チェンマイのワット・ウモン近くにある仏風シュークリーム（パテ・ア・シュー）専門カフェ。チョコレートムースケーキやコーヒーも人気。旧名Pâte à Choux。",
     "tags": [
       "カフェ",
       "日本式"
@@ -4442,17 +4507,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hiro-phuket",
     "name": "Hiro Phuket",
     "name_ja": "ヒロ プーケット",
     "area": "Phuket",
-    "address": "187/3 ถนนคณิต หงษ์หยก V9MX+M5C ตลาดใหญ่ ลาด ใหญ่, Tambon Talat Yai, Amphoe Mueang Phuket, Chang Wat Phuket 83000, Thailand",
+    "address": "187/3 Thanon Kanit Yok Talat Yai, Mueang Phuket, Phuket 83000, Thailand",
     "phone": "+66852327447",
-    "website": "https://www.facebook.com/share/18XDU2TwLw/?mibextid=wwXIfr",
-    "description": "プーケットの日本人経営または日本人が多く利用するカフェ。コーヒー・スイーツ・軽食を提供し、落ち着いた雰囲気で過ごせる空間",
+    "website": "https://www.facebook.com/share/18XDU2TwLw/",
+    "description": "プーケットタウンにある本格日本式寿司・刺身レストラン。タイ人シェフが10年以上の日本修業で習得した技術で調理。刺身・寿司・ラーメン・ライス料理を提供。15:00〜24:00営業（日曜定休）。",
     "tags": [
       "カフェ",
       "日本式"
@@ -4468,7 +4534,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hokkaido",
@@ -4478,7 +4545,7 @@
     "address": "WVXQ+XQ6, Pattaya City, Bang Lamung District, Chon Buri 20150, Thailand",
     "phone": null,
     "website": "https://www.facebook.com/hbctth/",
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。パタヤそばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
+    "description": "パタヤにある北海道発の日本式チーズタルト専門店「HOKKAIDO Baked Cheese Tart」。独自の二段焼き製法によるサクサクのチーズタルトが看板商品。アジア各国で展開する人気チェーン。",
     "tags": [
       "カフェ",
       "日本式"
@@ -4494,43 +4561,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "holey-mothership-bakery-phra-khanong",
-    "name": "Holey Mothership Bakery & Cafe",
-    "name_ja": "ホーリー マザーシップ ベーカリー&カフェ",
-    "area": "Phra Khanong",
-    "address": "Phra Khanong, Bangkok 10260",
-    "phone": null,
-    "website": null,
-    "description": "プラカノンにある焼きたてパンとコーヒーが楽しめるベーカリーカフェ。日本人在住者の間で口コミ評価が高く、クロワッサンやサワードウブレッドが看板商品。朝食やブランチに最適。",
-    "tags": [
-      "ベーカリー",
-      "カフェ",
-      "ブランチ"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "website",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "home-matcha",
     "name": "HOME.matcha",
     "name_ja": "ホーム.抹茶",
     "area": "Bangkok",
-    "address": "12 Soi 21, Khwaeng Suan Luang, Khet Suan Luang, Krung Thep Maha Nakhon 10250, Thailand",
+    "address": "12 Soi 21, Suan Luang, Bangkok 10250, Thailand",
     "phone": "+66824146989",
     "website": "https://www.facebook.com/home.matcha/",
-    "description": "日本式の抹茶カフェ。バンコクそばにあり、宇治抹茶を使ったドリンクや抹茶スイーツを提供。和の雰囲気のなかで本格的な抹茶体験を楽しめる。",
+    "description": "バンコクのスワンルワン地区にある日本式抹茶専門カフェ。宇治抹茶を使った本格抹茶ラテや抹茶スイーツを提供。抹茶餅エッグタルトなど独創的メニューも人気。",
     "tags": [
       "カフェ",
       "抹茶",
@@ -4547,17 +4589,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "homie",
     "name": "Homie",
     "name_ja": "ホミエ",
     "area": "Sriracha",
-    "address": "2 1 Thetsaban 1, Tambon Si Racha, Amphoe Si Racha, Chang Wat Chon Buri 20110, Thailand",
+    "address": "2/1 Thetsaban 1, Si Racha, Amphoe Si Racha, Chon Buri 20110, Thailand",
     "phone": "+66824408880",
-    "website": "https://www.instagram.com/hom1e_001?igsh=MTBwNms3Mm5qNzF3&utm_source=qr",
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。シラチャそばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
+    "website": "https://www.instagram.com/hom1e_001",
+    "description": "シラチャにある日本人向けカフェ「Homie」。コーヒー・ラテ・スイーツ・軽食を提供する落ち着いた雰囲気の店。",
     "tags": [
       "カフェ",
       "日本式"
@@ -4573,46 +4616,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "hosay-bowl-phuket-town",
-    "name": "Hosay Bowl (Phuket Town)",
-    "name_ja": "Hosay ボウル (プーケット タウン)",
-    "area": "Phuket",
-    "address": "Jaofahnok, Muang Naka Road ตำบล วิชิต อำเภอเมืองภูเก็ต ภูเก็ต 83000, Thailand",
-    "lat": 7.8837,
-    "lng": 98.3643,
-    "phone": "+66823926642",
-    "website": "http://www.hosaybowl.com/",
-    "description": "プーケットの日本人経営または日本人が多く利用するカフェ。コーヒー・スイーツ・軽食を提供し、落ち着いた雰囲気で過ごせる空間",
-    "tags": [
-      "カフェ",
-      "日本式"
-    ],
-    "hours": "Monday: 8:00 AM – 8:00 PM / Tuesday: 8:00 AM – 8:00 PM / Wednesday: 8:00 AM – 8:00 PM / Thursday: 8:00 AM – 8:00 PM / Friday: 8:00 AM – 8:00 PM / Saturday: 8:00 AM – 8:00 PM / Sunday: 8:00 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJQ11OMN0xUDAR33x5vTqCdKY",
-    "priority": 0,
-    "ai_reviewed": false,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hoshi-japanese-bakery",
     "name": "Hoshi Japanese Bakery",
     "name_ja": "星ベーカリー",
     "area": "Bangkok",
-    "address": "326 Ratchawithi 34 Alley, Khwaeng Dusit, Khet Dusit, Krung Thep Maha Nakhon 10300, Thailand",
+    "address": "326 Ratchawithi 34 Alley, Dusit, Bangkok 10300, Thailand",
     "phone": "+66815676769",
     "website": null,
-    "description": "日本人が経営する本格ベーカリー。バンコク周辺で毎日焼きたての食パン・惣菜パン・菓子パンを販売。日本式の丁寧な製法による素朴な味が人気。",
+    "description": "バンコク・ドゥシットにある日本人経営の本格ベーカリー。毎日焼きたての食パン・惣菜パン・菓子パンを販売。日本式の丁寧な製法による素朴な味が在住日本人に人気。",
     "tags": [
       "カフェ",
       "パン",
@@ -4629,17 +4644,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hoshi-tsuki-cafe-and-space",
     "name": "Hoshi Tsuki - Cafe & Space",
     "name_ja": "ホシ ツキ - カフェ & スペース",
     "area": "Chiang Mai",
-    "address": "157/2 Jed Yod-Chang Khian Rd, Tambon Chang Phueak, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50300, Thailand",
-    "phone": null,
+    "address": "157/2 Jed Yod-Chang Khian Rd, Chang Phueak, Mueang Chiang Mai, Chiang Mai 50300, Thailand",
+    "phone": "+66841194789",
     "website": null,
-    "description": "チェンマイの日本人経営または日本人が多く利用するカフェ。コーヒー・スイーツ・軽食を提供し、落ち着いた雰囲気で過ごせる空間",
+    "description": "チェンマイのチャンプアック地区にある日本風カフェ「Hoshi Tsuki（星月）」。コーヒー・軽食・食事を提供し、お絵描きや似顔絵制作スペースも併設。11:00〜22:00営業。",
     "tags": [
       "カフェ",
       "日本式"
@@ -4655,69 +4671,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "house-cafe-phuket-old-town",
-    "name": "HOUSE Cafe , Phuket old town.",
-    "name_ja": "ハウス カフェ , プーケット オールド タウン.",
-    "area": "Phuket",
-    "address": "171 Phuket Rd, Tambon Talat Yai, Amphoe Mueang Phuket, Chang Wat Phuket 83000, Thailand",
-    "phone": "+66966926292",
-    "website": "https://www.facebook.com/HOUSE542",
-    "description": "プーケットの日本人経営または日本人が多く利用するカフェ。コーヒー・スイーツ・軽食を提供し、落ち着いた雰囲気で過ごせる空間",
-    "tags": [
-      "カフェ",
-      "日本式"
-    ],
-    "hours": "Monday: 10:00 AM – 5:00 PM / Tuesday: 10:00 AM – 5:00 PM / Wednesday: 10:00 AM – 5:00 PM / Thursday: 10:00 AM – 5:00 PM / Friday: 10:00 AM – 5:00 PM / Saturday: 10:00 AM – 5:00 PM / Sunday: 10:30 AM – 5:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJCcMOkvoxUDAR0sCA_5TOUG4",
-    "ai_reviewed": false,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "house-no-33",
-    "name": "House no 33 ️",
-    "name_ja": "ハウス no 33 ",
-    "area": "Chiang Mai",
-    "address": "Chang Phueak, Mueang Chiang Mai District, Chiang Mai 50300, Thailand",
-    "phone": "+66957532077",
-    "website": "https://m.facebook.com/no.33heartmade/",
-    "description": "チェンマイの日本人経営または日本人が多く利用するカフェ。コーヒー・スイーツ・軽食を提供し、落ち着いた雰囲気で過ごせる空間",
-    "tags": [
-      "カフェ",
-      "日本式"
-    ],
-    "hours": "Monday: 9:00 AM – 5:00 PM / Tuesday: 9:00 AM – 5:00 PM / Wednesday: Closed / Thursday: 9:00 AM – 5:00 PM / Friday: 9:00 AM – 5:00 PM / Saturday: 9:00 AM – 5:00 PM / Sunday: 9:00 AM – 5:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJu8Bc3Zk72jARymHms_Galwg",
-    "ai_reviewed": false,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "house-of-sushi-bakery-and-coffee",
     "name": "House of Sushi, Bakery & Coffee",
     "name_ja": "ハウス of 寿司, ベーカリー & コーヒー",
     "area": "Phuket",
-    "address": "opposite Starbucks, House of Sushi, 19/1 Karon Rd, ตำบล กะรน Phuket, ภูเก็ต 83100, Thailand",
-    "phone": "+66633392492",
+    "address": "19/1 Karon Rd, Karon, Mueang Phuket, Phuket 83100, Thailand",
+    "phone": null,
     "website": "https://sushi-phuket.com/",
-    "description": "プーケットの日本式ベーカリーカフェ。日本品質のパン・ペストリーとコーヒーを提供し、モーニングやランチタイムに在住日本人が利用",
+    "description": "カロンビーチのスターバックス向かいにある日本式ベーカリー兼寿司カフェ。新鮮な寿司ロール・手作りペストリー・デザートを提供。清潔感のある店内で靴を脱いで入店するスタイル。",
     "tags": [
       "カフェ",
       "パン",
@@ -4734,17 +4699,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hugs-songwat-bangkok",
     "name": "HUGS.Songwat",
     "name_ja": "ハグズ ソンワット",
     "area": "Songwat",
-    "address": "Songwat Road, Samphanthawong, Bangkok 10100",
+    "address": "40-42 Soi Charoen Panit, Talad Noi, Sampanthawong, Bangkok 10100",
     "phone": null,
-    "website": null,
-    "description": "ソンワット通りにある日本人夫婦が経営するアートカフェ。欧米スタイルのブランチやヴィーガンメニューに加え、定食やおにぎりなど日本食も提供。アートギャラリーを併設。",
+    "website": "https://www.instagram.com/hugs.songwat/",
+    "description": "ソンワット通りの日本人夫婦経営アートカフェ。自転車とアートをテーマに、wagyu beef、チキンカツ、オムライスなど日本食ブランチを終日提供。アートギャラリーを併設。",
     "tags": [
       "カフェ",
       "日本人経営",
@@ -4761,43 +4727,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "hugs-songwat-cafe",
-    "name": "HUGS SONGWAT CAFE",
-    "name_ja": "HUGS ソンワット カフェ",
-    "area": "Bangkok",
-    "address": "42 Soi Charoen Phaniang, Khwaeng Talat Noi, Khet Samphanthawong, Krung Thep Maha Nakhon 10100, Thailand",
-    "phone": "+66810435306",
-    "website": "https://www.instagram.com/hugs_songwat_cafe?igsh=eXdmdWp2MDE4b2Y2&utm_source=qr",
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。バンコクそばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
-    "tags": [
-      "カフェ",
-      "日本式"
-    ],
-    "hours": "Monday: 8:30 AM – 5:00 PM / Tuesday: Closed / Wednesday: 8:30 AM – 5:00 PM / Thursday: 8:30 AM – 5:00 PM / Friday: 8:30 AM – 5:00 PM / Saturday: 8:30 AM – 5:00 PM / Sunday: 8:30 AM – 5:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJZVkzVU6Z4jARkpN8tuNnbo4",
-    "ai_reviewed": false,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ibaki-house-of-japanese-food-and-sushi",
     "name": "Ibaki House of Japanese Food and Sushi",
     "name_ja": "イバキ ハウス of 日本 フード & 寿司",
     "area": "Chiang Mai",
-    "address": "125 1 Ragang Rd, ChangKhan เมือง Chang Wat Chiang Mai 50100, Thailand",
-    "phone": "+66621678888",
-    "website": "https://www.instagram.com/ibaki.chiangmai?igsh=azViZGUxMHNxdXls&utm_source=qr",
-    "description": "日本式の寿司レストラン。チェンマイそばにあり、日本人職人または日本仕込みの技術で握る寿司と刺身を提供。チェンマイで本格的な寿司を楽しめる。",
+    "address": "125/1 Rakhang Road, Chang Khlan, Mueang Chiang Mai 50100",
+    "phone": "+66826565569",
+    "website": "https://www.instagram.com/ibaki.chiangmai/",
+    "description": "チェンマイのラカン通りにある日本料理・寿司レストラン。昼はカフェ、夜は本格寿司バーに変身。評価4.8/5と地元で人気の高い和食店。",
     "tags": [
       "カフェ",
       "パン",
@@ -4814,17 +4755,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ice-japan-premium-soft-cream-and-slow-bar",
     "name": "Ice Japan Premium Soft Cream & Slow Bar",
     "name_ja": "アイス ジャパン プレミアム ソフト クリーム & スロー バー",
     "area": "Phuket",
-    "address": "40 Yaowarad Rd, Tambon Talat Yai, Amphoe Mueang Phuket, Chang Wat Phuket 83000, Thailand",
+    "address": "40 Yaowarad Rd, Talat Yai, Mueang Phuket, Phuket 83000, Thailand",
     "phone": "+66899282145",
-    "website": null,
-    "description": "プーケットの日本人経営または日本人が多く利用するカフェ。コーヒー・スイーツ・軽食を提供し、落ち着いた雰囲気で過ごせる空間",
+    "website": "https://www.facebook.com/Icejapanphuket/",
+    "description": "プーケット旧市街にある日本式ソフトクリーム専門店。鯛焼きコーンに盛った抹茶・小豆・キャラメル等のソフトクリームが人気。毎日10:00〜21:30営業。",
     "tags": [
       "カフェ",
       "パン",
@@ -4841,17 +4783,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ichiro-japanese-food",
     "name": "Ichiro japanese food อาหารญี่ปุ่น",
     "name_ja": "イチロ 日本 フード อาหารญปน",
     "area": "Pattaya",
-    "address": "71 Soi Sukhumvit 49, Muang Pattaya, Amphoe Bang Lamung, Chang Wat Chon Buri 20150, Thailand",
+    "address": "71 Soi Sukhumvit 49, Muang Pattaya, Bang Lamung, Chon Buri 20150, Thailand",
     "phone": null,
     "website": null,
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。BTSトンロー駅そばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
+    "description": "パタヤのSukhumvit 49に位置する日本食レストラン。定食・丼・麺などの日本料理を提供し、在住日本人にも利用される。",
     "tags": [
       "カフェ",
       "パン",
@@ -4868,17 +4811,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ima-cafe",
     "name": "Ima Cafe",
     "name_ja": "イマ カフェ",
     "area": "Phuket",
-    "address": "1, 5 Thanon Thungkhar, Tambon Talat Yai, Amphoe Mueang Phuket, Chang Wat Phuket 83000, Thailand",
+    "address": "1/5 Thanon Thungkhar, Talat Yai, Mueang Phuket, Phuket 83000, Thailand",
     "phone": "+66998350283",
-    "website": "https://www.facebook.com/Imaphuket",
-    "description": "プーケットの日本人経営または日本人が多く利用するカフェ。コーヒー・スイーツ・軽食を提供し、落ち着いた雰囲気で過ごせる空間",
+    "website": "https://www.facebook.com/Imaphuket/",
+    "description": "プーケット中心部の日本食カフェ。照り焼き丼・焼きそば・大福などリーズナブルな日本料理とコーヒーを提供。学生・ファミリー層に人気の定食カフェ。",
     "tags": [
       "カフェ",
       "日本式"
@@ -4894,17 +4838,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "inome-japanese-tea",
     "name": "INOME Japanese TEA",
     "name_ja": "イノメ 日本 ティー",
     "area": "Bangkok",
-    "address": "32 Thanon Phra Athit, Khwaeng Chana Songkhram, Khet Phra Nakhon, Krung Thep Maha Nakhon 10200, Thailand",
+    "address": "60 Phra Athit Rd, Chana Songkhram, Phra Nakhon, Bangkok 10200, Thailand",
     "phone": "+66618892965",
-    "website": "https://www.instagram.com/inome_bkk?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
-    "description": "日本茶を中心に楽しめるティーカフェ。バンコクそばにあり、厳選された茶葉を使った煎茶・ほうじ茶・和紅茶のドリンクと和スイーツを提供。",
+    "website": "https://www.instagram.com/inome_bkk/",
+    "description": "プラアティット通り沿いの日本茶専門カフェ。茶葉・茶器ともに京都産にこだわり、抹茶ラテ（300B）やほうじ茶ラテを提供。バンコク唯一の100%京都産抹茶カフェ。",
     "tags": [
       "カフェ",
       "パン",
@@ -4921,43 +4866,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "into-thapae-street-coffee",
-    "name": "Into Thapae Street Coffee",
-    "name_ja": "イント スアパエ ストリート コーヒー",
-    "area": "Chiang Mai",
-    "address": "Into Thapae street coffee, 268 Tha Phae Road, Tambon Chang Moi, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50300, Thailand",
-    "phone": "+66842879299",
-    "website": "https://www.facebook.com/share/1BBRUfATvU/?mibextid=wwXIfr",
-    "description": "チェンマイの日本人経営または日本人が多く利用するカフェ。コーヒー・スイーツ・軽食を提供し、落ち着いた雰囲気で過ごせる空間",
-    "tags": [
-      "カフェ",
-      "日本式"
-    ],
-    "hours": "Monday: 8:00 AM – 3:30 PM / Tuesday: 8:00 AM – 3:30 PM / Wednesday: 8:00 AM – 3:30 PM / Thursday: 8:00 AM – 3:30 PM / Friday: 8:00 AM – 3:30 PM / Saturday: 8:00 AM – 3:30 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJn2zEwQo72jARjpePDpRGDcY",
-    "ai_reviewed": false,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "irodori-japanese-ramen-cafe-ramen-restaurant",
     "name": "IRODORI Japanese Ramen Cafe / Ramen Restaurant",
     "name_ja": "彩 ラーメンカフェ",
     "area": "Bangkok",
-    "address": "138 Soi Sukhumvit 53, Klongton-Nua Watthana, Krung Thep Maha Nakhon 10110, Thailand",
+    "address": "138 Soi Sukhumvit 53, Klongton-Nua, Watthana, Bangkok 10110",
     "phone": "+6620015249",
-    "website": "https://www.dworkstyle.com/",
-    "description": "日本式のラーメン専門店。BTSトンロー駅そばにあり、日本から取り寄せた食材と丁寧に仕込んだスープが特徴。濃厚とんこつ・あっさり醤油など複数のラーメンを提供。",
+    "website": "https://www.instagram.com/irodoribkk/",
+    "description": "スクンビット53のホテル内2階にある日本式ラーメンカフェ。バンコク唯一のトリュフエスプーマラーメン（450B）が名物。ソフトクリームやパフェなどデザートも充実。毎日11:30〜21:00営業。",
     "tags": [
       "カフェ",
       "パン",
@@ -4974,17 +4894,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "iwane-goes-nature",
     "name": "Iwane Goes Nature",
     "name_ja": "いわね ゴーズネイチャー",
     "area": "Bangkok",
-    "address": "14 Soi Sukhumvit 23, Khwaeng Khlong Toei Nuea, Khet Khlong Toei, Krung Thep Maha Nakhon 10110, Thailand",
-    "phone": "+6626640350",
-    "website": "http://www.facebook.com/Iwane1975",
-    "description": "スクンビットソイ23の日本人経営または日本人が多く利用するカフェ。コーヒー・スイーツ・軽食を提供し、落ち着いた雰囲気で過ごせる空間",
+    "address": "14 Soi Sukhumvit 23, Khlong Toei Nuea, Khlong Toei, Bangkok 10110",
+    "phone": "+66818488838",
+    "website": "https://www.facebook.com/Iwane1975/",
+    "description": "スクンビット23の日本スタイルガーデンカフェ。リコッタパンケーキやトムヤムパスタが人気で、7匹の猫が出迎える。毎日7:30〜深夜0時まで営業。",
     "tags": [
       "カフェ",
       "日本式"
@@ -5000,17 +4921,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "izakaya-hyuga-japanese-dining",
     "name": "Izakaya Hyuga Japanese Dining",
     "name_ja": "居酒屋 ヒュガ 日本 ダイニング",
     "area": "Sriracha",
-    "address": "49 Sriracha Nakorn 1 Rd, Tambon Si Racha, Amphoe Si Racha, Chang Wat Chon Buri 20110, Thailand",
+    "address": "49 Sriracha Nakorn 1 Rd, Si Racha, Si Racha, Chon Buri 20110, Thailand",
     "phone": "+66925946318",
-    "website": "https://www.instagram.com/izakaya_hyuga?igsh=MTZnMzF3aXVlemJ0ZQ%3D%3D&utm_source=qr",
-    "description": "日本式の居酒屋。シラチャそばにあり、日本酒・焼酎・生ビールとともに串焼き・刺身・揚げ物など定番の居酒屋メニューを楽しめる。",
+    "website": "https://www.instagram.com/izakaya_hyuga/",
+    "description": "シラチャのナコーン1通りにある日本式居酒屋。味噌串カツ・味噌うどん・豚の角煮など本格的な居酒屋メニューを提供。評価4.9/5の人気店。",
     "tags": [
       "カフェ",
       "パン",
@@ -5027,17 +4949,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "izakaya-ryoma",
     "name": "Izakaya Ryoma",
     "name_ja": "居酒屋 リョマ",
     "area": "Sriracha",
-    "address": "48 Thetsaban 1, Tambon Si Racha, Amphoe Si Racha, Chang Wat Chon Buri 20110, Thailand",
+    "address": "48 Thetsaban 1, Si Racha, Si Racha, Chon Buri 20110, Thailand",
     "phone": "+66625498093",
     "website": null,
-    "description": "日本式の居酒屋。シラチャそばにあり、日本酒・焼酎・生ビールとともに串焼き・刺身・揚げ物など定番の居酒屋メニューを楽しめる。",
+    "description": "シラチャの日本式居酒屋。寿司・刺身・焼き鳥などの定番居酒屋メニューと日本酒・焼酎を提供。日本人在住者の多いシラチャで地元客に親しまれる。",
     "tags": [
       "カフェ",
       "日本式"
@@ -5053,17 +4976,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "izakaya-samurai-phuket",
     "name": "Izakaya Samurai Phuket",
     "name_ja": "居酒屋 侍 プーケット",
     "area": "Phuket",
-    "address": "เลขที่ 5 Thanon Ratsada, Tambon Talat Yai, Amphoe Mueang Phuket, Chang Wat Phuket 83000, Thailand",
+    "address": "5 Ratsada Rd, Talat Yai, Mueang Phuket, Phuket 83000, Thailand",
     "phone": "+66966524269",
-    "website": "https://www.facebook.com/IZAKAYASAMURAI.OFFICIAL",
-    "description": "プーケットの日本人経営または日本人が多く利用するカフェ。コーヒー・スイーツ・軽食を提供し、落ち着いた雰囲気で過ごせる空間",
+    "website": "https://www.facebook.com/IZAKAYASAMURAI.OFFICIAL/",
+    "description": "プーケット旧市街にある日本式居酒屋。寿司・刺身・カレー・焼き鳥とアサヒビールを提供。TripAdvisor評価4.5の人気店。",
     "tags": [
       "カフェ",
       "日本式"
@@ -5079,17 +5003,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "japan-pastry-cafe-jpc-march-thonglor",
     "name": "Japan Pastry Cafe (JPC) Marché Thonglor",
     "name_ja": "ジャパン ペストリー カフェ (JPC) Marche トンロー",
     "area": "Bangkok",
-    "address": "Marche' Thonglor ชั้น G โซน B ซอยสุขุมวิท 55 (ทองหล่อ) คลองตันเหนือ วัฒนา Krung Thep Maha Nakhon 10110, Thailand",
+    "address": "Marche' Thonglor, G floor Zone B, Soi Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
     "phone": "+66614211720",
-    "website": "https://www.facebook.com/profile.php?id=61551901261912&sk=about",
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。BTSトンロー駅そばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
+    "website": "https://www.facebook.com/profile.php?id=61551901261912",
+    "description": "マルシェ・トンロー内の日本式ペストリーカフェ。日本人シェフが手掛けるパンとケーキが充実。柴犬テーマの内装が可愛く、BTS トンロー徒歩圏内。毎日12:00〜19:30。",
     "tags": [
       "カフェ",
       "パン",
@@ -5106,17 +5031,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "japanese-bbq-omochi",
     "name": "Japanese BBQ omochi",
     "name_ja": "日本 BBQ オモチ",
     "area": "Chiang Mai",
-    "address": "59, 2 Siri Mangkalajarn Rd, Tambon Su Thep, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200, Thailand",
+    "address": "59/2 Siri Mangkalajarn Rd, Su Thep, Mueang Chiang Mai 50200, Thailand",
     "phone": "+6652005366",
-    "website": "https://lin.ee/UAqT06VU",
-    "description": "日本式の和菓子・餅カフェ。チェンマイ周辺で大福・わらび餅などの和菓子とドリンクを提供。タイでは珍しい本格的な和菓子を楽しめる日本風カフェ。",
+    "website": "https://www.instagram.com/yakiniku_omochi/",
+    "description": "チェンマイ・ニマンエリアにある日本式焼肉専門店。A5和牛を本格的な焼肉スタイルで提供。2024年11月オープン。平日17:00〜、週末11:30〜営業。",
     "tags": [
       "カフェ",
       "パン",
@@ -5133,17 +5059,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "japanese-cafe-restaurant-nikki",
     "name": "Japanese cafe restaurant Nikki",
     "name_ja": "日本 カフェ レストラン ニッキ",
     "area": "Pattaya",
-    "address": "1F 39/18, Eastern Tower Condominium, 39 Tesaban 2 Jermjomphol Rd, Tambol Sriracha, Amphoe Si Racha, Chang Wat Chon Buri 20110, Thailand",
+    "address": "39/18 Eastern Tower Condominium 1F, Tesaban 2 Jermjomphol Rd, Si Racha, Chon Buri 20110, Thailand",
     "phone": null,
     "website": null,
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。パタヤそばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
+    "description": "シラチャのEastern Tower Condominium 1Fにある日本食カフェレストラン。日本料理・軽食・ドリンクを提供する在住日本人向けの小規模カフェ。",
     "tags": [
       "カフェ",
       "パン",
@@ -5160,7 +5087,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "japanese-milk-bread-thonglor",
@@ -5170,7 +5098,7 @@
     "address": "Soi Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
     "phone": null,
     "website": null,
-    "description": "トンローにある食パン（しょくぱん）専門店。ふわふわの日本式生食パンが看板商品で、シフォンケーキやフィナンシェ、プリンなど日本の甘味も提供。素朴な店構えながらパン好きに愛される。",
+    "description": "トンローにある日本式生食パン専門ベーカリー。ふわふわの食パンのほか、シフォンケーキ・フィナンシェ・プリンなど日本のスイーツも提供するテイクアウト専門店。",
     "tags": [
       "ベーカリー",
       "食パン",
@@ -5186,17 +5114,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "japanese-restaurant-jyube",
     "name": "Japanese Restaurant Jyube",
     "name_ja": "日本 レストラン Jyube",
     "area": "Chiang Mai",
-    "address": "40/5 Sridonchai Rd, A.Muang, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50100, Thailand",
+    "address": "40/5 Sridonchai Rd, Mueang Chiang Mai 50100, Thailand",
     "phone": "+66914874050",
     "website": "https://www.facebook.com/jyubey/",
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。チェンマイそばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
+    "description": "チェンマイのスリドンチャイ通りにある日本食居酒屋。寿司・刺身・串焼き・とんかつなど多彩な和食を提供。TripAdvisor評価4.5、夕食は予約推奨。",
     "tags": [
       "カフェ",
       "パン",
@@ -5213,17 +5142,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "japanese-restaurant-kazokutei",
     "name": "Japanese Restaurant KAZOKUTEI",
     "name_ja": "日本 レストラン カゾクテイ",
     "area": "Chiang Mai",
-    "address": "86/1 โคลงการเลอตะวันเพลส ชั้น 2 Sridonchai Rd, Tambon Chang Khlan, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50100, Thailand",
+    "address": "86/1 Le Tawan Place 2F, Sridonchai Rd, Chang Khlan, Mueang Chiang Mai 50100, Thailand",
     "phone": "+66871745464",
     "website": "https://r.grab.com/g/6-20260112_193640_8ad0600075ef48919a93265037ccaf8f_MEXMPS-3-C7WHGZEZLJ41GJ",
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。チェンマイそばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
+    "description": "チェンマイ中心部のショッピングモール2F（ルタワン・プレース）にある日本食レストラン。家族経営の和食店で定食・丼・麺類を提供。",
     "tags": [
       "カフェ",
       "パン",
@@ -5240,46 +5170,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "jasmins-caf",
-    "name": "Jasmin's Café",
-    "name_ja": "ジャスミン's カフェ",
-    "area": "Pattaya",
-    "address": "WVPP+V3R, 137 หมู่ที่ 9 Thanon Pattaya Klang, Muang Pattaya, Amphoe Bang Lamung, Chang Wat Chon Buri 20150, Thailand",
-    "lat": 12.9372,
-    "lng": 100.8851,
-    "phone": "+66814298409",
-    "website": "https://sites.google.com/view/jasminscafe/accueil",
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。パタヤそばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
-    "tags": [
-      "カフェ",
-      "日本式"
-    ],
-    "hours": "Monday: 10:00 AM – 10:00 PM / Tuesday: 10:00 AM – 10:00 PM / Wednesday: Closed / Thursday: 10:00 AM – 10:00 PM / Friday: 10:00 AM – 10:00 PM / Saturday: 10:00 AM – 10:00 PM / Sunday: 10:00 AM – 10:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJPzOrhAaWAjER2JyPvRtoU24",
-    "priority": 0,
-    "ai_reviewed": false,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ji-matcha-tea-time",
     "name": "Ji Matcha Tea Time",
     "name_ja": "ジ 抹茶 ティー タイム",
     "area": "Chiang Mai",
-    "address": "2 Nimmana Haeminda Rd Lane 13, Tambon Su Thep, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200, Thailand",
+    "address": "2 Nimmana Haeminda Rd Lane 13, Su Thep, Mueang Chiang Mai 50200, Thailand",
     "phone": "+66966581107",
-    "website": "https://www.facebook.com/profile.php?id=100057692389529&mibextid=LQQJ4d",
-    "description": "ニマンヘミンの抹茶スイーツ・ドリンクを専門とする日本式カフェ。本格的な抹茶ラテ・抹茶スイーツを提供し、和の雰囲気を楽しめる",
+    "website": "https://www.facebook.com/profile.php?id=100057692389529",
+    "description": "ニマン13通りの路地にある日本式抹茶カフェ。宇治抹茶（京都産）を使った抹茶ラテ・わらび餅・焼き餅など本格和スイーツを提供。毎日10:30〜18:30、評価4.9/5。",
     "tags": [
       "カフェ",
       "抹茶",
@@ -5296,17 +5198,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "jj-mall-one-more-bite-japanese-bakery",
     "name": "JJ Mall One More bite Japanese bakery",
     "name_ja": "JJ モール ワン モレ ビテ 日本 ベーカリー",
     "area": "Bangkok",
-    "address": "เจเจมอลล์ ชั้น 2 588 Kamphaeng Phet 2 Rd, Khwaeng Chatuchak, Khet Chatuchak, Krung Thep Maha Nakhon 10900, Thailand",
+    "address": "JJ Mall 2F, 588 Kamphaeng Phet 2 Rd, Chatuchak, Bangkok 10900, Thailand",
     "phone": "+66982825589",
-    "website": null,
-    "description": "日本式のベーカリーカフェ。バンコクそばにあり、食パン・惣菜パン・菓子パンを毎日焼きたてで提供。日本の製法で作られたパンとドリンクを楽しめる。",
+    "website": "https://www.facebook.com/OneMoreBiteThailand/",
+    "description": "チャトゥチャックのJJモール2F内にある日本式ベーカリー。「しおパン」など日本の製法にこだわったパンを毎日焼きたてで提供。",
     "tags": [
       "カフェ",
       "パン",
@@ -5323,17 +5226,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "joto-curry-cnx",
     "name": "JOTO CURRY CNX",
     "name_ja": "ジョト カレー CNX",
     "area": "Chiang Mai",
-    "address": "10, 5 Thanon Samlarn Lane 1, Tambon Si Phum, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200, Thailand",
+    "address": "10/5 Thanon Samlarn Lane 1, Si Phum, Mueang Chiang Mai 50200, Thailand",
     "phone": "+66880887800",
-    "website": "https://www.facebook.com/share/17bGSdEeKW/?mibextid=wwXIfr",
-    "description": "チェンマイの日本人経営または日本人が多く利用するカフェ。コーヒー・スイーツ・軽食を提供し、落ち着いた雰囲気で過ごせる空間",
+    "website": "https://www.facebook.com/share/17bGSdEeKW/",
+    "description": "チェンマイ旧市街のタローラーメン店裏にある大阪スタイルのカレーライス専門店。席数5のみの小さな隠れ家。金・土曜11:30〜14:30のみ、売り切れ次第終了。",
     "tags": [
       "カフェ",
       "日本式"
@@ -5349,7 +5253,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "jpc-japan-pastry-cafe-thonglor",
@@ -5359,7 +5264,7 @@
     "address": "Marche Thonglor, Soi Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok 10110",
     "phone": null,
     "website": "https://www.instagram.com/japanpastrycafe/",
-    "description": "トンローのMarche Thonglor内にある日本式ペストリーカフェ。モーニングサービス（8:00-11:00）も提供。日本品質のパンやケーキが揃い、朝食やおやつタイムに最適。",
+    "description": "マルシェ・トンローに位置する日本式ペストリーカフェ（JPC本店）。モーニング8:00〜11:00も提供。日本品質のパン・ケーキが揃い朝食やおやつタイムに最適。",
     "tags": [
       "カフェ",
       "ベーカリー",
@@ -5375,17 +5280,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "js-bakery-by-yamazaki-siam-takashimaya",
     "name": "J's BAKERY by Yamazaki SIAM Takashimaya",
     "name_ja": "J'sベーカリー by ヤマザキ",
     "area": "Bangkok",
-    "address": "299 ICONSIAM G floor SIAM Takashimaya Charoen Nakhon Rd, Khwaeng Khlong Ton Sai, Khet Khlong San, Krung Thep Maha Nakhon 10600, Thailand",
+    "address": "299 ICONSIAM G floor, Siam Takashimaya, Charoen Nakhon Rd, Khlong San, Bangkok 10600, Thailand",
     "phone": "+66800623425",
     "website": null,
-    "description": "バンコクの日本式ベーカリーカフェ。日本品質のパン・ペストリーとコーヒーを提供し、モーニングやランチタイムに在住日本人が利用",
+    "description": "アイコンサイアムの高島屋内G階にある山崎パン系列の日本式ベーカリー。日本式フレンチスタイルのパンや季節の菓子パンを提供。在住日本人の定番ショッピングスポット。",
     "tags": [
       "カフェ",
       "パン",
@@ -5402,17 +5308,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "js-baksiamery",
     "name": "J's Baksiamery",
     "name_ja": "J's バクサイアメリー",
     "area": "Bangkok",
-    "address": "floor :- UG Department Store, 137 Charoen Nakhon Rd, Khwaeng Khlong Ton Sai, Khet Khlong San, Krung Thep Maha Nakhon 10600, Thailand",
+    "address": "UG Department Store, 137 Charoen Nakhon Rd, Khlong Ton Sai, Khlong San, Bangkok 10600, Thailand",
     "phone": null,
     "website": null,
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。バンコクそばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
+    "description": "アイコンサイアムの高島屋地下階にある山崎パン系列ベーカリーのサイアム店。日本式のパンや焼き菓子を提供。js-bakery-by-yamazaki-siam-takashimayaと同一施設内の別ブース。",
     "tags": [
       "カフェ",
       "日本式"
@@ -5428,7 +5335,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "jumbo-sushi",
@@ -8228,40 +8136,14 @@
     "place_reviewed": true
   },
   {
-    "slug": "mata-phuket",
-    "name": "Mata Phuket",
-    "name_ja": "マタ プーケット",
-    "area": "Phuket",
-    "address": "9, 19 Thep Krasattri Rd, Tambon Ratsada, Amphoe Mueang Phuket, Chang Wat Phuket 83000, Thailand",
-    "phone": "+66889199793",
-    "website": "http://www.facebook.com/mata.hkt",
-    "description": "プーケットの日本人経営または日本人が多く利用するカフェ。コーヒー・スイーツ・軽食を提供し、落ち着いた雰囲気で過ごせる空間",
-    "tags": [
-      "カフェ",
-      "日本式"
-    ],
-    "hours": "Monday: 8:30 AM – 5:00 PM / Tuesday: 8:30 AM – 5:00 PM / Wednesday: Closed / Thursday: 8:30 AM – 5:00 PM / Friday: 8:30 AM – 5:00 PM / Saturday: 8:30 AM – 5:00 PM / Sunday: 8:30 AM – 5:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJlQFXOCoxUDARiptWRH1Xmaw",
-    "ai_reviewed": false,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
     "slug": "matcha-bar",
     "name": "MATCHA BAR",
     "name_ja": "抹茶 バー",
     "area": "Bangkok",
-    "address": "15 Soi Phahonyothin 3, แขวงพญาไท, Khet Phaya Thai, Krung Thep Maha Nakhon 10400, Thailand",
+    "address": "15 Soi Phahonyothin 3, Phaya Thai, Phaya Thai, Bangkok 10400, Thailand",
     "phone": "+6624832899",
     "website": null,
-    "description": "日本式の抹茶カフェ。BTSパヤタイ駅そばにあり、宇治抹茶を使ったドリンクや抹茶スイーツを提供。和の雰囲気のなかで本格的な抹茶体験を楽しめる。",
+    "description": "パヤタイ駅近くにある日本式抹茶カフェ。宇治抹茶を使ったドリンクや抹茶スイーツを提供し、和の雰囲気で本格的な抹茶体験が楽しめる小規模店。",
     "tags": [
       "カフェ",
       "抹茶",
@@ -8278,17 +8160,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "matcha-cabinet",
     "name": "MATCHA CABINET",
     "name_ja": "抹茶 キャビネット",
     "area": "Chiang Mai",
-    "address": "4 2 Hussadhisawee Soi 4, Tambon Si Phum, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200, Thailand",
+    "address": "4/2 Hussadhisawee Soi 4, Si Phum, Mueang Chiang Mai 50200, Thailand",
     "phone": "+66814692551",
-    "website": "https://www.instagram.com/matcha_cabinet?igsh=bmczcmt2djY5ZnY2",
-    "description": "チェンマイの抹茶スイーツ・ドリンクを専門とする日本式カフェ。本格的な抹茶ラテ・抹茶スイーツを提供し、和の雰囲気を楽しめる",
+    "website": "https://www.instagram.com/matcha_cabinet/",
+    "description": "チェンマイSi Phum地区の本格抹茶専門カフェ。セレモニアルグレードの抹茶のみ使用し、産地・等級・風味チャート付きで提供。自家製デザートも充実。毎日9:00〜17:00。",
     "tags": [
       "カフェ",
       "抹茶",
@@ -8305,86 +8188,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "matcha-cafe-maiko-bangkok",
-    "name": "Matcha Cafe Maiko",
-    "name_ja": "抹茶 カフェ 舞妓",
-    "area": "Bangkok",
-    "address": "Bangkok, Thailand",
-    "phone": null,
-    "website": null,
-    "description": "北海道発の抹茶カフェ「舞妓」のタイ店舗。バンコク周辺で北海道産牛乳と宇治抹茶を使ったソフトクリーム・パフェ・抹茶ドリンクを提供。",
-    "tags": [
-      "抹茶",
-      "ソフトクリーム",
-      "北海道"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "matcha-cafe-maiko-bangkok-cafe",
-    "name": "Matcha Cafe Maiko",
-    "name_ja": "抹茶 カフェ 舞妓",
-    "area": "Siam",
-    "address": "Siam Paragon, 991 Rama I Road, Pathum Wan, Bangkok 10330",
-    "phone": null,
-    "website": null,
-    "description": "北海道発の抹茶カフェ「舞妓」のタイ店舗。BTSサイアム駅周辺で北海道産牛乳と宇治抹茶を使ったソフトクリーム・パフェ・抹茶ドリンクを提供。",
-    "tags": [
-      "抹茶",
-      "ソフトクリーム",
-      "北海道"
-    ],
-    "hours": "10:00-22:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "matcha-eight-bangkok",
-    "name": "Matcha Eight",
-    "name_ja": "抹茶 エイト",
-    "area": "Bangkok",
-    "address": "Bangkok, Thailand",
-    "phone": null,
-    "website": null,
-    "description": "京都・宇治の抹茶を使用した本格抹茶カフェ。バンコク周辺で抹茶ティラミス・抹茶チーズケーキ・濃厚抹茶ラテなど多彩な抹茶メニューを提供。",
-    "tags": [
-      "抹茶",
-      "カフェ",
-      "宇治抹茶",
-      "スイーツ"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "matcha-people-ari",
@@ -8394,7 +8199,7 @@
     "address": "Soi Ari 4 North, Phaya Thai, Bangkok 10400",
     "phone": null,
     "website": null,
-    "description": "タイの女優プロイ・ホーワン氏がプロデュースした抹茶カフェ。ドーナツショップ「Drop by Dough」とのコラボ。モダンミニマルなデザインの店内。",
+    "description": "タイ人女優プロイ・ホーワンがドロップ・バイ・ドウとのコラボで開いた抹茶カフェ。アリー4北側に位置。大きな丸テーブルを囲んでゆっくり抹茶を楽しむモダンな空間。毎日8:00〜17:00。",
     "tags": [
       "抹茶",
       "カフェ",
@@ -8410,7 +8215,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "matcha-people-sukhumvit",
@@ -8420,7 +8226,7 @@
     "address": "Sukhumvit Road, Khlong Toei, Bangkok 10110",
     "phone": null,
     "website": null,
-    "description": "スクンビットの抹茶スイーツ・ドリンクを専門とする日本式カフェ。本格的な抹茶ラテ・抹茶スイーツを提供し、和の雰囲気を楽しめる",
+    "description": "スクンビットエリアにある抹茶専門カフェ「Matcha People」の店舗。チェリーコーク抹茶・グアバグラニータ抹茶など独自ドリンクとデザートを提供。",
     "tags": [
       "抹茶",
       "カフェ"
@@ -8435,17 +8241,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "matcha-roo",
     "name": "Matcha Roo",
     "name_ja": "抹茶 ロオ",
     "area": "Phuket",
-    "address": "54/9 Montri Rd, Tambon Talat Yai, Amphoe Mueang Phuket, Chang Wat Phuket 83000, Thailand",
+    "address": "54/9 Montri Rd, Talat Yai, Mueang Phuket, Phuket 83000, Thailand",
     "phone": null,
     "website": null,
-    "description": "プーケットの抹茶スイーツ・ドリンクを専門とする日本式カフェ。本格的な抹茶ラテ・抹茶スイーツを提供し、和の雰囲気を楽しめる",
+    "description": "プーケット旧市街のモントリ通りにある日本式抹茶カフェ。本格的な抹茶ラテや抹茶スイーツを提供し、和の雰囲気の中でゆっくり過ごせる。",
     "tags": [
       "カフェ",
       "抹茶",
@@ -8462,17 +8269,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "matcha-times-sukhumvit-33-1",
     "name": "MATCHA TIMES - Sukhumvit 33/1",
     "name_ja": "抹茶 タイムズ - スクンビット 33/1",
     "area": "Bangkok",
-    "address": "Phra Khanong BTS Station, Khwaeng Phra Khanong, Khet Khlong Toei, Krung Thep Maha Nakhon 10110, Thailand",
+    "address": "Soi Sukhumvit 33/1, Khlong Tan Nuea, Watthana, Bangkok 10110",
     "phone": "+66640030309",
-    "website": "https://aroimaru.com/restaurants/matcha-times/",
-    "description": "日本式の抹茶カフェ。BTSプラカノン駅そばにあり、宇治抹茶を使ったドリンクや抹茶スイーツを提供。和の雰囲気のなかで本格的な抹茶体験を楽しめる。",
+    "website": "https://www.facebook.com/p/Matcha-TIMES-Thailand-61573769979376/",
+    "description": "スクンビット33/1の路地にある日本産抹茶専門カフェ。宇治抹茶ラテや焼きパンダ（抹茶・カスタード・チョコ）が人気。ドリンクは60B〜とリーズナブル。",
     "tags": [
       "カフェ",
       "抹茶",
@@ -8491,17 +8299,18 @@
     "price_level": null,
     "photo_name": null,
     "price_range": "THB 50〜/人",
-    "detail": "スクンビットソイ33/1のEllsie Boutique Mall内にある抹茶専門カフェ。シンプルでモダンなデザインの空間でバリスタが目の前で抹茶を点てるスタイル。BTSプロンポン駅から徒歩5分以内のアクセス良好な立地。10:30〜19:00（無休）。抹茶の香りが漂う落ち着いた雰囲気でTHB 50〜の手頃な価格帯。"
+    "detail": "スクンビットソイ33/1のEllsie Boutique Mall内にある抹茶専門カフェ。シンプルでモダンなデザインの空間でバリスタが目の前で抹茶を点てるスタイル。BTSプロンポン駅から徒歩5分以内のアクセス良好な立地。10:30〜19:00（無休）。抹茶の香りが漂う落ち着いた雰囲気でTHB 50〜の手頃な価格帯。",
+    "place_reviewed": true
   },
   {
     "slug": "matchamoodie-phuket",
     "name": "Matchamoodie phuket",
     "name_ja": "マッチャムーディー プーケット",
     "area": "Phuket",
-    "address": "54, 87 Thanon Ongsimphai, Tambon Talat Yai, เมือง Chang Wat Phuket 83000, Thailand",
+    "address": "54/87 Thanon Ongsimphai, Talat Yai, Mueang Phuket, Phuket 83000, Thailand",
     "phone": "+66869883678",
-    "website": "https://www.instagram.com/matcha.moodie?igsh=b29paXEzc3FmYTh3&utm_source=qr",
-    "description": "プーケットの抹茶スイーツ・ドリンクを専門とする日本式カフェ。本格的な抹茶ラテ・抹茶スイーツを提供し、和の雰囲気を楽しめる",
+    "website": "https://www.instagram.com/matcha.moodie/",
+    "description": "プーケット旧市街のオンシムパイ通りにある日本式抹茶カフェ。本格的な抹茶ドリンクとスイーツを提供。SNSで話題のポップアップイベントも開催。",
     "tags": [
       "カフェ",
       "抹茶",
@@ -8518,7 +8327,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "matchaya-bangkok",
@@ -8527,8 +8337,8 @@
     "area": "Bangkok",
     "address": "Bangkok, Thailand",
     "phone": null,
-    "website": null,
-    "description": "シンガポール発の抹茶デザートカフェのバンコク店。宇治抹茶を使用したかき氷・ソフトクリーム・パフェなど抹茶スイーツが充実。テイクアウトも可能。",
+    "website": "https://matchaya.sg/",
+    "description": "シンガポール発の日本式抹茶デザートカフェのバンコク店。宇治抹茶使用のかき氷・ソフトクリーム・パフェなど多彩な抹茶スイーツを提供。",
     "tags": [
       "抹茶",
       "デザート",
@@ -8545,17 +8355,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "matchi-matchi",
     "name": "Matchi Matchi",
     "name_ja": "マッチ マッチ",
     "area": "Chiang Mai",
-    "address": "49/8 Thanon Arak, Tambon Si Phum, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200, Thailand",
-    "phone": "+66966845554",
+    "address": "49/8 Thanon Arak, Si Phum, Mueang Chiang Mai 50200, Thailand",
+    "phone": "+66617979163",
     "website": "https://www.facebook.com/share/1FBqYtm4M8/",
-    "description": "チェンマイの日本人経営または日本人が多く利用するカフェ。コーヒー・スイーツ・軽食を提供し、落ち着いた雰囲気で過ごせる空間",
+    "description": "チェンマイ旧市街のアラク通りにある日本式抹茶カフェ。大阪クリームパフ・ソフトクリーム・濃厚抹茶ドリンクが人気。毎日10:00〜20:00。",
     "tags": [
       "カフェ",
       "日本式"
@@ -8571,17 +8382,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "matchoya",
     "name": "Matchoya",
     "name_ja": "マッチャヤ",
     "area": "Phuket",
-    "address": "4, Blue Tree Phuket, 2 ถ. ศรีสุนทร ตำบล ศรีสุนทร อำเภอถลาง ภูเก็ต 83110, Thailand",
+    "address": "4/2 Srisoonthorn Rd, Cherngtalay, Thalang, Phuket 83110, Thailand",
     "phone": "+66931366282",
     "website": "https://matchoya.co/",
-    "description": "プーケットの日本人経営または日本人が多く利用するカフェ。コーヒー・スイーツ・軽食を提供し、落ち着いた雰囲気で過ごせる空間",
+    "description": "ブルーツリープーケット内にある宇治抹茶専門カフェ。京都・丸久小山園（300年の歴史）のほうじ茶も使用。ダーティー抹茶が看板ドリンク。毎日8:00〜18:00。",
     "tags": [
       "カフェ",
       "日本式"
@@ -8598,43 +8410,18 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "プーケットのブルーツリー内（スリスントーン通り4/2番地）に位置する抹茶専門カフェ。ラグーナプーケット・バンタオビーチに近い立地。オープンエアシーティングで現代的なアートデザインが特徴。「大胆でモダン、プレミアムだが退屈ではない」をコンセプトに。毎日8:00〜18:00営業。"
-  },
-  {
-    "slug": "maxvalu-supermarket-sriracha-atara",
-    "name": "MaxValu Supermarket - Sriracha Atara",
-    "name_ja": "マックスバリュ シラチャ アタラ",
-    "area": "Sriracha",
-    "address": "22/6 ถนน Si Racha Nakhon 3, Tambon Si Racha, Amphoe Si Racha, Chang Wat Chon Buri 20110, Thailand",
-    "phone": "+6638313463",
-    "website": "https://www.aeonthailand.co.th/th/",
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。シラチャそばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
-    "tags": [
-      "カフェ",
-      "日本式"
-    ],
-    "hours": "Monday: Open 24 hours / Tuesday: Open 24 hours / Wednesday: Open 24 hours / Thursday: Open 24 hours / Friday: Open 24 hours / Saturday: Open 24 hours / Sunday: Open 24 hours",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJH1siNuq3AjERlsus3btvdTk",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "detail": "プーケットのブルーツリー内（スリスントーン通り4/2番地）に位置する抹茶専門カフェ。ラグーナプーケット・バンタオビーチに近い立地。オープンエアシーティングで現代的なアートデザインが特徴。「大胆でモダン、プレミアムだが退屈ではない」をコンセプトに。毎日8:00〜18:00営業。",
+    "place_reviewed": true
   },
   {
     "slug": "megu-matcha-and-space",
     "name": "Megu | Matcha and Space",
     "name_ja": "メグ | 抹茶 & スペース",
     "area": "Phuket",
-    "address": "101 1 Thanon Bangkok, Tambon Talat Nuea, Amphoe Mueang Phuket, Chang Wat Phuket 83000, Thailand",
+    "address": "101/1 Thanon Bangkok, Talat Nuea, Mueang Phuket, Phuket 83000, Thailand",
     "phone": null,
     "website": null,
-    "description": "プーケットの抹茶スイーツ・ドリンクを専門とする日本式カフェ。本格的な抹茶ラテ・抹茶スイーツを提供し、和の雰囲気を楽しめる",
+    "description": "プーケット旧市街のバンコク通りにある日本式抹茶カフェ。本格的な抹茶ラテや抹茶スイーツを提供し、落ち着いた和の雰囲気の空間で過ごせる。",
     "tags": [
       "カフェ",
       "抹茶",
@@ -8651,17 +8438,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "melbourne-house-bkk-halal-strong-coffee-and-japanese-halal-food",
     "name": "Melbourne House BKK (Halal) - Strong Coffee & Japanese Halal Food.",
     "name_ja": "メルボルン ハウス BKK (ハラル) - ストロング コーヒー & 日本 ハラル フード.",
     "area": "Bangkok",
-    "address": "Phaya Thai Rd, Khwaeng Thanon Phaya Thai, Khet Ratchathewi, Krung Thep Maha Nakhon 10400, Thailand",
+    "address": "69/27 Phayathai Rd, Bangkok 10400, Thailand",
     "phone": "+66613714190",
     "website": "http://www.melbournehousebkk.com/",
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。BTSパヤタイ駅そばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
+    "description": "パヤタイ駅徒歩5分のハラールカフェ。メルボルンスタイルの強めのコーヒーと日本式ハラール料理を融合。ユズ入りロングブラック・抹茶ラテなど日本素材のドリンクも充実。ハラール認証取得済み。",
     "tags": [
       "カフェ",
       "パン",
@@ -8678,17 +8466,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "melon-pan",
     "name": "Melon Pan",
     "name_ja": "メロンパン",
     "area": "Sriracha",
-    "address": "5WCM+22V ซอย สุขุมวิท 13 Tambon Si Racha, Amphoe Si Racha, Chang Wat Chon Buri 20110, Thailand",
+    "address": "Soi Sukhumvit 13, Si Racha, Si Racha, Chon Buri 20110, Thailand",
     "phone": "+66614267144",
     "website": "https://www.canva.com/design/DAGHsGixHwA/tkQ3rP62IibYRovugOImAA/view?utm_content=DAGHsGixHwA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h27892e00eb",
-    "description": "シラチャの日本式ベーカリーカフェ。日本品質のパン・ペストリーとコーヒーを提供し、モーニングやランチタイムに在住日本人が利用",
+    "description": "シラチャのスクンビット13ソイにある日本式ベーカリーカフェ。メロンパンなどの日本式パンとコーヒーを提供し、在住日本人に人気の朝食スポット。",
     "tags": [
       "カフェ",
       "パン",
@@ -8705,17 +8494,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "melonpang",
     "name": "Melonpang",
     "name_ja": "メロンパン",
     "area": "Bangkok",
-    "address": "37/1 Soi Sukhumvit 23, Khwaeng Khlong Toei Nuea, Watthana, Krung Thep Maha Nakhon 10110, Thailand",
+    "address": "37/1 Soi Sukhumvit 23, Khlong Toei Nuea, Watthana, Bangkok 10110, Thailand",
     "phone": "+66957818668",
-    "website": "https://line.me/ti/p/aPn6fie_TM",
-    "description": "スクンビットソイ23の日本式ベーカリーカフェ。日本品質のパン・ペストリーとコーヒーを提供し、モーニングやランチタイムに在住日本人が利用",
+    "website": "https://www.facebook.com/p/Melonpang-61555081058087/",
+    "description": "スクンビット23（プラサンミット）にある日本人職人による本格日本式ベーカリー。メロンパンをはじめとする日本のパンを毎日焼きたてで提供。毎日10:00〜18:30。",
     "tags": [
       "カフェ",
       "パン",
@@ -8732,17 +8522,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "men-labo-japanese-ramen",
     "name": "MEN LABO - Japanese Ramen -",
     "name_ja": "麺ラボ",
     "area": "Pattaya",
-    "address": "502, 22 Soi Buakhao, Muang Pattaya, Amphoe Bang Lamung, Chang Wat Chon Buri 20150, Thailand",
+    "address": "502/22 Soi Buakhao, Muang Pattaya, Bang Lamung, Chon Buri 20150, Thailand",
     "phone": "+66961479518",
-    "website": null,
-    "description": "日本式のラーメン専門店。パタヤそばにあり、日本から取り寄せた食材と丁寧に仕込んだスープが特徴。濃厚とんこつ・あっさり醤油など複数のラーメンを提供。",
+    "website": "https://www.instagram.com/menlabo_thailand/",
+    "description": "パタヤ・ブアカオ通りにある日本人経営の大阪スタイルラーメン店。チキン塩蕎麦など本格的な日本の麺料理を提供。毎日11:00〜深夜まで営業。",
     "tags": [
       "カフェ",
       "パン",
@@ -8759,72 +8550,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "mesalmon",
-    "name": "MEsalmon",
-    "name_ja": "ミーサーモン",
-    "area": "Pattaya",
-    "address": "124 85 ม.10 Soi L K Pavilion, Muang Pattaya, Amphoe Bang Lamung, Chang Wat Chon Buri 20150, Thailand",
-    "phone": "+66990027304",
-    "website": "https://web.facebook.com/Mesalmonpattayadelivery/#",
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。パタヤそばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
-    "tags": [
-      "カフェ",
-      "日本式"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJZ8ZNaWmXAjERop6yN703NMU",
-    "ai_reviewed": false,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "milli-cafe-pattaya",
-    "name": "Milli Cafe Pattaya",
-    "name_ja": "ミッリ カフェ パタヤ",
-    "area": "Pattaya",
-    "address": "43, 152 ม.1 เมืองพัทยา อำเภอบางละมุง ชลบุรี 20150, Thailand",
-    "lat": 12.9511,
-    "lng": 100.9387,
-    "phone": "+66644624634",
-    "website": "https://www.facebook.com/Milli-cafe-pattaya-105395928838880/",
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。パタヤそばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
-    "tags": [
-      "カフェ",
-      "日本式"
-    ],
-    "hours": "Monday: 9:30 AM – 6:00 PM / Tuesday: 9:30 AM – 6:00 PM / Wednesday: Closed / Thursday: 9:30 AM – 6:00 PM / Friday: 9:30 AM – 6:00 PM / Saturday: 9:30 AM – 6:00 PM / Sunday: 9:30 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJqcUP9Xi_AjER1RL--vMmYCg",
-    "priority": 0,
-    "ai_reviewed": false,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mini-oriental-speedbar-bacc-siam-3rd-floor",
     "name": "mini ミニ oriental speedbar (BACC siam, 3rd floor)",
     "name_ja": "ミニ",
     "area": "Bangkok",
-    "address": "939 Rama I Rd, Khwaeng Wang Mai, Pathum Wan, Krung Thep Maha Nakhon 10330, Thailand",
+    "address": "Bangkok Art and Culture Centre (BACC), 3rd Floor, Pathumwan, Bangkok",
     "phone": null,
-    "website": "https://www.facebook.com/mini.oriental.speedbar",
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。バンコクそばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
+    "website": "https://www.instagram.com/mini.oriental/",
+    "description": "BACCサイアム3階にあるオリエンタルスピードバー。抹茶ヤングココナッツどら焼き、抹茶パンナコッタなど日本スタイルのスイーツとドリンクを提供。全品65THB。",
     "tags": [
       "カフェ",
       "日本式"
@@ -8840,22 +8577,23 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mirinae",
     "name": "MiRiNae",
     "name_ja": "ミリナエ",
     "area": "Pattaya",
-    "address": "Soi Kho Pai 4, Muang Pattaya, Amphoe Bang Lamung, Chang Wat Chon Buri 20150, Thailand",
+    "address": "Soi Kho Pai 4, Pattaya City, Bang Lamung District, Chon Buri 20150",
     "phone": "+66922508997",
     "website": null,
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。パタヤそばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
+    "description": "パタヤのKorean-Japanese系居酒屋。寿司・刺身を中心とした家庭的なイザカヤスタイルで、Tripadvisor評価5.0の人気店。",
     "tags": [
       "カフェ",
       "日本式"
     ],
-    "hours": "Monday: Closed / Tuesday: 1:30 – 11:00 PM / Wednesday: 1:30 – 11:00 PM / Thursday: 1:30 – 11:00 PM / Friday: 1:30 – 11:00 PM / Saturday: 1:30 – 11:00 PM / Sunday: 1:30 – 11:00 PM",
+    "hours": "14:00-23:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
@@ -8866,7 +8604,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mister-donut-bangkok",
@@ -8875,8 +8614,8 @@
     "area": "Bangkok",
     "address": "バンコク市内各ショッピングモール（多数店舗あり）",
     "phone": null,
-    "website": null,
-    "description": "日本のドーナツチェーン「ミスタードーナツ」のタイ展開。ポン・デ・リング、オールドファッションなど定番ドーナツを提供。タイ限定フレーバーもあり。",
+    "website": "https://www.facebook.com/MisterDonutThailand/",
+    "description": "日本発のドーナツチェーン「ミスタードーナツ」のタイ店舗。ポン・デ・リング等の定番に加えタイ限定フレーバーも提供。タイ全国250店舗以上展開。",
     "tags": [
       "ドーナツ",
       "カフェ",
@@ -8892,17 +8631,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mister-donut-one-bangkok",
     "name": "Mister Donut One Bangkok",
     "name_ja": "ミスタードーナツ One Bangkok店",
     "area": "Lumphini",
-    "address": "One Bangkok, Wireless Road, Lumphini, Pathum Wan, Bangkok 10330",
+    "address": "One Bangkok, Wireless Road, Pathumwan, Bangkok",
     "phone": null,
     "website": null,
-    "description": "日本発のミスタードーナツのタイ店舗。BTSルンピニー駅周辺でポン・デ・リングなどの定番ドーナツを日本と同品質で楽しめる。コーヒーとのセットも人気。",
+    "description": "ワンバンコク内に出店する日本発ミスタードーナツ。ポン・デ・リングなどの定番ドーナツをコーヒーとともに楽しめる。BTSルンピニー駅直結。",
     "tags": [
       "ドーナツ",
       "カフェ",
@@ -8919,17 +8659,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mitsukoshi-depachika-one-bangkok",
     "name": "Mitsukoshi Depachika",
     "name_ja": "ミツコシ デパチカ",
     "area": "Lumpini",
-    "address": "One Bangkok B1F, Wireless Road, Lumpini, Pathum Wan, Bangkok 10330",
+    "address": "One Bangkok, Basement 1, Parade Tower, Wireless Road, Pathumwan, Bangkok",
     "phone": null,
-    "website": null,
-    "description": "日本の百貨店文化「デパ地下」をOne Bangkokに再現。20以上のブティックレストランとデザートショップが集まるフードホール。横丁スタイルのダイニングエリアも併設。",
+    "website": "https://www.onebangkokmitsukoshi.com/",
+    "description": "ワンバンコクB1に展開する日本三越の「デパ地下」。4,600㎡に20以上のブティックレストランと日本から直輸入の食材・総菜を集結。横丁ダイニングゾーンあり。",
     "tags": [
       "フードホール",
       "デパ地下",
@@ -8945,17 +8686,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mix-kaffee",
     "name": "Mix Kaffee",
     "name_ja": "ミックス・カフェ",
     "area": "Chiang Mai",
-    "address": "29/ 50200, 65/2 Thanon Arak, Tambon Si Phum, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200, Thailand",
+    "address": "29/2 Thanon Araksa, Tambon Sri Phumi, Chiang Mai",
     "phone": "+66815687203",
-    "website": "http://www.fb.com/Mixkaffee#sthash.00sqOSfz.dpufp://",
-    "description": "チェンマイの日本人経営または日本人が多く利用するカフェ。コーヒー・スイーツ・軽食を提供し、落ち着いた雰囲気で過ごせる空間",
+    "website": "https://www.facebook.com/Mixkaffee/",
+    "description": "チェンマイの日本式喫茶（キッサテン）スタイルのカフェ。オーナーの祖母から引き継いだモカポット抽出技法を使い、14年以上かけて精製した豆でコーヒーを提供。",
     "tags": [
       "カフェ",
       "日本式"
@@ -8971,23 +8713,24 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "miyazaki-japanese-teppan-dining",
     "name": "Miyazaki - Japanese Teppan Dining",
     "name_ja": "ミヤザキ - 日本 テッパン ダイニング",
     "area": "Pattaya",
-    "address": "Level 6 unit, 628 Thanon Pattaya Klang, Muang Pattaya, Amphoe Bang Lamung, Chang Wat Chon Buri 20150, Thailand",
+    "address": "Central Festival Pattaya, 6th Floor, Pattaya 2 Road, Chonburi",
     "phone": null,
     "website": null,
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。パタヤそばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
+    "description": "セントラルフェスティバルパタヤ6Fの鉄板焼きレストラン。目の前の鉄板で豪快に調理するライブクッキングが楽しめる。ポークやロブスターのセットメニューあり。",
     "tags": [
       "カフェ",
       "パン",
       "日本式"
     ],
-    "hours": "Monday: 11:00 AM – 8:30 PM / Tuesday: 11:00 AM – 8:30 PM / Wednesday: 11:00 AM – 8:30 PM / Thursday: 11:00 AM – 8:30 PM / Friday: 11:00 AM – 8:30 PM / Saturday: 11:00 AM – 8:30 PM / Sunday: 11:00 AM – 8:30 PM",
+    "hours": "11:00-20:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
@@ -8998,7 +8741,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mochi-machi-home-japanese-cafe",
@@ -9007,8 +8751,8 @@
     "area": "Bangkok",
     "address": "818, 90, Prasamutrjaydee, 173 Indy 2 ตำบล บ้านคลองสวน Prasamutrjaydee, สมุทรปราการ 10290, Thailand",
     "phone": "+66943536415",
-    "website": "https://www.facebook.com/share/177thprmMa/",
-    "description": "日本式の和菓子・餅カフェ。バンコク周辺で大福・わらび餅などの和菓子とドリンクを提供。タイでは珍しい本格的な和菓子を楽しめる日本風カフェ。",
+    "website": "https://www.instagram.com/mochimachidonutcafe/",
+    "description": "バンコクの日本式和菓子・餅カフェ。もちドーナツ・韓国コーンドッグ・ボバミルクティーを提供。Instagram: @mochimachidonutcafe",
     "tags": [
       "カフェ",
       "パン",
@@ -9025,7 +8769,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "momo-grill-and-izakaya",
@@ -9034,8 +8779,8 @@
     "area": "Pattaya",
     "address": "45/74-76 ม.10 Muang Pattaya, Amphoe Bang Lamung, Chang Wat Chon Buri 20150, Thailand",
     "phone": "+66804443333",
-    "website": "https://facebook.com/momogrillizakaya",
-    "description": "日本式の居酒屋。パタヤそばにあり、日本酒・焼酎・生ビールとともに串焼き・刺身・揚げ物など定番の居酒屋メニューを楽しめる。",
+    "website": "https://www.facebook.com/momogrillizakaya/",
+    "description": "パタヤ中心部に新規オープンした日本式居酒屋。和牛・豚バラ・新鮮シーフードの炭火焼きを中心に、日本のドラフトビールや日本酒と楽しめる。",
     "tags": [
       "カフェ",
       "日本式"
@@ -9051,7 +8796,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mont-blanc-patisserie",
@@ -9060,8 +8806,8 @@
     "area": "Chiang Mai",
     "address": "Chang Phueak, Mueang Chiang Mai District, Chiang Mai 50300, Thailand",
     "phone": "+66991374440",
-    "website": "https://m.facebook.com/montblancsweetcafe/",
-    "description": "チェンマイの日本人経営または日本人が多く利用するカフェ。コーヒー・スイーツ・軽食を提供し、落ち着いた雰囲気で過ごせる空間",
+    "website": "https://www.facebook.com/montblancsweetcafe/",
+    "description": "チェンマイのパティスリー。日本でフランス菓子を学んだオーナーが手がける、フランス技法×日本スタイルのデコレーションケーキが看板。全4店舗展開。",
     "tags": [
       "カフェ",
       "日本式"
@@ -9077,7 +8823,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mooh",
@@ -9086,13 +8833,13 @@
     "area": "Chiang Mai",
     "address": "25/8 นิมมาน เหมินทร์ Tambon Su Thep, อำเภอเมือง Chang Wat Chiang Mai 50200, Thailand",
     "phone": "+66853392423",
-    "website": null,
-    "description": "チェンマイの日本人経営または日本人が多く利用するカフェ。コーヒー・スイーツ・軽食を提供し、落ち着いた雰囲気で過ごせる空間",
+    "website": "https://www.instagram.com/mooh.store/",
+    "description": "チェンマイNimmanと郊外Hangdongに展開するドーナツカフェ。毎日手作りする柔らかなホームメイドドーナツが人気。温かみのある内装でゆったり過ごせる。",
     "tags": [
       "カフェ",
       "日本式"
     ],
-    "hours": "Monday: 7:30 AM – 4:00 PM / Tuesday: 7:30 AM – 4:00 PM / Wednesday: 7:30 AM – 4:00 PM / Thursday: 7:30 AM – 4:00 PM / Friday: 7:30 AM – 4:00 PM / Saturday: 7:30 AM – 4:00 PM / Sunday: 7:30 AM – 4:00 PM",
+    "hours": "07:30-16:00（Nimman）/ 08:30-16:00・水曜定休（Hangdong）",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
@@ -9103,17 +8850,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mori-japanese-kitchen",
     "name": "ร้านอาหารญี่ปุ่นโมริ Mori 森 Japanese Kitchen",
     "name_ja": "Mori 森 Japanese Kitchen",
     "area": "Chiang Mai",
-    "address": "72 ถนนทิพย์เนตร, หายยา, เมือง, Chiang Mai 50100, Thailand",
+    "address": "72 Thip Nert Road, Mueang District, Chiang Mai",
     "phone": "+66946090001",
     "website": "https://www.facebook.com/MoriJapaneseKitchen",
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。チェンマイそばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
+    "description": "チェンマイ中心部の日本食レストラン。寿司・刺身を中心に提供し、361件のレビューで100%推奨評価。Thip Nert Roadに位置する。",
     "tags": [
       "カフェ",
       "パン",
@@ -9130,59 +8878,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "morning-glory-cafe",
-    "name": "Morning Glory Cafe",
-    "name_ja": "モーニング グローリー カフェ",
-    "area": "Sriracha",
-    "address": "1 Jerm Jom Phon Road, Tambon Si Racha, Amphoe Si Racha, Chang Wat Chon Buri 20110, Thailand",
-    "phone": "+66970500275",
-    "website": "http://www.facebook.com/morningglorycafe208/",
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。シラチャそばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
-    "tags": [
-      "カフェ",
-      "日本式"
-    ],
-    "hours": "Monday: Closed / Tuesday: 9:30 AM – 7:00 PM / Wednesday: 9:30 AM – 7:00 PM / Thursday: 9:30 AM – 7:00 PM / Friday: 9:30 AM – 7:00 PM / Saturday: 9:30 AM – 7:00 PM / Sunday: 9:30 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJE1sa2gK3AjER1HEtzIJp3Is",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "mother-roaster-pratu-phi",
-    "name": "Mother Roaster Pratu Phi",
-    "name_ja": "モスエル ロースター プラツ フイ",
-    "area": "Bangkok",
-    "address": "457 Maha Chai Rd, Khwaeng Samran Rat, Khet Phra Nakhon, Krung Thep Maha Nakhon 10200, Thailand",
-    "phone": "+66612162277",
-    "website": "http://www.facebook.com/motherroasterghostgate",
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。バンコクそばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
-    "tags": [
-      "カフェ",
-      "日本式"
-    ],
-    "hours": "Monday: 9:00 AM – 4:00 PM / Tuesday: 9:00 AM – 4:00 PM / Wednesday: Closed / Thursday: 9:00 AM – 4:00 PM / Friday: 9:00 AM – 4:00 PM / Saturday: 9:00 AM – 4:00 PM / Sunday: 9:00 AM – 4:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJzRsgM4WZ4jAR8o0W2exGr-g",
-    "ai_reviewed": false,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mottomotto-hide-land",
@@ -9191,8 +8888,8 @@
     "area": "Chiang Mai",
     "address": "189 Chang Moi Rd, Tambon Chang Moi, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50300, Thailand",
     "phone": null,
-    "website": null,
-    "description": "チェンマイの日本人経営または日本人が多く利用するカフェ。コーヒー・スイーツ・軽食を提供し、落ち着いた雰囲気で過ごせる空間",
+    "website": "https://restaurantguru.com/Motto-Motto-Chiang-Mai",
+    "description": "チェンマイのジャパニーズキュイジーヌを提供するレストラン。Google評価4.4、56件のレビューで高評価を獲得。",
     "tags": [
       "カフェ",
       "日本式"
@@ -9208,7 +8905,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mtch-matcha-ari",
@@ -9217,8 +8915,8 @@
     "area": "Ari",
     "address": "65 Phahon Yothin 5, Samsen Nai, Phaya Thai, Bangkok 10400",
     "phone": null,
-    "website": null,
-    "description": "アリー地区にあるコンテンポラリー抹茶バー。タイ人抹茶愛好家が始めた店で、「ダーティマッチャ」が人気メニュー。ミニマルなデザインの空間。",
+    "website": "https://linktr.ee/mtch.bkk",
+    "description": "アリー地区のコンテンポラリー抹茶バー。タイ産・宇治抹茶を使った「ダーティマッチャ」が名物。ネオ・インダストリアルデザインの店内。タイ最優秀抹茶専門店2024-2025受賞。",
     "tags": [
       "抹茶",
       "カフェ",
@@ -9234,23 +8932,24 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mtch-matcha-sukhumvit23",
     "name": "MTCH",
     "name_ja": "エムティーシーエイチ",
     "area": "Asoke",
-    "address": "116, 21 Soi Sukhumvit 23, Khlong Toei Nuea, Watthana, Bangkok 10110",
+    "address": "116/21 Soi Sukhumvit 23, Khlong Toei Nuea, Watthana, Bangkok 10110",
     "phone": null,
-    "website": "https://www.instagram.com/mtch.official/",
-    "description": "スクンビットソイ23にある抹茶専門カフェ。抹茶ラテ、抹茶スイーツなど本格的な抹茶ドリンク・デザートを提供。ミニマルでおしゃれな空間。9:00〜17:30営業。",
+    "website": "https://www.facebook.com/mtch.bkk.sukhumvit23/",
+    "description": "スクンビットソイ23の抹茶専門カフェ。MTCHミルクシェイク（抹茶×北海道アイスクリーム）やMTCHフロートが人気。タイ最優秀抹茶専門店2024-2025受賞。",
     "tags": [
       "抹茶",
       "カフェ",
       "ミニマル"
     ],
-    "hours": "9:00-17:30",
+    "hours": "09:00-17:30",
     "status": "unverified",
     "source": "sns",
     "last_verified": "2026-03-27",
@@ -9260,43 +8959,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "mtch-sukhumvit23",
-    "name": "MTCH - Sukhumvit23",
-    "name_ja": "MTCH - スクンビット23",
-    "area": "Bangkok",
-    "address": "116, 21 Soi Sukhumvit 23, Khwaeng Khlong Toei Nuea, Watthana, Krung Thep Maha Nakhon 10110, Thailand",
-    "phone": "+66932378468",
-    "website": "https://www.instagram.com/mtch.official",
-    "description": "スクンビットソイ23の日本人経営または日本人が多く利用するカフェ。コーヒー・スイーツ・軽食を提供し、落ち着いた雰囲気で過ごせる空間",
-    "tags": [
-      "カフェ",
-      "日本式"
-    ],
-    "hours": "Monday: 9:00 AM – 5:30 PM / Tuesday: 9:00 AM – 5:30 PM / Wednesday: 9:00 AM – 5:30 PM / Thursday: 9:00 AM – 5:30 PM / Friday: 9:00 AM – 5:30 PM / Saturday: 9:00 AM – 5:30 PM / Sunday: 9:00 AM – 5:30 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJmUN9z8qf4jAReiGaHFnytDU",
-    "ai_reviewed": false,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mugi-japanese-express-food",
     "name": "MUGI (Japanese Express Food)",
     "name_ja": "ムギ (日本 エクスプレス フード)",
     "area": "Bangkok",
-    "address": "57 Soi Sathon 11, Lane 1, Khwaeng Yan Nawa, Khet Bang Rak, Krung Thep Maha Nakhon 10120, Thailand",
+    "address": "57 Soi Sathorn 11 Intersection 1, Yan Nawa, Bang Rak, Bangkok 10120",
     "phone": "+66909878829",
-    "website": "https://linktr.ee/mugi.thailand",
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。バンコクそばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
+    "website": "https://www.facebook.com/Mugi.Thailand/",
+    "description": "サートーン11路地の日本式エクスプレス食堂。プレミアム和牛・どんぶり・寿司を提供。ミニマルでカジュアルな雰囲気でランチ需要に特化。",
     "tags": [
       "カフェ",
       "パン",
@@ -9313,59 +8987,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "muguet-de-caf-and-art-space",
-    "name": "Muguet de Café & Art Space",
-    "name_ja": "ムグエト de カフェ & アート スペース",
-    "area": "Sriracha",
-    "address": "95, Tambon Bang Phra, Amphoe Si Racha, Chang Wat Chon Buri 20110, Thailand",
-    "phone": "+66659145649",
-    "website": "https://www.facebook.com/Muguetdecafe?mibextid=ZbWKwL",
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。シラチャそばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
-    "tags": [
-      "カフェ",
-      "日本式"
-    ],
-    "hours": "Monday: 7:00 AM – 8:00 PM / Tuesday: 7:00 AM – 8:00 PM / Wednesday: 7:00 AM – 8:00 PM / Thursday: 7:00 AM – 8:00 PM / Friday: 7:00 AM – 9:00 PM / Saturday: 7:00 AM – 9:00 PM / Sunday: 7:00 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJE_ADTvm3AjERPv1BLtP5at8",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "muguri-bakehouse",
-    "name": "Muguri Bakehouse",
-    "name_ja": "むぐりベイクハウス",
-    "area": "Bangkok",
-    "address": "RQ1 110 Soi Sukhumvit 49/9, Khwaeng Khlong Tan Nuea, Watthana, Krung Thep Maha Nakhon 10110, Thailand",
-    "phone": "+66802628498",
-    "website": "https://www.instagram.com/muguribakehouse",
-    "description": "スクンビットソイ49の日本人経営または日本人が多く利用するカフェ。コーヒー・スイーツ・軽食を提供し、落ち着いた雰囲気で過ごせる空間",
-    "tags": [
-      "カフェ",
-      "日本式"
-    ],
-    "hours": "Monday: Closed / Tuesday: 9:00 AM – 5:00 PM / Wednesday: 9:00 AM – 5:00 PM / Thursday: 9:00 AM – 5:00 PM / Friday: 9:00 AM – 5:00 PM / Saturday: 9:00 AM – 5:00 PM / Sunday: 9:00 AM – 5:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJZ_sGlCvBno0RKGSGb1EgD1Q",
-    "ai_reviewed": false,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "muji-coffee",
@@ -9374,8 +8997,8 @@
     "area": "Sriracha",
     "address": "5WHJ+QFJ, Si Racha, Si Racha District, Chon Buri 20110, Thailand",
     "phone": "+6633045248",
-    "website": null,
-    "description": "日本の無印良品（MUJI）が展開するカフェコーナー。シラチャ周辺にあり、シンプルで素材にこだわったコーヒーや軽食を提供。",
+    "website": "https://www.facebook.com/muji.thailand/",
+    "description": "日本の無印良品（MUJI）が展開するカフェコーナー。国産コーヒーや抹茶小豆ケーキ、抹茶どら焼きなど日本テイストの軽食を提供。シンプルで落ち着いた空間。",
     "tags": [
       "カフェ",
       "日本式"
@@ -9391,23 +9014,24 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "my-bakery-phrom-phong",
     "name": "MY BAKERY",
     "name_ja": "マイベーカリー",
     "area": "Phrom Phong",
-    "address": "Sukhumvit Rd, Khlong Toei Nuea, Watthana, Bangkok 10110",
+    "address": "595/2 Sukhumvit Soi 33/1, Khlong Tan Nuea, Watthana, Bangkok",
     "phone": null,
     "website": null,
-    "description": "2023年に一度閉店し、2025年8月11日に復活オープンした日本式ベーカリー。100%ミルクで仕込むミルクブレッドが看板商品。ソーセージパン、クリームパン、あんパンなど日本のパンが充実。BTSプロンポン駅近く。",
+    "description": "BTSプロームポン駅そばの日本式ベーカリー。2025年8月に復活オープン。100%ミルク仕込みのミルクブレッドが看板商品。ソーセージパンやクリームパンも人気。",
     "tags": [
       "ベーカリー",
       "日本式パン",
       "食パン"
     ],
-    "hours": "7:00-19:00",
+    "hours": "09:00-21:00",
     "status": "unverified",
     "source": "website",
     "last_verified": "2026-03-27",
@@ -9417,23 +9041,24 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "my-bakery-since1997",
     "name": "My Bakery Since1997",
     "name_ja": "マイ ベーカリー since1997",
     "area": "Bangkok",
-    "address": "1 14 Sukhumvit 39, Khwaeng Khlong Tan Nuea, Watthana, Krung Thep Maha Nakhon 10110, Thailand",
-    "phone": "+66641499777",
+    "address": "599/4 Sukhumvit 35 Rd, Khlongton-Nuea, Watthana, Bangkok 10110",
+    "phone": "+6622599630",
     "website": "https://www.instagram.com/mybakerysince1997/",
-    "description": "スクンビット39の日本式ベーカリーカフェ。日本品質のパン・ペストリーとコーヒーを提供し、モーニングやランチタイムに在住日本人が利用",
+    "description": "スクンビット35に位置する日本式ベーカリー。日本人オーナーが毎日焼く新鮮なパンとペストリー。クリームパフ、ビーフカレードーナツなど100THB以下で楽しめる。",
     "tags": [
       "カフェ",
       "パン",
       "日本式"
     ],
-    "hours": "Monday: 9:00 AM – 8:00 PM / Tuesday: 9:00 AM – 8:00 PM / Wednesday: 9:00 AM – 8:00 PM / Thursday: 9:00 AM – 8:00 PM / Friday: 9:00 AM – 8:00 PM / Saturday: 9:00 AM – 8:00 PM / Sunday: 9:00 AM – 8:00 PM",
+    "hours": "09:00-21:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
@@ -9444,59 +9069,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "my-cafe",
-    "name": "@ my cafe",
-    "name_ja": "@ マイ カフェ",
-    "area": "Bangkok",
-    "address": "Maharath, แขวงพระบรมมหาราชวัง Pranakorn, กรุงเทพมหานคร 10200, Thailand",
-    "phone": "+66922646492",
-    "website": null,
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。バンコクそばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
-    "tags": [
-      "カフェ",
-      "日本式"
-    ],
-    "hours": "Monday: 8:00 AM – 6:00 PM / Tuesday: 8:00 AM – 6:00 PM / Wednesday: 8:00 AM – 6:00 PM / Thursday: 8:00 AM – 6:00 PM / Friday: 8:00 AM – 6:00 PM / Saturday: 8:00 AM – 6:00 PM / Sunday: 8:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJrRjkuv-Z4jAR8X_qmXz4Gbs",
-    "ai_reviewed": false,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "myl-coffee-and-eatery",
-    "name": "MYL coffee & eatery",
-    "name_ja": "MYL コーヒー & イータリー",
-    "area": "Pattaya",
-    "address": "82, 90 Moo6 Soi Mapyaileer39/3, Muang Pattaya, Amphoe Bang Lamung, Chang Wat Chon Buri 20150, Thailand",
-    "phone": "+66824247991",
-    "website": "https://www.facebook.com/mylcoffeeandeatery",
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。パタヤそばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
-    "tags": [
-      "カフェ",
-      "日本式"
-    ],
-    "hours": "Monday: 8:00 AM – 5:00 PM / Tuesday: Closed / Wednesday: 8:00 AM – 5:00 PM / Thursday: 8:00 AM – 5:00 PM / Friday: 8:00 AM – 5:00 PM / Saturday: 8:00 AM – 5:00 PM / Sunday: 8:00 AM – 5:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJe08D40KVAjER0TGqA-cJ8c0",
-    "ai_reviewed": false,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "myth-oven",
@@ -9505,13 +9079,13 @@
     "area": "Chiang Mai",
     "address": "64 Rattanakosin Rd, Tambon Wat Ket, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50000, Thailand",
     "phone": "+66826536645",
-    "website": "http://facebook.com/mythoven",
-    "description": "チェンマイの日本人経営または日本人が多く利用するカフェ。コーヒー・スイーツ・軽食を提供し、落ち着いた雰囲気で過ごせる空間",
+    "website": "https://www.facebook.com/myth.oven/",
+    "description": "チェンマイ・ワットゲート地区の日本ホームメイドスタイルのベーカリーカフェ。自家製クロワッサン・ソーダブレッドが看板。ナチュラルウッドと漆喰の温かみある空間。",
     "tags": [
       "カフェ",
       "日本式"
     ],
-    "hours": "Monday: 9:30 AM – 5:00 PM / Tuesday: 9:30 AM – 5:00 PM / Wednesday: 9:30 AM – 5:00 PM / Thursday: 9:30 AM – 5:00 PM / Friday: 9:30 AM – 5:00 PM / Saturday: 9:30 AM – 5:00 PM / Sunday: 9:30 AM – 5:00 PM",
+    "hours": "09:30-17:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
@@ -9522,19 +9096,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "naeki-sushi-take-away-and-delivery",
     "name": "Naeki Sushi take away & delivery",
     "name_ja": "ナエキ 寿司 タケ away & デリバリー",
     "area": "Bangkok",
-    "address": "เลขที่ CEN-7/1,7/2 สถานีรถไฟฟ้าบีทีเอส Siam, Rama I Rd, Khwaeng Pathum Wan, Pathum Wan, Krung Thep Maha Nakhon 10330, Thailand",
+    "address": "87/2 Wireless Road 2nd Floor, CRC Tower, Bangkok 10330",
     "lat": 13.7455,
     "lng": 100.5351,
-    "phone": "+6626584001",
-    "website": "https://page.line.me/809gzovu?oat_content=url&openQrModal=true",
-    "description": "日本式の寿司レストラン。バンコクそばにあり、日本人職人または日本仕込みの技術で握る寿司と刺身を提供。バンコクで本格的な寿司を楽しめる。",
+    "phone": "+66982292278",
+    "website": "https://naeki.co/en/home/",
+    "description": "2013年創業のバンコクBTS沿いの寿司テイクアウト専門店。HQSR（健康志向ファストフード）スタイルで毎日手作りの新鮮な寿司・丼を提供。45THB〜。",
     "tags": [
       "カフェ",
       "日本式"
@@ -9551,17 +9126,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nagiya-chiang-mai-japanese-restaurant",
     "name": "Nagiya Chiang Mai Japanese Restaurant",
     "name_ja": "なぎ屋 チェンマイ",
     "area": "Chiang Mai",
-    "address": "เลขที่ 41,43,45,47,49,51,53 ถนนวิชยานนท์ เมือง, ตำบล ช้างม่อย อำเภอเมืองเชียงใหม่ เชียงใหม่ 50300, Thailand",
+    "address": "57 Witchayanon Road, Chang Moi, Chiang Mai",
     "phone": "+66937923591",
-    "website": "https://www.facebook.com/share/15YZqssGxX/?mibextid=wwXIfr",
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。チェンマイそばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
+    "website": "https://www.instagram.com/nagiya_thailand/",
+    "description": "東京発の居酒屋「なぎ屋」のチェンマイ初出店。2005年東京創業・2010年タイ進出の実績。焼き鳥・焼きとん・もつ鍋など本格的な串焼き居酒屋メニューを提供。",
     "tags": [
       "カフェ",
       "パン",
@@ -9578,7 +9154,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nagiya-sriracha-japanese-izakaya",
@@ -9587,8 +9164,8 @@
     "area": "Sriracha",
     "address": "48 3Rd. Sriracha 50 Sriracha Nakorn 1 Rd, Tambon Si Racha, Amphoe Si Racha, Chang Wat Chon Buri 20110, Thailand",
     "phone": "+6633674110",
-    "website": "https://nagiya-bkk.com/shop.html",
-    "description": "日本式の居酒屋。シラチャそばにあり、日本酒・焼酎・生ビールとともに串焼き・刺身・揚げ物など定番の居酒屋メニューを楽しめる。",
+    "website": "https://www.facebook.com/Nagiya.Sriracha.TH/",
+    "description": "東京発の居酒屋「なぎ屋」のシラチャ店。焼き鳥・焼きとん・刺身・鍋料理を本格的に提供。2005年東京創業・タイ展開13年の老舗居酒屋チェーン。",
     "tags": [
       "カフェ",
       "パン",
@@ -9606,17 +9183,18 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "シラチャ地区にあるなぎ屋の居酒屋。バンコクで複数店舗展開するなぎ屋ブランドのシラチャ支店。焼き鳥・もつ鍋・日本酒を提供。シラチャ日系工業団地の駐在員が集う日本式居酒屋。"
+    "detail": "シラチャ地区にあるなぎ屋の居酒屋。バンコクで複数店舗展開するなぎ屋ブランドのシラチャ支店。焼き鳥・もつ鍋・日本酒を提供。シラチャ日系工業団地の駐在員が集う日本式居酒屋。",
+    "place_reviewed": true
   },
   {
     "slug": "nagiya-yodpiman-riverwalk",
     "name": "NAGIYA Yodpiman Riverwalk",
     "name_ja": "なぎ屋",
     "area": "Bangkok",
-    "address": "Building 2nd floor, Yodpiman River Walk, 174 Thanon Ban Mo, Khwaeng Wang Burapha Phirom, Sub-district, Krung Thep Maha Nakhon 10200, Thailand",
-    "phone": "+66808237727",
-    "website": "https://nagiya-bkk.com/",
-    "description": "バンコクの日本式居酒屋「なぎ屋」。焼き鳥・焼きとん・もつ鍋などを提供し、「本物の日本の味」をコンセプトに営業。宴会プランあり。",
+    "address": "Yodpiman River Walk, Phra Nakhon, Bangkok",
+    "phone": "+6621257424",
+    "website": "https://www.nagiyariverwalk.com/",
+    "description": "チャオプラヤー川沿いヨードピマンリバーウォークに位置するなぎ屋の最大支店。川沿いの眺望を楽しみながら本格居酒屋メニューを堪能できる。予約可。",
     "tags": [
       "カフェ",
       "日本式"
@@ -9633,17 +9211,18 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "バンコクの「なぎ屋」ヨードピマンリバーウォーク店。焼き鳥・焼きとん・もつ鍋を中心に「本物の日本の味」を提供する日本式居酒屋。4名以上の宴会プランにも対応。チャオプラヤー川沿いの商業施設内に位置し、観光客にもアクセスしやすい立地。"
+    "detail": "バンコクの「なぎ屋」ヨードピマンリバーウォーク店。焼き鳥・焼きとん・もつ鍋を中心に「本物の日本の味」を提供する日本式居酒屋。4名以上の宴会プランにも対応。チャオプラヤー川沿いの商業施設内に位置し、観光客にもアクセスしやすい立地。",
+    "place_reviewed": true
   },
   {
     "slug": "nakama-caf-headquarters",
     "name": "NAKAMA Café @ Headquarters",
     "name_ja": "ナカマ カフェ @ ヘッドクォーターズ",
     "area": "Chiang Mai",
-    "address": "Suthep, Mueang Chiang Mai District, Chiang Mai 50200, Thailand",
-    "phone": "+66655283645",
-    "website": "https://www.facebook.com/nakamacafecm/",
-    "description": "チェンマイの日本人経営または日本人が多く利用するカフェ。コーヒー・スイーツ・軽食を提供し、落ち着いた雰囲気で過ごせる空間",
+    "address": "U-mong Road, Suthep, Mueang Chiang Mai",
+    "phone": "+66882692697",
+    "website": "https://nakama-cafe-headquarters.menufyy.com/",
+    "description": "チェンマイ大学近くの日本インスパイアコーヒーカフェ。スペシャルティコーヒー・抹茶・ロイヤルミルクティーなど日本茶文化をベースにした多彩なドリンクを提供。",
     "tags": [
       "カフェ",
       "日本式"
@@ -9659,7 +9238,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nakama-cnx-japanese-craft-kitchen",
@@ -9668,8 +9248,8 @@
     "area": "Chiang Mai",
     "address": "เจ็ดยอด-ช้างเคี่ยน ตรงฝั่งข้ามยำปูม้าเจ็ดยอด สาขาเจ้าชองแบรนด์ (รถเวสป้าสีชมพูจอดอย, ่, โทรคมนาคม ซอย 4 ตำบลช้างเผือก อำเภอเมืองเชียงใหม่ เชียงใหม่ 50300, Thailand",
     "phone": "+66926249526",
-    "website": "https://www.facebook.com/share/17FZ52mtkt/?mibextid=wwXIfr",
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。チェンマイそばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
+    "website": "https://www.wongnai.com/restaurants/3360184Ub-nakama-cnx-japanese-craft-kitchen",
+    "description": "チェンマイの日本式カレーライス・丼専門店。Wongnaiに掲載されデリバリー対応。カレーライスや各種丼ものを提供する日本食専門カフェキッチン。",
     "tags": [
       "カフェ",
       "パン",
@@ -9686,22 +9266,23 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nami-sushi-phuket",
     "name": "Nami Sushi Phuket",
     "name_ja": "ナミ 寿司 プーケット",
     "area": "Phuket",
-    "address": "Soi Wirat Hong Yok 2/1, Tambon Wichit, Amphoe Mueang Phuket, Chang Wat Phuket 83000, Thailand",
+    "address": "Soi Wirat Hongyok 2/1, Wichit, Mueang Phuket District, Phuket 83000",
     "phone": "+66815163835",
-    "website": "https://www.facebook.com/NamiSushiPhuket",
-    "description": "プーケットの日本人経営または日本人が多く利用するカフェ。コーヒー・スイーツ・軽食を提供し、落ち着いた雰囲気で過ごせる空間",
+    "website": "https://www.facebook.com/NamiSushiPhuket/",
+    "description": "プーケットタウン近郊のミニマル日本式寿司店。メンタイコ・炙りロール・フォアグラ添えサーモンロールなどプレミアムな創作寿司が揃う。毎日11:00-22:00営業。",
     "tags": [
       "カフェ",
       "日本式"
     ],
-    "hours": "Monday: 11:00 AM – 10:00 PM / Tuesday: 11:00 AM – 10:00 PM / Wednesday: 11:00 AM – 10:00 PM / Thursday: 11:00 AM – 10:00 PM / Friday: 11:00 AM – 10:00 PM / Saturday: 11:00 AM – 10:00 PM / Sunday: 11:00 AM – 10:00 PM",
+    "hours": "11:00-22:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
@@ -9712,69 +9293,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "nana-jit-tung-cafe",
-    "name": "Nana Jit tung cafe",
-    "name_ja": "ナナ Jit ツング カフェ",
-    "area": "Pattaya",
-    "address": "357, 83 Phra Tam Nak 5, Muang Pattaya, Amphoe Bang Lamung, Chang Wat Chon Buri 20150, Thailand",
-    "phone": null,
-    "website": null,
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。パタヤそばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
-    "tags": [
-      "カフェ",
-      "日本式"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJ65_GPwCXAjERWPpXSe4MZ1U",
-    "ai_reviewed": false,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "nanami-sushi-buffet",
-    "name": "Nanami Sushi Buffet",
-    "name_ja": "ナナミ 寿司 ビュッフェ",
-    "area": "Pattaya",
-    "address": "41, 27 Thanon Pattaya Tai, Muang Pattaya, Amphoe Bang Lamung, Chang Wat Chon Buri 20150, Thailand",
-    "phone": null,
-    "website": null,
-    "description": "日本式の寿司レストラン。パタヤそばにあり、日本人職人または日本仕込みの技術で握る寿司と刺身を提供。パタヤで本格的な寿司を楽しめる。",
-    "tags": [
-      "カフェ",
-      "日本式"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJP3vqPw2WAjERNS4sa12d5aY",
-    "ai_reviewed": false,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nanas-green-tea-donki-thonglor",
     "name": "Nana's Green Tea",
     "name_ja": "ナナズグリーンティー",
     "area": "Thonglor",
-    "address": "DONKI Mall Thonglor 1F, 107 Soi Sukhumvit 63, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "address": "Donki Mall Thonglor, 1st Floor, Thonglor, Bangkok",
     "phone": null,
-    "website": null,
-    "description": "京都発の抹茶カフェチェーン。ドンキモールトンロー内に出店。抹茶ロールケーキ、抹茶ラテ、抹茶パフェなど抹茶を使った多彩なスイーツとドリンクを提供。",
+    "website": "https://global.nanasgreentea.com/",
+    "description": "京都発の抹茶カフェ「ナナズグリーンティー」のドンキモールトンロー店。宇治産抹茶を使ったラテ・パフェ・ロールケーキ・わらび餅など多彩な抹茶スイーツを提供。",
     "tags": [
       "抹茶",
       "カフェ",
@@ -9790,17 +9320,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nanas-green-tea-one-bangkok",
     "name": "Nana's Green Tea One Bangkok",
     "name_ja": "ナナズグリーンティー One Bangkok店",
     "area": "Lumphini",
-    "address": "One Bangkok, Wireless Road, Lumphini, Pathum Wan, Bangkok 10330",
+    "address": "One Bangkok, Wireless Road, Pathumwan, Bangkok",
     "phone": null,
-    "website": null,
-    "description": "日本の抹茶カフェチェーン「ナナズグリーンティー」のタイ店舗。BTSルンピニー駅周辺にある。宇治抹茶を使ったラテやスイーツを日本と同品質で楽しめる。",
+    "website": "https://global.nanasgreentea.com/",
+    "description": "ワンバンコクに出店する日本の抹茶カフェ「ナナズグリーンティー」。宇治抹茶を使ったラテ・パフェ・スイーツを日本と同品質で提供。BTSルンピニー駅直結。",
     "tags": [
       "抹茶",
       "カフェ",
@@ -9817,17 +9348,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nanja-tei",
     "name": "Nanja Tei",
     "name_ja": "なんじゃ亭",
     "area": "Sriracha",
-    "address": "5W8H+H4Q, Thetsaban 1, Tambon Si Racha, Amphoe Si Racha, Chang Wat Chon Buri 20110, Thailand",
+    "address": "Soi Thetsaban 1, Si Racha, Chon Buri",
     "phone": "+66614750369",
     "website": "https://www.facebook.com/nanja.tei/",
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。シラチャそばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
+    "description": "シラチャ・ロビンソン前の日本式定食屋。とんかつ定食（ご飯おかわり自由）が人気で、味噌汁が絶品と評判。弁当注文も電話で受付。",
     "tags": [
       "カフェ",
       "日本式"
@@ -9843,22 +9375,23 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nekoemon-caf-chiang-mai",
     "name": "Nekoemon Café Chiang Mai",
     "name_ja": "ネコエモン カフェ チェン マイ",
     "area": "Chiang Mai",
-    "address": "107/3 หมู่ที่ 2 Tambon Chumphu, Amphoe Saraphi, Chang Wat Chiang Mai 50140, Thailand",
+    "address": "107/3 Moo 2, Chomsri, Saraphi, Chiang Mai",
     "phone": "+66985852866",
-    "website": "https://www.facebook.com/Nekoemon-Cafe-Chiang-Mai-457012231381928/",
-    "description": "チェンマイの日本人経営または日本人が多く利用するカフェ。コーヒー・スイーツ・軽食を提供し、落ち着いた雰囲気で過ごせる空間",
+    "website": "https://www.facebook.com/NekoemonCafe/",
+    "description": "チェンマイ郊外の日本風庭園カフェ。鳥居・竹林・赤い橋が並ぶ日本式庭園でコーヒー・日本茶・和食を楽しめる。着物レンタルで記念撮影も可能。",
     "tags": [
       "カフェ",
       "日本式"
     ],
-    "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: 9:00 AM – 6:00 PM",
+    "hours": "09:00-18:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
@@ -9869,7 +9402,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nekomaru-japanese-restaurant",
@@ -9879,7 +9413,7 @@
     "address": "99/9 Thetsaban 1, Tambon Si Racha, Amphoe Si Racha, Chang Wat Chon Buri 20110, Thailand",
     "phone": "+66922953285",
     "website": "https://www.facebook.com/Nekomaru-Japanese-Restaurant-1363399890475356/",
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。シラチャそばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
+    "description": "シラチャの日本食レストラン。シラチャには約1万人の日本人が居住しており、日系飲食店が密集するエリアに位置する。",
     "tags": [
       "カフェ",
       "パン",
@@ -9896,22 +9430,23 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "niji-cafe",
     "name": "Niji Cafe",
     "name_ja": "ニジ カフェ",
     "area": "Chiang Mai",
-    "address": "หมู่ที่ 7 บ้านป่าแดดใต้ ซอย ๑๒ Tambon Pa Daet, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50100, Thailand",
+    "address": "Ban Pa Daet Tai Soi 12, Pa Daet Sub-district, Mueang Chiang Mai District, Chiang Mai",
     "phone": "+66832549391",
-    "website": "http://facebook.com/nijisweetbake",
-    "description": "チェンマイの日本人経営または日本人が多く利用するカフェ。コーヒー・スイーツ・軽食を提供し、落ち着いた雰囲気で過ごせる空間",
+    "website": "https://www.facebook.com/nijisweetbake/",
+    "description": "チェンマイ・パーデット地区の日本スタイル猫カフェ。障子の扉と小さな桜の庭が特徴。ネコと戯れながらニジココア（ブラウニートッピング）などを楽しめる。",
     "tags": [
       "カフェ",
       "日本式"
     ],
-    "hours": "Monday: Closed / Tuesday: 10:00 AM – 5:00 PM / Wednesday: 10:00 AM – 5:00 PM / Thursday: 10:00 AM – 5:00 PM / Friday: 10:00 AM – 5:00 PM / Saturday: 10:00 AM – 5:00 PM / Sunday: 10:00 AM – 5:00 PM",
+    "hours": "10:00-17:00（月曜定休）",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
@@ -9922,7 +9457,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nijiya-japanese-noodles",
@@ -9931,14 +9467,14 @@
     "area": "Pattaya",
     "address": "404, Subdistrict, 190, Muang Pattaya, Amphoe Bang Lamung, Chang Wat Chon Buri 20150, Thailand",
     "phone": "+66943828471",
-    "website": null,
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。パタヤそばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
+    "website": "https://www.facebook.com/nijiyapattaya/",
+    "description": "パタヤ3rd roadの日本式ラーメン居酒屋。味噌・豚骨など4種のラーメンに加え、焼き鳥も提供。GoogleマップレビューでGoogleマップ割引あり。18:00-翌2:00営業。",
     "tags": [
       "カフェ",
       "パン",
       "日本式"
     ],
-    "hours": "Monday: 6:00 PM – 2:00 AM / Tuesday: 6:00 PM – 2:00 AM / Wednesday: 6:00 PM – 2:00 AM / Thursday: 6:00 PM – 2:00 AM / Friday: 6:00 PM – 2:00 AM / Saturday: 6:00 PM – 2:00 AM / Sunday: Closed",
+    "hours": "18:00-02:00（日曜〜24:00）",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
@@ -9949,19 +9485,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nikko-curry-and-matcha",
     "name": "NIKKO CURRY & MATCHA",
     "name_ja": "ニッコ カレー & 抹茶",
     "area": "Sriracha",
-    "address": "ตรงข้ามรร.นานาชาติบางกอกพัฒนา, 640 Soi Sukhumvit 105, บางนา, Khet Bang Na, Krung Thep Maha Nakhon 10260, Thailand",
+    "address": "640 Sukhumvit 105, Phra Khanong, Bangkok",
     "lat": 13.6615,
     "lng": 100.6213,
     "phone": "+66958942656",
-    "website": "https://web.facebook.com/nikko.curryandmatcha",
-    "description": "スクンビットソイ105の抹茶スイーツ・ドリンクを専門とする日本式カフェ。本格的な抹茶ラテ・抹茶スイーツを提供し、和の雰囲気を楽しめる",
+    "website": "https://www.facebook.com/nikko.curryandmatcha/",
+    "description": "スクンビット105のバンコクパタナスクール向かいにある日本式カレー＆抹茶カフェ。30種以上のスパイスを使った自家製カレーライスと抹茶スイーツを提供。",
     "tags": [
       "カフェ",
       "抹茶",
@@ -9979,23 +9516,24 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "niku-niku-japanese-bbq-sathorn-branch",
     "name": "NIKU NIKU Japanese BBQ (Sathorn Branch）",
     "name_ja": "ニクニク",
     "area": "Bangkok",
-    "address": "95 Soi Praphinit, Khwaeng Thung Maha Mek, Khet Sathon, Krung Thep Maha Nakhon 10120, Thailand",
+    "address": "1056 Sukhumvit Rd, Phra Khanong, Khlong Toei, Bangkok",
     "phone": "+66909973149",
-    "website": null,
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。バンコクそばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
+    "website": "https://nikunikujapanesebbq.com/",
+    "description": "バンコクのOsaka式日本焼き肉レストラン。A5和牛の炭火焼きが名物で、猫テイストのアンビアンスが話題。BTSプラカノン駅周辺。Tripadvisor評価4.9。",
     "tags": [
       "カフェ",
       "パン",
       "日本式"
     ],
-    "hours": "Monday: 11:00 AM – 12:00 AM / Tuesday: 11:00 AM – 12:00 AM / Wednesday: 11:00 AM – 12:00 AM / Thursday: 11:00 AM – 12:00 AM / Friday: 11:00 AM – 12:00 AM / Saturday: 11:00 AM – 12:00 AM / Sunday: 11:00 AM – 12:00 AM",
+    "hours": "11:00-24:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
@@ -10006,22 +9544,23 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nikudake-yakiniku-pattaya",
     "name": "เนื้อล้วนล้วนพัทยา Nikudake Yakiniku Pattaya",
     "name_ja": "เนอลวนลวนพทยา ニクダケ 焼肉 パタヤ",
     "area": "Pattaya",
-    "address": "253 ม.13 81 ต Sukhumvit Rd, Muang Pattaya, Amphoe Bang Lamung, Chang Wat Chon Buri 20150, Thailand",
+    "address": "253 Sukhumvit Road 81, Nong Prue, Bang Lamung, Chon Buri 20150",
     "phone": "+66989633994",
     "website": "https://www.facebook.com/profile.php?id=100082960610982&mibextid=ZbWKwLzakaya-Grill-Pattaya-116977557668071/",
-    "description": "日本式の焼肉レストラン。パタヤそばにあり、厳選した和牛・豚・鶏を日本式のたれで楽しめる。在住日本人のコミュニティで人気の一軒。",
+    "description": "パタヤ・スクンビットソイ81入口の和牛専門焼肉店。厳選和牛をシンプルに楽しむ「肉だけ」コンセプト。平日16-23時・土日12-23時営業。",
     "tags": [
       "カフェ",
       "日本式"
     ],
-    "hours": "Monday: 4:00 – 11:00 PM / Tuesday: 4:00 – 11:00 PM / Wednesday: 4:00 – 11:00 PM / Thursday: 4:00 – 11:00 PM / Friday: 4:00 – 11:00 PM / Saturday: 12:00 – 11:00 PM / Sunday: 12:00 – 11:00 PM",
+    "hours": "平日16:00-23:00 / 土日12:00-23:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
@@ -10032,22 +9571,23 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nippon-market-central-world",
     "name": "Nippon Market @ Central World",
     "name_ja": "ニッポン マーケット @ セントラル ワールド",
     "area": "Bangkok",
-    "address": "Central World Department store floor3 zone I, ถ. พระรามที่ 1 แขวงปทุมวัน เขตปทุมวัน กรุงเทพมหานคร 10330, Thailand",
+    "address": "CentralWorld, 3rd Floor Zone I, B336, Ratchadamri Road, Pathumwan, Bangkok",
     "phone": "+6622333829",
-    "website": "http://www.nipponmarketshop.com/",
-    "description": "バンコクの日本食品・食材を扱う日本式マーケット。BTSチットロム駅周辺にあり、日本産の調味料・お菓子・日用品を購入できる。日本食レストランも併設。",
+    "website": "https://www.facebook.com/nipponmarketth/",
+    "description": "セントラルワールド3階の日本食品マーケット。1,000種以上の日本酒をはじめ、和食材・総菜・刺身・たこ焼き・ おでんを一括購入・その場で飲食可能。毎日10-22時。",
     "tags": [
       "カフェ",
       "日本式"
     ],
-    "hours": "Monday: 10:00 AM – 10:00 PM / Tuesday: 10:00 AM – 10:00 PM / Wednesday: 10:00 AM – 10:00 PM / Thursday: 10:00 AM – 10:00 PM / Friday: 10:00 AM – 10:00 PM / Saturday: 10:00 AM – 10:00 PM / Sunday: 10:00 AM – 10:00 PM",
+    "hours": "10:00-22:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
@@ -10058,22 +9598,23 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nj-shabu-premium-pattaya",
     "name": "NJ Shabu Premium สาขา Pattaya",
     "name_ja": "NJ しゃぶ プレミアム สาขา パタヤ",
     "area": "Pattaya",
-    "address": "485, 3, Muang Pattaya, Amphoe Bang Lamung, Chang Wat Chon Buri 20150, Thailand",
+    "address": "Pattaya, Chon Buri",
     "phone": "+66639249356",
-    "website": null,
-    "description": "日本人経営または日本スタイルを取り入れたカフェ。パタヤそばにあり、コーヒー・ラテ・スイーツ・軽食を提供。落ち着いた雰囲気でゆっくり過ごせる。",
+    "website": "https://www.njshabu.com",
+    "description": "パタヤのMSGなし・プレミアム食材使用の日本式しゃぶしゃぶ店。Restaurant Guru評価4.8（466件）。バンコクにも複数店舗展開。11:30-22:30営業。",
     "tags": [
       "カフェ",
       "日本式"
     ],
-    "hours": "Monday: 11:30 AM – 10:30 PM / Tuesday: 11:30 AM – 10:30 PM / Wednesday: 11:30 AM – 10:30 PM / Thursday: 11:30 AM – 10:30 PM / Friday: 11:30 AM – 10:30 PM / Saturday: 11:30 AM – 10:30 PM / Sunday: 11:30 AM – 10:30 PM",
+    "hours": "11:30-22:30",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
@@ -10084,7 +9625,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nomisuke-matcha-cafe",
@@ -10094,13 +9636,13 @@
     "address": "7WFC+6RR, Saen Suk, Chon Buri District, Chon Buri 20130, Thailand",
     "phone": "+66845616770",
     "website": "https://www.facebook.com/NomisukeRamen/",
-    "description": "日本式の抹茶カフェ。シラチャそばにあり、宇治抹茶を使ったドリンクや抹茶スイーツを提供。和の雰囲気のなかで本格的な抹茶体験を楽しめる。",
+    "description": "バンセーンの日本スタイル抹茶カフェ。宇治抹茶ラテ・たい焼き・ぎょうざなど本格的な日本スイーツを提供。City Popが流れる和の空間。毎日9-17時営業。",
     "tags": [
       "カフェ",
       "抹茶",
       "日本式"
     ],
-    "hours": "Monday: 4:00 PM – 12:00 AM / Tuesday: 4:00 PM – 12:00 AM / Wednesday: 4:00 PM – 12:00 AM / Thursday: 4:00 PM – 12:00 AM / Friday: 4:00 PM – 12:00 AM / Saturday: 4:00 PM – 12:00 AM / Sunday: 4:00 PM – 12:00 AM",
+    "hours": "09:00-17:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
@@ -10111,7 +9653,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nudi-cafe-matcha-and-coffee",
@@ -10120,14 +9663,14 @@
     "area": "Pattaya",
     "address": "315 14-15 M.9 Soi Lengkee, Nong Prue Amphoe Bang Lamung, Chang Wat Chon Buri 20150, Thailand",
     "phone": "+66966294245",
-    "website": null,
-    "description": "日本式の抹茶カフェ。パタヤそばにあり、宇治抹茶を使ったドリンクや抹茶スイーツを提供。和の雰囲気のなかで本格的な抹茶体験を楽しめる。",
+    "website": "https://www.instagram.com/nudicafe.matchaandcoffee/",
+    "description": "パタヤ・ハットヤインヨム近くの抹茶・コーヒーカフェ。抹茶ラテが名物でソイレンキー2号店も2025年5月に開店。毎日8-23時営業。",
     "tags": [
       "カフェ",
       "抹茶",
       "日本式"
     ],
-    "hours": "Monday: 8:00 AM – 8:00 PM / Tuesday: 8:00 AM – 8:00 PM / Wednesday: 8:00 AM – 8:00 PM / Thursday: 8:00 AM – 8:00 PM / Friday: 8:00 AM – 8:00 PM / Saturday: 8:00 AM – 8:00 PM / Sunday: 8:00 AM – 8:00 PM",
+    "hours": "08:00-23:00",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
@@ -10138,7 +9681,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "o-oh-farm-suanluang",
@@ -12196,6 +11740,72 @@
     "place_reviewed": true,
     "source_url": "https://www.facebook.com/sedoizikura/",
     "needs_review": false
+  },
+  {
+    "slug": "saint-etoile-yamazaki-emporium",
+    "name": "Saint Etoile by Yamazaki (The Emporium)",
+    "name_ja": "サンエトワール ヤマザキ エンポリアム店",
+    "area": "Phrom Phong",
+    "address": "The Emporium, 4th Floor, 622 Sukhumvit Rd, Khlong Tan, Khlong Toei, Bangkok 10110",
+    "lat": null,
+    "lng": null,
+    "phone": "+66800619642",
+    "website": "https://new.yamazaki.co.th/",
+    "source_url": "https://www.tripadvisor.com/Restaurant_Review-g293916-d16639902-Reviews-Saint_Etoile_by_Yamazaki_The_Emporium-Bangkok.html",
+    "description": "プロムポン・エンポリアム4Fにある日系山崎のプレミアムベーカリー。日本式のパン・ケーキ・焼き菓子を提供。在タイ日本人に人気の立地。",
+    "tags": [
+      "カフェ",
+      "ベーカリー",
+      "ヤマザキ",
+      "日系"
+    ],
+    "hours": "Daily: 10:00 AM – 9:00 PM",
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "phone_local": null,
+    "email": null,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null,
+    "place_reviewed": true
+  },
+  {
+    "slug": "saint-etoile-yamazaki-silom",
+    "name": "Saint Etoile by Yamazaki (Silom Complex)",
+    "name_ja": "サンエトワール ヤマザキ シーロムコンプレックス店",
+    "area": "Silom",
+    "address": "Silom Complex Mall, Silom Rd, Si Lom, Bang Rak, Bangkok 10500",
+    "lat": null,
+    "lng": null,
+    "phone": null,
+    "website": "https://new.yamazaki.co.th/",
+    "source_url": "https://www.trip.com/travel-guide/bangkok-191-restaurant/saint-etoile-by-yamazaki-27559319/",
+    "description": "シーロムコンプレックス内にある日系山崎のプレミアムベーカリーカフェ。日本式のパン・スイーツ・焼き菓子を提供。サラデーン駅直結の好アクセス。",
+    "tags": [
+      "カフェ",
+      "ベーカリー",
+      "ヤマザキ",
+      "日系"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-04-05",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "phone_local": null,
+    "email": null,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "salmonkun",
@@ -17081,104 +16691,6 @@
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJNXPlrC072jARE7z44FlufWY",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "place_reviewed": true
-  },
-  {
-    "slug": "hanabachi-bakery-cafe-ekkamai",
-    "name": "Bakery & Cafe Hanabachi",
-    "name_ja": "ベーカリー＆カフェ はなばち",
-    "area": "Ekkamai",
-    "address": "1/2-1/3 Sukhumvit Soi 63, Khlong Tan Nuea, Watthana, Bangkok 10110",
-    "lat": null,
-    "lng": null,
-    "phone": "+6627141141",
-    "website": "https://www.facebook.com/hanabachi.bkk",
-    "source_url": "https://www.facebook.com/hanabachi.bkk",
-    "description": "エカマイ・スクンビット63の日本式ベーカリーカフェ。国産オーガニック食材を使ったベーグル・パン・焼き菓子が人気。在タイ日本人が通うアットホームな小さなお店。",
-    "tags": [
-      "カフェ",
-      "ベーカリー",
-      "日本式"
-    ],
-    "hours": "Monday: 8:00 AM – 6:00 PM / Tuesday: 8:00 AM – 6:00 PM / Wednesday: 8:00 AM – 6:00 PM / Thursday: 8:00 AM – 6:00 PM / Friday: 8:00 AM – 6:00 PM / Saturday: 8:00 AM – 6:00 PM / Sunday: 8:00 AM – 6:00 PM",
-    "status": "unverified",
-    "last_verified": "2026-04-05",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "place_reviewed": true
-  },
-  {
-    "slug": "saint-etoile-yamazaki-emporium",
-    "name": "Saint Etoile by Yamazaki (The Emporium)",
-    "name_ja": "サンエトワール ヤマザキ エンポリアム店",
-    "area": "Phrom Phong",
-    "address": "The Emporium, 4th Floor, 622 Sukhumvit Rd, Khlong Tan, Khlong Toei, Bangkok 10110",
-    "lat": null,
-    "lng": null,
-    "phone": "+66800619642",
-    "website": "https://new.yamazaki.co.th/",
-    "source_url": "https://www.tripadvisor.com/Restaurant_Review-g293916-d16639902-Reviews-Saint_Etoile_by_Yamazaki_The_Emporium-Bangkok.html",
-    "description": "プロムポン・エンポリアム4Fにある日系山崎のプレミアムベーカリー。日本式のパン・ケーキ・焼き菓子を提供。在タイ日本人に人気の立地。",
-    "tags": [
-      "カフェ",
-      "ベーカリー",
-      "ヤマザキ",
-      "日系"
-    ],
-    "hours": "Daily: 10:00 AM – 9:00 PM",
-    "status": "unverified",
-    "last_verified": "2026-04-05",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "place_reviewed": true
-  },
-  {
-    "slug": "saint-etoile-yamazaki-silom",
-    "name": "Saint Etoile by Yamazaki (Silom Complex)",
-    "name_ja": "サンエトワール ヤマザキ シーロムコンプレックス店",
-    "area": "Silom",
-    "address": "Silom Complex Mall, Silom Rd, Si Lom, Bang Rak, Bangkok 10500",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://new.yamazaki.co.th/",
-    "source_url": "https://www.trip.com/travel-guide/bangkok-191-restaurant/saint-etoile-by-yamazaki-27559319/",
-    "description": "シーロムコンプレックス内にある日系山崎のプレミアムベーカリーカフェ。日本式のパン・スイーツ・焼き菓子を提供。サラデーン駅直結の好アクセス。",
-    "tags": [
-      "カフェ",
-      "ベーカリー",
-      "ヤマザキ",
-      "日系"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-04-05",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
