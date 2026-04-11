@@ -697,5 +697,49 @@
     "place_reviewed": true,
     "needs_review": false,
     "japanese_staff": null
+  },
+  {
+    "slug": "kumoi-four-seasons-guangzhou",
+    "name": "Kumoi",
+    "name_ja": "雲井（くもい）フォーシーズンズ広州",
+    "area": "広州 天河区 珠江新城",
+    "address": "72F, Four Seasons Hotel Guangzhou, 5 Zhujiang West Road, Tianhe District, Guangzhou 510623, China",
+    "phone": "+862088833901",
+    "phone_local": null,
+    "email": null,
+    "website": "https://www.fourseasons.com/guangzhou/dining/restaurants/kumoi/",
+    "source_url": "https://www.fourseasons.com/guangzhou/dining/restaurants/kumoi/",
+    "description": "広州フォーシーズンズホテル72階にある高層日本料理レストラン。日本人シェフ・星名正信による寿司・鉄板焼き・炉端焼きのオマカセコース。広州在住の日本人駐在員が接待に利用する。",
+    "detail": "広州の国際金融センター（IFC）内フォーシーズンズホテルの72階に位置する高級日本料理レストラン「Kumoi（雲井）」。日本人シェフ・星名正信（Masanobu Hoshina）が手がける本格日本料理を、珠江新城の夜景とともに楽しめる。寿司バー・鉄板焼き・炉端焼きのカウンター席を中心にオマカセスタイルで提供。広州在住の日本人駐在員の接待・特別なディナーとして利用される高級店。",
+    "menu": [
+      "オマカセコース",
+      "寿司",
+      "鉄板焼き",
+      "炉端焼き",
+      "刺身"
+    ],
+    "price_range": null,
+    "tags": [
+      "高級日本料理",
+      "オマカセ",
+      "フォーシーズンズ",
+      "广州",
+      "天河区",
+      "夜景"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-04-11",
+    "source": "website",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null,
+    "place_reviewed": true,
+    "needs_review": false,
+    "japanese_staff": true
   }
 ]
