@@ -1,12 +1,13 @@
 import { notFound } from "next/navigation";
-import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { getCountry, countries } from "@/lib/countries";
 import { getArticlesByCountry } from "@/lib/articles";
-import { Calendar, Tag, ArrowLeft } from "lucide-react";
+import PaginatedArticleList from "@/components/PaginatedArticleList";
+import CountryHero from "@/components/CountryHero";
+import { getCategoryCounts, categoryGroups } from "@/lib/directory";
 
-// overseas など countries 未登録コードのフォールバック表示名
+// overseas など countries 未登録コードのフォールバック
 const FALLBACK_DISPLAY: Record<string, { name: string; flag: string }> = {
   overseas: { name: "海外生活", flag: "🌏" },
 };
@@ -29,8 +30,8 @@ export async function generateMetadata({
   if (!country && !fallback) return {};
   const name = country?.name ?? fallback.name;
   return {
-    title: `${name}のコラム一覧 | Kaigaijin`,
-    description: `${name}の生活情報・現地レポートのコラム一覧。在住者向けの実用情報から読み物まで。`,
+    title: `${name}の生活ガイド | Kaigaijin`,
+    description: `${name}在住日本人のためのビザ・税金・保険・住居・医療情報。`,
   };
 }
 
@@ -44,89 +45,101 @@ export default async function ColumnIndexPage({
   const fallback = FALLBACK_DISPLAY[code];
   if (!country && !fallback) notFound();
 
-  const display = country
-    ? { name: country.name, flag: country.flag }
-    : fallback;
   const articles = getArticlesByCountry(code);
+  const categoryCounts = getCategoryCounts(code);
+  const totalplaces = Object.values(categoryCounts).reduce((a, b) => a + b, 0);
+
+  const groupCounts = categoryGroups.map((group) => ({
+    ...group,
+    count: group.categories.reduce(
+      (sum, cat) => sum + (categoryCounts[cat] ?? 0),
+      0,
+    ),
+  }));
+
+  const articleCategoryMap: Record<string, string[]> = {
+    "医療・保険": ["medical"],
+    "住居・賃貸": ["housing"],
+    "不動産投資": ["housing"],
+    "教育・インター校": ["education"],
+    "ビザ・就労": ["professional"],
+    "税金・CPF": ["professional"],
+    グルメ: ["gourmet"],
+    美容: ["beauty-health"],
+  };
+
+  // overseasの場合はCountryHero不要（国情報がない）
+  if (!country) {
+    const display = fallback;
+    return (
+      <>
+        <Header />
+        <main className="py-12 md:py-20">
+          <div className="max-w-3xl mx-auto px-4">
+            <h1 className="heading-editorial text-3xl md:text-4xl font-bold mb-2">
+              {display.flag} {display.name}のコラム
+            </h1>
+            <p className="text-stone-500 dark:text-stone-400 mb-10">
+              {articles.length}件の記事
+            </p>
+            {articles.length === 0 ? (
+              <p className="text-stone-500 dark:text-stone-400">記事はまだありません。</p>
+            ) : (
+              <PaginatedArticleList
+                articles={articles}
+                countryCode={code}
+                articleCategoryMap={articleCategoryMap}
+                groupCounts={groupCounts}
+                countryName={display.name}
+              />
+            )}
+          </div>
+        </main>
+        <Footer />
+      </>
+    );
+  }
 
   return (
     <>
       <Header />
-      <main className="py-12 md:py-20">
-        <div className="max-w-3xl mx-auto px-4">
-          {/* パンくず */}
-          <nav className="flex items-center gap-2 text-sm text-stone-400 mb-8">
-            <Link href="/" className="hover:text-warm-600 dark:hover:text-warm-400 transition-colors">
-              Kaigaijin
-            </Link>
-            <span>/</span>
-            {country ? (
-              <Link
-                href={`/${code}`}
-                className="hover:text-warm-600 dark:hover:text-warm-400 transition-colors"
-              >
-                {display.flag} {display.name}
-              </Link>
+      <main>
+        <CountryHero
+          countryCode={code}
+          countryName={country.name}
+          countryFlag={country.flag}
+          currentLabel="KAIコラム"
+          label="— KAI COLUMN"
+          title={country.name}
+          subtitle={`${country.tagline}　在住日本人 ${country.population}`}
+          articleCount={articles.length}
+          placeCount={totalplaces}
+        />
+
+        {/* ===== 記事一覧 ===== */}
+        <section id="articles" className="py-12 md:py-16 bg-stone-50 dark:bg-stone-900">
+          <div className="max-w-6xl mx-auto px-4">
+            {articles.length > 0 ? (
+              <PaginatedArticleList
+                articles={articles}
+                countryCode={code}
+                articleCategoryMap={articleCategoryMap}
+                groupCounts={groupCounts}
+                countryName={country.name}
+              />
             ) : (
-              <span className="text-stone-600 dark:text-stone-300">{display.flag} {display.name}</span>
+              <div className="text-center py-20">
+                <span className="text-6xl mb-6 block">{country.flag}</span>
+                <h2 className="heading-editorial text-2xl font-bold mb-4">
+                  {country.name}の記事を準備中
+                </h2>
+                <p className="text-stone-500 dark:text-stone-400 max-w-md mx-auto mb-8">
+                  {country.name}での生活に役立つ記事を鋭意執筆中です。
+                </p>
+              </div>
             )}
-            {country && (
-              <>
-                <span>/</span>
-                <span className="text-stone-600 dark:text-stone-300">コラム</span>
-              </>
-            )}
-          </nav>
-
-          <h1 className="heading-editorial text-3xl md:text-4xl font-bold mb-2">
-            {display.flag} {display.name}のコラム
-          </h1>
-          <p className="text-stone-500 dark:text-stone-400 mb-10">
-            {articles.length}件の記事
-          </p>
-
-          {articles.length === 0 ? (
-            <p className="text-stone-500 dark:text-stone-400">記事はまだありません。</p>
-          ) : (
-            <ul className="space-y-6">
-              {articles.map((article) => (
-                <li key={article.slug}>
-                  <Link
-                    href={`/${code}/column/${article.slug}`}
-                    className="block group p-5 rounded-xl border border-stone-200 dark:border-stone-700 hover:border-warm-400 dark:hover:border-warm-500 transition-colors"
-                  >
-                    <div className="flex items-center gap-2 text-xs text-warm-600 dark:text-warm-400 font-medium mb-2">
-                      <Tag size={12} />
-                      {article.category}
-                    </div>
-                    <h2 className="text-lg font-semibold text-stone-800 dark:text-stone-100 group-hover:text-warm-700 dark:group-hover:text-warm-400 transition-colors mb-1 leading-snug">
-                      {article.title}
-                    </h2>
-                    <p className="text-sm text-stone-500 dark:text-stone-400 line-clamp-2 mb-3">
-                      {article.description}
-                    </p>
-                    <div className="flex items-center gap-1 text-xs text-stone-400">
-                      <Calendar size={12} />
-                      {article.date}
-                    </div>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          )}
-
-          {country && (
-            <div className="mt-12 pt-8 border-t border-stone-200 dark:border-stone-700">
-              <Link
-                href={`/${code}`}
-                className="inline-flex items-center gap-2 text-warm-600 dark:text-warm-400 hover:text-warm-800 dark:hover:text-warm-300 font-medium transition-colors"
-              >
-                <ArrowLeft size={16} />
-                {display.name}のトップに戻る
-              </Link>
-            </div>
-          )}
-        </div>
+          </div>
+        </section>
       </main>
       <Footer />
     </>

@@ -211,7 +211,7 @@ export default async function JobDetailPage({
                 トップ
               </Link>
               <ChevronRight size={12} />
-              <Link href={`/${code}`} className="hover:text-warm-600 transition-colors">
+              <Link href={`/${code}/column`} className="hover:text-warm-600 transition-colors">
                 {country.flag} {country.name}
               </Link>
               <ChevronRight size={12} />

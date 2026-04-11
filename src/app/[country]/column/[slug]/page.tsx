@@ -154,7 +154,7 @@ export default async function ArticlePage({
             </Link>
             <span>/</span>
             <Link
-              href={`/${code}`}
+              href={`/${code}/column`}
               className="hover:text-warm-600 dark:hover:text-warm-400 transition-colors"
             >
               {countryDisplay.flag} {countryDisplay.name}
@@ -215,7 +215,7 @@ export default async function ArticlePage({
           {/* 戻るリンク */}
           <div className="mt-16 pt-8 border-t border-stone-200 dark:border-stone-700">
             <Link
-              href={`/${code}`}
+              href={`/${code}/column`}
               className="inline-flex items-center gap-2 text-warm-600 dark:text-warm-400 hover:text-warm-800 dark:hover:text-warm-300 font-medium transition-colors"
             >
               <ArrowLeft size={16} />

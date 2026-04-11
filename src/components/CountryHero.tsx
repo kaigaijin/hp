@@ -42,7 +42,7 @@ export default function CountryHero({
         <nav className="flex items-center gap-1.5 text-xs text-stone-400/80 mb-6">
           <Link href="/" className="hover:text-white transition-colors">トップ</Link>
           <ChevronRight size={12} />
-          <Link href={`/${countryCode}`} className="hover:text-white transition-colors">
+          <Link href={`/${countryCode}/column`} className="hover:text-white transition-colors">
             {countryFlag} {countryName}
           </Link>
           <ChevronRight size={12} />

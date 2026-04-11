@@ -187,7 +187,7 @@ export default async function CategoryPage({
                 </Link>
                 <ChevronRight size={12} />
                 <Link
-                  href={`/${code}`}
+                  href={`/${code}/column`}
                   className="hover:text-white transition-colors"
                 >
                   {country.flag} {country.name}
@@ -288,7 +288,7 @@ export default async function CategoryPage({
               </Link>
               <ChevronRight size={12} />
               <Link
-                href={`/${code}`}
+                href={`/${code}/column`}
                 className="hover:text-white transition-colors"
               >
                 {country.flag} {country.name}

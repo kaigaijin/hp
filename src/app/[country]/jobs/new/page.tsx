@@ -67,7 +67,7 @@ export default async function JobNewPage({
                 トップ
               </Link>
               <ChevronRight size={12} />
-              <Link href={`/${code}`} className="hover:text-white transition-colors">
+              <Link href={`/${code}/column`} className="hover:text-white transition-colors">
                 {country.flag} {country.name}
               </Link>
               <ChevronRight size={12} />

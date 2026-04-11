@@ -105,7 +105,7 @@ export default async function AreaDetailPage({
             <nav className="flex items-center gap-1.5 text-xs text-stone-400 mb-3">
               <Link href="/" className="hover:text-warm-600 transition-colors">トップ</Link>
               <ChevronRight size={12} />
-              <Link href={`/${code}`} className="hover:text-warm-600 transition-colors">
+              <Link href={`/${code}/column`} className="hover:text-warm-600 transition-colors">
                 {country.flag} {country.name}
               </Link>
               <ChevronRight size={12} />

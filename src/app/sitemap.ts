@@ -39,7 +39,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // 国ページ
   for (const country of countries) {
     entries.push({
-      url: `${BASE_URL}/${country.code}`,
+      url: `${BASE_URL}/${country.code}/column`,
       changeFrequency: "weekly",
       priority: 0.8,
     });

@@ -97,7 +97,7 @@ export default async function MapPage({
             <nav className="flex items-center gap-1.5 text-xs text-stone-400 mb-1">
               <Link href="/" className="hover:text-warm-600 transition-colors">トップ</Link>
               <ChevronRight size={12} />
-              <Link href={`/${code}`} className="hover:text-warm-600 transition-colors">
+              <Link href={`/${code}/column`} className="hover:text-warm-600 transition-colors">
                 {country.flag} {country.name}
               </Link>
               <ChevronRight size={12} />

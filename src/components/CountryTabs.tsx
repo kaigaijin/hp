@@ -13,13 +13,13 @@ type Props = {
 export default function CountryTabs({ countryCode, articleCount, placeCount }: Props) {
   const pathname = usePathname();
 
-  const isArticles = pathname === `/${countryCode}`;
+  const isArticles = pathname === `/${countryCode}/column` || pathname.startsWith(`/${countryCode}/column/`);
   const isplace = pathname.startsWith(`/${countryCode}/place`);
   const isJobs = pathname.startsWith(`/${countryCode}/jobs`);
 
   const tabs = [
     {
-      href: `/${countryCode}`,
+      href: `/${countryCode}/column`,
       label: "KAIコラム",
       count: articleCount,
       icon: <BookOpen size={14} />,
