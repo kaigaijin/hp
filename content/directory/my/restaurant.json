@@ -12540,71 +12540,20 @@
     "place_reviewed": true
   },
   {
-    "slug": "menya-musashi-sunway-pyramid",
-    "name": "Menya Musashi (Sunway Pyramid)",
-    "name_ja": "麺屋武蔵 (Sunway Pyramid)",
-    "area": "Subang Jaya",
-    "address": "Sunway Pyramid, 3, Jalan PJS 11/15, Bandar Sunway, 47500 Subang Jaya, Selangor",
-    "phone": null,
-    "website": null,
-    "description": "東京発のつけ麺・ラーメン専門店「麺屋武蔵」のサンウェイピラミッド店。濃厚な豚骨魚介つけ麺が看板で在住日本人にも人気の一軒。",
-    "tags": [
-      "ラーメン",
-      "つけ麺",
-      "チェーン"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "menya-shi-shi-do-kl",
-    "name": "Menya Shi Shi Do",
-    "name_ja": "メニャ シ シ ド",
-    "area": "Sri Petaling",
-    "address": "Sri Petaling, Kuala Lumpur",
-    "phone": null,
-    "website": null,
-    "description": "濃厚鶏白湯ラーメンが看板メニューのラーメン店。鶏ガラを長時間煮込んだクリーミーなスープが特徴。チャーシュー丼とのセットも提供。",
-    "tags": [
-      "ラーメン",
-      "鶏白湯",
-      "濃厚"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
     "slug": "menya-ton-ton",
     "name": "Menya Ton Ton",
     "name_ja": "麺屋とんとん",
     "area": "Johor Bahru",
-    "address": "15, Jalan Mutiara Emas 3/1, Taman Mount Austin, 81100 Johor Bahru, Johor Darul Ta'zim, Malaysia",
+    "address": "15, Jalan Mutiara Emas 3/1, Taman Mount Austin, 81100 Johor Bahru, Johor, Malaysia",
     "lat": 1.5595,
     "lng": 103.7819,
     "phone": null,
     "website": null,
-    "description": "ジョホールバルにある日本料理レストラン「Kaiseki」。厳選した食材を使った本格的な懐石料理をJBのCity Squareエリアで楽しめる高級店。",
+    "description": "ジョホールバル・マウントオースティンにある日本式ラーメン店。豚骨・醤油系スープと自家製麺が特徴で、在JB日本人にも利用される一軒。",
     "tags": [
+      "ラーメン",
       "日本食",
-      "レストラン"
+      "ノンハラル"
     ],
     "hours": "Monday: 12:00 – 9:30 PM / Tuesday: 12:00 – 9:30 PM / Wednesday: 12:00 – 9:30 PM / Thursday: 12:00 – 9:30 PM / Friday: 12:00 – 9:30 PM / Saturday: 12:00 – 9:30 PM / Sunday: 12:00 – 9:30 PM",
     "last_verified": "2026-03-28",
@@ -12618,52 +12567,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "mezzo-bar-and-lounge",
-    "name": "Mezzo bar & lounge",
-    "name_ja": "メッゾ バー & ラウンジ",
-    "area": "Johor Bahru",
-    "address": "01-07 & 01-08 PANGSAPURI DWI GALAKSI, Jalan Dato Abdullah Tahir, Taman Abad, 80300 Johor Bahru, Johor Darul Ta'zim, Malaysia",
-    "lat": 1.478,
-    "lng": 103.7621,
-    "phone": "+60106673191",
-    "website": "https://instagram.com/mezzo___official?igshid=YmMyMTA2M2Y=",
-    "description": "ジョホールバルにある居酒屋スタイルのバー＆ラウンジ「Mezzo」。定番の居酒屋メニューと多彩なドリンクを揃え、ゆったり過ごせる。",
-    "tags": [
-      "バー",
-      "居酒屋"
-    ],
-    "hours": "Monday: 3:00 PM – 2:00 AM / Tuesday: 3:00 PM – 2:00 AM / Wednesday: 3:00 PM – 2:00 AM / Thursday: 3:00 PM – 2:00 AM / Friday: 3:00 PM – 2:00 AM / Saturday: 3:00 PM – 2:00 AM / Sunday: 3:00 PM – 2:00 AM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJIe8PBS1t2jERVFYHlWKoZRE",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mi-omakase",
     "name": "Mi Omakase",
     "name_ja": "味おまかせ",
     "area": "Kota Kinabalu",
-    "address": "G-08, Ground Floor, JQ Central, Coastal Highway, Jln Tun Fuad Stephens, Pusat Bandar Kota Kinabalu, 88400 Kota Kinabalu, Sabah, Malaysia",
+    "address": "G-08, JQ Central, Coastal Highway, Jalan Tun Fuad, 88000 Kota Kinabalu, Sabah, Malaysia",
     "lat": 5.9913,
     "lng": 116.0808,
     "phone": "+60168650988",
-    "website": "https://www.facebook.com/profile.php?id=100087936637254&mibextid=aejMdD",
-    "description": "コタキナバルにある日本式うどん専門店「丸亀製麺」。讃岐うどんを提供する日本発大手チェーンのKK店。Imago Mallにある。",
+    "website": "https://www.facebook.com/p/Mi-Omakase-100087936637254/",
+    "description": "コタキナバルのジェッセルトンキーにある高級おまかせ日本料理。週2回日本から空輸した食材を使い、ランチRM188〜・ディナーRM388〜のコースを提供。",
     "tags": [
+      "おまかせ",
+      "高級",
       "日本食",
-      "おまかせ料理",
-      "レストラン"
+      "ノンハラル"
     ],
     "hours": "Monday: Closed / Tuesday: 12:00 – 3:00 PM, 6:00 – 10:30 PM / Wednesday: 12:00 – 3:00 PM, 6:00 – 10:30 PM / Thursday: 12:00 – 3:00 PM, 6:00 – 10:30 PM / Friday: 12:00 – 3:00 PM, 6:00 – 10:30 PM / Saturday: 12:00 – 3:00 PM, 6:00 – 10:30 PM / Sunday: 12:00 – 3:00 PM, 6:00 – 10:30 PM",
     "last_verified": "2026-03-28",
@@ -12677,7 +12599,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mima-yakitori-house",
@@ -12689,10 +12612,11 @@
     "lng": 103.6251,
     "phone": "+6072315032",
     "website": "http://mimayakitori.com/",
-    "description": "ジョホールバル・ホライゾンヒルズにある焼き鳥メインの居酒屋「MiMA Yakitori House」。炭火焼きの串焼きを中心とした一品料理と豊富なドリンクが揃い、在JB日本人にも利用されている。",
+    "description": "ジョホールバル・ホライゾンヒルズにある焼き鳥居酒屋。炭火焼きの串焼きを中心に一品料理と豊富なドリンクが揃い、在JB日本人にも利用されている。",
     "tags": [
       "居酒屋",
-      "焼き鳥"
+      "焼き鳥",
+      "ノンハラル"
     ],
     "hours": "Monday: Closed / Tuesday: 6:00 PM – 12:00 AM / Wednesday: 6:00 PM – 12:00 AM / Thursday: 6:00 PM – 12:00 AM / Friday: 6:00 PM – 12:00 AM / Saturday: 6:00 PM – 12:00 AM / Sunday: 6:00 PM – 12:00 AM",
     "last_verified": "2026-03-28",
@@ -12706,51 +12630,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "mina-japanese-karaoke-snack-bar",
-    "name": "Mina Japanese Karaoke Snack Bar",
-    "name_ja": "みなカラオケスナックバー",
-    "area": "Penang",
-    "address": "393, Jalan Burma, George Town, 10350 George Town, Pulau Pinang, Malaysia",
-    "lat": 5.4318,
-    "lng": 100.3112,
-    "phone": "+60178911992",
-    "website": "https://minabar-penang.crayonsite.net/p/2/",
-    "description": "マレーシア・ペナンの日本式居酒屋。焼き鳥や刺身、天ぷらなどの定番和食メニューと生ビール・日本酒を提供するカジュアルな店舗。",
-    "tags": [
-      "バー",
-      "居酒屋"
-    ],
-    "hours": "Monday: Closed / Tuesday: 8:00 PM – 1:00 AM / Wednesday: 8:00 PM – 1:00 AM / Thursday: 8:00 PM – 1:00 AM / Friday: 8:00 PM – 1:00 AM / Saturday: 8:00 PM – 1:00 AM / Sunday: 8:00 PM – 1:00 AM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJreP_TwfDSjARflJG9KvKaSM",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "minatsu-japanese-pub",
-    "name": "Minatsu Japanese Pub スナック美奈津",
+    "name": "Minatsu Japanese Karaoke Pub スナック美奈津",
     "name_ja": "スナック美奈津",
     "area": "Kuala Lumpur",
-    "address": "Lot 1.34, 1Floor, Jalan Raja Chulan, Bukit Bintang, 50200 Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
+    "address": "Lot 1.34, 1st Floor, Wisma Cosway, No. 88, Jalan Raja Chulan, 50200 Kuala Lumpur",
     "lat": 3.1506,
     "lng": 101.7116,
     "phone": "+60126906697",
     "website": null,
-    "description": "ブキビンタンにある日本人向けスナックパブ「美奈津」。日本式居酒屋の一品料理と日本酒・ビールを提供。月〜土20:00〜翌1:30まで営業（日曜定休）。",
+    "description": "ブキビンタン・ジャランラジャチュランにある日本人向けカラオケスナックパブ。月〜土20時〜翌1時半営業、10年以上の実績を持つ日本式スナック。",
     "tags": [
-      "居酒屋",
-      "和食"
+      "スナック",
+      "カラオケ",
+      "日本人向け",
+      "ノンハラル"
     ],
     "hours": "Monday: 8:00 PM – 1:30 AM / Tuesday: 8:00 PM – 1:30 AM / Wednesday: 8:00 PM – 1:30 AM / Thursday: 8:00 PM – 1:30 AM / Friday: 8:00 PM – 1:30 AM / Saturday: 8:00 PM – 1:30 AM / Sunday: Closed",
     "last_verified": "2026-03-28",
@@ -12764,51 +12662,24 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "miraku-japanese-cuisine-g-hotel-central-gurney",
-    "name": "Miraku Japanese Cuisine - G Hotel Central Gurney",
-    "name_ja": "美楽 Japanese Cuisine - G Hotel Central Gurney",
-    "area": "Penang",
-    "address": "1st Floor, 168A, Persiaran Gurney, 10250 George Town, Pulau Pinang, Malaysia",
-    "lat": 5.4376,
-    "lng": 100.3106,
-    "phone": "+60172142382",
-    "website": "https://mirakupng.wixsite.com/mysite",
-    "description": "ペナンにある日本式カレー専門店「CoCo壱番屋」。辛さ・トッピングが選べる日本式カレーを提供する日本発大手チェーンのペナン店。",
-    "tags": [
-      "日本食",
-      "レストラン"
-    ],
-    "hours": "Monday: 12:00 – 2:30 PM, 6:00 – 10:00 PM / Tuesday: 12:00 – 2:30 PM, 6:00 – 10:00 PM / Wednesday: 12:00 – 2:30 PM, 6:00 – 10:00 PM / Thursday: 12:00 – 2:30 PM, 6:00 – 10:00 PM / Friday: 12:00 – 2:30 PM, 6:00 – 10:00 PM / Saturday: 12:00 – 2:30 PM, 6:00 – 10:00 PM / Sunday: 12:00 – 2:00 PM, 6:00 – 10:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJyRsw9iTASjAR_K27jXp-T24",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "miraku-japanese-restaurant-g-hotel-penang",
     "name": "Miraku Japanese Restaurant",
     "name_ja": "美楽 Japanese Restaurant",
     "area": "Georgetown, Penang",
-    "address": "G Hotel Gurney, 168A Persiaran Gurney, 10250 George Town, Penang",
-    "phone": null,
-    "website": null,
-    "description": "ガーニー（Georgetown, Penang）にある高級寿司店。厳選されたネタを使った本格的な江戸前寿司を提供。特別な食事の場に利用される。",
+    "address": "1st Floor, G Hotel, 168A Persiaran Gurney, 10250 George Town, Penang, Malaysia",
+    "phone": "+60422982702",
+    "website": "https://mirakupng.wixsite.com/mysite",
+    "description": "ペナン・ガーニードライブのGホテル1Fにある日本料理レストラン。16年以上の歴史を持ち、日本空輸の食材を使った寿司・刺身・鉄板焼きを提供。",
     "tags": [
       "ホテルダイニング",
       "寿司",
       "鉄板焼き",
-      "高級"
+      "高級",
+      "ノンハラル"
     ],
     "hours": "12:00-14:30, 18:00-22:00",
     "last_verified": "2026-03-27",
@@ -12820,22 +12691,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "miseya-restaurant",
     "name": "MISEYA RESTAURANT",
     "name_ja": "店屋 RESTAURANT",
     "area": "Johor Bahru",
-    "address": "2A JALAN EKO BOTANI 3/6 ISKANDAR PUTERI, 79100 JOHOR BAHRU, Johor Darul Ta'zim, Malaysia",
+    "address": "2A, Jalan Eko Botani 3/6, Iskandar Puteri, 79100 Johor Bahru, Johor, Malaysia",
     "lat": 1.4395,
     "lng": 103.617,
     "phone": "+601136630224",
-    "website": null,
-    "description": "ジョホールバルにある中国式広東料理レストラン「粤名楼」。飲茶・海鮮・ロースト料理をJBのCity Squareエリアで楽しめる広東料理店。",
+    "website": "https://www.facebook.com/miseya.restaurant/",
+    "description": "ジョホールバル・エコボタニックにある日本人経営の小さな和食店。おこのみ焼き・シャブうどん・豚バララーメンなど家庭的な和食を提供。要予約。",
     "tags": [
       "日本食",
-      "レストラン"
+      "日本人経営",
+      "お好み焼き",
+      "ノンハラル"
     ],
     "hours": "Monday: Closed / Tuesday: 12:00 – 3:00 PM, 5:00 – 10:00 PM / Wednesday: 12:00 – 3:00 PM, 5:00 – 10:00 PM / Thursday: 12:00 – 3:00 PM, 5:00 – 10:00 PM / Friday: 12:00 – 3:00 PM, 5:00 – 10:00 PM / Saturday: 12:00 – 3:00 PM, 5:00 – 10:00 PM / Sunday: 12:00 – 3:00 PM, 5:00 – 10:00 PM",
     "last_verified": "2026-03-28",
@@ -12849,7 +12723,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mitasu-bukit-bintang",
@@ -12860,11 +12735,12 @@
     "lat": 3.1491,
     "lng": 101.7113,
     "phone": "+60321102833",
-    "website": "https://mitasujapaneserestaurant.beepit.com/ordering/?h=U2FsdGVkX1%2BirqFLm0AdVH2XzVngJNPIokNYsA7xiYSW7SPqQ6v1OjS%2B9jM%2BJps6&type=delivery&source=https%3A%2F%2Fbeepit.com%2Fsearchhttps://mitasujapaneserestaurant.beepit.com/ordering/?h=U2FsdGVkX1%2BirqFLm0AdVH2XzVngJNPIokNYsA7xiYSW7SPqQ6v1OjS%2B9jM%2BJps6&type=delivery&source=https%3A%2F%2Fbeepit.com%2Fsearch",
-    "description": "Sultan Ismail本店とOld Klang Road支店の2店舗を展開する日本料理チェーン。空輸の新鮮な魚介を使った和食を提供。",
+    "website": "https://mitasu.com.my/",
+    "description": "ブキビンタンにある日本料理ビュッフェレストラン。Sultan Ismail本店系列で、空輸鮮魚を使った和食の食べ放題が人気。週替わりランチセットも展開。",
     "tags": [
       "日本食",
-      "レストラン"
+      "ビュッフェ",
+      "食べ放題"
     ],
     "hours": "Monday: 12:00 – 3:00 PM, 6:00 – 10:00 PM / Tuesday: 12:00 – 3:00 PM, 6:00 – 10:00 PM / Wednesday: 12:00 – 3:00 PM, 6:00 – 10:00 PM / Thursday: 12:00 – 3:00 PM, 6:00 – 10:00 PM / Friday: 12:00 – 3:00 PM, 6:00 – 10:00 PM / Saturday: 12:00 – 3:00 PM, 6:00 – 10:00 PM / Sunday: 12:00 – 3:00 PM, 6:00 – 10:00 PM",
     "last_verified": "2026-03-28",
@@ -12878,22 +12754,24 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mitasu-japanese-restaurant",
     "name": "Mitasu Japanese Restaurant",
     "name_ja": "満たす",
     "area": "Kuala Lumpur",
-    "address": "Lot 306, Jln Klang Lama, Batu 3, 58000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+    "address": "B-01, Wisma Chuang, No. 34, Jalan Sultan Ismail, 50250 Kuala Lumpur",
     "lat": 3.1095,
     "lng": 101.678,
     "phone": "+60379718878",
     "website": "http://www.mitasu.com.my/",
-    "description": "Sultan Ismail本店とOld Klang Road支店の2店舗を展開する日本料理店。空輸の新鮮な魚介を使った和食を提供。ケータリングにも対応。",
+    "description": "KL・Sultan Ismail本店のMitasu日本料理。空輸の鮮魚を使った和食食べ放題で人気の老舗。ケータリング対応。",
     "tags": [
       "日本食",
-      "レストラン"
+      "ビュッフェ",
+      "食べ放題"
     ],
     "hours": "Monday: 12:00 – 3:00 PM, 6:00 – 10:00 PM / Tuesday: 12:00 – 3:00 PM, 6:00 – 10:00 PM / Wednesday: 12:00 – 3:00 PM, 6:00 – 10:00 PM / Thursday: 12:00 – 3:00 PM, 6:00 – 10:00 PM / Friday: 12:00 – 3:00 PM, 6:00 – 10:00 PM / Saturday: 12:00 – 3:00 PM, 6:00 – 10:00 PM / Sunday: 12:00 – 3:00 PM, 6:00 – 10:00 PM",
     "last_verified": "2026-03-28",
@@ -12907,22 +12785,22 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mitasu-japanese-restaurant-kl",
     "name": "Mitasu Japanese Restaurant",
     "name_ja": "満す Japanese Restaurant",
     "area": "Bangsar",
-    "address": "Bangsar, Kuala Lumpur",
-    "phone": null,
+    "address": "Lot 306, Jalan Klang Lama, Batu 3, 58000 Kuala Lumpur",
+    "phone": "+60379718878",
     "website": "https://mitasu.com.my/",
-    "description": "バンサーにある日本料理レストラン。寿司・刺身・天ぷら・焼き物など幅広い本格和食メニューを提供。日本人シェフによる料理と落ち着いた雰囲気が特徴。",
+    "description": "KL・Old Klang Road沿いのMitasu日本料理2号店。空輸鮮魚の和食ビュッフェで人気。事前予約推奨。",
     "tags": [
-      "日本料理",
-      "寿司",
-      "天ぷら",
-      "バンサー"
+      "日本食",
+      "ビュッフェ",
+      "食べ放題"
     ],
     "hours": null,
     "status": "unverified",
@@ -12934,22 +12812,24 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mitsumori-isetan-kl",
     "name": "Mitsumori",
     "name_ja": "三森",
     "area": "Bukit Bintang",
-    "address": "ISETAN The Japan Store, Lot 10, 50 Jalan Sultan Ismail, 50250 Kuala Lumpur",
+    "address": "Level 4, Isetan The Japan Store, Lot 10 Shopping Centre, 50 Jalan Sultan Ismail, 50250 Kuala Lumpur",
     "phone": null,
-    "website": null,
-    "description": "日本の百貨店系列・ISETAN The Japan Store内の日本料理レストラン。寿司・天ぷら・定食を中心とした正統派の和食を揃える。",
+    "website": "https://www.isetankl.com.my/mitsumori/",
+    "description": "ブキビンタンのIsetan Lot 10・4Fにある日本料理レストラン。北海道産そば粉の手打ち蕎麦と天ぷらのコースが人気。月火定休。",
     "tags": [
-      "日本料理",
-      "定食",
-      "寿司",
-      "伊勢丹内"
+      "蕎麦",
+      "天ぷら",
+      "高級",
+      "伊勢丹内",
+      "ノンハラル"
     ],
     "hours": null,
     "status": "unverified",
@@ -12961,21 +12841,23 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mitsuyado-seimen-pavilion",
     "name": "Mitsuyado Seimen",
     "name_ja": "三ツ矢堂製麺",
     "area": "Bukit Bintang",
-    "address": "Pavilion KL, 168 Jalan Bukit Bintang, 55100 Kuala Lumpur",
+    "address": "Lot 1.68.00, Level 1, Pavilion Bukit Jalil, 2, Persiaran Jalil Utama, 57000 Kuala Lumpur",
     "phone": null,
-    "website": null,
-    "description": "つけ麺をメインに提供する日本のラーメンチェーン。Pavilion KL・Jaya Shopping Centre・MyTownに出店。濃厚な魚介豚骨スープのつけ麺が人気。",
+    "website": "https://www.mitsuyado.my/",
+    "description": "Pavilion Bukit Jalilにある日本発つけ麺専門チェーン。北海道産素材の濃厚魚介豚骨つけ麺が看板で、国産小麦の自家製麺を毎日準備。",
     "tags": [
       "つけ麺",
       "ラーメン",
-      "複数店舗"
+      "チェーン",
+      "ポークあり"
     ],
     "hours": null,
     "status": "unverified",
@@ -12987,22 +12869,24 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "miyabi-sheraton-pj",
     "name": "Miyabi Japanese Restaurant",
     "name_ja": "雅 Japanese Restaurant",
     "area": "Petaling Jaya",
-    "address": "Level 3A, Sheraton Petaling Jaya Hotel, Jalan Utara C, 46200 Petaling Jaya",
+    "address": "Level 3A, Sheraton Petaling Jaya Hotel, Jalan Utara C, 46200 Petaling Jaya, Selangor",
     "phone": "+60376228888",
     "website": "https://www.miyabipj.com/",
-    "description": "シェラトンペタリンジャヤ内の日本料理レストラン。おまかせスタイルの焼肉を提供する4つの個室を備え、プレミアム和牛と新鮮なシーフードを使用。",
+    "description": "シェラトンペタリンジャヤホテル内の日本料理レストラン。焼肉おまかせや寿司・刺身・鉄板焼きを揃え、個室4室完備。ハラル認定の和牛を使用。",
     "tags": [
       "ホテルレストラン",
       "焼肉",
       "おまかせ",
-      "和牛"
+      "和牛",
+      "ポークフリー"
     ],
     "hours": "月-土 12:00-14:30, 18:30-22:30（日曜定休）",
     "status": "unverified",
@@ -13014,36 +12898,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "miyako-doral-japanese-restaurant-and-sushi-bar",
-    "name": "Miyako Doral Japanese Restaurant & Sushi Bar",
-    "name_ja": "都 Doral Japanese Restaurant & Sushi Bar",
-    "area": "Kota Kinabalu",
-    "address": "7902 NW 36th St #12, Miami, FL 33166, USA",
-    "lat": 25.8084,
-    "lng": -80.3265,
-    "phone": "+13055939910",
-    "website": "http://www.miyakodoral.com/",
-    "description": "コタキナバルにある「Miyako Doral」の日本料理寿司バー。日本料理の一品メニューと日本酒・ビールを揃え、在住日本人に利用されている。",
-    "tags": [
-      "バー",
-      "居酒屋"
-    ],
-    "hours": "Monday: 11:30 AM – 9:30 PM / Tuesday: 11:30 AM – 9:30 PM / Wednesday: 11:30 AM – 9:30 PM / Thursday: 11:30 AM – 9:30 PM / Friday: 11:30 AM – 10:00 PM / Saturday: 12:00 – 10:00 PM / Sunday: 12:00 – 9:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJE2CNl3652YgRGh3Qym5KaWc",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "miyako-izakaya",
@@ -13055,11 +12911,11 @@
     "lng": 101.6319,
     "phone": "+60126605973",
     "website": "http://harajuholdings.com/miyako-land-izakaya/",
-    "description": "クアラルンプールにある本格日本料理レストラン「Hanare」。KLのAmcorp Mallエリアで和食の定食・麺類・寿司などを提供する日本料理店。",
+    "description": "クアラルンプールにあるHaraju Holdings運営の日本スタイル居酒屋。焼き鳥・刺身・沖縄料理などを提供する。",
     "tags": [
+      "居酒屋",
       "日本食",
-      "居酒屋料理",
-      "レストラン"
+      "ノンハラル"
     ],
     "hours": "Monday: 12:00 – 2:30 PM, 5:00 – 11:00 PM / Tuesday: 12:00 – 2:30 PM, 5:00 – 11:00 PM / Wednesday: 12:00 – 2:30 PM, 5:00 – 11:00 PM / Thursday: 12:00 – 2:30 PM, 5:00 – 11:00 PM / Friday: 12:00 – 2:30 PM, 5:00 PM – 12:00 AM / Saturday: 12:00 – 2:30 PM, 5:00 PM – 12:00 AM / Sunday: 12:00 – 2:30 PM, 5:00 – 11:00 PM",
     "last_verified": "2026-03-28",
@@ -13073,23 +12929,24 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "miyako-land-izakaya-pj",
     "name": "Miyako Land Izakaya",
     "name_ja": "都 Land Izakaya",
     "area": "Petaling Jaya",
-    "address": "Lot 4, B Land, 2, Jalan 51a/225, Seksyen 51a, 46100 Petaling Jaya",
+    "address": "Lot 4, B Land, 2, Jalan 51a/225, Seksyen 51a, 46100 Petaling Jaya, Selangor",
     "phone": "+60126605973",
     "website": "https://www.facebook.com/miyakoland.izakaya/",
-    "description": "沖縄出身の日本人家族が経営するペタリンジャヤの沖縄スタイル居酒屋。焼鳥・ゴーヤチャンプル・沖縄カレーライスなどを提供。マレーシア初の沖縄式居酒屋として知られる。",
+    "description": "沖縄出身の日本人家族が経営するペタリンジャヤの沖縄スタイル居酒屋。30種以上の焼き鳥・ゴーヤチャンプル・宮古そばなどを炭火で提供。",
     "tags": [
       "居酒屋",
       "沖縄料理",
       "日本人経営",
-      "焼鳥",
-      "カレー"
+      "焼き鳥",
+      "ノンハラル"
     ],
     "hours": "月-木・日 12:00-15:00, 17:00-23:00 / 金土 〜24:00",
     "status": "unverified",
@@ -13101,89 +12958,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "miyuki-izakaya-springside",
-    "name": "Miyuki Izakaya @ Springside",
-    "name_ja": "美幸 Izakaya @ Springside",
-    "area": "Johor Bahru",
-    "address": "25 Springside Green, #01-13, Brooks 786015",
-    "lat": 1.4042,
-    "lng": 103.819,
-    "phone": "+6582687569",
-    "website": "https://www.miyukiizakaya.com/",
-    "description": "ジョホールバルのスプリングサイドにある「Miyuki Izakaya」。和食の一品料理と豊富なドリンクを落ち着いた雰囲気で楽しめる。",
-    "tags": [
-      "居酒屋",
-      "和食"
-    ],
-    "hours": "Monday: Closed / Tuesday: 11:30 AM – 2:30 PM, 5:30 – 10:30 PM / Wednesday: 11:30 AM – 2:30 PM, 5:30 – 10:30 PM / Thursday: 11:30 AM – 2:30 PM, 5:30 – 10:30 PM / Friday: 11:30 AM – 2:30 PM, 5:30 – 11:00 PM / Saturday: 11:30 AM – 2:30 PM, 5:30 – 11:00 PM / Sunday: 11:30 AM – 2:30 PM, 5:30 – 10:30 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJd9m1Eu8T2jERBAj0Btw00So",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "mizu-japanese-restaurant-hartamas",
-    "name": "Mizu Japanese Restaurant",
-    "name_ja": "水 Japanese Restaurant",
-    "area": "Desa Sri Hartamas",
-    "address": "Desa Sri Hartamas, Kuala Lumpur",
-    "phone": null,
-    "website": null,
-    "description": "ハルタマスにある日本料理レストラン。寿司・刺身・焼き物・揚げ物など幅広い和食メニューを提供。カウンター席で職人の技を見ながら食事できる。",
-    "tags": [
-      "寿司",
-      "刺身",
-      "和食"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "mizu-japanese-restaurant-hartamas-restaurant",
-    "name": "Mizu Japanese Restaurant",
-    "name_ja": "水 Japanese Restaurant",
-    "area": "Sri Hartamas",
-    "address": "Taman Sri Hartamas, 50480 Kuala Lumpur",
-    "phone": null,
-    "website": null,
-    "description": "寿司・刺身・焼き物・鍋物など幅広い和食を揃えるハルタマスの日本食レストラン。落ち着いた雰囲気でファミリーにも人気の一軒。",
-    "tags": [
-      "日本料理",
-      "寿司",
-      "鍋物",
-      "ファミリー"
-    ],
-    "hours": "11:30-14:30, 18:00-22:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mizube",
@@ -13195,7 +12971,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.facebook.com/people/Mizube-Japanese-Cuisine/100084570499259/",
-    "description": "コタキナバルにある日本料理店。Facebookページで確認。詳細情報（住所・営業時間等）は公式SNSで要確認。",
+    "description": "コタキナバルにある日本料理店。詳細情報はFacebook公式ページで確認。",
     "tags": [
       "日本料理",
       "ノンハラル"
@@ -13212,22 +12988,24 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mizumizu-coffee",
     "name": "mizumizu coffee",
     "name_ja": "みずみずコーヒー",
     "area": "Kota Kinabalu",
-    "address": "115, Jalan Gaya, Pusat Bandar Kota Kinabalu, 88000 Kota Kinabalu, Sabah, Malaysia",
+    "address": "115, Jalan Gaya, 88000 Kota Kinabalu, Sabah, Malaysia",
     "lat": 5.983,
     "lng": 116.0768,
     "phone": "+6088532995",
     "website": "https://mizumizu.coffee/",
-    "description": "コタキナバルにある日本料理レストラン「Yama」。寿司・刺身・定食など幅広い和食メニューをKKのWaterfrontエリアでカジュアルに楽しめる。",
+    "description": "コタキナバル・ガヤストリートにある日本スタイルのカフェ。京都・丸久小山園の抹茶・ほうじ茶を使った飲み物と日本式タマゴサンドが人気。",
     "tags": [
-      "日本食",
-      "レストラン"
+      "カフェ",
+      "抹茶",
+      "日本スタイル"
     ],
     "hours": "Monday: 9:30 AM – 6:00 PM / Tuesday: Closed / Wednesday: 9:30 AM – 6:00 PM / Thursday: 9:30 AM – 6:00 PM / Friday: 9:30 AM – 6:00 PM / Saturday: 9:30 AM – 6:00 PM / Sunday: 8:00 AM – 6:00 PM",
     "last_verified": "2026-03-28",
@@ -13241,17 +13019,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mo-mo-paradise-kl",
     "name": "Mo-Mo Paradise",
     "name_ja": "もーもーパラダイス",
     "area": "Bukit Bintang",
-    "address": "Pavilion KL, 168 Jalan Bukit Bintang, 55100 Kuala Lumpur",
+    "address": "P1-10/11 Level 4, Lot 10 Shopping Centre, Jalan Sultan Ismail, 50250 Kuala Lumpur",
     "phone": null,
     "website": null,
-    "description": "日本のしゃぶしゃぶ・すき焼き食べ放題チェーンのKL店。100分制で新鮮な肉・野菜・うどんをセルフサービスで楽しめるブキビンタン店。",
+    "description": "ブキビンタン・Lot 10 SC内の日本発しゃぶしゃぶ・すき焼き食べ放題チェーン。1993年新宿創業の老舗ブランドのマレーシア1号店。RM68〜/人。",
     "tags": [
       "しゃぶしゃぶ",
       "すき焼き",
@@ -13268,17 +13047,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mo-mo-paradise-sunway-pyramid",
     "name": "Mo-Mo-Paradise Sunway Pyramid",
     "name_ja": "モーモーパラダイス",
     "area": "Subang Jaya",
-    "address": "Sunway Pyramid, 3, Jalan PJS 11/15, Bandar Sunway, 47500 Subang Jaya",
+    "address": "Sunway Pyramid, 3, Jalan PJS 11/15, Bandar Sunway, 47500 Petaling Jaya, Selangor",
     "phone": null,
     "website": null,
-    "description": "日本のしゃぶしゃぶ・すき焼き食べ放題チェーンのSunway Pyramid店。薄切りの肉と野菜を食べ放題形式で日本式鍋料理を楽しめる。",
+    "description": "Sunway Pyramidにある日本発しゃぶしゃぶ・すき焼き食べ放題チェーン。薄切り肉と野菜を100分制でセルフサービスで楽しめる。",
     "tags": [
       "しゃぶしゃぶ",
       "すき焼き",
@@ -13295,50 +13075,23 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "momokaka",
-    "name": "Momokaka",
-    "name_ja": "ももかか",
-    "area": "Penang",
-    "address": "48, Lbh Armenian, George Town, 10450 George Town, Pulau Pinang, Malaysia",
-    "lat": 5.4152,
-    "lng": 100.3376,
-    "phone": "+60124335622",
-    "website": null,
-    "description": "マレーシア・ペナンの日本式居酒屋。豊富な和食メニューとドリンクを取り揃え、日本の居酒屋の雰囲気をマレーシアで再現している。",
-    "tags": [
-      "居酒屋",
-      "和食"
-    ],
-    "hours": "Monday: Closed / Tuesday: 3:30 PM – 12:00 AM / Wednesday: 3:00 PM – 12:00 AM / Thursday: 3:00 PM – 12:00 AM / Friday: 3:00 PM – 12:00 AM / Saturday: 3:00 PM – 12:00 AM / Sunday: 2:00 – 9:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJm6pR3THDSjARfqMu8nUAMRU",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "momotalo-yakiniku-hartamas",
     "name": "Momotalo Yakiniku",
     "name_ja": "桃太郎 Yakiniku",
     "area": "Desa Sri Hartamas",
-    "address": "Desa Sri Hartamas, Kuala Lumpur",
-    "phone": null,
+    "address": "6, Jalan 28/70a, Desa Sri Hartamas, Kuala Lumpur",
+    "phone": "+60112331208",
     "website": null,
-    "description": "デサスリハルタマスにある日本式焼肉居酒屋。炭火で焼く肉料理と居酒屋メニューが楽しめる。在住日本人が多いハルタマス地区に位置しアクセスしやすい。",
+    "description": "デサスリハルタマスにある日本式焼肉店。10年以上の老舗で和牛・オックステールなど多彩な肉を炭火で楽しめる。ランチセットあり（火〜金）。",
     "tags": [
       "焼肉",
-      "居酒屋",
-      "炭火"
+      "和牛",
+      "炭火",
+      "ポークフリー"
     ],
     "hours": null,
     "status": "unverified",
@@ -13350,103 +13103,24 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "momotaro-ramen-hartamas",
-    "name": "Momotaro Ramen",
-    "name_ja": "桃太郎 Ramen",
-    "area": "Desa Sri Hartamas",
-    "address": "Desa Sri Hartamas, Kuala Lumpur",
-    "phone": null,
-    "website": null,
-    "description": "ハルタマスにある日本式ラーメン店。濃厚豚骨・味噌ラーメンが看板メニューで、自家製の肉厚チャーシューと濃厚スープが特徴の一軒。",
-    "tags": [
-      "ラーメン",
-      "豚骨",
-      "味噌"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "momotaro-ramen-hartamas-restaurant",
-    "name": "Momotaro Ramen Hartamas",
-    "name_ja": "桃太郎 Ramen Hartamas",
-    "area": "Sri Hartamas",
-    "address": "Taman Sri Hartamas, 50480 Kuala Lumpur",
-    "phone": null,
-    "website": null,
-    "description": "日本式豚骨ラーメンを提供するハルタマスの専門店。豚骨ベースの濃厚スープと手作りチャーシューが特徴で、替え玉無料サービスあり。",
-    "tags": [
-      "ラーメン",
-      "豚骨",
-      "替え玉無料"
-    ],
-    "hours": "11:30-14:30, 17:30-21:30",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "momoya-japanese-obanzai-izakaya",
-    "name": "MOMOYA / Japanese Obanzai izakaya",
-    "name_ja": "桃屋 / Japanese Obanzai izakaya",
-    "area": "Johor Bahru",
-    "address": "〒238841, Orchard Rd, 150号 #02-24",
-    "lat": 1.301,
-    "lng": 103.8411,
-    "phone": "+6598280117",
-    "website": "https://inline.app/booking/momoya/singapore",
-    "description": "ジョホールバルにある「MOMOYA」の日本おばんざい居酒屋。家庭的な和食の一品料理とビール・日本酒・焼酎をカジュアルに楽しめる。",
-    "tags": [
-      "居酒屋",
-      "和食"
-    ],
-    "hours": "Monday: 6:00 – 11:30 PM / Tuesday: 6:00 – 11:30 PM / Wednesday: 6:00 – 11:30 PM / Thursday: 6:00 – 11:30 PM / Friday: 6:00 – 11:30 PM / Saturday: 6:00 – 11:30 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJ0dVz2PgZ2jER55DLm1MYcPg",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mori-restaurant",
     "name": "Mori Restaurant",
     "name_ja": "森レストラン",
     "area": "Johor Bahru",
-    "address": "11, Jalan Permas 10/7, Bandar Baru Permas Jaya, 81750 Masai, Johor Darul Ta'zim, Malaysia",
+    "address": "11, Jalan Permas 10/7, Bandar Baru Permas Jaya, 81750 Masai, Johor, Malaysia",
     "lat": 1.4959,
     "lng": 103.8149,
     "phone": "+6073883108",
     "website": "https://mori212108.wixsite.com/website",
-    "description": "ジョホールバルにある日本式ラーメン専門店「大将ラーメン」。こだわりのスープと手打ち麺の本格ラーメンをJBのCity Squareで楽しめる。",
+    "description": "ジョホールバル・バンダルバルペルマスジャヤにある日本料理店。サーモン弁当・イカ塩焼き・カツ丼など定番和食を手ごろな価格で提供する地元人気店。",
     "tags": [
       "日本食",
-      "レストラン"
+      "レストラン",
+      "ノンハラル"
     ],
     "hours": "Monday: 11:30 AM – 10:00 PM / Tuesday: 11:30 AM – 10:00 PM / Wednesday: 11:30 AM – 10:00 PM / Thursday: 11:30 AM – 10:00 PM / Friday: 11:30 AM – 10:00 PM / Saturday: 11:30 AM – 10:00 PM / Sunday: 11:30 AM – 10:00 PM",
     "last_verified": "2026-03-28",
@@ -13460,36 +13134,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "mosonori-winter-park-japanese-handroll-sushi-bar",
-    "name": "mosonori - Winter Park - Japanese handroll sushi bar",
-    "name_ja": "モソノリ - ウィンター パーク - 日本 ハンドロッル 寿司 バー",
-    "area": "Kota Kinabalu",
-    "address": "1100 S Orlando Ave Suite A, Winter Park, FL 32789, USA",
-    "lat": 28.5877,
-    "lng": -81.3648,
-    "phone": "+13219722925",
-    "website": "https://mosonori.com/locations/winter-park",
-    "description": "コタキナバルのウィンターパークにある「mosonori」の手巻き寿司バー。手巻き寿司と刺身などの一品料理を日本酒・ビールと合わせて楽しめる。",
-    "tags": [
-      "バー",
-      "居酒屋"
-    ],
-    "hours": "Monday: 11:30 AM – 3:00 PM, 5:00 – 10:00 PM / Tuesday: 11:30 AM – 3:00 PM, 5:00 – 10:00 PM / Wednesday: 11:30 AM – 3:00 PM, 5:00 – 10:00 PM / Thursday: 11:30 AM – 3:00 PM, 5:00 – 10:00 PM / Friday: 11:30 AM – 3:00 PM, 5:00 – 10:00 PM / Saturday: 11:30 AM – 3:00 PM, 5:00 – 10:00 PM / Sunday: 11:30 AM – 3:00 PM, 5:00 – 10:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJk9OW4F9x54gRm9px6VVLv_g",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mugaru-ramen-mont-kiara",
@@ -13499,11 +13145,12 @@
     "address": "Mont Kiara, Kuala Lumpur",
     "phone": null,
     "website": null,
-    "description": "モントキアラにあるラーメン店。豚骨・味噌・醤油の定番ラーメンに加え、つけ麺や汁なし担々麺も提供。日本人在住者のランチ利用が多い。",
+    "description": "モントキアラにある日本式ラーメン専門店。豚骨・味噌・醤油の定番ラーメンを提供し、日本人在住者のランチ利用が多い日本人居住区エリアに位置する。",
     "tags": [
       "ラーメン",
       "豚骨",
-      "味噌"
+      "味噌",
+      "ノンハラル"
     ],
     "hours": null,
     "last_verified": "2026-03-27",
@@ -13515,50 +13162,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "mugaru-ramen-mont-kiara-restaurant",
-    "name": "Mugaru Ramen",
-    "name_ja": "ムガル ラーメン",
-    "area": "Mont Kiara",
-    "address": "1 Mont Kiara, 1 Jalan Kiara, Mont Kiara, 50480 Kuala Lumpur",
-    "phone": null,
-    "website": null,
-    "description": "モントキアラにある日本式ラーメン専門店。濃厚な豚骨スープと自家製麺が特徴で、味玉・チャーシューなどトッピングも豊富に揃う。",
-    "tags": [
-      "ラーメン",
-      "豚骨",
-      "自家製麺",
-      "モンキアラ"
-    ],
-    "hours": "11:00-21:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "musashi-sushi",
     "name": "Musashi Sushi",
     "name_ja": "武蔵 Sushi",
     "area": "Johor Bahru",
-    "address": "4, Jalan Balau, Taman Melodies, 80250 Johor Bahru, Johor Darul Ta'zim, Malaysia",
+    "address": "4, Jalan Balau, Taman Melodies, 80250 Johor Bahru, Johor",
     "lat": 1.4898,
     "lng": 103.7621,
-    "phone": "+601169666695",
-    "website": null,
-    "description": "ジョホールバルにある日本式焼肉レストラン「牛角」。コース料理から単品まで揃った日本発チェーンのJB店。KSLモールにある。",
+    "phone": "+60116966695",
+    "website": "https://www.facebook.com/musashisushimy/",
+    "description": "ジョホールバル・タマンメロディーズにある日本式寿司店。手作りの寿司・刺身を中心に、タタミ個室でのゆったりとした日本式ダイニング体験を提供。",
     "tags": [
-      "日本食",
       "寿司",
-      "レストラン"
+      "刺身",
+      "日本食",
+      "ノンハラル"
     ],
     "hours": "Monday: 12:00 – 9:00 PM / Tuesday: 12:00 – 9:00 PM / Wednesday: 12:00 – 9:00 PM / Thursday: 12:00 – 9:00 PM / Friday: 12:00 – 10:00 PM / Saturday: 12:00 – 10:00 PM / Sunday: 12:00 – 10:00 PM",
     "last_verified": "2026-03-28",
@@ -13572,22 +13194,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "n-kizoku-modern-japanese-dining-bar",
     "name": "Ní.KIZOKU Modern Japanese Dining Bar 霓貴族",
     "name_ja": "霓貴族",
     "area": "Kuala Lumpur",
-    "address": "59A, Jalan Sultan, City Centre, 50000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+    "address": "59A, Jalan Sultan, City Centre, 50000 Kuala Lumpur",
     "lat": 3.1431,
     "lng": 101.6988,
     "phone": "+60320223889",
     "website": "http://www.facebook.com/Ni.Kizoku.KL",
-    "description": "クアラルンプールにある日本スタイルのモダンダイニングバー。新鮮な食材を使った和食メニューを幅広く揃え、バーとしても利用できる。",
+    "description": "KLチャイナタウン・ジャランスルタンにある日本式モダンダイニングバー。日本仕込みのシェフが腕を振るう刺身・ロール寿司・グリル料理とカクテルを提供。",
     "tags": [
       "日本食",
-      "レストラン"
+      "モダン和食",
+      "バー",
+      "ノンハラル"
     ],
     "hours": "Monday: 12:00 – 3:00 PM, 5:30 – 11:00 PM / Tuesday: 12:00 – 3:00 PM, 5:30 – 11:00 PM / Wednesday: 12:00 – 3:00 PM, 5:30 – 11:00 PM / Thursday: 12:00 – 3:00 PM, 5:30 – 11:00 PM / Friday: 12:00 – 3:00 PM, 5:30 PM – 12:00 AM / Saturday: 12:00 – 3:00 PM, 5:30 PM – 12:00 AM / Sunday: 12:00 – 3:00 PM, 5:30 – 11:00 PM",
     "last_verified": "2026-03-28",
@@ -13601,22 +13226,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nagasaki",
     "name": "Nagasaki",
     "name_ja": "長崎",
     "area": "Kota Kinabalu",
-    "address": "Lot 3A, DBKK No. 0-3A, Ground Floor Latitude 6, Jalan Lintas By-pass, Taman Bunga Raja (Phase 3 & 4), 88450 Kota Kinabalu, Sabah, Malaysia",
+    "address": "0-3A, Ground Floor, Latitude 6, Jalan Lintas By-pass, 88450 Kota Kinabalu, Sabah, Malaysia",
     "lat": 5.9666,
     "lng": 116.1068,
     "phone": "+60168316623",
-    "website": "https://www.facebook.com/pages/Nagasaki%20Japanese%20Restaurant/343266159714337/",
-    "description": "コタキナバルにある日本料理レストラン「Seto」。定食・刺身・焼き魚など海鮮系の和食メニューをKKのWaterfrontエリアで楽しめる。",
+    "website": "https://www.facebook.com/nagasakijapanese/",
+    "description": "コタキナバル・リンタスバイパス沿いにある日本料理レストラン。ラーメン・蕎麦・うどん・寿司・天ぷら・すき焼きなど幅広い和食メニューを提供。",
     "tags": [
       "日本食",
-      "レストラン"
+      "レストラン",
+      "ラーメン",
+      "寿司",
+      "ノンハラル"
     ],
     "hours": "Monday: 11:30 AM – 2:30 PM, 6:00 – 10:00 PM / Tuesday: 11:30 AM – 2:30 PM, 6:00 – 10:00 PM / Wednesday: 11:30 AM – 2:30 PM, 6:00 – 10:00 PM / Thursday: 11:30 AM – 2:30 PM, 6:00 – 10:00 PM / Friday: 11:30 AM – 2:30 PM, 6:00 – 10:00 PM / Saturday: 11:30 AM – 2:30 PM, 6:00 – 10:00 PM / Sunday: 11:30 AM – 2:30 PM, 6:00 – 10:00 PM",
     "last_verified": "2026-03-28",
@@ -13630,22 +13259,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nagisa-japanese-restaurant",
     "name": "Nagisa Japanese Restaurant",
     "name_ja": "渚 Japanese Restaurant",
     "area": "Kota Kinabalu",
-    "address": "Hyatt Regency Kinabalu Jalan Datuk, Jalan Dato Salleh Sulong, Kota Kinabalu, 88991 Kota Kinabalu, Sabah, Malaysia",
+    "address": "Jalan Datuk Salleh Sulong, 88991 Kota Kinabalu, Sabah, Malaysia",
     "lat": 5.9851,
     "lng": 116.0752,
-    "phone": "+6088221234",
-    "website": "https://www.hyatt.com/en-US/hotel/malaysia/hyatt-regency-kinabalu/bkiki/dining/nagisa-japanese-restaurant?src=nplk-bkiki-lclb-nagisa-japanese-restaurant",
-    "description": "コタキナバルにある韓国料理レストラン「韓味」。焼肉・チゲ・チヂミなどの韓国料理をKKのWaterfrontエリアでカジュアルに楽しめる。",
+    "phone": "+60882212340",
+    "website": "https://www.hyatt.com/en-US/hotel/malaysia/hyatt-regency-kinabalu/bkiki/dining/nagisa-japanese-restaurant",
+    "description": "コタキナバルのHyatt Regency Kinabalu内の5つ星ホテル日本料理。ライブ寿司・鉄板焼きカウンターで職人の技を目の前で楽しめる。水〜日営業。",
     "tags": [
-      "日本食",
-      "レストラン"
+      "ホテルダイニング",
+      "寿司",
+      "鉄板焼き",
+      "高級",
+      "ノンハラル"
     ],
     "hours": "Monday: Closed / Tuesday: Closed / Wednesday: 6:00 – 10:00 PM / Thursday: 12:00 – 2:30 PM, 6:00 – 10:00 PM / Friday: 12:00 – 2:30 PM, 6:00 – 10:00 PM / Saturday: 12:00 – 2:30 PM, 6:00 – 10:00 PM / Sunday: 12:00 – 2:30 PM, 6:00 – 10:00 PM",
     "last_verified": "2026-03-28",
@@ -13659,22 +13292,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nagomi",
     "name": "Nagomi",
     "name_ja": "なごみ",
     "area": "Penang",
-    "address": "Unit 01-02, Udini Square, Lebuh Tunku Kudin 3, 11700 Gelugor, Pulau Pinang, Malaysia",
+    "address": "Block 2-01-02, Udini Square, Lebuh Tunku Kudin 3, 11700 George Town, Penang",
     "lat": 5.3784,
     "lng": 100.3144,
     "phone": "+60124873996",
     "website": "https://m.facebook.com/pages/category/Japanese-Restaurant/Nagomi_Penang-578643432180658/",
-    "description": "ペナンにある日本式焼き鳥専門店「鳥一」。厳選した国産鶏肉を使った焼き鳥をペナンのGeorge Townエリアでカジュアルに楽しめる。",
+    "description": "ペナン・ジョージタウン郊外にある日本料理レストラン。しゃぶしゃぶ・鍋セット・焼き鳥・鉄板焼きをRM68〜で楽しめる。週末のカップルや家族連れに人気。",
     "tags": [
-      "日本食",
-      "レストラン"
+      "しゃぶしゃぶ",
+      "鉄板焼き",
+      "焼き鳥",
+      "ノンハラル"
     ],
     "hours": "Monday: 11:30 AM – 10:00 PM / Tuesday: 11:30 AM – 10:00 PM / Wednesday: 11:30 AM – 10:00 PM / Thursday: 11:30 AM – 10:00 PM / Friday: 11:30 AM – 10:00 PM / Saturday: 11:30 AM – 10:00 PM / Sunday: 11:30 AM – 10:00 PM",
     "last_verified": "2026-03-28",
@@ -13688,22 +13324,24 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nami-izakaya-kd",
     "name": "Nami Izakaya KD",
     "name_ja": "波 Izakaya KD",
     "area": "Kuala Lumpur",
-    "address": "Dataran Sunway, 46-1, Jalan PJU 5/11, Kota Damansara, 47810 Petaling Jaya, Selangor, Malaysia",
+    "address": "46-1, Jalan PJU 5/11, Dataran Sunway, 47810 Petaling Jaya, Selangor",
     "lat": 3.1529,
     "lng": 101.5941,
     "phone": "+60139002468",
     "website": null,
-    "description": "コタダマンサラにある日本式居酒屋。和食の一品メニューとアルコールを楽しめる。在住日本人の飲み会に利用されるカジュアルな居酒屋でランチ・ディナー営業。",
+    "description": "コタダマンサラのジャランPJU5/11にある日本式居酒屋。焼き鳥・刺身・唐揚げなどの和食一品料理とアルコールをカジュアルに楽しめる。",
     "tags": [
       "居酒屋",
-      "和食"
+      "和食",
+      "ノンハラル"
     ],
     "hours": "Monday: 12:00 – 3:00 PM, 5:00 – 11:00 PM / Tuesday: 12:00 – 3:00 PM, 5:00 – 11:00 PM / Wednesday: 12:00 – 3:00 PM, 5:00 – 11:00 PM / Thursday: 12:00 – 3:00 PM, 5:00 – 11:00 PM / Friday: 12:00 – 3:00 PM, 5:00 – 11:00 PM / Saturday: 12:00 – 3:00 PM, 5:00 – 11:00 PM / Sunday: 12:00 – 3:00 PM, 5:00 – 11:00 PM",
     "last_verified": "2026-03-28",
@@ -13717,7 +13355,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nami-izakaya-ss2",
@@ -13729,11 +13368,12 @@
     "lng": 101.6229,
     "phone": "+60135233226",
     "website": null,
-    "description": "クアラルンプールにある日本式焼き鳥・居酒屋「Torikizoku」。手頃な価格で焼き鳥・串焼きを楽しめる日本発チェーンのKL店。",
+    "description": "ペタリンジャヤ・SS2エリアにある日本式居酒屋。焼き鳥・寿司・刺身などを提供し、毎日12〜14時はRM1で2皿目の同一料理が楽しめるお得なランチ。",
     "tags": [
-      "日本食",
-      "居酒屋料理",
-      "レストラン"
+      "居酒屋",
+      "焼き鳥",
+      "和食",
+      "ノンハラル"
     ],
     "hours": "Monday: 12:00 – 2:30 PM, 5:00 – 11:00 PM / Tuesday: 12:00 – 2:30 PM, 5:00 – 11:00 PM / Wednesday: 12:00 – 2:30 PM, 5:00 – 11:00 PM / Thursday: 12:00 – 2:30 PM, 5:00 PM – 12:00 AM / Friday: 12:00 – 2:30 PM, 5:00 PM – 12:00 AM / Saturday: 12:00 – 2:30 PM, 5:00 PM – 12:00 AM / Sunday: 12:00 – 2:30 PM, 5:00 – 11:00 PM",
     "last_verified": "2026-03-28",
@@ -13747,7 +13387,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "narumi-izakaya",
@@ -13759,11 +13400,12 @@
     "lng": 116.0688,
     "phone": "+60103737112",
     "website": null,
-    "description": "コタキナバルにある日本式ラーメン専門店「麺処」。各種スープの本格ラーメンをKKのWaterfrontエリアでカジュアルに楽しめる専門店。",
+    "description": "コタキナバルのプロムナードホテル内にある日本式居酒屋。焼き鳥・刺身などの和食一品料理と日本酒・焼酎をカジュアルに楽しめる。",
     "tags": [
+      "居酒屋",
+      "和食",
       "日本食",
-      "居酒屋料理",
-      "レストラン"
+      "ノンハラル"
     ],
     "hours": "Monday: 11:30 AM – 2:30 PM, 6:00 PM – 12:00 AM / Tuesday: 11:30 AM – 2:30 PM, 6:00 PM – 12:00 AM / Wednesday: 11:30 AM – 2:30 PM, 6:00 PM – 12:00 AM / Thursday: 11:30 AM – 2:30 PM, 6:00 PM – 12:00 AM / Friday: 11:30 AM – 2:30 PM, 6:00 PM – 12:00 AM / Saturday: 11:30 AM – 2:30 PM, 6:00 PM – 12:00 AM / Sunday: 11:30 AM – 2:30 PM, 6:00 PM – 12:00 AM",
     "last_verified": "2026-03-28",
@@ -13777,21 +13419,24 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "natsu-bar-dining-penang",
     "name": "Natsu Bar & Dining",
     "name_ja": "夏バー＆ダイニング",
     "area": "Batu Ferringhi",
-    "address": "Ferringhi Walk, Batu Ferringhi, Penang",
-    "phone": null,
-    "website": null,
-    "description": "バトゥフェリンギのシーサイドエリアにある和食レストラン。日本の家庭料理から本格和食まで、バーと組み合わせてくつろげる一軒。",
+    "address": "72C-G-8, Ferringhi Walk, Jalan Batu Ferringhi, 11100 Batu Ferringhi, Penang",
+    "phone": "+60103786222",
+    "website": "https://edoichigroup.com.my/outlet.php?id=17",
+    "description": "バトゥフェリンギのフェリンギウォーク、Edo Ichiグループ運営のシーサイド日本料理レストラン。夕日を眺めながら寿司・和食フュージョンを楽しめる。",
     "tags": [
       "日本料理",
       "バー",
-      "シーサイド"
+      "シーサイド",
+      "Edo Ichiグループ",
+      "ポークフリー"
     ],
     "hours": null,
     "last_verified": "2026-03-27",
@@ -13803,80 +13448,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "nep",
-    "name": "NEP!",
-    "name_ja": "ネップ!",
-    "area": "Penang",
-    "address": "157, Lebuh Campbell, George Town, 10200 George Town, Pulau Pinang, Malaysia",
-    "lat": 5.4184,
-    "lng": 100.3326,
-    "phone": "+60175201573",
-    "website": "https://instagram.com/nep.pg?igshid=dGFhYmw2bmtxNHJu&utm_source=qr",
-    "description": "マレーシア・ペナンの居酒屋。日本の家庭料理や一品料理とともにビール・日本酒・焼酎を楽しめる。マレーシアで日本の居酒屋体験。",
-    "tags": [
-      "居酒屋",
-      "和食"
-    ],
-    "hours": "Monday: Closed / Tuesday: Closed / Wednesday: 5:00 PM – 12:00 AM / Thursday: 5:00 PM – 12:00 AM / Friday: 5:00 PM – 12:00 AM / Saturday: 5:00 PM – 12:00 AM / Sunday: 5:00 PM – 12:00 AM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJG8ULXGnDSjARib-W8xe6QZA",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "new-wk-restaurant",
-    "name": "New WK Restaurant",
-    "name_ja": "ニュー WK レストラン",
-    "area": "Kota Kinabalu",
-    "address": "Lot 4, 5, 6 Wisma HCS, Jalan Kolam, Taman Luyang Phase 1, 88300 Kota Kinabalu, Sabah, Malaysia",
-    "lat": 5.9618,
-    "lng": 116.0858,
-    "phone": "+60167101728",
-    "website": null,
-    "description": "コタキナバルにある日本式カフェ・ベーカリー「cafe de KK」。日本式のパンとスイーツをKKのWaterfrontエリアでカジュアルに楽しめる。",
-    "tags": [
-      "日本食",
-      "レストラン"
-    ],
-    "hours": "Monday: 7:30 AM – 9:00 PM / Tuesday: 7:30 AM – 9:00 PM / Wednesday: 7:30 AM – 9:00 PM / Thursday: 7:30 AM – 9:00 PM / Friday: 7:30 AM – 9:00 PM / Saturday: 6:30 AM – 9:00 PM / Sunday: 6:30 AM – 9:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJGb9dPopoOzIRJLR2ko1LE6w",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ni-kyu-izakaya-oug",
     "name": "Ni Kyu Izakaya • 二玖居酒屋 • OUG",
     "name_ja": "二玖居酒屋",
     "area": "Kuala Lumpur",
-    "address": "59, Jln Hujan Emas 8, Taman Overseas Union, 58200 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+    "address": "No. 59, Jalan Hujan Emas 8, OUG, 58200 Kuala Lumpur",
     "lat": 3.0702,
     "lng": 101.6761,
     "phone": "+601126435914",
     "website": "https://www.facebook.com/share/16kuoFUhc9/",
-    "description": "クアラルンプール・OUG（オーバーシーズ・ユニオン・ガーデン）にある日本式居酒屋。豊富な和食メニューとドリンクを揃え、火〜日営業（月曜定休）。",
+    "description": "クアラルンプール・OUGにある日本式居酒屋。豊富な和食メニューとドリンクを揃え、火〜日営業（月曜定休）。",
     "tags": [
       "居酒屋",
-      "日本酒"
+      "日本酒",
+      "和食",
+      "ノンハラル"
     ],
     "hours": "Monday: Closed / Tuesday: 12:00 – 2:30 PM, 5:00 – 10:00 PM / Wednesday: 12:00 – 2:30 PM, 5:00 – 10:00 PM / Thursday: 12:00 – 2:30 PM, 5:00 – 10:00 PM / Friday: 12:00 – 2:30 PM, 5:00 – 10:00 PM / Saturday: 12:00 – 2:30 PM, 5:00 – 10:00 PM / Sunday: 12:00 – 2:30 PM, 5:00 – 10:00 PM",
     "last_verified": "2026-03-28",
@@ -13890,51 +13480,24 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "niang-penang",
-    "name": "Niang Penang",
-    "name_ja": "ニアング ペナン",
-    "area": "Penang",
-    "address": "8, Lorong Prangin, George Town, 10100 George Town, Pulau Pinang, Malaysia",
-    "lat": 5.4128,
-    "lng": 100.3345,
-    "phone": "+60149151400",
-    "website": null,
-    "description": "ペナンにある日本料理レストラン「Nihon Kai」。日本語対応スタッフが在籍し、寿司・刺身・焼き物など幅広い和食をペナンで楽しめる。",
-    "tags": [
-      "日本食",
-      "レストラン"
-    ],
-    "hours": "Monday: 12:00 – 3:00 PM, 5:00 – 10:00 PM / Tuesday: 12:00 – 3:00 PM, 5:00 – 10:00 PM / Wednesday: 5:00 – 10:00 PM / Thursday: Closed / Friday: 12:00 – 3:00 PM, 5:00 – 10:00 PM / Saturday: 12:00 – 3:00 PM, 5:00 – 10:00 PM / Sunday: 12:00 – 3:00 PM, 5:00 – 10:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJvYA6DdjDSjARPJgVyE7azgY",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nichinan-jidoriya-mid-valley",
     "name": "Nichinan Jidoriya Mid Valley",
     "name_ja": "日南地鶏屋 Mid Valley",
     "area": "Mid Valley",
-    "address": "Ground Floor, Mid Valley Megamall, Mid Valley City, Lingkaran Syed Putra, 59200 Kuala Lumpur",
-    "phone": null,
+    "address": "G(E) 010, Ground Floor, Mid Valley Megamall, Lingkaran Syed Putra, 59200 Kuala Lumpur",
+    "phone": "+60322841211",
     "website": null,
-    "description": "宮崎県原産の放し飼い地鶏を看板食材にした日本料理チェーンのMid Valley店。弁当セット・一品料理・寿司・デザートを揃える。",
+    "description": "Mid Valley Megamall G階にある宮崎県地鶏を看板食材にした日本料理店。180日間育成の地鶏をタタキ・炭火焼き・生でも楽しめる専門料理が名物。",
     "tags": [
       "地鶏",
       "宮崎",
       "弁当",
-      "チェーン"
+      "チェーン",
+      "ノンハラル"
     ],
     "hours": "10:00-22:00",
     "status": "unverified",
@@ -13946,7 +13509,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nihon-kai-japanese-restaurant",
