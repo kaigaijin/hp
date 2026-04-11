@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import { cookies } from "next/headers";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { getCountry, countries } from "@/lib/countries";
@@ -14,6 +15,7 @@ import {
 import PlaceGroupList from "@/components/SpotGroupList";
 import PlaceCategoryList from "@/components/SpotCategoryList";
 import { getGroupTheme, getCategoryTheme, type GroupTheme } from "@/lib/group-theme";
+import { rankPlaces, parseProfile } from "@/lib/rank-places";
 import {
   UtensilsCrossed,
   Coffee,
@@ -69,15 +71,8 @@ const iconMap: Record<string, (size: number) => React.ReactNode> = {
   Compass: (s) => <Compass size={s} />,
 };
 
-export function generateStaticParams() {
-  const categoryParams = countries.flatMap((c) =>
-    categories.map((cat) => ({ country: c.code, category: cat.slug })),
-  );
-  const groupParams = countries.flatMap((c) =>
-    categoryGroups.map((g) => ({ country: c.code, category: g.slug })),
-  );
-  return [...categoryParams, ...groupParams];
-}
+// CookieベースのパーソナライズのためSSR（force-dynamic）
+export const dynamic = "force-dynamic";
 
 export function generateMetadata({
   params,
@@ -133,6 +128,11 @@ export default async function CategoryPage({
   const country = getCountry(code);
   if (!country) notFound();
 
+  // Cookieからユーザープロファイルを取得（パーソナライズ用）
+  const cookieStore = await cookies();
+  const profileRaw = cookieStore.get("place-profile")?.value;
+  const profile = parseProfile(profileRaw);
+
   // グループスラッグの場合 → サブカテゴリ一覧を表示
   const group = getCategoryGroup(slug);
   if (group) {
@@ -150,7 +150,7 @@ export default async function CategoryPage({
       .filter((c): c is NonNullable<typeof c> => c !== null);
 
     // 全子カテゴリのスポットを集約
-    const groupplaces = group.categories.flatMap((catSlug) => {
+    const rawGroupplaces = group.categories.flatMap((catSlug) => {
       const cat = categories.find((c) => c.slug === catSlug);
       return getplacesByCategory(code, catSlug).map((place) => ({
         slug: place.slug,
@@ -167,6 +167,9 @@ export default async function CategoryPage({
         images: (place as Record<string, unknown>).images as string[] | undefined,
       }));
     });
+
+    // パーソナライズソート
+    const groupplaces = rankPlaces(rawGroupplaces, profile);
 
     const subCategories = childCategories
       .filter((c) => c.count > 0)
@@ -263,7 +266,12 @@ export default async function CategoryPage({
   if (!category) notFound();
 
   const catSlug = slug;
-  const places = getplacesByCategory(code, catSlug);
+  const rawPlaces = getplacesByCategory(code, catSlug);
+  // パーソナライズソート（Cookieは上で取得済み）
+  const places = rankPlaces(
+    rawPlaces.map((p) => ({ ...p, categorySlug: catSlug })),
+    profile,
+  );
   const areas = [...new Set(places.map((s) => s.area))].sort();
   const catTheme = getCategoryTheme(catSlug);
 

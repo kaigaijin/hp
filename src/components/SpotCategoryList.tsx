@@ -1,6 +1,3 @@
-"use client";
-
-import { useEffect, useState } from "react";
 import Link from "next/link";
 import {
   MapPin,
@@ -30,17 +27,11 @@ type Props = {
 };
 
 export default function placeCategoryList({ places, countryCode, categorySlug, catTheme }: Props) {
-  const [displayed, setDisplayed] = useState<place[]>(places);
-
-  useEffect(() => {
-    setDisplayed([...places].sort(() => Math.random() - 0.5));
-  }, [places]);
-
   if (places.length === 0) return null;
 
   return (
     <div className="space-y-3">
-      {displayed.map((place) => {
+      {places.map((place) => {
         const isClosed = place.status === "reported_closed";
         return (
           <Link

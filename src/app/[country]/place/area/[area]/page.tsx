@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import { cookies } from "next/headers";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PlaceGroupList from "@/components/SpotGroupList";
@@ -14,6 +15,7 @@ import {
 } from "@/lib/directory";
 import { getCategoryTheme } from "@/lib/group-theme";
 import { ChevronRight, MapPin } from "lucide-react";
+import { rankPlaces, parseProfile } from "@/lib/rank-places";
 
 export const dynamicParams = true;
 export const revalidate = false; // 一度生成したらデプロイまで再生成しない（ISR Write削減）
@@ -63,8 +65,12 @@ export default async function AreaDetailPage({
   const places = getplacesByArea(code, areaName);
   if (places.length === 0) notFound();
 
+  // Cookieからユーザープロファイルを取得（パーソナライズ用）
+  const cookieStore = await cookies();
+  const profile = parseProfile(cookieStore.get("place-profile")?.value);
+
   // placeGroupList用に変換
-  const placeItems = places.map((s) => ({
+  const rawPlaceItems = places.map((s) => ({
     slug: s.slug,
     name: s.name,
     name_ja: s.name_ja,
@@ -91,6 +97,9 @@ export default async function AreaDetailPage({
       count,
     }))
     .sort((a, b) => b.count - a.count);
+
+  // パーソナライズソート
+  const placeItems = rankPlaces(rawPlaceItems, profile);
 
   // テーマ（一番スポットが多いカテゴリのグループテーマ）
   const topCategory = subCategories[0]?.slug;

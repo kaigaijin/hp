@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import { cookies } from "next/headers";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { getCountry, countries } from "@/lib/countries";
@@ -15,6 +16,8 @@ import PlaceReviewForm from "@/components/SpotReviewForm";
 import RandomPlaces from "@/components/RandomSpots";
 import PlaceDetailTabs from "@/components/SpotDetailTabs";
 import PlaceActionBar from "@/components/PlaceActionBar";
+import PlaceProfileTracker from "@/components/PlaceProfileTracker";
+import { rankPlaces, parseProfile } from "@/lib/rank-places";
 import {
   MapPin,
   Phone,
@@ -134,8 +137,15 @@ export default async function placeDetailPage({
   const placeStatus = place.status ?? "unverified";
   const theme = getCategoryTheme(catSlug);
 
-  const sameCategory = getplacesByCategory(code, catSlug)
-    .filter((s) => s.slug !== slug);
+  const cookieStore = await cookies();
+  const profile = parseProfile(cookieStore.get("place-profile")?.value);
+
+  const sameCategory = rankPlaces(
+    getplacesByCategory(code, catSlug)
+      .filter((s) => s.slug !== slug)
+      .map((s) => ({ ...s, categorySlug: catSlug })),
+    profile,
+  );
 
   // スキーマタイプ
   const schemaTypeMap: Record<string, string> = {
@@ -202,6 +212,14 @@ export default async function placeDetailPage({
 
   return (
     <>
+      {/* Phase2/3: 閲覧プロファイルをCookie + Supabaseに記録 */}
+      <PlaceProfileTracker
+        countryCode={code}
+        categorySlug={catSlug}
+        placeSlug={slug}
+        tags={place.tags}
+        area={place.area}
+      />
       <Header />
       <main className="bg-sand-50 dark:bg-stone-950 min-h-screen">
         <script

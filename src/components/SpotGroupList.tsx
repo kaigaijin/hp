@@ -1,6 +1,6 @@
 "use client";
 
-import { Suspense, useState, useCallback, useEffect } from "react";
+import { Suspense, useState, useCallback } from "react";
 import { useSearchParams, usePathname, useRouter } from "next/navigation";
 import Link from "next/link";
 import {
@@ -78,11 +78,6 @@ function PlaceGroupListInner({
   const [activeFilter, setActiveFilter] = useState<string | null>(initialFilter);
   const [currentPage, setCurrentPage] = useState(initialPage);
   const [searchQuery, setSearchQuery] = useState("");
-  const [shuffledplaces, setShuffledplaces] = useState(() => [...places].sort(() => Math.random() - 0.5));
-
-  useEffect(() => {
-    setShuffledplaces([...places].sort(() => Math.random() - 0.5));
-  }, [places]);
 
   const updateURL = useCallback((page: number, filter: string | null) => {
     const params = new URLSearchParams();
@@ -93,8 +88,8 @@ function PlaceGroupListInner({
   }, [pathname, router]);
 
   const categoryFiltered = activeFilter
-    ? shuffledplaces.filter((s) => s.categorySlug === activeFilter)
-    : shuffledplaces;
+    ? places.filter((s) => s.categorySlug === activeFilter)
+    : places;
 
   const filtered = searchQuery.trim()
     ? (() => {

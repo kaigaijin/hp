@@ -1,6 +1,3 @@
-"use client";
-
-import { useEffect, useState } from "react";
 import Link from "next/link";
 
 type place = {
@@ -29,13 +26,8 @@ export default function Randomplaces({
   categoryName,
   count = 5,
 }: Props) {
-  const [displayed, setDisplayed] = useState<place[]>(() =>
-    [...places].sort(() => Math.random() - 0.5).slice(0, count)
-  );
-
-  useEffect(() => {
-    setDisplayed([...places].sort(() => Math.random() - 0.5).slice(0, count));
-  }, [places, count]);
+  // サーバーサイドでランク済みのplacesを受け取る。先頭count件を表示
+  const displayed = places.slice(0, count);
 
   if (places.length === 0) return null;
 
