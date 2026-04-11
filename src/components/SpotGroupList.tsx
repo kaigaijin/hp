@@ -133,7 +133,7 @@ function PlaceGroupListInner({
       {/* 中分類フィルター */}
       {subCategories.length > 1 && (
         <div className="max-w-6xl mx-auto px-4 border-t border-stone-100 dark:border-stone-800">
-          <div className="flex gap-1.5 overflow-x-auto py-2.5 scrollbar-hide">
+          <div className="flex gap-1.5 overflow-x-auto overflow-y-hidden py-2.5 scrollbar-hide touch-pan-x">
             <button
               onClick={() => handleFilterChange(null)}
               className={`shrink-0 text-xs font-medium px-3 py-1.5 rounded-full transition-colors ${

@@ -329,7 +329,7 @@ export default async function CategoryPage({
           {/* エリアタブ */}
           {areas.length > 1 && (
             <div className="max-w-6xl mx-auto px-4 border-t border-white/10">
-              <div className="flex gap-1 overflow-x-auto py-2 scrollbar-hide">
+              <div className="flex gap-1 overflow-x-auto overflow-y-hidden py-2 scrollbar-hide touch-pan-x">
                 <span className="shrink-0 text-xs font-medium text-warm-400 bg-warm-900/30 px-3 py-1.5 rounded-full">
                   すべて（{places.length}）
                 </span>
