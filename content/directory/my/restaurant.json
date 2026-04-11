@@ -9565,13 +9565,14 @@
     "name": "Kannichikan Yakiniku",
     "name_ja": "寒日館 Yakiniku",
     "area": "Desa Sri Hartamas",
-    "address": "Desa Sri Hartamas, Kuala Lumpur",
-    "phone": null,
-    "website": null,
-    "description": "デサスリハルタマスにある焼肉居酒屋。炭火で焼く肉料理と居酒屋メニュー・ドリンクを提供。日本人在住者が多いハルタマスエリアでカジュアルに利用できる。",
+    "address": "14, Jalan 27/70a, Desa Sri Hartamas, 50480 Kuala Lumpur",
+    "phone": "+60323008829",
+    "website": "https://www.knkyakiniku.com/",
+    "description": "デサスリハルタマスにある日本式焼肉専門店。A5和牛を日本から輸入し、各部位を丁寧に仕込んでテーブル炭火焼きで提供。ランチセットも充実。",
     "tags": [
       "焼肉",
-      "居酒屋"
+      "和牛",
+      "ノンハラル"
     ],
     "hours": null,
     "status": "unverified",
@@ -9583,7 +9584,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kappa-kaisen-izakaya",
@@ -9593,12 +9595,13 @@
     "address": "54-1F, 54, Jalan Medan Setia 2, Bukit Damansara, 50490 Kuala Lumpur",
     "phone": "+60125049143",
     "website": "https://www.facebook.com/people/KAPPA-Kaisen-Izakaya/61570881209944/",
-    "description": "ダマンサラハイツにある海鮮居酒屋。新鮮な魚介を使った寿司・刺身・海鮮焼きが楽しめる。2025年オープンの新店舗で、手頃な価格の本格日本料理が評判。月曜定休。",
+    "description": "ブキダマンサラの海鮮居酒屋。豊洲市場から仕入れる新鮮な魚介を使った刺身・寿司・天ぷらが揃う。2025年開店。月曜定休、毎日17:00〜23:30。",
     "tags": [
       "居酒屋",
       "海鮮",
       "寿司",
-      "刺身"
+      "刺身",
+      "ノンハラル"
     ],
     "hours": "17:00-23:00（月曜定休）",
     "last_verified": "2026-03-27",
@@ -9610,22 +9613,24 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kappa-kaisen-izakaya-2",
     "name": "KAPPA Kaisen Izakaya",
     "name_ja": "河童 Kaisen Izakaya",
     "area": "Kuala Lumpur",
-    "address": "54, Jalan Medan Setia 2, Bukit Damansara, 50490 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+    "address": "54-1F, 54, Jalan Medan Setia 2, Bukit Damansara, 50490 Kuala Lumpur",
     "lat": 3.1495,
     "lng": 101.654,
     "phone": "+60125049143",
-    "website": "https://www.instagram.com/kappa.kaisenizakaya?igsh=MWZsajljeGNpMWgzYg%3D%3D&utm_source=qr",
-    "description": "ブキダマンサラにある海鮮居酒屋（2025年オープン）。定番の居酒屋メニューから創作料理まで幅広く提供。公式Instagram・毎日17:00〜23:30まで営業。",
+    "website": "https://www.instagram.com/kappa.kaisenizakaya",
+    "description": "ブキダマンサラの海鮮居酒屋（2025年開店）。豊洲直送の新鮮な魚介と創作和食を提供する日本人色の強いガストロパブ。月曜定休。",
     "tags": [
       "居酒屋",
-      "和食"
+      "海鮮",
+      "ノンハラル"
     ],
     "hours": "Monday: 5:00 – 11:30 PM / Tuesday: 5:00 – 11:30 PM / Wednesday: 5:00 – 11:30 PM / Thursday: 5:00 – 11:30 PM / Friday: 5:00 – 11:30 PM / Saturday: 5:00 – 11:30 PM / Sunday: 5:00 – 11:30 PM",
     "last_verified": "2026-03-28",
@@ -9639,100 +9644,24 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kappa-kaisen-izakaya-bukit-damansara",
-    "name": "Kappa Kaisen Izakaya",
-    "name_ja": "河童 Kaisen Izakaya",
-    "area": "Bukit Damansara",
-    "address": "Bukit Damansara, 50490 Kuala Lumpur",
-    "phone": null,
-    "website": null,
-    "description": "Bukit Damansaraにある海鮮中心の日本式居酒屋。新鮮な刺身・海鮮料理と一品メニューをカジュアルに楽しめるスタイル。",
-    "tags": [
-      "居酒屋",
-      "海鮮",
-      "刺身"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kappa-kaisen-izakaya-damansara",
-    "name": "Kappa Kaisen Izakaya Damansara",
-    "name_ja": "河童 Kaisen Izakaya Damansara",
-    "area": "Damansara Heights",
-    "address": "54-1F, 54, Jalan Medan Setia 2, Damansara Heights, 50490 Kuala Lumpur",
-    "phone": null,
-    "website": null,
-    "description": "東京の寿司店「すしの助」の姉妹店。ダマンサラハイツで日本から直輸入の食材を使った刺身・海鮮焼きが評判。月曜定休、17:00〜23:00営業。",
-    "tags": [
-      "居酒屋",
-      "海鮮",
-      "東京発"
-    ],
-    "hours": "17:00-23:00（月曜定休）",
-    "status": "unverified",
-    "source": "website",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kappa-kaisen-izakaya-sunway",
-    "name": "Kappa Kaisen Izakaya Sunway",
-    "name_ja": "河童 Kaisen Izakaya Sunway",
-    "area": "Subang Jaya",
-    "address": "Sunway, Subang Jaya, Selangor",
-    "phone": null,
-    "website": null,
-    "description": "マレーシア・スバンジャヤにある焼き鳥居酒屋。備長炭で焼き上げる焼き鳥と生ビール・日本酒を楽しめる。串焼きメニューが充実している。",
-    "tags": [
-      "海鮮",
-      "居酒屋",
-      "焼鳥"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-28",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "karuizawa",
     "name": "KARUIZAWA",
     "name_ja": "軽井沢",
     "area": "Kuala Lumpur",
-    "address": "Lot9.01, マレーシア Menara Ta One, 22, Jalan P. Ramlee, Kuala Lumpur, 50250 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+    "address": "Lot 9.01, 9th Floor, Menara Ta One, 22, Jalan P. Ramlee, 50250 Kuala Lumpur",
     "lat": 3.1569,
     "lng": 101.7095,
     "phone": "+60321664712",
     "website": "http://karuizawa.com.my/",
-    "description": "クアラルンプール市内Menara Ta Oneにある日本式居酒屋バー。刺身・焼き鳥・揚げ物などの和食一品料理と日本酒・ビールを提供。毎日18:30〜翌1:00まで営業。",
+    "description": "メナラTAワン9階の会員制に近い日本式居酒屋バー。日本人ビジネスマン常連の隠れ家的スポット。梅酒・焼酎・ウイスキーが揃い、Ozeki Tokyoと提携。",
     "tags": [
       "居酒屋",
-      "和食"
+      "バー",
+      "ノンハラル"
     ],
     "hours": "Monday: 6:30 PM – 1:00 AM / Tuesday: 6:30 PM – 1:00 AM / Wednesday: 6:30 PM – 1:00 AM / Thursday: 6:30 PM – 1:00 AM / Friday: 6:30 PM – 1:00 AM / Saturday: 6:30 PM – 1:00 AM / Sunday: 6:30 PM – 1:00 AM",
     "last_verified": "2026-03-28",
@@ -9746,36 +9675,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "katao-georgetown-penang",
-    "name": "Katao Georgetown Penang",
-    "name_ja": "片尾 Georgetown Penang",
-    "area": "Penang",
-    "address": "16, Lebuh Bishop, George Town, 10200 George Town, Pulau Pinang, Malaysia",
-    "lat": 5.4184,
-    "lng": 100.3421,
-    "phone": "+60106658620",
-    "website": null,
-    "description": "ペナンにある中国式客家料理専門レストラン。客家の伝統的な煮込み料理・塩焼き料理をペナンのGeorge Townエリアで楽しめる。",
-    "tags": [
-      "日本食",
-      "レストラン"
-    ],
-    "hours": "Monday: 11:00 AM – 10:00 PM / Tuesday: 11:00 AM – 10:00 PM / Wednesday: 11:00 AM – 10:00 PM / Thursday: 11:00 AM – 10:00 PM / Friday: 11:00 AM – 10:00 PM / Saturday: 11:00 AM – 10:00 PM / Sunday: 11:00 AM – 10:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJsYhRNorDSjARpDfM1pPluyk",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "katsuya-1-utama",
@@ -9785,10 +9686,11 @@
     "address": "1 Utama Shopping Centre, Lebuh Bandar Utama, Bandar Utama, 47800 Petaling Jaya, Selangor",
     "phone": null,
     "website": null,
-    "description": "1ウタマ（1 Utama）にあるとんかつ専門店。サクサクの衣と柔らかい豚肉が特徴の日本式とんかつを定食スタイルで提供する。",
+    "description": "1ウタマにあるとんかつ専門店。サクサクの衣と柔らかい豚肉が特徴の日本式とんかつを定食スタイルで提供。カツ丼・カツカレーも人気。",
     "tags": [
       "とんかつ",
-      "カツ丼"
+      "カツ丼",
+      "日本食"
     ],
     "hours": "10:00-22:00",
     "last_verified": "2026-03-27",
@@ -9800,7 +9702,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "katsuya-mid-valley",
@@ -9810,11 +9713,11 @@
     "address": "Mid Valley Megamall, 59200 Kuala Lumpur",
     "phone": null,
     "website": null,
-    "description": "ミッドバレー（ミッドバレー）にあるとんかつ専門店。サクサクの衣と柔らかい豚肉が特徴の日本式とんかつを定食スタイルで提供する。",
+    "description": "ミッドバレーにあるとんかつ専門店。サクサクの衣と柔らかい豚肉が特徴の日本式とんかつを定食スタイルで提供。カツ丼・カツカレーも人気。",
     "tags": [
       "とんかつ",
       "カツ丼",
-      "チェーン"
+      "日本食"
     ],
     "hours": null,
     "last_verified": "2026-03-27",
@@ -9826,7 +9729,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "katsuya-pavilion-kl",
@@ -9836,10 +9740,11 @@
     "address": "Lot 6.22, Level 6, Pavilion KL, 168 Jalan Bukit Bintang, 55100 Kuala Lumpur",
     "phone": null,
     "website": null,
-    "description": "パビリオン（ブキビンタン）にあるとんかつ専門店。サクサクの衣と柔らかい豚肉が特徴の日本式とんかつを定食スタイルで提供する。",
+    "description": "パビリオンKL（ブキビンタン）にあるとんかつ専門店。日本式とんかつを定食スタイルで提供。ボリューム満点でコスパが良いと人気。",
     "tags": [
       "とんかつ",
-      "カツ丼"
+      "カツ丼",
+      "日本食"
     ],
     "hours": "10:00-22:00",
     "last_verified": "2026-03-27",
@@ -9851,7 +9756,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "katsuya-sunway-pyramid",
@@ -9861,12 +9767,12 @@
     "address": "Sunway Pyramid, 3, Jalan PJS 11/15, Bandar Sunway, 47500 Subang Jaya, Selangor",
     "phone": null,
     "website": null,
-    "description": "日本のとんかつチェーン「かつや」のマレーシア店。手頃な価格でカツ丼・カツカレー・とんかつ定食を提供。ボリューム満点でコスパが良い。",
+    "description": "サンウェイピラミッドにあるとんかつ専門店。手頃な価格でカツ丼・カツカレー・とんかつ定食を提供。ボリューム満点でコスパが良い。",
     "tags": [
       "とんかつ",
       "カツ丼",
       "チェーン",
-      "リーズナブル"
+      "日本食"
     ],
     "hours": null,
     "last_verified": "2026-03-27",
@@ -9878,7 +9784,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "katsuya-trx",
@@ -9888,11 +9795,11 @@
     "address": "The Exchange TRX, Persiaran TRX, 55188 Kuala Lumpur",
     "phone": null,
     "website": null,
-    "description": "日本発のとんかつ専門チェーンのThe Exchange TRX店。サクサクの衣と柔らかい豚肉が特徴のとんかつを定食スタイルで楽しめる。",
+    "description": "The Exchange TRXにあるとんかつ専門店。サクサクの衣のとんかつを定食スタイルで楽しめる。カツ丼やカツカレーなども揃う。",
     "tags": [
       "とんかつ",
       "カツ丼",
-      "チェーン"
+      "日本食"
     ],
     "hours": "10:00-22:00",
     "status": "unverified",
@@ -9904,22 +9811,24 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kawazu-taman-tuanku-haminah",
     "name": "Kawazu | Taman Tuanku Haminah",
     "name_ja": "河津 | Taman Tuanku Haminah",
     "area": "Penang",
-    "address": "33, Jln Tuanku Haminah 1, 08000 Sungai Petani, Kedah, Malaysia",
+    "address": "33, Jalan Tuanku Haminah 1, 08000 Sungai Petani, Kedah",
     "lat": 5.6543,
     "lng": 100.5142,
     "phone": "+60124899311",
     "website": "https://m.facebook.com/Kawazu-Japanese-Restaurant-144404635626581/",
-    "description": "ペナンのタマントゥアンクハミナにある日本式居酒屋「Kawazu」。和食の一品料理と豊富なドリンクを揃え、落ち着いた雰囲気で飲食できる。",
+    "description": "スンガイプタニ（ケダ州）にある和食レストラン。サーモン巻・海鮮ラーメン・うな丼・タコ焼きなど定番和食メニューを揃える。ランチ・ディナー営業。",
     "tags": [
       "居酒屋",
-      "和食"
+      "和食",
+      "寿司"
     ],
     "hours": "Monday: 11:00 AM – 3:00 PM, 6:00 – 10:00 PM / Tuesday: 11:00 AM – 3:00 PM, 6:00 – 10:00 PM / Wednesday: 11:00 AM – 3:00 PM, 6:00 – 10:00 PM / Thursday: 11:00 AM – 3:00 PM, 6:00 – 10:00 PM / Friday: 11:00 AM – 3:00 PM, 6:00 – 10:00 PM / Saturday: 11:00 AM – 3:00 PM, 6:00 – 10:00 PM / Sunday: 11:00 AM – 3:00 PM, 6:00 – 10:00 PM",
     "last_verified": "2026-03-28",
@@ -9933,22 +9842,23 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kaze-japanese-penang",
     "name": "Kaze Japanese Restaurant",
     "name_ja": "風",
     "area": "Penang",
-    "address": "George Town, Penang",
+    "address": "368-1-1 Bellisa Row, Jalan Burma, Pulau Tikus, George Town, 10050 Penang",
     "phone": null,
     "website": null,
-    "description": "ペナンにある日本料理レストラン。刺身・寿司・うどんを中心とした正統派の和食メニューを揃え、予約推奨の本格和食レストラン。",
+    "description": "ペナンに複数店舗を構える本格和食レストラン。空輸の刺身・寿司・ラーメン・定食が揃い、価格はやや高め。品質重視の日本食ファンに支持される。",
     "tags": [
       "刺身",
       "寿司",
       "うどん",
-      "予約推奨"
+      "和食"
     ],
     "hours": null,
     "status": "unverified",
@@ -9960,21 +9870,22 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kazoku-ai-teppanyaki-kl",
     "name": "Kazoku-Ai Modern Teppanyaki Kitchen",
     "name_ja": "カゾク-アイ モダン 鉄板焼き キッチン",
     "area": "Kuala Lumpur",
-    "address": "Kuala Lumpur",
-    "phone": null,
+    "address": "3A-G, 3rd Mile Square, 151 Old Klang Road, 58100 Kuala Lumpur",
+    "phone": "+60379831919",
     "website": null,
-    "description": "目の前で調理するパフォーマンス鉄板焼きスタイルのモダン鉄板焼きレストラン。ステーキ・シーフード・野菜を日本式の演出で楽しめる。",
+    "description": "オールドクランロードにある日本式鉄板焼き専門店。60年超の経験を持つシェフが目の前で焼き上げる鉄板焼きと天ぷらが看板。名物はFire Crabとスパゲッティ明太子。",
     "tags": [
       "鉄板焼き",
-      "ステーキ",
-      "パフォーマンス"
+      "天ぷら",
+      "ノンハラル"
     ],
     "hours": null,
     "status": "unverified",
@@ -9986,22 +9897,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kazu",
     "name": "Kazu",
     "name_ja": "和",
     "area": "Kuala Lumpur",
-    "address": "Jalan Gelenggang, Bukit Damansara, 50490 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+    "address": "Lot 54303 & 54304, Jalan Gelenggang, Bukit Damansara, 50490 Kuala Lumpur",
     "lat": 3.1519,
     "lng": 101.6645,
-    "phone": "+601116873598",
+    "phone": "+60116873598",
     "website": "http://www.kazu.my/",
-    "description": "マレーシア・クアラルンプールの日本料理レストラン。寿司や焼き物、煮物など伝統的な日本料理をマレーシアで楽しめる。セットメニューも用意。",
+    "description": "ブキダマンサラにある高級おまかせ日本料理。江戸前寿司の柴田典一シェフが腕を振るうミシュラン選出レストラン。カポカウンターも擁する上質な和食体験。",
     "tags": [
-      "日本食",
-      "レストラン"
+      "おまかせ",
+      "寿司",
+      "高級",
+      "ノンハラル"
     ],
     "hours": "Monday: Closed / Tuesday: 12:00 – 3:00 PM, 7:00 – 10:30 PM / Wednesday: 12:00 – 3:00 PM, 7:00 – 10:30 PM / Thursday: 12:00 – 3:00 PM, 7:00 – 10:30 PM / Friday: 12:00 – 3:00 PM, 7:00 – 10:30 PM / Saturday: 12:00 – 3:00 PM, 7:00 – 10:30 PM / Sunday: 12:00 – 3:00 PM, 7:00 – 10:30 PM",
     "last_verified": "2026-03-28",
@@ -10015,7 +9929,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kazu-sumiyaki-klcc",
@@ -10025,11 +9940,12 @@
     "address": "Intermark Mall, 348 Jalan Tun Razak, 50400 Kuala Lumpur",
     "phone": null,
     "website": null,
-    "description": "KLCC近くの炭焼きレストラン。備長炭で焼き上げる焼き鳥・焼肉・海鮮焼きを提供。バーカウンターもあり、食事後にドリンクを楽しめる。",
+    "description": "KLCC近くのIntermark Mall内にある炭焼き日本料理店。備長炭で焼く焼き鳥・海鮮焼きとバーカウンターを備えたカジュアルな和食スポット。",
     "tags": [
       "炭焼き",
       "焼き鳥",
-      "バー"
+      "バー",
+      "ノンハラル"
     ],
     "hours": null,
     "last_verified": "2026-03-27",
@@ -10041,21 +9957,23 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kazuma-japanese-concorde-kl",
     "name": "Kazuma Japanese Restaurant",
     "name_ja": "和馬 Japanese Restaurant",
     "area": "Bukit Bintang",
-    "address": "Concorde Hotel Kuala Lumpur, 2 Jalan Sultan Ismail, 50250 Kuala Lumpur",
-    "phone": null,
+    "address": "1st Floor, Wisma Concorde, 2 Jalan Sultan Ismail, 50250 Kuala Lumpur",
+    "phone": "+60321492666",
     "website": "https://kualalumpur.concordehotelsresorts.com/dining/kazuma-japanese-restaurant",
-    "description": "コンコルドホテルKL内の日本料理レストラン。鉄板焼き・寿司・刺身・天ぷらなどを揃え、ホテルダイニングとして接待にも利用される。",
+    "description": "コンコルドホテルKL1階にある本格和食レストラン。東京出身のシェフが日本空輸の食材で刺身・寿司・串焼き・天丼などを提供。ビジネス接待にも対応。",
     "tags": [
       "ホテルダイニング",
-      "鉄板焼き",
-      "寿司"
+      "刺身",
+      "寿司",
+      "串焼き"
     ],
     "hours": "12:00-14:30, 18:30-22:30",
     "last_verified": "2026-03-27",
@@ -10067,51 +9985,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kazuma-japanese-restaurant",
-    "name": "Kazuma Japanese Restaurant",
-    "name_ja": "和馬 Japanese Restaurant",
-    "area": "Kuala Lumpur",
-    "address": "Level 1, Concorde Hotel, 2, Jln Sultan Ismail, Kuala Lumpur, 50250 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
-    "lat": 3.1556,
-    "lng": 101.7055,
-    "phone": "+60321492666",
-    "website": "https://kualalumpur.concordehotelsresorts.com/dining/kazuma-japanese-restaurant/",
-    "description": "クアラルンプールのホテル内にある日本食レストラン。定食から鉄板焼き・寿司まで定番の和食メニューを幅広く揃えたダイニング。",
-    "tags": [
-      "日本食",
-      "レストラン"
-    ],
-    "hours": "Monday: 11:30 AM – 3:00 PM, 6:00 – 10:00 PM / Tuesday: 11:30 AM – 3:00 PM, 6:00 – 10:00 PM / Wednesday: 11:30 AM – 3:00 PM, 6:00 – 10:00 PM / Thursday: 11:30 AM – 3:00 PM, 6:00 – 10:00 PM / Friday: 11:30 AM – 3:00 PM, 6:00 – 10:00 PM / Saturday: 11:30 AM – 3:00 PM, 6:00 – 10:00 PM / Sunday: 11:30 AM – 3:00 PM, 6:00 – 10:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJJc4jBqdJzDER8PnZ9CUmHi0",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kazumasa-japanese-restaurant",
     "name": "Kazumasa Japanese Restaurant",
     "name_ja": "カズマサ 日本 レストラン",
     "area": "Penang",
-    "address": "50C, 1, Jalan Fettes, Tanjung Tokong, 11200 Tanjung Bungah, Pulau Pinang, Malaysia",
+    "address": "50C-1, Jalan Fettes, 11200 Tanjung Bungah, Pulau Pinang",
     "lat": 5.4517,
     "lng": 100.3049,
     "phone": "+60182971886",
     "website": "https://kazumasarestaurant.com/",
-    "description": "ペナンにある日本式うどん専門店「丸亀製麺」。讃岐うどんを提供する日本発大手チェーンのペナン店。ガーニープラザのショッピングモールにある。",
+    "description": "ペナン・タンジュンブンガにある本格おまかせ日本料理。新鮮な刺身・創作寿司を中心にペナン初のおまかせスタイルを提供。月曜定休、要予約。",
     "tags": [
-      "日本食",
-      "レストラン"
+      "おまかせ",
+      "寿司",
+      "刺身",
+      "高級"
     ],
     "hours": "Monday: 12:00 – 2:00 PM, 6:00 – 10:00 PM / Tuesday: 12:00 – 2:00 PM, 6:00 – 10:00 PM / Wednesday: 12:00 – 2:00 PM, 6:00 – 10:00 PM / Thursday: Closed / Friday: 12:00 – 2:00 PM, 6:00 – 10:00 PM / Saturday: 12:00 – 2:00 PM, 6:00 – 10:00 PM / Sunday: 12:00 – 2:00 PM, 6:00 – 10:00 PM",
     "last_verified": "2026-03-28",
@@ -10125,138 +10017,24 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kbox-beverly",
-    "name": "KBOX Beverly",
-    "name_ja": "KBOX ビバリー",
-    "area": "Kota Kinabalu",
-    "address": "Lot 1&2, 1st Floor, Block E bundusan plaza, 89500 Kota Kinabalu, Sabah, Malaysia",
-    "lat": 5.937,
-    "lng": 116.1014,
-    "phone": "+601151171696",
-    "website": "https://www.facebook.com/TheKBoxBeverly",
-    "description": "マレーシア・コタキナバルの日本式居酒屋。焼き鳥や刺身、天ぷらなどの定番和食メニューと生ビール・日本酒を提供するカジュアルな店舗。",
-    "tags": [
-      "居酒屋",
-      "和食"
-    ],
-    "hours": "Monday: 10:00 AM – 2:00 AM / Tuesday: 10:00 AM – 2:00 AM / Wednesday: 10:00 AM – 2:00 AM / Thursday: 10:00 AM – 2:00 AM / Friday: 10:00 AM – 2:00 AM / Saturday: 10:00 AM – 2:00 AM / Sunday: 10:00 AM – 2:00 AM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJ-_BDn-FpOzIRF4t-pdDmiYY",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kbox-tuaran",
-    "name": "KBOX TUARAN",
-    "name_ja": "KBOX トゥアラン",
-    "area": "Kota Kinabalu",
-    "address": "Lot 1, Block 4, Tingkat 2 & 3, Jalan Teo Teck Ong Tuaran, 89208 Kota Kinabalu, Sabah, Malaysia",
-    "lat": 6.1768,
-    "lng": 116.233,
-    "phone": "+601115017337",
-    "website": null,
-    "description": "コタキナバルのTuaran地区にある日本式カラオケバー「KBOX」。カラオケと居酒屋メニューを組み合わせ、グループ飲みに対応した店舗。",
-    "tags": [
-      "居酒屋",
-      "和食"
-    ],
-    "hours": "Monday: 10:00 AM – 2:00 AM / Tuesday: 10:00 AM – 2:00 AM / Wednesday: 10:00 AM – 2:00 AM / Thursday: 10:00 AM – 2:00 AM / Friday: 10:00 AM – 2:00 AM / Saturday: 10:00 AM – 2:00 AM / Sunday: 10:00 AM – 2:00 AM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJfVDxbqwPOzIRLWI2KHsdEe8",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kedai-kopi-fatt-kee",
-    "name": "Kedai Kopi Fatt Kee",
-    "name_ja": "ケダイ コピ Fatt Kee",
-    "area": "Kota Kinabalu",
-    "address": "Jln Haji Saman, Pusat Bandar Kota Kinabalu, 88000 Kota Kinabalu, Sabah, Malaysia",
-    "lat": 5.9849,
-    "lng": 116.0765,
-    "phone": "+60167128268",
-    "website": null,
-    "description": "コタキナバルにある日本式ラーメン専門店「麺一筋」。各種スープの本格ラーメンをKKのWaterfrontエリアでカジュアルに楽しめるラーメン専門店。",
-    "tags": [
-      "日本食",
-      "レストラン"
-    ],
-    "hours": "Monday: 11:30 AM – 1:30 PM, 3:30 – 7:30 PM / Tuesday: 11:30 AM – 1:30 PM, 3:30 – 7:30 PM / Wednesday: 11:30 AM – 1:30 PM, 3:30 – 7:30 PM / Thursday: 11:30 AM – 1:30 PM, 3:30 – 7:30 PM / Friday: 11:00 AM – 1:30 PM, 3:30 – 7:30 PM / Saturday: 11:30 AM – 1:30 PM, 3:30 – 7:30 PM / Sunday: 11:30 AM – 1:30 PM, 3:30 – 7:30 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJe-CWXo9pOzIR55H9jR09Puo",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kedai-kopi-kim-hing-lee",
-    "name": "Kedai Kopi Kim Hing Lee(生肉面)",
-    "name_ja": "生肉面",
-    "area": "Kota Kinabalu",
-    "address": "Ground Floor, Lot 9, Lorong Sinsuran 3, Sinsuran, 88800 Kota Kinabalu, Sabah, Malaysia",
-    "lat": 5.9802,
-    "lng": 116.0726,
-    "phone": null,
-    "website": null,
-    "description": "コタキナバルにある中国式海鮮・点心レストラン「蓬莱」。点心と海鮮料理をKKのWaterfrontエリアで幅広く楽しめる中国料理店。",
-    "tags": [
-      "日本食",
-      "レストラン"
-    ],
-    "hours": "Monday: 6:30 AM – 2:30 PM / Tuesday: 6:30 AM – 2:30 PM / Wednesday: 6:30 AM – 2:30 PM / Thursday: 6:30 AM – 2:30 PM / Friday: 6:30 AM – 2:30 PM / Saturday: 6:30 AM – 2:30 PM / Sunday: 6:30 AM – 2:30 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJxbzpwJFpOzIR4xIKzL8Gdnw",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "keijometo",
     "name": "Keijometo",
     "name_ja": "ケイジョメト",
     "area": "Johor Bahru",
-    "address": "3, Jln Chengai, Taman Melodies, 80250 Johor Bahru, Johor Darul Ta'zim, Malaysia",
+    "address": "3, Jalan Chengai, Taman Melodies, 80250 Johor Bahru, Johor",
     "lat": 1.4926,
     "lng": 103.76,
-    "phone": "+6073311825",
+    "phone": "+60733118250",
     "website": "https://www.facebook.com/keijometo.official/",
-    "description": "ジョホールバルにある日本式うどん専門店「丸亀製麺」。讃岐うどんを提供する日本発大手チェーンのJB店。Komtarモールにある。",
+    "description": "ジョホールバルにある日本風ミニマルカフェ（2022年開店）。メンタイ玉子サンド・サーモン丼・鰻茶漬けなど日本インスパイアのメニューとマッチャドリンクが人気。",
     "tags": [
+      "カフェ",
       "日本食",
-      "レストラン"
+      "和食"
     ],
     "hours": "Monday: Closed / Tuesday: 11:00 AM – 7:00 PM / Wednesday: 11:00 AM – 7:00 PM / Thursday: 11:00 AM – 7:00 PM / Friday: 11:00 AM – 7:00 PM / Saturday: 11:00 AM – 7:00 PM / Sunday: 11:00 AM – 7:00 PM",
     "last_verified": "2026-03-28",
@@ -10270,22 +10048,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kemuri",
     "name": "KEMURI",
     "name_ja": "煙",
     "area": "Johor Bahru",
-    "address": "24, Jalan Molek 1/30, Taman Molek, 81100 Johor Bahru, Johor Darul Ta'zim, Malaysia",
+    "address": "24, Jalan Molek 1/30, Taman Molek, 81100 Johor Bahru, Johor",
     "lat": 1.5235,
     "lng": 103.785,
-    "phone": "+6073511723",
+    "phone": "+60735117230",
     "website": "https://www.instagram.com/kemuri_malaysia/",
-    "description": "ジョホールバルにある日本料理レストラン「Nara」。寿司・刺身・定食など幅広い和食メニューをJBのCity Squareエリアでカジュアルに楽しめる。",
+    "description": "北海道発のジョホールバル日本式居酒屋。日本人オーナーによる本格和食で、お好み焼き・焼き鳥・ヒラシチュカなどが揃う。飲み放題（nomihoudai）も提供。",
     "tags": [
-      "日本食",
-      "レストラン"
+      "居酒屋",
+      "焼き鳥",
+      "和食",
+      "ノンハラル"
     ],
     "hours": "Monday: 11:30 AM – 2:30 PM, 5:00 – 9:30 PM / Tuesday: 11:30 AM – 2:30 PM, 5:00 – 9:30 PM / Wednesday: 11:30 AM – 2:30 PM, 5:00 – 9:30 PM / Thursday: 11:30 AM – 2:30 PM, 5:00 – 9:30 PM / Friday: 11:30 AM – 2:30 PM, 5:00 – 9:30 PM / Saturday: 11:30 AM – 9:30 PM / Sunday: 11:30 AM – 9:30 PM",
     "last_verified": "2026-03-28",
@@ -10299,23 +10080,24 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kemuri-japanese-izakaya-restaurant",
     "name": "Kemuri Japanese Izakaya Restaurant",
     "name_ja": "煙 Japanese Izakaya Restaurant",
     "area": "Johor Bahru",
-    "address": "26, Jalan Permas 10/7, Bandar Baru Permas Jaya, 81750 Masai, Johor Darul Ta'zim, Malaysia",
+    "address": "26, Jalan Permas 10/7, Bandar Baru Permas Jaya, 81750 Masai, Johor",
     "lat": 1.4962,
     "lng": 103.8142,
-    "phone": "+6073804732",
+    "phone": "+60738047320",
     "website": "https://www.instagram.com/kemuri_malaysia/",
-    "description": "ジョホールバルにある中国式客家料理専門店「客家楼」。客家の伝統的な煮込み料理をJBのCity Squareエリアで楽しめる中国料理店。",
+    "description": "ジョホールバル・ペルマスジャヤにある北海道発の日本式居酒屋。日本人経営で、お好み焼き・焼き鳥・和食定食を本格的に提供。落ち着いた雰囲気で家族利用も可。",
     "tags": [
-      "日本食",
-      "居酒屋料理",
-      "レストラン"
+      "居酒屋",
+      "和食",
+      "ノンハラル"
     ],
     "hours": "Monday: 11:30 AM – 2:30 PM, 5:00 – 10:00 PM / Tuesday: 11:30 AM – 2:30 PM, 5:00 – 10:00 PM / Wednesday: 11:30 AM – 2:30 PM, 5:00 – 10:00 PM / Thursday: 11:30 AM – 2:30 PM, 5:00 – 10:00 PM / Friday: 11:30 AM – 2:30 PM, 5:00 – 10:00 PM / Saturday: 11:30 AM – 2:30 PM, 5:00 – 10:00 PM / Sunday: 11:30 AM – 2:30 PM, 5:00 – 10:00 PM",
     "last_verified": "2026-03-28",
@@ -10329,23 +10111,24 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ken-chan-curry-nu-sentral",
     "name": "Ken-Chan Curry | NU Sentral",
     "name_ja": "けんちゃんカレー",
     "area": "Kuala Lumpur",
-    "address": "Level 3 lot 14, Quizinn Foodcourt, NU Sentral Mall, 201, Jalan Tun Sambanthan, Brickfields, 50470 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+    "address": "Level 3, Lot 14, Quizinn Foodcourt, NU Sentral Mall, 201 Jalan Tun Sambanthan, 50470 Kuala Lumpur",
     "lat": 3.1337,
     "lng": 101.6876,
     "phone": "+60143299554",
-    "website": "https://www.sunsancurry33.com.my/",
-    "description": "KLセントラル駅直結のNU Sentral内にある日本式カレー専門店。日本のカレーライスをトッピング・辛さのカスタマイズとともに提供。",
+    "website": "https://www.kenchancurry.com.my/",
+    "description": "KLセントラル駅直結NU Sentral内にある日本式カレー専門店。チキンカツオムライスカレー・デミグラス牛オムライスなど70種超の本格和食カレーを提供。",
     "tags": [
-      "日本食",
       "カレー",
-      "レストラン"
+      "日本食",
+      "ハラル対応"
     ],
     "hours": "Monday: 10:00 AM – 10:00 PM / Tuesday: 10:00 AM – 10:00 PM / Wednesday: 10:00 AM – 10:00 PM / Thursday: 10:00 AM – 10:00 PM / Friday: 10:00 AM – 10:00 PM / Saturday: 10:00 AM – 10:00 PM / Sunday: 10:00 AM – 10:00 PM",
     "last_verified": "2026-03-28",
@@ -10359,7 +10142,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kenji-japanese-medan-damansara",
@@ -10369,12 +10153,13 @@
     "address": "132, Jalan Kasah, Medan Damansara, 50490 Kuala Lumpur",
     "phone": "+60320110759",
     "website": "https://www.kenji-kl.com/",
-    "description": "メダンダマンサラにある本格日本料理店。新鮮なシーフードを使ったランチセットがリーズナブルで、おまかせディナーも提供。2024年オープン。",
+    "description": "メダンダマンサラにある本格和食レストラン。宮城・塩竈産の自社加工マグロなどを日本空輸し、リーズナブルなランチセットとおまかせ（RM350/人）を提供。",
     "tags": [
       "おまかせ",
-      "ランチセット",
+      "刺身",
       "寿司",
-      "刺身"
+      "ランチセット",
+      "ノンハラル"
     ],
     "hours": "11:30-14:30, 17:30-22:00（月曜定休）",
     "status": "unverified",
@@ -10386,22 +10171,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kenji-japanese-restaurant",
     "name": "KENJI Japanese Restaurant",
     "name_ja": "健司 Japanese Restaurant",
     "area": "Kuala Lumpur",
-    "address": "134, Jalan Kasah Medan, Bukit Damansara, 50490 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+    "address": "134, Jalan Kasah Medan, Bukit Damansara, 50490 Kuala Lumpur",
     "lat": 3.1397,
     "lng": 101.6574,
     "phone": "+60320110759",
     "website": "https://www.kenji-kl.com/",
-    "description": "クアラルンプールにある「けんじ」の日本食レストラン。新鮮な食材を使った定食・寿司・刺身など幅広い和食をランチ・ディナーで楽しめる。",
+    "description": "ブキダマンサラにある本格和食レストラン（kenji-japanese-medan-damansaraと同系）。日本空輸食材のランチセット・おまかせが評判。月曜定休。",
     "tags": [
-      "日本食",
-      "レストラン"
+      "おまかせ",
+      "刺身",
+      "寿司",
+      "ノンハラル"
     ],
     "hours": "Monday: Closed / Tuesday: 11:30 AM – 2:30 PM, 5:30 – 10:00 PM / Wednesday: 11:30 AM – 2:30 PM, 5:30 – 10:00 PM / Thursday: 11:30 AM – 2:30 PM, 5:30 – 10:00 PM / Friday: 11:30 AM – 2:30 PM, 5:30 – 10:00 PM / Saturday: 11:30 AM – 2:30 PM, 5:30 – 10:00 PM / Sunday: 11:30 AM – 2:30 PM, 5:30 – 10:00 PM",
     "last_verified": "2026-03-28",
@@ -10415,17 +10203,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kenshin-japanese-restaurant-kl",
     "name": "Kenshin Japanese Restaurant",
     "name_ja": "剣心 Japanese Restaurant",
     "area": "Desa Sri Hartamas",
-    "address": "Desa Sri Hartamas, Kuala Lumpur",
+    "address": "Desa Sri Hartamas, 50480 Kuala Lumpur",
     "phone": null,
     "website": null,
-    "description": "ハルタマスにある日本料理レストラン。天ぷら・寿司・焼き物・うどんを中心に提供。落ち着いた和の空間でゆっくり食事ができる。",
+    "description": "デサスリハルタマスにある日本料理レストラン。天ぷら・寿司・うどんなど定番の和食メニューをカジュアルな雰囲気で楽しめる地域密着型の和食処。",
     "tags": [
       "和食",
       "天ぷら",
@@ -10441,48 +10230,24 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kenshin-japanese-restaurant-kl-restaurant",
-    "name": "Kenshin Japanese Restaurant",
-    "name_ja": "剣心 Japanese Restaurant",
-    "area": "Bangsar South",
-    "address": "Bangsar South, 59200 Kuala Lumpur",
-    "phone": null,
-    "website": null,
-    "description": "バンサーサウスにある日本食レストラン。おまかせコースから手頃な定食まで幅広い価格帯を揃え、ビジネスランチ利用が多い和食処。",
-    "tags": [
-      "おまかせ",
-      "定食",
-      "ビジネスランチ"
-    ],
-    "hours": "11:30-14:30, 18:00-22:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kimagure-hartamas-japanese-bar-and-lounge",
     "name": "Kimagure (Hartamas) - Japanese Bar & Lounge",
     "name_ja": "気まぐれ",
     "area": "Kuala Lumpur",
-    "address": "30, Jalan 27/70a, Desa Sri Hartamas, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+    "address": "30, Jalan 27/70a, Desa Sri Hartamas, 50480 Kuala Lumpur",
     "lat": 3.1626,
     "lng": 101.6495,
     "phone": "+60362030663",
     "website": null,
-    "description": "デサスリハルタマスにある日本式バー＆ラウンジ。和食の一品料理と豊富なドリンクメニューを揃えた落ち着いた空間。月〜土19:00〜翌1:00まで営業（日曜定休）。",
+    "description": "デサスリハルタマスにある日本式バー＆ラウンジ。和食の一品料理と豊富なドリンクを揃えた落ち着いた空間。月〜土19:00〜翌1:00まで営業（日曜定休）。",
     "tags": [
       "バー",
-      "居酒屋"
+      "居酒屋",
+      "ノンハラル"
     ],
     "hours": "Monday: 7:00 PM – 1:00 AM / Tuesday: 7:00 PM – 1:00 AM / Wednesday: 7:00 PM – 1:00 AM / Thursday: 7:00 PM – 1:00 AM / Friday: 7:00 PM – 1:00 AM / Saturday: 7:00 PM – 1:00 AM / Sunday: Closed",
     "last_verified": "2026-03-28",
@@ -10496,22 +10261,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kimiya-the-exchange-trx",
     "name": "KIMIYA - The Exchange TRX",
     "name_ja": "きみや - The Exchange TRX",
     "area": "Kuala Lumpur",
-    "address": "C.42.0 & C.43.0, Concourse Level, The Exchange TRX, Persiaran TRX, Tun Razak Exchange, 55188 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+    "address": "C.42.0 & C.43.0, Concourse Level, The Exchange TRX, Persiaran TRX, 55188 Kuala Lumpur",
     "lat": 3.1424,
     "lng": 101.7168,
     "phone": "+601110733406",
     "website": "https://www.kimiya.my/",
-    "description": "The Exchange内の日本料理レストラン。新鮮な食材を使った和食メニューを幅広く提供。ランチ・ディナーともに利用できる。",
+    "description": "The Exchange TRX内の日本料理レストラン。なべ・刺身・寿司・そば・うどん・弁当と幅広く揃い、プライベートルームもあり。毎日10:00〜22:00営業。",
     "tags": [
       "日本食",
-      "レストラン"
+      "寿司",
+      "刺身",
+      "なべ"
     ],
     "hours": "Monday: 11:00 AM – 10:00 PM / Tuesday: 11:00 AM – 10:00 PM / Wednesday: 11:00 AM – 10:00 PM / Thursday: 11:00 AM – 10:00 PM / Friday: 11:00 AM – 10:00 PM / Saturday: 11:00 AM – 10:00 PM / Sunday: 11:00 AM – 10:00 PM",
     "last_verified": "2026-03-28",
@@ -10525,48 +10293,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kin-san-kichi-hartamas",
-    "name": "Kin San Kichi",
-    "name_ja": "金三吉",
-    "area": "Desa Sri Hartamas",
-    "address": "16, Jalan 27/70A, Desa Sri Hartamas, 50480 Kuala Lumpur",
-    "phone": "+60323003889",
-    "website": null,
-    "description": "Desa Sri Hartamasにあるカジュアル日本料理店。定食・丼・うどんなど手頃な和食メニューを提供。日本人在住者の普段使いの食堂。",
-    "tags": [
-      "定食",
-      "カジュアル",
-      "日本料理"
-    ],
-    "hours": "12:00-14:30, 18:00-22:15",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kin-san-kichi-japanese-restaurant",
     "name": "Kin San Kichi Japanese Restaurant",
     "name_ja": "金三吉 Japanese Restaurant",
     "area": "Kuala Lumpur",
-    "address": "16, Jalan 27/70a, Desa Sri Hartamas, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+    "address": "16, Jalan 27/70a, Desa Sri Hartamas, 50480 Kuala Lumpur",
     "lat": 3.1622,
     "lng": 101.6492,
     "phone": "+60323003889",
     "website": "https://m.facebook.com/pages/category/Japanese-Restaurant/Kin-San-Kichi-106654364325144/",
-    "description": "クアラルンプールにある日本料理レストラン。寿司・刺身・焼き物など多彩な和食メニューを提供。日本の味をマレーシアで楽しめる。",
+    "description": "デサスリハルタマスで長年営業する地元密着型日本料理店。大盛り刺身セットが格安で在住日本人の普段使いに定評がある。ランチ・ディナー営業。",
     "tags": [
-      "日本食",
-      "レストラン"
+      "定食",
+      "刺身",
+      "カジュアル",
+      "ノンハラル"
     ],
     "hours": "Monday: 12:00 – 2:30 PM, 6:00 – 9:30 PM / Tuesday: 12:00 – 2:30 PM, 6:00 – 9:30 PM / Wednesday: 12:00 – 2:30 PM, 6:00 – 9:30 PM / Thursday: 12:00 – 2:30 PM, 6:00 – 9:30 PM / Friday: 12:00 – 2:30 PM, 6:00 – 9:30 PM / Saturday: 12:00 – 2:30 PM, 6:00 – 9:30 PM / Sunday: 12:00 – 2:30 PM, 6:00 – 9:30 PM",
     "last_verified": "2026-03-28",
@@ -10580,22 +10325,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kindan-kl",
     "name": "Kindan KL",
     "name_ja": "禁断 KL",
     "area": "Kuala Lumpur",
-    "address": "42-1 & 42-2, Mercu Aspire, KL Eco City, 59200 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+    "address": "42-1 & 42-2, Level 42, Mercu Aspire, KL Eco City, 59200 Kuala Lumpur",
     "lat": 3.1183,
     "lng": 101.6738,
     "phone": "+60173118890",
     "website": "https://linktr.ee/kindan.kl",
-    "description": "KLエコシティ・メルクアスパイアにある日本式居酒屋。刺身・焼き鳥・揚げ物などの和食一品料理と日本酒・ビールを提供。月〜土12:00〜翌1:00まで営業。",
+    "description": "KLエコシティ・メルクアスパイア42階のルーフトップ日本フュージョン＆スカイバー。KL・KLCCの夜景を眺めながら和食創作料理とドリンクを楽しめる。",
     "tags": [
       "居酒屋",
-      "和食"
+      "バー",
+      "日本食",
+      "ルーフトップ"
     ],
     "hours": "Monday: 12:00 PM – 1:00 AM / Tuesday: 12:00 PM – 1:00 AM / Wednesday: 12:00 PM – 1:00 AM / Thursday: 12:00 PM – 1:00 AM / Friday: 12:00 PM – 1:00 AM / Saturday: 12:00 PM – 1:00 AM / Sunday: Closed",
     "last_verified": "2026-03-28",
@@ -10609,23 +10357,24 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kingkong-ramen-raja-uda",
     "name": "Kingkong Ramen Raja Uda",
     "name_ja": "キングコングラーメン",
     "area": "Penang",
-    "address": "12, Jalan Raja Uda, Kampung Baharu, 12300 Butterworth, Pulau Pinang, Malaysia",
+    "address": "12 & 12A, Jalan Raja Uda, Pusat Perniagaan Raja Uda, 12300 Butterworth, Penang",
     "lat": 5.4151,
     "lng": 100.3795,
     "phone": "+60103042500",
     "website": null,
-    "description": "ペナンにある中国式海南チキンライス専門店。マレーシア名物の海南チキンライスをペナンのGeorge Townエリアで楽しめる専門店。",
+    "description": "ペナン・バタワースにある日本式ラーメン専門店。創業者が日本の300軒超を食べ歩いた末に開いた豚骨ラーメン店。XXLラーメンなど豊富なバリエーション。",
     "tags": [
-      "日本食",
       "ラーメン",
-      "レストラン"
+      "豚骨",
+      "日本食"
     ],
     "hours": "Monday: 11:30 AM – 10:00 PM / Tuesday: 11:30 AM – 10:00 PM / Wednesday: 11:30 AM – 10:00 PM / Thursday: 11:30 AM – 10:00 PM / Friday: 11:30 AM – 10:00 PM / Saturday: 11:30 AM – 10:00 PM / Sunday: 11:30 AM – 10:00 PM",
     "last_verified": "2026-03-28",
@@ -10639,22 +10388,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kingu-kongu",
     "name": "Kingu Kongu",
     "name_ja": "キングコング",
     "area": "Kuala Lumpur",
-    "address": "5&7, Jalan Yap Ah Shak, Chow Kit, 50300 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+    "address": "5&7, Jalan Yap Ah Shak, Chow Kit, 50300 Kuala Lumpur",
     "lat": 3.1579,
     "lng": 101.7009,
-    "phone": "+60128276648",
+    "phone": "+60128716545",
     "website": "https://www.instagram.com/kingukongu.my/",
-    "description": "クアラルンプールにある日本食レストラン。本格的な和食メニューを揃え、在住日本人にも親しまれている利便性の高い日本料理店。",
+    "description": "チョウキットにあるハラル対応の日本式居酒屋スタイルレストラン。ポーク・アルコールなしで、焼き鳥・マキ・丼をカジュアルに楽しめる。ムスリムにも対応。",
     "tags": [
       "日本食",
-      "レストラン"
+      "ハラル",
+      "ヤキトリ",
+      "丼"
     ],
     "hours": "Monday: 12:00 – 3:00 PM, 5:00 – 10:00 PM / Tuesday: 12:00 – 3:00 PM, 5:00 – 10:00 PM / Wednesday: 12:00 – 3:00 PM, 5:00 – 10:00 PM / Thursday: 12:00 – 3:00 PM, 5:00 – 10:00 PM / Friday: 12:00 – 3:00 PM, 5:00 – 10:00 PM / Saturday: 12:00 – 10:00 PM / Sunday: 12:00 – 10:00 PM",
     "last_verified": "2026-03-28",
@@ -10668,7 +10420,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kingyu-hartamas",
@@ -10678,12 +10431,12 @@
     "address": "1st Floor, No. 8, Jalan 24/70A, Desa Sri Hartamas, 50480 Kuala Lumpur",
     "phone": "+60362063515",
     "website": "https://kingyumy.com/",
-    "description": "東京・日本橋出身のオーナーが営むハルタマスの和牛専門店。和牛すき焼き・しゃぶしゃぶを中心に、金の牛頭が目印の本格和食レストラン。",
+    "description": "日本橋出身の日本人オーナーが営む、ハルタマスの和牛専門レストラン。ハラル認定の宮崎・徳島和牛を使ったすき焼き・しゃぶしゃぶを個室で提供。",
     "tags": [
       "和牛",
       "すき焼き",
       "しゃぶしゃぶ",
-      "専門店"
+      "ハラル"
     ],
     "hours": "月〜金: 17:00-23:00 / 土日: 12:00-15:00, 17:00-23:00",
     "status": "unverified",
@@ -10695,23 +10448,24 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kinnokura-izakaya-japanese-restaurant",
     "name": "Kinnokura Izakaya Japanese Restaurant 金の藏居酒屋",
     "name_ja": "金の藏居酒屋",
     "area": "Johor Bahru",
-    "address": "85, Jalan Harimau Tarum, Taman Century, 80250 Johor Bahru, Johor Darul Ta'zim, Malaysia",
+    "address": "85, Jalan Harimau Tarum, Taman Century, 80250 Johor Bahru, Johor",
     "lat": 1.4844,
     "lng": 103.7652,
     "phone": "+60127198599",
     "website": null,
-    "description": "ジョホールバルにある中国式広東料理・飲茶レストラン。点心・飲茶・海鮮料理をJBのCity Squareエリアで楽しめる中国料理店。",
+    "description": "ジョホールバル・タマンセンチュリーにある家族経営の日本式居酒屋。夫婦で切り盛りする隠れ家的な本格和食店で、カレーチーズビビンバなど独創的メニューも。",
     "tags": [
-      "日本食",
-      "居酒屋料理",
-      "レストラン"
+      "居酒屋",
+      "和食",
+      "ノンハラル"
     ],
     "hours": "Monday: 11:00 AM – 2:30 PM, 6:00 – 9:30 PM / Tuesday: 11:00 AM – 2:30 PM, 6:00 – 9:30 PM / Wednesday: 11:00 AM – 2:30 PM, 6:00 – 9:30 PM / Thursday: 11:00 AM – 2:30 PM, 6:00 – 9:30 PM / Friday: Closed / Saturday: 11:00 AM – 2:30 PM, 6:00 – 9:30 PM / Sunday: 11:00 AM – 2:30 PM, 6:00 – 9:30 PM",
     "last_verified": "2026-03-28",
@@ -10725,22 +10479,26 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kinsahi",
     "name": "Kinsahi",
     "name_ja": "金沙日",
     "area": "Johor Bahru",
-    "address": "Lot S115, 2nd floor, Aeon Tebrau City Shopping Centre, Center, Taman Desa Tebrau, 81100 Johor Bahru, Johor Darul Ta'zim, Malaysia",
+    "address": "Lot S115, 2nd Floor, AEON Tebrau City Shopping Centre, Taman Desa Tebrau, 81100 Johor Bahru",
     "lat": 1.5497,
     "lng": 103.7964,
-    "phone": "+6073581388",
+    "phone": "+60735813880",
     "website": "http://www.kinsahi.my/",
-    "description": "ジョホールバルにある日本式焼き鳥・居酒屋「鳥よし」。厳選した鶏肉の焼き鳥とおつまみをJBのCity Squareエリアでカジュアルに楽しめる。",
+    "description": "ジョホールバルに複数店舗を持つ本格日本料理チェーン（2002年創業）。刺身・寿司・丼・定食など多彩な和食メニューをモールで手頃に楽しめる。",
     "tags": [
       "日本食",
-      "レストラン"
+      "寿司",
+      "刺身",
+      "定食",
+      "チェーン"
     ],
     "hours": "Monday: 10:30 AM – 10:00 PM / Tuesday: 10:30 AM – 10:00 PM / Wednesday: 10:30 AM – 10:00 PM / Thursday: 10:30 AM – 10:00 PM / Friday: 10:30 AM – 10:00 PM / Saturday: 10:30 AM – 10:00 PM / Sunday: 10:30 AM – 10:00 PM",
     "last_verified": "2026-03-28",
@@ -10754,17 +10512,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kinsahi-japanese-jb",
     "name": "Kinsahi Japanese Restaurant",
     "name_ja": "金沙日 Japanese Restaurant",
     "area": "Johor Bahru",
-    "address": "No. 7, Jalan Austin Heights 8/8, Taman Mount Austin, 81100 Johor Bahru, Johor",
+    "address": "No. 7, Jalan Austin Heights 8/8, Taman Mount Austin, 81100 Johor Bahru",
     "phone": null,
     "website": null,
-    "description": "ジョホール州内に3店舗を展開する日本食レストランのマウントオースティン店。刺身の品質に定評があり、在住日本人にも利用される。",
+    "description": "ジョホールバル・マウントオースティンにある金沙日（Kinsahi）の日本料理店。刺身の品質に定評があり、在住日本人にも利用される本格和食レストラン。",
     "tags": [
       "日本料理",
       "刺身",
@@ -10780,22 +10539,24 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kinsahi-japanese-restaurant",
     "name": "Kinsahi Japanese Restaurant",
     "name_ja": "金沙日 Japanese Restaurant",
     "area": "Johor Bahru",
-    "address": "Level 2, KOMTAR JBCC, Jalan Wong Ah Fook, Bandar Johor Bahru, 80000 Johor Bahru, Johor Darul Ta'zim, Malaysia",
+    "address": "Level 2, KOMTAR JBCC, Jalan Wong Ah Fook, Bandar Johor Bahru, 80000 Johor Bahru",
     "lat": 1.4641,
     "lng": 103.7624,
     "phone": "+60197343836",
     "website": null,
-    "description": "ジョホールバルにある日本料理レストラン「Sushi King」。回転寿司スタイルの手頃な価格の寿司・和食をJBのモールで楽しめる日本系チェーン。",
+    "description": "ジョホールバルのKOMTAR JBCCにある金沙日（Kinsahi）の日本料理店。刺身・寿司・丼・定食など幅広い和食メニューをモール内でカジュアルに楽しめる。",
     "tags": [
       "日本食",
-      "レストラン"
+      "寿司",
+      "刺身"
     ],
     "hours": "Monday: 10:00 AM – 10:00 PM / Tuesday: 10:00 AM – 10:00 PM / Wednesday: 10:00 AM – 10:00 PM / Thursday: 10:00 AM – 10:00 PM / Friday: 10:00 AM – 10:00 PM / Saturday: 10:00 AM – 10:00 PM / Sunday: 10:00 AM – 10:00 PM",
     "last_verified": "2026-03-28",
@@ -10809,22 +10570,24 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kinsahi-japanese-restaurant-2",
     "name": "Kinsahi Japanese Restaurant",
     "name_ja": "金沙日 Japanese Restaurant",
     "area": "Johor Bahru",
-    "address": "Lot 3F-18, 3rd Floor, Paradigm Mall Johor Bahru, Skudai Hwy, Taman Bukit Mewah, 81200 Johor Bahru, Johor, Malaysia",
+    "address": "Lot 3F-18, 3rd Floor, Paradigm Mall Johor Bahru, Skudai Hwy, Taman Bukit Mewah, 81200 Johor Bahru",
     "lat": 1.5156,
     "lng": 103.6855,
-    "phone": "+6072663775",
+    "phone": "+60726633775",
     "website": null,
-    "description": "ジョホールバルにある中国式海鮮レストラン「New Formosa」。新鮮な海鮮を使った台湾・福建風料理をJBのCity Squareエリアで楽しめる。",
+    "description": "ジョホールバル・パラダイムモール内にある金沙日（Kinsahi）の日本料理店。定番の刺身・寿司・定食メニューをモールでカジュアルに楽しめる。",
     "tags": [
       "日本食",
-      "レストラン"
+      "寿司",
+      "刺身"
     ],
     "hours": "Monday: 11:00 AM – 10:00 PM / Tuesday: 11:00 AM – 10:00 PM / Wednesday: 11:00 AM – 10:00 PM / Thursday: 11:00 AM – 10:00 PM / Friday: 11:00 AM – 10:00 PM / Saturday: 11:00 AM – 10:00 PM / Sunday: 11:00 AM – 10:00 PM",
     "last_verified": "2026-03-28",
@@ -10838,22 +10601,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kinsahi-japanese-restaurant-aeon-bukit-indah",
     "name": "Kinsahi Japanese Restaurant Aeon Bukit Indah",
     "name_ja": "金沙日 Japanese Restaurant Aeon Bukit Indah",
     "area": "Johor Bahru",
-    "address": "Lot F09, Aeon Bukit Indah Shopping Centre, 8, Jalan Indah 15/2, Taman Bukit Indah, 81200 Johor Bahru, Johor Darul Ta'zim, Malaysia",
+    "address": "Lot F09, AEON Bukit Indah Shopping Centre, 8, Jalan Indah 15/2, Taman Bukit Indah, 81200 Johor Bahru",
     "lat": 1.4822,
     "lng": 103.6561,
     "phone": "+60197514793",
     "website": "http://kinsahi.my/",
-    "description": "ジョホールバルにある日本式ラーメン専門店「麺屋はじめ」。各種スープの本格ラーメンをJBのCity Squareエリアでカジュアルに楽しめる。",
+    "description": "ジョホールバル・AEONブキインダにある金沙日（Kinsahi）の日本料理店。改装リニューアルで雰囲気が大幅向上。丼・ちらし・定食などが揃う。",
     "tags": [
       "日本食",
-      "レストラン"
+      "寿司",
+      "定食",
+      "チェーン"
     ],
     "hours": "Monday: 10:30 AM – 9:30 PM / Tuesday: 10:30 AM – 9:30 PM / Wednesday: 10:30 AM – 9:30 PM / Thursday: 10:30 AM – 9:30 PM / Friday: 10:30 AM – 10:00 PM / Saturday: 10:30 AM – 10:00 PM / Sunday: 10:30 AM – 9:30 PM",
     "last_verified": "2026-03-28",
@@ -10867,22 +10633,24 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kinsahi-japanese-restaurant-ksl-mall",
     "name": "Kinsahi Japanese Restaurant KSL Mall",
     "name_ja": "金沙日 Japanese Restaurant KSL Mall",
     "area": "Johor Bahru",
-    "address": "Malaysia, Johor Darul Ta'zim, Johor Bahru, Taman Abad, Jalan Seladang, Lot L1-099, Level 1邮政编码: 80250",
+    "address": "Lot L1-099, Level 1, KSL City Mall, Jalan Seladang, Taman Abad, 80250 Johor Bahru",
     "lat": 1.4858,
     "lng": 103.7624,
     "phone": "+60182260077",
     "website": "http://bnx.my/",
-    "description": "ジョホールバルにある日本料理レストラン「和彩」。定食・鍋料理・刺身など幅広い和食メニューをJBのCity Squareエリアで楽しめる。",
+    "description": "ジョホールバル・KSLシティモール内にある金沙日（Kinsahi）の日本料理店。刺身・寿司・定食など多彩な和食をモールでカジュアルに楽しめる。",
     "tags": [
       "日本食",
-      "レストラン"
+      "寿司",
+      "刺身"
     ],
     "hours": "Monday: 11:00 AM – 10:00 PM / Tuesday: 11:00 AM – 10:00 PM / Wednesday: 11:00 AM – 10:00 PM / Thursday: 11:00 AM – 10:00 PM / Friday: 11:00 AM – 10:00 PM / Saturday: 11:00 AM – 10:00 PM / Sunday: 11:00 AM – 10:00 PM",
     "last_verified": "2026-03-28",
@@ -10896,22 +10664,25 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kinsahi-mid-valley-southkey",
     "name": "Kinsahi @ Mid Valley Southkey",
     "name_ja": "金沙日 @ Mid Valley Southkey",
     "area": "Johor Bahru",
-    "address": "T-054 Level 3, No. 1, The Mall, Mid Valley Southkey, Persiaran Southkey 1, Kota Southkey, 80150 Johor Bahru, Johor, Malaysia",
+    "address": "T-054, Level 3, Mid Valley Southkey, Persiaran Southkey 1, Kota Southkey, 80150 Johor Bahru",
     "lat": 1.501,
     "lng": 103.7774,
-    "phone": "+6072783483",
+    "phone": "+60727834830",
     "website": "http://www.bnx.my/kinsahi",
-    "description": "ジョホールバルにある本格日本料理レストラン「Ozeki」。寿司・刺身・鉄板焼きなどの和食をJBのCity Squareエリアでゆっくり楽しめる。",
+    "description": "ジョホールバル・ミッドバレーサウスキー内にある金沙日（Kinsahi）の日本料理店。BNX系列の本格和食チェーン。寿司・刺身・鉄板焼きなどが揃う。",
     "tags": [
       "日本食",
-      "レストラン"
+      "寿司",
+      "刺身",
+      "チェーン"
     ],
     "hours": "Monday: 11:30 AM – 10:00 PM / Tuesday: 11:30 AM – 10:00 PM / Wednesday: 11:30 AM – 10:00 PM / Thursday: 11:30 AM – 10:00 PM / Friday: 11:30 AM – 10:00 PM / Saturday: 11:30 AM – 10:00 PM / Sunday: 11:30 AM – 10:00 PM",
     "last_verified": "2026-03-28",
@@ -10925,36 +10696,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kinsly",
-    "name": "Kinsly",
-    "name_ja": "キンスリー",
-    "area": "Kota Kinabalu",
-    "address": "No. 24, Ground Floor, Phase 1, Block C, Damai Plaza, Luyang Commercial Centre, 88300 Kota Kinabalu, Sabah, Malaysia",
-    "lat": 5.96,
-    "lng": 116.0882,
-    "phone": "+60128293989",
-    "website": "https://www.instagram.com/_kinsly.kk/",
-    "description": "コタキナバルにある日本式居酒屋「Kinsly」。定番の居酒屋メニューと多彩なドリンクを揃え、カジュアルな雰囲気で飲食できる。",
-    "tags": [
-      "居酒屋",
-      "和食"
-    ],
-    "hours": "Monday: 11:30 AM – 3:00 PM, 4:30 – 10:00 PM / Tuesday: 11:30 AM – 3:00 PM, 4:30 – 10:00 PM / Wednesday: 11:30 AM – 3:00 PM, 4:30 – 10:00 PM / Thursday: 11:30 AM – 3:00 PM, 4:30 – 10:00 PM / Friday: 11:30 AM – 3:00 PM, 4:30 – 10:00 PM / Saturday: 11:30 AM – 3:00 PM, 4:30 – 10:00 PM / Sunday: 11:30 AM – 3:00 PM, 4:30 – 10:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJPz9sgfdpOzIRX_59rxvo8rU",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kintaro-japanese-izakaya-and-sake-bar",
