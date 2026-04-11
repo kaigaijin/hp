@@ -102,6 +102,12 @@ export default function Header() {
             </div>
           </div>
           <Link
+            href="/overseas/column"
+            className="hover:text-warm-500 dark:hover:text-warm-400 transition-colors"
+          >
+            🌏 海外生活
+          </Link>
+          <Link
             href="/return"
             className="hover:text-warm-500 dark:hover:text-warm-400 transition-colors"
           >
@@ -186,11 +192,19 @@ export default function Header() {
                 </div>
               );
             })}
+            {/* 海外生活共通 */}
+            <Link
+              href="/overseas/column"
+              onClick={() => setOpen(false)}
+              className="py-2 mt-2 text-stone-600 dark:text-stone-400 font-semibold"
+            >
+              🌏 海外生活
+            </Link>
             {/* 帰国準備（日本） */}
             <Link
               href="/return"
               onClick={() => setOpen(false)}
-              className="py-2 mt-2 text-warm-600 dark:text-warm-400 font-semibold"
+              className="py-2 text-warm-600 dark:text-warm-400 font-semibold"
             >
               🇯🇵 帰国準備
             </Link>
