@@ -9371,122 +9371,6 @@
     "place_reviewed": true
   },
   {
-    "slug": "tonkatsu-mapo-2",
-    "name": "麻浦 かつ料理",
-    "name_ja": "麻浦 かつ料理",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Mapo",
-    "address": "서울 마포구 공덕동 서울",
-    "lat": 37.5428,
-    "lng": 126.9514,
-    "phone": "",
-    "website": "",
-    "description": "麻浦・孔德エリアのかつ料理専門店。とんかつ・チキンカツ・エビフライなど各種かつ料理を揃え、定食スタイルで提供。キャベツの千切り・みそ汁・ご飯が付いた日本式の定食スタイルを守り、本格的なかつ定食を手頃な価格で楽しめる。地元サラリーマンに大人気。",
-    "price_range": "₩₩",
-    "hours": "11:00-21:00",
-    "closed_days": "日曜",
-    "languages": [
-      "ja",
-      "ko"
-    ],
-    "tags": [
-      "とんかつ",
-      "かつ料理",
-      "麻浦",
-      "日本語対応"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "tonkotsu-gangnam",
-    "name": "江南 とんこつ専門店",
-    "name_ja": "江南 とんこつ専門店",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Gangnam",
-    "address": "서울 강남구 논현동 서울",
-    "lat": 37.5119,
-    "lng": 127.0279,
-    "phone": "",
-    "website": "",
-    "description": "江南エリアの博多とんこつラーメン専門店。24時間以上煮込んだ濃厚な豚骨スープが特徴で、クリーミーな白濁スープとストレート細麺が絶妙にマッチする。細麺かた・かため・ふつうと麺の硬さを選べるなど本場スタイルに忠実。日本語スタッフ在籍。",
-    "price_range": "₩₩",
-    "hours": "11:00-22:00",
-    "closed_days": "月曜",
-    "languages": [
-      "ja",
-      "ko"
-    ],
-    "tags": [
-      "とんこつ",
-      "ラーメン",
-      "江南",
-      "日本語対応",
-      "博多"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "tonkotsu-ramen-itaewon",
-    "name": "梨泰院 とんこつラーメン",
-    "name_ja": "梨泰院 とんこつラーメン",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Itaewon",
-    "address": "서울 용산구 이태원동 서울",
-    "lat": 37.535,
-    "lng": 126.9938,
-    "phone": "",
-    "website": "",
-    "description": "梨泰院エリアの本格博多とんこつラーメン専門店。毎朝長時間煮込んだ豚骨スープとストレート細麺が特徴で、黒マー油や白髪ネギのトッピングも充実。日本から博多で修行したオーナーが作る本場の味は外国人にも高評価。英語・日本語メニューあり。",
-    "price_range": "₩₩",
-    "hours": "11:00-22:00",
-    "closed_days": "月曜",
-    "languages": [
-      "ja",
-      "ko",
-      "en"
-    ],
-    "tags": [
-      "とんこつラーメン",
-      "梨泰院",
-      "日本語対応",
-      "博多"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
     "slug": "tonshou-gwangan-busan",
     "name": "Tonshou Gwangan",
     "name_ja": "とん匠 広安店",
@@ -9494,7 +9378,7 @@
     "address": "13 Gwanganhaebyeon-ro 279beon-gil, Suyeong-gu, Busan",
     "phone": null,
     "website": null,
-    "description": "釜山・広安里の人気とんかつ店「とん匠 広安店」。民楽水辺公園近くに位置し、2時間以上の待ち時間が発生することもある人気店。",
+    "description": "釜山・広安里の人気とんかつ専門店「とん匠 広安店」。民楽水辺公園近くに位置し、2時間以上の待ち時間が出ることもある行列店。サクサクの衣と厚切りの豚ロースが評判で、釜山在住の日本人にも定番の一軒。",
     "tags": [
       "とんかつ"
     ],
@@ -9508,7 +9392,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "toriaezu-jamsil",
@@ -9518,7 +9403,7 @@
     "address": "1F, 185-11 Jamsil-dong, Songpa-gu, Seoul",
     "phone": "+82224160917",
     "website": null,
-    "description": "本格的な焼き鳥とねぎまを提供する人気の焼き鳥居酒屋チェーン。蚕室エリアにある店舗で、日本式の焼き鳥を炭火で丁寧に焼き上げる。",
+    "description": "蚕室にある日本式焼き鳥居酒屋チェーン「とりあえず」。炭火で丁寧に焼き上げたねぎまや砂肝が評判で、蚕室ロッテワールド周辺の在韓日本人が気軽に立ち寄れるカジュアルな居酒屋。",
     "tags": [
       "焼き鳥",
       "居酒屋",
@@ -9534,17 +9419,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "toriaezu-mapo-detail",
-    "name": "토리아에즈 마포",
+    "name": "Toriaezu Mapo",
     "name_ja": "とりあえず 麻浦",
     "area": "麻浦",
     "address": "Mapo-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "麻浦区にある日本式居酒屋。気軽に「とりあえず一杯」と立ち寄れるカジュアルな雰囲気が特徴で、弘大エリアの在韓日本人コミュニティのたまり場的な存在。日本の居酒屋メニューが揃い、リーズナブルな価格設定も人気の理由。",
+    "description": "麻浦区にある日本式居酒屋「とりあえず 麻浦店」。弘大エリアの在韓日本人に人気のカジュアルな一軒。日本の居酒屋メニューをリーズナブルな価格で楽しめ、仕事帰りの一杯に立ち寄りやすい雰囲気。",
     "tags": [
       "居酒屋",
       "カジュアル",
@@ -9560,7 +9446,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "torikichi-yakitori",
@@ -9572,7 +9459,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "江南エリアにある日本式焼き鳥居酒屋「鳥吉」。日本伝統の屋号を持ち、備長炭で焼く本格的な焼き鳥と日本酒・ハイボールを提供する。",
+    "description": "江南エリアにある日本式焼き鳥居酒屋「鳥吉（とりきち）」。備長炭で焼く本格焼き鳥と豊富な日本酒・ハイボールが揃い、仕事帰りの在韓日本人が集まる定番の一軒。",
     "tags": [
       "居酒屋",
       "焼き鳥",
@@ -9592,33 +9479,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "torikichi-yakitori-detail",
-    "name": "토리키치",
-    "name_ja": "鳥吉",
-    "area": "ソウル",
-    "address": "Seoul",
-    "phone": null,
-    "website": null,
-    "description": "「鳥」を名前に持つ本格焼き鳥専門居酒屋。鳥吉（とりきち）の名前の通り、鶏料理に特化した幅広いメニューが揃う。在韓日本人の口コミで広まり、焼き鳥好きにとってのソウルの定番一軒として定着している。",
-    "tags": [
-      "焼き鳥",
-      "居酒屋",
-      "鶏料理"
-    ],
-    "hours": "18:00〜24:00",
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "torisho-busan-haeundae",
@@ -9628,7 +9490,7 @@
     "address": "Busan",
     "phone": null,
     "website": null,
-    "description": "釜山にあるとんかつ専門店。リーズナブルな価格設定で地元でも人気のとんかつ店で、TripAdvisorでも評価される。釜山在住の日本人がランチに気軽に利用できる庶民的な雰囲気が魅力。",
+    "description": "釜山にある人気のとんかつ専門店。リーズナブルな価格とボリュームある定食スタイルで地元にも人気。釜山在住の日本人がランチに気軽に利用できる庶民的な雰囲気が魅力。",
     "tags": [
       "とんかつ",
       "リーズナブル",
@@ -9644,7 +9506,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tsuruha-fuwol-myeongdong",
@@ -9654,7 +9517,7 @@
     "address": "Myeongdong, Jung-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "大阪発のお好み焼き・鉄板焼きチェーン「鶴橋風月」明洞店。明洞の中心部で大阪風お好み焼きと焼きそばを楽しめる日本チェーン。",
+    "description": "明洞に位置する大阪発のお好み焼き・鉄板焼きチェーン「鶴橋風月」。大阪風お好み焼きと焼きそばを楽しめる日本チェーン店で、明洞観光の合間に立ち寄れる利便性の高さが魅力。",
     "tags": [
       "お好み焼き",
       "鉄板焼き",
@@ -9670,45 +9533,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "tteokboki-japanese-style",
-    "name": "日本式トッポッキ",
-    "name_ja": "日本式トッポッキ",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Hongdae",
-    "address": "서울 마포구 홍대 서울",
-    "lat": 37.5535,
-    "lng": 126.923,
-    "phone": "",
-    "website": "",
-    "description": "弘大エリアにある韓国の国民食・トッポッキをアレンジした日本式トッポッキ専門店。韓国の辛いコチュジャンソースを使いつつ、日本人の口に合わせたマイルドバージョンも提供。トッポッキを主役に据えた創作メニューは韓国人にも日本人にも好評で、SNSでも話題になっている。",
-    "price_range": "₩₩",
-    "hours": "11:00-22:00",
-    "closed_days": "月曜",
-    "languages": [
-      "ja",
-      "ko"
-    ],
-    "tags": [
-      "トッポッキ",
-      "弘大",
-      "アレンジ",
-      "日本語対応"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tum-sae-ramen-myeongdong",
@@ -9718,7 +9544,7 @@
     "address": "Myeongdong, Jung-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "明洞にある日本式ラーメン店「トゥムセラーメン」。日本人観光客からも高評価を受ける本格的な日本式ラーメンを明洞で楽しめる。",
+    "description": "明洞にある日本式ラーメン店「トゥムセラーメン（틈새라면 명동）」。日本人観光客からも高評価を受ける本格的なラーメンを明洞で楽しめる。観光の途中に気軽に立ち寄れるロケーション。",
     "tags": [
       "ラーメン",
       "明洞",
@@ -9734,7 +9560,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "uchujin-ramen-euljiro",
@@ -9744,7 +9571,7 @@
     "address": "157 Euljiro, Daelim Sangga 3F, Ra-357, Jung-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "乙支路・大林商街内の担担麺専門店「宇宙人」。ナッティーなゴマとチリオイルベースの辛い担担麺が看板メニューの日本式店の日本式専門店。",
+    "description": "乙支路・大林商街内にある担担麺専門店「宇宙人（우주인）」。ゴマとチリオイルベースの辛い担担麺が看板メニューで、韓国人にも在韓日本人にも人気の隠れ家的ラーメン店。",
     "tags": [
       "ラーメン",
       "担担麺"
@@ -9759,45 +9586,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "udon-bangbae",
-    "name": "方背 うどん",
-    "name_ja": "方背 うどん",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Bangbae",
-    "address": "서울 서초구 방배동 서울",
-    "lat": 37.4814,
-    "lng": 126.9989,
-    "phone": "",
-    "website": "",
-    "description": "方背洞の住宅エリアにあるうどん専門店。きつねうどん・かけうどん・月見うどんなどシンプルなスタイルのうどんが揃い、体に優しいだしで作るつゆが評判。地域に住む日本人ファミリーが気軽に通える手頃な価格と親しみやすい雰囲気が魅力。",
-    "price_range": "₩₩",
-    "hours": "11:00-20:00",
-    "closed_days": "日曜",
-    "languages": [
-      "ja",
-      "ko"
-    ],
-    "tags": [
-      "うどん",
-      "方背洞",
-      "日本語対応",
-      "ファミリー"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "udon-caden-mapo",
@@ -9807,7 +9597,7 @@
     "address": "Mapo-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "麻浦区にある本格うどん店。TripAdvisorで高評価を獲得。手打ちのコシのある麺と丁寧に取った出汁が特徴。カレーうどんも人気メニュー。",
+    "description": "麻浦区にある本格うどん専門店「花伝（카덴）」。手打ちのコシある麺と丁寧に取った出汁が特徴で、TripAdvisorでも高評価。カレーうどんも人気メニューで、日本人リピーターが多い。",
     "tags": [
       "うどん",
       "手打ち",
@@ -9823,44 +9613,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "udon-jongno-2",
-    "name": "鍾路 うどん専門店",
-    "name_ja": "鍾路 うどん専門店",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Jongno",
-    "address": "서울 종로구 종로2가 서울",
-    "lat": 37.5703,
-    "lng": 126.983,
-    "phone": "",
-    "website": "",
-    "description": "鍾路2가のうどん専門店。観光地・仁寺洞にも近いロケーションで、観光のついでにランチに訪れる日本人も多い。昆布・かつおの合わせだしで作るつゆと讃岐スタイルのコシのある麺が評判。天ぷらうどん・きつねうどん・月見うどんなど定番メニューが揃う。",
-    "price_range": "₩₩",
-    "hours": "11:00-21:00",
-    "closed_days": "日曜",
-    "languages": [
-      "ja",
-      "ko"
-    ],
-    "tags": [
-      "うどん",
-      "鍾路",
-      "日本語対応"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "udon-kaden-hongdae",
@@ -9870,7 +9624,7 @@
     "address": "2-1 Yanghwa-ro 7an-gil, Mapo-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "弘大の超人気うどん専門店。ミシュランガイドにも掲載されたことがあり、本格的なコシのあるうどんが評判。麺のおかわりサービスもあり食べ応えは十分。日本人客も多く、日本語でのオーダーも通じやすい環境。",
+    "description": "弘大にある超人気うどん専門店「UDON花伝（우동 카덴）」。ミシュランガイドにも掲載された実績を持つ本格うどん店で、コシのある麺と丁寧なだしスープが評判。麺のおかわりサービスもあり。",
     "tags": [
       "うどん",
       "ミシュラン掲載",
@@ -9886,7 +9640,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "udon-kinoya-sinlim",
@@ -9896,7 +9651,7 @@
     "address": "Sinlim-dong, Gwanak-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "新林エリアのうどん専門店「うどんキノヤ」。穴子天ぷらぶっかけうどんがシグニチャーメニューで、大きな穴子天ぷらが名物の日本式専門店。",
+    "description": "新林エリアにあるうどん専門店「うどんキノヤ」。穴子天ぷらぶっかけうどんがシグニチャーメニューで、大きな穴子天ぷらが名物。コシある麺と揚げたての天ぷらの組み合わせが在韓日本人に評判。",
     "tags": [
       "うどん",
       "天ぷら",
@@ -9912,7 +9667,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "udon-kinoya-yongsan",
@@ -9922,7 +9678,7 @@
     "address": "18-13 Hangang-daero 7-gil, Yongsan-gu, Seoul, 1F",
     "phone": null,
     "website": null,
-    "description": "新龍山の日本式うどん・とんかつ店「うどんきのや 新龍山本店」。大盛りのうどんとサクサクのとんかつが人気のうどんきのや本店。",
+    "description": "新龍山にある日本式うどん・とんかつ店「うどんきのや 新龍山本店」。大盛りのうどんとサクサクのとんかつが人気の本店。龍山エリアの在韓日本人ビジネスパーソンのランチに定番の一軒。",
     "tags": [
       "うどん",
       "とんかつ"
@@ -9937,7 +9693,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "udon-myeongga-kiriyama-gangnam",
@@ -9947,7 +9704,7 @@
     "address": "Gangnam-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "江南エリアの日本式うどん・カレー店「うどん名家 桐山」。品質の高い麺と深いカレーの味わいが特徴で土鍋で提供する日本式専門店。",
+    "description": "江南エリアにある日本式うどん・カレー店「うどん名家 桐山（우동명가 기리야마）」。品質の高い麺と深い味わいのカレーを土鍋で提供するスタイルが特徴。江南で本格うどんが楽しめる人気店。",
     "tags": [
       "うどん",
       "カレーうどん"
@@ -9962,117 +9719,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "udon-restaurant-hapjeong",
-    "name": "合井 うどん",
-    "name_ja": "合井 うどん",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Hapjeong",
-    "address": "서울 마포구 합정동 서울",
-    "lat": 37.5501,
-    "lng": 126.9143,
-    "phone": "",
-    "website": "",
-    "description": "合井エリアのうどん専門店。讃岐うどんスタイルのコシある麺とだしの効いたつゆの組み合わせが評判。ぶっかけ・ざる・温かけうどんの3つの食べ方から選べ、天ぷらのトッピングも充実。ランチタイムのお得なセットメニューがあり、近隣のビジネスパーソンに人気。",
-    "price_range": "₩₩",
-    "hours": "11:00-21:00",
-    "closed_days": "月曜",
-    "languages": [
-      "ko"
-    ],
-    "tags": [
-      "うどん",
-      "合井",
-      "讃岐"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "udon-restaurant-seongsu",
-    "name": "聖水 うどん",
-    "name_ja": "聖水 うどん",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Seongsu",
-    "address": "서울 성동구 성수동 서울",
-    "lat": 37.5443,
-    "lng": 127.0561,
-    "phone": "",
-    "website": "",
-    "description": "聖水洞の人気エリアにあるうどん専門店。讃岐うどん系のコシある麺と、昆布・かつおのW出汁を使ったつゆの組み合わせが評判。温かいかけうどん・冷たいざるうどんに加え、かき揚げ・天ぷらの単品も充実。スタイリッシュな聖水のエリアに馴染んだセンスある店構え。",
-    "price_range": "₩₩",
-    "hours": "11:00-21:00",
-    "closed_days": "月曜",
-    "languages": [
-      "ko"
-    ],
-    "tags": [
-      "うどん",
-      "聖水",
-      "讃岐"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "udon-seomyeon-busan",
-    "name": "釜山西面 うどん",
-    "name_ja": "釜山西面 うどん",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Busan",
-    "area": "Seomyeon",
-    "address": "부산 부산진구 서면 부산",
-    "lat": 35.1556,
-    "lng": 129.059,
-    "phone": "",
-    "website": "",
-    "description": "釜山・西面の繁華街にある讃岐うどん専門店。コシのあるうどんと関西風の薄いだしつゆの組み合わせが絶品と釜山の日本人コミュニティで評判。熱々のかけうどんから冷たいざるうどんまで揃え、天ぷらのトッピングも充実している。",
-    "price_range": "₩₩",
-    "hours": "11:00-21:00",
-    "closed_days": "月曜",
-    "languages": [
-      "ja",
-      "ko"
-    ],
-    "tags": [
-      "うどん",
-      "釜山",
-      "西面",
-      "日本語対応"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ultra-men",
@@ -10082,7 +9730,7 @@
     "address": "166-2 Nonhyeon-dong, Gangnam-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "幼少期を日本で過ごした店主が開いた豚骨ラーメン専門店。在韓日本人も通う本格派で、江南エリアのラーメン店として高評価を得ている。",
+    "description": "幼少期を日本で過ごした店主が開いた豚骨ラーメン専門店「울트라멘」。論峴洞エリアにあり、在韓日本人も通う本格派。濃厚な豚骨スープと自家製チャーシューが評判の江南エリアの名店。",
     "tags": [
       "ラーメン",
       "豚骨"
@@ -10097,7 +9745,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "umaido-seomyeon-busan",
@@ -10109,7 +9758,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "釜山西面で1、2を争う人気のとんこつラーメン専門店。博多スタイルの濃厚豚骨スープと自家製チャーシューが看板。西面店限定のつけ麺メニューも提供。チェーン展開しており釜山大学前にも店舗あり。",
+    "description": "釜山西面で人気のとんこつラーメン専門店「旨味道 西面店」。博多スタイルの濃厚豚骨スープと自家製チャーシューが看板で、西面店限定のつけ麺も提供。釜山大学前にも店舗展開。",
     "tags": [
       "ラーメン",
       "豚骨",
@@ -10127,7 +9776,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "unatoto-jamsil",
@@ -10137,7 +9787,7 @@
     "address": "Jamsil-dong, Songpa-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "日本のうなぎチェーン「宇奈とと」蚕室店。手頃な価格でうな丼やひつまぶしを提供し、在住日本人にも好評な日本チェーン店の日本式専門店。",
+    "description": "蚕室にある東京発うなぎチェーン「宇奈とと」。手頃な価格でうな丼やひつまぶしを提供し、在住日本人にも好評。ロッテワールド周辺でうなぎが食べられる数少ない選択肢。",
     "tags": [
       "うなぎ",
       "丼もの",
@@ -10154,33 +9804,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "unatoto-unagi-seoul",
-    "name": "Unatoto Seoul",
-    "name_ja": "宇奈とと ソウル",
-    "area": "Seoul",
-    "address": "Seoul",
-    "phone": null,
-    "website": null,
-    "description": "東京発のうなぎ専門チェーン「宇奈とと」ソウル店。備長炭で焼いたうなぎを手頃な価格で提供し、うな丼・ひつまぶしが人気の日本式専門店。",
-    "tags": [
-      "うなぎ",
-      "うな丼",
-      "チェーン"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "uobei-sushi-seoul",
@@ -10190,7 +9815,7 @@
     "address": "Seoul",
     "phone": null,
     "website": null,
-    "description": "日本の回転寿司チェーン「魚べい」のソウル店。特急レーンで注文した寿司が届くシステム。一皿100円均一の日本のコンセプトを韓国でも展開。",
+    "description": "日本の回転寿司チェーン「魚べい」のソウル店。特急レーンで注文した寿司が届く独自システムを採用し、手頃な価格設定で気軽に本格寿司を楽しめる。",
     "tags": [
       "寿司",
       "回転寿司",
@@ -10206,33 +9831,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "ushiya-seongsu",
-    "name": "Ushiya Seongsu",
-    "name_ja": "牛屋 聖水",
-    "area": "Seongsu",
-    "address": "Seongsu-dong, Seongdong-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "韓牛のおまかせコースと焼肉を提供する高級焼肉店。牛刺し・牛タン・テール焼きなど希少部位も楽しめる。聖水エリアのトレンドスポット。",
-    "tags": [
-      "焼肉",
-      "おまかせ",
-      "韓牛"
-    ],
-    "hours": "17:00〜23:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "utaro-ramen-daegu",
@@ -10244,7 +9844,7 @@
     "lng": null,
     "phone": "+82534250305",
     "website": null,
-    "description": "大邱の日本式ラーメン店「ユタロー大邱店」。スタジオジブリ風の内装で話題で、自家製麺と丁寧なチャーシューが特徴の豚骨ラーメン。",
+    "description": "大邱にある日本式ラーメン店「ユタロー大邱店（유타로 라멘）」。スタジオジブリ風の内装で話題を呼び、自家製麺と丁寧なチャーシューが特徴の豚骨ラーメンが看板メニュー。",
     "tags": [
       "ラーメン",
       "豚骨",
@@ -10262,7 +9862,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "uwa-okonomiyaki-hongdae",
@@ -10272,7 +9873,7 @@
     "address": "21-16 Hwaseo-ro 21-gil, Mapo-gu, Seoul, 2F",
     "phone": null,
     "website": null,
-    "description": "鉄板付きカウンター席でお好み焼きとやきそばが楽しめる弘大の人気店。トマトとチーズのアレンジお好み焼きが看板メニュー。「日本の元祖と肩を並べる美味しさ」と評される本格派。在韓日本人はもちろん韓国人客にも大人気。",
+    "description": "弘大にある鉄板お好み焼き専門店「うわ（UWA）」。鉄板付きカウンター席でお好み焼きとやきそばを楽しめる人気店。トマトとチーズのアレンジお好み焼きが看板メニューで、在韓日本人にも韓国人にも人気。",
     "tags": [
       "お好み焼き",
       "鉄板焼き",
@@ -10288,111 +9889,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "victoria-bakery-seocho-seochon",
-    "name": "Victoria Bakery",
-    "name_ja": "ヴィクトリア ベーカリー",
-    "area": "西村",
-    "address": "Seochon, Jongno-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "大邱発祥でソウル西村に移転した話題のベーカリーカフェ。絵本の世界に迷い込んだようなキュートな空間が特徴で、日本人客にも大人気。豊富なデザートと丁寧に作られたスイーツが揃い、インスタ映えスポットとしても有名。",
-    "tags": [
-      "ベーカリー",
-      "カフェ",
-      "スイーツ"
-    ],
-    "hours": "11:00〜20:00（月曜定休）",
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "wagyu-restaurant-apgujeong",
-    "name": "狎鷗亭 和牛焼肉",
-    "name_ja": "狎鷗亭 和牛焼肉",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Apgujeong",
-    "address": "서울 강남구 압구정로 서울",
-    "lat": 37.5271,
-    "lng": 127.0287,
-    "phone": "",
-    "website": "",
-    "description": "狎鷗亭の高級エリアにある和牛専門焼肉レストラン。日本から輸入した本物の和牛A5ランクを使った焼肉を楽しめる数少ない高級レストラン。テーブルの無煙ロースターで各部位を焼きながら、丁寧なサービスとともに特別な食体験ができる。日本語スタッフ在籍。",
-    "price_range": "₩₩₩₩",
-    "hours": "18:00-23:00",
-    "closed_days": "月曜",
-    "languages": [
-      "ja",
-      "ko"
-    ],
-    "tags": [
-      "和牛",
-      "焼肉",
-      "狎鷗亭",
-      "高級",
-      "日本語対応"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "wagyu-yakiniku-seongsu",
-    "name": "聖水 和牛焼肉",
-    "name_ja": "聖水 和牛焼肉",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Seongsu",
-    "address": "서울 성동구 성수동 서울",
-    "lat": 37.5441,
-    "lng": 127.0559,
-    "phone": "",
-    "website": "",
-    "description": "聖水洞のトレンドエリアにある和牛焼肉店。厳選した高品質な韓国産和牛と日本産和牛の両方を揃え、職人が適切な厚さに切り分けてくれる。おしゃれな内装と上質な肉の組み合わせがSNSで話題になっており、デートや特別な日のディナーに最適。",
-    "price_range": "₩₩₩₩",
-    "hours": "17:00-23:00",
-    "closed_days": "火曜",
-    "languages": [
-      "ja",
-      "ko"
-    ],
-    "tags": [
-      "和牛",
-      "焼肉",
-      "聖水",
-      "高級",
-      "日本語対応"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "wasedaya-ichon",
@@ -10404,7 +9902,7 @@
     "lng": null,
     "phone": "+8227960608",
     "website": null,
-    "description": "二村の日本人街にある日本式焼肉・ホルモン居酒屋。七輪の炭火でピートロ焼き・上タン塩・ホルモンを焼くスタイル。駐在員や在韓日本人の利用が多く、カウンター席で一人飲みもしやすい。",
+    "description": "二村の日本人街にある焼肉・ホルモン居酒屋「早稲田屋（와세다야）」。七輪の炭火でピートロ・上タン塩・ホルモンを焼くスタイル。駐在員や在韓日本人のリピーターが多く、カウンター席で一人飲みもしやすい。",
     "tags": [
       "居酒屋",
       "日本式焼肉",
@@ -10425,7 +9923,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "wasshoi-ken-gangnam",
@@ -10437,7 +9936,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "江南駅4番出口すぐの日本式定食屋「わっしょいけん」。豚骨醤油ラーメンやカツカレーなど日本家庭料理を提供。一人客も入りやすい。",
+    "description": "江南駅4番出口すぐにある日本式定食屋「わっしょいけん」。豚骨醤油ラーメンやカツカレーなど日本家庭料理を手頃な価格で提供。一人客も入りやすい気軽な雰囲気で、江南で働く在韓日本人のランチに重宝される。",
     "tags": [
       "定食",
       "ラーメン",
@@ -10455,158 +9954,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "whisky-bar-cheongdam",
-    "name": "清潭 ウイスキーバー",
-    "name_ja": "清潭 ウイスキーバー",
-    "category": "izakaya-bar",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Cheongdam",
-    "address": "서울 강남구 청담동 서울",
-    "lat": 37.5233,
-    "lng": 127.044,
-    "phone": "",
-    "website": "",
-    "description": "清潭洞の高級エリアにある本格的なウイスキーバー。スコッチ・バーボン・ジャパニーズウイスキーなど300種類以上を揃えたソウル屈指のセレクション。ウイスキーに造詣の深いバーテンダーが好みに合わせてボトルを提案。日本酒や自然派ワインも取り扱っている。",
-    "price_range": "₩₩₩₩",
-    "hours": "19:00-03:00",
-    "closed_days": "月曜",
-    "languages": [
-      "ko",
-      "en"
-    ],
-    "tags": [
-      "居酒屋",
-      "ウイスキーバー",
-      "清潭洞",
-      "高級",
-      "バー"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "wine-bar-seongsu",
-    "name": "聖水 ワインバー",
-    "name_ja": "聖水 ワインバー",
-    "category": "izakaya-bar",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Seongsu",
-    "address": "서울 성동구 성수동 서울",
-    "lat": 37.5444,
-    "lng": 127.0556,
-    "phone": "",
-    "website": "",
-    "description": "聖水洞のトレンドエリアにある自然派ワインを中心としたワインバー。フランス・イタリア・日本のナチュラルワインを豊富に揃え、ソムリエが好みに合わせて提案。おつまみはチーズ・シャルキュトリー・韓国食材を使ったクリエイティブな小皿料理。フォトジェニックな内装もSNSで話題。",
-    "price_range": "₩₩₩",
-    "hours": "17:00-01:00",
-    "closed_days": "月曜",
-    "languages": [
-      "ko",
-      "en"
-    ],
-    "tags": [
-      "居酒屋",
-      "ワインバー",
-      "自然派ワイン",
-      "聖水"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "yakiniku-euljiro",
-    "name": "乙支路 焼肉",
-    "name_ja": "乙支路 焼肉",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Euljiro",
-    "address": "서울 중구 을지로 서울",
-    "lat": 37.5651,
-    "lng": 126.9914,
-    "phone": "",
-    "website": "",
-    "description": "乙支路の独特なインダストリアルエリアにある焼肉店。古いビルと新しいカフェが混在するこのエリアで、夜になると個性的な雰囲気の中で韓牛焼肉が楽しめる。日本語が話せるスタッフもおり、外国人のグループもよく利用する。週末は予約が取りにくいほどの人気。",
-    "price_range": "₩₩₩",
-    "hours": "17:00-24:00",
-    "closed_days": "月曜",
-    "languages": [
-      "ko",
-      "en"
-    ],
-    "tags": [
-      "焼肉",
-      "乙支路",
-      "韓牛"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "yakiniku-hapjeong",
-    "name": "合井 焼肉",
-    "name_ja": "合井 焼肉",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Hapjeong",
-    "address": "서울 마포구 합정동 서울",
-    "lat": 37.55,
-    "lng": 126.9145,
-    "phone": "",
-    "website": "",
-    "description": "合井エリアの日本式焼肉レストラン。厳選した国産牛の様々な部位を日本のたれ・塩で楽しめるスタイルが在韓日本人に好評。20〜30代の若い層が集まる合井エリアらしく、週末は特に賑わう。日本語スタッフが在籍しており、部位の説明も詳しくしてくれる。",
-    "price_range": "₩₩₩",
-    "hours": "17:00-23:00",
-    "closed_days": "月曜",
-    "languages": [
-      "ja",
-      "ko"
-    ],
-    "tags": [
-      "焼肉",
-      "合井",
-      "日本語対応"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yakiniku-like-hongdae",
@@ -10616,7 +9965,7 @@
     "address": "Hongdae, Mapo-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "一人焼肉専門チェーンの弘大店。一人一台のロースターで好きなペースで焼肉を楽しめる。一人ご飯が普通の韓国で人気のコンセプト。",
+    "description": "弘大にある一人焼肉専門チェーン「焼肉ライク 弘大店」。一人一台のロースターで好きなペースで焼肉を楽しめる日本発のコンセプト。一人での外食が多い弘大エリアで利用しやすい選択肢。",
     "tags": [
       "焼肉",
       "一人焼肉",
@@ -10633,221 +9982,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "yakiniku-like-seoul",
-    "name": "Yakiniku Like Seoul",
-    "name_ja": "焼肉ライク ソウル",
-    "area": "Seoul",
-    "address": "Seoul",
-    "phone": null,
-    "website": null,
-    "description": "日本発の「一人焼肉」専門チェーンのソウル店。カウンター席で一人からでも気軽に焼肉を楽しめる。ランチセットがリーズナブルで、一人ごはんの選択肢として便利。",
-    "tags": [
-      "焼肉",
-      "一人利用向き",
-      "チェーン"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "yakiniku-mapo",
-    "name": "麻浦 焼肉",
-    "name_ja": "麻浦 焼肉",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Mapo",
-    "address": "서울 마포구 합정동 서울",
-    "lat": 37.55,
-    "lng": 126.9143,
-    "phone": "",
-    "website": "",
-    "description": "麻浦・合井エリアの日本式焼肉レストラン。韓国式焼肉と日本式焼肉の両方が楽しめるハイブリッドスタイルが特徴。和牛並みの品質の韓牛を日本のたれや塩で食べるスタイルが日本人に好評。日本語スタッフが在籍し、部位の説明も丁寧に行ってくれる。",
-    "price_range": "₩₩₩",
-    "hours": "11:00-22:00",
-    "closed_days": "月曜",
-    "languages": [
-      "ja",
-      "ko"
-    ],
-    "tags": [
-      "焼肉",
-      "麻浦",
-      "日本語対応"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "yakiniku-premium-itaewon",
-    "name": "梨泰院 プレミアム焼肉",
-    "name_ja": "梨泰院 プレミアム焼肉",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Itaewon",
-    "address": "서울 용산구 이태원동 서울",
-    "lat": 37.534,
-    "lng": 126.9946,
-    "phone": "",
-    "website": "",
-    "description": "梨泰院の国際的なエリアにある日本式高品質焼肉レストラン。韓国産の高品質牛肉を日本式の無煙ロースターで焼くスタイルを採用し、カルビ・ロース・タン等の部位を厳選提供。各国の駐在員や外国人観光客が集まる国際的な雰囲気の中でゆったり食事を楽しめる。",
-    "price_range": "₩₩₩",
-    "hours": "17:00-23:00",
-    "closed_days": "月曜",
-    "languages": [
-      "ja",
-      "ko",
-      "en"
-    ],
-    "tags": [
-      "焼肉",
-      "梨泰院",
-      "高品質",
-      "日本語対応"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "yakiniku-seocho",
-    "name": "瑞草 焼肉",
-    "name_ja": "瑞草 焼肉",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Seocho",
-    "address": "서울 서초구 서초동 서울",
-    "lat": 37.4834,
-    "lng": 127.0322,
-    "phone": "",
-    "website": "",
-    "description": "瑞草エリアの日本式焼肉レストラン。法曹・ビジネス街が多いこのエリアで、仕事帰りの接待・会食に使われることが多い高品質な焼肉店。赤身・ホルモン各部位を揃え、サムギョプサルから和牛まで幅広いメニューをこなす。日本語対応スタッフ在籍。",
-    "price_range": "₩₩₩",
-    "hours": "11:00-22:00",
-    "closed_days": "日曜",
-    "languages": [
-      "ja",
-      "ko"
-    ],
-    "tags": [
-      "焼肉",
-      "瑞草",
-      "日本語対応",
-      "接待"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "yakiniku-yeouido",
-    "name": "汝矣島 焼肉",
-    "name_ja": "汝矣島 焼肉",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Yeouido",
-    "address": "서울 영등포구 여의도동 서울",
-    "lat": 37.5219,
-    "lng": 126.9243,
-    "phone": "",
-    "website": "",
-    "description": "汝矣島のビジネスエリアにある焼肉レストラン。ビジネス接待や会社の飲み会にも使える個室を完備した、落ち着いた雰囲気の焼肉店。韓牛の高品質な肉を日本式・韓国式の両スタイルで楽しめる。日本語スタッフが在籍し、部位の説明も丁寧。",
-    "price_range": "₩₩₩",
-    "hours": "17:00-23:00",
-    "closed_days": "日曜",
-    "languages": [
-      "ja",
-      "ko"
-    ],
-    "tags": [
-      "焼肉",
-      "汝矣島",
-      "接待",
-      "日本語対応"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "yakisoba-hong-dae",
-    "name": "弘大 焼きそば専門店",
-    "name_ja": "弘大 焼きそば専門店",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Hongdae",
-    "address": "서울 마포구 홍대 서울",
-    "lat": 37.5538,
-    "lng": 126.9228,
-    "phone": "",
-    "website": "",
-    "description": "弘大エリアの日本式焼きそば専門店。ウスターソース系の濃厚なソース焼きそばに、豚・イカ・えびのミックスや、シンプルな豚のみなど選べるスタイルが人気。紅しょうが・青のり・かつお節をたっぷりかけて食べる定番スタイルが「本場の味」と評判。",
-    "price_range": "₩₩",
-    "hours": "11:00-22:00",
-    "closed_days": "月曜",
-    "languages": [
-      "ko"
-    ],
-    "tags": [
-      "焼きそば",
-      "弘大",
-      "B級グルメ"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yakitontoro-seogyo",
@@ -10859,7 +9995,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "弘大エリアにある日本式やきとん（豚串焼き）専門店。日本の下町居酒屋の雰囲気で、レバー・カシラ・ハツなど豚のホルモン串焼きを提供。ハイボールとの相性が良い。",
+    "description": "弘大・西橋洞にある日本式やきとん（豚串焼き）専門店「야키톤토로 서교동」。レバー・カシラ・ハツなど豚のホルモン串焼きを日本の下町居酒屋の雰囲気で楽しめる。ハイボールとの相性も抜群。",
     "tags": [
       "居酒屋",
       "やきとん",
@@ -10879,71 +10015,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "yakitontoro-seogyo-detail",
-    "name": "야키톤토로 서교동",
-    "name_ja": "焼きトントロ 西橋洞",
-    "area": "西橋洞（弘大エリア）",
-    "address": "Seogyo-dong, Mapo-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "弘大エリアの西橋洞にある豚トロ焼き専門居酒屋。「トントロ」と呼ばれる豚の首肉を様々な調理法で楽しめる独自のコンセプトが在韓日本人にも人気。日本の焼き肉文化とのシナジーが感じられるメニュー構成。",
-    "tags": [
-      "居酒屋",
-      "豚トロ",
-      "弘大"
-    ],
-    "hours": "18:00〜23:30",
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "yakitori-busan",
-    "name": "釜山 焼き鳥",
-    "name_ja": "釜山 焼き鳥",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Busan",
-    "area": "Haeundae",
-    "address": "부산 해운대구 해운대 부산",
-    "lat": 35.1631,
-    "lng": 129.1634,
-    "phone": "",
-    "website": "",
-    "description": "釜山・海雲台エリアの炭火焼き鳥専門店。海沿いのリゾートエリアで炭火焼き鳥と冷えたビールを楽しめる。釜山在住の日本人だけでなく、プサン旅行に来た日本人観光客にも人気の一軒。種類豊富な焼き鳥と豊富なドリンクメニューが揃う。",
-    "price_range": "₩₩",
-    "hours": "17:00-24:00",
-    "closed_days": "月曜",
-    "languages": [
-      "ja",
-      "ko"
-    ],
-    "tags": [
-      "焼き鳥",
-      "釜山",
-      "海雲台",
-      "日本語対応"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yakitori-hibari-cityhall",
@@ -10955,7 +10028,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.instagram.com/yakitori_hibari/",
-    "description": "市庁駅近くのビル4階にある日本式焼き鳥居酒屋。DiningCodeでも人気の焼き鳥専門店として掲載されている。ランチと夜の二部営業で、ブレイクタイムあり。",
+    "description": "市庁駅近くのビル4階にある日本式焼き鳥居酒屋「ヒバリ（야키토리 히바리）」。DiningCodeにも掲載された人気店で、光化門・乙支路などビジネス街に近く、仕事帰りの在韓日本人に定番の一軒。",
     "tags": [
       "居酒屋",
       "焼き鳥",
@@ -14545,7 +13618,7 @@
     "hours": null,
     "closed": null,
     "price_range": "₩15,000〜₩30,000",
-    "description": "홍대（弘大）エリアの日本式とんかつ専門店。성수（聖水）にも本店を持つ「요시쿠（ヨシク）」の홍대拠点で評判が高い。",
+    "description": "홍대（弘大）エリアの日本式とんかつ専門店。성수にも本店を持つ「요시쿠」の弘大拠点で、肉厚とんかつが評判。在ソウル日本人にも人気。",
     "detail": "홍대입구（ホンデ入口）近くの동교동에 위치한 일본식 돈카츠 専門店。성수（聖水）에 本店을 가진 「요시쿠（ヨシク）」의 홍대코우店。厚切り豚カツの食感が評判で、홍대의 飲食店の中でもとんかつ専門として高評価。在ソウル日本人にも口コミが広がっている。",
     "tags": [
       "とんかつ",
@@ -14557,7 +13630,8 @@
     "ai_reviewed": true,
     "status": "unverified",
     "priority": 1,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "yoshiku-seongsu",
@@ -14588,7 +13662,8 @@
     "ai_reviewed": true,
     "status": "unverified",
     "priority": 1,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "tsukizen-hapjeong",
@@ -14618,7 +13693,8 @@
     "ai_reviewed": true,
     "status": "unverified",
     "priority": 1,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "furato-sangsu",
@@ -14636,7 +13712,7 @@
     "hours": null,
     "closed": null,
     "price_range": "₩15,000〜₩30,000",
-    "description": "상수（上水）エリアの日本式とんかつ直営店。홍대와 합정의 중간 지점에 위치한 상수동의 인기 돈카츠 専門店。",
+    "description": "상수（上水）エリアの日本式とんかつ直営店。홍대と합정の中間エリアに位置し、丁寧に揚げた本格とんかつが楽しめる地元人気店。",
     "detail": "상수동（上水洞）에 위치한 일본식 돈카츠 직영 전문점。홍대（ホンデ）와 합정（합정）의 중간에 위치한 상수エリアに立地。마포구 상수동의 조용한 골목에서 本格とんかつを提供。在ソウル日本人에게도 입소문이 퍼진 돈카츠집。",
     "tags": [
       "とんかつ",
@@ -14648,7 +13724,8 @@
     "ai_reviewed": true,
     "status": "unverified",
     "priority": 1,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "kochi-seongsu",
@@ -14679,7 +13756,8 @@
     "ai_reviewed": true,
     "status": "unverified",
     "priority": 2,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "yakitori-naruto-hongdae",
@@ -14711,7 +13789,8 @@
     "ai_reviewed": true,
     "status": "unverified",
     "priority": 1,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "yakitori-naruto-gangnam",
@@ -14729,7 +13808,7 @@
     "hours": null,
     "closed": null,
     "price_range": "₩20,000〜₩40,000",
-    "description": "역삼（驛三）の焼き鳥居酒屋。홍대の「야키토리 나루토」の강남出店で、강남エリアの在ソウル日本人にも人気。",
+    "description": "역삼（驛三）の焼き鳥居酒屋。홍대の「야키토리 나루토」의 江南出店で、강남エリアの在ソウル日本人・ビジネスパーソンに人気の一軒。",
     "detail": "강남구 역삼동에 위치한 焼き鳥居酒屋「야키토리 나루토（なると）」의 강남店。역삼역・강남역近くに位置し、강남エリアのビジネスパーソンや在ソウル日本人の利用が多い。홍대本店と同じ品質の日本式焼き鳥と居酒屋メニューを提供。",
     "tags": [
       "焼き鳥",
@@ -14743,7 +13822,8 @@
     "ai_reviewed": true,
     "status": "unverified",
     "priority": 1,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "bamtori-seongsu",
@@ -14761,7 +13841,7 @@
     "hours": null,
     "closed": null,
     "price_range": "₩20,000〜₩40,000",
-    "description": "성수（ソンス）의 焼き鳥・居酒屋。성수의 트렌디한 飲食街에 位置하며、일본식 꼬치와 안주를 즐길 수 있다.",
+    "description": "성수（聖水）トレンドエリアの焼き鳥・居酒屋。日本式串焼きと各種おつまみを提供し、성수観光客や在ソウル日本人に親しまれている。",
     "detail": "성수（聖水）에 위치한 焼き鳥居酒屋。성수의 다이닝 씬에서 주목받는 일본식 꼬치（야키토리）専門店で、在ソウル日本人からも評価が高い。성수에는 트렌디한 식당들이 많아서、日本的な串焼き居酒屋の존재감이 際立つ。",
     "tags": [
       "焼き鳥",
@@ -14774,7 +13854,8 @@
     "ai_reviewed": true,
     "status": "unverified",
     "priority": 2,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "tokyo-sanpo-songridan",
@@ -14792,7 +13873,7 @@
     "hours": null,
     "closed": null,
     "price_range": "₩20,000〜₩40,000",
-    "description": "송리단길（ソンリダンキル）の「東京散歩」という店名の日本食・居酒屋。잠실エリアの在ソウル日本人・観光客にも定評がある。",
+    "description": "송리단길（ソンリダンキル）の「東京散歩」という店名の日本食・居酒屋。잠실エリアで在ソウル日本人・観光客にも定評がある一軒。",
     "detail": "송리단길（ソンリダンキル）에 위치한 「동경산책（東京散歩）」이라는 이름의 일본식 居酒屋・食堂。店名の通り東京の下町気分が楽しめる空間で、잠실（蚕室）近くの송리단길に在ソウル日本人や日本文化好きの韓国人が集まる。詳細な영업시간은 전화로 확인 권장。",
     "tags": [
       "居酒屋",
@@ -14806,7 +13887,8 @@
     "ai_reviewed": true,
     "status": "unverified",
     "priority": 2,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "nishikasai-songridan",
@@ -14837,7 +13919,8 @@
     "ai_reviewed": true,
     "status": "unverified",
     "priority": 2,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "mista-gyoza-hapjeong",
@@ -14887,7 +13970,7 @@
     "hours": null,
     "closed": null,
     "price_range": "₩30,000〜₩60,000",
-    "description": "홍대（弘大）의 日本式炭火焼き肉専門店。炭火にこだわった焼き肉スタイルが特徴で、在ソウル日本人に人気の焼き肉スポット。",
+    "description": "홍대（弘大）の日本式炭火焼き肉専門店。炭火にこだわった焼き肉スタイルが特徴で、弘大エリアで在ソウル日本人にも人気の焼き肉スポット。",
     "detail": "홍대（ホンデ）동교동에 위치한 일본식 炭火焼き肉専門店。「스미비（炭火）」という名が示す通り、炭火にこだわった本格焼き肉を提供。홍대의 飲食密集エリアに位置し、在ソウル日本人が「日本の焼肉屋に近い」と評価する焼き肉スポット。",
     "tags": [
       "焼き肉",
@@ -14900,7 +13983,8 @@
     "ai_reviewed": true,
     "status": "unverified",
     "priority": 2,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "kibo-yongridan",
@@ -14918,7 +14002,7 @@
     "hours": null,
     "closed": null,
     "price_range": "₩20,000〜₩40,000",
-    "description": "용리단길（龍里壇キル）의 日本式居酒屋。다이닝코드のソウル焼き鳥ランキングにも登場する용산エリアの人気店。",
+    "description": "용리단길（龍里壇キル）의 日本式居酒屋。다이닝코드のソウル焼き鳥ランキングにも登場する용산エリアの人気店で在ソウル日本人の利用も多い。",
     "detail": "용리단길（龍里壇キル）에 위치한 일본식 居酒屋 겸 焼き鳥店。「키보（KIBO）」という洗練された名前で、용산구 한강로의 트렌디한 다이닝 씬에서 주목받는 가게。이태원（梨泰院）와 가까운 입지로, 在ソウル外国人や日本人も多く集まるエリア。",
     "tags": [
       "居酒屋",
@@ -14931,7 +14015,8 @@
     "ai_reviewed": true,
     "status": "unverified",
     "priority": 2,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "hamon-haeundae",
@@ -14963,7 +14048,8 @@
     "ai_reviewed": true,
     "status": "unverified",
     "priority": 2,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "daidokoro-gwangalli",
@@ -14981,7 +14067,7 @@
     "hours": null,
     "closed": null,
     "price_range": "₩20,000〜₩40,000",
-    "description": "광안리（光安里）近くの日本式居酒屋「台所（ダイドコロ）」。光安里海水욕場近くに位置し、在釜山日本人の利用も多い一軒。",
+    "description": "광안리（光安里）近くの日本式居酒屋「台所（ダイドコロ）」。光安里海水浴場近くに位置し、在釜山日本人にも定評がある落ち着いた一軒。",
     "detail": "부산 수영구 남천동에 위치한 일본식 居酒屋 「다이도코로（台所）」。광안리（光安里）에 가까운 입지로、광안대교（光安大橋）의 야경이 가까운 エリアにある。광복点（중구）にも支店あり。在釜山日本人의 회식・모임 장소로 활용되는 경우가 많다。",
     "tags": [
       "居酒屋",
@@ -14995,7 +14081,8 @@
     "ai_reviewed": true,
     "status": "unverified",
     "priority": 2,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "daidokoro-gwangbok",
@@ -15027,7 +14114,8 @@
     "ai_reviewed": true,
     "status": "unverified",
     "priority": 2,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "iwai-sushi-jeonpo",
@@ -15045,7 +14133,7 @@
     "hours": null,
     "closed": null,
     "price_range": "₩30,000〜₩80,000",
-    "description": "전포（前浦）の日本式寿司専門店。カフェ거리で知られる전포동에서楽しめる本格的な寿司。在釜山日本人の特別な日の選択肢に。",
+    "description": "전포（前浦）カフェ거리の本格日本式寿司専門店。釜山のトレンドエリアで楽しめる本格寿司で、在釜山日本人の特別な日の選択肢に。",
     "detail": "부산진구 전포동에 위치한 일본식 스시（寿司）전문점。카페거리（カフェ通り）로 유명한 전포동에 위치하며、서면역 근처에서 접근하기 좋다。본格的な日本式寿司を釜山で楽しめる店として、在釜山日本人の特別な日のレストランとしても利用される。",
     "tags": [
       "寿司",
@@ -15059,7 +14147,8 @@
     "ai_reviewed": true,
     "status": "unverified",
     "priority": 2,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "torishio-ramen-gangnam",
@@ -15090,7 +14179,8 @@
     "source": "web_search",
     "last_verified": "2026-04-05",
     "ai_reviewed": true,
-    "status": "unverified"
+    "status": "unverified",
+    "place_reviewed": true
   },
   {
     "slug": "mugen-switch-yeonnam",
@@ -15122,7 +14212,8 @@
     "source": "web_search",
     "last_verified": "2026-04-05",
     "ai_reviewed": true,
-    "status": "unverified"
+    "status": "unverified",
+    "place_reviewed": true
   },
   {
     "slug": "butanchu-hongdae",
@@ -15153,7 +14244,8 @@
     "source": "web_search",
     "last_verified": "2026-04-05",
     "ai_reviewed": true,
-    "status": "unverified"
+    "status": "unverified",
+    "place_reviewed": true
   },
   {
     "slug": "hakuten-ramen-yeonnam",
@@ -15168,7 +14260,7 @@
     "phone": "+82507132537",
     "website": null,
     "hours": "11:30-14:50、17:00-20:30（ブレイク 15:00-17:00）",
-    "description": "연남동の半地下にある隠れ家的家系ラーメン店。ご飯おかわり自由のサービスと濃厚な家系スープが人気の地元名店。",
+    "description": "연남동の半地下にある隠れ家的家系ラーメン店。ご飯おかわり自由のサービスと濃厚な家系スープが人気の地元名店。在ソウル日本人にも好評。",
     "detail": "서울 마포구 동교로의 연남동에ある하쿠텐（ハクテン）は、半地下（반지하）に位置する隠れ家的ラーメン店。看板メニューは濃厚なスープが特徴의매운 이에케라멘（辛い家系ラーメン）。ご飯のおかわり自由というサービスも嬉しい。홍대입구駅から徒歩圏の연남동は、おしゃれなカフェや食堂が軒を連ねる人気エリア。ランチタイムと夜の2部制で营业。",
     "menu": null,
     "price": null,
@@ -15184,39 +14276,8 @@
     "source": "web_search",
     "last_verified": "2026-04-05",
     "ai_reviewed": true,
-    "status": "unverified"
-  },
-  {
-    "slug": "irie-ramen-mapo",
-    "name": "イリエラーメン",
-    "name_local": "이리에라멘",
-    "category": "restaurant",
-    "subcategory": "ramen",
-    "country": "kr",
-    "city": "서울",
-    "area": "합정",
-    "address": "서울특별시 마포구 성지1길 18 1층",
-    "phone": "+82023323370",
-    "website": null,
-    "hours": "11:00-15:00、17:00-21:00",
-    "description": "합정（合井）の日本式ラーメン店。テレビ番組「生活の達人」にも登場した鯛だしラーメンが名物。魚介の旨味が詰まったシオラーメンが人気。",
-    "detail": "서울 마포구 성지1길に位置するイリエラーメン（이리에라멘）は、合井（합정）エリアにある魚介ダシの日本式ラーメン専門店。韓国のTV番組「生活の達人（생활의 달인）」で紹介された鯛ラーメン（도미라멘）の店として知られる。丁寧に取った魚介のだしをベースにした透き通ったシオ（塩）スープが特徴。합정역（合井駅）から徒歩圏内。ランチとディナーの2部制営業。",
-    "menu": null,
-    "price": null,
-    "email": null,
-    "tags": [
-      "ramen",
-      "japanese",
-      "sea-bream",
-      "shio-ramen",
-      "hapjeong",
-      "tv-featured"
-    ],
-    "source_url": "https://www.diningcode.com/profile.php?rid=Cpz1gKbHuPka",
-    "source": "web_search",
-    "last_verified": "2026-04-05",
-    "ai_reviewed": true,
-    "status": "unverified"
+    "status": "unverified",
+    "place_reviewed": true
   },
   {
     "slug": "menshoku-sinsa",
@@ -15297,7 +14358,7 @@
     "phone": "+82027227123",
     "website": null,
     "hours": "11:00-21:00（毎日）",
-    "description": "종각（鐘閣）にある豚骨ラーメン専門店。バジルラーメンなどオリジナルメニューも人気のユニークな日本式ラーメン店。",
+    "description": "종각（鐘閣）の豚骨・バジルラーメンなどオリジナルメニューが人気の日本式ラーメン専門店。鐘路エリアで個性派ラーメンを楽しめる一軒。",
     "detail": "서울 종로구의 종각에位置するオロジラーメン種閣本店は、豚骨ラーメンを軸にバジルラーメンなど独自のオリジナルメニューを展開する日本式ラーメン専門店。종각駅から徒歩圏内で、광화문や인사동観光のついでに立ち寄れる立地。大人気の街・종로エリアのランチ・夕食の選択肢として地元客や観光客に親しまれる。",
     "menu": null,
     "price": null,
@@ -15313,7 +14374,8 @@
     "source": "web_search",
     "last_verified": "2026-04-05",
     "ai_reviewed": true,
-    "status": "unverified"
+    "status": "unverified",
+    "place_reviewed": true
   },
   {
     "slug": "mentami-namyeong",
@@ -15381,7 +14443,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "gattensushi-gangnam",
@@ -15418,7 +14481,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ultra-men-gangnam",
@@ -15454,7 +14518,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushiro-jongno",
@@ -15491,7 +14556,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tonjin-hongdae",
@@ -15527,7 +14593,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ichiryu-hongdae",
@@ -15563,13 +14630,14 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yurinmyeon-cityall",
     "name": "Yurinmyeon",
     "name_ja": "儒林麺 市庁店",
-    "area": "Siheung / City Hall",
+    "area": "siheung",
     "address": "139-1 Seosomuun-ro, Jung-gu, Seoul",
     "phone": "+82227550659",
     "phone_local": null,
@@ -15600,7 +14668,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "omuraan-gangnam",
@@ -15636,7 +14705,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "bimaedang-konkuk",
@@ -15673,7 +14743,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hakata-tanaka-hongdae",
@@ -15709,7 +14780,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "honkaz-hongdae",
@@ -15744,7 +14816,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tokkijung-hongdae",
@@ -15780,7 +14853,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "teppan-tamago-hongdae",
@@ -15817,7 +14891,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "obiya-hongdae",
@@ -15854,7 +14929,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "keiyokatsu-yeonnam",
@@ -15887,7 +14963,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tonjin-sinchon",
@@ -15923,7 +15000,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "takomon-sinchon",
@@ -15960,7 +15038,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "donburimono-sinchon",
@@ -15998,7 +15077,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yabai-sinchon",
@@ -16036,7 +15116,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kaden-yeonhui",
@@ -16070,7 +15151,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "oshiriya-hongdae",
@@ -16106,7 +15188,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kamamarui-ramen-sinchon",
@@ -16140,7 +15223,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ginzaryokou-ewha",
@@ -16177,7 +15261,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "koichan-tonkatsu-sinchon",
@@ -16190,7 +15275,7 @@
     "email": null,
     "website": null,
     "source_url": "https://www.konest.com/contents/gourmet_mise_detail.html?id=11705",
-    "description": "新村駅（2号線）・西江大学正門前にある日本人経営のとんかつ・カツカレー専門店。日本の味が恋しい在韓日本人の常連も多い。",
+    "description": "新村駅（2号線）・西江大学正門前にある日本人経営のとんかつ・カツカレー専門店。日本の味が恋しい在韓日本人の常連も多い人気店。",
     "detail": "新村駅（2号線）近く、西江大学正門向かいに位置するとんかつ専門店「こいちゃんとんかつ」。日本に長く住んだオーナーが経営しており、本格的なとんかつとカツカレーが揃う。日本の味が恋しくなった在韓日本人や学生が多く訪れる人気店。営業時間：11:30〜21:00。日曜・祝日・第2第4土曜定休。",
     "menu": [
       "とんかつ",
@@ -16212,7 +15297,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kitchen31-sinchon",
@@ -16250,7 +15336,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "marugame-jamsil",
@@ -16393,7 +15480,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "washoku-soryu-jamsil",
@@ -16430,7 +15518,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kokuten-jamsil",
@@ -16464,7 +15553,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tokkijung-seoul-station",
@@ -17935,7 +17025,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tokki-tei-hongdae",
@@ -18049,7 +17140,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kyodaiya-hongdae",
@@ -18534,7 +17626,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "oshiriya-hongdae",
@@ -18572,7 +17665,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kamamarui-ramen-sinchon",
@@ -18608,7 +17702,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tempura-kamsun-jamsil",
@@ -20042,7 +19137,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kokoro-jamsil",
