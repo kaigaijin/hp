@@ -7948,35 +7948,6 @@
     "place_reviewed": true
   },
   {
-    "slug": "roots-dessert-cafe",
-    "name": "Roots Dessert Cafe",
-    "name_ja": "ルーツ デザート カフェ",
-    "area": "Penang",
-    "address": "56A, Jalan Pintal Tali, George Town, 10450 George Town, Pulau Pinang, Malaysia",
-    "lat": 5.4171,
-    "lng": 100.3342,
-    "phone": "+60149099272",
-    "website": "https://www.instagram.com/rootsdessert/",
-    "description": "マレーシア・ペナンにある日本式スイーツカフェ。繊細な和洋スイーツとこだわりのドリンクを提供。甘いもの好きの日本人に人気。",
-    "tags": [
-      "カフェ",
-      "スイーツ"
-    ],
-    "hours": "Monday: 11:00 AM – 11:00 PM / Tuesday: Closed / Wednesday: 11:00 AM – 11:00 PM / Thursday: 11:00 AM – 11:00 PM / Friday: 11:00 AM – 11:00 PM / Saturday: 11:00 AM – 11:00 PM / Sunday: 11:00 AM – 11:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJT0EuN5jDSjARFZNAcomOXok",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
     "slug": "roti-lah",
     "name": "Roti Lah!",
     "name_ja": "ロチ Lah!",
@@ -7986,10 +7957,11 @@
     "lng": 100.3284,
     "phone": "+60183219197",
     "website": null,
-    "description": "マレーシア・ペナンにある日本式カフェ。こだわりのコーヒー・ドリンクとスイーツを提供。日本の喫茶文化を感じられる居心地の良い空間。",
+    "description": "ペナン・セシル通りにある日本式ベーカリー。塩バターのshio panをはじめ、フォカッチャやソフトバンズなど毎日焼きたてのパンを提供。コーヒーとも相性が良い。",
     "tags": [
-      "カフェ",
-      "日本式"
+      "ベーカリー",
+      "日本式パン",
+      "shio pan"
     ],
     "hours": "Monday: 9:00 AM – 5:00 PM / Tuesday: 9:00 AM – 5:00 PM / Wednesday: 9:00 AM – 5:00 PM / Thursday: Closed / Friday: 9:00 AM – 5:00 PM / Saturday: 9:00 AM – 5:00 PM / Sunday: 9:00 AM – 5:00 PM",
     "last_verified": "2026-03-28",
@@ -8003,36 +7975,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sad-panda-cafe",
-    "name": "Sad Panda Cafe",
-    "name_ja": "Sad パンダ カフェ",
-    "area": "Penang",
-    "address": "77, Lebuh Bishop, George Town, 10200 George Town, Pulau Pinang, Malaysia",
-    "lat": 5.419,
-    "lng": 100.341,
-    "phone": "+60173455895",
-    "website": null,
-    "description": "ペナンにある日本スタイルのカフェ。ペナンに位置し、こだわりのドリンクとスイーツが楽しめる居心地のよい空間。在住日本人にも好評。",
-    "tags": [
-      "カフェ",
-      "日本式"
-    ],
-    "hours": "Monday: 7:30 AM – 6:00 PM / Tuesday: 7:30 AM – 6:00 PM / Wednesday: 7:30 AM – 6:00 PM / Thursday: 7:30 AM – 6:00 PM / Friday: 7:30 AM – 6:00 PM / Saturday: 7:30 AM – 6:00 PM / Sunday: 7:30 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJEasUE17DSjAR-uJzsbz3WQE",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "saka-no-ue-cafe-kl",
@@ -8044,10 +7988,11 @@
     "lng": 101.7082,
     "phone": null,
     "website": "https://www.instagram.com/sakanouecafe_kul/",
-    "description": "クアラルンプールにある日本スタイルのカフェ。クアラルンプールに位置し、こだわりのドリンクとスイーツが楽しめる居心地のよい空間。",
+    "description": "クアラルンプール・ラ・ラポートKL内にある日本スタイルのカフェ。「坂の上」の名が示す通り、日本の喫茶文化を感じるドリンクとスイーツが揃う。",
     "tags": [
       "カフェ",
-      "日本式"
+      "日本式",
+      "ショッピングモール内"
     ],
     "hours": "Monday: 10:30 AM – 9:30 PM / Tuesday: 10:30 AM – 9:30 PM / Wednesday: 10:30 AM – 9:30 PM / Thursday: 10:30 AM – 9:30 PM / Friday: 10:30 AM – 9:30 PM / Saturday: 10:30 AM – 9:30 PM / Sunday: 10:30 AM – 9:30 PM",
     "last_verified": "2026-03-28",
@@ -8061,7 +8006,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sakagura-japanese-restaurant",
@@ -8073,10 +8019,11 @@
     "lng": 116.0728,
     "phone": "+60128173604",
     "website": null,
-    "description": "日本スタイルの料理が楽しめるレストラン。コタキナバルに位置し、和食・日本式フードメニューとドリンクが揃う。在住日本人にも利用されている。",
+    "description": "コタキナバルのシェラトンホテル内にある日本料理レストラン「酒蔵」。懐石・会席スタイルの本格和食を提供する、ホテルダイニングの定番。",
     "tags": [
-      "カフェ",
-      "日本式"
+      "日本料理",
+      "懐石",
+      "ホテル内"
     ],
     "hours": "Monday: 11:30 AM – 2:30 PM, 5:00 – 9:30 PM / Tuesday: 11:30 AM – 2:30 PM, 5:00 – 9:30 PM / Wednesday: 11:30 AM – 2:30 PM, 5:00 – 9:00 PM / Thursday: 11:30 AM – 2:30 PM, 5:00 – 9:30 PM / Friday: 11:30 AM – 2:30 PM, 5:00 – 9:30 PM / Saturday: 11:30 AM – 2:30 PM, 5:00 – 9:30 PM / Sunday: 11:30 AM – 2:30 PM, 5:00 – 9:30 PM",
     "last_verified": "2026-03-28",
@@ -8090,7 +8037,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sakana-japanese-dining",
@@ -8102,10 +8050,11 @@
     "lng": 101.7121,
     "phone": "+60321810211",
     "website": "http://sakana.my/",
-    "description": "日本スタイルの料理が楽しめるレストラン。クアラルンプールに位置し、和食・日本式フードメニューとドリンクが揃う。在住日本人にも利用されている。",
+    "description": "ツインタワー隣のMenara Berkembar Petronas内にある日本式ダイニング。魚介を中心とした和食メニューが揃い、ビジネス利用にも対応している。",
     "tags": [
-      "カフェ",
-      "日本式"
+      "日本料理",
+      "和食",
+      "KLCC周辺"
     ],
     "hours": "Monday: 10:00 AM – 11:00 PM / Tuesday: 10:00 AM – 11:00 PM / Wednesday: 10:00 AM – 11:00 PM / Thursday: 10:00 AM – 11:00 PM / Friday: 10:00 AM – 11:00 PM / Saturday: 10:00 AM – 11:00 PM / Sunday: 10:00 AM – 11:00 PM",
     "last_verified": "2026-03-28",
@@ -8119,7 +8068,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sakuragawa-by-mihachinodo",
@@ -8131,10 +8081,11 @@
     "lng": 101.6716,
     "phone": "+601114207931",
     "website": "https://www.sakuragawa.my/",
-    "description": "クアラルンプールにある日本スタイルのカフェ。クアラルンプールに位置し、こだわりのドリンクとスイーツが楽しめる居心地のよい空間。",
+    "description": "バンサーバル・Jalan Telawi沿いにある日本式カフェ。「桜川」の名の通り、和のエッセンスを取り入れた上質なドリンクとスイーツが楽しめる。",
     "tags": [
       "カフェ",
-      "日本式"
+      "日本式",
+      "バンサー"
     ],
     "hours": "Monday: Closed / Tuesday: 10:30 AM – 6:00 PM / Wednesday: 10:30 AM – 6:00 PM / Thursday: 10:30 AM – 6:00 PM / Friday: 10:30 AM – 6:00 PM / Saturday: 10:30 AM – 6:00 PM / Sunday: 10:30 AM – 6:00 PM",
     "last_verified": "2026-03-28",
@@ -8148,36 +8099,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sama-restaurant-and-caf-dining",
-    "name": "SAMA Restaurant & Café Dining",
-    "name_ja": "サマ レストラン & カフェ ダイニング",
-    "area": "Johor Bahru",
-    "address": "36, Jln Beringin, Taman Melodies, 80250 Johor Bahru, Johor Darul Ta'zim, Malaysia",
-    "lat": 1.4901,
-    "lng": 103.762,
-    "phone": "+601154171009",
-    "website": "http://www.samarestaurantcafe.com/",
-    "description": "日本スタイルの料理が楽しめるレストラン。ジョホールバルに位置し、和食・日本式フードメニューとドリンクが揃う。在住日本人にも利用されている。",
-    "tags": [
-      "カフェ",
-      "日本式"
-    ],
-    "hours": "Monday: 11:00 AM – 9:00 PM / Tuesday: Closed / Wednesday: 11:00 AM – 9:00 PM / Thursday: 11:00 AM – 9:00 PM / Friday: 11:00 AM – 9:00 PM / Saturday: 11:00 AM – 9:00 PM / Sunday: 11:00 AM – 9:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJIZXuCixt2jERkC1UPVZAiJw",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "san-kaiseki-japanese-restaurant",
@@ -8189,10 +8112,11 @@
     "lng": 100.3361,
     "phone": "+60136686272",
     "website": null,
-    "description": "ペナン・ジョージタウンのヘリテージエリア（Gat Lebuh Melayu）にある少人数制の日本式懐石料理店。旬の食材を使った本格懐石コースを提供する隠れた名店。",
+    "description": "ペナン・ジョージタウンのヘリテージエリアに佇む少人数制の日本式懐石料理店。旬の食材を使ったコース料理を静かな空間で提供する隠れた名店。",
     "tags": [
-      "カフェ",
-      "日本式"
+      "懐石料理",
+      "日本料理",
+      "ジョージタウン"
     ],
     "hours": "Monday: Closed / Tuesday: 6:00 – 9:30 PM / Wednesday: 6:00 – 9:30 PM / Thursday: 6:00 – 9:30 PM / Friday: 6:00 – 9:30 PM / Saturday: 6:00 – 9:30 PM / Sunday: 6:00 – 9:30 PM",
     "last_verified": "2026-04-03",
@@ -8207,7 +8131,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "ペナン・ジョージタウンのヘリテージエリア（Gat Lebuh Melayu 16番地）にある日本式懐石料理レストラン「山懐石料理」。少人数制の空間でシェフが旬の食材にこだわった懐石コースを提供。料理の盛り付けも芸術的と評価されており、食材の鮮度と季節感を重視。席数が限られるため予約推奨。月曜定休、火〜日18:00〜21:30営業。予約・問い合わせは電話: +60136686272、またはメール: sunbysan@gmail.com。"
+    "detail": "ペナン・ジョージタウンのヘリテージエリア（Gat Lebuh Melayu 16番地）にある日本式懐石料理レストラン「山懐石料理」。少人数制の空間でシェフが旬の食材にこだわった懐石コースを提供。料理の盛り付けも芸術的と評価されており、食材の鮮度と季節感を重視。席数が限られるため予約推奨。月曜定休、火〜日18:00〜21:30営業。予約・問い合わせは電話: +60136686272、またはメール: sunbysan@gmail.com。",
+    "place_reviewed": true
   },
   {
     "slug": "sando-cafe",
@@ -8219,10 +8144,11 @@
     "lng": 116.1236,
     "phone": "+601154456889",
     "website": null,
-    "description": "日本スタイルのサンドイッチ専門カフェ。コタキナバルに位置し、ふわふわ食パンに具材をたっぷり挟んだ日本式サンドが看板メニュー。",
+    "description": "コタキナバルにある日本式サンドイッチ専門カフェ。ふわふわの日本式食パンに具材をたっぷり挟んだサンドが看板。コーヒーとの相性も良い。",
     "tags": [
       "カフェ",
-      "日本式"
+      "サンドイッチ",
+      "日本式パン"
     ],
     "hours": "Monday: 8:30 AM – 7:15 PM / Tuesday: 8:30 AM – 7:15 PM / Wednesday: 8:30 AM – 7:15 PM / Thursday: 8:30 AM – 7:15 PM / Friday: 8:30 AM – 7:15 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: 9:00 AM – 6:00 PM",
     "last_verified": "2026-03-28",
@@ -8236,7 +8162,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "seed-by-whitegrass",
@@ -8248,10 +8175,11 @@
     "lng": 101.6645,
     "phone": "+60105526891",
     "website": "https://www.seedbywhitegrass.com.my/",
-    "description": "クアラルンプールにある日本スタイルのカフェ。クアラルンプールに位置し、こだわりのドリンクとスイーツが楽しめる居心地のよい空間。",
+    "description": "シンガポールのミシュラン星付き「Whitegrass」のKL姉妹店。Damansara Heightsの一軒家レストランで、フランス技法×日本素材の5〜8コースを提供。",
     "tags": [
-      "カフェ",
-      "日本式"
+      "フレンチ",
+      "日本食材",
+      "ファインダイニング"
     ],
     "hours": "Monday: Closed / Tuesday: 12:00 – 3:00 PM, 6:00 – 11:00 PM / Wednesday: 12:00 – 3:00 PM, 6:00 – 11:00 PM / Thursday: 12:00 – 3:00 PM, 6:00 – 11:00 PM / Friday: 12:00 – 3:00 PM, 6:00 – 11:00 PM / Saturday: 12:00 – 3:00 PM, 6:00 – 11:00 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
@@ -8279,7 +8207,8 @@
         "category": "ディナー"
       }
     ],
-    "price_range": "MYR 150〜300/人"
+    "price_range": "MYR 150〜300/人",
+    "place_reviewed": true
   },
   {
     "slug": "seven-oaks-bakery-cafe",
@@ -8291,10 +8220,11 @@
     "lng": 103.7715,
     "phone": "+6073383377",
     "website": "http://www.facebook.com/sevenoaksmalaysia",
-    "description": "ジョホールバルにある日本式ベーカリーカフェ。焼きたてのパンやペストリー、ドリンクを提供。日本のパン文化をマレーシアで楽しめる。",
+    "description": "ジョホールバルのTaman Pelangiにある日本式ベーカリーカフェ。焼きたてのパンやペストリーと共に、ドリンクも充実している。日本のパン文化を感じる一軒。",
     "tags": [
-      "カフェ",
-      "ベーカリー"
+      "ベーカリー",
+      "日本式パン",
+      "カフェ"
     ],
     "hours": "Monday: 9:00 AM – 10:00 PM / Tuesday: 9:00 AM – 10:00 PM / Wednesday: 9:00 AM – 10:00 PM / Thursday: 9:00 AM – 10:00 PM / Friday: 9:00 AM – 10:00 PM / Saturday: 9:00 AM – 10:00 PM / Sunday: 9:00 AM – 10:00 PM",
     "last_verified": "2026-03-28",
@@ -8308,7 +8238,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shan-mu-cafe-pj",
@@ -8320,10 +8251,11 @@
     "lng": 101.5901,
     "phone": "+60108218266",
     "website": null,
-    "description": "クアラルンプールにある日本スタイルのカフェ。クアラルンプールに位置し、こだわりのドリンクとスイーツが楽しめる居心地のよい空間。",
+    "description": "ペタリンジャヤのAra Damansaraにある日本スタイルのカフェ。こだわりのドリンクと和スイーツが揃い、在住日本人にも親しまれている静かな空間。",
     "tags": [
       "カフェ",
-      "日本式"
+      "日本式",
+      "PJ"
     ],
     "hours": "Monday: Closed / Tuesday: 11:00 AM – 9:00 PM / Wednesday: 11:00 AM – 9:00 PM / Thursday: 11:00 AM – 9:00 PM / Friday: 11:00 AM – 9:00 PM / Saturday: 10:00 AM – 9:00 PM / Sunday: 10:00 AM – 9:00 PM",
     "last_verified": "2026-03-28",
@@ -8337,7 +8269,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shan-shi-japanese-cafe-and-restaurant",
@@ -8349,10 +8282,11 @@
     "lng": 101.6426,
     "phone": "+601118603131",
     "website": "https://shanshi.com.my/",
-    "description": "日本スタイルの料理が楽しめるレストラン。クアラルンプールに位置し、和食・日本式フードメニューとドリンクが揃う。在住日本人にも利用されている。",
+    "description": "クアラルンプール・Kepong地区にある日本式カフェ＆レストラン「山石」。和食メニューとカフェドリンクを一緒に楽しめる地元密着型の店。",
     "tags": [
       "カフェ",
-      "日本式"
+      "日本料理",
+      "Kepong"
     ],
     "hours": "Monday: Closed / Tuesday: 12:00 – 3:00 PM, 6:00 – 10:00 PM / Wednesday: 12:00 – 3:00 PM, 6:00 – 10:00 PM / Thursday: 12:00 – 3:00 PM, 6:00 – 10:00 PM / Friday: 12:00 – 3:00 PM, 6:00 – 10:00 PM / Saturday: 12:00 – 3:00 PM, 6:00 – 10:00 PM / Sunday: 12:00 – 3:00 PM, 6:00 – 10:00 PM",
     "last_verified": "2026-03-28",
@@ -8366,7 +8300,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shibui-yakitori-bar-kl",
@@ -8378,10 +8313,11 @@
     "lng": 101.6979,
     "phone": "+60146462566",
     "website": null,
-    "description": "日本式居酒屋スタイルのレストラン。クアラルンプールに位置し、焼き鳥・串揚げ・日本酒など居酒屋メニューが揃う。在住日本人にも利用されている。",
+    "description": "チャイナタウン・Jalan Petalingにある日本式居酒屋。焼き鳥・串揚げ・日本酒が揃い、仕事帰りの在住者が集まるKLの居酒屋カルチャー発信地の一つ。",
     "tags": [
-      "カフェ",
-      "日本式"
+      "居酒屋",
+      "焼き鳥",
+      "日本酒"
     ],
     "hours": "Monday: Closed / Tuesday: 12:00 PM – 1:00 AM / Wednesday: 12:00 PM – 1:00 AM / Thursday: 12:00 PM – 1:00 AM / Friday: 12:00 PM – 2:00 AM / Saturday: 12:00 PM – 2:00 AM / Sunday: 12:00 PM – 1:00 AM",
     "last_verified": "2026-03-28",
@@ -8395,114 +8331,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "shogun-vs-caribbean",
-    "name": "Shogun Vs Caribbean",
-    "name_ja": "将軍 Vs カリビアン",
-    "area": "Kota Kinabalu",
-    "address": "KK Times Square Hotel, 88100 Kota Kinabalu, Sabah, Malaysia",
-    "lat": 5.97,
-    "lng": 116.0659,
-    "phone": "+6088486700",
-    "website": null,
-    "description": "コタキナバルにある日本スタイルのカフェ。KKタイムズスクエア内に位置し、こだわりのドリンクとスイーツが楽しめる居心地のよい空間。",
-    "tags": [
-      "カフェ",
-      "日本式"
-    ],
-    "hours": "Monday: 12:00 PM – 12:00 AM / Tuesday: 12:00 PM – 12:00 AM / Wednesday: 12:00 PM – 12:00 AM / Thursday: 12:00 PM – 12:00 AM / Friday: 12:00 PM – 12:00 AM / Saturday: 12:00 PM – 12:00 AM / Sunday: 12:00 PM – 12:00 AM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJNWcCm79pOzIR2Qvw_aKZIm0",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "shojikiya-1-utama",
-    "name": "Shojikiya 1 Utama",
-    "name_ja": "正直屋 1 Utama",
-    "area": "Petaling Jaya",
-    "address": "1 Utama Shopping Centre, 1, Lebuh Bandar Utama, Bandar Utama, 47800 Petaling Jaya",
-    "phone": null,
-    "website": null,
-    "description": "日本の食品・菓子を扱う専門店「正直屋」の1 Utama内店。抹茶スイーツ・調味料・日本の定番商品が揃い在住日本人に人気。",
-    "tags": [
-      "日本食品",
-      "お菓子",
-      "抹茶"
-    ],
-    "hours": "10:00-22:00",
-    "status": "unverified",
-    "last_verified": "2026-03-28",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "shojikiya-mid-valley",
-    "name": "Shojikiya Mid Valley",
-    "name_ja": "正直屋 Mid Valley",
-    "area": "Mid Valley",
-    "address": "Mid Valley Megamall, Mid Valley City, Lingkaran Syed Putra, 59200 Kuala Lumpur",
-    "phone": null,
-    "website": null,
-    "description": "日本の食品・菓子を扱う専門店「正直屋」のミッドバレーメガモール内店。抹茶スイーツ・調味料・日本の定番商品が揃い在住者に人気。",
-    "tags": [
-      "日本食品",
-      "お菓子",
-      "抹茶"
-    ],
-    "hours": "10:00-22:00",
-    "status": "unverified",
-    "last_verified": "2026-03-28",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "shojikiya-pavilion-kl",
-    "name": "Shojikiya (Pavilion KL)",
-    "name_ja": "正直屋 (Pavilion KL)",
-    "area": "Bukit Bintang",
-    "address": "Pavilion Kuala Lumpur, 168 Jalan Bukit Bintang, 55100 Kuala Lumpur",
-    "phone": null,
-    "website": "https://www.shojikiya.com.my/",
-    "description": "日本の食品・菓子・調味料を販売するセレクトショップ。日本直輸入の抹茶菓子・せんべい・ラーメン・カレーなどを購入できる。カフェコーナーもあり。",
-    "tags": [
-      "日本食品",
-      "お菓子",
-      "セレクトショップ"
-    ],
-    "hours": "毎日 10:00-22:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shoku-ya-sushi",
@@ -8514,10 +8344,11 @@
     "lng": 103.7689,
     "phone": "+6073641488",
     "website": null,
-    "description": "日本式寿司・和食レストラン。ジョホールバルに位置し、新鮮なネタを使った寿司と和食メニューが楽しめる。在住日本人にも好評の一軒。",
+    "description": "ジョホールバル南部・Taman JP Perdanaにある日本式寿司レストラン「寿司物语」。新鮮なネタを使った握り・巻き寿司と丼ものが揃い、在住者にも好評。",
     "tags": [
-      "カフェ",
-      "日本式"
+      "寿司",
+      "和食",
+      "ジョホールバル"
     ],
     "hours": "Monday: 12:00 – 10:30 PM / Tuesday: 12:00 – 10:30 PM / Wednesday: 12:00 – 10:30 PM / Thursday: 12:00 – 10:30 PM / Friday: 12:00 – 11:00 PM / Saturday: 12:00 – 11:00 PM / Sunday: 12:00 – 11:00 PM",
     "last_verified": "2026-03-28",
@@ -8531,7 +8362,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shokudo-japanese-cuisine-taman-molek",
@@ -8543,10 +8375,11 @@
     "lng": 103.787,
     "phone": "+60167506332",
     "website": "https://shokudo.my/",
-    "description": "日本スタイルの料理が楽しめるレストラン。ジョホールバルに位置し、和食・日本式フードメニューとドリンクが揃う。在住日本人にも利用されている。",
+    "description": "ジョホールバル・Taman Molekにある日本料理レストラン「食堂」。定食・丼・麺類など日常使いしやすい和食メニューが揃い、地元の在住日本人に親しまれている。",
     "tags": [
-      "カフェ",
-      "日本式"
+      "日本料理",
+      "定食",
+      "ジョホールバル"
     ],
     "hours": "Monday: 11:30 AM – 9:00 PM / Tuesday: 11:30 AM – 9:00 PM / Wednesday: 11:30 AM – 9:00 PM / Thursday: 11:30 AM – 9:00 PM / Friday: 11:30 AM – 9:00 PM / Saturday: 11:30 AM – 9:00 PM / Sunday: 11:30 AM – 9:00 PM",
     "last_verified": "2026-03-28",
@@ -8560,7 +8393,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sim-company",
@@ -8572,10 +8406,11 @@
     "lng": 100.3338,
     "phone": "+6042610522",
     "website": "https://www.facebook.com/simsupplies",
-    "description": "マレーシア・ペナンの日本式カフェ。日本の喫茶文化を感じられるドリンクメニューとスイーツを提供する。リラックスした雰囲気の空間。",
+    "description": "ペナン・Lebuh Carnarvonにある日本スタイルのカフェ。日本の喫茶文化を感じるドリンクメニューとスイーツを提供する、落ち着いた雰囲気の空間。",
     "tags": [
       "カフェ",
-      "日本式"
+      "日本式",
+      "ペナン"
     ],
     "hours": "Monday: 9:00 AM – 7:00 PM / Tuesday: 9:00 AM – 7:00 PM / Wednesday: 9:00 AM – 7:00 PM / Thursday: 9:00 AM – 7:00 PM / Friday: 9:00 AM – 7:00 PM / Saturday: 9:00 AM – 7:00 PM / Sunday: 9:00 AM – 7:00 PM",
     "last_verified": "2026-03-28",
@@ -8589,7 +8424,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sin-seh-kai-artisan-bakery",
@@ -8601,10 +8437,11 @@
     "lng": 100.3267,
     "phone": "+60102147228",
     "website": "https://www.facebook.com/SinSehKaiArtisanBakery/",
-    "description": "日本式ベーカリーカフェ。ペナンに位置し、毎日焼きたてのパンとペストリー、コーヒーや日本茶ドリンクが楽しめる在住者に人気の店舗。",
+    "description": "ペナン・New World Park内にある日本式アルチザンベーカリー。毎日焼きたてのパンとペストリー、コーヒーや日本茶ドリンクが楽しめる在住者に人気の店舗。",
     "tags": [
-      "カフェ",
-      "ベーカリー"
+      "ベーカリー",
+      "日本式パン",
+      "ペナン"
     ],
     "hours": "Monday: 7:30 AM – 6:00 PM / Tuesday: 7:30 AM – 6:00 PM / Wednesday: 7:30 AM – 6:00 PM / Thursday: 7:30 AM – 6:00 PM / Friday: 7:30 AM – 6:00 PM / Saturday: 7:30 AM – 6:00 PM / Sunday: 7:30 AM – 6:00 PM",
     "last_verified": "2026-03-28",
@@ -8618,7 +8455,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "snow-story-penang",
@@ -8628,10 +8466,10 @@
     "address": "18, Lebuh Keng Kwee, George Town, 10100 George Town, Penang",
     "phone": null,
     "website": null,
-    "description": "ペナン・ジョージタウンにある日本式かき氷専門店。ふわふわのかき氷に抹茶・いちご・フルーツなどのトッピングが選べる人気スポット。",
+    "description": "ジョージタウンにある日本人オーナーのかき氷専門店。全てのシロップを天然素材で自家製し、ペナン初の本格的な日本式かき氷を提供していると評判。",
     "tags": [
       "かき氷",
-      "抹茶",
+      "日本式",
       "デザート"
     ],
     "hours": "10:30-18:30",
@@ -8644,36 +8482,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "soffa-patisserie-and-bakery",
-    "name": "Soffa Patisserie and bakery",
-    "name_ja": "ソッファ パティスリー and ベーカリー",
-    "area": "Johor Bahru",
-    "address": "C-01-25, PUSAT KOMERSIAL BAYU TASEK, Persiaran Southkey 1, Southkey, 80150 Johor Bahru, Johor Darul Ta'zim, Malaysia",
-    "lat": 1.4979,
-    "lng": 103.7782,
-    "phone": null,
-    "website": "https://soffapatisserie.com/",
-    "description": "ジョホールバルにある日本式ベーカリーカフェ。焼きたてのパンやペストリー、ドリンクを提供。日本のパン文化をマレーシアで楽しめる。",
-    "tags": [
-      "カフェ",
-      "ベーカリー"
-    ],
-    "hours": "Monday: 11:30 AM – 6:30 PM / Tuesday: 11:30 AM – 6:30 PM / Wednesday: 11:30 AM – 6:30 PM / Thursday: 11:30 AM – 6:30 PM / Friday: 11:30 AM – 6:30 PM / Saturday: 11:30 AM – 7:00 PM / Sunday: 11:30 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJTWkNjr9t2jERfyghlDdu_Nw",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sokyo-japanese-cuisine",
@@ -8685,10 +8495,11 @@
     "lng": 100.32,
     "phone": "+60174111548",
     "website": null,
-    "description": "マレーシア・ペナンにある日本式カフェ。こだわりのコーヒー・ドリンクとスイーツを提供。日本の喫茶文化を感じられる居心地の良い空間。",
+    "description": "ペナン・Anson Cubeにある日本式カフェ「Sokyo」。こだわりのコーヒー・ドリンクと和食メニューを楽しめる、在住日本人からも支持される一軒。",
     "tags": [
       "カフェ",
-      "日本式"
+      "日本料理",
+      "ペナン"
     ],
     "hours": "Monday: 11:30 AM – 3:00 PM, 5:00 – 10:30 PM / Tuesday: 11:30 AM – 3:00 PM, 5:00 – 10:30 PM / Wednesday: 11:30 AM – 3:00 PM, 5:00 – 10:30 PM / Thursday: 11:30 AM – 3:00 PM, 5:00 – 10:30 PM / Friday: 11:30 AM – 3:00 PM, 5:00 – 10:30 PM / Saturday: 11:30 AM – 3:00 PM, 5:00 – 10:30 PM / Sunday: 11:30 AM – 3:00 PM, 5:00 – 10:30 PM",
     "last_verified": "2026-03-28",
@@ -8702,7 +8513,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "something-cafe",
@@ -8714,10 +8526,11 @@
     "lng": 116.0861,
     "phone": "+60162669700",
     "website": null,
-    "description": "コタキナバルにある日本スタイルのカフェ。コタキナバルに位置し、こだわりのドリンクとスイーツが楽しめる居心地のよい空間。在住日本人にも好評。",
+    "description": "コタキナバルにある日本式パティスリーカフェ。matcha tartや日本式ファティーバンなど日本インスパイアのスイーツが人気で、インスタ映えするコンパクトな空間。",
     "tags": [
       "カフェ",
-      "日本式"
+      "日本式スイーツ",
+      "抹茶"
     ],
     "hours": "Monday: Closed / Tuesday: 9:00 AM – 5:00 PM / Wednesday: 9:00 AM – 5:00 PM / Thursday: 9:00 AM – 5:00 PM / Friday: 11:30 AM – 6:30 PM / Saturday: 11:30 AM – 6:30 PM / Sunday: 11:30 AM – 6:30 PM",
     "last_verified": "2026-03-28",
@@ -8731,7 +8544,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "space-cafe",
@@ -8743,10 +8557,11 @@
     "lng": 103.7614,
     "phone": "+60176637562",
     "website": null,
-    "description": "ジョホールバルにある日本スタイルのカフェ。ジョホールバルに位置し、こだわりのドリンクとスイーツが楽しめる居心地のよい空間。",
+    "description": "ジョホールバル・Holiday Villa内にある洗練されたカフェ。Niko Neko matcha使用の抹茶・ほうじ茶ドリンクが揃い、スペシャルティコーヒーと共に楽しめる。",
     "tags": [
       "カフェ",
-      "日本式"
+      "抹茶",
+      "スペシャルティコーヒー"
     ],
     "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: 9:00 AM – 6:00 PM / Sunday: 9:00 AM – 6:00 PM",
     "last_verified": "2026-03-28",
@@ -8760,7 +8575,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "stay-cafe",
@@ -8772,10 +8588,11 @@
     "lng": 116.0827,
     "phone": "+60105070183",
     "website": null,
-    "description": "コタキナバルにある日本スタイルのカフェ。コタキナバルに位置し、こだわりのドリンクとスイーツが楽しめる居心地のよい空間。在住日本人にも好評。",
+    "description": "コタキナバル・Lido Plazaにある日本スタイルのカフェ。こだわりのドリンクとスイーツを提供する、在住日本人にも親しまれている居心地のよい空間。",
     "tags": [
       "カフェ",
-      "日本式"
+      "日本式",
+      "Lido"
     ],
     "hours": "Monday: 9:30 AM – 6:30 PM / Tuesday: 9:30 AM – 6:30 PM / Wednesday: 9:30 AM – 6:30 PM / Thursday: 9:30 AM – 6:30 PM / Friday: 9:30 AM – 6:30 PM / Saturday: 9:30 AM – 6:30 PM / Sunday: 9:30 AM – 6:30 PM",
     "last_verified": "2026-03-28",
@@ -8789,7 +8606,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "step-in-cafe-and-dining",
@@ -8801,10 +8619,11 @@
     "lng": 100.326,
     "phone": "+601155538555",
     "website": "https://www.facebook.com/StepInCafe.Penang/?ref=page_internal",
-    "description": "マレーシア・ペナンにある日本式のカフェ。厳選した食材を使ったスイーツとこだわりのドリンクメニューで、日本の味をマレーシアで楽しめる。",
+    "description": "ペナン・George Townにある日本インスパイアのカフェ＆ダイニング。選び抜いた食材を使ったスイーツと丁寧に淹れたドリンクが楽しめる、隠れ家的な一軒。",
     "tags": [
       "カフェ",
-      "日本式"
+      "日本式",
+      "ペナン"
     ],
     "hours": "Monday: Closed / Tuesday: 11:00 AM – 3:00 PM, 6:00 – 11:00 PM / Wednesday: 11:00 AM – 3:00 PM, 6:00 – 11:00 PM / Thursday: 11:00 AM – 3:00 PM, 6:00 PM – 2:00 AM / Friday: 11:00 AM – 3:00 PM, 6:00 PM – 2:00 AM / Saturday: 11:00 AM – 3:00 PM, 6:00 PM – 2:00 AM / Sunday: 11:00 AM – 3:00 PM, 6:00 – 11:00 PM",
     "last_verified": "2026-03-28",
@@ -8818,7 +8637,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sun-moulin-bakery-bangsar",
@@ -8828,11 +8648,11 @@
     "address": "Bangsar, Kuala Lumpur",
     "phone": null,
     "website": null,
-    "description": "バンサーにある日本式ベーカリー。日本の職人が手がけるパンは、もちもちの食感と素材の風味が特徴。食パン・カレーパン・メロンパンなど定番の日本のパンが揃う。",
+    "description": "バンサーエリアにある日本人創業のベーカリー「Sun Moulin」。ヤマザキグループ系のKL老舗日本式パン店で、食パン・あんパン・カレーパンなど定番が揃う。",
     "tags": [
       "ベーカリー",
       "日本式パン",
-      "テイクアウト"
+      "バンサー"
     ],
     "hours": null,
     "status": "unverified",
@@ -8844,7 +8664,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sun-moulin-bakery-klcc",
@@ -8854,10 +8675,10 @@
     "address": "Isetan KLCC, Suria KLCC, Kuala Lumpur",
     "phone": null,
     "website": null,
-    "description": "1998年創業の日本人オーナーによるベーカリー。伊勢丹KLCC内に出店し、日本の製パン技術とマレーシアのフレーバーを融合させたパンを提供。人気商品は早い時間に売り切れることが多い。",
+    "description": "伊勢丹KLCC内にある日本人創業のベーカリー「Sun Moulin」。1999年創業、ヤマザキグループ系のKL老舗。人気商品は早い時間に売り切れることが多い。",
     "tags": [
       "ベーカリー",
-      "日本人経営",
+      "日本式パン",
       "伊勢丹内"
     ],
     "hours": "10:00-22:00",
@@ -8870,7 +8691,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sun-moulin-bakery-mont-kiara",
@@ -8880,11 +8702,11 @@
     "address": "Mont Kiara, Kuala Lumpur",
     "phone": null,
     "website": null,
-    "description": "日本人オーナーによるベーカリーのモントキアラ店。日本の製パン技術を活かしたパンを毎日焼きたてで提供。食パン・カレーパン・あんパンなど定番の日本のパンが揃う。",
+    "description": "モントキアラの日本人居住エリアにある日本人創業ベーカリー「Sun Moulin」。毎日焼きたての食パン・カレーパン・あんパンが地元在住者に支持されている。",
     "tags": [
       "ベーカリー",
-      "日本人経営",
-      "日本式パン"
+      "日本式パン",
+      "モントキアラ"
     ],
     "hours": null,
     "last_verified": "2026-03-27",
@@ -8896,33 +8718,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sun-moulin-bakery-mont-kiara-cafe",
-    "name": "Sun Moulin Bakery Mont Kiara",
-    "name_ja": "サンムーラン モンキアラ店",
-    "area": "Mont Kiara",
-    "address": "Mont Kiara, 50480 Kuala Lumpur",
-    "phone": null,
-    "website": null,
-    "description": "日本人パティシエによるアルチザンベーカリー。モントキアラエリアに位置し、クロワッサン・食パン・フォカッチャなど毎日焼きたてのパンを提供。",
-    "tags": [
-      "ベーカリー",
-      "クロワッサン",
-      "食パン"
-    ],
-    "hours": "8:00-19:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sun-moulin-bakery-pavilion-kl",
@@ -8932,10 +8729,11 @@
     "address": "Pavilion Kuala Lumpur, 168, Jalan Bukit Bintang, 55100 Kuala Lumpur",
     "phone": null,
     "website": null,
-    "description": "Pavilion内にある日本式ベーカリーカフェ。焼きたてのパンやペストリー、ドリンクを提供。日本のパン文化をマレーシアで楽しめる。",
+    "description": "Pavilion KL内にある日本式ベーカリー「Sun Moulin」。ヤマザキグループ系のKL老舗で、焼きたての日本式パンをショッピングついでに購入できる。",
     "tags": [
       "ベーカリー",
-      "パン"
+      "日本式パン",
+      "Pavilion内"
     ],
     "hours": "10:00-22:00",
     "status": "unverified",
@@ -8947,7 +8745,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sunbather-coffee",
@@ -8959,10 +8758,11 @@
     "lng": 101.6676,
     "phone": "+60175989965",
     "website": "https://app.foodlink.my/sunbathercoffee",
-    "description": "日本式スペシャルティコーヒーが楽しめるカフェ。クアラルンプールに位置し、丁寧にドリップしたコーヒーと軽食・スイーツが揃う在住者にも人気の一軒。",
+    "description": "Bangsar South・The Sphereにある日本式yoshoku＆スペシャルティコーヒーカフェ。アジツケタマゴサンド・日本式ライスボウルなど、在日経験者に響くメニューが並ぶ。",
     "tags": [
       "カフェ",
-      "日本式"
+      "yoshoku",
+      "スペシャルティコーヒー"
     ],
     "hours": "Monday: 10:00 AM – 10:00 PM / Tuesday: 10:00 AM – 10:00 PM / Wednesday: 10:00 AM – 10:00 PM / Thursday: 10:00 AM – 10:00 PM / Friday: 9:30 AM – 10:00 PM / Saturday: 10:00 AM – 10:00 PM / Sunday: 10:00 AM – 10:00 PM",
     "last_verified": "2026-03-28",
@@ -8976,7 +8776,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sunday-morning-coffee-shop",
@@ -8988,10 +8789,11 @@
     "lng": 103.7641,
     "phone": "+60149148198",
     "website": "http://www.instagram.com/sundaymorning_sundaymorning",
-    "description": "日本式スペシャルティコーヒーが楽しめるカフェ。ジョホールバルに位置し、丁寧にドリップしたコーヒーと軽食・スイーツが揃う在住者にも人気の一軒。",
+    "description": "JBチェックポイントから徒歩10分のJalan Trus 2Fにある日本インスパイアのカフェ。ハンドドリップコーヒー×日本式ホームスタイルフードで、フィルムラボも併設。",
     "tags": [
       "カフェ",
-      "日本式"
+      "日本式",
+      "ハンドドリップ"
     ],
     "hours": "Monday: 9:00 AM – 5:00 PM / Tuesday: 9:00 AM – 5:00 PM / Wednesday: Closed / Thursday: 9:00 AM – 5:00 PM / Friday: 9:00 AM – 5:00 PM / Saturday: 9:00 AM – 5:00 PM / Sunday: 9:00 AM – 5:00 PM",
     "last_verified": "2026-03-28",
@@ -9005,7 +8807,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-king-centre-point",
@@ -9017,10 +8820,11 @@
     "lng": 116.0716,
     "phone": "+6088251055",
     "website": "https://sushi-king.com/",
-    "description": "マレーシア全土に展開する回転寿司チェーン「Sushi King」のCentre Point内店。日本スタイルの寿司・巻き寿司が手頃な価格で楽しめる。",
+    "description": "コタキナバル・Centre Point Sabah内にある回転寿司チェーン「Sushi King」。マレーシア全土展開のチェーンで、手頃な価格の日本式寿司・巻き寿司が揃う。",
     "tags": [
-      "カフェ",
-      "日本式"
+      "寿司",
+      "回転寿司",
+      "チェーン"
     ],
     "hours": "Monday: 11:00 AM – 9:30 PM / Tuesday: 11:00 AM – 9:30 PM / Wednesday: 11:00 AM – 9:30 PM / Thursday: 11:00 AM – 9:30 PM / Friday: 11:00 AM – 9:30 PM / Saturday: 10:30 AM – 9:30 PM / Sunday: 10:30 AM – 9:30 PM",
     "last_verified": "2026-03-28",
@@ -9034,7 +8838,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-king-imago",
@@ -9046,10 +8851,11 @@
     "lng": 116.0665,
     "phone": null,
     "website": null,
-    "description": "マレーシア全土に展開する回転寿司チェーン「Sushi King」のImago内店。日本スタイルの寿司・巻き寿司が手頃な価格で楽しめる。",
+    "description": "コタキナバル・Imago内にある回転寿司チェーン「Sushi King」。マレーシア全土展開のチェーンで、手頃な価格の日本式寿司・巻き寿司がショッピングついでに楽しめる。",
     "tags": [
-      "カフェ",
-      "日本式"
+      "寿司",
+      "回転寿司",
+      "チェーン"
     ],
     "hours": "Monday: 10:00 AM – 9:30 PM / Tuesday: 10:00 AM – 9:30 PM / Wednesday: 10:00 AM – 9:30 PM / Thursday: 10:00 AM – 9:30 PM / Friday: 10:00 AM – 9:30 PM / Saturday: 10:00 AM – 9:30 PM / Sunday: 10:00 AM – 9:30 PM",
     "last_verified": "2026-03-28",
@@ -9063,7 +8869,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-plus-pelangi",
@@ -9075,10 +8882,11 @@
     "lng": 103.7666,
     "phone": "+60106685528",
     "website": "http://www.sushiplus2020.com/",
-    "description": "日本式寿司・和食レストラン。ジョホールバルに位置し、新鮮なネタを使った寿司と和食メニューが楽しめる。在住日本人にも好評の一軒。",
+    "description": "ジョホールバル・Taman Pelangiにある日本式寿司レストラン。新鮮なネタを使った握り・巻き寿司と和食メニューが揃い、在住者に好評の地元密着型店。",
     "tags": [
-      "カフェ",
-      "日本式"
+      "寿司",
+      "和食",
+      "ジョホールバル"
     ],
     "hours": "Monday: 11:00 AM – 10:00 PM / Tuesday: 11:00 AM – 10:00 PM / Wednesday: 11:00 AM – 10:00 PM / Thursday: 11:00 AM – 10:00 PM / Friday: 11:00 AM – 10:00 PM / Saturday: 11:00 AM – 10:00 PM / Sunday: 11:00 AM – 10:00 PM",
     "last_verified": "2026-03-28",
@@ -9092,7 +8900,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-shin-jb",
@@ -9104,10 +8913,11 @@
     "lng": 103.7667,
     "phone": "+601126756181",
     "website": "http://www.sushishinjb.com/",
-    "description": "日本式寿司・和食レストラン。ジョホールバルに位置し、新鮮なネタを使った寿司と和食メニューが楽しめる。在住日本人にも好評の一軒。",
+    "description": "ジョホールバル・Sri Tebrauにある日本式寿司レストラン「鮨真」。旬の食材を使った本格的な握り寿司が楽しめる、在住日本人にも評価の高い一軒。",
     "tags": [
-      "カフェ",
-      "日本式"
+      "寿司",
+      "和食",
+      "ジョホールバル"
     ],
     "hours": "Monday: Closed / Tuesday: 12:00 – 3:00 PM, 6:00 – 10:00 PM / Wednesday: 12:00 – 3:00 PM, 6:00 – 10:00 PM / Thursday: 12:00 – 3:00 PM, 6:00 – 10:00 PM / Friday: 12:00 – 3:00 PM, 6:00 – 10:00 PM / Saturday: 12:00 – 3:00 PM, 6:00 – 10:00 PM / Sunday: 12:00 – 3:00 PM, 6:00 – 10:00 PM",
     "last_verified": "2026-03-28",
@@ -9121,7 +8931,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-yoru",
@@ -9133,10 +8944,11 @@
     "lng": 103.7727,
     "phone": "+601111803482",
     "website": null,
-    "description": "日本式寿司・和食レストラン。ジョホールバルに位置し、新鮮なネタを使った寿司と和食メニューが楽しめる。在住日本人にも好評の一軒。",
+    "description": "ジョホールバル・Taman Pelangiにある日本式寿司レストラン「鮨夜」。新鮮なネタを使った握り・巻き寿司と和食メニューが楽しめる、夜に映える雰囲気の店。",
     "tags": [
-      "カフェ",
-      "日本式"
+      "寿司",
+      "和食",
+      "ジョホールバル"
     ],
     "hours": "Monday: Closed / Tuesday: 12:00 – 2:00 PM, 6:00 – 10:30 PM / Wednesday: 12:00 – 2:00 PM, 6:00 – 10:30 PM / Thursday: 12:00 – 2:00 PM, 6:00 – 10:30 PM / Friday: 12:00 – 2:00 PM, 6:00 – 10:30 PM / Saturday: 12:00 – 2:00 PM, 6:00 – 10:30 PM / Sunday: 12:00 – 2:00 PM, 6:00 – 10:30 PM",
     "last_verified": "2026-03-28",
@@ -9150,7 +8962,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushihan-suria-sabah",
@@ -9162,10 +8975,11 @@
     "lng": 116.0779,
     "phone": "+6088211662",
     "website": "https://www.instagram.com/sushihan.sabah",
-    "description": "Suria Sabah内の日本式カフェ。日本の喫茶文化を感じられるドリンクメニューとスイーツを提供。リラックスした空間。",
+    "description": "コタキナバル・Suria Sabah Mall内にある日本料理レストラン「Sushihan」。200種超の和食メニューが揃い、コタキナバルの日本食シーンで定番の存在。",
     "tags": [
-      "カフェ",
-      "日本式"
+      "日本料理",
+      "寿司",
+      "Suria Sabah"
     ],
     "hours": "Monday: 11:00 AM – 10:00 PM / Tuesday: 11:00 AM – 10:00 PM / Wednesday: 11:00 AM – 10:00 PM / Thursday: 11:00 AM – 10:00 PM / Friday: 11:00 AM – 10:00 PM / Saturday: 11:00 AM – 10:00 PM / Sunday: 11:00 AM – 10:00 PM",
     "last_verified": "2026-03-28",
@@ -9179,36 +8993,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "syurga-dessert",
-    "name": "Syurga Dessert",
-    "name_ja": "シュルガ デザート",
-    "area": "Johor Bahru",
-    "address": "21, Jalan Aliff 4, Taman Damansara Aliff, 81200 Johor Bahru, Johor Darul Ta'zim, Malaysia",
-    "lat": 1.51,
-    "lng": 103.7199,
-    "phone": "+60127839972",
-    "website": null,
-    "description": "マレーシア・ジョホールバルにある日本式スイーツカフェ。繊細な和洋スイーツとこだわりのドリンクを提供。甘いもの好きの日本人に人気。",
-    "tags": [
-      "カフェ",
-      "スイーツ"
-    ],
-    "hours": "Monday: 11:00 AM – 9:00 PM / Tuesday: 11:00 AM – 9:00 PM / Wednesday: 11:00 AM – 9:00 PM / Thursday: 11:00 AM – 9:00 PM / Friday: 11:00 AM – 9:00 PM / Saturday: 11:00 AM – 9:00 PM / Sunday: 11:00 AM – 9:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJpXMp6Xlz2jERHd-ZPSQlqD4",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "t-culture",
@@ -9220,10 +9006,11 @@
     "lng": 116.076,
     "phone": "+6088276816",
     "website": "http://www.facebook.com/Tculturekk",
-    "description": "コタキナバルにある日本スタイルのカフェ。Wisma Merdeka内に位置し、こだわりのドリンクとスイーツが楽しめる居心地のよい空間。",
+    "description": "コタキナバル・Wisma Merdeka 2Fにある日本スタイルのカフェ。鶏から揚げバーガー・照り焼きボウル・ほうじ茶ラテなど日本テイストのメニューが揃う。",
     "tags": [
       "カフェ",
-      "日本式"
+      "日本式フュージョン",
+      "Wisma Merdeka"
     ],
     "hours": "Monday: 10:00 AM – 5:00 PM / Tuesday: 10:00 AM – 5:00 PM / Wednesday: 10:00 AM – 5:00 PM / Thursday: 10:00 AM – 5:00 PM / Friday: 10:00 AM – 5:00 PM / Saturday: 10:00 AM – 5:00 PM / Sunday: 10:00 AM – 5:00 PM",
     "last_verified": "2026-03-28",
@@ -9237,7 +9024,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tako-tao",
