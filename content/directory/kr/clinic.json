@@ -28,7 +28,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "amred-clinic-gangnam",
@@ -54,91 +55,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "banobagi-busan",
-    "name": "바노바기의원 부산ㅣBANOBAGI BUSANㅣバノバギクリニック釜山ㅣ佰诺佰琪皮肤科 釜山",
-    "name_ja": "바노바기의원 부산ㅣBANOBAGI BUSANㅣバノバギクリニック釜山ㅣ佰诺佰琪皮肤科 釜山",
-    "area": "Busan",
-    "address": "South Korea, Busan, Busanjin District, Seomyeon-ro, 74 아이온시티빌딩 16층",
-    "lat": 35.1572,
-    "lng": 129.0581,
-    "phone": "+82517116508",
-    "website": "https://www.banobagiclinic1.com/",
-    "description": "釜山にある美容皮膚科クリニック「バノバギクリニック」。外国人患者への対応実績があり、肌管理・ボトックス・フィラー施術を提供する。",
-    "tags": [
-      "美容皮膚科"
-    ],
-    "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 4:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJhfwKZw_raDURABEl70gwIYE",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "beauty-blossom-clinic-hongdae-hapjeong",
-    "name": "뷰티블라썸의원 홍대합정｜ビューティーブロッサムクリニック｜Beauty Blossom Clinic Hongdae-Hapjeong｜丽朵皮肤科（弘大合井）",
-    "name_ja": "뷰티블라썸의원 홍대합정｜ビューティーブロッサムクリニック｜Beauty Blossom Clinic Hongdae-Hapjeong｜丽朵皮肤科（弘大合井）",
-    "area": "Seoul",
-    "address": "South Korea, Seoul, Mapo-gu, Yanghwa-ro, 66 접수6층",
-    "lat": 37.5506,
-    "lng": 126.9161,
-    "phone": "+8223367511",
-    "website": "https://beautyblossom.kr/",
-    "description": "弘大・合井エリアにある美容皮膚科クリニック「ビューティーブロッサム」。外国人患者への対応実績があり肌管理・レーザー施術を提供する。",
-    "tags": [
-      "美容皮膚科"
-    ],
-    "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 4:30 PM / Sunday: 10:00 AM – 4:30 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJISItKACZfDURUW3tP9G6Dlc",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "belleamie-renovo-skin-clinic-hongdae-dermatology",
-    "name": "Belleamie Renovo Skin Clinic hongdae 벨아미리노보 홍대 dermatology ホンデ美容外科 韩国皮肤科",
-    "name_ja": "Belleamie Renovo Skin Clinic hongdae 벨아미리노보 홍대 dermatology ホンデ美容外科 韩国皮肤科",
-    "area": "Incheon",
-    "address": "South Korea, Seoul, Mapo-gu, Yanghwa-ro, 176 와이즈파크 5층",
-    "lat": 37.5573,
-    "lng": 126.9253,
-    "phone": "+82231414282",
-    "website": "http://www.renovoh.co.kr/",
-    "description": "弘大にある美容皮膚科クリニック「ベルアミリノボ」。外国人患者への対応実績があり、肌管理・レーザー・リジュラン等の施術を提供する。",
-    "tags": [
-      "美容皮膚科"
-    ],
-    "hours": "Monday: 10:30 AM – 7:30 PM / Tuesday: 1:00 – 9:00 PM / Wednesday: 10:30 AM – 7:30 PM / Thursday: 10:30 AM – 7:30 PM / Friday: 1:00 – 9:00 PM / Saturday: 10:00 AM – 3:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJJd9IGVOZfDURYkudNCa2mOo",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "better-me-clinic-gangnam",
@@ -169,35 +87,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "bywon-clinic",
-    "name": "바이원클리닉ㅣBywon Clinicㅣバイウォン クリニック",
-    "name_ja": "바이원클리닉ㅣBywon Clinicㅣバイウォン クリニック",
-    "area": "Incheon",
-    "address": "110 Dosan-daero, Gangnam District, Seoul, South Korea",
-    "lat": 37.5162,
-    "lng": 127.021,
-    "phone": "+8225181820",
-    "website": "http://bywonclinic.com/",
-    "description": "ソウルにある美容皮膚科クリニック「バイウォンクリニック」。外国人患者への対応実績があり、肌管理・レーザー・リフティング施術を提供する。",
-    "tags": [
-      "美容皮膚科"
-    ],
-    "hours": "Monday: 10:00 AM – 7:00 PM / Tuesday: 10:00 AM – 7:00 PM / Wednesday: Closed / Thursday: 10:00 AM – 7:00 PM / Friday: 10:00 AM – 7:00 PM / Saturday: 10:00 AM – 4:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJT58Vq-mjfDUR95OD2wuGjCE",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "catholic-university-seoul-st-marys",
@@ -223,123 +114,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "cellin-clinic-hongdae-english-speaking-dermatologist",
-    "name": "Cellin Clinic Hongdae 셀린의원 홍대점 | English Speaking Dermatologist | ホンデ 皮膚科 ほくろ除去 | 弘大 医美 皮膚管理",
-    "name_ja": "セリンクリニック 弘大",
-    "area": "Seoul",
-    "address": "South Korea, Seoul, Mapo-gu, Yanghwa-ro, 162 셀린의원 홍대점 15층",
-    "lat": 37.5564,
-    "lng": 126.9239,
-    "phone": "+8218006156",
-    "website": "http://hongdae.cellinclinic.com/en",
-    "description": "弘大にある美容皮膚科クリニック。英語対応でリフティング・レーザー・肌管理などの施術を提供。弘大入口駅から徒歩圏内に位置する。",
-    "tags": [
-      "英語対応",
-      "美容皮膚科",
-      "弘大"
-    ],
-    "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 5:00 PM / Sunday: 10:00 AM – 5:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJjS5kC4KZfDURcB3FFTo5ObE",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "cellin-clinic-myeongdong-english-speaking-dermatologist-skin-clinic-near-myeongd",
-    "name": "Cellin Clinic Myeongdong 셀린의원 명동점 | english speaking dermatologist | skin clinic near myeongdong | 皮膚科 | シミ取り | ウルセラ",
-    "name_ja": "セリンクリニック 明洞",
-    "area": "Seoul",
-    "address": "South Korea, Seoul, Jung District, Namdaemun-ro 7-gil, 16 셀린의원 명동점 1층",
-    "lat": 37.5642,
-    "lng": 126.9811,
-    "phone": "+82237890824",
-    "website": "https://cellinclinicmyeongdong.com/",
-    "description": "明洞にある美容皮膚科「セリンクリニック」明洞店。ウルセラ、サーマジェンFLX、レジュラン等を提供。英語対応。明洞駅5番出口から徒歩10分。",
-    "tags": [
-      "英語対応",
-      "美容皮膚科",
-      "明洞"
-    ],
-    "hours": "Monday: 10:30 AM – 8:30 PM / Tuesday: 10:30 AM – 8:30 PM / Wednesday: 10:30 AM – 8:30 PM / Thursday: 10:30 AM – 8:30 PM / Friday: 10:30 AM – 8:30 PM / Saturday: 10:00 AM – 5:00 PM / Sunday: 10:00 AM – 5:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJWwpzkfSjfDUR3ajQd_iL_C4",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "d-day-dermatologyandplasticsurgery-in-busan-korea-and",
-    "name": "디데이의원 D-DAY Dermatology&PlasticSurgery in Busan KOREA ディーデイクリニック 诊所 皮肤科&整形外科",
-    "name_ja": "디데이의원 D-DAY Dermatology&PlasticSurgery in Busan KOREA ディーデイクリニック 诊所 皮肤科&整形外科",
-    "area": "Busan",
-    "address": "South Korea, Busan, Jung-gu, Gudeok-ro 34beon-gil, 4, New Nampo Building, 2층",
-    "lat": 35.0983,
-    "lng": 129.0323,
-    "phone": "+82512453210",
-    "website": "https://dday.clinic/",
-    "description": "釜山にある美容皮膚科・成形外科クリニック「D-DAYクリニック」。外国人患者への対応実績があり、肌管理・レーザー・リフティング施術を提供する。",
-    "tags": [
-      "美容皮膚科"
-    ],
-    "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 3:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJq0p1zzjpaDURNfD35ylN49Y",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "daybeau-clinic-yeouido-daybeau",
-    "name": "데이뷰의원 여의도점 여의도 피부과 Daybeau Clinic Yeouido デイビュークリニック 汝矣島院 Daybeau 皮肤科汝矣岛分院 เดย์บิวคลินิก สาขายออิโดะ",
-    "name_ja": "데이뷰의원 여의도점 여의도 피부과 Daybeau Clinic Yeouido デイビュークリニック 汝矣島院 Daybeau 皮肤科汝矣岛分院 เดย์บิวคลินิก สาขายออิโดะ",
-    "area": "Seoul",
-    "address": "17 Gukjegeumyung-ro 2-gil, Yeongdeungpo District, Seoul, South Korea",
-    "lat": 37.5241,
-    "lng": 126.926,
-    "phone": "+82221355664",
-    "website": "https://www.daybeauclinic08.com/branch/",
-    "description": "汝矣島エリアにある美容皮膚科クリニック「デイビュークリニック」。外国人患者への対応実績があり、肌管理・レーザー・リフティングを提供する。",
-    "tags": [
-      "美容皮膚科"
-    ],
-    "hours": "Monday: 10:30 AM – 8:30 PM / Tuesday: 10:30 AM – 8:30 PM / Wednesday: 10:30 AM – 8:30 PM / Thursday: 10:30 AM – 8:30 PM / Friday: 10:30 AM – 8:30 PM / Saturday: 10:00 AM – 4:30 PM / Sunday: 10:00 AM – 4:30 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJu5ZpfACffDURRd51Yk_1o-E",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "dental-san-city-hall",
@@ -370,63 +146,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "dermatology-near-me-ohvelyjoo-clinic-hongdae-skin-clinic-rejuran-ultherapy",
-    "name": "오블리주의원 홍대 | dermatology near me Ohvelyjoo Clinic hongdae skin clinic | Rejuran | ultherapy | オブリージュクリニック サーマクール | 歐薇麗珠診所 鳳凰電波",
-    "name_ja": "오블리주의원 홍대 | dermatology near me Ohvelyjoo Clinic hongdae skin clinic | Rejuran | ultherapy | オブリージュクリニック サーマクール | 歐薇麗珠診所 鳳凰電波",
-    "area": "Seoul",
-    "address": "South Korea, Seoul, Mapo-gu, Yanghwa-ro, 165 상진빌딩 11층",
-    "lat": 37.5572,
-    "lng": 126.9237,
-    "phone": "+8223935541",
-    "website": "http://ohvelyjoo.com/",
-    "description": "弘大にある美容皮膚科「オブリージュクリニック」。サーマクール・リジュラン・ウルセラなどのリフティング施術に対応している。",
-    "tags": [
-      "美容皮膚科"
-    ],
-    "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 5:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJi3dank2ZfDURU39R7RPQOBg",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "doctor-petit",
-    "name": "닥터쁘띠의원(명동점) Doctor Petit 明洞店",
-    "name_ja": "닥터쁘띠의원(명동점) Doctor Petit 明洞店",
-    "area": "Seoul",
-    "address": "South Korea, Seoul, Jung District, Toegye-ro, 145, Sejong Hotel, 2층",
-    "lat": 37.5615,
-    "lng": 126.988,
-    "phone": "+82269538433",
-    "website": "http://myeongdong.doctorpetit.com/",
-    "description": "明洞にある美容クリニック「ドクタープチ」明洞店。外国人患者への対応実績があり、肌管理・ボトックス・フィラー施術を提供する。",
-    "tags": [
-      "美容皮膚科"
-    ],
-    "hours": "Monday: 10:00 AM – 7:30 PM / Tuesday: 10:00 AM – 7:30 PM / Wednesday: 10:00 AM – 7:30 PM / Thursday: 10:00 AM – 7:30 PM / Friday: 10:00 AM – 7:30 PM / Saturday: 10:00 AM – 5:00 PM / Sunday: 10:00 AM – 5:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJXxwk2MejfDURUX7XLjZTnFI",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "double-m-clinic-gangnam",
@@ -457,63 +178,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "dr-evers-clinic-busan-seomyeon",
-    "name": "부산서면 닥터에버스의원 ㅣ Dr.Evers Clinic Busan Seomyeonㅣ爱肤师皮肤科 釜山 西面店ㅣドクターエバース医院",
-    "name_ja": "부산서면 닥터에버스의원 ㅣ Dr.Evers Clinic Busan Seomyeonㅣ爱肤师皮肤科 釜山 西面店ㅣドクターエバース医院",
-    "area": "Busan",
-    "address": "South Korea, Busan, Busanjin District, Gaya-daero, 772 롯데호텔 부산 7층",
-    "lat": 35.1567,
-    "lng": 129.0563,
-    "phone": "+82517107508",
-    "website": "https://evers23.co.kr/",
-    "description": "釜山西面にある美容皮膚科クリニック「Dr.Eversクリニック」。外国人患者への対応実績があり、肌管理・ボトックス・フィラー施術を提供する。",
-    "tags": [
-      "美容皮膚科"
-    ],
-    "hours": "Monday: 9:00 AM – 8:00 PM / Tuesday: 9:00 AM – 8:00 PM / Wednesday: 9:00 AM – 8:00 PM / Thursday: 9:00 AM – 8:00 PM / Friday: 9:00 AM – 8:00 PM / Saturday: 9:00 AM – 4:30 PM / Sunday: 9:00 AM – 4:30 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJD8OzWprraDUR8DTHZBak8N0",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "el-centum-el-clinic-dermatology",
-    "name": "센텀엘의원(피부과) センタムELクリニック (釜山皮膚科), centum el clinic (dermatology)",
-    "name_ja": "센텀엘의원(피부과) センタムELクリニック (釜山皮膚科), centum el clinic (dermatology)",
-    "area": "Busan",
-    "address": "South Korea, Busan, Haeundae, センタム2路 Centum 2-ro, 10 道路名住所 5F 5층 釜山広域市 海雲台区(ヘウンデグ) 佑洞(ウドン",
-    "lat": 35.1678,
-    "lng": 129.1316,
-    "phone": "+82517233650",
-    "website": "http://elclinic.kr/",
-    "description": "釜山センタムシティエリアにある美容皮膚科クリニック「センタムELクリニック」。外国人患者にも対応し、肌管理・レーザー・美容施術を提供する。",
-    "tags": [
-      "美容皮膚科"
-    ],
-    "hours": "Monday: 10:00 AM – 8:30 PM / Tuesday: 10:00 AM – 8:30 PM / Wednesday: 10:00 AM – 7:00 PM / Thursday: 10:00 AM – 8:30 PM / Friday: 10:00 AM – 7:00 PM / Saturday: 10:00 AM – 3:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJ68ZfWMaTaDUR2bfcEV1lKCc",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "floria-clinic-busan-seomyeon",
@@ -545,7 +211,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "forte-clinic-gangnam",
@@ -571,7 +238,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "four-seasons-plastic-surgery-busan",
@@ -604,7 +272,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "gangnam-eureka-dental",
@@ -636,7 +305,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "gangnam-severance-hospital",
@@ -662,20 +332,23 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "gangnam-skin-clinin-sia-sia",
-    "name": "강남 피부과 시아클리닉/시아의원 | Gangnam skin clinin SIA | シアクリニック江南店 | 韓國江南 SIA 皮膚科",
-    "name_ja": "강남 피부과 시아클리닉/시아의원 | Gangnam skin clinin SIA | シアクリニック江南店 | 韓國江南 SIA 皮膚科",
+    "name": "SIA Clinic Gangnam",
+    "name_ja": "シアクリニック 江南",
     "area": "Seoul",
     "address": "South Korea, Seoul, Gangnam District, Gangnam-daero, 488 센트럴스퀘어 4층",
     "lat": 37.5059,
     "lng": 127.0243,
     "phone": "+821095297118",
     "website": "https://gangnam.sia-clinic.com/about",
-    "description": "江南エリアにある美容皮膚科「シアクリニック」。日本語・英語・中国語対応。スキンケア・リフティング・レーザー施術を提供する。",
+    "description": "江南エリアにある美容皮膚科「シアクリニック」。日本語・英語・中国語に対応し、スキンケア・リフティング・レーザー施術を提供する。",
     "tags": [
+      "日本語対応",
+      "英語対応",
       "美容皮膚科"
     ],
     "hours": "Monday: 10:30 AM – 8:30 PM / Tuesday: 10:30 AM – 8:30 PM / Wednesday: 10:30 AM – 8:30 PM / Thursday: 10:30 AM – 8:30 PM / Friday: 10:30 AM – 8:30 PM / Saturday: 10:30 AM – 6:30 PM / Sunday: 10:30 AM – 6:30 PM",
@@ -690,7 +363,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "golden-balance-clinic-gangnam",
@@ -723,7 +397,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "h-plus-yangji-hospital",
@@ -749,131 +424,24 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "h-plus-yangji-hospital-intl",
-    "name": "H+ Yangji Hospital International Medical Center",
-    "name_ja": "H+ヤンジ病院 国際医療センター",
-    "area": "Gwanak-gu",
-    "address": "120-1 Sunhwan-ro, Gwanak-gu, Seoul",
-    "phone": "+82070466593640",
-    "website": null,
-    "description": "冠岳区に位置する総合病院の国際医療センター。日本人専用電話（070-4665-9364）で日本語対応。内科・外科・検診など幅広い診療に対応する。",
-    "tags": [
-      "日本語対応",
-      "総合病院",
-      "国際診療"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "website",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "hera",
-    "name": "江南HERAクリニック",
-    "name_ja": "江南HERAクリニック",
-    "area": "Incheon",
-    "address": "South Korea, Seoul, Seocho District, Seocho-daero 73-gil, ９ 1층, 2층",
-    "lat": 37.4983,
-    "lng": 127.0252,
-    "phone": null,
-    "website": "https://page.line.me/gnhera",
-    "description": "江南エリアにある美容皮膚科クリニック「HERAクリニック」。外国人患者への対応実績があり、肌管理・リフティング・レーザー施術を提供する。",
-    "tags": [
-      "美容皮膚科"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJ5yf_BQChfDUR-1c3xQlH2OA",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "heyday-clinic-myeongdong-heyday",
-    "name": "헤이데이의원 명동 | HEYDAY CLINIC Myeongdong | Heyday医院 明洞 | ヘイデイクリニック明洞店",
-    "name_ja": "헤이데이의원 명동 | HEYDAY CLINIC Myeongdong | Heyday医院 明洞 | ヘイデイクリニック明洞店",
-    "area": "Seoul",
-    "address": "South Korea, 세미콜론 Jung District, Myeong-dong, Namdaemun-ro, 90 헤이데이의원 7층 KR 서울특별시",
-    "lat": 37.5651,
-    "lng": 126.983,
-    "phone": "+82262630302",
-    "website": "https://heydayclinic2.com/",
-    "description": "明洞にある美容皮膚科クリニック「ヘイデイクリニック」。外国人患者に対応し、肌管理・レーザー治療・美白などの美容施術を提供する。",
-    "tags": [
-      "美容皮膚科"
-    ],
-    "hours": "Monday: 10:30 AM – 8:30 PM / Tuesday: 10:30 AM – 7:30 PM / Wednesday: 10:30 AM – 7:30 PM / Thursday: 10:30 AM – 7:30 PM / Friday: 10:30 AM – 8:30 PM / Saturday: 10:30 AM – 6:00 PM / Sunday: 10:30 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJEaGUENhoUmERk-YLNtvG0LE",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "id-clinic-hongdae-id-id",
-    "name": "Id Clinic Hongdae - id微整中心弘大店 - ホンデid美容クリニック",
-    "name_ja": "Id Clinic Hongdae - id微整中心弘大店 - ホンデid美容クリニック",
-    "area": "Seoul",
-    "address": "South Korea, Seoul, Mapo-gu, Yanghwa-ro, 140 에이치큐브빌딩 10층",
-    "lat": 37.5552,
-    "lng": 126.922,
-    "phone": "+82269587536",
-    "website": "https://twhk.idclinic.co.kr/hd",
-    "description": "弘大にある美容クリニック「idクリニック」弘大店。日本語を含む多言語対応で、リフティング・レーザー・肌管理などの施術を提供する。",
-    "tags": [
-      "美容皮膚科"
-    ],
-    "hours": "Monday: 10:00 AM – 8:30 PM / Tuesday: 10:00 AM – 8:30 PM / Wednesday: 10:00 AM – 8:30 PM / Thursday: 10:00 AM – 8:30 PM / Friday: 10:00 AM – 8:30 PM / Saturday: 10:00 AM – 5:00 PM / Sunday: 10:00 AM – 5:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJ1TPZJQCZfDUR90FwzJP_J5o",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "id-clinic-myeongdong-id",
-    "name": "id clinic Myeongdong / 韓国id美容クリニック明洞店 / 명동아이디의원",
-    "name_ja": "idクリニック明洞店",
+    "name": "id Clinic Myeongdong",
+    "name_ja": "idクリニック 明洞店",
     "area": "Seoul",
     "address": "South Korea, Seoul, Jung District, Namdaemun-ro, 90 세미콜론 빌딩 19층",
     "lat": 37.5651,
     "lng": 126.9829,
     "phone": "+82233964000",
     "website": "https://eng.idclinic.co.kr/md?utm_source=brandsearch&utm_medium=google&utm_campaign=md_website_map_20251218",
-    "description": "明洞にある美容クリニック。日本語ウェブサイトを完備し、日本語対応スタッフが在籍。リフティング・スキンブースター・ボトックス・フィラーなど韓国美容施術を提供。乙支路入口駅から徒歩2分。",
+    "description": "明洞の美容クリニック「idクリニック」。日本語対応スタッフが在籍し、リフティング・スキンブースター・ボトックス・フィラーなど美容施術を提供。乙支路入口駅から徒歩2分。",
     "tags": [
-      "美容皮膚科"
+      "日本語対応",
+      "美容皮膚科",
+      "明洞"
     ],
     "hours": "Monday: 10:30 AM – 8:30 PM / Tuesday: 10:30 AM – 8:30 PM / Wednesday: 10:30 AM – 8:30 PM / Thursday: 10:30 AM – 8:30 PM / Friday: 10:30 AM – 8:30 PM / Saturday: 10:00 AM – 4:00 PM / Sunday: 10:00 AM – 4:00 PM",
     "last_verified": "2026-03-28",
@@ -887,34 +455,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "inha-university-hospital-ichon",
-    "name": "Ichon Japanese Clinic Area",
-    "name_ja": "二村日本人向けクリニックエリア",
-    "area": "Yongsan-gu (Ichon)",
-    "address": "Ichon-dong, Yongsan-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "二村のリトルトーキョーには日本語対応の小規模クリニックが複数集まっている。内科、小児科、皮膚科など日常的な診療を日本語で受けられる。ロハスクリニック以外にも選択肢がある。",
-    "tags": [
-      "日本語対応",
-      "内科",
-      "小児科",
-      "二村"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "japanese-medical-village-ichon",
@@ -942,7 +484,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "jaseng-hospital-gangnam",
@@ -969,63 +512,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "jfeel-jfeel-jfeel-jfeel-dermatology-gangnam-branch",
-    "name": "강남 피부과 제이필의원ㅣJfeelクリニック江南店ㅣJfeel桔艺菲医院ㅣJfeel皮膚科ㅣJfeel Dermatology Gangnam Branchㅣเจฟิลคลินิก, เจฟิลคลินิกผิวหนัง สาขากังนัม",
-    "name_ja": "강남 피부과 제이필의원ㅣJfeelクリニック江南店ㅣJfeel桔艺菲医院ㅣJfeel皮膚科ㅣJfeel Dermatology Gangnam Branchㅣเจฟิลคลินิก, เจฟิลคลินิกผิวหนัง สาขากังนัม",
-    "area": "Seoul",
-    "address": "South Korea, Seoul, Gangnam District, Gangnam-daero, 438 지하 1층",
-    "lat": 37.5015,
-    "lng": 127.0263,
-    "phone": "+8225330060",
-    "website": "http://www.jfeeldermatology.com/",
-    "description": "江南にある美容皮膚科クリニック「Jfeelクリニック」江南店。外国人患者への対応実績があり、肌管理・レーザー・リフティング施術を提供する。",
-    "tags": [
-      "美容皮膚科"
-    ],
-    "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 5:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJJXgnOKCZfDURtNTF_1rFV1o",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "jfeel-jfeel-jfeel-jfeel-dermatology-hongdae-branch",
-    "name": "제이필의원 홍대점ㅣJfeelクリニック弘大店ㅣJfeel桔艺菲医院ㅣJfeel皮膚科ㅣJfeel Dermatology Hongdae Branchㅣเจฟิลคลินิกสาขาฮงแด",
-    "name_ja": "제이필의원 홍대점ㅣJfeelクリニック弘大店ㅣJfeel桔艺菲医院ㅣJfeel皮膚科ㅣJfeel Dermatology Hongdae Branchㅣเจฟิลคลินิกสาขาฮงแด",
-    "area": "Seoul",
-    "address": "South Korea, Seoul, Mapo-gu, Yanghwa-ro, 166 미래프라자 5&7층",
-    "lat": 37.5568,
-    "lng": 126.9241,
-    "phone": "+8225330060",
-    "website": "http://www.jfeeldermatology.com/",
-    "description": "弘大にある美容皮膚科クリニック「Jfeelクリニック」。外国人患者への対応実績があり、肌管理・レーザー・リフティング施術を提供する。",
-    "tags": [
-      "美容皮膚科"
-    ],
-    "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 5:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJnfWHo6eZfDURokgLl5YUwk0",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "jk-plastic-surgery-gangnam",
@@ -1057,7 +545,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "konkuk-university-hospital",
@@ -1083,7 +572,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kyunghee-university-hospital-gangdong",
@@ -1110,35 +600,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "l-floria-clinic-l-l-l",
-    "name": "플로리아의원 l FLORIA CLINIC l フロリアクリニック l 弗洛丽雅医院 l 釜山 皮膚科",
-    "name_ja": "플로리아의원 l FLORIA CLINIC l フロリアクリニック l 弗洛丽雅医院 l 釜山 皮膚科",
-    "area": "Busan",
-    "address": "South Korea, Busan, 상가 동 KR 부산광역시 부산진구 부전동 536 18번지 201호 이랜드 PEER 서면",
-    "lat": 35.152,
-    "lng": 129.0595,
-    "phone": "+82518086020",
-    "website": "https://litt.ly/floriaclinic",
-    "description": "釜山にある美容皮膚科クリニック「フロリアクリニック」。外国人患者への対応実績があり、肌管理・リフティング・レーザー施術を提供する。",
-    "tags": [
-      "美容皮膚科"
-    ],
-    "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 4:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJAYp9jXDraDURsLhAuvuYSfU",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "le-dental-gangnam",
@@ -1170,35 +633,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "leebeauty-myeongdong-spa-lee-hea-kyung-aesthetics-and-head-spa",
-    "name": "Leebeauty Myeongdong spa 이혜경에스테틱(LEE HEA KYUNG) Aesthetics & Head Spa • イヘギョン",
-    "name_ja": "Leebeauty Myeongdong spa 이혜경에스테틱(LEE HEA KYUNG) Aesthetics & Head Spa • イヘギョン",
-    "area": "Seoul",
-    "address": "55 Myeongdong-gil, Jung District, Seoul, South Korea",
-    "lat": 37.5641,
-    "lng": 126.9854,
-    "phone": "+8227530790",
-    "website": "http://www.leefootface.com/",
-    "description": "明洞にあるエステ＆ヘッドスパサロン「イヘギョン」。フェイシャル・フットリフレ・ヘッドスパを提供し、外国人客への対応実績がある。",
-    "tags": [
-      "美容皮膚科"
-    ],
-    "hours": "Monday: 10:30 AM – 10:00 PM / Tuesday: 10:30 AM – 10:00 PM / Wednesday: 10:30 AM – 10:00 PM / Thursday: 10:30 AM – 10:00 PM / Friday: 10:30 AM – 10:00 PM / Saturday: 10:30 AM – 10:00 PM / Sunday: 10:30 AM – 10:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJ08AO5O-ifDURcjJXmXGKGAc",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "lienjang-clinic-gangnam",
@@ -1230,7 +666,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "lienjang-clinic-myeongdong",
@@ -1262,7 +699,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "lohas-clinic-ichon",
@@ -1290,34 +728,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "lohas-medical-clinic",
-    "name": "Lohas Medical Clinic",
-    "name_ja": "ロハスメディカルクリニック",
-    "area": "Yongsan-gu (Ichon)",
-    "address": "264 Ichon-ro, Yongsan-gu, Seoul, 3F Room 305",
-    "phone": "+8227907470",
-    "website": null,
-    "description": "二村の日本人街にある日本語対応のクリニック。内科・家庭医学科・産婦人科・小児科・皮膚科・耳鼻咽喉科と幅広い診療科目に対応。日本人駐在員とその家族に利用されている。",
-    "tags": [
-      "日本語対応",
-      "内科",
-      "小児科",
-      "皮膚科"
-    ],
-    "hours": "平日 9:00〜13:00, 14:00〜18:00 / 土 9:00〜14:00",
-    "status": "unverified",
-    "source": "website",
-    "last_verified": "2026-03-26",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "metech-busan-seomyeon",
@@ -1348,91 +760,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "misoan-clinic-cosmetic-plastic-surgery-dermatology-skin-care",
-    "name": "미소안의원 Misoan Clinic [ cosmetic plastic surgery, dermatology, skin care 釜山皮膚科 釜山成形外科 부산보톡스 부산필러 부산리프팅 ]",
-    "name_ja": "미소안의원 Misoan Clinic [ cosmetic plastic surgery, dermatology, skin care 釜山皮膚科 釜山成形外科 부산보톡스 부산필러 부산리프팅 ]",
-    "area": "Busan",
-    "address": "South Korea, Busan, Jung-gu, Gudeok-ro, 40 12 층 미소안의원 misoan clinic",
-    "lat": 35.0985,
-    "lng": 129.0316,
-    "phone": "+82512570097",
-    "website": "http://www.misoan.kr/",
-    "description": "釜山にある美容皮膚科・成形外科クリニック「ミソアンクリニック」。ボトックス・フィラー・リフティングに対応し外国人患者にも対応する。",
-    "tags": [
-      "美容皮膚科"
-    ],
-    "hours": "Monday: 10:00 AM – 6:00 PM / Tuesday: 10:00 AM – 6:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: Closed / Friday: 10:00 AM – 6:00 PM / Saturday: 10:00 AM – 2:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJyR165ArpaDURlzp7L7_xkFw",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "muse-clinic-myeongdong",
-    "name": "명동 뮤즈의원 MUSE Clinic Myeongdong 缪斯整容醫院(明洞)",
-    "name_ja": "명동 뮤즈의원 MUSE Clinic Myeongdong 缪斯整容醫院(明洞)",
-    "area": "Seoul",
-    "address": "South Korea, Seoul, Jung District, Myeong-dong, Toegye-ro, 97, Goryo Daeyeongak Tower, 3층",
-    "lat": 37.5609,
-    "lng": 126.9825,
-    "phone": "+8227545599",
-    "website": "http://myeongdong.museclinic.co.kr/",
-    "description": "明洞にある美容皮膚科クリニック「ミューズクリニック」。外国人患者への対応実績があり、肌管理・リフティング・美白施術を提供する。",
-    "tags": [
-      "美容皮膚科"
-    ],
-    "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 9:00 AM – 3:00 PM / Sunday: 9:00 AM – 3:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJUZ4Y3qSjfDURo3qlyai87xs",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "nain-clinic",
-    "name": "나인의원 홍대입구역 / NAIN CLINIC / ナインクリニック / 娜人皮肤科",
-    "name_ja": "나인의원 홍대입구역 / NAIN CLINIC / ナインクリニック / 娜人皮肤科",
-    "area": "Seoul",
-    "address": "165 Yanghwa-ro, Mapo-gu, Seoul, South Korea",
-    "lat": 37.5572,
-    "lng": 126.9237,
-    "phone": "+8223259990",
-    "website": "https://www.9skin2.co.kr/",
-    "description": "弘大入口駅近くにある美容皮膚科「ナインクリニック」。外国人患者への対応実績があり、肌管理・レーザー・美白施術を提供する。",
-    "tags": [
-      "美容皮膚科"
-    ],
-    "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 5:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJp53EegCZfDURpcf1TLJnRr0",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "oracle-dermatology-cheongdam",
@@ -1458,39 +787,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "peche-clinic",
-    "name": "페슈의원 Peche Clinic 佩舒皮肤科 江南 ペシュ クリニック 江南",
-    "name_ja": "페슈의원 Peche Clinic 佩舒皮肤科 江南 ペシュ クリニック 江南",
-    "area": "Incheon",
-    "address": "South Korea, Seoul, Gangnam District, Gangnam-daero, 364 미왕빌딩 3층",
-    "lat": 37.4956,
-    "lng": 127.0293,
-    "phone": "+8225538176",
-    "website": "https://www.pecheskin.clinic/",
-    "description": "江南にある美容皮膚科クリニック「ペシュクリニック」。外国人患者への対応実績があり、肌管理・リフティング・レーザー施術を提供する。",
-    "tags": [
-      "美容皮膚科"
-    ],
-    "hours": "Monday: 10:30 AM – 9:00 PM / Tuesday: 10:30 AM – 9:00 PM / Wednesday: 10:30 AM – 9:00 PM / Thursday: 10:30 AM – 9:00 PM / Friday: 10:30 AM – 9:00 PM / Saturday: 10:00 AM – 6:00 PM / Sunday: 10:00 AM – 6:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJH6GFHTqhfDURM1rp1ISjOc4",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "plan-s-clinic-myeongdong",
-    "name": "플랜에스의원 명동（プランエスクリニック明洞) PLAN;S CLINIC MyeongDong",
+    "name": "PLAN;S CLINIC Myeongdong",
     "name_ja": "プランエスクリニック 明洞",
     "area": "Seoul",
     "address": "7 Myeongdong 8na-gil, Jung District, Seoul, South Korea",
@@ -1516,35 +818,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "ppang-clinic-ppang",
-    "name": "팡클리닉 (PPANG CLINIC / パンクリニック / PPANG 醫美)",
-    "name_ja": "팡클리닉 (PPANG CLINIC / パンクリニック / PPANG 醫美)",
-    "area": "Incheon",
-    "address": "South Korea, Seoul, Mapo-gu, Yanghwa-ro, 140 에이치큐브 건물 9층",
-    "lat": 37.5551,
-    "lng": 126.922,
-    "phone": "+82262299090",
-    "website": "http://ppangclinic.com/",
-    "description": "ソウルにある美容皮膚科クリニック「パンクリニック（PPANG CLINIC）」。外国人患者への対応実績があり、肌管理・レーザー・美容施術を提供する。",
-    "tags": [
-      "美容皮膚科"
-    ],
-    "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 5:00 PM / Sunday: 10:00 AM – 5:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJqX4pP0yZfDURSMvhfgXnHwA",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "renewme-skin-clinic-busan",
@@ -1575,7 +850,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "samsung-medical-center",
@@ -1602,7 +878,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "seoul-asan-medical-center",
@@ -1628,7 +905,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "seoul-national-university-hospital",
@@ -1655,7 +933,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "seye-clinic-gangnam",
@@ -1686,7 +965,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shine-beam-clinic-gangnam",
@@ -1717,40 +997,13 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "snow",
-    "name": "스노우의원 부산서면점 | スノークリニック 釜山西面店 | 釜山 美容クリニック | 釜山皮膚科 SNOW醫療診所 釜山西面店",
-    "name_ja": "스노우의원 부산서면점 | スノークリニック 釜山西面店 | 釜山 美容クリニック | 釜山皮膚科 SNOW醫療診所 釜山西面店",
-    "area": "Busan",
-    "address": "South Korea, Busan, Busanjin District, Jungang-daero, 736 10층",
-    "lat": 35.1584,
-    "lng": 129.06,
-    "phone": "+8250713036616",
-    "website": "https://busan-snow.co.kr/",
-    "description": "釜山西面エリアにある美容皮膚科クリニック「スノークリニック」。外国人患者への対応実績があり、リフティング・レーザー・肌管理施術を提供する。",
-    "tags": [
-      "美容皮膚科"
-    ],
-    "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 4:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJBctvaADraDUROMkNwDbDTAg",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "snow-global-clinic",
-    "name": "스노우글로벌의원 • Snow Global Clinic • スノーグローバルクリニック • 诗诺国际皮肤科医院",
-    "name_ja": "스노우글로벌의원 • Snow Global Clinic • スノーグローバルクリニック • 诗诺国际皮肤科医院",
+    "name": "Snow Global Clinic",
+    "name_ja": "スノーグローバルクリニック",
     "area": "Seoul",
     "address": "South Korea, Seoul, Seocho District, Gangnam-daero 69-gil, 8 5층",
     "lat": 37.5018,
@@ -1759,6 +1012,7 @@
     "website": "https://gangnam-snow.co.kr/",
     "description": "江南エリアにある美容クリニック「スノーグローバル」。日本語対応あり。新論峴駅7番出口から徒歩5分。リフティング・脱毛・肌改善施術を提供。",
     "tags": [
+      "日本語対応",
       "美容皮膚科"
     ],
     "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 8:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 5:00 PM / Sunday: Closed",
@@ -1773,33 +1027,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "soonchunhyang-university-hospital",
-    "name": "Soonchunhyang University Hospital",
-    "name_ja": "順天郷大学付属病院 国際クリニックセンター",
-    "area": "Yongsan-gu",
-    "address": "59 Taesagwan-ro, Yongsan-gu, Seoul",
-    "phone": "+8227099058",
-    "website": "https://www.schmc.ac.kr/",
-    "description": "龍山エリアの順天郷大学付属病院で、国際クリニックセンターに日本語対応窓口がある。漢南駅から徒歩5〜7分の位置に立地している。",
-    "tags": [
-      "日本語対応",
-      "総合病院",
-      "国際クリニック"
-    ],
-    "hours": "日本語窓口: 平日 9:00〜11:30, 13:30〜16:30 / 土 9:00〜11:30",
-    "status": "unverified",
-    "source": "website",
-    "last_verified": "2026-03-26",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "soonchunhyang-university-hospital-yongsan",
@@ -1825,123 +1054,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "the-first-skin-clinic",
-    "name": "더퍼스트피부과의원 부산본점 | THE FIRST SKIN CLINIC | ザ・ファースト皮膚科 釜山本店",
-    "name_ja": "더퍼스트피부과의원 부산본점 | THE FIRST SKIN CLINIC | ザ・ファースト皮膚科 釜山本店",
-    "area": "Busan",
-    "address": "South Korea, Busan, Geumgok-daero, 287 7층 KR 부산광역시 북구 화명3동",
-    "lat": 35.2342,
-    "lng": 129.0133,
-    "phone": "+82519292999",
-    "website": "http://www.thefirstskin.co.kr/",
-    "description": "釜山にある美容皮膚科クリニック「ザ・ファースト皮膚科」。外国人患者への対応実績があり、肌管理・レーザー・リフティング施術を提供する。",
-    "tags": [
-      "美容皮膚科"
-    ],
-    "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 7:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 7:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 9:30 AM – 2:30 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJG6lwpEeVaDURZWgN7FLAQzo",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "the-heal-dermatology-english-speaking-dermatologist",
-    "name": "The Heal Dermatology | English Speaking Dermatologist | 더힐피부과 동대문 | 東大門 美容皮膚科 肌管理 | ソウル皮膚科 皮膚管理",
-    "name_ja": "The Heal Dermatology | English Speaking Dermatologist | 더힐피부과 동대문 | 東大門 美容皮膚科 肌管理 | ソウル皮膚科 皮膚管理",
-    "area": "Incheon",
-    "address": "2층 201호~207호, 길 6 힐스테이트 청량리 더퍼스트, 36 Wangsan-ro, Dongdaemun District, Seoul, South Korea",
-    "lat": 37.5793,
-    "lng": 127.0435,
-    "phone": "+8229603469",
-    "website": "http://thehealddm.com/",
-    "description": "東大門エリアにある美容皮膚科クリニック「ザ・ヒール皮膚科」。英語対応あり、肌管理・レーザー・ピーリングなどの施術を提供する。",
-    "tags": [
-      "美容皮膚科"
-    ],
-    "hours": "Monday: 10:00 AM – 1:00 PM, 2:00 – 8:00 PM / Tuesday: 10:00 AM – 1:00 PM, 2:00 – 7:00 PM / Wednesday: 10:00 AM – 1:00 PM, 2:00 – 7:00 PM / Thursday: 10:00 AM – 1:00 PM, 2:00 – 8:00 PM / Friday: 10:00 AM – 1:00 PM, 2:00 – 8:00 PM / Saturday: 10:00 AM – 4:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJG409tyC7fDUR8hFyqaw6q1k",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "theia-dermatology-clinic-korean-dermatologist-near-me-seoul-clinic-klinik-kulit",
-    "name": "TheiA dermatology Clinic 테이아의원|korean dermatologist near me 韓國皮膚管理 皮膚科近く|seoul clinic 皮膚科推薦|附近皮肤科 テイアクリニック 江南皮膚科|klinik kulit",
-    "name_ja": "TheiA dermatology Clinic 테이아의원|korean dermatologist near me 韓國皮膚管理 皮膚科近く|seoul clinic 皮膚科推薦|附近皮肤科 テイアクリニック 江南皮膚科|klinik kulit",
-    "area": "Incheon",
-    "address": "South Korea, Seoul, Seocho District, Gangnam-daero, 407 14 15층",
-    "lat": 37.4992,
-    "lng": 127.0261,
-    "phone": "+82269596704",
-    "website": "https://theiaclinic.co.kr/kr",
-    "description": "江南エリアにある美容皮膚科クリニック「テイアクリニック」。外国語対応あり、肌管理・リフティング・レーザー・ケミカルピーリングを提供する。",
-    "tags": [
-      "美容皮膚科"
-    ],
-    "hours": "Monday: 10:00 AM – 9:00 PM / Tuesday: 10:00 AM – 9:00 PM / Wednesday: 10:00 AM – 9:00 PM / Thursday: 10:00 AM – 9:00 PM / Friday: 10:00 AM – 9:00 PM / Saturday: 10:00 AM – 9:00 PM / Sunday: 10:00 AM – 9:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJKwnnsb6hfDUR90B4E7MD5sI",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "threewishes-myeondong-branch",
-    "name": "세가지소원 명동점│Threewishes myeondong branch│セカジソウォン 明洞店",
-    "name_ja": "세가지소원 명동점│Threewishes myeondong branch│セカジソウォン 明洞店",
-    "area": "Seoul",
-    "address": "South Korea, Seoul, Jung District, Myeongdong 8ga-gil, 33 3층",
-    "lat": 37.5618,
-    "lng": 126.986,
-    "phone": "+8227782500",
-    "website": null,
-    "description": "明洞にある美容クリニック「セカジソウォン」。外国人患者への対応実績があり、肌管理・レーザー・各種美容皮膚科施術を提供する。",
-    "tags": [
-      "美容皮膚科"
-    ],
-    "hours": "Monday: 10:00 AM – 7:00 PM / Tuesday: 10:00 AM – 7:00 PM / Wednesday: 10:00 AM – 7:00 PM / Thursday: 10:00 AM – 7:00 PM / Friday: 10:00 AM – 7:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJmUeFyNmjfDUR26vDZe_eAZM",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tones-clinic-myeongdong-chinese-japaness-english",
-    "name": "Tone's Clinic Myeongdong,톤즈의원 명동,Chinese, Japaness, English, 韓國皮膚科, 韓國醫美,トンズ",
+    "name": "Tone's Clinic Myeongdong",
     "name_ja": "トンズクリニック 明洞",
     "area": "Seoul",
     "address": "South Korea, 세미콜론 Myeong-dong, KR 서울특별시 중구 남대문로 90, 14층 (남대문로2가",
@@ -1967,35 +1085,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "towerhill-therapy",
-    "name": "TOWERHILL THERAPY 부산 남포동 마사지 타워힐테라피 タワーヒルセラピー",
-    "name_ja": "TOWERHILL THERAPY 부산 남포동 마사지 타워힐테라피 タワーヒルセラピー",
-    "area": "Busan",
-    "address": "10 Gwangbok-ro 97beon-gil, Jung-gu, Busan, South Korea",
-    "lat": 35.0996,
-    "lng": 129.0356,
-    "phone": "+82512466685",
-    "website": "https://blog.naver.com/tower6685",
-    "description": "釜山南浦洞にあるマッサージ・セラピーサロン「タワーヒルセラピー」。外国人客への対応実績があり、ボディケア・リラクゼーション施術を提供する。",
-    "tags": [
-      "美容皮膚科"
-    ],
-    "hours": "Monday: 10:30 AM – 2:00 AM / Tuesday: 10:30 AM – 2:00 AM / Wednesday: 10:30 AM – 2:00 AM / Thursday: 10:30 AM – 2:00 AM / Friday: 10:30 AM – 2:00 AM / Saturday: 10:30 AM – 2:00 AM / Sunday: 10:30 AM – 2:00 AM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJ31x5QXPpaDUR9VCW3pDVOHw",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "toxnfill-gangnam",
@@ -2026,12 +1117,13 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "triomphedr-clinic-and-aesthetic",
-    "name": "TriompheDr. Clinic & Aesthetic 트리옹프닥터의원 トリオンプ・ドクター医院",
-    "name_ja": "TriompheDr. Clinic & Aesthetic 트리옹프닥터의원 トリオンプ・ドクター医院",
+    "name": "TriompheDr. Clinic & Aesthetic",
+    "name_ja": "トリオンプドクター医院",
     "area": "Seoul",
     "address": "16 Myeongdong 9-gil, Jung District, Seoul, South Korea",
     "lat": 37.5646,
@@ -2040,7 +1132,9 @@
     "website": "http://www.triomphedr.com/",
     "description": "明洞にある美容クリニック「トリオンプドクター医院」。日本語対応あり、スキンリフティング・美白・脂肪溶解注射などを提供する。",
     "tags": [
-      "美容皮膚科"
+      "日本語対応",
+      "美容皮膚科",
+      "明洞"
     ],
     "hours": "Monday: 10:30 AM – 8:30 PM / Tuesday: 10:30 AM – 8:30 PM / Wednesday: 10:30 AM – 8:30 PM / Thursday: 10:30 AM – 8:30 PM / Friday: 10:30 AM – 8:30 PM / Saturday: 10:00 AM – 4:30 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
@@ -2054,7 +1148,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tu-dental-sinnonhyeon",
@@ -2086,39 +1181,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "uh-cell-doctorpetit-gangnam-clinic-uh-cell-gangnam-doctorpetit",
-    "name": "닥터쁘띠 강남점 (UH CELL 강남점) | Doctorpetit Gangnam Clinic (UH CELL Gangnam) / ドクタープチ江南店 / Doctorpetit江南店 首爾醫美",
-    "name_ja": "닥터쁘띠 강남점 (UH CELL 강남점) | Doctorpetit Gangnam Clinic (UH CELL Gangnam) / ドクタープチ江南店 / Doctorpetit江南店 首爾醫美",
-    "area": "Incheon",
-    "address": "South Korea, Seoul, Gangnam District, Teheran-ro 8-gil, 13 WD빌딩 2,3층",
-    "lat": 37.498,
-    "lng": 127.0316,
-    "phone": "+82269410375",
-    "website": "http://uhcell.com/",
-    "description": "江南にある美容クリニック「ドクタープチ江南店（UH CELL）」。外国人患者への対応実績があり、肌管理・ボトックス・フィラー施術を提供する。",
-    "tags": [
-      "美容皮膚科"
-    ],
-    "hours": "Monday: 10:00 AM – 8:00 PM / Tuesday: 10:00 AM – 8:00 PM / Wednesday: 10:00 AM – 8:00 PM / Thursday: 10:00 AM – 5:00 PM / Friday: 10:00 AM – 8:00 PM / Saturday: 10:00 AM – 5:00 PM / Sunday: 10:00 AM – 5:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJoSMfVA6hfDURSQnJU12-2Ow",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "val-u-skin-clinic-myeongdong-english-chinese-japanese-support-cosmetic-dermatolo",
-    "name": "Val:U Skin clinic Myeongdong: English, Chinese, Japanese Support Cosmetic Dermatology Care",
+    "name": "Val:U Skin Clinic Myeongdong",
     "name_ja": "バリュースキンクリニック 明洞",
     "area": "Seoul",
     "address": "South Korea, Seoul, Jung District, Myeongdong-gil, 32 벨유의원 4층",
@@ -2129,6 +1197,7 @@
     "description": "明洞にある美容皮膚科「バリュークリニック」。ボトックス、フィラー、リフティング、肌再生など多数の施術を提供。日本語・英語・中国語対応。明洞ギル32、4F。",
     "tags": [
       "日本語対応",
+      "英語対応",
       "美容皮膚科",
       "明洞"
     ],
@@ -2144,7 +1213,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "white-style-dental-gangnam",
@@ -2176,7 +1246,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "wooridul-spine-hospital",
@@ -2202,7 +1273,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "xenia-clinic-gangnam",
@@ -2234,7 +1306,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yonsei-severance-hospital",
@@ -2260,7 +1333,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "seoul-international-clinic",
@@ -2273,17 +1347,12 @@
     "email": null,
     "website": "http://www.internationalclinic.co.kr/",
     "source_url": "https://expathealthseoul.com/listing/international-clinic.html",
-    "description": "1987年創業の梨泰院・漢南洞エリアの外国人向けクリニック。英語対応で在韓外国人・旅行者が長年利用する信頼の総合クリニック。",
-    "detail": "1987年創業の老舗外国人向けクリニック「ソウル・インターナショナル・クリニック」。梨泰院から近い漢南ビル501号に位置する。英語での診察が可能な総合クリニックで、在韓外国人コミュニティに長年愛用されている。月・火・水・金 9:00〜18:00、土曜 9:00〜14:00の営業（木曜・日曜定休、昼休み12:00〜14:00）。内科、外科など一般診療が中心。",
-    "menu": null,
-    "price_range": null,
+    "description": "1987年創業の梨泰院・漢南洞エリアの外国人向け総合クリニック。英語での診察が可能で、在韓外国人や日本人旅行者が長年利用している信頼の医療機関。",
     "tags": [
-      "クリニック",
       "英語対応",
       "外国人向け",
       "内科",
-      "漢南洞",
-      "梨泰院"
+      "総合クリニック"
     ],
     "hours": "月水金 9:00〜18:00、土 9:00〜14:00（木・日・祝休）",
     "status": "unverified",
@@ -2295,76 +1364,7 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "severance-hospital-international",
-    "name": "Severance Hospital International Healthcare Center",
-    "name_ja": "セブランス病院 国際診療センター",
-    "area": "新村",
-    "address": "50-1 Yonsei-ro, Seodaemun-gu, Seoul",
-    "phone": null,
-    "phone_local": null,
-    "email": null,
-    "website": "https://sev.severance.healthcare/sev-en/",
-    "source_url": "https://sev.severance.healthcare/sev-en/patients/contact.do",
-    "description": "延世大学附属のセブランス病院の国際診療センター。英語・日本語・中国語など多言語で外国人患者をサポートする総合病院。",
-    "detail": "延世大学医科大学附属のセブランス病院の国際診療センター。外国人患者向けに英語・日本語・中国語・ロシア語・フランス語などの通訳サービスを提供する総合病院。全科対応の大学病院で、専門的な医療が受けられる。新村駅（2号線）から徒歩圏内のアクセスしやすい立地。事前予約が推奨。",
-    "menu": null,
-    "price_range": null,
-    "tags": [
-      "病院",
-      "多言語対応",
-      "英語対応",
-      "日本語対応",
-      "外国人向け",
-      "新村"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-04-05",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "samsung-seoul-hospital-international",
-    "name": "Samsung Seoul Hospital International Health Care Center",
-    "name_ja": "サムスンソウル病院 国際診療センター",
-    "area": "江南（逆三洞）",
-    "address": "81 Irwon-ro, Gangnam-gu, Seoul",
-    "phone": null,
-    "phone_local": null,
-    "email": null,
-    "website": null,
-    "source_url": "https://www.internationalinsurance.com/hospitals/south-korea/",
-    "description": "江南の三星グループ系最高水準の総合病院。英語・日本語・中国語・ロシア語・仏語に対応した国際診療センターを設置。",
-    "detail": "江南区逆三洞に位置するサムスングループ系の高水準総合病院「サムスンソウル病院」の国際診療センター。英語・日本語・中国語・ロシア語・フランス語に堪能な医師・看護師・コーディネーターが在籍。循環器、腫瘍、外科、内科など全専門科を完備した大学病院レベルの総合医療機関。在韓外国人、医療目的の渡航者に広く利用される。",
-    "menu": null,
-    "price_range": null,
-    "tags": [
-      "病院",
-      "多言語対応",
-      "英語対応",
-      "日本語対応",
-      "外国人向け",
-      "江南"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-04-05",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   }
 ]
