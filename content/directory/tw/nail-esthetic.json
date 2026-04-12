@@ -21,7 +21,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "aoki",
@@ -45,7 +46,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "brillant-nail-salon",
@@ -69,7 +71,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "byyu-lash",
@@ -93,7 +96,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "chue",
@@ -117,7 +121,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "colorful-nails",
@@ -141,7 +146,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "esthetics-salon-kaohsiung-japanese",
@@ -169,7 +175,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "esthetics-salon-taichung-japanese-2",
@@ -179,7 +186,7 @@
     "address": "台中市西區民生路155號",
     "phone": "+886422275533",
     "website": "",
-    "description": "台中市西区にある日本式エステサロン。フェイシャルエステ・ボディケア・まつげエクステを提供し、日本語でのカウンセリングが可能。台中在住の日本人女性がリラクゼーションとビューティーケアをまとめて楽しめる総合エステサロン。日本の美容技術を台中で体験できる。",
+    "description": "台中市西区にある日本式エステサロン。フェイシャルエステ・ボディケア・まつげエクステを日本語でオーダーできる。台中在住の日本人女性に人気。",
     "tags": [
       "エステ",
       "フェイシャル",
@@ -197,61 +204,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "esthetics-salon-tianmu-japanese",
-    "name": "Japanese Esthetics Salon Tianmu",
-    "name_ja": "天母 日本式エステサロン",
-    "area": "台北 士林区 天母",
-    "address": "Tianmu, Shilin District, Taipei",
-    "phone": null,
-    "website": null,
-    "description": "天母エリアの日本式エステサロン。日本人在住者が多い天母で、フェイシャル・ボディケアを日本語で受けられる。天母在住の日本人女性に利用されている。",
-    "tags": [
-      "日本語対応",
-      "エステ",
-      "フェイシャル",
-      "天母"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "esthetics-salon-zhongshan-japanese",
-    "name": "Japanese Esthetics Salon Zhongshan",
-    "name_ja": "中山区 日本式エステサロン",
-    "area": "台北 中山区",
-    "address": "Zhongshan District, Taipei",
-    "phone": null,
-    "website": null,
-    "description": "台北中山区の日本式エステサロン。フェイシャルエステ・ボディケアを日本式の丁寧な技術で提供。日本語でのカウンセリングが可能で、在台日本人女性に人気。",
-    "tags": [
-      "日本語対応",
-      "エステ",
-      "フェイシャル",
-      "中山区"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "eyelash-salon-hsinchu-japanese",
@@ -279,111 +233,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "eyelash-salon-xinyi-japanese",
-    "name": "Japanese Eyelash Salon Xinyi",
-    "name_ja": "信義区 日系まつ毛サロン",
-    "area": "台北 信義区",
-    "address": "Xinyi District, Taipei",
-    "phone": null,
-    "website": null,
-    "description": "台北信義区の日本語対応まつ毛エクステサロン。日本式の施術スタイルで、信義エリアに住む日本人女性が利用できる。ナチュラル・ボリュームなど各種スタイルに対応。",
-    "tags": [
-      "日本語対応",
-      "まつ毛エクステ",
-      "信義区"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "eyelash-salon-zhongshan",
-    "name": "Eyelash Salon Zhongshan",
-    "name_ja": "中山区 まつ毛エクステサロン",
-    "area": "台北 中山区",
-    "address": "Zhongshan District, Taipei",
-    "phone": null,
-    "website": null,
-    "description": "台北中山区の日本語対応まつ毛エクステサロン。日本語でのカウンセリングが可能で、丁寧な施術と自然な仕上がりが好評。在台日本人女性に利用されている。",
-    "tags": [
-      "日本語対応",
-      "まつ毛エクステ",
-      "中山区"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "fa-taipei-nail-xinyi",
-    "name": "F/A Taipei Nail & Eyelash Xinyi",
-    "name_ja": "F/Aタイペイ ネイル＆アイラッシュ 信義",
-    "area": "台北 大安区",
-    "address": "Xinyi District, Taipei",
-    "phone": null,
-    "website": null,
-    "description": "信義エリアにあるネイル＆まつ毛エクステサロン。日本式のネイルアートや丁寧な施術で知られ、在台外国人・日本人女性に人気。TripAdvisorでも高評価。",
-    "tags": [
-      "ネイル",
-      "まつ毛エクステ",
-      "信義区"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "fa-taipei-renai-nail",
-    "name": "F/A Taipei Renai",
-    "name_ja": "F/Aタイペイ 仁愛店",
-    "area": "台北 大安区",
-    "address": "No. 425, Section 4, Renai Road, Da'an District, Taipei",
-    "phone": null,
-    "website": null,
-    "description": "大安区仁愛路のネイル＆スキンケアサロン。日本式のネイルアートやスキンケア施術で在台外国人・日本人女性に人気。Yelpで好評を得ている。",
-    "tags": [
-      "ネイル",
-      "スキンケア",
-      "大安区"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "facia-ginza",
@@ -407,7 +258,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "fanny-beauty",
@@ -431,134 +283,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "fleur-de-lis-nail-taichung",
-    "name": "Fleur De Lis Nail Taichung",
-    "name_ja": "フルール ド リス ネイル 台中",
-    "area": "台中",
-    "address": "Taichung City",
-    "phone": null,
-    "website": null,
-    "description": "JNEC・JNA 1級ネイリストが在籍する台中のネイルサロン。1時間でフットケア＋ジェルネイルが完了する効率的なサービスが好評。台中在住の日本人女性も通う人気サロン。",
-    "tags": [
-      "日本資格ネイリスト",
-      "ジェルネイル",
-      "フットケア",
-      "台中"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "flora-nail-taipei",
-    "name": "Flora Japanese Nail Salon",
-    "name_ja": "芙洛拉日式美甲",
-    "area": "台北 中正区",
-    "address": "Zhongzheng District, Taipei",
-    "phone": null,
-    "website": null,
-    "description": "日本のネイル資格を持つネイリストが在籍する台北のネイルサロン。日本語でのコミュニケーションが可能で、一本一本丁寧に仕上げる繊細な施術が好評。在台日本人女性に人気。",
-    "tags": [
-      "日本語対応",
-      "日本資格ネイリスト",
-      "ジェルネイル"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "foot-bath-yunhe-taipei",
-    "name": "Yunhe Japanese Foot Bath",
-    "name_ja": "足湯匯 日式足湯会社 台北",
-    "area": "台北",
-    "address": "Taipei",
-    "phone": null,
-    "website": null,
-    "description": "台北の日本式足湯サロン。日本文化の足湯を台北で体験できる。足浴・マッサージを組み合わせたリラクゼーションサービスを提供。在台日本人・観光客ともに利用できる。",
-    "tags": [
-      "日本式足湯",
-      "マッサージ",
-      "リラクゼーション"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "hakoniwayamamotoya-japanese-cafe",
-    "name": "箱庭 山本屋｜HakoniwaYamamotoya｜Japanese Cafe(園區隱藏餐廳)",
-    "name_ja": "箱庭 山本屋｜HakoniwaYamamotoya｜Japanese Cafe(園區隱藏餐廳)",
-    "area": "Taipei",
-    "address": "106, Taiwan, Taipei City, Da’an District, Lane 203, Section 2, Jinshan S Rd, 17號0km 山物所A棟",
-    "phone": "+886989888206",
-    "website": "https://www.facebook.com/hakoniwa.yamamotoya",
-    "description": "日本の箱庭・山本屋をモチーフにした隠れ家カフェ。日式の雰囲気を楽しめる台北の個性的なカフェで、在台日本人にも人気のスポット。",
-    "tags": [
-      "日式ネイル"
-    ],
-    "hours": "Monday: 11:00 AM – 6:30 PM / Tuesday: 11:00 AM – 6:30 PM / Wednesday: 11:00 AM – 6:30 PM / Thursday: 11:00 AM – 6:30 PM / Friday: 11:00 AM – 6:30 PM / Saturday: 11:00 AM – 6:30 PM / Sunday: 11:00 AM – 6:30 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "hiro-ginza-premium-barber",
-    "name": "HIRO GINZA PREMIUM BARBER 台北/日本理容室",
-    "name_ja": "HIRO GINZA PREMIUM BARBER 台北/日本理容室",
-    "area": "Taipei",
-    "address": "No. 442號, Section 4, Ren'ai Rd, Xinyi District, Taipei City, Taiwan 110",
-    "phone": "+886227586599",
-    "website": "https://www.hiroginza.com/salon/hiropre-taiwan/",
-    "description": "銀座発のプレミアムバーバーブランド・HIRO GINZAの台北店。日本式の本格的な理容サービスをメンズ向けに提供。台北市内に立地。",
-    "tags": [
-      "日式ネイル"
-    ],
-    "hours": "Monday: 12:30 – 8:00 PM / Tuesday: 12:30 – 8:00 PM / Wednesday: 12:30 – 8:00 PM / Thursday: 12:30 – 8:00 PM / Friday: 12:30 – 8:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: 10:00 AM – 7:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hitsuji-studio-smp",
@@ -582,7 +308,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hsin-nails",
@@ -606,7 +333,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "in",
@@ -630,110 +358,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "isnt-studio-taipei",
-    "name": "isN't Studio Taipei",
-    "name_ja": "イズントスタジオ 台北",
-    "area": "台北 大安区",
-    "address": "10F-10, No. 303, Section 3, Zhongxiao East Road, Da'an District, Taipei",
-    "phone": null,
-    "website": null,
-    "description": "日本語OKのネイルサロン。日本人スタッフが在籍しており、日本語でのカウンセリングが可能。MRT忠孝復興駅から徒歩2分。丁寧な施術と評判で、在台日本人女性に人気。",
-    "tags": [
-      "日本語対応",
-      "ジェルネイル",
-      "日本人スタッフ"
-    ],
-    "hours": "11:00〜19:30",
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "japanese-esthetics-daan-2",
-    "name": "Japanese Esthetics Da'an 2nd",
-    "name_ja": "大安区 日本式エステ2号店",
-    "area": "台北 大安区",
-    "address": "Da'an District, Taipei",
-    "phone": null,
-    "website": null,
-    "description": "大安区の日本式エステサロン。フェイシャルエステ・ボディトリートメントを日本式の丁寧な技術で提供。日本語でのカウンセリングが可能。",
-    "tags": [
-      "日本語対応",
-      "エステ",
-      "大安区"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "japanese-eyelash-daan-2",
-    "name": "Japanese Eyelash Extensions Da'an",
-    "name_ja": "大安区 まつ毛エクステ専門店",
-    "area": "台北 大安区",
-    "address": "Da'an District, Taipei",
-    "phone": null,
-    "website": null,
-    "description": "大安区のまつ毛エクステ専門店。日本式の丁寧な施術で、ナチュラルからボリュームまで対応。大安区在住の日本人女性が通う人気サロン。",
-    "tags": [
-      "まつ毛エクステ",
-      "大安区"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "japanese-eyelash-tianmu-2",
-    "name": "Eyelash Salon Tianmu 2nd",
-    "name_ja": "天母 まつ毛専門サロン2号店",
-    "area": "台北 士林区 天母",
-    "address": "Tianmu, Shilin District, Taipei",
-    "phone": null,
-    "website": null,
-    "description": "天母エリアの2店舗目のまつ毛サロン。天母在住の日本人女性に人気で、ナチュラルからボリュームアップまで対応。日本語でのカウンセリングが可能。",
-    "tags": [
-      "まつ毛エクステ",
-      "天母",
-      "日本語対応"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kobo-nail",
@@ -757,33 +383,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "manicure-pedicure-zhongshan-2",
-    "name": "Manicure Pedicure Zhongshan 2nd",
-    "name_ja": "中山区 ジェルネイル専門店2号",
-    "area": "台北 中山区",
-    "address": "Zhongshan District, Taipei",
-    "phone": null,
-    "website": null,
-    "description": "台北中山区のジェルネイル専門サロン。日本語対応で在台日本人女性が多く通う。トレンドデザインから定番スタイルまで丁寧に施術。",
-    "tags": [
-      "日本語対応",
-      "ジェルネイル",
-      "中山区"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "marico-salon",
@@ -807,60 +408,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "massage-salon-tianmu-japanese",
-    "name": "Japanese Massage Tianmu",
-    "name_ja": "天母 日本式マッサージ",
-    "area": "台北 士林区 天母",
-    "address": "Tianmu, Shilin District, Taipei",
-    "phone": null,
-    "website": null,
-    "description": "天母エリアの日本式マッサージ・リラクゼーションサロン。日本人が多く住む天母で、日本語でのコミュニケーションが可能。ヘッドスパ・ボディマッサージが受けられる。",
-    "tags": [
-      "日本語対応",
-      "マッサージ",
-      "天母"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "massage-salon-zhongshan-japanese",
-    "name": "Japanese Massage Salon Zhongshan",
-    "name_ja": "中山区 日本式リラクゼーション",
-    "area": "台北 中山区",
-    "address": "Zhongshan District, Taipei",
-    "phone": null,
-    "website": null,
-    "description": "台北中山区の日本式マッサージ・リラクゼーションサロン。日本語スタッフが在籍しており、日本式のヘッドスパ・ボディマッサージが受けられる。在台日本人に利用されている。",
-    "tags": [
-      "日本語対応",
-      "マッサージ",
-      "ヘッドスパ",
-      "中山区"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mio-beauty",
@@ -884,31 +433,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "mitsui-japanese-restaurant",
-    "name": "Mitsui Japanese Restaurant",
-    "name_ja": "ミツイ 日本 レストラン",
-    "area": "Taipei",
-    "address": "No. 34號, Nong'an St, Zhongshan District, Taipei City, Taiwan 10491",
-    "phone": "+886225956888",
-    "website": "http://www.mitsuitaipei.com.tw/",
-    "description": "三井をブランド名に持つ台北の日本料理レストラン。日式の料理と雰囲気を提供し、在台日本人や日本食を求める来台者に利用されている。",
-    "tags": [
-      "日式ネイル"
-    ],
-    "hours": "Monday: 11:30 AM – 2:00 PM, 5:30 – 9:20 PM / Tuesday: 11:30 AM – 2:00 PM, 5:30 – 9:20 PM / Wednesday: 11:30 AM – 2:00 PM, 5:30 – 9:20 PM / Thursday: 11:30 AM – 2:00 PM, 5:30 – 9:20 PM / Friday: 11:30 AM – 2:00 PM, 5:30 – 9:20 PM / Saturday: 11:30 AM – 2:00 PM, 5:30 – 9:20 PM / Sunday: 11:30 AM – 2:00 PM, 5:30 – 9:20 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "miyo",
@@ -932,33 +458,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "modei-nail-zhongshan",
-    "name": "MODEI Nail Salon",
-    "name_ja": "MODEI（モーディ） ネイルサロン",
-    "area": "台北 中山区",
-    "address": "Zhongshan District, Taipei (Near MRT Zhongshan Station)",
-    "phone": null,
-    "website": null,
-    "description": "MRT中山駅すぐそばの日本語対応ネイルサロン。丁寧な施術と日本語コミュニケーションで在台日本人女性に好評。ジェルネイル・ケアメニューが充実。",
-    "tags": [
-      "日本語対応",
-      "ジェルネイル",
-      "中山区"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "morninglight-nails",
@@ -982,7 +483,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "n-queen-vip-3d6d",
@@ -1006,7 +508,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nail-art-studio-banqiao",
@@ -1016,7 +519,7 @@
     "address": "新北市板橋區文化路二段88號",
     "phone": "+886229568877",
     "website": "",
-    "description": "新北市板橋区にある日本式ネイルアートスタジオ。日本語対応スタッフが在籍し、ジェルネイル・3Dアート・押し花ネイルなど日本の最新ネイルトレンドをオーダーできる。板橋在住の日本人女性が定期的に利用する人気のネイルスタジオとして口コミで知られている。",
+    "description": "新北市板橋区の日本式ネイルアートスタジオ。日本語対応スタッフが在籍し、ジェルネイル・3Dアート・押し花ネイルを提供。板橋在住の日本人女性に人気。",
     "tags": [
       "ネイル",
       "ジェルネイル",
@@ -1035,33 +538,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "nail-salon-daan-japanese",
-    "name": "Japanese Nail Salon Da'an",
-    "name_ja": "大安区 日系ネイルサロン",
-    "area": "台北 大安区",
-    "address": "Da'an District, Taipei",
-    "phone": null,
-    "website": null,
-    "description": "台北大安区の日本語対応ネイルサロン。日本語でのカウンセリングが可能で、トレンドのジェルネイルデザインから定番スタイルまで対応。大安区在住の日本人女性に人気。",
-    "tags": [
-      "日本語対応",
-      "ジェルネイル",
-      "大安区"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nail-salon-hsinchu-japanese",
@@ -1071,7 +549,7 @@
     "address": "新竹市東區中央路88號",
     "phone": "+886355237788",
     "website": "",
-    "description": "新竹市にある日本式ネイルサロン。日本語対応スタッフが在籍しており、ジェルネイル・アート・ネイルケアを日本語でオーダーできる。新竹在住の日本人女性がネイルケアに利用するサロン。TSMC周辺に住む日本人駐在員ファミリーにも利用されており、最新の日本トレンドネイルが楽しめる。",
+    "description": "新竹市にある日本式ネイルサロン。日本語対応スタッフが在籍しジェルネイル・ネイルアートをオーダーできる。TSMC周辺在住の日本人駐在員にも利用される。",
     "tags": [
       "ネイル",
       "ジェルネイル",
@@ -1088,33 +566,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "nail-salon-kaohsiung-japanese",
-    "name": "Japanese Nail Salon Kaohsiung",
-    "name_ja": "高雄 日系ネイルサロン",
-    "area": "高雄",
-    "address": "Kaohsiung City",
-    "phone": null,
-    "website": null,
-    "description": "高雄在住の日本人が利用できる日本語対応ネイルサロン。ジェルネイル・ネイルアートを日本式の技術で提供。高雄在住の日本人女性向けサービスを整備。",
-    "tags": [
-      "日本語対応",
-      "ジェルネイル",
-      "高雄"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nail-salon-kaohsiung-zuoying",
@@ -1124,7 +577,7 @@
     "address": "高雄市左營區博愛三路388號",
     "phone": "+886073567788",
     "website": "",
-    "description": "高雄市左営区にある日本式ネイルサロン。高鐵（新幹線）左営駅近くの便利な立地にあり、高雄在住または通過する日本人女性がネイルケアに利用できる。ジェルネイル・スカルプ・フレンチネイル・アートネイルを提供し、日本語でデザインのカウンセリングが受けられる。",
+    "description": "高雄市左営区にある日本式ネイルサロン。高鐵左営駅近くの便利な立地。ジェルネイル・スカルプ・フレンチを日本語でオーダーできる。",
     "tags": [
       "ネイル",
       "ジェルネイル",
@@ -1142,33 +595,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "nail-salon-neihu-japanese",
-    "name": "Japanese Nail Salon Neihu",
-    "name_ja": "内湖 日系ネイルサロン",
-    "area": "台北 内湖区",
-    "address": "Neihu District, Taipei",
-    "phone": null,
-    "website": null,
-    "description": "台北内湖区の日本語対応ネイルサロン。ジェルネイル・ネイルアートを日本式の技術で提供。内湖区在住の日本人女性向けサービスを整備。",
-    "tags": [
-      "日本語対応",
-      "ジェルネイル",
-      "内湖"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nail-salon-neihu-japanese-2",
@@ -1195,33 +623,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "nail-salon-new-taipei-japanese",
-    "name": "Japanese Nail Salon New Taipei",
-    "name_ja": "新北 日系ネイルサロン",
-    "area": "新北",
-    "address": "New Taipei City",
-    "phone": null,
-    "website": null,
-    "description": "新北市の日系ネイルサロン。台北近郊に住む日本人在住者が利用できる。ジェルネイル・ネイルアートに対応し、日本語でのカウンセリングが可能。",
-    "tags": [
-      "日本語対応",
-      "ジェルネイル",
-      "新北"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nail-salon-shilin-japanese",
@@ -1231,7 +634,7 @@
     "address": "台北市士林區中正路345號",
     "phone": "+886228858855",
     "website": "",
-    "description": "台北市士林区にある日本式ネイルサロン。天母・士林エリアの日本人居住者に近い立地で、日本語でのネイルカウンセリングが可能。ジェルネイル・パラジェル・アートネイルを提供し、日本の感性に合ったデザインの施術が受けられる。在台日本人ファミリーが通うネイルサロン。",
+    "description": "台北市士林区にある日本式ネイルサロン。天母・士林の日本人居住者に近い立地で、日本語対応スタッフによるジェルネイル・パラジェル施術が受けられる。",
     "tags": [
       "ネイル",
       "ジェルネイル",
@@ -1249,7 +652,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nail-salon-songshan-japanese",
@@ -1259,7 +663,7 @@
     "address": "台北市松山區八德路三段200號",
     "phone": "+886227601234",
     "website": "",
-    "description": "台北市松山区にある日本式ネイルサロン。日本語対応スタッフが在籍し、ジェルネイル・スカルプ・まつげエクステを提供。松山エリアのオフィス街に近く、働く日本人女性が仕事帰りに立ち寄れるネイルサロン。日本の最新ネイルトレンドを取り入れたデザインが揃っている。",
+    "description": "台北市松山区にある日本式ネイルサロン。日本語対応スタッフが在籍し、ジェルネイル・スカルプ・まつげエクステを提供。オフィス街近くで仕事帰りに利用できる。",
     "tags": [
       "ネイル",
       "ジェルネイル",
@@ -1276,33 +680,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "nail-salon-taichung-japanese",
-    "name": "Japanese Nail Salon Taichung",
-    "name_ja": "台中 日系ネイルサロン",
-    "area": "台中",
-    "address": "Taichung City",
-    "phone": null,
-    "website": null,
-    "description": "台中市内の日系ネイルサロン。日本語でのカウンセリング・施術が受けられる。台中在住の日本人女性駐在員・在住者に利用されている。",
-    "tags": [
-      "日本語対応",
-      "ジェルネイル",
-      "台中"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nail-salon-tainan-japanese",
@@ -1329,7 +708,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nail-salon-taoyuan-japanese",
@@ -1339,7 +719,7 @@
     "address": "桃園市桃園區中山路155號",
     "phone": "+886332106677",
     "website": "",
-    "description": "桃園市にある日本式ネイルサロン。日本語対応スタッフが在籍しており、ジェルネイル・スカルプ・ネイルアート・まつげエクステを提供。桃園在住の日本人女性が定期的に利用するネイルサロンとして知られている。日本の最新ネイルトレンドを取り入れたデザインが揃っている。",
+    "description": "桃園市にある日本式ネイルサロン。日本語対応スタッフが在籍し、ジェルネイル・スカルプ・ネイルアートを提供。桃園在住の日本人女性に利用されている。",
     "tags": [
       "ネイル",
       "ジェルネイル",
@@ -1356,59 +736,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "nail-salon-tianmu-japanese",
-    "name": "Japanese Nail Salon Tianmu",
-    "name_ja": "天母 日系ネイルサロン",
-    "area": "台北 士林区 天母",
-    "address": "Tianmu, Shilin District, Taipei",
-    "phone": null,
-    "website": null,
-    "description": "日本人在住者が多い天母エリアの日系ネイルサロン。日本語でのカウンセリング・施術が受けられる。天母在住の日本人女性に利用されているサロン。",
-    "tags": [
-      "日本語対応",
-      "ジェルネイル",
-      "天母"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "nail-salon-xinyi-2",
-    "name": "Nail Salon Xinyi 2nd",
-    "name_ja": "信義区 ネイルサロン2号店",
-    "area": "台北 信義区",
-    "address": "Xinyi District, Taipei",
-    "phone": null,
-    "website": null,
-    "description": "台北信義区のネイルサロン。日本語対応可能なスタッフが在籍。信義エリアのショッピングモール近くに位置し、ショッピングのついでに立ち寄れる。",
-    "tags": [
-      "日本語対応",
-      "ジェルネイル",
-      "信義区"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nail-salon-zhonghe-japanese",
@@ -1436,33 +765,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "nail-salon-zhongshan-japanese",
-    "name": "Japanese Nail Salon Zhongshan",
-    "name_ja": "中山区 日系ネイルサロン",
-    "area": "台北 中山区",
-    "address": "Zhongshan District, Taipei",
-    "phone": null,
-    "website": null,
-    "description": "台北中山区の日本語対応ネイルサロン。日本人在住者が多いエリアにあり、日本語でのカウンセリング・施術が受けられる。ジェルネイル・ネイルアートに対応。",
-    "tags": [
-      "日本語対応",
-      "ジェルネイル",
-      "中山区"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nq",
@@ -1486,7 +790,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ondo-studio-nunu",
@@ -1510,7 +815,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "rakura",
@@ -1534,7 +840,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "rh-eyelash-fnds",
@@ -1558,7 +865,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sanye-foot-massage-taipei",
@@ -1584,7 +892,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "senia",
@@ -1608,7 +917,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shi-mao",
@@ -1632,7 +942,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "soci-spa",
@@ -1656,35 +967,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "socie-spa-tianmu",
-    "name": "Socie Spa Tianmu",
-    "name_ja": "ソシエ スパ 天母",
-    "area": "台北 士林区 天母",
-    "address": "Taihsien Pacific SOGO Tianmu Store, Shilin District, Taipei",
-    "phone": null,
-    "website": null,
-    "description": "天母のSOGO百貨店内にある日本の「ソシエ」関連サロン。日本でライセンスを取得したスタッフが日本と同様の技術・サービスを提供。完全個室で日本語OKの環境が整っている。",
-    "tags": [
-      "日本語対応",
-      "ネイル",
-      "エステ",
-      "完全個室",
-      "天母"
-    ],
-    "hours": "11:00〜21:00",
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "the-moonlight-nails",
@@ -1708,7 +992,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tokyo-tiara",
@@ -1732,7 +1017,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "venice-nailandlash",
@@ -1756,33 +1042,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "waxing-salon-taipei-japanese",
-    "name": "Japanese Waxing Salon Taipei",
-    "name_ja": "台北 日式ブラジリアンワックス",
-    "area": "台北",
-    "address": "Taipei",
-    "phone": null,
-    "website": null,
-    "description": "台北の日本式ブラジリアンワックス・全身脱毛サロン。日本式の丁寧な施術スタイルで、日本人女性にも利用されている。ビキニライン・脚・腕などの部位に対応。",
-    "tags": [
-      "脱毛",
-      "ワックス",
-      "日本式"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "winnie",
@@ -1806,57 +1067,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "yue-dao-japanese-pan-fried-batter",
-    "name": "Yue Dao Japanese Pan-fried Batter",
-    "name_ja": "ユエ ダオ 日本 パン-フライド バッテル",
-    "area": "Taipei",
-    "address": "No. 126之13, Section 4, Zhongxiao E Rd, Da’an District, Taipei City, Taiwan 106",
-    "phone": "+886227215081",
-    "website": "https://m.facebook.com/%E6%9C%88%E5%B3%B6%E6%96%87%E5%AD%97%E7%87%92%E5%8F%B0%E5%8C%97%E5%BF%A0%E5%AD%9Dsogo%E5%BA%97-176321972409868/",
-    "description": "日本語表記のある台北・忠孝SOGO近くの飲食店。在台日本人が立ち寄りやすい台湾料理・日式料理を提供する店舗として知られる。",
-    "tags": [
-      "日式ネイル"
-    ],
-    "hours": "Monday: 11:00 AM – 11:00 PM / Tuesday: 11:00 AM – 11:00 PM / Wednesday: 11:00 AM – 11:00 PM / Thursday: 11:00 AM – 11:00 PM / Friday: 11:00 AM – 11:00 PM / Saturday: 11:00 AM – 11:00 PM / Sunday: 11:00 AM – 11:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "yukinail-taipei",
-    "name": "Yukinail Taipei",
-    "name_ja": "ゆきネイル美甲花園 台北",
-    "area": "台北 大安区",
-    "address": "10F-4, No. 128, Section 1, Fuxing South Road, Da'an District, Taipei",
-    "phone": null,
-    "website": null,
-    "description": "日本語OKの完全予約制ネイルサロン。静かでプライベートな空間でリラックスして施術が受けられる。在台日本人女性が定期的に通うお気に入りサロン。夜21時30分まで予約受付。",
-    "tags": [
-      "日本語対応",
-      "ジェルネイル",
-      "完全予約制"
-    ],
-    "hours": "11:00〜21:30（予約は19:00まで）",
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "凱西美學熱蠟美肌-日式除毛",
@@ -1880,7 +1092,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "心靈之約日式經絡按摩",
@@ -1904,7 +1117,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "森穗美甲-もりすい-ネイル",
@@ -1928,7 +1142,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "艾莉娜藝術指甲日式無痛除毛",
@@ -1952,7 +1167,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "芙洛拉日式美甲",
@@ -1976,7 +1192,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "足湯匯-日式足湯會社",
@@ -2000,7 +1217,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "palette-zhongshan-nanxi",
@@ -2034,7 +1252,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "palette-zhongxiao-daan",
@@ -2068,7 +1287,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "isnt-studio-taipei-daan",
@@ -2102,7 +1322,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nail-palette-zhongshan-b1",
@@ -2136,7 +1357,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "fuyulora-japanese-nail-zhongzheng",
@@ -2169,7 +1391,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "alice-fashion-nail-ximen",
@@ -2202,7 +1425,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "an-salon-zhongshan-nail-eyelash",
@@ -2236,6 +1460,7 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   }
 ]
