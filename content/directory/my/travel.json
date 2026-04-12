@@ -26,7 +26,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "asahi-vacations-travel-and-tours-sdn-bhd",
@@ -55,7 +56,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "asia-odyssey-travel",
@@ -81,36 +83,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "boutique-japan",
-    "name": "Boutique Japan",
-    "name_ja": "ブティック ジャパン",
-    "area": "Kuala Lumpur",
-    "address": "101 Rainbow Dr #4240, Livingston, TX 77399, USA",
-    "lat": 30.6431,
-    "lng": -94.8728,
-    "phone": "+18664004262",
-    "website": "https://boutiquejapan.com/",
-    "description": "ラグジュアリーな日本旅行を専門とするブティック型ツアー会社。旅館・料亭・文化体験など、こだわりの日本旅行プランをオーダーメイドで設計。少人数・プライベートツアーが中心。",
-    "tags": [
-      "旅行",
-      "ツアー"
-    ],
-    "hours": "Monday: 9:00 AM – 5:00 PM / Tuesday: 9:00 AM – 5:00 PM / Wednesday: 9:00 AM – 5:00 PM / Thursday: 9:00 AM – 5:00 PM / Friday: Closed / Saturday: Closed / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJG2_0gT8M3IARd5OTG1ArQ6k",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "golden-deluxe-travel",
@@ -137,7 +111,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "h-i-s-travel-m-sdn-bhd-q-sentral",
@@ -149,7 +124,7 @@
     "lng": 101.6877,
     "phone": "+60322760110",
     "website": "https://www.traveldmc.com.my/",
-    "description": "日本のH.I.S.グループのマレーシア法人。Q Sentral内にオフィス。マレーシア国内のDMC（現地手配会社）としてホテル・送迎・ガイド手配を行うほか、日本行きパッケージも取り扱い。B2B中心だが個人問い合わせも可能。",
+    "description": "日系大手旅行会社HISのマレーシアDMC部門。KL Sentral・Q Sentral内のオフィスで、マレーシア国内ホテル・送迎・ガイド手配を行うB2B専門チーム。",
     "tags": [
       "日系",
       "DMC",
@@ -167,34 +142,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "hello-holidays-japan-tour",
-    "name": "Hello Holidays",
-    "name_ja": "ハローホリデーズ",
-    "area": "Kuala Lumpur",
-    "address": "Kuala Lumpur",
-    "phone": null,
-    "website": "https://helloholidays.com.my/",
-    "description": "日本旅行のグループツアーを専門に提供する旅行社。プレミアムツアーパッケージで日本の主要観光地を巡るプランを提供。航空券・ホテル・ガイド・食事込みのオールインクルーシブプランが特徴。",
-    "tags": [
-      "旅行代理店",
-      "日本旅行専門",
-      "グループツアー",
-      "プレミアム"
-    ],
-    "hours": "月-金 9:00-18:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hello-holidays-sdn-bhd-japan-tour-and-china-tour-specialist-mice-company-incenti",
@@ -206,7 +155,7 @@
     "lng": 101.6519,
     "phone": "+60362016888",
     "website": "https://www.helloholidays.com.my/",
-    "description": "日本・中国ツアーを専門とするマレーシアの旅行会社。MICE（会議・インセンティブ旅行）や法人向けカスタムツアーにも対応。バス・バン手配を含む団体旅行の企画が得意。",
+    "description": "モントキアラに拠点を持つ日本・中国ツアー専門旅行会社。MICE・法人インセンティブ旅行・カスタムツアー・バス手配にも対応。日本語サポートあり。",
     "tags": [
       "旅行",
       "ツアー"
@@ -223,7 +172,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "his-travel-malaysia",
@@ -250,65 +200,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "japan-deluxe-tours-inc",
-    "name": "Japan Deluxe Tours, Inc.",
-    "name_ja": "ジャパン デラックス ツアーズ, Inc.",
-    "area": "Kuala Lumpur",
-    "address": "1820 W Carson St #224, Torrance, CA 90501, USA",
-    "lat": 33.8308,
-    "lng": -118.3122,
-    "phone": "+18002852726",
-    "website": "https://japandeluxetours.com/",
-    "description": "日本旅行専門のプレミアムツアー会社。少人数制の高品質な日本ツアーパッケージを提供し、温泉・文化体験・グルメなどテーマ別ツアーが充実。英語ガイド付き。",
-    "tags": [
-      "旅行",
-      "ツアー"
-    ],
-    "hours": "Monday: 9:00 AM – 6:00 PM / Tuesday: 9:00 AM – 6:00 PM / Wednesday: 9:00 AM – 6:00 PM / Thursday: 9:00 AM – 6:00 PM / Friday: 9:00 AM – 6:00 PM / Saturday: Closed / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJVZoyQ7tK3YARAZTetRZ35YE",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "japan-experience",
-    "name": "Japan Experience",
-    "name_ja": "ジャパン エクスペリエンス",
-    "area": "Kuala Lumpur",
-    "address": "30 Rue Sainte-Anne, 75001 Paris, France",
-    "lat": 48.8664,
-    "lng": 2.3357,
-    "phone": "+33142616083",
-    "website": "http://www.japan-experience.com/fr",
-    "description": "フランス発の日本旅行専門会社のマレーシア対応窓口。JR Pass・ポケットWiFi・旅館予約・文化体験など、日本旅行に必要なサービスをワンストップで提供。多言語対応。",
-    "tags": [
-      "旅行",
-      "ツアー"
-    ],
-    "hours": "Monday: 10:00 AM – 7:00 PM / Tuesday: 10:00 AM – 7:00 PM / Wednesday: 10:00 AM – 7:00 PM / Thursday: 10:00 AM – 7:00 PM / Friday: 10:00 AM – 7:00 PM / Saturday: 10:00 AM – 7:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJUyrvNCVu5kcRxg3XFfVrGKE",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "japan-holiday-tour-and-travel",
@@ -337,7 +230,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "japan-specialist-travel",
@@ -366,7 +260,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "japan-tokyo-tour",
@@ -395,36 +290,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "japan-travel-bureau-m-sdn-bhd",
-    "name": "Japan Travel Bureau (M) Sdn. Bhd.",
-    "name_ja": "ジャパン トラベル ブレアウ (M) Sdn. Bhd.",
-    "area": "Kota Kinabalu",
-    "address": "4 , 4-45 & 4, 46, Jln Tun Fuad Stephens, Kota Kinabalu, 88000 Kota Kinabalu, Sabah, Malaysia",
-    "lat": 5.986,
-    "lng": 116.0764,
-    "phone": "+6088250668",
-    "website": null,
-    "description": "JTB（日本旅行局）のマレーシア法人コタキナバル事務所。日本への旅行手配・パッケージツアー・航空券販売を提供。サバ州在住の日本人の一時帰国手配にも対応可能。",
-    "tags": [
-      "旅行",
-      "ツアー"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJAQBwrIhpOzIRk60gCuRPZ84",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "japan-travel-bureau-malaysia",
@@ -455,7 +322,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "jnto-japan-national-tourism-organization-kuala-lumpur-office",
@@ -467,7 +335,7 @@
     "lng": 101.7161,
     "phone": "+60327124770",
     "website": "https://www.japan.travel/en/my/",
-    "description": "日本政府観光局（JNTO）のKLオフィス。日本への渡航・観光情報を無料で提供。マレーシアから日本旅行を計画する際の公式情報源として、ビザ・交通・イベント情報を案内。",
+    "description": "日本政府観光局（JNTO）のKLオフィス。日本旅行を計画する際のビザ・交通・観光情報を無料で提供。マレーシアから訪日旅行を考える日本人・現地在住者にも役立つ公式情報源。",
     "tags": [
       "旅行",
       "観光情報"
@@ -484,7 +352,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "jomjapan",
@@ -513,7 +382,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "joy-paradise-holidays",
@@ -540,36 +410,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "joy-paradise-holidays-sdn-bhd-japan-tour-agency",
-    "name": "Joy Paradise Holidays Sdn Bhd - Japan Tour Agency 日本旅游私人包车",
-    "name_ja": "日本旅游私人包车",
-    "area": "Kuala Lumpur",
-    "address": "A-1, Aurora Place, 26 Plaza, Bukit Jalil, 57000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
-    "lat": 3.0538,
-    "lng": 101.6693,
-    "phone": "+60196338938",
-    "website": "https://joyparadiseholidays.com/",
-    "description": "マレーシア在住者向けの日本旅行専門旅行会社。プライベートチャーター車での日本国内ツアーパッケージを提供。マレーシア人・在住者の日本旅行手配に特化している。",
-    "tags": [
-      "旅行",
-      "ツアー"
-    ],
-    "hours": "Monday: 10:00 AM – 7:00 PM / Tuesday: 10:00 AM – 7:00 PM / Wednesday: 10:00 AM – 7:00 PM / Thursday: 10:00 AM – 7:00 PM / Friday: 10:00 AM – 7:00 PM / Saturday: 11:00 AM – 3:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJHWvv-yZLzDERX4qExSedXIw",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "jtb-japan-travel-bureau-kota-kinabalu",
@@ -598,7 +440,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "jtb-klcc-express",
@@ -625,7 +468,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "jtb-malaysia-head-office",
@@ -653,7 +497,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mkj-travel-kl",
@@ -680,7 +525,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mkj-travel-tour-guide-halal-trip-japan",
@@ -692,7 +538,7 @@
     "lng": 101.6652,
     "phone": "+60147064272",
     "website": "https://melancongkejepun.com/",
-    "description": "マレーシア発の日本旅行専門ツアー会社。ハラル対応の日本ツアーに特化し、ムスリム旅行者向けの食事・礼拝対応を含むパッケージを提供。英語・マレー語対応。",
+    "description": "Solaris Dutamas拠点のムスリム向け日本旅行専門会社。ハラル食・礼拝対応を含む日本ツアーパッケージを提供。英語・マレー語対応、在住外国人の日本旅行手配にも対応。",
     "tags": [
       "旅行",
       "ツアー"
@@ -709,7 +555,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nippon-hippo-travel-sdn-bhd",
@@ -738,7 +585,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nz-malaya-travel-package-to-new-zealand-turkiye-japan-and-korea",
@@ -750,7 +598,7 @@
     "lng": 101.5166,
     "phone": null,
     "website": "http://nzmalaya.com/",
-    "description": "マレーシアの旅行会社。日本・ニュージーランド・トルコ・韓国へのツアーパッケージを提供。マレーシア在住者向けに複数国の旅行商品を取り扱い、比較検討しやすい。",
+    "description": "Shah Alamに拠点を持つマレーシアの旅行会社。日本・ニュージーランド・トルコ・韓国のツアーパッケージを提供。マレーシア在住者の旅行手配に対応。",
     "tags": [
       "旅行",
       "ツアー"
@@ -767,7 +615,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "the-japan-tour-company",
@@ -796,33 +645,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "wendy-tour-kl",
-    "name": "Wendy Tour Malaysia",
-    "name_ja": "ウェンディツアー マレーシア",
-    "area": "Kuala Lumpur",
-    "address": "Kuala Lumpur, Malaysia",
-    "phone": null,
-    "website": null,
-    "description": "マレーシアの日本語ガイド付きツアー会社。KL市内観光・日帰りツアー・空港送迎を日本語で手配可能。個人旅行者やマレーシア在住日本人の一時帰国送迎にも対応している。",
-    "tags": [
-      "日本語対応",
-      "ツアー",
-      "空港送迎"
-    ],
-    "hours": "月〜土 9:00-18:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "wendy-tour-official",
@@ -849,7 +673,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yamada-tour-1-day-trip-mount-fuji",
@@ -861,7 +686,7 @@
     "lng": 101.666,
     "phone": "+60164185758",
     "website": "https://www.yamadatravel.com/",
-    "description": "マレーシア発の日本旅行手配会社。富士山日帰りツアーをはじめ、東京・大阪・北海道など日本各地のツアーパッケージを提供。個人・少人数グループ向けのプランが充実。",
+    "description": "Solaris Dutamas拠点のマレーシア発日本旅行手配会社。富士山日帰りツアーをはじめ、東京・大阪・北海道など日本各地のパッケージを提供。個人・小グループ対応。",
     "tags": [
       "旅行",
       "ツアー"
@@ -878,6 +703,7 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   }
 ]
