@@ -1,31 +1,5 @@
 [
   {
-    "slug": "aoi-family-clinic",
-    "name": "AOI Family Clinic",
-    "name_ja": "あおいファミリークリニック",
-    "area": "Ara Damansara",
-    "address": "C-G-03, Capital 3, Oasis Square, No. 2 Jalan PJU 1A/7A, Ara Damansara, 47301 Petaling Jaya, Selangor",
-    "phone": "+60123926961",
-    "website": "https://www.facebook.com/aoifamilyclinic/",
-    "description": "Ara Damansaraにあるファミリークリニック。日本語通訳対応あり。一般診療を提供し、ペタリンジャヤ方面の日本人在住者に利用されている。",
-    "tags": [
-      "日本語対応",
-      "ファミリークリニック",
-      "一般診療"
-    ],
-    "hours": "要確認",
-    "last_verified": "2026-03-26",
-    "status": "unverified",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
     "slug": "aoi-family-clinic-2",
     "name": "AOI Family Clinic あおいファミリークリニック",
     "name_ja": "あおいファミリークリニック",
@@ -54,7 +28,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "aoi-family-clinic-subang",
@@ -80,7 +55,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "cotovia-clinic-klcc",
@@ -108,7 +84,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "cotovia-clinic-plaza-mont-kiara",
@@ -120,7 +97,7 @@
     "lng": 101.6509,
     "phone": "+60364202582",
     "website": "https://cotoviaclinic.my/",
-    "description": "Plaza Mont Kiaraにある日系クリニック。内科・小児科・皮膚科・婦人科・心療内科の診療に対応。24時間日本語サポートで年中無休。対面診療とオンライン診療の両方を提供。",
+    "description": "Plaza Mont Kiaraにある日系クリニック「Cotovia」。24時間日本語LINE対応・年中無休。内科・小児科・皮膚科・婦人科・心療内科を日本語で受診可能。海外旅行保険キャッシュレス対応。",
     "tags": [
       "クリニック",
       "日本語対応",
@@ -138,7 +115,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "damansara-specialist-hospital",
@@ -164,35 +142,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "gleneagles-hospital-kl",
-    "name": "Gleneagles Hospital Kuala Lumpur",
-    "name_ja": "グレネアグレス 病院 クアラ ルンプール",
-    "area": "Ampang",
-    "address": "282, 286 & 288, Block A, B & Medical Office Block, Jalan Ampang, 50450 Kuala Lumpur",
-    "phone": "+60341413000",
-    "website": "https://gleneagles.com.my/kuala-lumpur",
-    "description": "マレーシアの大手私立総合病院。国際患者サービス部門で日本語通訳を提供。救急・入院・手術に対応する大規模施設で、重症時の受け入れ先として安心。",
-    "tags": [
-      "総合病院",
-      "日本語通訳あり",
-      "救急対応",
-      "入院可",
-      "国際患者サービス"
-    ],
-    "hours": "24時間（外来は診療科により異なる）",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "gleneagles-hospital-kuala-lumpur",
@@ -222,7 +173,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "gleneagles-hospital-penang",
@@ -249,37 +201,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "global-doctors-hospital",
-    "name": "Global Doctors Hospital",
-    "name_ja": "グローバルドクターズ ホスピタル",
-    "area": "Kuala Lumpur",
-    "address": "18, Jln Kiara 3, Mont Kiara, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
-    "lat": 3.1681,
-    "lng": 101.6488,
-    "phone": "+60323039911",
-    "website": "https://globaldoctorshospital.com/",
-    "description": "モントキアラにある総合病院「Global Doctors Hospital」。日本語通訳サービスを備えており、内科・外科・産婦人科・小児科など幅広い診療科を利用でき、在KL日本人に利用されている。",
-    "tags": [
-      "総合病院",
-      "日本語通訳",
-      "モントキアラ"
-    ],
-    "hours": "Monday: Open 24 hours / Tuesday: Open 24 hours / Wednesday: Open 24 hours / Thursday: Open 24 hours / Friday: Open 24 hours / Saturday: Open 24 hours / Sunday: Open 24 hours",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJQdIlmPFIzDERDkgEaL7M-xw",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "global-doctors-hospital-mont-kiara",
@@ -306,7 +229,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "global-doctors-international-medical-clinic",
@@ -318,7 +242,7 @@
     "lng": 101.6543,
     "phone": "+60323039999",
     "website": "https://globaldoctors.asia/",
-    "description": "モントキアラのBayu Walk内にある国際対応クリニック。Global Doctors Hospitalと連携し、一般診療・健康診断を提供。日本語通訳サービスあり。",
+    "description": "モントキアラのBayu Walk内にある日本語対応クリニック。Global Doctors Hospitalと連携し、一般診療・健康診断を提供。日本語通訳サービスあり、外国人駐在員の利用が多い。",
     "tags": [
       "一般診療",
       "日本語通訳",
@@ -336,7 +260,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "heartscan-international",
@@ -348,7 +273,7 @@
     "lng": 101.6728,
     "phone": "+60322870988",
     "website": "http://www.mahameru.com.my/",
-    "description": "バンサーのMahameru International Medical Centre内にある心臓検査専門クリニック。心電図・心臓超音波・CTスキャンなどの循環器検査を提供。日本人の定期健診・人間ドックの一環として利用される。",
+    "description": "バンサーのMahameru International Medical Centre内にある心臓検査専門クリニック。日本語医師（Dr. Yoshimi）在籍のMahameru内施設で、心電図・心臓超音波・CTスキャンなどを提供。",
     "tags": [
       "心臓検査",
       "専門クリニック"
@@ -365,7 +290,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hibari-clinic-ara-damansara",
@@ -391,34 +317,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "hibari-clinic-bukit-bintang",
-    "name": "Hibari Clinic Bukit Bintang",
-    "name_ja": "ひばりクリニック ブキビンタン",
-    "area": "Bukit Bintang",
-    "address": "Unit A-0-1 & A-0-2, One Residency Retails Lots, North Tower, 1 Jalan Nagasari, 50200 Kuala Lumpur",
-    "phone": "+60327412036",
-    "website": "https://my.hibariclinic.com/en/locations/bukit-bintang/",
-    "description": "ひばりクリニックのブキビンタン支店。日本語通訳が常駐し、内科・小児科・皮膚科・予防接種などに対応。祝日も含め毎日営業しているため、急な体調不良にも安心。",
-    "tags": [
-      "日本語対応",
-      "保険キャッシュレス",
-      "毎日営業",
-      "予約優先"
-    ],
-    "hours": "毎日（祝日含む）11:00-20:00（最終受付 19:00）",
-    "last_verified": "2026-03-26",
-    "status": "unverified",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hibari-clinic-bukit-bintang-2",
@@ -448,7 +348,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hibari-clinic-citta-mall",
@@ -460,7 +361,7 @@
     "lng": 101.5788,
     "phone": "+60374992125",
     "website": "https://my.hibariclinic.com/",
-    "description": "ひばりクリニックのチッタモール院（アラダマンサラ）。日本語スタッフ常駐。PJ・アラダマンサラ周辺の日本人家族向けに内科・小児科などの診療を日本語で提供。海外旅行保険キャッシュレス対応。",
+    "description": "ひばりクリニックのチッタモール店。日本語スタッフ常駐、海外旅行保険キャッシュレス対応。内科・小児科・皮膚科を日本語で受診可能。PJ・スバンエリアの日本人向け。",
     "tags": [
       "日系",
       "日本語対応",
@@ -478,7 +379,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hibari-clinic-desa-park-city",
@@ -504,7 +406,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hibari-clinic-johor-bahru",
@@ -530,7 +433,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hibari-clinic-klcc-imc-klcc-imc",
@@ -542,7 +446,7 @@
     "lng": 101.7068,
     "phone": "+60320224919",
     "website": "https://my.hibariclinic.com/",
-    "description": "ひばりクリニックのKLCC院（IMC内）。日本語スタッフ常駐で、KLCC周辺に住む日本人駐在員・家族向けに内科・小児科などの診療を日本語で提供。海外旅行保険キャッシュレス対応。",
+    "description": "KLCC（Prince Court Medical Centre）内にあるひばりクリニック。日本語スタッフ常駐、24時間対応可。内科・小児科・皮膚科など幅広い診療を日本語で提供。",
     "tags": [
       "日系",
       "日本語対応",
@@ -560,35 +464,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "hibari-clinic-mont-kiara",
-    "name": "Hibari Clinic Mont Kiara",
-    "name_ja": "ひばりクリニック モントキアラ",
-    "area": "Mont Kiara",
-    "address": "Lot L2-01, 2nd Floor, 1 Mont Kiara Mall, No. 1, Jalan Kiara, Mont Kiara, 50480 Kuala Lumpur",
-    "phone": "+60362115919",
-    "website": "https://my.hibariclinic.com/en/",
-    "description": "KL最大級の日系クリニック。全ブランチに日本語通訳が常駐し、電話受付・受付・会計・薬局まで日本語対応。内科・小児科・婦人科・皮膚科・歯科（別フロア）と幅広く対応。日本の保険や海外旅行保険のキャッシュレス診療にも対応している。",
-    "tags": [
-      "日本語対応",
-      "保険キャッシュレス",
-      "小児科",
-      "婦人科",
-      "予約優先"
-    ],
-    "hours": "毎日（祝日含む）9:00-13:00, 14:00-22:00（最終受付: 平日21:00, 土日祝17:00）",
-    "last_verified": "2026-03-26",
-    "status": "unverified",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hibari-clinic-mont-kiara-and-hibari-dental-and",
@@ -620,7 +497,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hibari-clinic-penang",
@@ -646,37 +524,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "hibari-clinic-penang-branch",
-    "name": "HIBARI CLINIC PENANG BRANCH ひばりクリニック ペナン分院",
-    "name_ja": "ひばりクリニックペナン分院",
-    "area": "Penang",
-    "address": "163D-2, Gurney Paragon, 17A, Persiaran Gurney, 10250 George Town, Pulau Pinang, Malaysia",
-    "lat": 5.4347,
-    "lng": 100.3111,
-    "phone": "+6042299111",
-    "website": "https://my.hibariclinic.com/locations/penang/",
-    "description": "ひばりクリニックのペナン分院。ガーニーパラゴン内。ペナン在住の日本人向けに日本語での診療を提供。海外旅行保険キャッシュレス対応。",
-    "tags": [
-      "日系",
-      "日本語対応",
-      "キャッシュレス診療"
-    ],
-    "hours": "Monday: 9:00 AM – 1:00 PM, 2:00 – 6:00 PM / Tuesday: 9:00 AM – 1:00 PM, 2:00 – 6:00 PM / Wednesday: 9:00 AM – 1:00 PM, 2:00 – 6:00 PM / Thursday: 9:00 AM – 1:00 PM, 2:00 – 6:00 PM / Friday: 9:00 AM – 1:00 PM, 2:00 – 6:00 PM / Saturday: 9:00 AM – 1:00 PM, 2:00 – 6:00 PM / Sunday: 9:00 AM – 1:00 PM, 2:00 – 6:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJCS-pPgHDSjAR19xgjl5t70E",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "japan-medicare-center",
@@ -688,7 +537,7 @@
     "lng": 101.6728,
     "phone": null,
     "website": null,
-    "description": "バンサーのJalan Maarof沿いにある日本人向け医療センター。Mahameru International Medical Centre内に位置し、日本語での診療・健康診断に対応。日本人クラブKL推薦の医療施設の一つ。",
+    "description": "バンサーのMahameru International Medical Centre内にある日本人向け医療窓口「Japan Medicare Center」。日本語医師在籍、日本語電話対応あり。駐在員の利用実績が多い。",
     "tags": [
       "クリニック",
       "医療"
@@ -705,7 +554,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kaiteki-skin-clinic-kl",
@@ -731,7 +581,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kpj-damansara-specialist",
@@ -757,33 +608,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "mahameru-international-medical-centre",
-    "name": "Mahameru International Medical Centre",
-    "name_ja": "マハメル インターナショナル メディカル センター",
-    "area": "Bangsar",
-    "address": "107 & 109 Jalan Maarof, Bangsar, 59000 Kuala Lumpur",
-    "phone": "+60322870988",
-    "website": "https://www.mahameru.com.my/",
-    "description": "バンサーにある国際メディカルセンター。総合内科・歯科を含む幅広い診療科を備える。日本人駐在員の利用も多く、バンサーエリアの在住者に便利な立地。",
-    "tags": [
-      "総合医療",
-      "歯科",
-      "国際対応"
-    ],
-    "hours": "要確認",
-    "last_verified": "2026-03-26",
-    "status": "unverified",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mahameru-international-medical-centre-sdn-bhd",
@@ -795,7 +621,7 @@
     "lng": 101.6728,
     "phone": "+60322870988",
     "website": "http://www.mahameru.com.my/index.php/contact",
-    "description": "バンサーのJalan Maarof沿いにある国際対応の総合クリニック。内科・健康診断・予防接種などを提供し、日本語通訳サービスに対応。日本人駐在員・在住者の利用実績が豊富で、Japan Medicareとも呼ばれる。",
+    "description": "バンサーJalan Maarof沿いにある国際対応総合クリニック。日本語医師（Dr. Yoshimi）が在籍し、内科・健康診断・予防接種などを日本語で受診可能。日本人駐在員の利用実績多数。",
     "tags": [
       "総合診療",
       "国際対応"
@@ -812,7 +638,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mori-no-hana-family-clinic",
@@ -839,7 +666,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mori-no-machi-clinic",
@@ -865,7 +693,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "naomi-esth-tique-dr-shigemoto-aesthetic",
@@ -895,33 +724,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "nozomi-clinic",
-    "name": "Nozomi Clinic",
-    "name_ja": "のぞみクリニック",
-    "area": "Mont Kiara",
-    "address": "A1-9-3, 9th Floor, Arcoris Business Suite, 10 Jalan Kiara, Mont Kiara, 50480 Kuala Lumpur",
-    "phone": "+60364111234",
-    "website": "https://www.nozomiclinic.com.my/",
-    "description": "モントキアラにある日系総合診療クリニック。日本語対応スタッフが在籍し、内科・小児科を中心に在マレーシア日本人の健康をサポート。土日祝も診療しており、駐在員家族に利用されている。",
-    "tags": [
-      "日本語対応",
-      "総合診療",
-      "土日祝診療"
-    ],
-    "hours": "月-金 9:00-13:00, 14:00-18:00（最終受付17:30）/ 土日祝 9:00-13:00, 14:00-17:00（最終受付16:30）",
-    "last_verified": "2026-03-26",
-    "status": "unverified",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nozomi-clinic-2",
@@ -951,7 +755,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "pantai-hospital-kuala-lumpur",
@@ -978,7 +783,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "pmc-cotovia-counter",
@@ -990,7 +796,7 @@
     "lng": 101.6382,
     "phone": "+601119076517",
     "website": "https://counter.cotoviaclinic.my/",
-    "description": "デサパークシティのParkCity Medical Centre内にある日本人患者専用の相談窓口。日本語LINEで医療機関の予約手配・案内・事務サポートを提供。24時間日本語対応。",
+    "description": "デサパークシティのParkCity Medical Centre内にある日本人患者専用窓口「ことびあカウンター」。日本語LINEで24時間医療機関の予約・案内・保険手続きをサポート。",
     "tags": [
       "日本語対応",
       "24時間",
@@ -1008,7 +814,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "prince-court-medical-centre",
@@ -1018,7 +825,7 @@
     "address": "39, Jalan Kia Peng, 50450 Kuala Lumpur",
     "phone": "+60321600000",
     "website": "https://www.princecourt.com/",
-    "description": "KLCC近くの大型私立総合病院。国際患者サービス部門を備え、多言語対応スタッフが在籍。ことびあクリニックが院内に併設されており、日本語での受診が可能。救急・入院・手術対応可能。",
+    "description": "KLCC近くの大型私立総合病院。日系クリニック「ことびあ」が院内に入居し、日本語での受診が可能。救急・入院・手術に対応する大型施設で安心感がある。",
     "tags": [
       "総合病院",
       "国際患者サービス",
@@ -1035,7 +842,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "subang-jaya-medical-centre-sjmc",
@@ -1047,7 +855,7 @@
     "lng": 101.594,
     "phone": "+60356391212",
     "website": "https://subangjayamedicalcentre.com/",
-    "description": "スバンジャヤにあるマレーシア有数の大型私立病院。日本語通訳サービスを備えた国際患者センター（IPC）があり、年間約5,000名の海外患者を受け入れ。心臓外科・がん治療・整形外科など高度医療に対応。",
+    "description": "スバンジャヤにある私立総合病院。国際患者センター（IPC）に日本語通訳サービスあり。年間約5,000名の海外患者を受け入れ、心臓外科・がん治療など高度医療に対応。",
     "tags": [
       "クリニック",
       "医療"
@@ -1064,7 +872,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sunway-medical-centre",
@@ -1091,33 +900,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "tenma-family-clinic",
-    "name": "Tenma Family Clinic",
-    "name_ja": "てんまファミリークリニック",
-    "area": "Desa Park City",
-    "address": "D-G-2, Plaza Arkadia, No. 3, Jalan Intisari Perdana, Desa Park City, 52200 Kuala Lumpur",
-    "phone": "+60164282230",
-    "website": null,
-    "description": "デサパークシティのPlaza Arkadia内にあるファミリークリニック。日本語での電話対応が可能。デサパークシティ在住の日本人家族に利用されている。",
-    "tags": [
-      "日本語対応",
-      "ファミリークリニック",
-      "一般診療"
-    ],
-    "hours": "9:00-18:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tenma-family-clinic-2",
@@ -1148,7 +932,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tenma-family-clinic-subang",
@@ -1174,6 +959,7 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   }
 ]
