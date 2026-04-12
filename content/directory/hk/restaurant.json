@@ -35254,7 +35254,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "West Kowloonにあるとんかつ専門店「Tsukanto」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "チムサーチョイ（尖沙咀）Elementsショッピングモール内にあるミシュラン星付きシェフ・大橋直隆氏による初の海外店。フレンチ技法のソービードを活用した厳選豚のとんかつが看板。",
     "tags": [
       "とんかつ",
       "ミシュラン"
@@ -35271,7 +35271,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tsukanto-kwai-fong-metroplaza",
@@ -35331,37 +35332,6 @@
     "price_level": null,
     "photo_name": null,
     "place_reviewed": true
-  },
-  {
-    "slug": "tsukemen-gyorai-wan-chai-new",
-    "name": "Tsukemen Gyorai",
-    "name_ja": "つけ麺 魚雷",
-    "area": "Wan Chai",
-    "address": "G/F, 389 Lockhart Road, Wan Chai, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": "+85237533699",
-    "website": null,
-    "description": "ワンチャイ（湾仔）にあるラーメン店「Tsukemen Gyorai」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "つけ麺",
-      "ラーメン",
-      "熊本発",
-      "海外初出店"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
   },
   {
     "slug": "tsukemen-mitaseimenjo-causeway-bay",
@@ -35694,36 +35664,6 @@
     "place_reviewed": true
   },
   {
-    "slug": "tsuta-causeway-bay-vpoint",
-    "name": "Tsuta Causeway Bay",
-    "name_ja": "蔦 銅鑼湾店",
-    "area": "Causeway Bay",
-    "address": "Shop 2, G/F, V Point, 18 Tang Lung Street, Causeway Bay",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にあるラーメン店「Tsuta Causeway Bay」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "ラーメン",
-      "醤油",
-      "ミシュラン"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
     "slug": "tsuta-tst",
     "name": "Tsuta Tsim Sha Tsui",
     "name_ja": "蔦 尖沙咀",
@@ -35751,36 +35691,6 @@
     "place_reviewed": true
   },
   {
-    "slug": "tsuta-tst-harbour-city",
-    "name": "Tsuta Tsim Sha Tsui",
-    "name_ja": "蔦 尖沙咀店",
-    "area": "Tsim Sha Tsui",
-    "address": "Shop G111, G/F, Gateway Arcade, Harbour City, 3-27 Canton Road, Tsim Sha Tsui",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "チムサーチョイ（尖沙咀）にあるラーメン店「Tsuta Tsim Sha Tsui」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "ラーメン",
-      "醤油",
-      "ミシュラン"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
     "slug": "u-sushi-ngau-tau-kok",
     "name": "U Sushi Ryori",
     "name_ja": "宇鮨料理",
@@ -35790,7 +35700,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Ngau Tau Kokにある牛頭角エリアにある寿司・刺身・串焼きの日本料理店。日本の紙傘や旗などで飾られた和風の内装が特徴。",
+    "description": "牛頭角（Ngau Tau Kok）Yi On Streetにある寿司・刺身・串焼きの日本料理店。日本の紙傘や旗で飾られた和風の内装が特徴。リーズナブルな価格でランチセットも人気。",
     "tags": [
       "sushi",
       "sashimi",
@@ -35809,33 +35719,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "udatsu-sushi-hk",
-    "name": "Udatsu Sushi",
-    "name_ja": "うだつ 鮨",
-    "area": "Central",
-    "address": "Central, Hong Kong",
-    "phone": null,
-    "website": "https://www.instagram.com/udatsu_sushi/",
-    "description": "セントラル（中環）にあるうだつ秀氏による香港初の海外店。150年の歴史を持つ吉野檜のカウンターで12席限定のおまかせを提供。",
-    "tags": [
-      "おまかせ",
-      "要予約",
-      "日本人シェフ"
-    ],
-    "hours": "要確認（予約制）",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "sns",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "udatsu-sushi-tst",
@@ -35847,7 +35732,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.udatsu-sushi.com.hk/",
-    "description": "東京のミシュラン星付き「うだつ鮨」の初の海外店。150年の歴史を持つ吉野ヒノキのカウンター12席。豊洲市場から厳選した食材を使用。",
+    "description": "チムサーチョイ（尖沙咀）FWD HOUSE 1881内にある東京ミシュラン星付き「うだつ鮨」の初の海外店。150年の歴史を持つ吉野ヒノキのカウンター12席でおまかせコースのみ提供。",
     "tags": [
       "寿司",
       "おまかせ",
@@ -35866,7 +35751,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "uedo-sakaba-kowloon-city",
@@ -35878,7 +35764,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Kowloon Cityにある九龍城の串焼き居酒屋。桜花海老の揚げ豆腐や鉄板ロブスター、松葉蟹サラダなどクリエイティブな料理が人気。",
+    "description": "九龍城（Kowloon City）Lung Kong Road沿いの串焼き居酒屋。桜花海老の揚げ豆腐や鉄板ロブスター、松葉蟹サラダなど創作和食が揃う。",
     "tags": [
       "izakaya",
       "yakitori",
@@ -35897,7 +35783,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "uehara-sushi-causeway-bay",
@@ -35909,7 +35796,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある銅鑼湾の隠れ家的な高級鮨店。落ち着いた雰囲気のカウンターで目の前で握る本格的な鮨を提供。",
+    "description": "コーズウェイベイ（銅鑼湾）Sun Ho Court内の隠れ家的な高級鮨カウンター。元Sushi Hiroのシェフが独立開業、11席限定でランチ・ディナーともおまかせ中心。",
     "tags": [
       "寿司",
       "おまかせ",
@@ -35927,98 +35814,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "ukiyo-k11-musea",
-    "name": "Ukiyo",
-    "name_ja": "浮世",
-    "area": "Tsim Sha Tsui",
-    "address": "Shop 610, 6/F, K11 Musea, Victoria Dockside, 18 Salisbury Road, Tsim Sha Tsui, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": "+85227628822",
-    "website": "https://www.k11musea.com/taste/ukiyo/",
-    "description": "チムサーチョイ（尖沙咀）にあるK11 Musea 6階の日本風カフェ。和の雰囲気の中で抹茶スイーツやブランチメニューを提供。",
-    "tags": [
-      "カフェ",
-      "抹茶",
-      "K11 Musea"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "uma-nota-central",
-    "name": "Uma Nota",
-    "name_ja": "ウマノタ",
-    "area": "Central",
-    "address": "Upper G/F, 38 Peel Street, Central, Hong Kong",
-    "phone": "+85228897576",
-    "website": null,
-    "description": "セントラル（中環）にある中環Peel Streetの日本×ブラジルフュージョンレストラン。和食とブラジル料理を組み合わせた独自のメニュー。",
-    "tags": [
-      "フュージョン",
-      "日伯料理"
-    ],
-    "lat": null,
-    "lng": null,
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "umai-d2-place",
-    "name": "Umai",
-    "name_ja": "鵜舞",
-    "area": "Lai Chi Kok",
-    "address": "Shop G02, G/F, D2 Place ONE, 9 Cheung Yee Street, Lai Chi Kok, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.umai.com.hk/",
-    "description": "ライチコック（荔枝角）にある天ぷら専門店「Umai」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
-    "tags": [
-      "居酒屋",
-      "天ぷら",
-      "焼鳥",
-      "おまかせ",
-      "日本人シェフ"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "umai-izakaya-lai-chi-kok",
@@ -36030,7 +35827,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "荔枝角D2 Placeの居酒屋。東京新宿の路地裏居酒屋と日本の漁村をイメージした内装で、日本人シェフ2名が手がける串焼き・炉端焼き・釜飯を提供。",
+    "description": "荔枝角（Lai Chi Kok）D2 Place ONE内の日本食居酒屋「Umai（鵜舞）」。新宿の路地裏居酒屋をイメージした内装で、日本人シェフ2名による天ぷらオマカセ・炉端焼き・釜飯を提供。",
     "tags": [
       "izakaya",
       "yakitori",
@@ -36050,7 +35847,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "umai-ramen-sumibiyaki-lai-chi-kok",
@@ -36062,7 +35860,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ライチコック（荔枝角）にある日本式居酒屋・バー「Umai Ramen Sumibiyaki」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
+    "description": "荔枝角（Lai Chi Kok）D2 Place ONE内の日本式バー・居酒屋。ラーメン・炭火焼きをメインに、日本酒・焼酎・クラフトビールを揃えるカジュアルな飲みの場。",
     "tags": [
       "居酒屋",
       "焼き鳥",
@@ -36081,7 +35879,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "umegaoka-sushi-no-midori-mong-kok",
@@ -36093,7 +35892,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "モンコック（旺角）にある日本料理・鮨店「Umegaoka Sushi No Midori Souhonten」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "モンコック（旺角）Grand Plaza内にある東京発の人気寿司チェーン「梅丘寿司の美登利」。鮮度・技・心の三原則で高品質な寿司を手頃な価格で提供するカウンタースタイル。",
     "tags": [
       "寿司",
       "刺身"
@@ -36110,36 +35909,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "umegaoka-sushi-no-midori-sha-tin",
-    "name": "Umegaoka Sushi No Midori Souhonten",
-    "name_ja": "梅丘寿司の美登利総本店",
-    "area": "Sha Tin",
-    "address": "Shop 703, 7/F, Phase I, New Town Plaza, 18 Sha Tin Centre Street, Sha Tin",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "シャーティン（沙田）にある日本料理・鮨店「Umegaoka Sushi No Midori Souhonten」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "寿司",
-      "刺身"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "umegaoka-sushi-sha-tin-ntp",
@@ -36151,7 +35922,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "シャーティン（沙田）にある東京発の人気寿司チェーン「梅丘寿司の美登利」の沙田店。「鮮度」「技」「心」の3原則で高品質な寿司を手頃な価格で提供。",
+    "description": "シャーティン（沙田）New Town Plaza Phase I 7/F にある東京発の寿司チェーン「梅丘寿司の美登利」。厳選したネタを使った握りをリーズナブルな価格で楽しめる。",
     "tags": [
       "寿司",
       "チェーン"
@@ -36168,7 +35939,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "umegaoka-sushi-tsing-yi",
@@ -36180,7 +35952,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Tsing Yiにある日本料理・鮨店「Umegaoka Sushi No Midori Souhonten」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "青衣（Tsing Yi）Maritime Square内にある「梅丘寿司の美登利」青衣店。東京発の人気寿司チェーンで、新鮮なネタを使った握り寿司をリーズナブルに提供。",
     "tags": [
       "寿司",
       "刺身"
@@ -36197,7 +35969,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "umi-japanese-ma-on-shan",
@@ -36209,7 +35982,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Ma On Shanにある日本式居酒屋「Umi Japanese Cuisine (We Go Mall)」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
+    "description": "馬鞍山（Ma On Shan）We Go Mall内にある日本食居酒屋。串焼き・刺身・日本酒を揃えた気軽な日本式居酒屋スタイルで地元在住日本人にも親しまれている。",
     "tags": [
       "寿司",
       "居酒屋"
@@ -36226,7 +35999,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "umi-on-hollywood-road",
@@ -36238,7 +36012,7 @@
     "lng": null,
     "phone": null,
     "website": "https://umi.hk/",
-    "description": "サンポ（上環）にある日本料理・鮨店「UMI on Hollywood Road」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "サンポ（上環）Hollywood Road 159番地にある10席限定の高級鮨カウンター「UMI」。第4世代の鮨職人・君島幸雄シェフによる江戸前鮨で、ディナーオマカセはHK$1,588〜。",
     "tags": [
       "寿司",
       "おまかせ",
@@ -36256,36 +36030,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "unagi-yondaime-kikukawa-cb",
-    "name": "Unagi Yondaime Kikukawa",
-    "name_ja": "うなぎ四代目菊川",
-    "area": "Causeway Bay",
-    "address": "Shop 401A, 4/F, Lee Garden One, 33 Hysan Avenue, Causeway Bay",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある日本食レストラン「Unagi Yondaime Kikukawa」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "鰻",
-      "高級和食"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "unagi-yondaime-kikukawa-hk",
@@ -36295,7 +36041,7 @@
     "address": "Shop 401A, 4/F, Lee Garden One, 33 Hysan Avenue, Causeway Bay, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある名古屋発のうなぎ専門店の香港店。一本うなぎの蒲焼きやひつまぶしを提供。Lee Garden One内。",
+    "description": "コーズウェイベイ（銅鑼湾）Lee Garden One内にある名古屋発・四代目菊川の香港店。一本うなぎの蒲焼きやひつまぶしなど、こだわりの炭火焼うなぎを提供。",
     "tags": [
       "うなぎ",
       "名古屋発",
@@ -36311,7 +36057,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "uni-boy-san-po-kong",
@@ -36323,7 +36070,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "San Po Kongにある新蒲崗の海膽（ウニ）テーマの日本料理店。日本やカナダから空輸した新鮮なウニを使った海膽丼や海膽三色丼が看板。",
+    "description": "新蒲崗（San Po Kong）Yin Hing Streetにある海膽（ウニ）テーマの日本料理店。日本・カナダから空輸した新鮮なウニを使った海膽丼・三色丼が名物。",
     "tags": [
       "uni",
       "sea-urchin",
@@ -36343,7 +36090,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "unkai-japanese-cuisine",
@@ -36355,7 +36103,7 @@
     "lng": 114.1726,
     "phone": "+85223691111",
     "website": "https://www.marriott.com/en-us/dining/restaurant-bar/hkgsi-sheraton-hong-kong-hotel-towers/5960486-unkai-japanese-cuisine.mi?utm_source=google%20&utm_medium=referral&utm_campaign=unkai",
-    "description": "チムサーチョイ（尖沙咀）にある日本食レストラン「Unkai Japanese Cuisine 雲海日本料理」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "チムサーチョイ（尖沙咀）シェラトン香港ホテル3/Fにある老舗日本料理「雲海（Unkai）」。鉄板焼き・寿司・和食コースを上質なホテルダイニングで提供。",
     "tags": [
       "日本食"
     ],
@@ -36371,7 +36119,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "unkai-sheraton-tst",
@@ -36383,7 +36132,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある日本料理・鮨店「Unkai」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "チムサーチョイ（尖沙咀）Sheraton Hong Kong Hotel 3/Fにある日本料理「雲海（Unkai）」。鉄板焼きコースや寿司を中心に、上質な和食をホテルのダイニングで提供。",
     "tags": [
       "寿司",
       "刺身",
@@ -36404,91 +36153,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "uny-lok-fu",
-    "name": "UNY (Lok Fu)",
-    "name_ja": "ユニー（楽富）",
-    "area": "Lok Fu",
-    "address": "Level 2, Lok Fu Place, 198 Junction Road, Wang Tau Hom, Kowloon",
-    "lat": null,
-    "lng": null,
-    "phone": "+85223371663",
-    "website": "https://apitauny.com.hk/",
-    "description": "ロックフー（樂富）にある日本食レストラン「UNY (Lok Fu)」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "日本食スーパー"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "uny-tko-mcp",
-    "name": "UNY (Tseung Kwan O)",
-    "name_ja": "ユニー（将軍澳）",
-    "area": "Tseung Kwan O",
-    "address": "UG036, MCP Central, 8 Yan King Road, Tseung Kwan O",
-    "lat": null,
-    "lng": null,
-    "phone": "+85225313200",
-    "website": "https://apitauny.com.hk/",
-    "description": "ツェンクワンオー（将軍澳）にある日本食レストラン「UNY (Tseung Kwan O)」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "日本食スーパー"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "uny-yuen-long",
-    "name": "UNY (Yuen Long)",
-    "name_ja": "ユニー（元朗）",
-    "area": "Yuen Long",
-    "address": "B1/F, Kolour Yuen Long, 1 Kau Yuk Road, Yuen Long",
-    "lat": null,
-    "lng": null,
-    "phone": "+85222732188",
-    "website": "https://apitauny.com.hk/",
-    "description": "ユンロン（元朗）にある日本食レストラン「UNY (Yuen Long)」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "日本食スーパー"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "uo-show-ma-on-shan-hang-on",
@@ -36500,7 +36166,7 @@
     "lng": null,
     "phone": "+85226333682",
     "website": null,
-    "description": "マオンシャン（馬鞍山）にある馬鞍山恆安商場2階の寿司レストラン。刺身盛り合わせや海鮮丼が人気。10:30-22:00まで営業。",
+    "description": "馬鞍山（Ma On Shan）恆安商場2階にある寿司・刺身レストラン「魚尚（Uo-Show）」。刺身盛り合わせや海鮮丼が人気で、10:30〜22:00と長時間営業。",
     "tags": [
       "japanese",
       "sushi",
@@ -36519,7 +36185,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "uo-show-ma-on-shan-station",
@@ -36531,7 +36198,7 @@
     "lng": null,
     "phone": "+85226757883",
     "website": null,
-    "description": "マオンシャン（馬鞍山）にある馬鞍山駅構内の寿司・刺身レストラン。駅直結で通勤帰りに便利。新鮮な魚介を使った寿司や丼物をスピーディーに提供。",
+    "description": "馬鞍山（Ma On Shan）MTR駅構内にある立地の便利な寿司・刺身レストラン「魚尚（Uo-Show）」。駅直結で通勤帰りに立ち寄りやすく、新鮮な魚介を使った丼物も揃う。",
     "tags": [
       "japanese",
       "sushi",
@@ -36551,7 +36218,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "uogashi-nihonichi-airside",
@@ -36563,7 +36231,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Kai Takにある日本料理・鮨店「Uogashi Nihonichi」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "啟德（Kai Tak）AIRSIDE G/F にある立ち食い寿司「魚がし日本一」香港店。1989年創業の江戸前鮨スタンド文化を香港に紹介。Café Deco Groupが運営。",
     "tags": [
       "寿司",
       "立ち食い寿司"
@@ -36580,7 +36248,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "uogashi-nihonichi-central-market",
@@ -36592,7 +36261,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "セントラル（中環）にある日本料理・鮨店「Uogashi Nihonichi」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "セントラル（中環）Central Market G/F にある立ち食い寿司「魚がし日本一」。豊洲市場の競り権を持つ老舗の江戸前鮨をカジュアルに楽しめる。",
     "tags": [
       "寿司",
       "立ち食い寿司"
@@ -36609,7 +36278,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "uoharu-admiralty",
@@ -36621,7 +36291,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "アドミラルティ（金鐘）にある日本式居酒屋「Uoharu (Admiralty)」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
+    "description": "アドミラルティ（金鐘）Pacific Place LG1/F にある東京発「魚治」の香港2号店。海鮮炉端焼きと居酒屋料理を中心に、日本産鮮魚を毎日空輸で提供。",
     "tags": [
       "居酒屋",
       "海鮮"
@@ -36638,7 +36308,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "uoharu-central",
@@ -36650,7 +36321,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "セントラル（中環）にある東京の名店居酒屋の香港支店。五日市ポーク、牛タン、ラムラック、東京から毎日直輸入の新鮮な魚を提供。",
+    "description": "セントラル（中環）M88・Wellington Place 7/F にある東京発「魚治」の香港1号店。五日市ポーク、牛タン、ラムラックなど東京から毎日直輸入の食材を使った海鮮居酒屋。",
     "tags": [
       "居酒屋",
       "海鮮",
@@ -36668,7 +36339,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "uoharu-pacific-place",
@@ -36680,7 +36352,7 @@
     "lng": null,
     "phone": "+85228037808",
     "website": null,
-    "description": "アドミラルティ（金鐘）にある東京の人気海鮮居酒屋「魚治」の香港2号店。パシフィックプレイス内で海鮮料理と炉端焼きを提供。",
+    "description": "アドミラルティ（金鐘）Pacific Place内にある東京の人気海鮮居酒屋「魚治」の香港2号店。炉端焼きと旬の海鮮料理を中心に、幅広い日本酒ラインナップを揃える。",
     "tags": [
       "居酒屋",
       "海鮮",
@@ -36700,7 +36372,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "uohyoue-san-po-kong",
@@ -36712,7 +36385,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "San Po Kongにある新蒲崗Mikikiにある寿司・刺身専門店。日本から直送の新鮮なネタを使った本格的な寿司を楽しめる。",
+    "description": "新蒲崗（San Po Kong）Mikiki LG/F にある寿司・刺身専門店「魚兵衛（Uohyoue）」。日本から直送した新鮮な魚介を使った本格的な握り・刺身を提供。",
     "tags": [
       "sushi",
       "sashimi",
@@ -36730,7 +36403,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "urawa-japanese-restaurant",
@@ -36742,7 +36416,7 @@
     "lng": 114.1521,
     "phone": "+85228508226",
     "website": null,
-    "description": "セントラル（中環）にある日本食レストラン「Urawa Japanese restaurant」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "サンポ（上環）Des Voeux Road 244番地の浦和日本料理。ランチセットから夜の刺身盛り・海鮮ビュッフェまで幅広いメニューが揃い、地元在住日本人にも人気。",
     "tags": [
       "日本食"
     ],
@@ -36758,7 +36432,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ushikaze-tin-shui-wai",
@@ -36770,7 +36445,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "天水圍天一商城の牛丼専門店。日式牛肉飯をメインに提供。1人約HK$50-80とリーズナブルで、気軽に日本の味が楽しめる。",
+    "description": "天水圍（Tin Shui Wai）天一商城内の牛丼専門店「牛風（Ushikaze）」。日式牛肉飯をメインにリーズナブルな価格で提供。1人約HK$50〜80で気軽に日本の味が楽しめる。",
     "tags": [
       "japanese",
       "donburi",
@@ -36790,7 +36465,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "utsukushi-teppanyaki-and-sake",
@@ -36802,7 +36478,7 @@
     "lng": 114.1687,
     "phone": "+85293389980",
     "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある日本食レストラン「Utsukushi Teppanyaki & Sake」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "チムサーチョイ（尖沙咀）Canton Road 122番地7/F にある鉄板焼きレストラン「Utsukushi」。日本産食材を使った鉄板焼きオマカセを20席の親密な空間で提供。",
     "tags": [
       "鉄板焼"
     ],
@@ -36818,7 +36494,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "wa-en-kappo-sheung-wan",
@@ -36830,7 +36507,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.waen-kappo.com",
-    "description": "サンポ（上環）にある上環にある割烹料理店。マルチコースの日本料理ファインダイニングを提供。HK$1和牛ロールプロモーションで話題。",
+    "description": "サンポ（上環）Connaught Road West 48番地29/F の割烹料理店「和宴 Kappo」。270度ビクトリアハーバー望む眺望の中、日本産旬食材のマルチコース割烹料理を提供。",
     "tags": [
       "割烹",
       "おまかせ",
@@ -36848,38 +36525,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "wa-en-wagyu-yakiniku",
-    "name": "Wa-En Wagyu Yakiniku",
-    "name_ja": "和焰",
-    "area": "Kowloon",
-    "address": "Kowloon, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://wa-en.com.hk/",
-    "description": "九龍にある日本食レストラン「Wa-En Wagyu Yakiniku」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "yakiniku",
-      "wagyu",
-      "a5",
-      "charcoal-grill"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "wa-en-wagyu-yakiniku-tst",
@@ -36889,7 +36536,7 @@
     "address": "12/F, The Toy House, 100 Canton Road, Tsim Sha Tsui, Hong Kong",
     "phone": "+85234283345",
     "website": "https://wa-en.com.hk/",
-    "description": "チムサーチョイ（尖沙咀）にある宮崎県産A4・A5和牛を専門に扱う焼肉レストラン。ミシュランガイド推薦（2016・2017年）。",
+    "description": "チムサーチョイ（尖沙咀）The Toy House 12/F にある「和宴 Wagyu Yakiniku」。宮崎県産A4・A5和牛を専門とし、ミシュランガイド推薦（2016・2017年）の実績を持つ焼肉店。",
     "tags": [
       "焼肉",
       "和牛",
@@ -36905,7 +36552,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "wa-shou-yakiniku-jordan",
@@ -36917,7 +36565,7 @@
     "lng": null,
     "phone": "+85222648928",
     "website": null,
-    "description": "ジョーダン（佐敦）にある厳選した和牛を秘伝のタレで味わえる焼肉店。名物のミャンマー産タイガーエビは焼き上がりに12〜20分かかる。",
+    "description": "ジョーダン（佐敦）Cheong Lok Street にある和匠日式燒肉店。厳選した和牛を秘伝のタレで味わえる焼肉店で、名物のミャンマー産タイガーエビは焼き上がり12〜20分の贅沢メニュー。",
     "tags": [
       "焼肉",
       "和牛"
@@ -36934,7 +36582,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "wado-izakaya",
@@ -36946,7 +36595,7 @@
     "lng": 114.1748,
     "phone": "+85223928828",
     "website": "https://www.instagram.com/wado_izakaya/",
-    "description": "チムサーチョイ（尖沙咀）にある日本式居酒屋「和道屋 Wado Izakaya」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
+    "description": "チムサーチョイ（尖沙咀）Granville Road 46-48番地にある「和道屋 Wado Izakaya」。A4和牛・刺身・寿司・浜焼きと90分半バイキング形式が人気の居酒屋。",
     "tags": [
       "居酒屋"
     ],
@@ -36962,37 +36611,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "wagyu-kaiseki-den-sheung-wan",
-    "name": "Wagyu Kaiseki Den",
-    "name_ja": "和牛懐石 傳",
-    "area": "Sheung Wan",
-    "address": "G/F, 263 Hollywood Road, Sheung Wan, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": "+85228512820",
-    "website": "http://www.wagyukaisekiden.com.hk/",
-    "description": "サンポ（上環）にある香港初のミシュラン星付き日本料理店として6年連続星を獲得。ハリウッドロードに位置し、和牛を中心とした懐石コースを提供。",
-    "tags": [
-      "懐石",
-      "和牛",
-      "ミシュラン星付き"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "wagyu-kappo-oda-central",
@@ -37004,7 +36624,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "セントラル（中環）にある鹿児島県産の小田牛（A4ランク）を中心とした割烹料理店。懐石コースで和牛を多彩に提供。ミシュランガイド掲載。",
+    "description": "セントラル（中環）Manning House 1/F にある鹿児島産小田牛（A4）専門の割烹料理店「Wagyu Kappo Oda」。懐石スタイルのコースで和牛を多彩な調理法で提供。ミシュランガイド掲載。",
     "tags": [
       "割烹",
       "懐石",
@@ -37024,37 +36644,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "wagyu-kappo-oda-central-2",
-    "name": "Wagyu Kappo Oda Central",
-    "name_ja": "和牛割烹 織田 中環店",
-    "area": "Central",
-    "address": "Central, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "セントラル（中環）にある日本食レストラン「Wagyu Kappo Oda Central」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "割烹",
-      "和牛",
-      "A5和牛"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "wagyu-yakiniku-ichiro-jordan",
@@ -37064,7 +36655,7 @@
     "address": "3/F, Pak Shing Building, 31-37 Jordan Road, Jordan, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "ジョーダン（佐敦）にある焼肉店「Wagyu Yakiniku Ichiro Jordan」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "ジョーダン（佐敦）Jordan Road 3/F にある「和牛燒肉一郎」の佐敦店。毎月日本から直送する10頭以上の和牛を無制限セットで提供する大型焼肉レストラン。",
     "tags": [
       "焼肉",
       "和牛",
@@ -37080,38 +36671,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "wagyu-yakiniku-ichiro-sha-tin-2",
-    "name": "Wagyu Yakiniku Ichiro",
-    "name_ja": "和牛燒肉一郎",
-    "area": "Sha Tin",
-    "address": "Sha Tin, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "シャーティン（沙田）にある日本食レストラン「Wagyu Yakiniku Ichiro」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "japanese",
-      "yakiniku",
-      "wagyu",
-      "sha-tin"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "wagyu-yakiniku-ichiro-tko",
@@ -37121,7 +36682,7 @@
     "address": "Shop 1040-41, 1/F, MCP Central, 8 Yan King Road, Tseung Kwan O, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "ツェンクワンオー（将軍澳）にある焼肉店「Wagyu Yakiniku Ichiro Tseung Kwan O」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "ツェンクワンオー（将軍澳）MCP Central 1/F にある「和牛燒肉一郎」TKO店。日本直送の和牛を無制限で楽しめる焼肉スタイルで、新幹線デリバリーシステムで話題。",
     "tags": [
       "焼肉",
       "和牛",
@@ -37137,7 +36698,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "wagyu-yakiniku-ichiro-tko-2",
