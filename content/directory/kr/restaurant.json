@@ -7792,7 +7792,7 @@
     "lng": null,
     "phone": "+82537552632",
     "website": null,
-    "description": "大邱・寿城区の日本式おまかせ寿司店「スシハナ」。ネタの品質が高く、丁寧な接客で評価されるカウンター席のおまかせコース専門店。",
+    "description": "大邱・寿城区にある日本式おまかせ寿司カウンター。ネタの品質と丁寧な接客で評価が高く、完全予約制で落ち着いた食事が楽しめる。",
     "tags": [
       "寿司",
       "おまかせ"
@@ -7809,33 +7809,9 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushi-hane-gangnam",
-    "name": "Sushi Hane",
-    "name_ja": "鮨 羽",
-    "area": "Gangnam-gu",
-    "address": "Gangnam-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "江南にある本格寿司レストラン「鮨 羽」。新鮮な魚介を使った握り寿司とおまかせコースを落ち着いた和風の空間で提供している。",
-    "tags": [
-      "寿司",
-      "おまかせ",
-      "カウンター"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "要予約",
+    "place_reviewed": true
   },
   {
     "slug": "sushi-hiroba-yeoksam",
@@ -7845,7 +7821,7 @@
     "address": "620 Samseong-ro, Gangnam-gu, Seoul",
     "phone": null,
     "website": "https://www.sushihiroba.kr/",
-    "description": "三成中央駅から徒歩3分の回転寿司チェーン「スシヒロバ」駅三店。韓国風にアレンジされたフュージョン寿司も提供している日本式店。",
+    "description": "三成中央駅そばの回転寿司チェーン「スシヒロバ」駅三店。手ごろな価格でにぎり寿司を楽しめ、日本人にも利用しやすい。",
     "tags": [
       "寿司",
       "回転寿司",
@@ -7861,7 +7837,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-hiroi-jungnang",
@@ -7871,7 +7848,7 @@
     "address": "2 Myeonmok-ro 92ra-gil, Jungnang-gu, Seoul, 2F 202",
     "phone": null,
     "website": null,
-    "description": "中浪区の日本式おまかせ寿司店「スシヒロイ」。伝統的なおまかせと現代的なアプローチを融合させたスタイルが特徴の寿司店の日本式専門店。",
+    "description": "中浪区のおまかせ寿司専門店。伝統的な江戸前技法をベースに、2F個室カウンターで静かな食事体験を提供している。",
     "tags": [
       "寿司",
       "おまかせ"
@@ -7886,63 +7863,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushi-hwajeong",
-    "name": "Sushi Hwajeong",
-    "name_ja": "スシファジョン",
-    "area": "Seoul",
-    "address": "12-4 Bukchang-dong, Jung District, Seoul, South Korea",
-    "lat": 37.5629,
-    "lng": 126.9783,
-    "phone": "+8227577766",
-    "website": null,
-    "description": "ソウルの寿司レストラン「スシファジョン」。新鮮な魚介を使った握り寿司と刺身を提供する日本式寿司専門店となっているの日本式専門店。",
-    "tags": [
-      "寿司",
-      "刺身"
-    ],
-    "hours": "Monday: 11:30 AM – 3:00 PM, 5:30 – 10:00 PM / Tuesday: 11:30 AM – 3:00 PM, 5:30 – 10:00 PM / Wednesday: 11:30 AM – 3:00 PM, 5:30 – 10:00 PM / Thursday: 11:30 AM – 3:00 PM, 5:30 – 10:00 PM / Friday: 11:30 AM – 3:00 PM, 5:30 – 10:00 PM / Saturday: 11:30 AM – 3:00 PM, 5:30 – 10:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJgezcdPOifDURiz5SXwlrN-w",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushi-hyo-cheongdam",
-    "name": "Sushi Hyo Cheongdam",
-    "name_ja": "スシヒョ 清潭本店",
-    "area": "Gangnam-gu (Cheongdam)",
-    "address": "21-16 Cheongdam-dong, Gangnam-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "清潭洞の高級おまかせ寿司店「スシヒョ」。新鮮なネタと繊細な仕事で評判。韓国のグルメシーンでも高い評価を受けているの日本式専門店。",
-    "tags": [
-      "寿司",
-      "おまかせ",
-      "高級",
-      "清潭洞"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-hyo-cheongdam-detail",
@@ -7954,7 +7876,7 @@
     "lng": null,
     "phone": "+8225450023",
     "website": null,
-    "description": "清潭洞の高級おまかせ寿司店「寿司孝 清潭本店」。鮮度の高い寿司に加え蕎麦・煮物も提供し、接待や記念日の利用が多い人気店。",
+    "description": "清潭洞の高級おまかせ寿司店「寿司孝」。鮮度の高い握りに加え、蕎麦や煮物も提供。接待や記念日利用が多い予約制の店。",
     "tags": [
       "寿司",
       "おまかせ",
@@ -7972,44 +7894,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushi-ichon-2",
-    "name": "二村 すし処",
-    "name_ja": "二村 すし処",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Ichon",
-    "address": "서울 용산구 이촌동 서울",
-    "lat": 37.518,
-    "lng": 126.9676,
-    "phone": "",
-    "website": "",
-    "description": "日本人コミュニティが集まる二村洞のすし処。日本語スタッフによる温かみのあるサービスが特徴で、マグロ・サーモン・タコなど定番ネタを揃えたにぎりセットがリーズナブルに楽しめる。ランチには握りセット、夜はコースや一品料理と使い分けられる地域の人気店。",
-    "price_range": "₩₩₩",
-    "hours": "11:30-22:00",
-    "closed_days": "月曜",
-    "languages": [
-      "ja",
-      "ko"
-    ],
-    "tags": [
-      "寿司",
-      "二村",
-      "日本語対応"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-in-apgujeong",
@@ -8019,7 +7905,7 @@
     "address": "49 Apgujeong-ro 42-gil, Gangnam-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "狎鷗亭にあるおまかせ寿司店。評価4.7の人気店で、パーソナライズされた味の旅を提供。季節の食材を活かしたスペシャルコースが魅力。",
+    "description": "狎鷗亭のおまかせ寿司店。シェフが旬の食材を選び抜くパーソナライズドコースが売りで、Googleで評価4.7を獲得する人気店。",
     "tags": [
       "寿司",
       "おまかせ",
@@ -8035,45 +7921,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushi-jongno",
-    "name": "鍾路 寿司",
-    "name_ja": "鍾路 寿司",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Jongno",
-    "address": "서울 종로구 종로 서울",
-    "lat": 37.571,
-    "lng": 126.983,
-    "phone": "",
-    "website": "",
-    "description": "鍾路エリアの手頃な寿司専門店。回転寿司スタイルで提供し、リーズナブルな価格でマグロ・サーモン・エビ・タコなどの定番寿司を楽しめる。ランチタイムはサラリーマンや観光客で賑わい、気軽に利用できる雰囲気が魅力。日本語メニューも用意されている。",
-    "price_range": "₩₩",
-    "hours": "11:00-22:00",
-    "closed_days": "なし",
-    "languages": [
-      "ja",
-      "ko"
-    ],
-    "tags": [
-      "寿司",
-      "鍾路",
-      "リーズナブル",
-      "日本語対応"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-jun-daegu",
@@ -8085,7 +7934,7 @@
     "lng": null,
     "phone": "+82532161916",
     "website": null,
-    "description": "大邱・東城路の寿司店。新鮮な刺身を使った握り寿司を提供し、うどんのおかわり無料サービスが好評。コスパの高い寿司店として地元でも人気。",
+    "description": "大邱・東城路の寿司店。新鮮な地元魚介を使った握り寿司を提供し、うどんおかわり無料のサービスがコスパの高さで人気。",
     "tags": [
       "寿司",
       "刺身"
@@ -8102,7 +7951,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-jungin-yeonnam",
@@ -8112,7 +7962,7 @@
     "address": "Yeonnam-dong, Mapo-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "延南洞のおまかせ寿司店。ランチのおまかせコースが手頃な価格で、ネタの鮮度も高く評判。カウンター席で職人の仕事を見ながら食べられる。",
+    "description": "延南洞のおまかせ寿司専門店。ランチのおまかせコースが手ごろな価格で提供され、ネタの鮮度と職人の仕事ぶりが評判。",
     "tags": [
       "おまかせ寿司",
       "カウンター",
@@ -8128,7 +7978,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-kaisin-cheongdam",
@@ -8140,7 +7991,7 @@
     "lng": null,
     "phone": "+8225159855",
     "website": null,
-    "description": "日本人オーナーが営む清潭洞の高級寿司専門店。カウンター6席のみの完全予約制で、22品のおまかせコースを提供。日本の江戸前寿司を忠実に再現。",
+    "description": "日本人オーナーが営む清潭洞の高級江戸前寿司店。カウンター6席のみの完全予約制で、22品おまかせコースを提供。",
     "tags": [
       "寿司",
       "日本人経営",
@@ -8159,59 +8010,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushi-kaisin-cheongdam-detail",
-    "name": "스시 카이신",
-    "name_ja": "スシ カイシン",
-    "area": "清潭洞",
-    "address": "12 Dosan-daero 100-gil, Gangnam-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "清潭洞の高評価オマカセ寿司店。Googleでも高評価を維持し、韓国産・輸入食材を組み合わせた創造的な握り寿司が楽しめる。在韓日本人の口にも合う本格的な仕事ぶりで知られ、予約困難な人気店。",
-    "tags": [
-      "オマカセ",
-      "寿司",
-      "高級"
-    ],
-    "hours": "18:00〜22:00（火曜定休）",
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushi-kaisin-seoul",
-    "name": "Sushi Kaisin",
-    "name_ja": "鮨 海心",
-    "area": "Gangnam-gu",
-    "address": "Gangnam-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "江南にある日本式おまかせ寿司店「鮨 海心」。韓国産と日本輸入の魚を使い、伝統的な江戸前寿司をモダンにアレンジして提供の日本式専門店。",
-    "tags": [
-      "おまかせ",
-      "寿司",
-      "モダン"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-ko-uji-cheongdam",
@@ -8221,7 +8021,7 @@
     "address": "Cheongdam-dong, Gangnam-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "清潭洞にある江戸前スタイルのおまかせ寿司店「鮨こうじ」。韓国の食通からも高評価。予約制で贅沢な寿司体験ができる店の日本式専門店。",
+    "description": "清潭洞の江戸前おまかせ寿司店「鮨こうじ」。韓国の食通からも高評価を受ける予約制の店で、贅沢な寿司体験ができる。",
     "tags": [
       "寿司",
       "おまかせ",
@@ -8237,7 +8037,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-kohaku-jeju",
@@ -8249,7 +8050,7 @@
     "lng": null,
     "phone": "+82647488018",
     "website": null,
-    "description": "日本人職人が手がける済州島の本格寿司店。季節ごとにメニューが変わる板前寿司を提供。済州島の新鮮な食材と日本の技法を融合させたおまかせコースが人気。",
+    "description": "済州島の日本人職人による本格寿司店。季節ごとに変わる板前寿司で、済州産食材と日本の技法を融合したおまかせコースが人気。",
     "tags": [
       "寿司",
       "日本人シェフ",
@@ -8268,7 +8069,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-koji-dosan",
@@ -8278,7 +8080,7 @@
     "address": "318 Dosan-daero, Gangnam-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "新沙洞・島山大路にある日本式寿司店「鮨 幸治」。新鮮な刺身・創作ロール・季節のスペシャルメニューを提供する寿司専門店の日本式専門店。",
+    "description": "新沙洞・島山大路の日本式寿司店「鮨幸治」。新鮮な刺身・創作ロール・季節のスペシャルメニューを揃えた寿司専門店。",
     "tags": [
       "寿司",
       "刺身",
@@ -8294,7 +8096,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-kojima-apgujeong",
@@ -8306,7 +8109,7 @@
     "lng": null,
     "phone": "+82220561291",
     "website": null,
-    "description": "ミシュラン2つ星の江戸前寿司店。シェフが毎朝カラク市場で厳選した食材のみを使用。Boon the Shop 6Fに位置し、月〜土の昼夜営業。",
+    "description": "ミシュラン2つ星の江戸前寿司店。毎朝カラク市場で厳選した食材を使用。Boon the Shop 6Fに位置し、韓国唯一の2つ星寿司レストラン。",
     "tags": [
       "寿司",
       "ミシュラン2つ星",
@@ -8325,34 +8128,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushi-kojima-gangnam",
-    "name": "Sushi Kojima",
-    "name_ja": "寿司小島",
-    "area": "Gangnam-gu",
-    "address": "18 Dosan-daero 67-gil, Gangnam-gu, Seoul",
-    "phone": "+8225452300",
-    "website": null,
-    "description": "ミシュランガイドソウル2つ星を獲得した高級寿司カウンター。厳選した旬の素材を使ったおまかせコースを提供する。江南エリアを代表する本格江戸前寿司店。",
-    "tags": [
-      "寿司",
-      "おまかせ",
-      "ミシュラン",
-      "高級"
-    ],
-    "hours": "12:00〜14:00, 18:00〜22:00",
-    "status": "unverified",
-    "source": "website",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-man-seocho",
@@ -8364,7 +8141,7 @@
     "lng": null,
     "phone": "+8225330181",
     "website": "http://www.sushiman.modoo.at",
-    "description": "2017年からミシュラン1つ星を4年連続獲得した高級寿司店。おまかせコースを提供し、江戸前寿司の技法を忠実に再現。カウンター席での臨場感ある食事体験が特徴。",
+    "description": "2017年から4年連続ミシュラン1つ星を獲得した高級寿司店。江戸前寿司の技法を忠実に再現したおまかせコースをカウンター席で提供。",
     "tags": [
       "寿司",
       "ミシュラン",
@@ -8382,7 +8159,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-miru-gangnam",
@@ -8392,7 +8170,7 @@
     "address": "26-6 Eonju-ro 170-gil, Gangnam-gu, Seoul, 2F",
     "phone": null,
     "website": null,
-    "description": "江南・論峴エリアの日本式おまかせ寿司店「スシミル」。通常より大きめのネタが特徴で、ボリューム感のあるおまかせコースを提供する。",
+    "description": "江南・論峴の日本式おまかせ寿司店。通常より大きめのネタが特徴で、ボリューム感のあるおまかせコースを2Fカウンターで提供する。",
     "tags": [
       "寿司",
       "おまかせ"
@@ -8407,7 +8185,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-motoi-gangnam",
@@ -8417,7 +8196,7 @@
     "address": "27-10 Seolleung-ro 146-gil, Gangnam-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "江南・宣陵にあるおまかせ寿司店。堅苦しくない雰囲気の中で、シェフが寿司おまかせの概念を再定義する。日本酒のペアリングも充実。",
+    "description": "江南・宣陵のおまかせ寿司店「スシモトイ」。堅苦しくない雰囲気で、シェフ独自の視点でおまかせの概念を再定義した店。日本酒ペアリングも充実。",
     "tags": [
       "寿司",
       "おまかせ",
@@ -8433,7 +8212,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-nuhwa-seochon",
@@ -8443,7 +8223,7 @@
     "address": "Seochon, Jongno-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "西村エリアの韓屋で楽しむ日本式おまかせ寿司店「スシヌファ」。韓屋の雰囲気の中で日本の寿司に韓国要素を融合した一品が楽しめる。",
+    "description": "西村エリアの韓屋を舞台にした日本式おまかせ寿司店。韓国の伝統的な建物の空間に、日本の寿司技法と韓国食材を融合した一品が楽しめる。",
     "tags": [
       "寿司",
       "おまかせ",
@@ -8459,7 +8239,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-ogawa-jongno",
@@ -8471,7 +8252,7 @@
     "lng": null,
     "phone": "+8227351001",
     "website": null,
-    "description": "鍾路のカウンター式おまかせ寿司店。リーズナブルな価格で本格的なおまかせ寿司が楽しめる。茹でアワビなど高級食材も登場する。",
+    "description": "鍾路B1Fのカウンター式おまかせ寿司店。リーズナブルな価格で本格おまかせ寿司が楽しめ、茹でアワビなど高級食材も登場する。",
     "tags": [
       "寿司",
       "おまかせ",
@@ -8489,7 +8270,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-omaju-gangnam",
@@ -8499,7 +8281,7 @@
     "address": "67 Gangnam-daero 152-gil, Gangnam-gu, Seoul, B1F 102",
     "phone": null,
     "website": null,
-    "description": "江南の日本式おまかせ寿司店「スシオマージュ」。マグロ・ウニ・穴子の品質に定評があり、安定したクオリティを維持しているの日本式専門店。",
+    "description": "江南B1Fの日本式おまかせ寿司店。マグロ・ウニ・穴子の品質に定評があり、安定したクオリティを維持する評判の店。",
     "tags": [
       "寿司",
       "おまかせ"
@@ -8514,156 +8296,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushi-omakase-hannam",
-    "name": "漢南 寿司おまかせ",
-    "name_ja": "漢南 寿司おまかせ",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Hannam",
-    "address": "서울 용산구 한남동 서울",
-    "lat": 37.5355,
-    "lng": 127.0005,
-    "phone": "",
-    "website": "",
-    "description": "漢南洞のプレミアムエリアにある寿司おまかせコースレストラン。日本で修業を積んだ韓国人職人が握る本格的な寿司を、厳選食材を使ったコースで楽しめる。江戸前寿司の技法を守りながらも韓国産の食材を積極的に取り入れる独自スタイルが評判。",
-    "price_range": "₩₩₩₩",
-    "hours": "18:00-22:30",
-    "closed_days": "月曜・火曜",
-    "languages": [
-      "ja",
-      "ko"
-    ],
-    "tags": [
-      "寿司",
-      "おまかせ",
-      "漢南",
-      "高級",
-      "日本語対応"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushi-restaurant-busan-nampo",
-    "name": "釜山南浦 寿司",
-    "name_ja": "釜山南浦 寿司",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Busan",
-    "area": "Nampo",
-    "address": "부산 중구 남포동 부산",
-    "lat": 35.0985,
-    "lng": 129.0305,
-    "phone": "",
-    "website": "",
-    "description": "釜山・南浦洞の港エリアにある寿司レストラン。港町釜山ならではの新鮮な魚介を使ったにぎり寿司・巻き寿司を提供。チャガルチ市場から直送される食材の鮮度は折り紙付きで、日本人観光客にも地元民にも評判の高い一軒。",
-    "price_range": "₩₩₩",
-    "hours": "11:30-22:00",
-    "closed_days": "月曜",
-    "languages": [
-      "ko"
-    ],
-    "tags": [
-      "寿司",
-      "釜山",
-      "南浦洞",
-      "新鮮"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushi-restaurant-hapjeong",
-    "name": "合井 寿司",
-    "name_ja": "合井 寿司",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Hapjeong",
-    "address": "서울 마포구 합정동 서울",
-    "lat": 37.5497,
-    "lng": 126.9146,
-    "phone": "",
-    "website": "",
-    "description": "合井エリアの本格寿司専門店。毎朝仕入れる新鮮な魚介で握るにぎり寿司は、ネタの鮮度と職人の技が光ると評判。カジュアルな雰囲気でありながら本格的な江戸前寿司を楽しめると在韓日本人に人気。日本語スタッフが在籍し、おまかせコースも対応可能。",
-    "price_range": "₩₩₩",
-    "hours": "12:00-14:30/17:30-22:00",
-    "closed_days": "月曜",
-    "languages": [
-      "ja",
-      "ko"
-    ],
-    "tags": [
-      "寿司",
-      "合井",
-      "日本語対応"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushi-sa-gangnam",
-    "name": "Sushi Sa",
-    "name_ja": "鮨さ",
-    "area": "Gangnam-gu",
-    "address": "Gangnam-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "江南エリアの日本式寿司おまかせ店「鮨さ」。日本直送のネタを使った本格的な握り寿司をカウンター8席の小さな空間で提供する。",
-    "tags": [
-      "寿司",
-      "おまかせ",
-      "江南"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-sakau-gangnam",
     "name": "Sushi Sakau",
     "name_ja": "鮨 さかう",
     "area": "Gangnam-gu (Eonju)",
-    "address": "Eonju-ro 153-gil B1F 10-6, Gangnam-gu, Seoul",
+    "address": "10-6 Eonju-ro 153-gil B1F, Gangnam-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "江南・論峴にある評価4.8の高評価おまかせ寿司店。ソウルのトップ寿司デスティネーションの一つとして知られる。厳選された食材とモダンな空間。",
+    "description": "江南・論峴のおまかせ寿司店。Googleで評価4.8を獲得するソウルのトップ寿司店のひとつ。厳選食材とモダンな空間が特徴。",
     "tags": [
       "寿司",
       "おまかせ",
@@ -8679,7 +8323,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-sangen-banjuheon-gangnam",
@@ -8689,7 +8334,7 @@
     "address": "Gangnam Station area, Gangnam-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "江南駅近くの寿司・海鮮丼レストラン「スシ三間 半主軒」。新鮮な刺身と副菜が付いた海鮮丼セットを提供する日本式店の日本式専門店。",
+    "description": "江南駅近くの寿司・海鮮丼専門店「スシ三間 半主軒」。新鮮な刺身と副菜が付いた海鮮丼セットをランチに提供する日本式店。",
     "tags": [
       "寿司",
       "海鮮丼"
@@ -8704,101 +8349,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushi-seongsu-2",
-    "name": "聖水 寿司バー",
-    "name_ja": "聖水 寿司バー",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Seongsu",
-    "address": "서울 성동구 성수동 서울",
-    "lat": 37.544,
-    "lng": 127.0557,
-    "phone": "",
-    "website": "",
-    "description": "聖水洞のスタイリッシュな寿司バー。オープンキッチンのカウンターで職人が目の前で握る寿司を楽しめる。季節ごとに変わる旬のネタを使った新鮮な寿司と日本酒のペアリングが好評で、20〜30代の韓国人クリエイターや外国人にも人気の一軒。",
-    "price_range": "₩₩₩",
-    "hours": "17:00-24:00",
-    "closed_days": "月曜",
-    "languages": [
-      "ko",
-      "en"
-    ],
-    "tags": [
-      "寿司バー",
-      "聖水",
-      "スタイリッシュ"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushi-seonsu-apgujeong",
-    "name": "Sushi Seonsu",
-    "name_ja": "スシソンス",
-    "area": "Gangnam-gu (Apgujeong)",
-    "address": "Apgujeong-dong, Gangnam-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "狎鷗亭エリアの日本式おまかせ寿司店「スシソンス」。カウンター席でのおまかせコースが中心で、新鮮なネタと落ち着いた空間の日本式専門店。",
-    "tags": [
-      "寿司",
-      "おまかせ",
-      "狎鷗亭"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushi-shiro-hongdae",
-    "name": "Sushi Shiro",
-    "name_ja": "スシシロー",
-    "area": "Mapo-gu (Hongdae)",
-    "address": "Mapo-gu, Seoul",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "弘大にあるおまかせスタイルの寿司店。カウンター席で職人の握りを間近に見ながら食べるスタイル。醤油を出さず職人が味付けして提供する本格的な江戸前寿司の手法を取り入れている。TimeOut Seoul選出。",
-    "tags": [
-      "居酒屋",
-      "おまかせ寿司",
-      "カウンター",
-      "江戸前スタイル"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-sian-busan",
@@ -8810,7 +8362,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "釜山センタムシティエリアのおまかせ寿司店。夕食のみの営業で、おまかせコース（9万ウォン〜）を提供。予約はcatchtableアプリ経由。",
+    "description": "釜山・伽倻大路エリアのおまかせ寿司店。夕食のみ、おまかせコース（9万ウォン〜）を予約制で提供。catchtableアプリ経由で予約。",
     "tags": [
       "寿司",
       "おまかせ",
@@ -8828,19 +8380,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-sim",
     "name": "Sushi Sim",
     "name_ja": "スシシム",
     "area": "Busan",
-    "address": "279-1 Geumgang-ro, Geumjeong-gu, Busan, South Korea",
+    "address": "279-1 Geumgang-ro, Geumjeong-gu, Busan",
     "lat": 35.233,
     "lng": 129.0854,
     "phone": "+82515153088",
     "website": null,
-    "description": "釜山の寿司専門店「スシシム」。新鮮な地元の魚介を使った本格的な握り寿司を提供する日本式寿司レストランとなっているの日本式専門店。",
+    "description": "釜山・金井区の寿司専門店。地元の新鮮な魚介を使った本格握り寿司を提供する日本式レストラン。",
     "tags": [
       "寿司",
       "釜山"
@@ -8857,7 +8410,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-sogi-sinsa",
@@ -8867,7 +8421,7 @@
     "address": "511-13 Sinsa-dong, Gangnam-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "新沙洞の住宅街にある日本式おまかせ寿司店「スシソギ」。シェフ厳選のテイスティングメニューとクラフトビールのペアリングが特徴。",
+    "description": "新沙洞の日本式おまかせ寿司店。シェフ厳選のテイスティングメニューとクラフトビールのペアリングが特徴の個性派寿司店。",
     "tags": [
       "寿司",
       "おまかせ"
@@ -8882,19 +8436,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-sora",
     "name": "Sushi Sora",
     "name_ja": "寿司 空",
     "area": "Seoul",
-    "address": "1층 116호, 르메이에르종로타운1 지하, 19 Jong-ro, Jongno District, Seoul, South Korea",
+    "address": "19 Jong-ro, Jongno-gu, Seoul, 르메이에르종로타운1 B1 116호",
     "lat": 37.5705,
     "lng": 126.9799,
     "phone": null,
     "website": null,
-    "description": "ソウルの寿司レストラン「寿司 空」。カウンター席での本格的な日本式握り寿司が楽しめる日本料理専門店となっているの日本式専門店。",
+    "description": "鍾路の「르메이에르종로타운1」地下のカウンター寿司店「寿司空」。本格的な日本式握り寿司を提供する落ち着いた専門店。",
     "tags": [
       "寿司",
       "カウンター"
@@ -8911,7 +8466,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-sumire-cheongdam",
@@ -8921,7 +8477,7 @@
     "address": "88-6 Cheongdam-dong, Gangnam-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "清潭洞にある本格江戸前寿司店「鮨すみれ」。カウンター席で職人による握りが楽しめる予約制の落ち着いた雰囲気の寿司店の日本式専門店。",
+    "description": "清潭洞の本格江戸前寿司店「鮨すみれ」。カウンター席で職人の握りを間近に楽しめる予約制の落ち着いた寿司専門店。",
     "tags": [
       "寿司",
       "おまかせ",
@@ -8937,7 +8493,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-sunsoo-gangnam",
@@ -8947,7 +8504,7 @@
     "address": "6 Dosan-daero 45-gil, Gangnam-gu, Seoul, Horim Art Center 2 Bldg",
     "phone": null,
     "website": null,
-    "description": "狎鷗亭の高級おまかせ寿司店「スシスンス」。厳選された高級食材と芸術的なプレゼンテーションが特徴の日本式カウンター寿司店。",
+    "description": "狎鷗亭・ホリムアートセンター2ビル内の高級おまかせ寿司店。厳選された高級食材と芸術的なプレゼンテーションが楽しめるカウンター寿司。",
     "tags": [
       "寿司",
       "おまかせ",
@@ -8963,37 +8520,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushi-tatsu-dosan",
-    "name": "Sushi Tatsu",
-    "name_ja": "スシタツ",
-    "area": "Gangnam-gu (Sinsa)",
-    "address": "18 Dosan-daero 28-gil, Gangnam-gu, Seoul",
-    "lat": null,
-    "lng": null,
-    "phone": "+8225143336",
-    "website": null,
-    "description": "江南道山エリアの本格寿司店。職人が目の前でおまかせ握りを手渡しで提供するパフォーマンスが特徴。上質なウニや旬のネタを使った江戸前寿司が楽しめる。",
-    "tags": [
-      "寿司",
-      "おまかせ",
-      "江戸前"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-tatsu-dosan-detail",
@@ -9005,7 +8533,7 @@
     "lng": null,
     "phone": "+8225143336",
     "website": null,
-    "description": "江南・道山大路沿いの寿司店。職人によるおまかせ握り寿司が名物で、北海道産ウニなど上質なネタを使用。カウンターでのパフォーマンスも楽しめる。",
+    "description": "江南・道山大路の寿司店。北海道産ウニなど上質なネタを使い、職人が目の前でおまかせ握りを手渡しで提供するスタイルが名物。",
     "tags": [
       "寿司",
       "おまかせ",
@@ -9023,7 +8551,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-tsubasa-sinsa",
@@ -9033,7 +8562,7 @@
     "address": "517-35 Sinsa-dong, Gangnam-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "新沙洞の10席の日本式おまかせ寿司店「スシツバサ」。ウニ・ニシン・サバなど季節のネタに特化したカウンター寿司を提供する。",
+    "description": "新沙洞の10席限定おまかせ寿司店「スシツバサ」。ウニ・ニシン・サバなど季節のネタに特化したカウンター寿司を提供する。",
     "tags": [
       "寿司",
       "おまかせ"
@@ -9048,65 +8577,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushi-uo-seoul",
-    "name": "Sushi Uo",
-    "name_ja": "スシウオ",
-    "area": "Seoul",
-    "address": "Seoul",
-    "phone": null,
-    "website": null,
-    "description": "ソウルにある高級日本式おまかせ寿司店「スシウオ」。スタッフが着物を着用し、特別な発酵酢で仕込んだシャリが特徴の寿司店の日本式専門店。",
-    "tags": [
-      "寿司",
-      "おまかせ",
-      "高級"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushi-z-hannam",
-    "name": "Sushi Z",
-    "name_ja": "スシZ",
-    "area": "Yongsan-gu (Hannam-dong)",
-    "address": "Hannam-dong, Yongsan-gu, Seoul",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "漢南洞にある寿司バー兼鉄板焼き。NYスタイルの寿司バーをコンセプト���したラウンジ風の空間で、テラス席も備える。新鮮な魚介と肉を使った料理を提供。TimeOut Seoul「Best Izakayas」にも選出。",
-    "tags": [
-      "居酒屋",
-      "寿司バー",
-      "鉄板焼き",
-      "ラウンジ",
-      "テラス席"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-z-hannam-detail",
@@ -9116,7 +8588,7 @@
     "address": "Hannam-dong, Yongsan-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "漢南洞にある革新的なスタイルの寿司バー。ニューヨーク流のアプローチを取り入れ、テッパン料理とテラスガーデンも備えた多彩な空間。従来の日本料理店の枠を超えたカジュアルかつ上質な体験が楽しめる。",
+    "description": "漢南洞のNYスタイル寿司バー「Sushi Z」。鉄板料理やテラスガーデンも備え、従来の日本料理店の枠を超えたカジュアルダイニング。",
     "tags": [
       "寿司",
       "テッパン",
@@ -9132,7 +8604,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushidajeong-yeouido",
@@ -9142,7 +8615,7 @@
     "address": "Yeouido, Yeongdeungpo-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "汝矣島の高コスパ日本式おまかせ寿司店「スシダジョン」。手頃なランチ価格でおまかせコースを提供し、夜のコースは予約必須の日本式専門店。",
+    "description": "汝矣島のコスパ優秀な日本式おまかせ寿司店「スシダジョン」。手ごろなランチから本格おまかせコースまで提供。夜は予約必須。",
     "tags": [
       "寿司",
       "おまかせ",
@@ -9158,93 +8631,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushidoku-en-gangnam",
-    "name": "스시도쿠 엔",
-    "name_ja": "寿司道 縁",
-    "area": "江南",
-    "address": "Gangnam-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "江南区にある本格寿司店。TripAdvisorでも高評価のコストパフォーマンスに優れた寿司店として知られ、地元の日本人コミュニティにも支持される。ランチタイムの寿司セットはリーズナブルで、毎日通いたくなる味わい。",
-    "tags": [
-      "寿司",
-      "コスパ"
-    ],
-    "hours": "11:30〜22:00",
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushiro-cheongna",
-    "name": "Sushiro Cheongna",
-    "name_ja": "スシロー 青羅店",
-    "area": "Incheon (Cheongna)",
-    "address": "Cheongna, Incheon",
-    "phone": null,
-    "website": "http://www.sushiro.co.kr/",
-    "description": "日本最大手の回転寿司チェーン「スシロー」の仁川店。約60種類の寿司ネタを1皿1,700ウォン均一で提供。タッチパネルは日本語対応しているため注文しやすい。",
-    "tags": [
-      "寿司",
-      "回転寿司",
-      "チェーン",
-      "日本語対応"
-    ],
-    "hours": "11:00-22:00",
-    "status": "unverified",
-    "source": "website",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
     "photo_name": null,
-    "menu": [
-      {
-        "name": "짚불 가다랑어 시오레몬（藁焼きカツオ塩レモン）",
-        "price": "KRW 3,900",
-        "category": "寿司"
-      },
-      {
-        "name": "연어 뱃살 타다키（サーモン腹身たたき）",
-        "price": "KRW 3,200",
-        "category": "寿司"
-      },
-      {
-        "name": "장어（うなぎ）",
-        "price": "KRW 3,200",
-        "category": "寿司"
-      },
-      {
-        "name": "홍게 다리살（紅ズワイガニ足肉）",
-        "price": "KRW 5,000",
-        "category": "寿司"
-      },
-      {
-        "name": "미역 우동（わかめうどん）",
-        "price": "KRW 3,600",
-        "category": "麺類"
-      },
-      {
-        "name": "돈코츠 라멘（豚骨ラーメン）",
-        "price": "KRW 5,400",
-        "category": "麺類"
-      }
-    ],
-    "price_range": "KRW 2,200〜6,500/皿（一人KRW 5,000〜15,000程度）",
-    "detail": "仁川・青羅（チョンナ）エリアの韓国スシロー。仁川国際空港にアクセスが良い青羅地区に位置し、空港周辺の在住外国人にも利用されている。日本直輸入の食材を使った1皿KRW 2,200〜5,000の回転寿司チェーン。日本語メニュー対応で、日本人旅行者・在住者も気軽に利用できる。"
+    "place_reviewed": true
   },
   {
     "slug": "sushiro-coex-samseong",
@@ -14882,13 +14270,13 @@
     "name": "Sushi Sakau",
     "name_ja": "寿司さかう",
     "area": "江南",
-    "address": "10-6 Eonju-ro 153-gil, Gangnam-gu, Seoul (B1)",
+    "address": "10-6 Eonju-ro 153-gil B1F, Gangnam-gu, Seoul",
     "phone": null,
     "phone_local": null,
     "email": null,
     "website": null,
     "source_url": "https://mybestseoul.com/omakase/",
-    "description": "江南・狎鴎亭エリアのオマカセ鮨店。昼6万ウォン、夜9万9千ウォンのリーズナブルなコースが人気。",
+    "description": "江南・論峴のおまかせ寿司店。Googleで評価4.8を獲得するソウルのトップ寿司店のひとつ。厳選食材とモダンな空間が特徴。",
     "detail": "ソウル江南区・狎鴎亭エリアの地下1階に位置するオマカセ鮨店。昼コース6万ウォン、夜コース9万9千ウォンとクオリティの高さに対して手頃な価格設定が話題。丁寧に握られた寿司と親しみやすいシェフの接客が高評価で、予約は少なくとも1ヶ月前から行うことを推奨。月曜定休。駐車場あり。日本式の本格オマカーセを気軽に体験したい在住者や旅行者に適している。",
     "menu": [
       "オマカセコース",
