@@ -24,7 +24,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "alpro-sugi-pharmacy-mont-kiara",
@@ -54,7 +55,8 @@
     "status": "unverified",
     "source": "gemini_search",
     "last_verified": "2026-04-02",
-    "ai_reviewed": false
+    "ai_reviewed": false,
+    "place_reviewed": true
   },
   {
     "slug": "alpro-sugi-pharmacy-publika",
@@ -84,7 +86,8 @@
     "status": "unverified",
     "source": "gemini_search",
     "last_verified": "2026-04-02",
-    "ai_reviewed": false
+    "ai_reviewed": false,
+    "place_reviewed": true
   },
   {
     "slug": "alpro-sugi-pharmacy-sunway-velocity",
@@ -111,7 +114,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "alpro-sugi-pharmacy-the-gardens-mall",
@@ -141,7 +145,8 @@
     "status": "unverified",
     "source": "gemini_search",
     "last_verified": "2026-04-02",
-    "ai_reviewed": false
+    "ai_reviewed": false,
+    "place_reviewed": true
   },
   {
     "slug": "alpro-sugi-starling",
@@ -168,7 +173,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "big-pharmacy-mont-kiara",
@@ -195,34 +201,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "caring-pharmacy-pavilion",
-    "name": "CARiNG Pharmacy Pavilion KL",
-    "name_ja": "ケアリングファーマシー パビリオンKL",
-    "area": "Bukit Bintang",
-    "address": "Pavilion KL, 168 Jalan Bukit Bintang, 55100 Kuala Lumpur",
-    "phone": null,
-    "website": "https://www.caring2u.com/",
-    "description": "1994年設立のマレーシアの薬局チェーン。5名のシニア薬剤師が運営し、処方箋調剤・健康相談・ヘルスケア製品を提供。ロイヤルティプログラムで誕生日特典や限定プロモーションあり。",
-    "tags": [
-      "薬局",
-      "ヘルスケア",
-      "処方箋調剤",
-      "チェーン"
-    ],
-    "hours": "10:00-22:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website",
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "don-don-donki-pharmacy-lot10",
@@ -249,7 +229,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "isetan-japan-store-health",
@@ -276,7 +257,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "matsumoto-kiyoshi-jb",
@@ -303,7 +285,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "matsumoto-kiyoshi-lalaport-bbcc",
@@ -333,7 +316,8 @@
     "status": "unverified",
     "source": "gemini_search",
     "last_verified": "2026-04-02",
-    "ai_reviewed": false
+    "ai_reviewed": false,
+    "place_reviewed": true
   },
   {
     "slug": "matsumoto-kiyoshi-suria-klcc",
@@ -363,7 +347,8 @@
     "status": "unverified",
     "source": "gemini_search",
     "last_verified": "2026-04-02",
-    "ai_reviewed": false
+    "ai_reviewed": false,
+    "place_reviewed": true
   },
   {
     "slug": "matsumoto-kiyoshi-the-gardens-mall",
@@ -393,7 +378,8 @@
     "status": "unverified",
     "source": "gemini_search",
     "last_verified": "2026-04-02",
-    "ai_reviewed": false
+    "ai_reviewed": false,
+    "place_reviewed": true
   },
   {
     "slug": "watsons-bangsar-village-ii",
@@ -422,7 +408,8 @@
     "status": "unverified",
     "source": "gemini_search",
     "last_verified": "2026-04-02",
-    "ai_reviewed": false
+    "ai_reviewed": false,
+    "place_reviewed": true
   },
   {
     "slug": "watsons-great-eastern-mall",
@@ -451,7 +438,8 @@
     "status": "unverified",
     "source": "gemini_search",
     "last_verified": "2026-04-02",
-    "ai_reviewed": false
+    "ai_reviewed": false,
+    "place_reviewed": true
   },
   {
     "slug": "watsons-suria-klcc",
@@ -480,33 +468,8 @@
     "status": "unverified",
     "source": "gemini_search",
     "last_verified": "2026-04-02",
-    "ai_reviewed": false
-  },
-  {
-    "slug": "alpro-sugi-pharmacy-starling-mall",
-    "name": "Alpro Sugi Pharmacy (The Starling Mall)",
-    "name_ja": "アルプロスギ薬局 ザ・スターリング・モール店",
-    "area": "Petaling Jaya",
-    "address": "The Starling Mall, Petaling Jaya, Malaysia",
-    "phone": null,
-    "website": "https://www.alpropharmacy.com/",
-    "description": "日本の大手薬局チェーン「スギ」とマレーシア最大の処方箋薬局チェーン「アルプロ」の合弁により開設。マレーシア初の日本式薬局。日本製医薬品・美容・健康食品が充実。AI皮膚分析サービスも提供。",
-    "tags": [
-      "日本式薬局",
-      "日本製品",
-      "AI皮膚分析"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-06",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "ai_reviewed": false,
+    "place_reviewed": true
   },
   {
     "slug": "alpro-sugi-pharmacy-isetan-kl",
@@ -516,7 +479,7 @@
     "address": "Isetan Kuala Lumpur, Kuala Lumpur, Malaysia",
     "phone": null,
     "website": "https://isetankl.com.my/",
-    "description": "スギ薬局とアルプロの合弁による日本式薬局。イセタン KL 内に出店。日本からの輸入医薬品・化粧品・健康食品を取り扱い。",
+    "description": "スギ薬局とアルプロの合弁による日本式薬局「Alpro Sugi」のイセタンKL店。Lot 10内のイセタンに隣接。日本からの輸入医薬品・化粧品・健康食品を取り扱い。",
     "tags": [
       "日本式薬局",
       "日本製品",
@@ -532,56 +495,7 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "guardian-pharmacy-kl-sentral",
-    "name": "Guardian Pharmacy (KL Sentral)",
-    "name_ja": "ガーディアン薬局 KLセントラル店",
-    "area": "Kuala Lumpur",
-    "address": "KL Sentral, Kuala Lumpur, Malaysia",
-    "phone": null,
-    "website": "https://www.guardianpharmacy.com.my/",
-    "description": "マレーシアのドラッグストアチェーン・ガーディアン。医薬品・OTC医薬品・化粧品・サプリメント・健康食品を取り扱い。英語対応スタッフが在籍。",
-    "tags": [
-      "ドラッグストア",
-      "英語対応"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-06",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "health-pharmacy-my",
-    "name": "Health & Beauty Pharmacy",
-    "name_ja": "ヘルス&ビューティー薬局",
-    "area": "Kuala Lumpur",
-    "address": "Kuala Lumpur, Malaysia",
-    "phone": null,
-    "website": null,
-    "description": "マレーシアの薬局チェーン。医薬品・OTC医薬品・美容・サプリメント・健康食品を取り扱い。日本人が利用できる薬局として知られている。",
-    "tags": [
-      "薬局",
-      "美容商品"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-06",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   }
 ]
