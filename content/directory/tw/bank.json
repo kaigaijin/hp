@@ -9,7 +9,7 @@
     "lng": null,
     "phone": "+886227083456",
     "website": "https://www.cathaybk.com.tw/cathaybk/en",
-    "description": "台湾大手民間銀行。ATMが全島に多く利便性が高い。外国人向け口座開設にも対応し、モバイルバンキングアプリの多言語対応が進んでいる。",
+    "description": "台湾大手民間銀行。全島にATMが多く利便性が高い。外国人向け口座開設に対応し、モバイルバンキングアプリは多言語に対応している。",
     "tags": [
       "台湾銀行",
       "外国人口座",
@@ -22,7 +22,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "ctbc-bank-dunhua-branch",
@@ -34,7 +35,7 @@
     "lng": null,
     "phone": "+886226512345",
     "website": "https://www.ctbcbank.com/en",
-    "description": "台湾の大手民間銀行「中信銀行（CTBC）」の敦化支店。英語・日本語対応スタッフが在籍し、外国人の口座開設もスムーズ。国際送金に強い。",
+    "description": "台湾大手民間銀行「中信銀行（CTBC）」の敦化支店。英語・日本語対応スタッフが在籍し、外国人の口座開設もスムーズ。国際送金に強い。",
     "tags": [
       "台湾銀行",
       "外国人口座",
@@ -47,32 +48,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "ctbc-bank-nangang",
-    "name": "CTBC Bank Head Office",
-    "name_ja": "中國信託商業銀行 本店",
-    "area": "南港区",
-    "address": "1F, No. 168, Jingmao 2nd Road, Nangang District, Taipei City 115",
-    "lat": null,
-    "lng": null,
-    "phone": "+886233271688",
-    "website": "https://www.ctbcbank.com",
-    "description": "台湾最大手の民間銀行で日本人の口座開設実績も多い。台湾内に多数の支店展開、7-ElevenATM網で利便性が高く在住日本人に広く利用されている。",
-    "tags": [
-      "現地銀行",
-      "口座開設",
-      "多言語対応",
-      "ATM多数"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-02",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "esun-bank-taipei",
@@ -84,7 +61,7 @@
     "lng": null,
     "phone": "+886225152555",
     "website": "https://www.esunbank.com.tw/en",
-    "description": "台湾の代表的な民間銀行のひとつ。外国人向けの口座開設サービスがあり、モバイルバンキングアプリの使い勝手が良いと在台日本人から好評。",
+    "description": "台湾の代表的な民間銀行のひとつ。外国人向け口座開設サービスがあり、モバイルバンキングアプリの使い勝手が良いと在台日本人から好評。",
     "tags": [
       "台湾銀行",
       "モバイルバンキング",
@@ -96,7 +73,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "first-bank-taiwan-taipei",
@@ -120,7 +98,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "fubon-bank-xinyi-branch",
@@ -144,7 +123,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "hsbc-taiwan-taipei",
@@ -169,7 +149,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "hua-nan-bank-taipei",
@@ -193,7 +174,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "land-bank-taiwan-taipei",
@@ -217,7 +199,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "mega-bank-taipei-zhongxiao",
@@ -242,7 +225,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "mizuho-bank-kaohsiung",
@@ -267,137 +251,110 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
-    "slug": "mizuho-bank-taipei",
+    "slug": "mizuho-bank-taipei-branch",
     "name": "Mizuho Bank Taipei Branch",
     "name_ja": "みずほ銀行 台北支店",
-    "area": "信義区・忠孝東路",
-    "address": "7F, 8F & 9F, Cathay Landmark Building, No. 68, Section 5, Zhongxiao East Road, Xinyi District, Taipei City 110419",
-    "lat": null,
-    "lng": null,
-    "phone": "+886287263000",
-    "website": "https://www.mizuhogroup.com/asia-pacific/taiwan",
-    "description": "日系メガバンク・みずほ銀行の台北支店。1959年から台湾で営業を続ける歴史ある拠点で、法人向け融資・貿易金融・送金を日本語で対応。信義区・忠孝東路に立地。",
+    "area": "信義区",
+    "address": "7F-9F, No.68, Sec. 5, Zhongxiao E. Rd., Xinyi District, Taipei City",
+    "phone": "+886223571999",
+    "phone_local": "02-2357-1999",
+    "email": null,
+    "website": "https://www.mizuhobank.com/taiwan/jp/",
+    "source_url": "https://www.mizuhogroup.com/asia-pacific/taiwan/jp/about/network/taipei",
+    "description": "みずほ銀行の台北支店。信義区・忠孝東路五段のビジネス街に位置し、法人向け銀行サービスを日本語で提供。在台日系企業の資金管理・送金・為替取引を幅広くサポート。",
     "tags": [
       "日系銀行",
       "法人向け",
-      "日本語対応",
-      "送金"
+      "送金",
+      "為替",
+      "日本語対応"
     ],
-    "hours": "09:00-15:00",
-    "last_verified": "2026-04-02",
+    "hours": "月〜金 9:00〜15:00",
     "status": "unverified",
+    "last_verified": "2026-04-05",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
   },
   {
-    "slug": "mufg-bank-taipei",
+    "slug": "mufg-bank-taipei-branch",
     "name": "MUFG Bank Taipei Branch",
     "name_ja": "三菱UFJ銀行 台北支店",
-    "area": "民生東路・松山区",
-    "address": "8F & 9F, No. 109, Section 3, Minsheng East Road, Songshan District, Taipei City",
-    "lat": null,
-    "lng": null,
+    "area": "中山区・民生東路",
+    "address": "8F & 9F, No.109, Sec. 3, Minsheng E. Rd., Zhongshan District, Taipei City 105402",
     "phone": "+886225140598",
-    "website": "https://www.bk.mufg.jp/global/globalnetwork/asiaoceania/",
-    "description": "日本のメガバンク・三菱UFJ銀行の台北支店。日本語スタッフが常駐し、法人金融・外国為替・送金・貿易金融を提供。民生東路3段・Union Enterprise Plazaの9階に立地。",
+    "phone_local": null,
+    "email": null,
+    "website": "https://www.tw.bk.mufg.jp/",
+    "source_url": "https://www.bk.mufg.jp/global/globalnetwork/asiaoceania/taipei.html",
+    "description": "三菱UFJ銀行の台北支店。法人向け融資・為替・送金・貿易金融等を提供する主要日系銀行。在台日系企業・日本人駐在員が利用する拠点として約200名のスタッフが在籍。",
     "tags": [
       "日系銀行",
       "法人向け",
-      "日本語対応",
-      "送金"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-02",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "shinsei-bank-taiwan-rep",
-    "name": "SBI Shinsei Bank - Taipei Representative Office",
-    "name_ja": "SBI新生銀行 台北駐在員事務所",
-    "area": "信義区",
-    "address": "Xinyi District, Taipei City",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.sbishinseibank.co.jp/",
-    "description": "SBI新生銀行の台北駐在員事務所。日本との架け橋となる金融サービス・情報提供を行っており、日本語での対応が可能な日系銀行の台湾窓口。",
-    "tags": [
-      "日系銀行",
-      "法人向け",
+      "送金",
+      "貿易金融",
       "日本語対応"
     ],
-    "hours": null,
-    "last_verified": "2026-04-03",
+    "hours": "月〜金 9:00〜15:00",
     "status": "unverified",
+    "last_verified": "2026-04-05",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
   },
   {
-    "slug": "smbc-taipei",
-    "name": "Sumitomo Mitsui Banking Corporation Taipei Branch",
+    "slug": "smbc-taipei-branch",
+    "name": "SMBC Taipei Branch",
     "name_ja": "三井住友銀行 台北支店",
     "area": "信義区・松智路",
-    "address": "3F, Huaxin Cathay Citi Bank Building, No. 1, Songren Road, Xinyi District, Taipei City",
-    "lat": null,
-    "lng": null,
+    "address": "3F, Walsin Lihwa Xinyi Building, No.1, Songzhi Rd., Xinyi District, Taipei City 11047",
     "phone": "+886227208100",
-    "website": "https://www.smbc.co.jp/global/location_oversea/taipei/",
-    "description": "日系メガバンク・三井住友銀行の台北支店。日本語対応スタッフが在籍し、日本企業の台湾事業を法人金融・外為・貿易金融でサポート。信義区の金融街・松仁路に立地。",
+    "phone_local": "02-2720-8100",
+    "email": null,
+    "website": "https://www.smbc.co.jp/asia/taiwan/",
+    "source_url": "https://www.smbc.co.jp/global/taiwan_01.html",
+    "description": "三井住友銀行の台北支店。信義区・MRT市政府駅から徒歩5分の立地。法人向け融資・送金・為替・貿易金融をカバーし、在台日系企業の銀行取引を日本語でサポート。",
     "tags": [
       "日系銀行",
       "法人向け",
-      "日本語対応",
-      "送金"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-02",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "smbc-trust-bank-taipei",
-    "name": "SMBC Trust Bank Taipei Representative Office",
-    "name_ja": "三井住友信託銀行 台北駐在員事務所",
-    "area": "信義区・台北101",
-    "address": "No. 7, Section 5, Xinyi Road, Xinyi District, Taipei City",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.smtb.jp/",
-    "description": "三井住友信託銀行の台北代表事務所。法人向けの信託・資産管理サービスを中心に、日本語での相談対応が可能な日系金融機関の台湾拠点。",
-    "tags": [
-      "日系銀行",
-      "法人向け",
-      "信託",
+      "送金",
+      "貿易金融",
       "日本語対応"
     ],
-    "hours": null,
-    "last_verified": "2026-04-03",
+    "hours": "月〜金 9:00〜15:00",
     "status": "unverified",
+    "last_verified": "2026-04-05",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null
   },
   {
     "slug": "standard-chartered-taiwan",
     "name": "Standard Chartered Bank Taiwan",
     "name_ja": "スタンダードチャータード銀行 台湾",
-    "area": "信義区",
+    "area": "内湖区",
     "address": "15F, No. 168, Section 6, Minquan East Road, Neihu District, Taipei City",
     "lat": null,
     "lng": null,
@@ -416,31 +373,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "taipei-fubon-bank-zhongshan",
-    "name": "Taipei Fubon Bank Zhongshan Branch",
-    "name_ja": "台北富邦銀行 中山支店",
-    "area": "中正区",
-    "address": "7F, Fubon Chengzhong Building, No. 9, Xiangyang Road, Zhengzhong District, Taipei City",
-    "lat": null,
-    "lng": null,
-    "phone": "+886223610052",
-    "website": "https://www.fubon.com/banking",
-    "description": "台北市に拠点を置く大手台湾銀行。東京支店を持つ台湾銀行の一つで日本との金融連携が強く、在住日本人にも利用しやすい環境を提供。",
-    "tags": [
-      "現地銀行",
-      "口座開設",
-      "日台ネットワーク"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-02",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "taishin-bank-taipei",
@@ -464,7 +398,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "taiwan-bank-taipei-main",
@@ -489,156 +424,7 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "mufg-bank-taipei-branch",
-    "name": "MUFG Bank Taipei Branch (三菱UFJ銀行 台北支店)",
-    "name_ja": "三菱UFJ銀行 台北支店",
-    "area": "中山区",
-    "address": "7F-8F, No.109, Sec. 3, Minsheng E. Rd., Zhongshan District, Taipei City 105402",
-    "phone": null,
-    "phone_local": null,
-    "email": null,
-    "website": "https://www.tw.bk.mufg.jp/",
-    "source_url": "https://www.bk.mufg.jp/global/globalnetwork/asiaoceania/taipei.html",
-    "description": "三菱UFJ銀行の台北支店。1993年に本支店とし���開設し、法人向け銀行サービス（融資・為替・送金・貿易金融等）を提供。在台日系企業・日本人駐在員が利用する主要日系銀行。約200名のスタッフが在籍。",
-    "detail": "MUFG台北支店は民生���路三段109号7〜8Fに位置。旧東京銀行台湾代表事務所（1990年）→支店昇格（1993年）の歴史を持つ。法人・機関向けサービスが中心で、個人口座開設は基本的に対象外。日本語対応可。",
-    "menu": null,
-    "price_range": "法人向け（��人口座対応は要確認）",
-    "tags": [
-      "日系銀行",
-      "法人向け",
-      "送金",
-      "貿易金融",
-      "日本語対応"
-    ],
-    "hours": "月〜金 9:00〜15:00",
-    "status": "unverified",
-    "last_verified": "2026-04-05",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
     "ai_reviewed": true,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "mizuho-bank-taipei-branch",
-    "name": "Mizuho Bank Taipei Branch (みずほ銀行 台北支店)",
-    "name_ja": "みずほ銀行 台北支店",
-    "area": "信義区",
-    "address": "7F-9F, No.68, Sec. 5, Zhongxiao E. Rd., Xinyi District, Taipei City",
-    "phone": "+886223571999",
-    "phone_local": "02-2357-1999",
-    "email": null,
-    "website": "https://www.mizuhobank.com/taiwan/jp/",
-    "source_url": "https://www.mizuhogroup.com/asia-pacific/taiwan/jp/about/network/taipei",
-    "description": "みずほ銀行の台北支店。信義区・忠孝東路五段の���ジネス街に位置し、法人向け銀行サービスを日本語で��供。在台日系企業の資金管理・送金・為替取引を幅広くサポート。",
-    "detail": "みずほ銀行台北支店は忠孝東路五段68号7〜9Fに位置する。法人向け融資・預金・為替・送金・貿易金融を提供。台湾での���系企業のバンキン���ニーズに対応する主要日系金��機関。",
-    "menu": null,
-    "price_range": "法人向け（個人口座対応は要確認）",
-    "tags": [
-      "日系銀行",
-      "法人向け",
-      "送金",
-      "為替",
-      "日本語対応"
-    ],
-    "hours": "月〜金 9:00〜15:00",
-    "status": "unverified",
-    "last_verified": "2026-04-05",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "smbc-taipei-branch",
-    "name": "SMBC Taipei Branch (三井住友銀行 台北支店)",
-    "name_ja": "三井住友銀行 台北支店",
-    "area": "信義区",
-    "address": "3F, Walsin Lihwa Xinyi Building, No.1, Songzhi Rd., Xinyi District, Taipei City 11047",
-    "phone": "+886227208100",
-    "phone_local": "02-2720-8100",
-    "email": null,
-    "website": "https://www.smbc.co.jp/asia/taiwan/",
-    "source_url": "https://www.smbc.co.jp/global/taiwan_01.html",
-    "description": "三井住友銀行の台北支店。信義区・MRT市���府駅から徒歩5分の好立地。法人向け融資・送金・為替・貿易金融等をカバーし、在台日系企業の銀行取引をサポートする主要日系銀行。",
-    "detail": "三井住友銀行（SMBC）台北支店は松智���1号・和新信義大楼3Fに位置。MRT市政府駅から徒歩約5分。日��企業向けのバンキングサービスを日本語で提供。FAX: 02-2720-8287。",
-    "menu": null,
-    "price_range": "法人向け（個人口座対応は要確認）",
-    "tags": [
-      "日系銀行",
-      "法人向け",
-      "送金",
-      "貿易金融",
-      "信義区"
-    ],
-    "hours": "月〜金 9:00〜15:00",
-    "status": "unverified",
-    "last_verified": "2026-04-05",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "megabank-taipei-taipei-101",
-    "name": "Megabank - Taipei 101 Branch",
-    "name_ja": "メガバンク台北101支店",
-    "area": "Taipei",
-    "address": "37F, 110 Dunnan Road, Taipei 110, Taiwan",
-    "lat": null,
-    "lng": null,
-    "phone": "+886227889999",
-    "website": "https://www.megabank.com.tw",
-    "description": "台湾の主要銀行。多言語対応窓口があり、外国人の口座開設に対応。台北101内に位置しアクセス良好。ATMも広く配置されている。",
-    "tags": [
-      "外国人対応",
-      "国際送金",
-      "台北"
-    ],
-    "hours": "平日 09:00-15:30",
-    "status": "unverified",
-    "last_verified": "2026-04-06",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "first-bank-taipei-dunnan",
-    "name": "First Bank - Dunnan Branch",
-    "name_ja": "第一銀行 敦南支店",
-    "area": "Taipei",
-    "address": "No. 110, Dunnan Road, Taipei 110, Taiwan",
-    "lat": null,
-    "lng": null,
-    "phone": "+886227788888",
-    "website": "https://www.firstbank.com.tw",
-    "description": "台湾大手銀行。外国人向けの口座開設窓口があり、英語対応スタッフが在籍。国際送金・両替サービスが充実。敦南路に位置し利便性高い。",
-    "tags": [
-      "外国人対応",
-      "国際送金",
-      "英語対応"
-    ],
-    "hours": "平日 09:00-15:30, 土曜 09:00-12:00",
-    "status": "unverified",
-    "last_verified": "2026-04-06",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
+    "place_reviewed": true
   }
 ]
