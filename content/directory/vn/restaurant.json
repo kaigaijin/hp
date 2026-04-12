@@ -7,7 +7,7 @@
     "address": "District 1, Ho Chi Minh City",
     "phone": null,
     "website": null,
-    "description": "ホーチミンのジャパンタウンにある居酒屋。日本人シェフが手がける創作和食と焼き鳥が人気。カジュアルな雰囲気。",
+    "description": "ホーチミンのジャパンタウン（レタントン通り）にある居酒屋。日本人シェフが手がける創作和食と焼き鳥が人気で、カジュアルな雰囲気が在住日本人に好評。",
     "tags": [
       "居酒屋",
       "創作和食",
@@ -23,7 +23,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ajiichi-danang",
@@ -50,7 +51,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "akataiyo-danang",
@@ -60,7 +62,7 @@
     "address": "54 Nguyen Du, Hai Chau, Da Nang",
     "phone": null,
     "website": null,
-    "description": "ダナンにある広々とした日本料理レストラン。フレンドリーなスタッフとサービスが特徴。70,000〜250,000VND。",
+    "description": "ダナンにある日本料理レストラン。フレンドリーなスタッフが対応し、70,000〜250,000VNDのリーズナブルな価格帯で日本食が楽しめる。",
     "tags": [
       "日本料理"
     ],
@@ -74,7 +76,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "all-blue-hanoi",
@@ -84,7 +87,7 @@
     "address": "8 Alley 70 Linh Lang, Cong Vi, Ba Dinh, Hanoi",
     "phone": "+84948006886",
     "website": null,
-    "description": "ハノイのリンラン通りにある炭火焼き鳥店。串焼き1.2USD〜の手頃な価格。2時間飲み放題プランあり。",
+    "description": "ハノイのリンラン通りにある日本風の炭火焼き鳥店。串焼き1.2USD〜の手頃な価格で、2時間飲み放題プランも提供。日本人駐在員の集まりに最適。",
     "tags": [
       "焼き鳥",
       "飲み放題",
@@ -100,7 +103,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "all-blue-linh-lang",
@@ -126,7 +130,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "aoyama-italian-me-linh",
@@ -153,7 +158,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "asahi-sushi-hanoi",
@@ -163,7 +169,7 @@
     "address": "290 Kim Ma, Ba Dinh, Hanoi",
     "phone": null,
     "website": null,
-    "description": "キンマ通りの人気寿司店。新鮮な刺身と手頃な寿司セットが好評。日本人駐在員のランチ利用が多い。",
+    "description": "ハノイ・キンマー通りにある日本人向け寿司店。新鮮な刺身と手頃な寿司セットが好評で、日本人駐在員のランチ利用が多い人気スポット。",
     "tags": [
       "寿司",
       "刺身",
@@ -179,33 +185,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "asahi-sushi-hanoi-d1",
-    "name": "Asahi Sushi Hanoi",
-    "name_ja": "旭寿司 ハノイ",
-    "area": "Hoan Kiem, Hanoi",
-    "address": "Hoan Kiem, Hanoi",
-    "phone": null,
-    "website": null,
-    "description": "ハノイ旧市街の寿司レストラン。日本から空輸した食材を使った握り寿司とちらし寿司が人気。",
-    "tags": [
-      "寿司",
-      "食材直送",
-      "旧市街"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ateya-binh-thanh",
@@ -215,7 +196,7 @@
     "address": "50 Me Linh, Ward 19, Binh Thanh, Ho Chi Minh City",
     "phone": "+84852004323",
     "website": null,
-    "description": "ビンタン区にある和食レストラン。毎週日本から直送の食材を使用。クジラ料理など他店にない珍しいメニューも提供。日曜定休。",
+    "description": "ホーチミン・ビンタン区にある和食レストラン。毎週日本から直送の食材を使用し、クジラ料理など他店にない珍しいメニューも提供。日曜定休。",
     "tags": [
       "和食",
       "日本食材直送"
@@ -230,7 +211,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "azabu-hanoi",
@@ -257,7 +239,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "azuma-restaurant-hanoi",
@@ -267,7 +250,7 @@
     "address": "23 Ngoc Khanh, Ba Dinh, Hanoi",
     "phone": "+842438350111",
     "website": null,
-    "description": "ハノイのバーディン区にある総合和食レストラン。寿司カウンター、鉄板焼き、焼肉、和食の各セクションを完備。",
+    "description": "ハノイのバーディン区にある総合和食レストラン。寿司カウンター、鉄板焼き、焼肉、和食の各セクションを完備し、接待から家族連れまで対応できる。",
     "tags": [
       "和食",
       "寿司",
@@ -284,38 +267,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "bar-classic-hanoi",
-    "name": "Bar Classic",
-    "name_ja": "バークラシック",
-    "area": "Ba Dinh, Hanoi",
-    "address": "Linh Lang, Ba Dinh, Hanoi",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "リンラン地区にある日本人経営のオーセンティックバー。バーテンダー歴30年以上の日本人バーテンダーが作るカクテルが絶品。落ち着いた大人の雰囲気。",
-    "tags": [
-      "居酒屋",
-      "バー",
-      "日本人経営",
-      "オーセンティック"
-    ],
-    "hours": "18:00〜翌1:00",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "bar-classic-linh-lang-hanoi",
@@ -342,65 +295,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "bar-dekoboko-hanoi",
-    "name": "Bar Dekoboko",
-    "name_ja": "バー でこぼこ",
-    "area": "Hanoi",
-    "address": "Hanoi",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "ハノイ初の日本人経営ミックスバー。日本人バーテンダーがカクテルを提供。カジュアルな雰囲気で一人でも入りやすい。",
-    "tags": [
-      "居酒屋",
-      "バー",
-      "日本人経営",
-      "カクテル"
-    ],
-    "hours": "18:00〜翌1:00",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "bar-snack-hanoi-japanese",
-    "name": "Snack Bar Momoko Hanoi",
-    "name_ja": "スナックバー 桃子 ハノイ",
-    "area": "Ba Dinh, Hanoi",
-    "address": "Ba Dinh, Hanoi",
-    "phone": null,
-    "website": null,
-    "description": "ハノイの日本式スナックバー。日本人ママが経営するアットホームなスナックで、ハノイ在住の日本人男性の憩いの場として機能。日本語で会話しながらお酒を楽しめる。",
-    "tags": [
-      "居酒屋",
-      "スナック",
-      "日本人経営",
-      "バーディン"
-    ],
-    "hours": "19:00〜01:00",
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "bar-walk-hanoi",
@@ -427,7 +323,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "bushido-danang",
@@ -437,7 +334,7 @@
     "address": "90 September 2nd Street, Hai Chau, Da Nang",
     "phone": null,
     "website": null,
-    "description": "ダナンの幹線道路沿いにある日本料理レストラン。日本料理に精通したシェフが在籍。150,000〜300,000VND。",
+    "description": "ダナンの幹線道路沿いにある日本料理レストラン。日本料理に精通したシェフが在籍し、150,000〜300,000VNDの価格帯でダナン在住日本人が通いやすい。",
     "tags": [
       "日本料理"
     ],
@@ -451,7 +348,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "cantik-bar-hanoi",
@@ -461,7 +359,7 @@
     "address": "58 Linh Lang, Cong Vi, Ba Dinh, Hanoi",
     "phone": "+84855008316",
     "website": null,
-    "description": "ハノイのリンラン通りにあるバー＆レストラン。日本料理のフードメニューが充実。姉妹店のラーメンも提供。",
+    "description": "ハノイのリンラン通りにある日本料理メニューが充実したバー＆レストラン。焼き鳥・刺身などの日本食と姉妹店のラーメンも提供。日本人在住者に親しまれている。",
     "tags": [
       "バー",
       "日本料理"
@@ -476,33 +374,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "champuruoku-okinawa-hcmc",
-    "name": "沖縄料理 チャンプルー ホーチミン",
-    "name_ja": "沖縄料理 チャンプルー",
-    "area": "District 1, Ho Chi Minh City",
-    "address": "District 1, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "ホーチミン1区にあるベトナムに縁が深い沖縄料理の専門店。ゴーヤーチャンプルー・ソーキそば・沖縄そば・豆腐チャンプルーなど沖縄の郷土料理が楽しめる。沖縄の食文化とベトナムの雰囲気が不思議にマッチした一軒。",
-    "tags": [
-      "沖縄料理",
-      "ゴーヤーチャンプルー",
-      "沖縄そば"
-    ],
-    "hours": "11:00-14:00 / 17:00-22:00",
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "chibo-okonomiyaki-hanoi",
@@ -528,7 +401,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "chikuan-soba-hanoi",
@@ -538,7 +412,7 @@
     "address": "8 Linh Lang, Cong Vi, Ba Dinh, Hanoi",
     "phone": "+842462941098",
     "website": null,
-    "description": "ハノイのリンラン通りにある手打ちそば定食屋。毎日手打ちのそばを提供。多彩なメニューも揃う。日曜定休。",
+    "description": "ハノイのリンラン通りにある手打ちそば専門店。毎日手打ちの本格そばと定食を提供。日曜定休で、リンラン通りの日本人コミュニティに根付いた一軒。",
     "tags": [
       "そば",
       "手打ち",
@@ -554,7 +428,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "chin-meshi-ha-bong-danang",
@@ -566,7 +441,7 @@
     "lng": null,
     "phone": null,
     "website": "https://chin-meshi.com/",
-    "description": "陳めしの海沿い2号店。屋上BBQエリアがあり、ビーチ近くで日本食と中華料理を楽しめる。",
+    "description": "ダナン海沿いの日系レストラン「陳めし」2号店。屋上BBQエリアを備え、ビーチ近くで日本食と中華料理が楽しめる。公式サイト(chin-meshi.com)で要確認。",
     "tags": [
       "中華",
       "日本食",
@@ -584,7 +459,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "chin-meshi-thai-phien-danang",
@@ -596,7 +472,7 @@
     "lng": null,
     "phone": null,
     "website": "https://chin-meshi.com/",
-    "description": "ダナンの日系中華×日本食レストラン。焼き鳥・焼肉・中華料理を提供。ダナン市内に2店舗展開。",
+    "description": "ダナンの日系中華×日本食レストラン「陳めし」のタイフィエン本店。焼き鳥・焼肉・中華料理を提供し、在住日本人にも利用されるダナン市内2店舗展開の店。",
     "tags": [
       "中華",
       "日本食",
@@ -614,7 +490,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "chiyoda-sushi-ben-thanh",
@@ -640,33 +517,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "chiyoda-sushi-d1",
-    "name": "ちよだ鮨 ホーチミン",
-    "name_ja": "ちよだ鮨",
-    "area": "District 1, Ho Chi Minh City",
-    "address": "254-256 Le Thanh Ton St., Ben Thanh, District 1, HCMC",
-    "phone": "+842835358499",
-    "website": null,
-    "description": "東京・築地市場から仕入れる高品質な食材を使用した本格寿司店。カウンター席、テーブル席、個室を完備しており、ビジネス接待からご家族でのお食事まで幅広く対応。日本直送のネタを使った握り寿司が絶品と評判。",
-    "tags": [
-      "寿司",
-      "個室",
-      "接待"
-    ],
-    "hours": "11:00-22:00",
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "chiyoda-sushi-hcmc",
@@ -697,111 +549,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "choi-oi-noodle-hcmc",
-    "name": "Choi Oi Noodle",
-    "name_ja": "チョイオイヌードル",
-    "area": "District 1",
-    "address": "Le Thanh Ton, Ben Nghe, District 1, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "レタントン日本人街にある深夜3時まで営業のラーメン店。海鮮豚骨スープが看板メニュー。",
-    "tags": [
-      "ラーメン",
-      "深夜営業",
-      "ジャパンタウン"
-    ],
-    "hours": "〜03:00",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "chubo-hanoi-kim-ma-izakaya",
-    "name": "Chubo Izakaya Hanoi",
-    "name_ja": "厨房 居酒屋 ハノイ",
-    "area": "Ba Dinh, Hanoi",
-    "address": "Kim Ma, Ba Dinh, Hanoi",
-    "phone": null,
-    "website": null,
-    "description": "ハノイ・キンマー通りの日系居酒屋。旬の食材を使った創作和食と豊富な日本酒・焼酎を提供。ハノイ在住の日本人が集まる人気の一軒。",
-    "tags": [
-      "居酒屋",
-      "キンマー",
-      "創作和食"
-    ],
-    "hours": "17:30〜24:00",
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "coco-ichibanya-d1-hcmc",
-    "name": "CoCo Ichibanya District 1 HCMC",
-    "name_ja": "CoCo壱番屋 1区",
-    "area": "District 1",
-    "address": "District 1, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "CoCo壱番屋のホーチミン1区店。辛さ・ご飯量・トッピングをカスタマイズできる日本のカレーチェーン。",
-    "tags": [
-      "カレー",
-      "日本発チェーン",
-      "カスタマイズ"
-    ],
-    "hours": "毎日 10:00〜22:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "coco-ichibanya-hanoi",
-    "name": "CoCo Ichibanya Hanoi",
-    "name_ja": "ここ壱番屋 ハノイ",
-    "area": "Hanoi",
-    "address": "Hanoi",
-    "phone": null,
-    "website": null,
-    "description": "日本最大のカレーチェーン「CoCo壱番屋」のハノイ店。カスタマイズできる日本式カレーライスを提供。ハノイ在住の日本人が懐かしい一風堂カレーの味を楽しめる。",
-    "tags": [
-      "カレーライス",
-      "日本チェーン",
-      "ハノイ"
-    ],
-    "hours": "11:00〜22:00",
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "coco-ichibanya-hcmc",
@@ -811,7 +560,7 @@
     "address": "District 1, Ho Chi Minh City",
     "phone": null,
     "website": null,
-    "description": "日本のカレーハウス。辛さ・ライス量・トッピングを自由にカスタマイズ。ベトナムでも人気上昇中。",
+    "description": "ホーチミン1区にある日本のカレーチェーンCoCo壱番屋。辛さ・ライス量・トッピングを自由にカスタマイズできる日本式カレーライスが楽しめる。",
     "tags": [
       "カレー",
       "日本発チェーン",
@@ -827,7 +576,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "coco-ichibanya-landmark81",
@@ -837,7 +587,7 @@
     "address": "Landmark 81, 772 Dien Bien Phu, Ward 22, Binh Thanh, Ho Chi Minh City",
     "phone": null,
     "website": null,
-    "description": "日本のカレーチェーンCoCo壱番屋のランドマーク81店。日本式カレーライスを提供。",
+    "description": "ホーチミン・ランドマーク81内にあるCoCo壱番屋ベトナム店。日本の定番カレーハウスで、辛さやトッピングをカスタマイズできる日本式カレーライスを提供。",
     "tags": [
       "カレー",
       "チェーン",
@@ -853,60 +603,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "curry-rice-hanoi-new",
-    "name": "日本カレー ハノイ",
-    "name_ja": "日本カレー 大地 ハノイ",
-    "area": "Ba Dinh, Hanoi",
-    "address": "Ba Dinh, Hanoi",
-    "phone": null,
-    "website": null,
-    "description": "ハノイにある日本スタイルのカレー専門店。とろみのある本格日本カレーは辛さが選べ、チキンカツカレー・海老フライカレー・ビーフカレーなど豊富なトッピングが揃う。ランチタイムはサラダとドリンクがセットに。",
-    "tags": [
-      "カレー",
-      "定食",
-      "ランチ"
-    ],
-    "hours": "11:00-22:00",
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "d1-hcmc-izakaya-latest-2025",
-    "name": "居酒屋 ホーチミン 2025 最新",
-    "name_ja": "居酒屋 彩 ホーチミン",
-    "area": "District 1, Ho Chi Minh City",
-    "address": "District 1, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "ホーチミン1区に2025年オープンした旬の食材を使った創作居酒屋。日本の季節料理をホーチミンで体現するシェフが腕を振るう。新鮮な魚介類を使った刺身盛りと各種串焼きが看板で、厳選日本酒リストも充実。",
-    "tags": [
-      "居酒屋",
-      "創作料理",
-      "日本酒",
-      "2025新店"
-    ],
-    "hours": "17:30-24:00",
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "daichi-yakitori-sushi-hanoi",
@@ -932,7 +630,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "daishu-sakaba-goemon-d1",
@@ -959,111 +658,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "danang-izakaya-sanshiro",
-    "name": "Sanshiro Izakaya Danang",
-    "name_ja": "三四郎 居酒屋 ダナン",
-    "area": "Da Nang",
-    "address": "Da Nang",
-    "phone": null,
-    "website": null,
-    "description": "ダナンにある日本人経営の居酒屋。ダナン在住の日本人コミュニティのたまり場として知られる。焼き鳥・刺身・一品料理と豊富な日本酒・焼酎を提供。",
-    "tags": [
-      "居酒屋",
-      "ダナン",
-      "日本人経営"
-    ],
-    "hours": "17:00〜24:00",
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "danang-sushi-umi",
-    "name": "Sushi Umi Danang",
-    "name_ja": "寿司 海 ダナン",
-    "area": "Da Nang",
-    "address": "Da Nang",
-    "phone": null,
-    "website": null,
-    "description": "ダナンの日本人向け寿司専門店。新鮮な海産物を使った握り寿司・刺身を提供。海に近いダナンで新鮮な魚介を使った本格寿司が楽しめる。日本語メニューあり。",
-    "tags": [
-      "寿司",
-      "新鮮魚介",
-      "ダナン"
-    ],
-    "hours": "11:00〜22:00",
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "danang-yakitori-japanese",
-    "name": "Yakitori Danang",
-    "name_ja": "焼き鳥 ダナン",
-    "area": "Da Nang",
-    "address": "Da Nang",
-    "phone": null,
-    "website": null,
-    "description": "ダナンにある日本人向け焼き鳥居酒屋。ダナン在住の日本人コミュニティで人気の焼き鳥と日本酒・焼酎を提供。リゾートタウンのダナンで日本の居酒屋文化を楽しめる。",
-    "tags": [
-      "焼き鳥",
-      "居酒屋",
-      "ダナン"
-    ],
-    "hours": "17:00〜24:00",
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "dani-izakaya-hcmc-binh-thanh",
-    "name": "ダニ居酒屋 ビンタン",
-    "name_ja": "居酒屋 旬",
-    "area": "Binh Thanh District, Ho Chi Minh City",
-    "address": "Binh Thanh District, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "ホーチミン・ビンタン区にある旬の食材を使った居酒屋。ファンビッチャン近隣の在住日本人に親しまれた地元密着型のお店で、季節の刺身や焼き物がリーズナブルに楽しめる。大将の人柄が魅力のアットホームな一軒。",
-    "tags": [
-      "居酒屋",
-      "旬",
-      "ビンタン"
-    ],
-    "hours": "17:00-23:30",
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "dasushi-danang",
@@ -1073,7 +669,7 @@
     "address": "150 Phan Chau Trinh, Hai Chau, Da Nang",
     "phone": null,
     "website": null,
-    "description": "ダナンにある日本料理レストラン。日本風の内装と外装が特徴。手頃な価格で本格的な日本食を提供。",
+    "description": "ダナン・ハイチャウ地区にある日本料理レストラン。日本風の内装が特徴で、手頃な価格で日本食を提供。ダナン在住日本人や旅行者に利用されている。",
     "tags": [
       "寿司",
       "日本料理"
@@ -1088,59 +684,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "donburi-hanako-hanoi",
-    "name": "Donburi Hanako Hanoi",
-    "name_ja": "丼 花子 ハノイ",
-    "area": "Ba Dinh, Hanoi",
-    "address": "Ba Dinh, Hanoi",
-    "phone": null,
-    "website": null,
-    "description": "ハノイの丼専門レストラン。天丼・かつ丼・牛丼・親子丼など多彩な丼ものをリーズナブルな価格で提供。ハノイ在住の日本人が気軽にランチ・ディナーに利用できる店。",
-    "tags": [
-      "丼料理",
-      "リーズナブル",
-      "ハノイ"
-    ],
-    "hours": "11:00〜22:00",
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "donburi-hcmc-d1",
-    "name": "丼物専門店 ホーチミン 1区",
-    "name_ja": "丼専門店 どんぶり亭",
-    "area": "District 1, Ho Chi Minh City",
-    "address": "District 1, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "ホーチミン1区にある丼物専門店。海鮮丼・天丼・かつ丼・親子丼など豊富な丼メニューを手頃な価格で提供。テイクアウトにも対応しており、ランチタイムに周辺オフィスの日本人ビジネスマンにも重宝されている。",
-    "tags": [
-      "丼物",
-      "海鮮丼",
-      "定食"
-    ],
-    "hours": "11:00-14:00 / 17:00-21:00",
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "donchan-le-thanh-ton",
@@ -1166,7 +711,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "donnosuke-d7",
@@ -1176,7 +722,7 @@
     "address": "968 Nguyen Van Linh, Tan Phong, District 7, Ho Chi Minh City",
     "phone": null,
     "website": "https://www.facebook.com/donnosuke/",
-    "description": "7区フーミーフンにあるうどん専門店。30種類以上のうどんと天ぷら・丼物を提供。ファミリーや団体利用にも対応。",
+    "description": "ホーチミン7区フーミーフンにある日本式うどん専門店。30種類以上のうどんと天ぷら・丼物を提供し、日系企業が集まるエリアでランチ・ディナーに利用しやすい。",
     "tags": [
       "うどん",
       "天ぷら",
@@ -1192,7 +738,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "dynamite-naoki-danang",
@@ -1222,7 +769,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ebisu-bar-kim-ma-hanoi",
@@ -1248,33 +796,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "ebisu-izakaya-hcmc",
-    "name": "Ebisu Izakaya",
-    "name_ja": "恵比寿 居酒屋",
-    "area": "District 1",
-    "address": "Le Thanh Ton, Ben Nghe, District 1, Ho Chi Minh City",
-    "phone": null,
-    "website": null,
-    "description": "ジャパンタウンの居酒屋。刺身、焼き物、揚げ物の定番メニューに加え、日本酒・焼酎の品揃えが充実。日本人駐在員のリピーターが多い。",
-    "tags": [
-      "居酒屋",
-      "ジャパンタウン",
-      "日本酒"
-    ],
-    "hours": "要確認",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ebisu-kushikatsu-hcmc",
@@ -1305,7 +828,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ebisu-shoten-d1",
@@ -1331,7 +855,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ebisu-shoten-hcmc",
