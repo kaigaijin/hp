@@ -973,58 +973,6 @@
     "place_reviewed": true
   },
   {
-    "slug": "insadong-traditional-tea",
-    "name": "인사동 전통 찻집",
-    "name_ja": "仁寺洞 伝統茶店",
-    "area": "仁寺洞",
-    "address": "Insadong, Jongno-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "仁寺洞の路地裏に点在する韓国伝統茶のお店。大麦茶・五味子茶・インパニョン（花茶）など日本人にも馴染みやすい伝統茶が楽しめる。アンティークな韓屋の空間でのお茶体験は、在韓日本人のリラクゼーションスポットとして根強い人気。",
-    "tags": [
-      "伝統茶",
-      "仁寺洞",
-      "韓屋"
-    ],
-    "hours": "10:00〜21:00",
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "japan-bakery-ichon-street",
-    "name": "Ichon Japanese Bakery Street",
-    "name_ja": "二村日本式ベーカリー通り",
-    "area": "Yongsan-gu (Ichon)",
-    "address": "Ichon-dong, Yongsan-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "二村エリアの日本人街にある複数の日本式ベーカリー・パン屋が集まる一帯。あんぱん・メロンパン・カレーパンなど日本式パンが充実している。",
-    "tags": [
-      "ベーカリー",
-      "日本式パン",
-      "二村"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
     "slug": "japancafe",
     "name": "JAPANCAFE",
     "name_ja": "JAPANCAFE",
@@ -1051,97 +999,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "japanese-style-cafe-mapo",
-    "name": "麻浦 日本風カフェ",
-    "name_ja": "麻浦 日本風カフェ",
-    "category": "cafe",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Mapo",
-    "address": "서울 마포구 합정동 서울",
-    "lat": 37.5498,
-    "lng": 126.9146,
-    "phone": "",
-    "website": "",
-    "description": "麻浦・合井エリアにある日本風の落ち着いた雰囲気のカフェ。和の要素を取り入れた内装で、抹茶ラテ・和菓子・クリームぜんざいなど日本風メニューが揃う。韓国人スタッフも日本語が話せ、日本人旅行者や在住者が気軽に立ち寄れる居心地のよい場所。",
-    "price_range": "₩₩",
-    "hours": "10:00-22:00",
-    "closed_days": "火曜",
-    "languages": [
-      "ja",
-      "ko"
-    ],
-    "tags": [
-      "日本風カフェ",
-      "麻浦",
-      "合井",
-      "日本語対応"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "jongno-ssak-cafe",
-    "name": "종로 싹 카페",
-    "name_ja": "鍾路 サック カフェ",
-    "area": "鍾路",
-    "address": "Jongno, Jongno-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "鍾路エリアにある日本語メニュー完備のカフェ。光化門・景福宮エリアの観光後に立ち寄りやすいロケーション。日本人旅行者だけでなく在住者も気軽に使えるカジュアルな雰囲気のカフェで、セルフサービス形式で利用しやすい。",
-    "tags": [
-      "カフェ",
-      "鍾路",
-      "日本語メニュー"
-    ],
-    "hours": "10:00〜21:00",
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "jungsik-bakery-itaewon",
-    "name": "중식 베이커리 이태원",
-    "name_ja": "チュンシク ベーカリー 梨泰院",
-    "area": "梨泰院",
-    "address": "Itaewon-dong, Yongsan-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "梨泰院に展開するアーティスティックなベーカリーカフェ。クリエイティブなパンとスイーツが揃い、外国人が多い梨泰院の街で日本人にも利用しやすいインターナショナルな雰囲気。週末のブランチスポットとして定番化している。",
-    "tags": [
-      "ベーカリーカフェ",
-      "梨泰院",
-      "ブランチ"
-    ],
-    "hours": "9:00〜21:00",
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kitsune-cafe-yeonnam",
@@ -1167,7 +1026,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "komeda-coffee-seoul",
@@ -1193,45 +1053,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "korean-patisserie-sinsa",
-    "name": "新沙 韓国パティスリー",
-    "name_ja": "新沙 韓国パティスリー",
-    "category": "cafe",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Sinsa",
-    "address": "서울 강남구 신사동 서울",
-    "lat": 37.5198,
-    "lng": 127.022,
-    "phone": "",
-    "website": "",
-    "description": "新沙洞の閑静な路地にある韓国スタイルのパティスリー。韓国産栗・白こし・よもぎなど伝統食材を使った現代的なケーキやタルトが人気。フランスで修行したパティシエが韓国らしさを追求したオリジナルスイーツは、贈り物にもなると評判。",
-    "price_range": "₩₩₩",
-    "hours": "11:00-21:00",
-    "closed_days": "火曜",
-    "languages": [
-      "ko",
-      "en"
-    ],
-    "tags": [
-      "パティスリー",
-      "新沙",
-      "韓国素材",
-      "スイーツ"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "koriko-cafe-yeonnam",
@@ -1261,7 +1084,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "korz-cafe-seoul",
@@ -1287,7 +1111,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "lodge190-yeonhidong",
@@ -1313,7 +1138,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "london-bagel-museum",
@@ -1339,7 +1165,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "luft-coffee-seongsu",
@@ -1365,7 +1192,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "maido-dreaming-hongdae",
@@ -1391,71 +1219,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "mango-six-gangnam",
-    "name": "망고식스 강남",
-    "name_ja": "マンゴシックス 江南",
-    "area": "江南",
-    "address": "Gangnam-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "江南エリアにある韓国発フルーツカフェチェーン「マンゴシックス」の店舗。マンゴースムージー・かき氷・ジュースなどフルーツを使ったドリンクとスイーツが人気。在韓日本人の暑い夏のクールダウンスポットとして定着している。",
-    "tags": [
-      "フルーツカフェ",
-      "スムージー",
-      "江南"
-    ],
-    "hours": "10:00〜23:00",
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "matcha-cafe-gwanghwamun",
-    "name": "光化門 抹茶カフェ",
-    "name_ja": "光化門 抹茶カフェ",
-    "category": "cafe",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Gwanghwamun",
-    "address": "서울 종로구 광화문광장 서울",
-    "lat": 37.5754,
-    "lng": 126.9769,
-    "phone": "",
-    "website": "",
-    "description": "光化門広場近くの抹茶専門カフェ。宇治抹茶を使ったラテ・パフェ・抹茶ソフトクリームが人気。景福宮観光の前後に立ち寄るのに最適な立地で、外国人観光客にも愛用されている。韓国の伝統茶との比較メニューもあり、抹茶と韓国茶を一度に楽しめる。",
-    "price_range": "₩₩",
-    "hours": "09:00-21:00",
-    "closed_days": "なし",
-    "languages": [
-      "ja",
-      "ko",
-      "en"
-    ],
-    "tags": [
-      "抹茶カフェ",
-      "光化門",
-      "観光"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "matcha-dosan-gangnam",
@@ -1482,37 +1247,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "matcha-dosan-sinsa",
-    "name": "Matcha Dosan",
-    "name_ja": "マッチャドサン 新沙店",
-    "area": "Gangnam-gu (Sinsa-dong)",
-    "address": "Dosan-daero, Gangnam-gu, Seoul",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "カロスキルエリアにある日本式抹茶専門カフェ。京都の茶室を意識した落ち着いた空間で、濃厚抹茶ラテや抹茶テリーヌなどを提供。日本の抹茶文化をソウルで体験できると日本人にも好評。",
-    "tags": [
-      "抹茶専門",
-      "日本茶",
-      "和カフェ"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "matcha-maniac-hongdae",
@@ -1538,7 +1274,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "matcha-maniac-sinsa",
@@ -1564,7 +1301,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "matchaha-seoulforest",
@@ -1590,7 +1328,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "metcha-migliore-myeongdong",
@@ -1616,60 +1355,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "metcha-myeongdong",
-    "name": "METCHA",
-    "name_ja": "メッチャ",
-    "area": "Jung-gu (Myeongdong)",
-    "address": "Migliore Building, Euljiro-1-ga, Jung-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "明洞にある5階建ての抹茶専門カフェ。抹茶タルト、抹茶クレープケーキ、抹茶ラテなど抹茶スイーツが充実。K-POPファンにも人気のスポット。",
-    "tags": [
-      "抹茶",
-      "カフェ",
-      "スイーツ",
-      "明洞"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "website",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "metcha-myeongdong-migliore",
-    "name": "METCHA Migliore Myeongdong",
-    "name_ja": "メッチャ ミリオレ明洞",
-    "area": "Myeongdong",
-    "address": "Migliore Building, Myeongdong, Jung-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "蔚山発の抹茶専門カフェチェーンの明洞店。5階建ての大型店舗で、抹茶タルト・抹茶クレープケーキ・抹茶ラテが人気。深夜まで営業。",
-    "tags": [
-      "抹茶",
-      "大型店舗",
-      "深夜営業"
-    ],
-    "hours": "10:00〜翌1:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mil-toast-house-anguk",
@@ -1695,7 +1382,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "milestone-coffee-sinsa",
@@ -1721,7 +1409,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mister-donut-seoul",
@@ -1747,126 +1436,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "mobile-coffee-stand-hangang",
-    "name": "漢江 コーヒースタンド",
-    "name_ja": "漢江 コーヒースタンド",
-    "category": "cafe",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Hangang",
-    "address": "서울 용산구 한강공원 서울",
-    "lat": 37.517,
-    "lng": 126.9714,
-    "phone": "",
-    "website": "",
-    "description": "漢江公園のランニングコース沿いにあるコーヒースタンド。朝のジョギング後に立ち寄るランナーや、休日のピクニックを楽しむ家族に人気。テイクアウト専用で効率よく注文できるシステムを採用。漢江の景色を眺めながら飲むコーヒーは格別。",
-    "price_range": "₩",
-    "hours": "07:00-19:00",
-    "closed_days": "月曜",
-    "languages": [
-      "ko"
-    ],
-    "tags": [
-      "コーヒースタンド",
-      "漢江公園",
-      "テイクアウト",
-      "ランニング"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "moyora-coffee-seoul",
-    "name": "Moyora Coffee",
-    "name_ja": "モヨラコーヒー",
-    "area": "Seoul",
-    "address": "Seoul",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "ソウル在住の日本人バリスタが韓国のバリスタ資格を取得して活動するコーヒーブランド。日韓のコーヒー文化交流をテーマにしており、日本人コーヒー愛好家のネットワーク拠点。",
-    "tags": [
-      "日本人バリスタ",
-      "日韓コーヒー交流",
-      "スペシャルティコーヒー"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "myeongdong-cafe-guide",
-    "name": "명동 카페 가이드",
-    "name_ja": "明洞 カフェガイド",
-    "area": "明洞",
-    "address": "Myeongdong, Jung-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "日本人が最も多く訪れる観光エリア明洞のカフェ群。メガコーヒー・빽다방・투썸플레이스など韓国系チェーンカフェが充実し、一杯1,500〜3,000ウォン程度でリーズナブルにコーヒーが楽しめる。観光疲れを癒す休憩スポットとして在住者・旅行者双方に活用。",
-    "tags": [
-      "カフェ",
-      "明洞",
-      "リーズナブル"
-    ],
-    "hours": "各カフェにより異なる",
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "myeongdong-yanggwa",
-    "name": "Myeongdong Yanggwa",
-    "name_ja": "明洞洋菓",
-    "area": "Jung-gu (Myeongdong)",
-    "address": "Myeongdong, Jung-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "明洞にある人気ベーカリーカフェ。層がしっかり見えるクロワッサンと高品質なペストリーが特徴。日本式の繊細な仕上がりのパンを楽しめるおしゃれな空間。",
-    "tags": [
-      "ベーカリー",
-      "カフェ",
-      "クロワッサン"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "website",
-    "last_verified": "2026-03-26",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "myeongdong-yanggwa-bakery",
@@ -1896,7 +1467,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nanas-green-tea-seoul",
@@ -1922,45 +1494,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "nature-cafe-bukhansan",
-    "name": "北漢山 自然カフェ",
-    "name_ja": "北漢山 自然カフェ",
-    "category": "cafe",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Bukhansan",
-    "address": "서울 강북구 우이동 서울",
-    "lat": 37.646,
-    "lng": 127.012,
-    "phone": "",
-    "website": "",
-    "description": "北漢山の登山口近くにある自然に囲まれたカフェ。山と緑を眺めながらコーヒーやハーブティーを楽しめる。登山帰りの休憩スポットとして地元の常連さんが多く、北漢山に挑戦した後の達成感とともに一杯飲むひとときが最高。ペット同伴可能で家族連れにも人気。",
-    "price_range": "₩₩",
-    "hours": "08:00-19:00",
-    "closed_days": "火曜",
-    "languages": [
-      "ko"
-    ],
-    "tags": [
-      "カフェ",
-      "北漢山",
-      "自然",
-      "登山",
-      "ペット可"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nudake-seongsu",
@@ -1970,7 +1505,7 @@
     "address": "Seongsu-dong, Seongdong-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "聖水洞にあるアーティスティックなデザートブランドのカフェ。シグネチャーの「抹茶クロワッサン（Peak Small）」は抹茶クリームたっぷりで、インスタ映えするビジュアルも話題。日本人観光客・在住者が「聖水に行ったら必ず寄る」スポットとして定着している。",
+    "description": "聖水洞にあるデザートブランドのカフェ。抹茶クリームたっぷりの「抹茶クロワッサン（Peak Small）」がインスタ映えスポットとして人気。聖水散策の立ち寄りに。",
     "tags": [
       "デザートカフェ",
       "抹茶クロワッサン",
@@ -1986,7 +1521,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "onigiri-croissant-seongsu",
@@ -2016,7 +1552,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "onion-cafe-yeouido",
@@ -2044,44 +1581,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "ソウル・汝矣島のザ・現代ソウル（The Hyundai Seoul）内のCafe Onion汝矣島店。永登浦・汝矣島エリアにある話題のショッピングモール内に位置し、廃工場リノベーションの世界観をモール内でも表現。汝矣島駅（5・9号線）直結のアクセスで、ショッピングのついでに立ち寄りやすい。"
-  },
-  {
-    "slug": "open-terrace-cafe-yanghwa",
-    "name": "楊花 オープンテラスカフェ",
-    "name_ja": "楊花 オープンテラスカフェ",
-    "category": "cafe",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Yanghwa",
-    "address": "서울 마포구 양화로 서울",
-    "lat": 37.5596,
-    "lng": 126.9037,
-    "phone": "",
-    "website": "",
-    "description": "漢江沿いの楊花エリアにある開放的なテラスカフェ。韓国ドラマのロケ地にもなったことがある川沿いのロケーションで、水面を眺めながら過ごす休日の午後が格別。週末は地元の若者や家族連れで賑わい、夜はライトアップされた橋の夜景も楽しめる。",
-    "price_range": "₩₩",
-    "hours": "10:00-23:00",
-    "closed_days": "なし",
-    "languages": [
-      "ko"
-    ],
-    "tags": [
-      "テラスカフェ",
-      "楊花",
-      "漢江",
-      "ロケーション"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "detail": "ソウル・汝矣島のザ・現代ソウル（The Hyundai Seoul）内のCafe Onion汝矣島店。永登浦・汝矣島エリアにある話題のショッピングモール内に位置し、廃工場リノベーションの世界観をモール内でも表現。汝矣島駅（5・9号線）直結のアクセスで、ショッピングのついでに立ち寄りやすい。",
+    "place_reviewed": true
   },
   {
     "slug": "osulloc-tea-house-gangnam",
@@ -2115,7 +1616,8 @@
         "category": "茶葉（テイクアウト）"
       }
     ],
-    "detail": "제주（済州島）産のお茶を使った韓国発の高級ティーブランドOsulloc（オスロック）の江南店。済州島直産の緑茶・抹茶・ハーブティーを中心に、洗練されたインテリアの空間でお茶文化を体験できる。茶葉や茶器のギフトセットも豊富で、お土産探しにも最適。江南駅周辺に位置し、ショッピングついでに立ち寄りやすい。"
+    "detail": "제주（済州島）産のお茶を使った韓国発の高級ティーブランドOsulloc（オスロック）の江南店。済州島直産の緑茶・抹茶・ハーブティーを中心に、洗練されたインテリアの空間でお茶文化を体験できる。茶葉や茶器のギフトセットも豊富で、お土産探しにも最適。江南駅周辺に位置し、ショッピングついでに立ち寄りやすい。",
+    "place_reviewed": true
   },
   {
     "slug": "osulloc-tea-house-myeongdong",
@@ -2141,7 +1643,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "paulin-pancake-hongdae",
@@ -2170,38 +1673,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "percent-arabica-coex",
-    "name": "% ARABICA COEX",
-    "name_ja": "アラビカ COEX店",
-    "area": "Gangnam-gu (Samseong-dong)",
-    "address": "COEX Mall, 513 Yeongdong-daero, Gangnam-gu, Seoul",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://arabica.coffee/",
-    "description": "日本人が香港で創業し、京都発として世界展開するスペシャルティコーヒーブランド。2022年9月ソウルCOEX MALL内にオープン。ミニマルなデザインと高品質のラテが日本人に馴染みやすい。",
-    "tags": [
-      "日本発ブランド",
-      "スペシャルティコーヒー",
-      "京都"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
     "photo_name": null,
-    "detail": "ソウル・江南区三成洞のCOEXモール内に位置する% ArabicaのCOEX店。京都発のスペシャルティコーヒーブランドが、江南のランドマーク的ショッピングモール・COEXに出店。星のラウンジや三成COEXモールを訪れる観光客やビジネスマンが立ち寄りやすい立地。三成駅（2号線）直結で、ショッピングや観光の合間に利用できる。"
+    "place_reviewed": true
   },
   {
     "slug": "percent-arabica-seoul",
@@ -2228,7 +1701,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "ソウル・鍾路区三清洞エリアの% Arabicaソウル店。京都発のスペシャルティコーヒーブランドが世界各地に展開する中、ソウルの歴史ある三清洞に出店。景福宮周辺の静かな路地に位置し、シンプルなインテリアとシングルオリジンコーヒーで知られる。景福宮・北村韓屋村の観光と組み合わせやすい立地で、日本人旅行者にも親しみやすいブランド。"
+    "detail": "ソウル・鍾路区三清洞エリアの% Arabicaソウル店。京都発のスペシャルティコーヒーブランドが世界各地に展開する中、ソウルの歴史ある三清洞に出店。景福宮周辺の静かな路地に位置し、シンプルなインテリアとシングルオリジンコーヒーで知られる。景福宮・北村韓屋村の観光と組み合わせやすい立地で、日本人旅行者にも親しみやすいブランド。",
+    "place_reviewed": true
   },
   {
     "slug": "perment-bake-shop-anguk",
@@ -2254,7 +1728,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "perment-bake-shop-seongsu",
@@ -2280,82 +1755,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "pet-cafe-sinchon",
-    "name": "新村 ペットカフェ",
-    "name_ja": "新村 ペットカフェ",
-    "category": "cafe",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Sinchon",
-    "address": "서울 서대문구 신촌동 서울",
-    "lat": 37.5553,
-    "lng": 126.9375,
-    "phone": "",
-    "website": "",
-    "description": "新村エリアにある犬・猫のペットカフェ。可愛いペットと触れ合いながらコーヒーやケーキを楽しめる。猫や犬を飼えない一人暮らしの外国人にも人気で、週末はにぎわう。衛生管理にも厳しく清潔な環境を維持。事前予約が必要な場合もある。",
-    "price_range": "₩₩",
-    "hours": "11:00-22:00",
-    "closed_days": "月曜",
-    "languages": [
-      "ko"
-    ],
-    "tags": [
-      "ペットカフェ",
-      "猫カフェ",
-      "新村",
-      "体験"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "pop-up-cafe-seongsu",
-    "name": "聖水 ポップアップカフェ",
-    "name_ja": "聖水 ポップアップカフェ",
-    "category": "cafe",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Seongsu",
-    "address": "서울 성동구 성수이로 서울",
-    "lat": 37.5441,
-    "lng": 127.0558,
-    "phone": "",
-    "website": "",
-    "description": "聖水洞のトレンドエリアでブランドや商品のポップアップイベントを中心に開催するカフェスペース。常設の大手カフェとは異なり、期間限定でコンセプトが変わるため、いつ訪れても新鮮な体験ができる。韓国・日本・海外ブランドのポップアップが多く、トレンドに敏感な人が集まる話題スポット。",
-    "price_range": "₩₩",
-    "hours": "11:00-21:00",
-    "closed_days": "不定休",
-    "languages": [
-      "ko",
-      "en"
-    ],
-    "tags": [
-      "ポップアップカフェ",
-      "聖水",
-      "トレンド",
-      "期間限定"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "pourling-out-yeonhidong",
@@ -2381,33 +1782,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "prism-yeonnam",
-    "name": "프리즘 연남",
-    "name_ja": "プリズム 延南",
-    "area": "延南洞",
-    "address": "Yeonnam-dong, Mapo-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "延南洞にあるデザインセンスが際立つ人気カフェ。スタイリッシュな空間と独創的なメニューが在韓日本人にも評判で、弘大から徒歩圏内の延南カフェ通りを代表する一軒。インスタグラムでの発信力も高い。",
-    "tags": [
-      "デザインカフェ",
-      "延南洞",
-      "おしゃれ"
-    ],
-    "hours": "11:00〜21:00",
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "protocoll-showroom-sangsu",
