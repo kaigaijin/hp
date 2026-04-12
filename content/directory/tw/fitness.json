@@ -1,31 +1,5 @@
 [
   {
-    "slug": "cross-fit-taipei-zhongshan",
-    "name": "CrossFit Taipei Zhongshan",
-    "name_ja": "クロスフィット台北 中山",
-    "area": "台北 中山区",
-    "address": "Zhongshan District, Taipei",
-    "phone": null,
-    "website": null,
-    "description": "台北中山区のクロスフィットジム。英語対応のコーチが在籍し、在台外国人・日本人アスリートにも人気。グループクラス・パーソナルトレーニングを提供。",
-    "tags": [
-      "クロスフィット",
-      "英語対応",
-      "中山区"
-    ],
-    "hours": "月〜金 6:30〜21:00 / 土 9:00〜14:00",
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
     "slug": "crossfit-taichung",
     "name": "CrossFit 台中",
     "name_ja": "クロスフィット台中",
@@ -33,7 +7,7 @@
     "address": "台中市北區進化路355號",
     "phone": "+886422312233",
     "website": "",
-    "description": "台中市北区にあるクロスフィットジム。高強度インターバルトレーニング（HIIT）を中心としたフィットナルトレーニングを提供。英語・日本語での指導にも対応しており、台中在住の日本人アスリートやフィットネス愛好者が利用している。コーチの丁寧な指導で初心者でも安心。",
+    "description": "台中市北区のクロスフィットジム。HIIT中心のトレーニングを提供。日本語・英語での指導にも対応しており、台中在住の日本人アスリートも利用している。",
     "tags": [
       "クロスフィット",
       "HIIT",
@@ -50,133 +24,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "cycling-club-taipei",
-    "name": "KIFF Cycling Club Taipei",
-    "name_ja": "キフ サイクリングクラブ 台北",
-    "area": "台北",
-    "address": "Taipei",
-    "phone": null,
-    "website": null,
-    "description": "台湾のフィットネスサイクリングクラブ。インドアバイクを使ったグループサイクリングクラスを提供。在台外国人・日本人にも利用されているユニークなフィットネス施設。",
-    "tags": [
-      "サイクリング",
-      "フィットネス",
-      "グループクラス"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "fitness-factory-banqiao",
-    "name": "Fitness Factory Banqiao",
-    "name_ja": "健身工廠 板橋店",
-    "area": "新北 板橋区",
-    "address": "Banqiao District, New Taipei City",
-    "phone": null,
-    "website": "https://www.fitnessfactory.com.tw/tw",
-    "description": "新北市板橋区の健身工廠。台北近郊の板橋・新北エリアに住む日本人在住者が利用できる大型フィットネスクラブ。格安月会費で充実した設備が使える。",
-    "tags": [
-      "フィットネス",
-      "板橋"
-    ],
-    "hours": "月〜金 6:00〜23:00 / 土日 7:00〜22:00",
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "fitness-factory-kaohsiung",
-    "name": "Fitness Factory Kaohsiung",
-    "name_ja": "健身工廠 高雄店",
-    "area": "高雄",
-    "address": "Kaohsiung City",
-    "phone": null,
-    "website": "https://www.fitnessfactory.com.tw/tw",
-    "description": "健身工廠の高雄店。高雄在住の日本人在住者・駐在員が利用できる大型フィットネスクラブ。手頃な月会費で本格的なトレーニング環境を提供。",
-    "tags": [
-      "フィットネス",
-      "高雄"
-    ],
-    "hours": "月〜金 6:00〜23:00 / 土日 7:00〜22:00",
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "fitness-factory-neihu",
-    "name": "Fitness Factory Neihu",
-    "name_ja": "健身工廠 内湖店",
-    "area": "台北 内湖区",
-    "address": "Neihu District, Taipei",
-    "phone": null,
-    "website": "https://www.fitnessfactory.com.tw/tw",
-    "description": "IT企業が集まる内湖エリアの健身工廠。仕事帰りに通えるフィットネスクラブで、内湖在住・勤務の日本人も利用できる。各種マシン完備。",
-    "tags": [
-      "フィットネス",
-      "内湖"
-    ],
-    "hours": "月〜金 6:00〜23:00 / 土日 7:00〜22:00",
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "fitness-factory-taichung",
-    "name": "Fitness Factory Taichung",
-    "name_ja": "健身工廠 台中店",
-    "area": "台中",
-    "address": "Taichung City",
-    "phone": null,
-    "website": "https://www.fitnessfactory.com.tw/tw",
-    "description": "台湾各地に展開する健身工廠の台中店。台中在住の日本人駐在員・在住者が利用できる大型フィットネスクラブ。各種マシン完備・格安月会員制。",
-    "tags": [
-      "フィットネス",
-      "台中"
-    ],
-    "hours": "月〜金 6:00〜23:00 / 土日 7:00〜22:00",
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "fitness-factory-xinyi",
@@ -201,7 +50,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "fitness-factory-zhongshan",
@@ -226,7 +76,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "fitness-hsinchu-sports-center",
@@ -254,32 +105,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "gym-new-taipei-banqiao",
-    "name": "World Gym Banqiao",
-    "name_ja": "ワールドジム 板橋店",
-    "area": "新北 板橋区",
-    "address": "Banqiao District, New Taipei City",
-    "phone": null,
-    "website": "https://www.worldgymtaiwan.com/",
-    "description": "台湾で100店舗以上を展開するワールドジムの板橋店。新北市板橋区に立地し、板橋・新北エリア在住の日本人が利用できる大型フィットネスクラブ。24時間営業対応。",
-    "tags": [
-      "フィットネス",
-      "板橋"
-    ],
-    "hours": "月〜金 6:00〜23:00 / 土日 7:00〜22:00",
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "jexer-fitness-spa-nanjing-fuxing",
@@ -289,7 +116,7 @@
     "address": "B2, No. 133, Section 3, Nanjing East Road, Zhongshan District, Taipei (Hotel Metropolitan Premier Taipei)",
     "phone": null,
     "website": "http://www.jexer.tw/",
-    "description": "JR東日本系のフィットネスチェーン「ジェクサー」が台北に展開した日本式フィットネス＆スパ施設。ホテルメトロポリタンプレミア台北地下2階に位置。日本産ヒノキを使った本格温浴施設、400インチ超VRスタジオ、岩盤ホットスタジオを完備。MRT南京復興駅徒歩1分。日本人会員・旅行者も利用しやすい環境。",
+    "description": "JR東日本系「ジェクサー」の台北店。MRT南京復興駅徒歩1分のホテルメトロポリタンプレミア台北B2F。日本式温浴・VRスタジオ・岩盤ホットスタジオを完備。",
     "tags": [
       "日本系",
       "フィットネス",
@@ -307,7 +134,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kaohsiung-sports-center-lingya",
@@ -335,7 +163,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "metropolitan-pilates-taipei",
@@ -361,7 +190,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "more-fit-songjiang-fitness",
@@ -388,7 +218,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "personal-training-taipei-daan",
@@ -398,7 +229,7 @@
     "address": "台北市大安區復興南路二段130號",
     "phone": "+886227007744",
     "website": "",
-    "description": "台北市大安区にある日本語対応のパーソナルトレーニングスタジオ。日本語が話せるパーソナルトレーナーが在籍しており、ダイエット・筋力増強・体型改善・スポーツパフォーマンス向上など目標に合わせたプログラムを提供。マンツーマンでの指導が受けられるため効果的なトレーニングが可能。",
+    "description": "台北市大安区の日本語対応パーソナルトレーニングスタジオ。日本語を話すトレーナーが在籍し、ダイエット・筋力増強など目標に合わせたプログラムを提供。",
     "tags": [
       "パーソナルトレーニング",
       "フィットネス",
@@ -415,32 +246,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "pilates-studio-daan",
-    "name": "Pilates Studio Da'an",
-    "name_ja": "ピラティススタジオ 大安",
-    "area": "台北 大安区",
-    "address": "Da'an District, Taipei",
-    "phone": null,
-    "website": null,
-    "description": "台北大安区のピラティス専門スタジオ。マシンピラティス・マットピラティスのクラスを提供。外国語対応のインストラクターが在籍し、在台日本人女性にも利用されている。",
-    "tags": [
-      "ピラティス",
-      "大安区"
-    ],
-    "hours": "月〜金 7:00〜21:00 / 土日 8:00〜18:00",
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "pilates-studio-kaohsiung",
@@ -450,7 +257,7 @@
     "address": "高雄市苓雅區三多三路58號",
     "phone": "+886073358877",
     "website": "",
-    "description": "高雄市苓雅区にあるピラティス専門スタジオ。日本語対応インストラクターが在籍しており、姿勢改善・体幹強化・産後リハビリなどのニーズに対応したピラティスレッスンを提供。マットピラティス・リフォーマーピラティスの両方に対応し、高雄在住の日本人女性に人気のスタジオ。",
+    "description": "高雄市苓雅区のピラティス専門スタジオ。日本語対応インストラクターが在籍し、姿勢改善・体幹強化・産後リハビリに対応。高雄在住の日本人女性に人気。",
     "tags": [
       "ピラティス",
       "フィットネス",
@@ -467,108 +274,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "pilates-studio-taichung",
-    "name": "Pilates Studio Taichung",
-    "name_ja": "ピラティススタジオ 台中",
-    "area": "台中",
-    "address": "Taichung City",
-    "phone": null,
-    "website": null,
-    "description": "台中市内のピラティス専門スタジオ。マシンピラティス・マットクラスを提供し、台中在住の日本人も参加できる。英語対応で外国人の利用者も多い。",
-    "tags": [
-      "ピラティス",
-      "台中"
-    ],
-    "hours": "月〜金 7:00〜21:00 / 土日 8:00〜18:00",
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "pilates-studio-xinyi",
-    "name": "Pilates Studio Xinyi",
-    "name_ja": "ピラティススタジオ 信義",
-    "area": "台北 信義区",
-    "address": "Xinyi District, Taipei",
-    "phone": null,
-    "website": null,
-    "description": "台北信義区のピラティス専門スタジオ。マシンピラティス・マットクラスを提供。信義エリアに住む日本人在住者にも利用されている。外国語対応のインストラクターが在籍。",
-    "tags": [
-      "ピラティス",
-      "信義区"
-    ],
-    "hours": "月〜金 7:00〜21:00 / 土日 8:00〜18:00",
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "pilates-studio-zhongshan",
-    "name": "Pilates Studio Zhongshan",
-    "name_ja": "ピラティススタジオ 中山",
-    "area": "台北 中山区",
-    "address": "Zhongshan District, Taipei",
-    "phone": null,
-    "website": null,
-    "description": "台北中山区のピラティス専門スタジオ。外国人・日本人利用者に人気で、英語でのクラス参加が可能。マシンピラティス・マットクラスを提供。",
-    "tags": [
-      "ピラティス",
-      "中山区"
-    ],
-    "hours": "月〜金 7:00〜21:00 / 土日 8:00〜18:00",
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "swimming-pool-daan",
-    "name": "Da'an Park Swimming Pool",
-    "name_ja": "大安公園プール",
-    "area": "台北 大安区",
-    "address": "Da'an Forest Park, Da'an District, Taipei",
-    "phone": null,
-    "website": null,
-    "description": "大安森林公園内の公共プール。格安料金で利用できる台北の公共水泳施設。大安区に住む日本人家族が水泳・水中運動に利用できる。",
-    "tags": [
-      "スイミング",
-      "公共施設",
-      "大安区"
-    ],
-    "hours": "6:00〜21:00（季節により変動）",
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "swimming-school-taipei-zhongshan",
@@ -578,7 +285,7 @@
     "address": "台北市中山區長安東路二段98號",
     "phone": "+886225067788",
     "website": "",
-    "description": "台北市中山区にあるスイミングスクール。日本語対応のインストラクターが在籍しており、子どもから大人まで水泳指導を行っている。在台日本人の子どものスイミングレッスンや、泳ぎを上達させたい日本人大人の個人レッスンにも対応。台北中心部のアクセスしやすい場所にある。",
+    "description": "台北市中山区のスイミングスクール。日本語対応インストラクターが在籍し、子どもから大人まで水泳指導。在台日本人の子どもの習い事にも対応。",
     "tags": [
       "水泳",
       "スイミング",
@@ -596,7 +303,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "taichung-sports-center-west",
@@ -624,7 +332,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "taipei-daan-sports-center-fitness",
@@ -651,7 +360,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "taipei-xinyi-sports-center-fitness",
@@ -679,7 +389,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "taipei-zhongshan-sports-center-fitness",
@@ -706,7 +417,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "true-yoga-kaohsiung",
@@ -716,7 +428,7 @@
     "address": "高雄市前金區中正四路211號",
     "phone": "+886073285588",
     "website": "https://www.trueyoga.com.tw",
-    "description": "高雄市前金区にあるTrue Yogaの高雄店。広々としたスタジオで多彩なヨガクラスを提供。日本語対応スタッフも在籍しており、高雄在住の日本人がヨガを楽しめる環境が整っている。体験クラスも用意されており、初めてのヨガにも対応。シャワー・更衣室も完備。",
+    "description": "高雄市前金区のTrue Yoga高雄店。多彩なヨガクラスを提供する大型スタジオ。日本語対応スタッフも在籍し、高雄在住の日本人が通いやすい環境を整備。",
     "tags": [
       "ヨガ",
       "フィットネス",
@@ -733,7 +445,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "true-yoga-taichung",
@@ -743,7 +456,7 @@
     "address": "台中市西屯區台灣大道三段260號",
     "phone": "+886422565588",
     "website": "https://www.trueyoga.com.tw",
-    "description": "台中市に展開するTrue Yogaのスタジオ。台湾最大級のヨガスタジオチェーンで、広いスペースと充実した設備が特徴。ハタヨガ・フローヨガ・パワーヨガなど多様なクラスを提供。日本語対応スタッフも在籍しており、台中在住の日本人も安心して通えるヨガスタジオ。",
+    "description": "台中市のTrue Yogaスタジオ。台湾最大級のヨガチェーンで、ハタ・フロー・パワーヨガなど多彩なクラスを提供。日本語対応スタッフも在籍する。",
     "tags": [
       "ヨガ",
       "フィットネス",
@@ -760,34 +473,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "true-yoga-taipei",
-    "name": "True Yoga & Fitness Taipei",
-    "name_ja": "トゥルーヨガ＆フィットネス 台北",
-    "area": "台北 大安区",
-    "address": "Section 4, Zhongxiao East Road, Da'an District, Taipei",
-    "phone": null,
-    "website": null,
-    "description": "シンガポール発の大型ヨガ・フィットネスクラブ「True Yoga」の台北店。多国籍のインストラクターが在籍し、180以上のクラスを週次で開催。大型スタジオで様々なスタイルのヨガが楽しめる。",
-    "tags": [
-      "ヨガ",
-      "フィットネス",
-      "スタジオ",
-      "大安区"
-    ],
-    "hours": "月〜金 7:00〜22:00 / 土日 8:00〜21:00",
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "wanhua-sports-center-fitness",
@@ -814,7 +501,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "wellness-studio-taipei-songshan",
@@ -842,57 +530,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "world-gym-daan",
-    "name": "World Gym Da'an",
-    "name_ja": "ワールドジム 大安店",
-    "area": "台北 大安区",
-    "address": "Da'an District, Taipei",
-    "phone": null,
-    "website": "https://www.worldgymtaiwan.com/",
-    "description": "「ワールドジム」の大安店。大安区在住の日本人にアクセスしやすい大型フィットネスクラブ。各種マシン・スタジオクラス・プールを完備。",
-    "tags": [
-      "フィットネス",
-      "大安区"
-    ],
-    "hours": "月〜金 6:00〜23:00 / 土日 7:00〜22:00",
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "world-gym-hsinchu",
-    "name": "World Gym Hsinchu",
-    "name_ja": "ワールドジム 新竹店",
-    "area": "新竹",
-    "address": "Hsinchu City",
-    "phone": null,
-    "website": "https://www.worldgymtaiwan.com/",
-    "description": "新竹市のワールドジム。竹科勤務の日本人エンジニア・駐在員が利用できる大型フィットネスクラブ。各種マシン・スタジオクラスが充実。",
-    "tags": [
-      "フィットネス",
-      "新竹"
-    ],
-    "hours": "月〜金 6:00〜23:00 / 土日 7:00〜22:00",
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "world-gym-hsinchu-2",
@@ -918,82 +557,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "world-gym-kaohsiung",
-    "name": "World Gym Kaohsiung",
-    "name_ja": "ワールドジム 高雄店",
-    "area": "高雄",
-    "address": "Kaohsiung City",
-    "phone": null,
-    "website": "https://www.worldgymtaiwan.com/",
-    "description": "ワールドジムの高雄店。高雄在住の日本人在住者・駐在員が利用できる大型フィットネスクラブ。各種マシン・スタジオクラス・プールが完備。",
-    "tags": [
-      "フィットネス",
-      "高雄"
-    ],
-    "hours": "月〜金 6:00〜23:00 / 土日 7:00〜22:00",
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "world-gym-neihu",
-    "name": "World Gym Neihu",
-    "name_ja": "ワールドジム 内湖店",
-    "area": "台北 内湖区",
-    "address": "Neihu District, Taipei",
-    "phone": null,
-    "website": "https://www.worldgymtaiwan.com/",
-    "description": "IT企業が集まる内湖エリアのワールドジム。仕事帰りに通える大型フィットネスクラブ。内湖在住・勤務の日本人にとって便利なジム。",
-    "tags": [
-      "フィットネス",
-      "内湖"
-    ],
-    "hours": "月〜金 6:00〜23:00 / 土日 7:00〜22:00",
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "world-gym-taichung",
-    "name": "World Gym Taichung",
-    "name_ja": "ワールドジム 台中店",
-    "area": "台中",
-    "address": "Taichung City",
-    "phone": null,
-    "website": "https://www.worldgymtaiwan.com/",
-    "description": "台湾各地に展開するワールドジムの台中店。台中在住の日本人駐在員・在住者が利用できる大型フィットネスクラブ。各種マシン・スタジオクラスが充実。",
-    "tags": [
-      "フィットネス",
-      "台中"
-    ],
-    "hours": "月〜金 6:00〜23:00 / 土日 7:00〜22:00",
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "world-gym-taipei-101-fitness",
@@ -1021,57 +586,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "world-gym-tamsui",
-    "name": "World Gym Tamsui",
-    "name_ja": "ワールドジム 淡水店",
-    "area": "新北 淡水区",
-    "address": "Tamsui District, New Taipei City",
-    "phone": null,
-    "website": "https://www.worldgymtaiwan.com/",
-    "description": "台湾で100店舗以上を展開するワールドジムの淡水店。新北市淡水区に立地し、淡水・新北エリア在住の日本人が利用できる大型フィットネスクラブ。",
-    "tags": [
-      "フィットネス",
-      "淡水"
-    ],
-    "hours": "月〜金 6:00〜23:00 / 土日 7:00〜22:00",
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "world-gym-taoyuan",
-    "name": "World Gym Taoyuan",
-    "name_ja": "ワールドジム 桃園店",
-    "area": "桃園",
-    "address": "Taoyuan District, Taoyuan City",
-    "phone": null,
-    "website": "https://www.worldgymtaiwan.com/",
-    "description": "桃園市のワールドジム。桃園空港に近く、桃園在住の日本人が利用できる大型フィットネスクラブ。各種マシン・スタジオクラスが充実。",
-    "tags": [
-      "フィットネス",
-      "桃園"
-    ],
-    "hours": "月〜金 6:00〜23:00 / 土日 7:00〜22:00",
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "world-gym-tianmu",
@@ -1097,7 +613,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "world-gym-zhongshan",
@@ -1123,7 +640,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yoga-edition-taipei",
@@ -1150,57 +668,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "yoga-kaohsiung",
-    "name": "Yoga Studio Kaohsiung",
-    "name_ja": "ヨガスタジオ 高雄",
-    "area": "高雄",
-    "address": "Kaohsiung City",
-    "phone": null,
-    "website": null,
-    "description": "高雄市内の日本人も参加できるヨガスタジオ。英語でのコミュニケーションが可能で、高雄在住の日本人在住者向けに各種ヨガクラスを定期開催。",
-    "tags": [
-      "ヨガ",
-      "高雄"
-    ],
-    "hours": "月〜金 7:00〜22:00 / 土日 8:00〜20:00",
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "yoga-studio-daan-japanese",
-    "name": "Yoga Studio Da'an",
-    "name_ja": "ヨガスタジオ 大安",
-    "area": "台北 大安区",
-    "address": "Da'an District, Taipei",
-    "phone": null,
-    "website": null,
-    "description": "台北大安区のヨガスタジオ。様々なスタイルのヨガクラスを提供。在台外国人・日本人女性が多く参加する人気スタジオ。英語でのクラス参加が可能。",
-    "tags": [
-      "ヨガ",
-      "大安区"
-    ],
-    "hours": "月〜金 7:00〜22:00 / 土日 8:00〜20:00",
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yoga-studio-hsinchu",
@@ -1210,7 +679,7 @@
     "address": "新竹市東區中山路28號",
     "phone": "+886355234455",
     "website": "",
-    "description": "新竹市にある日本語対応のヨガスタジオ。日本語を話すインストラクターが在籍しており、新竹在住の日本人が安心してヨガを始められる環境。ハタヨガ・陰ヨガ・マタニティヨガなどのクラスを提供。少人数制のクラスが中心で、初心者から上級者まで幅広く対応している。",
+    "description": "新竹市の日本語対応ヨガスタジオ。日本語を話すインストラクターが在籍し、ハタ・陰ヨガ・マタニティヨガを提供。TSMC周辺在住の日本人女性にも対応。",
     "tags": [
       "ヨガ",
       "フィットネス",
@@ -1227,83 +696,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "yoga-studio-neihu",
-    "name": "Yoga Studio Neihu",
-    "name_ja": "ヨガスタジオ 内湖",
-    "area": "台北 内湖区",
-    "address": "Neihu District, Taipei",
-    "phone": null,
-    "website": null,
-    "description": "内湖エリアのヨガスタジオ。内湖に勤務・在住する日本人にも利用しやすい。各種ヨガクラスを提供し、仕事帰りや週末に通えるフィットネス環境。",
-    "tags": [
-      "ヨガ",
-      "内湖"
-    ],
-    "hours": "月〜金 7:00〜22:00 / 土日 8:00〜20:00",
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "yoga-studio-tianmu",
-    "name": "Yoga Studio Tianmu",
-    "name_ja": "ヨガスタジオ 天母",
-    "area": "台北 士林区 天母",
-    "address": "Tianmu, Shilin District, Taipei",
-    "phone": null,
-    "website": null,
-    "description": "日本人が多く住む天母エリアのヨガスタジオ。外国人インストラクターが在籍し、英語・日本語でのクラス参加が可能。天母在住の日本人家族に利用されている。",
-    "tags": [
-      "ヨガ",
-      "天母",
-      "外国語対応"
-    ],
-    "hours": "毎日 7:00〜21:00",
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "yoga-taichung",
-    "name": "Yoga Studio Taichung",
-    "name_ja": "ヨガスタジオ 台中",
-    "area": "台中",
-    "address": "Taichung City",
-    "phone": null,
-    "website": null,
-    "description": "台中市内の日本人も参加できるヨガスタジオ。英語でのコミュニケーションが可能で、台中在住の日本人女性向けに定期的なヨガクラスを各種提供。",
-    "tags": [
-      "ヨガ",
-      "台中"
-    ],
-    "hours": "月〜金 7:00〜22:00 / 土日 8:00〜20:00",
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "anytime-fitness-xinyi-a25",
@@ -1336,7 +730,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "anytime-fitness-xinyi-anhe",
@@ -1369,7 +764,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "world-gym-taipei-station",
@@ -1400,7 +796,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "world-gym-changchun",
@@ -1430,7 +827,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "world-gym-gongguan",
@@ -1461,7 +859,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "world-gym-minquan-east",
@@ -1491,6 +890,7 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   }
 ]
