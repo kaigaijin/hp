@@ -22,7 +22,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "cosmed-xinyi",
@@ -47,7 +48,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "cosmed-zhongxiao-dunhua",
@@ -72,7 +74,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "dushu-pharmacy-tianmu",
@@ -97,7 +100,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "matsumoto-kiyoshi-breeze-xinyi",
@@ -122,32 +126,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "matsumoto-kiyoshi-zhongxiao-dunhua",
-    "name": "Matsumoto Kiyoshi Zhongxiao Dunhua",
-    "name_ja": "マツモトキヨシ 忠孝敦化店",
-    "area": "大安区・忠孝東路",
-    "address": "No. 155, Section 4, Zhongxiao East Road, Da'an District, Taipei City",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.matsumotokiyoshi-tw.com",
-    "description": "日本発マツモトキヨシの台湾1号店（2018年10月開業）。日本の医薬品・コスメ・ドラッグストア商品を幅広くそろえ、在台日本人にとって馴染みのある薬局ブランド。売場面積約255㎡。",
-    "tags": [
-      "日系チェーン",
-      "日本コスメ",
-      "医薬品",
-      "ドラッグストア"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-02",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "niyao-benkuang-ximen",
@@ -172,7 +152,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "niyao-benkuang-zhongshan",
@@ -197,7 +178,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "niyao-benkuang-zhongxiao",
@@ -222,7 +204,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "nta-pharmacy-taipei-main",
@@ -247,7 +230,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "poya-beauty-zhongxiao",
@@ -272,31 +256,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "shilinye-pharmacy-taipei",
-    "name": "Taipei City Pharmacy - Shilin",
-    "name_ja": "士林夜市近く薬局",
-    "area": "士林区",
-    "address": "Shilin District, Taipei City",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "士林区に複数ある地域薬局。処方箋調剤に対応し、近隣在住の日本人駐在員・家族が利用するケースが多い。中国語のみの場合が多いが英語対応店も点在。",
-    "tags": [
-      "調剤薬局",
-      "地域薬局",
-      "士林"
-    ],
-    "hours": "09:00-21:00",
-    "last_verified": "2026-04-03",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "taipei-veterans-general-pharmacy",
@@ -321,7 +282,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "tomods-daan-zhongxiao",
@@ -346,7 +308,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "tomods-minquan-west",
@@ -370,7 +333,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "tomods-tianmu-carrefour",
@@ -395,7 +359,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "tomods-xinyi-citygov",
@@ -420,7 +385,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "watsons-taipei-101",
@@ -445,7 +411,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "watsons-zhongshan-taipei",
@@ -470,31 +437,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "wellcome-pharmacy-daan",
-    "name": "BenQ Pharmacy - Da'an",
-    "name_ja": "明碁薬局 大安店",
-    "area": "大安区",
-    "address": "Da'an District, Taipei City",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.benqhospital.org.tw",
-    "description": "BenQグループ系列の薬局。処方箋調剤に対応し、医師処方薬の調剤サービスを提供。英語対応も可能。在台外国人の利用者が多い。",
-    "tags": [
-      "調剤薬局",
-      "処方箋対応",
-      "英語対応"
-    ],
-    "hours": "09:00-18:00",
-    "last_verified": "2026-04-03",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "matsumoto-kiyoshi-taipei-zhongxiao-daan",
@@ -525,40 +469,7 @@
     "place_id": "",
     "priority": 0,
     "ai_reviewed": true,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "riyaobenpu-taipei-dongmen",
-    "name": "Nihon-Yaku Drug Store (日藥本舖) Dongmen",
-    "name_ja": "日藥本舗 東門店",
-    "area": "中正区（東門）",
-    "address": "Near Dongmen MRT Station, Zhongzheng District, Taipei City",
-    "phone": null,
-    "phone_local": null,
-    "email": null,
-    "website": "https://tw.matsumotokiyoshi.net/",
-    "source_url": "https://motto.tw/taipei-city/shopping/riyaobenpu-dongmen.html",
-    "description": "東門駅そばにある日藥本舗（日本薬品を扱うドラッグストアチェーン）の台北店。日本から正規輸入した医薬品・サプリ・コスメを販売し、日本人観光客・在住者の購入需要が高い。",
-    "detail": "日藥本舗（Nihon Yaku）は日本製品を専門に扱う台湾のドラッグストアチェーンで、台北市内に複数店舗を展開。東門店は東門MRT駅近くに位置し、アクセスが良好。日本語商品が多く、日本語スタッフが在籍する店舗もある。",
-    "menu": null,
-    "price_range": "日本製薬品・コスメ（要問い合わせ）",
-    "tags": [
-      "日系ドラッグストア",
-      "日本薬品",
-      "コスメ",
-      "東門",
-      "日本語商品"
-    ],
-    "hours": "要問い合わせ",
-    "status": "unverified",
-    "last_verified": "2026-04-05",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
+    "place_reviewed": true,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
