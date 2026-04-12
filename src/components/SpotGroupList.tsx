@@ -292,7 +292,7 @@ function PlaceGroupListInner({
             <button
               onClick={() => goToPage(safeCurrentPage - 1)}
               disabled={safeCurrentPage === 1}
-              className="p-2 rounded-lg text-stone-500 hover:bg-stone-100 dark:hover:bg-stone-800 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+              className="p-2 rounded-lg text-stone-500 hover:bg-stone-100 dark:hover:bg-stone-800 disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer transition-colors"
               aria-label="前のページ"
             >
               <ChevronLeft size={18} />
@@ -320,7 +320,7 @@ function PlaceGroupListInner({
                 <button
                   key={page}
                   onClick={() => goToPage(page)}
-                  className={`min-w-[36px] h-9 rounded-lg text-sm font-medium transition-colors ${
+                  className={`min-w-[36px] h-9 rounded-lg text-sm font-medium cursor-pointer transition-colors ${
                     page === safeCurrentPage
                       ? "bg-warm-600 text-white"
                       : "text-stone-600 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-800"
@@ -335,7 +335,7 @@ function PlaceGroupListInner({
             <button
               onClick={() => goToPage(safeCurrentPage + 1)}
               disabled={safeCurrentPage === totalPages}
-              className="p-2 rounded-lg text-stone-500 hover:bg-stone-100 dark:hover:bg-stone-800 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+              className="p-2 rounded-lg text-stone-500 hover:bg-stone-100 dark:hover:bg-stone-800 disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer transition-colors"
               aria-label="次のページ"
             >
               <ChevronRight size={18} />
