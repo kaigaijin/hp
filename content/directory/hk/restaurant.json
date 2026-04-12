@@ -5572,7 +5572,7 @@
     "lng": null,
     "phone": "+85268990960",
     "website": "https://ensoyakitori.net/",
-    "description": "堅尼地城の海沿いに位置する焼鳥専門店。鶏の各部位の串焼きを中心に、食材の多くは日本から空輸。ウォーターフロントの景色を楽しみながら焼鳥を堪能できる。",
+    "description": "堅尼地城の海沿いに位置する焼鳥専門店。鶏各部位の串焼きを中心に食材の多くを日本から空輸。ウォーターフロントを眺めながら本格焼鳥を堪能できる。",
     "tags": [
       "焼鳥",
       "海沿い"
@@ -5589,19 +5589,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "enya-sapporo-ebi-ramen-sheung-wan",
-    "name": "Enya Sapporo Ebi Ramen",
-    "name_ja": "緣屋 札幌元祖蝦湯拉麵",
+    "name": "Enishiya Ebisoba",
+    "name_ja": "縁屋 オリジナル濃厚海老そば",
     "area": "Sheung Wan",
     "address": "Shop 228-230, 2/F, Shun Tak Centre, 168-200 Connaught Road Central, Sheung Wan, Hong Kong",
     "lat": null,
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "サンポ（上環）にあるラーメン店「Enya Sapporo Ebi Ramen」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "上環シャンタク・センター内にある北海道札幌発の海老そば専門店。エビの頭から取った濃厚スープが特徴で、全国ラーメン大会で準優勝した実力派。",
     "tags": [
       "ラーメン",
       "海老スープ",
@@ -5619,19 +5620,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ficus-tko",
     "name": "FICUS",
     "name_ja": "FICUS",
     "area": "Tseung Kwan O",
-    "address": "G/F, SAVANNAH Place, O'South Coast, Tseung Kwan O",
+    "address": "Shop G12, G/F, Monterey Place, 23 Tong Chun Street, Tseung Kwan O",
     "lat": null,
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ツェンクワンオー（将軍澳）にある將軍澳澳南海岸のおまかせ寿司店。季節の食材を活かしたおまかせコースを提供。落ち着いた雰囲気で本格的な寿司体験ができる。",
+    "description": "将軍澳モンタレー・プレイス内のおまかせ寿司専門店。ランチ・ティータイム・ディナーを通じて終日おまかせを楽しめる将軍澳唯一の店。価格帯HK$980〜。",
     "tags": [
       "japanese",
       "omakase",
@@ -5651,7 +5653,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "firebird-causeway-bay",
@@ -5661,7 +5664,7 @@
     "address": "G/F, Hotel Pennington by Rhombus, 13 Pennington Street, Causeway Bay, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある銅鑼湾のモダン居酒屋。焼鳥を中心に鮨・和牛グリルなど幅広い和食メニューを提供。ホテルペニントン1階。",
+    "description": "銅鑼湾ホテルペニントン1階のモダン居酒屋。焼鳥・鮨・和牛グリルなど幅広い和食を提供。日本酒・ハイボールも充実し夜遅くまで営業。",
     "tags": [
       "焼鳥",
       "居酒屋",
@@ -5677,93 +5680,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "firebird-causeway-bay-izakaya",
-    "name": "Firebird",
-    "name_ja": "Firebird",
-    "area": "Causeway Bay",
-    "address": "G/F, 13 Pennington Street, Causeway Bay",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある日本式居酒屋「Firebird」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。在香港日本人・旅行者に利用されている。",
-    "tags": [
-      "焼き鳥",
-      "居酒屋"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "firebird-izakaya-causeway-bay",
-    "name": "FireBird",
-    "name_ja": "FireBird",
-    "area": "Causeway Bay",
-    "address": "G/F, Hotel Pennington by Rhombus, 13 Pennington Street, Causeway Bay, Hong Kong",
-    "phone": null,
-    "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある銅鑼湾のモダン居酒屋。焼鳥・鮨・和牛グリルなどを幅広く提供。ホテルペニントン1階で気軽に入れる。",
-    "tags": [
-      "居酒屋",
-      "焼鳥",
-      "モダン"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-28",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "fudo-town-sha-tin",
-    "name": "Fudo Town",
-    "name_ja": "風土タウン",
-    "area": "Sha Tin",
-    "address": "Sha Tin Racecourse, Sha Tin, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "シャーティン（沙田）にある沙田競馬場内の日本食コンプレックス。ラーメン・丼物カウンターと居酒屋スタイルの寿司・串焼きを提供。",
-    "tags": [
-      "ラーメン",
-      "丼物",
-      "居酒屋",
-      "競馬場"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "fukuro-central",
@@ -5775,7 +5693,7 @@
     "lng": null,
     "phone": "+85223338841",
     "website": "https://www.fukuro.com.hk/",
-    "description": "Black Sheep Restaurants系列のSoHo居酒屋。刺身・巻き寿司・サンドなどの日本料理と、日本酒・ハイボールを提供。深夜営業。",
+    "description": "Black Sheep Restaurants系列、SoHo Elgin Street 1-5の居酒屋。刺身・巻き寿司・サンドと日本酒・ハイボールを深夜まで提供するエドo風空間。",
     "tags": [
       "居酒屋",
       "深夜営業",
@@ -5793,7 +5711,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "fumi-central",
@@ -5805,7 +5724,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "蘭桂坊のカリフォルニアタワー23階にある日本料理レストラン＆バー。おまかせディナー、懐石、アラカルト、セットランチを提供。",
+    "description": "蘭桂坊カリフォルニアタワー23階の高級日本料理。おまかせ・懐石・アラカルト・セットランチを提供。眺望と日本直送食材にこだわったアップスケールな空間。",
     "tags": [
       "寿司",
       "おまかせ",
@@ -5825,7 +5744,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "fumi-joe-central",
@@ -5835,7 +5755,7 @@
     "address": "6/F, California Tower, 30-32 D'Aguilar Street, Central, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "中環蘭桂坊California Tower内の居酒屋。元FUMIから居酒屋スタイルにリブランド。寿司、すき焼き、炉端焼き、天ぷらなど幅広い和食を提供。",
+    "description": "蘭桂坊カリフォルニアタワー6階の居酒屋。FUMIからリブランドし、寿司・すき焼き・炉端焼き・天ぷらなど幅広い和食をカジュアルに提供。",
     "tags": [
       "居酒屋",
       "寿司",
@@ -5857,7 +5777,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "furyu-ebi-sushi-limited",
@@ -5869,7 +5790,7 @@
     "lng": 114.175,
     "phone": null,
     "website": "https://www.facebook.com/FuRyu.hk",
-    "description": "香港にある日本式居酒屋「Furyu Ebi Sushi Limited」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
+    "description": "何文田勝利道にある居酒屋スタイルの日本食店。寿司・刺身・海老料理を中心にメニューを展開するカジュアルな日本食店。",
     "tags": [
       "居酒屋"
     ],
@@ -5885,19 +5806,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "g-one-sushi-japanese-restaurant-tsim-sha-tsui",
-    "name": "鮨一日本料理 (尖沙咀), G One Sushi Japanese Restaurant (Tsim Sha Tsui), 日本料理, 居酒屋, 丼飯, 刺身, 壽司",
-    "name_ja": "鮨一日本料理 (尖沙咀), G One Sushi Japanese Restaurant (Tsim Sha Tsui), 日本料理, 居酒屋, 丼飯, 刺身, 壽司",
+    "name": "G One Sushi Japanese Restaurant",
+    "name_ja": "鮨一日本料理",
     "area": "Tsim Sha Tsui",
     "address": "Hong Kong, Tsim Sha Tsui, Hau Fook St, 12-12A號, The Lamma Tower, 18 樓",
     "lat": 22.2996,
     "lng": 114.1739,
     "phone": "+85237059227",
     "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある日本料理・鮨店「鮨一日本料理 (尖沙咀), G One Sushi Japanese Restaurant (Tsim Sha Tsui), 日本料理, 居酒屋, 丼飯, 刺身, 壽司」。日本の料理・食材。",
+    "description": "尖沙咀Hau Fook Streetにある日本料理・鮨店。寿司・刺身・丼飯・居酒屋メニューを幅広く提供するオールラウンドな日本食レストラン。",
     "tags": [
       "寿司"
     ],
@@ -5913,7 +5835,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "gaki-japanese-tai-wai",
@@ -5925,7 +5848,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "大圍雲疊花園商場の日本料理店。寿司、刺身、うどん、洋食風メニューを提供。家族連れにも人気のカジュアルな日本食レストラン。",
+    "description": "大圍雲疊花園商場内の日本料理店。寿司・刺身・うどん・洋食メニューを提供するカジュアルな日本食レストランで、ファミリー層にも人気。",
     "tags": [
       "japanese",
       "sushi",
@@ -5946,7 +5869,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "gaku-hall-tst-sushi",
@@ -5958,7 +5882,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある日本料理・鮨店「Gaku Hall」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "尖沙咀Hart Avenueにある日本料理・鮨店。新鮮な魚介を使った寿司・刺身など本格的な日本食メニューを提供。",
     "tags": [
       "寿司",
       "刺身"
@@ -5975,65 +5899,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "ganbei-yakitori",
-    "name": "乾杯串燒居酒屋Ganbei Yakitori",
-    "name_ja": "乾杯串燒居酒屋Ganbei Yakitori",
-    "area": "Tsim Sha Tsui",
-    "address": "Hong Kong, Tsim Sha Tsui, Chatham Rd S, 123號地下G, H舖",
-    "lat": 22.3021,
-    "lng": 114.1766,
-    "phone": "+85224143888",
-    "website": "https://www.facebook.com/profile.php?id=100063841579047&mibextid=ZbWKwL",
-    "description": "チムサーチョイ（尖沙咀）にある日本式居酒屋「乾杯串燒居酒屋Ganbei Yakitori」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
-    "tags": [
-      "焼鳥",
-      "居酒屋"
-    ],
-    "hours": "Monday: 6:00 PM – 1:00 AM / Tuesday: 6:00 PM – 1:00 AM / Wednesday: 6:00 PM – 1:00 AM / Thursday: 6:00 PM – 1:00 AM / Friday: 6:00 PM – 1:00 AM / Saturday: 6:00 PM – 1:00 AM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJERuz1e4ABDQR3bx_4UBP2TI",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "ganbei-yakitori-restaurant",
-    "name": "乾杯串燒居酒屋Ganbei Yakitori Restaurant",
-    "name_ja": "乾杯串燒居酒屋Ganbei Yakitori Restaurant",
-    "area": "Hong Kong",
-    "address": "West Grand Court, Queen's Rd W, Sai Wan, Hong Kong",
-    "lat": 22.2866,
-    "lng": 114.1386,
-    "phone": "+85224333328",
-    "website": null,
-    "description": "香港にある日本式居酒屋「乾杯串燒居酒屋Ganbei Yakitori Restaurant」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
-    "tags": [
-      "焼鳥",
-      "居酒屋"
-    ],
-    "hours": "Monday: 6:00 PM – 1:00 AM / Tuesday: 6:00 PM – 1:00 AM / Wednesday: 6:00 PM – 1:00 AM / Thursday: 6:00 PM – 1:00 AM / Friday: 6:00 PM – 1:00 AM / Saturday: 6:00 AM – 1:00 AM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJHe9aUIH_AzQR7_TUgUpJUDE",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ganbei-yakitori-syp",
@@ -6043,7 +5910,7 @@
     "address": "G/F, West Grand Court, 403-405 Queen's Road West, Sai Ying Pun, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "サイインプン（西營盤）にある焼き鳥専門店「Ganbei Yakitori Sai Ying Pun」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "西營盤West Grand Court地上階の焼き鳥居酒屋。炭火串焼きを中心にスカロップ・イベリコ豚など多彩なスキューを揃える。日本酒も充実。",
     "tags": [
       "焼き鳥",
       "居酒屋"
@@ -6058,7 +5925,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ganbei-yakitori-tst",
@@ -6068,7 +5936,7 @@
     "address": "Shop G & H, G/F, 123 Chatham Road South, Tsim Sha Tsui, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある焼き鳥専門店「Ganbei Yakitori Tsim Sha Tsui」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "尖沙咀Chatham Road South 123番地の焼き鳥居酒屋。炭火焼きの各種串焼きと日本酒・ハイボールを提供。地元日本人・旅行者に人気の老舗。",
     "tags": [
       "焼き鳥",
       "居酒屋",
@@ -6084,34 +5952,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "gassan-central",
-    "name": "Gassan",
-    "name_ja": "月山",
-    "area": "Central",
-    "address": "19/F, H Queen's, 80 Queen's Road Central, Central, Hong Kong",
-    "phone": "+85234991427",
-    "website": null,
-    "description": "セントラル（中環）にある香港出身のWaシェフと京都出身のHosoシェフによる懐石おまかせ。毎日日本から空輸するA5和牛や希少シーフードを使用。",
-    "tags": [
-      "懐石",
-      "おまかせ",
-      "高級",
-      "A5和牛"
-    ],
-    "hours": "ランチ 12:00〜14:30 / ディナー 18:00〜22:30",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "gassan-central-sushi",
@@ -6123,7 +5965,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "東京のミシュラン星付き「ひ山」出身のシェフ和氏と50年の経験を持つ細シェフが率いる。懐石おまかせスタイルで、A5和牛・日本直送の食材を使用。",
+    "description": "中環H Queen's 19階の懐石おまかせレストラン「月山」。A5和牛・日本直送の希少食材を使用。ランチHK$988〜、ディナーHK$1,988〜。",
     "tags": [
       "おまかせ",
       "懐石",
@@ -6142,7 +5984,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "gaten-tko",
@@ -6154,7 +5997,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ツェンクワンオー（将軍澳）にある日本料理・鮨店「Gaten」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "将軍澳エリアにある日本料理・鮨店。新鮮な寿司・刺身を中心に提供する地域密着型の日本食レストラン。",
     "tags": [
       "japanese",
       "sushi",
@@ -6172,7 +6015,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "gen-izakaya-kowloon-city",
@@ -6184,7 +6028,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Kowloon Cityにある九龍城の炉端焼き居酒屋。極上魚生丼や生姜豚肉丼が人気で、落ち着いた雰囲気でリーズナブルに楽しめる。",
+    "description": "九龍城Prince Edward Road Westにある炉端焼き居酒屋。魚生丼・生姜豚肉丼が人気で、リーズナブルに本格的な日本食を楽しめる。",
     "tags": [
       "izakaya",
       "robatayaki",
@@ -6203,19 +6047,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "genfuku-japanese-restaurant",
     "name": "Genfuku Japanese Restaurant",
     "name_ja": "ゲンフク 日本 レストラン",
-    "area": "Hong Kong",
-    "address": "Beacon Hill, Hong Kong",
+    "area": "Kowloon Tong",
+    "address": "Shop 11, Sub-lower G/F, Franki Centre, 320 Junction Road, Kowloon Tong",
     "lat": 22.3396,
     "lng": 114.1808,
     "phone": "+85223898700",
     "website": null,
-    "description": "香港にある日本食レストラン「Genfuku Japanese Restaurant」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "九龍塘Franki Centreにある日本食レストラン。ラーメン・うどんを中心にリーズナブルな日本食を提供する25席のこじんまりとした店。",
     "tags": [
       "日本食"
     ],
@@ -6231,7 +6076,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "genjin-kushiyaki-ap-lei-chau",
@@ -6243,7 +6089,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Ap Lei Chauにある焼き鳥専門店「Genjin Kushiyaki」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "香港南区Ap Lei Chauにある串焼き専門店。鶏・野菜・豚など各種串焼きを炭火で提供する日本スタイルの居酒屋。",
     "tags": [
       "串焼き",
       "焼き鳥"
@@ -6260,7 +6106,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "genkai-restaurant-tsuen-wan",
@@ -6272,7 +6119,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ツェンワン（荃灣）にある日本料理・鮨店「Genkai Restaurant」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "荃灣エリアにある日本料理店。寿司・刺身を中心とした和食メニューを提供するカジュアルな日本食レストラン。",
     "tags": [
       "寿司",
       "刺身"
@@ -6289,7 +6136,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "genki-ippai-japanese-farmhouse-style-restaurant",
@@ -6301,7 +6149,7 @@
     "lng": 114.1724,
     "phone": "+85223758100",
     "website": "https://www.facebook.com/izakaya.genkiippai",
-    "description": "チムサーチョイ（尖沙咀）にある日本食レストラン「Genki Ippai Japanese Farmhouse Style Restaurant」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "尖沙咀Mira Place One 4階の農家スタイル和風レストラン。焼き物・刺身・天ぷら・ランチセットを落ち着いた和の空間で提供。",
     "tags": [
       "日本食"
     ],
@@ -6317,7 +6165,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "genki-ippai-mira-tst",
@@ -6329,7 +6178,7 @@
     "lng": null,
     "phone": "+85223758100",
     "website": null,
-    "description": "尖沙咀ミラプレイス内の和風居酒屋。伝統的な日本の農家スタイルを再現した空間で、焼き物・刺身・天ぷらなど幅広い和食を提供。",
+    "description": "尖沙咀Mira Place内の和風居酒屋。伝統的な農家スタイルを再現した空間で、焼き物・刺身・天ぷらなど幅広い和食を手頃な価格で提供。",
     "tags": [
       "居酒屋",
       "和食",
@@ -6347,7 +6196,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "genki-ippai-tst-bar",
@@ -6357,7 +6207,7 @@
     "address": "Shop 406, 4/F, Mira Place One, 132 Nathan Road, Tsim Sha Tsui, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある尖沙咀の長年愛される焼き鳥居酒屋。手頃な価格で高品質な焼き鳥を安定的に提供。日本酒も充実。",
+    "description": "尖沙咀Mira Place内の焼き鳥居酒屋バー。手頃な価格の炭火焼き鳥と日本酒・ハイボールを長年にわたって提供する地元定番店。",
     "tags": [
       "焼き鳥",
       "居酒屋",
@@ -6373,7 +6223,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-hk-kwai-fong",
@@ -6383,7 +6234,7 @@
     "address": "Shops 43 & 44-48, G/F, Ho Chuck Centre, 2-10 Kwai Yi Road, Kwai Chung",
     "phone": null,
     "website": "https://order.genkisushi.com.hk/",
-    "description": "Kwai Fongにある日本料理・鮨店「Genki Sushi Kwai Fong」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "葵芳Ho Chuck Centreの回転寿司「元気寿司」。日本から導入した高速レーンで新鮮な寿司を素早く提供するファミリー向けチェーン。",
     "tags": [
       "回転寿司",
       "日本発チェーン"
@@ -6427,7 +6278,8 @@
         "category": "うどん"
       }
     ],
-    "price_range": "HKD 14〜35/皿（目安）"
+    "price_range": "HKD 14〜35/皿（目安）",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-hk-north-point",
@@ -6437,7 +6289,7 @@
     "address": "Shop 7-13, G/F, AIA Tower, 183 Electric Road, North Point",
     "phone": null,
     "website": "https://order.genkisushi.com.hk/",
-    "description": "ノースポイント（北角）にある日本料理・鮨店「Genki Sushi North Point」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "北角AIA Tower内の回転寿司「元気寿司」。高速レーンで新鮮な寿司を効率よく提供。リーズナブルに本格寿司を楽しめる日本発チェーン。",
     "tags": [
       "回転寿司",
       "日本発チェーン"
@@ -6481,7 +6333,8 @@
         "category": "うどん"
       }
     ],
-    "price_range": "HKD 14〜35/皿（目安）"
+    "price_range": "HKD 14〜35/皿（目安）",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-hk-sha-tin",
@@ -6491,7 +6344,7 @@
     "address": "Shop 502, Level 5, HomeSquare, 138 Shatin Rural Committee Road, Sha Tin",
     "phone": null,
     "website": "https://order.genkisushi.com.hk/",
-    "description": "シャーティン（沙田）にある日本料理・鮨店「Genki Sushi Sha Tin」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "沙田HomeSquare 5階の回転寿司「元気寿司」。日本直輸入の食材を使った寿司を高速レーンで提供。ショッピングついでに利用しやすい。",
     "tags": [
       "回転寿司",
       "日本発チェーン"
@@ -6535,7 +6388,8 @@
         "category": "うどん"
       }
     ],
-    "price_range": "HKD 14〜35/皿（目安）"
+    "price_range": "HKD 14〜35/皿（目安）",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-hk-tai-koo",
@@ -6545,7 +6399,7 @@
     "address": "Shop G4, G/F, Kornhill Plaza North, 1 Kornhill Road, Quarry Bay",
     "phone": null,
     "website": null,
-    "description": "Tai Kooにある日本料理・鮨店「Genki Sushi Tai Koo」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "鰂魚涌Kornhill Plaza Northの回転寿司「元気寿司」。新鮮な寿司を高速レーンで提供する日本発チェーン。ファミリー・子連れに人気。",
     "tags": [
       "回転寿司",
       "日本発チェーン",
@@ -6561,7 +6415,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-hk-tseung-kwan-o",
@@ -6571,7 +6426,7 @@
     "address": "Shop L2-029-031, 2/F, Metro Town, 8 King Ling Road, Tseung Kwan O",
     "phone": null,
     "website": "https://order.genkisushi.com.hk/",
-    "description": "ツェンクワンオー（将軍澳）にある日本料理・鮨店「Genki Sushi Tseung Kwan O」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "将軍澳Metro Town 2階の回転寿司「元気寿司」。高速レーンで新鮮な寿司を素早く提供。将軍澳のショッピングモール内で利便性が高い。",
     "tags": [
       "回転寿司",
       "日本発チェーン"
@@ -6615,7 +6470,8 @@
         "category": "うどん"
       }
     ],
-    "price_range": "HKD 14〜35/皿（目安）"
+    "price_range": "HKD 14〜35/皿（目安）",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-hk-yuen-long",
@@ -6625,7 +6481,7 @@
     "address": "Shops 316-320, Level 3, Yuen Long Plaza, 249-251 Castle Peak Road, Yuen Long",
     "phone": null,
     "website": "https://order.genkisushi.com.hk/",
-    "description": "ユンロン（元朗）にある日本料理・鮨店「Genki Sushi Yuen Long」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "元朗Yuen Long Plaza 3階の回転寿司「元気寿司」。新居民・地元客に愛される日本発チェーン。高速レーンで新鮮な寿司を提供。",
     "tags": [
       "回転寿司",
       "日本発チェーン"
@@ -6669,7 +6525,8 @@
         "category": "うどん"
       }
     ],
-    "price_range": "HKD 14〜35/皿（目安）"
+    "price_range": "HKD 14〜35/皿（目安）",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-tai-kok-tsui-olympian",
@@ -6681,7 +6538,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Tai Kok Tsuiにある日本料理・鮨店「Genki Sushi」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "大角咀Olympian City 2の回転寿司「元氣壽司」。高速レーンで新鮮な寿司を効率よく提供する日本発チェーン。ショッピングついでに立ち寄りやすい。",
     "tags": [
       "寿司",
       "回転寿司"
@@ -6727,7 +6584,8 @@
         "category": "うどん"
       }
     ],
-    "price_range": "HKD 14〜35/皿（目安）"
+    "price_range": "HKD 14〜35/皿（目安）",
+    "place_reviewed": true
   },
   {
     "slug": "genso-fudo-town-sha-tin",
@@ -6739,7 +6597,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "シャーティン（沙田）にある沙田競馬場内の日本式フードホール。ラーメンバー、丼エクスプレス、洋食亭など5つの日本食カウンターを備える。",
+    "description": "沙田競馬場グランドスタンドII 3〜4階にあるGENSOのフードホール「風土タウン」。ラーメン・丼・洋食など5カウンターを備える。競馬開催日のみ営業。",
     "tags": [
       "フードホール",
       "ラーメン",
@@ -6757,7 +6615,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "gin-japanese-wan-chai",
@@ -6767,7 +6626,7 @@
     "address": "Shop A, G/F, Yam Tze Commercial Building, 23 Thomson Road, Wan Chai, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "ワンチャイ（湾仔）にあるラーメン店「Gin Japanese Restaurant」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "湾仔Thomson Road 23番地のラーメン・日本料理店。リーズナブルなランチセットも充実。湾仔MTR B1出口から徒歩3分のアクセス良好な日本食店。",
     "tags": [
       "ラーメン",
       "日本料理"
@@ -6786,7 +6645,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "gin-sai-wan-chai",
@@ -6798,7 +6658,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ワンチャイ（湾仔）にある天ぷら専門店「Gin Sai」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "湾仔Cross Lane The Oakhillにある天ぷら・おでん専門の高級日本食店。ボストンロブスターの天ぷらや北海道産シーフードの蒸し料理が看板メニュー。",
     "tags": [
       "天ぷら",
       "刺身"
@@ -6815,7 +6675,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "gindaco-kowloon-city",
@@ -6827,7 +6688,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Kowloon Cityにある日本最大のたこ焼きチェーン「築地銀だこ」の香港店舗。外はカリッと中はとろりの本格たこ焼きを提供。",
+    "description": "九龍城Kowloon City Plaza内の「築地銀だこ」香港店。日本最大のたこ焼きチェーン。外はカリッと中はとろりの本格たこ焼きを提供。",
     "tags": [
       "日本発チェーン",
       "たこ焼き"
@@ -6844,7 +6705,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "gindaco-moko-mong-kok",
@@ -6856,7 +6718,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "モンコック（旺角）にある日本最大のたこ焼きチェーン「築地銀だこ」の香港店舗。外はカリッと中はとろりの本格たこ焼きを提供。",
+    "description": "旺角MOKO内の「築地銀だこ」香港店。外はカリッと中はとろりの本格たこ焼きを手軽に楽しめる日本発チェーン。",
     "tags": [
       "日本発チェーン",
       "たこ焼き"
@@ -6873,7 +6735,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "gindaco-tai-koo-cityplaza",
@@ -6885,7 +6748,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Tai Kooにある日本食レストラン「Tsukiji Gindaco (Cityplaza)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "太古Cityplaza 2階の「築地銀だこ」香港店。外はカリッと中はとろりの本格たこ焼きを提供する日本最大のたこ焼きチェーン。",
     "tags": [
       "日本発チェーン",
       "たこ焼き"
@@ -6902,68 +6765,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "ginger-mama-ngau-tau-kok",
-    "name": "Ginger Mama Cafe",
-    "name_ja": "薑媽",
-    "area": "Ngau Tau Kok",
-    "address": "Ngau Tau Kok, Kowloon",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "Ngau Tau Kokにある牛頭角にある日系カフェ。一汁三菜の定食スタイルで、豚カツ弁当や照り焼きチキン軟骨弁当など日本式のランチを提供。",
-    "tags": [
-      "cafe",
-      "teishoku",
-      "bento",
-      "japanese-style"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "ginger-sheung-wan",
-    "name": "Ginger",
-    "name_ja": "ジンジャー",
-    "area": "Sheung Wan",
-    "address": "On Wo Lane, Sheung Wan",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "サンポ（上環）にあるウイスキー愛好家Tony Leungが営むバー。世界中の珍しいウイスキーとシグネチャーカクテルを提供。",
-    "tags": [
-      "居酒屋",
-      "バー",
-      "ウイスキー"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ginza-bairin-ifc-central",
@@ -6975,7 +6778,7 @@
     "lng": null,
     "phone": null,
     "website": "https://ginzabairin.jp/en/",
-    "description": "セントラル（中環）にあるとんかつ専門店「Tonkatsu Ginza Bairin (IFC)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "中環IFCモール3階の「銀座梅林」香港店。1927年東京・銀座創業の老舗とんかつ専門店。黒豚クロブタの上質なとんかつを提供。",
     "tags": [
       "とんかつ",
       "銀座発",
@@ -6993,7 +6796,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ginza-bairin-k11-tst",
@@ -7005,7 +6809,7 @@
     "lng": null,
     "phone": null,
     "website": "https://ginzabairin.jp/en/",
-    "description": "チムサーチョイ（尖沙咀）にあるとんかつ専門店「Tonkatsu Ginza Bairin (K11)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "尖沙咀K11 Artmall内の「銀座梅林」香港店。1927年東京・銀座創業の老舗とんかつ専門店。風味豊かな黒豚（クロブタ）とんかつが看板メニュー。",
     "tags": [
       "とんかつ",
       "銀座発",
@@ -7023,7 +6827,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ginza-bairin-tai-koo",
@@ -7035,7 +6840,7 @@
     "lng": null,
     "phone": null,
     "website": "https://ginzabairin.jp/en/",
-    "description": "Tai Kooにある1927年東京・銀座創業のとんかつ老舗。黒豚（クロブタ）を使用したとんかつが看板。2009年香港進出。",
+    "description": "太古城の「銀座梅林」香港店。1927年東京・銀座創業、2009年香港進出の老舗とんかつ専門店。黒豚クロブタのとんかつが看板。",
     "tags": [
       "とんかつ",
       "黒豚"
@@ -7052,67 +6857,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "ginza-bairin-tai-koo-shing",
-    "name": "Tonkatsu Ginza Bairin (Taikoo Shing)",
-    "name_ja": "銀座梅林 太古城店",
-    "area": "Tai Koo",
-    "address": "Shop G1019, Kam Sing Mansion, 3 Tai Fung Avenue, Taikoo Shing, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://ginzabairin.jp/en/",
-    "description": "Tai Kooにあるとんかつ専門店「Tonkatsu Ginza Bairin (Taikoo Shing)」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "とんかつ",
-      "銀座発",
-      "黒豚"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "ginza-bairin-tst",
-    "name": "Tonkatsu Ginza Bairin (K11)",
-    "name_ja": "銀座梅林 尖沙咀店",
-    "area": "Tsim Sha Tsui",
-    "address": "Shop B124, K11, 18 Hanoi Road, Tsim Sha Tsui, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://ginzabairin.jp/en/",
-    "description": "チムサーチョイ（尖沙咀）にある東京・銀座発のとんかつ専門店。黒豚（クロブタ）とんかつが看板メニュー。脂が乗り風味豊かな黒豚を使用。",
-    "tags": [
-      "とんかつ",
-      "銀座発",
-      "黒豚"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ginza-enzou-lai-chi-kok",
@@ -7124,7 +6870,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ライチコック（荔枝角）にある荔枝角D2 Placeにある銀座発の和牛焼肉店。日本の高級和牛を厳選し、個室ブースで焼肉を楽しめるプレミアムな体験。",
+    "description": "荔枝角D2 Place ONE 3階の東京・銀座発和牛焼肉店。日本A4黒毛和牛の希少部位を個室ブースで炭火焼き。荔枝角MTRからすぐ。",
     "tags": [
       "yakiniku",
       "wagyu",
@@ -7144,7 +6890,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ginza-hokkaido-sashimi-tin-shui-wai",
@@ -7156,7 +6903,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "天水圍置富嘉湖の日本料理店。北海道直送の刺身・寿司を中心に、ラーメンや洋食メニューも提供。11:30-23:00まで営業。",
+    "description": "天水圍置富嘉湖Phase 2の日本料理店。北海道直送の刺身・寿司を中心に、ラーメンや洋食メニューも揃える。11:30〜23:00営業。",
     "tags": [
       "japanese",
       "sushi",
@@ -7177,7 +6924,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ginza-okura-tst",
