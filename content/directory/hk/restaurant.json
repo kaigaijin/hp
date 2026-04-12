@@ -2744,10 +2744,11 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ワンチャイ（湾仔）にあるラーメン店「Butao Ramen Wan Chai」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "ワンチャイのグレートイーグルセンター1階にある豚王の湾仔店。濃厚豚骨スープのラーメン専門店。",
     "tags": [
       "ラーメン",
-      "豚骨"
+      "豚骨",
+      "日本発チェーン"
     ],
     "hours": null,
     "last_verified": "2026-03-28",
@@ -2761,7 +2762,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ca-tu-ya-mong-kok",
@@ -2771,11 +2773,12 @@
     "address": "Shop A, G/F, Kai Wan Building, 142-146 Tung Choi Street, Mong Kok, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "モンコック（旺角）にあるとんかつ専門店「Ca-Tu-Ya Mong Kok」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "旺角通菜街のとんかつ・カレー専門チェーン「吉豚屋」旺角店。牛丼・カツ丼・カレーセットをリーズナブルに提供。",
     "tags": [
       "カレー",
       "とんかつ",
-      "丼"
+      "丼",
+      "チェーン"
     ],
     "hours": "毎日 11:30〜22:30",
     "status": "unverified",
@@ -2787,37 +2790,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "ca-tu-ya-mong-kok-nathan",
-    "name": "Ca-Tu-Ya Mong Kok",
-    "name_ja": "吉豚屋 旺角店",
-    "area": "Mong Kok",
-    "address": "Mong Kok Building, 546-548 Nathan Road, Mong Kok",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "モンコック（旺角）にあるとんかつ専門店「Ca-Tu-Ya Mong Kok」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "カレー",
-      "とんかつ",
-      "チェーン"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ca-tu-ya-north-point",
@@ -2827,11 +2801,12 @@
     "address": "G/F, Wah Hoi Mansion, 262 Electric Road, Fortress Hill, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "ノースポイント（北角）にある日本式カレーとんかつ専門チェーン。牛丼、親子丼、カツ丼をカレーソースと合わせて提供。香港に7店舗展開。",
+    "description": "北角Electric Roadにある「吉豚屋」北角店。とんかつ・カレー・丼物専門の日本食チェーン。香港に7店舗展開。",
     "tags": [
       "カレー",
       "とんかつ",
-      "丼"
+      "丼",
+      "チェーン"
     ],
     "hours": "毎日 11:30〜22:30",
     "status": "unverified",
@@ -2843,7 +2818,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ca-tu-ya-shek-mun",
@@ -2855,10 +2831,11 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "シャーティン（沙田）にあるとんかつ専門店「Ca-Tu-Ya Shek Mun」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "沙田石門にある「吉豚屋」石門店。とんかつ・カレー・丼物専門の日本食チェーン。",
     "tags": [
       "カレー",
       "とんかつ",
+      "丼",
       "チェーン"
     ],
     "hours": null,
@@ -2873,7 +2850,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ca-tu-ya-yau-ma-tei",
@@ -2883,11 +2861,12 @@
     "address": "Yau Ma Tei, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "ヤウマテイ（油麻地）にあるとんかつ専門店「Ca-Tu-Ya Yau Ma Tei」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "油麻地にある「吉豚屋」油麻地店。とんかつ・カレー・丼物専門の日本食チェーン。",
     "tags": [
       "カレー",
       "とんかつ",
-      "丼"
+      "丼",
+      "チェーン"
     ],
     "hours": "毎日 11:30〜22:30",
     "status": "unverified",
@@ -2899,21 +2878,23 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "caligari-curry-central",
-    "name": "Caligari",
-    "name_ja": "カリガリ",
+    "name": "Caligari Curry Central",
+    "name_ja": "カリガリカレー 中環店",
     "area": "Central",
-    "address": "2/F, Entertainment Building, 30 Queen's Road Central, Central",
+    "address": "Shop F, 2/F, Entertainment Building, 30 Queen's Road Central, Central",
     "lat": null,
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "セントラル（中環）にある日本食レストラン「Caligari」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "秋葉原発の受賞歴あるカレー専門店の香港1号店。中環エンターテインメントビル2階。スパイスが効いたルーカレーが評判。",
     "tags": [
-      "カレー"
+      "カレー",
+      "日本発チェーン"
     ],
     "hours": null,
     "last_verified": "2026-03-28",
@@ -2927,35 +2908,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "caligari-curry-central-2",
-    "name": "Caligari Curry Central",
-    "name_ja": "カリガリカレー 中環店",
-    "area": "Central",
-    "address": "Central, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "セントラル（中環）にある日本食レストラン「Caligari Curry Central」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "カレー"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "camellia-k11-musea",
@@ -2967,12 +2921,12 @@
     "lng": null,
     "phone": "+85228852320",
     "website": "https://www.k11musea.com/taste/camellia/",
-    "description": "チムサーチョイ（尖沙咀）にある日本食レストラン「Camellia」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "K11 Musea内の日本風フュージョンレストラン。イタリア×日本料理のコース料理やアフタヌーンティーが人気。",
     "tags": [
       "洋食",
+      "フュージョン",
       "日本風",
-      "K11 Musea",
-      "カフェ"
+      "K11 Musea"
     ],
     "hours": null,
     "last_verified": "2026-03-29",
@@ -2986,7 +2940,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "campers-quarry-bay",
@@ -2998,7 +2953,7 @@
     "lng": null,
     "phone": "+85226686613",
     "website": "http://www.campers.com.hk/",
-    "description": "東京出身の藤田健太シェフが手掛ける家庭的な日本料理店。キャンプをテーマにした内装で、添加物を抑えた健康的な和食を提供。カレー、ラーメン、丼物が中心。",
+    "description": "クォーリーベイの日本人シェフ・藤田健太が手掛ける家庭的な日本料理店。添加物を抑えたヘルシーな和食カレー・ラーメン・丼物が中心。",
     "tags": [
       "日本人シェフ",
       "家庭料理",
@@ -3017,7 +2972,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "captain-japanese-korean-tai-po",
@@ -3029,12 +2985,11 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "タイポー（大埔）にある大埔廣場1階の日韓料理レストラン。日本料理と韓国料理の両方を提供。1人約HK$101-200。家族連れに人気。",
+    "description": "大埔廣場1階の日韓料理レストラン。和食と韓国料理の両方を提供。家族連れに人気。",
     "tags": [
-      "japanese",
-      "korean",
-      "fusion",
-      "tai-po"
+      "日本食",
+      "韓国料理",
+      "フュージョン"
     ],
     "hours": null,
     "last_verified": "2026-03-29",
@@ -3048,7 +3003,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "cats-eye-wan-chai",
@@ -3060,10 +3016,10 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ワンチャイ（湾仔）にある日本食レストラン「Cats' Eye Japanese Curry」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "ワンチャイのSwatow Street沿いにある日本式カレー専門店。",
     "tags": [
-      "日本食",
-      "カレー"
+      "カレー",
+      "日本食"
     ],
     "hours": null,
     "last_verified": "2026-03-28",
@@ -3077,7 +3033,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "censu-gough-street",
@@ -3089,11 +3046,13 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "セントラル（中環）にある日本料理・おまかせ店「Censu」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "セントラルGough Streetの40席モダン日本料理店。佐藤俊シェフが手掛け、ミシュラン掲載。季節の食材を活かしたおまかせコースが中心。",
     "tags": [
       "おまかせ",
-      "刺身",
-      "創作和食"
+      "モダン日本料理",
+      "コース",
+      "日本人シェフ",
+      "ミシュラン"
     ],
     "hours": null,
     "last_verified": "2026-03-28",
@@ -3107,60 +3066,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "censu-sheung-wan",
-    "name": "CENSU",
-    "name_ja": "CENSU",
-    "area": "Sheung Wan",
-    "address": "28-30 Gough Street, Central, Hong Kong",
-    "phone": null,
-    "website": "https://www.censu.net",
-    "description": "サンポ（上環）にある佐藤俊シェフが手がけるモダン日本料理。季節の食材を活かしたコースメニューが中心。Enishiの姉妹店。",
-    "tags": [
-      "モダン日本料理",
-      "コース",
-      "日本人シェフ"
-    ],
-    "hours": "火〜土 18:00〜22:30",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "chaco-bar-hk",
-    "name": "Chaco Bar Hong Kong",
-    "name_ja": "チャコバー 香港",
-    "area": "Central",
-    "address": "Central, Hong Kong",
-    "phone": null,
-    "website": null,
-    "description": "セントラル（中環）にある日本式バー「Chaco Bar Hong Kong」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
-    "tags": [
-      "居酒屋",
-      "焼き鳥",
-      "バー",
-      "カジュアル"
-    ],
-    "hours": "18:00〜24:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "chateraise-causeway-bay",
@@ -3170,33 +3077,7 @@
     "address": "Shop B224A, B/F, Times Square, 1 Matheson Street, Causeway Bay, Hong Kong",
     "phone": null,
     "website": "https://www.chateraise.co.jp/",
-    "description": "コーズウェイベイ（銅鑼湾）にある日本食レストラン「La Creation & Châteraisé Causeway Bay」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "洋菓子",
-      "和菓子",
-      "日本発チェーン"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-28",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "chateraise-tst",
-    "name": "Châteraisé Tsim Sha Tsui",
-    "name_ja": "シャトレーゼ 尖沙咀店",
-    "area": "Tsim Sha Tsui",
-    "address": "Shop 6A, MTR/F, iSQUARE, 63 Nathan Road, Tsim Sha Tsui, Hong Kong",
-    "phone": null,
-    "website": "https://www.chateraise.co.jp/",
-    "description": "チムサーチョイ（尖沙咀）にある山梨県発の洋菓子チェーン。ケーキ・焼き菓子・アイスクリームをリーズナブルに提供。香港に30店舗以上展開。",
+    "description": "銅鑼湾タイムズスクエアB2にある山梨発の洋菓子チェーン「シャトレーゼ」銅鑼湾店。ケーキ・焼き菓子・アイスを提供。",
     "tags": [
       "洋菓子",
       "ケーキ",
@@ -3212,7 +3093,35 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
+  },
+  {
+    "slug": "chateraise-tst",
+    "name": "Châteraisé Tsim Sha Tsui",
+    "name_ja": "シャトレーゼ 尖沙咀店",
+    "area": "Tsim Sha Tsui",
+    "address": "Shop 6A, MTR/F, iSQUARE, 63 Nathan Road, Tsim Sha Tsui, Hong Kong",
+    "phone": null,
+    "website": "https://www.chateraise.co.jp/",
+    "description": "尖沙咀iSQUARE内の山梨発の洋菓子チェーン「シャトレーゼ」尖沙咀店。ケーキ・焼き菓子・アイスをリーズナブルに提供。香港に30店舗以上展開。",
+    "tags": [
+      "洋菓子",
+      "ケーキ",
+      "日本発チェーン"
+    ],
+    "hours": null,
+    "status": "unverified",
+    "last_verified": "2026-03-28",
+    "source": "website",
+    "ai_reviewed": true,
+    "phone_local": null,
+    "email": null,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "chef-kam-japanese-cuisine",
@@ -3224,7 +3133,7 @@
     "lng": 114.1746,
     "phone": "+85237099251",
     "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある日本食レストラン「Chef Kam - Japanese Cuisine」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "尖沙咀Observatory Court近くの日本料理店。ランチ・ディナーの定食からコースまで提供。夜は予約推奨。",
     "tags": [
       "日本食"
     ],
@@ -3240,7 +3149,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "chi-yawaragu-sheung-wan",
@@ -3252,7 +3162,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "サンポ（上環）にある24席のブティック串焼き専門店。地元の黄鶏を使ったbeak-to-tail（くちばしから尻尾まで）の焼き鳥を提供。",
+    "description": "上環Upper Lascar Row（キャットストリート）沿いの24席の串焼き専門店。香港産地鶏のbeak-to-tailスタイルの焼き鳥が名物。",
     "tags": [
       "居酒屋",
       "焼き鳥",
@@ -3270,7 +3180,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "chiba-tori-tin-shui-wai",
@@ -3282,13 +3193,12 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Tin Shui Waiにある天水圍の刺身中心の日本料理店。牛肉火鍋、黄金蟹味噌帆立、千葉鳥丼などが人気。居酒屋スタイルで多彩なメニューを提供。",
+    "description": "天水圍にある居酒屋スタイルの日本料理店。刺身・牛肉火鍋・千葉鳥丼など多彩なメニューを提供。",
     "tags": [
-      "japanese",
-      "sashimi",
-      "hot-pot",
-      "izakaya",
-      "tin-shui-wai"
+      "居酒屋",
+      "刺身",
+      "鍋",
+      "日本料理"
     ],
     "hours": null,
     "last_verified": "2026-03-29",
@@ -3302,7 +3212,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "chiharu-japanese-hung-hom",
@@ -3314,12 +3225,12 @@
     "lng": null,
     "phone": "+85231606898",
     "website": null,
-    "description": "紅磡の都會海逸酒店8階にある高級日本料理店。半ビュッフェスタイルの夕食や鉄板焼きなど、ホテルクオリティの和食を楽しめる。",
+    "description": "紅磡の都會海逸酒店8階にある高級日本料理店。半ビュッフェスタイルの夕食と鉄板焼きを提供。ホテルクオリティの和食。",
     "tags": [
-      "hotel-restaurant",
-      "teppanyaki",
-      "semi-buffet",
-      "premium"
+      "高級",
+      "鉄板焼き",
+      "ビュッフェ",
+      "ホテルレストラン"
     ],
     "hours": null,
     "last_verified": "2026-03-29",
@@ -3333,7 +3244,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "chiikawa-ramen-buta-langham",
@@ -3345,15 +3257,14 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "モンコック（旺角）にあるラーメン店「Chiikawa Ramen Buta」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "旺角Langham Place 12/Fにある「ちいかわ」コラボラーメン店の海外1号店。豚骨ラーメンを3サイズで提供。87席、予約必須（KKDAY）。",
     "tags": [
       "ラーメン",
       "豚骨",
-      "キャラクターテーマ",
-      "日本発チェーン",
-      "Langham Place"
+      "キャラクターコラボ",
+      "日本発"
     ],
-    "hours": null,
+    "hours": "毎日 11:00〜22:00",
     "last_verified": "2026-03-29",
     "status": "unverified",
     "source": "web_search",
@@ -3365,63 +3276,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "chiikawa-ramen-buta-mong-kok",
-    "name": "Chiikawa Ramen Buta",
-    "name_ja": "ちいかわラーメン豚",
-    "area": "Mong Kok",
-    "address": "Shop 13, 12/F, Langham Place, 8 Argyle Street, Mong Kok",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "モンコック（旺角）にある人気キャラクター「ちいかわ」とコラボしたラーメン店の海外1号店。豚骨ラーメンを3サイズで提供。87席。",
-    "tags": [
-      "ラーメン",
-      "豚骨",
-      "キャラクターコラボ"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "chiikawa-ramen-mong-kok",
-    "name": "Chiikawa Ramen Buta Mong Kok",
-    "name_ja": "ちいかわラーメン豚 旺角",
-    "area": "Mong Kok",
-    "address": "12/F, Langham Place, 8 Argyle Street, Mong Kok, Hong Kong",
-    "phone": null,
-    "website": null,
-    "description": "モンコック（旺角）にある日本の人気漫画「ちいかわ」とコラボしたラーメン店。本格的なラーメンとキャラクターグッズを楽しめる。家族連れに人気。",
-    "tags": [
-      "ラーメン",
-      "キャラクターコラボ",
-      "家族向け"
-    ],
-    "hours": "毎日 11:00〜22:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "sns",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "chotto-maki-central",
@@ -3433,7 +3289,7 @@
     "lng": null,
     "phone": "+85251116074",
     "website": "https://www.chottomaki.com/",
-    "description": "セントラル（中環）にある日本料理・鮨店「Chotto Maki Central」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "セントラル李園街のロールずし専門店「ちょっと巻」中環店。テイクアウト中心のカスタマイズ巻き寿司でランチに人気。",
     "tags": [
       "寿司",
       "テイクアウト",
@@ -3452,7 +3308,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "chotto-maki-wan-chai",
@@ -3464,7 +3321,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.chottomaki.com/",
-    "description": "ワンチャイ（湾仔）にある日本料理・鮨店「Chotto Maki Wan Chai」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "ワンチャイAmoy Streetの「ちょっと巻」湾仔店。カスタマイズ巻き寿司のテイクアウト専門店。",
     "tags": [
       "寿司",
       "テイクアウト",
@@ -3483,7 +3340,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "chutsuki-sushi-kwun-tong",
@@ -3495,7 +3353,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "クワントン（観塘）にある日本料理・鮨店「Chutsuki Sushi」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "観塘Century Centre内の寿司・鉄板焼き・おまかせを提供する日本料理店。",
     "tags": [
       "寿司",
       "鉄板焼き",
@@ -3513,7 +3371,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "coco-ichibanya-megabox-kowloon-bay",
@@ -3525,7 +3384,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.ichibanya.com.hk/",
-    "description": "カウルーンベイ（九龍灣）にあるCoCo壱番屋の九龍湾MegaBox店。東九龍最大のショッピングモール内にあるカレー専門店。",
+    "description": "九龍湾MegaBox内のCoCo壱番屋九龍湾店。ご飯・辛さ・トッピングをカスタマイズできる日本カレーチェーン。",
     "tags": [
       "カレー",
       "チェーン"
@@ -3542,7 +3401,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "coco-ichibanya-popwalk-tko",
@@ -3554,7 +3414,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.ichibanya.com.hk/",
-    "description": "ツェンクワンオー（将軍澳）にある日本のカレーハウスCoCo壱番屋の将軍澳PopWalk店。ご飯の量・辛さ・トッピングを自由にカスタマイズ可能。",
+    "description": "将軍澳PopWalk内のCoCo壱番屋将軍澳店。ご飯量・辛さ・トッピングを自由にカスタマイズできる日本カレーチェーン。",
     "tags": [
       "カレー",
       "チェーン"
@@ -3571,7 +3431,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "coco-ichibanya-tst-ramen",
@@ -3583,7 +3444,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある日本食レストラン「CoCo Ichibanya Tsim Sha Tsui」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "尖沙咀Silvercord 3階のCoCo壱番屋尖沙咀店。カスタマイズ可能な日本式カレーの人気チェーン。",
     "tags": [
       "カレー",
       "チェーン"
@@ -3600,7 +3461,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "cosmo-shabu-kwun-tong",
@@ -3612,11 +3474,11 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "クワントン（観塘）にある日本食レストラン「Cosmo Shabu Shabu」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "観塘のしゃぶしゃぶ専門店。和牛・国産食材を使ったしゃぶしゃぶを提供。",
     "tags": [
-      "shabu-shabu",
-      "wagyu",
-      "hot-pot"
+      "しゃぶしゃぶ",
+      "和牛",
+      "鍋"
     ],
     "hours": null,
     "last_verified": "2026-03-29",
@@ -3630,7 +3492,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "cosmo-shabushabu-megabox",
@@ -3642,13 +3505,11 @@
     "lng": null,
     "phone": "+85223590025",
     "website": null,
-    "description": "カウルーンベイ（九龍灣）にある日本料理・鮨店「Cosmo Shabushabu」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "九龍湾MegaBox 10階にあるしゃぶしゃぶ・寿司食べ放題レストラン。",
     "tags": [
       "しゃぶしゃぶ",
       "食べ放題",
-      "寿司",
-      "日本発チェーン",
-      "MegaBox"
+      "寿司"
     ],
     "hours": null,
     "last_verified": "2026-03-29",
@@ -3662,7 +3523,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "crown-super-deluxe-central",
@@ -3674,7 +3536,7 @@
     "lng": null,
     "phone": "+85221118434",
     "website": "https://www.crownsuperdeluxe.com/",
-    "description": "LKFタワー内の高級鉄板焼きレストラン。日本産和牛・豪州和牛・USDA Primeステーキを鉄板で提供。30席限定の親密な空間。",
+    "description": "LKFタワー内のBlack Sheep運営の高級鉄板焼きレストラン。和牛・豪州和牛・USDAプライムを使った30席限定の鉄板焼き。予約必須。",
     "tags": [
       "鉄板焼き",
       "和牛",
@@ -3692,7 +3554,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "dafeng-japanese-tai-wai",
@@ -3704,13 +3567,12 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "大圍駅A出口近くの日本料理店。ラーメン、寿司、刺身、居酒屋メニューを提供。1人約HK$101-200。地元で愛される人気店。",
+    "description": "大圍駅近くの日本料理店「大豐日本料理」。ラーメン・寿司・刺身・居酒屋メニューを幅広く提供。",
     "tags": [
-      "japanese",
-      "ramen",
-      "sushi",
-      "izakaya",
-      "tai-wai"
+      "居酒屋",
+      "ラーメン",
+      "寿司",
+      "刺身"
     ],
     "hours": null,
     "last_verified": "2026-03-29",
@@ -3724,7 +3586,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "daichi-no-udon-tai-kok-tsui",
@@ -3734,7 +3597,7 @@
     "address": "Olympian City 2, 18 Hoi Ting Road, Tai Kok Tsui, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "Tai Kok Tsuiにある北九州発のうどん専門店の初海外店。20年の歴史を持ち、独自の哲学で打つうどんが名物。2026年1月オープン。",
+    "description": "Olympian City 2内にある北九州発「大地のうどん」初の海外店。2026年1月オープン。20年の歴史を持つ独自哲学のうどんが名物。",
     "tags": [
       "うどん",
       "北九州発",
@@ -3750,19 +3613,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "daieiki-japanese-restaurant-mong-kok",
     "name": "Daieiki Japanese Restaurant (Mong Kok)",
-    "name_ja": "ダイエイキ 日本 レストラン (モング Kok)",
+    "name_ja": "大瀛喜日本料理（旺角）",
     "area": "Mong Kok",
     "address": "Hong Kong, 旺角彌敦道655號5/F",
     "lat": 22.3185,
     "lng": 114.1692,
     "phone": "+85236210901",
     "website": null,
-    "description": "モンコック（旺角）にある日本食レストラン「Daieiki Japanese Restaurant (Mong Kok)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "旺角彌敦道655號5階の日本料理店「大瀛喜」旺角店。ランチ・ディナーの定食や居酒屋メニューを提供。",
     "tags": [
       "日本食"
     ],
@@ -3778,7 +3642,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "daimanki-japanese-kwun-tong",
@@ -3790,12 +3655,12 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "クワントン（観塘）にある観塘の萬兆豐中心にある日本料理食べ放題レストラン。寿司や刺身などの日本料理をビュッフェスタイルで楽しめる。",
+    "description": "観塘の日本料理食べ放題レストラン。寿司・刺身などをビュッフェスタイルで楽しめる。",
     "tags": [
-      "all-you-can-eat",
-      "sushi",
-      "sashimi",
-      "buffet"
+      "食べ放題",
+      "寿司",
+      "刺身",
+      "ビュッフェ"
     ],
     "hours": null,
     "last_verified": "2026-03-29",
@@ -3809,7 +3674,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "daimaru-japanese-casual-restaurant",
@@ -3821,7 +3687,7 @@
     "lng": 114.1705,
     "phone": "+85231050006",
     "website": null,
-    "description": "モンコック（旺角）にある日本食レストラン「Daimaru Japanese Casual Restaurant」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "旺角通菜街のカジュアル日本料理レストラン。毎日12時〜23時まで営業。定食・居酒屋メニューを幅広く提供。",
     "tags": [
       "日本食"
     ],
@@ -3837,23 +3703,24 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "daisuke-yakiniku-kowloon-city",
     "name": "Daisuke Yakiniku",
     "name_ja": "大助燒肉專門店",
     "area": "Kowloon City",
-    "address": "Kowloon City",
+    "address": "G/F, 35-37 Hau Wong Road, Kowloon City, Hong Kong",
     "lat": null,
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Kowloon Cityにある日本食レストラン「Daisuke Yakiniku」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "九龍城侯王道にある焼き肉専門店「大助燒肉」。九龍城エリア初の日本式焼き肉店。和牛・アメリカンプライム牛を提供。",
     "tags": [
-      "yakiniku",
-      "wagyu",
-      "specialty"
+      "焼き肉",
+      "和牛",
+      "専門店"
     ],
     "hours": null,
     "last_verified": "2026-03-29",
@@ -3867,7 +3734,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "deluxe-daieiki-kwun-tong",
@@ -3879,13 +3747,13 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "クワントン（観塘）にある観塘にある大喜屋グループの日本料理食べ放題レストラン。プレミアムな食材を使った日本料理ビュッフェが人気。",
+    "description": "観塘の大喜屋グループ「極尚大瀛喜」観塘店。プレミアムな食材を使った日本料理食べ放題。",
     "tags": [
-      "all-you-can-eat",
-      "sushi",
-      "sashimi",
-      "buffet",
-      "premium"
+      "食べ放題",
+      "寿司",
+      "刺身",
+      "ビュッフェ",
+      "プレミアム"
     ],
     "hours": null,
     "last_verified": "2026-03-29",
@@ -3899,7 +3767,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "deluxe-daieiki-yoho-mall-yuen-long",
@@ -3911,11 +3780,12 @@
     "lng": null,
     "phone": "+85231883330",
     "website": null,
-    "description": "ユンロン（元朗）にある元朗YOHO MALLの日本料理食べ放題レストラン。寿司・刺身・天ぷら・焼き物など幅広いメニューを提供。",
+    "description": "元朗YOHO MALL 2階の日本料理食べ放題「大栄喜日本料理」。寿司・刺身・天ぷら・焼き物など幅広いメニューをビュッフェで提供。",
     "tags": [
       "食べ放題",
-      "日本料理",
-      "寿司"
+      "寿司",
+      "刺身",
+      "ビュッフェ"
     ],
     "hours": "12:00-23:00",
     "last_verified": "2026-03-28",
@@ -3929,7 +3799,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "deluxe-daikiya-japanese-restaurant",
@@ -3941,9 +3812,12 @@
     "lng": 114.1694,
     "phone": "+85231888818",
     "website": null,
-    "description": "モンコック（旺角）にある日本食レストラン「Deluxe Daikiya Japanese Restaurant」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "旺角雅蘭中心4階の大喜屋グループ「極尚大喜屋」旺角店。プレミアムな日本料理食べ放題レストラン。",
     "tags": [
-      "日本食"
+      "食べ放題",
+      "日本料理",
+      "ビュッフェ",
+      "プレミアム"
     ],
     "hours": null,
     "last_verified": "2026-03-28",
@@ -3957,7 +3831,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "deluxe-daikiya-japanese-restaurant-2",
@@ -3969,9 +3844,12 @@
     "lng": 114.1827,
     "phone": "+85231888838",
     "website": "http://www.daikiya.hk/",
-    "description": "コーズウェイベイ（銅鑼湾）にある日本食レストラン「Deluxe Daikiya Japanese Restaurant」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "銅鑼湾廣場一期9階の大喜屋グループ「極尚大喜屋」銅鑼湾店。プレミアムな日本料理食べ放題。",
     "tags": [
-      "日本食"
+      "食べ放題",
+      "日本料理",
+      "ビュッフェ",
+      "プレミアム"
     ],
     "hours": "Monday: 12:00 – 3:00 PM, 5:00 – 11:00 PM / Tuesday: 12:00 – 3:00 PM, 5:00 – 11:00 PM / Wednesday: 12:00 – 3:00 PM, 5:00 – 11:00 PM / Thursday: 12:00 – 3:00 PM, 5:00 – 11:00 PM / Friday: 12:00 – 3:00 PM, 5:00 – 11:00 PM / Saturday: 12:00 – 11:00 PM / Sunday: 12:00 – 11:00 PM",
     "last_verified": "2026-03-28",
@@ -3985,7 +3863,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "deluxe-daikiya-kwun-tong",
@@ -3997,12 +3876,12 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "観塘にある人気の日本料理食べ放題レストラン。寿司・刺身・焼き物など100種類以上のメニューが楽しめるビュッフェスタイル。",
+    "description": "観塘Crocodile Center 3階の大喜屋グループ「極尚大喜屋」観塘店。100種類以上のメニューを揃えた日本料理ビュッフェ。",
     "tags": [
-      "all-you-can-eat",
-      "sushi",
-      "sashimi",
-      "buffet"
+      "食べ放題",
+      "寿司",
+      "刺身",
+      "ビュッフェ"
     ],
     "hours": null,
     "last_verified": "2026-03-29",
@@ -4016,7 +3895,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "demae-dondon-central",
@@ -4028,12 +3908,11 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "セントラル（中環）にある中環の丼物専門店。海鮮丼、カツ丼、牛丼など日本の定番丼物をリーズナブルに提供。ランチタイムのビジネスマンに人気。",
+    "description": "セントラルの丼物専門店。海鮮丼・カツ丼・牛丼など日本の定番丼物をリーズナブルに提供。ランチに人気。",
     "tags": [
-      "japanese",
-      "donburi",
-      "seafood",
-      "central"
+      "丼",
+      "日本食",
+      "海鮮丼"
     ],
     "hours": null,
     "last_verified": "2026-03-29",
@@ -4047,7 +3926,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "demae-dondon-ma-on-shan",
@@ -4059,13 +3939,11 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "マオンシャン（馬鞍山）にある馬鞍山の丼物専門店。寿司、刺身、各種丼物を手頃な価格で提供。11:00-22:30まで営業し、遅めの夕食にも便利。",
+    "description": "馬鞍山のチバルリエガーデン内の丼物専門店。寿司・刺身・各種丼物を手頃な価格で提供。",
     "tags": [
-      "japanese",
-      "donburi",
-      "sushi",
-      "sashimi",
-      "ma-on-shan"
+      "丼",
+      "寿司",
+      "刺身"
     ],
     "hours": null,
     "last_verified": "2026-03-29",
@@ -4079,7 +3957,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "dohtonbori-hysan-causeway-bay",
@@ -4091,11 +3970,11 @@
     "lng": null,
     "phone": null,
     "website": "https://dohtonbori.com/",
-    "description": "コーズウェイベイ（銅鑼湾）にある日本食レストラン「Okonomiyaki Dohtonbori (Hysan Place)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "銅鑼湾Hysan Place内の道頓堀お好み焼きチェーン香港店。日本発の鉄板お好み焼き専門店。複数の食材から自分でカスタマイズ可能。",
     "tags": [
       "お好み焼き",
       "鉄板焼き",
-      "チェーン"
+      "日本発チェーン"
     ],
     "hours": null,
     "last_verified": "2026-03-28",
@@ -4109,7 +3988,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "dohtonbori-k11-tst",
@@ -4121,11 +4001,11 @@
     "lng": null,
     "phone": null,
     "website": "https://dohtonbori.com/",
-    "description": "チムサーチョイ（尖沙咀）にある日本食レストラン「Okonomiyaki Dohtonbori (K11 Art Mall)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "尖沙咀K11 Art Mall 2階の道頓堀お好み焼きチェーン香港店。日本発の鉄板お好み焼き専門店。",
     "tags": [
       "お好み焼き",
       "鉄板焼き",
-      "チェーン"
+      "日本発チェーン"
     ],
     "hours": null,
     "last_verified": "2026-03-28",
@@ -4139,7 +4019,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "dohtonbori-kornhill-tai-koo",
@@ -4151,11 +4032,11 @@
     "lng": null,
     "phone": null,
     "website": "https://dohtonbori.com/",
-    "description": "Tai Kooにある日本食レストラン「Okonomiyaki Dohtonbori (Kornhill Plaza)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "太古Kornhill Plaza 2階の道頓堀お好み焼きチェーン香港店。日本発の鉄板お好み焼き専門店。",
     "tags": [
       "お好み焼き",
       "鉄板焼き",
-      "チェーン"
+      "日本発チェーン"
     ],
     "hours": null,
     "last_verified": "2026-03-28",
@@ -4169,7 +4050,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "dohtonbori-langham-place-mong-kok",
@@ -4181,11 +4063,11 @@
     "lng": null,
     "phone": null,
     "website": "https://dohtonbori.com/",
-    "description": "モンコック（旺角）にある日本食レストラン「Okonomiyaki Dohtonbori (Langham Place)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "旺角Langham Place 11階の道頓堀お好み焼きチェーン香港店。日本発の鉄板お好み焼き専門店。",
     "tags": [
       "お好み焼き",
       "鉄板焼き",
-      "チェーン"
+      "日本発チェーン"
     ],
     "hours": null,
     "last_verified": "2026-03-28",
@@ -4199,7 +4081,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "dohtonbori-sha-tin-ntp",
