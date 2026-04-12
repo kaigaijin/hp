@@ -32969,7 +32969,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "モンコック（旺角）にある日本料理・鮨店「Tatesushi」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "モンコック（旺角）にある立ち食いスタイルの鮨専門店。日本式の立ち鮨を気軽に楽しめ、在香港日本人・旅行者にも人気。",
     "tags": [
       "sushi",
       "sashimi",
@@ -32987,7 +32987,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "teishoku-8-tsuen-wan",
@@ -32999,7 +33000,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ツェンワン（荃灣）にある日本食レストラン「Teishoku 8 (Panda Place)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "荃灣パンダプレイス内の日本食レストラン。うどん・丼・定食を揃え、セルフサービスのご飯・味噌汁が食べ放題で価格もリーズナブル。",
     "tags": [
       "日本食",
       "定食"
@@ -33016,7 +33017,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "teishoku-kotobuki-lai-chi-kok",
@@ -33028,7 +33030,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ライチコック（荔枝角）にある日本食レストラン「Teishoku Kotobuki」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "荔枝角の香港工業中心ビル内にある日本食定食レストラン。うどん・親子丼など本格的な日本の定食をカジュアルに提供。",
     "tags": [
       "日本食",
       "定食"
@@ -33045,7 +33047,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tempura-en-hong-kong",
@@ -33057,7 +33060,7 @@
     "lng": null,
     "phone": null,
     "website": "https://tempura-en.com.hk/",
-    "description": "香港にある日本食レストラン「Tempura-EN」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "ENグループが運営する天ぷら専門チェーン。沙田New Town PlazaなどHK内複数店舗で、職人が一品ずつ揚げた本格天ぷらを提供。",
     "tags": [
       "tempura",
       "specialty",
@@ -33076,7 +33079,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tempura-jiro-central",
@@ -33086,7 +33090,7 @@
     "address": "Shop E, G/F, World Trust Tower, 50 Stanley Street, Central, Hong Kong",
     "phone": "+85227808666",
     "website": "https://tempurajiro.com/",
-    "description": "セントラル（中環）にある福田次郎シェフが手がける天ぷら専門店。衣の薄さ・油温・揚げ時間を極めた本格天ぷらおまかせを提供。予約困難店。",
+    "description": "セントラル（中環）Stanley Street 50番地にある天ぷらおまかせ専門店。次郎シェフが25年の修行を経て開業。10席限定のカウンターで提供するコース（HK$880〜1,880）は予約困難店。",
     "tags": [
       "天ぷら",
       "おまかせ",
@@ -33102,7 +33106,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tempura-jiro-hanare-central",
@@ -33114,7 +33119,7 @@
     "lng": null,
     "phone": null,
     "website": "https://tempurajiro.com/",
-    "description": "セントラル（中環）にある中環にある天ぷら次郎の姉妹店。銀座の名店で修行したシェフが揚げる江戸前天ぷらを、よりカジュアルな雰囲気で楽しめる。",
+    "description": "セントラル（中環）Stanley Street 10-12番地にある天ぷら次郎の姉妹店「Hanare」。本店に比べカジュアルな雰囲気で江戸前天ぷらおまかせを提供。電話: 26081066。",
     "tags": [
       "tempura",
       "omakase",
@@ -33133,36 +33138,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "tempura-jiro-stanley-street",
-    "name": "Tempura Jiro",
-    "name_ja": "天ぷら次郎",
-    "area": "Central",
-    "address": "Shop E, G/F, World Trust Tower, 50 Stanley Street, Central",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "天ぷら職人・福田次郎氏が率いる天ぷら専門店。軽い衣と絶妙な油温・揚げ時間のコントロールで知られる。おまかせコースを提供。",
-    "tags": [
-      "天ぷら",
-      "おまかせ"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tempura-makino-kwai-fong",
@@ -33172,7 +33149,7 @@
     "address": "Kwai Fong, Hong Kong",
     "phone": null,
     "website": "https://tempuramakino.com.hk/",
-    "description": "Kwai Fongにある天ぷら専門店「Tempura Makino Kwai Fong」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "日本発の天ぷら専門チェーン「天ぷらまきの」の香港店。葵芳Metroplazaと旺角MOKOに店舗があり、毎日11〜22時営業。",
     "tags": [
       "天ぷら",
       "日本発チェーン"
@@ -33187,35 +33164,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "tempura-makino-metroplaza",
-    "name": "Tempura Makino",
-    "name_ja": "天ぷらまきの",
-    "area": "Kwai Fong",
-    "address": "Shop 107-108, Level 1, Metroplaza, 223 Hing Fong Road, Kwai Fong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://tempuramakino.com.hk/",
-    "description": "Kwai Fongにある天ぷら専門店「Tempura Makino」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "天ぷら"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tempura-makino-moko",
@@ -33227,7 +33177,7 @@
     "lng": null,
     "phone": null,
     "website": "https://tempuramakino.com.hk/",
-    "description": "モンコック（旺角）にある天ぷら専門店「Tempura Makino」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "旺角（モンコック）MOKO内にある天ぷら専門チェーン「天ぷらまきの」の旺角店。毎日11〜22時営業で本格天ぷらをリーズナブルに提供。",
     "tags": [
       "天ぷら"
     ],
@@ -33243,32 +33193,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "tempura-makino-mong-kok",
-    "name": "Tempura Makino",
-    "name_ja": "天ぷら まきの",
-    "area": "Mong Kok",
-    "address": "Shop 352, 3/F, MOKO, 193 Prince Edward Road West, Mong Kok, Hong Kong",
-    "phone": null,
-    "website": "https://tempuramakino.com.hk/",
-    "description": "モンコック（旺角）にある天ぷら専門店「Tempura Makino」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "天ぷら",
-      "日本発チェーン"
-    ],
-    "hours": "毎日 11:00〜22:00",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tempura-makino-sha-tin",
@@ -33280,7 +33206,7 @@
     "lng": null,
     "phone": null,
     "website": "https://tempuramakino.com.hk/",
-    "description": "シャーティン（沙田）にある天ぷら専門店「Tempura Makino」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "沙田New Town Plaza 1期内にある天ぷら専門チェーン「天ぷらまきの」の沙田店。リーズナブルな価格で本格天ぷらを提供。",
     "tags": [
       "天ぷら"
     ],
@@ -33296,7 +33222,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tempura-nagaoka-causeway-bay",
@@ -33306,7 +33233,7 @@
     "address": "Shop 226-229, 2/F, Lee Garden Three, 1 Sunning Road, Causeway Bay, Hong Kong",
     "phone": "+85221513700",
     "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある福岡発の天ぷら専門店が香港初出店。Lee Gardens内のカウンター席で職人が目の前で揚げる本格天ぷらを提供。",
+    "description": "銅鑼湾（コーズウェイベイ）Lee Garden Three内にある福岡発の天ぷら専門店の香港初出店。日本から毎日空輸の食材、ウニプリン・A4和牛天ぷらが名物。",
     "tags": [
       "天ぷら",
       "福岡発",
@@ -33322,67 +33249,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "tempura-nagaoka-lee-garden",
-    "name": "Tempura Nagaoka",
-    "name_ja": "天ぷら長岡",
-    "area": "Causeway Bay",
-    "address": "Shop 226-229, 2/F, Lee Garden Three, 1 Sunning Road, Causeway Bay",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある福岡の有名天ぷら専門店の香港初出店。オープンカウンターで日本直送の高級食材を一品ずつ揚げたてで提供。",
-    "tags": [
-      "天ぷら",
-      "おまかせ"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "tempura-nagaoka-lee-garden-three",
-    "name": "Tempura Nagaoka",
-    "name_ja": "天ぷら 長尾",
-    "area": "Causeway Bay",
-    "address": "Shop 226-229, 2/F, Lee Garden Three, 1 Sunning Road, Causeway Bay, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある福岡の名物天ぷら専門店の初香港店。日本から毎日空輸の食材。ウニプリン・A4和牛天ぷらが名物。",
-    "tags": [
-      "天ぷら",
-      "福岡発",
-      "Lee Gardens",
-      "海外初出店"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tempura-taki-central",
@@ -33394,7 +33262,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.tempurataki.com.hk/",
-    "description": "セントラル（中環）にある天ぷらおまかせ専門店。オープンキッチンの天ぷらバーでシェフの技を間近で見られる。現代的な雰囲気。",
+    "description": "セントラル（中環）The Loop 8階にある天ぷらおまかせ専門店。オープンキッチンの13席カウンターでシェフの技を目の前に。昼コース$278〜、夜は$980〜。",
     "tags": [
       "天ぷら",
       "おまかせ"
@@ -33411,37 +33279,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "tempura-taki-central-2",
-    "name": "Tempura Taki Central",
-    "name_ja": "天ぷら 瀧 中環店",
-    "area": "Central",
-    "address": "Central, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "セントラル（中環）にある天ぷら専門店「Tempura Taki Central」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "天ぷら",
-      "おまかせ",
-      "カウンター"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tempura-uchitsu-central",
@@ -33453,7 +33292,7 @@
     "lng": null,
     "phone": "+85223076281",
     "website": null,
-    "description": "東京のミシュラン二つ星天ぷら店「うち津」の香港店。フォーシーズンズホテル内の12席限定で、江戸前天ぷらのおまかせを提供。",
+    "description": "東京のミシュラン二つ星「うち津」の香港店。フォーシーズンズホテル45階の12席限定で、江戸前天ぷらおまかせを提供。電話: +85223076281。",
     "tags": [
       "天ぷら",
       "ミシュラン",
@@ -33472,7 +33311,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tendon-tenya-kwai-fong",
@@ -33484,7 +33324,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Kwai Fongにある葵芳Metroplazaの天丼専門チェーン。リーズナブルな価格でサクサクの天丼を提供。うどんセットも人気。",
+    "description": "葵芳Metroplazaにある日本発「天丼てんや」の香港店。サクサクの天丼をリーズナブルに提供し、うどんセットも人気。",
     "tags": [
       "japanese",
       "tendon",
@@ -33503,7 +33343,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tendon-tenya-tko",
@@ -33515,7 +33356,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ツェンクワンオー（将軍澳）にある天ぷら専門店「Tendon Tenya Tseung Kwan O」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "将軍澳East Point City内にある「天丼てんや」の将軍澳店。日本発の天丼チェーンで、サクサク天ぷらをリーズナブルに提供。",
     "tags": [
       "天丼",
       "天ぷら",
@@ -33533,7 +33374,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tendon-tenya-tsing-yi",
@@ -33545,7 +33387,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Tsing Yiにある天ぷら専門店「Tendon Tenya Tsing Yi」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "青衣Maritime Square内にある「天丼てんや」の青衣店。日本発の天丼専門チェーンで、サクサクの天丼を手頃な価格で提供。",
     "tags": [
       "天丼",
       "天ぷら",
@@ -33563,7 +33405,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tendon-tenya-yoho-mall",
@@ -33575,7 +33418,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ユンロン（元朗）にある天ぷら専門店「Tendon Tenya Yuen Long」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "元朗YOHO Mall内にある「天丼てんや」の元朗店。日本発の天丼専門チェーンで、サクサクの天ぷら定食をリーズナブルに提供。",
     "tags": [
       "天丼",
       "天ぷら",
@@ -33594,7 +33437,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tengachaya-ma-on-shan",
@@ -33606,7 +33450,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "マオンシャン（馬鞍山）にあるうどん専門店「Tengachaya Ma On Shan」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "馬鞍山Double Cove Place内にあるカレーうどん専門チェーン「天下茶屋」の馬鞍山店。日本のカレーとうどんをリーズナブルに提供。",
     "tags": [
       "カレー",
       "うどん"
@@ -33623,39 +33467,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "tengachaya-ma-on-shan-2",
-    "name": "Tengachaya",
-    "name_ja": "天下茶屋",
-    "area": "Ma On Shan",
-    "address": "Ma On Shan, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "マオンシャン（馬鞍山）にある馬鞍山の日本料理チェーン店舗。カレー、ラーメン、定食など幅広いメニューを提供するカジュアルな日本食レストラン。",
-    "tags": [
-      "japanese",
-      "curry",
-      "ramen",
-      "set-meal",
-      "ma-on-shan"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tengachaya-sha-tin",
@@ -33667,7 +33480,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "シャーティン（沙田）にあるうどん専門店「Tengachaya Sha Tin」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "沙田Fortune City One内にある「天下茶屋」の沙田店。日本のカレーとうどんをカジュアルに楽しめる人気チェーン。",
     "tags": [
       "カレー",
       "うどん"
@@ -33684,7 +33497,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tengachaya-sham-shui-po",
@@ -33696,7 +33510,7 @@
     "lng": null,
     "phone": "+85226900380",
     "website": null,
-    "description": "サムサイポ（深水埗）にあるうどん専門店「Tengachaya」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "深水埗福榮街にある「天下茶屋」の深水埗店。日本式カレーライスとうどんを提供するチェーンで、US$7前後からとリーズナブル。",
     "tags": [
       "カレー",
       "うどん"
@@ -33713,7 +33527,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tenku-sushi-sai-kung",
@@ -33725,7 +33540,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "サイクン（西貢）にあるラーメン店「Tenku Sushi」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "西貢（サイクン）Sha Tsui Pathにある日本料理・居酒屋。ラーメン・寿司などを提供するカジュアルな日本食店。サイクンの観光客にも利用される。",
     "tags": [
       "寿司",
       "ラーメン"
@@ -33742,7 +33557,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tensho-japanese-restaurant",
@@ -33754,7 +33570,7 @@
     "lng": 114.1846,
     "phone": "+85228073500",
     "website": "https://www.instagram.com/tensho_hongkong_causewaybay_hk/",
-    "description": "コーズウェイベイ（銅鑼湾）にある日本食レストラン「Tensho Japanese Restaurant」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "銅鑼湾にある日本食レストラン「Tensho」。ランチ・ディナーとも営業し、刺身・寿司など幅広い日本料理を提供。InstagramでHK情報を発信中。",
     "tags": [
       "日本食"
     ],
@@ -33770,7 +33586,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tenshu-tempura-sheung-wan",
@@ -33782,7 +33599,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "サンポ（上環）にある天ぷら専門店「Tenshu Tempura & Sashimi Restaurant」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "上環Kau U Fong路地裏の天ぷら・刺身おまかせ専門店。天ぷら16品のランチコース（HK$400〜800）が好評で、こだわりの食材を一品ずつ揚げたて提供。",
     "tags": [
       "天ぷら",
       "刺身",
@@ -33800,7 +33617,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tentori-izakaya-tin-shui-wai",
@@ -33812,7 +33630,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "天水圍T Town Northの居酒屋。牛肉火鍋、串焼き、寿司盛り合わせなどを提供。放題コースも人気で、1人約HK$201-400。",
+    "description": "天水圍T Town Northの居酒屋。寿司・串焼き・牛肉火鍋などを提供し、食べ放題コースも人気。評価4.5（370件以上）。",
     "tags": [
       "japanese",
       "izakaya",
@@ -33833,7 +33651,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tenzen-japanese-restaurant",
@@ -33845,7 +33664,7 @@
     "lng": 114.1857,
     "phone": "+85228822107",
     "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある日本食レストラン「Tenzen Japanese Restaurant」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "銅鑼湾Jardine's Bazaar近くにある日本食レストラン「Tenzen」。ランチ・ディナーとも営業し、幅広い日本料理を提供。",
     "tags": [
       "日本食"
     ],
@@ -33861,7 +33680,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "teppanroom-grand-hyatt",
@@ -33871,7 +33691,7 @@
     "address": "Mezzanine Floor, Grand Hyatt Hong Kong, 1 Harbour Road, Wan Chai, Hong Kong",
     "phone": null,
     "website": "https://www.hongkong.grand.hyattrestaurants.com/restaurants-and-bars/teppanroom/",
-    "description": "ワンチャイ（湾仔）にあるグランドハイアット香港内の鉄板焼きレストラン。和牛やシーフードを目の前の鉄板で調理。ハーバービューの個室も。",
+    "description": "湾仔（ワンチャイ）グランドハイアット香港メザニン階の鉄板焼きレストラン。和牛・シーフードを目の前の鉄板で調理。ハーバービューの個室あり。",
     "tags": [
       "鉄板焼き",
       "ホテル内",
@@ -33887,37 +33707,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "teppanroom-grand-hyatt-wan-chai",
-    "name": "The Teppanroom",
-    "name_ja": "ザ テッパンロオム",
-    "area": "Wan Chai",
-    "address": "Mezzanine Floor, Grand Hyatt Hong Kong, 1 Harbour Road, Wan Chai",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.hongkong.grand.hyattrestaurants.com/restaurants-and-bars/teppanroom/",
-    "description": "ワンチャイ（湾仔）にある日本食レストラン「The Teppanroom」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "鉄板焼き",
-      "高級和食",
-      "ホテルレストラン"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "teppanyaki-kaneko-sheung-wan",
@@ -33927,7 +33718,7 @@
     "address": "Shop 202-203, 2/F, Low Block, Grand Millennium Plaza, 181 Queen's Road Central, Sheung Wan, Hong Kong",
     "phone": "+85266565569",
     "website": "https://www.kanekocatering.com/",
-    "description": "上環のGrand Millennium Plaza内にある親密な鉄板焼きレストラン。本格的な日本料理を鉄板の前で楽しめる。",
+    "description": "上環Grand Millennium Plaza内の鉄板焼きレストラン「Teppanyaki Kaneko」。本格日本料理を鉄板の前で楽しめる親密な空間。",
     "tags": [
       "鉄板焼き",
       "日本料理"
@@ -33942,35 +33733,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "teppanyaki-kaneko-syp",
-    "name": "Teppanyaki Kaneko",
-    "name_ja": "鉄板焼金子",
-    "area": "Sai Ying Pun",
-    "address": "Sai Ying Pun, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "サイインプン（西營盤）にある日本食レストラン「Teppanyaki Kaneko」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "鉄板焼き"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "teppanyaki-mihara-goten-cb",
@@ -33980,7 +33744,7 @@
     "address": "3/F, Cubus, 1 Hoi Ping Road, Causeway Bay, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある三原輝文シェフによる割烹鉄板焼き。A4宮崎和牛やオーストラリア産ロブスターなどを鉄板で調理。HKD1,780〜。",
+    "description": "銅鑼湾Cubusにある三原輝文シェフによるミシュラン認定の割烹鉄板焼き。14席のみの親密な空間でA4宮崎和牛などを鉄板で調理。HKD1,780〜。",
     "tags": [
       "鉄板焼き",
       "割烹",
@@ -33997,65 +33761,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "teppanyaki-mihara-goten-central",
-    "name": "Teppanyaki Mihara Goten",
-    "name_ja": "鉄板焼 三原御殿",
-    "area": "Central",
-    "address": "G/F, Yu Yuet Lai Building, 43-55 Wyndham Street, Central, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": "+85226630068",
-    "website": null,
-    "description": "セントラル（中環）にある日本食レストラン「Teppanyaki Mihara Goten」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "鉄板焼き",
-      "割烹"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "teppanyaki-mihara-goten-cubus",
-    "name": "Teppanyaki Mihara Goten",
-    "name_ja": "鉄板焼三原御殿",
-    "area": "Causeway Bay",
-    "address": "3/F, Cubus, 1 Hoi Ping Road, Causeway Bay",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある日本食レストラン「Teppanyaki Mihara Goten」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "鉄板焼き",
-      "割烹"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "teppanyaki-sessyu-causeway-bay",
@@ -34067,7 +33774,7 @@
     "lng": null,
     "phone": "+85225760880",
     "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある日本食レストラン「Teppanyaki Sessyu」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "銅鑼湾CubusビルにあるHK初の鉄板焼き懐石レストラン。日本人ヘッドシェフによる季節食材の鉄板料理、HK$980〜1,400のコース。",
     "tags": [
       "鉄板焼き"
     ],
@@ -34083,7 +33790,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "teppanyaki-tempura-shun-central",
@@ -34095,7 +33803,7 @@
     "lng": null,
     "phone": "+85223076281",
     "website": "https://www.fourseasons.com/hongkong/dining/restaurants/teppanyaki-tempura-shun/",
-    "description": "フォーシーズンズ香港45階の鉄板焼き・天ぷらレストラン。神子シェフ（鉄板焼き）と本郷シェフ（天ぷら）が率いる。2024年12月オープン。",
+    "description": "フォーシーズンズ香港45階に2024年12月オープンした日本料理店。神子シェフの鉄板焼きと本郷シェフの江戸前天ぷらのおまかせ、HKD2,680。",
     "tags": [
       "鉄板焼き",
       "天ぷら",
@@ -34114,7 +33822,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "the-araki-tst",
@@ -34126,7 +33835,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "チムサーチョイ（尖沙咀）にあるロンドンでミシュラン三つ星を獲得した荒木水都弘氏の鮨店の香港店。おまかせスタイルの江戸前鮨を提供。",
+    "description": "尖沙咀1881 Heritageにあるロンドン三つ星鮨師・荒木水都弘氏の香港店。江戸前鮨のおまかせを少人数のカウンター席で提供。",
     "tags": [
       "寿司",
       "おまかせ",
@@ -34145,69 +33854,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "the-aubrey-central",
-    "name": "The Aubrey",
-    "name_ja": "ジ・オーブリー",
-    "area": "Central",
-    "address": "25/F, Mandarin Oriental, 5 Connaught Road Central, Hong Kong",
-    "phone": "+85228254001",
-    "website": "https://theaubreycollection.com/hong-kong",
-    "description": "マンダリンオリエンタル25階の日本料理バー。Asia's 50 Best Bars選出。刺身、寿司、炉端焼きと日本酒カクテルを提供。",
-    "tags": [
-      "バー",
-      "日本料理",
-      "炉端焼き",
-      "眺望"
-    ],
-    "hours": "毎日 12:00〜翌2:00",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "the-aubrey-central-sushi",
-    "name": "The Aubrey",
-    "name_ja": "ザ Aubrey",
-    "area": "Central",
-    "address": "25/F, Mandarin Oriental, 5 Connaught Road Central, Central",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://theaubreycollection.com/hong-kong",
-    "description": "マンダリンオリエンタル25階にある日本料理バー。Asia's 50 Best Bars選出。刺身・寿司・炉端焼きを提供。",
-    "tags": [
-      "居酒屋",
-      "寿司",
-      "刺身",
-      "炉端焼き",
-      "高級和食",
-      "ホテルレストラン"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
     "photo_name": null,
-    "detail": "MTR中環駅から徒歩3分、マンダリンオリエンタル25階に位置する日本居酒屋＆カクテルバー兼寿司バー。Asia's 50 Best Bars 2024で10位。120点以上の日本美術品が飾られた洗練された空間。握り寿司、刺身、ロバタグリル料理を提供。",
-    "price_range": "HKD 800〜2,000/人（ディナー目安）"
+    "place_reviewed": true
   },
   {
     "slug": "the-aubrey-hk",
@@ -34217,7 +33865,7 @@
     "address": "Mandarin Oriental, 25/F, 5 Connaught Road, Central, Hong Kong",
     "phone": "+85225220898",
     "website": "https://www.mandarinoriental.com/en/hong-kong/victoria-harbour/dine/the-aubrey",
-    "description": "マンダリンオリエンタル25階の居酒屋＆カクテルバー。Asia's 50 Best Bars 2024で10位にランクイン。日本のカクテルと居酒屋料理を洗練された空間で。",
+    "description": "マンダリンオリエンタル香港25階の日本料理バー。Asia's 50 Best Bars 2024で10位選出。握り寿司・刺身・ロバタグリルと日本産カクテルを提供。",
     "tags": [
       "居酒屋",
       "カクテルバー",
@@ -34263,7 +33911,8 @@
         "category": "料理"
       }
     ],
-    "price_range": "HKD 800〜2,000/人（ディナー目安）"
+    "price_range": "HKD 800〜2,000/人（ディナー目安）",
+    "place_reviewed": true
   },
   {
     "slug": "the-mon-causeway-bay",
@@ -34275,7 +33924,7 @@
     "lng": null,
     "phone": "+85225043313",
     "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある英語メニューのないローカルな炉端焼き店。リーズナブルな価格で本格的な炉端焼きを楽しめる。",
+    "description": "銅鑼湾Goldmark内にある炉端焼き居酒屋。英語メニューのないローカルな雰囲気でリーズナブルに本格炉端焼きを楽しめる。",
     "tags": [
       "居酒屋",
       "炉端焼き",
@@ -34293,7 +33942,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "the-yuu-wan-chai",
@@ -34305,7 +33955,7 @@
     "lng": null,
     "phone": "+85228612023",
     "website": null,
-    "description": "ワンチャイ（湾仔）にある合和センター内の日本料理レストラン。幅広い日本食メニューを提供し、アンガスビーフのグリルや野菜・海鮮天ぷらが名物。",
+    "description": "湾仔合和センター内の日本料理レストラン。アンガスビーフグリルや野菜・海鮮の天ぷらが名物で、幅広い日本食メニューを提供。",
     "tags": [
       "日本料理",
       "天ぷら",
@@ -34323,36 +33973,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "tiger-curry-central",
-    "name": "Tiger Curry",
-    "name_ja": "タイガーカレー",
-    "area": "Central",
-    "address": "Central, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "セントラル（中環）にある日本食レストラン「Tiger Curry」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "カレー",
-      "日本式"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tiger-san-tsing-yi",
@@ -34364,7 +33986,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Tsing Yiにあるうどん専門店「Tiger San」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "青衣Maritime Square IIにある日本料理店。うどん・天丼・豚骨スープうどんなどユニークなメニューが特徴の香港日系カレー・うどん店。",
     "tags": [
       "カレー",
       "うどん"
@@ -34381,38 +34003,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "tiger-san-tsing-yi-2",
-    "name": "Tiger-San",
-    "name_ja": "虎三",
-    "area": "Tsing Yi",
-    "address": "Maritime Square, Tsing Yi, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "Tsing Yiにある青衣Maritime Squareの日本料理店。天丼やうどんを豚骨スープで提供するなどユニークなメニューが特徴。",
-    "tags": [
-      "japanese",
-      "tendon",
-      "udon",
-      "tsing-yi"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tirpse-k11-musea",
@@ -34424,7 +34016,7 @@
     "lng": null,
     "phone": "+85223330031",
     "website": "https://tirpse.com.hk/",
-    "description": "東京のミシュラン一つ星レストランTirpseの香港店。清水雄太シェフによるフレンチ・ジャパニーズ融合料理をK11 Musea内で提供。",
+    "description": "東京ミシュラン一つ星の「Tirpse」香港店。清水雄太シェフによるフレンチ×ジャパニーズ融合料理をK11 Musea内で提供。",
     "tags": [
       "フレンチジャパニーズ",
       "ミシュラン",
@@ -34443,7 +34035,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "to-autumn-gold-coast-tuen-mun",
@@ -34608,7 +34201,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "セントラル（中環）にある日本料理・鮨店「Tokio Joe」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "セントラルLan Kwai Fong（蘭桂坊）の日本料理・鮨レストラン「Tokio Joe」。寿司・刺身・おまかせを提供する在香港日本人にも定評の店。",
     "tags": [
       "寿司",
       "おまかせ",
@@ -34626,7 +34219,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tokuzen-sushi-sheung-wan",
@@ -34667,7 +34261,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Wong Tai Sinにある黄大仙中心南館にある東京浅草発の唐揚げチェーン。秘伝のタレで漬け込んだ唐揚げ定食・丼が人気。",
+    "description": "黄大仙中心南館にある東京浅草発の唐揚げチェーン。秘伝タレで漬け込んだ唐揚げ定食・丼が看板メニュー。",
     "tags": [
       "karaage",
       "fried-chicken",
@@ -34686,7 +34280,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tokyo-chikarameshi-san-po-kong",
@@ -34698,7 +34293,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "San Po Kongにある新蒲崗Mikikiにある「焼牛丼の元祖」東京チカラめし。看板の焼き牛丼はHK$45で牛肉がご飯にたっぷり盛られている。",
+    "description": "新蒲崗Mikiki内にある「焼牛丼の元祖」東京チカラめしの香港店。HK$45からの焼き牛丼が名物のリーズナブルな日本発チェーン。",
     "tags": [
       "gyudon",
       "yakiniku-don",
@@ -34717,7 +34312,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tokyo-no-aji-cheung-sha-wan",
@@ -34873,7 +34469,7 @@
     "lng": null,
     "phone": null,
     "website": "https://tokyolima.hk/",
-    "description": "香港初の日秘（日本×ペルー）融合レストラン。ニッケイ料理を居酒屋スタイルの雰囲気で提供。PIRATA Groupが運営。",
+    "description": "セントラルLyndhurst Terraceにある香港初のニッケイ（日本×ペルー）料理レストラン。ティラディートや日本式セビーチェなどを居酒屋スタイルで提供。",
     "tags": [
       "フュージョン",
       "日秘料理",
@@ -34891,7 +34487,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tominokoji-yamagishi-k11-musea",
@@ -34903,7 +34500,7 @@
     "lng": null,
     "phone": "+85226861866",
     "website": "https://www.k11musea.com/taste/tominokoji-yamagishi/",
-    "description": "京都の懐石料理店「富小路やま岸」の香港店。山岸隆博シェフが2015年に京都で開業しミシュラン一つ星を獲得。K11 Musea内で本格懐石コースを提供。",
+    "description": "京都のミシュラン一つ星「富小路やま岸」の香港店。山岸隆博シェフによる本格懐石コースをK11 Musea内で提供。",
     "tags": [
       "懐石",
       "ミシュラン",
@@ -34922,7 +34519,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tomokazu-wan-chai",
@@ -34934,7 +34532,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ワンチャイ（湾仔）にある日本料理・鮨店「Tomokazu Japanese Restaurant」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "湾仔Lockhart House内にある日本料理・鮨レストラン「Tomokazu」。寿司・刺身をメインに幅広い日本料理を提供する在住日本人向けの定番店。",
     "tags": [
       "寿司",
       "刺身"
@@ -34951,7 +34549,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tomota-japanese-shau-kei-wan",
@@ -34963,7 +34562,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Shau Kei Wanにあるラーメン店「Tomota Japanese Restaurant」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "筲箕灣East Way Tower内にある日本の居食屋スタイルレストラン「友田居食屋」。ラーメンをはじめ和食全般を提供するカジュアルな日本食店。",
     "tags": [
       "ラーメン",
       "居食屋"
@@ -34980,7 +34579,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tonkatsu-enbiton-diamond-hill",
