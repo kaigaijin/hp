@@ -13015,7 +13015,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "To Kwa Wanにあるラーメン店「Kane Tsuru Ramen To Kwa Wan」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "土瓜灣にある鶏白湯ラーメン専門店「金鶴拉麵」。日本式の本格ラーメンを提供。香港の日本食ファンに親しまれているラーメンチェーン。",
     "tags": [
       "ラーメン",
       "鶏白湯"
@@ -13032,38 +13032,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kanesaka-ccb-tower",
-    "name": "Kanesaka Hong Kong",
-    "name_ja": "金坂",
-    "area": "Central",
-    "address": "5/F, CCB Tower, 3 Connaught Road Central, Central",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://kanesakahk.com/",
-    "description": "東京銀座のミシュラン二つ星「鮨かねさか」の香港店。鮨職人・谷口誠司氏が率い、最大20名収容。江戸前鮨のおまかせコースを提供。",
-    "tags": [
-      "寿司",
-      "おまかせ",
-      "江戸前鮨",
-      "高級和食"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kanesaka-hong-kong",
@@ -13119,7 +13089,8 @@
         "category": "ディナー"
       }
     ],
-    "price_range": "HKD 1,180〜2,980/人（+サービス料10%）"
+    "price_range": "HKD 1,180〜2,980/人（+サービス料10%）",
+    "place_reviewed": true
   },
   {
     "slug": "kanizen-wan-chai",
@@ -13131,7 +13102,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ワンチャイ（湾仔）にある天ぷら専門店「Kanizen」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "ワンチャイにある日本からカニを週3回空輸するカニ料理専門店。タラバ・松葉ガニを刺身・天ぷら・しゃぶしゃぶで。セット約HKD400〜。",
     "tags": [
       "天ぷら",
       "刺身"
@@ -13148,38 +13119,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kansai-one-a5-central",
-    "name": "Kansai One A5 Wagyu Sukiyaki",
-    "name_ja": "関西ワン A5和牛すき焼き",
-    "area": "Central",
-    "address": "G/F, 26 Hollywood Road, Central, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": "+85292757870",
-    "website": null,
-    "description": "セントラル（中環）にある日本食レストラン「Kansai One A5 Wagyu Sukiyaki」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "すき焼き",
-      "A5和牛",
-      "鹿児島産",
-      "2026年オープン"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kansai-one-central",
@@ -13189,7 +13130,7 @@
     "address": "G/F, 26 Hollywood Road, Central, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "Suki Kansaiの上位ブランド。鹿児島産A5黒毛和牛を使った本格関西風すき焼き専門店。ハリウッドロード沿い。2026年1月開業。",
+    "description": "セントラル・ハリウッドロードの鹿児島産A5黒毛和牛すき焼き専門店。「Suki Kansai」の上位ブランドとして2026年1月開業。",
     "tags": [
       "すき焼き",
       "A5和牛",
@@ -13205,7 +13146,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kanzan-menya-apm-kwun-tong",
@@ -13217,7 +13159,7 @@
     "lng": null,
     "phone": "+85263338050",
     "website": null,
-    "description": "クワントン（観塘）にある東京発のラーメン店。豚骨と海鮮ベースのスープを3種類（オリジナル・唐辛子・黒にんにく）で提供。つけ麺も人気。",
+    "description": "観塘APMショッピングモール内の豚骨・海鮮ベースラーメン専門店。オリジナル・唐辛子・黒にんにくの3種スープとつけ麺が人気。",
     "tags": [
       "ラーメン",
       "つけ麺"
@@ -13234,35 +13176,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kanzen-japanese-central",
-    "name": "Kanzen",
-    "name_ja": "完全",
-    "area": "Central",
-    "address": "Central, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "セントラル（中環）にある日本料理店「Kanzen」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
-    "tags": [
-      "日本料理"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kappo-rin-central",
@@ -13274,7 +13189,7 @@
     "lng": null,
     "phone": "+85226436811",
     "website": "https://www.kappo-rin.com/",
-    "description": "ランドマーク・マンダリンオリエンタル内のミシュラン一つ星割烹レストラン。季節の食材を活かした本格割烹料理をカウンターで提供。",
+    "description": "セントラル・ランドマーク・マンダリンオリエンタル7階のミシュラン一つ星割烹。古川シェフによる季節食材を活かしたおまかせコース。",
     "tags": [
       "割烹",
       "ミシュラン一つ星",
@@ -13293,38 +13208,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kappo-rin-landmark",
-    "name": "Kappo Rin",
-    "name_ja": "割烹 凛",
-    "area": "Central",
-    "address": "The Landmark Mandarin Oriental, 15 Queen's Road Central, Central, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "セントラル（中環）にあるランドマーク・マンダリンオリエンタル内のミシュラン一つ星割烹。古川勝シェフが季節の日本食材を使った多品コースを提供。",
-    "tags": [
-      "割烹",
-      "ミシュラン一つ星",
-      "ホテルレストラン",
-      "おまかせ"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kappo-roann-isquare",
@@ -13336,7 +13221,7 @@
     "lng": null,
     "phone": null,
     "website": "http://www.roann-hk.com/",
-    "description": "チムサーチョイ（尖沙咀）にある日本料理・鮨店「Kappo Ro Ann」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "尖沙咀iSQUARE 28階にある熊本食材にこだわる割烹レストラン。熊本県から直輸入した食材を使ったすき焼き・刺身・寿司を提供。",
     "tags": [
       "割烹",
       "寿司",
@@ -13356,7 +13241,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kappou-mu-tst",
@@ -13368,7 +13254,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある日本料理・おまかせ店「Kappou Mu」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "尖沙咀H Zentreにある京都割烹スタイルのおまかせ専門店。ランチ9品HKD780〜、ディナー15品HKD2,180。14席カウンターのみ。要予約。",
     "tags": [
       "割烹",
       "おまかせ",
@@ -13386,7 +13272,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "karashibi-gyukotsu-kikanbo-cb",
@@ -13398,7 +13285,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にあるラーメン店「Karashibi Gyukotsu Ramen Kikanbo」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "銅鑼湾にある鬼金棒の牛骨ラーメン専門店。牛腿骨を長時間煮込んだ濃厚スープに辛シビをカスタマイズ可能。東京神田発の人気店。",
     "tags": [
       "ラーメン",
       "牛骨"
@@ -13415,38 +13302,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "karashibi-kikanbo-tst",
-    "name": "Kikanbo Tsim Sha Tsui",
-    "name_ja": "鬼金棒 尖沙咀店",
-    "area": "Tsim Sha Tsui",
-    "address": "Tsim Sha Tsui, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "チムサーチョイ（尖沙咀）にあるラーメン店「Kikanbo Tsim Sha Tsui」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "ラーメン",
-      "激辛",
-      "まぜそば",
-      "東京発"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kashiwaya-central",
@@ -13458,7 +13315,7 @@
     "lng": null,
     "phone": "+85225205218",
     "website": null,
-    "description": "セントラル（中環）にある大阪のミシュラン三つ星懐石料理「柏屋」の唯一の海外店。伝統的な懐石料理を香港で体験できる貴重な店舗。完全予約制。",
+    "description": "セントラル18 On Lan Streetにある大阪の名門懐石「柏屋」の海外唯一の支店。2016年ミシュラン二つ星獲得。日本から食材・器を空輸。完全予約制。",
     "tags": [
       "懐石",
       "大阪発",
@@ -13478,7 +13335,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "katagiri-hung-hom",
@@ -13490,7 +13348,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "フンホム（紅磡）にある紅磡で30年以上の歴史を持つ老舗日本料理店。看板メニューの「花の一千技」や寿司で地元に愛されている。",
+    "description": "紅磡で30年以上営業する老舗日本料理店。鮮度の高い魚介を使った寿司を中心とした和食を提供し、在香港日本人と地元住民に愛されている。",
     "tags": [
       "sushi",
       "traditional",
@@ -13508,7 +13366,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "katiga-japanese-food-shop",
@@ -13520,7 +13379,7 @@
     "lng": 114.1888,
     "phone": "+85227646436",
     "website": "http://www.katiga.com.hk/",
-    "description": "フンホム（紅磡）にある日本食レストラン「Katiga Japanese Food Shop」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "紅磡にある日本食レストラン「Katiga」。月〜日のランチ・ディナー営業。公式サイト（katiga.com.hk）あり。地元の日本食ファンに利用されている。",
     "tags": [
       "日本食"
     ],
@@ -13536,7 +13395,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "katsumoto-sai-ying-pun",
@@ -13546,7 +13406,7 @@
     "address": "G/F, 70 High Street, Sai Ying Pun, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "サイインプン（西營盤）にある西營盤High Streetの居酒屋。元Nobuシェフのショーン・メル氏が創業。和牛サンドイッチが看板メニュー。",
+    "description": "西營盤High Streetにある日本式居酒屋。元Nobuシェフ創業。和牛サンドイッチが看板メニュー。肉料理と日本酒を楽しめる。",
     "tags": [
       "居酒屋",
       "和牛"
@@ -13565,7 +13425,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "katsuo-udon-cheung-sha-wan",
@@ -13577,7 +13438,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Cheung Sha Wanにあるうどん専門店「Katsuo Udon」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "長沙湾にある讃岐うどん専門店「鰹烏冬（Katsuo Udon）」。本場香川県スタイルの手打ちうどんを毎日提供。温・冷どちらでも楽しめる。",
     "tags": [
       "うどん",
       "手打ち"
@@ -13594,7 +13455,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "katsuo-udon-jordan-eaton",
@@ -13626,7 +13488,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "katsuo-udon-kwai-fong-metroplaza",
@@ -13658,7 +13521,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "katsuo-udon-kwun-tong",
@@ -13690,7 +13554,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "katsuo-udon-tko-east-point-city",
@@ -13722,7 +13587,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kawo-nagomi-sheung-wan",
@@ -13734,7 +13600,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "サンポ（上環）にあるラーメン店「KAWO NAGOMI」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "上環市政局熟食中心2階の日本食スタンド。ラーメン・カレー・串焼きを提供。月〜土11:00〜15:00・18:15〜21:30営業、日曜定休。",
     "tags": [
       "ラーメン",
       "カレー"
@@ -13751,7 +13617,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kazutoyo-tin-shui-wai",
@@ -13763,7 +13630,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Tin Shui Waiにある天水圍天耀廣場の寿司・刺身レストラン。新鮮な魚介を使った寿司や定食をリーズナブルに提供。地元住民に愛される日本料理店。",
+    "description": "天水圍天耀廣場地下にある寿司・刺身レストラン。新鮮な魚介を使った丼や寿司をリーズナブルに提供。7:30〜22:00通し営業。",
     "tags": [
       "japanese",
       "sushi",
@@ -13782,7 +13649,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "keishindo-wong-chuk-hang",
@@ -13792,7 +13660,7 @@
     "address": "Shop 308-313, 3/F, THE SOUTHSIDE, 11 Heung Yip Road, Wong Chuk Hang, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "ウォンチュックハン（黄竹坑）にある黄竹坑THE SOUTHSIDE内の日本料理店。city'super neighbourhood内に位置。",
+    "description": "黄竹坑THE SOUTHSIDE 3階にある日本料理店。黄竹坑駅直結。city'super neighbourhoodエリア内で日本食を提供。",
     "tags": [
       "日本料理"
     ],
@@ -13810,38 +13678,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "keyaki-kowloon-bay-megabox",
-    "name": "Keyaki",
-    "name_ja": "欅",
-    "area": "Kowloon Bay",
-    "address": "MegaBox, 38 Wang Chiu Road, Kowloon Bay",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "カウルーンベイ（九龍灣）にある九龍灣MegaBoxにある日本料理レストラン。寿司・刺身を中心に、落ち着いた和の空間で食事を楽しめる。",
-    "tags": [
-      "sushi",
-      "sashimi",
-      "japanese",
-      "mall"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "keyaki-megabox",
@@ -13853,7 +13691,7 @@
     "lng": null,
     "phone": "+85297586594",
     "website": null,
-    "description": "カウルーンベイ（九龍灣）にある日本式居酒屋「Keyaki」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "九龍灣MegaBox 11階にある日本式居酒屋「欅」。備長炭を使った串焼きを中心に和食メニューを提供。夜景を楽しみながら食事が可能。",
     "tags": [
       "居酒屋",
       "串焼き",
@@ -13872,7 +13710,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ki-omakase-mong-kok",
@@ -13884,7 +13723,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "モンコック（旺角）にある日本料理・鮨店「KI」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "旺角Ladder Dundas 21階にある日本料理・鮨のおまかせ店「KI」。寿司と刺身を中心とした高級コースを提供する高層階のレストラン。",
     "tags": [
       "寿司",
       "おまかせ",
@@ -13902,7 +13741,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kicho-central",
@@ -13912,7 +13752,7 @@
     "address": "Shop 2B, 1/F, Manning House, 48 Queen's Road Central, Central, Hong Kong",
     "phone": "+85226338933",
     "website": null,
-    "description": "セントラル（中環）にある東京の名店から進出した鶏割烹おまかせ。鹿児島産黒さつま鶏を備長炭で焼き上げる10品以上のコースを提供。",
+    "description": "セントラル・Manning House 1階にある東京発鶏割烹おまかせ専門店。鹿児島産黒さつま鶏を備長炭で焼く10品以上のコース。ミシュラン掲載。",
     "tags": [
       "焼鳥",
       "おまかせ",
@@ -13929,19 +13769,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kicho-central-sushi",
     "name": "Kicho",
-    "name_ja": "喜鳥",
+    "name_ja": "吉兆寿司",
     "area": "Central",
     "address": "3/F, M88, Wellington Place, 2-8 Wellington Street, Central",
     "lat": null,
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "セントラル（中環）にある日本料理・鮨店「Kicho」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "セントラルM88 3階にある日本人シェフによる江戸前鮨のおまかせ専門店。ミシュランガイド2025香港掲載。ランチ・ディナー完全予約制。",
     "tags": [
       "割烹",
       "寿司"
@@ -13958,35 +13799,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kicho-izakaya-central",
-    "name": "Kicho",
-    "name_ja": "吉兆",
-    "area": "Central",
-    "address": "Shop 2B, 1/F, Manning House, 48 Queen's Road Central, Central, Hong Kong",
-    "phone": "+85226338933",
-    "website": null,
-    "description": "セントラル（中環）にある日本式居酒屋・バー「Kicho」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。在香港日本人・旅行者に利用されている。",
-    "tags": [
-      "居酒屋",
-      "焼鳥",
-      "鶏割烹",
-      "おまかせ",
-      "備長炭"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-28",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kido-tst",
@@ -13996,7 +13810,7 @@
     "address": "Shop G12-13, G/F, 8 Minden Avenue, Tsim Sha Tsui, Hong Kong",
     "phone": "+85221046855",
     "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある日本式居酒屋「Kido」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "尖沙咀8 Minden Avenueにある福岡発居酒屋。串揚げ・鰻を中心に提供。毎日18:00〜翌0:00営業。在香港日本人にも人気の本格居酒屋。",
     "tags": [
       "居酒屋",
       "串揚げ",
@@ -14013,37 +13827,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kido-tst-izakaya",
-    "name": "Kido",
-    "name_ja": "キド",
-    "area": "Tsim Sha Tsui",
-    "address": "Shop G12-13, G/F, 8 Minden Avenue, Tsim Sha Tsui",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある日本式居酒屋「Kido」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。在香港日本人・旅行者に利用されている。",
-    "tags": [
-      "居酒屋",
-      "串カツ",
-      "うなぎ"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kikanbo-causeway-bay",
@@ -14053,7 +13838,7 @@
     "address": "G/F, 530 Jaffe Road, Causeway Bay, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある東京神田発のカラシビ味噌ラーメン専門店。辛さとしびれを自分好みにカスタマイズ可能。2019年香港初出店。",
+    "description": "銅鑼湾の東京神田発カラシビ味噌ラーメン専門店。辛さとしびれを5段階でカスタマイズ可能。2019年香港初出店。毎日11:30〜22:00。",
     "tags": [
       "ラーメン",
       "味噌",
@@ -14070,37 +13855,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kikanbo-causeway-bay-ramen",
-    "name": "Kikanbo Causeway Bay",
-    "name_ja": "鬼金棒 銅鑼湾店",
-    "area": "Causeway Bay",
-    "address": "G/F, 530 Jaffe Road, Causeway Bay",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://kikanbo.co.jp/english",
-    "description": "コーズウェイベイ（銅鑼湾）にあるラーメン店「Kikanbo Causeway Bay」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "ラーメン",
-      "味噌",
-      "辛シビ"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kikanbo-mong-kok-ramen",
@@ -14112,7 +13868,7 @@
     "lng": null,
     "phone": null,
     "website": "https://kikanbo.co.jp/english",
-    "description": "モンコック（旺角）にあるラーメン店「Kikanbo Mong Kok」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "旺角西洋菜南街にある東京神田発カラシビ味噌ラーメン専門店「鬼金棒」。辛さとしびれを自分好みに調整できる香港の人気日本ラーメン店。",
     "tags": [
       "ラーメン",
       "味噌",
@@ -14130,7 +13886,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kikanbo-tst-ramen",
@@ -14142,7 +13899,7 @@
     "lng": null,
     "phone": null,
     "website": "https://kikanbo.co.jp/english",
-    "description": "チムサーチョイ（尖沙咀）にあるラーメン店「Kikanbo Tsim Sha Tsui」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "尖沙咀Cameron Road 20番地にある東京神田発カラシビ味噌ラーメン専門店「鬼金棒」。銅鑼湾・旺角に続く3号店。辛シビ自由調整可。",
     "tags": [
       "ラーメン",
       "味噌",
@@ -14160,7 +13917,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kikusan-hysan-place",
@@ -14172,7 +13930,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にあるHysan Place 13階の日本料理店。寿司・ヌードルなど多彩なメニュー。MTR銅鑼湾駅直結。",
+    "description": "銅鑼湾Hysan Place 13階にある日本料理店。MTR銅鑼湾駅直結。寿司・ヌードルなど多彩な日本食メニューを提供するショッピングモール内店舗。",
     "tags": [
       "日本料理",
       "寿司",
@@ -14191,35 +13949,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kinjo-s-izakaya",
-    "name": "Kinjo’s Izakaya",
-    "name_ja": "キンジョ’s 居酒屋",
-    "area": "Central",
-    "address": "27 Elgin St, Central, Hong Kong",
-    "lat": 22.282,
-    "lng": 114.1522,
-    "phone": "+85223629992",
-    "website": null,
-    "description": "セントラル（中環）にある日本式居酒屋「Kinjo’s Izakaya」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
-    "tags": [
-      "居酒屋"
-    ],
-    "hours": "Monday: 11:30 AM – 3:00 PM, 6:00 – 11:00 PM / Tuesday: 11:30 AM – 3:00 PM, 6:00 – 11:00 PM / Wednesday: 11:30 AM – 3:00 PM, 6:00 – 11:00 PM / Thursday: 11:30 AM – 3:00 PM, 6:00 – 11:00 PM / Friday: 11:30 AM – 3:00 PM, 6:00 – 11:00 PM / Saturday: 11:30 AM – 3:00 PM, 6:00 – 11:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJLyJhpHsABDQRz-Utyfu7ZO0",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kinjos-izakaya-central",
@@ -14231,7 +13962,7 @@
     "lng": null,
     "phone": "+85223629992",
     "website": null,
-    "description": "SoHoの小さな居酒屋。日本人シェフが九州料理、特に沖縄料理を中心に提供。常連客で賑わうため予約推奨。月〜土の昼・夜営業（日曜定休）。",
+    "description": "SoHo・Elgin Streetの小さな居酒屋。日本人シェフが九州・沖縄料理を中心に提供。常連で満席になりやすいため予約推奨。月〜土ランチ・夜営業。",
     "tags": [
       "居酒屋",
       "日本人シェフ",
@@ -14250,7 +13981,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kintan-bbq-diamond-hill",
@@ -14262,7 +13994,7 @@
     "lng": null,
     "phone": "+85221151980",
     "website": null,
-    "description": "Diamond Hillにある焼肉店「Kintan Japanese BBQ (Plaza Hollywood)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "鑽石山Plaza Hollywoodにある日本式焼肉レストラン「Kintan」。食べ放題コースあり。在香港日本人・旅行者が集う日本式焼肉が楽しめる。",
     "tags": [
       "焼肉",
       "食べ放題"
@@ -14279,37 +14011,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kintan-bbq-diamond-hill-2",
-    "name": "Kintan BBQ Diamond Hill",
-    "name_ja": "金舌BBQ 鑽石山店",
-    "area": "Diamond Hill",
-    "address": "Plaza Hollywood, 3 Lung Poon Street, Diamond Hill, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "Diamond Hillにある焼肉店「Kintan BBQ Diamond Hill」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "焼肉",
-      "和牛",
-      "東京発"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kintaro-lab-tai-kok-tsui",
@@ -14321,7 +14024,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Tai Kok Tsuiにあるうどん専門店「Kintaro Lab」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "大角咀にある群馬県発祥のひもかわうどん専門店「Kintaro Lab」。10cm幅の平打ち麺を毎日手作り。温・冷・カレーつけ麺で楽しめる。",
     "tags": [
       "うどん",
       "ひもかわうどん"
@@ -14338,37 +14041,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kintaro-udon-sheung-wan",
-    "name": "Kintaro",
-    "name_ja": "金太郎",
-    "area": "Sheung Wan",
-    "address": "Sheung Wan, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "サンポ（上環）にあるうどん専門店「Kintaro」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
-    "tags": [
-      "うどん",
-      "ひもかわうどん",
-      "群馬"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kinzakaya-lai-chi-kok",
@@ -14380,7 +14054,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ライチコック（荔枝角）にある日本料理・鮨店「Kinzakaya」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "荔枝角駅D1出口から徒歩3分の寿司・刺身居酒屋。日本酒・焼鳥・天ぷらなど豊富な和食メニュー。70席・予約可能でグループ利用に向いている。",
     "tags": [
       "izakaya",
       "sushi",
@@ -14400,7 +14074,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kitakimi-ma-on-shan",
@@ -14412,7 +14087,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "マオンシャン（馬鞍山）にある日本料理・鮨店「Kitakimi Japanese Restaurant (Ma On Shan)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "馬鞍山We Go Mall 1階にある寿司・刺身の日本食レストラン。電話+852 2677 2668。郊外の日本人コミュニティにも利用されている。",
     "tags": [
       "寿司",
       "日本料理"
@@ -14429,7 +14104,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kitaro-ma-on-shan",
@@ -14441,7 +14117,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "マオンシャン（馬鞍山）にある日本料理・鮨店「Kitaro Japanese Restaurant」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "馬鞍山センター1階にある寿司・刺身専門の日本料理店「Kitaro」。新界郊外エリアで日本食を楽しめる地元住民にも人気の店舗。",
     "tags": [
       "寿司",
       "日本料理"
@@ -14458,7 +14134,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kiyotaki-tai-hang",
@@ -14470,7 +14147,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Tai Hangにある日本料理・鮨店「Kiyotaki Japanese Restaurant」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "大坑Shepherd Streetにある30年以上続く老舗おまかせ寿司店。オーナーシェフが北海道などから旬の魚介を仕入れ、毎夜7日間営業。",
     "tags": [
       "寿司",
       "おまかせ",
@@ -14488,7 +14165,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kny-yakumo-sapporo-ramen-shau-kei-wan",
@@ -14500,7 +14178,7 @@
     "lng": null,
     "phone": "+85229670306",
     "website": null,
-    "description": "Shau Kei Wanにあるラーメン店「KNY Yakumo Sapporo Ramen」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "筲箕灣にある札幌スタイルのラーメン専門店「八雲札幌拉麵」。豚骨バター・ミックスラーメンなどが人気。Food Wise認定の地元密着店。",
     "tags": [
       "ラーメン",
       "札幌ラーメン"
@@ -14517,7 +14195,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "koji-charcoal-grill-north-point",
