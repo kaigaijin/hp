@@ -8635,483 +8635,16 @@
     "place_reviewed": true
   },
   {
-    "slug": "sushiro-coex-samseong",
-    "name": "스시로 COEX 삼성",
-    "name_ja": "スシロー COEX 三成店",
-    "area": "三成（COEX）",
-    "address": "COEX Mall, Samseong-dong, Gangnam-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "COEXモール内にあるスシロー三成店。巨大ショッピングモールの中に位置し、ショッピングの合間に立ち寄りやすい。三成エリアの在韓日本人や外国系企業の社員も多く利用する便利な回転寿司。",
-    "tags": [
-      "回転寿司",
-      "チェーン店",
-      "COEX"
-    ],
-    "hours": "11:00〜22:00",
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushiro-gangnam",
-    "name": "Sushiro Gangnam",
-    "name_ja": "スシロー 江南店",
-    "area": "Gangnam-gu",
-    "address": "Gangnam-gu, Seoul",
-    "phone": null,
-    "website": "http://www.sushiro.co.kr/",
-    "description": "日本最大手の回転寿司チェーン「スシロー」の江南店。約60種類の寿司ネタを均一価格で提供。タッチパネルは日本語対応。テイクアウトも可能。",
-    "tags": [
-      "寿司",
-      "回転寿司",
-      "チェーン",
-      "日本語対応"
-    ],
-    "hours": "11:00-22:00",
-    "status": "unverified",
-    "source": "website",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "menu": [
-      {
-        "name": "짚불 가다랑어 시오레몬（藁焼きカツオ塩レモン）",
-        "price": "KRW 3,900",
-        "category": "寿司"
-      },
-      {
-        "name": "연어 뱃살 타다키（サーモン腹身たたき）",
-        "price": "KRW 3,200",
-        "category": "寿司"
-      },
-      {
-        "name": "장어（うなぎ）",
-        "price": "KRW 3,200",
-        "category": "寿司"
-      },
-      {
-        "name": "홍게 다리살（紅ズワイガニ足肉）",
-        "price": "KRW 5,000",
-        "category": "寿司"
-      },
-      {
-        "name": "미역 우동（わかめうどん）",
-        "price": "KRW 3,600",
-        "category": "麺類"
-      },
-      {
-        "name": "돈코츠 라멘（豚骨ラーメン）",
-        "price": "KRW 5,400",
-        "category": "麺類"
-      },
-      {
-        "name": "스시로 인기 6관（スシロー人気6貫）",
-        "price": "KRW 12,900",
-        "category": "セット"
-      }
-    ],
-    "price_range": "KRW 2,200〜6,500/皿（一人KRW 5,000〜15,000程度）",
-    "detail": "ソウル・江南エリアの韓国スシロー。江南駅周辺のビジネス・ショッピングエリアに位置し、ランチ・ディナーともに混雑する人気店。日本から直輸入した鮮魚ネタを1皿KRW 2,200〜5,000で提供する回転寿司チェーン。日本語メニューも対応しており、出張者・旅行者が多い江南エリアで気軽に本格的な寿司が楽しめる。"
-  },
-  {
-    "slug": "sushiro-gangnam-station",
-    "name": "스시로 강남역",
-    "name_ja": "スシロー江南駅店",
-    "area": "江南",
-    "address": "Gangnam-gu, Seoul (Gangnam Station area)",
-    "phone": null,
-    "website": null,
-    "description": "日本の回転寿司チェーン「スシロー」の江南駅エリア店舗。安定したクオリティの回転寿司がリーズナブルな価格で楽しめる。日本語メニューも用意されており、ファミリーでも利用しやすい。在韓日本人には「日本と同じ味」として人気。",
-    "tags": [
-      "回転寿司",
-      "チェーン店",
-      "リーズナブル"
-    ],
-    "hours": "11:00〜22:00",
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushiro-gimpo",
-    "name": "Sushiro Gimpo",
-    "name_ja": "スシロー 金浦",
-    "area": "Gimpo",
-    "address": "Lotte Mall Gimpo Airport, Gimpo, Seoul",
-    "phone": null,
-    "website": "https://www.sushiro.co.kr/",
-    "description": "金浦空港ロッテモール内の「スシロー」金浦店。日本の大手回転寿司チェーンで、空港近くで手軽に本格寿司を楽しめる立地の日本式専門店。",
-    "tags": [
-      "回転寿司",
-      "チェーン",
-      "空港近く"
-    ],
-    "hours": "10:30〜22:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "menu": [
-      {
-        "name": "짚불 가다랑어 시오레몬（藁焼きカツオ塩レモン）",
-        "price": "KRW 3,900",
-        "category": "寿司"
-      },
-      {
-        "name": "연어 뱃살 타다키（サーモン腹身たたき）",
-        "price": "KRW 3,200",
-        "category": "寿司"
-      },
-      {
-        "name": "장어（うなぎ）",
-        "price": "KRW 3,200",
-        "category": "寿司"
-      },
-      {
-        "name": "미역 우동（わかめうどん）",
-        "price": "KRW 3,600",
-        "category": "麺類"
-      },
-      {
-        "name": "돈코츠 라멘（豚骨ラーメン）",
-        "price": "KRW 5,400",
-        "category": "麺類"
-      }
-    ],
-    "price_range": "KRW 2,200〜6,500/皿（一人KRW 5,000〜15,000程度）",
-    "detail": "金浦空港内のロッテモール金浦空港に入居する韓国スシロー。金浦国際空港（ソウル金浦）に直結しており、日本帰国前後や金浦空港利用時に気軽に立ち寄れる。日本から直輸入した鮮魚ネタを1皿KRW 2,200〜5,000で提供する回転寿司チェーン。日本語メニュー対応で、日本人旅行者が利用しやすい環境。"
-  },
-  {
-    "slug": "sushiro-hongdae",
-    "name": "Sushiro Hongdae",
-    "name_ja": "スシロー 弘大店",
-    "area": "Mapo-gu (Hongdae)",
-    "address": "Mapo-gu, Seoul",
-    "phone": null,
-    "website": "http://www.sushiro.co.kr/",
-    "description": "日本の大手回転寿司チェーン「スシロー」弘大店。若者の街・弘大エリアで手頃に回転寿司を楽しめる。タッチパネルは日本語対応。",
-    "tags": [
-      "寿司",
-      "回転寿司",
-      "チェーン",
-      "日本語対応"
-    ],
-    "hours": "11:00-22:00",
-    "status": "unverified",
-    "source": "website",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "menu": [
-      {
-        "name": "짚불 가다랑어 시오레몬（藁焼きカツオ塩レモン）",
-        "price": "KRW 3,900",
-        "category": "寿司"
-      },
-      {
-        "name": "연어 뱃살 타다키（サーモン腹身たたき）",
-        "price": "KRW 3,200",
-        "category": "寿司"
-      },
-      {
-        "name": "장어（うなぎ）",
-        "price": "KRW 3,200",
-        "category": "寿司"
-      },
-      {
-        "name": "홍게 다리살（紅ズワイガニ足肉）",
-        "price": "KRW 5,000",
-        "category": "寿司"
-      },
-      {
-        "name": "미역 우동（わかめうどん）",
-        "price": "KRW 3,600",
-        "category": "麺類"
-      },
-      {
-        "name": "돈코츠 라멘（豚骨ラーメン）",
-        "price": "KRW 5,400",
-        "category": "麺類"
-      },
-      {
-        "name": "스시로 인기 6관（スシロー人気6貫）",
-        "price": "KRW 12,900",
-        "category": "セット"
-      }
-    ],
-    "price_range": "KRW 2,200〜6,500/皿（一人KRW 5,000〜15,000程度）",
-    "detail": "ソウル・弘大エリアの韓国スシロー。弘大・合井駅エリアの若者・観光客が多い繁華街に位置する。日本から直輸入した鮮魚ネタを1皿KRW 2,200〜5,000で提供する回転寿司チェーン。弘大エリアは日本人観光客が多く訪れるため、日本語メニューも対応。リーズナブルな価格で本場に近い寿司が楽しめると日本人在住者にも人気。"
-  },
-  {
-    "slug": "sushiro-itaewon",
-    "name": "스시로 이태원",
-    "name_ja": "スシロー梨泰院店",
-    "area": "梨泰院",
-    "address": "Itaewon, Yongsan-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "外国人が多い梨泰院エリアにあるスシローの店舗。安定した品質の回転寿司を気軽に楽しめる。梨泰院在住の外国人コミュニティや日本人在住者にも利用されており、英語・日本語メニューが完備されている。",
-    "tags": [
-      "回転寿司",
-      "チェーン店",
-      "外国語対応"
-    ],
-    "hours": "11:00〜22:00",
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushiro-jamsil",
-    "name": "Sushiro Jamsil",
-    "name_ja": "スシロー 蚕室店",
-    "area": "Songpa-gu (Jamsil)",
-    "address": "Songpa-gu, Seoul",
-    "phone": null,
-    "website": "http://www.sushiro.co.kr/",
-    "description": "日本最大手の回転寿司チェーン「スシロー」の蚕室店。ロッテワールドモール近くに位置。約60種類のネタを均一価格で提供。タッチパネルは日本語対応。",
-    "tags": [
-      "寿司",
-      "回転寿司",
-      "チェーン",
-      "日本語対応"
-    ],
-    "hours": "11:00-22:00",
-    "status": "unverified",
-    "source": "website",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "menu": [
-      {
-        "name": "짚불 가다랑어 시오레몬（藁焼きカツオ塩レモン）",
-        "price": "KRW 3,900",
-        "category": "寿司"
-      },
-      {
-        "name": "연어 뱃살 타다키（サーモン腹身たたき）",
-        "price": "KRW 3,200",
-        "category": "寿司"
-      },
-      {
-        "name": "장어（うなぎ）",
-        "price": "KRW 3,200",
-        "category": "寿司"
-      },
-      {
-        "name": "미역 우동（わかめうどん）",
-        "price": "KRW 3,600",
-        "category": "麺類"
-      },
-      {
-        "name": "돈코츠 라멘（豚骨ラーメン）",
-        "price": "KRW 5,400",
-        "category": "麺類"
-      }
-    ],
-    "price_range": "KRW 2,200〜6,500/皿（一人KRW 5,000〜15,000程度）",
-    "detail": "ソウル・蚕室エリアの韓国スシロー。ロッテワールド・蚕室駅周辺のショッピングエリアに位置し、観光客にも人気のエリア。日本から直輸入した鮮魚ネタを1皿KRW 2,200〜5,000で提供する回転寿司チェーン。日本語対応のメニューがあり、日本人観光客が多い蚕室エリアで気軽に利用できる。"
-  },
-  {
-    "slug": "sushiro-lotte-mall-seoul",
-    "name": "스시로 롯데몰 서울역",
-    "name_ja": "スシロー ロッテモールソウル駅",
-    "area": "ソウル駅",
-    "address": "Lotte Mall Seoul Station, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "ソウル駅ロッテモール内のスシロー。電車・地下鉄のターミナル駅であるソウル駅直結のショッピングモールにあり、乗り換え前後の食事に便利。日本語メニューも完備で日本人利用者が多い。",
-    "tags": [
-      "回転寿司",
-      "チェーン店",
-      "ソウル駅"
-    ],
-    "hours": "11:00〜22:00",
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushiro-magok",
-    "name": "Sushiro Magok",
-    "name_ja": "スシロー 麻谷",
-    "area": "Magok",
-    "address": "Magok-dong, Gangseo-gu, Seoul",
-    "phone": null,
-    "website": "https://www.sushiro.co.kr/",
-    "description": "麻谷エリアの「スシロー」麻谷店。LGサイエンスパーク近くに位置し、日本の大手回転寿司チェーンをビジネスランチにも利用できる。",
-    "tags": [
-      "回転寿司",
-      "チェーン",
-      "ビジネスエリア"
-    ],
-    "hours": "11:00〜22:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "menu": [
-      {
-        "name": "짚불 가다랑어 시오레몬（藁焼きカツオ塩レモン）",
-        "price": "KRW 3,900",
-        "category": "寿司"
-      },
-      {
-        "name": "연어 뱃살 타다키（サーモン腹身たたき）",
-        "price": "KRW 3,200",
-        "category": "寿司"
-      },
-      {
-        "name": "장어（うなぎ）",
-        "price": "KRW 3,200",
-        "category": "寿司"
-      },
-      {
-        "name": "미역 우동（わかめうどん）",
-        "price": "KRW 3,600",
-        "category": "麺類"
-      },
-      {
-        "name": "돈코츠 라멘（豚骨ラーメン）",
-        "price": "KRW 5,400",
-        "category": "麺類"
-      }
-    ],
-    "price_range": "KRW 2,200〜6,500/皿（一人KRW 5,000〜15,000程度）",
-    "detail": "ソウル・麻谷洞（マゴク）の韓国スシロー。金浦空港から麻谷ナル駅周辺の新興開発エリアに位置し、周辺企業の社員や地元住民に利用されている。日本から直輸入した鮮魚ネタを1皿KRW 2,200〜5,000で提供する回転寿司チェーン。日本語メニュー対応で、在住日本人にも使いやすい環境。"
-  },
-  {
-    "slug": "sushiro-mokdong",
-    "name": "Sushiro Mokdong",
-    "name_ja": "スシロー 木洞店",
-    "area": "Yangcheon-gu (Mokdong)",
-    "address": "917-6 Mokdong, Yangcheon-gu, Seoul, Haengbokhhan Department Store 5F",
-    "phone": "+8226783015",
-    "website": "http://www.sushiro.co.kr/",
-    "description": "ヘンボッカン百貨店5階にある「スシロー」韓国店舗。1皿1,700ウォンの均一価格が魅力で、平日ランチセットも用意されている。",
-    "tags": [
-      "寿司",
-      "回転寿司",
-      "チェーン"
-    ],
-    "hours": "11:30〜22:00",
-    "status": "unverified",
-    "source": "website",
-    "last_verified": "2026-03-26",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "menu": [
-      {
-        "name": "짚불 가다랑어 시오레몬（藁焼きカツオ塩レモン）",
-        "price": "KRW 3,900",
-        "category": "寿司"
-      },
-      {
-        "name": "연어 뱃살 타다키（サーモン腹身たたき）",
-        "price": "KRW 3,200",
-        "category": "寿司"
-      },
-      {
-        "name": "장어（うなぎ）",
-        "price": "KRW 3,200",
-        "category": "寿司"
-      },
-      {
-        "name": "홍게 다리살（紅ズワイガニ足肉）",
-        "price": "KRW 5,000",
-        "category": "寿司"
-      },
-      {
-        "name": "미역 우동（わかめうどん）",
-        "price": "KRW 3,600",
-        "category": "麺類"
-      },
-      {
-        "name": "돈코츠 라멘（豚骨ラーメン）",
-        "price": "KRW 5,400",
-        "category": "麺類"
-      },
-      {
-        "name": "장어 덮밥（うな丼）",
-        "price": "KRW 11,500",
-        "category": "丼"
-      }
-    ],
-    "price_range": "KRW 2,200〜6,500/皿（一人KRW 5,000〜15,000程度）",
-    "detail": "ソウル・木洞エリアの행복한백화점（幸福な百貨店）5Fに入居する韓国スシロー。木洞駅周辺の住宅街に位置し、地元の家族連れを中心に利用される。日本直輸入のネタを中心に1皿KRW 2,200〜5,000で提供する回転寿司チェーン。日本語対応のメニューがあり、在住日本人や日本人ビジネスマンも利用しやすい。"
-  },
-  {
     "slug": "sushiro-myeongdong",
-    "name": "Sushiro Myeongdong",
+    "name": "スシロー 明洞聖堂店",
     "name_ja": "スシロー明洞聖堂店",
     "area": "Jung-gu (Myeongdong)",
     "address": "58 Myeongdong-gil, Jung-gu, Seoul",
     "lat": null,
     "lng": null,
-    "phone": null,
-    "website": "https://www.sushiro.co.kr",
-    "description": "2024年9月オープンの日本の大手回転寿司チェーンのソウル明洞店。216席の大型店舗で、最新のデジタル注文システム「デジロー」を導入。日本語メニュー対応。",
+    "phone": "+82233897715",
+    "website": "https://sushiro.co.kr",
+    "description": "2024年9月オープンの「スシロー」明洞聖堂店。216席の大型店舗で最新デジタル注文システム「デジロー」を導入。日本語メニュー対応。明洞の中心部に位置しショッピングの合間に立ち寄りやすい。",
     "tags": [
       "回転寿司",
       "日本チェーン",
@@ -9168,19 +8701,20 @@
       }
     ],
     "price_range": "KRW 2,200〜6,500/皿（一人KRW 5,000〜15,000程度）",
-    "detail": "ソウル・明洞の明洞길58番地に位置する韓国スシロー。明洞駅（4号線）から徒歩圏内の最大観光地・明洞に立地し、日本人観光客が多く訪れる。日本から直輸入した鮮魚ネタを1皿KRW 2,200〜5,000で提供する回転寿司チェーン。日本語メニューも完備しており、日本人旅行者・在住者が気軽に立ち寄れる。"
+    "detail": "営業時間: 公式サイトで確認要",
+    "place_reviewed": true
   },
   {
     "slug": "sushiro-seomyeon-busan",
-    "name": "Sushiro Seomyeon",
+    "name": "スシロー 釜山西面店",
     "name_ja": "スシロー西面店",
     "area": "Busanjin-gu (Seomyeon), Busan",
     "address": "672 Jungang-daero, Busanjin-gu, Busan, Samjung Tower 6F",
     "lat": null,
     "lng": null,
-    "phone": null,
-    "website": "https://www.sushiro.co.kr",
-    "description": "日本の大手回転寿司チェーン「スシロー」の釜山西面店。注文パネルで日本語選択可能。日本と同じクオリティの回転寿司を釜山で楽しめる。",
+    "phone": "+825151203715",
+    "website": "https://sushiro.co.kr",
+    "description": "日本の大手回転寿司チェーン「スシロー」の釜山西面店。釜山のメインエリア・西面に位置し、日本語メニュー対応で在韓日本人にも人気。",
     "tags": [
       "回転寿司",
       "日本チェーン",
@@ -9232,98 +8766,18 @@
       }
     ],
     "price_range": "KRW 2,200〜6,500/皿（一人KRW 5,000〜15,000程度）",
-    "detail": "釜山・西面の三正タワー6Fに位置する韓国スシロー。西面駅（1・2号線）から徒歩圏内の釜山最大の繁華街・西面エリアに立地。日本から直輸入した鮮魚ネタを1皿KRW 2,200〜5,000で提供する回転寿司チェーン。釜山在住の日本人にも利用しやすく、日本語メニューも対応。"
-  },
-  {
-    "slug": "sushiro-sinchon",
-    "name": "스시로 신촌",
-    "name_ja": "スシロー新村店",
-    "area": "新村",
-    "address": "Sinchon, Seodaemun-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "新村エリアにあるスシローの店舗。新村の学生街に位置し、学生・留学生・在韓日本人が気軽に利用できる回転寿司として人気。セットメニューやサイドメニューも充実し、コスパの高さで支持される。",
-    "tags": [
-      "回転寿司",
-      "チェーン店",
-      "学生街"
-    ],
-    "hours": "11:00〜22:00",
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushiro-sindorim",
-    "name": "Sushiro Sindorim",
-    "name_ja": "スシロー 新道林店",
-    "area": "Guro-gu (Sindorim)",
-    "address": "D-Cube City, Sindorim-dong, Guro-gu, Seoul",
-    "phone": null,
-    "website": "https://www.sushiro.co.kr/",
-    "description": "日本の大手回転寿司チェーン「スシロー」新道林店。ディーキューブシティ内で新道林駅直結の好立地にある回転寿司店の日本式専門店。",
-    "tags": [
-      "回転寿司",
-      "日本チェーン",
-      "新道林"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "menu": [
-      {
-        "name": "짚불 가다랑어 시오레몬（藁焼きカツオ塩レモン）",
-        "price": "KRW 3,900",
-        "category": "寿司"
-      },
-      {
-        "name": "연어 뱃살 타다키（サーモン腹身たたき）",
-        "price": "KRW 3,200",
-        "category": "寿司"
-      },
-      {
-        "name": "장어（うなぎ）",
-        "price": "KRW 3,200",
-        "category": "寿司"
-      },
-      {
-        "name": "미역 우동（わかめうどん）",
-        "price": "KRW 3,600",
-        "category": "麺類"
-      },
-      {
-        "name": "돈코츠 라멘（豚骨ラーメン）",
-        "price": "KRW 5,400",
-        "category": "麺類"
-      }
-    ],
-    "price_range": "KRW 2,200〜6,500/皿（一人KRW 5,000〜15,000程度）",
-    "detail": "ソウル・新道林のD-Cube Cityに入居する韓国スシロー。新道림駅（1・2号線）直結の複合商業施設内にあり、乗り換えついでに利用しやすい立地。日本から直輸入した鮮魚ネタを1皿KRW 2,200〜5,000で提供する回転寿司チェーン。日本語メニューも対応しており、在住日本人にも利用しやすい。"
+    "detail": "営業時間: 公式サイトで確認要",
+    "place_reviewed": true
   },
   {
     "slug": "sushiro-songdo",
-    "name": "Sushiro Songdo",
+    "name": "スシロー 松島店",
     "name_ja": "スシロー 松島店",
     "area": "Yeonsu-gu, Incheon",
-    "address": "Yeonsu-gu, Incheon",
-    "phone": null,
-    "website": "https://www.akindo-sushiro.co.kr",
-    "description": "日本最大の回転寿司チェーン・スシローの松島（ソンド）店。仁川の松島国際都市エリアに位置し、リーズナブルな価格で多彩な寿司メニューを提供する。",
+    "address": "33-2 Songdogwahak-ro 16beon-gil, Yeonsu-gu, Incheon, Building B B3F",
+    "phone": "+82323109415",
+    "website": "https://sushiro.co.kr",
+    "description": "仁川・松島国際都市エリアにある「スシロー」松島店。リーズナブルな価格で日本と同品質の回転寿司が楽しめる。",
     "tags": [
       "回転寿司",
       "チェーン",
@@ -9339,17 +8793,19 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "営業時間: 公式サイトで確認要",
+    "place_reviewed": true
   },
   {
     "slug": "sushiro-times-square",
-    "name": "Sushiro Times Square",
+    "name": "スシロー タイムスクエア店",
     "name_ja": "スシロー タイムスクエア店",
     "area": "Yeongdeungpo-gu",
-    "address": "15 Yeongjung-ro, Yeongdeungpo-gu, Seoul, Mall B1F",
-    "phone": "+8226333015",
-    "website": "http://www.sushiro.co.kr/",
-    "description": "日本最大手の回転寿司チェーン「スシロー」の韓国店。約60種類のネタを揃え、タッチパネル注文は日本語対応。テイクアウトも可能。",
+    "address": "15 Yeongjung-ro, Yeongdeungpo-gu, Seoul, Times Square B1F",
+    "phone": "+82226333015",
+    "website": "https://sushiro.co.kr",
+    "description": "汝矣島・永登浦エリアのタイムスクエアモール地下1階にある「スシロー」。均一価格で豊富な種類の寿司を楽しめる。タッチパネルは日本語対応。",
     "tags": [
       "寿司",
       "回転寿司",
@@ -9415,159 +8871,18 @@
       }
     ],
     "price_range": "KRW 2,200〜6,500/皿（一人KRW 5,000〜15,000程度）",
-    "detail": "ソウル・タイムズスクエアに入居する韓国スシロー。永登浦駅直結のショッピングモールB1Fに位置し、アクセス良好。日本から直輸入した鮮魚を使ったネタが1皿KRW 2,200〜5,000で楽しめる回転寿司チェーン。うどんやラーメンなどのサイドメニューも充実。平日のランチは比較的混雑が少なく、家族連れにも人気。日本語メニューも対応しており、日本人旅行者・在住者が安心して利用できる。"
-  },
-  {
-    "slug": "sushiro-yeoksam",
-    "name": "스시로 역삼",
-    "name_ja": "スシロー駅三店",
-    "area": "駅三洞",
-    "address": "Yeoksam-dong, Gangnam-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "日本最大級の回転寿司チェーン「スシロー」の駅三洞店。江南エリアの在韓日本人が気軽に利用できる回転寿司として人気。メニューは日本のスシローに近い内容で、家族連れや一人でも利用しやすい。価格は日本とほぼ同等。",
-    "tags": [
-      "回転寿司",
-      "チェーン店",
-      "ファミリー向け"
-    ],
-    "hours": "11:00〜22:00",
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushiro-yeouido",
-    "name": "Sushiro Yeouido",
-    "name_ja": "スシロー 汝矣島店",
-    "area": "Yeongdeungpo-gu (Yeouido)",
-    "address": "IFC Mall, Yeouido, Yeongdeungpo-gu, Seoul",
-    "phone": null,
-    "website": "http://www.sushiro.co.kr/",
-    "description": "日本最大手の回転寿司チェーン「スシロー」の汝矣島IFCモール店。約60種類のネタを均一価格で提供。ビジネス街のランチにも利用しやすい。",
-    "tags": [
-      "寿司",
-      "回転寿司",
-      "チェーン",
-      "日本語対応"
-    ],
-    "hours": "11:00-22:00",
-    "status": "unverified",
-    "source": "website",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "menu": [
-      {
-        "name": "짚불 가다랑어 시오레몬（藁焼きカツオ塩レモン）",
-        "price": "KRW 3,900",
-        "category": "寿司"
-      },
-      {
-        "name": "연어 뱃살 타다키（サーモン腹身たたき）",
-        "price": "KRW 3,200",
-        "category": "寿司"
-      },
-      {
-        "name": "장어（うなぎ）",
-        "price": "KRW 3,200",
-        "category": "寿司"
-      },
-      {
-        "name": "홍게 다리살（紅ズワイガニ足肉）",
-        "price": "KRW 5,000",
-        "category": "寿司"
-      },
-      {
-        "name": "미역 우동（わかめうどん）",
-        "price": "KRW 3,600",
-        "category": "麺類"
-      },
-      {
-        "name": "돈코츠 라멘（豚骨ラーメン）",
-        "price": "KRW 5,400",
-        "category": "麺類"
-      }
-    ],
-    "price_range": "KRW 2,200〜6,500/皿（一人KRW 5,000〜15,000程度）",
-    "detail": "ソウル・汝矣島のIFCモールに入居する韓国スシロー。汝矣島駅直結の高級ショッピングモール内にあり、ビジネスマンや週末の家族連れに人気。日本から直輸入した鮮魚を使った回転寿司チェーンで、1皿KRW 2,200〜5,000の手頃な価格が魅力。汝矣島勤務の駐在員・ビジネスマンが気軽に使える。"
-  },
-  {
-    "slug": "sushiro-yongsan",
-    "name": "Sushiro Yongsan",
-    "name_ja": "スシロー 龍山アイパークモール店",
-    "area": "Yongsan-gu",
-    "address": "I'Park Mall, Yongsan-gu, Seoul",
-    "phone": null,
-    "website": "https://www.sushiro.co.kr/",
-    "description": "日本の大手回転寿司チェーン「スシロー」龍山アイパークモール店。龍山駅直結の好立地で新鮮な寿司を手頃な価格で楽しめる回転寿司店。",
-    "tags": [
-      "回転寿司",
-      "日本チェーン",
-      "龍山"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "menu": [
-      {
-        "name": "짚불 가다랑어 시오레몬（藁焼きカツオ塩レモン）",
-        "price": "KRW 3,900",
-        "category": "寿司"
-      },
-      {
-        "name": "연어 뱃살 타다키（サーモン腹身たたき）",
-        "price": "KRW 3,200",
-        "category": "寿司"
-      },
-      {
-        "name": "장어（うなぎ）",
-        "price": "KRW 3,200",
-        "category": "寿司"
-      },
-      {
-        "name": "미역 우동（わかめうどん）",
-        "price": "KRW 3,600",
-        "category": "麺類"
-      },
-      {
-        "name": "돈코츠 라멘（豚骨ラーメン）",
-        "price": "KRW 5,400",
-        "category": "麺類"
-      }
-    ],
-    "price_range": "KRW 2,200〜6,500/皿（一人KRW 5,000〜15,000程度）",
-    "detail": "ソウル・龍山のI'Parkモールに入居する韓国スシロー。龍山駅直結の大型ショッピングモール内にあり、ショッピングと組み合わせて利用しやすい立地。日本から直輸入した鮮魚を使った回転寿司チェーンで、1皿KRW 2,200〜5,000の手頃な価格。日本語メニュー対応で、龍山エリアの在住日本人にもアクセスしやすい。"
+    "detail": "営業時間: 公式サイトで確認要",
+    "place_reviewed": true
   },
   {
     "slug": "sutaudon-gen-gangnam",
-    "name": "Sutaudon Gen",
+    "name": "수타우동 겐（手打うどん 玄）",
     "name_ja": "手打うどん 玄",
     "area": "Gangnam-gu (Eonju)",
     "address": "415 Eonju-ro, Gangnam-gu, Seoul",
-    "phone": null,
+    "phone": "+82225584077",
     "website": null,
-    "description": "江南エリアの手打ちうどん店「手打うどん 玄」。もちもちとした食感の自家製麺にこだわり、讃岐スタイルを追求する日本式店の日本式専門店。",
+    "description": "江南エリアにある手打うどん専門店「玄」。もちもちした自家製麺と丁寧に取った出汁が評判。役三駅・宣陵駅圏内のランチに人気の老舗。",
     "tags": [
       "うどん",
       "手打ち",
@@ -9583,11 +8898,13 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "営業時間: 月〜金 11:00〜21:00（15:00〜17:00休憩）、土日 11:00〜20:00",
+    "place_reviewed": true
   },
   {
     "slug": "suzurantei-ichon",
-    "name": "Suzurantei",
+    "name": "スズランテイ（鈴蘭亭）",
     "name_ja": "すずらん亭",
     "area": "Yongsan-gu (Ichon)",
     "address": "B1 Royal Mansion Apt. Arcade C, 245 Ichon-ro, Yongsan-gu, Seoul",
@@ -9595,7 +8912,7 @@
     "lng": null,
     "phone": "+8227495324",
     "website": null,
-    "description": "リトルトーキョー（東部二村洞）にある日本料理店。二村の日本人コミュニティに長年親しまれている老舗で、定食や一品料理を提供。家庭的な雰囲気で在韓日本人の憩いの場。",
+    "description": "リトルトーキョー（東部二村洞）にある日本料理店。二村の日本人コミュニティに長年親しまれている老舗で、定食や一品料理を提供する。家庭的な雰囲気で在韓日本人の憩いの場として人気。",
     "tags": [
       "日本料理",
       "定食",
@@ -9613,17 +8930,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sweet-panya-jongno",
-    "name": "스위트빵야",
+    "name": "スウィートパンヤ（스위트빵야）",
     "name_ja": "スイートパンヤ",
     "area": "鍾路（紫霞門路）",
     "address": "36 Jahamun-ro, Jongno-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "日本人パティシエが運営する鍾路区の日本スイーツ専門店。宇治抹茶モンブランと米粉ショートケーキが看板メニュー。本物の日本の素材と技法で作られたスイーツは在韓日本人にも太鼓判。予約が取りにくいほどの人気を誇る。",
+    "description": "日本人パティシエが手がける鍾路区の日本スイーツ専門店。宇治抹茶モンブランと米粉ショートケーキが看板メニュー。本物の素材と技法で作られたスイーツは在韓日本人にも高評価。",
     "tags": [
       "スイーツ",
       "モンブラン",
@@ -9639,120 +8957,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "takoyaki-hongdae",
-    "name": "弘大 たこ焼き",
-    "name_ja": "弘大 たこ焼き",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Hongdae",
-    "address": "서울 마포구 홍대 서울",
-    "lat": 37.5542,
-    "lng": 126.9226,
-    "phone": "",
-    "website": "",
-    "description": "弘大エリアの本格たこ焼き専門店。大ぶりのたこが入った丸いたこ焼きを熱々の状態で提供。ソース・マヨ・鰹節・青のりの定番トップに加え、チーズたこ焼きや明太子たこ焼きなどのアレンジも人気。通りを歩きながら食べられるテイクアウトスタイル。",
-    "price_range": "₩",
-    "hours": "11:00-23:00",
-    "closed_days": "なし",
-    "languages": [
-      "ko",
-      "en"
-    ],
-    "tags": [
-      "たこ焼き",
-      "弘大",
-      "テイクアウト",
-      "ストリートフード"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "tamagoyaki-breakfast-hongdae",
-    "name": "弘大 玉子焼きブレックファスト",
-    "name_ja": "弘大 玉子焼きブレックファスト",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Hongdae",
-    "address": "서울 마포구 홍대 서울",
-    "lat": 37.5535,
-    "lng": 126.922,
-    "phone": "",
-    "website": "",
-    "description": "弘大エリアの朝食・モーニング専門日本食カフェ。出汁を効かせた玉子焼きをメインに、焼き鮭・みそ汁・ご飯が付く日本式モーニングセットが特徴。韓国の朝食文化に飽きた日本人や、日本式の朝食を体験したい韓国人に人気。早朝から営業している数少ないお店。",
-    "price_range": "₩₩",
-    "hours": "07:00-14:00",
-    "closed_days": "月曜",
-    "languages": [
-      "ja",
-      "ko"
-    ],
-    "tags": [
-      "朝食",
-      "日本式モーニング",
-      "弘大",
-      "日本語対応"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "tamayura",
-    "name": "Tamayura",
-    "name_ja": "たまゆら",
-    "area": "Seoul",
-    "address": "Seoul",
-    "phone": null,
-    "website": null,
-    "description": "TripAdvisorでソウルの日本料理No.1評価を獲得したおまかせ専門店。新鮮な魚介を使った繊細なコース料理が楽しめる。完全予約制。",
-    "tags": [
-      "おまかせ",
-      "寿司",
-      "要予約",
-      "高級"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "website",
-    "last_verified": "2026-03-26",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tamayura-jw-marriott",
-    "name": "タマユラ",
+    "name": "タマユラ（Tamayura）",
     "name_ja": "タマユラ",
     "area": "瑞草（JWマリオット）",
-    "address": "176 Sinbanpo-ro, Seocho-gu, Seoul, JW Marriott Hotel",
-    "phone": null,
-    "website": null,
-    "description": "JWマリオットホテル内の高級日本料理レストラン。鉄板焼きと懐石コースが楽しめ、完全個室もあり。ビジネスディナーや特別な会食に最適。在韓日本人ビジネスパーソンの接待の場としても利用されることが多い高級店。",
+    "address": "176 Sinbanpo-ro, Seocho-gu, Seoul, JW Marriott Hotel Seoul",
+    "phone": "+82224426900",
+    "website": "https://tamayura.jwmarriottseoul.com/",
+    "description": "JWマリオットホテルソウル内の高級日本料理レストラン。250年の樹齢を持つ檜のカウンターで提供する江戸前寿司おまかせと鉄板焼きが看板。完全予約制。",
     "tags": [
       "懐石",
       "鉄板焼き",
@@ -9769,17 +8985,19 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "完全予約制。ランチ・ディナー営業",
+    "place_reviewed": true
   },
   {
     "slug": "tamgwang-curry-seongsu",
-    "name": "Tamgwang",
+    "name": "탐광カレー（Tamgwang Curry）",
     "name_ja": "タムグァンカレー",
     "area": "Seongdong-gu (Seongsu)",
     "address": "315-24 Seongsu-dong 2-ga, Seongdong-gu, Seoul",
-    "phone": null,
+    "phone": "+82708869333",
     "website": null,
-    "description": "聖水駅4番出口近くの日本式カレー店「タムグァンカレー」。本格的な日本式カレーライスを提供する聖水エリアのカレー専門店の日本式専門店。",
+    "description": "聖水駅4番出口近くの日本式カレー専門店。本格的なスパイスと丁寧な仕込みが評判で、聖水エリアの人気店。",
     "tags": [
       "カレー"
     ],
@@ -9793,17 +9011,19 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "営業時間: 11:30〜21:00（定休日要確認）",
+    "place_reviewed": true
   },
   {
     "slug": "tanggo-jib-hongdae",
-    "name": "당고집",
+    "name": "당고집（だんごや）",
     "name_ja": "だんご集",
     "area": "弘大",
     "address": "5 Eoulmadang-ro 3-gil, Mapo-gu, Seoul",
-    "phone": null,
+    "phone": "+82707573164",
     "website": null,
-    "description": "弘大にある日本式だんご専門店。本格的なだんごと季節限定の桜かき氷が名物。日本の和菓子文化をソウルで再現した個性的なお店で、インスタ映えするスイーツとして韓国でも注目を集めている。在韓日本人には懐かしの味。",
+    "description": "弘大エリアにある日本式だんご専門カフェ。餡子・抹茶・醤油など多彩なだんごと桜かき氷が名物。韓国で本物の和菓子文化を体験できるカフェとして在韓日本人にも人気。",
     "tags": [
       "だんご",
       "和菓子",
@@ -9819,17 +9039,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tani-next-door-myeongdong",
-    "name": "Tani Next Door",
+    "name": "タニネクストドア（TANI Next Door）",
     "name_ja": "タニ・ネクストドア",
     "area": "明洞",
-    "address": "73 Namdaemun-ro, Jung-gu, Seoul, Lotte Department Store Avenue L 9F",
+    "address": "73 Namdaemun-ro, Jung-gu, Seoul, Lotte Avenuel 9F",
     "phone": null,
     "website": null,
-    "description": "ロッテデパート アベニューL内の上質な日本料理レストラン。新鮮な海鮮を使ったメニューが充実し、クリームみそソースのホタテや銀ダラが絶品と評判。ビジネスディナーから特別な食事まで対応できる洗練された空間。",
+    "description": "ロッテ百貨店アベニューL9階にある上質な日本料理レストラン。新鮮な海鮮を使った和食を基本に、フランス料理の要素を取り入れた創作コースが評判。",
     "tags": [
       "高級和食",
       "海鮮",
@@ -9845,17 +9066,19 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "ランチコース 40,000〜60,000ウォン、ディナー 66,000ウォン〜",
+    "place_reviewed": true
   },
   {
     "slug": "tebo-udon-apgujeong",
-    "name": "Tebo",
+    "name": "テボ（Tebo）",
     "name_ja": "テボ",
     "area": "Gangnam-gu (Apgujeong)",
     "address": "13-3 Apgujeong-ro 4-gil, Gangnam-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "狎鷗亭エリアの自家製うどん店「テボ」。多彩なうどんメニューを提供し、定番から創作まで幅広く対応する日本式うどん専門店の日本式専門店。",
+    "description": "狎鷗亭エリアの自家製うどん店「テボ」。多彩なうどんメニューを提供し、定番から創作まで幅広く対応する日本式うどん専門店。",
     "tags": [
       "うどん",
       "手打ち"
@@ -9870,193 +9093,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "teishoku-yeouido",
-    "name": "汝矣島 定食",
-    "name_ja": "汝矣島 定食",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Yeouido",
-    "address": "서울 영등포구 여의도동 서울",
-    "lat": 37.5219,
-    "lng": 126.9244,
-    "phone": "",
-    "website": "",
-    "description": "汝矣島のビジネスエリアにある日本式定食レストラン。焼き鮭・さばの塩焼き・煮魚をメインにしたランチ定食が充実。忙しいビジネスパーソンが昼休みに食べる本格的な和食ランチとして高評価。日本語メニューと日本語スタッフで安心感がある。",
-    "price_range": "₩₩",
-    "hours": "11:30-14:00/17:30-21:00",
-    "closed_days": "日曜",
-    "languages": [
-      "ja",
-      "ko"
-    ],
-    "tags": [
-      "定食",
-      "汝矣島",
-      "ビジネスランチ",
-      "日本語対応"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "tempura-lunch-sinchon",
-    "name": "新村 天ぷらランチ",
-    "name_ja": "新村 天ぷらランチ",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Sinchon",
-    "address": "서울 서대문구 신촌동 서울",
-    "lat": 37.5553,
-    "lng": 126.9367,
-    "phone": "",
-    "website": "",
-    "description": "新村エリアにあるランチタイム限定の天ぷら定食専門店。リーズナブルな価格で揚げたての天ぷらと白飯・みそ汁・漬物がセットになった定食が味わえる。学生街ならではのコスパの良さと本格的な天ぷら技術のバランスが好評で、連日満席になる人気店。",
-    "price_range": "₩₩",
-    "hours": "11:00-14:30",
-    "closed_days": "日曜",
-    "languages": [
-      "ko"
-    ],
-    "tags": [
-      "天ぷら",
-      "ランチ",
-      "新村",
-      "コスパ"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "tempura-restaurant-gangnam",
-    "name": "江南 天ぷら料理店",
-    "name_ja": "江南 天ぷら料理店",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Gangnam",
-    "address": "서울 강남구 청담동 서울",
-    "lat": 37.5233,
-    "lng": 127.044,
-    "phone": "",
-    "website": "",
-    "description": "江南の高級エリアにある天ぷら専門店。シェフが目の前で揚げる出来立ての天ぷらを天つゆや塩で楽しむカウンター形式のレストラン。エビ・キス・かぼちゃ・蓮根など厳選食材を軽い衣でカラッと揚げた本格的な天ぷらが評判。日本語スタッフ在籍。",
-    "price_range": "₩₩₩₩",
-    "hours": "12:00-14:30/18:00-22:00",
-    "closed_days": "月曜",
-    "languages": [
-      "ja",
-      "ko"
-    ],
-    "tags": [
-      "天ぷら",
-      "江南",
-      "日本語対応",
-      "高級"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "tempura-restaurant-sinsa",
-    "name": "新沙 天ぷら",
-    "name_ja": "新沙 天ぷら",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Sinsa",
-    "address": "서울 강남구 신사동 서울",
-    "lat": 37.5199,
-    "lng": 127.0223,
-    "phone": "",
-    "website": "",
-    "description": "新沙洞の静かな路地にある天ぷら専門店。揚げたてのエビ天・野菜天・かき揚げを天つゆで食べるスタイルで、定食からアラカルトまで選べる。落ち着いた雰囲気でゆっくり食事ができる大人向けのレストランとして人気が高く、週末は予約が埋まりやすい。",
-    "price_range": "₩₩₩",
-    "hours": "12:00-14:30/18:00-21:30",
-    "closed_days": "月曜",
-    "languages": [
-      "ja",
-      "ko"
-    ],
-    "tags": [
-      "天ぷら",
-      "新沙",
-      "日本語対応"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "tenya-tempura-seoul",
-    "name": "Tenya Seoul",
-    "name_ja": "てんや ソウル",
-    "area": "Seoul",
-    "address": "Seoul",
-    "phone": null,
-    "website": null,
-    "description": "日本の天丼チェーン「てんや」のソウル店。サクサクの天ぷらが載った天丼をリーズナブルに提供。日本と同品質の天ぷらをソウルで気軽に味わえる。",
-    "tags": [
-      "天丼",
-      "天ぷら",
-      "チェーン"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "teppan-grand-hyatt-seoul",
-    "name": "Teppan Grand Hyatt Seoul",
+    "name": "Teppan（グランドハイアットソウル）",
     "name_ja": "鉄板 グランドハイアットソウル",
     "area": "Yongsan-gu",
     "address": "322 Sowol-ro, Yongsan-gu, Seoul",
-    "phone": null,
-    "website": "https://www.hyatt.com/",
-    "description": "グランドハイアットソウル内の鉄板焼きレストラン。シェフが目の前の鉄板で調理する高級鉄板焼きコースを提供。ミシュランガイド掲載。",
+    "phone": "+8227998272",
+    "website": "https://www.hyatt.com/grand-hyatt/en-US/selrs-grand-hyatt-seoul/dining",
+    "description": "グランドハイアットソウル内のミシュランガイド掲載鉄板焼きレストラン。アペタイザーからデザートまで全てを鉄板で調理するスタイルが特徴。ソウルを代表するホテルダイニング。",
     "tags": [
       "鉄板焼き",
       "ミシュラン",
@@ -10072,55 +9120,19 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "teppanyaki-cheongdam",
-    "name": "清潭 鉄板焼き",
-    "name_ja": "清潭 鉄板焼き",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Cheongdam",
-    "address": "서울 강남구 청담동 서울",
-    "lat": 37.5233,
-    "lng": 127.044,
-    "phone": "",
-    "website": "",
-    "description": "清潭洞の高級エリアにある本格鉄板焼きレストラン。シェフが目の前の鉄板で牛ステーキ・海鮮・野菜を焼き上げるエンターテインメント感のある食事体験が人気。特別な記念日や接待の場として重宝されており、ソムリエが日本ワインとのペアリングも提案してくれる。",
-    "price_range": "₩₩₩₩",
-    "hours": "12:00-14:30/18:00-22:00",
-    "closed_days": "月曜",
-    "languages": [
-      "ja",
-      "ko"
-    ],
-    "tags": [
-      "鉄板焼き",
-      "清潭洞",
-      "高級",
-      "記念日"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "要予約。グランドハイアットソウル内（322 Sowol-ro）",
+    "place_reviewed": true
   },
   {
     "slug": "teppanyaki-sogo-seoul",
-    "name": "Teppan Yaki SOGO",
+    "name": "鉄板焼き SOGO（Teppan Yaki SOGO）",
     "name_ja": "鉄板焼き SOGO",
     "area": "Gangnam",
-    "address": "Gangnam-gu, Seoul",
-    "phone": null,
+    "address": "19-38 Cheongdam-dong, Gangnam-gu, Seoul",
+    "phone": "+821090890271",
     "website": null,
-    "description": "江南にある本格鉄板焼きレストラン「鉄板焼き SOGO」。厳選食材をシェフが目の前の鉄板で調理するライブキッチンスタイルが魅力。",
+    "description": "清潭洞の隠れ家的プライベート鉄板焼き店。最大6名のみの完全個室で、シェフ自ら前菜からデザートまで調理。1名200,000ウォンのフルコース。特別な食事や記念日に最適。",
     "tags": [
       "鉄板焼き",
       "高級",
@@ -10136,57 +9148,21 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "teriyaki-restaurant-gangnam",
-    "name": "江南 照り焼きレストラン",
-    "name_ja": "江南 照り焼きレストラン",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Gangnam",
-    "address": "서울 강남구 역삼동 서울",
-    "lat": 37.5008,
-    "lng": 127.0361,
-    "phone": "",
-    "website": "",
-    "description": "江南エリアの照り焼き専門レストラン。チキン・サーモン・豚バラの照り焼きをメインに据えた定食スタイルで提供。甘辛い照り焼きソースは自家製で、ご飯との相性が抜群と評判。ランチは特にオフィスワーカーに人気で、テイクアウト対応も行っている。",
-    "price_range": "₩₩",
-    "hours": "11:00-21:00",
-    "closed_days": "日曜",
-    "languages": [
-      "ko",
-      "en"
-    ],
-    "tags": [
-      "照り焼き",
-      "江南",
-      "定食",
-      "テイクアウト"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "ランチ・ディナー各200,000ウォン/名。完全予約制・最大6名",
+    "place_reviewed": true
   },
   {
     "slug": "timber-house-park-hyatt",
-    "name": "The Timber House",
+    "name": "The Timber House（パークハイアットソウル）",
     "name_ja": "ティンバーハウス（パークハイアットソウル）",
     "area": "Gangnam-gu (Samseong)",
     "address": "606 Teheran-ro, Gangnam-gu, Seoul, Park Hyatt Seoul",
     "lat": null,
     "lng": null,
-    "phone": null,
-    "website": "https://www.hyatt.com/park-hyatt/en-US/selph",
-    "description": "パークハイアットソウル内の日本料理レストラン。寿司カウンターと個室を備え、厳選された日本酒のセレクションも充実。ホテルダイニングならではの上質なサービス。",
+    "phone": "+82220161234",
+    "website": "https://www.seoul.park.hyattrestaurants.kr/en/web/the-timber-house/",
+    "description": "パークハイアットソウルB1のヴァイナルバー兼日本料理店。江戸前寿司おまかせ・刺身・居酒屋スタイルの料理と厳選日本酒が揃い、週末はDJパフォーマンスも楽しめる上質な空間。",
     "tags": [
       "日本料理",
       "寿司",
@@ -10205,17 +9181,19 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "月〜土夜営業。金土はDJ・ピアノライブあり",
+    "place_reviewed": true
   },
   {
     "slug": "tokkijung-hongdae-branch",
-    "name": "토끼정 홍대점",
+    "name": "トッキジョン 弘大店（토끼정 홍대점）",
     "name_ja": "ウサギ庭 弘大店",
     "area": "弘大",
-    "address": "Hongdae, Mapo-gu, Seoul",
+    "address": "서울특별시 마포구 서교동 366-4",
     "phone": null,
     "website": null,
-    "description": "弘大にある韓国・日本フュージョンの丼ぶり・うどん店。韓国食材と日本料理のスタイルを組み合わせたユニークなメニューが特徴。弘大エリアの学生から在韓日本人まで幅広く支持される食堂スタイルの人気店。",
+    "description": "弘大エリアにある韓日フュージョンのうどん・丼ぶり店。クリームカレーうどんが看板メニューで行列ができる人気店。弘大エリアの学生から在韓日本人まで幅広く支持される。",
     "tags": [
       "丼",
       "うどん",
@@ -10231,19 +9209,21 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "営業時間: 11:30〜23:00（L.O. 22:00）",
+    "place_reviewed": true
   },
   {
     "slug": "tokyo-babsang",
-    "name": "Tokyo Babsang",
+    "name": "Tokyo Babsang（東京バプサン）",
     "name_ja": "東京バプサン",
     "area": "Busan",
-    "address": "34-6 Namcheonbada-ro, Suyeong-gu, Busan, South Korea",
+    "address": "34-6 Namcheonbada-ro, Suyeong-gu, Busan",
     "lat": 35.1484,
     "lng": 129.1139,
     "phone": "+827075761428",
     "website": "https://instagram.com/begoing22?utm_source=ig_profile_share&igshid=1ixdpc4k7kx6e",
-    "description": "釜山にある東京の家庭料理をコンセプトにした日本式食堂「東京バプサン」。定食やどんぶりを手頃な価格で提供する日本式の食堂店舗。",
+    "description": "釜山・広安里近くの鰻料理専門店。東京の名店「寿箱」で修業したシェフが手がける鰻重・ひつまぶしが看板。ミシュランガイド釜山掲載の実力店。",
     "tags": [
       "定食",
       "家庭料理",
@@ -10261,19 +9241,21 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "営業時間: ランチ 11:30〜15:00、ディナー 17:30〜21:00（L.O. 各30分前）",
+    "place_reviewed": true
   },
   {
     "slug": "tokyo-saikabo",
-    "name": "Tokyo Saikabo",
+    "name": "Tokyo Saikabo（東京菜花房）",
     "name_ja": "東京菜花房",
-    "area": "Incheon",
-    "address": "9 Dosan-daero 101-gil, Gangnam District, Seoul, South Korea",
+    "area": "清潭（チョンダム）",
+    "address": "127-19 Cheongdam-dong, Gangnam-gu, Seoul",
     "lat": 37.5257,
     "lng": 127.0525,
-    "phone": "+8225170108",
+    "phone": "+82225170108",
     "website": "http://tokyosaikabo.com/",
-    "description": "仁川にある日本式レストラン「東京菜花房」。日本料理をアレンジした創作メニューを提供する仁川エリアの日本料理専門店の日本式専門店。",
+    "description": "清潭洞の日本料理レストラン「東京菜花房」。寿司・刺身・和食コースを美しい建物の中で楽しめる。日本酒セレクションも充実。ランチ・ディナーともにコース提供。",
     "tags": [
       "日本料理",
       "仁川"
@@ -10290,19 +9272,21 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "営業時間: 11:30〜02:00",
+    "place_reviewed": true
   },
   {
     "slug": "tokyo-udon",
-    "name": "Tokyo udon",
+    "name": "Tokyo Udon（東京うどん）",
     "name_ja": "東京うどん",
     "area": "Seoul",
-    "address": "28 Saemunan-ro 9-gil, 사직동 Jongno District, Seoul, South Korea",
+    "address": "28 Saemunan-ro 9-gil, Jongno-gu, Seoul",
     "lat": 37.5713,
     "lng": 126.9757,
     "phone": null,
     "website": null,
-    "description": "ソウルにある東京スタイルの日本式うどん専門店「東京うどん」。こしのある麺と出汁にこだわった本格的な日本式うどんを提供する。",
+    "description": "鍾路区にある東京スタイルの日本式うどん専門店。肉厚のちくわうどんと日本式カレーライスが看板メニューで手頃な価格が魅力。地元の常連客に長く愛される食堂スタイルの店。",
     "tags": [
       "うどん"
     ],
@@ -10318,17 +9302,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tonari-udon-songpa",
-    "name": "Tonari Udon",
+    "name": "Tonari Udon（となりうどん）",
     "name_ja": "となりうどん",
     "area": "Songpa-gu",
     "address": "43-1 Songpa-dong, Songpa-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "松坡エリアのモダンうどん店「となりうどん」。エビフライうどん・明太子バターうどんなど創作系の日本式うどんメニューを提供する。",
+    "description": "松坡エリアのモダンうどん店「となりうどん」。エビフライうどん・明太子バターうどんなど創作系メニューが揃い、SNSでも話題の人気店。",
     "tags": [
       "うどん",
       "創作"
@@ -10343,48 +9328,23 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "tonkatsu-aoki-gangnam",
-    "name": "Tonkatsu Aoki",
-    "name_ja": "とんかつ あおき",
-    "area": "Gangnam-gu",
-    "address": "Gangnam-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "江南にある本格とんかつ専門店。厳選された豚肉を使い、サクサクに揚げたとんかつが評判。定食スタイルでごはん・キャベツ・味噌汁付き。",
-    "tags": [
-      "とんかつ",
-      "定食",
-      "江南"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tonkatsu-bundang",
-    "name": "盆唐 とんかつ",
+    "name": "盆唐 とんかつ（분당 돈가스）",
     "name_ja": "盆唐 とんかつ",
     "category": "restaurant",
     "country": "kr",
     "city": "Seongnam",
-    "area": "Bundang",
-    "address": "경기 성남시 분당구 정자동 서울",
+    "area": "盆唐（城南市）",
+    "address": "정자동, Bundang-gu, Seongnam-si, Gyeonggi-do",
     "lat": 37.3622,
     "lng": 127.1148,
     "phone": "",
     "website": "",
-    "description": "盆唐のとんかつ専門店。厚切りロースかつとヒレかつを揃えた本格的なとんかつ定食を提供。千切りキャベツ・みそ汁・ご飯付きの定食は手頃な価格で満足感が高いと評判。盆唐在住の日本人ファミリーが週に何度も通うほどの地域の人気店。",
+    "description": "盆唐エリアのとんかつ専門店。厚切りロース・ヒレかつを揃えた本格的な定食スタイルで、千切りキャベツ・みそ汁・ご飯付き。盆唐在住の日本人家族に人気の地域密着店。",
     "price_range": "₩₩",
     "hours": "11:00-21:00",
     "closed_days": "月曜",
@@ -10407,108 +9367,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "tonkatsu-itaewon",
-    "name": "梨泰院 とんかつ",
-    "name_ja": "梨泰院 とんかつ",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Itaewon",
-    "address": "서울 용산구 이태원동 서울",
-    "lat": 37.5344,
-    "lng": 126.9944,
-    "phone": "",
-    "website": "",
-    "description": "梨泰院の多文化エリアにある日本式とんかつ専門店。厚切りのロースかつ・ヒレかつを揚げたての熱々で提供。丁寧に作ったキャベツの千切りと特製ソースがマッチし、本場の味に近いとんかつが楽しめると好評。外国人が多いエリアで日本語・英語でのオーダーに対応。",
-    "price_range": "₩₩",
-    "hours": "11:30-22:00",
-    "closed_days": "月曜",
-    "languages": [
-      "ja",
-      "ko",
-      "en"
-    ],
-    "tags": [
-      "とんかつ",
-      "梨泰院",
-      "日本語対応"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "tonkatsu-jamsil",
-    "name": "蚕室 とんかつ",
-    "name_ja": "蚕室 とんかつ",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Jamsil",
-    "address": "서울 송파구 잠실 서울",
-    "lat": 37.5127,
-    "lng": 127.0993,
-    "phone": "",
-    "website": "",
-    "description": "蚕室エリアのとんかつ専門店。ロースかつ・ヒレかつ・ミックスカツなどの定番メニューに加え、韓国風ヤンニョムソースをかけたスパイシーとんかつも人気メニュー。ロッテワールド周辺に位置し、テーマパーク観光後の食事としても利用しやすい立地。",
-    "price_range": "₩₩",
-    "hours": "11:00-22:00",
-    "closed_days": "月曜",
-    "languages": [
-      "ja",
-      "ko"
-    ],
-    "tags": [
-      "とんかつ",
-      "蚕室",
-      "日本語対応"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "tonkatsu-maisen-seoul",
-    "name": "Tonkatsu Maisen Seoul",
-    "name_ja": "とんかつ まい泉 ソウル",
-    "area": "Gangnam-gu",
-    "address": "Gangnam-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "東京・表参道発の老舗とんかつチェーン「まい泉」のソウル店。口の中でとろける柔らかいヒレかつが看板。ミニカツサンドもテイクアウト可能。",
-    "tags": [
-      "とんかつ",
-      "老舗",
-      "東京発"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tonkatsu-mapo-2",
