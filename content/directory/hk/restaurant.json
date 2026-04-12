@@ -27292,15 +27292,15 @@
   },
   {
     "slug": "sugitama-aberdeen",
-    "name": "Sugitama",
+    "name": "Sugidama (Aberdeen)",
     "name_ja": "杉玉 香港仔店",
     "area": "Aberdeen",
-    "address": "Aberdeen, Hong Kong",
+    "address": "Shop 1, G/F, Aberdeen Centre Site 2, 7-11 Nam Ning Street, Aberdeen, Hong Kong",
     "lat": null,
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "アバディーン（香港仔）にある日本料理・鮨店「Sugitama」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "アバディーン（香港仔）にある日本発の寿司居酒屋チェーン「杉玉」。2017年創業のFood & Life Companies運営。厳選食材の寿司・日本酒を手頃な価格で楽しめる。",
     "tags": [
       "居酒屋",
       "寿司"
@@ -27317,19 +27317,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sugitama-hung-hom",
-    "name": "Sugitama",
-    "name_ja": "杉玉",
+    "name": "Sugidama (Whampoa)",
+    "name_ja": "杉玉 黄埔店",
     "area": "Hung Hom",
-    "address": "Whampoa New Village, Hung Hom",
+    "address": "Shop G, G/F, Ho Wing Building, Whampoa Estate, 53-57C Man Tai Street, Hung Hom",
     "lat": null,
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "フンホム（紅磡）にある日本料理・鮨店「Sugitama」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "フンホム（紅磡）黄埔エステートにある日本発の寿司居酒屋「杉玉」。Food & Life Companies運営。海外旗艦店として開業し、寿司・日本酒・炉端料理を提供。",
     "tags": [
       "izakaya",
       "sushi",
@@ -27347,7 +27348,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "suki-kansai-causeway-bay",
@@ -27357,7 +27359,7 @@
     "address": "G/F, 16 Yiu Wa Street, Causeway Bay, Hong Kong",
     "phone": "+85224225428",
     "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある銅鑼湾の平価すき焼き店。北海道十勝和牛を使ったすき焼きをHK$168から楽しめる。関西風の甘辛だれが特徴。",
+    "description": "コーズウェイベイ（銅鑼湾）のすき焼き専門店。北海道十勝和牛を使った関西風すき焼きをHK$168からに提供。日本の伝統タレとA4黒毛和牛が特徴。",
     "tags": [
       "すき焼き",
       "和牛",
@@ -27373,68 +27375,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "suki-kansai-causeway-bay-2",
-    "name": "Suki Kansai Causeway Bay",
-    "name_ja": "壽喜関西 銅鑼湾店",
-    "area": "Causeway Bay",
-    "address": "Causeway Bay, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある日本食レストラン「Suki Kansai Causeway Bay」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "すき焼き",
-      "関西風",
-      "和牛"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "suki-kansai-jordan",
-    "name": "Suki Kansai",
-    "name_ja": "鋤 関西",
-    "area": "Jordan",
-    "address": "Jordan, Kowloon",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "ジョーダン（佐敦）にある日本食レストラン「Suki Kansai」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "sukiyaki",
-      "kansai-style",
-      "wagyu",
-      "hot-pot"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "suki-kansai-tst",
@@ -27444,7 +27386,7 @@
     "address": "Shop 101, 1/F, The Cameron, 33 Cameron Road, Tsim Sha Tsui, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある尖沙咀のカジュアルすき焼き店。手頃な価格で和牛すき焼きを楽しめる。カメロンロードのThe Cameron内。",
+    "description": "チムサーチョイ（尖沙咀）The Cameron内のすき焼き専門店。日本直輸入のA4黒毛和牛と季節野菜を使った関西風すき焼きを提供。銅鑼湾店の姉妹店。",
     "tags": [
       "すき焼き",
       "和牛",
@@ -27460,37 +27402,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "suki-kansai-tst-2",
-    "name": "Suki Kansai Tsim Sha Tsui",
-    "name_ja": "壽喜関西 尖沙咀店",
-    "area": "Tsim Sha Tsui",
-    "address": "Tsim Sha Tsui, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある日本食レストラン「Suki Kansai Tsim Sha Tsui」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "すき焼き",
-      "関西風",
-      "和牛"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sukiya-hk-sheung-wan",
@@ -27500,7 +27413,7 @@
     "address": "Sheung Wan, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "サンポ（上環）にある日本食レストラン「Sukiya Sheung Wan」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "サンポ（上環）にある日本の牛丼チェーン「すき家」。牛丼・カレー・定食を手頃な価格で提供。日本滞在経験のある日本人旅行者・在住者に親しみやすいチェーン。",
     "tags": [
       "牛丼",
       "日本発チェーン"
@@ -27515,7 +27428,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sukiya-hung-hom-whampoa",
@@ -27527,7 +27441,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "フンホム（紅磡）にある日本食レストラン「Sukiya Hung Hom」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "フンホム（紅磡）Whampoa内にある日本の牛丼チェーン「すき家」。牛丼・定食を24時間提供。日本人旅行者・在住者が馴染みやすい日本発ファストフードチェーン。",
     "tags": [
       "丼物",
       "牛丼",
@@ -27545,7 +27459,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sukiya-kowloon-bay-amoy",
@@ -27557,7 +27472,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "カウルーンベイ（九龍灣）にある日本食レストラン「Sukiya Kowloon Bay」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "九龍湾（カウルーンベイ）のAmoy Plaza内にある日本の牛丼チェーン「すき家」。牛丼・定食を手頃な価格で提供。日本人旅行者・在住者に馴染み深い日本発チェーン。",
     "tags": [
       "丼物",
       "牛丼",
@@ -27575,7 +27490,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sukiya-lok-fu",
@@ -27587,7 +27503,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ロックフー（樂富）にある日本食レストラン「Sukiya Lok Fu」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "ロックフー（樂富）Lok Fu Place内にある日本の牛丼チェーン「すき家」。牛丼・カレー・定食を手頃な価格で提供。日本人旅行者・在住者に馴染み深い日本発チェーン。",
     "tags": [
       "丼物",
       "牛丼",
@@ -27605,7 +27521,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sukiya-mong-kok-ramen",
@@ -27617,7 +27534,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "モンコック（旺角）にある日本食レストラン「Sukiya Mong Kok」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "モンコック（旺角）にある日本の牛丼チェーン「すき家」。牛丼・定食を手頃な価格で提供。日本人旅行者・在住者に馴染み深い日本発ファストフードチェーン。",
     "tags": [
       "丼物",
       "牛丼",
@@ -27635,7 +27552,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sukiya-sha-tin-ntp",
@@ -27647,7 +27565,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "シャーティン（沙田）にある日本食レストラン「Sukiya Sha Tin」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "シャーティン（沙田）New Town Plaza III内にある日本の牛丼チェーン「すき家」。牛丼・定食を手頃な価格で提供。日本人旅行者・在住者に馴染み深い日本発チェーン。",
     "tags": [
       "丼物",
       "牛丼",
@@ -27665,7 +27583,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sukiya-tai-koo-kornhill",
@@ -27677,7 +27596,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Tai Kooにある日本食レストラン「Sukiya Tai Koo」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "太古（タイクー）Kornhill Plaza内にある日本の牛丼チェーン「すき家」。牛丼・定食を手頃な価格で提供。日本人旅行者・在住者に馴染み深い日本発ファストフードチェーン。",
     "tags": [
       "丼物",
       "牛丼",
@@ -27695,7 +27614,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sukiya-tko-place",
@@ -27707,7 +27627,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ツェンクワンオー（将軍澳）にある日本食レストラン「Sukiya Tseung Kwan O」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "ツェンクワンオー（将軍澳）TKO Place内にある日本の牛丼チェーン「すき家」。牛丼・定食を手頃な価格で提供。日本人旅行者・在住者に馴染み深い日本発チェーン。",
     "tags": [
       "丼物",
       "牛丼",
@@ -27725,7 +27645,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sukiya-tst-cameron",
@@ -27737,7 +27658,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある日本食レストラン「Sukiya Tsim Sha Tsui」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "チムサーチョイ（尖沙咀）Cameron Road沿いにある日本の牛丼チェーン「すき家」。牛丼・定食を手頃な価格で提供。日本人旅行者・在住者に馴染み深い日本発チェーン。",
     "tags": [
       "丼物",
       "牛丼",
@@ -27755,7 +27676,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sukiya-wan-chai-johnston",
@@ -27767,7 +27689,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ワンチャイ（湾仔）にある日本食レストラン「Sukiya Wan Chai」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "ワンチャイ（湾仔）Johnston Road沿いにある日本の牛丼チェーン「すき家」。牛丼・定食を手頃な価格で提供。日本人旅行者・在住者に馴染み深い日本発チェーン。",
     "tags": [
       "丼物",
       "牛丼",
@@ -27785,7 +27707,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sukiyaki-mori-central",
@@ -27795,7 +27718,7 @@
     "address": "1/F, Stanley 11, 11 Stanley Street, Central, Hong Kong",
     "phone": "+85228336032",
     "website": "https://sukiyakimori.com.hk/",
-    "description": "セントラルのすき焼き専門店。厳選された和牛を使った本格すき焼きを提供。姉妹店のSukiyaki Mori Kyuuも近隣に展開。",
+    "description": "セントラル（中環）Stanley Streetにある日本式すき焼き専門店。厳選和牛を使った本格すき焼きを提供。姉妹店「すき焼森 究」も近隣に展開している。",
     "tags": [
       "すき焼き",
       "和牛"
@@ -27810,7 +27733,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sukiyaki-mori-kyuu-central",
@@ -27820,7 +27744,7 @@
     "address": "G/F, 51 Peel Street, Central, Hong Kong",
     "phone": "+85223220800",
     "website": "https://sukiyakimori.com.hk/",
-    "description": "セントラル（中環）にある日本食レストラン「Sukiyaki Mori Kyuu」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "セントラル（中環）Peel Streetにある日本式すき焼き専門店「すき焼森 究」。本店と同様に厳選和牛を使った本格すき焼きを提供。すき焼森の上位業態。",
     "tags": [
       "すき焼き",
       "和牛"
@@ -27835,7 +27759,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sukiyaki-nakagawa-causeway-bay",
@@ -27847,7 +27772,7 @@
     "lng": null,
     "phone": "+85253943688",
     "website": null,
-    "description": "関西風すき焼きの専門店。松阪・大分・陣内の和牛を使用したおまかせコースを15席のカウンターで提供。板垣和幸シェフが25年の経験で仕上げる本格すき焼き。",
+    "description": "コーズウェイベイ（銅鑼湾）Cubusにあるすき焼き専門店。板垣和幸シェフ（25年の経験）による松阪・大分・陣内産和牛のおまかせコース。15席のカウンター限定。",
     "tags": [
       "すき焼き",
       "和牛",
@@ -27866,49 +27791,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sukiyaki-nakagawa-cb",
-    "name": "Sukiyaki Nakagawa",
-    "name_ja": "すき焼き中川",
-    "area": "Causeway Bay",
-    "address": "3/F, Cubus, 1 Hoi Ping Road, Causeway Bay, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": "+85253943688",
-    "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある日本料理・おまかせ店「Sukiyaki Nakagawa」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "すき焼き",
-      "おまかせ",
-      "和牛",
-      "日本人シェフ",
-      "要予約"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sum-siu-bar-grill-cb",
     "name": "Sum Siu Bar & Grill",
     "name_ja": "サム シウ バー & グリル",
     "area": "Causeway Bay",
-    "address": "487-489 Lockhart Road, Causeway Bay, Hong Kong",
+    "address": "22-23/F, L'Hart, 487-489 Lockhart Road, Causeway Bay, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にあるカジュアルな居酒屋スタイルのバー&グリル。焼き鳥やおつまみを日本酒・ビールと一緒に楽しめる。",
+    "description": "コーズウェイベイ（銅鑼湾）L'Hart高層階にある日本式焼き鳥居酒屋。串焼き・刺身・たたき等のおつまみと日本酒を提供。夜遅くまで営業し、個室も完備。",
     "tags": [
       "居酒屋",
       "バー",
@@ -27924,36 +27818,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sumi-aberdeen",
-    "name": "Sumi",
-    "name_ja": "炭",
-    "area": "Aberdeen",
-    "address": "Aberdeen, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "アバディーン（香港仔）にある日本食レストラン「Sumi」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
-    "tags": [
-      "串焼き",
-      "炭火焼き"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sumi-japanese-dining-bar",
@@ -27965,7 +27831,7 @@
     "lng": 114.1731,
     "phone": null,
     "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある日本式バー「Sumi Japanese Dining Bar」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
+    "description": "チムサーチョイ（尖沙咀）Carnarvon Road沿いにある日本式バー。日本酒・焼酎・クラフトビールと居酒屋メニューを提供。在香港日本人や日本文化ファンが集まる。",
     "tags": [
       "居酒屋",
       "バー"
@@ -27982,38 +27848,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sumi-omakase-sha-tin",
-    "name": "Sumi Omakase",
-    "name_ja": "墨おまかせ",
-    "area": "Sha Tin",
-    "address": "Sha Tin, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "シャーティン（沙田）にある沙田のおまかせ寿司レストラン。カウンター席で職人が目の前で握る本格おまかせコースを提供。予約推奨。",
-    "tags": [
-      "japanese",
-      "omakase",
-      "sushi",
-      "sha-tin"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sumi-omakase-tai-po",
@@ -28025,7 +27861,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "タイポー（大埔）にある日本料理・鮨店「Sumi」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "タイポー（大埔）Greenery Plaza内の日本料理おまかせ店。HK$1,000〜のコースで前菜・刺身・熱料理・握り寿司・デザートを順にサービス。要予約。",
     "tags": [
       "寿司",
       "おまかせ"
@@ -28042,38 +27878,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sumi-omakase-tai-po-2",
-    "name": "Sumi Omakase",
-    "name_ja": "墨おまかせ",
-    "area": "Tai Po",
-    "address": "Tai Po, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "タイポー（大埔）にある大埔のおまかせ寿司店。職人が厳選した旬の食材でおまかせコースを提供。カウンター席での贅沢な寿司体験。",
-    "tags": [
-      "japanese",
-      "omakase",
-      "sushi",
-      "tai-po"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sumi-yakitori-causeway-bay",
@@ -28085,7 +27891,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある日本式居酒屋「SUMI Yakitori」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
+    "description": "コーズウェイベイ（銅鑼湾）Hennessy Road沿いにある日本式焼き鳥専門店。備長炭を使った本格焼き鳥と日本酒を提供。居酒屋スタイルで気軽に楽しめる。",
     "tags": [
       "焼き鳥",
       "炉端焼き",
@@ -28103,17 +27909,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sumito-wan-chai",
     "name": "Sumito",
-    "name_ja": "炭人",
+    "name_ja": "炭兎",
     "area": "Wan Chai",
     "address": "6/F, QRE Plaza, 202 Queen's Road East, Wan Chai, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "ワンチャイ（湾仔）にある日本式居酒屋「Sumito」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "ワンチャイ（湾仔）QRE Plaza内の日本式炉端焼き居酒屋「Sumito Tanto（炭兎）」。Causeway Bay「Oyster Hut KAGURA」の姉妹店。炭火の串焼き・炉端料理を提供。",
     "tags": [
       "炉端焼き",
       "居酒屋"
@@ -28132,7 +27939,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sumiya-yakitori-central",
@@ -28144,7 +27952,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.sumiyakitori.com/",
-    "description": "セントラル（中環）にある日本食レストラン「Sumiya Yakitori Japanese Restaurant」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "セントラル（中環）D'Aguilar Streetにある焼き鳥専門店「炭屋」。備長炭を使った本格焼き鳥を提供。日本人料理人が手がける高品質な炭焼き料理が楽しめる。",
     "tags": [
       "焼鳥",
       "備長炭"
@@ -28161,7 +27969,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "superdon-causeway-bay",
@@ -28173,7 +27982,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある日本食レストラン「Superdon」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "コーズウェイベイ（銅鑼湾）Lockhart Road沿いにある日本式丼専門店。新鮮な海鮮を使った海鮮丼・ちらし丼が中心。A5和牛トッピングも選択可能。ランチセットあり。",
     "tags": [
       "丼物",
       "海鮮丼"
@@ -28190,7 +27999,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "superior-manya-japanese-restaurant",
@@ -28202,7 +28012,7 @@
     "lng": 114.1692,
     "phone": "+85236223336",
     "website": "https://inline.app/booking/-NzlZyBWR-EEov4_YxxV:inline-live-3/-Nzm2FtGF3qlbrL11qaH",
-    "description": "モンコック（旺角）にある日本食レストラン「Superior Manya Japanese Restaurant」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "モンコック（旺角）Nathan Road沿いの日本料理店。ランチ・ディナーとも営業し、定食・丼・一品料理を提供。月曜〜金曜はランチ営業あり。",
     "tags": [
       "日本食"
     ],
@@ -28218,7 +28028,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "suppa-causeway-bay",
@@ -28230,7 +28041,7 @@
     "lng": null,
     "phone": "+85235204111",
     "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にあるしゃぶしゃぶ・鍋料理店「Suppa」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "コーズウェイベイ（銅鑼湾）Circle Tower内のしゃぶしゃぶ食べ放題店。和牛を使ったしゃぶしゃぶが人気。1980年代香港をイメージしたレトロな内装が特徴。",
     "tags": [
       "しゃぶしゃぶ",
       "食べ放題",
@@ -28248,36 +28059,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "suppa-causeway-bay-2",
-    "name": "Suppa Causeway Bay",
-    "name_ja": "酢っぱ 銅鑼湾店",
-    "area": "Causeway Bay",
-    "address": "Causeway Bay, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある日本式居酒屋「Suppa Causeway Bay」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "居酒屋",
-      "日本料理"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-apare-tst",
@@ -28287,9 +28070,9 @@
     "address": "7/F, Tak Sing Alliance Building, 115 Chatham Road South, Tsim Sha Tsui",
     "lat": null,
     "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある日本料理・鮨店「Sushi Apare」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "phone": "+85291702433",
+    "website": "https://www.tripadvisor.com/Restaurant_Review-g294217-d25408687-Reviews-Sushi_Apare-Hong_Kong.html",
+    "description": "チムサーチョイ（尖沙咀）Tak Sing Allianceビル7Fにある日本式おまかせ寿司店。10席カウンターで職人が丁寧に握る本格寿司コースを提供。要予約。",
     "tags": [
       "寿司",
       "おまかせ"
@@ -28306,7 +28089,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-bar",
@@ -28318,7 +28102,7 @@
     "lng": 114.1747,
     "phone": "+85266347002",
     "website": "https://facebook.com/kyototeppanyakitst/",
-    "description": "チムサーチョイ（尖沙咀）にある日本式バー「Sushi Bar」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。在香港日本人・旅行者に利用されている。",
+    "description": "チムサーチョイ（尖沙咀）Hart Avenue沿いにある日本式バー兼寿司店。ランチ・ディナー営業で、寿司・居酒屋メニューと日本酒を提供。日曜定休。",
     "tags": [
       "居酒屋",
       "バー"
@@ -28335,7 +28119,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-express-ap-lei-chau",
@@ -28347,7 +28132,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.sushiexpress.com.hk/",
-    "description": "Ap Lei Chauにある日本料理・鮨店「Sushi Express (Lei Tung)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "アプレイチャウ（鴨脷洲）Lei Tung Commercial Centre内にある台湾発の回転寿司チェーン「争鮮」。90種類以上の寿司・刺身を手頃な価格で楽しめる。",
     "tags": [
       "回転寿司",
       "チェーン"
@@ -28364,7 +28149,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-express-causeway-bay",
@@ -28376,7 +28162,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.sushiexpress.com.hk/",
-    "description": "コーズウェイベイ（銅鑼湾）にある日本料理・鮨店「Sushi Express (Causeway Bay)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "コーズウェイベイ（銅鑼湾）Richmond Plaza内にある台湾発の回転寿司チェーン「争鮮」。90種類以上の寿司・刺身を手頃な価格で提供。香港に100店舗以上展開。",
     "tags": [
       "回転寿司",
       "チェーン"
@@ -28393,7 +28179,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-express-fanling",
@@ -28405,7 +28192,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.sushiexpress.com.hk/",
-    "description": "ファンリン（粉嶺）にある日本料理・鮨店「Sushi Express (Fanling)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "ファンリン（粉嶺）Green Code Plaza内にある台湾発の回転寿司チェーン「争鮮」。90種類以上の寿司・刺身を手頃な価格で提供。新界北部で利用しやすい立地。",
     "tags": [
       "回転寿司",
       "チェーン"
@@ -28422,7 +28209,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-express-hung-hom-whampoa",
@@ -28434,7 +28222,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.sushiexpress.com.hk/",
-    "description": "フンホム（紅磡）にある日本料理・鮨店「Sushi Express (Whampoa Hung Hom)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "フンホム（紅磡）Whampoa Garden内にある台湾発の回転寿司チェーン「争鮮」。90種類以上の寿司・刺身を手頃な価格で提供。香港に100店舗以上展開。",
     "tags": [
       "回転寿司",
       "チェーン"
@@ -28451,7 +28239,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-express-jordan",
@@ -28463,7 +28252,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.sushiexpress.com.hk/",
-    "description": "ジョーダン（佐敦）にある日本料理・鮨店「Sushi Express (Jordan)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "ジョーダン（佐敦）Nanking Street沿いにある台湾発の回転寿司チェーン「争鮮」。90種類以上の寿司・刺身を手頃な価格で提供。香港に100店舗以上展開。",
     "tags": [
       "回転寿司",
       "チェーン"
@@ -28480,7 +28269,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-express-kai-tak",
@@ -28492,7 +28282,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.sushiexpress.com.hk/",
-    "description": "Kai Takにある日本料理・鮨店「Sushi Express (One Kai Tak II)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "啓徳（カイタック）One Kai Tak II内にある台湾発の回転寿司チェーン「争鮮」。90種類以上の寿司・刺身を手頃な価格で提供。香港に100店舗以上展開。",
     "tags": [
       "回転寿司",
       "チェーン"
@@ -28509,7 +28299,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-express-kowloon-bay",
@@ -28521,7 +28312,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.sushiexpress.com.hk/",
-    "description": "カウルーンベイ（九龍灣）にある日本料理・鮨店「Sushi Express (Kowloon Bay)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "九龍湾（カウルーンベイ）Amoy Plaza内にある台湾発の回転寿司チェーン「争鮮」。90種類以上の寿司・刺身を手頃な価格で提供。香港に100店舗以上展開。",
     "tags": [
       "回転寿司",
       "チェーン"
@@ -28538,7 +28329,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-express-kwai-fong-kwai-chung-plaza",
@@ -28550,7 +28342,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.sushiexpress.com.hk/",
-    "description": "Kwai Fongにある日本料理・鮨店「Sushi Express (Kwai Chung Plaza)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "クワイフォン（葵芳）Kwai Chung Plaza内にある台湾発の回転寿司チェーン「争鮮」。90種類以上の寿司・刺身を手頃な価格で提供。香港に100店舗以上展開。",
     "tags": [
       "回転寿司",
       "チェーン"
@@ -28567,7 +28359,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-express-kwun-tong",
@@ -28579,7 +28372,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.sushiexpress.com.hk/",
-    "description": "クワントン（観塘）にある日本料理・鮨店「Sushi Express (Kwun Tong)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "クワントン（観塘）Kwun Tong Mansion内にある台湾発の回転寿司チェーン「争鮮」。90種類以上の寿司・刺身を手頃な価格で提供。香港に100店舗以上展開。",
     "tags": [
       "回転寿司",
       "チェーン"
@@ -28596,7 +28389,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-express-kwun-tong-crocodile",
@@ -28608,7 +28402,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.sushiexpress.com.hk/",
-    "description": "クワントン（観塘）にある日本料理・鮨店「Sushi Express (Kwun Tong Crocodile Center)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "クワントン（観塘）Crocodile Center内にある台湾発の回転寿司チェーン「争鮮」。90種類以上の寿司・刺身を手頃な価格で提供。香港に100店舗以上展開。",
     "tags": [
       "回転寿司",
       "チェーン"
@@ -28625,7 +28419,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-express-lok-fu",
@@ -28637,7 +28432,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.sushiexpress.com.hk/",
-    "description": "ロックフー（樂富）にある日本料理・鮨店「Sushi Express (Lok Fu)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "ロックフー（樂富）Lok Fu Place内にある台湾発の回転寿司チェーン「争鮮」。90種類以上の寿司・刺身を手頃な価格で提供。香港に100店舗以上展開。",
     "tags": [
       "回転寿司",
       "チェーン"
@@ -28654,7 +28449,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-express-ma-on-shan-mostown",
@@ -28666,7 +28462,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.sushiexpress.com.hk/",
-    "description": "マオンシャン（馬鞍山）にある日本料理・鮨店「Sushi Express (MOSTown)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "マオンシャン（馬鞍山）MOSTown内にある台湾発の回転寿司チェーン「争鮮」。90種類以上の寿司・刺身を手頃な価格で提供。新界沿線で利用しやすい立地。",
     "tags": [
       "回転寿司",
       "チェーン"
@@ -28683,7 +28479,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-express-metro-harbour-tai-kok-tsui",
@@ -28695,7 +28492,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.sushiexpress.com.hk/",
-    "description": "Tai Kok Tsuiにある日本料理・鮨店「Sushi Express (Metro Harbour Plaza)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "タイコクツイ（大角咀）Metro Harbour Plaza内にある台湾発の回転寿司チェーン「争鮮」。90種類以上の寿司・刺身を手頃な価格で提供。香港に100店舗以上展開。",
     "tags": [
       "回転寿司",
       "チェーン"
@@ -28712,7 +28509,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-express-mong-kok-fa-yuen",
@@ -28724,7 +28522,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.sushiexpress.com.hk/",
-    "description": "モンコック（旺角）にある日本料理・鮨店「Sushi Express (Mong Kok Fa Yuen Street)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "モンコック（旺角）Fa Yuen Street（花園街）沿いにある台湾発の回転寿司チェーン「争鮮」。90種類以上の寿司・刺身を手頃な価格で提供。香港に100店舗以上展開。",
     "tags": [
       "回転寿司",
       "チェーン"
@@ -28741,7 +28539,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-express-pioneer-centre-prince-edward",
