@@ -14529,7 +14529,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ノースポイント（北角）にある日本式居酒屋「Koji Charcoal Grill」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
+    "description": "ノースポイント（北角）の日本式居酒屋。備長炭を使った本格炭火焼き串と日本酒を提供。グリル料理は目の前で調理されるオープンキッチンスタイル。",
     "tags": [
       "焼き鳥",
       "居酒屋",
@@ -14547,7 +14547,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kojima-tai-kok-tsui",
@@ -14559,7 +14560,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Tai Kok Tsuiにある大角咀の人気日本料理店。慢煮（低温調理）西冷丼が看板で、アメリカンアンガス牛を使った丼が行列を生む人気メニュー。",
+    "description": "大角咀の日本料理店。アメリカンアンガス牛を低温調理した西冷丼が看板メニューで、行列ができる人気店。",
     "tags": [
       "donburi",
       "slow-cooked",
@@ -14578,7 +14579,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kokoro-ichi-kage-wan-chai",
@@ -14588,7 +14590,7 @@
     "address": "Shop A, 1/F, W Square, 318 Hennessy Road, Wan Chai, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "ワンチャイ（湾仔）にある日本料理・鮨店「Kokoro-Ichi Ka'ge」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "ワンチャイ（湾仔）のW Square内にある日本料理・鮨店。おまかせコースと居酒屋メニューを幅広く提供。",
     "tags": [
       "おまかせ",
       "寿司",
@@ -14608,7 +14610,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kokoro-mazesoba-sha-tin",
@@ -14620,7 +14623,7 @@
     "lng": null,
     "phone": null,
     "website": "https://kokoro-mazesoba.com/en/",
-    "description": "シャーティン（沙田）にあるラーメン店「Kokoro Tokyo Mazesoba Sha Tin」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "沙田New Town Plazaモール内の東京発まぜそば専門店「麺屋こころ」。スープなしの濃厚タレと太麺が特徴。",
     "tags": [
       "まぜそば",
       "ラーメン",
@@ -14639,38 +14642,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kokoro-mazesoba-tko",
-    "name": "Kokoro Mazesoba",
-    "name_ja": "心まぜそば",
-    "area": "Tseung Kwan O",
-    "address": "Tseung Kwan O, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "ツェンクワンオー（将軍澳）にある將軍澳のまぜそば専門店。濃厚なタレと太麺を混ぜて食べる東京スタイルのまぜそばを提供。トッピングも豊富。",
-    "tags": [
-      "japanese",
-      "mazesoba",
-      "noodles",
-      "tseung-kwan-o"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kokoro-mazesoba-tsuen-wan",
@@ -14682,7 +14655,7 @@
     "lng": null,
     "phone": "+85223388802",
     "website": "https://kokoro-mazesoba.com/en/shop_en/tsuen-wan/",
-    "description": "ツェンワン（荃灣）にあるラーメン店「Kokoro Tokyo Mazesoba Tsuen Wan」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "荃灣OP Mall内の東京発まぜそば専門店「麺屋こころ」。スープなし濃厚まぜそばに豊富なトッピングを選べる。",
     "tags": [
       "まぜそば",
       "ラーメン",
@@ -14701,7 +14674,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kokoro-mazesoba-wan-chai",
@@ -14713,7 +14687,7 @@
     "lng": null,
     "phone": "+85237516966",
     "website": "https://kokoro-mazesoba.com/en/shop_en/wanchai/",
-    "description": "ワンチャイ（湾仔）にあるラーメン店「Kokoro Tokyo Mazesoba Wan Chai」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "ワンチャイ（湾仔）Hennessy Road沿いの東京発まぜそば専門店「麺屋こころ」。日本のまぜそばを本格再現。",
     "tags": [
       "まぜそば",
       "ラーメン",
@@ -14732,7 +14706,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kome-kushi-sai-ying-pun",
@@ -14744,7 +14719,7 @@
     "lng": null,
     "phone": "+85223132313",
     "website": "https://www.thehoomangroup.com/komekushi",
-    "description": "西營盤の和風居酒屋。季節の日本料理に洋食のエッセンスを加えたメニューが特徴。アボカドマグロタルタルが看板メニュー。カジュアルな雰囲気で友人との食事に最適。",
+    "description": "西營盤の和風居酒屋。和食に洋食のエッセンスを加えたメニューが特徴で、アボカドマグロタルタルが看板。The Hooman Groupが運営。",
     "tags": [
       "居酒屋",
       "和洋折衷"
@@ -14761,7 +14736,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kona-tai-hang",
@@ -14773,7 +14749,7 @@
     "lng": null,
     "phone": "+85228816339",
     "website": null,
-    "description": "Tai Hangにある日本料理店「Kona」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "タイハン（大坑）の日本割烹スタイルのレストラン。25年以上の経験を持つシェフが手掛ける和食と日本酒を、こぢんまりした空間で楽しめる。",
     "tags": [
       "日本料理",
       "創作料理"
@@ -14790,7 +14766,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "konjiki-hototogisu-causeway-bay",
@@ -14802,7 +14779,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にあるラーメン店「Konjiki Hototogisu Causeway Bay」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "コーズウェイベイ（銅鑼湾）Fashion Walkにある「金色不如帰」。東京発ミシュランラーメンの香港店。蛤の出汁と白濁豚骨の組み合わせが看板。",
     "tags": [
       "ラーメン",
       "蛤",
@@ -14820,7 +14797,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "konjiki-hototogisu-ifc",
@@ -14832,7 +14810,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "セントラル（中環）にあるラーメン店「Konjiki Hototogisu IFC」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "IFCモール内の「金色不如帰」。東京発ミシュランラーメン。蛤だしと濃厚豚骨スープ。セントラル勤務の日本人にも人気の昼食スポット。",
     "tags": [
       "ラーメン",
       "蛤",
@@ -14850,7 +14828,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "konjiki-hototogisu-kowloon-tong",
@@ -14862,7 +14841,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Kowloon Tongにあるラーメン店「Konjiki Hototogisu Kowloon Tong」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "九龍塘Festival Walk内の「金色不如帰」。東京発ミシュランラーメン。貝だしと豚骨のブレンドスープが特徴。",
     "tags": [
       "ラーメン",
       "蛤",
@@ -14880,7 +14859,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "konjiki-hototogisu-tst",
@@ -14892,7 +14872,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "チムサーチョイ（尖沙咀）にあるラーメン店「Konjiki Hototogisu TST」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "チムサーチョイ（尖沙咀）H Zentreにある「金色不如帰」。東京発ミシュランラーメン。貝だしと白濁豚骨の絶妙なブレンドスープが名物。",
     "tags": [
       "ラーメン",
       "蛤",
@@ -14910,7 +14890,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "konjiki-hototogisu-wong-chuk-hang",
@@ -14922,7 +14903,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ウォンチュックハン（黄竹坑）にあるラーメン店「Konjiki Hototogisu Wong Chuk Hang」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "黄竹坑THE SOUTHSIDEにある「金色不如帰」。東京発ミシュランラーメン。蛤と白濁豚骨の組み合わせスープを香港で楽しめる。",
     "tags": [
       "ラーメン",
       "蛤",
@@ -14940,7 +14921,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "konwa-sushi-tst",
@@ -14952,7 +14934,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある尖沙咀にある寿司・ラーメン・居酒屋の複合日本食レストラン。新鮮な食材を使った多彩なメニュー。",
+    "description": "チムサーチョイ（尖沙咀）にある寿司・ラーメン・居酒屋の複合日本食レストラン「今和寿司」。新鮮食材の多彩なメニューで在港日本人にも利用される。",
     "tags": [
       "寿司",
       "ラーメン",
@@ -14970,37 +14952,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kozy-causeway-bay",
-    "name": "KOZY",
-    "name_ja": "KOZY",
-    "area": "Causeway Bay",
-    "address": "499 Hennessy Road, Causeway Bay, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある日本食レストラン「KOZY」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
-    "tags": [
-      "鉄板焼き",
-      "お好み焼き",
-      "深夜営業"
-    ],
-    "hours": "深夜2:00まで営業",
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kozy-causeway-bay-izakaya",
@@ -15012,7 +14965,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある日本式居酒屋「KOZY」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。在香港日本人・旅行者に利用されている。",
+    "description": "コーズウェイベイ（銅鑼湾）Circle Plaza 9Fの日本式居酒屋「KOZY」。A5和牛鉄板焼きと日本酒が看板。日本人スタッフ・客が多く深夜3時まで営業。",
     "tags": [
       "居酒屋",
       "鉄板焼き",
@@ -15030,33 +14983,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kozy-causeway-bay-restaurant",
-    "name": "KOZY Restaurant",
-    "name_ja": "コージー レストラン",
-    "area": "Causeway Bay",
-    "address": "9/F, Circle Plaza, 499 Hennessy Road, Causeway Bay, Hong Kong",
-    "phone": null,
-    "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある日本料理店「KOZY Restaurant」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "日本料理",
-      "家庭料理",
-      "日本人コミュニティ"
-    ],
-    "hours": "要確認",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kozy-teppanyaki-causeway-bay",
@@ -15068,7 +14996,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある日本食レストラン「Kozy Okonomiyaki Teppanyaki」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "コーズウェイベイ（銅鑼湾）Circle Plaza 9Fの日本食レストラン。大阪風お好み焼きと鉄板焼きが看板で深夜3時まで営業。日本人スタッフ在籍。",
     "tags": [
       "鉄板焼き"
     ],
@@ -15084,7 +15012,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kuchome-yuen-long",
@@ -15096,7 +15025,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ユンロン（元朗）にある元朗K Plusモール内の日本料理店。寿司、刺身、居酒屋メニューを幅広く提供。ショッピングの合間に楽しめる便利な立地。",
+    "description": "元朗K Plusモール内の日本料理店「九丁目日本料理」。寿司・刺身・居酒屋メニューを幅広く提供する元朗エリアの日本食店。",
     "tags": [
       "japanese",
       "sushi",
@@ -15116,7 +15045,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kuke-shokudo-central",
@@ -15126,7 +15056,7 @@
     "address": "9 Gough Street, Central, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "セントラル（中環）にある日本式居酒屋「Kuke Shokudo」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "セントラル（中環）Gough Streetにある2026年開業の関西スタイルおでん居酒屋。40年超の日本人シェフが手掛ける本格大阪風おでんと日本酒。",
     "tags": [
       "おでん",
       "居酒屋",
@@ -15143,7 +15073,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kuke-shokudo-tst",
@@ -15155,7 +15086,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある日本式居酒屋「Kuke Shokudo」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
+    "description": "チムサーチョイ（尖沙咀）Ashley Road沿いの日本式居酒屋「くけ食堂」。おでんと居酒屋メニューを提供する日本食店。",
     "tags": [
       "日本食",
       "おでん",
@@ -15173,7 +15104,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kuki-izakaya",
@@ -15185,7 +15117,7 @@
     "lng": 114.182,
     "phone": "+85237052156",
     "website": "http://www.instgram.com/kukiizakaya",
-    "description": "コーズウェイベイ（銅鑼湾）にある日本式居酒屋「Kuki Izakaya」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
+    "description": "コーズウェイベイ（銅鑼湾）Yiu Wa Streetの日本式居酒屋「九鬼」。大阪名物の串カツとおでんが看板。日本酒・焼酎も充実。",
     "tags": [
       "居酒屋"
     ],
@@ -15201,36 +15133,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kuki-izakaya-causeway-bay-2",
-    "name": "Kuki Izakaya (Causeway Bay)",
-    "name_ja": "クキ 居酒屋 (Causeway ベイ)",
-    "area": "Causeway Bay",
-    "address": "G/F, 7 Yiu Wah Street, Causeway Bay",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある日本式居酒屋「Kuki Izakaya (Causeway Bay)」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
-    "tags": [
-      "居酒屋",
-      "焼き鳥"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kuki-izakaya-sai-ying-pun",
@@ -15242,7 +15146,7 @@
     "lng": 114.141,
     "phone": "+85295059692",
     "website": "https://www.openrice.com/zh/hongkong/r-%E4%B9%9D%E9%AC%BC%E5%B1%85%E9%85%92%E5%B1%8B-%E8%A5%BF%E7%92%B0-%E6%97%A5%E6%9C%AC%E8%8F%9C-r791598",
-    "description": "サイインプン（西營盤）にある日本式居酒屋「Kuki Izakaya (Sai Ying Pun)」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
+    "description": "サイインプン（西營盤）High Street沿いの日本式居酒屋「九鬼」。串カツ・おでんを中心に多彩な日本食メニューを提供。昼夜営業。",
     "tags": [
       "居酒屋"
     ],
@@ -15258,7 +15162,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kuno-tst",
@@ -15270,7 +15175,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある日本料理・鮨店「KUNO」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "チムサーチョイ（尖沙咀）Hart Avenueの日本料理・おまかせ鮨店「KUNO」。東京の魚市場から空輸した食材を使用。ランチ$388〜のおまかせコース。",
     "tags": [
       "寿司",
       "おまかせ",
@@ -15288,7 +15193,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kura-japanese-restaurant",
@@ -15300,7 +15206,7 @@
     "lng": 114.1696,
     "phone": "+85293919170",
     "website": null,
-    "description": "モンコック（旺角）にある日本食レストラン「藏 居酒屋 Kura Japanese Restaurant」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "モンコック（旺角）Fa Yuen Streetの日本式居酒屋「藏」。火曜〜日曜の夕方から深夜まで営業。日本料理全般を提供する居酒屋スタイル。",
     "tags": [
       "日本食"
     ],
@@ -15316,7 +15222,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kura-sushi-causeway-bay",
@@ -15328,7 +15235,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある銅鑼湾にある鮨店。日本で修行した料理長が独自のアレンジを加えた鮨を提供。2019年末にオープン。",
+    "description": "コーズウェイベイ（銅鑼湾）Jaffe Road沿いの鮨店「藏」。日本で修行した料理長が独自アレンジを加えた鮨を提供。2019年末オープン。",
     "tags": [
       "寿司",
       "おまかせ"
@@ -15345,7 +15252,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kura-sushi-sha-tin-ntp",
@@ -15357,7 +15265,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.kurasushi.com.hk/",
-    "description": "シャーティン（沙田）にある日本料理・鮨店「Kura Sushi (New Town Plaza Sha Tin)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "シャーティン（沙田）New Town Plaza内にある日本発チェーン「くら寿司」の香港店。回転寿司スタイルで本格和食を提供。",
     "tags": [
       "回転寿司",
       "チェーン"
@@ -15374,7 +15282,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kura-teppanyaki-central",
@@ -15386,7 +15295,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "セントラル（中環）にある日本食レストラン「Kura Teppanyaki & Sake Bar」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "セントラル（中環）Wellington Street沿いの日本食レストラン「Kura Teppanyaki & Sake Bar」。鉄板焼きと日本酒バーを組み合わせたスタイルで提供。",
     "tags": [
       "鉄板焼き",
       "日本酒バー"
@@ -15403,7 +15312,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kura-tobi",
@@ -15415,7 +15325,7 @@
     "lng": 114.1731,
     "phone": "+85234622556",
     "website": "https://instagram.com/kuratobi_akaoni?igshid=ZDc4ODBmNjlmNQ==",
-    "description": "チムサーチョイ（尖沙咀）にある日本式居酒屋「Kura Tobi 蔵鳶居酒屋」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
+    "description": "チムサーチョイ（尖沙咀）Carnarvon Road沿いの日本式居酒屋「蔵鳶居酒屋」。昼夜営業でランチセットもあり。日本酒・焼酎と和食が楽しめる。",
     "tags": [
       "居酒屋"
     ],
@@ -15431,7 +15341,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kuro-shabu-sheung-wan",
@@ -15443,7 +15354,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "サンポ（上環）にあるしゃぶしゃぶ・鍋料理店「Kuro Shabu」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "サンポ（上環）Hollywood Road沿いのしゃぶしゃぶ専門店。鹿児島産黒毛和牛・黒豚・黒鶏を農場直送。北海道昆布出汁の一人鍋スタイル。",
     "tags": [
       "しゃぶしゃぶ",
       "一人鍋",
@@ -15461,7 +15372,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kuroiwa-ramen-sham-shui-po",
@@ -15473,7 +15385,7 @@
     "lng": null,
     "phone": "+85226283369",
     "website": null,
-    "description": "サムサイポ（深水埗）にあるラーメン店「Kuroiwa Ramen」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "サムサイポ（深水埗）のラーメン店「麵屋黒岩」。豚骨・海老・カニなど多様なスープを揃えた日本スタイルのラーメン専門店。",
     "tags": [
       "ラーメン",
       "豚骨",
@@ -15492,7 +15404,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kuromon-tst",
@@ -15504,7 +15417,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある尖沙咀にある海鮮中心の日本料理店。大阪・黒門市場にインスパイアされた新鮮な海鮮料理を提供。",
+    "description": "チムサーチョイ（尖沙咀）Minden Avenueの海鮮日本料理店「黒門水産」。大阪黒門市場にインスパイアされた新鮮海鮮料理と刺身・串焼きを提供。",
     "tags": [
       "海鮮",
       "日本料理",
@@ -15522,39 +15435,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kushiro-peninsula-tst",
-    "name": "Kushiro",
-    "name_ja": "釧路",
-    "area": "Tsim Sha Tsui",
-    "address": "Shop BW1, BW3 & BW5, B1/F, The Peninsula Hotel, Salisbury Road, Tsim Sha Tsui",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "チムサーチョイ（尖沙咀）にあるペニンシュラホテル内の高級日本料理店。数十年の経験を持つベテラン鮨職人が在籍。富士山の水を使用した鮨コースを提供。",
-    "tags": [
-      "寿司",
-      "おまかせ",
-      "高級和食",
-      "ホテルレストラン",
-      "刺身"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kushiro-tst-peninsula",
@@ -15564,7 +15446,7 @@
     "address": "Shop BW1, BW3 & BW5, B1/F, The Peninsula Hotel, Salisbury Road, Tsim Sha Tsui, Hong Kong",
     "phone": null,
     "website": "https://kushiro.com.hk/",
-    "description": "ペニンシュラホテル地下の高級おまかせ寿司。ランチHK$980〜、ディナーHK$1,980〜。月をテーマにした日本庭園風の内装。",
+    "description": "ペニンシュラホテル地下の高級おまかせ鮨店「釧」。富士山の水で炊くシャリと日本直送の旬食材。ランチHK$980〜、ディナーHK$1,980〜。",
     "tags": [
       "おまかせ",
       "寿司",
@@ -15581,7 +15463,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kushiyaki-kobo-ap-lei-chau",
@@ -15593,7 +15476,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Ap Lei Chauにある日本食レストラン「Kushiyaki Kobo」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "アプレイチョウ（鴨脷洲）Lei Tung EstateFoodCourtにある串焼き専門の日本食店。居住エリアに根ざした日本スタイルの串焼き専門店。",
     "tags": [
       "串焼き"
     ],
@@ -15609,7 +15492,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kyo-hayashiya-hysan-place",
@@ -15621,7 +15505,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある1753年京都創業の老舗茶屋の初海外店舗。Hysan Placeで本格抹茶パフェ・ロールケーキ・かき氷を提供。",
+    "description": "コーズウェイベイ（銅鑼湾）Hysan Place内にある1753年京都創業の老舗茶屋「京はやしや」の初海外店舗。本格抹茶パフェ・かき氷・ロールケーキを提供。",
     "tags": [
       "抹茶",
       "スイーツ",
@@ -15641,7 +15525,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kyo-japanese-kennedy-town",
@@ -15653,7 +15538,7 @@
     "lng": null,
     "phone": "+85223278222",
     "website": null,
-    "description": "堅尼地城MTR駅C出口から徒歩2分の日本料理店。22席のカウンターとテーブル席でおまかせコースを提供。日本から空輸した食材を使用。",
+    "description": "堅尼地城MTR駅C出口から徒歩2分の日本料理店。日本から空輸した食材でおまかせコースを提供。22席のカウンター・テーブルで落ち着いた食事が楽しめる。",
     "tags": [
       "おまかせ",
       "寿司",
@@ -15671,7 +15556,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kyo-watami-central",
@@ -15683,7 +15569,7 @@
     "lng": null,
     "phone": null,
     "website": "https://watami.com.hk",
-    "description": "セントラル（中環）にある日本式居酒屋「KYO Watami (Man Yee Building)」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
+    "description": "セントラル（中環）Man Yee Building内の和民グループ日本式居酒屋「饗和民」。ロバタ焼き・鍋・定番和食を揃えるデリバリー対応の日本発チェーン。",
     "tags": [
       "日本発チェーン",
       "居酒屋",
@@ -15715,7 +15601,8 @@
         "category": "ドリンク"
       }
     ],
-    "price_range": "HKD 150〜350/人（ディナー目安）"
+    "price_range": "HKD 150〜350/人（ディナー目安）",
+    "place_reviewed": true
   },
   {
     "slug": "kyo-watami-citygate",
@@ -15727,7 +15614,7 @@
     "lng": null,
     "phone": "+85236950660",
     "website": null,
-    "description": "タンチョン（東涌）にある和民グループの居酒屋チェーン。Citygate Outlets地下で寿司・鍋物・居酒屋メニューを提供。",
+    "description": "タンチョン（東涌）Citygate Outlets地下の和民グループ居酒屋「饗和民」。寿司・鍋・居酒屋メニューをショッピングモール内で提供する日本発チェーン。",
     "tags": [
       "居酒屋",
       "日本発チェーン",
@@ -15745,7 +15632,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kyo-watami-kornhill-tai-koo",
@@ -15757,7 +15645,7 @@
     "lng": null,
     "phone": null,
     "website": "https://watami.com.hk",
-    "description": "Tai Kooにある日本式居酒屋「KYO Watami (Kornhill Plaza)」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
+    "description": "太古（太古）Kornhill Plaza内の和民グループ日本式居酒屋「饗和民」。定番和食でデリバリー・テイクアウトにも対応する日本発チェーン。",
     "tags": [
       "日本発チェーン",
       "居酒屋",
@@ -15789,19 +15677,20 @@
         "category": "ドリンク"
       }
     ],
-    "price_range": "HKD 150〜350/人（ディナー目安）"
+    "price_range": "HKD 150〜350/人（ディナー目安）",
+    "place_reviewed": true
   },
   {
     "slug": "kyoku-causeway-bay",
     "name": "Kyoku",
     "name_ja": "旭",
     "area": "Causeway Bay",
-    "address": "L'Hart, 487-489 Lockhart Road, Causeway Bay",
+    "address": "Shop No. 2, G/F, 38 Haven Street, Causeway Bay, Hong Kong",
     "lat": null,
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある日本料理・鮨店「Kyoku」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "コーズウェイベイ（銅鑼湾）Haven Streetの高級日本食レストラン。鉄板焼きと鮨2つのカウンターを備え、名職人が手掛けるコース料理を楽しめる。",
     "tags": [
       "鉄板焼き",
       "寿司"
@@ -15818,7 +15707,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kyoto-katsugyu-airside-kai-tak",
@@ -15830,7 +15720,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Kai Takにある日本食レストラン「Kyoto Katsugyu (AIRSIDE)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "啓徳（Kai Tak）Airsideの京都発牛カツ専門店「京都勝牛」。鹿児島・北海道産の和牛使用の香港3号店。揚げたて牛カツを石板で好みの焼き加減に。",
     "tags": [
       "日本発チェーン",
       "牛カツ"
@@ -15847,7 +15737,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kyoto-katsugyu-causeway-bay",
@@ -15859,7 +15750,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある京都発の牛カツ専門チェーン。揚げたてのサクサク牛カツを石板で好みの焼き加減に仕上げて楽しめる。",
+    "description": "コーズウェイベイ（銅鑼湾）TOWER 535地下の京都発牛カツ専門店「京都勝牛」。揚げたてサクサクの牛カツを石板で自分好みに仕上げて楽しめる。",
     "tags": [
       "日本発チェーン",
       "牛カツ"
@@ -15876,36 +15767,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kyoto-katsugyu-kai-tak",
-    "name": "Kyoto Katsugyu (Airside Kai Tak)",
-    "name_ja": "京都勝牛（啓徳Airside）",
-    "area": "Kai Tak",
-    "address": "Airside, 2 Concorde Road, Kai Tak",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "Kai Takにある日本食レストラン「Kyoto Katsugyu (Airside Kai Tak)」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "牛カツ",
-      "チェーン"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kyoto-katsugyu-tsuen-wan",
@@ -15917,7 +15780,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ツェンワン（荃灣）にある日本食レストラン「Kyoto Katsugyu (Citywalk)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "荃灣Citywalkの京都発牛カツ専門店「京都勝牛」。日本発50店舗超のチェーン。揚げたて牛カツを石板で好みに焼いて楽しむスタイル。",
     "tags": [
       "日本発チェーン",
       "牛カツ"
@@ -15934,7 +15797,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kyoto-oden-masa-causeway-bay",
@@ -15944,7 +15808,7 @@
     "address": "19/F, L'Hart, 487-489 Lockhart Road, Causeway Bay, Hong Kong",
     "phone": "+85228911530",
     "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある銅鑼湾の京風おでん専門店。京都スタイルの上品な出汁で仕上げたおでんと日本酒を提供。バースタイルの空間。",
+    "description": "コーズウェイベイ（銅鑼湾）L’Hart 19Fの京風おでん専門店。京都スタイルの上品な出汁で仕上げたおでんと日本酒をバースタイルで提供。",
     "tags": [
       "おでん",
       "京都風",
@@ -15960,65 +15824,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kyoto-oden-masa-cb",
-    "name": "Kyoto Oden Masa",
-    "name_ja": "京都おでんまさ",
-    "area": "Causeway Bay",
-    "address": "19/F, L'Hart, 487-489 Lockhart Road, Causeway Bay",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある日本食レストラン「Kyoto Oden Masa」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "おでん",
-      "刺身"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kyoto-oden-masa-cb-2",
-    "name": "Kyoto Oden Masa Causeway Bay",
-    "name_ja": "京都おでん 正 銅鑼湾店",
-    "area": "Causeway Bay",
-    "address": "Causeway Bay, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある日本食レストラン「Kyoto Oden Masa Causeway Bay」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "おでん",
-      "京都風"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kyozasa-tst",
