@@ -42805,7 +42805,8 @@
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "coco-ichibanya-langham-place",
@@ -42837,7 +42838,8 @@
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "coco-ichibanya-whampoa",
@@ -42869,79 +42871,8 @@
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
-  },
-  {
-    "slug": "dotonbori-okonomiyaki-langham-place",
-    "name": "Dotonbori Okonomiyaki Langham Place",
-    "category": "restaurant",
-    "subcategory": "okonomiyaki",
-    "area": "mong-kok",
-    "address": "Shop 13, 11/F, Langham Place, 8 Argyle Street, Mong Kok",
-    "phone": null,
-    "website": null,
-    "hours": "月〜日 11:30〜22:30",
-    "price_range": "HK$100〜200（約2,000〜4,000円）",
-    "tags": [
-      "お好み焼き",
-      "日本食",
-      "旺角",
-      "大阪料理"
-    ],
-    "description": "旺角のLangham Place 11Fにある道頓堀お好み焼き専門店。大阪名物のお好み焼きを香港で楽しめる。",
-    "detail": "道頓堀御好燒専門店（Dotonbori Okonomiyaki）は大阪の道頓堀をテーマにしたお好み焼き専門店。旺角のLangham Place 11Fに位置し、鉄板で焼くお好み焼きと焼きそばを提供するJETRO認定の日本食レストラン。自分で焼くスタイルもあり、グループでの食事に楽しい体験型の日本料理。九龍の中心部で手軽に大阪の味が楽しめる。",
-    "menu": [
-      {
-        "name": "豚玉お好み焼き",
-        "price": "HK$98〜",
-        "note": "定番の豚肉入りお好み焼き"
-      },
-      {
-        "name": "シーフードお好み焼き",
-        "price": "HK$118〜",
-        "note": "海鮮入り"
-      },
-      {
-        "name": "モダン焼き",
-        "price": "HK$108〜",
-        "note": "焼きそば入り"
-      },
-      {
-        "name": "焼きそば",
-        "price": "HK$88〜",
-        "note": ""
-      }
-    ],
-    "source_url": "https://japan-food.jetro.go.jp/library/aboutsupporter/restaurant/Northeast_Asia/HongKong.pdf",
-    "source": "web_search",
-    "status": "unverified",
-    "ai_reviewed": true,
-    "last_verified": "2026-04-05"
-  },
-  {
-    "slug": "blossom-kowloon-city",
-    "name": "Blossom Kowloon City",
-    "category": "restaurant",
-    "subcategory": "japanese",
-    "area": "kowloon-city",
-    "address": "45 Nam Kok Road, Kowloon City",
-    "phone": null,
-    "website": null,
-    "hours": "月〜日 11:30〜22:30",
-    "price_range": "HK$100〜300（約2,000〜6,000円）",
-    "tags": [
-      "日本料理",
-      "九龍城",
-      "JETRO認定"
-    ],
-    "description": "九龍城・Nam Kok Road沿いにあるJETRO認定の日本料理レストラン。",
-    "detail": "BlossoMは九龍城（Kowloon City）のNam Kok Road 45号に位置するJETRO日本食認定レストラン。九龍城はタイ料理街として有名なエリアだが、日系のレストランも増えており、Blossomもその一軒。日本の食材を使った料理を提供するJETRO認定店として登録されている。",
-    "menu": null,
-    "source_url": "https://japan-food.jetro.go.jp/library/aboutsupporter/restaurant/Northeast_Asia/HongKong.pdf",
-    "source": "web_search",
-    "status": "unverified",
-    "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "tenya-east-point-city",
@@ -42983,7 +42914,8 @@
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "ootoya-lai-chi-kok-aeon",
@@ -43011,7 +42943,8 @@
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-aberdeen-centre",
@@ -43031,14 +42964,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のAberdeen Centre店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のAberdeen Centre店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shops 9, 11 & 13, G/F, Aberdeen Centre, 1-5 Nam Ning Street, Aberdeenに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-amoy-plaza-ngau-tau-kok",
@@ -43058,14 +42992,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のAmoy Plaza Ngau Tau Kok店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のAmoy Plaza Ngau Tau Kok店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shop G226-227 & 230-233, G/F, Amoy Plaza Phase II, 77 Ngau Tau Kok Road, Ngau Tau Kokに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-apm-kwun-tong",
@@ -43085,14 +43020,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のapm Kwun Tong店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のapm Kwun Tong店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shop L6-3a, Level 6, apm (Millennium City 5), 418 Kwun Tong Road, Kwun Tongに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-bank-centre-mall-mong-kok",
@@ -43112,14 +43048,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のBank Centre Mall Mong Kok店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のBank Centre Mall Mong Kok店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shops 1-3, 5-6 & 8-9, 1/F, Bank Centre Mall, 636 Nathan Road, Mong Kokに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-banyan-mall-lai-chi-kok",
@@ -43139,14 +43076,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のBanyan Mall Lai Chi Kok店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のBanyan Mall Lai Chi Kok店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shops 9D, 9H & 12B, 1/F, Banyan Mall, 863 Lai Chi Kok Road, Lai Chi Kokに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-central-grand-building",
@@ -43166,14 +43104,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のCentral Grand Building店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のCentral Grand Building店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。1/F, Central Grand Building, 15-18 Connaught Road Central, Centralに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-china-hong-kong-city-tst",
@@ -43193,14 +43132,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のChina Hong Kong City TST店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のChina Hong Kong City TST店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shops 38-39, UG/F, China Hong Kong City, 33 Canton Road, Tsim Sha Tsuiに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-choi-yuen-plaza-sheung-shui",
@@ -43220,14 +43160,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のChoi Yuen Plaza Sheung Shui店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のChoi Yuen Plaza Sheung Shui店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shops R3 & R4, 3/F, Choi Yuen Plaza, 8 Choi Yuen Road, Sheung Shuiに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-citygate-tung-chung",
@@ -43247,14 +43188,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のCitygate Tung Chung店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のCitygate Tung Chung店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shop 602, 6/F, Citygate Outlets, 18-20 Tat Tung Road, Tung Chungに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-city-one-sha-tin",
@@ -43274,14 +43216,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のCity One Sha Tin店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のCity One Sha Tin店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shops 115-116, 1/F, Fortune City One, 6 Lok Shing Street, Sha Tinに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-domain-tseung-kwan-o",
@@ -43301,14 +43244,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のDomain Tseung Kwan O店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のDomain Tseung Kwan O店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shop 112, 1/F, Domain, 38 Ko Chiu Road, Tseung Kwan Oに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-d-park-tsuen-wan",
@@ -43328,14 +43272,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のD-Park Tsuen Wan店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のD-Park Tsuen Wan店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shop 1027, L1, D-Park, 398 Castle Peak Road, Tsuen Wanに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-dragon-centre-sham-shui-po",
@@ -43355,14 +43300,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のDragon Centre Sham Shui Po店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のDragon Centre Sham Shui Po店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Unit 620, 6/F, Dragon Centre, 37K Yen Chow Street, Sham Shui Poに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-east-point-city-tko",
@@ -43382,14 +43328,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のEast Point City TKO店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のEast Point City TKO店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shop 275A, Level 2, East Point City, 8 Chung Wa Road, Tseung Kwan Oに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-fanling-town-centre",
@@ -43409,14 +43356,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のFanling Town Centre店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のFanling Town Centre店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shop 51, Level 2, Fanling Town Centre, 18 Fanling Station Road, Fanlingに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-far-east-finance-centre-central",
@@ -43436,14 +43384,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のFar East Finance Centre Central店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のFar East Finance Centre Central店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shop C1, G/F, Far East Finance Centre, 16 Harcourt Road, Centralに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-fitfort-north-point",
@@ -43463,14 +43412,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のFitfort North Point店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のFitfort North Point店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shops L6B, 7, 28 & 29, LG/F, Fitfort, 560 King's Road, North Pointに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-great-eagle-centre-wan-chai",
@@ -43490,14 +43440,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のGreat Eagle Centre Wan Chai店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のGreat Eagle Centre Wan Chai店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shop G05-6, G/F, Great Eagle Centre, 23 Harbour Road, Wan Chaiに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-hanford-commercial-centre-jordan",
@@ -43517,14 +43468,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のHanford Commercial Centre Jordan店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のHanford Commercial Centre Jordan店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shop B2, B/F, Hanford Commercial Centre, 221B-E Nathan Road, Jordanに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-harbour-crystal-centre-tst",
@@ -43544,14 +43496,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のHarbour Crystal Centre TST店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のHarbour Crystal Centre TST店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shops 40-47, G/F, Harbour Crystal Centre, 100 Granville Road, Tsim Sha Tsuiに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-island-resort-mall-chai-wan",
@@ -43571,14 +43524,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のIsland Resort Mall Chai Wan店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のIsland Resort Mall Chai Wan店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shop 17, G/F, Island Resort Mall, 28 Siu Sai Wan Road, Chai Wanに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-kennedy-town",
@@ -43598,14 +43552,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のKennedy Town店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のKennedy Town店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shops A & B, G/F, Luen Fat Apartments, 38 Forbes Street, Kennedy Townに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-kowloon-building-yau-ma-tei",
@@ -43625,14 +43580,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のKowloon Building Yau Ma Tei店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のKowloon Building Yau Ma Tei店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shops 1 & 2, 1/F, Kowloon Building, 555 Nathan Road, Yau Ma Teiに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-kowloon-city-plaza",
@@ -43652,14 +43608,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のKowloon City Plaza店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のKowloon City Plaza店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shop UG26A, UG/F, Kowloon City Plaza, 128 Carpenter Road, Kowloon Cityに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-lok-fu-plaza",
@@ -43679,14 +43636,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のLok Fu Plaza店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のLok Fu Plaza店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shop 1157, 1/F, Lok Fu Plaza, 198 Junction Road, Lok Fuに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-lucky-plaza-sha-tin",
@@ -43706,14 +43664,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のLucky Plaza Sha Tin店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のLucky Plaza Sha Tin店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shop 183, L3, Lucky Plaza, 1-15 Wang Pok Street, Sha Tinに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-luk-yeung-galleria-tsuen-wan",
@@ -43733,14 +43692,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のLuk Yeung Galleria Tsuen Wan店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のLuk Yeung Galleria Tsuen Wan店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shop S27, 2/F, Luk Yeung Galleria, 22-66 Wai Tsuen Road, Tsuen Wanに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-manhattan-mid-town-lai-chi-kok",
@@ -43760,14 +43720,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のManhattan Mid-Town Lai Chi Kok店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のManhattan Mid-Town Lai Chi Kok店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shop G09, Manhattan Mid-Town, 1 Po Lun Street, Lai Chi Kokに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-ma-on-shan-plaza",
@@ -43787,14 +43748,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のMa On Shan Plaza店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のMa On Shan Plaza店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shops 2135-2139, Level 2, Ma On Shan Plaza, 608 Sai Sha Road, Ma On Shanに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-marina-square-ap-lei-chau",
@@ -43814,14 +43776,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のMarina Square Ap Lei Chau店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のMarina Square Ap Lei Chau店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shops G46, G49C & G49E, G/F, Marina Square West, 12A South Horizon Drive, Ap Lei Chauに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-maritime-square-2-tsing-yi",
@@ -43841,14 +43804,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のMaritime Square 2 Tsing Yi店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のMaritime Square 2 Tsing Yi店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shop 228, L2, Maritime Square 2, 31 Tsing King Road, Tsing Yiに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-metro-city-tko",
@@ -43868,14 +43832,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のMetro City TKO店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のMetro City TKO店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shops 2084-85, Level 2, MCP Central, 8 Yan King Road, Tseung Kwan Oに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-metroplaza-kwai-chung",
@@ -43895,14 +43860,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のMetroplaza Kwai Chung店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のMetroplaza Kwai Chung店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shops 480-483, Level 4, Metroplaza, 223 Hing Fong Road, Kwai Chungに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-mikiki-san-po-kong",
@@ -43922,14 +43888,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のMikiki San Po Kong店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のMikiki San Po Kong店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shops 105-105A, 1/F, Mikiki, 638 Prince Edward Road East, San Po Kongに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-moko-mong-kok",
@@ -43949,14 +43916,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のMOKO Mong Kok店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のMOKO Mong Kok店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shop 505A, L5, MOKO, 193 Prince Edward Road West, Mong Kokに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-new-jade-shopping-arcade-chai-wan",
@@ -43976,14 +43944,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のNew Jade Shopping Arcade Chai Wan店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のNew Jade Shopping Arcade Chai Wan店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shop 112A, Level 1, New Jade Shopping Arcade, 233 Chai Wan Road, Chai Wanに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-panda-place-tsuen-wan",
@@ -44003,14 +43972,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のPanda Place Tsuen Wan店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のPanda Place Tsuen Wan店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shop G33, G/F, Panda Place, 3 Tsuen Wah Street, Tsuen Wanに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-paradise-mall-sai-wan-ho",
@@ -44030,14 +44000,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のParadise Mall Sai Wan Ho店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のParadise Mall Sai Wan Ho店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shop Units G51-52, G/F, Paradise Mall, 100 Shing Tai Road, Sai Wan Hoに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-park-central-tko",
@@ -44057,14 +44028,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のPark Central TKO店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のPark Central TKO店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shops 118-120, Level 1, Park Central, 9 Tong Tak Street, Tseung Kwan Oに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-pioneer-centre-mong-kok",
@@ -44084,14 +44056,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のPioneer Centre Mong Kok店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のPioneer Centre Mong Kok店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shop 334, 3/F, Pioneer Centre, 750 Nathan Road, Mong Kokに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-plaza-hollywood-diamond-hill",
@@ -44111,14 +44084,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のPlaza Hollywood Diamond Hill店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のPlaza Hollywood Diamond Hill店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shop 320D, Level 3, Plaza Hollywood, 3 Lung Poon Street, Diamond Hillに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-russell-street-causeway-bay",
@@ -44138,14 +44112,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のRussell Street Causeway Bay店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のRussell Street Causeway Bay店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shop A, 2/F, 8 Russell Street, Causeway Bayに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-sau-mau-ping-shopping-centre",
@@ -44165,14 +44140,15 @@
       "ファミリー",
       "リーズナブル"
     ],
-    "description": "日本発の回転寿司チェーン「元気寿司」のSau Mau Ping Shopping Centre店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に70店舗以上を展開。",
+    "description": "日本発の回転寿司チェーン「元気寿司」のSau Mau Ping Shopping Centre店。レーンで流れる寿司や一品料理をリーズナブルな価格で楽しめる。香港全土に80店舗以上を展開。",
     "detail": "元気寿司（Genki Sushi）は日本発の回転寿司チェーン。Shop 3, G/F, Sau Mau Ping Shopping Centre, 101 Sau Ming Road, Sau Mau Pingに位置する。寿司・ラーメン・サイドメニューを手頃な価格で提供し、ファミリー層から一人飯まで幅広い客層に対応。香港では70店舗以上を展開する最大手の回転寿司チェーン。新幹線スタイルの自動配膳システム（ユニーク・デリバリーシステム）でも知られる。",
     "menu": null,
     "source_url": "https://shopsinhk.com/genki-sushi-restaurants-in-hong-kong.html",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "genki-sushi-sheung-shui-centre",
