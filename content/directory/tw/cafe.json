@@ -2708,7 +2708,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nana-green-tea-taichung",
@@ -2735,7 +2736,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nana-green-tea-tainan",
@@ -2763,7 +2765,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nana-green-tea-taoyuan",
@@ -2791,7 +2794,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nana-green-tea-xinyi",
@@ -2817,7 +2821,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nana-green-tea-xinyi-2",
@@ -2843,7 +2848,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nana-green-tea-zhongshan",
@@ -2869,7 +2875,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nana-green-tea-zhongshan-2",
@@ -2895,7 +2902,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nozomi-bakery",
@@ -2921,7 +2929,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "orita-japanese-cake-shop",
@@ -2945,7 +2954,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "pablo-cheese-tart-taipei",
@@ -2971,55 +2981,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "popocurry",
-    "name": "popocurry粕粕咖哩（高雄美麗島店）",
-    "name_ja": "popocurry粕粕咖哩（高雄美麗島店）",
-    "area": "Kaohsiung",
-    "address": "800, Taiwan, Kaohsiung City, Sinsing District, Zhongshan 1st Rd, 115號B1",
-    "phone": "+88672366292",
-    "website": "https://www.facebook.com/share/1G2nqqkwy6/?mibextid=LQQJ4d%20%20(%E5%8F%AA%E6%8E%A5%E5%8F%97%E9%9B%BB%E8%A9%B1%E8%A8%82%E4%BD%8D)",
-    "description": "日本スタイルのカレー専門店「popocurry粕粕咖哩」の高雄美麗島店。日本の香辛料を使ったオリジナルカレーを台湾高雄で提供する日式カレー専門店。",
-    "tags": [
-      "日式カフェ"
-    ],
-    "hours": "Monday: 11:30 AM – 2:00 PM, 4:30 – 8:30 PM / Tuesday: 11:30 AM – 2:00 PM, 4:30 – 8:30 PM / Wednesday: 11:30 AM – 2:00 PM, 4:30 – 8:30 PM / Thursday: 11:30 AM – 2:00 PM, 4:30 – 8:30 PM / Friday: 11:30 AM – 2:00 PM, 4:30 – 8:30 PM / Saturday: 11:30 AM – 8:30 PM / Sunday: 11:30 AM – 8:30 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sakurai-japanese-tea-experience",
-    "name": "Sakurai Japanese Tea Experience",
-    "name_ja": "サクライ 日本 ティー エクスペリエンス",
-    "area": "Taichung",
-    "address": "5F, 5-chōme-6-23 Minamiaoyama, Minato City, Tokyo 107-0062, Japan",
-    "phone": "+815031451539",
-    "website": "http://www.sakurai-tea.jp/",
-    "description": "日本茶の体験を提供するカフェ「Sakurai Japanese Tea Experience」。日本の茶道文化にインスパイアされた空間で、煎茶・玉露・抹茶等の本格日本茶を提供。",
-    "tags": [
-      "日式カフェ"
-    ],
-    "hours": "Monday: 11:00 AM – 11:00 PM / Tuesday: 11:00 AM – 11:00 PM / Wednesday: 11:00 AM – 11:00 PM / Thursday: 11:00 AM – 11:00 PM / Friday: 11:00 AM – 11:00 PM / Saturday: 11:00 AM – 8:00 PM / Sunday: 11:00 AM – 8:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sarutahiko-coffee",
@@ -3047,7 +3010,8 @@
     "price_level": null,
     "photo_name": null,
     "detail": "東京・恵比寿発のスペシャルティコーヒー専門店「猿田彦珈琲」の台湾店。産地にこだわった豆を使ったハンドドリップコーヒーやエスプレッソドリンクを提供。台北市内に複数店舗展開。日本の「丁寧なコーヒー文化」を体験できる空間。",
-    "price_range": "TWD 150〜300/人"
+    "price_range": "TWD 150〜300/人",
+    "place_reviewed": true
   },
   {
     "slug": "sarutahiko-coffee-banqiao",
@@ -3075,7 +3039,8 @@
     "price_level": null,
     "photo_name": null,
     "detail": "東京・恵比寿発のスペシャルティコーヒー専門店「猿田彦珈琲」の台湾店。産地にこだわった豆を使ったハンドドリップコーヒーやエスプレッソドリンクを提供。台北市内に複数店舗展開。日本の「丁寧なコーヒー文化」を体験できる空間。",
-    "price_range": "TWD 150〜300/人"
+    "price_range": "TWD 150〜300/人",
+    "place_reviewed": true
   },
   {
     "slug": "sarutahiko-coffee-daan",
@@ -3103,7 +3068,8 @@
     "price_level": null,
     "photo_name": null,
     "detail": "東京・恵比寿発のスペシャルティコーヒー専門店「猿田彦珈琲」の台湾店。産地にこだわった豆を使ったハンドドリップコーヒーやエスプレッソドリンクを提供。台北市内に複数店舗展開。日本の「丁寧なコーヒー文化」を体験できる空間。",
-    "price_range": "TWD 150〜300/人"
+    "price_range": "TWD 150〜300/人",
+    "place_reviewed": true
   },
   {
     "slug": "sarutahiko-coffee-kaohsiung",
@@ -3131,7 +3097,8 @@
     "price_level": null,
     "photo_name": null,
     "detail": "東京・恵比寿発のスペシャルティコーヒー専門店「猿田彦珈琲」の台湾店。産地にこだわった豆を使ったハンドドリップコーヒーやエスプレッソドリンクを提供。台北市内に複数店舗展開。日本の「丁寧なコーヒー文化」を体験できる空間。",
-    "price_range": "TWD 150〜300/人"
+    "price_range": "TWD 150〜300/人",
+    "place_reviewed": true
   },
   {
     "slug": "sarutahiko-coffee-neihu",
@@ -3159,7 +3126,8 @@
     "price_level": null,
     "photo_name": null,
     "detail": "東京・恵比寿発のスペシャルティコーヒー専門店「猿田彦珈琲」の台湾店。産地にこだわった豆を使ったハンドドリップコーヒーやエスプレッソドリンクを提供。台北市内に複数店舗展開。日本の「丁寧なコーヒー文化」を体験できる空間。",
-    "price_range": "TWD 150〜300/人"
+    "price_range": "TWD 150〜300/人",
+    "place_reviewed": true
   },
   {
     "slug": "sarutahiko-coffee-songshan-2",
@@ -3187,7 +3155,8 @@
     "price_level": null,
     "photo_name": null,
     "detail": "東京・恵比寿発のスペシャルティコーヒー専門店「猿田彦珈琲」の台湾店。産地にこだわった豆を使ったハンドドリップコーヒーやエスプレッソドリンクを提供。台北市内に複数店舗展開。日本の「丁寧なコーヒー文化」を体験できる空間。",
-    "price_range": "TWD 150〜300/人"
+    "price_range": "TWD 150〜300/人",
+    "place_reviewed": true
   },
   {
     "slug": "sarutahiko-coffee-taichung",
@@ -3215,7 +3184,8 @@
     "price_level": null,
     "photo_name": null,
     "detail": "東京・恵比寿発のスペシャルティコーヒー専門店「猿田彦珈琲」の台湾店。産地にこだわった豆を使ったハンドドリップコーヒーやエスプレッソドリンクを提供。台北市内に複数店舗展開。日本の「丁寧なコーヒー文化」を体験できる空間。",
-    "price_range": "TWD 150〜300/人"
+    "price_range": "TWD 150〜300/人",
+    "place_reviewed": true
   },
   {
     "slug": "sarutahiko-coffee-tainan",
@@ -3243,7 +3213,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sarutahiko-coffee-tianmu",
@@ -3271,7 +3242,8 @@
     "price_level": null,
     "photo_name": null,
     "detail": "東京・恵比寿発のスペシャルティコーヒー専門店「猿田彦珈琲」の台湾店。産地にこだわった豆を使ったハンドドリップコーヒーやエスプレッソドリンクを提供。台北市内に複数店舗展開。日本の「丁寧なコーヒー文化」を体験できる空間。",
-    "price_range": "TWD 150〜300/人"
+    "price_range": "TWD 150〜300/人",
+    "place_reviewed": true
   },
   {
     "slug": "sarutahiko-coffee-xinyi",
@@ -3299,7 +3271,8 @@
     "price_level": null,
     "photo_name": null,
     "detail": "東京・恵比寿発のスペシャルティコーヒー専門店「猿田彦珈琲」の台湾店。産地にこだわった豆を使ったハンドドリップコーヒーやエスプレッソドリンクを提供。台北市内に複数店舗展開。日本の「丁寧なコーヒー文化」を体験できる空間。",
-    "price_range": "TWD 150〜300/人"
+    "price_range": "TWD 150〜300/人",
+    "place_reviewed": true
   },
   {
     "slug": "sarutahiko-coffee-zhongshan-2",
@@ -3327,7 +3300,8 @@
     "price_level": null,
     "photo_name": null,
     "detail": "東京・恵比寿発のスペシャルティコーヒー専門店「猿田彦珈琲」の台湾店。産地にこだわった豆を使ったハンドドリップコーヒーやエスプレッソドリンクを提供。台北市内に複数店舗展開。日本の「丁寧なコーヒー文化」を体験できる空間。",
-    "price_range": "TWD 150〜300/人"
+    "price_range": "TWD 150〜300/人",
+    "place_reviewed": true
   },
   {
     "slug": "sarutahiko-coffee-zhongshan-nanjing",
@@ -3355,176 +3329,8 @@
     "price_level": null,
     "photo_name": null,
     "detail": "東京・恵比寿発のスペシャルティコーヒー専門店「猿田彦珈琲」の台湾店。産地にこだわった豆を使ったハンドドリップコーヒーやエスプレッソドリンクを提供。台北市内に複数店舗展開。日本の「丁寧なコーヒー文化」を体験できる空間。",
-    "price_range": "TWD 150〜300/人"
-  },
-  {
-    "slug": "sato-curry-fuxing-store",
-    "name": "Sato Curry Fuxing Store",
-    "name_ja": "サト カレー Fuxing ストア",
-    "area": "Taipei",
-    "address": "No. 92之1號, Section 1, Fuxing S Rd, Da’an District, Taipei City, Taiwan 106",
-    "phone": "+886227111967",
-    "website": "https://shop.ichefpos.com/store/1YD1RAfK",
-    "description": "日本発のカレー専門店「佐藤カレー」の復興店。日本スタイルのルーカレーをベースに、台湾でも人気の創作カレーを台北復興エリアで提供。",
-    "tags": [
-      "日式カフェ"
-    ],
-    "hours": "Monday: 11:30 AM – 2:30 PM, 5:30 – 9:00 PM / Tuesday: 11:30 AM – 2:30 PM, 5:30 – 9:00 PM / Wednesday: 11:30 AM – 2:30 PM, 5:30 – 9:00 PM / Thursday: 11:30 AM – 2:30 PM, 5:30 – 9:00 PM / Friday: 11:30 AM – 2:30 PM, 5:30 – 9:00 PM / Saturday: 11:30 AM – 2:30 PM, 5:30 – 9:00 PM / Sunday: 11:30 AM – 2:30 PM, 5:30 – 9:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sato-curry-heping-main-shop",
-    "name": "Sato Curry Heping Main Shop",
-    "name_ja": "サト カレー ヘピング マイン ショップ",
-    "area": "Taipei",
-    "address": "No. 9, Lane 228, Section 3, Heping E Rd, Da’an District, Taipei City, Taiwan 106",
-    "phone": "+886287326523",
-    "website": "https://www.facebook.com/satocurry",
-    "description": "日本発のカレー専門店「佐藤カレー」の和平本店。日本スタイルのルーカレーをベースに、台湾でも人気の創作カレーを提供する専門店。",
-    "tags": [
-      "日式カフェ"
-    ],
-    "hours": "Monday: 11:30 AM – 2:30 PM, 5:30 – 9:00 PM / Tuesday: 11:30 AM – 2:30 PM, 5:30 – 9:00 PM / Wednesday: 11:30 AM – 2:30 PM, 5:30 – 9:00 PM / Thursday: 11:30 AM – 2:30 PM, 5:30 – 9:00 PM / Friday: 11:30 AM – 2:30 PM, 5:30 – 9:00 PM / Saturday: 11:30 AM – 2:30 PM, 5:30 – 9:00 PM / Sunday: 11:30 AM – 2:30 PM, 5:30 – 9:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "soup-curry-king",
-    "name": "Soup Curry King 台中店 ｜湯咖哩専門店",
-    "name_ja": "Soup Curry King 台中店 ｜湯咖哩専門店",
-    "area": "Taichung",
-    "address": "403, Taiwan, Taichung City, West District, Wuquan Rd, 113號1樓",
-    "phone": "+886422038877",
-    "website": "https://www.instagram.com/soupcurryking.tw",
-    "description": "北海道発のスープカレー専門店「スープカレーキング」の台中店。北海道スタイルの野菜たっぷりスープカレーを台中で提供する日本発の専門店。",
-    "tags": [
-      "日式カフェ"
-    ],
-    "hours": "Monday: Closed / Tuesday: 11:30 AM – 4:00 PM, 5:00 – 8:00 PM / Wednesday: 11:30 AM – 4:00 PM, 5:00 – 8:00 PM / Thursday: 11:30 AM – 4:00 PM, 5:00 – 8:00 PM / Friday: 11:30 AM – 4:00 PM, 5:00 – 8:00 PM / Saturday: 11:30 AM – 4:00 PM, 5:00 – 8:00 PM / Sunday: 11:30 AM – 4:00 PM, 5:00 – 8:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "starbucks-reserve-xinyi",
-    "name": "Starbucks Reserve Xinyi",
-    "name_ja": "スターバックスリザーブ 信義",
-    "area": "Xinyi",
-    "address": "Xinyi District, Taipei",
-    "phone": null,
-    "website": null,
-    "description": "日本でも人気の「スターバックス リザーブ」の台北信義店。希少性の高いシングルオリジンコーヒーを多彩な抽出方法で提供し、信義区に立地。",
-    "tags": [
-      "カフェ",
-      "リザーブ"
-    ],
-    "hours": "毎日 7:00〜22:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-28",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "takanoya-japanese-cuisine",
-    "name": "Takanoya Japanese Cuisine",
-    "name_ja": "タカノヤ 日本 料理",
-    "area": "Taipei",
-    "address": "No. 57號, Lane 63, Section 2, Dunhua S Rd, Da’an District, Taipei City, Taiwan 106",
-    "phone": "+886227039007",
-    "website": "https://liff.line.me/1582347558-VdW5GZDw/detail/999013734363963045",
-    "description": "日本料理を提供する台湾の日式レストラン「Takanoya Japanese Cuisine」。日本のシェフが手がける懐石・割烹スタイルの日本料理コースを提供。",
-    "tags": [
-      "日式カフェ"
-    ],
-    "hours": "Monday: 11:30 AM – 2:30 PM, 5:30 – 9:30 PM / Tuesday: 11:30 AM – 2:30 PM, 5:30 – 9:30 PM / Wednesday: Closed / Thursday: 11:30 AM – 2:30 PM, 5:30 – 9:30 PM / Friday: 11:30 AM – 2:30 PM, 5:30 – 9:30 PM / Saturday: 11:30 AM – 2:30 PM, 5:30 – 9:30 PM / Sunday: 11:30 AM – 2:30 PM, 5:30 – 9:30 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "taku",
-    "name": "TAKU 牛丼專賣",
-    "name_ja": "TAKU 牛丼專賣",
-    "area": "Taichung",
-    "address": "No. 105號, Minsheng N Rd, West District, Taichung City, Taiwan 403005",
-    "phone": "+886423058199",
-    "website": "https://m.facebook.com/seefood106/",
-    "description": "日本発の牛丼専門店「TAKU」。日本式の牛丼をベースに、台湾でも親しみやすい丼メニューをリーズナブルな価格で提供する専門店。",
-    "tags": [
-      "日式カフェ"
-    ],
-    "hours": "Monday: Closed / Tuesday: 11:30 AM – 2:00 PM, 5:30 – 9:00 PM / Wednesday: 11:30 AM – 2:00 PM, 5:30 – 9:00 PM / Thursday: 11:30 AM – 2:00 PM, 5:30 – 9:00 PM / Friday: 11:30 AM – 2:00 PM, 5:30 – 10:00 PM / Saturday: 5:30 – 10:00 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "tongan-japanese-curry",
-    "name": "Tong'an Japanese Curry",
-    "name_ja": "トング'an 日本 カレー",
-    "area": "Taipei",
-    "address": "No. 115, Tongan St, Da’an District, Taipei City, Taiwan 106",
-    "phone": null,
-    "website": "https://www.facebook.com/tongan.curry/",
-    "description": "日本式カレーを専門に提供する台湾のカレーレストラン。日本スタイルの濃厚なルーカレーを多彩なトッピングとともに提供する日式カレー専門店。",
-    "tags": [
-      "日式カフェ"
-    ],
-    "hours": "Monday: 11:30 AM – 2:30 PM, 5:00 – 8:00 PM / Tuesday: 11:30 AM – 2:30 PM, 5:00 – 8:00 PM / Wednesday: 11:30 AM – 2:30 PM, 5:00 – 8:00 PM / Thursday: 11:30 AM – 2:30 PM, 5:00 – 8:00 PM / Friday: 11:30 AM – 2:30 PM, 5:00 – 8:00 PM / Saturday: 11:30 AM – 2:30 PM, 5:00 – 8:00 PM / Sunday: 11:30 AM – 2:30 PM, 5:00 – 8:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "price_range": "TWD 150〜300/人",
+    "place_reviewed": true
   },
   {
     "slug": "tsujiri-banqiao",
@@ -3550,7 +3356,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tsujiri-daan",
@@ -3576,7 +3383,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tsujiri-daan-2",
@@ -3602,7 +3410,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tsujiri-hsinchu",
@@ -3630,7 +3439,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tsujiri-kaohsiung",
@@ -3656,7 +3466,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tsujiri-kaohsiung-2",
@@ -3684,7 +3495,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tsujiri-keelung",
@@ -3712,7 +3524,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tsujiri-neihu",
@@ -3738,7 +3551,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tsujiri-new-taipei-xindian",
@@ -3766,7 +3580,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tsujiri-new-taipei-xinzhuang",
@@ -3794,7 +3609,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tsujiri-shilin",
@@ -3820,7 +3636,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tsujiri-taichung",
@@ -3846,7 +3663,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tsujiri-taichung-2",
@@ -3874,7 +3692,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tsujiri-tainan",
@@ -3900,7 +3719,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tsujiri-taipei",
@@ -3926,7 +3746,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tsujiri-taoyuan",
@@ -3952,7 +3773,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tsujiri-xinyi",
@@ -3978,7 +3800,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tsujiri-xinyi-2",
@@ -4004,7 +3827,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tsujiri-zhonghe",
