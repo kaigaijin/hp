@@ -13754,69 +13754,6 @@
     "photo_name": null
   },
   {
-    "slug": "vs-101",
-    "name": "開丼 燒肉vs丼飯 台北101店",
-    "name_ja": "開丼 燒肉vs丼飯 台北101店",
-    "area": "Taipei",
-    "address": "B1樓, No. 45號, City Hall Rd, Xinyi District, Taipei City, Taiwan 110",
-    "phone": "+886281017858",
-    "website": "https://www.kaidon.com.tw/",
-    "description": "日本料理を提供する台北信義区の日式レストラン。日本の食材・調理法を用いた和食メニューを台湾在住の日本人・台湾人に提供する。",
-    "tags": [
-      "日式焼肉"
-    ],
-    "hours": "Monday: 11:00 AM – 9:30 PM / Tuesday: 11:00 AM – 9:30 PM / Wednesday: 11:00 AM – 9:30 PM / Thursday: 11:00 AM – 9:30 PM / Friday: 11:00 AM – 10:00 PM / Saturday: 11:00 AM – 10:00 PM / Sunday: 11:00 AM – 9:30 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "detail": "「地表最強燒肉丼」をコンセプトにした台湾発の焼肉丼・鉄板定食レストラン。牛タン・和牛・牛小排など豊富な牛肉メニューを揃え、鉄板定食はTWD299〜と手頃な価格帯。台北101（信義区）内に位置し、日本人観光客・駐在員にも利用しやすいロケーション。",
-    "menu": [
-      {
-        "name": "羽下牛排鐵板定食",
-        "price": "TWD 359",
-        "category": "鉄板定食"
-      },
-      {
-        "name": "油封香蒜牛小排鐵板定食",
-        "price": "TWD 429",
-        "category": "鉄板定食"
-      },
-      {
-        "name": "太陽蛋松露和牛漢堡排鐵板定食",
-        "price": "TWD 339",
-        "category": "鉄板定食"
-      },
-      {
-        "name": "醬燒鯖魚鐵板定食",
-        "price": "TWD 319",
-        "category": "鉄板定食"
-      },
-      {
-        "name": "醬燒雞腿鐵板定食",
-        "price": "TWD 329",
-        "category": "鉄板定食"
-      },
-      {
-        "name": "塩蔥牛舌片鐵板定食",
-        "price": "TWD 309",
-        "category": "鉄板定食"
-      },
-      {
-        "name": "炙烤豬排鐵板定食",
-        "price": "TWD 299",
-        "category": "鉄板定食"
-      }
-    ],
-    "price_range": "TWD 299〜429/人"
-  },
-  {
     "slug": "watami-taipei-daan",
     "name": "Watami Da'an",
     "name_ja": "和民 大安",
@@ -13824,7 +13761,7 @@
     "address": "Da'an District, Taipei",
     "phone": null,
     "website": null,
-    "description": "日本の居酒屋チェーン「和民」の台北大安区店。豊富なメニューと飲み放題プランが特徴で、グループでの宴会や大人数での食事に対応する。",
+    "description": "日本の居酒屋チェーン「和民」の台北大安店。単品メニューが充実しており飲み放題プランも選べる。グループ宴会から少人数の食事まで対応できる。",
     "tags": [
       "居酒屋",
       "チェーン",
@@ -13840,7 +13777,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "watami-taipei-xinyi",
@@ -13850,7 +13788,7 @@
     "address": "Xinyi District, Taipei",
     "phone": null,
     "website": null,
-    "description": "日本の居酒屋チェーン「和民」の台北信義区店。飲み放題プランと豊富な料理メニューが特徴で、駐在員の宴会や大人数での食事に対応する。",
+    "description": "日本の居酒屋チェーン「和民」の台北信義店。信義ショッピングエリアに近く、和食・居酒屋メニューと飲み放題プランが揃う定番チェーン。",
     "tags": [
       "居酒屋",
       "日本発チェーン",
@@ -13866,7 +13804,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "watami-taipei-zhongshan",
@@ -13876,7 +13815,7 @@
     "address": "Zhongshan District, Taipei",
     "phone": null,
     "website": null,
-    "description": "日本の大手居酒屋チェーン「和民」の台北中山区店。豊富な料理メニューと飲み放題プランが特徴で、在台日本人の宴会利用にも対応する。",
+    "description": "日本の大手居酒屋チェーン「和民」の台北中山店。和食・居酒屋メニューと飲み放題プランが充実しており、宴会や大人数の食事利用にも対応する。",
     "tags": [
       "居酒屋",
       "日本発チェーン",
@@ -13892,235 +13831,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "wowcao",
-    "name": "吾曹Wowcao｜串燒：小酌：自然酒吧",
-    "name_ja": "吾曹Wowcao｜串燒：小酌：自然酒吧",
-    "area": "Taichung",
-    "address": "404, Taiwan, Taichung City, North District, Beixing St, 207號店面",
-    "phone": "+886422353151",
-    "website": "https://lin.ee/nzdbOBt",
-    "description": "日本式居酒屋スタイルで楽しめる台中市内の酒場。炭火で焼き上げる串焼き・焼き鳥と日本酒・ビールのペアリングが楽しめる居酒屋。",
-    "tags": [
-      "居酒屋",
-      "日式串焼き"
-    ],
-    "hours": "Monday: 5:00 PM – 12:00 AM / Tuesday: 5:00 PM – 12:00 AM / Wednesday: 5:00 PM – 12:00 AM / Thursday: 5:00 PM – 12:00 AM / Friday: 5:00 PM – 12:00 AM / Saturday: 5:00 PM – 12:00 AM / Sunday: 5:00 PM – 12:00 AM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "wu-left-hand-yakitori-izakaya-restaurant",
-    "name": "吳留手串燒居酒屋 Wu left hand Yakitori Izakaya restaurant",
-    "name_ja": "吳留手串燒居酒屋 Wu left hand Yakitori Izakaya restaurant",
-    "area": "Taipei",
-    "address": "No. 13, Lane 312, Section 2, Bade Rd, Zhongshan District, Taipei City, Taiwan 10491",
-    "phone": "+886227761008",
-    "website": "https://www.facebook.com/wuliushou1",
-    "description": "日本式の居酒屋スタイルで楽しめる台北中山区の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみを提供する。",
-    "tags": [
-      "居酒屋",
-      "日式串焼き"
-    ],
-    "hours": "Monday: 6:00 PM – 1:00 AM / Tuesday: 6:00 PM – 1:00 AM / Wednesday: 6:00 PM – 1:00 AM / Thursday: 6:00 PM – 1:00 AM / Friday: 6:00 PM – 1:00 AM / Saturday: 6:00 PM – 1:00 AM / Sunday: 6:00 PM – 1:00 AM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "wushuang-chuan-shao-izakaya-restaurant",
-    "name": "Wushuang Chuan Shao Izakaya Restaurant",
-    "name_ja": "Wushuang チュアン シャオ 居酒屋 レストラン",
-    "area": "Taipei",
-    "address": "No. 28號, Section 4, Civic Blvd, Da’an District, Taipei City, Taiwan 106",
-    "phone": "+886227317438",
-    "website": "https://www.facebook.com/%E7%84%A1%E5%8F%8C%E4%B8%B2%E7%87%92%E5%B1%85%E9%85%92%E5%B1%8B-632981840106402/",
-    "description": "日本式の居酒屋スタイルで楽しめる台北市内の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみをそろえている。",
-    "tags": [
-      "居酒屋",
-      "日本酒",
-      "和風酒場"
-    ],
-    "hours": "Monday: 5:30 PM – 1:00 AM / Tuesday: 5:30 PM – 1:00 AM / Wednesday: 5:30 PM – 1:00 AM / Thursday: 5:30 PM – 1:00 AM / Friday: 5:30 PM – 3:00 AM / Saturday: 5:30 PM – 3:00 AM / Sunday: 5:30 PM – 1:00 AM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "x",
-    "name": "一杯起 鐵板x串燒｜寵物友善 ｜深夜食堂",
-    "name_ja": "一杯起 鐵板x串燒｜寵物友善 ｜深夜食堂",
-    "area": "Taipei",
-    "address": "106, Taiwan, Taipei City, Da’an District, Yanji St, 261之1號1樓",
-    "phone": "+886227011611",
-    "website": "https://www.17onemoreshot.com/",
-    "description": "日本式居酒屋スタイルで楽しめる台北市内の酒場。炭火で焼き上げる串焼き・焼き鳥と日本酒・ビールのペアリングが楽しめる居酒屋。",
-    "tags": [
-      "居酒屋",
-      "日式串焼き"
-    ],
-    "hours": "Monday: 6:00 PM – 1:00 AM / Tuesday: 6:00 PM – 1:00 AM / Wednesday: 6:00 PM – 1:00 AM / Thursday: 6:00 PM – 1:00 AM / Friday: 6:00 PM – 1:00 AM / Saturday: 6:00 PM – 1:00 AM / Sunday: 6:00 PM – 1:00 AM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "x-one-yakiniku",
-    "name": "万x串燒酒場_one yakiniku",
-    "name_ja": "万x串燒酒場_one yakiniku",
-    "area": "Kaohsiung",
-    "address": "807, Taiwan, Kaohsiung City, Sanmin District, Beiping 1st St, 175號1樓",
-    "phone": "+88673228995",
-    "website": "https://www.instagram.com/one_yakitori/",
-    "description": "日本式の焼肉スタイルを提供する高雄市内の焼肉店。日本産・台湾産の厳選肉と日本のビール・ハイボールを組み合わせて楽しめる。",
-    "tags": [
-      "居酒屋",
-      "日式焼肉"
-    ],
-    "hours": "Monday: 5:30 PM – 1:00 AM / Tuesday: Closed / Wednesday: 5:30 PM – 1:00 AM / Thursday: 5:30 PM – 1:00 AM / Friday: 5:30 PM – 1:00 AM / Saturday: 5:30 PM – 1:00 AM / Sunday: 5:30 PM – 1:00 AM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "xiano-zhuo-izakaya-restaurant",
-    "name": "Xiano Zhuo Izakaya Restaurant",
-    "name_ja": "Xiano Zhuo 居酒屋 レストラン",
-    "area": "Kaohsiung",
-    "address": "No. 441號, Xingzhong 1st Rd, Lingya District, Kaohsiung City, Taiwan 802",
-    "phone": "+88673386232",
-    "website": "https://www.instagram.com/natsu_shaku?igsh=dmVzNjNrM212N2h6&utm_source=qr",
-    "description": "日本式の居酒屋スタイルで楽しめる高雄市内の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみをそろえている。",
-    "tags": [
-      "居酒屋",
-      "日本酒",
-      "和風酒場"
-    ],
-    "hours": "Monday: Closed / Tuesday: 6:00 PM – 1:00 AM / Wednesday: 6:00 PM – 1:00 AM / Thursday: 6:00 PM – 1:00 AM / Friday: 6:00 PM – 1:00 AM / Saturday: 6:00 PM – 1:00 AM / Sunday: 6:00 PM – 1:00 AM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "xiao-sheng-izakaya-restaurant",
-    "name": "Xiao Sheng Izakaya Restaurant",
-    "name_ja": "Xiao Sheng 居酒屋 レストラン",
-    "area": "Kaohsiung",
-    "address": "802, Taiwan, Kaohsiung City, Lingya District, Zhongshan 2nd Rd, 386號1樓",
-    "phone": "+88672417103",
-    "website": "https://www.facebook.com/profile.php?id=61578755104865",
-    "description": "日本式の居酒屋スタイルで楽しめる台北中山区の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみを提供する。",
-    "tags": [
-      "居酒屋",
-      "日本酒",
-      "和風酒場"
-    ],
-    "hours": "Monday: Closed / Tuesday: 5:30 PM – 12:00 AM / Wednesday: 5:30 PM – 12:00 AM / Thursday: 5:30 PM – 12:00 AM / Friday: 5:30 PM – 12:00 AM / Saturday: 5:30 PM – 12:00 AM / Sunday: 5:30 PM – 12:00 AM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "xiaoxin-japanese-food-wine-shop",
-    "name": "Xiaoxin Japanese food wine shop",
-    "name_ja": "Xiaoxin 日本 フード ワイン ショップ",
-    "area": "Taipei",
-    "address": "106, Taiwan, Taipei City, Da’an District, Section 3, Civic Blvd, 246號No",
-    "phone": "+886227751902",
-    "website": "https://www.facebook.com/Ashin036/",
-    "description": "日本料理を提供する台北市内の日式レストラン。日本の食材・調理法を用いた和食メニューを台湾在住の日本人・台湾人に提供する。",
-    "tags": [
-      "日式"
-    ],
-    "hours": "Monday: 11:30 AM – 2:30 PM, 5:30 – 10:30 PM / Tuesday: 11:30 AM – 2:30 PM, 5:30 – 10:30 PM / Wednesday: 11:30 AM – 2:30 PM, 5:30 – 10:30 PM / Thursday: 11:30 AM – 2:30 PM, 5:30 – 10:30 PM / Friday: 11:30 AM – 2:30 PM, 5:30 – 10:30 PM / Saturday: 11:30 AM – 2:30 PM, 5:30 – 10:30 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "xin-izakaya-restaurant",
-    "name": "Xin Izakaya Restaurant",
-    "name_ja": "Xin 居酒屋 レストラン",
-    "area": "Taichung",
-    "address": "No. 101, Section 2, Dalian Rd, Beitun District, Taichung City, Taiwan 406",
-    "phone": "+886422471162",
-    "website": "https://www.sakehero.com/2016-08-14-780/",
-    "description": "日本式の居酒屋スタイルで楽しめる台中市内の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみをそろえている。",
-    "tags": [
-      "居酒屋",
-      "日本酒",
-      "和風酒場"
-    ],
-    "hours": "Monday: Closed / Tuesday: 6:00 PM – 1:00 AM / Wednesday: 6:00 PM – 1:00 AM / Thursday: 6:00 PM – 1:00 AM / Friday: 6:00 PM – 1:00 AM / Saturday: 6:00 PM – 1:00 AM / Sunday: 6:00 PM – 1:00 AM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yakiniku",
@@ -14130,7 +13842,7 @@
     "address": "No. 23號, Cisian 2nd Rd, Sinsing District, Kaohsiung City, Taiwan 80047",
     "phone": "+886967122020",
     "website": "https://m.facebook.com/Jinyan.yakiniku/?_se_imp=02Hf0bzNwTxwmgOst",
-    "description": "日本料理を提供する高雄市内の日式レストラン。日本の食材・調理法を用いた和食メニューを台湾在住の日本人・台湾人に提供する。",
+    "description": "高雄新興区にある日本式焼肉居酒屋「津筵 Yakiniku 燒肉酒館」。日本スタイルの焼肉と日本酒・ハイボールを提供し、火曜から土曜の夜のみ営業。",
     "tags": [
       "日式焼肉"
     ],
@@ -14144,31 +13856,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "yakiniku-e-mu",
-    "name": "Yakiniku E MU",
-    "name_ja": "焼肉 エ ム",
-    "area": "Kaohsiung",
-    "address": "No. 206號, Fuheng 1st Rd, Sinsing District, Kaohsiung City, Taiwan 800",
-    "phone": "+886925690996",
-    "website": "https://m.facebook.com/pages/category/Product-Service/%E7%82%99%E3%82%B9%E3%83%AC%E3%83%BC%E3%83%88Sure%CC%84to%E5%B2%A9%E7%87%92%E7%89%9B%E6%8E%92X%E6%97%A5%E5%BC%8F%E7%87%92%E8%82%89X%E6%97%A5%E5%BC%8F%E8%88%92%E8%8A%99%E8%95%BE-103721818477430/",
-    "description": "日本料理を提供する高雄市内の日式レストラン。日本の食材・調理法を用いた和食メニューを台湾在住の日本人・台湾人に提供する。",
-    "tags": [
-      "日式焼肉"
-    ],
-    "hours": "Monday: Closed / Tuesday: Closed / Wednesday: 9:00 PM – 5:30 AM / Thursday: 9:00 PM – 5:30 AM / Friday: 9:00 PM – 5:00 AM / Saturday: 9:00 PM – 5:30 AM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yakiniku-jumbo-taipei",
@@ -14178,7 +13867,7 @@
     "address": "Xinyi District, Taipei",
     "phone": null,
     "website": "https://www.kanpai.com.tw/",
-    "description": "乾杯グループが運営する高級焼肉ブランドの台北店。和牛を中心とした厳選肉と高級感のある空間が特徴で、接待や記念日の利用にも適する。",
+    "description": "乾杯グループが手がける高級焼肉ブランド「Yakiniku Jumbo」の台北店。和牛を中心とした厳選肉をコース形式で堪能できる。接待・記念日にも対応。",
     "tags": [
       "居酒屋",
       "焼肉",
@@ -14197,7 +13886,8 @@
     "price_level": null,
     "photo_name": null,
     "detail": "台湾全土に展開する大型焼肉居酒屋チェーン「乾杯」。霜降り和牛・ラム・豚など豊富な肉の種類を揃え、ビールをはじめアルコール類も充実。台北・台中・高雄など全国に複数店舗展開。ペット同伴可能な店舗もあり（事前申告要）。",
-    "price_range": "TWD 600〜1,200/人"
+    "price_range": "TWD 600〜1,200/人",
+    "place_reviewed": true
   },
   {
     "slug": "yakiniku-like",
@@ -14207,7 +13897,7 @@
     "address": "110, Taiwan, Taipei City, Xinyi District, Songshou Rd, 20號2樓",
     "phone": null,
     "website": null,
-    "description": "日本料理を提供する台北信義区の日式レストラン。日本の食材・調理法を用いた和食メニューを台湾在住の日本人・台湾人に提供する。",
+    "description": "日本発の一人焼肉専門チェーン「焼肉ライク」の台北信義店。一人一台のロースターでカウンター席から気軽に焼肉を楽しめる。セットメニューがリーズナブル。",
     "tags": [
       "日式焼肉"
     ],
@@ -14221,7 +13911,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yakiniku-like-chengde",
@@ -14231,7 +13922,7 @@
     "address": "1F, No. 1, Section 1, Chengde Road, Datong District, Taipei",
     "phone": null,
     "website": "https://dining-innovation.com.sg/yakinikulike/",
-    "description": "焼肉ライクの承德路店。台北駅近くに位置し、一人焼肉が楽しめる日本発チェーン。アクセス良好でランチタイムにも便利なロケーション。",
+    "description": "日本発の一人焼肉専門チェーン「焼肉ライク」の台北承德路店。台北駅から近く、一人一台のロースターで気軽に焼肉が楽しめる。ランチにも便利。",
     "tags": [
       "焼肉",
       "一人焼肉",
@@ -14249,7 +13940,8 @@
     "price_level": null,
     "photo_name": null,
     "detail": "日本発のひとり焼肉専門店「焼肉ライク」の台湾店。スモークレス無煙ロースターを備えた1人用個別席で、焼肉を気軽に楽しめる。台北市内に中山・敦化・和平・復興・双城・松寿・成徳など複数店舗を展開。",
-    "price_range": "TWD 300〜600/人"
+    "price_range": "TWD 300〜600/人",
+    "place_reviewed": true
   },
   {
     "slug": "yakiniku-like-daan-anhe",
@@ -14259,7 +13951,7 @@
     "address": "No. 29, Section 2, Anhe Road, Da'an District, Taipei",
     "phone": null,
     "website": "https://dining-innovation.com.sg/yakinikulike/",
-    "description": "一人焼肉専門チェーン「焼肉ライク」の大安安和店。タブレット注文で気軽に一人焼肉が楽しめる。ランチタイムのビジネスマンにも便利。",
+    "description": "日本発の一人焼肉専門チェーン「焼肉ライク」の大安安和店。タブレット注文でスムーズに一人焼肉が楽しめる。ランチタイムのビジネスマンにも人気。",
     "tags": [
       "焼肉",
       "一人焼肉",
@@ -14277,7 +13969,8 @@
     "price_level": null,
     "photo_name": null,
     "detail": "日本発のひとり焼肉専門店「焼肉ライク」の台湾店。スモークレス無煙ロースターを備えた1人用個別席で、焼肉を気軽に楽しめる。台北市内に中山・敦化・和平・復興・双城・松寿・成徳など複数店舗を展開。",
-    "price_range": "TWD 300〜600/人"
+    "price_range": "TWD 300〜600/人",
+    "place_reviewed": true
   },
   {
     "slug": "yakiniku-like-dunhua",
@@ -14287,7 +13980,7 @@
     "address": "No. 20, Lane 81, Section 2, Dunhua South Road, Da'an District, Taipei",
     "phone": null,
     "website": "https://dining-innovation.com.sg/yakinikulike/",
-    "description": "焼肉ライクの敦化南路店。サクッと一人焼肉を楽しみたい人に人気の日本発チェーン。忠孝敦化駅近くでビジネスマンのランチスポットとして利用される。",
+    "description": "日本発の一人焼肉専門チェーン「焼肉ライク」の敦化南路店。忠孝敦化駅近くに位置し、一人でもサクッと焼肉が楽しめる。ランチスポットとして定着。",
     "tags": [
       "焼肉",
       "一人焼肉",
@@ -14305,7 +13998,8 @@
     "price_level": null,
     "photo_name": null,
     "detail": "日本発のひとり焼肉専門店「焼肉ライク」の台湾店。スモークレス無煙ロースターを備えた1人用個別席で、焼肉を気軽に楽しめる。台北市内に中山・敦化・和平・復興・双城・松寿・成徳など複数店舗を展開。",
-    "price_range": "TWD 300〜600/人"
+    "price_range": "TWD 300〜600/人",
+    "place_reviewed": true
   },
   {
     "slug": "yakiniku-like-fuxing",
@@ -14315,7 +14009,7 @@
     "address": "No. 45, Lane 107, Section 1, Fuxing South Road, Da'an District, Taipei",
     "phone": null,
     "website": "https://dining-innovation.com.sg/yakinikulike/",
-    "description": "焼肉ライクの復興南路店。忠孝復興駅から近くアクセス良好な一人焼肉専門チェーン。ランチタイムにも利用しやすい日本発のチェーン。",
+    "description": "日本発の一人焼肉専門チェーン「焼肉ライク」の復興南路店。忠孝復興駅から徒歩圏内でアクセス良好。ランチ・ディナーともに一人焼肉が気軽に楽しめる。",
     "tags": [
       "焼肉",
       "一人焼肉",
@@ -14333,7 +14027,8 @@
     "price_level": null,
     "photo_name": null,
     "detail": "日本発のひとり焼肉専門店「焼肉ライク」の台湾店。スモークレス無煙ロースターを備えた1人用個別席で、焼肉を気軽に楽しめる。台北市内に中山・敦化・和平・復興・双城・松寿・成徳など複数店舗を展開。",
-    "price_range": "TWD 300〜600/人"
+    "price_range": "TWD 300〜600/人",
+    "place_reviewed": true
   },
   {
     "slug": "yakiniku-like-kaohsiung",
@@ -14343,7 +14038,7 @@
     "address": "Kaohsiung City",
     "phone": null,
     "website": null,
-    "description": "一人焼肉チェーン「焼肉ライク」の高雄店舗。高雄でもお一人様で気軽に焼肉が楽しめる日本発の専門チェーン。ランチにも利用しやすい。",
+    "description": "日本発の一人焼肉専門チェーン「焼肉ライク」の高雄店。高雄でも一人一台のロースターでお一人様焼肉が楽しめる日本発の専門チェーン。",
     "tags": [
       "焼肉",
       "チェーン",
@@ -14359,7 +14054,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yakiniku-like-neihu",
@@ -14369,7 +14065,7 @@
     "address": "Neihu District, Taipei",
     "phone": null,
     "website": null,
-    "description": "焼肉ライクの内湖区店。テック企業の多い内湖エリアで手軽に一人焼肉を楽しめる日本発チェーン。ランチセットがお得で定番の昼食スポット。",
+    "description": "日本発の一人焼肉専門チェーン「焼肉ライク」の内湖店。テック企業が集まる内湖エリアで手軽に一人焼肉が楽しめる。ランチセットがお得。",
     "tags": [
       "一人焼肉",
       "チェーン",
@@ -14385,7 +14081,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yakiniku-like-shuangcheng",
@@ -14395,7 +14092,7 @@
     "address": "No. 2, Lane 32, Shuangcheng Street, Zhongshan District, Taipei",
     "phone": null,
     "website": "https://dining-innovation.com.sg/yakinikulike/",
-    "description": "焼肉ライクの雙城店。中山エリアの住宅街に位置し、地元の日本人・台湾人にも人気の一人焼肉専門チェーン。タブレット注文で気軽に。",
+    "description": "日本発の一人焼肉専門チェーン「焼肉ライク」の雙城店。中山エリアの住宅街に位置し、地元の日本人・台湾人にも人気のカウンター焼肉専門店。",
     "tags": [
       "焼肉",
       "一人焼肉",
@@ -14413,7 +14110,8 @@
     "price_level": null,
     "photo_name": null,
     "detail": "日本発のひとり焼肉専門店「焼肉ライク」の台湾店。スモークレス無煙ロースターを備えた1人用個別席で、焼肉を気軽に楽しめる。台北市内に中山・敦化・和平・復興・双城・松寿・成徳など複数店舗を展開。",
-    "price_range": "TWD 300〜600/人"
+    "price_range": "TWD 300〜600/人",
+    "place_reviewed": true
   },
   {
     "slug": "yakiniku-like-songshan",
@@ -14423,7 +14121,7 @@
     "address": "Songshan District, Taipei",
     "phone": null,
     "website": null,
-    "description": "日本発の料理チェーンの台北松山区店。日本と同じレシピで作る本格料理をリーズナブルな価格で提供する日本発の飲食チェーン店。",
+    "description": "日本発の一人焼肉専門チェーン「焼肉ライク」の松山店。台北松山区で一人一台のロースターを使ったカウンター焼肉が楽しめる日本チェーン。",
     "tags": [
       "一人焼肉",
       "チェーン",
@@ -14439,7 +14137,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yakiniku-like-songshou",
@@ -14449,7 +14148,7 @@
     "address": "2F, No. 20, Songshou Road, Xinyi District, Taipei",
     "phone": null,
     "website": "https://dining-innovation.com.sg/yakinikulike/",
-    "description": "焼肉ライクの信義区松壽路店。信義ショッピングエリアの中心部に位置し、一人でも気軽に日本式焼肉が楽しめる日本発の専門チェーン。",
+    "description": "日本発の一人焼肉専門チェーン「焼肉ライク」の信義松壽路店。信義ショッピングエリア内に位置し、ショッピングの合間にも気軽に一人焼肉が楽しめる。",
     "tags": [
       "焼肉",
       "一人焼肉",
@@ -14467,7 +14166,8 @@
     "price_level": null,
     "photo_name": null,
     "detail": "日本発のひとり焼肉専門店「焼肉ライク」の台湾店。スモークレス無煙ロースターを備えた1人用個別席で、焼肉を気軽に楽しめる。台北市内に中山・敦化・和平・復興・双城・松寿・成徳など複数店舗を展開。",
-    "price_range": "TWD 300〜600/人"
+    "price_range": "TWD 300〜600/人",
+    "place_reviewed": true
   },
   {
     "slug": "yakiniku-like-taichung",
@@ -14477,7 +14177,7 @@
     "address": "Taichung City",
     "phone": null,
     "website": null,
-    "description": "一人焼肉チェーン「焼肉ライク」の台中店舗。一人一台のロースターで気軽に焼肉を楽しめる日本発専門チェーン。台中でも利用可能。",
+    "description": "日本発の一人焼肉専門チェーン「焼肉ライク」の台中店。台中でも一人一台のロースターでお一人様焼肉が楽しめる日本発の専門チェーン。",
     "tags": [
       "焼肉",
       "チェーン",
@@ -14493,7 +14193,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yakiniku-like-taipei",
@@ -14503,7 +14204,7 @@
     "address": "Zhongshan District, Taipei",
     "phone": null,
     "website": null,
-    "description": "東京発の一人焼肉専門チェーン「焼肉ライク」の台北店。カウンター席で一人でも気軽に焼肉を楽しめる。セットメニューがリーズナブル。",
+    "description": "日本発の一人焼肉専門チェーン「焼肉ライク」の台北本店。東京発のカウンタースタイルで、一人でも気軽に本格焼肉が楽しめる。セットメニューがリーズナブル。",
     "tags": [
       "焼肉",
       "一人OK",
@@ -14519,7 +14220,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yakiniku-like-wanhua",
@@ -14529,7 +14231,7 @@
     "address": "No. 42, Lane 25, Kangding Road, Wanhua District, Taipei",
     "phone": null,
     "website": "https://dining-innovation.com.sg/yakinikulike/",
-    "description": "焼肉ライクの萬華区店。西門町エリアに近く、一人でも気軽に焼肉が楽しめる日本発の専門チェーン。ショッピングの合間の食事に便利。",
+    "description": "日本発の一人焼肉専門チェーン「焼肉ライク」の萬華店。西門町エリアに近く、ショッピングの合間に一人でも気軽に焼肉が楽しめる日本チェーン。",
     "tags": [
       "焼肉",
       "一人焼肉",
@@ -14547,7 +14249,8 @@
     "price_level": null,
     "photo_name": null,
     "detail": "日本発のひとり焼肉専門店「焼肉ライク」の台湾店。スモークレス無煙ロースターを備えた1人用個別席で、焼肉を気軽に楽しめる。台北市内に中山・敦化・和平・復興・双城・松寿・成徳など複数店舗を展開。",
-    "price_range": "TWD 300〜600/人"
+    "price_range": "TWD 300〜600/人",
+    "place_reviewed": true
   },
   {
     "slug": "yakiniku-like-xinyi",
@@ -14557,7 +14260,7 @@
     "address": "Xinyi District, Taipei",
     "phone": null,
     "website": null,
-    "description": "一人焼肉チェーン「焼肉ライク」の信義店。カウンター席で気軽に一人焼肉が楽しめる日本発の専門チェーン。信義ショッピングエリアに位置。",
+    "description": "日本発の一人焼肉専門チェーン「焼肉ライク」の信義店。カウンター席で気軽に一人焼肉が楽しめる日本チェーン。信義ショッピングエリアに位置する。",
     "tags": [
       "焼肉",
       "一人OK",
@@ -14573,7 +14276,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yakiniku-like-zhongshan",
@@ -14583,7 +14287,7 @@
     "address": "Zhongshan District, Taipei",
     "phone": null,
     "website": null,
-    "description": "一人焼肉専門チェーン「焼肉ライク」の中山区店。一人一台のロースターで好きなペースで焼肉が楽しめる。ランチセットが手頃で便利。",
+    "description": "日本発の一人焼肉専門チェーン「焼肉ライク」の中山店。一人一台のロースターで好きなペースで焼肉が楽しめる。ランチセットが手頃で便利。",
     "tags": [
       "焼肉",
       "一人焼肉",
@@ -14600,7 +14304,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yakiniku-shojo-kaohsiung",
@@ -14610,7 +14315,7 @@
     "address": "No. 31, Tongqing Road, Lingya District, Kaohsiung",
     "phone": null,
     "website": null,
-    "description": "日本式居酒屋と焼肉を融合させた高雄のレストラン。日本の味付けを活かしたクラシックな焼肉メニューを提供する高雄市内の人気店。",
+    "description": "高雄にある日本式焼肉居酒屋「Yakiniku SHOJO」。日本の味付けを活かした焼肉メニューと日本酒・ハイボールが楽しめる高雄の人気焼肉店。",
     "tags": [
       "焼肉",
       "居酒屋"
@@ -14625,7 +14330,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yakiniku-wagyu-no-takumi-taipei",
@@ -14635,7 +14341,7 @@
     "address": "Da'an District, Taipei",
     "phone": null,
     "website": null,
-    "description": "A5ランクの和牛を中心に提供する台北の高級焼肉店。おまかせコースでは厳選部位を少しずつ楽しめる。個室も完備した台北の日本式焼肉名店。",
+    "description": "台北にあるA5和牛専門の高級焼肉店「Wagyu no Takumi」。厳選された和牛部位を少しずつ楽しめるおまかせコースが人気。個室完備で接待・記念日にも対応。",
     "tags": [
       "焼肉",
       "和牛",
@@ -14652,31 +14358,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "yakiniku-zonzen-taipei-xinyi-branch",
-    "name": "Yakiniku Zonzen Taipei Xinyi Branch",
-    "name_ja": "焼肉 ゾンゼン タイペイ Xinyi 支店",
-    "area": "Taipei",
-    "address": "11051, Taiwan, Taipei City, Xinyi District, Songshou Rd, 12號10樓ATT4Fun",
-    "phone": "+886422532211",
-    "website": "https://www.zonzen.com.tw/",
-    "description": "日本料理を提供する台北信義区の日式レストラン。日本の食材・調理法を用いた和食メニューを台湾在住の日本人・台湾人に提供する。",
-    "tags": [
-      "日式焼肉"
-    ],
-    "hours": "Monday: 5:30 PM – 12:00 AM / Tuesday: 5:30 PM – 12:00 AM / Wednesday: 5:30 PM – 12:00 AM / Thursday: 5:30 PM – 12:00 AM / Friday: 5:30 PM – 12:00 AM / Saturday: 11:30 AM – 4:00 PM, 5:30 PM – 12:00 AM / Sunday: 11:30 AM – 4:00 PM, 5:30 PM – 12:00 AM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yakitori",
@@ -14686,7 +14369,7 @@
     "address": "No. 138號, Section 4, Civic Blvd, Da’an District, Taipei City, Taiwan 106",
     "phone": "+886227415106",
     "website": "https://lin.ee/MhAgtoL",
-    "description": "日本式の居酒屋スタイルで楽しめる台北市内の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみをそろえている。",
+    "description": "台北大安区にある日本式焼き鳥店。炭火で焼き上げる本格焼き鳥と日本酒・ビールを楽しめる。火曜から土曜の夜のみ営業。",
     "tags": [
       "居酒屋",
       "日式居酒屋"
@@ -14701,7 +14384,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yakitori-2",
@@ -14711,7 +14395,7 @@
     "address": "No. 166號, Dadun 4th St, Nantun District, Taichung City, Taiwan 408",
     "phone": "+886424710710",
     "website": "https://inline.app/booking/-OZJPbSdxezDTa5tj-s0:inline-live-3/-OZJPbZLUEPR32cebR29",
-    "description": "日本式の居酒屋スタイルで楽しめる台中市内の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみをそろえている。",
+    "description": "台中南屯区の日本式焼き鳥居酒屋「謙旬 燒鳥」。炭火焼きの焼き鳥を中心に日本酒・ビールがそろう夜専門の居酒屋。",
     "tags": [
       "居酒屋",
       "日式居酒屋"
@@ -14726,7 +14410,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yakitori-3",
@@ -14736,7 +14421,7 @@
     "address": "407, Taiwan, Taichung City, Xitun District, Section 2, Qinghai Rd, 221號旁美食廣場內",
     "phone": "+886424520765",
     "website": "https://www.facebook.com/profile.php?id=61579145776879",
-    "description": "日本式の居酒屋スタイルで楽しめる台中市内の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみをそろえている。",
+    "description": "台中西屯区にある日本式焼き鳥専門店「炎究燒鳥」。こだわりの炭火焼き焼き鳥と日本酒・焼酎をそろえる夜専門の居酒屋。",
     "tags": [
       "居酒屋",
       "日式居酒屋"
@@ -14751,7 +14436,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yakitori-4",
@@ -14761,7 +14447,7 @@
     "address": "No. 153號, Guangfu Rd, Changhua City, Changhua County, Taiwan 500",
     "phone": "+88647220153",
     "website": null,
-    "description": "日本式の居酒屋スタイルで楽しめる台北市内の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみをそろえている。",
+    "description": "彰化市にある日本式炭火焼き鳥店「老酉yakitori」。炭火で丁寧に焼き上げる焼き鳥と日本酒・ビールを提供する夜専門の居酒屋。",
     "tags": [
       "居酒屋",
       "日式居酒屋"
@@ -14776,7 +14462,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yakitori-5",
@@ -14786,7 +14473,7 @@
     "address": "No. 206號, Wuling Rd, North District, Hsinchu City, Taiwan 300",
     "phone": "+88635328688",
     "website": "https://www.instagram.com/morimachiyakitori?igsh=MTEzdTNvY2dzYXlmdQ==",
-    "description": "日本式の居酒屋スタイルで楽しめる台北市内の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみをそろえている。",
+    "description": "新竹市北区にある日本式焼き鳥専門店「森町燒鳥」。炭火焼き鳥と日本酒・焼酎が楽しめる夜専門の居酒屋で深夜1時まで営業。",
     "tags": [
       "居酒屋",
       "日式居酒屋"
@@ -14801,33 +14488,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "yakitori-and-bar",
-    "name": "六月螢火 Yakitori & Bar 現代居酒屋",
-    "name_ja": "六月螢火 Yakitori & Bar 現代居酒屋",
-    "area": "Taichung",
-    "address": "No. 1015號, Jianxing Rd, West District, Taichung City, Taiwan 403",
-    "phone": "+886423230109",
-    "website": "https://www.facebook.com/profile.php?id=61554175010773&mibextid=LQQJ4d",
-    "description": "日本式の居酒屋スタイルで楽しめる台中市内の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみをそろえている。",
-    "tags": [
-      "居酒屋",
-      "日本酒",
-      "和風酒場"
-    ],
-    "hours": "Monday: 6:00 PM – 2:00 AM / Tuesday: 6:00 PM – 2:00 AM / Wednesday: 6:00 PM – 2:00 AM / Thursday: 6:00 PM – 2:00 AM / Friday: 6:00 PM – 2:00 AM / Saturday: 6:00 PM – 2:00 AM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yakitori-bar",
@@ -14837,7 +14499,7 @@
     "address": "No. 14號, Lane 85, Linsen N Rd, Zhongshan District, Taipei City, Taiwan 10491",
     "phone": "+886225361022",
     "website": "https://www.facebook.com/%E7%B4%80%E9%B3%A5-Yakitori-Bar-259599654980952/",
-    "description": "林森北路エリアの日本式居酒屋。日本酒・焼き鳥・刺身など定番の居酒屋メニューをそろえ、在台日本人が多く集まる林森北路に位置する。",
+    "description": "台北林森北路エリアの日本式居酒屋。在台日本人が多く集まるエリアに位置し、焼き鳥・刺身と日本酒・ビールを提供する定番の居酒屋。",
     "tags": [
       "居酒屋",
       "日式居酒屋"
@@ -14852,7 +14514,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yakitori-issho",
@@ -14862,7 +14525,7 @@
     "address": "No. 46號, Section 1, Chang'an E Rd, Zhongshan District, Taipei City, Taiwan 10491",
     "phone": "+886225115832",
     "website": "https://www.yakitoriissho.com/",
-    "description": "日本式の居酒屋スタイルで楽しめる台北中山区の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみを提供する。",
+    "description": "台北中山区にある日本式焼き鳥居酒屋「焼鳥 イッショ」。自社ウェブサイトを持つこだわりの店で、深夜3時まで営業する中山の人気スポット。",
     "tags": [
       "居酒屋",
       "日式居酒屋"
@@ -14877,7 +14540,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yakitori-izakaya",
@@ -14887,7 +14551,7 @@
     "address": "106, Taiwan, Taipei City, Da’an District, Lane 265, Section 2, Dunhua S Rd, 15號1樓",
     "phone": "+886227373009",
     "website": "https://ssur.cc/3eebj3SuN",
-    "description": "日本式居酒屋スタイルで楽しめる台北市内の酒場。炭火で焼き上げる串焼き・焼き鳥と日本酒・ビールのペアリングが楽しめる居酒屋。",
+    "description": "台北大安区にある日本式居酒屋「七福狸」。炭火で焼き上げる串焼き・焼き鳥と日本酒・ビールを提供。週4〜5日の限定営業で予約が望ましい。",
     "tags": [
       "居酒屋",
       "日式串焼き"
@@ -14902,7 +14566,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yakitori-torikizoku-taipei-att-4-fun-store",
@@ -14912,7 +14577,7 @@
     "address": "110, Taiwan, Taipei City, Xinyi District, Songshou Rd, 12號3F",
     "phone": "+886227228102",
     "website": "https://booking.menushop.tw/TB602",
-    "description": "日本料理を提供する台北信義区の日式レストラン。日本の食材・調理法を用いた和食メニューを台湾在住の日本人・台湾人に提供する。",
+    "description": "日本の焼き鳥チェーン「鳥貴族」の台北ATT 4 FUN店。台北信義区のショッピング施設内にあり、日本と同じスタイルの一串60円均一の焼き鳥が楽しめる。",
     "tags": [
       "日式"
     ],
@@ -14926,7 +14591,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yakitori-torizanmai",
@@ -14936,7 +14602,7 @@
     "address": "No. 35, Lane 65, Section 2, Zhongshan N Rd, Zhongshan District, Taipei City, Taiwan 10491",
     "phone": "+886225311566",
     "website": "https://www.facebook.com/torizanmai",
-    "description": "日本式の居酒屋スタイルで楽しめる台北中山区の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみを提供する。",
+    "description": "台北中山区にある日本式焼き鳥居酒屋「焼鳥 トリザンマイ」。中山北路の路地に位置し、日本酒・焼き鳥・刺身を提供する夜専門の居酒屋。",
     "tags": [
       "居酒屋",
       "日式居酒屋"
@@ -14951,7 +14617,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yamato-japanese-restaurant",
@@ -14961,7 +14628,7 @@
     "address": "No. 312號, Section 4, Zhongxiao E Rd, Da’an District, Taipei City, Taiwan 106",
     "phone": "+886227811869",
     "website": null,
-    "description": "日本料理を提供する台北市内の日式レストラン。日本の食材・調理法を用いた和食メニューを台湾在住の日本人・台湾人に提供する。",
+    "description": "台北大安区忠孝東路沿いにある日本料理店「Yamato」。ランチ・ディナーともに営業し、和食を中心としたメニューを提供する。",
     "tags": [
       "日式"
     ],
@@ -14975,7 +14642,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yamatoya-ramen-taipei",
@@ -14985,7 +14653,7 @@
     "address": "Da'an District, Taipei",
     "phone": null,
     "website": null,
-    "description": "日本発の家系ラーメン専門店の台北大安区店。濃厚な豚骨醤油スープにほうれん草・のりをトッピングした横浜家系スタイルのラーメン。",
+    "description": "台北大安区にある家系ラーメン専門店「Yamatoya Ramen」。日本発祥の横浜家系スタイルで、濃厚豚骨醤油スープにほうれん草・のりをのせた本格ラーメン。",
     "tags": [
       "ラーメン",
       "家系",
@@ -15001,83 +14669,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "yang-izakaya-restaurant",
-    "name": "Yang Izakaya Restaurant",
-    "name_ja": "ヤング 居酒屋 レストラン",
-    "area": "Taichung",
-    "address": "No. 111號, Section 2, Chongdeshi Rd, Beitun District, Taichung City, Taiwan 406",
-    "phone": "+886970383111",
-    "website": "https://www.instagram.com/yangizakaya/profilecard/?igsh=MWR6Yng4OGk0M2oyaw==",
-    "description": "日本式の居酒屋スタイルで楽しめる台中市内の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみをそろえている。",
-    "tags": [
-      "居酒屋",
-      "日本酒",
-      "和風酒場"
-    ],
-    "hours": "Monday: 5:30 PM – 2:00 AM / Tuesday: 5:30 PM – 2:00 AM / Wednesday: 5:30 PM – 2:00 AM / Thursday: 5:30 PM – 2:00 AM / Friday: 5:30 PM – 2:00 AM / Saturday: 5:30 PM – 2:00 AM / Sunday: 5:30 PM – 2:00 AM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "ye-shao-tan-kao-izakaya-restaurant",
-    "name": "Ye Shao Tan Kao Izakaya Restaurant",
-    "name_ja": "Ye シャオ Tan カオ 居酒屋 レストラン",
-    "area": "Taichung",
-    "address": "No. 183號, Minquan Rd, West District, Taichung City, Taiwan 403",
-    "phone": "+886422252699",
-    "website": "https://www.facebook.com/nightkushiyaki/?locale=zh_TW",
-    "description": "日本式の居酒屋スタイルで楽しめる台中市内の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみをそろえている。",
-    "tags": [
-      "居酒屋",
-      "日本酒",
-      "和風酒場"
-    ],
-    "hours": "Monday: 5:30 PM – 1:30 AM / Tuesday: 5:30 PM – 1:30 AM / Wednesday: 5:30 PM – 1:30 AM / Thursday: 5:30 PM – 1:30 AM / Friday: 5:30 PM – 1:30 AM / Saturday: 5:30 PM – 1:30 AM / Sunday: 5:30 PM – 1:30 AM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "yi-izakaya-restaurant",
-    "name": "Yi Izakaya Restaurant",
-    "name_ja": "Yi 居酒屋 レストラン",
-    "area": "Kaohsiung",
-    "address": "No. 123號, Fuxing 2nd Rd, Sinsing District, Kaohsiung City, Taiwan 800",
-    "phone": "+88672152302",
-    "website": "https://www.facebook.com/eatizakaga",
-    "description": "日本料理を提供する高雄市内の日式レストラン。日本の食材・調理法を用いた和食メニューを台湾在住の日本人・台湾人に提供する。",
-    "tags": [
-      "日式"
-    ],
-    "hours": "Monday: 6:00 PM – 2:00 AM / Tuesday: 6:00 PM – 2:00 AM / Wednesday: 6:00 PM – 2:00 AM / Thursday: 6:00 PM – 2:00 AM / Friday: 6:00 PM – 2:00 AM / Saturday: 6:00 PM – 2:00 AM / Sunday: 6:00 PM – 2:00 AM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yi-ju-jiuwu-zhongshan",
@@ -15087,7 +14680,7 @@
     "address": "No. 36, Lane 119, Linsen North Road, Zhongshan District, Taipei",
     "phone": null,
     "website": null,
-    "description": "日本式の居酒屋スタイルで楽しめる林森北路エリア（台北）の酒場。日本酒・ビールと焼き鳥・刺身・串焼き等の定番おつまみをそろえる居酒屋。",
+    "description": "台北・林森北路にある居酒屋。日本酒・焼き鳥・串焼きなど定番のおつまみと豊富なドリンクをそろえた和風酒場。在台日本人が多く集まるエリアに位置する。",
     "tags": [
       "居酒屋",
       "林森",
@@ -15103,7 +14696,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yi-zun-ri-shi-izakaya-restaurant",
@@ -15113,7 +14707,7 @@
     "address": "104202, Taiwan, Taipei City, Zhongshan District, Lane 121, Section 1, Zhongshan N Rd, 28號1樓",
     "phone": null,
     "website": null,
-    "description": "日本式の居酒屋スタイルで楽しめる台北中山区の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみを提供する。",
+    "description": "台北・中山区にある日本式居酒屋。焼き鳥・刺身・串焼きと日本酒・焼酎を揃え、林森北路エリアで在台日本人にも親しまれている。",
     "tags": [
       "居酒屋",
       "日本酒",
@@ -15129,7 +14723,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yiguo-ramen",
@@ -15139,7 +14734,7 @@
     "address": "No. 53號, Xinsheng 1st St, Qianjin District, Kaohsiung City, Taiwan 801",
     "phone": null,
     "website": "https://www.yiguoramen.com/",
-    "description": "日本料理を提供する高雄市内の日式レストラン。日本の食材・調理法を用いた和食メニューを台湾在住の日本人・台湾人に提供する。",
+    "description": "高雄市前金区にある日式ラーメン専門店。ウェブサイトを持つ実店舗で、深夜まで営業する。ラーメン好きの在台日本人・旅行者にも利用されている。",
     "tags": [
       "日式ラーメン"
     ],
@@ -15153,17 +14748,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yin-jia-izakaya-restaurant",
     "name": "Yin Jia Izakaya Restaurant",
-    "name_ja": "Yin ジア 居酒屋 レストラン",
+    "name_ja": "隠れ家居酒屋",
     "area": "Taipei",
     "address": "No. 122號, Lane 67, Linsen N Rd, Zhongshan District, Taipei City, Taiwan 10491",
     "phone": "+886225118283",
     "website": "https://www.facebook.com/pages/%E9%9A%A0%E3%82%8C%E5%AE%B6/365646936929368?rf=577625205716055",
-    "description": "林森北路エリアの日本式居酒屋。日本酒・焼き鳥・刺身など定番の居酒屋メニューをそろえ、在台日本人が多く集まる林森北路に位置する。",
+    "description": "林森北路エリアの日本式居酒屋「隠れ家」。日本酒・焼き鳥・刺身など定番メニューを揃え、在台日本人が多く集まるエリアで夕方6時から深夜まで営業。",
     "tags": [
       "居酒屋",
       "日本酒",
@@ -15179,7 +14775,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yong-ren-yakitori",
@@ -15189,7 +14786,7 @@
     "address": "104, Taiwan, Taipei City, Zhongshan District, SongJiang Rd, 22號1樓",
     "phone": "+886225816442",
     "website": "https://newmatch19.com/project/%E5%BA%B8%E4%BA%BA%E4%B8%B2%E7%87%92%E9%85%92%E9%A3%9F%E4%BE%9B%E6%87%89%E6%89%80/",
-    "description": "日本式の居酒屋スタイルで楽しめる台北中山区の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみを提供する。",
+    "description": "台北・中山区（松江路）にある日本式焼き鳥居酒屋。焼き鳥を中心に串焼き・刺身・日本酒を提供し、深夜1時まで営業する。",
     "tags": [
       "居酒屋",
       "日式居酒屋"
@@ -15204,7 +14801,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yoshinoya-daan",
@@ -15214,7 +14812,7 @@
     "address": "Da'an District, Taipei",
     "phone": null,
     "website": null,
-    "description": "日本発の牛丼チェーンの台北大安区店。日本と同じレシピで作る牛丼・定食をリーズナブルな価格で提供し、在台日本人にも親しまれる。",
+    "description": "吉野家の台北・大安区店。牛丼・定食をリーズナブルに提供する日本発のファストフードチェーン。在台日本人の日常食にも選ばれる。",
     "tags": [
       "牛丼",
       "日本チェーン",
@@ -15230,7 +14828,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yoshinoya-kaohsiung",
@@ -15240,7 +14839,7 @@
     "address": "Qianjin District, Kaohsiung",
     "phone": null,
     "website": "https://www.yoshinoya.com.tw/",
-    "description": "日本発の牛丼チェーンの高雄市内店。日本と同じレシピで作る牛丼・定食をリーズナブルな価格で提供し、在台日本人にも親しまれる。",
+    "description": "吉野家の高雄市内店。牛丼・豚丼・定食を手頃な価格で提供する日本発チェーン。毎日7時から営業し、朝食利用も可能。",
     "tags": [
       "牛丼",
       "日本発チェーン"
@@ -15257,7 +14856,8 @@
     "price_level": null,
     "photo_name": null,
     "detail": "東京発の牛丼チェーン「吉野家」の台湾店。牛丼・豚丼・鶏丼・カレー丼などを手頃な価格で提供。台北市内をはじめ台湾各地に多数展開。朝食メニュー（05:00〜10:30）も提供。キャッシュレス決済対応。",
-    "price_range": "TWD 100〜200/人"
+    "price_range": "TWD 100〜200/人",
+    "place_reviewed": true
   },
   {
     "slug": "yoshinoya-songshan",
@@ -15267,7 +14867,7 @@
     "address": "Songshan District, Taipei",
     "phone": null,
     "website": null,
-    "description": "日本発の牛丼チェーンの台北松山区店。日本と同じレシピで作る牛丼・定食をリーズナブルな価格で提供し、在台日本人にも親しまれる。",
+    "description": "吉野家の台北・松山区店。牛丼・定食を手頃な価格で提供する日本発チェーン。毎日朝7時から営業し、在台日本人の日常食としても親しまれている。",
     "tags": [
       "牛丼",
       "チェーン",
@@ -15283,7 +14883,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yoshinoya-taichung",
@@ -15293,7 +14894,7 @@
     "address": "North District, Taichung",
     "phone": null,
     "website": "https://www.yoshinoya.com.tw/",
-    "description": "日本発の牛丼チェーンの台中市内店。日本と同じレシピで作る牛丼・定食をリーズナブルな価格で提供し、在台日本人にも親しまれる。",
+    "description": "吉野家の台中市内店。牛丼・定食を手頃な価格で提供する日本発チェーン。毎日朝7時から営業し、朝食利用も可能。",
     "tags": [
       "牛丼",
       "日本発チェーン"
@@ -15310,7 +14911,8 @@
     "price_level": null,
     "photo_name": null,
     "detail": "東京発の牛丼チェーン「吉野家」の台湾店。牛丼・豚丼・鶏丼・カレー丼などを手頃な価格で提供。台北市内をはじめ台湾各地に多数展開。朝食メニュー（05:00〜10:30）も提供。キャッシュレス決済対応。",
-    "price_range": "TWD 100〜200/人"
+    "price_range": "TWD 100〜200/人",
+    "place_reviewed": true
   },
   {
     "slug": "yoshinoya-taichung-beitun",
@@ -15320,7 +14922,7 @@
     "address": "Beitun District, Taichung",
     "phone": null,
     "website": null,
-    "description": "日本発の牛丼チェーンの台中市内店。日本と同じレシピで作る牛丼・定食をリーズナブルな価格で提供し、在台日本人にも親しまれる。",
+    "description": "吉野家の台中・北屯区店。牛丼・豚丼・定食を日本と同じレシピで提供する日本発チェーン。毎日7時から営業。",
     "tags": [
       "牛丼",
       "チェーン",
@@ -15336,7 +14938,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yoshinoya-tainan",
@@ -15346,7 +14949,7 @@
     "address": "Tainan City",
     "phone": null,
     "website": null,
-    "description": "日本発の牛丼チェーンの台南市内店。日本と同じレシピで作る牛丼・定食をリーズナブルな価格で提供し、在台日本人にも親しまれる。",
+    "description": "吉野家の台南市内店。牛丼・定食を手頃な価格で提供する日本発チェーン。毎日朝7時から営業し、台南滞在中の日本人旅行者にも利用されている。",
     "tags": [
       "牛丼",
       "チェーン",
@@ -15362,7 +14965,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yoshinoya-taipei-guanqian",
@@ -15372,7 +14976,7 @@
     "address": "No. 59, Guanqian Road, Zhongzheng District, Taipei",
     "phone": null,
     "website": "https://www.yoshinoya.com.tw/",
-    "description": "日本発の牛丼チェーンの台北中正区店。日本と同じレシピで作る牛丼・定食をリーズナブルな価格で提供し、在台日本人にも親しまれる。",
+    "description": "吉野家の台北・中正区（館前路）店。牛丼・定食を手頃な価格で提供する日本発チェーン。毎日早朝6時から深夜0時まで営業し、観光客にも便利な立地。",
     "tags": [
       "牛丼",
       "日本発チェーン",
@@ -15390,7 +14994,8 @@
     "price_level": null,
     "photo_name": null,
     "detail": "東京発の牛丼チェーン「吉野家」の台湾店。牛丼・豚丼・鶏丼・カレー丼などを手頃な価格で提供。台北市内をはじめ台湾各地に多数展開。朝食メニュー（05:00〜10:30）も提供。キャッシュレス決済対応。",
-    "price_range": "TWD 100〜200/人"
+    "price_range": "TWD 100〜200/人",
+    "place_reviewed": true
   },
   {
     "slug": "yoshinoya-taipei-jilin",
@@ -15400,7 +15005,7 @@
     "address": "No. 36, Jilin Road, Zhongshan District, Taipei",
     "phone": null,
     "website": "https://www.yoshinoya.com.tw/",
-    "description": "日本発の牛丼チェーンの台北中山区店。日本と同じレシピで作る牛丼・定食をリーズナブルな価格で提供し、在台日本人にも親しまれる。",
+    "description": "吉野家の台北・中山区（吉林路）店。牛丼・定食を手頃な価格で提供する日本発チェーン。毎日早朝6時から深夜0時まで営業。",
     "tags": [
       "牛丼",
       "日本発チェーン",
@@ -15418,7 +15023,8 @@
     "price_level": null,
     "photo_name": null,
     "detail": "東京発の牛丼チェーン「吉野家」の台湾店。牛丼・豚丼・鶏丼・カレー丼などを手頃な価格で提供。台北市内をはじめ台湾各地に多数展開。朝食メニュー（05:00〜10:30）も提供。キャッシュレス決済対応。",
-    "price_range": "TWD 100〜200/人"
+    "price_range": "TWD 100〜200/人",
+    "place_reviewed": true
   },
   {
     "slug": "yoshinoya-xinyi",
@@ -15428,7 +15034,7 @@
     "address": "Xinyi District, Taipei",
     "phone": null,
     "website": "https://www.yoshinoya.com.tw/",
-    "description": "日本発の牛丼チェーンの台北信義区店。日本と同じレシピで作る牛丼・定食をリーズナブルな価格で提供し、在台日本人にも親しまれる。",
+    "description": "吉野家の台北・信義区店。牛丼・定食を手頃な価格で提供する日本発チェーン。毎日7時から営業し、在台日本人の日常食としても親しまれる。",
     "tags": [
       "牛丼",
       "日本発チェーン"
@@ -15445,7 +15051,8 @@
     "price_level": null,
     "photo_name": null,
     "detail": "東京発の牛丼チェーン「吉野家」の台湾店。牛丼・豚丼・鶏丼・カレー丼などを手頃な価格で提供。台北市内をはじめ台湾各地に多数展開。朝食メニュー（05:00〜10:30）も提供。キャッシュレス決済対応。",
-    "price_range": "TWD 100〜200/人"
+    "price_range": "TWD 100〜200/人",
+    "place_reviewed": true
   },
   {
     "slug": "yoshinoya-zhongshan",
@@ -15455,7 +15062,7 @@
     "address": "Zhongshan District, Taipei",
     "phone": null,
     "website": "https://www.yoshinoya.com.tw/",
-    "description": "日本発の牛丼チェーンの台北中山区店。日本と同じレシピで作る牛丼・定食をリーズナブルな価格で提供し、在台日本人にも親しまれる。",
+    "description": "吉野家の台北・中山区店。牛丼・定食を手頃な価格で提供する日本発チェーン。毎日7時から営業し、在台日本人の日常食としても親しまれる。",
     "tags": [
       "牛丼",
       "日本発チェーン",
@@ -15473,7 +15080,8 @@
     "price_level": null,
     "photo_name": null,
     "detail": "東京発の牛丼チェーン「吉野家」の台湾店。牛丼・豚丼・鶏丼・カレー丼などを手頃な価格で提供。台北市内をはじめ台湾各地に多数展開。朝食メニュー（05:00〜10:30）も提供。キャッシュレス決済対応。",
-    "price_range": "TWD 100〜200/人"
+    "price_range": "TWD 100〜200/人",
+    "place_reviewed": true
   },
   {
     "slug": "you-sushi-daan",
@@ -15483,7 +15091,7 @@
     "address": "No. 7, Lane 7, Lishui Street, Da'an District, Taipei",
     "phone": "+886223919298",
     "website": null,
-    "description": "大安エリアにある日本式の寿司専門店。新鮮なネタを使った握り寿司とおまかせコースを提供している。予約推奨の台北の人気寿司店。",
+    "description": "台北・大安区（麗水街）にある日本式寿司専門店「游壽司」。新鮮なネタを使った握り寿司・おまかせコースを提供。予約推奨の地元人気店。",
     "tags": [
       "寿司",
       "おまかせ"
@@ -15498,7 +15106,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "you-sushi-zhongshan",
@@ -15508,7 +15117,7 @@
     "address": "Zhongshan District, Taipei",
     "phone": null,
     "website": null,
-    "description": "手頃な価格のおまかせ寿司店。ビジネスランチ（NT$450+10%）で日本と遜色ない品質のにぎり寿司を提供。コスパ重視の方におすすめ。",
+    "description": "台北・中山区にある日本式おまかせ寿司「游壽司」。ビジネスランチはNT$450+10%〜と手頃な価格でにぎり寿司を提供。コスパ重視の在台日本人にも人気。",
     "tags": [
       "おまかせ寿司",
       "コスパ",
@@ -15524,7 +15133,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yu-cai-izakaya-restaurant",
@@ -15534,7 +15144,7 @@
     "address": "No. 5-2號, Lane 250, Section 5, Nanjing E Rd, Songshan District, Taipei City, Taiwan 105",
     "phone": "+886227672929",
     "website": null,
-    "description": "日本式の居酒屋スタイルで楽しめる台北松山区の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみを提供する。",
+    "description": "台北・松山区（南京東路）にある日本式居酒屋。焼き鳥・刺身・串焼きと日本酒・焼酎を提供し、毎週月〜土の夜間に営業する。",
     "tags": [
       "居酒屋",
       "日本酒",
@@ -15550,7 +15160,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yu-kapo-taipei",
@@ -15560,12 +15171,13 @@
     "address": "Taipei City",
     "phone": null,
     "website": null,
-    "description": "日本料理を提供する台北市内の日式レストラン。日本の食材・調理法を用いた和食メニューを台湾在住の日本人・台湾人に提供する。",
+    "description": "ミシュラン二つ星を持つ台北の日本料理割烹。釜飯・天ぷら・季節の一品料理を職人技で提供する。特別な食事に選ばれる台北屈指の高級日本料理店。",
     "tags": [
       "割烹",
       "ミシュラン二つ星",
       "釜飯",
-      "天ぷら"
+      "天ぷら",
+      "高級"
     ],
     "hours": null,
     "status": "unverified",
@@ -15577,7 +15189,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yu-yuan-izakaya-restaurant",
@@ -15587,7 +15200,7 @@
     "address": "402, Taiwan, Taichung City, South District, 福順里美村路二段180-1號",
     "phone": "+886422659899",
     "website": "https://www.instagram.com/goen20250401?igsh=Nm45cW96aGtzMGhu&utm_source=qr",
-    "description": "日本式の居酒屋スタイルで楽しめる台中市内の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみをそろえている。",
+    "description": "台中市南区にある日本式居酒屋。焼き鳥・刺身・串焼きと日本酒・焼酎をそろえ、水曜定休で深夜1時まで営業する。",
     "tags": [
       "居酒屋",
       "日本酒",
@@ -15603,7 +15216,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yun-jiu-izakaya-restaurant",
@@ -15613,7 +15227,7 @@
     "address": "No. 142號, Yunwen St, Lingya District, Kaohsiung City, Taiwan 802",
     "phone": "+88672419889",
     "website": "https://www.facebook.com/leicomebiomed",
-    "description": "日本料理を提供する高雄市内の日式レストラン。日本の食材・調理法を用いた和食メニューを台湾在住の日本人・台湾人に提供する。",
+    "description": "高雄・苓雅区（雲文街）にある日本式居酒屋。焼き鳥・串焼き・刺身と日本酒をそろえ、毎日深夜1時半まで営業する。",
     "tags": [
       "日式"
     ],
@@ -15627,7 +15241,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yun-sushi-daan",
@@ -15637,7 +15252,7 @@
     "address": "No. 9, Lane 160, Yanji Street, Da'an District, Taipei",
     "phone": null,
     "website": null,
-    "description": "2014年オープンのモダンな寿司バー。大安エリアでスタイリッシュな空間と本格的な日本式寿司を楽しめる台北の日本料理専門店。",
+    "description": "台北・大安区（延吉街）にある日本式寿司バー「雲鮨」。モダンな空間で本格的ににぎり寿司を楽しめる2014年オープンの専門店。",
     "tags": [
       "寿司",
       "寿司バー",
@@ -15653,7 +15268,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ze-cilang-izakaya-restaurant",
@@ -15663,7 +15279,7 @@
     "address": "No. 20號, Lane 71, Section 2, Minquan E Rd, Zhongshan District, Taipei City, Taiwan 10491",
     "phone": "+886225952977",
     "website": "https://www.facebook.com/share/1657kDfbMv/?mibextid=wwXIfr",
-    "description": "日本式の居酒屋スタイルで楽しめる台北中山区の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみを提供する。",
+    "description": "台北・中山区（民権東路）にある日本式居酒屋。焼き鳥・刺身・串焼きと日本酒・焼酎をそろえ、毎日深夜1時半まで営業する。",
     "tags": [
       "居酒屋",
       "日本酒",
@@ -15679,7 +15295,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "zen-yakiniku",
@@ -15689,7 +15306,7 @@
     "address": "No. 124號, Jhonghua 3rd Rd, Qianjin District, Kaohsiung City, Taiwan 801",
     "phone": "+88672862888",
     "website": "https://www.facebook.com/profile.php?id=61559376059076",
-    "description": "日本料理を提供する高雄市内の日式レストラン。日本の食材・調理法を用いた和食メニューを台湾在住の日本人・台湾人に提供する。",
+    "description": "高雄市前金区（中華三路）にある日本式焼肉専門店「禪燒肉zen yakiniku」。毎日11時半から深夜0時まで通し営業し、ランチ利用も可能。",
     "tags": [
       "日式焼肉"
     ],
@@ -15703,7 +15320,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "zhiyou-japanese-restaurant",
@@ -15713,7 +15331,7 @@
     "address": "No. 140號, Xingzhong 2nd Rd, Lingya District, Kaohsiung City, Taiwan 802",
     "phone": "+886909905159",
     "website": "https://www.facebook.com/zhiyouchuanshaodian/",
-    "description": "日本料理を提供する高雄市内の日式レストラン。日本の食材・調理法を用いた和食メニューを台湾在住の日本人・台湾人に提供する。",
+    "description": "高雄・苓雅区（興中二路）にある日本式串焼き居酒屋。焼き鳥・串焼きと日本酒をそろえ、毎日夕方5時から深夜1時まで営業する。",
     "tags": [
       "日式"
     ],
@@ -15727,7 +15345,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "zhongshan-nikko-hotel-restaurant",
@@ -15737,7 +15356,7 @@
     "address": "Hotel Royal Nikko Taipei, No. 37-1, Section 2, Zhongshan North Road, Zhongshan District, Taipei",
     "phone": "+886225421266",
     "website": "https://www.royal-taipei.com.tw/",
-    "description": "ホテルロイヤルニッコー台北内の日本料理レストラン。新鮮な魚介を使用した本格懐石料理と寿司バーを提供。MRT中山駅3番出口から徒歩3分。",
+    "description": "ホテルロイヤルニッコー台北内の日本料理店。本格懐石料理と寿司バーを提供し、MRT中山駅3番出口から徒歩3分。接待・特別な食事に選ばれる上質な空間。",
     "tags": [
       "懐石",
       "ホテルレストラン",
@@ -15753,7 +15372,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "zhucun-izakaya-restaurant",
@@ -15763,7 +15383,7 @@
     "address": "No. 2號, Alley 1, Lane 253, Songren Rd, Xinyi District, Taipei City, Taiwan 110",
     "phone": "+886227207305",
     "website": "https://zhucun.weebly.com/",
-    "description": "日本式の居酒屋スタイルで楽しめる台北信義区の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみを提供する。",
+    "description": "台北・信義区（松仁路）にある日本式居酒屋。焼き鳥・刺身・串焼きと日本酒・焼酎をそろえ、毎日深夜0時〜1時まで営業する。",
     "tags": [
       "居酒屋",
       "日本酒",
@@ -15779,7 +15399,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "zhuo-jiu-shousi-izakaya-restaurant",
@@ -15789,7 +15410,7 @@
     "address": "No. 185-1號, Section 4, Civic Blvd, Songshan District, Taipei City, Taiwan 10558",
     "phone": "+886225790095",
     "website": null,
-    "description": "日本式の居酒屋スタイルで楽しめる台北松山区の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみを提供する。",
+    "description": "台北・松山区（市民大道）にある日本式居酒屋。焼き鳥・刺身・串焼きと日本酒・焼酎をそろえ、月〜木は深夜1時、金・土は深夜2時まで営業する。",
     "tags": [
       "居酒屋",
       "日本酒",
@@ -15805,7 +15426,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "zuigao-izakaya-restaurant",
@@ -15815,7 +15437,7 @@
     "address": "No. 27號, Lane 145, Linsen N Rd, Zhongshan District, Taipei City, Taiwan 10491",
     "phone": "+886225223323",
     "website": "https://shop.ichefpos.com/store/6OGQ2bt5/reserve",
-    "description": "林森北路エリアの日本式居酒屋。日本酒・焼き鳥・刺身など定番の居酒屋メニューをそろえ、在台日本人が多く集まる林森北路に位置する。",
+    "description": "台北・中山区（林森北路）にある日本式居酒屋。焼き鳥・刺身・串焼きと日本酒・焼酎をそろえ、火〜日の夕方5時半から深夜0時まで営業する。",
     "tags": [
       "居酒屋",
       "日本酒",
@@ -15831,7 +15453,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "あこや太羽魚貝日本料理",
@@ -15841,9 +15464,11 @@
     "address": "813, Taiwan, Kaohsiung City, Zuoying District, Bo-ai 2nd Rd, 777號4樓",
     "phone": "+88675223005",
     "website": "https://m.facebook.com/%E3%81%82%E3%81%93%E3%82%84-%E5%A4%AA%E7%BE%BD%E9%AD%9A%E8%B2%9D%E6%96%99%E7%90%86%E5%B0%82%E9%96%80%E5%BA%97-280024816078981/",
-    "description": "日本料理を提供する高雄市内の日式レストラン。日本の食材・調理法を用いた和食メニューを台湾在住の日本人・台湾人に提供する。",
+    "description": "高雄・左営区にある魚介専門の日本料理店「あこや太羽」。新鮮な魚貝類を使った料理を毎日11時〜20時半に提供する日本料理専門店。",
     "tags": [
-      "日式"
+      "日本料理",
+      "魚介",
+      "海鮮"
     ],
     "hours": "Monday: 11:00 AM – 8:30 PM / Tuesday: 11:00 AM – 8:30 PM / Wednesday: 11:00 AM – 8:30 PM / Thursday: 11:00 AM – 8:30 PM / Friday: 11:00 AM – 8:30 PM / Saturday: 11:00 AM – 8:30 PM / Sunday: 11:00 AM – 8:30 PM",
     "last_verified": "2026-03-28",
@@ -15855,7 +15480,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "とりのすけ本格炭火燒鳥台中本店燒烤-居酒屋-日本料理",
@@ -15865,11 +15491,12 @@
     "address": "403, Taiwan, Taichung City, West District, Zhongcheng St, 125號No",
     "phone": "+886423264445",
     "website": "https://www.torinosuke.gr.jp/taiwan.html",
-    "description": "日本式の居酒屋スタイルで楽しめる台中市内の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみをそろえている。",
+    "description": "台中・西区にある日本式炭火焼き鳥専門店「とりのすけ」。日本のウェブサイトを持つ本格派店舗で、毎日夕方6時から深夜1時まで営業する。",
     "tags": [
+      "焼き鳥",
+      "炭火",
       "居酒屋",
-      "日本酒",
-      "和風酒場"
+      "日本料理"
     ],
     "hours": "Monday: 6:00 PM – 1:00 AM / Tuesday: 6:00 PM – 1:00 AM / Wednesday: 6:00 PM – 1:00 AM / Thursday: 6:00 PM – 1:00 AM / Friday: 6:00 PM – 1:00 AM / Saturday: 6:00 PM – 1:00 AM / Sunday: 6:00 PM – 1:00 AM",
     "last_verified": "2026-03-28",
@@ -15881,7 +15508,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "スシロー壽司郎-微風南山店",
@@ -15891,7 +15519,7 @@
     "address": "110, Taiwan, Taipei City, Xinyi District, Songzhi Rd, 17號B1",
     "phone": "+886227233096",
     "website": "https://www.sushiro.com.tw/",
-    "description": "日本式の寿司を提供する台北信義区の寿司専門店。新鮮なネタを使った握り寿司・巻き寿司を日本スタイルで台湾在住の日本人にも楽しめる。",
+    "description": "大阪発・回転寿司チェーン「スシロー」の台北信義区（微風南山）店。1皿NT$30〜と手頃な価格で握り・ラーメン・デザートまで揃える。アプリで待ち順番管理も可能。",
     "tags": [
       "日式寿司"
     ],
@@ -15964,7 +15592,8 @@
         "category": "デザート"
       }
     ],
-    "price_range": "TWD 400〜800/人"
+    "price_range": "TWD 400〜800/人",
+    "place_reviewed": true
   },
   {
     "slug": "ヒゲ番長日本燒酎蒸餾所",
@@ -15974,10 +15603,11 @@
     "address": "No. 136號, Jianguo 4th Rd, Yancheng District, Kaohsiung City, Taiwan 80364",
     "phone": "+88675214844",
     "website": "https://m.facebook.com/100094752200153/",
-    "description": "日本式の居酒屋スタイルで楽しめる高雄市内の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみをそろえている。",
+    "description": "高雄・塩埕区にある日本焼酎をテーマにした居酒屋「ヒゲ番長」。焼酎の蒸留所名を冠した個性的な店で、日本酒・焼酎と和風おつまみを提供する。",
     "tags": [
       "居酒屋",
-      "日式居酒屋"
+      "焼酎",
+      "日本酒"
     ],
     "hours": null,
     "last_verified": "2026-03-28",
@@ -15989,7 +15619,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "一串串燒酒場居酒屋",
@@ -15999,7 +15630,7 @@
     "address": "106, Taiwan, Taipei City, Da’an District, Yanji St, 延吉街62巷3號",
     "phone": "+886287727331",
     "website": null,
-    "description": "日本式居酒屋スタイルで楽しめる台北市内の酒場。炭火で焼き上げる串焼き・焼き鳥と日本酒・ビールのペアリングが楽しめる居酒屋。",
+    "description": "台北・大安区（延吉街）にある日本式串焼き居酒屋。炭火焼きの串焼き・焼き鳥と日本酒・ビールをそろえ、毎日夕方6時から深夜1時まで営業する。",
     "tags": [
       "居酒屋",
       "日式串焼き"
@@ -16014,7 +15645,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "一期一會串燒",
@@ -16024,7 +15656,7 @@
     "address": "No. 20號, Lane 6, Siwei Rd, Da’an District, Taipei City, Taiwan 106",
     "phone": "+886955379603",
     "website": "https://www.facebook.com/ichimeet/?locale=zh_TW",
-    "description": "日本式居酒屋スタイルで楽しめる台北市内の酒場。炭火で焼き上げる串焼き・焼き鳥と日本酒・ビールのペアリングが楽しめる居酒屋。",
+    "description": "台北・大安区（四維路）にある日本式串焼き居酒屋「一期一会」。炭火焼きの串焼き・焼き鳥と日本酒をそろえ、火〜土の夕方6時から深夜0時まで営業。",
     "tags": [
       "居酒屋",
       "日式串焼き"
@@ -16039,31 +15671,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "一番日式蔬菜煎餅",
-    "name": "一番日式蔬菜煎餅",
-    "name_ja": "一番日式蔬菜煎餅",
-    "area": "Kaohsiung",
-    "address": "No. 6號, Lane 17, Yuzhuyi St, Sinsing District, Kaohsiung City, Taiwan 800",
-    "phone": "+88672919073",
-    "website": null,
-    "description": "日本料理を提供する高雄市内の日式レストラン。日本の食材・調理法を用いた和食メニューを台湾在住の日本人・台湾人に提供する。",
-    "tags": [
-      "日式"
-    ],
-    "hours": "Monday: 11:30 AM – 3:00 PM, 5:00 – 9:00 PM / Tuesday: 11:30 AM – 3:00 PM, 5:00 – 9:00 PM / Wednesday: 11:30 AM – 3:00 PM, 5:00 – 9:00 PM / Thursday: 11:30 AM – 3:00 PM, 5:00 – 9:00 PM / Friday: 11:30 AM – 3:00 PM, 5:00 – 9:00 PM / Saturday: 11:30 AM – 3:00 PM, 5:00 – 9:00 PM / Sunday: 11:30 AM – 3:00 PM, 5:00 – 9:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "一起烤串-林森店-串燒居酒屋自動旋轉串燒",
@@ -16073,7 +15682,7 @@
     "address": "No. 34之1號, Lane 121, Section 1, Zhongshan N Rd, Zhongshan District, Taipei City, Taiwan 104",
     "phone": "+886225683210",
     "website": "https://booking.menushop.tw/ichibbq1",
-    "description": "日本式の居酒屋スタイルで楽しめる台北中山区の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみを提供する。",
+    "description": "台北・中山区（林森北路）にある日本式串焼き居酒屋。自動回転式の串焼きシステムが特徴で、日本酒・ビールと合わせて楽しめる。深夜1時まで営業。",
     "tags": [
       "居酒屋",
       "日式串焼き"
@@ -16088,7 +15697,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "一鷺串燒居酒屋-台中南屯店",
@@ -16098,7 +15708,7 @@
     "address": "No. 458-1號, Section 2, Nantun Rd, Nantun District, Taichung City, Taiwan 40863",
     "phone": "+886966263381",
     "website": "http://www.yakitori.com.tw/",
-    "description": "日本式居酒屋スタイルで楽しめる台中市内の酒場。炭火で焼き上げる串焼き・焼き鳥と日本酒・ビールのペアリングが楽しめる居酒屋。",
+    "description": "台中・南屯区にある炭火焼き鳥専門店「一鷺炭火燒鳥工房」。牧場直送の天然地鶏を炭火で丁寧に焼き上げた串焼きが看板。毎日17時から深夜0時まで営業。",
     "tags": [
       "居酒屋",
       "日式串焼き"
@@ -16147,7 +15757,8 @@
         "category": "串焼き"
       }
     ],
-    "price_range": "TWD 500〜1,000/人"
+    "price_range": "TWD 500〜1,000/人",
+    "place_reviewed": true
   },
   {
     "slug": "一鷺串燒居酒屋-大直旗艦店-寵物友善",
@@ -16157,7 +15768,7 @@
     "address": "No. 217號, ZhiFu Rd, Zhongshan District, Taipei City, Taiwan 10491",
     "phone": "+886966275853",
     "website": "http://www.yakitori.com.tw/",
-    "description": "日本式の居酒屋スタイルで楽しめる台北中山区の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみを提供する。",
+    "description": "台北・中山区大直エリアにある炭火焼き鳥専門店「一鷺炭火燒鳥工房」旗艦店。牧場直送天然地鶏の刺身（大直店限定）・串焼きが看板。ペット同伴可。",
     "tags": [
       "居酒屋",
       "日式串焼き"
@@ -16206,7 +15817,8 @@
         "category": "串焼き"
       }
     ],
-    "price_range": "TWD 500〜1,000/人"
+    "price_range": "TWD 500〜1,000/人",
+    "place_reviewed": true
   },
   {
     "slug": "一鷺串燒居酒屋-松江本店",
@@ -16216,7 +15828,7 @@
     "address": "No. 1號, Lane 152, Section 2, Minquan E Rd, Zhongshan District, Taipei City, Taiwan 104",
     "phone": "+886966325172",
     "website": "http://www.yakitori.com.tw/",
-    "description": "日本式の居酒屋スタイルで楽しめる台北中山区の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみを提供する。",
+    "description": "台北・中山区（民権東路）にある炭火焼き鳥専門店「一鷺炭火燒鳥工房」松江本店。牧場直送の天然地鶏を炭火焼きで提供し、毎日17時から深夜0時まで営業。",
     "tags": [
       "居酒屋",
       "日式串焼き"
@@ -16265,7 +15877,8 @@
         "category": "串焼き"
       }
     ],
-    "price_range": "TWD 500〜1,000/人"
+    "price_range": "TWD 500〜1,000/人",
+    "place_reviewed": true
   },
   {
     "slug": "一鷺串燒居酒屋台中中興店寵物友善",
@@ -16275,7 +15888,7 @@
     "address": "No. 120號, Zhongxing St, West District, Taichung City, Taiwan 403",
     "phone": "+886966275332",
     "website": "http://www.yakitori.com.tw/",
-    "description": "日本式居酒屋スタイルで楽しめる台中市内の酒場。炭火で焼き上げる串焼き・焼き鳥と日本酒・ビールのペアリングが楽しめる居酒屋。",
+    "description": "台中・西区（中興街）にある炭火焼き鳥専門店「一鷺炭火燒鳥工房」台中中興店。牧場直送地鶏の串焼きが看板。ペット同伴可で毎日18時から深夜1時まで営業。",
     "tags": [
       "居酒屋",
       "日式串焼き"
@@ -16324,7 +15937,8 @@
         "category": "串焼き"
       }
     ],
-    "price_range": "TWD 500〜1,000/人"
+    "price_range": "TWD 500〜1,000/人",
+    "place_reviewed": true
   },
   {
     "slug": "三条河原町-日式串燒居酒屋",
@@ -16334,7 +15948,7 @@
     "address": "No. 2號, Shunping 2nd St, Xitun District, Taichung City, Taiwan 407",
     "phone": "+886422951777",
     "website": "https://www.sanjokawaramachi.com/",
-    "description": "日本式居酒屋スタイルで楽しめる台中市内の酒場。炭火で焼き上げる串焼き・焼き鳥と日本酒・ビールのペアリングが楽しめる居酒屋。",
+    "description": "台中・西屯区にある日本式串焼き居酒屋「三条河原町」。専用サイトを持つ実力店で、炭火串焼きと日本酒をそろえ毎日17時半から深夜2時まで営業する。",
     "tags": [
       "居酒屋",
       "日式串焼き"
@@ -16349,7 +15963,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "三花日式料理",
@@ -16359,9 +15974,11 @@
     "address": "No. 9-2號, Section 2, Jianguo N Rd, Zhongshan District, Taipei City, Taiwan 10491",
     "phone": "+886289785000",
     "website": "http://www.sf-kaiseki.com/",
-    "description": "日本料理を提供する台北中山区の日式レストラン。日本の食材・調理法を用いた和食メニューを台湾在住の日本人・台湾人に提供する。",
+    "description": "台北・中山区にある日本料理店「三花」。専用サイト（sf-kaiseki.com）を持つ懐石料理専門店で、ランチ・ディナーともに予約推奨の本格派日本料理。",
     "tags": [
-      "日式"
+      "懐石",
+      "日本料理",
+      "割烹"
     ],
     "hours": "Monday: 11:30 AM – 2:30 PM, 5:30 – 9:30 PM / Tuesday: 11:30 AM – 2:30 PM, 5:30 – 9:30 PM / Wednesday: 11:30 AM – 2:30 PM, 5:30 – 9:30 PM / Thursday: 11:30 AM – 2:30 PM, 5:30 – 9:30 PM / Friday: 11:30 AM – 2:30 PM, 5:30 – 9:30 PM / Saturday: 11:30 AM – 2:30 PM, 5:30 – 9:30 PM / Sunday: Closed",
     "last_verified": "2026-03-28",
@@ -16373,7 +15990,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "串匠屋",
@@ -16383,7 +16001,7 @@
     "address": "No. 35, Lane 132, Section 1, Nanjing E Rd, Zhongshan District, Taipei City, Taiwan 10491",
     "phone": "+886225642627",
     "website": null,
-    "description": "日本式の居酒屋スタイルで楽しめる台北中山区の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみを提供する。",
+    "description": "台北・中山区（南京東路）にある日本式串焼き居酒屋。焼き鳥・串焼きと日本酒をそろえ、月〜土の夜間に営業する居酒屋。",
     "tags": [
       "居酒屋",
       "日式串焼き"
@@ -16398,7 +16016,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "串吧-酒食居",
@@ -16408,7 +16027,7 @@
     "address": "No. 54號, Xinsheng 2nd St, Qianjin District, Kaohsiung City, Taiwan 801",
     "phone": "+88672212069",
     "website": "https://inline.app/booking/zhuyinbar54/zhuyinbar54",
-    "description": "日本式居酒屋スタイルで楽しめる高雄市内の酒場。炭火で焼き上げる串焼き・焼き鳥と日本酒・ビールのペアリングが楽しめる居酒屋。",
+    "description": "高雄市前金区にある日本式串焼き居酒屋。予約システムを持ち、炭火串焼きと日本酒・ビールをそろえる。火〜土の夕方6時から深夜1時まで営業。",
     "tags": [
       "居酒屋",
       "日式串焼き"
@@ -16423,7 +16042,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "串居町",
@@ -16433,7 +16053,7 @@
     "address": "No. 102號, Zili 2nd Rd, Sinsing District, Kaohsiung City, Taiwan 800",
     "phone": "+88672859971",
     "website": "https://instagram.com/xgt.khh102?igshid=YmMyMTA2M2Y=",
-    "description": "日本式居酒屋スタイルで楽しめる高雄市内の酒場。炭火で焼き上げる串焼き・焼き鳥と日本酒・ビールのペアリングが楽しめる居酒屋。",
+    "description": "高雄・新興区にある日本式串焼き居酒屋。Instagramで発信する個性的な店で、炭火串焼きと日本酒・ビールをそろえ毎日17時半から深夜1時半まで営業。",
     "tags": [
       "居酒屋",
       "日式串焼き"
@@ -16448,7 +16068,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "久田日本料理",
@@ -16458,9 +16079,10 @@
     "address": "No. 177號, Qingnian 1st Rd, Lingya District, Kaohsiung City, Taiwan 802",
     "phone": "+88673389685",
     "website": "https://www.facebook.com/%E4%B9%85%E7%94%B0%E6%97%A5%E6%9C%AC%E6%96%99%E7%90%86-1662509910716863/",
-    "description": "日本料理を提供する高雄市内の日式レストラン。日本の食材・調理法を用いた和食メニューを台湾在住の日本人・台湾人に提供する。",
+    "description": "高雄・苓雅区にある日本料理店「久田」。Facebookで情報発信する地元密着型の日本料理専門店で、水〜日の夕方5時から深夜まで営業する。",
     "tags": [
-      "日式"
+      "日本料理",
+      "居酒屋"
     ],
     "hours": "Monday: Closed / Tuesday: Closed / Wednesday: 5:00 – 11:45 PM / Thursday: 5:00 – 11:45 PM / Friday: 5:00 – 11:45 PM / Saturday: 5:00 – 11:45 PM / Sunday: 5:00 – 11:45 PM",
     "last_verified": "2026-03-28",
@@ -16472,32 +16094,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "九打串燒-燒烤-便當",
-    "name": "九打串燒 燒烤 便當",
-    "name_ja": "九打串燒 燒烤 便當",
-    "area": "Taichung",
-    "address": "No. 62號, Rijin St, North District, Taichung City, Taiwan 404",
-    "phone": "+886422010188",
-    "website": "https://customer.posky.net/store/12f4a778-8d6b-42d7-ab05-b075dacbc962/menu?openExternalBrowser=1",
-    "description": "日本式居酒屋スタイルで楽しめる台中市内の酒場。炭火で焼き上げる串焼き・焼き鳥と日本酒・ビールのペアリングが楽しめる居酒屋。",
-    "tags": [
-      "居酒屋",
-      "日式串焼き"
-    ],
-    "hours": "Monday: 5:00 – 11:30 PM / Tuesday: 5:00 – 11:30 PM / Wednesday: 5:00 – 11:30 PM / Thursday: 5:00 – 11:30 PM / Friday: 5:00 – 11:30 PM / Saturday: 5:00 – 11:30 PM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "二熊日本料理丼飯鰻魚飯烤物各式單品無菜單料理",
@@ -16507,9 +16105,12 @@
     "address": "105, Taiwan, Taipei City, Songshan District, Section 4, Nanjing E Rd, 七十五巷二十號一樓",
     "phone": "+886227180038",
     "website": null,
-    "description": "日本料理を提供する台北松山区の日式レストラン。日本の食材・調理法を用いた和食メニューを台湾在住の日本人・台湾人に提供する。",
+    "description": "台北・松山区（南京東路）にある日本料理店「二熊」。丼飯・鰻魚飯・焼き物から無菜単（おまかせ）まで揃える。月曜定休でランチ・ディナー営業。",
     "tags": [
-      "日式丼物"
+      "日本料理",
+      "鰻魚飯",
+      "無菜単",
+      "丼"
     ],
     "hours": "Monday: Closed / Tuesday: 11:30 AM – 2:00 PM, 5:30 – 9:00 PM / Wednesday: 11:30 AM – 2:00 PM, 5:30 – 9:00 PM / Thursday: 11:30 AM – 2:00 PM, 5:30 – 9:00 PM / Friday: 11:30 AM – 2:00 PM, 5:30 – 9:00 PM / Saturday: 11:30 AM – 2:00 PM, 5:30 – 9:00 PM / Sunday: 11:30 AM – 2:00 PM, 5:30 – 9:00 PM",
     "last_verified": "2026-03-28",
@@ -16521,7 +16122,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "五十年太郎日式料理屋",
@@ -16531,9 +16133,11 @@
     "address": "No. 213, Section 1, Zhonghua Rd, Central District, Taichung City, Taiwan 400",
     "phone": "+886422236855",
     "website": null,
-    "description": "日本料理を提供する台中市内の日式レストラン。日本の食材・調理法を用いた和食メニューを台湾在住の日本人・台湾人に提供する。",
+    "description": "台中・中区にある日本式居酒屋「五十年太郎」。火曜定休で深夜3時半まで営業する遅い時間まで使える日本料理・居酒屋。",
     "tags": [
-      "日式"
+      "居酒屋",
+      "日本料理",
+      "深夜営業"
     ],
     "hours": "Monday: 5:45 PM – 3:45 AM / Tuesday: Closed / Wednesday: 5:45 PM – 3:20 AM / Thursday: 5:45 PM – 3:45 AM / Friday: 5:45 PM – 3:45 AM / Saturday: 5:45 PM – 3:45 AM / Sunday: 5:45 PM – 3:45 AM",
     "last_verified": "2026-03-28",
@@ -16545,7 +16149,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "五十座-日式料理",
