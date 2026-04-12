@@ -1,6 +1,5 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { cookies } from "next/headers";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { getCountry, countries } from "@/lib/countries";
@@ -17,7 +16,6 @@ import RandomPlaces from "@/components/RandomSpots";
 import PlaceDetailTabs from "@/components/SpotDetailTabs";
 import PlaceActionBar from "@/components/PlaceActionBar";
 import PlaceProfileTracker from "@/components/PlaceProfileTracker";
-import { rankPlaces, parseProfile } from "@/lib/rank-places";
 import {
   MapPin,
   Phone,
@@ -78,13 +76,8 @@ const categoryIconMap: Record<string, (size: number) => React.ReactNode> = {
   car: (s) => <Car size={s} />,
 };
 
-// cookies()を使用するためdynamic renderingが必要
-export const dynamic = "force-dynamic";
-
-export function generateStaticParams() {
-  // Vercelの80MBデプロイ制限のため、スポット個別ページは全てオンデマンド生成
-  return [];
-}
+// ISR: 1時間ごとに再生成
+export const revalidate = 3600;
 
 export async function generateMetadata({
   params,
@@ -136,15 +129,8 @@ export default async function placeDetailPage({
   const placeStatus = place.status ?? "unverified";
   const theme = getCategoryTheme(catSlug);
 
-  const cookieStore = await cookies();
-  const profile = parseProfile(cookieStore.get("place-profile")?.value);
-
-  const sameCategory = rankPlaces(
-    getplacesByCategory(code, catSlug)
-      .filter((s) => s.slug !== slug)
-      .map((s) => ({ ...s, categorySlug: catSlug })),
-    profile,
-  );
+  const sameCategory = getplacesByCategory(code, catSlug)
+    .filter((s) => s.slug !== slug);
 
   // スキーマタイプ
   const schemaTypeMap: Record<string, string> = {

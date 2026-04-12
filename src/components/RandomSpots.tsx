@@ -1,14 +1,19 @@
-import Link from "next/link";
+"use client";
 
-type place = {
+import { useEffect, useState } from "react";
+import Link from "next/link";
+import { parseProfile, rankPlaces, type RankablePlace } from "@/lib/rank-places";
+
+type Place = {
   slug: string;
   name: string;
   name_ja?: string | null;
   area?: string;
+  tags: string[];
 };
 
 type Props = {
-  places: place[];
+  places: Place[];
   countryCode: string;
   categorySlug: string;
   accentClass: string;
@@ -17,7 +22,7 @@ type Props = {
   count?: number;
 };
 
-export default function Randomplaces({
+export default function RandomPlaces({
   places,
   countryCode,
   categorySlug,
@@ -26,8 +31,27 @@ export default function Randomplaces({
   categoryName,
   count = 5,
 }: Props) {
-  // サーバーサイドでランク済みのplacesを受け取る。先頭count件を表示
-  const displayed = places.slice(0, count);
+  const [displayed, setDisplayed] = useState<Place[]>(places.slice(0, count));
+
+  useEffect(() => {
+    // クライアント側でCookieを読んでパーソナライズ順に並び替え
+    const raw = document.cookie
+      .split("; ")
+      .find((c) => c.startsWith("place-profile="))
+      ?.split("=")
+      .slice(1)
+      .join("=");
+
+    const profile = parseProfile(raw);
+    const rankable: RankablePlace[] = places.map((p) => ({
+      ...p,
+      categorySlug,
+      tags: p.tags ?? [],
+      area: p.area ?? "",
+    }));
+    const ranked = rankPlaces(rankable, profile) as unknown as Place[];
+    setDisplayed(ranked.slice(0, count));
+  }, [places, categorySlug, count]);
 
   if (places.length === 0) return null;
 
