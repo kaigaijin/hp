@@ -7,6 +7,9 @@ import PaginatedArticleList from "@/components/PaginatedArticleList";
 import CountryHero from "@/components/CountryHero";
 import { getCategoryCounts, categoryGroups } from "@/lib/directory";
 
+// ISR: 1時間ごとに再生成（予約投稿が日付になったら自動的に表示される）
+export const revalidate = 3600;
+
 // overseas など countries 未登録コードのフォールバック
 const FALLBACK_DISPLAY: Record<string, { name: string; flag: string }> = {
   overseas: { name: "海外生活", flag: "🌏" },

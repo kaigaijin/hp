@@ -29,6 +29,9 @@ const mdxComponents = {
   },
 };
 
+// ISR: 1時間ごとに再生成（予約投稿が日付になったら自動的にアクセス可能になる）
+export const revalidate = 3600;
+
 export function generateStaticParams() {
   // countries リストに依存せず content/ ディレクトリを直接走査
   // （column など countries 未登録の記事も含める）
