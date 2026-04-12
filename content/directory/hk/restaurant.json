@@ -26148,7 +26148,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある日本式居酒屋「Seki Tei Japanese Restaurant」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
+    "description": "チムサーチョイ（尖沙咀）Hart Avenueの日本式居酒屋。日本酒・焼酎・ビールと炉端焼き・刺身などの和食居酒屋メニューを提供。",
     "tags": [
       "居酒屋",
       "炉端焼き",
@@ -26166,7 +26166,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sen-no-aji-hatsu-lai-chi-kok",
@@ -26178,7 +26179,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "荔枝角D2 Place TWO内の寿司専門店。海鮮寿司の追加自由と焼き物メニューが揃う。HKD51-100のリーズナブルな価格帯が在香港日本人旅行者に人気。",
+    "description": "荔枝角D2 Place TWOにある寿司専門店「千の味・初」。海鮮寿司の食べ放題やHK$51-100のリーズナブルな価格帯が魅力。",
     "tags": [
       "sushi",
       "all-you-can-eat",
@@ -26209,7 +26210,7 @@
     "lng": 114.1749,
     "phone": "+85223698307",
     "website": "https://etw.nextdigital.com.hk/restaurant/45142",
-    "description": "チムサーチョイ（尖沙咀）Minden Aveの日本料理店「城八」。ランチ・ディナーともに定番日本食メニューを提供。火〜日営業、月曜定休。",
+    "description": "チムサーチョイ（尖沙咀）Minden Aveにある日本食レストラン。和食・日本料理をカジュアルな雰囲気で提供する在住日本人にも人気の店舗。",
     "tags": [
       "日本食"
     ],
@@ -26238,7 +26239,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "カウルーントン（九龍塘）Festival Walk内の日本発回転寿司チェーン「千両」。新鮮な寿司・刺身をリーズナブルな価格で提供。日本語メニューあり。",
+    "description": "Kowloon TongのFestival Walk内にある寿司・刺身チェーン「千両」。回転寿司スタイルで本格的な日本料理を提供。",
     "tags": [
       "寿司",
       "刺身",
@@ -26269,7 +26270,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "セントラル（中環）iFCモール内の日本発回転寿司チェーン「千両」。新鮮な寿司・刺身をリーズナブルな価格で提供。日本語メニューあり。",
+    "description": "セントラル（中環）ifc mall内にある回転寿司チェーン「千両（sen-ryo）」。本格的な日本料理をリーズナブルに楽しめる在住日本人にも人気の店舗。",
     "tags": [
       "寿司",
       "刺身",
@@ -26300,7 +26301,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "モンコック（旺角）MOKO内の日本発回転寿司チェーン「千両」。新鮮な寿司・刺身をリーズナブルな価格で提供。日本語メニューあり。",
+    "description": "モンコック（旺角）のMOKO内にある寿司・刺身チェーン「千両」。回転寿司スタイルで本格的な日本料理をリーズナブルに提供。",
     "tags": [
       "寿司",
       "刺身",
@@ -26322,78 +26323,16 @@
     "place_reviewed": true
   },
   {
-    "slug": "sen-sen-sushi-tsuen-wan",
-    "name": "Sen Sen Sushi",
-    "name_ja": "Sen Sen 寿司",
-    "area": "Tsuen Wan",
-    "address": "Shop 1, G/F, OP Mall, Tsuen Wan",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "ツェンワン（荃灣）OP Mall内の日本料理・鮨店。寿司・刺身をリーズナブルな価格で提供する日本食店。",
-    "tags": [
-      "寿司",
-      "刺身"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "place_reviewed": true
-  },
-  {
-    "slug": "sen-sen-sushi-tsuen-wan-2",
-    "name": "Sen-Sen Sushi",
-    "name_ja": "千千壽司",
-    "area": "Tsuen Wan",
-    "address": "Tsuen Wan, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "ツェンワン（荃灣）の寿司専門店「千千壽司」。リーズナブルな価格で新鮮な寿司・刺身を提供する日本食店。",
-    "tags": [
-      "japanese",
-      "sushi",
-      "budget-friendly",
-      "tsuen-wan"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "place_reviewed": true
-  },
-  {
     "slug": "sen-yakitori-to-kwa-wan",
     "name": "Sen Yakitori Izakaya",
     "name_ja": "鮮燒·酒屋",
     "area": "To Kwa Wan",
-    "address": "To Kwa Wan, Kowloon",
+    "address": "Shop B, G/F, Luen Yip Building, 10-16A Kowloon City Road, To Kwa Wan",
     "lat": null,
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "土瓜灣の日式串焼き居酒屋。HKD9からの串焼きと日本ビール買一送一プロモが人気。日式・四川式2種の焼き方が選べるユニークな店。",
+    "description": "土瓜灣（To Kwa Wan）九龍城道にある日式居酒屋。HK$9〜の串焼きを日本式・四川式の2スタイルで深夜まで提供。サッポロビールも人気。",
     "tags": [
       "yakitori",
       "izakaya",
@@ -26426,7 +26365,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ユンロン（元朗）On Ning Roadの日式居酒屋「千杯串居酒屋」。串焼き・ラーメン・丼と日本酒をリーズナブルな価格で提供。地元日本食ファンに人気。",
+    "description": "元朗On Ning Roadにある日式居酒屋。串焼き・ラーメン・丼物に加え日本酒も充実。リーズナブルな価格で居酒屋の雰囲気を満喫できる。",
     "tags": [
       "japanese",
       "izakaya",
@@ -26460,43 +26399,11 @@
     "lng": null,
     "phone": "+85231606888",
     "website": "https://www.harbour-plaza.com/metropolis/en/dining/restaurant-409.html",
-    "description": "フンホム（紅磡）Harbour Plaza Metropolis 8/Fの本格日本料理店「千鶴」。鉄板焼き・寿司・刺身・会席を提供。日本から毎日直送の新鮮食材を使用。",
+    "description": "フンホム（紅磡）Harbour Plaza Metropolis 8Fの日本料理レストラン。毎日日本直送食材を使った寿司・刺身・鉄板焼き・懐石を提供。個室2室あり。",
     "tags": [
       "ホテルレストラン",
       "寿司",
       "鉄板焼き"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "place_reviewed": true
-  },
-  {
-    "slug": "shari-shari-kakigori-to-kwa-wan",
-    "name": "SHARI SHARI Kakigori House",
-    "name_ja": "SHARI SHARI 氷屋",
-    "area": "To Kwa Wan",
-    "address": "To Kwa Wan, Kowloon",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "土瓜灣の日本式かき氷専門店「SHARI SHARI Kakigori House」。日本の伝統的なかき氷スタイルで抹茶・いちご等のフレーバーを提供。",
-    "tags": [
-      "kakigori",
-      "shaved-ice",
-      "dessert",
-      "japanese-style"
     ],
     "hours": null,
     "last_verified": "2026-03-29",
@@ -26521,7 +26428,7 @@
     "address": "Shop E, G/F, May Sun Building, 11 Smithfield, Kennedy Town, Hong Kong",
     "phone": "+85235682425",
     "website": null,
-    "description": "ケネディタウン（堅尼地城）Smithfieldの焼き鳥・居酒屋「Shiba（芝）」。毎日18:00〜翌0:00営業。在香港日本人が集う本格焼き鳥店。",
+    "description": "ケネディタウン（堅尼地城）Smithfieldにある焼き鳥・居酒屋。新鮮な食材を使った串焼きと刺身を提供する日本人にも人気の小店。",
     "tags": [
       "居酒屋",
       "焼き鳥",
@@ -26550,7 +26457,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "カウルーンシティ（九龍城）Fuk Lo Tsun Roadの洋食スタイル日本料理店。和牛コロッケや焼き明太子手羽先など独創的な和洋融合メニューが特徴。",
+    "description": "九龍城（Kowloon City）の洋食スタイル日本料理店「Shibui」。和牛コロッケ・焼き明太子手羽先など創意あふれるメニューが特徴。",
     "tags": [
       "yoshoku",
       "western-japanese",
@@ -26581,7 +26488,7 @@
     "lng": 114.1712,
     "phone": "+85223882302",
     "website": null,
-    "description": "ジョーダン（佐敦）Nathan Road沿いの日本食レストラン「七福San」。ランチ・ディナー営業で定番日本食メニューを提供。",
+    "description": "ジョーダン（佐敦）Nathan Roadにある日本食レストラン「七福三」。幅広い和食メニューをカジュアルな雰囲気で楽しめる地域密着型の店舗。",
     "tags": [
       "日本食"
     ],
@@ -26608,7 +26515,7 @@
     "address": "2/F, Shining Building, 477-481 Jaffe Road, Causeway Bay, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）Jaffe Roadの鉄板焼きレストラン「鹿鉄板焼」。高品質食材を使った本格鉄板焼きを提供する日本料理店。",
+    "description": "コーズウェイベイ（銅鑼湾）Jaffe Roadにある鉄板焼きレストラン。新鮮食材を使った本格日本式鉄板焼きをコース形式で提供する高級店。",
     "tags": [
       "鉄板焼き",
       "高級"
@@ -26640,7 +26547,7 @@
     "lng": 114.1641,
     "phone": "+85222940088",
     "website": null,
-    "description": "アドミラルティ（金鐘）Far East Finance Centre内の日本食レストラン。ランチ・ディナー対応。ビジネス街のオフィスワーカーや在香港日本人に利用される。",
+    "description": "アドミラルティ（金鐘）Far East Finance Centre内の日本食レストラン。ビジネス街に位置し、ランチ・ディナーともに利用されている。",
     "tags": [
       "日本食"
     ],
@@ -26660,33 +26567,6 @@
     "place_reviewed": true
   },
   {
-    "slug": "shikigiku-four-seasons",
-    "name": "Shikigiku",
-    "name_ja": "四季菊",
-    "area": "Central",
-    "address": "4/F, Four Seasons Hotel Hong Kong, 8 Finance Street, Central, Hong Kong",
-    "phone": null,
-    "website": null,
-    "description": "セントラル（中環）にあるフォーシーズンズホテル内の日本料理レストラン（旧・稲菊）。100年以上の歴史を持つ天ぷらと鉄板焼きの名店。",
-    "tags": [
-      "天ぷら",
-      "鉄板焼き",
-      "ホテル内",
-      "高級"
-    ],
-    "hours": "ランチ 12:00〜14:30 / ディナー 18:00〜22:00",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
     "slug": "shikigiku-ifc",
     "name": "Shikigiku",
     "name_ja": "四季菊",
@@ -26696,7 +26576,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "セントラル（中環）にあるifc mall内にある高級日本料理レストラン。元「いなぎく」。天ぷら・鉄板焼き・寿司・懐石を提供。",
+    "description": "セントラル（中環）ifc mall 4Fにある高級日本料理レストラン「四季菊」。天ぷら・鉄板焼き・寿司・懐石を提供。旧「いなぎく」で100年以上の歴史を持つ名店。",
     "tags": [
       "寿司",
       "天ぷら",
@@ -26716,7 +26596,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shikigiku-japanese-restaurant",
@@ -26728,7 +26609,7 @@
     "lng": 114.1777,
     "phone": "+85227332933",
     "website": "https://www.rghk.com.hk/en/dining/shikigiku-rg.php?restaurant_rghk_shikigiku_rg_select_restaurant",
-    "description": "チムサーチョイ（尖沙咀）にある日本食レストラン「Shikigiku Japanese Restaurant」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "チムサーチョイ（尖沙咀）ロイヤルガーデンホテル内の日本料理店「四季菊」。天ぷら・鉄板焼きを専門とし、ミシュランガイド推薦常連の名店。",
     "tags": [
       "日本食"
     ],
@@ -26744,7 +26625,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shikigiku-royal-garden-tst",
@@ -26756,7 +26638,7 @@
     "lng": null,
     "phone": "+85227332933",
     "website": "https://www.rghk.com.hk/en/dining/shikigiku-rg.php",
-    "description": "チムサーチョイ（尖沙咀）にあるロイヤルガーデンホテル内の日本料理店。鉄板焼き・寿司・天ぷらなどを提供する高級レストラン。",
+    "description": "チムサーチョイ（尖沙咀）ロイヤルガーデンホテル1Fの高級日本料理店「四季菊」。鉄板焼き・天ぷら・寿司を優雅な空間で提供するホテルダイニング。",
     "tags": [
       "鉄板焼き",
       "寿司",
@@ -26774,7 +26656,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shin-shu-japanese-kennedy-town",
@@ -26786,7 +26669,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ケネディタウン（堅尼地城）にある日本料理・鮨店「Shin Shu Japanese」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "ケネディタウン（堅尼地城）にある寿司・刺身を中心とした日本料理店「Shin Shu Japanese」。在住日本人にも親しまれるカジュアルな和食店。",
     "tags": [
       "寿司",
       "刺身"
@@ -26803,7 +26686,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shinko-2",
@@ -26815,7 +26699,7 @@
     "lng": 114.1856,
     "phone": "+85259989108",
     "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある日本式居酒屋「申子居酒屋 Shinko (銅鑼灣店)」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
+    "description": "コーズウェイベイ（銅鑼湾）Jardine's Bazaarにある日本式居酒屋「申子」銅鑼湾店。日本酒・焼酎と和食居酒屋メニューを9Fで提供。",
     "tags": [
       "居酒屋"
     ],
@@ -26831,7 +26715,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shinko-mong-kok",
@@ -26841,7 +26726,7 @@
     "address": "Shop 1, G/F, Ngai Hing Mansion, 74-76 Hak Po Street, Mong Kok, Hong Kong",
     "phone": null,
     "website": "https://shinko-hk.com/",
-    "description": "モンコック（旺角）にある日本式居酒屋「Shinko」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "モンコック（旺角）Hak Po Streetにある日本式居酒屋「申子」。カジュアルな雰囲気で日本酒と和食を楽しめる在住日本人にも人気の店舗。",
     "tags": [
       "居酒屋",
       "カジュアル",
@@ -26857,7 +26742,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shiro-central-tai-kwun",
@@ -26869,7 +26755,7 @@
     "lng": null,
     "phone": "+85265389848",
     "website": "https://shiro-sushi.com/shiro-central/",
-    "description": "セントラル（中環）にある大館（旧中央警察署）内のモダン日本食レストラン。寿司・刺身・炉端焼き・焼鳥を現代的な空間で提供。名物のクリスタル寿司。",
+    "description": "2026年1月オープン。セントラル（中環）大館（Tai Kwun）内のAqua Restaurant Group運営のコンテンポラリー日本料理店。クリスタル寿司・刺身・炉端焼きが看板メニュー。",
     "tags": [
       "寿司",
       "炉端焼き",
@@ -26887,7 +26773,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shiro-pacific-place",
@@ -26899,7 +26786,7 @@
     "lng": null,
     "phone": "+85221179481",
     "website": "https://shiro-sushi.com/",
-    "description": "Aqua Restaurant Groupが手がける現代的な日本料理レストラン。クリスタル寿司やラーメンなどシグネチャーメニューを提供。",
+    "description": "アドミラルティ（金鐘）Pacific Place Level 1にあるモダン日本料理レストラン。クリスタル寿司・おまかせカウンター・50年家伝レシピのラーメンが特徴。MTR金鐘駅F出口直上。",
     "tags": [
       "寿司",
       "おまかせ",
@@ -26918,94 +26805,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "shiro-sushi-pacific-place",
-    "name": "Shiro Sushi Pacific Place",
-    "name_ja": "シロ寿司 パシフィックプレイス",
-    "area": "Admiralty",
-    "address": "Pacific Place, 88 Queensway, Admiralty, Hong Kong",
-    "phone": null,
-    "website": "https://shiro-sushi.com/",
-    "description": "アドミラルティ（金鐘）にある日本料理・鮨店「Shiro Sushi Pacific Place」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "寿司",
-      "刺身"
-    ],
-    "lat": null,
-    "lng": null,
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "shiro-tai-kwun",
-    "name": "Shiro Tai Kwun",
-    "name_ja": "シロ 大館",
-    "area": "Central",
-    "address": "G/F & 1/F, Armoury, Tai Kwun, 10 Hollywood Road, Central, Hong Kong",
-    "phone": "+85265389848",
-    "website": "https://shiro-sushi.com/shiro-tai-kwun/",
-    "description": "2026年1月オープン。Aqua Restaurant Groupのコンテンポラリー寿司レストラン。クリスタル寿司がシグネチャー。テラス席も。",
-    "tags": [
-      "寿司",
-      "コンテンポラリー",
-      "2026年オープン",
-      "テラス"
-    ],
-    "hours": "毎日 12:00〜23:00",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "shiro-tai-kwun-sushi",
-    "name": "Shiro",
-    "name_ja": "シロ",
-    "area": "Central",
-    "address": "Tai Kwun, 10 Hollywood Road, Central",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "2026年1月開業の大館内の日本料理レストラン。炉端焼き・焼き鳥・寿司・刺身を提供。岩橋達也シェフとJeff Ko鮨シェフが率いる。",
-    "tags": [
-      "居酒屋",
-      "寿司",
-      "刺身",
-      "炉端焼き"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shirokuma-kennedy-town",
@@ -27015,7 +26816,7 @@
     "address": "G/F, 17 Catchick Street, Kennedy Town, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "ケネディタウン（堅尼地城）にある堅尼地城Catchick Streetの日本料理店。寿司や丼物を提供するカジュアルな店舗。",
+    "description": "ケネディタウン（堅尼地城）Catchick Streetにある日本料理店「白熊」。寿司・丼物を提供するカジュアルな日本食店。",
     "tags": [
       "寿司",
       "丼物"
@@ -27034,7 +26835,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shodaicho-tuen-mun",
@@ -27046,7 +26848,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "トゥンムン（屯門）にある屯門藍地にある日本料理店。うどん、寿司、刺身、居酒屋メニューを幅広く提供。落ち着いた住宅エリアの隠れ家的な存在。",
+    "description": "屯門（Tuen Mun）藍地にある日本料理店。うどん・寿司・刺身・居酒屋メニューを幅広く提供する住宅エリアの隠れ家的な存在。",
     "tags": [
       "japanese",
       "udon",
@@ -27066,7 +26868,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shodaijima-tin-shui-wai",
@@ -27078,7 +26881,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Tin Shui Waiにある天水圍の刺身中心のリーズナブルな日本料理店。1人約HK$51-100。手頃な価格で寿司や刺身が楽しめる。",
+    "description": "天水圍（Tin Shui Wai）にある刺身・寿司中心のリーズナブルな日本料理店「小豆島」。1人約HK$51-100で楽しめる地元密着型の日本食店。",
     "tags": [
       "japanese",
       "sashimi",
@@ -27098,7 +26901,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shuangyue-izakaya-restaurant",
@@ -27110,7 +26914,7 @@
     "lng": 114.1709,
     "phone": "+85223333768",
     "website": null,
-    "description": "ヤウマテイ（油麻地）にある日本式居酒屋「Shuangyue Izakaya Restaurant」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
+    "description": "油麻地（Yau Ma Tei）Parkes Streetにある日本式居酒屋「雙月」。日本酒・焼酎と和食居酒屋メニューを提供するカジュアルダイニング。",
     "tags": [
       "居酒屋"
     ],
@@ -27126,7 +26930,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shugetsu-central-gough",
@@ -27138,7 +26943,7 @@
     "lng": null,
     "phone": "+85228506009",
     "website": "http://shugetsu.com.hk/",
-    "description": "セントラル（中環）にあるミシュランBib Gourmand受賞の醤油ラーメン専門店。18ヶ月熟成醤油とサバ・イワシ・昆布で作るスープが特徴。",
+    "description": "セントラル（中環）Gough Streetにあるミシュランビブグルマン獲得の醤油ラーメン・つけ麺専門店「周月」。18ヶ月熟成醤油と鯖・イワシ・昆布の出汁が特徴。",
     "tags": [
       "ラーメン",
       "醤油",
@@ -27157,7 +26962,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shugetsu-quarry-bay",
@@ -27169,7 +26975,7 @@
     "lng": null,
     "phone": null,
     "website": "http://shugetsu.com.hk/",
-    "description": "クォーリーベイ（鰂魚涌）にあるラーメン店「Shugetsu Quarry Bay」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "クォーリーベイ（鰂魚涌）Hoi Kwong Streetにある「周月」鰂魚涌店。ミシュランビブグルマン受賞の醤油ラーメン・つけ麺を提供するセントラル店の姉妹店。",
     "tags": [
       "ラーメン",
       "醤油",
@@ -27187,59 +26993,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "shugetsu-ramen-central",
-    "name": "Shugetsu Ramen Central",
-    "name_ja": "周月 セントラル",
-    "area": "Central",
-    "address": "5 Gough Street, Central, Hong Kong",
-    "phone": null,
-    "website": null,
-    "description": "ミシュラン・ビブグルマン獲得の醤油ラーメン店。18ヶ月熟成の醤油を使ったスープが特徴。鯖・イワシ・昆布の出汁が深い味わい。",
-    "tags": [
-      "ラーメン",
-      "ミシュラン・ビブグルマン",
-      "醤油ラーメン"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "shugetsu-ramen-quarry-bay",
-    "name": "Shugetsu Ramen Quarry Bay",
-    "name_ja": "周月 鰂魚涌",
-    "area": "Quarry Bay",
-    "address": "30 Hoi Kwong Street, Quarry Bay, Hong Kong",
-    "phone": null,
-    "website": null,
-    "description": "クォーリーベイ（鰂魚涌）にあるミシュラン・ビブグルマン獲得ラーメン店の鰂魚涌店。熟成醤油ベースの深みのあるスープが人気。",
-    "tags": [
-      "ラーメン",
-      "ミシュラン・ビブグルマン",
-      "醤油ラーメン"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shun-by-kokoro-sushi",
@@ -27251,7 +27006,7 @@
     "lng": 114.1689,
     "phone": "+85227637688",
     "website": "https://kokorosushihk.com/",
-    "description": "モンコック（旺角）にある日本料理・鮨店「Shun by Kokoro Sushi」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "モンコック（旺角）Nathan Road沿いにある寿司レストラン「Shun by Kokoro」。本格的な日本の鮨を提供するKokoro Sushi系列の店舗。",
     "tags": [
       "寿司"
     ],
@@ -27267,7 +27022,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shuran-japanese-restaurant",
@@ -27279,7 +27035,7 @@
     "lng": 114.2127,
     "phone": "+85221113129",
     "website": null,
-    "description": "クォーリーベイ（鰂魚涌）にある日本食レストラン「Shuran Japanese Restaurant」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "クォーリーベイ（鰂魚涌）King's Road沿いの東匯坊にある日本食レストラン「Shuran」。幅広い和食メニューをリーズナブルに提供する地域密着型の店舗。",
     "tags": [
       "日本食"
     ],
@@ -27295,7 +27051,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "siu-siu-izakaya-sheung-wan",
@@ -27305,7 +27062,7 @@
     "address": "G/F, The Strand, 49 Bonham Strand, Sheung Wan, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "2025年オープン。CENSU CREWによるモダン居酒屋。クリエイティブな日本料理と厳選された日本酒のペアリングが特徴。鉄板焼きコーナーも。",
+    "description": "上環（Sheung Wan）49 Bonham Strandにある2025年オープンのモダン居酒屋「Siü Siü」。CENSU CREWによるクリエイティブな日本料理と香港最大級の日本酒セレクションが特徴。",
     "tags": [
       "居酒屋",
       "鉄板焼き",
@@ -27321,7 +27078,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "siu-siu-sheung-wan",
@@ -27331,7 +27089,7 @@
     "address": "G/F, The Strand, 49 Bonham Strand, Sheung Wan, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "2025年オープンのモダン居酒屋＆鉄板焼き。CENSU CREWによるクリエイティブな日本料理と日本酒のペアリングが特徴。",
+    "description": "上環（Sheung Wan）The Strandにある2025年オープンのモダン居酒屋・鉄板焼き「Siü Siü」。CENSU CREWが手がけるスモーキーな日本料理と厳選日本酒が楽しめる。",
     "tags": [
       "居酒屋",
       "鉄板焼き",
@@ -27347,7 +27105,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "snapper-quarry-bay",
@@ -27359,7 +27118,7 @@
     "lng": null,
     "phone": "+85226182696",
     "website": null,
-    "description": "クォーリーベイ（鰂魚涌）にあるラーメン店「Snapper」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "クォーリーベイ（鰂魚涌）Hoi Tai Streetにある鯛出汁スープ専門店。10時間煮込んだ鯛白湯ベースのラーメン・うどんが看板メニュー。評価4.4/5（456件）。",
     "tags": [
       "ラーメン",
       "うどん",
@@ -27377,7 +27136,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "so-japanese-tai-wai",
@@ -27389,7 +27149,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "タイワイ（大圍）にある大圍顯田村の日本料理店。ラーメンと居酒屋メニューが中心。火曜〜日曜11:30-21:30営業。隠れ家的な雰囲気が魅力。",
+    "description": "大圍（Tai Wai）顯田村にある日本料理店「創」。ラーメンと居酒屋メニューが中心で火〜日営業。住宅エリアの隠れ家的な雰囲気が魅力。",
     "tags": [
       "japanese",
       "ramen",
@@ -27408,7 +27168,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sogo-freshmart-causeway-bay",
@@ -27418,7 +27179,7 @@
     "address": "SOGO, 555 Hennessy Road, Causeway Bay, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にあるそごう百貨店内のフードコート＆食品売場。たい焼き・たこ焼き・和菓子など日本の軽食が充実。日本直輸入食品の販売も。",
+    "description": "コーズウェイベイ（銅鑼湾）そごう百貨店内のフードホール「Freshmart」。日本直輸入食品・たい焼き・たこ焼き・和菓子など日本の食を幅広く提供。香港最大規模の日本式百貨店。",
     "tags": [
       "日本食",
       "デパ地下",
@@ -27434,7 +27195,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "soulmate-ramen-central",
@@ -27446,7 +27208,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "セントラル（中環）にあるラーメン店「Soulmate Ramen」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "セントラル（中環）Hollywood Road 49番地にある香港初・唯一のヴィーガンラーメン専門店。動物性食材不使用のスープとうどんを提供。2024年に一時閉店後2025年夏に再開。",
     "tags": [
       "ラーメン",
       "うどん",
@@ -27464,19 +27226,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "suage-hokkaido-soup-curry-mong-kok",
     "name": "Suage Hokkaido Soup Curry",
     "name_ja": "Suage 北海道スープカレー",
     "area": "Mong Kok",
-    "address": "Langham Place, Mong Kok, Hong Kong",
+    "address": "Shop 1, 4A/F, Langham Place, 8 Argyle Street, Mong Kok",
     "lat": null,
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "モンコック（旺角）にある北海道・札幌発のスープカレー専門店。香港限定メニューのロブスター入りシーフードスープカレーも提供。",
+    "description": "モンコック（旺角）Langham Place 4Fにある札幌発スープカレー専門店「Suage」。香港限定ロブスターシーフードカレーも人気。月〜土12:00〜21:00営業。",
     "tags": [
       "スープカレー",
       "北海道発"
@@ -27493,7 +27256,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sugidama-lai-chi-kok",
@@ -27505,7 +27269,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "荔枝角D2 Place TWOにある日本居酒屋。新鮮な寿司・刺身を伝統的な雰囲気で楽しめるEN Groupの人気ブランド。",
+    "description": "荔枝角（Lai Chi Kok）D2 Place TWO G01にある日本チェーン「杉玉」の香港店。FOOD & LIFE COMPANIES運営の本格寿司居酒屋。世界100店舗以上展開の人気ブランド。",
     "tags": [
       "izakaya",
       "sushi",
@@ -27523,7 +27287,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sugitama-aberdeen",
