@@ -2389,9 +2389,19 @@
     "source_url": "https://www.koetsu.fr/",
     "description": "サント・アン通りに面した日本料理レストラン。寿司・天ぷら・刺身に加え、名物のすき焼き鍋を提供。落ち着いた和の空間で本格日本食を味わえる。",
     "detail": "パリ2区のサント・アン通りに位置する日本料理レストラン。1階と2階の小部屋からなる和モダンな空間で、寿司・刺身・天ぷらなどの定番から、名物のすき焼き鍋まで幅広い日本料理を提供。日本食通にも評価されるクオリティで、在パリ日本人にも人気の一軒。ランチはリーズナブルな定食も用意。",
-    "menu": ["寿司", "刺身", "天ぷら", "すき焼き"],
+    "menu": [
+      "寿司",
+      "刺身",
+      "天ぷら",
+      "すき焼き"
+    ],
     "price_range": "$$",
-    "tags": ["日本料理", "サント・アン通り", "すき焼き", "Paris 2e"],
+    "tags": [
+      "日本料理",
+      "サント・アン通り",
+      "すき焼き",
+      "Paris 2e"
+    ],
     "hours": null,
     "status": "verified",
     "last_verified": "2026-04-11",
@@ -2420,9 +2430,18 @@
     "source_url": "https://www.kodawari-ramen.com/en/contact-en/",
     "description": "パリ1区、ルーヴル近くの本格ラーメン店。東京・築地市場の雰囲気を再現した内装で、日本産食材を使ったラーメンを毎日11:45から提供。",
     "detail": "パリ1区リシュリュー通りに位置するラーメン専門店。東京・築地市場をモチーフにした独特のインテリアで、日本から空輸した食材を使用した本格ラーメンを提供。毎日11:45〜23:00営業の通し営業で、在パリ日本人・観光客ともに人気が高い。パレ・ロワイヤル・ルーヴル駅が最寄り。姉妹店「こだわりラーメン横丁」もパリ市内に展開。",
-    "menu": ["ラーメン", "餃子", "チャーシュー丼"],
+    "menu": [
+      "ラーメン",
+      "餃子",
+      "チャーシュー丼"
+    ],
     "price_range": "$$",
-    "tags": ["ラーメン専門", "Paris 1er", "通し営業", "ルーヴル近く"],
+    "tags": [
+      "ラーメン専門",
+      "Paris 1er",
+      "通し営業",
+      "ルーヴル近く"
+    ],
     "hours": "毎日 11:45-23:00",
     "status": "verified",
     "last_verified": "2026-04-11",
@@ -2451,9 +2470,18 @@
     "source_url": "https://www.sortiraparis.com/en/where-to-eat-in-paris/restaurant/articles/306464-wadon-izakaya-a-japanese-restaurant-with-5-course-tasting-menu-at-39-in-paris",
     "description": "パリ5区の本格居酒屋。夜は39ユーロの5品おまかせコースを提供。日本人シェフによる本格和食で、在パリ日本人コミュニティにも評判の隠れた名店。",
     "detail": "パリ5区ポワシー通りに位置する居酒屋。夜はシェフおまかせの5品コース39ユーロで提供し、コストパフォーマンスの高さで評判。昼はランチのみの営業。日本の居酒屋文化を忠実に再現した空間で、日本酒の品揃えも充実。在パリ日本人の口コミで広まった知る人ぞ知る一軒。",
-    "menu": ["おまかせコース（夜）", "ランチメニュー", "日本酒"],
+    "menu": [
+      "おまかせコース（夜）",
+      "ランチメニュー",
+      "日本酒"
+    ],
     "price_range": "$$",
-    "tags": ["居酒屋", "Paris 5e", "おまかせ", "コスパ"],
+    "tags": [
+      "居酒屋",
+      "Paris 5e",
+      "おまかせ",
+      "コスパ"
+    ],
     "hours": "ランチ・ディナー（要確認）",
     "status": "verified",
     "last_verified": "2026-04-11",
@@ -2482,9 +2510,16 @@
     "source_url": "https://chakaiseki-akiyoshi.fr/en/",
     "description": "パリ15区にあるフランス唯一の茶懐石専門レストラン。ミシュラン1つ星。京都・瓢亭出身の秋吉雄一郎シェフが季節の食材で描く日本の美。",
     "detail": "パリ15区レテリエ通りに位置する茶懐石料理の専門店。京都の三つ星レストラン「瓢亭」で11年修行したシェフ・秋吉雄一郎が2023年にオープン。フランスで唯一の茶懐石専門店としてミシュラン一つ星を獲得。日本の茶道の精神に基づき、季節の食材を最大限に生かした繊細な料理を提供。要予約。",
-    "menu": ["茶懐石コース"],
+    "menu": [
+      "茶懐石コース"
+    ],
     "price_range": "$$$",
-    "tags": ["茶懐石", "ミシュラン1つ星", "Paris 15e", "要予約"],
+    "tags": [
+      "茶懐石",
+      "ミシュラン1つ星",
+      "Paris 15e",
+      "要予約"
+    ],
     "hours": null,
     "status": "verified",
     "last_verified": "2026-04-11",
@@ -2513,9 +2548,19 @@
     "source_url": "https://mapstr.com/place/umvPTBU5pFg/motsuya-paris-japonais-bento-a_emporter-restaurant-0_10",
     "description": "パリ10区の路地裏にある日本式弁当・定食店。自家製弁当10ユーロから提供し、口コミ評価4.9と高評価。気取らないお手頃価格の日本の家庭料理が評判。",
     "detail": "パリ10区シテ・リヴランの路地に位置する日本式定食・弁当店。自家製弁当は10ユーロからとリーズナブルで、寿司・刺身・温かい惣菜まで幅広く提供。口コミ評価4.9（80件以上）と在パリ日本人にも支持される人気店。日本の居食文化をパリに持ち込んだ貴重な存在。",
-    "menu": ["弁当", "寿司", "刺身", "定食"],
+    "menu": [
+      "弁当",
+      "寿司",
+      "刺身",
+      "定食"
+    ],
     "price_range": "$",
-    "tags": ["弁当", "Paris 10e", "定食", "コスパ"],
+    "tags": [
+      "弁当",
+      "Paris 10e",
+      "定食",
+      "コスパ"
+    ],
     "hours": null,
     "status": "verified",
     "last_verified": "2026-04-11",
@@ -2544,9 +2589,16 @@
     "source_url": "https://www.sortiraparis.com/en/where-to-eat-in-paris/restaurant/articles/307834-restaurant-zakuro-a-discreet-and-authentic-japanese-restaurant-in-paris",
     "description": "パリ2区、オペラ地区の隠れた日本料理レストラン。わずか14席。シェフ・佐藤悟と母・阪本温子が親子で営む小さな名店。1ヶ月前からの予約必須。",
     "detail": "パリ2区ポール・マオン通りにあるわずか14席の小さな日本料理店。「ざくろ（石榴）」の名を持つこの店はシェフ・佐藤悟と母・阪本温子の親子二人で切り盛りする。ディナーは1ヶ月前からオンライン予約のみ受付。ランチは火〜土、ディナーも火〜土と限られた営業日が希少感を高める。在パリ日本人コミュニティで密かに高評価の一軒。",
-    "menu": ["懐石風コース"],
+    "menu": [
+      "懐石風コース"
+    ],
     "price_range": "$$$",
-    "tags": ["日本料理", "Paris 2e", "要予約", "オペラ地区"],
+    "tags": [
+      "日本料理",
+      "Paris 2e",
+      "要予約",
+      "オペラ地区"
+    ],
     "hours": "火〜土 ランチ・ディナー",
     "status": "verified",
     "last_verified": "2026-04-11",
@@ -2575,9 +2627,16 @@
     "source_url": "https://www.saganparis.fr/en/",
     "description": "パリ6区、オデオン近くの割烹料理レストラン。ミシュランガイド掲載。最大15席のカウンター中心の空間で、日本の「割烹」スタイルの料理を提供。",
     "detail": "パリ6区カジミール・ドラヴィーニュ通りに位置する割烹スタイルの日本料理店。ミシュランガイド掲載。最大15席という親密な空間で、素材を「切る・炊く」という割烹の精神に基づいた料理を提供。火〜土のディナーのみ（木〜土はランチも）営業。「ランゲ」の創設者たちが手がける現代的な日本料理の名店。",
-    "menu": ["割烹コース"],
+    "menu": [
+      "割烹コース"
+    ],
     "price_range": "$$$",
-    "tags": ["割烹", "Paris 6e", "ミシュランガイド", "カウンター席"],
+    "tags": [
+      "割烹",
+      "Paris 6e",
+      "ミシュランガイド",
+      "カウンター席"
+    ],
     "hours": "火〜土 ディナー（木〜土 ランチも）",
     "status": "verified",
     "last_verified": "2026-04-11",
@@ -2606,9 +2665,16 @@
     "source_url": "https://www.restaurant-kawamoto.com/",
     "description": "バスティーユ広場近くのパリ11区にある本格日本料理店。日本人シェフによる繊細な和食をリーズナブルに提供。在パリ日本人・グルメ愛好家に支持される。",
     "detail": "パリ11区ラ・ロケット通り、バスティーユ広場に近い日本料理レストラン。ランチ12:15〜14:00、ディナー19:15〜21:00という少人数制で丁寧な料理を提供。月・木・日曜定休。日本人シェフが手がける繊細な和食は、在パリ日本人グルメを中心に口コミで広まった人気店。",
-    "menu": ["和食コース", "ランチ定食"],
+    "menu": [
+      "和食コース",
+      "ランチ定食"
+    ],
     "price_range": "$$",
-    "tags": ["日本料理", "Paris 11e", "バスティーユ"],
+    "tags": [
+      "日本料理",
+      "Paris 11e",
+      "バスティーユ"
+    ],
     "hours": "火〜土（月・木・日休）12:15-14:00 / 19:15-21:00",
     "status": "verified",
     "last_verified": "2026-04-11",
@@ -2637,9 +2703,17 @@
     "source_url": "https://tottorestaurant.com/",
     "description": "パリ12区のオーセンティックな寿司屋。在仏10年以上のキャリアを持つ日本人シェフ2名が開業。寿司・刺身に加えて居酒屋スタイルの小皿料理も提供。",
     "detail": "パリ12区テオフィル・ルーセル通りにある正統派の寿司屋。フランス・日本両国での10年以上の経験を持つ泉輝隆シェフと栗橋南洋シェフが共同経営。寿司・刺身の繊細な技に加え、居酒屋スタイルの小皿料理も充実。Time Outをはじめ、パリのグルメガイドで高く評価されている。",
-    "menu": ["寿司", "刺身", "居酒屋小皿"],
+    "menu": [
+      "寿司",
+      "刺身",
+      "居酒屋小皿"
+    ],
     "price_range": "$$",
-    "tags": ["寿司", "Paris 12e", "日本人シェフ"],
+    "tags": [
+      "寿司",
+      "Paris 12e",
+      "日本人シェフ"
+    ],
     "hours": null,
     "status": "verified",
     "last_verified": "2026-04-11",
@@ -2668,9 +2742,18 @@
     "source_url": "https://www.haikarafood.com/",
     "description": "パリ11区の日本式揚げ物専門店。唐揚げ・豚カツ・天ぷらを中心に、日本の揚げ物文化を凝縮したメニューを展開。2023年オープンの新鋭店。",
     "detail": "パリ11区ヴォルテール大通りにある日本式フライ専門店。唐揚げ・豚カツ・天ぷらなど日本の揚げ物を専門とする。2023年オープンで、Jérémy MegalyとSho Miyashitaが共同経営。備長炭を使った料理も手がける「Honō Yakitori」と同じ運営者による姉妹店。パリにおける日本式揚げ物文化の発信地として注目を集める。",
-    "menu": ["唐揚げ", "豚カツ", "天ぷら"],
+    "menu": [
+      "唐揚げ",
+      "豚カツ",
+      "天ぷら"
+    ],
     "price_range": "$",
-    "tags": ["揚げ物専門", "Paris 11e", "唐揚げ", "豚カツ"],
+    "tags": [
+      "揚げ物専門",
+      "Paris 11e",
+      "唐揚げ",
+      "豚カツ"
+    ],
     "hours": null,
     "status": "verified",
     "last_verified": "2026-04-11",
@@ -2699,9 +2782,17 @@
     "source_url": "https://www.timeout.fr/paris/restaurants/hitonigiri",
     "description": "パリ15区ヴォージラール通り端の小さなおにぎり専門カウンター。日本人女性2名が営む。毎日手作りのおにぎり8種・おにぎらず7種を提供するパリ唯一の専門店。",
     "detail": "パリ15区ヴォージラール通り最端にある6席のミニカウンターのおにぎり専門店。日本人のHitomi ParsiとAiko Mitsutake（Villa9Troisでの料理経験あり）が経営。卵の醤油漬け・昆布・ツナマヨなど8レシピのおにぎりと、サーモン＆クリームみそ・海老フライ＆タルタルソースなど7バリエーションのおにぎらずを毎日手作り。Time Out Parisでも紹介された新感覚日本食スタンド。",
-    "menu": ["おにぎり（8種）", "おにぎらず（7種）"],
+    "menu": [
+      "おにぎり（8種）",
+      "おにぎらず（7種）"
+    ],
     "price_range": "$",
-    "tags": ["おにぎり専門", "Paris 15e", "日本人経営", "テイクアウト"],
+    "tags": [
+      "おにぎり専門",
+      "Paris 15e",
+      "日本人経営",
+      "テイクアウト"
+    ],
     "hours": null,
     "status": "verified",
     "last_verified": "2026-04-11",
@@ -2730,9 +2821,17 @@
     "source_url": "https://ryoparis.wordpress.com/",
     "description": "パリ1区の日本人街・サント・アン通り近くの日本料理店。代々続く料理人一族出身のシェフ・大鶴が営む。木と白を基調とした和モダンな空間で本格和食を提供。",
     "detail": "パリ1区ムーラン通りに位置する日本料理レストラン。シェフの大鶴は日本で料理人の家系に生まれ、その知識と伝統をパリに持ち込んだ。木と白を基調とした清潔感ある空間で、日本の伝統と現代性を融合させた料理を手頃な価格で提供。火〜土の昼と夜のみ営業。",
-    "menu": ["日本料理コース", "ランチ定食"],
+    "menu": [
+      "日本料理コース",
+      "ランチ定食"
+    ],
     "price_range": "$$",
-    "tags": ["日本料理", "Paris 1er", "日本人シェフ", "サント・アン近く"],
+    "tags": [
+      "日本料理",
+      "Paris 1er",
+      "日本人シェフ",
+      "サント・アン近く"
+    ],
     "hours": "火〜土 12:00-14:00 / 19:00-22:00",
     "status": "verified",
     "last_verified": "2026-04-11",
@@ -2761,9 +2860,17 @@
     "source_url": "https://charbon-kunitoraya.com/",
     "description": "パリ・パレ・ロワイヤル近くの焼き鳥レストラン。ミシュランガイド掲載。備長炭で焼くブレス鶏の焼き鳥が名物。うどん「国虎屋」の姉妹店。",
     "detail": "パリ1区ヴィレド通り、パレ・ロワイヤル至近に位置する焼き鳥専門レストラン。うどん「国虎屋」を運営する野本正文シェフが手がけ、ミシュランガイドにも掲載。ブレス産鶏を備長炭で焼いた焼き鳥をメインに、多コース構成のテイスティングメニューを提供。水〜土の昼（12:15〜14:30）と夜（19:15〜21:30）、日・月・火定休。",
-    "menu": ["焼き鳥コース", "ブレス鶏焼き鳥"],
+    "menu": [
+      "焼き鳥コース",
+      "ブレス鶏焼き鳥"
+    ],
     "price_range": "$$$",
-    "tags": ["焼き鳥", "Paris 1er", "ミシュランガイド", "備長炭"],
+    "tags": [
+      "焼き鳥",
+      "Paris 1er",
+      "ミシュランガイド",
+      "備長炭"
+    ],
     "hours": "水〜土 12:15-14:30 / 19:15-21:30",
     "status": "verified",
     "last_verified": "2026-04-11",
@@ -2792,9 +2899,19 @@
     "source_url": "https://akaneyajapan.com/en/marie-akaneya-paris/",
     "description": "パリ9区マドレーヌ近くの炭火焼き日本料理店。ミシュランガイド掲載。パリで唯一の松阪牛・伊藤牧場産和牛を提供する高級すみびやき専門店。",
     "detail": "パリ9区ゴドー・ドゥ・モーロワ通りに位置する炭火焼き（すみびやき）の日本料理レストラン。2023年5月オープン。ミシュランガイド掲載。日本・伊藤牧場から空輸した松阪牛をはじめとする和牛を備長炭で炙る。パリ初・ヨーロッパ唯一の松阪牛提供レストランとして、日本人ビジネスパーソンや食通に高く評価される。水〜日営業。",
-    "menu": ["すみびやき", "松阪牛", "和牛コース"],
+    "menu": [
+      "すみびやき",
+      "松阪牛",
+      "和牛コース"
+    ],
     "price_range": "$$$",
-    "tags": ["すみびやき", "Paris 9e", "ミシュランガイド", "松阪牛", "和牛"],
+    "tags": [
+      "すみびやき",
+      "Paris 9e",
+      "ミシュランガイド",
+      "松阪牛",
+      "和牛"
+    ],
     "hours": "水〜金 19:00-23:00 / 土日 13:00-14:00, 19:00-23:00",
     "status": "verified",
     "last_verified": "2026-04-11",
@@ -2823,9 +2940,18 @@
     "source_url": "https://www.yelp.com/biz/echizen-soba-togo-paris",
     "description": "パリ1区のそば専門店。福井（旧越前国）出身の松井桂子シェフが営む。北陸の伝統的な越前そばを天ぷらとともに提供。予約不可・現金のみの昔ながらのスタイル。",
     "detail": "パリ1区サン・ロック通りに位置するそば専門店。福井県（旧越前国）出身のシェフ・松井桂子が越前そばの伝統をパリに持ち込んだ。昼12:00〜14:15、夜19:00〜21:45営業（水・日曜定休）。予約なし・現金のみという日本の蕎麦屋スタイルを守る。Instagramアカウント「togo_paris」で最新情報を発信。",
-    "menu": ["越前そば", "天ぷらそば", "冷そば"],
+    "menu": [
+      "越前そば",
+      "天ぷらそば",
+      "冷そば"
+    ],
     "price_range": "$$",
-    "tags": ["そば専門", "Paris 1er", "越前そば", "日本人シェフ"],
+    "tags": [
+      "そば専門",
+      "Paris 1er",
+      "越前そば",
+      "日本人シェフ"
+    ],
     "hours": "月・火・木・金・土 12:00-14:15 / 19:00-21:45（水・日休）",
     "status": "verified",
     "last_verified": "2026-04-11",
@@ -2854,9 +2980,18 @@
     "source_url": "https://lefooding.com/en/restaurants/restaurant-sanjo-paris",
     "description": "パリ1区ピラミッド駅近くの日本ラーメン・台湾ラーメン専門店。デザイナー兼シェフの堀海斗が手がける。石壁・大きな窓・オープンキッチンのスタイリッシュな空間。",
     "detail": "パリ1区アルジャントゥイユ通りにあるラーメン・台湾ラーメン専門レストラン。シェフ兼スタイリストの堀海斗が手がける、石壁と大きな窓・オープンキッチンが特徴的な空間。ラーメン・台湾ラーメンに加え、餃子・唐揚げ・茄子の味噌和えなどのサイドメニューも充実。月〜土営業（日曜定休）。",
-    "menu": ["ラーメン", "台湾ラーメン", "餃子", "唐揚げ"],
+    "menu": [
+      "ラーメン",
+      "台湾ラーメン",
+      "餃子",
+      "唐揚げ"
+    ],
     "price_range": "$$",
-    "tags": ["ラーメン", "Paris 1er", "ピラミッド駅"],
+    "tags": [
+      "ラーメン",
+      "Paris 1er",
+      "ピラミッド駅"
+    ],
     "hours": "月〜土 12:00-14:30 / 18:30-22:15",
     "status": "verified",
     "last_verified": "2026-04-11",
@@ -2885,9 +3020,16 @@
     "source_url": "https://mapstr.com/place/dA15viVodU/ika-restaurant-japonais-paris-10-japonais-restaurant-asiatique-cantine-asiat",
     "description": "パリ10区の日本式カレー専門店。東京でガイドを務めた日本人女性が開業。国産コシヒカリ米に玉ねぎとスパイスを丁寧に炒め込んだカレーが絶品と評判。",
     "detail": "パリ10区シャブロル通りに位置する日本式カレーの小さな専門店。東京でガイドとして働いていた日本人女性オーナーが開業。のれんが下がる店内は親密感がある。コシヒカリ米に玉ねぎ飴煮とスパイスを合わせた日本式カレーが看板メニュー。平日12:15〜18:00、土曜12:30〜15:00の限られた営業時間のため、早めの訪問がおすすめ。",
-    "menu": ["日本式カレー", "カレーライス"],
+    "menu": [
+      "日本式カレー",
+      "カレーライス"
+    ],
     "price_range": "$",
-    "tags": ["カレー専門", "Paris 10e", "日本人経営"],
+    "tags": [
+      "カレー専門",
+      "Paris 10e",
+      "日本人経営"
+    ],
     "hours": "月〜金 12:15-18:00 / 土 12:30-15:00",
     "status": "verified",
     "last_verified": "2026-04-11",
@@ -2916,9 +3058,18 @@
     "source_url": "https://www.sortiraparis.com/en/where-to-eat-in-paris/restaurant/articles/335125-soma-sando-the-japanese-sandwich-restaurant-paris-6e",
     "description": "パリ6区、リュクサンブール公園近くの日本式サンドイッチ＆喫茶店。厚切り食パンに具材をたっぷり挟んだサンド（サンドウィッチ）が名物。火〜日営業。",
     "detail": "パリ6区ヴォージラール通りにある日本式サンドイッチと喫茶のお店。日本の「喫茶店（きっさてん）」をモチーフにした空間で、厚切り食パンにたっぷりの具材を挟んだ日本スタイルのサンドイッチを提供。火〜日11:00〜23:00営業。リュクサンブール公園のすぐそばにあり、観光と組み合わせやすい立地。",
-    "menu": ["サンドウィッチ（サンド）", "コーヒー", "日本スイーツ"],
+    "menu": [
+      "サンドウィッチ（サンド）",
+      "コーヒー",
+      "日本スイーツ"
+    ],
     "price_range": "$$",
-    "tags": ["サンドウィッチ", "Paris 6e", "喫茶", "リュクサンブール公園近く"],
+    "tags": [
+      "サンドウィッチ",
+      "Paris 6e",
+      "喫茶",
+      "リュクサンブール公園近く"
+    ],
     "hours": "火〜日 11:00-23:00",
     "status": "verified",
     "last_verified": "2026-04-11",
@@ -2947,9 +3098,19 @@
     "source_url": "https://www.pecopeco.fr/en/",
     "description": "パリ9区ピガール地区の日本式居酒屋。大阪のくし揚げ・どんぶり・味噌汁・日本酒を楽しめる。火〜金ランチ・ディナー、土はディナーのみ営業。",
     "detail": "パリ9区ジャン＝バティスト・ピガール通りに位置する日本式居酒屋。大阪スタイルのくし揚げ（串揚げ）を中心に、どんぶり・味噌汁・日本酒を提供。公式サイトも日本語対応。火〜金は昼（12:00〜14:00）と夜（19:00〜22:00）の二部制、土はディナーのみ。日曜・月曜定休。",
-    "menu": ["くし揚げ", "どんぶり", "味噌汁", "日本酒"],
+    "menu": [
+      "くし揚げ",
+      "どんぶり",
+      "味噌汁",
+      "日本酒"
+    ],
     "price_range": "$$",
-    "tags": ["居酒屋", "Paris 9e", "くし揚げ", "大阪料理"],
+    "tags": [
+      "居酒屋",
+      "Paris 9e",
+      "くし揚げ",
+      "大阪料理"
+    ],
     "hours": "火〜金 12:00-14:00 / 19:00-22:00 / 土 19:00-22:00",
     "status": "verified",
     "last_verified": "2026-04-11",
@@ -2978,9 +3139,18 @@
     "source_url": "https://www.lebarasushi.com/",
     "description": "パリ8区バティニョール地区のバースタイル寿司店。在パリ日本人や寿司通から高評価（4.6/5、444件）。火〜土のみ営業する、地元で人気の本格寿司カウンター。",
     "detail": "パリ8区バティニョール大通りに位置する寿司専門バー。ヴィリエ駅（地下鉄2・3号線）徒歩圏内。寿司・刺身・海鮮料理を中心に展開し、4.6/5（444件評価）の高評価を誇る。火〜土の昼（〜14:30）と夜（19:30〜22:00）のみ営業。日曜・月曜定休。バティニョール地区の在パリ日本人コミュニティでも親しまれている。",
-    "menu": ["寿司", "刺身", "海鮮料理"],
+    "menu": [
+      "寿司",
+      "刺身",
+      "海鮮料理"
+    ],
     "price_range": "$$",
-    "tags": ["寿司", "Paris 8e", "バティニョール", "バースタイル"],
+    "tags": [
+      "寿司",
+      "Paris 8e",
+      "バティニョール",
+      "バースタイル"
+    ],
     "hours": "火〜土 〜14:30 / 19:30-22:00",
     "status": "verified",
     "last_verified": "2026-04-11",
@@ -3009,9 +3179,18 @@
     "source_url": "https://enyaa-paris.fr/",
     "description": "パリ・パレ・ロワイヤル至近の懐石料理レストラン。京都の伝統料理「懐石」を手がける遠藤大介シェフが、日本酒とシャンパンのペアリングで本格和食を提供。",
     "detail": "パリ1区モンパンシェ通り、パレ・ロワイヤルのすぐ近くに位置する懐石料理レストラン。遠藤大介シェフによる京都スタイルの「懐石（かいせき）」料理と、日本酒・シャンパンのセラーを併設。水〜日の昼（12:00〜14:00）と夜（19:00〜21:30）に営業。パリの日本食シーンで懐石を本格的に楽しめる貴重な一軒。",
-    "menu": ["懐石コース", "日本酒", "シャンパン"],
+    "menu": [
+      "懐石コース",
+      "日本酒",
+      "シャンパン"
+    ],
     "price_range": "$$$",
-    "tags": ["懐石", "Paris 1er", "パレ・ロワイヤル近く", "日本酒"],
+    "tags": [
+      "懐石",
+      "Paris 1er",
+      "パレ・ロワイヤル近く",
+      "日本酒"
+    ],
     "hours": "水〜日 12:00-14:00 / 19:00-21:30",
     "status": "verified",
     "last_verified": "2026-04-11",
@@ -3040,9 +3219,17 @@
     "source_url": "https://www.takara-paris.com/",
     "description": "パリ最古の日本料理店（1958年創業）。オペラ地区・サント・アン通り近くに位置し、60年以上の歴史を持つ本格和食の老舗。在パリ日本人の心のふるさと的存在。",
     "detail": "パリ1区モリエール通りに位置する、1958年創業のパリ最古の日本料理レストラン。60年以上にわたり本格和食をパリに提供し続けてきた老舗で、在パリ日本人ビジネスコミュニティや日本食通に長年愛される。月〜土の昼（12:00〜14:00）と夜（18:30〜21:30）営業。日曜定休。",
-    "menu": ["和食コース", "ランチ定食"],
+    "menu": [
+      "和食コース",
+      "ランチ定食"
+    ],
     "price_range": "$$",
-    "tags": ["老舗", "Paris 1er", "1958年創業", "サント・アン近く"],
+    "tags": [
+      "老舗",
+      "Paris 1er",
+      "1958年創業",
+      "サント・アン近く"
+    ],
     "hours": "月〜土 12:00-14:00 / 18:30-21:30",
     "status": "verified",
     "last_verified": "2026-04-11",
@@ -3071,9 +3258,17 @@
     "source_url": "https://www.sushishunei.com/",
     "description": "パリ18区モンマルトル・アベス近くのミシュラン1つ星寿司店。世界初のミシュラン星獲得女性寿司職人・木村千寿子が握る檜のカウンター7メートルが圧巻。",
     "detail": "パリ18区オードラン通り、アベス駅（モンマルトル）近くに位置するミシュラン1つ星の鮨屋。2025年にミシュラン星を獲得した木村千寿子シェフは、世界初の女性寿司職人ミシュラン星受賞者。店内は節のない7メートルの一枚板の檜カウンターが圧巻で、日本でも希少な仕様。伝統と創造性を融合させた握りが在パリ日本人美食家にも高く評価される。",
-    "menu": ["おまかせ握り"],
+    "menu": [
+      "おまかせ握り"
+    ],
     "price_range": "$$$",
-    "tags": ["寿司", "Paris 18e", "ミシュラン1つ星", "モンマルトル", "日本人シェフ"],
+    "tags": [
+      "寿司",
+      "Paris 18e",
+      "ミシュラン1つ星",
+      "モンマルトル",
+      "日本人シェフ"
+    ],
     "hours": null,
     "status": "verified",
     "last_verified": "2026-04-11",
@@ -3102,9 +3297,19 @@
     "source_url": "https://www.komeizakaya.com/",
     "description": "リヨン1区テロー広場近くの日本式居酒屋。寿司・ラーメン・日本酒・日本ウイスキーが揃う。タパスバルと同じ感覚で楽しめるリヨンの定番日本食スポット。",
     "detail": "リヨン1区ランテルヌ通りに位置する居酒屋スタイルの日本料理店。テロー広場のすぐそばで、寿司・ラーメン・サケ・カクテル・日本ウイスキーなど幅広いメニューを展開。居酒屋らしい賑やかな雰囲気でリヨン在住日本人にも人気。火曜定休で他は毎日営業。",
-    "menu": ["寿司", "ラーメン", "日本酒", "日本ウイスキー"],
+    "menu": [
+      "寿司",
+      "ラーメン",
+      "日本酒",
+      "日本ウイスキー"
+    ],
     "price_range": "$$",
-    "tags": ["居酒屋", "Lyon", "テロー広場近く", "日本酒"],
+    "tags": [
+      "居酒屋",
+      "Lyon",
+      "テロー広場近く",
+      "日本酒"
+    ],
     "hours": "火曜定休",
     "status": "verified",
     "last_verified": "2026-04-11",
@@ -3133,9 +3338,15 @@
     "source_url": "https://www.takumi-ramen.com/",
     "description": "リヨン2区エネ地区の本格ラーメン専門店。火〜日営業で昼・夜ともに本格的な日本ラーメンを提供。リヨン在住日本人や地元グルメに人気の一軒。",
     "detail": "リヨン2区フランクラン通りにあるラーメン専門レストラン。火〜日12:00〜14:00、19:00〜22:00の昼夜二部制（月曜定休）。日本から取り寄せた食材を使用した本格的な日本式ラーメンを提供。Petit Futé・Yelp（Updated February 2026）など複数のグルメガイドで評価されているリヨンの日本食の定番スポット。",
-    "menu": ["ラーメン"],
+    "menu": [
+      "ラーメン"
+    ],
     "price_range": "$$",
-    "tags": ["ラーメン専門", "Lyon", "月曜定休"],
+    "tags": [
+      "ラーメン専門",
+      "Lyon",
+      "月曜定休"
+    ],
     "hours": "火〜日 12:00-14:00 / 19:00-22:00",
     "status": "verified",
     "last_verified": "2026-04-11",
@@ -3164,9 +3375,18 @@
     "source_url": "https://www.shoon.fr/",
     "description": "ストラスブールの日本人シェフが営む居酒屋スタイルのレストラン。月〜土11:30〜22:45営業（ランチ・ディナー通し）。日本酒・クラフトビール・自然派ワインとともに本格和食を楽しめる。",
     "detail": "ストラスブール67100の病院通りに位置する日本料理レストラン。日本人女性シェフが腕を振るう居酒屋スタイルの一軒で、精選された日本産食材を使用した本格料理を提供。日本酒・クラフトビール・自然派ワインとのペアリングも楽しめる。月〜土11:30〜14:30、18:45〜22:45の昼夜営業（ランチ・ディナー）。イートイン・テイクアウト・デリバリーに対応。",
-    "menu": ["居酒屋料理", "日本酒", "定食"],
+    "menu": [
+      "居酒屋料理",
+      "日本酒",
+      "定食"
+    ],
     "price_range": "$$",
-    "tags": ["居酒屋", "Strasbourg", "日本人シェフ", "日本酒"],
+    "tags": [
+      "居酒屋",
+      "Strasbourg",
+      "日本人シェフ",
+      "日本酒"
+    ],
     "hours": "月〜土 11:30-14:30 / 18:45-22:45",
     "status": "verified",
     "last_verified": "2026-04-11",
@@ -3195,9 +3415,18 @@
     "source_url": "https://www.restaurant-maido.fr/",
     "description": "ニースで2014年開業のイザカヤ＆自然派ワインバー。ニース初の居酒屋として地元に定着。火〜土の昼夜営業で、日本式小皿料理と厳選日本酒・自然派ワインを提供。",
     "detail": "ニース6区ジョッフレド通りに位置する居酒屋＆ナチュラルワインバー。2014年にニース初の居酒屋としてオープン。火〜土12:00〜14:00、19:00〜22:00（水曜ランチ休み）。日本式タパスや小皿料理を日本酒・自然派ワインとともに楽しめる。在ニース日本人や日本食好きのフランス人にも支持される地元の人気スポット。",
-    "menu": ["居酒屋小皿", "日本酒", "自然派ワイン"],
+    "menu": [
+      "居酒屋小皿",
+      "日本酒",
+      "自然派ワイン"
+    ],
     "price_range": "$$",
-    "tags": ["居酒屋", "Nice", "2014年創業", "自然派ワイン"],
+    "tags": [
+      "居酒屋",
+      "Nice",
+      "2014年創業",
+      "自然派ワイン"
+    ],
     "hours": "火〜土 12:00-14:00 / 19:00-22:00（水ランチ休み）",
     "status": "verified",
     "last_verified": "2026-04-11",
@@ -3226,9 +3455,17 @@
     "source_url": "https://www.konnichiwabordeaux.fr/",
     "description": "ボルドー中心部のガンベタ広場近くの日本料理店。ラーメン・焼き鳥・和食を中心に、イートイン・テイクアウト・デリバリーに対応。ボルドーの日本食シーンを支える定番店。",
     "detail": "ボルドー中心部ガンベタ広場・メリアデック近くのサン＝セルナン通りに位置する日本料理店。ラーメン・焼き鳥・わかめサラダ・味噌汁などの定番和食に加え、テイクアウト・デリバリーにも対応。公式サイトも充実しており、ボルドー在住日本人に認知された日本食の定番スポット。",
-    "menu": ["ラーメン", "焼き鳥", "和食"],
+    "menu": [
+      "ラーメン",
+      "焼き鳥",
+      "和食"
+    ],
     "price_range": "$$",
-    "tags": ["日本料理", "Bordeaux", "テイクアウト可"],
+    "tags": [
+      "日本料理",
+      "Bordeaux",
+      "テイクアウト可"
+    ],
     "hours": null,
     "status": "verified",
     "last_verified": "2026-04-11",
@@ -3257,13 +3494,468 @@
     "source_url": "https://restaurantfufu.com/",
     "description": "2010年創業のボルドー老舗ラーメン店。フランス産食材でその日に仕込んだスープ・手打ち麺が特徴。カウンター形式のオープンキッチンで日本の食堂の雰囲気を再現。",
     "detail": "ボルドー中心部サン＝レミ通りに位置するラーメン専門店（2010年創業）。鶏・豚・魚介でその日に仕込んだスープとフランス産小麦の手打ち麺が売り。カウンターとオープンキッチンで日本の食堂（しょくどう）の雰囲気を忠実に再現。3450件超の口コミを持つボルドー屈指の人気日本食スポット。サン＝レミ店のほか、クール・ポルタル71番にも店舗あり。",
-    "menu": ["ラーメン"],
+    "menu": [
+      "ラーメン"
+    ],
     "price_range": "$",
-    "tags": ["ラーメン専門", "Bordeaux", "2010年創業"],
+    "tags": [
+      "ラーメン専門",
+      "Bordeaux",
+      "2010年創業"
+    ],
     "hours": null,
     "status": "verified",
     "last_verified": "2026-04-11",
     "source": "website",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null,
+    "place_reviewed": true,
+    "needs_review": false,
+    "japanese_staff": null
+  },
+  {
+    "slug": "new-yakitori-paris-18",
+    "name": "New Yakitori",
+    "name_ja": "ニュー・ヤキトリ",
+    "area": "Paris 18e",
+    "address": "106 Rue Damrémont, 75018 Paris",
+    "phone": "+33768306878",
+    "phone_local": null,
+    "email": null,
+    "website": "https://newyakitori.fr/",
+    "source_url": "https://www.yelp.fr/biz/yakitori-paris",
+    "description": "パリ18区モンマルトル丘の麓にある本格焼き鳥専門店。鶏もも・ねぎま・つくね等の日本式焼き鳥を炭火で提供。デリバリー・テイクアウトにも対応。",
+    "detail": "パリ18区ダムレモン通りの焼き鳥専門店。日本式の炭火焼き鳥（鶏もも・ねぎま・つくね・砂肝など）を中心に、寿司・マキ・ポケボウルも提供。テイクアウト・デリバリーに対応し、ランチからディナーまで通し営業。モンマルトル周辺の日本人・日本食ファンに支持されている。",
+    "menu": [
+      "焼き鳥",
+      "寿司",
+      "マキ",
+      "ポケボウル"
+    ],
+    "price_range": "€15〜30/人",
+    "tags": [
+      "焼き鳥",
+      "Paris 18e",
+      "テイクアウト",
+      "デリバリー"
+    ],
+    "hours": "月〜土 11:00-15:00/18:00-23:00、日 18:00-23:00",
+    "status": "verified",
+    "last_verified": "2026-04-12",
+    "source": "website",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null,
+    "place_reviewed": true,
+    "needs_review": false,
+    "japanese_staff": null
+  },
+  {
+    "slug": "kagayaki-teppanyaki-paris",
+    "name": "Kagayaki",
+    "name_ja": "輝",
+    "area": "Paris 3e",
+    "address": "79 Bd Beaumarchais, 75003 Paris",
+    "phone": "+33148876188",
+    "phone_local": null,
+    "email": null,
+    "website": null,
+    "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187147-d3653169-r179743857-Kagayaki-Paris_Ile_de_France.html",
+    "description": "パリ3区マレ地区の老舗鉄板焼き専門店。日本人シェフが目の前で焼く牛フィレ・海老・ホタテの鉄板料理が名物。15年以上営業するパリ日本料理の定番店。",
+    "detail": "パリ3区ボーマルシェ大通りに15年以上店を構える鉄板焼き専門店。日本人シェフがカウンター越しに牛フィレ・フォアグラ・海老・ホタテ・鮭などを鉄板で豪快に調理するライブ感が最大の魅力。コース€21〜€52。完全予約制で1週間前からの予約が必須。パリの日本食ファンに長年愛される老舗。",
+    "menu": [
+      "牛フィレ鉄板焼き",
+      "海老フランベ",
+      "ホタテ",
+      "フォアグラ焼き"
+    ],
+    "price_range": "€21〜52/人",
+    "tags": [
+      "鉄板焼き",
+      "Teppanyaki",
+      "Paris 3e",
+      "Marais",
+      "要予約"
+    ],
+    "hours": "月〜土 12:00-14:00/19:00-22:00、日休",
+    "status": "verified",
+    "last_verified": "2026-04-12",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null,
+    "place_reviewed": true,
+    "needs_review": false,
+    "japanese_staff": true
+  },
+  {
+    "slug": "kokohana-teppanyaki-paris",
+    "name": "Kokohana",
+    "name_ja": "ここはな",
+    "area": "Paris 8e",
+    "address": "1 bis Rue Jean Mermoz, 75008 Paris",
+    "phone": "+33145621568",
+    "phone_local": null,
+    "email": null,
+    "website": "https://kokohana.fr/",
+    "source_url": "https://www.yelp.com/biz/koko-hana-paris-08",
+    "description": "パリ8区シャンゼリゼ近くの鉄板焼きレストラン。20年以上の歴史を持つ老舗で、肉・魚・野菜を目の前で鉄板調理するスペクタクルが人気。",
+    "detail": "パリ8区ジャン・メルモ通りに20年以上店を構える日本の鉄板焼きレストラン。シェフが目の前の鉄板で牛・魚・ホタテ・野菜を精緻に調理する「料理のショー」が楽しめる。フランス人・日本人ともに愛好するパリ屈指の鉄板焼き老舗。月〜土営業、完全予約制。",
+    "menu": [
+      "牛肉鉄板焼き",
+      "魚介鉄板焼き",
+      "野菜グリル"
+    ],
+    "price_range": "€30〜60/人",
+    "tags": [
+      "鉄板焼き",
+      "Teppanyaki",
+      "Paris 8e",
+      "老舗"
+    ],
+    "hours": "月〜土 12:00-14:30/19:00-23:00",
+    "status": "verified",
+    "last_verified": "2026-04-12",
+    "source": "website",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null,
+    "place_reviewed": true,
+    "needs_review": false,
+    "japanese_staff": true
+  },
+  {
+    "slug": "ayako-teppanyaki-paris-14",
+    "name": "Ayako Teppanyaki",
+    "name_ja": "アヤコ・テッパンヤキ",
+    "area": "Paris 14e",
+    "address": "67 Rue de l'Ouest, 75014 Paris",
+    "phone": "+33143216344",
+    "phone_local": null,
+    "email": null,
+    "website": "https://www.ayakoteppanyaki.fr/",
+    "source_url": "https://www.yelp.com/biz/ayako-teppanyaki-paris-2",
+    "description": "パリ14区モンパルナス近くの日本式鉄板焼きレストラン。フォアグラ・牛肉・海鮮をシェフが目の前で調理する臨場感あふれるディナーが楽しめる。",
+    "detail": "パリ14区モンパルナス界隈にある日本式鉄板焼き専門レストラン。フォアグラ・牛フィレ・魚介類をシェフが鉄板で目の前で調理し、視覚的なショーとしても楽しめる。月〜土営業でランチ・ディナーの2部制。パリ日本食グルメに人気の一軒。公式サイトから予約可能。",
+    "menu": [
+      "牛フィレ鉄板焼き",
+      "フォアグラ焼き",
+      "魚介鉄板焼き"
+    ],
+    "price_range": "€25〜55/人",
+    "tags": [
+      "鉄板焼き",
+      "Teppanyaki",
+      "Paris 14e",
+      "Montparnasse"
+    ],
+    "hours": "月〜土 12:00-14:30/19:00-22:30、日休",
+    "status": "verified",
+    "last_verified": "2026-04-12",
+    "source": "website",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null,
+    "place_reviewed": true,
+    "needs_review": false,
+    "japanese_staff": true
+  },
+  {
+    "slug": "shabu-sha-paris-3",
+    "name": "Shabu Sha",
+    "name_ja": "しゃぶしゃ",
+    "area": "Paris 3e",
+    "address": "72 Rue des Gravilliers, 75003 Paris",
+    "phone": "+33142770669",
+    "phone_local": null,
+    "email": null,
+    "website": "http://www.shabusha.fr/",
+    "source_url": "https://www.sortiraparis.com/en/lieux/54977-shabu-sha",
+    "description": "パリ3区のしゃぶしゃぶ専門店。個別IH鍋で自分でしゃぶしゃぶするスタイルが楽しめる。日本式・中国式・韓国式のアジア鍋料理を提供。",
+    "detail": "パリ3区グラヴィリエ通りにあるアジア鍋料理店。日本式のしゃぶしゃぶを中心に、個別IH鍋を使って自分で肉・野菜を薄切りスープで調理するスタイル。日本料理・中国料理・韓国料理の要素を取り入れたメニュー構成で、日本人を含むアジア系の在住者に人気。毎日12〜15時・19〜23時営業。",
+    "menu": [
+      "しゃぶしゃぶ",
+      "牛肉鍋",
+      "野菜鍋"
+    ],
+    "price_range": "€20〜35/人",
+    "tags": [
+      "しゃぶしゃぶ",
+      "鍋料理",
+      "Paris 3e",
+      "Marais"
+    ],
+    "hours": "毎日 12:00-15:00/19:00-23:00（火曜は19:00〜のみ）",
+    "status": "verified",
+    "last_verified": "2026-04-12",
+    "source": "web_search",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null,
+    "place_reviewed": true,
+    "needs_review": false,
+    "japanese_staff": null
+  },
+  {
+    "slug": "aoyama-lille",
+    "name": "Aoyama",
+    "name_ja": "青山",
+    "area": "Lille",
+    "address": "70 Rue de Gand, 59800 Lille",
+    "phone": null,
+    "phone_local": null,
+    "email": "contact@aoyamalille.com",
+    "website": "https://www.aoyamalille.com/",
+    "source_url": "https://www.yelp.com/biz/aoyama-lille",
+    "description": "リール旧市街（ヴィユ・リール）にある日本料理レストラン。本格ラーメン・おこのみやき・から揚げなど日本の家庭料理を丁寧に提供する。",
+    "detail": "フランス北部リールの旧市街ガン通りに位置する日本料理レストラン。十時間煮込んだスープのラーメンを筆頭に、おこのみやき・から揚げ・餃子・丼ぶり・天ぷら等、幅広い日本の家庭料理を提供。火〜日ランチ・ディナー営業で月曜定休。公式サイトから予約可能。",
+    "menu": [
+      "ラーメン",
+      "おこのみやき",
+      "から揚げ",
+      "餃子",
+      "丼ぶり"
+    ],
+    "price_range": "€15〜30/人",
+    "tags": [
+      "日本料理",
+      "ラーメン",
+      "Lille",
+      "Vieux-Lille"
+    ],
+    "hours": "火〜日 12:00-14:30/19:00-22:30、月休",
+    "status": "verified",
+    "last_verified": "2026-04-12",
+    "source": "website",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null,
+    "place_reviewed": true,
+    "needs_review": false,
+    "japanese_staff": null
+  },
+  {
+    "slug": "shuriken-lille",
+    "name": "Le Shuriken",
+    "name_ja": "手裏剣",
+    "area": "Lille",
+    "address": "129 Rue Solférino, 59000 Lille",
+    "phone": "+33320400388",
+    "phone_local": null,
+    "email": null,
+    "website": "https://shuriken-lille.fr/",
+    "source_url": "https://shuriken-lille.fr/",
+    "description": "リール・セバストポル劇場近くの日本料理レストラン。新鮮な魚介を使った寿司・刺身・巻き物に加え、焼き鳥・ラーメンも提供する人気店。",
+    "detail": "リールのソルフェリーノ通り、セバストポル劇場そばにある日本料理レストラン。旬の鮮魚を使った寿司・刺身・マキに加え、焼き鳥・ラーメンも充実。公式サイトからオンライン予約が可能で、リール中心部で日本料理を楽しめる老舗の一軒。",
+    "menu": [
+      "寿司",
+      "刺身",
+      "マキ",
+      "焼き鳥",
+      "ラーメン"
+    ],
+    "price_range": "€15〜35/人",
+    "tags": [
+      "寿司",
+      "焼き鳥",
+      "ラーメン",
+      "Lille"
+    ],
+    "hours": null,
+    "status": "verified",
+    "last_verified": "2026-04-12",
+    "source": "website",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null,
+    "place_reviewed": true,
+    "needs_review": false,
+    "japanese_staff": null
+  },
+  {
+    "slug": "nakama-rennes",
+    "name": "Nakama",
+    "name_ja": "なかま",
+    "area": "Rennes",
+    "address": "15 Rue Paul Bert, 35000 Rennes",
+    "phone": "+33223289674",
+    "phone_local": null,
+    "email": "nakamabar@hotmail.com",
+    "website": "https://nakama-bar-rennes.fr/",
+    "source_url": "https://nakama-bar-rennes.fr/",
+    "description": "レンヌ市内にある日本文化発信のバー＆レストラン。十時間煮込みスープのラーメン・おこのみやき・たこ焼き・から揚げなど本格日本料理を提供。",
+    "detail": "ブルターニュ地方レンヌのポール・ベール通りにある、日本文化をコンセプトにしたバー＆レストラン。十時間煮込んだスープのラーメンをはじめ、おこのみやき・たこ焼き・から揚げ・おにぎり・どんぶり等を提供。日本の日常食を体験できる数少ないレンヌの日本料理店。",
+    "menu": [
+      "ラーメン",
+      "おこのみやき",
+      "たこ焼き",
+      "から揚げ",
+      "おにぎり"
+    ],
+    "price_range": "€12〜25/人",
+    "tags": [
+      "ラーメン",
+      "日本文化",
+      "バー",
+      "Rennes"
+    ],
+    "hours": null,
+    "status": "verified",
+    "last_verified": "2026-04-12",
+    "source": "website",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null,
+    "place_reviewed": true,
+    "needs_review": false,
+    "japanese_staff": null
+  },
+  {
+    "slug": "nagoya-grenoble",
+    "name": "Nagoya",
+    "name_ja": "名古屋",
+    "area": "Grenoble",
+    "address": "7 Rue Jay, 38000 Grenoble",
+    "phone": null,
+    "phone_local": null,
+    "email": null,
+    "website": "https://nagoya-grenoble.fr/",
+    "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187264-d24106767-Reviews-Nagoya-Grenoble_Isere_Auvergne_Rhone_Alpes.html",
+    "description": "グルノーブル市内の日本料理レストラン。ベントー・ポケボウル・チラシ・温かい定食など、コスパ良い本格日本食ランチで地元日本食ファンに人気。",
+    "detail": "フランス南東部グルノーブルのジャイ通りにある日本料理レストラン。弁当・ポケボウル・チラシ寿司・温かい定食など、€10〜15前後の手頃な価格で本格的な日本の味を提供。地元の日本食ファンや日本人留学生・研究者に支持されている。公式サイトからオンライン注文も対応。",
+    "menu": [
+      "弁当",
+      "ポケボウル",
+      "チラシ寿司",
+      "定食"
+    ],
+    "price_range": "€10〜20/人",
+    "tags": [
+      "日本料理",
+      "弁当",
+      "Grenoble",
+      "コスパ"
+    ],
+    "hours": null,
+    "status": "verified",
+    "last_verified": "2026-04-12",
+    "source": "website",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null,
+    "place_reviewed": true,
+    "needs_review": false,
+    "japanese_staff": null
+  },
+  {
+    "slug": "ayako-sushi-grenoble",
+    "name": "Ayako Sushi",
+    "name_ja": "あやこ寿司",
+    "area": "Grenoble",
+    "address": "25 Rue Berthe de Boissieux, Centre Commercial Caserne de Bonne, 38000 Grenoble",
+    "phone": "+33476432867",
+    "phone_local": null,
+    "email": null,
+    "website": "https://grenoble.ayakosushi.fr/",
+    "source_url": "https://www.petitfute.co.uk/v35259-grenoble-38000/c1165-restaurants/c1031-cuisines-du-monde/c1035-cuisine-d-asie/c56-restaurant-japonais/701026-ayako-sushi.html",
+    "description": "グルノーブルのカゼルヌ・ド・ボンヌ商業施設内の寿司・日本料理店。毎日通し営業でテイクアウト・デリバリーにも対応する地元定番の日本食店。",
+    "detail": "グルノーブルの複合商業施設カゼルヌ・ド・ボンヌ内にある日本料理チェーン・アヤコスシのグルノーブル店。寿司・巻き物・サラダ・温かい定食等を提供。月〜日の通し営業（12〜15時・18〜23時）でテイクアウト・デリバリーにも対応。公式サイトからオンライン注文が可能。",
+    "menu": [
+      "寿司",
+      "マキ",
+      "サラダ",
+      "温かい定食"
+    ],
+    "price_range": "€12〜25/人",
+    "tags": [
+      "寿司",
+      "テイクアウト",
+      "Grenoble",
+      "ショッピングセンター"
+    ],
+    "hours": "毎日 12:00-15:00/18:00-23:00",
+    "status": "verified",
+    "last_verified": "2026-04-12",
+    "source": "website",
+    "place_id": "",
+    "priority": 0,
+    "ai_reviewed": true,
+    "rating": null,
+    "user_rating_count": null,
+    "price_level": null,
+    "photo_name": null,
+    "place_reviewed": true,
+    "needs_review": false,
+    "japanese_staff": null
+  },
+  {
+    "slug": "moutarde-wasabi-montpellier",
+    "name": "Moutarde & Wasabi",
+    "name_ja": "マスタード＆ワサビ",
+    "area": "Montpellier",
+    "address": "2 Rue Lamartine, 34000 Montpellier",
+    "phone": "+33467428421",
+    "phone_local": null,
+    "email": null,
+    "website": "http://www.moutarde-et-wasabi.fr/",
+    "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187153-d8855820-Reviews-Moutarde_Wasabi-Montpellier_Herault_Occitanie.html",
+    "description": "モンペリエの日本×フランスフュージョン料理レストラン。2015年創業。日本の職人技とフランス料理の感性を組み合わせたユニークな和洋折衷メニューが特徴。",
+    "detail": "モンペリエのラマルティーヌ通りに2015年にオープンした日本×フランスのフュージョン料理レストラン。日本の職人技法とフランス料理の感性を組み合わせ、創造的な和洋折衷料理を提供。ランチとディナーの2部制で毎日営業。モンペリエで本格的な日本食を楽しめる数少ない店のひとつ。",
+    "menu": [
+      "和洋折衷料理",
+      "日本料理フュージョン"
+    ],
+    "price_range": "€20〜40/人",
+    "tags": [
+      "フュージョン",
+      "日本料理",
+      "Montpellier"
+    ],
+    "hours": "12:00-14:00/19:00-22:00",
+    "status": "verified",
+    "last_verified": "2026-04-12",
+    "source": "web_search",
     "place_id": "",
     "priority": 0,
     "ai_reviewed": true,
