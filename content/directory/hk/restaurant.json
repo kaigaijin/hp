@@ -29819,9 +29819,9 @@
     "address": "Shop A236, 2/F, New Town Plaza Phase III, 2-8 Sha Tin Centre Street, Sha Tin",
     "lat": null,
     "lng": null,
-    "phone": null,
+    "phone": "+85227917100",
     "website": null,
-    "description": "新城市廣場内の回転寿司レストラン。九州直送の新鮮な魚介を使った寿司や海鮮丼が人気。セルフオーダーシステムで気軽に楽しめる。",
+    "description": "沙田新城市廣場内の回転寿司チェーン。九州の食材をイメージした市場スタイルで、寿司・刺身・海鮮丼・ラーメンを幅広く提供。ファミリー向け。",
     "tags": [
       "japanese",
       "sushi",
@@ -29842,7 +29842,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-ma-tst",
@@ -29852,9 +29853,9 @@
     "address": "20/F, 17-19 Ashley Road, Tsim Sha Tsui",
     "lat": null,
     "lng": null,
-    "phone": null,
+    "phone": "+85223147088",
     "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある日本料理・鮨店「Sushi Ma」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "尖沙咀アシュレーロードのビル20階にある日本料理レストラン。寿司・刺身を中心とした日本食を提供。在香港日本人・旅行者に利用されている。",
     "tags": [
       "寿司",
       "刺身"
@@ -29871,38 +29872,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushi-mamoru-oi-kwan",
-    "name": "Sushi Mamoru",
-    "name_ja": "鮨守",
-    "area": "Wan Chai",
-    "address": "Shop 2, G/F, 32 Oi Kwan Road, Wan Chai",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "三代目鮨職人・千葉弘文氏が率いるカウンター12席のおまかせ鮨店。ディナーセットはHK$2,480（恵）とHK$3,280（匠）。",
-    "tags": [
-      "寿司",
-      "おまかせ",
-      "江戸前鮨",
-      "高級和食"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-mamoru-wan-chai",
@@ -29912,7 +29883,7 @@
     "address": "Shop 2, G/F, 32 Oi Kwan Road, Wan Chai, Hong Kong",
     "phone": "+85221335700",
     "website": "https://www.sushimamoru.com/",
-    "description": "ワンチャイ（湾仔）にある千葉裕文シェフが握る本格江戸前鮨。カウンター8席・個室4席の完全予約制。厳選されたネタのおまかせコースを提供。",
+    "description": "湾仔にある千葉裕文シェフによる本格江戸前鮨のおまかせ専門店。カウンター8席・個室4席の完全予約制。伝統的な江戸前スタイルを守る鮨職人の店として知られる。",
     "tags": [
       "鮨",
       "おまかせ",
@@ -29929,7 +29900,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-man-tst",
@@ -29941,7 +29913,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある日本料理・鮨店「Sushi Man」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "尖沙咀にある寿司・刺身・おまかせを提供する日本料理店。日本産食材を使った本格的な鮨を楽しめる。在香港日本人・旅行者に利用されている。",
     "tags": [
       "寿司",
       "刺身",
@@ -29959,7 +29931,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-man-yuen-long",
@@ -29969,9 +29942,9 @@
     "address": "Shop E, G/F, Lee Fat House, 5 Yan Lok Square, Yuen Long",
     "lat": null,
     "lng": null,
-    "phone": null,
+    "phone": "+85222859477",
     "website": null,
-    "description": "ユンロン（元朗）にある日本料理・鮨店「Sushi Man」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "元朗にある食材の約90%を日本から直輸入する高級おまかせ鮨店。ウニ丼が特に人気で、北海道産など厳選食材を使用。日本食愛好家に支持されている。",
     "tags": [
       "寿司",
       "刺身",
@@ -29989,19 +29962,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-masa-central",
     "name": "Sushi Masa",
     "name_ja": "鮨 正",
     "area": "Central",
-    "address": "Central, Hong Kong",
+    "address": "5/F, CCB Tower, 3 Connaught Road Central, Central",
     "lat": null,
     "lng": null,
-    "phone": null,
+    "phone": "+85221311303",
     "website": null,
-    "description": "セントラル（中環）にある日本料理・鮨店「Sushi Masa」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "中環CCBタワー5階にあるミシュラン三つ星（2025年）の高級おまかせ鮨。藤沢正高シェフによる21席のカウンターで江戸前鮨を提供。豊洲直送の食材を使用。",
     "tags": [
       "寿司",
       "おまかせ",
@@ -30019,7 +29993,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-masa-sheung-wan",
@@ -30031,7 +30006,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "サンポ（上環）にある日本料理・鮨店「Sushi Masa」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "上環Jervois Streetにある寿司・刺身を提供する日本料理店。sushi-masa-centralとは別の店舗。在香港日本人・旅行者に利用されている。",
     "tags": [
       "寿司",
       "刺身"
@@ -30048,19 +30023,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-monster-ma-on-shan",
     "name": "Sushi Monster",
     "name_ja": "壽司怪獸",
     "area": "Ma On Shan",
-    "address": "Shop 33, G/F, Heng On Market, Heng On Shopping Centre, Ma On Shan",
+    "address": "Shop 33, G/F, Heng On Commercial Centre, 1 Hang Kam Street, Ma On Shan",
     "lat": null,
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "馬鞍山恆安市場内のリーズナブルな寿司店。新鮮なネタを使った寿司や刺身を手頃な価格で提供。市場内ならではのコスパの良さが魅力。",
+    "description": "馬鞍山恆安商業中心内のリーズナブルな寿司・刺身店。HK$51〜100のリーズナブルな価格帯で、地元住民にも人気。Food Wise Eateries認定店。",
     "tags": [
       "japanese",
       "sushi",
@@ -30080,63 +30056,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushi-mori-tomoaki-north-point",
-    "name": "Sushi Mori Tomoaki",
-    "name_ja": "鮨 森智明",
-    "area": "North Point",
-    "address": "North Point, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "ノースポイント（北角）にある日本料理・鮨店「Sushi Mori Tomoaki」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "寿司",
-      "おまかせ",
-      "日本人シェフ"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushi-nyoi",
-    "name": "Sushi Nyoi",
-    "name_ja": "鮨如意",
-    "area": "Causeway Bay",
-    "address": "18/F, The Sharp, 11 Sharp Street East, Causeway Bay",
-    "phone": null,
-    "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある日本料理・鮨店「Sushi Nyoi」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "寿司",
-      "おまかせ",
-      "眺望"
-    ],
-    "hours": "12:00〜14:30 / 18:00〜22:30",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-nyoi-causeway-bay",
@@ -30146,7 +30067,7 @@
     "address": "18/F, The Sharp, 11 Sharp Street East, Causeway Bay, Hong Kong",
     "phone": "+85223523368",
     "website": "https://www.sushinyoi.com/",
-    "description": "銅鑼湾のおまかせ寿司。季節の食材を日本から空輸し、カウンターで握りたてを提供。ランチ・ディナーともにおまかせコースのみ。",
+    "description": "銅鑼湾The Sharp18階のおまかせ寿司専門店。日本から毎日空輸した旬の食材を使い、ランチ・ディナーともにおまかせコースのみを提供。HK$1,480〜。",
     "tags": [
       "おまかせ",
       "要予約",
@@ -30162,7 +30083,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-raku-basehall-central",
@@ -30174,7 +30096,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "セントラル（中環）にある日本料理・鮨店「Sushi Raku BaseHall」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "中環BaseHall 02内の日本食スタンド。2025年12月新出店。サーモン握り（HK$15）から各種ロールまで手頃な価格で提供するカジュアルな鮨カウンター。",
     "tags": [
       "寿司",
       "刺身",
@@ -30192,7 +30114,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-raku-central",
@@ -30204,7 +30127,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "セントラル（中環）にある日本料理・鮨店「Sushi Raku」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "中環D'Aguilar Streetにある日本料理・鮨店。寿司・刺身・海鮮丼を提供し、在香港日本人やビジネス層に利用されているカジュアル〜ミドルレンジの日本食店。",
     "tags": [
       "寿司",
       "刺身",
@@ -30222,48 +30145,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushi-raku-ma-on-shan",
-    "name": "Sushi Raku",
-    "name_ja": "壽司樂",
-    "area": "Ma On Shan",
-    "address": "MOSTown Phase 4, Ma On Shan, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "マオンシャン（馬鞍山）にある馬鞍山MOSTown Phase 4の寿司・刺身レストラン。カジュアルな雰囲気で新鮮な寿司を楽しめる。",
-    "tags": [
-      "japanese",
-      "sushi",
-      "sashimi",
-      "ma-on-shan"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-raku-tai-koo",
     "name": "Sushi Raku Tai Koo",
     "name_ja": "寿司楽 太古店",
     "area": "Tai Koo",
-    "address": "Kornhill Plaza, Tai Koo, Hong Kong",
+    "address": "Shop L302, 3/F, AEON, Kornhill Plaza South, 1-2 Kornhill Road, Tai Koo",
     "phone": null,
     "website": null,
-    "description": "Tai Kooにある日本料理・鮨店「Sushi Raku Tai Koo」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "太古コーンヒルプラザのAEON内にある日本料理・鮨店。太古地区の日本人居住者にも利用されている寿司・刺身・洋食メニューが揃うレストラン。",
     "tags": [
       "寿司",
       "刺身"
@@ -30282,7 +30175,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-raku-tst",
@@ -30294,7 +30188,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある日本料理・鮨店「Sushi Raku」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "尖沙咀Granville Roadにある日本料理・鮨店。寿司・刺身を中心とした日本食メニューを提供し、在香港日本人・旅行者に利用されている。",
     "tags": [
       "寿司",
       "刺身"
@@ -30311,7 +30205,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-rin-sheung-wan",
@@ -30321,9 +30216,9 @@
     "address": "Shop D, G/F, 126-128 Jervois Street, Sheung Wan",
     "lat": null,
     "lng": null,
-    "phone": null,
+    "phone": "+85225671168",
     "website": null,
-    "description": "サンポ（上環）にある日本料理・鮨店「Sushi Rin」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "上環Jervois Streetにある2019年開業の江戸前おまかせ鮨店。TST店と合わせて2店舗展開。ランチおまかせHK$498〜、ディナーHK$1,680〜。在香港日本人にも人気。",
     "tags": [
       "寿司",
       "おまかせ",
@@ -30341,7 +30236,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-rin-tst",
@@ -30351,7 +30247,7 @@
     "address": "Shop 1, UG/F, H Zentre, 15 Middle Road, Tsim Sha Tsui, Hong Kong",
     "phone": "+85268812833",
     "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある尖沙咀H Zentre内の江戸前鮨店。日本から直送の新鮮なネタを使った伝統的な鮨おまかせを提供。ランチセットも充実。",
+    "description": "尖沙咀H Zentreにある江戸前おまかせ鮨店。Lap Leungシェフが10年以上のキャリアで培った技術で、北海道〜九州産の日本直送食材を使ったコースを提供。",
     "tags": [
       "鮨",
       "おまかせ",
@@ -30367,69 +30263,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushi-rin-tst-sushi",
-    "name": "Sushi Rin",
-    "name_ja": "鮨凛",
-    "area": "Tsim Sha Tsui",
-    "address": "UG/F, H Zentre, 15 Middle Road, Tsim Sha Tsui",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある日本料理・鮨店「Sushi Rin」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "寿司",
-      "おまかせ",
-      "江戸前鮨"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushi-saito-four-seasons",
-    "name": "Sushi Saito",
-    "name_ja": "鮨さいとう",
-    "area": "Central",
-    "address": "45/F, Four Seasons Hotel Hong Kong, 8 Finance Street, Central",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.fourseasons.com/hongkong/dining/restaurants/sushi-saito/",
-    "description": "東京の名店「鮨さいとう」の海外唯一の支店。豊洲市場から毎日空輸される厳選食材を使用した江戸前鮨のおまかせコースを提供。2026年ミシュランガイドでは星を失った。",
-    "tags": [
-      "寿司",
-      "おまかせ",
-      "江戸前鮨",
-      "高級和食",
-      "ホテルレストラン"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-saito-hk",
@@ -30439,7 +30274,7 @@
     "address": "Four Seasons Hotel, 8 Finance Street, Central, Hong Kong",
     "phone": "+85231968882",
     "website": null,
-    "description": "セントラル（中環）にある東京で三つ星を獲得した鮨さいとうの香港店。フォーシーズンズホテル内で本格江戸前寿司を提供。完全予約制。",
+    "description": "中環フォーシーズンズホテル内にある東京の名店「鮨さいとう」の海外唯一の支店。豊洲市場から毎日空輸の厳選食材で江戸前寿司おまかせを提供。完全予約制。",
     "tags": [
       "おまかせ",
       "高級",
@@ -30455,7 +30290,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-sakae-wan-chai",
@@ -30467,7 +30303,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ワンチャイ（湾仔）にある日本料理・鮨店「Sushi Sakae」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "湾仔181 Johnston Road（太有大廈）2階にある日本料理・寿司店。ファミリースタイルの食事が楽しめるカジュアルな日本食店として在香港日本人にも親しまれている。",
     "tags": [
       "寿司",
       "刺身"
@@ -30484,7 +30320,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-sashimi-shop-jordan",
@@ -30494,9 +30331,9 @@
     "address": "G/F, 112 Shanghai Street, Jordan",
     "lat": null,
     "lng": null,
-    "phone": null,
+    "phone": "+85235861503",
     "website": null,
-    "description": "ジョーダン（佐敦）にある日本料理・鮨店「Sushi Sashimi Shop」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "佐敦Shanghai Street沿いの小さな日本式寿司・刺身テイクアウト専門店。4席のみで11:30〜深夜まで営業。foodpandaで4.7評価・1,050件超のレビューを持つ人気店。",
     "tags": [
       "寿司",
       "刺身"
@@ -30513,19 +30350,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-sashimi-shop-mong-kok",
     "name": "Sushi Sashimi Shop",
     "name_ja": "寿司 サシミ ショップ",
     "area": "Mong Kok",
-    "address": "Mong Kok, Kowloon",
+    "address": "Shop 5, G/F, Sun Ming Building, 488 Shanghai Street, Mong Kok",
     "lat": null,
     "lng": null,
-    "phone": null,
+    "phone": "+85231840798",
     "website": null,
-    "description": "モンコック（旺角）にある日本料理・鮨店「Sushi Sashimi Shop」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "旺角Shanghai Streetにある日本式寿司・刺身テイクアウト専門店。HK$50以下のリーズナブルな価格帯で、11:30〜23:30営業。MTR旺角駅E1出口徒歩4分。",
     "tags": [
       "sushi",
       "sashimi",
@@ -30544,7 +30382,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-senju-tko-popcorn",
@@ -30556,7 +30395,7 @@
     "lng": null,
     "phone": null,
     "website": "https://lubuds.com/sushi-senju-popcorn-tseung-kwan-o/",
-    "description": "ツェンクワンオー（将軍澳）にある日本料理・鮨店「Sushi Senju (PopCorn)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "将軍澳PopCornショッピングモール内にある日本食レストランチェーン「鮨千寿」。LUBUDS Groupが運営し、寿司・刺身に加え炉端焼き・天ぷら・創作和食も提供。",
     "tags": [
       "寿司",
       "日本料理"
@@ -30573,7 +30412,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-senju-tuen-mun-tmtplaza",
@@ -30585,7 +30425,7 @@
     "lng": null,
     "phone": null,
     "website": "https://lubuds.com/sushi-senju-tmtplaza-tuen-mun/",
-    "description": "トゥンムン（屯門）にある日本料理・鮨店「Sushi Senju (tmtplaza)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "屯門tmtplaza1階にある日本食レストランチェーン「鮨千寿」。LUBUDS Groupが運営し、寿司・刺身に加え炉端焼き・天ぷら・創作和食も提供。新界北西部エリアでの利用に便利。",
     "tags": [
       "寿司",
       "日本料理"
@@ -30602,7 +30442,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-shari-causeway-bay",
@@ -30614,7 +30455,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある日本料理・鮨店「Sushi Shari」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "銅鑼湾Lan Fong Roadにあるおまかせ鮨店。L字型カウンター10席のみ。ランチおまかせHK$1,180〜の高級寿司店。香港グルメガイドにも掲載されている実力店。",
     "tags": [
       "寿司",
       "おまかせ"
@@ -30631,7 +30472,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-shiawase-sai-ying-pun",
@@ -30643,7 +30485,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "サイインプン（西營盤）にある日本料理・鮨店「Sushi Shiawase」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "西營盤Queen's Road West沿いにある居酒屋スタイルの日本食店。寿司・刺身・うどんをカジュアルに楽しめる。セルフ選択式の寿司セットが好評でTripAdvisor4.7評価。",
     "tags": [
       "寿司",
       "居酒屋",
@@ -30661,7 +30503,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-shikon",
@@ -30671,7 +30514,7 @@
     "address": "7/F, The Landmark Mandarin Oriental, 15 Queen's Road Central, Hong Kong",
     "phone": "+85226436800",
     "website": "https://sushi-shikon.com/",
-    "description": "ミシュラン三つ星を10年以上維持する本格江戸前鮨の名店。銀座スタイルのおまかせコースをカウンター席で提供。ランドマーク・マンダリンオリエンタル内。",
+    "description": "中環ランドマーク・マンダリンオリエンタル7階のミシュラン三つ星江戸前鮨。カウンター8席・完全予約制。ヒノキ製カウンターで握るおまかせのみ。日本語対応可。",
     "tags": [
       "ミシュラン三つ星",
       "おまかせ",
@@ -30690,39 +30533,8 @@
     "price_level": null,
     "photo_name": null,
     "detail": "MTR中環駅から徒歩3分、ランドマーク・マンダリンオリエンタル7階に構える本格江戸前鮨。ミシュラン三つ星を13年連続受賞し、樹齢300年以上のヒノキ製カウンターで職人が握るおまかせコースのみ。日本から毎日空輸の旬の食材を使用。完全予約制。日本語可。",
-    "price_range": "HKD 3,000〜/人（おまかせコース）"
-  },
-  {
-    "slug": "sushi-shikon-landmark",
-    "name": "Sushi Shikon",
-    "name_ja": "鮨志魂",
-    "area": "Central",
-    "address": "7/F, The Landmark Mandarin Oriental, 15 Queen's Road Central, Central",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "ミシュラン三つ星を獲得した江戸前鮨の名店。カウンター8席のみの完全予約制おまかせスタイル。三代目鮨職人・柿沼良晴氏が率いる。",
-    "tags": [
-      "寿司",
-      "おまかせ",
-      "ミシュラン三つ星",
-      "江戸前鮨",
-      "高級和食"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "price_range": "HKD 3,000〜/人（おまかせコース）",
+    "place_reviewed": true
   },
   {
     "slug": "sushi-shin-north-point",
@@ -30734,7 +30546,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.sushishin.com/",
-    "description": "ノースポイント（北角）にある日本料理・鮨店「Sushi Shin」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "北角AIAタワー内にある日本料理・おまかせ鮨店。公式サイト（sushishin.com）あり。北角在住の日本人コミュニティや日本食愛好家に利用されている。",
     "tags": [
       "寿司",
       "おまかせ"
@@ -30751,7 +30563,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-shin-tai-hang",
@@ -30763,7 +30576,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.sushishin.com/",
-    "description": "Tai Hangにある日本料理・鮨店「Sushi Shin」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "太坑（Tai Hang）のWing Hing Court内にある日本料理・おまかせ鮨店。北角店と同じsushishin.comブランド。銅鑼湾近郊の日本食愛好家に人気。",
     "tags": [
       "寿司",
       "おまかせ"
@@ -30780,37 +30593,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushi-sooshi-tst",
-    "name": "Sushi Sooshi",
-    "name_ja": "鮨廷",
-    "area": "Tsim Sha Tsui",
-    "address": "Shop B, G/F, 17 Cameron Road, Tsim Sha Tsui",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある立ち食いスタイルとクリエイティブな創作寿司を融合させた鮨店。築地出身のシェフが率い、日本直送の食材を使用。予約不可。",
-    "tags": [
-      "寿司",
-      "おまかせ",
-      "立ち食い寿司"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-sumi-happy-valley",
@@ -30822,7 +30606,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ハッピーバレー（跑馬地）にある日本料理・鮨店「Sushi Sumi」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "跑馬地Cheong Ming Streetにある日本料理・鮨店。寿司・刺身を提供するカジュアルな日本食店。日本人居住者も多い跑馬地エリアにあり、在香港日本人にも利用されている。",
     "tags": [
       "寿司",
       "刺身"
@@ -30839,36 +30623,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushi-ta-ke-causeway-bay",
-    "name": "Sushi Ta-ke",
-    "name_ja": "鮨 竹",
-    "area": "Causeway Bay",
-    "address": "Causeway Bay, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある日本料理・鮨店「Sushi Ta-ke」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "寿司",
-      "おまかせ"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-tachi-causeway-bay",
@@ -30880,7 +30636,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある日本料理・鮨店「Sushi Tachi」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "銅鑼湾Tower 535内にある「立鮨」のカジュアル立ち食い寿司店。築地仕入れの新鮮なネタと福井県産米を使用。香港初の立ち食いスタイルで手頃な価格帯が特徴。",
     "tags": [
       "寿司",
       "立ち食い寿司"
@@ -30897,7 +30653,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-tachi-mira-place-tst",
@@ -30909,7 +30666,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある日本料理・鮨店「Sushi Tachi」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "尖沙咀Mira Place 1の3階にある「立鮨」のカジュアル立ち食い寿司店。築地仕入れの新鮮なネタと福井県産米を使用。リーズナブルな価格帯で気軽に楽しめる。",
     "tags": [
       "寿司",
       "刺身"
@@ -30926,7 +30683,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-tachi-mong-kok",
@@ -30938,7 +30696,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "モンコック（旺角）にある日本料理・鮨店「Sushi Tachi」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "旺角Soy Streetにある「立鮨」のカジュアル立ち食い寿司店。2026年3月のYelp情報でも営業確認済み。築地仕入れの新鮮なネタをリーズナブルな価格で提供。",
     "tags": [
       "寿司",
       "立ち食い寿司"
@@ -30955,7 +30713,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-tachi-tai-po",
@@ -30967,7 +30726,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "タイポー（大埔）にある日本料理・鮨店「Sushi Tachi」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "大埔メガモール内にある「立鮨」のカジュアル立ち食い寿司店。新界北部エリアで手軽に日本式立ち食い寿司を楽しめる。築地仕入れの新鮮なネタを使用。",
     "tags": [
       "寿司",
       "立ち食い寿司"
@@ -30984,7 +30743,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-tachi-tst-sushi",
@@ -30996,7 +30756,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある香港初の立ち食い寿司バー。2018年尖沙咀に1号店開業。築地から仕入れた新鮮な魚と福井県産の米を使用。手頃な価格帯。",
+    "description": "尖沙咀Cameron Plazaにある「立鮨」の1号店。2018年開業の香港初立ち食い寿司バー。築地仕入れの新鮮なネタと福井県産米を使用。手頃な価格帯で日本人旅行者にも人気。",
     "tags": [
       "寿司",
       "立ち食い寿司"
@@ -31013,7 +30773,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-taka-tai-koo",
@@ -31025,7 +30786,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Tai Kooにある日本料理・鮨店「Sushi Taka」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "太古Cityplaza内にある、東京ミシュラン三つ星「鮨さいとう」の姉妹店。日本産食材を使い、高級鮨をよりリーズナブルに体験できる店として太古在住日本人にも支持されている。",
     "tags": [
       "寿司"
     ],
@@ -31041,7 +30802,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-take-out-mong-kok-mtr",
@@ -31053,7 +30815,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "モンコック（旺角）にある日本料理・鮨店「Sushi Take-Out」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "旺角東MTR駅構内にある日本式寿司テイクアウト専門店。駅直結で立ち寄りやすく、リーズナブルな価格帯の寿司を手軽に購入できる。旺角エリアの日本食需要に応える。",
     "tags": [
       "寿司"
     ],
@@ -31069,7 +30831,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-take-out-sheung-wan",
@@ -31081,7 +30844,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "サンポ（上環）にある日本料理・鮨店「Sushi Take-Out」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "上環Midland Centre内にある日本式寿司テイクアウト専門店。リーズナブルな価格帯で寿司・刺身を提供。上環エリアのビジネス層や在香港日本人が利用しやすい立地。",
     "tags": [
       "寿司"
     ],
@@ -31097,7 +30860,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-take-out-wan-chai",
@@ -31109,7 +30873,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ワンチャイ（湾仔）にある日本料理・鮨店「Sushi Take-Out」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "湾仔Nam Hoi Buildingにある日本式寿司テイクアウト専門店。リーズナブルな価格帯で寿司を提供。湾仔エリアの在香港日本人やビジネス層が利用しやすい立地。",
     "tags": [
       "寿司"
     ],
@@ -31125,7 +30889,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-takeshi-mira",
@@ -31137,7 +30902,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.themirahotel.com/hong-kong/en/dining/sushi-takeshi/",
-    "description": "元「鮨わだつみ」チームが開いたミシュラン一つ星（2026年新規取得）の江戸前鮨おまかせ。完全予約制でランチ・ディナーのおまかせコースを提供。",
+    "description": "尖沙咀ミラホテル内にあるミシュラン一つ星（2026年新規取得）の江戸前鮨おまかせ専門店。元「鮨わだつみ」チームが開いた店で、完全予約制のランチ・ディナーコースを提供。",
     "tags": [
       "寿司",
       "おまかせ",
@@ -31157,7 +30922,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-tei-tuen-mun",
@@ -31169,7 +30935,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "トゥンムン（屯門）にある屯門の住宅街にある寿司専門店。新鮮な刺身と握り寿司を手頃な価格で提供。地元住民に長年愛されている老舗。",
+    "description": "屯門Tsing Sin Streetにある地元密着型の寿司専門店。新鮮な刺身と握り寿司を手頃な価格で提供し、屯門在住の日本人にも利用されているカジュアルな日本食店。",
     "tags": [
       "japanese",
       "sushi",
@@ -31188,7 +30954,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-tokami-harbour-city",
@@ -31200,7 +30967,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある日本料理・鮨店「Sushi Tokami」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "尖沙咀海港城Ocean Centre2階にある東京銀座の名店「鮨とかみ」の香港店。かつてミシュラン一つ星を獲得。現在一時休業中のため、訪問前に公式情報を確認推奨。",
     "tags": [
       "寿司",
       "おまかせ",
@@ -31219,7 +30986,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-tokumi-hung-hom",
@@ -31231,7 +30999,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "フンホム（紅磡）にある日本料理・鮨店「Sushi Tokumi」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "紅磡黄埔花園内のTak Man Streetにある日本式寿司・刺身レストラン。ローカルにも人気のOpenRiceに多数のレビューが集まる「德美壽司」。手頃な価格帯で日常使いにも便利。",
     "tags": [
       "寿司",
       "刺身"
@@ -31248,7 +31016,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-tokumi-metro-city-tko",
@@ -31260,7 +31029,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ツェンクワンオー（将軍澳）にある日本料理・鮨店「Sushi Tokumi」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "将軍澳メトロシティプラザ内にある日本式寿司・刺身レストラン「德美壽司」。紅磡本店と同系列で、新界東エリアで手軽に日本式寿司を楽しめる。",
     "tags": [
       "寿司",
       "刺身"
@@ -31277,7 +31046,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-tokumi-tst",
