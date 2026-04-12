@@ -115,6 +115,10 @@ function getDailySeed(): number {
 /**
  * プレイス一覧をパーソナライズスコア順に並び替える
  * スコアが同じ場合は日次シードで疑似ランダム
+ *
+ * フィルターバブル防止:
+ *   上位33%はスコア順、残り67%はランダム混入
+ *   （寿司ばかり見ても寿司しか出ない状態を防ぐ）
  */
 export function rankPlaces<T extends RankablePlace>(
   places: T[],
@@ -133,5 +137,10 @@ export function rankPlaces<T extends RankablePlace>(
   // スコア降順 → 乱数降順
   withScore.sort((a, b) => b.score - a.score || b.r - a.r);
 
-  return withScore.map((x) => x.place);
+  // フィルターバブル防止: 上位1/3のみパーソナライズ、残りはランダム混入
+  const personalizedCount = Math.ceil(places.length / 3);
+  const personalized = withScore.slice(0, personalizedCount);
+  const rest = withScore.slice(personalizedCount).sort((a, b) => b.r - a.r);
+
+  return [...personalized, ...rest].map((x) => x.place);
 }
