@@ -33869,5 +33869,197 @@
     ],
     "japanese_staff": null,
     "place_reviewed": true
+  },
+  {
+    "slug": "genki-sushi-ngee-ann-city",
+    "name": "Genki Sushi (Ngee Ann City)",
+    "name_ja": "元気寿司 Ngee Ann City店",
+    "area": "Orchard",
+    "address": "391 Orchard Road, Ngee Ann City, #B2-25/26, Singapore 238872",
+    "phone": "+6569572730",
+    "website": "https://www.genkisushi.com.sg",
+    "description": "Ngee Ann City（高島屋）B2の元気寿司。Orchard駅直結の高島屋地下に位置し、ショッピング中のランチ・ディナーに便利。高速レール配送システムで注文した寿司が席まで届く。",
+    "tags": [
+      "回転寿司",
+      "チェーン",
+      "Orchard"
+    ],
+    "hours": "月〜日: 11:00〜22:00",
+    "status": "unverified",
+    "last_verified": "2026-04-12",
+    "source": "website",
+    "menu": [
+      {
+        "name": "握り寿司各種",
+        "price": "要確認",
+        "category": "寿司"
+      },
+      {
+        "name": "炙り寿司各種",
+        "price": "要確認",
+        "category": "寿司"
+      }
+    ],
+    "price_range": "SGD 3〜10/皿程度"
+  },
+  {
+    "slug": "genki-sushi-city-square-mall",
+    "name": "Genki Sushi (City Square Mall)",
+    "name_ja": "元気寿司 City Square Mall店",
+    "area": "Little India",
+    "address": "180 Kitchener Road, City Square Mall, #02-37/38, Singapore 208539",
+    "phone": null,
+    "website": "https://www.genkisushi.com.sg",
+    "description": "City Square Mall（Farrer Park駅直結）2階の元気寿司。Farrer Park MRT駅に直結したショッピングモール内。高速レール配送システムを採用した回転寿司チェーン。",
+    "tags": [
+      "回転寿司",
+      "チェーン"
+    ],
+    "hours": "月〜日: 11:00〜22:00",
+    "status": "unverified",
+    "last_verified": "2026-04-12",
+    "source": "website",
+    "menu": [
+      {
+        "name": "握り寿司各種",
+        "price": "要確認",
+        "category": "寿司"
+      },
+      {
+        "name": "炙り寿司各種",
+        "price": "要確認",
+        "category": "寿司"
+      }
+    ],
+    "price_range": "SGD 3〜10/皿程度"
+  },
+  {
+    "slug": "genki-sushi-pasir-ris-mall",
+    "name": "Genki Sushi (Pasir Ris Mall)",
+    "name_ja": "元気寿司 Pasir Ris Mall店",
+    "area": "Pasir Ris",
+    "address": "7 Pasir Ris Central, Pasir Ris Mall, #B1-33, Singapore 519603",
+    "phone": "+6569939189",
+    "website": "https://www.genkisushi.com.sg",
+    "description": "Pasir Ris Mall地下1階の元気寿司。Pasir Ris MRT駅に近い東部エリアの店舗。高速レール配送システムを採用。平日・週末で営業時間が異なる。",
+    "tags": [
+      "回転寿司",
+      "チェーン",
+      "Pasir Ris"
+    ],
+    "hours": "月〜木: 11:00〜21:00 / 金〜日: 11:00〜22:00",
+    "status": "unverified",
+    "last_verified": "2026-04-12",
+    "source": "website",
+    "menu": [
+      {
+        "name": "握り寿司各種",
+        "price": "要確認",
+        "category": "寿司"
+      },
+      {
+        "name": "炙り寿司各種",
+        "price": "要確認",
+        "category": "寿司"
+      }
+    ],
+    "price_range": "SGD 3〜10/皿程度"
+  },
+  {
+    "slug": "genki-sushi-woodleigh-mall",
+    "name": "Genki Sushi (The Woodleigh Mall)",
+    "name_ja": "元気寿司 The Woodleigh Mall店",
+    "area": "Woodleigh",
+    "address": "11 Bidadari Park Drive, The Woodleigh Mall, #01-31, Singapore 367803",
+    "phone": null,
+    "website": "https://www.genkisushi.com.sg",
+    "description": "The Woodleigh Mall（Woodleigh MRT駅直結）1階の元気寿司。2022年開業の新しいモールに入る店舗。高速レール配送システムを採用した回転寿司。",
+    "tags": [
+      "回転寿司",
+      "チェーン",
+      "Woodleigh"
+    ],
+    "hours": "月〜日: 12:00〜15:00 / 18:00〜21:00",
+    "status": "unverified",
+    "last_verified": "2026-04-12",
+    "source": "website",
+    "menu": [
+      {
+        "name": "握り寿司各種",
+        "price": "要確認",
+        "category": "寿司"
+      },
+      {
+        "name": "炙り寿司各種",
+        "price": "要確認",
+        "category": "寿司"
+      }
+    ],
+    "price_range": "SGD 3〜10/皿程度"
+  },
+  {
+    "slug": "genki-sushi-singpost-centre",
+    "name": "Genki Sushi (SingPost Centre)",
+    "name_ja": "元気寿司 SingPost Centre店",
+    "area": "Paya Lebar",
+    "address": "10 Eunos Road 8, SingPost Centre, #01-139, Singapore 408600",
+    "phone": "+6569937664",
+    "website": "https://www.genkisushi.com.sg",
+    "description": "SingPost Centre（Paya Lebar MRT駅近く）1階の元気寿司。東部Paya Lebarエリアに位置。高速レール配送システムを採用した回転寿司チェーン。",
+    "tags": [
+      "回転寿司",
+      "チェーン",
+      "Paya Lebar"
+    ],
+    "hours": "月〜日: 11:00〜21:30",
+    "status": "unverified",
+    "last_verified": "2026-04-12",
+    "source": "website",
+    "menu": [
+      {
+        "name": "握り寿司各種",
+        "price": "要確認",
+        "category": "寿司"
+      },
+      {
+        "name": "炙り寿司各種",
+        "price": "要確認",
+        "category": "寿司"
+      }
+    ],
+    "price_range": "SGD 3〜10/皿程度"
+  },
+  {
+    "slug": "genki-sushi-united-square",
+    "name": "Genki Sushi (United Square)",
+    "name_ja": "元気寿司 United Square店",
+    "area": "Novena",
+    "address": "101 Thomson Road, United Square, #B1-07/08, Singapore 307591",
+    "phone": "+6569939786",
+    "website": "https://www.genkisushi.com.sg",
+    "description": "United Square（Novena MRT駅近く）地下1階の元気寿司。子ども向け施設が充実したUnited Square内に位置し、家族連れにも利用しやすい。高速レール配送システム採用。",
+    "tags": [
+      "回転寿司",
+      "チェーン",
+      "Novena",
+      "家族向け"
+    ],
+    "hours": "月〜金: 11:00〜22:00 / 土日: 10:30〜22:00",
+    "status": "unverified",
+    "last_verified": "2026-04-12",
+    "source": "website",
+    "menu": [
+      {
+        "name": "握り寿司各種",
+        "price": "要確認",
+        "category": "寿司"
+      },
+      {
+        "name": "炙り寿司各種",
+        "price": "要確認",
+        "category": "寿司"
+      }
+    ],
+    "price_range": "SGD 3〜10/皿程度"
   }
 ]
