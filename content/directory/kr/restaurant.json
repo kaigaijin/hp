@@ -7258,42 +7258,6 @@
     "place_reviewed": true
   },
   {
-    "slug": "salmon-bowl-gangnam",
-    "name": "江南 サーモン丼",
-    "name_ja": "江南 サーモン丼",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Gangnam",
-    "address": "서울 강남구 신논현 서울",
-    "lat": 37.504,
-    "lng": 127.0246,
-    "phone": "",
-    "website": "",
-    "description": "江南・新論峴エリアのサーモン丼専門店。ノルウェー産の新鮮なサーモンを使ったサーモン丼がメイン。漬けサーモン・炙りサーモン・ミックスなどのバリエーションがあり、酢飯との相性も抜群。ランチの丼飯として人気が高く、テイクアウトも多い。",
-    "price_range": "₩₩",
-    "hours": "11:00-21:00",
-    "closed_days": "日曜",
-    "languages": [
-      "ko"
-    ],
-    "tags": [
-      "サーモン丼",
-      "江南",
-      "丼"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
     "slug": "saru-kame-ramen-hongdae",
     "name": "Saru Kame",
     "name_ja": "サルカメ",
@@ -7301,7 +7265,7 @@
     "address": "Mapo-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "ミシュランガイドソウル2024で選出された弘大の海鮮ベースラーメン店。あっさりとした魚介出汁のスープが特徴で、日本人にも高評価。",
+    "description": "弘大エリアにある日本式ラーメン店。魚介出汁ベースのあっさりスープが特徴で、2024年ミシュランガイドソウルに選出。日本人にも高評価の人気店。",
     "tags": [
       "ラーメン",
       "魚介",
@@ -7317,7 +7281,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sarukame-ramen-yeonnam",
@@ -7327,7 +7292,7 @@
     "address": "Yeonnam-dong, Mapo-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "2024年ミシュラン選定の手打ちラーメン店。日本各地の希少な醤油を輸入し独自にブレンドした醤油ラーメンが看板。延南洞の人気エリアに位置。",
+    "description": "延南洞の手打ちラーメン店。日本各地から輸入した希少な醤油をブレンドした醤油ラーメンが看板で、2024年ミシュランガイドソウル掲載。",
     "tags": [
       "ラーメン",
       "醤油",
@@ -7343,120 +7308,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sashimi-gangnam-premium",
-    "name": "江南 プレミアム刺身",
-    "name_ja": "江南 プレミアム刺身",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Gangnam",
-    "address": "서울 강남구 청담동 서울",
-    "lat": 37.5233,
-    "lng": 127.0443,
-    "phone": "",
-    "website": "",
-    "description": "江南・清潭洞の高級海鮮料理レストラン。築地・仁川から直送される最高品質の刺身をコース形式で提供。マグロ・ウニ・牡蠣・キャビアなど希少な食材を日本式の技法で調理する。接待・記念日・特別なディナーに最適な、ソウル屈指の本格刺身体験。",
-    "price_range": "₩₩₩₩",
-    "hours": "17:30-22:00",
-    "closed_days": "月曜",
-    "languages": [
-      "ja",
-      "ko"
-    ],
-    "tags": [
-      "刺身",
-      "清潭洞",
-      "高級",
-      "日本語対応"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sashimi-incheon",
-    "name": "仁川 刺身",
-    "name_ja": "仁川 刺身",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Incheon",
-    "area": "Incheon",
-    "address": "인천 중구 신포동 인천",
-    "lat": 37.4738,
-    "lng": 126.63,
-    "phone": "",
-    "website": "",
-    "description": "仁川・新浦洞エリアの刺身専門店。仁川港から直送される新鮮な魚介を使った刺身の盛り合わせが看板。マグロ・カレイ・サザエ・ホタテなど港町ならではの豊富な種類が揃う。日本人旅行者や在住者が仁川で和食を楽しむ際に訪れる信頼の一軒。",
-    "price_range": "₩₩₩",
-    "hours": "11:30-22:00",
-    "closed_days": "月曜",
-    "languages": [
-      "ko"
-    ],
-    "tags": [
-      "刺身",
-      "仁川",
-      "港",
-      "新鮮"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sashimi-restaurant-jamsil",
-    "name": "蚕室 刺身レストラン",
-    "name_ja": "蚕室 刺身レストラン",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Jamsil",
-    "address": "서울 송파구 잠실동 서울",
-    "lat": 37.5124,
-    "lng": 127.0994,
-    "phone": "",
-    "website": "",
-    "description": "蚕室エリアの新鮮な刺身専門レストラン。釜山から直送される鮮魚を使ったお刺身の盛り合わせが評判で、マグロ・ヒラメ・タコなどが揃う。日本式の醤油とわさびで食べるスタイルを採用し、日本人がお刺身を食べたい時に訪れる一軒として知られている。",
-    "price_range": "₩₩₩",
-    "hours": "11:30-22:00",
-    "closed_days": "月曜",
-    "languages": [
-      "ja",
-      "ko"
-    ],
-    "tags": [
-      "刺身",
-      "海鮮",
-      "蚕室",
-      "日本語対応"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "schaetzle-gangnam",
@@ -7466,7 +7319,7 @@
     "address": "521 Teheran-ro, Gangnam-gu, Seoul, B1",
     "phone": null,
     "website": null,
-    "description": "日本の人気スイーツブランド「シャトレーゼ」の韓国店舗。チーズタルト、ミルククレープケーキ、バウムクーヘンなど日本でも大人気の商品が揃う。北海道産クリームチーズを使った商品は特に人気で、在韓日本人にとって馴染みの味が楽しめる。",
+    "description": "日本の人気スイーツブランド「シャトレーゼ」の韓国店舗。北海道産クリームチーズを使ったチーズタルトやバウムクーヘン、ミルククレープケーキなど日本の定番スイーツが揃う。",
     "tags": [
       "スイーツ",
       "日本ブランド",
@@ -7482,45 +7335,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "seafood-restaurant-incheon",
-    "name": "仁川 海鮮料理",
-    "name_ja": "仁川 海鮮料理",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Incheon",
-    "area": "Incheon",
-    "address": "인천 중구 항동 인천",
-    "lat": 37.4762,
-    "lng": 126.6175,
-    "phone": "",
-    "website": "",
-    "description": "仁川港エリアの新鮮な海鮮料理専門店。仁川港から直送される魚介を使った刺身・焼き魚・海鮮丼が評判。日本人が経営するお店で、日本風の調理法と韓国の新鮮な食材を組み合わせたメニューが好評。仁川空港からのアクセスも良く、出張帰りの食事にも最適。",
-    "price_range": "₩₩₩",
-    "hours": "11:30-22:00",
-    "closed_days": "月曜",
-    "languages": [
-      "ja",
-      "ko"
-    ],
-    "tags": [
-      "海鮮料理",
-      "仁川",
-      "日本語対応",
-      "港"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sekai-no-hate-ramen",
@@ -7532,7 +7348,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "合井駅すぐの日本式ラーメン店。「大阪ブラック」と名付けられた濃い醤油ラーメンが看板メニュー。鶏肉や煮卵の具材が豊富で、Sサイズ約550円からとリーズナブル。替え玉・ご飯が約50円で追加可能。売切次第閉店。",
+    "description": "合井駅すぐの日本式ラーメン店。「大阪ブラック」と呼ぶ濃い醤油ラーメンが看板で、鶏肉・煮卵の具材が豊富。替え玉・ご飯も追加可能で、売り切れ次第閉店。",
     "tags": [
       "ラーメン",
       "醤油"
@@ -7549,109 +7365,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "seogjong-omakase-mapo",
-    "name": "Seogjong",
-    "name_ja": "ソクチョンオマカセ",
-    "area": "Mapo-gu (Donggyo)",
-    "address": "Donggyo-dong, Mapo-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "東橋洞の日本式おまかせ寿司店「ソクチョンオマカセ」。季節の魚に焦点を当てた本格的なおまかせコースを提供し、デートにも対応。",
-    "tags": [
-      "寿司",
-      "おまかせ"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "set-meal-yangcheon",
-    "name": "陽川 定食屋",
-    "name_ja": "陽川 定食屋",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Yangcheon",
-    "address": "서울 양천구 목동 서울",
-    "lat": 37.527,
-    "lng": 126.874,
-    "phone": "",
-    "website": "",
-    "description": "陽川・木洞エリアにある定食専門の和食屋。このエリアに住む日本人駐在員ファミリーに長年親しまれてきた。焼き魚・煮物・お味噌汁などの日本式定食を手頃な価格で毎日提供。子供向けのメニューもあり、ファミリーで通えるアットホームな雰囲気が魅力。",
-    "price_range": "₩₩",
-    "hours": "11:00-21:00",
-    "closed_days": "月曜",
-    "languages": [
-      "ja",
-      "ko"
-    ],
-    "tags": [
-      "定食",
-      "陽川",
-      "木洞",
-      "日本語対応",
-      "ファミリー"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "seusiya-jongno",
-    "name": "Seusiya",
-    "name_ja": "スシヤ",
-    "area": "Jongno-gu",
-    "address": "Jongno-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "鍾路エリアの日本料理店「スシヤ」。刺身コースから鍋料理まで多彩な日本料理を提供し、盛り合わせ寿司が看板メニューの店の日本式専門店。",
-    "tags": [
-      "寿司",
-      "刺身",
-      "鍋"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shabu-no-1-seomyeon",
     "name": "Shabu No.1 Seomyeon",
     "name_ja": "しゃぶNo.1 西面",
     "area": "Busan",
-    "address": "534-2 Bujeon-dong, Busanjin District, Busan, South Korea",
+    "address": "534-2 Bujeon-dong, Busanjin-gu, Busan",
     "lat": 35.1514,
     "lng": 129.0582,
     "phone": "+8250714554902",
     "website": "https://app.catchtable.co.kr/ct/shop/shabunumber1?from=share&type=WAITING",
-    "description": "釜山・西面にある日本式しゃぶしゃぶ専門店「しゃぶNo.1 西面」。新鮮な牛肉と野菜を特製だしで楽しめる日本式しゃぶしゃぶ店。",
+    "description": "釜山・西面にある日本式しゃぶしゃぶ専門店。新鮮な牛肉と野菜を特製だしで楽しめる本格的なスタイルで、釜山の日本食ファンに支持されている。",
     "tags": [
       "しゃぶしゃぶ",
       "釜山"
@@ -7668,123 +7395,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "shabu-shabu-gangnam",
-    "name": "江南 しゃぶしゃぶ",
-    "name_ja": "江南 しゃぶしゃぶ",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Gangnam",
-    "address": "서울 강남구 논현동 서울",
-    "lat": 37.5117,
-    "lng": 127.0282,
-    "phone": "",
-    "website": "",
-    "description": "江南エリアの日本式しゃぶしゃぶ専門店。昆布だしベースのだしで薄切り牛・豚・野菜をしゃぶしゃぶして、ごまダレとポン酢で食べる本格的なスタイル。スープのおかわりもでき、最後は雑炊でしめるコースが人気。日本語メニューあり。",
-    "price_range": "₩₩₩",
-    "hours": "12:00-15:00/17:00-22:00",
-    "closed_days": "月曜",
-    "languages": [
-      "ja",
-      "ko"
-    ],
-    "tags": [
-      "しゃぶしゃぶ",
-      "江南",
-      "日本語対応"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "shabushabu-like-seoul",
-    "name": "Shabu Shabu Like Seoul",
-    "name_ja": "しゃぶしゃぶライク ソウル",
-    "area": "Gangnam-gu",
-    "address": "Gangnam-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "日本式しゃぶしゃぶを一人でも楽しめるカウンタースタイルのしゃぶしゃぶ店。江南エリアにあり、ランチセットがリーズナブルに利用できる。",
-    "tags": [
-      "しゃぶしゃぶ",
-      "一人利用向き",
-      "ランチ"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "shochu-bar-itaewon",
-    "name": "이태원 소주 바",
-    "name_ja": "梨泰院 焼酎バー",
-    "area": "梨泰院",
-    "address": "Itaewon, Yongsan-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "梨泰院にある日本焼酎を中心としたバー。本格麦焼酎・芋焼酎・泡盛など日本各地の蒸留酒を取り揃える。在韓日本人が「日本の焼酎が飲める場所」として重宝し、韓国焼酎とは異なる日本の焼酎文化を梨泰院で楽しめる貴重なスポット。",
-    "tags": [
-      "居酒屋",
-      "焼酎バー",
-      "梨泰院",
-      "日本焼酎"
-    ],
-    "hours": "19:00〜翌3:00",
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "shokudo-hab-jongno",
-    "name": "Shokudo Hab",
-    "name_ja": "食堂 合",
-    "area": "Jongno",
-    "address": "Jongno-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "鐘路エリアにある日本家庭料理店「食堂 合」。日替わり定食や煮物・焼き魚など素朴な日本の家庭料理を提供する。在韓日本人に人気。",
-    "tags": [
-      "家庭料理",
-      "定食",
-      "日替わり"
-    ],
-    "hours": "11:30〜21:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "simibe-izakaya-sindang",
@@ -7794,7 +7406,7 @@
     "address": "Sindang-dong, Jung-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "新堂洞の居酒屋・寿司店「シミベ」。新鮮なネタの寿司と山盛り寿司（寿司ケーキ）が名物の日本式居酒屋となっているの日本式専門店。",
+    "description": "新堂洞の日本式居酒屋・寿司店。新鮮なネタの握り寿司と山盛り寿司（寿司ケーキ）が名物で、気軽に日本の居酒屋文化を楽しめる。",
     "tags": [
       "居酒屋",
       "寿司"
@@ -7809,7 +7421,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sinhui-sushi-yeouido",
@@ -7819,7 +7432,7 @@
     "address": "2F, Yeouido Station Exit 3, Yeongdeungpo-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "汝矣島のビジネス地区にある日本料理店。汝矣島駅3番出口の目の前。新鮮な寿司と刺身をビジネスランチに利用しやすい立地で提供。",
+    "description": "汝矣島駅3番出口すぐの日本料理店。ビジネス地区に位置し、ランチの寿司・刺身定食が会社員に人気。新鮮なネタのにぎり寿司をビジネスランチで利用しやすい立地。",
     "tags": [
       "寿司",
       "刺身",
@@ -7836,7 +7449,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "snowpea-sushi-daegu",
@@ -7848,7 +7462,7 @@
     "lng": null,
     "phone": "+82707809845955",
     "website": null,
-    "description": "大邱・中心部の寿司店「スノーピー寿司」。新鮮なネタを仕込んだ日本式寿司と、日本式・アメリカンスタイル両方のロールを提供する。",
+    "description": "大邱・中区中心部の寿司店。日本式にぎり寿司とアメリカンスタイル両方のロール寿司を提供し、新鮮なネタが揃う大邱でも数少ない本格寿司レストラン。",
     "tags": [
       "寿司",
       "ロール"
@@ -7865,214 +7479,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "soba-apgujeong-2",
-    "name": "狎鷗亭 冷そば処",
-    "name_ja": "狎鷗亭 冷そば処",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Apgujeong",
-    "address": "서울 강남구 압구정로 서울",
-    "lat": 37.5271,
-    "lng": 127.0287,
-    "phone": "",
-    "website": "",
-    "description": "狎鷗亭の閑静なエリアにある冷たいそばに特化したそば処。特に夏場に人気の冷やしとろろそば・冷やしきつねそばなどの冷製そばメニューを中心に、温かい一品も揃える。上品な店内で丁寧なサービスとともに上質なそばを楽しめる、大人向けの一軒。",
-    "price_range": "₩₩₩",
-    "hours": "11:30-20:30",
-    "closed_days": "月曜・火曜",
-    "languages": [
-      "ja",
-      "ko"
-    ],
-    "tags": [
-      "そば",
-      "狎鷗亭",
-      "日本語対応",
-      "大人向け"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "soba-kazoku",
-    "name": "Soba Kazoku",
-    "name_ja": "そば家族",
-    "area": "Incheon",
-    "address": "31-2 Yeonmujang-gil, Seongdong-gu, Seoul, South Korea",
-    "lat": 37.5432,
-    "lng": 127.0531,
-    "phone": "+8224662177",
-    "website": null,
-    "description": "仁川にある蕎麦専門店「そば家族」。手打ちの日本式蕎麦と天ぷらを提供する仁川エリアの日本式蕎麦・天ぷら専門店の日本式専門店。",
-    "tags": [
-      "蕎麦",
-      "天ぷら",
-      "仁川"
-    ],
-    "hours": "Monday: 11:00 AM – 3:00 PM, 5:00 – 8:00 PM / Tuesday: 11:00 AM – 3:00 PM, 5:00 – 8:00 PM / Wednesday: 11:00 AM – 3:00 PM, 5:00 – 8:00 PM / Thursday: 11:00 AM – 3:00 PM, 5:00 – 8:00 PM / Friday: 11:00 AM – 3:00 PM, 5:00 – 8:00 PM / Saturday: 11:00 AM – 3:00 PM, 5:00 – 8:00 PM / Sunday: 11:00 AM – 3:00 PM, 5:00 – 8:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJvwHkjHalfDURocTt8luLSYw",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "soba-noodle-jongno",
-    "name": "鍾路 そば",
-    "name_ja": "鍾路 そば",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Jongno",
-    "address": "서울 종로구 종로 서울",
-    "lat": 37.5707,
-    "lng": 126.9832,
-    "phone": "",
-    "website": "",
-    "description": "鍾路エリアにある手打ちそば専門店。北海道産そば粉を使ったコシのある手打ち麺を、かつおだしの効いたつゆでいただく本格的な一杯が楽しめる。もりそば・温かけそば・天ぷらそばとメニューも充実。静かな雰囲気の中でゆっくり食事ができる落ち着いた空間。",
-    "price_range": "₩₩",
-    "hours": "11:00-20:00",
-    "closed_days": "日曜",
-    "languages": [
-      "ja",
-      "ko"
-    ],
-    "tags": [
-      "そば",
-      "鍾路",
-      "日本語対応"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "soba-restaurant-apgujeong",
-    "name": "狎鷗亭 そば処",
-    "name_ja": "狎鷗亭 そば処",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Apgujeong",
-    "address": "서울 강남구 압구정동 서울",
-    "lat": 37.5271,
-    "lng": 127.0288,
-    "phone": "",
-    "website": "",
-    "description": "狎鷗亭の高級エリアにある本格そば専門店。北海道産そば粉使用の二八そばを手打ちで提供し、かつおとさばの合わせだしで作るつゆが絶品と評判。鴨南蛮そば・なめこおろしそばなど季節の一品も充実。上品な雰囲気で特別な昼食・夕食に最適。",
-    "price_range": "₩₩₩",
-    "hours": "11:30-14:30/17:30-21:30",
-    "closed_days": "月曜",
-    "languages": [
-      "ja",
-      "ko"
-    ],
-    "tags": [
-      "そば",
-      "狎鷗亭",
-      "日本語対応",
-      "本格"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "soba-restaurant-yeouido",
-    "name": "汝矣島 そば",
-    "name_ja": "汝矣島 そば",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Yeouido",
-    "address": "서울 영등포구 여의도동 서울",
-    "lat": 37.5215,
-    "lng": 126.9246,
-    "phone": "",
-    "website": "",
-    "description": "汝矣島のビジネスエリアにあるそば専門店。国産そば粉を使った手打ちそばと、昆布・かつおの合わせだしのつゆが評判。ランチの定食セット（ざるそば+ミニ丼）がサラリーマンに人気。静かな雰囲気でゆっくりとそばを楽しめる落ち着いたレストラン。",
-    "price_range": "₩₩",
-    "hours": "11:00-21:00",
-    "closed_days": "日曜",
-    "languages": [
-      "ja",
-      "ko"
-    ],
-    "tags": [
-      "そば",
-      "汝矣島",
-      "日本語対応",
-      "ビジネスランチ"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "soba-yeonguso-seodaemun",
-    "name": "Soba Yeonguso",
-    "name_ja": "蕎麦研究所",
-    "area": "Seodaemun-gu",
-    "address": "50-9 Myeongmul-gil, Seodaemun-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "西大門エリアの手打ち蕎麦・とんかつ店「蕎麦研究所」。自家製蕎麦麺とサクサクのとんかつの組み合わせが人気の日本式専門店の日本式専門店。",
-    "tags": [
-      "蕎麦",
-      "とんかつ",
-      "手打ち"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sobakeeri-suzu-seodaemun",
@@ -8082,7 +7490,7 @@
     "address": "173 Yeonhui-ro, Seodaemun-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "2026年ミシュランガイドソウルに掲載の蕎麦・日本料理店「蕎麦切り すず」。日本人シェフが手打ちする蕎麦と季節料理を提供する。",
+    "description": "西大門エリアの蕎麦・日本料理店。日本人シェフが手打ちする本格蕎麦と季節料理を提供し、2026年ミシュランガイドソウルに掲載。",
     "tags": [
       "蕎麦",
       "ミシュラン",
@@ -8098,7 +7506,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sobamae-nigo-seongsu",
@@ -8108,7 +7517,7 @@
     "address": "39-15 Yeonmujang-gil, Seongdong-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "聖水エリアの蕎麦専門店「蕎麦前 二号」。とろろ冷やし蕎麦が看板メニューで夏季に特に人気の日本式蕎麦専門店となっているの日本式専門店。",
+    "description": "聖水エリアの日本式蕎麦専門店。とろろ冷やし蕎麦が看板で夏季に特に人気。手打ち蕎麦にこだわった本格派で、若者が多い聖水の中でも支持されている。",
     "tags": [
       "蕎麦",
       "手打ち"
@@ -8123,7 +7532,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sobaya-ilmiya-busan",
@@ -8133,7 +7543,7 @@
     "address": "16 Jungdong 2-ro 10beon-gil, Haeundae-gu, Busan",
     "phone": null,
     "website": null,
-    "description": "釜山・海雲台エリアのとんかつ・蕎麦店「蕎麦屋一味や」。本格的な日本式とんかつを提供し、品質の高さに定評がある日本式レストランだ。",
+    "description": "釜山・海雲台エリアのとんかつ・蕎麦専門店。本格的な日本式とんかつと手打ち蕎麦の組み合わせが人気で、品質の高さに定評がある。",
     "tags": [
       "とんかつ",
       "蕎麦"
@@ -8148,7 +7558,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sojuin-sushi-busan",
@@ -8160,7 +7571,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "西面ロッテホテルから徒歩1分の寿司店。オーナーは東京・神楽坂で修行した経歴を持ち、日本語対応可能。本格的な江戸前寿司を提供。",
+    "description": "釜山・西面ロッテホテル徒歩1分の寿司店。オーナーは東京・神楽坂で修行した経歴を持ち、日本語対応も可能。本格的な江戸前スタイルの握り寿司を提供。",
     "tags": [
       "寿司",
       "日本語対応",
@@ -8178,44 +7589,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "somen-noodle-restaurant",
-    "name": "素麺専門店",
-    "name_ja": "素麺専門店",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Seongsu",
-    "address": "서울 성동구 성수동 서울",
-    "lat": 37.5441,
-    "lng": 127.0558,
-    "phone": "",
-    "website": "",
-    "description": "聖水洞にある日本式素麺（そうめん）専門店。国内では珍しい素麺料理に特化したレストランで、冷たい素麺だけでなくつけ麺・にゅうめん・韓国食材を使ったアレンジそうめんも提供。夏の定番としてSNSで注目を集め、韓国人の新しいお気に入り。",
-    "price_range": "₩₩",
-    "hours": "11:00-21:00",
-    "closed_days": "月曜",
-    "languages": [
-      "ko"
-    ],
-    "tags": [
-      "素麺",
-      "そうめん",
-      "聖水",
-      "夏"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "song-ok-soba-jung-gu",
@@ -8225,7 +7600,7 @@
     "address": "11 Namdaemun-ro 1-gil, Jung-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "南大門近くにある蕎麦専門店「松屋」。中区にあり、伝統的な雰囲気の中で本格的な日本式蕎麦を提供する。牛丼チェーンとは別の店。",
+    "description": "南大門近く・中区にある蕎麦専門店「松屋」（牛丼チェーンとは別店）。伝統的な雰囲気の中で本格的な日本式蕎麦を提供する。",
     "tags": [
       "蕎麦"
     ],
@@ -8239,7 +7614,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sosan-ichon",
@@ -8249,7 +7625,7 @@
     "address": "22 Ichon-ro 75-gil, Yongsan-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "二村にあるモダンな日本風居酒屋。ミニマルな内装で、カジュアルなディナーからフォーマルな会食まで対応。刺身、蟹の天ぷら、鮑パスタ、ビーフタルタルなど和洋折衷メニューが特徴。",
+    "description": "二村のモダン日本風居酒屋。刺身、蟹の天ぷら、鮑パスタなど和洋折衷のメニューが特徴で、日本人街の二村エリアでカジュアルから会食まで対応。",
     "tags": [
       "居酒屋",
       "モダン",
@@ -8266,87 +7642,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sosuin-seomyeon-busan",
-    "name": "소수인",
-    "name_ja": "ソスイン",
-    "area": "釜山 西面",
-    "address": "17 Gaya-daero 750beon-gil, Busanjin-gu, Busan",
-    "phone": null,
-    "website": null,
-    "description": "釜山西面ロッテホテル徒歩1分の日本料理店。神楽坂で修業を積んだ韓国人シェフが本格的な日本料理を提供。繊細な和食の技法と日本語でのサービスで在釜山日本人からも高い評価を受ける。特別な食事にも対応可能。",
-    "tags": [
-      "日本料理",
-      "本格和食",
-      "日本語対応"
-    ],
-    "hours": "12:00〜14:00, 18:00〜22:00（月曜定休）",
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "spirit-ramen",
-    "name": "Spirit Ramen",
-    "name_ja": "スピリットラーメン",
-    "area": "Seoul",
-    "address": "South Korea, Seoul, 북창동 77-2번지 1층 중구 서울특별시 KR",
-    "lat": 37.5623,
-    "lng": 126.978,
-    "phone": "+8227321712",
-    "website": null,
-    "description": "ソウルの日本式ラーメン専門店「スピリットラーメン」。こだわりのスープと自家製麺で本格的な日本式ラーメンを提供する専門店。",
-    "tags": [
-      "ラーメン"
-    ],
-    "hours": "Monday: 11:00 AM – 2:00 PM, 5:30 – 8:00 PM / Tuesday: 11:00 AM – 2:00 PM, 5:30 – 8:00 PM / Wednesday: 11:00 AM – 2:00 PM, 5:30 – 8:00 PM / Thursday: 11:00 AM – 2:00 PM, 5:30 – 8:00 PM / Friday: 11:00 AM – 2:00 PM, 5:30 – 8:00 PM / Saturday: Closed / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJ37mIefOifDUR9Qvb-nPQVdg",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "staff-picks-cafe-seochon",
-    "name": "STAFF PICKS",
-    "name_ja": "スタッフピックス",
-    "area": "西村",
-    "address": "Seochon, Jongno-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "西村の路地にあるこだわりのカフェ。テラス席から銀杏並木を一望でき、季節を問わず人気のスポット。日本人観光客・在住者からも口コミが広がるソウルの隠れた名カフェで、コーヒーと軽食のクオリティが高い。",
-    "tags": [
-      "カフェ",
-      "テラス席",
-      "西村"
-    ],
-    "hours": "10:00〜21:00",
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "suage-gangnam",
@@ -8356,7 +7653,7 @@
     "address": "29 Bongeunsa-ro 4-gil, Gangnam-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "江南の北海道スタイルのスープカレー専門店「スアゲ 江南店」。通常より軽い仕上がりのスープカレーにソーセージや野菜トッピングが豊富。",
+    "description": "江南の北海道スタイルのスープカレー専門店「スアゲ 江南店」。サラサラとした軽めのスープカレーにソーセージや野菜のトッピングが豊富で、本場札幌の味を再現。",
     "tags": [
       "カレー",
       "スープカレー",
@@ -8372,33 +7669,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "suda-izakaya-samseong",
-    "name": "수다 삼성1호점",
-    "name_ja": "スダ 三成1号店",
-    "area": "三成洞（COEX）",
-    "address": "Samseong-dong, Gangnam-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "COEX近くの三成洞にある人気居酒屋。日本式の焼き鳥とつまみ中心のメニューで、外資系企業が集まる三成エリアのビジネスパーソンに人気。日本語が通じるスタッフも在籍し、在韓日本人の接待使いにも対応。",
-    "tags": [
-      "居酒屋",
-      "三成洞",
-      "焼き鳥"
-    ],
-    "hours": "18:00〜翌1:00",
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "suji-shun-ichon",
@@ -8410,7 +7682,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "二村エリアの寿司店。オーナーは広島で8年間寿司修行した経歴を持ち、韓国風のアレンジを加えず日本の味を追求。在韓日本人の間で定評がある。",
+    "description": "二村日本人街エリアの寿司店。オーナーは広島で8年修行した経歴を持ち、韓国風アレンジなしで日本の味を追求。在韓日本人からの評判が高い本格派。",
     "tags": [
       "寿司",
       "日本修行",
@@ -8428,239 +7700,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sukiya-gangnam",
-    "name": "Sukiya Gangnam",
-    "name_ja": "すき家 江南店",
-    "area": "Gangnam-gu",
-    "address": "Gangnam-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "日本の牛丼チェーン「すき家」の江南店。牛丼・カレー・定食など日本の定番ファストフードを手頃な価格で提供。24時間営業の店舗もあり。",
-    "tags": [
-      "牛丼",
-      "日本チェーン",
-      "江南",
-      "ファストフード"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sukiya-seoul",
-    "name": "Sukiya Seoul",
-    "name_ja": "すき家 ソウル",
-    "area": "Seoul",
-    "address": "Seoul",
-    "phone": null,
-    "website": null,
-    "description": "日本の牛丼チェーン「すき家」のソウル店。牛丼、カレー、定食など手頃な日本のファストフードを提供。日本と同じ味を韓国で楽しめる。",
-    "tags": [
-      "牛丼",
-      "ファストフード",
-      "チェーン"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sukiyaki-restaurant-gangnam",
-    "name": "江南 すき焼き",
-    "name_ja": "江南 すき焼き",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Gangnam",
-    "address": "서울 강남구 역삼동 서울",
-    "lat": 37.5008,
-    "lng": 127.0368,
-    "phone": "",
-    "website": "",
-    "description": "江南エリアの日本式すき焼き専門店。黒毛和牛クラスの高品質韓国牛を使い、甘辛い割り下で煮込む本格的なすき焼きを提供。生卵につけて食べる日本式のスタイルを守り、豆腐・ねぎ・焼き豆腐などの具材も充実。特別な日の食事に最適な雰囲気と味。",
-    "price_range": "₩₩₩₩",
-    "hours": "12:00-14:30/17:30-22:00",
-    "closed_days": "月曜",
-    "languages": [
-      "ja",
-      "ko"
-    ],
-    "tags": [
-      "すき焼き",
-      "江南",
-      "日本語対応",
-      "高級"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushi-bar-gangnam-2",
-    "name": "江南 すし酒場",
-    "name_ja": "江南 すし酒場",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Gangnam",
-    "address": "서울 강남구 강남대로 서울",
-    "lat": 37.4979,
-    "lng": 127.0276,
-    "phone": "",
-    "website": "",
-    "description": "江南エリアの立ち飲みスタイルのすし居酒屋。カウンターに座って職人が目の前で握るにぎり寿司とお酒を楽しめる。日本の立ち飲み文化を韓国に持ち込んだスタイルで、仕事帰りの一杯と一貫が楽しめると在韓日本人のオアシス的存在に。",
-    "price_range": "₩₩₩",
-    "hours": "17:00-24:00",
-    "closed_days": "日曜",
-    "languages": [
-      "ja",
-      "ko"
-    ],
-    "tags": [
-      "寿司",
-      "居酒屋",
-      "江南",
-      "日本語対応"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushi-busan-haeundae",
-    "name": "釜山海雲台 寿司",
-    "name_ja": "釜山海雲台 寿司",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Busan",
-    "area": "Haeundae",
-    "address": "부산 해운대구 해운대 부산",
-    "lat": 35.163,
-    "lng": 129.1633,
-    "phone": "",
-    "website": "",
-    "description": "釜山・海雲台ビーチエリアの寿司レストラン。海沿いのリゾートエリアにあり、釜山港から届く新鮮な海産物を使ったにぎり寿司が自慢。テラス席からはビーチを眺めながら食事ができる贅沢なロケーションが人気。旅行者にも在住者にも評価の高い一軒。",
-    "price_range": "₩₩₩",
-    "hours": "11:30-22:00",
-    "closed_days": "月曜",
-    "languages": [
-      "ja",
-      "ko"
-    ],
-    "tags": [
-      "寿司",
-      "釜山",
-      "海雲台",
-      "日本語対応"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushi-chain-sinchon",
-    "name": "新村 回転寿司",
-    "name_ja": "新村 回転寿司",
-    "category": "restaurant",
-    "country": "kr",
-    "city": "Seoul",
-    "area": "Sinchon",
-    "address": "서울 서대문구 신촌 서울",
-    "lat": 37.5554,
-    "lng": 126.937,
-    "phone": "",
-    "website": "",
-    "description": "新村エリアにある回転寿司チェーン。レーンを流れる寿司を自由に取る韓国式回転寿司スタイルで、リーズナブルな価格と気軽な雰囲気が学生・ファミリーに人気。日本で修行したシェフが監修したレシピで、手頃でも本格的な味が楽しめる一軒。",
-    "price_range": "₩₩",
-    "hours": "11:00-22:00",
-    "closed_days": "なし",
-    "languages": [
-      "ko"
-    ],
-    "tags": [
-      "回転寿司",
-      "新村",
-      "コスパ"
-    ],
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushi-cho",
-    "name": "Sushi Cho",
-    "name_ja": "寿司 長",
-    "area": "Seoul",
-    "address": "106 20F Sogong-ro, Jung District, Seoul, South Korea",
-    "lat": 37.5644,
-    "lng": 126.98,
-    "phone": "+8223170373",
-    "website": null,
-    "description": "ソウルの日本式寿司専門店「寿司 長」。新鮮なネタを使った握り寿司やおまかせコースを提供する日本料理レストランの日本式専門店。",
-    "tags": [
-      "寿司",
-      "おまかせ"
-    ],
-    "hours": "Monday: 12:00 – 3:00 PM, 5:30 – 10:00 PM / Tuesday: 12:00 – 3:00 PM, 5:30 – 10:00 PM / Wednesday: 12:00 – 3:00 PM, 5:30 – 10:00 PM / Thursday: 12:00 – 3:00 PM, 5:30 – 10:00 PM / Friday: 12:00 – 3:00 PM, 5:30 – 10:00 PM / Saturday: 12:00 – 3:00 PM, 5:30 – 10:00 PM / Sunday: 12:00 – 3:00 PM, 5:30 – 10:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJaeJIP_KifDURSvaYpJpHq1c",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-cho-jung-gu",
@@ -8670,7 +7711,7 @@
     "address": "106 Sogong-ro, Jung-gu, Seoul, 20F",
     "phone": null,
     "website": null,
-    "description": "中区の高層階に位置する高級おまかせ寿司店「スシ超」。蒸し鮑や霜降りなど希少なネタを使用したおまかせコースを提供している。",
+    "description": "中区の高層階にある高級おまかせ寿司店「スシ超」。蒸し鮑や霜降りなど希少なネタを使ったおまかせコースを提供し、特別な食事や接待に適した格調ある空間。",
     "tags": [
       "寿司",
       "おまかせ",
@@ -8686,7 +7727,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-cho-westin",
@@ -8696,7 +7738,7 @@
     "address": "87 Sogong-dong, Jung-gu, Seoul, Westin Chosun Hotel",
     "phone": null,
     "website": null,
-    "description": "ウェスティン朝鮮ホテル内の高級寿司レストラン。ビジネス接待にも適した格調ある空間で、質の高い刺身と握り寿司が楽しめる。日本語対応スタッフも在籍し、在韓日本人ビジネスパーソンや外交官の利用も多い。",
+    "description": "ウェスティン朝鮮ホテル内の高級寿司レストラン。質の高い刺身と握り寿司を格調ある空間で提供し、日本語対応スタッフも在籍。ビジネス接待や外交官の利用も多い。",
     "tags": [
       "高級寿司",
       "ビジネス接待",
@@ -8712,7 +7754,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-daeun-busan",
@@ -8722,7 +7765,7 @@
     "address": "1476-1 Jwa-dong, Haeundae-gu, Busan",
     "phone": null,
     "website": null,
-    "description": "釜山・海雲台エリアの寿司店「スシダウン」。新鮮な魚介を使った幅広い寿司メニューを提供する日本式寿司専門レストランの日本式専門店。",
+    "description": "釜山・海雲台エリアの寿司専門店「スシダウン」。新鮮な魚介を使った幅広い寿司メニューを提供し、海雲台のリゾートエリアで日本式寿司を楽しめる。",
     "tags": [
       "寿司"
     ],
@@ -8736,33 +7779,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushi-gowooga-yeouido",
-    "name": "고우가 여의도",
-    "name_ja": "ゴウガ 汝矣島",
-    "area": "汝矣島",
-    "address": "Yeouido, Yeongdeungpo-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "汝矣島の高評価海鮮寿司レストラン。TripAdvisorで最高評価を誇り、オマカセスタイルで新鮮な魚介を使った握り寿司が楽しめる。ビジネス街の汝矣島に位置し、在韓日本人のビジネスランチ・接待にも利用される。",
-    "tags": [
-      "オマカせ",
-      "寿司",
-      "汝矣島"
-    ],
-    "hours": "12:00〜14:00, 18:00〜22:00",
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-hana-daegu",
