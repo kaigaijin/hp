@@ -9176,64 +9176,6 @@
     "photo_name": null
   },
   {
-    "slug": "hanabiyaoku-tuen-mun",
-    "name": "Hanabi Yaoku",
-    "name_ja": "花火漁屋",
-    "area": "Tuen Mun",
-    "address": "Tuen Mun, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "トゥンムン（屯門）にある日本食レストラン「Hanabi Yaoku」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "japanese",
-      "izakaya",
-      "seafood",
-      "sashimi",
-      "tuen-mun"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "hanagushi-central",
-    "name": "Hanagushi Yakitori",
-    "name_ja": "花串",
-    "area": "Central",
-    "address": "8/F, M88, 2-8 Wellington Street, Central, Hong Kong",
-    "phone": "+85225210868",
-    "website": "https://hanagushi.com.hk/",
-    "description": "セントラル（中環）にある焼き鳥専門店「Hanagushi Yakitori」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "焼き鳥",
-      "老舗",
-      "蘭桂坊"
-    ],
-    "hours": "毎日 18:00〜23:30",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
     "slug": "hanagushi-yakitori-japanese-restaurant",
     "name": "Hanagushi Yakitori Japanese Restaurant",
     "name_ja": "ハナグシ 焼鳥 日本 レストラン",
@@ -9242,12 +9184,12 @@
     "lat": 22.2808,
     "lng": 114.1561,
     "phone": "+85225210868",
-    "website": null,
-    "description": "セントラル（中環）にある日本食レストラン「Hanagushi Yakitori Japanese Restaurant」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "website": "https://hanagushi.com.hk/",
+    "description": "セントラル（中環）M88ビル8F（Wellington Street 2-8号）にある焼き鳥専門店。日本産素材にこだわった串焼きと豊富な日本酒。蘭桂坊近く、10年以上の歴史。",
     "tags": [
       "日本食"
     ],
-    "hours": "Monday: 11:30 AM – 3:00 PM, 5:30 – 10:30 PM / Tuesday: 11:30 AM – 3:00 PM, 5:30 – 10:30 PM / Wednesday: 11:30 AM – 3:00 PM, 5:30 – 10:30 PM / Thursday: 11:30 AM – 3:00 PM, 5:30 – 10:30 PM / Friday: 11:30 AM – 3:00 PM, 5:30 – 11:00 PM / Saturday: 11:30 AM – 3:00 PM, 5:30 – 10:30 PM / Sunday: Closed",
+    "hours": "毎日 18:00〜23:30",
     "last_verified": "2026-03-28",
     "status": "unverified",
     "source": "google_maps",
@@ -9259,7 +9201,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hanamiyama-sushi",
@@ -9271,7 +9214,7 @@
     "lng": 114.141,
     "phone": "+85298564890",
     "website": "https://www.instagram.com/hanamiyamasushi/",
-    "description": "サイインプン（西營盤）にある日本料理・鮨店「Hanamiyama Sushi」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "サイインプン（西營盤）にある日本料理・寿司店。Instagramで発信する日本人シェフの店で、ランチ・ディナーともに毎日営業。",
     "tags": [
       "寿司"
     ],
@@ -9287,19 +9230,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "happy-samurai-central",
     "name": "Happy Samurai",
     "name_ja": "ハッピー侍",
     "area": "Central",
-    "address": "Central, Hong Kong",
+    "address": "Shop A, G/F, 51 Wellington Street, Central, Hong Kong",
     "lat": null,
     "lng": null,
     "phone": null,
-    "website": null,
-    "description": "セントラル（中環）にあるラーメン店「Happy Samurai」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "website": "https://happysamurai.hk/",
+    "description": "セントラル（中環）Wellington Street 51号の隠れ家的ラーメン店。北海道スタイルのみそ・とんこつラーメンと丼・バオなど。月〜土11:30〜23時。",
     "tags": [
       "ラーメン",
       "隠れ家"
@@ -9316,7 +9260,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "haruka-japanese-restaurant",
@@ -9328,7 +9273,7 @@
     "lng": 114.1871,
     "phone": "+85227360888",
     "website": null,
-    "description": "香港にある日本食レストラン「Haruka Japanese Restaurant」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "トクワワン（土瓜灣）1A Lok Shan Road G/FにあるJapanese Sushi/Sashimi Izakaya。新鮮な刺身・寿司・天ぷら。月〜日12〜15時・18〜22:30。",
     "tags": [
       "日本食"
     ],
@@ -9344,37 +9289,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "haruka-to-kwa-wan",
-    "name": "Haruka",
-    "name_ja": "遙",
-    "area": "To Kwa Wan",
-    "address": "To Kwa Wan, Kowloon",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "To Kwa Wanにある日本料理・鮨店「Haruka」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
-    "tags": [
-      "sushi",
-      "sashimi",
-      "japanese"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hassun-tai-hang",
@@ -9386,7 +9302,7 @@
     "lng": null,
     "phone": "+85222176077",
     "website": null,
-    "description": "Tai Hangにある日本食レストラン「Hassun Japanese Restaurant」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "Tai Hang（大坑）Lily Street 3番地の京都懐石料理店。季節素材を活かしたおまかせコース一種のみ。予約必須の隠れ家的名店。電話: +852 2217 6077。",
     "tags": [
       "懐石",
       "京都料理",
@@ -9404,7 +9320,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hea-ha-hea-ha",
@@ -9416,7 +9333,7 @@
     "lng": 114.1745,
     "phone": "+85292204403",
     "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある日本式居酒屋「Hea Ha Hea Ha 居酒屋」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
+    "description": "チムサーチョイ（尖沙咀）Prat Ave 10号9Fにある日本式居酒屋。熊本産豚バラや北海道蟹肉スープ飯など日本食材にこだわる串焼き店。",
     "tags": [
       "居酒屋"
     ],
@@ -9432,7 +9349,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hearth-yakiniku-by-atum",
@@ -9444,7 +9362,7 @@
     "lng": 114.1738,
     "phone": "+85239545644",
     "website": "https://bit.ly/hearth_atum",
-    "description": "チムサーチョイ（尖沙咀）にある日本式居酒屋「Hearth Yakiniku by ATUM」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
+    "description": "チムサーチョイ（尖沙咀）K11 Art Mall 3階の日本式焼肉レストラン。深夜2時まで営業。ATUMグループ監修の上質な焼肉とドリンクを提供。",
     "tags": [
       "居酒屋"
     ],
@@ -9460,19 +9378,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "heya-wan-chai",
     "name": "Heya",
     "name_ja": "へや",
     "area": "Wan Chai",
-    "address": "4/F, Winner Commercial Building, Lockhart Road, Wan Chai",
+    "address": "Flat A, 4/F, Winner Commercial Building, 401-403 Lockhart Road, Wan Chai, Hong Kong",
     "lat": null,
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ワンチャイ（湾仔）にある18席の隠れ家的日本酒バー。日本の小規模蔵元から仕入れた30種類以上の日本酒を提供。持ち込み食べ物OK。",
+    "description": "ワンチャイ（湾仔）Lockhart Road 401-403のWinner Commercial Bldg 4Fにある18席の日本酒バー。小規模蔵元の日本酒30種類以上。持ち込み食べ物OK。",
     "tags": [
       "居酒屋",
       "バー",
@@ -9490,19 +9409,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hibiki-kwun-tong",
     "name": "Hibiki Japanese Restaurant",
     "name_ja": "響",
     "area": "Kwun Tong",
-    "address": "Kwun Tong, Hong Kong",
+    "address": "6/F, 90 Hung To Road, Kwun Tong, Hong Kong",
     "lat": null,
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "クワントン（観塘）にある日本料理・鮨店「Hibiki Japanese Restaurant」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "クワントン（観塘）Hung To Road 90号6Fにある居酒屋。本マグロ解体ショー・和服体験・日本酒サーバーなど体験型コンテンツが充実した人気店。",
     "tags": [
       "寿司",
       "刺身",
@@ -9520,7 +9440,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hidden-causeway-bay",
@@ -9530,7 +9451,7 @@
     "address": "Room D, 3/F, Prosperous Commercial Building, 54 Jardine's Bazaar, Causeway Bay, Hong Kong",
     "phone": "+85225041511",
     "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある銅鑼湾の隠れ家的な串揚げ・串カツ専門店。揚げたての野菜・豚・牛・海鮮の串を日本酒と一緒に。予約推奨。",
+    "description": "コーズウェイベイ（銅鑼湾）Jardine's Bazaar 54号3FにあるJapanese chef Yasuaki Ogawa監修の串揚げ専門店。日本酒と揚げたての串カツが楽しめる隠れ家。",
     "tags": [
       "串揚げ",
       "串カツ",
@@ -9546,95 +9467,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "hidden-causeway-bay-izakaya",
-    "name": "Hidden",
-    "name_ja": "ヒッデン",
-    "area": "Causeway Bay",
-    "address": "Room D, 3/F, Prosperous Commercial Building, 54 Jardine's Bazaar, Causeway Bay",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある日本式居酒屋「Hidden」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。在香港日本人・旅行者に利用されている。",
-    "tags": [
-      "居酒屋",
-      "串揚げ",
-      "串カツ"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "hidden-izakaya-causeway-bay",
-    "name": "Hidden",
-    "name_ja": "ヒッデン",
-    "area": "Causeway Bay",
-    "address": "Room D, 3/F, Prosperous Commercial Building, 54 Jardine's Bazaar, Causeway Bay, Hong Kong",
-    "phone": "+85225041511",
-    "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある日本式居酒屋「Hidden」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。在香港日本人・旅行者に利用されている。",
-    "tags": [
-      "居酒屋",
-      "串揚げ",
-      "隠れ家",
-      "日本酒"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-03-28",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "hideyoshi-diamond-hill",
-    "name": "Hideyoshi",
-    "name_ja": "秀吉",
-    "area": "Diamond Hill",
-    "address": "Plaza Hollywood, Diamond Hill",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "Diamond Hillにある鑽石山荷里活廣場にある日本料理店。寿司・刺身・焼き物など本格的な和食をショッピングモール内で手軽に楽しめる。",
-    "tags": [
-      "sushi",
-      "sashimi",
-      "japanese",
-      "mall"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hideyoshi-festival-walk",
@@ -9646,7 +9480,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Kowloon Tongにあるたこ焼き・お好み焼きを提供する日系フードコートチェーン。香港のショッピングモール内に展開。",
+    "description": "コウルーントン（九龍塘）Festival Walk MTR/F内の日本式レストラン。たこ焼き・お好み焼きなど香港のショッピングモールで気軽に楽しめる日本料理チェーン。",
     "tags": [
       "日本発チェーン",
       "たこ焼き",
@@ -9664,38 +9498,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "hideyoshi-festival-walk-2",
-    "name": "Hideyoshi Festival Walk",
-    "name_ja": "秀吉 又一城店",
-    "area": "Kowloon Tong",
-    "address": "Festival Walk, 80 Tat Chee Avenue, Kowloon Tong, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "Kowloon Tongにある日本食レストラン「Hideyoshi Festival Walk」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "定食",
-      "丼物",
-      "和食",
-      "Festival Walk"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hideyoshi-tai-koo-cityplaza",
@@ -9707,7 +9511,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Tai Kooにある日本食レストラン「Hideyoshi (Cityplaza)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "タイクー（太古）Cityplaza B1/Fにある日本式レストラン。たこ焼き・お好み焼きを提供する香港ショッピングモール展開の日本料理チェーン。",
     "tags": [
       "日本発チェーン",
       "たこ焼き",
@@ -9725,37 +9529,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "hideyoshi-tai-koo-cityplaza-2",
-    "name": "Hideyoshi Tai Koo",
-    "name_ja": "秀吉 太古店",
-    "area": "Tai Koo",
-    "address": "Cityplaza, 18 Tai Koo Shing Road, Tai Koo, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "Tai Kooにある日本食レストラン「Hideyoshi Tai Koo」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "定食",
-      "丼物",
-      "和食"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hideyoshi-tsuen-wan",
@@ -9767,7 +9542,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ツェンワン（荃灣）にある荃灣の日式居酒屋チェーン。串焼き、刺身、揚物など豊富な居酒屋メニューを提供。日本酒やハイボールとともに楽しめる。",
+    "description": "ツェンワン（荃灣）にある日式居酒屋チェーン。串焼き・刺身・揚物など豊富な居酒屋メニューを提供。日本酒・ハイボールとともに楽しめる。",
     "tags": [
       "japanese",
       "izakaya",
@@ -9786,7 +9561,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hifu-hung-hom",
@@ -9798,7 +9574,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "フンホム（紅磡）にある日本食レストラン「Hifu」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "フンホム（紅磡）Whampoa Garden G/F内の日本食レストラン。ラーメン・海鮮が人気のメニュー。Whampoa Garden内の日本食店。",
     "tags": [
       "ramen",
       "seafood",
@@ -9817,7 +9593,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hige-izakaya-mid-levels",
@@ -9829,7 +9606,7 @@
     "lng": null,
     "phone": "+85225033533",
     "website": "https://higeizakaya.com.hk/",
-    "description": "Mid-Levelsにある日本式居酒屋「HIGE Izakaya」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。在香港日本人・旅行者に利用されている。",
+    "description": "Mid-LevelsのCastle Road 9A-9Cにある10年以上の歴史を持つ日本式居酒屋。すき焼き・しゃぶしゃぶ・おまかせコース・串焼きなど幅広く提供。月〜土17〜23時。",
     "tags": [
       "居酒屋",
       "うどん"
@@ -9875,34 +9652,8 @@
         "category": "ドリンク"
       }
     ],
-    "price_range": "HKD 400〜800/人（ディナー目安）"
-  },
-  {
-    "slug": "highball-bar-jordan",
-    "name": "Highball Bar Jordan",
-    "name_ja": "ハイボールバー 佐敦",
-    "area": "Jordan",
-    "address": "Jordan, Hong Kong",
-    "phone": null,
-    "website": null,
-    "description": "ジョーダン（佐敦）にある佐敦の日本式ハイボール専門バー。ジャパニーズウイスキーのハイボールを中心に、おつまみも提供。昭和の雰囲気。",
-    "tags": [
-      "居酒屋",
-      "バー",
-      "ハイボール",
-      "ウイスキー"
-    ],
-    "hours": "18:00〜翌2:00",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "price_range": "HKD 400〜800/人（ディナー目安）",
+    "place_reviewed": true
   },
   {
     "slug": "hikari-north-point",
@@ -9914,7 +9665,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ノースポイント（北角）にある日本料理・鮨店「Hikari」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "ノースポイント（北角）AIA Tower 1F Shop 16の隠れ家的おまかせ専門店。25品の季節料理コース（HKD1,800/人）。少人数で職人の技を間近に。",
     "tags": [
       "寿司",
       "おまかせ"
@@ -9931,7 +9682,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hikawa-wan-chai",
@@ -9941,7 +9693,7 @@
     "address": "Shop D, G/F, Cactus Mansion, 1-19 McGregor Street, Wan Chai, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "ワンチャイ（湾仔）にある日本料理・鮨店「Hikawa」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "ワンチャイ（湾仔）McGregor Street Cactus Mansion G/F Dにある寿司・刺身・炉端焼き店。経験10年以上の職人が手がける本格和食の隠れ家的店舗。",
     "tags": [
       "寿司",
       "刺身",
@@ -9961,7 +9713,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hikiniku-to-come-harbour-city",
@@ -9973,7 +9726,7 @@
     "lng": null,
     "phone": null,
     "website": "https://hikinikutocome.com/en/",
-    "description": "チムサーチョイ（尖沙咀）にある日本食レストラン「Hikiniku to Come (Harbour City)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "チムサーチョイ（尖沙咀）Harbour City 3FのShop 3203-4にある東京吉祥寺発の挽肉ハンバーグ専門店香港2号店。国産牛100%の炭火焼きハンバーグ。",
     "tags": [
       "ハンバーグ",
       "ステーキ"
@@ -9990,7 +9743,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hikiniku-to-come-ifc-central",
@@ -10002,7 +9756,7 @@
     "lng": null,
     "phone": null,
     "website": "https://hikinikutocome.com/en/",
-    "description": "東京・吉祥寺発の挽肉ハンバーグ専門店の香港1号店。毎朝店内で国産牛100%を挽き、炭火で焼き上げる。メニューは1品のみのこだわり。",
+    "description": "セントラル（中環）IFC Mall 4F Shop 4011にある東京吉祥寺発の挽肉ハンバーグ専門店香港1号店。毎朝挽いた国産牛を炭火焼き。メニューは1品のみ。",
     "tags": [
       "ハンバーグ",
       "ステーキ"
@@ -10019,19 +9773,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hiro-omakase-north-point",
     "name": "Hiro Omakase",
     "name_ja": "ヒロおまかせ",
     "area": "North Point",
-    "address": "North Point, Hong Kong",
+    "address": "Shop 13, G/F, Wellborne Commercial Centre, 8 Java Road, North Point, Hong Kong",
     "lat": null,
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ノースポイント（北角）にある日本料理・鮨店「Hiro Omakase」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "ノースポイント（北角）Java Road 8号G/F Shop 13にある10席のみの贅沢なおまかせ専門店。江戸前スタイルの23品コース（HKD1,800/人）。",
     "tags": [
       "寿司",
       "おまかせ",
@@ -10049,7 +9804,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hiru-omakase",
@@ -10061,7 +9817,7 @@
     "lng": 114.173,
     "phone": "+85253313978",
     "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある日本料理・おまかせ店「Hiru Omakase 日 • 廚師發辦」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "チムサーチョイ（尖沙咀）Hillwood Rd 17-19号G/Fにあるおまかせレストラン。ランチ12時〜、ディナー18時〜深夜まで営業。予約推奨。",
     "tags": [
       "おまかせ"
     ],
@@ -10077,7 +9833,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hiyama-harbour-city",
@@ -10089,7 +9846,7 @@
     "lng": null,
     "phone": "+85228853203",
     "website": "https://www.harbourcity.com.hk/en/restaurant/hiyama/",
-    "description": "チムサーチョイ（尖沙咀）にある東京の老舗すき焼き店「日山」の初海外店舗。ハーバーシティ内で和牛すき焼き・しゃぶしゃぶを提供。",
+    "description": "チムサーチョイ（尖沙咀）Harbour City Ocean Terminal 3FにあるTokyo老舗「日山」の初海外店舗。最高級和牛のすき焼き・しゃぶしゃぶを提供。",
     "tags": [
       "すき焼き",
       "しゃぶしゃぶ",
@@ -10109,7 +9866,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hokkaido-katsu-sushi-cb",
@@ -10121,7 +9879,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある日本料理・鮨店「Hokkaido Katsu Sushi」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "コーズウェイベイ（銅鑼湾）にある北海道活壽司の銅鑼湾店。寿司・刺身・とんかつを提供する香港日系寿司チェーン。",
     "tags": [
       "寿司",
       "とんかつ",
@@ -10139,7 +9897,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hokkaido-katsu-sushi-chong-hing",
@@ -10151,7 +9910,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "モンコック（旺角）にある日本料理・鮨店「Hokkaido Katsu Sushi」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "モンコック（旺角）Nathan Road 601号Chong Hing Square G/F Shop 7にある北海道活壽司。回転寿司スタイルのリーズナブルな日本料理店。",
     "tags": [
       "寿司",
       "回転寿司"
@@ -10168,7 +9927,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hokkaido-katsu-sushi-mong-kok",
@@ -10180,7 +9940,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "モンコック（旺角）にある日本料理・鮨店「Hokkaido Katsu Sushi」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "モンコック（旺角）Nelson Street 11号Far East Bank Bldg B/Fにある北海道活壽司の旺角本店。新鮮な寿司・刺身をリーズナブルな価格で提供。",
     "tags": [
       "寿司",
       "回転寿司"
@@ -10197,36 +9957,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "hokkaido-katsu-sushi-mong-kok-2",
-    "name": "Hokkaido Katsu Sushi Mong Kok",
-    "name_ja": "北海道割鮮壽司 旺角店",
-    "area": "Mong Kok",
-    "address": "Mong Kok, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "モンコック（旺角）にある日本料理・鮨店「Hokkaido Katsu Sushi Mong Kok」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "寿司",
-      "北海道直送"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hokkaido-soup-curry-suage",
@@ -10238,7 +9970,7 @@
     "lng": 114.1687,
     "phone": "+85226222388",
     "website": "https://www.facebook.com/suage.hk",
-    "description": "モンコック（旺角）にある日本食レストラン「Hokkaido Soup Curry Suage」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "モンコック（旺角）朗豪坊4F Shop 1にある札幌発スープカレー専門店。骨付きチキン・牡蠣・豚角煮のスープカレー。毎日12〜22時営業。",
     "tags": [
       "カレー"
     ],
@@ -10254,7 +9986,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hokkaido-soup-curry-suage-langham",
@@ -10266,7 +9999,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "モンコック（旺角）にある札幌発スープカレー専門店のLangham Place店。骨付きチキン・牡蠣・豚角煮のスープカレー。",
+    "description": "モンコック（旺角）Langham Place 4A/F Shop 1にある札幌発スープカレー「Suage」のLangham Place店。骨付きチキン・牡蠣等のスープカレー。",
     "tags": [
       "スープカレー",
       "北海道発",
@@ -10284,7 +10017,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hokkori-izakaya-di",
@@ -10296,7 +10030,7 @@
     "lng": 114.1718,
     "phone": "+85298850289",
     "website": "https://www.facebook.com/share/173WP3TUs2/?mibextid=wwXIfr",
-    "description": "ワンチャイ（湾仔）にある日本式居酒屋「Hokkori Izakaya Di」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
+    "description": "ワンチャイ（湾仔）Amoy Street G/F A鋪にある日本式居酒屋。月〜日11:30〜22時営業。ラーメン・居酒屋メニューを提供するカジュアルな日本食店。",
     "tags": [
       "居酒屋"
     ],
@@ -10312,7 +10046,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hokuto-kowloon-city",
@@ -10324,7 +10059,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Kowloon Cityにある九龍城のおまかせ専門店。明太子茶漬飯や炙り大トロ、北海道帆立などが看板で、五つ星の高評価を維持。",
+    "description": "クーロンシティ（九龍城）Fuk Lo Tsun Road 59号G/FにあるおまかせSushi店。明太子茶漬飯・炙り大トロ・北海道帆立が看板。高評価の予約制プレミアム店。",
     "tags": [
       "omakase",
       "sushi",
@@ -10343,7 +10078,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "honjin-apm-kwun-tong",
@@ -10355,7 +10091,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "クワントン（観塘）にある焼肉店「Honjin (APM)」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "クワントン（観塘）APM（Millennium City 5）4F Shop L4-23にある焼肉・食べ放題店。日本スタイルの焼肉をショッピングモール内で楽しめる。",
     "tags": [
       "焼肉",
       "食べ放題"
@@ -10372,7 +10108,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "honjo-sheung-wan",
@@ -10382,7 +10119,7 @@
     "address": "1/F, 77-91 Queen's Road West, Sheung Wan, Hong Kong",
     "phone": null,
     "website": "https://honjo.hk/",
-    "description": "サンポ（上環）にある天ぷら専門店「Honjo」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "サンポ（上環）Queen's Road West 77-91号1Fにあるモダン日本料理店。伝統技法と新しいフレーバーを融合した天ぷら料理と200種以上のワイン・日本酒。",
     "tags": [
       "日本料理",
       "天ぷら",
@@ -10400,7 +10137,8 @@
     "price_level": null,
     "photo_name": null,
     "detail": "MTR上環駅から徒歩5分の皇后大道西77-91号1階。「再構築された日本料理」をコンセプトに、伝統的な技法と新しいフレーバーを融合したモダン日本料理を提供。200種以上のワイン、日本酒も充実。プライベートダイニングルームあり。",
-    "price_range": "HKD 400〜800/人（ディナー目安）"
+    "price_range": "HKD 400〜800/人（ディナー目安）",
+    "place_reviewed": true
   },
   {
     "slug": "honjokko-quarry-bay",
@@ -10410,7 +10148,7 @@
     "address": "2/F, Oxford House, Taikoo Place, 979 King's Road, Quarry Bay, Hong Kong",
     "phone": "+85227881996",
     "website": "https://www.honjokko.hk/",
-    "description": "タイクープレイス内のコンテンポラリー日本料理＆寿司クラブ。ワインセラーを備え、ランチ・ディナーともに洗練された和食を提供。",
+    "description": "クォーリーベイ（鰂魚涌）Taikoo Place Oxford House 2FにあるコンテンポラリーSushi Club。ワインセラー併設、ランチ・ディナーともに洗練された和食を提供。",
     "tags": [
       "鮨",
       "コンテンポラリー",
@@ -10426,7 +10164,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "honotorihane-tst",
@@ -10434,9 +10173,9 @@
     "name_ja": "居酒屋 穂の鳥羽",
     "area": "Tsim Sha Tsui",
     "address": "17/F, The Lamma Tower, 12-12A Hau Fook Street, Tsim Sha Tsui, Hong Kong",
-    "phone": null,
+    "phone": "+85228110777",
     "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある日本料理・鮨店「Izakaya Honotorihane」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "チムサーチョイ（尖沙咀）Hau Fook Street 12-12A号The Lamma Tower 17Fにある居酒屋。寿司・刺身も豊富なメニュー。MTR出口から徒歩3分。予約可。",
     "tags": [
       "居酒屋",
       "寿司",
@@ -10452,39 +10191,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "hotenda-tai-wai",
-    "name": "Hotenda Japanese Restaurant",
-    "name_ja": "寶田日本料理",
-    "area": "Tai Wai",
-    "address": "Tai Wai, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "タイワイ（大圍）にある大圍の老舗日本料理店。定食、刺身、ラーメンなど幅広い日本食を提供。リーズナブルな価格設定で地元住民に人気。",
-    "tags": [
-      "japanese",
-      "set-meal",
-      "sashimi",
-      "ramen",
-      "tai-wai"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hungry-izakaya",
@@ -10496,7 +10204,7 @@
     "lng": 114.1675,
     "phone": "+85255909032",
     "website": null,
-    "description": "モンコック（旺角）にある日本式居酒屋「餓居 Hungry Izakaya」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
+    "description": "モンコック（旺角）Portland Street 440号にある日本式居酒屋。火〜日12〜22時営業（月曜定休）。和食・居酒屋メニューとお酒を楽しめる旺角の日本食店。",
     "tags": [
       "居酒屋"
     ],
@@ -10512,7 +10220,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hungry-tiger-hidden-dragon-kai-tak",
@@ -10524,7 +10233,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Kai Takにある啓徳スポーツパークJOYPOLIS 4階。ミシュランチーム監修の日本創作料理。270度スタジアムビュー。",
+    "description": "啓徳スポーツパークJOYPOLIS 4Fにあるミシュランシェフ監修の日本創作料理レストラン。スタジアムビューで日本料理・バーを楽しめる香港の新ランドマーク。",
     "tags": [
       "日本創作料理",
       "ミシュランチーム",
@@ -10543,7 +10252,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "i-sushi-tsuen-wan",
@@ -10555,7 +10265,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ツェンワン（荃灣）にある荃灣海壩街の老舗日本料理店。寿司、刺身を中心に、焼物や揚物も充実。長年地域に愛される伝統的な日本食レストラン。",
+    "description": "ツェンワン（荃灣）海壩街26号G/Fにある老舗日本料理店。寿司・刺身を中心に焼物・揚物も充実した本格和食店。地域に長年愛される伝統的な日本食店。",
     "tags": [
       "japanese",
       "sushi",
@@ -10574,7 +10284,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ichi-ban-ya-ap-lei-chau",
@@ -10586,7 +10297,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Ap Lei Chauにある日本料理・鮨店「Ichi Ban Ya」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "Ap Lei Chau（鴨脷洲）Estate G/F Shop 44にある日本料理・寿司店。刺身・テイクアウトも対応の地元密着型日本食レストラン。",
     "tags": [
       "寿司",
       "刺身",
@@ -10604,7 +10315,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ichi-men-no-en-sheung-wan",
@@ -10614,7 +10326,7 @@
     "address": "Shop B, G/F, 139 Wing Lok Street, Sheung Wan, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "サンポ（上環）にあるラーメン店「Ichi Men no En」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "サンポ（上環）Wing Lok Street 139号G/F BにあるラーメンSpecialist。慢煮鶏胸花蝦湯ラーメンが名物。MTR上環駅A2出口から徒歩数分。",
     "tags": [
       "ラーメン"
     ],
@@ -10632,7 +10344,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ichiban-japanese-tai-wai",
@@ -10644,7 +10357,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "タイワイ（大圍）にある日本食レストラン「Ichiban Japanese Restaurant」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "タイワイ（大圍）にある日本食レストラン。ラーメン・定食など幅広い和食メニューを提供するカジュアルな日本料理店。",
     "tags": [
       "japanese",
       "ramen",
@@ -10663,7 +10376,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ichikawa-tai-koo",
