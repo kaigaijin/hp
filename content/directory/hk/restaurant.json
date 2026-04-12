@@ -22068,12 +22068,12 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "プリンスエドワード（太子）にある太子にあるラーメン専門店。90年以上の歴史を持つ三級歴史建築内に位置し、サイバーパンク風の独特な内装が特徴。",
+    "description": "プリンスエドワード（太子）にある90年以上の歴史を持つ三級歴史建築内のラーメン専門店。サイバーパンク風の独特な内装が特徴。醤油・鶏白湯など提供。",
     "tags": [
       "ラーメン",
       "歴史建築"
     ],
-    "hours": null,
+    "hours": "Tue-Sun 12:00-15:00, 18:00-21:00（月曜定休）",
     "last_verified": "2026-03-29",
     "status": "unverified",
     "source": "web_search",
@@ -22085,35 +22085,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "ramen-shop-sheung-wan",
-    "name": "Ramen Shop",
-    "name_ja": "ラーメンショップ",
-    "area": "Sheung Wan",
-    "address": "8D Cleverly Street, Sheung Wan, Hong Kong",
-    "phone": null,
-    "website": null,
-    "description": "サンポ（上環）にあるラーメン店「Ramen Shop」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
-    "tags": [
-      "ラーメン"
-    ],
-    "lat": null,
-    "lng": null,
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ramen-taifu",
@@ -22125,7 +22098,7 @@
     "lng": 114.1713,
     "phone": "+85224874488",
     "website": "http://www.ramen-taifu.com/",
-    "description": "モンコック（旺角）にあるラーメン店「Ramen Taifu」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "モンコック（旺角）にある香港ラーメンチェーンの旺角店。昼はつけ麺、夜はラーメンを提供するスタイルで人気。2007年東京発、2012年香港初上陸。",
     "tags": [
       "ラーメン"
     ],
@@ -22154,7 +22127,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "大角咀ポクマン街にある東京発ラーメン・つけ麺専門店。2025年に旺角店から移転オープン。昼はつけ麺、夜はラーメンで二毛作営業。",
+    "description": "タイコックツイ（大角咀）にある香港人気ラーメンチェーンの大角咀店。昼はつけ麺、夜はラーメンというユニークな営業スタイル。豚骨スープが人気。",
     "tags": [
       "ラーメン",
       "豚骨"
@@ -22184,7 +22157,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ツェンワン（荃灣）にあるラーメン店「Ramen Taifu Tsuen Wan」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "ツェンワン（荃灣）にある香港人気ラーメンチェーンの荃湾店。2012年香港初出店の荃湾が第1号店。昼はつけ麺、夜はラーメンで営業。",
     "tags": [
       "ラーメン",
       "豚骨"
@@ -22201,7 +22174,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ramen-taro-tuen-mun",
@@ -22213,7 +22187,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "トゥンムン（屯門）にある屯門市廣場のラーメン・丼物店。豚肉ラーメンHK$70、燻製鴨胸肉ラーメンHK$68など手頃な価格。丼物メニューも充実。",
+    "description": "トゥンムン（屯門）の屯門市廣場にあるラーメン・丼物店。リーズナブルな価格帯のラーメンと丼が揃う。在住日本人・日本語話者も利用可。",
     "tags": [
       "japanese",
       "ramen",
@@ -22233,7 +22207,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ramen-yaichi-tko-plaza",
@@ -22245,7 +22220,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ツェンクワンオー（将軍澳）にある立ち食いスタイルの醤油ラーメン専門店。日本の有名ラーメン職人が監修したスープベースを使用。",
+    "description": "ツェンクワンオー（将軍澳）のTKO Plazaにある醤油ラーメン専門店。大阪で5年連続1位の松村隆宏氏プロデュース。ブロスは日本から空輸。",
     "tags": [
       "ラーメン"
     ],
@@ -22261,68 +22236,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "ramenya-shima-causeway-bay",
-    "name": "Ramenya Shima",
-    "name_ja": "ラーメン屋 志麻",
-    "area": "Causeway Bay",
-    "address": "Shop 1, G/F, Sugar+, 31 Sugar Street, Causeway Bay",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "東京・渋谷の名店が海外初出店。食べログ東京ラーメンTOP3に5年連続ランクイン。醤油・白醤油・塩の3種のスープを提供。1日120杯限定。",
-    "tags": [
-      "ラーメン",
-      "醤油",
-      "塩"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "ramenya-shima-cb-new",
-    "name": "Ramenya Shima",
-    "name_ja": "ラーメン屋 嶋",
-    "area": "Causeway Bay",
-    "address": "Causeway Bay, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にあるラーメン店「Ramenya Shima」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "ラーメン",
-      "東京発",
-      "海外初出店",
-      "2026年オープン"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ramenya-shima-hk",
@@ -22332,7 +22247,7 @@
     "address": "Shop 1, G/F, Sugar+, 31 Sugar Street, Causeway Bay, Hong Kong",
     "phone": "+85226027068",
     "website": "https://www.instagram.com/ramenyashima_hk/",
-    "description": "東京食べログラーメン部門トップ3常連の名店が香港初の海外店舗を2026年3月オープン。醤油・白醤油・塩の3種のスープを提供。",
+    "description": "東京食べログラーメン部門5年連続TOP3の名店が2026年3月に香港初海外出店。銅鑼湾Sugar+にて醤油・白醤油・塩の3種スープを提供。1日120杯限定。",
     "tags": [
       "ラーメン",
       "東京発",
@@ -22348,7 +22263,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ranbashi-donburi-tst",
@@ -22360,7 +22276,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある尖沙咀の海鮮丼専門店。毎日空輸の新鮮な食材を使った海鮮丼シリーズが充実。刺身丼、うに丼、サーモン丼など多彩なメニュー。",
+    "description": "チムサーチョイ（尖沙咀）にある海鮮丼専門店。日本から毎日空輸の食材を使用。きんき・アワビ・ホッキ貝など本格食材の海鮮丼が揃う。",
     "tags": [
       "japanese",
       "donburi",
@@ -22380,7 +22296,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "reiwa-shabushabu-and-sake",
@@ -22392,7 +22309,7 @@
     "lng": 114.1696,
     "phone": "+85262852537",
     "website": "https://www.facebook.com/%E4%BB%A4%E5%92%8C%E9%8D%8B%E7%89%A9%E9%85%92%E5%A0%B4-%E5%BD%8C%E6%95%A6%E9%81%93%E5%BA%97-111615650352836/?modal=admin_todo_tour",
-    "description": "モンコック（旺角）にあるしゃぶしゃぶ・鍋料理店「Reiwa ShabuShabu & Sake」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "モンコック（旺角）のネイザンロード沿いにあるしゃぶしゃぶ・日本酒専門店。深夜2時まで営業。日本産食材を使った鍋物と豊富な日本酒ラインナップ。",
     "tags": [
       "しゃぶしゃぶ"
     ],
@@ -22408,38 +22325,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "reiwa-shabushabu-sake",
-    "name": "Reiwa Shabu Shabu & Sake",
-    "name_ja": "令和しゃぶしゃぶ＆酒",
-    "area": "Wan Chai",
-    "address": "Wan Chai, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "ワンチャイ（湾仔）にあるしゃぶしゃぶ・鍋料理店「Reiwa Shabu Shabu & Sake」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "しゃぶしゃぶ",
-      "日本酒",
-      "居酒屋",
-      "和牛"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "robata-kim-tst",
@@ -22451,7 +22338,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある日本食レストラン「Robata Kim」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "チムサーチョイ（尖沙咀）のThe Cameronにある炉端焼き居酒屋「Robata Kim（炉端 金）」。食べ放題プランあり。炭火焼きの串料理と日本酒が楽しめる。",
     "tags": [
       "炉端焼き",
       "食べ放題"
@@ -22468,7 +22355,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "robata-zawazawa-central",
@@ -22480,7 +22368,7 @@
     "lng": null,
     "phone": "+85225369898",
     "website": null,
-    "description": "セントラル（中環）にある日本食レストラン「Robata Zawazawa」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "セントラル（中環）の蘭桂坊エリアにある炉端焼きレストラン「Robata Zawazawa（炉端 ざわざわ）」。炭火焼きの和食と日本酒を蘭桂坊で楽しめる。",
     "tags": [
       "炉端焼き",
       "蘭桂坊"
@@ -22497,33 +22385,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "robataya-hk",
-    "name": "Robataya Hong Kong",
-    "name_ja": "炉端焼 香港",
-    "area": "Wan Chai",
-    "address": "Wan Chai, Hong Kong",
-    "phone": null,
-    "website": null,
-    "description": "ワンチャイ（湾仔）にある日本式の炉端焼き居酒屋。長い木の棒でカウンター越しに料理を渡すスタイルが特徴。炭火で焼く魚介と野菜が絶品。",
-    "tags": [
-      "炉端焼き",
-      "居酒屋",
-      "炭火焼"
-    ],
-    "hours": "18:00〜23:00",
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "robatayaki-harbour-grand-kowloon",
@@ -22535,7 +22398,7 @@
     "lng": null,
     "phone": "+85229968438",
     "website": "https://www.harbourgrand.com/kowloon/en/dining/restaurant-400.html",
-    "description": "フンホム（紅磡）にあるハーバーグランド九龍ホテル内の炉端焼きレストラン。世界中から厳選した食材を炭火焼き・鉄板焼き・寿司で提供。",
+    "description": "フンホム（紅磡）のハーバーグランド九龍ホテル内の炉端焼きレストラン。ミシュランガイド推薦3年連続。和牛・フォアグラなど30種以上の食べ放題プランあり。",
     "tags": [
       "炉端焼き",
       "鉄板焼き",
@@ -22553,39 +22416,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "robatayaki-intercontinental-hung-hom",
-    "name": "Robatayaki",
-    "name_ja": "炉端燒",
-    "area": "Hung Hom",
-    "address": "InterContinental Grand Stanford Hong Kong, 20 Tak Fung Street, Hung Hom",
-    "lat": null,
-    "lng": null,
-    "phone": "+85226213188",
-    "website": null,
-    "description": "紅磡の九龍海逸君綽酒店内のミシュランガイド推薦レストラン。3年連続推薦を獲得し、A5和牛やフォアグラなど30種類以上の日本料理が食べ放題。",
-    "tags": [
-      "robatayaki",
-      "michelin",
-      "all-you-can-eat",
-      "wagyu",
-      "hotel-restaurant"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "rock-salt-japanese-restaurant",
@@ -22597,7 +22429,7 @@
     "lng": 114.1727,
     "phone": "+85228112089",
     "website": null,
-    "description": "モンコック（旺角）にある日本食レストラン「Rock Salt Japanese Restaurant」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "モンコック（旺角）のMOKOショッピングモールにある日本料理レストラン「Rock Salt」。ランチ・ディナー営業。日本食メニューを幅広く提供する。",
     "tags": [
       "日本食"
     ],
@@ -22613,7 +22445,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "roji-lkf-central",
@@ -22625,7 +22458,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.rojihk.com/",
-    "description": "セントラル（中環）にある日本式居酒屋「Roji」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。在香港日本人・旅行者に利用されている。",
+    "description": "セントラル（中環）蘭桂坊の路地裏に2021年開業した居酒屋「路地（Roji）」。フレンチエッセンスを加えた創作和食と日本酒・カクテルを提供。14席の小箱。",
     "tags": [
       "居酒屋",
       "モダン",
@@ -22643,7 +22476,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "roka-admiralty",
@@ -22655,7 +22489,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "アドミラルティ（金鐘）にある日本式居酒屋・バー「ROKA Japanese Robata Grill」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
+    "description": "アドミラルティ（金鐘）のパシフィックプレイスにあるロンドン発日本式炉端グリルレストラン「ROKA」。高品質な食材を炭火焼きで提供する。",
     "tags": [
       "居酒屋",
       "炉端焼き",
@@ -22673,37 +22507,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "rokaku-wan-chai",
-    "name": "Rokaku",
-    "name_ja": "六覚",
-    "area": "Wan Chai",
-    "address": "Wan Chai, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "ワンチャイ（湾仔）にある日本式居酒屋「Rokaku」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
-    "tags": [
-      "居酒屋",
-      "和食",
-      "日本酒"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "rokkaku-wan-chai",
@@ -22715,7 +22520,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ワンチャイ（湾仔）にある日本料理・鮨店「Rokkaku」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "ワンチャイ（湾仔）にある小さな日本食レストラン「Rokkaku（六角）」。新鮮な刺身・寿司が中心で、うどんや天ぷらも提供。HKD300前後。在香港日本人にも人気。",
     "tags": [
       "寿司",
       "刺身"
@@ -22732,7 +22537,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "rokumaru-mong-kok",
@@ -22744,7 +22550,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "モンコック（旺角）にある旺角の女人街にある老舗カジュアル日本料理店。寿司・刺身・うどん・串焼きをリーズナブルに提供する気軽な居酒屋スタイル。",
+    "description": "モンコック（旺角）の女人街沿いにある日本料理店「六丸」。寿司・刺身・うどん・串焼きをリーズナブルに提供する居酒屋スタイル。",
     "tags": [
       "izakaya",
       "casual",
@@ -22764,7 +22570,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ronin-japanese-cuisine-wan-chai",
@@ -22776,7 +22583,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ワンチャイ（湾仔）にある日本料理・鮨店「Ronin Japanese Cuisine」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "ワンチャイ（湾仔）のキャピタルビル2階にある日本食レストラン。寿司・刺身・串焼き・天ぷら・すき焼きなど食べ放題プランあり。月〜土営業。",
     "tags": [
       "寿司",
       "刺身"
@@ -22793,7 +22600,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ronin-sheung-wan",
@@ -22805,7 +22613,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.roninhk.com/",
-    "description": "2013年開業の日本式居酒屋・バー。14席のみの小さな店で、刺身・鮨・焼き物を提供。Asia's 50 Best Restaurants選出。",
+    "description": "サンポ（上環）の小路にある2013年開業の日本式居酒屋バー。14席のみの小箱でアジアのベスト50レストランに選出。刺身・鮨・焼き物を提供。",
     "tags": [
       "寿司",
       "刺身",
@@ -22823,7 +22631,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "roppongi-japanese-restaurant",
@@ -22835,7 +22644,7 @@
     "lng": 114.1617,
     "phone": "+85225120001",
     "website": null,
-    "description": "サムサイポ（深水埗）にある日本食レストラン「Roppongi Japanese Restaurant」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "サムサイポ（深水埗）にある日本食レストラン「Roppongi（六本木）」。昼から夜まで通し営業。Google Mapsにも掲載の日本料理店。",
     "tags": [
       "日本食"
     ],
@@ -22851,7 +22660,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "roru-baru-wan-chai",
@@ -22861,7 +22671,7 @@
     "address": "G/F, 100 QRE, 100-102 Queen's Road East, Wan Chai, Hong Kong",
     "phone": "+85263175675",
     "website": null,
-    "description": "ワンチャイ（湾仔）にある香港初の手巻き寿司専門バー。厳選された鮮魚とパリッとした海苔を使い、カウンターで目の前で巻き上げるスタイル。",
+    "description": "ワンチャイ（湾仔）のQRE百番にある香港初の手巻き寿司専門バー「Roru Baru」。厳選の鮮魚とパリッとした海苔を目の前で巻くカウタースタイル。",
     "tags": [
       "手巻き寿司",
       "カウンター席"
@@ -22876,7 +22686,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ryota-kappou-modern-central",
@@ -22888,7 +22699,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.ryota.hk/",
-    "description": "セントラル（中環）にある日本料理・鮨店「Ryota Kappou Modern」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "セントラル（中環）にあるミシュラン一つ星の割烹・鮨レストラン「Ryota Kappou Modern」。おまかせコースで現代的な日本料理を提供する高級和食店。",
     "tags": [
       "割烹",
       "寿司",
@@ -22908,7 +22719,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ryumin-ryori-tuen-mun",
@@ -22920,7 +22732,7 @@
     "lng": null,
     "phone": "+85298101551",
     "website": null,
-    "description": "トゥンムン（屯門）にある日本式居酒屋「Ryumin Ryori (Tuen Mun)」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
+    "description": "トゥンムン（屯門）にある居酒屋「留民料理」。海鮮を中心とした日本料理と日本酒を提供。深夜2時まで営業。在住日本人にも利用される。",
     "tags": [
       "居酒屋",
       "海鮮"
@@ -22937,67 +22749,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "ryumin-tuen-mun",
-    "name": "Ryumin",
-    "name_ja": "留民料理",
-    "area": "Tuen Mun",
-    "address": "Tuen Mun, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "トゥンムン（屯門）にある屯門の海鮮を中心とした日本料理店。新鮮な魚介料理が自慢。落ち着いた雰囲気で本格的な和食が楽しめる。",
-    "tags": [
-      "japanese",
-      "seafood",
-      "sashimi",
-      "tuen-mun"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "saboten-causeway-bay-ramen",
-    "name": "Saboten Causeway Bay",
-    "name_ja": "勝博殿 銅鑼湾店",
-    "area": "Causeway Bay",
-    "address": "LG/F, Henry House, 42 Yun Ping Road, Causeway Bay",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にあるとんかつ専門店「Saboten Causeway Bay」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "とんかつ",
-      "チェーン"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "saboten-cb",
@@ -23007,7 +22760,7 @@
     "address": "LG/F, Henry House, 42 Yun Ping Road, Causeway Bay, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にあるとんかつ専門店「Saboten Causeway Bay」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "コーズウェイベイ（銅鑼湾）にある日本発とんかつチェーン「さぼてん」の銅鑼湾店。サクサクの衣と厳選豚肉が特徴。毎日11:30〜22:00営業。",
     "tags": [
       "とんかつ",
       "日本発チェーン"
@@ -23022,7 +22775,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "saboten-kowloon-bay-megabox",
@@ -23034,7 +22788,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "カウルーンベイ（九龍灣）にある九龍灣MegaBoxにあるとんかつ専門チェーン。サクサクの衣と上質な豚肉を使った本格とんかつ定食を提供。",
+    "description": "カウルーンベイ（九龍灣）のMegaBoxにある日本発とんかつチェーン「さぼてん」の九龍灣店。サクサクの衣と上質な豚肉を使った本格とんかつ定食を提供。",
     "tags": [
       "tonkatsu",
       "teishoku",
@@ -23052,7 +22806,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "saboten-tst",
@@ -23062,7 +22817,7 @@
     "address": "1/F, Tern Plaza, 5 Cameron Road, Tsim Sha Tsui, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "チムサーチョイ（尖沙咀）にあるとんかつ専門店「Saboten Tsim Sha Tsui」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "チムサーチョイ（尖沙咀）のTern Plazaにある日本発とんかつチェーン「さぼてん」の尖沙咀店。ミルフィーユカツも名物。毎日11:30〜22:00営業。",
     "tags": [
       "とんかつ",
       "日本発チェーン",
@@ -23078,7 +22833,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "saburo-japanese-yakiniku-tst",
@@ -23090,7 +22846,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.saburoyakiniku.com/en/",
-    "description": "チムサーチョイ（尖沙咀）にある3,000平方フィートの広々とした空間で伊賀牛、姫路牛、宮崎牛、鹿児島牛などを提供する高級焼肉店。",
+    "description": "チムサーチョイ（尖沙咀）にある高級焼肉店「Saburo（三郎）」。伊賀牛・姫路牛・宮崎牛・鹿児島牛など銘柄和牛を提供。3,000平方フィートの広大な空間。",
     "tags": [
       "焼肉",
       "和牛",
@@ -23108,7 +22864,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "saizeriya-aberdeen-centre",
@@ -23138,7 +22895,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "saizeriya-aeon-lai-chi-kok",
@@ -23168,7 +22926,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "saizeriya-aeon-tko",
@@ -23198,7 +22957,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "saizeriya-aeon-tsuen-wan",
@@ -23228,7 +22988,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "saizeriya-belgian-bank-mong-kok",
@@ -23258,7 +23019,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "saizeriya-butterfly-plaza-tuen-mun",
@@ -23288,7 +23050,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "saizeriya-chelsea-heights-tuen-mun",
@@ -23318,7 +23081,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "saizeriya-cheung-fat-tsing-yi",
@@ -23348,7 +23112,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "saizeriya-chun-shek-sha-tin",
@@ -23378,7 +23143,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "saizeriya-dawning-views-fanling",
@@ -23408,7 +23174,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "saizeriya-domain-yau-tong",
@@ -23438,7 +23205,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "saizeriya-dragon-centre-3f",
@@ -23468,7 +23236,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "saizeriya-dragon-centre-4f",
@@ -23498,7 +23267,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "saizeriya-eight-regency-tuen-mun",
