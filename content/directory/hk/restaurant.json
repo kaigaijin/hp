@@ -40599,7 +40599,7 @@
     "lng": 114.1862,
     "phone": "+85237099345",
     "website": null,
-    "description": "ハッピーバレー（跑馬地）にある日本式居酒屋「Zankyou Izakaya」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
+    "description": "ハッピーバレー（跑馬地）Sing Woo Road沿いの日本式居酒屋。日本酒・焼酎・クラフトビールを揃え、イベリコ豚串やチーズ餅など創作系のつまみが評判。",
     "tags": [
       "居酒屋"
     ],
@@ -40615,7 +40615,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "zen-by-tera-ntp",
@@ -40627,7 +40628,7 @@
     "lng": null,
     "phone": "+85226182399",
     "website": null,
-    "description": "シャーティン（沙田）にあるル・コルドン・ブルー出身シェフの日本風カフェ。白カレーうどん・かき氷が名物。New Town Plaza内。",
+    "description": "シャーティン・New Town Plaza内の日本風カフェ。ル・コルドン・ブルー出身シェフによる白カレーうどんとかき氷が看板メニュー。",
     "tags": [
       "カフェ",
       "うどん",
@@ -40646,38 +40647,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "zen-by-tera-sha-tin-ntp",
-    "name": "Zen by Tera",
-    "name_ja": "禅 by Tera",
-    "area": "Sha Tin",
-    "address": "New Town Plaza, Sha Tin, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "シャーティン（沙田）にある沙田新城市廣場のモダン日本料理レストラン。和食をベースにした創作料理を提供。洗練された空間で食事を楽しめる。",
-    "tags": [
-      "japanese",
-      "modern",
-      "creative",
-      "sha-tin"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "zen-izakaya",
@@ -40689,7 +40660,7 @@
     "lng": 114.1742,
     "phone": "+85269393284",
     "website": null,
-    "description": "ワンチャイ（湾仔）にある日本式居酒屋「Zen izakaya 善」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。在香港日本人・旅行者に利用されている。",
+    "description": "ワンチャイ（湾仔）景星街の日本式居酒屋「善」。日本酒・焼酎を揃え、和食居酒屋メニューを提供する。",
     "tags": [
       "居酒屋"
     ],
@@ -40705,7 +40676,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "zenpachi-shabu-shabu-tst",
@@ -40717,7 +40689,7 @@
     "lng": null,
     "phone": null,
     "website": "https://zenpachi.com.hk/",
-    "description": "伝統的な紙鍋しゃぶしゃぶとすき焼きを専門とする日本式鍋レストラン。ミシュランガイドで3年連続推薦（2016-2018）。",
+    "description": "尖沙咀・Canon Roadの日本式しゃぶしゃぶ・すき焼き専門店。紙鍋スタイルで提供し、ミシュランガイド2016〜2018年推薦を獲得。",
     "tags": [
       "しゃぶしゃぶ",
       "すき焼き",
@@ -40735,7 +40707,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "zi-izakaya-restaurant",
@@ -40747,7 +40720,7 @@
     "lng": 114.1527,
     "phone": "+85293227247",
     "website": null,
-    "description": "香港にある日本式居酒屋「Zi Izakaya Restaurant」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
+    "description": "中環歌賦街の日本式居酒屋。日本酒・焼酎と和食居酒屋メニューを提供する。",
     "tags": [
       "居酒屋"
     ],
@@ -40763,7 +40736,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "zi-nen-ya-north-point",
@@ -40775,7 +40749,7 @@
     "lng": null,
     "phone": "+85236919626",
     "website": null,
-    "description": "ノースポイント（北角）にある北角City Garden内の日本料理店。寿司・刺身を中心としたメニュー。MTR炮台山駅B出口から徒歩6分。",
+    "description": "北角City Garden（炮台山MTR B出口から徒歩6分）にある日本料理店。寿司・刺身を中心にしたメニューが揃う。",
     "tags": [
       "寿司",
       "刺身"
@@ -40792,35 +40766,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "zinen-ya-japanese-restaurant",
-    "name": "Zinen Ya Japanese Restaurant",
-    "name_ja": "ジネン ヤ 日本 レストラン",
-    "area": "North Point",
-    "address": "Hong Kong, North Point, Electric Rd, 233號城市花園36-38",
-    "lat": 22.2909,
-    "lng": 114.1932,
-    "phone": "+85236919626",
-    "website": null,
-    "description": "ノースポイント（北角）にある日本食レストラン「Zinen Ya Japanese Restaurant」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "日本食"
-    ],
-    "hours": "Monday: 12:00 – 3:00 PM, 6:00 – 10:30 PM / Tuesday: 12:00 – 3:00 PM, 6:00 – 11:00 PM / Wednesday: 12:00 – 3:00 PM, 6:00 – 11:00 PM / Thursday: 12:00 – 3:00 PM, 6:00 – 11:00 PM / Friday: 12:00 – 3:00 PM, 6:00 – 11:00 PM / Saturday: 12:00 – 3:00 PM, 6:00 – 11:00 PM / Sunday: 12:00 – 3:00 PM, 6:00 – 11:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJh1yRWwIBBDQRJDVfw2yQ9i8",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "zipang-japanese-dining-bar",
@@ -40832,7 +40779,7 @@
     "lng": 114.1546,
     "phone": "+85227717338",
     "website": null,
-    "description": "セントラル（中環）にある日本式バー「Zipang Japanese Dining Bar」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
+    "description": "セントラルOvolo Hotelに入る日本式ダイニングバー。おまかせコースから居酒屋風メニューまで幅広く提供。深夜まで営業。",
     "tags": [
       "居酒屋",
       "バー"
@@ -40849,35 +40796,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "zoku-restaurant-and-the-terrace-wan-chai-japanese-restaurant",
-    "name": "Zoku Restaurant & The Terrace | Wan Chai Japanese Restaurant | 灣仔日式料理餐廳",
-    "name_ja": "Zoku Restaurant & The Terrace | Wan Chai Japanese Restaurant | 灣仔日式料理餐廳",
-    "area": "Wan Chai",
-    "address": "2/F, 330 Lockhart Rd, Wan Chai, Hong Kong",
-    "lat": 22.2789,
-    "lng": 114.1782,
-    "phone": "+85221290338",
-    "website": "https://www.thehari.com/hong-kong/the-hari-hotel-hong-kong-eat-drink/zoku/",
-    "description": "ワンチャイ（湾仔）にある日本食レストラン「Zoku Restaurant & The Terrace | Wan Chai Japanese Restaurant | 灣仔日式料理餐廳」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "日本食"
-    ],
-    "hours": "Monday: 3:00 – 11:00 PM / Tuesday: 12:00 – 11:00 PM / Wednesday: 12:00 – 11:00 PM / Thursday: 12:00 – 11:00 PM / Friday: 12:00 – 11:00 PM / Saturday: 12:00 – 11:00 PM / Sunday: 12:00 – 11:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJPfVbrKQBBDQRFlgXoJZaTaE",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "zoku-the-hari-wan-chai",
@@ -40889,7 +40809,7 @@
     "lng": null,
     "phone": "+85221290388",
     "website": "https://www.thehari.com/hong-kong/the-hari-hotel-hong-kong-eat-drink/zoku/",
-    "description": "The Hari Hong Kong ホテル2階の日本料理レストラン＆テラス。アラカルトやウィークエンドブランチを提供。",
+    "description": "ワンチャイ・The Hari Hong Kong 2Fのコンテンポラリー日本料理レストラン。手巻き・炉端焼き・ウィークエンドブランチが人気。",
     "tags": [
       "ホテルレストラン",
       "日本料理",
@@ -40908,33 +40828,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "zoku-wan-chai",
-    "name": "Zoku",
-    "name_ja": "族",
-    "area": "Wan Chai",
-    "address": "2/F, The Hari Hong Kong, 330 Lockhart Road, Wan Chai, Hong Kong",
-    "phone": null,
-    "website": "https://www.thehari.com/hong-kong/the-hari-hotel-hong-kong-eat-drink/zoku/",
-    "description": "ワンチャイ（湾仔）にあるThe Hari Hong Kong内のコンテンポラリー日本料理レストラン。手巻き、炉端焼き、定食セットなど。",
-    "tags": [
-      "日本料理",
-      "炉端焼き",
-      "ホテル内"
-    ],
-    "hours": "毎日 12:00〜14:30 / 18:00〜22:30",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "zozzona-tsim-sha-tsui",
@@ -40946,7 +40841,7 @@
     "lng": null,
     "phone": "+85270738825",
     "website": "https://www.zozzona.com",
-    "description": "尖沙咀の日伊フュージョンパスタバー。Carboneの元パスタシェフ熊井貴之氏が手打ちパスタを毎日手作り。イタメシ（日本式イタリアン）を専門とし、海苔や醤油など和の食材を使ったパスタを提供。",
+    "description": "尖沙咀Hillwood RoadのイタリアンxJapanese（イタメシ）パスタバー。Carboneの元シェフが毎日手打ちするパスタに海苔・醤油など和の食材を組み合わせる。",
     "tags": [
       "フュージョン",
       "日伊料理",
@@ -40965,7 +40860,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "zuicho-sheung-wan",
@@ -40977,7 +40873,7 @@
     "lng": null,
     "phone": null,
     "website": "https://zuicho-kappo.com/",
-    "description": "サンポ（上環）にあるミシュラン一つ星の割烹料理店。鈴木文夫シェフが率い、ヒノキのカウンターで季節の日本料理を提供。2026年に移転予定。",
+    "description": "上環の割烹料理店。鈴木文夫シェフによるヒノキカウンターのおまかせでミシュラン一つ星を保持。2026年6月末に現店舗での営業終了・移転予定。",
     "tags": [
       "割烹",
       "おまかせ",
@@ -40996,38 +40892,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "zuma-central",
-    "name": "Zuma Hong Kong",
-    "name_ja": "ズマ ホング コング",
-    "area": "Central",
-    "address": "Level 5 & 6, Landmark Atrium, 15 Queen's Road Central, Central",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "セントラル（中環）にある日本式居酒屋・バー「Zuma Hong Kong」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
-    "tags": [
-      "居酒屋",
-      "炉端焼き",
-      "日本酒",
-      "高級"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "zuma-hong-kong",
@@ -41037,7 +40903,7 @@
     "address": "5-6/F, Landmark, 15 Queen's Road Central, Hong Kong",
     "phone": "+85236576388",
     "website": "https://www.zumarestaurant.com/en/hong-kong",
-    "description": "セントラル（中環）にあるランドマーク内のコンテンポラリー日本料理レストラン。炉端焼き、寿司バー、メインダイニングの3セクション構成。",
+    "description": "セントラル・ランドマーク5〜6Fの国際的現代日本料理レストラン。炉端焼き・寿司バー・メインダイニングの3セクション構成。在香港外国人に人気の高級店。",
     "tags": [
       "高級",
       "炉端焼き",
@@ -41077,70 +40943,20 @@
         "category": "グリル"
       }
     ],
-    "price_range": "HKD 600〜1,500/人（ディナー目安）"
-  },
-  {
-    "slug": "zuma-hong-kong-central",
-    "name": "Zuma Hong Kong",
-    "name_ja": "ズマ ホング コング",
-    "area": "Central",
-    "address": "Level 5 & 6, The Landmark Atrium, 15 Queen's Road Central, Central",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.zumarestaurant.com/en/hong-kong",
-    "description": "セントラル（中環）にあるランドマーク内にある国際的な現代日本料理レストラン。寿司カウンター・炉端焼き・鉄板焼きを備える。",
-    "tags": [
-      "居酒屋",
-      "寿司",
-      "刺身",
-      "炉端焼き",
-      "高級和食"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "detail": "MTR中環駅から徒歩5分、ランドマーク5〜6階のモダン日本料理レストラン。開放的なロバタグリルと寿司カウンターを持ち、ビクトリアハーバーを望む洗練された空間。イザカヤナイト（月〜水）はHKD 298/人で串5本と1時間飲み放題。",
-    "menu": [
-      {
-        "name": "イザカヤナイト（串5本+1時間飲み放題）",
-        "price": "HKD 298/人",
-        "category": "セット"
-      },
-      {
-        "name": "グリル枝豆（レモン・七味唐辛子）",
-        "price": "要確認",
-        "category": "アラカルト"
-      },
-      {
-        "name": "A4宮崎和牛サーロイン",
-        "price": "要確認",
-        "category": "グリル"
-      }
-    ],
-    "price_range": "HKD 600〜1,500/人（ディナー目安）"
+    "price_range": "HKD 600〜1,500/人（ディナー目安）",
+    "place_reviewed": true
   },
   {
     "slug": "zzz-souffle-pancake-sham-shui-po",
     "name": "Zzz Souffle Pancake",
     "name_ja": "Zzz ソウッフレ パンケーキ",
     "area": "Sham Shui Po",
-    "address": "Western Kowloon Centre, Sham Shui Po",
+    "address": "Shop 6FC48-50, Food Court, 6/F, Dragon Centre, 37K Yen Chow Street, Sham Shui Po",
     "lat": null,
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "サムサイポ（深水埗）にある日本食レストラン「Zzz Souffle Pancake」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "深水埗Dragon Centre 6FフードコートにあるJapanese-styleスフレパンケーキ専門店。ふわふわの食感とティラミス等の創作フレーバーが人気。",
     "tags": [
       "dessert",
       "souffle-pancake",
@@ -41158,7 +40974,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "大山日本料理",
@@ -41170,7 +40987,7 @@
     "lng": 114.1709,
     "phone": "+85234264948",
     "website": "https://www.openrice.com/zh/hongkong/r-%E5%A4%A7%E5%B1%B1%E6%97%A5%E6%9C%AC%E6%96%99%E7%90%86-%E6%97%BA%E8%A7%92-%E6%97%A5%E6%9C%AC%E8%8F%9C-r716256",
-    "description": "モンコック（旺角）にある日本食レストラン「大山日本料理」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "旺角の日本懐古スタイル居酒屋。鰻魚炒飯・三文魚海膽飯など個性的な一品が揃い、リーズナブルな価格で在住者に人気。",
     "tags": [
       "日本食"
     ],
@@ -41186,45 +41003,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "hide-chan-ramen",
-    "name": "Hide-Chan Ramen",
-    "name_ja": "ヒデチャン ラーメン",
-    "area": "Central",
-    "address": "UG/F, The Loop, 33 Wellington Street, Central, Hong Kong",
-    "phone": "+85225225990",
-    "phone_local": null,
-    "email": null,
-    "website": null,
-    "source_url": "https://www.sassyhongkong.com/city-guide/hide-chan-ramen/",
-    "description": "24時間以上炊いた濃厚豚骨スープが自慢。2011年オープンのセントラル老舗ラーメン店。",
-    "detail": "2011年にオープンしたセントラルの本格博多豚骨ラーメン店。24時間以上炊き込んだ豚骨スープと自家製麺が特徴。替え玉制度あり。ウェリントンストリートのザ・ループ地下に位置しアクセスも便利。ランチタイムは地元ビジネスマンや在住日本人でにぎわう。チャーシューや半熟卵などトッピングも充実。",
-    "menu": [
-      "豚骨ラーメン",
-      "黒ラーメン",
-      "替え玉",
-      "チャーシュー麺"
-    ],
-    "price_range": "HK$80〜150（約1,500〜2,800円）",
-    "tags": [
-      "ラーメン",
-      "豚骨",
-      "セントラル",
-      "日本人向け"
-    ],
-    "hours": "11:30〜22:00",
-    "status": "unverified",
-    "last_verified": "2026-04-05",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "torihana-tei-ramen",
@@ -41237,7 +41017,7 @@
     "email": null,
     "website": null,
     "source_url": "https://www.tripadvisor.com/Restaurant_Review-g294217-d8261309-Reviews-Torihana_Tei_Japanese_Ramen_Restaurant-Hong_Kong.html",
-    "description": "鶏白湯スープが絶品の灣仔の鶏専門ラーメン店。日本直送の鶏を使った秘伝レシピが人気。",
+    "description": "ワンチャイCross Laneの鶏専門ラーメン店。濃厚な鶏白湯スープの1番ラーメンが看板で、炸雞・餃子も人気。日本人オーナーが経営。",
     "detail": "灣仔（ワンチャイ）のワー・トー・ビル内にある鶏ラーメン専門店。1号ラーメンは特製鶏白湯スープにサッポロ麺を組み合わせた人気メニュー。唐揚げや餃子などサイドも充実。MTR灣仔駅A3出口から徒歩6分。ランチ11:30〜15:00、ディナー18:00〜22:00営業。在住日本人に口コミで広まった名店。",
     "menu": [
       "1号ラーメン（鶏白湯）",
@@ -41262,7 +41042,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mensho-furyu",
@@ -41275,7 +41056,7 @@
     "email": null,
     "website": null,
     "source_url": "https://www.tripadvisor.com/Restaurant_Review-g294217-d23142650-Reviews-Mensho_Furyu-Hong_Kong.html",
-    "description": "黒トリュフ豚骨や辛味噌など独創的なフレーバーが揃う東京発のクリエイティブラーメン店。",
+    "description": "ワンチャイ・Hennessy Roadのクリエイティブラーメン店。豚骨・海老味噌など2種のスープベース。MSG不使用でスープを飲み干せると評判。",
     "detail": "東京発祥の麺匠グループによる香港店。黒トリュフ入り豚骨ラーメンや辛味噌ラーメンなど個性的なメニューが揃う。灣仔のヘネシーロード沿いに位置し、香港のラーメン好きに高く評価されている。日本のラーメン文化を超えた創作系の一杯を楽しみたい方におすすめ。",
     "menu": [
       "黒トリュフ豚骨ラーメン",
@@ -41299,7 +41080,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "menya-kanki",
@@ -41312,7 +41094,7 @@
     "email": null,
     "website": null,
     "source_url": "https://www.elementshk.com/eng/elements/dining/menya-kanki",
-    "description": "エレメンツモール内にある超極太麺のつけ麺専門店。濃厚魚介豚骨スープとのコンビが絶品。",
+    "description": "エレメンツモール（MTR九龍駅上）のつけ麺専門店。超極太麺と濃厚魚介豚骨スープの組み合わせが売り。",
     "detail": "九龍の大型ショッピングモール「ELEMENTS（圓方）」内にある本格つけ麺専門店。超極太のモチモチ麺と濃厚な魚介豚骨スープの組み合わせが評判。麺量は並・大・特大から選択可能。日本のつけ麺文化を香港で楽しめる数少ないスポットで、在住日本人をはじめラーメン通にも人気。",
     "menu": [
       "つけ麺（並/大/特大）",
@@ -41336,7 +41118,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "aya-ramen",
@@ -41349,7 +41132,7 @@
     "email": null,
     "website": null,
     "source_url": "https://en.tripadvisor.com.hk/Restaurant_Review-g294217-d14800841-Reviews-Aya-Hong_Kong.html",
-    "description": "石塘咀の住宅街に佇む醤油ラーメン専門店。地元在住日本人に愛される隠れ家的な一軒。",
+    "description": "石塘咀Whitty Streetの隠れ家的つけ麺店。日本人オーナーによる自家製麺と3種のスープ（豚骨・黒ニンニク・海老味噌）が選べる。",
     "detail": "石塘咀（シェクトンツイ）の閑静な住宅街にある醤油ラーメン専門店。鶏と醤油をベースにした透き通ったスープが特徴で、香港西部エリアに住む日本人在住者や地元民に口コミで広まった人気店。観光エリアからは少し離れているが、本格的なラーメンを求めて遠くから訪れるファンも多い。",
     "menu": [
       "醤油ラーメン",
@@ -41374,7 +41157,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tenno-ramen",
@@ -41387,7 +41171,7 @@
     "email": null,
     "website": null,
     "source_url": "https://www.tripadvisor.com/Restaurant_Review-g294217-d10392222-Reviews-Tenno_Ramen_Hung_Hom-Hong_Kong.html",
-    "description": "紅磡の黃埔エリアにある人気ラーメン店。MTRウォンポー駅から徒歩2分の好立地。",
+    "description": "紅磡Tak Man Streetのラーメン店。白・赤・黒の3種と期間限定の豚骨ラーメンを提供。MTR黄埔駅から徒歩約2分。",
     "detail": "紅磡（ホンハム）の黃埔（ファンポー）エリアに位置するラーメン専門店。2024年開業のMTRウォンポー駅から徒歩2分というアクセスの良さが魅力。豚骨ラーメンをはじめ様々なスタイルのラーメンを提供。黃埔ガーデンや周辺の住宅街に住む日本人在住者のランチ・ディナーの定番スポット。",
     "menu": [
       "豚骨ラーメン",
@@ -41412,7 +41196,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yatchabar",
@@ -41425,7 +41210,7 @@
     "email": null,
     "website": "https://www.yatchabar.hk",
     "source_url": "https://www.yatchabar.hk/",
-    "description": "ワギューマフィア系列の清酒専門バー。30種以上の日本酒とイザカヤ料理を提供する。",
+    "description": "ワンチャイのワギューマフィア系列・日本酒専門バー。100種以上の日本酒を取り揃え、串カツ・おばんざい・鉄板料理と合わせて楽しめる。",
     "detail": "香港のWagyumafia創業者・浜田寿人氏が手がける清酒専門バー。30種類以上の日本酒をグラスまたはボトルで楽しめる10席のシェフカウンターと立席テーブルを備えた個性派の空間。和牛をはじめとするイザカヤ料理も充実。Wagyumafia本店（同ビル内）との食べ歩きも可能。火〜土曜18:00以降営業。日本語対応可能。",
     "menu": [
       "日本酒（30種以上）",
@@ -41450,7 +41235,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kuma-ramen-jordan",
@@ -41463,7 +41249,7 @@
     "email": null,
     "website": null,
     "source_url": "https://www.sassyhongkong.com/eat-drink-best-ramen-noodles-japanese-food-hong-kong-island-kowloon/",
-    "description": "佐敦エリアの人気ラーメン店。濃厚豚骨スープと自家製麺が評判で九龍在住者に人気。",
+    "description": "佐敦Parkes Streetのラーメン店「熊拉麺」。12時間炊いた豚骨スープと5種のスープベースが選べる本格派。九龍在住者に人気。",
     "detail": "佐敦（ジョーダン）エリアのパークス・ストリートに位置するラーメン専門店。濃厚な豚骨スープと自家製麺の組み合わせが地元ファンに愛されており、九龍エリアに住む日本人在住者にも広く利用されている。上環（シャンワン）にも支店あり。",
     "menu": [
       "豚骨ラーメン",
@@ -41488,7 +41274,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kuma-ramen-sheung-wan",
@@ -41501,7 +41288,7 @@
     "email": null,
     "website": null,
     "source_url": "https://www.sassyhongkong.com/eat-drink-best-ramen-noodles-japanese-food-hong-kong-island-kowloon/",
-    "description": "上環エリアにある熊ラーメンの支店。香港島西部在住の日本人に利用される本格ラーメン店。",
+    "description": "上環Jervois Streetの熊拉麺支店。香港島西部在住の日本人に利用されるリーズナブルな本格豚骨ラーメン店。",
     "detail": "上環のジャービス・ストリートにある熊ラーメンの支店。香港島西部エリアに住む日本人在住者や周辺で働くビジネスパーソンに人気。佐敦本店と同様の濃厚豚骨スープを提供しており、地元客にも愛される一軒。",
     "menu": [
       "豚骨ラーメン",
@@ -41525,7 +41312,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kaneko-hannosuke-wan-chai",
@@ -41538,7 +41326,7 @@
     "email": null,
     "website": "https://www.kaneko-hannosuke.com",
     "source_url": "https://hongkonglei.com/en/unagiyondaimekikukawa/",
-    "description": "東京・日本橋の天丼名店「金子半之助」が香港に展開。利東街の便利な立地で名物天丼を提供。",
+    "description": "日本橋発の天丼名店「金子半之助」のワンチャイ店。利東街（Lee Tung Avenue）に立地し、名物の江戸前天丼を提供。",
     "detail": "東京・日本橋の天丼名店「金子半之助」の香港灣仔利東街（リートン・アベニュー）店。名物の海老天丼はサクサクに揚げた天ぷらと秘伝タレのご飯の組み合わせが絶品。手頃な価格で本格天丼を楽しめると在住日本人に大人気。奥海城（西九龍）と東涌にも支店あり。",
     "menu": [
       "天丼",
@@ -41562,7 +41350,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kaneko-hannosuke-olympian-city",
@@ -41575,7 +41364,7 @@
     "email": null,
     "website": "https://www.kaneko-hannosuke.com",
     "source_url": "https://hongkonglei.com/en/unagiyondaimekikukawa/",
-    "description": "西九龍・奥海城ショッピングモール内にある金子半之助の香港支店。名物天丼を気軽に楽しめる。",
+    "description": "西九龍・奥海城（Olympian City）にある金子半之助の香港店。モール内で気軽に江戸前天丼が楽しめる。",
     "detail": "西九龍の奥海城（オリンピアンシティ）ショッピングモールのG/F（グラウンドフロア）にある金子半之助の支店。東京・日本橋で人気の名物天丼がここでも楽しめる。西九龍文化区周辺や佐敦・旺角エリアに住む日系ファミリーに人気のランチスポット。",
     "menu": [
       "天丼",
@@ -41599,7 +41388,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tori-kin",
@@ -41612,7 +41402,7 @@
     "email": null,
     "website": null,
     "source_url": "https://www.openrice.com/en/hongkong/r-tori-kin-tsim-sha-tsui-japanese-skewer-r754877",
-    "description": "尖沙咀の高層ビルにある本格焼き鳥居酒屋。厚福街のランブトン・タワー21階に位置。",
+    "description": "尖沙咀Hau Fook Street・The Lamma Tower 21Fの焼き鳥居酒屋。ミンチチキンボール・鶏胸肉の大葉巻きなどが定番メニュー。",
     "detail": "尖沙咀（ツィムシャーツイ）の厚福街にある本格焼き鳥居酒屋。ランブトン・タワーの21階に位置し、夜景を楽しみながら本格焼き鳥を味わえる。同ビルには他の日本食レストランも入居。居酒屋スタイルで様々な串焼きやつまみが楽しめる。",
     "menu": [
       "焼き鳥各種",
@@ -41638,7 +41428,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "izakaya-rutsuki",
@@ -41651,7 +41442,7 @@
     "email": null,
     "website": null,
     "source_url": "https://www.openrice.com/en/hongkong/r-izakaya-rutsuki-tsim-sha-tsui-japanese-skewer-r818981",
-    "description": "尖沙咀の厚福街にある居酒屋串焼き店。日本の和紙傘をあしらった内装も印象的。",
+    "description": "尖沙咀Hau Fook Street・The Lamma Tower 2Fの串焼き居酒屋。和紙傘の内装が印象的で、ランチ定食から夜の串焼きまで提供。",
     "detail": "尖沙咀のランブトン・タワー2階にある居酒屋。日本の和紙傘を天井に飾った個性的なインテリアが特徴。各種肉や野菜の串焼きが充実しており、MTR尖東駅B2出口から徒歩4分とアクセスも良好。月〜日曜18:00〜深夜0:00営業。在住日本人グループの飲み会にも人気。",
     "menu": [
       "串焼き各種",
@@ -41677,7 +41468,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "siu-siu",
@@ -41690,7 +41482,7 @@
     "email": null,
     "website": null,
     "source_url": "https://thebeat.asia/hong-kong/delish/reviews/siu-siu-izakaya",
-    "description": "上環の活気ある居酒屋兼鉄板焼き店。Censuシェフ・佐藤俊氏が手がける最新スポット。",
+    "description": "上環Bonham StrandのCensuシェフ・佐藤俊氏が手がけるモダン居酒屋兼鉄板焼き店。香港最大級の日本酒セレクションを誇る。",
     "detail": "上環（シャンワン）のボンハム・ストランドにある居酒屋兼鉄板焼きコンセプトのレストラン。ミシュラン掲載レストランCensuのシェフ・佐藤俊氏によるカジュアル業態。酔い海老の紹興酒漬けや箱寿司のさいの目刺身丼など個性的なメニューが揃う。香港最大級のサケセレクションも魅力。",
     "menu": [
       "鉄板焼き各種",
@@ -41715,7 +41507,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "coco-ichibanya-hysan-place",
@@ -41734,7 +41527,7 @@
       "銅鑼灣",
       "Hysan Place"
     ],
-    "description": "銅鑼灣Hysan Place内にある日本発のカレーチェーン。カスタマイズ自在のカレーライスが人気。",
+    "description": "銅鑼灣Hysan Place 11FにあるCoCo壱番屋。辛さ・トッピングをカスタマイズできるカレーライスが在住者・観光客ともに人気。",
     "detail": "CoCo壹番屋（CoCo Ichibanya）は日本最大のカレーライスチェーン。銅鑼灣のHysan Place 11Fに位置し、MTR銅鑼灣駅からも近い便利な立地。カレーの辛さ・トッピング・量を細かくカスタマイズできるスタイルで、日本でおなじみの味を香港でも楽しめる。ロースカツカレー・チキンカレー・シーフードカレーなど定番メニューが揃う。日本人在住者だけでなく現地の日本食ファンにも人気。",
     "menu": [
       {
@@ -41762,7 +41555,8 @@
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "coco-ichibanya-amoy-plaza",
@@ -41781,7 +41575,7 @@
       "九龍湾",
       "Amoy Plaza"
     ],
-    "description": "九龍湾Amoy Plaza内にあるCoCo壹番屋。九龍東部エリアへのアクセスが良好。",
+    "description": "九龍湾Amoy Plaza（淘大商場）にあるCoCo壱番屋。九龍東部エリアからアクセスしやすい立地。",
     "detail": "CoCo壹番屋の九龍湾（Kowloon Bay）店は、Amoy Plaza Phase 3のG/Fに位置する。MTR観塘線・九龍湾駅から徒歩圏内。日本のカレーチェーンとしておなじみの品揃えで、辛さ・量・トッピングをカスタマイズして自分だけの一皿を作れるのが魅力。九龍東部のビジネス街に近く、会社帰りのランチ・夕食として利用する日本人ビジネスパーソンも多い。",
     "menu": [
       {
@@ -41799,7 +41593,8 @@
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "coco-ichibanya-eaton-food-hall",
@@ -41818,7 +41613,7 @@
       "油麻地",
       "フードホール"
     ],
-    "description": "油麻地のEaton HKフードホール内にあるCoCo壹番屋。ホテル内のトレンドスポットで日本カレーを堪能。",
+    "description": "油麻地Eaton HKホテル内フードホールのCoCo壱番屋。トレンドスポット内で日本式カレーライスを楽しめる。",
     "detail": "Eaton HK（イートンホテル）のフードホール内に出店するCoCo壹番屋。油麻地（Yau Ma Tei）MTR駅から徒歩圏内で、九龍半島の中心部に立地。Eaton Food Hallはグルメフードホールとして話題のスポットで、その中でも日本食の代表格として人気。カスタマイズ自在のカレーライスを気軽に楽しめる。",
     "menu": [
       {
@@ -41831,7 +41626,8 @@
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "coco-ichibanya-windsor-house",
@@ -41850,7 +41646,7 @@
       "銅鑼灣",
       "Windsor House"
     ],
-    "description": "銅鑼灣Windsor House内にあるCoCo壹番屋。Gloucester Road沿いのレジャーエリアにあり、観光中にも立ち寄りやすい。",
+    "description": "銅鑼灣Windsor House内のCoCo壱番屋。Gloucester Road沿いの観光エリアに立地し、ショッピングついでに立ち寄りやすい。",
     "detail": "銅鑼灣のWindsor Houseに位置するCoCo壹番屋。Gloucester Road沿いで、銅鑼灣MTR駅から徒歩圏内。日本のカレーチェーンらしいメニューが揃い、ショッピングの合間のランチや夕食に人気。辛さ（0〜10辛）・ライスの量・トッピングを自由にカスタマイズできるスタイルが特徴。",
     "menu": [
       {
@@ -41863,7 +41659,8 @@
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "gyu-kaku-tuen-mun-plaza",
@@ -41881,7 +41678,7 @@
       "日本食",
       "屯門"
     ],
-    "description": "屯門の大型ショッピングモール・屯門市廣場内にある日系焼肉チェーン牛角の店舗。",
+    "description": "屯門市廣場（Tuen Mun Town Plaza）にある日系焼肉チェーン「牛角」。新界西部エリアで手軽に焼肉が楽しめる。",
     "detail": "牛角（Gyu-Kaku）は日本発の焼肉レストランチェーン。屯門市廣場（Tuen Mun Town Plaza）Phase 1の2Fに位置し、新界西部エリアの日本人・現地客に人気。七輪で自分で焼くスタイルで、和牛・豚・鶏・野菜を様々なタレで楽しめる。ランチセット・ディナーコース共に充実。MTR屯門駅から徒歩圏内。",
     "menu": [
       {
@@ -41904,7 +41701,8 @@
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "gyu-kaku-v-walk-sham-shui-po",
@@ -41923,7 +41721,7 @@
       "深水埗",
       "V Walk"
     ],
-    "description": "深水埗のV Walkにある牛角の焼肉店。MTR深水埗駅直結のV Walk 2Fに位置し、アクセス抜群。",
+    "description": "深水埗V Walk 2FにあるMTR深水埗駅直結の牛角。アクセス良好で、地域在住者に利用されている日系焼肉店。",
     "detail": "牛角（Gyu-Kaku）は日本発の人気焼肉チェーン。深水埗（Sham Shui Po）のV Walk 2Fに入居し、MTR深水埗駅から直結でアクセス良好。七輪焼きスタイルで和牛・豚・鶏・海鮮を楽しめる。深水埗エリアはリーズナブルな食の街で知られ、牛角は手軽に焼肉が楽しめる定番スポット。",
     "menu": [
       {
@@ -41946,7 +41744,8 @@
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "gyu-kaku-kornhill-plaza",
@@ -41965,7 +41764,7 @@
       "鰂魚涌",
       "康怡廣場"
     ],
-    "description": "鰂魚涌・康怡廣場にある牛角の焼肉店。香港島東部エリアの日本人ファミリーや在住者に人気。",
+    "description": "鰂魚涌（Quarry Bay）の康怡廣場（Kornhill Plaza）にある牛角。香港島東部エリアの在住者・ファミリーに人気の日系焼肉チェーン。",
     "detail": "牛角（Gyu-Kaku）鰂魚涌店は、香港島東部の康怡廣場（Kornhill Plaza）2Fに位置する。MTR港島線・太古駅から近く、太古城・康怡エリアに居住する日本人ファミリーが気軽に利用できる焼肉レストラン。七輪スタイルで肉・野菜を自分で焼いて楽しむ日本式焼肉を提供。",
     "menu": [
       {
@@ -41983,7 +41782,8 @@
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "gyu-kaku-formwell-gardens",
@@ -42002,7 +41802,7 @@
       "柴湾",
       "形薈"
     ],
-    "description": "柴湾の形薈（Formwell Gardens）内にある牛角。香港島東端エリアで気軽に焼肉が楽しめる。",
+    "description": "柴湾・形薈（Formwell Gardens）内の牛角。香港島東端エリアで利用できる日系焼肉店。",
     "detail": "牛角（Gyu-Kaku）の柴湾（Chai Wan）店。形薈（Formwell Gardens）Level 1に入居し、MTR港島線・柴湾駅から近い。香港島東端部の住宅エリアに位置し、地域住民が気軽に利用できる焼肉スポット。七輪スタイルで和牛・豚・鶏・海鮮を楽しめる。",
     "menu": [
       {
@@ -42020,7 +41820,8 @@
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "gyu-sou-ichuya-causeway-bay",
@@ -42039,14 +41840,15 @@
       "銅鑼灣",
       "JETRO認定"
     ],
-    "description": "銅鑼灣の登龍街エリアにある牛肉料理と酎屋を組み合わせた居酒屋スタイルのレストラン。",
+    "description": "銅鑼灣Tang Lung Street 22Fにある牛肉部位串焼き専門の居酒屋。A4・A5宮崎牛などを使った牛タン・ホルモンほぼ全部位を串で提供。",
     "detail": "牛惣居酎屋（Gyu Sou Ichuya）は銅鑼灣のEvergain Centre（永光中心）22Fに位置する日本スタイルの居酒屋レストラン。牛肉を中心とした日本料理と豊富なドリンクメニューを組み合わせたコンセプトで、JETRO日本食・食文化海外普及認定店にも登録されている。銅鑼灣の飲食激戦区に位置し、夜の会食・宴会にも対応。",
     "menu": null,
     "source_url": "https://japan-food.jetro.go.jp/library/aboutsupporter/restaurant/Northeast_Asia/HongKong.pdf",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "hungry-monkey-causeway-bay",
@@ -42065,14 +41867,15 @@
       "銅鑼灣",
       "JETRO認定"
     ],
-    "description": "銅鑼灣の登龍街エリアにある日本フュージョン料理レストラン。JETRO日本食認定店。",
+    "description": "銅鑼灣Tang Lung StreetのSoundwill Plaza II内にある日本式鉄板焼きフュージョンレストラン。タイ風お好み焼きなど個性的なアレンジが楽しめる。",
     "detail": "Hungry Monkeyは銅鑼灣の金朝陽中心二期（CNT Tower Phase 2）G/FにあるJETRO認定の日本食・フュージョンレストラン。登龍街一帯の飲食スポットのひとつとして、ランチ・ディナー共に地元客と観光客に利用される。日本の食材・調理法を活かしたメニューを提供。",
     "menu": null,
     "source_url": "https://japan-food.jetro.go.jp/library/aboutsupporter/restaurant/Northeast_Asia/HongKong.pdf",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "keisetsu-causeway-bay",
@@ -42091,14 +41894,15 @@
       "Aura",
       "JETRO認定"
     ],
-    "description": "銅鑼灣のAura on PenningtonにあるJETRO認定の日本料理店。渣甸街のレジャースポットに位置する。",
+    "description": "銅鑼灣Jardine's Bazaar・Aura on Pennington 7Fの高級日本料理おまかせ店。寿司・刺身を中心に提供し、一人HKD800以上のハイエンドな食体験。",
     "detail": "蛍雪（Keisetsu）は銅鑼灣・渣甸街（Jardine's Bazaar）66号のAura on Pennington 7Fに位置するJETRO認定の日本料理レストラン。銅鑼灣はHaven Streetなど日系飲食店が集中するエリアで、この店もその一角に位置する。日本の食材・調理法にこだわったメニューを提供し、香港在住の日本人グルメに知られる存在。",
     "menu": null,
     "source_url": "https://japan-food.jetro.go.jp/library/aboutsupporter/restaurant/Northeast_Asia/HongKong.pdf",
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "onyasai-harbour-city",
@@ -42117,7 +41921,7 @@
       "日本食",
       "海港城"
     ],
-    "description": "尖沙咀・Harbour CityのLCX内にある日本発の野菜しゃぶしゃぶチェーン「温野菜」。",
+    "description": "尖沙咀・Harbour City LCX内の日本発野菜しゃぶしゃぶチェーン「温野菜」。新鮮野菜たっぷりのヘルシーな鍋料理が人気。",
     "detail": "温野菜（Onyasai）は野菜を中心としたしゃぶしゃぶが楽しめる日本発のレストランチェーン。尖沙咀のHarbour City（海港城）Ocean Terminal 3FのLCXゾーンに位置し、ショッピングのついでに利用しやすい。新鮮野菜・豚・牛・海鮮を昆布出汁や豆乳鍋など多彩なスープで楽しめる。ヘルシー志向の女性・ファミリーに人気。",
     "menu": [
       {
@@ -42140,7 +41944,8 @@
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "onyasai-plaza-2000",
@@ -42159,7 +41964,7 @@
       "日本食",
       "銅鑼灣"
     ],
-    "description": "銅鑼灣のPlaza 2000にある温野菜。Russell Street沿いの利便性の高いロケーション。",
+    "description": "銅鑼灣Plaza 2000にある温野菜。Russell Street沿いの好立地で、ショッピング後の食事にも便利な野菜しゃぶしゃぶ店。",
     "detail": "温野菜（Onyasai）は野菜しゃぶしゃぶの日本発チェーン。銅鑼灣のPlaza 2000（2000年廣場）4F全フロアに展開するJETRO認定の大型店舗。Russell StreetはMTR銅鑼灣駅に近く、ショッピングの中心地。野菜たっぷりのしゃぶしゃぶをリーズナブルな価格で楽しめる。ファミリー・グループにも対応した広い空間。",
     "menu": [
       {
@@ -42177,7 +41982,8 @@
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "onyasai-cityplaza",
@@ -42196,7 +42002,7 @@
       "日本食",
       "太古"
     ],
-    "description": "太古城のCityplazaにある温野菜。香港島東部の日本人ファミリーに身近な野菜しゃぶしゃぶ店。",
+    "description": "太古城Cityplaza 3Fにある温野菜。香港島東部在住の日本人ファミリーが多く利用するしゃぶしゃぶ店。",
     "detail": "温野菜（Onyasai）の太古城（Taikoo）店。MTR港島線・太古駅直結のCityplaza Level 3に位置し、太古城・康怡エリアに多く住む日本人ファミリーに人気のレストラン。野菜中心のしゃぶしゃぶで健康的な食事が楽しめる。子連れにも入りやすい雰囲気で、在住日本人から定番スポットとして親しまれている。",
     "menu": [
       {
@@ -42214,7 +42020,8 @@
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "hikinikuto-kome-ifc-central",
@@ -42233,7 +42040,7 @@
       "IFC",
       "セントラル"
     ],
-    "description": "セントラルのIFCモール内にある「挽肉と米」香港店。東京発の人気ハンバーグ定食専門店が香港初上陸。",
+    "description": "セントラルIFCモール4Fにある「挽肉と米」（Hikiniku to Come）香港1号店。東京・吉祥寺発で炭火で焼く90gパティ3枚と無限ライスのセット1品のみ。",
     "detail": "「挽肉と米」は東京でも大行列ができる人気のハンバーグ定食専門店。IFCモール（国際金融中心）Level 4テラスに入居する香港1号店として注目を集めた。その場で挽いた肉で作る手ごねハンバーグと白ご飯というシンプルなコンセプトで、日本でも連日行列が絶えない。セントラルのビジネス街という立地で日本人駐在員・旅行者を中心に人気。",
     "menu": [
       {
@@ -42256,7 +42063,8 @@
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "hikinikuto-kome-harbour-city",
@@ -42275,7 +42083,7 @@
       "海港城",
       "尖沙咀"
     ],
-    "description": "尖沙咀・Harbour Cityにある「挽肉と米」香港2号店。九龍側のショッピングモールで東京の人気ハンバーグを楽しめる。",
+    "description": "尖沙咀Harbour City・Gateway Arcade 3Fにある「挽肉と米」香港2号店。整理券制で行列ができる人気ハンバーグ定食専門店。",
     "detail": "「挽肉と米」はその場で挽いたひき肉のハンバーグと白ご飯を提供する東京発の人気専門店。Harbour City（海港城）Gateway Arcade Level 3に入居する九龍側店舗。MTR尖沙咀駅に近く、ショッピングのついでに立ち寄れる。シンプルながら本格的な挽きたてハンバーグ定食を提供。日本人観光客・在住者に人気。",
     "menu": [
       {
@@ -42293,7 +42101,8 @@
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "coco-ichibanya-silvercord",
@@ -42312,7 +42121,7 @@
       "尖沙咀",
       "Silvercord"
     ],
-    "description": "尖沙咀のSilvercord（新港中心）にあるCoCo壱番屋。Canton Road沿いのショッピングエリアに位置。",
+    "description": "尖沙咀・Silvercord（新港中心）3FにあるCoCo壱番屋。Canton Road沿いのショッピング途中に立ち寄れる日本式カレー店。",
     "detail": "CoCo壱番屋の尖沙咀Silvercord店は、Canton Road（廣東道）30号の新港中心3Fに位置する。海港城（Harbour City）に近く、尖沙咀ショッピングエリアの中心部。カスタマイズ自在のカレーライスを楽しめる日本式カレーチェーン。ショッピング中の軽食・食事に気軽に立ち寄れる立地。",
     "menu": [
       {
@@ -42330,7 +42139,8 @@
     "source": "web_search",
     "status": "unverified",
     "ai_reviewed": true,
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "place_reviewed": true
   },
   {
     "slug": "coco-ichibanya-megabox",
