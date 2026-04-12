@@ -3331,7 +3331,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "izakaya-gonpachi-taipei",
@@ -3358,7 +3359,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "izakaya-matsuri-zhongshan",
@@ -3368,7 +3370,7 @@
     "address": "Zhongshan District, Taipei",
     "phone": null,
     "website": null,
-    "description": "台北中山エリアの居酒屋「Matsuri（まつり）」。お祭りをテーマにした内装で、日本酒・焼き物・揚げ物などを活気ある雰囲気で楽しめる。",
+    "description": "台北中山エリアのお祭りテーマ居酒屋。焼き物・揚げ物・日本酒を活気ある雰囲気で楽しめる。林森北路周辺の人気スポット。",
     "tags": [
       "居酒屋",
       "日本酒",
@@ -3384,33 +3386,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "izakaya-restaurant",
-    "name": "IZAKAYA Restaurant",
-    "name_ja": "居酒屋 レストラン",
-    "area": "Taichung",
-    "address": "No. 289號, Dadun 11th St, Nantun District, Taichung City, Taiwan 408",
-    "phone": "+886423208950",
-    "website": "https://www.instagram.com/100_millioncup?igsh=cmdkOGR5cmk0NW9l&utm_source=qr",
-    "description": "日本式の居酒屋スタイルで楽しめる台中市内の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみをそろえている。",
-    "tags": [
-      "居酒屋",
-      "日本酒",
-      "和風酒場"
-    ],
-    "hours": "Monday: 5:00 PM – 12:30 AM / Tuesday: 5:00 PM – 12:30 AM / Wednesday: 5:00 PM – 12:30 AM / Thursday: 5:00 PM – 12:30 AM / Friday: 5:00 PM – 12:30 AM / Saturday: 5:00 PM – 12:30 AM / Sunday: 5:00 PM – 12:30 AM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "izakaya-santora",
@@ -3420,7 +3397,7 @@
     "address": "No. 11號, Lane 131, Yanji St, Da’an District, Taipei City, Taiwan 106",
     "phone": "+886227318890",
     "website": "https://www.instagram.com/izakaya_santora/",
-    "description": "日本式の居酒屋スタイルで楽しめる台北市内の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみをそろえている。",
+    "description": "台北大安区・延吉街本店の三虎居酒屋。焼き鳥・刺身・串焼きと豊富な日本酒が揃う日本式居酒屋。InstagramはIzakaya_santora。",
     "tags": [
       "居酒屋",
       "日本酒",
@@ -3436,7 +3413,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "izakaya-santora-2",
@@ -3446,7 +3424,7 @@
     "address": "No. 45號, Lane 160, Section 1, Dunhua S Rd, Da’an District, Taipei City, Taiwan 106",
     "phone": "+886227513335",
     "website": "https://www.instagram.com/izakaya_santora/",
-    "description": "日本式の居酒屋スタイルで楽しめる台北市内の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみをそろえている。",
+    "description": "台北大安区の三虎居酒屋（大安店）。焼き鳥・刺身・串焼きと日本酒が揃う日本式居酒屋。本店（延吉街）の姉妹店。",
     "tags": [
       "居酒屋",
       "日本酒",
@@ -3462,7 +3440,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "izakaya-yoshi-linsen",
@@ -3488,7 +3467,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "japanese-bar-7th-linsen",
@@ -3516,17 +3496,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ji-shao-izakaya-restaurant",
     "name": "Ji Shao Izakaya Restaurant",
-    "name_ja": "ジ シャオ 居酒屋 レストラン",
+    "name_ja": "居酒屋ジシャオ",
     "area": "Taipei",
     "address": "No. 5之1號, Lane 59, Section 2, Zhongshan N Rd, Zhongshan District, Taipei City, Taiwan 104",
     "phone": "+886225221129",
     "website": "https://www.facebook.com/jiyaki104",
-    "description": "日本式の居酒屋スタイルで楽しめる台北中山区の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみを提供する。",
+    "description": "台北中山区の日本式居酒屋。焼き鳥・刺身・串焼きと日本酒をリーズナブルに楽しめる。Facebookページ（jiyaki104）で最新情報確認可。",
     "tags": [
       "居酒屋",
       "日本酒",
@@ -3542,17 +3523,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ji-wu-izakaya-restaurant",
     "name": "Ji Wu Izakaya Restaurant",
-    "name_ja": "ジ Wu 居酒屋 レストラン",
+    "name_ja": "居酒屋ジウ",
     "area": "Taipei",
     "address": "No. 21號, Lane 145, Linsen N Rd, Zhongshan District, Taipei City, Taiwan 10491",
     "phone": "+886225319210",
     "website": "https://lin.ee/TNhlaSn",
-    "description": "林森北路エリアの日本式居酒屋。日本酒・焼き鳥・刺身など定番の居酒屋メニューをそろえ、在台日本人が多く集まる林森北路に位置する。",
+    "description": "林森北路エリアの日本式居酒屋。日本酒・焼き鳥・刺身など定番メニューをそろえ、在台日本人が多く集まるエリアに位置する。",
     "tags": [
       "居酒屋",
       "日本酒",
@@ -3568,41 +3550,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "jian-sushi",
-    "name": "Jian Sushi",
-    "name_ja": "ジアン 寿司",
-    "area": "Taichung",
-    "address": "No. 449號, Section 2, Chongde Rd, Beitun District, Taichung City, Taiwan 406",
-    "phone": "+886422479605",
-    "website": null,
-    "description": "日本式の寿司を提供する台中市内の寿司専門店。新鮮なネタを使った握り寿司・巻き寿司を日本スタイルで台湾在住の日本人にも楽しめる。",
-    "tags": [
-      "日式寿司"
-    ],
-    "hours": "Monday: Closed / Tuesday: Closed / Wednesday: 11:00 AM – 2:00 PM, 5:00 – 9:00 PM / Thursday: 11:00 AM – 2:00 PM, 5:00 – 9:00 PM / Friday: 11:00 AM – 2:00 PM, 5:00 – 9:00 PM / Saturday: 11:00 AM – 2:00 PM, 5:00 – 9:00 PM / Sunday: 11:00 AM – 2:00 PM, 5:00 – 9:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "jicun-haixian-izakaya-restaurant",
     "name": "Jicun Haixian Izakaya Restaurant",
-    "name_ja": "Jicun Haixian 居酒屋 レストラン",
+    "name_ja": "吉村海鮮居酒屋",
     "area": "Taichung",
     "address": "No. 225號, Section 1, Xiangshang S Rd, West District, Taichung City, Taiwan 403",
     "phone": "+886424710558",
     "website": "https://www.facebook.com/%E5%90%89%E6%9D%91%E6%B5%B7%E9%AE%AE%E5%B1%85%E9%85%92%E5%B1%8B-110106267304396/",
-    "description": "日本式の居酒屋スタイルで楽しめる台中市内の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみをそろえている。",
+    "description": "台中市の海鮮系日本式居酒屋。新鮮な海産物を日本式調理法で提供し、日本酒・ビールとの組み合わせで楽しめる。",
     "tags": [
       "居酒屋",
       "日本酒",
@@ -3618,17 +3577,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "jin-izakaya-restaurant",
     "name": "Jin Izakaya Restaurant",
-    "name_ja": "Jin 居酒屋 レストラン",
+    "name_ja": "Jin居酒屋",
     "area": "Kaohsiung",
     "address": "No. 39號, Lingya 2nd Rd, Lingya District, Kaohsiung City, Taiwan 802",
     "phone": "+88673388422",
     "website": "https://www.facebook.com/jinlzakaya",
-    "description": "日本料理を提供する高雄市内の日式レストラン。日本の食材・調理法を用いた和食メニューを台湾在住の日本人・台湾人に提供する。",
+    "description": "高雄市の日本式居酒屋。焼き鳥・刺身・串焼きと日本酒をメインに提供する。FacebookページJinlzakayaで情報発信中。",
     "tags": [
       "日式"
     ],
@@ -3642,17 +3602,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "jing-izakaya-restaurant",
     "name": "Jing Izakaya Restaurant",
-    "name_ja": "ジング 居酒屋 レストラン",
+    "name_ja": "ジン居酒屋",
     "area": "Taichung",
     "address": "No. 152號, Zhongming S Rd, West District, Taichung City, Taiwan 403",
     "phone": "+886985780332",
     "website": "https://www.facebook.com/Quiet.Izakaya",
-    "description": "日本式の居酒屋スタイルで楽しめる台中市内の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみをそろえている。",
+    "description": "台中市の隠れ家的日本式居酒屋（QuietIzakaya）。静かな雰囲気で日本酒・焼き鳥・刺身などを楽しめる落ち着いた酒場。",
     "tags": [
       "居酒屋",
       "日本酒",
@@ -3668,17 +3629,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "jiu-san-tanhuo-izakaya-restaurant",
     "name": "Jiu San Tanhuo Izakaya Restaurant",
-    "name_ja": "ジウ San タンフオ 居酒屋 レストラン",
+    "name_ja": "九三炭火居酒屋",
     "area": "Taipei",
     "address": "No. 93號, Section 2, Anhe Rd, Da’an District, Taipei City, Taiwan 106",
     "phone": "+886227321313",
     "website": "https://inline.app/booking/-NmlDgca7WYB2BvYosxT:inline-live-3/-NmlDgovxWGqkJGXenHn",
-    "description": "日本式の居酒屋スタイルで楽しめる台北市内の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみをそろえている。",
+    "description": "台北市の炭火焼き系日本式居酒屋。炭火の香ばしい焼き物と日本酒・ビールを組み合わせて楽しめる。inline.appでオンライン予約可能。",
     "tags": [
       "居酒屋",
       "日本酒",
@@ -3694,17 +3656,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "jiu-sang-izakaya-restaurant",
     "name": "Jiu Sang Izakaya Restaurant",
-    "name_ja": "ジウ サング 居酒屋 レストラン",
+    "name_ja": "酒桑居酒屋",
     "area": "Kaohsiung",
     "address": "No. 112號, Sintian Rd, Sinsing District, Kaohsiung City, Taiwan 800",
     "phone": "+88672169833",
     "website": "https://www.instagram.com/jiusang9833?igsh=aDBia2trb2oxY2Zn",
-    "description": "日本式の居酒屋スタイルで楽しめる高雄市内の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみをそろえている。",
+    "description": "高雄市の日本式居酒屋「Jiu Sang（酒桑）」。焼き鳥・刺身・串焼きと日本酒をそろえる。Instagramで最新メニュー情報を発信中。",
     "tags": [
       "居酒屋",
       "日本酒",
@@ -3720,17 +3683,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "jiu-zhuo-izakaya-restaurant",
     "name": "Jiu Zhuo Izakaya Restaurant",
-    "name_ja": "ジウ Zhuo 居酒屋 レストラン",
+    "name_ja": "九桌居酒屋",
     "area": "Taichung",
     "address": "No. 121之1號, Section 2, Dongxing Rd, Nantun District, Taichung City, Taiwan 40857",
     "phone": "+886424711115",
     "website": "https://www.facebook.com/profile.php?id=100095142513448",
-    "description": "日本式の居酒屋スタイルで楽しめる台中市内の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみをそろえている。",
+    "description": "台中市の日本式居酒屋。日本酒・焼き鳥・刺身など定番居酒屋メニューをそろえ、Facebookで最新情報を発信している。",
     "tags": [
       "居酒屋",
       "日本酒",
@@ -3746,17 +3710,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "jiushi-qi-izakaya-restaurant",
     "name": "Jiushi Qi Izakaya Restaurant",
-    "name_ja": "ジウシ Qi 居酒屋 レストラン",
+    "name_ja": "九十七居酒屋",
     "area": "Taichung",
     "address": "No. 291號, Datong St, West District, Taichung City, Taiwan 403",
     "phone": "+886423235899",
     "website": "https://www.facebook.com/profile.php?id=61552806898078",
-    "description": "日本式の居酒屋スタイルで楽しめる台中市内の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみをそろえている。",
+    "description": "台中市の日本式居酒屋。日本酒・焼き鳥・刺身など定番居酒屋メニューをそろえる。Facebookページで最新情報確認可能。",
     "tags": [
       "居酒屋",
       "日本酒",
@@ -3772,17 +3737,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "jiusi-you-izakaya-restaurant",
     "name": "Jiusi You Izakaya Restaurant",
-    "name_ja": "ジウシ ヨウ 居酒屋 レストラン",
+    "name_ja": "九四悠日本料理",
     "area": "Taichung",
     "address": "No. 641號, Section 1, Taiwan Blvd, North District, Taichung City, Taiwan 40443",
     "phone": "+886422291945",
     "website": "https://www.instagram.com/jsu_945",
-    "description": "日本料理を提供する台中市内の日式レストラン。日本の食材・調理法を用いた和食メニューを台湾在住の日本人・台湾人に提供する。",
+    "description": "台中市の日本料理レストラン。日本の食材・調理法を用いた和食メニューを提供。Instagramアカウント（jsu_945）で情報発信中。",
     "tags": [
       "日式"
     ],
@@ -3796,32 +3762,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "joranjian-kushiyaki",
-    "name": "酒然間串燒居酒屋 JoRanJian kushiyaki",
-    "name_ja": "酒然間串燒居酒屋 JoRanJian kushiyaki",
-    "area": "Kaohsiung",
-    "address": "No. 37號, Lane 285, Ziqiangsan Rd, Qianjin District, Kaohsiung City, Taiwan 801",
-    "phone": "+886900037803",
-    "website": null,
-    "description": "日本式居酒屋スタイルで楽しめる高雄市内の酒場。炭火で焼き上げる串焼き・焼き鳥と日本酒・ビールのペアリングが楽しめる居酒屋。",
-    "tags": [
-      "居酒屋",
-      "日式串焼き"
-    ],
-    "hours": "Monday: 6:00 PM – 12:00 AM / Tuesday: Closed / Wednesday: 6:00 PM – 12:00 AM / Thursday: 6:00 PM – 12:00 AM / Friday: 6:00 PM – 12:00 AM / Saturday: 6:00 PM – 12:00 AM / Sunday: 6:00 PM – 12:00 AM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "jr-hayase",
@@ -3831,7 +3773,7 @@
     "address": "B1, No. 133號, Section 3, Nanjing E Rd, Zhongshan District, Taipei City, Taiwan 104",
     "phone": "+886277500932",
     "website": "https://taipei.metropolitan.tw/",
-    "description": "日本料理を提供する台北中山区の日式レストラン。日本の食材・調理法を用いた和食メニューを台湾在住の日本人・台湾人に提供する。",
+    "description": "JR東日本ホテルメトロポリタン台北内の高級日本料理レストラン「HAYASE」。台北中山区のホテル内で本格的な和食を楽しめる。",
     "tags": [
       "日式"
     ],
@@ -3864,7 +3806,8 @@
         "category": "懐石コース"
       }
     ],
-    "price_range": "TWD 2,480〜4,300〜/人（コースにより異なる）"
+    "price_range": "TWD 2,480〜4,300〜/人（コースにより異なる）",
+    "place_reviewed": true
   },
   {
     "slug": "jr-the-bar",
@@ -3874,7 +3817,7 @@
     "address": "No. 133號, Section 3, Nanjing E Rd, Zhongshan District, Taipei City, Taiwan 104",
     "phone": "+886277500936",
     "website": "https://taipei.metropolitan.tw/",
-    "description": "日本式の居酒屋スタイルで楽しめる台北中山区の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみを提供する。",
+    "description": "JR東日本ホテルメトロポリタン台北内のバー「THE BAR」。台北中山区の高級ホテル内で日本酒・ウイスキー・カクテルを楽しめる。",
     "tags": [
       "居酒屋",
       "日本酒",
@@ -3904,7 +3847,8 @@
         "category": "ウイスキー"
       }
     ],
-    "price_range": "TWD 250〜/杯"
+    "price_range": "TWD 250〜/杯",
+    "place_reviewed": true
   },
   {
     "slug": "juugyu-daan",
@@ -3930,7 +3874,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kagura-japanese-bbq-omakase",
@@ -3940,7 +3885,7 @@
     "address": "No. 80號, Section 1, Huamei W St, West District, Taichung City, Taiwan 403",
     "phone": "+886423291010",
     "website": "http://www.kagura.tw/",
-    "description": "日本式の居酒屋スタイルで楽しめる台中市内の酒場。日本酒・焼酎・ビールと焼き鳥・刺身・串焼き等の定番おつまみをそろえている。",
+    "description": "台中市の日本式BBQおまかせレストラン「Kagura」。厳選食材を使ったBBQコースを日本スタイルで提供。kagura.twから予約・詳細確認可能。",
     "tags": [
       "居酒屋",
       "日式居酒屋"
@@ -3955,7 +3900,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kakoi",
@@ -3965,7 +3911,7 @@
     "address": "No. 289號, Renyi St, Qianjin District, Kaohsiung City, Taiwan 80145",
     "phone": "+88672411225",
     "website": "https://bit.ly/KakoiBook",
-    "description": "日本料理を提供する高雄市内の日式レストラン。日本の食材・調理法を用いた和食メニューを台湾在住の日本人・台湾人に提供する。",
+    "description": "高雄市の洋風居酒屋「KAKOI（囲）」。日本食と洋食を組み合わせたメニューと日本酒・ワインを提供する隠れ家的居酒屋。",
     "tags": [
       "日式"
     ],
@@ -3979,7 +3925,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kamiyama-ramen-taipei",
@@ -4005,7 +3952,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kanada-ya-taipei",
@@ -4031,7 +3979,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kanpai-classic-zhongshan",
@@ -4058,7 +4007,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kanpai-daan",
@@ -4087,7 +4037,8 @@
     "price_level": null,
     "photo_name": null,
     "detail": "台湾全土に展開する大型焼肉居酒屋チェーン「乾杯」。霜降り和牛・ラム・豚など豊富な肉の種類を揃え、ビールをはじめアルコール類も充実。台北・台中・高雄など全国に複数店舗展開。ペット同伴可能な店舗もあり（事前申告要）。",
-    "price_range": "TWD 600〜1,200/人"
+    "price_range": "TWD 600〜1,200/人",
+    "place_reviewed": true
   },
   {
     "slug": "kanpai-kaohsiung",
@@ -4116,7 +4067,8 @@
     "price_level": null,
     "photo_name": null,
     "detail": "台湾全土に展開する大型焼肉居酒屋チェーン「乾杯」。霜降り和牛・ラム・豚など豊富な肉の種類を揃え、ビールをはじめアルコール類も充実。台北・台中・高雄など全国に複数店舗展開。ペット同伴可能な店舗もあり（事前申告要）。",
-    "price_range": "TWD 600〜1,200/人"
+    "price_range": "TWD 600〜1,200/人",
+    "place_reviewed": true
   },
   {
     "slug": "kanpai-taichung",
@@ -4146,7 +4098,8 @@
     "price_level": null,
     "photo_name": null,
     "detail": "台湾全土に展開する大型焼肉居酒屋チェーン「乾杯」。霜降り和牛・ラム・豚など豊富な肉の種類を揃え、ビールをはじめアルコール類も充実。台北・台中・高雄など全国に複数店舗展開。ペット同伴可能な店舗もあり（事前申告要）。",
-    "price_range": "TWD 600〜1,200/人"
+    "price_range": "TWD 600〜1,200/人",
+    "place_reviewed": true
   },
   {
     "slug": "kanpai-xinyi",
@@ -4175,7 +4128,8 @@
     "price_level": null,
     "photo_name": null,
     "detail": "台湾全土に展開する大型焼肉居酒屋チェーン「乾杯」。霜降り和牛・ラム・豚など豊富な肉の種類を揃え、ビールをはじめアルコール類も充実。台北・台中・高雄など全国に複数店舗展開。ペット同伴可能な店舗もあり（事前申告要）。",
-    "price_range": "TWD 600〜1,200/人"
+    "price_range": "TWD 600〜1,200/人",
+    "place_reviewed": true
   },
   {
     "slug": "kanpai-yakiniku-daan",
@@ -4201,7 +4155,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kanpai-yakiniku-taipei",
@@ -4230,7 +4185,8 @@
     "price_level": null,
     "photo_name": null,
     "detail": "台湾全土に展開する大型焼肉居酒屋チェーン「乾杯」。霜降り和牛・ラム・豚など豊富な肉の種類を揃え、ビールをはじめアルコール類も充実。台北・台中・高雄など全国に複数店舗展開。ペット同伴可能な店舗もあり（事前申告要）。",
-    "price_range": "TWD 600〜1,200/人"
+    "price_range": "TWD 600〜1,200/人",
+    "place_reviewed": true
   },
   {
     "slug": "kanpai-zhongshan",
@@ -4259,7 +4215,8 @@
     "price_level": null,
     "photo_name": null,
     "detail": "台湾全土に展開する大型焼肉居酒屋チェーン「乾杯」。霜降り和牛・ラム・豚など豊富な肉の種類を揃え、ビールをはじめアルコール類も充実。台北・台中・高雄など全国に複数店舗展開。ペット同伴可能な店舗もあり（事前申告要）。",
-    "price_range": "TWD 600〜1,200/人"
+    "price_range": "TWD 600〜1,200/人",
+    "place_reviewed": true
   },
   {
     "slug": "kanshi-tainan",
@@ -4286,7 +4243,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "katsumasa-daan",
@@ -4312,7 +4270,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "katsumasa-taipei",
@@ -4338,7 +4297,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "katsumasa-xinyi",
@@ -4364,7 +4324,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "katsuya-kaohsiung",
@@ -4390,7 +4351,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "katsuya-taichung",
@@ -4416,7 +4378,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "katsuya-taipei",
@@ -4442,7 +4405,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "katsuya-xinyi",
@@ -4469,7 +4433,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "katsuya-zhongshan",
@@ -4495,7 +4460,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kikori-yakitori-daan",
@@ -4505,7 +4471,7 @@
     "address": "No. 38, Dongfeng Street, Da'an District, Taipei",
     "phone": null,
     "website": null,
-    "description": "日本料理を提供する台北大安区の日式レストラン。日本の食材・調理法を用いた和食メニューを台湾在住の日本人・台湾人に提供する。",
+    "description": "台北大安区の焼き鳥バー「木鶏」。炭火で丁寧に焼き上げた各部位の焼き鳥と日本酒のペアリングが楽しめる専門バー。",
     "tags": [
       "焼き鳥",
       "日本酒",
@@ -4521,7 +4487,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kiku",
@@ -4531,7 +4498,7 @@
     "address": "106, Taiwan, Taipei City, Da’an District, Lane 135, Section 1, Anhe Rd, 4號1樓",
     "phone": "+886227002701",
     "website": "https://www.instagram.com/kiku_nihonryori?igsh=MWQ1ZGUxMzBkMA==",
-    "description": "日本料理を提供する台北市内の日式レストラン。日本の食材・調理法を用いた和食メニューを台湾在住の日本人・台湾人に提供する。",
+    "description": "台北市の日本料理店「掬（Kiku）」。日本の食材・調理法を用いた和食メニューを提供。Instagramで最新情報を発信している。",
     "tags": [
       "日式"
     ],
@@ -4545,7 +4512,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kikuichi-sushi",
@@ -4555,7 +4523,7 @@
     "address": "No. 702之2號, Section 1, Taiwan Blvd, North District, Taichung City, Taiwan 404",
     "phone": "+886422063415",
     "website": "https://www.instagram.com/kikuichi_sushi?igsh=Mjk3YWNtbmVjYW9s",
-    "description": "日本式の寿司を提供する台中市内の寿司専門店。新鮮なネタを使った握り寿司・巻き寿司を日本スタイルで台湾在住の日本人にも楽しめる。",
+    "description": "台中市の寿司専門店「菊一壽司（Kikuichi）」。新鮮なネタを使った握り寿司・巻き寿司を日本スタイルで提供。Instagramで情報発信中。",
     "tags": [
       "日式寿司"
     ],
@@ -4569,7 +4537,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kimama",
@@ -4595,7 +4564,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kiseki-cafe-bar-linsen",
@@ -4622,7 +4592,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kitaro-japanese-restaurant",
@@ -4632,7 +4603,7 @@
     "address": "No. 487號, Defang S Rd, Dali District, Taichung City, Taiwan 412",
     "phone": "+886424861488",
     "website": "http://www.kitaro.tw/",
-    "description": "日本料理を提供する台中市内の日式レストラン。日本の食材・調理法を用いた和食メニューを台湾在住の日本人・台湾人に提供する。",
+    "description": "台中市の日本料理レストラン「Kitaro」。kitaro.twの公式サイトで詳細・予約確認可能な和食メニューを提供するレストラン。",
     "tags": [
       "日式"
     ],
@@ -4646,7 +4617,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kitaro-japanese-teishoku-restaurant-qinhai-store",
@@ -5989,7 +5961,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "matsuya-taipei",
@@ -6015,7 +5988,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "matsuya-xinyi",
@@ -6041,7 +6015,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "matsuya-zhongshan",
@@ -6067,7 +6042,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "memory-lane-izakaya",
@@ -6093,7 +6069,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mentsudan-taipei",
@@ -6119,7 +6096,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "menya-chikumo-zhongshan",
@@ -6144,7 +6122,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "menya-itto-daan",
@@ -6170,7 +6149,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "menya-itto-xinyi",
@@ -6197,7 +6177,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "menya-itto-zhongshan",
@@ -6223,7 +6204,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "menya-musashi-zhongzheng",
@@ -6250,7 +6232,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "menya-senkumo-taipei",
@@ -6276,7 +6259,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ming-garden-japanese-restaurant",
@@ -6300,7 +6284,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ming-ramen-bar-authentic-japanese-ramen-in-taipei",
@@ -6325,7 +6310,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "miso-izakaya",
@@ -6350,7 +6336,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "miso-izakaya-2",
@@ -6376,7 +6363,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "detail": "台北で10年以上の営業実績を誇り、現在は台中・美村エリアに展開する日式串焼き居酒屋「MISO IZAKAYA」。炭火串焼きを主軸に、揚げ物・煮込み料理など日本居酒屋の定番メニューを提供。台中市西区美村路一段37号。月〜土18:00〜深夜1時まで営業。"
+    "detail": "台北で10年以上の営業実績を誇り、現在は台中・美村エリアに展開する日式串焼き居酒屋「MISO IZAKAYA」。炭火串焼きを主軸に、揚げ物・煮込み料理など日本居酒屋の定番メニューを提供。台中市西区美村路一段37号。月〜土18:00〜深夜1時まで営業。",
+    "place_reviewed": true
   },
   {
     "slug": "mitsui-cuisine-xinyi",
@@ -6402,7 +6390,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mitsui-cuisine-zhongshan",
@@ -6428,7 +6417,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "momotaro-japanese-restaurant",
@@ -6452,7 +6442,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "moonchill-izakaya",
@@ -6478,7 +6469,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "morimendou-taipei",
@@ -6504,7 +6496,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "morimendou-zhongshan",
@@ -6529,7 +6522,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "morimoto-japanese-restaurant",
@@ -6553,7 +6547,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mos-burger-daan",
@@ -6578,7 +6573,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mos-burger-kaohsiung",
@@ -6643,7 +6639,8 @@
         "category": "バーガー"
       }
     ],
-    "price_range": "TWD 150〜300/人"
+    "price_range": "TWD 150〜300/人",
+    "place_reviewed": true
   },
   {
     "slug": "mos-burger-neihu",
@@ -6669,7 +6666,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mos-burger-songshan",
@@ -6694,7 +6692,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mos-burger-taichung",
@@ -6759,7 +6758,8 @@
         "category": "バーガー"
       }
     ],
-    "price_range": "TWD 150〜300/人"
+    "price_range": "TWD 150〜300/人",
+    "place_reviewed": true
   },
   {
     "slug": "mos-burger-xinyi",
@@ -6823,7 +6823,8 @@
         "category": "バーガー"
       }
     ],
-    "price_range": "TWD 150〜300/人"
+    "price_range": "TWD 150〜300/人",
+    "place_reviewed": true
   },
   {
     "slug": "mos-burger-zhongshan",
@@ -6893,7 +6894,8 @@
         "category": "バーガー"
       }
     ],
-    "price_range": "TWD 150〜300/人"
+    "price_range": "TWD 150〜300/人",
+    "place_reviewed": true
   },
   {
     "slug": "mos-burger-zhongzheng",
@@ -6919,7 +6921,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mudan-tempura-daan",
@@ -6946,7 +6949,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nagi-xinyi",
@@ -6972,7 +6976,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nakau-daan",
@@ -6998,7 +7003,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nakau-taichung",
@@ -7025,7 +7031,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nakau-taipei",
@@ -7051,7 +7058,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nakau-xinyi",
@@ -7078,7 +7086,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nakau-zhongshan",
@@ -7103,7 +7112,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nanbantei-taipei",
@@ -7130,7 +7140,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ncisushi-daan",
@@ -7156,7 +7167,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "niao-fu-izakaya-restaurant",
@@ -7182,7 +7194,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "niao-shao-izakaya-shilin",
@@ -7208,7 +7221,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nigatsuban-soba-zhongshan",
@@ -7234,7 +7248,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nihonshu-sake-space",
@@ -7260,7 +7275,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nikukappou-yuu-zhongshan",
@@ -7287,7 +7303,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "niwa-shabu-izakaya",
@@ -7313,7 +7330,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nomou-sakebar",
@@ -7339,7 +7357,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nomura-sushi",
@@ -7363,7 +7382,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ok",
@@ -7388,7 +7408,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "okaeri-ramen-taipei",
@@ -7414,7 +7435,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "okaeri-ramen-zhongshan",
