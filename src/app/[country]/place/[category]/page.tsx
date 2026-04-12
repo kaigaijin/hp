@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { cookies } from "next/headers";
+import { cookies, headers } from "next/headers";
+import { unstable_cache } from "next/cache";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { getCountry, countries } from "@/lib/countries";
@@ -129,8 +130,10 @@ export default async function CategoryPage({
   if (!country) notFound();
 
   // Cookieからユーザープロファイルを取得（パーソナライズ用）
+  // Cookieなし（クローラー・初回訪問）はキャッシュ版を使い、サーバー負荷を抑える
   const cookieStore = await cookies();
   const profileRaw = cookieStore.get("place-profile")?.value;
+  const hasProfile = !!profileRaw;
   const profile = parseProfile(profileRaw);
 
   // グループスラッグの場合 → サブカテゴリ一覧を表示
@@ -149,27 +152,35 @@ export default async function CategoryPage({
       })
       .filter((c): c is NonNullable<typeof c> => c !== null);
 
-    // 全子カテゴリのスポットを集約
-    const rawGroupplaces = group.categories.flatMap((catSlug) => {
-      const cat = categories.find((c) => c.slug === catSlug);
-      return getplacesByCategory(code, catSlug).map((place) => ({
-        slug: place.slug,
-        name: place.name,
-        name_ja: place.name_ja,
-        area: place.area,
-        description: place.description,
-        tags: place.tags,
-        phone: place.phone,
-        website: place.website,
-        status: place.status,
-        categorySlug: catSlug,
-        categoryName: cat?.name ?? catSlug,
-        images: (place as Record<string, unknown>).images as string[] | undefined,
-      }));
-    });
+    // 全子カテゴリのスポットを集約（日次キャッシュ）
+    const getGroupPlacesCached = unstable_cache(
+      async () => group.categories.flatMap((catSlug) => {
+        const cat = categories.find((c) => c.slug === catSlug);
+        return getplacesByCategory(code, catSlug).map((place) => ({
+          slug: place.slug,
+          name: place.name,
+          name_ja: place.name_ja,
+          area: place.area,
+          description: place.description,
+          tags: place.tags,
+          phone: place.phone,
+          website: place.website,
+          status: place.status,
+          categorySlug: catSlug,
+          categoryName: cat?.name ?? catSlug,
+          images: (place as Record<string, unknown>).images as string[] | undefined,
+        }));
+      }),
+      [`group-places-${code}-${slug}`],
+      { revalidate: 86400 }, // 24時間キャッシュ
+    );
 
-    // パーソナライズソート
-    const groupplaces = rankPlaces(rawGroupplaces, profile);
+    const rawGroupplaces = await getGroupPlacesCached();
+
+    // Cookieあり: パーソナライズソート / なし: 日次シードソート（キャッシュ効果最大化）
+    const groupplaces = hasProfile
+      ? rankPlaces(rawGroupplaces, profile)
+      : rankPlaces(rawGroupplaces, { categories: {}, tags: {}, areas: {} });
 
     const subCategories = childCategories
       .filter((c) => c.count > 0)
@@ -266,12 +277,19 @@ export default async function CategoryPage({
   if (!category) notFound();
 
   const catSlug = slug;
-  const rawPlaces = getplacesByCategory(code, catSlug);
-  // パーソナライズソート（Cookieは上で取得済み）
-  const places = rankPlaces(
-    rawPlaces.map((p) => ({ ...p, categorySlug: catSlug })),
-    profile,
+
+  // データ取得を日次キャッシュ（クローラー対策）
+  const getPlacesCached = unstable_cache(
+    async () => getplacesByCategory(code, catSlug).map((p) => ({ ...p, categorySlug: catSlug })),
+    [`cat-places-${code}-${catSlug}`],
+    { revalidate: 86400 },
   );
+  const rawPlaces = await getPlacesCached();
+
+  // Cookieあり: パーソナライズソート / なし: 日次シードソート（キャッシュ効果最大化）
+  const places = hasProfile
+    ? rankPlaces(rawPlaces, profile)
+    : rankPlaces(rawPlaces, { categories: {}, tags: {}, areas: {} });
   const areas = [...new Set(places.map((s) => s.area))].sort();
   const catTheme = getCategoryTheme(catSlug);
 

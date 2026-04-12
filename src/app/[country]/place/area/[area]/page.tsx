@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { cookies } from "next/headers";
+import { unstable_cache } from "next/cache";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PlaceGroupList from "@/components/SpotGroupList";
@@ -67,23 +68,30 @@ export default async function AreaDetailPage({
 
   // Cookieからユーザープロファイルを取得（パーソナライズ用）
   const cookieStore = await cookies();
-  const profile = parseProfile(cookieStore.get("place-profile")?.value);
+  const profileRaw = cookieStore.get("place-profile")?.value;
+  const hasProfile = !!profileRaw;
+  const profile = parseProfile(profileRaw);
 
-  // placeGroupList用に変換
-  const rawPlaceItems = places.map((s) => ({
-    slug: s.slug,
-    name: s.name,
-    name_ja: s.name_ja,
-    area: s.area,
-    description: s.description,
-    tags: s.tags,
-    phone: s.phone,
-    website: s.website,
-    status: s.status,
-    categorySlug: s.category,
-    categoryName: getCategory(s.category)?.name ?? s.category,
-    images: (s as Record<string, unknown>).images as string[] | undefined,
-  }));
+  // placeGroupList用に変換（日次キャッシュ）
+  const getAreaPlacesCached = unstable_cache(
+    async () => places.map((s) => ({
+      slug: s.slug,
+      name: s.name,
+      name_ja: s.name_ja,
+      area: s.area,
+      description: s.description,
+      tags: s.tags,
+      phone: s.phone,
+      website: s.website,
+      status: s.status,
+      categorySlug: s.category,
+      categoryName: getCategory(s.category)?.name ?? s.category,
+      images: (s as Record<string, unknown>).images as string[] | undefined,
+    })),
+    [`area-places-${code}-${areaSlug}`],
+    { revalidate: 86400 },
+  );
+  const rawPlaceItems = await getAreaPlacesCached();
 
   // サブカテゴリ（カテゴリフィルタ用）
   const catCounts: Record<string, number> = {};
@@ -98,8 +106,10 @@ export default async function AreaDetailPage({
     }))
     .sort((a, b) => b.count - a.count);
 
-  // パーソナライズソート
-  const placeItems = rankPlaces(rawPlaceItems, profile);
+  // Cookieあり: パーソナライズソート / なし: 日次シードソート
+  const placeItems = hasProfile
+    ? rankPlaces(rawPlaceItems, profile)
+    : rankPlaces(rawPlaceItems, { categories: {}, tags: {}, areas: {} });
 
   // テーマ（一番スポットが多いカテゴリのグループテーマ）
   const topCategory = subCategories[0]?.slug;
