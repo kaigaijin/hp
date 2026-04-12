@@ -39362,19 +39362,19 @@
     "name": "Yamamoto Hamburg",
     "name_ja": "山本ハンバーグ",
     "area": "Tseung Kwan O",
-    "address": "Tseung Kwan O, Hong Kong",
+    "address": "Shop F23, 1/F, PopCorn 1, 9 Tong Yin Street, Tseung Kwan O",
     "lat": null,
     "lng": null,
-    "phone": null,
+    "phone": "+85231546800",
     "website": null,
-    "description": "ツェンクワンオー（将軍澳）にある將軍澳の日式ハンバーグ専門店。ジューシーな肉汁たっぷりのハンバーグステーキが看板メニュー。ランチセットが人気。",
+    "description": "ツェンクワンオー（将軍澳）PopCorn内の日本発ハンバーグ専門店。創業シェフ山本昇平考案の手ごねパテを備長炭で焼き上げる。ご飯・味噌汁おかわり自由。2026年2月オープン。",
     "tags": [
       "japanese",
       "hamburg-steak",
       "yoshoku",
       "tseung-kwan-o"
     ],
-    "hours": null,
+    "hours": "毎日 8:00〜22:00（L.O. 21:30）",
     "last_verified": "2026-03-29",
     "status": "unverified",
     "source": "web_search",
@@ -39386,7 +39386,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yamamotoya-harbour-city",
@@ -39398,7 +39399,7 @@
     "lng": null,
     "phone": null,
     "website": "https://en.a-yamamotoya.co.jp/",
-    "description": "チムサーチョイ（尖沙咀）にある1925年創業の名古屋老舗「山本屋」の香港店。手打ち味噌煮込みうどんが看板。ハーバーシティLCX内。",
+    "description": "チムサーチョイ（尖沙咀）ハーバーシティLCX内の1925年創業名古屋老舗「山本屋」香港店。五代目が監修する手打ち味噌煮込みうどんが看板。ビクトリアハーバーを望む84席。",
     "tags": [
       "うどん",
       "味噌煮込み",
@@ -39418,7 +39419,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yan-sashimi-teppanyaki-tin-hau",
@@ -39430,7 +39432,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ティンハウ（天后）にある日本食レストラン「Yan Sashimi Teppanyaki」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "ティンハウ（天后）Park Aura 24階にある日本料理店。刺身と鉄板焼きを組み合わせたメニューを提供。夜景が楽しめる高層レストラン。",
     "tags": [
       "鉄板焼き",
       "刺身"
@@ -39447,36 +39449,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "yantian-yakitori-izakaya-yihaicheng",
-    "name": "Yantian Yakitori Izakaya Yihaicheng",
-    "name_ja": "ヤンチアン 焼鳥 居酒屋 Yihaicheng",
-    "area": "Hong Kong",
-    "address": "China, Guang Dong Sheng, Shen Zhen Shi, Yan Tian Qu, Hai Shan Jie Dao, B 区111",
-    "lat": 22.5556,
-    "lng": 114.2388,
-    "phone": "+8613724333876",
-    "website": null,
-    "description": "香港にある日本式居酒屋「Yantian Yakitori Izakaya Yihaicheng」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
-    "tags": [
-      "焼鳥",
-      "居酒屋"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJzXnkpmILBDQRR2qHDFl1Hnk",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yardbird-sheung-wan",
@@ -39486,7 +39460,7 @@
     "address": "154-158 Wing Lok Street, Sheung Wan, Hong Kong",
     "phone": "+85225479273",
     "website": "https://yardbirdrestaurant.com/",
-    "description": "サンポ（上環）にあるミシュラン一つ星のモダン居酒屋。地元三黄鶏を使った20種以上の焼き鳥を備長炭で焼き上げる。活気ある雰囲気。",
+    "description": "サンポ（上環）Wing Lok Streetにあるミシュラン一つ星の現代的居酒屋。備長炭焼きの地鶏串焼き20種以上が看板。Matt Abergel・Lindsay Jangが経営。要予約。",
     "tags": [
       "焼き鳥",
       "ミシュラン一つ星",
@@ -39503,259 +39477,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "yata-kwai-fong",
-    "name": "YATA Supermarket (Kwai Fong)",
-    "name_ja": "一田超市（葵芳）",
-    "area": "Kwai Fong",
-    "address": "Metroplaza, 223 Hing Fong Road, Kwai Fong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.yata.hk/",
-    "description": "Kwai Fongにある日本食レストラン「YATA Supermarket (Kwai Fong)」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "日本食スーパー"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "yata-kwun-tong",
-    "name": "YATA Supermarket (Kwun Tong)",
-    "name_ja": "一田超市（觀塘）",
-    "area": "Kwun Tong",
-    "address": "APM, 418 Kwun Tong Road, Kwun Tong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.yata.hk/",
-    "description": "クワントン（観塘）にある日本食レストラン「YATA Supermarket (Kwun Tong)」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "日本食スーパー"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "yata-mong-kok",
-    "name": "YATA Supermarket (Mong Kok)",
-    "name_ja": "一田超市（旺角）",
-    "area": "Mong Kok",
-    "address": "MOKO, 193 Prince Edward Road West, Mong Kok",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.yata.hk/",
-    "description": "モンコック（旺角）にある日本食レストラン「YATA Supermarket (Mong Kok)」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "日本食スーパー"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "yata-north-point",
-    "name": "YATA Supermarket (North Point)",
-    "name_ja": "一田超市（北角）",
-    "area": "North Point",
-    "address": "Harbour North, 18 Electric Road, North Point",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.yata.hk/",
-    "description": "ノースポイント（北角）にある日本食レストラン「YATA Supermarket (North Point)」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "日本食スーパー"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "yata-sai-wan",
-    "name": "YATA Supermarket (Sai Wan)",
-    "name_ja": "一田超市（西環）",
-    "area": "Sai Wan",
-    "address": "Island Crest, 8 First Street, Sai Ying Pun",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.yata.hk/",
-    "description": "Sai Wanにある日本食レストラン「YATA Supermarket (Sai Wan)」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "日本食スーパー"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "yata-san-po-kong",
-    "name": "YATA Supermarket (San Po Kong)",
-    "name_ja": "一田超市（新蒲崗）",
-    "area": "San Po Kong",
-    "address": "Mikiki, 160 Prince Edward Road East, San Po Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.yata.hk/",
-    "description": "San Po Kongにある日本食レストラン「YATA Supermarket (San Po Kong)」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "日本食スーパー"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "yata-tko",
-    "name": "YATA Supermarket (Tseung Kwan O)",
-    "name_ja": "一田超市（将軍澳）",
-    "area": "Tseung Kwan O",
-    "address": "PopCorn, 9 Tong Yin Street, Tseung Kwan O",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.yata.hk/",
-    "description": "ツェンクワンオー（将軍澳）にある日本食レストラン「YATA Supermarket (Tseung Kwan O)」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "日本食スーパー"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "yata-tuen-mun",
-    "name": "YATA Supermarket (Tuen Mun)",
-    "name_ja": "一田超市（屯門）",
-    "area": "Tuen Mun",
-    "address": "Shop 2083, 2/F, Tuen Mun Town Plaza Phase 2, 3 Tuen Lung Street, Tuen Mun",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.yata.hk/",
-    "description": "トゥンムン（屯門）にある日本食レストラン「YATA Supermarket (Tuen Mun)」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "日本食スーパー"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "yata-yuen-long",
-    "name": "YATA Supermarket (Yuen Long)",
-    "name_ja": "一田超市（元朗）",
-    "area": "Yuen Long",
-    "address": "YOHO MALL II, 8 Long Yat Road, Yuen Long",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.yata.hk/",
-    "description": "ユンロン（元朗）にある日本食レストラン「YATA Supermarket (Yuen Long)」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "日本食スーパー"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ying-japanese-aberdeen",
@@ -39765,7 +39488,7 @@
     "address": "Shop A2, G/F, 82 Old Main Street, Aberdeen, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "アバディーン（香港仔）にあるラーメン店「Ying Japanese Restaurant」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "アバディーン（香港仔）82 Old Main Streetの路面店。ラーメン・寿司・うどんを提供する地域密着型の日本食レストラン。平日ランチ・夜・週末ランチと営業。",
     "tags": [
       "ラーメン",
       "日本料理"
@@ -39784,7 +39507,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yoiyoi",
@@ -39796,7 +39520,7 @@
     "lng": 114.174,
     "phone": "+85255144811",
     "website": "http://keyakihk.com/",
-    "description": "チムサーチョイ（尖沙咀）にある日本式居酒屋「YoiYoi 酔々 炭火燒居酒屋」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
+    "description": "チムサーチョイ（尖沙咀）銀座38ビル15階にある日本式炭火焼き居酒屋。日本酒・焼酎・ビールと焼き鳥・和食を提供。毎日18:00〜24:00営業。",
     "tags": [
       "居酒屋"
     ],
@@ -39812,7 +39536,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yokohama-mentaisho-tai-koo",
@@ -39824,7 +39549,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Tai Kooにあるラーメン店「Yokohama Men-taisho」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "タイクー（太古）CityplazaのAPTIA地下1階にある日本式ラーメン店。横浜系ラーメンを中心にフードコート内で提供。MTR太古駅D1出口から徒歩3分。",
     "tags": [
       "ラーメン",
       "横浜系"
@@ -39841,7 +39566,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yokozuna-yau-ma-tei",
@@ -39853,7 +39579,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ヤウマテイ（油麻地）にある油麻地にある深夜2時まで営業のラーメン店。東京の路地裏を思わせる雰囲気で、ラーメン・鰻丼・餃子を提供。",
+    "description": "ヤウマテイ（油麻地）Nathan Road沿いにある深夜2時まで営業のラーメン店。東京の路地裏を思わせる雰囲気で、ラーメン・鰻丼・餃子を提供。遅い時間も対応可能。",
     "tags": [
       "ラーメン",
       "深夜営業"
@@ -39870,7 +39596,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yokukawa-japanese-cuisine",
@@ -39882,7 +39609,7 @@
     "lng": 114.1786,
     "phone": "+85223120909",
     "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある日本食レストラン「Yokukawa Japanese Cuisine」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "チムサーチョイ（尖沙咀）南洋センター内の隠れ家的日本料理店。刺身・焼き鳥・うどん・ラーメンなど幅広い和食を提供。月〜土のみ営業。評価4.5/5（469件）。",
     "tags": [
       "日本食"
     ],
@@ -39898,7 +39625,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yomenya-goemon-kowloon-bay",
@@ -39910,7 +39638,7 @@
     "lng": null,
     "phone": null,
     "website": "https://en.yomenya-goemon.com/",
-    "description": "カウルーンベイ（九龍灣）にある日本食レストラン「Yomenya Goemon (Amoy Plaza)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "カウルーンベイ（九龍灣）Amoy Plaza IIIにある「洋麵屋五右衛門」香港店。日本式パスタ・和風スパゲッティを提供する日本発チェーン。",
     "tags": [
       "パスタ",
       "チェーン"
@@ -39927,7 +39655,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yomenya-goemon-tuen-mun",
@@ -39939,7 +39668,7 @@
     "lng": null,
     "phone": null,
     "website": "https://en.yomenya-goemon.com/",
-    "description": "トゥンムン（屯門）にある日本食レストラン「Yomenya Goemon (Tuen Mun Town Plaza)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "トゥンムン（屯門）Tuen Mun Town Plaza内にある「洋麵屋五右衛門」香港店。日本式パスタ・和風スパゲッティを提供する日本発チェーン。",
     "tags": [
       "パスタ",
       "チェーン"
@@ -39956,7 +39685,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yorucho-causeway-bay",
@@ -39968,7 +39698,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある銅鑼湾にある日韓フュージョンの居酒屋。シェフズカウンターを中心にした親密な空間で、創作的な日本料理を提供。",
+    "description": "コーズウェイベイ（銅鑼湾）Circle Tower 16階にある日韓フュージョン料理店。シェフズカウンター30席。日本と韓国の食材・技法を融合した創作料理。火〜日 18:00〜23:00。",
     "tags": [
       "居酒屋",
       "日韓フュージョン",
@@ -39986,7 +39716,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yoshinoya-hk-causeway-bay-kyoto",
@@ -39998,7 +39729,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.yoshinoya.com.hk/",
-    "description": "コーズウェイベイ（銅鑼湾）にある日本食レストラン「Yoshinoya Causeway Bay」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "コーズウェイベイ（銅鑼湾）Kyoto Plaza地下にある「吉野家」香港店。牛丼・カレーを主とする日本発ファストフードチェーン。デリバリー・テイクアウト対応。",
     "tags": [
       "丼物",
       "牛丼",
@@ -40035,7 +39766,8 @@
         "category": "ご飯"
       }
     ],
-    "price_range": "HKD 35〜70/食"
+    "price_range": "HKD 35〜70/食",
+    "place_reviewed": true
   },
   {
     "slug": "yoshinoya-hk-central-grand",
@@ -40047,7 +39779,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.yoshinoya.com.hk/",
-    "description": "セントラル（中環）にある日本食レストラン「Yoshinoya Central」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "セントラル（中環）Grand Building内の「吉野家」香港店。牛丼・カレーを主とする日本発ファストフードチェーン。デリバリー・テイクアウト対応。",
     "tags": [
       "丼物",
       "牛丼",
@@ -40084,7 +39816,8 @@
         "category": "ご飯"
       }
     ],
-    "price_range": "HKD 35〜70/食"
+    "price_range": "HKD 35〜70/食",
+    "place_reviewed": true
   },
   {
     "slug": "yoshinoya-hk-jordan",
@@ -40094,7 +39827,7 @@
     "address": "Shop G/F, Kam Hoi Building, Jordan",
     "phone": null,
     "website": "https://www.yoshinoya.com.hk/",
-    "description": "ジョーダン（佐敦）にある日本食レストラン「Yoshinoya Jordan」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "ジョーダン（佐敦）Kam Hoi Building内の「吉野家」香港店。牛丼・カレーを主とする日本発ファストフードチェーン。毎日7:00〜23:00営業。",
     "tags": [
       "牛丼",
       "日本発チェーン"
@@ -40129,7 +39862,8 @@
       }
     ],
     "price_range": "HKD 35〜70/食",
-    "source_url": "https://shopsinhk.com/yoshinoya-japanese-fast-food-restaurants-in-hong-kong.html"
+    "source_url": "https://shopsinhk.com/yoshinoya-japanese-fast-food-restaurants-in-hong-kong.html",
+    "place_reviewed": true
   },
   {
     "slug": "yoshinoya-hk-ma-on-shan",
@@ -40141,7 +39875,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.yoshinoya.com.hk/",
-    "description": "マオンシャン（馬鞍山）にある日本食レストラン「Yoshinoya Ma On Shan」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "マオンシャン（馬鞍山）Chung On Shopping Centre内の「吉野家」香港店。牛丼・カレーを主とする日本発ファストフードチェーン。テイクアウト対応。",
     "tags": [
       "丼物",
       "牛丼",
@@ -40178,7 +39912,8 @@
         "category": "ご飯"
       }
     ],
-    "price_range": "HKD 35〜70/食"
+    "price_range": "HKD 35〜70/食",
+    "place_reviewed": true
   },
   {
     "slug": "yoshinoya-hk-mong-kok-soy",
@@ -40190,7 +39925,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.yoshinoya.com.hk/",
-    "description": "モンコック（旺角）にある日本食レストラン「Yoshinoya Mong Kok」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "モンコック（旺角）Soy Street沿いの「吉野家」香港店。牛丼・カレーを主とする日本発ファストフードチェーン。デリバリー・テイクアウト対応。",
     "tags": [
       "丼物",
       "牛丼",
@@ -40227,7 +39962,8 @@
         "category": "ご飯"
       }
     ],
-    "price_range": "HKD 35〜70/食"
+    "price_range": "HKD 35〜70/食",
+    "place_reviewed": true
   },
   {
     "slug": "yoshinoya-hk-north-point-fitfort",
@@ -40239,7 +39975,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.yoshinoya.com.hk/",
-    "description": "ノースポイント（北角）にある日本食レストラン「Yoshinoya North Point」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "ノースポイント（北角）Fit Fort内の「吉野家」香港店。牛丼・カレーを主とする日本発ファストフードチェーン。デリバリー・テイクアウト対応。",
     "tags": [
       "丼物",
       "牛丼",
@@ -40276,7 +40012,8 @@
         "category": "ご飯"
       }
     ],
-    "price_range": "HKD 35〜70/食"
+    "price_range": "HKD 35〜70/食",
+    "place_reviewed": true
   },
   {
     "slug": "yoshinoya-hk-sha-tin-ramen",
@@ -40288,7 +40025,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.yoshinoya.com.hk/",
-    "description": "シャーティン（沙田）にある日本食レストラン「Yoshinoya Sha Tin」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "シャーティン（沙田）Grandeur Garden Commercial Complex内の「吉野家」香港店。牛丼・カレーを主とする日本発ファストフードチェーン。テイクアウト対応。",
     "tags": [
       "丼物",
       "牛丼",
@@ -40325,7 +40062,8 @@
         "category": "ご飯"
       }
     ],
-    "price_range": "HKD 35〜70/食"
+    "price_range": "HKD 35〜70/食",
+    "place_reviewed": true
   },
   {
     "slug": "yoshinoya-hk-sheung-wan-shun-tak",
@@ -40337,7 +40075,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.yoshinoya.com.hk/",
-    "description": "サンポ（上環）にある日本食レストラン「Yoshinoya Sheung Wan」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "サンポ（上環）Shun Tak Centre内の「吉野家」香港店。牛丼・カレーを主とする日本発ファストフードチェーン。デリバリー・テイクアウト対応。",
     "tags": [
       "丼物",
       "牛丼",
@@ -40374,7 +40112,8 @@
         "category": "ご飯"
       }
     ],
-    "price_range": "HKD 35〜70/食"
+    "price_range": "HKD 35〜70/食",
+    "place_reviewed": true
   },
   {
     "slug": "yoshinoya-hk-tuen-mun-hands",
@@ -40386,7 +40125,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.yoshinoya.com.hk/",
-    "description": "トゥンムン（屯門）にある日本食レストラン「Yoshinoya Tuen Mun」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "トゥンムン（屯門）H.A.N.D.S. On Ting Estate内の「吉野家」香港店。牛丼・カレーを主とする日本発ファストフードチェーン。テイクアウト対応。",
     "tags": [
       "丼物",
       "牛丼",
@@ -40423,7 +40162,8 @@
         "category": "ご飯"
       }
     ],
-    "price_range": "HKD 35〜70/食"
+    "price_range": "HKD 35〜70/食",
+    "place_reviewed": true
   },
   {
     "slug": "yoshinoya-hk-wan-chai-johnston",
@@ -40435,7 +40175,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.yoshinoya.com.hk/",
-    "description": "ワンチャイ（湾仔）にある日本食レストラン「Yoshinoya Wan Chai」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "ワンチャイ（湾仔）Johnston Road沿いの「吉野家」香港店。牛丼・カレーを主とする日本発ファストフードチェーン。デリバリー・テイクアウト対応。",
     "tags": [
       "丼物",
       "牛丼",
@@ -40472,7 +40212,8 @@
         "category": "ご飯"
       }
     ],
-    "price_range": "HKD 35〜70/食"
+    "price_range": "HKD 35〜70/食",
+    "place_reviewed": true
   },
   {
     "slug": "yoshinoya-hk-yuen-long-ramen",
@@ -40484,7 +40225,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.yoshinoya.com.hk/",
-    "description": "ユンロン（元朗）にある日本食レストラン「Yoshinoya Yuen Long」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "ユンロン（元朗）Po Fat Building内の「吉野家」香港店。牛丼・カレーを主とする日本発ファストフードチェーン。デリバリー・テイクアウト対応。",
     "tags": [
       "丼物",
       "牛丼",
@@ -40521,7 +40262,8 @@
         "category": "ご飯"
       }
     ],
-    "price_range": "HKD 35〜70/食"
+    "price_range": "HKD 35〜70/食",
+    "place_reviewed": true
   },
   {
     "slug": "yoshoku-sho-tsuen-wan",
@@ -40533,7 +40275,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ツェンワン（荃灣）にある荃灣の日本洋食レストラン。奈良の洋食屋で修業したシェフが作る秘伝のハンバーグが看板メニュー。小さな商場内の隠れ家。",
+    "description": "ツェンワン（荃灣）Tsuen Wan Centre内の日本洋食店。奈良のワダキン流レシピを継いだ前田シェフが作るカレーや定食が看板。コルドン・ブルー卒業のシェフが腕を振るう。",
     "tags": [
       "japanese",
       "yoshoku",
@@ -40552,7 +40294,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yu-to-tei-tai-po",
@@ -40562,9 +40305,9 @@
     "address": "G/F, Wing Fat Building Block B, 1 Tsui Wo Lane, Tai Po",
     "lat": null,
     "lng": null,
-    "phone": null,
+    "phone": "+85226825425",
     "website": null,
-    "description": "タイポー（大埔）にある大埔の路面にある地元密着型の日本料理店。魚生丼御膳をはじめ、定食や寿司を提供。アットホームな雰囲気が魅力。",
+    "description": "タイポー（大埔）Tsui Wo Lane路面の地域密着型日本料理店。寿司・刺身・魚生丼御膳を提供。MTR大埔墟駅A出口から徒歩11分。火〜日のみ営業。",
     "tags": [
       "japanese",
       "sushi",
@@ -40584,7 +40327,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yue-wu-tai-kok-tsui",
@@ -40596,7 +40340,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Tai Kok Tsuiにある大角咀の寿司店。毎日空輸の新鮮ネタを使い、一貫HK$5からという驚きのコスパで人気。種類豊富な寿司を手軽に楽しめる。",
+    "description": "大角咀（Tai Kok Tsui）海景街44号の小さな日本式寿司店。毎日空輸の新鮮ネタを使い、1貫HK$5からと驚きのコスパ。3〜4テーブルのみ。要予約。テイクアウト可。",
     "tags": [
       "sushi",
       "budget-friendly",
@@ -40614,7 +40358,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yujo-wan-chai",
@@ -40624,7 +40369,7 @@
     "address": "Shop G06, G/F, Hopewell Mall, 15 Kennedy Road, Wan Chai, Hong Kong",
     "phone": null,
     "website": "https://www.yujo.social/",
-    "description": "ワンチャイ（湾仔）にある日本式居酒屋「Yujo」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "ワンチャイ（湾仔）Hopewell Mall内の日本式居酒屋。串焼き・和食と日本酒を提供する2025年オープンの新店。毎日12:00〜14:30・18:00〜23:00営業。",
     "tags": [
       "居酒屋",
       "串焼き",
@@ -40640,7 +40385,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yuki-house-ramen",
@@ -40652,7 +40398,7 @@
     "lng": 114.1699,
     "phone": "+85228683091",
     "website": null,
-    "description": "ワンチャイ（湾仔）にある日本式居酒屋「Yuki House Ramen」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
+    "description": "ワンチャイ（湾仔）Gresson Street沿いのラーメン・居酒屋。月〜土のランチ・ディナー営業（日休）。スープ系ラーメンと和食メニューを提供。",
     "tags": [
       "居酒屋"
     ],
@@ -40668,35 +40414,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "yuki-house-ramen-wan-chai",
-    "name": "Yuki House Ramen",
-    "name_ja": "ユキ ハウス ラーメン",
-    "area": "Wan Chai",
-    "address": "G/F, Wai Cheong Building, 5-9A Gresson Street, Wan Chai",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "ワンチャイ（湾仔）にあるラーメン店「Yuki House Ramen」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "ラーメン"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yuki-japanese-fortress-hill",
@@ -40708,7 +40427,7 @@
     "lng": null,
     "phone": "+85225719518",
     "website": "https://www.welcometoyuki.com/",
-    "description": "炮台山Jupiter Tower高層階の日本料理店。MTR炮台山駅A出口から徒歩4分。ディナーのみ営業（18:00〜23:00）。",
+    "description": "炮台山（Fortress Hill）Jupiter Tower 28階の高層日本料理店。MTR炮台山駅A出口から徒歩4分。寿司・刺身を中心にディナーのみ（18:00〜23:00）営業。",
     "tags": [
       "寿司",
       "刺身"
@@ -40725,37 +40444,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "yuki-ramen-wan-chai",
-    "name": "Yuki House Ramen",
-    "name_ja": "幸屋",
-    "area": "Wan Chai",
-    "address": "G/F, Wai Cheong Building, 5-9A Gresson Street, Wan Chai, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "ワンチャイ（湾仔）にあるラーメン店「Yuki House Ramen」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "ラーメン",
-      "つけ麺",
-      "隠れ家"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yummy-sushi-wan-chai",
@@ -40767,7 +40457,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ワンチャイ（湾仔）にある日本料理・鮨店「Yummy Sushi」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "ワンチャイ（湾仔）Tak Yan Street路面の日本式寿司・刺身店。地域密着型でリーズナブルな価格帯が人気。OpenRiceに掲載されている実在店舗。",
     "tags": [
       "寿司",
       "刺身"
@@ -40784,89 +40474,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "yurakucho-central",
-    "name": "Yurakucho",
-    "name_ja": "有楽町",
-    "area": "Central",
-    "address": "G/F, Yu Yuet Lai Building, 43-55 Wyndham Street, Central, Hong Kong",
-    "phone": null,
-    "website": "https://yurakucho.hk/",
-    "description": "セントラル（中環）にある日本の居酒屋文化を再現したセントラルのバー&レストラン。串焼きと日本酒・カクテルを炉端焼きオープンキッチンで提供。",
-    "tags": [
-      "居酒屋",
-      "炉端焼き",
-      "日本酒",
-      "バー"
-    ],
-    "hours": "月〜土 17:00〜翌1:00",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "yurakucho-hk",
-    "name": "Yurakucho",
-    "name_ja": "有楽町",
-    "area": "Central",
-    "address": "G/F, Yu Yuet Lai Building, 43-55 Wyndham Street, Central, Hong Kong",
-    "phone": null,
-    "website": "https://yurakucho.hk/",
-    "description": "セントラル（中環）にある日本の居酒屋文化を香港に再現した居酒屋＆酒バー。ライブ炉端焼き、厳選された日本酒、ハイボール、カクテルを提供。",
-    "tags": [
-      "居酒屋",
-      "炉端焼き",
-      "日本酒"
-    ],
-    "hours": "要確認",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
     "photo_name": null,
-    "detail": "MTR中環駅から徒歩3分、Wyndham Street 43-55番地G/F。「日本の居酒屋文化を香港へ」をコンセプトに、ライブ炭火焼き、厳選日本酒、ハイボール、カクテルを提供。DJ音楽と「隠れた日本の小路」テーマの空間。フリーフローメニューあり。",
-    "menu": [
-      {
-        "name": "ランチメニュー",
-        "price": "要確認",
-        "category": "ランチ"
-      },
-      {
-        "name": "ディナーメニュー",
-        "price": "要確認",
-        "category": "ディナー"
-      },
-      {
-        "name": "ハッピーアワーメニュー",
-        "price": "要確認",
-        "category": "ドリンク"
-      },
-      {
-        "name": "フリーフロー",
-        "price": "要確認",
-        "category": "ドリンク"
-      },
-      {
-        "name": "日本酒",
-        "price": "要確認",
-        "category": "ドリンク"
-      }
-    ],
-    "price_range": "HKD 300〜600/人（ディナー目安）"
+    "place_reviewed": true
   },
   {
     "slug": "yurakucho-izakaya",
@@ -40878,7 +40487,7 @@
     "lng": 114.1549,
     "phone": "+85226630068",
     "website": "http://book.bistrochat.com/yurakucho",
-    "description": "セントラル（中環）にある日本式居酒屋「Yurakucho Izakaya」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
+    "description": "セントラル（中環）Wyndham Street沿いにある日本の居酒屋文化を再現したバー&レストラン。炉端焼きオープンキッチンで串焼きと日本酒・ハイボールを提供。月休。",
     "tags": [
       "居酒屋"
     ],
@@ -40894,7 +40503,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yuu-sei-aberdeen",
@@ -40904,7 +40514,7 @@
     "address": "Shop B, G/F & 1/F, 190 Aberdeen Main Road, Aberdeen, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "アバディーン（香港仔）にあるラーメン店「Yuu Sei Japanese Restaurant」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "アバディーン（香港仔）Aberdeen Main Road沿いの日本食レストラン。ラーメン・寿司・しゃぶしゃぶを提供し、食べ放題・飲み放題プランも用意。地域密着型の店。",
     "tags": [
       "ラーメン",
       "日本料理"
@@ -40923,7 +40533,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "zagin-soba-central",
@@ -40933,7 +40544,7 @@
     "address": "G/F, 7 Gough Street, Central, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "セントラル（中環）にある泡立てたカプチーノスタイルのスープが特徴のラーメン店。提供直前にホイッパーで泡立てるスープが名物。",
+    "description": "セントラル（中環）Gough Streetにある大阪発泡系ラーメン店。提供直前にホイッパーで泡立てるカプチーノ式スープが名物。チキンブロス・シーフードチキン・つけ麺の3種。",
     "tags": [
       "ラーメン",
       "泡系",
@@ -40949,35 +40560,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "zagin-soba-central-gough",
-    "name": "Zagin Soba Central",
-    "name_ja": "座銀 中環店",
-    "area": "Central",
-    "address": "G/F, 7 Gough Street, Central",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "セントラル（中環）にあるそば専門店「Zagin Soba Central」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "そば"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "zagin-soba-happy-valley",
@@ -40987,7 +40571,7 @@
     "address": "G/F, 13A King Kwong Street, Happy Valley, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "ハッピーバレー（跑馬地）にあるラーメン店「Zagin Soba Happy Valley」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "ハッピーバレー（跑馬地）King Kwong Streetにある泡系ラーメン専門店。大阪発のカプチーノ式スープが名物。毎日11:30〜22:00営業。Tatlerでも紹介されたHKの人気店。",
     "tags": [
       "ラーメン",
       "泡系"
@@ -41002,35 +40586,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "zagin-soba-happy-valley-king-kwong",
-    "name": "Zagin Soba Happy Valley",
-    "name_ja": "座銀 跑馬地店",
-    "area": "Happy Valley",
-    "address": "G/F, 13 King Kwong Street, Happy Valley",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "ハッピーバレー（跑馬地）にあるそば専門店「Zagin Soba Happy Valley」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "そば"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "zankyou-izakaya",
