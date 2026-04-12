@@ -7,7 +7,7 @@
     "address": "Hobart CBD, TAS 7000",
     "phone": null,
     "website": "https://ajikoma.com.au/",
-    "description": "ホバートCBDの日本料理レストラン。本格的な寿司・刺身・天ぷらを提供。",
+    "description": "ホバートCBDにある日本料理レストラン。タスマニア産の新鮮な食材を使った本格的な寿司・刺身・天ぷらが楽しめる。在住日本人も利用する老舗。",
     "tags": [
       "日本料理",
       "寿司",
@@ -23,7 +23,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ajisen-ramen-sydney",
@@ -33,7 +34,7 @@
     "address": "Shop 4, 461 George Street, Sydney NSW 2000",
     "phone": "+61292233233",
     "website": "https://ajisenramensydney.com.au/",
-    "description": "熊本発のラーメンチェーン。こってり豚骨ラーメンが定番。世界800店舗以上を展開するグローバルチェーン。",
+    "description": "熊本発の豚骨ラーメンチェーン。シドニーCBD・ジョージ通りに位置し、こってり豚骨スープのラーメンが定番。日本語メニューあり。",
     "tags": [
       "ラーメン",
       "チェーン",
@@ -49,7 +50,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "argyle-bar-perth",
@@ -61,7 +63,7 @@
     "lng": null,
     "phone": null,
     "website": "https://argylebarandrestaurant.com.au/",
-    "description": "エリザベス・キーに位置するモダン和食レストラン。居酒屋スタイルの小皿料理や寿司、豊富な日本酒を提供。",
+    "description": "パースのエリザベス・キーに位置するモダン和食レストラン。居酒屋スタイルの小皿料理・寿司と豊富な日本酒セレクションが楽しめる。",
     "tags": [
       "モダン和食",
       "居酒屋",
@@ -80,38 +82,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "argyle-bar-perth-izakaya",
-    "name": "Argyle Bar",
-    "name_ja": "アーガイルバー",
-    "area": "Perth",
-    "address": "Elizabeth Quay, Perth WA 6000",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://argylebarandrestaurant.com.au/",
-    "description": "パースのエリザベスキーにある日本式居酒屋バー。厳選日本酒と居酒屋スタイルの小皿料理を提供。",
-    "tags": [
-      "居酒屋",
-      "日本酒",
-      "バー",
-      "港"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "website",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "aruhi-sushi-perth",
@@ -123,7 +95,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "パースの人気寿司レストラン。新鮮なネタを使った握り寿司・手巻き・チキンカツなどを提供。",
+    "description": "パースCBDのHay St沿いにある寿司店。新鮮なネタを使った握り寿司・手巻き・チキンカツなど多彩なメニューを提供するランチスポット。",
     "tags": [
       "寿司",
       "新鮮",
@@ -141,7 +113,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "asahi-teppanyaki-sydney",
@@ -151,7 +124,7 @@
     "address": "Sydney NSW",
     "phone": null,
     "website": "https://www.asahiteppanyaki.com.au/",
-    "description": "シドニーの鉄板焼きレストラン。シェフのライブクッキングパフォーマンスとともに和牛や海鮮の鉄板焼きを提供。",
+    "description": "シドニーの鉄板焼き専門レストラン。シェフのライブパフォーマンスとともに和牛や海鮮の鉄板焼きが楽しめる日本食体験ができる。",
     "tags": [
       "鉄板焼き",
       "和牛"
@@ -166,7 +139,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "azabu-perth",
@@ -178,7 +152,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.azabuperth.com.au/",
-    "description": "A5宮崎和牛を専門とするパースの高級日本料理店。東京の麻布にちなんで名付けられ、厳選した和牛と日本酒のペアリングが人気。",
+    "description": "パース・ノースブリッジのA5宮崎和牛専門日本料理店。東京の麻布にちなんで名付けられ、厳選和牛と日本酒のペアリングが人気の高級店。",
     "tags": [
       "和牛",
       "A5",
@@ -197,19 +171,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "azuma-sydney",
     "name": "Azuma Restaurant",
     "name_ja": "あずまレストラン",
     "area": "Sydney",
-    "address": "Level 1, Chifley Plaza, 2 Chifley Square, Sydney NSW 2000",
+    "address": "167 Phillip Street, Sydney NSW 2000",
     "lat": null,
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "シドニーCBDに位置する老舗日本料理店。丁寧に仕上げた寿司・刺身・懐石料理が揃い、ビジネスランチや特別な食事に適した格調ある空間。",
+    "description": "シドニーCBDの老舗日本料理店。日系駐在員やビジネス関係者にも人気の寿司・刺身・懐石料理が揃う。1996年創業の実力店。",
     "tags": [
       "和食",
       "寿司",
@@ -228,97 +203,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "beach-izakaya-gc",
-    "name": "Beach Izakaya Gold Coast",
-    "name_ja": "ビーチ居酒屋ゴールドコースト",
-    "area": "Gold Coast",
-    "address": "Surfers Paradise QLD 4217",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "サーファーズパラダイスのビーチ沿いにある居酒屋。海を眺めながら日本酒・ビールと居酒屋料理が楽しめるロケーション抜群の人気スポット。",
-    "tags": [
-      "居酒屋",
-      "ビーチ",
-      "ゴールドコースト"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "bento-box-adelaide",
-    "name": "Bento Box Adelaide",
-    "name_ja": "弁当箱アデレード",
-    "area": "Adelaide",
-    "address": "Adelaide SA 5000",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "アデレードの弁当専門店。日本式の弁当箱スタイルで様々な和食をセットにして提供する。オフィスランチの定番として人気。",
-    "tags": [
-      "弁当",
-      "ランチ",
-      "アデレード"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "boom-boom-brisbane2",
-    "name": "Boom Boom Room",
-    "name_ja": "ブームブームルーム",
-    "area": "Brisbane",
-    "address": "Brisbane CBD QLD 4000",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "歴史的建築の地下にある豪華な居酒屋。落ち着いた雰囲気と独創的な和食・ドリンクメニューが評判のブリスベンの隠れ名店。",
-    "tags": [
-      "居酒屋",
-      "隠れ家",
-      "ブリスベン"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "boom-boom-room-brisbane",
@@ -328,7 +214,7 @@
     "address": "Brisbane CBD, QLD 4000",
     "phone": null,
     "website": "https://www.theboomboomroom.com.au/",
-    "description": "ブリスベンCBDの地下日本料理レストラン＆サパークラブ。日本料理とオーストラリア産食材を融合。ライブエンターテイメント付き。",
+    "description": "ブリスベンCBDの地下にある日本料理レストラン＆サパークラブ。日本料理とオーストラリア産食材を融合した料理とライブエンターテイメントが楽しめる。",
     "tags": [
       "日本料理",
       "サパークラブ",
@@ -344,19 +230,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "chaco-bar-potts-point-sydney",
     "name": "Chaco Bar",
     "name_ja": "チャコバー",
     "area": "Sydney",
-    "address": "Potts Point NSW 2011",
+    "address": "186-188 Victoria Street, Potts Point NSW 2011",
     "lat": null,
     "lng": null,
     "phone": null,
-    "website": null,
-    "description": "ポッツポイントの焼き鳥専門バー。本格的な炭火串焼きとクラフトドリンクを提供する居酒屋スタイル。",
+    "website": "https://chacobar.com.au/",
+    "description": "ポッツポイントの焼き鳥専門店。福岡出身の阿部シェフによる本格炭火串焼きが人気。全品一本から注文できてシェアスタイルでも楽しめる。",
     "tags": [
       "焼き鳥",
       "居酒屋",
@@ -374,37 +261,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "chaco-bar-sydney2",
-    "name": "Chaco Bar Sydney",
-    "name_ja": "チャコバーシドニー",
-    "area": "Sydney",
-    "address": "Surry Hills NSW 2010",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "ハイエンドなオマカセ体験をサリーヒルズに持ち込んだレストラン。日本のトップシェフ・阿部慶太が率いる革新的な日本料理を提供する。",
-    "tags": [
-      "オマカセ",
-      "創作和食",
-      "シドニー"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "cho-cho-san",
@@ -414,7 +272,7 @@
     "address": "73 Macleay Street, Potts Point NSW 2011",
     "phone": "+61293316601",
     "website": "https://www.chochosan.com.au/",
-    "description": "Potts Pointの人気居酒屋スタイルのレストラン。蟹チャーハンやXOソース、抹茶ソフトクリームなどが名物。バンケットメニューもあり、カジュアルに日本料理を楽しめる。",
+    "description": "Potts Pointの居酒屋スタイルレストラン。名物の蟹チャーハン・XOソースのスパイシー豆腐・抹茶ソフトクリームが揃う。予約推奨。",
     "tags": [
       "居酒屋スタイル",
       "予約推奨",
@@ -430,108 +288,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "coral-izakaya-cairns",
-    "name": "Coral Izakaya",
-    "name_ja": "珊瑚居酒屋",
-    "area": "Cairns",
-    "address": "Cairns QLD 4870",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "熱帯の食材を取り入れたケアンズならではの居酒屋。地元の新鮮な魚介を使った和食と南国ムードの融合が楽しめる。",
-    "tags": [
-      "居酒屋",
-      "魚介",
-      "ケアンズ"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "curry-house-japanese-brisbane",
-    "name": "Japanese Curry House Brisbane",
-    "name_ja": "日本カレーハウスブリスベン",
-    "area": "Brisbane",
-    "address": "Brisbane CBD QLD 4000",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "ブリスベンの日本式カレー専門店。とろとろの日本カレーとかつカレー・チキンカレーなど定番メニューが手頃な価格で楽しめる。",
-    "tags": [
-      "カレー",
-      "日本式",
-      "ブリスベン"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "curry-shop-sydney",
-    "name": "Japanese Curry Shop Sydney",
-    "name_ja": "日本カレーショップシドニー",
-    "area": "Sydney",
-    "address": "Sydney NSW 2000",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "日本式カレーを専門とするシドニーのカレーショップ。とろみのある甘口から辛口まで、本場日本のカレーの味が楽しめる。",
-    "tags": [
-      "カレー",
-      "シドニー"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "daikokuten-hawthorn-melbourne",
     "name": "Daikokuten",
     "name_ja": "大黒天",
     "area": "Melbourne",
-    "address": "Tooronga Rd, Hawthorn East VIC 3123",
+    "address": "1/398 Tooronga Road, Hawthorn East VIC 3123",
     "lat": null,
     "lng": null,
     "phone": null,
-    "website": null,
-    "description": "ホーソンイーストの日本式ブランチ&おにぎり専門店。日本風のブランチメニューとおにぎり各種を提供。",
+    "website": "https://www.daikokuten.com.au",
+    "description": "ホーソンイーストの日本式カフェ。おにぎり各種と日本風ブランチメニューが人気。メルボルンの日本人コミュニティからも支持される居心地よい空間。",
     "tags": [
       "おにぎり",
       "ブランチ",
@@ -549,37 +319,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "darling-harbour-izakaya-sydney",
-    "name": "Darling Harbour Izakaya",
-    "name_ja": "ダーリングハーバー居酒屋",
-    "area": "Sydney",
-    "address": "Darling Harbour NSW 2000",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "ダーリングハーバーのウォーターフロントに位置する居酒屋。ハーバービューを眺めながら日本酒・ビールと居酒屋料理が楽しめる。",
-    "tags": [
-      "居酒屋",
-      "ウォーターフロント",
-      "シドニー"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "daruma-haymarket",
@@ -589,7 +330,7 @@
     "address": "Level 1, 8 Quay Street, Haymarket NSW 2000",
     "phone": "+61292812889",
     "website": "https://daruma-japanese-restaurant.com/",
-    "description": "Chinatown中心部の老舗日本食レストラン。ランチは弁当や刺身をリーズナブルに、ディナーは居酒屋スタイルで日本酒・ビールとともに楽しめる。",
+    "description": "シドニーChinatown中心部の老舗日本食レストラン。刺身・弁当のランチと日本酒とともに楽しむ居酒屋スタイルのディナーが揃う。",
     "tags": [
       "居酒屋スタイル",
       "弁当",
@@ -605,19 +346,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "disuko-melbourne",
     "name": "Disuko",
     "name_ja": "ディスコ",
     "area": "Melbourne",
-    "address": "Melbourne CBD VIC 3000",
+    "address": "Level 3, 59-63 Bourke Street, Melbourne VIC 3000",
     "lat": null,
     "lng": null,
     "phone": null,
-    "website": null,
-    "description": "元マダムブリュッセルを引き継いだ1980年代東京インスパイアのルーフトップ居酒屋。カクテル・日本酒・居酒屋料理が楽しめる非日常空間。",
+    "website": "https://www.disuko.com.au/",
+    "description": "1980年代東京インスパイアのルーフトップ居酒屋。メルボルン・ボーク通りのLevel 3。カクテル・日本酒と居酒屋料理を提供するおしゃれな空間。",
     "tags": [
       "居酒屋",
       "ルーフトップ",
@@ -635,7 +377,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "dohtonbori-sydney",
@@ -647,7 +390,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.dohtonbori.com.au/",
-    "description": "シドニーの日本式たこ焼き・お好み焼きレストラン。大阪発祥の道頓堀ブランドで、本格的な粉もん料理を提供。",
+    "description": "シドニーの大阪発日本式たこ焼き・お好み焼きレストラン。本格的な粉もん料理を自分で焼きながら楽しめるスタイルが人気。旅行者にも◎。",
     "tags": [
       "お好み焼き",
       "たこ焼き",
@@ -665,49 +408,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "donburi-ya-melbourne",
-    "name": "Donburi Ya Melbourne",
-    "name_ja": "丼屋メルボルン",
-    "area": "Melbourne",
-    "address": "Melbourne CBD VIC 3000",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "メルボルンの丼専門店。カツ丼・親子丼・天丼・海鮮丼など本格的な日本の丼料理が手頃な価格で楽しめる。",
-    "tags": [
-      "丼",
-      "カツ丼",
-      "メルボルン"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "dopa-donburi-sydney",
     "name": "Dopa Donburi",
     "name_ja": "ドパ丼",
     "area": "Sydney",
-    "address": "Sydney NSW 2000",
+    "address": "Darling Square, Sydney NSW 2000（他複数店舗あり）",
     "lat": null,
     "lng": null,
     "phone": null,
-    "website": null,
-    "description": "シドニーの日本式丼専門ファストカジュアル店。ダーリングスクエア・リージェントプレース・マッコーリーセンターなど11店舗展開。",
+    "website": "https://www.darlingharbour.com/eat-drink/dopa-darling-quarter",
+    "description": "シドニー発の日本式丼専門ファストカジュアルチェーン。ダーリングスクエアなど市内複数店舗に展開。東京の街インスパイアの丼メニューと充実したデザートが人気。",
     "tags": [
       "丼",
       "ファストカジュアル",
@@ -725,7 +439,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "eazy-peazy-richmond",
@@ -735,7 +450,7 @@
     "address": "Richmond, Melbourne, VIC",
     "phone": null,
     "website": "https://www.eazypeazymelb.com/",
-    "description": "リッチモンドのモダン日本料理レストラン。ひばちグリル・ワインバー併設。Feed Meセットメニューが人気。",
+    "description": "リッチモンドのモダン日本料理店。ひばちグリルとワインバーを併設し、Feed Meセットメニューで多彩な和食を楽しめる。日本人オーナー経営。",
     "tags": [
       "日本料理",
       "ひばち",
@@ -751,7 +466,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "egawa-an-east-perth",
@@ -762,8 +478,8 @@
     "lat": null,
     "lng": null,
     "phone": null,
-    "website": null,
-    "description": "イーストパースの10席限定寿司カウンター。フォアグラや和牛など高級食材を使った12コースのおまかせを提供。",
+    "website": "https://www.waegawaan.com/",
+    "description": "イーストパースの路地にある江戸前スタイル・12席限定のおまかせ店。パース唯一のフグ料理も提供。要予約、$60の保証金が必要。",
     "tags": [
       "おまかせ",
       "高級",
@@ -782,67 +498,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "etsu-izakaya-gold-coast",
-    "name": "Etsu Izakaya",
-    "name_ja": "悦 居酒屋",
-    "area": "Gold Coast",
-    "address": "Mermaid Beach QLD 4218",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "マーメイドビーチの本格日本居酒屋。ゴールドコーストの日本人コミュニティに人気の居酒屋スタイルレストラン。",
-    "tags": [
-      "居酒屋",
-      "日本料理",
-      "ゴールドコースト"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "etsu-izakaya-gold-coast2",
-    "name": "Etsu Izakaya Gold Coast",
-    "name_ja": "エツ居酒屋ゴールドコースト",
-    "area": "Gold Coast",
-    "address": "Gold Coast Highway, Mermaid Beach QLD 4218",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "ゴールドコーストハイウェイ沿いにある人気居酒屋。ネオンサインが灯る薄暗い空間でシェアプレートを楽しむ大人の聖地。",
-    "tags": [
-      "居酒屋",
-      "シェアプレート",
-      "ゴールドコースト"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "etsu-izakaya-mermaid-beach",
@@ -852,7 +509,7 @@
     "address": "2440 Gold Coast Highway, Mermaid Beach QLD 4218",
     "phone": null,
     "website": "https://www.etsu.com.au/",
-    "description": "マーメイドビーチの隠れ家的居酒屋。ムーディーでエクレクティックな内装。地元ファンに愛されるハイエナジーな雰囲気。",
+    "description": "ゴールドコースト・マーメイドビーチの人気居酒屋。薄暗くムーディーな空間でシェアプレートを楽しむ大人の隠れ家。日本酒セレクションも充実。",
     "tags": [
       "居酒屋",
       "隠れ家",
@@ -868,37 +525,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "fuji-japanese-adelaide",
-    "name": "Fuji Japanese Restaurant",
-    "name_ja": "富士日本料理アデレード",
-    "area": "Adelaide",
-    "address": "Adelaide CBD SA 5000",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "アデレードのシンボル・富士の名を冠した日本料理店。本格的な寿司・刺身・天ぷらが楽しめ、在住日本人の定番食事スポット。",
-    "tags": [
-      "寿司",
-      "和食",
-      "アデレード"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "future-future-richmond",
@@ -908,7 +536,7 @@
     "address": "191 Swan Street, Richmond VIC 3121",
     "phone": "+61399657900",
     "website": "https://www.futurefuture.com.au/",
-    "description": "リッチモンドの2階建てモダン日本料理レストラン。東京の居酒屋にインスパイアされた空間。シェフズメニューとカクテルが人気。最大50名のプライベートダイニングも。",
+    "description": "リッチモンドの2階建てモダン日本料理店。東京の居酒屋インスパイアの空間でシェフズメニューとカクテルが楽しめる。最大50名の個室も完備。",
     "tags": [
       "モダン日本料理",
       "居酒屋",
@@ -924,33 +552,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "future-future-richmond-izakaya",
-    "name": "Future Future Bar",
-    "name_ja": "フューチャーフューチャー バー",
-    "area": "Richmond",
-    "address": "191 Swan Street, Richmond VIC 3121",
-    "phone": "+61399657900",
-    "website": "https://www.futurefuture.com.au/",
-    "description": "リッチモンドの日本風バー＆ダイニング。日本のウイスキー、カクテル、居酒屋スタイルの料理を提供。",
-    "tags": [
-      "居酒屋",
-      "カクテル",
-      "モダン"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "gaku-robata-darlinghurst",
@@ -960,7 +563,7 @@
     "address": "2/132 Darlinghurst Road, Darlinghurst NSW 2010",
     "phone": "+61426229254",
     "website": "https://www.gakurobatagrill.com.au/",
-    "description": "ダーリングハーストの小さな炉端焼き店。花倉志門・犬飼春シェフが共同で運営。ラーメンにも定評あり。2018年オープン以来熱狂的なファンを持つ。",
+    "description": "ダーリングハーストの小さな炉端焼き店。日本人シェフによる本格炭火串焼きとラーメンに定評があるシドニーの名店。2018年オープン以来ファンが多い。",
     "tags": [
       "炉端焼き",
       "ラーメン",
@@ -976,19 +579,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ganbaranba-cairns",
     "name": "Ganbaranba",
     "name_ja": "がんばらんば",
     "area": "Cairns",
-    "address": "Cairns QLD 4870",
+    "address": "14 Spence Street, Cairns QLD 4870",
     "lat": null,
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ケアンズの日本食レストラン。地元の日本人コミュニティにも人気があり、本格的な和食を提供。",
+    "description": "ケアンズ中心部・Spence Stの人気ラーメン・餃子専門店。日本人オーナーが作る濃厚豚骨ラーメンと自家製餃子がTripAdvisor上位常連。",
     "tags": [
       "日本料理",
       "ケアンズ",
@@ -1006,19 +610,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ganbare-kaz-melbourne",
     "name": "Ganbare Kaz Kaiten Sushi",
     "name_ja": "ガンバレかず回転寿司",
     "area": "Melbourne",
-    "address": "Chapel St, Melbourne VIC 3000",
+    "address": "151 Chapel Street, Windsor VIC 3181",
     "lat": null,
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "チャペル通りにある人気の回転寿司店。マスターシェフオーストラリアでも紹介された名物店で、新鮮な寿司を気軽に楽しめる。",
+    "description": "チャペル通り（ウィンザー）にある回転寿司店。マスターシェフAUでも紹介された名店。新鮮な握り・刺身とアラカルトメニューが揃う。",
     "tags": [
       "回転寿司",
       "寿司",
@@ -1036,7 +641,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "garaku-prefecture-48",
@@ -1046,7 +652,7 @@
     "address": "Prefecture 48, Darling Harbour, Sydney NSW 2000",
     "phone": null,
     "website": "https://www.p48.com.au/",
-    "description": "Prefecture 48内のモダン懐石レストラン。元テツヤズのデレク・キムシェフが率いる。7コースのセットメニュー（$330/人）。東京のデザイナーによる光のインスタレーションが特徴。",
+    "description": "ダーリングハーバーのPrefecture 48内・7コース懐石レストラン（$330/人）。東京インスパイアのデザインが印象的。",
     "tags": [
       "懐石",
       "コース料理",
@@ -1062,51 +668,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "ginza-bar-perth",
-    "name": "Ginza Bar Perth",
-    "name_ja": "銀座バーパース",
-    "area": "Perth",
-    "address": "Perth CBD WA 6000",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "パースCBDの銀座スタイル居酒屋バー。高級感ある雰囲気の中で、日本酒・ウイスキー・スパークリング日本酒が楽しめる大人のバー。",
-    "tags": [
-      "居酒屋",
-      "バー",
-      "日本酒",
-      "ウイスキー",
-      "パース"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ginza-midai-perth",
     "name": "Ginza Midai",
     "name_ja": "銀座 御代",
     "area": "Perth",
-    "address": "Perth CBD WA 6000",
+    "address": "Ginza Nana Alley, Murray Street, Perth WA 6000",
     "lat": null,
     "lng": null,
     "phone": null,
-    "website": null,
-    "description": "パースの12席限定カッポースタイルのおまかせレストラン。おでんを中心とした日本の伝統料理を丁寧に提供。",
+    "website": "https://nanachome.com.au/",
+    "description": "パースのGinza Nana Alley内にある12席限定のおでん割烹。旬の素材を丁寧に煮込んだ料理が楽しめる予約必須の人気店。",
     "tags": [
       "おまかせ",
       "おでん",
@@ -1125,7 +700,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ginza-miyako-adelaide",
@@ -1137,7 +713,7 @@
     "lng": null,
     "phone": null,
     "website": "https://ginzamiyako.com.au/",
-    "description": "アデレードの銀座みやこ。本格的な和食・寿司・刺身を提供する歴史あるアデレードの日本料理店。",
+    "description": "アデレードの老舗日本料理レストラン。本格的な寿司・刺身・弁当ランチで在住日本人や日本食ファンから評判が高い。おすすめの地元日本食スポット。",
     "tags": [
       "日本料理",
       "寿司",
@@ -1156,139 +732,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "ginza-nana-alley-perth",
-    "name": "Ginza Nana Alley",
-    "name_ja": "銀座ナナアレイ",
-    "area": "Perth",
-    "address": "Perth CBD WA 6000",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "パースCBDにある5つの日本食レストランが集まるエリア。新宿のエネルギーを再現した日本食の集積地。",
-    "tags": [
-      "日本食",
-      "フードコート",
-      "日系"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "ginza-nana-alley-restaurant",
-    "name": "Ginza Nana Alley Perth",
-    "name_ja": "銀座ナナアレイパース",
-    "area": "Perth",
-    "address": "Northbridge WA 6003",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "ノースブリッジに新宿のエネルギーを再現した「銀座ナナアレイ」にある日本料理複合施設。複数の日本料理専門店が集まる魅力的なスポット。",
-    "tags": [
-      "和食",
-      "複合施設",
-      "パース"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "goemon-soba-melbourne",
-    "name": "Goemon Soba Melbourne",
-    "name_ja": "五右衛門そばメルボルン",
-    "area": "Melbourne",
-    "address": "Melbourne VIC 3000",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "メルボルンの立ち食いそば・うどん専門店。日本の駅そばスタイルを再現し、手軽に本格的なそば・うどんを楽しめる。",
-    "tags": [
-      "そば",
-      "うどん",
-      "立ち食い",
-      "メルボルン"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "gogyo-surry-hills",
-    "name": "Gogyo Ramen",
-    "name_ja": "五行ラーメン",
-    "area": "Sydney",
-    "address": "Surry Hills NSW 2010",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "サリーヒルズにあるIPPUDOファミリーの世界水準ラーメン店。名物の焦がし醤油・焦がし味噌ラーメンが独特の深い風味を生み出す。",
-    "tags": [
-      "ラーメン",
-      "シドニー"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "gogyo-surry-hills-sydney",
     "name": "GOGYO",
     "name_ja": "ゴギョウ",
     "area": "Sydney",
-    "address": "Surry Hills NSW 2010",
+    "address": "52-54 Albion Street, Surry Hills NSW 2010",
     "lat": null,
     "lng": null,
     "phone": null,
-    "website": null,
-    "description": "サリーヒルズの本格日本料理レストラン。モダンミニマリストなインテリアに本格的な和食メニューを提供。",
+    "website": "https://stores.ippudo.com/en_au/AU005",
+    "description": "サリーヒルズのIPPUDO系列ラーメン店。日本発祥の「焦がし醤油・焦がし味噌ラーメン（kogashi）」が名物。2018年シドニー進出の実力店。",
     "tags": [
       "日本料理",
       "モダン和食"
@@ -1305,19 +762,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "goryon-san-surry-hills",
     "name": "Goryon San",
     "name_ja": "ゴリョンサン",
     "area": "Sydney",
-    "address": "Surry Hills NSW 2010",
+    "address": "47 Reservoir Street, Surry Hills NSW 2010",
     "lat": null,
     "lng": null,
     "phone": null,
-    "website": null,
-    "description": "サリーヒルズの人気焼き鳥専門店。本格的な焼き鳥と豊富な日本酒セレクションが自慢。シドニー在住日本人に人気。",
+    "website": "https://goryon-san.com.au/",
+    "description": "サリーヒルズの博多スタイル焼き鳥居酒屋（47 Reservoir St）。炭火串焼きと豊富な日本酒が揃い、シドニー在住日本人が通う人気店。",
     "tags": [
       "焼き鳥",
       "日本酒",
@@ -1335,7 +793,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "goryon-san-surry-hills-izakaya",
@@ -1372,12 +831,12 @@
     "name": "GOTO",
     "name_ja": "ゴトウ",
     "area": "Gold Coast",
-    "address": "Southport QLD 4215",
+    "address": "U3002/9 Lawson Street, Southport QLD 4215",
     "lat": null,
     "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "ゴールドコーストのサウスポートにあるおまかせ体験ができる日本料理店。シェフがその日の食材で料理を提供。",
+    "phone": "+61756637422",
+    "website": "https://www.facebook.com/gotojapaneserestaurantgc/",
+    "description": "サウスポートの本格日本料理店（Lawson St）。元リーフシーフードの料理長が開いたオマカセコース（$160〜）はOpenTableで4.9の高評価。",
     "tags": [
       "おまかせ",
       "日本料理",
@@ -1395,19 +854,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "gumshara-haymarket-sydney",
     "name": "Gumshara Ramen",
     "name_ja": "ガムシャララーメン",
     "area": "Sydney",
-    "address": "Eating World, 25-29 Dixon St, Haymarket NSW 2000",
+    "address": "9 Kimber Lane, Haymarket NSW 2000",
     "lat": null,
     "lng": null,
     "phone": null,
-    "website": "https://www.facebook.com/GumsharaRamen",
-    "description": "ヘイマーケットのフードコート内の有名ラーメン店。濃厚な豚骨スープのラーメンが人気で、シドニー在住日本人が多く利用する。",
+    "website": "https://gumshara.com/",
+    "description": "ヘイマーケット（Kimber Lane）の有名ラーメン専門店。日本人オーナーが2009年から作り続ける濃厚豚骨スープはシドニー屈指の一杯。",
     "tags": [
       "ラーメン",
       "豚骨",
@@ -1426,37 +886,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "gyoza-bar-sydney",
-    "name": "Gyoza Bar Sydney",
-    "name_ja": "餃子バーシドニー",
-    "area": "Sydney",
-    "address": "Sydney CBD NSW 2000",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "餃子を専門とするシドニーのバースタイルレストラン。焼き餃子・水餃子・スープ餃子など多彩な餃子と日本酒が楽しめる。",
-    "tags": [
-      "餃子",
-      "バー",
-      "シドニー"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "gyoza-masters-sydney",
