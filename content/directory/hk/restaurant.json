@@ -1413,7 +1413,7 @@
     "address": "29/F, 18 On Lan Street, Central, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "セントラル（中環）にあるセントラルの高層ビル29階にあるモダン居酒屋。小西シェフによる創作和食とカクテルを眺望とともに。",
+    "description": "セントラル（中環）On Lan Street 29階にある小西シェフ監修のモダン居酒屋。香港の夜景を望みながら、創作和食とカクテルを楽しめる。",
     "tags": [
       "居酒屋",
       "モダン日本料理",
@@ -1430,7 +1430,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "akatsuki-izakaya",
@@ -1440,7 +1441,7 @@
     "address": "G/F, 1 Duddell Street, Central, Hong Kong",
     "phone": "+85298556660",
     "website": "https://laisundining.com/the-venues/akatsuki-izakaya/",
-    "description": "セントラル（中環）にあるセントラルのカジュアル居酒屋。おでん、串焼き、揚げ物など家庭的な日本料理を手頃な価格で提供。クラフトビールも充実。",
+    "description": "セントラル（中環）Duddell Street 1番地の日本式居酒屋。Lai Sun Dining系列。串焼き・おでん・天ぷらなど幅広い和食を手頃な価格で提供。ランチ弁当も評判。",
     "tags": [
       "居酒屋",
       "おでん",
@@ -1481,63 +1482,8 @@
         "category": "アラカルト"
       }
     ],
-    "price_range": "HKD 150〜350/人（ランチ〜ディナー）"
-  },
-  {
-    "slug": "akatsuki-izakaya-2",
-    "name": "AKATSUKI Izakaya",
-    "name_ja": "アカツキ 居酒屋",
-    "area": "Central",
-    "address": "G/F, 1 Duddell St, Central, Hong Kong",
-    "lat": 22.2803,
-    "lng": 114.1572,
-    "phone": "+85298556660",
-    "website": "https://laisundining.com/the-venues/akatsuki-izakaya/",
-    "description": "セントラル（中環）にある日本式居酒屋「AKATSUKI Izakaya」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
-    "tags": [
-      "居酒屋"
-    ],
-    "hours": "Monday: 12:00 – 3:00 PM, 6:00 – 11:00 PM / Tuesday: 12:00 – 3:00 PM, 6:00 – 11:00 PM / Wednesday: 12:00 – 3:00 PM, 6:00 – 11:00 PM / Thursday: 12:00 – 3:00 PM, 6:00 – 11:00 PM / Friday: 12:00 – 3:00 PM, 6:00 – 11:00 PM / Saturday: 5:00 PM – 12:00 AM / Sunday: Closed",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJ5VoAMbQBBDQRqehY9_ipu_E",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "detail": "MTR中環駅から徒歩3分、Duddell Street 1番地G/F。家庭的な日本料理と手ごろな価格が特徴のカジュアル居酒屋。揚げ物、串焼き、おでん、弁当ランチも提供。月〜土曜営業、日曜定休。テイクアウトも対応（My Keeta）。",
-    "price_range": "HKD 150〜350/人（ランチ〜ディナー）"
-  },
-  {
-    "slug": "akatsuki-izakaya-central",
-    "name": "Akatsuki Izakaya",
-    "name_ja": "暁 居酒屋",
-    "area": "Central",
-    "address": "G/F, 1 Duddell Street, Central, Hong Kong",
-    "phone": null,
-    "website": "https://laisundining.com/the-venues/akatsuki-izakaya/",
-    "description": "セントラル（中環）にあるセントラルのDuddell Streetに位置する居酒屋。串焼き、刺身、天ぷらなど幅広い和食メニューを提供。",
-    "tags": [
-      "居酒屋",
-      "串焼き",
-      "日本料理"
-    ],
-    "hours": "毎日 12:00〜23:00",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "price_range": "HKD 150〜350/人（ランチ〜ディナー）",
+    "place_reviewed": true
   },
   {
     "slug": "akira-back-central",
@@ -1549,7 +1495,7 @@
     "lng": null,
     "phone": null,
     "website": "https://akirabackhk.com/",
-    "description": "2025年9月オープンの日韓フュージョンレストラン。ソウル生まれのシェフ、アキラ・バック氏がアメリカの感性を融合した革新的な料理を提供。The Henderson内。",
+    "description": "ザ・ヘンダーソン（The Henderson）5階にある日韓フュージョンレストラン。2025年9月オープン。韓国出身・ノブ修行のAkira Backシェフが手掛ける。",
     "tags": [
       "フュージョン",
       "日韓料理",
@@ -1567,7 +1513,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "akune-wagyu-tachikui-mong-kok",
@@ -1579,7 +1526,7 @@
     "lng": null,
     "phone": "+85226976988",
     "website": null,
-    "description": "モンコック（旺角）にある香港初のバーシート型立ち食い焼肉店の一つ。A4/A5和牛をグラム単位（HKD2.80〜3.20/g）で提供。",
+    "description": "モンコック（旺角）にある立ち食い焼肉店。A4/A5和牛をグラム単位（HKD2.80〜3.20/g）で注文できる。在香港日本人・旅行者にも人気の珍しい業態。",
     "tags": [
       "焼肉",
       "和牛",
@@ -1597,7 +1544,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "always-joy-sheung-wan",
@@ -1609,7 +1557,7 @@
     "lng": null,
     "phone": "+85221100148",
     "website": "https://www.alwaysjoy.co/",
-    "description": "Yardbird（焼鳥）の姉妹店として2025年3月にオープンした季節の居酒屋。Matt Abergel率いるチームが手掛ける新コンセプト。火〜土のディナーのみ営業。",
+    "description": "ヤードバード姉妹店として2025年3月にオープンした居酒屋。Wing Lok Street 148番地。火〜土ディナーのみ。季節素材を活かした和食寄りの創作料理が評判。",
     "tags": [
       "居酒屋",
       "季節料理"
@@ -1626,7 +1574,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "amoi-izakaya-wan-chai",
@@ -1636,7 +1585,7 @@
     "address": "Flat A, 2/F, Hundred City Centre, 7-17 Amoy Street, Wan Chai, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "ワンチャイ（湾仔）にある日本式居酒屋「Amoi Izakaya」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "ワンチャイ（湾仔）Amoy Streetの日本式串焼き居酒屋。在香港日本人にも利用される月〜土営業の居酒屋。ランチは日本風弁当セットも提供。",
     "tags": [
       "居酒屋",
       "串焼き"
@@ -1655,7 +1604,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ana-sushi-yoho-mall-yuen-long",
@@ -1667,7 +1617,7 @@
     "lng": null,
     "phone": "+85223535515",
     "website": null,
-    "description": "元朗YOHO MALLの居酒屋スタイルの日本料理店。毎日空輸の新鮮な刺身と鉄板焼きが名物。元朗MTR駅K出口から徒歩1分。",
+    "description": "元朗YOHO MALL内の居酒屋スタイル日本料理店。毎日空輸の新鮮刺身と鉄板焼きが名物。元朗MTR駅K出口から徒歩1分でアクセス良好。",
     "tags": [
       "寿司",
       "鉄板焼き",
@@ -1685,7 +1635,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ando-central",
@@ -1697,7 +1648,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.andohk.com/",
-    "description": "ミシュラン一つ星。アルゼンチン出身・日本修行のAgustin Balbiシェフが率いる。日本料理の技法をベースにしたテイスティングメニューを提供。",
+    "description": "ミシュラン一つ星の創作和食レストラン。セントラル（中環）On Lan Street。アルゼンチン出身・日本修行のAgustin Balbiシェフによるテイスティングメニュー。",
     "tags": [
       "おまかせ",
       "高級和食",
@@ -1716,7 +1667,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ankayama-tko",
@@ -1728,7 +1680,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "將軍澳澳南海岸のおまかせ寿司レストラン。將軍澳駅A2出口から徒歩約8分。厳選した食材で提供する本格おまかせコースが評判。",
+    "description": "将軍澳（澳南海岸）のおまかせ寿司レストラン。将軍澳MTR A2出口から徒歩約8分。厳選食材による本格おまかせコースでOpenRice 4.5星。",
     "tags": [
       "japanese",
       "omakase",
@@ -1748,7 +1700,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "antoshimo-diamond-hill",
@@ -1760,7 +1713,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.antoshimo.asia/",
-    "description": "Diamond Hillにある鑽石山荷里活廣場にある沖縄テーマのカフェ・ベーカリー。沖縄海塩キャラメルドーナツアイスが看板メニュー。",
+    "description": "鑽石山荷里活廣場内の沖縄テーマのカフェ・ベーカリー。沖縄海塩キャラメルドーナツアイスが名物。在香港日本人や観光客も訪れる。",
     "tags": [
       "okinawa",
       "cafe",
@@ -1779,17 +1732,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "aqua-tst",
     "name": "Aqua Hong Kong",
     "name_ja": "アクア 香港",
     "area": "Tsim Sha Tsui",
-    "address": "29-30/F, One Peking, 1 Peking Road, Tsim Sha Tsui, Hong Kong",
+    "address": "17/F, H Zentre, 15 Middle Road, Tsim Sha Tsui, Hong Kong",
     "phone": "+85234272288",
     "website": "https://aqua.com.hk/",
-    "description": "尖沙咀の高層ビル最上階にあるイタリアン＆日本料理レストラン。寿司・刺身とイタリアンを同時に楽しめる。ビクトリアハーバーの夜景が圧巻。",
+    "description": "尖沙咀H Zentre 17階に移転した日本料理＆イタリア料理レストラン。ビクトリアハーバーを望む夜景が自慢。2025年に移転し屋外テラスも新設。",
     "tags": [
       "日本料理",
       "イタリアン",
@@ -1825,7 +1779,8 @@
         "category": "イタリア料理"
       }
     ],
-    "price_range": "HKD 500〜1,200/人（ディナー目安）"
+    "price_range": "HKD 500〜1,200/人（ディナー目安）",
+    "place_reviewed": true
   },
   {
     "slug": "arashiyama-japanese-restaurant",
@@ -1837,7 +1792,7 @@
     "lng": 114.1744,
     "phone": "+85226222094",
     "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある日本食レストラン「Arashiyama Japanese Restaurant」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "尖沙咀（チムサーチョイ）Minden Avenue 11番地の日本食レストラン。新鮮な刺身・寿司が評判でOpenRice 4.0星・807件のレビューを持つ老舗。",
     "tags": [
       "日本食"
     ],
@@ -1853,7 +1808,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "as-yu-wish-sushi-quarry-bay",
@@ -1865,7 +1821,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "クォーリーベイ（鰂魚涌）にある鰂魚涌のカジュアルな寿司・刺身店。King's Road沿いのRoyal Terrace 1階。",
+    "description": "鰂魚涌（クォーリーベイ）King's Road沿いRoyal Terraceのカジュアル寿司・刺身店。在住日本人・旅行者が気軽に立ち寄れるエリアの日本食スポット。",
     "tags": [
       "寿司",
       "刺身"
@@ -1882,7 +1838,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "authentic-takoyaki-kwai-fong",
@@ -1894,7 +1851,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Kwai Fongにある日本食レストラン「Authentic Takoyaki」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "クワイフォン（葵芳）Kwai Chung Plaza内のたこ焼き専門店。本格的な日本式たこ焼きを提供。在住日本人・日本食好きに利用される。",
     "tags": [
       "日本食",
       "たこ焼き"
@@ -1911,7 +1868,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ba-sushi-wan-chai",
@@ -1921,7 +1879,7 @@
     "address": "Shop 1-3, 14 Burrows Street, Wan Chai, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "ワンチャイ（湾仔）にあるラーメン店「Ba Sushi Japanese Restaurant」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "ワンチャイ（湾仔）Burrows Street の日本料理店。寿司・ラーメンなど幅広い和食メニューを提供する。在住日本人・観光客向けの日本食スポット。",
     "tags": [
       "寿司",
       "ラーメン"
@@ -1940,7 +1898,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "baka-tempura",
@@ -1952,7 +1911,7 @@
     "lng": 114.1735,
     "phone": "+85290835149",
     "website": null,
-    "description": "モンコック（旺角）にある日本式居酒屋「Baka Tempura」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。在香港日本人・旅行者に利用されている。",
+    "description": "モンコック（旺角）Waterloo Road沿いの日本式居酒屋。天ぷら・串焼き・煮込みなどを手頃な価格で提供。ランチ・ディナー通し営業で使いやすい。",
     "tags": [
       "居酒屋"
     ],
@@ -1968,7 +1927,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "bar-buonasera-tst",
@@ -1980,7 +1940,7 @@
     "lng": null,
     "phone": "+85221114444",
     "website": null,
-    "description": "夫婦ミクソロジストのNick TseとAyako Miyakeが営むバー。400種類以上のスコットランド・日本ウイスキーとオーダーメイドカクテルを提供。",
+    "description": "尖沙咀（チムサーチョイ）Mody House 7階にある大阪発の日本式バー。スコットランド・日本ウイスキー400種超と手作りカクテルを提供。在香港日本人の隠れ家的バー。",
     "tags": [
       "居酒屋",
       "バー",
@@ -1999,7 +1959,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "bar-butler-tst",
@@ -2011,7 +1972,7 @@
     "lng": null,
     "phone": "+85227234318",
     "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある日本式バー「Bar Butler」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。在香港日本人・旅行者に利用されている。",
+    "description": "尖沙咀（チムサーチョイ）Mody House 6階のウイスキーバー、5階にカクテルバー。世界的に評価の高い日本式バー。ミニマムチャージ$200。在香港日本人にも人気。",
     "tags": [
       "居酒屋",
       "バー",
@@ -2030,7 +1991,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "bari-uma-airport",
@@ -2040,7 +2002,7 @@
     "address": "Shop 7E162, 7/F, Restricted Area, East Hall, HKIA Terminal 1, Hong Kong",
     "phone": null,
     "website": "https://www.bariuma.asia/",
-    "description": "Airportにあるラーメン店「Ramen Bari-Uma Airport」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "香港国際空港ターミナル1制限エリア内のラーメン店。Bari-Umaは香港全域に展開する日本発ラーメンチェーン。フライト前の一杯に便利。",
     "tags": [
       "ラーメン",
       "豚骨",
@@ -2056,36 +2018,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "bari-uma-airport-hk",
-    "name": "Ramen Bari-Uma Airport",
-    "name_ja": "霸嗎拉麵 空港店",
-    "area": "Chek Lap Kok",
-    "address": "Shop 7E162, 7/F, Hong Kong International Airport Terminal 1, Chek Lap Kok",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.bariuma.asia/",
-    "description": "Chek Lap Kokにあるラーメン店「Ramen Bari-Uma Airport」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "ラーメン",
-      "豚骨"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "bari-uma-causeway-bay",
@@ -2097,7 +2031,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.bariuma.asia/",
-    "description": "コーズウェイベイ（銅鑼湾）にあるラーメン店「Ramen Bari-Uma Causeway Bay」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "コーズウェイベイ（銅鑼湾）Tang Lung Street沿いのラーメン店。香港全域に展開するBari-Umaチェーンの銅鑼湾店。豚骨スープが特徴。",
     "tags": [
       "ラーメン",
       "豚骨"
@@ -2114,7 +2048,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "bari-uma-central-lkf",
@@ -2126,7 +2061,7 @@
     "lng": null,
     "phone": "+85231010780",
     "website": "https://www.bariuma.asia/",
-    "description": "セントラル（中環）にあるラーメン店「Ramen Bari-Uma Central」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "セントラル（中環）蘭桂坊D'Aguilar Street沿いのラーメン店。香港全域に展開するBari-Umaチェーンのセントラル店。豚骨スープが特徴。",
     "tags": [
       "ラーメン",
       "豚骨"
@@ -2143,7 +2078,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "bari-uma-tst",
@@ -2153,7 +2089,7 @@
     "address": "G/F, 26 Kimberley Road, Tsim Sha Tsui, Hong Kong",
     "phone": "+85222178300",
     "website": "https://www.bariuma.asia/",
-    "description": "チムサーチョイ（尖沙咀）にある広島発の人気ラーメンチェーン。濃厚な豚骨スープが看板。香港に5店舗展開。尖沙咀本店は行列店。",
+    "description": "尖沙咀（チムサーチョイ）Kimberley Road沿いにある広島発ラーメンチェーン「霸嗎拉麵」の尖沙咀店。濃厚豚骨スープが看板。香港に複数店舗展開。",
     "tags": [
       "ラーメン",
       "豚骨",
@@ -2169,36 +2105,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "bari-uma-tst-kimberley",
-    "name": "Ramen Bari-Uma TST",
-    "name_ja": "霸嗎拉麵 尖沙咀店",
-    "area": "Tsim Sha Tsui",
-    "address": "G/F, 26 Kimberley Road, Tsim Sha Tsui",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.bariuma.asia/",
-    "description": "チムサーチョイ（尖沙咀）にあるラーメン店「Ramen Bari-Uma TST」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "ラーメン",
-      "豚骨"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "bari-uma-tuen-mun",
@@ -2208,7 +2116,7 @@
     "address": "Shop 3233, 3/F, Phase 1, Tuen Mun Town Plaza, 1 Tuen Shun Street, Tuen Mun, Hong Kong",
     "phone": null,
     "website": "https://www.bariuma.asia/",
-    "description": "トゥンムン（屯門）にあるラーメン店「Ramen Bari-Uma Tuen Mun」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "トゥンムン（屯門）Tuen Mun Town Plaza内のラーメン店。香港全域に展開するBari-Umaチェーンの屯門店。豚骨ラーメン専門。",
     "tags": [
       "ラーメン",
       "豚骨",
@@ -2224,38 +2132,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "bari-uma-tuen-mun-2",
-    "name": "Bari-Uma Ramen",
-    "name_ja": "バリうまラーメン",
-    "area": "Tuen Mun",
-    "address": "Tuen Mun, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "トゥンムン（屯門）にある屯門の豚骨ラーメン専門店。濃厚な豚骨スープとコシのある麺が特徴。替え玉も可能で、ラーメン好きに人気。",
-    "tags": [
-      "japanese",
-      "ramen",
-      "tonkotsu",
-      "tuen-mun"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "benkei-okonomiyaki-central",
@@ -2267,7 +2145,7 @@
     "lng": null,
     "phone": null,
     "website": "https://benkeiokonomiyaki.com/",
-    "description": "セントラル（中環）にある大阪発のお好み焼き・鉄板焼きレストラン。セントラルで本格的な大阪スタイルのお好み焼きを提供する数少ない店舗。",
+    "description": "セントラル（中環）Stanley 11ビル6階にある大阪道頓堀発のお好み焼き・鉄板焼き専門店。日本人シェフが鉄板の前で調理する本格的な大阪スタイル。",
     "tags": [
       "日本発チェーン",
       "お好み焼き",
@@ -2285,7 +2163,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "bentori-central",
@@ -2295,7 +2174,7 @@
     "address": "G/F, 10 Tit Hong Lane, Central, Hong Kong",
     "phone": "+85228388865",
     "website": "https://www.bentorihk.com/",
-    "description": "セントラル（中環）にあるセントラルの焼き鳥レストラン。注文を受けてからグリルで仕上げる高品質な焼き鳥を提供。ランチからディナーまで通し営業。",
+    "description": "セントラル（中環）Tit Hong Lane沿いの焼き鳥専門店。注文後にグリルで仕上げる高品質な焼き鳥が評判。ランチからディナーまで通し営業（12:00〜23:00）。",
     "tags": [
       "焼き鳥",
       "グリル",
@@ -2311,7 +2190,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "bicho-causeway-bay",
@@ -2323,7 +2203,7 @@
     "lng": null,
     "phone": "+85228387022",
     "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある日本式居酒屋・バー「Bicho」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。在香港日本人・旅行者に利用されている。",
+    "description": "コーズウェイベイ（銅鑼湾）Hennessy Road 525番地26階の炉端焼き居酒屋。串焼きでOpenRice 4.5星・903件のレビューを持つ人気店。要予約。",
     "tags": [
       "居酒屋",
       "炉端焼き",
@@ -2341,7 +2221,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "bin-song-ting-japanese-cuisine",
@@ -2353,7 +2234,7 @@
     "lng": 114.1668,
     "phone": "+85223743536",
     "website": "https://www.facebook.com/binsongting?mibextid=LQQJ4d",
-    "description": "ジョーダン（佐敦）にある日本食レストラン「Bin Song Ting Japanese Cuisine」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "ジョーダン（佐敦）Man Yuen Street沿いのファミリー経営の日本食レストラン。新鮮な刺身・寿司が評判でOpenRice 4.0星。在住日本人にも利用される。",
     "tags": [
       "日本食"
     ],
@@ -2369,7 +2250,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "bin-song-ting-japanese-restaurant",
@@ -2381,7 +2263,7 @@
     "lng": 114.1729,
     "phone": "+85223231880",
     "website": "https://www.facebook.com/binsongting/",
-    "description": "ジョーダン（佐敦）にある日本食レストラン「Bin Song Ting Japanese Restaurant」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "ジョーダン（佐敦）Tak Shing Street沿いのファミリー経営の日本食レストラン。寿司・刺身を中心とした和食を提供。佐敦MTR E出口から徒歩2分。",
     "tags": [
       "日本食"
     ],
@@ -2397,7 +2279,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "birdie-central",
@@ -2409,7 +2292,7 @@
     "lng": null,
     "phone": "+85227892881",
     "website": "https://www.298hk.com/birdie",
-    "description": "セントラル（中環）にある中環H Codeの焼鳥専門店。カリっとした食感の焼鳥が評判。月〜土18:00〜翌1:00営業（日曜定休）。",
+    "description": "セントラル（中環）H Code 9階にある焼鳥専門店。カリッとした食感の焼鳥が評判。月〜土18:00〜翌1:00営業（日曜定休）。",
     "tags": [
       "焼鳥"
     ],
@@ -2425,7 +2308,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "black-wood-izakaya",
@@ -2437,7 +2321,7 @@
     "lng": 114.1753,
     "phone": "+85223296669",
     "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある日本式居酒屋「Black Wood Izakaya」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
+    "description": "尖沙咀（チムサーチョイ）Cameron Road沿いの日本式居酒屋。在住日本人にも利用される居酒屋。月〜日12:00〜23:00通し営業。",
     "tags": [
       "居酒屋"
     ],
@@ -2453,19 +2337,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "black-wood-izakaya-tin-hau",
     "name": "Black Wood Izakaya",
     "name_ja": "黒木居酒屋",
     "area": "Tin Hau",
-    "address": "Tsing Fung Street, Tin Hau, Hong Kong",
+    "address": "G/F, Tsing Fung Building, 10 Tsing Fung Street, Tin Hau",
     "lat": null,
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ティンハウ（天后）にある日本料理・鮨店「Black Wood Izakaya」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "ティンハウ（天后）Tsing Fung Street 10番地の日本式居酒屋。刺身・串焼き・和牛サンドイッチが評判。Tin Hau MTR A2出口から徒歩4分。",
     "tags": [
       "居酒屋",
       "寿司",
@@ -2483,7 +2368,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "bon-japanese-yakitori-bar",
@@ -2495,7 +2381,7 @@
     "lng": 114.1745,
     "phone": "+85227108686",
     "website": "https://instagram.com/bon_yakitori?utm_medium=copy_link",
-    "description": "チムサーチョイ（尖沙咀）にある日本式バー「BON Japanese Yakitori Bar」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
+    "description": "尖沙咀（チムサーチョイ）Hau Fook Street沿いの焼鳥バー。日本式焼鳥と日本酒を提供。月〜土17:30〜翌1:00、日曜16:30〜22:00。在住日本人にも評判。",
     "tags": [
       "居酒屋",
       "焼鳥",
@@ -2513,62 +2399,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "bon-yakitori-tst",
-    "name": "BON Japanese Yakitori Bar",
-    "name_ja": "梵 日本焼鳥",
-    "area": "Tsim Sha Tsui",
-    "address": "22/F, H8, 8 Hau Fook Street, Tsim Sha Tsui, Hong Kong",
-    "phone": null,
-    "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある焼き鳥専門店「BON Japanese Yakitori Bar」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "焼き鳥",
-      "日本産鶏",
-      "バー"
-    ],
-    "hours": "毎日 18:00〜翌0:00",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "buffee-wan-chai",
-    "name": "Buffee",
-    "name_ja": "ビュッフェ",
-    "area": "Wan Chai",
-    "address": "Shop G06-07, G/F, Emperor Group Centre, 288 Hennessy Road, Wan Chai, Hong Kong",
-    "phone": null,
-    "website": null,
-    "description": "ワンチャイ（湾仔）にある日本料理店「Buffee」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
-    "tags": [
-      "ビュッフェ",
-      "日本料理"
-    ],
-    "lat": null,
-    "lng": null,
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "busy-suzy-tst",
@@ -2580,7 +2412,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある1881 Heritage内の円形空間にある炉端焼き店。プレミアム食材を使った串焼きを提供。",
+    "description": "尖沙咀（チムサーチョイ）1881 Heritage 2階の炉端焼きレストラン。プレミアム食材を使った串焼きが看板。歴史的建造物の中で楽しむ本格的な日本料理。",
     "tags": [
       "居酒屋",
       "炉端焼き",
@@ -2598,7 +2430,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "butagumi-tonkatsu-causeway-bay",
@@ -2610,7 +2443,7 @@
     "lng": null,
     "phone": "+85234282862",
     "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にある東京・西麻布発のとんかつ専門店。厳選された銘柄豚のとんかつを提供。豚肉の銘柄にこだわった高品質とんかつ。",
+    "description": "コーズウェイベイ（銅鑼湾）Goldmark 7階にある東京・西麻布発の銘柄豚とんかつ専門店。厳選された銘柄豚を使った高品質なとんかつが味わえる。",
     "tags": [
       "とんかつ",
       "東京発",
@@ -2628,7 +2461,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "butagumi-tonkatsu-mong-kok",
@@ -2640,7 +2474,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "モンコック（旺角）にあるとんかつ専門店「Butagumi Tonkatsu (Gala Place)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "モンコック（旺角）Gala Place内の銘柄豚とんかつ専門店。東京・西麻布発チェーンの旺角店。厳選された銘柄豚のとんかつを提供。",
     "tags": [
       "とんかつ",
       "東京発"
@@ -2657,7 +2491,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "butagumi-tonkatsu-tai-koo",
@@ -2669,7 +2504,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Tai Kooにあるとんかつ専門店「Butagumi Tonkatsu (Tai Koo)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "Tai Koo（太古）にある銘柄豚とんかつ専門店。東京・西麻布発チェーンの太古店。厳選された銘柄豚のとんかつを提供。",
     "tags": [
       "とんかつ",
       "東京発"
@@ -2686,7 +2521,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "butao-ramen-causeway-bay",
@@ -2698,7 +2534,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "コーズウェイベイ（銅鑼湾）にあるラーメン店「Butao Ramen Causeway Bay」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "コーズウェイベイ（銅鑼湾）Tang Lung Street沿いの豚骨ラーメン専門店。香港で人気のローカル日本式ラーメンチェーン「豚王」の銅鑼湾店。",
     "tags": [
       "ラーメン",
       "豚骨"
@@ -2715,7 +2551,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "butao-ramen-central-wellington",
@@ -2727,7 +2564,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "セントラル（中環）にあるラーメン店「Butao Ramen Central」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "セントラル（中環）Wellington Street 69番地の豚骨ラーメン専門店。2010年創業の香港発日本式ラーメンチェーン「豚王」のセントラル店。",
     "tags": [
       "ラーメン",
       "豚骨"
@@ -2744,7 +2581,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "butao-ramen-sha-tin",
@@ -2756,7 +2594,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "シャーティン（沙田）にあるラーメン店「Butao Ramen Sha Tin」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "シャーティン（沙田）New Town Plaza内の豚骨ラーメン専門店。在住日本人・旅行者に人気の香港発日本式ラーメンチェーン「豚王」の沙田店。",
     "tags": [
       "ラーメン",
       "豚骨"
@@ -2773,7 +2611,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "butao-ramen-sham-shui-po",
@@ -2785,7 +2624,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "サムサイポ（深水埗）にあるラーメン店「Butao Ramen Sham Shui Po」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "サムサイポ（深水埗）V Walk 2階の豚骨ラーメン専門店。香港発日本式ラーメンチェーン「豚王」の深水埗店。",
     "tags": [
       "ラーメン",
       "豚骨"
@@ -2802,7 +2641,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "butao-ramen-tai-koo",
@@ -2814,7 +2654,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Tai Kooにあるラーメン店「Butao Ramen Tai Koo」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "タイコー（太古）Taikoo Shing Road沿いの豚骨ラーメン専門店。香港発日本式ラーメンチェーン「豚王」の太古店。",
     "tags": [
       "ラーメン",
       "豚骨"
@@ -2831,7 +2671,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "butao-ramen-tko",
@@ -2843,7 +2684,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ツェンクワンオー（将軍澳）にあるラーメン店「Butao Ramen Tseung Kwan O」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "ツェンクワンオー（将軍澳）PopCorn 1 G階の豚骨ラーメン専門店。香港発日本式ラーメンチェーン「豚王」の将軍澳店。",
     "tags": [
       "ラーメン",
       "豚骨"
@@ -2860,7 +2701,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "butao-ramen-tsuen-wan",
@@ -2872,7 +2714,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ツェンワン（荃灣）にあるラーメン店「Butao Ramen Tsuen Wan」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "ツェンワン（荃灣）Tsuen Wan Plaza内の豚骨ラーメン専門店。香港発日本式ラーメンチェーン「豚王」の荃灣店。",
     "tags": [
       "ラーメン",
       "豚骨"
@@ -2889,7 +2731,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "butao-ramen-wan-chai-harbour",
