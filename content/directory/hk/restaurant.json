@@ -4094,7 +4094,7 @@
     "lng": null,
     "phone": null,
     "website": "https://dohtonbori.com/",
-    "description": "シャーティン（沙田）にある日本No.1お好み焼きチェーン「道頓堀」の沙田店。お好み焼き・もんじゃ焼き・鉄板焼きを自分で調理して楽しめる。",
+    "description": "沙田ニュータウンプラザにある日本No.1お好み焼きチェーン道頓堀。お好み焼き・もんじゃ焼きを自分で鉄板焼きするスタイルが楽しい。在香港日本人にも人気。",
     "tags": [
       "お好み焼き",
       "鉄板焼き",
@@ -4112,7 +4112,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "dohtonbori-tai-po-mega-mall",
@@ -4124,7 +4125,7 @@
     "lng": null,
     "phone": null,
     "website": "https://dohtonbori.com/",
-    "description": "タイポー（大埔）にある日本食レストラン「Okonomiyaki Dohtonbori (Tai Po Mega Mall)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "大埔メガモールにある日本発のお好み焼き専門チェーン道頓堀。自分で焼くスタイルのお好み焼き・もんじゃ焼きを提供。観光客・在住者どちらにも人気。",
     "tags": [
       "お好み焼き",
       "鉄板焼き",
@@ -4142,7 +4143,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "dohtonbori-tsuen-wan-plaza",
@@ -4154,7 +4156,7 @@
     "lng": null,
     "phone": null,
     "website": "https://dohtonbori.com/",
-    "description": "ツェンワン（荃灣）にある日本食レストラン「Okonomiyaki Dohtonbori (Tsuen Wan Plaza)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "荃灣プラザにある日本発のお好み焼き専門チェーン道頓堀。鉄板で自分で焼くお好み焼き・もんじゃ焼きが楽しめる。香港内に複数店舗展開。",
     "tags": [
       "お好み焼き",
       "鉄板焼き",
@@ -4172,7 +4174,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "dohtonbori-whampoa-hung-hom",
@@ -4184,7 +4187,7 @@
     "lng": null,
     "phone": null,
     "website": "https://dohtonbori.com/",
-    "description": "フンホム（紅磡）にある日本食レストラン「Okonomiyaki Dohtonbori (The Whampoa)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "紅磡ワンポアAEON Style内にある日本発のお好み焼き専門チェーン道頓堀。自分で焼くスタイルのお好み焼きを提供。ファミリー向けにも人気。",
     "tags": [
       "日本発チェーン",
       "お好み焼き",
@@ -4202,7 +4205,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "domon-izakaya-kowloon-bay",
@@ -4214,7 +4218,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "カウルーンベイ（九龍灣）にある九龍灣の淘大花園にあるラーメン・居酒屋。本格的なラーメンと日本料理をカジュアルな雰囲気で楽しめる。",
+    "description": "九龍灣淘大花園にある本格ラーメン・居酒屋。濃厚スープのラーメンと居酒屋定番メニューを提供。地元在住の日本人にも利用されるカジュアルな店。",
     "tags": [
       "ramen",
       "izakaya",
@@ -4232,7 +4236,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "don-buri-kings-sheung-wan",
@@ -4244,7 +4249,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "サンポ（上環）にある日本食レストラン「Don Buri Kings」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "上環にある日本式丼ぶり専門店。日本産食材を使った多彩な丼ぶりメニューをリーズナブルに提供するテイクアウト中心の店。ランチに人気。",
     "tags": [
       "丼物",
       "海鮮丼"
@@ -4261,346 +4266,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "don-don-donki-causeway-bay",
-    "name": "DON DON DONKI (Pearl City)",
-    "name_ja": "ドン・キホーテ",
-    "area": "Causeway Bay",
-    "address": "1/F-4/F, 22-36 Paterson Street, Causeway Bay",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.dondondonki.com/hk/",
-    "description": "コーズウェイベイ（銅鑼湾）にある日本発のディスカウントストア「ドン・キホーテ」の海外業態。日本食の弁当・惣菜・刺身など幅広い日本食テイクアウトを提供。",
-    "tags": [
-      "日本発チェーン",
-      "弁当",
-      "テイクアウト",
-      "日本食材"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "don-don-donki-central",
-    "name": "DON DON DONKI (100QRC)",
-    "name_ja": "ドン・キホーテ",
-    "area": "Central",
-    "address": "LG & B Floor, 100 Queen's Road Central, Central",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.dondondonki.com/hk/",
-    "description": "セントラル（中環）にある日本発のディスカウントストア「ドン・キホーテ」の海外業態。日本食の弁当・惣菜・刺身など幅広い日本食テイクアウトを提供。",
-    "tags": [
-      "日本発チェーン",
-      "弁当",
-      "テイクアウト",
-      "日本食材"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "don-don-donki-diamond-hill",
-    "name": "DON DON DONKI (Plaza Hollywood)",
-    "name_ja": "ドン・キホーテ",
-    "area": "Diamond Hill",
-    "address": "Shop 101, Level 1, Plaza Hollywood, 3 Lung Poon Street, Diamond Hill",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.dondondonki.com/hk/",
-    "description": "Diamond Hillにある日本発のディスカウントストア「ドン・キホーテ」の海外業態。日本食の弁当・惣菜・刺身など幅広い日本食テイクアウトを提供。",
-    "tags": [
-      "日本発チェーン",
-      "弁当",
-      "テイクアウト",
-      "日本食材"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "don-don-donki-kowloon-bay",
-    "name": "DON DON DONKI (Amoy Plaza)",
-    "name_ja": "ドン・キホーテ",
-    "area": "Kowloon Bay",
-    "address": "Shop F188-204, 1/F, Phase 3, Amoy Plaza, 77 Ngau Tau Kok Road, Kowloon Bay",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.dondondonki.com/hk/",
-    "description": "カウルーンベイ（九龍灣）にある日本発のディスカウントストア「ドン・キホーテ」の海外業態。日本食の弁当・惣菜・刺身など幅広い日本食テイクアウトを提供。",
-    "tags": [
-      "日本発チェーン",
-      "弁当",
-      "テイクアウト",
-      "日本食材"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "don-don-donki-mong-kok",
-    "name": "DON DON DONKI (MPM Plaza)",
-    "name_ja": "ドン・キホーテ",
-    "area": "Mong Kok",
-    "address": "Shop 2A, 2/F, MPM Plaza, 11 Nelson Street, Mong Kok",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.dondondonki.com/hk/",
-    "description": "モンコック（旺角）にある日本発のディスカウントストア「ドン・キホーテ」の海外業態。日本食の弁当・惣菜・刺身など幅広い日本食テイクアウトを提供。",
-    "tags": [
-      "日本発チェーン",
-      "弁当",
-      "テイクアウト",
-      "日本食材"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "don-don-donki-siu-sai-wan",
-    "name": "DON DON DONKI (Island Resort Mall)",
-    "name_ja": "ドン・キホーテ",
-    "area": "Siu Sai Wan",
-    "address": "Shop 102 & 108, 1/F, Island Resort Mall, 28 Siu Sai Wan Road, Siu Sai Wan",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.dondondonki.com/hk/",
-    "description": "シウサイワン（小西灣）にある日本発のディスカウントストア「ドン・キホーテ」の海外業態。日本食の弁当・惣菜・刺身など幅広い日本食テイクアウトを提供。",
-    "tags": [
-      "日本発チェーン",
-      "弁当",
-      "テイクアウト",
-      "日本食材"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "don-don-donki-tko",
-    "name": "DON DON DONKI (Monterey Place)",
-    "name_ja": "ドン・キホーテ",
-    "area": "Tseung Kwan O",
-    "address": "Shop 107-122, 1/F, Monterey Place, 23 Tong Chun Street, Tseung Kwan O",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.dondondonki.com/hk/",
-    "description": "ツェンクワンオー（将軍澳）にある日本発のディスカウントストア「ドン・キホーテ」の海外業態。日本食の弁当・惣菜・刺身など幅広い日本食テイクアウトを提供。",
-    "tags": [
-      "日本発チェーン",
-      "弁当",
-      "テイクアウト",
-      "日本食材"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "don-don-donki-tst-mira",
-    "name": "DON DON DONKI (Mira Place 2)",
-    "name_ja": "ドン・キホーテ",
-    "area": "Tsim Sha Tsui",
-    "address": "Shop B161-173, B/F, Mira Place 2, 118-130 Nathan Road, Tsim Sha Tsui",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.dondondonki.com/hk/",
-    "description": "チムサーチョイ（尖沙咀）にある日本発のディスカウントストア「ドン・キホーテ」の海外業態。日本食の弁当・惣菜・刺身など幅広い日本食テイクアウトを提供。",
-    "tags": [
-      "日本発チェーン",
-      "弁当",
-      "テイクアウト",
-      "日本食材"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "don-don-donki-tsuen-wan",
-    "name": "DON DON DONKI (OP Mall)",
-    "name_ja": "ドン・キホーテ",
-    "area": "Tsuen Wan",
-    "address": "2/F, OP Mall, 100 Tai Ho Road, Tsuen Wan",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.dondondonki.com/hk/",
-    "description": "ツェンワン（荃灣）にある日本発のディスカウントストア「ドン・キホーテ」の海外業態。日本食の弁当・惣菜・刺身など幅広い日本食テイクアウトを提供。",
-    "tags": [
-      "日本発チェーン",
-      "弁当",
-      "テイクアウト",
-      "日本食材"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "don-don-donki-tuen-mun-tmt",
-    "name": "DON DON DONKI (TMT Plaza)",
-    "name_ja": "ドン・キホーテ（屯門市広場）",
-    "area": "Tuen Mun",
-    "address": "Shop 1001-1008, 1/F, TMT Plaza, 1 Tuen Shun Street, Tuen Mun",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.dondondonki.com/hk/",
-    "description": "トゥンムン（屯門）にあるドンキの屯門店。2021年7月オープン。日本食品・生鮮食品・日用品を扱う日系ディスカウントストア。",
-    "tags": [
-      "日本食スーパー",
-      "食品店"
-    ],
-    "hours": "08:00-01:00",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "don-don-donki-whampoa",
-    "name": "DON DON DONKI (Whampoa)",
-    "name_ja": "ドン・キホーテ",
-    "area": "Hung Hom",
-    "address": "Shop 127-134, 1/F, The Whampoa, 18 Hung Luen Road, Hung Hom",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.dondondonki.com/hk/",
-    "description": "フンホム（紅磡）にある日本発のディスカウントストア「ドン・キホーテ」の海外業態。日本食の弁当・惣菜・刺身など幅広い日本食テイクアウトを提供。",
-    "tags": [
-      "日本発チェーン",
-      "弁当",
-      "テイクアウト",
-      "日本食材"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "don-jo-sheung-wan",
@@ -4612,7 +4279,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "サンポ（上環）にある日本料理・鮨店「Don Jo」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "上環Hillier Streetにある小さな日本の寿司・丼ぶり専門店。7色刺身丼や牛丼などリーズナブルな日本食を提供。月〜土のみ営業。",
     "tags": [
       "寿司",
       "刺身",
@@ -4630,7 +4297,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "donburi-shima-central",
@@ -4640,7 +4308,7 @@
     "address": "G/F, 55 Graham Street, Central, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "セントラル（中環）にある日本食レストラン「Donburi Shima」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "中環にある日本の丼ぶり専門店。日本産食材を使った本格的な丼ぶりメニューをランチ・ディナーで提供。ビジネス街の中心に位置するカジュアル日本食。",
     "tags": [
       "丼物"
     ],
@@ -4658,7 +4326,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "dondonya-apm-kwun-tong",
@@ -4670,7 +4339,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "クワントン（観塘）にある日本食レストラン「DONDONYA (APM)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "観塘APM（apm、ミレニアムシティ5）にある日本式丼ぶり・うどん専門チェーン。讃岐うどん、親子丼、カツ丼など提供。毎日11:30〜22:30。",
     "tags": [
       "丼物",
       "チェーン"
@@ -4687,7 +4356,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "dondonya-diamond-hill-plaza-hollywood",
@@ -4699,7 +4369,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Diamond Hillにある日本食レストラン「DONDONYA (Plaza Hollywood)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "Diamond Hillプラザハリウッドにある日本式丼ぶり・うどん専門チェーン丼丼屋。讃岐うどん、各種丼ぶりをリーズナブルに提供。",
     "tags": [
       "丼物",
       "チェーン"
@@ -4716,59 +4386,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "dondonya-elements",
-    "name": "Dondonya ELEMENTS",
-    "name_ja": "丼丼屋 圓方",
-    "area": "Tsim Sha Tsui",
-    "address": "Shop 2103-04, 2/F, ELEMENTS, 1 Austin Road West, Tsim Sha Tsui, Hong Kong",
-    "phone": null,
-    "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある日本直輸入の短粒米を使用した丼ぶりチェーン。牛丼、親子丼、カツ丼、讃岐うどん、カレーを提供。",
-    "tags": [
-      "丼",
-      "うどん",
-      "カレー"
-    ],
-    "hours": "毎日 11:30〜22:30",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "dondonya-kwun-tong",
-    "name": "Dondonya Kwun Tong",
-    "name_ja": "丼丼屋 観塘",
-    "area": "Kwun Tong",
-    "address": "Shop L6-3B, Level 6, APM, 418 Kwun Tong Road, Kwun Tong, Hong Kong",
-    "phone": null,
-    "website": null,
-    "description": "クワントン（観塘）にあるうどん専門店「Dondonya Kwun Tong」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "丼",
-      "うどん",
-      "カレー"
-    ],
-    "hours": "毎日 11:30〜22:30",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "dondonya-kwun-tong-apm",
@@ -4780,7 +4399,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "クワントン（観塘）にあるうどん専門店「Dondonya APM」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "観塘APMにある日本式丼ぶり・うどん専門チェーン丼丼屋。讃岐うどん・各種丼ぶり・日本カレーを提供するカジュアルチェーン店。",
     "tags": [
       "丼物",
       "うどん",
@@ -4799,7 +4418,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "dondonya-ma-on-shan-plaza",
@@ -4811,7 +4431,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "マオンシャン（馬鞍山）にあるうどん専門店「Dondonya Ma On Shan」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "馬鞍山プラザにある日本式丼ぶり・うどん専門チェーン丼丼屋。讃岐うどん、各種丼ぶりをリーズナブルに提供。毎日11:30〜22:30。",
     "tags": [
       "丼物",
       "うどん",
@@ -4830,7 +4450,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "dondonya-moko",
@@ -4840,7 +4461,7 @@
     "address": "L6-3b, MOKO, 193 Prince Edward Road West, Mong Kok, Hong Kong",
     "phone": null,
     "website": null,
-    "description": "モンコック（旺角）にある焼き鳥専門店「Dondonya x Torikai MOKO」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "旺角MOKOにあるDondonya×名古屋発「鶏家（Torikai）」のコラボ概念店。本場名古屋コーチンを使った親子丼など特別メニューが楽しめる。",
     "tags": [
       "丼",
       "焼き鳥",
@@ -4856,32 +4477,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "dondonya-north-point",
-    "name": "Dondonya North Point",
-    "name_ja": "丼丼屋 北角",
-    "area": "North Point",
-    "address": "Shop U8-9 & U30, UG/F, Fitfort, 560 King's Road, North Point, Hong Kong",
-    "phone": null,
-    "website": null,
-    "description": "ノースポイント（北角）にあるうどん専門店「Dondonya North Point」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "丼",
-      "うどん"
-    ],
-    "hours": "毎日 11:30〜22:00",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "dondonya-north-point-fitfort",
@@ -4893,7 +4490,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ノースポイント（北角）にあるうどん専門店「Dondonya North Point」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "北角FitfortにあるDondonya丼丼屋。讃岐うどん・各種丼ぶりをリーズナブルに提供する日系チェーン。Fitfort内に位置し、アクセス良好。",
     "tags": [
       "丼物",
       "うどん",
@@ -4912,32 +4509,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "dondonya-sha-tin",
-    "name": "Dondonya Sha Tin",
-    "name_ja": "丼丼屋 沙田",
-    "area": "Sha Tin",
-    "address": "Shop 502, 5/F, HomeSquare, 138 Sha Tin Rural Committee Road, Sha Tin, Hong Kong",
-    "phone": null,
-    "website": null,
-    "description": "シャーティン（沙田）にあるうどん専門店「Dondonya Sha Tin」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "丼",
-      "うどん"
-    ],
-    "hours": "毎日 11:30〜22:00",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "dondonya-sha-tin-homesquare",
@@ -4949,7 +4522,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "シャーティン（沙田）にあるうどん専門店「Dondonya HomeSquare」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "沙田HomeSquareにあるDondonya丼丼屋。讃岐うどん・各種丼ぶりをリーズナブルに提供する日系チェーン。HomeSquare内で家族連れにも人気。",
     "tags": [
       "丼物",
       "うどん",
@@ -4968,38 +4541,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "dondonya-tai-koo-cityplaza",
-    "name": "Dondonya Tai Koo",
-    "name_ja": "丼丼屋 太古店",
-    "area": "Tai Koo",
-    "address": "Cityplaza, 18 Taikoo Shing Road, Tai Koo",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "Tai Kooにあるうどん専門店「Dondonya Tai Koo」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "丼物",
-      "うどん",
-      "カレー",
-      "チェーン"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "dondonya-tsing-yi-maritime",
@@ -5011,7 +4554,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Tsing Yiにあるうどん専門店「Dondonya Tsing Yi」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "青衣Maritime SquareにあるDondonya丼丼屋。讃岐うどん・各種丼ぶりをリーズナブルに提供する公式7店舗のひとつ。新界エリアのアクセス良好な立地。",
     "tags": [
       "丼物",
       "うどん",
@@ -5030,68 +4573,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "dondonya-tsuen-wan-galleria",
-    "name": "Dondonya Tsuen Wan",
-    "name_ja": "丼丼屋 荃湾店",
-    "area": "Tsuen Wan",
-    "address": "Shop S10-12, 2/F, Luk Yeung Galleria, 22-66 Wai Tsuen Road, Tsuen Wan",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "ツェンワン（荃灣）にあるうどん専門店「Dondonya Tsuen Wan」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "丼物",
-      "うどん",
-      "カレー",
-      "チェーン"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "e-pai-kwun-tong",
-    "name": "E-pai Teppan-Yakitori",
-    "name_ja": "壱排 鉄板焼鳥",
-    "area": "Kwun Tong",
-    "address": "Shop L4-20&21, 4/F, Millennium City 5 (apm), 418 Kwun Tong Road, Kwun Tong, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "クワントン（観塘）にある日本食レストラン「E-pai Teppan-Yakitori」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "鉄板焼き",
-      "焼鳥",
-      "お好み焼き"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "e-pai-teppan-yakitori-apm-kwun-tong",
@@ -5103,7 +4586,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "クワントン（観塘）にある日本式居酒屋・バー「E-Pai Teppan Yakitori (APM)」。日本酒・焼酎・ビールと和食・居酒屋メニューを提供。",
+    "description": "観塘APMにある日本式居酒屋「一杯（E-pai）」。鉄板焼き・お好み焼き・焼鳥・寿司を提供する大阪居酒屋スタイル。日本人駐在員にも人気の店。",
     "tags": [
       "居酒屋",
       "焼鳥",
@@ -5122,7 +4605,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ebina-tsukemen-cheung-sha-wan",
@@ -5134,7 +4618,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "Cheung Sha Wanにある長沙灣にある海老つけ麺専門店。濃厚なエビの出汁を使ったつけ麺が人気で、日替わり限定の広島牡蠣ラーメンもファン必食。",
+    "description": "長沙灣にある海老つけ麺専門店。濃厚なエビ出汁スープに絡めるつけ麺が人気。香港では珍しい海老特化のラーメン専門店で在住日本人にも話題。",
     "tags": [
       "tsukemen",
       "ramen",
@@ -5153,7 +4637,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ebisoba-ichigen-causeway-bay",
@@ -5165,7 +4650,7 @@
     "lng": null,
     "phone": "+85227893799",
     "website": "https://www.ebisoba.com/en/",
-    "description": "コーズウェイベイ（銅鑼湾）にあるラーメン店「Ebisoba Ichigen Causeway Bay」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "銅鑼湾にある札幌発えびそば一幻の香港店。エビの濃厚な出汁スープが特徴の人気ラーメン。日本人旅行者・在住者どちらにも知名度が高い。",
     "tags": [
       "ラーメン",
       "海老"
@@ -5182,7 +4667,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ebisoba-ichigen-mikiki",
@@ -5194,7 +4680,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "San Po Kongにあるラーメン店「Ebisoba Ichigen (Mikiki)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "San Po Kong MikiKiにある札幌発えびそば一幻の香港店。エビ出汁の濃厚ラーメンを提供する日本発の人気ラーメンチェーン。",
     "tags": [
       "ラーメン",
       "えびそば",
@@ -5212,7 +4698,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ebisoba-ichigen-san-po-kong",
@@ -5224,7 +4711,7 @@
     "lng": null,
     "phone": "+85235904099",
     "website": "https://www.ebisoba.com/en/",
-    "description": "San Po Kongにあるラーメン店「Ebisoba Ichigen San Po Kong」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "新蒲崗にある札幌発えびそば一幻の香港店。エビの濃厚スープで知られるラーメン専門店。香港全域に展開する日本発ラーメンチェーンの一店舗。",
     "tags": [
       "ラーメン",
       "海老"
@@ -5241,7 +4728,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ebisoba-ichigen-tst-harbour-city",
@@ -5253,7 +4741,7 @@
     "lng": null,
     "phone": "+85231051199",
     "website": "https://www.ebisoba.com/en/",
-    "description": "チムサーチョイ（尖沙咀）にあるラーメン店「Ebisoba Ichigen Tsim Sha Tsui」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "尖沙咀ハーバーシティOcean Terminalにある札幌発えびそば一幻の香港旗艦店。エビの濃厚スープのラーメンが看板メニュー。",
     "tags": [
       "ラーメン",
       "海老"
@@ -5270,38 +4758,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "ebisoba-ichigen-tst-harbour-city-2",
-    "name": "Ebisoba Ichigen Harbour City",
-    "name_ja": "えびそば一幻 ハーバーシティ店",
-    "area": "Tsim Sha Tsui",
-    "address": "Harbour City, 3-27 Canton Road, Tsim Sha Tsui, Hong Kong",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "チムサーチョイ（尖沙咀）にあるラーメン店「Ebisoba Ichigen Harbour City」。日本の料理・食材を使ったメニューを提供する日本食店。",
-    "tags": [
-      "ラーメン",
-      "えびそば",
-      "札幌発",
-      "ハーバーシティ"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-29",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ebisoba-ichigen-tsuen-wan",
@@ -5313,7 +4771,7 @@
     "lng": null,
     "phone": "+85223689099",
     "website": "https://www.ebisoba.com/en/",
-    "description": "ツェンワン（荃灣）にあるラーメン店「Ebisoba Ichigen Tsuen Wan」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "荃灣にある札幌発えびそば一幻の香港店。エビ出汁の濃厚ラーメンを提供。新界エリアで日本式ラーメンを楽しめる数少ない専門店のひとつ。",
     "tags": [
       "ラーメン",
       "海老"
@@ -5330,7 +4788,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ebisoba-ichigen-tuen-mun",
@@ -5342,7 +4801,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "トゥンムン（屯門）にあるラーメン店「Ebisoba Ichigen (tmtplaza)」。日本の料理・食材を使ったメニューを提供する日本食店。",
+    "description": "屯門TMT Plazaにある札幌発えびそば一幻の香港店。エビ出汁の濃厚スープのラーメンを提供。新界西エリアでアクセスしやすい日本発ラーメン店。",
     "tags": [
       "ラーメン",
       "えびそば",
@@ -5360,7 +4819,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "eggdicted-quarry-bay",
@@ -5372,7 +4832,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "クォーリーベイ（鰂魚涌）にあるうどん専門店「Eggdicted」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
+    "description": "鰂魚涌にある日本式タマゴ料理・炒飯テイクアウト店。塩焼き牛タン卵炒飯などが名物。11:00〜15:00、16:30〜20:30営業。",
     "tags": [
       "うどん"
     ],
@@ -5388,7 +4848,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "eiraku-tko-lohas",
@@ -5400,7 +4861,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "ツェンクワンオー（将軍澳）にある将軍澳LOHAS Parkの日本式ラーメン居酒屋。濃厚豚骨ラーメンが名物。塩焼き鶏手羽やイカ串焼きも人気。",
+    "description": "将軍澳LOHAS Parkにある日本式ラーメン居酒屋。濃厚豚骨ラーメンが看板メニュー。在香港日本人も訪れるカジュアルな居酒屋。",
     "tags": [
       "ラーメン",
       "居酒屋"
@@ -5417,7 +4878,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "eishin-japanese-tai-wai",
@@ -5429,7 +4891,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "タイワイ（大圍）にある大圍田心村の日本料理店。大圍駅C出口から徒歩約5分。寿司、刺身、ラーメンなど日本の家庭料理を提供する温かい雰囲気の店。",
+    "description": "大圍田心村にある日本料理レストランEishin。大圍駅C出口から徒歩約5分。寿司・刺身・ラーメンなど多彩な日本食をアットホームな雰囲気で提供。",
     "tags": [
       "japanese",
       "ramen",
@@ -5450,33 +4912,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "en-tst",
-    "name": "En Tsim Sha Tsui",
-    "name_ja": "縁 尖沙咀",
-    "area": "Tsim Sha Tsui",
-    "address": "Tsim Sha Tsui, Hong Kong",
-    "phone": null,
-    "website": null,
-    "description": "チムサーチョイ（尖沙咀）にある尖沙咀の老舗居酒屋。伝統的な居酒屋スタイルで日本酒と焼き鳥を中心とした一品料理を提供。日本人駐在員が多く訪れる。",
-    "tags": [
-      "居酒屋",
-      "伝統的",
-      "焼き鳥"
-    ],
-    "hours": "要確認",
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "en-tst-izakaya",
@@ -5488,7 +4925,7 @@
     "lng": null,
     "phone": null,
     "website": "https://en-tst.com.hk/",
-    "description": "チムサーチョイ（尖沙咀）にある沖縄料理を中心とした本格的な居酒屋。しゃぶしゃぶの食べ放題や毎日入荷の新鮮魚介を提供。沖縄の雰囲気を再現した店内。",
+    "description": "尖沙咀ゴールデンドラゴンセンター38-40 Cameron Roadにある沖縄料理居酒屋。20年以上の歴史を持つ老舗。毎日入荷の新鮮魚介、しゃぶしゃぶ食べ放題（宮崎和牛・沖縄豚）が人気。電話: 3428-2500。",
     "tags": [
       "居酒屋",
       "沖縄料理",
@@ -5506,7 +4943,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "enishi-sheung-wan",
@@ -5516,7 +4954,7 @@
     "address": "G/F, 49 Bonham Strand, Sheung Wan, Hong Kong",
     "phone": "+85266049083",
     "website": "https://www.enishi-hk.net",
-    "description": "サンポ（上環）にあるCENSUの佐藤俊シェフらが手がける親密な鉄板焼きレストラン。和の心と創作料理を融合したおまかせコースを提供。",
+    "description": "上環49 Bonham Strandにある鉄板焼きレストランEnishi（縁）。CENSUの佐藤俊シェフらが手がける23席の小さな鉄板焼きおまかせ店。コース¥1,280〜。予約必須。",
     "tags": [
       "鉄板焼き",
       "おまかせ",
@@ -5532,35 +4970,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "enishi-sheung-wan-teppanyaki",
-    "name": "Enishi",
-    "name_ja": "縁",
-    "area": "Sheung Wan",
-    "address": "49 Bonham Strand, Sheung Wan",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "サンポ（上環）にある日本食レストラン「Enishi」。日本の料理・食材を使ったメニューを提供する日本食店。在香港日本人・旅行者に利用されている。",
-    "tags": [
-      "鉄板焼き"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "enso-yakitori-kennedy-town",
