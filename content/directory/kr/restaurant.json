@@ -2376,7 +2376,7 @@
     "address": "Hongdae, Mapo-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "福岡発の博多豚骨ラーメン専門店「博多一幸舎」弘大店。濃厚な豚骨スープと細麺が特徴で、替え玉も可能な日本式ラーメン店の日本式専門店。",
+    "description": "福岡発の博多豚骨ラーメン専門店「博多一幸舎」の弘大店。濃厚な豚骨スープと細麺が特徴で、替え玉も可能。日本語メニューあり。",
     "tags": [
       "ラーメン",
       "豚骨",
@@ -2393,33 +2393,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "hakata-naka-hongdae",
-    "name": "Hakata Na Ka",
-    "name_ja": "博多なか",
-    "area": "Mapo-gu (Hongdae)",
-    "address": "Mapo-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "福岡の有名定食店の技法を受け継ぐ弘大の日本式家庭料理店。九州の伝統的なセットメニューを提供し、素朴で温かみのある味が在韓日本人に好評。",
-    "tags": [
-      "定食",
-      "家庭料理",
-      "九州"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hakata-tonkotsu-seongsu",
@@ -2429,7 +2404,7 @@
     "address": "Seongsu-dong, Seongdong-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "聖水エリアにある博多スタイルのとんこつラーメン専門店。旬のカルチャースポットである聖水に位置し、若い在韓日本人やラーメンファンに人気。クリーミーなとんこつスープと細麺の組み合わせが本格的な博多の味を再現。",
+    "description": "聖水エリアにある博多スタイルのとんこつラーメン専門店。クリーミーな豚骨スープと細麺で本格的な博多の味を再現。在韓日本人やラーメンファンに人気。",
     "tags": [
       "ラーメン",
       "豚骨",
@@ -2445,7 +2420,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hakatachu-hongdae",
@@ -2455,7 +2431,7 @@
     "address": "50 Wausan-ro 23-gil, Mapo-gu, Seoul, 2F",
     "phone": null,
     "website": null,
-    "description": "弘大の人気九州料理定食店。博多スタイルの本格的な九州料理が楽しめる。「ミスター田中定食」が看板メニューで、日本の味を完全に再現したと評判。日本人スタッフが在籍し、日本語でのコミュニケーションも安心。",
+    "description": "弘大・洪益大学駅9番出口徒歩2分の九州料理定食店。福岡「中田中」オーナーが月1回来韓し味を監修。日本人スタッフ在籍で日本語対応可。",
     "tags": [
       "九州料理",
       "定食",
@@ -2471,17 +2447,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hakoya-gangnam",
     "name": "Hakoya",
     "name_ja": "箱屋",
-    "area": "Gangnam-gu",
+    "area": "Gangnam-gu (Yeoksam)",
     "address": "Gangnam-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "江南エリアにある本格日本料理店。ソウル市公式観光ガイドにも掲載されている。寿司・刺身・天ぷら・焼き物を提供し、日本酒のセレクションも充実。",
+    "description": "江南区延堞洞の本格日本料理店。ソウル市公式観光ガイドにも掲載。寿司・刺身・天ぷら・焼き物に加え、日本酒のセレクションも充実。",
     "tags": [
       "日本料理",
       "寿司",
@@ -2497,7 +2474,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hakuten-yeonnam",
@@ -2522,34 +2500,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "hanamasa-seoul",
-    "name": "Hanamasa Seoul",
-    "name_ja": "花まさ ソウル",
-    "area": "Seoul",
-    "address": "Seoul",
-    "phone": null,
-    "website": null,
-    "description": "日本発のしゃぶしゃぶ・焼肉食べ放題チェーン「花まさ」ソウル店。ファミリー向けのリーズナブルな食べ放題コースが人気の店の日本式専門店。",
-    "tags": [
-      "しゃぶしゃぶ",
-      "焼肉",
-      "食べ放題",
-      "チェーン"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "source": "google_maps",
-    "last_verified": "2026-03-27",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hanamokoshi-yongsan",
@@ -2559,7 +2511,7 @@
     "address": "50-1 Baekbeom-ro 87-gil, Wonhyoro 1-ga, Yongsan-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "龍山区・元暁路の日本式ラーメン店「花もこし」。福岡スタイルでトリュフまぜ麺と濃厚な豚骨ブロスを提供している日本式ラーメン店。",
+    "description": "龍山区・元暁路の日本式ラーメン店「花もこし」。福岡スタイルのトリュフまぜ麺と濃厚な豚骨スープを提供。在韓日本人にも人気のラーメン専門店。",
     "tags": [
       "ラーメン",
       "豚骨",
@@ -2575,7 +2527,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hannamtatsu-hannam",
@@ -2585,7 +2538,7 @@
     "address": "17 Daesagwan-ro 31-gil, Yongsan-gu, Seoul, 1F",
     "phone": null,
     "website": null,
-    "description": "漢南駅近くの日本式居酒屋「ハンナムタツ」。予約可能で予算約35,000ウォン。日本式の居酒屋料理を楽しめる漢南洞の店の日本式専門店。",
+    "description": "漢南駅近くの日本式居酒屋「ハンナムタツ」。予約可能で予算約35,000ウォン。日本式の居酒屋料理を落ち着いた雰囲気で楽しめる。17:00〜24:00営業。",
     "tags": [
       "居酒屋"
     ],
@@ -2599,7 +2552,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "heeok-ramen-mapo",
@@ -2609,7 +2563,7 @@
     "address": "74 World Cup-ro 19-gil, Mapo-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "8席のみの予約制日本式ラーメン店「ヒオク」。麻浦区にあり、鶏ベースのブロスに鶏首チャーシューをトッピングした一品を提供。",
+    "description": "麻浦区の日本式ラーメン店「ヒオク」。メンヤジュン出身シェフが手がける8席のみの予約制店。鶏白湯ベースのスープに鶏首チャーシューをトッピング。",
     "tags": [
       "ラーメン",
       "鶏白湯",
@@ -2625,7 +2579,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "heki-tonkatsu-mangwon",
@@ -2635,7 +2590,7 @@
     "address": "Mangwon-dong, Mapo-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "望遠洞の隠れ家的とんかつ店「碧 とんかつ」。少量の油で揚げる軽い食感が特徴で、季節の副菜も丁寧に作られた日本式店の日本式専門店。",
+    "description": "望遠洞の隠れ家的とんかつ店「碧 とんかつ」。少量の油で揚げる軽い食感が特徴で、季節の副菜も丁寧に作られた日本式専門店。11:30〜20:30営業。",
     "tags": [
       "とんかつ",
       "隠れ家",
@@ -2651,7 +2606,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hello-sushi-busan",
@@ -2680,7 +2636,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hinoaji-ramen-busan",
@@ -2692,7 +2649,7 @@
     "lng": null,
     "phone": null,
     "website": null,
-    "description": "釜山大学エリアの日本式ラーメン店「ひのあじ」。海雲台の長浜満月と同等レベルと評価され、在釜山日本人にも支持されているの日本式専門店。",
+    "description": "釜山大学エリアの日本式ラーメン店「ひのあじ」。鶏白湯ベースのスープが評判で、在釜山日本人にも支持されている本格派の一軒。",
     "tags": [
       "ラーメン",
       "日式"
@@ -2709,7 +2666,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hinotsuki-sushi-kanesaka",
@@ -2756,7 +2714,8 @@
       }
     ],
     "price_range": "KRW 180,000/人（ランチ）〜KRW 350,000/人（ディナー）",
-    "detail": "江南区三成洞のグランド・インターコンチネンタル・ソウル・パルナス1Fに位置する高級日本料理店。京都懐石オマカセと、ミシュラン星付きの鮨かねさかのカウンター寿司を融合した韓国初の高級ホテル内日本料理。ランチオマカセKRW 180,000、ディナーオマカセKRW 350,000。個室（48席）とカウンター（10席）を完備。「自然のサイクルを超えた日本料理」として季節の食材を厳選使用。三成駅（2号線）から徒歩約5分。"
+    "detail": "江南区三成洞のグランド・インターコンチネンタル・ソウル・パルナス1Fに位置する高級日本料理店。京都懐石オマカセと、ミシュラン星付きの鮨かねさかのカウンター寿司を融合した韓国初の高級ホテル内日本料理。ランチオマカセKRW 180,000、ディナーオマカセKRW 350,000。個室（48席）とカウンター（10席）を完備。「自然のサイクルを超えた日本料理」として季節の食材を厳選使用。三成駅（2号線）から徒歩約5分。",
+    "place_reviewed": true
   },
   {
     "slug": "hinoyama-mokdong",
@@ -2782,7 +2741,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hiruma-yeonhui",
@@ -2792,7 +2752,7 @@
     "address": "19 Yeonhui-ro 1-gil, Mapo-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "延禧洞の小さな日本式ラーメン店「ひるま」。豚骨と鶏のブレンドブロスを提供し、ペット同伴可能という珍しいスタイルの店の日本式専門店。",
+    "description": "延禧洞の日本式ラーメン店「ひるま」。豚骨と鶏ブレンドスープが特徴で、ペット同伴可という珍しいスタイルも。在韓日本人に人気の一軒。",
     "tags": [
       "ラーメン",
       "豚骨"
@@ -2807,7 +2767,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hitato-jemyeonsho-jongno",
@@ -2817,7 +2778,7 @@
     "address": "19 Ogin-gil, Jongno-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "鍾路エリアの日本式うどん・ビール専門店「ひたと製麺所」。地鶏うどんが看板メニューで、焼きネギと柔らかい鶏肉が特徴の店の日本式専門店。",
+    "description": "鍾路エリアの日本式うどん・ビール専門店「ひたと製麺所」。地鶏うどんが看板メニューで、焼きネギと柔らかい鶏肉が特徴。",
     "tags": [
       "うどん",
       "ビール"
@@ -2832,7 +2793,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "honkazu-tonkatsu-seoul",
@@ -2858,7 +2820,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hoshi-katsu-cheongdam",
@@ -2883,7 +2846,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hotaru-busan",
@@ -2893,7 +2857,7 @@
     "address": "7 Dongamhaean-gil, Gijang-eup, Gijang-gun, Busan",
     "phone": null,
     "website": null,
-    "description": "釜山・機張郡のラーメン店「蛍」。寺院近くに位置し、丁寧に作られた日本式ラーメンを落ち着いた雰囲気で楽しめる小さな店の日本式専門店。",
+    "description": "釜山・機張郡の日本式ラーメン店「蛍」。自家製麺と鶏白湯・醤油・担々麺など多彩なメニューがTripAdvisorで高評価。10,000〜20,000ウォン。",
     "tags": [
       "ラーメン"
     ],
@@ -2907,32 +2871,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "hotaru-ramen-busan",
-    "name": "Hotaru",
-    "name_ja": "ホタル",
-    "area": "釜山",
-    "address": "Busan",
-    "phone": null,
-    "website": null,
-    "description": "釜山の本格ラーメン専門店。こだわりのスープと麺が評判で、TripAdvisorでも高評価を維持。釜山在住の日本人コミュニティでも人気の一軒。日本のラーメン文化を忠実に再現した味わいが支持される。",
-    "tags": [
-      "ラーメン",
-      "本格派"
-    ],
-    "hours": "11:30〜21:00",
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hyun-udon-sinsa",
@@ -2958,7 +2898,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ichie-gangnam",
@@ -2984,7 +2925,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ichimen-ramen-sinsa",
@@ -3010,7 +2952,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ichon-izakaya-maru",
@@ -3036,7 +2979,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ichon-ramen-tei",
@@ -3066,7 +3010,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "iine-ramen-yongsan",
@@ -3076,7 +3021,7 @@
     "address": "Sowol-ro 2-gil, Yongsan-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "龍山区の日本式ラーメン店「いいねラーメン」。丁寧に炊いた豚骨スープと自家製麺が特徴。在韓日本人にも利用されている店の日本式専門店。",
+    "description": "龍山区の日本式ラーメン店「いいねラーメン」。丁寧に炊いた豚骨スープと自家製麺が特徴で、在韓日本人にも利用されている。11:30〜20:30営業。",
     "tags": [
       "ラーメン",
       "豚骨",
@@ -3092,33 +3037,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "ikseon-chihyang-jongno",
-    "name": "Ikseon Chihyang",
-    "name_ja": "益善チヒャン",
-    "area": "Jongno-gu (Ikseon-dong)",
-    "address": "Ikseon-dong, Jongno-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "益善洞にある和洋折衷スタイルのレストラン「益善チヒャン」。韓屋をリノベーションした空間で日本式ステーキや洋食を提供する。",
-    "tags": [
-      "洋食",
-      "韓屋",
-      "益善洞"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-27",
-    "status": "unverified",
-    "source": "google_maps",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ilwol-katsu-anguk",
@@ -3144,7 +3064,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ippudo-gangnam",
@@ -3170,7 +3091,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ippudo-hongdae",
@@ -3196,7 +3118,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ippudo-itaewon",
@@ -3223,7 +3146,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ippudo-myeongdong",
@@ -3250,7 +3174,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "it-sushi-mapo",
@@ -3276,7 +3201,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ittengo-ramen-yeonnam",
@@ -3302,7 +3228,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "izakaya-cho-snu",
@@ -3335,7 +3262,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "izakaya-eung-seorae",
@@ -3368,33 +3296,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "izakaya-iteaewon-foreign",
-    "name": "이태원 외국인 이자카야",
-    "name_ja": "梨泰院 外国人居酒屋",
-    "area": "梨泰院",
-    "address": "Itaewon, Yongsan-gu, Seoul",
-    "phone": null,
-    "website": null,
-    "description": "外国人が多く集まる梨泰院エリアの居酒屋。日本・韓国・西洋のお酒とつまみを組み合わせたインターナショナルな雰囲気が特徴で、在韓日本人が韓国人・外国人の友人と一緒に楽しめる。英語・日本語でのオーダーも基本的に対応可能。",
-    "tags": [
-      "居酒屋",
-      "梨泰院",
-      "インターナショナル"
-    ],
-    "hours": "18:00〜翌3:00",
-    "last_verified": "2026-03-31",
-    "status": "unverified",
-    "source": "web_search",
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "izakaya-ito-daegu",
@@ -3424,7 +3327,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "izakaya-iyashi-seoul",
@@ -3455,7 +3359,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "izakaya-kunoichi-busan",
@@ -3481,7 +3386,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "izakaya-mapo-samgae",
@@ -3491,7 +3397,7 @@
     "address": "6-1 Samgae-ro 3-gil, Mapo-gu, Seoul",
     "phone": null,
     "website": null,
-    "description": "麻浦区合井駅近くにある本格日本式居酒屋。ネギとろ丼・豪快に切った刺身盛り・揚げ銀太刀魚フライなど独創的なメニューが評判。平日ランチから深夜まで営業する「ひいきにされる店」として在韓日本人の間でも評価が高い。月〜金18:00〜翌0:40、土18:00〜23:00営業。",
+    "description": "麻浦区合井駅近くの本格日本式居酒屋。ネギとろ丼・刺身盛り・揚げ銀太刀魚フライなど独創的なメニューが評判で、在韓日本人の間でも評価が高い。",
     "tags": [
       "居酒屋",
       "刺身",
@@ -3507,7 +3413,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "izakaya-musa-sinchon",
@@ -3539,7 +3446,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "izakaya-namu-city-hall",
@@ -3572,7 +3480,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "izakaya-namu-gangnam",
@@ -3604,7 +3513,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "izakaya-namu-jonggak",
@@ -3637,7 +3547,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "izakaya-namu-seongsu",
@@ -3663,7 +3574,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "izakaya-nori-hapjeong",
@@ -3689,7 +3601,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "izakaya-sooda-cheongdam",
@@ -3720,7 +3633,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "izakaya-taki-hapjeong",
@@ -3751,7 +3665,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "izakaya-toriaezu-gangnam",
