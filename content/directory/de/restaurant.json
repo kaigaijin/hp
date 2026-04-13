@@ -12725,37 +12725,49 @@
   },
   {
     "slug": "hinode-hamburg-eppendorf",
-    "name": "HINODE Japanese Restaurant",
-    "name_ja": "日の出 ハンブルク",
-    "area": "Hamburg",
+    "name": "Hinode Japanese Restaurant",
+    "name_ja": "ひのでジャパニーズレストラン",
+    "area": "Hoheluft, Hamburg",
     "address": "Eppendorfer Weg 267, 20251 Hamburg",
-    "lat": 53.5877,
-    "lng": 9.9745,
     "phone": "+494065590080",
-    "website": "https://hinode-hamburg.de",
-    "description": "エッペンドルフの本格日本料理店。2024年グランドオープン。寿司・ラーメン・揚げ物など多彩なメニューを一日中提供。",
-    "tags": [
-      "japanese",
-      "sushi",
-      "ramen"
+    "phone_local": null,
+    "email": "info.hinoderestaurant@gmail.com",
+    "website": "https://hinode-hamburg.de/",
+    "source_url": "https://www.hamburg.de/branchenbuch/hamburg/eintrag/101160127/",
+    "description": "ハンブルク・ホーエルフトの日本料理店。日本から特別搬入した製麺機で毎日作る新鮮な麺が評判。刺身・寿司・ラーメンを揃えるハンブルク在住日本人御用達の店。",
+    "detail": "Hinode Japanese Restaurantはハンブルク・エッペンドルファー通りに位置する日本料理店。日本から直輸入した特別な製麺機で毎日フレッシュに麺を作るのが最大の特徴で、ハンブルクでは唯一の取り組み。刺身・寿司・ラーメンを中心に幅広い日本料理を提供し、在住日本人からも評価が高い。",
+    "menu": [
+      {
+        "name": "ラーメン（自家製麺）",
+        "price_eur": null,
+        "price_jpy": null
+      },
+      {
+        "name": "刺身",
+        "price_eur": null,
+        "price_jpy": null
+      },
+      {
+        "name": "寿司",
+        "price_eur": null,
+        "price_jpy": null
+      }
     ],
-    "hours": {
-      "mon": "11:00-23:00",
-      "tue": "11:00-23:00",
-      "wed": "11:00-23:00",
-      "thu": "11:00-23:00",
-      "fri": "11:00-23:00",
-      "sat": "11:00-23:00",
-      "sun": "11:00-23:00"
-    },
-    "last_verified": "2026-04-04",
+    "price_range": null,
+    "tags": [
+      "日本料理",
+      "ラーメン",
+      "寿司",
+      "ハンブルク",
+      "自家製麺"
+    ],
+    "hours": "11:00-23:00",
     "status": "unverified",
+    "last_verified": "2026-04-05",
     "source": "web_search",
     "place_id": "",
-    "priority": 3,
+    "priority": 0,
     "ai_reviewed": true,
-    "phone_local": "040 65590080",
-    "email": "info@hinode-hamburg.de",
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
@@ -16964,56 +16976,6 @@
       "ハンブルク"
     ],
     "hours": "月〜金 11:30-22:00、土 12:00-22:00（日曜定休）",
-    "status": "unverified",
-    "last_verified": "2026-04-05",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "hinode-hamburg-eppendorf",
-    "name": "Hinode Japanese Restaurant",
-    "name_ja": "ひのでジャパニーズレストラン",
-    "area": "Hoheluft, Hamburg",
-    "address": "Eppendorfer Weg 267, 20251 Hamburg",
-    "phone": "+494065590080",
-    "phone_local": null,
-    "email": "info.hinoderestaurant@gmail.com",
-    "website": "https://hinode-hamburg.de/",
-    "source_url": "https://www.hamburg.de/branchenbuch/hamburg/eintrag/101160127/",
-    "description": "ハンブルク・ホーエルフトの日本料理店。日本から特別搬入した製麺機で毎日作る新鮮な麺が評判。刺身・寿司・ラーメンを揃えるハンブルク在住日本人御用達の店。",
-    "detail": "Hinode Japanese Restaurantはハンブルク・エッペンドルファー通りに位置する日本料理店。日本から直輸入した特別な製麺機で毎日フレッシュに麺を作るのが最大の特徴で、ハンブルクでは唯一の取り組み。刺身・寿司・ラーメンを中心に幅広い日本料理を提供し、在住日本人からも評価が高い。",
-    "menu": [
-      {
-        "name": "ラーメン（自家製麺）",
-        "price_eur": null,
-        "price_jpy": null
-      },
-      {
-        "name": "刺身",
-        "price_eur": null,
-        "price_jpy": null
-      },
-      {
-        "name": "寿司",
-        "price_eur": null,
-        "price_jpy": null
-      }
-    ],
-    "price_range": null,
-    "tags": [
-      "日本料理",
-      "ラーメン",
-      "寿司",
-      "ハンブルク",
-      "自家製麺"
-    ],
-    "hours": "11:00-23:00",
     "status": "unverified",
     "last_verified": "2026-04-05",
     "source": "web_search",
