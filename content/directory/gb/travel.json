@@ -23,7 +23,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "his-travel-uk",
@@ -54,7 +55,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "jal-london-office",
@@ -80,32 +82,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "japan-centre-leicester-square",
-    "name": "Japan Centre Leicester Square",
-    "name_ja": "ジャパンセンター レスタースクエア",
-    "area": "West End",
-    "address": "35b Panton Street, London SW1Y 4EA",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.japancentre.com/en/locations/japan-centre-leicester-square",
-    "description": "ロンドン最大の日本食スーパー兼食堂。ピカデリーサーカス・レスタースクエア近く。日本食材・酒・弁当・寿司を販売するほか、JNTOの旅行相談コーナーも併設。在英日本人の生活・旅行情報の拠点として機能。",
-    "tags": [
-      "日本語対応",
-      "日本食材",
-      "観光情報",
-      "旅行相談"
-    ],
-    "hours": "月〜水 10:00〜21:30、木〜日 10:00〜22:00",
-    "last_verified": "2026-04-02",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "japan-travel-centre-london",
@@ -131,7 +109,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "jnto-london-office",
@@ -156,7 +135,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "jtb-europe-london",
@@ -182,7 +162,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "kintetsu-international-london",
@@ -207,7 +188,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "toptour-europe-london",
@@ -240,7 +222,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "travel"
+    "category": "travel",
+    "place_reviewed": true
   },
   {
     "slug": "miki-travel-london",
@@ -273,7 +256,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "travel"
+    "category": "travel",
+    "place_reviewed": true
   },
   {
     "slug": "hankyu-travel-europe-london",
@@ -305,7 +289,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "travel"
+    "category": "travel",
+    "place_reviewed": true
   },
   {
     "slug": "euro-creative-tours-london",
@@ -338,7 +323,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "travel"
+    "category": "travel",
+    "place_reviewed": true
   },
   {
     "slug": "insidejapan-tours-bristol",
@@ -371,7 +357,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "travel"
+    "category": "travel",
+    "place_reviewed": true
   },
   {
     "slug": "into-japan-tours",
@@ -403,7 +390,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "travel"
+    "category": "travel",
+    "place_reviewed": true
   },
   {
     "slug": "japan-journeys-uk",
@@ -435,240 +423,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "travel"
-  },
-  {
-    "slug": "jnto-london-tourism",
-    "name": "Japan National Tourism Organization UK",
-    "name_ja": "日本政府観光局（JNTO）英国",
-    "area": "Bayswater",
-    "address": "3rd Floor, 32 Queensway, Bayswater, London W2 3RX",
-    "lat": null,
-    "lng": null,
-    "phone": "+442073985670",
-    "email": null,
-    "website": "https://www.japan.travel/en/uk/",
-    "description": "国土交通省所管のJNTO（日本政府観光局）ロンドン事務所。英国在住日本人の一時帰国旅行に役立つ最新観光情報を発信。英国の旅行会社向けに認定ツアーオペレーター情報も提供。",
-    "tags": [
-      "日本語対応",
-      "観光情報",
-      "公的機関",
-      "無料情報"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "travel"
-  },
-  {
-    "slug": "his-euro-london",
-    "name": "H.I.S. Europe Ltd (HIS-Miki Travel UK)",
-    "name_ja": "H.I.S.ヨーロッパ（HIS-ミキトラベル UK）",
-    "area": "City of London",
-    "address": "Vintners Place, 68 Upper Thames Street, London EC4V 3BJ",
-    "lat": null,
-    "lng": null,
-    "phone": "+442074843310",
-    "email": null,
-    "website": "https://his-euro.co.uk/",
-    "description": "日本大手旅行会社H.I.S.がミキ・トラベルを統合したロンドン拠点の旅行会社。日本行き航空券・ホテル・パッケージツアーを日本語で手配。在英日本人の一時帰国・日本旅行手配の定番。",
-    "tags": [
-      "日本語対応",
-      "旅行代理店",
-      "航空券",
-      "日系",
-      "一時帰国"
-    ],
-    "hours": "Mon-Fri 9:30-18:00",
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "travel"
-  },
-  {
-    "slug": "newsdigest-travel-guide",
-    "name": "News Digest Travel Agents Guide",
-    "name_ja": "英国ニュースダイジェスト 旅行代理店ガイド",
-    "area": "Online",
-    "address": "UK Online",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "email": null,
-    "website": "https://guide.news-digest.co.uk/travel-agents/",
-    "description": "在英日本人向け情報誌「英国ニュースダイジェスト」の日系旅行代理店ガイド。ロンドンの日系・日本語対応旅行代理店のリストを日本語で確認できる。",
-    "tags": [
-      "日本語情報",
-      "旅行代理店リスト",
-      "在英日本人向け"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "travel"
-  },
-  {
-    "slug": "ana-uk-heathrow",
-    "name": "ANA (All Nippon Airways) UK",
-    "name_ja": "全日本空輸（ANA）英国",
-    "area": "Shepherd's Bush",
-    "address": "4th Floor, Hythe House, 200 Shepherds Bush Road, London W6 7NY",
-    "lat": null,
-    "lng": null,
-    "phone": "+442087628977",
-    "email": null,
-    "website": "https://www.ana.co.jp/en/eur/",
-    "description": "全日空（ANA）の欧州営業拠点。ロンドン・ヒースロー〜東京（羽田・成田）の直行便を運航。在英日本人の一時帰国、マイレージ、企業出張手配に対応。日本語サービス提供。",
-    "tags": [
-      "日本語対応",
-      "航空会社",
-      "直行便",
-      "日系",
-      "一時帰国"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "travel"
-  },
-  {
-    "slug": "japan-rail-pass-uk",
-    "name": "Japan Rail Pass UK (JRPASS.com)",
-    "name_ja": "ジャパンレールパス UK",
-    "area": "Online / National",
-    "address": "UK Online",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "email": null,
-    "website": "https://www.jrpass.com/",
-    "description": "英国在住者がオンラインで購入できるジャパンレールパス（JRパス）の英国公式販売代理店。在英日本人が日本一時帰国時に日本全国の新幹線・在来線を自由に使えるパスをオンラインで購入できる。",
-    "tags": [
-      "JRパス",
-      "一時帰国",
-      "日本旅行",
-      "新幹線",
-      "在英日本人向け"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "travel"
-  },
-  {
-    "slug": "tabi-londo-london",
-    "name": "Tabi-Londo (旅ロンド)",
-    "name_ja": "旅ロンド",
-    "area": "London",
-    "address": "London",
-    "lat": null,
-    "lng": null,
-    "phone": "05071108936",
-    "phone_local": "050-7110-8936",
-    "email": null,
-    "website": "https://tabi-londo.com/",
-    "source_url": "https://tabi-londo.com/",
-    "description": "ロンドン在住日本人スタッフが通訳・旅行アドバイスを提供する日系トラベルサービス。ハイヤーチャーター（1〜15名）、空港送迎、コッツウォルズ等のオーダーメイドツアーを手配。",
-    "detail": "旅ロンドはロンドン在住の日本人スタッフが直接サポートする旅行・コンシェルジュサービス。プライベートハイヤーを完全貸切で手配（1〜15名）でき、コッツウォルズ・イングランド南部など人気観光地への日本語ガイドツアーも提供。受付は日本時間10:00〜17:00。",
-    "menu": null,
-    "price_range": null,
-    "tags": [
-      "日本語対応",
-      "オーダーメイドツアー",
-      "ハイヤー",
-      "空港送迎",
-      "ロンドン在住日本人スタッフ"
-    ],
-    "hours": "10:00〜17:00（日本時間）",
-    "status": "unverified",
-    "last_verified": "2026-04-05",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "style-gate-london-guide",
-    "name": "Style Gate London",
-    "name_ja": "スタイルゲート ロンドン",
-    "area": "London",
-    "address": "London",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "email": null,
-    "website": "https://www.style-gate.com/",
-    "source_url": "https://www.style-gate.com/",
-    "description": "日本出身でロンドン在住のガイドによるプライベート観光ツアーサービス。1名から対応可能な完全個人向けツアーで、街歩きから世界遺産・隠れスポットまで日本語でアテンド。",
-    "detail": "Style Gateはロンドン在住の日本出身ガイドが提供するプライベートツアーサービス。1名から参加可能な個人向けツアーを提供し、ロンドン市内観光・ヘリテージサイト・地元のローカルスポット巡りを日本語で案内。一時帰国者・初渡英の方・語学留学生にも好評。",
-    "menu": null,
-    "price_range": null,
-    "tags": [
-      "日本語ガイド",
-      "プライベートツアー",
-      "ロンドン観光",
-      "1名から対応",
-      "在住日本人ガイド"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-04-05",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "category": "travel",
+    "place_reviewed": true
   },
   {
     "slug": "japanese-tour-guide-uk-itsuko",
@@ -703,77 +459,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "hankyu-travel-europe-uk",
-    "name": "Hankyu Travel International Europe UK",
-    "name_ja": "阪急交通社ヨーロッパ UK",
-    "area": "London",
-    "address": "London",
-    "lat": null,
-    "lng": null,
-    "phone": "+442074247812",
-    "email": "sales.uk@hankyu-euro.com",
-    "website": "https://hankyu-euro.uk/",
-    "source_url": "https://hankyu-euro.uk/",
-    "description": "阪急交通社系の欧州向けDMC専門旅行会社。日本向けインセンティブツアー・会議・ビジネス旅行をB2B専門で手配。日本人企業の英国視察・研修プログラムの企画に強み。",
-    "detail": "Hankyu Travel International Europe UK Limitedは阪急交通社グループの欧州向けDMC（デスティネーション・マネジメント・カンパニー）。インセンティブツアー・会議・コンベンション・ビジネス旅行をB2B専門で提供（個人客は不可）。英国全土の手配に加え、北海道〜沖縄まで日本全国のカスタムツアーを企画できる。",
-    "menu": null,
-    "price_range": null,
-    "tags": [
-      "日系旅行会社",
-      "B2B専門",
-      "インセンティブツアー",
-      "企業向け",
-      "阪急交通社グループ"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-04-05",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "locotabi-london-guides",
-    "name": "Locotabi London",
-    "name_ja": "ロコタビ ロンドン",
-    "area": "London",
-    "address": "London",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "email": null,
-    "website": "https://locotabi.jp/london",
-    "source_url": "https://locotabi.jp/london",
-    "description": "ロンドン在住日本人のローカルガイドが通訳・案内・旅行相談を提供するプラットフォーム。観光案内から買い物サポート・医療通訳まで、実際に現地に住む日本人に依頼できる。",
-    "detail": "ロコタビはロンドン在住日本人がガイドとして登録するプラットフォーム。旅行者・一時帰国者が現地在住日本人に直接依頼できる形式で、観光案内・買い物同行・医療通訳・子連れ旅行サポートなど多様なニーズに対応。現地の生きた情報を提供できる点が旅行会社との差別化ポイント。",
-    "menu": null,
-    "price_range": null,
-    "tags": [
-      "日本語対応",
-      "ローカルガイド",
-      "在住日本人",
-      "通訳",
-      "プラットフォーム"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-04-05",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "japan-experience-beckenham",
@@ -805,7 +492,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "japan-ski-experience-london",
@@ -837,7 +525,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "myu-information-centre-london",
@@ -870,7 +559,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mybus-europe-london",
@@ -903,71 +593,7 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "wendy-wu-tours-japan-uk",
-    "name": "Wendy Wu Tours (Japan)",
-    "name_ja": "ウェンディ・ウー・ツアーズ 日本ツアー",
-    "area": "London",
-    "address": null,
-    "phone": null,
-    "email": null,
-    "website": "https://www.wendywutours.co.uk/japan/tours/",
-    "source_url": "https://www.wendywutours.co.uk/japan/tours/",
-    "description": "英国No.1の日本ツアーオペレーターとして20年以上の実績を持つ旅行会社。フライト・宿泊・交通・食事・ガイド込みの全包型エスコートツアーを英国発で提供。",
-    "detail": "ウェンディ・ウー・ツアーズは英国発の日本ツアーでNo.1を自称する旅行会社で、20年以上の運営実績を持つ。日本行きツアーは全包型（フライト・ホテル・交通・食事・ガイド込み）のエスコートグループツアーを提供。英国在住日本人が一時帰国する際の手配や、UK訪問者向け日本旅行相談にも対応可能。",
-    "menu": null,
-    "price_range": null,
-    "tags": [
-      "日本ツアー",
-      "ツアーオペレーター",
-      "エスコートツアー",
-      "英国発"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-04-06",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "japanhouselondon-travel-info",
-    "name": "Japan House London (Travel Information)",
-    "name_ja": "ジャパンハウス ロンドン トラベルインフォメーション",
-    "area": "Kensington, London",
-    "address": "101-111 Kensington High Street, London W8 5SA",
-    "phone": "+442072127421",
-    "email": null,
-    "website": "https://www.japanhouselondon.uk/visit/our-spaces/travel-information-area/",
-    "source_url": "https://www.japanhouselondon.uk/visit/our-spaces/travel-information-area/",
-    "description": "ケンジントンにある日本政府観光局（JNTO）公認の旅行情報ゾーン。日本旅行のビジット・ジャパン公式情報・観光パンフレット・専門スタッフによる旅行相談を無料で提供。",
-    "detail": "ジャパンハウス ロンドンはケンジントンに位置し、その中にJNTO（日本政府観光局）公認の旅行インフォメーションゾーンがある。日本各地の観光情報、ビザ・交通・宿泊に関するアドバイスを無料で提供。日本語・英語スタッフが在籍し、在英日本人や訪英者の一時帰国手続き相談にも対応。",
-    "menu": null,
-    "price_range": null,
-    "tags": [
-      "JNTO",
-      "観光情報",
-      "日本旅行",
-      "日本語対応",
-      "無料相談"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-04-06",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   }
 ]
