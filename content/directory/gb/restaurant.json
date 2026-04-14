@@ -2881,8 +2881,8 @@
     "lat": null,
     "lng": null,
     "phone": "+442075806464",
-    "website": "https://www.rokarestaurant.com/",
-    "description": "炉端焼きを中心とした日本料理レストラン＆バー。Zumaの姉妹店。日本酒、焼酎、カクテルを提供。ロンドンに複数店舗を展開。",
+    "website": "https://www.rokarestaurant.com/en/roka-aldwych-london",
+    "description": "ロンドン中心部アルドウィッチにある日本のロバタヤキレストラン。炭火焼き料理とプレミアム刺身で知られる人気店。",
     "tags": [
       "居酒屋",
       "炉端焼き",
@@ -2902,19 +2902,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "roka-canary-wharf",
     "name": "Roka Canary Wharf",
     "name_ja": "ロカ カナリーワーフ店",
     "area": "Canary Wharf",
-    "address": "4 Park Pavilion, 40 Canada Square, London E14 5FW",
+    "address": "4 Park Pavilion, 40 Canada Square, Canary Wharf, London E14 5FW",
     "lat": null,
     "lng": null,
     "phone": "+442073053510",
-    "website": "https://www.rokarestaurant.com/",
-    "description": "炉端焼きレストランROKAのCanary Wharf店。金融街勤務の在ロンドン日本人ビジネスパーソンにも利用される。日本酒・焼酎も豊富。",
+    "website": "https://www.rokarestaurant.com/en/roka-canary-wharf-london",
+    "description": "カナリーワーフの金融街に位置するロカ。ロバタ炭火焼きと新鮮な日本料理を提供する受賞歴のあるレストラン。",
     "tags": [
       "炉端焼き",
       "日本酒",
@@ -2932,19 +2933,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "roka-charlotte-street",
     "name": "Roka Charlotte Street",
     "name_ja": "ロカ シャーロットストリート店",
     "area": "Fitzrovia",
-    "address": "37 Charlotte Street, London W1T 1RR",
+    "address": "37 Charlotte Street, Fitzrovia, London W1T 1RR",
     "lat": null,
     "lng": null,
     "phone": "+442075801754",
-    "website": "https://www.rokarestaurant.com/",
-    "description": "炉端焼きを中心とした現代日本料理レストラン。2004年創業のZumaの姉妹店。ロンドンに4店舗展開。日本酒・カクテルを豊富に揃えるバーも人気。",
+    "website": "https://www.rokarestaurant.com/en/roka-charlotte-street-london",
+    "description": "フィッツロビアのシャーロット街にある2004年創業のロカ旗艦店。日本の炭火ロバタヤキスタイルを英国に広めたパイオニア。",
     "tags": [
       "炉端焼き",
       "日本酒",
@@ -2963,19 +2965,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "roka-mayfair",
     "name": "Roka Mayfair",
     "name_ja": "ロカ メイフェア店",
     "area": "Mayfair",
-    "address": "30 North Audley Street, London W1K 6ZF",
+    "address": "30 North Audley Street, Mayfair, London W1K 6ZF",
     "lat": null,
     "lng": null,
     "phone": "+442071058585",
-    "website": "https://www.rokarestaurant.com/",
-    "description": "ロカのMayfair店。炉端焼きを中心とした現代日本料理を提供。ロンドン日本人ビジネスパーソンの接待利用に人気。",
+    "website": "https://www.rokarestaurant.com/en/roka-mayfair-london",
+    "description": "メイフェアのノースオードリー街にある日本のロバタヤキレストラン。上質な炭火料理とモダン和食を提供するミシュランクラスの店。",
     "tags": [
       "炉端焼き",
       "日本酒",
@@ -2993,68 +2996,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sakagura-edinburgh",
-    "name": "Sakagura Edinburgh",
-    "name_ja": "酒蔵 エジンバラ",
-    "area": "Edinburgh",
-    "address": "19 Hanover Street, Edinburgh EH2 2DL",
-    "lat": null,
-    "lng": null,
-    "phone": "+441312209115",
-    "website": null,
-    "description": "エジンバラにある日本料理レストラン。寿司・刺身・和食を提供。スコットランドの日本人学生や駐在員に人気。",
-    "tags": [
-      "寿司",
-      "刺身",
-      "和食"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sakagura-mayfair",
-    "name": "Sakagura",
-    "name_ja": "酒蔵",
-    "area": "Mayfair",
-    "address": "8 Heddon Street, Mayfair, London W1B 4BS",
-    "lat": null,
-    "lng": null,
-    "phone": "+442032396085",
-    "website": "https://www.sakagura.co.uk/",
-    "description": "メイフェアのヘドン通りにある日本酒・和食レストラン。100種類以上の日本酒と伝統的な和食・寿司を提供。在ロンドン日本人の日本酒愛好家に人気。",
-    "tags": [
-      "日本酒",
-      "和食",
-      "寿司",
-      "高級"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sake-no-hana-mayfair",
@@ -3066,7 +3009,7 @@
     "lng": null,
     "phone": "+442079251988",
     "website": "https://www.sakenohana.com/",
-    "description": "セントジェームズにある日本料理レストラン。日本酒ソムリエが厳選した豊富な日本酒リストが自慢。寿司・天ぷら・炉端焼きのほか、高品質な会席料理も。",
+    "description": "セント・ジェームズ街の高級日本料理レストラン。洗練されたモダン和食と幅広い日本酒セレクションが特徴。",
     "tags": [
       "日本酒",
       "寿司",
@@ -3085,69 +3028,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sake-no-hana-st-james",
-    "name": "Sake no Hana",
-    "name_ja": "酒の花",
-    "area": "St James's",
-    "address": "23 St James's Street, London SW1A 1HA",
-    "lat": null,
-    "lng": null,
-    "phone": "+442079251988",
-    "website": "https://www.sakenohana.com/",
-    "description": "セントジェームズにある日本料理レストラン＆バー。日本酒ソムリエが厳選した日本酒リストを揃える。寿司、天ぷら、炉端焼きを提供。",
-    "tags": [
-      "居酒屋",
-      "日本酒",
-      "寿司",
-      "天ぷら",
-      "高級"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sapporo-teppanyaki-edinburgh",
-    "name": "Sapporo Teppanyaki Edinburgh",
-    "name_ja": "サッポロ鉄板焼き エジンバラ",
-    "area": "Edinburgh",
-    "address": "20 Johnston Terrace, Edinburgh EH1 2NH",
-    "lat": null,
-    "lng": null,
-    "phone": "+441312259556",
-    "website": "https://sapporo.co.uk/",
-    "description": "エジンバラのジョンストンテラスにある鉄板焼きレストラン。目の前で調理するライブクッキングが名物。エジンバラ城近くに位置。",
-    "tags": [
-      "鉄板焼き",
-      "ライブクッキング",
-      "寿司"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sapporo-teppanyaki-liverpool",
@@ -3159,7 +3041,7 @@
     "lng": null,
     "phone": "+441517082545",
     "website": "https://sapporo.co.uk/",
-    "description": "鉄板焼きスタイルの日本料理レストランのリバプール店。専属シェフが目の前で食材を調理するライブクッキング。寿司も提供。",
+    "description": "リバプール市内の鉄板焼き専門日本料理店。目の前でシェフが豪快に調理するショースタイルの食事体験が人気。",
     "tags": [
       "鉄板焼き",
       "ライブクッキング",
@@ -3177,7 +3059,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sapporo-teppanyaki-manchester",
@@ -3189,7 +3072,7 @@
     "lng": null,
     "phone": "+441619790579",
     "website": "https://sapporo.co.uk/japanese-restaurant-manchester/",
-    "description": "マンチェスター・キャッスルフィールドにある鉄板焼きレストラン。各テーブル専属のシェフが目の前で調理するライブクッキングスタイル。寿司、味噌汁も提供。",
+    "description": "マンチェスターの鉄板焼き日本料理店。2003年創業の老舗で、シェフのパフォーマンスを楽しみながら食事できる体験型レストラン。",
     "tags": [
       "鉄板焼き",
       "ライブクッキング",
@@ -3207,7 +3090,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sasaya-izakaya-holloway",
@@ -3219,7 +3103,7 @@
     "lng": null,
     "phone": "+442072818337",
     "website": null,
-    "description": "ホロウェイにある家庭的な日系居酒屋。焼き鳥・刺身・日本酒など定番居酒屋メニューを手頃な価格で提供。地元の日本人在住者に長く愛されている老舗。",
+    "description": "ノースロンドン・ホロウェイにある居酒屋スタイルの日本料理店。地域密着型の落ち着いた雰囲気で和食を楽しめる。",
     "tags": [
       "居酒屋",
       "焼き鳥",
@@ -3238,49 +3122,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "shoryu-cambridge",
-    "name": "Shoryu Cambridge",
-    "name_ja": "昇龍 ケンブリッジ店",
-    "area": "Cambridge",
-    "address": "Cambridge",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.shoryuramen.com/",
-    "description": "昇龍ラーメンのケンブリッジ店。ケンブリッジ大学の日本人留学生・研究者にも人気。博多豚骨ラーメンを提供。",
-    "tags": [
-      "ラーメン",
-      "豚骨",
-      "チェーン"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shoryu-carnaby",
     "name": "Shoryu Carnaby",
     "name_ja": "昇龍 カーナビー店",
     "area": "Soho",
-    "address": "9 Carnaby Street, London W1F 9PW",
+    "address": "G3-5 Kingly Court, London W1B 5PJ",
     "lat": null,
     "lng": null,
     "phone": null,
     "website": "https://www.shoryuramen.com/",
-    "description": "昇龍ラーメンのCarnaby Street店。博多豚骨ラーメンと豊富な日本酒・焼酎を提供。ショッピング街の中心に位置しアクセス良好。",
+    "description": "カーナビー近くのカーリーコートにある博多とんこつラーメン店。ショーリュの定番メニューを充実した空間で楽しめる。",
     "tags": [
       "ラーメン",
       "豚骨",
@@ -3298,19 +3153,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shoryu-covent-garden",
     "name": "Shoryu Covent Garden",
     "name_ja": "昇龍 コヴェントガーデン店",
     "area": "Covent Garden",
-    "address": "9 Regent Street, London SW1Y 4LR",
+    "address": "35 Great Queen Street, London WC2B 5AA",
     "lat": null,
     "lng": null,
     "phone": null,
     "website": "https://www.shoryuramen.com/",
-    "description": "昇龍ラーメンのコヴェントガーデン店。博多豚骨ラーメンと100種類以上の日本酒・焼酎・梅酒を提供。観光客と在ロンドン日本人の両方に人気。",
+    "description": "コベントガーデン中心部にある博多とんこつラーメン専門店。劇場街のすぐそばで観劇前後の食事にも便利。",
     "tags": [
       "ラーメン",
       "豚骨",
@@ -3329,109 +3185,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "shoryu-fleet-street",
-    "name": "Shoryu Fleet Street",
-    "name_ja": "昇龍 フリートストリート店",
-    "area": "City of London",
-    "address": "Fleet Street, London EC4",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.shoryuramen.com/",
-    "description": "昇龍ラーメンのフリートストリート店。シティ勤務の日本人ビジネスパーソンのランチに人気。",
-    "tags": [
-      "ラーメン",
-      "豚骨",
-      "チェーン"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "shoryu-hammersmith",
-    "name": "Shoryu Hammersmith",
-    "name_ja": "昇龍 ハマースミス店",
-    "area": "Hammersmith",
-    "address": "Hammersmith, London W6",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.shoryuramen.com/",
-    "description": "昇龍ラーメンのハマースミス店。西ロンドンの日本人コミュニティが多いエリアでアクセスしやすい。",
-    "tags": [
-      "ラーメン",
-      "豚骨",
-      "チェーン"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "shoryu-liverpool-street",
-    "name": "Shoryu Liverpool Street",
-    "name_ja": "昇龍 リバプールストリート店",
-    "area": "City of London",
-    "address": "Liverpool Street, London EC2M",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.shoryuramen.com/",
-    "description": "昇龍ラーメンのリバプールストリート店。シティ・ショアディッチへのアクセスが良く、仕事帰りの日本人ビジネスパーソンにも人気。",
-    "tags": [
-      "ラーメン",
-      "豚骨",
-      "チェーン"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shoryu-manchester",
     "name": "Shoryu Manchester",
     "name_ja": "昇龍 マンチェスター店",
     "area": "Manchester",
-    "address": "1 The Avenue, Spinningfields, Manchester M3 3AP",
+    "address": "1 Piccadilly Gardens, Manchester M1 1RG",
     "lat": null,
     "lng": null,
     "phone": null,
     "website": "https://www.shoryuramen.com/",
-    "description": "博多豚骨ラーメンチェーン昇龍のマンチェスター店。ロンドン以外では数少ない店舗のひとつ。日本酒・焼酎も提供。",
+    "description": "マンチェスター・ピカデリーガーデンズ近くの博多とんこつラーメン店。ショーリュのロンドン以外の主要拠点。",
     "tags": [
       "ラーメン",
       "豚骨",
@@ -3450,19 +3217,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shoryu-oxford",
     "name": "Shoryu Oxford",
     "name_ja": "昇龍 オックスフォード店",
     "area": "Oxford",
-    "address": "Oxford",
+    "address": "134 The Westgate, Queens Street, Oxford OX1 1PB",
     "lat": null,
     "lng": null,
     "phone": null,
     "website": "https://www.shoryuramen.com/",
-    "description": "昇龍ラーメンのオックスフォード店。ロンドン以外では数少ない拠点のひとつ。留学中の日本人学生にも人気。",
+    "description": "オックスフォードのウェストゲートショッピングセンター内にある博多とんこつラーメン店。日本式ラーメンとユニークな朝食メニューも提供。",
     "tags": [
       "ラーメン",
       "豚骨",
@@ -3480,80 +3248,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "shoryu-oxford-street",
-    "name": "Shoryu Oxford Street",
-    "name_ja": "昇龍 オックスフォードストリート店",
-    "area": "Oxford Street",
-    "address": "Oxford Street, London W1",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.shoryuramen.com/",
-    "description": "昇龍ラーメンのオックスフォードストリート店。ショッピングの合間に本格博多ラーメンを楽しめる。在ロンドン日本人の利用も多い。",
-    "tags": [
-      "ラーメン",
-      "豚骨",
-      "チェーン"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "shoryu-piccadilly",
-    "name": "Shoryu Piccadilly",
-    "name_ja": "昇龍 ピカデリー店",
-    "area": "Piccadilly",
-    "address": "9 Regent Street, St James's, London SW1Y 4LR",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.shoryuramen.com/",
-    "description": "昇龍ラーメンのピカデリー店。UK最大規模の日本酒・焼酎・梅酒セレクションと博多豚骨ラーメンを提供。在ロンドン日本人が集まる人気店。",
-    "tags": [
-      "ラーメン",
-      "豚骨",
-      "日本酒",
-      "チェーン"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shoryu-ramen-soho",
     "name": "Shoryu Ramen Soho",
     "name_ja": "昇龍ラーメン ソーホー店",
     "area": "Soho",
-    "address": "3 Denman Street, London W1D 7HA",
+    "address": "3 Denman Street, London W1D 7HB",
     "lat": null,
     "lng": null,
     "phone": null,
     "website": "https://www.shoryuramen.com/",
-    "description": "2012年創業の博多豚骨ラーメン店。古川寛治氏考案のレシピを使用。ロンドン6店舗のほか、マンチェスター、オックスフォードにも展開。",
+    "description": "ソーホーのデンマン街にある博多とんこつラーメン専門店。ピカデリーサーカス至近で観光客にも人気の定番店。",
     "tags": [
       "ラーメン",
       "豚骨",
@@ -3572,19 +3280,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shoryu-shoreditch",
     "name": "Shoryu Shoreditch",
     "name_ja": "昇龍 ショアディッチ店",
     "area": "Shoreditch",
-    "address": "Shoreditch, London",
+    "address": "45 Great Eastern Street, London EC2A 3HP",
     "lat": null,
     "lng": null,
     "phone": null,
     "website": "https://www.shoryuramen.com/",
-    "description": "昇龍ラーメンのショアディッチ店。博多豚骨ラーメンと日本酒・カクテルを提供。東ロンドンのトレンディなエリアで在ロンドン日本人にも人気。",
+    "description": "ショーディッチのグレートイースタン街にある博多とんこつラーメン店。イーストロンドンの活気あるエリアに位置する。",
     "tags": [
       "ラーメン",
       "豚骨",
@@ -3602,79 +3311,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "shoryu-southbank",
-    "name": "Shoryu Southbank",
-    "name_ja": "昇龍 サウスバンク店",
-    "area": "Southbank",
-    "address": "Southbank, London SE1",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.shoryuramen.com/",
-    "description": "昇龍ラーメンのサウスバンク店。テムズ川沿いの人気エリアでアクセスしやすい。観光と日本料理を組み合わせて楽しめる。",
-    "tags": [
-      "ラーメン",
-      "豚骨",
-      "チェーン"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "shoryu-st-pauls",
-    "name": "Shoryu St. Paul's",
-    "name_ja": "昇龍 セントポールズ店",
-    "area": "City of London",
-    "address": "One New Change, 60 New Change, London EC4M 9AF",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.shoryuramen.com/",
-    "description": "昇龍ラーメンのセントポールズ店。One New Changeショッピングセンター内に位置。シティ勤務の日本人ビジネスパーソンにも人気。",
-    "tags": [
-      "ラーメン",
-      "豚骨",
-      "チェーン"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shoryu-westfield",
     "name": "Shoryu Westfield",
     "name_ja": "昇龍 ウェストフィールド店",
     "area": "Shepherd's Bush",
-    "address": "Westfield London, Ariel Way, London W12",
+    "address": "Unit 0220, Relay Square, Westfield London, London W12 7HB",
     "lat": null,
     "lng": null,
     "phone": null,
     "website": "https://www.shoryuramen.com/",
-    "description": "昇龍ラーメンのウェストフィールド・ロンドン店。ショッピングモール内でアクセスしやすい。",
+    "description": "ウェストフィールドロンドン（シェパーズブッシュ）内のIchibaに入る博多とんこつラーメン店。ショッピング中の食事にも最適。",
     "tags": [
       "ラーメン",
       "豚骨",
@@ -3692,49 +3342,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sosharu-clerkenwell",
-    "name": "Sosharu",
-    "name_ja": "蒼社",
-    "area": "Clerkenwell",
-    "address": "64 Turnmill Street, London EC1M 5RR",
-    "lat": null,
-    "lng": null,
-    "phone": "+442031534522",
-    "website": "https://sosharurestaurant.com/",
-    "description": "クラーケンウェルにある居酒屋スタイルの日本料理レストラン。Jason Atherton氏が手掛ける現代日本料理。日本酒と小皿料理が充実。",
-    "tags": [
-      "居酒屋",
-      "現代日本料理",
-      "日本酒"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sticks-n-sushi-canary-wharf",
     "name": "Sticks'n'Sushi Canary Wharf",
     "name_ja": "スティックス&寿司 カナリーワーフ店",
     "area": "Canary Wharf",
-    "address": "Crossrail Place, Canary Wharf, London E14 5AR",
+    "address": "1 Crossrail Place, Canary Wharf, London E14 5AR",
     "lat": null,
     "lng": null,
     "phone": null,
-    "website": "https://sticksnsushi.com/",
-    "description": "カナリーワーフのCrossrail Place内にある寿司と串焼きのレストラン。金融街の日本人ビジネスパーソンのランチ・ディナーに人気。",
+    "website": "https://www.sticksnsushi.com/gb/en/restaurants/canary-wharf/",
+    "description": "カナリーワーフのクロスレールプレイスにある北欧スタイルの寿司とヤキトリのレストラン。金融街のビジネスランチにも人気。",
     "tags": [
       "寿司",
       "串焼き",
@@ -3752,7 +3373,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sticks-n-sushi-chelsea",
@@ -3764,7 +3386,7 @@
     "lng": null,
     "phone": "+442035142040",
     "website": "https://www.sticksnsushi.com/gb/en/restaurants/chelsea/",
-    "description": "チェルシーのキングスロードにある日本×デンマークフュージョンレストラン。寿司と串焼きが評判。スローンスクエア近くで在ロンドン日本人にもアクセスしやすい。",
+    "description": "チェルシーのキングスロードにある北欧発の寿司とスティック（ヤキトリ）レストラン。スタイリッシュな内装と質の高い和食が特徴。",
     "tags": [
       "寿司",
       "串焼き",
@@ -3782,7 +3404,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sticks-n-sushi-covent-garden",
@@ -3794,7 +3417,7 @@
     "lng": null,
     "phone": "+442034849330",
     "website": "https://sticksnsushi.com/en/restaurants/covent-garden/",
-    "description": "デンマーク発の日本食レストランチェーン。日本の串焼きと寿司を中心にしたメニュー。ロンドンに複数店舗展開。日本食文化を大切にする。",
+    "description": "コベントガーデンのアンリエッタ街にある北欧スタイルの寿司・ヤキトリレストラン。劇場街の中心に位置し観光客にも人気。",
     "tags": [
       "寿司",
       "串焼き",
@@ -3812,19 +3435,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sticks-n-sushi-islington",
     "name": "Sticks'n'Sushi Islington",
     "name_ja": "スティックス&寿司 イズリントン店",
     "area": "Islington",
-    "address": "Islington, London N1",
+    "address": "77-78 Upper Street, London N1 0NU",
     "lat": null,
     "lng": null,
     "phone": null,
-    "website": "https://sticksnsushi.com/",
-    "description": "Sticks'n'SushiのIslington店。寿司と串焼きを組み合わせたメニューで北ロンドンの日本人にも利用される。",
+    "website": "https://www.sticksnsushi.com/gb/en/restaurants/islington/",
+    "description": "イズリントン・グリーンを望むアッパー街に位置する北欧発の寿司とヤキトリのレストラン。広々とした店内とオープンキッチンが特徴。",
     "tags": [
       "寿司",
       "串焼き",
@@ -3842,37 +3466,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sticks-n-sushi-st-pauls",
-    "name": "Sticks'n'Sushi St. Paul's",
-    "name_ja": "スティックス&寿司 セントポールズ店",
-    "area": "City of London",
-    "address": "1 New Change, London EC4M 9AF",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://sticksnsushi.com/",
-    "description": "One New Change内のSticks'n'Sushi店。シティで働く日本人ビジネスパーソンのランチ・ディナーに人気。",
-    "tags": [
-      "寿司",
-      "串焼き",
-      "チェーン"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sticks-n-sushi-wimbledon",
@@ -3884,7 +3479,7 @@
     "lng": null,
     "phone": null,
     "website": "https://sticksnsushi.com/",
-    "description": "ウィンブルドンにある寿司と串焼きのレストラン。住宅街に住む在ロンドン日本人ファミリーにも使いやすい立地。",
+    "description": "ウィンブルドンヒルロードにある北欧スタイルの寿司とヤキトリ専門レストラン。南西ロンドンの人気店。",
     "tags": [
       "寿司",
       "串焼き",
@@ -3902,7 +3497,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sumosan-twiga-mayfair",
@@ -3913,8 +3509,8 @@
     "lat": null,
     "lng": null,
     "phone": null,
-    "website": "https://sumosan.com/",
-    "description": "ナイツブリッジにある高級日本料理レストラン。寿司・刺身・和食の高品質メニューを提供。在ロンドン日本人ビジネスパーソンの接待にも利用される。",
+    "website": "https://sumosantwigalondon.com/",
+    "description": "ナイツブリッジのスローン街にある高級日本料理レストラン＆クラブ。最高級の和食とラグジュアリーな夜のエンターテインメントを提供。",
     "tags": [
       "寿司",
       "刺身",
@@ -3932,7 +3528,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-kanesaka-45-park-lane",
@@ -3944,7 +3541,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.dorchestercollection.com/london/45-park-lane/dining/sushi-kanesaka",
-    "description": "東京・銀座の名店「鮨かねさか」のロンドン店。13席のカウンターでおまかせコースを提供。開業から7ヶ月でミシュラン1つ星を獲得した実力店。",
+    "description": "パークレーン45のドーチェスターコレクション内にあるミシュラン1つ星の江戸前鮨店。金坂真次シェフ監修の本格的なオマカーセを提供。",
     "tags": [
       "寿司",
       "おまかせ",
@@ -3963,37 +3560,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushi-kyu-mayfair",
-    "name": "Sushi Kyu Mayfair",
-    "name_ja": "寿司九 メイフェア店",
-    "area": "Mayfair",
-    "address": "Mayfair, London",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://sushikyu.com/",
-    "description": "SushiKyuのMayfair店。本格江戸前寿司をソーホー以外でも楽しめる。カジュアルな雰囲気で高品質な寿司を提供。",
-    "tags": [
-      "寿司",
-      "江戸前",
-      "カジュアル"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-kyu-soho",
@@ -4005,7 +3573,7 @@
     "lng": null,
     "phone": null,
     "website": "https://sushikyu.com/",
-    "description": "Sohoの隠れ家的本格寿司店。職人が握る本格江戸前寿司を提供。カジュアルな雰囲気でコスパよくクオリティの高い寿司を楽しめる。",
+    "description": "ソーホーのブルワー街にある10席のみの小さなオマカーセ専門店。手頃な価格でロンドンの高品質な江戸前鮨を体験できる。",
     "tags": [
       "寿司",
       "江戸前",
@@ -4023,7 +3591,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-samba-heron-tower",
@@ -4034,8 +3603,8 @@
     "lat": null,
     "lng": null,
     "phone": "+442031108585",
-    "website": "https://sushisamba.com/london/",
-    "description": "ヒロンタワー38-39階にある日本・ブラジル・ペルーフュージョンレストラン。高層からロンドン市内を一望できる。寿司・刺身も充実。特別な日の食事に利用する在ロンドン日本人も多い。",
+    "website": "https://sushisamba.com/locations/london-heron-tower",
+    "description": "ヘロンタワー38〜39階に位置するSushiSamba。ロンドンの絶景パノラマと共に日本・ブラジル・ペルー融合料理を提供。",
     "tags": [
       "寿司",
       "高層レストラン",
@@ -4054,7 +3623,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sushi-tetsu-clerkenwell",
@@ -4066,7 +3636,7 @@
     "lng": null,
     "phone": "+442075252388",
     "website": null,
-    "description": "7席のみの超予約困難なクラーケンウェルの江戸前寿司店。東郷哲氏がカウンターで握る本格おまかせ寿司は在ロンドン日本人の間でも高く評価されている。",
+    "description": "クラーケンウェルの路地裏にある7席のみの予約困難な鮨店。高橋哲シェフによる本格オマカーセは英国を代表する日本料理体験の一つ。",
     "tags": [
       "寿司",
       "おまかせ",
@@ -4085,49 +3655,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sushisamba-liverpool-street",
-    "name": "Sushisamba Devonshire Square",
-    "name_ja": "スシサンバ デヴォンシャースクエア店",
-    "area": "City of London",
-    "address": "Devonshire Square, London EC2M 4YD",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://sushisamba.com/london/",
-    "description": "日本・ブラジル・ペルーのフュージョンレストランのデヴォンシャースクエア店。シティ勤務の日本人にも利用される。",
-    "tags": [
-      "寿司",
-      "創作和食",
-      "フュージョン"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "takahashi-wimbledon",
     "name": "Takahashi",
     "name_ja": "高橋",
     "area": "Wimbledon",
-    "address": "228 Merton High Street, Wimbledon, London SW19 1AU",
+    "address": "228 Merton Road, South Wimbledon, London SW19 1EQ",
     "lat": null,
     "lng": null,
     "phone": "+442085433939",
-    "website": null,
-    "description": "ウィンブルドンにある日本人シェフ高橋氏が経営する居酒屋レストラン。ロンドン南西部に住む日本人ファミリーに長く親しまれているカジュアルな日本食店。",
+    "website": "https://www.takahashi-restaurant.co.uk/",
+    "description": "サウスウィンブルドンにある日本料理レストラン。2015年創業で、細部にこだわった本格的な和食をカジュアルな雰囲気で提供。",
     "tags": [
       "居酒屋",
       "定食",
@@ -4145,11 +3686,12 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "taku-mayfair",
-    "name": "Taku",
+    "name": "Sushi Amamoto London",
     "name_ja": "たく",
     "area": "Mayfair",
     "address": "36 Albemarle Street, London W1S 4JE",
@@ -4157,7 +3699,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.takumayfair.com/",
-    "description": "MayfairにあるミシュランSTARおまかせ寿司レストラン。数席のカウンターで職人が握るおまかせコースのみ提供。ロンドンを代表する日本人寿司シェフが率いる。",
+    "description": "メイフェアのアルバマール街にある高級オマカーセ鮨店。2026年2月にSushi Amamoto Londonとしてリブランドし、ミシュランスターを維持。",
     "tags": [
       "寿司",
       "おまかせ",
@@ -4176,7 +3718,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tampopo-manchester",
@@ -4188,7 +3731,7 @@
     "lng": null,
     "phone": "+441618192330",
     "website": "https://www.tampopo.co.uk/",
-    "description": "マンチェスターのAlbert Squareにある日本・アジア料理チェーン。ラーメン、餃子、ポキなど手頃な価格で提供。マンチェスター在住の日本人にも利用される。",
+    "description": "マンチェスターのアルバートスクエア近くにある東アジア料理レストラン。1997年創業の老舗で、和食を中心に多彩なアジア料理を提供。",
     "tags": [
       "ラーメン",
       "餃子",
@@ -4206,7 +3749,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "taro-brewer-street",
@@ -4217,8 +3761,8 @@
     "lat": null,
     "lng": null,
     "phone": "+442074345826",
-    "website": null,
-    "description": "日本人経営のカジュアル日本食レストラン。カレー、丼、焼きそば、ラーメン、定食を手頃な価格で提供。Old Compton Street店と並ぶソーホーの定番。",
+    "website": "https://tarorestaurants.uk/locations/soho/",
+    "description": "ソーホーのブルワー街にある日本料理レストラン。手頃な価格で本格的な和食を提供するピカデリーサーカス至近の人気老舗。",
     "tags": [
       "定食",
       "カレー",
@@ -4237,38 +3781,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "taro-soho",
-    "name": "Taro Restaurant Soho",
-    "name_ja": "太郎 ソーホー店",
-    "area": "Soho",
-    "address": "10 Old Compton Street, London W1D 4TF",
-    "lat": null,
-    "lng": null,
-    "phone": "+442074395275",
-    "website": null,
-    "description": "ソーホーにある日本人経営のカジュアル日本食レストラン。カレー、丼、焼きそば、定食などの家庭的な日本料理を手頃な価格で提供。在ロンドン日本人に人気。",
-    "tags": [
-      "定食",
-      "カレー",
-      "丼",
-      "日本人経営"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "the-aubrey-london",
@@ -4280,7 +3794,7 @@
     "lng": null,
     "phone": null,
     "website": "https://theaubreycollection.com/london",
-    "description": "マンダリンオリエンタル・ハイドパーク内の日本料理レストラン＆バー。深夜営業の居酒屋スタイルでカクテルとDJを楽しめる。",
+    "description": "マンダリンオリエンタルハイドパーク地下にある日本の居酒屋スタイルのレストラン＆バー。創作和食とロブスター料理で数々の賞を受賞。",
     "tags": [
       "居酒屋",
       "バー",
@@ -4299,19 +3813,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tokii-mayfair",
     "name": "TOKii",
     "name_ja": "トキー",
     "area": "Mayfair",
-    "address": "1 The Arlington, 12 Arlington Street, London SW1A 1RD",
+    "address": "50 Great Cumberland Place, Marble Arch, London W1H 7FD",
     "lat": null,
     "lng": null,
     "phone": null,
     "website": "https://www.tokii.co.uk/",
-    "description": "Mayfairの洗練された日本料理レストラン。寿司・刺身・ロバタグリルを中心に提供。在ロンドン日本人ビジネスパーソンが利用する高級店。",
+    "description": "マーブルアーチのプリンスアカトキホテル内にある日本料理レストラン。寿司・刺身・ロバタグリルを提供するエレガントな和食体験。",
     "tags": [
       "寿司",
       "刺身",
@@ -4330,19 +3845,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tokyo-izakaya-birmingham",
     "name": "Tokyo Izakaya",
     "name_ja": "東京居酒屋",
     "area": "Birmingham",
-    "address": "19 Colmore Row, Birmingham B3 2BS",
+    "address": "114-116 Colmore Row, Birmingham B3 2BS",
     "lat": null,
     "lng": null,
     "phone": null,
     "website": "https://www.tokyoizakaya.co.uk/",
-    "description": "バーミンガム中心部にある本格日系居酒屋。本場の日本料理・焼き鳥・日本酒・日本ウイスキーを提供。バーミンガム在住の日本人在住者にも人気のスポット。",
+    "description": "バーミンガム市内コルモアローにある日本の居酒屋スタイルのレストラン。寿司・ロバタグリル・創作カクテルを楽しめる本格的な和食体験。",
     "tags": [
       "居酒屋",
       "日本料理",
@@ -4361,7 +3877,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tokyobar-manchester",
@@ -4373,7 +3890,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.tokyobarmanchester.com/",
-    "description": "マンチェスターにある日系居酒屋バー。焼き鳥・餃子・寿司などの日本料理とカラオケを組み合わせたエンターテインメント型店舗。",
+    "description": "マンチェスターのオックスフォード街にある東京スタイルのバー＆レストラン。日本料理と創作カクテルを提供する和モダンの空間。",
     "tags": [
       "居酒屋",
       "カラオケ",
@@ -4392,7 +3909,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tombo-chelsea",
