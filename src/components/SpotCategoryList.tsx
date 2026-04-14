@@ -1,11 +1,19 @@
+"use client";
+
+import { Suspense, useState, useCallback } from "react";
+import { useSearchParams, usePathname, useRouter } from "next/navigation";
 import Link from "next/link";
 import {
   MapPin,
   Globe,
   AlertTriangle,
   CheckCircle2,
+  ChevronLeft,
+  ChevronRight,
 } from "lucide-react";
 import type { GroupTheme } from "@/lib/group-theme";
+
+const PLACES_PER_PAGE = 20;
 
 type place = {
   slug: string;
@@ -26,12 +34,52 @@ type Props = {
   catTheme: GroupTheme;
 };
 
-export default function placeCategoryList({ places, countryCode, categorySlug, catTheme }: Props) {
-  if (places.length === 0) return null;
+export default function placeCategoryList(props: Props) {
+  if (props.places.length === 0) return null;
 
   return (
-    <div className="space-y-3">
-      {places.map((place) => {
+    <Suspense fallback={null}>
+      <PlaceCategoryListInner {...props} />
+    </Suspense>
+  );
+}
+
+function PlaceCategoryListInner({ places, countryCode, categorySlug, catTheme }: Props) {
+  const searchParams = useSearchParams();
+  const pathname = usePathname();
+  const router = useRouter();
+
+  const initialPage = Math.max(1, Number(searchParams.get("page")) || 1);
+  const [currentPage, setCurrentPage] = useState(initialPage);
+
+  const updateURL = useCallback((page: number) => {
+    const params = new URLSearchParams();
+    if (page > 1) params.set("page", String(page));
+    const qs = params.toString();
+    router.replace(`${pathname}${qs ? `?${qs}` : ""}`, { scroll: false });
+  }, [pathname, router]);
+
+  const totalPages = Math.ceil(places.length / PLACES_PER_PAGE);
+  const safeCurrentPage = Math.min(currentPage, totalPages || 1);
+  const start = (safeCurrentPage - 1) * PLACES_PER_PAGE;
+  const paginated = places.slice(start, start + PLACES_PER_PAGE);
+
+  const goToPage = (page: number) => {
+    setCurrentPage(page);
+    updateURL(page);
+    document.getElementById("place-list")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
+  return (
+    <div id="place-list" className="space-y-3">
+      {/* 件数表示 */}
+      {totalPages > 1 && (
+        <p className="text-xs text-stone-400 mb-3">
+          {places.length}件中 {start + 1}–{Math.min(start + PLACES_PER_PAGE, places.length)}件を表示
+        </p>
+      )}
+
+      {paginated.map((place) => {
         const isClosed = place.status === "reported_closed";
         return (
           <Link
@@ -107,6 +155,63 @@ export default function placeCategoryList({ places, countryCode, categorySlug, c
           </Link>
         );
       })}
+
+      {/* ページネーション */}
+      {totalPages > 1 && (
+        <nav className="flex items-center justify-center gap-1 mt-8" aria-label="ページネーション">
+          <button
+            onClick={() => goToPage(safeCurrentPage - 1)}
+            disabled={safeCurrentPage === 1}
+            className="p-2 rounded-lg text-stone-500 hover:bg-stone-100 dark:hover:bg-stone-800 disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer transition-colors"
+            aria-label="前のページ"
+          >
+            <ChevronLeft size={18} />
+          </button>
+
+          {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => {
+            const show =
+              page === 1 ||
+              page === totalPages ||
+              Math.abs(page - safeCurrentPage) <= 1;
+            const showEllipsis =
+              !show &&
+              (page === 2 || page === totalPages - 1);
+
+            if (showEllipsis) {
+              return (
+                <span key={page} className="px-1 text-stone-400">
+                  ...
+                </span>
+              );
+            }
+            if (!show) return null;
+
+            return (
+              <button
+                key={page}
+                onClick={() => goToPage(page)}
+                className={`min-w-[36px] h-9 rounded-lg text-sm font-medium cursor-pointer transition-colors ${
+                  page === safeCurrentPage
+                    ? "bg-warm-600 text-white"
+                    : "text-stone-600 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-800"
+                }`}
+                aria-current={page === safeCurrentPage ? "page" : undefined}
+              >
+                {page}
+              </button>
+            );
+          })}
+
+          <button
+            onClick={() => goToPage(safeCurrentPage + 1)}
+            disabled={safeCurrentPage === totalPages}
+            className="p-2 rounded-lg text-stone-500 hover:bg-stone-100 dark:hover:bg-stone-800 disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer transition-colors"
+            aria-label="次のページ"
+          >
+            <ChevronRight size={18} />
+          </button>
+        </nav>
+      )}
     </div>
   );
 }
