@@ -40,7 +40,7 @@ export default function ConfessionsPage() {
             </p>
             {/* データ利用に関する説明 */}
             <div className="bg-stone-100 dark:bg-stone-800 rounded-xl px-5 py-4 text-xs text-stone-500 dark:text-stone-400 leading-relaxed">
-              ご投稿いただいたデータは、弊社グループが展開する複数の事業におけるサービス開発・改善および調査レポートの作成に活用させていただきます。個人が特定される情報は公開しません。新サービスの案内をご希望の方は投稿後にメールアドレスをご登録ください。
+              ご投稿いただいたデータは、サービス開発・改善および調査レポートの作成に活用させていただきます。個人が特定される情報は公開しません。
             </div>
           </div>
 

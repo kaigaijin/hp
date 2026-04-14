@@ -102,6 +102,12 @@ export default function Header() {
             </div>
           </div>
           <Link
+            href="/confessions"
+            className="hover:text-warm-500 dark:hover:text-warm-400 transition-colors"
+          >
+            本音
+          </Link>
+          <Link
             href="/overseas/column"
             className="hover:text-warm-500 dark:hover:text-warm-400 transition-colors"
           >
@@ -192,11 +198,19 @@ export default function Header() {
                 </div>
               );
             })}
+            {/* 本音投稿 */}
+            <Link
+              href="/confessions"
+              onClick={() => setOpen(false)}
+              className="py-2 mt-2 text-stone-600 dark:text-stone-400 font-semibold"
+            >
+              本音
+            </Link>
             {/* 海外生活共通 */}
             <Link
               href="/overseas/column"
               onClick={() => setOpen(false)}
-              className="py-2 mt-2 text-stone-600 dark:text-stone-400 font-semibold"
+              className="py-2 text-stone-600 dark:text-stone-400 font-semibold"
             >
               🌏 海外生活
             </Link>
