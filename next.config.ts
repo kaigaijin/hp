@@ -2,6 +2,19 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   reactCompiler: true,
+  images: {
+    remotePatterns: [
+      // Google Places API / Googleユーザーコンテンツ
+      { protocol: "https", hostname: "maps.googleapis.com" },
+      { protocol: "https", hostname: "*.googleusercontent.com" },
+      { protocol: "https", hostname: "lh3.googleusercontent.com" },
+      { protocol: "https", hostname: "lh4.googleusercontent.com" },
+      { protocol: "https", hostname: "lh5.googleusercontent.com" },
+      { protocol: "https", hostname: "lh6.googleusercontent.com" },
+      // 各プレイス公式サイト画像（将来対応）
+      { protocol: "https", hostname: "**" },
+    ],
+  },
   async redirects() {
     return [
       // 旧slug → 新slugへの301リダイレクト（Googleインデックス済みの古いURL対応）

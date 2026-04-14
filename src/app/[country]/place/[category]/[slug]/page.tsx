@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { getCountry, countries } from "@/lib/countries";
@@ -242,12 +243,12 @@ export default async function placeDetailPage({
             <div className="rounded-2xl overflow-hidden">
               <div className="flex gap-1 h-72 sm:h-96">
                 <div className="relative w-1/2">
-                  <img src={images[0]} alt={displayName} className="w-full h-full object-cover" />
+                  <Image src={images[0]} alt={displayName} fill className="object-cover" sizes="(max-width: 768px) 50vw, 40vw" priority />
                 </div>
                 <div className="w-1/2 flex flex-col gap-1">
                   <div className="relative flex-1">
                     {images[1] ? (
-                      <img src={images[1]} alt="" className="w-full h-full object-cover" />
+                      <Image src={images[1]} alt="" fill className="object-cover" sizes="(max-width: 768px) 50vw, 40vw" />
                     ) : (
                       <div className="w-full h-full bg-stone-100 dark:bg-stone-800" />
                     )}
@@ -255,7 +256,7 @@ export default async function placeDetailPage({
                   <div className="relative flex-1">
                     {images[2] ? (
                       <>
-                        <img src={images[2]} alt="" className="w-full h-full object-cover" />
+                        <Image src={images[2]} alt="" fill className="object-cover" sizes="(max-width: 768px) 50vw, 40vw" />
                         {images.length > 3 && (
                           <span className="absolute inset-0 bg-black/40 flex items-center justify-center text-white text-sm font-medium">
                             +{images.length - 3}枚
