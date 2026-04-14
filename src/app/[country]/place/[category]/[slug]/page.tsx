@@ -3,6 +3,11 @@ import Link from "next/link";
 import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import {
+  calcplaceScore,
+  aggregateReviewerStats,
+  type Review,
+} from "@/lib/review-score";
 import { getCountry, countries } from "@/lib/countries";
 import {
   categories,
@@ -133,6 +138,53 @@ export default async function placeDetailPage({
   const sameCategory = getplacesByCategory(code, catSlug)
     .filter((s) => s.slug !== slug);
 
+  // SSRでレビュースコアを取得（AggregateRating構造化データ用）
+  const supabaseUrl =
+    process.env.INQUIRY_SUPABASE_URL || process.env.NEXT_PUBLIC_SUPABASE_URL || "";
+  const supabaseKey =
+    process.env.INQUIRY_SUPABASE_ANON_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || "";
+
+  let aggregateRatingJsonLd: object | null = null;
+  if (supabaseUrl && supabaseKey) {
+    try {
+      const placeRes = await fetch(
+        `${supabaseUrl}/rest/v1/place_reviews?place_country=eq.${encodeURIComponent(code)}&place_category=eq.${encodeURIComponent(catSlug)}&place_slug=eq.${encodeURIComponent(slug)}&select=id,place_country,place_category,place_slug,reviewer_id,is_anonymous,rating,comment,created_at`,
+        {
+          headers: { apikey: supabaseKey, Authorization: `Bearer ${supabaseKey}` },
+          next: { revalidate: 3600 },
+        }
+      );
+      if (placeRes.ok) {
+        const placeReviews: Review[] = await placeRes.json();
+        if (placeReviews.length > 0) {
+          const reviewerIds = [...new Set(placeReviews.map((r) => r.reviewer_id))];
+          const allRes = await fetch(
+            `${supabaseUrl}/rest/v1/place_reviews?reviewer_id=in.(${reviewerIds.map((id) => `"${id}"`).join(",")})&select=id,place_country,place_category,place_slug,reviewer_id,rating,comment,created_at`,
+            {
+              headers: { apikey: supabaseKey, Authorization: `Bearer ${supabaseKey}` },
+              next: { revalidate: 3600 },
+            }
+          );
+          const reviewerStatsMap = allRes.ok
+            ? aggregateReviewerStats(await allRes.json())
+            : new Map();
+          const score = calcplaceScore(placeReviews, reviewerStatsMap);
+          if (score.display) {
+            aggregateRatingJsonLd = {
+              "@type": "AggregateRating",
+              ratingValue: score.weighted_score.toFixed(2),
+              reviewCount: score.review_count,
+              bestRating: "5",
+              worstRating: "1",
+            };
+          }
+        }
+      }
+    } catch {
+      // スコア取得失敗時はAggregateRatingなしで続行
+    }
+  }
+
   // スキーマタイプ
   const schemaTypeMap: Record<string, string> = {
     restaurant: "Restaurant",
@@ -180,6 +232,7 @@ export default async function placeDetailPage({
     }),
     ...(images && images.length > 0 && { image: images }),
     ...(place.last_verified && { dateModified: place.last_verified }),
+    ...(aggregateRatingJsonLd && { aggregateRating: aggregateRatingJsonLd }),
   };
 
   const breadcrumbJsonLd = {
