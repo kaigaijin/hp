@@ -14,6 +14,7 @@ import {
   getCategory,
   getplace,
   getplacesByCategory,
+  getAllplaces,
 } from "@/lib/directory";
 import { getCategoryTheme } from "@/lib/group-theme";
 import PlaceReportForm from "@/components/SpotReportForm";
@@ -85,6 +86,17 @@ const categoryIconMap: Record<string, (size: number) => React.ReactNode> = {
 // ISR: 1時間ごとに再生成
 export const revalidate = 3600;
 
+// ビルド時に全プレイスの静的パスを生成（トラフィックスパイク時のSSR負荷を防止）
+export function generateStaticParams() {
+  return countries.flatMap((country) =>
+    getAllplaces(country.code).map((place) => ({
+      country: country.code,
+      category: place.category,
+      slug: place.slug,
+    }))
+  );
+}
+
 export async function generateMetadata({
   params,
 }: {
@@ -147,13 +159,17 @@ export default async function placeDetailPage({
   let aggregateRatingJsonLd: object | null = null;
   if (supabaseUrl && supabaseKey) {
     try {
+      const controller = new AbortController();
+      const timeout = setTimeout(() => controller.abort(), 3000); // 3秒タイムアウト
       const placeRes = await fetch(
         `${supabaseUrl}/rest/v1/place_reviews?place_country=eq.${encodeURIComponent(code)}&place_category=eq.${encodeURIComponent(catSlug)}&place_slug=eq.${encodeURIComponent(slug)}&select=id,place_country,place_category,place_slug,reviewer_id,is_anonymous,rating,comment,created_at`,
         {
           headers: { apikey: supabaseKey, Authorization: `Bearer ${supabaseKey}` },
           next: { revalidate: 3600 },
+          signal: controller.signal,
         }
       );
+      clearTimeout(timeout);
       if (placeRes.ok) {
         const placeReviews: Review[] = await placeRes.json();
         if (placeReviews.length > 0) {
