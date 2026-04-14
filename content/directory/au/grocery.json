@@ -148,25 +148,32 @@
     "name": "Fuji Mart Gold Coast",
     "name_ja": "フジマート ゴールドコースト",
     "area": "Gold Coast",
-    "address": "Gold Coast, QLD",
-    "phone": null,
+    "address": "Shop 1, Southport Park Shopping Centre, Cnr Ferry & Benowa Rd, Southport QLD 4215",
+    "phone": "+61755916211",
     "website": "https://www.junpacific.com/",
-    "description": "Jun Pacific Corporation運営の日本食材専門スーパー「フジマート」のGold Coast店。日本から直輸入の食材・調味料・お菓子・冷凍食品・酒類を取り扱う。東京マート（シドニー）の姉妹店。",
+    "description": "ゴールドコースト・サウスポートにある日本食材専門スーパー「富士マート」。Jun Pacific Corporation運営で、醤油・味噌などの調味料から日本酒・焼酎、抹茶商品50種以上、冷凍食品まで幅広く取り扱い。スタンプカード制度あり。",
     "tags": [
       "日本食材専門店",
       "Jun Pacific系列"
     ],
-    "hours": "月〜土 10:00〜18:00",
-    "status": "unverified",
+    "hours": "Monday-Wednesday, Friday: 9:00-17:30 / Thursday: 9:00-20:00 / Saturday: 9:00-17:00 / Sunday: 10:30-16:00",
+    "status": "verified",
     "source": "website",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-14",
     "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "detail": "サウスポートのSouthport Park Shopping Centre内にある日本食材専門スーパー。東京マート（シドニー）と同じJun Pacific Corporation運営で、ゴールドコーストでは数少ない本格的な日本食材店。醤油・味噌・だしなどの調味料、日本酒・焼酎（種類充実）、抹茶関連商品50種以上、インスタントラーメン、菓子・スナック、冷凍食品、和食器・調理器具など幅広く取り扱う。購入ごとにスタンプが貯まる割引券制度あり。「本格的な和食の材料が揃う」と在住日本人に高評価。",
+    "menu_highlights": [
+      "醤油・味噌・調味料",
+      "日本酒・焼酎（種類充実）",
+      "抹茶商品50種以上",
+      "冷凍食品・お菓子"
+    ]
   },
   {
     "slug": "fuji-mart-melbourne",

@@ -9476,20 +9476,21 @@
     "name": "豚麺処 官兵衛 KANBE RAMEN JB",
     "name_ja": "豚麺処官兵衛",
     "area": "Johor Bahru",
-    "address": "Ground Floor, Lot G138, Food Hall, AEON Mall Tebrau City, 1 Jalan Desa Tebrau, 81100 Johor Bahru, Johor, Malaysia",
+    "address": "G138, Ground Floor, AEON Mall Tebrau City, No.1 Jalan Desa Tebrau, Taman Desa Tebrau, 81100 Johor Bahru, Johor, Malaysia",
     "lat": 1.5491,
     "lng": 103.7946,
     "phone": null,
     "website": "https://lit.link/kanbe",
-    "description": "ジョホールバル・AEON Mall Tebrau Cityにある豚骨ラーメン・つけ麺専門店。48時間煮込んだ7種の豚骨スープが特徴。11am〜10pm営業。",
+    "description": "ジョホールバル・AEON Mall Tebrau City内にある豚骨ラーメン・つけ麺専門店「豚麺処 官兵衛」。48時間煮込んだ白・黒・桜など8種のスープが特徴。日本人シェフによるオープンキッチンで本格派の一杯を提供。",
     "tags": [
-      "日本食",
       "ラーメン",
-      "レストラン"
+      "つけ麺",
+      "豚骨",
+      "non-halal"
     ],
-    "hours": "Monday: 11:00 AM – 10:00 PM / Tuesday: 11:00 AM – 10:00 PM / Wednesday: 11:00 AM – 10:00 PM / Thursday: 11:00 AM – 10:00 PM / Friday: 11:00 AM – 10:00 PM / Saturday: 11:00 AM – 10:00 PM / Sunday: 11:00 AM – 10:00 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
+    "hours": "Sunday-Thursday: 10:00-22:00 / Friday-Saturday: 10:00-22:30",
+    "last_verified": "2026-04-14",
+    "status": "verified",
     "source": "google_maps",
     "place_id": "ChIJv7NudgBt2jERmtNShL4ZtYY",
     "priority": 0,
@@ -9500,7 +9501,15 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "place_reviewed": true
+    "place_reviewed": true,
+    "detail": "AEON Mall Tebrau City G138に位置する本格豚骨ラーメン専門店。スープは白・黒・桜・赤・琥珀・柚子・胡麻・季節限定の8種から選択でき、全て48時間以上煮込んだ100%豚骨ベース。つけ麺（RM39〜）やハカタラーメン（RM31〜）が看板メニューで、替え玉（RM5）も対応。日本人シェフによるオープンキッチンで調理工程を間近に見ながら食事できる。豚骨・豚肉メインのため非ハラル。KL・Mont Kiara（163 Retail Park）に本店を持つ日系ブランドのJB出店。",
+    "menu_highlights": [
+      "ハカタラーメン RM31〜",
+      "KANBEつけめん RM39〜",
+      "8種スープ（白・黒・桜・赤・琥珀・柚子・胡麻・季節限定）",
+      "替え玉 RM5"
+    ],
+    "price_range": "RM31〜RM39（ラーメン・つけ麺）"
   },
   {
     "slug": "kanbe-ramen-the-exchange-trx",
@@ -20842,26 +20851,33 @@
     "lat": 2.9928,
     "lng": 101.7592,
     "phone": "+60137630811",
-    "website": "https://www.instagram.com/tamakaeiyura_izakaya/",
-    "description": "カジャン・ジェードヒルズにある日本式居酒屋「玉椛影」。刺身・焼き物・日本酒など本格和食メニューを提供。火〜日営業（月曜定休）。",
+    "website": "https://linktr.ee/tamakaeiyura_izakaya",
+    "description": "カジャン・ジェードヒルズにある本格日本式居酒屋「玉椛影（たまかえい）」。刺身・焼き物・日本酒など本格和食メニューが揃い、新興住宅地エリアで希少な正統派和食を楽しめる。月曜定休、火〜日ランチ・ディナー営業。",
     "tags": [
       "居酒屋",
       "日本酒"
     ],
     "hours": "Monday: Closed / Tuesday: 12:00 – 10:30 PM / Wednesday: 12:00 – 10:30 PM / Thursday: 12:00 – 10:30 PM / Friday: 12:00 – 10:30 PM / Saturday: 12:00 – 10:30 PM / Sunday: 12:00 – 10:30 PM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
+    "last_verified": "2026-04-14",
+    "status": "verified",
     "source": "google_maps",
     "place_id": "ChIJA-4DLzDLzTER8_m9__tIE1U",
     "priority": 0,
     "ai_reviewed": true,
     "phone_local": null,
-    "email": null,
+    "email": "tamakaeiyura@gmail.com",
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "place_reviewed": true
+    "place_reviewed": true,
+    "detail": "ジェードヒルズ（カジャン）のDataran Jade Level 1に位置する日本式居酒屋。刺身・焼き物・日本酒を中心とした本格和食を提供し、クアラルンプール南部エリアでは数少ない正統派居酒屋として在住日本人・日本食ファンに支持されている。2025年オープンの新店ながら、Advocadoのロイヤルティプログラムも導入済み。営業時間はランチ12:00〜15:00・ディナー17:00〜22:30（月曜定休）。",
+    "menu_highlights": [
+      "刺身盛り合わせ",
+      "焼き物",
+      "日本酒",
+      "本格和食全般"
+    ]
   },
   {
     "slug": "tan-izakaya",
@@ -22304,19 +22320,21 @@
     "name": "Tokyo Yokocho Izakaya KL〜東京横丁居酒屋KL〜",
     "name_ja": "〜東京横丁居酒屋〜",
     "area": "Kuala Lumpur",
-    "address": "24, Jalan Kampung Pasir, Kampung Pasir, 58200 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+    "address": "24, Jalan Kampung Pasir, Kampung Pasir, 58200 Kuala Lumpur",
     "lat": 3.0849,
     "lng": 101.6637,
     "phone": "+601123428670",
     "website": "https://www.instagram.com/tokyo_yokochokl?igsh=MWk3cjhiYjVlbzF4cw==",
-    "description": "クアラルンプール・カンポンパシルにある東京横丁をテーマにした日本式居酒屋。おでん・焼き鳥・豚骨ラーメンなど本格和食を東京路地裏の雰囲気で楽しめる。",
+    "description": "クアラルンプール・カンポンパシルにある東京横丁テーマの日本式居酒屋。提灯・レンガ壁・木製テーブルで路地裏の雰囲気を再現し、おでん・焼き鳥・豚骨ラーメンなど定番居酒屋メニューを提供。非ハラル。",
     "tags": [
       "居酒屋",
-      "日本酒"
+      "焼き鳥",
+      "おでん",
+      "non-halal"
     ],
-    "hours": "Monday: 12:00 – 3:00 PM, 5:00 PM – 12:00 AM / Tuesday: 12:00 – 3:00 PM, 5:00 PM – 12:00 AM / Wednesday: Closed / Thursday: 12:00 – 3:00 PM, 5:00 PM – 12:00 AM / Friday: 12:00 – 3:00 PM, 5:00 PM – 12:00 AM / Saturday: 12:00 – 3:00 PM, 5:00 PM – 12:00 AM / Sunday: 12:00 – 3:00 PM, 5:00 PM – 12:00 AM",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
+    "hours": "Wednesday: Closed / Monday-Tuesday, Thursday-Sunday: 12:00-15:00, 17:00-24:00",
+    "last_verified": "2026-04-14",
+    "status": "verified",
     "source": "google_maps",
     "place_id": "ChIJ9zF9QYZLzDERI5eT0Q9g8k4",
     "priority": 0,
@@ -22327,7 +22345,16 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "place_reviewed": true
+    "place_reviewed": true,
+    "detail": "Old Klang Road沿いのカンポンパシルに位置する「東京横丁」。東京の路地裏居酒屋をテーマに、提灯・レンガ壁・木製テーブルで本格的な雰囲気を再現している。おでん（具材セルフ選択）、焼き鳥（鶏レバー・鶏皮・銀杏・アスパラなど多種）、から揚げ（RM28）、豚骨ブラックラーメン、天丼（RM30）など定番和食メニューを揃える。価格帯はRM15〜30前後でリーズナブル。Googleレビュー平均4.2（150件超）。アルコール提供あり・豚肉使用のため非ハラル。水曜定休。",
+    "menu_highlights": [
+      "おでん（具材セルフ選択）",
+      "焼き鳥5本セット RM25",
+      "から揚げ RM28",
+      "豚骨ブラックラーメン",
+      "天丼 RM30"
+    ],
+    "price_range": "RM15〜RM30"
   },
   {
     "slug": "tonari-japanese-food-and-kushiyaki-restaurant",

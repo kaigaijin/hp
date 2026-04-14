@@ -457,10 +457,10 @@
     "address": "UK Online",
     "lat": null,
     "lng": null,
-    "phone": null,
-    "email": null,
+    "phone": "+81120480081",
+    "email": "info@jluggage.com",
     "website": "https://www.jluggage.com/touk_e.html",
-    "description": "日本からUKへの引越・荷物配送専門サービス。日英バイリンガルカスタマーサービスを提供。UK在住日本人が日本から荷物を取り寄せる際にも利用できる。",
+    "description": "日本↔イギリス間の荷物・引越し輸送サービス「Japan Luggage Express」。1995年設立、30年以上の英国向け実績を持つ日系専門業者。航空便（約900円/kg〜）・海上便ともに対応し、日英バイリンガルスタッフが通関手続きもサポート。",
     "tags": [
       "国際引越",
       "荷物発送",
@@ -468,8 +468,8 @@
       "日英輸送"
     ],
     "hours": "Mon-Fri 9:00-17:30",
-    "last_verified": "2026-04-05",
-    "status": "unverified",
+    "last_verified": "2026-04-14",
+    "status": "verified",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
@@ -480,7 +480,16 @@
     "price_level": null,
     "photo_name": null,
     "category": "moving",
-    "place_reviewed": true
+    "place_reviewed": true,
+    "detail": "1995年設立の日本↔イギリス間専門輸送会社。航空便はロンドン・ヒースロー行き900円/kg〜（最低45kg）、その他UK空港宛980円/kg〜で対応。海上便（サウサンプトン港着）はコンテナ混載（LCL）で週次運航。ドアツードア対応で個人・法人・大使館の利用実績あり。英国通関のTransfer of Residence（ToR）申請サポートで引越し荷物の免税輸入手続きも代行。日英バイリンガルスタッフが常駐し、帰国・移住・留学時の荷物送付から大型家財の輸送まで幅広く対応。",
+    "menu_highlights": [
+      "航空便 約900円/kg〜（ロンドン行き）",
+      "海上便（サウサンプトン港着）",
+      "ドアツードア対応",
+      "英国通関（ToR申請）サポート",
+      "日英バイリンガル対応"
+    ],
+    "price_range": "航空便 900〜980円/kg（最低45kg）"
   },
   {
     "slug": "shipit-uk-japan",
