@@ -28,38 +28,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "fragomen-japan-practice",
-    "name": "Fragomen (Japan Practice)",
-    "name_ja": "フラゴメン ジャパンプラクティス",
-    "area": "London",
-    "address": null,
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.fragomen.com/",
-    "description": "世界最大級の移民法専門法律事務所。日本人ソリシターが在英日系企業向けにビザ・入国管理に関する法務アドバイスを提供。",
-    "tags": [
-      "日本語対応",
-      "移民法",
-      "ビザ",
-      "入国管理"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "japanese-embassy-london-consular",
@@ -85,7 +55,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "jetro-london",
@@ -111,38 +82,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "lme-legal-japan-practice",
-    "name": "Lewis Mathys Emmerson LLP (LME Legal)",
-    "name_ja": "LMEリーガル",
-    "area": "London",
-    "address": null,
-    "lat": null,
-    "lng": null,
-    "phone": "+442079932161",
-    "website": "https://lme-legal.com/japan-practice/",
-    "description": "パートナー・スタッフの大半が日本語堪能な英国法律事務所。マネージングパートナーは日本で20年以上の実務経験。M&A、データ保護、テクノロジー法、雇用法、資本市場に対応。",
-    "tags": [
-      "日本語対応",
-      "企業法務",
-      "M&A",
-      "データ保護"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
     "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "place_reviewed": true
   },
   {
     "slug": "mori-hamada-matsumoto-london",
@@ -173,7 +114,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nagashima-ohno-tsunematsu-london",
@@ -198,7 +140,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "nishimura-asahi-london",
@@ -229,7 +172,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tmi-associates-london",
@@ -254,7 +198,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "anderson-mori-tomotsune-london",
@@ -286,40 +231,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "legal"
-  },
-  {
-    "slug": "brian-harris-co-london",
-    "name": "Brian Harris & Co Solicitors",
-    "name_ja": "ブライアン ハリス＆コー ソリシターズ",
-    "area": "Mayfair",
-    "address": "London W1",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "email": null,
-    "website": "https://www.brianharrislaw.com/",
-    "description": "ロンドン・ウェストエンド拠点の国際専門法律事務所。日本語担当ソリシターのHiroko Takeuchi弁護士が在籍し、在英日本人の個人・ビジネス案件（会社法・雇用法・移民・不動産・プライベートクライアント）を日本語でサポート。",
-    "tags": [
-      "日本語対応",
-      "個人法務",
-      "企業法務",
-      "移民・ビザ",
-      "日本語弁護士在籍"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "legal"
+    "category": "legal",
+    "place_reviewed": true
   },
   {
     "slug": "lme-legal-japan",
@@ -352,104 +265,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "legal"
-  },
-  {
-    "slug": "newsdigest-solicitors-guide",
-    "name": "News Digest Solicitors Guide",
-    "name_ja": "英国ニュースダイジェスト 法律事務所ガイド",
-    "area": "Online",
-    "address": "UK Online",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "email": null,
-    "website": "https://guide.news-digest.co.uk/solicitors-accountants-visa-advisories/solicitors/",
-    "description": "在英日本人向け情報誌「英国ニュースダイジェスト」の法律事務所ガイド。ロンドンの日系・日本語対応法律事務所のリストを日本語で一覧できる在英日本人向けリソース。",
-    "tags": [
-      "日本語情報",
-      "法律事務所リスト",
-      "在英日本人向け"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "legal"
-  },
-  {
-    "slug": "japanese-embassy-london-legal",
-    "name": "Embassy of Japan UK (Legal Aid Guide)",
-    "name_ja": "在英日本国大使館（法的支援案内）",
-    "area": "Piccadilly",
-    "address": "101-104 Piccadilly, London W1J 7JT",
-    "lat": null,
-    "lng": null,
-    "phone": "+442074650500",
-    "email": null,
-    "website": "https://www.uk.emb-japan.go.jp/itprtop_ja/index.html",
-    "description": "在英日本国大使館の法律相談・緊急連絡サービス。英国での法的トラブル（逮捕・事故・相続等）に直面した在英日本人が最初に相談できる公的窓口。弁護士紹介制度も活用可能。",
-    "tags": [
-      "日本語対応",
-      "公的機関",
-      "法律相談",
-      "緊急連絡",
-      "在英日本人向け"
-    ],
-    "hours": "月〜金 9:15〜12:00（領事窓口）",
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "legal"
-  },
-  {
-    "slug": "jetro-london-legal",
-    "name": "JETRO London (Legal Consultation)",
-    "name_ja": "JETROロンドン（法務相談）",
-    "area": "City of London",
-    "address": "Cheapside House, 138 Cheapside, London EC2V 6BJ",
-    "lat": null,
-    "lng": null,
-    "phone": "+442074218300",
-    "email": null,
-    "website": "https://www.jetro.go.jp/uk/",
-    "description": "JETROロンドン事務所の法務相談窓口。英国の商事法・会社法・労働法・規制法等について日本語で無料相談が可能。英国進出の日系企業・個人事業主が弁護士を探す前の最初の情報収集先として活用できる。",
-    "tags": [
-      "日本語対応",
-      "公的機関",
-      "法務相談",
-      "無料相談",
-      "日系企業向け"
-    ],
-    "hours": "月〜金 9:00〜17:00",
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "legal"
+    "category": "legal",
+    "place_reviewed": true
   },
   {
     "slug": "sugiyama-and-co-solicitors",
@@ -484,7 +301,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "withers-llp-london-japan",
@@ -519,7 +337,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "bjla-british-japanese-law",
@@ -553,7 +372,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "fieldfisher-japan-practice-london",
@@ -586,7 +406,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "herbert-smith-freehills-japan-london",
@@ -619,7 +440,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "stephen-yiu-notary-london",
@@ -652,7 +474,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "rosetta-translation-london-japanese",
@@ -684,7 +507,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "bird-bird-japan-immigration-london",
@@ -716,7 +540,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "linklaters-japan-practice-london",
@@ -748,7 +573,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "freshfields-japan-practice-london",
@@ -780,7 +606,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "clifford-chance-japan-practice-london",
@@ -813,7 +640,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ao-shearman-japan-practice-london",
@@ -845,40 +673,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "atsumi-sakai-europe-london",
-    "name": "Atsumi & Sakai Europe Limited",
-    "name_ja": "渥美坂井法律事務所ヨーロッパ",
-    "area": "City of London",
-    "address": "85 Gresham Street, London EC2V 7NQ",
-    "phone": "+442036966540",
-    "email": "info_uk@aplaw.jp",
-    "website": "https://www.aplawjapan.com/en/offices/london",
-    "source_url": "https://www.aplawjapan.com/en/offices/london",
-    "description": "2015年に欧州初の独立拠点を開設した日本の大手法律事務所・渥美坂井のロンドンオフィス。M&A、金融規制、コーポレート案件を中心に英国・欧州での日系企業の法務をサポート。",
-    "detail": "日本の大手法律事務所・渥美坂井法律事務所の欧州法人として2015年に設立。日本の法律事務所として初めて独立したロンドン拠点を開設した先駆的存在。M&A・合弁・上場企業案件・金融規制・コーポレートガバナンスを専門とし、英国・欧州における日系企業の法務全般を日本語で対応。グローバルな視点と日本法の知識を組み合わせたクロスボーダー案件を多数手がける。パートナーは金兼直樹氏。",
-    "menu": [],
-    "price_range": null,
-    "tags": [
-      "日本語対応",
-      "日系法律事務所",
-      "M&A",
-      "コーポレート",
-      "金融規制"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-04-05",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "goodwins-family-law-solicitors",
@@ -911,7 +707,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "brookman-solicitors-japan",
@@ -944,7 +741,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "laura-devine-immigration-london",
@@ -977,7 +775,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "brian-harris-co-london-japanese",
@@ -1010,7 +809,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kingsley-napley-immigration-london",
@@ -1043,40 +843,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "atsumi-sakai-london-legal",
-    "name": "Atsumi & Sakai Law Offices London",
-    "name_ja": "渥美坂井法律事務所 ロンドン事務所",
-    "area": "London",
-    "address": "London, United Kingdom",
-    "phone": null,
-    "email": null,
-    "website": "https://www.aplawjapan.com/en/offices/london",
-    "source_url": "https://www.aplawjapan.com/en/offices/london",
-    "description": "日本系法律事務所の英国オフィス。移民法、企業法務の日本語対応相談。駐在員・日系企業向け。",
-    "detail": "渥美坂井法律事務所はロンドンに独立オフィスを構える日本の大手法律事務所。英国移民法、会社設立・税務について日本語での相談が可能。",
-    "menu": null,
-    "price_range": null,
-    "tags": [
-      "法律相談",
-      "移民法",
-      "会社設立",
-      "日本語対応"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-04-06",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
     "photo_name": null,
-    "phone_local": null
+    "place_reviewed": true
   },
   {
     "slug": "fragomen-japan-practice-london",
@@ -1109,34 +877,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "phone_local": null
-  },
-  {
-    "slug": "clifford-chance-london",
-    "name": "Clifford Chance",
-    "name_ja": "クリフォード・チャンス ロンドン",
-    "area": "City of London",
-    "address": "10 Upper Bank Street, London E14 5JJ",
-    "phone": "+442070066000",
-    "website": "https://www.cliffordchance.com/locations/london.html",
-    "description": "グローバル法律事務所のロンドン本部。M&A・キャピタルマーケット・日本企業向け法務に対応。日本語サポート可。",
-    "tags": [
-      "法律事務所",
-      "M&A対応"
-    ],
-    "hours": "平日9:00-18:00",
-    "last_verified": "2026-04-06",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
     "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "place_reviewed": true
   },
   {
     "slug": "mori-hamada-butsuryu-london",
@@ -1170,6 +912,7 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   }
 ]
