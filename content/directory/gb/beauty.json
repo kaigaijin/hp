@@ -1,66 +1,5 @@
 [
   {
-    "slug": "aube-international-london",
-    "name": "Aube International Hair Salon",
-    "name_ja": "オーブ インターナショナル ヘアサロン",
-    "area": "Mayfair",
-    "address": "48 Maddox Street, London W1S 1AY",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://aube-london.com/",
-    "description": "日本国内に250店舗以上、海外に15店舗を展開するAUBE Hair Groupのロンドン店。日本の美容技術を提供。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト",
-      "チェーン"
-    ],
-    "hours": "Tue-Wed, Fri-Sun 9:00-20:00",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "aube-international-london-mayfair",
-    "name": "Aube International London",
-    "name_ja": "オーブ インターナショナル ロンドン",
-    "area": "Mayfair",
-    "address": "48 Maddox Street, London W1S 1AY",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://aube-london.com/",
-    "description": "日本国内250店舗以上を展開するAUBE Hair GroupのMayfairロンドン店。日本の最新ヘアカラー・デジタルパーマ技術を提供。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト",
-      "カラー",
-      "デジタルパーマ"
-    ],
-    "hours": "Tue-Sun 9:00-20:00",
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
     "slug": "camiyui-london",
     "name": "Camiyui London",
     "name_ja": "かみゆい ロンドン",
@@ -88,7 +27,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "cona-lash-nail-london",
@@ -119,38 +59,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "figaro-japanese-nail-art",
-    "name": "Figaro London",
-    "name_ja": "フィガロ ロンドン",
-    "area": "Old Street",
-    "address": "14 Old Street, London EC1V 9HL",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://figarolondon.uk/",
-    "description": "オールドストリート近くにある多国籍スタッフ在籍のヘア＆ビューティーサロン。日本式ネイルアートのスペシャリストが在籍し、繊細な日本伝統のネイルデザインを提供。",
-    "tags": [
-      "ネイルアート",
-      "ヘアサロン",
-      "日本式ネイル",
-      "日系サロン"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hari-hair-studio",
@@ -181,38 +91,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "hayato-london",
-    "name": "HAYATO London",
-    "name_ja": "ハヤト ロンドン",
-    "area": "Covent Garden",
-    "address": "159 Drury Lane, Covent Garden, London WC2B 5QG",
-    "lat": null,
-    "lng": null,
-    "phone": "+442072427877",
-    "website": "https://en.hayatosalons.com/page/london/",
-    "description": "1992年創業のHAYATOグループのロンドン店。東京・ニューヨーク・ロンドンに展開する日系ヘアサロン。日本人スタイリストによるカット、ダメージレスカラー、デジタルパーマ、縮毛矯正、ジャパニーズヘッドスパを提供。ネイル・アイラッシュサービスも併設。Fresha Best in Classを5年連続受賞。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト",
-      "ヘッドスパ",
-      "ネイル"
-    ],
-    "hours": "Mon-Sun 10:00-19:00",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hiro-miyoshi-green-park",
@@ -224,7 +104,7 @@
     "lng": null,
     "phone": null,
     "website": "https://hiromiyoshi.com/",
-    "description": "メイフェアのGreen Park近くにあるHiro Miyoshiの支店。おもてなしの精神を大切にする日系高級ヘアサロン。OribeやShu Uemuraのヘアプロダクトも販売。",
+    "description": "メイフェアのGreen Park近くにあるHiro Miyoshiの支店。日本の「おもてなし」精神を大切にする高級日系ヘアサロン。OribeやShu Uemuraのヘアプロダクトも販売。",
     "tags": [
       "ヘアサロン",
       "日本人スタイリスト",
@@ -243,98 +123,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "hiro-miyoshi-mayfair",
-    "name": "Hiro Miyoshi",
-    "name_ja": "ヒロ ミヨシ",
-    "area": "Mayfair",
-    "address": "63 Curzon Street, London W1J 8PD",
-    "lat": null,
-    "lng": null,
-    "phone": "+442074938286",
-    "website": "https://hiromiyoshi.com/",
-    "description": "「おもてなし」の精神を掲げる日系高級ヘアサロン。Mayfairに複数店舗（Curzon Street、Green Park、The Londoner、Lansdowne Club）を展開。Tatler誌「Outstanding Scissoring」受賞。Oribe、Shu Uemuraなどのプレミアムヘアプロダクトも販売。カタール・ドーハにも進出。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト",
-      "高級",
-      "おもてなし"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "j-moriyama-city",
-    "name": "J Moriyama Hair Design City",
-    "name_ja": "Jモリヤマ ヘアデザイン シティ店",
-    "area": "City of London",
-    "address": "70 Queen Victoria Street, London EC4N 4SJ",
-    "lat": null,
-    "lng": null,
-    "phone": "+442072480880",
-    "website": "https://jmoriyama.com/",
-    "description": "シティに位置するJ Moriyama Hair Designのシティ支店。日系ヘアサロンとして1999年創業の実績を持ち、日本人スタイリストによる丁寧なサービスを提供。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト",
-      "老舗"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "j-moriyama-hair-design-marylebone",
-    "name": "J Moriyama Hair Design",
-    "name_ja": "Jモリヤマ ヘアデザイン",
-    "area": "Marylebone",
-    "address": "58 Upper Montagu Street, London W1H 1SN",
-    "lat": null,
-    "lng": null,
-    "phone": "+442077248860",
-    "website": "https://jmoriyama.com/",
-    "description": "1999年に森山順子氏が創業した日系ヘアサロン。日本の美容技術を提供。City店（70 Queen Victoria Street）もあり。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト",
-      "老舗"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mosaique-london",
@@ -363,7 +153,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "muse-of-london",
@@ -393,38 +184,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "my-snug-room",
-    "name": "MY SNUG ROOM",
-    "name_ja": "マイ スナッグルーム",
-    "area": "Soho",
-    "address": "3 D'Arblay Street, Soho, London W1F 8DH",
-    "lat": null,
-    "lng": null,
-    "phone": "+442072913670",
-    "website": "https://my-snug-room.co.uk/",
-    "description": "Soho中心部にある日系ヘアサロン。デジタルパーマ、コールドパーマ、縮毛矯正を専門とする。Tottenham Court Road駅・Oxford Circus駅から徒歩圏内。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト",
-      "デジタルパーマ",
-      "縮毛矯正"
-    ],
-    "hours": "Mon-Sat 10:00-19:00",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "naru-hair-salon",
@@ -454,7 +215,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tokyo-nailya-london",
@@ -485,38 +247,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "tomoyuki-and-co",
-    "name": "Tomoyuki & Co",
-    "name_ja": "トモユキ＆コー",
-    "area": "Fitzrovia",
-    "address": "62 Great Titchfield Street, London W1W 7QQ",
-    "lat": null,
-    "lng": null,
-    "phone": "+442075800217",
-    "website": "https://www.tomoyukiandco.com/",
-    "description": "フィッツロビアにある日系ヘア＆ビューティーサロン。バレイヤージュ、縮毛矯正、ジェルネイル、アイラッシュエクステンションを提供。Oxford Circus駅から徒歩圏内。",
-    "tags": [
-      "ヘアサロン",
-      "ネイル",
-      "アイラッシュ",
-      "日本人スタイリスト"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yuki-of-london-fitzrovia",
@@ -547,7 +279,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shunji-covent-garden",
@@ -572,7 +305,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "shunji-fitzrovia",
@@ -597,7 +331,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "alfie-hair-london",
@@ -622,81 +357,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "tokito-hair-shoreditch",
-    "name": "TOKITO Hair",
-    "name_ja": "トキト ヘア",
-    "area": "Shoreditch",
-    "address": "6 Hackney Road, London E2 7NS",
-    "phone": "+442034891500",
-    "email": "info@tokitohair.com",
-    "website": "https://www.tokitohair.com/",
-    "source_url": "https://www.tokitohair.com/",
-    "description": "ショーディッチにある完全一対一制の日系ヘアサロン。日本人スタイリストのHiro Hirataが主宰し、2024年London Hair & Beauty Awardsを受賞。プレシジョンカットに定評がある。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト",
-      "受賞歴あり"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-04-04",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "assort-london-shoreditch",
-    "name": "ASSORT London",
-    "name_ja": "アソート ロンドン",
-    "area": "Shoreditch",
-    "address": "81a Redchurch Street, London E2 7DJ",
-    "phone": "+447468903971",
-    "email": null,
-    "website": "https://uk.assort-hair.com/",
-    "source_url": "https://uk.assort-hair.com/",
-    "description": "ショーディッチにある日系ヘアサロン。東京・アソートインターナショナルの海外拠点で、日本人バイリンガルスタイリストによるプレシジョンカット・デジタルパーマ・カラーを提供。水〜日曜営業。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト",
-      "デジタルパーマ",
-      "バイリンガル対応"
-    ],
-    "hours": "Wed-Sun 10:00-18:00",
-    "status": "unverified",
-    "last_verified": "2026-04-04",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "baroque-hair-nails-mayfair",
-    "name": "BAROQUE Hair and Nails",
-    "name_ja": "バロック ヘアアンドネイルズ",
-    "area": "Mayfair",
-    "address": "4 Pollen Street, London W1S 1ND",
-    "phone": "+442076293940",
-    "email": null,
-    "website": "https://www.baroque-hn.com/",
-    "source_url": "https://www.baroque-hn.com/",
-    "description": "2008年創業のメイフェアにある日系ヘア＆ネイルサロン。日本語専用回線を設置し、縮毛矯正・デジタルパーマ・ネイル・まつ毛サービスを日英バイリンガルで提供。",
-    "tags": [
-      "ヘアサロン",
-      "ネイル",
-      "日本語対応",
-      "まつ毛"
-    ],
-    "hours": "Tue-Sun 10:00-21:00",
-    "status": "unverified",
-    "last_verified": "2026-04-04",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "muku-hair-shoreditch",
@@ -708,7 +370,7 @@
     "email": "shoreditch@mukuhair.co.uk",
     "website": "https://mukuhair.com/",
     "source_url": "https://mukuhair.com/",
-    "description": "2006年創業の日系ヘアサロン。日本人スタイリストが多数在籍し、縮毛矯正・カット・カラーを提供。Shoreditch High Street駅至近。",
+    "description": "2006年創業の日系ヘアサロン。Shoreditch High Street駅至近で、日本人スタイリスト多数在籍。縮毛矯正・Olaplex・カット・カラーを提供。ダルストン・Commercial Streetにも展開。",
     "tags": [
       "ヘアサロン",
       "日本人スタイリスト",
@@ -721,7 +383,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "muku-hair-dalston",
@@ -733,7 +396,7 @@
     "email": "dalston@mukuhair.co.uk",
     "website": "https://mukuhair.com/",
     "source_url": "https://mukuhair.com/",
-    "description": "Muku Hairのダルストン店。日本人スタイリスト在籍のヴィーガン対応日系ヘアサロン。縮毛矯正・Olaplex・カラーを提供。Kingsland Road沿いに位置。",
+    "description": "Muku Hairのダルストン店。日本人スタイリスト在籍のヴィーガン対応日系ヘアサロン。縮毛矯正・Olaplex・カラーを提供。Kingsland Road沿い。",
     "tags": [
       "ヘアサロン",
       "日本人スタイリスト",
@@ -746,7 +409,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "muku-hair-commercial-street",
@@ -758,7 +422,7 @@
     "email": "commercial@mukuhair.co.uk",
     "website": "https://mukuhair.com/",
     "source_url": "https://mukuhair.com/",
-    "description": "スピタルフィールズにあるMuku Hairの3号店。日本人スタイリスト在籍で縮毛矯正・カット・カラーを提供。Liverpool Street駅・Aldgate East駅から徒歩圏内。",
+    "description": "スピタルフィールズにあるMuku Hairの3号店。日本人スタイリスト在籍で縮毛矯正・カット・カラーを提供。Liverpool Street駅・Aldgate East駅至近。",
     "tags": [
       "ヘアサロン",
       "日本人スタイリスト",
@@ -770,7 +434,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "ht-salon-marylebone",
@@ -794,7 +459,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "hiro-shimamoto-fulham",
@@ -818,7 +484,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "hikari-salon-islington",
@@ -830,7 +497,7 @@
     "email": null,
     "website": "https://www.hikarisalon.co.uk/",
     "source_url": "https://www.hikarisalon.co.uk/",
-    "description": "エンジェル・イズリントンにある日本のおもてなし精神を取り入れたヘア＆ビューティーサロン。Yuko System縮毛矯正・カラー・ケラチン等を提供。シャンプー時のマッサージチェアも完備。",
+    "description": "エンジェル・イズリントンにある日本のおもてなし精神を取り入れたヘア＆ビューティーサロン。Yuko System縮毛矯正・カラー・ケラチン等を提供。10年以上地域に根ざす。",
     "tags": [
       "ヘアサロン",
       "縮毛矯正",
@@ -842,7 +509,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "roku-salon-edinburgh",
@@ -867,7 +535,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "my-snug-room-soho",
@@ -881,7 +550,7 @@
     "email": "info@my-snug-room.co.uk",
     "website": "https://my-snug-room.co.uk/",
     "source_url": "https://my-snug-room.co.uk/",
-    "description": "ソーホー中心部の日系美容室。日本式縮毛矯正・デジタルパーマを得意とし、10年以上の実績。日本人スタイリストが在籍し、オックスフォードサーカスから徒歩圏内。月〜土営業。",
+    "description": "ソーホー中心部の日系ヘアサロン。日本式縮毛矯正・デジタルパーマを得意とし10年以上の実績。日本人スタイリスト在籍。Oxford Circus・Tottenham Court Road駅から徒歩圏内。",
     "tags": [
       "日本式ヘアサロン",
       "縮毛矯正",
@@ -895,7 +564,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "uka-hair-london",
@@ -922,7 +592,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "baroque-hair-nails",
@@ -936,7 +607,7 @@
     "email": null,
     "website": "https://www.baroque-hn.com/",
     "source_url": "https://www.baroque-hn.com/salons/baroquehairandnails-en/",
-    "description": "2008年創業のメイフェア発日系サロン。表参道にも姉妹店を持つ。日本語専用ライン（020 7491 2209）あり。カット・カラー・パーマに加えネイル・まつエクも対応。オックスフォードサーカスから徒歩圏内。",
+    "description": "2008年創業のメイフェア日系サロン。表参道に姉妹店を持ち、日本語専用ライン（020 7491 2209）あり。カット・カラー・パーマに加えネイル・まつエクも対応。",
     "tags": [
       "日本式ヘアサロン",
       "日本語対応",
@@ -950,7 +621,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "shunji-hair-makeup",
@@ -978,7 +650,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "camiyui",
@@ -1005,7 +678,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "malishi-hairdesign",
@@ -1031,7 +705,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "ticro-hair",
@@ -1057,7 +732,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "shiroma-hairdressing",
@@ -1085,7 +761,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "eton-crop",
@@ -1112,7 +789,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "bhc-hair",
@@ -1138,11 +816,12 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "j-moriyama-baker-street",
-    "name": "J Moriyama Hair Design (Baker Street)",
+    "name": "J Moriyama Hair Design (Marylebone)",
     "name_ja": "J モリヤマ ヘアデザイン ベーカーストリート店",
     "area": "Marylebone",
     "address": "58 Upper Montagu Street, London W1H 1FP",
@@ -1152,7 +831,7 @@
     "email": null,
     "website": "https://jmoriyama.com/",
     "source_url": "https://jmoriyama.com/english/find-us",
-    "description": "1999年Junko Moriyamaが創業したロンドン老舗日系サロン。ベーカーストリート駅近くが本店。日本のヘアドレッシング技術を中心ロンドンで25年以上提供し続ける実績あり。",
+    "description": "1999年創業のロンドン老舗日系サロン。マリルボーン・ベーカーストリート駅近くが本店。日本のヘアドレッシング技術を中心ロンドンで25年以上提供している。",
     "tags": [
       "日本式ヘアサロン",
       "マリルボーン",
@@ -1165,7 +844,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "j-moriyama-bank",
@@ -1179,7 +859,7 @@
     "email": null,
     "website": "https://jmoriyama.com/",
     "source_url": "https://jmoriyama.com/english/find-us",
-    "description": "バンク駅直近のシティに位置するJ Moriyamaの2店舗目。2006年1月開業。Queen Victoria Streetのシティオフィス街に位置し、駐在員に便利な日系ヘアサロン。",
+    "description": "バンク駅直近のシティに位置するJ Moriyamaのシティ支店。2006年1月開業。Queen Victoria Streetのオフィス街に位置し、駐在員に広く利用される日本式ヘアサロン。",
     "tags": [
       "日本式ヘアサロン",
       "シティ",
@@ -1192,7 +872,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "atelier-theory",
@@ -1219,7 +900,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "haco-hair-shoreditch",
@@ -1233,7 +915,7 @@
     "email": "info@hacohairsalon.com",
     "website": "https://www.hacogroup.online/london-hair",
     "source_url": "https://www.hacogroup.online/london-hair",
-    "description": "日本人クリエイティブディレクターKanaeが率いるショーディッチの日系クリエイティブヘアサロン。Vogue等掲載実績あり。デジタルパーマ専門。ホクストンにも姉妹店あり。",
+    "description": "日本人クリエイティブディレクターKanaeが率いるショーディッチの日系ヘアサロン。Vogue等掲載実績あり。デジタルパーマ専門。ホクストンにも姉妹店あり。",
     "tags": [
       "日本式ヘアサロン",
       "ショーディッチ",
@@ -1247,7 +929,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "haco-hair-hoxton",
@@ -1261,7 +944,7 @@
     "email": "hoxton@hacohairsalon.com",
     "website": "https://www.hacogroup.online/",
     "source_url": "https://www.hacogroup.online/london-hair",
-    "description": "ホクストンの日系ヘア＆ネイルサロン。ショーディッチの本店と同じ日本人クリエイティブディレクターKanaeのサロン。ヘアに加えネイルサービスも提供。",
+    "description": "ホクストンの日系ヘア＆ネイルサロン。ショーディッチと同じ日本人クリエイティブディレクターKanaeが運営。ヘアに加えネイルサービスも提供。",
     "tags": [
       "日本式ヘアサロン",
       "ホクストン",
@@ -1274,7 +957,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "studio-stage-door",
@@ -1301,7 +985,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "jubilee-hair-salon",
@@ -1329,7 +1014,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "keisuke-hair-artists",
@@ -1343,7 +1029,7 @@
     "email": null,
     "website": "http://www.keisuke.co.uk/",
     "source_url": "https://www.keisuke.co.uk/",
-    "description": "1998年創業のロンドン最古参日系サロンのひとつ。アクトンタウン駅近くのGunnersbury Avenue沿い。日本人ヘアドレッサーが在籍しアジア系の髪質を熟知したカットが評判。",
+    "description": "1998年創業のロンドン最古参日系サロンのひとつ。アクトンタウン駅近く。日本人ヘアドレッサー在籍でアジア系の髪質を熟知。全メニューに首・肩マッサージが付帯。",
     "tags": [
       "日本式ヘアサロン",
       "アクトン",
@@ -1357,7 +1043,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "h-yoshi-hair-salon",
@@ -1384,7 +1071,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "assort-london",
@@ -1398,7 +1086,7 @@
     "email": null,
     "website": "https://uk.assort-hair.com/",
     "source_url": "https://uk.assort-hair.com/",
-    "description": "東京・大阪発の国際展開日系サロン「ASSORT」のロンドン店。ショーディッチのRedchurch Street沿いに位置。NY・メルボルン・香港にも展開。水〜日営業。",
+    "description": "東京・大阪発の国際展開日系サロン「ASSORT」のロンドン・ショーディッチ店。日本人バイリンガルスタイリストによるプレシジョンカット・デジタルパーマ・縮毛矯正を提供。",
     "tags": [
       "日本式ヘアサロン",
       "ショーディッチ",
@@ -1411,35 +1099,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "hiro-miyoshi-curzon",
-    "name": "Hiro Miyoshi (Curzon Street)",
-    "name_ja": "ヒロ ミヨシ カーゾンストリート店",
-    "area": "Mayfair",
-    "address": "63 Curzon Street, Mayfair, London W1J 8PD",
-    "lat": null,
-    "lng": null,
-    "phone": "+442074938286",
-    "email": null,
-    "website": "https://hiromiyoshi.com/",
-    "source_url": "https://hiromiyoshi.com/hiro-miyoshi-hair-salon-mayfair/",
-    "description": "メイフェアのラグジュアリー日系サロン旗艦店。日本のおもてなし精神を高級ヘア＆ビューティー業界に提供。日本式精密カットとカラーが特徴。ロンドン市内4店舗展開。",
-    "tags": [
-      "日本式ヘアサロン",
-      "メイフェア",
-      "ラグジュアリー",
-      "おもてなし",
-      "日本人スタイリスト"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-04",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "salon-ichini",
@@ -1453,7 +1114,7 @@
     "email": null,
     "website": "https://www.salon-ichini.com",
     "source_url": "https://www.salon-ichini.com",
-    "description": "ショーディッチの日本人ヘア＆メイクアップアーティストデュオ（Kentaro Kondo・Rumi Kagotani）が運営する独立系日系サロン。Sunbury Workshopsに位置。",
+    "description": "ショーディッチの日本人ヘア＆メイクアップアーティストデュオ（Kentaro Kondo・Rumi Kagotani）が運営するサロン。ハイファッション・高級サロンで10年以上の経験。",
     "tags": [
       "日本式ヘアサロン",
       "ショーディッチ",
@@ -1466,7 +1127,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "studio-path",
@@ -1480,7 +1142,7 @@
     "email": null,
     "website": "https://www.studio-path.com",
     "source_url": "https://www.studio-path.com",
-    "description": "ブリックレーンとベスナルグリーンロードの角に位置する日系ヘアサロン。2階に位置しRain Dog Bar隣接。月〜日11時〜20時（土日〜18時）でアクセスしやすい立地。",
+    "description": "ブリックレーンとベスナルグリーンロードの角に位置する日系ヘアサロン。日本人スタイリスト在籍でカット・カラー・パーマに対応。Shoreditch High Street駅から徒歩圏内。",
     "tags": [
       "日本式ヘアサロン",
       "ベスナルグリーン",
@@ -1493,7 +1155,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "tokito-hair",
@@ -1507,7 +1170,7 @@
     "email": null,
     "website": "https://www.tokitohair.com/",
     "source_url": "https://www.tokitohair.com/",
-    "description": "東京仕込みの技術を持つHiro Hirataが2014年に創業したショーディッチの日系サロン。20年以上の精密カット経験を持ち、London Hair & Beauty Awards 2024受賞。",
+    "description": "東京仕込みの技術を持つHiro Hirataが2014年に創業したショーディッチの日系サロン。完全一対一制で20年以上の精密カット経験。London Hair & Beauty Award受賞。",
     "tags": [
       "日本式ヘアサロン",
       "ショーディッチ",
@@ -1521,7 +1184,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "w-international-south-kensington",
@@ -1548,7 +1212,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "shogo-hampstead",
@@ -1576,7 +1241,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "hair-by-chico",
@@ -1604,80 +1270,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "hiro-miyoshi-londoner",
-    "name": "Hiro Miyoshi at The Londoner",
-    "name_ja": "ヒロ ミヨシ ザ ロンドナー店",
-    "area": "Leicester Square",
-    "address": "38 Leicester Square, London WC2H 7DX",
-    "lat": null,
-    "lng": null,
-    "phone": "+442074938286",
-    "email": null,
-    "website": "https://hiromiyoshi.com/hiro-miyoshi-at-the-londoner/",
-    "source_url": "https://hiromiyoshi.com/hiro-miyoshi-at-the-londoner/",
-    "description": "レスタースクエアのラグジュアリーホテル「The Londoner」内のHiro Miyoshiサロン。カット・カラー・ヘアトリートメント等を提供。日本のおもてなし精神とウェストエンドの上質な空間が融合。",
-    "tags": [
-      "日本式ヘアサロン",
-      "レスタースクエア",
-      "ラグジュアリーホテル内",
-      "おもてなし"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-04",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "j-moriyama-hair-design",
-    "name": "J Moriyama Hair Design",
-    "name_ja": "Jモリヤマ ヘアデザイン",
-    "area": "Marylebone",
-    "address": "58 Upper Montagu Street, London W1H 1SN",
-    "phone": "+442077248860",
-    "email": null,
-    "website": "https://jmoriyama.com/",
-    "source_url": "https://jmoriyama.com/",
-    "description": "1999年創業のロンドン老舗日本式ヘアサロン。マリルボーン・シティ等複数拠点で展開。完全予約制で日本語対応。",
-    "tags": [
-      "日本人スタイリスト",
-      "日本語対応"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-04-04",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "keisuke-hair-salon-acton",
-    "name": "Keisuke Japanese Hair Salon",
-    "name_ja": "ケイスケ 日本式ヘアサロン",
-    "area": "Acton",
-    "address": "3 Park Parade, Gunnersbury Avenue, Acton, London W3 9BD",
-    "phone": "+442083540506",
-    "email": null,
-    "website": "https://www.keisuke.co.uk/",
-    "source_url": "https://www.keisuke.co.uk/",
-    "description": "1998年創業の西ロンドン老舗日本式ヘアサロン。在英日本人に長年愛される存在で、全メニューに首・肩マッサージが無料付帯。",
-    "tags": [
-      "日本人スタイリスト",
-      "日本語対応"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-04-04",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "baica-hair-acton",
@@ -1687,9 +1281,9 @@
     "address": "38 Churchfield Road, London W3 6EB",
     "phone": "+447305988495",
     "email": null,
-    "website": "https://www.baicahairw.com/",
+    "website": "https://www.baicahairw.com",
     "source_url": "https://www.baicahairw.com/",
-    "description": "アクトンの日本式ヘアサロン。丁寧なカウンセリングと日本式技術で地元の日本人コミュニティに支持される。",
+    "description": "アクトン中心部の日本式ヘアサロン。丁寧なカウンセリングと日本式技術でカット・カラー・ヘッドスパを提供。Acton Central駅徒歩1分。",
     "tags": [
       "日本式技術"
     ],
@@ -1699,31 +1293,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "haco-hair-nails-hoxton",
-    "name": "Haco Hair + Nails Hoxton",
-    "name_ja": "ハコ ヘア＋ネイルズ ホクストン",
-    "area": "Hoxton",
-    "address": "31 Waterson Street, London E2 8HT",
-    "phone": "+447833534524",
-    "email": null,
-    "website": "https://www.hacogroup.online/",
-    "source_url": "https://www.hacogroup.online/",
-    "description": "ホクストンの日本式ヘア＆ネイル複合サロン。ヘアカラー・カット・ジェルネイルをワンストップで提供。日本製ジェル使用。",
-    "tags": [
-      "日本式技術",
-      "ネイル",
-      "カラー"
-    ],
-    "hours": "日〜月 10:00-20:00",
-    "status": "unverified",
-    "last_verified": "2026-04-04",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "goen-japanese-hair-spa",
@@ -1746,7 +1317,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "figaro-london-hair",
@@ -1758,7 +1330,7 @@
     "email": null,
     "website": "https://figarolondon.uk/",
     "source_url": "https://figarolondon.uk/",
-    "description": "オールドストリート近くの多機能ビューティーサロン。東京・NYで活躍した日本人ネイルアーティストが在籍し、日本式ネイルアートを提供。ヘア・マッサージも対応。",
+    "description": "オールドストリート近くのヘア＆ビューティーサロン。日本人ネイルアーティスト在籍で日本式ネイルアートを提供。カット・カラー・マッサージも対応。",
     "tags": [
       "日本人スタイリスト",
       "ネイルアート"
@@ -1769,7 +1341,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "eton-crop-london",
@@ -1793,7 +1366,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "aube-london",
@@ -1805,7 +1379,7 @@
     "email": null,
     "website": "https://aube-london.com/",
     "source_url": "https://aube-london.com/",
-    "description": "日本に250店舗以上を展開するAUBEグループのロンドン店。メイフェアに位置し、日本人スタイリストによるカット・カラー・縮毛矯正・ヘッドスパを提供。",
+    "description": "日本国内250店舗以上を展開するAUBEグループのロンドン店。メイフェアに位置し、日本人スタイリストによるカット・カラー・縮毛矯正・ヘッドスパを提供。",
     "tags": [
       "日系",
       "日本人スタイリスト",
@@ -1818,7 +1392,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "shiroma-hairdressing-salon",
@@ -1843,7 +1418,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "salon-328-edinburgh",
@@ -1868,7 +1444,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "camiyui-ealing",
@@ -1893,7 +1470,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "chrisalon-manchester",
@@ -1918,7 +1496,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "tokyo-hair-glasgow",
@@ -1942,7 +1521,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "match-hairdressing-cambridge",
@@ -1954,7 +1534,7 @@
     "email": null,
     "website": "https://www.matchhair.co.uk/",
     "source_url": "https://www.matchhair.co.uk/about-us",
-    "description": "ケンブリッジ中心部のブティックサロン。オーナーの千春さんは東京のヘアメイクスクール出身で日本での15年以上のキャリアを持つ。アジア系の直毛・太毛を得意とする。",
+    "description": "ケンブリッジ中心部の日本人オーナーサロン。オーナーの千春さんは東京出身で15年以上の経験を持つ。アジア系の直毛・太毛のカットを得意とする。",
     "tags": [
       "日本人オーナー",
       "アジア系ヘア専門",
@@ -1966,7 +1546,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "style-by-yumiko-bristol",
@@ -1990,7 +1571,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "equanimity-horsforth-leeds",
@@ -2002,7 +1584,7 @@
     "email": "equanimitystyle22@gmail.com",
     "website": "https://www.equanimitystyle.com/",
     "source_url": "https://www.equanimitystyle.com/about",
-    "description": "リーズ郊外ホースフォースにある日本人スタイリスト・タカが主宰するサロン。カット・カラーを得意とし、落ち着いた雰囲気でOlaplex使用。",
+    "description": "リーズ郊外ホースフォースの日本人スタイリスト・Takaが主宰するサロン。カット・カラーを得意とし落ち着いた雰囲気でOlaplex使用。リーズエリアに複数拠点あり。",
     "tags": [
       "日本人スタイリスト",
       "日本語対応"
@@ -2013,7 +1595,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "japonica-hair-brighton",
@@ -2025,7 +1608,7 @@
     "email": "hello@japonicahair.co.uk",
     "website": "https://www.japonicahair.co.uk/",
     "source_url": "https://www.japonicahair.co.uk/contact/",
-    "description": "ブライトン中心部のエコフレンドリーサロン。英国ベストヘアサロン2025受賞。日本文化からインスピレーションを得た植物由来のオーガニック製品を使用。",
+    "description": "ブライトン最優秀サロン2025受賞の環境配慮型サロン。日本のKansai Beauty College出身スタイリストSeiko在籍。Davines製品使用の日本インスパイア系ヘアケア。",
     "tags": [
       "オーガニック",
       "サステナブル",
@@ -2037,32 +1620,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "yuhei-hair-salon-hampstead",
-    "name": "Yuhei Hair Salon",
-    "name_ja": "ユーヘイ ヘアサロン ハムステッド",
-    "area": "Hampstead, London",
-    "address": "80 Heath Street, London NW3 1DN",
-    "phone": null,
-    "email": null,
-    "website": "https://www.yuhei.co.uk/",
-    "source_url": "https://www.yuhei.co.uk/about/",
-    "description": "ハムステッドの日本人スタイリスト・ユーヘイが2008年に開業。YUKO縮毛矯正のオフィシャルスペシャリストで、東京YUKOアカデミーの元トップ講師が在籍。",
-    "tags": [
-      "日本人スタイリスト",
-      "縮毛矯正",
-      "YUKO認定",
-      "日本語対応"
-    ],
-    "hours": "火〜土 10:00-18:00",
-    "status": "unverified",
-    "last_verified": "2026-04-05",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "jeju-hair-fitzrovia",
@@ -2086,7 +1645,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "msalon-lea-south-kensington",
@@ -2109,7 +1669,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "yu-la-putney",
@@ -2133,7 +1694,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "yuzu-hair-ealing",
@@ -2157,7 +1719,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "wood-hair-salon-birmingham",
@@ -2181,31 +1744,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "roku-salon-edinburgh-newington",
-    "name": "Roku Salon + Japanese Head Spa",
-    "name_ja": "ロク サロン エディンバラ",
-    "area": "Newington, Edinburgh",
-    "address": "6 Lord Russell Place, Edinburgh EH9 1NQ",
-    "phone": "+441316621551",
-    "email": "hello@rokusalon.com",
-    "website": "https://www.rokusalon.com/",
-    "source_url": "https://firmania.co.uk/edinburgh/roku-salon-japanese-head-spa-4067590",
-    "description": "エディンバラ・ニューイングトンのヘアサロン＆日本式ヘッドスパ専門店。日本の伝統的なスカルプケアとプロフェッショナルヘアドレッシングを融合させたサービスが人気。",
-    "tags": [
-      "日本式ヘッドスパ",
-      "スカルプケア",
-      "日本語対応"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-04-05",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "of-hair-and-art-edinburgh",
@@ -2229,7 +1769,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "jan-liu-hair-edinburgh",
@@ -2254,7 +1795,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "salon-106-nottingham",
@@ -2278,7 +1820,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "yume-hair-cardiff-cathays",
@@ -2301,7 +1844,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "yume-hair-cardiff-rhydypenau",
@@ -2323,7 +1867,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "sano-hair-islington",
@@ -2347,30 +1892,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "hikari-salon-angel",
-    "name": "Hikari Salon",
-    "name_ja": "ヒカリ サロン エンジェル",
-    "area": "Angel, Islington, London",
-    "address": "9 Theberton Street, London N1 0QY",
-    "phone": "+442073590103",
-    "email": null,
-    "website": "https://www.hikarisalon.co.uk/",
-    "source_url": "https://www.allinlondon.co.uk/directory/hair-beauty-salons/114054-hikari",
-    "description": "エンジェル駅近くのヘア＆ビューティーサロン。日本のおもてなし文化を取り入れた温かい接客が特徴。イズリントンに10年以上根ざす地域密着型サロン。",
-    "tags": [
-      "日本式おもてなし",
-      "ヘア＆ビューティー"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-04-05",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "purple-salon-highbury-islington",
@@ -2395,7 +1918,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "assort-london-marylebone",
@@ -2407,7 +1931,7 @@
     "email": null,
     "website": "https://uk.assort-hair.com/",
     "source_url": "https://uk.assort-hair.com/",
-    "description": "東京・NY・アムステルダム等に展開する国際日本系チェーンのロンドン店。マリルボンのチルターンストリートに位置し、プレシジョンカット・デジタルパーマ・縮毛矯正を提供。バイリンガルスタイリスト在籍。",
+    "description": "ASSORTのロンドン・マリルボーン店。東京・NY・アムステルダム等に展開する国際日本系チェーン。プレシジョンカット・デジタルパーマ・縮毛矯正を日英バイリンガルで提供。",
     "tags": [
       "日本人スタイリスト",
       "バイリンガル",
@@ -2421,7 +1945,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "naomi-hair-london-mobile",
@@ -2445,11 +1970,12 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "hayato-london-hair",
-    "name": "HAYATO LONDON",
+    "name": "HAYATO London",
     "name_ja": "ハヤト・ロンドン",
     "area": "Covent Garden",
     "address": "159 Drury Lane, London WC2B 5QG",
@@ -2457,7 +1983,7 @@
     "lng": null,
     "phone": "+442072427877",
     "website": "https://en.hayatosalons.com/page/london/",
-    "description": "コヴェントガーデンの受賞歴ある日本式ヘアサロン。ニューヨーク・東京・ロンドンで30年以上の実績。縮毛矯正・デジタルパーマ・ブリーチを日本式でダメージレスに施術。",
+    "description": "コベントガーデン・ドルリーレーン沿いの受賞歴ある日本式ヘアサロン。NY・東京・ロンドンで30年以上の実績。縮毛矯正・デジタルパーマ・ダメージレスカラーを提供。",
     "tags": [
       "ヘアサロン",
       "日本式ヘア",
@@ -2478,44 +2004,12 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "beauty"
-  },
-  {
-    "slug": "j-moriyama-hair-london",
-    "name": "J Moriyama Hair Design",
-    "name_ja": "Jモリヤマ ヘアデザイン",
-    "area": "Marylebone",
-    "address": "78 Marylebone Lane, London W1U 2PT",
-    "lat": null,
-    "lng": null,
-    "phone": "+442074863440",
-    "website": "https://jmoriyama.com/",
-    "description": "1999年創業のマリルボーン日本式ヘアサロン。日本式パーマ・カラーリングを得意とし、シアツーやマッサージも提供するユニセックスサロン。",
-    "tags": [
-      "ヘアサロン",
-      "日本式ヘア",
-      "パーマ",
-      "カラー",
-      "シアツー"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": "020 7486 3440",
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "beauty"
+    "category": "beauty",
+    "place_reviewed": true
   },
   {
     "slug": "tomoyuki-co-hair-london",
-    "name": "Tomoyuki & Co (Hair)",
+    "name": "Tomoyuki & Co",
     "name_ja": "トモユキ＆コー（ヘア）",
     "area": "Fitzrovia",
     "address": "62 Great Titchfield Street, London W1W 7QQ",
@@ -2523,7 +2017,7 @@
     "lng": null,
     "phone": "+442075800217",
     "website": "https://www.tomoyukiandco.com/",
-    "description": "オックスフォードサーカス近くの高級日本式ヘア＆ビューティーサロン。日本人スタイリスト・大塚友之が18年の経験を生かし、縮毛矯正やバレイヤージュを提供。",
+    "description": "フィッツロビアにある日系ヘア＆ビューティーサロン。日本人スタイリスト・大塚友之が18年の経験を生かし、縮毛矯正・バレイヤージュ・ネイル・アイラッシュを提供。",
     "tags": [
       "ヘアサロン",
       "日本式ヘア",
@@ -2544,267 +2038,12 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "beauty"
-  },
-  {
-    "slug": "aube-hair-london",
-    "name": "Aube International Hair Salon",
-    "name_ja": "オーブ・インターナショナル ヘアサロン",
-    "area": "Mayfair",
-    "address": "48 Maddox Street, London",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://aube-london.com/",
-    "description": "日本国内250店舗以上を展開するAubeグループのロンドン店。メイフェアに構え、日本人スタイリストによる精密なカットと縮毛矯正を提供する日本式美容室。",
-    "tags": [
-      "ヘアサロン",
-      "日本式ヘア",
-      "縮毛矯正",
-      "日本人スタイリスト"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "beauty"
-  },
-  {
-    "slug": "tokito-hair-london",
-    "name": "TOKITO Hair",
-    "name_ja": "トキトヘア",
-    "area": "Shoreditch",
-    "address": "6 Hackney Road, London E2 7NS",
-    "lat": null,
-    "lng": null,
-    "phone": "+442034891500",
-    "website": "https://www.tokitohair.com/",
-    "description": "ショーディッチの日本式精密ヘアサロン。Hiro Hirataによる一対一のプライベートスタジオで、クラシック・コンテンポラリーカットを丁寧に仕上げる。",
-    "tags": [
-      "ヘアサロン",
-      "日本式ヘア",
-      "プレミアムカット",
-      "日本人スタイリスト"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": "020 3489 1500",
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "beauty"
-  },
-  {
-    "slug": "salon-ichini-shoreditch",
-    "name": "Salon Ichini",
-    "name_ja": "サロン イチニ",
-    "area": "Shoreditch",
-    "address": null,
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.salon-ichini.com",
-    "description": "ショーディッチの日本式ヘア＆メイクサロン。日本人デュオKentaro KondoとRumi Kagotaniが運営し、ハイファッション・高級サロンで10年以上の経験を持つ。",
-    "tags": [
-      "ヘアサロン",
-      "日本式ヘア",
-      "メイクアップ",
-      "日本人スタイリスト"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "beauty"
-  },
-  {
-    "slug": "keisuke-hair-acton",
-    "name": "Keisuke Japanese Hair Salon",
-    "name_ja": "ケイスケ 日本式ヘアサロン",
-    "area": "Acton",
-    "address": "Park Parade, Gunnersbury Avenue, London W3 9BD",
-    "lat": null,
-    "lng": null,
-    "phone": "+442083540506",
-    "website": "https://www.keisuke.co.uk/",
-    "description": "アクトン・ガナーズバリーエリアの日本式ヘアサロン。ウェスト・ロンドン在住の日本人コミュニティに長年親しまれており、アジア系髪質への深い専門知識を持つ。",
-    "tags": [
-      "ヘアサロン",
-      "日本式ヘア",
-      "アジア系髪質",
-      "縮毛矯正"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": "020 8354 0506",
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "beauty"
-  },
-  {
-    "slug": "mai-salon-manchester",
-    "name": "MAI SALON",
-    "name_ja": "マイサロン マンチェスター",
-    "area": "Manchester",
-    "address": "32 Booth Street, Manchester M2 4AW",
-    "lat": null,
-    "lng": null,
-    "phone": "+441612365348",
-    "website": "https://www.maisalon.co.uk/",
-    "description": "マンチェスター市内中心部のガラス張り日本式ヘアサロン。カット・カラー・スタイリングを得意とし、在英マンチェスター日本人コミュニティのサポートサロン。",
-    "tags": [
-      "ヘアサロン",
-      "日本式ヘア",
-      "カラー",
-      "スタイリング"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": "0161 236 5348",
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "beauty"
-  },
-  {
-    "slug": "baroque-hair-london",
-    "name": "BAROQUE hair and nails (Hair)",
-    "name_ja": "バロック ヘアアンドネイルズ（ヘア）",
-    "area": "Mayfair",
-    "address": "4 Pollen St, London W1S 1ND",
-    "lat": null,
-    "lng": null,
-    "phone": "+442076293940",
-    "website": "https://www.baroque-hn.com/",
-    "description": "メイフェアの高級日本式ヘアサロン部門。日本語専用ラインあり（020 7491 2209）で、2008年創業。日本式スタイルと海外のトレンドを融合させた施術が人気。",
-    "tags": [
-      "ヘアサロン",
-      "日本式ヘア",
-      "日本語対応",
-      "カラー"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": "020 7629 3940",
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "beauty"
-  },
-  {
-    "slug": "muku-hair-shoreditch-high",
-    "name": "Muku Hair Shoreditch High Street",
-    "name_ja": "ムク ヘア ショーディッチ・ハイストリート",
-    "area": "Shoreditch",
-    "address": "109 Shoreditch High Street, London",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://mukuhair.com/",
-    "description": "ショーディッチ・ハイストリートのムク・ヘア3号店。日本式縮毛矯正・Olaplex・カット＆カラーを提供し、ショーディッチ・ハイストリート駅直近で利便性が高い。",
-    "tags": [
-      "ヘアサロン",
-      "縮毛矯正",
-      "カラー",
-      "Olaplex"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "beauty"
-  },
-  {
-    "slug": "j-moriyama-upper-montagu",
-    "name": "J Moriyama Hair Design (Upper Montagu St)",
-    "name_ja": "Jモリヤマ ヘアデザイン（アッパーモンタギュー店）",
-    "area": "Marylebone",
-    "address": "58 Upper Montagu Street, London W1H 1FP",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://jmoriyama.com/",
-    "description": "Jモリヤマの第2店舗。マリルボーンのアッパーモンタギューストリートに位置し、日本式パーマ・カラーリング・シアツーなどJモリヤマの全サービスを提供。",
-    "tags": [
-      "ヘアサロン",
-      "日本式ヘア",
-      "パーマ",
-      "カラー"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "beauty"
+    "category": "beauty",
+    "place_reviewed": true
   },
   {
     "slug": "hiro-miyoshi-mayfair-curzon",
-    "name": "Hiro Miyoshi Mayfair (Curzon Street)",
+    "name": "Hiro Miyoshi (Curzon Street)",
     "name_ja": "ヒロ・ミヨシ メイフェア カーゾンストリート",
     "area": "Mayfair",
     "address": "63 Curzon Street, London W1J 8PD",
@@ -2812,7 +2051,7 @@
     "lng": null,
     "phone": "+442074938286",
     "website": "https://hiromiyoshi.com/",
-    "description": "メイフェアの超高級日本式ヘアサロン旗艦店。ロンドンで最高峰と称される4店舗展開のブランドで、おもてなし精神に基づくカット・カラー・ヘッドスパを提供。",
+    "description": "メイフェアの旗艦店。「おもてなし」精神とTatler誌Outstanding Scissoring受賞の実績を持つ高級日系ヘアサロン。カット・カラー・ヘッドスパを提供。",
     "tags": [
       "ヘアサロン",
       "日本式ヘア",
@@ -2833,7 +2072,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "beauty"
+    "category": "beauty",
+    "place_reviewed": true
   },
   {
     "slug": "j-moriyama-marylebone-lane",
@@ -2845,7 +2085,7 @@
     "lng": null,
     "phone": "+442074863440",
     "website": "https://jmoriyama.com/",
-    "description": "1999年創業のマリルボーン日本式ヘアサロン。日本式パーマ・カラーリングを得意とし、シアツーやマッサージも提供するユニセックスサロン。在英日本人の実績豊富。",
+    "description": "1999年創業のマリルボーン日系ヘアサロン。日本式パーマ・カラーリングを得意とし、指圧マッサージも提供するユニセックスサロン。在英日本人の実績豊富。",
     "tags": [
       "ヘアサロン",
       "日本式ヘア",
@@ -2866,39 +2106,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "beauty"
-  },
-  {
-    "slug": "sanrizz-hendon",
-    "name": "Sanrizz Hendon",
-    "name_ja": "サンリッツ ヘンドン",
-    "area": "Hendon",
-    "address": "16 Parson Street, Hendon, London NW4 1QB",
-    "lat": null,
-    "lng": null,
-    "phone": "+442078238731",
-    "website": "https://sanrizz.co.uk/",
-    "description": "ヘンドンの日本式ヘアサロン。日本式カット・カラーを提供し、ヘンドン在住の日本人コミュニティ（ロンドン医療センター近隣）に親しまれているサロン。",
-    "tags": [
-      "ヘアサロン",
-      "日本式ヘア",
-      "カット",
-      "カラー"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": "020 7823 8731",
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "beauty"
+    "category": "beauty",
+    "place_reviewed": true
   },
   {
     "slug": "hiro-miyoshi-lansdowne",
@@ -2910,7 +2119,7 @@
     "lng": null,
     "phone": "+442074938286",
     "website": "https://hiromiyoshi.com/hiro-miyoshi-at-lansdowne/",
-    "description": "メイフェアの会員制プライベートクラブ内のヒロ・ミヨシ4号店。ウェルネスエリアに位置する非公開の高級ヘアサロンで、駐在員・ビジネス層に利用されている。",
+    "description": "メイフェアの会員制プライベートクラブ「Lansdowne Club」内のHiro Miyoshi。ウェルネスエリアに位置する高級日系ヘアサロン。駐在員・ビジネス層に利用される。",
     "tags": [
       "ヘアサロン",
       "日本式ヘア",
@@ -2930,7 +2139,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "beauty"
+    "category": "beauty",
+    "place_reviewed": true
   },
   {
     "slug": "yuzu-hair-beauty-ealing",
@@ -2962,69 +2172,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "beauty"
-  },
-  {
-    "slug": "tokito-hair-hackney",
-    "name": "Tokito Hair",
-    "name_ja": "トキト ヘア",
-    "area": "Shoreditch, London",
-    "address": "6 Hackney Road, London E2 7NS",
-    "lat": null,
-    "lng": null,
-    "phone": "+442034891500",
-    "website": "https://www.tokitohair.com/",
-    "description": "ショーディッチにある日本式ヘアカット専門サロン（Hiro Hirata）。日本の精密なカット技術をロンドンスタイルで提供。男女両対応。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト",
-      "日本式カット"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "beauty"
-  },
-  {
-    "slug": "studio-path-bethnal-green",
-    "name": "Studio PATH",
-    "name_ja": "スタジオ パス",
-    "area": "Bethnal Green, London",
-    "address": "2nd Floor, 120 Bethnal Green Road, London E2 6DG",
-    "lat": null,
-    "lng": null,
-    "phone": "+442077297588",
-    "website": "https://www.studio-path.com",
-    "description": "ブリックレーン角のビル2Fにある日系ヘアサロン。日本人スタイリストが在籍し、カット・カラー・パーマに対応。Shoreditch High Street駅から徒歩圏内。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト",
-      "カラー"
-    ],
-    "hours": "Mon-Fri 11:00-20:00, Sat-Sun 11:00-18:00",
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "beauty"
+    "category": "beauty",
+    "place_reviewed": true
   },
   {
     "slug": "hana-salon-mayfair",
@@ -3056,7 +2205,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "beauty"
+    "category": "beauty",
+    "place_reviewed": true
   },
   {
     "slug": "hair-by-jasper-bristol",
@@ -3088,37 +2238,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "beauty"
-  },
-  {
-    "slug": "equanimity-hair-leeds",
-    "name": "Equanimity Hair Salon",
-    "name_ja": "イクアニミティ ヘアサロン リーズ",
-    "area": "Horsforth, Leeds",
-    "address": "255 New Road Side, Horsforth, Leeds LS18",
-    "lat": null,
-    "lng": null,
-    "phone": "+447916647911",
-    "website": "https://www.equanimitystyle.com/",
-    "description": "リーズ・ホーズフォースにあるヘアサロン。日本人スタイリストのTakaが在籍し、英国9年以上の経験を持つ。カット・カラー・Olaplex トリートメントを提供。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": "equanimitystyle22@gmail.com",
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "beauty"
+    "category": "beauty",
+    "place_reviewed": true
   },
   {
     "slug": "hanalee-hairdressing-leeds",
@@ -3148,39 +2269,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "beauty"
-  },
-  {
-    "slug": "match-hair-cambridge",
-    "name": "Match Hair",
-    "name_ja": "マッチ ヘア ケンブリッジ",
-    "area": "Cambridge",
-    "address": null,
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.matchhair.co.uk/",
-    "description": "ケンブリッジ中心部にある日本式ブティックヘアサロン。東京美容専門学校出身の日本人スタイリスト（Chiharu）が在籍。アジア系の直毛・太い髪質のカットを得意とする。",
-    "tags": [
-      "ヘアサロン",
-      "日本人スタイリスト",
-      "日本式カット",
-      "アジア系ヘア"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "beauty"
+    "category": "beauty",
+    "place_reviewed": true
   },
   {
     "slug": "santavia-headspa-leeds",
@@ -3211,39 +2301,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "beauty"
-  },
-  {
-    "slug": "kiyora-beauty-health-london",
-    "name": "Kiyora Beauty and Health",
-    "name_ja": "キヨラ ビューティー＆ヘルス",
-    "area": "South Kensington, London",
-    "address": "97 Old Brompton Road, London SW7 3LD",
-    "lat": null,
-    "lng": null,
-    "phone": "+442070529149",
-    "website": "https://www.kiyoraspa.co.uk/",
-    "description": "オールド・ブロンプトン・ロードにある日本式マッサージ・フェイシャル専門サロン。HACHIGA整体メソッドを用いた身体・美容トリートメントと京都発スキンケアブランドRUIIAを使用したフェイシャルを提供。",
-    "tags": [
-      "日本式マッサージ",
-      "フェイシャル",
-      "整体",
-      "和風スパ"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "beauty"
+    "category": "beauty",
+    "place_reviewed": true
   },
   {
     "slug": "chi-yu-wellness-marylebone",
@@ -3275,7 +2334,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "beauty"
+    "category": "beauty",
+    "place_reviewed": true
   },
   {
     "slug": "nippon-shiatsu-clinic-hampton-wick",
@@ -3306,7 +2366,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "beauty"
+    "category": "beauty",
+    "place_reviewed": true
   },
   {
     "slug": "my-natural-clinic-piccadilly",
@@ -3338,38 +2399,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "beauty"
-  },
-  {
-    "slug": "jun-acupuncture-shiatsu-wembley",
-    "name": "JUN Japanese Acupuncture and Shiatsu Clinic",
-    "name_ja": "ジュン 日本式鍼灸指圧クリニック",
-    "area": "Wembley, London",
-    "address": "33 Toley Avenue, Wembley, Greater London HA9 9TD",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.junjapaneseacupunctureandshiatsuclinic.com/home-1",
-    "description": "ウェンブリーにある日本式鍼灸・指圧専門クリニック。往診（自宅・職場・ホテル）にも対応。セッション£55〜75（50分）。学生向け割引あり。",
-    "tags": [
-      "日本式鍼灸",
-      "指圧",
-      "往診対応"
-    ],
-    "hours": "Tue-Mon 9:00-21:00",
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "beauty"
+    "category": "beauty",
+    "place_reviewed": true
   },
   {
     "slug": "tsuyosen-massage-london",
@@ -3400,7 +2431,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "beauty"
+    "category": "beauty",
+    "place_reviewed": true
   },
   {
     "slug": "norma-shiatsu-croydon",
@@ -3432,58 +2464,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "beauty"
-  },
-  {
-    "slug": "moka-japanese-lashes-mayfair",
-    "name": "MOKA Japanese Eyelash Extension Salon",
-    "name_ja": "モカ 日本式まつ毛エクステサロン",
-    "area": "Mayfair, London",
-    "address": "14 Hanover Square, Mayfair, London W1S 1HN",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.mokalashes.com/",
-    "description": "メイフェアの日本式まつ毛エクステ専門サロン（Moka Kanai）。日本式フェザーリング技術を用いた自然で繊細な仕上がりが特徴。オックスフォード・サーカス・ボンドストリート駅近く。",
-    "tags": [
-      "まつ毛エクステ",
-      "日本式まつ毛",
-      "日本人技術者"
-    ],
-    "hours": "Mon-Fri 10:00-17:00",
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "beauty"
-  },
-  {
-    "slug": "hayato-london-betterton",
-    "name": "Hayato London",
-    "name_ja": null,
     "category": "beauty",
-    "city": "London",
-    "area": "Covent Garden",
-    "address": "1 Betterton St, London WC2H 9BL",
-    "phone": null,
-    "email": null,
-    "website": "https://www.hayato.co.uk",
-    "source_url": "https://www.hayato.co.uk",
-    "description": "コベントガーデンにある日本人スタイリストによるヘアサロン。日本式カットと丁寧なカウンセリングで在英日本人に人気。",
-    "tags": [
-      "japanese-stylist",
-      "hair-salon"
-    ],
-    "place_id": "",
-    "verified": false
+    "place_reviewed": true
   },
   {
     "slug": "dchan-salon-earlsfield",
@@ -3492,18 +2474,19 @@
     "category": "beauty",
     "city": "London",
     "area": "Earlsfield",
-    "address": "Earlsfield, London SW18",
-    "phone": null,
+    "address": "581 Garratt Lane, London SW18 4ST",
+    "phone": "+447814680917",
     "email": null,
-    "website": null,
+    "website": "https://www.dchansalon.com",
     "source_url": "",
-    "description": "アールズフィールドの日本人向けヘアサロン。日本語対応可能で、駐在員家族にも利用されている。",
+    "description": "アールズフィールドのYUKO縮毛矯正専門日系サロン。デジタルパーマ・Anti-Frizz・Bokgu Repairing Systemも提供。自宅訪問サービスも対応（水曜のみ）。",
     "tags": [
       "japanese-stylist",
       "hair-salon"
     ],
     "place_id": "",
-    "verified": false
+    "verified": false,
+    "place_reviewed": true
   },
   {
     "slug": "head-spa-london-holloway",
@@ -3512,18 +2495,19 @@
     "category": "beauty",
     "city": "London",
     "area": "Holloway",
-    "address": "Holloway, London N7",
+    "address": "31 Brecknock Road, London N7 0BT",
     "phone": null,
     "email": null,
     "website": null,
     "source_url": "",
-    "description": "ロンドン北部ホロウェイにある日本式ヘッドスパ専門店。頭皮マッサージとトリートメントが人気。",
+    "description": "ホロウェイ・ブレックノックロードにある日本式ヘッドスパ専門店。Ellie's Hair and Beauty Salon内に位置。頭皮マッサージとトリートメントが人気。Camden Town駅・Kentish Town駅が最寄り。",
     "tags": [
       "head-spa",
       "japanese"
     ],
     "place_id": "",
-    "verified": false
+    "verified": false,
+    "place_reviewed": true
   },
   {
     "slug": "esthetique-headspa-fulham",
@@ -3532,18 +2516,19 @@
     "category": "beauty",
     "city": "London",
     "area": "Fulham",
-    "address": "Fulham, London SW6",
-    "phone": null,
+    "address": "376 North End Road, London SW6 1LY",
+    "phone": "+447768242661",
     "email": null,
-    "website": null,
+    "website": "https://www.esthetiqueheadspa.com",
     "source_url": "",
-    "description": "フラムにある日本式ヘッドスパ＆エステサロン。在英日本人女性を中心に支持されている。",
+    "description": "フラム・ブロードウェイのHair Bian Salon内にある日本式ヘッドスパ専門店。個別スカルプ分析と日本式マッサージで頭皮・髪のケアを提供。",
     "tags": [
       "head-spa",
       "japanese"
     ],
     "place_id": "",
-    "verified": false
+    "verified": false,
+    "place_reviewed": true
   },
   {
     "slug": "esthetique-headspa-weybridge",
@@ -3552,18 +2537,19 @@
     "category": "beauty",
     "city": "Weybridge",
     "area": "Weybridge",
-    "address": "Weybridge, Surrey KT13",
-    "phone": null,
+    "address": "40 Church Street, Weybridge KT13 8DP",
+    "phone": "+447768242661",
     "email": null,
-    "website": null,
+    "website": "https://www.esthetiqueheadspa.com",
     "source_url": "",
-    "description": "ウェイブリッジのサリー郊外にある日本式ヘッドスパ。ロンドン近郊の日本人コミュニティに利用されている。",
+    "description": "ウェイブリッジ・Glitteratti Hairdressers内にある日本式ヘッドスパ専門店。ロンドン近郊サリーにてスカルプ分析と日本式ヘッドスパ施術を提供。",
     "tags": [
       "head-spa",
       "japanese"
     ],
     "place_id": "",
-    "verified": false
+    "verified": false,
+    "place_reviewed": true
   },
   {
     "slug": "yuhei-hair-hampstead",
@@ -3575,7 +2561,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.yuhei.co.uk/",
-    "description": "ハムステッドにある日本人オーナー（Yuhei・Reiko）のヘアサロン。YUKO欧州正規代理店としてジャパニーズストレート・縮毛矯正を専門とする。2008年創業。",
+    "description": "ハムステッドの日本人オーナー（Yuhei・Reiko）のヘアサロン。YUKO欧州正規代理店として縮毛矯正・ジャパニーズストレートを専門とする。2008年創業。",
     "tags": [
       "ヘアサロン",
       "日本人オーナー",
@@ -3594,7 +2580,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kiyora-spa-london",
@@ -3606,7 +2593,7 @@
     "lng": null,
     "phone": "+442070529149",
     "website": "https://www.kiyoraspa.co.uk/",
-    "description": "サウスケンジントンの日本式ビューティー＆ヘルスケアスパ。八木田メソッド整体、和のフェイシャルトリートメント、ボディトリートメントを提供。京都発スキンケアブランドRUIIAを使用。",
+    "description": "サウスケンジントンの日本式ビューティー＆ヘルスケアスパ。八木田メソッド整体・和のフェイシャル・ボディトリートメントを提供。京都発スキンケアブランド使用。",
     "tags": [
       "和風スパ",
       "マッサージ",
@@ -3625,7 +2612,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "jun-japanese-acupuncture-wembley",
@@ -3656,7 +2644,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "moka-lashes-mayfair",
@@ -3668,7 +2657,7 @@
     "lng": null,
     "phone": null,
     "website": "https://www.mokalashes.com/",
-    "description": "メイフェアの日本式まつ毛エクステ専門サロン。日本の技術によるフェザーラッシュ・ナチュラルラッシュエクステを提供。日本人スタイリストが丁寧に施術。",
+    "description": "メイフェアの日本式まつ毛エクステ専門サロン。日本人スタイリストによるフェザーラッシュ・ナチュラルラッシュエクステを提供。オックスフォード・サーカス・ボンドストリート駅至近。",
     "tags": [
       "まつ毛エクステ",
       "日本式",
@@ -3687,7 +2676,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "wi-lash-soho",
@@ -3718,19 +2708,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "blanco-lash-studio-holborn",
     "name": "Blanco Lash Studio",
     "name_ja": "ブランコ ラッシュスタジオ",
     "area": "Holborn, London",
-    "address": null,
+    "address": "2nd Floor, 5 Southampton Place, London WC1A 2DA",
     "lat": null,
     "lng": null,
     "phone": "+447458304826",
     "website": "https://www.blancolashstudio.com",
-    "description": "ホルボーンにある日本人ラッシュトレーナー所有のまつ毛エクステサロン。アジア系まつ毛のエクステを専門とし、ナチュラルな仕上がりで在英日本人にも人気。",
+    "description": "ホルボーンにある日本人ラッシュトレーナー（Manami）所有のまつ毛エクステサロン。多数受賞歴あり。アジア系まつ毛専門で自然な仕上がりが評判。",
     "tags": [
       "まつ毛エクステ",
       "日本人オーナー",
@@ -3748,7 +2739,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "tokyo-nailya-shoreditch",
@@ -3778,38 +2770,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "figaro-london-hair-beauty",
-    "name": "Figaro London Hair & Beauty",
-    "name_ja": "フィガロ ロンドン ヘア＆ビューティー",
-    "area": "Old Street, London",
-    "address": "EC1V 3RQ, London",
-    "lat": null,
-    "lng": null,
-    "phone": "+442072537057",
-    "website": "https://figarolondon.uk/",
-    "description": "オールドストリート近くのサロン。日本人ネイリスト（Maho）による日本式ネイルアートを提供。カット・カラー・マッサージも対応。日曜も営業する予約制サロン。",
-    "tags": [
-      "ネイルサロン",
-      "日本式ネイル",
-      "日本人スタッフ",
-      "ヘアサロン"
-    ],
-    "hours": "Mon-Sun appointment only",
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": "info@figarolondon.uk",
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kami-hair-edinburgh",
@@ -3831,7 +2793,8 @@
       "japanese-style"
     ],
     "place_id": "",
-    "verified": false
+    "verified": false,
+    "place_reviewed": true
   },
   {
     "slug": "shunji-hair-covent-garden",
@@ -3864,150 +2827,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "j-moriyama-hair-marylebone",
-    "name": "J Moriyama Hair Design (Marylebone)",
-    "name_ja": "J モリヤマ ヘアデザイン（マリルボーン）",
-    "area": "Marylebone",
-    "address": "58 Upper Montagu Street, London W1H 1SN",
-    "phone": "+442077248860",
-    "email": "",
-    "website": "https://jmoriyama.com",
-    "source_url": "https://jmoriyama.com/english/find-us",
-    "description": "1999年創業のロンドン老舗日本人美容室。マリルボーン本店とシティの2拠点。カット・カラーを日本語で相談できる。",
-    "detail": "J Moriyama Hair Designは1999年にジュンコ・モリヤマが創業した日本人美容室。マリルボーン（アッパーモンタギュー通り）とシティ（クイーンビクトリアストリート）の2拠点を展開。日本語でのカウンセリングが可能で、カット・カラー・パーマ・縮毛矯正などを提供。在英日本人に長く親しまれているロンドンの老舗日本式美容室です。",
-    "menu": [],
-    "price_range": "£££",
-    "tags": [
-      "beauty",
-      "hair-salon",
-      "japanese-service",
-      "cut",
-      "color"
-    ],
-    "hours": "要確認",
-    "status": "unverified",
-    "last_verified": "2026-04-05",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "tomoyuki-co-beauty-fitzrovia",
-    "name": "Tomoyuki & Co (Hair Salon)",
-    "name_ja": "トモユキアンドコー（ヘア）",
-    "area": "Fitzrovia",
-    "address": "62 Great Titchfield Street, London W1W 7QQ",
-    "phone": "+442075800217",
-    "email": "info@tomoyukiandco.com",
-    "website": "https://www.tomoyukiandco.com",
-    "source_url": "https://www.tomoyukiandco.com/the-salon",
-    "description": "フィッツロビアの高級美容サロン。日本式縮毛矯正とバレイヤージュを専門とするラグジュアリーヘア＆ビューティーサロン。",
-    "detail": "Tomoyuki & Coはフィッツロビアのグレートティッチフィールドストリートに位置するラグジュアリー美容サロン。日本式縮毛矯正（スタンダード・スーパーストレート）とバレイヤージュを専門とし、クオリティの高いヘアケア・カラーリング・ハイライトを提供。日本の技術と欧州スタイルを融合したアプローチで幅広い顧客層に対応。",
-    "menu": [],
-    "price_range": "£££",
-    "tags": [
-      "beauty",
-      "hair-salon",
-      "japanese-service",
-      "hair-straightening",
-      "balayage"
-    ],
-    "hours": "火-金 9:00-18:30 / 土 9:00-17:00",
-    "status": "unverified",
-    "last_verified": "2026-04-05",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "hayato-london-drury-lane",
-    "name": "Hayato London",
-    "name_ja": "ハヤト・ロンドン",
-    "area": "コヴェント・ガーデン",
-    "address": "159 Drury Lane, London WC2B 5QG",
-    "phone": "+442072427877",
-    "email": "london@hayatosalons.com",
-    "website": "https://en.hayatosalons.com/page/london/",
-    "source_url": "https://en.hayatosalons.com/page/london/",
-    "description": "コヴェント・ガーデンの日本人経営ヘアサロン。東京・ニューヨーク仕込みの技術で高い評価を得る。",
-    "detail": "コヴェント・ガーデンのドルリー・レーンに位置する受賞歴のある日本人経営ヘアサロン。東京とニューヨークで培った技術を提供し、カット・カラー・パーマ・縮毛矯正・ヘッドスパなど幅広いメニューを取り揃える。月〜日曜10:00〜19:00まで営業。英国在住日本人をはじめ、日本のヘアケアを求めるロンドン在住者に支持されている。",
-    "menu": [
-      "カット",
-      "カラー",
-      "パーマ",
-      "縮毛矯正",
-      "ヘッドスパ"
-    ],
-    "price_range": "$$$",
-    "tags": [
-      "beauty",
-      "hair-salon",
-      "japanese",
-      "covent-garden"
-    ],
-    "hours": "毎日 10:00〜19:00",
-    "status": "unverified",
-    "last_verified": "2026-04-05",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "hiro-miyoshi-curzon-street",
-    "name": "Hiro Miyoshi (Curzon Street)",
-    "name_ja": "ヒロ・ミヨシ（カーゾン・ストリート）",
-    "area": "メイフェア",
-    "address": "63 Curzon Street, Mayfair, London W1J 8PD",
-    "phone": "+442074938286",
-    "email": null,
-    "website": "https://hiromiyoshi.com/hiro-miyoshi-hair-salon-mayfair/",
-    "source_url": "https://hiromiyoshi.com/find-us/",
-    "description": "メイフェアのカーゾン・ストリートにある日本式高級ヘアサロン。日本人スタイリストが「おもてなし」の精神で対応。",
-    "detail": "メイフェアのカーゾン・ストリートに位置する受賞歴のある日本式高級ヘアサロン。「ヒロ・ミヨシ」はメイフェアを中心に複数店舗を展開するプレミアムブランド。カット・カラー・パーマ・ヘッドスパ・ネイルなど幅広いメニューを提供。日本人スタイリストが日本の「おもてなし」の精神でロンドン在住日本人・外国人を迎える。",
-    "menu": [
-      "カット",
-      "カラー",
-      "パーマ",
-      "ヘッドスパ",
-      "ネイル"
-    ],
-    "price_range": "$$$$",
-    "tags": [
-      "beauty",
-      "hair-salon",
-      "japanese",
-      "mayfair",
-      "luxury"
-    ],
-    "hours": "要確認",
-    "status": "unverified",
-    "last_verified": "2026-04-05",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hiro-miyoshi-the-londoner",
@@ -4019,7 +2840,7 @@
     "email": null,
     "website": "https://hiromiyoshi.com/",
     "source_url": "https://hiromiyoshi.com/find-us/",
-    "description": "ザ・ロンドナーホテル内の日本式高級ヘアサロン。レスタースクエアに位置しアクセス抜群。",
+    "description": "レスタースクエアのラグジュアリーホテル「The Londoner」内のHiro Miyoshi支店。カット・カラー・ヘアトリートメントを提供。日本のおもてなし精神を体現。",
     "detail": "レスタースクエアのザ・ロンドナーホテル（38 Leicester Square）内に位置する日本式高級ヘアサロン。ヒロ・ミヨシのロンドン4店舗の一つで、カット・カラー・パーマ・ヘッドスパ・ネイルなど幅広いメニューを提供。ウェストエンドの中心部にあり日本人旅行者にも利便性が高い。",
     "menu": [
       "カット",
@@ -4045,7 +2866,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "cleve-hair-hackney-london",
@@ -4079,37 +2901,7 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "hayato-london-covent-garden",
-    "name": "HAYATO LONDON",
-    "name_ja": "ハヤト",
-    "area": "Covent Garden",
-    "city": "London",
-    "address": "159 Drury Lane, London WC2B 5QG",
-    "phone": "+442072427877",
-    "website": "https://en.hayatosalons.com/page/london/",
-    "description": "業界最高峰の日本式ヘアサロン。30年以上の実績（NY・東京・London）。ダメージ抑制カラー、ヘッドスパ。",
-    "tags": [
-      "日本式",
-      "ヘアサロン",
-      "ヘッドスパ"
-    ],
-    "hours": "10:00-19:00（月〜日）",
-    "source": "web_search",
-    "lat": null,
-    "lng": null,
-    "last_verified": "2026-04-06",
-    "status": "unverified",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   }
 ]
