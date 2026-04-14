@@ -1,54 +1,23 @@
 [
   {
-    "slug": "8-at-londoner-izakaya",
-    "name": "8 at The Londoner",
+    "slug": "8-at-the-londoner",
+    "name": "8 At The Londoner",
     "name_ja": "8 アット ザ ロンドナー",
     "area": "Leicester Square",
     "address": "The Londoner Hotel, 38 Leicester Square, London WC2H 7DX",
     "lat": null,
     "lng": null,
-    "phone": null,
+    "phone": "+442074510156",
     "website": "https://www.thelondoner.com/restaurants-bars/8atthelondoner.co.uk",
-    "description": "ロンドナーホテル内の屋上居酒屋バー。現代的な日本料理とカクテル、DJを組み合わせた新感覚の体験を提供。夜景を眺めながら日本の居酒屋文化を楽しめる。",
-    "tags": [
-      "居酒屋",
-      "バー",
-      "カクテル",
-      "屋上テラス"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "8-at-the-londoner",
-    "name": "8 At The Londoner",
-    "name_ja": "8 アット ザ ロンドナー",
-    "area": "Westminster",
-    "address": "The Londoner, 38 Whitehall, London SW1A 2BX",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.thelondoner.com/restaurants-bars/8atthelondoner.co.uk",
-    "description": "ホワイトホールの高級ホテル「ザ・ロンドナー」8階にある日本式ルーフトップイザカヤテラス。居酒屋スタイルの食事とカクテルをロンドンの絶景とともに楽しめる。",
+    "description": "レスター・スクエアにある「ザ・ロンドナー」ホテルの屋上日本式居酒屋バー。現代和食・日本酒・ウイスキー・カクテルを提供。テラスからロンドンの夜景を楽しめる。",
     "tags": [
       "居酒屋",
       "ルーフトップバー",
       "高級",
       "日本食"
     ],
-    "hours": null,
-    "last_verified": "2026-04-01",
+    "hours": "Tue-Wed 17:00-00:00, Thu-Sat 17:00-01:00",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -59,7 +28,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "abeno-bloomsbury",
@@ -78,8 +48,8 @@
       "老舗",
       "日本人経営"
     ],
-    "hours": null,
-    "last_verified": "2026-04-01",
+    "hours": "Mon-Sat 12:00-21:30",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -90,7 +60,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "akira-at-japan-house",
@@ -108,8 +79,8 @@
       "日本酒",
       "季節料理"
     ],
-    "hours": null,
-    "last_verified": "2026-04-01",
+    "hours": "Tue-Sat 12:00-15:00, 18:00-23:00; Sun 12:00-18:00",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -120,17 +91,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "apothecary-east-shoreditch",
     "name": "Apothecary East",
     "name_ja": "アポシカリー イースト",
     "area": "Shoreditch",
-    "address": "3 Ravey Street, London EC2A 4QP",
+    "address": "36 Charlotte Road, London EC2A 3PG",
     "lat": null,
     "lng": null,
-    "phone": null,
+    "phone": "+442070605335",
     "website": "https://www.apothecaryshoreditch.com/",
     "description": "ショアディッチの日系居酒屋バー。本格的な日本の小皿料理・日本酒・手工芸カクテルを提供。落ち着いたインテリアで昼の軽食から夜のバー利用まで対応。",
     "tags": [
@@ -139,8 +111,8 @@
       "カクテル",
       "日系バー"
     ],
-    "hours": "Mon-Sun 12:00-23:00",
-    "last_verified": "2026-04-01",
+    "hours": "Mon 17:00-23:00, Tue-Thu 12:00-23:00, Fri-Sat 12:00-00:00",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -151,7 +123,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "araki-mayfair",
@@ -171,7 +144,7 @@
       "超高級"
     ],
     "hours": null,
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -182,27 +155,28 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "asa-chelsea",
     "name": "ASA",
     "name_ja": "アサ",
     "area": "Chelsea",
-    "address": "Arthur's Market, King's Road, Chelsea, London SW3",
+    "address": "279 King's Road, London SW3 5EW",
     "lat": null,
     "lng": null,
-    "phone": null,
+    "phone": "+442046151600",
     "website": "https://asa.london/",
-    "description": "チェルシー・キングスロードにある現代日本居酒屋。シェフShaulan Steensonが率いる。日本食の伝統に現代的な解釈を加えた小皿料理と豊富な日本酒を提供。",
+    "description": "チェルシー・キングスロードのArthur's Market内にある現代日本居酒屋。シェフShaulan Steensonが率いる。和のおまかせコース・アラカルトと日本酒を提供。",
     "tags": [
       "居酒屋",
       "創作和食",
       "日本酒",
       "小皿料理"
     ],
-    "hours": null,
-    "last_verified": "2026-04-01",
+    "hours": "Tue-Fri 12:00-15:00, 18:00-22:00; Sat-Sun 12:00-22:00",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -213,7 +187,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "benihana-chelsea",
@@ -225,14 +200,14 @@
     "lng": null,
     "phone": "+442073762723",
     "website": "https://www.benihana.co.uk/",
-    "description": "チェルシーにある日本式鉄板焼きチェーン。テーブル前で調理するパフォーマンスが特徴。日本人シェフが目の前でさばく楽しい食体験。",
+    "description": "チェルシー・キングスロードにある日本式鉄板焼きレストラン。16台の鉄板テーブルを備え、シェフが目の前でダイナミックに調理するパフォーマンスが名物。",
     "tags": [
       "鉄板焼き",
       "ライブクッキング",
       "ステーキ"
     ],
     "hours": null,
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -243,67 +218,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "benihana-piccadilly",
-    "name": "Benihana Piccadilly",
-    "name_ja": "紅花 ピカデリー店",
-    "area": "Piccadilly",
-    "address": "37-43 Sackville Street, London W1S 3DQ",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.benihana.co.uk/",
-    "description": "ピカデリーにある日本式鉄板焼きチェーン。テーブル前でのライブ調理が人気。特別な日の食事として在ロンドン日本人にも利用される。",
-    "tags": [
-      "鉄板焼き",
-      "ライブクッキング"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "bincho-yakitori-soho",
-    "name": "Bincho Yakitori",
-    "name_ja": "備長 焼鳥",
-    "area": "Soho",
-    "address": "16 Old Compton Street, London W1D 4TL",
-    "lat": null,
-    "lng": null,
-    "phone": "+442072877878",
-    "website": null,
-    "description": "ソーホーにある焼き鳥専門の居酒屋。備長炭で焼く本格焼き鳥とハイボール・日本酒を提供。",
-    "tags": [
-      "焼き鳥",
-      "居酒屋",
-      "備長炭",
-      "日本酒"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "blue-sakura-leeds",
@@ -322,7 +238,7 @@
       "受賞歴"
     ],
     "hours": null,
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -333,7 +249,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "bone-daddies-soho",
@@ -353,7 +270,7 @@
       "チェーン"
     ],
     "hours": null,
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -364,19 +281,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "chisou-mayfair",
     "name": "Chisou Mayfair",
     "name_ja": "ちそう メイフェア店",
     "area": "Mayfair",
-    "address": "4 Princess Street, London W1B 2LE",
+    "address": "22-23 Woodstock Street, London W1C 2AR",
     "lat": null,
     "lng": null,
-    "phone": "+442076296931",
+    "phone": "+442076293931",
     "website": "https://www.chisourestaurant.com/",
-    "description": "2002年Mayfairに創業した日本料理レストラン。10席のカウンターおまかせとアラカルトを提供。日本酒のペアリングも充実。South Molton Street近くに位置。",
+    "description": "2002年創業のメイフェア老舗日本料理店。Woodstock Streetに移転拡大。おまかせカウンター・アラカルト・日本酒ペアリングが充実。在ロンドン日本人に長年愛される。",
     "tags": [
       "寿司",
       "おまかせ",
@@ -384,7 +302,7 @@
       "老舗"
     ],
     "hours": null,
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -395,7 +313,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "chotto-matte-soho",
@@ -415,7 +334,7 @@
       "カクテル"
     ],
     "hours": null,
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -426,7 +345,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "cocoro-bloomsbury",
@@ -446,7 +366,7 @@
       "カジュアル"
     ],
     "hours": null,
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -457,27 +377,28 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "cube-mayfair",
     "name": "Cubé",
     "name_ja": "キューブ",
     "area": "Mayfair",
-    "address": "2a Carlos Place, Mayfair, London W1K 3AN",
+    "address": "4 Blenheim Street, London W1S 1LB",
     "lat": null,
     "lng": null,
     "phone": null,
     "website": "https://cubemayfair.com/",
-    "description": "Mayfairの高級日本料理レストラン。和牛・寿司・おまかせコースを提供。厳選された食材と洗練されたサービスで在ロンドン日本人にも利用される。",
+    "description": "Mayfairにある高級日本料理レストラン。カウンターでシェフMasaが目の前で握るおまかせ寿司・和牛・小皿料理を提供。日本酒と日本ウイスキーも充実。",
     "tags": [
       "寿司",
       "和牛",
       "おまかせ",
       "高級"
     ],
-    "hours": null,
-    "last_verified": "2026-04-01",
+    "hours": "Mon-Sat 12:00-15:00, 17:30-23:00",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -488,7 +409,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "dinings-sw3",
@@ -508,7 +430,7 @@
       "高級"
     ],
     "hours": null,
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -519,7 +441,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "dinings-w1",
@@ -539,7 +462,7 @@
       "老舗"
     ],
     "hours": null,
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -550,7 +473,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "edo-izakaya-old-street",
@@ -569,7 +493,7 @@
       "カクテル"
     ],
     "hours": null,
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -580,7 +504,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "endo-at-rotunda",
@@ -600,7 +525,7 @@
       "日本人シェフ"
     ],
     "hours": null,
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -611,7 +536,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "engawa-piccadilly",
@@ -631,7 +557,7 @@
       "高級"
     ],
     "hours": "Tue-Sat 12:00-15:30, 17:00-23:00; Sun 12:00-15:30, 17:00-22:30",
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -642,14 +568,15 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "gaijin-sushi-birmingham",
     "name": "Gaijin Sushi",
     "name_ja": "外人寿司",
     "area": "Birmingham",
-    "address": "Bristol Street, Birmingham",
+    "address": "78 Bristol Street, Birmingham B5 7AH",
     "lat": null,
     "lng": null,
     "phone": null,
@@ -660,8 +587,8 @@
       "おまかせ",
       "カウンター"
     ],
-    "hours": null,
-    "last_verified": "2026-04-01",
+    "hours": "Mon-Thu 17:00-22:00, Fri-Sat 12:00-22:00, Sun 12:00-20:00",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -672,7 +599,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hakkapo-manchester",
@@ -692,7 +620,7 @@
       "マンチェスター"
     ],
     "hours": "Mon-Sun 17:00-23:30",
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -703,7 +631,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hanasaki-fitzrovia",
@@ -715,15 +644,15 @@
     "lng": null,
     "phone": null,
     "website": "https://www.hanasaki.co.uk/",
-    "description": "Fitzroviaにある日本料理レストラン。日本の家庭料理をベースにした定食、寿司、刺身を提供。日本人スタッフが在籍し日本語での対応も可能。",
+    "description": "Fitzroviaの53 Cleveland Streetにある日本料理レストラン。2023年開業。寿司・刺身・天ぷら・定食を提供するカウンター中心の小さな名店で在ロンドン日本人にも人気。",
     "tags": [
       "定食",
       "寿司",
       "日本語対応",
       "家庭料理"
     ],
-    "hours": null,
-    "last_verified": "2026-04-01",
+    "hours": "Mon-Thu 12:00-15:00, 17:00-22:00; Fri-Sat 12:00-15:00, 17:00-23:00; Sun 17:00-22:00",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -734,7 +663,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "harajuku-kitchen-bar-edinburgh",
@@ -754,7 +684,7 @@
       "エジンバラ"
     ],
     "hours": "Tue-Sun 17:00-22:30",
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-13",
     "source": "web_search",
     "place_id": "",
     "priority": 0,
@@ -765,37 +695,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "hare-n-tortoise-putney",
-    "name": "Hare & Tortoise Putney",
-    "name_ja": "ヘア＆トータス パトニー店",
-    "area": "Putney",
-    "address": "296-298 Upper Richmond Road, Putney, London SW15 6TH",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.hare-and-tortoise.co.uk/",
-    "description": "ロンドン南西部パトニーにある日本・アジア料理レストラン。ラーメン、寿司、日本定食を提供。ロンドン南部の日本人ファミリーに利用される。",
-    "tags": [
-      "ラーメン",
-      "寿司",
-      "定食"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "himi-izakaya-soho",
@@ -815,7 +716,7 @@
       "日本人シェフ"
     ],
     "hours": null,
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -826,7 +727,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "hot-stone-fitzrovia",
@@ -838,15 +740,15 @@
     "lng": null,
     "phone": null,
     "website": "https://hotstonelondon.com/",
-    "description": "Fitzroviaにある寿司・さしみレストラン。神戸牛など厳選食材を使用。RAI Restaurantの前身となった店舗であり、日本人シェフが率いていた。",
+    "description": "Fitzroviaにある寿司・和牛専門レストラン。ロンドンで8店のみの公認神戸牛取扱店で、400℃の溶岩石で焼く石焼きスタイルが特徴。5コースコースが好評。",
     "tags": [
       "寿司",
       "刺身",
       "神戸牛",
       "高級"
     ],
-    "hours": null,
-    "last_verified": "2026-04-01",
+    "hours": "Mon 17:00-21:30; Tue 12:00-14:00, 17:00-21:30; Wed-Thu 12:00-14:00, 17:30-21:00; Fri-Sat 12:00-14:00, 17:30-21:30; Sun 12:00-14:00, 17:30-20:45",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -857,7 +759,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "humble-chicken-angel",
@@ -876,7 +779,7 @@
       "テイスティングメニュー"
     ],
     "hours": null,
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -887,7 +790,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "inamo-soho",
@@ -897,7 +801,7 @@
     "address": "134-136 Wardour Street, London W1F 8ZH",
     "lat": null,
     "lng": null,
-    "phone": "+442078518051",
+    "phone": "+442078517051",
     "website": "https://www.inamo-restaurant.com/",
     "description": "テーブル上の画面から注文できるインタラクティブ・アジア料理レストラン。寿司をはじめとする和食・アジア料理を提供。ユニークな体験でロンドン在住日本人にも人気。",
     "tags": [
@@ -906,7 +810,7 @@
       "ユニーク体験"
     ],
     "hours": null,
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -917,7 +821,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "inko-nito-soho",
@@ -936,7 +841,7 @@
       "モダン"
     ],
     "hours": null,
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -947,7 +852,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ippudo-canary-wharf",
@@ -966,7 +872,7 @@
       "チェーン"
     ],
     "hours": null,
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -977,7 +883,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ippudo-london-central-saint-giles",
@@ -997,7 +904,7 @@
       "福岡発"
     ],
     "hours": null,
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -1008,57 +915,27 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "itsu-london-chain",
-    "name": "Itsu",
-    "name_ja": "いつ",
-    "area": "London",
-    "address": "London",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.itsu.com/",
-    "description": "ロンドン全域に展開する日本インスパイア料理チェーン。巻き寿司、サラダ、スープを低カロリーで提供。ランチタイムの在ロンドン日本人にも利用される。",
-    "tags": [
-      "寿司",
-      "ヘルシー",
-      "チェーン",
-      "テイクアウト"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "izakaya-bristol",
     "name": "Izakaya Bristol",
     "name_ja": "居酒屋 ブリストル",
     "area": "Bristol",
-    "address": "73 Whiteladies Road, Bristol BS8 2NT",
+    "address": "39 College Green, Bristol BS1 5SZ",
     "lat": null,
     "lng": null,
-    "phone": null,
+    "phone": "+441179294999",
     "website": "https://www.izakayabristol.co.uk/",
-    "description": "ブリストルにある日本式居酒屋・バー。日本の小皿料理と日本酒・焼酎を提供。ブリストルの日本人コミュニティが集まる場所として知られる。",
+    "description": "ブリストル・カレッジグリーンにある日本居酒屋バー。2018年創業のブリストル老舗日本食店。小皿料理・寿司・さしみと日本酒・焼酎を提供。",
     "tags": [
       "居酒屋",
       "日本酒",
       "小皿料理"
     ],
     "hours": null,
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -1069,7 +946,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "izakaya-japan-islington",
@@ -1088,7 +966,7 @@
       "日本酒"
     ],
     "hours": "Mon-Sun 17:00-23:00",
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -1099,7 +977,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "jugemu-soho",
@@ -1109,17 +988,17 @@
     "address": "3 Winnett Street, London W1D 6JY",
     "lat": null,
     "lng": null,
-    "phone": "+442077341145",
-    "website": null,
-    "description": "ソーホーにある居酒屋スタイルの日本料理店。焼き鳥、刺身、おにぎりなどの日本の定番メニューを手頃な価格で提供。在ロンドン日本人に人気。",
+    "phone": "+442077340518",
+    "website": "https://jugemu.weeblyte.com/",
+    "description": "ソーホーの路地裏にある一人営業の小さな日本料理店。神奈川出身の菊池悠也シェフが一人でカウンターに立ち、おまかせ刺身・本格寿司を提供。2016年開業。",
     "tags": [
       "居酒屋",
       "焼き鳥",
       "刺身",
       "カジュアル"
     ],
-    "hours": null,
-    "last_verified": "2026-04-01",
+    "hours": "Mon-Fri 18:00-22:30",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -1130,7 +1009,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kanada-ya-angel",
@@ -1150,7 +1030,7 @@
       "福岡発"
     ],
     "hours": null,
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -1161,14 +1041,15 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kanada-ya-carnaby",
     "name": "Kanada-Ya Carnaby",
     "name_ja": "金田家 カーナビー店",
     "area": "Soho",
-    "address": "3 Carnaby Street, London W1F 9PB",
+    "address": "28 Foubert's Place, London W1F 7PR",
     "lat": null,
     "lng": null,
     "phone": null,
@@ -1179,8 +1060,8 @@
       "豚骨",
       "チェーン"
     ],
-    "hours": null,
-    "last_verified": "2026-04-01",
+    "hours": "Mon-Sun 11:30-22:30",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -1191,7 +1072,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kanada-ya-covent-garden",
@@ -1201,7 +1083,7 @@
     "address": "64 St Giles High Street, London WC2H 8LE",
     "lat": null,
     "lng": null,
-    "phone": null,
+    "phone": "+442072400232",
     "website": "https://www.kanada-ya.com/",
     "description": "福岡発豚骨ラーメン専門店のコヴェントガーデン店。濃厚な豚骨スープと自家製麺が特徴。",
     "tags": [
@@ -1209,8 +1091,8 @@
       "豚骨",
       "チェーン"
     ],
-    "hours": null,
-    "last_verified": "2026-04-01",
+    "hours": "Mon-Fri 12:00-15:00, 17:00-22:30; Sat 12:00-15:00, 17:00-23:00; Sun 12:00-20:30",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -1221,26 +1103,27 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
-    "slug": "kanada-ya-ealing",
-    "name": "Kanada-Ya Ealing",
-    "name_ja": "金田家 イーリング店",
+    "slug": "zuru-zuru-ealing",
+    "name": "Zuru Zuru",
+    "name_ja": "ズルズル",
     "area": "Ealing",
-    "address": "The Arcadia Centre, 14 The Broadway, Ealing, London W5 2ND",
+    "address": "12 Filmworks Walk, Ealing, London W5 5FA",
     "lat": null,
     "lng": null,
-    "phone": null,
+    "phone": "+442045468052",
     "website": "https://www.kanada-ya.com/",
-    "description": "金田家ラーメンのイーリング店。日本人が多く住むEalingエリアに位置するため、在英日本人に特に人気の店舗。",
+    "description": "金田家グループがEaling・Filmworks Walkに展開するカジュアル日本料理店。よりリラックスしたスタイルで豚骨ラーメンや日本食メニューを提供。日本人にも人気のエリア。",
     "tags": [
       "ラーメン",
       "豚骨",
       "チェーン"
     ],
-    "hours": null,
-    "last_verified": "2026-04-01",
+    "hours": "Mon-Thu 12:00-21:00, Fri-Sat 12:00-21:30, Sun 12:00-21:00",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -1251,7 +1134,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kanada-ya-piccadilly",
@@ -1271,7 +1155,7 @@
       "福岡発"
     ],
     "hours": null,
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -1282,44 +1166,15 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kanada-ya-st-giles",
-    "name": "Kanada-Ya St Giles",
-    "name_ja": "金田家 セントジャイルズ店",
-    "area": "Soho",
-    "address": "20-22 St Giles High Street, London WC2H 8LN",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.kanada-ya.com/",
-    "description": "金田家ラーメンのセントジャイルズ店。ロンドン中心部でアクセス抜群。濃厚豚骨スープと自家製麺のラーメンを提供。",
-    "tags": [
-      "ラーメン",
-      "豚骨",
-      "チェーン"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kanada-ya-westfield",
     "name": "Kanada-Ya Westfield",
     "name_ja": "金田家 ウェストフィールド店",
     "area": "Shepherd's Bush",
-    "address": "Westfield London, Ariel Way, London W12 7SL",
+    "address": "Unit 1034, Westfield London, Ariel Way, London W12 7GA",
     "lat": null,
     "lng": null,
     "phone": null,
@@ -1330,8 +1185,8 @@
       "豚骨",
       "チェーン"
     ],
-    "hours": null,
-    "last_verified": "2026-04-01",
+    "hours": "Mon-Sun 12:00-22:00",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -1342,19 +1197,20 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kanpai-london-bridge",
     "name": "Kanpai London",
     "name_ja": "乾杯 ロンドン",
     "area": "Bermondsey",
-    "address": "Unit 1, Leathermarket, Weston Street, London SE1 3ER",
+    "address": "48 Druid Street, London SE1 2EZ",
     "lat": null,
     "lng": null,
     "phone": null,
     "website": "https://kanpai.london/",
-    "description": "ロンドン初の日本酒醸造所。ロンドンで日本酒を製造・販売。テイスティングルームも併設。",
+    "description": "英国初の日本酒醸造所。Bermondsey Beer Mileのレイルウェイアーチに醸造所とタップルームを構える。自家醸造のクラフト日本酒をテイスティングやボトル購入で楽しめる。",
     "tags": [
       "居酒屋",
       "日本酒",
@@ -1362,7 +1218,7 @@
       "テイスティング"
     ],
     "hours": null,
-    "last_verified": "2026-03-28",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -1373,14 +1229,15 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "katsu-kuriko-shoreditch",
     "name": "Katsu Kuriko",
     "name_ja": "カツクリコ",
     "area": "Shoreditch",
-    "address": "Shoreditch, London",
+    "address": "9 Hackney Road, London E2 7NX",
     "lat": null,
     "lng": null,
     "phone": null,
@@ -1391,8 +1248,8 @@
       "ラーメン",
       "カジュアル"
     ],
-    "hours": null,
-    "last_verified": "2026-04-01",
+    "hours": "Mon-Sun 11:00-21:30",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -1403,14 +1260,15 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "katsute100-islington",
     "name": "Katsute 100 Islington",
     "name_ja": "かつて100 イズリントン店",
     "area": "Islington",
-    "address": "Islington, London N1",
+    "address": "100 Islington High Street, London N1 8EG",
     "lat": null,
     "lng": null,
     "phone": null,
@@ -1421,8 +1279,8 @@
       "和菓子",
       "抹茶"
     ],
-    "hours": null,
-    "last_verified": "2026-04-01",
+    "hours": "Mon-Fri 11:00-20:00",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -1433,17 +1291,18 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kazu-charlotte-street",
     "name": "Kazu",
     "name_ja": "カズ",
     "area": "Fitzrovia",
-    "address": "Charlotte Street, London W1T",
+    "address": "64 Charlotte Street, London W1T 4QD",
     "lat": null,
     "lng": null,
-    "phone": null,
+    "phone": "+442038485777",
     "website": "https://kazurestaurants.com/",
     "description": "シャーロットストリート近くにある本格日本料理レストラン。100品以上のメニューから寿司・刺身・現代和食の小皿料理を提供する。",
     "tags": [
@@ -1452,7 +1311,7 @@
       "現代和食"
     ],
     "hours": null,
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -1463,7 +1322,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kibako-fitzrovia",
@@ -1483,7 +1343,7 @@
       "和牛"
     ],
     "hours": null,
-    "last_verified": "2026-04-01",
+    "last_verified": "2026-04-13",
     "status": "unverified",
     "source": "web_search",
     "place_id": "",
@@ -1494,37 +1354,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "kibou-bath",
-    "name": "KIBOU Bath",
-    "name_ja": "希望 バース",
-    "area": "Bath",
-    "address": "Bath, Somerset",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://kibou.co.uk/",
-    "description": "KIBOUのバース店。ブリストル・バースエリアで本格的な日本食（寿司・ラーメン・カツカレー）を楽しめる。",
-    "tags": [
-      "寿司",
-      "ラーメン",
-      "カツカレー"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kibou-bristol-clifton",
