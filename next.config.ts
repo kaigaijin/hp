@@ -63,6 +63,13 @@ const nextConfig: NextConfig = {
       // HK izakaya-bar: "-10" slug経由でアクセスされていたURL（念のため）
       { source: "/hk/place/izakaya-bar/-10", destination: "/hk/place/grocery/nihon-meiriki-flagship-tsim-sha-tsui", permanent: true },
 
+      // /column/column/:slug → /overseas/column/:slug（2026-04-14）
+      {
+        source: "/column/column/:slug",
+        destination: "/overseas/column/:slug",
+        permanent: true,
+      },
+
       // /spot → /place リダイレクト（2026-04-08）
       { source: "/:country/spot", destination: "/:country/place", permanent: true },
       { source: "/:country/spot/map", destination: "/:country/place/map", permanent: true },
