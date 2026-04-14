@@ -28,7 +28,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "crown-relocations-japan-desk",
@@ -60,69 +61,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "ikea-delivery-uk-japanese",
-    "name": "IKEA Delivery UK (Japanese)",
-    "name_ja": "IKEA 英国デリバリー（日本語情報）",
-    "area": "Various UK",
-    "address": "UK Nationwide",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.ikea.com/gb",
-    "description": "英国IKEAの配送・組み立てサービス情報を日本語で提供。新居への家具配送・組み立てを手軽に依頼できる英国在住日本人御用達。",
-    "tags": [
-      "家具",
-      "IKEA",
-      "引越し",
-      "デリバリー",
-      "全国"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "japan-services-london-moving",
-    "name": "Japan Services London",
-    "name_ja": "ジャパンサービス ロンドン",
-    "area": "London",
-    "address": null,
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://japanserviceslondon.jp/",
-    "description": "ロンドン在住日本人向けの引越し・生活サポートサービス。日本語での対応が可能。",
-    "tags": [
-      "日本語対応",
-      "引越し",
-      "生活サポート"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "koyanagi-worldwide",
@@ -153,7 +93,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mailboxes-etc-london-japanese",
@@ -185,7 +126,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nippon-express-uk",
@@ -216,7 +158,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sendmybag-japanese",
@@ -248,7 +191,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yamato-transport-uk",
@@ -280,7 +224,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sakai-transeuro-london",
@@ -304,7 +249,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "mol-logistics-uk",
@@ -329,7 +275,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "nissin-uk-ltd",
@@ -353,7 +300,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "kyoto-ushiya-uk",
@@ -377,7 +325,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "excess-international-movers",
@@ -400,7 +349,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "pss-international-removals",
@@ -431,7 +381,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "moving"
+    "category": "moving",
+    "place_reviewed": true
   },
   {
     "slug": "john-mason-international",
@@ -463,7 +414,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "moving"
+    "category": "moving",
+    "place_reviewed": true
   },
   {
     "slug": "seven-seas-worldwide-japan",
@@ -494,7 +446,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "moving"
+    "category": "moving",
+    "place_reviewed": true
   },
   {
     "slug": "japan-luggage-express-uk",
@@ -526,39 +479,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "moving"
-  },
-  {
-    "slug": "gerson-relocation-japan",
-    "name": "Gerson Relocation (Japan)",
-    "name_ja": "ガーソン リロケーション（日本向け）",
-    "area": "Potters Bar",
-    "address": "The Heights East, Cranborne Road, Potters Bar, Hertfordshire EN6 3JN",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "email": null,
-    "website": "https://gersonrelocation.com/international-removals/moving-to-japan/",
-    "description": "英国の国際リロケーション専門会社。日本への引越を専門的に手配し、梱包から通関・配送まで一貫サポート。FIDI加盟・FAIM認定。コヤナギワールドワイドと同拠点。",
-    "tags": [
-      "国際引越",
-      "日本向け",
-      "リロケーション",
-      "FIDI加盟"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "moving"
+    "category": "moving",
+    "place_reviewed": true
   },
   {
     "slug": "shipit-uk-japan",
@@ -589,38 +511,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "moving"
-  },
-  {
-    "slug": "newsdigest-moving-guide",
-    "name": "News Digest Moving Guide UK",
-    "name_ja": "英国ニュースダイジェスト 引越しガイド",
-    "area": "Online",
-    "address": "UK Online",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "email": null,
-    "website": "https://www.news-digest.co.uk/news/life/moving-abroad.html",
-    "description": "在英日本人向け情報誌「英国ニュースダイジェスト」の引越しガイド。英国内引越しから帰国・海外転居まで流れをシミュレーションしながら日本語で確認できる。",
-    "tags": [
-      "引越しガイド",
-      "日本語情報",
-      "在英日本人向け"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "moving"
+    "category": "moving",
+    "place_reviewed": true
   },
   {
     "slug": "central-moves-japan",
@@ -650,7 +542,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "moving"
+    "category": "moving",
+    "place_reviewed": true
   },
   {
     "slug": "sakai-kuwahara-moving-uk",
@@ -685,7 +578,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "gerson-relocation-london",
@@ -720,7 +614,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "santa-fe-relocation-london",
@@ -752,7 +647,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ags-movers-london-uxbridge",
@@ -784,7 +680,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "bishops-move-london-japan",
@@ -818,39 +715,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "britannia-movers-japan-uk",
-    "name": "Britannia Movers International (Japan)",
-    "name_ja": "ブリタニア・ムーバーズ・インターナショナル 日本方面",
-    "area": "UK-wide",
-    "address": null,
-    "phone": "+448456006661",
-    "email": null,
-    "website": "https://www.britannia-movers.co.uk/country-information/japan",
-    "source_url": "https://www.britannia-movers.co.uk/country-information/japan",
-    "description": "英国全土に拠点を持つ大手引越し業者。英国から日本への国際引越しに対応し、梱包・輸送・通関手続きまで一括サービス。英国引越業者協会（BAR）会員。",
-    "detail": "ブリタニア・ムーバーズは英国全土にネットワークを持つ国際引越し業者。英国から日本方面の引越しに対応し、梱包・陸送・海上輸送・通関手続きをワンストップで提供。英国引越業者協会（BAR）会員。複数の地域拠点があり、英国各地からの引越しに対応可能。",
-    "menu": null,
-    "price_range": null,
-    "tags": [
-      "国際引越",
-      "英国→日本",
-      "BAR会員",
-      "梱包サービス"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-04-06",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "white-and-company-japan",
@@ -883,72 +749,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "japanlondonhomes-relocation",
-    "name": "Japan London Homes (Relocation Services)",
-    "name_ja": "ジャパン・ロンドン・ホームズ 引越サポート",
-    "area": "London",
-    "address": null,
-    "phone": null,
-    "email": null,
-    "website": "https://www.japanlondonhomes.com/relocation-services/",
-    "source_url": "https://www.japanlondonhomes.com/relocation-services/",
-    "description": "ロンドンの日本人向け不動産・引越しサポートサービス。物件探しから引越し業者の紹介・ビザ支援まで在英日本人の新生活立ち上げをトータルサポート。",
-    "detail": "Japan London Homesは在英日本人向けに特化した不動産・引越し情報サービス。ロンドン内の物件検索・家賃交渉支援に加え、提携引越し業者への紹介、ビザ・移民手続きの支援先紹介も行う。日本語でのやり取りが可能なため、渡英直後の日本人にも利用しやすい。",
-    "menu": null,
-    "price_range": null,
-    "tags": [
-      "在英日本人向け",
-      "引越しサポート",
-      "日本語対応",
-      "不動産",
-      "リロケーション"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-04-06",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "nippon-express-london-moving",
-    "name": "Nippon Express Co., Ltd. (London)",
-    "name_ja": "日本通運",
-    "area": "London",
-    "address": "London, UK",
-    "phone": null,
-    "email": null,
-    "website": "https://www.nipponexpress.com/moving/uk-en/",
-    "source_url": "https://www.nipponexpress.com/moving/uk-en/",
-    "description": "日本最大級の引越し会社。英国での赴任・帰任に伴う国際引越し対応。日本語サポートあり。",
-    "detail": "日本通運は日本の大手物流企業で、英国全域での引越しサービスと国際引越し（日本との往復）に対応。赴任経験豊富で日本語対応スタッフが在籍。",
-    "menu": null,
-    "price_range": null,
-    "tags": [
-      "引越し",
-      "国際引越し",
-      "日本語対応"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-04-06",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
     "photo_name": null,
-    "phone_local": null
+    "place_reviewed": true
   },
   {
     "slug": "crown-line-london",
@@ -976,7 +778,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yamatane-london",
@@ -1004,7 +807,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nippon-express-london",
@@ -1032,7 +836,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sagawa-express-london",
@@ -1060,7 +865,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yamato-uk-london",
@@ -1088,6 +894,7 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   }
 ]
