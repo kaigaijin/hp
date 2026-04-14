@@ -19,6 +19,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   // 固定ページ
   entries.push({
+    url: `${BASE_URL}/confessions`,
+    changeFrequency: "daily",
+    priority: 0.8,
+  });
+
+  entries.push({
     url: `${BASE_URL}/contact`,
     changeFrequency: "monthly",
     priority: 0.3,
