@@ -1,13 +1,16 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@supabase/supabase-js";
 
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-);
+const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL ?? "";
+const SUPABASE_KEY = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ?? "";
+
+function getClient() {
+  return createClient(SUPABASE_URL, SUPABASE_KEY);
+}
 
 // 投稿一覧取得
 export async function GET(req: NextRequest) {
+  const supabase = getClient();
   const { searchParams } = new URL(req.url);
   const questionId = searchParams.get("question_id");
 
@@ -26,6 +29,7 @@ export async function GET(req: NextRequest) {
 
 // 投稿
 export async function POST(req: NextRequest) {
+  const supabase = getClient();
   const body = await req.json();
   const { question_id, text, country, nickname, is_anonymous } = body;
 
@@ -50,6 +54,7 @@ export async function POST(req: NextRequest) {
 
 // いいね（SQL関数でアトミックにインクリメント）
 export async function PATCH(req: NextRequest) {
+  const supabase = getClient();
   const { id } = await req.json();
   if (!id) return NextResponse.json({ error: "id required" }, { status: 400 });
 
