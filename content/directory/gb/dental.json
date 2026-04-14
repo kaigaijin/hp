@@ -27,37 +27,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "bloom-dental-studio",
-    "name": "Bloom Dental Studio",
-    "name_ja": "ブルームデンタルスタジオ",
-    "area": "Chalk Farm",
-    "address": "Seven Dental Clinic, Chalk Farm, London",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.bloomdentallondon.co.uk/",
-    "description": "歯科医師・松浦直美氏が開設した日本語対応の歯科クリニック。日本の丁寧な診療スタイルを提供。金・土・日に診療。LINE・WhatsAppでの予約も可能。",
-    "tags": [
-      "日本語対応",
-      "日本人歯科医師",
-      "歯科"
-    ],
-    "hours": "Fri-Sun（予約制）",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "bloom-dental-studio-london",
@@ -88,7 +59,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "emilys-dental-wimbledon",
@@ -119,38 +91,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "harley-street-dental-japanese",
-    "name": "Harley Street Dental Clinic",
-    "name_ja": "ハーリーストリート歯科クリニック",
-    "area": "Harley Street",
-    "address": "52 Harley Street, London W1G 9PY",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.harleystreetdentalclinic.co.uk/",
-    "description": "ハーリーストリートにある多文化対応の高級歯科クリニック。日本語通訳サービスを提供し、矯正歯科・インプラント・審美歯科を高水準で実施。",
-    "tags": [
-      "歯科",
-      "日本語通訳",
-      "高級",
-      "審美歯科"
-    ],
-    "hours": "Mon-Fri 9:00-17:30",
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "infiniti-dental-japanese",
@@ -181,66 +123,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "infinitidental-clinic-wimbledon",
-    "name": "Infinitidental Clinic",
-    "name_ja": "インフィニティデンタルクリニック",
-    "area": "Wimbledon",
-    "address": "146 Merton Hall Road, London SW19 3PZ",
-    "lat": null,
-    "lng": null,
-    "phone": "+442085422171",
-    "website": "https://infinitidentalclinic.com/",
-    "description": "日本語が堪能なDr. Kazuko Hashimotoが在籍。審美歯科・修復歯科を専門とし、日本語での診療が可能。",
-    "tags": [
-      "日本語対応",
-      "日本人歯科医師",
-      "審美歯科"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "ko-dental-practice",
-    "name": "Ko Dental Practice",
-    "name_ja": "高歯科医院",
-    "area": "Marylebone",
-    "address": "Flat 2, 66 Wimpole Street, London W1G 8AW",
-    "lat": null,
-    "lng": null,
-    "phone": "+442079355983",
-    "website": "https://kodental.co.uk/",
-    "description": "Wimpole Street（ロンドンの医療街）にある日本語対応の歯科医院。",
-    "tags": [
-      "日本語対応",
-      "歯科"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "lic-dental-clinic-london",
@@ -272,7 +156,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "midori-dental-care",
@@ -301,191 +186,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "nami-dental-clinic",
-    "name": "Nami Dental Clinic",
-    "name_ja": "奈美デンタルクリニック",
-    "area": "South Hampstead",
-    "address": "19A Canfield Place, London NW6 3BT",
-    "lat": null,
-    "lng": null,
-    "phone": "+442076252722",
-    "website": "https://www.namidentalclinic.com/",
-    "description": "日本語対応の歯科クリニック。Finchley Road駅から徒歩1分の立地。",
-    "tags": [
-      "日本語対応",
-      "歯科"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sakura-dental-clinic",
-    "name": "Sakura Dental Clinic",
-    "name_ja": "さくらデンタルクリニック",
-    "area": "Colindale",
-    "address": "4 Damsel Walk, London NW9 7FB",
-    "lat": null,
-    "lng": null,
-    "phone": "+442033430700",
-    "website": "https://sakuradc.co.uk/",
-    "description": "日本人コミュニティ向けに特化した歯科クリニック。日本語での診療に対応。CQC（英国医療品質委員会）登録済み。",
-    "tags": [
-      "日本語対応",
-      "歯科",
-      "日本人コミュニティ向け"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sakura-dental-clinic-uk",
-    "name": "Sakura Dental Clinic",
-    "name_ja": "さくらデンタルクリニック",
-    "area": "Marylebone",
-    "address": "15 Cavendish Square, London W1G 0DD",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://sakuradc.co.uk/",
-    "description": "マリルボーンにある日系歯科クリニック。日本語対応スタッフが在籍し、一般歯科・審美歯科・インプラントを提供。日本人コミュニティに特化したサービスが特徴。",
-    "tags": [
-      "歯科",
-      "日本語対応",
-      "審美歯科",
-      "インプラント"
-    ],
-    "hours": "Mon-Fri 9:00-17:00",
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "japan-expat-dentist-london",
-    "name": "Japan Expat Dentist",
-    "name_ja": "ジャパンエクスパットデンティスト",
-    "area": "Harley Street",
-    "address": "100 Harley Street, London W1G 7JA",
-    "lat": null,
-    "lng": null,
-    "phone": "+442079357815",
-    "website": "https://japanexpatdentist.doctor/",
-    "description": "ハーリーストリートにある日本語専用ライン（07724 299435）を設けた歯科クリニック。予防・小児・美容・インプラントに対応し、Bupa・Cigna等の国際保険にも対応。",
-    "tags": [
-      "日本語対応",
-      "日本語専用ライン",
-      "予防歯科",
-      "インプラント",
-      "海外保険対応"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": "frenchdental.japandesk@gmail.com",
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "windsor-road-dental-surgery",
-    "name": "Windsor Road Dental Surgery & Implant Centre",
-    "name_ja": "ウィンザーロードデンタルサージェリー",
-    "area": "Ealing Broadway",
-    "address": "3 Windsor Road, Ealing, London W5 3UL",
-    "lat": null,
-    "lng": null,
-    "phone": "+442085675347",
-    "website": "https://windsordentalimplants.co.uk/japanese-dentist-london",
-    "description": "日英両国の歯科免許を持つDr.上野ほなみが在籍。2010年よりロンドンの日本人コミュニティを診察し、虫歯・歯周病治療・予防・矯正（ディプロマ取得済み）に対応。",
-    "tags": [
-      "日本語対応",
-      "日本人歯科医師",
-      "予防歯科",
-      "矯正歯科",
-      "インプラント"
-    ],
-    "hours": "Mon-Fri 9:00-17:00, Sat 9:00-13:00",
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 1,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "keith-cohen-dental-harley-street",
-    "name": "Keith Cohen Dental Surgery (Harley Street)",
-    "name_ja": "キース・コーヘン総合歯科医院（ハーリーストリート）",
-    "area": "Harley Street",
-    "address": "23 Harley Street, London W1G 9QN",
-    "lat": null,
-    "lng": null,
-    "phone": "+442074362328",
-    "website": "https://www.keithcohendentist.co.uk/",
-    "description": "ハーリーストリートの日本語ウェブサイト・日本語Twitter運営の歯科医院。日本語対応スタッフが在籍し、シティ・アクトンにも拠点を持つ在英日本人に長年支持されるクリニック。",
-    "tags": [
-      "日本語対応",
-      "歯科",
-      "審美歯科"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "keith-cohen-dental-city",
@@ -515,7 +217,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "keith-cohen-dental-acton",
@@ -545,35 +248,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "japan-expat-dentist",
-    "name": "Japan Expat Dentist",
-    "name_ja": "ジャパン エクスパット デンティスト",
-    "area": "Harley Street",
-    "address": "100 Harley Street, London W1G 7JA",
-    "lat": null,
-    "lng": null,
-    "phone": "+442079357815",
-    "email": null,
-    "website": "https://japanexpatdentist.doctor/",
-    "source_url": "https://guide.news-digest.co.uk/japan-expat-dentist/",
-    "description": "ロンドン最高峰の医療街ハーレーストリートに位置する日本語通訳付き私立歯科医院。日本語専用ライン（07724 299435）あり。Bupa・Cigna・AXA等の各種保険対応。予防・インプラント・ホワイトニング。",
-    "tags": [
-      "日本語対応歯科",
-      "ハーレーストリート",
-      "日本語専用ライン",
-      "保険対応",
-      "私立"
-    ],
-    "hours": "月 10:00〜19:00 / 火水 8:00〜20:00 / 木 8:00〜19:00 / 金 8:00〜17:00",
-    "last_verified": "2026-04-04",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "windsor-road-dental",
@@ -601,35 +277,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
-  },
-  {
-    "slug": "keith-cohen-dental-harley",
-    "name": "Keith Cohen Dental Surgery (Harley Street)",
-    "name_ja": "キースコーヘン総合歯科医院 ハーレーストリート",
-    "area": "Harley Street",
-    "address": "23 Harley Street, London W1G 9QN",
-    "lat": null,
-    "lng": null,
-    "phone": "+442074362328",
-    "email": null,
-    "website": "https://www.keithcohendentist.co.uk/",
-    "source_url": "http://news-digest.co.uk/news/life/health-and-beauty-guide/12812-keith-cohen-dental-surgery.html",
-    "description": "30年以上の経験を持つハーレーストリートの総合歯科医院。日本語を含む多言語対応チームを擁し、在ロンドン日本人に長く利用されてきた。矯正・インプラント・審美歯科を専門とする。",
-    "tags": [
-      "日本語対応歯科",
-      "ハーレーストリート",
-      "多言語対応",
-      "インプラント",
-      "審美歯科"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-04",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "infinitidental-clinic",
@@ -657,7 +306,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "yourdental-clinic-hendon",
@@ -681,7 +331,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "hilltop-dental-birmingham",
@@ -711,7 +362,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "gentle-dentist-covent-garden",
@@ -742,7 +394,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ko-dental-wimpole-street",
@@ -782,7 +435,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nami-dental-clinic-london",
@@ -822,70 +476,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "sakura-dental-clinic-london",
-    "name": "Sakura Dental Clinic",
-    "name_ja": "さくら歯科クリニック",
-    "area": "Hendon",
-    "address": "4 Damsel Walk, London NW9 7FB",
-    "phone": "+442033430700",
-    "email": "",
-    "website": "https://sakuradc.co.uk",
-    "source_url": "https://sakuradc.co.uk/",
-    "description": "ヘンドンの日本人コミュニティ向け専門歯科クリニック。日本語スタッフが在籍し、在英日本人が安心して受診できる環境。",
-    "detail": "Sakura Dental Clinicはロンドン北部ヘンドン地区に位置する、日本人コミュニティへのサービスを専門とする歯科クリニック。英国CQC（医療品質委員会）登録済み。一般歯科診療から審美治療まで幅広く対応し、日本語でのコミュニケーションが可能なため、英語が不安な方でも安心して受診できます。",
-    "menu": [],
-    "price_range": "",
-    "tags": [
-      "dental",
-      "japanese-service"
-    ],
-    "hours": "要確認",
-    "status": "unverified",
-    "last_verified": "2026-04-05",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "infiniti-dental-wimbledon-japanese",
-    "name": "Infiniti Dental Clinic",
-    "name_ja": "インフィニティ歯科クリニック",
-    "area": "Wimbledon",
-    "address": "146 Merton Hall Road, Wimbledon, London SW19 3PZ",
-    "phone": "+442085422171",
-    "email": "",
-    "website": "https://infinitidentalclinic.com",
-    "source_url": "https://infinitidentalclinic.com/japanese-dentist-london-fluent-speaking-japanese-dental-team/",
-    "description": "ウィンブルドンの日本語対応歯科クリニック。橋本和子院長（日本語堪能）が在籍し、審美歯科・インビザライン・ホワイトニングを専門的に担当。",
-    "detail": "Infiniti Dental Clinicはウィンブルドンに位置するプライベート歯科クリニック。日本語で流暢に対応できる橋本和子歯科医師が在籍し、日本人患者・訪英者への対応に注力。歯科技工士の経歴も持つ橋本医師はリーズ大学で歯科学を修め、イーストマン歯科病院で10年以上勤務した経歴を持つ。インビザライン・歯のホワイトニング・コンポジットボンディング・クラウン・ベニアなど審美歯科に特化。",
-    "menu": [],
-    "price_range": "£££",
-    "tags": [
-      "dental",
-      "japanese-service",
-      "cosmetic-dentistry",
-      "invisalign",
-      "whitening"
-    ],
-    "hours": "月-金 9:00-17:00 / 土 9:00-13:00",
-    "status": "unverified",
-    "last_verified": "2026-04-05",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "sakura-dental-clinic-hendon",
@@ -916,7 +508,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "harley-street-dental-clinic-japanese",
@@ -948,72 +541,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "infinitidental-wimbledon-japanese",
-    "name": "Infinitidental Clinic",
-    "name_ja": "インフィニティデンタルクリニック",
-    "area": "Wimbledon",
-    "address": "146 Merton Hall Road, Wimbledon, London SW19 3PZ",
-    "phone": "+442085422171",
-    "email": null,
-    "website": "https://infinitidentalclinic.com",
-    "source_url": "https://infinitidentalclinic.com/japanese-dentist-london-fluent-speaking-japanese-dental-team/",
-    "description": "ウィンブルドンにある日本語対応歯科クリニック。橋本和子先生（Leeds大学卒）が日本語で診察。ロンドン・イーストマン歯科病院出身。ホワイトニング・インビザライン・審美歯科を専門とする。",
-    "detail": "ウィンブルドンに位置する私立歯科クリニック。日本語堪能な橋本和子先生（MChD, BChD, BSc）が在籍し、日本語での相談・診察が可能。Leeds大学歯科学部卒業後、ロンドンのイーストマン歯科病院に10年以上勤務した実績を持つ。歯科技工士としての知識も兼ね備え、詳細にこだわった低侵襲治療を提供。ホワイトニング（Enlighten）、インビザライン、複合レジン充填、被せ物・ベニアなどの審美歯科が専門。日本からの学生・旅行者も受け付け。月〜金9時〜17時、土9時〜13時。",
-    "menu": [],
-    "price_range": null,
-    "tags": [
-      "日本語対応",
-      "日本人歯科医",
-      "審美歯科",
-      "インビザライン"
-    ],
-    "hours": "Mon-Fri 9:00-17:00, Sat 9:00-13:00",
-    "status": "unverified",
-    "last_verified": "2026-04-05",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "japan-expat-dentist-harley-street",
-    "name": "Japan Expat Dentist",
-    "name_ja": "ジャパン・エクスパット・デンティスト",
-    "area": "Harley Street",
-    "address": "100 Harley Street, London W1G 7JA",
-    "phone": "+442079357815",
-    "email": "frenchdental.japandesk@gmail.com",
-    "website": "https://japanexpatdentist.doctor",
-    "source_url": "https://guide.news-digest.co.uk/japan-expat-dentist/",
-    "description": "ハーレーストリートに構える在英日本人向け歯科クリニック。日本語専用電話あり。予防・小児・審美・インプラント・CEREC等に対応し、国際保険（BUPA/Cigna/AXA）のキャッシュレス対応も可能。",
-    "detail": "世界的に有名な医療街ハーレーストリートに位置する、在英日本人向け歯科クリニック。フランス語・英語・日本語対応で、日本語専用問い合わせ番号（07724 299435）を設置。予防歯科・小児歯科・審美歯科・インプラント・CERECワンデイ治療・無痛レーザー治療まで幅広く対応。BUPA International、Cigna、AXA、Allianzなど国際保険のキャッシュレス対応も可能。15年以上の実績を持つ旧フレンチ・デンタル・プラクティスの後継クリニック。",
-    "menu": [],
-    "price_range": null,
-    "tags": [
-      "日本語対応",
-      "ハーレーストリート",
-      "国際保険対応",
-      "インプラント",
-      "CEREC"
-    ],
-    "hours": null,
-    "status": "unverified",
-    "last_verified": "2026-04-05",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "japan-expat-dentist-harley-100",
@@ -1053,7 +582,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "keith-cohen-dental-harley-street-main",
@@ -1093,6 +623,7 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   }
 ]
