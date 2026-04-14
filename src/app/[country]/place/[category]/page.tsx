@@ -87,35 +87,41 @@ export function generateMetadata({
     // グループの場合
     const group = getCategoryGroup(slug);
     if (group) {
+      const canonicalUrl = `https://kaigaijin.jp/${code}/place/${slug}`;
       return {
         title: `${country.name}の${group.name}`,
         description: `${country.name}で日本人におすすめの${group.name}をカテゴリ別に探せるKAIプレイス。`,
+        alternates: { canonical: canonicalUrl },
         openGraph: {
           title: `${country.name}の${group.name} | KAIプレイス`,
           description: `${country.name}の${group.name}をカテゴリ別に探せるKAIプレイス。`,
           type: "website",
           locale: "ja_JP",
-          url: `https://kaigaijin.jp/${code}/place/${slug}`,
+          url: canonicalUrl,
           siteName: "Kaigaijin",
         },
+        twitter: { card: "summary_large_image" },
       };
     }
 
     // カテゴリの場合
     const category = getCategory(slug);
     if (!category) return {};
+    const canonicalUrl = `https://kaigaijin.jp/${code}/place/${slug}`;
     const desc = `${country.name}の${category.name}を一覧で紹介。${category.description}住所・電話番号・営業時間など詳細情報つき。`;
     return {
       title: `${country.name}の${category.name}【日本人向け】`,
       description: desc,
+      alternates: { canonical: canonicalUrl },
       openGraph: {
         title: `${country.name}の${category.name}【日本人向け】 | Kaigaijin`,
         description: desc,
         type: "website",
         locale: "ja_JP",
-        url: `https://kaigaijin.jp/${code}/place/${slug}`,
+        url: canonicalUrl,
         siteName: "Kaigaijin",
       },
+      twitter: { card: "summary_large_image" },
     };
   });
 }
@@ -189,8 +195,26 @@ export default async function CategoryPage({
     const renderGroupIcon = iconMap[group.icon];
     const theme = getGroupTheme(group.slug);
 
+    const jsonLdItemListGroup = {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      name: `${country.name}の${group.name}`,
+      url: `https://kaigaijin.jp/${code}/place/${slug}`,
+      numberOfItems: groupplaces.length,
+      itemListElement: groupplaces.slice(0, 10).map((place, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        name: place.name_ja ?? place.name,
+        url: `https://kaigaijin.jp/${code}/place/${place.categorySlug}/${place.slug}`,
+      })),
+    };
+
     return (
       <>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdItemListGroup) }}
+        />
         <Header />
         <main className="bg-stone-100 dark:bg-stone-900 min-h-screen">
           <div className="bg-gradient-to-br from-stone-950 via-[#1a2e35] to-[#2d1a0e]">
@@ -298,8 +322,26 @@ export default async function CategoryPage({
     g.categories.includes(catSlug),
   );
 
+  const jsonLdItemList = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: `${country.name}の${category.name}【日本人向け】`,
+    url: `https://kaigaijin.jp/${code}/place/${catSlug}`,
+    numberOfItems: places.length,
+    itemListElement: places.slice(0, 10).map((place, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: place.name_ja ?? place.name,
+      url: `https://kaigaijin.jp/${code}/place/${catSlug}/${place.slug}`,
+    })),
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdItemList) }}
+      />
       <Header />
       <main className="bg-stone-100 dark:bg-stone-900 min-h-screen">
         {/* ダークアースヒーロー */}

@@ -32,9 +32,20 @@ export async function generateMetadata({
   const fallback = FALLBACK_DISPLAY[code];
   if (!country && !fallback) return {};
   const name = country?.name ?? fallback.name;
+  const canonicalUrl = `https://kaigaijin.jp/${code}/column`;
   return {
     title: `${name}の生活ガイド | Kaigaijin`,
     description: `${name}在住日本人のためのビザ・税金・保険・住居・医療情報。`,
+    alternates: { canonical: canonicalUrl },
+    openGraph: {
+      title: `${name}の生活ガイド | Kaigaijin`,
+      description: `${name}在住日本人のためのビザ・税金・保険・住居・医療情報。`,
+      type: "website",
+      locale: "ja_JP",
+      url: canonicalUrl,
+      siteName: "Kaigaijin",
+    },
+    twitter: { card: "summary_large_image" },
   };
 }
 
@@ -71,11 +82,30 @@ export default async function ColumnIndexPage({
     美容: ["beauty-health"],
   };
 
+  const name = country?.name ?? fallback?.name ?? "海外生活";
+  const jsonLdCollectionPage = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: `${name}の生活ガイド`,
+    description: `${name}在住日本人のためのビザ・税金・保険・住居・医療情報。`,
+    url: `https://kaigaijin.jp/${code}/column`,
+    inLanguage: "ja",
+    publisher: {
+      "@type": "Organization",
+      name: "Kaigaijin",
+      url: "https://kaigaijin.jp",
+    },
+  };
+
   // overseasの場合はCountryHero不要（国情報がない）
   if (!country) {
     const display = fallback;
     return (
       <>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdCollectionPage) }}
+        />
         <Header />
         <main className="py-12 md:py-20">
           <div className="max-w-3xl mx-auto px-4">
@@ -105,6 +135,10 @@ export default async function ColumnIndexPage({
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdCollectionPage) }}
+      />
       <Header />
       <main>
         <CountryHero

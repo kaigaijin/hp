@@ -85,17 +85,20 @@ export function generateMetadata({
   return params.then(({ country: code }) => {
     const country = getCountry(code);
     if (!country) return {};
+    const canonicalUrl = `https://kaigaijin.jp/${code}/place`;
     return {
       title: `${country.name}のKAIプレイス — 日本人向けスポット一覧`,
       description: `${country.name}で日本人に便利なレストラン・クリニック・美容室・不動産など、カテゴリ別に探せるKAIプレイス。`,
+      alternates: { canonical: canonicalUrl },
       openGraph: {
         title: `${country.name}のKAIプレイス | Kaigaijin`,
         description: `${country.name}で日本人に便利なスポットをカテゴリ別に探せるKAIプレイス。`,
         type: "website",
         locale: "ja_JP",
-        url: `https://kaigaijin.jp/${code}/place`,
+        url: canonicalUrl,
         siteName: "Kaigaijin",
       },
+      twitter: { card: "summary_large_image" },
     };
   });
 }
@@ -138,8 +141,26 @@ export default async function placeIndexPage({
     group: categoryGroups.find((g) => g.categories.includes(s.category))?.slug ?? "",
   }));
 
+  const jsonLdPlaceIndex = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: `${country.name}のKAIプレイス — 日本人向けスポット一覧`,
+    description: `${country.name}で日本人に便利なレストラン・クリニック・美容室・不動産など、カテゴリ別に探せるKAIプレイス。`,
+    url: `https://kaigaijin.jp/${code}/place`,
+    inLanguage: "ja",
+    publisher: {
+      "@type": "Organization",
+      name: "Kaigaijin",
+      url: "https://kaigaijin.jp",
+    },
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdPlaceIndex) }}
+      />
       <Header />
       <main className="bg-sand-50 dark:bg-stone-950 min-h-screen">
 

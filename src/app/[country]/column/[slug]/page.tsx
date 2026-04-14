@@ -50,16 +50,22 @@ export async function generateMetadata({
   const article = getArticle(code, slug);
   if (!article) return {};
   const country = getCountry(code);
+  const canonicalUrl = `https://kaigaijin.jp/${code}/column/${slug}`;
   return {
     title: `${article.meta.title} | ${country?.name ?? ""} | Kaigaijin`,
     description: article.meta.description,
+    alternates: { canonical: canonicalUrl },
     openGraph: {
       title: `${article.meta.title} | ${country?.name ?? ""} | Kaigaijin`,
       description: article.meta.description,
       type: "article",
+      locale: "ja_JP",
+      url: canonicalUrl,
+      siteName: "Kaigaijin",
       publishedTime: article.meta.date,
       modifiedTime: article.meta.lastModified || article.meta.date,
     },
+    twitter: { card: "summary_large_image" },
   };
 }
 
@@ -79,7 +85,7 @@ export default async function ArticlePage({
       ? { name: "海外生活", flag: "🌏", code }
       : { name: "コラム", flag: "📰", code });
 
-  const baseUrl = "https://kaigaijin.com";
+  const baseUrl = "https://kaigaijin.jp";
 
   const jsonLdArticle = {
     "@context": "https://schema.org",

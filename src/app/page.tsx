@@ -1,7 +1,24 @@
+import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { countries } from "@/lib/countries";
 import { getCategoryCounts } from "@/lib/directory";
+
+export const metadata: Metadata = {
+  title: "Kaigaijin | 海外在住日本人のための国別生活ガイド",
+  description:
+    "シンガポール、タイ、UAE、マレーシア…国別に深い生活情報を届ける、海外在住日本人のためのメディア。ビザ・保険・住居・税金・医療、現地で本当に必要な情報を。",
+  alternates: { canonical: "https://kaigaijin.jp" },
+  openGraph: {
+    title: "Kaigaijin | 海外在住日本人のための国別生活ガイド",
+    description: "国別に深い生活情報を届ける、海外在住日本人のためのメディア。",
+    type: "website",
+    locale: "ja_JP",
+    url: "https://kaigaijin.jp",
+    siteName: "Kaigaijin",
+  },
+  twitter: { card: "summary_large_image" },
+};
 
 export default function Home() {
   // 各国のスポット件数を計算
