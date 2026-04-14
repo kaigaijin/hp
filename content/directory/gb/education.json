@@ -29,7 +29,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ebisu-juku-birmingham",
@@ -59,7 +60,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ec-english-london-japanese",
@@ -90,7 +92,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "gakken-online-uk",
@@ -121,7 +124,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "japan-centre-language-school-london",
@@ -152,39 +156,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "japan-house-events-london",
-    "name": "Japan House London Events",
-    "name_ja": "ジャパンハウス ロンドン イベント",
-    "area": "Kensington",
-    "address": "101-111 Kensington High Street, London W8 5SA",
-    "lat": null,
-    "lng": null,
-    "phone": "+442073708555",
-    "website": "https://www.japanhouselondon.uk",
-    "description": "ケンジントンのジャパンハウスで定期開催される文化・教育イベント。書道・折り紙・茶道体験から講演会まで幅広い。",
-    "tags": [
-      "日本文化",
-      "教育",
-      "イベント",
-      "ケンジントン",
-      "ジャパンハウス"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 2,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "japan-house-london",
@@ -215,7 +188,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "japanese-school-in-london",
@@ -246,7 +220,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "japanese-school-london-maida-vale",
@@ -278,7 +253,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kaplan-london-japanese-support",
@@ -309,7 +285,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kumon-london-japanese",
@@ -342,7 +319,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "london-japanese-international-school",
@@ -376,70 +354,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "london-supplementary-school-acton",
-    "name": "London Japanese Supplementary School (Acton Campus)",
-    "name_ja": "ロンドン補習授業校 アクトン校",
-    "area": "Acton",
-    "address": "87 Creffield Road, Acton, London W3 9PU",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.thejapaneseschool.ltd.uk/londonhoshuko/top.html",
-    "description": "土曜日に開校する日本語補習授業校。現地校やインターナショナルスクールに通う日本人子女向け。文部科学省検定教科書を使用。Acton、Brent、Croydonの3キャンパスで運営。",
-    "tags": [
-      "補習校",
-      "土曜授業",
-      "日本語教育",
-      "文部科学省"
-    ],
-    "hours": "土曜日のみ",
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "london-supplementary-school-brent",
-    "name": "London Japanese Supplementary School (Brent Campus)",
-    "name_ja": "ロンドン補習授業校 ブレント校",
-    "area": "Cricklewood",
-    "address": "Claremont Road, Cricklewood, London NW2 1TR",
-    "lat": null,
-    "lng": null,
-    "phone": "+442089937145",
-    "website": "https://www.thejapaneseschool.ltd.uk/londonhoshuko/top.html",
-    "description": "ロンドン補習授業校のブレントキャンパス。北/北東/東ロンドン在住の日本人子女が対象。土曜9:30〜12:15に日本語・算数等の授業を実施。Brent Cross駅から徒歩12分。",
-    "tags": [
-      "補習校",
-      "土曜授業",
-      "日本語教育",
-      "文部科学省",
-      "クリクルウッド"
-    ],
-    "hours": "土曜日 9:30-12:15",
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "manchester-japanese-school",
@@ -469,7 +385,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nippon-club-london",
@@ -499,7 +416,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "progrit-uk-english-coaching",
@@ -531,7 +449,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "suzuki-music-london",
@@ -564,7 +483,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "wao-corporation-uk",
@@ -596,7 +516,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "z-kai-uk",
@@ -628,39 +549,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "london-supplementary-school-croydon",
-    "name": "London Japanese Supplementary School (Croydon Campus)",
-    "name_ja": "ロンドン補習授業校 クロイドン校",
-    "area": "South Croydon",
-    "address": "Old Farleigh Road, South Croydon CR2 8YB",
-    "lat": null,
-    "lng": null,
-    "phone": "+442089937145",
-    "website": "https://www.thejapaneseschool.ltd.uk/londonhoshuko/top.html",
-    "description": "ロンドン補習授業校のクロイドンキャンパス。南ロンドン・南東ロンドン在住の日本人子女が対象。土曜日に日本語・算数等を文部科学省検定教科書で学ぶ。",
-    "tags": [
-      "補習校",
-      "土曜授業",
-      "日本語教育",
-      "文部科学省",
-      "クロイドン"
-    ],
-    "hours": "土曜日のみ",
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kent-japanese-school",
@@ -692,7 +582,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "rikkyo-school-in-england",
@@ -724,7 +615,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "teikyo-school-uk",
@@ -756,7 +648,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "derbyshire-japanese-school",
@@ -787,7 +680,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yorkshire-humberside-japanese-school",
@@ -819,39 +713,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "wales-japanese-school",
-    "name": "Japanese School in Wales",
-    "name_ja": "ウェールズ日本人補習校",
-    "area": "Cardiff",
-    "address": "c/o Whitchurch Upper High School, Penlline Road, Whitchurch, Cardiff CF14 2XJ",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://walesjapanclub.com/wales-japanes-school/",
-    "description": "1981年カーディフで設立したウェールズ唯一の日本語補習授業校。ウェールズジャパンクラブが運営し、土曜日に年約41回の授業を提供する。",
-    "tags": [
-      "補習校",
-      "土曜授業",
-      "日本語教育",
-      "ウェールズ",
-      "カーディフ"
-    ],
-    "hours": "土曜日のみ",
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "scotland-japanese-school",
@@ -882,7 +745,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "telford-japanese-school",
@@ -914,70 +778,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "north-east-england-japanese-school",
-    "name": "North East of England Japanese Saturday School",
-    "name_ja": "北東イングランド補習授業校",
-    "area": "Washington, Tyne and Wear",
-    "address": "Oxclose Community School, Washington, Tyne and Wear（要問合せ）",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://neengland-hoshuko.jimdofree.com/",
-    "description": "北東イングランド（ニューカッスル・サンダーランド周辺）在住の日本人子女向け土曜補習授業校。年41回の授業を実施し、帰国後の学校生活への円滑な適応をサポート。",
-    "tags": [
-      "補習校",
-      "土曜授業",
-      "日本語教育",
-      "北東イングランド"
-    ],
-    "hours": "土曜日のみ",
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": "neengland.hoshuko@gmail.com",
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "japan-foundation-london-language",
-    "name": "The Japan Foundation London Language Centre",
-    "name_ja": "国際交流基金ロンドン 語学センター",
-    "area": "Russell Square",
-    "address": "Russell Square House, 10-12 Russell Square, London WC1B 5EH",
-    "lat": null,
-    "lng": null,
-    "phone": "+442074366698",
-    "website": "https://www.jpf.org.uk/language/",
-    "description": "国際交流基金（ジャパンファウンデーション）のロンドン語学センター。大人向け日本語コース「Japanese Plus」を夜間クラスで提供。ラッセルスクエア駅から徒歩2分。",
-    "tags": [
-      "日本語学校",
-      "語学センター",
-      "大人向け",
-      "夜間クラス",
-      "国際交流基金"
-    ],
-    "hours": "Mon-Fri 10:00-18:00",
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 1,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": "info.language@jpf.org.uk",
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ito-japanese-school-london",
@@ -1009,7 +811,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "city-lit-japanese-london",
@@ -1041,7 +844,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "soas-japanese-language",
@@ -1073,39 +877,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "nihon-go-world-london",
-    "name": "Nihon GO! World London",
-    "name_ja": "日本語スクール ロンドン（ニホンゴワールド）",
-    "area": "Euston",
-    "address": "Euston, London（詳細住所は要問合せ）",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://nihongo-world.com/london/",
-    "description": "文部科学省公認の日本語教師資格を持つネイティブ教師のみが担当する、英国唯一の日本語学校。プライベートレッスン£45〜、JLPT対策・ビジネス日本語・GCSE対応。",
-    "tags": [
-      "日本語学校",
-      "語学学校",
-      "JLPT",
-      "プライベートレッスン",
-      "ユーストン"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nihon-go-world-manchester",
@@ -1137,7 +910,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "brasshouse-languages-birmingham",
@@ -1168,7 +942,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "oxford-japanese-school",
@@ -1200,7 +975,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "yu-japanese-language-school-bristol",
@@ -1232,7 +1008,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "joba-finchley",
@@ -1256,7 +1033,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "ena-london",
@@ -1281,7 +1059,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "waseda-academy-london",
@@ -1306,7 +1085,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "miyabi-nursery-acton",
@@ -1330,7 +1110,8 @@
     "source": "web_search",
     "place_id": "",
     "priority": 0,
-    "ai_reviewed": true
+    "ai_reviewed": true,
+    "place_reviewed": true
   },
   {
     "slug": "the-japanese-school-london",
@@ -1362,163 +1143,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "education"
-  },
-  {
-    "slug": "manchester-japanese-school-lymm",
-    "name": "Manchester Japanese School",
-    "name_ja": "マンチェスター日本人補習授業校",
-    "area": "ウォリントン（リム）",
-    "address": "Lymm High School, Oughtrington Lane, Lymm, Warrington WA13 0RN",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "マンチェスター近郊のリムに位置する日本語補習校。現地日本人学校に通う子供たちの週末日本語教育を担う文部省準拠の補習校。",
-    "tags": [
-      "日本語補習校",
-      "土曜日",
-      "マンチェスター近郊"
-    ],
-    "hours": "土曜日授業",
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "education"
-  },
-  {
-    "slug": "scotland-japanese-school-livingston",
-    "name": "The Scotland Japanese School",
-    "name_ja": "スコットランド日本語補習授業校",
-    "area": "リビングストン（エディンバラ近郊）",
-    "address": "Livingston, West Lothian, Scotland",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "1982年設立のスコットランド日本語補習校。エディンバラ近郊のリビングストンを拠点に、スコットランド在住日本人児童の日本語教育を担う。",
-    "tags": [
-      "日本語補習校",
-      "スコットランド",
-      "土曜日"
-    ],
-    "hours": "土曜日授業",
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "education"
-  },
-  {
-    "slug": "kent-japanese-school-hythe",
-    "name": "Kent Japanese School",
-    "name_ja": "ケント日本語補習校",
-    "area": "ハイズ（ケント）",
-    "address": "Hythe, Kent, England",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.kentjapaneseschool.org.uk",
-    "description": "2007年設立のケント州の日本語補習校。サウスイースト在住の日本人児童を対象に年35回以上の授業を実施する文部省準拠の補習校。",
-    "tags": [
-      "日本語補習校",
-      "ケント",
-      "南東イングランド"
-    ],
-    "hours": "土曜日授業",
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "education"
-  },
-  {
-    "slug": "north-east-england-japanese-saturday-school",
-    "name": "North East of England Japanese Saturday School",
-    "name_ja": "北東イングランド補習授業校",
-    "area": "ワシントン（タイン・アンド・ウィア）",
-    "address": "Oxclose Community School, Washington, Tyne and Wear",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "ニューカッスル近郊のワシントン（サンダーランド近く）を拠点とする日本語補習校。北東イングランド在住の日本人児童の日本語教育を担う。",
-    "tags": [
-      "日本語補習校",
-      "北東イングランド",
-      "土曜日"
-    ],
-    "hours": "土曜日授業",
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "education"
-  },
-  {
-    "slug": "wales-japanese-school-cardiff",
-    "name": "Japanese School in Wales",
-    "name_ja": "ウェールズ日本人補習授業校",
-    "area": "カーディフ",
-    "address": "Whitchurch High School, Penlline Road, Whitchurch, Cardiff CF14 2XJ",
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "カーディフのホワイトチャーチ高校を会場とする日本語補習校。幼稚園〜中学生を対象に毎週土曜日に日本語・数学を教える。",
-    "tags": [
-      "日本語補習校",
-      "ウェールズ",
-      "カーディフ",
-      "土曜日"
-    ],
-    "hours": "土曜日授業",
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "education"
+    "category": "education",
+    "place_reviewed": true
   },
   {
     "slug": "japan-foundation-london-language-centre",
@@ -1550,7 +1176,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "education"
+    "category": "education",
+    "place_reviewed": true
   },
   {
     "slug": "nihon-go-london",
@@ -1582,38 +1209,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "education"
-  },
-  {
-    "slug": "nihon-go-manchester",
-    "name": "Nihon GO! Manchester",
-    "name_ja": "日本語スクール マンチェスター（ニホンゴー）",
-    "area": "マンチェスター",
-    "address": null,
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://nihongo-world.com/manchester/",
-    "description": "マンチェスター市内中心部で展開する日本語学校。文部科学省認定教師が担当し、ノーザンクォーター近くで幅広いレベルに対応する。",
-    "tags": [
-      "日本語学校",
-      "認定教師",
-      "マンチェスター"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "education"
+    "category": "education",
+    "place_reviewed": true
   },
   {
     "slug": "nihongoschool-london",
@@ -1645,7 +1242,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "education"
+    "category": "education",
+    "place_reviewed": true
   },
   {
     "slug": "international-house-london-japanese",
@@ -1677,7 +1275,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "education"
+    "category": "education",
+    "place_reviewed": true
   },
   {
     "slug": "international-house-edinburgh-japanese",
@@ -1708,39 +1307,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "education"
-  },
-  {
-    "slug": "nihongo-connection-edinburgh",
-    "name": "Nihongo Connection",
-    "name_ja": "ニホンゴコネクション（エディンバラ）",
-    "area": "エディンバラ",
-    "address": null,
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.nihongoconnection.com",
-    "description": "エディンバラ発のボランティア運営による日本語学習クラブ。JLPTブートキャンプや会話練習会などを提供するスコットランドの日本語コミュニティ。",
-    "tags": [
-      "日本語学習",
-      "JLPT",
-      "ボランティア",
-      "エディンバラ"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "education"
+    "category": "education",
+    "place_reviewed": true
   },
   {
     "slug": "university-manchester-japanese-ulc",
@@ -1772,7 +1340,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "education"
+    "category": "education",
+    "place_reviewed": true
   },
   {
     "slug": "university-birmingham-japanese-lfa",
@@ -1804,39 +1373,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "education"
-  },
-  {
-    "slug": "japanese-saturday-school-london-hoshuko",
-    "name": "Japanese Saturday School in London (Hoshuko)",
-    "name_ja": "ロンドン補習授業校",
-    "area": "ロンドン（アクトン・ブレント・クロイドン）",
-    "address": "87 Creffield Road, Acton, London W3 9PU（アクトンキャンパス）",
-    "lat": null,
-    "lng": null,
-    "phone": "+442089937145",
-    "website": "https://www.thejapaneseschool.ltd.uk",
-    "description": "ロンドン日本人学校付設の補習授業校。アクトン・ブレント・クロイドンの3キャンパスで毎週土曜に小中高の日本語・算数教育を実施。",
-    "tags": [
-      "日本語補習校",
-      "土曜日",
-      "ロンドン",
-      "小中高"
-    ],
-    "hours": "土曜日授業",
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "education"
+    "category": "education",
+    "place_reviewed": true
   },
   {
     "slug": "oxford-university-language-centre-japanese",
@@ -1868,7 +1406,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "education"
+    "category": "education",
+    "place_reviewed": true
   },
   {
     "slug": "oxford-lifelong-learning-japanese",
@@ -1900,7 +1439,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "education"
+    "category": "education",
+    "place_reviewed": true
   },
   {
     "slug": "uni-edinburgh-japanese-centre-open-learning",
@@ -1932,39 +1472,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "education"
-  },
-  {
-    "slug": "bristol-japan-club-japanese-lessons",
-    "name": "Bristol Japan Club",
-    "name_ja": "ブリストル日本クラブ（日本語クラス）",
-    "area": "ブリストル",
-    "address": null,
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://bristoljapanclub.weebly.com",
-    "description": "ブリストルを拠点とする日本文化・言語交流クラブ。日本語学習クラスや文化イベントを通じてブリストルの日本人コミュニティと交流できる。",
-    "tags": [
-      "日本語クラス",
-      "文化交流",
-      "ブリストル",
-      "コミュニティ"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "education"
+    "category": "education",
+    "place_reviewed": true
   },
   {
     "slug": "simon-simon-japanese-birmingham",
@@ -1995,7 +1504,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "education"
+    "category": "education",
+    "place_reviewed": true
   },
   {
     "slug": "simon-simon-japanese-bristol",
@@ -2026,7 +1536,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "education"
+    "category": "education",
+    "place_reviewed": true
   },
   {
     "slug": "simon-simon-japanese-glasgow",
@@ -2057,70 +1568,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "education"
-  },
-  {
-    "slug": "jlfc-scotland-edinburgh",
-    "name": "JLFC Scotland",
-    "name_ja": "JLFCスコットランド（日本語・文化クラブ）",
-    "area": "エディンバラ",
-    "address": null,
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.jlfc-scotland.com",
-    "description": "エディンバラ発の日本語学習・日本文化交流クラブ。オンライン・対面を組み合わせた形式で、スコットランド在住者が日本語と文化を学べる場。",
-    "tags": [
-      "日本語学習",
-      "文化交流",
-      "エディンバラ",
-      "スコットランド"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "education"
-  },
-  {
-    "slug": "wee-joys-japanese-edinburgh",
-    "name": "Wee Joys Japanese Language",
-    "name_ja": "ウィージョイズ日本語（エディンバラ）",
-    "area": "エディンバラ",
-    "address": null,
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": null,
-    "description": "エディンバラで展開する日本語クラス。子ども・大人向けに日本語の読み書き・会話を教える地域密着型の日本語教室。",
-    "tags": [
-      "日本語クラス",
-      "子ども向け",
-      "エディンバラ"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "education"
+    "category": "education",
+    "place_reviewed": true
   },
   {
     "slug": "london-saturday-hoshuko-acton",
@@ -2152,7 +1601,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "education"
+    "category": "education",
+    "place_reviewed": true
   },
   {
     "slug": "london-saturday-hoshuko-brent",
@@ -2184,7 +1634,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "education"
+    "category": "education",
+    "place_reviewed": true
   },
   {
     "slug": "london-saturday-hoshuko-croydon",
@@ -2216,7 +1667,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "education"
+    "category": "education",
+    "place_reviewed": true
   },
   {
     "slug": "alpha-japanese-school-london",
@@ -2247,7 +1699,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "wales-japanese-saturday-school",
@@ -2279,7 +1732,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "north-east-japan-school-washington",
@@ -2310,7 +1764,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "dear-asia-london-language",
@@ -2343,70 +1798,7 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "london-hoshuko-saturday-school",
-    "name": "London Hoshuko (Japanese Saturday School)",
-    "name_ja": "ロンドン補習授業校",
-    "area": "Acton",
-    "address": "87 Creffield Road, London W3 9PU",
-    "phone": "",
-    "email": "sat-london@thejapaneseschool.ltd.uk",
-    "website": "https://www.thejapaneseschool.ltd.uk/londonhoshuko/top.html",
-    "source_url": "https://www.thejapaneseschool.ltd.uk/londonhoshuko/gaiyo/shokai.html",
-    "description": "在英日本人の子ども向け補習授業校。毎週土曜日に日本の学習指導要領に準じた日本語教育を実施。帰国後の学校適応を支援。",
-    "detail": "ロンドン補習授業校は、英国で学ぶ日本人学齢期の子どもたちに日本の学習指導要領・国定教科書に基づいた日本語教育を提供する補習授業校。アクトン・ブレント・クロイドンの3キャンパスで、毎週土曜日9:30〜12:15に授業を実施。年間平均40日開校。帰国後の学校生活への適応を目標とした教育内容が特徴です。",
-    "menu": [],
-    "price_range": "",
-    "tags": [
-      "education",
-      "japanese-school",
-      "children",
-      "saturday-school"
-    ],
-    "hours": "毎週土曜 9:30-12:15",
-    "status": "unverified",
-    "last_verified": "2026-04-05",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "japanese-school-london-acton",
-    "name": "The Japanese School in London",
-    "name_ja": "ロンドン日本人学校",
-    "area": "アクトン",
-    "address": "87 Creffield Road, Acton, London W3 9PU",
-    "phone": "+442089937145",
-    "email": "ron-nichi@thejapaneseschool.ltd.uk",
-    "website": "https://www.thejapaneseschool.ltd.uk",
-    "source_url": "https://www.thejapaneseschool.ltd.uk/",
-    "description": "アクトンにある在英日本人子弟向け学校。幼稚部から中学部まで日本のカリキュラムで教育を提供。",
-    "detail": "西ロンドン・アクトンの87 Creffield Roadに位置するロンドン日本人学校。幼稚部・小学部・中学部を擁し、日本のカリキュラムに基づいた教育を提供する。在英日本人子弟が一時帰国した際に日本の学校に円滑に移行できるよう支援する。同敷地内にロンドン補習授業校（土曜学校）も併設。",
-    "menu": [],
-    "price_range": null,
-    "tags": [
-      "education",
-      "japanese-school",
-      "acton",
-      "k12"
-    ],
-    "hours": "月〜金（学校カレンダーに準ずる）",
-    "status": "unverified",
-    "last_verified": "2026-04-05",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   }
 ]
