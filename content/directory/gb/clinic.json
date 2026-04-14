@@ -1,129 +1,5 @@
 [
   {
-    "slug": "dr-ito-pain-clinic",
-    "name": "Dr Ito Pain Clinic",
-    "name_ja": "伊藤ドクター ペインクリニック",
-    "area": "Harley Street",
-    "address": "96 Harley Street, London W1G 7HY",
-    "lat": null,
-    "lng": null,
-    "phone": "+442078886800",
-    "website": "https://www.dritoclinic.co.uk/",
-    "description": "ハーリーストリートにある日本人専門の痛み管理クリニック。35年以上の経験を持つ日本人ペインスペシャリスト（Dr.伊藤）が診察。慢性痛・関節痛・腰痛に対応。",
-    "tags": [
-      "クリニック",
-      "日本人医師",
-      "痛み管理",
-      "慢性痛"
-    ],
-    "hours": "Mon-Fri 9:00-17:00",
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "harley-street-gynaecology-japanese",
-    "name": "Harley Street Gynaecology",
-    "name_ja": "ハーリーストリート婦人科（日本語対応）",
-    "area": "Harley Street",
-    "address": "123 Harley Street, London W1G 6AX",
-    "lat": null,
-    "lng": null,
-    "phone": "+442070347540",
-    "website": "https://harleystreetgynaecology.com/clinic-for-japanese-woman/",
-    "description": "ハーリーストリートにある婦人科クリニック。日本人女性専用の外来日を設け、日本語通訳を通じた婦人科診察・子宮颈がん検診・不妊相談に対応。",
-    "tags": [
-      "婦人科",
-      "日本語対応",
-      "婦人科検診",
-      "不妊"
-    ],
-    "hours": "Mon-Fri 9:00-17:00",
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "iryo-centre",
-    "name": "IRYO Centre",
-    "name_ja": "医療センター",
-    "area": "Hendon",
-    "address": "Level 1, Brent Cross Town, London NW4 3FP",
-    "lat": null,
-    "lng": null,
-    "phone": "+442038363226",
-    "website": "https://www.iryocentre.com/",
-    "description": "日本人向けのヘルスケアセンター。日本語での一般診療、健康診断、予防接種を提供。Brent Cross駅近くに位置。",
-    "tags": [
-      "日本語対応",
-      "日本人医師",
-      "一般診療",
-      "健康診断"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "japan-green-medical-acton",
-    "name": "Japan Green Medical Centre Acton",
-    "name_ja": "ジャパングリーン メディカルセンター アクトン",
-    "area": "Acton",
-    "address": "19 Acton High Street, London W3 6RX",
-    "lat": null,
-    "lng": null,
-    "phone": "+442089932090",
-    "website": "https://www.japangreen.co.uk/english/",
-    "description": "アクトンにあるJapan Green Medical Centreの支店。日本人医師・日本語対応スタッフが在籍。一般診療・健康診断・超音波検査・婦人科・小児科サービスを提供。",
-    "tags": [
-      "クリニック",
-      "日本人医師",
-      "日本語対応",
-      "小児科"
-    ],
-    "hours": "Mon-Fri 9:00-17:00",
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
     "slug": "japan-green-medical-centre-acton",
     "name": "Japan Green Medical Centre Acton Clinic & Ladies Clinic",
     "name_ja": "ジャパングリーンメディカルセンター アクトンクリニック・レディースクリニック",
@@ -152,7 +28,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "japan-green-medical-centre-city",
@@ -184,38 +61,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "japan-green-medical-city",
-    "name": "Japan Green Medical Centre City",
-    "name_ja": "ジャパングリーン メディカルセンター シティ",
-    "area": "City of London",
-    "address": "2 King William Street, London EC4N 7BP",
-    "lat": null,
-    "lng": null,
-    "phone": "+442073579000",
-    "website": "https://www.japangreen.co.uk/english/",
-    "description": "ロンドン・シティに位置するJapan Green Medical Centreのシティ支店。日本人医師が在籍し、日本語での診療が可能。一般内科・健康診断・婦人科を提供。",
-    "tags": [
-      "クリニック",
-      "日本人医師",
-      "日本語対応",
-      "内科"
-    ],
-    "hours": "Mon-Fri 9:00-17:00",
-    "last_verified": "2026-04-01",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "london-doctors-clinic",
@@ -245,7 +92,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "london-iryo-centre",
@@ -276,7 +124,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nihon-counselling-service",
@@ -307,7 +156,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nippon-clinic-harley-street",
@@ -338,133 +188,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "rainbow-forest-centre",
-    "name": "Rainbow Forest Centre",
-    "name_ja": "レインボーフォレストセンター",
-    "area": "London",
-    "address": null,
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://en.rainbowforest.co.uk/",
-    "description": "日本語対応のカウンセリング・心理療法サービスを提供するセンター。在英日本人向けのメンタルヘルスサポート。",
-    "tags": [
-      "日本語対応",
-      "カウンセリング",
-      "心理療法",
-      "メンタルヘルス"
-    ],
-    "hours": null,
-    "last_verified": "2026-03-28",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "dr-ito-clinic-london",
-    "name": "Dr Ito Clinic",
-    "name_ja": "伊藤クリニック（ロンドン）",
-    "area": "ロンドン（ハーレーストリート）",
-    "address": "96 Harley Street, London W1G 7HY",
-    "lat": null,
-    "lng": null,
-    "phone": "+442076375560",
-    "website": "https://www.dritoclinic.co.uk",
-    "description": "ハーレーストリートにある日本人ペインスペシャリストによるペインマネジメント専門クリニック。神経ブロックや慢性疼痛の治療を日本語で受診できる。",
-    "tags": [
-      "日本人医師",
-      "ペインマネジメント",
-      "神経ブロック",
-      "日本語対応"
-    ],
-    "hours": "月〜金 9:00〜18:00",
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
     "photo_name": null,
-    "category": "clinic"
-  },
-  {
-    "slug": "sakura-dental-clinic-london",
-    "name": "Sakura Dental Clinic",
-    "name_ja": "サクラデンタルクリニック（ロンドン）",
-    "area": "ロンドン（ヘンドン）",
-    "address": "4 Damsel Walk, London NW9 7FB",
-    "lat": null,
-    "lng": null,
-    "phone": "+442033430700",
-    "website": "https://sakuradc.co.uk",
-    "description": "在英日本人コミュニティに特化したロンドンの歯科クリニック。日本語通訳が常駐し、日本語で安心して受診できる歯科治療を提供。",
-    "tags": [
-      "歯科",
-      "日本語対応",
-      "日本人向け"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "clinic"
-  },
-  {
-    "slug": "infiniti-dental-clinic-wimbledon",
-    "name": "Infiniti Dental Clinic",
-    "name_ja": "インフィニティデンタルクリニック（ウィンブルドン）",
-    "area": "ロンドン（ウィンブルドン）",
-    "address": null,
-    "lat": null,
-    "lng": null,
-    "phone": "+442085422171",
-    "website": "https://infinitidentalclinic.com",
-    "description": "ウィンブルドンにある歯科クリニック。日本人歯科医の橋本和子先生が在籍しており、日本語での審美・補綴歯科治療が受けられる。",
-    "tags": [
-      "歯科",
-      "審美歯科",
-      "日本人歯科医",
-      "日本語対応"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "clinic"
+    "place_reviewed": true
   },
   {
     "slug": "japan-uk-therapy-link",
@@ -496,7 +221,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "clinic"
+    "category": "clinic",
+    "place_reviewed": true
   },
   {
     "slug": "rainbow-forest-centre-london",
@@ -528,166 +254,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "clinic"
-  },
-  {
-    "slug": "japanese-acupuncture-london-kilburn",
-    "name": "Japanese Acupuncture London",
-    "name_ja": "日本式鍼灸（ロンドン・キルバーン）",
-    "area": "ロンドン（キルバーン）",
-    "address": "1B Cambridge Gardens, London NW6 5AE",
-    "lat": null,
-    "lng": null,
-    "phone": "+442073289069",
-    "website": "https://japaneseacupuncture.london",
-    "description": "キルバーンパーク駅近くの日本式鍼灸専門クリニック。30年以上の経験を持つ英国鍼灸評議会登録治療士による本格的な日本式鍼治療を提供。",
-    "tags": [
-      "鍼灸",
-      "日本式鍼灸",
-      "日本語対応"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "clinic"
-  },
-  {
-    "slug": "japanese-acupuncture-clinic-finchley",
-    "name": "Japanese Acupuncture Clinic Finchley",
-    "name_ja": "日本式鍼灸クリニック（フィンチリー）",
-    "area": "ロンドン（イーストフィンチリー）",
-    "address": "1 Bedford Road, London N2",
-    "lat": null,
-    "lng": null,
-    "phone": "+447795203107",
-    "website": "https://www.japaneseacupunctureclinicfinchley.com",
-    "description": "イーストフィンチリー駅近くの日本式鍼灸・灸・カイロプラクティック専門クリニック。日本式の伝統的な鍼灸治療を提供する。",
-    "tags": [
-      "鍼灸",
-      "日本式鍼灸",
-      "カイロプラクティック"
-    ],
-    "hours": "木・土・日",
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "clinic"
-  },
-  {
-    "slug": "my-natural-clinic-london",
-    "name": "My Natural Clinic",
-    "name_ja": "マイナチュラルクリニック（ロンドン）",
-    "area": "ロンドン（ピカデリーサーカス周辺）",
-    "address": null,
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.mynaturalclinic.info",
-    "description": "1993年創業の日本式代替医療クリニック。日本国家資格保持者による鍼灸・灸・整体・シャイアツ・フェイシャルトリートメントを提供。",
-    "tags": [
-      "鍼灸",
-      "整体",
-      "シャイアツ",
-      "日本語対応"
-    ],
-    "hours": "月〜金 12:00〜20:00 / 土日祝 10:00〜18:00",
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "clinic"
-  },
-  {
-    "slug": "london-psychologists-online-japanese",
-    "name": "London Psychologists Online",
-    "name_ja": "ロンドン心理士オンライン（岸遼太クリニック）",
-    "area": "ロンドン",
-    "address": null,
-    "lat": null,
-    "lng": null,
-    "phone": "+442045385499",
-    "website": "https://www.londonpsychologistsonline.com",
-    "description": "日本語対応のカウンセリング・心理療法・EMDR提供クリニック。対面・オンライン両対応。英日バイリンガルの公認臨床心理士による専門的なサポート。",
-    "tags": [
-      "カウンセリング",
-      "心理療法",
-      "EMDR",
-      "日本語対応",
-      "オンライン"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "clinic"
-  },
-  {
-    "slug": "jun-acupuncture-shiatsu-wembley",
-    "name": "JUN Japanese Acupuncture and Shiatsu Clinic",
-    "name_ja": "JUN日本式鍼灸・シャイアツクリニック（ウェンブリー）",
-    "area": "ロンドン（ウェンブリー）",
-    "address": null,
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.junjapaneseacupunctureandshiatsuclinic.com",
-    "description": "ロンドン・ウェンブリーの日本式鍼灸・シャイアツ専門クリニック。日本の伝統的な治療法に基づく鍼灸と指圧治療を提供する。",
-    "tags": [
-      "鍼灸",
-      "シャイアツ",
-      "日本式",
-      "ウェンブリー"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "clinic"
+    "category": "clinic",
+    "place_reviewed": true
   },
   {
     "slug": "london-psychologists-online",
@@ -720,101 +288,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "clinic"
-  },
-  {
-    "slug": "nippon-club-medical-clinic",
-    "name": "Nippon Club Medical Clinic",
-    "name_ja": "日本クラブ診療所（北診療所）",
-    "area": "St John's Wood",
-    "address": "The Hospital of St John and St Elizabeth, 60 Grove End Road, London NW8 9NH",
-    "lat": null,
-    "lng": null,
-    "phone": "+442072661121",
-    "website": "https://guide.news-digest.co.uk/nippon-club-medical-clinic/",
-    "description": "セント・ジョンズ・ウッドの日本クラブ診療所。東京慈恵会医科大学から派遣された医師が在籍し、在英日本人の医療ニーズに40年以上応え続けているクリニック。",
-    "tags": [
-      "クリニック",
-      "日本語対応",
-      "日本人医師",
-      "一般診療"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": "020 7266 1121",
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "clinic"
-  },
-  {
-    "slug": "bloom-dental-london",
-    "name": "Bloom Dental Studio",
-    "name_ja": "ブルーム・デンタル・スタジオ",
-    "area": "London",
-    "address": null,
-    "lat": null,
-    "lng": null,
-    "phone": null,
-    "website": "https://www.bloomdentallondon.co.uk/en",
-    "description": "日本人歯科医・松浦直美が開設したプライベート歯科クリニック。日本での30年以上の経験を持ち、日本人患者に多い口腔状態への深い理解で安心の診療を提供。",
-    "tags": [
-      "歯科",
-      "日本語対応",
-      "日本人歯科医"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "clinic"
-  },
-  {
-    "slug": "infinitidental-clinic-wimbledon",
-    "name": "Infinitidental Clinic",
-    "name_ja": "インフィニティデンタル・クリニック",
-    "area": "Wimbledon",
-    "address": "146 Merton Hall Road, London SW19 3PZ",
-    "lat": null,
-    "lng": null,
-    "phone": "+442085422171",
-    "website": "https://infinitidentalclinic.com/",
-    "description": "ウィンブルドンの歯科クリニック。橋本和子医師が日本語で診察可能で、日本からの留学生・旅行者向けに特化したサポートを提供する歯科クリニック。",
-    "tags": [
-      "歯科",
-      "日本語対応",
-      "日本語話者歯科医"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": "020 8542 2171",
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "clinic"
+    "category": "clinic",
+    "place_reviewed": true
   },
   {
     "slug": "london-toyohari-acupuncture",
@@ -846,130 +321,8 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "category": "clinic"
-  },
-  {
-    "slug": "yourdental-hendon",
-    "name": "Yourdental Clinic",
-    "name_ja": "ユアデンタル クリニック",
-    "area": "Hendon",
-    "address": "London Iryo Centre, 234 Hendon Way, London NW4 3NE",
-    "lat": null,
-    "lng": null,
-    "phone": "+442084573615",
-    "website": null,
-    "description": "ロンドン医療センター内の歯科クリニック。日本語・中国語対応スタッフが在籍し、在英日本人・中国系の患者が安心して利用できる歯科医院。",
-    "tags": [
-      "歯科",
-      "日本語対応"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": "020 8457 3615",
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "clinic"
-  },
-  {
-    "slug": "lic-dental-hendon",
-    "name": "LIC Dental Clinic",
-    "name_ja": "LICデンタルクリニック",
-    "area": "Hendon",
-    "address": "234-236 Hendon Way, London NW4 3NE",
-    "lat": null,
-    "lng": null,
-    "phone": "+442084573644",
-    "website": "https://www.licdc.com/",
-    "description": "ロンドン医療センター内の歯科クリニック。現在は桜デンタルクリニックとして移転しているが、日本語対応スタッフが在籍し在英日本人に長年利用されてきた歯科機関。",
-    "tags": [
-      "歯科",
-      "日本語対応"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": "020 8457 3644",
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "clinic"
-  },
-  {
-    "slug": "infinitidental-japanese-dentist",
-    "name": "Infinitidental Clinic (Dr. Kazuko Hashimoto)",
-    "name_ja": "インフィニティデンタル（橋本和子歯科医師）",
-    "area": "Wimbledon",
-    "address": "146 Merton Hall Road, London SW19 3PZ",
-    "lat": null,
-    "lng": null,
-    "phone": "+442085422171",
-    "website": "https://infinitidentalclinic.com/japanese-dentist-london-fluent-speaking-japanese-dental-team/",
-    "description": "日本語堪能な橋本和子歯科医師が在籍するウィンブルドンの歯科クリニック。日本留学生・旅行者など不安を抱える患者に日本語で丁寧な歯科治療を提供。",
-    "tags": [
-      "歯科",
-      "日本語対応",
-      "日本人歯科医",
-      "日本語堪能"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": "020 8542 2171",
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "category": "clinic"
-  },
-  {
-    "slug": "central-japanese-clinic-harley",
-    "name": "Central Japanese Clinic",
-    "name_ja": "セントラル・ジャパニーズ・クリニック",
-    "area": "Harley Street, London",
-    "address": "1 Harley Street, London W1G 9QD",
-    "lat": null,
-    "lng": null,
-    "phone": "+442079350523",
-    "website": "http://www.fitfiddle.co.uk",
-    "description": "ハーリーストリートにある日本語対応の私立クリニック。日本人医師による一般診療を提供。在ロンドン日本人・日本企業駐在員向けの医療機関として知られる。",
-    "tags": [
-      "クリニック",
-      "日本人医師",
-      "日本語対応",
-      "一般診療"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-05",
-    "status": "unverified",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "phone_local": null,
-    "email": "info@fitfiddle.co.uk",
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "category": "clinic",
+    "place_reviewed": true
   },
   {
     "slug": "london-iryo-centre-hendon",
@@ -1001,7 +354,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "kaoru-ishiyama-therapy",
@@ -1032,7 +386,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "mana-hotta-counselling",
@@ -1063,7 +418,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "japanese-acupuncture-london-nw6",
@@ -1093,7 +449,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "japanese-acupuncture-newington-green",
@@ -1122,7 +479,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "harley-street-gynaecology-japanese-clinic",
@@ -1152,7 +510,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "dr-ito-clinic-harley-street",
@@ -1183,7 +542,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "japan-green-medical-centre-london",
@@ -1216,7 +576,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "central-japanese-clinic-london",
@@ -1249,74 +610,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "hito-holistic-health-london-bridge",
-    "name": "Hito Holistic Health",
-    "name_ja": "ヒトホリスティックヘルス",
-    "area": "London Bridge",
-    "address": "Unit 01.202, 2nd Floor, The Leather Market, 11-13 Weston Street, London SE1 3ER",
-    "phone": "+442033188698",
-    "email": "info@hito-physio.com",
-    "website": "https://hito-physio.com",
-    "source_url": "https://hito-physio.com/about-us/",
-    "description": "ロンドンブリッジの整体・理学療法クリニック。「人（Hito）」を意味する屋号のもと西洋理学療法と東洋医学を融合したホリスティック治療を提供。",
-    "detail": "Hito Holistic Healthは「Hito（人）」という日本語を名前に持つ整体・理学療法クリニック。創業者のAlessio Baronoは英国初のAdvanced Myofascial Induction Therapy（MIT®）認定理学療法士。理学療法・マッサージ療法・鍼灸・エネルギーヒーリング・マインドフルネスなど幅広い施術を提供し、身体・心・エネルギーを総合的に診るアプローチが特徴。",
-    "menu": [],
-    "price_range": "",
-    "tags": [
-      "clinic",
-      "physiotherapy",
-      "acupuncture",
-      "holistic",
-      "massage"
-    ],
-    "hours": "要予約",
-    "status": "unverified",
-    "last_verified": "2026-04-05",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
-  },
-  {
-    "slug": "my-natural-clinic-piccadilly",
-    "name": "My Natural Clinic",
-    "name_ja": "マイナチュラルクリニック",
-    "area": "Soho",
-    "address": "1F, 59 Brewer Street, London W1F 9UN",
-    "phone": "",
-    "email": "",
-    "website": "https://www.mynaturalclinic.info",
-    "source_url": "https://www.mynaturalclinic.info/",
-    "description": "1993年創業、ピカデリーサーカス近くの日系鍼灸・整体クリニック。日本国家資格を持つセラピストが日本式鍼灸・整体・指圧・美容施術を提供。",
-    "detail": "My Natural Clinicは1993年にピカデリーサーカスで創業した日系鍼灸・美容クリニック。日本国家資格を持つ鍼灸師が日本式の繊細な鍼治療・お灸・整体（セイタイ）・指圧マッサージを提供。顔面鍼・アロマセラピー・エステティック施術も同施設内で対応。ピカデリーサーカス駅から徒歩2分。",
-    "menu": [],
-    "price_range": "£££",
-    "tags": [
-      "clinic",
-      "acupuncture",
-      "japanese-service",
-      "shiatsu",
-      "seitai",
-      "beauty"
-    ],
-    "hours": "月-金 12:00-20:00 / 土日祝 10:00-18:00",
-    "status": "unverified",
-    "last_verified": "2026-04-05",
-    "source": "web_search",
-    "place_id": "",
-    "priority": 0,
-    "ai_reviewed": true,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "fiona-hurlock-japanese-acupuncture",
@@ -1349,7 +644,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "my-natural-clinic-soho",
@@ -1388,7 +684,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "jun-japanese-acupuncture-wembley",
@@ -1424,7 +721,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "shinobu-matsuo-psychotherapy-ec4r",
@@ -1456,7 +754,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "nippon-club-medical-clinic-stjohns",
@@ -1495,7 +794,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "ms-counselling-room-london",
@@ -1532,7 +832,8 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   },
   {
     "slug": "japan-green-medical-centre-city-2",
@@ -1572,6 +873,7 @@
     "rating": null,
     "user_rating_count": null,
     "price_level": null,
-    "photo_name": null
+    "photo_name": null,
+    "place_reviewed": true
   }
 ]
