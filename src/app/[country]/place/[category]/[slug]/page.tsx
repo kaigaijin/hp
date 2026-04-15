@@ -14,7 +14,6 @@ import {
   getCategory,
   getplace,
   getplacesByCategory,
-  getAllplaces,
 } from "@/lib/directory";
 import { getCategoryTheme } from "@/lib/group-theme";
 import PlaceReportForm from "@/components/SpotReportForm";
@@ -85,17 +84,6 @@ const categoryIconMap: Record<string, (size: number) => React.ReactNode> = {
 
 // ISR: 1時間ごとに再生成
 export const revalidate = 3600;
-
-// ビルド時に全プレイスの静的パスを生成（トラフィックスパイク時のSSR負荷を防止）
-export function generateStaticParams() {
-  return countries.flatMap((country) =>
-    getAllplaces(country.code).map((place) => ({
-      country: country.code,
-      category: place.category,
-      slug: place.slug,
-    }))
-  );
-}
 
 export async function generateMetadata({
   params,
