@@ -83,6 +83,9 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
 
+      // /confessions → /ask リダイレクト（2026-04-15）
+      { source: "/confessions", destination: "/ask", permanent: true },
+
       // /spot → /place リダイレクト（2026-04-08）
       { source: "/:country/spot", destination: "/:country/place", permanent: true },
       { source: "/:country/spot/map", destination: "/:country/place/map", permanent: true },

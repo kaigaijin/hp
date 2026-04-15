@@ -1,7 +1,7 @@
 "use client";
 
-import { useState, useEffect, useCallback, useRef } from "react";
-import { Send, Loader2, Heart, ChevronDown, ChevronUp, PenLine, X, Globe } from "lucide-react";
+import { useState, useEffect, useCallback } from "react";
+import { Send, Loader2, Heart, PenLine, X, Globe, ArrowLeft, MessageSquare } from "lucide-react";
 import { questions, type Question } from "@/lib/confessions";
 import { useAuth } from "@/components/AuthProvider";
 import { countries } from "@/lib/countries";
@@ -18,14 +18,12 @@ type Confession = {
 };
 
 function formatDate(iso: string) {
-  const d = new Date(iso);
-  const now = new Date();
-  const diff = now.getTime() - d.getTime();
+  const diff = Date.now() - new Date(iso).getTime();
   const days = Math.floor(diff / 86400000);
   if (days === 0) return "今日";
   if (days === 1) return "昨日";
   if (days < 30) return `${days}日前`;
-  return d.toLocaleDateString("ja-JP", { month: "short", day: "numeric" });
+  return new Date(iso).toLocaleDateString("ja-JP", { month: "short", day: "numeric" });
 }
 
 function countryName(code: string | null) {
@@ -38,7 +36,88 @@ function countryFlag(code: string | null) {
   return countries.find((c) => c.code === code)?.flag ?? null;
 }
 
-// 投稿カード
+// ===== 質問一覧ビュー =====
+function QuestionList({
+  confessions,
+  onSelect,
+  activeCategory,
+  setActiveCategory,
+}: {
+  confessions: Confession[];
+  onSelect: (q: Question) => void;
+  activeCategory: string;
+  setActiveCategory: (c: string) => void;
+}) {
+  const categories = ["すべて", ...Array.from(new Set(questions.map((q) => q.category)))];
+  const filtered =
+    activeCategory === "すべて"
+      ? questions
+      : questions.filter((q) => q.category === activeCategory);
+
+  return (
+    <div>
+      {/* カテゴリフィルター */}
+      <div className="flex flex-wrap gap-1.5 mb-6">
+        {categories.map((cat) => (
+          <button
+            key={cat}
+            onClick={() => setActiveCategory(cat)}
+            className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+              activeCategory === cat
+                ? "bg-warm-600 text-white"
+                : "bg-stone-100 dark:bg-stone-800 text-stone-500 dark:text-stone-400 hover:bg-stone-200 dark:hover:bg-stone-700"
+            }`}
+          >
+            {cat}
+          </button>
+        ))}
+      </div>
+
+      {/* 質問カード一覧 */}
+      <div className="space-y-3">
+        {filtered.map((q) => {
+          const count = confessions.filter((c) => c.question_id === q.id).length;
+          // 最新の投稿を1件プレビュー
+          const latest = confessions
+            .filter((c) => c.question_id === q.id)
+            .sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime())[0];
+
+          return (
+            <button
+              key={q.id}
+              onClick={() => onSelect(q)}
+              className="w-full text-left bg-white dark:bg-stone-900 rounded-2xl border border-stone-100 dark:border-stone-800 px-5 py-4 hover:border-warm-300 dark:hover:border-warm-700 hover:shadow-sm transition-all group"
+            >
+              <div className="flex items-start justify-between gap-3">
+                <div className="flex-1 min-w-0">
+                  <span className="inline-block text-[11px] font-medium text-warm-600 dark:text-warm-400 bg-warm-50 dark:bg-warm-900/30 px-2 py-0.5 rounded-full mb-2">
+                    {q.category}
+                  </span>
+                  <p className="text-sm font-medium text-stone-800 dark:text-stone-100 leading-snug group-hover:text-warm-700 dark:group-hover:text-warm-400 transition-colors">
+                    {q.text}
+                  </p>
+                  {latest && (
+                    <p className="mt-2 text-xs text-stone-400 leading-relaxed line-clamp-2">
+                      {latest.body}
+                    </p>
+                  )}
+                </div>
+                <div className="flex flex-col items-end gap-1 shrink-0">
+                  <div className="flex items-center gap-1 text-xs text-stone-400">
+                    <MessageSquare size={11} />
+                    {count}
+                  </div>
+                </div>
+              </div>
+            </button>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+// ===== 投稿カード =====
 function ConfessionCard({
   confession,
   liked,
@@ -49,8 +128,8 @@ function ConfessionCard({
   onLike: (id: string) => void;
 }) {
   const [expanded, setExpanded] = useState(false);
-  const isLong = confession.body.length > 120;
-  const displayBody = isLong && !expanded ? confession.body.slice(0, 120) + "…" : confession.body;
+  const isLong = confession.body.length > 150;
+  const displayBody = isLong && !expanded ? confession.body.slice(0, 150) + "…" : confession.body;
   const flag = countryFlag(confession.country);
   const cName = countryName(confession.country);
 
@@ -95,7 +174,7 @@ function ConfessionCard({
   );
 }
 
-// 投稿フォーム
+// ===== 投稿フォーム =====
 function PostForm({
   question,
   onSubmitted,
@@ -110,11 +189,6 @@ function PostForm({
   const [country, setCountry] = useState("");
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
-  const textareaRef = useRef<HTMLTextAreaElement>(null);
-
-  useEffect(() => {
-    textareaRef.current?.focus();
-  }, []);
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -144,11 +218,9 @@ function PostForm({
 
   return (
     <div className="bg-warm-50 dark:bg-stone-800 rounded-2xl border border-warm-200 dark:border-stone-700 p-5">
-      <div className="flex items-start justify-between mb-3">
-        <p className="text-sm font-medium text-stone-700 dark:text-stone-200 leading-snug flex-1 pr-4">
-          {question.text}
-        </p>
-        <button onClick={onClose} className="text-stone-400 hover:text-stone-600 shrink-0">
+      <div className="flex items-center justify-between mb-4">
+        <p className="text-sm font-medium text-stone-600 dark:text-stone-300">あなたの体験を書く</p>
+        <button onClick={onClose} className="text-stone-400 hover:text-stone-600">
           <X size={16} />
         </button>
       </div>
@@ -157,12 +229,12 @@ function PostForm({
       ) : (
         <form onSubmit={handleSubmit} className="space-y-3">
           <textarea
-            ref={textareaRef}
             value={text}
             onChange={(e) => setText(e.target.value)}
-            placeholder="あなたの体験を書いてください（匿名で投稿されます）"
+            placeholder="匿名で投稿されます。体験をそのまま書いてください。"
             maxLength={1000}
             rows={4}
+            autoFocus
             className="w-full px-3 py-2.5 rounded-xl border border-stone-200 dark:border-stone-600 bg-white dark:bg-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-warm-500 resize-y"
           />
           <div className="flex items-center gap-3 flex-wrap">
@@ -193,14 +265,16 @@ function PostForm({
   );
 }
 
-// 質問パネル（投稿一覧 + 書くボタン）
-function QuestionPanel({
+// ===== 質問詳細ビュー =====
+function QuestionDetail({
   question,
   confessions,
+  onBack,
   onSubmitted,
 }: {
   question: Question;
   confessions: Confession[];
+  onBack: () => void;
   onSubmitted: () => void;
 }) {
   const [liked, setLiked] = useState<Set<string>>(new Set());
@@ -232,11 +306,45 @@ function QuestionPanel({
   }
 
   return (
-    <div className="space-y-4">
+    <div>
+      {/* 戻るボタン */}
+      <button
+        onClick={onBack}
+        className="flex items-center gap-1.5 text-sm text-stone-400 hover:text-stone-600 dark:hover:text-stone-200 mb-6 transition-colors"
+      >
+        <ArrowLeft size={14} />
+        質問一覧に戻る
+      </button>
+
+      {/* 質問ヘッダー */}
+      <div className="bg-white dark:bg-stone-900 rounded-2xl border border-stone-100 dark:border-stone-800 px-6 py-5 mb-6">
+        <span className="inline-block text-xs font-medium text-warm-600 dark:text-warm-400 bg-warm-50 dark:bg-warm-900/30 px-2 py-0.5 rounded-full mb-3">
+          {question.category}
+        </span>
+        <h2 className="text-lg font-semibold text-stone-800 dark:text-stone-100 leading-snug mb-4">
+          {question.text}
+        </h2>
+        {!showForm && (
+          <button
+            onClick={() => setShowForm(true)}
+            className="inline-flex items-center gap-2 px-4 py-2 bg-warm-600 text-white text-sm font-medium rounded-lg hover:bg-warm-700 transition-colors"
+          >
+            <PenLine size={14} />
+            あなたの体験を書く
+          </button>
+        )}
+      </div>
+
+      {/* 投稿フォーム */}
+      {showForm && (
+        <div className="mb-6">
+          <PostForm question={question} onSubmitted={onSubmitted} onClose={() => setShowForm(false)} />
+        </div>
+      )}
+
       {/* コントロールバー */}
       {confessions.length > 0 && (
-        <div className="flex items-center gap-2 flex-wrap">
-          {/* ソート */}
+        <div className="flex items-center gap-3 flex-wrap mb-4">
           <div className="flex rounded-lg border border-stone-200 dark:border-stone-700 overflow-hidden text-xs">
             <button
               onClick={() => setSortBy("new")}
@@ -250,7 +358,7 @@ function QuestionPanel({
             </button>
             <button
               onClick={() => setSortBy("likes")}
-              className={`px-3 py-1.5 transition-colors border-l border-stone-200 dark:border-stone-700 ${
+              className={`px-3 py-1.5 border-l border-stone-200 dark:border-stone-700 transition-colors ${
                 sortBy === "likes"
                   ? "bg-stone-800 dark:bg-stone-100 text-white dark:text-stone-900"
                   : "text-stone-500 hover:bg-stone-50 dark:hover:bg-stone-800"
@@ -260,38 +368,35 @@ function QuestionPanel({
             </button>
           </div>
 
-          {/* 国フィルター */}
           {presentCountries.length > 1 && (
-            <div className="flex items-center gap-1.5">
+            <div className="flex items-center gap-1.5 flex-wrap">
               <Globe size={12} className="text-stone-400" />
-              <div className="flex flex-wrap gap-1">
-                <button
-                  onClick={() => setFilterCountry("")}
-                  className={`text-xs px-2.5 py-1 rounded-full transition-colors ${
-                    !filterCountry
-                      ? "bg-stone-800 dark:bg-stone-100 text-white dark:text-stone-900"
-                      : "bg-stone-100 dark:bg-stone-800 text-stone-500 hover:bg-stone-200 dark:hover:bg-stone-700"
-                  }`}
-                >
-                  全て
-                </button>
-                {presentCountries.map((code) => {
-                  const c = countries.find((c) => c.code === code);
-                  return (
-                    <button
-                      key={code}
-                      onClick={() => setFilterCountry(code === filterCountry ? "" : code)}
-                      className={`text-xs px-2.5 py-1 rounded-full transition-colors ${
-                        filterCountry === code
-                          ? "bg-stone-800 dark:bg-stone-100 text-white dark:text-stone-900"
-                          : "bg-stone-100 dark:bg-stone-800 text-stone-500 hover:bg-stone-200 dark:hover:bg-stone-700"
-                      }`}
-                    >
-                      {c?.flag} {c?.name ?? code}
-                    </button>
-                  );
-                })}
-              </div>
+              <button
+                onClick={() => setFilterCountry("")}
+                className={`text-xs px-2.5 py-1 rounded-full transition-colors ${
+                  !filterCountry
+                    ? "bg-stone-800 dark:bg-stone-100 text-white dark:text-stone-900"
+                    : "bg-stone-100 dark:bg-stone-800 text-stone-500 hover:bg-stone-200 dark:hover:bg-stone-700"
+                }`}
+              >
+                全て
+              </button>
+              {presentCountries.map((code) => {
+                const c = countries.find((c) => c.code === code);
+                return (
+                  <button
+                    key={code}
+                    onClick={() => setFilterCountry(code === filterCountry ? "" : code)}
+                    className={`text-xs px-2.5 py-1 rounded-full transition-colors ${
+                      filterCountry === code
+                        ? "bg-stone-800 dark:bg-stone-100 text-white dark:text-stone-900"
+                        : "bg-stone-100 dark:bg-stone-800 text-stone-500 hover:bg-stone-200 dark:hover:bg-stone-700"
+                    }`}
+                  >
+                    {c?.flag} {c?.name ?? code}
+                  </button>
+                );
+              })}
             </div>
           )}
         </div>
@@ -299,43 +404,27 @@ function QuestionPanel({
 
       {/* 投稿一覧 */}
       {sorted.length === 0 ? (
-        <p className="text-sm text-stone-400 py-4 text-center">まだ投稿がありません。最初の一人になりませんか？</p>
+        <div className="text-center py-12 text-stone-400">
+          <MessageSquare size={32} className="mx-auto mb-3 opacity-30" />
+          <p className="text-sm">まだ投稿がありません。最初の一人になりませんか？</p>
+        </div>
       ) : (
         <div className="space-y-3">
           {sorted.map((c) => (
-            <ConfessionCard
-              key={c.id}
-              confession={c}
-              liked={liked.has(c.id)}
-              onLike={handleLike}
-            />
+            <ConfessionCard key={c.id} confession={c} liked={liked.has(c.id)} onLike={handleLike} />
           ))}
         </div>
-      )}
-
-      {/* 投稿フォーム or 書くボタン */}
-      {showForm ? (
-        <PostForm question={question} onSubmitted={onSubmitted} onClose={() => setShowForm(false)} />
-      ) : (
-        <button
-          onClick={() => setShowForm(true)}
-          className="w-full flex items-center justify-center gap-2 py-3 rounded-2xl border border-dashed border-stone-300 dark:border-stone-600 text-sm text-stone-400 hover:border-warm-400 hover:text-warm-600 dark:hover:border-warm-500 dark:hover:text-warm-400 transition-colors"
-        >
-          <PenLine size={14} />
-          あなたの体験を書く
-        </button>
       )}
     </div>
   );
 }
 
+// ===== メイン =====
 export default function ConfessionsClient() {
   const [confessions, setConfessions] = useState<Confession[]>([]);
   const [loading, setLoading] = useState(true);
   const [activeCategory, setActiveCategory] = useState<string>("すべて");
-  const [activeQuestion, setActiveQuestion] = useState<Question>(questions[0]);
-
-  const categories = ["すべて", ...Array.from(new Set(questions.map((q) => q.category)))];
+  const [selectedQuestion, setSelectedQuestion] = useState<Question | null>(null);
 
   const fetchAll = useCallback(async () => {
     try {
@@ -350,93 +439,32 @@ export default function ConfessionsClient() {
     fetchAll();
   }, [fetchAll]);
 
-  const filteredQuestions =
-    activeCategory === "すべて"
-      ? questions
-      : questions.filter((q) => q.category === activeCategory);
+  if (loading) {
+    return (
+      <div className="flex items-center gap-2 text-stone-400 py-16 justify-center">
+        <Loader2 size={18} className="animate-spin" />
+        読み込み中...
+      </div>
+    );
+  }
 
-  // activeQuestionがフィルター外になったらリセット
-  useEffect(() => {
-    if (!filteredQuestions.find((q) => q.id === activeQuestion.id)) {
-      setActiveQuestion(filteredQuestions[0]);
-    }
-  }, [activeCategory, filteredQuestions, activeQuestion.id]);
-
-  const activeConfessions = confessions.filter((c) => c.question_id === activeQuestion.id);
+  if (selectedQuestion) {
+    return (
+      <QuestionDetail
+        question={selectedQuestion}
+        confessions={confessions.filter((c) => c.question_id === selectedQuestion.id)}
+        onBack={() => setSelectedQuestion(null)}
+        onSubmitted={fetchAll}
+      />
+    );
+  }
 
   return (
-    <div className="flex flex-col md:flex-row gap-6">
-      {/* 左: 質問リスト */}
-      <div className="md:w-80 shrink-0">
-        {/* カテゴリフィルター */}
-        <div className="flex flex-wrap gap-1.5 mb-4">
-          {categories.map((cat) => (
-            <button
-              key={cat}
-              onClick={() => setActiveCategory(cat)}
-              className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
-                activeCategory === cat
-                  ? "bg-warm-600 text-white"
-                  : "bg-stone-100 dark:bg-stone-800 text-stone-500 dark:text-stone-400 hover:bg-stone-200 dark:hover:bg-stone-700"
-              }`}
-            >
-              {cat}
-            </button>
-          ))}
-        </div>
-
-        {/* 質問一覧 */}
-        <div className="space-y-1">
-          {filteredQuestions.map((q) => {
-            const count = confessions.filter((c) => c.question_id === q.id).length;
-            const isActive = activeQuestion.id === q.id;
-            return (
-              <button
-                key={q.id}
-                onClick={() => setActiveQuestion(q)}
-                className={`w-full text-left px-4 py-3 rounded-xl transition-colors ${
-                  isActive
-                    ? "bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900"
-                    : "hover:bg-stone-100 dark:hover:bg-stone-800 text-stone-600 dark:text-stone-300"
-                }`}
-              >
-                <p className="text-sm leading-snug">{q.text}</p>
-                {count > 0 && (
-                  <p className={`text-xs mt-1 ${isActive ? "text-stone-400 dark:text-stone-600" : "text-stone-400"}`}>
-                    {count}件の回答
-                  </p>
-                )}
-              </button>
-            );
-          })}
-        </div>
-      </div>
-
-      {/* 右: 選択中の質問の投稿一覧 */}
-      <div className="flex-1 min-w-0">
-        {/* 質問ヘッダー */}
-        <div className="mb-5 pb-4 border-b border-stone-100 dark:border-stone-800">
-          <span className="inline-block text-xs font-medium text-warm-600 dark:text-warm-400 bg-warm-50 dark:bg-warm-900/30 px-2 py-0.5 rounded-full mb-2">
-            {activeQuestion.category}
-          </span>
-          <h2 className="text-lg font-semibold text-stone-800 dark:text-stone-100 leading-snug">
-            {activeQuestion.text}
-          </h2>
-        </div>
-
-        {loading ? (
-          <div className="flex items-center gap-2 text-stone-400 py-12">
-            <Loader2 size={18} className="animate-spin" />
-            読み込み中...
-          </div>
-        ) : (
-          <QuestionPanel
-            question={activeQuestion}
-            confessions={activeConfessions}
-            onSubmitted={fetchAll}
-          />
-        )}
-      </div>
-    </div>
+    <QuestionList
+      confessions={confessions}
+      onSelect={setSelectedQuestion}
+      activeCategory={activeCategory}
+      setActiveCategory={setActiveCategory}
+    />
   );
 }
