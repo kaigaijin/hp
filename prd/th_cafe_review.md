@@ -9,8 +9,8 @@
 - [x] batch02 (20件): `khom-chocolate-house` 〜 `kumolab-cheese-central-phuket`
 - [ ] batch03 (20件): `on-the-table-terminal-21-pattaya` 〜 `ramen-naruto`
 - [ ] batch04 (20件): `ren-cafe-and-goods-matcha-coffee-and-dessert` 〜 `seki-grande-central-world`
-- [ ] batch05 (20件): `seki-omakase-siam-paragon` 〜 `story-coffee-phuket`
-- [ ] batch06 (20件): `suki-desu-bambini-villa` 〜 `tera-kashi-ten`
+- [x] batch05 (20件): `seki-omakase-siam-paragon` 〜 `story-coffee-phuket`
+- [x] batch06 (20件): `suki-desu-bambini-villa` 〜 `tera-kashi-ten`
 - [ ] batch07 (20件): `teyaki` 〜 `toku-dessert-at-siam-takashimaya`
 - [ ] batch08 (20件): `tokunii-japanese-dining` 〜 `yamato`
 - [ ] batch09 (5件): `yinyang-cafe-phuket` 〜 `zapa-space`
