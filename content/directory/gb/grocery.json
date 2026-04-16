@@ -2765,29 +2765,6 @@
     "place_reviewed": true
   },
   {
-    "slug": "japan-centre-manchester",
-    "name": "Japan Centre Manchester",
-    "name_ja": "ジャパンセンター（マンチェスター）",
-    "category": "grocery",
-    "city": "Manchester",
-    "area": "Oxford Road, Manchester",
-    "address": "176 Oxford Road, Manchester M13 9QQ",
-    "phone": null,
-    "email": null,
-    "website": "https://www.japancentre.com/",
-    "source_url": "https://www.japancentre.com/",
-    "description": "マンチェスター大学そばにある直営の日本食材スーパー。ロンドン以外では希少なジャパンセンター直営店で、食材・弁当・スイーツが揃い在マンチェスター日本人の定番ショップ。",
-    "tags": [
-      "日本食材",
-      "スーパー",
-      "マンチェスター",
-      "弁当"
-    ],
-    "place_id": "",
-    "verified": false,
-    "place_reviewed": true
-  },
-  {
     "slug": "tuk-tuk-mart-manchester",
     "name": "Tuk Tuk Mart",
     "name_ja": "タクタクマート（マンチェスター）",
@@ -2796,10 +2773,10 @@
     "area": "Chinatown, Manchester",
     "address": "58-60 George Street, Manchester M1 4HF",
     "phone": null,
-    "email": null,
+    "email": "enquiries@tuktukmart.co.uk",
     "website": "https://tuktukmart.co.uk/",
     "source_url": "https://tuktukmart.co.uk/",
-    "description": "マンチェスターChainatownにある多国籍アジア系スーパー。日本食材（ラーメン・冷凍食品・調味料・お菓子）が豊富に揃い、在マンチェスター日本人が利用する生活必需品スポット。",
+    "description": "マンチェスター・チャイナタウン（ジョージ・ストリート）にある30年以上の老舗アジア系スーパー。日本食材（ラーメン・冷凍品・調味料・お菓子）を含む多国籍食材が揃う。",
     "tags": [
       "日本食材",
       "アジアスーパー",
@@ -2808,7 +2785,19 @@
     ],
     "place_id": "",
     "verified": false,
-    "place_reviewed": true
+    "place_reviewed": true,
+    "detail": "58-60 George St, Manchester, M1 4HF（チャイナタウン）に位置するTuk Tuk Mart（Hang Won Hong）。30年以上の歴史を持つ老舗アジア系スーパーで、中国・フィリピン・インドネシア・日本・韓国・マレーシア・タイ・ベトナム等多国籍の食材を取り扱う。日本食材はスナック・冷凍食品・調味料・お茶・カレーペースト等が充実。当日配達・全国配達にも対応。問い合わせはenquiries@tuktukmart.co.ukまで。",
+    "price_range": "£",
+    "japanese_staff": null,
+    "menu_highlights": [
+      "ラーメン・麺類",
+      "冷凍食品",
+      "日本の調味料",
+      "お菓子・スナック"
+    ],
+    "ai_reviewed": true,
+    "last_verified": "2026-04-16",
+    "status": "unverified"
   },
   {
     "slug": "matthews-foods-edinburgh",
@@ -2822,7 +2811,7 @@
     "email": null,
     "website": "https://www.matthewsfoods.co.uk/",
     "source_url": "https://www.matthewsfoods.co.uk/",
-    "description": "エディンバラ最大の東洋系スーパー。中国・韓国・タイ食材をメインに日本食材（みそ・海苔・豆腐・寿司用米）も取り扱い。在エディンバラ日本人が食材購入で利用する定番スポット。",
+    "description": "エジンバラ最大の東洋系スーパー。みそ・海苔・豆腐・寿司用米など日本食材も取り扱い、在エジンバラ日本人が食材購入で利用する定番スポット。",
     "tags": [
       "日本食材",
       "アジアスーパー",
@@ -2830,7 +2819,20 @@
     ],
     "place_id": "",
     "verified": false,
-    "place_reviewed": true
+    "place_reviewed": true,
+    "detail": "22 Earl Grey Street, Edinburghに位置するMatthew's Foods。エジンバラを代表する東洋系スーパーで、中国・韓国・タイ・日本食材を幅広く取り扱う。みそ・海苔・豆腐・寿司用米・日本式麺類等の和食材が揃い、在エジンバラ日本人の日常的な食材調達先として定評がある。電話: 0131 443 8686。",
+    "price_range": "£",
+    "japanese_staff": null,
+    "menu_highlights": [
+      "みそ",
+      "海苔",
+      "豆腐",
+      "寿司用米",
+      "日本式麺類"
+    ],
+    "ai_reviewed": true,
+    "last_verified": "2026-04-16",
+    "status": "unverified"
   },
   {
     "slug": "matthews-foods-glasgow",
@@ -2844,7 +2846,7 @@
     "email": null,
     "website": "https://www.matthewsfoods.co.uk/",
     "source_url": "https://www.matthewsfoods.co.uk/",
-    "description": "グラスゴー中心部Sauchiehall Streetにある東洋系スーパー（2025年新規オープン）。中国・韓国・日本食材が揃い、在グラスゴー日本人が日本の調味料・食材を入手できる。",
+    "description": "グラスゴー中心部・サウチホールストリートにある東洋系スーパー（2025年10月開業）。中国・韓国・日本食材が揃い、在グラスゴー日本人の食材購入に対応。",
     "tags": [
       "日本食材",
       "アジアスーパー",
@@ -2852,7 +2854,17 @@
     ],
     "place_id": "",
     "verified": false,
-    "place_reviewed": true
+    "place_reviewed": true,
+    "detail": "139 Sauchiehall Street, G2 3EW, Glasgowに位置するMatthew's Foods Glasgow。2025年10月開業のエジンバラ店系列の東洋系スーパー。中国・韓国・ベトナム麺類を含む多国籍食材を取り扱い、日本食材の調達にも対応する。グラスゴー中心部に位置し、在グラスゴー日本人の食材購入先として利用できる。",
+    "price_range": "£",
+    "japanese_staff": null,
+    "menu_highlights": [
+      "日本・韓国・中国食材",
+      "麺類"
+    ],
+    "ai_reviewed": true,
+    "last_verified": "2026-04-16",
+    "status": "unverified"
   },
   {
     "slug": "h-mart-new-malden",
@@ -2866,7 +2878,7 @@
     "email": null,
     "website": "https://www.hmart.com/",
     "source_url": "https://www.hmart.com/",
-    "description": "ロンドン南西部・コリアタウンNew Maldenにある大型韓国系スーパー。日本・台湾・中国食材も豊富。生鮮魚介コーナー・韓国BBQレストラン併設の、在英アジア系住民の定番スポット。",
+    "description": "ロンドン南西部コリアタウン・ニューモールデンにある欧州最大の韓国系スーパー。日本食材も充実し、在英アジア系日本人のワンストップ食材調達先。",
     "tags": [
       "日本食材",
       "韓国スーパー",
@@ -2875,7 +2887,19 @@
     ],
     "place_id": "",
     "verified": false,
-    "place_reviewed": true
+    "place_reviewed": true,
+    "detail": "Unit 1, Leigh Close, New Malden, Surrey KT3 3NWに位置するH Mart。2011年開業の欧州最大の韓国系スーパーマーケット。韓国食品を中心に、中国・日本・フィリピン・インドネシア等の食材を幅広く取り揃える。冷凍食品・生鮮魚介・Korean BBQ食材・K-POP雑誌・キッチン用品も充実。在英日本人が日本食材を一括調達できる大型スポット。",
+    "price_range": "£",
+    "japanese_staff": null,
+    "menu_highlights": [
+      "韓国・日本食材",
+      "生鮮魚介",
+      "冷凍食品",
+      "K-POP関連グッズ"
+    ],
+    "ai_reviewed": true,
+    "last_verified": "2026-04-16",
+    "status": "unverified"
   },
   {
     "slug": "london-sake-online",
@@ -2889,7 +2913,7 @@
     "email": null,
     "website": "https://www.londonsake.com/",
     "source_url": "https://www.londonsake.com/",
-    "description": "英国全土に日本酒を配送する専門オンラインショップ。Dassai・澪スパークリングなどプレミアム日本酒を取り扱い、テイスティングセットやサブスクリプションも提供。",
+    "description": "英国全土に日本酒を届けるオンライン専門店。獺祭・南部美人・Mioスパークリングなどプレミアム日本酒をテイスティングセットやサブスクで楽しめる。",
     "tags": [
       "日本酒",
       "オンラインショップ",
@@ -2897,7 +2921,19 @@
     ],
     "place_id": "",
     "verified": false,
-    "place_reviewed": true
+    "place_reviewed": true,
+    "detail": "UK全土に配送する日本酒専門オンラインショップ（londonsake.com）。獺祭（¥£59.99〜セール中）・南部美人・Mioスパークリングサケ等のプレミアム銘柄を取り扱い、£39.99〜£199.99のテイスティングセットや初心者向けスターターセットも提供。冷蔵配送で品質を保持したまま届けるこだわりが在英日本人・日本酒ファンに支持される。",
+    "price_range": "££",
+    "japanese_staff": null,
+    "menu_highlights": [
+      "獺祭",
+      "南部美人",
+      "Mioスパークリング",
+      "テイスティングセット"
+    ],
+    "ai_reviewed": true,
+    "last_verified": "2026-04-16",
+    "status": "unverified"
   },
   {
     "slug": "thong-heng-oxford",
@@ -2911,7 +2947,7 @@
     "email": null,
     "website": "https://thong-heng.wheree.com/",
     "source_url": "https://thong-heng.wheree.com/",
-    "description": "オックスフォードHeadingtonにある東洋系スーパー。中国・日本・韓国・フィリピン食材が揃い、みそ・寿司用米・日本食材の入手が難しいオックスフォード在住日本人が頼りにする。",
+    "description": "オックスフォード・ヘディントンにある東洋系スーパー。中国・日本・韓国・フィリピン食材が揃い、みそ・寿司用米など日本食材もカバーする在オックスフォード日本人の定番。",
     "tags": [
       "日本食材",
       "アジアスーパー",
@@ -2919,7 +2955,19 @@
     ],
     "place_id": "",
     "verified": false,
-    "place_reviewed": true
+    "place_reviewed": true,
+    "detail": "6 Windmill Road, Headington, Oxford OX3 7BXに位置するThong Heng Oriental Supermarket（電話: 01865 452069）。中国・日本・韓国・マレーシア・インドネシア等の多国籍食材を取り扱う東洋系スーパー。熱々の中国料理（飲茶・ロースト鴨・BBQポーク）のホットフードカウンターも併設。営業時間10:00-19:00、現金のみ。オックスフォード在住の日本人が日本食材を入手できる貴重なスポット。",
+    "price_range": "£",
+    "japanese_staff": null,
+    "menu_highlights": [
+      "みそ",
+      "寿司用米",
+      "日本・韓国食材",
+      "ホットフードカウンター"
+    ],
+    "ai_reviewed": true,
+    "last_verified": "2026-04-16",
+    "status": "unverified"
   },
   {
     "slug": "japan-house-london-shop-kensington",
