@@ -33830,16 +33830,18 @@
     "address": "391 Orchard Road, Ngee Ann City, #B2-25/26, Singapore 238872",
     "phone": "+6569572730",
     "website": "https://www.genkisushi.com.sg",
-    "description": "Ngee Ann City（高島屋）B2の元気寿司。Orchard駅直結の高島屋地下に位置し、ショッピング中のランチ・ディナーに便利。高速レール配送システムで注文した寿司が席まで届く。",
+    "description": "Ngee Ann City（高島屋）B2の元気寿司。2026年4月時点で公式サイトの店舗リストに掲載なし。訪問前に公式サイトで最新情報を確認してください。",
     "tags": [
       "回転寿司",
       "チェーン",
       "Orchard"
     ],
-    "hours": "月〜日: 11:00〜22:00",
-    "status": "unverified",
-    "last_verified": "2026-04-12",
+    "hours": null,
+    "status": "reported_closed",
+    "last_verified": "2026-04-16",
     "source": "website",
+    "ai_reviewed": true,
+    "place_reviewed": true,
     "menu": [
       {
         "name": "握り寿司各種",
@@ -33852,7 +33854,14 @@
         "category": "寿司"
       }
     ],
-    "price_range": "SGD 3〜10/皿程度"
+    "price_range": "SGD 3〜10/皿程度",
+    "menu_highlights": [
+      "サーモン寿司",
+      "炙り寿司各種",
+      "刺身"
+    ],
+    "detail": "2026年4月時点で公式サイト（genkisushi.com.sg）の店舗リスト21店舗にNgee Ann City店の掲載が確認できない。閉店している可能性がある。訪問を計画している場合は、事前に公式サイトまたは電話で営業状況を確認することを推奨。",
+    "japanese_staff": null
   },
   {
     "slug": "genki-sushi-city-square-mall",
@@ -33860,17 +33869,20 @@
     "name_ja": "元気寿司 City Square Mall店",
     "area": "Little India",
     "address": "180 Kitchener Road, City Square Mall, #02-37/38, Singapore 208539",
-    "phone": null,
+    "phone": "+6569748040",
     "website": "https://www.genkisushi.com.sg",
-    "description": "City Square Mall（Farrer Park駅直結）2階の元気寿司。Farrer Park MRT駅に直結したショッピングモール内。高速レール配送システムを採用した回転寿司チェーン。",
+    "description": "City Square Mall（Farrer Park駅直結）2階の元気寿司。シンガポール全域21店舗展開の日本発回転寿司チェーン。高速レール配送システムで注文した寿司が席まで届く。",
     "tags": [
       "回転寿司",
-      "チェーン"
+      "チェーン",
+      "Little India"
     ],
-    "hours": "月〜日: 11:00〜22:00",
+    "hours": "月〜木: 11:00〜21:00（L.O. 20:45）/ 金〜日: 11:00〜22:00（L.O. 21:45）",
     "status": "unverified",
-    "last_verified": "2026-04-12",
+    "last_verified": "2026-04-16",
     "source": "website",
+    "ai_reviewed": true,
+    "place_reviewed": true,
     "menu": [
       {
         "name": "握り寿司各種",
@@ -33883,26 +33895,36 @@
         "category": "寿司"
       }
     ],
-    "price_range": "SGD 3〜10/皿程度"
+    "price_range": "SGD 3〜10/皿程度",
+    "menu_highlights": [
+      "サーモン寿司",
+      "炙り寿司各種",
+      "刺身",
+      "Dai Man Zoku（大滿足セット）"
+    ],
+    "detail": "City Square Mall（180 Kitchener Road #02-37/38, Singapore 208539）2階に位置する元気寿司。Farrer Park MRT駅直結のショッピングモール内。シンガポールで21店舗を展開する日本発の回転寿司チェーン（Genki Sushi Singapore）。高速「Kousoku Express」レール配送システムで席まで直接お皿が届く。スマートフォンで注文するBYOD方式を採用。握り・炙り・軍艦・刺身・丼・麺類まで幅広いメニュー構成。",
+    "japanese_staff": null
   },
   {
     "slug": "genki-sushi-pasir-ris-mall",
     "name": "Genki Sushi (Pasir Ris Mall)",
     "name_ja": "元気寿司 Pasir Ris Mall店",
     "area": "Pasir Ris",
-    "address": "7 Pasir Ris Central, Pasir Ris Mall, #B1-33, Singapore 519603",
+    "address": "7 Pasir Ris Central, Pasir Ris Mall, #B1-33, Singapore 519612",
     "phone": "+6569939189",
     "website": "https://www.genkisushi.com.sg",
-    "description": "Pasir Ris Mall地下1階の元気寿司。Pasir Ris MRT駅に近い東部エリアの店舗。高速レール配送システムを採用。平日・週末で営業時間が異なる。",
+    "description": "Pasir Ris Mall地下1階の元気寿司。Pasir Ris MRT駅近くの東部エリア店舗。シンガポール21店舗展開の日本発回転寿司チェーン。平日・週末で営業時間が異なる。",
     "tags": [
       "回転寿司",
       "チェーン",
       "Pasir Ris"
     ],
-    "hours": "月〜木: 11:00〜21:00 / 金〜日: 11:00〜22:00",
+    "hours": "月〜木: 11:00〜21:00（L.O. 20:45）/ 金〜日: 11:00〜22:00（L.O. 21:45）",
     "status": "unverified",
-    "last_verified": "2026-04-12",
+    "last_verified": "2026-04-16",
     "source": "website",
+    "ai_reviewed": true,
+    "place_reviewed": true,
     "menu": [
       {
         "name": "握り寿司各種",
@@ -33915,7 +33937,15 @@
         "category": "寿司"
       }
     ],
-    "price_range": "SGD 3〜10/皿程度"
+    "price_range": "SGD 3〜10/皿程度",
+    "menu_highlights": [
+      "サーモン寿司",
+      "炙り寿司各種",
+      "刺身",
+      "Dai Man Zoku（大滿足セット）"
+    ],
+    "detail": "Pasir Ris Mall（7 Pasir Ris Central #B1-33, Singapore 519612）地下1階に位置する元気寿司。Pasir Ris MRT駅から徒歩圏内の東部エリア店舗。シンガポールで21店舗を展開する日本発の回転寿司チェーン。高速「Kousoku Express」レール配送システムを採用し、スマートフォンのBYOD方式で注文。平日は〜21:00、金〜日は〜22:00と営業時間が延長される。",
+    "japanese_staff": null
   },
   {
     "slug": "genki-sushi-woodleigh-mall",
@@ -33923,18 +33953,20 @@
     "name_ja": "元気寿司 The Woodleigh Mall店",
     "area": "Woodleigh",
     "address": "11 Bidadari Park Drive, The Woodleigh Mall, #01-31, Singapore 367803",
-    "phone": null,
+    "phone": "+6560252250",
     "website": "https://www.genkisushi.com.sg",
-    "description": "The Woodleigh Mall（Woodleigh MRT駅直結）1階の元気寿司。2022年開業の新しいモールに入る店舗。高速レール配送システムを採用した回転寿司。",
+    "description": "The Woodleigh Mall（Woodleigh MRT駅直結）1階の元気寿司。2022年開業の新モール内に位置する比較的新しい店舗。シンガポール21店舗展開の日本発回転寿司チェーン。",
     "tags": [
       "回転寿司",
       "チェーン",
       "Woodleigh"
     ],
-    "hours": "月〜日: 12:00〜15:00 / 18:00〜21:00",
+    "hours": "毎日: 11:00〜22:00（L.O. 21:45）",
     "status": "unverified",
-    "last_verified": "2026-04-12",
+    "last_verified": "2026-04-16",
     "source": "website",
+    "ai_reviewed": true,
+    "place_reviewed": true,
     "menu": [
       {
         "name": "握り寿司各種",
@@ -33947,7 +33979,15 @@
         "category": "寿司"
       }
     ],
-    "price_range": "SGD 3〜10/皿程度"
+    "price_range": "SGD 3〜10/皿程度",
+    "menu_highlights": [
+      "サーモン寿司",
+      "炙り寿司各種",
+      "刺身",
+      "Dai Man Zoku（大滿足セット）"
+    ],
+    "detail": "The Woodleigh Mall（11 Bidadari Park Drive #01-31, Singapore 367803）1階に位置する元気寿司。Woodleigh MRT駅直結の2022年開業モールに入る比較的新しい店舗。シンガポールで21店舗を展開する日本発の回転寿司チェーン。高速「Kousoku Express」レール配送システムを採用し、スマートフォンのBYOD方式で注文できる。毎日11:00〜22:00（L.O. 21:45）営業。",
+    "japanese_staff": null
   },
   {
     "slug": "genki-sushi-singpost-centre",
@@ -33957,16 +33997,18 @@
     "address": "10 Eunos Road 8, SingPost Centre, #01-139, Singapore 408600",
     "phone": "+6569937664",
     "website": "https://www.genkisushi.com.sg",
-    "description": "SingPost Centre（Paya Lebar MRT駅近く）1階の元気寿司。東部Paya Lebarエリアに位置。高速レール配送システムを採用した回転寿司チェーン。",
+    "description": "SingPost Centre（Paya Lebar MRT駅近く）1階の元気寿司。郵便局複合施設内に位置する東部エリアの店舗。シンガポール21店舗展開の日本発回転寿司チェーン。",
     "tags": [
       "回転寿司",
       "チェーン",
       "Paya Lebar"
     ],
-    "hours": "月〜日: 11:00〜21:30",
+    "hours": "毎日: 11:00〜22:00（L.O. 21:45）",
     "status": "unverified",
-    "last_verified": "2026-04-12",
+    "last_verified": "2026-04-16",
     "source": "website",
+    "ai_reviewed": true,
+    "place_reviewed": true,
     "menu": [
       {
         "name": "握り寿司各種",
@@ -33979,7 +34021,15 @@
         "category": "寿司"
       }
     ],
-    "price_range": "SGD 3〜10/皿程度"
+    "price_range": "SGD 3〜10/皿程度",
+    "menu_highlights": [
+      "サーモン寿司",
+      "炙り寿司各種",
+      "刺身",
+      "Dai Man Zoku（大滿足セット）"
+    ],
+    "detail": "SingPost Centre（10 Eunos Road 8 #01-139, Singapore 408600）1階に位置する元気寿司。Paya Lebar MRT駅から徒歩数分の郵便局複合施設内。シンガポールで21店舗を展開する日本発の回転寿司チェーン。高速「Kousoku Express」レール配送システムを採用し、スマートフォンのBYOD方式で注文。毎日11:00〜22:00（L.O. 21:45）営業。",
+    "japanese_staff": null
   },
   {
     "slug": "genki-sushi-united-square",
@@ -33989,17 +34039,19 @@
     "address": "101 Thomson Road, United Square, #B1-07/08, Singapore 307591",
     "phone": "+6569939786",
     "website": "https://www.genkisushi.com.sg",
-    "description": "United Square（Novena MRT駅近く）地下1階の元気寿司。子ども向け施設が充実したUnited Square内に位置し、家族連れにも利用しやすい。高速レール配送システム採用。",
+    "description": "United Square（Novena MRT駅近く）地下1階の元気寿司。子ども向け施設が充実したモール内に位置し家族連れにも利用しやすい。シンガポール21店舗展開の日本発回転寿司チェーン。",
     "tags": [
       "回転寿司",
       "チェーン",
       "Novena",
       "家族向け"
     ],
-    "hours": "月〜金: 11:00〜22:00 / 土日: 10:30〜22:00",
+    "hours": "月〜木: 11:00〜21:00（L.O. 20:45）/ 金〜日: 11:00〜22:00（L.O. 21:45）",
     "status": "unverified",
-    "last_verified": "2026-04-12",
+    "last_verified": "2026-04-16",
     "source": "website",
+    "ai_reviewed": true,
+    "place_reviewed": true,
     "menu": [
       {
         "name": "握り寿司各種",
@@ -34012,6 +34064,14 @@
         "category": "寿司"
       }
     ],
-    "price_range": "SGD 3〜10/皿程度"
+    "price_range": "SGD 3〜10/皿程度",
+    "menu_highlights": [
+      "サーモン寿司",
+      "炙り寿司各種",
+      "刺身",
+      "Dai Man Zoku（大滿足セット）"
+    ],
+    "detail": "United Square（101 Thomson Road #B1-07/08, Singapore 307591）地下1階に位置する元気寿司。Novena MRT駅から徒歩圏内、子ども向けのショッピングセンターUnited Square内に位置するため家族連れの利用も多い。シンガポールで21店舗を展開する日本発の回転寿司チェーン。高速「Kousoku Express」レール配送システムを採用し、スマートフォンのBYOD方式で注文できる。",
+    "japanese_staff": null
   }
 ]
