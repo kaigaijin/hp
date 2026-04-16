@@ -27,73 +27,11 @@
       "日帰国時検疫相談"
     ],
     "hours": "月〜日: 9:00-21:00（火曜・祝日休）",
-    "last_verified": "2026-04-07",
-    "status": "unverified",
-    "source": "web_search",
-    "place_reviewed": true
-  },
-  {
-    "slug": "animal-recovery-centre",
-    "name": "Animal Recovery Veterinary Centre",
-    "name_ja": "アニマル リカバリー 動物病院",
-    "area": "Serangoon",
-    "address": "482 Serangoon Road, #01-01, Singapore 218149",
-    "phone": "+6562522623",
-    "website": null,
-    "source_url": "https://www.pawlyclinic.com/clinics/animal-recovery-veterinary-centre-pet-space-group",
-    "description": "セランゴーンエリアの動物病院。術後ケア・リハビリ・一般診療に対応。日本人多住エリア周辺に立地するが日本語対応の確認は取れていない。",
-    "detail": null,
-    "japanese_staff": null,
-    "email": null,
-    "price_range": null,
-    "menu_highlights": null,
-    "tags": [
-      "動物病院",
-      "リハビリ",
-      "術後ケア"
-    ],
-    "hours": "月〜土: 10:00-20:00 / 日・祝: 10:00-18:00",
-    "last_verified": "2026-04-07",
+    "last_verified": "2026-04-16",
     "status": "unverified",
     "source": "web_search",
     "place_reviewed": true,
-    "needs_review": false,
-    "review_note": "日本人向けの根拠（日本語対応・日系・日本人利用報告）が確認できない。住所は確認済み。日本人向けサービスの明確な根拠が取れれば掲載継続"
-  },
-  {
-    "slug": "companion-animal-surgery",
-    "name": "Companion Animal Surgery",
-    "name_ja": "コンパニオン アニマル サージェリー",
-    "area": "Balestier",
-    "address": "12 Boon Teck Road, Singapore 329586",
-    "phone": "+6562599322",
-    "website": "https://www.comvet.com/",
-    "source_url": "https://www.comvet.com/",
-    "description": "1989年創業のシンガポール最長老級の動物病院。24時間対応で外科・内科・鍼灸など幅広い診療を提供。バレスティアエリアに立地し、日本人在住者の利用実績がある。",
-    "detail": "1989年創業、シンガポールで最も歴史ある動物病院のひとつ。獣医9名体制の24時間対応総合動物病院で、犬・猫はもちろんエキゾチックアニマル、ウサギ・鳥・齧歯類にも対応。西洋獣医学に加え、中獣医学（TCVM）・獣医鍼灸・獣医カイロプラクティックなどの代替医療も提供する特徴的な動物病院。スタッフはオーストラリア・ニュージーランド・フランス・英国・シンガポール出身の獣医師で構成されており、日本語対応の公式記載は確認されていない。バレスティアエリアはリトルインディア近辺で、Toa Payoh方面の日本人が利用しやすい立地。緊急時の夜間診察にも対応可能。",
-    "japanese_staff": null,
-    "email": null,
-    "price_range": null,
-    "menu_highlights": [
-      "一般診療",
-      "外科手術",
-      "緊急対応",
-      "鍼灸",
-      "歯科"
-    ],
-    "tags": [
-      "動物病院",
-      "24時間診療",
-      "代替医療",
-      "エキゾチック動物対応"
-    ],
-    "hours": "24時間",
-    "last_verified": "2026-04-07",
-    "status": "unverified",
-    "source": "web_search",
-    "place_reviewed": true,
-    "needs_review": false,
-    "review_note": "日本語対応の確認が取れていない。「メールでの日本語相談も受け付ける」という前の記述の根拠が見つからなかった。日本人向けの根拠を公式サイトで再確認が必要"
+    "ai_reviewed": true
   },
   {
     "slug": "dog-salon-momo",
@@ -123,10 +61,11 @@
       "ウェストコースト"
     ],
     "hours": "完全予約制",
-    "last_verified": "2026-04-07",
+    "last_verified": "2026-04-16",
     "status": "unverified",
     "source": "web_search",
-    "place_reviewed": true
+    "place_reviewed": true,
+    "ai_reviewed": true
   },
   {
     "slug": "dog-salon-momo-west-coast",
@@ -197,10 +136,11 @@
       "ドアツードア"
     ],
     "hours": "月〜金: 9:00-18:00",
-    "last_verified": "2026-04-07",
+    "last_verified": "2026-04-16",
     "status": "unverified",
     "source": "website",
-    "place_reviewed": true
+    "place_reviewed": true,
+    "ai_reviewed": true
   },
   {
     "slug": "island-veterinary-clinic-jurong",
@@ -231,10 +171,11 @@
       "西部エリア"
     ],
     "hours": "月〜火: 9:30-19:30 / 水〜金: 9:30-19:00 / 土: 9:30-17:00 / 日・祝: 休",
-    "last_verified": "2026-04-07",
+    "last_verified": "2026-04-16",
     "status": "unverified",
     "source": "website",
-    "place_reviewed": true
+    "place_reviewed": true,
+    "ai_reviewed": true
   },
   {
     "slug": "mount-pleasant-animal-clinic-clementi",
@@ -264,10 +205,11 @@
       "西部エリア"
     ],
     "hours": "月〜日: 9:30-12:30, 14:00-19:00（祝日休）",
-    "last_verified": "2026-04-07",
+    "last_verified": "2026-04-16",
     "status": "unverified",
     "source": "web_search",
-    "place_reviewed": true
+    "place_reviewed": true,
+    "ai_reviewed": true
   },
   {
     "slug": "mount-pleasant-east",
@@ -297,10 +239,11 @@
       "東部エリア"
     ],
     "hours": "月〜金: 9:30-12:30, 14:00-16:30, 18:30-20:30 / 土日: 9:30-12:30, 14:00-16:30",
-    "last_verified": "2026-04-07",
+    "last_verified": "2026-04-16",
     "status": "unverified",
     "source": "web_search",
-    "place_reviewed": true
+    "place_reviewed": true,
+    "ai_reviewed": true
   },
   {
     "slug": "mount-pleasant-farrer",
@@ -330,38 +273,11 @@
       "画像診断"
     ],
     "hours": "月〜金: 9:30-13:00, 14:00-19:30 / 土日: 9:30-13:00, 14:00-17:00（祝日休）",
-    "last_verified": "2026-04-07",
-    "status": "unverified",
-    "source": "web_search",
-    "place_reviewed": true
-  },
-  {
-    "slug": "otter-pebbles",
-    "name": "Otter & Pebbles",
-    "name_ja": "オッター＆ペブルズ",
-    "area": "Novena",
-    "address": "8 Sinaran Drive, #01-05/07, Singapore 307470",
-    "phone": null,
-    "website": "https://otterpebbles.com/",
-    "source_url": "https://danielfooddiary.com/2024/12/26/otterpebbles/",
-    "description": "ノベナMRT近くにある日本風コンセプトのペット同伴可カフェ。アウトドアテラスに犬同伴可（水ボウル提供）で、日本風のブランチメニューを提供。",
-    "detail": null,
-    "japanese_staff": null,
-    "email": null,
-    "price_range": null,
-    "menu_highlights": null,
-    "tags": [
-      "カフェ",
-      "ペット同伴可",
-      "日本風"
-    ],
-    "hours": "毎日: 11:00-21:00",
-    "last_verified": "2026-04-07",
+    "last_verified": "2026-04-16",
     "status": "unverified",
     "source": "web_search",
     "place_reviewed": true,
-    "needs_review": false,
-    "review_note": "日本風コンセプトのペット同伴可カフェだが、日本語対応・日本人経営・日本人スタッフの根拠がない。「日本人向け」の根拠として弱い。ペット同伴可のカフェとして掲載価値はあるが、カテゴリをcafeに移す検討が必要"
+    "ai_reviewed": true
   },
   {
     "slug": "pet-clinic-singapore",
@@ -391,10 +307,11 @@
       "帰国時検疫相談"
     ],
     "hours": "月〜金: 9:00-12:00, 14:00-19:00 / 土: 9:00-13:00",
-    "last_verified": "2026-04-07",
+    "last_verified": "2026-04-16",
     "status": "unverified",
     "source": "website",
-    "place_reviewed": true
+    "place_reviewed": true,
+    "ai_reviewed": true
   },
   {
     "slug": "pets-avenue-vet",
@@ -425,10 +342,11 @@
       "多拠点"
     ],
     "hours": "月〜金: 8:00-12:30, 14:00-22:00 / 土日: 8:00-12:30, 14:00-18:00",
-    "last_verified": "2026-04-07",
+    "last_verified": "2026-04-16",
     "status": "unverified",
     "source": "website",
-    "place_reviewed": true
+    "place_reviewed": true,
+    "ai_reviewed": true
   },
   {
     "slug": "sopra-ginza-bukit-timah",
@@ -459,10 +377,11 @@
       "日系サロン"
     ],
     "hours": "月〜日: 10:00-18:00",
-    "last_verified": "2026-04-07",
+    "last_verified": "2026-04-16",
     "status": "unverified",
     "source": "website",
-    "place_reviewed": true
+    "place_reviewed": true,
+    "ai_reviewed": true
   },
   {
     "slug": "sopra-ginza-river-valley",
@@ -490,36 +409,11 @@
       "日系サロン"
     ],
     "hours": "月〜金: 10:00-18:00 / 土日・祝: 10:00-18:30",
-    "last_verified": "2026-04-07",
+    "last_verified": "2026-04-16",
     "status": "unverified",
     "source": "website",
-    "place_reviewed": true
-  },
-  {
-    "slug": "sundream-pet",
-    "name": "Sundream Petland",
-    "name_ja": "サンドリームペットランド",
-    "area": "Orchard",
-    "address": "545 Orchard Road, #01-04, Far East Shopping Centre, Singapore 238882",
-    "phone": "+6562249944",
-    "website": "https://www.sundreampetland.com/",
-    "source_url": "https://www.sundreampetland.com/",
-    "description": "オーチャード・ファーイーストショッピングセンター内のペット用品店。日本製ペット用品の取り扱いが確認されている。",
-    "detail": null,
-    "japanese_staff": null,
-    "email": null,
-    "price_range": null,
-    "menu_highlights": null,
-    "tags": [
-      "ペット用品店"
-    ],
-    "hours": null,
-    "last_verified": "2026-04-07",
-    "status": "unverified",
-    "source": "web_search",
     "place_reviewed": true,
-    "needs_review": false,
-    "review_note": "日本製ペット用品の取り扱いがあることは確認できたが、日本語対応・日本人経営など日本人向けの根拠が不明確。公式サイトが接続不可のため詳細確認できず。再確認が必要"
+    "ai_reviewed": true
   },
   {
     "slug": "the-animal-clinic",
@@ -548,10 +442,11 @@
       "西部エリア"
     ],
     "hours": "月〜金: 9:00-20:00 / 土: 9:00-18:00 / 日祝: 10:00-16:00",
-    "last_verified": "2026-04-07",
+    "last_verified": "2026-04-16",
     "status": "unverified",
     "source": "website",
-    "place_reviewed": true
+    "place_reviewed": true,
+    "ai_reviewed": true
   },
   {
     "slug": "tiara-pets-singapore",
@@ -578,79 +473,11 @@
       "子犬・子猫販売"
     ],
     "hours": "月〜日: 11:00-20:00（水曜休）",
-    "last_verified": "2026-04-07",
-    "status": "unverified",
-    "source": "web_search",
-    "place_reviewed": true
-  },
-  {
-    "slug": "vets-for-life-river-valley",
-    "name": "Vets For Life Animal Clinic (River Valley)",
-    "name_ja": "ベッツフォーライフ アニマルクリニック リバーバレー",
-    "area": "River Valley",
-    "address": "491 River Valley Road, #01-05/06 Valley Point Shopping Centre, Singapore 248371",
-    "phone": "+6567320273",
-    "website": "https://www.vetsforlife.com.sg/",
-    "source_url": "https://www.vetsforlife.com.sg/",
-    "description": "リバーバレーのバレーポイント内の動物病院。超音波・血液検査完備。犬・猫・うさぎ等に対応。タングリン・オーチャード方面在住の日本人が利用しやすい立地。",
-    "detail": "2015年開業、River Valley Road 491番地・Valley Point Shopping Centre内に位置する動物病院。超音波・血液検査など診断機器を院内完備し、犬・猫・うさぎ・ハムスター等の小動物全般に対応。タングリン・オーチャード・リバーバレー方面在住の日本人にとってアクセスしやすい立地。月〜金 9:30〜12:30, 14:00〜17:00, 18:00〜20:00 / 土日 9:30〜13:00, 14:00〜17:30。日本語対応スタッフの在籍は公式サイトでは確認されておらず、以前の記述にあった「日本人獣医師在籍」の根拠は確認できなかった。同グループはTanjong Katong店・Upper Bukit Timah店も展開している。",
-    "japanese_staff": null,
-    "email": null,
-    "price_range": null,
-    "menu_highlights": [
-      "一般診療",
-      "予防接種",
-      "手術",
-      "歯科",
-      "血液検査"
-    ],
-    "tags": [
-      "動物病院",
-      "River Valley",
-      "小動物対応"
-    ],
-    "hours": "月〜金: 9:30-12:30, 14:00-17:00, 18:00-20:00 / 土日: 9:30-13:00, 14:00-17:30",
-    "last_verified": "2026-04-07",
+    "last_verified": "2026-04-16",
     "status": "unverified",
     "source": "web_search",
     "place_reviewed": true,
-    "needs_review": false,
-    "review_note": "以前のエントリに「日本人獣医師在籍・日本語対応」と記載されていたが、公式サイト・WebSearch双方で確認できなかった。掲載継続するなら「Tanjong Katong方面在住の日本人が多い」という立地理由のみで維持するか、日本語対応の確認が取れてから掲載すべき"
-  },
-  {
-    "slug": "vets-for-life-tanjong-katong",
-    "name": "Vets For Life Animal Clinic (Tanjong Katong)",
-    "name_ja": "ベッツフォーライフ アニマルクリニック タンジョンカトン",
-    "area": "Katong",
-    "address": "330B Tanjong Katong Road, Singapore 437115",
-    "phone": "+6563488346",
-    "website": "https://www.vetsforlife.com.sg/",
-    "source_url": "https://www.vetsforlife.com.sg/",
-    "description": "2013年創業のVets For Lifeの東部・Tanjong Katong拠点。24時間入院施設完備。犬・猫・小動物の一般診療・手術に対応。東部エリアの日本人家族が利用できる動物病院。",
-    "detail": "Vets For Life Animal Clinicの創業第1号店（2013年開業）。Tanjong Katong Road沿いに位置し、Katong・East Coast・Amber Road方面在住の日本人ペットオーナーにとってアクセスしやすい立地。24時間対応の入院施設を完備し、犬・猫・うさぎ・ハムスター等の小動物全般の一般診療・予防接種・手術に対応。月〜金 9:30〜12:30, 14:00〜17:00, 18:00〜20:00 / 土日 9:30〜13:00, 14:00〜17:30。同グループはRiver Valley店・Upper Bukit Timah店も展開。日本語対応スタッフの在籍は公式サイトでは確認されていない。",
-    "japanese_staff": null,
-    "email": null,
-    "price_range": null,
-    "menu_highlights": [
-      "一般診療",
-      "予防接種",
-      "手術",
-      "入院",
-      "歯科"
-    ],
-    "tags": [
-      "動物病院",
-      "Katong",
-      "東部エリア",
-      "24時間入院対応"
-    ],
-    "hours": "月〜金: 9:30-12:30, 14:00-17:00, 18:00-20:00 / 土日: 9:30-13:00, 14:00-17:30",
-    "last_verified": "2026-04-07",
-    "status": "unverified",
-    "source": "web_search",
-    "place_reviewed": true,
-    "needs_review": false,
-    "review_note": "「日本語対応」タグが付いていたが公式サイト・WebSearchで確認できなかった。立地（東部エリアの日本人多住地区）が唯一の日本人向け根拠。日本語対応の確認が取れてから掲載継続の判断が望ましい"
+    "ai_reviewed": true
   },
   {
     "slug": "pawtraits-sg",
