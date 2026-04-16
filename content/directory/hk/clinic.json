@@ -934,7 +934,7 @@
     "address": "Shop 1B, G/F, Tak Hong Street, Site 12, Whampoa Garden, Hunghom, Kowloon, Hong Kong",
     "phone": "+85221528579",
     "website": "https://kentaclinic.com/",
-    "description": "紅磡・黄埔花園のファミリークリニック。日本のクリニック文化を参考に設立。内科・小児科・皮膚科・精神科に対応。日本語スタッフ在籍。",
+    "description": "紅磡・黄埔花園にある日本式クリニック文化を参考に設立されたファミリークリニック。日本語スタッフが在籍し、在香港日本人が日本語で受診できる。",
     "tags": [
       "日本語対応",
       "内科",
@@ -943,7 +943,7 @@
     ],
     "hours": "要確認",
     "status": "unverified",
-    "last_verified": "2026-03-27",
+    "last_verified": "2026-04-16",
     "source": "website",
     "phone_local": null,
     "email": null,
@@ -951,7 +951,18 @@
     "user_rating_count": null,
     "price_level": null,
     "photo_name": null,
-    "place_reviewed": true
+    "place_reviewed": true,
+    "detail": "Shop 1B, G/F, Tak Hong Street, Site 12, Whampoa Garden, Hunghom, Kowloonに位置するKenta Clinic（健太診療所）。日本のクリニック文化を参考に設立されたファミリークリニックで、日本語スタッフが在籍（広東語・英語・普通話にも対応）。内科・小児科・皮膚科・精神科を一か所で受診可能。基本診察料HK$400〜$600（5日分の一般薬を含む）。電話: 2152 8579 / 6884 0032。",
+    "price_range": "HK$400〜600/回",
+    "japanese_staff": true,
+    "menu_highlights": [
+      "内科",
+      "小児科",
+      "皮膚科",
+      "精神科",
+      "インフルエンザワクチン接種"
+    ],
+    "ai_reviewed": true
   },
   {
     "slug": "kenta-clinic-mental-health",
@@ -1641,32 +1652,6 @@
     "place_id": "ChIJe_IUXocBBDQRw1Hb1Jy2SN0",
     "priority": 0,
     "ai_reviewed": true,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "place_reviewed": true
-  },
-  {
-    "slug": "tst-imed-clinic",
-    "name": "TST iMed Clinic",
-    "name_ja": "尖沙咀iMedクリニック",
-    "area": "Tsim Sha Tsui",
-    "address": "Tsim Sha Tsui, Hong Kong",
-    "phone": null,
-    "website": null,
-    "description": "24時間日本語受付対応のクリニック。チムサーチョイ（尖沙咀）エリアで内科・小児科などに対応。海外旅行保険のキャッシュレス対応も可能。",
-    "tags": [
-      "日本語対応",
-      "24時間受付",
-      "キャッシュレス保険"
-    ],
-    "hours": "24時間受付",
-    "status": "unverified",
-    "last_verified": "2026-03-27",
-    "source": "website",
     "phone_local": null,
     "email": null,
     "rating": null,
