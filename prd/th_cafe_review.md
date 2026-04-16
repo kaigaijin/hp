@@ -6,7 +6,7 @@
 ## バッチ（165件・未レビュー分）
 
 - [x] batch01 (20件): `hinode-ramen-by-rinko` 〜 `khaofang-dessert-caf`
-- [ ] batch02 (20件): `khom-chocolate-house` 〜 `kumolab-cheese-central-phuket`
+- [x] batch02 (20件): `khom-chocolate-house` 〜 `kumolab-cheese-central-phuket`
 - [ ] batch03 (20件): `on-the-table-terminal-21-pattaya` 〜 `ramen-naruto`
 - [ ] batch04 (20件): `ren-cafe-and-goods-matcha-coffee-and-dessert` 〜 `seki-grande-central-world`
 - [ ] batch05 (20件): `seki-omakase-siam-paragon` 〜 `story-coffee-phuket`
