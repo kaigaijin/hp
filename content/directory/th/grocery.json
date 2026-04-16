@@ -701,39 +701,6 @@
     "japanese_staff": false
   },
   {
-    "slug": "cj-more-khaosan-road",
-    "name": "CJ More Khaosan Road",
-    "name_ja": "CJ モレ カオサン ロード",
-    "area": "Bangkok",
-    "address": "2 2/2 Thanon Khao San, Khwaeng Talat Yot, Khet Phra Nakhon, Krung Thep Maha Nakhon 10200, Thailand",
-    "lat": 13.7595,
-    "lng": 100.4957,
-    "phone": "+66613915206",
-    "website": "http://www.cjmore.co.th/",
-    "description": "カオサン通りに位置するタイのスーパーマーケットチェーン「CJ More」の直営店。食品・日用品を中心に扱う。日本食コーナーの有無は未確認。",
-    "tags": [
-      "日本食材",
-      "スーパー"
-    ],
-    "hours": "Monday: Open 24 hours / Tuesday: Open 24 hours / Wednesday: Open 24 hours / Thursday: Open 24 hours / Friday: Open 24 hours / Saturday: Open 24 hours / Sunday: Open 24 hours",
-    "last_verified": "2026-04-07",
-    "status": "unverified",
-    "source": "google_maps",
-    "place_id": "ChIJ-yssI42Z4jAR6sM5PKVBk4E",
-    "priority": 0,
-    "ai_reviewed": false,
-    "phone_local": null,
-    "email": null,
-    "rating": null,
-    "user_rating_count": null,
-    "price_level": null,
-    "photo_name": null,
-    "place_reviewed": true,
-    "needs_review": false,
-    "review_note": "タイのスーパーマーケットチェーン。カオサン通り店。日本食コーナーの有無は未確認。",
-    "detail": "CJ Moreはタイのスーパーマーケット・コンビニエンスストアチェーンで、このカオサン通り店（2 Thanon Khao San）は観光客が多く集まるバンラムプー地区に位置する。電話番号は+66 61 391 5206。タイ国内の日用品・食料品を中心に扱っており、外国人旅行者向けの商品も置いている。ただし専門的な日本食コーナーやLawson 108のような日本式コンビニフードの品揃えがあるかは現時点で確認できていない。カオサン通り周辺を訪れる日本人旅行者・在住者が緊急の食料品購入に利用できる可能性がある。"
-  },
-  {
     "slug": "daiso",
     "name": "DAISO",
     "name_ja": "ダイソー",
@@ -3209,18 +3176,18 @@
     "lng": 100.5954,
     "phone": "+66919151000",
     "website": "http://www.facebook.com/konnichiwamarket",
-    "description": "バンコク・スクンビット71（プリーディー13）の日本食材専門マーケット。在タイ日本人コミュニティが多いエリアで、日本直輸入の食材・惣菜・菓子を販売。",
+    "description": "スクンビット71（プリーディー13）の日本食材専門マーケット。日本直輸入の食材・惣菜・菓子を販売。在タイ日本人が多いエリアに立地。",
     "tags": [
       "日本食材",
       "マーケット"
     ],
     "hours": "Monday: 9:00 AM – 7:00 PM / Tuesday: 9:00 AM – 7:00 PM / Wednesday: 9:00 AM – 7:00 PM / Thursday: 9:00 AM – 7:00 PM / Friday: 9:00 AM – 7:00 PM / Saturday: 9:00 AM – 7:00 PM / Sunday: 9:00 AM – 7:00 PM",
-    "last_verified": "2026-04-07",
+    "last_verified": "2026-04-16",
     "status": "unverified",
     "source": "google_maps",
     "place_id": "ChIJzfY0kqmf4jARjhil2gYJw_8",
     "priority": 0,
-    "ai_reviewed": false,
+    "ai_reviewed": true,
     "phone_local": null,
     "email": null,
     "rating": null,
@@ -3230,7 +3197,8 @@
     "place_reviewed": true,
     "detail": "Konnichiwa Marketは、バンコク・ワッタナー区のスクンビット71（259/9 Thanon Sukhumvit 71, Soi Pridi Banomyong 13, Phra Khanong Nuea）に位置する日本食材専門マーケット。在タイ日本人が多く居住するスクンビット北部エリアに立地し、日本直輸入の食材・調味料・お菓子・惣菜などを販売するローカルな日本食材店として機能している。FacebookページはKonnichiwa Marketとして運営。スクンビット71・プリーディー地区の在住日本人が日常的に立ち寄れるスポット。",
     "needs_review": false,
-    "review_note": "住所・エリア不明。Facebook専業の可能性。"
+    "review_note": "住所・エリア不明。Facebook専業の可能性。",
+    "japanese_staff": null
   },
   {
     "slug": "korone-japanese-homemade-bakery",
