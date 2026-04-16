@@ -11195,7 +11195,7 @@
     "address": "39-43 Oakdene Parade, Cobham KT11 2LR",
     "phone": null,
     "website": "https://kinjo.co.uk",
-    "description": "サリー州コーバムにある日本料理レストラン・バー＆グリル。鮨・日本食・カクテルを提供。ロンドン近郊コーバム在住の日系企業駐在員ファミリーにも利用される。",
+    "description": "サリー州コーバムにある日本料理・バー＆グリル。丼・串焼き・ラーメン・揚げ物・鮨・焼き鳥・囲炉裏焼きを提供し、ロンドン近郊在住の日本人ファミリーにも利用される。",
     "tags": [
       "日本料理",
       "グリル",
@@ -11203,13 +11203,18 @@
       "寿司"
     ],
     "place_id": "",
-    "email": null,
+    "email": "hello@kinjo.co.uk",
     "category": "restaurant",
     "source_url": "https://kinjo.co.uk",
     "city": "London",
     "verified": false,
     "place_reviewed": true,
-    "last_verified": "2026-04-13"
+    "last_verified": "2026-04-16",
+    "detail": "Kinjo Cobhamはサリー州コーバム（39-43 Oakdene Parade, KT11 2LR）にある日本料理レストラン＆バー。系列のOxted店（46 Station Rd East, RH8 0PG）とともに、丼物・串焼き・ラーメン・揚げ物・鮨・焼き鳥・ロバタグリルなど多彩な日本料理を提供。オンライン予約はFavouriteTable経由で可能。ロンドン近郊の閑静なサリー州で本格的な日本食を提供する数少ない一軒。",
+    "price_range": null,
+    "japanese_staff": null,
+    "ai_reviewed": true,
+    "status": "unverified"
   },
   {
     "slug": "atari-ya-sushi-acton",
@@ -11219,7 +11224,7 @@
     "address": "595 High Rd, North Finchley, London N12 0DY",
     "phone": null,
     "website": "https://atariya.co.uk",
-    "description": "アタリヤグループが運営する本格鮨バー。フィッシュサプライヤー直営の強みを活かした鮮度抜群の鮨を提供。在英日本人に長く愛されるアタリヤの鮨専門店。",
+    "description": "鮮魚サプライヤー直営のアタリヤグループが運営するウエストアクトン発の本格鮨バー。鮮度抜群の鮨・刺身が在英日本人に長年支持される。",
     "tags": [
       "寿司",
       "刺身",
@@ -11227,13 +11232,18 @@
       "魚介"
     ],
     "place_id": "",
-    "email": null,
+    "email": "enquiries@atariyaretail.co.uk",
     "category": "restaurant",
     "source_url": "https://atariya.co.uk",
     "city": "London",
     "verified": false,
     "place_reviewed": true,
-    "last_verified": "2026-04-13"
+    "last_verified": "2026-04-16",
+    "detail": "アタリヤは在英日本人御用達の鮮魚サプライヤー兼鮨バーチェーン。Finchley・Golders Green・Kingston・West Actonに店舗を構える。漁港から直送された新鮮な魚を使った鮨・刺身は、在英日本人コミュニティで30年以上愛され続けている。小売スーパーも兼業しており、日本食材の調達も可能。問い合わせはenquiries@atariyaretail.co.ukまで。",
+    "price_range": null,
+    "japanese_staff": true,
+    "ai_reviewed": true,
+    "status": "unverified"
   },
   {
     "slug": "fujiyama-bristol-clifton",
@@ -11243,7 +11253,7 @@
     "address": "21 Regent St, Clifton, Bristol BS8 4HW",
     "phone": "+441179077840",
     "website": "https://www.fujiyamabristol.co.uk",
-    "description": "ブリストル・クリフトンにある本格日本料理レストラン。正統派の日本食を水〜日曜に提供し、ブリストル在住の日本人や日本料理ファンに長年支持される老舗。",
+    "description": "ブリストル・クリフトンにある本格日本料理レストラン。鮨・刺身・ラーメン・鉄板焼き・丼など多彩な和食をデリバリー対応で提供。",
     "tags": [
       "日本料理",
       "寿司",
@@ -11256,7 +11266,19 @@
     "city": "London",
     "verified": false,
     "place_reviewed": true,
-    "last_verified": "2026-04-13"
+    "last_verified": "2026-04-16",
+    "detail": "ブリストルのリージェントストリート（21 Regent St, Clifton, BS8 4HW）にある日本料理レストラン。鮨・握り・ロール・刺身・ラーメン・鉄板焼き・丼など幅広いメニューを揃える。12:00〜22:30営業で、3マイル以内は夜間無料デリバリー対応（最低注文£20）。オンライン注文で10%割引あり。ブリストル在住の日本人や日本料理ファンが利用するクリフトンエリアの和食の拠点。",
+    "price_range": "££",
+    "japanese_staff": null,
+    "menu_highlights": [
+      "鮨・握り",
+      "刺身",
+      "ラーメン",
+      "鉄板焼き",
+      "丼"
+    ],
+    "ai_reviewed": true,
+    "status": "unverified"
   },
   {
     "slug": "tenkaichi-sushi-cardiff",
@@ -11266,7 +11288,7 @@
     "address": "236 City Rd, Cardiff CF24 3JJ",
     "phone": null,
     "website": "https://tenkaichi.co.uk",
-    "description": "カーディフのシティロードにある本格日本料理レストラン。新鮮な鮨・刺身・ヌードルを提供し、ウェールズ在住の日本人にも利用される日本食の拠点的存在。",
+    "description": "カーディフ20年以上の老舗日本料理店。「カーディフ最古の日本食レストラン」として受賞歴もあり、ウェールズ在住の日本人にも長く親しまれる。",
     "tags": [
       "寿司",
       "ヌードル",
@@ -11279,7 +11301,16 @@
     "city": "London",
     "verified": false,
     "place_reviewed": true,
-    "last_verified": "2026-04-13"
+    "last_verified": "2026-04-16",
+    "detail": "カーディフのシティロードにある、20年以上の歴史を持つウェールズ最古級の日本料理店（電話: +44 2920 481888）。Restaurant Guru「Best Sushi 2021」やBest Traditional Sushi & Noodle Bar Cardiff 2022など複数の受賞歴がある。鮨・刺身・ヌードルを中心に持続可能な食材にこだわったメニューを提供。テイクアウト・Deliveroo対応、ハラル認証済み。",
+    "price_range": "££",
+    "japanese_staff": null,
+    "menu_highlights": [
+      "鮨・刺身",
+      "ヌードル"
+    ],
+    "ai_reviewed": true,
+    "status": "unverified"
   },
   {
     "slug": "sushi-show-camden-passage",
@@ -11289,7 +11320,7 @@
     "address": "28 Camden Passage, London N1 8ED",
     "phone": "+442073541329",
     "website": null,
-    "description": "イズリントンのカムデンパッセージにある小さな本格鮨専門店。鮮魚サプライヤー出身の職人が握るクオリティの高い鮨が在英日本人にも評価される。",
+    "description": "イズリントン・カムデンパッセージにある日本人経営の本格鮨専門店。築地直送クラスの鮮魚を使った握りが在英日本人に高く評価される10席の小さな名店。",
     "tags": [
       "寿司",
       "鮮魚",
@@ -11302,7 +11333,17 @@
     "city": "London",
     "verified": false,
     "place_reviewed": true,
-    "last_verified": "2026-04-13"
+    "last_verified": "2026-04-16",
+    "detail": "28 Camden Passage, London N1 8EDに位置するSushi Show。日本人オーナー・Kaz Tateishiが2014年10月に開業。毎朝ビリングスゲート市場で仕入れた新鮮な魚を使い、握り鮨・刺身・うどん丼を提供する。店内10席・屋外8席のコンパクトな空間で、予約不要で気軽に訪問できる。ロンドンで最もクオリティが高いと評される鮪の刺身は必食。",
+    "price_range": "££",
+    "japanese_staff": true,
+    "menu_highlights": [
+      "握り鮨",
+      "刺身",
+      "うどん丼"
+    ],
+    "ai_reviewed": true,
+    "status": "unverified"
   },
   {
     "slug": "sticks-n-sushi-birmingham",
@@ -11312,7 +11353,7 @@
     "address": null,
     "phone": null,
     "website": "https://sticksnsushi.com",
-    "description": "デンマーク発祥の日本食レストランチェーンのバーミンガム店。鮨とスティック（串焼き）を組み合わせたメニューが特徴。バーミンガム在住の日本人や訪問者に利用される。",
+    "description": "デンマーク発祥の日本×北欧フュージョン鮨＆串焼きチェーンのバーミンガム店。モダンな雰囲気で鮨と焼き鳥スタイルの串料理を楽しめる。",
     "tags": [
       "寿司",
       "串焼き",
@@ -11325,7 +11366,18 @@
     "city": "London",
     "verified": false,
     "place_reviewed": true,
-    "last_verified": "2026-04-13"
+    "last_verified": "2026-04-16",
+    "detail": "Sticks'n'Sushiはデンマーク発祥で日本料理と北欧デザインを融合させた人気チェーン。鮨・刺身・サラダとスティック（串焼き）を組み合わせたメニューが特徴で、桜のシーズナルスペシャルも用意。バーミンガム在住の日本人ファミリーやビジネスパーソンの会食にも利用される。",
+    "price_range": "£££",
+    "japanese_staff": null,
+    "menu_highlights": [
+      "鮨",
+      "刺身",
+      "スティック串焼き",
+      "サラダ"
+    ],
+    "ai_reviewed": true,
+    "status": "unverified"
   },
   {
     "slug": "moto-sake-bar-london",
@@ -11335,20 +11387,31 @@
     "address": "7 Maiden Lane, London WC2E 7NA",
     "phone": "+442080769512",
     "website": "https://motoldn.com",
-    "description": "コヴェントガーデンにある英国初の独立系日本酒バー＆ショップ。日本の小規模蔵元からの直輸入地酒と日本式おつまみを提供。日本酒好きの在英日本人に人気の聖地的存在。",
+    "description": "コヴェントガーデンにある英国初の独立系日本酒バー＆食堂。小規模蔵元から直輸入した地酒と日本のおつまみを楽しめる、日本酒好きの在英日本人に人気の聖地。",
     "tags": [
       "日本酒バー",
       "酒",
       "おつまみ"
     ],
     "place_id": "",
-    "email": null,
+    "email": "info@motoldn.com",
     "category": "restaurant",
     "source_url": "https://motoldn.com",
     "city": "London",
     "verified": false,
     "place_reviewed": true,
-    "last_verified": "2026-04-13"
+    "last_verified": "2026-04-16",
+    "detail": "7 Maiden Lane, Covent Garden, London WC2E 7NAに位置するMoto。「英国初の独立系日本酒バー＆食堂」として、全国の小規模蔵元から直輸入した日本酒・焼酎・クラフトジン等を提供。お弁当と日本の小皿料理（おつまみ）もあり、酒とのペアリングが楽しめる。火〜土12:00〜24:00・日12:00〜22:00営業。連絡先はinfo@motoldn.comまで。",
+    "price_range": "££",
+    "japanese_staff": null,
+    "menu_highlights": [
+      "日本酒・焼酎",
+      "クラフトジン",
+      "お弁当",
+      "おつまみ"
+    ],
+    "ai_reviewed": true,
+    "status": "unverified"
   },
   {
     "slug": "goemon-ramen-bar-brighton",
@@ -11358,7 +11421,7 @@
     "address": "12 Preston St, Brighton BN1 2HN",
     "phone": null,
     "website": null,
-    "description": "ブライトンのプレストンストリートにある本格ラーメン＆居酒屋スタイルの日本料理店。2014年開業、日本人オーナーが作る本物のラーメンをブライトンに広めた先駆け的存在。",
+    "description": "ブライトン在住の日本人夫婦Rui＆Nobuが2014年創業した本格ラーメン専門店。南イングランドで本物の日本ラーメンを味わえる貴重な一軒。",
     "tags": [
       "ラーメン",
       "居酒屋",
@@ -11371,7 +11434,16 @@
     "city": "London",
     "verified": false,
     "place_reviewed": true,
-    "last_verified": "2026-04-13"
+    "last_verified": "2026-04-16",
+    "detail": "ブライトンのプレストンストリート（12 Preston St, BN1 2HN）に2014年に日本人オーナーのRuiとNobuが開業した本格ラーメン専門店。「日本で親しまれているラーメンをブライトンに」というコンセプトで、正統派の日本式ラーメンを提供。日本人シェフによる丁寧なスープが在英日本人やラーメンファンから高評価。ブライトン在住・旅行者の日本人にとって心強い一軒。",
+    "price_range": "££",
+    "japanese_staff": true,
+    "menu_highlights": [
+      "ラーメン",
+      "居酒屋料理"
+    ],
+    "ai_reviewed": true,
+    "status": "unverified"
   },
   {
     "slug": "kibou-oxford-jericho",
@@ -11381,20 +11453,31 @@
     "address": "11-12 Little Clarendon St, Oxford OX1 2HJ",
     "phone": null,
     "website": "https://kibou.co.uk/locations/kibou-oxford",
-    "description": "オックスフォードのジェリコ地区にあるアワード受賞の日本料理レストラン＆バー。オックスフォード大学近辺で本格的な日本食を楽しめる、在英日本人研究者・留学生にも利用される。",
+    "description": "オックスフォードのジェリコ地区にあるアワード受賞の現代日本料理レストラン。A5和牛・盛り合わせ鮨・刺身など本格メニューをオックスフォードで楽しめる。",
     "tags": [
       "日本料理",
       "バー",
       "モダン日本食"
     ],
     "place_id": "",
-    "email": null,
+    "email": "oxford@kibou.co.uk",
     "category": "restaurant",
     "source_url": "https://kibou.co.uk/locations/kibou-oxford",
     "city": "London",
     "verified": false,
     "place_reviewed": true,
-    "last_verified": "2026-04-13"
+    "last_verified": "2026-04-16",
+    "detail": "11-12 Little Clarendon Street, Oxford OX1 2HPに位置するKIBOU Oxford。アワード受賞の現代日本料理レストランで、A5等級の炙り和牛・盛り合わせ（盛り合わせ）鮨・刺身・シェアプレートなど本格的なメニューを提供。平日ランチ（12:00〜15:30）は£17.50のテイショクセット有り。価格帯£3〜£40。予約はoxford@kibou.co.ukまで。月〜土12pm〜11pm・日12pm〜10pm営業。",
+    "price_range": "£££",
+    "japanese_staff": null,
+    "menu_highlights": [
+      "A5和牛",
+      "盛り合わせ鮨・刺身",
+      "シェアプレート",
+      "ランチテイショクセット"
+    ],
+    "ai_reviewed": true,
+    "status": "unverified"
   },
   {
     "slug": "maki-ramen-london-o2",
@@ -11404,7 +11487,7 @@
     "address": "The O2, Peninsula Square, London SE10 0DX",
     "phone": null,
     "website": "https://www.makiramen.com",
-    "description": "グリニッジのO2アリーナ内にあるMaki & Ramenの最新ロンドン店。2026年2月開業。本格的な鮨とラーメンを提供するスコットランド発祥チェーンのロンドン進出店。",
+    "description": "グリニッジのO2アリーナ内にあるスコットランド発の本格鮨＆ラーメンチェーン。2026年2月開業の新店で、コンサート前後の食事にも便利。",
     "tags": [
       "寿司",
       "ラーメン",
@@ -11417,7 +11500,16 @@
     "city": "London",
     "verified": false,
     "place_reviewed": true,
-    "last_verified": "2026-04-13"
+    "last_verified": "2026-04-16",
+    "detail": "スコットランド発祥のMaki & Ramenチェーンのロンドン・O2店（2026年2月開業）。本格的な鮨とラーメンをO2アリーナ内で提供。コンサートやイベント来場者に加え、グリニッジ在住の日本人が本格的な日本食を楽しめるスポット。詳細はmakiramen.comで確認可能。",
+    "price_range": "££",
+    "japanese_staff": null,
+    "menu_highlights": [
+      "鮨",
+      "ラーメン"
+    ],
+    "ai_reviewed": true,
+    "status": "unverified"
   },
   {
     "slug": "maki-ramen-soho-london",
@@ -11427,7 +11519,7 @@
     "address": "Old Compton St, London W1D",
     "phone": null,
     "website": "https://www.makiramen.com",
-    "description": "ソーホーのオールドコンプトンストリートにあるMaki & Ramenのロンドン2号店（2026年3月開業）。110席の広い空間で鮨・ラーメンを提供。深夜まで営業する日本食レストラン。",
+    "description": "ソーホーにあるスコットランド発の本格鮨＆ラーメンチェーン2号店（2026年3月開業）。110席の広い空間で深夜まで鮨・ラーメンを楽しめる。",
     "tags": [
       "寿司",
       "ラーメン",
@@ -11440,7 +11532,16 @@
     "city": "London",
     "verified": false,
     "place_reviewed": true,
-    "last_verified": "2026-04-13"
+    "last_verified": "2026-04-16",
+    "detail": "スコットランド発祥のMaki & Ramenチェーンのソーホー店（2026年3月開業）。オールドコンプトンストリートに位置し、110席の広い空間で鮨とラーメンを提供。深夜営業でソーホーの夜に本格的な日本食を楽しめる。在英日本人の食事・会食にも対応できる規模の店舗。",
+    "price_range": "££",
+    "japanese_staff": null,
+    "menu_highlights": [
+      "鮨",
+      "ラーメン"
+    ],
+    "ai_reviewed": true,
+    "status": "unverified"
   },
   {
     "slug": "rai-restaurant-london",
@@ -11450,7 +11551,7 @@
     "address": "13 Bayley St, London WC1B 3HD",
     "phone": null,
     "website": "https://rairestaurant.com",
-    "description": "ブルームズベリーにある本格オマカセ日本料理レストラン。10席の鮨カウンターで24年のキャリアを持つシェフが提供する£59〜のリーズナブルなオマカセが在英日本人にも好評。",
+    "description": "ブルームズベリーにある本格オマカセ鮨カウンター。大阪で修行したシェフが10席の小空間で£59〜のリーズナブルなオマカセを提供する。",
     "tags": [
       "オマカセ",
       "鮨",
@@ -11458,13 +11559,22 @@
       "リーズナブル"
     ],
     "place_id": "",
-    "email": null,
+    "email": "info@rairestaurant.com",
     "category": "restaurant",
     "source_url": "https://rairestaurant.com",
     "city": "London",
     "verified": false,
     "place_reviewed": true,
-    "last_verified": "2026-04-13"
+    "last_verified": "2026-04-16",
+    "detail": "11-13 Bayley St, London WC1B 3HDに位置するRAI Restaurant（最寄りのトテナム・コート・ロード駅から徒歩4分）。大阪で24年のキャリアを積んだシェフが10席の鮨カウンターで£59〜のオマカセを提供。月・水・木はランチ12:00-15:30とディナー17:30-22:30、土は12:00-23:00通し営業。予約・問い合わせはinfo@rairestaurant.comまで。",
+    "price_range": "£££",
+    "japanese_staff": null,
+    "menu_highlights": [
+      "オマカセ（£59〜）",
+      "鮨カウンター"
+    ],
+    "ai_reviewed": true,
+    "status": "unverified"
   },
   {
     "slug": "cube-mayfair-sushi",
@@ -11474,7 +11584,7 @@
     "address": null,
     "phone": null,
     "website": "https://cubemayfair.com",
-    "description": "メイフェアにある高級日本料理レストラン。鮨カウンターで職人が目前で握る鮨とタパス形式の料理を提供。オマカセ体験も可能なメイフェアの上質な日本食スポット。",
+    "description": "メイフェアにある高級日本料理レストラン。日本人シェフMasaが鮨カウンターでオマカセも提供する上質な和食空間。",
     "tags": [
       "寿司",
       "オマカセ",
@@ -11482,13 +11592,23 @@
       "日本料理"
     ],
     "place_id": "",
-    "email": null,
+    "email": "info@cubemayfair.com",
     "category": "restaurant",
     "source_url": "https://cubemayfair.com",
     "city": "London",
     "verified": false,
     "place_reviewed": true,
-    "last_verified": "2026-04-13"
+    "last_verified": "2026-04-16",
+    "detail": "4 Blenheim Street, Mayfair, London W1S 1LSに位置するCubé Mayfair。日本人チーフシェフMasaが率いるチームが本格日本料理とオマカセ体験を提供。月〜土12:00-15:00・17:30-23:00、日12:00-15:00・17:30-22:00営業。地上階のカウンター席と下階のプライベートダイニングスペースを完備。問い合わせはinfo@cubemayfair.comまで。",
+    "price_range": "££££",
+    "japanese_staff": true,
+    "menu_highlights": [
+      "オマカセ",
+      "鮨カウンター",
+      "日本料理タパス"
+    ],
+    "ai_reviewed": true,
+    "status": "unverified"
   },
   {
     "slug": "45-curtain-road-japanese-shoreditch",
@@ -11498,7 +11618,7 @@
     "address": "45 Curtain Rd, London EC2A 3PT",
     "phone": null,
     "website": "https://www.45london.com/45-curtain-road",
-    "description": "ショーディッチにある日本×地中海フュージョンの新感覚チョップハウス。元Ginza St Jamesのエグゼクティブシェフが手がける独創的な日本料理。2025年開業の注目店。",
+    "description": "ショーディッチのVirgin Hotels London内にある日本×地中海フュージョンのチョップハウス。元Ginzaシェフが手がける創作日本料理を提供。",
     "tags": [
       "フュージョン",
       "新進気鋭",
@@ -11512,7 +11632,17 @@
     "city": "London",
     "verified": false,
     "place_reviewed": true,
-    "last_verified": "2026-04-13"
+    "last_verified": "2026-04-16",
+    "detail": "45 Curtain Road, Shoreditch, London（Virgin Hotels London内）に位置する日本的インスピレーションと地中海の影響を融合させたシグネチャーレストラン。元Ginza St Jamesのエグゼクティブシェフ Alex Furusawa-Cadoniが手がける。和牛スライダーや牛のたたきなど日本式の料理が特徴。アフタヌーンティー・アラカルト・セットメニューを提供。予約は45london.comで可能。",
+    "price_range": "£££",
+    "japanese_staff": null,
+    "menu_highlights": [
+      "和牛スライダー",
+      "牛のたたき",
+      "Tボーン・リブアイ"
+    ],
+    "ai_reviewed": true,
+    "status": "unverified"
   },
   {
     "slug": "atari-ya-sushi-bar-north-finchley",
@@ -11522,20 +11652,25 @@
     "address": "595 High Rd, London N12 0DY",
     "phone": null,
     "website": "https://atariya.co.uk",
-    "description": "ノースフィンチリーにあるアタリヤグループの鮨バー。鮮魚サプライヤー直営ならではの鮮度抜群の鮨・刺身が在英日本人に長年愛されている。",
+    "description": "ノースフィンチリーのアタリヤグループ鮨バー。鮮魚サプライヤー直営ならではの鮮度で握る鮨・刺身が在英日本人に長年愛される。",
     "tags": [
       "寿司",
       "刺身",
       "鮮魚"
     ],
     "place_id": "",
-    "email": null,
+    "email": "enquiries@atariyaretail.co.uk",
     "category": "restaurant",
     "source_url": "https://atariya.co.uk",
     "city": "London",
     "verified": false,
     "place_reviewed": true,
-    "last_verified": "2026-04-13"
+    "last_verified": "2026-04-16",
+    "detail": "アタリヤグループのフィンチリー店。在英日本人に長く親しまれてきた鮮魚サプライヤー直営の鮨バーで、漁港から直送の鮮魚を使った握り鮨・刺身を提供する。ノースロンドン在住の日本人コミュニティにとって身近な日本食スポット。問い合わせはenquiries@atariyaretail.co.ukまで。",
+    "price_range": null,
+    "japanese_staff": true,
+    "ai_reviewed": true,
+    "status": "unverified"
   },
   {
     "slug": "atari-ya-sushi-bar-golders-green",
@@ -11545,20 +11680,25 @@
     "address": "1 Station Parade, Golders Green, London NW11 0AA",
     "phone": null,
     "website": "https://atariya.co.uk",
-    "description": "ゴールダーズグリーンにあるアタリヤグループの鮨バー。在英日本人が多く住むゴールダーズグリーン地区で本格的な鮨・刺身を楽しめる、地域の日本人コミュニティの定番店。",
+    "description": "ゴールダーズグリーンのアタリヤグループ鮨バー。在英日本人が多く集まる同エリアで、サプライヤー直営の鮮度高い鮨・刺身を提供する地域の定番店。",
     "tags": [
       "寿司",
       "刺身",
       "鮮魚"
     ],
     "place_id": "",
-    "email": null,
+    "email": "enquiries@atariyaretail.co.uk",
     "category": "restaurant",
     "source_url": "https://atariya.co.uk",
     "city": "London",
     "verified": false,
     "place_reviewed": true,
-    "last_verified": "2026-04-13"
+    "last_verified": "2026-04-16",
+    "detail": "アタリヤグループのゴールダーズグリーン店。在英日本人コミュニティが多く集まるゴールダーズグリーン地区に位置し、鮮魚サプライヤー直営ならではの鮮度抜群の鮨・刺身を提供する。日本人住民にとって最も身近な和食スポットのひとつ。問い合わせはenquiries@atariyaretail.co.ukまで。",
+    "price_range": null,
+    "japanese_staff": true,
+    "ai_reviewed": true,
+    "status": "unverified"
   },
   {
     "slug": "ikigai-ramen-edinburgh-nicolson",
@@ -11568,7 +11708,7 @@
     "address": "75 Nicolson St, Edinburgh EH8 9BT",
     "phone": null,
     "website": "https://www.ikigairamenuk.co.uk",
-    "description": "エジンバラのニコルソンストリートにある本格ラーメン専門店。イキガイラーメンのニューイントン店。エジンバラ大学近辺で本格的な日本式ラーメンを提供する一軒。",
+    "description": "エジンバラ・ニコルソンストリートにある本格ラーメン専門店。麺は毎日自家製、スープは8時間かけて仕込むこだわりの一杯をスコットランドで提供。",
     "tags": [
       "ラーメン",
       "日本食"
@@ -11580,7 +11720,15 @@
     "city": "London",
     "verified": false,
     "place_reviewed": true,
-    "last_verified": "2026-04-13"
+    "last_verified": "2026-04-16",
+    "detail": "エジンバラのニコルソンストリートに位置するIkigai Ramenのニューイントン店。毎日店内で手打ちする自家製麺と、8時間以上かけて炊き上げる本格スープが特徴。エジンバラ大学近辺で本格的な日本式ラーメンを提供する数少ない専門店。スコットランドで本物のラーメンを楽しみたい在英日本人に選ばれている。",
+    "price_range": "££",
+    "japanese_staff": null,
+    "menu_highlights": [
+      "自家製麺ラーメン"
+    ],
+    "ai_reviewed": true,
+    "status": "unverified"
   },
   {
     "slug": "roka-soho-london",
@@ -11590,7 +11738,7 @@
     "address": "30 North Audley St, London W1K 6ZA",
     "phone": null,
     "website": "https://www.rokarestaurant.com",
-    "description": "メイフェア・ノースオードリーストリートにあるRokaの最新店。炭火焼きロバタヤキと創作日本料理が評判のモダン日本食チェーンの新展開。",
+    "description": "メイフェアにあるROKAの最新店。炭火ロバタヤキと創作日本料理で知られるモダン日本食チェーンが提供する洗練された和食体験。",
     "tags": [
       "ロバタ焼き",
       "炭火焼き",
@@ -11604,7 +11752,18 @@
     "city": "London",
     "verified": false,
     "place_reviewed": true,
-    "last_verified": "2026-04-13"
+    "last_verified": "2026-04-16",
+    "detail": "30 North Audley Street, Mayfairに位置するROKA Mayfair。炭火ロバタヤキと創作日本料理で知られるモダン日本食チェーン。季節のかいせきメニュー（海藻サラダ・牛肉と胡麻の餃子・茄子の蜜りん醤油など）が評判。平日ランチ12:00-15:00は£19.50のランチセット有り。連絡先は020 7305 5644。毎日12:00-23:00営業。",
+    "price_range": "££££",
+    "japanese_staff": null,
+    "menu_highlights": [
+      "炭火ロバタヤキ",
+      "刺身",
+      "鮨",
+      "季節のかいせき"
+    ],
+    "ai_reviewed": true,
+    "status": "unverified"
   },
   {
     "slug": "shoryu-ramen-bermondsey",
@@ -11614,7 +11773,7 @@
     "address": null,
     "phone": null,
     "website": "https://www.shoryuramen.com",
-    "description": "Shoryuの最新店舗のひとつ。博多豚骨ラーメンを専門とする人気チェーンが南ロンドンにも展開。在英日本人や日本料理ファンが集まる本格豚骨ラーメン店。",
+    "description": "南ロンドン・バーモンジーにある博多豚骨ラーメン専門店Shoryuの一店舗。本格的な博多豚骨スープが在英日本人にも支持される。",
     "tags": [
       "ラーメン",
       "豚骨",
@@ -11627,7 +11786,15 @@
     "city": "London",
     "verified": false,
     "place_reviewed": true,
-    "last_verified": "2026-04-13"
+    "last_verified": "2026-04-16",
+    "detail": "Shoryuは博多豚骨ラーメンを専門とするロンドン発の人気ラーメンチェーン。ロンドン・マンチェスター・オックスフォードに複数店舗を展開し、バーモンジー店では南ロンドンで本格的な豚骨ラーメンを提供。Just Eat・Uber Eats・Deliverooでのデリバリーにも対応。在英日本人が本場の味を楽しめるチェーン。プレス問い合わせはpress@shoryuramen.comまで。",
+    "price_range": "££",
+    "japanese_staff": null,
+    "menu_highlights": [
+      "博多豚骨ラーメン"
+    ],
+    "ai_reviewed": true,
+    "status": "unverified"
   },
   {
     "slug": "bone-daddies-canary-wharf",
@@ -11637,20 +11804,30 @@
     "address": null,
     "phone": null,
     "website": "https://bonedaddies.com",
-    "description": "カナリーワーフにあるBone Daddiesラーメン店。豚骨・鶏白湯などのラーメンとJapanese soul foodを提供するロンドンの人気チェーン店。金融街で働く在英日本人にも利用される。",
+    "description": "カナリーワーフにあるBone Daddiesのラーメン店。豚骨・鶏白湯などのラーメンと日本のソウルフードを提供するロンドン人気チェーンの金融街店。",
     "tags": [
       "ラーメン",
       "日本食",
       "カジュアル"
     ],
     "place_id": "",
-    "email": null,
+    "email": "hello@bonedaddies.com",
     "category": "restaurant",
     "source_url": "https://bonedaddies.com",
     "city": "London",
     "verified": false,
     "place_reviewed": true,
-    "last_verified": "2026-04-13"
+    "last_verified": "2026-04-16",
+    "detail": "Bone Daddiesはロンドンに8店舗（Bermondsey, Bond Street, High St Kensington, Leicester Square, Old Street, Soho, Victoria, Old Compton St）を展開する人気ラーメンチェーン。カレー豚骨ラーメン（£16.20）をはじめ各種ラーメン・唐揚げ等のJapanese soul foodを提供。問い合わせはhello@bonedaddies.comまで。",
+    "price_range": "££",
+    "japanese_staff": null,
+    "menu_highlights": [
+      "豚骨ラーメン",
+      "鶏白湯ラーメン",
+      "唐揚げ"
+    ],
+    "ai_reviewed": true,
+    "status": "unverified"
   },
   {
     "slug": "tonkotsu-newcastle",
@@ -11660,7 +11837,7 @@
     "address": null,
     "phone": null,
     "website": "https://www.tonkotsu.co.uk",
-    "description": "ロンドン発の人気ラーメンチェーン・Tonkotsuのニューカッスル店。本格豚骨・醤油ラーメンをイングランド北東部で提供。タイムアウトが選出する英国外地方店の一軒。",
+    "description": "ロンドン発人気ラーメンチェーンTonkotsuのニューカッスル店。毎日製麺する自家製麺と本格豚骨・醤油ラーメンをイングランド北東部で提供。",
     "tags": [
       "ラーメン",
       "豚骨"
@@ -11672,7 +11849,18 @@
     "city": "London",
     "verified": false,
     "place_reviewed": true,
-    "last_verified": "2026-04-13"
+    "last_verified": "2026-04-16",
+    "detail": "Tonkotsuはロンドン発の本格ラーメンチェーン。ロンドン・バーミンガム・ブライトン・ブリストル・カーディフに展開し、ニューカッスル店では北東イングランドで自家製麺を使った豚骨・醤油ラーメンを提供。「麺がなければただのスープ屋」というフィロソフィーのもと、毎日新鮮な麺を製造している。",
+    "price_range": "££",
+    "japanese_staff": null,
+    "menu_highlights": [
+      "豚骨ラーメン",
+      "醤油ラーメン",
+      "餃子",
+      "唐揚げ"
+    ],
+    "ai_reviewed": true,
+    "status": "unverified"
   },
   {
     "slug": "tonkotsu-leeds",
@@ -11682,7 +11870,7 @@
     "address": null,
     "phone": null,
     "website": "https://www.tonkotsu.co.uk",
-    "description": "ロンドン発の人気ラーメンチェーン・Tonkotsuのリーズ店。本格豚骨・醤油ラーメンをヨークシャーで提供。リーズ在住の日本人や日本料理ファンに利用される。",
+    "description": "ロンドン発人気ラーメンチェーンTonkotsuのリーズ店。自家製麺の本格豚骨・醤油ラーメンをヨークシャーで提供。",
     "tags": [
       "ラーメン",
       "豚骨"
@@ -11694,7 +11882,18 @@
     "city": "London",
     "verified": false,
     "place_reviewed": true,
-    "last_verified": "2026-04-13"
+    "last_verified": "2026-04-16",
+    "detail": "Tonkotsuのリーズ店。ロンドン発の本格ラーメンチェーンで、自家製麺を使った豚骨・醤油ラーメンを毎日提供。ヨークシャー在住の日本人や日本料理ファン、リーズ大学の日本人留学生にも利用される。サイドメニューに餃子・唐揚げも用意。",
+    "price_range": "££",
+    "japanese_staff": null,
+    "menu_highlights": [
+      "豚骨ラーメン",
+      "醤油ラーメン",
+      "餃子",
+      "唐揚げ"
+    ],
+    "ai_reviewed": true,
+    "status": "unverified"
   },
   {
     "slug": "tonkotsu-nottingham",
@@ -11704,7 +11903,7 @@
     "address": null,
     "phone": null,
     "website": "https://www.tonkotsu.co.uk",
-    "description": "ロンドン発の人気ラーメンチェーン・Tonkotsuのノッティンガム店。本格豚骨・醤油ラーメンをイングランド中部で提供。ノッティンガム在住の日本人や学生に利用される。",
+    "description": "ロンドン発人気ラーメンチェーンTonkotsuのノッティンガム店。自家製麺の本格豚骨・醤油ラーメンをイングランド中部で提供。",
     "tags": [
       "ラーメン",
       "豚骨"
@@ -11716,7 +11915,17 @@
     "city": "London",
     "verified": false,
     "place_reviewed": true,
-    "last_verified": "2026-04-13"
+    "last_verified": "2026-04-16",
+    "detail": "Tonkotsuのノッティンガム店。ロンドン発の本格ラーメンチェーンで、毎日製麺する自家製麺を使った豚骨・醤油ラーメンを提供。ノッティンガム在住の日本人や、ノッティンガム大学の日本人留学生にも利用される。ジャパニーズソウルフードをコンセプトに据えた本格派。",
+    "price_range": "££",
+    "japanese_staff": null,
+    "menu_highlights": [
+      "豚骨ラーメン",
+      "醤油ラーメン",
+      "餃子"
+    ],
+    "ai_reviewed": true,
+    "status": "unverified"
   },
   {
     "slug": "sticks-n-sushi-london-bridge",
@@ -11726,7 +11935,7 @@
     "address": null,
     "phone": null,
     "website": "https://sticksnsushi.com",
-    "description": "ロンドンブリッジにあるSticks'n'Sushiの一店舗。デンマーク発祥の日本食チェーンで、鮨と串焼きを組み合わせたメニューが特徴。ロンドンブリッジ周辺で働く在英日本人にも利用される。",
+    "description": "ロンドンブリッジにあるデンマーク発祥の日本×北欧鮨＆串焼きチェーン店。鮨とスティック（串焼き）が楽しめるモダンな日本食スポット。",
     "tags": [
       "寿司",
       "串焼き",
@@ -11739,7 +11948,17 @@
     "city": "London",
     "verified": false,
     "place_reviewed": true,
-    "last_verified": "2026-04-13"
+    "last_verified": "2026-04-16",
+    "detail": "Sticks'n'Sushiのロンドンブリッジ店。デンマーク発祥の日本料理チェーンで、鮨・刺身・サラダとスティック（串焼き）を組み合わせたメニューが特徴。シーズナルメニューも充実。ロンドンブリッジ周辺で働く在英日本人やビジネスパーソンの昼食・会食に利用される。",
+    "price_range": "£££",
+    "japanese_staff": null,
+    "menu_highlights": [
+      "鮨",
+      "刺身",
+      "スティック串焼き"
+    ],
+    "ai_reviewed": true,
+    "status": "unverified"
   },
   {
     "slug": "sticks-n-sushi-oxford",
@@ -11749,7 +11968,7 @@
     "address": null,
     "phone": null,
     "website": "https://sticksnsushi.com",
-    "description": "オックスフォードにあるSticks'n'Sushiの店舗。デンマーク発祥の人気日本食チェーンがイングランドの学術都市にも展開。オックスフォード大学関係者など在英日本人にも利用される。",
+    "description": "オックスフォードのデンマーク発祥日本×北欧鮨＆串焼きチェーン店。大学の街で本格的な鮨とスティック料理を楽しめる。",
     "tags": [
       "寿司",
       "串焼き",
@@ -11762,124 +11981,17 @@
     "city": "London",
     "verified": false,
     "place_reviewed": true,
-    "last_verified": "2026-04-13"
-  },
-  {
-    "slug": "wagamama-canary-wharf",
-    "name": "Wagamama Canary Wharf",
-    "name_ja": "ワガママ カナリーワーフ",
-    "area": "Canary Wharf",
-    "address": null,
-    "phone": null,
-    "website": "https://www.wagamama.com",
-    "description": "カナリーワーフにあるWagamamaのラーメン・アジア料理チェーン店。金融街で働く在英日本人にも利用されるカジュアルなアジア料理レストラン。",
-    "tags": [
-      "ラーメン",
-      "アジア料理",
-      "カジュアル"
+    "last_verified": "2026-04-16",
+    "detail": "Sticks'n'Sushiのオックスフォード店。鮨・刺身・サラダとスティック（串焼き）を組み合わせたメニューが特徴。オックスフォード大学関係の研究者・留学生など在英日本人が利用できるモダンな日本食店。日本的エッセンスと北欧デザインが融合した上質な空間。",
+    "price_range": "£££",
+    "japanese_staff": null,
+    "menu_highlights": [
+      "鮨",
+      "刺身",
+      "スティック串焼き"
     ],
-    "place_id": "",
-    "email": null,
-    "category": "restaurant",
-    "source_url": "https://www.wagamama.com",
-    "city": "London",
-    "verified": false,
-    "place_reviewed": true,
-    "last_verified": "2026-04-13"
-  },
-  {
-    "slug": "wagamama-manchester",
-    "name": "Wagamama Manchester",
-    "name_ja": "ワガママ マンチェスター",
-    "area": "Manchester",
-    "address": null,
-    "phone": null,
-    "website": "https://www.wagamama.com",
-    "description": "マンチェスターにあるWagamamaのラーメン・アジア料理チェーン店。マンチェスター在住の日本人にも利用されるアジア系料理レストランの定番。",
-    "tags": [
-      "ラーメン",
-      "アジア料理",
-      "カジュアル"
-    ],
-    "place_id": "",
-    "email": null,
-    "category": "restaurant",
-    "source_url": "https://www.wagamama.com",
-    "city": "London",
-    "verified": false,
-    "place_reviewed": true,
-    "last_verified": "2026-04-13"
-  },
-  {
-    "slug": "wagamama-cardiff",
-    "name": "Wagamama Cardiff",
-    "name_ja": "ワガママ カーディフ",
-    "area": "Cardiff",
-    "address": null,
-    "phone": null,
-    "website": "https://www.wagamama.com",
-    "description": "カーディフにあるWagamamaのラーメン・アジア料理チェーン店。ウェールズ在住の日本人にも利用されるカジュアルなアジア料理レストランの定番。",
-    "tags": [
-      "ラーメン",
-      "アジア料理",
-      "カジュアル"
-    ],
-    "place_id": "",
-    "email": null,
-    "category": "restaurant",
-    "source_url": "https://www.wagamama.com",
-    "city": "London",
-    "verified": false,
-    "place_reviewed": true,
-    "last_verified": "2026-04-13"
-  },
-  {
-    "slug": "itsu-birmingham",
-    "name": "Itsu Birmingham",
-    "name_ja": "イツ バーミンガム",
-    "area": "Birmingham",
-    "address": null,
-    "phone": null,
-    "website": "https://www.itsu.com",
-    "description": "バーミンガムにあるItsuの日本式フードチェーン。鮨・ベントー・ラーメン等のヘルシーな日本食をテイクアウト中心で提供。在英日本人の日常的な和食調達に便利。",
-    "tags": [
-      "寿司",
-      "テイクアウト",
-      "ヘルシー",
-      "日本食"
-    ],
-    "place_id": "",
-    "email": null,
-    "category": "restaurant",
-    "source_url": "https://www.itsu.com",
-    "city": "London",
-    "verified": false,
-    "place_reviewed": true,
-    "last_verified": "2026-04-13"
-  },
-  {
-    "slug": "itsu-edinburgh",
-    "name": "Itsu Edinburgh",
-    "name_ja": "イツ エジンバラ",
-    "area": "Edinburgh",
-    "address": null,
-    "phone": null,
-    "website": "https://www.itsu.com",
-    "description": "エジンバラにあるItsuの日本式フードチェーン。鮨・ベントー等のヘルシーな日本食をテイクアウト中心で提供。エジンバラ在住の日本人・留学生の日常的な和食調達に便利。",
-    "tags": [
-      "寿司",
-      "テイクアウト",
-      "ヘルシー",
-      "日本食"
-    ],
-    "place_id": "",
-    "email": null,
-    "category": "restaurant",
-    "source_url": "https://www.itsu.com",
-    "city": "London",
-    "verified": false,
-    "place_reviewed": true,
-    "last_verified": "2026-04-13"
+    "ai_reviewed": true,
+    "status": "unverified"
   },
   {
     "slug": "wasabi-cambridge",
@@ -11889,7 +12001,7 @@
     "address": "Petty Cury, Cambridge",
     "phone": null,
     "website": "https://www.wasabi.uk.com",
-    "description": "ケンブリッジのペティキュリーにある日本式フードチェーン。鮨・弁当・ヌードルを提供するロンドン以外の数少ないWasabi店舗。ケンブリッジ在住の日本人研究者・留学生にも便利。",
+    "description": "ケンブリッジのペティキュリーにある日本式フードチェーン。ロンドン以外では珍しいWasabi店舗で、鮨・弁当・ヌードルをテイクアウト中心で提供。",
     "tags": [
       "寿司",
       "弁当",
@@ -11902,7 +12014,17 @@
     "city": "London",
     "verified": false,
     "place_reviewed": true,
-    "last_verified": "2026-04-13"
+    "last_verified": "2026-04-16",
+    "detail": "Wasabi Sushi & Bentoのケンブリッジ・ペティキュリー店。ホットベントー（チキンカツカレー・スウィートチリチキン等）・鮨セット・ヌードルをテイクアウト中心で提供。ロンドン以外では数少ない店舗として、ケンブリッジ在住の日本人研究者・留学生が日常的に和食を調達できる貴重なスポット。",
+    "price_range": "£",
+    "japanese_staff": null,
+    "menu_highlights": [
+      "ホットベントー",
+      "鮨セット",
+      "ヌードル"
+    ],
+    "ai_reviewed": true,
+    "status": "unverified"
   },
   {
     "slug": "maki-ramen-york",
@@ -11912,7 +12034,7 @@
     "address": null,
     "phone": null,
     "website": "https://www.makiramen.com",
-    "description": "ヨークにあるMaki & Ramenチェーン店。スコットランド発祥の本格鮨＆ラーメン専門チェーンがヨークに展開。ヨーク在住の日本人や観光客にも利用される。",
+    "description": "ヨークにあるスコットランド発の本格鮨＆ラーメンチェーン店。ヨーク在住の日本人や観光訪問者が本格的な日本食を楽しめる一軒。",
     "tags": [
       "寿司",
       "ラーメン",
@@ -11925,7 +12047,16 @@
     "city": "London",
     "verified": false,
     "place_reviewed": true,
-    "last_verified": "2026-04-13"
+    "last_verified": "2026-04-16",
+    "detail": "スコットランド発祥のMaki & Ramenチェーンのヨーク店。鮨とラーメンを専門とする本格日本食チェーンで、ヨークシャー地方では貴重な日本食スポット。ヨーク在住の日本人研究者・留学生や、ヨーク観光で訪れる日本人旅行者にも利用される。詳細はmakiramen.comで確認可能。",
+    "price_range": "££",
+    "japanese_staff": null,
+    "menu_highlights": [
+      "鮨",
+      "ラーメン"
+    ],
+    "ai_reviewed": true,
+    "status": "unverified"
   },
   {
     "slug": "maki-ramen-dundee",
@@ -11935,7 +12066,7 @@
     "address": null,
     "phone": null,
     "website": "https://www.makiramen.com",
-    "description": "ダンディーにあるMaki & Ramenチェーン店。スコットランド本拠地のチェーンとしてスコットランド各地に展開。ダンディー在住の日本人や学生にも利用される。",
+    "description": "スコットランド・ダンディーにある本拠地チェーンの鮨＆ラーメン専門店。スコットランドに点在する日本人にとって身近な本格日本食スポット。",
     "tags": [
       "寿司",
       "ラーメン",
@@ -11948,7 +12079,16 @@
     "city": "London",
     "verified": false,
     "place_reviewed": true,
-    "last_verified": "2026-04-13"
+    "last_verified": "2026-04-16",
+    "detail": "スコットランド発祥のMaki & Ramenチェーンのダンディー店。本拠地スコットランドで鮨とラーメンを専門に展開するチェーンで、ダンディー在住の日本人や留学生が本格的な日本食を楽しめる数少ないスポット。詳細はmakiramen.comで確認可能。",
+    "price_range": "££",
+    "japanese_staff": null,
+    "menu_highlights": [
+      "鮨",
+      "ラーメン"
+    ],
+    "ai_reviewed": true,
+    "status": "unverified"
   },
   {
     "slug": "kibou-cheltenham",
@@ -11958,7 +12098,7 @@
     "address": null,
     "phone": null,
     "website": "https://kibou.co.uk",
-    "description": "チェルトナムにあるKibouチェーンの一店舗。アワード受賞の現代日本料理レストラン。チェルトナム在住の日本人や日本料理ファンに利用される、英国中部の貴重な本格和食スポット。",
+    "description": "チェルトナムにあるアワード受賞の現代日本料理チェーンKibouの一店舗。英国中部で本格的な鮨・和牛・シェアプレートが楽しめる。",
     "tags": [
       "日本料理",
       "バー",
@@ -11971,7 +12111,17 @@
     "city": "London",
     "verified": false,
     "place_reviewed": true,
-    "last_verified": "2026-04-13"
+    "last_verified": "2026-04-16",
+    "detail": "Kibouチェーンのチェルトナム店。アワード受賞の現代日本料理レストランとして、鮨・刺身・A5和牛・シェアプレートなど本格的な日本料理を提供。チェルトナム在住の日本人やオックスフォード・バーミンガム方面から訪れる日本食ファンにも利用される。詳細はkibou.co.ukで確認可能。",
+    "price_range": "£££",
+    "japanese_staff": null,
+    "menu_highlights": [
+      "鮨・刺身",
+      "A5和牛",
+      "シェアプレート"
+    ],
+    "ai_reviewed": true,
+    "status": "unverified"
   },
   {
     "slug": "maki-ramen-inverness",
@@ -11981,7 +12131,7 @@
     "address": null,
     "phone": null,
     "website": "https://www.makiramen.com",
-    "description": "スコットランド・ハイランドの玄関口インバネスにあるMaki & Ramenチェーン店。ハイランド在住の日本人や観光で訪れる日本人旅行者が日本食を楽しめる数少ない選択肢。",
+    "description": "スコットランド・インバネスにある本格鮨＆ラーメンチェーン店。ハイランド地方で日本食を楽しめる数少ないスポット。",
     "tags": [
       "寿司",
       "ラーメン",
@@ -11994,7 +12144,16 @@
     "city": "London",
     "verified": false,
     "place_reviewed": true,
-    "last_verified": "2026-04-13"
+    "last_verified": "2026-04-16",
+    "detail": "スコットランド発祥のMaki & Ramenチェーンのインバネス店。ハイランドの玄関口インバネスで鮨とラーメンを提供する。スコットランドのハイランド地方在住または旅行中の日本人が本格的な日本食を楽しめる貴重なスポット。詳細はmakiramen.comで確認可能。",
+    "price_range": "££",
+    "japanese_staff": null,
+    "menu_highlights": [
+      "鮨",
+      "ラーメン"
+    ],
+    "ai_reviewed": true,
+    "status": "unverified"
   },
   {
     "slug": "jin-kichi-london-nw3",
@@ -12004,7 +12163,7 @@
     "address": "73 Heath St, London NW3 6UG",
     "phone": null,
     "website": null,
-    "description": "ハンプステッドに1990年創業の日本式居酒屋の老舗。炭火焼き串焼きをメインに本格的な和食居酒屋料理を提供。在英日本人コミュニティで長年愛される名店。",
+    "description": "ハンプステッドに1992年創業の日本人経営の居酒屋。炭火串焼きと本格鮨を提供するロンドン在住日本人の定番名店で、増席後も予約困難が続く。",
     "tags": [
       "居酒屋",
       "串焼き",
@@ -12012,13 +12171,23 @@
       "炭火焼き"
     ],
     "place_id": "",
-    "email": null,
+    "email": "jinkichi.hampstead@gmail.com",
     "category": "restaurant",
     "source_url": "",
     "city": "London",
     "verified": false,
     "place_reviewed": true,
-    "last_verified": "2026-04-13"
+    "last_verified": "2026-04-16",
+    "detail": "71-73 Heath Street, Hampstead, London NW3 6UGに位置するJin Kichi。1992年開業、日本人オーナーが経営するハンプステッドの老舗居酒屋。炭火焼き串焼き・鮨・伝統的な米料理・麺料理を提供。火〜日営業（月休）、ランチ12:30-14:00・ディナー18:00-21:00。連絡先は020 7794 6158 / jinkichi.hampstead@gmail.comまで。",
+    "price_range": "£££",
+    "japanese_staff": true,
+    "menu_highlights": [
+      "炭火串焼き（焼き鳥）",
+      "鮨",
+      "居酒屋料理"
+    ],
+    "ai_reviewed": true,
+    "status": "unverified"
   },
   {
     "slug": "ippudo-london-whitechapel",
@@ -12028,7 +12197,7 @@
     "address": null,
     "phone": null,
     "website": "https://www.ippudo.uk",
-    "description": "ホワイトチャペルにある一風堂のロンドン店。博多豚骨ラーメンの世界的チェーンで、在英日本人が本格的な日本のラーメンを楽しめる数少ない一軒。",
+    "description": "ホワイトチャペルにある博多ラーメン世界チェーン・一風堂のロンドン店。日本のスタッフも在籍し、日本語で注文できる数少ない本場の一杯。",
     "tags": [
       "ラーメン",
       "豚骨",
@@ -12041,7 +12210,15 @@
     "city": "London",
     "verified": false,
     "place_reviewed": true,
-    "last_verified": "2026-04-13"
+    "last_verified": "2026-04-16",
+    "detail": "一風堂は博多豚骨ラーメンの世界的チェーン。ロンドン店ではCentral St Giles・Canary Wharf・Goodge St・Villiers Street・Essex Roadに店舗を展開。日本人スタッフが在籍しており日本語で注文できる店舗もある。博多スタイルの濃厚豚骨スープに自家製細麺、叉焼・木耳・もやし・タケノコ・青ネギのトッピングが定番。在英日本人が本場の一風堂の味を楽しめる数少ない店舗。",
+    "price_range": "££",
+    "japanese_staff": true,
+    "menu_highlights": [
+      "博多豚骨ラーメン"
+    ],
+    "ai_reviewed": true,
+    "status": "unverified"
   },
   {
     "slug": "taro-brighton-ship-street",
@@ -12051,7 +12228,7 @@
     "address": "60 Ship St, Brighton BN1 1AE",
     "phone": null,
     "website": "https://tarorestaurants.uk/locations/brighton/",
-    "description": "ブライトンのシップストリートに2025年9月開業したTaroレストランの初ロンドン外店舗。ラーメン・うどん・寿司・刺身・天ぷら等の日本料理をブライトンで提供する。",
+    "description": "ブライトンのシップストリートにある本格日本料理店Taroの初ロンドン外店舗（2025年9月開業）。手作り鮨・刺身・ラーメン・天ぷら等が揃う。",
     "tags": [
       "ラーメン",
       "うどん",
@@ -12065,7 +12242,19 @@
     "city": "London",
     "verified": false,
     "place_reviewed": true,
-    "last_verified": "2026-04-13"
+    "last_verified": "2026-04-16",
+    "detail": "60 Ship Street, Brighton, BN1 1AEに位置するTaro Brightonは、2025年9月開業のロンドン外初出店。月〜土12-22:00・日12-21:30営業。手作り鮨・刺身・オリジナルロール・ラーメン・うどん・天ぷら・弁当など多彩な日本料理を提供。Deliveroo・Uber Eatsでのデリバリーにも対応。ブライトン在住の日本人や観光客が本格的な日本食を楽しめる新スポット。",
+    "price_range": "££",
+    "japanese_staff": null,
+    "menu_highlights": [
+      "手作り鮨・刺身",
+      "ラーメン",
+      "うどん",
+      "天ぷら",
+      "弁当"
+    ],
+    "ai_reviewed": true,
+    "status": "unverified"
   },
   {
     "slug": "yo-sushi-birmingham",
@@ -12075,7 +12264,7 @@
     "address": null,
     "phone": null,
     "website": "https://yosushi.com",
-    "description": "バーミンガムにあるYO! Sushiの回転寿司チェーン店。手軽に日本式の鮨・和食を楽しめるファストカジュアルレストラン。バーミンガム在住の日本人にも気軽に利用できる。",
+    "description": "バーミンガムにあるYO! Sushiの回転鮨チェーン店。£9.95〜のベントーや£20のスシフィーストなど手軽に日本式の鮨が楽しめる。",
     "tags": [
       "回転寿司",
       "寿司",
@@ -12088,7 +12277,18 @@
     "city": "London",
     "verified": false,
     "place_reviewed": true,
-    "last_verified": "2026-04-13"
+    "last_verified": "2026-04-16",
+    "detail": "YO! Sushiはロンドン発の回転鮨チェーンで英国全土に展開。バーミンガム店ではカツカレー・鮨コンボ・ベントー（£9.95〜）・鮨フィースト（£20）などを提供。みそ・海藻・チリ油等の日本的食材を使ったヘルシーなメニューが特徴。バーミンガム在住の日本人が気軽に和食を楽しめるファストカジュアル店。",
+    "price_range": "££",
+    "japanese_staff": null,
+    "menu_highlights": [
+      "回転鮨",
+      "カツカレー",
+      "弁当（£9.95〜）",
+      "鮨フィースト（£20）"
+    ],
+    "ai_reviewed": true,
+    "status": "unverified"
   },
   {
     "slug": "yo-sushi-brighton",
@@ -12098,7 +12298,7 @@
     "address": "6-7 Jubilee St, Brighton BN1 1GE",
     "phone": null,
     "website": "https://yosushi.com/brighton",
-    "description": "ブライトンのジュビリーストリートにあるYO! Sushiの回転寿司。気軽に日本式の鮨・和食を楽しめるファストカジュアルレストラン。ブライトン在住の日本人や旅行者に利用される。",
+    "description": "ブライトンのジュビリーストリートにあるYO! Sushiの回転鮨店。手軽に日本式の鮨・和食が楽しめるファストカジュアルレストラン。",
     "tags": [
       "回転寿司",
       "寿司",
@@ -12111,30 +12311,17 @@
     "city": "London",
     "verified": false,
     "place_reviewed": true,
-    "last_verified": "2026-04-13"
-  },
-  {
-    "slug": "benihana-manchester",
-    "name": "Benihana Manchester",
-    "name_ja": "ベニハナ マンチェスター",
-    "area": "Manchester",
-    "address": null,
-    "phone": null,
-    "website": "https://www.benihana.co.uk",
-    "description": "マンチェスターにある鉄板焼きレストランチェーンのベニハナ。目前でシェフが調理する鉄板焼きのエンタメ体験が人気で、マンチェスター在住の日本人の接待にも利用される。",
-    "tags": [
-      "鉄板焼き",
-      "エンターテインメント",
-      "日本料理"
+    "last_verified": "2026-04-16",
+    "detail": "YO! Sushiのブライトン店（ジュビリーストリート）。回転鮨スタイルで鮨コンボ・カツカレー・ベントー（£9.95〜）などを提供。ブライトン在住の日本人や日本からの旅行者が気軽に和食を楽しめるスポット。詳細はyosushi.comで確認可能。",
+    "price_range": "££",
+    "japanese_staff": null,
+    "menu_highlights": [
+      "回転鮨",
+      "カツカレー",
+      "弁当"
     ],
-    "place_id": "",
-    "email": null,
-    "category": "restaurant",
-    "source_url": "https://www.benihana.co.uk",
-    "city": "London",
-    "verified": false,
-    "place_reviewed": true,
-    "last_verified": "2026-04-13"
+    "ai_reviewed": true,
+    "status": "unverified"
   },
   {
     "slug": "sticks-n-sushi-soho-london",
@@ -12144,7 +12331,7 @@
     "address": null,
     "phone": null,
     "website": "https://sticksnsushi.com",
-    "description": "ソーホーにあるSticks'n'Sushiの店舗。デンマーク発祥の人気日本食チェーンで、鮨と串焼きを組み合わせたメニューが特徴。ロンドン在住の日本人の食事にも対応。",
+    "description": "ソーホーにあるデンマーク発祥の日本×北欧鮨＆串焼きチェーン店。ロンドン中心部で鮨とスティック料理が楽しめる人気スポット。",
     "tags": [
       "寿司",
       "串焼き",
@@ -12157,7 +12344,17 @@
     "city": "London",
     "verified": false,
     "place_reviewed": true,
-    "last_verified": "2026-04-13"
+    "last_verified": "2026-04-16",
+    "detail": "Sticks'n'Sushiのソーホー店。鮨・刺身・サラダとスティック（串焼き）を組み合わせたメニューが特徴。ロンドン中心部のソーホーに位置し、在英日本人のディナーにも選ばれるモダンな日本食店。シーズナルスペシャルも充実。",
+    "price_range": "£££",
+    "japanese_staff": null,
+    "menu_highlights": [
+      "鮨",
+      "刺身",
+      "スティック串焼き"
+    ],
+    "ai_reviewed": true,
+    "status": "unverified"
   },
   {
     "slug": "moi-soho-japanese",
