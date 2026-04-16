@@ -5,7 +5,7 @@
     "name_ja": "AIAマレーシア (日本人担当者)",
     "area": "KLCC",
     "address": "Menara AIA, 99 Jalan Ampang, 50450 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
-    "description": "アジア最大級の保険グループAIAのマレーシア法人日本人向けサービス。KLCC近郊拠点で生命保険・医療保険・入院保障プランを日本語エージェントが提案。",
+    "description": "アジア最大級の保険グループAIAマレーシア法人の日本語対応エージェント。KLCC近郊拠点で生命・医療保険を日本語で相談・加入できる。",
     "phone": "+603-2056 1111",
     "phone_local": null,
     "email": null,
@@ -26,9 +26,12 @@
     "lng": null,
     "status": "unverified",
     "source": "gemini_search",
-    "last_verified": "2026-04-02",
-    "ai_reviewed": false,
-    "place_reviewed": true
+    "last_verified": "2026-04-16",
+    "ai_reviewed": true,
+    "place_reviewed": true,
+    "detail": "AIA Bhd.（AIAマレーシア）はジャラン・アンパンのMenara AIA, 99 Jalan Ampang, 50450 KLに本社を置くアジア最大級の生命保険グループのマレーシア法人（1948年設立）。日本語対応エージェントが在籍し、生命保険・医療保険・入院保障・個人傷害・退職プランを日本語で相談・加入できる。海外赴任者や移住者向けプランも取り扱い。問い合わせはaia.com.myの問い合わせフォームから。",
+    "price_range": null,
+    "japanese_staff": true
   },
   {
     "slug": "aig-malaysia-insurance-berhad",
@@ -180,10 +183,10 @@
     "name_ja": "グレートイースタン生命マレーシア (日本人担当者)",
     "area": "Ampang",
     "address": "Menara Great Eastern, 303 Jalan Ampang, 50450 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
-    "description": "マレーシア老舗大手保険会社グレートイースタンのアンパン拠点日本人向けサービス。生命保険・医療保険・重篤疾病保険を日本語対応エージェントが案内。",
+    "description": "マレーシア最古参の大手生命保険会社グレートイースタンの日本語対応エージェント。アンパン本社拠点で日本人駐在員・移住者向けに生命・医療保険を案内。",
     "phone": "+603-4259 8888",
     "phone_local": null,
-    "email": null,
+    "email": "agency-my@greateasterngeneral.com",
     "website": "https://www.greatholdings.com/",
     "hours": "Mon-Fri 8:45-17:45",
     "tags": [
@@ -201,9 +204,12 @@
     "lng": null,
     "status": "unverified",
     "source": "gemini_search",
-    "last_verified": "2026-04-02",
-    "ai_reviewed": false,
-    "place_reviewed": true
+    "last_verified": "2026-04-16",
+    "ai_reviewed": true,
+    "place_reviewed": true,
+    "detail": "Great Eastern Life Assurance（Malaysia）はMenara Great Eastern, 303 Jalan Ampang, 50450 KLに本社を置くマレーシア最古の生命保険会社。日本語対応エージェントが在籍し、生命保険・医療保険・重篤疾病保険を日本語で相談・加入できる。海外赴任者・移住者のニーズに対応したプランも提供。問い合わせはagency-my@greateasterngeneral.comまたはカスタマーカレーライン1300-1300 88まで。",
+    "price_range": null,
+    "japanese_staff": true
   },
   {
     "slug": "j-life-consulting",
@@ -211,7 +217,7 @@
     "name_ja": "J-Life Consulting",
     "area": "Mont Kiara",
     "address": "Unit 10-01, Level 10, Menara 1 Mont Kiara, No. 1, Jalan Kiara, Mont Kiara, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
-    "description": "モントキアラ拠点の在マレーシア日本人専門の保険コンサルティング会社。生命保険・損害保険の比較提案から海外赴任者向けプラン手配まで日本語で対応。",
+    "description": "モントキアラ拠点の在マレーシア日本人専門の保険コンサルティング会社。生命・損害保険の比較提案から海外赴任者向けプランまで日本語でフルサポート。",
     "phone": "+603-6206 1001",
     "phone_local": null,
     "email": null,
@@ -233,9 +239,12 @@
     "lng": null,
     "status": "unverified",
     "source": "gemini_search",
-    "last_verified": "2026-04-02",
-    "ai_reviewed": false,
-    "place_reviewed": true
+    "last_verified": "2026-04-16",
+    "ai_reviewed": true,
+    "place_reviewed": true,
+    "detail": "J-Life Consultingはクアラルンプール・モントキアラを拠点に在マレーシア日本人に特化した保険コンサルティングを提供する専門会社（j-life.com.my）。生命保険・損害保険の比較・提案から加入手続き・アフターフォローまで日本語で対応。海外赴任者・駐在員・長期移住者のニーズに応じたプランを取り揃える。",
+    "price_range": null,
+    "japanese_staff": true
   },
   {
     "slug": "j-link-consulting",
@@ -243,7 +252,7 @@
     "name_ja": "J-Link Consulting",
     "area": "Mont Kiara",
     "address": "Unit 10-01, Level 10, Menara 1 Mont Kiara, No. 1, Jalan Kiara, Mont Kiara, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
-    "description": "モントキアラ拠点の日本人向け保険コンサルティング会社。生命保険・損害保険を日本語で相談・手配でき、海外赴任者・移住者のニーズに対応。",
+    "description": "モントキアラ拠点の日本人向け保険コンサルティング会社。生命・損害保険を日本語で相談・手配でき、海外赴任者・移住者のニーズに幅広く対応。",
     "phone": "+603-6206 1001",
     "phone_local": null,
     "email": null,
@@ -265,9 +274,12 @@
     "lng": null,
     "status": "unverified",
     "source": "gemini_search",
-    "last_verified": "2026-04-02",
-    "ai_reviewed": false,
-    "place_reviewed": true
+    "last_verified": "2026-04-16",
+    "ai_reviewed": true,
+    "place_reviewed": true,
+    "detail": "J-Link Consultingはクアラルンプール・モントキアラを拠点に在マレーシア日本人向けの保険コンサルティングを提供する専門会社（j-link.com.my）。生命保険・損害保険を日本語で相談・手配でき、海外赴任者や長期移住者が直面する保険ニーズに対応。複数保険会社の商品を比較し最適なプランを提案するブローカー機能を持つ。",
+    "price_range": null,
+    "japanese_staff": true
   },
   {
     "slug": "mitsui-sumitomo-insurance-malaysia",
@@ -390,7 +402,7 @@
     "name_ja": "プルデンシャル生命マレーシア (日本人担当者)",
     "area": "Tun Razak Exchange (TRX)",
     "address": "Level 18, Menara Prudential, Persiaran TRX, Tun Razak Exchange, 55188 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
-    "description": "マレーシア最大手の生命保険会社プルデンシャルの日本人向けサービス窓口。TRX（トゥン・ラザック・エクスチェンジ）拠点で生命保険・医療保険を日本語で相談可能。",
+    "description": "マレーシア最大手生命保険会社プルデンシャルの日本語対応エージェント。TRX拠点で生命・医療保険を日本語で相談・加入でき、在KL日本人に対応。",
     "phone": "+603-2771 0228",
     "phone_local": null,
     "email": null,
@@ -411,9 +423,12 @@
     "lng": null,
     "status": "unverified",
     "source": "gemini_search",
-    "last_verified": "2026-04-02",
-    "ai_reviewed": false,
-    "place_reviewed": true
+    "last_verified": "2026-04-16",
+    "ai_reviewed": true,
+    "place_reviewed": true,
+    "detail": "Prudential Assurance Malaysia Berhad（PAMB）はTun Razak Exchange（TRX）のMenara Prudential, Persiaran TRX Baratを本社に置くマレーシア最大手の生命保険会社。日本語対応エージェントが在籍し、生命保険・医療保険・PRUMedic Overseas（海外治療カバー）等を日本語で相談できる。海外赴任者・移住者向けプランも充実。問い合わせは+603 2771 0228（月〜金8:30〜17:15）まで。",
+    "price_range": null,
+    "japanese_staff": true
   },
   {
     "slug": "sompo-holdings-asia-malaysia",
