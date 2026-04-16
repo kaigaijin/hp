@@ -12,5 +12,5 @@
 - [x] batch05 (20件): `seki-omakase-siam-paragon` 〜 `story-coffee-phuket`
 - [x] batch06 (20件): `suki-desu-bambini-villa` 〜 `tera-kashi-ten`
 - [x] batch07 (20件): `teyaki` 〜 `toku-dessert-at-siam-takashimaya`
-- [ ] batch08 (20件): `tokunii-japanese-dining` 〜 `yamato`
-- [ ] batch09 (5件): `yinyang-cafe-phuket` 〜 `zapa-space`
+- [x] batch08 (20件): `tokunii-japanese-dining` 〜 `yamato`
+- [x] batch09 (5件): `yinyang-cafe-phuket` 〜 `zapa-space`
