@@ -6,7 +6,7 @@
 - [x] batch02: vn/real-estate（現15件→18件）ハノイ・ホーチミンの日系不動産
 - [ ] batch03: sg/real-estate（現19件）シンガポールの日系不動産
 - [ ] batch04: kr/grocery（現24件）ソウル・釜山の日本食材店
-- [ ] batch05: au/cafe（現137件）シドニー・メルボルン・ブリスベンの日系カフェ
+- [x] batch05: au/cafe（現137件→149件）シドニー・メルボルン・ブリスベン・パース・アデレードの日系カフェ（12件追加）
 - [ ] batch06: tw/real-estate（現12件）台北・台中・高雄の日系不動産
 
 ## 共通ルール: @REVIEW_RULES.md
