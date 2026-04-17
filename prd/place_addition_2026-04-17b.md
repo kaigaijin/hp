@@ -7,7 +7,7 @@
 - [x] batch03: sg/real-estate（現19件→21件）シンガポールの日系不動産
 - [ ] batch04: kr/grocery（現24件）ソウル・釜山の日本食材店
 - [x] batch05: au/cafe（現137件→149件）シドニー・メルボルン・ブリスベン・パース・アデレードの日系カフェ（12件追加）
-- [ ] batch06: tw/real-estate（現12件）台北・台中・高雄の日系不動産
+- [x] batch06: tw/real-estate（現12件→13件）台北・台中・高雄の日系不動産（1件追加: RENOSY台湾。他社はほぼ既掲載済み）
 
 ## 共通ルール: @REVIEW_RULES.md
 ## 対象ディレクトリ: `hp/content/directory/`
