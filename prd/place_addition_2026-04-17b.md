@@ -2,7 +2,7 @@
 
 ## 優先順位と対象
 
-- [ ] batch01: my/nail-esthetic（現20件）KL・ペナン・JBの日系ネイル・エステ
+- [x] batch01: my/nail-esthetic（現20件→23件）KL・ペナン・JBの日系ネイル・エステ（3件追加: AMO Nail・NOH Shoplex・Yu Académie）
 - [x] batch02: vn/real-estate（現15件→18件）ハノイ・ホーチミンの日系不動産
 - [x] batch03: sg/real-estate（現19件→21件）シンガポールの日系不動産
 - [ ] batch04: kr/grocery（現24件）ソウル・釜山の日本食材店
