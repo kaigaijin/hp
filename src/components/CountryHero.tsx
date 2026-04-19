@@ -37,8 +37,8 @@ export default function CountryHero({
         articleCount={articleCount}
         placeCount={placeCount}
       />
-      {/* ヒーロー本体 — 全ページ同じ高さに揃える */}
-      <div className="max-w-6xl mx-auto px-4 pt-4 pb-8" style={{ minHeight: 220 }}>
+      {/* ヒーロー本体 — min-heightで全ページの高さを揃える */}
+      <div className="max-w-6xl mx-auto px-4 pt-4 pb-8" style={{ minHeight: 276 }}>
         {/* パンくず */}
         <nav className="flex items-center gap-1.5 text-xs text-stone-400/80 mb-6">
           <Link href="/" className="hover:text-white transition-colors">トップ</Link>
@@ -72,10 +72,12 @@ export default function CountryHero({
           )}
         </div>
 
-        {/* subTabs or 等価スペーサー — 全ページで底辺の高さを揃える */}
-        <div className="mt-6" style={{ minHeight: 40 }}>
-          {subTabs}
-        </div>
+        {/* スポット内タブ（カテゴリ/エリア/地図）— スポットページのみ */}
+        {subTabs && (
+          <div className="mt-6">
+            {subTabs}
+          </div>
+        )}
       </div>
     </div>
   );

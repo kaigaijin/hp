@@ -108,11 +108,11 @@ export default async function JobsIndexPage({
           articleCount={articles.length}
           placeCount={totalplaces}
           right={
-            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6">
-              <p className="text-white font-bold text-base mb-4">求人を無料で掲載する</p>
+            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-4">
+              <p className="text-white font-bold text-sm mb-3">求人を無料で掲載する</p>
               <Link
                 href={`/${code}/jobs/new`}
-                className="block w-full text-center bg-warm-500 hover:bg-warm-600 text-white font-bold text-sm px-5 py-3 rounded-xl transition shadow-md"
+                className="block w-full text-center bg-warm-500 hover:bg-warm-600 text-white font-bold text-sm px-5 py-2.5 rounded-xl transition shadow-md"
               >
                 求人掲載フォームへ →
               </Link>
