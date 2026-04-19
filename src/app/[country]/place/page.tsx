@@ -169,26 +169,29 @@ export default async function placeIndexPage({
           countryName={country.name}
           countryFlag={country.flag}
           currentLabel="KAIプレイス"
-          label="— KAI PLACE"
-          title="日本人向けスポット"
-          subtitle={`${country.name}のレストラン・クリニック・美容室・不動産など ${totalplaces}件掲載中`}
+          label={`KAI Place · ${country.name} Directory`}
+          title={`${country.name}の`}
+          titleAccent="日本人向けスポット"
+          subtitle={`日本語対応のクリニック、日系レストラン、美容室、不動産エージェント——現地の編集部が確認した全 ${totalplaces} 件。`}
           articleCount={articles.length}
           placeCount={totalplaces}
           right={
-            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-5">
-              <p className="text-white/80 text-xs font-semibold mb-3">名前・エリア・キーワードで検索</p>
+            <div>
+              <p style={{ fontFamily: "var(--font-sans)", fontSize: 12, fontWeight: 600, color: "var(--color-sumi-500)", marginBottom: 8 }}>
+                名前・エリア・キーワードで検索
+              </p>
               <PlaceSearch places={searchableplaces} countryCode={code} />
             </div>
           }
           subTabs={
-            <div className="flex gap-0 border-b border-white/10">
-              <span className="text-sm font-semibold text-warm-400 border-b-2 border-warm-500 pb-2.5 px-4 -mb-px">
+            <div style={{ display: "flex", borderBottom: "1px solid var(--color-border)", gap: 0 }}>
+              <span style={{ fontFamily: "var(--font-sans)", fontSize: 13, fontWeight: 600, color: "var(--color-shu-500)", borderBottom: "2px solid var(--color-shu-500)", paddingBottom: 10, paddingLeft: 0, paddingRight: 20, marginBottom: -1 }}>
                 カテゴリ
               </span>
-              <Link href={`/${code}/place/area`} className="text-sm text-stone-400 hover:text-white pb-2.5 px-4 transition-colors">
+              <Link href={`/${code}/place/area`} style={{ fontFamily: "var(--font-sans)", fontSize: 13, color: "var(--color-sumi-500)", textDecoration: "none", paddingBottom: 10, paddingLeft: 20, paddingRight: 20, borderBottom: "2px solid transparent" }}>
                 エリア
               </Link>
-              <Link href={`/${code}/place/map`} className="text-sm text-stone-400 hover:text-white pb-2.5 px-4 transition-colors flex items-center gap-1.5">
+              <Link href={`/${code}/place/map`} style={{ fontFamily: "var(--font-sans)", fontSize: 13, color: "var(--color-sumi-500)", textDecoration: "none", paddingBottom: 10, paddingLeft: 20, paddingRight: 20, borderBottom: "2px solid transparent", display: "flex", alignItems: "center", gap: 6 }}>
                 <Map size={13} />地図
               </Link>
             </div>

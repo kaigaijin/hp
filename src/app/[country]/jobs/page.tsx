@@ -102,17 +102,30 @@ export default async function JobsIndexPage({
           countryName={country.name}
           countryFlag={country.flag}
           currentLabel="KAIジョブ"
-          label="— KAI JOB"
-          title="海外で働こう。"
-          subtitle={`${country.name}で働く日本人向けの求人を業種別に掲載。日系企業・日本語対応職場の求人が見つかります。`}
+          label={`KAI Job · ${country.name} Careers`}
+          title="海外で、"
+          titleAccent="次の仕事に就く。"
+          subtitle={`日系企業・現地採用・EP支援あり——日本人が応募可能な求人を、業種別・エリア別に掲載。`}
           articleCount={articles.length}
           placeCount={totalplaces}
           right={
-            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-4">
-              <p className="text-white font-bold text-sm mb-3">求人を無料で掲載する</p>
+            <div style={{ border: "1px solid var(--color-border)", padding: 20, background: "var(--color-bg)" }}>
+              <p style={{ fontFamily: "var(--font-serif)", fontSize: 14, fontWeight: 600, color: "var(--color-fg)", marginBottom: 14 }}>求人を無料で掲載する</p>
               <Link
                 href={`/${code}/jobs/new`}
-                className="block w-full text-center bg-warm-500 hover:bg-warm-600 text-white font-bold text-sm px-5 py-2.5 rounded-xl transition shadow-md"
+                style={{
+                  display: "block",
+                  width: "100%",
+                  textAlign: "center",
+                  background: "var(--color-shu-500)",
+                  color: "#fff",
+                  fontFamily: "var(--font-sans)",
+                  fontWeight: 700,
+                  fontSize: 13,
+                  padding: "10px 20px",
+                  textDecoration: "none",
+                  transition: "background 0.2s ease",
+                }}
               >
                 求人掲載フォームへ →
               </Link>

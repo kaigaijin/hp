@@ -146,8 +146,9 @@ export default async function ColumnIndexPage({
           countryName={country.name}
           countryFlag={country.flag}
           currentLabel="KAIコラム"
-          label="— KAI COLUMN"
-          title={country.name}
+          label={`KAI Column · ${country.name} Life Guide`}
+          title={`${country.name}で、`}
+          titleAccent="深く暮らす。"
           subtitle={`${country.tagline}　在住日本人 ${country.population}`}
           articleCount={articles.length}
           placeCount={totalplaces}
