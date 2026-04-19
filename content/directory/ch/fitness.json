@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "slug": "budokan-zurich",
+    "name": "Budokan Zürich",
+    "name_ja": "武道館 チューリッヒ",
+    "area": "Zürich",
+    "address": "Zweierstrasse 106, 8003 Zürich",
+    "phone": "+41444616667",
+    "email": null,
+    "website": "https://www.budokan.ch/",
+    "source_url": "https://www.budokan.ch/",
+    "description": "1976年創業のチューリッヒ最大の武道総合道場。柔道・空手・剣道・合気道・居合道・柔術など日本武道8種目を30名以上の有段者が指導。在チューリッヒ日本人の習い事としても人気。",
+    "tags": ["柔道", "剣道", "合気道", "空手", "武道", "チューリッヒ"],
+    "hours": "種目・クラスにより異なる（公式サイト参照）",
+    "status": "unverified",
+    "last_verified": "2026-04-16",
+    "source": "website",
+    "ai_reviewed": true
+  },
+  {
+    "slug": "shobukan-karateclub-zurich",
+    "name": "Shobukan Goju Ryu Karateclub Zürich",
+    "name_ja": "昇武館 剛柔流空手道 チューリッヒ",
+    "area": "Zürich",
+    "address": "Manessestrasse 1 (Sihlhölzli Halle D), 8003 Zürich",
+    "phone": "+41794787881",
+    "email": null,
+    "website": "https://www.shobukan.ch/en/",
+    "source_url": "https://www.shobukan.ch/en/karate-zurich",
+    "description": "チューリッヒ・ジールヘルツリのスポーツ施設内にある剛柔流空手道場。日本発祥の伝統空手を月・水・金の夜に稽古。在チューリッヒ日本人・空手経験者のトレーニング場として利用可能。",
+    "tags": ["空手", "剛柔流", "武道", "チューリッヒ"],
+    "hours": "月・水・金 19:00-21:00",
+    "status": "unverified",
+    "last_verified": "2026-04-16",
+    "source": "website",
+    "ai_reviewed": true
+  }
+]
