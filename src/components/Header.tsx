@@ -258,21 +258,15 @@ export default function Header() {
             zIndex: 60,
           }}
         >
-          <div style={{ maxWidth: 1240, margin: "0 auto", padding: "32px 40px" }}>
+          <div style={{ maxWidth: 1240, margin: "0 auto", padding: "20px 40px" }}>
             {menu === "countries" ? (
               /* 国スコープ切替パネル */
               <div>
-                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", marginBottom: 18 }}>
-                  <div>
-                    <EnCaption color="var(--color-shu-500)">Country Scope · いまの国を切り替える</EnCaption>
-                    <div style={{ fontFamily: "var(--font-serif)", fontSize: 22, fontWeight: 600, marginTop: 6, color: "var(--color-fg)" }}>
-                      どの国の暮らしを見ますか？
-                    </div>
-                  </div>
-                  <KaiMono style={{ color: "var(--color-sumi-400)" }}>{countries.length} countries · click to switch</KaiMono>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 12 }}>
+                  <EnCaption color="var(--color-shu-500)">Choose a Country</EnCaption>
+                  <KaiMono style={{ color: "var(--color-sumi-400)" }}>{countries.length} countries</KaiMono>
                 </div>
-                <Hairline style={{ marginBottom: 18 }} />
-                <div style={{ display: "grid", gridTemplateColumns: "repeat(6, 1fr)", gap: 8 }}>
+                <div style={{ display: "grid", gridTemplateColumns: "repeat(8, 1fr)", gap: 6 }}>
                   {countries.map((c) => (
                     <button
                       key={c.code}
@@ -280,8 +274,8 @@ export default function Header() {
                       style={{
                         display: "flex",
                         alignItems: "center",
-                        gap: 10,
-                        padding: "10px 12px",
+                        gap: 8,
+                        padding: "8px 10px",
                         background: c.code === countryCode ? "var(--color-shu-50)" : "var(--color-bg-soft)",
                         border: `1px solid ${c.code === countryCode ? "var(--color-shu-500)" : "var(--color-border)"}`,
                         cursor: "pointer",
@@ -290,63 +284,46 @@ export default function Header() {
                         textAlign: "left",
                       }}
                     >
-                      <span style={{ fontSize: 22, lineHeight: 1 }}>{c.flag}</span>
-                      <div style={{ flex: 1, minWidth: 0 }}>
-                        <div style={{ fontFamily: "var(--font-serif)", fontSize: 13, fontWeight: 600, color: "var(--color-fg)", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{c.name}</div>
-                        <KaiMono style={{ color: "var(--color-sumi-400)", fontSize: "0.59375rem" }}>{c.population}</KaiMono>
-                      </div>
+                      <span style={{ fontSize: 18, lineHeight: 1, flexShrink: 0 }}>{c.flag}</span>
+                      <div style={{ fontFamily: "var(--font-serif)", fontSize: 12, fontWeight: 600, color: "var(--color-fg)", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{c.name}</div>
                     </button>
                   ))}
                 </div>
               </div>
             ) : (
               /* サービス × 国パネル */
-              <div style={{ display: "grid", gridTemplateColumns: "280px 1fr", gap: 40 }}>
-                <div>
+              <div>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 12 }}>
                   <EnCaption color="var(--color-shu-500)">
-                    {SCOPED_SERVICES.find((s) => s.key === menu)?.enLabel}
+                    {SCOPED_SERVICES.find((s) => s.key === menu)?.enLabel} · Choose a Country
                   </EnCaption>
-                  <h3 style={{ fontFamily: "var(--font-serif)", fontSize: 26, fontWeight: 600, margin: "8px 0 12px", letterSpacing: "0.02em", lineHeight: 1.2, color: "var(--color-fg)" }}>
-                    {serviceTitles[menu]}
-                  </h3>
-                  <p style={{ fontFamily: "var(--font-sans)", fontSize: 12.5, color: "var(--color-sumi-500)", lineHeight: 1.9, margin: "0 0 18px" }}>
-                    {serviceDescriptions[menu]}
-                  </p>
-                  <DottedRule />
+                  <KaiMono style={{ color: "var(--color-sumi-400)", fontSize: "0.65625rem" }}>{countries.length} countries</KaiMono>
                 </div>
-                <div>
-                  <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", marginBottom: 12 }}>
-                    <EnCaption>Choose a country</EnCaption>
-                    <KaiMono style={{ color: "var(--color-sumi-400)", fontSize: "0.65625rem" }}>{countries.length} countries</KaiMono>
-                  </div>
-                  <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 1, background: "var(--color-border)", border: "1px solid var(--color-border)" }}>
-                    {countries.map((c) => {
-                      const active = c.code === countryCode;
-                      return (
-                        <button
-                          key={c.code}
-                          onClick={() => handleChooseService(menu, c.code)}
-                          style={{
-                            background: active ? "var(--color-shu-50)" : "var(--color-bg)",
-                            padding: "12px",
-                            cursor: "pointer",
-                            display: "flex",
-                            alignItems: "center",
-                            gap: 10,
-                            borderLeft: active ? "3px solid var(--color-shu-500)" : "3px solid transparent",
-                            border: "none",
-                            transition: "all 0.12s ease",
-                            textAlign: "left",
-                          }}
-                        >
-                          <span style={{ fontSize: 20 }}>{c.flag}</span>
-                          <div style={{ flex: 1, minWidth: 0 }}>
-                            <div style={{ fontFamily: "var(--font-serif)", fontSize: 13, fontWeight: 600, color: "var(--color-fg)", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{c.name}</div>
-                          </div>
-                        </button>
-                      );
-                    })}
-                  </div>
+                <div style={{ display: "grid", gridTemplateColumns: "repeat(8, 1fr)", gap: 1, background: "var(--color-border)", border: "1px solid var(--color-border)" }}>
+                  {countries.map((c) => {
+                    const active = c.code === countryCode;
+                    return (
+                      <button
+                        key={c.code}
+                        onClick={() => handleChooseService(menu, c.code)}
+                        style={{
+                          background: active ? "var(--color-shu-50)" : "var(--color-bg)",
+                          padding: "10px 12px",
+                          cursor: "pointer",
+                          display: "flex",
+                          alignItems: "center",
+                          gap: 8,
+                          borderLeft: active ? "3px solid var(--color-shu-500)" : "3px solid transparent",
+                          border: "none",
+                          transition: "all 0.12s ease",
+                          textAlign: "left",
+                        }}
+                      >
+                        <span style={{ fontSize: 18, flexShrink: 0 }}>{c.flag}</span>
+                        <div style={{ fontFamily: "var(--font-serif)", fontSize: 12, fontWeight: 600, color: "var(--color-fg)", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{c.name}</div>
+                      </button>
+                    );
+                  })}
                 </div>
               </div>
             )}
