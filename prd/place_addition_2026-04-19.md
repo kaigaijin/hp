@@ -12,7 +12,7 @@
 - [ ] batch03: my/accounting（現14件）+ my/moving（現14件） KL・ペナンの日系会計・引越し
 - [ ] batch04: vn/insurance（現13件）+ vn/accounting（現20件） ホーチミン・ハノイの日系保険・会計
 - [x] batch05: de/clinic（現14件→+3件）+ de/accounting（現14件→+3件） ドイツの日語対応クリニック・会計
-- [ ] batch06: gb/dental（現19件）+ hk/real-estate（現24件） ロンドンの歯科・香港の日系不動産
+- [x] batch06: gb/dental（現19件→+1件: TW13 Dental）+ hk/real-estate（現24件→追加0件） ロンドンの歯科・香港の日系不動産
 
 ## 共通ルール: @REVIEW_RULES.md
 ## 対象ディレクトリ: `hp/content/directory/`
