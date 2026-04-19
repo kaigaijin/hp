@@ -8,7 +8,7 @@
 ## バッチ
 
 - [x] batch01: cn/cafe（現5件）+ in/cafe（現5件）+ nz/cafe（現6件） 中国・インド・NZの日系カフェ
-- [ ] batch02: es/grocery（現10件）+ es/cafe（現11件）+ es/beauty（現3件） スペインの日系プレイス
+- [x] batch02: es/grocery（現10件）+ es/cafe（現11件）+ es/beauty（現3件） スペインの日系プレイス
 - [x] batch03: it/cafe（現10件）+ it/grocery（現10件）+ it/beauty（現4件） イタリアの日系プレイス
 - [ ] batch04: ca/grocery（現19件）+ ca/beauty（現8件）+ ca/cafe追加（現16件） カナダの薄いカテゴリ
 - [x] batch05: ae/dental（現6件）+ ae/clinic（現11件）+ ae/fitness（現11件） UAE薄いカテゴリ
