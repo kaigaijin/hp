@@ -37,7 +37,8 @@ export default function CountryHero({
         articleCount={articleCount}
         placeCount={placeCount}
       />
-      <div className="max-w-6xl mx-auto px-4 pt-4 pb-6">
+      {/* ヒーロー本体 — 全ページ同じ高さに揃える */}
+      <div className="max-w-6xl mx-auto px-4 pt-4 pb-8" style={{ minHeight: 220 }}>
         {/* パンくず */}
         <nav className="flex items-center gap-1.5 text-xs text-stone-400/80 mb-6">
           <Link href="/" className="hover:text-white transition-colors">トップ</Link>
@@ -49,9 +50,9 @@ export default function CountryHero({
           <span className="text-white/90">{currentLabel}</span>
         </nav>
 
-        {/* メインコンテンツ — 固定高さで揃える */}
-        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6 min-h-[160px]">
-          <div>
+        {/* メインコンテンツ */}
+        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+          <div className="flex-1">
             <p className="text-xs font-semibold tracking-widest uppercase text-stone-500 mb-3">
               {label}
             </p>
@@ -71,12 +72,10 @@ export default function CountryHero({
           )}
         </div>
 
-        {/* スポット内タブ（カテゴリ/エリア/地図）— スポットページのみ */}
-        {subTabs && (
-          <div className="mt-6">
-            {subTabs}
-          </div>
-        )}
+        {/* subTabs or 等価スペーサー — 全ページで底辺の高さを揃える */}
+        <div className="mt-6" style={{ minHeight: 40 }}>
+          {subTabs}
+        </div>
       </div>
     </div>
   );
