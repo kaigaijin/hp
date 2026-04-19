@@ -7,7 +7,7 @@
 
 ## バッチ
 
-- [ ] batch01: sg/coworking（現2件）+ my/coworking（現1件） シンガポール・KLの日系コワーキング
+- [x] batch01: sg/coworking（現2件→追加0件）+ my/coworking（現1件→+2件: SENTRO・ACCEA CAFÉ Imbi）シンガポール・KLの日系コワーキング
 - [ ] batch02: tw/dental（現14件）+ de/dental（現20件） 台湾・ドイツの日本語対応歯科
 - [ ] batch03: my/accounting（現14件）+ my/moving（現14件） KL・ペナンの日系会計・引越し
 - [ ] batch04: vn/insurance（現13件）+ vn/accounting（現20件） ホーチミン・ハノイの日系保険・会計
