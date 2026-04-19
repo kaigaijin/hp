@@ -1,95 +1,277 @@
 import Link from "next/link";
-import { countries } from "@/lib/countries";
-
-const ZH_SITES = [
-  { name: "LunaPos", url: "https://lunapos.jp" },
-  { name: "Casinohub", url: "https://casinohub.jp" },
-  { name: "Roomly", url: "https://hp.roomly.jp" },
-  { name: "Wattly", url: "https://wattly.jp" },
-];
+import { EnCaption, Hairline, KaiMono } from "./kai";
 
 export default function Footer() {
+  const cols = [
+    {
+      h: "KAIプレイス",
+      en: "Place",
+      items: [
+        { label: "日本食レストラン", href: "/sg/place/restaurant" },
+        { label: "クリニック・病院", href: "/sg/place/clinic" },
+        { label: "美容室・ネイル", href: "/sg/place/beauty" },
+        { label: "日本食スーパー", href: "/sg/place/supermarket" },
+        { label: "不動産エージェント", href: "/sg/place/real-estate" },
+        { label: "教育・インター校", href: "/sg/place/education" },
+      ],
+    },
+    {
+      h: "KAIジョブ",
+      en: "Job",
+      items: [
+        { label: "金融・コンサル", href: "/sg/jobs/finance" },
+        { label: "物流・商社", href: "/sg/jobs/trading" },
+        { label: "IT・Web", href: "/sg/jobs/it" },
+        { label: "製造業", href: "/sg/jobs/manufacturing" },
+        { label: "小売・飲食", href: "/sg/jobs/restaurant" },
+        { label: "人材紹介", href: "/sg/jobs/hr" },
+      ],
+    },
+    {
+      h: "KAIコラム",
+      en: "Column",
+      items: [
+        { label: "ビザ・移住", href: "/sg/column" },
+        { label: "税金・保険", href: "/sg/column" },
+        { label: "住居・医療", href: "/sg/column" },
+        { label: "教育・子育て", href: "/sg/column" },
+        { label: "金融・銀行", href: "/sg/column" },
+        { label: "生活・文化", href: "/sg/column" },
+      ],
+    },
+  ];
+
   return (
-    <footer className="bg-stone-950 text-stone-400">
-      <div className="max-w-6xl mx-auto px-4 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
+    <footer
+      style={{
+        background: "var(--color-sumi-900)",
+        color: "var(--color-kinari-200)",
+        padding: "56px 40px 28px",
+      }}
+    >
+      <div style={{ maxWidth: 1240, margin: "0 auto" }}>
+        {/* 4カラムグリッド */}
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "1.5fr 1fr 1fr 1fr",
+            gap: 48,
+            marginBottom: 40,
+          }}
+          className="grid-cols-1 md:grid-cols-4"
+        >
           {/* ブランド */}
           <div>
-            <p className="heading-editorial text-2xl font-bold text-white mb-1 tracking-tight">
-              <span className="text-[1.2em]">K</span>aigaijin
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                gap: 10,
+                marginBottom: 16,
+              }}
+            >
+              <svg width="24" height="24" viewBox="0 0 28 28" aria-hidden="true">
+                <rect x="1" y="1" width="26" height="26" fill="none" stroke="var(--color-kinari-200)" strokeWidth="1.5" />
+                <text x="14" y="19" textAnchor="middle" fontFamily="var(--font-serif)" fontSize="16" fontWeight="600" fill="var(--color-shu-300)">海</text>
+              </svg>
+              <div
+                style={{
+                  fontFamily: "var(--font-serif)",
+                  fontSize: 22,
+                  fontWeight: 600,
+                  color: "var(--color-kinari-50)",
+                  letterSpacing: "0.04em",
+                }}
+              >
+                Kaigaijin
+              </div>
+            </div>
+            <p
+              style={{
+                fontFamily: "var(--font-sans)",
+                fontSize: 12.5,
+                lineHeight: 1.9,
+                color: "var(--color-kinari-200)",
+                opacity: 0.7,
+                margin: "0 0 20px",
+                maxWidth: 300,
+              }}
+            >
+              国境を越えた暮らしの実務を、在住者の視点で丁寧に届ける。海外在住日本人のためのメディア。
             </p>
-            <p className="text-xs italic text-stone-500 mb-4">Its country, deeply.</p>
-            <p className="text-sm leading-relaxed">
-              海外在住日本人のための
-              <br />
-              国別生活情報メディア
-            </p>
+            <div style={{ display: "flex", gap: 12 }}>
+              <Link
+                href="/visa-simulator"
+                style={{
+                  display: "inline-flex",
+                  alignItems: "center",
+                  padding: "8px 14px",
+                  background: "transparent",
+                  color: "var(--color-kinari-100)",
+                  border: "1px solid rgba(255,255,255,0.2)",
+                  borderRadius: 4,
+                  fontFamily: "var(--font-sans)",
+                  fontSize: 12.5,
+                  fontWeight: 600,
+                  textDecoration: "none",
+                  transition: "all 0.2s ease",
+                }}
+              >
+                ビザ診断
+              </Link>
+              <Link
+                href="/ask"
+                style={{
+                  display: "inline-flex",
+                  alignItems: "center",
+                  padding: "8px 0",
+                  background: "transparent",
+                  color: "var(--color-shu-300)",
+                  border: "none",
+                  fontFamily: "var(--font-sans)",
+                  fontSize: 12.5,
+                  fontWeight: 600,
+                  textDecoration: "underline",
+                  textDecorationThickness: "1px",
+                  textUnderlineOffset: "4px",
+                  transition: "all 0.2s ease",
+                }}
+              >
+                匿名Q&A →
+              </Link>
+            </div>
           </div>
 
-          {/* 国別リンク */}
-          <div>
-            <p className="text-white text-sm font-semibold mb-4">国別ガイド</p>
-            <div className="grid grid-cols-2 gap-2 text-sm">
-              {countries.map((c) => (
-                <Link
-                  key={c.code}
-                  href={`/${c.code}`}
-                  prefetch={false}
-                  className="hover:text-white transition-colors flex items-center gap-1.5"
+          {/* サービスカラム */}
+          {cols.map((col) => (
+            <div key={col.h}>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "baseline",
+                  gap: 8,
+                  marginBottom: 18,
+                }}
+              >
+                <div
+                  style={{
+                    fontFamily: "var(--font-serif)",
+                    fontSize: 14,
+                    fontWeight: 600,
+                    color: "var(--color-kinari-50)",
+                    letterSpacing: "0.04em",
+                  }}
                 >
-                  <span className="text-sm">{c.flag}</span>
-                  <span>{c.name}</span>
-                </Link>
-              ))}
-            </div>
-          </div>
-
-          {/* 情報 */}
-          <div>
-            <p className="text-white text-sm font-semibold mb-4">
-              Kaigaijinについて
-            </p>
-            <div className="flex flex-col gap-2 text-sm">
-              <Link href="/return" className="hover:text-white transition-colors">
-                帰国準備ガイド
-              </Link>
-              <Link href="/about" className="hover:text-white transition-colors">
-                メディアについて
-              </Link>
-              <Link href="/contact" className="hover:text-white transition-colors">
-                お問い合わせ
-              </Link>
-              <Link href="/advertise" className="hover:text-white transition-colors">
-                広告掲載について
-              </Link>
-              <Link href="/privacy" className="hover:text-white transition-colors">
-                プライバシーポリシー
-              </Link>
-            </div>
-          </div>
-
-          {/* zhグループ */}
-          <div>
-            <p className="text-white text-sm font-semibold mb-4">zh グループ</p>
-            <div className="flex flex-col gap-2 text-sm">
-              {ZH_SITES.map((site) => (
-                <a
-                  key={site.name}
-                  href={site.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-white transition-colors flex items-center gap-1.5"
+                  {col.h}
+                </div>
+                <div
+                  style={{
+                    fontFamily: "var(--font-serif-en)",
+                    fontSize: "0.5625rem",
+                    letterSpacing: "0.24em",
+                    textTransform: "uppercase",
+                    color: "var(--color-shu-300)",
+                    fontStyle: "italic",
+                  }}
                 >
-                  <span>{site.name}</span>
-                  <span className="text-[10px] text-stone-600">↗</span>
-                </a>
-              ))}
+                  — {col.en}
+                </div>
+              </div>
+              <ul
+                style={{
+                  listStyle: "none",
+                  padding: 0,
+                  margin: 0,
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: 10,
+                }}
+              >
+                {col.items.map((item) => (
+                  <li key={item.label}>
+                    <Link
+                      href={item.href}
+                      style={{
+                        fontFamily: "var(--font-sans)",
+                        fontSize: 12.5,
+                        color: "var(--color-kinari-200)",
+                        opacity: 0.8,
+                        textDecoration: "none",
+                        transition: "opacity 0.2s ease",
+                      }}
+                    >
+                      {item.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
             </div>
+          ))}
+        </div>
+
+        {/* メタリンク行 */}
+        <div
+          style={{
+            borderTop: "1px solid rgba(255,255,255,0.1)",
+            paddingTop: 20,
+            marginBottom: 20,
+          }}
+        >
+          <div style={{ display: "flex", gap: 24, flexWrap: "wrap" }}>
+            {[
+              { label: "媒体資料", href: "/advertise" },
+              { label: "広告掲載", href: "/advertise" },
+              { label: "お問い合わせ", href: "/contact" },
+              { label: "運営会社", href: "/about" },
+              { label: "プライバシー", href: "/privacy" },
+              { label: "利用規約", href: "/terms" },
+            ].map((item) => (
+              <Link
+                key={item.label}
+                href={item.href}
+                style={{
+                  fontFamily: "var(--font-sans)",
+                  fontSize: 11.5,
+                  color: "var(--color-kinari-200)",
+                  opacity: 0.6,
+                  textDecoration: "none",
+                  transition: "opacity 0.2s ease",
+                }}
+              >
+                {item.label}
+              </Link>
+            ))}
           </div>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-stone-800 text-center text-xs text-stone-600">
-          &copy; {new Date().getFullYear()} Kaigaijin. All rights reserved.
+        {/* コピーライト */}
+        <div
+          style={{
+            borderTop: "1px solid rgba(255,255,255,0.1)",
+            paddingTop: 20,
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+          }}
+        >
+          <KaiMono
+            style={{
+              color: "var(--color-kinari-200)",
+              opacity: 0.5,
+              letterSpacing: "0.1em",
+            }}
+          >
+            © {new Date().getFullYear()} Kaigaijin · All rights reserved.
+          </KaiMono>
+          <KaiMono
+            style={{
+              color: "var(--color-kinari-200)",
+              opacity: 0.5,
+              letterSpacing: "0.1em",
+            }}
+          >
+            海を渡るひとへ
+          </KaiMono>
         </div>
       </div>
     </footer>

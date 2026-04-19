@@ -2,379 +2,359 @@
 @plugin "@tailwindcss/typography";
 
 @theme {
-  --font-serif: "Noto Serif JP", serif;
-  --font-sans: "Noto Sans JP", sans-serif;
+  /* 墨 sumi — 黒系・前景 */
+  --color-sumi-900: #111110;
+  --color-sumi-800: #1c1b19;
+  --color-sumi-700: #2a2926;
+  --color-sumi-600: #3a3834;
+  --color-sumi-500: #55524c;
+  --color-sumi-400: #7a7770;
+  --color-sumi-300: #a5a199;
+  --color-sumi-200: #cfcbc2;
+  --color-sumi-100: #e6e2d9;
 
-  /* メインカラー: warm（深いテラコッタ系） */
-  --color-warm-50:  #fff8f0;
-  --color-warm-100: #feefd8;
-  --color-warm-200: #fcdcad;
-  --color-warm-300: #f9c278;
-  --color-warm-400: #e8a46e;
-  --color-warm-500: #c8602a;
-  --color-warm-600: #b04e20;
-  --color-warm-700: #8f3c16;
-  --color-warm-800: #722f11;
-  --color-warm-900: #5c260e;
+  /* 生成り kinari — 和紙地・背景 */
+  --color-kinari-50:  #faf7f0;
+  --color-kinari-100: #f4efe4;
+  --color-kinari-200: #ebe4d3;
+  --color-kinari-300: #ddd3bc;
+  --color-kinari-400: #c6b894;
 
-  /* sand: ライトモード背景 */
-  --color-sand-50:  #faf7f2;
-  --color-sand-100: #f4ede0;
-  --color-sand-200: #e8dac8;
-  --color-sand-300: #d8c4a8;
-  --color-sand-400: #c4a882;
-  --color-sand-500: #b08f65;
-  --color-sand-600: #967550;
-  --color-sand-700: #7a5e40;
-  --color-sand-800: #634c35;
-  --color-sand-900: #52402e;
+  /* 朱 shu — primary / accent */
+  --color-shu-900: #5d1810;
+  --color-shu-800: #7a2116;
+  --color-shu-700: #9a2c1b;
+  --color-shu-600: #b93621;
+  --color-shu-500: #c8402a;
+  --color-shu-400: #d8553d;
+  --color-shu-300: #e07a63;
+  --color-shu-200: #eaa993;
+  --color-shu-100: #f5d9cc;
+  --color-shu-50:  #fbece5;
 
-  /* teal: サブカラー（ネイビーテール系） */
-  --color-teal-100: #d4ecf0;
-  --color-teal-200: #a8d9e1;
-  --color-teal-300: #6ebdcc;
-  --color-teal-400: #3a9aae;
-  --color-teal-500: #1a6b7c;
-  --color-teal-600: #145866;
-  --color-teal-700: #0f4550;
-  --color-teal-800: #0c3540;
-  --color-teal-900: #082830;
-  --color-teal-950: #0a2830;
+  /* 藍 ai — 寒色アクセント */
+  --color-ai-900: #0e2030;
+  --color-ai-800: #13304a;
+  --color-ai-700: #18436a;
+  --color-ai-600: #1f5a8a;
+  --color-ai-500: #2c7aa8;
+  --color-ai-400: #4f9bc2;
+  --color-ai-300: #8fbcd4;
+  --color-ai-200: #c4dae6;
+  --color-ai-100: #e3eef4;
+
+  /* 萌黄 moegi — success */
+  --color-moegi-700: #3e5a1e;
+  --color-moegi-500: #6b8a32;
+  --color-moegi-300: #a8bf72;
+
+  /* セマンティック */
+  --color-warning: #c98a0e;
+  --color-danger:  #b93621;
+  --color-success: #3e7a42;
+
+  /* フォント */
+  --font-serif:    'Shippori Mincho', 'Noto Serif JP', serif;
+  --font-serif-en: 'EB Garamond', 'Shippori Mincho', serif;
+  --font-sans:     'Noto Sans JP', 'Zen Kaku Gothic New', sans-serif;
+  --font-mono:     'JetBrains Mono', ui-monospace, monospace;
+}
+
+/* ライトモード CSS variables */
+:root {
+  --color-bg:      var(--color-kinari-50);
+  --color-bg-soft: var(--color-kinari-100);
+  --color-fg:      var(--color-sumi-800);
+  --color-border:  #e3dbc8;
+}
+
+/* ダークモード */
+html.dark {
+  --color-bg:       #1a1815;
+  --color-bg-soft:  #141210;
+  --color-fg:       #ebe4d3;
+  --color-border:   #34302a;
+  --color-sumi-900: #faf7f0;
+  --color-sumi-800: #e6e2d9;
+  --color-sumi-700: #cfcbc2;
+  --color-sumi-600: #a5a199;
+  --color-sumi-500: #7a7770;
+  --color-sumi-400: #55524c;
+  --color-sumi-300: #3a3834;
+  --color-sumi-200: #2a2926;
+  --color-sumi-100: #1c1b19;
 }
 
 @custom-variant dark (&:where(.dark, .dark *));
 
-/* ライトモード: 温かみのあるオフホワイト基調 */
-:root:not(.dark) {
-  --tw-bg-white: var(--color-sand-50);
-}
-:root:not(.dark) .bg-white {
-  background-color: var(--color-sand-50);
-}
-:root:not(.dark) .bg-stone-100 {
-  background-color: #f2ede6;
-}
-:root:not(.dark) .bg-stone-50 {
-  background-color: var(--color-sand-50);
+/* ─── 旧トークン互換エイリアス（既存ページが壊れないよう残す） ─── */
+@theme {
+  /* warm → shu にマップ */
+  --color-warm-50:  var(--color-shu-50);
+  --color-warm-100: var(--color-shu-100);
+  --color-warm-200: var(--color-shu-200);
+  --color-warm-300: var(--color-shu-300);
+  --color-warm-400: var(--color-shu-400);
+  --color-warm-500: var(--color-shu-500);
+  --color-warm-600: var(--color-shu-600);
+  --color-warm-700: var(--color-shu-700);
+  --color-warm-800: var(--color-shu-800);
+  --color-warm-900: var(--color-shu-900);
+
+  /* sand → kinari にマップ */
+  --color-sand-50:  var(--color-kinari-50);
+  --color-sand-100: var(--color-kinari-100);
+  --color-sand-200: var(--color-kinari-200);
+  --color-sand-300: var(--color-kinari-300);
+  --color-sand-400: var(--color-kinari-400);
+
+  /* teal → ai にマップ */
+  --color-teal-100: var(--color-ai-100);
+  --color-teal-200: var(--color-ai-200);
+  --color-teal-300: var(--color-ai-300);
+  --color-teal-400: var(--color-ai-400);
+  --color-teal-500: var(--color-ai-500);
+  --color-teal-600: var(--color-ai-600);
+  --color-teal-700: var(--color-ai-700);
+  --color-teal-800: var(--color-ai-800);
+  --color-teal-900: var(--color-ai-900);
+  --color-teal-950: var(--color-ai-900);
 }
 
-/* エディトリアル風のタイポグラフィ */
-.heading-editorial {
-  font-family: var(--font-serif);
-  letter-spacing: 0.02em;
-  line-height: 1.4;
-  font-feature-settings: "palt";
+/* ─── stone系を既存コードで使っているので body に引き継ぐ ─── */
+:root:not(.dark) .bg-stone-50  { background-color: var(--color-kinari-50); }
+:root:not(.dark) .bg-stone-100 { background-color: var(--color-kinari-100); }
+:root:not(.dark) .bg-stone-900 { background-color: var(--color-sumi-900); }
+:root:not(.dark) .bg-white     { background-color: var(--color-kinari-50); }
+
+/* ─── 和モダン基本スタイル ─── */
+
+/* 和紙テクスチャ背景 */
+.kai-bg-paper {
+  background-color: var(--color-bg);
+  background-image:
+    radial-gradient(circle at 20% 30%, rgba(200,172,130,0.04) 0%, transparent 60%),
+    radial-gradient(circle at 80% 70%, rgba(200,172,130,0.03) 0%, transparent 50%);
 }
 
-/* セクションラベル（小見出し） */
-.section-label {
-  font-size: 0.625rem;
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-  color: var(--color-teal-500);
-  font-weight: 600;
+/* カードホバー — 案A */
+.kai-card-a {
+  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
-.dark .section-label {
-  color: var(--color-teal-400);
+.kai-card-a:hover {
+  border-color: var(--color-sumi-700);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
 }
 
-/* 横線デコレーション（太め） */
-.line-accent::after {
-  content: "";
-  display: block;
-  width: 48px;
-  height: 2px;
-  background: var(--color-warm-500);
-  margin-top: 16px;
+/* カードホバー — 案B */
+.kai-card-b {
+  transition: border-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+.kai-card-b:hover {
+  border-color: var(--color-shu-500);
+  transform: translateY(-3px);
+  box-shadow: 0 12px 32px rgba(200,64,42,0.08);
 }
 
-/* 横線デコレーション（細め・グラデーション） */
-.line-thin::after {
-  content: "";
-  display: block;
-  width: 64px;
-  height: 1px;
-  background: linear-gradient(to right, transparent, currentColor);
-  margin-top: 12px;
-  opacity: 0.4;
-}
-
-/* スクロールで表示するアニメーション */
-@keyframes reveal-up {
-  from {
-    opacity: 0;
-    transform: translateY(24px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.animate-reveal {
-  animation: reveal-up 0.7s ease-out both;
-  animation-fill-mode: both;
-}
-
-.animate-reveal-delay-1 {
-  animation: reveal-up 0.7s ease-out both;
-  animation-fill-mode: both;
-  animation-delay: 0.1s;
-}
-
-.animate-reveal-delay-2 {
-  animation: reveal-up 0.7s ease-out both;
-  animation-fill-mode: both;
-  animation-delay: 0.2s;
-}
-
-.animate-reveal-delay-3 {
-  animation: reveal-up 0.7s ease-out both;
-  animation-fill-mode: both;
-  animation-delay: 0.3s;
-}
-
-/* 国カード ホバー */
-.country-card {
-  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
-}
-.country-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
-}
-.dark .country-card:hover {
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
-}
-
-/* ===== 記事本文スタイル ===== */
-
+/* ─── 記事本文 (prose) ─── */
 .prose {
   font-size: 1.0625rem;
-  line-height: 1.9;
+  line-height: 2;
   letter-spacing: 0.01em;
+  font-family: var(--font-sans);
+  color: var(--color-sumi-700);
 }
 
-/* 見出し */
 .prose h2 {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
   margin-top: 2.5em;
   margin-bottom: 0.8em;
   padding-bottom: 0.4em;
-  border-bottom: 2px solid var(--color-warm-200);
-  font-size: 1.625rem;
-}
-.prose h3 {
-  margin-top: 2em;
-  margin-bottom: 0.6em;
-  padding-left: 0.75em;
-  border-left: 3px solid var(--color-warm-500);
-  font-size: 1.3rem;
-}
-.prose h4 {
-  margin-top: 1.5em;
-  margin-bottom: 0.5em;
-  font-size: 1.1rem;
-}
-.dark .prose h2 {
-  border-bottom-color: #44403c;
-}
-.dark .prose h3 {
-  border-left-color: var(--color-warm-400);
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-fg);
 }
 
-/* 段落 */
+.prose h3 {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  margin-top: 2em;
+  margin-bottom: 0.6em;
+  color: var(--color-fg);
+}
+
+.prose h4 {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
 .prose p {
   margin-top: 1.2em;
   margin-bottom: 1.2em;
 }
 
-/* 強調 */
 .prose strong {
-  color: var(--color-warm-800);
   font-weight: 700;
-}
-.dark .prose strong {
-  color: var(--color-warm-300);
+  color: var(--color-sumi-900);
 }
 
-/* リンク */
+html.dark .prose strong {
+  color: var(--color-sumi-100);
+}
+
 .prose a {
+  color: var(--color-shu-600);
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
   transition: color 0.15s ease;
 }
 
-/* リスト */
+.prose a:hover {
+  color: var(--color-shu-500);
+}
+
+html.dark .prose a {
+  color: var(--color-shu-300);
+}
+
 .prose ul {
   margin-top: 1em;
   margin-bottom: 1em;
   padding-left: 1.25em;
 }
+
 .prose ul li {
   margin-top: 0.4em;
   margin-bottom: 0.4em;
   padding-left: 0.25em;
 }
+
 .prose ul li::marker {
-  color: var(--color-warm-400);
+  color: var(--color-shu-400);
 }
+
 .prose ol {
   margin-top: 1em;
   margin-bottom: 1em;
   padding-left: 1.25em;
 }
+
 .prose ol li {
   margin-top: 0.4em;
   margin-bottom: 0.4em;
   padding-left: 0.25em;
 }
+
 .prose ol li::marker {
-  color: var(--color-warm-600);
+  color: var(--color-shu-600);
   font-weight: 600;
 }
 
-/* 引用 */
 .prose blockquote {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
   padding: 1em 1.25em;
-  border-left: 4px solid var(--color-warm-400);
-  background-color: var(--color-warm-50);
-  border-radius: 0 8px 8px 0;
+  border-left: 3px solid var(--color-shu-400);
+  background-color: var(--color-kinari-50);
   font-style: normal;
-  color: #44403c;
-}
-.prose blockquote p {
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-}
-.dark .prose blockquote {
-  background-color: rgba(200, 96, 42, 0.08);
-  border-left-color: var(--color-warm-500);
-  color: #d6d3d1;
+  color: var(--color-sumi-600);
 }
 
-/* 水平線 */
+html.dark .prose blockquote {
+  background-color: rgba(200, 64, 42, 0.06);
+  border-left-color: var(--color-shu-500);
+}
+
 .prose hr {
   margin-top: 2.5em;
   margin-bottom: 2.5em;
   border: none;
   height: 1px;
-  background: linear-gradient(to right, transparent, var(--color-warm-200), transparent);
-}
-.dark .prose hr {
-  background: linear-gradient(to right, transparent, #44403c, transparent);
+  background: var(--color-border);
 }
 
-/* テーブル */
 .prose table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.95rem;
-  border-radius: 8px;
-  border: 1px solid #e5e7eb;
+  font-size: 0.9rem;
+  border: 1px solid var(--color-border);
 }
 
-/* テーブルのマージン */
 .prose :where(table) {
   display: table;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
 }
+
 .prose thead {
-  background-color: var(--color-warm-50);
-  border-bottom: 2px solid var(--color-warm-200);
+  background-color: var(--color-kinari-100);
+  border-bottom: 1px solid var(--color-sumi-900);
 }
+
 .prose thead th {
   padding: 0.75em 1em;
   text-align: left;
-  font-weight: 700;
-  color: var(--color-warm-800);
-  font-size: 0.9rem;
-  white-space: nowrap;
+  font-family: var(--font-serif);
+  font-weight: 600;
+  color: var(--color-fg);
+  font-size: 0.875rem;
 }
+
 .prose tbody td {
   padding: 0.75em 1em;
-  border-bottom: 1px solid #e5e7eb;
+  border-bottom: 1px dotted var(--color-border);
   vertical-align: top;
 }
+
 .prose tbody tr:last-child td {
   border-bottom: none;
 }
-.prose tbody tr:nth-child(even) {
-  background-color: var(--color-sand-50);
-}
-.prose tbody tr:hover {
-  background-color: var(--color-warm-50);
-}
-.dark .prose table {
-  border-color: #44403c;
-}
-.dark .prose thead {
-  background-color: rgba(200, 96, 42, 0.1);
-  border-bottom-color: #44403c;
-}
-.dark .prose thead th {
-  color: var(--color-warm-300);
-}
-.dark .prose tbody td {
-  border-bottom-color: #44403c;
-}
-.dark .prose tbody tr:nth-child(even) {
-  background-color: rgba(255, 255, 255, 0.03);
-}
-.dark .prose tbody tr:hover {
-  background-color: rgba(255, 255, 255, 0.05);
+
+html.dark .prose table {
+  border-color: var(--color-border);
 }
 
-/* テーブル横スクロール（モバイル） */
+html.dark .prose thead {
+  background-color: rgba(255,255,255,0.04);
+}
+
 .prose .table-wrapper {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
 
-/* コード（インライン） */
 .prose code:not(pre code) {
   padding: 0.15em 0.4em;
-  background-color: #f3f0eb;
-  border-radius: 4px;
+  background-color: var(--color-kinari-100);
+  border-radius: 2px;
   font-size: 0.875em;
   font-weight: 500;
-  color: var(--color-warm-700);
-}
-.dark .prose code:not(pre code) {
-  background-color: #292524;
-  color: var(--color-warm-300);
+  color: var(--color-shu-700);
+  font-family: var(--font-mono);
 }
 
-/* 画像 */
+html.dark .prose code:not(pre code) {
+  background-color: rgba(255,255,255,0.06);
+  color: var(--color-shu-300);
+}
+
 .prose img {
-  border-radius: 8px;
+  border: 1px solid var(--color-border);
   margin-top: 1.5em;
   margin-bottom: 1.5em;
 }
 
-/* 注釈（小さいテキスト） */
 .prose small,
 .prose .note {
   font-size: 0.875rem;
-  color: #78716c;
+  color: var(--color-sumi-500);
   line-height: 1.6;
-}
-.dark .prose small,
-.dark .prose .note {
-  color: #a8a29e;
-}
-
-/* グラデーションテキスト */
-.text-gradient {
-  background: linear-gradient(135deg, var(--color-warm-700), var(--color-warm-500));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-.dark .text-gradient {
-  background: linear-gradient(135deg, var(--color-warm-400), var(--color-warm-300));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
 }
