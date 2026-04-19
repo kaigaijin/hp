@@ -81,7 +81,7 @@ export default async function JobsIndexPage({
 
   const counts = await getIndustryCounts(code);
   const totalJobs = Object.values(counts).reduce((a, b) => a + b, 0);
-  const categoryCounts = getCategoryCounts(code);
+  const categoryCounts = await getCategoryCounts(code);
   const totalplaces = Object.values(categoryCounts).reduce((a, b) => a + b, 0);
   const articles = getArticlesByCountry(code);
 

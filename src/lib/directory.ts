@@ -1,5 +1,4 @@
-import fs from "fs";
-import path from "path";
+import { supabaseServer } from "./supabase-server";
 
 // カテゴリ定義
 export type CategoryDef = {
@@ -280,48 +279,58 @@ export const statusConfig: Record<
   },
 };
 
-const directoryDir = path.join(process.cwd(), "content", "directory");
-
-export function getplacesByCategory(
+export async function getplacesByCategory(
   countryCode: string,
   categorySlug: string,
-): place[] {
-  const filePath = path.join(
-    directoryDir,
-    countryCode,
-    `${categorySlug}.json`,
-  );
-  if (!fs.existsSync(filePath)) return [];
-
-  const raw = fs.readFileSync(filePath, "utf-8");
-  const places = JSON.parse(raw) as place[];
-  return places.filter((s) => !s.needs_review);
+): Promise<place[]> {
+  const { data, error } = await supabaseServer
+    .from("places")
+    .select("*")
+    .eq("country_code", countryCode)
+    .eq("category", categorySlug)
+    .neq("status", "deleted")
+    .not("needs_review", "eq", true)
+    .order("priority", { ascending: false });
+  if (error || !data) return [];
+  return data as place[];
 }
 
-export function getplace(
+export async function getplace(
   countryCode: string,
   categorySlug: string,
   placeSlug: string,
-): place | undefined {
-  const places = getplacesByCategory(countryCode, categorySlug);
-  return places.find((s) => s.slug === placeSlug);
+): Promise<place | undefined> {
+  const { data, error } = await supabaseServer
+    .from("places")
+    .select("*")
+    .eq("country_code", countryCode)
+    .eq("category", categorySlug)
+    .eq("slug", placeSlug)
+    .single();
+  if (error || !data) return undefined;
+  return data as place;
 }
 
 // 国ごとの全カテゴリのスポット数を取得
-export function getCategoryCounts(
+export async function getCategoryCounts(
   countryCode: string,
-): Record<string, number> {
+): Promise<Record<string, number>> {
+  const { data, error } = await supabaseServer
+    .from("places")
+    .select("category")
+    .eq("country_code", countryCode)
+    .not("needs_review", "eq", true);
+  if (error || !data) return {};
   const counts: Record<string, number> = {};
-  for (const cat of categories) {
-    const places = getplacesByCategory(countryCode, cat.slug);
-    counts[cat.slug] = places.length;
+  for (const row of data) {
+    counts[row.category] = (counts[row.category] ?? 0) + 1;
   }
   return counts;
 }
 
 // 国ごとのグループ別スポット数を取得
-export function getGroupCounts(countryCode: string): Record<string, number> {
-  const catCounts = getCategoryCounts(countryCode);
+export async function getGroupCounts(countryCode: string): Promise<Record<string, number>> {
+  const catCounts = await getCategoryCounts(countryCode);
   const groupCounts: Record<string, number> = {};
   for (const group of categoryGroups) {
     groupCounts[group.slug] = group.categories.reduce(
@@ -333,45 +342,31 @@ export function getGroupCounts(countryCode: string): Record<string, number> {
 }
 
 // needs_review スポットを全国・全カテゴリから取得（/review ページ用）
-export function getNeedsReviewplaces(): Array<
+export async function getNeedsReviewplaces(): Promise<Array<
   place & { country: string; category: string; review_note?: string; japanese_staff?: boolean | null }
-> {
-  const results: Array<place & { country: string; category: string; review_note?: string; japanese_staff?: boolean | null }> = [];
-
-  if (!fs.existsSync(directoryDir)) return results;
-
-  const countries = fs.readdirSync(directoryDir).filter((d: string) =>
-    fs.statSync(path.join(directoryDir, d)).isDirectory()
-  );
-
-  for (const country of countries) {
-    const countryDir = path.join(directoryDir, country);
-    const files = fs.readdirSync(countryDir).filter((f: string) => f.endsWith(".json"));
-    for (const file of files) {
-      const category = file.replace(".json", "");
-      const raw = fs.readFileSync(path.join(countryDir, file), "utf-8");
-      const places = JSON.parse(raw) as Array<place & { review_note?: string; japanese_staff?: boolean | null }>;
-      for (const place of places) {
-        if (place.needs_review && place.status !== "reported_closed") {
-          results.push({ ...place, country, category });
-        }
-      }
-    }
-  }
-
-  return results;
+>> {
+  const { data, error } = await supabaseServer
+    .from("places")
+    .select("*")
+    .eq("needs_review", true)
+    .neq("status", "reported_closed");
+  if (error || !data) return [];
+  return data.map((row) => ({ ...row, country: row.country_code })) as Array<
+    place & { country: string; category: string; review_note?: string; japanese_staff?: boolean | null }
+  >;
 }
 
 // 国ごとの全スポットを取得（sitemap用）
-export function getAllplaces(
+export async function getAllplaces(
   countryCode: string,
-): Array<place & { category: string }> {
-  return categories.flatMap((cat) =>
-    getplacesByCategory(countryCode, cat.slug).map((place) => ({
-      ...place,
-      category: cat.slug,
-    })),
-  );
+): Promise<Array<place & { category: string }>> {
+  const { data, error } = await supabaseServer
+    .from("places")
+    .select("*")
+    .eq("country_code", countryCode)
+    .not("needs_review", "eq", true);
+  if (error || !data) return [];
+  return data as Array<place & { category: string }>;
 }
 
 // エリアスラッグ変換
@@ -386,12 +381,12 @@ export function toAreaSlug(area: string): string {
 }
 
 // エリア別のスポット件数を取得
-export function getAreaCounts(
+export async function getAreaCounts(
   countryCode: string,
-): Record<string, number> {
-  const allplaces = getAllplaces(countryCode);
+): Promise<Record<string, number>> {
+  const allPlaces = await getAllplaces(countryCode);
   const counts: Record<string, number> = {};
-  for (const place of allplaces) {
+  for (const place of allPlaces) {
     const area = place.area;
     counts[area] = (counts[area] ?? 0) + 1;
   }
@@ -399,37 +394,39 @@ export function getAreaCounts(
 }
 
 // 全エリア名一覧を件数順で取得
-export function getAllAreas(
+export async function getAllAreas(
   countryCode: string,
-): Array<{ name: string; slug: string; count: number }> {
-  const counts = getAreaCounts(countryCode);
+): Promise<Array<{ name: string; slug: string; count: number }>> {
+  const counts = await getAreaCounts(countryCode);
   return Object.entries(counts)
     .map(([name, count]) => ({ name, slug: toAreaSlug(name), count }))
     .sort((a, b) => b.count - a.count);
 }
 
 // エリアスラッグから元のエリア名を逆引き
-export function getAreaNameBySlug(
+export async function getAreaNameBySlug(
   countryCode: string,
   areaSlug: string,
-): string | undefined {
-  const areas = getAllAreas(countryCode);
+): Promise<string | undefined> {
+  const areas = await getAllAreas(countryCode);
   return areas.find((a) => a.slug === areaSlug)?.name;
 }
 
 // エリア別の全スポットを取得
-export function getplacesByArea(
+export async function getplacesByArea(
   countryCode: string,
   areaName: string,
-): Array<place & { category: string }> {
-  return getAllplaces(countryCode).filter((s) => s.area === areaName);
+): Promise<Array<place & { category: string }>> {
+  const allPlaces = await getAllplaces(countryCode);
+  return allPlaces.filter((s) => s.area === areaName);
 }
 
 // 座標付きスポットのみ取得（地図表示用）
-export function getGeoplaces(
+export async function getGeoplaces(
   countryCode: string,
-): Array<place & { category: string; lat: number; lng: number }> {
-  return getAllplaces(countryCode).filter(
+): Promise<Array<place & { category: string; lat: number; lng: number }>> {
+  const allPlaces = await getAllplaces(countryCode);
+  return allPlaces.filter(
     (s): s is place & { category: string; lat: number; lng: number } =>
       typeof s.lat === "number" && typeof s.lng === "number",
   );

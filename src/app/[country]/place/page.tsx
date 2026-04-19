@@ -112,13 +112,13 @@ export default async function placeIndexPage({
   const country = getCountry(code);
   if (!country) notFound();
 
-  const counts = getCategoryCounts(code);
-  const groupCounts = getGroupCounts(code);
+  const counts = await getCategoryCounts(code);
+  const groupCounts = await getGroupCounts(code);
   const totalplaces = Object.values(counts).reduce((a, b) => a + b, 0);
   const articles = getArticlesByCountry(code);
-  const areas = getAllAreas(code).slice(0, 12);
+  const areas = (await getAllAreas(code)).slice(0, 12);
 
-  const allplaces = getAllplaces(code);
+  const allplaces = await getAllplaces(code);
   const searchableplaces = allplaces.map((place) => ({
     slug: place.slug,
     name: place.name,

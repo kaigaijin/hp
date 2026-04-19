@@ -51,7 +51,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     });
 
     // スポット カテゴリ一覧
-    const places = getAllplaces(country.code);
+    const places = await getAllplaces(country.code);
     if (places.length > 0) {
       entries.push({
         url: `${BASE_URL}/${country.code}/place`,

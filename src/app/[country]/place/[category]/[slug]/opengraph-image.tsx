@@ -18,7 +18,7 @@ export default async function OgImage({
   const { country: code, category: catSlug, slug } = await params;
   const country = getCountry(code);
   const category = getCategory(catSlug);
-  const place = getplace(code, catSlug, slug);
+  const place = await getplace(code, catSlug, slug);
   const displayName = place?.name_ja ?? place?.name ?? "スポット";
   const area = place?.area ?? "";
   const countryName = country?.name ?? "";

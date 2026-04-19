@@ -145,7 +145,7 @@ export default async function CategoryPage({
   // グループスラッグの場合 → サブカテゴリ一覧を表示
   const group = getCategoryGroup(slug);
   if (group) {
-    const counts = getCategoryCounts(code);
+    const counts = await getCategoryCounts(code);
     const groupTotal = group.categories.reduce(
       (sum, cat) => sum + (counts[cat] ?? 0),
       0,
@@ -160,23 +160,29 @@ export default async function CategoryPage({
 
     // 全子カテゴリのスポットを集約（日次キャッシュ）
     const getGroupPlacesCached = unstable_cache(
-      async () => group.categories.flatMap((catSlug) => {
-        const cat = categories.find((c) => c.slug === catSlug);
-        return getplacesByCategory(code, catSlug).map((place) => ({
-          slug: place.slug,
-          name: place.name,
-          name_ja: place.name_ja,
-          area: place.area,
-          description: place.description,
-          tags: place.tags,
-          phone: place.phone,
-          website: place.website,
-          status: place.status,
-          categorySlug: catSlug,
-          categoryName: cat?.name ?? catSlug,
-          images: (place as Record<string, unknown>).images as string[] | undefined,
-        }));
-      }),
+      async () => {
+        const results = await Promise.all(
+          group.categories.map(async (catSlug) => {
+            const cat = categories.find((c) => c.slug === catSlug);
+            const places = await getplacesByCategory(code, catSlug);
+            return places.map((place) => ({
+              slug: place.slug,
+              name: place.name,
+              name_ja: place.name_ja,
+              area: place.area,
+              description: place.description,
+              tags: place.tags,
+              phone: place.phone,
+              website: place.website,
+              status: place.status,
+              categorySlug: catSlug,
+              categoryName: cat?.name ?? catSlug,
+              images: (place as Record<string, unknown>).images as string[] | undefined,
+            }));
+          })
+        );
+        return results.flat();
+      },
       [`group-places-${code}-${slug}`],
       { revalidate: 86400 }, // 24時間キャッシュ
     );
@@ -304,7 +310,10 @@ export default async function CategoryPage({
 
   // データ取得を日次キャッシュ（クローラー対策）
   const getPlacesCached = unstable_cache(
-    async () => getplacesByCategory(code, catSlug).map((p) => ({ ...p, categorySlug: catSlug })),
+    async () => {
+      const places = await getplacesByCategory(code, catSlug);
+      return places.map((p) => ({ ...p, categorySlug: catSlug }));
+    },
     [`cat-places-${code}-${catSlug}`],
     { revalidate: 86400 },
   );

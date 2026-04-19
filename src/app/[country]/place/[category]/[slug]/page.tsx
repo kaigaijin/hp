@@ -93,7 +93,7 @@ export async function generateMetadata({
   const { country: code, category: catSlug, slug } = await params;
   const country = getCountry(code);
   const category = getCategory(catSlug);
-  const place = getplace(code, catSlug, slug);
+  const place = await getplace(code, catSlug, slug);
   if (!country || !category || !place) return {};
 
   const displayName = place.name_ja ?? place.name;
@@ -128,15 +128,17 @@ export default async function placeDetailPage({
   const { country: code, category: catSlug, slug } = await params;
   const country = getCountry(code);
   const category = getCategory(catSlug);
-  const place = getplace(code, catSlug, slug);
+  const [place, sameCategoryAll] = await Promise.all([
+    getplace(code, catSlug, slug),
+    getplacesByCategory(code, catSlug),
+  ]);
   if (!country || !category || !place) notFound();
 
   const displayName = place.name_ja ?? place.name;
   const placeStatus = place.status ?? "unverified";
   const theme = getCategoryTheme(catSlug);
 
-  const sameCategory = getplacesByCategory(code, catSlug)
-    .filter((s) => s.slug !== slug);
+  const sameCategory = sameCategoryAll.filter((s) => s.slug !== slug);
 
   // SSRでレビュースコアを取得（AggregateRating構造化データ用）
   const supabaseUrl =

@@ -53,8 +53,8 @@ export default async function MapPage({
   const country = getCountry(code);
   if (!country) notFound();
 
-  const geoplaces = getGeoplaces(code);
-  const allplaces = getAllplaces(code);
+  const geoplaces = await getGeoplaces(code);
+  const allplaces = await getAllplaces(code);
 
   // 地図表示用データ
   const mapplaces = geoplaces.map((s) => ({

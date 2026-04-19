@@ -7,8 +7,8 @@ export const metadata = {
   robots: { index: false, follow: false },
 };
 
-export default function ReviewPage() {
-  const places = getNeedsReviewplaces();
+export default async function ReviewPage() {
+  const places = await getNeedsReviewplaces();
 
   return (
     <div className="min-h-screen bg-gray-50">

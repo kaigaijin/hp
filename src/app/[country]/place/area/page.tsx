@@ -89,7 +89,7 @@ export default async function AreaIndexPage({
   const country = getCountry(code);
   if (!country) notFound();
 
-  const areas = getAllAreas(code);
+  const areas = await getAllAreas(code);
   const totalplaces = areas.reduce((sum, a) => sum + a.count, 0);
 
   // ゾーン別にグルーピング（SGのみ。他の国はフラット表示）

@@ -60,7 +60,7 @@ export default async function ColumnIndexPage({
   if (!country && !fallback) notFound();
 
   const articles = getArticlesByCountry(code);
-  const categoryCounts = getCategoryCounts(code);
+  const categoryCounts = await getCategoryCounts(code);
   const totalplaces = Object.values(categoryCounts).reduce((a, b) => a + b, 0);
 
   const groupCounts = categoryGroups.map((group) => ({

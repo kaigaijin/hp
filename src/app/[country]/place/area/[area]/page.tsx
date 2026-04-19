@@ -21,9 +21,9 @@ import { rankPlaces, parseProfile } from "@/lib/rank-places";
 export const dynamicParams = true;
 export const revalidate = false; // 一度生成したらデプロイまで再生成しない（ISR Write削減）
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
   // SG のエリアのみ静的生成（他の国はオンデマンド）
-  const sgAreas = getAllAreas("sg");
+  const sgAreas = await getAllAreas("sg");
   return sgAreas.map((a) => ({ country: "sg", area: a.slug }));
 }
 
@@ -32,9 +32,9 @@ export function generateMetadata({
 }: {
   params: Promise<{ country: string; area: string }>;
 }) {
-  return params.then(({ country: code, area: areaSlug }) => {
+  return params.then(async ({ country: code, area: areaSlug }) => {
     const country = getCountry(code);
-    const areaName = getAreaNameBySlug(code, areaSlug);
+    const areaName = await getAreaNameBySlug(code, areaSlug);
     if (!country || !areaName) return {};
     return {
       title: `${areaName}エリアのスポット — ${country.name} KAIプレイス`,
@@ -60,10 +60,10 @@ export default async function AreaDetailPage({
   const country = getCountry(code);
   if (!country) notFound();
 
-  const areaName = getAreaNameBySlug(code, areaSlug);
+  const areaName = await getAreaNameBySlug(code, areaSlug);
   if (!areaName) notFound();
 
-  const places = getplacesByArea(code, areaName);
+  const places = await getplacesByArea(code, areaName);
   if (places.length === 0) notFound();
 
   // Cookieからユーザープロファイルを取得（パーソナライズ用）
