@@ -1,4 +1,4 @@
-import { supabaseServer } from "./supabase-server";
+import { getSupabaseServer } from "./supabase-server";
 
 // カテゴリ定義
 export type CategoryDef = {
@@ -283,7 +283,7 @@ export async function getplacesByCategory(
   countryCode: string,
   categorySlug: string,
 ): Promise<place[]> {
-  const { data, error } = await supabaseServer
+  const { data, error } = await getSupabaseServer()
     .from("places")
     .select("*")
     .eq("country_code", countryCode)
@@ -300,7 +300,7 @@ export async function getplace(
   categorySlug: string,
   placeSlug: string,
 ): Promise<place | undefined> {
-  const { data, error } = await supabaseServer
+  const { data, error } = await getSupabaseServer()
     .from("places")
     .select("*")
     .eq("country_code", countryCode)
@@ -315,7 +315,7 @@ export async function getplace(
 export async function getCategoryCounts(
   countryCode: string,
 ): Promise<Record<string, number>> {
-  const { data, error } = await supabaseServer
+  const { data, error } = await getSupabaseServer()
     .from("places")
     .select("category")
     .eq("country_code", countryCode)
@@ -345,7 +345,7 @@ export async function getGroupCounts(countryCode: string): Promise<Record<string
 export async function getNeedsReviewplaces(): Promise<Array<
   place & { country: string; category: string; review_note?: string; japanese_staff?: boolean | null }
 >> {
-  const { data, error } = await supabaseServer
+  const { data, error } = await getSupabaseServer()
     .from("places")
     .select("*")
     .eq("needs_review", true)
@@ -360,7 +360,7 @@ export async function getNeedsReviewplaces(): Promise<Array<
 export async function getAllplaces(
   countryCode: string,
 ): Promise<Array<place & { category: string }>> {
-  const { data, error } = await supabaseServer
+  const { data, error } = await getSupabaseServer()
     .from("places")
     .select("*")
     .eq("country_code", countryCode)
