@@ -11,7 +11,7 @@
 - [x] batch02: fr/restaurant追加（現145件→150件）+ fr/cafe追加（現11件→13件）+ fr/0件カテゴリ（coworking1件/pharmacy1件/cleaning0件）
 - [ ] batch03: ca/restaurant追加（現175件）+ ca/cafe追加（現13件）+ ca/0件カテゴリ（coworking/fitness/healthcare/pharmacy）
 - [ ] batch04: ch/restaurant追加（現41件）+ ch/cafe追加（現11件）+ ch/0件カテゴリ（dental/clinic/coworking/fitness）
-- [ ] batch05: nl/restaurant追加（現44件）+ nl/cafe追加（現11件）
+- [x] batch05: nl/restaurant追加（現44件→51件）+ nl/cafe追加（現11件→13件）
 - [ ] batch06: ph/restaurant追加（現43件）+ ph/cafe追加（現7件）
 
 ## 共通ルール: @REVIEW_RULES.md
