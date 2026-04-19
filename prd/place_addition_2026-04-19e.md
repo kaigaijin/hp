@@ -8,7 +8,7 @@
 
 ## バッチ
 
-- [ ] batch01: ca/dental(現1件)+ ca/legal(現1件)+ ca/real-estate(現2件)+ ca/education(現2件) カナダ超薄いカテゴリ
+- [x] batch01: ca/dental(現1件→3件)+ ca/legal(現1件・追加なし)+ ca/real-estate(現2件→4件)+ ca/education(現2件→4件) カナダ超薄いカテゴリ
 - [x] batch02: ca/clinic(現5件→6件)+ ca/nail-esthetic(現3件→5件)+ ca/fitness(現3件→4件)+ ca/insurance(現2件→4件) カナダ薄いカテゴリ
 - [x] batch03: fr/pharmacy(現1件)+ fr/nail-esthetic(現2件)+ fr/coworking(現1件)+ fr/beauty(現4件→8件) フランス薄いカテゴリ
 - [ ] batch04: nl/dental(現2件)+ nl/nail-esthetic(現1件)+ nl/real-estate(現2件)+ nl/beauty(現6件) オランダ薄いカテゴリ
