@@ -145,7 +145,12 @@ export default async function CategoryPage({
   // グループスラッグの場合 → サブカテゴリ一覧を表示
   const group = getCategoryGroup(slug);
   if (group) {
-    const counts = await getCategoryCounts(code);
+    let counts: Record<string, number> = {};
+    try {
+      counts = await getCategoryCounts(code);
+    } catch {
+      // Supabase接続失敗時は空データで継続（5xx防止）
+    }
     const groupTotal = group.categories.reduce(
       (sum, cat) => sum + (counts[cat] ?? 0),
       0,
@@ -187,7 +192,12 @@ export default async function CategoryPage({
       { revalidate: 86400 }, // 24時間キャッシュ
     );
 
-    const rawGroupplaces = await getGroupPlacesCached();
+    let rawGroupplaces: Awaited<ReturnType<typeof getGroupPlacesCached>> = [];
+    try {
+      rawGroupplaces = await getGroupPlacesCached();
+    } catch {
+      // Supabase接続失敗時は空リストで継続（5xx防止）
+    }
 
     // Cookieあり: パーソナライズソート / なし: 日次シードソート（キャッシュ効果最大化）
     const groupplaces = hasProfile
@@ -317,7 +327,12 @@ export default async function CategoryPage({
     [`cat-places-${code}-${catSlug}`],
     { revalidate: 86400 },
   );
-  const rawPlaces = await getPlacesCached();
+  let rawPlaces: Awaited<ReturnType<typeof getPlacesCached>> = [];
+  try {
+    rawPlaces = await getPlacesCached();
+  } catch {
+    // Supabase接続失敗時は空リストで継続（5xx防止）
+  }
 
   // Cookieあり: パーソナライズソート / なし: 日次シードソート（キャッシュ効果最大化）
   const places = hasProfile

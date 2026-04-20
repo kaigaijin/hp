@@ -85,6 +85,27 @@ const categoryIconMap: Record<string, (size: number) => React.ReactNode> = {
 // ISR: 1時間ごとに再生成
 export const revalidate = 3600;
 
+// ビルド時に全プレイスを静的生成（Googlebotクロール時の5xx防止）
+export async function generateStaticParams(): Promise<Params[]> {
+  const { getAllplaces } = await import("@/lib/directory");
+  const params: Params[] = [];
+  for (const country of countries) {
+    try {
+      const places = await getAllplaces(country.code);
+      for (const place of places) {
+        params.push({
+          country: country.code,
+          category: place.category,
+          slug: place.slug,
+        });
+      }
+    } catch {
+      // ビルド時にSupabase接続失敗しても他の国は続行
+    }
+  }
+  return params;
+}
+
 export async function generateMetadata({
   params,
 }: {

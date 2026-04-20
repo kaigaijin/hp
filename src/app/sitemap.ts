@@ -19,7 +19,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   // 固定ページ
   entries.push({
-    url: `${BASE_URL}/confessions`,
+    url: `${BASE_URL}/ask`,
     changeFrequency: "daily",
     priority: 0.8,
   });
@@ -42,42 +42,45 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.8,
   });
 
-  // 国ページ
-  for (const country of countries) {
+  // 国ページ（overseas含む）
+  const allCountryCodes = [...countries.map((c) => c.code), "overseas"];
+  for (const code of allCountryCodes) {
     entries.push({
-      url: `${BASE_URL}/${country.code}/column`,
+      url: `${BASE_URL}/${code}/column`,
       changeFrequency: "weekly",
       priority: 0.8,
     });
 
-    // スポット カテゴリ一覧
-    const places = await getAllplaces(country.code);
-    if (places.length > 0) {
-      entries.push({
-        url: `${BASE_URL}/${country.code}/place`,
-        changeFrequency: "weekly",
-        priority: 0.7,
-      });
+    // スポット カテゴリ一覧（overseas はプレイスなしなのでスキップ）
+    if (code !== "overseas") {
+      const places = await getAllplaces(code);
+      if (places.length > 0) {
+        entries.push({
+          url: `${BASE_URL}/${code}/place`,
+          changeFrequency: "weekly",
+          priority: 0.7,
+        });
 
-      // スポット カテゴリ別一覧（3件以上のカテゴリのみ）
-      for (const cat of categories) {
-        const catplaces = places.filter((s) => s.category === cat.slug);
-        if (catplaces.length >= 3) {
+        // スポット カテゴリ別一覧（3件以上のカテゴリのみ）
+        for (const cat of categories) {
+          const catplaces = places.filter((s) => s.category === cat.slug);
+          if (catplaces.length >= 3) {
+            entries.push({
+              url: `${BASE_URL}/${code}/place/${cat.slug}`,
+              changeFrequency: "weekly",
+              priority: 0.6,
+            });
+          }
+        }
+
+        // スポット 個別ページ
+        for (const place of places) {
           entries.push({
-            url: `${BASE_URL}/${country.code}/place/${cat.slug}`,
-            changeFrequency: "weekly",
-            priority: 0.6,
+            url: `${BASE_URL}/${code}/place/${place.category}/${place.slug}`,
+            changeFrequency: "monthly",
+            priority: 0.5,
           });
         }
-      }
-
-      // スポット 個別ページ
-      for (const place of places) {
-        entries.push({
-          url: `${BASE_URL}/${country.code}/place/${place.category}/${place.slug}`,
-          changeFrequency: "monthly",
-          priority: 0.5,
-        });
       }
     }
   }
