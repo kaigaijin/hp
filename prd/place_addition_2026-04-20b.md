@@ -13,7 +13,7 @@
 - [ ] batch03: in/insurance(3)+ in/bank(4)+ in/moving(3)+ in/travel(3)+ in/beauty(4) インド薄いカテゴリ
 - [ ] batch04: in/accounting(3)+ in/legal(3)+ in/real-estate(2)+ in/education(3)+ in/pet(2) インド士業・その他
 - [ ] batch05: es/moving(1)+ es/accounting(2)+ it/accounting(1)+ it/moving(2)+ it/legal(2)+ it/insurance(3)+ it/travel(2) スペイン・イタリア士業
-- [ ] batch06: pt/legal(2)+ pt/insurance(3)+ pt/bank(2)+ pt/travel(2)+ pt/moving(0)+ kr/cleaning(6)+ tw/cleaning(7)+ tw/pet(6) ポルトガル・韓国・台湾
+- [x] batch06: pt/legal(2)+ pt/insurance(3)+ pt/bank(2)+ pt/travel(2)+ pt/moving(0)+ kr/cleaning(6)+ tw/cleaning(7)+ tw/pet(6) ポルトガル・韓国・台湾（追加0件: 実在確認できる日系サービスなし）
 
 ## 共通ルール: @REVIEW_RULES.md
 ## 追加先: Supabase placesテーブル（country_code + category + slug でUPSERT）
