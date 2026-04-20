@@ -8,7 +8,7 @@
 
 ## バッチ
 
-- [ ] batch01: cn/insurance(3)+ cn/bank(3)+ cn/moving(2)+ cn/travel(3)+ cn/pharmacy(2) 中国の専門サービス薄いカテゴリ
+- [x] batch01: cn/insurance(3→4)+ cn/bank(3)+ cn/moving(2→3)+ cn/travel(3→4)+ cn/pharmacy(2) 中国の専門サービス薄いカテゴリ（+3件: 損保ジャパン上海・日本通運上海・旅悟空トラベル）
 - [ ] batch02: cn/coworking(2)+ cn/pet(2)+ cn/car(2)+ cn/cleaning(1)+ cn/repair(3) 中国のライフスタイル薄いカテゴリ
 - [ ] batch03: in/insurance(3)+ in/bank(4)+ in/moving(3)+ in/travel(3)+ in/beauty(4) インド薄いカテゴリ
 - [ ] batch04: in/accounting(3)+ in/legal(3)+ in/real-estate(2)+ in/education(3)+ in/pet(2) インド士業・その他
