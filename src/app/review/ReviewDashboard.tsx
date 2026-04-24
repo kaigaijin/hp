@@ -113,21 +113,17 @@ export function ReviewDashboard({ password }: { password: string }) {
   }, [password, filter, countryFilter, categoryFilter]);
 
   const fetchStats = useCallback(async () => {
-    const [allRes, approvedRes, rejectedRes] = await Promise.all([
-      fetch("/api/review?filter=all", { headers: { "x-review-password": password } }),
-      fetch("/api/review?filter=approved", { headers: { "x-review-password": password } }),
-      fetch("/api/review?filter=rejected", { headers: { "x-review-password": password } }),
-    ]);
-    if (allRes.ok && approvedRes.ok && rejectedRes.ok) {
-      const [allData, approvedData, rejectedData] = await Promise.all([
-        allRes.json(),
-        approvedRes.json(),
-        rejectedRes.json(),
-      ]);
-      const total = allData.places.length;
-      const approved = approvedData.places.length;
-      const rejected = rejectedData.places.length;
-      setStats({ total, reviewed: approved + rejected, approved, rejected });
+    const res = await fetch("/api/review?mode=count", {
+      headers: { "x-review-password": password },
+    });
+    if (res.ok) {
+      const data = await res.json();
+      setStats({
+        total: data.total,
+        reviewed: data.approved + data.rejected,
+        approved: data.approved,
+        rejected: data.rejected,
+      });
     }
   }, [password]);
 
@@ -347,6 +343,15 @@ function PlaceCard({
 
         {/* リンク */}
         <div className="flex flex-col gap-1 shrink-0">
+          <a
+            href={`/${place.country_code}/place/${place.category}/${place.slug}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1 text-xs text-gray-700 hover:text-gray-900 bg-gray-100 hover:bg-gray-200 px-2.5 py-1.5 rounded-lg transition-colors"
+          >
+            <ExternalLink size={12} />
+            サイト上
+          </a>
           {place.website && (
             <a
               href={place.website}

@@ -12,45 +12,73 @@ function checkAuth(req: NextRequest): boolean {
   return auth === REVIEW_PASSWORD;
 }
 
-// GET /api/review — 全プレイスを取得（フィルタ対応）
+// GET /api/review — 全プレイスを取得（フィルタ対応、1000件制限回避）
+// ?mode=count で件数のみ返す（stats用）
 export async function GET(req: NextRequest) {
   if (!checkAuth(req)) return unauthorized();
 
   const { searchParams } = new URL(req.url);
-  const filter = searchParams.get("filter") || "unreviewed"; // unreviewed | approved | rejected | all
+  const mode = searchParams.get("mode");
+  const filter = searchParams.get("filter") || "unreviewed";
   const country = searchParams.get("country");
   const category = searchParams.get("category");
 
   const supabase = getSupabaseServer();
-  let query = supabase
-    .from("places")
-    .select("id, slug, name, name_ja, country_code, category, area, address, website, source_url, description, tags, hours, status, phone, human_reviewed, human_review_result, human_reviewed_at, needs_review")
-    .neq("status", "deleted")
-    .order("country_code")
-    .order("category")
-    .order("name");
 
-  if (filter === "unreviewed") {
-    query = query.eq("human_reviewed", false);
-  } else if (filter === "approved") {
-    query = query.eq("human_review_result", "approved");
-  } else if (filter === "rejected") {
-    query = query.eq("human_review_result", "rejected");
+  // countモード: 全ステータスの件数を一括返却
+  if (mode === "count") {
+    const [totalRes, approvedRes, rejectedRes] = await Promise.all([
+      supabase.from("places").select("id", { count: "exact", head: true }).neq("status", "deleted"),
+      supabase.from("places").select("id", { count: "exact", head: true }).neq("status", "deleted").eq("human_review_result", "approved"),
+      supabase.from("places").select("id", { count: "exact", head: true }).neq("status", "deleted").eq("human_review_result", "rejected"),
+    ]);
+    const total = totalRes.count ?? 0;
+    const approved = approvedRes.count ?? 0;
+    const rejected = rejectedRes.count ?? 0;
+    return NextResponse.json({ total, approved, rejected, unreviewed: total - approved - rejected });
   }
 
-  if (country) {
-    query = query.eq("country_code", country);
-  }
-  if (category) {
-    query = query.eq("category", category);
+  // 通常モード: ページネーションで全件取得
+  const PAGE_SIZE = 1000;
+  const allData: Record<string, unknown>[] = [];
+  let from = 0;
+
+  while (true) {
+    let query = supabase
+      .from("places")
+      .select("id, slug, name, name_ja, country_code, category, area, address, website, source_url, description, tags, hours, status, phone, human_reviewed, human_review_result, human_reviewed_at, needs_review")
+      .neq("status", "deleted")
+      .order("country_code")
+      .order("category")
+      .order("name")
+      .range(from, from + PAGE_SIZE - 1);
+
+    if (filter === "unreviewed") {
+      query = query.eq("human_reviewed", false);
+    } else if (filter === "approved") {
+      query = query.eq("human_review_result", "approved");
+    } else if (filter === "rejected") {
+      query = query.eq("human_review_result", "rejected");
+    }
+
+    if (country) {
+      query = query.eq("country_code", country);
+    }
+    if (category) {
+      query = query.eq("category", category);
+    }
+
+    const { data, error } = await query;
+    if (error) {
+      return NextResponse.json({ error: error.message }, { status: 500 });
+    }
+    if (!data || data.length === 0) break;
+    allData.push(...data);
+    if (data.length < PAGE_SIZE) break;
+    from += PAGE_SIZE;
   }
 
-  const { data, error } = await query;
-  if (error) {
-    return NextResponse.json({ error: error.message }, { status: 500 });
-  }
-
-  return NextResponse.json({ places: data ?? [] });
+  return NextResponse.json({ places: allData });
 }
 
 // POST /api/review — プレイスを承認/却下
