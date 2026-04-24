@@ -107,80 +107,80 @@ async function findPlace(
 }
 
 // 既存スポットをPlaces APIデータで補完する
-function enrichplace(place: placeEntry, place: PlaceResult): placeEntry {
-  const jaDisplayName = place.displayName?.text ?? null;
+function enrichplace(entry: placeEntry, apiResult: PlaceResult): placeEntry {
+  const jaDisplayName = apiResult.displayName?.text ?? null;
 
   // 座標
-  if (!place.lat && place.location?.latitude) {
-    place.lat = Math.round(place.location.latitude * 10000) / 10000;
+  if (!entry.lat && apiResult.location?.latitude) {
+    entry.lat = Math.round(apiResult.location.latitude * 10000) / 10000;
   }
-  if (!place.lng && place.location?.longitude) {
-    place.lng = Math.round(place.location.longitude * 10000) / 10000;
+  if (!entry.lng && apiResult.location?.longitude) {
+    entry.lng = Math.round(apiResult.location.longitude * 10000) / 10000;
   }
 
   // 営業時間（currentOpeningHours優先、なければregularOpeningHours）
-  if (!place.hours) {
+  if (!entry.hours) {
     const weekdays =
-      place.currentOpeningHours?.weekdayDescriptions ??
-      place.regularOpeningHours?.weekdayDescriptions;
+      apiResult.currentOpeningHours?.weekdayDescriptions ??
+      apiResult.regularOpeningHours?.weekdayDescriptions;
     if (weekdays) {
-      place.hours = weekdays.join(" / ");
+      entry.hours = weekdays.join(" / ");
     }
   }
 
   // 電話番号（国際形式）
-  if (!place.phone && place.internationalPhoneNumber) {
-    place.phone = place.internationalPhoneNumber.replace(/[\s-]/g, "");
+  if (!entry.phone && apiResult.internationalPhoneNumber) {
+    entry.phone = apiResult.internationalPhoneNumber.replace(/[\s-]/g, "");
   }
 
   // 電話番号（現地形式）
-  if (!place.phone_local && place.nationalPhoneNumber) {
-    place.phone_local = place.nationalPhoneNumber;
+  if (!entry.phone_local && apiResult.nationalPhoneNumber) {
+    entry.phone_local = apiResult.nationalPhoneNumber;
   }
 
   // 住所
-  if (!place.address && place.formattedAddress) {
-    place.address = place.formattedAddress;
+  if (!entry.address && apiResult.formattedAddress) {
+    entry.address = apiResult.formattedAddress;
   }
 
   // Webサイト
-  if (!place.website && place.websiteUri) {
-    place.website = place.websiteUri;
+  if (!entry.website && apiResult.websiteUri) {
+    entry.website = apiResult.websiteUri;
   }
 
   // 日本語名（APIから取得できた場合、既存のname_jaが空なら補完）
-  if (!place.name_ja && jaDisplayName && jaDisplayName !== place.name) {
-    place.name_ja = jaDisplayName;
+  if (!entry.name_ja && jaDisplayName && jaDisplayName !== entry.name) {
+    entry.name_ja = jaDisplayName;
   }
 
   // Googleレーティング（保存のみ・表示しない）
-  if (place.rating === undefined || place.rating === null) {
-    place.rating = place.rating ?? null;
+  if (entry.rating === undefined || entry.rating === null) {
+    entry.rating = apiResult.rating ?? null;
   }
 
   // 口コミ数（保存のみ・表示しない）
-  if (place.user_rating_count === undefined || place.user_rating_count === null) {
-    place.user_rating_count = place.userRatingCount ?? null;
+  if (entry.user_rating_count === undefined || entry.user_rating_count === null) {
+    entry.user_rating_count = apiResult.userRatingCount ?? null;
   }
 
   // 価格帯（保存のみ・表示しない）
-  if (place.price_level === undefined || place.price_level === null) {
-    place.price_level = place.priceLevel
-      ? (PRICE_LEVEL_MAP[place.priceLevel] ?? null)
+  if (entry.price_level === undefined || entry.price_level === null) {
+    entry.price_level = apiResult.priceLevel
+      ? (PRICE_LEVEL_MAP[apiResult.priceLevel] ?? null)
       : null;
   }
 
   // フォト参照キー（保存のみ・表示しない）
-  if (!place.photo_name && place.photos?.[0]?.name) {
-    place.photo_name = place.photos[0].name;
+  if (!entry.photo_name && apiResult.photos?.[0]?.name) {
+    entry.photo_name = apiResult.photos[0].name;
   }
 
   // place_id・source・last_verified を更新
-  place.place_id = place.id;
-  place.source = "google_maps";
-  place.last_verified = TODAY;
+  entry.place_id = apiResult.id;
+  entry.source = "google_maps";
+  entry.last_verified = TODAY;
 
-  return place;
+  return entry;
 }
 
 async function enrichCategory(
@@ -210,25 +210,25 @@ async function enrichCategory(
       break;
     }
 
-    const place = await findPlace(place.name, place.area, countryConfig);
+    const apiResult = await findPlace(place.name, place.area, countryConfig);
     await sleep(DELAY_MS);
     remaining.count--;
 
-    if (!place) {
+    if (!apiResult) {
       console.log(`    ✗ ${place.name} — API検索失敗`);
       failed++;
       continue;
     }
 
     // 既に同じplace_idが存在する場合はスキップ（重複防止）
-    const duplicate = places.find((s) => s.place_id === place.id && s.slug !== place.slug);
+    const duplicate = places.find((s) => s.place_id === apiResult.id && s.slug !== place.slug);
     if (duplicate) {
       console.log(`    → ${place.name} — place_id重複（${duplicate.slug}）、スキップ`);
       failed++;
       continue;
     }
 
-    enrichplace(place, place);
+    enrichplace(place, apiResult);
     enriched++;
     console.log(`    ✓ ${place.name} → place_id: ${place.place_id}${place.name_ja ? ` / ${place.name_ja}` : ""}`);
   }
