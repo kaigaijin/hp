@@ -38,47 +38,54 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ total, approved, rejected, unreviewed: total - approved - rejected });
   }
 
-  // 通常モード: ページネーションで全件取得
-  const PAGE_SIZE = 1000;
-  const allData: Record<string, unknown>[] = [];
-  let from = 0;
+  const page = parseInt(searchParams.get("page") || "1", 10);
+  const pageSize = parseInt(searchParams.get("pageSize") || "50", 10);
+  const from = (page - 1) * pageSize;
 
-  while (true) {
-    let query = supabase
-      .from("places")
-      .select("id, slug, name, name_ja, country_code, category, area, address, website, source_url, description, tags, hours, status, phone, human_reviewed, human_review_result, human_reviewed_at, needs_review")
-      .neq("status", "deleted")
-      .order("country_code")
-      .order("category")
-      .order("name")
-      .range(from, from + PAGE_SIZE - 1);
+  let countQuery = supabase
+    .from("places")
+    .select("id", { count: "exact", head: true })
+    .neq("status", "deleted");
 
-    if (filter === "unreviewed") {
-      query = query.eq("human_reviewed", false);
-    } else if (filter === "approved") {
-      query = query.eq("human_review_result", "approved");
-    } else if (filter === "rejected") {
-      query = query.eq("human_review_result", "rejected");
-    }
+  let query = supabase
+    .from("places")
+    .select("id, slug, name, name_ja, country_code, category, area, address, website, source_url, description, tags, hours, status, phone, human_reviewed, human_review_result, human_reviewed_at, needs_review")
+    .neq("status", "deleted")
+    .order("country_code")
+    .order("category")
+    .order("name")
+    .range(from, from + pageSize - 1);
 
-    if (country) {
-      query = query.eq("country_code", country);
-    }
-    if (category) {
-      query = query.eq("category", category);
-    }
-
-    const { data, error } = await query;
-    if (error) {
-      return NextResponse.json({ error: error.message }, { status: 500 });
-    }
-    if (!data || data.length === 0) break;
-    allData.push(...data);
-    if (data.length < PAGE_SIZE) break;
-    from += PAGE_SIZE;
+  if (filter === "unreviewed") {
+    query = query.eq("human_reviewed", false);
+    countQuery = countQuery.eq("human_reviewed", false);
+  } else if (filter === "approved") {
+    query = query.eq("human_review_result", "approved");
+    countQuery = countQuery.eq("human_review_result", "approved");
+  } else if (filter === "rejected") {
+    query = query.eq("human_review_result", "rejected");
+    countQuery = countQuery.eq("human_review_result", "rejected");
   }
 
-  return NextResponse.json({ places: allData });
+  if (country) {
+    query = query.eq("country_code", country);
+    countQuery = countQuery.eq("country_code", country);
+  }
+  if (category) {
+    query = query.eq("category", category);
+    countQuery = countQuery.eq("category", category);
+  }
+
+  const [{ data, error }, { count }] = await Promise.all([query, countQuery]);
+  if (error) {
+    return NextResponse.json({ error: error.message }, { status: 500 });
+  }
+
+  const totalCount = count ?? 0;
+  return NextResponse.json({
+    places: data ?? [],
+    pagination: { page, pageSize, total: totalCount, totalPages: Math.ceil(totalCount / pageSize) },
+  });
 }
 
 // POST /api/review — プレイスを承認/却下

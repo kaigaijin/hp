@@ -10,6 +10,8 @@ import {
   Filter,
   Loader2,
   ChevronDown,
+  ChevronLeft,
+  ChevronRight,
 } from "lucide-react";
 
 type Place = {
@@ -95,10 +97,13 @@ export function ReviewDashboard({ password }: { password: string }) {
   const [categoryFilter, setCategoryFilter] = useState("");
   const [actionLoading, setActionLoading] = useState<string | null>(null);
   const [stats, setStats] = useState({ total: 0, reviewed: 0, approved: 0, rejected: 0 });
+  const [page, setPage] = useState(1);
+  const [pagination, setPagination] = useState({ total: 0, totalPages: 1 });
+  const PAGE_SIZE = 50;
 
   const fetchPlaces = useCallback(async () => {
     setLoading(true);
-    const params = new URLSearchParams({ filter });
+    const params = new URLSearchParams({ filter, page: String(page), pageSize: String(PAGE_SIZE) });
     if (countryFilter) params.set("country", countryFilter);
     if (categoryFilter) params.set("category", categoryFilter);
 
@@ -108,9 +113,12 @@ export function ReviewDashboard({ password }: { password: string }) {
     if (res.ok) {
       const data = await res.json();
       setPlaces(data.places);
+      if (data.pagination) {
+        setPagination({ total: data.pagination.total, totalPages: data.pagination.totalPages });
+      }
     }
     setLoading(false);
-  }, [password, filter, countryFilter, categoryFilter]);
+  }, [password, filter, countryFilter, categoryFilter, page]);
 
   const fetchStats = useCallback(async () => {
     const res = await fetch("/api/review?mode=count", {
@@ -156,6 +164,10 @@ export function ReviewDashboard({ password }: { password: string }) {
     }
     setActionLoading(null);
   }
+
+  useEffect(() => {
+    setPage(1);
+  }, [filter, countryFilter, categoryFilter]);
 
   const countries = [...new Set(places.map((p) => p.country_code))].sort();
   const categoriesInView = [...new Set(places.map((p) => p.category))].sort();
@@ -258,7 +270,7 @@ export function ReviewDashboard({ password }: { password: string }) {
           </div>
 
           <span className="text-xs text-gray-400 ml-auto">
-            {loading ? "読込中..." : `${places.length}件表示`}
+            {loading ? "読込中..." : `${pagination.total}件中 ${(page - 1) * PAGE_SIZE + 1}〜${Math.min(page * PAGE_SIZE, pagination.total)}件`}
           </span>
         </div>
       </div>
@@ -280,16 +292,40 @@ export function ReviewDashboard({ password }: { password: string }) {
             </p>
           </div>
         ) : (
-          <div className="space-y-3">
-            {places.map((place) => (
-              <PlaceCard
-                key={place.id}
-                place={place}
-                isLoading={actionLoading === place.id}
-                onAction={(action) => handleAction(place.id, action)}
-              />
-            ))}
-          </div>
+          <>
+            <div className="space-y-3">
+              {places.map((place) => (
+                <PlaceCard
+                  key={place.id}
+                  place={place}
+                  isLoading={actionLoading === place.id}
+                  onAction={(action) => handleAction(place.id, action)}
+                />
+              ))}
+            </div>
+
+            {pagination.totalPages > 1 && (
+              <div className="flex items-center justify-center gap-2 mt-6 pb-4">
+                <button
+                  onClick={() => setPage((p) => Math.max(1, p - 1))}
+                  disabled={page <= 1}
+                  className="flex items-center gap-1 text-sm px-3 py-2 rounded-lg bg-white border border-gray-300 hover:bg-gray-50 disabled:opacity-30 disabled:cursor-not-allowed"
+                >
+                  <ChevronLeft size={16} /> 前
+                </button>
+                <span className="text-sm text-gray-600 px-3">
+                  {page} / {pagination.totalPages}
+                </span>
+                <button
+                  onClick={() => setPage((p) => Math.min(pagination.totalPages, p + 1))}
+                  disabled={page >= pagination.totalPages}
+                  className="flex items-center gap-1 text-sm px-3 py-2 rounded-lg bg-white border border-gray-300 hover:bg-gray-50 disabled:opacity-30 disabled:cursor-not-allowed"
+                >
+                  次 <ChevronRight size={16} />
+                </button>
+              </div>
+            )}
+          </>
         )}
       </div>
     </div>
