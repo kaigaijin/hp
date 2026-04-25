@@ -41,34 +41,24 @@ const PRICE_LEVEL_MAP: Record<string, string> = {
   PRICE_LEVEL_VERY_EXPENSIVE: "4",
 };
 
+// Pro SKUフィールドのみ（月5,000件無料）
+// Enterprise SKUフィールド（websiteUri, internationalPhoneNumber, currentOpeningHours等）を
+// 含めると月1,000件無料に減り、超過$35/1,000件で高額請求になる。絶対に追加しない
 const FIELD_MASK = [
   "places.id",
   "places.displayName",
   "places.formattedAddress",
-  "places.internationalPhoneNumber",
-  "places.nationalPhoneNumber",
-  "places.websiteUri",
-  "places.currentOpeningHours",
-  "places.regularOpeningHours",
   "places.location",
-  "places.priceLevel",
   "places.photos",
 ].join(",");
 
+// Pro SKUフィールドのみ
 interface PlaceResult {
   id: string;
   displayName?: { text: string; languageCode: string };
   formattedAddress?: string;
-  internationalPhoneNumber?: string;
-  nationalPhoneNumber?: string;
-  websiteUri?: string;
-  regularOpeningHours?: { weekdayDescriptions?: string[] };
-  currentOpeningHours?: { weekdayDescriptions?: string[] };
   location?: { latitude: number; longitude: number };
-  priceLevel?: string;
   photos?: { name: string }[];
-  rating?: number;
-  userRatingCount?: number;
 }
 
 type PlaceRow = {
@@ -118,6 +108,7 @@ async function searchPlace(name: string, area: string | null, countryCode: strin
   return (data.places ?? [])[0] ?? null;
 }
 
+// Pro SKUフィールドのみで更新（lat/lng/place_id/address/name_ja）
 function buildUpdateData(row: PlaceRow, api: PlaceResult): Record<string, unknown> {
   const update: Record<string, unknown> = {};
 
@@ -132,25 +123,8 @@ function buildUpdateData(row: PlaceRow, api: PlaceResult): Record<string, unknow
     update.place_id = api.id;
   }
 
-  if (!row.phone && api.internationalPhoneNumber) {
-    update.phone = api.internationalPhoneNumber.replace(/[\s-]/g, "");
-  }
-
   if (!row.address && api.formattedAddress) {
     update.address = api.formattedAddress;
-  }
-
-  if (!row.website && api.websiteUri) {
-    update.website = api.websiteUri;
-  }
-
-  if (!row.hours) {
-    const weekdays =
-      api.currentOpeningHours?.weekdayDescriptions ??
-      api.regularOpeningHours?.weekdayDescriptions;
-    if (weekdays) {
-      update.hours = weekdays.join(" / ");
-    }
   }
 
   const jaName = api.displayName?.text ?? null;

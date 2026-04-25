@@ -77,19 +77,14 @@ async function findPlace(
     headers: {
       "Content-Type": "application/json",
       "X-Goog-Api-Key": GOOGLE_API_KEY,
-      // Pro SKU対象フィールドのみ指定（rating/userRatingCountはEnterprise SKUのため除外）
-      // Pro SKU: 月5,000件無料 / Enterprise SKU: 月1,000件無料
+      // Pro SKUフィールドのみ（月5,000件無料）
+      // Enterprise SKUフィールド（websiteUri, internationalPhoneNumber, currentOpeningHours等）を
+      // 含めると月1,000件無料に減り、超過$35/1,000件で高額請求になる。絶対に追加しない
       "X-Goog-FieldMask": [
         "places.id",
         "places.displayName",
         "places.formattedAddress",
-        "places.internationalPhoneNumber",
-        "places.nationalPhoneNumber",
-        "places.websiteUri",
-        "places.currentOpeningHours",
-        "places.regularOpeningHours",
         "places.location",
-        "places.priceLevel",
         "places.photos",
       ].join(","),
     },
