@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 import { countries } from "@/lib/countries";
 import { getAllArticles, getReturnArticles } from "@/lib/articles";
-import { categories, getAllplaces } from "@/lib/directory";
+import { categories, getAllplacesLight } from "@/lib/directory";
 import { JOB_INDUSTRIES, getAllJobs } from "@/lib/jobs";
 
 const BASE_URL = "https://kaigaijin.jp";
@@ -53,7 +53,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
     // スポット カテゴリ一覧（overseas はプレイスなしなのでスキップ）
     if (code !== "overseas") {
-      const places = await getAllplaces(code);
+      const places = await getAllplacesLight(code);
       if (places.length > 0) {
         entries.push({
           url: `${BASE_URL}/${code}/place`,
@@ -63,7 +63,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
         // スポット カテゴリ別一覧（3件以上のカテゴリのみ）
         for (const cat of categories) {
-          const catplaces = places.filter((s) => s.category === cat.slug);
+          const catplaces = places.filter((s) => (s.category ?? "") === cat.slug);
           if (catplaces.length >= 3) {
             entries.push({
               url: `${BASE_URL}/${code}/place/${cat.slug}`,
@@ -76,7 +76,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         // スポット 個別ページ
         for (const place of places) {
           entries.push({
-            url: `${BASE_URL}/${code}/place/${place.category}/${place.slug}`,
+            url: `${BASE_URL}/${code}/place/${place.category ?? ""}/${place.slug}`,
             changeFrequency: "monthly",
             priority: 0.5,
           });

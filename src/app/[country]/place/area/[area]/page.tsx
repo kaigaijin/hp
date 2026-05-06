@@ -1,6 +1,5 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { cookies } from "next/headers";
 import { unstable_cache } from "next/cache";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -16,7 +15,7 @@ import {
 } from "@/lib/directory";
 import { getCategoryTheme } from "@/lib/group-theme";
 import { ChevronRight, MapPin } from "lucide-react";
-import { rankPlaces, parseProfile } from "@/lib/rank-places";
+import { rankPlaces } from "@/lib/rank-places";
 
 export const dynamicParams = true;
 export const revalidate = false; // 一度生成したらデプロイまで再生成しない（ISR Write削減）
@@ -66,11 +65,7 @@ export default async function AreaDetailPage({
   const places = await getplacesByArea(code, areaName);
   if (places.length === 0) notFound();
 
-  // Cookieからユーザープロファイルを取得（パーソナライズ用）
-  const cookieStore = await cookies();
-  const profileRaw = cookieStore.get("place-profile")?.value;
-  const hasProfile = !!profileRaw;
-  const profile = parseProfile(profileRaw);
+  // パーソナライズはクライアント側(PlaceGroupList)で実施
 
   // placeGroupList用に変換（日次キャッシュ）
   const getAreaPlacesCached = unstable_cache(
@@ -84,9 +79,8 @@ export default async function AreaDetailPage({
       phone: s.phone,
       website: s.website,
       status: s.status,
-      categorySlug: s.category,
-      categoryName: getCategory(s.category)?.name ?? s.category,
-      images: (s as Record<string, unknown>).images as string[] | undefined,
+      categorySlug: s.category ?? "",
+      categoryName: getCategory(s.category ?? "")?.name ?? s.category ?? "",
     })),
     [`area-places-${code}-${areaSlug}`],
     { revalidate: 86400 },
@@ -96,7 +90,7 @@ export default async function AreaDetailPage({
   // サブカテゴリ（カテゴリフィルタ用）
   const catCounts: Record<string, number> = {};
   for (const s of places) {
-    catCounts[s.category] = (catCounts[s.category] ?? 0) + 1;
+    catCounts[s.category ?? ""] = (catCounts[s.category ?? ""] ?? 0) + 1;
   }
   const subCategories = Object.entries(catCounts)
     .map(([slug, count]) => ({
@@ -106,10 +100,7 @@ export default async function AreaDetailPage({
     }))
     .sort((a, b) => b.count - a.count);
 
-  // Cookieあり: パーソナライズソート / なし: 日次シードソート
-  const placeItems = hasProfile
-    ? rankPlaces(rawPlaceItems, profile)
-    : rankPlaces(rawPlaceItems, { categories: {}, tags: {}, areas: {} });
+  const placeItems = rankPlaces(rawPlaceItems, { categories: {}, tags: {}, areas: {} });
 
   // テーマ（一番スポットが多いカテゴリのグループテーマ）
   const topCategory = subCategories[0]?.slug;

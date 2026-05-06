@@ -1,6 +1,5 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { cookies, headers } from "next/headers";
 import { unstable_cache } from "next/cache";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -10,13 +9,13 @@ import {
   categoryGroups,
   getCategory,
   getCategoryGroup,
-  getplacesByCategory,
+  getplacesForList,
   getCategoryCounts,
 } from "@/lib/directory";
 import PlaceGroupList from "@/components/SpotGroupList";
 import PlaceCategoryList from "@/components/SpotCategoryList";
 import { getGroupTheme, getCategoryTheme, type GroupTheme } from "@/lib/group-theme";
-import { rankPlaces, parseProfile } from "@/lib/rank-places";
+import { rankPlaces } from "@/lib/rank-places";
 import {
   UtensilsCrossed,
   Coffee,
@@ -72,8 +71,7 @@ const iconMap: Record<string, (size: number) => React.ReactNode> = {
   Compass: (s) => <Compass size={s} />,
 };
 
-// CookieベースのパーソナライズのためSSR（force-dynamic）
-export const dynamic = "force-dynamic";
+export const revalidate = 86400;
 
 export function generateMetadata({
   params,
@@ -135,12 +133,7 @@ export default async function CategoryPage({
   const country = getCountry(code);
   if (!country) notFound();
 
-  // Cookieからユーザープロファイルを取得（パーソナライズ用）
-  // Cookieなし（クローラー・初回訪問）はキャッシュ版を使い、サーバー負荷を抑える
-  const cookieStore = await cookies();
-  const profileRaw = cookieStore.get("place-profile")?.value;
-  const hasProfile = !!profileRaw;
-  const profile = parseProfile(profileRaw);
+  // パーソナライズはクライアント側(PlaceGroupList/PlaceCategoryList)で実施
 
   // グループスラッグの場合 → サブカテゴリ一覧を表示
   const group = getCategoryGroup(slug);
@@ -169,7 +162,7 @@ export default async function CategoryPage({
         const results = await Promise.all(
           group.categories.map(async (catSlug) => {
             const cat = categories.find((c) => c.slug === catSlug);
-            const places = await getplacesByCategory(code, catSlug);
+            const places = await getplacesForList(code, catSlug);
             return places.map((place) => ({
               slug: place.slug,
               name: place.name,
@@ -182,7 +175,6 @@ export default async function CategoryPage({
               status: place.status,
               categorySlug: catSlug,
               categoryName: cat?.name ?? catSlug,
-              images: (place as Record<string, unknown>).images as string[] | undefined,
             }));
           })
         );
@@ -199,10 +191,7 @@ export default async function CategoryPage({
       // Supabase接続失敗時は空リストで継続（5xx防止）
     }
 
-    // Cookieあり: パーソナライズソート / なし: 日次シードソート（キャッシュ効果最大化）
-    const groupplaces = hasProfile
-      ? rankPlaces(rawGroupplaces, profile)
-      : rankPlaces(rawGroupplaces, { categories: {}, tags: {}, areas: {} });
+    const groupplaces = rankPlaces(rawGroupplaces, { categories: {}, tags: {}, areas: {} });
 
     const subCategories = childCategories
       .filter((c) => c.count > 0)
@@ -321,7 +310,7 @@ export default async function CategoryPage({
   // データ取得を日次キャッシュ（クローラー対策）
   const getPlacesCached = unstable_cache(
     async () => {
-      const places = await getplacesByCategory(code, catSlug);
+      const places = await getplacesForList(code, catSlug);
       return places.map((p) => ({ ...p, categorySlug: catSlug }));
     },
     [`cat-places-${code}-${catSlug}`],
@@ -334,10 +323,7 @@ export default async function CategoryPage({
     // Supabase接続失敗時は空リストで継続（5xx防止）
   }
 
-  // Cookieあり: パーソナライズソート / なし: 日次シードソート（キャッシュ効果最大化）
-  const places = hasProfile
-    ? rankPlaces(rawPlaces, profile)
-    : rankPlaces(rawPlaces, { categories: {}, tags: {}, areas: {} });
+  const places = rankPlaces(rawPlaces, { categories: {}, tags: {}, areas: {} });
   const areas = [...new Set(places.map((s) => s.area))].sort();
   const catTheme = getCategoryTheme(catSlug);
 

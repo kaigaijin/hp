@@ -10,7 +10,7 @@ import {
   categoryGroups,
   getCategoryCounts,
   getGroupCounts,
-  getAllplaces,
+  getAllplacesLight,
   getAllAreas,
   getCategory,
 } from "@/lib/directory";
@@ -118,14 +118,14 @@ export default async function placeIndexPage({
   const articles = getArticlesByCountry(code);
   const areas = (await getAllAreas(code)).slice(0, 12);
 
-  const allplaces = await getAllplaces(code);
+  const allplaces = await getAllplacesLight(code);
   const searchableplaces = allplaces.map((place) => ({
     slug: place.slug,
     name: place.name,
     name_ja: place.name_ja,
     area: place.area,
-    category: place.category,
-    categoryName: getCategory(place.category)?.name ?? place.category,
+    category: place.category ?? "",
+    categoryName: getCategory(place.category ?? "")?.name ?? place.category ?? "",
     description: place.description,
     tags: place.tags,
   }));
@@ -135,10 +135,10 @@ export default async function placeIndexPage({
     name: s.name,
     name_ja: s.name_ja,
     area: s.area,
-    category: s.category,
-    categoryName: getCategory(s.category)?.name ?? s.category,
+    category: s.category ?? "",
+    categoryName: getCategory(s.category ?? "")?.name ?? s.category ?? "",
     tags: s.tags,
-    group: categoryGroups.find((g) => g.categories.includes(s.category))?.slug ?? "",
+    group: categoryGroups.find((g) => g.categories.includes(s.category ?? ""))?.slug ?? "",
   }));
 
   const jsonLdPlaceIndex = {

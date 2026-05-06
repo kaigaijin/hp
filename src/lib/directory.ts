@@ -279,6 +279,26 @@ export const statusConfig: Record<
   },
 };
 
+const PLACE_LIST_COLUMNS = "slug,name,name_ja,area,description,tags,phone,website,status,priority,needs_review,category" as const;
+
+type PlaceListItem = Pick<place, "slug" | "name" | "name_ja" | "area" | "description" | "tags" | "phone" | "website" | "status" | "priority"> & { needs_review?: boolean; category?: string };
+
+export async function getplacesForList(
+  countryCode: string,
+  categorySlug: string,
+): Promise<PlaceListItem[]> {
+  const { data, error } = await getSupabaseServer()
+    .from("places")
+    .select(PLACE_LIST_COLUMNS)
+    .eq("country_code", countryCode)
+    .eq("category", categorySlug)
+    .neq("status", "deleted")
+    .not("needs_review", "eq", true)
+    .order("priority", { ascending: false });
+  if (error || !data) return [];
+  return data as PlaceListItem[];
+}
+
 export async function getplacesByCategory(
   countryCode: string,
   categorySlug: string,
@@ -356,7 +376,19 @@ export async function getNeedsReviewplaces(): Promise<Array<
   >;
 }
 
-// 国ごとの全スポットを取得（sitemap用）
+export async function getAllplacesLight(
+  countryCode: string,
+): Promise<PlaceListItem[]> {
+  const { data, error } = await getSupabaseServer()
+    .from("places")
+    .select(PLACE_LIST_COLUMNS)
+    .eq("country_code", countryCode)
+    .not("needs_review", "eq", true);
+  if (error || !data) return [];
+  return data as PlaceListItem[];
+}
+
+// 国ごとの全スポットを取得（全カラム必要な場合のみ使用）
 export async function getAllplaces(
   countryCode: string,
 ): Promise<Array<place & { category: string }>> {
@@ -384,11 +416,15 @@ export function toAreaSlug(area: string): string {
 export async function getAreaCounts(
   countryCode: string,
 ): Promise<Record<string, number>> {
-  const allPlaces = await getAllplaces(countryCode);
+  const { data, error } = await getSupabaseServer()
+    .from("places")
+    .select("area")
+    .eq("country_code", countryCode)
+    .not("needs_review", "eq", true);
+  if (error || !data) return {};
   const counts: Record<string, number> = {};
-  for (const place of allPlaces) {
-    const area = place.area;
-    counts[area] = (counts[area] ?? 0) + 1;
+  for (const row of data) {
+    counts[row.area] = (counts[row.area] ?? 0) + 1;
   }
   return counts;
 }
@@ -416,18 +452,30 @@ export async function getAreaNameBySlug(
 export async function getplacesByArea(
   countryCode: string,
   areaName: string,
-): Promise<Array<place & { category: string }>> {
-  const allPlaces = await getAllplaces(countryCode);
-  return allPlaces.filter((s) => s.area === areaName);
+): Promise<PlaceListItem[]> {
+  const { data, error } = await getSupabaseServer()
+    .from("places")
+    .select(PLACE_LIST_COLUMNS)
+    .eq("country_code", countryCode)
+    .eq("area", areaName)
+    .not("needs_review", "eq", true);
+  if (error || !data) return [];
+  return data as PlaceListItem[];
 }
+
+const GEO_COLUMNS = "slug,name,name_ja,area,category,description,tags,priority,lat,lng" as const;
 
 // 座標付きスポットのみ取得（地図表示用）
 export async function getGeoplaces(
   countryCode: string,
-): Promise<Array<place & { category: string; lat: number; lng: number }>> {
-  const allPlaces = await getAllplaces(countryCode);
-  return allPlaces.filter(
-    (s): s is place & { category: string; lat: number; lng: number } =>
-      typeof s.lat === "number" && typeof s.lng === "number",
-  );
+): Promise<Array<{ slug: string; name: string; name_ja?: string; area: string; category: string; description: string; tags: string[]; priority: number; lat: number; lng: number }>> {
+  const { data, error } = await getSupabaseServer()
+    .from("places")
+    .select(GEO_COLUMNS)
+    .eq("country_code", countryCode)
+    .not("needs_review", "eq", true)
+    .not("lat", "is", null)
+    .not("lng", "is", null);
+  if (error || !data) return [];
+  return data as Array<{ slug: string; name: string; name_ja?: string; area: string; category: string; description: string; tags: string[]; priority: number; lat: number; lng: number }>;
 }

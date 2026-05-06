@@ -8,7 +8,7 @@ import {
   getGeoplaces,
   getCategory,
   categoryGroups,
-  getAllplaces,
+  getAllplacesLight,
 } from "@/lib/directory";
 import { ChevronRight } from "lucide-react";
 
@@ -54,7 +54,7 @@ export default async function MapPage({
   if (!country) notFound();
 
   const geoplaces = await getGeoplaces(code);
-  const allplaces = await getAllplaces(code);
+  const allplaces = await getAllplacesLight(code);
 
   // 地図表示用データ
   const mapplaces = geoplaces.map((s) => ({

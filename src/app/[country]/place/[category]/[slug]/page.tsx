@@ -13,7 +13,7 @@ import {
   categories,
   getCategory,
   getplace,
-  getplacesByCategory,
+  getplacesForList,
 } from "@/lib/directory";
 import { getCategoryTheme } from "@/lib/group-theme";
 import PlaceReportForm from "@/components/SpotReportForm";
@@ -130,7 +130,7 @@ export default async function placeDetailPage({
   const category = getCategory(catSlug);
   const [place, sameCategoryAll] = await Promise.all([
     getplace(code, catSlug, slug),
-    getplacesByCategory(code, catSlug),
+    getplacesForList(code, catSlug),
   ]);
   if (!country || !category || !place) notFound();
 
