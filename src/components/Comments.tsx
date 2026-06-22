@@ -23,6 +23,7 @@ export default function Comments({
   const [loading, setLoading] = useState(true);
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
+  const [errorMsg, setErrorMsg] = useState("");
 
   const fetchComments = useCallback(async () => {
     try {
@@ -46,6 +47,7 @@ export default function Comments({
     if (!name.trim() || !text.trim()) return;
 
     setSubmitting(true);
+    setErrorMsg("");
     try {
       const res = await fetch("/api/comments", {
         method: "POST",
@@ -62,7 +64,12 @@ export default function Comments({
         setSubmitted(true);
         setTimeout(() => setSubmitted(false), 3000);
         fetchComments();
+      } else {
+        const data = await res.json().catch(() => ({}));
+        setErrorMsg(data?.error || "投稿に失敗しました。時間をおいてお試しください。");
       }
+    } catch {
+      setErrorMsg("投稿に失敗しました。時間をおいてお試しください。");
     } finally {
       setSubmitting(false);
     }
@@ -174,6 +181,9 @@ export default function Comments({
             <span className="text-sm text-green-600 dark:text-green-400">
               コメントを投稿しました
             </span>
+          )}
+          {errorMsg && (
+            <span className="text-sm text-red-600 dark:text-red-400">{errorMsg}</span>
           )}
         </div>
       </form>

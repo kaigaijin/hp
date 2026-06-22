@@ -83,6 +83,28 @@ export async function POST(req: NextRequest) {
     const city = decode(h.get("x-vercel-ip-city"));
     const user_agent = h.get("user-agent") || null;
 
+    // 連投防止: 同一IPから60秒以内の投稿を拒否（IP取得できない環境はスキップ）
+    const RATE_LIMIT_SEC = 60;
+    if (ip_address) {
+      const since = new Date(Date.now() - RATE_LIMIT_SEC * 1000).toISOString();
+      const recent = await fetch(
+        `${SUPABASE_URL}/rest/v1/comments?ip_address=eq.${encodeURIComponent(ip_address)}&created_at=gte.${encodeURIComponent(since)}&select=id&limit=1`,
+        {
+          headers: { apikey: SUPABASE_KEY, Authorization: `Bearer ${SUPABASE_KEY}` },
+          cache: "no-store",
+        }
+      );
+      if (recent.ok) {
+        const rows = await recent.json();
+        if (Array.isArray(rows) && rows.length > 0) {
+          return NextResponse.json(
+            { error: "コメントの連続投稿はできません。しばらく時間をおいてからお試しください。" },
+            { status: 429 }
+          );
+        }
+      }
+    }
+
     const res = await fetch(`${SUPABASE_URL}/rest/v1/comments`, {
       method: "POST",
       headers: {
