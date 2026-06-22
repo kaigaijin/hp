@@ -4,16 +4,23 @@ import { Resend } from "resend";
 const SUPABASE_URL = process.env.INQUIRY_SUPABASE_URL || process.env.NEXT_PUBLIC_SUPABASE_URL || "";
 const SUPABASE_KEY = process.env.INQUIRY_SUPABASE_ANON_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || "";
 
-function sendCommentNotification(project: string, slug: string, author: string, content: string) {
+function sendCommentNotification(
+  project: string,
+  slug: string,
+  author: string,
+  content: string,
+  geo: { ip_address: string | null; country: string | null; region: string | null; city: string | null }
+) {
   const key = process.env.RESEND_API_KEY;
   const to = process.env.COMMENT_NOTIFICATION_EMAIL || process.env.INQUIRY_NOTIFICATION_EMAIL;
   if (!key || !to) return;
   const resend = new Resend(key);
+  const location = [geo.city, geo.region, geo.country].filter(Boolean).join(", ") || "不明";
   resend.emails.send({
     from: "Kaigaijin <noreply@kaigaijin.jp>",
     to: [to],
     subject: `[コメント] ${project} - ${slug}`,
-    text: `新しいコメントが投稿されました。\n\nプロジェクト: ${project}\n記事: ${slug}\n投稿者: ${author}\n\n${content}\n\nURL: https://kaigaijin.jp/${slug}\n\n※即時公開されています。問題がある場合は削除してください。`,
+    text: `新しいコメントが投稿されました。\n\nプロジェクト: ${project}\n記事: ${slug}\n投稿者: ${author}\n地域: ${location}\nIP: ${geo.ip_address || "不明"}\n\n${content}\n\nURL: https://kaigaijin.jp/${slug}\n\n※即時公開されています。問題がある場合は削除してください。`,
   }).catch(() => {});
 }
 
@@ -56,6 +63,26 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "文字数制限を超えています" }, { status: 400 });
     }
 
+    // 投稿者のIP・地域を取得（モデレーション用）。Vercelのgeoヘッダを優先利用
+    const h = req.headers;
+    const ip_address =
+      h.get("x-vercel-forwarded-for") ||
+      h.get("x-real-ip") ||
+      h.get("x-forwarded-for")?.split(",")[0]?.trim() ||
+      null;
+    const decode = (v: string | null) => {
+      if (!v) return null;
+      try {
+        return decodeURIComponent(v);
+      } catch {
+        return v;
+      }
+    };
+    const country = h.get("x-vercel-ip-country") || null;
+    const region = decode(h.get("x-vercel-ip-country-region"));
+    const city = decode(h.get("x-vercel-ip-city"));
+    const user_agent = h.get("user-agent") || null;
+
     const res = await fetch(`${SUPABASE_URL}/rest/v1/comments`, {
       method: "POST",
       headers: {
@@ -70,6 +97,11 @@ export async function POST(req: NextRequest) {
         author_name: author_name.trim(),
         content: content.trim(),
         approved: true,
+        ip_address,
+        country,
+        region,
+        city,
+        user_agent,
       }),
     });
 
@@ -77,7 +109,12 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "保存に失敗しました" }, { status: 500 });
     }
 
-    sendCommentNotification(project, article_slug, author_name.trim(), content.trim());
+    sendCommentNotification(project, article_slug, author_name.trim(), content.trim(), {
+      ip_address,
+      country,
+      region,
+      city,
+    });
 
     return NextResponse.json({ success: true }, { status: 201 });
   } catch {
